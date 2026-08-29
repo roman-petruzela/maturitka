@@ -1,0 +1,31 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { SUBJECTS, SUBJECT_KEYS } from '../lib/subjects';
+import { getCollection } from 'astro:content';
+
+const counts: Record<string, number> = {};
+for (const key of SUBJECT_KEYS) {
+	counts[key] = (await getCollection(key)).length;
+}
+const total = Object.values(counts).reduce((sum, n) => sum + n, 0);
+---
+
+<BaseLayout title="Přehled předmětů">
+	<p class="eyebrow">Učební materiál k maturitě</p>
+	<h1>MATURITKA</h1>
+	<p>
+		Přehledně poskládaný učební materiál z archivu maturitních podkladů — {total} témat
+		napříč čtyřmi předměty, další budou přibývat.
+	</p>
+	<div class="subject-grid">
+		{
+			SUBJECT_KEYS.map((key) => (
+				<a class="subject-card" href={`/${key}/`}>
+					<span class="eyebrow">{counts[key]} témat</span>
+					<h2>{SUBJECTS[key].label}</h2>
+					<p>{SUBJECTS[key].description}</p>
+				</a>
+			))
+		}
+	</div>
+</BaseLayout>

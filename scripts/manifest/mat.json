@@ -1,0 +1,608 @@
+[
+  {
+    "src": "MATURITA HADR/Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/1) Slovní úlohy ostatní.pdf",
+    "dest": "mat/resene-ulohy-dt/01-slovni-ulohy-ostatni.md",
+    "title": "Slovní úlohy ostatní",
+    "order": 1
+  },
+  {
+    "src": "MATURITA HADR/Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/10) Soustava 2 lineárních rovnic o 2 neznámých.pdf",
+    "dest": "mat/resene-ulohy-dt/10-soustava-2-linearnich-rovnic-o-2-neznamych.md",
+    "title": "Soustava 2 lineárních rovnic o 2 neznámých",
+    "order": 10
+  },
+  {
+    "src": "MATURITA HADR/Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/11) Soustava 3 lineárních rovnic o 3 neznámých.pdf",
+    "dest": "mat/resene-ulohy-dt/11-soustava-3-linearnich-rovnic-o-3-neznamych.md",
+    "title": "Soustava 3 lineárních rovnic o 3 neznámých",
+    "order": 11
+  },
+  {
+    "src": "MATURITA HADR/Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/12) Soustava 2 lineárních nerovnic o 1 neznámé.pdf",
+    "dest": "mat/resene-ulohy-dt/12-soustava-2-linearnich-nerovnic-o-1-nezname.md",
+    "title": "Soustava 2 lineárních nerovnic o 1 neznámé",
+    "order": 12
+  },
+  {
+    "src": "MATURITA HADR/Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/13) Slovní úlohy řešené pomocí rovnice nebo soustavy rovnic.pdf",
+    "dest": "mat/resene-ulohy-dt/13-slovni-ulohy-resene-pomoci-rovnice-nebo-soustavy-rovnic.md",
+    "title": "Slovní úlohy řešené pomocí rovnice nebo soustavy rovnic",
+    "order": 13
+  },
+  {
+    "src": "MATURITA HADR/Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/14) Kvadratická rovnice.pdf",
+    "dest": "mat/resene-ulohy-dt/14-kvadraticka-rovnice.md",
+    "title": "Kvadratická rovnice",
+    "order": 14
+  },
+  {
+    "src": "MATURITA HADR/Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/15) Rovnice v součinovém nebo podílovém tvaru.pdf",
+    "dest": "mat/resene-ulohy-dt/15-rovnice-v-soucinovem-nebo-podilovem-tvaru.md",
+    "title": "Rovnice v součinovém nebo podílovém tvaru",
+    "order": 15
+  },
+  {
+    "src": "MATURITA HADR/Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/16) Nerovnice v součinovém tvaru.pdf",
+    "dest": "mat/resene-ulohy-dt/16-nerovnice-v-soucinovem-tvaru.md",
+    "title": "Nerovnice v součinovém tvaru",
+    "order": 16
+  },
+  {
+    "src": "MATURITA HADR/Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/17) Nerovnice v podílovém tvaru.pdf",
+    "dest": "mat/resene-ulohy-dt/17-nerovnice-v-podilovem-tvaru.md",
+    "title": "Nerovnice v podílovém tvaru",
+    "order": 17
+  },
+  {
+    "src": "MATURITA HADR/Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/18) Funkce nepřímá úměrnost.pdf",
+    "dest": "mat/resene-ulohy-dt/18-funkce-neprima-umernost.md",
+    "title": "Funkce nepřímá úměrnost",
+    "order": 18
+  },
+  {
+    "src": "MATURITA HADR/Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/19) Lineární funkce.pdf",
+    "dest": "mat/resene-ulohy-dt/19-linearni-funkce.md",
+    "title": "Lineární funkce",
+    "order": 19
+  },
+  {
+    "src": "MATURITA HADR/Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/2) Množiny ( včetně intervalů ).pdf",
+    "dest": "mat/resene-ulohy-dt/02-mnoziny-vcetne-intervalu.md",
+    "title": "Množiny ( včetně intervalů )",
+    "order": 2
+  },
+  {
+    "src": "MATURITA HADR/Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/20) Kvadratická funkce.pdf",
+    "dest": "mat/resene-ulohy-dt/20-kvadraticka-funkce.md",
+    "title": "Kvadratická funkce",
+    "order": 20
+  },
+  {
+    "src": "MATURITA HADR/Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/21) Goniometrické funkce.pdf",
+    "dest": "mat/resene-ulohy-dt/21-goniometricke-funkce.md",
+    "title": "Goniometrické funkce",
+    "order": 21
+  },
+  {
+    "src": "MATURITA HADR/Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/23) Planimetrie.pdf",
+    "dest": "mat/resene-ulohy-dt/23-planimetrie.md",
+    "title": "Planimetrie",
+    "order": 23
+  },
+  {
+    "src": "MATURITA HADR/Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/24) Stereometrie.pdf",
+    "dest": "mat/resene-ulohy-dt/24-stereometrie.md",
+    "title": "Stereometrie",
+    "order": 24
+  },
+  {
+    "src": "MATURITA HADR/Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/25) Logaritmická funkce.pdf",
+    "dest": "mat/resene-ulohy-dt/25-logaritmicka-funkce.md",
+    "title": "Logaritmická funkce",
+    "order": 25
+  },
+  {
+    "src": "MATURITA HADR/Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/26) Logaritmické rovnice.pdf",
+    "dest": "mat/resene-ulohy-dt/26-logaritmicke-rovnice.md",
+    "title": "Logaritmické rovnice",
+    "order": 26
+  },
+  {
+    "src": "MATURITA HADR/Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/27) Exponenciální funkce.pdf",
+    "dest": "mat/resene-ulohy-dt/27-exponencialni-funkce.md",
+    "title": "Exponenciální funkce",
+    "order": 27
+  },
+  {
+    "src": "MATURITA HADR/Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/28) Funkce obecně.pdf",
+    "dest": "mat/resene-ulohy-dt/28-funkce-obecne.md",
+    "title": "Funkce obecně",
+    "order": 28
+  },
+  {
+    "src": "MATURITA HADR/Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/29) Exponenciální rovnice.pdf",
+    "dest": "mat/resene-ulohy-dt/29-exponencialni-rovnice.md",
+    "title": "Exponenciální rovnice",
+    "order": 29
+  },
+  {
+    "src": "MATURITA HADR/Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/3) Mocniny.pdf",
+    "dest": "mat/resene-ulohy-dt/03-mocniny.md",
+    "title": "Mocniny",
+    "order": 3
+  },
+  {
+    "src": "MATURITA HADR/Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/30) Ostatní úlohy.pdf",
+    "dest": "mat/resene-ulohy-dt/30-ostatni-ulohy.md",
+    "title": "Ostatní úlohy",
+    "order": 30
+  },
+  {
+    "src": "MATURITA HADR/Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/31) Kombinatorika.pdf",
+    "dest": "mat/resene-ulohy-dt/31-kombinatorika.md",
+    "title": "Kombinatorika",
+    "order": 31
+  },
+  {
+    "src": "MATURITA HADR/Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/32) Pravděpodobnost.pdf",
+    "dest": "mat/resene-ulohy-dt/32-pravdepodobnost.md",
+    "title": "Pravděpodobnost",
+    "order": 32
+  },
+  {
+    "src": "MATURITA HADR/Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/33) Statistika.pdf",
+    "dest": "mat/resene-ulohy-dt/33-statistika.md",
+    "title": "Statistika",
+    "order": 33
+  },
+  {
+    "src": "MATURITA HADR/Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/34) Obecná posloupnost.pdf",
+    "dest": "mat/resene-ulohy-dt/34-obecna-posloupnost.md",
+    "title": "Obecná posloupnost",
+    "order": 34
+  },
+  {
+    "src": "MATURITA HADR/Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/35) Aritmetická posloupnost.pdf",
+    "dest": "mat/resene-ulohy-dt/35-aritmeticka-posloupnost.md",
+    "title": "Aritmetická posloupnost",
+    "order": 35
+  },
+  {
+    "src": "MATURITA HADR/Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/36) Geometrická posloupnost.pdf",
+    "dest": "mat/resene-ulohy-dt/36-geometricka-posloupnost.md",
+    "title": "Geometrická posloupnost",
+    "order": 36
+  },
+  {
+    "src": "MATURITA HADR/Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/37) Analytická geometrie.pdf",
+    "dest": "mat/resene-ulohy-dt/37-analyticka-geometrie.md",
+    "title": "Analytická geometrie",
+    "order": 37
+  },
+  {
+    "src": "MATURITA HADR/Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/4) Odmocniny.pdf",
+    "dest": "mat/resene-ulohy-dt/04-odmocniny.md",
+    "title": "Odmocniny",
+    "order": 4
+  },
+  {
+    "src": "MATURITA HADR/Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/5) Výrazy ( nelomené ).pdf",
+    "dest": "mat/resene-ulohy-dt/05-vyrazy-nelomene.md",
+    "title": "Výrazy ( nelomené )",
+    "order": 5
+  },
+  {
+    "src": "MATURITA HADR/Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/6) Lomené výrazy.pdf",
+    "dest": "mat/resene-ulohy-dt/06-lomene-vyrazy.md",
+    "title": "Lomené výrazy",
+    "order": 6
+  },
+  {
+    "src": "MATURITA HADR/Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/7) Lineární rovnice.pdf",
+    "dest": "mat/resene-ulohy-dt/07-linearni-rovnice.md",
+    "title": "Lineární rovnice",
+    "order": 7
+  },
+  {
+    "src": "MATURITA HADR/Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/8) Vyjádření neznámé ze vzorce.pdf",
+    "dest": "mat/resene-ulohy-dt/08-vyjadreni-nezname-ze-vzorce.md",
+    "title": "Vyjádření neznámé ze vzorce",
+    "order": 8
+  },
+  {
+    "src": "MATURITA HADR/Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/9) Lineární nerovnice.pdf",
+    "dest": "mat/resene-ulohy-dt/09-linearni-nerovnice.md",
+    "title": "Lineární nerovnice",
+    "order": 9
+  },
+  {
+    "src": "matematika/TY0101 Vzájemná poloha přímek a rovin v prostoru.pdf",
+    "dest": "mat/stereometrie/01-vzajemna-poloha-primek-a-rovin-v-prostoru.md",
+    "title": "Vzájemná poloha přímek a rovin v prostoru",
+    "order": 1
+  },
+  {
+    "src": "matematika/TY0102 Odchylka dvou přímek v prostoru.pdf",
+    "dest": "mat/stereometrie/02-odchylka-dvou-primek-v-prostoru.md",
+    "title": "Odchylka dvou přímek v prostoru",
+    "order": 2
+  },
+  {
+    "src": "matematika/TY0103 Kolmý hranol.pdf",
+    "dest": "mat/stereometrie/03-kolmy-hranol.md",
+    "title": "Kolmý hranol",
+    "order": 3
+  },
+  {
+    "src": "matematika/TY0104 Rotační válec.pdf",
+    "dest": "mat/stereometrie/04-rotacni-valec.md",
+    "title": "Rotační válec",
+    "order": 4
+  },
+  {
+    "src": "matematika/TY0105 Jehlan.pdf",
+    "dest": "mat/stereometrie/05-jehlan.md",
+    "title": "Jehlan",
+    "order": 5
+  },
+  {
+    "src": "matematika/TY0106 Rotační kužel.pdf",
+    "dest": "mat/stereometrie/06-rotacni-kuzel.md",
+    "title": "Rotační kužel",
+    "order": 6
+  },
+  {
+    "src": "matematika/TY0107 Komolý jehlan.pdf",
+    "dest": "mat/stereometrie/07-komoly-jehlan.md",
+    "title": "Komolý jehlan",
+    "order": 7
+  },
+  {
+    "src": "matematika/TY0108 Komolý kužel.pdf",
+    "dest": "mat/stereometrie/08-komoly-kuzel.md",
+    "title": "Komolý kužel",
+    "order": 8
+  },
+  {
+    "src": "matematika/TY0109 Koule, kulová plocha, kulová úseč a kulový vrchlík.pdf",
+    "dest": "mat/stereometrie/09-koule-kulova-plocha-kulova-usec-a-kulovy-vrchlik.md",
+    "title": "Koule, kulová plocha, kulová úseč a kulový vrchlík",
+    "order": 9
+  },
+  {
+    "src": "matematika/TY0110 Kulová výseč, kulová vrstva a kulový pás.pdf",
+    "dest": "mat/stereometrie/10-kulova-vysec-kulova-vrstva-a-kulovy-pas.md",
+    "title": "Kulová výseč, kulová vrstva a kulový pás",
+    "order": 10
+  },
+  {
+    "src": "matematika/TY01_0111 Planimetrie, úhel, vzájemná poloha přímek.pdf",
+    "dest": "mat/planimetrie/01-planimetrie-uhel-vzajemna-poloha-primek.md",
+    "title": "Planimetrie, úhel, vzájemná poloha přímek",
+    "order": 1
+  },
+  {
+    "src": "matematika/TY01_0112 Trojúhelník – základní poznatky.pdf",
+    "dest": "mat/planimetrie/02-trojuhelnik-zakladni-poznatky.md",
+    "title": "Trojúhelník – základní poznatky",
+    "order": 2
+  },
+  {
+    "src": "matematika/TY01_0113 Trojúhelník – pravoúhlý.pdf",
+    "dest": "mat/planimetrie/03-trojuhelnik-pravouhly.md",
+    "title": "Trojúhelník – pravoúhlý",
+    "order": 3
+  },
+  {
+    "src": "matematika/TY01_0114 Trojúhelník – obecný.pdf",
+    "dest": "mat/planimetrie/04-trojuhelnik-obecny.md",
+    "title": "Trojúhelník – obecný",
+    "order": 4
+  },
+  {
+    "src": "matematika/TY01_0115 Rovnoběžníky.pdf",
+    "dest": "mat/planimetrie/05-rovnobezniky.md",
+    "title": "Rovnoběžníky",
+    "order": 5
+  },
+  {
+    "src": "matematika/TY01_0116 Lichoběžník.pdf",
+    "dest": "mat/planimetrie/06-lichobeznik.md",
+    "title": "Lichoběžník",
+    "order": 6
+  },
+  {
+    "src": "matematika/TY01_0117 Pravidelný n-úhelník, nepravidelný n-úhelník.pdf",
+    "dest": "mat/planimetrie/07-pravidelny-n-uhelnik-nepravidelny-n-uhelnik.md",
+    "title": "Pravidelný n-úhelník, nepravidelný n-úhelník",
+    "order": 7
+  },
+  {
+    "src": "matematika/TY01_0118 Kruh, kružnice.pdf",
+    "dest": "mat/planimetrie/08-kruh-kruznice.md",
+    "title": "Kruh, kružnice",
+    "order": 8
+  },
+  {
+    "src": "matematika/TY01_0119 Délka kruhového oblouku a kruhová výseč.pdf",
+    "dest": "mat/planimetrie/09-delka-kruhoveho-oblouku-a-kruhova-vysec.md",
+    "title": "Délka kruhového oblouku a kruhová výseč",
+    "order": 9
+  },
+  {
+    "src": "matematika/TY01_0120 Kruhová úseč.pdf",
+    "dest": "mat/planimetrie/10-kruhova-usec.md",
+    "title": "Kruhová úseč",
+    "order": 10
+  },
+  {
+    "src": "matematika/TY01_0121_Bod_a_primka_v_kartezske_soustave.pptx",
+    "dest": "mat/analyticka-geometrie/01-bod-a-primka-v-kartezske-soustave.md",
+    "title": "Bod a přímka v kartézské soustavě",
+    "order": 1
+  },
+  {
+    "src": "matematika/TY01_0122_Usecka_stred_a_delka_usecky.pptx",
+    "dest": "mat/analyticka-geometrie/02-usecka-stred-a-delka-usecky.md",
+    "title": "Úsečka, střed a délka úsečky",
+    "order": 2
+  },
+  {
+    "src": "matematika/TY01_0123_Operace_s_vektory.pptx",
+    "dest": "mat/analyticka-geometrie/03-operace-s-vektory.md",
+    "title": "Operace s vektory",
+    "order": 3
+  },
+  {
+    "src": "matematika/TY01_0124_Soucet_a_rozdil_vektoru.pptx",
+    "dest": "mat/analyticka-geometrie/04-soucet-a-rozdil-vektoru.md",
+    "title": "Součet a rozdíl vektorů",
+    "order": 4
+  },
+  {
+    "src": "matematika/TY01_0125_Uhel_dvou_vektoru.pptx",
+    "dest": "mat/analyticka-geometrie/05-uhel-dvou-vektoru.md",
+    "title": "Úhel dvou vektorů",
+    "order": 5
+  },
+  {
+    "src": "matematika/TY01_0126_Smerovy_a_normalovy_vektor.pptx",
+    "dest": "mat/analyticka-geometrie/06-smerovy-a-normalovy-vektor.md",
+    "title": "Směrový a normálový vektor",
+    "order": 6
+  },
+  {
+    "src": "matematika/TY01_0127_Parametricke_vyjadreni_primky.pptx",
+    "dest": "mat/analyticka-geometrie/07-parametricke-vyjadreni-primky.md",
+    "title": "Parametrické vyjádření přímky",
+    "order": 7
+  },
+  {
+    "src": "matematika/TY01_0128_Obecna_rovnice_primky.pptx",
+    "dest": "mat/analyticka-geometrie/08-obecna-rovnice-primky.md",
+    "title": "Obecná rovnice přímky",
+    "order": 8
+  },
+  {
+    "src": "matematika/TY01_0129_Smernicovy_tvar_rovnice_primky.pptx",
+    "dest": "mat/analyticka-geometrie/09-smernicovy-tvar-rovnice-primky.md",
+    "title": "Směrnicový tvar rovnice přímky",
+    "order": 9
+  },
+  {
+    "src": "matematika/TY01_0130_Kuzelosecky.pptx",
+    "dest": "mat/analyticka-geometrie/10-kuzelosecky.md",
+    "title": "Kuželosečky",
+    "order": 10
+  },
+  {
+    "src": "matematika/TY01_0131_Kruznice.pptx",
+    "dest": "mat/analyticka-geometrie/11-kruznice.md",
+    "title": "Kružnice",
+    "order": 11
+  },
+  {
+    "src": "matematika/TY01_0132_Kartezska_soustava_souradnic.pptx",
+    "dest": "mat/analyticka-geometrie/12-kartezska-soustava-souradnic.md",
+    "title": "Kartézská soustava souřadnic",
+    "order": 12
+  },
+  {
+    "src": "matematika/TY01_0201-Kvadraticka_funkce.pptx",
+    "dest": "mat/funkce-a-rovnice/01-kvadraticka-funkce.md",
+    "title": "Kvadratická funkce",
+    "order": 1
+  },
+  {
+    "src": "matematika/TY01_0202-Kvadraticka_rovnice.pptx",
+    "dest": "mat/funkce-a-rovnice/02-kvadraticka-rovnice.md",
+    "title": "Kvadratická rovnice",
+    "order": 2
+  },
+  {
+    "src": "matematika/TY01_0203_-_Kvadraticka_nerovnice.pptx",
+    "dest": "mat/funkce-a-rovnice/03-kvadraticka-nerovnice.md",
+    "title": "Kvadratická nerovnice",
+    "order": 3
+  },
+  {
+    "src": "matematika/TY01_0204_-_Soustava_linearni_a_kvadraticke_rovnice.pptx",
+    "dest": "mat/funkce-a-rovnice/04-soustava-linearni-a-kvadraticke-rovnice.md",
+    "title": "Soustava lineární a kvadratické rovnice",
+    "order": 4
+  },
+  {
+    "src": "matematika/TY01_0205_-_Iracionalni_rovnice.pptx",
+    "dest": "mat/funkce-a-rovnice/05-iracionalni-rovnice.md",
+    "title": "Iracionální rovnice",
+    "order": 5
+  },
+  {
+    "src": "matematika/TY01_0206_-_Mocninne_funkce.pptx",
+    "dest": "mat/funkce-a-rovnice/06-mocninne-funkce.md",
+    "title": "Mocninné funkce",
+    "order": 6
+  },
+  {
+    "src": "matematika/TY01_0207_-_Inverzni_funkce.pptx",
+    "dest": "mat/funkce-a-rovnice/07-inverzni-funkce.md",
+    "title": "Inverzní funkce",
+    "order": 7
+  },
+  {
+    "src": "matematika/TY01_0208_-_Exponencialni_funkce_a_jeji_posunuti.pptx",
+    "dest": "mat/funkce-a-rovnice/08-exponencialni-funkce-a-jeji-posunuti.md",
+    "title": "Exponenciální funkce a její posunutí",
+    "order": 8
+  },
+  {
+    "src": "matematika/TY01_0209_-_Exponencialni_rovnice.pptx",
+    "dest": "mat/funkce-a-rovnice/09-exponencialni-rovnice.md",
+    "title": "Exponenciální rovnice",
+    "order": 9
+  },
+  {
+    "src": "matematika/TY01_0210_-_Logaritmicka_funkce_a_jeji_posunuti.pptx",
+    "dest": "mat/funkce-a-rovnice/10-logaritmicka-funkce-a-jeji-posunuti.md",
+    "title": "Logaritmická funkce a její posunutí",
+    "order": 10
+  },
+  {
+    "src": "matematika/TY01_0211_-_Logaritmus_vety_o_logaritmovani_logaritmicke_rovnice.pptx",
+    "dest": "mat/funkce-a-rovnice/11-logaritmus-vety-o-logaritmovani-logaritmicke-rovnice.md",
+    "title": "Logaritmus, věty o logaritmování, logaritmické rovnice",
+    "order": 11
+  },
+  {
+    "src": "matematika/TY01_0212_-_Goniometricke_funkce.pptx",
+    "dest": "mat/funkce-a-rovnice/12-goniometricke-funkce.md",
+    "title": "Goniometrické funkce",
+    "order": 12
+  },
+  {
+    "src": "matematika/TY01_0213_-_Uprava_vyrazu_s_goniometrickymi_funkcemi.pptx",
+    "dest": "mat/funkce-a-rovnice/13-uprava-vyrazu-s-goniometrickymi-funkcemi.md",
+    "title": "Úprava výrazů s goniometrickými funkcemi",
+    "order": 13
+  },
+  {
+    "src": "matematika/TY01_0214_-_Goniometricke_rovnice.pptx",
+    "dest": "mat/funkce-a-rovnice/14-goniometricke-rovnice.md",
+    "title": "Goniometrické rovnice",
+    "order": 14
+  },
+  {
+    "src": "matematika/TY01_0215-Posloupnost_-_obecna_posloupnost.pptx",
+    "dest": "mat/posloupnosti/01-posloupnost-obecna-posloupnost.md",
+    "title": "Posloupnost – obecná posloupnost",
+    "order": 1
+  },
+  {
+    "src": "matematika/TY01_0216-Aritmeticka_posloupnost.pptx",
+    "dest": "mat/posloupnosti/02-aritmeticka-posloupnost.md",
+    "title": "Aritmetická posloupnost",
+    "order": 2
+  },
+  {
+    "src": "matematika/TY01_0217-Geometricka_posloupnost.pptx",
+    "dest": "mat/posloupnosti/03-geometricka-posloupnost.md",
+    "title": "Geometrická posloupnost",
+    "order": 3
+  },
+  {
+    "src": "matematika/TY01_0218_Statistika_zakladni_pojmy.pptx",
+    "dest": "mat/statistika/01-statistika-zakladni-pojmy.md",
+    "title": "Statistika – základní pojmy",
+    "order": 1
+  },
+  {
+    "src": "matematika/TY01_0219_statistika_-_setreni.pptx",
+    "dest": "mat/statistika/02-statistika-setreni.md",
+    "title": "Statistika – šetření",
+    "order": 2
+  },
+  {
+    "src": "matematika/TY01_0220_Statistika_-_grafy.pptx",
+    "dest": "mat/statistika/03-statistika-grafy.md",
+    "title": "Statistika – grafy",
+    "order": 3
+  },
+  {
+    "src": "matematika/TY01_0221_Statistika_-_charakteristiky_polohy.pptx",
+    "dest": "mat/statistika/04-statistika-charakteristiky-polohy.md",
+    "title": "Statistika – charakteristiky polohy",
+    "order": 4
+  },
+  {
+    "src": "matematika/TY01_0222_Statistika_-_charakteristiky_variability.pptx",
+    "dest": "mat/statistika/05-statistika-charakteristiky-variability.md",
+    "title": "Statistika – charakteristiky variability",
+    "order": 5
+  },
+  {
+    "src": "matematika/TY01_0223_Statistika_-_korelace.pptx",
+    "dest": "mat/statistika/06-statistika-korelace.md",
+    "title": "Statistika – korelace",
+    "order": 6
+  },
+  {
+    "src": "matematika/TY01_0224_Statistika_-_priprava_a_vyhotoveni_dotazniku.pptx",
+    "dest": "mat/statistika/07-statistika-priprava-a-vyhotoveni-dotazniku.md",
+    "title": "Statistika – příprava a vyhotovení dotazníku",
+    "order": 7
+  },
+  {
+    "src": "matematika/TY01_0233_Uvod_do_kombinatoriky.pptx",
+    "dest": "mat/kombinatorika/01-uvod-do-kombinatoriky.md",
+    "title": "Úvod do kombinatoriky",
+    "order": 1
+  },
+  {
+    "src": "matematika/TY01_0225_Variace_a_permutace_bez_opakovani.pptx",
+    "dest": "mat/kombinatorika/02-variace-a-permutace-bez-opakovani.md",
+    "title": "Variace a permutace bez opakování",
+    "order": 2
+  },
+  {
+    "src": "matematika/TY01_0226_Faktorial.pptx",
+    "dest": "mat/kombinatorika/03-faktorial.md",
+    "title": "Faktoriál",
+    "order": 3
+  },
+  {
+    "src": "matematika/TY01_0227_Kombinace_bez_opakovani.pptx",
+    "dest": "mat/kombinatorika/04-kombinace-bez-opakovani.md",
+    "title": "Kombinace bez opakování",
+    "order": 4
+  },
+  {
+    "src": "matematika/TY01_0228_Variace_a_permutace_s_opakovanim.pptx",
+    "dest": "mat/kombinatorika/05-variace-a-permutace-s-opakovanim.md",
+    "title": "Variace a permutace s opakováním",
+    "order": 5
+  },
+  {
+    "src": "matematika/TY01_0229_Vlastnosti_kombinacnich_cisel.pptx",
+    "dest": "mat/kombinatorika/06-vlastnosti-kombinacnich-cisel.md",
+    "title": "Vlastnosti kombinačních čísel",
+    "order": 6
+  },
+  {
+    "src": "matematika/TY01_0230_Binomicka_veta.pptx",
+    "dest": "mat/kombinatorika/07-binomicka-veta.md",
+    "title": "Binomická věta",
+    "order": 7
+  },
+  {
+    "src": "matematika/TY01_0231_Pascaluv_trojuhelnik.pptx",
+    "dest": "mat/kombinatorika/08-pascaluv-trojuhelnik.md",
+    "title": "Pascalův trojúhelník",
+    "order": 8
+  },
+  {
+    "src": "matematika/TY01_0232_Kombinatorika_v_praxi.pptx",
+    "dest": "mat/kombinatorika/09-kombinatorika-v-praxi.md",
+    "title": "Kombinatorika v praxi",
+    "order": 9
+  }
+]

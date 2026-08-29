@@ -1,0 +1,118 @@
+---
+// Client-side scratchpad for working through a math problem with proper
+// notation (fractions, exponents, roots...) instead of plain text. Purely a
+// convenience input — nothing is graded or sent anywhere; content is only
+// kept in the browser's localStorage so a half-finished note survives a
+// refresh.
+---
+
+<section class="math-scratchpad" data-scratchpad>
+	<div class="scratchpad-head">
+		<span class="scratchpad-title">Pracovní plocha</span>
+		<button type="button" class="scratchpad-clear" data-scratchpad-clear>Vymazat</button>
+	</div>
+	<math-field
+		data-scratchpad-field
+		virtual-keyboard-mode="onfocus"
+		math-virtual-keyboard-policy="manual"
+		smart-fence
+		placeholder="Piš sem svůj postup / výsledek…"
+	></math-field>
+</section>
+
+<script>
+	import 'mathlive';
+
+	function initScratchpads() {
+		const sections = document.querySelectorAll<HTMLElement>('[data-scratchpad]');
+		sections.forEach((section) => {
+			const field = section.querySelector('math-field') as (HTMLElement & { value: string }) | null;
+			const clearBtn = section.querySelector('[data-scratchpad-clear]') as HTMLButtonElement | null;
+			if (!field) return;
+
+			const storageKey = `maturitka-scratchpad:${location.pathname}`;
+
+			const saved = localStorage.getItem(storageKey);
+			if (saved) field.value = saved;
+
+			field.addEventListener('input', () => {
+				if (field.value) {
+					localStorage.setItem(storageKey, field.value);
+				} else {
+					localStorage.removeItem(storageKey);
+				}
+			});
+
+			clearBtn?.addEventListener('click', () => {
+				field.value = '';
+				localStorage.removeItem(storageKey);
+				field.focus();
+			});
+
+			// desktop users don't have a touch keyboard forcing the panel open —
+			// give them an explicit way to summon it too
+			field.addEventListener('focus', () => {
+				// @ts-ignore - MathLive custom element method
+				field.executeCommand?.('showVirtualKeyboard');
+			});
+		});
+	}
+
+	if (document.readyState === 'loading') {
+		document.addEventListener('DOMContentLoaded', initScratchpads);
+	} else {
+		initScratchpads();
+	}
+</script>
+
+<style>
+	.math-scratchpad {
+		margin-top: 3rem;
+		border: 1px solid var(--border);
+		border-radius: 10px;
+		padding: 1rem 1.25rem 1.25rem;
+		background: var(--card-bg);
+	}
+
+	.scratchpad-head {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		margin-bottom: 0.6rem;
+		font-family: ui-sans-serif, system-ui, sans-serif;
+	}
+
+	.scratchpad-title {
+		font-size: 0.85rem;
+		text-transform: uppercase;
+		letter-spacing: 0.06em;
+		color: var(--muted);
+	}
+
+	.scratchpad-clear {
+		font-family: inherit;
+		font-size: 0.8rem;
+		color: var(--muted);
+		background: none;
+		border: 1px solid var(--border);
+		border-radius: 6px;
+		padding: 0.2rem 0.6rem;
+		cursor: pointer;
+	}
+
+	.scratchpad-clear:hover {
+		color: var(--fg);
+		border-color: var(--accent);
+	}
+
+	math-field {
+		width: 100%;
+		min-height: 3.5rem;
+		font-size: 1.15rem;
+		border: 1px solid var(--border);
+		border-radius: 8px;
+		padding: 0.6rem 0.8rem;
+		background: var(--bg);
+		color: var(--fg);
+	}
+</style>

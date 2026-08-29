@@ -1,0 +1,57 @@
+---
+import '../styles/global.css';
+import { SUBJECTS, SUBJECT_KEYS } from '../lib/subjects';
+
+interface Props {
+	title: string;
+	activeSubject?: string;
+	wide?: boolean;
+}
+
+const { title, activeSubject, wide = false } = Astro.props;
+---
+
+<html lang="cs">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>{title} · MATURITKA</title>
+		<link href="/pagefind/pagefind-ui.css" rel="stylesheet" />
+	</head>
+	<body>
+		<header class="site-header">
+			<a class="brand" href="/">MATURIT<span>KA</span></a>
+			<nav class="subject-nav">
+				{
+					SUBJECT_KEYS.map((key) => (
+						<a href={`/${key}/`} class={activeSubject === key ? 'active' : ''}>
+							{SUBJECTS[key].label}
+						</a>
+					))
+				}
+			</nav>
+			<div id="search"></div>
+		</header>
+		<main class={wide ? 'wide' : ''}>
+			<slot />
+		</main>
+		<script>
+			// Loaded as a plain <script> tag (not an ES import) on purpose: the
+			// /pagefind/ directory only exists after `npm run build`, so in dev
+			// mode this 404s and we just skip the search widget silently.
+			const pagefindScript = document.createElement('script');
+			pagefindScript.src = '/pagefind/pagefind-ui.js';
+			pagefindScript.onload = () => {
+				// @ts-ignore - global injected by pagefind-ui.js
+				if (window.PagefindUI) {
+					// @ts-ignore
+					new window.PagefindUI({ element: '#search', showSubResults: true, resetStyles: false });
+				}
+			};
+			pagefindScript.onerror = () => {};
+			document.head.appendChild(pagefindScript);
+		</script>
+	</body>
+</html>

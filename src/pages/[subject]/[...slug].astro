@@ -1,0 +1,86 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import MathScratchpad from '../../components/MathScratchpad.astro';
+import { SUBJECTS, SUBJECT_KEYS, type SubjectKey } from '../../lib/subjects';
+import { groupOfId, sortEntriesByOrder } from '../../lib/groups';
+import { getCollection, render } from 'astro:content';
+
+type Entry = Awaited<ReturnType<typeof getCollection<SubjectKey>>>[number];
+
+export async function getStaticPaths() {
+	const paths: { params: { subject: SubjectKey; slug: string }; props: { entry: Entry; subject: SubjectKey; prev: Entry | null; next: Entry | null } }[] = [];
+	for (const subject of SUBJECT_KEYS) {
+		const entries = await getCollection(subject);
+		const groups = new Map<string | null, typeof entries>();
+		for (const entry of entries) {
+			const g = groupOfId(entry.id);
+			if (!groups.has(g)) groups.set(g, []);
+			groups.get(g)!.push(entry);
+		}
+		for (const group of groups.values()) {
+			const sorted = sortEntriesByOrder(group);
+			sorted.forEach((entry, i) => {
+				paths.push({
+					params: { subject, slug: entry.id },
+					props: {
+						entry,
+						subject,
+						prev: sorted[i - 1] ?? null,
+						next: sorted[i + 1] ?? null,
+					},
+				});
+			});
+		}
+	}
+	return paths;
+}
+
+const { entry, subject, prev, next } = Astro.props as {
+	entry: Entry;
+	subject: SubjectKey;
+	prev: Entry | null;
+	next: Entry | null;
+};
+const { Content } = await render(entry);
+---
+
+<BaseLayout title={entry.data.title} activeSubject={subject} wide>
+	<p class="eyebrow">
+		<a class="back-link" href={`/${subject}/`}>← {SUBJECTS[subject].label}</a>
+	</p>
+	<h1 data-pagefind-meta="title">{entry.data.title}</h1>
+	{
+		entry.data.tags?.includes('doplněno') && (
+			<p class="doplneno-badge">
+				Doplněný obsah — není z archivu podkladů, napsáno podle ŠVP. Vhodné ověřit u vyučujícího.
+			</p>
+		)
+	}
+	<article class="topic" data-pagefind-body>
+		<Content />
+	</article>
+	{subject === 'mat' && <MathScratchpad />}
+	{
+		entry.data.source && (
+			<p class="source-note">Zdroj: {entry.data.source}</p>
+		)
+	}
+	{
+		(prev || next) && (
+			<nav class="topic-pager">
+				{prev ? (
+					<a class="topic-pager-prev" href={`/${subject}/${prev.id}/`}>
+						← {prev.data.title}
+					</a>
+				) : (
+					<span />
+				)}
+				{next && (
+					<a class="topic-pager-next" href={`/${subject}/${next.id}/`}>
+						{next.data.title} →
+					</a>
+				)}
+			</nav>
+		)
+	}
+</BaseLayout>

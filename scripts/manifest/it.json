@@ -1,0 +1,194 @@
+[
+  {
+    "src": "MATURITA HADR/IT/1. Algoritmizace.docx",
+    "dest": "it/programovani/01-algoritmizace.md",
+    "title": "Algoritmizace",
+    "order": 1
+  },
+  {
+    "src": "MATURITA HADR/IT/10. Počítačové sítě - definice, pojmy, dělení, topologie, přístupové metody.docx",
+    "dest": "it/pocitacove-site/01-pocitacove-site-definice-pojmy-deleni-topologie-pristupove-metody.md",
+    "title": "Počítačové sítě - definice, pojmy, dělení, topologie, přístupové metody",
+    "order": 1
+  },
+  {
+    "src": "MATURITA HADR/IT/11. Aktivní a pasivní síťové prvky.docx",
+    "dest": "it/pocitacove-site/02-aktivni-a-pasivni-sitove-prvky.md",
+    "title": "Aktivní a pasivní síťové prvky",
+    "order": 2
+  },
+  {
+    "src": "MATURITA HADR/IT/12. ISOOSI, TCPIP, síťové protokoly.docx",
+    "dest": "it/pocitacove-site/03-isoosi-tcpip-sitove-protokoly.md",
+    "title": "ISOOSI, TCPIP, síťové protokoly",
+    "order": 3
+  },
+  {
+    "src": "MATURITA HADR/IT/13. Internet.docx",
+    "dest": "it/pocitacove-site/04-internet.md",
+    "title": "Internet",
+    "order": 4
+  },
+  {
+    "src": "site/Deleni_siti_2025.pdf",
+    "dest": "it/pocitacove-site/05-deleni-pocitacovych-siti-2025.md",
+    "title": "Dělení počítačových sítí (2025)",
+    "order": 5
+  },
+  {
+    "src": "site/Model_ISO_OSI_TCP_IP_NEW_2025.pdf",
+    "dest": "it/pocitacove-site/06-sitovy-model-iso-osi-a-tcp-ip.md",
+    "title": "Síťový model ISO/OSI a TCP/IP",
+    "order": 6
+  },
+  {
+    "src": "site/01_Sitovy_HW_pasivni_prvky_kabely_KOAX_UTP.pdf",
+    "dest": "it/pocitacove-site/07-sitovy-hw-pasivni-prvky-kabelaz-koax-utp.md",
+    "title": "Síťový HW – pasivní prvky, kabeláž (KOAX, UTP)",
+    "order": 7
+  },
+  {
+    "src": "site/T09_sitova_karty.pdf",
+    "dest": "it/pocitacove-site/08-sitove-karty.md",
+    "title": "Síťové karty",
+    "order": 8
+  },
+  {
+    "src": "site/Ethernet_new.pdf",
+    "dest": "it/pocitacove-site/09-ethernet-a-lan.md",
+    "title": "Ethernet a LAN",
+    "order": 9
+  },
+  {
+    "src": "site/IT3_IPv4_protokol.pdf",
+    "dest": "it/pocitacove-site/10-sitova-vrstva-a-ipv4-protokol.md",
+    "title": "Síťová vrstva a IPv4 protokol",
+    "order": 10
+  },
+  {
+    "src": "site/IT3_IPv4_adresovani.pdf",
+    "dest": "it/pocitacove-site/11-ipv4-adresovani.md",
+    "title": "IPv4 adresování",
+    "order": 11
+  },
+  {
+    "src": "site/IPv6_Adresovani.pdf",
+    "dest": "it/pocitacove-site/12-ipv6-adresovani.md",
+    "title": "IPv6 adresování",
+    "order": 12
+  },
+  {
+    "src": "MATURITA HADR/IT/Datové-sítě.docx",
+    "dest": "it/pocitacove-site/13-datove-site-doplnkove-poznamky.md",
+    "title": "Datové sítě – doplňkové poznámky",
+    "order": 13
+  },
+  {
+    "src": "MATURITA HADR/IT/RTR_CMD-2-CZ-_29_.pdf",
+    "dest": "it/pocitacove-site/14-zakladni-prikazy-cisco-ios-pro-spravu-smerovacu-a-prepinacu.md",
+    "title": "Základní příkazy Cisco IOS pro správu směrovačů a přepínačů",
+    "order": 14
+  },
+  {
+    "src": "MATURITA HADR/IT/14. HTML a CSS.docx",
+    "dest": "it/elektronicke-publikovani/01-html-a-css.md",
+    "title": "HTML a CSS",
+    "order": 1
+  },
+  {
+    "src": "MATURITA HADR/IT/15. - 17. GIMP, Zoner, SketchUp.docx",
+    "dest": "it/grafika-na-pc/01-gimp-zoner-sketchup.md",
+    "title": "GIMP, Zoner, SketchUp",
+    "order": 1
+  },
+  {
+    "src": "MATURITA HADR/IT/18. Grafické formáty, rozlišení, barevné modely, rastr X vektor.docx",
+    "dest": "it/grafika-na-pc/02-graficke-formaty-rozliseni-barevne-modely-rastr-x-vektor.md",
+    "title": "Grafické formáty, rozlišení, barevné modely, rastr X vektor",
+    "order": 2
+  },
+  {
+    "src": "MATURITA HADR/IT/19. Práce s audio a video soubory.docx",
+    "dest": "it/grafika-na-pc/03-prace-s-audio-a-video-soubory.md",
+    "title": "Práce s audio a video soubory",
+    "order": 3
+  },
+  {
+    "src": "MATURITA HADR/IT/2. OS Linux - distribuce, grafický a textový režim.docx",
+    "dest": "it/operacni-systemy/01-os-linux-distribuce-graficky-a-textovy-rezim.md",
+    "title": "OS Linux - distribuce, grafický a textový režim",
+    "order": 1
+  },
+  {
+    "src": "MATURITA HADR/IT/3. OS Windows.docx",
+    "dest": "it/operacni-systemy/02-os-windows.md",
+    "title": "OS Windows",
+    "order": 2
+  },
+  {
+    "src": "MATURITA HADR/IT/20. a 25. PowerPoint a Access.docx",
+    "dest": "it/aplikace-na-pc/01-powerpoint-a-access.md",
+    "title": "PowerPoint a Access",
+    "order": 1
+  },
+  {
+    "src": "MATURITA HADR/IT/21. - 24. Word a Excel.docx",
+    "dest": "it/aplikace-na-pc/02-word-a-excel.md",
+    "title": "Word a Excel",
+    "order": 2
+  },
+  {
+    "src": "MATURITA HADR/IT/4. Autorský zákon.docx",
+    "dest": "it/uvod-do-vypocetni-techniky/01-autorsky-zakon.md",
+    "title": "Autorský zákon",
+    "order": 1
+  },
+  {
+    "src": "MATURITA HADR/IT/5. Hardware pojmy, základní deska, BIOS, zdroj.docx",
+    "dest": "it/uvod-do-vypocetni-techniky/02-hardware-pojmy-zakladni-deska-bios-zdroj.md",
+    "title": "Hardware pojmy, základní deska, BIOS, zdroj",
+    "order": 2
+  },
+  {
+    "src": "MATURITA HADR/IT/6. Procesor a chipset.docx",
+    "dest": "it/uvod-do-vypocetni-techniky/03-procesor-a-chipset.md",
+    "title": "Procesor a chipset",
+    "order": 3
+  },
+  {
+    "src": "MATURITA HADR/IT/7. Paměti.docx",
+    "dest": "it/uvod-do-vypocetni-techniky/04-pameti.md",
+    "title": "Paměti",
+    "order": 4
+  },
+  {
+    "src": "MATURITA HADR/IT/8. Sběrnice, rozhraní.docx",
+    "dest": "it/uvod-do-vypocetni-techniky/05-sbernice-rozhrani.md",
+    "title": "Sběrnice, rozhraní",
+    "order": 5
+  },
+  {
+    "src": "MATURITA HADR/IT/9. Periferie.docx",
+    "dest": "it/uvod-do-vypocetni-techniky/06-periferie.md",
+    "title": "Periferie",
+    "order": 6
+  },
+  {
+    "src": "MATURITA HADR/IT/Tech.docx",
+    "dest": "it/uvod-do-vypocetni-techniky/07-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi.md",
+    "title": "Hardware – doplňkové poznámky (grafické karty, displeje a další)",
+    "order": 7
+  },
+  {
+    "src": "MATURITA HADR/IT/DAT_I.pdf",
+    "dest": "it/databazove-systemy/01-databaze-i-teorie.md",
+    "title": "Databáze I – teorie",
+    "order": 1
+  },
+  {
+    "src": "MATURITA HADR/IT/DAT_I-praktikum.pdf",
+    "dest": "it/databazove-systemy/02-databaze-i-praktikum.md",
+    "title": "Databáze I – praktikum",
+    "order": 2
+  }
+]

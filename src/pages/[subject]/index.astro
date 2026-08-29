@@ -1,0 +1,68 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { SUBJECTS, SUBJECT_KEYS, type SubjectKey } from '../../lib/subjects';
+import { groupLabel, groupOfId, sortEntriesByOrder, sortGroupKeys } from '../../lib/groups';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+	return SUBJECT_KEYS.map((subject) => ({ params: { subject } }));
+}
+
+const subject = Astro.params.subject as SubjectKey;
+const entries = await getCollection(subject);
+
+const groups = new Map<string | null, typeof entries>();
+for (const entry of entries) {
+	const g = groupOfId(entry.id);
+	if (!groups.has(g)) groups.set(g, []);
+	groups.get(g)!.push(entry);
+}
+
+const sortEntries = sortEntriesByOrder<(typeof entries)[number]>;
+
+const orderedGroupKeys = sortGroupKeys(subject, [...groups.keys()]);
+const namedGroupKeys = orderedGroupKeys.filter((g): g is string => g !== null);
+---
+
+<BaseLayout title={SUBJECTS[subject].label} activeSubject={subject}>
+	<p class="eyebrow"><a class="back-link" href="/">← Předměty</a></p>
+	<h1>{SUBJECTS[subject].label}</h1>
+	<p>{SUBJECTS[subject].description}</p>
+
+	{
+		namedGroupKeys.length > 6 && (
+			<nav class="group-jump" aria-label="Rychlá navigace na kategorii">
+				{namedGroupKeys.map((g) => (
+					<a href={`#${g}`}>{groupLabel(subject, g)}</a>
+				))}
+			</nav>
+		)
+	}
+
+	{
+		orderedGroupKeys.map((g) => (
+			<>
+				{g && (
+					<p class="topic-group-title" id={g}>
+						{groupLabel(subject, g)}
+					</p>
+				)}
+				<ul class="topic-list">
+					{sortEntries(groups.get(g)!).map((entry) => (
+						<li>
+							<a href={`/${subject}/${entry.id}/`}>
+								{entry.data.order != null && <span class="num">{entry.data.order}.</span>}
+								<span>{entry.data.title}</span>
+								{entry.data.tags?.includes('doplněno') && (
+									<span class="mini-badge" title="Doplněný obsah, není z archivu podkladů">
+										doplněno
+									</span>
+								)}
+							</a>
+						</li>
+					))}
+				</ul>
+			</>
+		))
+	}
+</BaseLayout>

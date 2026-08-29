@@ -1,0 +1,63 @@
+---
+title: "Alois a Vilém Mrštík - Maryša"
+source: "MATURITA HADR/ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Alois a Vilém Mrštík - Maryša/8. Maryša-období.docx"
+---
+__Maryša
+Český realismus __
+
+- __Český realismus__
+	- v 80\. a 90\. letech 19\. století
+	- ztráta důvěry v politickém vedení národa
+	- pozorné studium určitého regionu \(zachycení pouze určitého detailu = drobnokresba\)
+	- nedostatečný rozvoj románové prózy
+	- důležité projevy realismu ve vědecké a naukové tvorbě
+	- rozvoj beletrie
+- __Vědecký realismus__
+	- __Tomáš Garrigue Masaryk__
+		- zabýval se otázkami české historie
+		- díla: Česká otázka, Karel Havlíček
+- __Venkovská próza__
+	- __Karel Václav Rais__
+		- dílo: Kalibův zločin
+	- __Teréza Nováková__
+		- dílo: Jan Jílek
+	- __Antal Stašek__
+		- dílo: O ševci Matoušovi a jeho přátelích
+	- __Josef Holeček__
+		- dílo: Naši
+- __Historická próza__
+	- __Alois Jirásek__
+		- díla: Staré pověsti české, Mezi proudy, Psohlavci, F\. L\. Věk, Lucerna
+	- __Zikmund Winter__
+		- dílo: Rakovnické obrázky
+- __Realistické drama__
+	- __Ladislav Stroupežnický__
+		- dílo: Zvíkovský rarášek
+	- __Gabriela Preissová__
+		- dílo: Gadzina roba
+	- __Alois a Vilém Mrštíkové__
+		- dílo: Maryša
+		- Alois:
+			- prozaik a dramatik
+			- narodil se v Jimramově
+			- vystudoval učitelský ústav v Brně
+			- učil na několika jihomoravských obcích
+			- umírá v Brně
+			- díla: Horem Vávro, Nit stříbrná, Rok na vsi
+		- Vilém:
+			- prozaik, dramatik a překladatel
+			- narodil se v Jimramově
+			- nedokončená studia práva
+			- věnoval se literární a publicistické dráze
+			- přispíval do časopisu Rozhledy
+			- usiloval o nápravu světu
+			- propagátor ruského realismu a francouzského naturalismu
+			- umírá v Hustopečích
+			- díla: Stíny, Babeta, Verunka, Santa Lucia
+- __Autoři z ciziny__
+	- Gogol
+		- dílo: Revizor
+	- Tolstoj
+		- dílo: Anna Kareninová
+	- Čechov
+		- Tři sestry

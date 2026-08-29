@@ -1,0 +1,72 @@
+---
+title: "Sběrnice, rozhraní"
+order: 5
+source: "MATURITA HADR/IT/8. Sběrnice, rozhraní.docx"
+---
+- Zajišťují propojení jednotlivých obvodů počítače
+- Používají se k přenosu dat, adres, řídicích a stavových signálů a každé zařízení v PC musí být k některé sběrnici připojeno
+- Sběrnice propojeny mosty \(severní, jižní\) které obsahují řadiče těchto zařízení
+- Osobní počítač musí být navržen tak, aby bylo možné jejich snadné rozšiřování o další zařízení \(zvukové karty, síťové karty, modem, TV karty, měřící karty
+- Toto rozšiřování je velmi často uskutečňováno pomocí rozšiřující sběrnice počítače na kterou se jednotlivá zařízení zapojují \(PCI, PCI Express\)
+- Parametry sběrnic:
+	- Přenosová rychlost – určuje maximální počet bitů přenesených za 1 sekundu
+	- Šířka sběrnice – kolik dat je schopno projít za jeden takt – 64bit 128 bit
+	- Taktovací kmitočet – přenos informací po sběrnici je řízen hodinovými impulsy, počet těchto hodinových impulsů za 1 sekundu udává základní frekvenci sběrnice
+- Sběrnici rozlišujeme na základní dva typy:
+- Lokální sběrnice – je přímo napojena na severní most čipové sady
+	- Procesorová – nejrychlejší sběrnice na základní desce, slouží k přenášení dat mezi procesorem a čipovou sadou základní desky; propojuje procesor se severním mostem
+	- Paměťová – využívá se pro přenos dat mezi procesorem a operační paměti – propojuje řadič operační paměti s moduly operační paměti
+	- Grafická – slouží k rychlému přenosu dat mezi grafickou kartou, procesorem a operační pamětí
+- Sběrnice pro rozšiřující karty – slouží k rozšíření možností počítače pomocí rozšiřujících karet
+	- PCI a PCI\-X \(extended\) – systémová sběrnice pro připojení rozšiřujících karet do základní desky; používá paralelní přenos dat; přenos oběma směry; první nabízí plug and play
+	- AGP – vysokorychlostní sběrnice; je přímo napojena na severní most čipové sady; pomocí této sběrnice lze připojit k počítači výhradně grafická karta
+	- PCI Express – je novější PCI sběrnice založena na mnohem rychlejší sériové komunikaci; vyžaduje méně vodičů, čímž se usnadňuje a zlevňuje výroba; navržena pro stolní počítače, mobilní zařízení, severy, pracovní stanice; obousměrné propojení ; verze x16 je určená pro grafické karty a speciální vysokorychlostní SSD v podobě přídavné karty
+
+Rozhraní
+
+- Umožňují propojení počítače s periferiemi
+- Jsou určena: logicky – způsobem komunikace; fyzicky – tvarem konektorů, počtem a umístěním vývodů
+- Všechna rozhraní u současných počítačů jsou standardizována – výrobci základních desek, přídavných karet a periferních zařízení vybavených příslušným rozhraním používají jednotnou kabeláž, konektory a signály se shodnými parametry
+- Rozhraní RS\-232 \(COM port\)
+	- Starší typ sériového rozhraní
+	- Používalo se pro připojení počítačové myši k počítači, propojení staršího mobilního telefonu s počítačem
+	- V současné době se uplatňuje pouze při propojení počítače s různými měřícími systémy
+	- Rozhraní už není implementováno na základní desky, nahrazeno USB
+	- Nepodporuje technologii Plug and Play
+- Rozhraní CENTRONICS \(LPT port\)
+	- Starší paralelní rozhraní pro komunikaci s pomocí 17 linek
+	- Původně byl vytvořen pro komunikaci s tiskárnou; jednosměrný přenos z počítače do tiskárny
+	- Později byl přidán oboustranný přenost
+	- Konektory – DB\-25\(počítač\) a Centronics \(tiskárna\)
+- Rozhraní USB
+	- Sériové rozhraní umožňující připojit širokou škálu zařízení k počítači
+	- Pomocí USB lze připojit téměř každou periférii
+	- Využívá vrstvenou hvězdicovou topologii, kde je v centru každé hvězdice USB hub
+	- Obsahuje jeden kořenový HUB, který je považován za nejvyšší úroveň
+	- Dva typy konektorů typ A – plochý konektor – obsažen na každém novém PC
+	- Typ B  \- je určen pro periferní zařízení, čímž je zároveň definován standard propojovacího kabeu
+	- Typ miniaturizovaný konektor – Mini USB; Micro USB \(mobily\)
+- Rozhraní FireWire
+	-  Vysokorychlostní sériové rozhraní vyvinuté pro přenos audia, vide a dat
+	- V dnešní době slouží především pro připojení digitální videokamer, externích HD a optických mechanik
+	- Různá specifikace IEEE – liší se hlavně rychlostí
+	- Konektor typ 1 – obvykle se nachází v počítači a rozbočovače
+	- Typ 2 – obvykle se nacházi v periferním zařízení
+- Rozhraní IrDA
+	- Definuje bezdrátový přenos dat pomocí infračerveného záření
+	- Vznikl z potřeby propojit různá mobilní zařízení mezi sebou
+	- Komunikují pomocí infračervených LED s vlnovými délkami vyzařovaného světla
+	- Doporučovaná vzdálenost je 1 metr s přímou viditelností mezi vysílači a přijímači obou komunikujících zařízení
+- Rozhraní BlueTooth
+	- Komunikační rozhraní sloužící k bezdrátovému propojení mezi dvěma a více elektronickými zařízeními
+	- Propojení mobilního telefonu, PDA, osobní či přenosný počítač, hands\-free sada, polohovací zařízení, klávesnice, chytré hodinky
+- PS/2 – fialový klávesnice; zelený myš
+- RJ\-45 – konektor pro připojení počítače do lokální sítě pomocí kabelu
+- Firewire port – připojení především kamery či ext\. HDD
+- Oranžové kolečko – subwoofer
+- Černé kolečko – zadní reproduktor
+- Bílé kolečko – boční reproduktory
+- Růžový kolečko – mikrofon
+- Zelené kolečko – přední reproduktory nebo sluchátka
+- Modré kolečko – audio vstup
+- eSATA port – pro připojení externích HDD
