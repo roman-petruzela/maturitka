@@ -2,6 +2,7 @@
 title: "Úsečka, střed a délka úsečky"
 order: 2
 source: "matematika/TY01_0122_Usecka_stred_a_delka_usecky.pptx"
+hasExercises: true
 ---
 •
 

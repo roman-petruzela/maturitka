@@ -2,6 +2,7 @@
 title: "Nerovnice v součinovém tvaru"
 order: 16
 source: "MATURITA HADR/Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/16) Nerovnice v součinovém tvaru.pdf"
+hasExercises: true
 ---
 <u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Nerovnice v součinovém tvaru</u>
 

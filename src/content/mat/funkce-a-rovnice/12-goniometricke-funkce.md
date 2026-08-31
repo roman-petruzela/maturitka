@@ -2,6 +2,7 @@
 title: "Goniometrické funkce"
 order: 12
 source: "matematika/TY01_0212_-_Goniometricke_funkce.pptx"
+hasExercises: true
 ---
 ## Osnova
 

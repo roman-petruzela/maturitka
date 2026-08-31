@@ -2,6 +2,7 @@
 title: "Lineární rovnice"
 order: 7
 source: "MATURITA HADR/Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/7) Lineární rovnice.pdf"
+hasExercises: true
 ---
 <u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Lineární rovnice</u>
 

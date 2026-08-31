@@ -86,18 +86,45 @@ async function toDocx(srcAbsPath, tmpDir) {
 	return converted;
 }
 
+async function forceResave(srcAbs, tmpDir) {
+	// re-saving through LibreOffice normalizes the XML — fixes some .docx
+	// files mammoth can't read directly (e.g. a list referencing a numId
+	// with no matching numbering definition, "Cannot read properties of
+	// undefined (reading 'numId')")
+	await execFileAsync('soffice', [
+		'--headless',
+		'--convert-to',
+		'docx:MS Word 2007 XML',
+		'--outdir',
+		tmpDir,
+		srcAbs,
+	]);
+	const base = path.basename(srcAbs, path.extname(srcAbs));
+	const converted = path.join(tmpDir, `${base}.docx`);
+	if (!existsSync(converted)) throw new Error(`LibreOffice re-save did not produce ${converted}`);
+	return converted;
+}
+
 async function convertOne(item, tmpDir) {
 	const srcAbs = path.join(REPO_ROOT, item.src);
 	const destAbs = path.join(WEB_ROOT, 'src', 'content', item.dest);
 	const docxPath = await toDocx(srcAbs, tmpDir);
-	const { value: markdown, messages } = await mammoth.convertToMarkdown({ path: docxPath });
+	let markdown, messages;
+	try {
+		({ value: markdown, messages } = await mammoth.convertToMarkdown({ path: docxPath }));
+	} catch (err) {
+		// malformed-numbering docx files mammoth can't parse directly — retry
+		// once against a LibreOffice-normalized copy
+		const resaved = await forceResave(srcAbs, tmpDir);
+		({ value: markdown, messages } = await mammoth.convertToMarkdown({ path: resaved }));
+	}
 	const warnings = messages.filter((m) => m.type === 'warning');
 	await mkdir(path.dirname(destAbs), { recursive: true });
 	const frontmatter = buildFrontmatter({
 		title: item.title,
 		order: item.order,
 		tags: item.tags,
-		source: item.src,
+		source: item.source ?? item.src,
 	});
 	await writeFile(destAbs, frontmatter + cleanMarkdown(markdown));
 	return { item, warnings: warnings.length };

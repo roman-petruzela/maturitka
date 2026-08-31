@@ -2,6 +2,7 @@
 title: "Úhel dvou vektorů"
 order: 5
 source: "matematika/TY01_0125_Uhel_dvou_vektoru.pptx"
+hasExercises: true
 ---
 •
 

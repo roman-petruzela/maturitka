@@ -2,6 +2,7 @@
 title: "Obecná rovnice přímky"
 order: 8
 source: "matematika/TY01_0128_Obecna_rovnice_primky.pptx"
+hasExercises: true
 ---
 **Obecná rovnice přímky
 

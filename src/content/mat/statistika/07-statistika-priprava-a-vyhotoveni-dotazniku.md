@@ -2,6 +2,7 @@
 title: "Statistika – příprava a vyhotovení dotazníku"
 order: 7
 source: "matematika/TY01_0224_Statistika_-_priprava_a_vyhotoveni_dotazniku.pptx"
+hasExercises: true
 ---
 • Původní význam slova _statistika_ souvisí se státem, s jeho administrativním spravováním, kdy docházelo k zaznamenávání údajů k vojenským a daňovým účelům. • I dnes slovo statistika vyjadřuje popis souboru nebo jeho sumarizaci. • V tomto smyslu funguje například Český statistický úřad.
 
@@ -55,9 +56,13 @@ příkladu a kontaktu na koordinátora)
 
 Faktické zjišťovací otázky • Zjišťování informací • Pečlivá příprava otázek • Testování srozumitelnosti a jednoznačnosti
 
-Sociodemografické otázky
+# Sociodemografické otázky
 
-• Informace o dotazovaném – Věk – Bydliště – Pohlaví
+• Informace o dotazovaném – Věk
+
+– Bydliště
+
+– Pohlaví
 
 – Příjmy – Vzdělání….
 

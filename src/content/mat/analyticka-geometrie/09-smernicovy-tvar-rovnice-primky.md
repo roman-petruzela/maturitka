@@ -2,6 +2,7 @@
 title: "Směrnicový tvar rovnice přímky"
 order: 9
 source: "matematika/TY01_0129_Smernicovy_tvar_rovnice_primky.pptx"
+hasExercises: true
 ---
 **Směrnicový tvar rovnice přímky
 

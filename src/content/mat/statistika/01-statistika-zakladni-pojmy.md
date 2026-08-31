@@ -2,6 +2,7 @@
 title: "Statistika – základní pojmy"
 order: 1
 source: "matematika/TY01_0218_Statistika_zakladni_pojmy.pptx"
+hasExercises: true
 ---
 ### Statistika
 

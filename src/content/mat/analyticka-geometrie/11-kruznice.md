@@ -2,81 +2,39 @@
 title: "Kružnice"
 order: 11
 source: "matematika/TY01_0131_Kruznice.pptx"
+hasExercises: true
 ---
-Kružnice - řez kuželové plochy
 
-# Kružnice
+> Pozn. k obsahu: Zdrojová prezentace obsahovala vzorce a obrázky vložené jako grafické objekty a používala animované odrážky (postupně se odkrývající text) — obojí se při převodu ztratilo. Definice a vzorce jsou níže doplněny v textové podobě; konkrétní zadání cvičení v prezentaci nebyla v textu obsažena přímo, takže je nelze rekonstruovat.
 
-• **Kružnice** je množina všech bodů roviny, které mají od daného bodu, **středu** kružnice, danou vzdálenost, **poloměr** kružnice.
+Kružnice je jedna z kuželoseček — vznikne jako řez kuželové plochy rovinou kolmou na její osu.
 
-# Kružnice
+## Definice a rovnice kružnice
 
-Střed kružnice je umístěn v počátku souřadnic, rovnici můžeme odvodit Pythagorovy věty:
+**Kružnice** je množina všech bodů roviny, které mají od daného bodu — **středu** kružnice — danou vzdálenost — **poloměr** kružnice.
 
-# Kružnice
+Pokud je střed kružnice umístěn v počátku souřadnic S = [0; 0], rovnici kružnice o poloměru r odvodíme z Pythagorovy věty pro libovolný bod X = [x; y] na kružnici:
 
-Střed kružnice má souřadnice _m,n_ , předcházející rovnici můžeme upravit:
+**x² + y² = r²**
 
-# Kružnice
+Pokud má střed kružnice obecné souřadnice S = [m; n], předchozí rovnici upravíme posunutím o vektor (m; n):
 
-•
+**(x − m)² + (y − n)² = r²**
 
-# Kružnice
+Toto je tzv. **středový tvar** rovnice kružnice.
 
-•
+## Vzájemná poloha kružnice a přímky
 
-Kružnice – úlohy 1
+V rovině mohou nastat tři různé vzájemné polohy kružnice *k* a přímky *p*. Rozlišujeme je podle toho, kolik mají společných bodů:
 
-•
+- **vnější přímka** — nemají žádný společný bod
+- **tečna** — mají jeden společný bod (přímka se kružnice dotýká)
+- **sečna** — mají dva společné body (přímka kružnici protíná)
 
-Kružnice – úlohy 2
+O tom, který z případů nastává, rozhoduje vzdálenost středu kružnice od přímky *p* v porovnání s poloměrem *r*: je-li vzdálenost větší než *r*, jde o vnější přímku; je-li rovna *r*, jde o tečnu; je-li menší než *r*, jde o sečnu.
 
-•
+## Zdroje
 
-Vzájemná poloha kružnice a přímky
+KOČANDRLE, Milan, BOČEK, Leo. *Matematika pro gymnázia. Analytická geometrie.* Praha: Prometheus, 2005.
 
-V rovině mohou nastat tři různé vzájemné polohy kružnice _k_ a přímky _p_ . Rozlišujeme je podle toho, kolik mají společných bodů: nemají žádný společný bod mají jeden společný bod mají dva společné body.
-
-Vzájemná poloha kružnice a přímky
-
-<!-- Start of picture text -->
-vnější přímka<br><!-- End of picture text -->
-
-<!-- Start of picture text -->
-tečna<br><!-- End of picture text -->
-
-<!-- Start of picture text -->
-sečna<br><!-- End of picture text -->
-
-<!-- Start of picture text -->
-žádný společný bod<br><!-- End of picture text -->
-
-<!-- Start of picture text -->
-jeden společný bod<br><!-- End of picture text -->
-
-<!-- Start of picture text -->
-dva společné body<br><!-- End of picture text -->
-
-Kružnice – úlohy 3
-
-•
-
-Kružnice – řešení 1
-
-•
-
-Kružnice – řešení 2
-
-•
-
-# Kružnice – řešení 3
-
-•
-
-# Řešení
-
-•
-
-# Zdroje
-
-KOČANDRLE, Milan, BOČEK, Leo. _Matematika pro gymnázia. Analytická geometrie._ Praha: Prometheus, 2005. HUDCOVÁ, Milada, KUBIČÍKOVÁ, Libuše. _Sbírka úloh z matematiky pro střední odborné školy, střední odborná učiliště a nástavbové studium._ Praha. Prometheus, 2006 <u>://</u> Diplomová práce: http <u>www.karlin.mf.cuni.cz/kaf tedry/kdm/diplomky/jan_koncel</u>
+HUDCOVÁ, Milada, KUBIČÍKOVÁ, Libuše. *Sbírka úloh z matematiky pro střední odborné školy, střední odborná učiliště a nástavbové studium.* Praha: Prometheus, 2006.

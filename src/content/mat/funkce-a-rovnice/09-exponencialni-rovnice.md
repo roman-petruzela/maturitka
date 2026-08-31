@@ -2,6 +2,7 @@
 title: "Exponenciální rovnice"
 order: 9
 source: "matematika/TY01_0209_-_Exponencialni_rovnice.pptx"
+hasExercises: true
 ---
 Exponenciální rovnice
 

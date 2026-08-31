@@ -2,6 +2,7 @@
 title: "Exponenciální funkce"
 order: 27
 source: "MATURITA HADR/Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/27) Exponenciální funkce.pdf"
+hasExercises: true
 ---
 <u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Exponenciální funkce</u>
 

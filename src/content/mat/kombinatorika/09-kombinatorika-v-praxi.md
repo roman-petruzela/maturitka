@@ -2,6 +2,7 @@
 title: "Kombinatorika v praxi"
 order: 9
 source: "matematika/TY01_0232_Kombinatorika_v_praxi.pptx"
+hasExercises: true
 ---
 Jedna ze života V zásuvce je 10 černých a 10 šedých ponožek. Ráno ještě v polospánku taháme naslepo ponožky. a) Kolik jich musíme vzít, aby bylo jisté, že se <u>ŘEŠENÍ</u> mezi nimi najde pár? b) Kolik jich musíme vzít, aby se mezi nimi našel <u>ŘEŠENÍ</u> černý pár?
 

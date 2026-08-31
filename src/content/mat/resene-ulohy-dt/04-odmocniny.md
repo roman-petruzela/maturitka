@@ -2,6 +2,7 @@
 title: "Odmocniny"
 order: 4
 source: "MATURITA HADR/Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/4) Odmocniny.pdf"
+hasExercises: true
 ---
 <u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Odmocniny</u>
 

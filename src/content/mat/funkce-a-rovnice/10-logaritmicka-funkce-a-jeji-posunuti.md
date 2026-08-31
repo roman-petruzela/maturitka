@@ -2,6 +2,7 @@
 title: "Logaritmická funkce a její posunutí"
 order: 10
 source: "matematika/TY01_0210_-_Logaritmicka_funkce_a_jeji_posunuti.pptx"
+hasExercises: true
 ---
 **Logaritmická funkce a její posunutí
 # Logaritmická funkce a  její posunutí
@@ -266,7 +267,9 @@ zpět<br><!-- End of picture text -->
 
 + nová osa y´ jestli bude   _f: y = loga (x – m)_    - m ... posuneme doprava dle osy x
 
-+ nová osa y´ jestli bude   _f: y = loga (x + m) + n_   + n ... posuneme nahoru dle osy y jestli bude   _f: y = loga (x – m) - n_   - n ... posuneme dolů dle osy y
++ nová osa y´ jestli bude   _f: y = loga (x + m) + n_   + n ... posuneme nahoru dle osy y
+
+jestli bude   _f: y = loga (x – m) - n_   - n ... posuneme dolů dle osy y
 
 ## Zdroje
 

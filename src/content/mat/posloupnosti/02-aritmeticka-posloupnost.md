@@ -2,6 +2,7 @@
 title: "Aritmetická posloupnost"
 order: 2
 source: "matematika/TY01_0216-Aritmeticka_posloupnost.pptx"
+hasExercises: true
 ---
 ## Osnova
 

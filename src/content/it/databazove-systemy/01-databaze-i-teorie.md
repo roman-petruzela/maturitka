@@ -1,8 +1,12 @@
 ---
 title: "Databáze I – teorie"
-order: 4
+order: 1
 source: "MATURITA HADR/IT/DAT_I.pdf"
 ---
+Teorie
+
+Střední Průmyslová škola ÚSTÍ NAD LABEM DAT I – Ladislav Kožej
+
 ## Historie
 
 První pravděpodobně hliněné tabulky následované papyrem. :)

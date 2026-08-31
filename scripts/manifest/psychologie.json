@@ -1,0 +1,52 @@
+[
+  {
+    "src": "MATURITA HADR/PSYCHOLOGIE/ASERTIVITA.docx",
+    "dest": "psychologie/asertivita.md",
+    "title": "ASERTIVITA"
+  },
+  {
+    "src": "MATURITA HADR/PSYCHOLOGIE/KOMUNIKACE.docx",
+    "dest": "psychologie/komunikace.md",
+    "title": "KOMUNIKACE"
+  },
+  {
+    "src": "MATURITA HADR/PSYCHOLOGIE/METODY-ZKOUMÁNÍ-V-PSYCHOLOGII.docx",
+    "dest": "psychologie/metody-zkoumani-v-psychologii.md",
+    "title": "METODY ZKOUMÁNÍ V PSYCHOLOGII"
+  },
+  {
+    "src": "MATURITA HADR/PSYCHOLOGIE/POZNÁVACÍ-PROCESY.docx",
+    "dest": "psychologie/poznavaci-procesy.md",
+    "title": "POZNÁVACÍ PROCESY"
+  },
+  {
+    "src": "MATURITA HADR/PSYCHOLOGIE/PSYCHOLOGICKÉ-SMĚRY-V-PSYCHOLOGII.docx",
+    "dest": "psychologie/psychologicke-smery-v-psychologii.md",
+    "title": "PSYCHOLOGICKÉ SMĚRY V PSYCHOLOGII"
+  },
+  {
+    "src": "MATURITA HADR/PSYCHOLOGIE/PSYCHOLOGIE-OSOBNOSTI.docx",
+    "dest": "psychologie/psychologie-osobnosti.md",
+    "title": "PSYCHOLOGIE OSOBNOSTI"
+  },
+  {
+    "src": "MATURITA HADR/PSYCHOLOGIE/PSYCHOLOGIE-PRO-SOCIÁLNÍHO-PRACOVNÍKA.docx",
+    "dest": "psychologie/psychologie-pro-socialniho-pracovnika.md",
+    "title": "PSYCHOLOGIE PRO SOCIÁLNÍHO PRACOVNÍKA"
+  },
+  {
+    "src": "MATURITA HADR/PSYCHOLOGIE/SOCIÁLNÍ-PSYCHOLOGIE.docx",
+    "dest": "psychologie/socialni-psychologie.md",
+    "title": "SOCIÁLNÍ PSYCHOLOGIE"
+  },
+  {
+    "src": "MATURITA HADR/PSYCHOLOGIE/VERBÁLNÍ-A-NEVERBÁLNÍ-KOMUNIKACE.docx",
+    "dest": "psychologie/verbalni-a-neverbalni-komunikace.md",
+    "title": "VERBÁLNÍ A NEVERBÁLNÍ KOMUNIKACE"
+  },
+  {
+    "src": "MATURITA HADR/PSYCHOLOGIE/VÝVOJOVÁ-PSYCHOLOGIE.docx",
+    "dest": "psychologie/vyvojova-psychologie.md",
+    "title": "VÝVOJOVÁ PSYCHOLOGIE"
+  }
+]

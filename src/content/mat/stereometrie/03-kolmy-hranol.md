@@ -2,6 +2,7 @@
 title: "Kolmý hranol"
 order: 3
 source: "matematika/TY0103 Kolmý hranol.pdf"
+hasExercises: true
 ---
 Kolmý hranol je těleso, které se skládá ze dvou rovnoběžných podstav a pláště, boční stěny svírají s rovinou podstavy pravý úhel. Lze vypočítat jeho objem a povrch. Objem počítáme podle vzorce 𝑽= 𝑺𝒑 ∙𝒗, kde 𝑺𝒑  je obsah podstavy a výška 𝒗 je vzdálenost mezi podstavami. Povrch počítáme podle vzorce 𝑺= 𝑺𝒑 + 𝑺𝒑𝒍, kde 𝑺𝒑 je obsah podstavy a 𝑺𝒑𝒍 obsah pláště. Hranoly můžeme podle podstav rozdělit na:
 

@@ -2,6 +2,7 @@
 title: "Rotační kužel"
 order: 6
 source: "matematika/TY0106 Rotační kužel.pdf"
+hasExercises: true
 ---
 Rotační kužel je těleso vzniklé otáčením pravoúhlého trojúhelníku v prostoru okolo jedné z odvěsen. Otáčením druhé odvěsny vznikne kruhová podstava kužele. Otáčením přepony vznikne kuželová plocha, neboli plášť kužele. Poloměr kruhové podstavy budeme značit 𝒓. Výšku kužele, tj. vzdálenost středu kruhové podstavy od vrcholu kužele, budeme značit 𝒗. Stěnovou výšku kužele budeme značit 𝒔. Všimněte si, že poloměr podstavy, výška a stěnová výška tvoří pravoúhlý trojúhelník, mezi těmito rozměry tedy platí Pythagorova věta a goniometrické funkce.
 

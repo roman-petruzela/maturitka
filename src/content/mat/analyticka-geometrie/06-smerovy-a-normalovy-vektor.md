@@ -2,6 +2,7 @@
 title: "Směrový a normálový vektor"
 order: 6
 source: "matematika/TY01_0126_Smerovy_a_normalovy_vektor.pptx"
+hasExercises: true
 ---
 **Směrový a normálový vektor
 

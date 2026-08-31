@@ -1,6 +1,6 @@
 ---
 title: "Praktická správa Linuxu a Windows Serveru"
-order: 3
+order: 200
 tags: ["doplněno"]
 ---
 

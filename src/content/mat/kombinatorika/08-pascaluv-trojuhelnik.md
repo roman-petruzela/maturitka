@@ -2,7 +2,11 @@
 title: "Pascalův trojúhelník"
 order: 8
 source: "matematika/TY01_0231_Pascaluv_trojuhelnik.pptx"
+hasExercises: true
 ---
+
+> Pozn. k obsahu: Zdrojová prezentace používala animované odrážky (postupně se odkrývající text), který se při převodu do textu ztratil — na místech označených „•" chybí navazující vysvětlení.
+
 Blaise Pascal 1623 – 1662
 
 francouzský matematik, fyzik, filosof ….

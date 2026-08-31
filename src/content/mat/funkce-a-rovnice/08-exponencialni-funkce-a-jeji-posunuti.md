@@ -2,6 +2,7 @@
 title: "Exponenciální funkce a její posunutí"
 order: 8
 source: "matematika/TY01_0208_-_Exponencialni_funkce_a_jeji_posunuti.pptx"
+hasExercises: true
 ---
 ## Osnova
 
@@ -99,7 +100,9 @@ jestli bude   _f3: y = a_<sup>_x-m_</sup> _-  n_   - n ... posuneme dolů 
 
 všech funkcí
 
-Ukázkový příklad: Sestrojte graf exponenciální funkce _f: y = 3_<sup>_x+1_</sup> _– 2 . Určete definiční obory a obory hodnot._ Jelikož _D(f)_ není zadán, tak je _D(f) = R._ Nejprve sestrojíme graf pro základní funkci _f1: y = 3_<sup>_x_</sup> .
+#### Ukázkový příklad:
+
+Sestrojte graf exponenciální funkce _f: y = 3_<sup>_x+1_</sup> _– 2 . Určete definiční obory a obory hodnot._ Jelikož _D(f)_ není zadán, tak je _D(f) = R._ Nejprve sestrojíme graf pro základní funkci _f1: y = 3_<sup>_x_</sup> .
 
 <!-- Start of picture text -->
 f1: y = 3 x sestrojíme tabulku pro funkci f;<br> x   - 1    0    1 jedna hodnota záporná v řádku x<br>  1/3   1    3<br>y<br>Následně b udeme posouvat gr af základní funkce  f1 a pak případně<br>další nově vzniklý graf<br><!-- End of picture text -->

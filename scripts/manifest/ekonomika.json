@@ -1,0 +1,732 @@
+[
+  {
+    "src": "MATURITA HADR/Ekonomie/1. Daňová soustava ČR - přímé daně.docx",
+    "dest": "ekonomika/ekonomie/danova-soustava-cr-prime-dane.md",
+    "title": "Daňová soustava ČR přímé daně",
+    "order": 1
+  },
+  {
+    "src": "MATURITA HADR/Ekonomie/1. Základní-ekonomické-pojmy.docx",
+    "dest": "ekonomika/ekonomie/zakladni-ekonomicke-pojmy.md",
+    "title": "Základní ekonomické pojmy",
+    "order": 1
+  },
+  {
+    "src": "MATURITA HADR/Ekonomie/10-Odbyt-ve-VS.docx",
+    "dest": "ekonomika/ekonomie/odbyt-ve-vs.md",
+    "title": "Odbyt ve VS",
+    "order": 10
+  },
+  {
+    "src": "MATURITA HADR/Ekonomie/10. Základní ekonomické pojmy, ekonomické systémy, fungování tržního mechanismu.docx",
+    "dest": "ekonomika/ekonomie/zakladni-ekonomicke-pojmy-ekonomicke-systemy-fungovani-trzniho-mechanismu.md",
+    "title": "Základní ekonomické pojmy, ekonomické systémy, fungování tržního mechanismu",
+    "order": 10
+  },
+  {
+    "src": "MATURITA HADR/Ekonomie/11. Hospodaření podniku s dlouhodobým majetkem.docx",
+    "dest": "ekonomika/ekonomie/hospodareni-podniku-s-dlouhodobym-majetkem.md",
+    "title": "Hospodaření podniku s dlouhodobým majetkem",
+    "order": 11
+  },
+  {
+    "src": "MATURITA HADR/Ekonomie/12. Zásobování podniku.docx",
+    "dest": "ekonomika/ekonomie/zasobovani-podniku.md",
+    "title": "Zásobování podniku",
+    "order": 12
+  },
+  {
+    "src": "MATURITA HADR/Ekonomie/12.-UZ.docx",
+    "dest": "ekonomika/ekonomie/uz.md",
+    "title": "UZ",
+    "order": 12
+  },
+  {
+    "src": "MATURITA HADR/Ekonomie/13. Lidské zdroje v podniku.docx",
+    "dest": "ekonomika/ekonomie/lidske-zdroje-v-podniku.md",
+    "title": "Lidské zdroje v podniku",
+    "order": 13
+  },
+  {
+    "src": "MATURITA HADR/Ekonomie/13. investiční činnost, leasing.docx",
+    "dest": "ekonomika/ekonomie/investicni-cinnost-leasing.md",
+    "title": "Investiční činnost, leasing",
+    "order": 13
+  },
+  {
+    "src": "MATURITA HADR/Ekonomie/14. Náklady a výnosy podniku, kalkulace, rozpočet.docx",
+    "dest": "ekonomika/ekonomie/naklady-a-vynosy-podniku-kalkulace-rozpocet.md",
+    "title": "Náklady a výnosy podniku, kalkulace, rozpočet",
+    "order": 14
+  },
+  {
+    "src": "MATURITA HADR/Ekonomie/14.-majetek-inventarizace.doc",
+    "dest": "ekonomika/ekonomie/majetek-inventarizace.md",
+    "title": "Majetek inventarizace",
+    "order": 14
+  },
+  {
+    "src": "MATURITA HADR/Ekonomie/15-peněžní-soustava.docx",
+    "dest": "ekonomika/ekonomie/penezni-soustava.md",
+    "title": "Peněžní soustava",
+    "order": 15
+  },
+  {
+    "src": "MATURITA HADR/Ekonomie/15. Finanční řízení podniku.docx",
+    "dest": "ekonomika/ekonomie/financni-rizeni-podniku.md",
+    "title": "Finanční řízení podniku",
+    "order": 15
+  },
+  {
+    "src": "MATURITA HADR/Ekonomie/16. Management.docx",
+    "dest": "ekonomika/ekonomie/management.md",
+    "title": "Management",
+    "order": 16
+  },
+  {
+    "src": "MATURITA HADR/Ekonomie/16.-obchodní-banky.doc",
+    "dest": "ekonomika/ekonomie/obchodni-banky.md",
+    "title": "Obchodní banky",
+    "order": 16
+  },
+  {
+    "src": "MATURITA HADR/Ekonomie/17. Marketing.docx",
+    "dest": "ekonomika/ekonomie/marketing.md",
+    "title": "Marketing",
+    "order": 17
+  },
+  {
+    "src": "MATURITA HADR/Ekonomie/18. DAŇOVÝ-SYSTÉM-V-ČR-maturitní-otázka-č.-18.docx",
+    "dest": "ekonomika/ekonomie/danovy-system-v-cr-maturitni-otazka-c-18.md",
+    "title": "DAŇOVÝ SYSTÉM V ČR maturitní otázka č. 18",
+    "order": 18
+  },
+  {
+    "src": "MATURITA HADR/Ekonomie/18. Hospodářství ČR a jeho okolí.docx",
+    "dest": "ekonomika/ekonomie/hospodarstvi-cr-a-jeho-okoli.md",
+    "title": "Hospodářství ČR a jeho okolí",
+    "order": 18
+  },
+  {
+    "src": "MATURITA HADR/Ekonomie/19. FINANCOVÁNÍ-PODNIKU.docx",
+    "dest": "ekonomika/ekonomie/financovani-podniku.md",
+    "title": "FINANCOVÁNÍ PODNIKU",
+    "order": 19
+  },
+  {
+    "src": "MATURITA HADR/Ekonomie/19. Obchodní činnosti - vnitrostátní obchod.docx",
+    "dest": "ekonomika/ekonomie/obchodni-cinnosti-vnitrostatni-obchod.md",
+    "title": "Obchodní činnosti vnitrostátní obchod",
+    "order": 19
+  },
+  {
+    "src": "MATURITA HADR/Ekonomie/2. Daňová soustava ČR - nepřímé daně.docx",
+    "dest": "ekonomika/ekonomie/danova-soustava-cr-neprime-dane.md",
+    "title": "Daňová soustava ČR nepřímé daně",
+    "order": 2
+  },
+  {
+    "src": "MATURITA HADR/Ekonomie/2. Třžní hospodářství.odt",
+    "dest": "ekonomika/ekonomie/trzni-hospodarstvi.md",
+    "title": "Třžní hospodářství",
+    "order": 2
+  },
+  {
+    "src": "MATURITA HADR/Ekonomie/20. Odměňování zaměstnanců.docx",
+    "dest": "ekonomika/ekonomie/odmenovani-zamestnancu.md",
+    "title": "Odměňování zaměstnanců",
+    "order": 20
+  },
+  {
+    "src": "MATURITA HADR/Ekonomie/20.-Národní-hospodářstviiii.docx",
+    "dest": "ekonomika/ekonomie/narodni-hospodarstviiii.md",
+    "title": "Národní hospodářstviiii",
+    "order": 20
+  },
+  {
+    "src": "MATURITA HADR/Ekonomie/21. Maturitní-otázka.docx",
+    "dest": "ekonomika/ekonomie/maturitni-otazka.md",
+    "title": "Maturitní otázka",
+    "order": 21
+  },
+  {
+    "src": "MATURITA HADR/Ekonomie/21. Obchodní činnost - zahraniční obchod.docx",
+    "dest": "ekonomika/ekonomie/obchodni-cinnost-zahranicni-obchod.md",
+    "title": "Obchodní činnost zahraniční obchod",
+    "order": 21
+  },
+  {
+    "src": "MATURITA HADR/Ekonomie/22. Obchodní společnosti kapitálové - a. s., s. r. o..docx",
+    "dest": "ekonomika/ekonomie/obchodni-spolecnosti-kapitalove-a-s-s-r-o.md",
+    "title": "Obchodní společnosti kapitálové a. s., s. r. o.",
+    "order": 22
+  },
+  {
+    "src": "MATURITA HADR/Ekonomie/22.-SZP.docx",
+    "dest": "ekonomika/ekonomie/szp.md",
+    "title": "SZP",
+    "order": 22
+  },
+  {
+    "src": "MATURITA HADR/Ekonomie/23. Orávní formy podnikání.odt",
+    "dest": "ekonomika/ekonomie/oravni-formy-podnikani.md",
+    "title": "Orávní formy podnikání",
+    "order": 23
+  },
+  {
+    "src": "MATURITA HADR/Ekonomie/24-Hospodaření-podniku.docx",
+    "dest": "ekonomika/ekonomie/hospodareni-podniku.md",
+    "title": "Hospodaření podniku",
+    "order": 24
+  },
+  {
+    "src": "MATURITA HADR/Ekonomie/25.-cestovní-ruch.docx",
+    "dest": "ekonomika/ekonomie/cestovni-ruch.md",
+    "title": "Cestovní ruch",
+    "order": 25
+  },
+  {
+    "src": "MATURITA HADR/Ekonomie/26. Podmínky podnikání v CR.odt",
+    "dest": "ekonomika/ekonomie/podminky-podnikani-v-cr.md",
+    "title": "Podmínky podnikání v CR",
+    "order": 26
+  },
+  {
+    "src": "MATURITA HADR/Ekonomie/27. Živnostenské oprávnění.docx",
+    "dest": "ekonomika/ekonomie/zivnostenske-opravneni.md",
+    "title": "Živnostenské oprávnění",
+    "order": 27
+  },
+  {
+    "src": "MATURITA HADR/Ekonomie/28. základní právní předpisy.docx",
+    "dest": "ekonomika/ekonomie/zakladni-pravni-predpisy.md",
+    "title": "Základní právní předpisy",
+    "order": 28
+  },
+  {
+    "src": "MATURITA HADR/Ekonomie/29. vybrané formy CR.docx",
+    "dest": "ekonomika/ekonomie/vybrane-formy-cr.md",
+    "title": "Vybrané formy CR",
+    "order": 29
+  },
+  {
+    "src": "MATURITA HADR/Ekonomie/3. Podnik - hlavní činnost podniku.docx",
+    "dest": "ekonomika/ekonomie/podnik-hlavni-cinnost-podniku.md",
+    "title": "Podnik hlavní činnost podniku",
+    "order": 3
+  },
+  {
+    "src": "MATURITA HADR/Ekonomie/3.-Finanční-trh.docx",
+    "dest": "ekonomika/ekonomie/financni-trh.md",
+    "title": "Finanční trh",
+    "order": 3
+  },
+  {
+    "src": "MATURITA HADR/Ekonomie/30. managment.docx",
+    "dest": "ekonomika/ekonomie/managment.md",
+    "title": "Managment",
+    "order": 30
+  },
+  {
+    "src": "MATURITA HADR/Ekonomie/4. Marketing.docx",
+    "dest": "ekonomika/ekonomie/marketing-2.md",
+    "title": "Marketing",
+    "order": 4
+  },
+  {
+    "src": "MATURITA HADR/Ekonomie/4. Podnikání fyzických osob.docx",
+    "dest": "ekonomika/ekonomie/podnikani-fyzickych-osob.md",
+    "title": "Podnikání fyzických osob",
+    "order": 4
+  },
+  {
+    "src": "MATURITA HADR/Ekonomie/5. Podnikání právnických osob.docx",
+    "dest": "ekonomika/ekonomie/podnikani-pravnickych-osob.md",
+    "title": "Podnikání právnických osob",
+    "order": 5
+  },
+  {
+    "src": "MATURITA HADR/Ekonomie/5.-Marketingový-mix.docx",
+    "dest": "ekonomika/ekonomie/marketingovy-mix.md",
+    "title": "Marketingový mix",
+    "order": 5
+  },
+  {
+    "src": "MATURITA HADR/Ekonomie/6. Plánování a příprava investiční výstavby, příprava výrobního procesu.docx",
+    "dest": "ekonomika/ekonomie/planovani-a-priprava-investicni-vystavby-priprava-vyrobniho-procesu.md",
+    "title": "Plánování a příprava investiční výstavby, příprava výrobního procesu",
+    "order": 6
+  },
+  {
+    "src": "MATURITA HADR/Ekonomie/6. Podnik.odt",
+    "dest": "ekonomika/ekonomie/podnik.md",
+    "title": "Podnik",
+    "order": 6
+  },
+  {
+    "src": "MATURITA HADR/Ekonomie/7. Bankvní systém ČR.docx",
+    "dest": "ekonomika/ekonomie/bankvni-system-cr.md",
+    "title": "Bankvní systém ČR",
+    "order": 7
+  },
+  {
+    "src": "MATURITA HADR/Ekonomie/7.-obcanske-pravo.docx",
+    "dest": "ekonomika/ekonomie/obcanske-pravo.md",
+    "title": "Obcanske pravo",
+    "order": 7
+  },
+  {
+    "src": "MATURITA HADR/Ekonomie/8-Zasobovani.docx",
+    "dest": "ekonomika/ekonomie/zasobovani.md",
+    "title": "Zasobovani",
+    "order": 8
+  },
+  {
+    "src": "MATURITA HADR/Ekonomie/8. Finanční trhy a cenné papíry.docx",
+    "dest": "ekonomika/ekonomie/financni-trhy-a-cenne-papiry.md",
+    "title": "Finanční trhy a cenné papíry",
+    "order": 8
+  },
+  {
+    "src": "MATURITA HADR/Ekonomie/9. Pojišťovnictví.docx",
+    "dest": "ekonomika/ekonomie/pojistovnictvi.md",
+    "title": "Pojišťovnictví",
+    "order": 9
+  },
+  {
+    "src": "MATURITA HADR/Ekonomie/9. výroba.docx",
+    "dest": "ekonomika/ekonomie/vyroba.md",
+    "title": "Výroba",
+    "order": 9
+  },
+  {
+    "src": "MATURITA HADR/Ekonomika/1. Bankovní obchody.docx",
+    "dest": "ekonomika/ekonomika/bankovni-obchody.md",
+    "title": "Bankovní obchody",
+    "order": 1
+  },
+  {
+    "src": "MATURITA HADR/Ekonomika/10. Investiční činnost podniku.docx",
+    "dest": "ekonomika/ekonomika/investicni-cinnost-podniku.md",
+    "title": "Investiční činnost podniku",
+    "order": 10
+  },
+  {
+    "src": "MATURITA HADR/Ekonomika/11. Přímé daně.docx",
+    "dest": "ekonomika/ekonomika/prime-dane.md",
+    "title": "Přímé daně",
+    "order": 11
+  },
+  {
+    "src": "MATURITA HADR/Ekonomika/12. Daň z příjmu FO.docx",
+    "dest": "ekonomika/ekonomika/dan-z-prijmu-fo.md",
+    "title": "Daň z příjmu FO",
+    "order": 12
+  },
+  {
+    "src": "MATURITA HADR/Ekonomika/13. Nepřímé daně.docx",
+    "dest": "ekonomika/ekonomika/neprime-dane.md",
+    "title": "Nepřímé daně",
+    "order": 13
+  },
+  {
+    "src": "MATURITA HADR/Ekonomika/14. Akciová společnost.docx",
+    "dest": "ekonomika/ekonomika/akciova-spolecnost.md",
+    "title": "Akciová společnost",
+    "order": 14
+  },
+  {
+    "src": "MATURITA HADR/Ekonomika/15. Výrobní činnsot podniku.docx",
+    "dest": "ekonomika/ekonomika/vyrobni-cinnsot-podniku.md",
+    "title": "Výrobní činnsot podniku",
+    "order": 15
+  },
+  {
+    "src": "MATURITA HADR/Ekonomika/16. Společnost s ručením omezeným.docx",
+    "dest": "ekonomika/ekonomika/spolecnost-s-rucenim-omezenym.md",
+    "title": "Společnost s ručením omezeným",
+    "order": 16
+  },
+  {
+    "src": "MATURITA HADR/Ekonomika/17. Kapitálový trh.docx",
+    "dest": "ekonomika/ekonomika/kapitalovy-trh.md",
+    "title": "Kapitálový trh",
+    "order": 17
+  },
+  {
+    "src": "MATURITA HADR/Ekonomika/18. Veřejná obchodní společnost.docx",
+    "dest": "ekonomika/ekonomika/verejna-obchodni-spolecnost.md",
+    "title": "Veřejná obchodní společnost",
+    "order": 18
+  },
+  {
+    "src": "MATURITA HADR/Ekonomika/19. Živnostenský zákon.docx",
+    "dest": "ekonomika/ekonomika/zivnostensky-zakon.md",
+    "title": "Živnostenský zákon",
+    "order": 19
+  },
+  {
+    "src": "MATURITA HADR/Ekonomika/2. Pojišťovnictví.docx",
+    "dest": "ekonomika/ekonomika/pojistovnictvi.md",
+    "title": "Pojišťovnictví",
+    "order": 2
+  },
+  {
+    "src": "MATURITA HADR/Ekonomika/20. Personální činnost podniku.docx",
+    "dest": "ekonomika/ekonomika/personalni-cinnost-podniku.md",
+    "title": "Personální činnost podniku",
+    "order": 20
+  },
+  {
+    "src": "MATURITA HADR/Ekonomika/21. Kalkulace a rozpočetnictví.docx",
+    "dest": "ekonomika/ekonomika/kalkulace-a-rozpocetnictvi.md",
+    "title": "Kalkulace a rozpočetnictví",
+    "order": 21
+  },
+  {
+    "src": "MATURITA HADR/Ekonomika/22. Komanditní společnost.docx",
+    "dest": "ekonomika/ekonomika/komanditni-spolecnost.md",
+    "title": "Komanditní společnost",
+    "order": 22
+  },
+  {
+    "src": "MATURITA HADR/Ekonomika/23. Mezinárodní obchod.docx",
+    "dest": "ekonomika/ekonomika/mezinarodni-obchod.md",
+    "title": "Mezinárodní obchod",
+    "order": 23
+  },
+  {
+    "src": "MATURITA HADR/Ekonomika/24. Management.docx",
+    "dest": "ekonomika/ekonomika/management.md",
+    "title": "Management",
+    "order": 24
+  },
+  {
+    "src": "MATURITA HADR/Ekonomika/25. Ekonomie.docx",
+    "dest": "ekonomika/ekonomika/ekonomie.md",
+    "title": "Ekonomie",
+    "order": 25
+  },
+  {
+    "src": "MATURITA HADR/Ekonomika/3. Cenné papíry.docx",
+    "dest": "ekonomika/ekonomika/cenne-papiry.md",
+    "title": "Cenné papíry",
+    "order": 3
+  },
+  {
+    "src": "MATURITA HADR/Ekonomika/4. Zásobovací činnost podniku.docx",
+    "dest": "ekonomika/ekonomika/zasobovaci-cinnost-podniku.md",
+    "title": "Zásobovací činnost podniku",
+    "order": 4
+  },
+  {
+    "src": "MATURITA HADR/Ekonomika/5. Socialni a zdravotni.docx",
+    "dest": "ekonomika/ekonomika/socialni-a-zdravotni.md",
+    "title": "Socialni a zdravotni",
+    "order": 5
+  },
+  {
+    "src": "MATURITA HADR/Ekonomika/6. Marketing.docx",
+    "dest": "ekonomika/ekonomika/marketing.md",
+    "title": "Marketing",
+    "order": 6
+  },
+  {
+    "src": "MATURITA HADR/Ekonomika/7. Družstvo.docx",
+    "dest": "ekonomika/ekonomika/druzstvo.md",
+    "title": "Družstvo",
+    "order": 7
+  },
+  {
+    "src": "MATURITA HADR/Ekonomika/8. Vnitřní obchod.docx",
+    "dest": "ekonomika/ekonomika/vnitrni-obchod.md",
+    "title": "Vnitřní obchod",
+    "order": 8
+  },
+  {
+    "src": "MATURITA HADR/Ekonomika/9. Úvěrové bankovní obchody.docx",
+    "dest": "ekonomika/ekonomika/uverove-bankovni-obchody.md",
+    "title": "Úvěrové bankovní obchody",
+    "order": 9
+  },
+  {
+    "src": "MATURITA HADR/Ekonomika/Vzorečky.docx",
+    "dest": "ekonomika/ekonomika/vzorecky.md",
+    "title": "Vzorečky"
+  },
+  {
+    "src": "MATURITA HADR/Účetnictví/1. Právní úprava účetnictví - Dokumenty Google.pdf",
+    "dest": "ekonomika/ucetnictvi/pravni-uprava-ucetnictvi-dokumenty-google.md",
+    "title": "Právní úprava účetnictví Dokumenty Google",
+    "order": 1
+  },
+  {
+    "src": "MATURITA HADR/Účetnictví/1. Právní úprava účetnictví.docx",
+    "dest": "ekonomika/ucetnictvi/pravni-uprava-ucetnictvi.md",
+    "title": "Právní úprava účetnictví",
+    "order": 1
+  },
+  {
+    "src": "MATURITA HADR/Účetnictví/10. Daňová evidence příjmů a výdajů.doc",
+    "dest": "ekonomika/ucetnictvi/danova-evidence-prijmu-a-vydaju.md",
+    "title": "Daňová evidence příjmů a výdajů",
+    "order": 10
+  },
+  {
+    "src": "MATURITA HADR/Účetnictví/10. Pohledávky.docx",
+    "dest": "ekonomika/ucetnictvi/pohledavky.md",
+    "title": "Pohledávky",
+    "order": 10
+  },
+  {
+    "src": "MATURITA HADR/Účetnictví/11. Daňová soustava v ČR - Dokumenty Google.pdf",
+    "dest": "ekonomika/ucetnictvi/danova-soustava-v-cr-dokumenty-google.md",
+    "title": "Daňová soustava v ČR Dokumenty Google",
+    "order": 11
+  },
+  {
+    "src": "MATURITA HADR/Účetnictví/11. Závazky.docx",
+    "dest": "ekonomika/ucetnictvi/zavazky.md",
+    "title": "Závazky",
+    "order": 11
+  },
+  {
+    "src": "MATURITA HADR/Účetnictví/12. Mzdy a zaměstnanci(1).docx",
+    "dest": "ekonomika/ucetnictvi/mzdy-a-zamestnanci-1.md",
+    "title": "Mzdy a zaměstnanci(1)",
+    "order": 12
+  },
+  {
+    "src": "MATURITA HADR/Účetnictví/12. Podnikání v České republice - Dokumenty Google.pdf",
+    "dest": "ekonomika/ucetnictvi/podnikani-v-ceske-republice-dokumenty-google.md",
+    "title": "Podnikání v České republice Dokumenty Google",
+    "order": 12
+  },
+  {
+    "src": "MATURITA HADR/Účetnictví/13. Živnostenské podnikání, obchodní společnosti - Dokumenty Google.pdf",
+    "dest": "ekonomika/ucetnictvi/zivnostenske-podnikani-obchodni-spolecnosti-dokumenty-google.md",
+    "title": "Živnostenské podnikání, obchodní společnosti Dokumenty Google",
+    "order": 13
+  },
+  {
+    "src": "MATURITA HADR/Účetnictví/14. Podnik a jeho základní činnosti - Dokumenty Google.pdf",
+    "dest": "ekonomika/ucetnictvi/podnik-a-jeho-zakladni-cinnosti-dokumenty-google.md",
+    "title": "Podnik a jeho základní činnosti Dokumenty Google",
+    "order": 14
+  },
+  {
+    "src": "MATURITA HADR/Účetnictví/14. Výnosy a hospodářský výsledek.docx",
+    "dest": "ekonomika/ucetnictvi/vynosy-a-hospodarsky-vysledek.md",
+    "title": "Výnosy a hospodářský výsledek",
+    "order": 14
+  },
+  {
+    "src": "MATURITA HADR/Účetnictví/15. Financování a finanční řízení podniku - Dokumenty Google.pdf",
+    "dest": "ekonomika/ucetnictvi/financovani-a-financni-rizeni-podniku-dokumenty-google.md",
+    "title": "Financování a finanční řízení podniku Dokumenty Google",
+    "order": 15
+  },
+  {
+    "src": "MATURITA HADR/Účetnictví/16. Hospodářská politika státu, hodnocení národního hospodářsví - Dokumenty Google.pdf",
+    "dest": "ekonomika/ucetnictvi/hospodarska-politika-statu-hodnoceni-narodniho-hospodarsvi-dokumenty-google.md",
+    "title": "Hospodářská politika státu, hodnocení národního hospodářsví Dokumenty Google",
+    "order": 16
+  },
+  {
+    "src": "MATURITA HADR/Účetnictví/16. Náklady včetně časového rozlišení nákladů.docx",
+    "dest": "ekonomika/ucetnictvi/naklady-vcetne-casoveho-rozliseni-nakladu.md",
+    "title": "Náklady včetně časového rozlišení nákladů",
+    "order": 16
+  },
+  {
+    "src": "MATURITA HADR/Účetnictví/17. Finanční trhy - Dokumenty Google.pdf",
+    "dest": "ekonomika/ucetnictvi/financni-trhy-dokumenty-google.md",
+    "title": "Finanční trhy Dokumenty Google",
+    "order": 17
+  },
+  {
+    "src": "MATURITA HADR/Účetnictví/17. Účetní uzávěrka a závěrka.docx",
+    "dest": "ekonomika/ucetnictvi/ucetni-uzaverka-a-zaverka.md",
+    "title": "Účetní uzávěrka a závěrka",
+    "order": 17
+  },
+  {
+    "src": "MATURITA HADR/Účetnictví/18. Rozpočty a kalkulace.docx",
+    "dest": "ekonomika/ucetnictvi/rozpocty-a-kalkulace.md",
+    "title": "Rozpočty a kalkulace",
+    "order": 18
+  },
+  {
+    "src": "MATURITA HADR/Účetnictví/19. Vedení, organizování - Dokumenty Google.pdf",
+    "dest": "ekonomika/ucetnictvi/vedeni-organizovani-dokumenty-google.md",
+    "title": "Vedení, organizování Dokumenty Google",
+    "order": 19
+  },
+  {
+    "src": "MATURITA HADR/Účetnictví/19. Vnitropodnikové účetnictví.docx",
+    "dest": "ekonomika/ucetnictvi/vnitropodnikove-ucetnictvi.md",
+    "title": "Vnitropodnikové účetnictví",
+    "order": 19
+  },
+  {
+    "src": "MATURITA HADR/Účetnictví/2. Dlouhodobý majetek (účtová třída 0) - Dokumenty Google.pdf",
+    "dest": "ekonomika/ucetnictvi/dlouhodoby-majetek-uctova-trida-0-dokumenty-google.md",
+    "title": "Dlouhodobý majetek (účtová třída 0) Dokumenty Google",
+    "order": 2
+  },
+  {
+    "src": "MATURITA HADR/Účetnictví/2. Dokumentace.docx",
+    "dest": "ekonomika/ucetnictvi/dokumentace.md",
+    "title": "Dokumentace",
+    "order": 2
+  },
+  {
+    "src": "MATURITA HADR/Účetnictví/20. Daňová evidence příjmů a výdajů.docx",
+    "dest": "ekonomika/ucetnictvi/danova-evidence-prijmu-a-vydaju-2.md",
+    "title": "Daňová evidence příjmů a výdajů",
+    "order": 20
+  },
+  {
+    "src": "MATURITA HADR/Účetnictví/20. Komunikace - Dokumenty Google.pdf",
+    "dest": "ekonomika/ucetnictvi/komunikace-dokumenty-google.md",
+    "title": "Komunikace Dokumenty Google",
+    "order": 20
+  },
+  {
+    "src": "MATURITA HADR/Účetnictví/21. Individuální podnikatel.docx",
+    "dest": "ekonomika/ucetnictvi/individualni-podnikatel.md",
+    "title": "Individuální podnikatel",
+    "order": 21
+  },
+  {
+    "src": "MATURITA HADR/Účetnictví/21. Rozhodování, kontrola - Dokumenty Google.pdf",
+    "dest": "ekonomika/ucetnictvi/rozhodovani-kontrola-dokumenty-google.md",
+    "title": "Rozhodování, kontrola Dokumenty Google",
+    "order": 21
+  },
+  {
+    "src": "MATURITA HADR/Účetnictví/22. Pracovněprávní vztahy - Dokumenty Google.pdf",
+    "dest": "ekonomika/ucetnictvi/pracovnepravni-vztahy-dokumenty-google.md",
+    "title": "Pracovněprávní vztahy Dokumenty Google",
+    "order": 22
+  },
+  {
+    "src": "MATURITA HADR/Účetnictví/22. Společenost s ručením omezeným.docx",
+    "dest": "ekonomika/ucetnictvi/spolecenost-s-rucenim-omezenym.md",
+    "title": "Společenost s ručením omezeným",
+    "order": 22
+  },
+  {
+    "src": "MATURITA HADR/Účetnictví/23. Akciová společnost.docx",
+    "dest": "ekonomika/ucetnictvi/akciova-spolecnost.md",
+    "title": "Akciová společnost",
+    "order": 23
+  },
+  {
+    "src": "MATURITA HADR/Účetnictví/23. Marketingové řízení a marketingový mix - Dokumenty Google.pdf",
+    "dest": "ekonomika/ucetnictvi/marketingove-rizeni-a-marketingovy-mix-dokumenty-google.md",
+    "title": "Marketingové řízení a marketingový mix Dokumenty Google",
+    "order": 23
+  },
+  {
+    "src": "MATURITA HADR/Účetnictví/24. Marketingový výzkum, výzkum spotřebitele - Dokumenty Google.pdf",
+    "dest": "ekonomika/ucetnictvi/marketingovy-vyzkum-vyzkum-spotrebitele-dokumenty-google.md",
+    "title": "Marketingový výzkum, výzkum spotřebitele Dokumenty Google",
+    "order": 24
+  },
+  {
+    "src": "MATURITA HADR/Účetnictví/25. Závazkové právo - Dokumenty Google.pdf",
+    "dest": "ekonomika/ucetnictvi/zavazkove-pravo-dokumenty-google.md",
+    "title": "Závazkové právo Dokumenty Google",
+    "order": 25
+  },
+  {
+    "src": "MATURITA HADR/Účetnictví/26. Věcné právo - Dokumenty Google.pdf",
+    "dest": "ekonomika/ucetnictvi/vecne-pravo-dokumenty-google.md",
+    "title": "Věcné právo Dokumenty Google",
+    "order": 26
+  },
+  {
+    "src": "MATURITA HADR/Účetnictví/3. Inventarizace.docx",
+    "dest": "ekonomika/ucetnictvi/inventarizace.md",
+    "title": "Inventarizace",
+    "order": 3
+  },
+  {
+    "src": "MATURITA HADR/Účetnictví/3. Zásoby (účtová třída 1) - Dokumenty Google.pdf",
+    "dest": "ekonomika/ucetnictvi/zasoby-uctova-trida-1-dokumenty-google.md",
+    "title": "Zásoby (účtová třída 1) Dokumenty Google",
+    "order": 3
+  },
+  {
+    "src": "MATURITA HADR/Účetnictví/4. Dlouhodobý majetek.docx",
+    "dest": "ekonomika/ucetnictvi/dlouhodoby-majetek.md",
+    "title": "Dlouhodobý majetek",
+    "order": 4
+  },
+  {
+    "src": "MATURITA HADR/Účetnictví/4. Krátkodobý finanční majetek a krátkodobé bankovní úvěry (útová třída 2) - Dokumenty Google.pdf",
+    "dest": "ekonomika/ucetnictvi/kratkodoby-financni-majetek-a-kratkodobe-bankovni-uvery-utova-trida-2-dokumenty-google.md",
+    "title": "Krátkodobý finanční majetek a krátkodobé bankovní úvěry (útová třída 2) Dokumenty Google",
+    "order": 4
+  },
+  {
+    "src": "MATURITA HADR/Účetnictví/5. Odpisy a vyřazování dlouhodobého majetku.docx",
+    "dest": "ekonomika/ucetnictvi/odpisy-a-vyrazovani-dlouhodobeho-majetku.md",
+    "title": "Odpisy a vyřazování dlouhodobého majetku",
+    "order": 5
+  },
+  {
+    "src": "MATURITA HADR/Účetnictví/5. Zúčtovací vztahy (účtová třída 3) - Dokumenty Google.pdf",
+    "dest": "ekonomika/ucetnictvi/zuctovaci-vztahy-uctova-trida-3-dokumenty-google.md",
+    "title": "Zúčtovací vztahy (účtová třída 3) Dokumenty Google",
+    "order": 5
+  },
+  {
+    "src": "MATURITA HADR/Účetnictví/6. Kapitálové účty (účtová třída 4) - Dokumenty Google.pdf",
+    "dest": "ekonomika/ucetnictvi/kapitalove-ucty-uctova-trida-4-dokumenty-google.md",
+    "title": "Kapitálové účty (účtová třída 4) Dokumenty Google",
+    "order": 6
+  },
+  {
+    "src": "MATURITA HADR/Účetnictví/6. Zásoby materiálu a zboží.docx",
+    "dest": "ekonomika/ucetnictvi/zasoby-materialu-a-zbozi.md",
+    "title": "Zásoby materiálu a zboží",
+    "order": 6
+  },
+  {
+    "src": "MATURITA HADR/Účetnictví/7. Náklady (účtová třída 5) - Dokumenty Google.pdf",
+    "dest": "ekonomika/ucetnictvi/naklady-uctova-trida-5-dokumenty-google.md",
+    "title": "Náklady (účtová třída 5) Dokumenty Google",
+    "order": 7
+  },
+  {
+    "src": "MATURITA HADR/Účetnictví/8. Krátkodobý finanční majetek a krátkodobé bankovní úvěry.docx",
+    "dest": "ekonomika/ucetnictvi/kratkodoby-financni-majetek-a-kratkodobe-bankovni-uvery.md",
+    "title": "Krátkodobý finanční majetek a krátkodobé bankovní úvěry",
+    "order": 8
+  },
+  {
+    "src": "MATURITA HADR/Účetnictví/8. Výnosy (účtová třída 6) - Dokumenty Google.pdf",
+    "dest": "ekonomika/ucetnictvi/vynosy-uctova-trida-6-dokumenty-google.md",
+    "title": "Výnosy (účtová třída 6) Dokumenty Google",
+    "order": 8
+  },
+  {
+    "src": "MATURITA HADR/Účetnictví/9. Cenné papíry.docx",
+    "dest": "ekonomika/ucetnictvi/cenne-papiry.md",
+    "title": "Cenné papíry",
+    "order": 9
+  },
+  {
+    "src": "MATURITA HADR/Účetnictví/9. Účetní závěrka a hospodářský výsledek - Dokumenty Google.pdf",
+    "dest": "ekonomika/ucetnictvi/ucetni-zaverka-a-hospodarsky-vysledek-dokumenty-google.md",
+    "title": "Účetní závěrka a hospodářský výsledek Dokumenty Google",
+    "order": 9
+  },
+  {
+    "src": "MATURITA HADR/Účetnictví/otazky.pdf",
+    "dest": "ekonomika/ucetnictvi/otazky.md",
+    "title": "Otazky"
+  }
+]

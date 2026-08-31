@@ -2,6 +2,7 @@
 title: "Kvadratická nerovnice"
 order: 3
 source: "matematika/TY01_0203_-_Kvadraticka_nerovnice.pptx"
+hasExercises: true
 ---
 Kvadratická nerovnice
 
@@ -75,7 +76,7 @@ _a.b > 0   < = >  a > 0      b > 0            a < 0      b < 0_
 
 _<u>a > 0 b > 0 a < 0 b < 0</u>_
 
-- (x - 1/3) > 0      (x + 2) > 0                                            (x - 1/3) < 0        (x + 2) < 0
+(x - 1/3) > 0      (x + 2) > 0                                            (x - 1/3) < 0        (x + 2) < 0
 
 x >  1/3                 x > -2                                                  x <  1/3 x < -2
 

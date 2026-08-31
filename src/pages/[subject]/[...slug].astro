@@ -1,14 +1,33 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import MathScratchpad from '../../components/MathScratchpad.astro';
+import TopicFilmstrip from '../../components/TopicFilmstrip.astro';
 import { SUBJECTS, SUBJECT_KEYS, type SubjectKey } from '../../lib/subjects';
-import { groupOfId, sortEntriesByOrder } from '../../lib/groups';
+import { groupLabel, groupOfId, sortEntriesByOrder, sortGroupKeys } from '../../lib/groups';
 import { getCollection, render } from 'astro:content';
 
 type Entry = Awaited<ReturnType<typeof getCollection<SubjectKey>>>[number];
+export type FilmstripItem = {
+	id: string;
+	title: string;
+	order: number | null;
+	group: string | null;
+	groupLabel: string;
+	hasExercises: boolean;
+};
 
 export async function getStaticPaths() {
-	const paths: { params: { subject: SubjectKey; slug: string }; props: { entry: Entry; subject: SubjectKey; prev: Entry | null; next: Entry | null } }[] = [];
+	const paths: {
+		params: { subject: SubjectKey; slug: string };
+		props: {
+			entry: Entry;
+			subject: SubjectKey;
+			prev: Entry | null;
+			next: Entry | null;
+			filmstrip: FilmstripItem[];
+			filmstripIndex: number;
+		};
+	}[] = [];
 	for (const subject of SUBJECT_KEYS) {
 		const entries = await getCollection(subject);
 		const groups = new Map<string | null, typeof entries>();
@@ -17,6 +36,26 @@ export async function getStaticPaths() {
 			if (!groups.has(g)) groups.set(g, []);
 			groups.get(g)!.push(entry);
 		}
+
+		// flat, subject-wide reading order (same grouping/sorting as the
+		// index page) — used to drive the filmstrip picker across every
+		// category, not just the current one
+		const orderedGroupKeys = sortGroupKeys(subject, [...groups.keys()]);
+		const flat: { entry: Entry; group: string | null }[] = [];
+		for (const g of orderedGroupKeys) {
+			for (const entry of sortEntriesByOrder(groups.get(g)!)) {
+				flat.push({ entry, group: g });
+			}
+		}
+		const filmstrip: FilmstripItem[] = flat.map(({ entry, group }) => ({
+			id: entry.id,
+			title: entry.data.title,
+			order: entry.data.order ?? null,
+			group,
+			groupLabel: group ? groupLabel(subject, group) : '',
+			hasExercises: entry.data.hasExercises ?? false,
+		}));
+
 		for (const group of groups.values()) {
 			const sorted = sortEntriesByOrder(group);
 			sorted.forEach((entry, i) => {
@@ -27,6 +66,8 @@ export async function getStaticPaths() {
 						subject,
 						prev: sorted[i - 1] ?? null,
 						next: sorted[i + 1] ?? null,
+						filmstrip,
+						filmstripIndex: flat.findIndex((f) => f.entry.id === entry.id),
 					},
 				});
 			});
@@ -35,11 +76,13 @@ export async function getStaticPaths() {
 	return paths;
 }
 
-const { entry, subject, prev, next } = Astro.props as {
+const { entry, subject, prev, next, filmstrip, filmstripIndex } = Astro.props as {
 	entry: Entry;
 	subject: SubjectKey;
 	prev: Entry | null;
 	next: Entry | null;
+	filmstrip: FilmstripItem[];
+	filmstripIndex: number;
 };
 const { Content } = await render(entry);
 ---
@@ -75,6 +118,7 @@ const { Content } = await render(entry);
 				) : (
 					<span />
 				)}
+				<TopicFilmstrip subject={subject} items={filmstrip} currentIndex={filmstripIndex} />
 				{next && (
 					<a class="topic-pager-next" href={`/${subject}/${next.id}/`}>
 						{next.data.title} →

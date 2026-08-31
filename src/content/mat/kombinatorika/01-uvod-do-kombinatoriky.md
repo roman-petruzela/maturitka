@@ -2,6 +2,7 @@
 title: "Úvod do kombinatoriky"
 order: 1
 source: "matematika/TY01_0233_Uvod_do_kombinatoriky.pptx"
+hasExercises: true
 ---
 • _Proč jsou čísla nádherná? To je jako ptát se, proč je nádherná Beethovenova Devátá symfonie. Když nevíte proč, nemůže vám to nikdo vysvětlit. Já vím, že čísla jsou nádherná. A jestli nejsou, tak potom není nádherné už nic._
 
@@ -33,15 +34,13 @@ Blaise Pascal  1623 - 1662 Pierre de Fermat  1601 – 1665 Jacob Bernoulli  1655
 
 - – chceme rozdat několik druhů cen mezi účastníky závodu
 
-•Otázky:
-
-   - jaká možná seskupení mohou nastat při házení určitého počtu hracích kostek?
+- Otázky: • jaká možná seskupení mohou nastat při házení určitého počtu hracích kostek?
 
    - jaké jsou pravděpodobnosti výher?
 
-- •postupně se vyvíjel nový obor
+- postupně se vyvíjel nový obor
 
-•v  současné době nalézá uplatnění v teorii pravděpodobnosti, v teorii informací, ve statistice … …
+- • v  současné době nalézá uplatnění v teorii pravděpodobnosti, v teorii informací, ve statistice … …
 
 Základní kombinatorická pravidla
 

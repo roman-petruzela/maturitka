@@ -21,9 +21,7 @@ source: "matematika/TY01_0121_Bod_a_primka_v_kartezske_soustave.pptx"
 # Souřadnice bodu v rovině
 
 <!-- Start of picture text -->
-6<br>5<br>C<br>4<br>3<br>2<br>1<br>A B<br>0<br>0.5 1 1.5 2 2.5 3 3.5 4 4.5 5 5.5<br><!-- End of picture text -->
-
-Druhé řešení v opačné polorovině
+6<br>5<br>C<br>4<br>3<br>2<br>1<br>A B<br>0<br>0.5 1 1.5 2 2.5 3 3.5 4 4.5 5 5.5<br>Druhé řešení v opačné polorovině<br><!-- End of picture text -->
 
 # Souřadnice bodu v rovině
 

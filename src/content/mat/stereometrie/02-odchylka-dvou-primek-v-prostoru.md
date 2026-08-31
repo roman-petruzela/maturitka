@@ -2,6 +2,7 @@
 title: "Odchylka dvou přímek v prostoru"
 order: 2
 source: "matematika/TY0102 Odchylka dvou přímek v prostoru.pdf"
+hasExercises: true
 ---
 Už víme, že v prostoru nastat 4 vzájemné polohy dvou přímek: přímky totožné, přímky rovnoběžné, přímky různoběžné a přímky mimoběžné.
 

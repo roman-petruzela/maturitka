@@ -3,6 +3,12 @@ title: "Základní příkazy Cisco IOS pro správu směrovačů a přepínačů"
 order: 14
 source: "MATURITA HADR/IT/RTR_CMD-2-CZ-_29_.pdf"
 ---
+Josef Kaderka
+
+Verse 28
+
+Inspirace Boson
+
 Příkazy jsou uváděny v základním tvaru, bez kontextu (tj. aktuálního módu), předpokládá se jeho znalost nebo vypěstování Cisco IOS intuice. Například je uveden příkaz pro přiřazení IP adresy rozhraní **ip address {adr} {sm} .** Pro jeho zadání je ale nutno napřed přejít do privilegovaného módu (příkaz **enable** ), pak do globálního konfiguračního módu (příkaz **configure terminal** ) a pak do specifického konfiguračního módu (příkaz **interface** **_{int}_** ).
 
 ## **Správa směrovačů**
@@ -272,8 +278,8 @@ Příkazy jsou uváděny v základním tvaru, bez kontextu (tj. aktuálního mó
 |---|---|
 |Nastavení hesla „admins“ pro čtení a zápis SNMP dat<br>Nastavení hesla „topsecret“ pro čtení a zápis SNMP dat jen z<br>10.1.1.1|**snmp-server community admins rw**<br>**snmp-server community topsecret rw 60**<br>**access-list 60permit 10.1.1.1**|
 |Nastavení hesla „others“ pro čtení SNMP dat (běžná hodnota je<br>„public“)|**snmp-server community others ro**|
-|Totojepán směrovače|**snmp-server contact Správce sítě**|
-|Tadyse směrovač nalézá|**snmp-server location Serverovna, 1. patro**|
+|Totojepán směrovače|**snmp-server contactJosef Kaderka**|
+|Tadyse směrovač nalézá|**snmp-server location Brno, Sumavska 4, 3/11a**|
 |SNMP manager,tamposílat zprávy (traps)s community public|**snmp-server host 10.1.1.1public**|
 |Povolení odesílat zprávy při vznikujakékoliv události|**snmp-server enable traps** |
 |Odesílat zprávy jen při vzniku události daného typu|**snmp-server enable traps config**<br>**snmp-server enable traps envmon temperature**|

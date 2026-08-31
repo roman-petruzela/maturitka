@@ -2,6 +2,7 @@
 title: "Soustava 2 lineárních rovnic o 2 neznámých"
 order: 10
 source: "MATURITA HADR/Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/10) Soustava 2 lineárních rovnic o 2 neznámých.pdf"
+hasExercises: true
 ---
 <u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Soustava dvou lineárních rovnic o dvou neznámých</u>
 

@@ -2,6 +2,7 @@
 title: "Statistika"
 order: 33
 source: "MATURITA HADR/Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/33) Statistika.pdf"
+hasExercises: true
 ---
 <u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Statistika</u>
 

@@ -2,6 +2,7 @@
 title: "Soustava lineární a kvadratické rovnice"
 order: 4
 source: "matematika/TY01_0204_-_Soustava_linearni_a_kvadraticke_rovnice.pptx"
+hasExercises: true
 ---
 ## Osnova
 

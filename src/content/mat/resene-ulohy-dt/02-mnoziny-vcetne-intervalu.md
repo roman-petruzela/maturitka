@@ -2,6 +2,7 @@
 title: "Množiny ( včetně intervalů )"
 order: 2
 source: "MATURITA HADR/Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/2) Množiny ( včetně intervalů ).pdf"
+hasExercises: true
 ---
 <u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Množiny ( včetně intervalů )</u>
 

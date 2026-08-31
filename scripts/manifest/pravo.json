@@ -1,0 +1,152 @@
+[
+  {
+    "src": "MATURITA HADR/Právo/1. Právo a stát/pojmy na právo.docx",
+    "dest": "pravo/pravo-a-stat.md",
+    "title": "Právo a stát",
+    "order": 1
+  },
+  {
+    "src": "MATURITA HADR/Právo/10. Dědické právo/10_dedicke_pravo.odt",
+    "dest": "pravo/dedicke-pravo.md",
+    "title": "Dědické právo",
+    "order": 10
+  },
+  {
+    "src": "MATURITA HADR/Právo/11. Relativní majetková práva/11_relativni_majetkova_prava.odt",
+    "dest": "pravo/relativni-majetkova-prava.md",
+    "title": "Relativní majetková práva",
+    "order": 11
+  },
+  {
+    "src": "MATURITA HADR/Právo/12. Rodinné právo/12_rodinne_pravo.odt",
+    "dest": "pravo/rodinne-pravo.md",
+    "title": "Rodinné právo",
+    "order": 12
+  },
+  {
+    "src": "MATURITA HADR/Právo/13. Manželství/13_manzelstvi.odt",
+    "dest": "pravo/manzelstvi.md",
+    "title": "Manželství",
+    "order": 13
+  },
+  {
+    "src": "MATURITA HADR/Právo/14. Správní právo/14_spravni_pravo.docx",
+    "dest": "pravo/spravni-pravo.md",
+    "title": "Správní právo",
+    "order": 14
+  },
+  {
+    "src": "MATURITA HADR/Právo/15. Správní řízení/15_spravni_rizeni.docx",
+    "dest": "pravo/spravni-rizeni.md",
+    "title": "Správní řízení",
+    "order": 15
+  },
+  {
+    "src": "MATURITA HADR/Právo/16. Právo duševního vlastnictví/maturitni otazka c. 16.docx",
+    "dest": "pravo/pravo-dusevniho-vlastnictvi.md",
+    "title": "Právo duševního vlastnictví",
+    "order": 16
+  },
+  {
+    "src": "MATURITA HADR/Právo/17. Právní úprava podnikání/17_pravni_uprava_podnikani.odt",
+    "dest": "pravo/pravni-uprava-podnikani.md",
+    "title": "Právní úprava podnikání",
+    "order": 17
+  },
+  {
+    "src": "MATURITA HADR/Právo/18. Obchodní korporace/pravo_kontolni_otazky.docx",
+    "dest": "pravo/obchodni-korporace.md",
+    "title": "Obchodní korporace",
+    "order": 18
+  },
+  {
+    "src": "MATURITA HADR/Právo/19. Občanské právo procesní/maturitni otazka c. 19.docx",
+    "dest": "pravo/obcanske-pravo-procesni.md",
+    "title": "Občanské právo procesní",
+    "order": 19
+  },
+  {
+    "src": "MATURITA HADR/Právo/2. Prameny práva, právní kultura, právní řád ČR/prameny_prava_emil.docx",
+    "dest": "pravo/prameny-prava-pravni-kultura-pravni-rad-cr.md",
+    "title": "Prameny práva, právní kultura, právní řád ČR",
+    "order": 2
+  },
+  {
+    "src": "MATURITA HADR/Právo/20. Pracovní právo/20_pracovni_pravo.docx",
+    "dest": "pravo/pracovni-pravo.md",
+    "title": "Pracovní právo",
+    "order": 20
+  },
+  {
+    "src": "MATURITA HADR/Právo/21. Finanční právo/21_financni_pravo.docx",
+    "dest": "pravo/financni-pravo.md",
+    "title": "Finanční právo",
+    "order": 21
+  },
+  {
+    "src": "MATURITA HADR/Právo/22. Trestní právo hmotné/22_trestni_pravo_hmotne.docx",
+    "dest": "pravo/trestni-pravo-hmotne.md",
+    "title": "Trestní právo hmotné",
+    "order": 22
+  },
+  {
+    "src": "MATURITA HADR/Právo/23. Trestní právo procesní/23_trestni_pravo_procesni.docx",
+    "dest": "pravo/trestni-pravo-procesni.md",
+    "title": "Trestní právo procesní",
+    "order": 23
+  },
+  {
+    "src": "MATURITA HADR/Právo/24. Mezinárodní právo veřejné/24_mezinarodni_pravo_verejne.odt",
+    "dest": "pravo/mezinarodni-pravo-verejne.md",
+    "title": "Mezinárodní právo veřejné",
+    "order": 24
+  },
+  {
+    "src": "MATURITA HADR/Právo/25. Evropské právo/25_evropske_pravo.odt",
+    "dest": "pravo/evropske-pravo.md",
+    "title": "Evropské právo",
+    "order": 25
+  },
+  {
+    "src": "MATURITA HADR/Právo/3. Právní norma, aplikace a interpretace práva a právních norem/spolecnost_a_socialni_normy_emil.docx",
+    "dest": "pravo/pravni-norma-aplikace-a-interpretace-prava-a-pravnich-norem.md",
+    "title": "Právní norma, aplikace a interpretace práva a právních norem",
+    "order": 3
+  },
+  {
+    "src": "MATURITA HADR/Právo/4. Právní vztahy. Právní skutečnost. Věci/Pravni vztahy (1).docx",
+    "dest": "pravo/pravni-vztahy-pravni-skutecnost-veci.md",
+    "title": "Právní vztahy. Právní skutečnost. Věci",
+    "order": 4
+  },
+  {
+    "src": "MATURITA HADR/Právo/5. Ústavní právo/5_ustavni_pravo.odt",
+    "dest": "pravo/ustavni-pravo.md",
+    "title": "Ústavní právo",
+    "order": 5
+  },
+  {
+    "src": "MATURITA HADR/Právo/6. Ochrana lidských práv/6_ochrana_lidskych_prav.odt",
+    "dest": "pravo/ochrana-lidskych-prav.md",
+    "title": "Ochrana lidských práv",
+    "order": 6
+  },
+  {
+    "src": "MATURITA HADR/Právo/7. Občanské právo hmotné/7_obcanske_pravo_hmotne.odt",
+    "dest": "pravo/obcanske-pravo-hmotne.md",
+    "title": "Občanské právo hmotné",
+    "order": 7
+  },
+  {
+    "src": "MATURITA HADR/Právo/8. Vlastnické právo/8_vlastnicke_pravo.docx",
+    "dest": "pravo/vlastnicke-pravo.md",
+    "title": "Vlastnické právo",
+    "order": 8
+  },
+  {
+    "src": "MATURITA HADR/Právo/9. Spoluvlastnictví/9_spoluvlastnictvi.docx",
+    "dest": "pravo/spoluvlastnictvi.md",
+    "title": "Spoluvlastnictví",
+    "order": 9
+  }
+]

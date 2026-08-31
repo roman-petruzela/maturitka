@@ -53,11 +53,18 @@ const namedGroupKeys = orderedGroupKeys.filter((g): g is string => g !== null);
 							<a href={`/${subject}/${entry.id}/`}>
 								{entry.data.order != null && <span class="num">{entry.data.order}.</span>}
 								<span>{entry.data.title}</span>
-								{entry.data.tags?.includes('doplněno') && (
-									<span class="mini-badge" title="Doplněný obsah, není z archivu podkladů">
-										doplněno
-									</span>
-								)}
+								<span class="badge-group">
+									{entry.data.hasExercises && (
+										<span class="exercise-badge" title="Obsahuje úlohy na výpočet">
+											✎
+										</span>
+									)}
+									{entry.data.tags?.includes('doplněno') && (
+										<span class="mini-badge" title="Doplněný obsah, není z archivu podkladů">
+											doplněno
+										</span>
+									)}
+								</span>
 							</a>
 						</li>
 					))}

@@ -2,6 +2,7 @@
 title: "Součet a rozdíl vektorů"
 order: 4
 source: "matematika/TY01_0124_Soucet_a_rozdil_vektoru.pptx"
+hasExercises: true
 ---
 •
 

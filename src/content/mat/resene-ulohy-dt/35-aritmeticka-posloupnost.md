@@ -2,6 +2,7 @@
 title: "Aritmetická posloupnost"
 order: 35
 source: "MATURITA HADR/Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/35) Aritmetická posloupnost.pdf"
+hasExercises: true
 ---
 <u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Aritmetická posloupnost</u>
 

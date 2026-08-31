@@ -2,6 +2,7 @@
 title: "Délka kruhového oblouku a kruhová výseč"
 order: 9
 source: "matematika/TY01_0119 Délka kruhového oblouku a kruhová výseč.pdf"
+hasExercises: true
 ---
 **Délka kruhového oblouku a kruhová výseč**
 

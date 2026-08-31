@@ -1,0 +1,404 @@
+---
+import type { SubjectKey } from '../lib/subjects';
+import type { FilmstripItem } from '../pages/[subject]/[...slug].astro';
+
+interface Props {
+	subject: SubjectKey;
+	items: FilmstripItem[];
+	currentIndex: number;
+}
+
+const { subject, items, currentIndex } = Astro.props;
+---
+
+<div class="filmstrip" data-filmstrip data-current-index={currentIndex}>
+	<div class="filmstrip-track" data-filmstrip-track>
+		{/* fixed-size spacers (pure CSS, no JS measurement) so the first and
+		    last real cards have room to scroll all the way to the centre —
+		    without them there's simply no track content beyond the edges to
+		    scroll into, so the browser clamps and they get stuck pinned to
+		    the side instead */}
+		<div class="filmstrip-edge-spacer" aria-hidden="true"></div>
+		{
+			items.map((item, i) => (
+				<>
+					{i > 0 && items[i - 1].group !== item.group && (
+						<div class="filmstrip-divider" data-filmstrip-divider>
+							<span class="filmstrip-divider-label">{item.groupLabel}</span>
+						</div>
+					)}
+					<a
+						href={`/${subject}/${item.id}/`}
+						class="filmstrip-card"
+						data-filmstrip-card
+						data-index={i}
+						data-title={item.title}
+						draggable="false"
+					>
+						<span class="filmstrip-card-num">{item.order ?? i + 1}</span>
+						{item.hasExercises && (
+							<span class="filmstrip-card-exercise" title="Obsahuje úlohy na výpočet">
+								✎
+							</span>
+						)}
+					</a>
+				</>
+			))
+		}
+		<div class="filmstrip-edge-spacer" aria-hidden="true"></div>
+	</div>
+	<p class="filmstrip-label" data-filmstrip-label>
+		{items[currentIndex]?.title}
+	</p>
+</div>
+
+<script>
+	function initFilmstrips() {
+		const filmstrips = document.querySelectorAll<HTMLElement>('[data-filmstrip]');
+		filmstrips.forEach((root) => {
+			const track = root.querySelector<HTMLElement>('[data-filmstrip-track]');
+			const label = root.querySelector<HTMLElement>('[data-filmstrip-label]');
+			const cards = Array.from(root.querySelectorAll<HTMLAnchorElement>('[data-filmstrip-card]'));
+			if (!track || !label || cards.length === 0) return;
+
+			const currentIndex = Number(root.dataset.currentIndex ?? 0);
+			// fixed for the life of the page — the topic you're actually on,
+			// as opposed to whatever the drag happens to have centered
+			cards[currentIndex]?.classList.add('is-current');
+
+			// scrollTo() calls made by our own code below also fire
+			// "scroll"/"scrollend" events — same as a user dragging — so
+			// without this flag the snap-on-settle listener further down
+			// would immediately re-trigger itself off its own programmatic
+			// scroll and never settle.
+			let programmaticScroll = false;
+			function centerCard(card: HTMLElement, behavior: ScrollBehavior) {
+				// Deliberately track.scrollTo() and not card.scrollIntoView():
+				// scrollIntoView is allowed to also nudge *ancestor* scroll
+				// containers (including the page itself) if it judges the
+				// target isn't fully "in view" on the vertical axis, which is
+				// exactly what was causing an unwanted page-scroll on resize.
+				// scrollTo on the track can only ever move the track.
+				if (!track) return;
+				programmaticScroll = true;
+				const maxScroll = track.scrollWidth - track.clientWidth;
+				let target: number;
+				if (card === cards[0]) {
+					// exact ends, not a computed approximation — guarantees
+					// the first/last card is reachable even if the general
+					// formula below is off by a rounding pixel or two
+					target = 0;
+				} else if (card === cards[cards.length - 1]) {
+					target = maxScroll;
+				} else {
+					const trackRect = track.getBoundingClientRect();
+					const cardRect = card.getBoundingClientRect();
+					const cardCenter = cardRect.left - trackRect.left + track.scrollLeft + cardRect.width / 2;
+					target = cardCenter - track.clientWidth / 2;
+				}
+				track.scrollTo({ left: Math.max(0, Math.min(target, maxScroll)), behavior });
+			}
+
+			function findCentered(): HTMLAnchorElement {
+				if (!track) return cards[currentIndex];
+				const trackRect = track.getBoundingClientRect();
+				const trackCenter = trackRect.left + trackRect.width / 2;
+				let closest = cards[0];
+				let closestDist = Infinity;
+				for (const card of cards) {
+					const cardRect = card.getBoundingClientRect();
+					const cardCenter = cardRect.left + cardRect.width / 2;
+					const dist = Math.abs(cardCenter - trackCenter);
+					if (dist < closestDist) {
+						closestDist = dist;
+						closest = card;
+					}
+				}
+				return closest;
+			}
+
+			function updateHighlight() {
+				const centered = findCentered();
+				for (const card of cards) card.classList.toggle('is-centered', card === centered);
+				if (label) label.textContent = centered.dataset.title ?? '';
+			}
+
+			// land on the current topic's card, centered, without an animated
+			// scroll on page load (that would look like an unwanted jump)
+			centerCard(cards[currentIndex], 'instant');
+			updateHighlight();
+
+			let scrollTicking = false;
+			track.addEventListener(
+				'scroll',
+				() => {
+					if (!scrollTicking) {
+						requestAnimationFrame(() => {
+							updateHighlight();
+							scrollTicking = false;
+						});
+						scrollTicking = true;
+					}
+				},
+				{ passive: true }
+			);
+			// snap to the nearest card once native scrolling (touch swipe,
+			// trackpad) comes to rest — pointer-drag handles its own snap
+			// separately below, since it doesn't fire a native "scroll" the
+			// same way a trackpad/touch fling does
+			track.addEventListener('scrollend', () => {
+				if (programmaticScroll) {
+					programmaticScroll = false;
+					return;
+				}
+				if (dragging) {
+					// scrollend fires whenever the position stops changing
+					// for a bit — including a brief pause mid-gesture while
+					// the pointer is still held down, e.g. between two
+					// repeated drags needed to cross a long strip. Snapping
+					// here would fight the still-active drag every time the
+					// hand pauses, which feels like the strip refuses to go
+					// further right (or left) even though nothing is really
+					// blocking it.
+					return;
+				}
+				centerCard(findCentered(), 'smooth');
+			});
+
+			// click-and-drag scrolling. Anchors are natively draggable in
+			// browsers (mousedown+move on a link starts an OS drag-out
+			// gesture) which swallows pointermove and breaks this — disabled
+			// via draggable="false" on each card above, and -webkit-user-drag
+			// in CSS as a belt-and-braces backup.
+			//
+			// Drag mode is only engaged once real movement is seen (past a
+			// small threshold), not on every pointerdown — capturing the
+			// pointer and touching scrollLeft immediately on a plain
+			// click/tap was making the browser suppress the anchor's own
+			// click-to-navigate behaviour even though nothing had moved.
+			let pointerActive = false;
+			let dragging = false;
+			let startX = 0;
+			let startScrollLeft = 0;
+			let moved = 0;
+			let activePointerId: number | null = null;
+
+			track.addEventListener('pointerdown', (e) => {
+				pointerActive = true;
+				dragging = false;
+				moved = 0;
+				startX = e.clientX;
+				startScrollLeft = track.scrollLeft;
+				activePointerId = e.pointerId;
+			});
+
+			track.addEventListener('pointermove', (e) => {
+				if (!pointerActive) return;
+				const dx = e.clientX - startX;
+				moved = Math.max(moved, Math.abs(dx));
+				if (!dragging && moved > 6) {
+					dragging = true;
+					root.classList.add('is-dragging');
+					if (activePointerId !== null) track.setPointerCapture(activePointerId);
+				}
+				if (dragging) {
+					// Once this is a real drag, stop the browser from also
+					// doing its own thing with the same mouse-down-and-move —
+					// normally that's selecting the card text, but once the
+					// strip hits the end (scrollLeft can't move any further
+					// even though the pointer keeps moving) the browser can
+					// fall back to starting a native "drag this content as an
+					// image" gesture instead, which is the ghosted /
+					// duplicated-looking strip that showed up at the edges.
+					e.preventDefault();
+					track.scrollLeft = startScrollLeft - dx;
+				}
+			});
+
+			// belt-and-braces: explicitly refuse native drag-start on
+			// anything inside the strip, regardless of what triggered it.
+			track.addEventListener('dragstart', (e) => e.preventDefault());
+
+			function endDrag() {
+				pointerActive = false;
+				if (!dragging) return;
+				dragging = false;
+				root.classList.remove('is-dragging');
+				// settle on whichever card ended up nearest the centre
+				centerCard(findCentered(), 'smooth');
+			}
+			track.addEventListener('pointerup', endDrag);
+			track.addEventListener('pointercancel', endDrag);
+			track.addEventListener('pointerleave', () => {
+				if (dragging) endDrag();
+				else pointerActive = false;
+			});
+
+			for (const card of cards) {
+				card.addEventListener('click', (e) => {
+					if (moved > 6) {
+						// that was a drag, not a tap/click — don't navigate
+						e.preventDefault();
+					}
+				});
+			}
+
+			// the track's own width can change (window resize, entering the
+			// math whiteboard's fullscreen mode reflowing the rest of the
+			// page, etc.) — re-centre on whatever's still meant to be
+			// centred so the strip doesn't end up visually off after that
+			let resizeTimer: ReturnType<typeof setTimeout> | undefined;
+			window.addEventListener('resize', () => {
+				clearTimeout(resizeTimer);
+				resizeTimer = setTimeout(() => centerCard(findCentered(), 'instant'), 150);
+			});
+		});
+	}
+
+	if (document.readyState === 'loading') {
+		document.addEventListener('DOMContentLoaded', initFilmstrips);
+	} else {
+		initFilmstrips();
+	}
+</script>
+
+<style>
+	.filmstrip {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 0.2rem;
+		font-family: ui-sans-serif, system-ui, sans-serif;
+	}
+
+	.filmstrip-track {
+		/* establishes this as the offsetParent for the cards inside — without
+		   it, card.offsetLeft (used throughout the script below to figure out
+		   scroll targets and which card is centred) measures from whatever
+		   positioned ancestor happens to be further up the page instead of
+		   from the track itself, silently breaking all of that math */
+		position: relative;
+		display: flex;
+		align-items: center;
+		gap: 0.45rem;
+		width: min(100%, 21rem);
+		overflow-x: auto;
+		scroll-behavior: auto;
+		cursor: grab;
+		padding-block: 0.35rem;
+		/* hide the scrollbar — dragging/scrolling still works, this is a
+		   picker strip, not a normal scroll area */
+		scrollbar-width: none;
+		-ms-overflow-style: none;
+		touch-action: pan-x;
+		user-select: none;
+	}
+
+	.filmstrip-track::-webkit-scrollbar {
+		display: none;
+	}
+
+	.filmstrip.is-dragging .filmstrip-track {
+		cursor: grabbing;
+	}
+
+	/* half the track's own width, minus half a card — exactly enough that
+	   the first/last card can be scrolled to dead centre. Percentages on a
+	   flex child resolve against the track's content-box width, so this
+	   needs no JS measurement and can't feed back into itself. */
+	.filmstrip-edge-spacer {
+		flex: 0 0 auto;
+		/* fixed, not calc(50% - ...): a percentage here already caused one
+		   layout collapse elsewhere in this component, and repeated attempts
+		   at a mathematically "exact" value for reaching the last card still
+		   fell short — generous and fixed is more room than strictly needed
+		   on a full-width (21rem) track, but guarantees the edges are always
+		   reachable regardless of any rounding/overflow this component isn't
+		   accounting for */
+		width: 9.5rem;
+	}
+
+	.filmstrip-card {
+		flex: 0 0 auto;
+		position: relative;
+		width: 2.75rem;
+		height: 2.75rem;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border: 1.5px solid var(--border);
+		border-radius: 9px;
+		background: var(--card-bg);
+		color: var(--muted);
+		text-decoration: none;
+		font-variant-numeric: tabular-nums;
+		font-size: 0.95rem;
+		font-weight: 600;
+		-webkit-user-drag: none;
+		user-select: none;
+		transition: transform 0.15s ease, border-color 0.15s ease, color 0.15s ease, background 0.15s ease;
+	}
+
+	.filmstrip-card:hover {
+		border-color: var(--accent);
+		color: var(--fg);
+	}
+
+	/* the topic you're actually reading — permanent for this page load,
+	   marked by highlighting just the number */
+	.filmstrip-card.is-current .filmstrip-card-num {
+		color: var(--accent);
+		font-weight: 800;
+	}
+
+	/* whichever card is scrolled to the centre right now — moves as you
+	   drag, marked by highlighting the card's border/frame */
+	.filmstrip-card.is-centered {
+		border-color: var(--accent);
+		background: color-mix(in srgb, var(--accent) 14%, var(--card-bg));
+		transform: scale(1.12);
+	}
+
+	.filmstrip-card-exercise {
+		position: absolute;
+		top: -0.35rem;
+		right: -0.35rem;
+		width: 1.1rem;
+		height: 1.1rem;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		font-size: 0.6rem;
+		border-radius: 50%;
+		background: var(--accent);
+		color: var(--bg);
+	}
+
+	.filmstrip-divider {
+		flex: 0 0 auto;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 1.5rem;
+		align-self: stretch;
+		overflow: hidden;
+	}
+
+	.filmstrip-divider-label {
+		writing-mode: vertical-rl;
+		transform: rotate(180deg);
+		font-size: 0.62rem;
+		text-transform: uppercase;
+		letter-spacing: 0.05em;
+		color: var(--muted);
+		white-space: nowrap;
+	}
+
+	.filmstrip-label {
+		margin: 0;
+		font-size: 0.85rem;
+		color: var(--muted);
+		text-align: center;
+		min-height: 1.2em;
+	}
+</style>

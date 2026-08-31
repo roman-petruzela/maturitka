@@ -2,6 +2,7 @@
 title: "Goniometrické rovnice"
 order: 14
 source: "matematika/TY01_0214_-_Goniometricke_rovnice.pptx"
+hasExercises: true
 ---
 ## Osnova
 

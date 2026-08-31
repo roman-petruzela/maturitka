@@ -2,6 +2,7 @@
 title: "Operace s vektory"
 order: 3
 source: "matematika/TY01_0123_Operace_s_vektory.pptx"
+hasExercises: true
 ---
 První setkání s vektory – fyzika • fyzikální veličiny, u kterých mimo velikost musíme znát i směr působení, umístění (působiště) • síla
 

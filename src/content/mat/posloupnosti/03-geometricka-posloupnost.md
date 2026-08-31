@@ -2,6 +2,7 @@
 title: "Geometrická posloupnost"
 order: 3
 source: "matematika/TY01_0217-Geometricka_posloupnost.pptx"
+hasExercises: true
 ---
 ## Osnova
 
@@ -13,11 +14,11 @@ a) pojem geometrická posloupnost b) vzorce + ukázkové příklady c) příklad
 
 • _posloupnost     1 ,  3 ,  9 ,  27 ,  81 ,  ... .3     .3      .3     .3       stejná hodnota 3_
 
-Vzorce + ukázkové příklady • vzorec pro výpočet dalšího členu pomocí předcházejícího a kvocientu **_an+1 = an . q_**
+## Vzorce + ukázkové příklady
 
-_Př. a1 = 3 ; q = 4 ; a2 = ? ; a3 = ?_
+• vzorec pro výpočet dalšího členu pomocí předcházejícího a kvocientu **_an+1 = an . q_**
 
-_2 = a1 . 4               a3 = a2 . 4 2 = 3 . 4                a3 = 12 . 4_
+_Př. a1 = 3 ; q = 4 ; a2 = ? ; a3 = ? a2 = a1 . 4               a3 = a2 . 4 a2 = 3 . 4                a3 = 12 . 4_
 
 _2 = 12                   a3 = 48_
 

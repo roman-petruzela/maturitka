@@ -2,6 +2,7 @@
 title: "Statistika – grafy"
 order: 3
 source: "matematika/TY01_0220_Statistika_-_grafy.pptx"
+hasExercises: true
 ---
 _Při interpretaci statistických údajů buďte opatrní. Každý pátý člověk na světě je sice Číňan, ale kolik je Číňanů mezi vašimi spolužáky?_
 
@@ -20,7 +21,7 @@ Grafické zpracování Ukázka zpracování informací o dopravních nehodách <
 
 Ukázky grafického zpracování informací <u>http://www.prazskestromy.cz/index.php?p=10</u>
 
-<u>cz/cz/ http://grafy.plaveniny. http://www.cnb.cz/cs/ _trhy/devizovy_trh fnancnii devizoveho form /kurzy_ _trhu/grafy_ _js.jsp www. / http:// chemapagro.cz clanky-sumarizace-p okusu-</u> -v-obili.html <u>sunagreen</u>
+<u>cz/cz/ http://grafy.plaveniny. http://www.cnb.cz/cs/fnancnii _trhy/devizovy_trh devizoveho form /kurzy_ _trhu/grafy_ _js.jsp www. / http:// chemapagro.cz clanky-sumarizace-p okusu-</u> -v-obili.html <u>sunagreen</u>
 
 Měření výšky • Není vhodné postupovat po příliš malých krocích –1 cm • Sdružujeme intervaly např. po 5 cm • Hodnoty pak zaokrouhlujeme na střed intervalu • Dvě možnosti, jak vytvořit přehlednou tabulku
 
@@ -53,13 +54,10 @@ Jak by se řešil případ různě širokých intervalů?
 
 # Střed intervalů
 
-### **výška**
+**výška**
 
 <!-- Start of picture text -->
-90<br>80<br>70<br>60<br>50<br>40<br>30<br>20<br>10<br>0<br>155 160 165 170 175 180 185 190<br>četnost<br><!-- End of picture text -->
-
-<!-- Start of picture text -->
-výška<br><!-- End of picture text -->
+90<br>80<br>70<br>60<br>50<br>40<br>30<br>20<br>10<br>0<br>155 160 165 170 175 180 185 190<br>výška<br>četnost<br><!-- End of picture text -->
 
 # Výsečový diagram
 
@@ -114,4 +112,4 @@ CALDA, Emil, DUPAČ, Václav. _Matematika pro gymnázia. Kombinatorika, pravděp
 
 Statistický přehled nehodovosti březen 2013. [cit. 20.4.2013]. Dostupné z: http://www.policie.cz/nehodovost.aspx
 
-<u>://www.cnb.cz</u> Devizové kurzy ČNB. [cit. 20.4.2013]. Dostupné z: http <u>/cs/ _trhy/devizovy_trh/kurzy_devizoveho_trhu/grafy_for fnancnii m _js.jsp</u>
+<u>://www.cnb.cz</u> Devizové kurzy ČNB. [cit. 20.4.2013]. Dostupné z: http <u>/cs/fnancnii _trhy/devizovy_trh/kurzy_devizoveho_trhu/grafy_for m _js.jsp</u>

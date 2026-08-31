@@ -44,6 +44,7 @@ export const GROUP_CONFIG: Partial<Record<SubjectKey, { order: string[]; labels:
 	mat: {
 		order: [
 			'reference',
+			'vyrazy-a-mocniny',
 			'funkce-a-rovnice',
 			'planimetrie',
 			'stereometrie',
@@ -55,6 +56,7 @@ export const GROUP_CONFIG: Partial<Record<SubjectKey, { order: string[]; labels:
 		],
 		labels: {
 			reference: 'Přehled podle ŠVP',
+			'vyrazy-a-mocniny': 'Výrazy a mocniny (1. ročník)',
 			'funkce-a-rovnice': 'Funkce a rovnice (2. ročník)',
 			planimetrie: 'Planimetrie (3. ročník)',
 			stereometrie: 'Stereometrie (3. ročník)',
@@ -66,8 +68,13 @@ export const GROUP_CONFIG: Partial<Record<SubjectKey, { order: string[]; labels:
 		},
 	},
 	cj: {
-		order: ['literatura', 'mluvnice-a-teorie'],
-		labels: { literatura: 'Literatura', 'mluvnice-a-teorie': 'Mluvnice a teorie' },
+		order: ['reference', 'literatura', 'mluvnice', 'rozbor-knih-a-cetba'],
+		labels: {
+			reference: 'Přehled podle ŠVP',
+			literatura: 'Literatura (literární historie a teorie)',
+			mluvnice: 'Mluvnice',
+			'rozbor-knih-a-cetba': 'Rozbor knih a četba',
+		},
 	},
 };
 

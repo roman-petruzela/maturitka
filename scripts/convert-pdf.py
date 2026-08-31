@@ -59,8 +59,16 @@ def _strip_pptx_boilerplate(md: str) -> str:
         r"\*{0,2}NÁZEV MATERIÁLU:[^\n*]*\*{0,2}\s*\n+",
         r"\*{0,2}VY_42_INOVACE[^\n]*\n+",
         r"\*{0,2}Autor:\s*[^\n*]*\*{0,2}\s*\n?",
+        # worksheet footer used in the robotika1.pol batch: "Vypracoval(a):
+        # <jméno>" repeated on every page — same rule as "Autor:" above, kept
+        # as a separate pattern since the wording differs.
+        r"\*{0,2}Vypracoval[a]?:\s*[^\n*]*\*{0,2}\s*\n?",
         r"\*{0,2}Rok vydání:\s*\d{4}\*{0,2}\s*\n+",
         r"\n?Tento projekt je spolufinancován.*?Česko\.\s*\n*",
+        # a second, more formal "DUM" template (VY_32_INOVACE_...) used by some
+        # of the material: a metadata table (Název/Autor/Datum/...) between a
+        # "Zpracováno v rámci projektu" header and a funding-disclaimer footer
+        r"\n?Zpracováno v rámci projektu.*?ČESKÉ\s*\n*REPUBLIKY\.\s*\n*",
     ]
     # count=0 (all occurrences): PowerPoint footers repeat on every slide, so
     # the same boilerplate can show up more than once in the extracted text
@@ -118,7 +126,7 @@ def _to_pdf(src_abs: Path, tmp_dir: Path) -> Path:
 def convert_one(item: dict, ocr: bool, tmp_dir: Path) -> None:
     dest_abs = WEB_ROOT / "src" / "content" / item["dest"]
     frontmatter = build_frontmatter(
-        item["title"], item.get("order"), item.get("tags"), item["src"]
+        item["title"], item.get("order"), item.get("tags"), item.get("source") or item["src"]
     )
     skip_reason = item.get("skip")
     if skip_reason:

@@ -2,6 +2,7 @@
 title: "Jehlan"
 order: 5
 source: "matematika/TY0105 Jehlan.pdf"
+hasExercises: true
 ---
 Jehlan je geometrické těleso, jehož podstavou je mnohoúhelník. Stěny jsou tvořeny trojúhelníky, které mají jeden společný bod, ten se nazývá vrchol jehlanu. Tělesová výška 𝒗 je vzdálenost vrcholu jehlanu od podstavy jehlanu (mnohoúhelník). Vzdálenost vrcholu jehlanu od podstavné hrany budeme nazývat stěnová výška a značit 𝒔.
 

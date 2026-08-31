@@ -2,7 +2,11 @@
 title: "Faktoriál"
 order: 3
 source: "matematika/TY01_0226_Faktorial.pptx"
+hasExercises: true
 ---
+
+> Pozn. k obsahu: Zdrojová prezentace používala animované odrážky (postupně se odkrývající text), který se při převodu do textu ztratil — na místech označených „•" chybí navazující vysvětlení. Zachovány jsou definice, příklady a zadání cvičení, která byla v textu přítomna přímo.
+
 •
 
 # N faktoriál

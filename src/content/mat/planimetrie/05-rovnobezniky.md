@@ -2,6 +2,7 @@
 title: "Rovnoběžníky"
 order: 5
 source: "matematika/TY01_0115 Rovnoběžníky.pdf"
+hasExercises: true
 ---
 **čtverec, obdélník, kosočtverec, kosodélník**
 

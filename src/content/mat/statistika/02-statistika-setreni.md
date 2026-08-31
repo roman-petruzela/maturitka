@@ -2,6 +2,7 @@
 title: "Statistika – šetření"
 order: 2
 source: "matematika/TY01_0219_statistika_-_setreni.pptx"
+hasExercises: true
 ---
 **_Statistika_** _se těší pochybnému vyznamenání tím, že je nejvíce nepochopeným vědním oborem. Neznamená to však, že je nejméně známá. Nepochopení nějaké věci totiž předpokládá, že se o ní něco ví, nebo přinejmenším se myslí, že se ví. O statistice však panuje všeobecné mínění, že z každého, kdo se naučil ve škole trochu počítat, lze bez obtíží udělat statistika prostě tím, že se mu tak říká._
 

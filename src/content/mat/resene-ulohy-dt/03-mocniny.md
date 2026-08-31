@@ -2,6 +2,7 @@
 title: "Mocniny"
 order: 3
 source: "MATURITA HADR/Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/3) Mocniny.pdf"
+hasExercises: true
 ---
 <u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Mocniny</u>
 

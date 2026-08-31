@@ -1,0 +1,145 @@
+[
+  {
+    "src": "MATURITA HADR/Společenské vědy/1. PSYCHOLOGIE OSOBNOSTI.docx",
+    "dest": "spolecenske-vedy/psychologie-osobnosti.md",
+    "title": "PSYCHOLOGIE OSOBNOSTI",
+    "order": 1
+  },
+  {
+    "src": "MATURITA HADR/Společenské vědy/10. FINANCE A PODNIKANI.docx",
+    "dest": "spolecenske-vedy/finance-a-podnikani.md",
+    "title": "FINANCE A PODNIKANI",
+    "order": 10
+  },
+  {
+    "src": "MATURITA HADR/Společenské vědy/11. CLOVEK A STAT.docx",
+    "dest": "spolecenske-vedy/clovek-a-stat.md",
+    "title": "CLOVEK A STAT",
+    "order": 11
+  },
+  {
+    "src": "MATURITA HADR/Společenské vědy/12. DEMOKRATICKY PRAVNI STAT.docx",
+    "dest": "spolecenske-vedy/demokraticky-pravni-stat.md",
+    "title": "DEMOKRATICKY PRAVNI STAT",
+    "order": 12
+  },
+  {
+    "src": "MATURITA HADR/Společenské vědy/13. POLITICKY SYSTEM.docx",
+    "dest": "spolecenske-vedy/politicky-system.md",
+    "title": "POLITICKY SYSTEM",
+    "order": 13
+  },
+  {
+    "src": "MATURITA HADR/Společenské vědy/14. USTAVA, USTAVNI VYVOJ, LIDSKA PRAVA.docx",
+    "dest": "spolecenske-vedy/ustava-ustavni-vyvoj-lidska-prava.md",
+    "title": "USTAVA, USTAVNI VYVOJ, LIDSKA PRAVA",
+    "order": 14
+  },
+  {
+    "src": "MATURITA HADR/Společenské vědy/16. PREDSOKRATOVSKA FILOSOFIE.docx",
+    "dest": "spolecenske-vedy/predsokratovska-filosofie.md",
+    "title": "PREDSOKRATOVSKA FILOSOFIE",
+    "order": 16
+  },
+  {
+    "src": "MATURITA HADR/Společenské vědy/17. KLASICKA RECKA FILOSOFIE.docx",
+    "dest": "spolecenske-vedy/klasicka-recka-filosofie.md",
+    "title": "KLASICKA RECKA FILOSOFIE",
+    "order": 17
+  },
+  {
+    "src": "MATURITA HADR/Společenské vědy/18. HELENISMUS, POZDNE ANTICKA A STREDOVEKA FILOSOFIE.docx",
+    "dest": "spolecenske-vedy/helenismus-pozdne-anticka-a-stredoveka-filosofie.md",
+    "title": "HELENISMUS, POZDNE ANTICKA A STREDOVEKA FILOSOFIE",
+    "order": 18
+  },
+  {
+    "src": "MATURITA HADR/Společenské vědy/19. RENESANCNI A NOVOVEKA FILOSOFIE.docx",
+    "dest": "spolecenske-vedy/renesancni-a-novoveka-filosofie.md",
+    "title": "RENESANCNI A NOVOVEKA FILOSOFIE",
+    "order": 19
+  },
+  {
+    "src": "MATURITA HADR/Společenské vědy/2. PSYCHOLOGICKE STAVY A PROCESY.docx",
+    "dest": "spolecenske-vedy/psychologicke-stavy-a-procesy.md",
+    "title": "PSYCHOLOGICKE STAVY A PROCESY",
+    "order": 2
+  },
+  {
+    "src": "MATURITA HADR/Společenské vědy/20. OSVICENSKA A NEMECKA KLASICKA FILOSOFIE.docx",
+    "dest": "spolecenske-vedy/osvicenska-a-nemecka-klasicka-filosofie.md",
+    "title": "OSVICENSKA A NEMECKA KLASICKA FILOSOFIE",
+    "order": 20
+  },
+  {
+    "src": "MATURITA HADR/Společenské vědy/21. FILOSOFIE 19.STOLETI.docx",
+    "dest": "spolecenske-vedy/filosofie-19-stoleti.md",
+    "title": "FILOSOFIE 19.STOLETI",
+    "order": 21
+  },
+  {
+    "src": "MATURITA HADR/Společenské vědy/22. SOUCASNA A CESKA FILOSOFIE.docx",
+    "dest": "spolecenske-vedy/soucasna-a-ceska-filosofie.md",
+    "title": "SOUCASNA A CESKA FILOSOFIE",
+    "order": 22
+  },
+  {
+    "src": "MATURITA HADR/Společenské vědy/23. SVETOVA NABOZENSTVI A MIMOEVROPSKA FILOSOFIE.docx",
+    "dest": "spolecenske-vedy/svetova-nabozenstvi-a-mimoevropska-filosofie.md",
+    "title": "SVETOVA NABOZENSTVI A MIMOEVROPSKA FILOSOFIE",
+    "order": 23
+  },
+  {
+    "src": "MATURITA HADR/Společenské vědy/24. EKONOMICKA REFORMA A TRZNI EKONOMIKA.docx",
+    "dest": "spolecenske-vedy/ekonomicka-reforma-a-trzni-ekonomika.md",
+    "title": "EKONOMICKA REFORMA A TRZNI EKONOMIKA",
+    "order": 24
+  },
+  {
+    "src": "MATURITA HADR/Společenské vědy/3. SOCIOLOGIE.docx",
+    "dest": "spolecenske-vedy/sociologie.md",
+    "title": "SOCIOLOGIE",
+    "order": 3
+  },
+  {
+    "src": "MATURITA HADR/Společenské vědy/4. CLOVEK A PRAVO.docx",
+    "dest": "spolecenske-vedy/clovek-a-pravo.md",
+    "title": "CLOVEK A PRAVO",
+    "order": 4
+  },
+  {
+    "src": "MATURITA HADR/Společenské vědy/5. VEREJNE PRAVO.docx",
+    "dest": "spolecenske-vedy/verejne-pravo.md",
+    "title": "VEREJNE PRAVO",
+    "order": 5
+  },
+  {
+    "src": "MATURITA HADR/Společenské vědy/6. SOUKROME PRAVO.docx",
+    "dest": "spolecenske-vedy/soukrome-pravo.md",
+    "title": "SOUKROME PRAVO",
+    "order": 6
+  },
+  {
+    "src": "MATURITA HADR/Společenské vědy/7. MIKROEKONOMIE.docx",
+    "dest": "spolecenske-vedy/mikroekonomie.md",
+    "title": "MIKROEKONOMIE",
+    "order": 7
+  },
+  {
+    "src": "MATURITA HADR/Společenské vědy/8. MAKROEKONOMIE.docx",
+    "dest": "spolecenske-vedy/makroekonomie.md",
+    "title": "MAKROEKONOMIE",
+    "order": 8
+  },
+  {
+    "src": "MATURITA HADR/Společenské vědy/9. CLOVEK A PRACE.docx",
+    "dest": "spolecenske-vedy/clovek-a-prace.md",
+    "title": "CLOVEK A PRACE",
+    "order": 9
+  },
+  {
+    "src": "MATURITA HADR/Společenské vědy/POJMY.docx",
+    "dest": "spolecenske-vedy/pojmy.md",
+    "title": "POJMY"
+  }
+]

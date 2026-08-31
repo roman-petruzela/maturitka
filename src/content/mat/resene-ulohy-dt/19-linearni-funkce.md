@@ -2,6 +2,7 @@
 title: "Lineární funkce"
 order: 19
 source: "MATURITA HADR/Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/19) Lineární funkce.pdf"
+hasExercises: true
 ---
 - 1) Přiřaďte ke každému grafu ( a) – d) ) odpovídající předpis funkce ( A – F ).
 

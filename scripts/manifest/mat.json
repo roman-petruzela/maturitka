@@ -604,5 +604,161 @@
     "dest": "mat/kombinatorika/09-kombinatorika-v-praxi.md",
     "title": "Kombinatorika v praxi",
     "order": 9
+  },
+  {
+    "src": "mat/IT2M_1.docx",
+    "dest": "mat/funkce-a-rovnice/100-kvadraticka-funkce-v-praxi.md",
+    "title": "Kvadratická funkce v praxi",
+    "order": 100
+  },
+  {
+    "src": "mat/IT2M_2.docx",
+    "dest": "mat/funkce-a-rovnice/101-kvadraticka-rovnice-ucebni-text.md",
+    "title": "Kvadratická rovnice (učební text)",
+    "order": 101
+  },
+  {
+    "src": "mat/IT2M_3.docx",
+    "dest": "mat/funkce-a-rovnice/102-exponencialni-funkce-v-praxi.md",
+    "title": "Exponenciální funkce v praxi",
+    "order": 102
+  },
+  {
+    "src": "mat2/Výrok, negace výroku.pdf",
+    "dest": "mat/vyrazy-a-mocniny/01-vyrok-negace-vyroku.md",
+    "title": "Výrok, negace výroku",
+    "order": 1
+  },
+  {
+    "src": "mat2/Složené výroky - konjunkce a disjunkce.pdf",
+    "dest": "mat/vyrazy-a-mocniny/02-slozene-vyroky-konjunkce-a-disjunkce.md",
+    "title": "Složené výroky - konjunkce a disjunkce",
+    "order": 2
+  },
+  {
+    "src": "mat2/Negace složených výroků.pdf",
+    "dest": "mat/vyrazy-a-mocniny/03-negace-slozenych-vyroku.md",
+    "title": "Negace složených výroků",
+    "order": 3
+  },
+  {
+    "src": "mat2/Kvantifikované výroky.pdf",
+    "dest": "mat/vyrazy-a-mocniny/04-kvantifikovane-vyroky.md",
+    "title": "Kvantifikované výroky",
+    "order": 4
+  },
+  {
+    "src": "mat2/Implikace a ekvivalence.pdf",
+    "dest": "mat/vyrazy-a-mocniny/05-implikace-a-ekvivalence.md",
+    "title": "Implikace a ekvivalence",
+    "order": 5
+  },
+  {
+    "src": "mat2/Množiny.pdf",
+    "dest": "mat/vyrazy-a-mocniny/06-mnoziny.md",
+    "title": "Množiny",
+    "order": 6
+  },
+  {
+    "src": "mat2/Číselné obory.pdf",
+    "dest": "mat/vyrazy-a-mocniny/07-ciselne-obory.md",
+    "title": "Číselné obory",
+    "order": 7
+  },
+  {
+    "src": "mat2/Intervaly.pdf",
+    "dest": "mat/vyrazy-a-mocniny/08-intervaly.md",
+    "title": "Intervaly",
+    "order": 8
+  },
+  {
+    "src": "mat2/Absolutní hodnota.pdf",
+    "dest": "mat/vyrazy-a-mocniny/09-absolutni-hodnota.md",
+    "title": "Absolutní hodnota",
+    "order": 9
+  },
+  {
+    "src": "mat2/Mocniny s přirozeným mocnitelem.pdf",
+    "dest": "mat/vyrazy-a-mocniny/10-mocniny-s-prirozenym-mocnitelem.md",
+    "title": "Mocniny s přirozeným mocnitelem",
+    "order": 10
+  },
+  {
+    "src": "mat/05 Dělení mnohočlenů.pdf",
+    "dest": "mat/vyrazy-a-mocniny/11-05-deleni-mnohoclenu.md",
+    "title": "05 Dělení mnohočlenů",
+    "order": 11
+  },
+  {
+    "src": "mat/částečně_odmocni.pdf",
+    "dest": "mat/vyrazy-a-mocniny/12-castecne-odmocni.md",
+    "title": "částečně odmocni",
+    "order": 12
+  },
+  {
+    "src": "mat/definiční_obor_výrazů.pdf",
+    "dest": "mat/vyrazy-a-mocniny/13-definicni-obor-vyrazu.md",
+    "title": "definiční obor výrazů",
+    "order": 13
+  },
+  {
+    "src": "mat/dělení_mnohočlenů_příklady.pdf",
+    "dest": "mat/vyrazy-a-mocniny/14-deleni-mnohoclenu-priklady.md",
+    "title": "dělení mnohočlenů příklady",
+    "order": 14
+  },
+  {
+    "src": "mat/lomené_výrazy_shrnutí.pdf",
+    "dest": "mat/vyrazy-a-mocniny/15-lomene-vyrazy-shrnuti.md",
+    "title": "lomené výrazy shrnutí",
+    "order": 15
+  },
+  {
+    "src": "mat/násobení_a_dělení_lomených_výrazů.pdf",
+    "dest": "mat/vyrazy-a-mocniny/16-nasobeni-a-deleni-lomenych-vyrazu.md",
+    "title": "násobení a dělení lomených výrazů",
+    "order": 16
+  },
+  {
+    "src": "mat/opakování_3.čtvrtletní.pdf",
+    "dest": "mat/vyrazy-a-mocniny/17-opakovani-3-ctvrtletni.md",
+    "title": "opakování 3.čtvrtletní",
+    "order": 17
+  },
+  {
+    "src": "mat/opakování výrazy.docx",
+    "dest": "mat/vyrazy-a-mocniny/18-opakovani-vyrazy.md",
+    "title": "opakování výrazy",
+    "order": 18
+  },
+  {
+    "src": "mat/procvičení.pdf",
+    "dest": "mat/vyrazy-a-mocniny/19-procviceni.md",
+    "title": "procvičení",
+    "order": 19
+  },
+  {
+    "src": "mat/rozklad_na_součin.pdf",
+    "dest": "mat/vyrazy-a-mocniny/20-rozklad-na-soucin.md",
+    "title": "rozklad na součin",
+    "order": 20
+  },
+  {
+    "src": "mat/usměrňování_zlomků.pdf",
+    "dest": "mat/vyrazy-a-mocniny/21-usmernovani-zlomku.md",
+    "title": "usměrňování zlomků",
+    "order": 21
+  },
+  {
+    "src": "mat/usměrňování_zlomků_2.pdf",
+    "dest": "mat/vyrazy-a-mocniny/22-usmernovani-zlomku-2.md",
+    "title": "usměrňování zlomků 2",
+    "order": 22
+  },
+  {
+    "src": "mat/zápis číselných výrazů.docx",
+    "dest": "mat/vyrazy-a-mocniny/23-zapis-ciselnych-vyrazu.md",
+    "title": "zápis číselných výrazů",
+    "order": 23
   }
 ]

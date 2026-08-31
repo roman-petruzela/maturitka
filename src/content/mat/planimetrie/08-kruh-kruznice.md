@@ -2,6 +2,7 @@
 title: "Kruh, kružnice"
 order: 8
 source: "matematika/TY01_0118 Kruh, kružnice.pdf"
+hasExercises: true
 ---
 - **<u>kružnice:</u>** je množina všech bodů, které mají od středu S stejnou vzdálenost, tzv. poloměr.  ( |SA| = r nebo |SB| = r ) – jsou to tedy pouze body ležící na okrajové čáře tvořící kružnici
 

@@ -2,6 +2,7 @@
 title: "Trojúhelník – pravoúhlý"
 order: 3
 source: "matematika/TY01_0113 Trojúhelník – pravoúhlý.pdf"
+hasExercises: true
 ---
 - trojúhelník, jehož jeden vnitřní úhel je pravý (velikost úhlu = 90<sup>o</sup> )
 

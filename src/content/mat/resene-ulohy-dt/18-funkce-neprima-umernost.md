@@ -2,6 +2,7 @@
 title: "Funkce nepřímá úměrnost"
 order: 18
 source: "MATURITA HADR/Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/18) Funkce nepřímá úměrnost.pdf"
+hasExercises: true
 ---
 <u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Funkce nepřímá úměrnost</u>
 

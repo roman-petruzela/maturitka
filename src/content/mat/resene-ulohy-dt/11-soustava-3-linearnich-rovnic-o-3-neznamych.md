@@ -2,6 +2,7 @@
 title: "Soustava 3 lineárních rovnic o 3 neznámých"
 order: 11
 source: "MATURITA HADR/Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/11) Soustava 3 lineárních rovnic o 3 neznámých.pdf"
+hasExercises: true
 ---
 1) Řešte soustavu rovnic s neznámými x, y, z Є R. V záznamovém archu uveďte celý postup řešení. x + 2y  =  –1 z – 2y  =  –2 <u>x – 2z  =</u> –3
 

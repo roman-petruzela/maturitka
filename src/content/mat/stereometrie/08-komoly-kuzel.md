@@ -2,6 +2,7 @@
 title: "Komolý kužel"
 order: 8
 source: "matematika/TY0108 Komolý kužel.pdf"
+hasExercises: true
 ---
 Komolý kužel je část kužele, která leží mezi dvěma rovnoběžnými rovinami (podstavami) procházejícími tímto kuželem. Velmi zjednodušeně řečeno je to kužel s uříznutým „vrškem“. Vzdálenost dvou rovnoběžných podstav nazýváme tělesová výška kužele a značíme 𝒗. Délku strany komolého kužele značíme 𝒔. Poloměry podstav budeme značit 𝒓𝟏 a 𝒓𝟐.
 

@@ -114,6 +114,198 @@
     "order": 3
   },
   {
+    "src": "grafika/01_Instalace_Zoner_Callisto_5_Free.pdf",
+    "dest": "it/grafika-na-pc/04-01-instalace-zoner-callisto-5-free.md",
+    "title": "01 Instalace Zoner Callisto 5 Free",
+    "order": 4
+  },
+  {
+    "src": "grafika/VY_32_INOVACE_3222_01_Uvod.pptx",
+    "dest": "it/grafika-na-pc/05-uvod-do-vektorove-grafiky.md",
+    "title": "Úvod do vektorové grafiky",
+    "order": 5
+  },
+  {
+    "src": "grafika/VY_32_INOVACE_3222_02_PracvoniPlocha.pptx",
+    "dest": "it/grafika-na-pc/06-pracovni-plocha-a-zakladni-prace-s-objekty.md",
+    "title": "Pracovní plocha a základní práce s objekty",
+    "order": 6
+  },
+  {
+    "src": "grafika/VY_32_INOVACE_3222_03_TvarovaniObjektu.pptx",
+    "dest": "it/grafika-na-pc/07-tvarovani-objektu.md",
+    "title": "Tvarování objektů",
+    "order": 7
+  },
+  {
+    "src": "grafika/VY_32_INOVACE_3222_04_Usecky.pptx",
+    "dest": "it/grafika-na-pc/08-kresleni-car-usecky.md",
+    "title": "Kreslení čar – úsečky",
+    "order": 8
+  },
+  {
+    "src": "grafika/VY_32_INOVACE_3222_05_Krivky.pptx",
+    "dest": "it/grafika-na-pc/09-kresleni-car-krivky.md",
+    "title": "Kreslení čar – křivky",
+    "order": 9
+  },
+  {
+    "src": "grafika/VY_32_INOVACE_3222_06_Barvy_1.pptx",
+    "dest": "it/grafika-na-pc/10-barvy-zakladni-prace.md",
+    "title": "Barvy – základní práce",
+    "order": 10
+  },
+  {
+    "src": "grafika/VY_32_INOVACE_3222_07_Barvy_2.pptx",
+    "dest": "it/grafika-na-pc/11-barvy-pokrocile-prace.md",
+    "title": "Barvy – pokročilé práce",
+    "order": 11
+  },
+  {
+    "src": "grafika/VY_32_INOVACE_3222_10_Text_1.pptx",
+    "dest": "it/grafika-na-pc/12-prace-s-textem.md",
+    "title": "Práce s textem",
+    "order": 12
+  },
+  {
+    "src": "grafika/VY_32_INOVACE_3222_11_Text_2.pptx",
+    "dest": "it/grafika-na-pc/13-uprava-textu.md",
+    "title": "Úprava textu",
+    "order": 13
+  },
+  {
+    "src": "grafika/VY_32_INOVACE_3223_01.pptx",
+    "dest": "it/grafika-na-pc/14-zakladni-charakteristika-programu-gimp.md",
+    "title": "Základní charakteristika programu GIMP",
+    "order": 14
+  },
+  {
+    "src": "grafika/VY_32_INOVACE_3223_02.pptx",
+    "dest": "it/grafika-na-pc/15-gimp-vyberove-metody-a-kresleni-tvaru.md",
+    "title": "GIMP – výběrové metody a kreslení tvarů",
+    "order": 15
+  },
+  {
+    "src": "grafika/VY_32_INOVACE_3223_07.pptx",
+    "dest": "it/grafika-na-pc/16-gimp-uprava-jasu-a-kontrastu-fotografie.md",
+    "title": "GIMP – úprava jasu a kontrastu fotografie",
+    "order": 16
+  },
+  {
+    "src": "grafika/VY_32_INOVACE_3223_08.pptx",
+    "dest": "it/grafika-na-pc/17-gimp-korekce-barev-fotografie.md",
+    "title": "GIMP – korekce barev fotografie",
+    "order": 17
+  },
+  {
+    "src": "grafika/VY_32_INOVACE_3223_10.pptx",
+    "dest": "it/grafika-na-pc/18-gimp-maska.md",
+    "title": "GIMP – maska",
+    "order": 18
+  },
+  {
+    "src": "grafika/VY_32_INOVACE_3223_11.pptx",
+    "dest": "it/grafika-na-pc/19-gimp-vyberove-metody-a-uprava-fotografie.md",
+    "title": "GIMP – výběrové metody a úprava fotografie",
+    "order": 19
+  },
+  {
+    "src": "grafika/VY_32_INOVACE_3223_13.pptx",
+    "dest": "it/grafika-na-pc/20-gimp-odstraneni-cervenych-oci.md",
+    "title": "GIMP – odstranění červených očí",
+    "order": 20
+  },
+  {
+    "src": "grafika/VY_32_INOVACE_3224_01.pdf",
+    "dest": "it/grafika-na-pc/21-3d-systemy.md",
+    "title": "3D systémy",
+    "order": 21
+  },
+  {
+    "src": "grafika/VY_32_INOVACE_3224_02.pdf",
+    "dest": "it/grafika-na-pc/22-blender-zakladni-charakteristika-a-rozhrani-programu.md",
+    "title": "Blender – základní charakteristika a rozhraní programu",
+    "order": 22
+  },
+  {
+    "src": "grafika/VY_32_INOVACE_3224_03.pdf",
+    "dest": "it/grafika-na-pc/23-blender-modelovani.md",
+    "title": "Blender – modelování",
+    "order": 23
+  },
+  {
+    "src": "grafika/VY_32_INOVACE_3224_04.pdf",
+    "dest": "it/grafika-na-pc/24-blender-modelovani-zarovnavani-objektu.md",
+    "title": "Blender – modelování: zarovnávání objektů",
+    "order": 24
+  },
+  {
+    "src": "grafika/VY_32_INOVACE_3224_05.pdf",
+    "dest": "it/grafika-na-pc/25-blender-modelovani-mnozinove-operace-s-objekty.md",
+    "title": "Blender – modelování: množinové operace s objekty",
+    "order": 25
+  },
+  {
+    "src": "grafika/VY_32_INOVACE_3224_06.pdf",
+    "dest": "it/grafika-na-pc/26-blender-modelovani-krivky-a-plochy.md",
+    "title": "Blender – modelování: křivky a plochy",
+    "order": 26
+  },
+  {
+    "src": "grafika/VY_32_INOVACE_3224_07.pdf",
+    "dest": "it/grafika-na-pc/27-blender-svetla.md",
+    "title": "Blender – světla",
+    "order": 27
+  },
+  {
+    "src": "grafika/VY_32_INOVACE_3224_08.pdf",
+    "dest": "it/grafika-na-pc/28-blender-modifikatory.md",
+    "title": "Blender – modifikátory",
+    "order": 28
+  },
+  {
+    "src": "grafika/VY_32_INOVACE_3224_09.pdf",
+    "dest": "it/grafika-na-pc/29-blender-simulace-tekutin.md",
+    "title": "Blender – simulace tekutin",
+    "order": 29
+  },
+  {
+    "src": "grafika/VY_32_INOVACE_3224_11.pdf",
+    "dest": "it/grafika-na-pc/30-blender-materialy-a-textury.md",
+    "title": "Blender – materiály a textury",
+    "order": 30
+  },
+  {
+    "src": "grafika/VY_32_INOVACE_3224_12.pdf",
+    "dest": "it/grafika-na-pc/31-blender-uv-textury.md",
+    "title": "Blender – UV textury",
+    "order": 31
+  },
+  {
+    "src": "grafika/VY_32_INOVACE_3224_15.pdf",
+    "dest": "it/grafika-na-pc/32-blender-animace.md",
+    "title": "Blender – animace",
+    "order": 32
+  },
+  {
+    "src": "grafika/VY_32_INOVACE_3224_16.pdf",
+    "dest": "it/grafika-na-pc/33-blender-pohyb-po-krivce.md",
+    "title": "Blender – pohyb po křivce",
+    "order": 33
+  },
+  {
+    "src": "grafika/VY_32_INOVACE_3224_17.pdf",
+    "dest": "it/grafika-na-pc/34-blender-rendering.md",
+    "title": "Blender – rendering",
+    "order": 34
+  },
+  {
+    "src": "grafika/VY_32_INOVACE_3224_18.pdf",
+    "dest": "it/grafika-na-pc/35-blender-zobrazeni-normal-ploch.md",
+    "title": "Blender – zobrazení normál ploch",
+    "order": 35
+  },
+  {
     "src": "MATURITA HADR/IT/2. OS Linux - distribuce, grafický a textový režim.docx",
     "dest": "it/operacni-systemy/01-os-linux-distribuce-graficky-a-textovy-rezim.md",
     "title": "OS Linux - distribuce, grafický a textový režim",
@@ -124,6 +316,156 @@
     "dest": "it/operacni-systemy/02-os-windows.md",
     "title": "OS Windows",
     "order": 2
+  },
+  {
+    "src": "osy/plán.docx",
+    "dest": "it/operacni-systemy/03-tematicky-plan-prehled-latky.md",
+    "title": "Tematický plán (přehled látky)",
+    "order": 3
+  },
+  {
+    "src": "osy/základní_pojmy.docx",
+    "dest": "it/operacni-systemy/04-zakladni-pojmy-hardware-software.md",
+    "title": "Základní pojmy (hardware, software)",
+    "order": 4
+  },
+  {
+    "src": "osy/Úvod_do _operačních_systémů.pdf",
+    "dest": "it/operacni-systemy/05-uvod-do-operacnich-systemu.md",
+    "title": "Úvod do operačních systémů",
+    "order": 5
+  },
+  {
+    "src": "osy/Historie_OS.pdf",
+    "dest": "it/operacni-systemy/06-historie-operacnich-systemu.md",
+    "title": "Historie operačních systémů",
+    "order": 6
+  },
+  {
+    "src": "osy/Operační_systémy.pdf",
+    "dest": "it/operacni-systemy/07-operacni-systemy.md",
+    "title": "Operační systémy",
+    "order": 7
+  },
+  {
+    "src": "osy/Licence.pptx",
+    "dest": "it/operacni-systemy/08-licence-a-autorsky-zakon.md",
+    "title": "Licence a autorský zákon",
+    "order": 8
+  },
+  {
+    "src": "osy/příkazový řádek.pdf",
+    "dest": "it/operacni-systemy/09-prikazovy-radek-cmd.md",
+    "title": "Příkazový řádek (cmd)",
+    "order": 9
+  },
+  {
+    "src": "osy/práce se sítí.docx",
+    "dest": "it/operacni-systemy/10-prace-se-siti-prikazy.md",
+    "title": "Práce se sítí (příkazy)",
+    "order": 10
+  },
+  {
+    "src": "osy/Uživatelské_účty_a_hesla.pdf",
+    "dest": "it/operacni-systemy/11-uzivatelske-ucty-a-hesla.md",
+    "title": "Uživatelské účty a hesla",
+    "order": 11
+  },
+  {
+    "src": "osy/Uživatelské_profily.pdf",
+    "dest": "it/operacni-systemy/12-uzivatelske-profily.md",
+    "title": "Uživatelské profily",
+    "order": 12
+  },
+  {
+    "src": "osy/uživatelská_práva_a_oprávnění.pdf",
+    "dest": "it/operacni-systemy/13-uzivatelska-prava-a-opravneni.md",
+    "title": "Uživatelská práva a oprávnění",
+    "order": 13
+  },
+  {
+    "src": "osy/GPO.pdf",
+    "dest": "it/operacni-systemy/14-gpo-zasady-skupiny.md",
+    "title": "GPO (zásady skupiny)",
+    "order": 14
+  },
+  {
+    "src": "osy/práce_s_disky.pdf",
+    "dest": "it/operacni-systemy/15-prace-s-disky.md",
+    "title": "Práce s disky",
+    "order": 15
+  },
+  {
+    "src": "osy/pevný_disk_a_nástroje pro údržbu.pptx",
+    "dest": "it/operacni-systemy/16-pevny-disk-a-nastroje-pro-udrzbu.md",
+    "title": "Pevný disk a nástroje pro údržbu",
+    "order": 16
+  },
+  {
+    "src": "osy/RAID.pdf",
+    "dest": "it/operacni-systemy/17-raid.md",
+    "title": "RAID",
+    "order": 17
+  },
+  {
+    "src": "osy/použití stínové kopie svazku_pevne odkazy_diskové kvoty.pdf",
+    "dest": "it/operacni-systemy/18-stinove-kopie-svazku-pevne-odkazy-diskove-kvoty.md",
+    "title": "Stínové kopie svazku, pevné odkazy, diskové kvóty",
+    "order": 18
+  },
+  {
+    "src": "osy/shadow_copy.docx",
+    "dest": "it/operacni-systemy/19-shadow-copy-anglicky-text-k-procviceni.md",
+    "title": "Shadow copy (anglický text k procvičení)",
+    "order": 19
+  },
+  {
+    "src": "osy/Stínové kopie svazku.docx",
+    "dest": "it/operacni-systemy/20-stinove-kopie-svazku-prakticke-vyuziti.md",
+    "title": "Stínové kopie svazku — praktické využití",
+    "order": 20
+  },
+  {
+    "src": "osy/Zálohování_dat.pdf",
+    "dest": "it/operacni-systemy/21-zalohovani-dat.md",
+    "title": "Zálohování dat",
+    "order": 21
+  },
+  {
+    "src": "osy/zálohovací_média_shrnutí.pdf",
+    "dest": "it/operacni-systemy/22-zalohovaci-media-shrnuti.md",
+    "title": "Zálohovací média — shrnutí",
+    "order": 22
+  },
+  {
+    "src": "osy/DHCP.pdf",
+    "dest": "it/operacni-systemy/23-dhcp.md",
+    "title": "DHCP",
+    "order": 23
+  },
+  {
+    "src": "osy/peer-to-peer.pdf",
+    "dest": "it/operacni-systemy/24-sit-peer-to-peer.md",
+    "title": "Síť peer-to-peer",
+    "order": 24
+  },
+  {
+    "src": "osy/antivirové programy.pdf",
+    "dest": "it/operacni-systemy/25-antivirove-programy.md",
+    "title": "Antivirové programy",
+    "order": 25
+  },
+  {
+    "src": "osy/Malware.pdf",
+    "dest": "it/operacni-systemy/26-malware.md",
+    "title": "Malware",
+    "order": 26
+  },
+  {
+    "src": "osy/firewall.pptx",
+    "dest": "it/operacni-systemy/27-firewall.md",
+    "title": "Firewall",
+    "order": 27
   },
   {
     "src": "MATURITA HADR/IT/20. a 25. PowerPoint a Access.docx",
@@ -174,10 +516,112 @@
     "order": 6
   },
   {
-    "src": "MATURITA HADR/IT/Tech.docx",
-    "dest": "it/uvod-do-vypocetni-techniky/07-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi.md",
-    "title": "Hardware – doplňkové poznámky (grafické karty, displeje a další)",
+    "src": "uvt/BIOS.pdf",
+    "dest": "it/uvod-do-vypocetni-techniky/07-bios.md",
+    "title": "BIOS",
     "order": 7
+  },
+  {
+    "src": "uvt/cast1_07_mainboard.pdf",
+    "dest": "it/uvod-do-vypocetni-techniky/08-zakladni-deska-mainboard.md",
+    "title": "Základní deska (mainboard)",
+    "order": 8
+  },
+  {
+    "src": "uvt/cast1_08_chipset.pdf",
+    "dest": "it/uvod-do-vypocetni-techniky/09-chipset.md",
+    "title": "Chipset",
+    "order": 9
+  },
+  {
+    "src": "uvt/cast2_01_sbernice.pdf",
+    "dest": "it/uvod-do-vypocetni-techniky/10-sbernice.md",
+    "title": "Sběrnice",
+    "order": 10
+  },
+  {
+    "src": "uvt/cv15-17_RAM_ROM.pdf",
+    "dest": "it/uvod-do-vypocetni-techniky/11-pameti-ram-a-rom.md",
+    "title": "Paměti RAM a ROM",
+    "order": 11
+  },
+  {
+    "src": "uvt/cv18-19_HDD_SSD.pdf",
+    "dest": "it/uvod-do-vypocetni-techniky/12-pevne-disky-hdd-a-ssd.md",
+    "title": "Pevné disky HDD a SSD",
+    "order": 12
+  },
+  {
+    "src": "uvt/cv20_CD_DVD_BR.pdf",
+    "dest": "it/uvod-do-vypocetni-techniky/13-opticke-disky-cd-dvd-blu-ray.md",
+    "title": "Optické disky CD/DVD/Blu-ray",
+    "order": 13
+  },
+  {
+    "src": "uvt/cv21_zdroj_UPS.pdf",
+    "dest": "it/uvod-do-vypocetni-techniky/14-napajeci-zdroj-a-ups.md",
+    "title": "Napájecí zdroj a UPS",
+    "order": 14
+  },
+  {
+    "src": "uvt/cv22_Pocitacove_skrine.pdf",
+    "dest": "it/uvod-do-vypocetni-techniky/15-pocitacove-skrine.md",
+    "title": "Počítačové skříně",
+    "order": 15
+  },
+  {
+    "src": "uvt/cv23_chlazeni_PC.pdf",
+    "dest": "it/uvod-do-vypocetni-techniky/16-chlazeni-pc.md",
+    "title": "Chlazení PC",
+    "order": 16
+  },
+  {
+    "src": "uvt/cv23-25_Zobrazovaci_soustava.pdf",
+    "dest": "it/uvod-do-vypocetni-techniky/17-zobrazovaci-soustava.md",
+    "title": "Zobrazovací soustava",
+    "order": 17
+  },
+  {
+    "src": "uvt/cv24_tiskarny.pdf",
+    "dest": "it/uvod-do-vypocetni-techniky/18-tiskarny.md",
+    "title": "Tiskárny",
+    "order": 18
+  },
+  {
+    "src": "uvt/cv25_Zvukova_karta_reproduktory.pdf",
+    "dest": "it/uvod-do-vypocetni-techniky/19-zvukova-karta-a-reproduktory.md",
+    "title": "Zvuková karta a reproduktory",
+    "order": 19
+  },
+  {
+    "src": "uvt/cv26_klavesnice_mys_3Dmys_trackball.pdf",
+    "dest": "it/uvod-do-vypocetni-techniky/20-klavesnice-mys-3d-mys-trackball.md",
+    "title": "Klávesnice, myš, 3D myš, trackball",
+    "order": 20
+  },
+  {
+    "src": "uvt/T02_Historie_Vypocetni_techniky.pdf",
+    "dest": "it/uvod-do-vypocetni-techniky/21-historie-vypocetni-techniky.md",
+    "title": "Historie výpočetní techniky",
+    "order": 21
+  },
+  {
+    "src": "uvt/T03_zakladni_deska.pdf",
+    "dest": "it/uvod-do-vypocetni-techniky/22-zakladni-deska.md",
+    "title": "Základní deska",
+    "order": 22
+  },
+  {
+    "src": "uvt/T04_CPU.pdf",
+    "dest": "it/uvod-do-vypocetni-techniky/23-cpu-procesor.md",
+    "title": "CPU (procesor)",
+    "order": 23
+  },
+  {
+    "src": "MATURITA HADR/IT/Tech.docx",
+    "dest": "it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi.md",
+    "title": "Hardware – doplňkové poznámky (grafické karty, displeje a další)",
+    "order": 24
   },
   {
     "src": "MATURITA HADR/IT/DAT_I.pdf",
@@ -190,5 +634,89 @@
     "dest": "it/databazove-systemy/02-databaze-i-praktikum.md",
     "title": "Databáze I – praktikum",
     "order": 2
+  },
+  {
+    "src": "robotika1.pol/cv01_elektrotechnicke_znacky.pdf",
+    "dest": "it/robotika/02-elektrotechnicke-znacky.md",
+    "title": "Elektrotechnické značky",
+    "order": 2
+  },
+  {
+    "src": "robotika1.pol/cv02_Instalace_vyvojoveho_prostredi+knihovny.pdf",
+    "dest": "it/robotika/03-instalace-vyvojoveho-prostredi-a-knihoven.md",
+    "title": "Instalace vývojového prostředí a knihoven",
+    "order": 3
+  },
+  {
+    "src": "robotika1.pol/cv03_Blikani_LED.pdf",
+    "dest": "it/robotika/04-blikani-led.md",
+    "title": "Blikání LED",
+    "order": 4
+  },
+  {
+    "src": "robotika1.pol/cv04_LED_tlacitko_prom.pdf",
+    "dest": "it/robotika/05-led-a-tlacitko-s-promennou.md",
+    "title": "LED a tlačítko s proměnnou",
+    "order": 5
+  },
+  {
+    "src": "robotika1.pol/cv05_LED_potenciometr.pdf",
+    "dest": "it/robotika/06-led-a-potenciometr.md",
+    "title": "LED a potenciometr",
+    "order": 6
+  },
+  {
+    "src": "robotika1.pol/cv06_5xLED_potenciometr.pdf",
+    "dest": "it/robotika/07-5-led-a-potenciometr.md",
+    "title": "5× LED a potenciometr",
+    "order": 7
+  },
+  {
+    "src": "robotika1.pol/cv07a_had_5xLED.pdf",
+    "dest": "it/robotika/08-had-z-5-led.md",
+    "title": "Had z 5 LED",
+    "order": 8
+  },
+  {
+    "src": "robotika1.pol/cv07b_hraci_kostka.pdf",
+    "dest": "it/robotika/09-hraci-kostka.md",
+    "title": "Hrací kostka",
+    "order": 9
+  },
+  {
+    "src": "robotika1.pol/cv09a_skener_sbernice_I2C.pdf",
+    "dest": "it/robotika/10-skener-sbernice-i2c.md",
+    "title": "Skener sběrnice I2C",
+    "order": 10
+  },
+  {
+    "src": "robotika1.pol/cv09b_I2C_LCD_displej.pdf",
+    "dest": "it/robotika/11-i2c-lcd-displej.md",
+    "title": "I2C LCD displej",
+    "order": 11
+  },
+  {
+    "src": "robotika1.pol/cv10_teplota_LCD_displej.pdf",
+    "dest": "it/robotika/12-teplota-na-lcd-displeji.md",
+    "title": "Teplota na LCD displeji",
+    "order": 12
+  },
+  {
+    "src": "robotika1.pol/cv11_Sedmisegmentovy_displej.pdf",
+    "dest": "it/robotika/13-sedmisegmentovy-displej.md",
+    "title": "Sedmisegmentový displej",
+    "order": 13
+  },
+  {
+    "src": "robotika1.pol/cv12_4mistny_segmentovy_displej.pdf",
+    "dest": "it/robotika/14-4mistny-segmentovy-displej.md",
+    "title": "4místný segmentový displej",
+    "order": 14
+  },
+  {
+    "src": "robotika1.pol/cv13_LEDmatice8x8.pdf",
+    "dest": "it/robotika/15-led-matice-8-8.md",
+    "title": "LED matice 8×8",
+    "order": 15
   }
 ]

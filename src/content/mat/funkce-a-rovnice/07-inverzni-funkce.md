@@ -2,6 +2,7 @@
 title: "Inverzní funkce"
 order: 7
 source: "matematika/TY01_0207_-_Inverzni_funkce.pptx"
+hasExercises: true
 ---
 Inverzní funkce
 
@@ -81,8 +82,7 @@ f<br>f  ´<br><!-- End of picture text -->
 
 Sestrojte graf inverzní funkce k funkcí _f: y = 2x_<sup>_2_</sup> _; D(f) = < 0; ∞_ ) _. Určete definiční obory a obory hodnot._
 
-<!-- Start of picture text -->
-f: y = 2x 2 x  0  1  2  3  4 sestrojíme tabulku pro funkci f<br> 0  2  8 18  32<br>y<br> f  ´ tabulka funkce f  ´  je převrácená<br>x  0  2  8  18  32<br> 0  1  2   3   4<br>Funkce  f  má  D(f) = < 0;  y ∞ ) .  Z toho vyplývá, že  H(f ´) = < 0; ∞ ) .<br>Předpis pro  funkci  f ´: x = 2y 2                                          zaměníme x<br>s y<br><!-- End of picture text -->
+_f: y = 2x_<sup>_2_</sup> x 0 1 2 3 4 _sestrojíme tabulku pro funkci f_ 0 2 8 18 32 y _f_<sup>_´_</sup> _tabulka funkce f_<sup>_´_</sup> _je převrácená_ x 0 2 8 18 32 0 1 2 3 4 Funkce _f_ má _D(f) = < 0;_ y _∞_ ) _._ Z toho vyplývá, že _H(f ´) = < 0; ∞_ ) _._ Předpis pro ~~funkci~~ _~~f ´: x = 2y~~_<sup>_~~2~~_</sup> _zaměníme x s y_
 
 _= y_<sup>_2_</sup>
 

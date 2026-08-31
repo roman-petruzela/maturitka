@@ -2,6 +2,7 @@
 title: "Komolý jehlan"
 order: 7
 source: "matematika/TY0107 Komolý jehlan.pdf"
+hasExercises: true
 ---
 Komolý jehlan je část jehlanu, která leží mezi dvěma rovnoběžnými rovinami (podstavami) procházejícími tímto jehlanem. Velmi zjednodušeně řečeno je to jehlan s uříznutým „vrškem“. Komolý jehlan se skládá ze dvou podstav a pláště, který tvoří n lichoběžníků. Vzdálenost dvou rovnoběžných podstav jehlanu nazýváme tělesová výška a značíme 𝒗. Vzdálenost hrany dolní podstavy od hrany horní podstavy ležící ve stejné stěně nazýváme stěnová výška a značíme 𝒔.
 

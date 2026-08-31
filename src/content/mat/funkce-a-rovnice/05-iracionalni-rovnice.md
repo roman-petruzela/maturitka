@@ -2,6 +2,7 @@
 title: "Iracionální rovnice"
 order: 5
 source: "matematika/TY01_0205_-_Iracionalni_rovnice.pptx"
+hasExercises: true
 ---
 Iracionální rovnice
 
@@ -53,7 +54,7 @@ př. 3: <u>Řešení</u>
 
 ## Řešení př. 1:
 
-Zkouška: L: P: L =5 P    proto rovnice nemá řešení
+Zkouška: L: P: L ≠( P    proto rovnice nemá řešení
 
 <u>zpět</u>
 
@@ -80,7 +81,7 @@ _<u>x</u> = 3_ _~~<u>1</u>~~_ _<u>x</u> = - 1_ _~~<u>2</u>~~_
 
 ## Řešení př. 3:
 
-Zkouška: L: P:  0 L = P                   je řešením <u>zpět</u>
+Zkouška: L: P:  0 L ≠ P                   je řešením <u>zpět</u>
 
 # Shrnutí
 

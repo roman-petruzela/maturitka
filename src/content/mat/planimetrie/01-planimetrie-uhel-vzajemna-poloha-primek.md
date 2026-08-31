@@ -2,6 +2,7 @@
 title: "Planimetrie, úhel, vzájemná poloha přímek"
 order: 1
 source: "matematika/TY01_0111 Planimetrie, úhel, vzájemná poloha přímek.pdf"
+hasExercises: true
 ---
 **<u>Planimetrie:</u>** geometrie v rovině neboli dvourozměrná geometrie (příkladem roviny může být tabule nebo stěna ve třídě)
 

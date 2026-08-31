@@ -2,6 +2,7 @@
 title: "Variace a permutace bez opakování"
 order: 2
 source: "matematika/TY01_0225_Variace_a_permutace_bez_opakovani.pptx"
+hasExercises: true
 ---
 K- členné skupiny utvořené z daných n prvků tak, že v nich záleží na pořadí a žádný z daných prvků se v nich neopakuje _<u>Příklad:</u>_ Kolika způsoby lze mezi osm finalistů závodu rozdělit zlatou, stříbrnou a bronzovou medaili (nepředpokládáme dva závodníky a absolutně stejným výsledkem)
 

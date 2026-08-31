@@ -37,6 +37,10 @@ body {
 }
 
 header.site-header {
+	position: sticky;
+	top: 0;
+	z-index: 30;
+	background: var(--bg);
 	border-bottom: 1px solid var(--border);
 	padding: 1rem 1.5rem;
 	display: flex;
@@ -44,6 +48,11 @@ header.site-header {
 	justify-content: space-between;
 	gap: 1rem;
 	flex-wrap: wrap;
+	transition: transform 0.25s ease;
+}
+
+header.site-header.header-hidden {
+	transform: translateY(-100%);
 }
 
 .brand {
@@ -117,37 +126,55 @@ a {
 }
 
 .subject-grid {
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-	gap: 1rem;
+	display: flex;
+	flex-direction: column;
+	gap: 0.9rem;
 	margin-top: 2rem;
 }
 
 .subject-card {
-	display: block;
+	display: flex;
+	align-items: baseline;
+	gap: 1rem;
 	border: 1px solid var(--border);
 	border-radius: 10px;
-	padding: 1.25rem;
+	padding: 1.1rem 1.4rem;
 	background: var(--card-bg);
 	text-decoration: none;
 	color: var(--fg);
 	font-family: ui-sans-serif, system-ui, sans-serif;
-	transition: border-color 0.15s ease;
+	transition: border-color 0.15s ease, transform 0.15s ease;
 }
 
 .subject-card:hover {
 	border-color: var(--accent);
+	transform: translateX(0.2rem);
 }
 
 .subject-card h2 {
-	margin: 0.3rem 0;
+	margin: 0;
 	font-size: 1.25rem;
+	flex: 0 0 auto;
+}
+
+.subject-card .eyebrow {
+	flex: 0 0 6rem;
 }
 
 .subject-card p {
 	margin: 0;
 	color: var(--muted);
 	font-size: 0.9rem;
+}
+
+@media (max-width: 560px) {
+	.subject-card {
+		flex-wrap: wrap;
+	}
+	.subject-card .eyebrow {
+		flex-basis: 100%;
+		order: 3;
+	}
 }
 
 .topic-list {
@@ -192,8 +219,14 @@ a {
 	scroll-margin-top: 1.5rem;
 }
 
-.mini-badge {
+.badge-group {
 	margin-left: auto;
+	display: flex;
+	align-items: center;
+	gap: 0.4rem;
+}
+
+.mini-badge {
 	font-size: 0.68rem;
 	text-transform: uppercase;
 	letter-spacing: 0.04em;
@@ -202,6 +235,20 @@ a {
 	border-radius: 4px;
 	padding: 0.1rem 0.4rem;
 	white-space: nowrap;
+}
+
+.exercise-badge {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 1.3rem;
+	height: 1.3rem;
+	font-size: 0.8rem;
+	line-height: 1;
+	border-radius: 50%;
+	background: color-mix(in srgb, var(--accent) 14%, transparent);
+	color: var(--accent);
+	flex: 0 0 auto;
 }
 
 .group-jump {
@@ -262,6 +309,101 @@ article.topic li::marker {
 	color: var(--muted);
 }
 
+/* injected by MathScratchpad's client script next to detected exercises —
+   lives here (not in the component's scoped styles) since the button is
+   appended into article content outside that component's own markup */
+.exercise-send-btn {
+	display: inline-flex;
+	align-items: center;
+	font-family: ui-sans-serif, system-ui, sans-serif;
+	font-size: 0.72rem;
+	white-space: nowrap;
+	color: var(--accent);
+	background: color-mix(in srgb, var(--accent) 10%, transparent);
+	border: 1px solid color-mix(in srgb, var(--accent) 35%, transparent);
+	border-radius: 5px;
+	padding: 0.05rem 0.4rem;
+	cursor: pointer;
+	vertical-align: middle;
+}
+
+.exercise-send-btn:hover {
+	background: color-mix(in srgb, var(--accent) 20%, transparent);
+}
+
+/* the floating "sticky note" on the math whiteboard — also created via
+   document.createElement in a client script (see src/lib/whiteboard.ts), so
+   it must live in global CSS rather than a component's scoped <style>,
+   which only ever applies to elements Astro compiled into that component's
+   own template, not ones added dynamically at runtime */
+.whiteboard-note {
+	position: absolute;
+	width: 15rem;
+	max-width: calc(100% - 1.5rem);
+	max-height: calc(100% - 1.5rem);
+	overflow-y: auto;
+	background: #fff6c9;
+	border: 1px solid color-mix(in srgb, #b8960a 40%, transparent);
+	border-radius: 4px;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+	padding: 0.5rem 0.6rem 0.65rem;
+	cursor: grab;
+	touch-action: none;
+	z-index: 5;
+}
+
+.whiteboard-note.is-dragging {
+	cursor: grabbing;
+	box-shadow: 0 8px 18px rgba(0, 0, 0, 0.32);
+}
+
+.whiteboard-note-close {
+	float: right;
+	width: 1.2rem;
+	height: 1.2rem;
+	line-height: 1;
+	border: none;
+	border-radius: 50%;
+	background: rgba(0, 0, 0, 0.08);
+	color: #55480a;
+	cursor: pointer;
+	font-size: 0.85rem;
+}
+
+.whiteboard-note-close:hover {
+	background: rgba(0, 0, 0, 0.16);
+}
+
+.whiteboard-note-body {
+	font-family: ui-sans-serif, system-ui, sans-serif;
+	font-size: 0.82rem;
+	line-height: 1.4;
+	color: #3a3005;
+	white-space: pre-wrap;
+}
+
+/* items in the whiteboard's "Zadání" dropdown — also injected dynamically,
+   same reasoning as .whiteboard-note above */
+.whiteboard-exercises-item {
+	display: block;
+	width: 100%;
+	text-align: left;
+	font-family: ui-sans-serif, system-ui, sans-serif;
+	font-size: 0.8rem;
+	line-height: 1.35;
+	color: var(--fg);
+	background: none;
+	border: none;
+	border-radius: 6px;
+	padding: 0.4rem 0.5rem;
+	cursor: pointer;
+}
+
+.whiteboard-exercises-item:hover {
+	background: color-mix(in srgb, var(--accent) 10%, transparent);
+	color: var(--accent);
+}
+
 article.topic code {
 	background: var(--card-bg);
 	border: 1px solid var(--border);
@@ -308,9 +450,17 @@ article.topic td {
 }
 
 .topic-pager {
-	display: flex;
-	justify-content: space-between;
-	gap: 1rem;
+	display: grid;
+	/* the middle column must be a *definite* size, not auto — the filmstrip
+	   inside it uses percentage widths (width: min(100%, 21rem) on the
+	   track, calc(50% - ...) on its edge spacers) to size itself, and an
+	   auto grid track's size is derived from its content's intrinsic size,
+	   which those percentages can't resolve against without circularity.
+	   Browsers "solve" that by falling back to something else entirely,
+	   which is what blew the whole row's layout up. */
+	grid-template-columns: minmax(0, 1fr) minmax(0, 22rem) minmax(0, 1fr);
+	align-items: center;
+	gap: 0.6rem 1rem;
 	margin-top: 2rem;
 	padding-top: 1.25rem;
 	border-top: 1px solid var(--border);
@@ -321,16 +471,37 @@ article.topic td {
 .topic-pager a {
 	color: var(--fg);
 	text-decoration: none;
-	max-width: 45%;
 }
 
 .topic-pager a:hover {
 	color: var(--accent);
 }
 
+.topic-pager-prev {
+	justify-self: start;
+}
+
 .topic-pager-next {
+	justify-self: end;
 	text-align: right;
-	margin-left: auto;
+	grid-column: 3;
+}
+
+@media (max-width: 720px) {
+	.topic-pager {
+		grid-template-columns: 1fr 1fr;
+		grid-template-areas: 'prev next' 'filmstrip filmstrip';
+	}
+	.topic-pager-prev {
+		grid-area: prev;
+	}
+	.topic-pager-next {
+		grid-area: next;
+		grid-column: auto;
+	}
+	.topic-pager .filmstrip {
+		grid-area: filmstrip;
+	}
 }
 
 .source-note {

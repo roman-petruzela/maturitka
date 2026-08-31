@@ -2,6 +2,7 @@
 title: "Kvadratická rovnice"
 order: 2
 source: "matematika/TY01_0202-Kvadraticka_rovnice.pptx"
+hasExercises: true
 ---
 Kvadratická rovnice
 

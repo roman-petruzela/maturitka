@@ -1,0 +1,127 @@
+[
+  {
+    "src": "MATURITA HADR/Němčina/1) Deutschland.pdf",
+    "dest": "nemcina/1-deutschland.md",
+    "title": "1) Deutschland"
+  },
+  {
+    "src": "MATURITA HADR/Němčina/10) wohnen.pdf",
+    "dest": "nemcina/10-wohnen.md",
+    "title": "10) wohnen"
+  },
+  {
+    "src": "MATURITA HADR/Němčina/11) Deutsche und Tschecische Küche.pdf",
+    "dest": "nemcina/11-deutsche-und-tschecische-k-che.md",
+    "title": "11) Deutsche und Tschecische Küche"
+  },
+  {
+    "src": "MATURITA HADR/Němčina/12) Feste und Bräuche.pdf",
+    "dest": "nemcina/12-feste-und-br-uche.md",
+    "title": "12) Feste und Bräuche"
+  },
+  {
+    "src": "MATURITA HADR/Němčina/13) Jahreszeiten, Wetter und Natur.pdf",
+    "dest": "nemcina/13-jahreszeiten-wetter-und-natur.md",
+    "title": "13) Jahreszeiten, Wetter und Natur"
+  },
+  {
+    "src": "MATURITA HADR/Němčina/14) Gesundheit.pdf",
+    "dest": "nemcina/14-gesundheit.md",
+    "title": "14) Gesundheit"
+  },
+  {
+    "src": "MATURITA HADR/Němčina/15) Dienstleistungen.pdf",
+    "dest": "nemcina/15-dienstleistungen.md",
+    "title": "15) Dienstleistungen"
+  },
+  {
+    "src": "MATURITA HADR/Němčina/16) Massenmedien.pdf",
+    "dest": "nemcina/16-massenmedien.md",
+    "title": "16) Massenmedien"
+  },
+  {
+    "src": "MATURITA HADR/Němčina/17) Bildungswesen.pdf",
+    "dest": "nemcina/17-bildungswesen.md",
+    "title": "17) Bildungswesen"
+  },
+  {
+    "src": "MATURITA HADR/Němčina/18) Arbeit und Berufe.pdf",
+    "dest": "nemcina/18-arbeit-und-berufe.md",
+    "title": "18) Arbeit und Berufe"
+  },
+  {
+    "src": "MATURITA HADR/Němčina/19) Verkehr.pdf",
+    "dest": "nemcina/19-verkehr.md",
+    "title": "19) Verkehr"
+  },
+  {
+    "src": "MATURITA HADR/Němčina/2) Berlin und andere Deutsche Städte.pdf",
+    "dest": "nemcina/2-berlin-und-andere-deutsche-st-dte.md",
+    "title": "2) Berlin und andere Deutsche Städte"
+  },
+  {
+    "src": "MATURITA HADR/Němčina/20) Umweltschutz.pdf",
+    "dest": "nemcina/20-umweltschutz.md",
+    "title": "20) Umweltschutz"
+  },
+  {
+    "src": "MATURITA HADR/Němčina/21) Reisen, Urlaub.pdf",
+    "dest": "nemcina/21-reisen-urlaub.md",
+    "title": "21) Reisen, Urlaub"
+  },
+  {
+    "src": "MATURITA HADR/Němčina/22) Sport.pdf",
+    "dest": "nemcina/22-sport.md",
+    "title": "22) Sport"
+  },
+  {
+    "src": "MATURITA HADR/Němčina/23) Kultur.pdf",
+    "dest": "nemcina/23-kultur.md",
+    "title": "23) Kultur"
+  },
+  {
+    "src": "MATURITA HADR/Němčina/24) Musik.pdf",
+    "dest": "nemcina/24-musik.md",
+    "title": "24) Musik"
+  },
+  {
+    "src": "MATURITA HADR/Němčina/25) Meine Lektüre.pdf",
+    "dest": "nemcina/25-meine-lekt-re.md",
+    "title": "25) Meine Lektüre"
+  },
+  {
+    "src": "MATURITA HADR/Němčina/3) Österreich und Wien.pdf",
+    "dest": "nemcina/3-sterreich-und-wien.md",
+    "title": "3) Österreich und Wien"
+  },
+  {
+    "src": "MATURITA HADR/Němčina/4) Schweiz.pdf",
+    "dest": "nemcina/4-schweiz.md",
+    "title": "4) Schweiz"
+  },
+  {
+    "src": "MATURITA HADR/Němčina/5) Tschecische Republik.pdf",
+    "dest": "nemcina/5-tschecische-republik.md",
+    "title": "5) Tschecische Republik"
+  },
+  {
+    "src": "MATURITA HADR/Němčina/6) Prag.pdf",
+    "dest": "nemcina/6-prag.md",
+    "title": "6) Prag"
+  },
+  {
+    "src": "MATURITA HADR/Němčina/7) Familie.pdf",
+    "dest": "nemcina/7-familie.md",
+    "title": "7) Familie"
+  },
+  {
+    "src": "MATURITA HADR/Němčina/8) Tagesablauf.pdf",
+    "dest": "nemcina/8-tagesablauf.md",
+    "title": "8) Tagesablauf"
+  },
+  {
+    "src": "MATURITA HADR/Němčina/9) Freizeit.pdf",
+    "dest": "nemcina/9-freizeit.md",
+    "title": "9) Freizeit"
+  }
+]

@@ -7,26 +7,32 @@ const topicSchema = z.object({
 	order: z.number().optional(),
 	tags: z.array(z.string()).optional(),
 	source: z.string().optional(),
+	// marks topics with concrete calculation problems (not just theory) —
+	// shown as a badge in topic lists so it's clear before clicking in
+	hasExercises: z.boolean().optional(),
 });
 
-const cj = defineCollection({
-	loader: glob({ pattern: '**/*.md', base: './src/content/cj' }),
-	schema: topicSchema,
-});
+const SUBJECT_KEYS = [
+	'cj',
+	'mat',
+	'aj',
+	'it',
+	'dejepis',
+	'zemepis',
+	'fyzika',
+	'spolecenske-vedy',
+	'pravo',
+	'psychologie',
+	'ekonomika',
+	'nemcina',
+] as const;
 
-const mat = defineCollection({
-	loader: glob({ pattern: '**/*.md', base: './src/content/mat' }),
-	schema: topicSchema,
-});
-
-const aj = defineCollection({
-	loader: glob({ pattern: '**/*.md', base: './src/content/aj' }),
-	schema: topicSchema,
-});
-
-const it = defineCollection({
-	loader: glob({ pattern: '**/*.md', base: './src/content/it' }),
-	schema: topicSchema,
-});
-
-export const collections = { cj, mat, aj, it };
+export const collections = Object.fromEntries(
+	SUBJECT_KEYS.map((key) => [
+		key,
+		defineCollection({
+			loader: glob({ pattern: '**/*.md', base: `./src/content/${key}` }),
+			schema: topicSchema,
+		}),
+	])
+);

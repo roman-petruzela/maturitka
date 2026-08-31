@@ -2,6 +2,7 @@
 title: "Kartézská soustava souřadnic"
 order: 12
 source: "matematika/TY01_0132_Kartezska_soustava_souradnic.pptx"
+hasExercises: true
 ---
 # Souřadnice
 
@@ -58,9 +59,8 @@ Souřadnice na ose y
 
 # Zapište souřadnice bodů
 
-||||**y**|~~5~~<br>~~6~~||A|||||
+||||**y**|~~4~~<br>~~5~~<br>~~6~~<br>~~B~~||A|||||
 |---|---|---|---|---|---|---|---|---|---|---|
-|||||~~4~~<br>~~B~~|||||||
 |||C||~~0~~<br>~~1~~<br>~~2~~<br>~~3~~||||E|||
 |-5|-4|-3|-2|-1<br>0<br>~~-1~~|1|2|3|4|5<br>**x**|6|
 |D||||~~-4~~<br>~~-3~~<br>~~-2~~<br>G|F||||||

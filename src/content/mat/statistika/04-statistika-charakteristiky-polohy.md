@@ -2,6 +2,7 @@
 title: "Statistika – charakteristiky polohy"
 order: 4
 source: "matematika/TY01_0221_Statistika_-_charakteristiky_polohy.pptx"
+hasExercises: true
 ---
 Charakteristiky polohy Starší bratr snědl svůj oběd a také oběd svého mladšího bratra. V průměru snědl každý jeden oběd
 

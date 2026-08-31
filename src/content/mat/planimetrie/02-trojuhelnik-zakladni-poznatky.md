@@ -2,6 +2,7 @@
 title: "Trojúhelník – základní poznatky"
 order: 2
 source: "matematika/TY01_0112 Trojúhelník – základní poznatky.pdf"
+hasExercises: true
 ---
 **<u>Trojúhelník</u>**
 

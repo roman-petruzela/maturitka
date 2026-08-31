@@ -2,6 +2,7 @@
 title: "Statistika – korelace"
 order: 6
 source: "matematika/TY01_0223_Statistika_-_korelace.pptx"
+hasExercises: true
 ---
 **_Korelace_** (z lat.) znamená vzájemný vztah mezi dvěma procesy nebo veličinami. Pokud se jedna z nich mění, mění se **korelativně** i druhá a naopak. Pokud se mezi dvěma procesy ukáže korelace, je pravděpodobné, že na sobě závisejí, nelze z toho však ještě usoudit, že by jeden z nich musel být příčinou a druhý následkem. To samotná korelace nedovoluje rozhodnout.
 
@@ -47,9 +48,7 @@ Nebo jednodušeji pro ruční výpočet:
 
 Korelace - hodnoty Koeficient korelace nabývá hodnoty od -1 do 1 Hodnota blízká k 1
 
-– znamená, že závislost je silná a přímá
-
-- například vztah výkonu počítače a počtu úloh, které vyřeší za hodinu – čím vyšší výkon, tím více úloh
+- znamená, že závislost je silná a přímá • například vztah výkonu počítače a počtu úloh, které vyřeší za hodinu – čím vyšší výkon, tím více úloh
 
 - Hodnota blízká k –1
 

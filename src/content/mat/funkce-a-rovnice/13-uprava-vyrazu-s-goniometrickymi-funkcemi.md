@@ -2,6 +2,7 @@
 title: "Úprava výrazů s goniometrickými funkcemi"
 order: 13
 source: "matematika/TY01_0213_-_Uprava_vyrazu_s_goniometrickymi_funkcemi.pptx"
+hasExercises: true
 ---
 **Výrazy s goniometrickými funkcemi**
 
@@ -33,10 +34,8 @@ _cos 2x = cos_<sup>_2_</sup> _x – sin_<sup>_2_</sup> _x_
 
 **_Př. Zjednodušte:_**
 
-## Ukázkové příklady
-
 <!-- Start of picture text -->
-Př.  Zjednodušte:<br><!-- End of picture text -->
+Ukázkové příklady<br>Př.  Zjednodušte:<br><!-- End of picture text -->
 
 **_Př. Zjednodušte:_**
 

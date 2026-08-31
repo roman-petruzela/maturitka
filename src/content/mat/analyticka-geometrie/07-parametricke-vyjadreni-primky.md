@@ -2,6 +2,7 @@
 title: "Parametrické vyjádření přímky"
 order: 7
 source: "matematika/TY01_0127_Parametricke_vyjadreni_primky.pptx"
+hasExercises: true
 ---
 **Parametrické vyjádření přímky
 

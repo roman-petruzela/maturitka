@@ -2,6 +2,7 @@
 title: "Lomené výrazy"
 order: 6
 source: "MATURITA HADR/Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/6) Lomené výrazy.pdf"
+hasExercises: true
 ---
 <u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Lomené výrazy</u>
 

@@ -2,6 +2,7 @@
 title: "Pravidelný n-úhelník, nepravidelný n-úhelník"
 order: 7
 source: "matematika/TY01_0117 Pravidelný n-úhelník, nepravidelný n-úhelník.pdf"
+hasExercises: true
 ---
 **Pravidelný n-úhelník, nepravidelný n-úhelník**
 

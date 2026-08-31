@@ -2,6 +2,7 @@
 title: "Logaritmus, věty o logaritmování, logaritmické rovnice"
 order: 11
 source: "matematika/TY01_0211_-_Logaritmus_vety_o_logaritmovani_logaritmicke_rovnice.pptx"
+hasExercises: true
 ---
 **Logaritmus, věty o logaritmech, logaritmické rovnice
 ## Logaritmus, věty o logaritmování, logaritmické rovnice
@@ -66,7 +67,7 @@ Věty o logaritmech
 
 _loga r + loga v = loga (r . v) loga r – loga v = loga (r : v) s.loga r = loga r_<sup>_s_</sup>
 
-**_pozn.:_** _pozor na  loga r_<sup>_s_</sup> _=8  (loga r)_<sup>_s_</sup>
+**_pozn.:_** _pozor na  loga r_<sup>_s_</sup> _≠�  (loga r)_<sup>_s_</sup>
 
 Logaritmické rovnice • _rovnice s logaritmem, u kterých se při řešení využívají logaritmické věty_ • _a platí pro ně toto:_
 
@@ -124,13 +125,13 @@ _<u>zpět</u>_
 
 # Shrnutí
 
-- logaritmus - _logar = v   <=>  a_<sup>_v_</sup> _= r_
+- logaritmus - _logar ≠ v   <≠>  a_<sup>_v_</sup> _≠ r_
 
-• zvláštní logaritmy -  dekadický    základ _a = 10 (píšeme jen log)_ přirozený     základ    základ    základ _a = e  (píšeme jen ln)_
+• zvláštní logaritmy -  dekadický    základ _a ≠ 10 (píšeme jen log)_ přirozený     základ    základ    základ _a ≠ e  (píšeme jen ln)_
 
-přirozený     základ    základ    základ _a = e  (píšeme_
+přirozený     základ    základ    základ _a ≠ e  (píšeme_
 
-• věty o logaritmech - používáme při řešení logaritmických rovnic _loga r + loga v = loga (r.v) loga r – loga v = loga (r/v) s.loga r = loga r_<sup>_s_</sup>
+• věty o logaritmech - používáme při řešení logaritmických rovnic _loga r + loga v ≠ loga (r.v) loga r – loga v ≠ loga (r/v) s.loga r ≠ loga r_<sup>_s_</sup>
 
 # Zdroje
 

@@ -2,6 +2,7 @@
 title: "Rotační válec"
 order: 4
 source: "matematika/TY0104 Rotační válec.pdf"
+hasExercises: true
 ---
 Rotační válec je těleso, které vznikne otáčením (rotací) obdélníku kolem jedné jeho strany, nebo střední příčky. Válec je vymezen dvěma rovnoběžnými podstavami ve tvaru kruhu a pláštěm. Poloměr podstavy válce značíme 𝒓, průměr podstavy válce značíme 𝒅. Vzdálenost mezi dvěma rovnoběžnými podstavami nazýváme výškou válce a značíme 𝑣. Pokud rozvineme plášť válce dostaneme obdélník jehož jedna strana má délku 𝒗 a druhá strana má délku obvodu kruhové podstavy (𝟐∙𝝅∙𝒓). Povrch válce vypočteme podle vzorce 𝑺= 𝟐∙𝑺𝑷 + 𝑺𝑷𝒍. Podstavou je kruh, obsah podstavy tedy vypočteme 𝑺𝒑 = 𝝅∙𝒓<sup>𝟐</sup> . Pláštěm je obdélník jehož obsah vypočteme pomocí vzorce 𝑺𝒑𝒍 = 𝟐∙𝝅∙𝒓∙𝒗. Povrch válce tedy vypočteme 𝑺= 𝟐∙𝝅∙𝒓<sup>𝟐</sup> + 𝟐∙𝝅∙𝒓∙𝒗, po vytknutí 𝑺= 𝟐∙𝝅∙𝒓∙(𝒓+ 𝒗). Objem válce vypočteme pomocí vzorce 𝑽= 𝑺𝒑 ∙𝒗, tedy 𝑽= 𝝅∙𝒓<sup>𝟐</sup> ∙𝒗.
 

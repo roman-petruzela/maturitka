@@ -2,6 +2,7 @@
 title: "Kvadratická rovnice"
 order: 14
 source: "MATURITA HADR/Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/14) Kvadratická rovnice.pdf"
+hasExercises: true
 ---
 <u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Kvadratická rovnice</u>
 

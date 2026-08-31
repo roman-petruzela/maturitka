@@ -2,6 +2,7 @@
 title: "Kruhová úseč"
 order: 10
 source: "matematika/TY01_0120 Kruhová úseč.pdf"
+hasExercises: true
 ---
 - je oblast, která vznikne, když je kruhem protnuta přímka. Této přímce se říká _sečna_ . Úsečka, která propojí dva libovolné body (např. A a B) ležící na kružnici, se nazývá _tětiva_ .
 

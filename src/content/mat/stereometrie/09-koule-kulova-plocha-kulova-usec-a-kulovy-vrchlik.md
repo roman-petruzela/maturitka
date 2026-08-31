@@ -2,6 +2,7 @@
 title: "Koule, kulová plocha, kulová úseč a kulový vrchlík"
 order: 9
 source: "matematika/TY0109 Koule, kulová plocha, kulová úseč a kulový vrchlík.pdf"
+hasExercises: true
 ---
 **Koule, kulová plocha, kulová úseč a kulový vrchlík**
 

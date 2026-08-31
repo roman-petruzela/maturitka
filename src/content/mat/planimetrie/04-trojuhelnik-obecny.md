@@ -2,6 +2,7 @@
 title: "Trojúhelník – obecný"
 order: 4
 source: "matematika/TY01_0114 Trojúhelník – obecný.pdf"
+hasExercises: true
 ---
 - trojúhelník, který může být rovnostranný, rovnoramenný, různostranný, pravoúhlý, ostroúhlý, tupoúhlý.
 

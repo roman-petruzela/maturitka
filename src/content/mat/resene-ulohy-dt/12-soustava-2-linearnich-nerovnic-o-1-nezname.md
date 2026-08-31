@@ -2,6 +2,7 @@
 title: "Soustava 2 lineárních nerovnic o 1 neznámé"
 order: 12
 source: "MATURITA HADR/Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/12) Soustava 2 lineárních nerovnic o 1 neznámé.pdf"
+hasExercises: true
 ---
 <u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Soustava dvou lineárních nerovnic o jedné neznámé</u>
 

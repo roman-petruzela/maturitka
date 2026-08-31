@@ -2,6 +2,7 @@
 title: "Stereometrie"
 order: 24
 source: "MATURITA HADR/Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/24) Stereometrie.pdf"
+hasExercises: true
 ---
 1) V uzavřeném skleněném kvádru s hranami délek 30 cm, 60 cm a 80 cm je obarvená kapalina. Postavíme-li kvádr ne stěnu s rozměry 30 cm x 60 cm, dosáhne kapalina do výšky 40 cm. V jaké výšce bude hladina kapaliny, postavíme-li kvádr na stěnu s rozměry 30 cm x 80 cm ? Tloušťku stěn kvádru neuvažujeme. A)  20 cm     B)  25 cm     C) <u>30 cm     D) 35 cm     E) v jiné výšce</u>
 

@@ -2,6 +2,7 @@
 title: "Planimetrie"
 order: 23
 source: "MATURITA HADR/Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/23) Planimetrie.pdf"
+hasExercises: true
 ---
 1) Délky základen lichoběžníku jsou a = 4,2* metrů, c = 8* metrů, výška _v_ má velikost 4,8* metrů. Určete obsah plochy lichoběžníku. Ostrý maturitní test Cermat-u ( základní úroveň ) – jaro 2011, příklad č. 4 Body: 2                   Výsledek:  S = 1,2 * resp. 12 * apod. Pracovní tematické zařazení: Planimetrie Řešení: S = = = = = = =  120 * 10<sup>12</sup> = =  12 * 10<sup>13</sup> =  1,2 * 10<sup>14</sup> <u>( m</u><sup>2</sup> <u>)</u>
 

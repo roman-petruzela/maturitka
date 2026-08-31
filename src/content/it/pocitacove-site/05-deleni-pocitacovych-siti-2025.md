@@ -269,6 +269,5 @@ role koncových uzlů je daná způsobem<br>komunikace provozování aplikací (
 
 - http://www.svetsiti.cz/tutorialy.asp
 
-- Autor: NetworkTopologies.png: Maksimderivative work: Malyszkz (talk) – NetworkTopologies.png, Volné dílo, https://commons.wikimedia.org/w/index.php?cu rid=15006915
-
+-
 > ● 22

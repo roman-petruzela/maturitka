@@ -2,6 +2,7 @@
 title: "Lineární nerovnice"
 order: 9
 source: "MATURITA HADR/Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/9) Lineární nerovnice.pdf"
+hasExercises: true
 ---
 <u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Lineární nerovnice</u>
 

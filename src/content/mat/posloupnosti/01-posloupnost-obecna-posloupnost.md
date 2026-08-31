@@ -2,6 +2,7 @@
 title: "Posloupnost – obecná posloupnost"
 order: 1
 source: "matematika/TY01_0215-Posloupnost_-_obecna_posloupnost.pptx"
+hasExercises: true
 ---
 ## Osnova
 
@@ -26,9 +27,7 @@ Graf posloupnosti • posloupnost je funkce a tedy má i své grafické znázorn
 
 ## Dělení posloupnosti
 
-- konečná posloupnost
-
-- jde o posloupnost s přesně konečným počtem hodnot (čísel)
+• konečná posloupnost - jde o posloupnost s přesně konečným počtem hodnot (čísel)
 
 Př. množina žáků ve třídě dle jmenného seznamu
 

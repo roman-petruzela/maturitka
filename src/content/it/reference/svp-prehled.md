@@ -1,5 +1,6 @@
 ---
 title: "ŠVP Informační technologie – zkrácený přehled"
+order: 1
 source: "maturitni prehled/SVP-IT-zkracene.md"
 ---
 

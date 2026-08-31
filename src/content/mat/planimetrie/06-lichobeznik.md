@@ -2,6 +2,7 @@
 title: "Lichoběžník"
 order: 6
 source: "matematika/TY01_0116 Lichoběžník.pdf"
+hasExercises: true
 ---
 - rovinný útvar, jehož právě jedna dvojice protějších stran je rovnoběžná.
 

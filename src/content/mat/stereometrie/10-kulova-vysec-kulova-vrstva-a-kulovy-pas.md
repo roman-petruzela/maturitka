@@ -2,6 +2,7 @@
 title: "Kulová výseč, kulová vrstva a kulový pás"
 order: 10
 source: "matematika/TY0110 Kulová výseč, kulová vrstva a kulový pás.pdf"
+hasExercises: true
 ---
 **Kulová výseč, kulová vrstva a kulový pás**
 

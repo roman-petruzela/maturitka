@@ -2,6 +2,7 @@
 title: "Nerovnice v podílovém tvaru"
 order: 17
 source: "MATURITA HADR/Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/17) Nerovnice v podílovém tvaru.pdf"
+hasExercises: true
 ---
 <u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Nerovnice v podílovém tvaru</u>
 

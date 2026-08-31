@@ -2,6 +2,7 @@
 title: "Vzájemná poloha přímek a rovin v prostoru"
 order: 1
 source: "matematika/TY0101 Vzájemná poloha přímek a rovin v prostoru.pdf"
+hasExercises: true
 ---
 O vzájemné poloze přímek v rovině jsme se již učili. Mohou nastat tři případy: 1. **různoběžné přímky** : nemají žádný společný bod
 

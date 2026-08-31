@@ -2,6 +2,7 @@
 title: "Analytická geometrie"
 order: 37
 source: "MATURITA HADR/Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/37) Analytická geometrie.pdf"
+hasExercises: true
 ---
 1)
 

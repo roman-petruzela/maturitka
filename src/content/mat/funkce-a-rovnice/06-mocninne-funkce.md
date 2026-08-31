@@ -2,6 +2,7 @@
 title: "Mocninné funkce"
 order: 6
 source: "matematika/TY01_0206_-_Mocninne_funkce.pptx"
+hasExercises: true
 ---
 Mocninné funkce
 
@@ -47,7 +48,9 @@ _f: y = x_<sup>_-5_</sup> _f: y = x_<sup>_-3_</sup> _f: y = x_<sup>_-1_</sup>
 
 _d)  n_ ... bude záporné sudé číslo př. _f: y = x_<sup>_-2_</sup> _= f: y = x_<sup>_-4_</sup> _f: y = x_<sup>_-6_</sup>
 
-**_pozn.:_** _grafy těchto funkcí nejsou definovaný pro x = 0; vždy to budou dvě hyperboly a proto potřebujeme minimálně šest bodů k sestrojení grafu_
+**_pozn.:_** _grafy těchto funkcí nejsou definovaný pro x = 0; vždy to budou_
+
+_dvě hyperboly a proto potřebujeme minimálně šest bodů k sestrojení grafu_
 
 _f: y = x_<sup>_-6_</sup>
 

@@ -2,6 +2,7 @@
 title: "Kvadratická funkce"
 order: 1
 source: "matematika/TY01_0201-Kvadraticka_funkce.pptx"
+hasExercises: true
 ---
 Kvadratická funkce
 
