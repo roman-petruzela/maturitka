@@ -1,4 +1,5 @@
 ---
+import Icon from './Icon.astro';
 // Client-side scratchpad for working through a math problem: a freehand
 // whiteboard for the actual work, and a MathLive field for the final
 // answer with proper notation (fractions, exponents, roots...). Purely a
@@ -20,16 +21,8 @@ const PEN_WIDTHS = [
 
 <section class="math-scratchpad" data-scratchpad>
 	<div class="scratchpad-head">
-		<span class="scratchpad-title">✎ Pracovní plocha</span>
-		<button type="button" class="scratchpad-clear" data-scratchpad-clear>Vymazat vše</button>
+		<span class="scratchpad-title"><Icon name="pencil" size={16} /> Pracovní plocha</span>
 	</div>
-
-	<input
-		type="text"
-		class="scratchpad-note"
-		data-scratchpad-note
-		placeholder="Co počítáš? (zadání, číslo úlohy… nepovinné)"
-	/>
 
 	<div class="whiteboard" data-whiteboard-root>
 		<div class="whiteboard-toolbar">
@@ -74,7 +67,7 @@ const PEN_WIDTHS = [
 					aria-haspopup="true"
 					aria-expanded="false"
 				>
-					📋 Zadání
+					<Icon name="clipboard" size={16} />
 				</button>
 				<div class="whiteboard-exercises-menu" data-whiteboard-exercises-menu hidden>
 					<p class="whiteboard-exercises-empty" data-whiteboard-exercises-empty>
@@ -89,7 +82,16 @@ const PEN_WIDTHS = [
 				title="Guma"
 				aria-label="Guma"
 			>
-				🧹
+				<Icon name="eraser" size={17} />
+			</button>
+			<button
+				type="button"
+				class="whiteboard-clear-toolbar"
+				data-whiteboard-clear-toolbar
+				title="Vymazat vše"
+				aria-label="Vymazat vše"
+			>
+				<Icon name="trash" size={17} />
 			</button>
 			<button
 				type="button"
@@ -98,7 +100,7 @@ const PEN_WIDTHS = [
 				title="Tabule na celou obrazovku"
 				aria-label="Tabule na celou obrazovku"
 			>
-				⛶
+				<Icon name="expand" size={17} />
 			</button>
 		</div>
 		<div class="whiteboard-canvas-wrap">
@@ -124,7 +126,7 @@ const PEN_WIDTHS = [
 			title="Klávesnice se zlomky, mocninami a odmocninami"
 			aria-label="Otevřít klávesnici se speciálními znaky"
 		>
-			⌨
+			<Icon name="keyboard" size={16} />
 		</button>
 	</div>
 </section>
@@ -142,16 +144,15 @@ const PEN_WIDTHS = [
 			const hint = section.querySelector<HTMLElement>('[data-whiteboard-hint]');
 			const fullscreenBtn = section.querySelector<HTMLButtonElement>('[data-whiteboard-fullscreen]');
 			const eraserBtn = section.querySelector<HTMLButtonElement>('[data-whiteboard-eraser]');
+			const clearToolbarBtn = section.querySelector<HTMLButtonElement>('[data-whiteboard-clear-toolbar]');
 			const resultField = section.querySelector('[data-scratchpad-result]') as
 				| (HTMLElement & { value: string; executeCommand?: (cmd: string) => void })
 				| null;
-			const noteField = section.querySelector('[data-scratchpad-note]') as HTMLInputElement | null;
-			const clearBtn = section.querySelector('[data-scratchpad-clear]') as HTMLButtonElement | null;
 			const keyboardBtn = section.querySelector('[data-scratchpad-keyboard]') as HTMLButtonElement | null;
-			if (!whiteboardRoot || !canvas || !canvasWrap || !resultField || !noteField) return;
+			if (!whiteboardRoot || !canvas || !canvasWrap || !resultField) return;
 
 			const base = `maturitka-scratchpad:${location.pathname}`;
-			const keys = { board: `${base}:board`, result: `${base}:result`, note: `${base}:note` };
+			const keys = { board: `${base}:board`, result: `${base}:result` };
 
 			const board = new Whiteboard(canvas, () => {
 				if (hint) hint.style.display = board.isEmpty() ? '' : 'none';
@@ -174,25 +175,22 @@ const PEN_WIDTHS = [
 
 			const savedResult = localStorage.getItem(keys.result);
 			if (savedResult) resultField.value = savedResult;
-			const savedNote = localStorage.getItem(keys.note);
-			if (savedNote) noteField.value = savedNote;
 
 			resultField.addEventListener('input', () => {
 				if (resultField.value) localStorage.setItem(keys.result, resultField.value);
 				else localStorage.removeItem(keys.result);
 			});
-			noteField.addEventListener('input', () => {
-				if (noteField.value) localStorage.setItem(keys.note, noteField.value);
-				else localStorage.removeItem(keys.note);
-			});
 
-			clearBtn?.addEventListener('click', () => {
+			const clearAll = () => {
 				board.clear();
 				resultField.value = '';
-				noteField.value = '';
 				localStorage.removeItem(keys.result);
-				localStorage.removeItem(keys.note);
-			});
+			};
+			// lives only inside the whiteboard toolbar (not the scratchpad
+			// header above it) because the Fullscreen API only renders the
+			// fullscreen element — a button living outside whiteboardRoot would
+			// become unreachable once the board is fullscreen
+			clearToolbarBtn?.addEventListener('click', clearAll);
 
 			// pen color/width toolbar
 			const colorButtons = section.querySelectorAll<HTMLButtonElement>('[data-whiteboard-color]');
@@ -354,54 +352,6 @@ const PEN_WIDTHS = [
 		color: var(--muted);
 	}
 
-	.scratchpad-clear {
-		font-family: inherit;
-		font-size: 0.8rem;
-		color: var(--muted);
-		background: none;
-		border: 1px solid var(--border);
-		border-radius: 6px;
-		padding: 0.25rem 0.65rem;
-		cursor: pointer;
-		transition: color 0.15s ease, border-color 0.15s ease;
-	}
-
-	.scratchpad-clear:hover {
-		color: var(--fg);
-		border-color: var(--accent);
-	}
-
-	.scratchpad-note {
-		display: block;
-		width: 100%;
-		font-family: ui-sans-serif, system-ui, sans-serif;
-		font-size: 0.9rem;
-		font-weight: 600;
-		color: #1f7a3d;
-		background: color-mix(in srgb, #1f7a3d 6%, var(--bg));
-		border: 1.5px solid color-mix(in srgb, #1f7a3d 45%, transparent);
-		border-radius: 8px;
-		padding: 0.55rem 0.8rem;
-		margin-bottom: 0.85rem;
-	}
-
-	.scratchpad-note::placeholder {
-		color: color-mix(in srgb, #1f7a3d 55%, var(--muted));
-		font-weight: 500;
-	}
-
-	.scratchpad-note:focus {
-		outline: none;
-		border-color: #1f7a3d;
-	}
-
-	@media (prefers-color-scheme: dark) {
-		.scratchpad-note {
-			color: #6fd699;
-			background: color-mix(in srgb, #1f7a3d 14%, var(--bg));
-		}
-	}
-
 	.whiteboard {
 		display: flex;
 		flex-direction: column;
@@ -474,6 +424,7 @@ const PEN_WIDTHS = [
 	}
 
 	.whiteboard-eraser,
+	.whiteboard-clear-toolbar,
 	.whiteboard-fullscreen {
 		width: 2rem;
 		height: 2rem;
@@ -551,6 +502,7 @@ const PEN_WIDTHS = [
 
 	.whiteboard-eraser:hover,
 	.whiteboard-eraser.is-active,
+	.whiteboard-clear-toolbar:hover,
 	.whiteboard-fullscreen:hover,
 	.whiteboard-fullscreen.is-active {
 		color: var(--accent);
@@ -580,7 +532,7 @@ const PEN_WIDTHS = [
 		display: block;
 		width: 100%;
 		height: 100%;
-		cursor: crosshair;
+		cursor: none;
 	}
 
 	.whiteboard-hint {

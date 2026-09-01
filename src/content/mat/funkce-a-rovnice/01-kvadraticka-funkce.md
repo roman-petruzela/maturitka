@@ -4,157 +4,120 @@ order: 1
 source: "matematika/TY01_0201-Kvadraticka_funkce.pptx"
 hasExercises: true
 ---
-Kvadratická funkce
 
-# Osnova
+> Pozn. k obsahu: Zdrojová prezentace používala animované odrážky a vzorce vložené jako obrázky, které se při prvním převodu ztratily. Text, vzorce a grafy jsou zde doplněné/rekonstruované.
 
-a) pojem kvadratická funkce b) graf a vlastnosti c) vrchol grafu kvadratické funkce a jeho určení d) působení koeficientu kvadratické funkce na graf e) ukázkové příklady f) příklady na procvičení včetně řešení
+## Osnova
 
-# Kvadratická funkce
+a) pojem kvadratická funkce, b) graf a vlastnosti, c) vrchol grafu kvadratické funkce a jeho určení, d) působení koeficientů kvadratické funkce na graf, e) ukázkové příklady, f) příklady na procvičení včetně řešení.
 
-• předpis kvadratické funkce _f:y = ax_<sup>_2_</sup> _+ bx + c ,   kde koeficienty a,b,c    R, a ≠ 0 ax_<sup>_2_</sup> _– kvadratický člen bx – lineární člen c – absolutní člen_
+## Kvadratická funkce
 
-**_pozn.:_** _pokud by se a = 0 nejde o kvadratickou funkci, ale o lineární_
+Předpis kvadratické funkce: $f: y = ax^2 + bx + c$, kde koeficienty $a, b, c \in \mathbb{R}$ a $a \neq 0$.
 
-• definiční obor D( _f_ ) = R (pokud není jinak zadáno) • obor hodnot H( _f_ ) – závisí na fci a definičním oboru
+- $ax^2$ — kvadratický člen
+- $bx$ — lineární člen
+- $c$ — absolutní člen
 
-# Graf a vlastnosti
+**Pozn.:** pokud by bylo $a = 0$, nejde o kvadratickou funkci, ale o lineární.
 
-- grafem kvadratické funkce je parabola
+Definiční obor $D(f) = \mathbb{R}$ (pokud není v úloze zadán jinak). Obor hodnot $H(f)$ závisí na konkrétní funkci (na koeficientech a definičním oboru).
 
-- • tvar paraboly závisí na koeficientu _a a > 0                                      a < 0_
+## Graf a vlastnosti
 
-- minimum x maximum (ve které hodnotě má funkce nejvyšší x nejnižší bod; určuje se na ose x; např. x = 2)
+Grafem kvadratické funkce je **parabola**. Tvar paraboly závisí na koeficientu $a$:
 
-- • omezenost zdola x shora (ve které hodnotě je funkce zeshora x zezdola omezená; určuje se na ose y; např. y = -3)
+```graph
+{ "fn": "x^2", "domain": [-3, 3], "title": "a > 0 — parabola otevřená nahoru (y = x²)" }
+```
 
-- • monotónnost (graf kvadratické funkce má dvě monotónnosti; někde graf roste a jinde klesá; bodem, kde se mění monotónnost je vrchol grafu)
+```graph
+{ "fn": "-(x^2)", "domain": [-3, 3], "title": "a < 0 — parabola otevřená dolů (y = −x²)" }
+```
 
-# Vrchol grafu a jeho určení
+- **Minimum / maximum** — hodnota, ve které má funkce nejnižší (resp. nejvyšší) bod; určuje se na ose x (např. „minimum v x = 2").
+- **Omezenost zdola / shora** — hodnota, ve které je funkce zdola (resp. shora) omezená; určuje se na ose y (např. „omezená zdola, y = −3").
+- **Monotónnost** — graf kvadratické funkce má vždy dva úseky monotónnosti: na jednom roste, na druhém klesá. Bodem, kde se monotónnost mění, je vrchol grafu.
 
-- vrchol grafu kvadratické funkce označujeme  V
+## Vrchol grafu a jeho určení
 
-- • je to bod, ve kterém se láme monotónnost na opačnou
+Vrchol grafu kvadratické funkce označujeme $V$ — je to bod, ve kterém se monotónnost láme na opačnou. Souřadnice vrcholu lze určit dvěma způsoby:
 
-- souřadnice vrcholu lze určit:
+**a) pomocí vzorce:**
 
-- a) pomocí vztahů:
+$$V = \left[-\frac{b}{2a};\ -\frac{D}{4a}\right], \quad D = b^2 - 4ac$$
 
-b) úpravou na čtverec: _f:y = (x + m)_<sup>_2_</sup> _+ n_  _V = [-m; n]_
+**b) úpravou na čtverec:** pokud $f: y = a(x + m)^2 + n$, pak $V = [-m; n]$.
 
-# ve Působení koeficientu _<u>a</u>_ funkci
+## Působení koeficientů na funkci
 
-funkce _f: y = ax_<sup>_2_</sup>
+- **koeficient $a$** (ve funkci $y = ax^2$): rozšiřuje či zužuje graf — čím větší $|a|$, tím je parabola „štíhlejší".
+- **koeficient $b$** (ve funkci $y = ax^2 + bx$): graf vždy prochází počátkem soustavy souřadnic $[0; 0]$, protože pro $x=0$ je $y=0$.
+- **koeficient $c$** (ve funkci $y = ax^2 + c$): posouvá celý graf $y=ax^2$ svisle — vrchol grafu se pohybuje po ose y.
 
-_koeficient a: rozšiřuje či zužuje graf_
+## Ukázkový příklad
 
-# ve Působení koeficientu _<u>b</u>_ funkci
+Sestrojte graf a určete vlastnosti funkce $f: y = -x^2 + 3x$.
 
-funkce _f: y = ax_<sup>_2_</sup> _+ bx_
+Určíme koeficienty: $a = -1,\ b = 3,\ c = 0$.
 
-_koeficient b: graf  vždy prochází středem soustavy os  [ 0; 0]_
+Vyřešíme souřadnice vrcholu (dosazením do vzorce): $V = \left[\dfrac{3}{2};\ \dfrac{9}{4}\right]$.
 
-# ve Působení koeficientu _<u>c</u>_ funkci
+Sestavíme tabulku (minimálně 3 body, ideálně kolem vrcholu):
 
-funkce _f: y = ax_<sup>_2_</sup> _+ c_
-
-_koeficient c: vrchol grafu se vždy pohybuje po ose y_
-
-### Ukázkový příklad: Sestrojte graf a určete vlastnosti funkce _f: y = -x_<sup>_2_</sup> _+ 3x_ .
-
-_a = - 1; b = 3; c = 0_ určíme koeficienty _a,_
-
-#### _b, c_
-
-#### vyřešíme souřadnice vrcholu
-
-V
-
-|x|- 1|0|3/2|3|4|
+| x | −1 | 0 | 3/2 | 3 | 4 |
 |---|---|---|---|---|---|
-|y|<sup>- </sup>4|0|9/4|0|- 4|
+| y | −4 | 0 | 9/4 | 0 | −4 |
 
-sestrojíme tabulku – minimálně 3 body
+```graph
+{ "fn": "-(x^2) + 3*x", "domain": [-1, 4], "title": "y = −x² + 3x", "points": [{"x": 1.5, "y": 2.25, "label": "V"}] }
+```
 
-## Ukázkový příklad:
+**Vlastnosti:** maximum v $x = \frac{3}{2}$ (hodnota $y=\frac94$), omezenost shora $y = \frac94$, monotónnost: funkce roste na $\left(-\infty; \frac32\right)$ a klesá na $\left(\frac32; +\infty\right)$.
 
-Vlastnosti: maximum: x = 3/2
+## Příklady na procvičení
 
-omezenost shora:  y = 9/4
+**Příklad 1:** Sestrojte graf a určete vlastnosti funkce $f: y = 2x^2 + 3$.
 
-monotónnost:
-
-- rostoucí - klesající
-
-# Příklady na procvičení
-
-př. 1:   Sestrojte graf a určete vlastnosti funkce _f: y = 2x_<sup>_2_</sup> _+ 3_ <u>Řešení</u>
-
-př. 2:   Sestrojte graf a určete vlastnosti funkce _f: y = x_<sup>_2_</sup> _– 2x – 6_ <u>Řešení</u>
-
-<u>přeskočit</u>
-
-## Příklad č.1:
-
-## Sestrojte graf a určete vlastnosti funkce _f: y = 2x_<sup>_2_</sup> _+_
-
-## _3_ .
-
-|x|- 2|- 1|0|1|2|
+| x | −2 | −1 | 0 | 1 | 2 |
 |---|---|---|---|---|---|
-|y|11|5|3|5|11|
+| y | 11 | 5 | 3 | 5 | 11 |
 
-## Příklad č.1:
+```graph
+{ "fn": "2*x^2 + 3", "domain": [-2, 2], "title": "y = 2x² + 3", "points": [{"x": 0, "y": 3, "label": "V"}], "spoiler": true, "float": "right" }
+```
 
-Vlastnosti: minimum: x = 0
+Výsledek:
 
-omezenost zdola:  y = 3
+- minimum: ||v x = 0, tedy y = 3||
+- omezenost: ||zdola, y = 3||
+- monotónnost: ||klesá na (−∞;0), roste na (0;+∞)||
 
-monotónnost:
+---
 
-- rostoucí - klesající
+**Příklad 2:** Sestrojte graf a určete vlastnosti funkce $f: y = x^2 - 2x - 6$.
 
-<u>zpět</u>
-
-## Příklad č.2:
-
-## Sestrojte graf a určete vlastnosti funkce _f: y = x_<sup>_2_</sup> _– 2x_
-
-_– 6_ .
-
-|x|- 2|- 1|1|1|2|
+| x | −1 | 0 | 1 | 2 | 3 |
 |---|---|---|---|---|---|
-|y|11|5|- 7|5|11|
+| y | −3 | −6 | −7 | −6 | −3 |
 
-## Příklad č.2:
+```graph
+{ "fn": "x^2 - 2*x - 6", "domain": [-1, 3], "title": "y = x² − 2x − 6", "points": [{"x": 1, "y": -7, "label": "V"}], "spoiler": true, "float": "right" }
+```
 
-Vlastnosti: minimum: x = 1 omezenost zdola:  y = - 7 monotónnost: - rostoucí - klesající
+Výsledek:
 
-<!-- Start of picture text -->
-zpět<br><!-- End of picture text -->
+- minimum: ||v x = 1, tedy y = −7||
+- omezenost: ||zdola, y = −7||
+- monotónnost: ||klesá na (−∞;1), roste na (1;+∞)||
 
-# Shrnutí
+## Shrnutí
 
-- předpis kvadratické funkce – _f: y = ax_<sup>_2_</sup> _+ bx + c_
+- Předpis kvadratické funkce: $f: y = ax^2 + bx + c$
+- Graf kvadratické funkce je parabola, jejíž tvar závisí na koeficientu $a$
+- Vrchol grafu kvadratické funkce lze určit vzorcem nebo úpravou na čtverec
+- Vlastnosti kvadratické funkce: maximum × minimum, omezenost shora × zdola, monotónnost rostoucí × klesající
 
-- graf kvadratické funkce – parabola
+## Zdroje
 
-- - tvar závisí na koeficientu _a_
-
-- vrchol grafu kvadratické funkce
-
-- vzorcem
-
-- úpravou na čtverec
-
-- vlastnosti kvadratické funkce
-
-- maximum   x   minimum
-
-- omezenost shora   x   zdola
-
-- monotónnost rostoucí   x   klesající
-
-# Zdroje
-
-• HUDCOVÁ, Milada a Libuše KUBIČÍKOVÁ. _Sbírka úloh z matematiky pro SOŠ, SOU a nástavbové studium_ . 2. vydání. Havlíčkův Brod: Prometheus, spol. s r.o., 2005. Učebnice pro střední školy. ISBN 80-7196-318-6
+HUDCOVÁ, Milada a Libuše KUBIČÍKOVÁ. _Sbírka úloh z matematiky pro SOŠ, SOU a nástavbové studium_. 2. vydání. Havlíčkův Brod: Prometheus, spol. s r.o., 2005. Učebnice pro střední školy. ISBN 80-7196-318-6

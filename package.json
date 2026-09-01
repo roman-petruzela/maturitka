@@ -13,8 +13,11 @@
     "convert:docx": "node scripts/convert-docx.mjs"
   },
   "dependencies": {
-    "astro": "^7.2.9",
-    "mathlive": "^0.110.0"
+    "@astrojs/markdown-remark": "^7.3.0",
+    "astro": "^7.2.10",
+    "hast-util-from-html-isomorphic": "^2.0.0",
+    "mathlive": "^0.110.0",
+    "unist-util-visit": "^5.1.0"
   },
   "devDependencies": {
     "@astrojs/check": "^0.9.10",

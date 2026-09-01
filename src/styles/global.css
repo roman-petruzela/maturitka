@@ -1,3 +1,5 @@
+@import 'mathlive/static.css';
+
 :root {
 	--bg: #fdfcfa;
 	--fg: #1c1a17;
@@ -22,6 +24,13 @@
 
 * {
 	box-sizing: border-box;
+}
+
+/* shared monochrome icon set (src/components/Icon.astro) — nudge down to
+   sit on the text baseline instead of the (taller) SVG box's own baseline */
+.icon {
+	vertical-align: -0.2em;
+	flex-shrink: 0;
 }
 
 html {
@@ -279,14 +288,195 @@ article.topic h2 {
 	margin-top: 2rem;
 	border-bottom: 1px solid var(--border);
 	padding-bottom: 0.3rem;
+	clear: both;
 }
 
 article.topic h3 {
 	margin-top: 1.5rem;
+	clear: both;
+}
+
+/* manual clear point inside a section (a plain "---") — h2/h3 already clear
+   floats, but a floated exercise graph can still be "active" when the next
+   exercise starts mid-section (bold "**Příklad 2:**" lead-in, not a
+   heading), which visually mixes the new exercise text into the previous
+   graph's margin */
+article.topic hr {
+	clear: both;
+	margin: 1.75rem 0;
+	border: none;
+	border-top: 1px solid var(--border);
 }
 
 article.topic p {
 	margin: 0.9rem 0;
+}
+
+/* statically-typeset formulas (rehype-math.ts, build-time via MathLive's SSR
+   renderer) — .ML__latex itself only sets sizing/layout, color/vertical
+   alignment against surrounding text needs to be set here */
+.math-inline {
+	color: var(--fg);
+	vertical-align: middle;
+}
+
+.math-display {
+	display: block;
+	margin: 1.1rem 0;
+	text-align: center;
+	color: var(--fg);
+}
+
+/* Discord-style "||spoiler||" (rehype-spoiler.ts) — toggled by the delegated
+   click/keydown listener in BaseLayout.astro */
+.spoiler {
+	background: var(--fg);
+	color: transparent;
+	border-radius: 0.25em;
+	padding: 0 0.15em;
+	cursor: pointer;
+	transition: background 0.15s;
+}
+
+.spoiler:hover {
+	background: var(--muted);
+}
+
+.spoiler.is-revealed {
+	background: var(--border);
+	color: var(--fg);
+	cursor: text;
+}
+
+/* block-level spoiler for graphs (graph-svg.ts's "spoiler": true) — a blur
+   still let the shape show through and gave the answer away, so this is a
+   fully opaque card instead (markup: figure + .spoiler-block-overlay,
+   generated together in graph-svg.ts so the pill label can be a real nested
+   element rather than ::after content, which can't have its own background) */
+.spoiler-block {
+	position: relative;
+	cursor: pointer;
+}
+
+.spoiler-block-overlay {
+	position: absolute;
+	inset: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: var(--card-bg);
+	border: 1px solid var(--border);
+	border-radius: 12px;
+}
+
+.spoiler-block-label {
+	padding: 0.65rem 1.25rem;
+	border-radius: 999px;
+	background: var(--fg);
+	color: var(--bg);
+	font-family: ui-sans-serif, system-ui, sans-serif;
+	font-size: 0.9rem;
+	font-weight: 600;
+}
+
+.spoiler-block.is-revealed {
+	cursor: default;
+}
+
+.spoiler-block.is-revealed .spoiler-block-overlay {
+	display: none;
+}
+
+/* build-time function/curve plots — src/lib/markdown/graph-svg.ts, used both
+   by GraphPlot.astro and the ```graph fenced-block rehype plugin */
+.graph-plot {
+	margin: 1.3rem 0;
+	text-align: center;
+}
+
+.graph-plot svg {
+	display: block;
+	margin: 0 auto;
+	max-width: 100%;
+	height: auto;
+	color: var(--accent);
+}
+
+.graph-plot .grid-line {
+	stroke: var(--border);
+	stroke-width: 1;
+}
+
+.graph-plot .axis-line {
+	stroke: var(--muted);
+	stroke-width: 1.4;
+}
+
+.graph-plot .tick-label,
+.graph-plot .axis-label {
+	fill: var(--muted);
+	font-size: 11px;
+	font-family: system-ui, sans-serif;
+}
+
+.graph-plot .axis-label {
+	font-style: italic;
+}
+
+.graph-plot .curve {
+	stroke: currentColor;
+	stroke-width: 2.2;
+	stroke-linecap: round;
+	stroke-linejoin: round;
+}
+
+.graph-plot .marker {
+	fill: currentColor;
+	stroke: var(--bg);
+	stroke-width: 1.5;
+}
+
+.graph-plot .marker-label {
+	fill: var(--fg);
+	font-size: 12px;
+	font-family: system-ui, sans-serif;
+}
+
+.graph-plot figcaption {
+	margin-top: -0.4rem;
+	color: var(--muted);
+	font-size: 0.9rem;
+}
+
+/* "float": "right"/"left" (graph-svg.ts) — lets a short "Výsledek:" list
+   right after the ```graph block in the source wrap beside the graph
+   instead of stacking under it. article.topic h2/h3 clear:both above stops
+   this from bleeding into the next section on a short list. Switches back
+   to normal stacked flow on narrow screens, where there's no room to spare
+   beside a graph. */
+.graph-plot--float-right,
+.spoiler-block--float-right {
+	float: right;
+	margin: 0 0 1rem 1.5rem;
+	max-width: min(58%, 440px);
+}
+
+.graph-plot--float-left,
+.spoiler-block--float-left {
+	float: left;
+	margin: 0 1.5rem 1rem 0;
+	max-width: min(58%, 440px);
+}
+
+@media (max-width: 640px) {
+	.graph-plot--float-right,
+	.graph-plot--float-left,
+	.spoiler-block--float-right,
+	.spoiler-block--float-left {
+		float: none;
+		max-width: 100%;
+		margin: 1.3rem 0;
+	}
 }
 
 /* dense nested bullet lists (this content is heavily "heslovité") need real
@@ -355,6 +545,35 @@ article.topic li::marker {
 .whiteboard-note.is-dragging {
 	cursor: grabbing;
 	box-shadow: 0 8px 18px rgba(0, 0, 0, 0.32);
+}
+
+/* pen/eraser brush-size indicator that follows the cursor over the canvas —
+   also created via document.createElement (see whiteboard.ts), same reason
+   as .whiteboard-note above for living here instead of a scoped <style> */
+.whiteboard-cursor {
+	position: absolute;
+	border-radius: 50%;
+	border: 1.5px solid var(--fg);
+	background: color-mix(in srgb, var(--fg) 8%, transparent);
+	transform: translate(-50%, -50%);
+	pointer-events: none;
+	z-index: 6;
+}
+
+.whiteboard-cursor.is-erase {
+	border: 1.5px dashed var(--accent);
+	background: color-mix(in srgb, var(--accent) 10%, transparent);
+}
+
+/* shown while a middle-click pan drag is pushing against the edge of the
+   pannable area — soft/wide on purpose, not a thin bright line, since it's
+   just "you can't go further this way", not an error */
+.whiteboard-canvas-wrap {
+	transition: box-shadow 0.15s;
+}
+
+.whiteboard-canvas-wrap.is-pan-limited {
+	box-shadow: inset 0 0 0 6px color-mix(in srgb, var(--muted) 30%, transparent);
 }
 
 .whiteboard-note-close {

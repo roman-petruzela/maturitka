@@ -4,137 +4,121 @@ order: 2
 source: "matematika/TY01_0202-Kvadraticka_rovnice.pptx"
 hasExercises: true
 ---
-Kvadratická rovnice
 
-# Osnova
+> Pozn. k obsahu: Zdrojová prezentace používala animované odrážky a vzorce vložené jako obrázky, které se při prvním převodu ztratily. Text a vzorce jsou zde doplněné/rekonstruované; u jednoho odvození (posun. příklad s (x+2)²−20=...) čísla v podkladu neseděla, nahrazeno ověřeným příkladem se stejným cílem (Vietovy vzorce).
 
-a) pojem kvadratická rovnice b) rozdělení kvadratických rovnic c) způsoby řešení d) ukázkové příklady e) příklady na procvičení včetně řešení
+## Osnova
 
-# Kvadratická rovnice
+a) pojem kvadratická rovnice, b) rozdělení kvadratických rovnic, c) způsoby řešení, d) ukázkové příklady, e) příklady na procvičení včetně řešení.
 
-• kvadratickou rovnici s neznámou _x_ nazýváme každou rovnici v obecném tvaru _ax_<sup>_2_</sup> _+ bx + c = 0 ,   kde koeficienty a,b,c    R, a ≠ 0_
+## Kvadratická rovnice
 
-_ax_<sup>_2_</sup> _– kvadratický člen bx – lineární člen c – absolutní člen_
+Kvadratickou rovnicí s neznámou $x$ nazýváme každou rovnici v obecném tvaru $ax^2 + bx + c = 0$, kde koeficienty $a, b, c \in \mathbb{R}$ a $a \neq 0$.
 
-**_pozn.:_** _pokud by se a = 0, nejde o kvadr. rovnici_
+- $ax^2$ — kvadratický člen
+- $bx$ — lineární člen
+- $c$ — absolutní člen
 
-**_pozn.:_** _Rovnice se stává kvadratickou až po určitých matematických úpravách. Nelze tedy hned ze zadání říci, zda-li se jedná o kvadratickou rovnici._
+**Pozn.:** pokud by bylo $a = 0$, nejde o kvadratickou rovnici.
 
-_Př. (2x-5)(x+4)=0_ (roznásobíme závorky) _2x_<sup>_2_</sup> _+8x-5x-20=0_ (sečteme či odečteme) _<u>2x2</u>_ _~~+~~ 3x-20=0_ →               dostali jsme kvadratickou rovnici
+**Pozn.:** rovnice se stává (ne)kvadratickou až po matematických úpravách — nelze to tedy poznat hned ze zadání.
 
-ALE!!!
+Př.: $(2x-5)(x+4)=0$ — roznásobíme závorky: $2x^2+8x-5x-20=0$, sečteme: $2x^2+3x-20=0$ → **dostali jsme kvadratickou rovnici**.
 
-_Př. (2x-5)(x+4)=2x_<sup>_2_</sup> _-4_ (roznásobíme závorky) _2x_<sup>_2_</sup> _+8x-5x-20= 2x_<sup>_2_</sup> _-4_ (sečteme či odečteme)
+Ale pozor — Př.: $(2x-5)(x+4)=2x^2-4$ — roznásobíme: $2x^2+8x-5x-20=2x^2-4$, členy s $x^2$ se na obou stranách odečtou: $8x-5x=20-4$, tedy $3x=16$ → **nejde o kvadratickou rovnici**, ale o lineární!
 
-_8x-5x=20-4_
+## Typy kvadratické rovnice
 
-_3x=16_ →            nejde o kvadratickou rovnici  ?????
+**Úplná kvadratická rovnice** má všechny tři členy: $ax^2 + bx + c = 0$.
 
-# Typy kvadratické rovnice
+**Neúplná kvadratická rovnice** — chybí jí absolutní nebo lineární člen (nebo oba):
 
-• úplná kvadratická rovnice:
+- $ax^2 + bx = 0$ (chybí absolutní člen)
+- $ax^2 + c = 0$ (chybí lineární člen)
+- $ax^2 = 0$ (chybí lineární i absolutní člen)
 
-_ax_<sup>_2_</sup> _+ bx + c = 0  (má všechny tři členy)_
+## Způsoby řešení — úplná kvadratická rovnice
 
-• neúplná kvadratická rovnice:
+**a) diskriminant a vzorec pro výpočet kořenů**
 
-_ax_<sup>_2_</sup> _+ bx = 0  (chybí absolutní člen) ax_<sup>_2_</sup> _+ c = 0  (chybí lineární člen) ax_<sup>_2_</sup> _= 0  (chybí lineární a absolutní člen)_
+$$D = b^2 - 4ac, \qquad x_{1,2} = \frac{-b \pm \sqrt{D}}{2a}$$
 
-Způsoby řešení kvadratické rovnice • úplná kvadratická rovnice a) diskriminant a vzorec pro výpočet kořenů kvadratické rovnice
+- $D > 0$ → dvě různá řešení
+- $D = 0$ → jeden dvojnásobný kořen
+- $D < 0$ → nemá řešení v oboru $\mathbb{R}$ (má řešení v oboru $\mathbb{C}$)
 
-**_pozn.:_** _D > 0 .... má dvě řešení; D = 0 .... jeden dvojnásobný kořen D < 0 .... nemá řešení v oboru R (má řešení v oboru C)_ b) Viètovy vzorce
+**b) Vietovy vzorce**
 
-_x1                      x1 .        c/a         +         - b/a x2                      x2_
+$$x_1 \cdot x_2 = \frac{c}{a}, \qquad x_1 + x_2 = -\frac{b}{a}$$
 
-**_pozn.:_** budeme používat, když bude mít rovnice _a = 1_ a _b,c_ Z
+Hledáme dvě čísla, jejichž součin je $c/a$ a součet $-b/a$.
 
-Ukázkový příklad: _(2x-5)(x+4)=0 2x_<sup>_2_</sup> _+8x-5x-20=0 2x_<sup>_2_</sup> _+3x-20=0_
+**Pozn.:** Vietovy vzorce se hodí hlavně tehdy, když má rovnice $a = 1$ a $b, c \in \mathbb{Z}$ — dvojice čísel se pak dá často uhodnout.
 
-_(nyní si vypíšeme hodnoty a, b, c)_
+### Ukázkový příklad (diskriminant)
 
-_a = 2 ; b = 3; c = -20_
+$(2x-5)(x+4)=0$ → $2x^2+8x-5x-20=0$ → $2x^2+3x-20=0$
 
-_(nepoužijeme Viètovy vzorce)_
+Vypíšeme koeficienty: $a=2,\ b=3,\ c=-20$ (Vietovy vzorce nepoužijeme, protože $a \neq 1$).
 
-Ukázkový příklad: (x + 2)<sup>2</sup> – 20 = (x + 4)<sup>2</sup> + (x + 8)<sup>2</sup>
+### Ukázkový příklad (Vietovy vzorce)
 
-x<sup>2</sup> + 4x + 4 – 20 = x<sup>2</sup> + 8x +16 + x<sup>2</sup> + 16x + 64
+Řešte rovnici $x^2 + 20x + 64 = 0$ pomocí Vietových vzorců.
 
-- x<sup>2</sup> – 20x – 64 = 0   / . (-1) _(vynásobíme -1 ať je a =_
+Hledáme dvě čísla, jejichž součin je $64$ a součet $-20$ — zkusíme kombinace dělitelů čísla 64 (např. 8 a 8, −8 a −8, 16 a 4, −16 a −4):
 
-_1)_
+$$x_1 = -16, \qquad x_2 = -4$$
 
-x<sup>2</sup> + 20x + 64 = 0
+Ověření: $(-16) \cdot (-4) = 64$ ✓ a $(-16) + (-4) = -20$ ✓.
 
-_(použijeme Viètovy vzorce )_
+## Příklady na procvičení (úplná rovnice)
 
-x1                     x1
+**Př. 1:** $2x^2 + 5x - 3 = 0$
 
-.     64           +     - 20 _(hledáme kombinací dvou čísel)_
+Výsledek:
 
-x2                     x2
+- koeficienty: ||a=2, b=5, c=−3||
+- diskriminant: ||D = 25+24 = 49, √D = 7||
+- kořeny: ||x₁ = (−5+7)/4 = 0,5, x₂ = (−5−7)/4 = −3||
 
-> <sup>_(třeba: 8 a 8; - 8 a – 8;  16 a 4; -16 a -4_</sup> _) x1 = - 16_
+**Př. 2:** $-3x^2 + 12x - 12 = 5x^2 + 10x - 13$
 
-_x2 = - 4           (pouze ty dvě čísla ale splňují oba Viètovy vzorce)_
+Výsledek:
 
-Příklady na procvičení př. 1:    2x<sup>2</sup> + 5x – 3 = 0 <u>Řešení</u> př. 2:   - 3x<sup>2</sup> + 12x – 12  = 5x<sup>2</sup> + 10x – 13 <u>Řešení</u> př. 3: Použijte Viètovy vzorce x<sup>2</sup> + 2x – 3 = 0 <u>Řešení</u> př. 4: Použijte Viètovy vzorce (x + 1)<sup>2</sup> = 16 <u>Řešení</u>
+- úprava: ||−8x² + 2x + 1 = 0, po vynásobení −1: 8x² − 2x − 1 = 0||
+- diskriminant: ||D = 4+32 = 36, √D = 6||
+- kořeny: ||x₁ = (2+6)/16 = 0,5, x₂ = (2−6)/16 = −0,25||
 
-<u>přeskočit</u>
+**Př. 3 (Vietovy vzorce):** $x^2 + 2x - 3 = 0$
 
-Řešení př. 1: 2x<sup>2</sup> + 5x – 3 = 0 _a_ = 2; _b_ = 5; _c_ = -3
+Výsledek: hledáme součin ||−3|| a součet ||−2|| → ||x₁ = 1, x₂ = −3||
 
-<!-- Start of picture text -->
-zpět<br><!-- End of picture text -->
+**Př. 4 (Vietovy vzorce):** $(x + 1)^2 = 16$
 
-Řešení př. 2: - 3x<sup>2</sup> + 12x – 12 = 5x<sup>2</sup> + 10x – 13 - 8x<sup>2</sup> + 2x + 1 = 0  / . (-1) 8x<sup>2</sup> – 2x – 1 = 0 _a_ = 8; _b_ = -2; _c_ = -1
+Výsledek: po úpravě ||x² + 2x − 15 = 0||, hledáme součin ||−15|| a součet ||−2|| → ||x₁ = −5, x₂ = 3||
 
-<u>zpět</u>
+## Způsoby řešení — neúplná kvadratická rovnice
 
-Řešení př. 3: x<sup>2</sup> + 2x – 3 = 0
+**a) diskriminant a vzorec pro kořeny** — stejně jako u úplné rovnice, jen některé koeficienty jsou nulové.
 
-x1                     x1 .       - 3        +       - 2 x2                     x2
+**b) vytýkání** — chybí-li absolutní člen ($ax^2+bx=0$), vytkneme $x$:
 
-_x1 = - 3_
+Př.: $x^2 + 3x = 0$ → $x(x+3)=0$ → $x_1 = 0$ nebo $x + 3 = 0 \Rightarrow x_2 = -3$
 
-_x2 =  1_
+Př.: $4x^2 - 11x = x(4-x)$ — roznásobíme a převedeme vše na levou stranu: $4x^2-11x-4x+x^2=0$ → $5x^2-15x=0$, vydělíme 5: $x^2-3x=0$ → $x(x-3)=0$ → $x_1=0,\ x_2=3$
 
-<u>zpět</u>
+**c) odmocnění** — chybí-li lineární člen ($ax^2+c=0$), osamostatníme $x^2$ a odmocníme:
 
-Řešení př. 4: (x + 1)<sup>2</sup> = 16 x<sup>2</sup> + 2x + 1 = 16 x<sup>2</sup> + 2x – 15 = 0
+Př.: $(x-2)^2 = 8-4x$ → $x^2-4x+4=8-4x$ → $x^2-4x+4-8+4x=0$ → $x^2-4=0$ → $x^2=4$ → $|x|=2$ → $x_1=2,\ x_2=-2$
 
-x1                     x1 .       - 15        +       - 2 x2                     x2 _x1 = - 5 x2 =  3_
+**Pozn.:** u rovnic typu $x^2 + c = 0$ s $c > 0$ lze rovnou říct, že nemá řešení v $\mathbb{R}$ (součet dvou nezáporných čísel nemůže být nula, pokud $c>0$).
 
-<u>zpět</u>
+## Shrnutí
 
-# Způsoby řešení kvadratické rovnice
+- Obecný tvar kvadratické rovnice: $ax^2 + bx + c = 0$
+- Typy: úplná × neúplná
+- Způsoby řešení: diskriminant a vzorec pro kořeny, Vietovy vzorce, vytýkání, odmocnění
 
-• neúplná kvadratická rovnice a) diskriminant a vzorec pro výpočet kořenů kvadr. rovnice b) vytýkání:  př. _x_<sup>_2_</sup> _+ 3x = 0 x(x + 3) = 0 x1 = 0                                        x + 3 = 0 x2 = -3_
+## Zdroje
 
-c)    odmocnění:  př.
-
-Řešení př. 1: 4x<sup>2</sup> – 11x = x(4 – x) 4x<sup>2</sup> – 11x = 4x – x<sup>2</sup> 4x<sup>2</sup> – 11x – 4x + x<sup>2</sup> = 0 5x<sup>2</sup> – 15x = 0     /: 5 x<sup>2</sup> – 3x = 0 x(x – 3) = 0 x1 = 0               x – 3 = 0 x2 = 3
-
-<u>zpět</u>
-
-Příklady na procvičení př. 1:  4x<sup>2</sup> – 11x = x(4 – x) <u>Řešení</u> př. 2:  (x – 2)<sup>2</sup> = 8 – 4x <u>Řešení</u>
-
-<u>přeskočit</u>
-
-Řešení př. 2: (x – 2)<sup>2</sup> = 8 – 4x x<sup>2</sup> – 4x + 4 = 8 – 4x x<sup>2</sup> – 4x + 4 – 8 + 4x = 0 x<sup>2</sup> - 4 = 0 x<sup>2</sup> = 4          / √ │x│ = 2 x1 = 2 x2 = - 2
-
-**pozn.:** v případě rovnic x<sup>2</sup> +  c = 0 můžeme rovnou říci  nemá řešení v R
-
-<u>zpět</u>
-
-# Shrnutí
-
-- obecný tvar kvadratické rovnice _ax_<sup>_2_</sup> _+ bx + c = 0_
-
-• typy kvadratické rovnice a) úplná b) neúplná
-
-• způsoby řešení a) diskriminant a vzorec pro kořeny b) Viètovy vzorce c) vytýkaní d) odmocnění
-
-# Zdroje
-
-• HUDCOVÁ, Milada a Libuše KUBIČÍKOVÁ. _Sbírka úloh z matematiky pro SOŠ, SOU a nástavbové studium_ . 2. vydání. Havlíčkův Brod: Prometheus, spol. s r.o., 2005. Učebnice pro střední školy. ISBN 80-7196-318-6
+HUDCOVÁ, Milada a Libuše KUBIČÍKOVÁ. _Sbírka úloh z matematiky pro SOŠ, SOU a nástavbové studium_. 2. vydání. Havlíčkův Brod: Prometheus, spol. s r.o., 2005. Učebnice pro střední školy. ISBN 80-7196-318-6

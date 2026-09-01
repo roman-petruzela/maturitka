@@ -34,7 +34,6 @@ Firma s.r.o.                                    Jan Novák
 Ulice 123                                        Jiná ulice 45
 100 00 Praha 10                                  200 00 Brno
 
-
 V Praze dne 15. 3. 2026
 
 Věc: Objednávka kancelářského materiálu

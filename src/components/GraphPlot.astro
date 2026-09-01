@@ -1,0 +1,19 @@
+---
+// Thin wrapper around ../lib/markdown/graph-svg.ts for use from .astro
+// pages/components with real JS closures. Content files (.md) use the
+// ```graph fenced-code-block form instead (see rehype-graph.ts) — MDX,
+// which would let a real <GraphPlot /> be embedded straight in content,
+// was tried first but its "{...}" = JS-expression syntax collides with
+// LaTeX's constant use of braces in prose ("\frac{a}{b}").
+import { renderGraphSvg, type GraphSpec } from '../lib/markdown/graph-svg';
+
+type Props = GraphSpec;
+
+const html = renderGraphSvg(Astro.props);
+---
+
+<Fragment set:html={html} />
+{/* .graph-plot CSS lives in global.css, not here — content files (.md) using
+   the ```graph fenced-block form render this same markup without ever
+   importing this component, so component-scoped/local CSS wouldn't reach
+   them. */}

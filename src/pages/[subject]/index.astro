@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import Icon from '../../components/Icon.astro';
 import { SUBJECTS, SUBJECT_KEYS, type SubjectKey } from '../../lib/subjects';
 import { groupLabel, groupOfId, sortEntriesByOrder, sortGroupKeys } from '../../lib/groups';
 import { getCollection } from 'astro:content';
@@ -56,7 +57,7 @@ const namedGroupKeys = orderedGroupKeys.filter((g): g is string => g !== null);
 								<span class="badge-group">
 									{entry.data.hasExercises && (
 										<span class="exercise-badge" title="Obsahuje úlohy na výpočet">
-											✎
+											<Icon name="pencil" size={13} />
 										</span>
 									)}
 									{entry.data.tags?.includes('doplněno') && (

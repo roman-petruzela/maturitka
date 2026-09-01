@@ -114,6 +114,26 @@ const { title, activeSubject, wide = false } = Astro.props;
 					},
 					{ passive: true }
 				);
+
+				// Discord-style spoilers: inline "||text||" (rehype-spoiler.ts,
+				// class "spoiler") and block-level graphs (graph-svg.ts's
+				// "spoiler": true, class "spoiler-block") share the same
+				// click/Enter/Space-to-toggle behaviour. Delegated on document so
+				// it works for spoilers on every page without a per-page script.
+				function toggleSpoiler(el) {
+					el.classList.toggle('is-revealed');
+				}
+				document.addEventListener('click', function (e) {
+					var el = e.target.closest && e.target.closest('.spoiler, .spoiler-block');
+					if (el) toggleSpoiler(el);
+				});
+				document.addEventListener('keydown', function (e) {
+					if (e.key !== 'Enter' && e.key !== ' ') return;
+					var el = e.target.closest && e.target.closest('.spoiler, .spoiler-block');
+					if (!el) return;
+					e.preventDefault();
+					toggleSpoiler(el);
+				});
 			})();
 		</script>
 	</body>

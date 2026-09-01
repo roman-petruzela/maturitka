@@ -1,6 +1,7 @@
 ---
 import type { SubjectKey } from '../lib/subjects';
 import type { FilmstripItem } from '../pages/[subject]/[...slug].astro';
+import Icon from './Icon.astro';
 
 interface Props {
 	subject: SubjectKey;
@@ -38,7 +39,7 @@ const { subject, items, currentIndex } = Astro.props;
 						<span class="filmstrip-card-num">{item.order ?? i + 1}</span>
 						{item.hasExercises && (
 							<span class="filmstrip-card-exercise" title="Obsahuje úlohy na výpočet">
-								✎
+								<Icon name="pencil" size={11} />
 							</span>
 						)}
 					</a>

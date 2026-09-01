@@ -44,8 +44,6 @@ source: "uvt/cv18-19_HDD_SSD.pdf"
 
 - SSHD  (Solid State Hard Drive)
 
-Vypracoval: Ing. Boleslav Martiník
-
 1/21
 
 Úvod do výpočetní techniky - UVT  - IT1
@@ -58,8 +56,6 @@ _Doplňte přenosové rychlosti různých rozhranní a technologií:_
 
 - SATA (ASATA)
 
-Vypracoval: Ing. Boleslav Martiník
-
 2/21
 
 Úvod do výpočetní techniky - UVT  - IT1
@@ -71,8 +67,6 @@ Vypracoval: Ing. Boleslav Martiník
 - NLSAS
 
 - USB
-
-Vypracoval: Ing. Boleslav Martiník
 
 3/21
 
@@ -102,8 +96,6 @@ Vytvořte tabulku verzí USB
 
    - PCI express Gen4 – 7450 / 7000 MB/s
 
-Vypracoval: Ing. Boleslav Martiník
-
 4/21
 
 Úvod do výpočetní techniky - UVT  - IT1
@@ -124,8 +116,6 @@ Vypracoval: Ing. Boleslav Martiník
 
 - U.3 - PCI express Gen4 – 7000 / 7000 MB/s
 
-Vypracoval: Ing. Boleslav Martiník
-
 5/21
 
 Úvod do výpočetní techniky - UVT  - IT1
@@ -145,8 +135,6 @@ Vypracoval: Ing. Boleslav Martiník
 - mSATA
 
 - M.2 – 2242, 2260, 2280 a 22110
-
-Vypracoval: Ing. Boleslav Martiník
 
 6/21
 
@@ -171,8 +159,6 @@ Vypracoval: Ing. Boleslav Martiník
 - 500 GB – pro OS
 
 - 1T … 7.68TB - pro data, první záloha (WD UltraStar DC SS300 VRI, 2,5" – 7,68TB – 9.1.2024)
-
-Vypracoval: Ing. Boleslav Martiník
 
 7/21
 
@@ -205,8 +191,6 @@ Vypracoval: Ing. Boleslav Martiník
 - SRV
 
 - NAS
-
-Vypracoval: Ing. Boleslav Martiník
 
 8/21
 
@@ -245,8 +229,6 @@ U LBA je délka adresy **28 bitů** , je tedy možné adresovat až **2**<sup>**
 
 U standardu ATA (konkrétně ATAPI-6, resp. ATA 100), který zavádí **48bitovou** LBA adresu, takže je možné adresovat až **128 PiB** (128 miliónů GB pro logické bloky velikosti 512 bajtů).
 
-Vypracoval: Ing. Boleslav Martiník
-
 9/21
 
 Úvod do výpočetní techniky - UVT  - IT1
@@ -266,8 +248,6 @@ bez NCQ s NCQ<br>3 3<br>2 2<br>4 4<br>1 1<br><!-- End of picture text -->
 
 Skládá se ze dvou hlavních částí:
 
-Vypracoval: Ing. Boleslav Martiník
-
 10/21
 
 Úvod do výpočetní techniky - UVT  - IT1
@@ -283,8 +263,6 @@ Vypracoval: Ing. Boleslav Martiník
 - a maximálně 128 primárních oddílů - Microsoft – 128 z toho 4 vyhrazené
 
 - velikost GPT je na disku s 512 B sektory 34×512 B = 16 KiB (první oddíl začíná na LBA 34)
-
-Vypracoval: Ing. Boleslav Martiník
 
 11/21
 
@@ -304,8 +282,6 @@ Rozdíl mezi BIOS a UEFI např. na http://www.servispckupka.cz/rozdil-mezi-bios-
 
 1. Díky míře abstrakce, kterou sebou přináší řízení logických disků, mohou při použití LVM nastat komplikace buď při najíždění systému, nebo v případě poškození dat. Řešení takové
 
-Vypracoval: Ing. Boleslav Martiník
-
 12/21
 
 Úvod do výpočetní techniky - UVT  - IT1
@@ -323,8 +299,6 @@ situace pak může být ještě komplikovanější, pokud je základní operačn
 **PATA** -
 
 **SATA** -
-
-Vypracoval: Ing. Boleslav Martiník
 
 13/21
 
@@ -354,8 +328,6 @@ Gparted (Linux Knoppix)
 - list disk
 
 - select disk 1
-
-Vypracoval: Ing. Boleslav Martiník
 
 14/21
 
@@ -401,8 +373,6 @@ Video: https://www.youtube.com/watch?v=11f2G5ryM_g nebo
 
 **JBOD a RAID 0 -** nepatří mezi skutečné fyzické zálohování; řetězení disků. Nevýhoda: v případě fyzického výpadku jednoho či více disků jsou data **_částečně nebo úplně ztracena_** .
 
-Vypracoval: Ing. Boleslav Martiník
-
 15/21
 
 Úvod do výpočetní techniky - UVT  - IT1
@@ -437,8 +407,6 @@ Slouží jen jako **záloha proti fyzickému výpadku disku** , nikoliv proti n�
 
 _Nevýhoda_ : nákladnost pořizování pole a nulový nárůst výkonu či kapacity.
 
-Vypracoval: Ing. Boleslav Martiník
-
 16/21
 
 Úvod do výpočetní techniky - UVT  - IT1
@@ -472,8 +440,6 @@ RAID 6
 <!-- Start of picture text -->
 A1 A2 A3 Ap Aq<br>B1 B2 Bp Bq B3<br>C1 Cp Cq C2 C3<br>Dp Dq D1 D2 D3<br>Eq E1 E2 E3 Ep<br>Disk 0 Disk 1 Disk 2 Disk 3 Disk 4<br><!-- End of picture text -->
 
-Vypracoval: Ing. Boleslav Martiník
-
 17/21
 
 Úvod do výpočetní techniky - UVT  - IT1
@@ -501,8 +467,6 @@ RAID 2, RAID 3, RAID 4, RAID 7
 
 Pro domácnosti je nejlepší možnost využívat dvě malé RAID pole, přičemž jedno je aktivně využíváno a další data jsou uložena na externím disku, který není trvale připojen k počítači a je chráněný před smazáním.
 
-Vypracoval: Ing. Boleslav Martiník
-
 18/21
 
 Úvod do výpočetní techniky - UVT  - IT1
@@ -523,8 +487,6 @@ Jak se nastavují RAID 0,1 prakticky?
 # **Citace**
 
 <u>http://www.servispckupka.cz/jak-opravit-bootloader-mbr-gpt-windows.php http://www.servispckupka.cz/jak_prevest_GPT_disk_na_MBR_disk.php</u>
-
-Vypracoval: Ing. Boleslav Martiník
 
 19/21
 
@@ -556,12 +518,8 @@ Wikipedie: Otevřená encyklopedie: Master boot record [online]. c2020 [citován
 
 <u>https://blog.desdelinux.net/cs/como-recuperar-espacio-en-disco-en-linux/</u>
 
-Vypracoval: Ing. Boleslav Martiník
-
 20/21
 
 Úvod do výpočetní techniky - UVT  - IT1
-
-Vypracoval: Ing. Boleslav Martiník
 
 21/21
