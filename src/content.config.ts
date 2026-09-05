@@ -17,14 +17,17 @@ const topicSchema = z.object({
 // Subjects are discovered from `src/content/*` directories rather than a
 // hardcoded key list — a folder's leading "NN-" prefix sets its order
 // (stripped to form the collection key/URL slug), see `lib/content-fs.ts`.
-const CONTENT_ROOT = path.resolve('./src/content');
+// Resolved from process.cwd() (the project root throughout Astro's build) —
+// see the comment in lib/subjects.ts for why import.meta.url is NOT safe
+// for this even though it would seem more robust at first glance.
+const CONTENT_ROOT = path.resolve(process.cwd(), 'src/content');
 const subjectDirs = listOrderedDirs(CONTENT_ROOT);
 
 export const collections = Object.fromEntries(
 	subjectDirs.map(({ dirName, slug }) => [
 		slug,
 		defineCollection({
-			loader: glob({ pattern: '**/*.md', base: `./src/content/${dirName}` }),
+			loader: glob({ pattern: '**/*.md', base: path.join(CONTENT_ROOT, dirName) }),
 			schema: topicSchema,
 		}),
 	])

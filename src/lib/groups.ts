@@ -7,8 +7,13 @@ import type { SubjectKey } from './subjects';
 // prefix sets its order, and its `_meta.json` supplies a display label when
 // the auto-capitalized slug isn't good enough. Reordering or relabeling a
 // subject's categories is then a filesystem change, not a code change.
-
-const CONTENT_ROOT = path.resolve('./src/content');
+//
+// Resolved from process.cwd() (the project root throughout Astro's build),
+// NOT import.meta.url — see the comment in subjects.ts for why: Astro's
+// static build relocates modules like this one into an internal
+// dist/.prerender/ staging copy before executing them, which silently
+// broke a `../content` resolved from import.meta.url.
+const CONTENT_ROOT = path.resolve(process.cwd(), 'src/content');
 
 // subject slug -> its real directory name on disk (e.g. "mat" -> "02-mat"),
 // needed to locate that subject's category subfolders.

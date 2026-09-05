@@ -15,7 +15,7 @@ const total = Object.values(counts).reduce((sum, n) => sum + n, 0);
 	<h1>MATURITKA</h1>
 	<p>
 		Přehledně poskládaný učební materiál z archivu maturitních podkladů — {total} témat
-		napříč čtyřmi předměty, další budou přibývat.
+		napříč {SUBJECT_KEYS.length} předměty, další budou přibývat.
 	</p>
 	<div class="subject-grid">
 		{
