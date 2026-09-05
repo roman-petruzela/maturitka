@@ -100,6 +100,16 @@ nav.subject-nav a.active {
 #search {
 	min-width: 220px;
 	flex: 1 1 220px;
+	/* Pagefind's default UI hardcodes a light theme via these custom
+	   properties (see pagefind-ui.css's :root block) — override them to
+	   follow the site's own light/dark palette instead of always showing
+	   a plain white box. */
+	--pagefind-ui-primary: var(--accent);
+	--pagefind-ui-text: var(--fg);
+	--pagefind-ui-background: var(--card-bg);
+	--pagefind-ui-border: var(--border);
+	--pagefind-ui-border-width: 1px;
+	--pagefind-ui-font: ui-sans-serif, system-ui, sans-serif;
 }
 
 main {
