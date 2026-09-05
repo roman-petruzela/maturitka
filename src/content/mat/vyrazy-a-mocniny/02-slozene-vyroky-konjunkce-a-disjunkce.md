@@ -4,73 +4,70 @@ order: 2
 source: "mat2/Složené výroky - konjunkce a disjunkce.pdf"
 hasExercises: true
 ---
-Složené výroky
 
-Složené výroky jsou tvořeny dvěma a více jednoduchými výroky. Zajímá nás, jak závisí pravdivost složeného výroku na pravdivosti výroků, z nichž je utvořen.
+**Složené výroky** jsou tvořeny dvěma a více jednoduchými výroky. Zajímá nás, jak závisí pravdivost složeného výroku na pravdivosti výroků, z nichž je utvořen. Nejdůležitější složené výroky jsou **konjunkce**, **disjunkce**, **implikace** a **ekvivalence** (poslední dvě viz [Implikace a ekvivalence](/mat/vyrazy-a-mocniny/05-implikace-a-ekvivalence/)).
 
-Nejdůležitější složené výroky:
+## Konjunkce
 
-1) Konjunkce 2) Disjunkce 3) Implikace
+**Konjunkce** libovolných výroků $a$, $b$ je výrok, který vznikne jejich spojením spojkou *a*. Zapisujeme $a\land b$, čteme "$a$ a zároveň $b$".
 
-4) Ekvivalence
+**Příklad:** $a$: Číslo 5 je prvočíslo. $b$: Číslo 5 je sudé. $c$: Číslo 5 je liché. $d$: Číslo 5 je záporné.
 
-Konjunkce libovolných výroků 𝑎, 𝑏 je výrok, který vznikne jejich spojením spojkou a. Konjunkci výroků 𝑎, 𝑏 zapisujeme jako 𝑎˄𝑏 a čteme „ 𝑎 a zároveň 𝑏 “.
+$a\land d$: "Číslo 5 je prvočíslo a zároveň je záporné."
 
-Př.:
+Určete pravdivost výroků $a\land c$, $b\land c$, $b\land d$.
 
-𝑎: Číslo 5 je prvočíslo. 𝑏 : Číslo 5 je sudé. 𝑐 : Číslo 5 je liché. 𝑑 : Číslo 5 je záporné.
+Výsledek: ||a=pravdivý, b=nepravdivý, c=pravdivý, d=nepravdivý; a∧c: "prvočíslo a zároveň liché" → pravdivý (T∧T); b∧c: "sudé a zároveň liché" → nepravdivý (F∧T); b∧d: "sudé a zároveň záporné" → nepravdivý (F∧F); (mimochodem i a∧d ze zadání je nepravdivý: T∧F)||
 
-𝑎˄𝑑: Číslo 5 je prvočíslo a zároveň je záporné.
+Konjunkce výroků $a$, $b$ je **pravdivá** právě tehdy, když jsou pravdivé **oba** výroky $a$, $b$. Je nepravdivá, pokud je alespoň jeden z nich nepravdivý.
 
-𝑎˄𝑐 : 𝑏˄𝑐 : 𝑏˄𝑑 :
+## Disjunkce
 
-Určete pravdivost těchto výroků.
+**Disjunkce** libovolných výroků $a$, $b$ je výrok, který vznikne jejich spojením spojkou *nebo*. Zapisujeme $a\lor b$, čteme "$a$ nebo $b$".
 
-Konjunkce libovolných výroků 𝑎, 𝑏 je pravdivá právě tehdy, když jsou pravdivé oba výroky 𝑎, 𝑏 .
+**Příklad:** (stejné výroky $a,b,c,d$ jako výše) $a\lor d$: "Číslo 5 je prvočíslo nebo je záporné."
 
-Konjunkce je nepravdivá, pokud alespoň jeden z výroků 𝑎, 𝑏 je nepravdivý.
+Určete pravdivost výroků $a\lor c$, $b\lor c$, $b\lor d$.
 
-Disjunkce libovolných výroků 𝑎, 𝑏 je výrok, který vznikne jejich spojením spojkou nebo. Disjunkci výroků 𝑎, 𝑏 zapisujeme 𝑎˅𝑏 a čteme „a nebo b“.
+Výsledek: ||a∨c: "prvočíslo nebo liché" → pravdivý (T∨T); b∨c: "sudé nebo liché" → pravdivý (F∨T); b∨d: "sudé nebo záporné" → nepravdivý (F∨F); (a∨d ze zadání je pravdivý: T∨F)||
 
-Př.: 𝑎: Číslo 5 je prvočíslo. 𝑏 : Číslo 5 je sudé. 𝑐 : Číslo 5 je liché. 𝑑 : Číslo 5 je záporné.
+Disjunkce výroků $a$, $b$ je **pravdivá** právě tehdy, když je pravdivý **alespoň jeden** z výroků $a$, $b$. Je nepravdivá, jen když jsou nepravdivé oba dva.
 
-𝑎˅𝑑: Číslo 5 je prvočíslo nebo je záporné.
+## Tabulka pravdivostních hodnot
 
-𝑎˅𝑐 : 𝑏˅𝑐 : 𝑏˅𝑑 : Určete pravdivost těchto výroků.
+Pravdivost složeného výroku závisí na pravdivosti výroků, ze kterých je tvořen — vyjadřujeme ji **tabulkou pravdivostních hodnot**, kde $1$ značí pravdivý výrok a $0$ nepravdivý.
 
-Disjunkce libovolných výroků 𝑎, 𝑏 je pravdivá právě tehdy, když je alespoň jeden z výroků 𝑎, 𝑏 pravdivý.
+Negace $\neg a$:
 
-Disjunkce libovolných výroků 𝑎, 𝑏 je nepravdivá, jsou-li nepravdivé oba dva výroky 𝑎, 𝑏 .
+| $a$ | $\neg a$ |
+|---|---|
+| 1 | 0 |
+| 0 | 1 |
 
-Pravdivost složeného výroku závisí na pravdivosti výroků, ze kterých je tvořen. Při určení této pravdivosti využíváme tabulku pravdivostních hodnot. V této tabulce se pravdivost výroku označuje 1 (jeho pravdivostní hodnota je rovna 1), a nepravdivost 0 (jeho pravdivostní hodnota je rovna 0).
+Konjunkce $a\land b$ a disjunkce $a\lor b$:
 
-Tabulka pravdivostních hodnot pro negaci ¬𝑎 :
-
-|𝑎 ¬𝑎|
-|---|
-|1<br>0|
-|0<br>1|
-
-Tabulka pravdivostních hodnot pro konjunkci 𝑎˄𝑏 a disjunkci 𝑎˅𝑏 :
-
-|𝑎|𝑏|𝑎˄𝑏|𝑎˅𝑏|
+| $a$ | $b$ | $a\land b$ | $a\lor b$ |
 |---|---|---|---|
-|1|1|1|1|
-|1|0|0|1|
-|0|1|0|1|
-|0|0|0|0|
+| 1 | 1 | 1 | 1 |
+| 1 | 0 | 0 | 1 |
+| 0 | 1 | 0 | 1 |
+| 0 | 0 | 0 | 0 |
 
-V prvních dvou sloupcích jsou všechny možnosti, které mohou nastat. Další sloupce pak vyjadřují pravdivostní hodnotu daného složeného výroku.
+V prvních dvou sloupcích jsou všechny možné kombinace pravdivosti $a$, $b$; další sloupce vyjadřují pravdivostní hodnotu daného složeného výroku pro každou kombinaci.
 
-Př.: Vyšetřete pravdivost výroku (¬𝑎˅𝑏)˄𝑎 .
+**Příklad:** Vyšetřete pravdivost výroku $(\neg a\lor b)\land a$.
 
-Pozn.: ¬𝑎˅𝑏= (¬𝑎)˅𝑏 , nikoliv ¬(𝑎˅𝑏) !
+**Pozn.:** $\neg a\lor b = (\neg a)\lor b$, nikoliv $\neg(a\lor b)$ — negace se vztahuje jen k $a$.
 
-|𝑎|𝑏|¬𝑎|¬𝑎˅𝑏|(¬𝑎˅𝑏)˄𝑎|
+| $a$ | $b$ | $\neg a$ | $\neg a\lor b$ | $(\neg a\lor b)\land a$ |
 |---|---|---|---|---|
-|1|1|0|1|1|
-|1|0|0|0|0|
-|0|1|1|1|0|
-|0|0|1|1|0|
+| 1 | 1 | 0 | 1 | 1 |
+| 1 | 0 | 0 | 0 | 0 |
+| 0 | 1 | 1 | 1 | 0 |
+| 0 | 0 | 1 | 1 | 0 |
 
-Výrok (¬𝑎˅𝑏)˄𝑎 je pravdivý právě tehdy, když jsou pravdivé oba výroky 𝑎, 𝑏 .
+Výrok $(\neg a\lor b)\land a$ je pravdivý právě tehdy, když jsou pravdivé oba výroky $a$, $b$ (poslední sloupec vychází 1 jen na prvním řádku) — je tedy logicky ekvivalentní s $a\land b$.
+
+## Zdroje
+
+Zdrojový dokument: *mat2/Složené výroky - konjunkce a disjunkce.pdf*

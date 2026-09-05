@@ -4,30 +4,53 @@ order: 10
 source: "matematika/TY0110 Kulová výseč, kulová vrstva a kulový pás.pdf"
 hasExercises: true
 ---
-**Kulová výseč, kulová vrstva a kulový pás**
 
-# **Kulová výseč**
+> Pozn. k obsahu: Vzorce v PDF byly vysázené jako obrázky (unicode symboly), přepsané zde do LaTeXu. Vzorec pro objem kulové vrstvy v PDF zcela chyběl (nadpis bez textu) — doplněn standardním vzorcem, zpětně ověřeným na příkladu 3. Výsledky úkolů (kde byly v PDF uvedeny) ověřeny přepočtem, souhlasí.
 
-Kulová výseč je prostorové těleso, které vznikne sjednocením kulové úseče a rotačního kužele, který má s kulovou úsečí společnou kruhovou podstavu a jeho vrchol je středem příslušné koule. Hranicí je plášť kužele a kulový vrchlík. Poloměr kruhové podstavy kužele a vrchlíku opět značíme 𝝆. Výšku kulového vrchlíku, který je součástí výseče značíme 𝒗. 𝟐 Objem kruhové výseče vypočteme pomocí vzorce 𝑽= ∙𝝅∙𝒓<sup>𝟐</sup> ∙𝒗. Povrch kruhové výseče 𝟑 vypočteme pomocí vzorců pro výpočet povrchu kulového vrchlíku a pláště kužele.
+## Kulová výseč
 
-# **Kulová vrstva**
+**Kulová výseč** je prostorové těleso, které vznikne sjednocením kulové úseče a rotačního kužele — kužel má s kulovou úsečí společnou kruhovou podstavu (poloměr $\rho$) a jeho vrchol je ve středu příslušné koule. Hranicí tělesa je plášť tohoto kužele a kulový vrchlík.
 
-Kulová vrstva je prostorové těleso, které vznikne průnikem koule se dvěma rovnoběžnými rovinami, jejichž vzdálenosti od středu jsou menší než poloměr koule. Průsečnicemi dvou rovin s koulí jsou dvě kruhové podstavy, jejich poloměry budeme značit 𝝆𝟏 a 𝝆𝟐. Vzdálenosti těchto dvou kruhových postav budeme říkat výška a značit jí 𝒗. Objem kulové vrstvy
+$$V = \frac23 \pi r^2 v$$
 
-# **Kulový pás**
+kde $r$ je poloměr koule a $v$ výška kulového vrchlíku, který je součástí výseče. Povrch kulové výseče se skládá z povrchu kulového vrchlíku ($S=2\pi r v$, viz [Koule, kulová plocha, kulová úseč a kulový vrchlík](/mat/stereometrie/09-koule-kulova-plocha-kulova-usec-a-kulovy-vrchlik/)) a pláště kužele ($S_{pl}=\pi\rho r$, protože stranou tohoto kužele je vždy poloměr koule $r$).
 
-Kulový pás je prostorová plocha, která vznikne průnikem kulové plochy se dvěma rovnoběžnými rovinami, jejichž vzdálenosti od středu jsou menší než poloměr kulové plochy. Průsečnicemi dvou rovin s kulovou plochou jsou dvě kružnice, jejich poloměry budeme značit 𝝆𝟏 a 𝝆𝟐. Výšku kulového pásu značíme opět 𝒗. Povrch kulového pásu vypočteme pomocí vzorce 𝑺= 𝟐∙𝝅∙𝒓∙𝒗, kde 𝒓 je poloměr původní koule.
+## Kulová vrstva
 
-# **Úkoly:**
+**Kulová vrstva** je prostorové těleso, které vznikne průnikem koule se dvěma rovnoběžnými rovinami ve vzdálenosti menší než poloměr koule od jejího středu. Průsečnicemi obou rovin s koulí jsou dvě kruhové podstavy o poloměrech $\rho_1$ a $\rho_2$; vzdálenost mezi nimi (výšku vrstvy) značíme $v$.
 
-1. V programu Cabri narýsujte kouli o poloměru 7 cm. Tuto kouli protněte rovinou ve vzdálenosti 4 cm od středu koule. Pomocí průsečnice (protnutí koule a roviny) a středu koule narýsujte plášť kužele, který bude součástí kulové výseče. Vypočtěte povrch tohoto pláště a výsledek ověřte v programu Cabri.
+$$V = \frac{\pi v}{6}\left(3\rho_1^2 + 3\rho_2^2 + v^2\right)$$
 
-2. V programu Cabri narýsujte kouli o poloměru 6 cm. Tuto kouli protněte dvěma rovnoběžnými rovinami ve vzdálenostech 3 cm a 4 cm od středu koule. Vzniknou nám 2 kruhové podstavy kulové vrstvy. Vypočtěte velikost poloměrů těchto podstav. Výsledek ověřte programem Cabri.
+## Kulový pás
 
-# **Příklady:**
+**Kulový pás** je prostorová plocha (jen povrch, ne vnitřek), která vznikne průnikem kulové plochy se dvěma rovnoběžnými rovinami ve vzdálenosti menší než poloměr od středu. Průsečnicemi jsou opět dvě kružnice o poloměrech $\rho_1$, $\rho_2$, výšku pásu značíme $v$.
 
-1. Vypočtěte povrch kulového pásu, který vznikne z kulové plochy o poloměru 𝑟= 5 𝑐𝑚. Poloměry kružnic, v nichž rovnoběžné roviny protínají kulovou plochu, jsou 𝜌1 = 4 𝑐𝑚 a 𝜌2 = 3 𝑐𝑚. [𝑆= 10𝜋 𝑐𝑚<sup>2</sup> ]
+$$S = 2\pi r v$$
 
-2. Vypočtěte objem kulové výseče, má-li kulová úseč, která je částí výseče, poloměr podstavy 6 cm a výšku 2 cm. [𝑉= 418,879 𝑐𝑚<sup>3</sup> ]
+kde $r$ je poloměr původní koule — stejně jako u kulového vrchlíku závisí povrch jen na $r$ a $v$, ne na poloměrech kružnic.
 
-3. Vypočtěte objem kulové vrstvy, mají-li podstavy poloměry 8 cm a 6 cm a poloměr koule je 10 cm. [𝑉= 304 𝜋 𝑐𝑚<sup>3</sup> ] 3
+**Pozor:** je-li dvojice rovin na **opačných stranách** středu koule, sčítají se jejich vzdálenosti od středu ($v=d_1+d_2$); jsou-li na **stejné straně**, výška je jejich rozdíl ($v=|d_1-d_2|$).
+
+## Úkoly (interaktivní, Cabri 3D)
+
+1. V programu Cabri narýsujte kouli o poloměru $7\text{ cm}$. Tuto kouli protněte rovinou ve vzdálenosti $4\text{ cm}$ od středu koule. Pomocí průsečnice (protnutí koule a roviny) a středu koule narýsujte plášť kužele, který bude součástí kulové výseče. Vypočtěte povrch tohoto pláště a výsledek ověřte v programu Cabri.
+
+   Výsledek: ||v = r-d = 7-4 = 3cm; ρ²=v(2r-v)=3·(14-3)=33 → ρ≈5,745cm; plášť kužele má stranu rovnou poloměru koule r=7cm, S_pl=πρr≈π·5,745·7≈126,35 cm²||
+
+2. V programu Cabri narýsujte kouli o poloměru $6\text{ cm}$. Tuto kouli protněte dvěma rovnoběžnými rovinami ve vzdálenostech $3\text{ cm}$ a $4\text{ cm}$ od středu koule. Vzniknou nám 2 kruhové podstavy kulové vrstvy. Vypočtěte velikost poloměrů těchto podstav. Výsledek ověřte programem Cabri.
+
+   Výsledek: ||ρ₁=√(r²-d₁²)=√(36-9)=√27≈5,196cm; ρ₂=√(r²-d₂²)=√(36-16)=√20≈4,472cm||
+
+## Příklady
+
+**1.** Vypočtěte povrch kulového pásu, který vznikne z kulové plochy o poloměru $r=5\text{ cm}$. Poloměry kružnic, v nichž rovnoběžné roviny protínají kulovou plochu, jsou $\rho_1=4\text{ cm}$ a $\rho_2=3\text{ cm}$.
+
+Výsledek: ||d₁=√(r²-ρ₁²)=√(25-16)=3cm; d₂=√(r²-ρ₂²)=√(25-9)=4cm; roviny na stejné straně středu (obě kružnice menší než "rovník"): v=|d₁-d₂|=1cm; S=2πrv=2π·5·1=10π ≈ 31,42 cm²||
+
+**2.** Vypočtěte objem kulové výseče, má-li kulová úseč, která je částí výseče, poloměr podstavy $6\text{ cm}$ a výšku $2\text{ cm}$.
+
+Výsledek: ||nejprve poloměr koule z ρ²=v(2r-v): 36=2(2r-2) → r=10cm; V=(2/3)πr²v=(2/3)π·100·2=(400/3)π ≈ 418,879 cm³||
+
+**3.** Vypočtěte objem kulové vrstvy, mají-li podstavy poloměry $8\text{ cm}$ a $6\text{ cm}$ a poloměr koule je $10\text{ cm}$.
+
+Výsledek: ||d₁=√(r²-ρ₁²)=√(100-64)=6cm; d₂=√(r²-ρ₂²)=√(100-36)=8cm; roviny na stejné straně: v=|d₁-d₂|=2cm; V=(πv/6)(3ρ₁²+3ρ₂²+v²)=(2π/6)(192+108+4)=(2π/6)·304=(304/3)π ≈ 318,35 cm³||

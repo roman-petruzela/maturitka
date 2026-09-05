@@ -4,20 +4,38 @@ order: 7
 source: "matematika/TY0107 Komolý jehlan.pdf"
 hasExercises: true
 ---
-Komolý jehlan je část jehlanu, která leží mezi dvěma rovnoběžnými rovinami (podstavami) procházejícími tímto jehlanem. Velmi zjednodušeně řečeno je to jehlan s uříznutým „vrškem“. Komolý jehlan se skládá ze dvou podstav a pláště, který tvoří n lichoběžníků. Vzdálenost dvou rovnoběžných podstav jehlanu nazýváme tělesová výška a značíme 𝒗. Vzdálenost hrany dolní podstavy od hrany horní podstavy ležící ve stejné stěně nazýváme stěnová výška a značíme 𝒔.
 
-𝟏 Objem komolého jehlanu spočítáme pomocí vzorce 𝑽= 𝟑 ∙𝒗∙(𝑺𝑷𝟏 + 𝑺𝑷𝟐 + √𝑺𝑷𝟏 ∙𝑺𝑷𝟐) , kde 𝑺𝑷𝟏 a 𝑺𝑷𝟐 jsou obsahy podstav. Povrch komolého jehlanu spočítáme tak, že sečteme obsahy podstav a obsah pláště, tedy 𝑺= 𝑺𝑷𝟏 + 𝑺𝑷𝟐 + 𝑺𝑷𝒍. Protože plášť komolého jehlanu je (𝒂+𝒄)∙𝒗 tvořen lichoběžníky, připoměňme si vzorec pro výpočet obsahu lichoběžníku 𝑺= ~~.~~ 𝟐 **Pozor nepleťte si tělesovou výšku jehlanu s výškou lichoběžníku !!!**
+> Pozn. k obsahu: Vzorce v PDF byly vysázené jako obrázky (unicode symboly), přepsané zde do LaTeXu; výsledky úkolů (ověřeny přepočtem) do spoilerů. U příkladu 2 dochovaný výsledek odpovídal jen obsahu pláště (bez podstavy) — zadání zřejmě popisovalo nádobu bez pevného dna (např. násypku), počítáno tak. Nadpis příkladu 3 v PDF chybně uváděl "jehlan" místo "komolý jehlan" (zadání má dvě různé podstavné hrany) — opraveno.
 
-# **Úkoly:**
+**Komolý jehlan** je část jehlanu ležící mezi dvěma rovnoběžnými rovinami (podstavami) procházejícími tímto jehlanem — zjednodušeně jehlan s uříznutým „vrškem". Skládá se ze dvou (nestejně velkých) podstav a pláště tvořeného $n$ lichoběžníky.
 
-1. Otevřte soubor **komoly_jehlan_sit.cg3,** síť tělesa rozložte do roviny a poté složte zpátky.
+Vzdálenost dvou rovnoběžných podstav nazýváme **tělesová výška** ($v$). Vzdálenost hrany dolní podstavy od hrany horní podstavy ležící ve stejné stěně nazýváme **stěnová výška** ($s$) — je to výška bočního lichoběžníku, nezaměňovat s tělesovou výškou!
 
-2. Pomocí programu Cabri nakreslete pravidelný čtyřboký komolý jehlan o délce strany dolní podstavy 𝑎1 = 8 𝑐𝑚, délce strany horní podstavy 𝑎2 = 2 𝑐𝑚 a výšce 𝑣= 4 𝑐𝑚. Vyznačte tělesovou výšku 𝑣 a stěnovou výšku 𝑠. Vypočtěte délku stěnové výšky 𝑠, objem 𝑉 a povrch 𝑆. Své výsledky ověřte pomocí programu Cabri.
+$$V = \frac{v}{3}\left(S_{P1} + S_{P2} + \sqrt{S_{P1}\cdot S_{P2}}\right)$$
 
-# **Příklady:**
+kde $S_{P1}$, $S_{P2}$ jsou obsahy podstav.
 
-1. Vypočtěte povrch podstavce ve tvaru pravidelného čtyřbokého komolého jehlanu, jehož tělesová výška je1,2 𝑑𝑚 a podstavy mají délky hran 2 𝑑𝑚 a 1 𝑑𝑚.   [𝑆= 12,8 𝑑𝑚<sup>2</sup> ]
+$$S = S_{P1} + S_{P2} + S_{pl}$$
 
-2. Nahoře otevřená nádoba má tvar pravidelného čtyřbokého komolého jehlanu. Délka hrany horní podstavy je 22 𝑐𝑚, délka hrany dolní podstavy je 10 𝑐𝑚 a tělesová výška nádoby je 8 𝑐𝑚. Vypočtěte hmotnost nádoby, víte-li, že 1 𝑚<sup>2</sup> materiálu, ze kterého je vyrobena má hmotnost 8 𝑘𝑔.   [𝑚= 0,512 𝑘𝑔)]
+Plášť tvoří lichoběžníky (obsah lichoběžníku se základnami $a$, $c$ a výškou $v_{lich}$ je $S=\frac{(a+c)}{2}\cdot v_{lich}$) — u pravidelného čtyřbokého komolého jehlanu s hranami podstav $a_1$, $a_2$ a stěnovou výškou $s$:
 
-3. Vypočtěte povrch a objem pravidelného čtyřbokého jehlanu, je-li hrana dolní podstavy 18 cm a hrana horní podstavy 15 cm. Stěnová výška je 9 cm. [𝑆= 1143 𝑐𝑚<sup>2</sup> , 𝑉= 2421,51 𝑐𝑚<sup>3</sup> ]
+$$S_{pl} = 4\cdot\frac{a_1+a_2}{2}\cdot s = 2(a_1+a_2)s$$
+
+## Úkoly (interaktivní, Cabri 3D)
+
+1. Otevřete soubor *komoly_jehlan_sit.cg3*, síť tělesa rozložte do roviny a poté složte zpátky.
+2. Pomocí programu Cabri nakreslete pravidelný čtyřboký komolý jehlan o délce strany dolní podstavy $a_1=8\text{ cm}$, délce strany horní podstavy $a_2=2\text{ cm}$ a výšce $v=4\text{ cm}$. Vyznačte tělesovou výšku $v$ a stěnovou výšku $s$. Vypočtěte délku stěnové výšky $s$, objem $V$ a povrch $S$. Své výsledky ověřte pomocí programu Cabri.
+
+## Příklady
+
+**1.** Vypočtěte povrch podstavce ve tvaru pravidelného čtyřbokého komolého jehlanu, jehož tělesová výška je $1{,}2\text{ dm}$ a podstavy mají délky hran $2\text{ dm}$ a $1\text{ dm}$.
+
+Výsledek: ||s²=v²+((a₁-a₂)/2)²=1,44+0,25=1,69 → s=1,3dm; S_p1=4, S_p2=1; S_pl=2(a₁+a₂)s=2·3·1,3=7,8dm²; S=4+1+7,8=12,8 dm²||
+
+**2.** Nahoře otevřená nádoba (bez dna) má tvar pravidelného čtyřbokého komolého jehlanu. Délka hrany horní podstavy je $22\text{ cm}$, délka hrany dolní podstavy je $10\text{ cm}$ a tělesová výška nádoby je $8\text{ cm}$. Vypočtěte hmotnost nádoby, víte-li, že $1\text{ m}^2$ materiálu, ze kterého je vyrobena, má hmotnost $8\text{ kg}$.
+
+Výsledek: ||s²=v²+((22-10)/2)²=64+36=100 → s=10cm; S_pl=2(a₁+a₂)s=2·32·10=640cm²=0,064m²; m=0,064·8=0,512 kg||
+
+**3.** Vypočtěte povrch a objem pravidelného čtyřbokého komolého jehlanu, je-li hrana dolní podstavy $18\text{ cm}$ a hrana horní podstavy $15\text{ cm}$. Stěnová výška je $9\text{ cm}$.
+
+Výsledek: ||S_p1=324, S_p2=225; S_pl=2(18+15)·9=594cm²; S=324+225+594=1143 cm²; tělesová výška z Pythagorovy věty: v²=s²-((18-15)/2)²=81-2,25=78,75 → v≈8,87cm; V=(v/3)(S_p1+S_p2+√(S_p1·S_p2))=(8,87/3)(324+225+270)≈2421,51 cm³||

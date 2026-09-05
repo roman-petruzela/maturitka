@@ -4,148 +4,111 @@ order: 7
 source: "matematika/TY01_0207_-_Inverzni_funkce.pptx"
 hasExercises: true
 ---
-Inverzní funkce
 
-# Osnova
+> Pozn. k obsahu: Zdrojová prezentace používala animované odrážky, vzorce a grafy vložené jako obrázky, které se při prvním převodu z velké části ztratily. Text, vzorce, tabulky a grafy jsou zde doplněné/rekonstruované z dochovaných tabulek hodnot; všechny předpisy inverzních funkcí byly nezávisle odvozené a ověřené.
 
-a) pojem inverzní funkce b) ukázkové příklady c) příklady na procvičení včetně řešení
+## Osnova
 
-# Inverzní funkce
+a) pojem inverzní funkce, b) ukázkové příklady, c) příklady na procvičení včetně řešení.
 
-• _Inverzní = převrácená_
+## Inverzní funkce
 
-**_pozn.:_** _značení – původní funkce ... f ; inverzní funkce ... f ´  (nebo f_<sup>_-1_</sup> _)_ • _Nechť funkce f  je prostá funkce, potom funkce f_<sup>_´_</sup> _je inverzní k ní._ **_pozn.:_** _prostá funkce = funkce, která je buď jen rostoucí nebo jen klesající_
+„Inverzní" znamená „převrácená". Značení: původní funkce $f$, inverzní funkce $f^{-1}$ (případně $f'$).
 
-- _Potom platí:  D(f) = H(f_<sup>_´_</sup> _) a H(f) = D(f_<sup>_´_</sup> _)_
+Nechť je funkce $f$ **prostá** (tj. buď jen rostoucí, nebo jen klesající na celém svém definičním oboru). Pak k ní existuje inverzní funkce $f^{-1}$, pro kterou platí:
 
-- • _Funkce f je rostoucí (klesající), tak i funkce f_<sup>_´_</sup> _je rostoucí (klesající)_
+$$D(f) = H(f^{-1}), \qquad H(f) = D(f^{-1})$$
 
-# Inverzní funkce
+Je-li funkce $f$ rostoucí (klesající), je i funkce $f^{-1}$ rostoucí (klesající).
 
-- _Předpis inverzní funkce zjistíme tak, když v předpisu původní funkce zaměníme x s y a opět vyjádříme y._
+**Pozn.:** pro některé funkce neexistuje inverzní funkce na celém jejich $D(f)$, protože na něm nejsou prosté (např. $y=x^2$ na celém $\mathbb{R}$). Pokud ale definiční obor vhodně omezíme (např. jen na $x \geq 0$), inverzní funkci už najít můžeme.
 
-• _Pro některé funkce neexistuje inverzní funkce (nejsou prosté) na jejich celém D(f). Když však tento D(f) omezíme, můžeme již k této funkci nalézt inverzní._
+**Předpis inverzní funkce** zjistíme tak, že v předpisu původní funkce zaměníme $x$ a $y$ a znovu vyjádříme $y$. Grafy původní a inverzní funkce jsou souměrné podle osy $y=x$.
 
-- _Grafy původní a inverzní funkce jsou souměrné podle osy, kterou je vlastně funkce f: y = x._
+Typické dvojice funkce/inverzní funkce: $f: y=2x$ a $f^{-1}: y=\frac{x}{2}$; $f: y=e^x$ a $f^{-1}: y=\ln x$; $f: y=x^2$ (na $D(f)=\langle0;\infty)$) a $f^{-1}: y=\sqrt{x}$.
 
-# Inverzní funkce
+## Ukázkový příklad 1
 
-### _Zadaná funkce                                   Inverzní funkce f: y = 2x                                                     f ´: y =_
+Sestrojte graf inverzní funkce k funkci $f: y = 2x+1$. Určete definiční obory a obory hodnot.
 
-<!-- Start of picture text -->
-f<br><!-- End of picture text -->
+| x | −2 | 3 |
+|---|---|---|
+| y | −3 | 7 |
 
-<!-- Start of picture text -->
-f<br>f ´<br><!-- End of picture text -->
+```graph
+{ "fn": "2*x + 1", "domain": [-2, 3], "title": "f: y = 2x + 1" }
+```
 
-# Inverzní funkce
+Funkce $f$ má $D(f) = \mathbb{R}$, tedy $H(f^{-1}) = \mathbb{R}$.
 
-_Zadaná funkce                                   Inverzní funkce f: y = e_<sup>_x_</sup> _f ´: y = ln x_
+Předpis $f^{-1}$: zaměníme $x$ a $y$: $x = 2y+1$, odtud $x-1 = 2y$, tedy $f^{-1}: y = \dfrac{x-1}{2}$.
 
-<!-- Start of picture text -->
-f<br><!-- End of picture text -->
+$H(f) = \mathbb{R}$, a tedy $D(f^{-1}) = \mathbb{R}$.
 
-<!-- Start of picture text -->
-f<br>f ´<br><!-- End of picture text -->
+```graph
+{ "fn": "(x - 1) / 2", "domain": [-3, 7], "title": "f⁻¹: y = (x−1)/2" }
+```
 
-# Inverzní funkce
+## Ukázkový příklad 2
 
-_Zadaná funkce                                   Inverzní funkce f: y = x_<sup>_2_</sup> _; D(f) = <0; ∞_ ) _f ´: y =_
+Sestrojte graf inverzní funkce k funkci $f: y = 2x^2$, $D(f) = \langle0;\infty)$. Určete definiční obory a obory hodnot.
 
-<!-- Start of picture text -->
-f<br><!-- End of picture text -->
+| x | 0 | 1 | 2 | 3 | 4 |
+|---|---|---|---|---|---|
+| y | 0 | 2 | 8 | 18 | 32 |
 
-<!-- Start of picture text -->
-f<br>f ´<br><!-- End of picture text -->
+```graph
+{ "fn": "2*x^2", "domain": [0, 4], "title": "f: y = 2x², D(f) = ⟨0;∞)" }
+```
 
-### Ukázkový příklad:
+Funkce $f$ má $D(f) = \langle0;\infty)$, tedy $H(f^{-1}) = \langle0;\infty)$.
 
-Sestrojte graf inverzní funkce k funkcí _f: y = 2x + 1. Určete definiční obory a obory hodnot._
+Předpis $f^{-1}$: zaměníme $x$ a $y$: $x=2y^2$, odtud $y^2 = \dfrac{x}{2}$, a protože $D(f)=\langle0;\infty)$ vyžaduje $H(f^{-1})=\langle0;\infty)$, bereme jen kladný kořen: $f^{-1}: y = \sqrt{\dfrac{x}{2}}$.
 
-<!-- Start of picture text -->
-f: y = 2x  + 1  sestrojíme tabulku pro<br> x   - 2    3<br>funkci f<br>  - 3    7<br>y<br> x   - 3    7<br> f  ´ tabulka funkce f  ´  je převrácená<br>  - 2    3<br>y<br><!-- End of picture text -->
+$H(f) = \langle0;\infty)$, a tedy $D(f^{-1}) = \langle0;\infty)$.
 
-Funkce _f_ má _D(f) = R._ Z toho vyplývá, že _H(f ´) = R_ Předpis pro funkci _f ´:   x = 2y + 1                                    zaměníme x_
+```graph
+{ "fn": "sqrt(x/2)", "domain": [0, 32], "title": "f⁻¹: y = √(x/2)" }
+```
 
-_s y_
+## Příklady na procvičení
 
-_x – 1 = 2y f ´: y =_
+**Příklad 1:** Sestrojte graf inverzní funkce k funkci $f: y = \dfrac{x}{2}+3$, $D(f) = \langle-6;2)$. Určete $H(f)$, $D(f^{-1})$, $H(f^{-1})$. Nalezněte předpis inverzní funkce.
 
-## Ukázkový příklad:
+```graph
+{ "fn": "x/2 + 3", "domain": [-6, 2], "title": "f: y = x/2 + 3, D(f) = ⟨−6;2)", "spoiler": true, "float": "right" }
+```
 
-_H(f) = R a tedy D(f ´) = R_
+Výsledek:
 
-<!-- Start of picture text -->
-f<br>f  ´<br><!-- End of picture text -->
+- tabulka: ||x=−6→y=0, x=2→y=4||
+- $H(f)$: ||⟨0; 4)||
+- předpis $f^{-1}$: ||x = y/2 + 3 → y = 2x − 6, tedy f⁻¹: y = 2x − 6||
+- $D(f^{-1}) = H(f)$: ||⟨0; 4)||
+- $H(f^{-1}) = D(f)$: ||⟨−6; 2)||
 
-### Ukázkový příklad:
+---
 
-Sestrojte graf inverzní funkce k funkcí _f: y = 2x_<sup>_2_</sup> _; D(f) = < 0; ∞_ ) _. Určete definiční obory a obory hodnot._
+**Příklad 2:** Sestrojte graf inverzní funkce k funkci $f: y = x^2+3$, $D(f) = \langle0;\infty)$. Určete $H(f)$, $D(f^{-1})$, $H(f^{-1})$. Nalezněte předpis inverzní funkce.
 
-_f: y = 2x_<sup>_2_</sup> x 0 1 2 3 4 _sestrojíme tabulku pro funkci f_ 0 2 8 18 32 y _f_<sup>_´_</sup> _tabulka funkce f_<sup>_´_</sup> _je převrácená_ x 0 2 8 18 32 0 1 2 3 4 Funkce _f_ má _D(f) = < 0;_ y _∞_ ) _._ Z toho vyplývá, že _H(f ´) = < 0; ∞_ ) _._ Předpis pro ~~funkci~~ _~~f ´: x = 2y~~_<sup>_~~2~~_</sup> _zaměníme x s y_
+```graph
+{ "fn": "x^2 + 3", "domain": [0, 4], "title": "f: y = x² + 3, D(f) = ⟨0;∞)", "spoiler": true, "float": "right" }
+```
 
-_= y_<sup>_2_</sup>
+Výsledek:
 
-_f ´: y =_
+- tabulka: ||x=0,1,2,3,4 → y=3,4,7,12,19||
+- $H(f)$: ||⟨3; ∞)||
+- předpis $f^{-1}$: ||x = y² + 3 → y² = x − 3 → y = √(x−3), tedy f⁻¹: y = √(x−3)||
+- $D(f^{-1}) = H(f)$: ||⟨3; ∞)||
+- $H(f^{-1}) = D(f)$: ||⟨0; ∞)||
 
-## Ukázkový příklad:
+## Shrnutí
 
-_H(f) = < 0; ∞_ ) _a tedy D(f ´) = < 0; ∞_ )
+- Inverzní funkce = „převrácená" funkce, existuje jen pro prosté funkce (rostoucí, nebo klesající).
+- Platí: $D(f) = H(f^{-1})$ a $H(f) = D(f^{-1})$.
+- Předpis $f^{-1}$ získáme záměnou $x$ a $y$ v předpisu $f$ a vyjádřením $y$.
 
-<!-- Start of picture text -->
-f<br>f  ´<br><!-- End of picture text -->
+## Zdroje
 
-# Příklady na procvičení
-
-př. 1:      Sestrojte graf inverzní funkce k funkcí _f: y =    + 3 ;_
-
-_D(f) = < - 6; 2)_ . Určete _H(f)_ , _D(f ´)_ , _H(f ´)_ . Nalezněte předpis inverzní funkce. <u>Řešení</u>
-
-př. 2:      Sestrojte graf inverzní funkce k funkcí _f: y = x_<sup>_2_</sup> _+ 3 ;_
-
-_D(f) = < 0; ∞)_ . Určete _H(f)_ , _D(f ´)_ , _H(f ´)_ . Nalezněte předpis inverzní funkce. <u>Řešení</u>
-
-<u>přeskočit</u>
-
-#### Řešení př. 1:
-
-Sestrojte graf inverzní funkce k funkcí _f: y =     + 3; D(f) = < -6;2)_ .
-
-Určete _H(f)_ , _D(f ´)_ , _H(f ´)_ . Nalezněte předpis inverzní funkce. x - 6 2 tabulka pro funkci _f_ 0 4 <u>y</u> _(lineární funkce)_
-
-tabulka pro funkci _f ´_
-
-<!-- Start of picture text -->
-D(f) = < -6;2) a z toho plyne H(f ´) = < -6;2)<br> x     0    4<br>  - 6    2<br>y<br><!-- End of picture text -->
-
-předpis inverzní funkce _f ´: x =     + 3 x – 3 = f ´: y =_ 2x – 6
-
-#### Řešení př. 1 :
-
-_H(f) = < 0; 4_ ) _a tedy D(f ´) = < 0; 4_ )
-
-<!-- Start of picture text -->
-f<br>f  ´<br><!-- End of picture text -->
-
-<!-- Start of picture text -->
-zpět<br><!-- End of picture text -->
-
-#### Řešení př. 2:
-
-Sestrojte graf inverzní funkce k funkcí _f: y = x_<sup>_2_</sup> _+ 3; D(f) = < 0;∞)_ . Určete _H(f)_ , _D(f ´)_ , _H(f ´)_ . Nalezněte předpis inverzní funkce. x 0 1 2 3 4 3 4 7 12 19 tabulka pro funkci _f_ y _(kvadratická funkce) D(f) = < 0;∞) a z toho plyne H(f ´) = < 0;∞)∞) a z toho plyne H(f ´) = < 0;∞)H(f ´) = < 0;∞)∞)_ tabulka pro funkci _f ´_ x 3 4 7 12   19 0 1 2 3 4 y předpis inverzní funkce _<u>f ´: x = y</u>_<sup>_2_</sup> _+ 3 x – 3 = y_<sup>_2_</sup>
-
-_D(f) = < 0;∞) a z toho plyne H(f ´) = < 0;∞)∞) a z toho plyne H(f ´) = < 0;∞)H(f ´) = < 0;∞)∞)_
-
-_f ´: y =_
-
-Řešení př. 2 : _f H(f) = < 3; ∞_ ) _a tedy D(f ´) = < 3; ∞_ ) _f_ ´ _<u>zpět</u>_
-
-# Shrnutí
-
-• Inverzní = převrácená • Inverzní funkce existuje pouze pro funkci, která je prostá (rostoucí X klesající)
-
-• platí: _D(f) = H(f ´)_ a _H(f) = D(f ´)_
-
-# Zdroje
-
-• HUDCOVÁ, Milada a Libuše KUBIČÍKOVÁ. _Sbírka úloh z matematiky pro SOŠ, SOU a nástavbové studium_ . 2. vydání. Havlíčkův Brod: Prometheus, spol. s r.o., 2005. Učebnice pro střední školy. ISBN 80-7196-318-6
+HUDCOVÁ, Milada a Libuše KUBIČÍKOVÁ. _Sbírka úloh z matematiky pro SOŠ, SOU a nástavbové studium_. 2. vydání. Havlíčkův Brod: Prometheus, spol. s r.o., 2005. Učebnice pro střední školy. ISBN 80-7196-318-6

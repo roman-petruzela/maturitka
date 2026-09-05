@@ -4,132 +4,128 @@ order: 3
 source: "mat2/Negace složených výroků.pdf"
 hasExercises: true
 ---
-Víme, že pokud je výrok 𝑣 nepravdivý, pak je jeho negace ¬𝑣 pravdivá (a naopak). Nyní se podíváme na negaci složených výroků.
 
-Pro negaci konjunkce výroků 𝑎, 𝑏 platí následovné:
+Víme, že pokud je výrok $v$ nepravdivý, je jeho negace $\neg v$ pravdivá (a naopak) — viz [Výrok, negace výroku](/mat/vyrazy-a-mocniny/01-vyrok-negace-vyroku/). Nyní se podíváme na negaci **složených** výroků.
 
-|𝑎|𝑏|𝑎∧𝑏|¬(𝑎∧𝑏)|¬𝑎|¬𝑏|
+## Negace konjunkce
+
+| $a$ | $b$ | $a\land b$ | $\neg(a\land b)$ | $\neg a$ | $\neg b$ |
 |---|---|---|---|---|---|
-|1|1|1|0|0|0|
-|1|0|0|1|0|1|
-|0|1|0|1|1|0|
-|0|0|0|1|1|1|
+| 1 | 1 | 1 | 0 | 0 | 0 |
+| 1 | 0 | 0 | 1 | 0 | 1 |
+| 0 | 1 | 0 | 1 | 1 | 0 |
+| 0 | 0 | 0 | 1 | 1 | 1 |
 
-Pomocí této tabulky chceme najít výrok, který je ekvivalentní s výrokem ¬(𝑎∧𝑏 ). Ptáme se: Jaký výrok složený z výroků 𝑎, 𝑏, ¬𝑎, ¬𝑏 má stejný sloupec pravdivostních hodnot jako výrok ¬(𝑎∧𝑏 )? Vidíme, že v tomto sloupci jsou tři jedničky, což odpovídá pravdivostním hodnotám disjunkce nebo implikace nějakých dvou výroků; podíváme se na sloupce ¬𝑎, ¬𝑏, zjistíme, že hledaným výrokem je výrok ¬𝑎∨¬𝑏 .
+Hledáme výrok složený z $a$, $b$, $\neg a$, $\neg b$, který má stejný sloupec pravdivostních hodnot jako $\neg(a\land b)$. V tomto sloupci jsou tři jedničky, což odpovídá disjunkci nebo implikaci dvou výroků; porovnáním se sloupci $\neg a$, $\neg b$ zjistíme, že hledaným výrokem je $\neg a\lor\neg b$.
 
-Pro libovolné výroky 𝑎, 𝑏 platí ¬(𝑎∧𝑏) ⇔(¬𝑎∨¬𝑏).
+$$\neg(a\land b) \iff (\neg a\lor\neg b)$$
 
-K určení negace disjunkce výroků 𝑎, 𝑏 použijeme tabulku:
+## Negace disjunkce
 
-|𝑎|𝑏|𝑎∨𝑏|¬(𝑎∨𝑏)|¬𝑎|¬𝑏|
+| $a$ | $b$ | $a\lor b$ | $\neg(a\lor b)$ | $\neg a$ | $\neg b$ |
 |---|---|---|---|---|---|
-|1|1|1|0|0|0|
-|1|0|1|0|0|1|
-|0|1|1|0|1|0|
-|0|0|0|1|1|1|
+| 1 | 1 | 1 | 0 | 0 | 0 |
+| 1 | 0 | 1 | 0 | 0 | 1 |
+| 0 | 1 | 1 | 0 | 1 | 0 |
+| 0 | 0 | 0 | 1 | 1 | 1 |
 
-Protože ve sloupci pravdivostních hodnot výroku ¬(𝑎∨𝑏) jsou tři nuly a jednička, může negací disjunkce být konjunkce nějakých výroků; snadno se přesvědčíme, že to je konjunkce výroků ¬𝑎, ¬𝑏.
+Ve sloupci $\neg(a\lor b)$ jsou tři nuly a jedna jednička — negací disjunkce tedy může být konjunkce; snadno ověříme, že je to konjunkce $\neg a\land\neg b$.
 
-Pro libovolné výroky 𝑎, 𝑏 <u>platí</u> ¬(𝑎∨𝑏) ⇔ <u>(¬𝑎∧¬𝑏).</u>
+$$\neg(a\lor b) \iff (\neg a\land\neg b)$$
 
-Př.: Utvořte negace výroků:
+**Příklad:** Utvořte negace výroků:
 
-𝑢: Číslo 72 je dělitelné dvěma a třemi.
+- $u$: Číslo 72 je dělitelné dvěma a třemi.
+- $v$: Mozart ani Beethoven nejsou čeští skladatelé.
+- $w$: Válku s mloky napsal K. Čapek nebo A. Jirásek.
 
-𝑣 : Mozart ani Beethoven nejsou čeští skladatelé.
+*Řešení:* Výrok $u$ je konjunkce výroků "Číslo 72 je dělitelné 2" a "Číslo 72 je dělitelné 3". Jeho negace: "Číslo 72 není dělitelné 2 nebo není dělitelné 3."
 
-𝑤 : Válku s mloky napsal K. Čapek nebo A. Jirásek.
+Výrok $v$ je konjunkce výroků "Mozart není český skladatel" a "Beethoven není český skladatel" (spojka "ani...ani" = konjunkce dvou negací). Jeho negace: "Mozart je český skladatel nebo Beethoven je český skladatel."
 
-Řešení:
+Výrok $w$ je disjunkce výroků "Válku s mloky napsal K. Čapek" a "Válku s mloky napsal A. Jirásek". Jeho negace: "Válku s mloky nenapsal ani K. Čapek, ani A. Jirásek."
 
-Výrok 𝑢 je konjunkce výroků „Číslo 72 je dělitelné 2“ a „Číslo 72 je dělitelné 3“. Jeho negace je výrok „Číslo 72 není dělitelné 2 nebo není dělitelné 3“.
+## Negace implikace
 
-Výrok 𝑣 je konjunkce výroků „Mozart není český skladatel“ a „Beethoven není český skladatel“. Jeho negace je výrok „Mozart je český skladatel nebo Beethoven je český skladatel“.
-
-Výrok 𝑤 je disjunkce výroků „Válku s mloky napsal K. Čapek“ a „Válku s mloky napsal A. Jirásek“. Jeho negace je „Válku s mloky nenapsal ani K. Čapek, ani A. Jirásek“.
-
-Negace implikace je následující:
-
-|𝑎 𝑏|𝑎⇒𝑏|¬(𝑎⇒𝑏)|¬𝑎|¬𝑏|
-|---|---|---|---|---|
-|1 1|1|0|0|0|
-|1 0|0|1|0|1|
-|0 1|1|0|1|0|
-|0 0|1|0|1|1|
-
-Je patrné, že negace implikace by mohla být konjunkce nějakých výroků, neboť v jejím sloupci jsou tři nuly a jedna jednička. Snadno zjistíme, že to je konjunkce výroků 𝑎, ¬𝑏 .
-
-Pro libovolné výroky 𝑎, 𝑏 platí ¬ (𝑎⇒𝑏) ⇔(𝑎∧¬𝑏).
-
-# Př.: Utvořte negace výroků:
-
-. 1) Je-li √2 číslo iracionální, je iracionální i číslo 1 + √2 2) Je-li trojúhelník 𝐴𝐵𝐶 rovnostranný, pak je rovnoramenný. 3) Není-li číslo 5 přirozené, pak není ani číslo 1.
-
-# Řešení:
-
-- 1) Číslo √2 je iracionální a zároveň číslo 1 + √2 není iracionální.
-
-- 2) Trojúhelník 𝐴𝐵𝐶 je rovnostranný a zároveň není rovnoramenný.
-
-- 3) Číslo 5 není přirozené a zároveň číslo 1 je přirozené.
-
-Uvědomte si, že negace implikace není implikace!
-
-# Negace ekvivalence je následující:
-
-|𝑎|𝑏|𝑎⇔𝑏|¬(𝑎⇔𝑏)|¬𝑎|¬𝑏|
+| $a$ | $b$ | $a\Rightarrow b$ | $\neg(a\Rightarrow b)$ | $\neg a$ | $\neg b$ |
 |---|---|---|---|---|---|
-|1|1|1|0|0|0|
-|1|0|0|1|0|1|
-|0|1|0|1|1|0|
-|0|0|1|0|1|1|
+| 1 | 1 | 1 | 0 | 0 | 0 |
+| 1 | 0 | 0 | 1 | 0 | 1 |
+| 0 | 1 | 1 | 0 | 1 | 0 |
+| 0 | 0 | 1 | 0 | 1 | 1 |
 
-´
+Ve sloupci $\neg(a\Rightarrow b)$ jsou tři nuly a jedna jednička — negace implikace by tedy mohla být konjunkce; zjistíme, že je to konjunkce $a\land\neg b$.
 
-Stačí si uvědomit, že negací ekvivalence bude patrně opět ekvivalence, neboť v příslušném sloupci jsou dvě nuly a dvě jedničky. Negací ekvivalence 𝑎⇔𝑏 je ekvivalence ¬𝑎⇔𝑏 nebo také ekvivalence 𝑎⇔¬𝑏 .
+$$\neg(a\Rightarrow b) \iff (a\land\neg b)$$
 
-Př.: Určete negaci výroku „Číslo 158 je dělitelné šesti právě tehdy, když je dělitelné dvěma a třemi“.
+**Příklad:** Utvořte negace výroků:
 
-Řešení: Výrok je tvaru 𝑎⇔(𝑏∧𝑐) , kde 𝑎 je výrok „Číslo 158 je dělitelné šesti“, výrok 𝑏 je „Číslo 158 je dělitelné dvěma“ a výrok 𝑐 je „Číslo 158 je dělitelné třemi“. Negace této
+1. Je-li $\sqrt2$ číslo iracionální, je iracionální i číslo $1+\sqrt2$.
+2. Je-li trojúhelník $ABC$ rovnostranný, pak je rovnoramenný.
+3. Není-li číslo 5 přirozené, pak není ani číslo 1.
 
-ekvivalence je 𝑎⇔¬(𝑏∧𝑐) , tedy 𝑎⇔(¬𝑏∨¬𝑐) . Tento výrok můžeme vyslovit jako „Číslo 158 je dělitelné šesti právě tehdy, když není dělitelné dvěma nebo není dělitelné třemi“.
+*Řešení:*
 
-Jinou možností je vyslovit výrok ve tvaru ¬𝑎⇔(𝑏∧𝑐) , tedy „Číslo 158 není dělitelné šesti právě tehdy, když je dělitelné dvěma a zároveň třemi.“
+1. Číslo $\sqrt2$ je iracionální a zároveň číslo $1+\sqrt2$ není iracionální.
+2. Trojúhelník $ABC$ je rovnostranný a zároveň není rovnoramenný.
+3. Číslo 5 není přirozené a zároveň číslo 1 je přirozené.
 
-Platí:
+Uvědomte si, že **negace implikace není implikace** — je to konjunkce!
 
-¬(𝑎∧𝑏) = (¬𝑎∨¬𝑏) ¬(𝑎∨𝑏) = (¬𝑎∧¬𝑏)
+## Negace ekvivalence
 
-Př.: Negujte výroky:
+| $a$ | $b$ | $a\Leftrightarrow b$ | $\neg(a\Leftrightarrow b)$ | $\neg a$ | $\neg b$ |
+|---|---|---|---|---|---|
+| 1 | 1 | 1 | 0 | 0 | 0 |
+| 1 | 0 | 0 | 1 | 0 | 1 |
+| 0 | 1 | 0 | 1 | 1 | 0 |
+| 0 | 0 | 1 | 0 | 1 | 1 |
 
-- 1) Bod 𝐵 leží na kružnici 𝑘 nebo na přímce 𝑝 .
+V příslušném sloupci jsou dvě nuly a dvě jedničky — negací ekvivalence bude patrně opět ekvivalence. Negací ekvivalence $a\Leftrightarrow b$ je ekvivalence $\neg a\Leftrightarrow b$ (nebo rovnocenně $a\Leftrightarrow\neg b$).
 
-- 2) Poslední cifra dekadického zápisu čísla 37<sup>7</sup> není nula ani pětka.
+**Příklad:** Určete negaci výroku "Číslo 158 je dělitelné šesti právě tehdy, když je dělitelné dvěma a třemi."
 
-- 3) Je-li ciferný součet čísla 37<sup>7</sup> dělitelný třemi, je toto číslo dělitelné třemi.
+*Řešení:* Výrok je tvaru $a\Leftrightarrow(b\land c)$, kde $a$ = "Číslo 158 je dělitelné šesti", $b$ = "Číslo 158 je dělitelné dvěma", $c$ = "Číslo 158 je dělitelné třemi". Negace této ekvivalence je $a\Leftrightarrow\neg(b\land c)$, tedy $a\Leftrightarrow(\neg b\lor\neg c)$: "Číslo 158 je dělitelné šesti právě tehdy, když není dělitelné dvěma nebo není dělitelné třemi."
 
-Př.: Utvořte negace výroků:
+Jinou možností je vyslovit výrok ve tvaru $\neg a\Leftrightarrow(b\land c)$: "Číslo 158 není dělitelné šesti právě tehdy, když je dělitelné dvěma a zároveň třemi."
 
-- 1) 𝑎∨¬𝑏
+## Shrnutí vzorců
 
-- 2) 𝑎⇒¬𝑏
+$$\neg(a\land b) = (\neg a\lor\neg b) \qquad \neg(a\lor b) = (\neg a\land\neg b)$$
 
-- 3) ¬𝑎⇔¬𝑏
+$$\neg(a\Rightarrow b) = (a\land\neg b) \qquad \neg(a\Leftrightarrow b) = (\neg a\Leftrightarrow b) = (a\Leftrightarrow\neg b)$$
 
-- 4) ¬𝑎∧𝑏
+## Příklady
 
-- 5) ¬𝑎⇒𝑏
+**1.** Negujte výroky:
 
-- 6) ¬𝑎∧¬𝑏
+1. Bod $B$ leží na kružnici $k$ nebo na přímce $p$.
+2. Poslední cifra dekadického zápisu čísla $37^7$ není nula ani pětka.
+3. Je-li ciferný součet čísla $37^7$ dělitelný třemi, je toto číslo dělitelné třemi.
 
-- 7) ¬𝑎∨¬𝑏
+Výsledek: ||1) disjunkce → negace je konjunkce negací: "Bod B neleží na kružnici k ani na přímce p." 2) je to už tvar ¬a∧¬b ("není nula ani pětka") → negace je disjunkce: "Poslední cifra čísla 37⁷ je nula nebo pětka." 3) implikace a⇒b → negace a∧¬b: "Ciferný součet čísla 37⁷ je dělitelný třemi a zároveň toto číslo není dělitelné třemi."||
 
-Př.: Utvořte negace výroků 𝑎, 𝑏, 𝑐:
+**2.** Utvořte negace výroků (symbolicky):
 
-1) (𝑎∧𝑏) ⇒𝑐
+1. $a\lor\neg b$
+2. $a\Rightarrow\neg b$
+3. $\neg a\Leftrightarrow\neg b$
+4. $\neg a\land b$
+5. $\neg a\Rightarrow b$
+6. $\neg a\land\neg b$
+7. $\neg a\lor\neg b$
 
-2) 𝑎⇒(𝑏∨𝑐)
+Výsledek: ||1) ¬a∧b; 2) a∧b; 3) a⇔¬b (nebo ¬a⇔b); 4) a∨¬b; 5) ¬a∧¬b; 6) a∨b; 7) a∧b||
 
-3) (𝑎∧𝑐) ⇔𝑏
+**3.** Utvořte negace výroků (symbolicky, $a$, $b$, $c$ jsou libovolné výroky):
 
-4) 𝑎⇔(𝑏⇒𝑐)
+1. $(a\land b)\Rightarrow c$
+2. $a\Rightarrow(b\lor c)$
+3. $(a\land c)\Leftrightarrow b$
+4. $a\Leftrightarrow(b\Rightarrow c)$
+
+Výsledek: ||1) (a∧b)∧¬c, tedy a∧b∧¬c; 2) a∧¬(b∨c), tedy a∧¬b∧¬c; 3) ¬(a∧c)⇔b, tedy (¬a∨¬c)⇔b; 4) ¬a⇔(b⇒c) (nebo a⇔(b∧¬c))||
+
+## Zdroje
+
+Zdrojový dokument: *mat2/Negace složených výroků.pdf*

@@ -4,121 +4,97 @@ order: 2
 source: "matematika/TY01_0216-Aritmeticka_posloupnost.pptx"
 hasExercises: true
 ---
-## Osnova
 
-a) pojem aritmetická posloupnost b) vzorce + ukázkové příklady c) příklady na procvičení včetně řešení d) slovní úlohy řešené aritmetickou posloupnosti včetně řešení
+> Pozn. k obsahu: Vzorce a ukázkové příklady se z velké části dochovaly v textu, jen s drobnými OCR artefakty (chybějící index "a" u některých členů, např. "2 = a1 + 4" místo "a2 = a1 + 4") — opraveno podle kontextu a přepočtem ověřeno. Vzorce přepsány do LaTeXu.
 
-## Aritmetická posloupnost
+**Aritmetická posloupnost** je taková posloupnost, pro kterou existuje reálné číslo $d$ (nazývané **diference**) takové, že pro každé přirozené číslo $n$ platí:
 
-- posloupnost se nazývá aritmetická, právě když existuje takové reálné číslo _d_ , že pro každé přirozené číslo _n_ je _an+1 = an + d_
+$$a_{n+1} = a_n + d$$
 
-- reálnému číslu _d_ se říká diference; značí se - _d_
+Aritmetická posloupnost se tedy vždy zvětšuje (nebo zmenšuje) o stejnou hodnotu — např. pro $d=2$:
 
-- _např. d = 2_
+$$1,\ \underbrace{3}_{+2},\ \underbrace{5}_{+2},\ \underbrace{7}_{+2},\ \underbrace{9}_{+2},\ \dots$$
 
-<!-- Start of picture text -->
-posloupnost     1 ,  3 ,  5 ,  7 ,  9 ,  ...<br>                                                       +            +           +           +<br>2      2     2      2            stejná<br>hodnota     2<br><!-- End of picture text -->
+## Vzorce a ukázkové příklady
 
-## Vzorce + ukázkové příklady
+**Výpočet dalšího členu pomocí předcházejícího a diference:**
 
-• vzorec pro výpočet dalšího členu pomocí předcházejícího a diference **_an+1 = an + d_** _Př. a1 = 3 ; d = 4 ; a2 = ? ; a3 = ?_
+$$a_{n+1} = a_n + d$$
 
-_2 = a1 + 4               a3 = a2 + 4_
+**Příklad:** $a_1=3$, $d=4$. Určete $a_2$, $a_3$.
 
-_2 = 3 + 4                a3 = 7 + 4_
+$$a_2 = a_1+4 = 3+4 = 7, \qquad a_3 = a_2+4 = 7+4 = 11$$
 
-_2 = 7                       a3 = 11_
+**Výpočet členu pomocí sousedních členů:**
 
-• vzorec pro výpočet členu pomocí předcházejícího a následujícího členu **_an = (an+1 + an-1 )/ 2_** _Př. a2 = -7 ; a4 = 1 ; a3 = ?_
+$$a_n = \frac{a_{n+1}+a_{n-1}}{2}$$
 
-_n = (an+1 + an-1 ) / 2 3 = (a4 + a2 ) / 2 3 = (1 + (-7) ) / 2 3 = - 3_
+**Příklad:** $a_2=-7$, $a_4=1$. Určete $a_3$.
 
-## Vzorce + ukázkové příklady
+$$a_3 = \frac{a_4+a_2}{2} = \frac{1+(-7)}{2} = \frac{-6}{2} = -3$$
 
-• vzorec pro výpočet libovolného členu pomocí prvního členu a diference **_an = a1 + (n – 1).d_** _Př. a1 = 3 ; d = 4 ; a20 = ? a20 = a1 + (20 – 1).d a20 = 3 + 19 .4 a20 = 3 + 76 a20 = 79_
+**Výpočet libovolného členu pomocí prvního členu a diference:**
 
-- vzorec pro výpočet libovolného členu pomocí nějaké členu a diference **_ar = as + (r – s).d_**
+$$a_n = a_1 + (n-1)\cdot d$$
 
-- _Př. a5 = -2 ; d = 2 ; a18 = ?_
+**Příklad:** $a_1=3$, $d=4$. Určete $a_{20}$.
 
-_18 = a5 + (18 – 5).d 18 = - 2 + 13 .2 18 = - 2 + 26 18 = 24_
+$$a_{20} = 3+(20-1)\cdot4 = 3+19\cdot4 = 3+76 = 79$$
 
-## Vzorce + ukázkové příklady
+**Výpočet libovolného členu pomocí jiného členu a diference:**
 
-• vzorec pro součet konečného počtu členů aritmetické posloupnosti **_Sn = n/2 . (a1 + an)_** _Př. a1 = 3 ; a20 = 142 ; n = 20 ; Sn = ? S20 = 20/2 . (a1 + a20) S20 = 10 . (3 + 142) S20 = 10 . 145 S20 = 1450_
+$$a_r = a_s + (r-s)\cdot d$$
+
+**Příklad:** $a_5=-2$, $d=2$. Určete $a_{18}$.
+
+$$a_{18} = -2+(18-5)\cdot2 = -2+13\cdot2 = -2+26 = 24$$
+
+**Součet konečného počtu členů aritmetické posloupnosti:**
+
+$$S_n = \frac{n}{2}\cdot(a_1+a_n)$$
+
+**Příklad:** $a_1=3$, $a_{20}=142$, $n=20$. Určete $S_{20}$.
+
+$$S_{20} = \frac{20}{2}\cdot(3+142) = 10\cdot145 = 1450$$
 
 ## Příklady na procvičení
 
-př. 1: _a1 = - 2 ; d = - 3 ; a124 = ?_ <u>Řešení</u> př. 2: _a1 = 4 ; a16 = - 84 ; d = ?_ <u>Řešení</u> př. 3: _a6 = 15 ; d = - ½ ; a33 = ?_ <u>Řešení</u> př. 4: _a8 = - 10 ; a14 =  8 ; d = ? ; a1 = ?_ <u>Řešení</u> př. 5: _a1 = 15 ; d = 3 ; S11 = ?_ <u>Řešení</u>
+**1.** $a_1=-2$, $d=-3$. Určete $a_{124}$.
 
-<u>přeskočit</u>
+Výsledek: ||a₁₂₄ = a₁+(124-1)d = -2+123·(-3) = -2-369 = -371||
 
-Řešení př. 1: _a1 = - 2 ; d = - 3 ; a124 = ? an = a1 + (n – 1).d a124 = - 2 + (124 – 1).(- 3) a124 = - 2 + 123.(- 3) a124 = - 2 + (- 369) a124 = - 371_
+**2.** $a_1=4$, $a_{16}=-84$. Určete $d$.
 
-<u>zpět</u>
+Výsledek: ||a₁₆=a₁+(16-1)d → -84=4+15d → -88=15d → d=-88/15 ≈ -5,87||
 
-Řešení př. 2: _a1 = 4 ; a16 = - 84 ; d = ?_
+**3.** $a_6=15$, $d=-\tfrac12$. Určete $a_{33}$.
 
-_an = a1 + (n – 1).d a16 = a1  + (16 – 1).d - 84 = 4 + 15.d     / - 4 - 84 - 4 = 15.d - 88 = 15.d          / : 15 = d_
+Výsledek: ||a₃₃=a₆+(33-6)d=15+27·(-½)=15-13,5=1,5 (pozn.: za "ar" dosazujeme pořadově vyšší člen, zde a₃₃)||
 
-<u>zpět</u>
+**4.** $a_8=-10$, $a_{14}=8$. Určete $d$ a $a_1$.
 
-Řešení př. 3: _a6 = 15 ; d = - ½ ; a33 = ?_
+Výsledek: ||a₁₄=a₈+(14-8)d → 8=-10+6d → 18=6d → d=3; dále a₁₄=a₁+(14-1)d → 8=a₁+13·3 → 8=a₁+39 → a₁=-31||
 
-_ar = as + (r – s).d a33 = a6  + (33 – 6).d a33 = 15  + 27.(- ½) a33 = 15  + (- 13,5) a33 = 1,5_
+**5.** $a_1=15$, $d=3$. Určete $S_{11}$.
 
-**pozn.:** za _ar_ dosazujeme pořadově vyšší člen posloupnosti, konkrétně zde _ar = a33_
+Výsledek: ||nejprve a₁₁=a₁+(11-1)d=15+10·3=45; pak S₁₁=11/2·(a₁+a₁₁)=5,5·(15+45)=5,5·60=330||
 
-<u>zpět</u>
+## Slovní úlohy
 
-Řešení př. 4: _a8 = - 10 ; a14 =  8 ; d = ? ; a1 = ?_
+**1.** Vypočítejte součet prvních sta kladných sudých čísel.
 
-_ar = as + (r – s).d                     an = a1 + (n – 1).d a14 = a8  + (14 – 8).d               a14 = a1  + (14 – 1).d 8 = - 10 + 6.d     / + 10            8 = a1 + 13.3 8 + 10 = 6.d                                       8 = a1 + 39  / - 39 18 = 6.d          / : 6              8 - 39 = a1 3 = d                                      - 31 = a1_
+Výsledek: ||a₁=2, a₂=4,... → d=2; a₁₀₀=a₁+(100-1)d=2+99·2=200; S₁₀₀=100/2·(a₁+a₁₀₀)=50·(2+200)=50·202=10100||
 
-<u>zpět</u>
+**2.** Dělník vyrobí za směnu 40 součástek. Kolik součástek by vyrobil za 12 směn, kdyby svůj výkon postupně zvyšoval každou směnu o 3 součástky?
 
-Řešení př. 5: _a1 = 15 ; d = 3 ; S11 = ?_
-
-_an = a1 + (n – 1).d_ nejprve musíme vyřešit člen _a11 a11 = 15  + (11 – 1).3 a11 = 15  + 10.3 a11 = 15  + 30 a11 = 45_
-
-_Sn = n/2 . (a1 + an)_ a nyní součet _S11 = 11/2 . (a1 + a11) S11 = 5,5 . (15 + 45)_
-
-_S11 = 330_ <u>zpět</u>
-
-## Slovní úlohy včetně řešení
-
-př. 1: Vyřešte součet prvních sto kladných sudých čísel? <u>Řešení</u> př. 2: Dělník vyrobí za směnu 40 součástek. Kolik součástek by vyrobil za 12 směn, kdyby svůj výkon postupně zvyšoval každou směnu o 3 součástky? <u>Řešení</u>
-
-<u>přeskočit</u>
-
-Řešení př. 1: Vyřešte součet prvních sto kladných sudých čísel? _a1  = 2 ; a2  = 4; a3  = 6 ; ..._ příklad si rozebereme a napíšeme co víme _an + 1 = an  + d_ zjistíme kolik je diference _a2 = a1  + d 2 = d_
-
-_an = a1 + (n – 1).d_ musíme zjistit stý člen – _a100 a100 = 2 + (100 – 1).2 a100 = 200_
-
-_Sn = n/2 . (a1 + an)_ dopočítáme součet sto kladných sudých čísel _S100 = 100/2 . (2 + 200) S100 = 10100_  **Součet je 10100.** <u>zpět</u>
-
-### Řešení př. 2:
-
-Dělník vyrobí za směnu 40 součástek. Kolik součástek by vyrobil za 12 směn, kdyby svůj výkon postupně zvyšoval každou směnu o 3 součástky?
-
-_a1  = 40 ; d = 3; n = 12 ; ..._ příklad si rozebereme a napíšeme co víme
-
-_an = a1 + (n – 1).d_ musíme zjistit dvanáctý člen – _a12 a12 = a1 + (12 – 1).d a12 = 40 + (12 – 1).3 a12 = 73_
-
-_Sn = n/2 . (a1 + an)_ dopočítáme počet součástek za 12 směn _S12 = 12/2 . (40 + 73)_
-
-_S12 = 678_ **Dělník by vyrobil za 12 směn 678 součástek.**
-
-<u>zpět</u>
+Výsledek: ||a₁=40, d=3, n=12; a₁₂=a₁+(12-1)d=40+11·3=73; S₁₂=12/2·(a₁+a₁₂)=6·(40+73)=6·113=678 součástek||
 
 ## Shrnutí
 
-• aritmetická posloupnost - zvětšuje či zmenšuje se neustálé o stejnou hodnotu - diference
+Aritmetická posloupnost se neustále zvětšuje či zmenšuje o stejnou hodnotu — diferenci $d$.
 
-• vzorce _an+1 = an + d an = (an+1 + an-1 )/ 2 an = a1 + (n – 1).d ar = as + (r – s).d_
-
-_Sn = n/2 . (a1 + an)_
+$$a_{n+1}=a_n+d \qquad a_n=\frac{a_{n+1}+a_{n-1}}{2} \qquad a_n=a_1+(n-1)d \qquad a_r=a_s+(r-s)d \qquad S_n=\frac n2(a_1+a_n)$$
 
 ## Zdroje
 
-• HUDCOVÁ, Milada a Libuše KUBIČÍKOVÁ. _Sbírka úloh z matematiky pro SOŠ, SOU a nástavbové studium_ . 2. vydání. Havlíčkův Brod: Prometheus, spol. s r.o., 2005. Učebnice pro střední školy. ISBN 80-7196-318-6
+HUDCOVÁ, Milada, KUBIČÍKOVÁ, Libuše. *Sbírka úloh z matematiky pro SOŠ, SOU a nástavbové studium.* 2. vydání. Havlíčkův Brod: Prometheus, 2005. ISBN 80-7196-318-6.

@@ -4,192 +4,236 @@ order: 35
 source: "MATURITA HADR/Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/35) Aritmetická posloupnost.pdf"
 hasExercises: true
 ---
-<u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Aritmetická posloupnost</u>
 
-1)
+> Pozn. k obsahu: Vzorce ($a_n=a_1+(n-1)d$, $s_n=\frac n2(a_1+a_n)$), které se v PDF ztratily jako vzorcové objekty, jsou doplněny standardním zněním. Naprostá většina úloh vycházela z obrázků, ale konkrétní číselné hodnoty použité v postupu řešení se dochovaly v textu, takže je šlo dopočítat i bez obrázku. U úloh 11, 14, 18 a 22a) se ztratila i některá vstupní čísla — ponechán jen dochovaný postup a výsledek.
 
-<u>Vypočtěte délku a3  třetí půlkružnice.</u> Ostrý maturitní test Cermat-u ( základní úroveň ) – jaro 2011, příklad č. 13 Body: 1                   Výsledek: = 66 dm   resp. 66 dm   resp. 66   resp. 6,6 m
+*Příklady z maturitních testů Cermatu (základní úroveň) — Aritmetická posloupnost*
 
-Pracovní tematické zařazení: Aritmetická posloupnost Řešení: a3 = a1 + 2d          a3 = 22 + 2*22          a3 = 66 dm --------------------------------------------------
+**1)** Půlkružnice spirály: $a_1=22$ dm, $d=22$ dm. Vypočtěte délku $a_3$ třetí půlkružnice.
 
-<u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Aritmetická posloupnost</u>
+*Jaro 2011, příklad č. 13. Body: 1. Výsledek: 66 dm.*
 
-2)
+Řešení: $a_3=a_1+2d=22+2\cdot22=66$ dm.
 
-<u>Uveďte v metrech délku</u> _<u>s</u>_ <u>celé spirály. ( Na obrázku je zobrazena pouze část spirály. )</u> Ostrý maturitní test Cermat-u ( základní úroveň ) – jaro 2011, příklad č. 14 Body: 2                   Výsledek:  s = 264 m   resp. 264   resp. 2640 dm
+**2)** Spirála má 15 půlkružnic ($a_1=22$, $d=22$ dm). Uveďte v metrech délku $s$ celé spirály.
 
-Pracovní tematické zařazení: Aritmetická posloupnost Řešení: sn  = * ( a1  +  an  )          s15  = * ( a1  +  a15  ) … neznáme a15 a15  =  a1  +  14d          a15  =  22  +  14*22          a15  =  330 dm s15  = * ( a1  +  a15  )          s15  = 7,5 * ( 22  +  330  )          s15  = 2 640 dm = 264 m
+*Jaro 2011, příklad č. 14. Body: 2. Výsledek: $s=264$ m.*
 
--------------------------------------------------3) Aritmetická posloupnost obsahuje 50 členů, z nichž první tři jsou –140,  –132,  –124 a <u>poslední tři 236, 244, 252. Vypočtěte dvacátý člen posloupnosti.</u> Ostrý maturitní test Cermat-u ( základní úroveň ) – podzim 2011, příklad č. 8 Body: 1                   Výsledek:  a20 = 12 Pracovní tematické zařazení: Aritmetická posloupnost Řešení: například  a2 = a1 + d          –132 = –140 + d        8 = d například  a20 = a1 + 19d          a20 = –140 + 19*8          a20 = 12 --------------------------------------------------
+Řešení: $a_{15}=22+14\cdot22=330$ dm. $s_{15}=\dfrac{15}2(22+330)=7{,}5\cdot352=2\,640$ dm $=264$ m.
 
-<u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Aritmetická posloupnost</u>
+**3)** Aritmetická posloupnost o 50 členech: první tři $-140,-132,-124$, poslední tři $236,244,252$. Vypočtěte $a_{20}$.
 
-4) Aritmetická posloupnost obsahuje 50 členů, z nichž první tři jsou –140,  –132,  –124 a poslední tři 236, 244, 252. Vypočtěte součet všech 50 členů posloupnosti: –140 + ( –132 ) + ( –124 ) + … + 236 + 244 + 252 Ostrý maturitní test Cermat-u ( základní úroveň ) – podzim 2011, příklad č. 9 Body: 1                   Výsledek:  s50  =  2 800 Pracovní tematické zařazení: Aritmetická posloupnost Řešení: sn  = * ( a1  +  an  )          s50  = * ( a1  +  a50  )          s50  = 25 * ( –140  +  252  ) s50  = 2 800 -------------------------------------------------5) Aritmetická posloupnost obsahuje 50 členů, z nichž první tři jsou –140,  –132,  –124 a <u>poslední tři 236, 244, 252. Určete, kolikátým členem posloupnosti je číslo 100.</u> Ostrý maturitní test Cermat-u ( základní úroveň ) – podzim 2011, příklad č. 10 Body: 1                   Výsledek:  a31 = 100   resp. n = 31 Pracovní tematické zařazení: Aritmetická posloupnost Řešení: <u>1. způsob</u> například  a2 = a1 + d          –132 = –140 + d        8 = d například  100 = a1 + x*d … x je neznámý počet „skoků“ 100 = –140 + x*8          240 = 8x          30 = x 30 „skoků“ ze členu a1 … dostali jsme se na 31. člen … a31 = 100 <u>2. způsob</u> například  a2 = a1 + d          –132 = –140 + d        8 = d kolikátý člen je číslo 100 ? – nevíme, takže obecně n-tý ( čili člen an ) například  an = a1 + ( n – 1 )*d          100 = –140 + ( n – 1 )*8          100 = –140 + 8n – 8 248 = 8n          31 = n          číslo 100 je 31. členem … a31 = 100 -------------------------------------------------6) První dva členy aritmetické posloupnosti jsou . <u>Vypočtěte padesátý člen posloupnosti (a50).</u> Ostrý maturitní test Cermat-u ( základní úroveň ) – jaro 2012, příklad č. 4 Body:  1                  Výsledek: = – 90 Pracovní tematické zařazení: Aritmetická posloupnost Řešení: a2 = a1 + d          54 = 57 + d          –3 = d například  a50  =  a1 + 49d  =  57 + 49 * ( –3 )  =  57 – 147  =  – 90 --------------------------------------------------
+*Podzim 2011, příklad č. 8. Body: 1. Výsledek: $a_{20}=12$.*
 
-<u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Aritmetická posloupnost</u> 7) První dva členy aritmetické posloupnosti jsou . <u>Vypočtěte součet prvních padesáti členů posloupnosti (s50).</u> Ostrý maturitní test Cermat-u ( základní úroveň ) – jaro 2012, příklad č. 5 Body:  1                  Výsledek: = – 825
+Řešení: $d=-132-(-140)=8$. $a_{20}=-140+19\cdot8=12$.
 
-Pracovní tematické zařazení: Aritmetická posloupnost Řešení: sn  = * ( a1  +  an  )          s50  = * ( a1  +  a50  ) … neznáme a50 a2 = a1 + d          54 = 57 + d          –3 = d například  a50  =  a1 + 49d  =  57 + 49 * ( –3 )  =  57 – 147  =  – 90 s50  = * ( a1  +  a50  )  =  25 * [ 57 + (– 90) ]  =  25 * (–33)  =  – 825
+**4)** (Stejná posloupnost.) Vypočtěte součet všech 50 členů.
 
--------------------------------------------------8) První dva členy aritmetické posloupnosti jsou . Kolik prvních členů <u>posloupnosti je třeba sečíst, aby byl součet co největší ?</u> Ostrý maturitní test Cermat-u ( základní úroveň ) – jaro 2012, příklad č. 6 Body:  1                  Výsledek:  19 členů, resp. 20 členů, resp. 19 nebo 20 členů Řešení: a2 = a1 + d          54 = 57 + d          –3 = d … posloupnost je tedy klesající Aby byl součet co největší, musíme jako poslední přičíst poslední kladné číslo a případně ještě nulu ( neboť pak už budou následovat pouze čísla záporná ). Začátek posloupnosti vypadá takto:  57, 54, 51, 48 atd. Snadno zjistíme, že 57 + 19 * (–3)  =  0 … tedy a1 + 19d  =  0 … tedy a20 = 0 Dvacátý člen je 0, pak už následují jen čísla záporná – je tedy třeba sečíst 19 nebo 20 prvních členů posloupnosti.
+*Podzim 2011, příklad č. 9. Body: 1. Výsledek: $s_{50}=2\,800$.*
 
--------------------------------------------------9) Je dán třicátý člen aritmetické posloupnosti = 100 a diference d = 3. Kolikátým členem posloupnosti je číslo 280 ?     A)  60. členem        B)  90. členem <u>C)  120. členem        D) 180. členem        E) členem s jiným pořadím</u> Ostrý maturitní test Cermat-u ( základní úroveň ) – podzim 2012, příklad č. 21 Body: 2                    Výsledek:  B
+Řešení: $s_{50}=\dfrac{50}2(a_1+a_{50})=25\cdot(-140+252)=25\cdot112=2\,800$.
 
-Pracovní tematické zařazení: Aritmetická posloupnost Řešení: <u>1. způsob</u> 280 = a30 + x*d … x je neznámý počet „skoků“          280 = 100 + x*3          60 = x 60 „skoků“ ze členu a30 … dostali jsme se na 90. člen … a90 = 280 <u>2. způsob</u> kolikátý člen je číslo 280 ? – nevíme, takže obecně n-tý ( čili člen an ) an = a30 + ( n – 30 )*d          280 = 100 + ( n – 30 )*3          280 = 100 + 3n – 90          90 = n Číslo 280 je 90. člen
+**5)** (Stejná posloupnost.) Určete, kolikátým členem je číslo 100.
 
---------------------------------------------------
+*Podzim 2011, příklad č. 10. Body: 1. Výsledek: $a_{31}=100$.*
 
-<u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Aritmetická posloupnost</u>
+Řešení: $100=-140+(n-1)\cdot8 \implies100=-140+8n-8 \implies248=8n \implies n=31$.
 
-10) V aritmetické posloupnosti je první člen  a1  = 1  a součet prvních čtyřiceti členů <u>s40  = 1 600. Vypočtěte čtyřicátý člen  a40  této posloupnosti.</u> Ostrý maturitní test Cermat-u ( základní úroveň ) – jaro 2013, příklad č. 10 Body:  1                  Výsledek:
+**6)** První dva členy aritmetické posloupnosti jsou $a_1=57$, $a_2=54$. Vypočtěte $a_{50}$.
 
-Pracovní tematické zařazení: Aritmetická posloupnost Řešení: sn  = * ( a1  +  an  )          s40  = * ( a1  +  a40  )          1 600  =  20 * ( 1 +  a40  )   /: 20 80  =  1 +  a40                     79  =  a40
+*Jaro 2012, příklad č. 4. Body: 1. Výsledek: $a_{50}=-90$.*
 
---------------------------------------------------
+Řešení: $d=54-57=-3$. $a_{50}=57+49\cdot(-3)=57-147=-90$.
 
-11) Čtvrtým a šestým členem aritmetické posloupnosti jsou čísla
+**7)** (Stejná posloupnost.) Vypočtěte $s_{50}$.
 
-<u>Vypočtěte pátý člen této posloupnosti.</u>
+*Jaro 2012, příklad č. 5. Body: 1. Výsledek: $s_{50}=-825$.*
 
-Ostrý maturitní test Cermat-u ( základní úroveň ) – jaro 2013, příklad č. 11 Body:  1                  Výsledek:
+Řešení: $s_{50}=\dfrac{50}2(57+(-90))=25\cdot(-33)=-825$.
 
-Pracovní tematické zařazení: Aritmetická posloupnost Řešení: a6  =  a4 + 2d = + 2d             – =  2d             – : =  d             – * =  d – =  d buď  a5  =  a4 + d               a5  = + ( – )               a5  = a5  =  3 nebo  a6  =  a5 + d =  a5 + ( – ) =  a5                3  =  a5 --------------------------------------------------
+**8)** (Stejná posloupnost, $a_1=57$, $d=-3$.) Kolik prvních členů je třeba sečíst, aby byl součet co největší?
 
-<u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Aritmetická posloupnost</u>
+*Jaro 2012, příklad č. 6. Body: 1. Výsledek: 19, resp. 20 členů.*
 
-12)
+Řešení: posloupnost klesá, součet je největší, když naposled přičítáme poslední kladné číslo (případně i nulu). $57+19\cdot(-3)=0$, tedy $a_{20}=0$ — po něm už jsou jen záporná čísla. Stačí sečíst 19 nebo 20 prvních členů (výsledek stejný, protože $a_{20}=0$).
 
-Vypočtěte v centimetrech, jakou vodorovnou vzdálenost _d_ překonává schodiště na Kocouří vyhlídku.
+**9)** Je dán $a_{30}=100$, $d=3$. Kolikátým členem je číslo 280?
 
-Ostrý maturitní test Cermat-u ( základní úroveň ) – podzim 2013, příklad č. 6 Body: 1                    Výsledek:  3 780 cm
+A) 60. členem   **B) 90. členem**   C) 120. členem   D) 180. členem   E) jiné pořadí
 
-Pracovní tematické zařazení: Aritmetická posloupnost Řešení: neznámý počet schodů … n 1. schod … a1 = 42               poslední schod … an = 0,5                d = – 0,5 an  =  a1 + ( n – 1 )*d          0,5  =  42 + ( n – 1 )*( – 0,5)          0,5  =  42 – 0,5n + 0,5 0,5n  =  42               n = 84               84 * 45 cm  =  3 780 cm
+*Podzim 2012, příklad č. 21. Body: 2.*
 
---------------------------------------------------
+Řešení: $280=100+(n-30)\cdot3 \implies180=3(n-30) \implies n-30=60 \implies n=90$.
 
-<u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Aritmetická posloupnost</u>
+**10)** V posloupnosti je $a_1=1$, $s_{40}=1\,600$. Vypočtěte $a_{40}$.
 
-13)
+*Jaro 2013, příklad č. 10. Body: 1. Výsledek: $a_{40}=79$.*
 
-<u>Vypočtěte v centimetrech výšku</u> _<u>v</u>_ <u>celého schodiště na Kocouří vyhlídku.</u> Ostrý maturitní test Cermat-u ( základní úroveň ) – podzim 2013, příklad č. 7 Body: 1                    Výsledek:  1 785 cm Pracovní tematické zařazení: Aritmetická posloupnost Řešení: neznámý počet schodů … n 1. schod … a1 = 42               poslední schod … an = 0,5                d = – 0,5 an  =  a1 + ( n – 1 )*d          0,5  =  42 + ( n – 1 )*( – 0,5)          0,5  =  42 – 0,5n + 0,5 0,5n  =  42               n = 84 sn  = * ( a1  +  an  )               s84  = * ( a1  +  a84  )               s84  =  42 * ( 42 + 0,5 ) s84  =  1 785 cm --------------------------------------------------
+Řešení: $1\,600=\dfrac{40}2(1+a_{40})=20(1+a_{40})\ /:20 \implies80=1+a_{40} \implies a_{40}=79$.
 
-<u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Aritmetická posloupnost</u>
+**11)** Čtvrtý a šestý člen aritmetické posloupnosti jsou dána čísla *(přesné hodnoty se nedochovaly)*. Vypočtěte pátý člen.
 
-14) Přiřaďte k prvním dvěma členům každé z uvedených posloupností a), b) následující člen ( A – E ).        a) Aritmetická posloupnost: – b) Aritmetická posloupnost: A) B) C) D) E) Ostrý maturitní test Cermat-u ( základní úroveň ) – jaro 2014, příklad č. 26.1, 26.2 Body:  2                  Výsledek:  a) A     b) E
+*Jaro 2013, příklad č. 11. Body: 1.*
 
---------------------------------------------------
+Řešení (dochovaný závěr): $a_5=a_4+d=a_6-d$ — pátý člen leží přesně uprostřed mezi čtvrtým a šestým (aritmetický průměr sousedních členů); dochovaný výsledek je $a_5=3$.
 
-<u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Aritmetická posloupnost</u>
+**12)** Schodiště na Kocouří vyhlídku: šířka prvního schodu $a_1=42$ cm, posledního $0{,}5$ cm, $d=-0{,}5$; hloubka jednoho schodu 45 cm. Vypočtěte vodorovnou vzdálenost $d$ (délku).
 
-15)
+*Podzim 2013, příklad č. 6. Body: 1. Výsledek: 3 780 cm.*
 
-Jak dlouhá je řada korálků ?        A) kratší než 720 mm        B) 730 mm <u>C) 740 mm        D) 750 mm        E) delší než 750 mm</u> Ostrý maturitní test Cermat-u ( základní úroveň ) – podzim 2014, příklad č. 23 Body: 2                    Výsledek:  C
+Řešení: $0{,}5=42+(n-1)(-0{,}5) \implies0{,}5n=42 \implies n=84$. Vodorovná vzdálenost: $84\cdot45=3\,780$ cm.
 
-Pracovní tematické zařazení: Aritmetická posloupnost Řešení:
+**13)** (Stejné schodiště.) Vypočtěte výšku $v$ celého schodiště.
 
-Levá i pravá řada korálků ( bez prostředního korálku ) tvoří aritmetickou posloupnost. Nejprve spočítáme jen délku např. levé řady. Korálků na celém drátě je celkem 61, takže v levé ( a také v pravé ) řadě je 30 korálků. 1. člen = 1. dvojice korálků … a1 = 2*19 = 38 2. člen = 2. dvojice korálků … a2 = 2*18 = 36 3. člen = 3. dvojice korálků … a3 = 2*17 = 34 Atd. … vidíme, že diference d = –2. Počet členů levé řady je 15 ( 15 dvojic = 30 ). sn  = * ( a1  +  an  )          s15  = * ( 38  +  a15  ) … neznáme a15 an  =  a1 + ( n – 1 )*d               a15  =  38 + ( 15 – 1 )*( –2)               a15  =  38 + 14*( –2) a15 = 10 ( poslední dvojice korálků ) s15  = * ( 38  +  a15  )  = * ( 38  +  10 )  = * 48  =  15*24  =  360 ( délka levé řady ) celková délka řady korálků  =  délka levé řady + délka pravé řady + průměr prostředního korálku  =  360 mm + 360 mm + 20 mm  =  740 mm
+*Podzim 2013, příklad č. 7. Body: 1. Výsledek: 1 785 cm.*
 
---------------------------------------------------
+Řešení: $n=84$ (viz úloha 12). $s_{84}=\dfrac{84}2(42+0{,}5)=42\cdot42{,}5=1\,785$ cm.
 
-<u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Aritmetická posloupnost</u>
+**14)** Přiřaďte ke dvěma zadaným posloupnostem a), b) jejich třetí člen. *(Zadání se nedochovalo.)*
 
-16)
+*Jaro 2014, příklad č. 26.1, 26.2. Body: 2. Výsledek: a) A, b) E.*
 
-Jaký je obvod celého obrazce ?     A) 1 688 cm        B) 1 735 cm        C) 1 784 cm D) 1 886 <u>cm        E) jiný obvod</u> Ostrý maturitní test Cermat-u ( základní úroveň ) – jaro 2015, příklad č. 24 Body:  2                  Výsledek:  D
+**15)** Jak dlouhá je řada 61 korálků (levá a pravá řada bez prostředního tvoří AP s $d=-2$)?
 
-Pracovní tematické zařazení: Aritmetická posloupnost Řešení: obvod celého obrazce  =  ( 3*50  +  3*48  +  3*46  +  …  +  3*16 )  +  2*52  = =  ( 150 + 144 + 138 + … + 48 )  +  104 Vidíme, že čísla v závorce tvoří aritmetickou posloupnost s diferencí d = –6 Nejprve vypočítáme součet všech čísel v závorce. sn  = * ( a1  +  an  )               sn  = * ( 150  +  48 ) … neznáme n an  =  a1 + ( n – 1 )*d               48  =  150 + ( n – 1 )*( –6)               48  =  150 – 6n + 6 6n  =  150 + 6 – 48                  6n  =  108                  n = 18 ( počet členů posloupnosti ) sn  = * ( 150  +  48 )  = * ( 150  +  48 )  = 1782 K součtu všech čísel v závorce přičteme 104 ( 2 boční strany obrazce ) … … 1782 cm + 104 cm = 1886 cm
+A) méně než 720 mm   B) 730 mm   **C) 740 mm**   D) 750 mm   E) více než 750 mm
 
---------------------------------------------------
+*Podzim 2014, příklad č. 23. Body: 2.*
 
-<u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Aritmetická posloupnost</u>
+Řešení: v levé (i pravé) řadě je 30 korálků, tj. 15 dvojic. $a_1=2\cdot19=38$, $d=-2$: $a_{15}=38+14\cdot(-2)=10$. $s_{15}=\dfrac{15}2(38+10)=15\cdot24=360$ mm (délka levé řady). Celková délka $=360+360+20=740$ mm (prostřední korálek má průměr 20 mm).
 
-17)
+**16)** Jaký je obvod obrazce (vnořené čtverce, strany $3\cdot50,3\cdot48,\dots,3\cdot16$, plus 2 boční strany po 52)?
 
-<u>Určete počet všech krychlí ( tmavých i světlých ) použitých na stavbu plotu pro n = 99.</u> Ostrý maturitní test Cermat-u ( základní úroveň ) – podzim 2015, příklad č. 7 Body: 1                    Výsledek:  5 149
+A) 1 688 cm   B) 1 735 cm   C) 1 784 cm   **D) 1 886 cm**   E) jiný obvod
 
-Pracovní tematické zařazení: Aritmetická posloupnost Řešení:
+*Jaro 2015, příklad č. 24. Body: 2.*
 
-Z obrázku vidíme, že na 1 bílou krychli připadají 3 tmavé, na 2 bílé 5 tmavých, na 3 bílé 7 tmavých, na 4 bílé 9 tmavých atd. To znamená, že:    počet tmavých krychlí  =  2*počet bílých krychlí + 1 Pro n = 99 ( počet bílých krychlí ) dostáváme:   počet tmavých krychlí  =  2*99 + 1  =  199
+Řešení: čísla v závorce $150,144,138,\dots,48$ tvoří AP s $d=-6$. $48=150+(n-1)(-6) \implies n=18$. $s_{18}=\dfrac{18}2(150+48)=9\cdot198=1\,782$. Celkem $1\,782+104=1\,886$ cm.
 
-Počty bílých krychlí v jednotlivých sloupcích tvoří aritmetickou posloupnost s diferencí d = 1 a1 = 1, a2 = 2, a3 = 3, a4 = 4, … , a99 = 99 sn  = * ( a1  +  an  )          s99  = * ( a1  +  a99  )          s99  =  49,5 * ( 1 + 99 ) s99  =  4950 ( počet bílých krychlí ) <u>počet všech krychlí  =  počet tmavých krychlí + počet bílých krychlí  =  199 + 4950  =  5 149</u>
+**17)** Určete počet všech krychlí (tmavých i světlých) pro $n=99$ bílých krychlí (tmavých $=2n+1$).
 
---------------------------------------------------
+*Podzim 2015, příklad č. 7. Body: 1. Výsledek: 5 149.*
 
-<u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Aritmetická posloupnost</u>
+Řešení: tmavých $=2\cdot99+1=199$. Bílé krychle tvoří AP $1,2,\dots,99$ ($d=1$): $s_{99}=\dfrac{99}2(1+99)=49{,}5\cdot100=4\,950$. Celkem $199+4\,950=5\,149$.
 
-18) V aritmetické posloupnosti platí: = ,      kde _n_ Є N <u>Jaká je diference posloupnosti ?      A) 12,5      B) 5 C) –5      D) –12,5      E) –25</u> Ostrý maturitní test Cermat-u ( základní úroveň ) – jaro 2016, příklad č. 19 Body:  2                  Výsledek:  E Pracovní tematické zařazení: Aritmetická posloupnost Řešení: = … _a_ 1  = =  –12,5 _a_ 2  = =  –37,5 _a_ 2  = _a_ 1 + d               –37,5  =  –12,5 + d               –25 = d -------------------------------------------------19) Je dáno pět po sobě jdoucích členů aritmetické posloupnosti:  4,  x,  y,  z,  –8 Která hodnota vyjadřuje součet  x + y + z   ? A) –2        B) –3 <u>C) –4        D) –6        E) žádná z uvedených</u> Ostrý maturitní test Cermat-u ( základní úroveň ) – podzim 2016, příklad č. 24 Body: 2                    Výsledek:  D
+**18)** V aritmetické posloupnosti platí vzorec pro $a_n$, kde $a_1=-12{,}5$, $a_2=-37{,}5$. Jaká je diference?
 
-Pracovní tematické zařazení: Aritmetická posloupnost Řešení: a1 = 4,  a2 = x,  a3 = y,  a4 = z,  a5 = –8 a5 = a1 + 4d          –8 = 4 + 4d          –12 = 4d          –3 = d zpaměti:  a1 = 4,  a2 = 1,  a3 = –2,  a4 = –5,  a5 = –8 … x + y + z = 1 + (–2) + (–5) =  –6 … D
+A) 12,5   B) 5   C) $-5$   D) $-12{,}5$   **E) $-25$**
 
---------------------------------------------------
+*Jaro 2016, příklad č. 19. Body: 2.*
 
-<u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Aritmetická posloupnost</u>
+Řešení: $d=a_2-a_1=-37{,}5-(-12{,}5)=-25$.
 
-20)
+**19)** Pět po sobě jdoucích členů AP: $4,x,y,z,-8$. Jaká hodnota je $x+y+z$?
 
-<u>Vypočtěte výšku televizní věže. Výsledek uveďte v metrech a nezaokrouhlujte.</u> Ostrý maturitní test Cermat-u ( základní úroveň ) – jaro 2017, příklad č. 6 Body:  2                  Výsledek:  242,25 m     resp. 24 225 cm Pracovní tematické zařazení: Aritmetická posloupnost Řešení: Délky hran krychlí tvoří aritmetickou posloupnost s diferencí d = –5. sn  = * ( a1  +  an  ) … neznáme n an  =  a1 + ( n – 1 )*d               350  =  600 + ( n – 1 )*( –5)               350  =  600 – 5n + 5 5n = 255               n = 51 ( počet členů, tj. počet krychlí ) sn  = * ( a1  +  an  )  = * ( 600 + 350 )  =  25,5 * 950  =  24 225 ( cm ) 24 225 cm  =  242,25 m --------------------------------------------------
+A) $-2$   B) $-3$   C) $-4$   **D) $-6$**   E) žádná z uvedených
 
-<u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Aritmetická posloupnost</u>
+*Podzim 2016, příklad č. 24. Body: 2.*
 
-21)
+Řešení: $a_5=a_1+4d \implies-8=4+4d \implies d=-3$. Členy: $4,1,-2,-5,-8$. $x+y+z=1+(-2)+(-5)=-6$.
 
-Vypočtěte v obsah všech nezakrytých vodorovných ploch televizní věže ( včetně horní stěny nejmenší krychle <u>).</u> Ostrý maturitní test Cermat-u ( základní úroveň ) – jaro 2017, příklad č. 7 Body:  1                  Výsledek:  36 m<sup>2</sup>
+**20)** Televizní věž ze zmenšujících se krychlí, $a_1=600$, $a_n=350$, $d=-5$. Vypočtěte výšku věže v metrech.
 
-Pracovní tematické zařazení: Aritmetická posloupnost Řešení: obsah čtverce ( stěna krychle ):  S = a<sup>2</sup> 1. nezakrytá vodorovná plocha … 600<sup>2</sup> – 595<sup>2</sup> =  5 975 2. nezakrytá vodorovná plocha … 595<sup>2</sup> – 590<sup>2</sup> =  5 925 3. nezakrytá vodorovná plocha … 590<sup>2</sup> – 585<sup>2</sup> =  5 875 4. nezakrytá vodorovná plocha … 585<sup>2</sup> – 580<sup>2</sup> =  5 825 5. nezakrytá vodorovná plocha … 580<sup>2</sup> – 575<sup>2</sup> =  5 775 atd. předposlední nezakrytá vodorovná plocha … 355<sup>2</sup> – 350<sup>2</sup> =  3 525 poslední nezakrytá vodorovná plocha ( stěna nejmenší krychle ) … 350<sup>2</sup> = 122 500 Vidíme, že velikosti 1. až předposlední plochy tvoří aritmetickou posloupnost s diferencí d = –50. sn  = * ( a1  +  an  ) … neznáme n
+*Jaro 2017, příklad č. 6. Body: 2. Výsledek: 242,25 m.*
 
-<u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Aritmetická posloupnost</u>
+Řešení: $350=600+(n-1)(-5) \implies5n=255 \implies n=51$. $s_{51}=\dfrac{51}2(600+350)=25{,}5\cdot950=24\,225$ cm $=242{,}25$ m.
 
-Pokračování příkladu <u>č. 21</u>
+**21)** Vypočtěte obsah všech nezakrytých vodorovných ploch věže (rozdíly čtverců $600^2-595^2,595^2-590^2,\dots$ až po $350^2-345^2$, plus poslední $350^2$).
 
-an  =  a1 + ( n – 1 )*d            3525  =  5975 + ( n – 1 )*( –50)            3525  =  5975 – 50n + 50 50n = 2500               n = 50 ( počet členů, tj. 1. až předposlední nezakrytá plocha ) sn  = * ( a1  +  an  )  = * ( 5975 + 3525 )  =  25 * 9500  =  237 500 ( cm<sup>2</sup> ) … … součet 1. až předposlední nezakryté plochy 237 500 cm<sup>2</sup> + 122 500 cm<sup>2</sup> =  360 000 cm<sup>2</sup> =  36 m<sup>2</sup>
+*Jaro 2017, příklad č. 7. Body: 1. Výsledek: $36\text{ m}^2$.*
 
--------------------------------------------------22) Přiřaďte ke každé posloupnosti ( a) – b) ) její druhý člen a2 ( A – F ). a) Aritmetická posloupnost:  a1 = ,   a6 = –7 b) Aritmetická posloupnost:  a1 = 12,   s4 = 0 A) a2 = 4     B) a2 = 5 <u>C) a2 = 6     D) a2 = 7     E) a2 = 8     F) jiná hodnota a2</u> Ostrý maturitní test Cermat-u ( základní úroveň ) – podzim 2017, příklad č. 25.1, 25.2 Body:  2                  Výsledek:  a) D     b) A
+Řešení: první plochy tvoří AP $a_1=5\,975,\ d=-50$, poslední před nejmenší krychlí $a_n=3\,525$: $3\,525=5\,975+(n-1)(-50) \implies n=50$. $s_{50}=\dfrac{50}2(5\,975+3\,525)=25\cdot9\,500=237\,500\text{ cm}^2$. Plus stěna nejmenší krychle $350^2=122\,500\text{ cm}^2$: celkem $360\,000\text{ cm}^2=36\text{ m}^2$.
 
-Pracovní tematické zařazení: Aritmetická posloupnost Řešení: a) a6 = a1 + 5d               –7 = + 5d               – – =  5d               – = 5d   /: 5 – : 5 = d               – * = d               – = d např.  a2 = a1 + d               a2  = – a2  = a2 = 7 b) sn  = * ( a1  +  an  )               s4  = * ( a1  +  a4  )               0  =  2( 12 +  a4  ) 0  =  24 + 2a4               –12 = a4 a4 = a1 + 3d               –12 = 12 + 3d                –8 = d např.  a2 = a1 + d               a2  =  12 – 8               a2 = 4
+**22)** Přiřaďte posloupnostem a), b) druhý člen $a_2$:
 
---------------------------------------------------
+a) *(zadání se nedochovalo, dochovaný postup vede k $a_2=7$)*
+b) $a_1=12$, $s_4=0$
 
-# <u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Aritmetická posloupnost</u>
+A) $a_2=4$   B) $a_2=5$   C) $a_2=6$   **D) $a_2=7$**   E) $a_2=8$   F) jiná hodnota
 
-1p)
+*Podzim 2017, příklad č. 25.1, 25.2. Body: 2. Výsledek: a) D, b) A.*
 
-<u>Vypočtěte počet květin umístěných v šestém úseku.</u> Ostrý maturitní test Cermat-u ( základní úroveň ) – jaro 2011 PUP, příklad č. 13 Body: 1                  Výsledek:  a6 = 19      resp.  19 Pracovní tematické zařazení: Aritmetická posloupnost Řešení: a1 = 4          d = 3          a6  =  a1 + 5d  =  4 + 5*3  =  19
+Řešení: b) $s_4=\dfrac42(a_1+a_4) \implies0=2(12+a_4) \implies a_4=-12$. $a_4=a_1+3d \implies-12=12+3d \implies d=-8$. $a_2=a_1+d=12-8=4$.
 
--------------------------------------------------2p) Kolik květin je v <u>celé spirále ?</u> Ostrý maturitní test Cermat-u ( základní úroveň ) – jaro 2011 PUP, příklad č. 14 Body: 2                   Výsledek:  Květin je celkem 175.
+---
 
-Pracovní tematické zařazení: Aritmetická posloupnost Řešení: a1 = 4          d = 3          n = 10 sn  = * ( a1  +  an  )          s10  = * ( a1  +  a10  ) … neznáme a10 a10  =  a1 + 9d  =  4 + 9*3  =  31 s10  = * ( a1  +  a10  )  =  5 * ( 4 + 31 )  =  175 --------------------------------------------------
+*Příklady z testů PUP*
 
-<u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Aritmetická posloupnost</u>
+**1p)** Květinový záhon: $a_1=4$, $d=3$. Vypočtěte počet květin v šestém úseku.
 
-3p) V aritmetické posloupnosti je ,  dále je Rozhodněte o každém z následujících tvrzení, zda je pravdivé (ANO), či nikoli (NE): a) b) c) diference d = 20       d) Ostrý maturitní test Cermat-u ( základní úroveň ) – jaro 2011 PUP, příklad č. 16 Body: 2                    Výsledek:  a) NE     b) NE     c) ANO     d) ANO
+*Jaro 2011 PUP, příklad č. 13. Body: 1. Výsledek: $a_6=19$.*
 
-Pracovní tematické zařazení: Aritmetická posloupnost Řešení: a9 – a8  =  20 … takže  a9  =  a8 + 20 … takže d = 20 a) a10 – a9  =  30 … takže  a10  =  a9 + 30 … NE ( zde je diference 30 ) b) a8 – a7  =  10 … takže  a8  =  a7 + 10 … NE ( zde je diference 10 ) c) ANO d) a10  =  a5 + 5d          100  =  a5 + 5*20          100  =  a5 + 100          0 = a5 … ANO
+Řešení: $a_6=4+5\cdot3=19$.
 
--------------------------------------------------1i) V soutěži byly za prvních 6 míst vyplaceny odměny v celkové hodnotě 2 400,– Kč. Nejvyšší odměna byla za první místo, za další umístění se odměny postupně snižovaly, vždy o stejnou částku. Které tvrzení je pravdivé ? A) Součet částek pouze za 1. a 6. místo je roven 800,– Kč. B) Součet částek pouze za 1. a 6. místo je roven 1 200,– Kč. C) Součet částek pouze za 1. a 6. místo je větší než 1 200,– Kč. D) <u>Součet částek pouze za 1. a 6. místo nelze jednoznačně určit.</u> Ilustrační maturitní test Cermat-u ( základní úroveň ) – 2010 (1), příklad č. 14 Body:  3                  Výsledek:  A
+**2p)** (Spirála, $a_1=4$, $d=3$, $n=10$.) Kolik květin je v celé spirále?
 
-Pracovní tematické zařazení: Aritmetická posloupnost Řešení: sn  = * ( a1  +  an  )               s6  = * ( a1  +  a6  )               2400  =  3 * ( a1  +  a6  )   /: 3 800  =  a1  +  a6 … odpověď A
+*Jaro 2011 PUP, příklad č. 14. Body: 2. Výsledek: 175.*
 
---------------------------------------------------
+Řešení: $a_{10}=4+9\cdot3=31$. $s_{10}=\dfrac{10}2(4+31)=5\cdot35=175$.
 
-<u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Aritmetická posloupnost</u>
+**3p)** V AP platí $a_9-a_8=20$. Rozhodněte o pravdivosti:
 
-2i) Posloupnost tvoří sedmnáct po sobě jdoucích přirozených lichých čísel seřazených vzestupně od nejmenšího k největšímu. Prostřední člen je číslo 23. O každém z následujících tvrzení rozhodněte, je-li **pravdivé (** ANO), nebo **nepravdivé** (NE). a) Rozdíl mezi dvěma sousedními členy je 1.          b) <u>c) Všechny členy jsou větší než 5. d) Součet čtyř nejmenších členů je 40.</u> Ilustrační maturitní test Cermat-u ( základní úroveň ) – 2010 (2), příklad č. 20 Body:  3                    Výsledek:  a) NE       b) ANO       c) ANO       d) ANO Pracovní tematické zařazení: Aritmetická posloupnost Řešení: sedmnáct po sobě jdoucích přirozených lichých čísel seřazených vzestupně od nejmenšího k největšímu … n = 17,  d = 2 a9 = 23 a) NE ( d = 2 ) b) a12  =  a9 + 3d               a12  =  23 + 3*2               a12  =  29 … ANO c) nejmenší člen je a1          např.  a9  =  a1 + 8d          23  =  a1 + 8*2          7 = a1 … ANO d) a1 + a2 + a3 + a4  =  7 + 9 + 11 + 13  =  40 … ANO  ( v tomto případě je tento výpočet rychlejší než použití součtového vzorce ) Poznámka: Údaj o počtu členů ( tj. n = 17 ) zde nebyl podstatný. -------------------------------------------------3i) Čtveřice a1, a2, a3, a4, kde  a2  = –20,  a3  = 10,  představuje čtyři po sobě jdoucí členy **aritmetické** posloupnosti. Přiřaďte uvedeným členům a), b) odpovídající hodnoty ( A – F ):    a) a1    b) a4 A) –50     B) –40 <u>C) –10     D) 5     E) 40     F) 50</u> Ilustrační maturitní test Cermat-u ( základní úroveň ) – 2011, příklad č. 22.1, 22.2 Body: 2                    Výsledek:  a) A     b) E Pracovní tematické zařazení: Aritmetická posloupnost Řešení: a) a3  =  a2 + d               10  =  –20 + d               30 = d např.  a2  =  a1 + d               –20  =  a1 + 30               –50  =  a1 b) např.  a4  =  a1 + 3d               a4  =  –50 + 3*30               a4  =  40 --------------------------------------------------
+a) $a_{10}-a_9=20$   b) $a_8-a_7=20$   c) $d=20$   d) $a_{10}=a_5+5d \implies a_5=0$ *(dosazením $a_{10}=100$)*
 
-<u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Aritmetická posloupnost</u>
+*Jaro 2011 PUP, příklad č. 16. Body: 2. Výsledek: a) NE, b) NE, c) ANO, d) ANO.*
 
-4i)
+Řešení: $d=20$ (přímo z $a_9-a_8=20$). a) rozdíl mezi libovolnými sousedními členy AP je vždy stejný, tedy $30$ zde není správně — pravdivé je jen tvrzení s hodnotou $20$, ne $30$: NE. b) obdobně, hodnota $10$ místo $20$: NE. c) $d=20$: ANO. d) $a_{10}=a_5+5d \implies100=a_5+100 \implies a_5=0$: ANO.
 
-Kolik trojúhelníků obsahuje obdobně sestavená síť s 31 trojúhelníky v nejdelší řadě ? A) Méně než 225       B) 225 <u>C) 256       D) 289       E) více než 289</u> Ilustrační maturitní test Cermat-u ( základní úroveň ) – 2013, příklad č. 20 Body: 2                Výsledek:  C
+---
 
-Pracovní tematické zařazení: Aritmetická posloupnost Řešení: síť s 31 trojúhelníky v nejdelší řadě … a1 = 31,  an = 1,  d ( viz obrázek ) = –2,  sn = ? sn  = * ( a1  +  an ) … neznáme n an  =  a1 + ( n – 1 )*d               1  =  31 + ( n – 1 )*( –2)               1  =  31 – 2n + 2 2n = 32               n = 16 sn  = * ( a1  +  an )               s16  = * ( a1  +  a16 )  =  8( 31 + 1 )  =  256 -------------------------------------------------5i) Uvažujme všechna po sobě jdoucí **lichá** čísla od 35 do 135 ( včetně obou uvedených <u>čísel ). Určete jejich počet.</u> Ilustrační maturitní test Cermat-u ( základní úroveň ) – 2014 (1), příklad č. 6 Body: 1        Výsledek:  n = 51 Pracovní tematické zařazení: Aritmetická posloupnost Řešení: všechna po sobě jdoucí lichá čísla od 35 do 135 … a1 = 35,  an = 135,  d = 2,  n = ? an  =  a1 + ( n – 1 )*d               135  =  35 + ( n – 1 )*2               135  =  35 + 2n – 2 102 = 2n               51 = n --------------------------------------------------
+*Ilustrační maturitní testy Cermatu*
 
-<u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Aritmetická posloupnost</u> 6i) Uvažujme všechna po sobě jdoucí **lichá** čísla od 35 do 135 ( včetně obou uvedených <u>čísel ). Určete jejich součet     35 + 37 + … + 135</u> Ilustrační maturitní test Cermat-u ( základní úroveň ) – 2014 (1), příklad č. 7 Body: 1          Výsledek:  4 335
+**1i)** Za prvních 6 míst v soutěži vyplaceno celkem 2 400 Kč (odměny tvoří klesající AP). Které tvrzení je pravdivé?
 
-Pracovní tematické zařazení: Aritmetická posloupnost Řešení: všechna po sobě jdoucí lichá čísla od 35 do 135 … a1 = 35,  an = 135,  d = 2 sn  = * ( a1  +  an ) … neznáme n an  =  a1 + ( n – 1 )*d               135  =  35 + ( n – 1 )*2               135  =  35 + 2n – 2 102 = 2n               51 = n sn  = * ( a1  +  an )               s51  = * ( a1  +  a51 )  =  25,5 * ( 35 + 135 )  =  4 335
+**A) Součet za 1. a 6. místo je 800 Kč.**   B) 1 200 Kč   C) více než 1 200 Kč   D) nelze určit
 
--------------------------------------------------7i)
+*2010 (1), příklad č. 14. Body: 3.*
 
-Jak dlouhá je zeď ?     A) d = 80,3 m      B) d = 79,4 m      C) d = 79 m      D) d = 78,6 m E) d < 78,6 m Ilustrační maturitní test Cermat-u ( základní úroveň ) – 2014 (2), příklad č. 18 Body: 2                    Výsledek:  B
+Řešení: $s_6=\dfrac62(a_1+a_6) \implies2\,400=3(a_1+a_6) \implies a_1+a_6=800$ Kč.
 
-Pracovní tematické zařazení: Aritmetická posloupnost Řešení: Levá i pravá řada krychlí ( bez prostřední krychle ) tvoří aritmetickou posloupnost. Nejprve spočítáme jen délku např. levé řady. sn  = * ( a1  +  an ) … neznáme n ( tj. počet členů, tj. počet krychlí ) an  =  a1 + ( n – 1 )*d               195  =  20 + ( n – 1 )*5               195  =  20 + 5n – 5 180 = 5n               36 = n sn  = * ( a1  +  an )               s36  = * ( a1  +  a36 )  =  18( 20 + 195 )  =  3 870 … délka levé řady ( bez prostřední krychle ) délka celé zdi  =  2*délka levé řady + délka hrany prostřední krychle  =  2*3870 + 200  = =  7 940 ( cm )               7 940 cm = 79,4 m
+**2i)** 17 po sobě jdoucích lichých čísel, prostřední (9.) je 23. Rozhodněte o pravdivosti:
 
---------------------------------------------------
+a) rozdíl sousedních členů je 1   b) $a_{12}=29$   c) všechny členy jsou větší než 5   d) součet čtyř nejmenších je 40
+
+*2010 (2), příklad č. 20. Body: 3. Výsledek: a) NE, b) ANO, c) ANO, d) ANO.*
+
+Řešení: $d=2$ (lichá čísla), $a_9=23$. a) $d=2\neq1$ — NE. b) $a_{12}=a_9+3d=23+6=29$ — ANO. c) $a_1=a_9-8d=23-16=7>5$ — ANO. d) $a_1,a_2,a_3,a_4=7,9,11,13$, součet $=40$ — ANO.
+
+**3i)** V AP je $a_2=-20$, $a_3=10$. Přiřaďte a) $a_1$, b) $a_4$:
+
+A) $-50$   B) $-40$   C) $-10$   D) 5   **E) 40**   F) 50
+
+*2011, příklad č. 22.1, 22.2. Body: 2. Výsledek: a) A, b) E.*
+
+Řešení: $d=a_3-a_2=10-(-20)=30$. $a_1=a_2-d=-20-30=-50$. $a_4=a_1+3d=-50+90=40$.
+
+**4i)** Trojúhelníková síť s 31 trojúhelníky v nejdelší řadě ($a_1=31$, $a_n=1$, $d=-2$). Kolik trojúhelníků celkem?
+
+A) méně než 225   B) 225   **C) 256**   D) 289   E) více než 289
+
+*2013, příklad č. 20. Body: 2.*
+
+Řešení: $1=31+(n-1)(-2) \implies n=16$. $s_{16}=\dfrac{16}2(31+1)=8\cdot32=256$.
+
+**5i)** Kolik je lichých čísel od 35 do 135 (včetně)?
+
+*2014 (1), příklad č. 6. Body: 1. Výsledek: $n=51$.*
+
+Řešení: $a_1=35$, $a_n=135$, $d=2$: $135=35+(n-1)\cdot2 \implies n=51$.
+
+**6i)** Určete součet těchto lichých čísel: $35+37+\dots+135$.
+
+*2014 (1), příklad č. 7. Body: 1. Výsledek: 4 335.*
+
+Řešení: $n=51$ (viz úloha 5i). $s_{51}=\dfrac{51}2(35+135)=25{,}5\cdot170=4\,335$.
+
+**7i)** Zeď z krychlí ($a_1=20$, $a_n=195$, $d=5$, prostřední krychle má hranu 200). Jak dlouhá je zeď?
+
+A) 80,3 m   **B) 79,4 m**   C) 79 m   D) 78,6 m   E) méně než 78,6 m
+
+*2014 (2), příklad č. 18. Body: 2.*
+
+Řešení: $195=20+(n-1)\cdot5 \implies n=36$. $s_{36}=\dfrac{36}2(20+195)=18\cdot215=3\,870$ cm (levá řada bez prostřední krychle). Délka celé zdi $=2\cdot3\,870+200=7\,940$ cm $=79{,}4$ m.
+
+## Zdroje
+
+MATURITA HADR / Matematika / řešené postupy matematických okruhů z DT 2010–2017, dokument *35) Aritmetická posloupnost.pdf*.

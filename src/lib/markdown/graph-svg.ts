@@ -111,6 +111,12 @@ export function renderGraphSvg(spec: GraphSpec): string {
 			const extra = (ySpan - xSpan) / 2;
 			xDomain = [xDomain[0] - extra, xDomain[1] + extra];
 		}
+	} else if (!spec.fn) {
+		// points-only mode: no curve, just markers on a labeled coordinate grid
+		// (e.g. plotting a handful of points in a "read the coordinates" exercise)
+		if (!spec.domain || !spec.yDomain) throw new Error('graph: points-only mode requires domain + yDomain');
+		xDomain = spec.domain;
+		yDomain = spec.yDomain;
 	} else {
 		if (!spec.fn || !spec.domain) throw new Error('graph: function mode requires fn + domain');
 		const { fn, domain } = spec;

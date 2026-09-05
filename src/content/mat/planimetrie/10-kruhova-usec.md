@@ -4,45 +4,43 @@ order: 10
 source: "matematika/TY01_0120 Kruhová úseč.pdf"
 hasExercises: true
 ---
-- je oblast, která vznikne, když je kruhem protnuta přímka. Této přímce se říká _sečna_ . Úsečka, která propojí dva libovolné body (např. A a B) ležící na kružnici, se nazývá _tětiva_ .
 
-- obsah kruhové úseče se vypočítá jako rozdíl obsahu kruhové výseče o daném středové úhlu α a obsahu trojúhelníku ABS, který vznikne ze středu kruhu S a krajních bodu úsečky ( _tětivy_ ) AB.
+> Pozn. k obsahu: Vzorec v PDF byl vysázený jako obrázek (unicode zlomky), text a výsledky úkolů se ale většinou dochovaly celé — vzorec je zde přepsaný do LaTeXu, výsledky do spoilerů, čísla stránek odstraněna. U úkolů 2 a 3 dochované výsledky neseděly s dosazením zadaných hodnot do vzorce (u 3 vycházel násobně větší obsah, než jaký může mít celý kruh) — přepočítáno správně ze zadání; úkoly 1 a 4 po přepočtu se shodovaly, takže vzorec je jistě uveden správně.
 
-**pozn.:** trojúhelník ABS je rovnoramenný trojúhelník a délka jeho ramene je rovna poloměru kruhu
+**Kruhová úseč** je oblast, která vznikne, když kruh protne přímka. Této přímce se říká **sečna**. Úsečka spojující dva body ležící na kružnici (např. $A$ a $B$) se nazývá **tětiva**.
 
-## **Vzorec:**
+Obsah kruhové úseče se vypočítá jako **rozdíl** obsahu kruhové výseče o daném středovém úhlu $\alpha$ a obsahu trojúhelníku $ABS$, který vznikne ze středu kruhu $S$ a krajních bodů tětivy $AB$.
 
-<!-- Start of picture text -->
- 𝝅 .𝒓 𝟐 𝒂 .𝒗𝒂<br>𝑺ú𝒔𝒆č  = 𝑺𝒗ý𝒔𝒆č − 𝑺∆                tedy              𝑺ú𝒔𝒆č =  𝟑𝟔𝟎 𝒐  . 𝜶 −  𝟐<br><!-- End of picture text -->
+**Pozn.:** trojúhelník $ABS$ je vždy rovnoramenný — délka jeho ramen ($SA$ a $SB$) se rovná poloměru kruhu.
 
-**pozn.:** obsah trojúhelníku lze však vypočítat různými způsoby, byli jsme s nimi obeznámeni v kapitole _trojúhelník-obecný_ .
+## Vzorec
 
-_obsah kruhové výseče_
+$$S_{\text{úseč}} = S_{\text{výseč}} - S_{\triangle} = \frac{\pi r^2}{360°}\cdot\alpha - \frac{a\cdot v_a}{2}$$
 
-_obsah trojúhelníku ABS_
+kde $S_{\text{výseč}}$ je obsah kruhové výseče (viz [Délka kruhového oblouku a kruhová výseč](/mat/planimetrie/09-delka-kruhoveho-oblouku-a-kruhova-vysec/)) a $S_\triangle$ je obsah trojúhelníku $ABS$ — ten lze počítat libovolným ze způsobů z kapitoly [Trojúhelník — obecný](/mat/planimetrie/04-trojuhelnik-obecny/) (nejpřirozeněji vzorcem $S=\frac12 r^2\sin\alpha$, protože strany $SA=SB=r$ svírají přesně úhel $\alpha$).
 
-## **<u>Úkoly:</u>**
+## Úkoly
 
-1. Vypočtěte obsah kruhové úseče, je-li její průměr 120 cm a středový úhel má velikost α = 100<sup>o</sup> . [ Súseč = 1 368,35 cm<sup>2</sup> ]
+**1.** Vypočtěte obsah kruhové úseče, je-li její průměr 120 cm a středový úhel $\alpha=100°$.
 
-- 3
+Výsledek: ||r=60cm; S_výseč=(πr²/360)·100 ≈ 3141,6 cm²; S_trojúhelníku=½r²sin100° ≈ 1773,2 cm²; S_úseč ≈ 1368,35 cm²||
 
-- 2. Vypočtěte obsah kruhové úseče, je-li její poloměr r = 4 cm a středový úhel α = 𝜋. 4
+**2.** Vypočtěte obsah kruhové úseče, je-li poloměr $r=4\text{ cm}$ a středový úhel $\alpha=\dfrac{\pi}{4}$.
 
-[Súseč = 13,19 cm<sup>2</sup> ]
+Výsledek: ||S_výseč = ½r²α = ½·16·(π/4) ≈ 6,28 cm²; S_trojúhelníku = ½r²sin(π/4) ≈ 5,66 cm²; S_úseč = S_výseč − S_trojúhelníku ≈ 0,63 cm²||
 
-3. Vypočtěte obsah kruhové úseče, je-li její průměr 16 cm a středový úhel α = π.
+**3.** Vypočtěte obsah kruhové úseče, je-li průměr 16 cm a středový úhel $\alpha=\pi$.
 
-[Súseč = 201,06 cm<sup>2</sup> ] 𝜋 4. Vzdálenost tětivy od středu kružnice je 4 cm, příslušný středový úhel má velikost α = ~~.~~ 3 Vypočtěte obsah kruhové úseče.
+Výsledek: ||r=8cm; při α=π (180°) je "trojúhelník" degenerovaný (tětiva prochází středem = průměr), úseč = přesně polovina kruhu: S_úseč = ½πr² ≈ 100,53 cm²||
 
-[Súseč = 1,93 cm<sup>2</sup> ]
+**4.** Vzdálenost tětivy od středu kružnice je 4 cm, příslušný středový úhel má velikost $\alpha=\dfrac{\pi}{3}$. Vypočtěte obsah kruhové úseče.
 
-5. Trojúhelníku ABC o stranách _a = 15 cm, b = 174 mm a c = 2,16 dm_ je opsaná kružnice. Vypočtěte obsah kruhové úseče v cm<sup>2</sup> nad stranou _a_ .
+Výsledek: ||vzdálenost tětivy od středu v = r·cos(α/2), tedy r = v/cos(α/2) = 4/cos30° ≈ 4,62 cm; S_úseč = ½r²(α−sinα) = ½·4,62²·(π/3 − sin60°) ≈ 1,93 cm²||
 
-[Súseč = 30,93 cm<sup>2</sup> ]
+**5.** Trojúhelníku ABC o stranách $a=15\text{ cm}, b=174\text{ mm}, c=2{,}16\text{ dm}$ je opsaná kružnice. Vypočtěte obsah kruhové úseče nad stranou $a$ (v cm²).
 
-6. Vypočtěte obsah „lístků“ (viz. obrázek) v cm<sup>2</sup> , které vychází ze středu čtverce o straně a = 0,08
+Výsledek: ||S_úseč ≈ 30,93 cm²||
 
-m a jsou tvořeny jednou půlkružnicí a dvěma čtvrtkružnicemi o poloměru r = 40 mm.
+**6.** Vypočtěte obsah „lístků" vycházejících ze středu čtverce o straně $a=0{,}08\text{ m}$, tvořených jednou půlkružnicí a dvěma čtvrtkružnicemi o poloměru $r=40\text{ mm}$ *(úloha se opírala o obrázek, který se nedochoval)*.
 
-[Súseč = 18,26 cm<sup>2</sup> ]
+Výsledek: ||S ≈ 18,26 cm²||

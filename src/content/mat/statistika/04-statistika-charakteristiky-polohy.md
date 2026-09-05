@@ -4,133 +4,106 @@ order: 4
 source: "matematika/TY01_0221_Statistika_-_charakteristiky_polohy.pptx"
 hasExercises: true
 ---
-Charakteristiky polohy Starší bratr snědl svůj oběd a také oběd svého mladšího bratra. V průměru snědl každý jeden oběd
 
-# Průměr
+> Pozn. k obsahu: Zdrojová prezentace (PPTX) obsahovala krátké heslovité body, vzorce jako obrázky a částečně poškozené tabulky — přepsáno do souvislé podoby, vzorce do LaTeXu, čísla dopočítána a ověřena. Odkazovaný pracovní list *průměr příklady.docx* není součástí archivu.
 
-• Hledáme stručnou informaci o statistickém souboru • Jediné číslo, které soubor charakterizuje Hledáme střed _<u>Ale co to je střed?</u>_ Kolik středů můžeme najít?
+*Starší bratr snědl svůj oběd a také oběd svého mladšího bratra. V průměru snědl každý jeden oběd* — ilustrace toho, jak snadno může jediné číslo (průměr) zavádět, pokud se použije bez rozmyslu.
 
-# Aritmetický průměr
+**Charakteristiky polohy** hledají stručnou informaci o statistickém souboru — jediné číslo, které by celý soubor co nejlépe charakterizovalo. Hledáme jakýsi "střed" souboru — ale ukáže se, že středů lze najít víc a každý se hodí na něco jiného.
 
-## Využijte soubor měření výšky
+## Aritmetický průměr
 
-|výška|155|160|165|170|175|180|185|190|
+$$\bar{x} = \frac{\sum_{i=1}^{n} x_i}{n}$$
+
+Součet hodnot znaku zjištěných u všech jednotek souboru, dělený počtem jednotek souboru. U dat seskupených do tabulky četností ($x_i$ s četnostmi $n_i$):
+
+$$\bar{x} = \frac{\sum x_i n_i}{\sum n_i}$$
+
+**Příklad:** Soubor měření výšky (viz [Statistika – grafy](/mat/statistika/03-statistika-grafy/)):
+
+| výška | 155 | 160 | 165 | 170 | 175 | 180 | 185 | 190 |
 |---|---|---|---|---|---|---|---|---|
-|četnost|6|9|20|36|82|35|14|4|
+| četnost | 6 | 9 | 20 | 36 | 82 | 35 | 14 | 4 |
 
-## Která z hodnot nejlépe charakterizuje celý soubor?
+Výsledek: ||n=206; Σxᵢnᵢ = 155·6+160·9+165·20+170·36+175·82+180·35+185·14+190·4 = 35790; x̄ = 35790/206 ≈ 173,74 cm||
 
-Aritmetický průměr Součet hodnot znaku zjištěných u všech jednotek souboru, dělený počtem jednotek souboru
+**Není to ale vždy nejlepší charakteristika souboru.** Nejčastější chybou je aplikace aritmetického průměru tam, kde je na místě jiná statistika — např. průměrný počet ulic v české obci je 13, ale jen 31 z 6250 obcí (méně než 0,5 %) má tento průměrný počet ulic skutečně blízko. Podobně: aritmetický průměr majetku občanů v americkém městě Redmond je velmi vysoké číslo, což ale neznamená, že *typický* obyvatel je bohatý — odráží to jen fakt, že ve městě bydlí i multimiliardář Bill Gates *(převzato z cs.wikipedia.org)*.
 
-# Aritmetický průměr
+**Příklad:** Souborem je 20 členů družstva, znakem jejich roční příjem (v tisících Kč):
 
-## Řešení:
-
-Ale je to vždy ta nejlepší hodnota?
-
-Aritmetický průměr? Nejčastější chybou je aplikace aritmetického průměru tam, kde je na místě využít jinou statistiku. Např. průměrný počet ulic v české obci je 13, jen 31 z 6250 obcí (méně než 0,5 %) má průměrný počet ulic.
-
-Aritmetický průměr? Aritmetický průměr majetku občanů v americkém městě Redmont je velice vysoké číslo, což ovšem neznamená, že _typický_ obyvatel tohoto města je bohatý. Tento fakt pouze odráží tu skutečnost, že v daném městě bydlí multimiliardář Bill Gates
-
-(převzato z _cs.wikipedia.org)_
-
-# Aritmetický průměr?
-
-## Souborem je 20 členů družstva Znakem jejich roční příjem (v tisících Kč):
-
-|Roční<br>příjem|200|240|260|280|350|950|
+| roční příjem | 200 | 240 | 260 | 280 | 350 | 950 |
 |---|---|---|---|---|---|---|
-|četnos<br>t|1|7|6|4|1|1|
+| četnost | 1 | 7 | 6 | 4 | 1 | 1 |
 
-## Vypočítejte aritmetický průměr
+Jaká je průměrná hodnota ročního příjmu? Kolik zaměstnanců má nadprůměrnou mzdu a kolik na průměrnou mzdu nedosáhne?
 
-- Aritmetický průměr
+Výsledek: ||n=20; x̄ = (200·1+240·7+260·6+280·4+350·1+950·1)/20 = 5860/20 = 293 tis. Kč; nadprůměrných (>293): 350 a 950, tedy 2 zaměstnanci; podprůměrných (<293): 200,240(×7),260(×6),280(×4) = 1+7+6+4 = 18 zaměstnanců — 90 % souboru má tedy podprůměrný příjem, průměr zde silně zkresluje jediná extrémní hodnota (950)||
 
-- • Jaká je průměrná hodnota ročního příjmu?
+## Medián
 
-- Kolik zaměstnanců má nadprůměrnou mzdu?
+**Medián** je prostřední hodnota seřazeného souboru. Je-li počet jednotek souboru lichý, je mediánem přímo prostřední hodnota; je-li sudý, je mediánem aritmetický průměr dvou prostředních hodnot.
 
-- Kolik zaměstnanců nedosáhne na průměrnou mzdu?
+Pro soubor ročních příjmů výše (20 hodnot, sudý počet) jsou desátá i jedenáctá hodnota v seřazené posloupnosti rovny 260 (obě padnou do bloku šesti hodnot 260):
 
-- • Lze aritmetický průměr nahradit jinou hodnotou?
+$$\mathrm{Med}(x) = \frac{260+260}{2} = 260 \text{ tis. Kč}$$
 
-Jiný průměr – ale jaký a kdy?
+Na rozdíl od aritmetického průměru (293 tis. Kč) není medián ovlivněn extrémní hodnotou 950 — lépe tak vystihuje "typického" člena souboru.
 
-• Aritmetický průměr používáme, když hodnoty znaku jsou náhodné
+## Modus
 
-• aritmetický průměr nemá smysl: – několik hodnot se výrazně odlišuje od většiny
+**Modus** je hodnota znaku s největší četností. Pro soubor ročních příjmů výše se sedmkrát vyskytuje hodnota 240 tis. Kč:
 
-– hodnotami jsou již nějaká poměrná čísla – hodnoty vykazují systematické odchylky
+$$\mathrm{Mod}(x) = 240 \text{ tis. Kč}$$
 
-– průměrné přírůstky nebo poklesy
+## Vážený průměr
 
-– národohospodářské časové řady
+Používá se tam, kde jsou hodnoty znaku poměrná čísla, např. výnosy plodin v t/ha, hustota obyvatel na km², nebo průměrné známky tříd. Vzorec je stejný jako u aritmetického průměru z tabulky četností — jednotlivé hodnoty se váží počtem jednotek, které reprezentují:
 
-# Medián
+$$\bar{x}_w = \frac{\sum x_i w_i}{\sum w_i}$$
 
-•
+**Příklad:** Ve škole jsou čtyři třídy čtvrtého ročníku, označené A, B, C, D. Průměrné známky jednotlivých tříd z matematiky jsou uvedeny v tabulce. Určete průměrnou známku z matematiky ve všech čtvrtých ročnících dohromady.
 
-# Medián
+| třída | A | B | C | D |
+|---|---|---|---|---|
+| průměrná známka z M | 2,21 | 1,82 | 2,33 | 2,11 |
+| počet žáků | 28 | 24 | 32 | 30 |
 
-Výpočet: sudý počet jednotek souboru desátá hodnota _260 000 Kč_ jedenáctá hodnota _260 000 Kč Med(x) = 260 000 Kč_
+Výsledek: ||Σ(známka·počet) = 2,21·28+1,82·24+2,33·32+2,11·30 = 61,88+43,68+74,56+63,3 = 243,42; Σpočet = 28+24+32+30 = 114; x̄_w = 243,42/114 ≈ 2,14||
 
-# Modus
+## Geometrický průměr
 
-Modus je hodnota znaku s největší četností. Pro předchozí soubor: Sedmkrát se vyskytuje hodnota 240 000 Kč
+Používá se pro **průměrné tempo růstu** za jedno období, kdy máme posloupnost hodnot $x_0, x_1, \dots, x_n$ v obdobích $0,1,\dots,n$ a chceme průměr podílů hodnot za dvě po sobě jdoucí období. Geometrický průměr $n$ čísel je definován jako jejich $n$-tá odmocnina součinu (zavádí se jen pro kladná čísla):
 
-_Mod(x) = 240 000 Kč_
+$$G = \sqrt[n]{x_1\cdot x_2\cdots x_n}$$
 
-# Vážený průměr
+**Příklad:** V tabulce je uveden meziměsíční růst cen určitého výrobku v průběhu roku (v % vzhledem k předchozímu období). Vypočítejte průměrný růst cen za dané období.
 
-Používá se tam, kde jsou hodnoty znaku poměrná čísla, např.: – výnosy plodin v  t/ha – hustota obyvatel na km<sup>2</sup>
-
-– průměrné známky tříd
-
-# Vážený průměr
-
-|**Třída**<br>**A**<br>Ve škole jsou čtyři t<br>označené A, B, C,<br>jednotlivých tříd<br>Určete průměrno<br>~~všech čtvrtých ro~~|**B**<br>**C**<br>**D**<br>řídy čtvrtého ročníku,<br>D. Průměrné známky<br>jsou uvedeny v tabulce.<br>u známku z matematiky ve<br>~~čnících dohromady.~~|
-|---|---|
-|Průměrná<br>známka z M<br>2,21|1,82<br>2,33<br>2,11|
-|Počet žáků<br>28|24<br>32<br>30|
-
-Geometrický průměr Průměrné tempo růstu za jedno období = průměr podílů hodnot za dvě po sobě jdoucí období _z_ Období 0, 1, 2, 3, 4, … n Hodnoty znaku x0, x1, x2, x3, x4,…  xn Průměrné … tempo růstu
-
-Geometrický průměr Geometrický průměr n čísel je definován jako n-tá odmocnina jejich součinu
-
-Geometrický průměr zavádíme pouze pro kladná čísla
-
-# Geometrický průměr
-
-Příklad:
-
-• V tabulce je uveden růst cen určitého výrobku v průběhu jednoho roku. Změna je uvedena v procentech vždy vzhledem k předchozímu období. Vypočítejte průměrný růst cen v daném
-
-|~~roc~~<br>měsíc|~~e.~~<br>1|2|3|4|5|6|7|8|9|10|11|12|
+| měsíc | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-|Ceny<br>(%)|101,5|103,2|102,6|105,1|106,2|102,8|104,6|108,3|110,9|104,1|106,8|107,5|
+| ceny (%) | 101,5 | 103,2 | 102,6 | 105,1 | 106,2 | 102,8 | 104,6 | 108,3 | 110,9 | 104,1 | 106,8 | 107,5 |
 
-Harmonický průměr Harmonický průměr kladných hodnot x1 až xn  je převrácená hodnota aritmetického průměru převrácených hodnot
+Výsledek: ||G = ¹²√(1,015·1,032·1,026·1,051·1,062·1,028·1,046·1,083·1,109·1,041·1,068·1,075) ≈ 1,0527, tedy průměrný meziměsíční růst cen byl přibližně 5,27 %||
 
-# Harmonický průměr
+## Harmonický průměr
 
-Používá se, když:
+**Harmonický průměr** kladných hodnot $x_1,\dots,x_n$ je převrácená hodnota aritmetického průměru jejich převrácených hodnot:
 
-– potřebujeme hodnotu, která zastupuje ostatní, co se týče převrácených hodnot, například při výpočtu průměrné rychlosti na úsecích stejné délky
+$$H = \frac{n}{\sum_{i=1}^n \frac{1}{x_i}}$$
 
-– hodnoty znaku jsou nerovnoměrně rozloženy kolem aritmetického průměru – hodnoty jsou extrémně nízké nebo vysoké
+Používá se, když potřebujeme hodnotu zastupující ostatní z hlediska jejich převrácených hodnot — typicky při výpočtu **průměrné rychlosti na úsecích stejné délky** (ne stejného času!) — nebo když jsou hodnoty znaku nerovnoměrně rozloženy kolem aritmetického průměru či extrémně nízké/vysoké.
 
-# Harmonický průměr Příklad:
+**Příklad:** Stezkou, která vede na vrchol hory, vystupuje turista rychlostí $2{,}5\text{ km/h}$, při sestupu jde stejnou cestou (stejná délka trasy) rychlostí $5\text{ km/h}$. Jaká je jeho průměrná rychlost?
 
-Stezkou, která vede na vrchol hory, vystupuje turista rychlostí 2,5 km/h, při sestupu jde stejnou cestou rychlostí 5 km/h. Jaká je jeho průměrná rychlost?
+Výsledek: ||stejná DÉLKA úseku (ne čas) → harmonický průměr: H = 2/(1/2,5+1/5) = 2/(0,4+0,2) = 2/0,6 ≈ 3,33 km/h (ne aritmetický průměr 3,75 km/h — turista stráví na pomalejším úseku více času, proto pomalejší rychlost váží víc)||
 
-# Úlohy
+## Úlohy
 
-## Pracovní list <u>průměr příklady.docx</u>
+Pracovní list *průměr příklady.docx* obsahuje další procvičovací příklady na jednotlivé typy průměrů.
 
-# Zdroje
+## Zdroje
 
-CALDA, Emil, DUPAČ, Václav. _Matematika pro gymnázia. Kombinatorika, pravděpodobnost, statistika._ Praha: Prometheus, 2006.
+CALDA, Emil, DUPAČ, Václav. *Matematika pro gymnázia. Kombinatorika, pravděpodobnost, statistika.* Praha: Prometheus, 2006.
 
-Wikipedie, otevřená encyklopedie. Průměr. [cit. 20.4.2013]. Dostupné z: http://cs.wikipedia.org/wiki/Průměr
+Wikipedie, otevřená encyklopedie. *Průměr.* [cit. 2013-04-20]. Dostupné z: cs.wikipedia.org/wiki/Průměr
 
-Český statistický úřad. Ceny, inflace. [cit. 5.5.2013]. Dostupné z: htt <u>p://www.czso.cz/csu/redakce.nsf/i/inface_spotrebitelske_cenyl</u>
+Český statistický úřad. *Ceny, inflace.* [cit. 2013-05-05]. Dostupné z: czso.cz

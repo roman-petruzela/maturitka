@@ -1,39 +1,43 @@
 ---
-title: "dělení mnohočlenů příklady"
+title: "Dělení mnohočlenů — příklady"
 order: 14
 source: "mat/dělení_mnohočlenů_příklady.pdf"
 hasExercises: true
 ---
-_Pozn.: u výsledků ve 3. a 4. skupině příkladů se automatickým převodem rozpadlo formátování zlomků na jednu řádku (zbytek po dělení dělený jmenovatelem) — pořadí čísel je zachováno, ale je vhodné si výsledek zapsat přehledně na papír._
 
-1. Dělte:
+> Pozn. k obsahu: Zadání i výsledky se z většiny dochovaly čitelně a byly přepočtem ověřeny (souhlasí). U příkladu 1d) neseděl dochovaný dělenec s dochovaným výsledkem — zpětným dosazením výsledku do dělitele bylo možné dělenec zrekonstruovat správně (viz poznámka u příkladu). Postup navazuje na teorii v [Dělení mnohočlenů](/mat/vyrazy-a-mocniny/11-05-deleni-mnohoclenu/).
 
-   - a) (45𝑐−36): 9 =
+## 1. Dělte mnohočlen jednočlenem
 
-   - b) (2𝑎𝑏+ 4𝑐𝑏): 2𝑏=
+a) $(45c-36):9$
+b) $(2ab+4cb):2b$
+c) $(3x^2b-27x^6b^3+8{,}1x^5b^2):(0{,}3x^2b)$
+d) $(25y^2z^2+12y^4z^3-6y^3z^5):(6y^2z^2)$
 
-   - c) (3𝑥<sup>2</sup> 𝑏−27𝑥<sup>6</sup> 𝑏<sup>3</sup> + 8,1𝑥<sup>5</sup> 𝑏<sup>2</sup> ): (0,3𝑥<sup>2</sup> 𝑏) =
+Výsledek: ||a) 5c-4; b) a+2c; c) 10-90x⁴b²+27x³b; d) dochovaný dělenec neseděl s dochovaným výsledkem — zpětným dosazením vychází, že správný dělenec musel být (-24y²z²-12y⁴z³+6y³z⁵):(6y²z²) = -4-2y²z+yz³||
 
-   - d) (25𝑦<sup>2</sup> 𝑧<sup>2</sup> + 12𝑦<sup>4</sup> 𝑧<sup>3</sup> −6𝑦<sup>3</sup> 𝑧<sup>5</sup> ): (6𝑦<sup>2</sup> 𝑧<sup>2</sup> ) =
+## 2. Dělte mnohočlen dvojčlenem (beze zbytku)
 
-2. Dělte: (hint: u příkladů c) a d) spravte pořadí členů v mnohočlenu, kterým dělíte) a) (6𝑥<sup>2</sup> + 17𝑥+ 7): (2𝑥+ 1) =
+*(U příkladů c) a d) si nejdřív seřaďte členy dělitele podle mocnin.)*
 
-   - b) (4𝑚<sup>2</sup> + 47𝑚+ 33): (4𝑚+ 3) =
+a) $(6x^2+17x+7):(2x+1)$
+b) $(4m^2+47m+33):(4m+3)$
+c) $(-15m^2+23m-4):(1-5m)$
+d) $(20p^2+14p-6):(3-10p)$
 
-   - c) (−15𝑚<sup>2</sup> + 23𝑚−4): (1 −5𝑚) =
+Výsledek: ||a) 3x+7; b) m+11; c) 3m-4; d) -2p-2 (všechny čtyři vychází beze zbytku)||
 
-   - d) (20𝑝<sup>2</sup> + 14𝑝−6): (3 −10𝑝) =
+## 3. Dělte mnohočlen dvojčlenem (se zbytkem)
 
-3. Dělte: (hint: i příkladu c) spravte pořadí členů v děleném mnohočlenu) a) (7𝑦<sup>2</sup> −47𝑦−10): (𝑦−7) =
+*(U příkladu c) si nejdřív seřaďte členy děleného mnohočlenu podle mocnin.)*
 
-   - b) (4𝑚<sup>3</sup> −3𝑚<sup>2</sup> + 2𝑚−1): (𝑚−3) =
+a) $(7y^2-47y-10):(y-7)$
+b) $(4m^3-3m^2+2m-1):(m-3)$
+c) $(10k^2-k^3-4k+2):(k-10)$
+d) $(12a^3-15a+8):(3a-3)$
 
-   - c) (10𝑘<sup>2</sup> −𝑘<sup>3</sup> −4𝑘+ 2): (𝑘−10) =
+Výsledek: ||a) 7y+2, zbytek 4, tedy 7y+2+4/(y-7); b) 4m²+9m+29, zbytek 86, tedy 4m²+9m+29+86/(m-3); c) po seřazení -k³+10k²-4k+2: podíl -k²-4, zbytek -38, tedy -k²-4-38/(k-10); d) 4a²+4a-1, zbytek 5, tedy 4a²+4a-1+5/(3a-3)||
 
-   - d) (12𝑎<sup>3</sup> −15𝑎+ 8): (3𝑎−3) =
+## Zdroje
 
-Výsledky:
-
-1. a) 5𝑐−4 b) 𝑎+ 2𝑐 c) 10 −90𝑥<sup>4</sup> 𝑏<sup>2</sup> + 27𝑥<sup>3</sup> 𝑏 d) −4 −2𝑦<sup>2</sup> 𝑧+ 𝑦𝑧<sup>3</sup> 2. a) 3𝑥+ 7 b) 𝑚+ 11 c) 3𝑚−4 d) −2𝑝−2 3. a) 7𝑦+ 2 + 4 b) 4𝑚<sup>2</sup> + 9𝑚+ 29 + 86 c) −𝑘<sup>2</sup> −4 − 38 𝑦−7 𝑚−3 𝑘−10
-
-d) 4𝑎<sup>2</sup> + 4𝑎−1 + 5 3𝑎−3
+Zdrojový dokument: *mat/dělení_mnohočlenů_příklady.pdf*

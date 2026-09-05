@@ -4,112 +4,63 @@ order: 3
 source: "matematika/TY01_0220_Statistika_-_grafy.pptx"
 hasExercises: true
 ---
-_Při interpretaci statistických údajů buďte opatrní. Každý pátý člověk na světě je sice Číňan, ale kolik je Číňanů mezi vašimi spolužáky?_
 
-# Zpracování statistického šetření
+> Pozn. k obsahu: Zdrojová prezentace (PPTX) obsahovala krátké heslovité body a vložené obrázky grafů (histogramy, výsečové diagramy) — texty přepsány do souvislé podoby, obrázky grafů nahrazeny datovými tabulkami, ze kterých vycházely (čísla se dochovala jako text u obrázků). Odkazované externí soubory (*tabulky.xlsx*, PDF s dopravními nehodami, webové odkazy na ukázky grafů) nejsou součástí archivu — ponechány jako historický záznam bez funkčních odkazů.
 
-## • Tabulka rozdělení četností z předcházející hodiny – měsíce narození
+*Při interpretaci statistických údajů buďte opatrní. Každý pátý člověk na světě je sice Číňan, ale kolik je Číňanů mezi vašimi spolužáky?*
 
-|měsíc|1<br>2|3|4<br>5|6|7|8|9|10|11|12|
-|---|---|---|---|---|---|---|---|---|---|---|
-|četnost|||||||||||
-|relativní<br>četnost|||||||||||
+## Zpracování statistického šetření
 
-Jak vyjádřit údaje z tabulky přehledně, srozumitelně, názorně?
+Navazujeme na tabulku rozdělení četností z minulé hodiny (měsíce narození, viz [Statistika – šetření](/mat/statistika/02-statistika-setreni/)). Otázka zní: jak vyjádřit údaje z tabulky přehledně, srozumitelně a názorně? Odpovědí je **grafické zpracování** — různé typy grafů se hodí na různé typy dat, jak ukazují následující příklady.
 
-Grafické zpracování Ukázka zpracování informací o dopravních nehodách <u>Grafydopravní nehody.pdf 2013_03_informacenehody.pdf</u>
+## Intervaly u spojitých znaků
 
-Ukázky grafického zpracování informací <u>http://www.prazskestromy.cz/index.php?p=10</u>
+U spojitých znaků (např. tělesná výška) není vhodné postupovat po příliš malých krocích (např. po 1 cm) — hodnot by bylo příliš mnoho a graf by byl nepřehledný. Místo toho **sdružujeme hodnoty do intervalů** (např. po 5 cm) a při dalších výpočtech hodnoty zaokrouhlujeme na střed intervalu.
 
-<u>cz/cz/ http://grafy.plaveniny. http://www.cnb.cz/cs/fnancnii _trhy/devizovy_trh devizoveho form /kurzy_ _trhu/grafy_ _js.jsp www. / http:// chemapagro.cz clanky-sumarizace-p okusu-</u> -v-obili.html <u>sunagreen</u>
+Tabulka s intervaly (výška v cm, četnost žáků):
 
-Měření výšky • Není vhodné postupovat po příliš malých krocích –1 cm • Sdružujeme intervaly např. po 5 cm • Hodnoty pak zaokrouhlujeme na střed intervalu • Dvě možnosti, jak vytvořit přehlednou tabulku
-
-# Intervaly
-
-## Tabulka s intervaly
-
-||153-|158-|163-|168-|173-|178-|183-|188-|
+| výška | 153–157 | 158–162 | 163–167 | 168–172 | 173–177 | 178–182 | 183–187 | 188–192 |
 |---|---|---|---|---|---|---|---|---|
-|výška|157|162|167|172|177|182|187|192|
-|četnost|6|9|20|36|82|35|14|4|
+| četnost | 6 | 9 | 20 | 36 | 82 | 35 | 14 | 4 |
 
-## Zaokrouhlení na středy intervalů
+Po zaokrouhlení na středy intervalů:
 
-|výška<br>četnost|155<br>6|160<br>9|165<br>20|170<br>36|175<br>82|180<br>35|185<br>14|190<br>4|
+| výška (cm) | 155 | 160 | 165 | 170 | 175 | 180 | 185 | 190 |
 |---|---|---|---|---|---|---|---|---|
+| četnost | 6 | 9 | 20 | 36 | 82 | 35 | 14 | 4 |
 
-Sloupcový diagram (histogram četnosti) • sloupce stejné šířky • výška odpovídá četnosti • využití barev a obrázků • možnost zpracovat i velké množství údajů
+## Sloupcový diagram (histogram četnosti)
 
-Jak by se řešil případ různě širokých intervalů?
+Sloupce mají stejnou šířku, výška sloupce odpovídá četnosti. Histogram umožňuje využití barev a obrázků a lze jím přehledně zpracovat i velké množství údajů — jako výše uvedená tabulka výšek žáků.
 
-# Intervaly
+K zamyšlení: Jak by se řešil případ intervalů s různou šířkou (histogram by pak sloupce stejné výšky zavádějící zkresloval — je potřeba škálovat výšku sloupce podle *hustoty* četnosti, ne podle četnosti samotné)?
 
-**výška**
+## Výsečový (kruhový) diagram
 
-<!-- Start of picture text -->
-90<br>80<br>70<br>60<br>50<br>40<br>30<br>20<br>10<br>0<br>153-157 158-162 163-167 168-172 173-177 178-182 183-187 188-192<br>četnost<br><!-- End of picture text -->
+Nazývá se také kruhový diagram nebo koláčový graf. Zobrazuje rozdělení četností **kvalitativního** znaku a hodí se pro menší počet hodnot sledovaného znaku — různým hodnotám znaku odpovídají kruhové výseče, jejichž plošné obsahy jsou přímo úměrné četnostem.
 
-#### **intervaly výšek**
+**Příklad:** Soubor 320 žáků školy, znak: volitelný cizí jazyk.
 
-# Střed intervalů
-
-**výška**
-
-<!-- Start of picture text -->
-90<br>80<br>70<br>60<br>50<br>40<br>30<br>20<br>10<br>0<br>155 160 165 170 175 180 185 190<br>výška<br>četnost<br><!-- End of picture text -->
-
-# Výsečový diagram
-
-- Někdy se také nazývá kruhový
-
-- • A někdo mluví o koláčích
-
-- Rozdělení četností kvalitativního znaku
-
-- • Vhodný pro menší počet hodnot sledovaného znaku
-
-- • Různým hodnotám znaku odpovídají kruhové výseče – plošné obsahy jsou přímo úměrné četnostem
-
-Výsečový diagram Soubor : 320 žáků školy Znak: volitelný cizí jazyk
-
-|jazyk|Š|N|R|
+| jazyk | španělština | němčina | ruština |
 |---|---|---|---|
-|četnost|105|176|39|
+| četnost | 105 | 176 | 39 |
 
-Malý počet hodnot znaku, celek jsou všichni žáci školy (100%)   výsečový graf
+Protože jde o malý počet hodnot znaku a celek tvoří všichni žáci školy (100 %), je výsečový graf vhodnou volbou.
 
-# Výsečový graf …
+**Pozor na zkreslení:** stejná data lze vykreslit i zavádějícím způsobem — např. tak, aby menší výseč opticky působila větší (posunutím, 3D efektem nebo nevhodným pořadím barev). Při čtení i tvorbě grafů je vždy dobré ověřit, že velikost výseče skutečně odpovídá podílu, který má reprezentovat.
 
-### **Volitelné cizí jazyky**
+## Spojnicový diagram (polygon četnosti)
 
-<!-- Start of picture text -->
-39<br>105<br>176<br><!-- End of picture text -->
+Vzniká spojením bodů odpovídajících četnosti hodnot sledovaného znaku. Hodí se zejména na sledování změn v čase — např. vývoj teploty, devizových kurzů, výsledků výroby apod. (typický příklad: graf měnového kurzu).
 
-<!-- Start of picture text -->
-Š<br>N<br>R<br><!-- End of picture text -->
+## Úkoly
 
-# … a jak zkreslit výsledky
+V souboru *tabulky.xlsx* zpracujte podle pokynů jednotlivé úkoly. Na každém listu vytvořte jeden nebo i více vhodných grafů, které budou příklady vhodně ilustrovat.
 
-### **Volitelné cizí jazyky**
+## Zdroje
 
-<!-- Start of picture text -->
-176<br>Š<br>39<br>N<br>R<br><!-- End of picture text -->
+CALDA, Emil, DUPAČ, Václav. *Matematika pro gymnázia. Kombinatorika, pravděpodobnost, statistika.* Praha: Prometheus, 2006.
 
-105
+Statistický přehled nehodovosti, březen 2013. [cit. 2013-04-20]. Dostupné z: policie.cz
 
-Spojnicový diagram (polygon četnosti) • Spojení bodů, odpovídajících četnosti hodnot sledovaného znaku • Sledování změn, např. teplota, devizové kurzy, výsledky výroby …
-
-Měnový kurz
-
-# Úkoly
-
-• V souboru _tabulky.xlsx_ zpracujte podle pokynů jednotlivé úkoly. • Na každém listu vytvořte jeden nebo i více vhodných grafů, které budou příklady vhodně ilustrovat.
-
-# Zdroje
-
-CALDA, Emil, DUPAČ, Václav. _Matematika pro gymnázia. Kombinatorika, pravděpodobnost, statistika._ Praha: Prometheus, 2006.
-
-Statistický přehled nehodovosti březen 2013. [cit. 20.4.2013]. Dostupné z: http://www.policie.cz/nehodovost.aspx
-
-<u>://www.cnb.cz</u> Devizové kurzy ČNB. [cit. 20.4.2013]. Dostupné z: http <u>/cs/fnancnii _trhy/devizovy_trh/kurzy_devizoveho_trhu/grafy_for m _js.jsp</u>
+Devizové kurzy ČNB. [cit. 2013-04-20]. Dostupné z: cnb.cz

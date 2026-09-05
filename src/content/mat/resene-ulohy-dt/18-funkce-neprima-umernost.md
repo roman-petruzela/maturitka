@@ -4,66 +4,57 @@ order: 18
 source: "MATURITA HADR/Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/18) Funkce nepřímá úměrnost.pdf"
 hasExercises: true
 ---
-<u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Funkce nepřímá úměrnost</u>
 
-1)
+> Pozn. k obsahu: Úlohy vycházely z grafů/obrázků, které nejsou součástí archivu — konkrétní zadané body a rovnice funkcí ale šlo ve všech případech spolehlivě zrekonstruovat z dochovaného postupu výpočtu.
 
-a)  Vypočtěte konstantu _k_ . b) <u>Vypočtěte souřadnici</u> _<u>x</u>_ bodu _P_ <u>[</u> _<u>x</u>_ <u>; 0,5 ] a souřadnici</u> _<u>y</u>_ bodu _<u>Q</u>_ <u>[ 1;</u> _<u>y</u>_ <u>].</u> Ostrý maturitní test Cermat-u ( základní úroveň ) – jaro 2012, příklad č. 7 Body:  3                  Výsledek:  a) k = 4      b) x = 8, <u>y = 4</u>
+*Příklady z maturitních testů Cermatu (základní úroveň) — Funkce nepřímá úměrnost*
 
-Pracovní tematické zařazení: Funkce nepřímá úměrnost Řešení: a) Bod A[ 2;  2 ] leží na grafu funkce s rovnicí  y = , jeho souřadnice tedy této rovnici vyhovují … 2 = /* 2          4 = k b) k = 4, takže rovnice dané funkce je  y = Bod _P_ [ _x_ ;   0,5 ] leží na grafu funkce s rovnicí  y = , jeho souřadnice tedy této rovnici vyhovují … 0,5 = /* x          0,5x = 4    /: 0,5          x = 8 Bod _Q_ [ 1; _y_ ]. leží na grafu funkce s rovnicí  y = , jeho souřadnice tedy této rovnici vyhovují … y = y = 4 Poznámka: V zadání úlohy chybí informace, že body _P,_ _<u>Q</u>_ leží na grafu zadané funkce. --------------------------------------------------
+**1)** Bod $A[2;2]$ leží na grafu funkce nepřímé úměrnosti $y=\dfrac kx$. a) Vypočtěte konstantu $k$. b) Vypočtěte souřadnici $x$ bodu $P[x;0{,}5]$ a souřadnici $y$ bodu $Q[1;y]$ (oba body leží na stejném grafu).
 
-<u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Funkce nepřímá úměrnost</u>
+*Jaro 2012, příklad č. 7. Body: 3. Výsledek: a) $k=4$, b) $x=8$, $y=4$.*
 
-2)
+Řešení: a) $2=\dfrac k2\ /\cdot2 \implies k=4$.
 
-<u>Vypočtěte hodnotu b.</u> Ostrý maturitní test Cermat-u ( základní úroveň ) – jaro 2015, příklad č. 7 Body:  1                  Výsledek: Pracovní tematické zařazení: Funkce nepřímá úměrnost Řešení: Z grafu vidíme, že na něm leží bod o souřadnicích [ 8;  3 ]. Tyto souřadnice tedy musejí vyhovovat rovnici funkce nepřímá úměrnost, tedy rovnici  y = .... … 3 = /* 8          24 = k k = 24, takže rovnice dané nepřímé úměrnosti je  y = Z grafu vidíme, že na něm leží bod o souřadnicích [ 5;  b ]. Tyto souřadnice tedy musejí vyhovovat rovnici dané funkce, tedy rovnici  y = … b =
+b) Rovnice funkce: $y=\dfrac4x$. Bod $P$: $0{,}5=\dfrac4x\ /\cdot x \implies 0{,}5x=4\ /:0{,}5 \implies x=8$. Bod $Q$: $y=\dfrac41=4$.
 
---------------------------------------------------
+**2)** Z grafu je patrné, že na něm leží bod $[8;3]$ (rovnice funkce $y=\dfrac kx$) a bod $[5;b]$. Vypočtěte hodnotu $b$.
 
-<u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Funkce nepřímá úměrnost</u>
+*Jaro 2015, příklad č. 7. Body: 1. Výsledek: $b=4{,}8$.*
 
-3)
+Řešení: $3=\dfrac k8\ /\cdot8 \implies k=24$, tedy $y=\dfrac{24}x$. Pro bod $[5;b]$: $b=\dfrac{24}5=4{,}8$.
 
-Funkce  f:  y = – je definována pro všechna x Є R \ { 0 }.
+**3)** Funkce $f:y=-\dfrac2x$ je definována pro všechna $x\in\mathbb R\setminus\{0\}$.
 
-a) Sestrojte graf funkce f. Graf musí procházet body A[ –1,   ], B[ 1,   ], C[ 2,   ], jejichž chybějící souřadnice dopočtěte. V záznamovém archu obtáhněte vše propisovací tužkou.
+a) Sestrojte graf funkce $f$. Graf musí procházet body $A[-1;\ ]$, $B[1;\ ]$, $C[2;\ ]$, jejichž chybějící souřadnice dopočtěte.
 
-b) Zapište všechna x, <u>pro něž je hodnota funkce f záporná ( y</u> < 0 ). Ostrý maturitní test Cermat-u ( základní úroveň ) – podzim 2017, příklad č. 8 Body:  2 Výsledek:
+b) Zapište všechna $x$, pro něž je hodnota funkce $f$ záporná ($y<0$).
 
-a) b) x Є ( 0, ∞ )
+*Podzim 2017, příklad č. 8. Body: 2. Výsledek: b) $x\in(0;\infty)$.*
 
-Pracovní tematické zařazení: Funkce nepřímá úměrnost Řešení:
+Řešení: a) dosazením do $y=-\dfrac2x$ dostaneme $A[-1;2]$, $B[1;-2]$, $C[2;-1]$. Jde o funkci nepřímá úměrnost, grafem je hyperbola; protože $k=-2<0$, větve hyperboly leží ve 2. a 4. kvadrantu.
 
-a) Body A[ –1,   ], B[ 1,   ], C[ 2,   ] leží na grafu funkce f, jejich souřadnice tedy musejí vyhovovat rovnici funkce  f:  y = – . Zpaměti snadno vypočteme, že A[ –1, 2 ], B[ 1, –2 ], C[ 2, –1 ]. Dále z rovnice ihned vidíme, že se jedná o funkci nepřímá úměrnost, grafem je tedy hyperbola ( – = … k < 0, takže větve hyperboly se nacházejí ve 2. a
+b) Z grafu (i z výpočtu bodů) je vidět, že záporná funkční hodnota nastává pro $x\in(0;\infty)$.
 
-<u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Funkce nepřímá úměrnost</u>
+---
 
-Pokračování příkladu <u>č. 3</u>
+*Ilustrační maturitní testy Cermatu*
 
-4. kvadrantu ). Výsledný graf viz výše. b) Z grafu ihned vidíme, že záporná funkční hodnota ( tedy y-ová souřadnice ) je v těch číslech ( bodech ) x, <u>pro které platí  x Є ( 0, ∞ ).</u>
+**1i)** Funkce je dána předpisem $y=\dfrac2x$.
 
---------------------------------------------------
+a) V tabulce doplňte chybějící hodnoty funkce (body $[1;2]$, $[2;1]$, $[0{,}5;4]$, $[4;0{,}5]$ atd.).
 
-<u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Funkce nepřímá úměrnost</u>
+b) Sestrojte graf funkce pro $x>0$.
 
-- 1i) Funkce je dána předpisem
+c) Pro kterou hodnotu proměnné $x$ je $y=\dfrac12$?
 
-a) V tabulce doplňte chybějící hodnoty funkce.
+*2010 (2), příklad č. 5. Body: 3. Výsledek: c) $x=4$.*
 
-b) Sestrojte graf funkce pro .
+Řešení: a) bod leží na grafu funkce, když jeho souřadnice vyhovují rovnici $y=\dfrac2x$ — odtud přímo doplníme chybějící hodnoty tabulky.
 
-c) Pro kterou hodnotu proměnné x je ?
+b) V tabulce je výhodnější volit čísla za tu proměnnou, která v rovnici $y=\dfrac2x$ není osamostatněná (tedy za $x$). Kromě bodů $[1;2]$ a $[2;1]$ lze získat i další, např. $[0{,}5;4]$, $[4;0{,}5]$. Jde o nepřímou úměrnost, grafem je jedna větev hyperboly v 1. kvadrantu.
 
-Ilustrační maturitní test Cermat-u ( základní úroveň ) – 2010 (2), příklad č. 5 Body:  3 Výsledek:
+c) Dosadíme $y=\dfrac12$: $\dfrac12=\dfrac2x\ /\cdot2x \implies x=4$.
 
-a) b) <u>graf funkce          c) x = 4</u>
+## Zdroje
 
-Pracovní tematické zařazení: Funkce nepřímá úměrnost Řešení:
-
-a) Bod leží na grafu funkce, když jeho souřadnice vyhovují rovnici této funkce. Výsledek ( viz výše ) je tedy zřejmý.
-
-b) Graf sestrojíme pomocí tabulky. V tabulce je výhodnější volit čísla za tu proměnnou, která v rovnici  y = osamostatněná není ( tedy zde za proměnnou x ). Kromě bodů o souřadnicích [ 1;  2 ] a [ 2;  1 ], které už ve výše uvedené tabulce jsou, můžeme dále získat např. body o souřadnicích [ 0,5;  4 ], [ 4;  0,5 ] atd. Z rovnice je zřejmé, že se jedná o funkci nepřímá úměrnost, takže grafem je hyperbola ( přesněji zde jen 1 její větev nacházející se v 1. kvadrantu ).
-
-c) Do rovnice  y = dosadíme za proměnnou y číslo a řešíme rovnici = /* 2x          4 = x
-
---------------------------------------------------
+MATURITA HADR / Matematika / řešené postupy matematických okruhů z DT 2010–2017, dokument *18) Funkce nepřímá úměrnost.pdf*.

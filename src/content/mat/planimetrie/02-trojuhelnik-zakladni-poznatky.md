@@ -4,110 +4,124 @@ order: 2
 source: "matematika/TY01_0112 Trojúhelník – základní poznatky.pdf"
 hasExercises: true
 ---
-**<u>Trojúhelník</u>**
 
-- rovinný útvar se třemi vrcholy, stranami a třemi vnitřními úhly.
+> Pozn. k obsahu: PDF obsahovalo náčrtky trojúhelníků k jednotlivým úkolům, které se nedochovaly (jde o konstrukční úlohy — zadání i výsledky v hranatých závorkách zůstaly zachované a jsou zde přepsané jako spoilery). Odstraněna čísla stránek, která se vloudila do textu.
 
-- **ozn.:** vrcholy – velké písmena abecedy strany – malé písmena abecedy úhly – písmena řecké abecedy
+**Trojúhelník** je rovinný útvar se třemi vrcholy, stranami a třemi vnitřními úhly.
 
-<!-- Start of picture text -->
-C<br>γ<br>a<br>b<br>α  β<br>A  c  B<br><!-- End of picture text -->
+**Značení:** vrcholy velkými písmeny abecedy (A, B, C), strany malými písmeny abecedy (a, b, c — strana $a$ leží naproti vrcholu $A$ atd.), úhly písmeny řecké abecedy ($\alpha, \beta, \gamma$ — úhel $\alpha$ je u vrcholu $A$ atd.).
 
-# **Základní vlastnosti:**
+## Základní vlastnosti
 
-- **_1) Součet vnitřních úhlu_** –     α + β + γ = 180<sup>o</sup>
+**1) Součet vnitřních úhlů:** $\alpha+\beta+\gamma = 180°$
 
-- **_2) Trojúhelníková nerovnost_** (zda-li jde trojúhelník sestrojit) – _a + b > c_
+**2) Trojúhelníková nerovnost** (rozhoduje, zda lze trojúhelník vůbec sestrojit): musí platit současně
 
-   - _a + c > b b + c > a_
+$$a+b>c, \qquad a+c>b, \qquad b+c>a$$
 
-# **Úkol:**
+(součet libovolných dvou stran musí být větší než strana třetí)
 
-1.  a) Dokažte (sestrojte), zda-li lze sestrojit trojúhelník o stranách _a = 8 cm, b = 5 cm, c = 14 cm_ . [nelze sestrojit]
+## Úkol 1
 
-   - b) Určete velikosti vnitřních úhlu trojúhelníku _ABC_ , jsou-li v poměru  :  :  3 : 4 : 5 [45<sup>o</sup> : 60<sup>o</sup> : 75<sup>o</sup> ]
+**a)** Zjistěte, zda lze sestrojit trojúhelník o stranách $a=8\text{ cm}, b=5\text{ cm}, c=14\text{ cm}$.
 
-   - c) Určete vnitřní úhly v trojúhelníku _ABC_ , platí-li:  2  ,  3  . [1 : 2 : 6  -->  20<sup>o</sup> : 40<sup>o</sup> : 120<sup>o</sup> ]
+Výsledek: ||a+b = 8+5 = 13 < 14 = c, trojúhelníková nerovnost neplatí — nelze sestrojit||
 
-- **_3) Střední příčky_** - úsečky spojující středy stran; rozdělují trojúhelník na čtyři stejné trojúhelníky.
+**b)** Určete velikosti vnitřních úhlů trojúhelníku ABC, jsou-li v poměru $\alpha:\beta:\gamma = 3:4:5$.
 
-# **Úkol:**
+Výsledek: ||3+4+5 = 12 dílů, 180°/12 = 15° na díl, tedy 45° : 60° : 75°||
 
-2. Sestrojte trojúhelník ABC o stranách _a = 8 cm, b = 5 cm, c = 12 cm._ Vyznačte střední příčky tohoto trojúhelníku. Dokažte měřením, že mají stejný obvod, obsah a stejně velké strany.
+**c)** Určete vnitřní úhly trojúhelníku ABC, platí-li mezi nimi poměr $1:2:6$.
 
-1
+Výsledek: ||1+2+6 = 9 dílů, 180°/9 = 20° na díl, tedy 20° : 40° : 120°||
 
-- **_4) Výšky trojúhelníku_** – kolmice jdoucí z vrcholu trojúhelníku na protější stranu. **ozn.:** _va, vb, vc_
+**3) Střední příčky** — úsečky spojující středy stran; rozdělují trojúhelník na čtyři shodné (stejně velké) trojúhelníky.
 
-- **_5) Těžnice trojúhelníku_** – spojnice vrcholu se středem protější strany; bod T – těžiště. **ozn.:** _ta, tb, tc_
+## Úkol 2
 
-**Úkol:**
+Sestrojte trojúhelník ABC o stranách $a=8\text{ cm}, b=5\text{ cm}, c=12\text{ cm}$. Vyznačte střední příčky tohoto trojúhelníku. Dokažte měřením, že vzniklé čtyři trojúhelníky mají stejný obvod, obsah a stejně velké strany.
 
-   3. Sestrojte trojúhelník ABC, jehož všechny strany mají délku 6 cm. Vyznačte na tomto trojúhelníku jeho výšky a těžnice. Co lze z obrázku vyčíst?
+**4) Výšky trojúhelníku** — kolmice jdoucí z vrcholu trojúhelníku na protější stranu (případně na její prodloužení). Značení: $v_a, v_b, v_c$.
 
-- **_6) Rozdělení trojúhelníku podle stran_** - rovnostranný rovnoramenný různostranný (obecný)
+**5) Těžnice trojúhelníku** — spojnice vrcholu se středem protější strany. Všechny tři těžnice se protínají v jednom bodě — **těžišti** $T$. Značení: $t_a, t_b, t_c$.
 
-- **_7) Rozdělení trojúhelníku podle úhlu -_** pravoúhlý ostroúhlý tupoúhlý
+## Úkol 3
 
-**Úkol:**
+Sestrojte trojúhelník ABC, jehož všechny strany mají délku 6 cm (rovnostranný). Vyznačte na něm výšky a těžnice. Co lze z obrázku vyčíst? *(Nápověda: u rovnostranného trojúhelníku výšky, těžnice i osy úhlů splývají.)*
 
-4. Sestrojte všechny typy trojúhelníků podle _úhlů_ ?
+**6) Rozdělení trojúhelníku podle stran:** rovnostranný, rovnoramenný, různostranný (obecný).
 
-2
+**7) Rozdělení trojúhelníku podle úhlů:** pravoúhlý, ostroúhlý, tupoúhlý.
 
-**_8) Kružnice opsaná_** – dotýká se všech vrcholů trojúhelníku; střed leží na průsečíku os stran. **ozn.:** poloměr kružnice – _r_
+## Úkol 4
 
-**_9) Kružnice vepsaná_** – dotýká se stran trojúhelníku; střed leží na průsečíku os vnitřních úhlů. **ozn.:** poloměr kružnice – _ρ_
+Sestrojte alespoň jeden zástupce každého typu trojúhelníku podle úhlů (pravoúhlý, ostroúhlý, tupoúhlý).
 
-# **Úkol:**
+**8) Kružnice opsaná** — dotýká se všech vrcholů trojúhelníku; její střed leží na průsečíku os stran. Značení poloměru: $r$.
 
-5. Sestrojte trojúhelník ABC o stranách _a = 5 cm, b = 7 cm_ a _c = 9 cm_ . Sestrojte kružnici opsanou tomuto trojúhelníku?
+**9) Kružnice vepsaná** — dotýká se všech stran trojúhelníku; její střed leží na průsečíku os vnitřních úhlů. Značení poloměru: $\rho$.
 
-# **_10) Shodnost_**
+## Úkol 5
 
-Trojúhelníky _ABC_ , _A_  _B_  _C_  jsou **shodné** , jestliže je lze přemístit tak, že se kryjí. Zapisujeme:  _ABC_  _A_  _B_  _C_ 
+Sestrojte trojúhelník ABC o stranách $a=5\text{ cm}, b=7\text{ cm}, c=9\text{ cm}$. Sestrojte jemu opsanou kružnici.
 
-# **Věty o shodnosti trojúhelník** u
+## 10) Shodnost trojúhelníků
 
-Pro shodnost trojúhelníku stačí, aby bylo splněno kterékoliv z následujících kritérií (postačující podmínky)
+Trojúhelníky $ABC$ a $A'B'C'$ jsou **shodné**, jestliže je lze přemístit tak, že se kryjí. Zapisujeme $ABC \cong A'B'C'$.
 
-V1: Trojúhelníky jsou shodné, shodují-li se ve třech stranách. (věta _sss_ )
+**Věty o shodnosti trojúhelníků** — pro shodnost stačí, aby platilo kterékoli z těchto kritérií:
 
-V2: Trojúhelníky jsou shodné, shodují-li se ve dvou stranách úhlu jimi sevřeném. ( _sus)_
+- **V1 (sss):** shodují se ve všech třech stranách.
+- **V2 (sus):** shodují se ve dvou stranách a úhlu jimi sevřeném.
+- **V3 (Ssu):** shodují se ve dvou stranách a úhlu proti větší z nich.
+- **V4 (usu):** shodují se v jedné straně a v obou k ní přilehlých úhlech.
 
-V3: Trojúhelníky jsou shodné, shodují-li se ve dvou stranách a úhlu proti větší z nich. ( _Ssu)_ V4: Trojúhelníky jsou shodné, shodují-li se v jedné straně a v obou úhlech k ní přilehlých.( _usu)_
+## 11) Podobnost trojúhelníků
 
-# **_11) Podobnost_**
+Trojúhelníky $ABC$ a $A'B'C'$ jsou **podobné**, právě když existuje kladné číslo $k$ (koeficient podobnosti) takové, že pro délky odpovídajících si stran platí:
 
-Trojúhelníky _ABC_ , _A_  _B_  _C_  jsou **podobné** , právě když existuje kladné číslo _k_ takové, že pro délky stran trojúhelníku platí :
+$$\frac{a}{a'} = \frac{b}{b'} = \frac{c}{c'} = k$$
 
-symbolický zápis:  _ABC_  _A_  _B_  _C_ 
+Zapisujeme $ABC \sim A'B'C'$.
 
-3
+**Příklad:** trojúhelník se stranami $8{,}00,\ 6{,}00,\ 11{,}20$ a trojúhelník se stranami $4{,}00,\ 3{,}00,\ 5{,}60$:
 
-4
+$$\frac{8{,}00}{4{,}00} = \frac{6{,}00}{3{,}00} = \frac{11{,}20}{5{,}60} = 2$$
 
-# **Věty o podobnosti trojúhelník** u
+Podobnost platí i pro úhly — jsou shodné: $\alpha=\alpha'=24{,}4°$, $\beta=\beta'=30{,}0°$.
 
-**V1** Trojúhelníky jsou podobné, shodují – li se ve dvou úhlech. ( _uu_ )
+**Věty o podobnosti trojúhelníků:**
 
-**V2** Trojúhelníky jsou podobné, mají – li sobě rovné poměry dvou stran a shodné úhly jimi sevřené. ( _sus_ )
+- **V1 (uu):** shodují se ve dvou úhlech.
+- **V2 (sus):** mají rovné poměry dvou stran a shodný úhel jimi sevřený.
+- **V3 (Ssu):** mají rovné poměry dvou stran a shodný úhel proti větší z nich.
 
-**V3** Trojúhelníky jsou podobné, mají – li sobě rovné poměry dvou stran a shodné úhly proti vetší z nich. ( _Ssu_ )
+## Úkol 6
 
-<!-- Start of picture text -->
-𝑎 𝑏 𝑐<br>=  =  = 𝑘<br>𝑎´ 𝑏´ 𝑐´<br>8,00 6,00 11,20<br>=  =  = 2<br>4,00 3,00 5,60<br> α =  α´<br> 24,4 o  =  24,4 o<br> β =  β´<br> 30,0 o  =  30,0 o<br><!-- End of picture text -->
+Svislá metrová tyč vrhá stín 150 cm dlouhý. Vypočtěte výšku věže, jejíž stín je ve stejném okamžiku dlouhý 36 metrů.
 
-# **Úkol:**
+Výsledek: ||podobnost trojúhelníků: výška/stín je konstantní poměr, 1 m / 1,5 m = výška / 36 m, výška = 36/1,5 = 24 m||
 
-6. Svislá metrová tyč vrhá stín 150 cm dlouhý. Vypočtete výšku věže, jejíž stín je ve stejném okamžiku dlouhý 36 metru.  [ 24 m]
+## Úkol 7
 
-7. Rozhodněte, zda jsou podobné trojúhelníky o stranách 12 cm, 16cm, 19 cm a 10 cm, 15 cm, 13 cm.  [ nejsou]
+Rozhodněte, zda jsou podobné trojúhelníky o stranách 12 cm, 16 cm, 19 cm a 10 cm, 15 cm, 13 cm.
 
-8. Rozhodněte o podobnosti trojúhelníku s úhly 38°, 55° a v druhém s úhly 55°, 87°.   [ jsou ]
+Výsledek: ||seřazeno: 12,16,19 a 10,13,15. Poměry 12/10=1,2; 16/13≈1,231; 19/15≈1,267 — nejsou si rovné, trojúhelníky nejsou podobné||
 
-9. Trojúhelníkové pole je na plánu 1:50 000 zakresleno jako trojúhelník o stranách 32,5 mm, 23,5 mm a 36 mm. Určete jeho skutečné rozměry.    [ 1625 m, 1175 m, 1800 m]
+## Úkol 8
 
-10. Určete měřítko mapy, je-li les tvaru trojúhelníku o rozměrech 1,6 km , 2,4 km a 2,7 km na mapě zakreslen jako trojúhelník o stranách 32 mm, 48 mm a 54 mm.   [1 : 50 000]
+Rozhodněte o podobnosti trojúhelníku s úhly 38°, 55° a trojúhelníku s úhly 55°, 87°.
 
-5
+Výsledek: ||třetí úhel prvního: 180−38−55=87°, takže první má úhly {38°,55°,87°}. Třetí úhel druhého: 180−55−87=38°, tedy i druhý má úhly {38°,55°,87°} — stejná trojice úhlů, trojúhelníky jsou podobné (věta uu)||
+
+## Úkol 9
+
+Trojúhelníkové pole je na plánu 1:50 000 zakresleno jako trojúhelník o stranách 32,5 mm, 23,5 mm a 36 mm. Určete jeho skutečné rozměry.
+
+Výsledek: ||násobíme měřítkem 50 000: 32,5mm→1625m, 23,5mm→1175m, 36mm→1800m||
+
+## Úkol 10
+
+Určete měřítko mapy, je-li les tvaru trojúhelníku o rozměrech 1,6 km, 2,4 km a 2,7 km na mapě zakreslen jako trojúhelník o stranách 32 mm, 48 mm a 54 mm.
+
+Výsledek: ||32mm/1600000mm = 48mm/2400000mm = 54mm/2700000mm = 1/50000, tedy měřítko 1:50 000||

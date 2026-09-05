@@ -385,7 +385,9 @@ const PEN_WIDTHS = [
 		width: 1.35rem;
 		height: 1.35rem;
 		border-radius: 50%;
-		border: 2px solid transparent;
+		/* a plain transparent border made the black swatch nearly invisible
+		   against the (also dark) toolbar background when not selected */
+		border: 2px solid var(--border);
 		background: var(--swatch-color);
 		cursor: pointer;
 		padding: 0;
@@ -575,6 +577,16 @@ const PEN_WIDTHS = [
 		color: var(--fg);
 		border: 1px solid var(--border);
 		border-radius: 8px;
+	}
+
+	/* MathLive auto-adds its own round virtual-keyboard-toggle AND a round
+	   context-menu button inside the field — both redundant with (and easy
+	   to mistake for) our own .scratchpad-keyboard-toggle button right next
+	   to it, so both are hidden here (documented CSS parts, see mathlive's
+	   mathfield-element.d.ts) */
+	math-field.scratchpad-result::part(virtual-keyboard-toggle),
+	math-field.scratchpad-result::part(menu-toggle) {
+		display: none;
 	}
 
 	.scratchpad-keyboard-toggle {

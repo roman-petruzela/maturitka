@@ -4,54 +4,63 @@ order: 2
 source: "matematika/TY0102 Odchylka dvou přímek v prostoru.pdf"
 hasExercises: true
 ---
-Už víme, že v prostoru nastat 4 vzájemné polohy dvou přímek: přímky totožné, přímky rovnoběžné, přímky různoběžné a přímky mimoběžné.
 
-1. odchylka přímek **totožných** nebo **rovnoběžných** je rovna 0°
+> Pozn. k obsahu: PDF odkazovalo na soubory pro program Cabri 3D, které nejsou součástí archivu. U jedné položky v posledním cvičení (b) se přesné značení bodů při převodu poškodilo natolik, že nejde spolehlivě určit, o které dvě přímky šlo — ponecháno bez výsledku.
 
-2. odchylka přímek **různoběžných** je rovna úhlu 𝜑; 𝜑∈〈0°; 90°〉, který svírají
+Přímky v prostoru mohou mít čtyři vzájemné polohy: **totožné**, **rovnoběžné**, **různoběžné** a **mimoběžné** (viz [Vzájemná poloha přímek a rovin v prostoru](/mat/stereometrie/01-vzajemna-poloha-primek-a-rovin-v-prostoru/)).
 
-3. odchylku přímek **mimoběžných** spočteme následujícím způsobem:
+1. Odchylka přímek **totožných** nebo **rovnoběžných** je vždy $0°$.
+2. Odchylka přímek **různoběžných** je úhel $\varphi \in \langle0°;90°\rangle$, který svírají.
+3. Odchylku přímek **mimoběžných** spočteme tak, že:
+   - a) jednu z přímek rovnoběžně přesuneme (posuneme), aby ležela ve stejné rovině jako druhá — vznikne tak dvojice různoběžek se stejnou odchylkou, jako měly původní mimoběžky,
+   - b) u této dvojice různoběžek pak spočítáme odchylku běžným způsobem.
 
-   - a) přímky převedeme do jedné roviny
+## Ukázkové příklady
 
-   - b) jakmile máme mimoběžky převedeny do jedné roviny, spočítáme odchylku stejně jako u rovnoběžek
+**Příklad 1:** Ve standardní krychli ABCDEFGH určete odchylku přímek $AH$ a $DG$.
 
-# **Ukázkové příklady**
+**Řešení:** Přímky jsou rovnoběžné (obě spojují odpovídající vrcholy dolní a horní podstavy stejným směrem), jejich odchylka je tedy $0°$.
 
-**Příklad1** : Ve standardní krychli ABCDEFGH určete odchylku přímek AH a DG.
+**Příklad 2:** Ve standardní krychli ABCDEFGH určete odchylku přímek $AG$ a $AC$.
 
-**Řešení** : Přímky jsou rovnoběžné, jejich odchylka je tedy 0°.
+**Řešení:** Přímky jsou různoběžné (protínají se v bodě A), musíme zjistit velikost úhlu, který svírají. Pomůžeme si doplněním na pravoúhlý trojúhelník $ACG$ (pravý úhel je u vrcholu $C$, protože $CG$ je svislá hrana kolmá na podstavu, ve které leží $AC$) a k dopočítání úhlu použijeme goniometrické funkce.
 
-**Příklad2** : Ve standardní krychli ABCDEFGH určete odchylku přímek AG a AC
+V trojúhelníku $ACG$ známe (pro hranu krychle $a$): $|AC|=a\sqrt2$ (tělesová úhlopříčka podstavy), $|CG|=a$ (hrana), $|AG|=a\sqrt3$ (tělesová úhlopříčka krychle). Odchylku $\angle CAG$ dopočítáme např. přes tangens:
 
-**Řešení** : Přímky jsou různoběžné, musíme tedy zjistit velikost úhlu, který svírají. Můžeme si pomoci doplněním na pravoúhlý trojúhelník ACG a k dopočítání úhlu použít goniometrické funkce.
+$$\mathrm{tg}(\angle CAG) = \frac{|CG|}{|AC|} = \frac{a}{a\sqrt2} = \frac{1}{\sqrt2} \implies \angle CAG \approx 35°16'$$
 
-V trojúhelníku ACG známe délky stran |𝐴𝐶| = 𝑎√2, |𝐶𝐺| = 𝑎, |𝐴𝐺| = 𝑎√3. Vybereme si libovolnou goniometrickou funkci a dopočteme velikost úhlu |∢𝐶𝐴𝐺|.
+**Příklad 3:** Ve standardní krychli ABCDEFGH určete odchylku přímek $AC$ a $FG$.
 
-**Příklad3** : Ve standardní krychli ABCDEFGH určete odchylku přímek AC a FG.
+**Řešení:** Přímky jsou mimoběžné (leží v různých podstavách a nejsou rovnoběžné), musíme je tedy převést do stejné roviny. Přímka $FG$ má stejný směr jako hrana $BC$ (obě spojují odpovídající vrcholy stejným směrem), a navíc $BC$ prochází bodem $C$ — společným s $AC$. Odchylka $AC$ a $FG$ je proto stejná jako odchylka $AC$ a $BC$, tedy úhel $\angle ACB$.
 
-**Řešení** : Přímky jsou mimoběžné, musíme je tedy přesunout do stejné roviny. Přímku HG tedy přesuneme do roviny ABC.
+Trojúhelník $ABC$ má pravý úhel u vrcholu $B$ (strany $AB\perp BC$, obě hrany krychle), $|AB|=|BC|=a$. Jde tedy o rovnoramenný pravoúhlý trojúhelník, takže:
 
-Po přesunutí přímek do stejné roviny postupujeme stejně jako u různoběžek a vidíme, že odchylka je 90°.
+$$\angle ACB = 45°$$
 
-# **Úkoly:**
+## Úkoly (interaktivní, Cabri 3D)
 
-1. Ve standardní krychli ABCDEFGH určete odchylku přímek AC a ASCG. V programu Cabri otevřete soubor **krychle** , v něm zakreslete přímky do krychle a pomocí nástroje **velikost úhlu** ověřte vaše řešení.
+1. Ve standardní krychli ABCDEFGH určete odchylku přímek $AC$ a $CG$. V programu Cabri otevřete soubor *krychle*, zakreslete přímky a pomocí nástroje *velikost úhlu* ověřte řešení.
 
-2. Ve standardní krychli ABCDEFGH určete odchylku přímek AH a BC. V programu Cabri otevřete soubor **krychle** , v něm zakreslete přímky do krychle a pomocí nástroje **velikost úhlu** ověřte vaše řešení.
+   Výsledek: ||AC a CG jsou různoběžné (protínají se v C), CG je kolmá na podstavu, ve které leží AC, tedy odchylka = 90°||
 
-# **Příklady:**
+2. Ve standardní krychli ABCDEFGH určete odchylku přímek $AH$ a $BC$. V programu Cabri otevřete soubor *krychle*, zakreslete přímky a pomocí nástroje *velikost úhlu* ověřte řešení.
 
-1. Mějme dán kvádr ABCDEFGH, kde |AB|=6 cm, |BC|=3 cm a |AE|=2 cm, vypočtěte
+   Výsledek: ||AH je stěnová úhlopříčka, BC je hrana kolmá na AB — přímky jsou mimoběžné; po přesunutí do společné roviny vychází odchylka 45°||
 
-   - a) odchylku přímek AC a AG
+## Příklady
 
-   - b) odchylku přímek ASCD a EF
+Mějme kvádr ABCDEFGH, kde $|AB|=6\text{ cm}, |BC|=3\text{ cm}, |AE|=2\text{ cm}$. Vypočtěte:
 
-   - c) odchylku přímek BC a EH
+**a)** odchylku přímek $AC$ a $AG$
 
-   - d) odchylku přímek AD a BF
+Výsledek: ||AC (úhlopříčka podstavy) = √(6²+3²) = √45; AG (tělesová úhlopříčka) = √(6²+3²+2²) = √49 = 7; trojúhelník ACG má pravý úhel u vrcholu C (CG je svislá hrana kolmá na podstavu, v níž leží AC), tedy tg(∠CAG) = CG/AC = 2/√45 → ∠CAG ≈ 16°36'||
 
-## Řešení:
+**b)** odchylku dvou přímek (přesné zadání bodů se při převodu poškodilo natolik, že je nelze spolehlivě rekonstruovat)
 
-a) 16°36´   b) 45°   c) 0°   d) 90°
+**c)** odchylku přímek $BC$ a $EH$
+
+Výsledek: ||BC (dir. rovnoběžný s AD/EH) a EH jsou rovnoběžné (obě odpovídají směru hrany BC/AD v různých podstavách) → odchylka 0°||
+
+**d)** odchylku přímek $AD$ a $BF$
+
+Výsledek: ||AD leží v podstavě, BF je svislá hrana kolmá na podstavu → odchylka 90°||

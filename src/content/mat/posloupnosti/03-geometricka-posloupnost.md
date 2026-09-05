@@ -4,113 +4,79 @@ order: 3
 source: "matematika/TY01_0217-Geometricka_posloupnost.pptx"
 hasExercises: true
 ---
-## Osnova
 
-a) pojem geometrická posloupnost b) vzorce + ukázkové příklady c) příklady na procvičení včetně řešení
+> Pozn. k obsahu: Vzorec pro součet geometrické řady byl v PDF vložen jako obrázek, který se zcela ztratil (zůstaly jen prázdné řádky "S₂₀ =") — doplněn standardní vzorec i s novým ukázkovým příkladem, protože původní čísla zadání se nedochovala. U cvičení 2 a 3 obsahoval dochovaný text početní chybu (u příkladu 2 dosazoval do vzorce špatný exponent, u příkladu 3 totéž) — přepočítáno správně od začátku, s poznámkou u obou.
 
-## Geometrická posloupnost
+**Geometrická posloupnost** je taková posloupnost, pro kterou existuje reálné číslo $q$ (nazývané **kvocient**) takové, že pro každé přirozené číslo $n$ platí:
 
-• posloupnost nazýváme geometrickou, právě když existuje reálné číslo _q_ , že pro každé přirozené číslo _n_ je **_an+1 = an . q_** • této hodnotě se říká kvocient; značí se - _q např. q = 3_
+$$a_{n+1} = a_n \cdot q$$
 
-• _posloupnost     1 ,  3 ,  9 ,  27 ,  81 ,  ... .3     .3      .3     .3       stejná hodnota 3_
+Geometrická posloupnost se tedy vždy násobí stejným číslem — např. pro $q=3$:
 
-## Vzorce + ukázkové příklady
+$$1,\ \underbrace{3}_{\times3},\ \underbrace{9}_{\times3},\ \underbrace{27}_{\times3},\ \underbrace{81}_{\times3},\ \dots$$
 
-• vzorec pro výpočet dalšího členu pomocí předcházejícího a kvocientu **_an+1 = an . q_**
+## Vzorce a ukázkové příklady
 
-_Př. a1 = 3 ; q = 4 ; a2 = ? ; a3 = ? a2 = a1 . 4               a3 = a2 . 4 a2 = 3 . 4                a3 = 12 . 4_
+**Výpočet dalšího členu pomocí předcházejícího a kvocientu:**
 
-_2 = 12                   a3 = 48_
+$$a_{n+1} = a_n \cdot q$$
 
-• vzorec pro výpočet libovolného členu pomocí prvního členu a kvocientu **_an = a1 .q_**<sup>**_n - 1_**</sup> _Př. a1 = -7 ; q = -2 ; a5 = ?_
+**Příklad:** $a_1=3$, $q=4$. Určete $a_2$, $a_3$.
 
-_n = a1 . q_<sup>_n-1_</sup> _5 = -7 . (-2)_<sup>_5-1_</sup> _5 = -7 . (-2)_<sup>_4_</sup> _5 = -7 . 16 5 = - 112_
+$$a_2 = a_1\cdot4 = 3\cdot4 = 12, \qquad a_3 = a_2\cdot4 = 12\cdot4 = 48$$
 
-## Vzorce + ukázkové příklady
+**Výpočet libovolného členu pomocí prvního členu a kvocientu:**
 
-• vzorec pro výpočet libovolného členu pomocí nějaké členu a kvocientu **_as = ar . q_**<sup>**_s - r_**</sup> _Př. a3 = -2 ; a7 = - 32; q = ? a7 = a3 . q_<sup>_7-3_</sup> _- 32 = - 2 . q_<sup>_4_</sup> _/ : (-2) 16 =  q_<sup>_4_</sup> _/ 2 = q1 -2 = q2_ !!!
+$$a_n = a_1\cdot q^{n-1}$$
 
-**_pozn.:_** _sudá odmocnina kladného čísla ...           ...      výsledek: 3 a -3 lichá odmocnina kladného čísla ...           ...      výsledek: 2 sudá odmocnina záporného čísla ...             ... výsledek:  NŘ v reál.číslech_
+**Příklad:** $a_1=-7$, $q=-2$. Určete $a_5$.
 
-_lichá odmocnina záporného čísla ...             ... výsledek: - 4_
+$$a_5 = -7\cdot(-2)^{5-1} = -7\cdot(-2)^4 = -7\cdot16 = -112$$
 
-## Vzorce + ukázkové příklady
+**Výpočet libovolného členu pomocí jiného členu a kvocientu:**
 
-- vzorec pro součet konečného počtu členů geometrické posloupnosti **_Sn =_**
+$$a_s = a_r \cdot q^{s-r}$$
 
-- _Př. a1 = 20 ; q =      ; n = 10 ; Sn = ?_
+**Příklad:** $a_3=-2$, $a_7=-32$. Určete $q$.
 
-<!-- Start of picture text -->
-       S20 =<br><!-- End of picture text -->
+$$a_7 = a_3\cdot q^{7-3} \implies -32=-2\cdot q^4 \implies 16=q^4 \implies q=2 \text{ nebo } q=-2$$
 
-<!-- Start of picture text -->
-       S20 =<br><!-- End of picture text -->
+**Pozor:** sudá odmocnina (zde 4.) z kladného čísla má vždy **dva** reálné výsledky (např. $\sqrt[4]{16}=\pm2$), zatímco lichá odmocnina z libovolného čísla má výsledek jediný (např. $\sqrt[3]{-27}=-3$) a sudá odmocnina ze záporného čísla nemá v reálných číslech řešení žádné. Proto zde vychází pro $q$ dvě různá řešení — obě je potřeba uvést, protože další členy posloupnosti (např. $a_4$) pro ně vyjdou různě (pro $q=2$ kladné, pro $q=-2$ se střídavým znaménkem).
 
-<!-- Start of picture text -->
-       S20 =<br><!-- End of picture text -->
+**Součet konečného počtu členů geometrické posloupnosti** (pro $q\neq1$):
 
-<!-- Start of picture text -->
-       S20 =               =<br><!-- End of picture text -->
+$$S_n = a_1\cdot\frac{q^n-1}{q-1}$$
 
-Příklady na procvičení př. 1: Určete tři členy a _a8_ GP, když _a1 = 2; q = 3._ <u>Řešení</u>
+(Pro $q=1$ jsou všechny členy stejné jako $a_1$, takže prostě $S_n=n\cdot a_1$.)
 
-př. 2: Určete první člen a kvocient v GP, když _a3 = 8; a7 = 128._ <u>Řešení</u>
+**Příklad:** $a_1=1$, $q=2$, $n=10$. Určete $S_{10}$.
 
-př. 3: Určete první člen a kvocient v GP, když _a4 = 3; a7 = - 81._ <u>Řešení</u>
+$$S_{10} = 1\cdot\frac{2^{10}-1}{2-1} = \frac{1024-1}{1} = 1023$$
 
-př. 4: Řešte: _a1 = - 6; q = 2; S10 = ?_ <u>Řešení</u>
+## Příklady na procvičení
 
-<u>přeskočit</u>
+**1.** Určete členy $a_2$, $a_3$ a $a_8$ geometrické posloupnosti, když $a_1=2$, $q=-3$.
 
-Řešení př. 1: _a1 =  2 ; q = - 3 ; a2 = ?_ ; _a3 = ? ; a8 = ?_
+Výsledek: ||a₂=a₁·q=2·(-3)=-6; a₃=a₂·q=-6·(-3)=18; a₈=a₁·q⁷=2·(-3)⁷=2·(-2187)=-4374||
 
-_a2 = a1 . q               a3 = a2 . q a2 = 2 . (-3)            a3 = - 6 . (-3) a2 = - 6                   a3 = 18 an = a1 . q_<sup>_n-1_</sup> _a8 =  2 . (-3)_<sup>_8-1_</sup> _a8 =  2 . (-3)_<sup>_7_</sup> _a8 =  2 . (-2187) a8 = - 4374_
+**2.** Určete první člen a kvocient geometrické posloupnosti, když $a_3=8$, $a_7=128$.
 
-### <u>zpět</u>
+Výsledek: ||a₇=a₃·q⁴ → 128=8q⁴ → q⁴=16 → q=2 nebo q=-2; a₃=a₁·q² → 8=a₁·q²; protože q²=4 pro OBĚ hodnoty q, vychází a₁=8/4=2 v obou případech — a₁=2, q=2 nebo q=-2 (pozn.: dochovaný text zde chybně počítal s a₁=8 — vzniklo záměnou exponentu při dosazení do vzorce, správný výsledek je a₁=2)||
 
-#### Řešení př. 2:
+**3.** Určete první člen a kvocient geometrické posloupnosti, když $a_4=3$, $a_7=-81$.
 
-_a3 =  8 ; a8 = 128_ ; _a1 = ? ; q = ?_
+Výsledek: ||a₇=a₄·q³ → -81=3q³ → q³=-27 → q=-3 (lichá odmocnina, jediné řešení); a₄=a₁·q³ → 3=a₁·(-27) → a₁=-1/9 (pozn.: dochovaný text zde chybně dosazoval q⁴ místo q³ a vyšlo mu a₁=-1 — ověřeno zpětným dosazením: a₁=-1/9, q=-3 dává a₂=1/3, a₃=-1, a₄=3 ✓, a₅=-9, a₆=27, a₇=-81 ✓, tedy správný výsledek je a₁=-1/9)||
 
-_= 2 = - 2 ar = as . q_<sup>_r-s_</sup> _<u>q</u>_ _~~<u>1</u>~~_ _<u>q</u>_ _~~<u>1</u>~~ a7 = a3 . q 7-3                          an = a1 . q n-1                                  an = a1 . q n-1_
+**4.** $a_1=-6$, $q=2$. Určete $S_{10}$.
 
-_128 = 8 . q_<sup>_4_</sup> _/ : 8             a7 = a1 . q_<sup>_7-1_</sup> _a7 = a1 . q_<sup>_7-1_</sup>
-
-_16 =  q_<sup>_4_</sup> _/                      128 = a1 . 2_<sup>_4_</sup> _128 = a1 . (-2)_<sup>_4_</sup> _<u>2 = q1                           128 = a1 . 16 /: 16            128 = a1 . 16 /: 16</u> -2 = q2_ _<u>8 = a</u>_ _~~<u>1</u>~~_ _<u>8 = a1</u>_
-
-**pozn.:** sice členy _a1_ vycházejí pro _q1_ i _q2_ stejně ( _a1 = 8_ ) , ale když bychom třeba
-
-řešili člen _a4_ , tak pro _q1_ nám bude vycházet _a4 = 64_ , ale pro _q2_ to bude
-
-_a4 = -64_
-
-<u>zpět</u>
-
-### Řešení př. 3:
-
-_a4 =  3 ; a7 = - 81_ ; _a1 = ? ; q = ?_
-
-_ar = as . q_<sup>_r-s_</sup> _<u>q =</u> - 3 a7 = a4 . q 7-4                                  an = a1 . q n-1 - 81 = 3 . q_<sup>_3_</sup> _/ : 3                  a7 = a1 . q_<sup>_7-1_</sup> _- 27 =  q_<sup>_3_</sup> _/                         - 81 = a1 . (-3)_<sup>_4_</sup>
-
-_- 3 = q                                - 81 = a1 . 81 /: 81_
-
-_- 1 = a_ _<u>1</u>_
-
-<u>zpět</u>
-
-Řešení př. 4: _a1 =  - 6 ; q = 2_ ; _S10 = ?_
-
-<!-- Start of picture text -->
-zpět<br><!-- End of picture text -->
+Výsledek: ||S₁₀=a₁·(q¹⁰-1)/(q-1)=-6·(1024-1)/1=-6·1023=-6138||
 
 ## Shrnutí
 
-• geometrická posloupnost - zvětšuje či zmenšuje se neustále o stejný násobek či podíl – tzv. kvocient • vzorce
+Geometrická posloupnost se neustále násobí stejným číslem — kvocientem $q$.
 
-_an+1 = an . q an = a1 .q_<sup>_n – 1_</sup>
-
-_as = ar . q_<sup>_s – r_</sup>
+$$a_{n+1}=a_n\cdot q \qquad a_n=a_1\cdot q^{n-1} \qquad a_s=a_r\cdot q^{s-r} \qquad S_n=a_1\cdot\frac{q^n-1}{q-1}\ (q\neq1)$$
 
 ## Zdroje
 
-• HUDCOVÁ, Milada a Libuše KUBIČÍKOVÁ. _Sbírka úloh z matematiky pro SOŠ, SOU a nástavbové studium_ . 2. vydání. Havlíčkův Brod: Prometheus, spol. s r.o., 2005. Učebnice pro střední školy. ISBN 80-7196-318-6
+HUDCOVÁ, Milada, KUBIČÍKOVÁ, Libuše. *Sbírka úloh z matematiky pro SOŠ, SOU a nástavbové studium.* 2. vydání. Havlíčkův Brod: Prometheus, 2005. ISBN 80-7196-318-6.

@@ -4,166 +4,147 @@ order: 14
 source: "matematika/TY01_0214_-_Goniometricke_rovnice.pptx"
 hasExercises: true
 ---
+
+> Pozn. k obsahu: Zdrojová prezentace používala animované odrážky a jednotkovou kružnici vloženou jako obrázek, které se při prvním převodu ztratily. Konkrétní hodnoty pravé strany u prvních dvou ukázkových příkladů v podkladu chyběly (zůstal jen výsledný pomocný úhel) — dopočítány zpětně z uvedeného úhlu a ověřeny, že přesně sedí na uvedený výsledek. Text, vzorce a grafy jsou zde doplněné/rekonstruované.
+
 ## Osnova
 
-a) pojem goniometrické rovnice b) ukázkové příklady na goniometrické rovnic
-
-c) příklady na procvičení včetně řešení
+a) pojem goniometrické rovnice, b) ukázkové příklady, c) příklady na procvičení včetně řešení.
 
 ## Goniometrické rovnice
 
-• **_rovnice_** = je to nějaký matematický zápis, ve kterém je zapsáno něco na levé a něco na pravé straně od znaménka rovná se (př. _2x + 3 = 19_ ). V rovnicích je výsledkem vyjádřit, čemu se rovná neznáma           (př. _x = 8_ ).
+**Rovnice** je matematický zápis se dvěma stranami oddělenými znaménkem rovná se (např. $2x+3=19$), jehož řešením je vyjádřit, čemu se rovná neznámá (např. $x=8$).
 
-• **_goniometrická rovnice_** = jde o rovnice, ve kterých se vyskytují goniometrické funkce (př. _cos x = 0,5_ ) .      V goniometrických rovnicích je výsledkem vyjádření velikosti úhlu či úhlů, pro které má rovnice smysl  (př. _x1 = 60_<sup>_o_</sup> a _x2 = 300_<sup>_o_</sup> ).
+**Goniometrická rovnice** je rovnice, ve které se vyskytují goniometrické funkce (např. $\cos x = 0{,}5$). Výsledkem je vyjádření velikosti úhlu (nebo úhlů), pro které má rovnice smysl — typicky dvou úhlů v rozmezí $\langle0°;360°)$, plus **perioda**, protože goniometrické funkce se opakují.
 
-Ukázkový příklad č. 1 _Př. Vyřešte rovnici:   cos x =_
+**Obecný postup:**
 
-_1. nejprve si určíme pomocný úhel x´  tak, že pravou stranu upravíme na tvar     a budeme hledat,pro jaký úhel se cosinus rovna      (to určíme pomocí tabulky základních hodnot nebo pomocí kalkulačky)._
+1. Určíme **pomocný úhel** $x'$ tak, že pravou stranu rovnice hledáme v tabulce základních hodnot nebo pomocí kalkulačky (bereme kladnou hodnotu, tedy bez znaménka).
+2. Zaneseme pomocný úhel do jednotkové kružnice (kružnice o poloměru 1).
+3. Podle znaménka na pravé straně rovnice určíme, ve kterých kvadrantech leží řešení — podle tabulky znamének:
 
-_x_ ´ = 60<sup>o</sup>
-
-_2. nakreslíme tzv. jednotkovou kružnici (kružnice o poloměru jedna) do které tento pomocný úhel od ruky zakreslíme (zaneseme)_
-
-## Ukázkový příklad č. 1
-
-_3. nyní se podíváme na pravou stranu rovnice a zjistíme jaké je tam znaménko (v našem příkladě je tam minus). A tak v jednotkové kružnici dle určitých znalosti (grafu ci tabulky znamének) označíme, který kvadrant je pro funkci cosinus záporný._
-
-<!-- Start of picture text -->
-kvadra I.   II.   III.  IV.<br>nt (0 o ;90 o ) (90 o ;180 o ) (180 o ;270 o ) (270 o ;360 o )<br>cos + - - +<br><!-- End of picture text -->
-
-## Ukázkový příklad č. 1
-
-_4. nyní vyznačíme úhly,které jsou řešením. Začneme v úhlu 0_<sup>_o_</sup> _a pokračujeme k zelené čáře v těch kvadrantech, které jsme si  předem označili znaménkem minus._
-
-_5. napíšeme řešení:   x1 = 180_<sup>_o_</sup> _– x´ = 120_<sup>_o_</sup> _;   x2 = 180_<sup>_o_</sup> _+ x´ = 240_<sup>_o_</sup> _, kde x´ = 60_<sup>_o_</sup>
-
-_6. musíme připsat ještě periodu a máme řešení:_ **_x1 = 120_**<sup>**_o_**</sup> **_+ k.360_**<sup>**_o_**</sup>
-
-**_x2 = 240_**<sup>**_o_**</sup> **_+ k.360_**<sup>**_o_**</sup>
-
-Ukázkový příklad č. 2 _Př. Vyřešte rovnici:   sin x =_
-
-_1. nejprve si určíme pomocný úhel x´  tak, že pravou stranu upravíme na tvar       a budeme hledat,pro jaký úhel se sinus rovna         (to určíme pomocí tabulky základních hodnot nebo pomocí kalkulačky)._
-
-_x_ ´ = 45<sup>o</sup>
-
-_2. nakreslíme tzv. jednotkovou kružnici (kružnice o poloměru jedna) do které tento pomocný úhel od ruky zakreslíme (zaneseme)_
-
-## Ukázkový příklad č. 2
-
-_3. nyní se podíváme na pravou stranu rovnice a zjistíme jaké je tam znaménko (v našem příkladě je tam plus). A tak v jednotkové kružnici dle určitých znalosti (grafu či tabulky znamének) označíme, který kvadrant je pro funkci sinus kladný._
-
-|**kvadrant**|I.<br>(0<sup>o</sup>;90<sup>o</sup>)|II.<br>(90<sup>o</sup>;180<sup>o</sup>)|III.<br>(180<sup>o</sup>;270<sup>o</sup>)|IV.<br>(270<sup>o</sup>;360<sup>o</sup>)|
+| kvadrant | I. (0°;90°) | II. (90°;180°) | III. (180°;270°) | IV. (270°;360°) |
 |---|---|---|---|---|
-|**sin**|+|+|-|-|
+| sin | + | + | − | − |
+| cos | + | − | − | + |
+| tg, cotg | + | − | + | − |
 
-## Ukázkový příklad č. 2
+4. Podle kvadrantů vyznačíme, které úhly jsou řešením, a zapíšeme je pomocí pomocného úhlu $x'$: v I. kvadrantu $x'$, ve II. kvadrantu $180°-x'$, ve III. kvadrantu $180°+x'$, ve IV. kvadrantu $360°-x'$.
+5. Připíšeme periodu: $+k\cdot360°$ pro sinus a cosinus, $+k\cdot180°$ pro tangens a cotangens (mají poloviční periodu).
 
-_4. nyní vyznačíme úhly,které jsou řešením. Začneme v úhlu 0_<sup>_o_</sup> _a pokračujeme k zelené čáře v těch kvadrantech, které jsme si  předem označili znaménkem plus._
+## Ukázkový příklad 1
 
-_5. napíšeme řešení:   x1 = 45_<sup>_o_</sup> _;   x2 = 180_<sup>_o_</sup> _- x´ = 135_<sup>_o_</sup> _, kde x´ = 45_<sup>_o_</sup>
+Řešte rovnici $\cos x = -\dfrac12$.
 
-_6. musíme připsat ještě periodu a máme řešení:_ **_x1 = 45_**<sup>**_o_**</sup> **_+ k.360_**<sup>**_o_**</sup> **_x2 = 135_**<sup>**_o_**</sup> **_+ k.360_**<sup>**_o_**</sup>
+Pomocný úhel: $x' = 60°$ (protože $\cos 60° = \frac12$).
 
-## Ukázkový příklad č. 3
+Na pravé straně je **mínus**, takže hledáme kvadranty, kde je cosinus záporný: **II. a III.** kvadrant.
 
-_Př. Vyřešte rovnici:   cos x = 0,6_
+$$x_1 = 180° - x' = 120°, \qquad x_2 = 180° + x' = 240°$$
 
-_1. nejprve si určíme pomocný úhel x´  tak, že pravou stranu upravíme na tvar 0,6 a budeme hledat,pro jaký úhel se cosinus rovna  0,6 (to určíme pomocí tabulky základních hodnot nebo pomocí kalkulačky)._
+```graph
+{ "fn": "cos(x)", "domain": [0, 6.29], "yDomain": [-1.3, 1.3], "title": "cos x = −1/2", "points": [{"x": 2.094, "y": -0.5, "label": "x₁=120°"}, {"x": 4.189, "y": -0.5, "label": "x₂=240°"}] }
+```
 
-_x_ ´ = 53<sup>o</sup> 7´ 49´´
+**Výsledek:** $x_1 = 120° + k\cdot360°$, $x_2 = 240° + k\cdot360°$, $k\in\mathbb{Z}$
 
-_2. nakreslíme tzv. jednotkovou kružnici (kružnice o poloměru jedna) do které tento pomocný úhel od ruky zakreslíme (zaneseme)_
+## Ukázkový příklad 2
 
-## Ukázkový příklad č. 3
+Řešte rovnici $\sin x = \dfrac{\sqrt2}{2}$.
 
-_3. nyní se podíváme na pravou stranu rovnice a zjistíme jaké je tam znaménko (v našem příkladě je tam plus). A tak v jednotkové kružnici dle určitých znalosti (grafu či tabulky znamének) označíme, který kvadrant je pro funkci cosinus kladný._
+Pomocný úhel: $x' = 45°$ (protože $\sin 45° = \frac{\sqrt2}{2} \approx 0{,}707$).
 
-<!-- Start of picture text -->
-I.   II.    III.   IV.<br>kvadrant<br>(0 o ;90 o ) (90 o ;180 o ) (180 o ;270 o ) (270 o ;360 o )<br>cos + - - +<br><!-- End of picture text -->
+Na pravé straně je **plus**, hledáme kvadranty, kde je sinus kladný: **I. a II.** kvadrant.
 
-## Ukázkový příklad č. 3
+$$x_1 = x' = 45°, \qquad x_2 = 180° - x' = 135°$$
 
-_4. nyní vyznačíme úhly,které jsou řešením. Začneme v úhlu 0_<sup>_o_</sup> _a pokračujeme k zelené čáře v těch kvadrantech, které jsme si  předem označili znaménkem plus._
+```graph
+{ "fn": "sin(x)", "domain": [0, 6.29], "yDomain": [-1.3, 1.3], "title": "sin x = √2/2", "points": [{"x": 0.785, "y": 0.707, "label": "x₁=45°"}, {"x": 2.356, "y": 0.707, "label": "x₂=135°"}] }
+```
 
-_5. napíšeme řešení: x1 = 53_<sup>_o_</sup> _7´ 49´´ ; x2 = 360_<sup>_o_</sup> _- x´= 306_<sup>_o_</sup> _52´11´´ , kde x´ = 53_<sup>_o_</sup> _7´49´´ 6. musíme připsat ještě periodu a máme řešení:_ **_x1 = 53_**<sup>**_o_**</sup> **_7´49´´ + k.360_**<sup>**_o_**</sup> **_x2 = 306_**<sup>**_o_**</sup> **_52´11´´ + k.360_**<sup>**_o_**</sup>
+**Výsledek:** $x_1 = 45° + k\cdot360°$, $x_2 = 135° + k\cdot360°$, $k\in\mathbb{Z}$
 
-## Ukázkový příklad č. 4
+## Ukázkový příklad 3
 
-_Př. Vyřešte rovnici:   tg x = - 0,3_
+Řešte rovnici $\cos x = 0{,}6$.
 
-_1. nejprve si určíme pomocný úhel x´  tak, že pravou stranu upravíme na tvar 0,3 a budeme hledat,pro jaký úhel se tangens rovna  0,3 (to určíme pomocí tabulky základních hodnot nebo pomocí kalkulačky)._
+Pomocný úhel (z kalkulačky): $x' \approx 53°7'49''$.
 
-   - ´ = 16<sup>o</sup> 41´57´´
+Znaménko je **plus**, hledáme kvadranty **I. a IV.**
 
-_2. nakreslíme tzv. jednotkovou kružnici (kružnice o poloměru jedna) do které tento pomocný úhel od ruky zakreslíme (zaneseme) – u funkce tangens a cotanges stačí pouze půlkružnice, protože mají periodu 180_<sup>_o_</sup> _._
+$$x_1 = x' = 53°7'49'', \qquad x_2 = 360° - x' = 306°52'11''$$
 
-## Ukázkový příklad č. 4
+**Výsledek:** $x_1 \approx 53°7'49'' + k\cdot360°$, $x_2 \approx 306°52'11'' + k\cdot360°$
 
-_3. nyní se podíváme na pravou stranu rovnice a zjistíme jaké je tam znaménko (v našem příkladě je tam minus). A tak v jednotkové kružnici dle určitých znalosti (grafu či tabulky znamének) označíme, který kvadrant je pro funkci tangens záporný._
+## Ukázkový příklad 4
 
-|**kvadrant**|I.<br>(0<sup>o</sup>;90<sup>o</sup>)|II.<br>(90<sup>o</sup>;180<sup>o</sup>)|III.<br>(180<sup>o</sup>;270<sup>o</sup>)|IV.<br>(270<sup>o</sup>;360<sup>o</sup>)|
-|---|---|---|---|---|
-|**tg**|+|-|+|-|
+Řešte rovnici $\mathrm{tg}\,x = -0{,}3$.
 
-## Ukázkový příklad č. 4
+Pomocný úhel: $x' \approx 16°41'57''$.
 
-_4. nyní vyznačíme úhly,které jsou řešením. Začneme v úhlu 0_<sup>_o_</sup> _a pokračujeme k zelené čáře v těch kvadrantech, které jsme si  předem označili znaménkem minus._
+**Pozn.:** u tangens a cotangens stačí do jednotkové kružnice kreslit jen půlkružnici, protože mají periodu jen $180°$.
 
-_5. napíšeme řešení: x = 180_<sup>_o_</sup> _- x´= 163_<sup>_o_</sup> _18´ 3´´ , kde x´ = 16_<sup>_o_</sup> _41´57´´_
+Znaménko je **mínus**, hledáme kvadranty **II. a IV.** — ale protože perioda je jen 180°, obě řešení se liší přesně o 180° a stačí zapsat jedno s periodou 180°:
 
-_6. musíme připsat ještě periodu a máme řešení:_ **_x = 163_**<sup>**_o_**</sup> **_18´ 3´´ + k.180_**<sup>**_o_**</sup>
+$$x = 180° - x' = 163°18'3''$$
 
-Příklady na procvičení př. 1 _:       Vyřešte rovnici:    cos x =_ <u>Řešení</u> př. 2: _Vyřešte rovnici:    cotg x =_ <u>Řešení</u> př. 3: _Vyřešte rovnici:    sin x =  - 0,74_ <u>Řešení</u> př. 4: _Vyřešte rovnici:    tg x = - 3,25_ <u>Řešení</u> př. 5: _Vyřešte rovnici:    2(sin x + 0,5) = 2_ <u>Řešení</u>
+**Výsledek:** $x = 163°18'3'' + k\cdot180°$
 
-<u>přeskočit</u>
+## Příklady na procvičení
 
-Řešení příkladu č.1: _Vyřešte rovnici:    cos x = x_ ´ = 30<sup>o</sup> -  pomocný úhel
+**Příklad 1:** Řešte rovnici $\cos x = -\dfrac{\sqrt3}{2}$.
 
-_Řešení:  x1 = 180_<sup>_o_</sup> _– x´ =_ **_150_**<sup>**_o_**</sup> **_+ k.360_**<sup>**_o_**</sup> _x2 = 180_<sup>_o_</sup> _+ x´ =_ **_210_**<sup>**_o_**</sup> **_+ k.360_**<sup>**_o_**</sup>
+Výsledek:
 
-<u>zpět</u>
+- pomocný úhel: ||x' = 30° (cos 30° = √3/2)||
+- znaménko mínus → kvadranty: ||II. a III.||
+- výsledek: ||x₁ = 180° − 30° = 150° + k·360°,  x₂ = 180° + 30° = 210° + k·360°||
 
-Řešení příkladu č.2: _Vyřešte rovnici:    cotg x =_
+---
 
-_x_ ´ = 30<sup>o</sup> -  pomocný úhel
+**Příklad 2:** Řešte rovnici $\mathrm{cotg}\,x = -\sqrt3$.
 
-_Řešení:  x = 180_<sup>_o_</sup> _– x´ =_ **_150_**<sup>**_o_**</sup> **_+ k.180_**<sup>**_o_**</sup>
+Výsledek:
 
-<u>zpět</u>
+- pomocný úhel: ||x' = 30° (cotg 30° = √3)||
+- znaménko mínus, perioda 180° → ||x = 180° − 30° = 150° + k·180°||
 
-Řešení příkladu č.3: _Vyřešte rovnici:    sin x = - 0,74 x_ ´ = 47<sup>o</sup> 43´ 53´´ -  pomocný úhel
+---
 
-_Řešení:  x1 = 180_<sup>_o_</sup> _+ x´ =_ **_227_**<sup>**_o_**</sup> **_43´53´´ + k.360_**<sup>**_o_**</sup> _x2 = 360_<sup>_o_</sup> _- x´ =_ **_312_**<sup>**_o_**</sup> **_16´ 7´´ + k.360_**<sup>**_o_**</sup>
+**Příklad 3:** Řešte rovnici $\sin x = -0{,}74$.
 
-<u>zpět</u>
+Výsledek:
 
-Řešení příkladu č.4: _Vyřešte rovnici:    tg x = - 3,25_
+- pomocný úhel: ||x' ≈ 47°43'53''||
+- znaménko mínus → kvadranty III. a IV.
+- výsledek: ||x₁ = 180° + 47°43'53'' = 227°43'53'' + k·360°,  x₂ = 360° − 47°43'53'' = 312°16'7'' + k·360°||
 
-_x_ ´ = 72<sup>o</sup> 53´ 50´´ -  pomocný úhel
+---
 
-_Řešení:  x = 180_<sup>_o_</sup> _– x´ =_ **_107_**<sup>**_o_**</sup> **_6´10´´ + k.180_**<sup>**_o_**</sup>
+**Příklad 4:** Řešte rovnici $\mathrm{tg}\,x = -3{,}25$.
 
-<u>zpět</u>
+Výsledek:
 
-Řešení příkladu č.5: _Vyřešte rovnici:    2(sin x + 0,5) = 2 2.sin x + 1 = 2   / -1 2.sin x = 1   / :2 sin x = x_ ´ = 30<sup>o</sup> -  pomocný úhel
+- pomocný úhel: ||x' ≈ 72°53'50''||
+- znaménko mínus, perioda 180° → ||x = 180° − 72°53'50'' = 107°6'10'' + k·180°||
 
-_Řešení:  x1 =_ **_30_**<sup>**_o_**</sup> **_+ k.360_**<sup>**_o_**</sup> _x2 = 180_<sup>_o_</sup> _- x´ =_ **_150_**<sup>**_o_**</sup> **_+ k.360_**<sup>**_o_**</sup>
+---
 
-<u>zpět</u>
+**Příklad 5:** Řešte rovnici $2(\sin x + 0{,}5) = 2$.
+
+Výsledek:
+
+- úprava: ||2sinx + 1 = 2, 2sinx = 1, sin x = 1/2||
+- pomocný úhel: ||x' = 30°||
+- znaménko plus → kvadranty I. a II.
+- výsledek: ||x₁ = 30° + k·360°,  x₂ = 180° − 30° = 150° + k·360°||
 
 ## Shrnutí
 
-- goniometrické rovnice – rovnice, ve kterých se vyskytují goniometrické funkce
-
-- Postup
-
-- pomocný úhel, který zjistíme z tabulky základních hodnot nebo pomocí kalkulačky a který následně zanášíme do tzv. jednotkové kružnice
-
-- je třeba znát znaménka v jednotlivých kvadrantech daných goniometrických funkcí
-
-- u výsledných řešení nesmíme zapomenout dopsat periodu
+- Goniometrická rovnice obsahuje goniometrické funkce; řešením je úhel (nebo úhly) splňující rovnici, plus perioda.
+- Postup: najít pomocný úhel $x'$ (z tabulky/kalkulačky), zjistit podle znaménka pravé strany správné kvadranty, zapsat řešení pomocí $x'$ a doplnit periodu.
+- Perioda je $360°$ pro sinus a cosinus, $180°$ pro tangens a cotangens.
 
 ## Zdroje
 
-• HUDCOVÁ, Milada a Libuše KUBIČÍKOVÁ. _Sbírka úloh z matematiky pro SOŠ, SOU a nástavbové studium_ . 2. vydání. Havlíčkův Brod: Prometheus, spol. s r.o., 2005. Učebnice pro střední školy. ISBN 80-7196-318-6
+HUDCOVÁ, Milada a Libuše KUBIČÍKOVÁ. _Sbírka úloh z matematiky pro SOŠ, SOU a nástavbové studium_. 2. vydání. Havlíčkův Brod: Prometheus, spol. s r.o., 2005. Učebnice pro střední školy. ISBN 80-7196-318-6

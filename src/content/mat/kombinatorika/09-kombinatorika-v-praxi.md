@@ -4,122 +4,123 @@ order: 9
 source: "matematika/TY01_0232_Kombinatorika_v_praxi.pptx"
 hasExercises: true
 ---
-Jedna ze života V zásuvce je 10 černých a 10 šedých ponožek. Ráno ještě v polospánku taháme naslepo ponožky. a) Kolik jich musíme vzít, aby bylo jisté, že se <u>ŘEŠENÍ</u> mezi nimi najde pár? b) Kolik jich musíme vzít, aby se mezi nimi našel <u>ŘEŠENÍ</u> černý pár?
 
-# A ještě jedna podobná
+> Pozn. k obsahu: Zdrojová prezentace byla ve velké míře čitelná, jen sekce o heslech na konci ztratila konkrétní vypočítané výsledky (zůstala jen zadání) — doplněno a nezávisle přepočítáno. Zbytek je zachovaný a ověřený (mj. netriviální výpočet přes 69 trojciferných čísel se součtem číslic 13 vyšel při přepočítání přesně stejně jako v podkladu).
 
-V šatně nám praskla žárovka a je tam tma, nemám před odchodem čas ji vyměnit a potřebuji si vzít rukavice. V zásuvce je 5 párů černých a pět párů modrých rukavic. Pozor, pravá a levá rukavice se od sebe liší! a) Kolik jich musím vzít, aby bylo jisté, že se mezi nimi najde pár, samozřejmě jedné barvy?    ŘEŠENÍ b) Kolik jich musím vzít, aby se mezi nimi našel <u>ŘEŠENÍ</u> černý pár?
+## Jedna ze života
 
-# Něco z matematiky
+V zásuvce je 10 černých a 10 šedých ponožek. Ráno ještě v polospánku taháme naslepo ponožky.
 
-Kolik celých čísel menších než 1000 má <u>ŘEŠENÍ</u> ciferný součet 13?
+**a) Kolik jich musíme vzít, aby bylo jisté, že se mezi nimi najde pár?**
 
-# Cestujeme vlakem
+Výsledek: ||stačí vzít tři ponožky — potřebujeme dvě ponožky jedné barvy, nezáleží na tom, zda budou černé, nebo šedé. Možné situace při 3 taženích: ČČČ, ČČŠ, ČŠŠ, ŠŠŠ — ve všech se pár najde.||
 
-V kupé je deset míst, pět ve směru jízdy a pět proti směru. Tři pasažéři chtějí sedět ve směru jízdy a jeden proti směru jízdy. Ostatním šesti, mezi něž patří Venoušek s maminkou, je to jedno, až na to, že Venoušek chce sedět u okna a vedle maminky. Kolika způsoby se mohou cestující usadit, aby byli všichni spokojeni? Toto musíte řešit sami 
+**b) Kolik jich musíme vzít, aby se mezi nimi našel černý pár?**
 
-# Tombola
+Výsledek: ||musíme počítat s nejhorším případem — nejdřív můžeme natáhnout všech 10 šedých. Pak potřebujeme ještě 2 černé, tedy 10 + 2 = 12 ponožek, abychom měli jistotu černého páru.||
 
-Sto vstupenek očíslovaných 1 až 100 jde do tomboly, losují se čtyři výhry. Kolika způsoby to může dopadnout, jestliže a)  lístek 13 má vyhrát první cenu? b)  lístek 13 má vyhrát cenu? c)  lístek 13 nemá vyhrát žádnou cenu? d)  lístky 13 a 23 mají vyhrát cenu? e)  vyhrát první cenu má buď lístek 13 nebo lístek 23?
+## A ještě jedna podobná
 
-Pozor, neřešíme metodu, jak tyto výhry zařídit!
+V šatně nám praskla žárovka a je tam tma, nemám před odchodem čas ji vyměnit a potřebuji si vzít rukavice. V zásuvce je 5 párů černých a 5 párů modrých rukavic. Pozor, pravá a levá rukavice se od sebe liší!
 
-Nejen pro informatiky HESLO A JEHO BEZPEČNOST 1. Kolik různých hesel můžeme vytvořit z číslic 0 až 9? a. PIN platební karty, který je tvořen čtyřmi číslicemi
+**a) Kolik jich musím vzít, aby bylo jisté, že se mezi nimi najde pár (jedné barvy)?**
 
-b. heslo, tvořené osmi číslicemi <u>ŘEŠENÍ</u>
+Výsledek: ||nejhorší případ: vezmeme všech 5 pravých černých + 5 pravých modrých = 10 rukavic, stále bez páru (samé pravé). Jedenáctá rukavice už musí být levá nějaké barvy a vytvoří pár s odpovídající pravou. Minimálně 11 rukavic.||
 
-2. Kolik různých hesel délky 8 znaků můžeme vytvořit z písmen a, b, … …,y, z (26 písmen) a. když nerozlišujeme velká a malá písmena b. když rozlišujeme velká a malá písmena <u>Ř EŠENÍ</u>
+**b) Kolik jich musím vzít, aby se mezi nimi našel černý pár?**
 
-Nejen pro informatiky HESLO A JEHO BEZPEČNOST 3. Kolik  osmiznakových hesel můžeme vytvořit při použití číslic i písmen (s rozlišením na velká a malá)?       ŘEŠENÍ 3. Jak dlouho bude trvat rozluštění vašeho hesla? Podívejte se.
+Výsledek: ||nejhorší případ: nejdřív všech 10 modrých (bez černé vůbec), pak 5 pravých černých (stále bez černého páru, jen pravé), a šestnáctá rukavice (černá levá) už černý pár zaručí. Minimálně 10 + 5 + 1 = 16 rukavic.||
 
-# Řešení a
+## Něco z matematiky
 
-- potřebujeme dvě ponožky jedné barvy – nezáleží na tom, zda budou šedé nebo černé,
+**Kolik celých čísel menších než 1000 má ciferný součet 13?**
 
-- stačí vzít tři ponožky
+Rozdělíme podle počtu číslic:
 
-- mohou nastat tyto situace: č č č č č š č š š v libovolném pořadí (kombinace)
+- **jednociferná čísla:** 0 možností (nejvyšší možný ciferný součet jednociferného čísla je 9)
+- **dvojciferná čísla:** 49, 58, 67, 76, 85, 94 → **6 možností**
+- **trojciferná čísla:** hledáme $a_1+a_2+a_3=13$, kde $a_1\in\{1,\ldots,9\}$ (nesmí být 0), $a_2,a_3\in\{0,\ldots,9\}$. Rozdělíme podle toho, jaké trojice číslic (bez ohledu na pořadí) součet 13 dávají:
+  - trojice obsahující nulu — (9,4,0), (8,5,0), (7,6,0): 3 trojice, každá dává $3!-2!=4$ platných pořadí (nula nesmí být na první pozici) → $3\cdot4=12$
+  - trojice se třemi různými nenulovými číslicemi — (9,3,1), (8,4,1), (7,5,1), (6,4,3), (8,3,2), (7,4,2), (6,5,2): 7 trojic, každá dává $3!=6$ pořadí → $7\cdot6=42$
+  - trojice s opakovanou číslicí (bez nuly) — (9,2,2), (7,3,3), (5,4,4), (3,5,5), (1,6,6): 5 trojic, každá dává $3!/2!=3$ pořadí → $5\cdot3=15$
+  - celkem: $12+42+15=\mathbf{69}$
 
-š š š
+**Výsledek:** $0+6+69 = 75$ celých čísel menších než 1000 má ciferný součet 13.
 
-<u>ZPĚT</u>
+## Cestujeme vlakem
 
-# Řešení b
+V kupé je deset míst, pět ve směru jízdy a pět proti směru. Tři pasažéři chtějí sedět ve směru jízdy a jeden proti směru jízdy. Ostatním šesti, mezi něž patří Venoušek s maminkou, je to jedno, až na to, že Venoušek chce sedět u okna a vedle maminky. Kolika způsoby se mohou cestující usadit, aby byli všichni spokojeni?
 
-- tentokrát musíme vzít víc, stále musíme předpokládat, že prvních deset budou šedé ponožky
+*(Tato úloha byla v podkladu záměrně ponechána jako výzva k samostatnému řešení — bez uvedeného výsledku.)*
 
-- takže musíme vzít 10 + 2 = 12
+## Tombola
 
-- pak máme jistotu, že vezmeme i pár černých ponožek
+Sto vstupenek očíslovaných 1 až 100 jde do tomboly, losují se čtyři ceny (1.–4.).
 
-<u>ZPĚT</u>
+**a) Lístek 13 má vyhrát první cenu?**
 
-# Řešení a
+Zbylé tři ceny se rozdělí mezi zbývajících 99 lístků (záleží na pořadí — variace):
 
-máme:
+$$99 \cdot 98 \cdot 97 = 941\,094$$
 
-- 5 černých pravých rukavic - 5 černých levých rukavic - 5 modrých pravých rukavic
+**b) Lístek 13 má vyhrát (nějakou) cenu?**
 
-- 5 modrých levých rukavic
+Nejprve 4 možnosti, kterou cenu vyhraje lístek 13, pak rozdělíme zbylé tři ceny mezi zbylých 99 lístků:
 
-- musíme vzít minimálně 11 rukavic
+$$4 \cdot 99 \cdot 98 \cdot 97 = 3\,764\,376$$
 
-- zdůvodněte proč!
+**c) Lístek 13 nemá vyhrát žádnou cenu?**
 
-<u>ZPĚT</u>
+Vybíráme čtyři ceny (uspořádaně) z 99 lístků, které zbydou po vyřazení lístku 13:
 
-# Řešení b
+$$99 \cdot 98 \cdot 97 \cdot 96 = 90\,345\,024$$
 
-- musíme předpokládat, že nejdříve vezmeme všech deset modrých rukavic
+**d) Lístky 13 a 23 mají vyhrát cenu?**
 
-- - pak pět černých jednoho druhu (jen pravé nebo jen levé)
+Vybereme, kterou cenu vyhraje lístek 13 (4 možnosti), pak kterou z do zbylých tří vyhraje lístek 23 (3 možnosti), a nakonec rozdělíme zbylé dvě ceny mezi zbylých 98 lístků:
 
-- musíme vzít minimálně 16 rukavic – nebylo by jednodušší vzít rovnou všechny?
+$$4 \cdot 3 \cdot 98 \cdot 97 = 114\,072$$
 
-- nebo raději barevné?
+**e) Vyhrát první cenu má buď lístek 13, nebo lístek 23?**
 
-<u>ZPĚ T</u>
+Obě možnosti (13 vyhraje první cenu / 23 vyhraje první cenu) jsou disjunktní — každá dává $99\cdot98\cdot97$ způsobů rozdělení zbylých cen, proto sečteme:
 
-Řešení - 13
+$$2 \cdot 99 \cdot 98 \cdot 97 = 1\,882\,188$$
 
-- jednociferná čísla – 0 - dvojciferná čísla – 49, 58, 67, 76, 85, 94 = 6 možností
+*(Pozor, neřešíme metodu, jak tyto výhry „zařídit" — jde čistě o počet matematicky možných výsledků losování.)*
 
-- trojciferná čísla – platí: a1 + a2 + a3 = 13 kde a1,2,3 ∈ N0<sup>, a</sup> 1,2,3<sup>< 10, a</sup> 1 ≥ 1 <u>POKRAČOVÁNÍ T</u>
+## Heslo a jeho bezpečnost
 
-<u>ZPĚ</u>
+**1. Kolik různých hesel můžeme vytvořit z číslic 0 až 9 (číslice se mohou opakovat)?**
 
-## součet 13 získáme jako:
+**a) PIN platební karty, tvořený čtyřmi číslicemi:**
 
-9+4+0 8+5+0 7+6+0 3.(2.2.1) = 12 9+3+1 8+4+1 7+5+1 6+4+3 8+3+2 7+4+2 6+5+2 7.(3.2.1) = 42 9+2+2 7+3+3 5+4+4 3+5+5 1+6+6 5.3 = 15 <u>ZPĚT</u>
+$$V'(4,10) = 10^4 = 10\,000$$
 
-# Řešení – tombola 1
+**b) heslo tvořené osmi číslicemi:**
 
-a. Jde tedy jen o ostatní tři ceny: 99 · 98 · 97 = 941 094 b. Nejprve čtyři možnosti ceny pro lístek 13, pak výběr na ostatní tři ceny: 4 · 99 · 98 · 97 = 3 764 376 c. Vybíráme čtyři ceny z 99 lístků · 98 · 97 · 96 = 90 345 024 <u>POKRAČOVÁNÍ ZPĚ T</u>
+$$V'(8,10) = 10^8 = 100\,000\,000$$
 
-99
+**2. Kolik různých hesel délky 8 znaků můžeme vytvořit z písmen a, b, …, y, z (26 písmen)?**
 
-<u>ZPĚ</u>
+**a) když nerozlišujeme velká a malá písmena:**
 
-# Řešení – tombola 2
+$$V'(8,26) = 26^8 = 208\,827\,064\,576 \approx 2{,}09\cdot10^{11}$$
 
-d. Vybíráme cenu pro lístek 13, ze zbývajících tří cenu pro lístek 23, na další dvě ceny ze zbývajících 98:
+**b) když rozlišujeme velká a malá písmena (52 možných znaků na pozici):**
 
-4 · 3 · 98 · 97 = 114072
+$$V'(8,52) = 52^8 = 53\,459\,728\,531\,456 \approx 5{,}35\cdot10^{13}$$
 
-e. Pokud vyhraje první cenu 13, dobereme lístky na ostatní: 99 · 98 · 97
+**3. Kolik osmiznakových hesel můžeme vytvořit při použití číslic i písmen (s rozlišením na velká a malá)?**
 
-Pokud vyhraje první cenu 23, dobereme ostatní. Tyto možnosti jsou disjunktní, proto stačí sečíst
+Máme $10$ číslic $+\ 26$ malých $+\ 26$ velkých písmen $= 62$ možných znaků na každé z 8 pozic:
 
-2 · 99 · 98 · 97 = 1882188
+$$V'(8,62) = 62^8 = 218\,340\,105\,584\,896 \approx 2{,}18\cdot10^{14}$$
 
-<u>Ě</u>
+**Pozn. k bezpečnosti hesel:** čím delší heslo a čím víc druhů znaků (číslice + malá + velká písmena + speciální znaky) používá, tím rychleji roste počet možných kombinací — a tím déle by trvalo heslo „prolomit" hrubou silou (vyzkoušením všech variací). To je matematický základ doporučení používat dlouhá hesla se smíšenými znaky.
 
-# Heslo
+## Zdroje
 
-•
+CALDA, Emil, DUPAČ, Václav. _Matematika pro gymnázia. Kombinatorika, pravděpodobnost, statistika._ Praha: Prometheus, 2006.
 
-<u>Podívejte se, jak dlouho trvá</u> počítačovému programu vyzkoušet všechny variace hesla.
-
-# Zdroje
-
-CALDA, Emil, DUPAČ, Václav. _Matematika pro gymnázia. Kombinatorika, pravděpodobnost, statistika._ Praha: Prometheus, 2006. internet: <u>http://www.lockdown.co.uk/?pg=combi&s=articl es https://math.feld.cvut.cz/habala/teaching/dma/ dmknih11.pdf</u>
+<https://math.feld.cvut.cz/habala/teaching/dma/dmknih11.pdf>

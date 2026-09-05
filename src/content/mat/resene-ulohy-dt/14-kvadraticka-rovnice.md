@@ -4,84 +4,181 @@ order: 14
 source: "MATURITA HADR/Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/14) Kvadratická rovnice.pdf"
 hasExercises: true
 ---
-<u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Kvadratická rovnice</u>
 
-1) <u>V oboru R řešte:      x(x – 2) + (x – 2)(x + 2)  =  0</u> Ostrý maturitní test Cermat-u ( základní úroveň ) – jaro 2011, příklad č. 8 Body: 2                   Výsledek: = 2, = –1   resp. { 2; –1 }
+> Pozn. k obsahu: Rovnice byly v PDF vysázené jako rovnicové objekty, které se při převodu z větší části ztratily — u téměř všech úloh šlo přesné znění zpětně rekonstruovat z dochovaného postupu řešení (zejména z kroku násobení společným jmenovatelem) a přepočtem ověřit shodu s dochovaným výsledkem.
 
-Pracovní tematické zařazení: Kvadratická rovnice Řešení: x(x – 2) + (x – 2)(x + 2)  =  0          x<sup>2</sup> – 2x + x<sup>2</sup> – 4  =  0          2x<sup>2</sup> – 2x – 4  =  0   /: 2 x<sup>2</sup> – x – 2  =  0          ( x + 1 )( x – 2 ) = 0          x1 = –1     x2 = 2 -------------------------------------------------2) <u>V oboru R řešte:</u> Ostrý maturitní test Cermat-u ( základní úroveň ) – podzim 2011, příklad č. 4 Body: 2                   Výsledek:  a1 = –4;  a2 = 1
+*Příklady z maturitních testů Cermatu (základní úroveň) — Kvadratická rovnice*
 
-Pracovní tematické zařazení: Kvadratická rovnice Řešení: a<sup>2</sup> – 2a + 6  =  5( 2 – a )          a<sup>2</sup> – 2a + 6  =  10 – 5a           a<sup>2</sup> + 3a – 4  =  0 <u>( a – 1 )( a + 4 ) = 0          a1 = 1     a2 = – 4</u> -------------------------------------------------- <u>3) Pro</u> _n_ Є <u>N řešte:</u> Ostrý maturitní test Cermat-u ( základní úroveň ) – jaro 2012, příklad č. 3 Body:  2                  Výsledek:  n = 1 000
+**1)** V oboru $\mathbb R$ řešte: $x(x-2)+(x-2)(x+2)=0$.
 
-Pracovní tematické zařazení: Kvadratická rovnice Řešení: 100 = ( 0,01 n )<sup>2</sup> 100 = 0,0001 n<sup>2</sup> /: 0,0001          1 000 000 = n<sup>2</sup> n1 = 1 000 n2 = – 1 000 … nevyhovuje podmínce ze zadání _n_ Є N ( číslo –1000 není přirozené ) řešení:  n = 1 000 Poznámka: Pozor ! – odmocňování nepatří mezi ekvivalentní úpravy rovnice. Pokud by tedy rovnice měla být řešena v oboru R a odmocnili bychom, 1 kořen ( tj. řešení ) rovnice by se <u>„ztratil“:  100 = ( 0,01 n )</u><sup>2</sup> /√        10 =  0,01 n   /: 0,01          1 000 = n -------------------------------------------------4) Je dána rovnice s neznámou x ∈ R:       2x<sup>2</sup> –  x  =  6 Ve kterém intervalu naleznete oba kořeny rovnice ?        A) 〈 2; 6 〉        B) 〈 0; 5 〉 <u>C) 〈</u> –4; <u>3 〉        D) 〈</u> –6; –3 <u>〉        E) v žádném z uvedených intervalů</u> Ostrý maturitní test Cermat-u ( základní úroveň ) – jaro 2012, příklad č. 22 Body:  2                  Výsledek:  C ( kořeny rovnice jsou  x1 = 2,  x2 = –1,5 )
+*Jaro 2011, příklad č. 8. Body: 2. Výsledek: $\{2;-1\}$.*
 
-Pracovní tematické zařazení: Kvadratická rovnice Řešení: 2x<sup>2</sup> –  x  =  6          2x<sup>2</sup> –  x  –  6  =  0 … a = 2,  b = –1,  c = –6 x1, 2   = = = x1 = 2     x2 = –1,5 … oba kořeny rovnice nalezneme v intervalu 〈 –4; 3 〉 --------------------------------------------------
+Řešení: $x^2-2x+x^2-4=0 \implies 2x^2-2x-4=0\ /:2 \implies x^2-x-2=0 \implies (x+1)(x-2)=0 \implies x_1=-1,\ x_2=2$.
 
-<u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Kvadratická rovnice 5) V oboru R řešte:     2x</u><sup>2</sup> – 2  =  3x Ostrý maturitní test Cermat-u ( základní úroveň ) – podzim 2012, příklad č. 4 Body: 2                    Výsledek:  x1 = x2 = 2 Pracovní tematické zařazení: Kvadratická rovnice Řešení: 2x<sup>2</sup> – 2  =  3x          2x<sup>2</sup> – 3x – 2  =  0 … a = 2,  b = –3,  c = –2 x1, 2   = = = x1 = 2     x2 = – -------------------------------------------------- <u>6) V oboru R řešte: 3x( x + 1 )  =  9x</u><sup>2</sup> Ostrý maturitní test Cermat-u ( základní úroveň ) – jaro 2013, příklad č. 6 Body:  1                  Výsledek:  K = Pracovní tematické zařazení: Kvadratická rovnice Řešení: 3x( x + 1 )  =  9x<sup>2</sup> 3x<sup>2</sup> + 3x  =  9x<sup>2</sup> 0  =  6x<sup>2</sup> – 3x   /: 3          0  =  2x<sup>2</sup> – x 0  =  x( 2x – 1 )              x1 = 0        x2 = -------------------------------------------------7) V oboru R řešte: =  1 + Ostrý maturitní test Cermat-u ( základní úroveň ) – podzim 2013, příklad č. 10 Body: 2                    Výsledek:  K = <u>podmínky:  x ≠ 0</u> Pracovní tematické zařazení: Kvadratická rovnice Řešení: =  1 + /* 2x          x<sup>2</sup> =  2x + 8           x<sup>2</sup> – 2x – 8  =  0          ( x + 2 )( x – 4 )  =  0 x1 = –2     x2 = 4     podmínky:  x ≠ 0 --------------------------------------------------
+**2)** V oboru $\mathbb R$ řešte: $a^2-2a+6=5(2-a)$.
 
-<u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Kvadratická rovnice</u>
+*Podzim 2011, příklad č. 4. Body: 2. Výsledek: $a_1=-4$, $a_2=1$.*
 
-8) Stanovte podmínky a v oboru R řešte: = 0 <u>V záznamovém archu uveďte celý postup řešení.</u> Ostrý maturitní test Cermat-u ( základní úroveň ) – podzim 2014, příklad č. 5 Body: 3                    Výsledek: a postup řešení
+Řešení: $a^2-2a+6=10-5a \implies a^2+3a-4=0 \implies (a-1)(a+4)=0 \implies a_1=1,\ a_2=-4$.
 
-Pracovní tematické zařazení: Kvadratická rovnice Řešení: = 0     /* (3x<sup>2</sup> – 3)               3x<sup>2</sup> + 5x + 2  =  0 … a = 3,  b = 5,  c = 2 x1, 2   = = = x1 = – x2 = –1 … nevyhovuje podmínkám rovnice má jediné řešení:  x = – <u>podmínky:   3x</u><sup>2</sup> – 3  ≠  0    /: 3           x<sup>2</sup> – 1  ≠  0           x<sup>2</sup> <u>≠  1           x ≠ 1,  x ≠ –1</u> --------------------------------------------------
+**3)** Pro $n\in\mathbb N$ řešte: $100=(0{,}01n)^2$.
 
-<u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Kvadratická rovnice</u>
+*Jaro 2012, příklad č. 3. Body: 2. Výsledek: $n=1\,000$.*
 
-9) V oboru R řešte: – =  0         V záznamovém archu uveďte celý <u>postup řešení včetně stanovení podmínek nebo zkoušky.</u> Ostrý maturitní test Cermat-u ( základní úroveň ) – jaro 2015, příklad č. 5 Body:  2                  Výsledek:  K = <u>; y</u> 4,   L = P = 0    a postup řešení
+Řešení: $100=0{,}0001n^2\ /:0{,}0001 \implies 1\,000\,000=n^2 \implies n_1=1\,000,\ n_2=-1\,000$ (nevyhovuje, $n\in\mathbb N$). Výsledek: $n=1\,000$.
 
-Pracovní tematické zařazení: Kvadratická rovnice Řešení: <u>1. způsob</u> – =  0     /* (4 – y)(y – 4) (y – 7)(y – 4) – (3 – 2y)(4 – y)  =  0 y<sup>2</sup> – 4y – 7y + 28 – (12 – 3y – 8y + 2y<sup>2</sup> )  =  0 … pozor, nutno uzávorkovat ! – násobení má přednost před odčítáním – v dalším kroku nastane změna znamének y<sup>2</sup> – 4y – 7y + 28 – 12 + 3y + 8y – 2y<sup>2</sup> =  0 – y<sup>2</sup> + 16  =  0          16 = y<sup>2</sup> y1 = – 4 y2 = 4 … nevyhovuje podmínkám rovnice má jediné řešení:  y = – 4 podmínky:   y ≠ 4 zkouška:  L  =  – –  (– )  =  0          P = 0     L = P <u>2. způsob</u> Druhý zlomek rozšíříme číslem (–1), čímž se zjednoduší společný jmenovatel. Rovnice bude v tomto případě lineární, nikoli kvadratická. Pozor na změnu znaménka, před druhým zlomkem je mínus. – =  0 – =  0     /* (4 – y) <u>y – 7 – ( 2y – 3 )  =  0              y – 7 – 2y + 3  =  0          – 4 = y</u> --------------------------------------------------
+**Poznámka:** Odmocňování nepatří mezi ekvivalentní úpravy rovnice! Kdyby se řešilo v $\mathbb R$ a rovnou odmocnilo, jeden kořen by se "ztratil": $100=(0{,}01n)^2\ /\sqrt{\ } \implies 10=0{,}01n \implies n=1\,000$ (ztratili bychom $n=-1\,000$).
 
-<u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Kvadratická rovnice</u>
+**4)** Je dána rovnice $2x^2-x=6$. Ve kterém intervalu naleznete oba kořeny?
 
-10) V oboru R jsou dány rovnice: I:   2x<sup>2</sup> – 4  =  – 4x             II: =  0             III: – 1  =  – ( 1 ) Která z uvedených rovnic nemá řešení ?     A)  I a II        B)  II a III        C) pouze I D) <u>pouze III     E) Všechny tři rovnice mají řešení.</u> Ostrý maturitní test Cermat-u ( základní úroveň ) – jaro 2015, příklad č. 18 Body:  2                  Výsledek:  E
+A) $\langle2;6\rangle$   B) $\langle0;5\rangle$   **C) $\langle-4;3\rangle$**   D) $\langle-6;-3\rangle$   E) v žádném z uvedených
 
-Pracovní tematické zařazení: Kvadratická rovnice Řešení: I)  2x<sup>2</sup> – 4  =  – 4x         2x<sup>2</sup> + 4x – 4  =  0   /: 2         x<sup>2</sup> + 2x – 2  =  0 … a = 1,  b = 2,  c = –2 D  =  b<sup>2</sup> – 4ac  =  4 + 8  =  12  >  0 … rovnice má 2 řešení II)  ( 2x – 1 )<sup>2</sup> =  0          ( 2x – 1 )( 2x – 1 )  =  0          x = … rovnice má 1 řešení III)  x<sup>2</sup> – 1  =  – (  x<sup>2</sup> – 1 )           x<sup>2</sup> – 1  =  – x<sup>2</sup> + 1          2x<sup>2</sup> =  2   /: 2 x<sup>2</sup> =  1          x1 = 1,  x2 = –1 … rovnice má 2 řešení Všechny tři rovnice mají řešení.
+*Jaro 2012, příklad č. 22. Body: 2. Výsledek: C (kořeny $x_1=2$, $x_2=-1{,}5$).*
 
--------------------------------------------------11) V oboru R řešte: V záznamovém archu <u>uveďte celý postup řešení včetně stanovení podmínek.</u> Ostrý maturitní test Cermat-u ( základní úroveň ) – podzim 2015, příklad č. 5 Body: 2                    Výsledek: a postup řešení
+Řešení: $2x^2-x-6=0$, $a=2,b=-1,c=-6$, $D=1+48=49$, $\sqrt D=7$: $x_{1,2}=\dfrac{1\pm7}4$, $x_1=2$, $x_2=-1{,}5$ — oba leží v $\langle-4;3\rangle$.
 
-Pracovní tematické zařazení: Kvadratická rovnice Řešení: /* 3x(x + 2)               1(x + 2 )  –  2*3x  =  x*3x x + 2 – 6x  =  3x<sup>2</sup> 0  =  3x<sup>2</sup> + 5x – 2 … a = 3,  b = 5,  c = – 2 x1, 2   = = = x1 = x2 = –2 … nevyhovuje podmínkám rovnice má jediné řešení:  x = <u>podmínky:  x ≠ 0,  x ≠ –2</u>
+**5)** V oboru $\mathbb R$ řešte: $2x^2-2=3x$.
 
---------------------------------------------------
+*Podzim 2012, příklad č. 4. Body: 2.*
 
-<u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Kvadratická rovnice</u>
+Řešení: $2x^2-3x-2=0$, $a=2,b=-3,c=-2$, $D=9+16=25$, $\sqrt D=5$: $x_{1,2}=\dfrac{3\pm5}4$, $x_1=2$, $x_2=-0{,}5$.
 
-12) Je dána rovnice s neznámou x Є R: =  x Do kterého intervalu patří oba kořeny rovnice ?   A) < –3,4,  –0,6 >    B) < –1,2,  0,6 > C) < –0,9,  0,9 >        D) < –0,6,  1,2 >        E) do žádného z uvedených Ostrý maturitní test Cermat-u ( základní úroveň ) – jaro 2016, příklad č. 22 Body:  2
+**6)** V oboru $\mathbb R$ řešte: $3x(x+1)=9x^2$.
 
-Výsledek:  D ( kořeny rovnice jsou  x1 = 1,  x2 = – )        podmínky:  x ≠
+*Jaro 2013, příklad č. 6. Body: 1. Výsledek: $K=\{0;\tfrac12\}$.*
 
-Pracovní tematické zařazení: Kvadratická rovnice Řešení: =  x    /* (2x – 1)               1  =  x( 2x – 1 )          1  =  2x<sup>2</sup> – x 0  =   2x<sup>2</sup> – x – 1 … a = 2,  b = – 1,  c = – 1 x1, 2   = = = x1 = 1,  x2 = – … oba kořeny rovnice patří do intervalu < –0,6,  1,2 > podmínky:  x ≠
+Řešení: $3x^2+3x=9x^2 \implies 0=6x^2-3x\ /:3 \implies 0=2x^2-x \implies 0=x(2x-1) \implies x_1=0,\ x_2=\dfrac12$.
 
--------------------------------------------------13) V oboru R řešte: <u>V záznamovém archu uveďte celý postup řešení včetně stanovení podmínek.</u> Ostrý maturitní test Cermat-u ( základní úroveň ) – podzim 2016, příklad č. 5 Body: 3                    Výsledek:  x ≠ 0,  x ≠ 2,  K = a postup řešení Pracovní tematické zařazení: Kvadratická rovnice Řešení: Poznámka: Ještě před hledáním společného jmenovatele rozložíme ( pokud je to možné ) všechny jmenovatele na součin, a to vytýkáním před závorku nebo pomocí vzorců ( zejména vzorců č. 1, 2, 3 ). + = /* 2x(x – 2) 1*x  +  (1 – x)*2   =  1* x(x – 2) x + 2 – 2x  =  x<sup>2</sup> – 2x                 0  =   x<sup>2</sup> – x – 2          0  =  (x + 1)(x – 2) x1 = – 1 x2 = 2 … nevyhovuje podmínkám rovnice má jediné řešení:  x = – 1 podmínky:  a) 2x – 4 ≠ 0          b) x<sup>2</sup> – 2x  ≠  0 2x ≠ 4                    x(x – 2)  ≠  0 x ≠ 2                     x ≠ 0,  x ≠ 2 výsledné podmínky:  x ≠ 0,  x ≠ 2 --------------------------------------------------
+**7)** V oboru $\mathbb R$ řešte: $\dfrac x2=1+\dfrac4x$.
 
-<u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Kvadratická rovnice</u>
+*Podzim 2013, příklad č. 10. Body: 2. Výsledek: $K=\{-2;4\}$; podmínky $x\neq0$.*
 
-14) Přiřaďte ke každé rovnici ( a) – c) ) řešené v oboru R odpovídající množinu všech řešení ( A – E ).        a) b) c) A) B) C) D) E) Ostrý maturitní test Cermat-u ( základní úroveň ) – jaro 2017, příklad č. 26 Body: 3                   Výsledek:  a) B     b) A     c) E
+Řešení: $/\cdot2x$: $x^2=2x+8 \implies x^2-2x-8=0 \implies (x+2)(x-4)=0 \implies x_1=-2,\ x_2=4$.
 
-Pracovní tematické zařazení: Kvadratická rovnice Řešení: a)  x<sup>2</sup> = – 3x          x<sup>2</sup> + 3x = 0          x( x + 3 ) = 0 … x1 = 0,  x2 = –3 b) /* x          9 = x<sup>2</sup> … x1 = 3,  x2 = –3          podmínky:  x ≠ 0 c) /* (x – 3)          9 – x<sup>2</sup> = 0          9 = x<sup>2</sup> … x1 = 3 … nevyhovuje podmínkám x2 = –3 podmínky:  x ≠ 3 rovnice má jediné řešení … x = –3
+**8)** Stanovte podmínky a v $\mathbb R$ řešte: $\dfrac{3x^2+5x+2}{3x^2-3}=0$.
 
--------------------------------------------------15) <u>V oboru R řešte rovnici:     2x – 3  =  ( 2x – 3 )( 2x + 3 )</u> Ostrý maturitní test Cermat-u ( základní úroveň ) – podzim 2017, příklad č. 6 Body:  2                  Výsledek:  x1 = 1,5     x2 = –1
+*Podzim 2014, příklad č. 5. Body: 3. Výsledek: $x=-\tfrac23$.*
 
-Pracovní tematické zařazení: Kvadratická rovnice Řešení: 2x – 3  =  ( 2x – 3 )( 2x + 3 )               2x – 3  =  4x<sup>2</sup> – 9               0  =  4x<sup>2</sup> – 2x – 6   /: 2 0  =  2x<sup>2</sup> – x – 3 … a = 2,  b = –1,  c = –3 x1, 2   = = = x1 = 1,5     x2 = –1
+Řešení: podmínky $3x^2-3\neq0\ /:3 \implies x^2\neq1 \implies x\neq\pm1$. Čitatel: $3x^2+5x+2=0$, $a=3,b=5,c=2$, $D=25-24=1$: $x_{1,2}=\dfrac{-5\pm1}6$, $x_1=-\dfrac23$, $x_2=-1$ (nevyhovuje podmínkám). Rovnice má jediné řešení $x=-\dfrac23$.
 
---------------------------------------------------
+**9)** V oboru $\mathbb R$ řešte: $\dfrac{y-7}{4-y}-\dfrac{3-2y}{y-4}=0$.
 
-<u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Kvadratická rovnice</u>
+*Jaro 2015, příklad č. 5. Body: 2. Výsledek: $K=\{-4\}$; podmínky $y\neq4$.*
 
-1p) <u>V oboru R řešte:</u> Ostrý maturitní test Cermat-u ( základní úroveň ) – jaro 2011 PUP, příklad č. 9 Body: 2                 Výsledek:  x1 = 0; x2 = 5, resp. obě čísla 0 a 5, resp. K = {0; 5} apod. Pracovní tematické zařazení: Kvadratická rovnice Řešení: <u>( 2x – 3x )( 5 – x ) = 0               –x( 5 – x ) = 0               x1 = 0,  x2 = 5</u> -------------------------------------------------2p) V oboru R řešte: Ostrý maturitní test Cermat-u ( základní úroveň ) – jaro 2011 PUP, příklad č. 10 Body: 2                  Výsledek: <u>podmínky:  x ≠ 2</u> Pracovní tematické zařazení: Kvadratická rovnice Řešení: <u>1. způsob</u> /* (x – 2)               x<sup>2</sup> – 4  =  3x<sup>2</sup> – 6x               0  =  2x<sup>2</sup> – 6x + 4   /: 2 0  =  x<sup>2</sup> – 3x + 2               0  =  ( x – 1 )( x – 2 ) x1 = 1 x2 = 2 … nevyhovuje podmínkám rovnice má jediné řešení … x = 1               podmínky:  x ≠ 2 <u>2. způsob</u> =  3x              x + 2 = 3x              2 = 2x              1 = x <u>podmínky:  x ≠ 2</u> -------------------------------------------------1i) Řešte danou rovnici v R: a) Pro které reálné hodnoty neznáme x **není** rovnice definována ? <u>b) Určete množinu všech řešení rovnice.</u> Ilustrační maturitní test Cermat-u ( základní úroveň ) – 2010 (1), příklad č. 8 Body:  4                  Výsledek:  a) x = 0,  x = 3          b) x = –3 Pracovní tematické zařazení: Kvadratická rovnice Řešení: – = /* x(x – 3) 4( x – 3 ) – 3( x – 7 )  =  x( x + 1 )                    4x – 12 – 3x + 21  =  x<sup>2</sup> + x                    9  =  x<sup>2</sup> x1 = 3 … nevyhovuje podmínkám x2 = –3 rovnice má jediné řešení … x = –3 <u>podmínky:  x ≠ 0,  x ≠ 3 … jinými slovy: Rovnice není definována pro  x = 0,  x = 3</u> --------------------------------------------------
+Řešení (1. způsob): $/\cdot(4-y)(y-4)$: $(y-7)(y-4)-(3-2y)(4-y)=0$. *(Pozor, nutno uzávorkovat — násobení má přednost před odčítáním, ve druhé závorce dojde ke změně znamének.)*
 
-<u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Kvadratická rovnice</u>
+$$y^2-11y+28-(12-11y+2y^2)=0 \implies -y^2+16=0 \implies y^2=16 \implies y_1=-4,\ y_2=4\ (\text{nevyhovuje})$$
 
-- 2i) V množině reálných čísel řešte rovnici  (2x – 3 – = 0. Které tvrzení je pravdivé ? A) Rovnice má právě jedno řešení.          B) Hodnoty obou kořenů se liší o 2. C) Hodnoty obou kořenů jsou opačná nenulová čísla. D) Žádné z výše <u>uvedených tvrzení A – C není pravdivé.</u> Ilustrační maturitní test Cermat-u ( základní úroveň ) – 2010 (1), příklad č. 13 Body:  3                  Výsledek:  B ( x1 = 1,  x2 = 3 )
+Zkouška: $L=\dfrac{-4-7}{4-(-4)}-\dfrac{3-2(-4)}{-4-4}=\dfrac{-11}8-\dfrac{11}{-8}=0=P$ ✓.
 
-Pracovní tematické zařazení: Kvadratická rovnice Řešení: ( 2x – 3 )<sup>2</sup> – x<sup>2</sup> =  0               4x<sup>2</sup> – 12x + 9 – x<sup>2</sup> =  0               3x<sup>2</sup> – 12x + 9  =  0   /: 3 x<sup>2</sup> – 4x + 3  =  0               ( x – 1 )( x – 3 ) = 0               x1 = 1,  x2 = 3 … odpověď B -------------------------------------------------3i) Jedním z kořenů kvadratické rovnice     ( x – 2 ) + ( x + 2 )( x – 2 )  =  0    je  x = 2 <u>Vypočtěte druhý kořen.</u> Ilustrační maturitní test Cermat-u ( základní úroveň ) – 2013, příklad č. 7 Body: 1                 Výsledek:  x2 = –3
+Řešení (2. způsob): druhý zlomek rozšíříme $(-1)$, čímž se zjednoduší společný jmenovatel — rovnice bude lineární, ne kvadratická. *(Pozor na znaménko, před druhým zlomkem je mínus.)* Protože $\dfrac{3-2y}{y-4}=\dfrac{-(3-2y)}{-(y-4)}=\dfrac{2y-3}{4-y}$, dostáváme:
 
-Pracovní tematické zařazení: Kvadratická rovnice Řešení: <u>1. způsob</u> ( x – 2 ) + ( x + 2 )( x – 2 )  =  0               x – 2 + x<sup>2</sup> – 4  =  0               x<sup>2</sup> + x – 6  =  0 ( x – 2 )( x + 3 )  =  0               x1 = 2,  x2 = –3 … druhý kořen je x2 = –3 <u>2. způsob – vytknutí závorky ( x – 2 )</u> ( x – 2 ) + ( x + 2 )( x – 2 )  =  0               ( x – 2 ) * [ 1 + ( x + 2 ) ]  =  0 <u>( x – 2 )( x + 3 )  =  0               x1 = 2,  x2 = –3 … druhý kořen je x2 = –3</u> -------------------------------------------------4i) Přiřaďte úloze s neznámou x Є R odpovídající řešení ( A – F ). =  0 A) <u>Ø       B) R       C)</u> D) < 2, E) F) <u>jiné řešení</u> Ilustrační maturitní test Cermat-u ( základní úroveň ) – 2014 (1), příklad č. 25.1 Body: 1                    Výsledek:  A          podmínky:  x ≠ 2 Pracovní tematické zařazení: Kvadratická rovnice Řešení: =  0   /* (2 – x)               ( x – 2 )<sup>2</sup> =  0               x = 2 … nevyhovuje podmínkám rovnice nemá řešení ( x Є Ø ) <u>podmínky:  x ≠ 2</u>
+$$\frac{y-7}{4-y}-\frac{2y-3}{4-y}=0\ /\cdot(4-y) \implies (y-7)-(2y-3)=0 \implies y-7-2y+3=0 \implies -y-4=0 \implies y=-4$$
 
---------------------------------------------------
+**10)** Které z rovnic **nemá** řešení? I: $2x^2-4=-4x$; II: $(2x-1)^2=0$; III: $x^2-1=-(x^2-1)$.
 
-<u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Kvadratická rovnice</u>
+A) I a II   B) II a III   C) pouze I   D) pouze III   **E) všechny tři rovnice mají řešení**
 
-5i) V oboru R řešte rovnici: Ilustrační maturitní test Cermat-u ( základní úroveň ) – 2014 (2), příklad č. 7 Body: 2                    Výsledek:  K = { 0;  6 } podmínky:  x ≠  –
+*Jaro 2015, příklad č. 18. Body: 2.*
 
-Pracovní tematické zařazení: Kvadratická rovnice Řešení: /* (12x + 9)            12x + 9  =  ( 2x – 3 )<sup>2</sup> 12x + 9  =  4x<sup>2</sup> – 12x + 9 0  =  4x<sup>2</sup> – 24x   / : 4               0  =  x<sup>2</sup> – 6x               0  =  x( x – 6 )               x1 = 0,  x2 = 6 podmínky:  12x + 9 ≠ 0          x ≠  – x ≠  –
+Řešení: I) $2x^2+4x-4=0\ /:2$: $x^2+2x-2=0$, $D=4+8=12>0$ — 2 řešení. II) $(2x-1)^2=0 \implies x=\dfrac12$ — 1 řešení. III) $x^2-1=-x^2+1 \implies 2x^2=2 \implies x^2=1 \implies x=\pm1$ — 2 řešení. Všechny tři mají řešení.
 
---------------------------------------------------
+**11)** V oboru $\mathbb R$ řešte: $\dfrac1{3x}-\dfrac2{x+2}=\dfrac x{x+2}$.
+
+*Podzim 2015, příklad č. 5. Body: 2. Výsledek: $x=\tfrac13$; podmínky $x\neq0$, $x\neq-2$.*
+
+Řešení: $/\cdot3x(x+2)$: $(x+2)-2\cdot3x=x\cdot3x \implies x+2-6x=3x^2 \implies 0=3x^2+5x-2$. $a=3,b=5,c=-2$, $D=25+24=49$: $x_{1,2}=\dfrac{-5\pm7}6$, $x_1=\dfrac13$, $x_2=-2$ (nevyhovuje). Řešení: $x=\dfrac13$.
+
+**12)** Je dána rovnice $\dfrac1{2x-1}=x$. Do kterého intervalu patří oba kořeny?
+
+A) $\langle-3{,}4;-0{,}6\rangle$   B) $\langle-1{,}2;0{,}6\rangle$   C) $\langle-0{,}9;0{,}9\rangle$   **D) $\langle-0{,}6;1{,}2\rangle$**   E) do žádného
+
+*Jaro 2016, příklad č. 22. Body: 2. Výsledek: D (kořeny $x_1=1$, $x_2=-0{,}5$); podmínky $x\neq0{,}5$.*
+
+Řešení: $/\cdot(2x-1)$: $1=x(2x-1) \implies 0=2x^2-x-1$. $a=2,b=-1,c=-1$, $D=1+8=9$: $x_{1,2}=\dfrac{1\pm3}4$, $x_1=1$, $x_2=-0{,}5$ — oba v $\langle-0{,}6;1{,}2\rangle$.
+
+**13)** V oboru $\mathbb R$ řešte: $\dfrac1{2x-4}+\dfrac{1-x}{x^2-2x}=\dfrac12$.
+
+*Podzim 2016, příklad č. 5. Body: 3. Výsledek: $x=-1$; podmínky $x\neq0$, $x\neq2$.*
+
+Ještě před hledáním společného jmenovatele rozložíme (pokud lze) všechny jmenovatele na součin vytýkáním nebo pomocí vzorců: $2x-4=2(x-2)$, $x^2-2x=x(x-2)$.
+
+Řešení: $/\cdot2x(x-2)$: $1\cdot x+(1-x)\cdot2=1\cdot x(x-2) \implies x+2-2x=x^2-2x \implies 0=x^2-x-2 \implies 0=(x+1)(x-2)$. $x_1=-1$, $x_2=2$ (nevyhovuje). Podmínky: $2x-4\neq0 \implies x\neq2$; $x^2-2x\neq0 \implies x(x-2)\neq0 \implies x\neq0,\ x\neq2$. Výsledné podmínky: $x\neq0$, $x\neq2$. Rovnice má jediné řešení $x=-1$.
+
+**14)** Přiřaďte ke každé rovnici a)–c) množinu všech řešení:
+
+a) $x^2=-3x$
+b) $\dfrac9x=x$
+c) $\dfrac{9-x^2}{x-3}=0$
+
+*Jaro 2017, příklad č. 26. Body: 3. Výsledek: a) $\{0;-3\}$, b) $\{3;-3\}$, c) $\{-3\}$.*
+
+Řešení: a) $x^2+3x=0 \implies x(x+3)=0 \implies x_1=0,\ x_2=-3$.
+
+b) $/\cdot x$: $9=x^2 \implies x_1=3,\ x_2=-3$ (podmínka $x\neq0$).
+
+c) $9-x^2=0 \implies x^2=9 \implies x_1=3$ (nevyhovuje, $x\neq3$), $x_2=-3$. Rovnice má jediné řešení $x=-3$.
+
+**15)** V oboru $\mathbb R$ řešte: $2x-3=(2x-3)(2x+3)$.
+
+*Podzim 2017, příklad č. 6. Body: 2. Výsledek: $x_1=1{,}5$, $x_2=-1$.*
+
+Řešení: $2x-3=4x^2-9 \implies 0=4x^2-2x-6\ /:2 \implies 0=2x^2-x-3$. $a=2,b=-1,c=-3$, $D=1+24=25$: $x_{1,2}=\dfrac{1\pm5}4$, $x_1=1{,}5$, $x_2=-1$.
+
+---
+
+*Příklady z testů PUP a ilustračních testů Cermatu*
+
+**1p)** V oboru $\mathbb R$ řešte: $(2x-3x)(5-x)=0$.
+
+*Jaro 2011 PUP, příklad č. 9. Body: 2. Výsledek: $K=\{0;5\}$.*
+
+Řešení: $-x(5-x)=0 \implies x_1=0,\ x_2=5$.
+
+**2p)** V oboru $\mathbb R$ řešte: $\dfrac{x^2-4}{x-2}=3x$.
+
+*Jaro 2011 PUP, příklad č. 10. Body: 2. Výsledek: $x=1$; podmínky $x\neq2$.*
+
+Řešení (1. způsob): $/\cdot(x-2)$: $x^2-4=3x^2-6x \implies 0=2x^2-6x+4\ /:2 \implies 0=x^2-3x+2 \implies 0=(x-1)(x-2)$. $x_1=1$, $x_2=2$ (nevyhovuje).
+
+Řešení (2. způsob — chytřejší): protože $x^2-4=(x-2)(x+2)$, lze zlomek zjednodušit hned na $x+2$ (pro $x\neq2$): $x+2=3x \implies 2=2x \implies x=1$.
+
+**1i)** Řešte $\dfrac4x-\dfrac{3(x-7)}{x(x-3)}=\dfrac{x+1}{x-3}$. a) Pro které $x$ není rovnice definována? b) Určete množinu řešení.
+
+*2010 (1), příklad č. 8. Body: 4. Výsledek: a) $x=0$, $x=3$, b) $x=-3$.*
+
+Řešení: $/\cdot x(x-3)$: $4(x-3)-3(x-7)=x(x+1) \implies 4x-12-3x+21=x^2+x \implies 9=x^2 \implies x_1=3$ (nevyhovuje), $x_2=-3$. Rovnice má jediné řešení $x=-3$; podmínky (kde není definována): $x\neq0$, $x\neq3$.
+
+**2i)** V $\mathbb R$ řešte $(2x-3)^2-x^2=0$. Které tvrzení je pravdivé?
+
+A) Rovnice má právě jedno řešení.   **B) Hodnoty obou kořenů se liší o 2.**   C) Kořeny jsou opačná nenulová čísla.   D) Žádné z A–C.
+
+*2010 (1), příklad č. 13. Body: 3. Výsledek: B ($x_1=1$, $x_2=3$).*
+
+Řešení: $4x^2-12x+9-x^2=0 \implies 3x^2-12x+9=0\ /:3 \implies x^2-4x+3=0 \implies (x-1)(x-3)=0 \implies x_1=1,\ x_2=3$ (liší se o 2).
+
+**3i)** Jedním z kořenů rovnice $(x-2)+(x+2)(x-2)=0$ je $x=2$. Vypočtěte druhý kořen.
+
+*2013, příklad č. 7. Body: 1. Výsledek: $x_2=-3$.*
+
+Řešení (1. způsob): $x-2+x^2-4=0 \implies x^2+x-6=0 \implies (x-2)(x+3)=0 \implies x_1=2,\ x_2=-3$.
+
+Řešení (2. způsob — vytknutí $(x-2)$): $(x-2)\cdot[1+(x+2)]=0 \implies (x-2)(x+3)=0 \implies x_2=-3$.
+
+**4i)** Přiřaďte úloze $\dfrac{(x-2)^2}{2-x}=0$ odpovídající řešení:
+
+A) $\emptyset$   B) $\mathbb R$   C–F) *(nedochováno)*
+
+*2014 (1), příklad č. 25.1. Body: 1. Výsledek: A; podmínky $x\neq2$.*
+
+Řešení: $/\cdot(2-x)$: $(x-2)^2=0 \implies x=2$ — nevyhovuje podmínkám ($x\neq2$). Rovnice nemá řešení, $K=\emptyset$.
+
+**5i)** V oboru $\mathbb R$ řešte rovnici $1=\dfrac{(2x-3)^2}{12x+9}$.
+
+*2014 (2), příklad č. 7. Body: 2. Výsledek: $K=\{0;6\}$; podmínky $x\neq-\tfrac34$.*
+
+Řešení: $/\cdot(12x+9)$: $12x+9=(2x-3)^2 \implies 12x+9=4x^2-12x+9 \implies 0=4x^2-24x\ /:4 \implies 0=x^2-6x \implies 0=x(x-6) \implies x_1=0,\ x_2=6$. Podmínky: $12x+9\neq0 \implies x\neq-\dfrac34$ (obě řešení vyhovují).
+
+## Zdroje
+
+MATURITA HADR / Matematika / řešené postupy matematických okruhů z DT 2010–2017, dokument *14) Kvadratická rovnice.pdf*.

@@ -4,139 +4,89 @@ order: 1
 source: "matematika/TY01_0111 Planimetrie, úhel, vzájemná poloha přímek.pdf"
 hasExercises: true
 ---
-**<u>Planimetrie:</u>** geometrie v rovině neboli dvourozměrná geometrie (příkladem roviny může být tabule nebo stěna ve třídě)
 
-Základními pojmy v geometrii
+> Pozn. k obsahu: PDF používalo speciální geometrické symboly (šipky nad písmeny, symboly ∈/∉), které se při převodu ztratily nebo poškodily, a obsahovalo obrázky (k úkolům 2 a 4), které nešlo zrekonstruovat — u těch je to níže označené. Text a vzorce jsou opravené/doplněné.
 
-# **BOD**
+**Planimetrie:** geometrie v rovině neboli dvourozměrná geometrie (příkladem roviny může být tabule nebo stěna ve třídě).
 
-- označujeme: velká písmena – A, B, C, ...
+## Základní pojmy v geometrii
 
-- bod je abstraktní objekt, nemá rozměr ani délku
+**Bod** — označujeme velkými písmeny ($A, B, C, \ldots$). Bod je abstraktní objekt, nemá rozměr ani délku. Pokud bod $A$ splývá s bodem $B$, zapíšeme $A=B$; pokud jsou různé, zapíšeme $A\neq B$.
 
-- pokud A splývá a B, zapíšeme A=B, pokud jsou různé, zapíšeme A≠B
+**Přímka** — označujeme malými písmeny ($p, r, q, \ldots$), případně $p = \overleftrightarrow{AB}$ (přímka procházející body $A$ a $B$). Dvěma různými body prochází vždy jediná přímka. Pokud bod $A$ leží na přímce $p$, zapisujeme $A \in p$; pokud neleží, $A \notin p$.
 
-# **PŘÍMKA**
+**Polopřímka** — bod $B$ ležící na přímce $p$ ji rozděluje na dvě navzájem opačné polopřímky se společným počátkem $B$. Označujeme $p = \overrightarrow{AB}$.
 
-
+**Úsečka** — označujeme $AB, BC, \ldots$. Úsečku $AB$ lze definovat jako průnik polopřímek $\overrightarrow{AB}$ a $\overrightarrow{BA}$. Délka úsečky se označuje $|AB|$, např. $|AB|=5\text{ cm}$.
 
-- označujeme: malá písmena – _p, r, q, ..., p=_ ↔𝐴𝐵 _nebo p=AB_
+**Rovina** — označujeme malými řeckými písmeny ($\alpha, \beta, \gamma, \delta, \varepsilon, \ldots$).
 
-- dvěma různými body prochází jediná přímka
+**Polorovina** — polorovina daná hraniční přímkou $p=\overleftrightarrow{AB}$ a bodem $M$ — označujeme $\overrightarrow{pM}$ nebo $\overrightarrow{ABM}$.
 
-- pokud bod A leží na přímce p, zapisujeme A  p, pokud neleží, zapisujeme A  p
+## Úkol 1
 
-# **POLOPŘÍMKA**
+Zakreslete tři body K, L, M a těmito body sestrojte všechny možné přímky (znalost: pro každé dva body existuje právě jedna přímka).
 
-- bod B ležící na přímce p, jí rozděluje na dvě navzájem opačné polopřímky se společným počátkem 
+## Úhel
 
-
+Úhel lze chápat jako dvojici polopřímek se společným počátkem (vrcholem $V$) nebo dvojici přímek v rovině či v prostoru.
 
-- označujeme:  malá písmena – _p,_ , _q… , p_ =→𝐴𝐵 nebo p=AB
+**Značení:** pomocí řeckých písmen ($\alpha, \beta, \gamma, \delta, \varepsilon, \ldots$) nebo zápisem $\angle AVB$ (úhel $\angle ABC$ v trojúhelníku $ABC$ je vlastně úhel $\beta$ u vrcholu $B$).
 
-# **ÚSEČKA**
+### Druhy úhlů a jejich velikost
 
-- označujeme:  ( AB, BC,…,)
+| Úhel | Definice | Velikost |
+|---|---|---|
+| Nulový | ramena leží na sobě | $0°$ |
+| Ostrý | menší než pravý úhel | $(0°;90°)$ |
+| Pravý | polovina přímého úhlu (dvě přímky v pravém úhlu dělí plochu na 4 shodné kvadranty; značí se tečkou v obloučku) | $90°$ |
+| Tupý | větší než pravý, menší než přímý | $(90°;180°)$ |
+| Přímý | ramena jsou opačné polopřímky | $180°$ |
+| Plný | ramena leží na sobě, úhlem je celá rovina kolem nich | $360°$ |
 
-- úsečku AB můžeme definovat jako průnik polopřímek →𝐴𝐵 𝑎→𝐵𝐴
+**Konvexní úhel** je úhel přímý nebo menší než přímý. **Nekonvexní (konkávní) úhel** je úhel větší než přímý.
 
-- délka úsečky se označuje |AB|, např  |AB|= 5 cm
+### Velikost úhlu
 
-# **ROVINA**
+**Stupňová míra** — značení $°,\ ',\ ''$; jednotky stupeň, minuta, vteřina: $1° = 60'$, $1' = 60''$, $1° = 3600''$.
 
-- označujeme:  malá řecká písmena -  α, β, γ, δ, ε, ...
+**Pozn.:** úhel $36{,}5°$ **není** stejný jako úhel $36°50'$, ale rovná se úhlu $36°30'$ (protože $0{,}5°=30'$, ne $50'$).
 
-# **POLOROVINA**
+**Obloukavá míra** — značení rad; jednotka radián (délka jednotkového oblouku mezi dvěma polopřímkami). Platí převodní vztah:
 
-- označujeme:  polorovina daná hraniční přímkou _p=_ ↔𝐴𝐵 a bodem M – označujeme →𝑝𝑀 nebo →𝐴𝐵𝑀)
+$$1° = \frac{1\cdot\pi}{180}\text{ rad} \approx 0{,}017\text{ rad}$$
 
-## **Úkol:**
+Proto např.:
 
-1. Zakreslete tři body K, L, M a těmito body sestrojte všechny možné přímky (znalost: pro každé dva body existuje právě jedna přímka)
+$$30° = \frac{30\pi}{180} = \frac{\pi}{6}\text{ rad}, \quad 60° = \frac{60\pi}{180}=\frac{\pi}{3}\text{ rad}, \quad 90° = \frac{\pi}{2}\text{ rad}, \quad 120° = \frac{2\pi}{3}\text{ rad}$$
 
-1
+## Úkol 2
 
-# **ÚHEL**
+*(Obrázek se nedochoval.)* Na obdélníku ABCD, kde na straně AB leží bod E, sestrojte jednotlivé druhy úhlů pomocí dvou různobarevných polopřímek.
 
-Lze chápat jako dvojici polopřímek se společným počátkem (vrcholem - V) nebo dvojici přímek v rovině či v prostoru
+## Dvojice úhlů
 
-<!-- Start of picture text -->
-α<br><!-- End of picture text -->
+- **Vrcholové úhly** — úhly ležící naproti sobě a mající společný vrchol; vrcholové úhly jsou vždy **shodné**.
+- **Vedlejší úhly** — úhly ležící vedle sebe, mající společný vrchol i jedno rameno; jejich součet je vždy **přímý úhel** ($180°$).
+- **Souhlasné úhly** — vzniknou při protnutí dvou přímek příčkou; leží na stejné straně příčky a ve stejné poloze vůči průsečíku se svou přímkou. Jsou-li obě přímky rovnoběžné, jsou souhlasné úhly **shodné**.
+- **Střídavé úhly** — vzniknou stejně jako souhlasné, ale leží na **opačných** stranách příčky. Jsou-li obě přímky rovnoběžné, jsou střídavé úhly také **shodné**.
 
-**ozn.:** pomocí řeckých písmen (α, β, γ, δ, ε, ...) a nebo AVB (úhel  ABC v trojúhelníku ABC je vlastně úhel β)
+## Úkol 3
 
-## **Druhy úhlů a jejich velikost:**
+Nakreslete obdélník ABCD a v něm sestrojte jeho úhlopříčky. V tomto obrazci vyznačte všechny vrcholové, vedlejší, souhlasné a střídavé úhly.
 
-- **Nulový úhel** je úhel, jehož ramena leží na sobě.   = 0<sup>o</sup>
+## Úkol 4
 
-- **Ostrý úhel** je úhel menší než pravý úhel.   = (0<sup>o</sup> ; 90<sup>o</sup> )
+*(Obrázek se nedochoval — zadání se opíralo o konkrétní nákres úhlů, ze kterého se měla velikost hledaného úhlu dopočítat pomocí vlastností výše. Zachovaný výsledek: hledaný úhel měl velikost $45°$.)*
 
-- **Pravý úhel** je polovina přímého úhlu. Pravý úhel se označuje tečkou v obloučku. Dvě přímky v pravém úhlu dělí plochu na 4 shodné kvadranty.  = 90<sup>o</sup>
+## Vzájemná poloha přímek
 
-- **Tupý úhel** je větší než pravý úhel, ale menší než přímý úhel.  = (90<sup>o</sup> ; 180<sup>o</sup> )
+- **Rovnoběžné totožné (splývající)** — mají nekonečně mnoho společných bodů (jsou to fakticky tatáž přímka).
+- **Rovnoběžné různé** — nemají žádný společný bod.
+- **Různoběžné** — mají právě jeden společný bod.
 
-- **Přímý úhel** je úhel, jehož ramena jsou opačné polopřímky.  = 180<sup>o</sup>
+## Úkol 5
 
-- **Plný úhel** je úhel, jehož ramena leží na sobě, za úhel se považuje celá rovina kolem nich.  = 360<sup>o</sup>
+Na obdélníku z úkolu č. 2 vyznačte dvě přímky:
 
-- **konvexní úhel** je úhel přímý nebo menší než přímý
-
- **nekonvexní úhel (konkávní)** je úhel větší než přímý úhel
-
-## **Velikost úhlu:**
-
-- **stupňová míra** – ozn.:<sup>o</sup> , ´, ´´ ; jednotky - stupeň, minuta, vtěřina (1<sup>o</sup> = 60´ ; 1 ´ = 60 ´´ ; 1<sup>o</sup> = 3600 ´´ )
-
-**pozn.:** úhel 36,5<sup>o</sup> není stejný s úhlem 36<sup>o</sup> 50´, ale rovná se úhlu 36<sup>o</sup> 30´
-
-- **oblouková míra** – ozn.:  rad; jednotky – radián (délka jednotkového oblouku mezi dvěma polopřímkami)
-
-**pozn.:** platí    -->   1<sup>o</sup> = (1.π)/180 rad = 0,017... rad     -->     PROTO třeba
-
-**30**<sup>**o**</sup> = (30.π)/180 rad  = **π/6  rad 60**<sup>**o**</sup> = (60.π)/180 rad  = **π/3  rad 90**<sup>**o**</sup> = (90.π)/180 rad  = **π/2  rad 120**<sup>**o**</sup> = (120.π)/180 rad  = **2π/3  rad**
-
-2
-
-## **Úkol:**
-
-2. Na obdélníku ABCD, kde na straně AB leží bod E, sestrojte jednotlivé druhy úhlů pomocí dvou různobarevných polopřímek.
-
-## **Dvojice úhlů:**
-
-- **vrcholové úhly:** úhly ležící naproti sobě a mající společných vrchol; vrcholové úhly jsou shodné
-
-- **vedlejší úhly:** úhly ležící vedle sebe a mající společných vrchol; součet vrcholových úhlu je
-
-   - přímý úhel
-
-- **souhlasné úhly**
-
-- **střídavé úhly**
-
-## **Úkol:**
-
-3. Nakreslete obdélníku ABCD a v něm sestrojte jeho úhlopříčky. V tomto obrazci vyznačte všechny vrcholové, vedlejší, souhlasné a střídavé úhly.
-
-4. V obrázku níže dopočítejte dle znalosti o úhlech velikost hledaného úhlu.  [ ? = 45<sup>o</sup> ]
-
-3
-
-## **<u>Vzájemná poloha přímek:</u>**
-
-- rovnoběžné totožné (splývající) – mají nekonečné společných bodů
-
-- rovnoběžné různé – nemají žádný společný bod
-
-- různoběžné – mají pouze jeden společný bod
-
-## **Úkol:**
-
-5. Na obdélníku z úkolu č.2 vyznačte dvě přímky:
-
-   - a) rovnoběžné totožné
-
-   - b) rovnoběžné různé
-
-   - **c)** různoběžné
-
-4
+a) rovnoběžné totožné, b) rovnoběžné různé, c) různoběžné.

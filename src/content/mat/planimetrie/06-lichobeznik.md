@@ -4,69 +4,49 @@ order: 6
 source: "matematika/TY01_0116 Lichoběžník.pdf"
 hasExercises: true
 ---
-- rovinný útvar, jehož právě jedna dvojice protějších stran je rovnoběžná.
 
-### **obvod:**
+> Pozn. k obsahu: Vzorce v PDF byly vysázené jako obrázky (unicode zlomky), text a výsledky úkolů se ale dochovaly celé — vzorce jsou zde přepsané do LaTeXu, výsledky do spoilerů, čísla stránek odstraněna. Úkol 5 se opíral o obrázek vyšrafovaného obrazce, který se nedochoval — zachovaná čísla (úhel a dva rozměry) jsou uvedená, i když bez obrázku nejde přesně určit, jak jsou v obrazci umístěná.
 
-𝑜= 𝑎+ 𝑏+ 𝑐+ 𝑑
+**Lichoběžník** je rovinný útvar, jehož právě jedna dvojice protějších stran je rovnoběžná.
 
-### **obsah:**
+$$o = a+b+c+d$$
 
-𝑆= 𝑚 . 𝑣 _,_ kde _m_ je úsečka mezi středy stran _b_ a _d_ .
+$$S = m \cdot v, \quad \text{kde } m \text{ je střední příčka (úsečka spojující středy stran } b \text{ a } d\text{)}$$
 
-## **<u>1.  Obecný lichoběžník</u>**
+## 1. Obecný lichoběžník
 
-- čtyři vrcholy ABCD;
+Čtyři vrcholy ABCD, strany $a$ a $c$ rovnoběžné (základny), strany $b$ a $d$ (ramena) různě dlouhé. Čtyři různé vnitřní úhly se součtem $360°$.
 
-- čtyři strany, přičemž strana _a_ a _c_ jsou rovnoběžné a strany _b_ a _d_ jsou různě velké;
+## 2. Rovnoramenný lichoběžník
 
-- čtyři různé vnitřní úhly, jejichž součet je 360<sup>o</sup> .
+Strany $a$ a $c$ rovnoběžné, ramena $b$ a $d$ stejně dlouhá. Platí $\alpha=\beta$ a $\gamma=\delta$ (úhly u delší základny stejné, úhly u kratší základny stejné). Pro vodorovný přesah kratší základny nad kolmicí z jejího konce platí:
 
-## **<u>2.  Rovnoramenný lichoběžník</u>**
+$$x' = x'' = \frac{a-c}{2}$$
 
-   - čtyři vrcholy ABCD;
+## 3. Pravoúhlý lichoběžník
 
-- čtyři strany, přičemž strana _a_ a _c_ jsou rovnoběžné a strany _b_ a _d_ jsou stejně velké;
+Strany $a$ a $c$ rovnoběžné, ramena $b$ a $d$ různě dlouhá, ale dva vnitřní úhly jsou pravé ($\alpha=\delta=90°$ nebo $\beta=\gamma=90°$). Platí:
 
-- - čtyři vnitřní úhly, jejichž součet je 360<sup>o</sup> a platí, že úhel α = β a γ = δ;
+$$x = a-c$$
 
-   - platí:  𝑥´ = 𝑥´´ =
+## Úkoly
 
-- 𝑎−𝑐
+**1.** Vypočtěte delší základnu lichoběžníku ABCD, je-li dána kratší základna $c=12\text{ cm}$, výška $v=8\text{ cm}$ a obsah $S=320\text{ cm}^2$.
 
-- 2 .
+Výsledek: ||m = S/v = 320/8 = 40 cm; protože m = (a+c)/2, platí a = 2m − c = 80−12 = 68 cm||
 
-1
+**2.** Vypočtěte obsah a obvod lichoběžníka ABCD, když víte: $a=100\text{ cm}, b=20\text{ cm}, c=60\text{ cm}, \beta=40°$.
 
-## **<u>3.  Pravoúhlý lichoběžník</u>**
+Výsledek: ||o = 207,83 cm; S = 1028,8 cm² (výška dopočtená z ramene b a úhlu β: v = b·sinβ)||
 
-- čtyři vrcholy ABCD;
+**3.** Železniční násep má v příčném řezu tvar rovnoramenného lichoběžníka; dolní šířka je 4 m, horní 2,5 m, sklon ramene je $50°$. Vypočítejte obsah.
 
-- čtyři strany, přičemž strana _a_ a _c_ jsou rovnoběžné a strany _b_ a _d_ jsou různě velké;
+Výsledek: ||S = 2,89 m²||
 
-- čtyři vnitřní úhly, jejichž součet je 360<sup>o</sup> a platí, že úhel α = δ = 90<sup>o</sup> nebo β = γ = 90<sup>o</sup> (tedy dva vnitřní úhly jsou pravé);
+**4.** Délka plotu oploceného pozemku tvaru rovnoramenného lichoběžníku je 200 m, rovnoběžné strany mají 90 m a 40 m (400 dm). Vypočtěte výměru v hektarech.
 
-- 𝑎−𝑐
+Výsledek: ||S = 0,1592 ha||
 
-- - platí: 𝑥= . 2
+**5.** Vypočítejte obsah a obvod vyšrafovaného obrazce *(obrázek se nedochoval; zachované údaje: úhel $\alpha=42°$, rozměry 30 cm a 50 cm)*.
 
-### **Úkoly:**
-
-1. Vypočtěte delší základnu lichoběžníku ABCD, je-li dána kratší základna _c_ = 12 cm a výška _v_ = 8 cm a obsah _S_ = 320 cm<sup>2</sup> . [ _a_ = 68 cm]
-
-   - [ _a_ = 68 cm]
-
-2. Vypočtěte obsah a obvod lichoběžníka ABCD, když známe: _a_ = 100 cm, _b_ = 20 cm, _c_ = 60 cm, _β_ = 40<sup>o</sup> . [ _o_ = 207,83 cm; _S_ = 1028,8 cm<sup>2</sup> ]
-
-3. Železniční násep má v příčném řezu tvar rovnoramenného lichoběžníka, přičemž dolní šířka náspu je 4 m a horní je 2,5 m. Sklop ramene lichoběžníka je 50<sup>o</sup> . Vypočítejte obsah tohoto lichoběžníka? [ _S_ = 2,89 m<sup>2</sup> ]
-
-4. Délka plotu oploceného pozemku tvaru rovnoramenného lichoběžníku je 200 m. Vypočtěte jeho výměru v hektarech, jestliže dále známe délky rovnoběžných stran 90 m a 400 dm. [ _S_ = 0,1592 ha]
-
-5. Vypočítejte obsah a obvod vyšrafovaného obrazce.
-
-- [ _S_ = 1000,2 cm<sup>2</sup> ; _o_ = 141,52 cm]
-
-<!-- Start of picture text -->
-α = 42 o<br>30 cm<br>50 cm<br><!-- End of picture text -->
-
-2
+Výsledek: ||S = 1000,2 cm²; o = 141,52 cm||

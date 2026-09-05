@@ -2,91 +2,81 @@
 title: "Iracionální rovnice"
 order: 5
 source: "matematika/TY01_0205_-_Iracionalni_rovnice.pptx"
+tags: ["doplněno"]
 hasExercises: true
 ---
-Iracionální rovnice
 
-# Osnova
+> Pozn. k obsahu: Zdrojová prezentace obsahovala konkrétní zadání příkladů vložená jako obrázky, která se při převodu ztratila beze zbytku (zůstal jen obecný popis postupu, ne čísla samotných rovnic). Teorie a postup jsou rekonstruované věrně podle zachovaného textu; konkrétní příklady níže jsou nově vytvořené (nelze je z podkladu obnovit), ale demonstrují přesně tentýž typ úlohy a stejné poučení o cizích kořenech, jaké bylo v původním materiálu.
 
-a) pojem iracionální rovnice b) znalosti k řešení těchto rovnic c) ukázkové příklady d) příklady na procvičení včetně řešení
+## Osnova
 
-# Iracionální rovnice
+a) pojem iracionální rovnice, b) znalosti potřebné k řešení, c) ukázkové příklady, d) příklady na procvičení včetně řešení.
 
-• jsou rovnice, které mají neznámou _x   R_ v odmocněnci • jde o rovnice, ve kterých se vyskytuje jedna či více odmocnin
+## Iracionální rovnice
 
-**pozn.:** u iracionálních rovnic se musí provádět zkouška
+Iracionální rovnice jsou rovnice, ve kterých se neznámá $x$ vyskytuje pod odmocninou (v odmocněnci) — tedy rovnice obsahující jednu nebo víc odmocnin s neznámou.
 
-# Znalosti k řešení těchto rovnic
+**Pozn.:** u iracionálních rovnic je nutné vždy provést zkoušku — umocnění obou stran rovnice není ekvivalentní úprava a může přidat tzv. **cizí kořen**, který zadání ve skutečnosti nesplňuje.
 
-• často se v těchto rovnicích pracuje se vzorci:
+## Znalosti potřebné k řešení
 
-(a + b)<sup>2</sup> = a<sup>2</sup> + 2ab + b<sup>2</sup> neboli   (a + b)(a + b)
+Při řešení se často pracuje s těmito vzorci (umocnění dvojčlenu):
 
-(a – b)<sup>2</sup> = a<sup>2</sup> – 2ab + b<sup>2</sup> neboli   (a – b)(a – b)
+$$(a+b)^2 = a^2 + 2ab + b^2$$
 
-## Ukázkový příklad:
+$$(a-b)^2 = a^2 - 2ab + b^2$$
 
-osamostatníme odmocninu, pokud to jde zbavíme se odmocniny umocněním umocňujeme každou stranu jako celek na pravé straně vzorec _(a – b)_<sup>_2_</sup> dostáváme rovnici; upravíme ji vzniká kvadratická rovnice; řešíme ji _x1                        x1                                                   x1 = 2 .          26         +          15                   x2 = 13 x2                        x2_ výsledek nemůžeme podtrhnout, musíme provést ještě zkoušku
+**Postup řešení:**
 
-Ukázkový příklad: Zkouška:
+1. Osamostatníme odmocninu na jedné straně rovnice (pokud je to možné).
+2. Umocníme obě strany rovnice jako celek na druhou — tím se zbavíme odmocniny.
+3. Dostaneme běžnou (často kvadratickou) rovnici — tu vyřešíme obvyklým způsobem.
+4. **Provedeme zkoušku** dosazením každého nalezeného kořene zpět do původní rovnice — pouze kořeny, pro které zkouška vyjde, jsou skutečným řešením.
 
-L1:                                                                                   dosadíme _x1_ do zadání
+## Ukázkový příklad
 
-P1:
+Řešte rovnici $\sqrt{x+7} = x+1$.
 
-L1 ≠ P1 _x1_ není tedy řešením této rovnice
+Umocníme obě strany: $x+7 = (x+1)^2 = x^2+2x+1$
 
-L2:                                                                                   dosadíme _x2_ do zadání
+Upravíme na kvadratickou rovnici: $x^2 + x - 6 = 0$
 
-P2:
+Vyřešíme: $(x+3)(x-2)=0$, tedy $x_1 = -3$, $x_2 = 2$.
 
-L2 = P2 _x2_ je tedy řešením této rovnice
+**Zkouška:**
 
-_<u>x</u> = 13_ _~~<u>2</u>~~_
+- $x_1=-3$: $L = \sqrt{-3+7} = \sqrt4 = 2$, ale $P = -3+1 = -2$. $L \neq P$ — $x_1$ **není** řešením (odmocnina nikdy nevyjde záporná, takže už samo $P<0$ vylučuje tento kořen).
+- $x_2=2$: $L = \sqrt{2+7} = \sqrt9 = 3$, $P = 2+1 = 3$. $L = P$ — $x_2$ **je** řešením.
 
-# Příklady na procvičení
+**Výsledek:** $x = 2$
 
-př. 1: <u>Řešení</u> př. 2: <u>Řešení</u>
+## Příklady na procvičení
 
-př. 3: <u>Řešení</u>
+**Příklad 1:** Řešte rovnici $\sqrt{2x-3} = x-3$.
 
-## <u>přeskočit</u>
+Výsledek:
 
-## Řešení př. 1:
+- po umocnění: ||2x − 3 = x² − 6x + 9, tedy x² − 8x + 12 = 0||
+- kořeny: ||x₁ = 2, x₂ = 6||
+- zkouška: ||x₁=2: L=√1=1, P=2−3=−1, L≠P — není řešením. x₂=6: L=√9=3, P=6−3=3, L=P — je řešením.||
+- výsledek: ||x = 6||
 
-Zkouška: L: P: L ≠( P    proto rovnice nemá řešení
+---
 
-<u>zpět</u>
+**Příklad 2:** Řešte rovnici $\sqrt{x-1} = -x$.
 
-## Řešení př. 2:
+Výsledek:
 
-<!-- Start of picture text -->
-         x1                        x1                                                   x1 = 3<br>         .          - 3         +          2                      x2 = - 1<br>         x2                        x2<br><!-- End of picture text -->
+- po umocnění: ||x − 1 = x², tedy x² − x + 1 = 0||
+- diskriminant: ||D = 1 − 4 = −3 < 0 — rovnice nemá žádný reálný kořen||
+- výsledek: ||rovnice nemá řešení (i bez zkoušky — pravá strana −x by navíc pro x≥1, jak vyžaduje definiční obor odmocniny, musela být záporná, což odmocnina nikdy nesplní)||
 
-## Řešení př. 2: Zkouška:
+## Shrnutí
 
-L1: P1:
+- Iracionální rovnice obsahuje neznámou pod odmocninou.
+- Řeší se osamostatněním odmocniny a umocněním obou stran.
+- **Vždy je nutné provést zkoušku** — umocnění může přidat cizí kořen, který rovnici ve skutečnosti nesplňuje.
 
-L1 = P1 _x1_ je tedy řešením této rovnice
+## Zdroje
 
-L2:
-
-P2:
-
-L2 = P2 _x2_ je tedy řešením této rovnice
-
-_<u>x</u> = 3_ _~~<u>1</u>~~_ _<u>x</u> = - 1_ _~~<u>2</u>~~_
-
-<u>zpět</u>
-
-## Řešení př. 3:
-
-Zkouška: L: P:  0 L ≠ P                   je řešením <u>zpět</u>
-
-# Shrnutí
-
-• jde o rovnice, ve kterých jsou odmocniny • je nutné provádět zkoušku !!!
-
-# Zdroje
-
-• HUDCOVÁ, Milada a Libuše KUBIČÍKOVÁ. _Sbírka úloh z matematiky pro SOŠ, SOU a nástavbové studium_ . 2. vydání. Havlíčkův Brod: Prometheus, spol. s r.o., 2005. Učebnice pro střední školy. ISBN 80-7196-318-6
+HUDCOVÁ, Milada a Libuše KUBIČÍKOVÁ. _Sbírka úloh z matematiky pro SOŠ, SOU a nástavbové studium_. 2. vydání. Havlíčkův Brod: Prometheus, spol. s r.o., 2005. Učebnice pro střední školy. ISBN 80-7196-318-6

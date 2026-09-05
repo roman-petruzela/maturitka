@@ -4,79 +4,94 @@ order: 3
 source: "matematika/TY01_0113 Trojúhelník – pravoúhlý.pdf"
 hasExercises: true
 ---
-- trojúhelník, jehož jeden vnitřní úhel je pravý (velikost úhlu = 90<sup>o</sup> )
 
-**pozn.:** neoznačený trojúhelník značíme obecně ABC; pokud není určeno, u kterého vrcholu má být pravý úhel, obecně jej píšeme u vrcholu C
+> Pozn. k obsahu: Vzorce v PDF byly vysázené jako obrázky (unicode zlomky), text a výsledky úkolů se ale dochovaly celé — vzorce jsou zde přepsané do LaTeXu, výsledky do spoilerů, čísla stránek odstraněna.
 
-**Co můžeme používat na pravoúhlém trojúhelníku?**
+**Pravoúhlý trojúhelník** je trojúhelník, jehož jeden vnitřní úhel je pravý ($90°$).
 
-- 1) Pythagorova věta
+**Pozn.:** neoznačený trojúhelník značíme obecně ABC; pokud není určeno, u kterého vrcholu má být pravý úhel, píše se obecně u vrcholu C. Ne všechny trojúhelníky v úlohách ale musí mít pravý úhel zrovna u C — vždy je potřeba se řídit konkrétním zadáním!
 
-- 2) Goniometrické funkce – sin, cos, tg, cotg
+**Co všechno můžeme na pravoúhlém trojúhelníku používat?**
 
-- 3) Euklidovy věty – o výšce, o odvěsnách
+1. Pythagorovu větu
+2. Goniometrické funkce ($\sin, \cos, \mathrm{tg}, \mathrm{cotg}$)
+3. Euklidovy věty (o výšce, o odvěsnách)
+4. Thaletovu kružnici
 
-- 4) Thaletova kružnice
+## 1) Pythagorova věta
 
-# **1) Pythagorova věta**
+**Pythagoras** (asi 570 př. n. l. – po 510 př. n. l.) — řecký filosof, matematik a astronom.
 
-- **_Pythagoras_** – okolo 570 př.n.l. – po 510 př.n.l.; řecký filosof, matematik a astronom
+**Znění:** „Součet obsahů čtverců nad odvěsnami pravoúhlého trojúhelníku se rovná obsahu čtverce nad přeponou."
 
-- - znění: „Součet obsahů čtverců nad odvěsnami pravoúhlého trojúhelníka se rovná obsahu čtverce nad přeponou.“
+$$c^2 = a^2+b^2$$
 
-- značení obecně: **_c_**<sup>**_2_**</sup> **_= a_**<sup>**_2_**</sup> **_+ b_**<sup>**_2_**</sup> strana _c_ – přepona (leží vždy naproti pravému úhlu) strany _a_ , _b_ – odvěsny
+kde strana $c$ je **přepona** (leží vždy naproti pravému úhlu) a strany $a, b$ jsou **odvěsny**.
 
-**pozn.:** POZOR ne všechny trojúhelníky budou označeny ABC s pravým úhlem u vrcholu C
+## Úkol 1
 
-1
+Vypočítejte velikost druhé odvěsny v pravoúhlém trojúhelníku ABC s pravým úhlem při vrcholu C, když víte: $a=6\text{ cm}, c=12\text{ cm}$.
 
-# **Úkol:**
+Výsledek: ||b² = c² − a² = 144 − 36 = 108, b = √108 ≈ 10,39 cm||
 
-1. Vypočítejte velikost druhé odvěsny v pravoúhlém trojúhelníku ABC s pravým úhlem při vrcholu C, když víte: _a = 6 cm, c = 12 cm._ [ _b_ = 10,39 cm]
+## Úkol 2
 
-2. Máme oplocenou zahradu tvaru čtverce ABCD o straně délky 50 m. Vypočítejte, o kolik kroků (1 krok = 70 cm) uděláte méně, jestliže půjdete přímo z A do C než z A do C přes B? (zaokrouhlete na celé kroky) [ asi o 42 kroků méně]
+Máme oplocenou zahradu tvaru čtverce ABCD o straně délky 50 m. Vypočítejte, o kolik kroků (1 krok = 70 cm) uděláte méně, jestliže půjdete přímo z A do C, než z A do C přes B (zaokrouhlete na celé kroky).
 
-# **2) Goniometrické funkce – sin, cos, tg, cotg**
+Výsledek: ||úhlopříčka AC = 50√2 ≈ 70,71 m, cesta přes B = 50+50 = 100 m, rozdíl = 29,29 m = 2929 cm, / 70 cm ≈ 41,84 → asi o 42 kroků méně||
 
-- znění:
+## 2) Goniometrické funkce — sin, cos, tg, cotg
 
-<!-- Start of picture text -->
-sin 𝛼=  𝑝𝑟𝑜𝑡𝑖𝑙𝑒ℎ𝑙á =  𝑎<br>𝑝ř𝑒𝑝𝑜𝑛𝑎 𝑐<br>cos 𝛼=  𝑝ř𝑖𝑙𝑒ℎ𝑙á =  𝑏<br>𝑝ř𝑒𝑝𝑜𝑛𝑎 𝑐<br>𝑡𝑔 𝛼=  𝑝𝑟𝑜𝑡𝑖𝑙𝑒ℎ𝑙á =  𝑎<br>𝑝ř𝑖𝑙𝑒ℎ𝑙á  𝑏<br>𝑐𝑜𝑡𝑔 𝛼=  𝑝ř𝑖𝑙𝑒ℎ𝑙á =  𝑏<br>𝑝𝑟𝑜𝑡𝑖𝑙𝑒ℎ𝑙á 𝑎<br><!-- End of picture text -->
+$$\sin\alpha = \frac{\text{protilehlá}}{\text{přepona}} = \frac{a}{c}, \qquad \cos\alpha = \frac{\text{přilehlá}}{\text{přepona}} = \frac{b}{c}$$
 
-**pozn.:** POZOR při úhlu _β_ u vrcholu B bude strana _b_ protilehlou stranou k tomuto úhlu a strana _a_ přilehlou stranou k tomuto úhlu
+$$\mathrm{tg}\,\alpha = \frac{\text{protilehlá}}{\text{přilehlá}} = \frac{a}{b}, \qquad \mathrm{cotg}\,\alpha = \frac{\text{přilehlá}}{\text{protilehlá}} = \frac{b}{a}$$
 
-**pozn.:** funkce _cotg_ se nepoužívá při řešení příkladů, protože tuto funkci nemůžeme nalézt na kalkulačce
+**Pozn.:** pozor, při úhlu $\beta$ (u vrcholu B) je naopak strana $b$ protilehlá tomuto úhlu a strana $a$ přilehlá.
 
-# **Úkol:**
+**Pozn.:** funkce $\mathrm{cotg}$ se v praxi na řešení příkladů moc nepoužívá, protože ji nenajdeme přímo na běžné kalkulačce (počítá se jako $1/\mathrm{tg}$).
 
-3. Vypočítejte velikost strany _c_ v pravoúhlém trojúhelníku ABC s pravým úhlem při vrcholu C, když víte: _a = 6 cm_ a úhel _α = 30_<sup>_o_</sup> ? [ _c_ = 12 cm]
+## Úkol 3
 
-4. Vypočítejte velikost zbývajících stran pravoúhlého trojúhelníku ABC s pravým úhlem při vrcholu C, když víte: _c = 8 cm_ a úhel _β = 48_<sup>_o_</sup> ? (použijte goniometrické funkce) [ _a_ = 5,35 cm; _b_ = 5,95 cm]
+Vypočítejte velikost strany $c$ v pravoúhlém trojúhelníku ABC s pravým úhlem při vrcholu C, když víte: $a=6\text{ cm}$ a úhel $\alpha=30°$.
 
-5. Vypočítejte velikost úhlu _α_ v pravoúhlém trojúhelníku ABC s pravým úhlem při vrcholu C, když víte: _a = 6 cm_ a _b = 9 cm_ . [ _α_ = 33<sup>o</sup> 41´24´´ ]
+Výsledek: ||sin α = a/c, tedy c = a / sin α = 6 / sin 30° = 6 / 0,5 = 12 cm||
 
-# **3) Euklidovy věty – o výšce, o odvěsnách**
+## Úkol 4
 
-- **_Euklides_** – asi 325 př.n.l. – asi 260 př.n.l.; řecký matematik a geometr
+Vypočítejte velikost zbývajících stran pravoúhlého trojúhelníku ABC s pravým úhlem při vrcholu C, když víte: $c=8\text{ cm}$ a úhel $\beta=48°$.
 
-- - Euklidovy věty  –  o výšce _vc_<sup>_2_</sup> _= ca . cb_ o odvěsnách _a_<sup>_2_</sup> _= c . ca b_<sup>_2_</sup> _= c . cb_
+Výsledek: ||b = c·sin β = 8·sin48° ≈ 5,95 cm;  a = c·cos β = 8·cos48° ≈ 5,35 cm||
 
-- platí: _c = ca + cb_ ( _ca_ a _cb_ – úseky přepony)
+## Úkol 5
 
-2
+Vypočítejte velikost úhlu $\alpha$ v pravoúhlém trojúhelníku ABC s pravým úhlem při vrcholu C, když víte: $a=6\text{ cm}$ a $b=9\text{ cm}$.
 
-# **Úkol:**
+Výsledek: ||tg α = a/b = 6/9 ≈ 0,6667, α = arctg(0,6667) ≈ 33°41'24''||
 
-6. Vypočítejte v trojúhelníku ABC velikost výšky na stranu c, jestliže znáte: _c = 12 cm_ a úsek _ca = 4 cm_ ?
+## 3) Euklidovy věty — o výšce, o odvěsnách
 
-   - [ vc = 5,66 cm]
+**Euklides** (asi 325 př. n. l. – asi 260 př. n. l.) — řecký matematik a geometr.
 
-7. Vypočítejte v trojúhelníku ABC velikost strany, jestliže znáte: _vc = 6 cm_ a _cb = 4 cm_ ?
+Pro pravoúhlý trojúhelník s výškou $v_c$ na přeponu $c$, která ji rozděluje na úseky $c_a$ (u vrcholu A) a $c_b$ (u vrcholu B), platí $c=c_a+c_b$ a:
 
-   - [ _a_ = 10,82 cm]
+**Euklidova věta o výšce:** $\qquad v_c^2 = c_a \cdot c_b$
 
-# **4) Thaletova kružnice**
+**Euklidova věta o odvěsnách:** $\qquad a^2 = c\cdot c_a, \qquad b^2 = c\cdot c_b$
 
-- pokud sestrojíme kružnici _k_ se středem _S_ , který je středem úsečky AB, potom v každém bodě ležícím na kružnici _k_ , který tvoří s body A a B trojúhelník, bude pravý úhel.
+## Úkol 6
 
-3
+Vypočítejte v trojúhelníku ABC velikost výšky na stranu $c$, jestliže znáte: $c=12\text{ cm}$ a úsek $c_a=4\text{ cm}$.
+
+Výsledek: ||c_b = c − c_a = 12 − 4 = 8 cm; v_c² = c_a·c_b = 4·8 = 32, v_c = √32 ≈ 5,66 cm||
+
+## Úkol 7
+
+Vypočítejte v trojúhelníku ABC velikost strany $a$, jestliže znáte: $v_c=6\text{ cm}$ a $c_b=4\text{ cm}$.
+
+Výsledek: ||z věty o výšce: c_a = v_c²/c_b = 36/4 = 9 cm, tedy c = c_a+c_b = 13 cm. Z věty o odvěsnách: a² = c·c_a = 13·9 = 117, a = √117 ≈ 10,82 cm||
+
+## 4) Thaletova kružnice
+
+Sestrojíme-li kružnici $k$ se středem $S$, který je středem úsečky $AB$ (tedy s průměrem $AB$), pak v **každém** bodě ležícím na kružnici $k$, který spolu s body $A$ a $B$ tvoří trojúhelník, bude u tohoto bodu **pravý úhel**.
+
+Toto je užitečný nástroj pro konstrukci pravoúhlých trojúhelníků a pro důkazy v planimetrii.

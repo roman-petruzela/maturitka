@@ -4,44 +4,86 @@ order: 8
 source: "MATURITA HADR/Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/8) Vyjádření neznámé ze vzorce.pdf"
 hasExercises: true
 ---
-<u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Vyjádření neznámé ze vzorce</u>
 
-1) Pro  x ≠ 0  a _n_ ∊ N  platí vztah: n = – 3 Pro veličinu x platí: A)  x  =  –2        B)  x  =  1 – 3n        C)  x = D)  x = E)  x = Ostrý maturitní test Cermat-u ( základní úroveň ) – podzim 2012, příklad č. 18 Body: 2                    Výsledek:  E
+> Pozn. k obsahu: Vzorce byly v PDF vysázené jako rovnicové objekty, které se při převodu ztratily — u všech úloh šlo přesné znění zpětně rekonstruovat z dochovaného postupu řešení a přepočtem ověřit, že sedí na dochovaný výsledek.
 
-Pracovní tematické zařazení: Vyjádření neznámé ze vzorce Řešení: n = – 3  /* x          nx  =  n – 3x          nx + 3x  =  n          x( n + 3 )  =  n    /: ( n + 3 ) x = nebo      n = – 3         n + 3  = /* x          x( n + 3 )  =  n    /: ( n + 3 ) x =
+*Příklady z maturitních testů Cermatu (základní úroveň) — Vyjádření neznámé ze vzorce*
 
--------------------------------------------------2) Pro x R **\** a je dán vztah Které z následujících tvrzení platí ? A) B) C) D) E) Ostrý maturitní test Cermat-u ( základní úroveň ) – jaro 2013, příklad č. 19 Body:  2                  Výsledek:  D
+**1)** Pro $x\neq0$ a $n\in\mathbb N$ platí vztah $n=\dfrac nx-3$. Pro veličinu $x$ platí:
 
-Pracovní tematické zařazení: Vyjádření neznámé ze vzorce Řešení: /* (x – 3)          n(x – 3)  =  5          nx – 3n  =  5          nx  =  5 + 3n    /: n x  = x  = nebo /* (x – 3)          n(x – 3)  =  5    /: n          x – 3  =
+A) $x=-2$   B) $x=1-3n$   C) *(nedochováno)*   D) *(nedochováno)*   **E) $x=\dfrac{n}{n+3}$**
 
---------------------------------------------------
+*Podzim 2012, příklad č. 18. Body: 2.*
 
-<u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Vyjádření neznámé ze vzorce</u>
+Řešení: $/\cdot x$: $nx=n-3x \implies nx+3x=n \implies x(n+3)=n\ /:(n+3) \implies x=\dfrac{n}{n+3}$.
 
-3) Přiřaďte ke každému vztahu ( a) – c) ) odpovídající vyjádření veličiny _a_ ( A – E ), kde _a, b_ Є R.     a) _b_ – 2 _a_ = 1 – 3 _a_ b)  2 _a_ – _b_ = _b_ – 2         c) A) _a_ = _b_ – 1      B) _a_ = _b_ + 1      C) _a_ = 1 – _b_ D) _a_ = _b_ + 2 E)  Žádné z uvedených vyjádření nevyhovuje. Ostrý maturitní test Cermat-u ( základní úroveň ) – podzim 2013, příklad č. 26 Body: 3                    Výsledek:  a) C     b) A     c) E
+**2)** Pro $x\neq3$ je dán vztah $n=\dfrac5{x-3}$. Které z následujících tvrzení platí?
 
-Pracovní tematické zařazení: Vyjádření neznámé ze vzorce Řešení: a) _b_ – 2 _a_ = 1 – 3 _a a_ = 1 – _b_ b) 2 _a_ – _b_ = _b_ – 2                 2 _a_ = 2 _b_ – 2    /: 2 _a_ = _a_ = _a_ = _b_ – 1 c) /* 2          2 _a_ – _b_ = 2 _a_ + 2          – 2 = _b_ Žádné z uvedených vyjádření nevyhovuje ( neznámá _a_ <u>po úpravách „vypadla“ )</u>
+A–C) *(nedochováno)*   **D) $x=\dfrac5n+3$**   E) *(nedochováno)*
 
--------------------------------------------------4) Pro veličiny _a_ Є ( 0; 2 ), _b_ Є R<sup>+</sup> platí:        1 + = Z uvedeného <u>vztahu vyjádřete veličinu</u> _<u>a.</u>_ Ostrý maturitní test Cermat-u ( základní úroveň ) – jaro 2015, příklad č. 11 Body:  1                  Výsledek: _a_ =
+*Jaro 2013, příklad č. 19. Body: 2.*
 
-Pracovní tematické zařazení: Vyjádření neznámé ze vzorce Řešení: 1 + = /* _ab ab_ + _a_ =  2 _a_ ( _b_ + 1 )  =  2    /: ( _b_ + 1) _a_ =
+Řešení: $/\cdot(x-3)$: $n(x-3)=5 \implies nx-3n=5 \implies nx=5+3n\ /:n \implies x=\dfrac{5+3n}n=\dfrac5n+3$.
 
--------------------------------------------------5) Pro kladné veličiny _a, b, c_ platí: _c_ = _a_ – _b_ * Z uvedeného <u>vztahu vyjádřete veličinu</u> _<u>c</u>_ <u>.</u> Ostrý maturitní test Cermat-u ( základní úroveň ) – jaro 2016, příklad č. 7 Body:  1                  Výsledek:   c =
+**3)** Přiřaďte ke každému vztahu a)–c) odpovídající vyjádření veličiny $a$ (A–E), kde $a,b\in\mathbb R$:
 
-Pracovní tematické zařazení: Vyjádření neznámé ze vzorce Řešení: _c_ = _a_ – _b_ * /* 2               2 _c_ =  2 _a_ – _bc_ 2 _c_ + _bc_ =  2 _a c_ ( 2 + _b_ )  =  2 _a_ /: (2 + _b_ )                     c =
+a) $b-2a=1-3a$
+b) $2a-b=b-2$
+c) $a-\dfrac b2=a+1$
 
---------------------------------------------------
+A) $a=b-1$   B) $a=b+1$   C) $a=1-b$   D) $a=b+2$   E) žádné z uvedených vyjádření nevyhovuje
 
-<u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Vyjádření neznámé ze vzorce</u>
+*Podzim 2013, příklad č. 26. Body: 3. Výsledek: a) C, b) A, c) E.*
 
-- 1i) Vrchol věže V sledujeme z místa A pod úhlem a z místa B, které je v horizontálním směru o x metrů blíže k patě věže, pod úhlem ( viz obrázek ). Vztah mezi uvedenými veličinami a výškou věže _v_ je vyjádřen vzorcem:
+Řešení: a) $b-2a=1-3a \implies b+a=1 \implies a=1-b$.
 
-- x  =
+b) $2a-b=b-2 \implies 2a=2b-2\ /:2 \implies a=b-1$.
 
-Z uvedeného vztahu     x  = vyjádřete výšku věže _v_ obecně. Ilustrační maturitní test Cermat-u ( základní úroveň ) – 2010 (1), příklad č. 11.2 Body: 2                   Výsledek: _v_ = Pracovní tematické zařazení: Vyjádření neznámé ze vzorce Řešení: x  = /* tg α * tg β                  x * tg α * tg β   = _v_ * tg β  – _v_ * tg α x * tg α * tg β   = _v_ * ( tg β – tg α ) = _v_ -------------------------------------------------2i) Z obou následujících vztahů <u>vyjádřete proměnnou</u> _<u>t</u>_ <u>:  a)</u> b) Ilustrační maturitní test Cermat-u ( základní úroveň ) – 2010 (2), příklad č. 4 Body:  2          Výsledek:  a) b) Pracovní tematické zařazení: Vyjádření neznámé ze vzorce Řešení: a) _s_ =  0,5( _t_ + _u_ ) _s_ =  0,5 _t_ + 0,5 _u_ /* 2            2 _s_ = _t_ + _u_ 2 _s_ – _u_ = _t_ b) _t_<sup>– 1</sup> + _z_ =  2 + _z_ =  2   /* _t_ 1 + _t z_ =  2 _t_ 1  =  2 _t_ – _t z_ 1  = _t_ ( 2 – _z_ ) = _t_ --------------------------------------------------
+c) $/\cdot2$: $2a-b=2a+2 \implies -b=2 \implies b=-2$ — neznámá $a$ po úpravě "vypadla" (vztah je ve skutečnosti podmínkou na $b$, ne na $a$), žádná z nabízených odpovědí tedy nevyhovuje.
 
-<u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Vyjádření neznámé ze vzorce</u>
+**4)** Pro veličiny $a\in(0;2)$, $b\in\mathbb R^+$ platí $1+\dfrac1b=\dfrac2{ab}$. Vyjádřete veličinu $a$.
 
-3i) Který z uvedených vztahů je odvozen ze vzorce ? A) s = B) s = C) s = D) s = E) s = Ilustrační maturitní test Cermat-u ( základní úroveň ) – 2013, příklad č. 17 Body: 2                   Výsledek:  C Pracovní tematické zařazení: Vyjádření neznámé ze vzorce Řešení: /* ( t1 + t2 <u>)</u> _v_ <u>( t1 + t2 )  =  2s</u><sup>s =</sup> … odpověď C
+*Jaro 2015, příklad č. 11. Body: 1. Výsledek: $a=\dfrac2{b+1}$.*
 
---------------------------------------------------
+Řešení: $/\cdot ab$: $ab+a=2 \implies a(b+1)=2\ /:(b+1) \implies a=\dfrac2{b+1}$.
+
+**5)** Pro kladné veličiny $a,b,c$ platí $c=a-b\cdot\dfrac c2$. Vyjádřete veličinu $c$.
+
+*Jaro 2016, příklad č. 7. Body: 1. Výsledek: $c=\dfrac{2a}{2+b}$.*
+
+Řešení: $/\cdot2$: $2c=2a-bc \implies 2c+bc=2a \implies c(2+b)=2a\ /:(2+b) \implies c=\dfrac{2a}{2+b}$.
+
+---
+
+*Ilustrační maturitní testy Cermatu*
+
+**1i)** Vrchol věže $V$ sledujeme z místa $A$ pod úhlem $\alpha$ a z místa $B$ (o $x$ metrů blíže k patě věže) pod úhlem $\beta$. Vztah mezi veličinami a výškou věže $v$: $x=\dfrac{v}{\mathrm{tg}\,\alpha}-\dfrac{v}{\mathrm{tg}\,\beta}$. Vyjádřete výšku věže $v$ obecně.
+
+*2010 (1), příklad č. 11.2. Body: 2.*
+
+Řešení: $/\cdot\mathrm{tg}\,\alpha\cdot\mathrm{tg}\,\beta$: $x\cdot\mathrm{tg}\,\alpha\cdot\mathrm{tg}\,\beta = v\cdot\mathrm{tg}\,\beta-v\cdot\mathrm{tg}\,\alpha = v(\mathrm{tg}\,\beta-\mathrm{tg}\,\alpha)$, tedy:
+
+$$v = \frac{x\cdot\mathrm{tg}\,\alpha\cdot\mathrm{tg}\,\beta}{\mathrm{tg}\,\beta-\mathrm{tg}\,\alpha}$$
+
+**2i)** Z obou vztahů vyjádřete proměnnou $t$:
+
+a) $s=0{,}5(t+u)$
+b) $t^{-1}+z=2$
+
+*2010 (2), příklad č. 4. Body: 2. Výsledek: a) $t=2s-u$, b) $t=\dfrac1{2-z}$.*
+
+Řešení: a) $s=0{,}5t+0{,}5u\ /\cdot2 \implies 2s=t+u \implies t=2s-u$.
+
+b) $\dfrac1t+z=2\ /\cdot t \implies 1+tz=2t \implies 1=2t-tz \implies 1=t(2-z) \implies t=\dfrac1{2-z}$.
+
+**3i)** Který z uvedených vztahů je odvozen ze vzorce $v=\dfrac{2s}{t_1+t_2}$ (průměrná rychlost při dvoufázovém pohybu)?
+
+A) *(nedochováno)*   B) *(nedochováno)*   **C) $s=\dfrac{v(t_1+t_2)}2$**   D) *(nedochováno)*   E) *(nedochováno)*
+
+*2013, příklad č. 17. Body: 2.*
+
+Řešení: $/\cdot(t_1+t_2)$: $v(t_1+t_2)=2s\ /:2 \implies s=\dfrac{v(t_1+t_2)}2$.
+
+## Zdroje
+
+MATURITA HADR / Matematika / řešené postupy matematických okruhů z DT 2010–2017, dokument *8) Vyjádření neznámé ze vzorce.pdf*.

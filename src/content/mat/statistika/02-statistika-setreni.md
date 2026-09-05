@@ -4,96 +4,56 @@ order: 2
 source: "matematika/TY01_0219_statistika_-_setreni.pptx"
 hasExercises: true
 ---
-**_Statistika_** _se těší pochybnému vyznamenání tím, že je nejvíce nepochopeným vědním oborem. Neznamená to však, že je nejméně známá. Nepochopení nějaké věci totiž předpokládá, že se o ní něco ví, nebo přinejmenším se myslí, že se ví. O statistice však panuje všeobecné mínění, že z každého, kdo se naučil ve škole trochu počítat, lze bez obtíží udělat statistika prostě tím, že se mu tak říká._
 
-H. Levinson
+> Pozn. k obsahu: Zdrojová prezentace (PPTX) obsahovala krátké heslovité body na jednotlivých snímcích — přepsáno do souvislého textu se zachováním všech pojmů. Odkazovaný excelový soubor (demonstrace hodu kostkou) a text pro úlohu o samohláskách nejsou součástí archivu — úlohy ponechány jako historický záznam, tabulky pro vlastní sběr dat zůstávají prázdné k vyplnění.
 
-Mýty o statistice _Existují tři druhy lží: prostá lež, odsouzeníhodná lež a statistika_ A přitom jsou statistické výsledky považovány za přesné a významné, mají v sobě magické kouzlo matematické přesnosti.
+> *Statistika se těší pochybnému vyznamenání tím, že je nejvíce nepochopeným vědním oborem. Neznamená to však, že je nejméně známá. Nepochopení nějaké věci totiž předpokládá, že se o ní něco ví, nebo přinejmenším se myslí, že se ví. O statistice však panuje všeobecné mínění, že z každého, kdo se naučil ve škole trochu počítat, lze bez obtíží udělat statistika prostě tím, že se mu tak říká.*
+>
+> — H. Levinson
 
-# Statistické studie
+Statistika bývá terčem posměšku ("existují tři druhy lží: prostá lež, odsouzeníhodná lež a statistika"), přestože jsou statistické výsledky často považovány za přesné a významné — mají v sobě jakési magické kouzlo matematické přesnosti, které svádí k jejich nekritickému přijímání.
 
-## POKUS
+## Statistické studie
 
-- plánovitě měníme faktory a sledujeme jejich vliv – např. vyhodnocování účinku léčby
+- **Pokus** — plánovitě měníme faktory a sledujeme jejich vliv (např. vyhodnocování účinku léčby).
+- **Šetření** — pasivní pozorování, kdy do průběhu zasahujeme co nejméně a jen zapisujeme výsledky.
 
-- ŠETŘENÍ
+## Statistické šetření
 
-- pasivní pozorovatel, který zasahuje co nejméně do průběhu šetření, jen zapisuje výsledky
+- **Úplné šetření** — sledujeme znaky celého vzorku (celé populace). Příklady: evidence povinně hlášených nemocí, důležité demografické jevy (narození, úmrtí), sčítání lidu (cenzus, u nás jednou za deset let).
+- **Výběrové šetření** — zjišťujeme požadované vlastnosti pouze u některých prvků populace. Výběr musí být buď **reprezentativní** (odpovídá struktuře celé populace), nebo **náhodný**.
 
-Statistické šetření Úplné šetření
+## Četnost
 
-- sledujeme znaky úplného  vzorku (celé populace)
+Výsledkem šetření je seznam jednotek s udáním hodnoty znaku — výsledky obvykle zapisujeme do přehledné tabulky a zjišťujeme, kolikrát se která hodnota vyskytla (**četnost** hodnoty znaku).
 
-– evidenci povinně hlášených nemocí – důležité demografické jevy (narození, úmrtí)
+- **Absolutní četnost** — kolikrát se hodnota vyskytla ve zkoumaném souboru; součet všech absolutních četností se rovná počtu všech jednotek.
+- **Relativní četnost** — jaká část souboru má hodnotu daného znaku; součet všech relativních četností se rovná jedné (může se vyjadřovat i v procentech).
 
-– sčítání lidu (cenzus) – u nás jednou za deset let
+## Úkoly
 
-# Statistické šetření
+**1.** Zjistěte rozdělení četnosti znaku "měsíc narození" ve své třídě a výsledky zapište do tabulky rozdělení:
 
-• Výběrové šetření – zjišťujeme požadované vlastnosti pouze u některých prvků populace
+| měsíc | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| četnost | | | | | | | | | | | | |
+| relativní četnost | | | | | | | | | | | | |
 
-- reprezentativní výběr
+K zamyšlení: Je rozsah souboru dostatečný? Kolik respondentů by bylo potřeba, aby se z výsledků daly vyvodit nějaké závěry?
 
-- náhodný výběr
+**2.** Hod hrací kostkou — sledujte vliv počtu pokusů na výsledky (demonstrace v přiloženém sešitu *Statistika – demonstrace hodu kostkou.xlsx*).
 
-# Četnost
+**3.** Hod mincí — do tabulky zaznamenejte výsledky 50 hodů mincí. (Otázka k zamyšlení: která strana mince se označuje jako líc a která jako rub?)
 
-- výsledkem šetření je seznam jednotek s udáním hodnoty znaku
+**4.** České samohlásky — zjistěte, jaká je četnost samohlásek v předloženém textu, a výsledky zapište do tabulky:
 
-- • výsledky obvykle zapisujeme do přehledné tabulky
+| samohláska | a | e | i | o | u | y |
+|---|---|---|---|---|---|---|
+| četnost | | | | | | |
+| rel. četnost | | | | | | |
 
-- • zjišťujeme, kolikrát se hodnota vyskytla = četnost hodnoty znaku
+K zamyšlení: Která samohláska má v češtině nejvyšší četnost?
 
-# Četnost
+## Zdroje
 
-- absolutní četnost
-
-   - kolikrát se hodnota vyskytla ve zkoumaném souboru
-
-      - součet všech hodnot se rovná počtu všech jednotek
-
-- relativní četnost
-
-   - jaká část souboru má hodnotu daného znaku
-
-      - součet se rovná jedné
-
-      - může se vyjadřovat v procentech
-
-# Úkol
-
-• zjistěte rozdělení četnosti znaku měsíc narození ve své třídě
-
-• výsledky zapište do tabulky rozdělení
-
-|četností<br>měsíc<br>1<br>2|3|4<br>5|6|7<br>8|9|10|11|12|
-|---|---|---|---|---|---|---|---|---|
-|četnost|||||||||
-|relativní<br>četnost|||||||||
-
-Je rozsah souboru dostatečný? Kolik respondentů by bylo potřeba, aby se z výsledků daly vyvodit nějaké závěry?
-
-# Hod hrací kostkou
-
-Sledujte vliv počtu pokusů na výsledky: _Statistika_demonstrace hodu kostkou.xlsx_
-
-# Hod mincí
-
-Do tabulky zaznamenejte výsledky 50 hodů mincí
-
-• _Otázka: která strana mince se označuje jako líc a která jako rub?_
-
-České samohlásky Zjistěte, jaká je četnost samohlásek v předloženém textu. Výsledky zapište do tabulky.
-
-|samohláska|a|e|i<br>o|u|y|
-|---|---|---|---|---|---|
-|četnost||||||
-|rel. četnost||||||
-
-Která samohláska má v češtině nejvyšší četnost?
-
-# Zdroje
-
-CALDA, Emil, DUPAČ, Václav. _Matematika pro gymnázia. Kombinatorika, pravděpodobnost, statistika._ Praha: Prometheus, 2006. ISBN 80-7196147-7
-
-Wikimedia Commons [cit. 23. 04. 2013]. Dostupné z: <u>http://commons.wikimedia.org/wiki/File:1_Koruna_revers.png?uselang=cs http://commons.wikimedia.org/wiki/File:1_Koruna_avers.png?uselang=cs</u>
+CALDA, Emil, DUPAČ, Václav. *Matematika pro gymnázia. Kombinatorika, pravděpodobnost, statistika.* Praha: Prometheus, 2006. ISBN 80-7196-147-7.

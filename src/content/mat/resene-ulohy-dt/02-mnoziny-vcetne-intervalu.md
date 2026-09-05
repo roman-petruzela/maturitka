@@ -1,45 +1,66 @@
 ---
-title: "Množiny ( včetně intervalů )"
+title: "Množiny (včetně intervalů)"
 order: 2
 source: "MATURITA HADR/Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/2) Množiny ( včetně intervalů ).pdf"
 hasExercises: true
 ---
-<u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Množiny ( včetně intervalů )</u>
 
-1) Jsou dány množiny A = ( – ∞, –1 )  a  B = < –2, –1 >. Zapište intervalem A B. Ostrý maturitní test Cermat-u ( základní úroveň ) – podzim 2013, příklad č. 1 Body: 1                    Výsledek:  A ∪ B = ( –∞;  –1 >
+> Pozn. k obsahu: Sbírka úloh z maturitních testů Cermatu s autorskými řešeními. Úloha 2) odkazovala na obrázek s konkrétními množinami A, B, který není součástí archivu — ponechán jen dochovaný výsledek a obecné zdůvodnění. V úloze 2i) se ztratila dvě konkrétní čísla ze zadání (nahrazena vlastními, typem odpovídajícími dochovanému řešení — viz poznámka u úlohy).
 
-Pracovní tematické zařazení: Množiny ( včetně intervalů ) Řešení: Značka znamená sjednocení. Načrtni si množiny A, B na číselnou osu ( např. každou množinu jinou barvou ). Sjednocení získáme tak, že obě tyto 2 barvy nahradíme třetí jedinou barvou ( 2 původní barvy se mohou někde překrývat, ale také nemusejí ). Pozor na krajní body ( otevřený interval kulatá závorka a prázdný kroužek, uzavřený interval „zalomená“ závorka a plný kroužek ). A ∪ B = ( –∞;  –1 >
+*Příklady z maturitních testů Cermatu (základní úroveň) — Množiny (včetně intervalů)*
 
--------------------------------------------------2)
+**1)** Jsou dány množiny $A=(-\infty;-1)$ a $B=\langle-2;-1\rangle$. Zapište intervalem $A\cup B$.
 
-Zapište intervalem A B Ostrý maturitní test Cermat-u ( základní úroveň ) – podzim 2014, příklad č. 1 Body: 1                    Výsledek: < 1,  5 )
+*Podzim 2013, příklad č. 1. Body: 1. Výsledek: $A\cup B=(-\infty;-1\rangle$.*
 
-Pracovní tematické zařazení: Množiny ( včetně intervalů ) Řešení:
+Řešení: Značka $\cup$ znamená sjednocení. Načrtneme si obě množiny na číselnou osu (každou jinou barvou) a sjednocení dostaneme nahrazením obou barev jedinou. Pozor na krajní body (otevřený interval — kulatá závorka, prázdný kroužek; uzavřený interval — "zalomená" závorka, plný kroužek). Protože $A$ pokrývá vše menší než $-1$ a $B$ do sjednocení navíc přidává bod $-1$ (a zbytek $B$ už $A$ obsahuje), platí $A\cup B=(-\infty;-1\rangle$.
 
-Značka ∩ znamená průnik. Průnik dvou množin je množina všech prvků, které mají obě množiny společné ( čili „to, kde se překrývají“ ). Pozor na krajní body ( otevřený interval kulatá závorka a prázdný kroužek, uzavřený interval „zalomená“ závorka a plný kroužek ). Číslo 5 je prvkem množiny B, ale není prvkem množiny A, čili do průniku těchto dvou množin nepatří. Číslo 1 je <u>prvkem obou množin, čili do průniku těchto dvou množin patří.</u> < 1,  5 )
+**2)** *(Úloha odkazovala na obrázek s konkrétními množinami A, B na číselné ose, který není součástí archivu.)* Zapište intervalem $A\cap B$.
 
--------------------------------------------------3) Množina A obsahuje všechna reálná čísla, která jsou menší nebo rovna 5. Pro množinu B <u>platí:  B = ( –7; 6 ). Zapište intervalem A υ</u> B.
+*Podzim 2014, příklad č. 1. Body: 1. Výsledek: $\langle1;5)$.*
 
-Ostrý maturitní test Cermat-u ( základní úroveň ) – jaro 2016, příklad č. 1 Body:  1                  Výsledek:  A ∪ B = ( – ∞;  6 )
+Řešení: Značka $\cap$ znamená průnik — množinu všech prvků, které mají obě množiny společné ("kde se překrývají"). Podle dochovaného postupu: číslo $5$ je prvkem $B$, ale ne $A$, do průniku tedy nepatří; číslo $1$ je prvkem obou množin, do průniku patří. Výsledek: $\langle1;5)$.
 
-Pracovní tematické zařazení: Množiny ( včetně intervalů ) Řešení: A = ( – ∞, 5 >      B = ( –7; 6 ) Značka znamená sjednocení. Načrtni si množiny A, B na číselnou osu ( např. každou množinu jinou barvou ). Sjednocení získáme tak, že obě tyto 2 barvy nahradíme třetí jedinou barvou ( 2 původní barvy se mohou někde překrývat, ale také nemusejí ). Pozor na krajní body ( otevřený interval kulatá závorka a prázdný kroužek, uzavřený interval „zalomená“ závorka a plný kroužek ). A ∪ B = ( – ∞;  6 )
+**3)** Množina $A$ obsahuje všechna reálná čísla menší nebo rovna $5$. Pro množinu $B$ platí $B=(-7;6)$. Zapište intervalem $A\cup B$.
 
-------------------------------------------------
+*Jaro 2016, příklad č. 1. Body: 1. Výsledek: $A\cup B=(-\infty;6)$.*
 
-<u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Množiny ( včetně intervalů )</u>
+Řešení: $A=(-\infty;5\rangle$, $B=(-7;6)$. Sjednocením (viz postup u úlohy 1) dostaneme $A\cup B=(-\infty;6)$ — $A$ pokrývá vše až do $5$ včetně, $B$ pak prodlužuje sjednocení dál doprava až těsně pod $6$.
 
-- 1i) Na číselné ose zobrazte a popište všechna celá čísla, jež náleží množině  ( –1; 2 ) υ ( 2; 3 > υ ( 3; 4 >
+---
 
-Ilustrační maturitní test Cermat-u ( základní úroveň ) – 2013, příklad č. 3 Body: 1                 Výsledek:
+*Ilustrační maturitní testy Cermatu*
 
-Pracovní tematické zařazení: Množiny ( včetně intervalů ) Řešení: Celá čísla jsou ( poněkud zjednodušeně řečeno ) taková čísla, která nejsou desetinná. Značka znamená sjednocení. Načrtni si 3 intervaly uvedené v zadání na číselnou osu ( např. každý interval jinou barvou ). Sjednocení získáme tak, že všechny tyto 3 barvy nahradíme čtvrtou jedinou barvou ( 3 původní barvy se mohou někde překrývat, ale také nemusejí ). Pozor na krajní body ( otevřený interval kulatá závorka a prázdný kroužek, uzavřený interval „zalomená“ závorka a plný kroužek ). Poté v tomto barevně vyznačeném sjednocení zřetelně ( jinou barvou ) zobraz a <u>popiš celá čísla – výsledek viz výše. Příklad lze samozřejmě řešit i okamžitě bez vybarvování.</u>
+**1i)** Na číselné ose zobrazte a popište všechna celá čísla, jež náleží množině $(-1;2)\cup(2;3\rangle\cup(3;4\rangle$.
 
--------------------------------------------------2i) Rozhodněte o každém z následujících tvrzení ( a) – d) ),zda je pravdivé (ANO), či nikoli (NE).            a) Číslo –2 je prvkem množiny všech přirozených čísel. b) Číslo je prvkem množiny všech přirozených čísel. c) Periodické číslo je prvkem množiny všech racionálních čísel. d) Číslo <u>není prvkem množiny všech racionálních čísel.</u> Ilustrační maturitní test Cermat-u ( základní úroveň ) – 2014 (1), příklad č. 16 Body: 2                    Výsledek:  a) NE     b) ANO     c) ANO     d) ANO
+*2013, příklad č. 3. Body: 1.*
 
-Pracovní tematické zařazení: Množiny ( včetně intervalů ) Řešení: a) NE ( přirozená čísla jsou 1, 2, 3, 4 atd. ) b) ANO ( = 3 ) c) ANO ( Všechna periodická čísla patří mezi čísla racionální. Kromě racionálních čísel existují ještě čísla iracionální – ta stejně jako čísla periodická „nikde nekončí“, ale nemají periodu. Sjednocením množiny všech racionálních čísel a množiny všech iracionálních čísel získáme množinu všech reálných čísel. ) d) ANO ( je číslo iracionální. Typickými příklady iracionálních čísel jsou právě takové odmocniny z přirozených čísel, jejichž výsledkem není přirozené číslo, např, , , , <u>, ,</u> atd. )
+Řešení: Celá čísla jsou (zjednodušeně) čísla, která nejsou desetinná. Po sjednocení všech tří intervalů zjistíme, která celá čísla do výsledné množiny patří: z $(-1;2)$ patří $0$ a $1$ (ne $-1$ ani $2$, oba krajní body jsou vyloučené); z $(2;3\rangle$ patří $3$ (ne $2$); z $(3;4\rangle$ patří $4$ (ne $3$, ten už je zahrnutý z předchozího intervalu). Bod $2$ zůstává vyloučen ze všech tří intervalů zároveň — v celém sjednocení tedy chybí. Výsledná celá čísla: $\{0;1;3;4\}$.
 
---------------------------------------------------
+**2i)** Rozhodněte o pravdivosti tvrzení a)–d):
 
-<u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Množiny ( včetně intervalů )</u>
+a) Číslo $-2$ je prvkem množiny všech přirozených čísel.
+b) Číslo $\sqrt9$ je prvkem množiny všech přirozených čísel.
+c) Periodické číslo je prvkem množiny všech racionálních čísel.
+d) Číslo $\sqrt7$ není prvkem množiny všech racionálních čísel.
 
-3i) Jsou dány množiny:  A = ( – ∞, 0 >      B = ( –2,  3 )      C = < –3, –2 > Rozhodněte o každém z následujících tvrzení, zda je pravdivé ( ANO ), či nikoli ( NE ). a) A ∩ B  =  ( –2,  0 >          b) A υ B  =  ( – ∞, 2 > c) A ∩ C  =  ( – ∞, 0 >         d) B <u>υ</u> C  =  { –3, –2, –1, 0, 1, 2 } Ilustrační maturitní test Cermat-u ( základní úroveň ) – 2014 (2), příklad č. 16 Body: 2                    Výsledek:  a) ANO     b) NE     c) NE     d) NE Pracovní tematické zařazení: Množiny ( včetně intervalů ) Řešení: Značka ∩ znamená průnik, značka znamená sjednocení. Průnik je zjednodušeně řečeno „to, co mají množiny společného“, čili „to, kde se zobrazené množiny překrývají“ ( pokud si tedy každou z množin znázorníme na číselné ose jinou barvou, je průnik „to, kde se barvy překrývají“ ). Sjednocení množin vznikne zjednodušeně řečeno tak, že „se množiny spojí do jedné jediné“ ( pokud mají některé prvky společné, píší se do výsledné množiny jen jednou ). Jak u průniku tak u sjednocení pozor na krajní body ( otevřený interval kulatá závorka a prázdný kroužek, uzavřený interval „zalomená“ závorka a plný kroužek ). Po znázornění příslušných množin na číselné ose je zřejmé, že a) A ∩ B  =  ( –2,  0 >          b) A υ B  =  ( – ∞, 3 )          c) A ∩ C  =  < –3, –2 > d) B υ C  =  < –3, 3 ) --------------------------------------------------
+*2014 (1), příklad č. 16. Body: 2. Výsledek: a) NE, b) ANO, c) ANO, d) ANO.*
+
+*(Pozn.: konkrétní čísla v b) a d) se v podkladu ztratila — dochovalo se jen zdůvodnění "b) ANO (\_\_\_ = 3)" a "d) je to číslo iracionální", což jednoznačně ukazuje na odmocniny; doplněno $\sqrt9=3$ a $\sqrt7$ jako reprezentativní příklad iracionální odmocniny.)*
+
+Řešení: a) NE — přirozená čísla jsou $1,2,3,4,\dots$, záporná čísla mezi ně nepatří. b) ANO — $\sqrt9=3$, a $3$ je přirozené číslo. c) ANO — všechna periodická čísla patří mezi racionální (kromě racionálních existují ještě čísla iracionální, která také "nikde nekončí", ale nemají periodu; sjednocením racionálních a iracionálních čísel dostaneme všechna reálná čísla). d) ANO — $\sqrt7$ je iracionální. Typickými příklady iracionálních čísel jsou právě takové odmocniny z přirozených čísel, jejichž výsledkem není přirozené číslo, např. $\sqrt2,\sqrt3,\sqrt5,\sqrt6,\sqrt7,\sqrt8$ atd.
+
+**3i)** Jsou dány množiny $A=(-\infty;0\rangle$, $B=(-2;3)$, $C=\langle-3;-2\rangle$. Rozhodněte o pravdivosti tvrzení:
+
+a) $A\cap B=(-2;0\rangle$
+b) $A\cup B=(-\infty;2\rangle$
+c) $A\cap C=(-\infty;0\rangle$
+d) $B\cup C=\{-3;-2;-1;0;1;2\}$
+
+*2014 (2), příklad č. 16. Body: 2. Výsledek: a) ANO, b) NE, c) NE, d) NE.*
+
+Řešení: a) skutečně $A\cap B=(-2;0\rangle$ — tvrzení PRAVDIVÉ. b) ve skutečnosti $A\cup B=(-\infty;3)$, ne $(-\infty;2\rangle$ — tvrzení NEPRAVDIVÉ. c) protože celé $C\subset A$ (obě krajní hodnoty $-3,-2$ jsou $\leq0$), je ve skutečnosti $A\cap C=C=\langle-3;-2\rangle$, ne $(-\infty;0\rangle$ — tvrzení NEPRAVDIVÉ. d) ve skutečnosti $B\cup C=\langle-3;3)$ (interval, ne konečná množina bodů — $C$ končí v $-2$ včetně, $B$ začíná těsně za $-2$, takže na sebe přesně navazují bez mezery) — tvrzení NEPRAVDIVÉ.
+
+## Zdroje
+
+MATURITA HADR / Matematika / řešené postupy matematických okruhů z DT 2010–2017, dokument *2) Množiny ( včetně intervalů ).pdf*.

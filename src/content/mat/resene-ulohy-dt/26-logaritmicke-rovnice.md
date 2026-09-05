@@ -4,62 +4,129 @@ order: 26
 source: "MATURITA HADR/Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/26) Logaritmické rovnice.pdf"
 hasExercises: true
 ---
-<u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Logaritmické rovnice</u>
 
-1) <u>V oboru R řešte:        log 0,1 + log(2x)  =  1</u> Ostrý maturitní test Cermat-u ( základní úroveň ) – jaro 2011, příklad č. 11 Body: 2                   Výsledek:  x = 50   resp. 50          Podmínky:  x > 0
+> Pozn. k obsahu: Rovnice se z většiny dochovaly čitelně přímo v zadání nebo šly jednoznačně zrekonstruovat z dochovaného postupu. Věty o logaritmech používané v řešeních: **1. věta** $\log(ab)=\log a+\log b$; **2. věta** $\log\frac ab=\log a-\log b$; **3. věta** $\log a^n=n\log a$ (platí analogicky pro logaritmus o libovolném základu).
 
-Pracovní tematické zařazení: Logaritmické rovnice Řešení: <u>1. způsob</u> log 0,1 + log(2x)  =  1          1. věta o logaritmech:  log ( 0,1 * 2x )  =  1 1. možnost – řešíme jako logaritmické rovnice 1 ( „doplňovačky“ ): log ( 0,1 * 2x )  =  1          10<sup>1</sup> =  0,1 * 2x          10  =  0,2x          50 = x 2. možnost – převedení čísla 1 na logaritmus: log ( 0,1 * 2x )  =  1        log ( 0,1 * 2x )  =  log 10        odlogaritmování:  0,1 * 2x  =  10 0,2x  =  10          x = 50 <u>2. způsob</u> log 0,1 + log(2x)  =  1          log 0,1  =  1 – log(2x)          log 0,1  =  log 10 – log(2x) 2. věta o logaritmech:  log 0,1  =  log odlogaritmování:  0,1 = /* 2x 0,1 * 2x  =  10   /: 0,1          2x = 100          x = 50 <u>3. způsob</u> log 0,1 + log(2x)  =  1          –1 + log(2x)  =  1          log(2x)  =  2 1. možnost – řešíme jako logaritmické rovnice 1 ( „doplňovačky“ ): log(2x)  =  2          10<sup>2</sup> =  2x          50 = x 2. možnost – převedení čísla 2 na logaritmus: log(2x)  =  2          log(2x)  =  log 100          odlogaritmování:  2x = 100          x = 50 Podmínky:  2x > 0   /: 2          x > 0 Poznámka: Rovnici lze řešit několika dalšími způsoby. --------------------------------------------------
+*Příklady z maturitních testů Cermatu (základní úroveň) — Logaritmické rovnice*
 
-<u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Logaritmické rovnice</u>
+**1)** V oboru $\mathbb R$ řešte: $\log0{,}1+\log(2x)=1$.
 
-2) V oboru R řešte: Ostrý maturitní test Cermat-u ( základní úroveň ) – podzim 2011, příklad č. 6 Body: 2                   Výsledek:  x = 8          Podmínky:  x > 0 Pracovní tematické zařazení: Logaritmické rovnice Řešení: <u>1. způsob</u> log 2 2x – log 2 8  =  1          2. věta o logaritmech:  log 2 =  1 1. možnost – řešíme jako logaritmické rovnice 1 ( „doplňovačky“ ): log 2 =  1          2<sup>1</sup> = 16 = 2x        8 = x 2. možnost – převedení čísla 1 na logaritmus: log 2 =  1          log 2 =  log 2 2          odlogaritmování: = 2     2x = 16     x = 8 <u>2. způsob</u> log 2 2x – log 2 8  =  1          log 2 2x  =  1 + log 2 8          log 2 2x  =  log 2 2 + log 2 8 1. věta o logaritmech:  log 2 2x  =  log 2 ( 2 * 8 )          odlogaritmování:  2x = 2*8          x = 8 <u>3. způsob</u> log 2 2x – log 2 8  =  1          log 2 2x – 3  =  1          log 2 2x  =  4 1. možnost – řešíme jako logaritmické rovnice 1 ( „doplňovačky“ ): log 2 2x  =  4          2<sup>4</sup> = 2x          16 = 2x          8 = x 2. možnost – převedení čísla 4 na logaritmus: log 2 2x  =  4          log 2 2x  =  log 2 16          odlogaritmování:  2x = 16     x = 8 Podmínky:  2x > 0   /: 2          x > 0 Poznámka: Rovnici lze řešit několika dalšími způsoby. -------------------------------------------------3) Je dána rovnice s neznámou x ∈ R:       log –  2 log x  =  0 Řešením rovnice <u>je:  A) Ø     B) {0} C) { 0,1;  10 }     D) ( 0;  + ∞ )     E) R\{0}</u> Ostrý maturitní test Cermat-u ( základní úroveň ) – jaro 2012, příklad č. 23 Body:  2                  Výsledek:  D Pracovní tematické zařazení: Logaritmické rovnice Řešení: log –  2 log x  =  0          3. věta o logaritmech:  2 log x  –  2 log x  =  0 0 = 0 … pravdivá rovnost Řešením rovnice ale není každé reálné číslo, neboť je ještě třeba stanovit podmínky: a) > 0 … řešením jsou všechna reálná čísla kromě nuly … x Є ( – ∞, 0 ) υ ( 0, ∞ ) b)   x > 0 … x Є ( 0, ∞ ) Obě podmínky musejí platit současně ( a logické spojce „a současně“ odpovídá množinová operace „průnik“ – viz příklad „klavíristé, tenisté“ ) … průnikem obou množin je interval ( 0, ∞ ). Tento interval je tedy řešením zadané rovnice.
+*Jaro 2011, příklad č. 11. Body: 2. Výsledek: $x=50$; podmínky $x>0$.*
 
---------------------------------------------------
+Řešení (1. větou o logaritmech): $\log(0{,}1\cdot2x)=1 \implies 10^1=0{,}1\cdot2x \implies 10=0{,}2x \implies x=50$.
 
-<u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Logaritmické rovnice</u>
+Podmínky: $2x>0 \implies x>0$.
 
-4) <u>V oboru R řešte:     log</u> 2  –  log x  =  1 Ostrý maturitní test Cermat-u ( základní úroveň ) – podzim 2012, příklad č. 5 Body: 2                    Výsledek:  x = 0,2          podmínky:  x > 0
+**2)** V oboru $\mathbb R$ řešte: $\log_22x-\log_28=1$.
 
-Pracovní tematické zařazení: Logaritmické rovnice Řešení: <u>1. způsob</u> log 2  –  log x  =  1               2. věta o logaritmech:  log = 1 1. možnost – řešíme jako logaritmické rovnice 1 ( „doplňovačky“ ): log = 1          10<sup>1</sup> = 10x = 2          x = 0,2 2. možnost – převedení čísla 1 na logaritmus: log = 1          log = log 10          odlogaritmování: = 10          2 = 10x          0,2 = x <u>2. způsob</u> log 2  –  log x  =  1               log 2  =  1 + log x          log 2  =  log 10 + log x 1. věta o logaritmech:  log 2  =  log 10x          odlogaritmování:  2 = 10x          0,2 = x <u>3. způsob</u> log 2  –  log x  =  1          log 2  – 1  =  log x          log 2 – log 10  =  log x 2. věta o logaritmech:  log =  log x          odlogaritmování:  0,2 = x Podmínky:  x > 0 Poznámka: Rovnici lze řešit několika dalšími způsoby. -------------------------------------------------5) V oboru R řešte: <u>( x – 8 )  =  1</u> Ostrý maturitní test Cermat-u ( základní úroveň ) – podzim 2014, příklad č. 11 Body: 1                    Výsledek:  K = <u>podmínky:  x > 8</u> Pracovní tematické zařazení: Logaritmické rovnice Řešení: log4 ( x – 8 ) = 1 1. možnost – řešíme jako logaritmické rovnice 1 ( „doplňovačky“ ): log4 ( x – 8 ) = 1          4<sup>1</sup> =  x – 8           12 = x 2. možnost – převedení čísla 1 na logaritmus: log4 ( x – 8 ) = 1        log4 ( x – 8 )  =  log4 4        odlogaritmování:  x – 8  =  4          x = 12 Podmínky:  x – 8 > 0          x > 8 --------------------------------------------------
+*Podzim 2011, příklad č. 6. Body: 2. Výsledek: $x=8$; podmínky $x>0$.*
 
-<u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Logaritmické rovnice</u>
+Řešení (1. větou): $\log_22x=1+\log_28=\log_22+\log_28=\log_2(2\cdot8) \implies 2x=16 \implies x=8$.
 
-<u>6) Určete definiční obor a řešení rovnice s neznámou</u> _<u>x</u>_ Є R.      log( 2 – x )  =  –1 Ostrý maturitní test Cermat-u ( základní úroveň ) – jaro 2015, příklad č. 6 Body:  2                  Výsledek:  D(x) = ( –∞; 2 ),  K = Pracovní tematické zařazení: Logaritmické rovnice Řešení: log( 2 – x )  =  –1 1. možnost – řešíme jako logaritmické rovnice 1 ( „doplňovačky“ ): log( 2 – x )  =  –1          10<sup>– 1</sup> =  2 – x = 2 – x          x  =  2 – x = 1,9 2. možnost – převedení čísla (–1) na logaritmus: log( 2 – x )  =  –1        log( 2 – x )  =  log odlogaritmování:  2 – x  = 1,9 = x Podmínky <u>( tj. definiční obor rovnice ):  2 – x > 0          2 > x          x < 2          x Є ( – ∞, 2 )</u> -------------------------------------------------7) Přiřaďte k oběma rovnicím a), b) řešeným v oboru  R odpovídající množinu všech řešení ( A – F ).     a) log 2 x  =  –1     b) log 2 x<sup>2</sup> =  0 A) { –2 }     B) { –1 }     C) { }    D) { 1 }     E) Ø     F) jiná množina Ostrý maturitní test Cermat-u ( základní úroveň ) – podzim 2015, příklad č. 25.3, 25.4 Body: 2                    Výsledek:  a) C     b) F ( x1 = 1,  x2 = –1 ) Pracovní tematické zařazení: Logaritmické rovnice Řešení: a) log 2 x  =  –1 … podmínky:  x > 0 1. možnost – řešíme jako logaritmické rovnice 1 ( „doplňovačky“ ): log 2 x  =  –1          2<sup>– 1</sup> =  x = x … C 2. možnost – převedení čísla (–1) na logaritmus: log 2 x  =  –1        log 2 x  =  log2 odlogaritmování:  x = … C b) log 2 x<sup>2</sup> =  0 … podmínky:  x<sup>2</sup> > 0       x ≠ 0 1. možnost – řešíme jako logaritmické rovnice 1 ( „doplňovačky“ ): log 2 x<sup>2</sup> =  0          2<sup>0</sup> =  x<sup>2</sup> 1 = x<sup>2</sup> x1 = 1,  x2 = –1 … F 2. možnost – převedení čísla 0 na logaritmus: log 2 x<sup>2</sup> =  0        log 2 x<sup>2</sup> =  log2 1 odlogaritmování:  x<sup>2</sup> = 1 x1 = 1,  x2 = –1 … F Pozor, velký „chyták“ – řešení s použitím 3. věty o logaritmech: log 2 x<sup>2</sup> =  0          2 * log 2 x  =  0   /: 2          log 2 x  =  0 x = 1 … 2. řešení ( x2 = –1 ) „zmizelo“ – proč ??? … Výraz log 2 x<sup>2</sup> jsme pomocí 3. věty o logaritmech převedli na výraz 2*log 2 x. Každý z těchto výrazů má ale jiný definiční obor ( tj. jiné podmínky ). Výraz log 2 x<sup>2</sup> má smysl pro všechna čísla x kromě nuly, zatímco výraz 2*log 2 x má smysl pouze pro kladná čísla x. Tím 2. řešení ( x2 = –1 ) „zmizelo“, ale <u>podmínkám zadané rovnice  log 2 x</u><sup>2</sup> =  0  přitom vyhovuje.
+**3)** Je dána rovnice $\log(x^2)-2\log x=0$. Řešením je:
 
---------------------------------------------------
+A) $\emptyset$   B) $\{0\}$   C) $\{0{,}1;10\}$   **D) $(0;+\infty)$**   E) $\mathbb R\setminus\{0\}$
 
-<u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Logaritmické rovnice</u>
+*Jaro 2012, příklad č. 23. Body: 2.*
 
-8) Pro x Є R určete definiční obor rovnice ( podmínky ) a rovnici vyřešte. log 8 – log 2 = V záznamovém archu uveďte celý postup řešení. Ostrý maturitní test Cermat-u ( základní úroveň ) – jaro 2016, příklad č. 15 Body:  3                  Výsledek:  D(x) = ( 1;  +∞ ),  K = a postup řešení
+Řešení (3. větou): $2\log x-2\log x=0 \implies 0=0$ — pravdivá rovnost, ale ne pro každé $x$: podmínky jsou $x^2>0$ ($x\neq0$) **a zároveň** $x>0$ (z $\log x$). Průnikem obou podmínek je $(0;\infty)$ — to je řešení.
 
-Pracovní tematické zařazení: Logaritmické rovnice Řešení: log 8 – log 2 = /* 2               2*log 8 – 2*log 2  =  log( 2x – 2 ) 3. věta o logaritmech:  log 8<sup>2</sup> – log 2<sup>2</sup> =  log( 2x – 2 )               log 64 – log 4  =  log( 2x – 2 ) 2. věta o logaritmech:  log =  log( 2x – 2 )               log 16  =  log( 2x – 2 ) odlogaritmování:  16 = 2x – 2          18 = 2x          9 = x <u>podmínky:  2x – 2  > 0          2x > 2          x > 1 … x Є ( 1,  ∞ )</u> -------------------------------------------------- <u>9) V oboru R řešte:</u> 3x  =  6 Ostrý maturitní test Cermat-u ( základní úroveň ) – jaro 2017, příklad č. 12 Body: 1                   Výsledek:  K = <u>podmínky:  x > 0</u>
+**4)** V oboru $\mathbb R$ řešte: $\log2-\log x=1$.
 
-Pracovní tematické zařazení: Logaritmické rovnice Řešení: log 3 3x  =  6 1. možnost – řešíme jako logaritmické rovnice 1 ( „doplňovačky“ ): log 3 3x  =  6          3<sup>6</sup> =  3x          729 = 3x          243 = x 2. možnost – převedení čísla 6 na logaritmus: log 3 3x  =  6          log 3 3x  =  log 3 729          odlogaritmování:  3x = 729          x = 243 Podmínky:  3x  > 0   /: 3          x > 0 -------------------------------------------------10) Pro všechna x, y Є ( 0,  + ∞ ) platí:     log y  =  2log x + 2 <u>Vyjádřete proměnnou y tak, aby zápis neobsahoval logaritmy.</u> Ostrý maturitní test Cermat-u ( základní úroveň ) – podzim 2017, příklad č. 7 Body:  1                  Výsledek:   y = 100x<sup>2</sup>
+*Podzim 2012, příklad č. 5. Body: 2. Výsledek: $x=0{,}2$; podmínky $x>0$.*
 
-Pracovní tematické zařazení: Logaritmické rovnice Řešení: log y  =  2log x + 2 3. věta o logaritmech, převedení čísla 2 na logaritmus:  log y  =  log x<sup>2</sup> + log 100 1. věta o logaritmech:  log <u>y  =  log ( x</u><sup>2</sup> * 100 )               odlogaritmování:  y = 100x<sup>2</sup> --------------------------------------------------
+Řešení (2. větou): $\log\dfrac2x=1 \implies 10^1=\dfrac2x \implies 10x=2 \implies x=0{,}2$.
 
-<u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Logaritmické rovnice</u>
+**5)** V oboru $\mathbb R$ řešte: $\log_4(x-8)=1$.
 
-1p) V oboru R řešte: Ostrý maturitní test Cermat-u ( základní úroveň ) – jaro 2011 PUP, příklad č. 11 Body: 2                 Výsledek: Pracovní tematické zařazení: Logaritmické rovnice Řešení: <u>1. způsob</u> 3x – log 10<sup>3</sup> =  x + log 10               3x – 3  =  x + 1               2x = 4               x = 2 <u>2. způsob</u> 3x – log 10<sup>3</sup> =  x + log 10               2x  =  log 10 + log 10<sup>3</sup> 1. věta o logaritmech:  2x  =  log ( 10 * 10<sup>3</sup> )             2x  =  log 10<sup>4</sup> 2x = 4             x = 2 Poznámka 1: Rovnici lze řešit několika dalšími způsoby. Poznámka 2: Přísně vzato se jedná o rovnici lineární ( v argumentu logaritmů se nevyskytují <u>proměnné ).</u>
+*Podzim 2014, příklad č. 11. Body: 1. Výsledek: $x=12$; podmínky $x>8$.*
 
--------------------------------------------------1i) Řešte rovnici s neznámou :   log Ilustrační maturitní test Cermat-u ( základní úroveň ) – 2010 (2), příklad č. 6.1 Body:  2           Výsledek: Podmínky:  x > 0
+Řešení: $4^1=x-8 \implies x=12$. Podmínky: $x-8>0 \implies x>8$.
 
-Pracovní tematické zařazení: Logaritmické rovnice Řešení: <u>1. způsob</u> log 1000  +  log x  =  4               1. věta o logaritmech:  log ( 1000 * x )  =  4 1. možnost – řešíme jako logaritmické rovnice 1 ( „doplňovačky“ ): log ( 1000 * x )  =  4               10<sup>4</sup> = 1000x               10000 = 1000x               10 = x 2. možnost – převedení čísla 4 na logaritmus: log ( 1000 * x )  =  4               log ( 1000 * x )  =  log 10000 odlogaritmování:  1000x = 10000               x = 10 <u>2. způsob</u> log 1000  +  log x  =  4               3 + log x  =  4               log x = 1 1. možnost – řešíme jako logaritmické rovnice 1 ( „doplňovačky“ ): log x = 1               x = 10 2. možnost – převedení čísla 1 na logaritmus: log x = 1               log x = log 10               odlogaritmování:  x = 10 Podmínky:  x > 0 Poznámka: Rovnici lze řešit několika dalšími způsoby. --------------------------------------------------
+**6)** Určete definiční obor a řešte: $\log(2-x)=-1$.
 
-<u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Logaritmické rovnice</u> 2i) V oboru R řešte: Ilustrační maturitní test Cermat-u ( základní úroveň ) – 2011, příklad č. 5 Body: 2                  Výsledek: Podmínky:  x > 0
+*Jaro 2015, příklad č. 6. Body: 2. Výsledek: $D(x)=(-\infty;2)$, $K=\{1{,}9\}$.*
 
-Pracovní tematické zařazení: Logaritmické rovnice Řešení: <u>1. způsob</u> log 3 x + log 3 27  =  1               1. věta o logaritmech:  log 3 ( x * 27 )  =  1 1. možnost – řešíme jako logaritmické rovnice 1 ( „doplňovačky“ ): log 3 ( x * 27 )  =  1               3 = 27x = x = x 2. možnost – převedení čísla 1 na logaritmus: log 3 ( x * 27 )  =  1               log 3 ( x * 27 )  =  log 3 3               odlogaritmování:  27x = 3 x = x = <u>2. způsob</u> log 3 x + log 3 27  =  1               log 3 x + 3  =  1 log 3 x  =  –2 1. možnost – řešíme jako logaritmické rovnice 1 ( „doplňovačky“ ): log 3 x  =  –2               3<sup>–2</sup> = x = x 2. možnost – převedení čísla (–2) na logaritmus: log 3 x  =  –2               log 3 x  =  log 3 odlogaritmování:  x = Podmínky:  x > 0 Poznámka: Rovnici lze řešit několika dalšími způsoby. -------------------------------------------------- <u>3i) V oboru R řešte rovnici:     log 5  =  log 4 – log (5x)</u> Ilustrační maturitní test Cermat-u ( základní úroveň ) – 2013, příklad č. 10 Body: 1                   Výsledek:  x = resp.  0,16          Podmínky:  x > 0
+Řešení: $10^{-1}=2-x \implies0{,}1=2-x \implies x=1{,}9$. Podmínky: $2-x>0 \implies x<2$.
 
-Pracovní tematické zařazení: Logaritmické rovnice Řešení: <u>1. způsob</u> log 5  =  log 4 – log (5x)               2. věta o logaritmech:  log 5  =  log odlogaritmování:  5 = /* 5x               25x = 4               x = <u>2. způsob</u> log 5  =  log 4 – log (5x)               log 5 + log (5x)  =  log 4 1. věta o logaritmech:  log ( 5 * 5x )  =  log 4            odlogaritmování:  25x = 4            x = Podmínky:  5x > 0   /: 5          x > 0 Poznámka: Rovnici lze řešit několika dalšími způsoby.
+**7)** Přiřaďte rovnicím a), b) jejich množinu řešení:
 
---------------------------------------------------
+a) $\log_2x=-1$
+b) $\log_2x^2=0$
 
-<u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Logaritmické rovnice</u>
+A) $\{-2\}$   B) $\{-1\}$   **C) $\left\{\tfrac12\right\}$**   D) $\{1\}$   E) $\emptyset$   **F) jiná množina**
 
-4i) Přiřaďte k oběma rovnicím a), b) řešeným v oboru R odpovídající množinu řešení (A – F). a) + 1 = 2x            b) x = 1 A) <u>{ –2,   2 }       B) { –2 }       C) { –1 }       D) { 1 }       E) { 2 }       F) Ø</u> Ilustrační maturitní test Cermat-u ( základní úroveň ) – 2014 (2), příklad č. 25.3, 25.4 Body: 2                    Výsledek:  a) D     b) E
+*Podzim 2015, příklad č. 25.3, 25.4. Body: 2. Výsledek: a) C, b) F ($x_1=1,x_2=-1$).*
 
-Pracovní tematické zařazení: Logaritmické rovnice Řešení:
+Řešení: a) podmínky $x>0$. $2^{-1}=x \implies x=\dfrac12$.
 
-a) log 2 2 + log 2 1  =  log 2 2x               1. věta o logaritmech:  log 2 ( 2 * 1 )  =  log 2 2x odlogaritmování:  2 = 2x                1 = x Podmínky:  2x > 0   /: 2          x > 0 Poznámka: Rovnici lze řešit několika dalšími způsoby. b) log 2 x<sup>2</sup> – log 2 x  =  1               2. věta o logaritmech:  log 2 ( x<sup>2</sup> : x )  =  1 log 2 x  =  1                              x = 2 Podmínky:  1) > 0 … řešením jsou všechna reálná čísla kromě nuly … … x Є ( – ∞, 0 ) υ ( 0, ∞ ) 2)   x > 0 … x Є ( 0, ∞ ) Obě podmínky musejí platit současně ( a logické spojce „a současně“ odpovídá množinová operace „průnik“ – viz příklad „klavíristé, tenisté“ ) … průnikem obou množin je interval ( 0, ∞ ) … výsledná podmínka Poznámka: Rovnici lze řešit několika dalšími způsoby.
+b) podmínky $x^2>0 \implies x\neq0$. $2^0=x^2 \implies x^2=1 \implies x_1=1,x_2=-1$.
 
---------------------------------------------------
+**Pozor, "chyták":** kdybychom 3. větou upravili $\log_2x^2=2\log_2x$, dostali bychom $\log_2x=0 \implies x=1$ a druhé řešení ($x=-1$) by "zmizelo" — protože výraz $2\log_2x$ má jiný definiční obor ($x>0$) než původní $\log_2x^2$ ($x\neq0$). Řešení $x=-1$ podmínkám **původní** rovnice přitom vyhovuje.
+
+**8)** Určete definiční obor a řešte: $\log8-\log2=\dfrac12\log(2x-2)$.
+
+*Jaro 2016, příklad č. 15. Body: 3. Výsledek: $D(x)=(1;+\infty)$, $K=\{9\}$.*
+
+Řešení: $/\cdot2$: $2\log8-2\log2=\log(2x-2)$. 3. větou: $\log8^2-\log2^2=\log(2x-2) \implies \log64-\log4=\log(2x-2)$. 2. větou: $\log16=\log(2x-2) \implies16=2x-2 \implies x=9$.
+
+Podmínky: $2x-2>0 \implies x>1$.
+
+**9)** V oboru $\mathbb R$ řešte: $\log_33x=6$.
+
+*Jaro 2017, příklad č. 12. Body: 1. Výsledek: $x=243$; podmínky $x>0$.*
+
+Řešení: $3^6=3x \implies729=3x \implies x=243$.
+
+**10)** Pro $x,y\in(0;+\infty)$ platí $\log y=2\log x+2$. Vyjádřete $y$ bez logaritmů.
+
+*Podzim 2017, příklad č. 7. Body: 1. Výsledek: $y=100x^2$.*
+
+Řešení (3. větou, $2=\log100$): $\log y=\log x^2+\log100$. 1. větou: $\log y=\log(100x^2) \implies y=100x^2$.
+
+---
+
+*Příklady z testů PUP a ilustračních testů Cermatu*
+
+**1p)** V oboru $\mathbb R$ řešte: $3x-\log10^3=x+\log10$.
+
+*Jaro 2011 PUP, příklad č. 11. Body: 2. Výsledek: $x=2$.*
+
+Řešení: $3x-3=x+1 \implies2x=4 \implies x=2$.
+
+*(Přísně vzato jde o rovnici lineární — v argumentech logaritmů se nevyskytují proměnné.)*
+
+**1i)** Řešte rovnici: $\log1000+\log x=4$.
+
+*2010 (2), příklad č. 6.1. Body: 2. Výsledek: $x=10$; podmínky $x>0$.*
+
+Řešení: $3+\log x=4 \implies\log x=1 \implies x=10$.
+
+**2i)** V oboru $\mathbb R$ řešte: $\log_3x+\log_327=1$.
+
+*2011, příklad č. 5. Body: 2. Výsledek: $x=\tfrac19$; podmínky $x>0$.*
+
+Řešení: $\log_3x+3=1 \implies\log_3x=-2 \implies x=3^{-2}=\dfrac19$.
+
+**3i)** V oboru $\mathbb R$ řešte: $\log5=\log4-\log(5x)$.
+
+*2013, příklad č. 10. Body: 1. Výsledek: $x=\tfrac4{25}=0{,}16$; podmínky $x>0$.*
+
+Řešení (2. větou): $\log5=\log\dfrac4{5x} \implies5=\dfrac4{5x} \implies25x=4 \implies x=\dfrac4{25}=0{,}16$.
+
+**4i)** Přiřaďte rovnicím a), b) jejich množinu řešení:
+
+a) $\log_22+\log_21=\log_22x$
+b) $\log_2x^2-\log_2x=1$
+
+A) $\{-2;2\}$   B) $\{-2\}$   C) $\{-1\}$   D) $\{1\}$   **E) $\{2\}$**   F) $\emptyset$
+
+*2014 (2), příklad č. 25.3, 25.4. Body: 2. Výsledek: a) D, b) E.*
+
+Řešení: a) 1. větou: $\log_2(2\cdot1)=\log_22x \implies2=2x \implies x=1$.
+
+b) 2. větou: $\log_2\dfrac{x^2}x=1 \implies\log_2x=1 \implies x=2$. Podmínky: $x^2>0$ ($x\neq0$) **a** $x>0$ — průnikem $(0;\infty)$, řešení $x=2$ vyhovuje.
+
+## Zdroje
+
+MATURITA HADR / Matematika / řešené postupy matematických okruhů z DT 2010–2017, dokument *26) Logaritmické rovnice.pdf*.

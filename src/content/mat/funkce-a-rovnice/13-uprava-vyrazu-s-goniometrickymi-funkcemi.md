@@ -2,92 +2,93 @@
 title: "Úprava výrazů s goniometrickými funkcemi"
 order: 13
 source: "matematika/TY01_0213_-_Uprava_vyrazu_s_goniometrickymi_funkcemi.pptx"
+tags: ["doplněno"]
 hasExercises: true
 ---
-**Výrazy s goniometrickými funkcemi**
 
-# Výrazy s goniometrickými funkcemi
+> Pozn. k obsahu: Zdrojová prezentace obsahovala konkrétní zadání všech ukázkových příkladů i cvičení vložená jako obrázky/rovnice, která se při převodu ztratila beze zbytku (zůstaly jen popisky "Zjednodušte:" bez samotného výrazu). Teorie a vzorce jsou rekonstruované věrně podle zachovaného textu (včetně opravy tg/cotg vzorců, kde OCR ztratilo zlomky); konkrétní příklady níže jsou nově vytvořené tak, aby používaly přesně tytéž vzorce, které prezentace uváděla.
 
 ## Osnova
 
-a) pojem výraz s goniometrickými funkcemi b) vzorce a vztahy pro řešení výrazu s goniometrickými  funkcemi c) ukázkové příklady d) příklady na procvičení včetně řešení
+a) pojem výraz s goniometrickými funkcemi, b) vzorce a vztahy pro řešení, c) ukázkové příklady, d) příklady na procvičení včetně řešení.
 
-Výraz s goniometrickými funkcemi • **_výraz_** = je to nějaký matematický zápis, ve kterém jsou čísla a písmena (proměnné) a která jsou spojována znaky operací sčítání, odčítaní, dělení, násobení, umocnění, odmocnění. A také se zde mohou vyskytnout závorky.
+## Výraz s goniometrickými funkcemi
 
-• **_výrazy s goniometrickými funkcemi_** = jedná se o výrazy, ve kterých se vyskytují goniometrické funkce.
+**Výraz** je matematický zápis, ve kterém jsou čísla a písmena (proměnné) spojovaná znaky operací (sčítání, odčítání, násobení, dělení, umocnění, odmocnění), případně závorkami.
+
+**Výraz s goniometrickými funkcemi** je výraz, ve kterém se vyskytují goniometrické funkce ($\sin$, $\cos$, $\mathrm{tg}$, $\mathrm{cotg}$).
 
 ## Vzorce a vztahy k řešení výrazů
 
-• vzorce: _(a + b)_<sup>_2_</sup> _= a_<sup>_2_</sup> _+ 2ab + b_<sup>_2_</sup> _(a – b)_<sup>_2_</sup> _= a_<sup>_2_</sup> _– 2ab + b_<sup>_2_</sup> _a2 – b2 = (a – b)(a + b)_
+**Algebraické vzorce:**
 
-• vztahy: _sin_<sup>_2_</sup> _x + cos_<sup>_2_</sup> _x = 1 tg x = cotg x = tg x . cotg x = 1_
+$$(a+b)^2 = a^2+2ab+b^2, \qquad (a-b)^2 = a^2-2ab+b^2, \qquad a^2-b^2 = (a-b)(a+b)$$
 
-_sin 2x = 2.sin x .cos x_
+**Goniometrické vztahy:**
 
-_cos 2x = cos_<sup>_2_</sup> _x – sin_<sup>_2_</sup> _x_
+$$\sin^2 x + \cos^2 x = 1$$
 
-## Ukázkové příklady
+$$\mathrm{tg}\,x = \frac{\sin x}{\cos x}, \qquad \mathrm{cotg}\,x = \frac{\cos x}{\sin x}, \qquad \mathrm{tg}\,x \cdot \mathrm{cotg}\,x = 1$$
 
-**_Př.  Zjednodušte:_**
+$$\sin 2x = 2\sin x \cos x$$
 
-**_Př. Zjednodušte:_**
-
-**_Př. Zjednodušte:_**
-
-<!-- Start of picture text -->
-Ukázkové příklady<br>Př.  Zjednodušte:<br><!-- End of picture text -->
-
-**_Př. Zjednodušte:_**
+$$\cos 2x = \cos^2 x - \sin^2 x$$
 
 ## Ukázkové příklady
 
-<!-- Start of picture text -->
-Př.  Zjednodušte:<br><!-- End of picture text -->
+**a)** Zjednodušte $\sin^2 x + \cos^2 x + \mathrm{tg}\,x \cdot \mathrm{cotg}\,x$.
 
-**_Př. Zjednodušte:_**
+Použijeme rovnou dva vztahy: $\sin^2x+\cos^2x=1$ a $\mathrm{tg}\,x\cdot\mathrm{cotg}\,x=1$.
 
-Příklady na procvičení př. 1 _:    Zjednodušte:_ <u>Řešení</u> př. 2: _Zjednodušte:_ <u>Řešení</u> př. 3: _Zjednodušte:_ <u>Řešení</u> př. 4: _Zjednodušte:_ <u>Řešení</u> př. 5: _Zjednodušte:_ <u>Řešení</u>
+$$= 1 + 1 = 2$$
 
-<u>přeskočit</u>
+**b)** Zjednodušte $(\sin x + \cos x)^2 - \sin 2x$.
 
-Řešení příkladu č.1: _Zjednodušte:_
+Roznásobíme vzorcem $(a+b)^2$ a použijeme $\sin2x=2\sin x\cos x$:
 
-<u>zpět</u>
+$$= \sin^2x + 2\sin x\cos x + \cos^2x - 2\sin x \cos x = \sin^2x+\cos^2x = 1$$
 
-Řešení příkladu č.2: _Zjednodušte:_
+**c)** Zjednodušte $(\cos x - \sin x)(\cos x + \sin x)$.
 
-<u>zpět</u>
+Použijeme vzorec $a^2-b^2=(a-b)(a+b)$ „pozpátku":
 
-Řešení příkladu č.3: _Zjednodušte:_
+$$= \cos^2x - \sin^2x = \cos 2x$$
 
-<u>zpět</u>
+## Příklady na procvičení
 
-### Řešení příkladu č.4:
+**Příklad 1:** Zjednodušte $\mathrm{tg}\,x \cdot \sin x \cdot \cos x$.
 
-_Zjednodušte:_
+Výsledek: ||tg x = sin x/cos x, takže výraz = (sin x/cos x)·sin x·cos x = sin²x||
 
-<u>zpět</u>
+---
 
-Řešení příkladu č.5: _Zjednodušte:_
+**Příklad 2:** Zjednodušte $1 - \sin^2 x$.
 
-<u>zpět</u>
+Výsledek: ||přímo ze vztahu sin²x + cos²x = 1 plyne 1 − sin²x = cos²x||
+
+---
+
+**Příklad 3:** Zjednodušte $(\sin x - \cos x)^2 + \sin 2x$.
+
+Výsledek: ||roznásobením (a−b)²: sin²x − 2sinx·cosx + cos²x + 2sinx·cosx = sin²x + cos²x = 1||
+
+---
+
+**Příklad 4:** Zjednodušte $\cos^2 x \cdot \mathrm{tg}^2 x$.
+
+Výsledek: ||tg²x = sin²x/cos²x, takže výraz = cos²x · sin²x/cos²x = sin²x||
+
+---
+
+**Příklad 5:** Zjednodušte $\dfrac{\sin 2x}{2\cos x}$ (pro $\cos x \neq 0$).
+
+Výsledek: ||sin2x = 2sinx·cosx, takže výraz = (2sinx·cosx)/(2cosx) = sin x||
 
 ## Shrnutí
 
-- výraz s goniometrickými funkcemi = matematický zápis, který se má zjednodušit a jsou v něm goniometrické funkce
-
-- Vztahy k úpravě výrazu: _sin_<sup>_2_</sup> _x + cos_<sup>_2_</sup> _x = 1_
-
-_tg x =_
-
-_cotg x =_
-
-_tg x . cotg x = 1_
-
-_sin 2x = 2.sin x .cos x_
-
-_cos 2x = cos_<sup>_2_</sup> _x – sin_<sup>_2_</sup> _x_
+- Výraz s goniometrickými funkcemi je matematický zápis obsahující $\sin$, $\cos$, $\mathrm{tg}$ nebo $\mathrm{cotg}$, který se má zjednodušit.
+- Klíčové vztahy k úpravě: $\sin^2x+\cos^2x=1$; $\mathrm{tg}\,x = \sin x/\cos x$; $\mathrm{cotg}\,x=\cos x/\sin x$; $\mathrm{tg}\,x\cdot\mathrm{cotg}\,x=1$; $\sin2x=2\sin x\cos x$; $\cos2x=\cos^2x-\sin^2x$.
 
 ## Zdroje
 
-• HUDCOVÁ, Milada a Libuše KUBIČÍKOVÁ. _Sbírka úloh z matematiky pro SOŠ, SOU a nástavbové studium_ . 2. vydání. Havlíčkův Brod: Prometheus, spol. s r.o., 2005. Učebnice pro střední školy. ISBN 80-7196-318-6
+HUDCOVÁ, Milada a Libuše KUBIČÍKOVÁ. _Sbírka úloh z matematiky pro SOŠ, SOU a nástavbové studium_. 2. vydání. Havlíčkův Brod: Prometheus, spol. s r.o., 2005. Učebnice pro střední školy. ISBN 80-7196-318-6

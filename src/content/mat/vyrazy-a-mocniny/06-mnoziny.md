@@ -4,74 +4,81 @@ order: 6
 source: "mat2/Množiny.pdf"
 hasExercises: true
 ---
-Množinou budeme rozumět souhrn nějakých předmětů (objektů). Předměty (objekty), jejichž souhrn vytváří danou množinu, nazýváme prvky (elementy) uvedené množiny.
 
-K vyjádření skutečnosti, že 𝑥 je prvkem množiny 𝐴 , používáme zápis 𝑥∈𝐴 ; 𝑥 není prvkem množiny 𝐴 zapisujeme 𝑥∉𝐴 .
+**Množinou** rozumíme souhrn nějakých předmětů (objektů). Předměty, jejichž souhrn vytváří danou množinu, nazýváme **prvky** (elementy) této množiny.
 
-Množinu určujeme výčtem prvků nebo uvedením charakteristické vlastnosti jejích prvků.
+K vyjádření, že $x$ je prvkem množiny $A$, používáme zápis $x\in A$; že $x$ není prvkem $A$, zapisujeme $x\notin A$.
 
-Při výčtu prvků nezáleží na pořadí prvků a každý z nich musí být ve výčtu uveden právě jednou. Množina 𝐴 , která obsahuje čísla 1,2,3 můžeme zapsat 𝐴= {1,2,3} nebo také 𝐴= {2,3,1} nebo 𝐴= {3,1,2} apod.
+## Zápis množiny
 
-Vyjádřením, že prvky množiny 𝐴 jsou **právě** čísla 1,2,3 znamená to, že tato čísla jsou prvky dané množiny a že množina žádné další prvky neobsahuje.
+Množinu určujeme buď **výčtem prvků**, nebo **charakteristickou vlastností** jejích prvků.
 
-Množina, která neobsahuje žádný prvek, se nazývá prázdná množina a značíme ji symbolem ∅ .
+Při výčtu prvků nezáleží na pořadí a každý prvek musí být uveden právě jednou. Množinu obsahující čísla 1, 2, 3 lze zapsat $A=\{1,2,3\}$, ale stejně dobře i $A=\{2,3,1\}$ nebo $A=\{3,1,2\}$.
 
-Příkladem prázdné množiny je množina všech přirozených čísel menších než 1.
+**Prázdná množina** neobsahuje žádný prvek, značíme ji $\emptyset$. Příkladem je množina všech přirozených čísel menších než 1 (žádné přirozené číslo touto vlastností nedisponuje).
 
-Určujeme-li množinu uvedením charakteristické vlastnosti prvků množiny, znamená to, že uvedeme takovou vlastnost, kterou mají všechny prvky dané množiny, a kromě prvků této množiny žádný jiný prvek tuto vlastnost nemá.
+Určujeme-li množinu charakteristickou vlastností, uvádíme takovou vlastnost, kterou mají **všechny** prvky dané množiny a **žádný jiný** prvek ji nemá. Např. $A=\{1,2,3\}$ lze zapsat i jako:
 
-Například množinu 𝐴= {1,2,3} můžeme uvedením charakteristické vlastnosti jejích prvků zapsat jako
+$$A = \{x\in\mathbb{N};\ x<4\}$$
 
-𝐴= {𝑥∈ℕ; 𝑥< 4}
+Množiny s nekonečně mnoha prvky (např. $C=\{x\in\mathbb{N};\ x>3\}$) lze zapsat **jen** charakteristickou vlastností — výčet by nikdy neskončil.
 
-Výše uvedené množiny měly konečné množství prvků. Existují množiny, které mají nekonečné množství prvků. Tyto množiny zapisujeme právě pomocí charakteristické vlastnosti jejích prvků, např. 𝐶= {𝑥∈ℕ; 𝑥> 3}.
+Množina s konečným počtem prvků se nazývá **konečná**, s nekonečným počtem **nekonečná**. Mezi nekonečné množiny patří $\mathbb{N}$ (přirozená čísla), $\mathbb{Z}$ (celá čísla), $\mathbb{Q}$ (racionální čísla) a $\mathbb{R}$ (reálná čísla) — ale i množina $A=\{x\in\mathbb{R};\ 1\leq x\leq2\}$ je nekonečná (obsahuje nekonečně mnoho reálných čísel mezi 1 a 2).
 
-Množina s konečným počtem prvků se nazývá konečná **,** množina s nekonečným počtem prvků se nazývá nekonečná. Mezi nekonečné množiny patří množina všech přirozených čísel, množina všech celých čísel, množina všech racionálních čísel a množina všech celých čísel.
+## Podmnožina
 
-Množina 𝐴= {𝑥∈ℝ; 1 ≤𝑥≤2} je také nekonečná.
+Množina $B$ je **podmnožinou** množiny $A$ (zapisujeme $B\subset A$) právě tehdy, když je každý prvek množiny $B$ zároveň prvkem množiny $A$.
 
-Říkáme, že množina 𝐵 je podmnožinou množiny 𝐴 (zapisujeme 𝐵⊂𝐴 ) právě tehdy, když každý prvek množiny 𝐵 je zároveň prvkem množiny 𝐴 .
+$$\mathbb{N}\subset\mathbb{Z}\subset\mathbb{Q}\subset\mathbb{R}$$
 
-Platí:
+Vždy platí: 1) $A\subset A$ (množina je podmnožinou sama sebe); 2) $\emptyset\subset A$ (prázdná množina je podmnožinou libovolné množiny).
 
-ℕ⊂ℤ⊂ℚ⊂ℝ
+Je nutné rozlišovat **prvky** množiny a její **podmnožiny**. Pro $A=\{1,2,3\}$ jsou $1,2,3$ jejími prvky, zatímco např. $\{1\}$, $\{2\}$, $\{1,2\}$ jsou jejími podmnožinami.
 
-Vždy platí:
+**Příklad:** Zapište všechny podmnožiny množiny $A=\{1,2,3\}$.
 
-1) 𝐴⊂𝐴
+Výsledek: ||∅, {1}, {2}, {3}, {1,2}, {1,3}, {2,3}, {1,2,3} — celkem 8 podmnožin (obecně má množina o n prvcích 2ⁿ podmnožin, zde 2³=8)||
 
-2) ∅⊂𝐴
+## Rovnost množin
 
-Je nutné rozlišovat prvky množiny a její podmnožiny. Pokud máme množinu 𝐴= {1,2,3} , pak 1,2,3 jsou její prvky a například množiny {1}, {2}, {1,2} jsou její podmnožiny.
+Množiny $A$, $B$ se rovnají ($A=B$) právě tehdy, když je každý prvek $A$ zároveň prvkem $B$ **a zároveň** každý prvek $B$ je prvkem $A$.
 
-Př.: Zapište všechny podmnožiny množiny 𝐴= {1,2,3}.
+## Doplněk množiny
 
-Rovnost množiny definujeme takto:
+Je-li $B$ podmnožinou $A$, definujeme **doplněk množiny $B$ v množině $A$** (zapisujeme $B'$, případně $A\setminus B$) jako množinu všech prvků z $A$, které nepatří do $B$.
 
-Množiny 𝐴, 𝐵 se rovnají (zapisujeme 𝐴= 𝐵 ) právě tehdy, když každý prvek množiny 𝐴 je prvkem množiny 𝐵 a zároveň každý prvek množiny 𝐵 je prvkem množiny 𝐴 .
+**Příklad:** Určete doplněk množin $A=\{x\in\mathbb{Z};\ x<1\}$, $B=\{x\in\mathbb{Z};\ |x|>0\}$ a $\mathbb{N}$ v množině $\mathbb{Z}$.
 
-Pokud je množina 𝐵 je podmnožinou množiny 𝐴 , zavádíme ,8pojem doplněk množiny 𝐵 v množině 𝐴 (zapisujeme 𝐵𝐴′ ), a to jako množinu všech prvků z 𝐴 , které nepatří do 𝐵.
+Výsledek: ||A' = {x∈ℤ; x≥1} (celá čísla, která NEJSOU menší než 1); B = ℤ\{0} (nenulová celá čísla), tedy B' = {0}; ℕ' = {x∈ℤ; x≤0} (nekladná celá čísla — používáme konvenci ℕ={1,2,3,...} bez nuly, viz úvodní příklad prázdné množiny)||
 
-Př.: Určete doplněk množiny 𝐴= {𝑥 𝜖 ℤ; 𝑥< 1}, 𝐵= {𝑥 𝜖 ℤ; |𝑥| > 0}, ℕ v množině ℤ .
+## Průnik množin
 
-Průnik množin 𝐴, 𝐵 (zapisujeme 𝐴∩𝐵 ) je množina všech prvků, které patří zároveň do obou množin.
+**Průnik** množin $A$, $B$ (zapisujeme $A\cap B$) je množina všech prvků, které patří **zároveň** do obou množin. Vždy platí $\emptyset\cap A=\emptyset$. Pokud $A\cap B=\emptyset$, nazýváme množiny $A$, $B$ **disjunktní**.
 
-Vždy platí ∅∩𝐴= ∅ .
+**Příklad:** Určete průnik množin $A$, $B$:
 
-Pokud pro dvě množiny 𝐴, 𝐵 platí 𝐴∩𝐵= ∅ , pak je nazýváme disjunktní.
+1. $A=\{1,2,5,8\}$, $B=\{1,3,5,7\}$
+2. $A=\{x\in\mathbb{N};\ x>2\}$, $B=\{x\in\mathbb{N};\ x<7\}$
+3. $A=\{x\in\mathbb{Z};\ x>-3\}$, $B=\{x\in\mathbb{Z};\ x>-5\}$
 
-Př.: Urči průnik množin 𝐴, 𝐵:
+Výsledek: ||1) A∩B={1,5}; 2) A∩B={3,4,5,6} = {x∈ℕ; 2<x<7}; 3) protože x>-3 vždy implikuje x>-5, je A⊂B, tedy A∩B=A={x∈ℤ; x>-3}||
 
-1) 𝐴= {1,2,5,8}, 𝐵= {1,3,5,7}
+## Sjednocení množin
 
-2) 𝐴= {𝑥∈ℕ; 𝑥> 2}, 𝐵= {𝑥 ∈ ℕ; 𝑥< 7}
+**Sjednocení** množin $A$, $B$ (zapisujeme $A\cup B$) je množina všech prvků, které patří alespoň do jedné z množin $A$, $B$.
 
-3) 𝐴= {𝑥 ∈ ℤ; 𝑥> −3}, 𝐵= {𝑥∈ℤ; 𝑥> −5}
+**Příklad:** Určete sjednocení množin ze stejného zadání jako výše.
 
-Sjednocení množiny 𝐴, 𝐵 (zapisujeme 𝐴∪𝐵 ) je množina všech prvků, které patří alespoň do jedné z množin 𝐴, 𝐵 .
+Výsledek: ||1) A∪B={1,2,3,5,7,8}; 2) každé přirozené číslo je buď >2, nebo <7 (nebo obojí) — sjednocení je celé ℕ; 3) protože A⊂B, je A∪B=B={x∈ℤ; x>-5}||
 
-Př.: Urči sjednocení množin z příkladu uvedeného výše.
+## Rozdíl množin
 
-Rozdíl množin 𝐴, 𝐵 (zapisujeme 𝐴\𝐵 ) je množina všech prvků množiny 𝐴 , které nejsou prvky množiny 𝐵 .
+**Rozdíl** množin $A$, $B$ (zapisujeme $A\setminus B$) je množina všech prvků množiny $A$, které nejsou prvky množiny $B$.
 
-Př.: Najděte rozdíl množin 𝐴\𝐵 z příkladu uvedeného výše.
+**Příklad:** Určete rozdíl $A\setminus B$ ze stejného zadání jako výše.
+
+Výsledek: ||1) A\\B={2,8}; 2) A\\B={x∈ℕ; x>6} (prvky A, které nejsou v B — tedy přirozená čísla větší než 2, která zároveň nejsou menší než 7); 3) protože A⊂B, je A\\B=∅ (každý prvek A je i v B, nezbude nic)||
+
+## Zdroje
+
+Zdrojový dokument: *mat2/Množiny.pdf*

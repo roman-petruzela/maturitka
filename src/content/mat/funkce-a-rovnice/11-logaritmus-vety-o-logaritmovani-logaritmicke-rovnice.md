@@ -2,137 +2,147 @@
 title: "Logaritmus, věty o logaritmování, logaritmické rovnice"
 order: 11
 source: "matematika/TY01_0211_-_Logaritmus_vety_o_logaritmovani_logaritmicke_rovnice.pptx"
+tags: ["doplněno"]
 hasExercises: true
 ---
-**Logaritmus, věty o logaritmech, logaritmické rovnice
-## Logaritmus, věty o logaritmování, logaritmické rovnice
 
-# Osnova
+> Pozn. k obsahu: Zdrojová prezentace používala animované odrážky a vzorce vložené jako obrázky, které se při prvním převodu ztratily nebo poškodily — v shrnutí navíc OCR omylem zaměnilo všechna „=" za „≠", opraveno. Čtyři jednoduchá cvičení na výpočet logaritmu (a-d) neměla dochované zadání vůbec, nahrazena novými se stejným cílem. U rovnicových cvičení byl základ logaritmu v podkladu nečitelný (OCR ho zobrazovalo jako "log12"), ale zbytek čísel šlo přesně zrekonstruovat ze zachovaných zkoušek — základ byl proto zvolen tak, aby výpočet seděl (u prvního příkladu 2, jde o libovolný platný základ, princip řešení na tom nezávisí).
 
-a) pojem logaritmus b) věty o logaritmech c) logaritmická rovnice d) ukázkové příklady e) příklady na procvičení včetně řešení
+## Osnova
 
-# Logaritmus
+a) pojem logaritmus, b) věty o logaritmech, c) logaritmická rovnice, d) ukázkové příklady, e) příklady na procvičení včetně řešení.
 
-• logaritmus čísla _r_ o základu _a_ je takové číslo _v_ , pro které platí _a_<sup>_v_</sup> _= r, kde a    R_<sup>_+_</sup> _- {1}_ tedy _logar = v   <=>  a_<sup>_v_</sup> _= r_
+## Logaritmus
 
-**_pozn.:_** _číslo a se nazývá základ; číslu r se říká hodnota logaritmu_ **_pozn.:_** _máme dva speciální logaritmy -> dekadický (kde základem je a = 10)_
+Logaritmus čísla $r$ o základu $a$ je takové číslo $v$, pro které platí $a^v = r$, kde $a \in \mathbb{R}^+ \setminus \{1\}$:
 
-- _log106    nebo jen    log 6 -> přirozený (kde základem je a = e) e = Eulerovo číslo (2,71.....); loge5   nebo   ln 5_
+$$\log_a r = v \iff a^v = r$$
 
-### Ukázkové příklady:
+Číslo $a$ se nazývá **základ**, číslu $r$ se říká **hodnota logaritmu** (argument).
 
-_a)_ log2 8 = x _použijeme znalost o logaritmu: loga r = v <=>  a_<sup>_v_</sup> _= r_
+Máme dva speciální logaritmy:
 
-> <sup>x</sup> = 8 _dostaneme_
+- **dekadický** (základ $a=10$) — píšeme jen $\log r$ místo $\log_{10} r$
+- **přirozený** (základ $a=e$, Eulerovo číslo $e \approx 2{,}71828...$) — píšeme $\ln r$ místo $\log_e r$
 
-_exponenciální rovnici_
+## Ukázkové příklady
 
-2<sup>x</sup> = 2<sup>3</sup> x = 3
+**a)** $\log_2 8 = x$. Použijeme definici: $2^x = 8 = 2^3$, tedy $x=3$.
 
-_b)_ log3 81 = x 3<sup>x</sup> = 81 3<sup>x</sup> = 3<sup>4</sup> x = 4
+**b)** $\log_3 81 = x$. $3^x = 81 = 3^4$, tedy $x=4$.
 
-# Příklady na procvičení
+## Příklady na procvičení
 
-př. 1: _Vyřešte x?_ <u>Řešení</u>
+**Příklad 1:** $\log_5 25 = x$
 
-př. 2: _Vyřešte x?_ <u>Řešení</u>
+Výsledek: ||5ˣ = 25 = 5², x = 2||
 
-př. 3: _Vyřešte x?_ <u>Řešení</u>
+---
 
-př. 4: _Vyřešte x?_ <u>Řešení</u>
+**Příklad 2:** $\log_2 \dfrac18 = x$
 
-<u>přeskočit</u>
+Výsledek: ||2ˣ = 1/8 = 2⁻³, x = −3||
 
-### Řešení příkladu č.1:
+---
 
-nebo
+**Příklad 3:** $\log_4 2 = x$
 
-<!-- Start of picture text -->
-zpět<br><!-- End of picture text -->
+Výsledek: ||4ˣ = 2, tedy (2²)ˣ = 2¹, 2x = 1, x = 1/2||
 
-### Řešení příkladu č.2:
+---
 
-<!-- Start of picture text -->
-zpět<br><!-- End of picture text -->
+**Příklad 4:** $\log 1000 = x$ (dekadický logaritmus)
 
-### Řešení příkladu č.3:
+Výsledek: ||10ˣ = 1000 = 10³, x = 3||
 
-<u>zpět</u>
+## Věty o logaritmech
 
-### Řešení příkladu č.4:
+$$\log_a r + \log_a v = \log_a(r \cdot v)$$
 
-<u>zpět</u>
+$$\log_a r - \log_a v = \log_a(r : v)$$
 
-Věty o logaritmech
+$$s \cdot \log_a r = \log_a(r^s)$$
 
-_loga r + loga v = loga (r . v) loga r – loga v = loga (r : v) s.loga r = loga r_<sup>_s_</sup>
+**Pozor:** $\log_a(r^s) \neq (\log_a r)^s$ — to jsou dva různé výrazy!
 
-**_pozn.:_** _pozor na  loga r_<sup>_s_</sup> _≠�  (loga r)_<sup>_s_</sup>
+## Logaritmické rovnice
 
-Logaritmické rovnice • _rovnice s logaritmem, u kterých se při řešení využívají logaritmické věty_ • _a platí pro ně toto:_
+Logaritmická rovnice je rovnice s logaritmem, u které při řešení využíváme věty o logaritmech výše. Pro $x_1, x_2 \in \mathbb{R}^+$ platí: je-li $\log_a x_1 = \log_a x_2$, pak $x_1 = x_2$ (logaritmus je prostá funkce).
 
-_x1 , x2     R_<sup>_+_</sup> **_platí:_** _loga x1 = loga x2_ **_, pak_** _= x2_
+**U logaritmických rovnic musíme vždy provést zkoušku** — hlavně kvůli podmínce, že argument logaritmu musí být kladný; kořen, který tuto podmínku nesplňuje, není řešením, i kdyby vyšel z čistě algebraické úpravy.
 
-_x1_
+## Ukázkový příklad 1
 
-• _u logaritmický rovnic musíme provádět zkoušku_
+Řešte rovnici $\log x + \log(x+1) = 2\log x$.
 
-Ukázkové příklady: _log x + log (x + 1) = 2.log x použijeme logaritmické věty k úpravě log [x.(x + 1)] = log x_<sup>_2_</sup> _na obou stranách máme jeden logaritmus; odlogaritmujeme x.(x + 1) = x_<sup>_2_</sup> _dostaneme rovnici (lineární, kvadratickou, ...)_ x<sup>2</sup> + x = x<sup>2</sup> x = 0
+Použijeme logaritmické věty k úpravě: $\log[x(x+1)] = \log x^2$.
 
-_zkouška: L: log 0  + log (0 + 1) =_ nemusíme dál pokračovat, protože ze znalosti víme, že hodnota _x_ logaritmu musí být R<sup>+</sup> číslo
+Na obou stranách máme jeden logaritmus — „odlogaritmujeme" (argumenty se musí rovnat): $x(x+1) = x^2$
 
-#### Ukázkové příklady:
+$$x^2+x = x^2 \ \Rightarrow\ x=0$$
 
-_/ . log (x + 7)                             zbavíme se zlomku_
+**Zkouška:** nemusíme ani dosazovat — víme, že argument logaritmu musí být kladné reálné číslo, ale $x=0$ tuto podmínku nesplňuje ($\log 0$ není definován). **Rovnice nemá řešení.**
 
-_log (x_<sup>_2_</sup> _+ 7)  = 2.log (x + 7)        použijeme logaritmickou větu k úpravě log (x_<sup>_2_</sup> _+ 7)  = log (x + 7)_<sup>_2_</sup> _odlogaritmuje celou rovnici x_<sup>_2_</sup> _+ 7 = x_<sup>_2_</sup> _+ 14x + 49                    napravo použijeme vzorec (a + b)_<sup>_2_</sup> _-14x = 42                         dořešíme rovnici (lineární, kvadratickou ...) x = - 3_
+## Ukázkový příklad 2
 
-_Zk: L: log [(-3)_<sup>_2_</sup> _+ 7] = log (9 + 7) = log 16_ musíme provést zkoušku _P: 2.log (-3 + 7) = 2.log 4 = log 4_<sup>_2_</sup> _= log 16 L = P_ dle zkoušky vyplývá, že řešením je _<u>x =</u> -3_
+Řešte rovnici $\log(x^2+7) = 2\log(x+7)$.
 
-# Příklady na procvičení
+Použijeme logaritmickou větu na pravé straně: $\log(x^2+7) = \log(x+7)^2$.
 
-př. 1: <u>Řešení</u> př. 2: <u>Řešení</u>
+Odlogaritmujeme celou rovnici: $x^2+7 = (x+7)^2$. Napravo použijeme vzorec $(a+b)^2$:
 
-př. 3: <u>Řešení</u>
+$$x^2+7 = x^2+14x+49 \ \Rightarrow\ -14x = 42 \ \Rightarrow\ x=-3$$
 
-<u>přeskočit</u>
+**Zkouška:** $L: \log[(-3)^2+7] = \log(9+7) = \log 16$. $P: 2\log(-3+7) = 2\log 4 = \log 4^2 = \log 16$. $L=P$ ✓ (a argument $x+7=4>0$ je v pořádku).
 
-Řešení příkladu č.1:
+**Výsledek:** $x=-3$
 
-/ _. (x – 3)_
+## Příklady na procvičení
 
-_Zk:L: log12(2.5 + 4) – log12(5 – 3) = log12(14/2) = log127 P: log127 L=P_
+**Příklad 1:** $\log_2(2x+4) - \log_2(x-3) = \log_2 7$
 
-_<u>x = 5 je řešením této rovnice                                          zpět</u>_
+Výsledek:
 
-### Řešení příkladu č.2:
+- podmínka: ||x − 3 > 0, tedy x > 3||
+- úprava (log podílu): ||log₂[(2x+4)/(x−3)] = log₂7, tedy (2x+4)/(x−3) = 7||
+- řešení: ||2x+4 = 7x−21, 25 = 5x, x = 5||
+- zkouška: ||(2·5+4)/(5−3) = 14/2 = 7 ✓||
+- výsledek: ||x = 5||
 
-_Zk:L1: log3(0 + 1) + log3(0 + 3) = log31 + log33 = log3(1.3) = log33_
+---
 
-_P1: log33_
+**Příklad 2:** $\log_3(x+1) + \log_3(x+3) = \log_3 3$
 
-_L1 = P1                                                                         x1 = 0 je řešením této rovnice_
+Výsledek:
 
-> <sup>_L_</sup> _2_<sup>_: log_</sup> _3_<sup>_(-4 + 1) + log_</sup> _3_<sup>_(-4 + 3) = log_</sup> _3_<sup>_(-3) ..._</sup><sup>_nesmí být; x_</sup> _2 4_
+- úprava (log součinu): ||log₃[(x+1)(x+3)] = log₃3, tedy (x+1)(x+3) = 3||
+- rovnice: ||x² + 4x + 3 = 3, tedy x² + 4x = 0, x(x+4) = 0||
+- kořeny: ||x₁ = 0, x₂ = −4||
+- zkouška x₁=0: ||(0+1)(0+3) = 3 ✓, argumenty 1 a 3 jsou kladné — platí||
+- zkouška x₂=−4: ||argument x+1 = −3 < 0, log₃(−3) není definován — nesmí být||
+- výsledek: ||x = 0 (jediné řešení)||
 
-Řešení příkladu č.3: /. _log (x + 5)_
+---
 
-_Zk:L1: log [2.(-2) + 13] = log (-4 + 13) = log 9 P1: 2.log (-2 + 5) = 2.log 3 = log 3_<sup>_2_</sup> _= log 9_
+**Příklad 3:** $\log(2x+13) = 2\log(x+5)$
 
-_L1 = P1                                                                     x1 = - 2 je řešením této rovnice_<sup>_L_</sup> _2_<sup>_: log[2.(-6) + 13] = log (-12 + 13) = log 1_</sup> _P2: 2.log (-6 + 5) = 2.log (-1) ..._  _nesmí být; x2 ≠ - 6_
+Výsledek:
 
-_<u>zpět</u>_
+- podmínka: ||x + 5 > 0, tedy x > −5||
+- úprava: ||log(2x+13) = log(x+5)², tedy 2x+13 = (x+5)² = x²+10x+25||
+- rovnice: ||x² + 8x + 12 = 0, (x+6)(x+2) = 0||
+- kořeny: ||x₁ = −2, x₂ = −6||
+- zkouška x₁=−2: ||x+5 = 3 > 0 — platí (L=log9, P=2log3=log9, souhlasí)||
+- zkouška x₂=−6: ||x+5 = −1 < 0, log(−1) není definován — nesmí být||
+- výsledek: ||x = −2 (jediné řešení)||
 
-# Shrnutí
+## Shrnutí
 
-- logaritmus - _logar ≠ v   <≠>  a_<sup>_v_</sup> _≠ r_
+- Logaritmus: $\log_a r = v \iff a^v = r$
+- Speciální logaritmy: dekadický (základ $a=10$, píšeme $\log$), přirozený (základ $a=e$, píšeme $\ln$)
+- Věty o logaritmech se používají při řešení logaritmických rovnic: $\log_a r + \log_a v = \log_a(rv)$, $\log_a r - \log_a v = \log_a(r/v)$, $s\log_a r = \log_a(r^s)$
+- U logaritmických rovnic je vždy nutná zkouška (kvůli podmínce kladného argumentu)
 
-• zvláštní logaritmy -  dekadický    základ _a ≠ 10 (píšeme jen log)_ přirozený     základ    základ    základ _a ≠ e  (píšeme jen ln)_
+## Zdroje
 
-přirozený     základ    základ    základ _a ≠ e  (píšeme_
-
-• věty o logaritmech - používáme při řešení logaritmických rovnic _loga r + loga v ≠ loga (r.v) loga r – loga v ≠ loga (r/v) s.loga r ≠ loga r_<sup>_s_</sup>
-
-# Zdroje
-
-• HUDCOVÁ, Milada a Libuše KUBIČÍKOVÁ. _Sbírka úloh z matematiky pro SOŠ, SOU a nástavbové studium_ . 2. vydání. Havlíčkův Brod: Prometheus, spol. s r.o., 2005. Učebnice pro střední školy. ISBN 80-7196-318-6
+HUDCOVÁ, Milada a Libuše KUBIČÍKOVÁ. _Sbírka úloh z matematiky pro SOŠ, SOU a nástavbové studium_. 2. vydání. Havlíčkův Brod: Prometheus, spol. s r.o., 2005. Učebnice pro střední školy. ISBN 80-7196-318-6

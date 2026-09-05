@@ -5,7 +5,7 @@ source: "matematika/TY01_0222_Statistika_-_charakteristiky_variability.pptx"
 hasExercises: true
 ---
 
-> Pozn. k obsahu: Zdrojová prezentace obsahovala vzorce vložené jako obrázky/rovnice a používala animované odrážky — obojí se při převodu ztratilo. Vzorce jsou níže doplněny v textové podobě, číselné výsledky řešených příkladů jsou dopočítány a ověřeny z dat v původních tabulkách.
+> Pozn. k obsahu: Zdrojová prezentace obsahovala vzorce vložené jako obrázky/rovnice a používala animované odrážky — obojí se při převodu ztratilo. Vzorce jsou níže přepsané do LaTeXu, číselné výsledky řešených příkladů jsou dopočítány a ověřeny z dat v původních tabulkách.
 
 Popis statistického souboru pomocí středních hodnot (průměru, mediánu) někdy nestačí — dva soubory mohou mít stejný průměr, a přesto se výrazně lišit tím, jak moc jsou jejich hodnoty „rozptýlené". Příklad: slon 5 000 kg, myš 0,030 kg — průměrná hodnota (2 500 kg) o žádném z obou zvířat nic nevypovídá.
 
@@ -17,17 +17,17 @@ Součet všech odchylek od aritmetického průměru je vždy roven nule — prot
 
 Rozptyl je průměr druhých mocnin odchylek jednotlivých hodnot od aritmetického průměru:
 
-s² = (1/n) · Σ (xᵢ − x̄)²
+$$s^2 = \frac1n\sum_{i=1}^n (x_i-\bar x)^2$$
 
-Značí se s² nebo σ².
+Značí se $s^2$ nebo $\sigma^2$.
 
 ## Směrodatná odchylka
 
 Směrodatná odchylka je druhá odmocnina z rozptylu:
 
-s = √(s²) = √( (1/n) · Σ (xᵢ − x̄)² )
+$$s = \sqrt{s^2} = \sqrt{\frac1n\sum_{i=1}^n (x_i-\bar x)^2}$$
 
-Značí se s nebo σ. Výhoda oproti rozptylu: má stejné jednotky jako hodnota znaku (rozptyl má jednotky na druhou).
+Značí se $s$ nebo $\sigma$. Výhoda oproti rozptylu: má stejné jednotky jako hodnota znaku (rozptyl má jednotky na druhou).
 
 ### Příklad: rozptyl a směrodatná odchylka
 
@@ -64,7 +64,7 @@ Soubor č. 2 má výrazně vyšší rozptyl i směrodatnou odchylku než soubor 
 
 Charakterizuje variabilitu znaku bezrozměrným číslem — je to podíl směrodatné odchylky a aritmetického průměru, obvykle vyjádřený v procentech:
 
-v = (s / x̄) · 100 %
+$$v = \frac{s}{\bar x}\cdot 100\%$$
 
 Variační koeficient má smysl jen tehdy, pokud znak nabývá jen nezáporných hodnot (typicky fyzikální měření, ceny apod.), protože jinak by dělení průměrem blízkým nule dávalo nesmyslné výsledky.
 
@@ -72,27 +72,20 @@ Variační koeficient má smysl jen tehdy, pokud znak nabývá jen nezáporných
 
 Deset opakovaných měření nějaké fyzikální konstanty dalo tyto výsledky:
 
-2,11; 2,01; 2,09; 2,02; 2,11; 2,03; 2,03; 2,10; 2,05; 2,05
+$$2{,}11;\ 2{,}01;\ 2{,}09;\ 2{,}02;\ 2{,}11;\ 2{,}03;\ 2{,}03;\ 2{,}10;\ 2{,}05;\ 2{,}05$$
 
 Vypočtěte průměr, směrodatnou odchylku a variační koeficient.
 
-*Řešení:*
-
-- Průměr: x̄ = 20,60 / 10 = 2,06
-- Rozptyl: s² = 0,0136 / 10 = 0,00136
-- Směrodatná odchylka: s = √0,00136 ≈ 0,037
-- Variační koeficient: v = (0,037 / 2,06) · 100 % ≈ 1,8 %
-
-Měření je tedy velmi přesné — hodnoty kolísají kolem průměru jen zhruba o 1,8 %.
+Výsledek: ||průměr x̄ = 20,60/10 = 2,06; rozptyl s² = 0,0136/10 = 0,00136; směrodatná odchylka s = √0,00136 ≈ 0,037; variační koeficient v = (0,037/2,06)·100% ≈ 1,8 % — měření je velmi přesné, hodnoty kolísají kolem průměru jen zhruba o 1,8 %||
 
 ## Mezikvartilová odchylka
 
 Pokud místo aritmetického průměru použijeme medián, používá se jako míra variability **mezikvartilová odchylka** místo směrodatné odchylky:
 
 - Medián = „prostřední" hodnota
-- První kvartil Q1 = „čtvrtinová" hodnota (medián první poloviny hodnot)
-- Třetí kvartil Q3 = „tříčtvrtinová" hodnota (medián druhé poloviny hodnot)
-- Mezikvartilová odchylka: Qx = (Q3 − Q1) / 2
+- První kvartil $Q_1$ = „čtvrtinová" hodnota (medián první poloviny hodnot)
+- Třetí kvartil $Q_3$ = „tříčtvrtinová" hodnota (medián druhé poloviny hodnot)
+- Mezikvartilová odchylka: $$Q_x = \frac{Q_3-Q_1}{2}$$
 
 ### Příklad: mezikvartilová odchylka
 
@@ -102,9 +95,9 @@ Roční příjem (v tis. Kč) a četnost v souboru 20 lidí:
 |---|---|---|---|---|---|---|
 | četnost | 1 | 7 | 6 | 4 | 1 | 1 |
 
-Z kumulativních četností vychází Q1 = 240 000 Kč, Q3 = 280 000 Kč, tedy:
+Z kumulativních četností vychází $Q_1=240\,000$ Kč, $Q_3=280\,000$ Kč, tedy:
 
-Qx = (280 000 − 240 000) / 2 = 20 000 Kč
+$$Q_x = \frac{280\,000-240\,000}{2} = 20\,000 \text{ Kč}$$
 
 Všimněte si, že v tomto souboru je jedna extrémní hodnota (950), která by aritmetický průměr silně zkreslila — proto se pro takto „nesouměrné" soubory hodí lépe medián s mezikvartilovou odchylkou než průměr se směrodatnou odchylkou.
 

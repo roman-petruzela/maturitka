@@ -4,20 +4,35 @@ order: 4
 source: "matematika/TY0104 Rotační válec.pdf"
 hasExercises: true
 ---
-Rotační válec je těleso, které vznikne otáčením (rotací) obdélníku kolem jedné jeho strany, nebo střední příčky. Válec je vymezen dvěma rovnoběžnými podstavami ve tvaru kruhu a pláštěm. Poloměr podstavy válce značíme 𝒓, průměr podstavy válce značíme 𝒅. Vzdálenost mezi dvěma rovnoběžnými podstavami nazýváme výškou válce a značíme 𝑣. Pokud rozvineme plášť válce dostaneme obdélník jehož jedna strana má délku 𝒗 a druhá strana má délku obvodu kruhové podstavy (𝟐∙𝝅∙𝒓). Povrch válce vypočteme podle vzorce 𝑺= 𝟐∙𝑺𝑷 + 𝑺𝑷𝒍. Podstavou je kruh, obsah podstavy tedy vypočteme 𝑺𝒑 = 𝝅∙𝒓<sup>𝟐</sup> . Pláštěm je obdélník jehož obsah vypočteme pomocí vzorce 𝑺𝒑𝒍 = 𝟐∙𝝅∙𝒓∙𝒗. Povrch válce tedy vypočteme 𝑺= 𝟐∙𝝅∙𝒓<sup>𝟐</sup> + 𝟐∙𝝅∙𝒓∙𝒗, po vytknutí 𝑺= 𝟐∙𝝅∙𝒓∙(𝒓+ 𝒗). Objem válce vypočteme pomocí vzorce 𝑽= 𝑺𝒑 ∙𝒗, tedy 𝑽= 𝝅∙𝒓<sup>𝟐</sup> ∙𝒗.
 
-# **Úkoly:**
+> Pozn. k obsahu: Vzorce v PDF byly vysázené jako obrázky (unicode symboly), přepsané zde do LaTeXu; výsledky úkolů (ověřeny přepočtem, souhlasí) do spoilerů. V zadání 4 byla v PDF u obsahu pláště chybně jednotka $\text{dm}^3$ místo $\text{dm}^2$ (obsah je vždy plošná veličina) — opraveno. PDF dále odkazovalo na program Cabri 3D pro interaktivní úkol 1, který proto nejde reprodukovat, ponechán jako historický záznam.
 
-1. V programu Cabri nakreslete válec o poloměru podstavy 𝑟= 5 𝑐𝑚 a výšce 𝑣= 7 𝑐𝑚. Ve válci vyznačnte výšku. Vypočtěte objem a povrch válce a své výsledky ověřte pomocí programu Cabri.
+**Rotační válec** je těleso, které vznikne otáčením (rotací) obdélníku kolem jedné jeho strany (nebo kolem střední příčky). Válec je vymezen dvěma shodnými rovnoběžnými podstavami ve tvaru kruhu a pláštěm.
 
-# **Příklady:**
+Poloměr podstavy značíme $r$, průměr podstavy $d$, vzdálenost mezi podstavami (výšku válce) $v$. Pokud plášť válce rozvineme do roviny, dostaneme obdélník, jehož jedna strana má délku $v$ a druhá délku obvodu podstavy $2\pi r$.
 
-1. V rotačním válci je dán objem 𝑉= 498 𝑐𝑚<sup>3</sup> a poloměr podstavy 𝑟= 8,5 𝑐𝑚. Vypočtěte jeho výšku 𝑣 a povrch 𝑆.  [𝑣= 2,194 𝑐𝑚, 𝑆= 571,135 𝑐𝑚<sup>2</sup> ]
+$$S_p = \pi r^2 \qquad S_{pl} = 2\pi r v \qquad S = 2S_p + S_{pl} = 2\pi r^2 + 2\pi r v = 2\pi r(r+v)$$
 
-2. Sud tvaru válce vysoký 2 𝑚 pojme 1,57 𝑚<sup>3</sup> oleje. Jaký je jeho vnitřní průměr?
+$$V = S_p \cdot v = \pi r^2 v$$
 
-   - [𝑑= 1 𝑚]
+## Úkoly (interaktivní, Cabri 3D)
 
-3. Jaká bude spotřeba papíru na výrobu zkušební nádoby tvaru válce bez víka, která má mít objem 169,65 𝑐𝑚<sup>3</sup> a hloubku 6 𝑐𝑚? Zanedbejte spotřebu na spoje, odpad, atd. [141,37 𝑐𝑚<sup>2</sup> ]
+1. V programu Cabri nakreslete válec o poloměru podstavy $r=5\text{ cm}$ a výšce $v=7\text{ cm}$. Ve válci vyznačte výšku. Vypočtěte objem a povrch válce a své výsledky ověřte pomocí programu Cabri.
 
-4. Obsah pláště válce je 20𝜋 𝑑𝑚<sup>3</sup> , poloměr podstavy 20 𝑐𝑚. Vypočtěte objem tohoto válce. [20𝜋 𝑑𝑚<sup>3</sup> ]
+## Příklady
+
+**1.** V rotačním válci je dán objem $V=498\text{ cm}^3$ a poloměr podstavy $r=8{,}5\text{ cm}$. Vypočtěte jeho výšku $v$ a povrch $S$.
+
+Výsledek: ||v = V/(πr²) = 498/(π·8,5²) ≈ 2,194 cm; S = 2πr(r+v) = 2π·8,5·(8,5+2,194) ≈ 571,135 cm²||
+
+**2.** Sud tvaru válce vysoký $2\text{ m}$ pojme $1{,}57\text{ m}^3$ oleje. Jaký je jeho vnitřní průměr?
+
+Výsledek: ||r² = V/(πv) = 1,57/(π·2) ≈ 0,25 → r = 0,5 m → d = 1 m||
+
+**3.** Jaká bude spotřeba papíru na výrobu zkušební nádoby tvaru válce bez víka, která má mít objem $169{,}65\text{ cm}^3$ a hloubku $6\text{ cm}$? Zanedbejte spotřebu na spoje, odpad atd.
+
+Výsledek: ||r² = V/(πv) = 169,65/(π·6) ≈ 9 → r ≈ 3 cm; nádoba bez víka = jen jedna podstava + plášť: S = πr² + 2πrv = 9π + 36π = 45π ≈ 141,37 cm²||
+
+**4.** Obsah pláště válce je $20\pi\text{ dm}^2$, poloměr podstavy $20\text{ cm}$. Vypočtěte objem tohoto válce.
+
+Výsledek: ||r = 20cm = 2dm; S_pl = 2πrv → 20π = 2π·2·v → v = 5 dm; V = πr²v = π·4·5 = 20π ≈ 62,83 dm³||

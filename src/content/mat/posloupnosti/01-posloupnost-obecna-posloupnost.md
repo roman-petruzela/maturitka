@@ -4,119 +4,77 @@ order: 1
 source: "matematika/TY01_0215-Posloupnost_-_obecna_posloupnost.pptx"
 hasExercises: true
 ---
-## Osnova
 
-a) pojem posloupnost b) graf posloupnosti c) dělení posloupnosti d) vlastnosti posloupnosti e) způsoby zápisu posloupnosti f) ukázkové příklady g) příklady na procvičení včetně řešení
+> Pozn. k obsahu: Zdrojová prezentace obsahovala funkční definice a přehled vlastností, ale konkrétní vzorce v ukázkových příkladech byly vložené jako obrázky, které se nedochovaly (zůstaly jen prázdné řádky "n = 1:", "n = 2:" ...) — příklady jsou proto doplněny vlastními, reprezentativními zadáními. Vlastnost výsledné posloupnosti v prvním cvičení ("klesající") byla v podkladu zachována, zadání k ní ale ne — doplněné zadání níže na tuto dochovanou vlastnost přesně sedí.
 
-## Posloupnost
+**Posloupnost** je řada hodnot (čísel) mající přesné pořadí. Formálně je posloupnost **funkce** — zobrazení množiny přirozených čísel $\mathbb{N}$ do množiny reálných čísel $\mathbb{R}$:
 
-- posloupnost je nějaká řada hodnot (čísel) <u>mající přesné pořadí</u>
+$$1,\ 3,\ 5,\ 7,\ 9,\ \dots \quad\in\mathbb{R} \qquad\qquad 1.,\ 2.,\ 3.,\ 4.,\ 5.,\ \dots \quad\in\mathbb{N}$$
 
-- posloupnost je funkce
+Členy posloupnosti značíme $a_n$ (např. $a_1;a_2;a_3;\dots;a_{n-1};a_n;a_{n+1};\dots$) — index $n$ udává pořadí členu.
 
-• posloupnost je zobrazení N  R _posloupnost čísel     1 , 3 , 5 , 7 , 9 , ...      R_
+## Graf posloupnosti
 
-_pořadí                         1.   2.   3.   4.   5.  ...         N_
+Posloupnost je funkce, má tedy i grafické znázornění — protože definičním oborem jsou jen přirozená čísla ($1,2,3,\dots$), je grafem posloupnosti vždy **množina izolovaných bodů** $[n;a_n]$, nikdy spojitá křivka.
 
-**_pozn.:_** _označení posloupnosti_ **_pozn.:_** _členy posloupnosti – an    (např. a1 ; a2 ; a3 ; ... ; an-1 ; an ; an+1 ; ...)_
-
-Graf posloupnosti • posloupnost je funkce a tedy má i své grafické znázornění (graf) - graf izolovaných bodů
-
-<!-- Start of picture text -->
-[ N; R]    [ n; an] 10<br>R<br>8<br>6<br>4<br>2<br>0<br>0 1 2 3 4 5 6<br>N<br><!-- End of picture text -->
+```graph
+{ "points": [{"x":1,"y":1},{"x":2,"y":3},{"x":3,"y":5},{"x":4,"y":7},{"x":5,"y":9},{"x":6,"y":11}], "domain": [0,7], "yDomain": [0,12], "title": "Graf posloupnosti aₙ = 2n − 1" }
+```
 
 ## Dělení posloupnosti
 
-• konečná posloupnost - jde o posloupnost s přesně konečným počtem hodnot (čísel)
+- **konečná posloupnost** — má přesně konečný počet členů. Např. seznam žáků ve třídě podle abecedy.
+- **nekonečná posloupnost** — má nekonečný počet členů. Např. posloupnost všech kladných sudých čísel: $2, 4, 6, 8, \dots$
 
-Př. množina žáků ve třídě dle jmenného seznamu
+## Vlastnosti posloupnosti — monotónnost
 
-- nekonečná posloupnost
+Posloupnost je (pro každé $n\in\mathbb{N}$):
 
-- - jde o posloupnost s nekonečným počtem hodnot (čísel)
-
-Př. množina celých kladných sudých čísel   -  2; 4; 6; 8; ...
-
-## Vlastnosti posloupnosti
-
-- monotónnost posloupnosti
-
-- rostoucí – když pro každé _n    N_ platí: _an < an+1_ - klesající – když pro každé _n    N_ platí: _an > an+1_ - nerostoucí – když pro každé _n    N_ platí: _an ≥  an+1_ - neklesající – když pro každé _n    N_ platí: _an ≤ an+1_
-
-**_pozn.:_** _v případě, kdy se pro každé n    N : an = an+1  pak bude posloupnost tzv. konstantní_
+- **rostoucí**, když $a_n < a_{n+1}$
+- **klesající**, když $a_n > a_{n+1}$
+- **nerostoucí**, když $a_n \geq a_{n+1}$
+- **neklesající**, když $a_n \leq a_{n+1}$
+- **konstantní**, když $a_n = a_{n+1}$ (speciální případ, kdy je posloupnost zároveň nerostoucí i neklesající)
 
 ## Způsoby zápisu posloupnosti
 
-- vzorcem vyjadřujícím n-tý člen posloupnosti
+1. **Vzorcem pro $n$-tý člen** — stačí znát vzorec vyjadřující $a_n$ pomocí $n$, dosazením libovolného $n$ dostaneme přímo daný člen (bez znalosti ostatních). Např. $a_n = 2n-1$.
+2. **Rekurentním vzorcem** — je třeba znát první člen (nebo několik prvních členů) a vzorec, který z předchozích členů vypočítá další. Např. $a_1=10,\ a_{n+1}=a_n-2$.
 
-- - je třeba znát zápis posloupnosti n-tého členu pomocí n
+## Ukázkové příklady
 
-- Př. 
+**1.** Napište prvních pět členů posloupnosti zadané vzorcem $a_n=2n-1$.
 
-- rekurentním vzorcem
+Dosazujeme postupně $n=1,2,3,4,5$:
 
-- zde je zapotřebí znát první člen nebo několik prvních členů posloupnosti a vzorec, pomocí něhož lze vyřešit další členy posloupnosti
+$$a_1=2\cdot1-1=1,\quad a_2=2\cdot2-1=3,\quad a_3=5,\quad a_4=7,\quad a_5=9$$
 
-- Př.
+Posloupnost je **rostoucí** (každý další člen je o 2 větší než předchozí).
 
-Ukázkový příklad: Napište prvních pět členů posloupnosti zadané takto .
+**2.** Napište prvních pět členů posloupnosti zadané rekurentně: $a_1=10,\ a_{n+1}=a_n-2$, a určete její vlastnost.
 
-_n = 1:_ dosazujeme za n postupně čísla 1, 2, 3, 4 a 5 _n = 2:_
+Známe $a_1=10$. Pro $a_2$ dosadíme $n=1$ do vzorce $a_{n+1}=a_n-2$: $a_2=a_1-2=10-2=8$. Pro $a_3$ dosadíme $n=2$: $a_3=a_2-2=8-2=6$. Podobně $a_4=a_3-2=4$ a $a_5=a_4-2=2$.
 
-_n = 3:_
+$$a_1=10,\ a_2=8,\ a_3=6,\ a_4=4,\ a_5=2$$
 
-_n = 4:_
+Posloupnost je **klesající** (každý další člen je o 2 menší než předchozí).
 
-_n = 5:_
+## Příklady na procvičení
 
-Ukázkový příklad: Napište prvních pět členů takto zadané posloupnosti
+**1.** Napište prvních pět členů posloupnosti $a_1=10,\ a_{n+1}=a_n-2$ a určete její vlastnost. *(shodné se zadáním ukázkového příkladu 2 výše — vyzkoušejte si výpočet sami předtím, než nahlédnete na výsledek)*
 
-a určete její vlastnost.
+Výsledek: ||a₁=10, a₂=8, a₃=6, a₄=4, a₅=2; posloupnost je klesající||
 
-_n = 1:_ vezmeme n = 1 a dosadíme všude za n
+**2.** Napište první tři členy posloupnosti zadané vzorcem $a_n=n^2-1$.
 
-ve vzorci 1 dosadíme člen _a1_ a vyřešíme _a2_
-
-zjistíme člen _a2_ vezmeme n = 2 a dosadíme všude za n ve vzorci 2 dosadíme člen _a2_ a vyřešíme _a3_
-
-_n= 2:_ vezmeme n = 2 a dosadíme všude za n
-
-zjistíme člen _a_
-
-### Ukázkový příklad:
-
-_n = 3:_ vezmeme n = 3 a dosadíme všude za n ve vzorci 3 dosadíme člen _a3_ a vyřešíme _a4_ zjistíme člen _a4 n= 4:_ vezmeme n = 4 a dosadíme všude za n ve vzorci 4 dosadíme člen _a4_ a vyřešíme _a5_ zjistíme člen _a5_
-
-posloupnost je rostoucí
-
-Příklady na procvičení př. 1: Napište prvních pět členů takto zadané posloupnosti a určete její vlastnost. <u>Řešení</u>
-
-př. 2: Napište prvních pět členů takto zadané posloupnosti <u>Řešení</u>
-
-<u>přeskočit</u>
-
-<!-- Start of picture text -->
-Řešení př. 1:<br>                      vyřešit prvních pět členů a určit<br>vlastnost<br>n = 1: a1 =<br>n = 2:  a2 =<br>n = 3:  a3 =<br>n = 4:  a4 =<br>n = 5:  a5 =<br>Posloupnost je klesající.<br><!-- End of picture text -->
-
-<!-- Start of picture text -->
-zpět<br><!-- End of picture text -->
-
-Řešení př. 2: - vyřešit prvních pět členů _n = 1:_
-
-_n = 2:_
-
-_n = 3:_
-
-<u>zpět</u>
+Výsledek: ||a₁=1²-1=0; a₂=2²-1=3; a₃=3²-1=8||
 
 ## Shrnutí
 
-• definice posloupnosti - řada čísel mající přesné pořadí; funkce; zobrazení
-
-• dělení posloupnosti a) konečná b) nekonečná
-
-• způsoby zápisu posloupnosti a) vztah pro n-tý člen posloupnosti b) rekurentní vzorec  –  nějaké členy + vzorec
+- Definice posloupnosti — řada čísel s přesným pořadím; funkce; zobrazení $\mathbb{N}\to\mathbb{R}$.
+- Dělení posloupnosti: a) konečná, b) nekonečná.
+- Způsoby zápisu: a) vzorec pro $n$-tý člen, b) rekurentní vzorec (první člen/y + vzorec pro další).
 
 ## Zdroje
 
-• HUDCOVÁ, Milada a Libuše KUBIČÍKOVÁ. _Sbírka úloh z matematiky pro SOŠ, SOU a nástavbové studium_ . 2. vydání. Havlíčkův Brod: Prometheus, spol. s r.o., 2005. Učebnice pro střední školy. ISBN 80-7196-318-6
+HUDCOVÁ, Milada, KUBIČÍKOVÁ, Libuše. *Sbírka úloh z matematiky pro SOŠ, SOU a nástavbové studium.* 2. vydání. Havlíčkův Brod: Prometheus, 2005. ISBN 80-7196-318-6.

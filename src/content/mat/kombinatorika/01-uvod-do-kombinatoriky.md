@@ -4,84 +4,63 @@ order: 1
 source: "matematika/TY01_0233_Uvod_do_kombinatoriky.pptx"
 hasExercises: true
 ---
-• _Proč jsou čísla nádherná? To je jako ptát se, proč je nádherná Beethovenova Devátá symfonie. Když nevíte proč, nemůže vám to nikdo vysvětlit. Já vím, že čísla jsou nádherná. A jestli nejsou, tak potom není nádherné už nic._
 
-_Paul Erdös maďarský matematik_
+> Pozn. k obsahu: Zdrojová prezentace používala animované odrážky, u kterých se text objevoval postupně po kliknutí — u tohoto tématu se ztratilo jen minimum (dvě prázdné závěrečné odrážky, jinak byl obsah přítomný přímo v textu). Doplněné jsou jen odpovědi ke třem závěrečným úlohám, které v podkladu neměly přiložené řešení.
 
-# Kombinatorika
+> _„Proč jsou čísla nádherná? To je jako ptát se, proč je nádherná Beethovenova Devátá symfonie. Když nevíte proč, nemůže vám to nikdo vysvětlit. Já vím, že čísla jsou nádherná. A jestli nejsou, tak potom není nádherné už nic."_ — Paul Erdös, maďarský matematik
 
-- Zabývá se pouze vlastnostmi spočetých množin
+## Kombinatorika
 
-- • Vytváření skupin z daných prvků a určování jejich počtu
+Kombinatorika se zabývá vlastnostmi spočetných (konečných) množin — vytvářením skupin z daných prvků a určováním jejich počtu. Často přitom nemáme možnost výsledek jednoduše ověřit (přímým vypsáním všech možností), musíme se spolehnout na správný postup výpočtu.
 
-- • Často nemáme možnost ověřit správnost výsledku
+**Kde se s kombinatorikou setkáme?** Náznaky kombinatoriky nacházíme už u starořeckých matematiků, počátky hlubšího studia spadají do 17.–18. století — zájem podnítily různé hazardní hry (např. vrhcáby, hra v kostky). Dnes je to rozsáhlá matematická disciplína s mnoha dosud nevyřešenými úlohami, uplatnění nachází v teorii pravděpodobnosti, teorii informace, statistice a dalších oborech.
 
-Kde se setkáme s kombinatorikou? • náznaky kombinatoriky  - již u starořeckých matematiků • počátky hlubšího studia – 17. – 18. století
+**Slavní matematici spojení s kombinatorikou:** Blaise Pascal (1623–1662), Pierre de Fermat (1601–1665), Jacob Bernoulli (1655–1705), Gottfried Leibniz (1646–1716), Leonhard Euler (1707–1783).
 
-– zájem o kombinatoriku podnítily různé hazardní hry, například vrhcáby (neboli hra v kostky)
+**Typické kombinatorické otázky:** Utváříme skupiny z prvků nějaké konečné množiny — například sestavujeme rozvrh hodin z daných předmětů, rozhodujeme, které týmy budou v turnaji hrát proti sobě, nebo chceme rozdat několik druhů cen mezi účastníky závodu. Ptáme se: jaká možná seskupení mohou nastat při házení určitého počtu hracích kostek? Jaké jsou pravděpodobnosti výher?
 
-• dnes rozsáhlá matematická disciplína s mnoha dosud nevyřešenými úlohami
+## Základní kombinatorická pravidla
 
-# Slavní matematici
+_„Má-li každé pravidlo výjimku, pak kombinatorická pravidla jsou výjimkou, protože žádnou výjimku nemají."_
 
-Blaise Pascal  1623 - 1662 Pierre de Fermat  1601 – 1665 Jacob Bernoulli  1655 - 1705 Gottfried Leibnitz 1646 - 1716 Leonhard Euler  1707 - 1783
+### Kombinatorické pravidlo součinu
 
-# Kombinatorika
+Toto pravidlo používáme v běžném životě zcela automaticky.
 
-- utváříme skupiny z prvků nějaké konečné množiny – například máme sestavit rozvrh hodin z daných předmětů,
+**Příklad:** U stánku nabízejí čtyři druhy zmrzliny a tři polevy. Kolik různých zmrzlin s polevou lze vytvořit, jestliže nechceme míchat více druhů ani více polev?
 
-- – potřebujeme rozhodnout, které týmy budou v turnaji hrát proti sobě,
+Ke každému ze 4 druhů zmrzliny můžeme přidat kteroukoli ze 3 polev — možnosti se násobí:
 
-- – chceme rozdat několik druhů cen mezi účastníky závodu
+$$4 \text{ zmrzliny} \times 3 \text{ polevy} = 12 \text{ možností}$$
 
-- Otázky: • jaká možná seskupení mohou nastat při házení určitého počtu hracích kostek?
+### Kombinatorické pravidlo součtu
 
-   - jaké jsou pravděpodobnosti výher?
+I toto pravidlo dokážeme používat na základě úvahy.
 
-- postupně se vyvíjel nový obor
+**Příklad:** Kolik různých dvojciferných čísel, v jejichž zápisu se každá číslice vyskytuje nejvýše jednou, můžeme vytvořit z číslic 0 až 9?
 
-- • v  současné době nalézá uplatnění v teorii pravděpodobnosti, v teorii informací, ve statistice … …
+- Počet všech dvojciferných čísel (10 až 99): **90**
+- Počet dvojciferných čísel se stejnými číslicemi (11, 22, 33, ..., 99): **9**
+- Počet čísel, která vyhovují zadání (odečteme ta se stejnými číslicemi): $90 - 9 = \mathbf{81}$
 
-Základní kombinatorická pravidla
+## Úlohy k procvičení
 
-_Má-li každé pravidlo výjimku, pak kombinatorická pravidla jsou výjimkou, protože žádnou výjimku nemají._
+**1.** Určete počet všech trojciferných přirozených čísel, v nichž se každá číslice vyskytuje nejvýše jednou.
 
-Kombinatorické pravidlo součinu Toto pravidlo používáme v běžném životě zcela automaticky _<u>Příklad:</u>_
+Výsledek: ||první číslice: 9 možností (1–9, nesmí být 0); druhá: 9 možností (0–9 kromě už použité); třetí: 8 možností → 9·9·8 = 648||
 
-U stánku nabízejí čtyři druhy zmrzliny a tři polevy. Kolik různých zmrzlin s polevou lze vytvořit, jestliže nechceme míchat více druhů ani více polev?
+---
 
-# Řešení úlohy
+**2.** Určete, kolik dvojjazyčných slovníků je potřeba k tomu, aby byla zajištěna možnost přímého překladu z anglického, německého, ruského a francouzského jazyka do každého z nich.
 
-vanilková čokoládová jahodová pistáciová čokoládová karamelov kávová čokoládová karamelová kávová čokoládová karamelová kávová čokoládová karamelová kávová á
+Výsledek: ||záleží na směru překladu (slovník A→N ≠ slovník N→A), jde tedy o variaci: V(2,4) = 4·3 = 12 slovníků||
 
-4 zmrzliny x 3 polevy = 12 možností
+---
 
-Kombinatorické pravidlo součinu
+**3.** V košíku je 12 jablek a 10 hrušek. Petr si má z něho vybrat buď jablko, nebo hrušku tak, aby Věra, která si vybere po něm jedno jablko a jednu hrušku, měla co největší možnost výběru. Určete, co si má Petr vybrat.
 
-•
+Výsledek: ||pokud Petr vezme jablko, zbyde 11 jablek × 10 hrušek = 110 možností pro Věru; pokud vezme hrušku, zbyde 12 jablek × 9 hrušek = 108 možností. 110 > 108, Petr má tedy vzít jablko.||
 
-# Kombinatorické pravidlo součtu
+## Zdroje
 
-I toto pravidlo dokážeme používat na základě úvahy. _<u>Příklad:</u>_ Kolik různých dvojciferných čísel, v jejichž zápisu se každá číslice vyskytuje nejvýše jednou,  můžeme vytvořit z číslic 0 až 9?
-
-Řešení Počet všech dvojciferných čísel: **90** Počet dvojciferných čísel se stejnými číslicemi: **9** Počet čísel, která vyhovují zadání: **90 – 9 = 81**
-
-Kombinatorické pravidlo součtu
-
-•
-
-# Úlohy k procvičení
-
-1. Určete počet všech trojciferných přirozených čísel, v nichž se každá číslice vyskytuje nejvýše jednou.
-
-2. Určete, kolik dvojjazyčných slovníků je potřeba k tomu, aby byla zajištěna možnost přímého překladu z anglického, německého, ruského a francouzského jazyka do každého z nich.
-
-3. V košíku je 12 jablek a 10 hrušek. Petr si má z něho vybrat buď jablko nebo hrušku tak, aby Věra, která si vybere po něm jedno jablko a jednu hrušku, měla co největší možnost výběru. Určete, co si má Petr vybrat.
-
-# Zdroje
-
-Text:
-
-CALDA, Emil, DUPAČ, Václav. _Matematika pro gymnázia. Kombinatorika, pravděpodobnost, statistika._ Praha: Prometheus, 2006. Obrázky: <u>http://cs.wikipedia.org/wiki/Leonhard_Euler http://commons.wikimedia.org/wiki/File:Jakob_Bernoulli.jpg http://commons.wikimedia.org/wiki/File:Blaise_pascal.jpg http://commons.wikimedia.org/wiki/File:Pierre_de_Fermat.jpg http://commons.wikimedia.org/wiki/File:Gottfried_Wilhelm_von_Lei bniz.jpg</u>
-
-<u>http://commons.wikimedia.org/wiki/File:Four_Colour_Map_Exampl e.svg</u>
+CALDA, Emil, DUPAČ, Václav. _Matematika pro gymnázia. Kombinatorika, pravděpodobnost, statistika._ Praha: Prometheus, 2006.

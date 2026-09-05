@@ -4,44 +4,63 @@ order: 4
 source: "matematika/TY01_0114 Trojúhelník – obecný.pdf"
 hasExercises: true
 ---
-- trojúhelník, který může být rovnostranný, rovnoramenný, různostranný, pravoúhlý, ostroúhlý, tupoúhlý.
 
-**Základní vzorce:**
+> Pozn. k obsahu: Vzorce v PDF byly vysázené jako obrázky (unicode zlomky), text a výsledky úkolů se ale dochovaly celé — vzorce jsou zde přepsané do LaTeXu, výsledky do spoilerů, čísla stránek odstraněna.
 
-**1) Obvod trojúhelníku:** _součet stran trojúhelníku_
+**Obecný trojúhelník** může být rovnostranný, rovnoramenný, různostranný, pravoúhlý, ostroúhlý nebo tupoúhlý — vzorce v této kapitole platí pro trojúhelník úplně obecně.
 
-- **2) Obsah trojúhelníku:** _a) pomocí strany a výšky (kolmice) na tuto stranu_
+## Základní vzorce
 
-**pozn.:** v pravoúhlém trojúhelníku strana _a_ je výškou (kolmici) ke straně _b_ a strana _b_ je výškou 𝑎 .  𝑏 (kolmici) ke straně _a_ . Tedy platí 𝑆= . Pravoúhlý trojúhelník je například polovinou čtverce 2 či obdélníka.
+**1) Obvod trojúhelníku:** součet délek stran, $o = a+b+c$
 
-_b) pomocí všech stran – Heronův vzorec_
+**2a) Obsah trojúhelníku pomocí strany a výšky (kolmice) na tuto stranu:**
 
-1
+$$S = \frac{a\cdot v_a}{2} = \frac{b\cdot v_b}{2} = \frac{c\cdot v_c}{2}$$
 
-_c) pomocí dvou stran a úhlu, který svírají_
+**Pozn.:** v pravoúhlém trojúhelníku je strana $a$ zároveň výškou na stranu $b$ a strana $b$ výškou na stranu $a$ — proto platí $S=\dfrac{a\cdot b}{2}$. Pravoúhlý trojúhelník je vlastně polovina obdélníku (u rovnoramenného pravoúhlého polovina čtverce).
 
-𝑆=<sup>1</sup> . 𝑎𝑏. 𝑠𝑖𝑛𝛾    (𝑟𝑒𝑠𝑝. :   𝑆=<sup>1</sup> . 𝑎𝑐. 𝑠𝑖𝑛𝛽 ;  𝑆=<sup>1</sup> . 𝑏𝑐. 𝑠𝑖𝑛𝛼 ) 2 2 2
+**2b) Obsah trojúhelníku pomocí všech stran — Heronův vzorec:**
 
-# **Nějaké další vzorce:**
+$$S = \sqrt{s(s-a)(s-b)(s-c)}, \qquad \text{kde } s=\frac{a+b+c}{2} \text{ (poloviční obvod)}$$
 
-- 𝑟=<sup>𝑎𝑏𝑐</sup> …  𝑝𝑜𝑙𝑜𝑚ě𝑟 𝑘𝑟𝑢ž𝑛𝑖𝑐𝑒 𝑜𝑝𝑠𝑎𝑛é 𝑝𝑜𝑚𝑜𝑐í 𝑣š𝑒𝑐ℎ 𝑠𝑡𝑟𝑎𝑛 𝑎 𝑜𝑏𝑠𝑎ℎ𝑢 𝑡𝑟𝑜𝑗úℎ𝑒𝑙𝑛í𝑘𝑢 4 . 𝑆
+**2c) Obsah trojúhelníku pomocí dvou stran a úhlu, který svírají:**
 
-𝜌=<sup>𝑆</sup> …  𝑝𝑜𝑙𝑜𝑚ě𝑟 𝑘𝑟𝑢ž𝑛𝑖𝑐𝑒 𝑣𝑒𝑝𝑠𝑎𝑛é 𝑝𝑜𝑚𝑜𝑐í 𝑜𝑏𝑠𝑎ℎ𝑢 𝑎 𝑝𝑜𝑙𝑜𝑣𝑖𝑛𝑦 𝑜𝑏𝑣𝑜𝑑𝑢 𝑡𝑟𝑜𝑗úℎ𝑒𝑙𝑛í𝑘𝑢 𝑠
+$$S = \frac12 ab\sin\gamma = \frac12 ac\sin\beta = \frac12 bc\sin\alpha$$
 
-# **Úkol:**
+## Další vzorce
 
-1.  Sestrojte trojúhelník ABC o stranách _a = 5 cm, b = 7 cm, c = 9 cm_ . Řešte následující úkoly: a)  vypočítejte obvod trojúhelníku, [ _o_ = 21 cm]
+$$r = \frac{abc}{4S} \quad\text{— poloměr kružnice opsané (pomocí všech stran a obsahu trojúhelníku)}$$
 
-   - b)  zakreslete všechny výšky (kolmice) na protější strany. Následně změřte velikosti výšek (na 𝑐 .  𝑣𝑐 𝑎 .  𝑣𝑎 𝑏 .  𝑣𝑏
+$$\rho = \frac{S}{s} \quad\text{— poloměr kružnice vepsané (pomocí obsahu a polovičního obvodu)}$$
 
-   - 1 desetinné místo) a prostřednictvím vzorce 𝑆= (𝑟𝑒𝑠𝑝. : 𝑆= ; 𝑆= ) 2 2 2
+## Úkol 1
 
-   - vypočítejte obsah tohoto trojúhelníku. Výpočet proveďte pro každý vzorec a výsledky pak porovnejte, [ _S_ = 17,5 cm<sup>2</sup> ]
+Sestrojte trojúhelník ABC o stranách $a=5\text{ cm}, b=7\text{ cm}, c=9\text{ cm}$.
 
-   - c)  k výpočtu obsahu trojúhelníku použijte Heronův vzorec. Výsledek porovnejte s výsledky z úkolu b). [ _S_ = 17,41 cm<sup>2</sup> ]
+**a)** Vypočítejte obvod trojúhelníku.
 
-2.  Sestrojte trojúhelník ABC o stranách _a = 6 cm, b = 8 cm,_ 𝛾 _= 60_<sup>_o_</sup> . Vypočítejte obsah tohoto trojúhelníka? [ _S_ = 20,78 cm<sup>2</sup> ]
+Výsledek: ||o = 5+7+9 = 21 cm||
 
-3.  Sestrojte trojúhelník ABC o stranách _a = 3 cm, b = 4 cm, c = 6 cm_ . Vypočítejte poloměr kružnice opsané ( _r =?) a vepsané_ (𝜌 _= ?)_ trojúhelníka ABC? [ _r_ = 3.38 cm; 𝜌 = 0,82 cm]
+**b)** Zakreslete všechny výšky (kolmice na protější strany). Změřte jejich velikosti (na 1 desetinné místo) a pomocí vzorce $S=\frac{a v_a}2$ (resp. $\frac{b v_b}2$, $\frac{c v_c}2$) vypočítejte obsah trojúhelníku pro každý vzorec zvlášť a výsledky porovnejte.
 
-2
+Výsledek: ||S ≈ 17,5 cm² (přesná hodnota s drobnou odchylkou danou nepřesností ručního měření výšek — viz přesný výpočet Heronovým vzorcem níže)||
+
+**c)** K výpočtu obsahu použijte Heronův vzorec a výsledek porovnejte s částí b).
+
+Výsledek: ||s = (5+7+9)/2 = 10,5; S = √(10,5·5,5·3,5·1,5) = √303,1875 ≈ 17,41 cm² — velmi blízko ručně naměřenému výsledku, drobný rozdíl je dán nepřesností měření výšek pravítkem||
+
+## Úkol 2
+
+Sestrojte trojúhelník ABC o stranách $a=6\text{ cm}, b=8\text{ cm}$ a úhlu $\gamma=60°$ mezi nimi. Vypočítejte obsah tohoto trojúhelníku.
+
+Výsledek: ||S = ½·a·b·sin γ = ½·6·8·sin60° = 24·(√3/2) ≈ 20,78 cm²||
+
+## Úkol 3
+
+Sestrojte trojúhelník ABC o stranách $a=3\text{ cm}, b=4\text{ cm}, c=6\text{ cm}$. Vypočítejte poloměr kružnice opsané ($r$) a vepsané ($\rho$) tomuto trojúhelníku.
+
+Výsledek:
+
+- ||nejprve obsah Heronovým vzorcem: s=6,5; S=√(6,5·3,5·2,5·0,5)=√28,4375≈5,332 cm²||
+- ||r = abc/(4S) = 3·4·6/(4·5,332) = 72/21,328 ≈ 3,38 cm||
+- ||ρ = S/s = 5,332/6,5 ≈ 0,82 cm||

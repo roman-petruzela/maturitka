@@ -4,88 +4,68 @@ order: 11
 source: "mat/05 Dělení mnohočlenů.pdf"
 hasExercises: true
 ---
-_Pozn. k obsahu: mocniny (exponenty) se při automatickém převodu PDF oddělily od základu a zobrazují se jako samostatná čísla vedle proměnné (např. "_x_ 5" znamená x⁵, ne "x krát 5"). Postup dělení mnohočlenů pod sebou navíc ztratil svoje odřádkování a čísla pod sebou splynula do jednoho řádku. Metoda a myšlenka postupu jsou čitelné, konkrétní mezivýpočty je ale vhodné ověřit na papíře nebo u vyučujícího._
 
-## **Předpoklady:** 010803
+> Pozn. k obsahu: Zdrojový dokument byl učitelský lekční plán s poznámkami k výuce — mocniny (exponenty) se při převodu oddělily od základu a postup dělení "pod sebou" ztratil odřádkování, takže čísla splynula do nečitelných řádků. Metoda i mezivýsledky byly ale čitelné a všechny čtyři podrobné příklady jsem nezávisle přepočítal a ověřil zpětným násobením (dělenec = dělitel × podíl + zbytek) — všechny souhlasí. Jeden neúplný pátý příklad (dochovala se jen závěrečná poznámka "výraz 13x+30 už nejde dál dělit" bez zadání) nejde rekonstruovat a byl vynechán.
 
-Mohou nastat dvě možnosti.
+Mnohočleny lze dělit dvěma způsoby, podle toho, čím dělíme.
 
-## **1. Dělení mnohočlenů jednočlenem**
+## 1. Dělení mnohočlenu jednočlenem
 
-Jednoduché – dělíme každý člen zvlášť.
+Jednoduché — dělíme každý člen zvlášť (dělit znamená dát mnohočleny do zlomku a ten rozdělit na jednotlivé členy). Výsledkem je často opět mnohočlen.
 
-Dělit znamená dát mnohočleny do zlomku ⇒
+**Příklad:** $(6x^3-9x^2+3x):(3x) = 2x^2-3x+1$
 
-⇒ Někdy výsledek je mnohočlen.
+## 2. Dělení mnohočlenu mnohočlenem
 
-## **2. Dělení mnohočlenů mnohočlenem**
+To už je složitější — zlomek můžeme takto rozdělit jen podle sčítání/odčítání v **čitateli**, ne podle jmenovatele. Inspirujeme se tím, jak se dělí víceciferná čísla "pod sebou" — dělíme postupně, vždy se zajímáme o **nejvyšší** zbývající řád, zpětně násobíme a odečítáme:
 
-To už je horší, podle sčítání nebo odčítání můžeme zlomek rozdělit pouze v čitateli.
+$$2275 : 7 = 325$$
 
-Hledáme inspiraci. Jak se dělí čísla?
+$$22:7=3\ (\text{zbytek }1),\quad 17:7=2\ (\text{zbytek }3),\quad 35:7=5\ (\text{zbytek }0)$$
 
-2275: 7 = 325 2275:7 = 325 22 : 7 = 3 22 :7 = 3 Zajímáme se o největší cifry. − 21 − 21 Zpětně vynásobíme a odečteme. 17 :7 = 2 17 :7 = 2 Ke zbytku připočteme další cifru. − 14 − 14 Zpětně vynásobíme a odečteme. 35:7 = 5 35:7 = 5 Ke zbytku opět připočteme další cifru a tak pořád dále.
+U mnohočlenů postupujeme úplně stejně — jen místo "nejvyšší cifry" hledáme člen s **nejvyšší mocninou**.
 
-U mnohočlenů postupujeme podobně: zajímáme se o největší mocniny, zpětně vynásobíme a pak odečteme, abychom věděli, co zbývá atd.
+## Ukázkový postup
 
-_x_ 5 − 3 _x_ 2 − 4 _x_ + 6 : _x_ 2 − 2 . Napodobíme postup, dělíme ( ) ( )
+Vydělte $(x^5-3x^2-4x+6):(x^2-2)$.
 
-1
+1. Vydělíme členy s nejvyššími mocninami: $x^5:x^2=x^3$.
+2. Získaným členem vynásobíme celý dělitel (zpětné násobení): $x^3\cdot(x^2-2)=x^5-2x^3$.
+3. Od původního mnohočlenu odečteme výsledek: $(x^5-3x^2-4x+6)-(x^5-2x^3)=2x^3-3x^2-4x+6$.
+4. S výsledkem opakujeme celý postup, dokud nezbyde mnohočlen nižšího stupně, než má dělitel (nebo nula).
 
-   - 5 2 3
+Zkrácený postup (jen výsledky jednotlivých kroků):
 
-   - • Vydělíme členy s největšími mocninami: _x_ : _x_ = _x_ .
+$$x^5-3x^2-4x+6 \ :\ x^2-2 = x^3+2x-3$$
 
-   - Získaným jednočlenem vynásobíme celý dělitel (zpětné násobení): _x_ 3 ⋅ _x_ 2 − 2 = _x_ 5 − 2 _x_ 3 . ( )
+$$-(x^5-2x^3) \implies 2x^3-3x^2-4x+6$$
 
-   - Od původního mnohočlenu odečteme výsledek zpětného násobení: _x_ 5 − 3 _x_ 2 − 4 _x_ + 6 − _x_ 5 − 2 _x_ 3 = 2 _x_ 3 − 3 _x_ 2 − 4 _x_ + 6 .
+$$-(2x^3-4x) \implies -3x^2+6$$
 
-   - ( ) ( )
+$$-(-3x^2+6) \implies 0$$
 
-   - S výsledkem opakujeme předchozí postup.
+Po posledním odečtení vyšel nulový mnohočlen — dělili jsme **beze zbytku**.
 
-- **Pedagogická poznámka:** Předchozí odstavec na tabuli nepíšu, uvádím pouze následující zkrácený zápis.
+**Ověření správnosti** — zpětné vynásobení výsledku dělitelem musí dát zpět původní dělenec:
 
-Ještě předtím, než začnu s vysvětlováním, upozorním žáky, že: jde o netriviální algoritmus, který je nutné pochopit vcelku,
+$$(x^3+2x-3)(x^2-2) = x^5-2x^3+2x^3-4x-3x^2+6 = x^5-3x^2-4x+6 \checkmark$$
 
-důležitou roli hraje zápis, který, pokud je dobře provedený, značně ulehčuje orientaci (a tím výpočet), v opačném případě naopak přispívá k neúspěchu. S úpravou mají největší problém rozmáchlíci, kteří píšou obrovská písmena a pak se jim na jednu řádku nevejde celý potřebný postup.
+**Nejčastější problém:** dělení členů s nejvyššími mocninami (mocnina podílu se s každým krokem musí snížit o jedna) a odčítání mnohočlenů po zpětném násobení — dejte si pozor na znaménka.
 
-## Zkrácený zápis (s barevným odlišením jednotlivých kroků):
+## Příklady
 
-0
+**1.** Vydělte $(2x^3+5x^2-5x+1):(2x-1)$.
 
-Po posledním odečítání vyšel nulový mnohočlen ⇒ dělili jsme beze zbytku.
+Výsledek: ||x²+3x-1 (beze zbytku). Ověření: (2x-1)(x²+3x-1) = 2x³+6x²-2x-x²-3x+1 = 2x³+5x²-5x+1 ✓||
 
-Jak se přesvědčíme o správnosti výsledku? Zpětné vynásobení:
+**2.** Vydělte $(6x^6-8x^5+14x^4-21x^3+3x^2+8x-14):(3x^3-x^2+2)$.
 
-_x_ 3 + 2 _x_ − 3 _x_ 2 − 2 = _x_ 5 − 2 _x_ 3 + 2 _x_ 3 − 4 _x_ − 3 _x_ 2 + 6 = _x_ 5 − 3 _x_ 2 − 4 _x_ + 6 ( )( )
+Výsledek: ||2x³-2x²+4x-7 (beze zbytku). Ověření zpětným násobením souhlasí se zadaným dělencem||
 
-⇒ počítali jsme správně.
+**3.** Vydělte $(x^6-2x^4+x^3-2x+5):(x^3+x-2)$. *(Pozor: mnohočleny jsou v zadání úmyslně neseřazené podle mocnin — nejdřív je seřaďte sestupně, teprve pak dělte.)*
 
-**Pedagogická poznámka:** Zbytek hodiny je myšlen jako samostatná práce studentů, přesto minimálně 3. příklad počítám v malém závěsu za třídou na tabuli. Většina žáků všechno nestihne, jim zůstávají příklady za domácí úkol.
+Výsledek: ||po seřazení: (x⁶-2x⁴+x³-2x+5):(x³+x-2) = x³-3x+3 se zbytkem 3x²-11x+11 (zbytek má nižší stupeň než dělitel, dál už nejde dělit); úplný zápis: podíl + zbytek/dělitel = x³-3x+3 + (3x²-11x+11)/(x³+x-2)||
 
-V pochopení jsou nejčastější problémy s dělením členů s nejvyššími mocninami (Proč? - aby se stupeň mocniny po každém dělení o jedna snížil). V praktickém výpočtu pak s odčítáním mnohočlenů po zpětném dělení.
+## Zdroje
 
-2
-
-**Př. 3:** Vyděl mnohočleny ( 2 _x_ 3 + 5 _x_ 2 − 5 _x_ + 1 ) : ( 2 _x_ − 1 ) . ( 2 _x_ 3 + 5 _x_ 2 − 5 _x_ + 1 ) : ( 2 _x_ − 1 ) = _x_ 2 + 3 _x_ − 1 − 2 _x_ 3 − _x_ 2 <u>( )</u> 6 _x_ 2 − 5 _x_ + 1 − 6 _x_ 2 − 3 _x_ <u>( )</u> − 2 _x_ + 1 − 2 _x_ − 1 <u>( )</u> 0 Platí: ( 2 _x_ 3 + 5 _x_ 2 − 5 _x_ + 1 ) : ( 2 _x_ − 1 ) = _x_ 2 + 3 _x_ − 1 . **Př. 4:** 6 _x_ 6 − 8 _x_ 5 + 14 _x_ 4 − 21 _x_ 3 + 3 _x_ 2 + 8 _x_ − 14 : 3 _x_ 3 − _x_ 2 + 2 = Vyděl mnohočleny ( ) ( ) 6 _x_ 6 − 8 _x_ 5 + 14 _x_ 4 − 21 _x_ 3 + 3 _x_ 2 + 8 _x_ − 14 : 3 _x_ 3 − _x_ 2 + 2 = 2 _x_ 3 − 2 _x_ 2 + 4 _x_ − 7 ( ) ( ) − 6 _x_ 6 − 2 _x_ 5 + 4 _x_ 3 <u>( )</u> − 6 _x_ 5 + 14 _x_ 4 − 25 _x_ 3 + 3 _x_ 2 + 8 _x_ − 14 −− 6 _x_ 5 + 2 _x_ 4 − 4 _x_ 2 <u>( )</u> 12 _x_ 4 − 25 _x_ 3 + 7 _x_ 2 + 8 _x_ − 14 − 12 _x_ 4 − 4 _x_ 3 + 8 _x_ <u>( )</u> − 21 _x_ 3 + 7 _x_ 2 − 14 −− 21 _x_ 3 + 7 _x_ 2 − 14 <u>( )</u> 0 6 _x_ 6 − 8 _x_ 5 + 14 _x_ 4 − 21 _x_ 3 + 3 _x_ 2 + 8 _x_ − 14 : 3 _x_ 3 − _x_ 2 + 2 = 2 _x_ 3 − 2 _x_ 2 + 4 _x_ − 7 Platí: ( ) ( )
-
-**Pedagogická poznámka:** V následujících příkladech jsou malé zádrhele. Snažím se tím o to, aby si algoritmus dělení u žáků zachoval alespoň nějakou flexibilitu, žáci mají tendenci ho zcela zautomatizovat a zmechaničtět.
-
-3
-
-**Př. 5:** _x_ 6 + _x_ 3 + 5 − 2 _x_ 4 − 2 _x_ : _x_ + _x_ 3 − 2 . Vyděl mnohočleny ( ) ( ) Nejdřív si musíme oba mnohočleny seřadit a pak dělíme: _x_ 6 − 2 _x_ 4 + _x_ 3 − 2 _x_ + 5 : _x_ 3 + _x_ − 2 = _x_ 3 − 3 _x_ + 3 ( ) ( ) − _x_ 6 + _x_ 4 − 2 _x_ 3 <u>( )</u> − 3 _x_ 4 + 3 _x_ 3 − 2 _x_ + 5 −− 3 _x_ 4 − 3 _x_ 2 + 6 _x_ ��������������������������� ( ) 3 _x_ 3 + 3 _x_ 2 − 8 _x_ + 5 − 3 _x_ 3 + 3 _x_ − 6 <u>( )</u> 3 _x_ 2 − 11 _x_ + 11 Výraz 3 _x_ 2 − 11 _x_ + 11 už nejde dál dělit ⇒ _x_ 6 + _x_ 3 + 5 − 2 _x_ 4 − 2 _x_ : _x_ + _x_ 3 − 2 = _x_ 3 − 3 _x_ + 3 + 3 _x_ 2 − 11 _x_ + 11 . ( ) ( ) _x_ 3 + _x_ − 2
-
-**Pedagogická poznámka:** Někteří studenti přijdou na to, že mají mnohočleny seřadit. Někteří je neseřadí a přesto dokáží příklad spočítat (ty upozorňuji, že si mohli práci podstatně zjednodušit). Ty, kteří mnohočleny neseřadí a nedokáží počítat správně, upozorním, aby se příliš dlouho netrápili zbytečně.
-
-Výraz 13 _x_ + 30 už nejde dál dělit. ⇒
-
-4
-
-- **Pedagogická poznámka:** Předchozí a následující příklad vyvolávají u velké části studentů tím, jak vypadají, pocit, že jde o něco úplně jiného než předchozí příklady a tudíž není možné je řešit stejným způsobem. Je dobré si popovídat o tom, že jsou v podstatných věcech stejné jako příklady předchozí, že jde stále o dělení mnohočlenů, že náš postup neměl žádné speciální podmínky a proto je možné ho použít i v tomto případě.
-
-- **Pedagogická poznámka:** Stejně jako u převádění mezi číselnými soustavami, jde u dělení mnohočlenů o pochopení algoritmu, který se pak neustále opakuje. Kvůli cvičení pamatování je dobré další hodinu zahájit příkladem na dělení, velká část třídy nebude schopna algoritmus opět použít.
-
-**Shrnutí:** Mnohočleny je možné dělit postupem, který je podobný běžnému dělení dvou čísel.
-
-5
+Zdrojový dokument: *mat/05 Dělení mnohočlenů.pdf*

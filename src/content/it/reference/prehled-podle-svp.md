@@ -6,6 +6,8 @@ source: "src/content/it/reference/svp-prehled.md (§4.7.1, §4.9.1–4.9.13)"
 
 Osnova podle školního vzdělávacího programu a jak ji pokrývá obsah na tomto webu. Podrobný plný text ŠVP je v [samostatné referenci](/it/reference/svp-prehled/); tady je jen stručný přehled s odkazy na konkrétní kategorie a témata. Kategorie v menu jsou seřazené v pořadí, v jakém se podle ŠVP probírají.
 
+Pro ústní maturitní zkoušku (jen část tohoto obsahu) viz [Maturitní okruhy IT](/it/reference/maturitni-okruhy/).
+
 ## [Úvod do výpočetní techniky](/it/#uvod-do-vypocetni-techniky) (1. ročník) ✓
 
 Hardware od základní desky po periferie, historie výpočetní techniky, autorský zákon — 27 témat, dobře pokryto.

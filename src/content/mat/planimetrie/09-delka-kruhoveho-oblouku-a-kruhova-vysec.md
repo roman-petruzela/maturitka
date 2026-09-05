@@ -4,49 +4,51 @@ order: 9
 source: "matematika/TY01_0119 Délka kruhového oblouku a kruhová výseč.pdf"
 hasExercises: true
 ---
-**Délka kruhového oblouku a kruhová výseč**
 
-# **<u>Délka kruhového oblouku</u>**
+> Pozn. k obsahu: Vzorce v PDF byly vysázené jako obrázky (unicode zlomky), text a výsledky úkolů se ale většinou dochovaly celé — vzorce jsou zde přepsané do LaTeXu, výsledky do spoilerů, čísla stránek odstraněna. U úkolu 1 (kruhová výseč) neseděl dochovaný výsledek s dosazením do vzorce ze zadaných hodnot — použit přepočet ze zadání, ne původní (nesedící) číslo.
 
-- vzdálenost mezi body A a B ležících na kružnici je _délka kruhového oblouku_ ( _l_ ) kružnice o poloměru ( _r_ ) pro daný úhel _α_
+## Délka kruhového oblouku
 
-## **<u>vzorec:</u>**
+Vzdálenost mezi body $A$ a $B$ ležícími na kružnici, měřená podél kružnice (ne přímo), je **délka kruhového oblouku** ($l$) kružnice o poloměru $r$ pro daný úhel $\alpha$.
 
-2𝜋𝑟 pro α ve stupňové míře        𝑙= . 𝛼 360<sup>𝑜</sup> 2𝜋𝑟 pro α v obloukové míře       𝑙= . 𝛼 2𝜋
+$$l = \frac{2\pi r}{360°}\cdot\alpha \quad \text{(}\alpha\text{ ve stupňové míře)}, \qquad l = \frac{2\pi r}{2\pi}\cdot\alpha = r\alpha \quad \text{(}\alpha\text{ v obloukové míře)}$$
 
-## **<u>Úkoly:</u>**
+## Úkoly
 
-1. Dvě přímé silnice svírají úhel o velikosti 65<sup>o</sup> . Jak dlouhý je oblouk o poloměru 300 m, který převede jeden směr v druhý?
+**1.** Dvě přímé silnice svírají úhel $65°$. Jak dlouhý je oblouk o poloměru 300 m, který převede jeden směr v druhý?
 
-[ 602,1 m]
+Výsledek: ||l = (2π·300/360)·65 ≈ 602,1 m||
 
-2. Jak velký oblouk vytvoří konec hodinové ručičky o poloměru 6 cm, když se má dostat z 13:00 do 17:30?
+**2.** Jak velký oblouk vytvoří konec hodinové ručičky o poloměru 6 cm, když se má dostat z 13:00 do 17:30?
 
-[ 14,14 cm]
+Výsledek: ||za 4,5 hodiny opíše hodinová ručička úhel 4,5/12 × 360° = 135°; l = (2π·6/360)·135 ≈ 14,14 cm||
 
-3. Vypočítejte požadované hodnoty při daných předpokladech:
+**3.** Vypočítejte požadované hodnoty:
 
-   - a) _l = 140 mm a r = 6,2 cm; α = ?_
+**a)** $l=140\text{ mm}$, $r=6{,}2\text{ cm}$, $\alpha=?$
 
-   - b) _l = 452 mm a α = 45_<sup>_o_</sup> _24´35´´; r = ?_
+Výsledek: ||α = l·360°/(2πr) = 140·360/(2π·62) ≈ 129°22'39''||
 
-[a) 129<sup>o</sup> 22<sup>´</sup> 39<sup>´´</sup> ; b) 570,31 mm]
+**b)** $l=452\text{ mm}$, $\alpha=45°24'35''$, $r=?$
 
-# **<u>Kruhová výseč</u>**
+Výsledek: ||r = l·360°/(2πα) ≈ 570,31 mm||
 
-- body _SAB_ tvoří  část obsahu kruhu ( _kruhovou výseč ... Svýs_ ) o poloměru ( _r_ ) a úhlu _α_
+## Kruhová výseč
 
-<!-- Start of picture text -->
-A<br>vzorec:<br>𝜋𝑟 2<br>pro α ve stupňové míře        𝑆𝑣ý𝑠 =  360 𝑜  . 𝛼<br>B<br>𝜋𝑟 2<br> . 𝛼<br>pro α v obloukové míře       𝑆𝑣ý𝑠 =  2𝜋<br><!-- End of picture text -->
+Body $S$, $A$, $B$ (střed a dva body na kružnici) vymezují část obsahu kruhu — **kruhovou výseč** ($S_{\text{výs}}$) o poloměru $r$ a úhlu $\alpha$.
 
-## **<u>Úkoly:</u>**
+$$S_{\text{výs}} = \frac{\pi r^2}{360°}\cdot\alpha \quad \text{(}\alpha\text{ ve stupňové míře)}, \qquad S_{\text{výs}} = \frac{\pi r^2}{2\pi}\cdot\alpha = \frac{r^2\alpha}{2} \quad \text{(}\alpha\text{ v obloukové míře)}$$
 
-1. Vypočítejte obsah kruhové výseče, jejiž poloměr je _r = 50 mm_ a středový úhel _α = 37_<sup>_o_</sup> ? [ Svýs = 870,21 mm<sup>2</sup> ]
+## Úkoly
 
-2. Jak velký bude poloměr kruhové výseče, jejiž středový úhel má velikost 31<sup>o</sup> 50´ a obsah Svýs = 56,28 cm<sup>2</sup> ?
+**1.** Vypočítejte obsah kruhové výseče o poloměru $r=50\text{ mm}$ a středovém úhlu $\alpha=37°$.
 
-   - [ r = 14,23 cm]
+Výsledek: ||S_výs = (πr²/360°)·α = (π·2500/360)·37 ≈ 807,2 mm²||
 
-   - = 32,1 dm<sup>2</sup> ? [ α = 102<sup>o</sup> 10´39´´]
+**2.** Jak velký bude poloměr kruhové výseče, jejíž středový úhel je $31°50'$ a obsah $S_{\text{výs}}=56{,}28\text{ cm}^2$?
 
-3. Jak velký je středový úhel α, jestliže průměr kruhu je 1200 mm a obsah Svýs = 32,1 dm<sup>2</sup> ?
+Výsledek: ||r = √(S·360/(π·α)) ≈ 14,23 cm||
+
+**3.** Jak velký je středový úhel $\alpha$, jestliže průměr kruhu je 1200 mm a obsah $S_{\text{výs}}=32{,}1\text{ dm}^2$?
+
+Výsledek: ||r=600mm=6dm; α = S·360/(πr²) = 32,1·360/(π·36) ≈ 102°10'39''||

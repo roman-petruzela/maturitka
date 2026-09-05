@@ -4,721 +4,553 @@ order: 23
 source: "MATURITA HADR/Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/23) Planimetrie.pdf"
 hasExercises: true
 ---
-1) Délky základen lichoběžníku jsou a = 4,2* metrů, c = 8* metrů, výška _v_ má velikost 4,8* metrů. Určete obsah plochy lichoběžníku. Ostrý maturitní test Cermat-u ( základní úroveň ) – jaro 2011, příklad č. 4 Body: 2                   Výsledek:  S = 1,2 * resp. 12 * apod. Pracovní tematické zařazení: Planimetrie Řešení: S = = = = = = =  120 * 10<sup>12</sup> = =  12 * 10<sup>13</sup> =  1,2 * 10<sup>14</sup> <u>( m</u><sup>2</sup> <u>)</u>
 
--------------------------------------------------2)
+> Pozn. k obsahu: Naprostá většina úloh v této kapitole vycházela z obrázků (trojúhelníky, lichoběžníky, mapy s vyznačenými úhly a délkami), které nejsou součástí archivu. U většiny úloh ale byly konkrétní číselné hodnoty (strany, úhly) použity přímo v textu postupu řešení, takže je šlo dopočítat i bez obrázku — jen popis geometrického uspořádání (které písmeno je který vrchol apod.) je třeba brát z kontextu řešení. Vzorce sinové věty ($\frac{a}{\sin\alpha}=\frac{b}{\sin\beta}=\frac{c}{\sin\gamma}$) a kosinové věty ($c^2=a^2+b^2-2ab\cos\gamma$), které se v PDF ztratily jako vzorcové objekty, jsou doplněny v běžném tvaru. U úloh, kde v textu chybí i klíčové číselné údaje (výhradně v obrázku), je ponechán jen dochovaný výsledek.
 
-Poslední půlkružnice spirály měří 33 m. Uveďte v celých metrech průměr _d_ této <u>půlkružnice. ( Na obrázku je zobrazena pouze část spirály. )</u> Ostrý maturitní test Cermat-u ( základní úroveň ) – jaro 2011, příklad č. 15 Body: 2                   Výsledek:  d je přibližně 21 m
+*Příklady z maturitních testů Cermatu (základní úroveň) — Planimetrie*
 
-Pracovní tematické zařazení: Planimetrie Řešení: Kružnice … o = 2 π r          půlkružnice … o = π r     33 = přibližně 3,14 r   /: 3,14 10,51 = přibližně r     d = přibližně 2 * 10,51 = přibližně 21 ( m ) --------------------------------------------------
+**1)** Délky základen lichoběžníku jsou $a=4{,}2\cdot10^?$ m, $c=8\cdot10^?$ m, výška $v=4{,}8\cdot10^?$ m *(přesné mocniny deseti nedochovány)*. Určete obsah plochy lichoběžníku.
 
-# <u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Planimetrie</u>
+*Jaro 2011, příklad č. 4. Body: 2. Výsledek: $S\approx1{,}2\cdot10^{14}\text{ m}^2$.*
 
-3) Délky stran trojuhelníku jsou 8 cm, 9 cm a 13 cm. Podobný trojúhelník má obvod o 15 cm větší. Určete délku nejdelší strany podobného trojúhelníku. A) 20 cm     B) 19,5 cm     C) 19 cm     D) 18 cm     E) žádná z uvedených Ostrý maturitní test Cermat-u ( základní úroveň ) – jaro 2011, příklad č. 18 Body: 2                   Výsledek:  B
+Řešení: $S=\dfrac{a+c}2\cdot v$; dosazením vychází $S\approx120\cdot10^{12}=1{,}2\cdot10^{14}\text{ m}^2$.
 
-Pracovní tematické zařazení: Planimetrie Řešení: Menší trojúhelník … o  =  a + b + c  =  8 + 9 + 13  =  30 ( cm ) Větší trojúhelník … o2  =  30 cm + 15 cm  =  45 cm o2 : o  =  45 : 30  =  1,5 … poměr podobnosti ( číslo udávající, „kolikrát je nový geometrický útvar oproti původnímu geometrickému útvaru zvětšený nebo zmenšený“ – každá úsečka většího trojúhelníka je tedy 1,5 krát delší než jí odpovídající úsečka menšího trojúhelníka ) nejdelší strana menšího trojúhelníka … 13 cm nejdelší strana většího trojúhelníka … 1,5 * 13 cm  =  19,5 cm
+**2)** Poslední půlkružnice spirály měří 33 m. Uveďte v celých metrech průměr $d$ této půlkružnice.
 
--------------------------------------------------4)
+*Jaro 2011, příklad č. 15. Body: 2. Výsledek: $d\approx21$ m.*
 
-Určete s přesností na desítky metrů délku hranice _ST._ A)  |ST| = 2 230 m B) <u>|ST| = 2 450 m       C) |ST| = 2 630 m       D) |ST| = 2 800 m       E) |ST| = 3 010 m</u> Ostrý maturitní test Cermat-u ( základní úroveň ) – jaro 2011, příklad č. 19 Body: 2                   Výsledek:  B
+Řešení: obvod půlkružnice $o=\pi r$: $33\approx3{,}14r\ /:3{,}14 \implies r\approx10{,}51 \implies d\approx21$ m.
 
-Pracovní tematické zařazení: Planimetrie Řešení: 180° – ( 75° + 60° )  =  45° <u>Sinová věta:  V každém trojúhelníku ABC platí:</u> = = = =  přibližně 2828,854  =  přibližně 2449,8  =  přibližně l ST l               l ST l =  přibližně 2 450 m --------------------------------------------------
+**3)** Strany trojúhelníku jsou 8, 9 a 13 cm. Podobný trojúhelník má obvod o 15 cm větší. Určete nejdelší stranu podobného trojúhelníku.
 
-<u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Planimetrie</u>
+A) 20 cm   **B) 19,5 cm**   C) 19 cm   D) 18 cm   E) žádná z uvedených
 
-5)
+*Jaro 2011, příklad č. 18. Body: 2.*
 
-Přiřaďte daným úsečkám ( a) – c) ) jejich délky (A-E): a)  strana α     b)  strana c     c)  úhlopříčka f A) 10 * sin B) C) D)  10 * tg E) Ostrý maturitní test Cermat-u ( základní úroveň ) – jaro 2011, příklad č. 26 Body: 3                   Výsledek:  a) E     b) D     c) C Pracovní tematické zařazení: Planimetrie Řešení: a) tg 40°  = _a_ * tg 40°  =  10 _a_ = b) tg 40°  = 10 * tg 40°  =  c c) cos 40°  = f * cos 40°  =  10             f  =
+Řešení: obvod menšího $8+9+13=30$ cm, většího $30+15=45$ cm. Poměr podobnosti $45:30=1{,}5$. Nejdelší strana většího: $1{,}5\cdot13=19{,}5$ cm.
 
---------------------------------------------------
+**4)** Určete s přesností na desítky metrů délku hranice $ST$ *(trojúhelník se dvěma zadanými úhly 75° a 60° a jednou stranou — přesná délka strany se nedochovala)*.
 
-<u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Planimetrie</u>
+A) 2 230 m   **B) 2 450 m**   C) 2 630 m   D) 2 800 m   E) 3 010 m
 
-# 6)
+*Jaro 2011, příklad č. 19. Body: 2.*
 
-# <u>Vypočtěte obsah plochy stavebního záboru.</u>
+Řešení: třetí úhel $180°-(75°+60°)=45°$. Sinovou větou vychází $|ST|\approx2\,450$ m.
 
-Ostrý maturitní test Cermat-u ( základní úroveň ) – podzim 2011, příklad č. 11 Body: 2                   Výsledek:  S  =  3 800 m<sup>2</sup>
+**5)** Přiřaďte úsečkám a) strana $a$, b) strana $c$, c) úhlopříčka $f$ jejich délky *(pravoúhlý trojúhelník s úhlem 40° a přeponou/odvěsnou 10 jednotek)*:
 
-Pracovní tematické zařazení: Planimetrie Řešení: Stavební zábor má tvar lichoběžníku … S  = = = =  3 800 ( m<sup>2</sup> )
+A) $10\sin40°$   B–C) *(nedochováno)*   D) $10\,\mathrm{tg}\,40°$   E) *(nedochováno)*
 
---------------------------------------------------
+*Jaro 2011, příklad č. 26. Body: 3. Výsledek: a) E, b) D, c) C.*
 
-<u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Planimetrie</u>
+Řešení: a) $\mathrm{tg}\,40°=\dfrac a{10} \implies a=10\,\mathrm{tg}\,40°$. b) obdobně $c=10\,\mathrm{tg}\,40°$ (jiná dvojice stran). c) $\cos40°=\dfrac{10}f \implies f=\dfrac{10}{\cos40°}$.
 
-7)
+**6)** Vypočtěte obsah plochy stavebního záboru (tvar lichoběžníku).
 
-S přesností na celé metry vypočtěte šířku pozemku . Ostrý maturitní test Cermat-u ( základní úroveň ) – podzim 2011, příklad č. 12 Body: 2                   Výsledek:
+*Podzim 2011, příklad č. 11. Body: 2. Výsledek: $S=3\,800\text{ m}^2$.*
 
-Pracovní tematické zařazení: Planimetrie Řešení: Pythagorova věta ( levý bílý trojúhelník ):  236<sup>2</sup> =  190<sup>2</sup> + x<sup>2</sup> 55 696 = 36 100 + x<sup>2</sup> 19 596 = x<sup>2</sup> 139,99  =  přibližně x d  =  přibližně 139,99 m + 25 m  =  přibližně 165 m
+Řešení: $S=\dfrac{a+c}2\cdot v$, dosazením (údaje z obrázku) $S=3\,800\text{ m}^2$.
 
---------------------------------------------------
+**7)** S přesností na celé metry vypočtěte šířku pozemku *(pravoúhlý trojúhelník s přeponou 236 m a odvěsnou 190 m, plus dodatečných 25 m)*.
 
-<u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Planimetrie</u>
+*Podzim 2011, příklad č. 12. Body: 2.*
 
-8)
+Řešení: Pythagorova věta: $236^2=190^2+x^2 \implies 55\,696=36\,100+x^2 \implies x^2=19\,596 \implies x\approx139{,}99$. Šířka $d\approx139{,}99+25\approx165$ m.
 
-<u>Vypočtěte délku strany BC.</u> Ostrý maturitní test Cermat-u ( základní úroveň ) – podzim 2011, příklad č. 13 Body: 1                   Výsledek: Pracovní tematické zařazení: Planimetrie Řešení: tg 60°  = √3  = /* 6√3          6√3 * √3  = _a_ 18 = _a_ --------------------------------------------------
+**8)** Vypočtěte délku strany $BC$ *(pravoúhlý trojúhelník s úhlem 60° a odvěsnou $6\sqrt3$)*.
 
-<u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Planimetrie</u>
+*Podzim 2011, příklad č. 13. Body: 1.*
 
-9)
+Řešení: $\mathrm{tg}\,60°=\sqrt3=\dfrac a{6\sqrt3} \implies a=6\sqrt3\cdot\sqrt3=18$.
 
-<u>Vypočtěte velikost výšky</u> _<u>v</u>_ na přeponu AB. Ostrý maturitní test Cermat-u ( základní úroveň ) – podzim 2011, příklad č. 14 Body: 1                   Výsledek: _v_ = 9
+**9)** Vypočtěte velikost výšky $v$ na přeponu $AB$ *(pravoúhlý trojúhelník s úhlem 60°, odvěsnou $6\sqrt3$)*.
 
-Pracovní tematické zařazení: Planimetrie Řešení: Obsah trojúhelníka:  S  = … zde můžeme vypočítat jednak pomocí odvěsen ( každá z odvěsen je současně základnou i příslušnou výškou ), jednak pomocí přepony a k ní příslušné výšky _v_ tg 60°  = √3  = /* 6√3          6√3 * √3  = _a_ 18 = _a_ Pythagorova věta: _c_<sup>2</sup> = _a_<sup>2</sup> + _b_<sup>2</sup> _c_<sup>2</sup> =  18<sup>2</sup> + ( 6√3 )<sup>2</sup> _c_<sup>2</sup> =  324 + 108 _c_<sup>2</sup> =  432               c = √432 S  = = = =  54√3 S  = 54√3  = 54√3  = 108√3  =  √432  * _v_ = _v_ = _v_ 9 = _v_ -------------------------------------------------10) Úsek, který se ve skutečnosti ujde deseti kroky, je na plánu zakreslen úsečkou délky 1 cm. Kruh na plánu má poloměr 2,5 <u>cm. Kolika kroky se obejde po obvodu skutečný kruh ?</u> Ostrý maturitní test Cermat-u ( základní úroveň ) – podzim 2011, příklad č. 15 Body: 2                   Výsledek:  157 kroky Pracovní tematické zařazení: Planimetrie Řešení: Obvod kruhu:  o  =  2 π r  =  přibližně 2 * 3,14 * 2,5  =  15,7 ( cm na plánu ) 1 cm … 10 kroků          15,7 cm … 15,7 * 10 kroků  =  157 kroků
+*Podzim 2011, příklad č. 14. Body: 1. Výsledek: $v=9$.*
 
---------------------------------------------------
+Řešení: jako v úloze 8: $a=18$, $b=6\sqrt3$. Pythagorova věta: $c^2=18^2+(6\sqrt3)^2=324+108=432$, $c=\sqrt{432}$. Obsah $S=\dfrac{ab}2=\dfrac{18\cdot6\sqrt3}2=54\sqrt3$. Také $S=\dfrac{cv}2$, tedy $54\sqrt3=\dfrac{\sqrt{432}\cdot v}2 \implies v=9$.
 
-# <u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Planimetrie</u>
+**10)** Úsek, který se ve skutečnosti ujde deseti kroky, je na plánu 1 cm. Kruh na plánu má poloměr 2,5 cm. Kolika kroky se obejde skutečný kruh?
 
-11) Obdélníková plocha o celkové rozloze 2000 m<sup>2</sup> byla rozdělena rovnou hranicí na dva menší obdélníky. Velikosti ploch obou částí jsou v poměru 3:2. Větší část se od menší liší v délce jedné strany o 10 m. V jakém poměru jsou délky stran u větší z obou částí rozdělené <u>plochy ?     A) 5 : 6        B)  4 : 5 C) 3 : 4        D)  2 : 3        E)  1 : 2</u> Ostrý maturitní test Cermat-u ( základní úroveň ) – podzim 2011, příklad č. 17 Body: 2                   Výsledek:  C
+*Podzim 2011, příklad č. 15. Body: 2. Výsledek: 157 kroků.*
 
-Pracovní tematické zařazení: Planimetrie Řešení: Načrtni si obdélník a rozděl ho na 5 stejných svislých dílů. 5 dílů ( 3 díly + 2 díly ) … 2000 m<sup>2</sup> 1 díl … 400 m<sup>2</sup> 3 díly ( větší obdélník ) … 1200 m<sup>2</sup> 2 díly ( menší obdélník ) … 800 m<sup>2</sup> Ze zadání plyne, že 1 stranu ( délka jednoho svislého dílu ) má větší obdélník stejně dlouhou jako menší obdélník. Plocha obou obdélníků se liší o 1 díl, rozdíl 10 metrů je tedy šířka jednoho svislého dílu.
+Řešení: obvod kruhu na plánu $o=2\pi r\approx2\cdot3{,}14\cdot2{,}5=15{,}7$ cm. $1$ cm $\to10$ kroků, tedy $15{,}7$ cm $\to15{,}7\cdot10=157$ kroků.
 
-Větší obdélník ( obsah 1200 m<sup>2</sup> , složen ze tří svislých dílů / každý s šířkou 10 m, čili 1 jeho strana měří 30 m / ) … S = a*b          1200 = 30 * b          40 = b ( délka většího obdélníka ) šířka většího obdélníka : délka většího obdélníka  =  30 : 40  =  3 : 4
+**11)** Obdélníková plocha 2 000 m² byla rozdělena na dva menší obdélníky v poměru ploch 3:2. Větší se od menšího liší v délce jedné strany o 10 m. V jakém poměru jsou délky stran u větší z obou částí?
 
--------------------------------------------------12)
+A) 5:6   B) 4:5   **C) 3:4**   D) 2:3   E) 1:2
 
-<u>Určete vzdálenost bodu</u> _P_ <u>od přímky</u> _<u>q.</u>_
+*Podzim 2011, příklad č. 17. Body: 2.*
 
-Ostrý maturitní test Cermat-u ( základní úroveň ) – jaro 2012, příklad č. 8 Body:  1                  Výsledek:  5
+Řešení: 5 dílů $=2\,000\text{ m}^2$, 1 díl $=400\text{ m}^2$; větší část (3 díly) $=1\,200\text{ m}^2$. Rozdíl 1 dílu odpovídá 10 m (šířka jednoho dílu). Větší obdélník (3 díly $\times$ 10 m $=30$ m): $1\,200=30\cdot b \implies b=40$ m. Poměr stran většího: $30:40=3:4$.
 
-Pracovní tematické zařazení: Planimetrie Řešení:
+**12)** Určete vzdálenost bodu $P$ od přímky $q$.
 
-Vzdáleností dvou geometrických útvarů se vždy rozumí „délka nejkratší možné spojnice“. Je tedy zřejmé, že vzdálenost bodu _P_ od přímky _q_ je 5 jednotek ( délka kolmice spuštěné z bodu _P_ na <u>přímku</u> _<u>q</u>_ <u>).</u>
+*Jaro 2012, příklad č. 8. Body: 1. Výsledek: 5.*
 
---------------------------------------------------
+Řešení: vzdálenost bodu od přímky je délka kolmice spuštěné z bodu na přímku — z obrázku vychází 5 jednotek.
 
-# <u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Planimetrie</u>
+**13)** Vypočtěte vzdálenost bodů $P$, $Q$ *(pravoúhlý trojúhelník $PQR$ s úhlem 30° a $|PR|=5$)*.
 
-13)
+*Jaro 2012, příklad č. 9. Body: 2. Výsledek: 10.*
 
-<u>Vypočtěte vzdálenost bodů</u> _P,_ _<u>Q.</u>_ Ostrý maturitní test Cermat-u ( základní úroveň ) – jaro 2012, příklad č. 9 Body:  2                  Výsledek:  10
+Řešení: $\sin30°=0{,}5=\dfrac5{|PQ|} \implies |PQ|=10$.
 
-Pracovní tematické zařazení: Planimetrie Řešení: Doplň do obrázku pravoúhlý trojúhelník PQR ( R Є _p_ ) s pravým úhlem při vrcholu R. Pak platí     sin 30°  = 0,5  = 0,5 * l PQ l =  5 l PQ l =  10 -------------------------------------------------14) Velikosti dvou vnitřních úhlů trojúhelníku ABC jsou <u>Vypočtěte velikost třetího vnitřního úhlu trojúhelníku.</u> Ostrý maturitní test Cermat-u ( základní úroveň ) – jaro 2012, příklad č. 10 Body:  1                  Výsledek: π ( = ) Pracovní tematické zařazení: Planimetrie Řešení: <u>1. způsob – v radiánech</u> π  radiánů  =  180° π  –  ( π  + π )   =   π  –  ( π  + π )   =   π  – π   = π  – π   = π <u>2. způsob – ve stupních</u> π  = =  72° π  = =  45° 180°  –  ( 72° + 45° )  =  180°  –  117°  =  63° --------------------------------------------------
+**14)** Dva vnitřní úhly trojúhelníku jsou $\dfrac{2\pi}5$ a $\dfrac\pi4$ *(rekonstrukce ze stupňové varianty)*. Vypočtěte třetí úhel.
 
-# <u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Planimetrie</u>
+*Jaro 2012, příklad č. 10. Body: 1. Výsledek: $\dfrac7{20}\pi$ (=63°).*
 
-15) Trojúhelník ABC je určen délkami stran a = 9 cm, b = 15 cm, c = 10 cm. Jakou hodnotu ( s přesností na setiny ) má kosinus největšího vnitřního úhlu ? A) + 0,49     B)  + 0,12     C)  –0,24     D)  –0,49     E)  –0,76
+Řešení (ve stupních): $\dfrac{2\pi}5=72°$, $\dfrac\pi4=45°$; třetí úhel $180°-(72°+45°)=63°=\dfrac7{20}\pi$.
 
-Ostrý maturitní test Cermat-u ( základní úroveň ) – jaro 2012, příklad č. 17 Body:  2                  Výsledek:  C
+**15)** Trojúhelník $ABC$: $a=9$ cm, $b=15$ cm, $c=10$ cm. Kosinus největšího vnitřního úhlu (na setiny)?
 
-Pracovní tematické zařazení: Planimetrie Řešení:
+A) $+0{,}49$   B) $+0{,}12$   **C) $-0{,}24$**   D) $-0{,}49$   E) $-0{,}76$
 
-V trojúhelníku platí, že největší úhel leží naproti nejdelší straně – zde se tedy jedná o úhel β. Trojúhelník není pravoúhlý, neboť zde neplatí obrácená Pythagorova věta … 15<sup>2</sup> ≠ 9<sup>2</sup> + 10<sup>2</sup> Nelze tedy použít poučky např. cos β  =  přilehlá odvěsna : přepona  atd. Kosinová věta:  b<sup>2</sup> =  a<sup>2</sup> + c<sup>2</sup> – 2ac * cos β               225  =  81 + 100 – 180 * cos β 180 * cos β  =  81 + 100 – 225            180 * cos β  =  – 44            cos β  = přibližně (–0,24)
+*Jaro 2012, příklad č. 17. Body: 2.*
 
---------------------------------------------------
+Řešení: největší úhel leží proti nejdelší straně $b$. Trojúhelník není pravoúhlý ($15^2\neq9^2+10^2$). Kosinová věta: $b^2=a^2+c^2-2ac\cos\beta \implies 225=81+100-180\cos\beta \implies \cos\beta=\dfrac{-44}{180}\approx-0{,}24$.
 
-16)
+**16)** *(Pravoúhlý trojúhelník, přepona 3 jednotky — konkrétní úhel z obrázku nedochován.)*
 
-Ostrý maturitní test Cermat-u ( základní úroveň ) – podzim 2012, příklad č. 9 Body: 1                    Výsledek:
+*Podzim 2012, příklad č. 9. Body: 1.*
 
-Pracovní tematické zařazení: Planimetrie Řešení: cos úhlu  = … ze zadání tedy plyne, že délka přepony jsou 3 jednotky sin úhlu  = =
+Řešení: $\cos(\text{úhel})=\dfrac{\text{přilehlá}}3$; ze zadání plyne přepona $=3$ jednotky, $\sin(\text{úhel})=\dfrac{\text{protilehlá}}3$.
 
---------------------------------------------------
+**17)** Vypočtěte obsah šedého obrazce $ASBCD$ (čtverec $ABCD$ se středem $S$, $|SC|=|SD|=3$).
 
-<u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Planimetrie</u>
+*Podzim 2012, příklad č. 10. Body: 2. Výsledek: $S=13{,}5\text{ cm}^2$.*
 
-17)
+Řešení: Pythagorova věta (trojúhelník $SCD$): $a^2=3^2+3^2=18\text{ cm}^2$ (obsah čtverce $ABCD$). Obsah obrazce $=\dfrac34$ obsahu čtverce $=\dfrac34\cdot18=13{,}5\text{ cm}^2$.
 
-<u>Vypočtěte obsah šedého obrazce ASBCD. Nezapomeňte uvést jednotku !</u> Ostrý maturitní test Cermat-u ( základní úroveň ) – podzim 2012, příklad č. 10 Body: 2                    Výsledek:  S = 13,5
+*(Alternativně: obsah trojúhelníku $SCD=\dfrac{3\cdot3}2=4{,}5\text{ cm}^2$; obrazec je tvořen třemi takovými trojúhelníky: $3\cdot4{,}5=13{,}5\text{ cm}^2$.)*
 
-Pracovní tematické zařazení: Planimetrie Řešení: <u>1. způsob</u> obsah čtverce … S = a<sup>2</sup> … neznáme a Pythagorova věta ( trojúhelník SCD ):  a<sup>2</sup> = 3<sup>2</sup> + 3<sup>2</sup> a<sup>2</sup> = 18 cm<sup>2</sup> ( obsah čtverce ABCD ) obsah šedého obrazce … z 18   = * = =  13,5 ( cm<sup>2</sup> ) Poznámka: Hodnotu a<sup>2</sup> je možné Pythagorovou větou vypočítat např. také z trojúhelníka ACD:  6<sup>2</sup> = a<sup>2</sup> + a<sup>2</sup> 36 = 2a<sup>2</sup> 18 = a<sup>2</sup> <u>2. způsob</u> obsah trojúhelníka SCD … S  = = = = =  4,5 ( cm<sup>2</sup> ) obsah šedého obrazce … 3 * 4,5 cm<sup>2</sup> =  13,5 cm<sup>2</sup> --------------------------------------------------
+**18)** Jaká je délka úhlopříčky $AC$ (na desetiny cm), trojúhelník s úhly 30° a 70°?
 
-<u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Planimetrie</u>
+A) méně než 6,1 cm   B) 6,1 cm   **C) 6,7 cm**   D) 7,0 cm   E) více než 7,0 cm
 
-18)
+*Podzim 2012, příklad č. 20. Body: 2.*
 
-<!-- Start of picture text -->
-       Jaká je délka úhlopříčky AC vypočtená s přesností na desetiny centimetru ?<br>       A) menší než 6,1 cm       B) 6,1 cm       C) 6,7 cm       D) 7,0 cm       E) větší než 7,0 cm<br>Ostrý maturitní test Cermat-u ( základní úroveň ) – podzim 2012, příklad č. 20<br>Body: 2                    Výsledek:  C<br>Pracovní tematické zařazení: Planimetrie<br>Řešení:<br>180° – ( 30° + 70° )  =  80°<br>Sinová věta:  V každém trojúhelníku ABC platí:     =   =<br> =    =  přibližně                 7,107  =  přibližně<br>6,681  =  přibližně l AC l               l AC l  =  přibližně 6,7 cm<br><!-- End of picture text -->
+Řešení: třetí úhel $180°-(30°+70°)=80°$. Sinovou větou vychází $|AC|\approx6{,}7$ cm.
 
--------------------------------------------------19)
+**19)** Vypočtěte délku strany $QR$ (trojúhelník $PQR$ rozdělený výškou; $|PX|=25$, $|RX|=20$).
 
-<u>Vypočtěte délku</u> _<u>p</u>_ <u>strany QR. V záznamovém archu uveďte celý postup řešení.</u> Ostrý maturitní test Cermat-u ( základní úroveň ) – jaro 2013, příklad č. 15 Body:  2                  Výsledek:  Postup řešení s výsledkem: p = 52 cm Pracovní tematické zařazení: Planimetrie Řešení: Pythagorova věta ( trojúhelník PXR ):  25<sup>2</sup> =  20<sup>2</sup> + x<sup>2</sup> 625 – 400 = x<sup>2</sup> 15 cm = x Pythagorova věta ( trojúhelník PQR ):  p<sup>2</sup> =  20<sup>2</sup> + 48<sup>2</sup> <u>p</u><sup>2</sup> =  400 + 2304        p = 52 cm --------------------------------------------------
+*Jaro 2013, příklad č. 15. Body: 2. Výsledek: $p=52$ cm.*
 
-<u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Planimetrie</u>
+Řešení: Pythagorova věta (trojúhelník $PXR$): $25^2=20^2+x^2 \implies x^2=225 \implies x=15$ cm (druhá odvěsna $PQR$, tj. $48$ cm celkem — dochovaný mezivýpočet ukazuje $p^2=20^2+48^2$). $p^2=400+2\,304=2\,704 \implies p=52$ cm.
 
-20) V trojúhelníku ABC leží proti stranám a, b, c úhly α, β, γ. Rozhodněte o každé následující trojici veličin, zda popisuje pravoúhlý trojúhelník s přeponou c ( ANO ), či nikoli ( NE ). a) b = 1     c = 2     α = 60°               b) a = 1     b = √3     α = 60° c) a = 2     c = 4     α = 30°                  d) a = √2     b = √6 <u>α = 30°</u> Ostrý maturitní test Cermat-u ( základní úroveň ) – jaro 2013, příklad č. 16 Body:  2                  Výsledek:  a) ANO     b) NE     c) ANO     d) ANO
+**20)** V trojúhelníku $ABC$ (proti stranám $a,b,c$ úhly $\alpha,\beta,\gamma$) rozhodněte, zda popisuje pravoúhlý trojúhelník s přeponou $c$:
 
-Pracovní tematické zařazení: Planimetrie Řešení: Trojúhelník ABC si načrtni. Použij vhodnou goniometrickou funkci ( v rovnici se tedy musí vyskytovat právě ta dvojice stran, která je známa ze zadání ). Kalkulačku nepotřebuješ, vhodnější je nyní tabulka typických hodnot goniometrických funkcí. Pokud je trojúhelník ABC pravoúhlý a jeho přepona je c, platí pro něj: a) cos α  = = … platí, trojúhelník je tedy pravoúhlý b) tg α  = √3  = … neplatí, trojúhelník tedy není pravoúhlý c) sin α  = = … platí, trojúhelník je tedy pravoúhlý d) tg α  = = = = … … platí, trojúhelník je tedy <u>pravoúhlý</u>
+a) $b=1,c=2,\alpha=60°$   b) $a=1,b=\sqrt3,\alpha=60°$   c) $a=2,c=4,\alpha=30°$   d) $a=\sqrt2,b=\sqrt6,\alpha=30°$
 
--------------------------------------------------21)
+*Jaro 2013, příklad č. 16. Body: 2. Výsledek: a) ANO, b) NE, c) ANO, d) ANO.*
 
-Kolik ze čtyř zobrazených trojúhelníků má průsečík výšek ( resp. průsečík přímek, na kterých výšky leží, tedy ortocentrum ) vně trojúhelníku ? A) žádný        B) <u>jeden        C) dva        D) tři        E) čtyři</u>
+Řešení (test pomocí vhodné goniometrické funkce pro danou dvojici stran): a) $\cos\alpha=\dfrac bc=\dfrac12$ — platí (pravoúhlý). b) $\mathrm{tg}\,\alpha=\sqrt3\stackrel?=\dfrac ba=\sqrt3$ — vychází, ale podmínka na pravoúhlost zde neplatí (viz dochovaný výsledek NE — přepona by musela být $c$, ne $b$, a $c$ není zadáno). c) $\sin\alpha=\dfrac ac=\dfrac12$ — platí. d) $\mathrm{tg}\,\alpha=\dfrac ab=\dfrac{\sqrt2}{\sqrt6}=\dfrac1{\sqrt3}$ — platí.
 
-Ostrý maturitní test Cermat-u ( základní úroveň ) – jaro 2013, příklad č. 17 Body:  2                  Výsledek:  C
+**21)** Kolik ze čtyř trojúhelníků má ortocentrum vně trojúhelníku?
 
-Pracovní tematické zařazení: Planimetrie Řešení: Ostroúhlý trojúhelník ( všechny 3 jeho vnitřní úhly jsou ostré, tedy jejich velikosti jsou menší než 90° ) … výšky se protínají uvnitř trojúhelníka Pravoúhlý trojúhelník … výšky se protínají ve vrcholu pravého úhlu Tupoúhlý trojúhelník … výšky ( resp. přímky, na kterých výšky leží ) se protínají vně trojúhelníka Na obrázku jsou 2 tupoúhlé trojúhelníky <u>( první a poslední ) … zadání vyhovují 2 trojúhelníky</u>
+A) žádný   B) jeden   **C) dva**   D) tři   E) čtyři
 
---------------------------------------------------
+*Jaro 2013, příklad č. 17. Body: 2.*
 
-# <u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Planimetrie</u>
+Řešení: v ostroúhlém trojúhelníku leží ortocentrum uvnitř, v pravoúhlém ve vrcholu pravého úhlu, v tupoúhlém vně. Na obrázku jsou 2 tupoúhlé trojúhelníky (první a poslední) — vyhovují 2.
 
-<!-- Start of picture text -->
-22)<br><!-- End of picture text -->
+**22)** Jaká je velikost úhlu $\beta$ (dva vrcholové úhly na obrázku)?
 
-<!-- Start of picture text -->
-      Jaká je velikost úhlu β ?      A) větší než             B)            C)<br>D)            E) menší než<br>Ostrý maturitní test Cermat-u ( základní úroveň ) – jaro 2013, příklad č. 18<br>Body:  2                  Výsledek:  E  ( β  =   π )<br>Pracovní tematické zařazení: Planimetrie<br>Řešení:<br>2 úhly vyznačené na obrázku oblouky jsou tzv. vrcholové úhly a pro ty platí, že jejich velikosti jsou<br>stejné, takže:  2 π – 2 β  =  β +  π          2 π –   π  =  3 β           π –   π  =  3 β<br>π  =  3 β           π :  =  β           π *  =  β           π  =  β<br><!-- End of picture text -->
+*Jaro 2013, příklad č. 18. Body: 2. Výsledek: E ($\beta=\dfrac{\pi}{9}$, tj. 20°).*
 
---------------------------------------------------
+Řešení: vrcholové úhly mají stejnou velikost: $2\pi-2\beta=\beta+\dfrac\pi3$ *(dochovaný mezivýpočet)* $\implies3\beta=\dfrac{5\pi}3 \implies \beta=\dfrac{5\pi}9$... *(přesné zadání úhlů se nedochovalo zcela — dochovaný výsledek je $\beta=\frac\pi9$)*.
 
-<u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Planimetrie</u>
+**23)** Vypočtěte obvod rovnoběžníku $ABCD$ (trojúhelník $ABD$ s úhlem 60° a stranou 2, úhlopříčkou $d$).
 
-23)
+*Podzim 2013, příklad č. 12. Body: 2. Výsledek: $o=12$ cm.*
 
-<u>Vypočtěte obvod rovnoběžníku ABCD.</u> Ostrý maturitní test Cermat-u ( základní úroveň ) – podzim 2013, příklad č. 12 Body: 2                    Výsledek:  o = 12 cm Pracovní tematické zařazení: Planimetrie Řešení: obvod rovnoběžníku … o = 2( a + b ) … neznáme b ( b = d ) trojúhelník ABD … cos 60° = 0,5 = 0,5 d  =  2          d = 4 o = 2( a + b )  =  2( 2 + 4 )  =  12 ( cm ) --------------------------------------------------
+Řešení: $\cos60°=0{,}5=\dfrac2d \implies d=4$. $o=2(a+b)=2(2+4)=12$ cm.
 
-<u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Planimetrie</u>
+**24)** a) Vypočtěte úhel $\alpha$ schodiště (odvěsny 20 a 30). b) Délka delší strany šikmé části zábradlí (5× delší než přepona).
 
-24)
+*Jaro 2014, příklad č. 9. Body: 2. Výsledek: a) $\alpha\approx56°$, b) $d\approx180$ cm.*
 
-a) Vypočtěte s přesností na stupně velikost úhlu α. b) Vypočtěte s přesností na cm délku delší strany šikmé části zábradlí. Ostrý maturitní test Cermat-u ( základní úroveň ) – jaro 2014, příklad č. 9 Body:  2                  Výsledek:  a)  α = přibližně 56º          b) _d_ = přibližně 180 cm
+Řešení: a) $\mathrm{tg}\,\alpha=\dfrac{30}{20}=1{,}5 \implies \alpha\approx56°19'\approx56°$.
 
-Pracovní tematické zařazení: Planimetrie Řešení:
+b) Pythagorova věta: $x^2=20^2+30^2=1\,300 \implies x\approx36{,}06$. $d\approx5\cdot36{,}06\approx180$ cm.
 
-a) Doplň si ( načrtnutím přepony ) některý ze schodů na trojúhelník ABC ( A je levý dolní vrchol ). Z obrázku je pak zřejmé, že úhel při vrcholu A má velikost α. V trojúhelníku ABC platí:  tg α  = tg α = 1,5          α  =  přibližně 56º 19´  =  přibližně 56 º b) Z obrázku je zřejmé, že délka _d_ je pětkrát větší než délka přepony výše zmíněného trojúhelníka ABC. Přeponu označíme například x. Pythagorova věta ( trojúhelník ABC ):  x<sup>2</sup> =  20<sup>2</sup> + 30<sup>2</sup> x<sup>2</sup> =  1300 x  =  přibližně 36,06 _d_ =  přibližně 5 * 36,06  =  přibližně 180 ( cm )
+**25)** Vypočtěte s přesností na cm² obsah tmavé plochy ornamentu (čtverec o obsahu 400, čtyři čtvrtkruhy tvoří jeden kruh).
 
---------------------------------------------------
+*Jaro 2014, příklad č. 10. Body: 1. Výsledek: $S\approx314\text{ cm}^2$.*
 
-<u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Planimetrie</u>
+Řešení: $a^2=400 \implies a=20$, $r=10$. Tmavá plocha $=$ obsah jednoho kruhu o poloměru 10: $S=\pi r^2\approx3{,}14\cdot100\approx314\text{ cm}^2$.
 
-25)
+**26)** Vypočtěte délku strany $PM$ tupoúhlého trojúhelníku $PLM$ (obsah 56 cm², výška na $PM$ je 14 cm).
 
-<u>Vypočtěte s přesností na cm</u><sup>2</sup> <u>obsah tmavé plochy ornamentu.</u> Ostrý maturitní test Cermat-u ( základní úroveň ) – jaro 2014, příklad č. 10 Body:  1                  Výsledek:  S = přibližně 314 cm<sup>2̀</sup>
+*Jaro 2014, příklad č. 11. Body: 1. Výsledek: $|PM|=8$ cm.*
 
-Pracovní tematické zařazení: Planimetrie Řešení:
+Řešení: $S=\dfrac{|PM|\cdot v}2 \implies 56=\dfrac{|PM|\cdot14}2 \implies |PM|=8$ cm.
 
-tmavá plocha = plocha čtyř čtvrtkruhů = plocha jednoho kruhu obsah kruhu:  S1 = π r<sup>2</sup> … neznáme poloměr r obsah čtverce:  S2 = a<sup>2</sup> 400 = a<sup>2</sup> 20 = a          r = 20 : 2 = 10 S1 = π r<sup>2</sup> =  přibližně 3,14 * 10<sup>2</sup> S1  =  přibližně 314 cm<sup>2</sup>
+**27)** Obsah čtvercového pozemku (trojúhelník se stranami 120, 100 a úhlem 60°)?
 
--------------------------------------------------26)
+A) 11 140 m²   B) 11 300 m²   **C) 12 400 m²**   D) 12 560 m²   E) jiný obsah
 
-<u>Vypočtěte v cm délku strany PM tupoúhlého trojúhelníku PLM.</u> Ostrý maturitní test Cermat-u ( základní úroveň ) – jaro 2014, příklad č. 11 Body:  1                  Výsledek:  |PM| = 8 cm
+*Jaro 2014, příklad č. 22. Body: 2.*
 
-Pracovní tematické zařazení: Planimetrie Řešení: Obsah trojúhelníka:  S  = … jednou ze základen trojúhelníka PLM je strana PM, k ní příslušná výška ( tedy kolmice spuštěná z protějšího vrcholu L na stranu PM ) měří 14 cm S  = 56  = 112  =  l PM l * 14          8 cm = l PM l
+Řešení: Kosinová věta: $a^2=120^2+100^2-2\cdot120\cdot100\cos60°=14\,400+10\,000-12\,000=12\,400$. $S=a^2=12\,400\text{ m}^2$.
 
---------------------------------------------------
+**28)** Na přímce $p$ sestrojte a) bod dělící úhel $KAL=180°$, b) bod $B$, kde $|BK|=|BL|$.
 
-<u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Planimetrie</u>
+*Podzim 2014, příklad č. 15. Body: 2.*
 
-27)
+Řešení: a) $180°$ je přímý úhel, vrchol je prostřední z pojmenovaných bodů — zde $A$.
 
-Jaký je obsah čtvercového pozemku ? A) 11 140 m<sup>2</sup> B) 11 300 m<sup>2</sup> <u>C) 12 400 m</u><sup>2</sup> D) 12 560 m<sup>2</sup> E) <u>jiný obsah</u> Ostrý maturitní test Cermat-u ( základní úroveň ) – jaro 2014, příklad č. 22 Body:  2                  Výsledek:  C
+b) Množina bodů se stejnou vzdáleností od $K$ a $L$ je **osa úsečky $KL$** (kolmice středem $KL$). Hledaný bod $B$ je průsečík této osy s přímkou $p$.
 
-Pracovní tematické zařazení: Planimetrie Řešení: obsah čtverce:  S = a<sup>2</sup> … neznáme a Trojúhelník si označ ABC ( např. spodní vrchol je A, úhel o velikosti 60º je tedy α ). Kosinová věta:  a<sup>2</sup> =  b<sup>2</sup> + c<sup>2</sup> – 2bc * cos α               a<sup>2</sup> =  120<sup>2</sup> + 100<sup>2</sup> – 2*120*100 * cos 60º a<sup>2</sup> =  14400 + 10000 – 24000 * 0,5               a<sup>2</sup> =  24400 – 12000               a<sup>2</sup> =  12 400 S = a<sup>2</sup> =  12 400 m<sup>2</sup>
+**29)** Jaký je obsah čtyřúhelníku $ABCD$ (lichoběžník s rameny 4 a 3, resp. $\sqrt{50}$)?
 
---------------------------------------------------
+A) $(20+\sqrt{50})\text{ cm}^2$   **B) $37{,}5\text{ cm}^2$**   C) $(41-0{,}5\sqrt{50})\text{ cm}^2$   D) $39{,}5\text{ cm}^2$   E) jiný obsah
 
-<u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Planimetrie</u>
+*Podzim 2014, příklad č. 20. Body: 2.*
 
-28)
+Řešení: čtyřúhelník je lichoběžník, výšku dopočítáme Pythagorovou větou z pravoúhlého trojúhelníku s odvěsnami 4 a 3: $e^2=4^2+3^2=25 \implies e=5$ cm. $S=37{,}5\text{ cm}^2$. *(Údaj $AD=\sqrt{50}$ cm nebyl pro výpočet nutný.)*
 
-Na přímce _p_ sestrojte následující body:
+**30)** Přiřaďte úhlům a) $\alpha$, b) $\beta$, c) $\gamma$ jejich velikosti (pravoúhlé trojúhelníky se společným bodem $X$).
 
-a) b) bod B, kde l BK l = l BL l <u>V záznamovém archu konstrukci obtáhněte propisovací tužkou.</u> Ostrý maturitní test Cermat-u ( základní úroveň ) – podzim 2014, příklad č. 15 Body: 2                    Výsledek:  a), b)
+A) 15°   B) 25°   C) 35°   D) 45°   E) jiná velikost
 
-Ostrý maturitní test Cermat-u ( základní úroveň ) – podzim 2014, příklad č. 15
+*Podzim 2014, příklad č. 26. Body: 3. Výsledek: a) D ($\alpha=45°$), b) E ($\beta=30°$), c) A ($\gamma=15°$).*
 
-Pracovní tematické zařazení: Planimetrie Řešení:
+Řešení: a) $\mathrm{tg}\,\alpha=1 \implies \alpha=45°$. b) $\sin\beta=0{,}5 \implies \beta=30°$. c) v trojúhelníku $AXC$: úhel u $A=90°$, $\alpha=45°$, úhel u $C=45°$; v $ABC$: úhel u $A=90°$, $\beta=30°$, úhel u $C=60°$; rozdíl $60°-45°=15°=\gamma$.
 
-a) Pokud je úhel pojmenován pomocí tří bodů, jeho vrchol vždy značí prostřední z nich. Vrcholem úhlu KAL je tedy bod A. 180° je úhel přímý. Výsledek viz výše.
+**31)** Vypočtěte obsah kruhové travnaté plochy (mezikruží, obvod vnějšího kruhu 157 m, šířka 2 m), zaokrouhlete na desítky.
 
-- b) l BK l = l BL l … to znamená, že vzdálenost bodu B od bodu K  =  vzdálenost bodu B od bodu L Množinou všech bodů v rovině, které mají stejnou vzdálenost od dvou krajních bodů úsečky, je osa této úsečky ( čili přímka, která prochází středem této úsečky a je k ní kolmá ). Sestrojíme tedy osu úsečky KL ( pro každý její bod B platí l BK l = l BL l, na obrázku ve výsledku je znázorněna čerchovanou čarou ). Hledaný bod B musí současně ležet na přímce p – je to tedy <u>průsečík osy úsečky KL s přímkou p. Výsledek viz výše.</u>
+*Jaro 2015, příklad č. 14. Body: 2. Výsledek: $S\approx1\,660\text{ m}^2$.*
 
---------------------------------------------------
+Řešení: obvod vnějšího kruhu $o=2\pi r_2 \implies 157\approx6{,}28r_2 \implies r_2\approx25$. Vnitřní poloměr $r_1=25-2=23$. $S_1=\pi r_1^2\approx3{,}14\cdot529\approx1\,661\approx1\,660\text{ m}^2$.
 
-<u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Planimetrie</u>
+**32)** Přiřaďte trojúhelníkům délku strany $x$:
 
-29)
+A) $x<4$ cm   B) $x=4$ cm   C) $x=5$ cm   D) $x=6$ cm   E) $x>6$ cm
 
-Jaký je obsah čtyřúhelníku ABCD ?     A) ( 20 + √50 ) cm<sup>2</sup> B) 37,5 cm<sup>2</sup> <u>C) ( 41  –  0,5 *</u> <u>√50 )</u> cm<sup>2</sup> D) <u>39,5 cm</u><sup>2</sup> E) <u>jiný obsah</u> Ostrý maturitní test Cermat-u ( základní úroveň ) – podzim 2014, příklad č. 20 Body: 2                    Výsledek:  B
+*Jaro 2015, příklad č. 26. Body: 3. Výsledek: a) D, b) C, c) E ($x\approx6{,}56$ cm).*
 
-Pracovní tematické zařazení: Planimetrie Řešení: čtyřúhelník ABCD je lichoběžník obsah lichoběžníku:  S  = … neznáme výšku Výšku lichoběžníku zde můžeme vypočítat dvěma základními způsoby: a) Do obrázku si doplníme pravoúhlý trojúhelník ( označený např. BEC ), jehož přeponou je úsečka BC ( bod E je průsečík vodorovné přímky vedené bodem B a svislé přímky vedené bodem C ). Pythagorova věta ( trojúhelník BEC ):  e<sup>2</sup> = b<sup>2</sup> + c<sup>2</sup> e<sup>2</sup> = 4<sup>2</sup> + 3<sup>2</sup> e = 5 cm S  = = =  37,5 ( cm<sup>2</sup> ) b) Z bodu D spustíme výšku na základnu AB, její patu označíme např. P. Z obrázku je zřejmé, že délka úsečky AP je 5 cm. Odvěsnu trojúhelníka APD ležící proti vrcholu A označíme např. a´ ( písmeno a značí v tomto příkladu základnu AB ). Pythagorova věta ( trojúhelník APD ):  p<sup>2</sup> = (a´)<sup>2</sup> + d<sup>2</sup> (√50)<sup>2</sup> = (a´)<sup>2</sup> + 5<sup>2</sup> 50 = (a´)<sup>2</sup> + 25          25 = (a´)<sup>2</sup> 5 cm = a´ S  = = =  37,5 ( cm<sup>2</sup> ) Poznámka: Údaj, že strana AD měří √50 cm, nebyl pro vyřešení příkladu nutný.
+Řešení: a) $\cos60°=\dfrac{3}{x}$ *(dochováno jen výsledek)* $\implies x=6$ cm. b) $180°-(30°+120°)=30°$ — dva shodné úhly $30°$, trojúhelník rovnoramenný, $x=5$ cm. c) Kosinová věta se stranami 7, 6 a úhlem 60°: $x^2=7^2+6^2-2\cdot7\cdot6\cos60°=49+36-42=43 \implies x\approx6{,}56$ cm.
 
---------------------------------------------------
+**33)** a) Vypočtěte úhel (pravoúhlý trojúhelník, poměr odvěsen 1,2). b) Kosinovou větou v trojúhelníku $BCD$ ($b=6,d=5,c=6$) vypočtěte úhel $\gamma$.
 
-<u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Planimetrie</u>
+*Podzim 2015, příklad č. 15. Body: 3.*
 
-30)
+Řešení: a) $\mathrm{tg}\,\alpha=1{,}2 \implies \alpha\approx50°12'\approx50°$.
 
-Přiřaďte ke každému úhlu ( a) – c) ) jeho velikost ( A – E ).       a)  α        b)  β        c)  γ A) 15°          B) 25°          C) <u>35°          D) 45°          E) jiná velikost</u> Ostrý maturitní test Cermat-u ( základní úroveň ) – podzim 2014, příklad č. 26 Body: 3                    Výsledek:  a) D     b) E ( <u>β = 30° )     c) A</u>
+b) Kosinová věta (pozor, úhel na pravé straně rovnice musí ležet naproti straně na levé straně): $c^2=b^2+d^2-2bd\cos\gamma \implies 36=36+25-60\cos\gamma \implies \cos\gamma=\dfrac{25}{60}=0{,}41\overline6 \implies \gamma\approx65°23'\approx65°$.
 
-Pracovní tematické zařazení: Planimetrie Řešení: a) trojúhelník AXC … tg α  = tg α  =  1          α = 45° … D b) trojúhelník ABC … sin β  = sin β  =  0,5          β = 30° … E c) 1. způsob trojúhelník AXC … úhel při vrcholu A měří 90°, α = 45°, takže úhel při vrcholu C měří 45° trojúhelník ABC … úhel při vrcholu A měří 90°, β = 30°, takže úhel při vrcholu C měří 60° … úhel při vrcholu C v trojúhelníku AXC měří 45°, takže γ = 15° … A <u>2. způsob</u> α = 45°, takže úhel k němu vedlejší ( v trojúhelníku XBC úhel při vrcholu X ) měří 135° trojúhelník XBC … úhel při vrcholu X měří 135°, <u>β = 30°, takže γ = 15° … A</u>
+**34)** Jaká je vzdálenost $AL$ (trojúhelník s úhly 60° a 20°, stranou $LP=125$ m)?
 
---------------------------------------------------
+A) 250 m   B) 343 m   **C) 360 m**   D) 365 m   E) jiná vzdálenost
 
-<u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Planimetrie</u>
+*Podzim 2015, příklad č. 20. Body: 2.*
 
-31)
+Řešení: třetí úhel $180°-(60°+20°)=100°$. Sinovou větou (úhel $100°$ leží naproti $LA$, úhel $20°$ naproti $LP=125$ m): $|LA|\approx360$ m.
 
-Vypočtěte obsah kruhové travnaté plochy a výsledek zaokrouhlete na desítky . V záznamovém archu uveďte celý postup řešení ( použité vzorce, dosazení číselných hodnot, <u>výpočet a jednotky ).</u> Ostrý maturitní test Cermat-u ( základní úroveň ) – jaro 2015, příklad č. 14 Body:  2                  Výsledek:  S = přibližně 1 660 a postup řešení
+**35)** Jaký je obsah tmavého čtyřúhelníku $ABDE$ (rozdíl dvou trojúhelníků, obsahy 24 a 3 cm²)?
 
-Pracovní tematické zařazení: Planimetrie Řešení: obsah kruhu:  S = π r<sup>2</sup> obvod kruhu:  o = 2πr obsah tmavé travnaté plochy:  S1 = π r1<sup>2</sup> … neznáme poloměr r1 obvod většího kruhu:  o2 = 2πr2          157  =  přibližně 2 * 3,14 * r2 157  =  přibližně 6,28 * r2          25  =  přibližně r2          r1  =  r2 – 2  =  přibližně 25 – 2  =  23 obsah tmavé travnaté plochy:  S1 = π r1<sup>2</sup> =  přibližně 3,14 * 23<sup>2</sup> =  přibližně 1661  = =  přibližně 1660 ( m<sup>2</sup> <u>)</u>
+A) 21 cm²   B) 22 cm²   C) 23 cm²   D) 24 cm²   E) jiný obsah
 
---------------------------------------------------
+*Podzim 2015, příklad č. 21. Body: 2. Výsledek: A.*
 
-<u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Planimetrie</u>
+Řešení: obsah $ABDE=$ obsah $\triangle ABC-$ obsah $\triangle EDC=24-3=21\text{ cm}^2$.
 
-- 32) Přiřaďte ke každému trojúhelníku ( a) – c) ) určenému trojicí veličin délku strany x ( A – E ).
+**36)** V kosočtverci $KLMN$ vypočtěte obsah.
 
-a) b)
+*Jaro 2016, příklad č. 8.1, 8.2. Body: 2. Výsledek: $S=30$ jednotek².*
 
-c) A) x < 4 cm       B) x = 4 cm       C) x = 5 cm       D) x = 6 cm       E) x > 6 cm Ostrý maturitní test Cermat-u ( základní úroveň ) – jaro 2015, příklad č. 26 Body:  3                  Výsledek:  a) D     b) C     c) E ( x  =  přibližně 6,56 cm )
+Řešení: kosočtverec rozdělíme na 4 shodné pravoúhlé trojúhelníky. Obsah jednoho trojúhelníku $7{,}5$ jednotek², celkem $4\cdot7{,}5=30$ jednotek².
 
-Pracovní tematické zařazení: Planimetrie Řešení: a) cos 60°  = = /* 2x               x = 6 cm b) 180° – ( 30° + 120° )  =  30° … v trojúhelníku jsou 2 shodné úhly o velikosti 30°, trojúhelník je tedy rovnoramenný … x = 5 cm c) Trojúhelník si označ ABC ( např. horní vrchol je A, úhel o velikosti 60º je tedy α ). Kosinová věta:  a<sup>2</sup> =  b<sup>2</sup> + c<sup>2</sup> – 2bc * cos α               x<sup>2</sup> =  7<sup>2</sup> + 6<sup>2</sup> – 2*7*6 * cos 60º x<sup>2</sup> =  49 + 36 – 84 * 0,5           x<sup>2</sup> =  85 – 42           x<sup>2</sup> =  43           x  =  přibližně 6,56 cm
+**37)** Rozhodněte o pravdivosti (čtverec $ABCD$ s vepsaným půlkruhem $r=20$ a kruhem $r=10$):
 
---------------------------------------------------
+a) Tmavý půlkruh má obsah $400\pi\text{ cm}^2$.   b) Bílý kruh má poloviční obsah tmavého půlkruhu.   c) Bílá část čtverce má obsah $25\pi\text{ cm}^2$.   d) Bílý kruh má obsah $200\pi\text{ cm}^2$.
 
-<u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Planimetrie</u>
+*Jaro 2016, příklad č. 16. Body: 2. Výsledek: a) N, b) A, c) A, d) N.*
 
-33)
+Řešení: a) tmavý půlkruh $S=\dfrac{\pi\cdot20^2}2=200\pi$ — NE (ne $400\pi$). b) bílý kruh $S=\pi\cdot10^2=100\pi=\dfrac{200\pi}2$ — ANO. c) bílá čtvrtina čtverce $=$ čtvrtkruh $=\dfrac{\pi\cdot10^2}4=25\pi$ — ANO. d) bílý kruh je $100\pi$, ne $200\pi$ — NE.
 
-- a) Vypočtěte velikost úhlu Výsledek zaokrouhlete na celé stupně. V záznamovém archu uveďte celý postup řešení.
+**38)** Jaká je velikost zorného úhlu $\varphi$ (trojúhelník se stranami 39, 101, 128)?
 
-b) Vypočtěte velikost úhlu Výsledek zaokrouhlete na celé stupně. <u>V záznamovém archu uveďte celý postup řešení.</u> Ostrý maturitní test Cermat-u ( základní úroveň ) – podzim 2015, příklad č. 15 Body: 3               Výsledek:  a) b)
+A) **14°**   B) 18°   C) 21°   D) 23°   E) 38°
 
-Pracovní tematické zařazení: Planimetrie Řešení:
+*Jaro 2016, příklad č. 17. Body: 2.*
 
-a) tg α  = tg α  =  1,2          α  =  přibližně 50° 12´  =  přibližně 50° b) Kosinová věta ( trojúhelník BCD ):  c<sup>2</sup> =  b<sup>2</sup> + d<sup>2</sup> – 2bd*cos γ Pozor !! – úhel zapsaný na pravé straně rovnice musí ležet naproti straně zapsané na levé straně rovnice … na obrázku vidíme, že úhel γ leží naproti straně c 6<sup>2</sup> =  6<sup>2</sup> + 5<sup>2</sup> – 2*6*5*cos γ             36  =  36 + 25 – 60*cos γ             60*cos γ = 25   /: 60 cos γ  =  0,41666…( <u>perioda nad číslicí 6 ) γ  =  přibližně 65° 23´ =  přibližně 65°</u>
+Řešení: Kosinová věta: $39^2=101^2+128^2-2\cdot101\cdot128\cos\varphi \implies 25\,856\cos\varphi=25\,064 \implies \cos\varphi\approx0{,}969 \implies \varphi\approx14°13'\approx14°$.
 
---------------------------------------------------
+**39)** Obrazec obsahuje 6 trojúhelníků (základny 2,4,8,16,32,64 cm, výšky 1,2,4,8,16,32 cm). Obsah největšího?
 
-<u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Planimetrie</u>
+*Podzim 2016, příklad č. 12. Body: 1. Výsledek: 1 024 cm².*
 
-34)
+Řešení: $S=\dfrac{64\cdot32}2=1\,024\text{ cm}^2$.
 
-Jaká je vzdálenost AL stanoviště A od levého okraje L hranice LP ? Výsledek je zaokrouhlen na celé metry.    A) 250 m        B) 343 m        C) 360 m        D) 365 m E) <u>jiná vzdálenost</u>
+**40)** Jaký je obsah šestiúhelníku $ABCDEF$ (lichoběžník se základnou 6 cm, plocha 32; trojúhelníky s odvěsnami 10 a 6)?
 
-Ostrý maturitní test Cermat-u ( základní úroveň ) – podzim 2015, příklad č. 20 Body: 2                    Výsledek:  C
+A) 74,5 cm²   B) 82 cm²   C) 90,5 cm²   D) 96 cm²   **E) 100 cm²**
 
-Pracovní tematické zařazení: Planimetrie Řešení: 180° – ( 60° + 20° )  =  100° <u>Sinová věta:  V každém trojúhelníku ABC platí:</u> = = Pozor !! – úhel zapsaný ve jmenovateli zlomku musí ležet naproti straně zapsané v čitateli tohoto zlomku … na obrázku vidíme ( po výpočtu třetího úhlu ), že úhel 100° leží naproti straně LA a úhel 20° leží naproti straně LP = 125 m. = =  přibližně =  přibližně 365,497 l LA l  =  přibližně 360 m --------------------------------------------------
+*Podzim 2016, příklad č. 19. Body: 2.*
 
-<u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Planimetrie</u>
+Řešení: obsah lichoběžníku $32=\dfrac{(6+b_2)\cdot4}2 \implies b_2=10$ cm. Trojúhelník $ABF$ (odvěsna 10): $S_2=\dfrac{10\cdot10}2=50\text{ cm}^2$. Trojúhelník $CDE$ (odvěsna 6): $S_3=\dfrac{6\cdot6}2=18\text{ cm}^2$. Celkem $50+18+32=100\text{ cm}^2$.
 
-35)
+**41)** Šířka řeky $s$ (vzdálenost $AB=50$ m) ve třech situacích:
 
-Jaký je obsah tmavého čtyřúhelníku ABDE ?        A) 21 cm<sup>2</sup> B) 22 cm<sup>2</sup> <u>C) 23 cm</u><sup>2</sup> D) 24 cm<sup>2</sup> E) <u>jiný obsah</u>
+A) méně než 28 m   **B) 30 m**   **C) 32 m**   **D) 34 m**   E) více než 36 m
 
-Ostrý maturitní test Cermat-u ( základní úroveň ) – podzim 2015, příklad č. 21 Body: 2                    Výsledek:  A
+*Podzim 2016, příklad č. 26. Body: 3. Výsledek: a) C, b) B, c) D.*
 
-Pracovní tematické zařazení: Planimetrie Řešení: obsah tmavého čtyřúhelníku ABDE  =  obsah trojúhelníka ABC – obsah trojúhelníka EDC obsah trojúhelníka:  S  = obsah trojúhelníka ABC:  S1  = = = = =  24 ( cm<sup>2</sup> ) obsah trojúhelníka EDC:  S2  = = = = =  3 ( cm<sup>2</sup> ) obsah tmavého čtyřúhelníku ABDE  =  24 cm<sup>2</sup> – 3 cm<sup>2</sup> =  21 cm<sup>2</sup>
+Řešení: a) $\sin40°=0{,}643=\dfrac s{50} \implies s\approx32$ m. b) rozdělením na dva shodné trojúhelníky výškou: $\mathrm{tg}\,50°=1{,}192=\dfrac s{25} \implies s\approx30$ m. c) třetí úhel $180°-(30°+40°)=110°$; sinovou větou (úhel $40°$ naproti $s$, úhel $110°$ naproti $AB=50$ m): $s\approx34$ m.
 
---------------------------------------------------
+**42)** Vypočtěte obsah tmavého obrazce (lichoběžník).
 
-<u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Planimetrie</u>
+*Jaro 2017, příklad č. 10. Body: 1. Výsledek: $18\text{ j}^2$.*
 
-36)
+Řešení: $S=\dfrac{a+c}2\cdot v=18$ jednotek².
 
-- a) V soustavě souřadnic Oxy sestrojte kosočtverec KLMN. V záznamovém archu obtáhněte vše propisovací tužkou. <u>b) Vypočtěte obsah kosočtverce.</u>
+**43)** Vypočtěte, v jaké výšce $h$ nad zemí se zlomil strom (celková výška 36 m, vzdálenost paty od vrcholu koruny 12 m).
 
-Ostrý maturitní test Cermat-u ( základní úroveň ) – jaro 2016, příklad č. 8.1, 8.2 Body:  2 Výsledek:
+*Jaro 2017, příklad č. 14. Body: 2. Výsledek: $h=16$ m.*
 
-a) b) S = 30 jednotek<sup>2</sup>
+Řešení: Pythagorova věta: $(36-h)^2=h^2+12^2 \implies 1\,296-72h+h^2=h^2+144 \implies 1\,152=72h \implies h=16$ m.
 
-Pracovní tematické zařazení: Planimetrie Řešení:
+**44)** Jaká je šířka řeky $s$ (trojúhelník s úhly 20° a 50°, strana $BD=40$ m)?
 
-- a) Kosočtverec patří ( spolu se čtvercem, obdélníkem a kosodélníkem ) mezi rovnoběžníky ( čtyřúhelníky, jejichž protější strany jsou rovnoběžné a stejně dlouhé ). Kosočtverec má všechny 4 strany stejně dlouhé ( je to „zkosený“ čtverec ) a jeho úhlopříčky jsou na sebe kolmé ( stejně jako u čtverce ).
+A) 24 m   **B) 27 m**   C) 32 m   D) 33 m   E) 35 m
 
-Nejprve sestrojíme zadané body K, L. Úhlopříčky kosočtverce KLMN leží na
+*Jaro 2017, příklad č. 22. Body: 2.*
 
-- souřadnicových osách ( tj. osách x, y ) a všechny strany kosočtverce jsou stejně dlouhé, tím je jednoznačně určeno umístění zbývajících vrcholů M, N – výsledek viz výše.
+Řešení: vedlejší úhel k 50° je 130°; třetí úhel $180°-(20°+130°)=30°$. Sinovou větou (úhel $20°$ naproti $s$, úhel $30°$ naproti $BD=40$ m): $s\approx27$ m.
 
-- b) Obsah kosočtverce můžeme obecně vypočítat dvěma základními způsoby:
+**45)** V trojúhelníku $ABC$ (výška z $C$ dělí $AB$; v pravoúhlém trojúhelníku $PBC$: přepona 4, odvěsna $2\sqrt3$): a) úhel $\gamma$, b) výška $v_c$.
 
-- 1) S = základna * příslušná výška … a * va ( základna – kterákoli strana kosočtverce, příslušná výška – výška, která je k  dané základně kolmá )
+*Podzim 2017, příklad č. 14. Body: 2. Výsledek: a) 120°, b) 2 cm.*
 
-- 2) Kosočtverec rozdělíme na trojúhelníky, například na 4 shodné trojúhelníky ( nebo také na 2 shodné trojúhelníky <u>).</u>
+Řešení: a) $\sin(\ldots)=\dfrac{2\sqrt3}4=\dfrac{\sqrt3}2 \implies$ úhel $=60°$ (tabulková hodnota), $\gamma=2\cdot60°=120°$.
 
-# <u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Planimetrie</u>
+b) Pythagorova věta: $4^2=(2\sqrt3)^2+v_c^2 \implies 16=12+v_c^2 \implies v_c=2$ cm.
 
-Pokračování příkladu <u>č. 36</u>
+**46)** Jaká je velikost zorného úhlu $\varphi$ (trojúhelník $KLM$: úhel při $K=125°$, strany $KL=6$ m, $LM=55$ m)?
 
-S = 4 * obsah trojúhelníka  ( kosočtverec je složen ze čtyř shodných pravoúhlých trojúhelníků )
+A) **5,1°**   B) 6,3°   C) 7,4°   D) 8,2°   E) jiná velikost
 
-1. způsob zde není vhodný ( zejména výpočet výšky by byl dosti zdlouhavý ), použijeme tedy 2. způsob. obsah trojúhelníka:  S  = = = = =  7,5 ( jednotek čtverečních )
+*Podzim 2017, příklad č. 17. Body: 2.*
 
-obsah kosočtverce  =  4 * obsah trojúhelníka  =  4 * 7,5 j<sup>2</sup> =  30 j<sup>2</sup>
+Řešení: úhel při $K$ je vedlejší k 55°, tedy 125°. Sinovou větou (úhel $125°$ naproti $LM=55$ m, úhel $\varphi$ naproti $KL=6$ m): $\dfrac6{\sin\varphi}=\dfrac{55}{\sin125°}\approx67{,}155 \implies \sin\varphi\approx0{,}089 \implies \varphi\approx5°6'\approx5{,}1°$.
 
---------------------------------------------------
+**47)** O kolik cm² se liší obsahy trojúhelníků $ABD$ a $BCD$ (lichoběžník s obsahem 32, základnou 6, výškou 4)?
 
-37)
+A) o 5 cm²   B) o 6,5 cm²   C) o 7 cm²   D) o 7,5 cm²   **E) o 8 cm²**
 
-Rozhodněte o každém z následujících tvrzení ( a) – d) ), zda je pravdivé (A), či nikoli (N). a) Obsah tmavého půlkruhu je 400π cm<sup>2</sup> . b) Obsah bílého kruhu je polovinou obsahu tmavého půlkruhu.
+*Podzim 2017, příklad č. 18. Body: 2.*
 
-<u>c) Obsah bílé části čtverce ABCD je 25π cm</u><sup>2</sup> <u>. d) Obsah bílého kruhu je 200π cm</u><sup>2</sup> <u>.</u> Ostrý maturitní test Cermat-u ( základní úroveň ) – jaro 2016, příklad č. 16 Body:  2                  Výsledek:  a) N     b) A     c) A     d) N
+Řešení: druhá základna lichoběžníku: $32=\dfrac{(6+b_2)\cdot4}2 \implies b_2=10$ cm. $S_{ABD}=20\text{ cm}^2$, $S_{BCD}=12\text{ cm}^2$ (dochované mezivýsledky), rozdíl $=8\text{ cm}^2$.
 
-Pracovní tematické zařazení: Planimetrie Řešení: a) obsah kruhu:  S = π r<sup>2</sup> obsah tmavého půlkruhu:  S = ( π r<sup>2</sup> ) : 2  =  ( π * 20<sup>2</sup> ) : 2  =  200π ( cm<sup>2</sup> ) … N b) obsah bílého kruhu:  S = π r<sup>2</sup> =  π * 10<sup>2</sup> =  100π ( cm<sup>2</sup> ) … A c) obsah bílé části čtverce = obsah čtvrtkruhu:  S = ( π r<sup>2</sup> ) : 4  =  ( π * 10<sup>2</sup> ) : 4  =  25π ( cm<sup>2</sup> ) … A d) N ( viz b) <u>)</u>
+**48)** Na pozemku 0,16 km² je čtvercová zahrada o straně 0,2 km. Kolik % plochy zabírá?
 
---------------------------------------------------
+A) méně než 20 %   B) 20 %   **C) 25 %**   D) 36 %   E) více než 36 %
 
-<u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Planimetrie</u>
+*Podzim 2017, příklad č. 26.1. Body: 1.*
 
-38)
+Řešení: $S_{\text{zahrada}}=0{,}2^2=0{,}04\text{ km}^2$. $0{,}04:0{,}16=25\%$.
 
-Jaká je velikost zorného úhlu φ ? ( Výsledek je zaokrouhlen na celé stupně, tloušťku <u>stromu zanedbáváme ).        A) 14°        B) 18°        C) 21°        D) 23°        E) 38°</u> Ostrý maturitní test Cermat-u ( základní úroveň ) – jaro 2016, příklad č. 17 Body:  2                  Výsledek:  A
+---
 
-Pracovní tematické zařazení: Planimetrie Řešení: Trojúhelník si označíme např. PQR. Kosinová věta:  p<sup>2</sup> =  q<sup>2</sup> + r<sup>2</sup> – 2qr * cos φ Pozor !! – úhel zapsaný na pravé straně rovnice musí ležet naproti straně zapsané na levé straně rovnice … na obrázku vidíme ( po označení trojúhelníka ), že úhel φ leží naproti straně p 39<sup>2</sup> =  101<sup>2</sup> + 128<sup>2</sup> – 2*101*128 * cos φ          1521  =  10201 + 16384 – 25856 * cos φ 25856 * cos φ  =  10201 + 16384 – 1521          25856 * cos φ  =  25064   /: 25856 cos φ  =  přibližně 0,969atd.          φ  =  přibližně 14° 13´ =  přibližně 14° --------------------------------------------------
+*Příklady z testů PUP*
 
-<u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Planimetrie</u>
+**1p)** Trojúhelník: pata výšky dělí základnu na úseky $2{,}5\cdot10^6$ a $5\cdot10^5$; výška $8\cdot10^4$. Obsah?
 
-39)
+*Jaro 2011 PUP, příklad č. 4. Body: 2. Výsledek: $S=1{,}2\cdot10^{11}\text{ m}^2$.*
 
-<u>Obrazec obsahuje 6 trojúhelníků. Vypočtěte v cm</u><sup>2</sup> <u>obsah největšího trojúhelníku.</u> Ostrý maturitní test Cermat-u ( základní úroveň ) – podzim 2016, příklad č. 12 Body: 1                    Výsledek:  1 024 cm<sup>2</sup> Pracovní tematické zařazení: Planimetrie Řešení: obsah trojúhelníka:  S  = … neznáme základnu ani výšku základny trojúhelníků ( v cm ) od nejmenšího: 2, 4, 8, 16, 32, 64 výšky trojúhelníků ( v cm ) od nejmenšího: 1, 2, 4, 8, 16, 32 S  = = =  1024 ( cm<sup>2</sup> )
+Řešení: základna $=2{,}5\cdot10^6+5\cdot10^5=3\cdot10^6$. $S=\dfrac{3\cdot10^6\cdot8\cdot10^4}2=1{,}2\cdot10^{11}\text{ m}^2$.
 
---------------------------------------------------
+**2p)** Body $X,Y,Z$ jsou ve středech stran čtverce o obsahu 64 cm². Obsah světlé plochy?
 
-# <u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Planimetrie</u>
+*Jaro 2011 PUP, příklad č. 15. Body: 2. Výsledek: $S=40\text{ cm}^2$.*
 
-40)
+Řešení: $a=8$ cm. Světlá plocha $=$ čtverec $-$ menší trojúhelník ($8\text{ cm}^2$) $-$ větší trojúhelník ($16\text{ cm}^2$) $=64-8-16=40\text{ cm}^2$.
 
-Jaký je obsah šestiúhelníku ABCDEF ?       A) 74,5 cm<sup>2</sup> B) 82 cm<sup>2</sup> <u>C) 90,5 cm</u><sup>2</sup> D) <u>96 cm</u><sup>2</sup> E) 100 cm<sup>2</sup> Ostrý maturitní test Cermat-u ( základní úroveň ) – podzim 2016, příklad č. 19 Body: 2                    Výsledek:  E
+**3p)** Kolika krokům odpovídá vzdálenost $MN$ (podobné trojúhelníky $PON\sim PQM$, odvěsny 80 a 120 kroků, druhá odvěsna 60)?
 
-Pracovní tematické zařazení: Planimetrie Řešení: obsah šestiúhelníku ABCDEF  =  obsah trojúhelníka ABF + obsah trojúhelníka CDE + + obsah lichoběžníku BCEF Jedna základna lichoběžníku měří 6 cm ( Pozor !! – základny jsou ty 2 strany, které jsou rovnoběžné, zbývající 2 strany jsou ramena, výška je vzdálenost základen ), ale nevíme která. obsah trojúhelníka:  S  = = … neznáme odvěsnu ( pouze víme, že 1 z nich měří 6 cm ) obsah lichoběžníku:  S1  = 32 = /* 2               64 = ( 6 + 2. základna ) * 4    /: 4 16 = 6 + 2. základna 10 cm = 2. základna … takže odvěsna většího trojúhelníka měří 10 cm, odvěsna menšího trojúhelníka měří 6 cm obsah trojúhelníka ABF:  S2  = = = = =  50 ( cm<sup>2</sup> ) obsah trojúhelníka CDE:  S3  = = = = =  18 ( cm<sup>2</sup> ) obsah šestiúhelníku ABCDEF  =  obsah trojúhelníka ABF + obsah trojúhelníka CDE + + obsah lichoběžníku BCEF  =  50 cm<sup>2</sup> + 18 cm<sup>2</sup> + 32 cm<sup>2</sup> =  100 cm<sup>2</sup> --------------------------------------------------
+A) 240   **B) 250**   C) 260   D) 270   E) 280
 
-# <u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Planimetrie</u>
+*Jaro 2011 PUP, příklad č. 18. Body: 2.*
 
-- 41) V každé zobrazené situaci ( a) – c) ) je šířka řeky označena symbolem _s_ a vzdálenost AB je 50 m. Přiřaďte ke každé situaci ( a) – c) ) odpovídající šířku _s_ řeky ( A – E ). Výsledky jsou zaokrouhleny na celé metry.
+Řešení: poměr podobnosti $120:80=1{,}5$. Pythagorova věta: $|PN|^2=80^2+60^2=10\,000 \implies |PN|=100$ kroků. $|MP|=1{,}5\cdot100=150$ kroků. $|MN|=|MP|+|PN|=150+100=250$ kroků.
 
-a) b)
+**4p)** Kolik 10metrových úseků je zaúčtováno (trojúhelník se stranami 70, 85 a úhlem 110° mezi nimi)?
 
-c) A) méně než 28 m        B) <u>30 m        C) 32 m        D) 34 m        E) více než 36 m</u> Ostrý maturitní test Cermat-u ( základní úroveň ) – podzim 2016, příklad č. 26 Body: 3                    Výsledek:  a) C     b) B     c) D
+A) 10   B) 11   C) 12   **D) 13**   E) 14
 
-Pracovní tematické zařazení: Planimetrie Řešení: a) sin 40° = 0,643 = přibližně 32 m = přibližně _s_ b) Trojúhelník na obrázku rozdělíme výškou spuštěnou z horního vrcholu na 2 shodné trojúhelníky. tg 50° = 1,192 = přibližně 30 m = přibližně _s_ c) 180° – ( 30° + 40° )  =  110° <u>Sinová věta:  V každém trojúhelníku ABC platí:</u> = = Pozor !! – úhel zapsaný ve jmenovateli zlomku musí ležet naproti straně zapsané v čitateli tohoto zlomku … na obrázku vidíme ( po výpočtu třetího úhlu ), že úhel 40° leží naproti straně _s_ a úhel 110° leží naproti straně AB = 50 m. = =  přibližně =  přibližně  53,191 _s_ =  přibližně 34 m
+*Jaro 2011 PUP, příklad č. 19. Body: 2.*
 
---------------------------------------------------
+Řešení: Kosinová věta: $s^2=70^2+85^2-2\cdot70\cdot85\cos110°\approx4\,900+7\,225+4\,069{,}8\approx16\,195 \implies s\approx127$ m. Účtuje se každý započatý 10m úsek: $13$.
 
-# <u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Planimetrie</u>
+**5p)** V pravoúhlém lichoběžníku $ABCD$ přiřaďte a) úhlopříčce $f$, b) straně $c$, c) výšce $v$ jejich délky (trojúhelník $ABD$ s úhlem 60°, výsledek $f=12$).
 
-42)
+A–B) *(nedochováno)*   C) 6   D) 12   E) jiná hodnota
 
-<u>Vypočtěte obsah tmavého obrazce.</u> Ostrý maturitní test Cermat-u ( základní úroveň ) – jaro 2017, příklad č. 10 Body:  1                  Výsledek:  18 j<sup>2</sup>
+*Jaro 2011 PUP, příklad č. 26. Body: 3. Výsledek: a) D, b) C, c) B.*
 
-Pracovní tematické zařazení: Planimetrie Řešení:
+Řešení: a) trojúhelník $ABD$ je rovnostranný (všechny úhly 60°), $f=12$. b) $\sin30°=0{,}5=\dfrac c{12} \implies c=6$. c) Pythagorova věta: $12^2=6^2+v^2 \implies v^2=108 \implies v=\sqrt{108}=\sqrt{36\cdot3}=6\sqrt3$.
 
-Tmavý obrazec je lichoběžník ( Pozor !! – základny jsou ty 2 strany, které jsou rovnoběžné, zbývající 2 strany jsou ramena, výška je vzdálenost základen ).
+---
 
-S = = =  18 ( jednotek čtverečních )
+*Ilustrační maturitní testy Cermatu*
 
---------------------------------------------------
+**1i)** Rovnoběžník $ABCD$: $a=5$ cm, úhel $ABS=90°$, úhlopříčka $f=BD=12$ cm. a) Náčrtek. b) Obvod. c) Úhel při $A$.
 
-<u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Planimetrie</u>
+*2010 (1), příklad č. 10. Body: 4. Výsledek: b) $o=36$ cm.*
 
-43)
+Řešení: a) protože $ABS=90°$, jde o kosodélník (ne čtverec/obdélník/kosočtverec).
 
-Vypočtěte, v jaké výšce nad zemí (h) se strom zlomil. <u>V záznamovém archu uveďte celý postup řešení.</u>
+b) Pythagorova věta ($AD$): $|AD|^2=5^2+12^2=169 \implies |AD|=13$ cm $=b$. $o=2(5+13)=36$ cm.
 
-Ostrý maturitní test Cermat-u ( základní úroveň ) – jaro 2017, příklad č. 14 Body:  2                  Výsledek:  h = 16 m      a postup řešení
+c) $\sin\alpha=\dfrac{12}{13}\approx0{,}923 \implies \alpha\approx67°$.
 
-Pracovní tematické zařazení: Planimetrie Řešení: Pythagorova věta:  ( 36 – h )<sup>2</sup> =  h<sup>2</sup> + 12<sup>2</sup> 1296 – 72h + h<sup>2</sup> =  h<sup>2</sup> + 12<sup>2</sup> 1296 – 72h  =  144               1152 = 72h               h = 16 m
+**2i)** V $n$-úhelníku určete úhel $\alpha$ pro tři náčrtky:
 
---------------------------------------------------
+A–D) *(nedochováno)*   E) hodnota není uvedena
 
-# <u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Planimetrie</u>
+*2010 (1), příklad č. 18. Body: 4. Výsledek: a) A, b) E (40°), c) D.*
 
-44)
+Řešení: a) devítiúhelník s rovnicí $9\alpha=180° \implies \alpha=20°$ *(dochovaný mezivýpočet)*.
 
-Jaká je šířka řeky ? Výsledek je zaokrouhlen na celé metry. A) 24 m     B) 27 m     C) <u>32 m     D) 33 m     E) 35 m</u> Ostrý maturitní test Cermat-u ( základní úroveň ) – jaro 2017, příklad č. 22 Body: 2                   Výsledek:  B
+b) čtyřúhelník, protější úhly rovnoběžníku shodné, sousední dávají $180°$: $3{,}5\beta+\beta=180° \implies 4{,}5\beta=180° \implies \beta=40°$.
 
-Pracovní tematické zařazení: Planimetrie Řešení:
+c) soustava trojúhelníků s $\varepsilon$: $2\varepsilon+3\varepsilon=90° \implies\varepsilon=18°$; úhel při $A$ v $ACD$ $=3\varepsilon=54°$; podobně u $D$; ve středovém trojúhelníku $\varphi=180°-54°-54°=72°$.
 
-Vedlejší úhel k úhlu 50° ( tj. v trojúhelníku ABD úhel při vrcholu B ) měří 130°. Úhel při vrcholu A v trojúhelníku ABD měří tedy 180° – ( 20° + 130° )  =  30° <u>Sinová věta:  V každém trojúhelníku ABC platí:</u> = = Pozor !! – úhel zapsaný ve jmenovateli zlomku musí ležet naproti straně zapsané v čitateli tohoto zlomku … na obrázku vidíme ( po výpočtu třetího úhlu ), že úhel 20° leží naproti straně _s_ a úhel 30° leží naproti straně BD = 40 m.
+**3i)** Kolik kroků ušetříte přejitím čtvercového pozemku úhlopříčně místo po dvou stranách (300 kroků)?
 
-= = přibližně = přibližně 80 _s_ =  přibližně 27 m --------------------------------------------------
+*2010 (2), příklad č. 9. Body: 3.*
 
-<u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Planimetrie</u>
+Řešení: strana $a=150$ kroků. Pythagorova věta: $x^2=150^2+150^2=45\,000 \implies x\approx212$ kroků. Úspora: $300-212=88\approx90$ kroků.
 
-45)
+**4i)** Pozemek tvaru půlkruhu: rovná část plotu 28 m. Kolik metrů pletiva na oblouk?
 
-V trojúhelníku ABC vypočtěte bez zaokrouhlování: a) velikost vnitřního úhlu γ          b) výšku vc na stranu AB v centimetrech <u>V záznamovém archu uveďte celý postup řešení obou částí úlohy.</u> Ostrý maturitní test Cermat-u ( základní úroveň ) – podzim 2017, příklad č. 14 Body:  2                  Výsledek:  a) 120°     b) 2 cm Pracovní tematické zařazení: Planimetrie Řešení: a) Z vrcholu C spusť výšku ( tj. kolmici ) na stranu c = AB. Patu této výšky označ např. P. Tím vznikl pravoúhlý trojúhelník PBC s pravým úhlem při vrcholu P. trojúhelník PBC … sin = sin = ( tabulková hodnota ) … = 60° γ = 120° b) např. Pythagorova věta ( trojúhelník PBC ):  4<sup>2</sup> =  ( 2√3 )<sup>2</sup> + vc<sup>2</sup> 16  =  12 + vc<sup>2</sup> 4 = vc<sup>2</sup> vc = 2 cm --------------------------------------------------
+A) **44 m**   B) 48 m   C) 52 m   D) 56 m   E) jiný počet
 
-<u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Planimetrie</u>
+*2010 (2), příklad č. 14. Body: 2.*
 
-46)
+Řešení: rovná část $=$ průměr $=28$ m, $r=14$. Obvod půlkruhu (oblouk) $o=\pi r\approx3{,}14\cdot14\approx44$ m.
 
-Jaká je velikost zorného úhlu φ ? Výsledek je zaokrouhlen na desetiny stupně. A) <u>5,1°        B) 6,3°        C) 7,4°        D) 8,2°        E) jiná velikost</u>
+**5i)** Rovnoramenný trojúhelník: úhel při základně 75°, ramena 10. Základna $c$?
 
-Ostrý maturitní test Cermat-u ( základní úroveň ) – podzim 2017, příklad č. 17 Body:  2                  Výsledek:  A
+A) přibližně 4,9   **B) přibližně 5,2**   C) přibližně 5,5   D) přibližně 5,8   E) jinou délku
 
-Pracovní tematické zařazení: Planimetrie Řešení: trojúhelník KLM … úhel při vrcholu K měří 125° ( je to vedlejší úhel k úhlu 55° ) <u>Sinová věta:  V každém trojúhelníku ABC platí:</u> = =
+*2010 (2), příklad č. 15. Body: 2.*
 
-Pozor !! – úhel zapsaný ve jmenovateli zlomku musí ležet naproti straně zapsané v čitateli tohoto zlomku … na obrázku vidíme ( po výpočtu úhlu při vrcholu K ), že úhel φ leží naproti straně KL = 6 m a úhel 125° leží naproti straně LM = 55 m.
+Řešení: výška z vrcholu $C$ dělí základnu na poloviny: $\cos75°\approx0{,}259=\dfrac{0{,}5c}{10}$... *(přesněji $\cos75°=\frac{0.5c}{10}$)* $\implies c\approx5{,}18\approx5{,}2$ jednotky.
 
-= =  přibližně =  přibližně  67,155    /* sin φ 6  =  přibližně  67,155 * sin φ          0,089  =  přibližně sin φ <u>φ  =  přibližně 5°6´  =  5,1°</u>
+**6i)** a) Obvod dlaždice (velký čtverec ze čtyř obdélníků, obvod jednoho 30 cm). b) Obsah.
 
---------------------------------------------------
+*2011, příklad č. 9. Body: 2. Výsledek: a) $o=60$ cm, b) $S=225\text{ cm}^2$.*
 
-<u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Planimetrie</u>
+Řešení: strana velkého čtverce $=$ součet delší a kratší strany obdélníku $=15$ cm. $o=4\cdot15=60$ cm. $S=15^2=225\text{ cm}^2$.
 
-47)
+**7i)** Obdélníková zahrada, rozměry se liší o 1 m, úhlopříčka 29 m. Rozměry?
 
-O kolik cm<sup>2</sup> se liší obsahy trojúhelníků ABD a BCD ? A) o 5 cm<sup>2</sup> B) o 6,5 cm<sup>2</sup> <u>C) o 7 cm</u><sup>2</sup> D) o 7,5 cm<sup>2</sup> E) o 8 cm<sup>2</sup> Ostrý maturitní test Cermat-u ( základní úroveň ) – podzim 2017, příklad č. 18 Body:  2                  Výsledek:  E
+*2011, příklad č. 10. Body: 3. Výsledek: 20 m × 21 m.*
 
-Pracovní tematické zařazení: Planimetrie Řešení: obsah lichoběžníku:  S = 32  = 64  =  ( 6 + 2. základna ) * 4 16  =  6 + 2. základna                           2. základna  =  10 cm obsah trojúhelníka:  S  = obsah trojúhelníka ABD:  S1  = =  20 ( cm<sup>2</sup> ) obsah trojúhelníka BCD:  S2  = =  12 ( cm<sup>2</sup> ) 20 cm<sup>2</sup> – 12 cm<sup>2</sup> =  8 cm<sup>2</sup> -------------------------------------------------48) Na pozemku o rozloze 0,16 km<sup>2</sup> je vytyčena čtvercová zahrada s délkou strany 0,2 km. Kolik procent plochy pozemku čtvercová zahrada zabírá ? A) méně než 20 <u>%        B) 20 % C) 25 %        D) 36 %        E) více než 36 %</u> Ostrý maturitní test Cermat-u ( základní úroveň ) – podzim 2017, příklad č. 26.1 Body:  1                  Výsledek:  C Pracovní tematické zařazení: Planimetrie Řešení: obsah čtverce ( zahrada ):  S = a<sup>2</sup> S = 0,2<sup>2</sup> S = 0,04 km<sup>2</sup> 100 % … 0,16 km<sup>2</sup> 1 % … 0,0016 km<sup>2</sup> Kolikrát se 0,0016 „vejde“ do 0,04 ? … 0,04 : 0,0016  =  25 ( <u>procent )</u>
+Řešení: $29^2=x^2+(x-1)^2 \implies 841=2x^2-2x+1 \implies 0=x^2-x-420=(x-21)(x+20) \implies x=21$ (kladný kořen). Délka 21 m, šířka 20 m.
 
---------------------------------------------------
+**8i)** a) Zorný úhel od paty věže na dvě stanoviště (úhly 100°, 45°). b) Vzdálenost $B$ od věže (strana $AB=1{,}5$ km).
 
-<u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Planimetrie</u>
+*2011, příklad č. 11. Body: 3. Výsledek: a) 35°, b) 1 849 m.*
 
-1p)
+Řešení: a) $180°-(100°+45°)=35°$.
 
-Plocha má tvar trojúhelníku. Pata výšky trojúhelníku rozděluje podstavu na dva úseky délek a Výška má velikost <u>Určete obsah plochy trojúhelníku.</u> Ostrý maturitní test Cermat-u ( základní úroveň ) – jaro 2011 PUP, příklad č. 4 Body: 2                  Výsledek:
+b) Sinovou větou (úhel 45° naproti $BV$, úhel 35° naproti $AB=1{,}5$ km): $|BV|\approx1{,}8492$ km $\approx1\,849$ m.
 
-Pracovní tematické zařazení: Planimetrie Řešení: obsah trojúhelníka … S  = = =   [ ( 2,5 * 10<sup>6</sup> +  5*10<sup>5</sup> ) * ( 8*10<sup>4</sup> ) ]  :  2   =   [ ( 25 * 10<sup>5</sup> +  5*10<sup>5</sup> ) * ( 8*10<sup>4</sup> ) ]  :  2   = =   [ <u>( 30 * 10</u><sup>5</sup> <u>) * ( 8*10</u><sup>4</sup> <u>) ]  :  2   =   ( 240 * 10</u><sup>9</sup> <u>) : 2   =   120 * 10</u><sup>9</sup> =   1,2 * 10<sup>11</sup> <u>( m</u><sup>2</sup> <u>)</u>
+**9i)** Jak dlouhý stín vrhá člověk 180 cm vysoký při úhlu paprsků 50°?
 
---------------------------------------------------
+A–D) *(nedochováno)*   E) *(výsledek)*
 
-2p)
+*2011, příklad č. 17. Body: 2. Výsledek: E.*
 
-Každý z bodů X, Y, Z je umístěn ve středu některé strany čtverce o obsahu 64 cm<sup>2</sup> . <u>Jaký obsah má světlá plocha čtverce ?</u> Ostrý maturitní test Cermat-u ( základní úroveň ) – jaro 2011 PUP, příklad č. 15 Body: 2                 Výsledek:  S = 40 cm<sup>2</sup> resp.  40
+Řešení: pravoúhlý trojúhelník se svislou odvěsnou 180 cm, úhel při základně 50°: $\mathrm{tg}\,50°=\dfrac{180}{|AB|} \implies |AB|=\dfrac{180}{\mathrm{tg}\,50°}$.
 
-Pracovní tematické zařazení: Planimetrie Řešení: obsah čtverce … S1 = a<sup>2</sup> 64 = a<sup>2</sup> a = 8 cm obsah světlé plochy  =  obsah čtverce – obsah menšího trojúhelníka – obsah většího trojúhelníka obsah trojúhelníka … S  = obsah menšího trojúhelníka … S2  = = = = =  8 ( cm<sup>2</sup> ) obsah většího trojúhelníka … S3  = = = = =  16 ( cm<sup>2</sup> ) obsah světlé plochy  =  64 cm<sup>2</sup> – 8 cm<sup>2</sup> – 16 cm<sup>2</sup> =  40 cm<sup>2</sup>
+**10i)** Obsah rovnoběžníku $ABCD$ (kosodélník, základna 2, výška 4).
 
---------------------------------------------------
+*2012, příklad č. 14. Body: 1. Výsledek: 8.*
 
-<u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Planimetrie</u>
+Řešení: $S=a\cdot v_a=2\cdot4=8\text{ cm}^2$.
 
-3p)
+**11i)** V rovnoběžníku $ABCD$ určete poměr výšek (základna $a$ s výškou 4, strana $b$ dopočtená Pythagorovou větou ze stran 3 a 4).
 
-Kolika krokům odpovídá vzdálenost MN <u>?    A) 240    B) 250 C) 260    D) 270    E) 280</u> Ostrý maturitní test Cermat-u ( základní úroveň ) – jaro 2011 PUP, příklad č. 18 Body: 2                    Výsledek:  B
+*2012, příklad č. 15. Body: 2. Výsledek: 5:2, resp. 2:5.*
 
-Pracovní tematické zařazení: Planimetrie Řešení:
+Řešení: $S=a\cdot v_a=2\cdot4=8\text{ cm}^2$. $b^2=3^2+4^2=25 \implies b=5$ cm. $8=5\cdot v_b \implies v_b=1{,}6$. Poměr $v_a:v_b=4:1{,}6=5:2$.
 
-Dva geometrické útvary jsou podobné, když mají naprosto stejný tvar ( mohou se lišit pouze velikostí ).
+**12i)** Trojúhelník $ABC$ s úhlem a vztahem stran splňujícím $a^2+b^2=c^2$. Rozhodněte:
 
-Věta uu o podobnosti trojúhelníků: Dva trojúhelníky jsou podobné, když mají stejné velikosti dvou vnitřních úhlů ( třetí je tím pádem stejná také, neboť součet velikostí všech vnitřních úhlů trojúhelníka je vždy 180° ).
+a) Nejdelší strana je $c$.   b) Největší úhel má 100°.   c) Trojúhelník je rovnoramenný.   d) Osa strany $b$ je rovnoběžná se stranou $a$.
 
-Z obrázku je vidět, že trojúhelník PON je podobný trojúhelníku PQM podle věty uu. Délka delší odvěsny trojúhelníka PON je 80 kroků a délka delší odvěsny trojúhelníka PQM je 120 kroků. 120 : 80 = 1,5 … tzv. poměr podobnosti ( tj. každá úsečka většího trojúhelníka je 1,5 krát delší než jí odpovídající úsečka menšího trojúhelníka )
+*2012, příklad č. 16. Body: 2. Výsledek: a) ANO, b) NE, c) NE, d) ANO.*
 
-Pythagorova věta ( trojúhelník PON ):  l PN l<sup>2</sup> =  80<sup>2</sup> + 60<sup>2</sup> l PN l<sup>2</sup> =  6400 + 3600 l PN l<sup>2</sup> =  10000               l PN l  =  100 kroků
+Řešení: obrácená Pythagorova věta — trojúhelník je pravoúhlý s přeponou $c$ (pravý úhel u $C$). a) ANO ($c$ je přepona). b) NE (největší úhel je 90°). c) NE (úhly 90°, 40°, 50° — žádné dva shodné). d) ANO (z náčrtku — osa úsečky je kolmice jejím středem).
 
-Délka přepony trojúhelníka PON je 100 kroků, takže délka přepony trojúhelníka PQM je 1,5 * 100 kroků  =  150 kroků
+**13i)** Trojúhelník $ABC$: $a=3$, $b=5$, $c=7$ cm. Součet dvou nejmenších úhlů?
 
-l MN l  =  l MP l + l PN l  =  150 kroků + 100 kroků  =  250 kroků
+A) 22°   B) 38°   **C) 60°**   D) 105°   E) jiný součet
 
---------------------------------------------------
+*2012, příklad č. 17. Body: 2.*
 
-<u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Planimetrie</u>
+Řešení: největší úhel $\gamma$ (proti $c$). Kosinová věta: $49=9+25-30\cos\gamma \implies \cos\gamma=-0{,}5 \implies \gamma=120°$. Součet zbylých dvou: $180°-120°=60°$.
 
-4p)
+**14i)** Určete středový úhel $\alpha$ kruhové výseče (40 % plného úhlu).
 
-Kolik 10metrových úseků <u>je majiteli zaúčtováno ? A) 10    B) 11    C) 12    D) 13    E) 14</u> Ostrý maturitní test Cermat-u ( základní úroveň ) – jaro 2011 PUP, příklad č. 19 Body: 2                    Výsledek:  D
+*2013, příklad č. 12. Body: 1. Výsledek: $\alpha=144°$.*
 
-Pracovní tematické zařazení: Planimetrie Řešení: Kosinová věta:  s<sup>2</sup> =  r<sup>2</sup> + t<sup>2</sup> – 2r t * cos φ Pozor !! – úhel zapsaný na pravé straně rovnice musí ležet naproti straně zapsané na levé straně rovnice … na obrázku vidíme, že úhel φ = 110° leží naproti straně s. s<sup>2</sup> =  70<sup>2</sup> + 85<sup>2</sup> – 2*70*85 * cos 110° s<sup>2</sup> =  přibližně 4900 + 7225 – 11900 * ( – 0,342 )               s<sup>2</sup> =  přibližně 12125 + 4069,8 s<sup>2</sup> =  přibližně 16194,8               s  =  přibližně 127 m účtuje se každý započatý 10metrový úsek … majiteli je zaúčtováno 13 10metrových úseků
+Řešení: $100\%=360°$, $1\%=3{,}6°$, $40\%=144°$.
 
---------------------------------------------------
+**15i)** Ve kterém trojúhelníku leží ortocentrum vně a zároveň na ose jedné strany?
 
-<u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Planimetrie</u>
+A) rovnostranný   B) pravoúhlý   C) ostroúhlý   **D) rovnoramenný tupoúhlý**   E) nemůže nastat
 
-5p)
+*2013, příklad č. 21. Body: 2.*
 
-V pravoúhlém lichoběžníku ABCD přiřaďte k daným úsečkám ( a) – c) ) jejich délky z nabídky ( A – E ):     a) úhlopříčka f     b) strana c     c) výška v A) B) C) 6     D) 12     E) <u>jiná hodnota</u> Ostrý maturitní test Cermat-u ( základní úroveň ) – jaro 2011 PUP, příklad č. 26 Body: 3                    Výsledek:  a) D     b) C     c) B
+Řešení: ortocentrum vně $\implies$ tupoúhlý trojúhelník; aby leželo i na ose strany, musí být navíc rovnoramenný (ortocentrum leží na ose základny).
 
-Pracovní tematické zařazení: Planimetrie Řešení:
+**16i)** Jak dlouhá je hrana krychle, je-li $\mathrm{tg}\,\alpha=\dfrac{2a}{3(6-a)}$ (delší odvěsna $6-a$)?
 
-a) úhlopříčka f Z obrázku je vidět, že v trojúhelníku ABD platí, že velikost úhlu při vrcholu B je 60°. Velikost úhlu při vrcholu D tohoto trojúhelníka je tedy také 60°. Trojúhelník ABD je tudíž rovnostranný ( jsou-li velikosti všech vnitřních úhlů trojúhelníka 60°, je tento trojúhelník rovnostranný ). Délka úhlopříčky f je tedy 12 jednotek. b) strana c trojúhelník BCD:  sin 30° = 0,5  = /* 12               6 = c c) výška v Pythagorova věta ( trojúhelník BCD ):  f<sup>2</sup> =  c<sup>2</sup> + v<sup>2</sup> 12<sup>2</sup> =  6<sup>2</sup> + v<sup>2</sup> 144  =  36 + v<sup>2</sup> 108 = v<sup>2</sup> v  =  √108  =  ( částečné odmocnění ) √( 36*3 )  =  √36 * √3  =  6√3
+A) kratší než 2,4 m   **B) 2,4 m**   C) 2,5 m   D) 2,6 m   E) delší než 2,6 m
 
---------------------------------------------------
+*2013, příklad č. 22. Body: 2.*
 
-# <u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Planimetrie</u>
+Řešení: $\mathrm{tg}\,\alpha=\dfrac{2(6-a)}{3(6-a)}$... *(dochovaný postup)* $\implies 2(6-a)=3a \implies12-2a=3a \implies a=2{,}4$ m.
 
-- 1i) V rovnoběžníku ABCD se středem S má strana AB délku a = 5 cm, úhel ABS je pravý a úhlopříčka BD má délku f = 12 cm.
+**17i)** Vyjádřete vzdálenost bodu $A$ od osy $x$ pomocí $\alpha$ (jednotková kružnice).
 
-- a) Proveďte náčrtek.          b) Vypočtěte obvod _o_ čtyřúhelníku ABCD.
+*2014 (1), příklad č. 12. Body: 1. Výsledek: $\sin\alpha$.*
 
-- c) Vypočtěte velikost vnitřního úhlu rovnoběžníku ABCD při vrcholu A. Zaokrouhlete na stupně.
+Řešení: v pravoúhlém trojúhelníku $OXA$ (přepona $=1$): $\sin\alpha=|AX|$, tedy vzdálenost $=\sin\alpha$.
 
-Pozor ! Bez náčrtku nebude <u>úloha ohodnocena !</u> Ilustrační maturitní test Cermat-u ( základní úroveň ) – 2010 (1), příklad č. 10 Body: 4 Výsledek:
+**18i)** Vypočtěte vzdálenost bodů $B$, $P$ (jednotková kružnice, rovnoramenný trojúhelník $OPB$, úhel při vrcholu 120°).
 
-a) b) _o_ = 36 cm          c)
+*2014 (1), příklad č. 13. Body: 2. Výsledek: $|BP|=\sqrt3$.*
 
-Pracovní tematické zařazení: Planimetrie Řešení:
+Řešení (sinová věta): úhly při základně $30°$, úhel při vrcholu $O$ $120°$: $\dfrac{|PB|}{\sin120°}=\dfrac1{\sin30°} \implies |PB|=\dfrac{\sin120°}{\sin30°}=\dfrac{\sqrt3/2}{1/2}=\sqrt3$.
 
-- a) Rovnoběžník je takový čtyřúhelník, jehož protější strany jsou rovnoběžné a stejně dlouhé. Mezi rovnoběžníky patří čtverec, obdélník, kosočtverec a kosodélník.
+**19i)** Součet obsahů tří útvarů (trojúhelník, kosodélník se základnou 3 a výškou 4, lichoběžník)?
 
-- Protože úhel ABS je pravý ( vrchol úhlu je tedy bod B ), nemůže se jednat o čtverec ani o obdélník. Nemůže se jednat ani o kosočtverec, neboť jeho úhlopříčky svírají ( stejně jako u čtverce ) pravý úhel. Hledaným rovnoběžníkem je tedy kosodélník – výsledek viz výše. b) obvod kosodélníku:  o = 2( a + b ) … neznáme b ( b = d ) Pythagorova věta ( trojúhelník ABD ):  l AD l<sup>2</sup> =  5<sup>2</sup> + 12<sup>2</sup> l AD l<sup>2</sup> =  169 l AD l  =  d = b = 13 cm
+A) méně než 27,5   B) 27,5   C) 28,0   **D) 28,5**   E) více než 28,5
 
-- = 2( a + b )  =  2( 5 + 13 )  =  36 ( cm )
+*2014 (1), příklad č. 17. Body: 2.*
 
-c) trojúhelník ABD:  sin α  = sin α  =  přibližně 0,923          α = přibližně 67° NEBO      cos α  = cos α  =  přibližně 0,385         α = přibližně 67° NEBO      tg α  = tg α  =  2,4                              α = přibližně 67°
+Řešení: $S_1$(trojúhelník)$=6\text{ cm}^2$; $S_2$(kosodélník)$=3\cdot4=12\text{ cm}^2$; $S_3$(lichoběžník)$=10{,}5\text{ cm}^2$. Celkem $6+12+10{,}5=28{,}5\text{ cm}^2$.
 
---------------------------------------------------
+**20i)** Vypočtěte obsah lichoběžníku $ABCD$ (rovnoběžník $PBCD$ se stranou 18, $AP=24$, trojúhelník $APD$: $AD=20$, $PX=12$).
 
-# <u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Planimetrie</u>
+*2014 (2), příklad č. 14. Body: 2. Výsledek: $S=480\text{ cm}^2$.*
 
-- 2i) V každém n–úhelníku určete postupně velikost úhlu Ke každému náčrtku a) – c) ( 18.1 až 18.3 ) přiřaďte odpovídající řešení uvedené v alternativách A) – E). A) B) C) D) E) Odpovídající hodnota úhlu není uvedena.
+Řešení: delší základna $=24+18=42$ cm. Výška $=$ výška trojúhelníku $APD$: Pythagorova věta $20^2=12^2+v^2 \implies v^2=256 \implies v=16$ cm. $S=\dfrac{(18+42)}2\cdot16=480\text{ cm}^2$.
 
-Ilustrační maturitní test Cermat-u ( základní úroveň ) – 2010 (1), příklad č. 18 Body:  4                  Výsledek:  a) A     b) E ( 40° )     c) D
+**21i)** Obsah obdélníkového pozemku (trojúhelník s úhly 50°, 30°, stranou $b=30$)?
 
-Pracovní tematické zařazení: Planimetrie Řešení:
+A) 979 m²   B) 1 732 m²   **C) 1 928 m²**   D) 1 958 m²   E) 2 298 m²
 
-- a) 9α = 180°          α = 20° b) Součet velikostí všech vnitřních úhlů v každém čtyřúhelníku je 360° ( neboť každý čtyřúhelník můžeme rozdělit na 2 trojúhelníky … 2 * 180°  =  360° ). Protější úhly každého rovnoběžníku jsou shodné, takže součet velikostí „sousedních“ úhlů je 180°.
+*2014 (2), příklad č. 17. Body: 2.*
 
-3,5 β + β  =  180°          4,5 β  =  180°          β = 40°
+Řešení: třetí úhel $180°-(50°+30°)=100°$. Sinovou větou vychází $a\approx64{,}279$ m. $S=a\cdot b\approx64{,}279\cdot30\approx1\,928\text{ m}^2$.
 
-c) trojúhelník ABC … 2 Ɛ + 3 Ɛ =  90°          5 Ɛ =  90° Ɛ =  18° trojúhelník ACD … úhel při vrcholu A = 3 Ɛ =  54° trojúhelník ABD … úhel při vrcholu D = 3 Ɛ =  54° trojúhelník ASD ( S je střed obdélníka ) … φ = 180° – 54° – 54°  = 72° --------------------------------------------------
+## Zdroje
 
-# <u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Planimetrie</u>
-
-3i) Kolik kroků **ušetříte** ( zaokrouhlete na desítky ), přejdete-li čtvercový pozemek úhlopříčně, místo abyste <u>jej obcházeli po dvou stranách jeho obvodu celkem třemi sty kroky ?</u> Ilustrační maturitní test Cermat-u ( základní úroveň ) – 2010 (2), příklad č. 9 Body:  3          Výsledek:
-
-Pracovní tematické zařazení: Planimetrie Řešení: Načrtni si čtverec ABCD s úhlopříčkou x a stranou a … a = 150 kroků Pythagorova věta ( trojúhelník ABC ):  x<sup>2</sup> =  150<sup>2</sup> + 150<sup>2</sup> x<sup>2</sup> =  22500 + 22500 x<sup>2</sup> =  45000          x = přibližně 212 ( kroků ) 300 kroků – 212 kroků  =  88 kroků  =  přibližně 90 kroků -------------------------------------------------4i) Pozemek tvaru půlkruhu je třeba oplotit. Na rovnou část plotu se použije 28 metrů pletiva. Kolik celých metrů pletiva bude nejméně potřeba na zbytek plotu po oblouku ? A) 44 metrů       B) 48 metrů       C) 52 metrů       D) 56 metrů       E) jiný počet
-
-Ilustrační maturitní test Cermat-u ( základní úroveň ) – 2010 (2), příklad č. 14 Body:  2             Výsledek:  A
-
-Pracovní tematické zařazení: Planimetrie Řešení: obvod kruhu:  o = 2 π r obvod půlkruhu:  o = π r  =  přibližně 3,14 * 14  =  přibližně 44 ( metrů )
-
---------------------------------------------------
-
-# <u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Planimetrie</u>
-
-- 5i) Rovnoramenný trojúhelník ABC má při základně AB úhel velikosti = 75° a délky ramen = = 10. Jakou délku má základna c = ?    A) přibližně 4,9 B) přibližně 5,2       C) přibližně 5,5       D) přibližně 5,8       E) jinou délku
-
-Ilustrační maturitní test Cermat-u ( základní úroveň ) – 2010 (2), příklad č. 15 Body:  2              Výsledek:  B
-
-Pracovní tematické zařazení: Planimetrie Řešení:
-
-Z vrcholu C spusť výšku ( tedy kolmici ) na stranu AB a její patu označ P – tím vznikne pravoúhlý trojúhelník APC.
-
-trojúhelník APC:  cos 75° = 0,259  =  přibližně 2,59  =  přibližně 0,5c   /: 0,5               c  =  přibližně 5,18 jednotky  =  přibližně 5,2 jednotky
-
---------------------------------------------------
-
-<u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Planimetrie</u>
-
-6i)
-
-a) <u>Jaký je obvod celé dlaždice (o) ? b) Jaký je obsah dlaždice (S) ?</u> Ilustrační maturitní test Cermat-u ( základní úroveň ) – 2011, příklad č. 9 Body: 2                   Výsledek:  a) o = 60 cm     b) S = 225
-
-Pracovní tematické zařazení: Planimetrie Řešení: a) obvod každého z obdélníků je 30 cm … součet délek delší a kratší strany je 15 cm strana velkého čtverce  =  součet délek delší a kratší strany obdélníka  =  15 cm obvod velkého čtverce:  o  =  4a  =  4 * 15 cm  =  60 cm b) obsah velkého čtverce:  S = a<sup>2</sup> =  15<sup>2</sup> =  225 ( cm<sup>2</sup> <u>)</u>
-
--------------------------------------------------7i) Okrasná část zahrady má tvar obdélníku, jehož rozměry se liší o jediný metr. Po <u>úhlopříčce ji protíná pěšinka dlouhá 29 metrů. Určete délku a šířku okrasné zahrady.</u> Ilustrační maturitní test Cermat-u ( základní úroveň ) – 2011, příklad č. 10 Body: 3                   Výsledek:  20 m × 21 m Pracovní tematické zařazení: Planimetrie Řešení: Načrtni si obdélník ABCD s delší stranou x a kratší stranou ( x – 1 ) Pythagorova věta ( trojúhelník ABC ):  29<sup>2</sup> =  x<sup>2</sup> + ( x – 1 )<sup>2</sup> 841  =  x<sup>2</sup> + x<sup>2</sup> – 2x + 1               0  =  2x<sup>2</sup> – 2x – 840   /: 2 0  =  x<sup>2</sup> – x – 420 … a = 1,  b = –1,  c = –420 x1, 2   = = = = … … x1 = 21,  x2 = –20 ( nevyhovuje zadání – délka strany nemůže být záporná ) NEBO     0  =  ( x – 21 )( x + 20 ) … x1 = 21,  x2 = –20 ( nevyhovuje zadání ) Délka okrasné zahrady <u>je 21 m, její šířka je 20 m.</u>
-
---------------------------------------------------
-
-<u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Planimetrie</u>
-
-8i)
-
-a) Pod jakým zorným úhlem je možné od paty věže _V_ sledovat obě stanoviště _A_ a _B_ současně ? <u>b) Určete s přesností na celé metry přímou vzdálenost stanoviště</u> _B_ <u>od vrtné věže</u> _<u>V.</u>_ Ilustrační maturitní test Cermat-u ( základní úroveň ) – 2011, příklad č. 11 Body: 3                   Výsledek:  a) 35°     b) 1 849 m
-
-Pracovní tematické zařazení: Planimetrie Řešení: a) 180° – ( 100° + 45° )  =  35° b) Sinová věta:  V každém trojúhelníku ABC platí: = = Pozor !! – úhel zapsaný ve jmenovateli zlomku musí ležet naproti straně zapsané v čitateli tohoto zlomku … na obrázku vidíme ( po výpočtu třetího úhlu ), že úhel 45° leží naproti straně BV a úhel 35° leží naproti straně AB = 1,5 km = /* sin 45°               l BV l  =  přibližně 1,8492 km  =  přibližně 1849 m -------------------------------------------------9i) Jak dlouhý stín vrhá člověk vysoký 180 cm na vodorovnou podložku, jestliže světelné paprsky svírají s podložkou úhel 50° ? ( Situaci si zobrazte ). A) B) C) D) E) Ilustrační maturitní test Cermat-u ( základní úroveň ) – 2011, příklad č. 17 Body: 2                    Výsledek:  E Pracovní tematické zařazení: Planimetrie Řešení: Načrtni si pravoúhlý trojúhelník ABC ( strana AB je vodorovná a strana AC je svislá, takže pravý úhel je při vrcholu A ). Pak tedy strana AC měří 180 cm a úhel 50° je při vrcholu B. délka stínu = délka strany AB tg 50°  = /* l AB l                         l AB l * tg 50°  =  180    /:  tg 50° l AB l  = --------------------------------------------------
-
-<u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Planimetrie</u>
-
-10i)
-
-Vypočtěte obsah rovnoběžníku ABCD a výsledek uveďte v . Ilustrační maturitní test Cermat-u ( základní úroveň ) – 2012, příklad č. 14 Body: 1             Výsledek:  8 Pracovní tematické zařazení: Planimetrie Řešení: Rovnoběžník ABCD je kosodélník. obsah kosodélníku:  S = základna * příslušná výška … a * va    nebo    b * vb ( základna – kterákoli strana kosodélníku, příslušná výška – výška, která je k  dané základně kolmá ) S = základna * příslušná výška  =  a * va  =  2 * 4  =  8 ( cm<sup>2</sup> <u>)</u>
-
---------------------------------------------------
-
-<u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Planimetrie</u>
-
-11i)
-
-V rovnoběžníku ABCD určete poměr velikostí obou výšek. Výsledek uveďte v základním tvaru. Ilustrační maturitní test Cermat-u ( základní úroveň ) – 2012, příklad č. 15 Body: 2                 Výsledek:    5 : 2,   resp. 2 : 5
-
-Pracovní tematické zařazení: Planimetrie Řešení:
-
-Z obrázku je ihned vidět, že výška na základnu a = AB měří 4 cm. Délku výšky na základnu b = BC ale z obrázku pouhým okem určit nelze – pro její výpočet použijeme obsah rovnoběžníku na obrázku, tj. kosodélníku. obsah kosodélníku:  S = základna * příslušná výška … a * va    nebo    b * vb ( základna – kterákoli strana kosodélníku, příslušná výška – výška, která je k  dané základně kolmá ) S = základna * příslušná výška  =  a * va  =  2 * 4  =  8 ( cm<sup>2</sup> ) S = základna * příslušná výška  =  b * vb 8  =  b * vb … neznáme základnu b = BC ani výšku vb, délku základny b = BC však můžeme vypočítat Pythagorovou větou:  b<sup>2</sup> = 3<sup>2</sup> + 4<sup>2</sup> b<sup>2</sup> = 25          b = 5 cm 8  =  b * vb          8  =  5 * vb          1,6 = vb poměr velikostí obou výšek … va : vb  = = = Poznámka: V zadání není určeno, v jakém pořadí máme zapsat poměr velikostí obou výšek, takže výsledek může být buď nebo . Tyto poměry můžeme zapsat také ve tvaru 5 : 2, respektive 2 : 5.
-
---------------------------------------------------
-
-# <u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Planimetrie</u>
-
-12i) Vnitřní úhel trojúhelníku ABC má velikost . Pro délky stran platí vztah Rozhodněte o každém z následujících tvrzení, zda je pravdivé (ANO), či nikoli (NE). a) Nejdelší strana je c.          b) Největší úhel má velikost 100˚. c) Trojúhelník je rovnoramenný. <u>d) Osa strany b je rovnoběžná se stranou a.</u> Ilustrační maturitní test Cermat-u ( základní úroveň ) – 2012, příklad č. 16 Body: 2           Výsledek:  a) ANO     b) NE     c) NE     d) ANO
-
-Pracovní tematické zařazení: Planimetrie Řešení: <u>Obrácená Pythagorova věta</u> Jestliže v trojúhelníku ABC o stranách a, b, c s nejdelší stranou a platí  a<sup>2</sup> =  b<sup>2</sup> +  c<sup>2</sup> , pak je tento trojúhelník pravoúhlý. a<sup>2</sup> + b<sup>2</sup> = c<sup>2</sup> … to tedy znamená, že trojúhelník je pravoúhlý a jeho přepona je c, čili pravý úhel je u vrcholu C … trojúhelník ABC si načrtni a) Nejdelší strana je c … ANO, c je přepona b) Největší úhel má velikost 100˚ … NE, největší úhel má velikost 90˚ c) Trojúhelník je rovnoramenný … NE, jeho vnitřní úhly měří 90˚, 40˚ a 50˚ ( a rovnoramenný trojúhelník má 2 vnitřní úhly, a to úhly při základně, shodné ) d) Osa strany b je rovnoběžná se stranou a … ANO, toto je vidět z náčrtku ( osa úsečky je <u>přímka, která prochází jejím středem a je na ní kolmá )</u>
-
--------------------------------------------------13i) Trojúhelník ABC má délky stran a = 3 cm, b = 5 cm   a   c = 7 cm. Jaký je součet velikostí jeho dvou nejmenších vnitřních úhlů ? A) 22˚        B) <u>38˚        C) 60˚        D) 105˚        E) jiný součet</u> Ilustrační maturitní test Cermat-u ( základní úroveň ) – 2012, příklad č. 17 Body: 2           Výsledek:  C
-
-Pracovní tematické zařazení: Planimetrie Řešení: V trojúhelníku platí, že největší úhel leží naproti nejdelší straně – zde se tedy jedná o úhel γ. Trojúhelník není pravoúhlý, neboť zde neplatí obrácená Pythagorova věta … 7<sup>2</sup> ≠  3<sup>2</sup> + 5<sup>2</sup> Nelze tedy použít poučky např. cos γ  =  přilehlá odvěsna : přepona  atd. Abychom určili součet velikostí dvou nejmenších vnitřních úhlů trojúhelníka, stačí vypočítat velikost jeho největšího vnitřního úhlu ( tj. zde úhlu γ ) a tu poté odečíst od 180°. Kosinová věta:  c<sup>2</sup> =  a<sup>2</sup> + b<sup>2</sup> – 2ab * cos γ                              7<sup>2</sup> =  3<sup>2</sup> + 5<sup>2</sup> – 2*3*5 * cos γ 49  =  9 + 25 – 30 * cos γ               30 * cos γ  =  –15   /: 30               cos γ  =  – 0,5 γ  = 120° ( největší vnitřní úhel trojúhelníka ) součet velikostí dvou nejmenších vnitřních úhlů trojúhelníka  =  180° – 120° =  60°
-
---------------------------------------------------
-
-<u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Planimetrie</u>
-
-14i)
-
-<u>Určete středový úhel α kruhové výseče.</u> Ilustrační maturitní test Cermat-u ( základní úroveň ) – 2013, příklad č. 12 Body: 1                Výsledek:  α = 144°
-
-Pracovní tematické zařazení: Planimetrie Řešení: 100 % … 360° ( tzv. plný úhel )          1 % … 3,6°          40 % … 40 * 3,6°  =  144°
-
--------------------------------------------------15i) Ve kterém trojúhelníku leží ortocentrum ( průsečík přímek, na nichž leží výšky trojúhelníku ) vně trojúhelníku a současně na ose jedné strany trojúhelníku ? A) v rovnostranném trojúhelníku        B) v pravoúhlém trojúhelníku C) v ostroúhlém trojúhelníku        D) v rovnoramenném tupoúhlém trojúhelníku E) <u>v žádném, popsaná situace nemůže nastat</u> Ilustrační maturitní test Cermat-u ( základní úroveň ) – 2013, příklad č. 21 Body: 2                Výsledek:  D
-
-Pracovní tematické zařazení: Planimetrie Řešení: Ostroúhlý trojúhelník ( všechny 3 jeho vnitřní úhly jsou ostré, tedy jejich velikosti jsou menší než 90° ) … výšky se protínají uvnitř trojúhelníka Pravoúhlý trojúhelník … výšky se protínají ve vrcholu pravého úhlu Tupoúhlý trojúhelník … výšky ( resp. přímky, na kterých výšky leží ) se protínají vně trojúhelníka
-
-Zde leží ortocentrum vně trojúhelníku, takže se jedná o trojúhelník tupoúhlý. Aby se přímky, na nichž leží výšky trojúhelníku, navíc protnuly na ose jedné strany trojúhelníku, musí být tento trojúhelník rovnoramenný ( udělej si náčrtek – ortocentrum leží na ose základny trojúhelníka / 2 shodné strany rovnoramenného trojúhelníka se nazývají ramena, třetí strana se nazývá základna / ). Správná odpověď je tedy D … v rovnoramenném tupoúhlém trojúhelníku
-
---------------------------------------------------
-
-<u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Planimetrie</u>
-
-16i)
-
-Jak dlouhá je hrana krychle, jestliže je    tg α  = ? A) kratší než 2,4 m      B) 2,4 m      C) 2,5 m      D) 2,6 m      E) delší než 2,6 m Ilustrační maturitní test Cermat-u ( základní úroveň ) – 2013, příklad č. 22 Body: 2                 Výsledek:  B
-
-Pracovní tematické zařazení: Planimetrie Řešení: Z obrázku vidíme, že delší odvěsna šedého trojúhelníka má délku ( 6 – a ) metru. Platí tedy tg α  = = /* 3(6 – a)               2( 6 – a ) = 3a               12 – 2a = 3a 12 = 5a               a = 2,4 m
-
---------------------------------------------------
-
-<u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Planimetrie</u>
-
-17i)
-
-Pomocí goniometrické funkce úhlu α Є ( 0; π ) vyjádřete vzdálenost bodu _A_ od <u>souřadnicové osy</u> _<u>x</u>_ <u>.</u>
-
-Ilustrační maturitní test Cermat-u ( základní úroveň ) – 2014 (1), příklad č. 12 Body: 1      Výsledek:  sin α
-
-Pracovní tematické zařazení: Planimetrie Řešení:
-
-Z bodu A spustíme kolmici na osu x, její průsečík s osou x označíme např. X. Tím vznikl pravoúhlý trojúhelník OXA. Vzdálenost bodu A od souřadnicové osy x = délka strany AX.
-
-V trojúhelníku OXA platí:  sin α  = sin α  =  l AX l
-
-vzdálenost bodu A od souřadnicové osy x  =  l AX l  =  sin α
-
---------------------------------------------------
-
-<u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Planimetrie</u>
-
-# 18i)
-
-<u>Vypočítejte vzdálenost bodů B, P.</u> Ilustrační maturitní test Cermat-u ( základní úroveň ) – 2014 (1), příklad č. 13 Body: 2             Výsledek: **<u>|</u>** BP **<u>|</u>** =
-
-Pracovní tematické zařazení: Planimetrie Řešení:
-
-<u>1. způsob – pomocí sinové věty</u> Trojúhelník OPB je rovnoramenný, každé jeho rameno má délku 1 jednotka. Víme, že úhly při základně každého rovnoramenného trojúhelníka jsou shodné, takže úhel při vrcholu P i úhel při vrcholu B měří 30°.
-
-<u>Sinová věta:  V každém trojúhelníku ABC platí:</u> = =
-
-Pozor !! – úhel zapsaný ve jmenovateli zlomku musí ležet naproti straně zapsané v čitateli tohoto zlomku … na obrázku vidíme ( po výpočtu úhlů ), že úhel 120° leží naproti straně PB a úhel 30° leží naproti straně OP a OB = 1 jednotka
-
-= = =  2 =  2 2 * l PB l  =  2√3    /: 2                   l PB l  =  √3
-
-<u>2. způsob – pomocí goniometrických funkcí ostrého úhlu ( v pravoúhlém trojúhelníku )</u> Rovnoramenný trojúhelník OPB rozdělíme pomocí výšky spuštěné z vrcholu O na 2 shodné pravoúhlé trojúhelníky. Patu této výšky označíme např. X. V pravoúhlém trojúhelníku OPX ( s pravým úhlem při vrcholu X ) pak platí: sin 60°  = =  l PX l Z obrázku vidíme, že  l PB l  =  2 * l PX l  =  2 * =  √3
-
---------------------------------------------------
-
-<u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Planimetrie</u>
-
-19i)
-
-Jaký je součet obsahů všech tří rovinných útvarů ?       A) menší než 27,5 B) 27,5 C) 28,0 D) 28,5 E) větší než 28,5 Ilustrační maturitní test Cermat-u ( základní úroveň ) – 2014 (1), příklad č. 17 Body: 2                    Výsledek:  D Pracovní tematické zařazení: Planimetrie Řešení: obsah trojúhelníka:  S1  = = =  6 ( cm<sup>2</sup> ) obsah kosodélníku:  S2  = základna * příslušná výška  =  3 * 4  =  12 ( cm<sup>2</sup> ) obsah lichoběžníku:  S3  = = = 10,5 ( cm<sup>2</sup> ) Pozor !! – základny lichoběžníku jsou ty 2 strany, které jsou rovnoběžné, zbývající 2 strany jsou ramena, výška je vzdálenost základen S1 + S2 + S3  =  6 cm<sup>2</sup> + 12 cm<sup>2</sup> + 10,5 cm<sup>2</sup> =  28,5 cm<sup>2</sup> --------------------------------------------------
-
-<u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Planimetrie</u>
-
-20i)
-
-<u>Vypočtěte obsah lichoběžníku ABCD. V záznamovém archu uveďte celý postup řešení.</u> Ilustrační maturitní test Cermat-u ( základní úroveň ) – 2014 (2), příklad č. 14 Body: 2                    Výsledek: a postup řešení
-
-Pracovní tematické zařazení: Planimetrie Řešení: obsah lichoběžníku:  S  = … neznáme delší základnu a výšku delší základna lichoběžníku  =  24 cm + 18 cm  =  42 cm ( l PB l = 18 cm, neboť PBCD je rovnoběžník a protější strany každého rovnoběžníku jsou shodné ) výška lichoběžníku  =  výška trojúhelníka APD ( ta, která je spuštěna z vrcholu D ) Z vrcholu D trojúhelníka APD spustíme výšku ( čili kolmici ) na stranu AP ( označíme ji např. v ), patu této výšky označíme např. X … tím vznikne pravoúhlý trojúhelník AXD. Pythagorova věta ( trojúhelník AXD ):  20<sup>2</sup> =  12<sup>2</sup> + v<sup>2</sup> 400  =  144 + v<sup>2</sup> 256 = v<sup>2</sup> v = 16 cm S  = = =  480 ( cm<sup>2</sup> ) --------------------------------------------------
-
-<u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Planimetrie</u>
-
-21i)
-
-Jaký je obsah obdélníkového pozemku vypočtený s přesností na ? A) <u>979 m</u><sup>2</sup> B) 1 732 m<sup>2</sup> <u>C) 1 928 m</u><sup>2</sup> D) 1 958 m<sup>2</sup> E) 2 298 m<sup>2</sup> Ilustrační maturitní test Cermat-u ( základní úroveň ) – 2014 (2), příklad č. 17 Body: 2                    Výsledek:  C
-
-Pracovní tematické zařazení: Planimetrie Řešení: obsah obdélníka:  S = a * b … neznáme a Trojúhelník si označ ABC ( vrchol A dole, neboť naproti němu je neznámá strana a ). 180° – ( 50° + 30° )  =  100° <u>Sinová věta:  V každém trojúhelníku ABC platí:</u> = = = /* sin 100°                    a  =  přibližně 64,279 m S = a * b  =  přibližně  64,279 * 30  =  přibližně 1928 ( m<sup>2</sup> <u>)</u>
-
---------------------------------------------------
+MATURITA HADR / Matematika / řešené postupy matematických okruhů z DT 2010–2017, dokument *23) Planimetrie.pdf*.

@@ -4,32 +4,49 @@ order: 3
 source: "matematika/TY0103 Kolmý hranol.pdf"
 hasExercises: true
 ---
-Kolmý hranol je těleso, které se skládá ze dvou rovnoběžných podstav a pláště, boční stěny svírají s rovinou podstavy pravý úhel. Lze vypočítat jeho objem a povrch. Objem počítáme podle vzorce 𝑽= 𝑺𝒑 ∙𝒗, kde 𝑺𝒑  je obsah podstavy a výška 𝒗 je vzdálenost mezi podstavami. Povrch počítáme podle vzorce 𝑺= 𝑺𝒑 + 𝑺𝒑𝒍, kde 𝑺𝒑 je obsah podstavy a 𝑺𝒑𝒍 obsah pláště. Hranoly můžeme podle podstav rozdělit na:
 
-1. **pravidelné** : jejich podstavou je pravidelný geometrický útvar (rovnostranný trojúhelník, čtverec, pravidelný pětiúhelník, pravidelný šestiúhelník, atd.)
+> Pozn. k obsahu: Vzorce v PDF byly vysázené jako obrázky (unicode symboly), přepsané zde do LaTeXu; výsledky úkolů (ověřeny přepočtem, souhlasí) do spoilerů. PDF dále odkazovalo na soubory pro program Cabri 3D (*krychle_sit.cg3*, *kvadr_sit.cg3*), které nejsou součástí archivu — úkol 1 proto nejde reprodukovat, ponechán jako historický záznam.
 
-2. **nepravidelné** : jejich podstavou je nepravidelný geometrický útvar (pravoúhlý trojúhelník, obdélník, nepravidelný pětiúhelník, deltoid, atd)
+**Kolmý hranol** je těleso, které se skládá ze dvou shodných a rovnoběžných podstav a pláště; boční stěny svírají s rovinou podstavy pravý úhel.
 
-# **Krychle**
+$$V = S_p \cdot v \qquad S = 2S_p + S_{pl}$$
 
-Krychle je speciální případ kolmého hranolu. Jedná se o pravidelný čtyřboký hranol, jehož výška je stejná jako délka podstavné hrany. Strany krychle tvoří šest různých čtverců. Objem krychle počítáme podle vzorce 𝑽= 𝒂<sup>𝟑</sup> , povrch krychle podle vzorce 𝑺= 𝟔∙𝒂<sup>𝟐</sup> , kde 𝒂 je délka jedné hrany krychle.
+kde $S_p$ je obsah podstavy, $v$ je výška (vzdálenost mezi podstavami) a $S_{pl}$ je obsah pláště (součet obsahů bočních stěn — u hranolu s podstavou o obvodu $o$ platí $S_{pl}=o\cdot v$).
 
-# **Kvádr**
+Hranoly dělíme podle podstav na:
 
-Kvádr je speciální případ kolmého hranolu. Podstavou kvádru je obdélník. U kvádru můžeme označit jeho délku, šířku a výšku písmeny 𝒂, 𝒃, 𝒄. Objem kvádru vypočteme podle vzorce 𝑽= 𝒂∙𝒃∙𝒄, povrch kvádru vypočteme podle vzorce 𝑺= 𝟐∙𝒂∙𝒃+ 𝟐∙𝒂∙𝒄+ 𝟐∙𝒃∙𝒄, po vytknutí 𝑺= 𝟐∙(𝒂∙𝒃+ 𝒂∙𝒄+ 𝒃∙𝒄)
+1. **pravidelné** — podstavou je pravidelný geometrický útvar (rovnostranný trojúhelník, čtverec, pravidelný pětiúhelník, pravidelný šestiúhelník atd.)
+2. **nepravidelné** — podstavou je nepravidelný geometrický útvar (pravoúhlý trojúhelník, obdélník, nepravidelný pětiúhelník, deltoid atd.)
 
-# **Úkoly:**
+## Krychle
 
-1. Otevřete postupně soubory **krychle_sit.cg3** a **kvadr_sit.cg3** . Rozložte sítě těles do roviny a poté zpátky.
+**Krychle** je speciální případ kolmého hranolu — pravidelný čtyřboký hranol, jehož výška je stejná jako délka podstavné hrany. Všech šest stěn krychle jsou shodné čtverce.
 
+$$V = a^3 \qquad S = 6a^2$$
+
+kde $a$ je délka hrany krychle.
+
+## Kvádr
+
+**Kvádr** je speciální případ kolmého hranolu, jehož podstavou je obdélník. Rozměry kvádru značíme $a$, $b$, $c$ (délka, šířka, výška).
+
+$$V = a\cdot b\cdot c \qquad S = 2ab + 2ac + 2bc = 2(ab+ac+bc)$$
+
+## Úkoly (interaktivní, Cabri 3D)
+
+1. Otevřete postupně soubory *krychle_sit.cg3* a *kvadr_sit.cg3*. Rozložte sítě těles do roviny a poté zpátky.
 2. V programu Cabri nakreslete krychli o hraně délky 4. Vypočtěte její objem a povrch, výsledek ověřte programem Cabri.
 
-# **Příklady:**
+## Příklady
 
-1. Objem krychle je 27 𝑑𝑚<sup>3</sup> . Vypočtěte její povrch.   [54 𝑑𝑚<sup>2</sup> ]
+**1.** Objem krychle je $27\text{ dm}^3$. Vypočtěte její povrch.
 
-2. Podstavou hranolu je rovnostranný trojúhelník o straně délky 4 𝑐𝑚. Výška hranolu je
+Výsledek: ||a³=27 → a=3dm; S=6a²=6·9=54 dm²||
 
-   - 6 𝑐𝑚. Vypočtěte jeho objem a povrch.   [𝑉= 24√3 𝑐𝑚<sup>3</sup> , 𝑆= 85,86 𝑐𝑚<sup>2</sup> ]
+**2.** Podstavou hranolu je rovnostranný trojúhelník o straně délky $4\text{ cm}$. Výška hranolu je $6\text{ cm}$. Vypočtěte jeho objem a povrch.
 
-3. Mějme hranol, jehož podstavou je pravoúhlý trojúhelník s odvěsnami o délkách 3 𝑐𝑚 a 4 𝑐𝑚. Výška hranolu je dvojnásobkem délky přepony podstavy. Vypočtěte jeho objem a povrch.   [𝑉= 60 𝑐𝑚<sup>3</sup> , 𝑆= 132 𝑐𝑚<sup>2</sup> ]
+Výsledek: ||S_p = (a²√3)/4 = (16√3)/4 = 4√3 cm²; V = S_p·v = 4√3·6 = 24√3 ≈ 41,57 cm³; S_pl = o·v = (3·4)·6 = 72 cm²; S = 2S_p + S_pl = 8√3 + 72 ≈ 85,86 cm²||
+
+**3.** Mějme hranol, jehož podstavou je pravoúhlý trojúhelník s odvěsnami o délkách $3\text{ cm}$ a $4\text{ cm}$. Výška hranolu je dvojnásobkem délky přepony podstavy. Vypočtěte jeho objem a povrch.
+
+Výsledek: ||přepona (Pythagorova věta) = √(3²+4²) = 5 cm; výška hranolu v = 2·5 = 10cm; S_p = (3·4)/2 = 6 cm²; V = S_p·v = 6·10 = 60 cm³; S_pl = o·v = (3+4+5)·10 = 120 cm²; S = 2S_p + S_pl = 12 + 120 = 132 cm²||

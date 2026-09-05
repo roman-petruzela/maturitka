@@ -4,200 +4,101 @@ order: 7
 source: "matematika/TY01_0224_Statistika_-_priprava_a_vyhotoveni_dotazniku.pptx"
 hasExercises: true
 ---
-• Původní význam slova _statistika_ souvisí se státem, s jeho administrativním spravováním, kdy docházelo k zaznamenávání údajů k vojenským a daňovým účelům. • I dnes slovo statistika vyjadřuje popis souboru nebo jeho sumarizaci. • V tomto smyslu funguje například Český statistický úřad.
 
-_Dotazníkové šetření děláme až tehdy, když nemůžeme požadované informace získat jinak (např. pozorováním)_
+> Pozn. k obsahu: Zdrojová prezentace obsahovala krátké heslovité body na jednotlivých snímcích — přepsáno do souvislé podoby se zachováním všech příkladů otázek a doporučení.
 
-# Techniky dotazníkového šetření
+Původní význam slova **statistika** souvisí se státem a jeho administrativní správou, kdy docházelo k zaznamenávání údajů k vojenským a daňovým účelům. I dnes slovo statistika vyjadřuje popis souboru dat nebo jeho sumarizaci — v tomto smyslu funguje například Český statistický úřad.
 
-• Dotazníkové šetření – široký pojem – Standardizované rozhovory
+Dotazníkové šetření děláme až tehdy, když nemůžeme požadované informace získat jinak (např. přímým pozorováním).
 
-– Samovyplňující dotazník
+## Techniky dotazníkového šetření
 
-– Anketní dotazník
+Dotazníkové šetření je široký pojem, který zahrnuje:
 
-• Alternativy ke klasickému dotazníku – Telefonní dotazování
+- standardizované rozhovory,
+- samovyplňující dotazník,
+- anketní dotazník.
 
-– Poštovní dotazování
+Alternativou ke klasickému dotazníku je telefonní nebo poštovní dotazování.
 
-# Tvorba dotazníku
+## Tvorba dotazníku
 
-• Zdánlivě jednoduchý úkol • Faktory: zkušenost, subjektivní prvek, **testování otázek** , využívání existujících a osvědčených formátů otázek • Někdy neexistuje „nejlepší řešení“ • Dotazník musí být poměřován optikou respondenta
+Tvorba dotazníku je zdánlivě jednoduchý úkol, ve skutečnosti na něj ale působí řada faktorů: zkušenost tvůrce, subjektivní prvek, testování otázek na malém vzorku předem, využívání existujících a osvědčených formátů otázek. Neexistuje jedno univerzální "nejlepší řešení" — dotazník musí být vždy poměřován optikou respondenta, ne tvůrce.
 
-# Tvorba dotazníku
+Obvyklé součásti dotazníku:
 
-Obvyklé součásti dotazníku: • Motivační dopis (vč. kontaktu na pořádající institucí; dárek (?)
+- motivační dopis (včetně kontaktu na pořádající instituci, případně nabídka drobného dárku),
+- zadání tazatelského úkolu,
+- pokyny pro vyplňování dotazníku (včetně příkladu a kontaktu na koordinátora),
+- karty k dotazníku,
+- zápisový arch odmítnutých odpovědí.
 
-• Zadání tazatelského úkolu • Pokyny pro vyplňování dotazníku (včetně
+## Struktura dotazníku
 
-příkladu a kontaktu na koordinátora)
+1. **Úvod** — loga, cíle šetření, záštita institucí, žádost o pomoc.
+2. **Identifikace dotazníku** — téma dotazníku, představení tazatele, bližší seznámení s dotazníkem a jeho účelem, zahájení rozhovoru.
+3. **Zahřívací část** — lehké, zábavné, neosobní otázky, které musí dotazovaného zaujmout a v žádném případě ho nesmí odradit od vyplnění celého dotazníku.
+4. **Faktické zjišťovací otázky** — vlastní zjišťování informací; vyžadují pečlivou přípravu a testování srozumitelnosti a jednoznačnosti.
+5. **Sociodemografické otázky** — informace o dotazovaném (věk, bydliště, pohlaví, příjmy, vzdělání...). Patří vždy na konec dotazníku — pokud je umístíme na začátek, často se setkáme s odmítnutím vyplnit dotazník celý. Respondentovi je vždy potřeba dát i možnost na tyto otázky neodpovědět, a z odpovědí nesmí být možné identifikovat konkrétní osobu (ochrana osobních údajů).
 
-• Karty k dotazníku
+## Praktická doporučení
 
-• Zápisový arch odmítnutých odpovědí
+- Chcete-li se na něco zeptat a je možné se zeptat přímo, zeptejte se přímo. Teprve když máte pocit, že přímá otázka by mohla zkreslit odpověď, ptejte se nepřímo.
+- Ptejte se jen na to, na co vám respondent skutečně může odpovědět. Dejte si pozor na nejasnosti ve znění otázky a na slova, kterým respondent nemusí rozumět — otázce "Jste spokojený s fiskální politikou České republiky?" bude rozumět jen malá část populace.
+- Nutíte-li respondenta odpovědět na otázku, které nerozumí nebo na niž nemá názor, nějakou odpověď sice dostanete, ale nebude odpovídat jeho skutečnému názoru.
+- Otázka by se neměla ptát na více různých věcí najednou — např. "Myslíte si, že ochrana životního prostředí je důležitá, protože jen ona zaručí příznivé životní podmínky pro příští generace?" ve skutečnosti spojuje dvě různé otázky (je ochrana důležitá? je tento konkrétní důvod správný?).
+- Otázky by neměly být sugestivní a neměly by respondenta vést ke "správné" odpovědi — pozor zejména na emotivní výrazy. Otázka by neměla obsahovat odpověď v sobě — např. "Souhlasíte s tím, abychom prodávali dřevo z našich krásných českých lesů do Německa?" vyvolá zejména u starší generace citovou reakci nesouvisející s věcným obsahem otázky.
+- Obecná otázka vyvolá obecnou (a málo vypovídající) odpověď — je lepší pokládat konkrétní otázky. Nevhodné: "Jezdíte do práce autem?" Lepší: "Používáte automobil alespoň 3× týdně k cestě do zaměstnání?"
+- U citlivých témat (výše příjmu apod.) je dobré nabídnout možnost "nechci odpovídat" — jinak riskujete, že respondenti odpoví, ale nepravdivě.
+- Ujistěte se, že nabízené možnosti odpovědí se vzájemně nepřekrývají (např. u věkových kategorií: 30–40 let, 40–50 let — kam patří přesně 40?).
+- Otázky co nejvíce zjednodušte, nepoužívejte dlouhá souvětí. Využívejte grafické pomůcky (škály, obrázky) a snažte se o graficky zajímavý, ale zároveň přehledný dotazník.
+- Každou otázku a každou možnou variantu odpovědi označte číslem a/nebo písmenem — usnadní to pozdější přepis dotazníku do počítače a zpracování odpovědí.
 
-# Struktura dotazníku
+## Vytvoření vlastního dotazníku
 
-• Úvod - loga, cíle šetření, záštita institucí, žádost o pomoc …. • Identifikace dotazníku • Zahřívací část
+- **Papírový dotazník** — klasická forma, vhodná pro terénní šetření.
+- **Počítačový formulář** — textový editor nebo tabulkový kalkulátor, vyplnění přímo v počítači.
+- **Internetový dotazník** — specializované stránky umožňující sestavení dotazníku (např. survio.com); vyžaduje registraci a vytvoření dotazníku, ale výrazně usnadňuje sběr a zpracování odpovědí.
 
-• Faktické zjišťovací otázky • Sociodemografické otázky
+## Typy otázek
 
-# Úvod
+**Uzavřené otázky** nabízejí předem daný výběr odpovědí:
 
-• Loga • Cíle šetření • Záštita institucí • Žádost o pomoc ….
+- výběr právě jedné odpovědi, např. *"Elektroniku nakupujete převážně: ○ v kamenných obchodech ○ na internetu"*
+- výběr více odpovědí, např. *"Kde jste viděl/a reklamu našeho produktu?"* s možnostmi: v televizi nebo rádiu / v novinách či časopisech / na internetu / ve veřejné dopravě / na billboardech / nikde
+- výběr s přiřazením hodnoty (škála), např. *"Ohodnoťte prosím dané aspekty podle důležitosti při výběru tohoto produktu (1 = nejméně důležitá, 5 = nejdůležitější)"*:
 
-# Identifikace dotazníku
-
-• Téma dotazníku • Představení **tazatele** • Bližší seznámení s dotazníkem  a jeho účelem • Zahájení rozhovoru
-
-# Zahřívací část
-
-• Lehké, zábavné, neosobní otázky • Musí dotazovaného zaujmout • Nesmí odradit od vyplnění dotazníku!
-
-Faktické zjišťovací otázky • Zjišťování informací • Pečlivá příprava otázek • Testování srozumitelnosti a jednoznačnosti
-
-# Sociodemografické otázky
-
-• Informace o dotazovaném – Věk
-
-– Bydliště
-
-– Pohlaví
-
-– Příjmy – Vzdělání….
-
-• Pozor – z těchto odpovědí nesmí  být možné identifikovat osobu, která odpovídá – ochrana osobních údajů
-
-- Sociodemografické otázka
-
-- • Patří na konec dotazníku • Pokud je umístíme na začátek, často se setkáme s odmítnutím dotazníku
-
-- • Musíme dát i možnost na tyto otázky neodpovídat
-
-# Praktická doporučení
-
-• Chcete-li se na něco zeptat a je možné se na to zeptat přímo, zeptejte se na to. Teprve když budete mít pocit, že přímá otázka by mohla zkresli odpověď, ptejte se nepřímo.
-
-Praktická doporučení • Ptejte se jen na to, na co Vám může respondent odpovědět. • Dejte si pozor na nejasnosti ve znění otázky a na slova, kterým respondent nerozumí. • Např. otázce „Jste spokojený s fiskální politikou České republiky?“ bude rozumět jen malá část populace ČR.
-
-Praktická doporučení • Jestliže budete nutit respondenta odpovědět na otázku, které nerozumí nebo na niž nemá názor, určitě vám nakonec nějakou odpověď dá, ale tato odpověď nebude odpovídat jeho názoru.
-
-Praktická doporučení • Otázka by se neměla ptát na více různých věcí
-
-• Např. otázka „Myslíte si, že ochrana životního prostředí je důležitá, protože jen ona zaručí příznivé životní podmínky pro příští generace?“
-
-- Praktická doporučení
-
-- • Otázky by neměly být sugestivní, neměly by respondenta vést ke „správné odpovědi“
-
-- • Pozor zejména na emotivní výrazy • Otázka by také neměla obsahovat odpověď
-
-• Např. otázka „Souhlasíte s tím, abychom prodávali dřevo z našich krásných českých lesů do Německa?“ bude, zejména u starší generace, vyvolávat
-
-ů
-
-Praktická doporučení • Obecná otázka vyvolá obecnou odpověď. Často je lepší pokládat konkrétní otázky místo obecných otázek.
-
-• Nevhodné:  „Jezdíte do práce autem?“ • Lepší „Používáte automobil alespoň 3 x týdne k cestě do zaměstnání?“
-
-# Praktická doporučení
-
-• V případech, kdy očekáváme, že respondenti nebudou ochotni odpovídat na některé otázky (např. výše příjmu a jiné citlivé otázky) je dobré nabídnout respondentovi možnost „nechci odpovídat“
-
-• V opačném případě se může stát, že nám respondenti nebudou odpovídat pravdivě.
-
-Praktická doporučení • Ujistěte se, že nabízené možnosti odpovědí se nepřekrývají. (Např.  u kategorií věku: 30 – 40  let; 40 – 50 let apod.)
-
-• Snažte se otázky co nejvíce zjednodušit, nepoužívejte dlouhá souvětí. • Používejte grafické pomůcky (škály, obrázky), snažte se udělat graficky zajímavý a přitom přehledný dotazník.
-
-# Praktická doporučení
-
-• Měli bychom číslem a/nebo písmenem označit každou otázku a každou možnou variantu odpovědi – umožní nám to pozdější přepis dotazníku do počítače a jednodušší zpracování odpovědí
-
-# Vytvoření vlastního dotazníku
-
-• Papírový dotazník
-
-• Využití počítače - formuláře – Textový editor, tabulkový kalkulátor – Vyplnění přímo v počítači
-
-• Využití internetu – Stránky, které umožní sestavení dotazníku, např. <u>http://www.survio.com/cs</u>
-
-– Registrace, vytvoření dotazníku
-
-# Otázky
-
-• Uzavřené otázky – Výběr právě jedné odpovědi – Výběr více odpovědí
-
-– Výběr odpovědi s přiřazením hodnoty
-
-Výběr právě jedné odpovědi **Elektroniku nakupujete převážně:** ⃝ V kamenných obchodech ⃝ Na internetu
-
-Výběr více možností **Kde jste viděl/a reklamu našeho produktu?** V televizi nebo rádiu
-
-V novinách / časopisech
-
-Na internetu
-
-Ve veřejné dopravě
-
-Na billboardech
-
-Nikde
-
-Výběr s hodnocením **Ohodnoťte prosím dané aspekty, podle důležitosti, při výběru tohoto produktu:**
-
-1 nejméně důležitá, 5 nejdůležitější
-
-|- - -|1|2|3|4|5|
+| aspekt | 1 | 2 | 3 | 4 | 5 |
 |---|---|---|---|---|---|
-|Kvalita|⃝|⃝|⃝|⃝|⃝|
-|Cena|⃝|⃝|⃝|⃝|⃝|
-|Množství|⃝|⃝|⃝|⃝|⃝|
-|Značka|⃝|⃝|⃝|⃝|⃝|
-|Obeznámen<br>ost|⃝|⃝|⃝|⃝|⃝|
+| kvalita | ○ | ○ | ○ | ○ | ○ |
+| cena | ○ | ○ | ○ | ○ | ○ |
+| množství | ○ | ○ | ○ | ○ | ○ |
+| značka | ○ | ○ | ○ | ○ | ○ |
+| obeznámenost | ○ | ○ | ○ | ○ | ○ |
 
-Otevřené otázky • Částečně otevřené – Možnost doplnit krátkou odpověď • Otevřené
+**Otevřené otázky** naopak nechávají prostor pro vlastní vyjádření respondenta:
 
-– Možnost širšího vyjádření
+- **částečně otevřené** — nabízejí možnost doplnit krátkou odpověď, např. *"Když nakupujete předměty do domácnosti, obvykle je to: ○ v diskontech ○ v domácích potřebách ○ na internetu ○ v supermarketech ○ v hypermarketech ○ v nákupních střediscích ○ jinde"*
+- **plně otevřené** — umožňují širší vyjádření, např. *"Co se vám na našem výrobku líbí/nelíbí? Děkujeme za názor."*
 
-Pozor! Otevřené otázky komplikují vyhodnocení dotazníku. Neměly by převažovat.
+**Pozor:** otevřené otázky výrazně komplikují vyhodnocení dotazníku (odpovědi nelze automaticky sečíst do tabulky) a v dotazníku by neměly převažovat.
 
-# Částečně otevřené otázky **Když nakupujete předměty do domácnosti, obvykle je to**
+## Zadání samostatné práce
 
-- ⃝ V diskontech
+1. Vyberte si vhodné téma a vytvořte jednoduchý dotazník (4–5 zkoumaných jevů).
+2. Vyslovte hypotézu o předpokládaných výsledcích.
+3. Proveďte statistické šetření ve svém okolí (bydliště, třída, škola, rodina).
+4. Výsledky zpracujte v tabulkách a grafech.
+5. Vypracujte zprávu, ve které popíšete téma šetření, co jste zjišťovali, jaký jste očekávali výsledek, a porovnejte své hypotézy se skutečností.
 
-- ⃝ V domácích potřebách ⃝ Na internetu
+Termín na vypracování: 2 týdny.
 
-- ⃝ V supermarketech
+## Zdroje
 
-- ⃝ V hypermarketech ⃝ V nákupních střediscích ⃝ Jinde
+CALDA, Emil, DUPAČ, Václav. *Matematika pro gymnázia. Kombinatorika, pravděpodobnost, statistika.* Praha: Prometheus, 2006.
 
-Otevřené otázky **Co se Vám na našem výrobku líbí / nelíbí? Děkujeme za názor.**
+Survio. [cit. 2013-06-04]. Dostupné z: survio.com
 
-# Zadání samostatné práce
+KREISLOVÁ, Gabriela. *Dotazníkové šetření* (bakalářská práce). Plzeň, 2008.
 
-- Vyberte si vhodné téma
-
-   - Vytvořte jednoduchý dotazník (4 – 5 jevů)
-
-   - Vyslovte hypotézu o předpokládaných výsledcích
-
-   - Proveďte statistické šetření ve svém okolí (bydliště, třída, škola, rodina)
-
-   - Výsledky zpracujte v tabulkách a grafech
-
-   - Vypracujte zprávu, ve které popíšete téma šetření, co jste zjišťovali, jaký jste očekávali výsledek a porovnejte své hypotézy se skutečností
-
-- Termín na vypracování – 2 týdny
-
-# Zdroje
-
-CALDA, Emil, DUPAČ, Václav. _Matematika pro gymnázia. Kombinatorika, pravděpodobnost, statistika._ Praha: Prometheus, 2006.
-
-Survio  [cit. 4.6.2013]. Dostupné z: <u>http://www.survio.com/cs/</u>
-
-KREISLOVÁ, Gabriela. Bakalářská práce _Dotazníkové šetření._ Plzeň 2008 .[cit. 4.6.2013]. Dostupné z:
-
-<u>https://nit.felk.cvut.cz/~dark/Petr/Ivana/Dotazkiny%20-%20metody/BP%20-%20D otaznikove%20setreni.pdf</u>
-
-URBAN, Jan _. Kroky při přípravě dotazníkového šetření_ . UK  Praha 2005. [cit. 4.6.2013]. Dostupné z: <u>http://www.czp.cuni.cz/ekonomie/Letskola/urban_priprava_dotazniku.pdf</u>
+URBAN, Jan. *Kroky při přípravě dotazníkového šetření.* UK Praha, 2005.

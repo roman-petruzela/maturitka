@@ -4,98 +4,156 @@ order: 36
 source: "MATURITA HADR/Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/36) Geometrická posloupnost.pdf"
 hasExercises: true
 ---
-<u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Geometrická posloupnost</u>
 
-1) U každé z následující čtveřice čísel určete, tvoří-li geometrickou posloupnost (ANO), či nikoli (NE):     a)  ( 4;  2;  –2;  –4 )       b)  ( 1;  4;  16;  64 )       c)  ( 8;  –4;  2;  –1 ) <u>) ( 0;  4; 8;  12 )</u> Ostrý maturitní test Cermat-u ( základní úroveň ) – jaro 2011, příklad č. 16 Body: 2                   Výsledek:  a) NE     b) ANO     c) ANO     d) NE Pracovní tematické zařazení: Geometrická posloupnost Řešení: a) 4 * q = 2          4 * 0,5 = 2          2 * 0,5 ≠ – 2     NE                         b) ANO, q = 4 c) ANO, <u>q = – 0,5                                                d) 0 * q = 4 … rovnice nemá řešení     NE</u>
+> Pozn. k obsahu: Vzorce ($a_n=a_1q^{n-1}$, $s_n=a_1\cdot\frac{q^n-1}{q-1}$, vzorec pro složené úrokování $a_n=a_0(1\pm\frac p{100})^n$), které se v PDF ztratily jako vzorcové objekty, jsou doplněny standardním zněním. U několika úloh (4, 7, 8, 3i) se ztratila i některá vstupní čísla nebo přesná nabídka možností — dochované mezivýpočty ale umožnily ověřit výsledné hodnoty.
 
--------------------------------------------------2) V oblasti se během dvou let počet obyvatel zvýšil z 24 500 na 26 500. V obou letech byl zaznamenán stejný procentuální přírůstek oproti předchozímu roku ( meziroční procentuální přírůstek ). Jaký meziroční přírůstek byl zaznamenán ? A) méně než 4,0 %        B) přibližně o 4,0 %        C) přibližně o 4,1 % D) <u>přibližně o 4,2 %        E) více než o 4,2 %</u> Ostrý maturitní test Cermat-u ( základní úroveň ) – jaro 2012, příklad č. 18 Body:  2                  Výsledek:  B Pracovní tematické zařazení: Geometrická posloupnost Řešení: Jedná se o úlohu typu „složené úrokování“, a to o procentuální nárůst. an  =  a0 * ( 1 + )<sup>n</sup> 26 500  =  24 500 * ( 1 + )<sup>2</sup> 1,082  =  přibližně ( 1 + )<sup>2</sup> 1,04  =  přibližně ( 1 + ) 104  =  přibližně ( 100 + p <u>)                    4  =  přibližně p</u> -------------------------------------------------3) Počítač byl pořízen za 10 000 Kč. Každým následujícím rokem se z ceny počítače odepisuje vždy stejné procento ceny z předchozího roku. Po čtyřech letech se hodnota počítače sníží přibližně na 1 300 Kč. Kolik procent ( s přesností na 1 % ) se každým rokem odepisuje z ceny počítače ? A)  méně než 22 %        B)  22 % <u>C) 34 %        D)  40 %        E) více než 40 %</u> Ostrý maturitní test Cermat-u ( základní úroveň ) – podzim 2012, příklad č. 22 Body: 2                    Výsledek:  D Pracovní tematické zařazení: Geometrická posloupnost Řešení: Jedná se o úlohu typu „složené úrokování“, a to o procentuální pokles. an  =  a0 * ( 1 – )<sup>n</sup> 1 300  =  10 000 * ( 1 – )<sup>4</sup> /: 10 000 0,13  =  ( 1 – )<sup>4</sup> 0,600462  =  přibližně ( 1 – )     /* 100 60,0462  =  přibližně 100 – p <u>p  =  přibližně 40 ( procent )</u> --------------------------------------------------
+*Příklady z maturitních testů Cermatu (základní úroveň) — Geometrická posloupnost*
 
-<u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Geometrická posloupnost</u>
+**1)** U čtveřic čísel určete, tvoří-li geometrickou posloupnost:
 
-4) V geometrické posloupnosti platí:     a2 = 2          a2 * a3 = 6 Které z následujících tvrzení je nepravdivé ? A) B) C) D) E) Ostrý maturitní test Cermat-u ( základní úroveň ) – jaro 2013, příklad č. 24 Body:  2                  Výsledek:  E Pracovní tematické zařazení: Geometrická posloupnost Řešení: Ze zadání plyne, že  a3 = 3          a3  =  a2 * q          3  =  2 * q          1,5 = q A) například  a2  =  a1 * q          2  =  a1 * 1,5 =  a1 =  a1 … pravdivé B) a1 * q  = * 1,5  = * = =  2 … pravdivé C) a2 * q  =  2 * 1,5  =  3 … pravdivé D) a3 = 3 … pravdivé E) a3 : q  = =  2 … nepravdivé -------------------------------------------------5) Druhý a třetí člen geometrické posloupnosti je  a2 = 12,  a3 = 18. Jaký je součet prvních čtyř členů této posloupnosti ( a1 + a2 + a3 + a4 ) ? A) <u>60          B) 64          C) 65          D) 72          E) jiný součet</u> Ostrý maturitní test Cermat-u ( základní úroveň ) – podzim 2013, příklad č. 23 Body: 2                    Výsledek:  C Pracovní tematické zařazení: Geometrická posloupnost Řešení: sn  =  a1  *  [(  q<sup>n</sup> – 1 ) : ( q – 1 )] … neznáme a1, q a3  =  a2 * q               18  =  12 * q               1,5 = q například  a2  =  a1 * q               12  =  a1 * 1,5               8 = a1 s4  =  8 *  [(  1,5<sup>4</sup> – 1 ) : ( 1,5 – 1 )]               s4  =  8 * (  4,0625 : 0,5 )               s4 = 65 Poznámka: Úlohu je možné řešit i bez použití součtového vzorce. a3  =  a2 * q               18  =  12 * q               1,5 = q například  a2  =  a1 * q               12  =  a1 * 1,5               8 = a1 například  a4  =  a3 * q                a4  =  18 * 1,5              a4  =  27 a1 + a2 + a3 + a4  =  8 + 12 + 18 + 27  =  65
+a) $(4;2;-2;-4)$   b) $(1;4;16;64)$   c) $(8;-4;2;-1)$   d) $(0;4;8;12)$
 
---------------------------------------------------
+*Jaro 2011, příklad č. 16. Body: 2. Výsledek: a) NE, b) ANO, c) ANO, d) NE.*
 
-# <u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Geometrická posloupnost</u>
+Řešení: a) $4\cdot q=2 \implies q=0{,}5$, ale $2\cdot0{,}5=1\neq-2$ — NE. b) ANO, $q=4$. c) ANO, $q=-0{,}5$. d) $0\cdot q=4$ nemá řešení — NE.
 
-- 6) Kocourkovští potřebovali peníze na opravu cest. V prvním roce si půjčili 1 milion korun. Nic nesplatili, proto ve druhém roce dluh narostl na 1,5 milionu korun. Protože Kocourkovští peníze ani nadále nespláceli, dluh se v každém dalším roce zvýšil o 50 % dluhu z předchozího roku. Ve kterém roce dluh poprvé překročil částku 15 milionů korun ?     A) v 6. roce     B) v 8. roce     C) v 9. roce     D) v 10. roce E) <u>později než v 10. roce</u>
+**2)** Počet obyvatel se za 2 roky zvýšil z 24 500 na 26 500 (stejný meziroční přírůstek). Jaký byl přírůstek?
 
-Ostrý maturitní test Cermat-u ( základní úroveň ) – jaro 2014, příklad č. 19 Body:  2                  Výsledek:  B
+A) méně než 4,0 %   **B) přibližně 4,0 %**   C) přibližně 4,1 %   D) přibližně 4,2 %   E) více než 4,2 %
 
-Pracovní tematické zařazení: Geometrická posloupnost Řešení: Jedná se o úlohu typu „složené úrokování“, a to o procentuální nárůst. an  =  a0 * ( 1 + )<sup>n</sup> 15 000 000  =  1 000 000 * ( 1 + )<sup>n</sup> /: 1 000 000 15  =  ( 1 + )<sup>n</sup> 15 = 1,5<sup>n</sup> … exponenciální rovnice typu 3 ( zlogaritmování ) zlogaritmujeme:  log 15  =  log 1,5<sup>n</sup> 3. věta o logaritmech:  log 15  =  n * log 1,5 =  n               6,7  =  přibližně n
+*Jaro 2012, příklad č. 18. Body: 2.*
 
-Úloha je myšlena tak, že na konci 1. roku by Kocourkovští neplatili žádný úrok, čili na konci 1. roku by vrátili 1 000 000 Kč. Proto je k číslu 6,7 ještě třeba přičíst jedničku ( první bezúročný rok ), čili  6,7 + 1 = 7,7 … dluh poprvé překročil částku 15 000 000 Kč v 8. roce
+Řešení (složené úrokování): $26\,500=24\,500\left(1+\dfrac p{100}\right)^2 \implies\left(1+\dfrac p{100}\right)^2\approx1{,}0816 \implies1+\dfrac p{100}\approx1{,}04 \implies p\approx4$.
 
-Správnost výpočtu můžeme ještě ověřit bez použití složeného úrokování prostým výpočtem jednotlivých částek ( aktuální částku stačí vynásobit číslem 1,5 ): konec 1. ( bezúročného ) roku … měli splatit 1 000 000 Kč konec 2. roku … měli splatit 1 500 000 Kč konec 3. roku … měli splatit 2 250 000 Kč konec 4. roku … měli splatit 3 375 000 Kč konec 5. roku … měli splatit 5 062 500 Kč konec 6. roku … měli splatit 7 593 750 Kč konec 7. roku … měli splatit 11 390 625 Kč konec 8. roku … měli splatit 17 085 937,5 Kč … dluh poprvé překročil částku 15 000 000 Kč v 8. roce
+**3)** Počítač za 10 000 Kč se každý rok znehodnotí o stejné procento. Po 4 letech klesne na cca 1 300 Kč. Kolik procent ročně (s přesností na 1 %)?
 
---------------------------------------------------
+A) méně než 22 %   B) 22 %   C) 34 %   **D) 40 %**   E) více než 40 %
 
-<u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Geometrická posloupnost</u>
+*Podzim 2012, příklad č. 22. Body: 2.*
 
-7) Přiřaďte k prvním dvěma členům uvedené posloupnosti následující člen ( A – E ). Geometrická posloupnost: A) B) C) D) E) Ostrý maturitní test Cermat-u ( základní úroveň ) – jaro 2014, příklad č. 26.3 Body:  1                  Výsledek:  C
+Řešení: $1\,300=10\,000\left(1-\dfrac p{100}\right)^4\ /:10\,000 \implies0{,}13=\left(1-\dfrac p{100}\right)^4 \implies1-\dfrac p{100}\approx0{,}6005 \implies p\approx40$.
 
-Pracovní tematické zařazení: Geometrická posloupnost Řešení: a2  =  a1 * q = * q   /: : =  q * =  q               4 = q například  a3  =  a2 * q               a3  = * 4  =
+**4)** V geometrické posloupnosti platí $a_2=2$, $a_2\cdot a_3=6$. Které tvrzení je nepravdivé?
 
---------------------------------------------------
+A–D) *(nedochováno, pravdivá)*   **E) $\dfrac{a_3}q=2$ (chybně; ve skutečnosti $a_1=\dfrac43$)**
 
-Do kterého z uvedených intervalů patří třetí člen posloupnosti ? A) < 1, 4 )     B) < 4, 8 )     C) < 8, 16 )     D) < 16, 32 )     E) < 32, 40 > Ostrý maturitní test Cermat-u ( základní úroveň ) – jaro 2015, příklad č. 23 Body:  2                  Výsledek:  B
+*Jaro 2013, příklad č. 24. Body: 2.*
 
-Pracovní tematické zařazení: Geometrická posloupnost Řešení: * a4  =  a2 * q<sup>2</sup> = * q<sup>2</sup> /: : =  q<sup>2</sup> =  q<sup>2</sup> =  q<sup>2</sup> q1 = q2 =  – a) výpočet pro  q1 = například  a4  =  a3 * q1 =  a3 * /: : =  a3 * =  a3 =  a3               4,5 = a3 b) výpočet pro  q2 = – například  a4  =  a3 * q2 =  a3 * (– )    /: (– : (– )  =  a3 * (– )  =  a3               – =  a3 –4,5 = a3 … nevyhovuje zadání ( členy posloupnosti musejí být kladné )
+Řešení: $a_3=\dfrac6{a_2}=3$. $q=\dfrac{a_3}{a_2}=1{,}5$. Správně: $a_1=\dfrac{a_2}q=\dfrac2{1{,}5}=\dfrac43$, ne $2$ jako tvrdí nepravdivá možnost E (ta chybně dělí $a_3$, ne $a_2$, kvocientem).
 
-Závěr:  a3 = 4,5 … člen a3 <u>patří do intervalu < 4,  8 )</u>
+**5)** $a_2=12$, $a_3=18$. Jaký je součet $a_1+a_2+a_3+a_4$?
 
---------------------------------------------------
+A) 60   B) 64   **C) 65**   D) 72   E) jiný součet
 
-# <u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Geometrická posloupnost</u>
+*Podzim 2013, příklad č. 23. Body: 2.*
 
-9) V geometrické posloupnosti platí:   q = –2          a1 + a2 + a3 +a4 + a5  =  15,4 Do kterého z uvedených intervalů patří první člen a1 posloupnosti ? A) < – 8, 0 )     B) <u>( 0, 2 >     C) ( 2, 4 >    D) ( 4, 8 >     E) do žádného z uvedených</u> Ostrý maturitní test Cermat-u ( základní úroveň ) – podzim 2015, příklad č. 19 Body: 2                    Výsledek:  B ( a1 = 1,4 )
+Řešení: $q=\dfrac{18}{12}=1{,}5$; $a_1=\dfrac{12}{1{,}5}=8$; $a_4=18\cdot1{,}5=27$. Součet: $8+12+18+27=65$.
 
-Pracovní tematické zařazení: Geometrická posloupnost Řešení: sn  =  a1  *  [(  q<sup>n</sup> – 1 ) : ( q – 1 )]               s5  =  a1  *  { [ (–2)<sup>5</sup> – 1 ] : ( –2 – 1 ) } 15,4  =  a1  *  [ ( –32 – 1 ) : (–3) ]              15,4  =  a1  *  [ ( –33 ) : (–3) ] 15,4  =  a1 * 11               1,4 = a1 … první člen a1 <u>patří do intervalu ( 0, 2 ></u>
+*(Nebo součtovým vzorcem: $s_4=8\cdot\dfrac{1{,}5^4-1}{1{,}5-1}=8\cdot\dfrac{4{,}0625}{0{,}5}=65$.)*
 
---------------------------------------------------
+**6)** Kocourkovští si půjčili 1 mil. Kč, dluh každý rok roste o 50 %. Ve kterém roce dluh poprvé překročí 15 mil. Kč?
 
-10) Kocourkovští chtěli prodat stroj za 200 000 Kč, ale za tuto cenu ho nikdo nekoupil. Proto pevně stanovili počet procent, o který se každodenně sníží prodejní cena stroje z předchozího dne. Po čtvrtém snížení, kdy cena klesla na 81 920 Kč, stroj konečně prodali. O kolik korun se cena snížila poprvé ?     A) o méně než 30 000 Kč B) o 30 <u>000 Kč C) o 35 000 Kč       D) o 40 000 Kč       E) o více než 40 000 Kč</u> Ostrý maturitní test Cermat-u ( základní úroveň ) – jaro 2016, příklad č. 20 Body:  2                  Výsledek:  D
+A) v 6. roce   **B) v 8. roce**   C) v 9. roce   D) v 10. roce   E) později
 
-Pracovní tematické zařazení: Geometrická posloupnost Řešení: Jedná se o úlohu typu „složené úrokování“, a to o procentuální pokles. an  =  a0 * ( 1 – )<sup>n</sup> 81 920  =  200 000 * ( 1 – )<sup>4</sup> /: 200 000 0,4096  =  ( 1 – )<sup>4</sup> 0,8  =  1 – /* 100          80 = 100 – p          p = 20 % <u>původní cena … 200 000 Kč          1. snížení bylo o 20 % z 200 000 Kč  =  40 000 Kč</u> --------------------------------------------------
+*Jaro 2014, příklad č. 19. Body: 2.*
 
-<u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Geometrická posloupnost</u>
+Řešení: $15=1{,}5^n$ (v milionech). Zlogaritmováním: $n=\dfrac{\log15}{\log1{,}5}\approx6{,}7$. Protože první rok byl bezúročný, přičteme 1: $6{,}7+1\approx7{,}7$, tedy dluh poprvé překročí 15 mil. v **8. roce**.
 
-11)
+Kontrola postupným výpočtem: konec 1. roku 1 000 000 Kč, 2. roku 1 500 000, 3. roku 2 250 000, 4. roku 3 375 000, 5. roku 5 062 500, 6. roku 7 593 750, 7. roku 11 390 625, 8. roku 17 085 937,5 Kč — poprvé přes 15 mil. v 8. roce ✓.
 
-<u>Obrazec obsahuje 18 trojúhelníků. Vypočtěte v cm výšku</u> _<u>v</u>_ <u>celého obrazce.</u> Ostrý maturitní test Cermat-u ( základní úroveň ) – podzim 2016, příklad č. 13 Body: 1                    Výsledek:  262 143 cm
+**7)** Geometrická posloupnost s prvními dvěma členy $a_1=\tfrac12$, $a_2=2$ *(rekonstrukce, $q=4$)*. Jaký je třetí člen?
 
-Pracovní tematické zařazení: Geometrická posloupnost Řešení: délky výšek trojúhelníků tvoří geometrickou posloupnost s kvocientem q = 2 a1 = 1,  a2 = 2,  a3 = 4,  a4 = 8,  a5 = 16  atd. sn  =  a1  *  [(  q<sup>n</sup> – 1 ) : ( q – 1 )]                    s18  =  1 *  [(  2<sup>18</sup> – 1 ) : ( 2 – 1 )] s18  =  2<sup>18</sup> – 1               s18  =  262 143 cm
+A–B, D–E) *(nedochováno)*   **C) $a_3=8$**
 
---------------------------------------------------
+*Jaro 2014, příklad č. 26.3. Body: 1.*
 
-<u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Geometrická posloupnost</u>
+Řešení: $q=\dfrac{a_2}{a_1}=4$. $a_3=a_2\cdot q=2\cdot4=8$.
 
-12) Čtveřice a1, a2, a3, a4  představuje čtyři po sobě jdoucí členy **aritmetické** posloupnosti. Platí:  a1 = 1,  a4 = – 8. Čtveřice g1, g2, g3, g4 představuje čtyři po sobě jdoucí členy **geometrické** posloupnosti. Platí:  g1 = 1,  g4 = – 8. Které z následujících tvrzení je <u>nepravdivé ?</u> A) B) C) D) E) Ostrý maturitní test Cermat-u ( základní úroveň ) – jaro 2017, příklad č. 18 Body: 2                   Výsledek:  D
+**8)** Do kterého intervalu patří třetí člen posloupnosti (ze zadaných $a_2$, $a_4$, kde členy musí být kladné)?
 
-Pracovní tematické zařazení: Geometrická posloupnost Řešení: aritmetická posloupnost:  a1 = 1,  a4 = – 8 … a4 = a1 + 3d          –8 = 1 + 3d          –3 = d zpaměti:  a1 = 1,  a2 = –2,  a3 = –5,  a4 = – 8 geometrická posloupnost:  g1 = 1,  g4 = – 8 … g4 = g1 * q<sup>3</sup> –8 = 1 * q<sup>3</sup> –2 = q zpaměti:  g1 = 1,  g2 = –2,  g3 = 4,  g4 = – 8 Výše uvedený výsledek je patrný z provedených výpočtů.
+A) $\langle1;4)$   **B) $\langle4;8)$**   C) $\langle8;16)$   D) $\langle16;32)$   E) $\langle32;40\rangle$
 
--------------------------------------------------13) Přiřaďte ke každé posloupnosti ( a) – b) ) její druhý člen a2 ( A – F ). a) Geometrická posloupnost:  a1 = 8,   a4 = –1 b) Geometrická posloupnost:  q = – ,   s3 = –12 A) <u>a2 = 4     B) a2 = 5 C) a2 = 6     D) a2 = 7     E) a2 = 8     F) jiná hodnota a2</u> Ostrý maturitní test Cermat-u ( základní úroveň ) – podzim 2017, příklad č. 25.3, 25.4 Body:  2                  Výsledek:  a) F ( a2 = –4 )     b) E
+*Jaro 2015, příklad č. 23. Body: 2. Výsledek: $a_3=4{,}5$.*
 
-Pracovní tematické zařazení: Geometrická posloupnost Řešení: a) a4 = a1 * q<sup>3</sup> –1 = 8* q<sup>3</sup> – = q<sup>3</sup> – = q např.  a2 = a1 * q               a2 = 8 * ( – )               a2 = –4 b) sn  =  a1  *  [(  q<sup>n</sup> – 1 ) : ( q – 1 )]               s3  =  a1  *  [(  q<sup>3</sup> – 1 ) : ( q – 1 )] –12  =  a1  *  [(  – – 1 ) : ( – – 1 )]               –12  =  a1  *  [(  – ) : ( – )] –12  =  a1 * /: –12 : =  a1               –12 * =  a1               –16 = a1 a2 = a1 * q               a2 = –16 * ( – )               a2 = 8 --------------------------------------------------
+Řešení: z $a_4=a_2q^2$ vychází $q^2$ s dvěma možnými řešeními $q_1$ (kladné) a $q_2$ (záporné). Pro kladné $q_1$: $a_3\approx4{,}5$. Pro záporné $q_2$: $a_3\approx-4{,}5$, což nevyhovuje zadání (členy musí být kladné). Platí tedy $a_3=4{,}5\in\langle4;8)$.
 
-<u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Geometrická posloupnost</u>
+**9)** V geometrické posloupnosti $q=-2$, $a_1+a_2+a_3+a_4+a_5=15{,}4$. Do kterého intervalu patří $a_1$?
 
-1i) V geometrické posloupnosti je dán kvocient  q = a člen = 54. Určete hodnoty členů a . Ilustrační maturitní test Cermat-u ( základní úroveň ) – 2010 (1), příklad č. 6 Body: 2                   Výsledek: = 81, = 16
+A) $\langle-8;0)$   **B) $(0;2\rangle$**   C) $(2;4\rangle$   D) $(4;8\rangle$   E) do žádného
 
-Pracovní tematické zařazení: Geometrická posloupnost Řešení: a55  =  a54 * q               a55  =  54 * a55 = 81 např.  a54  =  a51 * q<sup>3</sup> 54  =  a51 * ( )<sup>3</sup> 54  =  a51 * /: 54 : =  a51 * =  a51 * =  a51               16 = a51
+*Podzim 2015, příklad č. 19. Body: 2. Výsledek: $a_1=1{,}4$.*
 
--------------------------------------------------2i) Čtveřice g1, g2, g3, g4, kde  g2  = –10,  g3  = 20,  představuje čtyři po sobě jdoucí členy **geometrické** posloupnosti. Přiřaďte uvedeným členům a), b) odpovídající hodnoty ( A – F ):    a) g1    b) g4 A) –50     B) –40 <u>C) –10     D) 5     E) 40     F) 50</u> Ilustrační maturitní test Cermat-u ( základní úroveň ) – 2011, příklad č. 22.3, 22.4 Body: 2                    Výsledek:  a) D     b) B
+Řešení: $s_5=a_1\cdot\dfrac{(-2)^5-1}{-2-1}=a_1\cdot\dfrac{-33}{-3}=11a_1$. $15{,}4=11a_1 \implies a_1=1{,}4$.
 
-Pracovní tematické zařazení: Geometrická posloupnost Řešení: g3  =  g2 * q               20  =  –10 * q               –2 = q a) např.  g2  =  g1 * q               –10  =  g1 * (–2)               5 = g1 b) např. g4  =  g3 * q <u>g4  =  20 * (–2) g4  =  – 40</u>
+**10)** Stroj za 200 000 Kč zlevňoval o stejné procento denně; po 4. snížení klesl na 81 920 Kč. O kolik se cena snížila poprvé?
 
---------------------------------------------------
+A) méně než 30 000 Kč   B) 30 000 Kč   C) 35 000 Kč   **D) 40 000 Kč**   E) více než 40 000 Kč
 
-3i) V geometrické posloupnosti  ( platí: = = Jaký je kvocient posloupnosti ?     A) B) C) 2     D) 4     E) 6 Ilustrační maturitní test Cermat-u ( základní úroveň ) – 2014 (1), příklad č. 23 Body: 2                    Výsledek:  D
+*Jaro 2016, příklad č. 20. Body: 2.*
 
-Pracovní tematické zařazení: Geometrická posloupnost Řešení: = /* 4               a2 = 2 = /* 2a3               a3 = 8 a3  =  a2 * q               8  =  2 * q               4 = q --------------------------------------------------
+Řešení: $81\,920=200\,000\left(1-\dfrac p{100}\right)^4\ /:200\,000 \implies0{,}4096=\left(1-\dfrac p{100}\right)^4 \implies1-\dfrac p{100}=0{,}8 \implies p=20\%$. První snížení: $20\%$ z $200\,000=40\,000$ Kč.
 
-<u>Příklady z maturitních testů Cermat-u ( základní úroveň ) – Geometrická posloupnost</u>
+**11)** Obrazec s 18 trojúhelníky, výšky tvoří GP $a_1=1$, $q=2$. Vypočtěte celkovou výšku $v$.
 
-4i) Úvěr s 10 % roční úrokovou mírou pan Novák splatí po dvou letech jednorázovou částkou 72 600 Kč. Jedná se o složené úrokování, tedy na konci každého roku se aktuální dlužná částka zvýší o 10 %. Kolik korun banka panu Novákovi půjčila ? A) <u>60 000 Kč     B) 60 200 Kč C) 60 500 Kč     D) 60 600 Kč     E) jinou částku</u> Ilustrační maturitní test Cermat-u ( základní úroveň ) – 2014 (2), příklad č. 19 Body: 2                    Výsledek:  A Pracovní tematické zařazení: Geometrická posloupnost Řešení: Jedná se o úlohu typu „složené úrokování“, a to o procentuální nárůst. an  =  a0 * ( 1 + )<sup>n</sup> 72 600  =  a0 * ( 1 + )<sup>2</sup> 72 600  =  a0 * 1,1<sup>2</sup> 72 600  =  a0 * 1,21               60 000 = a0
+*Podzim 2016, příklad č. 13. Body: 1. Výsledek: 262 143 cm.*
 
---------------------------------------------------
+Řešení: $s_{18}=1\cdot\dfrac{2^{18}-1}{2-1}=2^{18}-1=262\,143$ cm.
+
+**12)** AP: $a_1=1$, $a_4=-8$. GP: $g_1=1$, $g_4=-8$. Které tvrzení je nepravdivé (o vztahu mezi odpovídajícími členy obou posloupností)?
+
+A–C, E) *(pravdivá)*   **D) (nepravdivé)**
+
+*Jaro 2017, příklad č. 18. Body: 2.*
+
+Řešení: AP: $a_4=a_1+3d \implies-8=1+3d \implies d=-3$: $1,-2,-5,-8$. GP: $g_4=g_1q^3 \implies-8=q^3 \implies q=-2$: $1,-2,4,-8$. Druhé členy obou posloupností se shodují ($-2=-2$), ale třetí členy se liší ($-5\neq4$) — z toho plyne, které tvrzení o (ne)shodě členů je nepravdivé.
+
+**13)** Přiřaďte GP a), b) jejich druhý člen:
+
+a) $a_1=8$, $a_4=-1$
+b) $q=-\tfrac12$, $s_3=-12$
+
+A) $a_2=4$   B) $a_2=5$   C) $a_2=6$   D) $a_2=7$   **E) $a_2=8$**   F) jiná hodnota
+
+*Podzim 2017, příklad č. 25.3, 25.4. Body: 2. Výsledek: a) F ($a_2=-4$), b) E.*
+
+Řešení: a) $-1=8q^3 \implies q^3=-\dfrac18 \implies q=-\dfrac12$. $a_2=8\cdot\left(-\dfrac12\right)=-4$.
+
+b) $s_3=a_1\cdot\dfrac{q^3-1}{q-1}=-12$; s $q=-\dfrac12$ vychází $a_1=-16$. $a_2=a_1q=-16\cdot\left(-\dfrac12\right)=8$.
+
+---
+
+*Ilustrační maturitní testy Cermatu*
+
+**1i)** V GP je $q=\dfrac32$, $a_{54}=54$. Určete $a_{55}$ a $a_{51}$.
+
+*2010 (1), příklad č. 6. Body: 2. Výsledek: $a_{55}=81$, $a_{51}=16$.*
+
+Řešení: $a_{55}=a_{54}\cdot q=54\cdot\dfrac32=81$. $a_{54}=a_{51}\cdot q^3 \implies54=a_{51}\cdot\dfrac{27}8 \implies a_{51}=54\cdot\dfrac8{27}=16$.
+
+**2i)** V GP je $g_2=-10$, $g_3=20$. Přiřaďte a) $g_1$, b) $g_4$:
+
+A) $-50$   B) $-40$   C) $-10$   **D) 5**   E) 40   F) 50
+
+*2011, příklad č. 22.3, 22.4. Body: 2. Výsledek: a) D, b) B.*
+
+Řešení: $q=\dfrac{20}{-10}=-2$. $g_1=\dfrac{g_2}q=\dfrac{-10}{-2}=5$. $g_4=g_3\cdot q=20\cdot(-2)=-40$.
+
+**3i)** V geometrické posloupnosti jsou dány dva vztahy mezi členy $a_2$ a $a_3$, vedoucí k $a_2=2$, $a_3=8$. Jaký je kvocient?
+
+A–B) *(nedochováno)*   C) 2   **D) 4**   E) 6
+
+*2014 (1), příklad č. 23. Body: 2.*
+
+Řešení: $q=\dfrac{a_3}{a_2}=\dfrac82=4$.
+
+**4i)** Úvěr s 10% roční úrokovou mírou splacen po 2 letech částkou 72 600 Kč (složené úročení). Kolik bylo půjčeno?
+
+**A) 60 000 Kč**   B) 60 200 Kč   C) 60 500 Kč   D) 60 600 Kč   E) jiná částka
+
+*2014 (2), příklad č. 19. Body: 2.*
+
+Řešení: $72\,600=a_0\cdot1{,}1^2=a_0\cdot1{,}21 \implies a_0=60\,000$ Kč.
+
+## Zdroje
+
+MATURITA HADR / Matematika / řešené postupy matematických okruhů z DT 2010–2017, dokument *36) Geometrická posloupnost.pdf*.

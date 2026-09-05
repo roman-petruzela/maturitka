@@ -4,144 +4,81 @@ order: 6
 source: "matematika/TY01_0223_Statistika_-_korelace.pptx"
 hasExercises: true
 ---
-**_Korelace_** (z lat.) znamená vzájemný vztah mezi dvěma procesy nebo veličinami. Pokud se jedna z nich mění, mění se **korelativně** i druhá a naopak. Pokud se mezi dvěma procesy ukáže korelace, je pravděpodobné, že na sobě závisejí, nelze z toho však ještě usoudit, že by jeden z nich musel být příčinou a druhý následkem. To samotná korelace nedovoluje rozhodnout.
 
-# Korelace
+> Pozn. k obsahu: Zdrojová prezentace obsahovala vzorce vložené jako obrázky (nečitelné po převodu) a odkazovala na vložené grafy a externí soubory — vzorce jsou níže doplněny v LaTeXu podle standardní definice Pearsonova korelačního koeficientu, obrázky grafů (bez dochovaného textu) vynechány. U obou příkladů (výška syna/otce, známky/IQ) byla dochována jen tabulka vstupních dat bez výsledku — korelační koeficient jsem dopočítal a dvakrát nezávisle zkontroloval (přímým i zjednodušeným vzorcem). Odkazovaný soubor *úlohy korelace.xlsx* není součástí archivu.
 
-"V řadě evropských regionů bylo zjištěno, že čím více čápů žije v určité krajině, tím vyšší je tam porodnost. Korelační koeficienty byly tak významné, že je velice nepravděpodobné, že zjištěná souvislost je náhodná. Jsme tedy ochotni přijmout hypotézu, že čápi přece jen nosí děti?“
+**Korelace** (z lat.) znamená vzájemný vztah mezi dvěma procesy nebo veličinami. Pokud se jedna z nich mění, mění se korelativně i druhá (a naopak). Pokud se mezi dvěma procesy ukáže korelace, je pravděpodobné, že na sobě závisejí — **nelze z toho ale ještě usoudit, že by jeden z nich musel být příčinou a druhý následkem**. To samotná korelace nedovoluje rozhodnout.
 
-Zdroj: http://technet.idnes.cz/autismus-a-biopotraviny-08s-/veda.aspx?c=A <u>130103_141747_veda_mla</u>
+> *"V řadě evropských regionů bylo zjištěno, že čím více čápů žije v určité krajině, tím vyšší je tam porodnost. Korelační koeficienty byly tak významné, že je velice nepravděpodobné, že zjištěná souvislost je náhodná. Jsme tedy ochotni přijmout hypotézu, že čápi přece jen nosí děti?"*
 
-# Korelace
+Otázka, zda je mezi dvěma veličinami nějaký vztah, se objevuje všude — čerpání lepšího paliva ovlivňuje spotřebu auta, počet prodavačů v prodejně ovlivňuje tržby, počet snědených dortů ovlivňuje objem pasu.
 
-Je mezi dvěma veličinami nějaký vztah? Např.:
+Korelace ale neříká, že jeden zkoumaný parametr musí nutně ovlivňovat druhý — oba mohou být ovlivněné něčím jiným (tzv. **skrytá proměnná**). Například prodej zmrzliny se vzájemně neovlivňuje s prodejem slunečníků — obojí je vyvolané teplým počasím — ale silná korelace by se mezi nimi přesto objevila.
 
-– Čerpání lepšího paliva ovlivňuje spotřebu auta
+## Vstupní data
 
-– Počet prodavačů v prodejně ovlivňuje tržby – Počet snědených dortů ovlivňuje objem pasu :)
+Zkoumáme dvojici znaků $x$ a $y$ na souboru o rozsahu $n$ — výsledkem šetření jsou dvojice $(x_1,y_1),(x_2,y_2),\dots,(x_n,y_n)$. Hledáme míru statistické závislosti obou znaků; k tomu potřebujeme aritmetické průměry $\bar x$, $\bar y$ a směrodatné odchylky $s_x$, $s_y$ obou znaků (viz [Statistika – charakteristiky variability](/mat/statistika/05-statistika-charakteristiky-variability/)).
 
-# Korelace
+## Výpočet — koeficient korelace
 
-Korelace neříká, že jeden zkoumaný parametr musí nutně ovlivňovat druhý. Mohou být oba ovlivněné něčím jiným: Například prodej zmrzliny se vzájemně neovlivňuje s prodejem slunečníků - obojí je vyvolané teplým počasím - ale korelace by se zřejmě objevila.
+$$r_{xy} = \frac{\frac1n\sum_{i=1}^n (x_i-\bar x)(y_i-\bar y)}{s_x s_y}$$
 
-# Korelace – vstupní data
+Nebo jednodušeji pro ruční výpočet (matematicky ekvivalentní vzorec):
 
-x Dvojice znaků y Rozsah souboru n Výsledek šetření – data (x1, y1), (x2, y2), … (xn, yn)
+$$r_{xy} = \frac{\frac1n\sum_{i=1}^n x_i y_i - \bar x\bar y}{s_x s_y}$$
 
-**_Hledáme míru statistick_** **_~~é z~~_** _~~x~~_ **_ávi_** **_~~sl~~_** _~~y~~_ **_osti obou znaků_** Aritmetické průměry znaků         a Směrodatné odchylky _sx_ a _sy_
+## Interpretace hodnot
 
-# Korelace – výpočet
+Koeficient korelace nabývá hodnot od $-1$ do $1$.
 
-Koeficient korelace _rxy_
+- **Hodnota blízká 1** — závislost je silná a **přímá** (např. výkon počítače a počet úloh, které vyřeší za hodinu — čím vyšší výkon, tím více úloh).
+- **Hodnota blízká $-1$** — závislost je silná, ale **nepřímá** (např. výkon počítače a čas potřebný ke zpracování úlohy — čím vyšší výkon, tím kratší čas).
+- **Hodnota blízká 0** — závislost mezi znaky prakticky neexistuje (např. výkon počítače a jeho barva).
 
-<!-- Start of picture text -->
-1 n<br>  <br> x x   <br>i yi y<br>n<br>i 1<br> <br>r<br>xy<br><br>s s<br>x y<br><!-- End of picture text -->
+## Korelace není kauzalita
 
-(1)
+Se statistikou je potřeba nakládat opatrně. Dokládá to i internetový vtip, který "odhalil nebezpečné zdravotní riziko" — zdánlivou souvislost mezi konzumací biopotravin a výskytem autismu (obojí v USA v čase rostlo souběžně). Graf vznikl náhodou, když si jeden uživatel serveru Imgur.com (jinak vědec v neurologické laboratoři) zkoušel práci se statistickým softwarem — šokující informace má jednu vadu: je úplně nesmyslná. Korelace zkrátka není totéž co kauzalita, zvlášť u dvou veličin, které v čase jen obě náhodou rostou.
 
-# Korelace – výpočet
+## Příklady
 
-Nebo jednodušeji pro ruční výpočet:
+**1.** 15 studentů v posledním ročníku střední školy uvedlo svou tělesnou výšku ($x$) a tělesnou výšku svého otce ($y$), v cm:
 
-<!-- Start of picture text -->
-1 n<br><br>xi yi xy<br>n<br>i 1<br> <br>r (2)<br>xy<br><br>s s<br>x y<br><!-- End of picture text -->
-
-Korelace - hodnoty Koeficient korelace nabývá hodnoty od -1 do 1 Hodnota blízká k 1
-
-- znamená, že závislost je silná a přímá • například vztah výkonu počítače a počtu úloh, které vyřeší za hodinu – čím vyšší výkon, tím více úloh
-
-- Hodnota blízká k –1
-
-– Znamená, že závislost je silná, ale nepřímá
-
-- například vztah výkonnosti počítače a času, za který počítač zpracuje úlohu – čím vyšší výkon, tím kratší čas
-
-# Korelace - hodnoty
-
-• Hodnota blížící se nule
-
-– znamená, že závislost není skoro žádná
-
-• například  výkon počítače a jeho barva
-
-A podle čeho si vybíráte počítač vy?
-
-Korelace - grafy Grafické znázornění vztahu mezi dvěma veličinami:
-
-– přehledné
-
-– názorné
-
-– srozumitelné
-
-# Korelace - grafy <u>Pozitivní korelace měnových kurzů</u>
-
-Korelace - grafy <u>Negativní korelace mezi vývojem americk ého dolaru a cenou ropy</u>
-
-# Korelace - grafy
-
-Se statistikou se musí nakládat opatrně. Dokládá to vtip, který aktuálně koluje mezi odbornou veřejností na internetu a který "odhalil nebezpečné zdravotní riziko": zdánlivou souvislost mezi konzumací biopotravin a výskytem autismu. Korelace zkrátka není to samé co kauzalita.
-
-Zdroj: http://technet.idnes.cz/autismus-a-biopotraviny-08s-/veda.as <u>px?c=A130103_141747_veda_mla</u>
-
-# Korelace - grafy
-
-<!-- Start of picture text -->
-odkaz<br><!-- End of picture text -->
-
-Korelace - grafy Šokující informace má jednu vadu - je úplně nesmyslná. Graf vznikl náhodou díky jednomu z uživatelů stránek Imgur. com, které slouží k ukládání a sdílení obrázků. Jeho autor, který jinak pracuje jako vědec v neurologické laboratoři, si zkoušel práci se statistickým softwarem.
-
-Zdroj: http://technet.idnes.cz/autismus-a-biopotraviny-08s-/veda.as <u>px?c=A130103_141747_veda_mla</u>
-
-# Korelace – zadání
-
-## Příklad:
-
-15 studentů v posledním ročníku střední školy bylo vyzváno, aby uvedli svou tělesnou výšku (znak x) a tělesnou výšku svého otce (znak y).Byly zjištěny tyto hodnoty:
-
-|Výšk<br>a<br>syna|17<br>2|16<br>8|18<br>3|18<br>2|17<br>4|16<br>6|17<br>3|17<br>0|18<br>0|17<br>1|16<br>5|17<br>1|17<br>9|18<br>9|17<br>7|
+| $x$ (syn) | 172 | 168 | 183 | 182 | 174 | 166 | 173 | 170 | 180 | 171 | 165 | 171 | 179 | 189 | 177 |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-|Výšk<br>|17|17|18|17|16|16|17|17|17|16|16|17|18|18|17|
-|a<br>otce|5|0|5|6|8|7|1|6|6|6|9|7|4|5|3|
+| $y$ (otec) | 175 | 170 | 185 | 176 | 168 | 167 | 171 | 176 | 176 | 166 | 169 | 177 | 184 | 185 | 173 |
 
-# Korelace – výpočet
+Vypočítejte aritmetické průměry, směrodatné odchylky a korelační koeficient $r_{xy}$.
 
-1. Vypočítejte aritmetické průměry 2. Vypočítejte směrodatné odchylky 1 _n x_ 3. Vypočítejte  _i_<sup>_y_</sup> _i n i_ 1
+Výsledek: ||x̄=174,67cm; ȳ=174,53cm; s_x≈6,60; s_y≈6,11; Σ(xᵢ-x̄)(yᵢ-ȳ)/n≈31,11; r_xy = 31,11/(6,60·6,11) ≈ 0,77 — silná přímá závislost mezi výškou syna a otce, což odpovídá očekávání (výška je z velké části dědičná)||
 
-4. Vypočtěte ze vzorce (2) hodnotu _rxy_ 5. Pro výpočet ze vzorce (1) využijte tabulkový kalkulátor
+**2.** 25 žáků 7. třídy základní školy se podrobilo inteligenčnímu testu (IQ, $y$); výsledky byly porovnány s průměrnou známkou na vysvědčení ($x$, kde 1 = nejlepší). Žáci jsou seřazeni podle prospěchu:
 
-# Korelace – zadání
+| známka | 1,00 | 1,82 | 2,64 | 1,18 | 2,00 | 2,73 | 1,27 | 2,00 | 2,82 |
+|---|---|---|---|---|---|---|---|---|---|
+| IQ | 134 | 102 | 86 | 108 | 118 | 106 | 140 | 98 | 94 |
 
-Příklad: 25 žáků 7. třídy základní školy se podrobilo inteligenčnímu testu. Výsledkem testu je tzv. inteligenční kvocient IQ, udávaný v bodech; u převážné většiny populace leží mezi 80 a 120 body. Výsledky testu byly porovnány s průměrem známek na vysvědčení. Žáci jsou již seřazeni podle prospěchu.
+| známka | 1,36 | 2,18 | 2,91 | 1,45 | 2,18 | 3,09 | 1,45 | 2,36 | 3,18 |
+|---|---|---|---|---|---|---|---|---|---|
+| IQ | 116 | 122 | 86 | 120 | 96 | 100 | 98 | 100 | 90 |
 
-# Korelace – tabulka hodnot
+| známka | 1,64 | 2,36 | 3,27 | 1,64 | 2,55 | 3,45 | 3,45 |
+|---|---|---|---|---|---|---|---|
+| IQ | 108 | 106 | 68 | 96 | 96 | 80 | 82 |
 
-|**Známk**<br>**a**|**IQ**|**Známk**<br>**a**|**IQ**|**Známk**<br>**a**|**IQ**|
-|---|---|---|---|---|---|
-|1,00|134|1,82|102|2,64|86|
-|1,18|108|2,00|118|2,73|106|
-|1,27|140|2,00|98|2,82|94|
-|1,36|116|2,18|122|2,91|86|
-|1,45|120|2,18|96|3,09|100|
-|1,45|98|2,36|100|3,18|90|
-|1,64|108|2,36|106|3,27|68|
-|1,64|96|2,55|96|3,45|80|
-|||||3,45|82|
+Vypočítejte koeficient korelace mezi průměrnou známkou a inteligenčním kvocientem žáků (v praxi počítáno tabulkovým kalkulátorem).
 
-Korelace – výpočet Vypočítejte koeficient korelace mezi průměrnou známkou a inteligenčním kvocientem žáků.
+Výsledek: ||x̄≈2,239; ȳ=102; s_x≈0,736; s_y≈16,32; Σ(xᵢ-x̄)(yᵢ-ȳ)/n≈-9,21; r_xy = -9,21/(0,736·16,32) ≈ -0,77 — silná NEPŘÍMÁ závislost mezi číslem známky a IQ; protože nižší číslo známky znamená lepší prospěch, jde ve skutečnosti o silnou přímou souvislost mezi IQ a školním prospěchem||
 
-Využijte tabulkový kalkulátor.
+## Úlohy
 
-# Korelace
+Další úlohy na korelaci (řešené s využitím tabulkového kalkulátoru) obsahoval soubor *úlohy korelace.xlsx*, který není součástí archivu.
 
-Úlohy: Řešte úlohy s využitím znalostí z ICT <u>úlohy korelace.xlsx</u>
+## Zdroje
 
-# Zdroje
+CALDA, Emil, DUPAČ, Václav. *Matematika pro gymnázia. Kombinatorika, pravděpodobnost, statistika.* Praha: Prometheus, 2006.
 
-CALDA, Emil, DUPAČ, Václav. _Matematika pro gymnázia. Kombinatorika, pravděpodobnost, statistika._ Praha: Prometheus, 2006. EXCELentní triky a návody. Korelace v Excelu. [cit. 20.9.2012]. Dostupné z: <u>http://www.excelentnitriky.com/2012/12/korelace-v-excelu.html</u>
+EXCELentní triky a návody. *Korelace v Excelu.* [cit. 2012-09-20]. Dostupné z: excelentnitriky.com
 
-Britské listy. [cit. 11.5.2013]. Dostupné z: <u>http://blisty.cz/art/50290.html</u>
+Technet.cz. *Autismus a biopotraviny.* [cit. 2013-05-11]. Dostupné z: technet.idnes.cz
 
-Technet.cz. [cit. 11.5.2013]. Dostupné z: <u>http://technet.idnes.cz/autismus-a-biopotraviny-08s-/veda.aspx?c=A130103_141 747_veda_mla</u>
-
-Fxstreet.cz. Korelace měn. [cit. 11.5.2013]. Dostupné z: <u>http://www.fxstreet.cz/korelace-men.html</u>
+Fxstreet.cz. *Korelace měn.* [cit. 2013-05-11]. Dostupné z: fxstreet.cz

@@ -4,164 +4,130 @@ order: 12
 source: "matematika/TY01_0212_-_Goniometricke_funkce.pptx"
 hasExercises: true
 ---
+
+> Pozn. k obsahu: Zdrojová prezentace používala animované odrážky, grafy a tabulky vložené jako obrázky, které se při prvním převodu ztratily nebo poškodily (v tabulce hodnot chyběly sloupce 30°/60°, ve dvou příkladech chyběly konkrétní hodnoty posunu — dopočítány ze zachovaných výsledků). Text, vzorce, tabulky a grafy jsou zde doplněné/rekonstruované; grafy jsou vykreslené v radiánech (běžná konvence pro spojité funkce), zatímco tabulky hodnot používají stupně tak, jak byly v podkladu.
+
 ## Osnova
 
-a) pojem funkce b) goniometrické funkce c) grafy a vlastnosti jednotlivých funkcí d) posouvaní grafů goniometrických funkcí e) příklady na procvičení včetně řešení
+a) pojem funkce, b) goniometrické funkce, c) grafy a vlastnosti jednotlivých funkcí, d) posouvání grafů goniometrických funkcí, e) příklady na procvičení včetně řešení.
 
 ## Funkce
 
-• je předpis, který každému _x_ z nějaké množiny _D (definiční obor)_ přiřazuje „ **právě jedno“** reálné číslo _y_ z množiny _H (obor hodnot)_
+Funkce je předpis, který každému $x$ z nějaké množiny $D$ (definiční obor) přiřazuje **právě jedno** reálné číslo $y$ z množiny $H$ (obor hodnot). O funkci mluvíme také jako o tzv. zobrazení, např. $\mathbb{R} \to \mathbb{R}$ — zobrazení z množiny $\mathbb{R}$ do množiny $\mathbb{R}$.
 
-• o funkci mluvíme také jako o tzv. zobrazení
-
-_např.  R_  _R       zobrazení z množiny R do množiny R_
-
-Goniometrické funkce • v matematice pracujeme krom jiných funkcí i s funkcemi goniometrickými a těmi jsou:
-
-_funkce sinus               zkráceně        sin funkce cosinus                              cos funkce tangens                             tg funkce cotangens                         cotg_
+V matematice pracujeme kromě jiných funkcí i s funkcemi **goniometrickými**: funkce sinus ($\sin$), funkce cosinus ($\cos$), funkce tangens ($\mathrm{tg}$), funkce cotangens ($\mathrm{cotg}$).
 
 ## Grafy a vlastnosti
 
-#### • funkce sinus
+**Funkce sinus** (graf: sinusoida) — **lichá** funkce (souměrná podle středu $[0;0]$). $D(f)=\mathbb{R}$, $H(f)=\langle-1;1\rangle$, perioda $2\pi$ (360°).
 
-_nazýváme: sinusoida_ **_lichá_** _funkce – souměrná podle středu D(f) = R ; H(f) = < -1; 1> perioda – 2π (nebo 360_<sup>_o_</sup> _)_
+```graph
+{ "fn": "sin(x)", "domain": [-6.29, 6.29], "yDomain": [-1.4, 1.4], "title": "f: y = sin x" }
+```
 
-<!-- Start of picture text -->
-H(f<br>zde začíná rů<br>) a zde opět roste,<br>tedy po 2π<br>D(f<br>)<br><!-- End of picture text -->
+**Funkce cosinus** (graf: cosinusoida) — **sudá** funkce (souměrná podle osy y). $D(f)=\mathbb{R}$, $H(f)=\langle-1;1\rangle$, perioda $2\pi$ (360°).
 
-## Grafy a vlastnosti • funkce cosinus
+```graph
+{ "fn": "cos(x)", "domain": [-6.29, 6.29], "yDomain": [-1.4, 1.4], "title": "f: y = cos x" }
+```
 
-_nazýváme: cosinusoida_ **_sudá_** _funkce – souměrná podle osy D(f) = R ; H(f) = < -1; 1> perioda – 2π (nebo 360_<sup>_o_</sup> _)_
+**Funkce tangens** (graf: tangentoida) — **lichá** funkce. $D(f)=\mathbb{R} - \left\{\dfrac{\pi}{2}(2k+1);\ k\in\mathbb{Z}\right\}$ (tj. mimo liché násobky 90°, kde funkce není definovaná), $H(f)=\mathbb{R}$, perioda $\pi$ (180°).
 
-## Grafy a vlastnosti
+```graph
+{ "fn": "tan(x)", "domain": [-3.14, 3.14], "yDomain": [-4, 4], "title": "f: y = tg x" }
+```
 
-• funkce tangens
+**Funkce cotangens** (graf: cotangentoida) — **lichá** funkce. $D(f)=\mathbb{R} - \{k\pi;\ k\in\mathbb{Z}\}$, $H(f)=\mathbb{R}$, perioda $\pi$ (180°).
 
-_nazýváme: tangentoida_ **_lichá_** _funkce – souměrná podle středu_
+```graph
+{ "fn": "1/tan(x)", "domain": [-6.2, 6.2], "yDomain": [-4, 4], "title": "f: y = cotg x" }
+```
 
-<!-- Start of picture text -->
-asymptot<br>D(f) = R – { π/2 . (2k +1); k     Z} ; H(f) = R<br>y v těchto<br>perioda –  π  (nebo180 o ) hodnota není<br>definována<br>zde začíná<br>a zde opět<br>růst<br>roste, tedy po<br>1<br>π<br>-1<br>D(f<br>)<br>H(f<br>)<br><!-- End of picture text -->
+## Hodnoty v „hezkých" úhlech
 
-## Grafy a vlastnosti
+| úhel | 0° | 30° | 45° | 60° | 90° | 180° | 270° | 360° |
+|---|---|---|---|---|---|---|---|---|
+| sin | 0 | 1/2 | √2/2 | √3/2 | 1 | 0 | −1 | 0 |
+| cos | 1 | √3/2 | √2/2 | 1/2 | 0 | −1 | 0 | 1 |
+| tg | 0 | √3/3 | 1 | √3 | nedef. | 0 | nedef. | 0 |
+| cotg | nedef. | √3 | 1 | √3/3 | 0 | nedef. | 0 | nedef. |
 
-• funkce cotangens
+## Ukázkové příklady — posouvání grafu
 
-_nazýváme: cotangentoida_ **_lichá_** _funkce – souměrná podle středu D(f) = R – { π . (2k +1); k     Z} ; H(f) = R perioda – π  (nebo180_<sup>_o_</sup> _)_
+**a) $f: y = \sin 2x$**
 
-### Ukázkové příklady - posouvání grafu
+Původní funkce sinus nabývá pro $0°{=}0,\ 90°{=}1,\ 180°{=}0,\ 270°{=}-1,\ 360°{=}0$. Nová funkce (argument násoben 2) nabývá stejných hodnot **dvakrát rychleji**: $2{\cdot}0°{=}0°{\to}0$, $2{\cdot}45°{=}90°{\to}1$, $2{\cdot}90°{=}180°{\to}0$, $2{\cdot}135°{=}270°{\to}-1$, $2{\cdot}180°{=}360°{\to}0$.
 
-_Př. Sestrojte graf dané funkce pomocí posunutí:_ **_f: y = sin 2x_**
+Graf změní periodu z $360°$ na $180°$.
 
-- _původní funkce sinus nabývá pro:  0_<sup>_o_</sup> _= 0; 90_<sup>_o_</sup> _= 1; 180_<sup>_o_</sup> _= 0; 270_<sup>_o_</sup> _= -1; 360_<sup>_o_</sup> _= 0_
+**b) $f: y = \cos\left(x - \dfrac{\pi}{2}\right)$**
 
-- • _nová funkce bude nabývat: 2*_ **_0_**<sup>**_o_**</sup> _= 0_<sup>_o_</sup> _= 0; 2*_ **_45_**<sup>**_o_**</sup> _= 90_<sup>_o_</sup> _= 1; 2*_ **_90_**<sup>**_o_**</sup> _= 180_<sup>_o_</sup> _= 0; 2*_ **_135_**<sup>**_o_**</sup> _= 270_<sup>_o_</sup> _= -1; 2*_ **180**<sup>**o**</sup> _= 360_<sup>_o_</sup> _= 0_
+Nová funkce vznikne tak, že graf cosinu posuneme podél osy x o $\frac{\pi}{2}$ (90°) **doprava** (kdyby bylo v závorce $+$, posunuli bychom doleva). Výsledné hodnoty ($0°{=}0,\ 90°{=}1,\ 180°{=}0,\ 270°{=}-1,\ 360°{=}0$) odpovídají funkci sinus — což dává smysl, protože $\cos(x-90°)=\sin x$ je známá identita.
 
-_Graf změní periodu z 360_<sup>_o_</sup> _na 180_<sup>_o_</sup> _._
+**c) $f: y = \cos x - 1$**
 
-### Ukázkové příklady - posouvání grafu
+Graf cosinu posuneme podél osy y o 1 **dolů** — v $y=-1$ vznikne nová vodorovná asymptota chování („nová osa x"). Perioda se nemění.
 
-_Př. Sestrojte graf dané funkce pomocí posunutí:_ **_f: y = cos (x -      )_**
+**d) $f: y = |\mathrm{tg}\, x|$**
 
-- _původní funkce cosinus nabývá pro:  0_<sup>_o_</sup> _= 1; 90_<sup>_o_</sup> _= 0; 180_<sup>_o_</sup> _= -1; 270_<sup>_o_</sup> _= 0; 360_<sup>_o_</sup> _= 1_
+Tu část grafu tangens, která je pod osou x, souměrně překreslíme nad osu x (absolutní hodnota).
 
-- • _nová funkce vznikne tak, že ji celou posuneme dle osy x o       (90_<sup>_o_</sup> _) směrem doprava. Tedy pro:_ **_0_**<sup>**_o_**</sup> _= 0;_ **_90_**<sup>**_o_**</sup> _= 1;_ **_180_**<sup>**_o_**</sup> _= 0;_ **_270_**<sup>**_o_**</sup> _= -1;_ **_360_**<sup>**_o_**</sup> _= 0_
+## Příklady na procvičení
 
-- _Graf se tedy pouze posune o 90_<sup>_o_</sup> _směrem doprava. (když by v závorce bylo +_ 
+**Příklad 1:** Sestrojte graf funkce $f: y=\cos(0{,}5x)$ pomocí posouvání.
 
-<!-- Start of picture text -->
-doleva)<br><!-- End of picture text -->
+Výsledek:
 
-### Ukázkové příklady - posouvání grafu
+- původní cosinus: ||0°=1, 90°=0, 180°=−1, 270°=0, 360°=1||
+- nová funkce (argument násoben 0,5): ||0,5·0°=0°→1;  0,5·90°=45°→√2/2≈0,71;  0,5·180°=90°→0;  0,5·270°=135°→−√2/2≈−0,71;  0,5·360°=180°→−1||
+- perioda: ||se změní z 360° na 720° (argument roste poloviční rychlostí)||
 
-_Př. Sestrojte graf dané funkce pomocí posunutí:_ **_f: y = cos x - 1_**
+```graph
+{ "fn": "cos(0.5*x)", "domain": [-12.6, 12.6], "yDomain": [-1.4, 1.4], "title": "f: y = cos(0,5x)", "spoiler": true, "float": "right" }
+```
 
-- _původní funkce cosinus nabývá pro:  0_<sup>_o_</sup> _= 1; 90_<sup>_o_</sup> _= 0; 180_<sup>_o_</sup> _= -1; 270_<sup>_o_</sup> _= 0; 360_<sup>_o_</sup> _= 1_
+---
 
-- • _nová funkce vznikne tak, že ji celou posuneme dle osy y o 1 směrem dolů a v y =_
+**Příklad 2:** Sestrojte graf funkce $f: y=\sin\left(x+\dfrac{\pi}{4}\right)$ pomocí posouvání.
 
-   - _-1 vznikne nová osa x´._
+Výsledek:
 
-- _Graf se tedy pouze posune o 1 směrem dolů. (když by na konci bylo   +_  _nahoru)_
+- posun: ||graf sinu se posune o π/4 (45°) doleva, perioda se nemění||
+- ověření hodnot: ||−45°→0, 45°→1, 135°→0, 225°→−1, 315°→0||
 
-### Ukázkové příklady - posouvání grafu
+```graph
+{ "fn": "sin(x + 0.7853981634)", "domain": [-6.29, 6.29], "yDomain": [-1.4, 1.4], "title": "f: y = sin(x + π/4)", "spoiler": true, "float": "right" }
+```
 
-_Př. Sestrojte graf dané funkce pomocí posunutí:_ **_f: y = |tgx|_**
+---
 
-- _původní funkce tangens nabývá pro:  0_<sup>_o_</sup> _= 0; 90_<sup>_o_</sup> _= nedef.; 180_<sup>_o_</sup> _= 0; 270_<sup>_o_</sup> _= nedef.; 360_<sup>_o_</sup> _= 0_
+**Příklad 3:** Sestrojte graf funkce $f: y=\cos x + 0{,}5$ pomocí posouvání.
 
-- _nová funkce vznikne tak, že tu část ,původní funkce tangens, která je pod osou x_
+Výsledek: ||graf cosinu se posune o 0,5 nahoru, v y=0,5 vznikne nová osa x'; perioda se nemění||
 
-###### _souměrně podle osy x překreslíme nad osu x ._
+```graph
+{ "fn": "cos(x) + 0.5", "domain": [-6.29, 6.29], "yDomain": [-1, 2], "title": "f: y = cos x + 0,5", "spoiler": true, "float": "right" }
+```
 
-_Tedy vše, co je pod osou x se nám objeví nad osou x._
+---
 
-Příklady na procvičení př. 1 _: Sestrojte graf funkce f: y = cos    x pomocí posouvání._ <u>Řešení</u>
+**Příklad 4:** Sestrojte graf funkce $f: y=|\sin x|$ pomocí posouvání.
 
-př. 2: _Sestrojte graf funkce f: y = sin (x +    )  pomocí posouvání._ <u>Řešení</u>
+Výsledek: ||část grafu sinu pod osou x se souměrně překreslí nad osu x (absolutní hodnota) — graf vypadá jako řada „kopečků" nad osou x||
 
-př. 3: _Sestrojte graf funkce f: y = cos x + 0,5  pomocí posouvání._ <u>Řešení</u>
-
-př. 4: _Sestrojte graf funkce f: y = |sin x|  pomocí posouvání._ <u>Řešení</u>
-
-<u>přeskočit</u>
-
-Řešení příkladu č.1: Sestrojte graf funkce _f: y = cos    x_ pomocí posouvání.
-
-- _původní funkce cosinus nabývá pro:  0_<sup>_o_</sup> _= 1; 90_<sup>_o_</sup> _= 0; 180_<sup>_o_</sup> _= -1; 270_<sup>_o_</sup> _= 0; 360_<sup>_o_</sup> _= 1_
-
-- _nová funkce bude nabývat: 0,5*_ **_0_**<sup>**_o_**</sup> _= 0_<sup>_o_</sup> _= 1; 0,5*_ **_90_**<sup>**_o_**</sup> _= 45_<sup>_o_</sup> _=       ; 0,5*_ **_180_**<sup>**_o_**</sup> _= 90_<sup>_o_</sup> _= 0; 0,5*_ **_270_**<sup>**_o_**</sup> _= 135_<sup>_o_</sup> _=          ; 0,5*_ **360**<sup>**o**</sup> _= 180_<sup>_o_</sup> _= -1_
-
-###### _Graf změní periodu z 360_<sup>_o_</sup> _na 720_<sup>_o_</sup> _._
-
-<!-- Start of picture text -->
-zpět<br><!-- End of picture text -->
-
-Řešení příkladu č.2: Sestrojte graf funkce f: y = cos (x +    )  pomocí posouvání.
-
-- _původní funkce  sinus nabývá pro:  0_<sup>_o_</sup> _= 0; 90_<sup>_o_</sup> _= 1; 180_<sup>_o_</sup> _= 0; 270_<sup>_o_</sup> _= -1; 360_<sup>_o_</sup> _= 0_
-
-- _nová funkce vznikne tak, že ji celou posuneme dle osy x o       (45_<sup>_o_</sup> _) směrem doleva. Tedy pro:_ **_-45_**<sup>**_o_**</sup> _= 0;_ **_45_**<sup>**_o_**</sup> _= 1;_ **_135_**<sup>**_o_**</sup> _= 0;_ **_225_**<sup>**_o_**</sup> _= -1;_ **_315_**<sup>**_o_**</sup> _= 0_
-
-- _Graf nezmění  svou periodu. Pouze jej posuneme směrem doleva o 45_<sup>_o_</sup> _._
-
-<u>zpět</u>
-
-Řešení příkladu č.3: _Sestrojte graf funkce f: y = cos x + 0,5  pomocí posouvání._
-
-- _původní funkce cosinus nabývá pro:  0_<sup>_o_</sup> _= 1; 90_<sup>_o_</sup> _= 0; 180_<sup>_o_</sup> _= -1; 270_<sup>_o_</sup> _= 0; 360_<sup>_o_</sup> _= 1_
-
-- _nová funkce vznikne tak, že ji celou posuneme dle osy y o 0,5 směrem nahoru a       v y = 0,5 vznikne nová osa x´._
-
-- _Graf nezmění svou periodu. Pouze jej posuneme směrem nahoru o 0,5._
-
-<!-- Start of picture text -->
-zpět<br><!-- End of picture text -->
-
-##### Řešení příkladu č.4: _Sestrojte graf funkce f: y = |sin x|  pomocí posouvání._
-
-- _původní funkce sinus nabývá pro:  0_<sup>_o_</sup> _= 0; 90_<sup>_o_</sup> _= 1; 180_<sup>_o_</sup> _= 0; 270_<sup>_o_</sup> _= -1; 360_<sup>_o_</sup> _= 0_
-
-- _nová funkce vznikne tak, že tu část grafu sinus, která je pod osou x souměrně přeneseme nad osu x_
-
-<!-- Start of picture text -->
-zpět<br><!-- End of picture text -->
+```graph
+{ "fn": "abs(sin(x))", "domain": [-6.29, 6.29], "yDomain": [-0.2, 1.4], "title": "f: y = |sin x|", "spoiler": true, "float": "right" }
+```
 
 ## Shrnutí
 
-##### • goniometrické funkce -  sinus, cosinus, tangens,
-
-|~~cotang~~|~~ens~~<br>sin|c|os||tg|||cotg|
-|---|---|---|---|---|---|---|---|---|
-|D (f)|R||R|R – {|. (2k+|1); k|Z }<br>R|– { k.    ; k     Z<br>}|
-|H(f)|||||R|||R|
-|perioda|(360<sup>o</sup>)|(3|60<sup>o</sup>)||(180<sup>o</sup>|)||(180<sup>o</sup>)|
-|vlastnost|lichá|su|dá||lich|á||lichá|
-||0<sup>o</sup>|30<sup>o</sup>|45<sup>o</sup>|60<sup>o</sup>|90<sup>o</sup>|180<sup>o</sup>|270<sup>o</sup>|360<sup>o</sup>|
-|sin|0||||1|0|-1|0|
-|cos|1||||0|-1|0|1|
-|tg|0||1||nedef<br>.|0|nedef<br>.|0|
-|cotg|nedef<br>.||1||0|nedef<br>.|0|nedef<br>.|
+| | sin | cos | tg | cotg |
+|---|---|---|---|---|
+| D(f) | ℝ | ℝ | ℝ − {π/2·(2k+1); k∈ℤ} | ℝ − {k·π; k∈ℤ} |
+| H(f) | ⟨−1;1⟩ | ⟨−1;1⟩ | ℝ | ℝ |
+| perioda | 2π (360°) | 2π (360°) | π (180°) | π (180°) |
+| vlastnost | lichá | sudá | lichá | lichá |
 
 ## Zdroje
 
-• HUDCOVÁ, Milada a Libuše KUBIČÍKOVÁ. _Sbírka úloh z matematiky pro SOŠ, SOU a nástavbové studium_ . 2. vydání. Havlíčkův Brod: Prometheus, spol. s r.o., 2005. Učebnice pro střední školy. ISBN 80-7196-318-6
+HUDCOVÁ, Milada a Libuše KUBIČÍKOVÁ. _Sbírka úloh z matematiky pro SOŠ, SOU a nástavbové studium_. 2. vydání. Havlíčkův Brod: Prometheus, spol. s r.o., 2005. Učebnice pro střední školy. ISBN 80-7196-318-6
