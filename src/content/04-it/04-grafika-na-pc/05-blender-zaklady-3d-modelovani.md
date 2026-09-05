@@ -1,8 +1,7 @@
 ---
 title: "Blender – základy 3D modelování"
-order: 22
+order: 5
 source: "grafika/VY_32_INOVACE_3224_02 až 18.pdf (13 prezentací sloučeno do jednoho materiálu)"
-hasExercises: true
 ---
 
 > Pozn. k obsahu: Původní podklad byl rozdělen do 13 samostatných prezentací (rozhraní, modelování, zarovnávání, množinové operace, křivky, modifikátory, materiály, UV textury, světla, animace, pohyb po křivce, rendering, normály) — pro přehlednost a s ohledem na rozsah ŠVP (Blender je zde jen jedna dílčí podkapitola tématu Grafika na PC) sloučeno do jednoho materiálu.
