@@ -54,9 +54,7 @@ header.site-header {
 	padding: 1rem 1.5rem;
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
-	gap: 1rem;
-	flex-wrap: wrap;
+	gap: 1.5rem;
 	transition: transform 0.25s ease;
 }
 
@@ -65,6 +63,7 @@ header.site-header.header-hidden {
 }
 
 .brand {
+	flex: 0 0 auto;
 	font-weight: 700;
 	font-size: 1.3rem;
 	letter-spacing: 0.02em;
@@ -76,40 +75,53 @@ header.site-header.header-hidden {
 	color: var(--accent);
 }
 
+/* Horizontally scrollable strip of subjects next to the (fixed) brand —
+   rather than wrapping onto multiple lines (which used to happen on
+   narrow phone widths once there were 12 subjects), it stays on the
+   brand's row, at the same height, and simply scrolls sideways when it
+   doesn't fit. Supports mouse drag-to-scroll (see BaseLayout's script)
+   in addition to touch/trackpad, which already scroll it natively. */
 nav.subject-nav {
+	flex: 1 1 auto;
 	display: flex;
-	gap: 1rem;
-	flex-wrap: wrap;
+	flex-wrap: nowrap;
+	align-items: center;
+	gap: 1.25rem;
+	overflow-x: auto;
+	-webkit-overflow-scrolling: touch;
 	font-family: ui-sans-serif, system-ui, sans-serif;
 	font-size: 0.95rem;
+	cursor: grab;
+	/* the strip already scrolls via drag/touch/trackpad — a visible
+	   scrollbar underneath the links isn't needed and sat awkwardly
+	   against the header's bottom border, so it's hidden cross-browser */
+	scrollbar-width: none;
+}
+
+nav.subject-nav::-webkit-scrollbar {
+	display: none;
+}
+
+nav.subject-nav.dragging {
+	cursor: grabbing;
+	user-select: none;
 }
 
 nav.subject-nav a {
+	flex: 0 0 auto;
+	white-space: nowrap;
 	color: var(--muted);
 	text-decoration: none;
 	padding: 0.25rem 0;
 	border-bottom: 2px solid transparent;
+	-webkit-user-drag: none;
+	user-select: none;
 }
 
 nav.subject-nav a:hover,
 nav.subject-nav a.active {
 	color: var(--fg);
 	border-bottom-color: var(--accent);
-}
-
-#search {
-	min-width: 220px;
-	flex: 1 1 220px;
-	/* Pagefind's default UI hardcodes a light theme via these custom
-	   properties (see pagefind-ui.css's :root block) — override them to
-	   follow the site's own light/dark palette instead of always showing
-	   a plain white box. */
-	--pagefind-ui-primary: var(--accent);
-	--pagefind-ui-text: var(--fg);
-	--pagefind-ui-background: var(--card-bg);
-	--pagefind-ui-border: var(--border);
-	--pagefind-ui-border-width: 1px;
-	--pagefind-ui-font: ui-sans-serif, system-ui, sans-serif;
 }
 
 main {
@@ -120,6 +132,31 @@ main {
 
 main.wide {
 	max-width: 60rem;
+}
+
+.site-footer {
+	border-top: 1px solid var(--border);
+	padding: 1.5rem;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	gap: 0.5rem;
+	font-family: ui-sans-serif, system-ui, sans-serif;
+	font-size: 0.85rem;
+	color: var(--muted);
+}
+
+.site-footer a {
+	color: var(--muted);
+}
+
+.site-footer a:hover {
+	color: var(--accent);
+}
+
+.site-footer-sep {
+	color: var(--border);
 }
 
 h1, h2, h3, h4 {

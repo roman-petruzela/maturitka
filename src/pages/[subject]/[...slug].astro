@@ -91,7 +91,7 @@ const { Content } = await render(entry);
 	<p class="eyebrow">
 		<a class="back-link" href={`/${subject}/`}>← {SUBJECTS[subject].label}</a>
 	</p>
-	<h1 data-pagefind-meta="title">{entry.data.title}</h1>
+	<h1>{entry.data.title}</h1>
 	{
 		entry.data.tags?.includes('doplněno') && (
 			<p class="doplneno-badge">
@@ -106,7 +106,7 @@ const { Content } = await render(entry);
 			</p>
 		)
 	}
-	<article class="topic" data-pagefind-body>
+	<article class="topic">
 		<Content />
 	</article>
 	{subject === 'mat' && <MathScratchpad />}
