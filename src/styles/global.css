@@ -337,6 +337,17 @@ article.topic p {
 	color: var(--fg);
 }
 
+/* "this wasn't preserved in the source" disclaimers (rehype-recon-note.ts,
+   "((text))") — deliberately NOT italic: on badly-damaged source files
+   these show up on nearly every sentence, and a whole paragraph of italics
+   is tiring to read. Smaller + muted instead, so it visibly recedes behind
+   the actual problem text instead of competing with it for attention. */
+.recon-note {
+	font-style: normal;
+	font-size: 0.9em;
+	color: var(--muted);
+}
+
 /* Discord-style "||spoiler||" (rehype-spoiler.ts) — toggled by the delegated
    click/keydown listener in BaseLayout.astro */
 .spoiler {
@@ -456,6 +467,60 @@ article.topic p {
 	margin-top: -0.4rem;
 	color: var(--muted);
 	font-size: 0.9rem;
+}
+
+/* 2D geometric figures (geometry-svg.ts, ```geometry blocks) */
+.geometry-plot .geom-segment {
+	stroke: var(--accent);
+	stroke-width: 2;
+	stroke-linecap: round;
+}
+
+.geometry-plot .geom-circle {
+	stroke: var(--accent);
+	stroke-width: 2;
+	fill: none;
+}
+
+.geometry-plot .geom-point {
+	fill: var(--fg);
+}
+
+.geometry-plot .geom-point-label {
+	fill: var(--fg);
+	font-size: 14px;
+	font-weight: 600;
+	font-family: system-ui, sans-serif;
+}
+
+.geometry-plot .geom-label {
+	fill: var(--muted);
+	font-size: 12px;
+	font-family: system-ui, sans-serif;
+}
+
+.geometry-plot .geom-angle-arc {
+	stroke: var(--muted);
+	stroke-width: 1.4;
+}
+
+.geometry-plot .geom-right-angle {
+	stroke: var(--muted);
+	stroke-width: 1.4;
+}
+
+/* 3D solids (solid-svg.ts, ```solid blocks) — plain wireframe, no
+   hidden-line dashing in v1 (see the comment at the top of solid-svg.ts) */
+.solid-plot .solid-edge {
+	stroke: var(--accent);
+	stroke-width: 1.8;
+	stroke-linecap: round;
+	stroke-linejoin: round;
+}
+
+.solid-plot .solid-edge--hidden {
+	stroke: var(--muted);
+	stroke-dasharray: 4, 3;
 }
 
 /* "float": "right"/"left" (graph-svg.ts) — lets a short "Výsledek:" list
