@@ -482,6 +482,12 @@ article.topic p {
 	fill: none;
 }
 
+.geometry-plot .geom-sector {
+	fill: var(--accent);
+	opacity: 0.18;
+	stroke: none;
+}
+
 .geometry-plot .geom-point {
 	fill: var(--fg);
 }

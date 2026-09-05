@@ -20,9 +20,9 @@
 //       "labels": [{ "at": [3, 0, 0], "text": "r" }, { "at": [0, 0, 2.5], "text": "v" }],
 //       "title": "Kužel" }
 //     ```
-import { fmt, escapeAttr, wrapSpoiler } from './svg-utils';
+import { fmt, escapeAttr, labelTspans, wrapSpoiler } from './svg-utils';
 
-export type SolidType = 'kvadr' | 'krychle' | 'hranol' | 'jehlan' | 'valec' | 'kuzel' | 'koule';
+export type SolidType = 'kvadr' | 'krychle' | 'hranol' | 'jehlan' | 'valec' | 'kuzel' | 'koule' | 'komoly_jehlan' | 'komoly_kuzel';
 
 export interface SolidSpec {
 	type: SolidType;
@@ -42,8 +42,14 @@ type Vec2 = [number, number];
 
 function regularPolygon(n: number, r: number, z: number): Vec3[] {
 	const pts: Vec3[] = [];
+	// offset by half a vertex-spacing so a flat EDGE faces front/bottom
+	// instead of a vertex — for n=4 this is the difference between an
+	// axis-aligned square (recognizable, matches kvadr's own square base)
+	// and a "diamond" rotated 45°, whose edges in cavalier projection run
+	// close to the depth-skew direction and visually collapse into a
+	// thin sliver instead of reading as a square
 	for (let i = 0; i < n; i++) {
-		const ang = -Math.PI / 2 + (2 * Math.PI * i) / n;
+		const ang = -Math.PI / 2 + Math.PI / n + (2 * Math.PI * i) / n;
 		pts.push([r * Math.cos(ang), r * Math.sin(ang), z]);
 	}
 	return pts;
@@ -113,6 +119,29 @@ function buildEdges(spec: SolidSpec): Vec3[][] {
 			];
 			return [bot, top, ...silhouette];
 		}
+		case 'komoly_jehlan': {
+			const { n, r1, r2, v } = p;
+			const bot = regularPolygon(n, r1, 0);
+			const top = regularPolygon(n, r2, v);
+			const verticals = bot.map((pt, i) => [pt, top[i]] as Vec3[]);
+			return [...ring(bot), ...ring(top), ...verticals];
+		}
+		case 'komoly_kuzel': {
+			const { r1, r2, v } = p;
+			const bot = circlePts(48, r1, 0);
+			const top = circlePts(48, r2, v);
+			const silhouette: Vec3[][] = [
+				[
+					[r1, 0, 0],
+					[r2, 0, v],
+				],
+				[
+					[-r1, 0, 0],
+					[-r2, 0, v],
+				],
+			];
+			return [bot, top, ...silhouette];
+		}
 		case 'kuzel': {
 			const { r, v } = p;
 			const bot = circlePts(48, r, 0);
@@ -130,7 +159,7 @@ function buildEdges(spec: SolidSpec): Vec3[][] {
 			return [bot, ...silhouette];
 		}
 		case 'koule': {
-			const { r } = p;
+			const { r, z1, z2 } = p;
 			// front-facing outline (lies in the undistorted x/z plane, so it
 			// projects as a true circle — drawn as a native <circle> below,
 			// this polyline only feeds the bounding-box computation) plus a
@@ -142,7 +171,15 @@ function buildEdges(spec: SolidSpec): Vec3[][] {
 				outline.push([r * Math.cos(ang), 0, r * Math.sin(ang)]);
 			}
 			const equator = circlePts(48, r, 0);
-			return [outline, equator];
+			const cuts: Vec3[][] = [];
+			// optional horizontal "cut" circles at height z1/z2 (kulový
+			// vrchlík/výseč/vrstva/pás — a plane cutting the sphere at height
+			// z intersects it in a circle of radius sqrt(r² - z²))
+			for (const z of [z1, z2]) {
+				if (z == null || Math.abs(z) >= r) continue;
+				cuts.push(circlePts(48, Math.sqrt(r * r - z * z), z));
+			}
+			return [outline, equator, ...cuts];
 		}
 	}
 }
@@ -191,24 +228,38 @@ export function renderSolidSvg(spec: SolidSpec): string {
 	);
 
 	if (spec.type === 'koule') {
-		const { r } = spec.params;
+		const { r, z1, z2 } = spec.params;
 		const center = toScreen([0, 0, 0]);
 		const edgePt = toScreen([r, 0, 0]);
 		const rPx = Math.hypot(edgePt[0] - center[0], edgePt[1] - center[1]);
 		parts.push(`<circle cx="${fmt(center[0])}" cy="${fmt(center[1])}" r="${fmt(rPx)}" class="solid-edge" fill="none" />`);
 		const equator = circlePts(48, r, 0).map(toScreen);
 		parts.push(`<path d="${equator.map((p, i) => `${i === 0 ? 'M' : 'L'}${fmt(p[0])},${fmt(p[1])}`).join(' ')}" class="solid-edge solid-edge--hidden" fill="none" />`);
+		for (const z of [z1, z2]) {
+			if (z == null || Math.abs(z) >= r) continue;
+			const cut = circlePts(48, Math.sqrt(r * r - z * z), z).map(toScreen);
+			parts.push(`<path d="${cut.map((p, i) => `${i === 0 ? 'M' : 'L'}${fmt(p[0])},${fmt(p[1])}`).join(' ')}" class="solid-edge solid-edge--hidden" fill="none" />`);
+		}
 	} else {
 		for (const edge of edges) {
 			const screenPts = edge.map(toScreen);
 			const d = screenPts.map((p, i) => `${i === 0 ? 'M' : 'L'}${fmt(p[0])},${fmt(p[1])}`).join(' ');
 			parts.push(`<path d="${d}" class="solid-edge" fill="none" />`);
 		}
+		// jehlan/kuzel come to a single apex point with no vertical edge of
+		// their own to hang a "v" label on, so a labelled height ends up
+		// floating with nothing to anchor it to — draw the tělesová výška
+		// as an explicit dashed guide line from base-center to apex/top-center
+		if (spec.type === 'jehlan' || spec.type === 'kuzel' || spec.type === 'komoly_jehlan' || spec.type === 'komoly_kuzel') {
+			const bottom = toScreen([0, 0, 0]);
+			const top = toScreen([0, 0, spec.params.v]);
+			parts.push(`<path d="M${fmt(bottom[0])},${fmt(bottom[1])} L${fmt(top[0])},${fmt(top[1])}" class="solid-edge solid-edge--hidden" fill="none" />`);
+		}
 	}
 
 	for (const l of spec.labels ?? []) {
 		const [x, y] = toScreen(l.at);
-		parts.push(`<text x="${fmt(x)}" y="${fmt(y)}" class="geom-label" text-anchor="middle">${escapeAttr(l.text)}</text>`);
+		parts.push(`<text x="${fmt(x)}" y="${fmt(y)}" class="geom-label" text-anchor="middle">${labelTspans(l.text)}</text>`);
 	}
 
 	parts.push(`</svg>`);

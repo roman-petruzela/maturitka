@@ -14,7 +14,7 @@
 //       "title": "Trojúhelník ABC"
 //     }
 //     ```
-import { fmt, escapeAttr, wrapSpoiler } from './svg-utils';
+import { fmt, escapeAttr, labelTspans, wrapSpoiler } from './svg-utils';
 
 export interface GeometrySpec {
 	points: Record<string, [number, number]>;
@@ -25,6 +25,12 @@ export interface GeometrySpec {
 	hiddenPoints?: string[];
 	segments?: { from: string; to: string; label?: string; dashed?: boolean }[];
 	circles?: { center: string; radius: number; label?: string; dashed?: boolean }[];
+	// a partial circle (kruhový oblouk) — fromDeg/toDeg in standard math
+	// convention (0° = +x axis, counterclockwise = increasing), sweeping
+	// counterclockwise from fromDeg to toDeg. "sector" fills the pie slice
+	// (center to arc, kruhová výseč); "segment" fills just arc-to-chord
+	// (kruhová úseč, no center point in the fill)
+	arcs?: { center: string; radius: number; fromDeg: number; toDeg: number; label?: string; fill?: 'sector' | 'segment' }[];
 	angles?: { at: string; from: string; to: string; label?: string; rightAngle?: boolean }[];
 	labels?: { at: [number, number]; text: string }[];
 	width?: number;
@@ -57,6 +63,11 @@ export function renderGeometrySvg(spec: GeometrySpec): string {
 		const [cx, cy] = spec.points[c.center];
 		xs.push(cx - c.radius, cx + c.radius);
 		ys.push(cy - c.radius, cy + c.radius);
+	}
+	for (const a of spec.arcs ?? []) {
+		const [cx, cy] = spec.points[a.center];
+		xs.push(cx - a.radius, cx + a.radius);
+		ys.push(cy - a.radius, cy + a.radius);
 	}
 	const xMin = Math.min(...xs);
 	const xMax = Math.max(...xs);
@@ -97,7 +108,38 @@ export function renderGeometrySvg(spec: GeometrySpec): string {
 		parts.push(
 			`<circle cx="${fmt(cx)}" cy="${fmt(cy)}" r="${fmt(r)}" class="geom-circle"${c.dashed ? ' stroke-dasharray="5,4"' : ''} />`
 		);
-		if (c.label) parts.push(`<text x="${fmt(cx)}" y="${fmt(cy - r - 6)}" class="geom-label" text-anchor="middle">${escapeAttr(c.label)}</text>`);
+		if (c.label) parts.push(`<text x="${fmt(cx)}" y="${fmt(cy - r - 6)}" class="geom-label" text-anchor="middle">${labelTspans(c.label)}</text>`);
+	}
+
+	for (const a of spec.arcs ?? []) {
+		const [mcx, mcy] = spec.points[a.center];
+		const fromRad = (a.fromDeg * Math.PI) / 180;
+		const toRad = (a.toDeg * Math.PI) / 180;
+		const mathStart: Vec2 = [mcx + a.radius * Math.cos(fromRad), mcy + a.radius * Math.sin(fromRad)];
+		const mathEnd: Vec2 = [mcx + a.radius * Math.cos(toRad), mcy + a.radius * Math.sin(toRad)];
+		const center = proj([mcx, mcy]);
+		const start = proj(mathStart);
+		const end = proj(mathEnd);
+		const rPx = Math.hypot(start[0] - center[0], start[1] - center[1]);
+		// sweep counterclockwise in math space (increasing angle) becomes a
+		// *clockwise* sweep once y gets flipped for screen space — hence
+		// sweep-flag 1 (SVG's clockwise) for a positive math-space span
+		let span = ((a.toDeg - a.fromDeg) % 360) + (a.toDeg < a.fromDeg ? 360 : 0);
+		if (span <= 0) span += 360;
+		const largeArc = span > 180 ? 1 : 0;
+		const arcPath = `M${fmt(start[0])},${fmt(start[1])} A${fmt(rPx)},${fmt(rPx)} 0 ${largeArc},1 ${fmt(end[0])},${fmt(end[1])}`;
+		if (a.fill === 'sector') {
+			parts.push(`<path d="${arcPath} L${fmt(center[0])},${fmt(center[1])} Z" class="geom-sector" />`);
+		} else if (a.fill === 'segment') {
+			parts.push(`<path d="${arcPath} Z" class="geom-sector" />`);
+		}
+		parts.push(`<path d="${arcPath}" class="geom-circle" fill="none" />`);
+		if (a.label) {
+			const midDeg = a.fromDeg + span / 2;
+			const midRad = (midDeg * Math.PI) / 180;
+			const lp = proj([mcx + a.radius * 1.2 * Math.cos(midRad), mcy + a.radius * 1.2 * Math.sin(midRad)]);
+			parts.push(`<text x="${fmt(lp[0])}" y="${fmt(lp[1])}" class="geom-label" text-anchor="middle">${labelTspans(a.label)}</text>`);
+		}
 	}
 
 	for (const s of spec.segments ?? []) {
@@ -107,11 +149,19 @@ export function renderGeometrySvg(spec: GeometrySpec): string {
 		if (s.label) {
 			const mx = (x1 + x2) / 2;
 			const my = (y1 + y2) / 2;
-			// nudge the label away from the figure's centroid so it doesn't
-			// land on top of the segment or overlap the shape's interior
-			const away = norm(sub([mx, my], centroid));
+			// offset *perpendicular to the segment itself*, not just "away
+			// from centroid" — for a segment that passes right by the
+			// centroid (e.g. a height dropped from the apex to the
+			// opposite side), "away from centroid" is nearly parallel to
+			// the segment and barely nudges the label at all, so the line
+			// runs straight through the label text instead of beside it
+			const dir = norm([x2 - x1, y2 - y1]);
+			const perp: Vec2 = [-dir[1], dir[0]];
+			const towardCentroid: Vec2 = [centroid[0] - mx, centroid[1] - my];
+			const sign = perp[0] * towardCentroid[0] + perp[1] * towardCentroid[1] > 0 ? -1 : 1;
+			const off = 14;
 			parts.push(
-				`<text x="${fmt(mx + away[0] * 12)}" y="${fmt(my + away[1] * 12)}" class="geom-label" text-anchor="middle">${escapeAttr(s.label)}</text>`
+				`<text x="${fmt(mx + perp[0] * sign * off)}" y="${fmt(my + perp[1] * sign * off + 4)}" class="geom-label" text-anchor="middle">${labelTspans(s.label)}</text>`
 			);
 		}
 	}
@@ -151,18 +201,20 @@ export function renderGeometrySvg(spec: GeometrySpec): string {
 		}
 	}
 
+	const hidden = new Set(spec.hiddenPoints ?? []);
 	for (const n of names) {
+		if (hidden.has(n)) continue;
 		const [px, py] = screen[n];
 		parts.push(`<circle cx="${fmt(px)}" cy="${fmt(py)}" r="3" class="geom-point" />`);
 		const away = norm(sub([px, py], centroid));
 		parts.push(
-			`<text x="${fmt(px + away[0] * 14)}" y="${fmt(py + away[1] * 14 + 4)}" class="geom-point-label" text-anchor="middle">${escapeAttr(n)}</text>`
+			`<text x="${fmt(px + away[0] * 14)}" y="${fmt(py + away[1] * 14 + 4)}" class="geom-point-label" text-anchor="middle">${labelTspans(n)}</text>`
 		);
 	}
 
 	for (const l of spec.labels ?? []) {
 		const [x, y] = proj(l.at);
-		parts.push(`<text x="${fmt(x)}" y="${fmt(y)}" class="geom-label" text-anchor="middle">${escapeAttr(l.text)}</text>`);
+		parts.push(`<text x="${fmt(x)}" y="${fmt(y)}" class="geom-label" text-anchor="middle">${labelTspans(l.text)}</text>`);
 	}
 
 	parts.push(`</svg>`);

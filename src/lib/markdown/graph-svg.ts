@@ -6,7 +6,7 @@
 //    the build on every `\frac{a}{b}`; plain markdown doesn't have that
 //    problem, so graphs are authored as data via `compileExpr()` below
 //    instead of as embedded JSX)
-import { fmt, escapeAttr } from './svg-utils';
+import { fmt, escapeAttr, labelTspans } from './svg-utils';
 
 export interface GraphSpec {
 	fn?: (x: number) => number;
@@ -198,12 +198,12 @@ export function renderGraphSvg(spec: GraphSpec): string {
 	if (showXAxis || showYAxis) {
 		parts.push(`<text x="${showYAxis ? yAxisX - 6 : PAD}" y="${(showXAxis ? xAxisY : height - PAD) + 14}" class="tick-label" text-anchor="end">0</text>`);
 	}
-	if (xLabel) parts.push(`<text x="${width - PAD}" y="${(showXAxis ? xAxisY : height - PAD) - 8}" class="axis-label" text-anchor="end">${escapeAttr(xLabel)}</text>`);
-	if (yLabel) parts.push(`<text x="${(showYAxis ? yAxisX : PAD) + 8}" y="${PAD + 4}" class="axis-label" text-anchor="start">${escapeAttr(yLabel)}</text>`);
+	if (xLabel) parts.push(`<text x="${width - PAD}" y="${(showXAxis ? xAxisY : height - PAD) - 8}" class="axis-label" text-anchor="end">${labelTspans(xLabel)}</text>`);
+	if (yLabel) parts.push(`<text x="${(showYAxis ? yAxisX : PAD) + 8}" y="${PAD + 4}" class="axis-label" text-anchor="start">${labelTspans(yLabel)}</text>`);
 	parts.push(`<path d="${pathD}" class="curve" fill="none" />`);
 	for (const p of points) {
 		parts.push(`<circle cx="${sx(p.x)}" cy="${sy(p.y)}" r="3.5" class="marker" />`);
-		if (p.label) parts.push(`<text x="${sx(p.x) + 6}" y="${sy(p.y) - 6}" class="marker-label">${escapeAttr(p.label)}</text>`);
+		if (p.label) parts.push(`<text x="${sx(p.x) + 6}" y="${sy(p.y) - 6}" class="marker-label">${labelTspans(p.label)}</text>`);
 	}
 	parts.push(`</svg>`);
 	if (title) parts.push(`<figcaption>${escapeAttr(title)}</figcaption>`);

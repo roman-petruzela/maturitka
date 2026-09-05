@@ -8,6 +8,19 @@ astro dev --background
 
 Manage the background server with `astro dev stop`, `astro dev status`, and `astro dev logs`.
 
+**Cache gotcha:** after editing any of `src/lib/markdown/*.ts` (graph-svg.ts, geometry-svg.ts,
+solid-svg.ts, the remark/rehype plugins) or `src/lib/{subjects,groups,content-fs}.ts`, both
+`astro dev`'s file-watcher and a plain `npm run build` can silently keep serving/emitting the
+*old* output — hit this twice in one session (content collections staying empty after a real
+fix, then a solid-diagram fix not showing up). Force a clean re-sync before trusting the
+result:
+
+```
+astro dev stop   # if a dev server is running
+rm -rf dist node_modules/.astro node_modules/.vite .astro
+npm run build    # or: astro dev --background
+```
+
 ## Content ordering & labels
 
 Subject and topic-group order/labels are NOT hardcoded in TypeScript (there's no
