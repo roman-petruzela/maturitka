@@ -91,7 +91,7 @@ source: "cjl/Seznam četby k MZ (1).docx"
 
 44\. SIMMEL, J\. M\.: Láska je jen slovo
 
-45\. ROWLINGOVÁ, J\. K\.: Harry Potter a kámen mudrců
+45\. ROWLINGOVÁ, J\. K\.: Harry Potter a kámen mudrců [x](/cj/rozbor-knih-a-cetba/j-k-rowlingova-harry-potter-a-kamen-mudrcu/ "Rozbor")
 
 46\. GIORDANO, Paolo: Osamělost prvočísel
 
@@ -121,7 +121,7 @@ source: "cjl/Seznam četby k MZ (1).docx"
 
 59\. WOLKER, Jiří: Těžká hodina
 
-60\. SEIFERT, Jaroslav: Maminka
+60\. SEIFERT, Jaroslav: Maminka [x](/cj/rozbor-knih-a-cetba/jaroslav-seifert-maminka/ "Rozbor")
 
 61\. HAŠEK, Jaroslav: Osudy dobrého vojáka Švejka za světové války \(1\. díl\)
 
@@ -143,7 +143,7 @@ source: "cjl/Seznam četby k MZ (1).docx"
 
 70\. BASS, Eduard: Cirkus Humberto
 
-71\. OTČENÁŠEK, Jan: Romeo, Julie a tma
+71\. OTČENÁŠEK, Jan: Romeo, Julie a tma [x](/cj/rozbor-knih-a-cetba/jan-otcenasek-romeo-julie-a-tma/ "Rozbor")
 
 72\. KAFKA, Franz: Proměna [x](/cj/rozbor-knih-a-cetba/franz-kafka-promena/ "Rozbor") [x](/cj/rozbor-knih-a-cetba/franz-kafka-promena-1/ "Rozbor")
 
@@ -161,7 +161,7 @@ source: "cjl/Seznam četby k MZ (1).docx"
 
 79\. JIROTKA, Zdeněk: Saturnin [x](/cj/rozbor-knih-a-cetba/zdenek-jirotka-saturnin/ "Rozbor")
 
-80\. VIEWEGH, Michal: Účastníci zájezdu
+80\. VIEWEGH, Michal: Účastníci zájezdu [x](/cj/rozbor-knih-a-cetba/michal-viewegh-ucastnici-zajezdu/ "Rozbor")
 
 81\. VIEWEGH, Michal: Báječná léta pod psa [x](/cj/rozbor-knih-a-cetba/michal-viewehg-bajecna-leta-pod-psa/ "Rozbor")
 
