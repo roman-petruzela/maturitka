@@ -6,6 +6,8 @@
 //    the build on every `\frac{a}{b}`; plain markdown doesn't have that
 //    problem, so graphs are authored as data via `compileExpr()` below
 //    instead of as embedded JSX)
+import { fmt, escapeAttr } from './svg-utils';
+
 export interface GraphSpec {
 	fn?: (x: number) => number;
 	domain?: [number, number];
@@ -69,15 +71,6 @@ function ticksFor([lo, hi]: [number, number], targetCount = 6): number[] {
 	const out: number[] = [];
 	for (let v = start; v <= hi + step * 1e-9; v += step) out.push(Math.round(v / step) * step);
 	return out;
-}
-
-function fmt(n: number): string {
-	const r = Math.round(n * 1000) / 1000;
-	return Object.is(r, -0) ? '0' : String(r);
-}
-
-function escapeAttr(s: string): string {
-	return s.replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;');
 }
 
 export function renderGraphSvg(spec: GraphSpec): string {
@@ -153,8 +146,29 @@ export function renderGraphSvg(spec: GraphSpec): string {
 
 	const innerW = width - PAD * 2;
 	const innerH = height - PAD * 2;
-	const sx = (x: number) => PAD + ((x - xDomain[0]) / (xDomain[1] - xDomain[0])) * innerW;
-	const sy = (y: number) => PAD + innerH - ((y - yDomain[0]) / (yDomain[1] - yDomain[0])) * innerH;
+	// Parametric plots (circles, ellipses, any geometric curve) need the same
+	// pixels-per-unit scale on both axes, or a circle comes out as an ellipse
+	// whenever the canvas itself isn't square (the default 480x320 isn't).
+	// Padding the shorter *data* domain to match the longer one (above) only
+	// keeps the domain span equal — it doesn't help unless the pixel scale is
+	// also equal, so parametric mode uses one uniform scale and centers the
+	// plot in whichever axis has room to spare. Function plots keep
+	// independent x/y scaling since they're data plots, not geometric shapes,
+	// and filling the frame reads better for those.
+	let sx: (x: number) => number;
+	let sy: (y: number) => number;
+	if (spec.parametric) {
+		const scale = Math.min(innerW / (xDomain[1] - xDomain[0]), innerH / (yDomain[1] - yDomain[0]));
+		const usedW = (xDomain[1] - xDomain[0]) * scale;
+		const usedH = (yDomain[1] - yDomain[0]) * scale;
+		const offsetX = PAD + (innerW - usedW) / 2;
+		const offsetY = PAD + (innerH - usedH) / 2;
+		sx = (x) => offsetX + (x - xDomain[0]) * scale;
+		sy = (y) => offsetY + usedH - (y - yDomain[0]) * scale;
+	} else {
+		sx = (x) => PAD + ((x - xDomain[0]) / (xDomain[1] - xDomain[0])) * innerW;
+		sy = (y) => PAD + innerH - ((y - yDomain[0]) / (yDomain[1] - yDomain[0])) * innerH;
+	}
 
 	const pathD = rawPoints
 		.map((seg) => seg.map((p, i) => `${i === 0 ? 'M' : 'L'}${sx(p.x).toFixed(2)},${sy(p.y).toFixed(2)}`).join(' '))
