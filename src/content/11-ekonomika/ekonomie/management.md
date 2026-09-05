@@ -150,7 +150,7 @@ Maslowova teorie
 
 - Masllow \- klinický psycholog, který chápal individuální motivaci jako předem ovlivněnou hierarchii potřeb, kterou sestavil do pyramidy:
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 - Kontrolování
 

@@ -22,7 +22,7 @@ Pojmy
 
 ZOBRAZENÍ ROVINNÝM ZRCADLEM
 
-- *(obrázek vynechán)*opticky hladká rovinná plocha
+- ((obrázek vynechán))opticky hladká rovinná plocha
 -  vzniká zdánlivý, vzpřímený, stejně velký a stranově převrácený obraz
 - Při zobrazování využíváme zákonu odrazu světla
 
@@ -34,7 +34,7 @@ ZOBRAZENÍ KULOVÝM ZRCADLEM
 
 1. Rovnoběžný s opt\. osou \(odráží se od ohniska\)
 2. Procházející ohniskem \(rovnoběžný s osou\)
-3. __*(obrázek vynechán)*__Jdoucí středem opt\. plochy \(odráží se do opačného směru\)
+3. __((obrázek vynechán))__Jdoucí středem opt\. plochy \(odráží se do opačného směru\)
 
 	__Zobrazovací rovnice kulového zrcadla__
 
@@ -46,9 +46,9 @@ y‘… výška obrazu
 
 Z… měřítko optického zobrazení
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
-*(obrázek vynechán)*ZOBRAZENÍ DUTÝM ZRCADLEM
+((obrázek vynechán))ZOBRAZENÍ DUTÝM ZRCADLEM
 
 - vlastnosti obrazu:
 
@@ -60,7 +60,7 @@ Z… měřítko optického zobrazení
 
 	a < f → \-∞ < \-a‘ < 0… neskutečný, vzpřímený, zvětšený obraz
 
-*(obrázek vynechán)*Zobrazení vypuklým zrcadlem
+((obrázek vynechán))Zobrazení vypuklým zrcadlem
 
 - vlastnosti obrazu:
 
@@ -70,21 +70,21 @@ Z… měřítko optického zobrazení
 
 Druhy čoček
 
-*(obrázek vynechán)**(obrázek vynechán)*
+((obrázek vynechán))((obrázek vynechán))
 
 __Rozptylky__:
  4 — dvojdutá
  5 — ploskodutá
  6 — vypuklodutá
 
-*(obrázek vynechán)*__Spojky__:
+((obrázek vynechán))__Spojky__:
  1 — dvojvypuklá
  2 — ploskovypuklá
  3 — dutovypuklá
 
 __Tenké čočky__
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 - vlastnosti obrazu:
 
@@ -96,7 +96,7 @@ __Tenké čočky__
 
 	a < f → \-∞ < a‘ < 0… neskutečný, vzpřímený, zvětšený obraz
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 - vlastnosti obrazu:
 
@@ -104,18 +104,18 @@ __Tenké čočky__
 
 Zobrazovací rovnice čočky
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 n1… index lomu prostředí
 
 n2… index lomu látky, z níž je čočka vyrobena
 
 - Je\-li a‘>0  pak je obraz v obrazovém prostoru
-- *(obrázek vynechán)*Je\-li a‘<0  pak je obraz zdánlivý
+- ((obrázek vynechán))Je\-li a‘<0  pak je obraz zdánlivý
 - v případě tenké čočky:
 
 Optická mohutnost
 
-- *(obrázek vynechán)*vyjadřuje zakřivenost čočky
+- ((obrázek vynechán))vyjadřuje zakřivenost čočky
 - Jednotka \[m\-1\], \[D\]
 - 1 m\-1 = 1 D

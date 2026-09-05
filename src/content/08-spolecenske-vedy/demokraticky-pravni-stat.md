@@ -130,7 +130,7 @@ __POLITICKÉ STRANY__
 
 Znaky:
 
-*(obrázek vynechán)*__1\. Vlastní politický program__
+((obrázek vynechán))__1\. Vlastní politický program__
 
 __2\. Účastní se voleb__
 

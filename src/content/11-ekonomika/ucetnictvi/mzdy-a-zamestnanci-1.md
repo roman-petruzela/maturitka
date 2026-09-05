@@ -157,7 +157,7 @@ __Rozdíl mezi srážkovou a zálohovou daní:__
 	- Jedná o zálohu, která bude definitivně vyúčtována po skončení roku ze všech příjmů poplatníka
 	- Mzda, ze které je vybírána zálohová daň, se sčítá s ostatními příjmy poplatníka
 
-*(obrázek vynechán)*__Účtování mezd__
+((obrázek vynechán))__Účtování mezd__
 
 __Zdravotní a sociální pojištění, které hradí zaměstnavatel__
 

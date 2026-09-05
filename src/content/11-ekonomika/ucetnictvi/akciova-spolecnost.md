@@ -55,7 +55,7 @@ __Charakteristika akciové společnosti__
 
 __Zahajovací rozvaha__
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 __Způsoby zvýšení základního kapitálu v akciové společnosti a jejich účtování__
 
@@ -91,7 +91,7 @@ __Účtování:__
 2. Z vlastních zdrojů
 3. Kombinovaný způsob
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 __Emisní ážio__
 

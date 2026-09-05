@@ -70,13 +70,13 @@ Lom světla
 
 - Pro směr lomeného paprsku platí vztah:
 
-                            *(obrázek vynechán)*
+                            ((obrázek vynechán))
 
 β…úhel lomu
 
 - Podíl rychlostí v1 a v2 je veličina zvaná __index lomu__ *n* pro dané rozhraní
 - Pokud je první prostředí vakuum nebo vzduch platí  *v1 = c *a pro rychlost světla v druhém prostředí zavedeme *v2 = v*
-- Poté platí:	*(obrázek vynechán)*		… absolutní index lomu optického prostředí
+- Poté platí:	((obrázek vynechán))		… absolutní index lomu optického prostředí
 
 Zákon lomu
 
@@ -84,14 +84,14 @@ Zákon lomu
 	-
 		- Objevil ho v 17\. století Holanďan W\. Snell
 
-                                  *(obrázek vynechán)* nebo   *(obrázek vynechán)*
+                                  ((obrázek vynechán)) nebo   ((obrázek vynechán))
 
 -
 	-
 		- Zvláštní případ lomu od kolmice nastává, když β = 90°\. Úhel dopadu, kterému odpovídá tento úhel lomu, se nazývá __mezní úhel αm\.__ Je – li úhel dopadu __α > αm__, lom světla nenastává a vzniká úplný odraz světla\.
 - Když dochází k úplnému odrazu světla na rozhraní s vakuem, platí pro mezní úhel vztah:
 
-               	*(obrázek vynechán)*
+               	((obrázek vynechán))
 
 Index lomu světla
 
@@ -101,17 +101,17 @@ Index lomu světla
 		- Led: n = 1,31 … Voda: n = 1,33 … Běžné sklo: n = 1,5
 - Když se světlo šíří z optického prostředí o indexu *n1*, v němž má rychlost *v1*, do prostředí s indexem lomu *n2*, kde má rychlost *v2*, platí:
 
-                                                          *(obrázek vynechán)*
+                                                          ((obrázek vynechán))
 
 - Prostředí opticky hustší – větší index lomu
 - Prostředí opticky řidší – menší index lomu
 
-*(obrázek vynechán)*Lom světla ke kolmici a od kolmice
+((obrázek vynechán))Lom světla ke kolmici a od kolmice
 
 - Lom světla při přechodu z prostředí:
 	1. z prostředí opticky řidšího do prostředí opticky hustšího nastává lom světla __ke kolmici \( β<α\)__
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 -
 	1.  při přechodu světla z opticky hustšího prostředí do prostředí opticky řidšího nastává lom světla __od kolmice \( α<β\)\. __
@@ -123,4 +123,4 @@ Refraktometry a optické kabely
 - Úplný odraz se využívá ke konstrukci odrazných hranolů
 - Na úplném odrazu jsou založena důležitá moderní zařízení pro přenos signálů ve sdělovací technice –__optické kabely__\. Základní částí optického kabelu je skleněné vlákno \(optický vlnovod\)\. Sklo v jeho střední části má větší index lomu než obvodová vrstva\. Signály    v optickém kabelu mají digitální podobu\.
 
-*(obrázek vynechán)**(obrázek vynechán)*
+((obrázek vynechán))((obrázek vynechán))

@@ -51,7 +51,7 @@ __Nabídka__
 
 = množství jednotlivých druhů zboží, které jsu prodávající ochotni za určitou cenu prodat
 
-*(obrázek vynechán)*zákon nabídky zní: Roste\-li cena, nabídka roste
+((obrázek vynechán))zákon nabídky zní: Roste\-li cena, nabídka roste
 
 	__druhy nabídky__
 
@@ -93,7 +93,7 @@ __Poptávka__
 
 Zákon poptávky zní : Roste\-li cena zboží, poptávka klesá
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 	__Druhy poptávky:__
 
@@ -119,7 +119,7 @@ Je založen na vzájemném ovlivňování nabídky, poptávky
 
 a  ceny\.
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 	__Lidstvo zná 3 systémy hospodářství:__
 

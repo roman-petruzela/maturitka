@@ -30,7 +30,7 @@ __OBSAH VLASTNICKÉHO PRÁVA__ jsou jednotlivá oprávnění vlastníka:
 
 1. Oprávnění věc držet
 
-- **(obrázek vynechán)*mít ji u sebe, což je základní předpoklad pro to, aby vlastník mohl vykonávat další práva*
+- *((obrázek vynechán))mít ji u sebe, což je základní předpoklad pro to, aby vlastník mohl vykonávat další práva*
 
 1. Oprávnění věc užívat
 
@@ -65,7 +65,7 @@ Vlastnické právo drží ten, kdo se věci ujal, aby ji měl jako vlastník\.
 
 Držba se dělí na držbu:
 
-- *(obrázek vynechán)*Řádná – platný právní důvod
+- ((obrázek vynechán))Řádná – platný právní důvod
 - Poctivá – kdo má přesvědčení, že mu náleží právo, je poctivý držitel
 	- lze věc vydržet \(movitá věc 3 roky, nemovitá 10 let\) – někdo mi půjčí hrábě, a já ji po třech letech vydržím
 - Pravá – neprokáže\-li se, že získal držbu lstí, potajmu, jde o pravou držbu
@@ -137,7 +137,7 @@ __Zánik vlastnického práva__
 - smrt vlastníka – právo přechází na dědice
 - smlouvou – vlastník věc prodá, daruje, vymění
 - vydržením
-- *(obrázek vynechán)**(obrázek vynechán)**(obrázek vynechán)*rozhodnutím soudu — při zrušení a vypořádání podílového spoluvlastnictví
+- ((obrázek vynechán))((obrázek vynechán))((obrázek vynechán))rozhodnutím soudu — při zrušení a vypořádání podílového spoluvlastnictví
 
 __OCHRANA VLASTNICKÉHO PRÁVA__
 

@@ -71,7 +71,7 @@ A) 60. členem   **B) 90. členem**   C) 120. členem   D) 180. členem   E) jin
 
 Řešení: $1\,600=\dfrac{40}2(1+a_{40})=20(1+a_{40})\ /:20 \implies80=1+a_{40} \implies a_{40}=79$.
 
-**11)** Čtvrtý a šestý člen aritmetické posloupnosti jsou dána čísla *(přesné hodnoty se nedochovaly)*. Vypočtěte pátý člen.
+**11)** Čtvrtý a šestý člen aritmetické posloupnosti jsou dána čísla ((přesné hodnoty se nedochovaly)). Vypočtěte pátý člen.
 
 *Jaro 2013, příklad č. 11. Body: 1.*
 
@@ -89,7 +89,7 @@ A) 60. členem   **B) 90. členem**   C) 120. členem   D) 180. členem   E) jin
 
 Řešení: $n=84$ (viz úloha 12). $s_{84}=\dfrac{84}2(42+0{,}5)=42\cdot42{,}5=1\,785$ cm.
 
-**14)** Přiřaďte ke dvěma zadaným posloupnostem a), b) jejich třetí člen. *(Zadání se nedochovalo.)*
+**14)** Přiřaďte ke dvěma zadaným posloupnostem a), b) jejich třetí člen. ((Zadání se nedochovalo.))
 
 *Jaro 2014, příklad č. 26.1, 26.2. Body: 2. Výsledek: a) A, b) E.*
 
@@ -145,7 +145,7 @@ A) $-2$   B) $-3$   C) $-4$   **D) $-6$**   E) žádná z uvedených
 
 **22)** Přiřaďte posloupnostem a), b) druhý člen $a_2$:
 
-a) *(zadání se nedochovalo, dochovaný postup vede k $a_2=7$)*
+a) ((zadání se nedochovalo, dochovaný postup vede k $a_2=7$))
 b) $a_1=12$, $s_4=0$
 
 A) $a_2=4$   B) $a_2=5$   C) $a_2=6$   **D) $a_2=7$**   E) $a_2=8$   F) jiná hodnota

@@ -152,7 +152,7 @@ __Druhy inteligence__
 	- Není závislá na IQ
 	- Ovlivňuje úspěšnost jedince v rodině, na pracovišti, v sociálních vztazích
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 1. __MOTIVACE__
 
@@ -402,7 +402,7 @@ __Neuroticismus__
 
 *Extroverze*
 
-__*(obrázek vynechán)*__
+__((obrázek vynechán))__
 
 *Vysoký neuroticismus*
 

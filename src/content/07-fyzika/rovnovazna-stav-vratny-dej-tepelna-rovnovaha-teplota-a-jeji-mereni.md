@@ -25,7 +25,7 @@ Rovnovážný stav
 - __Pokus:__ Do termosky s vlažnou vodou nasypeme led\. Teplota obou složek se změní a ustálí při neměnných vnějších podmínkách na konstantní teplotě\.
 - Je stavem s největší pravděpodobností výskytu
 
-*(obrázek vynechán)*     			p – pravděpodobnost výskytu
+((obrázek vynechán))     			p – pravděpodobnost výskytu
 
 			m – počet příznivých výsledků
 
@@ -112,7 +112,7 @@ Réaumurova stupnice
 
 - Dříve byla velmi rozšířena, ale přestala se používat\.
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 C je teplota ve stupních __Celsia__
 
@@ -120,17 +120,17 @@ F je teplota ve stupních __Fahrenheita__
 
  R je teplota ve stupních __Réaumura__
 
-*(obrázek vynechán)**(obrázek vynechán)*
+((obrázek vynechán))((obrázek vynechán))
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 Druhy teploměrů
 
 - __Kapalinový__ – teploměr, ve kterém se k měření teploty využívá teplotní roztažnosti teploměrné kapaliny \(rtuť, líh\)
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
-- *(obrázek vynechán)*__Bimetalový__ – teploměr, ve kterém se k měření teploty využívá bimetalový \(dvojkový\) pásek složený ze __dvou kovů s různými teplotními součiniteli__ __délkové roztažnosti__\. Při změně teploty se pásek ohýbá a tento pohyb se přenáší na ručku přístroje\.
+- ((obrázek vynechán))__Bimetalový__ – teploměr, ve kterém se k měření teploty využívá bimetalový \(dvojkový\) pásek složený ze __dvou kovů s různými teplotními součiniteli__ __délkové roztažnosti__\. Při změně teploty se pásek ohýbá a tento pohyb se přenáší na ručku přístroje\.
 - __Plynový__ – teploměr, ve kterém se k měření teploty využívá závislost tlaku plynu na teplotě při __stálém objemu plynu__, popř\. závislost objemu plynu na teplotě při stálém tlaku
 - __Odporový__ – teploměr, ve kterém se k měření teploty využívá závislost __elektrického odporu__ vodiče nebo polovodiče na teplotě
 - __Termoelektrický__ – Teploměr, ve kterém se k měření teploty využívá __termoelektrický jev__, změnou teploty spoje dvou různých kovů se mění vzniklé __termoelektrické napětí__\.

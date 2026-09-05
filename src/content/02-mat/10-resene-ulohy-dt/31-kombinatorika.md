@@ -71,7 +71,7 @@ A) 16   B) 20   **C) 40**   D) 180   E) jiný počet
 
 Řešení: $\binom53=10$ (dívky), $\binom43=4$ (chlapci). Celkem $10\cdot4=40$.
 
-**9)** Vypočtěte hodnotu výrazu. *(Přesný tvar se nedochoval.)*
+**9)** Vypočtěte hodnotu výrazu. ((Přesný tvar se nedochoval.))
 
 *Podzim 2014, příklad č. 10. Body: 1. Výsledek: 101.*
 
@@ -101,7 +101,7 @@ c) obsazená 1 pozice (Adam), $n=8$ (bez Adama a Bohunky), $k=2$: $\binom82=28$.
 
 d) obsazená 1 pozice (Adam), $n=9$ (bez Adama, Bohunka smí být), $k=2$: $\binom92=36$.
 
-**12)** Vypočtěte hodnotu kombinatorického výrazu s $\binom nk$. *(Přesný tvar se nedochoval.)*
+**12)** Vypočtěte hodnotu kombinatorického výrazu s $\binom nk$. ((Přesný tvar se nedochoval.))
 
 A–C) *(nedochováno)*   **D) $n$**   E) $2n$
 
@@ -117,7 +117,7 @@ A) 5 040   B) 2 880   C) 1 440   **D) 720**   E) jiný počet
 
 Řešení: obsazená 1. a předposlední pozice, volných 6 — permutace: $P(6)=6!=720$.
 
-**14)** Rovnice s neznámou $n\in\mathbb N$: $\dfrac{10!}{9!}+\dfrac{9!}{9!}=n$ *(rekonstrukce z postupu — přesný tvar zlomků s faktoriály se z části nedochoval)*. Řešení?
+**14)** Rovnice s neznámou $n\in\mathbb N$: $\dfrac{10!}{9!}+\dfrac{9!}{9!}=n$ ((rekonstrukce z postupu — přesný tvar zlomků s faktoriály se z části nedochoval)). Řešení?
 
 **A) 11**   B) 10   C) 9   D) 8   E) jiné řešení
 
@@ -141,7 +141,7 @@ A) 21   B) 240   **C) 280**   D) 360   E) jiný počet
 
 Řešení (2. způsob): pro každou z 5 lichých číslic na 3. pozici je $V(2,8)=\dfrac{8!}{6!}=56$ možností pro zbylé dvě pozice. Celkem $5\cdot56=280$.
 
-**17)** Kolikrát je číslo $A$ větší než číslo $B$? *(Přesná čísla $A$, $B$ se nedochovala.)*
+**17)** Kolikrát je číslo $A$ větší než číslo $B$? ((Přesná čísla $A$, $B$ se nedochovala.))
 
 A) méně než 10krát   B) 10krát   C) 20krát   **D) 50krát**   E) více než 50krát
 

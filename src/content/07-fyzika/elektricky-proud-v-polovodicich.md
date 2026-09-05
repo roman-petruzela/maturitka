@@ -18,7 +18,7 @@ Měrný elektrický odpor polovodičů
 
 - Polovodiče se od kovů liší především větším __měrným elektrickým odporem ρ__ v intervalu : __10\-4 \- 10\-8 Ω \. m__
 - Závislost __měrného elektrického odporu na teplotě:__
-- __Rezistivita__ \(též měrný elektrický odpor\) je fyzikální veličina charakterizující __lokální__ \(diferenciální\) __vodivostní__ či __odporové vlastnosti__ látek vedoucích elektrický proud\.*(obrázek vynechán)*
+- __Rezistivita__ \(též měrný elektrický odpor\) je fyzikální veličina charakterizující __lokální__ \(diferenciální\) __vodivostní__ či __odporové vlastnosti__ látek vedoucích elektrický proud\.((obrázek vynechán))
 - Rezistivita je __materiálová konstanta__
 - Rezistivita látek __závisí na teplotě__\. U __kovových__ vodičů s teplotou __roste__, u __polovodičů klesá__
 
@@ -28,7 +28,7 @@ Termistory
 - Termistor je __polovodičová__ součástka, která se používá jako __teplotně citlivá součástka__
 - Jeho odpor klesá s teplotou, přičemž změna odporu s teplotou je __daleko rychlejší než u kovů__   __↓R …\.\. ↓t__
 - __Využití__:
-	- Měření teploty*(obrázek vynechán)*
+	- Měření teploty((obrázek vynechán))
 	- Měření teploty na dálku
 	- Kompenzace odporu žhavícího vodiče v elektronkách
 	- Převodník z teploty na napětí
@@ -71,13 +71,13 @@ __Příměsové \(nevlastní\) polovodiče__
 	- B má 3 val\. el\., tím při plném obsazení vazeb se sousedními atomy Si __chybí jeden valenční elektron__, vzniká díra a to bez vzniku volného elektronu
 	- díry jsou __většinovými__ \(__majoritními__\) nosiči náboje a příměsi se třemi valenčními elektrony tvoří ve struktoře krystalu nepohyblivé záporné ionty zvané __akceptory__
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 Diodový jev a jeho technické využití
 
 - Propustný směr je vyznačen hrotem trojúhelníku
 
-*(obrázek vynechán)**(obrázek vynechán)**(obrázek vynechán)*
+((obrázek vynechán))((obrázek vynechán))((obrázek vynechán))
 
    Led diody                                                          Zenerova dioda
 
@@ -95,21 +95,21 @@ __1\. Bez zdroje napětí__:
 
 - V oblasti styku polovodičů se část __e\-__ z oblasti N dostane do P a část děr z oblasti P přejde do N\. __Rekombinace__ volných __e\-__ s děrami \- kolem přechodu PN se vytvoří nevodivá oblast bez volných nábojů \(šedá barva\)
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 __2\. Závěrný směr:__
 
 - Připojením záporného pólu k polovodiči P a kladného pólu k polovodiči N vzdalují se působením el\. sil volné náboje od přechodu PN\. Oblast bez volných nábojů se rozšíří a odpor vzroste – el\. proud přechodem PN neprochází\. Nevodivé oblasti bez volných nábojů = __hradlová vrstva\.__
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 __3\. Propustný směr:__
 
 - Změnou polarity zdroje, přecházejí působením elektrických sil volné __e\-__ přes přechod PN ke kladnému pólu a díry jsou přitahovány k zápornému pólu\. Výsledkem je zúžení hradlové vrstvy a zmenšení jejího odporu\. Takto zapojeným přechodem PN proud prochází\.
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 Voltampérová charakteristika diody
 
@@ -122,7 +122,7 @@ Tranzistorový jev a jeho technické využití
 
 - Tranzistor – polovodičová součástka se třemi elektrodami \- __emitorem__ E, __bází__ B a __kolektorem__ C\.
 - Základní vlastností tranzistoru je __schopnost zesilovat__ – __malé změny napětí__ nebo __proudu__ na vstupu mohou vyvolat __velké změny napětí__ nebo __proudu__ na výstupu\.
-- Tranzistor se vyrábí ve __dvou modifikacích:__*(obrázek vynechán)*
+- Tranzistor se vyrábí ve __dvou modifikacích:__((obrázek vynechán))
 
 __NPN__
 
@@ -133,9 +133,9 @@ __NPN__
 __PNP__
 
 -
-	- \(E \- polovodič typu P; B \- vrstva polovodiče N;  C \- polovodič P *(obrázek vynechán)*
+	- \(E \- polovodič typu P; B \- vrstva polovodiče N;  C \- polovodič P ((obrázek vynechán))
 
-Polovodičová technika*(obrázek vynechán)**(obrázek vynechán)*
+Polovodičová technika((obrázek vynechán))((obrázek vynechán))
 
 - __Analogová__
 	- Usměrňovač

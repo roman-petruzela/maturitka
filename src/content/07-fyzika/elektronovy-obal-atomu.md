@@ -17,7 +17,7 @@ II\. postulát \- Při pohybu po stabilní dráze elektron samovolně nemění s
 
 III\. postulát \- Při přechodu elektronu na jinou stabilní dráhu dochází k vyzáření nebo pohlcení fotonu o frekvenci určené vztahem
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 - Bohrův model si zachoval dobré vlastnosti z planetárního modelu a podařilo se mu stabilizovat pohyb elektronů kolem atomového jádra\.
 - Jeho velkým úspěchem bylo objasnění původu spektrálních čar atomu vodíku\.
@@ -41,9 +41,9 @@ vlnová funkce  Ψ\(x, y, z, t\),
 
 Kvantově mechanický model je již zcela založen na principech kvantové fyziky\.
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 Energie elektronu je kvantovaná				n=1,2,3 \.\. kvantové číslo
 
@@ -57,9 +57,9 @@ Trojrozměrnost elektronových stojatých vln se projevuje v tom, že k popisu k
 
 Oblast atomu, ve které je hustota pravděpodobnosti \(|Ψ|2\) výskytu elektronu největší, se nazývá atomový orbital
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 __Kvantové číslo__
 

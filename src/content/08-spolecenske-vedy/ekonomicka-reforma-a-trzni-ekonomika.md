@@ -122,7 +122,7 @@ __Nabídka__
 
 Zákon rostoucí nabídky\- růst ceny vyvolá růst nabídky, pokles Ceny\-> pokles nabídky
 
-__*(obrázek vynechán)*__	                                            P…\.cena produkce
+__((obrázek vynechán))__	                                            P…\.cena produkce
 
 			               Q…\.objem produkce
 
@@ -150,7 +150,7 @@ __
 Poptávka
 __Zákon klesající poptávky\- S rostoucí cenou klesá množství__ __ poptávaného zboží
 
-__*(obrázek vynechán)*__
+__((obrázek vynechán))__
 
 Dělení poptávky
 
@@ -171,7 +171,7 @@ Skládá se ze 4 fází__
 
 __3\. Kontrakce__ \- RP klesá, roste nezaměstnanost, utlumuje se výroba, klesají mzdy a zisky
 
-__*(obrázek vynechán)*4\. DNO__ – Ekonomika je pod potenciálním produktem, reálný HDP je nejnižší, výrobní faktory nejsou
+__((obrázek vynechán))4\. DNO__ – Ekonomika je pod potenciálním produktem, reálný HDP je nejnižší, výrobní faktory nejsou
                  plně využity
 
 Příčiny hospodářských cyklů__

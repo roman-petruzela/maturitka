@@ -36,7 +36,7 @@ Takováto jádra v přírodě běžně neexistují, ale byla vytvořena uměle\.
 
 Umělá radioaktivita byla objevena v r\. 1934 \(Frederic a Irene Joliot\-Curie, NC za Ch 1935\) při ostřelování hliníku částicemi α:
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 Druhy jaderného záření I\.
 
@@ -48,9 +48,9 @@ __*β\-*__ proud elektronů o energii až 10 MeV emitovaných z jádra\. Pohybuj
 
 	Některé radionuklidy vyzařují místo elektronů pozitrony a potom hovoříme o β\+ rozpadu
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
-*(obrázek vynechán)*      *(obrázek vynechán)*
+((obrázek vynechán))      ((obrázek vynechán))
 
 __*γ*__ – nejpronikavější, lze jej zeslabit olověnou deskou nebo silnou vrstvou železobetonu\. Ani v el\. ani v mg\. poli se neodchyluje – jedná se o elmg vlnění\. Má silné ionizační účinky a v důsledku fotoefektu uvolňuje z látek nabité částice\. Radioaktivní záření γ samostatně neexistuje, ale doprovází záření α nebo β\.
 
@@ -72,9 +72,9 @@ Radionuklidy vysílají radioaktivní záření a přeměňují se na stabilní 
 
 *Poločas přeměny \(rozpadu\)* *T* je doba, za kterou se rozpadne polovina původního počtu jader
 
-         *(obrázek vynechán)*
+         ((obrázek vynechán))
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 Aktivita zářiče
 
@@ -90,7 +90,7 @@ nebo
 
 		__A = λ \. *N*__
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 Zákon radioaktivní přeměny –
 

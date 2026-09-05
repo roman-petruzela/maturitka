@@ -15,32 +15,32 @@ __Galileiho princip relativity__ – Zákony mechaniky jsou ve všech IVS stejn�
 
 __Neinerciální vztažná soustava__ – soustava, která se vhledem k IVS pohybuje jinak než rovnoměrně přímočaře\. V NVS neplatí Newtonovy pohybové zákony
 
-Základní veličiny*(obrázek vynechán)*
+Základní veličiny((obrázek vynechán))
 
 __Síla__ \(značka F, jednotka N              \)
 
 - Vektorová fyzikální veličina, která je určená velikostí, směrem a polohou svého působiště
 - Zprostředkovává vzájemné působení těles \(přímým kontaktem nebo silovým polem\)
 - Silové působení se projevuje deformací tělesa nebo změnou pohybového stavu tělesa \(zrychlení\)
-- Z 2\.NPZ =>  *(obrázek vynechán)*, *(obrázek vynechán)*   \(v klasické fyzice\)
+- Z 2\.NPZ =>  ((obrázek vynechán)), ((obrázek vynechán))   \(v klasické fyzice\)
 
 Skládání sil – viz\. otázka č\.2 počítání s vektory
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 __Hybnost__ \(značka p, jednotka			    \)
 
 - Vektorová veličina, charakterizující pohybový stav tělesa
 - stejný směr jako vektor okamžité rychlosti
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 __Zákon zachování hybnosti__
 
 - Celková hybnost izolované soustavy těles se vzájemným silovým působením nemění
 - Význam např\. pro teorii dokonale pružných rázů a reaktivních motorů
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 __Impuls síly__ \(značka I, jednotka	      \)
 
@@ -48,7 +48,7 @@ __Impuls síly__ \(značka I, jednotka	      \)
 - Je roven změně hybnosti
 -  Závisí na něm změna hybnosti tělesa
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 __Hmotnost__ \(značka m, jednotka kg\)
 
@@ -66,14 +66,14 @@ __2\.NPZ – Zákon síly__
 - Velikost zrychlení __a__ tělesa je přímo úměrná velikosti výslednice sil __F__ působících na těleso a nepřímo úměrná hmotnosti tělesa m
 - Síla je určena poměrem hybnosti a času, za který tato změna proběhla\.
 
-                                  *(obrázek vynechán)*
+                                  ((obrázek vynechán))
 
 __3\.NPZ – Zákon akce a reakce \(vzájemného působení těles\)__
 
 - Každá síla  \(akce\), kterou jedno těleso působí na druhé, vyvolá sílu  \(reakci\) opačného směru, kterou druhé těleso působí na první\.
 - Síly  a  jsou stejně velké, opačného směru, současně vznikají a zanikají, a protože každá působí na jiné těleso, neruší se ve svých účincích\.
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 - __Izolovaná soustava těles__ jsou tělesa, která na sebe navzájem působí silami a při tom na ně nepůsobí silami jiná tělesa\. Na tělesa působí jen vnitřní síly této soustavy, ale ne vnější síly \-> síly od jiných těles
 
@@ -82,18 +82,18 @@ Další síly
 __Setrvačné síly__
 
 - Příklad: kuličky na dně vozíku, který se rozjíždí
-- *(obrázek vynechán)*Vnější pozorovatel \(z IVS\) – kulička se nepohybuje a vozík se pohybuje se zrychlením
+- ((obrázek vynechán))Vnější pozorovatel \(z IVS\) – kulička se nepohybuje a vozík se pohybuje se zrychlením
 - Pozorovatel uvnitř vozíku \(v NVS\) – kulička se pohybuje se zrychlením směrem k zadní straně vozíku => na kuličku působí setrvačné síly \-> má opačný směr než zrychlení
 - Zavedení setrvačných sil umožňuje použití 2\.NPZ v NVS
 - Nemají původce – „nepravé síly“ – způsobeny neinercialitou soustavy
 
-*(obrázek vynechán)*__Dostředivá síla__
+((obrázek vynechán))__Dostředivá síla__
 
 - Při pohybu HB po kružnici se mění směr vektoru rychlosti => Musí existovat síla udržující HB na kruhové dráze = dostředivá síla
 - Kolmá ke směru okamžité rychlosti => směřuje do středu kružnice
 - Existuje z pohledu pozorovatele v IVS
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 __Odstředivá síla__
 
@@ -110,10 +110,10 @@ __Smykové tření a valivý odpor__
 - Nezávisí na obsahu styčných ploch
 - Za stejných podmínek je valivý odpor mnohem menší než třecí síla při smykovém tření
 
-*(obrázek vynechán)**(obrázek vynechán)*… kolmá tlaková síla
+((obrázek vynechán))((obrázek vynechán))… kolmá tlaková síla
 
-*(obrázek vynechán)*                                                    		*(obrázek vynechán)*… součinitel smykového tření
+((obrázek vynechán))                                                    		((obrázek vynechán))… součinitel smykového tření
 
-                                                                      *(obrázek vynechán)* … rameno valivého odporu \(řecké ksí\)
+                                                                      ((obrázek vynechán)) … rameno valivého odporu \(řecké ksí\)
 
-                                                                    *(obrázek vynechán)*  … poloměr valícího se tělesa
+                                                                    ((obrázek vynechán))  … poloměr valícího se tělesa

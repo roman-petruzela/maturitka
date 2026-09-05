@@ -60,14 +60,14 @@ Sem patří třeba obecné trojúhelníky (jiné než rovnostranné), obdélník
 
 ## Úkoly
 
-**1.** Vyřešte obvod a výměru zahrady vyjádřené obrazcem *(obrázek se nedochoval)*.
+**1.** Vyřešte obvod a výměru zahrady vyjádřené obrazcem ((obrázek se nedochoval)).
 
 Výsledek: ||o = 22,91 cm; S = 26,15 cm²||
 
-**2.** Vyřešte obsah obrazce *(obrázek se nedochoval)*.
+**2.** Vyřešte obsah obrazce ((obrázek se nedochoval)).
 
 Výsledek: ||S = 19,99 cm²||
 
-**3.** Vyřešte obsah obrazce *(obrázek se nedochoval)*.
+**3.** Vyřešte obsah obrazce ((obrázek se nedochoval)).
 
 Výsledek: ||S = 52,71 cm²||

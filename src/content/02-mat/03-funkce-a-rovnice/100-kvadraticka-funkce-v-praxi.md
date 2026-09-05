@@ -5,7 +5,7 @@ source: "mat/IT2M_1.docx"
 hasExercises: true
 ---
 
-> Pozn. k obsahu: Zdrojový dokument obsahoval matematické vzorce vložené jako obrázky/rovnice, které se při převodu ztratily (označeno jako *(obrázek vynechán)*). Text i tabulky s daty jsou zachovány beze změny významu.
+> Pozn. k obsahu: Zdrojový dokument obsahoval matematické vzorce vložené jako obrázky/rovnice, které se při převodu ztratily (označeno jako ((obrázek vynechán))). Text i tabulky s daty jsou zachovány beze změny významu.
 
 ## 1. Kvadratická funkce a praxe
 
@@ -29,7 +29,7 @@ Tabulka vypadá takto — excel vypočítá dráhu s podle vzorce `=0,5*5*(B3^2)
 |---|---|---|---|---|---|
 | s (m) | 0 | 5 | 14 | 29 | 48 |
 
-Excel vykreslí graf: *(obrázek vynechán)*
+Excel vykreslí graf: ((obrázek vynechán))
 
 Graf nám umožní zjistit v rozmezí času 0–4 sekundy v kterékoliv chvíli, kde se bude přesně nacházet hmotný bod. Z pohledu matematiky jsme získali část paraboly pro interval proměnné x=⟨0;4⟩. Z pohledu fyziky můžeme z různých bodů časové osy (x=t) vytáhnout kolmici a jakmile protne graf, tak zjistíme, jakou dráhu má těleso za sebou (y=s).
 
@@ -47,7 +47,7 @@ V aplikaci excel vytvoříme tabulku a grafy jednotlivých funkcí:
 | s (m) pro a=7 | 0 | 3,5 | 14 | 31,5 | 56 |
 | s (m) pro a=10 | 0 | 5 | 20 | 45 | 80 |
 
-*(obrázek vynechán)* Z grafů je patrné, že čím je zrychlení větší, tím je parabola strmější a více přikloněná k ose y.
+((obrázek vynechán)) Z grafů je patrné, že čím je zrychlení větší, tím je parabola strmější a více přikloněná k ose y.
 
 Stále ale sledujeme jen část paraboly a pouze pro definiční obor kladných reálných čísel. Jak by ale vypadala matematická verze kvadratické rovnice pro všechna reálná čísla? Aplikujme na funkci v aplikaci excel:
 
@@ -55,7 +55,7 @@ Stále ale sledujeme jen část paraboly a pouze pro definiční obor kladných 
 |---|---|---|---|---|---|---|---|
 | y | 45 | 20 | 5 | 0 | 5 | 20 | 45 |
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 Z předchozích znalostí matematiky můžeme popsat vlastnosti grafu:
 
@@ -75,7 +75,7 @@ Kvadratická funkce je ale definována jako platná pro všechna a ≠ 0. Výše
 |---|---|---|---|---|---|---|---|
 | y | -45 | -20 | -5 | 0 | -5 | -20 | -45 |
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 Z předchozích znalostí matematiky můžeme popsat vlastnosti grafu:
 
@@ -101,9 +101,9 @@ V této reálné úloze se objevuje nově další člen kvadratické funkce a to
 |---|---|---|---|---|---|
 | s (m) pro a=10 a c=10 | 10 | 15 | 30 | 55 | 90 |
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
-Pokud bychom řešili problém matematicky pro definiční obor všech reálných čísel, dostáváme obdobný graf: *(obrázek vynechán)*
+Pokud bychom řešili problém matematicky pro definiční obor všech reálných čísel, dostáváme obdobný graf: ((obrázek vynechán))
 
 Ke grafu funkce s = ½·a·t² + c tedy dospějeme tak, že graf funkce s = ½·a·t² posuneme o 10 jednotek ve směru kladné poloosy s. Ke grafu funkce y = ax² + c dospějeme tak, že graf funkce y = ax² posuneme o 10 jednotek ve směru kladné poloosy y.
 
@@ -115,11 +115,11 @@ Jak se změní graf funkce nám ukáže aplikace excel:
 |---|---|---|---|---|---|---|
 | s (m) pro a=10 a (t-5) | 500 | 125 | 0 | 125 | 500 | 1125 |
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 Ke grafu funkce s = ½·a·(t−5)² tedy dospějeme tak, že graf funkce s = ½·a·t² posuneme o 5 jednotek ve směru kladné poloosy t. Ke grafu funkce y = a(x−5)² dospějeme tak, že graf funkce y = ax² posuneme o 5 jednotek ve směru kladné poloosy x.
 
-Matematická verze grafu je v pořádku. U fyzikální verze se musíme pozastavit. Protože těleso vystartovalo až 5 sekund po zahájení měření, tak pro definiční obor t < 5 nemá obor hodnot smysl. Proto z fyzikálního pohledu by měl graf vypadat jinak — jen pro t ≥ 5. *(obrázek vynechán)*
+Matematická verze grafu je v pořádku. U fyzikální verze se musíme pozastavit. Protože těleso vystartovalo až 5 sekund po zahájení měření, tak pro definiční obor t < 5 nemá obor hodnot smysl. Proto z fyzikálního pohledu by měl graf vypadat jinak — jen pro t ≥ 5. ((obrázek vynechán))
 
 V matematické teorii se ještě uvádí řešení posunu grafu pro obecnou kvadratickou rovnici ve tvaru y = ax² + bx + c. Tuto rovnici lze upravit tak, že nakreslíme funkci y = ax² a posuneme ji v ose x o úsek b/2a, následně v ose y o úsek c−(b²/4a). Zda budeme posunovat ve směru kladné či záporné poloosy záleží na výsledku členů b/2a a c−(b²/4a).
 
@@ -135,7 +135,7 @@ Jak se změní graf funkce nám ukáže aplikace excel:
 
 Na této tabulce se ukazuje, jak se matematika drží své funkce, pravidel, protože jsme jí neurčili definiční obor, pro který mají obory hodnot fyzikální smysl. Už nyní vidíme, že ve 2 sekundách byla brzdná dráha 20 m a pak najednou ve 3 sekundách se má změnit brzdná dráha na 15 m? Naprostý nesmysl. Funkci musíme říct, kdy se těleso zastaví. Když stojí, tak už nemůže funkce pokračovat. Pokud tedy nastavíme podmínku zastavení, dostáváme fyzikálně smysluplný obor hodnot (maximum je v bodě, kdy je rychlost nulová).
 
-Jak zjistit, že je maximum právě v y=20 m? Stačí se zabývat lokálními extrémy funkce, konkrétně druhou derivací (viz vyšší ročníky). Případně nám pomůže inverzní funkce (viz později v učivu). *(obrázek vynechán — matematická i fyzikální verze grafu)*
+Jak zjistit, že je maximum právě v y=20 m? Stačí se zabývat lokálními extrémy funkce, konkrétně druhou derivací (viz vyšší ročníky). Případně nám pomůže inverzní funkce (viz později v učivu). ((obrázek vynechán — matematická i fyzikální verze grafu))
 
 ## 5. Inverzní funkce a kvadratická funkce
 
@@ -149,7 +149,7 @@ K funkci jsme tak definovali inverzní funkci. Pokud je prostá funkce f a inver
 
 Jenže u kvadratické funkce je situace jiná. Pokud dosadíme do vztahu y=2x² hodnoty x1=2 a x2=−2, tak dostáváme oba výsledky y1=8 a y2=8. Protože není možné jednoznačné přiřazení právě jednoho y k určitému x, pak nelze sestavit inverzní funkci pro celý definiční obor.
 
-Pokud bychom ale řešili u kvadratické funkce pouze definiční obor, který vede k oboru hodnot splňujícímu definici inverzní funkce (např. jen x ≥ 0), pak by inverzní funkce existovala. *(obrázek vynechán)*
+Pokud bychom ale řešili u kvadratické funkce pouze definiční obor, který vede k oboru hodnot splňujícímu definici inverzní funkce (např. jen x ≥ 0), pak by inverzní funkce existovala. ((obrázek vynechán))
 
 ## 6. Procvičování
 

@@ -55,17 +55,17 @@ __Tuhnutí__
 - __Pokus:__
 	- __Regelace ledu__ – \(znovuzmrznutí\) označuje tání ledu v důsledku působení vnějšího tlaku a nové zmrazení vzniklé vody po odstranění tlaku\. Regelační jev objevil M\. Faraday v roce 1850\.
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 - __Průběh__ tání __krystalických__ látek
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 Měrné skupenské teplo tání a tuhnutí
 
 - Měrné skupenské teplo tuhnutí je __teplo__, které odevzdá __1 kilogram kapaliny__, jestliže se za __teploty tuhnutí__ celý přemění na __pevnou__ látku téže __teploty__
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 - Hodnota __měrného skupenského tepla tuhnutí__ je u __krystalických__ látek pro danou látku stejná jako hodnota __měrného skupenského tepla tání__
 -  __lt =\[J·kg\-1\]__, __m__ – hmotnost, __Lt__ – skupenské teplo tání
@@ -76,9 +76,9 @@ Křivka tání
 
 __a\) olovo							b\) led__
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 - __A__ – __trojný bod__ – rovnovážný stav __pevné__ látky, __kapaliny__ a __syté páry__ \(např\. voda __TA__=273,16K, __pA__=0,61kPa\)‏
 
@@ -93,7 +93,7 @@ Měrné skupenské teplo sublimace
 
 - __Měrné skupenské teplo sublimace__ je teplo, které přijme __1 kilogram pevné__ látky při __sublimaci__
 
-				*(obrázek vynechán)*
+				((obrázek vynechán))
 
 - __m__ – hmotnost, __Ls__  – skupenské teplo sublimace
 - __ls__ =\[J·kg\-1\], __Ls__=\[J\]
@@ -102,7 +102,7 @@ Sublimační křivka
 
 - __Sublimační křivka__ – závislost __teploty tání__ na vnějším __tlaku__
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 -  __A__ \- trojný bod
 
@@ -135,7 +135,7 @@ Měrné skupenské teplo vypařování a varu
 
 - __Měrné skupenské teplo vypařování__ je třeba určit ke každé teplotě zvlášť \(vypařování může probíhat za libovolné teploty\), zatímco měrné skupenské teplo varu se určuje k __teplotě varu__
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 - Měrné skupenské teplo varu je __teplo__, které přijme __1 kilogram__ kapaliny, jestliže se za __teploty varu__ celý přemění na __plyn__ téže teploty
 - __lv__ =\[J·kg\-1\], __m__ – hmotnost, __Lv__ – skupenské teplo varu
@@ -153,7 +153,7 @@ __Sytá pára__
 - Při této rovnováze je vypařená látka nahrazena __zkondenzovanou__
 - Vypařuje\-li se __kapalina__ \(dostatečného objemu\) v __uzavřené nádobě__, __přestane__ se po určité __době objem__ kapaliny __zmenšovat__ a __objem__ páry __zvětšovat__, počet molekul opouštějících hladinu je roven počtu molekul, které se do kapaliny vrací
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 __Přehřátá pára__
 
@@ -167,7 +167,7 @@ __Přehřátá pára__
 
 Křivka syté páry
 
-- *(obrázek vynechán)*__Křivka syté páry__ – závislost __teploty__ vypařování na vnějším __tlaku__
+- ((obrázek vynechán))__Křivka syté páry__ – závislost __teploty__ vypařování na vnějším __tlaku__
 
 __K – kritický bod__ \(zmizí rozhraní mezi kapalinou a párou\)
 
@@ -180,9 +180,9 @@ Kritický bod látky
 - V kritickém stavu __mizí rozdíl__ mezi __kapalinou__ a její __párou__, při __teplotě vyšší__ než __kritická teplota Tk__ __nemůže__ látka __existovat__ v __kapalném__ skupenství
 - Plyn, který má __teplotu vyšší__ než je __kritická teplota__, __nelze__ žádným __stlačováním zkapalnit__
 - V oblasti sycení dochází k __vypařování kapaliny__ \(popř\. kapalnění par\)\. Nad __kritickým bodem K__ však již oblast __sycení neexistuje__ a k __fázové změně__ tam tedy __nemůže dojít__
-- *(obrázek vynechán)*Zobrazením __izoterm__ v __p\-V diagramu__ \(viz obrázek\) je vidět, že v __oblasti sycení__ \(označeno barevně\) dochází k __vypařování kapaliny__ \(popř\. kapalnění par\)\. Nad kritickým bodem __K__ však již oblast sycení neexistuje a k __fázové změně__ tam tedy nemůže dojít\. __Izoterma k__, která prochází kritickým bodem __K__, je __kritickou izotermou\.__ Při __vyšších teplotách__, tzv\. __nadkritických__, již __izotermy__ neprochází oblastí sycení a __nelze__ provést __zkapalnění__ a látka existuje pouze v __plynné__ fázi\.
+- ((obrázek vynechán))Zobrazením __izoterm__ v __p\-V diagramu__ \(viz obrázek\) je vidět, že v __oblasti sycení__ \(označeno barevně\) dochází k __vypařování kapaliny__ \(popř\. kapalnění par\)\. Nad kritickým bodem __K__ však již oblast sycení neexistuje a k __fázové změně__ tam tedy nemůže dojít\. __Izoterma k__, která prochází kritickým bodem __K__, je __kritickou izotermou\.__ Při __vyšších teplotách__, tzv\. __nadkritických__, již __izotermy__ neprochází oblastí sycení a __nelze__ provést __zkapalnění__ a látka existuje pouze v __plynné__ fázi\.
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 Fázový diagram
 
@@ -209,7 +209,7 @@ __Relativní vlhkost vzduchu__
 
 - Udává poměr mezi __okamžitým množstvím vodních par__ ve vzduchu a __množstvím par__, které by __měl__ vzduch o __stejném tlaku__ a __teplotě__ při plném __nasycení__\. Udává se v procentech __\(%\)__
 
-         *(obrázek vynechán)*         *(obrázek vynechán)*           *(obrázek vynechán)*
+         ((obrázek vynechán))         ((obrázek vynechán))           ((obrázek vynechán))
 
 __Φn__ – absolutní vlhkost vzduchu, __m__ – hmotnost vodní páry, která je ve vzduchu obsažena,
 
@@ -219,4 +219,4 @@ __Vlhkoměr__
 
 - měřicí přístroj ukazující __relativní vlhkost vzduchu__ nebo jiné látky\. Klasická konstrukce vlhkoměru je založena na __hygroskopických__ vlastnostech __lidských vlasů\.__
 
-*(obrázek vynechán)*
+((obrázek vynechán))

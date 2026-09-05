@@ -80,7 +80,7 @@ Ne
 
 *He – Ne laser*
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 -
 	- Světlo je z laseru vyzařováno ve formě úzkého svazku
@@ -159,7 +159,7 @@ Užití laserů
 		- Nosičem je citlivá vrstva fotografického filmu, emulze na skle nebo plastová fólie
 		- Zapisuje se informace jak o intenzitě, tak i o fázi světla odraženého od předmětu
 
-[*(obrázek vynechán)*](http://cs.wikipedia.org/wiki/Soubor:Zaznam-hologramu.png)
+[((obrázek vynechán))](http://cs.wikipedia.org/wiki/Soubor:Zaznam-hologramu.png)
 
 - Historie
 	- Dennis Gabor dal v roce 1948 holografii teoretické základy

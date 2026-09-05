@@ -102,7 +102,7 @@ __Vznik firmy a zahajovací rozvaha__
 
 Zahajovací rozvaha:
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 Otevření účtů:
 

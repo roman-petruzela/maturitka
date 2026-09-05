@@ -24,7 +24,7 @@ Newtonův gravitační zákon
 
 - Jeden z nejdůležitějších zákonů fyziky, Newton na něj přišel na základě pozorování pohybu Měsíce kolem Země a pohybu planet kolem Slunce
 - *Dva hmotné body se navzájem přitahují stejně velkými gravitačními silami Fg, \-Fg navzájem opačného směru\. Velikost gravitační síly Fg je přímo úměrná součinu hmotností m1, m2 hmotných bodů a nepřímo úměrná druhé mocnině jejich vzdáleností r\.*
-- Kde ϰ je __Newtonova gravitační konstanta__\. \(někdy označovaná G\)*(obrázek vynechán)**(obrázek vynechán)*
+- Kde ϰ je __Newtonova gravitační konstanta__\. \(někdy označovaná G\)((obrázek vynechán))((obrázek vynechán))
 
 	ϰ = 6,672 ·10\-11
 
@@ -44,7 +44,7 @@ Intenzita gravitačního pole
 
 - Je vektorová fyzikální veličina __charakterizující účinky gravitačního pole na těleso nebo HB__\. Intenzita v bodě P je definována vztahem:
 
-*(obrázek vynechán)*	 => =>
+((obrázek vynechán))	 => =>
 
 		\.\.\.pro těleso ve vzdálenosti r od Země
 
@@ -74,7 +74,7 @@ Homogenní gravitační pole
 - Za homogenní lze gravitační pole považovat tehdy, __jsou\-li trajektorie sledovaných těles malé ve srovnání s poloměrem Země__ a pokud se v oblastech pole, v nichž sledované děje probíhají, __příliš nemění velikost ani směr intenzity gravitačního pole__\.
 - Homogenní gravitační pole je tedy vhodné k popisu pohybů __v blízkosti povrchu Země__ \(např\. šikmý vrh\)\.
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 Gravitační a tíhové pole v laboratorní vztažné soustavě
 
@@ -87,7 +87,7 @@ m – hmotnost tělesa, ω – úhlová rychlost otáčení Země, r – vzdále
 
 - V laboratorní soustavě na každé těleso působí výslednice gravitační a odstředivé síly\. Jde o sílu tíhovou, označuje se
 
-		__F__G=__F__g\+__F__o*(obrázek vynechán)*
+		__F__G=__F__g\+__F__o((obrázek vynechán))
 
 - Její směr se označuje jako __svislý__\. Udává jej např\. __klidná olovnice__
 - Nepůsobí\-li na HB jiná síla než tíhová, pohybuje se HB v lab\. soustavě se zrychlením __g__\.

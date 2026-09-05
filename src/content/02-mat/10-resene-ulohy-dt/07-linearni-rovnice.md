@@ -15,7 +15,7 @@ hasExercises: true
 
 Řešení: $/\cdot6x$: $16=6x+1 \implies 15=6x \implies x=2{,}5$.
 
-**2)** V oboru $\mathbb R$ řešte rovnici s neznámou $y$. *(Přesné znění se nedochovalo.)*
+**2)** V oboru $\mathbb R$ řešte rovnici s neznámou $y$. ((Přesné znění se nedochovalo.))
 
 *Podzim 2013, příklad č. 5. Body: 2. Výsledek: $K=\left\{-\tfrac52\right\}$ (z dochovaného mezikroku $2y=-5$).*
 
@@ -57,7 +57,7 @@ A) $(-\infty;-1)$   B) $\langle-1;0)$   C) $\{0\}$   D) $(0;1\rangle$   E) $(1;+
 
 *2010 (2), příklad č. 11. Body: 4. Výsledek: a) A ($x=-\tfrac32$), b) D ($x=\tfrac34$, podmínky $x\neq0$), c) F, d) C ($x=0$).*
 
-*(Pozn.: přesné znění čtyř rovnic se v podkladu nedochovalo — rekonstruováno z dochovaných mezikroků, konzistentní se všemi uvedenými výsledky.)*
+((Pozn.: přesné znění čtyř rovnic se v podkladu nedochovalo — rekonstruováno z dochovaných mezikroků, konzistentní se všemi uvedenými výsledky.))
 
 Řešení: a) $/\cdot3$: $2x+3=0 \implies x=-\tfrac32$ — leží v A. b) $/\cdot x$: $x-3=-3x \implies 4x=3 \implies x=\tfrac34$ — leží v D. c) $/\cdot2x$: $x-2=x \implies 0=2$ — rovnice nemá řešení, F. d) $/\cdot6$: $3-2x=3 \implies 0=2x \implies x=0$ — leží v C.
 
@@ -65,11 +65,11 @@ A) $(-\infty;-1)$   B) $\langle-1;0)$   C) $\{0\}$   D) $(0;1\rangle$   E) $(1;+
 
 *2011, příklad č. 1.2. Body: 2. Výsledek: $x=-2$.*
 
-*(Pozn.: přesné znění výrazu se nedochovalo zcela přesně — rekonstrukce odpovídá dochovanému postupu i upozornění na znaménko u zlomku.)*
+((Pozn.: přesné znění výrazu se nedochovalo zcela přesně — rekonstrukce odpovídá dochovanému postupu i upozornění na znaménko u zlomku.))
 
 Řešení: $1-\dfrac{x-1}{2x+1}=0\ /\cdot(2x+1) \implies 2x+1-(x-1)=0 \implies 2x+1-x+1=0 \implies x=-2$. *(Pozor na změnu znaménka — před zlomkem je mínus!)*
 
-**3i)** Řešení rovnice zapište jako zlomek v základním tvaru. *(Přesné znění rovnice se nedochovalo, dochovaný mezikrok $14=35b$ dává výsledek.)*
+**3i)** Řešení rovnice zapište jako zlomek v základním tvaru. ((Přesné znění rovnice se nedochovalo, dochovaný mezikrok $14=35b$ dává výsledek.))
 
 *2011, příklad č. 3. Body: 1. Výsledek: $b=\dfrac{14}{35}=\dfrac25$; podmínky $b\neq0$.*
 
@@ -77,7 +77,7 @@ A) $(-\infty;-1)$   B) $\langle-1;0)$   C) $\{0\}$   D) $(0;1\rangle$   E) $(1;+
 
 *2011, příklad č. 4. Body: 1. Výsledek: (dochovaly se jen podmínky $c\neq0$).*
 
-*(Pozn.: přesné znění se nedochovalo zcela přesně — rekonstrukce odpovídá dochovanému mezikroku $4-6=3c$.)*
+((Pozn.: přesné znění se nedochovalo zcela přesně — rekonstrukce odpovídá dochovanému mezikroku $4-6=3c$.))
 
 Řešení: $/\cdot4c$: $4-6=3c \implies -2=3c \implies c=-\dfrac23$.
 

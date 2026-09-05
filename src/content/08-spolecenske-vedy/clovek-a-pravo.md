@@ -25,7 +25,7 @@ __PRÁVNÍ ŘÁD__
 
 Řád: zákon shrnující celé odvětví procesního práva se označuje jako řád \(trestní, školní\)
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 Dělení práva
 __1\.__ __Subjektivní x Objektivní právo__

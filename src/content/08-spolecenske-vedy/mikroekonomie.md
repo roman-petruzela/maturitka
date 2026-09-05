@@ -45,7 +45,7 @@ __NABÍDKA__
 
  Zákon rostoucí nabídky\- s růstem ceny roste i nabízené množství
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 P
 
@@ -68,7 +68,7 @@ __3\. agregátní \(celkovou\)__: nabídka všech druhů zboží od všech ekono
 __POPTÁVKA
 __\- je souhrn všeho zboží, které jsou zákazníci ochotni koupit za příslušnou cenu
 
-__*(obrázek vynechán)*__Zákon klesající poptávky\- růst cen vede k poklesu poptávaného zboží
+__((obrázek vynechán))__Zákon klesající poptávky\- růst cen vede k poklesu poptávaného zboží
 
 P
 
@@ -91,7 +91,7 @@ P
 
 p
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 E = rovnovážný stav
 
@@ -114,7 +114,7 @@ Skládá se ze 4 fází__
 
 __3\. Kontrakce__ \- RP klesá, roste nezaměstnanost, utlumuje se výroba, klesají mzdy a zisky
 
-__*(obrázek vynechán)*4\. DNO__ – Ekonomika je pod potenciálním produktem, reálný HDP je nejnižší, výrobní faktory nejsou
+__((obrázek vynechán))4\. DNO__ – Ekonomika je pod potenciálním produktem, reálný HDP je nejnižší, výrobní faktory nejsou
                  plně využity
 
 Příčiny hospodářských cyklů

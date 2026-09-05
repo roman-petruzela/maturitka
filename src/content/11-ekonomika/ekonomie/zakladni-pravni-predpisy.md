@@ -29,7 +29,7 @@ __=__ souhrn všech právních předpisů ve státě
 
 \- je řazen stupňovitě \(hierarchicky\) dle právní síly – ta je dána názvem normy a orgánem, který ji vydal
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 	Zákonné/Základní
 

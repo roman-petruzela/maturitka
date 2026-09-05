@@ -21,7 +21,7 @@ Magnetický indukční tok
 - Úhel __α__ svírá vektor __mag\. indukce__ s __normálovým vektorem plochy S__\. V případě, že indukční čáry jsou s plochou __rovnoběžné__, pak je indukční tok __nulový__, protože         __α = π/2 rad ⇒ cos α = 0__
 - Pro děje v __nestacionárním magnetickém poli__ jsou charakteristické __změny indukčního toku\.__ Ty mohou být způsobeny změnou __B__ \(změna velikosti proudu vodiče nebo změnou polohy vodiče či magnetu\), __S__ nebo __α__ \(rotace cívky nebo magnetu\)\. Kvantitativně se uvažuje se změnou indukčního toku __ΔΦ__ za čas __Δt__
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 __Φ = B ⋅ S ⋅ cos α__
 
@@ -39,7 +39,7 @@ Faradayův zákon elektromagnetické indukce
 - Určuje __velikost indukovaného napětí__ ve vodiči
 - Změní\-li se __magnetický indukční tok__ uzavřeným vodičem za dobu __Δt__ o __ΔΦ__, indukuje se ve vodiči __elektromotorické napětí__, jehož střední hodnota je:
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 - *Indukované elektromotorické napětí *__*Ui*__* je rovno záporně vzaté časové změně magnetického indukčního toku\. *
 
@@ -61,7 +61,7 @@ Vířivé proudy \(Foucaultovy\)
 Vlastní indukce
 
 - Připojíme\-li cívku do el\. obvodu, začne __proud__, který jí prochází, __vytvářet mag\. pole__\. Proud při zapojení __nemá hodnotu__ \(kterou udává odpor cívky\) okamžitě, ale roste až na tuto hodnotu udávanou __odporem cívky__\. Když cívku zapojíme, __mění se proud__ \(roste\), tím __se mění mag\. indukce cívky__ a mění se i __mag\. indukční tok__\. Podle __Lenzova zákona__ se začne __indukovat napětí,__ které působí __proti změně__, která ho vyvolala, tzn\. působí __proti připojenému zdroji__\. Když dosáhne proud hodnoty, kterou udává odpor, __přestane se měnit__\. Tím se už nemění ani mag\. indukční tok, takže __indukované el\. pole zaniká__\.
-- *(obrázek vynechán)*Indukované elektrické pole __vzniká ve vodiči i při změnách mag\. pole__, které vytváří proud procházející vlastním vodičem\. Tento jev se nazývá __vlastní indukce__\.
+- ((obrázek vynechán))Indukované elektrické pole __vzniká ve vodiči i při změnách mag\. pole__, které vytváří proud procházející vlastním vodičem\. Tento jev se nazývá __vlastní indukce__\.
 
 Indukčnost cívky  L
 
@@ -70,15 +70,15 @@ Indukčnost cívky  L
 - Indukčnost je __důležitý parametr el\. obvodu__ \(spolu s odporem R a kapacitou C\)\.
 -  \[L\] = __H \(henry\)__
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
-- Pro cívku platí:*(obrázek vynechán)*
+- Pro cívku platí:((obrázek vynechán))
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 Energie magnetického pole cívky
 
 - Má\-li v cívce o __indukčnosti L__ vzniknout __proud I__, je třeba __vykonat práci__ k překonání __elektromotorického napětí__ indukovaného vlivem __vlastní indukce__\. Současně vzniká __magnetické pole cívky__\. Jeho __energie__ je rovna __vykonané práci__\.
 	- nemá\-li cívka feromagnetické jádro:
 
-*(obrázek vynechán)*
+((obrázek vynechán))

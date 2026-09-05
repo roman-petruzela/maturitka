@@ -42,7 +42,7 @@ Klient může ručit:
 
 __Výpočet úroku:__
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 Jistina = *K* = kapitál
 

@@ -55,18 +55,18 @@ __Elektromagnet__
 	- Elektromagnetický jistič
 	- Elektromagnetický přerušovač proudu
 
-*(obrázek vynechán)**(obrázek vynechán)**(obrázek vynechán)*
+((obrázek vynechán))((obrázek vynechán))((obrázek vynechán))
 
 __Wehneltova trubice__
 
 - = vyčerpaná trubice na tlak 1 Pa naplněná vodíkem
 - Slouží ke znázornění zakřivení trajektorie částice\(elektronu\) v homogenním magnetickém poli
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 Televizní obrazovka
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 Vztah pro sílu, kterou působí na pohybující se nabitou částici elektrické pole o intenzitě E a magnetické pole o magnetické indukci B
 
@@ -76,17 +76,17 @@ __Lorentzova síla__
 - Lorentzova síla způsobená magnetickým polem mění směr náboje, bez toho, aby působila změnu jeho rychlosti
 - Jestliže se částice s nábojem pohybuje současně v elektrickém a magnetickém poli, působí na ni jak síla elektrická __Fe__, tak síla magnetická __Fm__\. Výslednice obou sil je Lorentzova síla
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 - __q__ \- elektrický náboj; __v__ \- rychlost částice; __E__ \- intenzita elektrického pole; __B__ \- magnetická indukce
 
-       *(obrázek vynechán)*
+       ((obrázek vynechán))
 
 - Výslednicí je __vektorový součin v__ a __B__
 - __Q__ – náboj; v \- rychlost pohybu částice; __B__ – magnet\. indukce; __α__ \- úhel, který svírá směr __v__ a __B__
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 Částice s nábojem v homogenním magnetickém poli
 
-*(obrázek vynechán)*
+((obrázek vynechán))

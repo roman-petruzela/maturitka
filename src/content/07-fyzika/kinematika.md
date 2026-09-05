@@ -32,12 +32,12 @@ Poloha HB
 
 __a\) Kartézská soustava souřadnic            b\) Polohový vektor r__
 
-- *(obrázek vynechán)*Znázorňujeme orientovanou úsečkou
+- ((obrázek vynechán))Znázorňujeme orientovanou úsečkou
 - Počáteční bod se umisťuje do počátku souřadnicového systému a koncový bod do uvažovaného HB
-- Jeho souřadnice jsou totožné se souřadnicemi HB*(obrázek vynechán)*
+- Jeho souřadnice jsou totožné se souřadnicemi HB((obrázek vynechán))
 - Velikost polohového vektoru |r|:
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 Trajektorie a dráha HB
 
@@ -52,13 +52,13 @@ __Dráha HB__
 - Délka trajektorie, kterou HB opíše za určitou dobu
 - Je to skalární veličina, kterou označujeme s a základní jednotkou je 1 m
 
-Průměrná rychlost vp *(obrázek vynechán)*
+Průměrná rychlost vp ((obrázek vynechán))
 
 Je __skalár__, který je definován jako podíl dráhy s a doby t, za kterou HB tuto dráhu urazí:
 
 __Hlavní jednotka:__ m\.s\-1
 
-	\(u dopravních prostředků: km\.h\-1\)*(obrázek vynechán)*
+	\(u dopravních prostředků: km\.h\-1\)((obrázek vynechán))
 
 		1 m\.s\-1 = 3,6 km\.h\-1
 
@@ -73,11 +73,11 @@ __Změna polohového vektoru Δr__ \(k níž dojde při pohybu HB za dobu Δt, j
 
 rozdílem obou polohových vektorů: Δ__r__ = __r´__ – __r__
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 __Okamžitou rychlost__ HB definujeme vztahem:
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 __Velikost okamžité rychlosti__ definujeme vztahem:
 
@@ -87,11 +87,11 @@ změny polohového vektoru během ↓ Δt\)
 
 Zrychlení HB
 
-- Zrychlení __a__ je vektor, který se týká časové změny vektoru rychlosti, tj\. změny velikosti i směru vektoru rychlosti*(obrázek vynechán)*
+- Zrychlení __a__ je vektor, který se týká časové změny vektoru rychlosti, tj\. změny velikosti i směru vektoru rychlosti((obrázek vynechán))
 
 		__Zrychlení__ a v čase Δt definujeme vztahem:
 
-\(kde Δt je velmi malé\)*(obrázek vynechán)*
+\(kde Δt je velmi malé\)((obrázek vynechán))
 
 __Velikost zrychlení__ v čase Δt definujeme vztahem:
 
@@ -123,9 +123,9 @@ Pohyb rovnoměrný přímočarý
 - Nejjednodušší přímočarý pohyb – na celé trajektorii se velikost ani směr rychlosti nemění \(v = konst\)
 - V libovolném bodě trajektorie je okamžitá rychlost rovna rychlosti průměrné
 
-*(obrázek vynechán)**(obrázek vynechán)*
+((obrázek vynechán))((obrázek vynechán))
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 Rovnoměrně zrychlený \(zpomalený\) přímočarý pohyb
 
@@ -133,7 +133,7 @@ Rovnoměrně zrychlený \(zpomalený\) přímočarý pohyb
 
 __Δv = konst__, __a = konst__
 
-- *(obrázek vynechán)*Směr okamžité rychlosti se nemění
+- ((obrázek vynechán))Směr okamžité rychlosti se nemění
 - Má\-li a stejný směr jako v => __pohyb zrychlený__
 - Má\-li a opačný směr než v => __pohyb zpomalený__
 
@@ -141,15 +141,15 @@ Pohyb zrychlený
 
 v =  \+ a\*t 						s = v0\.t \+ ½ a\.t2
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 Pohyb zpomalený
 
 v = v0 – a\.t 						s = v0\.t – ½ a\.t2
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 Volný pád
 

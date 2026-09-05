@@ -223,9 +223,9 @@ __Sociometerie__
 
 __Otázky, které se mohou v sociometrii objevit__
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 U starších žáků je možné použít složitější otázky
 

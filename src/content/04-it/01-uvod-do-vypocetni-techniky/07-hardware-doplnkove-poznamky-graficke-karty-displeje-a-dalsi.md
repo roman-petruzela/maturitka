@@ -52,7 +52,7 @@ Výběr grafické karty 
 
  
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
  
 
@@ -97,7 +97,7 @@ __Pipeline__ 
 
 Hardware grafické karty 
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
  
 
@@ -167,7 +167,7 @@ __Základní parametry monitorů__ 
 - __Obnovovací frekvence__ – Udává se v Hertz, počet obnovení obrazu na monitoru – čím je vyšší, tím je obraz monitoru vnímán jako stabilnější 
 - __Vstupy__ – __DVI, HDMI, VGA__ 
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
  
 
@@ -202,9 +202,9 @@ __*Popis funkce CRT*__ 
 	3. Paprsky dopadají na stínítko potažené fosforem 
 	4. Elektrony díky usměrňování dopadají přesně na určité místo, které se na chvíli rozzáří  
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
  
 
@@ -277,7 +277,7 @@ __*Popis funkce LCD*__ 
 
  
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
  
 
@@ -303,7 +303,7 @@ __Charakteristika a možnosti tiskáren__ 
 - Rychlost se udává ve „__stránkách za minutu“__ \(PPM\) rychlost je ovlivněna složitostí obrazu a kvality požadované uživatelem\. __Inkoustové__ tiskárny jsou  pomalejší, ale pro domácnost či kancelář dostačující\. 
 - __*Barevná nebo černobílá: *__ 
 - Tiskárna tvoří barvy používáním subtraktivního míchaní, v tiskárnách se používá model __CMYK\.__ Volba barevné nebo černobílé tiskárny závisí na potřebách zákazníka\.  
-- *(obrázek vynechán)*
+- ((obrázek vynechán))
 - __*Kvalita:*__ 
 - Kvalita tisku se měří v __„DOTS PER INCH“__ \(DPI\)\. Čím větší DPI tím lepší rozlišení obrázku, čím větší rozlišení tím lepší kvalita, čistota textu a obrázku\. Pro nejlepší kvalitu používejte kvalitní inkoust či toner a papír\. 
 - __*Spolehlivost:*__ 
@@ -348,9 +348,9 @@ __*Typy tiskáren*__ 
 	- Náplně jsou relativně drahé 
 	- Vlhký inkoust po dokončení tisku 
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
-  *(obrázek vynechán)*
+  ((obrázek vynechán))
 
 __*Laserová tiskárny *__ 
 
@@ -377,7 +377,7 @@ __*Laserová tiskárny *__ 
 
   
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 __* *__ 
 
@@ -413,7 +413,7 @@ __*Jehličkové tiskárny*__ 
 	- Kvalita 
 	- Omezení barevné možnosti 
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
   
 
@@ -449,7 +449,7 @@ __*Druhy Scannerů*__ 
 
   
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 1957 
 
@@ -473,11 +473,11 @@ __*Parametry scannerů*__ 
 - __*Rozpoznání textu*__ 
 - Metoda, která umožňuje digitalizaci tištěných textů, s nímž lze pak pracovat jako s normálním PC textem\. 
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
   
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
   
 
@@ -550,7 +550,7 @@ __*Paměti typu ROM*__ 
 
 __*ROM*__ 
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
  
 
@@ -563,7 +563,7 @@ __*PROM*__ 
 - PROM zápis nejde opakovat, je trvalý, neměnný  
 - Buňku paměti je možné realizovat podobně jako u paměti ROM\. Při výrobě je vyrobena matice obsahující spojené adresové vodiče s datovými vodiči přes polovodičovou diodu a tavnou pojistku z niklu a chromu  Takto vyrobená paměť obsahuje na začátku samé hodnoty 1\. A při zápisu je vyšším proudem tato pojistka přepálena a zapsána hodnota 0 
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
   
 
@@ -631,7 +631,7 @@ __*DDR \(double date rate\)*__ 
 
 - Přenáší data na obou hranách \(náběžné i sestupné\) řídicího impulsu\. 
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 řídicí impulsy 
 
@@ -783,7 +783,7 @@ Nevýhody logických disků 
 - Zpomalí se přesun dat mezi různými diskovými oddíly jednoho pevného disku\. OS musí zkopírovat celý obsah přesouvaných dat i přesto, že data zůstávají na stejném disku 
 - U jednoho diskového oddílu, stačí pozměnit administrační část, data na disku se nepřesunou 
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
  
 
@@ -840,7 +840,7 @@ Princip zápisu dat 
 - Mezi dvěma zmagnetizovanými místy vznikají tzv\. magnetické rezervace 
 - __JEDNODUŠE:__ Disk je zmagnetizován v jednom směru, a když cívka začne produkovat elektřinu \(vytvoří se magnetické pole\), to začne měnit směr magnetického pole na daném místě na disku \(\-\) 0 a \(\+\) 1 \- záleží jaký směr bude produkovat elektromagnet \. Čtecí hlava následně data dokáže číst \(magnetické rezervace a ty následně vyvolají magnetický tok, který je zpracováván na elektrický impuls \(1,0\) 
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 Princip čtení dat 
 
@@ -871,7 +871,7 @@ Optická média 
 - První optické disky se objevily v 60\. letech 
 - Na rozdíl od HDD plotny nemá soustředěné do kruhové stopy o různých délkách, ale má jedinou spirálovou stopu začínající u středu disku, na které jsou stejně dlouhé sektory 
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 Vlastnosti 
 
@@ -911,7 +911,7 @@ Zápis CD\-R 
 - Laserový impuls způsobí narušení vrstvy organického barviva 
 - Tím vznikne obdoba prohlubně, od které se čtecí laserový paprsek neodrazí 
 
-*(obrázek vynechán)*  
+((obrázek vynechán))  
 
 Zápis CD\-RW 
 
@@ -920,7 +920,7 @@ Zápis CD\-RW 
 - Slitina se tak velmi rychle začne tavit a při následném ochlazení dojde k fázové přeměně do amorfního stavu 
 - Mazání média se provádí zahřátím slitiny pod teplotu tání, avšak nad krystalizační teplotu \(200 stupňů Celsia\) po dostatečně dlouhou dobu\. Po ochlazení se fáze slitiny navrátí zpět z amorfního stavu do základního krystalického, a médium se chová jako prázdné 
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 5\) Napájecí zdroj a počítačová skříň  
 
@@ -990,7 +990,7 @@ Nevýhody 
 
 Tower 
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
  
 
@@ -1041,7 +1041,7 @@ All in one PC 
 - Nemá externí case, ale vše je obsaženo v jednom 
 - Tento typ využívá například Apple produkt Mac 
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 Výhody 
 
@@ -1312,9 +1312,9 @@ I/O porty 
 
   
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
- *(obrázek vynechán)**(obrázek vynechán)**(obrázek vynechán)*
+ ((obrázek vynechán))((obrázek vynechán))((obrázek vynechán))
 
 7\) Mikroprocesory a komunikace s okolím
 
@@ -1847,7 +1847,7 @@ Druhy architektur 
 
   
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
   
 
@@ -1870,7 +1870,7 @@ Rozhraní jádra 
 - Systém vyžaduje, aby rutiny každé vrstvy přímo volali pouze vrstvy bezprostředně nižší  
 - Nelze z cela dodržet \-> setkáváme se i s přímým voláním hlouběji zanořených rutin  
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 Pojmy 
 
@@ -1898,7 +1898,7 @@ Klient\-server vs hierarchická 
 - Klient\-server je osekaná verze hierarchické  
 - Potřebné věci zůstávají v mikrojádře a vše ostatní jde na server 
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 10\) Správa operační paměti 
 
@@ -2088,7 +2088,7 @@ Pojmy 
 
   
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
  
 
@@ -2110,7 +2110,7 @@ Překlad adres 
 
   
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
  
 
@@ -2169,7 +2169,7 @@ Zásobníkový region 
 - __Strážce zásobníku__ – může zvětšovat datový a zásobníkový region 
 - V oblasti paměti jádra jsou za běhu panenské stránky spíše výjimkou, většina je využita ve fázi bootování\. Nebo jsou pevně vázány na rámec \(nemohou být ukradeny\) 
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
   
 
@@ -2198,7 +2198,7 @@ Fáze kradení stránek 
 
   
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
   
 
@@ -2261,7 +2261,7 @@ Vlastnosti procesu 
 - První proces je bootovací 
 - Proces vzniká vždy na popud jiného procesu, výjimkou je bootovací 
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 Tři základní pohledy na proces 
 
@@ -2496,7 +2496,7 @@ Smrtelný úraz 
 
   
 
-  *(obrázek vynechán)*
+  ((obrázek vynechán))
 
 Vlákna 
 
@@ -2768,7 +2768,7 @@ Soket \(schránka\) 
 		2. druhá strana si uloží číslo sekvence \(x\) a odpoví SYN\-ACK, jako číslo sekvence nastaví svoje číslo \(y\) a do čísla odpovědi vloží \(x\+1\) \- další očekávanou hodnotu 
 		3. klient odpoví ACK, číslo sekvence \(x\+1\), číslo odpovědi \(y\+1\) 
 
- *(obrázek vynechán)*
+ ((obrázek vynechán))
 
  
 
@@ -3213,7 +3213,7 @@ Rekurzivní model 
 	- Pokud bude zaměstnanec, vyplníme jeho atribut nadřízený 
 	- Pokud bude manager necháme místo NULL__, pokud nemá jiného nadřízeného__ 
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
  
 
@@ -3403,18 +3403,18 @@ Propojování tabulek 
 - 4 typy spojení tabulek 
 	- INNER JOIN \-   zobrazí položky, které jsou celé tzv\. nechybí u nich nějaká klíčová data, Pokud by v našem případě neexistoval uživatel s id, které je u článku uvedeno, článek bez uživatele by vůbec nebyl ve výsledcích obsažen 
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 -
 	- OUTER JOIN \- Vnější JOINy umožňují vybírat i ty výsledky, které se nepodařilo spojit z důvodu chybějících položek\. 
 	- RIGHT OUTER JOIN \-  \(Pokud existuje hodnota na pravé straně \- chybějící hodnota je NULL\) 
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 -
 	- LEFT OUTER JOIN \-  \(Pokud existuje hodnota na levé straně \- chybějící hodnota je NULL\) \- levá část vazby \(zde článek\) a pravá \(ta připojovaná, zde uživatel\) neexistuje\. Do hodnot sloupců z připojované části se vloží NULL\. 
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 - Pokud napíšeme __pouze JOIN poikládá ho DB za INNER JOIN__ 
 
@@ -3426,7 +3426,7 @@ JOIN zamestnanci ON zamestnani\.zam\_id = zamestnanec\.zam\_id 
 
  
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
   
 
@@ -4361,7 +4361,7 @@ DELIMITER ; 
 
  
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
  
 
@@ -4466,7 +4466,7 @@ Abstraktní třída 
 - Slouží jako předpis pro jiné třídy 
 - Mohou obsahovat i abstraktní \(__abstract__\) metody, které nemají tělo, potomek si je pak přepisuje a určuje jejich funkcionalitu  
 
-  *(obrázek vynechán)*
+  ((obrázek vynechán))
 
  
 
@@ -4475,14 +4475,14 @@ Rozhraní \(interface\) 
 - Nemá žádné metody s tělem 
 - Jedná se o předpis třídy, určuje jen jaké metody musí potomek mít  
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 Výčtový typ \(enum\) 
 
 - Datový typ, který může nabývat více hodnot 
 - Například dny v týdnu, barvy atd\.  
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 Polymorfismus  
 
@@ -4493,7 +4493,7 @@ Přetížení metod a funkcí 
 
 - Existuje více stejnojmenných funkcí, pouze se liší parametry 
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 Modifikátory přístupu 
 
@@ -4505,14 +4505,14 @@ Anonymní třída 
 
 - Třída, která nemá jméno a může být tak použita vícekrát 
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 Výjimky 
 
 - Neboli try catch  
 - Pokud dojde během běhu kódu k chybě v try, catch vyvolá patřičnou výjimku 
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 Singleton 
 
@@ -4527,7 +4527,7 @@ Factory method 
 
   
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
    
 
@@ -4539,7 +4539,7 @@ Listener 
 
 Něco jako EVENT, čeká a naslouchá na nějakou událost a pak zareaguje 
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 23\) Logické funkce 
 
@@ -5252,7 +5252,7 @@ Pasivní prvek je prvek, jež se v obvodu nechová jako zdroj\. 
 
  
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
  
 
@@ -5272,7 +5272,7 @@ kontaktu a tím došlo k neutralizaci \(vybití elektrických nábojů\)\. 
 
  
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
  
 
@@ -5344,7 +5344,7 @@ Pokud je jezdec v krajní poloze všechno napětí je na žárovce a žárovka t
 
  
 
- *(obrázek vynechán)*
+ ((obrázek vynechán))
 
   
 
@@ -5368,13 +5368,13 @@ Polovodičový prvek prvek je součástka jež pro svou funkci využívá někte
 
  
 
- *(obrázek vynechán)*
+ ((obrázek vynechán))
 
 - __Bipolární tranzistor \-__ Součástka jež je tvořená třemi oblastmi polovodiče s různým typem vodivosti v uspořádání NPN nebo PNP, které vytvářejí dvojici přechodu PN\. Prostřeni oblast se nazývá __báze \(B\),__ krajní __emitor \(E\) a kolektor \(C,__ někdy __K\)\.__ Ke každé z oblasti je zapojen vývod\. Při vhodném zapojeni je velikost elektrického proudu tekoucího mezi emitorem a kolektorem řízena malými změnami proudu tekoucího mezi bázi a emitorem\. Bipolární tranzistory se používají jako zesilovače, spínače a invertory\. 
 
  
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
   
 
@@ -5398,7 +5398,7 @@ Nezatížený odporový dělič je obvod který umožňuje získat menši napět
 
  
 
-  *(obrázek vynechán)*
+  ((obrázek vynechán))
 
   
 

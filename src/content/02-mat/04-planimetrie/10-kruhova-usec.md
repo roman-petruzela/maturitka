@@ -41,6 +41,6 @@ Výsledek: ||vzdálenost tětivy od středu v = r·cos(α/2), tedy r = v/cos(α/
 
 Výsledek: ||S_úseč ≈ 30,93 cm²||
 
-**6.** Vypočtěte obsah „lístků" vycházejících ze středu čtverce o straně $a=0{,}08\text{ m}$, tvořených jednou půlkružnicí a dvěma čtvrtkružnicemi o poloměru $r=40\text{ mm}$ *(úloha se opírala o obrázek, který se nedochoval)*.
+**6.** Vypočtěte obsah „lístků" vycházejících ze středu čtverce o straně $a=0{,}08\text{ m}$, tvořených jednou půlkružnicí a dvěma čtvrtkružnicemi o poloměru $r=40\text{ mm}$ ((úloha se opírala o obrázek, který se nedochoval)).
 
 Výsledek: ||S ≈ 18,26 cm²||

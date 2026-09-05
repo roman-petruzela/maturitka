@@ -27,32 +27,32 @@ __Tahem__
 
 - je způsobena stejně velkými silami opačného směru, které leží na jedné přímce a působí ven z tělesa
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 __Tlakem__
 
 - je způsobena stejně velkými silami opačného směru, které leží na jedné přímce a působí dovnitř tělesa
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
  __Ohybem__
 
 - horní vrstva je deformována tlakem a spodní tahem, prostřední vrstva se nemění
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
  __Smykem__
 
 - síly působí rovnoběžně s horní i dolní podstavou, vrstvy tělesa se navzájem posouvají
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
  __Kroucením__
 
 - je vyvolána dvěma silovými dvojicemi, které způsobují otáčení válce opačným směrem
 - např\. šrouby po dobu utahování, vrtáky při   vrtání
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 __Pozn\.__
 
@@ -63,7 +63,7 @@ Normálové napětí
 
 - Charakterizuje __stav napjatosti__ uvnitř tělesa
 - V libovolném __příčném řezu__ vzniká stav napjatosti charakterizovaný veličinou __normálového napětí σn__ , kde __Fp__ je velikost __síly pružnosti__ působící kolmo na plochu příčného řezu o __obsahu S__
-- *(obrázek vynechán)*Hlavní jednotkou __normálového napětí__ je __Pa__\. V praxi se využívá násobných jednotek MPa nebo GPa
+- ((obrázek vynechán))Hlavní jednotkou __normálového napětí__ je __Pa__\. V praxi se využívá násobných jednotek MPa nebo GPa
 - Pomocí __σn__ můžeme určit, kdy je ještě __deformace pružná__
 - Měříme veličinou __mez pružnosti σE__ , což je __experimentálně__ určená n__ejvětší hodnota σn__ , při kterém je ještě __deformace pružná__, při vyšším __σn__ je těleso __trvale deformováno__
 - Překročí\-li normálové napětí tzv\. __mez pevnosti σp__, poruší se __soudržnost materiálu__ \(drát se přetrhne, cihla se rozpadne\)\.
@@ -72,23 +72,23 @@ Hookův zákon
 
 - Při __pružné__ deformaci __tahem__ je __normálové napětí__ přímo úměrné __relativnímu prodloužení__
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 … normálové napětí
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 … relativní prodloužení
 
 __E__   … látková konstanta, __Youngův modul pružnosti__ v tahu, \[E\] = Pa, \(MPa, GPa\)
 
-*(obrázek vynechán)*… rozdíl původní délky __l1__ a koncové délky __l__
+((obrázek vynechán))… rozdíl původní délky __l1__ a koncové délky __l__
 
-*(obrázek vynechán)**(obrázek vynechán)*
+((obrázek vynechán))((obrázek vynechán))
 
 =křivka deformace
 
@@ -102,9 +102,9 @@ Délková teplotní roztažnost
 - zkoumáme – li u pevného tělesa změnu __jednoho__ jeho __rozměru__ např\. délku drátu, mluvíme o __teplotní délkové roztažnosti__
 - prodloužení tyče je přímo úměrné počáteční délce tyče a přírůstku její teploty
 
-*(obrázek vynechán)**(obrázek vynechán)*
+((obrázek vynechán))((obrázek vynechán))
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 __α__ – __konstanta úměrnosti α__ je pro každou látku materiálovou konstantou\. Nazývá se __teplotní součinitel délkové roztažnosti__ a má jednotku __K\-1__
 
@@ -113,9 +113,9 @@ Objemová teplotní roztažnost
 - zkoumáme\-li závislost __objemu__ pevného tělesa na __teplotě__, jde o __teplotní objemovou roztažnost__
 - pro objemovou teplotní roztažnost z měření vyplývá, že při změně teploty z __t1__ na __t__ se změní objem __V1__ na takovou hodnotu __V,__ pro kterou platí vztah:
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
-*(obrázek vynechán)*\- veličina __β__ se nazývá __teplotní součinitel objemové roztažnosti__\. Závisí na __druhu__ látky, z níž je pevné těleso\. Jednotkou součinitele objemové roztažnosti je __K\-1__
+((obrázek vynechán))\- veličina __β__ se nazývá __teplotní součinitel objemové roztažnosti__\. Závisí na __druhu__ látky, z níž je pevné těleso\. Jednotkou součinitele objemové roztažnosti je __K\-1__
 
 - v MFChT tabulkách jsou uvedeny pouze hodnoty teplotního __součinitel délkové roztažnosti α__, protože u pevného tělesa z izotropní látky platí: __β ≈ 3α__
 
@@ -126,4 +126,4 @@ Teplotní roztažnost pevných látek v praxi
 - mezery mezi spoji vlakových kolejí brání zohýbání kolejí v létě
 - špatně chlazený píst v motoru se může zadřít
 
-*(obrázek vynechán)**(obrázek vynechán)*
+((obrázek vynechán))((obrázek vynechán))

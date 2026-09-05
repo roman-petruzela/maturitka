@@ -17,11 +17,11 @@ Shadow Copy is enabled on a per volume basis\. Once configured on a volume, all 
 
 In the graphical view, right click on a volume and select on Properties to launch the properties dialog\. In the properties dialog, select the Shadow Copy tab to display the Shadow Copy properties as illustrated in the following figure:
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 The Select a volume section of the properties dialog lists the volumes present on the local system\. Select the volume in this list for which Shadow Copy is to be enabled\. With the volume selected click on the Settings button to display the following Shadow Copy Settings dialog box:
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 In the Located on this volume specify the volume on which the shadow copies are to be stored\. This can be either the current volume or a different volume on the system\. The Details button displays free and total disk space information for the currently specified volume\. Once a suitable volume for the shadow copies has been selected the maximum size to be made available for the shadow copies may be defined\. This can either be set to Maximum size which will use all available space on the specified volume, or capped to a specific size \(keeping in mind that a minimum of 300MB is required for the shadow storage volume even before any snapshots are taken\)\.
 
@@ -29,7 +29,7 @@ Schedule the shadow copy snapshots by clicking on the Schedule\.\.\. button\. By
 
 To specify additional schedules, click on the New button and specify the days and time of the snapshot\. Note that snapshots can also be configured to occur at user logon, system startup and even when the system is idle\. The following screenshot illustrates the Shadow Copy scheduling dialog:
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 Once the schedules have been configured, click on OK to dismiss the scheduling dialog\. Click OK once again in the Settings dialog to return to the Shadow Copy properties panel\. To initiate a manual shadow copy now, or at any other time, simply select the volume to be copied from the list in the Shadow Copy properties panel and click on the Create Now button\.
 

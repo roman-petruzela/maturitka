@@ -36,4 +36,4 @@ Dialogy,improvizace,hyperbola
 __Kompozice:
 __\-hra o 3 dějství, komedie, chronologický děj, hra končí happy endem, přirovnání, personifikace
 
-__*(obrázek vynechán)*__
+__((obrázek vynechán))__

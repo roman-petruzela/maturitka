@@ -235,7 +235,7 @@ Nízké superego = člověk pociťuje málo viny i po velkých mravních přestu
 
 Velmi vysoké superego = perfekcionisté, kteří poté trpí mravní úzkostí
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 __Libido\*__
 

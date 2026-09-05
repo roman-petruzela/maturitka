@@ -291,7 +291,7 @@ Daň z příjmů fyzických osob se vypočte ze základu daně \(součtu dílč�
 
 Od takto zjištěné daňové povinnosti se ještě odečítají __slevy na dani:__
 
-__*(obrázek vynechán)*__
+__((obrázek vynechán))__
 
 __SLEVA NA__
 
@@ -343,7 +343,7 @@ Sleva na pracující důchodce
 
 24 840 Kč
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 //Mezi další slevy, které mohou FO uplatnit ve svém daňovém přiznání patří:
 
@@ -364,7 +364,7 @@ Výnosy \(6\. účtová třída\)
 
 __Účetní výsledek hospodaření__
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 __Účetní výsledek hospodaření__
 

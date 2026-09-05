@@ -28,7 +28,7 @@ Základní principy speciální teorie relativity
 - Tento princip je založen na tom, že __žádným pokusem provedeným uvnitř vztažné inerciální soustavy nelze rozhodnout, zda se tato soustava vzhledem k jiné inerciální vztažné soustavě pohybuje rovnoměrným přímočarým pohybem, popř\. zda je v klidu__, z toho plyne, že __všechny inerciální vztažné soustavy jsou si rovnocenné__
 - __2\.princip stálé rychlosti světla: Ve všech inerciálních vztažných soustavách má rychlost světla ve vakuu stejnou rychlost, a to nezávisle na pohybu světelného zdroje\. Rychlost světla v libovolné inerciální vztažné soustavě je ve všech směrech stejná__
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 Relativnost současnosti
 
@@ -40,7 +40,7 @@ Relativnost současnosti
 - Z toho plyne: __Dvě nesoumístné události, které jsou současné vzhledem k soustavě K´, nejsou současné vzhledem k soustavě K\.__
 - To znamená, že __současnost dvou nesoumístných událostí je relativní pojem__
 
-*(obrázek vynechán)*Dilatace času
+((obrázek vynechán))Dilatace času
 
 - Pro přesné hodnoty využíváme světelných hodin – světelný paprsek kmitá mezi dvěma zrcadly, což odpovídá tikotu hodin
 - Dilataci času nejlépe demonstruje následující příklad: raketa se pohybuje určitou rychlostí __v__ a v ní se nachází světelné hodiny, pozorovatel A zjistí:
@@ -48,9 +48,9 @@ Relativnost současnosti
 
    čili
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
-*(obrázek vynechán)**(obrázek vynechán)*              *(obrázek vynechán)*
+((obrázek vynechán))((obrázek vynechán))              ((obrázek vynechán))
 
 - Pozorovatel B však zjistí:
 - Hodiny jsou vzhledem k pozorovateli B v pohybu o rychlosti __v__, signál tedy musí urazit větší vzdálenost l za dobu ∆t, ve vzorci se to projeví:
@@ -61,11 +61,11 @@ Relativnost současnosti
 -             v   \-   rychlost kterou se těleso pohybuje
 -             c   \-   rychlost světla
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
-             *(obrázek vynechán)*                             *(obrázek vynechán)*
+             ((obrázek vynechán))                             ((obrázek vynechán))
 
-                                                                                               *(obrázek vynechán)*
+                                                                                               ((obrázek vynechán))
 
 - Z předešlých příkladů tedy vyplývá, že hodiny pohybující se vzhledem k pozorovateli jdou pomaleji než hodiny, které jsou vzhledem k pozorovateli v klidu
 - __Dilatace času:__ Jestliže pozorovatelé, kteří se vzájemně pohybují měří časový interval mezi dvěma událostmi, dojdou obecně k rozdílným výsledkům\.
@@ -80,7 +80,7 @@ Kontrakce délek
 - __Poněvadž měření délky pohybujícího se předmětu vyžaduje současné určení poloh koncových bodů měřeného předmětu a současnost událostí je relativní pojem, je rovněž délka předmětu relativní pojem \(vzhledem k volbě vztažné soustavy\)\.__
 - Hodnotu, na jakou se změní délka předmětu v závislosti na rychlosti jeho pohybu vzhledem k určité vztažné soustavě nám udává __vztah pro kontrakci délek:__
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 - Ve vzorci je L – délka v soustavě, vzhledem k níž se těleso pohybuje
 -                     L0 \-  délka v klidové soustavě
@@ -95,6 +95,6 @@ Skládání rychlostí ve speciální teorii relativity
 - Tento vzorec je však v rozporu s druhým postulátem speciální teorie relativity, podle něhož se světlo ve vakuu šíří vzhledem k libovolné inerciální vztažné soustavě rychlostí c
 - Einstein proto odvodil obecnější relativistický zákon pro skládání rychlostí:
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 - Po dosazení rychlosti světla c za rychlost částice u´ \(tedy bude\-li se částice pohybovat rychlostí světla\) nedostaneme rychlost vyšší než je rychlost světla, výsledkem bude c; v tomto vzorci tedy c zůstává konstantní a světlo se pohybuje ve všech soustavách konstantní rychlostí c

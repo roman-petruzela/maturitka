@@ -5,7 +5,7 @@ source: "mat/IT2M_3.docx"
 hasExercises: true
 ---
 
-> Pozn. k obsahu: Zdrojový dokument obsahoval matematické vzorce vložené jako obrázky/rovnice, které se při převodu ztratily (označeno jako *(obrázek vynechán)*). Text i tabulky s daty jsou zachovány beze změny významu.
+> Pozn. k obsahu: Zdrojový dokument obsahoval matematické vzorce vložené jako obrázky/rovnice, které se při převodu ztratily (označeno jako ((obrázek vynechán))). Text i tabulky s daty jsou zachovány beze změny významu.
 
 ## 21.–22. Exponenciální funkce v praxi
 
@@ -33,11 +33,11 @@ Pokud bychom jakýkoliv přírodovědný vztah uvedený výše vyjádřili grafi
 |---|---|---|---|---|---|---|---|---|---|---|
 | m (g) | 0,43 | 0,40 | 0,37 | 0,35 | 0,32 | 0,30 | 0,28 | 0,26 | 0,24 | 0,22 |
 
-*(obrázek vynechán — graf)*
+((obrázek vynechán — graf))
 
-Pokud bychom opustili definiční obor typický pro přírodovědné bádání, tedy definiční obor D(f) = ⟨0;+∞), pak by mohla křivka vypadat i pro záporná t. *(obrázek vynechán)*
+Pokud bychom opustili definiční obor typický pro přírodovědné bádání, tedy definiční obor D(f) = ⟨0;+∞), pak by mohla křivka vypadat i pro záporná t. ((obrázek vynechán))
 
-Exponenciální funkce o základu „a" je funkce na množině R vyjádřená ve tvaru y = aˣ, kde „a" je kladné číslo různé od jedné. Základ „a" ovlivňuje tvar a průběh funkce. Především je rozdíl u funkcí, které mají základ a > 1 a 0 < a < 1. Pro a = 1 by měla funkce průběh typický pro konstantní funkci, kde y = 1. *(obrázek vynechán)*
+Exponenciální funkce o základu „a" je funkce na množině R vyjádřená ve tvaru y = aˣ, kde „a" je kladné číslo různé od jedné. Základ „a" ovlivňuje tvar a průběh funkce. Především je rozdíl u funkcí, které mají základ a > 1 a 0 < a < 1. Pro a = 1 by měla funkce průběh typický pro konstantní funkci, kde y = 1. ((obrázek vynechán))
 
 - Definiční obor je R
 - Obor hodnot je (0;+∞)
@@ -90,7 +90,7 @@ Pokud bychom jakýkoliv přírodovědný vztah uvedený výše vyjádřili grafi
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
 | pH | 12,00 | 11,00 | 10,00 | 9,00 | 8,00 | 7,00 | 6,00 | 5,00 | 4,00 | 3,00 | 2,00 | 1,00 |
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 Pokud bychom opustili definiční obor typický pro hledání pH, tedy definiční obor velmi malých kladných čísel, pak by mohla křivka y = log10(x) vypadat takto:
 
@@ -104,7 +104,7 @@ A pro y = log0,1(x):
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
 | y | 0,70 | 0,30 | 0,15 | 0,00 | -0,30 | -0,48 | -0,60 | -0,70 | -0,78 | -0,85 | -0,90 | -0,95 |
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 Logaritmická funkce o základu „a" je funkce inverzní k exponenciální funkci y = aˣ, kde „a" je kladné číslo různé od jedné. Značení je voleno jako y = logₐ(x), čteme logaritmus „x" o základu „a".
 
@@ -116,7 +116,7 @@ Logaritmická funkce o základu „a" je funkce inverzní k exponenciální funk
 - Nemá v žádném bodě maximum a ani minimum
 - Funkční hodnota v bodě 1 je rovna 0
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 ## 28.–29. Logaritmická funkce, parametry a grafy
 

@@ -311,7 +311,7 @@ __Psi:__
 - nejslabší kvadrant
 - utlumení výroby, opuštění trhu
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 Tempo
 
@@ -325,6 +325,6 @@ N
 
 V
 
-N*(obrázek vynechán)*
+N((obrázek vynechán))
 
 V

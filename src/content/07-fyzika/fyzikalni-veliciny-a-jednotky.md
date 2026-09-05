@@ -50,7 +50,7 @@ A\)  Základní jednotky
 
 B\)  Doplňkové jednotky
 
-*(obrázek vynechán)*C\)  Odvozené jednotky
+((obrázek vynechán))C\)  Odvozené jednotky
 
 D\)  Násobky a díly jednotek
 
@@ -58,7 +58,7 @@ E\)  Vedlejší jednotky
 
 1. __Základní jednotky \-\-\-\-\->__
 
-*(obrázek vynechán)*__B\) Doplňkové jednotky__
+((obrázek vynechán))__B\) Doplňkové jednotky__
 
 - Radián \(rovinný úhel\), steradián \(prostorový úhel\)
 - bezrozměrné jednotky
@@ -67,19 +67,19 @@ __C\) Odvozené jednotky__
 
 - Ze základních jednotek pomocí definičních rovnic
 
-Př\.:   v = rychlost    s = dráha     t = čas*(obrázek vynechán)**(obrázek vynechán)*
+Př\.:   v = rychlost    s = dráha     t = čas((obrázek vynechán))((obrázek vynechán))
 
            	dosazení jednotek:
 
 Některé jednotky mají vlastní názvy a značky:
 
-*(obrázek vynechán)**(obrázek vynechán)*
+((obrázek vynechán))((obrázek vynechán))
 
 Síla =           newton \(N\)		tlak =              pascal \(Pa\)
 
 __D\) Násobky a díly základních jednotek__
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 a … atto		n … nano	k … kilo		T … tera	c … centi	h … hekto
 
@@ -90,7 +90,7 @@ p … piko		m … mili	G … giga	E … exa		da … deka
 - ze základních a odvozených jednotek násobením nebo dělením mocninou 10
 - normalizovaná předpona \+ hlavní jednotka
 
-Kilonewton \(kN\)*(obrázek vynechán)*
+Kilonewton \(kN\)((obrázek vynechán))
 
 __E\) Vedlejší jednotky__
 
@@ -147,27 +147,27 @@ __Operace s vektory__
 
 Součet vektorů: __a__ \+ __b__ = __c__			Rozdíl vektorů: __a__ \- __b__ = __c__
 
-*(obrázek vynechán)**(obrázek vynechán)*
+((obrázek vynechán))((obrázek vynechán))
 
 Skalární součin dvou vektorů:
 
-               *(obrázek vynechán)*        *(obrázek vynechán)*
+               ((obrázek vynechán))        ((obrázek vynechán))
 
 - výsledkem je skalár
 
 Vektorový součin: __a__ X __b__ =
 
-- Má velikost danou vztahem:  *(obrázek vynechán)*
+- Má velikost danou vztahem:  ((obrázek vynechán))
 - Je kolmý k rovině určené oběma vektory
-- Je orientován tak, že vektory  __*(obrázek vynechán)*__ tvoří pravotočivý trojhran
+- Je orientován tak, že vektory  __((obrázek vynechán))__ tvoří pravotočivý trojhran
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 Součin vektoru a skaláru:
 
-- *(obrázek vynechán)*Součin vektoru __a__ a skáláru k je vektor __b__ s vlastnostmi:
+- ((obrázek vynechán))Součin vektoru __a__ a skáláru k je vektor __b__ s vlastnostmi:
 - Pro velikost vektoru platí:
-- *(obrázek vynechán)* pro jednotky:
+- ((obrázek vynechán)) pro jednotky:
 - k >0 – vektory __a__, __b__ mají stejný směr a jsou rovnoběžné
 - k <0 – vektory __a__, __b__ mají opačné směry, jsou nesouhlasně rovnoběžné
 - k = 0   je   __b__ = __0__    vektor __0__   je nulový vektor

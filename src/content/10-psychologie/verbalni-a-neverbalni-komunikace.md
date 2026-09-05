@@ -29,7 +29,7 @@ __Součásti komunikačního procesu__
 - Komunikační prostředí
 - Zpětná vazba
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 __Komunikátor__
 
@@ -86,7 +86,7 @@ __KOMUNIKAČNÍ ŠUM__
 - Má rušivý vliv na přenos informace, deformuje podobu informace, narušuje dekódování informace
 - Základní typy šumu
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 \(Příklady kom\. šumů – zkreslená informace, nadbytečná informace, svítící slunce, nesympatický člověk, vtíravé myšlenky, nesoustředění, únava, …\)
 
@@ -209,7 +209,7 @@ __Druhy neverbální komunikace__
 	- Strach x jistota
 	- Klid x rozčilení, viz obrázek
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 __Mimika – příklady__
 
@@ -226,7 +226,7 @@ __Mimika – příklady__
 - Správný oční kontakt = signalizujeme zájem \(ale nesmíme zírat ☺ \)
 - Prchavý oční kontakt = např\. záměrný odstup, obava, nezájem, špatné svědomí, …
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 1. __GESTIKA__
 

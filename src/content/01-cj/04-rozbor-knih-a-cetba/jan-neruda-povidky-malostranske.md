@@ -156,7 +156,7 @@ __Jak to přišlo, že dne 20\. srpna roku 1849, o půl jedné s poledne, Rakous
 
 __Děj__
 
-*(obrázek vynechán)*__Psáno o letošních Dušičkách__
+((obrázek vynechán))__Psáno o letošních Dušičkách__
 
 __Téma:__ nerozhodnost
 
@@ -172,7 +172,7 @@ __Vilém Cibulka__ – kupec, přítel Rechnera
 
 __Děj__
 
-*(obrázek vynechán)*__Figurky__
+((obrázek vynechán))__Figurky__
 
 __Téma:__ snaha najít klid na neklidné Malé Straně
 
@@ -180,7 +180,7 @@ __Motivy:__ hluční sousedé, nedobrovolné zapojení do malostranského život
 
 __Postavy:__ koncipient Krumlovský, bytná konduktorka, obyvatelé domu \(malíř, Otýlie atd\.\)
 
-*(obrázek vynechán)*__Děj__
+((obrázek vynechán))__Děj__
 
 __Jazykové prostředky__
 

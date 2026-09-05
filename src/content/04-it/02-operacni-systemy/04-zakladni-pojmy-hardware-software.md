@@ -103,7 +103,7 @@ Další jednotkou je 1 bajt \(značíme 1B\)\. 1B = 8 b \!
 
 ## Přehled násobných jednotek
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 # Úkoly
 

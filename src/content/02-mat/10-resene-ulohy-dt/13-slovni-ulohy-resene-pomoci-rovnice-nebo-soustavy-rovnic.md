@@ -199,7 +199,7 @@ b) myšky pracovaly $(x-1)=\dfrac43$ h rychlostí $\dfrac1{10}$ sýpky/h: rozkra
 
 **2s)** Anežka nasbírá kbelík borůvek za 2 h, Pepa naplní $\tfrac13$ kbelíku za hodinu (celý za 3 h). Za jak dlouho naplní kbelík společně?
 
-A–E) *(hodnoty možností se nedochovaly)*
+A–E) ((hodnoty možností se nedochovaly))
 
 *Kapitola 3, příklad č. 17. Výsledek: B.*
 

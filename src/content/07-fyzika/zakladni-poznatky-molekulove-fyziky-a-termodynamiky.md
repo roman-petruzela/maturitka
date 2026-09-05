@@ -50,7 +50,7 @@ __Tlak plynu__
 
 - částice narážejí na stěny nádoby, což v nádobě vyvolává tlak
 
-*(obrázek vynechán)**(obrázek vynechán)*
+((obrázek vynechán))((obrázek vynechán))
 
    tlak plynu v nádobě
 
@@ -64,7 +64,7 @@ __Brownův pohyb__
 - příčinou pohybu je narážení částic vody na zrnko,
 - *tyto jevy a také tlak plynu a osmóza dokazují, že se částice v látkách neustále neuspořádaně pohybují*
 
-**(obrázek vynechán)**
+*((obrázek vynechán))*
 
 __Osmóza__
 
@@ -91,7 +91,7 @@ __Vzájemné působení částic\. Potenciální energie částic\.__
 - Z existence vzájemného působení mezi částicemi také vyplývá, že soustava částic má __potenciální energii__\.
 - __vazebná energie__ je rovna práci, která by se musela vykonat k rozbití vazby
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 Modely struktur látek různých skupenství
 
@@ -151,33 +151,33 @@ __Nuklid__
 
 - __relativní atomová hmotnost atomu prvku__ udává kolikrát je hmotnost atomu prvku X větší než atomová hmotnostní konstanta \(1/12 hmotnosti atomu nuklidu 126C, 1,661 x 10\-27 kg\)
 
-*(obrázek vynechán)**(obrázek vynechán)*
+((obrázek vynechán))((obrázek vynechán))
 
 	__Mm__
 
 - __molární hmotnost__ je hmotnost jednoho molu látky
 - je dána podílem hmotnosti látky m a látkového množství n
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 __Mr__
 
 - __Relativní molekulová hmotnost__ \(též poměrná molekulová hmotnost\)
 - je podíl klidové hmotnosti molekuly a atomové hmotnostní konstanty\. Číselně je blízká nukleonovému číslu\.
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 	__n__
 
 - __látkové množství__, charakterizuje množství částic v látce
 - základní jednotkou látkového množství je __mol__ \(v SI soustavě\)
-- *(obrázek vynechán)*vzorec látky má látkové množství 1 mol, obsahuje\-li právě tolik částic, kolik je atomů ve 12 g čistého atomu nuklidu 126C
+- ((obrázek vynechán))vzorec látky má látkové množství 1 mol, obsahuje\-li právě tolik částic, kolik je atomů ve 12 g čistého atomu nuklidu 126C
 
 	__NA__
 
 - __Avogadrova konstanta__ udává __počet částic__ odpovídající látkovému množství 1 mol = 6,023 x1023 mol\-1
 
-*(obrázek vynechán)*	__Vm__
+((obrázek vynechán))	__Vm__
 
 - __molární objem__ je objem 1 molu látky
 - __jednotka__: m3/mol

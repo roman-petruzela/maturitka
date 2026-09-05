@@ -43,9 +43,9 @@ Einstein předpokládal, že elmg\. Vlna o frekvenci *f* a vlnové délce λ je 
 
 	Při FJ každé kvantum záření předá energii pouze jednomu elektronu, který ji využije na uvolnění z kovu \(výstupní práce *WV\) *a na zvýšení své kinetické energie\. Einsteinova rovnice FJ má potom tvar
 
-   *(obrázek vynechán)*
+   ((obrázek vynechán))
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 Energie odpovídající mezní frekvenci *fm *způsobí pouze uvolnění elektronu s nulovou kinetickou energií a platí:
 
@@ -57,7 +57,7 @@ Je\-li *f > fm, *elektrony se ihned uvolňují a jejich počet \(velikost fotopr
 
 Nejčastěji se využívá v polovodičových součástkách fotorezistor a fotodioda
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 __Comptonův jev \(A\. H\. Compton, NC za F 1927\)__
 
@@ -65,7 +65,7 @@ Jako Comptonův ____jev \(někdy také Comptonův__ __rozptyl\) označujeme fyzi
 
 Compton při svých pokusech nechal dopadat rentgenové záření o energii 17,8 keV na uhlíkovou destičku a měřil energii odražených fotonů v závislosti na úhlu odrazu\. Změřená spektra vykazovala přitom podobný tvar jako původní záření, ale byla energeticky posunuta k větším vlnovým délkám – měla tedy nižší energii než původní budící rentgenové záření\.
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 V rozptýleném záření nalezl Compton nejen záření s původní frekvencí, ale i s frekvencí nižší, což odporovalo předpokladu KF, že frekvence a vlnová délka se při rozptylu nemění\.
 
@@ -85,13 +85,13 @@ Thomsonův model atomu
 
 	Elektrony mohly být v atomu umístěny různě\. Předpokládalo se, že elektrony se pohybují po určitých orbitech, přičemž jsou stabilizovány přitažlivým působením oblaku kladného elektrického náboje a odpudivým působením ostatních elektronů v atomu\.
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 	Thomson se \(neúspěšně\) pokusil spojit jednotlivé orbity se spektrálními čarami různých prvků\.
 
 	Tento model nebyl potvrzen, neboť byly při experimentech s rozptylem α částic byly získány jiné výsledky než předpovídal tento model\. Tyto experimenty vedly následně ke vzniku planetárního modelu atomu, který Thomsonův model nahradil\.
 
-*(obrázek vynechán)*Rutherfordův model atomu
+((obrázek vynechán))Rutherfordův model atomu
 
 Na základě výsledků experimentu s rozptylem částic α na tenké zlaté fólii vytvořil Rutherford tzv\. planetární model atomu\.
 
@@ -103,7 +103,7 @@ Elektrony se kolem atomového jádra pohybují po eliptických drahách podobný
 
 Rozptyl α částic v Thomsonově modelu
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 Rutherfordův předpoklad, že v jádře existují i elektricky neutrální částice s hmotností přibližně rovnou hmotnosti protonu, potvrdil v r\. 1932 J\. Chadwick objevem neutronů\. Atomové jádro se tedy skládá z protonů a neutronů \(nukleonů\)\.
 
@@ -115,7 +115,7 @@ Rutherfordův model atomu však byl v rozporu s KF\. Pohybující se elektron by
 
 *Tento zásadní nedostatek se pokusil odstranit v r\. 1913 N\. Bohr \(viz MT 48\)*
 
-                                                                       *(obrázek vynechán)*
+                                                                       ((obrázek vynechán))
 
 Atomová spektra
 
@@ -145,7 +145,7 @@ Spektrální série
 
 		R = 3,29 \. 1015 Hz … je Rydbergova frekvence
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 Vysvětlit vznik spektrálních sérií lze za předpokladu, že atom vodíku se může nacházet jen na zcela určitých energiových hladinách a při přechodu z vyšší hladiny En na nižší Em vysílá elmg\. záření o frekvenci *fnm * a platí
 
@@ -157,9 +157,9 @@ E1 = \- h\.R = \-13,6 eV\. K ionizaci atomu vodíku musíme tedy dodat energii 1
 
 Stavy s vyššími hodnotami energie, než odpovídá základnímu stavu, nazýváme excitované stavy
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
-__*(obrázek vynechán)*Kvantování energie atomů \(Franckův\-Hertzův pokus; NC za F 1925\)__
+__((obrázek vynechán))Kvantování energie atomů \(Franckův\-Hertzův pokus; NC za F 1925\)__
 
 Elektrony emitované z katody jsou urychlované mezi katodou K a mřížkou G\. Napětí Ug naopak elektrony brzdí\. K poklesům anodového proudu dochází při celočíselných násobcích napětí 4,89 V\. Atom rtuti má v excitovaném stavu energii o 4,89 eV vyšší než v základním stavu\.
 
@@ -167,7 +167,7 @@ Atomy rtuti přijímají pouze určitá kvanta energie – *energie atomů je kv
 
 Uspořádání Franckova\-Hertzova pokusu
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 Závislost anodového proudu na napětí
 
@@ -181,13 +181,13 @@ Z tohoto hlediska lze tedy tvrdit, že obě teorie se vzájemně doplňují, a 
 
 Částicová povaha elektromagnetického záření se projevuje především v krátkovlnných oblastech \(tzn\. při vysokých energiích fotonů\), vlnová povaha v oblasti dlouhovlnné\.
 
-__*(obrázek vynechán)*Interference světla procházejícího dvěma štěrbinami__
+__((obrázek vynechán))Interference světla procházejícího dvěma štěrbinami__
 
 Vlnové vlastnosti vykazují \(v určitých situacích\) všechny částice\. Tato skutečnost je jedním z důležitých objevů kvantové fyziky\. Takovou hypotézu vyslovil poprvé roku 1924 Louis\-Victor de Broglie jenž vyslovil domněnku, že i částice lze popsat vlnovou délkou o velikosti:
 
 kde *h* je Planckova konstanta a *p* je hybnost částice\. Ve svých důsledcích to znamená, že každému vlnění lze přiřadit určité částicové vlastnosti, a naopak, každá částice se může projevovat jako vlnění\.
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 __Vlnová funkce, relace neurčitosti__
 
@@ -199,4 +199,4 @@ V mikrosvětě je tedy popis pohybu částice omezený\. Tato omezení formulova
 
 	*Nemá proto význam mluvit o tom, že se částice pohybuje po dané trajektorii s určitou rychlostí\. Tyto neurčitosti existují objektivně, nelze je zdůvodnit vlivy nepřesností přístrojů nebo měřicích metod\.			*
 
-*(obrázek vynechán)*
+((obrázek vynechán))

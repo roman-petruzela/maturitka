@@ -30,4 +30,4 @@ Zvířátka na farmě se pod vedením chytrých prasat Kuliše a Napoleona rozho
 
  
 
-*(obrázek vynechán)*
+((obrázek vynechán))

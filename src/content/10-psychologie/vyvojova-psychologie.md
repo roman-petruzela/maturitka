@@ -209,9 +209,9 @@ __Vývoj kresby__
 
 - První pokusy o kresbu postav „hlavonožec“ – má hlavu a ruce, ale chybí trup \(obr\. č\.1\)
 - Postupně začínají kreslit postavu proporčně správně, přibývají detaily – vlasy, oči, ústa, nos, prsty, obleční\) viz obr\. č\. 2
-- *(obrázek vynechán)*
+- ((obrázek vynechán))
 - Obrázek 1 Hlavonožec
-- *(obrázek vynechán)*
+- ((obrázek vynechán))
 - Obrázek 2 Postava
 
 __Socializace__

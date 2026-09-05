@@ -20,7 +20,7 @@ __Součásti komunikačního procesu__
 - Komunikační prostředí
 - Zpětná vazba
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 __Komunikátor__
 
@@ -71,7 +71,7 @@ __Zpětná vazba \(feedback\)__
 - Příklady zpětné vazby: odpověď, ignorování, položení otázky, přikývnutí, změna výrazu apod\.
 - Neverbální zpětná vazba – projevuje se už v průběhu komunikace \(potlesk, neklid, úmyslné rušení\)
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 __Komunikační šum__
 
@@ -79,7 +79,7 @@ __Komunikační šum__
 - Má rušivý vliv na přenos informace, deformuje podobu informace, narušuje dekódování informace
 - Základní typy šumu
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 \(Příklady kom\. šumů – zkreslená informace, nadbytečná informace, svítící slunce, nesympatický člověk, vtíravé myšlenky, nesoustředění, únava, …\)
 
@@ -305,7 +305,7 @@ __Druhy neverbální komunikace__
 	- Klid x rozčilení
 - Viz obrázek
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 __Mimika – příklady__
 
@@ -322,13 +322,13 @@ __Mimika – příklady__
 - Správný oční kontakt = signalizujeme zájem \(ale nesmíme zírat ☺ \)
 - Prchavý oční kontakt = např\. záměrný odstup, obava, nezájem, špatné svědomí, …
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 1. __Gestika__
 
@@ -387,9 +387,9 @@ __Chůze__
 
 - Jistá\-potácivá, noblesní\-odměřená, uvolněná\-křečovitá, pohodlná\-těžká
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 1. __Proxemika__
 
@@ -415,9 +415,9 @@ __Proxemika \- zóny__
 - Signalizuje emoční stav, stupeň zaujetí, postoj k partnerovi a jeho sdělení
 - Příklady viz tabulka
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 1. __Haptika__
 
@@ -429,7 +429,7 @@ __Proxemika \- zóny__
 - __Nejčastěji používaným__ dotekem je __podání ruky__ \(pozdrav, potvrzení uzavření smlouvy, nabídka přátelského vztahu, gratulace\), více viz tabulka
 - První kontakt s klientem – podání ruky a představení \(vede k uvolnění\)
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 1. __Úprava zevnějšku__
 

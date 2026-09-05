@@ -139,7 +139,7 @@ Ve vztahu k finančnímu úřadu je možno na CRM podat přihlášku nebo učini
 - přihláška k dani z příjmů jako plátci: daně z příjmů ze závislé činnosti; daně z příjmů vybírané srážkou podle zvláštní sazby daně; zajišťující daň z příjmů
 - přihláška k registraci pro plátcovy pokladny
 
-__Czech point__*(obrázek vynechán)*
+__Czech point__((obrázek vynechán))
 
 __\-__ Zkratkou českého národního informačního ověřovacího spisu
 

@@ -142,23 +142,23 @@ __a\) Náklady příštích období__
 
 - předem placené nájemné, náklady na dlouhodobou propagaci, …
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 __b\) Komplexní náklady příštích období__
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 __c\) Výdaje příštích období__
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 __d\) Výnosy příštích období__
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 __e\) Příjmy příštích období__
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 __2\) Časové rozlišení v širším pojetí__
 

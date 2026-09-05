@@ -27,7 +27,7 @@ Skleníkový efekt
 
 Vrstvy atmosféry
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 Troposféra:     \- sahá do výšky 7\-18 km
 
@@ -101,7 +101,7 @@ Sluneční záření:    \-heliograf, pyranometr
 
 Směr a rychlost větru: \- anemometr \(rychlost\)
 
-*(obrázek vynechán)* Tlak vzduchu:                                \- vítr proudí z tlakových výšin do tlakových nížin
+((obrázek vynechán)) Tlak vzduchu:                                \- vítr proudí z tlakových výšin do tlakových nížin
 
  \- izobara = spojuje místa se stejným tlakem
 
@@ -113,7 +113,7 @@ Směr a rychlost větru: \- anemometr \(rychlost\)
 
 Coriolisova síla – setrvačná síla, vítr na S polokouli se stáčí vpravo, na J vlevo
 
-*(obrázek vynechán)*Větry
+((obrázek vynechán))Větry
 
 \- sezónní = monzunové
 

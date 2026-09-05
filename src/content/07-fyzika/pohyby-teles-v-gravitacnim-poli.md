@@ -36,17 +36,17 @@ __Svislý vrh vzhůru__
 - Rychlost v max\. výšce \(výška výstupu\)
 - Těleso dopadá na zem stejně velkou rychlostí jakou bylo vrženo
 
-*(obrázek vynechán)**(obrázek vynechán)*
+((obrázek vynechán))((obrázek vynechán))
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 v – okamžitá rychlost tělesa v čase t			h – výška výstupu
 
@@ -62,26 +62,26 @@ __Vodorovný vrh__
 - Délka vrhu __závisí__ na velikosti __počáteční rychlosti v0 a na výšce h__
 - __Délka vrhu__ d – největší vzdálenost od místa vrhu ve vodorovném směru
 
-*(obrázek vynechán)**(obrázek vynechán)*
+((obrázek vynechán))((obrázek vynechán))
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 __Šikmý vrh vzhůru__
 
 - Těleso s počáteční rychlostí v0 ve směru, který svírá s vodorovnou rovinou __elevační úhel α__
 - Trajektorie je část __paraboly__, jejíž vrchol C je v jejím nejvyšším bodě
-- Délka vrhu d se určí ze souřadnic bodu D:*(obrázek vynechán)*
-- __vakuum__ – největší d při α = 45°*(obrázek vynechán)*
+- Délka vrhu d se určí ze souřadnic bodu D:((obrázek vynechán))
+- __vakuum__ – největší d při α = 45°((obrázek vynechán))
 - __vzduch__ – největší d při α = 42°
 - parabolická trajektorie se deformuje působením odporové síly na __balistickou křivku__
 
-*(obrázek vynechán)**(obrázek vynechán)*
+((obrázek vynechán))((obrázek vynechán))
 
-*(obrázek vynechán)**(obrázek vynechán)*
+((obrázek vynechán))((obrázek vynechán))
 
 Pohyby těles v centrálním gravitačním poli
 
@@ -100,19 +100,19 @@ Pohyby těles v centrálním gravitačním poli
 
 __1\. Kosmická rychlost \(kruhová\)__
 
-- *(obrázek vynechán)*Velikost kruhové rychlosti  závisí na výšce h, ale __nezávisí__ na __hmotnosti__ tělesa:
+- ((obrázek vynechán))Velikost kruhové rychlosti  závisí na výšce h, ale __nezávisí__ na __hmotnosti__ tělesa:
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 - K odvození vztahu pro velikost kruhové rychlosti:
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
-- *(obrázek vynechán)**(obrázek vynechán)*__1__ – malá počáteční rychlost v0, pohyb po trajektorii tvaru __elipsy,__ ohnisko je střed Země
+- ((obrázek vynechán))((obrázek vynechán))__1__ – malá počáteční rychlost v0, pohyb po trajektorii tvaru __elipsy,__ ohnisko je střed Země
 - __2__ – při větší počáteční rychlosti těleso opisuje __celou elipsu__
-- *(obrázek vynechán)*__3__ – těleso opíše __kružnici__ se středem v gravitačním středu Země
+- ((obrázek vynechán))__3__ – těleso opíše __kružnici__ se středem v gravitačním středu Země
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 __2\. Kosmická rychlost \(parabolická\)__
 
@@ -126,19 +126,19 @@ Bod A – __apogeum__
 
 	\- těleso má od středu Země __největší__ vzdálenost
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 		= parabolická \(úniková\) rychlost
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 - __5__ – uzavřená elipsa se mění na parabolu – těleso se trvale vzdaluje od Země
 
 __3\. Kosmická rychlost__
 
-- *(obrázek vynechán)*Při dosažení 3\. kosmické rychlosti těleso __opouští sluneční soustavu__
+- ((obrázek vynechán))Při dosažení 3\. kosmické rychlosti těleso __opouští sluneční soustavu__
 
 Keplerovy zákony
 
@@ -152,13 +152,13 @@ __1\. Keplerův zákon__
 - *Planety se pohybují kolem Slunce po elipsách málo odlišných od kružnic, v jejichž společném ohnisku je Slunce\.*
 - __Číselná výstřednost__ – veličina, která vyjadřuje, do jaké míry se liší elipsa od kružnice
 
-*(obrázek vynechán)**(obrázek vynechán)*
+((obrázek vynechán))((obrázek vynechán))
 
-*(obrázek vynechán)*    = vzdálenost ohniska od středu elipsy
+((obrázek vynechán))    = vzdálenost ohniska od středu elipsy
 
  délka hlavní poloosy elipsy =
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 __2\. Keplerův zákon__
 
@@ -172,16 +172,16 @@ __2\. Keplerův zákon__
 
 	\- __nejdelší__ průvodič, __nejmenší__ rychlost
 
-- Pohyb planety je __nerovnoměrný__*(obrázek vynechán)*
+- Pohyb planety je __nerovnoměrný__((obrázek vynechán))
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 __3\. Keplerův zákon__
 
 - Uvádí vztah mezi __oběžnými dobami planet__ a __délkami hlavních poloos__ eliptických trajektorií:
 - *Poměr druhých mocnin oběžných dob dvou planet se rovná poměru třetích mocnin délek hlavních poloos jejich trajektorií\.*
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 T1, T2 – oběžné doby dvou planet
 
@@ -189,11 +189,11 @@ T1, T2 – oběžné doby dvou planet
 
 - Považujeme\-li trajektorie planet za __kružnice__:
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 	r1, r2 – střední vzdálenosti planet od Slunce
 
-- *(obrázek vynechán)*__Astronomická jednotka AU__
+- ((obrázek vynechán))__Astronomická jednotka AU__
 
 		\- střední vzdálenost Země od Slunce
 

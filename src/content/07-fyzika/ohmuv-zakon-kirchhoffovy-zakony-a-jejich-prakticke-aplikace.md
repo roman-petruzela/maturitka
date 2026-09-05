@@ -5,7 +5,7 @@ source: "MATURITA HADR/FYZIKA-maturitní otázky/27-Ohmův-zákon-Kirchhoffovy-z
 ---
 Ohmův zákon pro část elektrického obvodu
 
-- *(obrázek vynechán)*__Vysvětlení__: Ke svorkám zdroje napětí, jehož __elektromotorické napětí Ue__ můžeme měnit, je přes spínač připojen kovový vodič a ampérmetr\. Napětí na vodiči mezi body __A__ a __B__ měříme voltmetrem\. Měníme\-li __Ue__, mění se __napětí U__ mezi dvěma body vodiče a proud jím procházející\.
+- ((obrázek vynechán))__Vysvětlení__: Ke svorkám zdroje napětí, jehož __elektromotorické napětí Ue__ můžeme měnit, je přes spínač připojen kovový vodič a ampérmetr\. Napětí na vodiči mezi body __A__ a __B__ měříme voltmetrem\. Měníme\-li __Ue__, mění se __napětí U__ mezi dvěma body vodiče a proud jím procházející\.
 - Z pokusu vyplývá:
 - *Elektrické *__*napětí U*__* mezi konci kovového vodiče je přímo úměrné *__*elektrickému proudu*__* tímto vodičem procházejícím\. \(*__*R*__* konstantní\)*
 - Tento poznatek byl objeven v r\. __1826__ německým fyzikem __G\. S\. Ohmem__ a nazývá se __Ohmův zákon pro část elektrického obvodu__\.
@@ -18,14 +18,14 @@ Elektrický odpor
 - Je to konstanta úměrnosti mezi __proudem__ a __napětím__
 - U různých vodičů je odpor různý\.
 
-*(obrázek vynechán)**(obrázek vynechán)*
+((obrázek vynechán))((obrázek vynechán))
 
 - __U__ je přímo úměrné __I__, __R__ je nepřímo úměrné
 - Platí pro vodiče se __stálou teplotou__
 - Jednotkou odporu je __ohm Ώ__
 - Vodič má odpor __1 Ώ__ pokud jím při napětí __1V__ prochází proud __1A__
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 __Elektrická vodivost__
 
@@ -34,9 +34,9 @@ __Elektrická vodivost__
 - Jednotkou je __Siemens  \[S\]__
 - Ohmův zákon pomocí vodivosti vyjadřujeme:
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 Vodiče
 
@@ -50,7 +50,7 @@ Rezistory
 
 __Závislost odporu na geometrických rozměrech vodiče a na látce:__
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 	__l__ … délka vodiče
 
@@ -76,7 +76,7 @@ Ohmův zákon pro uzavřený obvod
 	- __Vnější__ – odpor vodičů, rezistorů, spotřebičů…
 - Proud v uzavřeném obvodu se rovná podílu __elektromotorického napětí__ __zdroje__ a __součtu odporů__ __vnější__ a __vnitřní__ části obvodu\.
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 __R \+ Ri__\.\.\.celkový odpor obvodu
 
@@ -104,7 +104,7 @@ __1\. Kirchhoffův zákon__
 
 - Jestliže se v uzlu stýká __n větví__, platí:
 
-*(obrázek vynechán)**(obrázek vynechán)*
+((obrázek vynechán))((obrázek vynechán))
 
 = součet proudů do uzlu vcházejících se rovná součtu proudů z uzlu vycházejících
 
@@ -115,7 +115,7 @@ __2\. Kirchhoffův zákon__
 - *Součet napětí na rezistorech je v uzavřené smyčce roven součtu elektromotorických napětí zdrojů zapojených ve smyčce\.*
 - Jestliže se ve smyčce nachází __n rezistorů__ a __m zdrojů__, platí:
 
-*(obrázek vynechán)**(obrázek vynechán)*
+((obrázek vynechán))((obrázek vynechán))
 
 __Použití Kirchhoffových zákonů__
 
@@ -130,7 +130,7 @@ Sériové zapojení rezistorů
 
 U:U1:U2:U3:…:Un = R:R1:R2:R3:…:R4
 
-*(obrázek vynechán)**(obrázek vynechán)*
+((obrázek vynechán))((obrázek vynechán))
 
 Paralelní zapojení rezistorů
 
@@ -138,9 +138,9 @@ Paralelní zapojení rezistorů
 - __Výsledný odpor__ je vždy __menší__ než odpor libovolného zapojeného rezistoru\.
 - Proudy se ve větvích rozdělí v __obráceném poměru__ k jejich odporům:
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 Sériově paralelní zapojení rezistorů
 
@@ -152,7 +152,7 @@ Elektrická práce
 - Prochází\-li spotřebičem __el\. proud__, __mění__ se v něm __elektrická energie__ v __jiné formy energie\.__
 - Pokud prochází spotřebičem o __odporu R__ __konstantní proud I__, platí __Q=It__, __U=RI__ a pro __práci elektrického proudu__ dostáváme vztah:
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 Joulovo teplo
 
@@ -160,7 +160,7 @@ Joulovo teplo
 - __Mírou změny vnitřní energie__ je právě __Joulovo teplo Qj__
 - Nedochází\-li k přeměnám na jiné druhy energie \(mechanickou, chemickou, …\) je __Joulovo teplo rovno práci elektrického proudu__:
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 - Tento vztah se nazývá __Joulův\-Lenzův zákon__
 
@@ -168,7 +168,7 @@ Výkon elektrického proudu
 
 - __Výkon elektrického proudu__ ve spotřebiči o __odporu R__ vypočítáme ze vztahů:
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 - Uvedené vztahy vyjadřují __příkon spotřebiče__, tj\. míru elektrické energie odebrané spotřebičem ze zdroje napětí za __1 s\.__
 
@@ -177,6 +177,6 @@ __Účinnost__
 - __Výkon spotřebiče P´__ je mírou práce, kterou spotřebič vykoná za __1s__ \(elektromotor\), popř\. mírou energie odevzdané uvažovanému tělesu \(topná spirála tep\. výměnou ohřeje vodu\)\.
 - __Podíl výkonu__ a __příkonu__ udává __účinnost__ spotřebiče:
 
-*(obrázek vynechán)**(obrázek vynechán)*
+((obrázek vynechán))((obrázek vynechán))
 
 - Hlavní jednotkou výkonu je __watt \[W\]__

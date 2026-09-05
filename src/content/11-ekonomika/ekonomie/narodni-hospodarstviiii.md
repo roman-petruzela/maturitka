@@ -200,5 +200,5 @@ __VÝVOZ – DOVOZ = SALDO ZAHRANIČNÍCH OBCHODU__
 __Magický čtyř úhelník__
 
 - Diamant
-- Hodnotí souhrnně všechny 4 nejdůležitější makroekonomické ukazatele *(obrázek vynechán)*
+- Hodnotí souhrnně všechny 4 nejdůležitější makroekonomické ukazatele ((obrázek vynechán))
 - Čím větší tím lepší\.__ __

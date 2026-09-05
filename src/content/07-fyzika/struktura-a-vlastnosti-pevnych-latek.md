@@ -79,9 +79,9 @@ c\) __prostorově centrovaná__ – Li, Na, K, Cr, W, …
 
 a\) a = 0, 334 nm 		b\) a = 0, 405 nm			c\) a = 0, 287 nm
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
-*(obrázek vynechán)**(obrázek vynechán)*
+((obrázek vynechán))((obrázek vynechán))
 
 - __Příklad:__
 
@@ -158,26 +158,26 @@ __a\) Vakance__
 	- ozáření krystalu neutrony v jaderném reaktoru
 	- vakance vznikají také při vzniku některých kovových slitin
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 __b\) Intersticiální poloha částice__
 
 - Projevuje se tím, že částice je v místě __mimo__ pravidelný bod mřížky
 - Je\-li touto částicí __iont__, přenáší při svém pohybu __náboj__ a způsobuje tak __elektrickou vodivost iontových krystalů__
 
-__c\) Příměs \(nečistota\)__*(obrázek vynechán)*
+__c\) Příměs \(nečistota\)__((obrázek vynechán))
 
 - __Cizí__ částice, které se vyskytují v krystalu daného chemického složení
 - Může se vyskytovat:
 	- __v intersticiální poloze__ \(např\.: snadná absorpce atomů C, jejichž počet a uspořádání může ovlivnit v mřížce Fe vlastnosti různých druhů oceli\)
 	- __nahrazovat vlastní částici mřížky__ – tzv\. __substituční atom__ \(např\.: atomy různých prvků \(B, P\), které se zpravují do čistého krystalu křemíku nebo germania, a tím ovlivňují elektrickou vodivost látky\)
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 Čárové poruchy \(dislokace\)
 
 - Jedná se o __přerušení__ pravidelného __uspořádání podél__ určité __čáry__ \(tzv\. __dislokační čáry__\)
-- Posunutí vrstvy hranovou dislokací:*(obrázek vynechán)*
+- Posunutí vrstvy hranovou dislokací:((obrázek vynechán))
 - Látky s touto poruchou __nejsou příliš pevné__
 - Dislokace se dělí:
 	- __hranové dislokace__

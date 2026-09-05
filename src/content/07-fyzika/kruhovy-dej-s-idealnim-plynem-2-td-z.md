@@ -5,24 +5,24 @@ source: "MATURITA HADR/FYZIKA-maturitní otázky/16-Kruhový-děj-s-ideálním-p
 ---
 Práce plynu
 
-- Práce vykonaná plynem při izobarickém ději je rovna součinu __tlaku__ plynu a __přírůstku__ jeho __objemu__*(obrázek vynechán)*
+- Práce vykonaná plynem při izobarickém ději je rovna součinu __tlaku__ plynu a __přírůstku__ jeho __objemu__((obrázek vynechán))
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 W’ = Fs = pSΔs = pΔV__ __
 
-- Práce vykonaná při __izobarickém ději__, při němž plyn přejde ze stavu __A__ do stavu __B__, je znázorněna __obsahem__ obdélníku ležícího v __p\-V diagramu__ pod __izobarou__ AB\. Diagram p\-V se nazývá __pracovní diagram__*(obrázek vynechán)*
+- Práce vykonaná při __izobarickém ději__, při němž plyn přejde ze stavu __A__ do stavu __B__, je znázorněna __obsahem__ obdélníku ležícího v __p\-V diagramu__ pod __izobarou__ AB\. Diagram p\-V se nazývá __pracovní diagram__((obrázek vynechán))
 - Při __proměnném tlaku:__
 - Práce vykonaná plynem při __zvětšení__ jeho __objemu__ je v prac\. diagramu znázorněna obsahem plochy, která leží pod příslušným úsekem křivky __p=f\(V\)__
 - Tlaková síla působící na píst není stálá:
 
 W’ = p1ΔV \+ p2ΔV \+ … \+ pnΔV
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 Kruhový děj
 
-- *(obrázek vynechán)*Děj při kterém je __konečný stav__ soustavy __totožný__ s __počátečním stavem__, se nazývá __kruhový \(cyklický\) děj__
+- ((obrázek vynechán))Děj při kterém je __konečný stav__ soustavy __totožný__ s __počátečním stavem__, se nazývá __kruhový \(cyklický\) děj__
 - Protože při kruhovém ději je počáteční stav látky totožný s konečným stavem, je __celková změna vnitřní energie__ pracovní látky po ukončení cyklu __nulová__
 - Těleso, od kterého pracovní látka přijme teplo __Q1__ je __ohříváč__
 - Těleso, kterému pracovní látka teplo __Q’2__ \(< Q1\) předá je __chladič__
@@ -30,7 +30,7 @@ Kruhový děj
 - Celková práce __W’__, kterou vykoná pracovní látka během jednoho cyklu kruhového děje, se rovná __celkovému teplu Q = Q1 \+ Q’2 přijatému__ během tohoto cyklu od okolí
 -  Použitím __prvního termodynamického zákona__ pro tento děj pak dostaneme __W’ = Q__
 
-*(obrázek vynechán)*Účinnost kruhového děje
+((obrázek vynechán))Účinnost kruhového děje
 
 - Účinnost __ŋ \(étha\)__ libovolného kruhového děje je určena vztahem a je vždy < 1:
 
@@ -41,15 +41,15 @@ Druhý termodynamický zákon
 
 __Cyklicky pracující tepelný stroj			Perpetum mobile druhého druhu__
 
-*(obrázek vynechán)**(obrázek vynechán)*
+((obrázek vynechán))((obrázek vynechán))
 
-*(obrázek vynechán)**(obrázek vynechán)*
+((obrázek vynechán))((obrázek vynechán))
 
 Carnotův cyklus
 
 - __Carnotův cyklus__ označuje __vratný kruhový děj__ ideálního tepelného stroje, který se skládá ze __dvou izotermických a dvou adiabatických dějů__\.
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 1. Izotermická expanze
 2. Adibatická expanze
@@ -69,7 +69,7 @@ __Princip__
 - Reálné tepelné motory ale pracují tak, že po expanzi se pracovní látka z motoru vypouští \(např\. shořelá pohonná směs u vznětového motoru\) a stlačuje se nová dávka pracovní látky
 - Pro __účinnost__ tepelného motoru, který pracuje s __ohřívačem__ o teplotě __T1__ a __chladičem__ o teplotě __T2__, platí:
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 - Tepelné motory můžeme rozdělit na:
 	- __Parní__
@@ -92,7 +92,7 @@ __Zážehový motor čtyřdobý__
 	- __Výfuk__ \- sací ventil je uzavřen, výfukový se otevírá, píst při pohybu nahoru vytlačuje spálené plyny mimo válec do výfuku
 - __Účinnost__ motoru je 20 % až 33 %
 
-*(obrázek vynechán)**(obrázek vynechán)*
+((obrázek vynechán))((obrázek vynechán))
 
 Entropie
 
@@ -100,4 +100,4 @@ Entropie
 - __Entropie__ vyjadřuje tendenci systému přecházet z __méně pravděpodobných__ \(__uspořádanějších__\) stavů do stavů __pravděpodobněji realizovatelných__ \(__méně__ __uspořádaných__\)\.
 - __Entropie S__ je mírou __neuspořádanosti__ \(poloh a rychlostí částic\) systému\.
 - Pro __dokonale uspořádaný systém__ \(krystalická mřížka při 0 K\) je __S = 0__\. Se vzrůstající __teplotou__ a klesajícím __tlakem__ roste\.
-- Entropie je __termodynamická stavová veličina\.__ *(obrázek vynechán)*
+- Entropie je __termodynamická stavová veličina\.__ ((obrázek vynechán))

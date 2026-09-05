@@ -34,7 +34,7 @@ __Postavy :__          \-__Král Lávra__ \- Starý dobrý král, lidé ho měli
 
                          \-__Poustevníček__
 
-*(obrázek vynechán)*                         \-__Červíček__ \- Hráč na kontrabas
+((obrázek vynechán))                         \-__Červíček__ \- Hráč na kontrabas
 
 - Téma, motiv
 - Kompoziční výstavba

@@ -25,7 +25,7 @@ source: "MATURITA HADR/Zeměpis/Zeměpis GLP/7. GEOGRAFIE OBYVATELSTVA.docx"
 ### Složení obyvatelstva podle pohlaví
 
 - počet mužů a žen je na světě přibližně stejný
-- v Evropě je mírná převaha žen, převahu mužů mají země, kde je horší sociální postavení žen \- severní Afrika, Asie \- muslimské země*(obrázek vynechán)*
+- v Evropě je mírná převaha žen, převahu mužů mají země, kde je horší sociální postavení žen \- severní Afrika, Asie \- muslimské země((obrázek vynechán))
 
 ### <a id="_heading=h.gjdgxs"></a>Věkové složení obyvatelstva
 

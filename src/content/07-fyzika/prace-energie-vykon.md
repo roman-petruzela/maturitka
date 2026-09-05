@@ -19,19 +19,19 @@ W = F · s · cos α
 
 			   	=
 
-*(obrázek vynechán)*Na obrázku je znázorněno __působení síly__ F\. Ta se rozkládá na složku k trajektorii kolmou \(F2\) – ta práci nekoná – a na složku rovnoběžnou s trajektorií \(F1\) – ta koná všechnu práci\.
+((obrázek vynechán))Na obrázku je znázorněno __působení síly__ F\. Ta se rozkládá na složku k trajektorii kolmou \(F2\) – ta práci nekoná – a na složku rovnoběžnou s trajektorií \(F1\) – ta koná všechnu práci\.
 
-- __Mechanickou práci__ lze určit i graficky\. Zobrazíme\-li závislost velikosti síly *F1* \(rovnoběžné složky\) na dráze *s*, pak získáme pracovní diagram\. Velikost práce *W* je plocha, kterou ohraničuje graf velikosti síly, počáteční a konečná hodnota dráhy\. Mění\-li se působící síla v závislosti na dráze, pak lze dráhu s rozdělit na nekonečně mnoho velmi malých drah Δ*s*\. Pro práci Δ*Wi*, kterou vykoná síla *Fi* na daném úseku Δ*s* platí*(obrázek vynechán)*
+- __Mechanickou práci__ lze určit i graficky\. Zobrazíme\-li závislost velikosti síly *F1* \(rovnoběžné složky\) na dráze *s*, pak získáme pracovní diagram\. Velikost práce *W* je plocha, kterou ohraničuje graf velikosti síly, počáteční a konečná hodnota dráhy\. Mění\-li se působící síla v závislosti na dráze, pak lze dráhu s rozdělit na nekonečně mnoho velmi malých drah Δ*s*\. Pro práci Δ*Wi*, kterou vykoná síla *Fi* na daném úseku Δ*s* platí((obrázek vynechán))
 
 				                  Δ Wi = Fi · Δs
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 Výkon
 
 - __Výkon__ je skalární fyzikální veličina:
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
  = __průměrný výkon__
 
@@ -42,7 +42,7 @@ Výkon
 
  \->  ve W, t v s \-> W \* s \(wattsekunda\)
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 - __Další jednotky:__ kůň \- 1 k = 735,5 W \(automobily\), Ws \(kWh\) \- elektromotory
 
@@ -53,11 +53,11 @@ Výkon
 - je definována jako __podíl užitečné práce W__, tj\. práce, kterou stroj skutečně vykoná, a práce , kterou by měl stroj vykonat na základě dodané energie\. Platí: η <100%
 - řecké písmeno étha
 
-*(obrázek vynechán)*	 …\. dodaná práce
+((obrázek vynechán))	 …\. dodaná práce
 
 - Podíl výkonu a příkonu
 
-*(obrázek vynechán)*       …\. příkon = dodaná energie
+((obrázek vynechán))       …\. příkon = dodaná energie
 
 Energie
 
@@ -72,7 +72,7 @@ Energie
 
    				E = Ek \+ Ep
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 …těsně nad zemí
 
@@ -83,13 +83,13 @@ Kinetická energie
 
 	Uvažujeme hmotný bod, který je v dané inerciální vztažné soustavě v klidu\. Začne na něj působit konstantní síla __*F*__\. Podle druhého pohybového zákona se začne hmotný bod pohybovat se zrychlením __*a*__ = __*F*/m__\. Trajektorie pohybu HB je přímka, která má směr síly __*F*__\. V čase *t* je velikost rychlosti HB v = a · t a HB urazí dráhu s
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 Na dráze *s* vykoná síla __*F*__ práci   
 
-*(obrázek vynechán)**(obrázek vynechán)*Po dosazení               a                je práce:
+((obrázek vynechán))((obrázek vynechán))Po dosazení               a                je práce:
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 Při __změnách kinetické energie__ rozhoduje práce vykonaná výslednicí sil\. Podle toho, zda je práce kladná nebo záporná, se kinetická energie zvětší nebo zmenší\.
 
@@ -118,18 +118,18 @@ b\) __pružnosti__ – pružně deformované těleso 	\(stlačený míč, prota�
 
 - __ekvipotenciální plocha__ – je ve všech svých bodech kolmá k siločárám elektrostatického pole, má všude stejný potenciál a nazývá se hladina stejného potenciálu
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 - Když padá HB volným pádem, urazí po svislé přímce dráhu s a tíhová síla FG při tom vykoná práci:
 
 - Na začátku pádu je HB ve výšce h1, na konci ve výšce h2\. dráha s = h2 – h1\. Prací vykonanou __tíhovou silou__ je určen úbytek __tíhové potenciální energie__ HB, který je určen jen hmotností, tíhovým zrychlením a počáteční a konečnou výškou\. Tvar trajektorie na něj nemá vliv\.
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 - V praxi je důležitá __tíhová potenciální energie__, kterou má těleso v tíhovém poli Země\. Tato energie a její změny souvisí s prací, kterou vykoná tíhová síla při pohybu tělesa nebo HB\.
 - Chceme\-li určit tíhovou __potenciální energii Ep__, pak musíme zvolit __nulovou hladinu potenciální energie__, kde je Ep = 0\. Obvykle se spojuje s rovinou povrchu země\.
-- *(obrázek vynechán)*Ve výšce h nad zvolenou nulovou hladinou potenciální energie je tíhová potenciální energie HB o hmotnosti m
-- *(obrázek vynechán)*__Jednotka:__ \[E\] = 1 J
+- ((obrázek vynechán))Ve výšce h nad zvolenou nulovou hladinou potenciální energie je tíhová potenciální energie HB o hmotnosti m
+- ((obrázek vynechán))__Jednotka:__ \[E\] = 1 J
 - Působíme\-li proti tíhové síle větší silou F, pak zvedneme těleso o výšku h a vykonáme práci
 - Ta je rovna přírůstku tíhové potenciální energie tělesa\.
 
@@ -137,7 +137,7 @@ Energie pružnosti
 
 - měříme mechanickou prací, kterou vykonají síly pružnosti deformovaného tělesa nebo vnější síly způsobující deformaci
 - při protažení pružiny o délku s vykoná vnější síla F práci
-- *(obrázek vynechán)**k* \(=konstanta úměrnosti\) vyjadřuje elastické vlastnosti pružiny a nazývá se tedy __tuhost pružiny__ – jednotkou je
+- ((obrázek vynechán))*k* \(=konstanta úměrnosti\) vyjadřuje elastické vlastnosti pružiny a nazývá se tedy __tuhost pružiny__ – jednotkou je
 
 Konzervativní silové pole
 
@@ -152,7 +152,7 @@ E = Ek \+ Ep = konst\.
 
 Vztah mezi změnou kin\. energie a prací všech sil na ni působících
 
-				*(obrázek vynechán)*
+				((obrázek vynechán))
 
 - ΔEk >0 … Ek2> Ek1 … W >0 → těleso práci koná, __Ek se zvýší__
 - ΔEk <0 … Ek1> Ek2 … W <0 → těleso práci nekoná, práci konají vnější síly nebo síly pole __Ek se sníží__
@@ -172,6 +172,6 @@ W = m · g · h1 – m · g · h2
 
 Vztah mezi celkovou mech\. energií soustavy a prací všech vnějších sil a vnitřních nekonzervativních sil
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 - __Celková mechanická energie tělesa__, na které při pohybu působí jen tíhová síla je podél celé trajektorie __konstantní__\.

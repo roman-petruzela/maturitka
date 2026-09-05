@@ -105,9 +105,9 @@ __Značka produktu:__
 
 __Životní cyklus produktu:__
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 - Price – cena
 

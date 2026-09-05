@@ -57,7 +57,7 @@ __Tuzemské pohledávky z obchodního styku__
 1. U plátce DPH
 
 - Účtuje se obdobně jako u neplátce
-- *(obrázek vynechán)*Účtování přijatých záloh u plátce DPH\- se bude účtovat na straně toho, kdo má zálohu zaplatit, ale obráceně
+- ((obrázek vynechán))Účtování přijatých záloh u plátce DPH\- se bude účtovat na straně toho, kdo má zálohu zaplatit, ale obráceně
 
 1. __Ostatní pohledávky__
 

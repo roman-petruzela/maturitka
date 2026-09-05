@@ -34,15 +34,15 @@ Ohybové jevy jsou výrazné, má\-li překážka malé rozměry
 
 \(tenké dráty, ostré hrany, úzké štěrbiny, …\)
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 Ohyb světla na hraně 🡪
 
 Ohyb světla na štěrbině
 
-*(obrázek vynechán)**(obrázek vynechán)*Na stínítku pozorujeme interferenční maxima \(nultého řádu a vedlejší\) a interfer\. minima\.
+((obrázek vynechán))((obrázek vynechán))Na stínítku pozorujeme interferenční maxima \(nultého řádu a vedlejší\) a interfer\. minima\.
 
    *Rozložení maxima a minim záleží:*
 
@@ -60,9 +60,9 @@ Ohyb světla na optické mřížce
 
 	Každá ze štěrbin vytváří ohybový obrazec => obrazce se překrývají a dochází k interferenci\.
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 	 je\-li b velmi malé => paprsky jsou rovnoběžné
 
@@ -74,7 +74,7 @@ Při zvětšení počtu štěrbin se interferenční maxima zužují a intenzita
 
 	Současně vznikají vedlejší maxima s malou intenzitou osvětlení\.
 
-               *(obrázek vynechán)*
+               ((obrázek vynechán))
 
 b … vzdálenost štěrbin
 
@@ -84,9 +84,9 @@ k … řád interference
 
 λ … vlnová délka dopadajícího světla
 
-                *(obrázek vynechán)*
+                ((obrázek vynechán))
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 *b\) ohyb světla na optické mřížce*
 
@@ -94,7 +94,7 @@ k … řád interference
 
 	Platí podmínka:
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 	b … mřížková konstanta \(perioda mřížky\)
 
@@ -112,7 +112,7 @@ na dvou štěrbinách \(b\)
 
  a na pěti štěrbinách \(c\)
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 Holografie
 
@@ -136,7 +136,7 @@ Polarizace světla
 
 	____Nepolarizované světlo \(obr\. a\) – světelné vlnění, jehož vektor__ E __nekmitá v jediné rovině, ale nahodile se mění \(běžné zdroje světla – zářivka, Slunce, …\)
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 1. Polarizace odrazem
 
@@ -146,7 +146,7 @@ Polarizace světla
 
 		 – tzv\. Brewsterův úhel
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 1. Polarizace lomem
 
@@ -170,7 +170,7 @@ __Anizotropní prostředí__
 
 			Islandský vápenec
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 1. Polarizace absorpcí \(pohlcením\)
 
@@ -191,7 +191,7 @@ __Anizotropní prostředí__
 - __6\. Polarizační brýle pro rybáře__ – zamezují odrazům světla od hladiny
 - __7\. Orientace včely__ – pomocí polarizovaného světla ze Slunce
 
-	__*(obrázek vynechán)*__
+	__((obrázek vynechán))__
 
 - __8\. Zobrazovací LCD jednotky__ \(displej s tekutými krystaly\)
 

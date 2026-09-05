@@ -442,7 +442,7 @@ __*5*__
 
 *Jak se ti líbí ve třídě?*
 
-*(obrázek vynechán)**(obrázek vynechán)**(obrázek vynechán)**(obrázek vynechán)**(obrázek vynechán)*
+((obrázek vynechán))((obrázek vynechán))((obrázek vynechán))((obrázek vynechán))((obrázek vynechán))
 
 Dobře
 
@@ -454,7 +454,7 @@ Dobře
 
       Velmi špatně
 
-*(obrázek vynechán)**(obrázek vynechán)**(obrázek vynechán)**(obrázek vynechán)**(obrázek vynechán)*
+((obrázek vynechán))((obrázek vynechán))((obrázek vynechán))((obrázek vynechán))((obrázek vynechán))
 
 Výborně
 

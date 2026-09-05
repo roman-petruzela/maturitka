@@ -29,7 +29,7 @@ A) 20 cm   **B) 19,5 cm**   C) 19 cm   D) 18 cm   E) žádná z uvedených
 
 Řešení: obvod menšího $8+9+13=30$ cm, většího $30+15=45$ cm. Poměr podobnosti $45:30=1{,}5$. Nejdelší strana většího: $1{,}5\cdot13=19{,}5$ cm.
 
-**4)** Určete s přesností na desítky metrů délku hranice $ST$ *(trojúhelník se dvěma zadanými úhly 75° a 60° a jednou stranou — přesná délka strany se nedochovala)*.
+**4)** Určete s přesností na desítky metrů délku hranice $ST$ ((trojúhelník se dvěma zadanými úhly 75° a 60° a jednou stranou — přesná délka strany se nedochovala)).
 
 A) 2 230 m   **B) 2 450 m**   C) 2 630 m   D) 2 800 m   E) 3 010 m
 
@@ -157,7 +157,7 @@ A) žádný   B) jeden   **C) dva**   D) tři   E) čtyři
 
 *Jaro 2013, příklad č. 18. Body: 2. Výsledek: E ($\beta=\dfrac{\pi}{9}$, tj. 20°).*
 
-Řešení: vrcholové úhly mají stejnou velikost: $2\pi-2\beta=\beta+\dfrac\pi3$ *(dochovaný mezivýpočet)* $\implies3\beta=\dfrac{5\pi}3 \implies \beta=\dfrac{5\pi}9$... *(přesné zadání úhlů se nedochovalo zcela — dochovaný výsledek je $\beta=\frac\pi9$)*.
+Řešení: vrcholové úhly mají stejnou velikost: $2\pi-2\beta=\beta+\dfrac\pi3$ *(dochovaný mezivýpočet)* $\implies3\beta=\dfrac{5\pi}3 \implies \beta=\dfrac{5\pi}9$... ((přesné zadání úhlů se nedochovalo zcela — dochovaný výsledek je $\beta=\frac\pi9$)).
 
 **23)** Vypočtěte obvod rovnoběžníku $ABCD$ (trojúhelník $ABD$ s úhlem 60° a stranou 2, úhlopříčkou $d$).
 

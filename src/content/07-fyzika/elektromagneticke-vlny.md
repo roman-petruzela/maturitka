@@ -44,9 +44,9 @@ __Gama záření__
 - Často vzniká spolu s alfa či beta zářením při radioaktivním rozpadu jader
 - Má vlnové délky kratší než 124 pm, což odpovídá frekvencím nad 2,42 EHz \(1018\)‏
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 Rovnice postupné rovinné elmag\. vlny
 
@@ -54,9 +54,9 @@ Rovnice postupné rovinné elmag\. vlny
 - Jestliže pro okamžité napětí zdroje platí vztah __u = Umsinωt__, pak v __bodě M__ ve __vzdálenosti x__ od zdroje bude určité okamžité napětí později o dobu __τ = x/c__
 - Pro napětí mezi vodiči v bodě M tedy platí:
 
-*(obrázek vynechán)**(obrázek vynechán)*
+((obrázek vynechán))((obrázek vynechán))
 
-- *(obrázek vynechán)**(obrázek vynechán)*Dvouvodičovým vedením se šíří __postupné elektromagnetické vlnění__ popsané rovnicí:
+- ((obrázek vynechán))((obrázek vynechán))Dvouvodičovým vedením se šíří __postupné elektromagnetické vlnění__ popsané rovnicí:
 
 Stojaté elmag\. vlnění
 
@@ -66,22 +66,22 @@ Stojaté elmag\. vlnění
 - Vznikají:
 	- Místa, kde je mezi __vodiči maximální napětí__
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 -
 	-
 		- Náboj ve vodičích je velmi rozdílny, mezi vodiči vzniká silné el\. pole
 	- Místa, kde je mezi __vodiči nulové napětí__
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 -
 	-
 		- Náboj je v těchto místech stejný, mezi vodiči nevzniká el\. pole
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 Elektromagnetický dipól
 
@@ -93,11 +93,11 @@ Elektromagnetický dipól
 - Ve směru osy se energie __nevyzařuje__
 - Elektromagnetický dipól se používá jako __anténa__ \(parabola\)__ __u vysílačů a přijímačů ve sdělovací technice
 
-Elektromagnetické pole dipólu        *(obrázek vynechán)*
+Elektromagnetické pole dipólu        ((obrázek vynechán))
 
 Dipól
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 Vlastnosti elmag\. vlnění
 
@@ -117,14 +117,14 @@ __Zákon odrazu__
 - *Úhel odrazu je roven úhlu dopadu, přičemž odražené paprsky zůstávají v rovině dopadu\.*
 - Vlnění dopadá na rozhraní pod __úhlem α__, dospěje do bodu A a postupně až do bodu C\. Tyto body se stávají zdroji elementárního vlnění, které se šíří zpět do prostředí, dochází k odrazu vlnění
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 __Difrakce \(ohyb\) vlnění__
 
 - Označuje jevy, které vznikají při __průchodu__ vlnění __otvorem__ nebo __kolem překážky__ způsobující narušení vlnění\. Obecně platí, že ohyb je při určitém rozměru překážky  tím výraznější, čím větší je vlnová délka vlnění\. Ohyb je vždy spojen s __interferencí__\.
 - Ohyb je charakteristickou vlastností vlnění a je vysvětlován pomocí __Huygensova principu\.__
 
-*(obrázek vynechán)**(obrázek vynechán)*
+((obrázek vynechán))((obrázek vynechán))
 
 __Interference__
 
@@ -133,7 +133,7 @@ __Interference__
 - Výsledkem skládání vln je __složené vlnění\.__ Výsledný kmitavý pohyb v daném místě je dán __principem superpozice__ kmitání jednotlivých vlnění\. V důsledku interference vlnění tedy dochází v některých místech ke __zvýšení \(zesílení\) amplitudy__ a v některých místech k jejímu __snížení \(zeslabení\)__
 - __Příklad:__ interference rovinných vln
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 __Polarizace__
 
@@ -142,14 +142,14 @@ __Polarizace__
 - Vybereme\-li pouze kmity __určitého směru__, bude mít vlnění v různých směrech kolmých ke směru šíření různé vlastnosti\. Taková vlna se označuje jako __polarizovaná__
 - Proces vytvoření polarizovaného vlnění z nepolarizovaného se označuje jako __polarizace vlnění__ a provádí se pomocí polarizátoru
 
-*(obrázek vynechán)**(obrázek vynechán)*
+((obrázek vynechán))((obrázek vynechán))
 
 __Rychlost elmag\. vlnění__
 
 - Vlnový charakter elektromagnetického vlnění charakterizuje __rychlost šíření__, tedy fázová rychlost, která je ve vakuu rovna rychlosti světla ve vakuu
 - Elektromagnetické vlnění se šíří rychlostí:
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 - Kde __c__ je __rychlost světla__ ve vakuu
 - __εr__ – relativní permitivita prostředí \- charakterizuje elektrické vlastnosti

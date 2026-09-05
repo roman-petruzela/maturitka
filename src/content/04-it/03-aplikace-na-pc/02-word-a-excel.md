@@ -11,7 +11,7 @@ __Word__
 - tabulka – v programu Word jsme schopni tvořit jednotlivé tabulky, data v ní formátovat ne tak složitě jako v Excelu; můžeme formátovat ohraničení a výplně buněk; použití základních funkcí
 - obsah – \(reference\) – pokud použijeme k formátování textu styly, je Word schopen vygenerovat obsah a my ho nemusíme vypisovat, v případě, že do textu přidáme další nadpisy a text, lze obsah aktualizovat
 - rejstřík – obsahuje seznam pojmů a témat obsažených v dokumentu, včetně stránek, na kterých se pojmy a témata vyskytují; lze vytvářet pro jednotlivá slova, slovní spojení nebo symboly
-- *(obrázek vynechán)*hromadná korespondence – používá se k vytvoření několika dokumentů najednou; tyto dokumenty mají stejné rozložení, formát, text a grafika; liší se jenom jednotlivé části dokumentů, které se mění dle dat, které můžeme zadávat buď tabulkou Excelu nebo i poznámkovým blokem – štítky, dopisy, obálky, e\-maily
+- ((obrázek vynechán))hromadná korespondence – používá se k vytvoření několika dokumentů najednou; tyto dokumenty mají stejné rozložení, formát, text a grafika; liší se jenom jednotlivé části dokumentů, které se mění dle dat, které můžeme zadávat buď tabulkou Excelu nebo i poznámkovým blokem – štítky, dopisy, obálky, e\-maily
 - Hlavním formátem Wordu je \.docx
 
 __Excel__
@@ -22,5 +22,5 @@ __Excel__
 - grafy – umožňují vizualizovat data způsobem; různé vzhledy 3D a 2D úpravy pozadí grafu a jednotlivých popisků, legendy
 - souhrny \- rozsáhlejší tabulku lze zpřehlednit a doplnit o součty \(průměry, počty\) požadovaných sloupců, kdy tyto součty budou provedeny na základě změny v každém sloupci
 - filtry – slouží k řazení dat a organizování dat v rozsáhlých tabulkách
-- *(obrázek vynechán)*kontingenční tabulka – tabulka sloužící k zpřehledněných dat, kterou si uživatel tvoří libovolně z obsáhlé tabulky s daty
+- ((obrázek vynechán))kontingenční tabulka – tabulka sloužící k zpřehledněných dat, kterou si uživatel tvoří libovolně z obsáhlé tabulky s daty
 - Hlavním formátem Excelu je \.xlsx

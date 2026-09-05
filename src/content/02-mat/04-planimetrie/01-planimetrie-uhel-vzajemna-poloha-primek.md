@@ -62,7 +62,7 @@ $$30° = \frac{30\pi}{180} = \frac{\pi}{6}\text{ rad}, \quad 60° = \frac{60\pi}
 
 ## Úkol 2
 
-*(Obrázek se nedochoval.)* Na obdélníku ABCD, kde na straně AB leží bod E, sestrojte jednotlivé druhy úhlů pomocí dvou různobarevných polopřímek.
+((Obrázek se nedochoval.)) Na obdélníku ABCD, kde na straně AB leží bod E, sestrojte jednotlivé druhy úhlů pomocí dvou různobarevných polopřímek.
 
 ## Dvojice úhlů
 
@@ -71,13 +71,29 @@ $$30° = \frac{30\pi}{180} = \frac{\pi}{6}\text{ rad}, \quad 60° = \frac{60\pi}
 - **Souhlasné úhly** — vzniknou při protnutí dvou přímek příčkou; leží na stejné straně příčky a ve stejné poloze vůči průsečíku se svou přímkou. Jsou-li obě přímky rovnoběžné, jsou souhlasné úhly **shodné**.
 - **Střídavé úhly** — vzniknou stejně jako souhlasné, ale leží na **opačných** stranách příčky. Jsou-li obě přímky rovnoběžné, jsou střídavé úhly také **shodné**.
 
+```geometry
+{
+  "points": { "A1": [-3, 2], "A2": [3, 2], "B1": [-3, -1], "B2": [3, -1], "T1": [-1.5, 3], "T2": [1.5, -2] },
+  "segments": [
+    { "from": "A1", "to": "A2" },
+    { "from": "B1", "to": "B2" },
+    { "from": "T1", "to": "T2" }
+  ],
+  "labels": [
+    { "at": [-1.4, 2.35], "text": "α" },
+    { "at": [1.4, -0.65], "text": "β" }
+  ],
+  "title": "Dvě rovnoběžky protnuté příčkou — α, β jsou souhlasné (shodné)"
+}
+```
+
 ## Úkol 3
 
 Nakreslete obdélník ABCD a v něm sestrojte jeho úhlopříčky. V tomto obrazci vyznačte všechny vrcholové, vedlejší, souhlasné a střídavé úhly.
 
 ## Úkol 4
 
-*(Obrázek se nedochoval — zadání se opíralo o konkrétní nákres úhlů, ze kterého se měla velikost hledaného úhlu dopočítat pomocí vlastností výše. Zachovaný výsledek: hledaný úhel měl velikost $45°$.)*
+((Obrázek se nedochoval — zadání se opíralo o konkrétní nákres úhlů, ze kterého se měla velikost hledaného úhlu dopočítat pomocí vlastností výše. Zachovaný výsledek: hledaný úhel měl velikost $45°$.))
 
 ## Vzájemná poloha přímek
 

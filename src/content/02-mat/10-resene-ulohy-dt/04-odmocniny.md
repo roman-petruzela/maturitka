@@ -23,7 +23,7 @@ A) $a^3$   B) $a^4$   C) $a^6$   D) $a^8$   E) $a^{-6}$
 
 Řešení: $\sqrt{a^4}\cdot\sqrt{a^{12}} = \sqrt{a^{16}} = a^8$ *(nebo: $\sqrt{a^4}\cdot\sqrt{a^{12}} = a^2\cdot a^6 = a^8$)*.
 
-**3)** Pro $a\in(0;+\infty)$ zjednodušte výraz. *(Přesné zadání ani postup řešení se v podkladu nedochovaly, jen výsledek. Nelze rekonstruovat.)*
+**3)** Pro $a\in(0;+\infty)$ zjednodušte výraz. ((Přesné zadání ani postup řešení se v podkladu nedochovaly, jen výsledek. Nelze rekonstruovat.))
 
 *Jaro 2017, příklad č. 2. Body: 1. Výsledek: $a^{250}$.*
 
@@ -41,7 +41,7 @@ A) $a^3$   B) $a^4$   C) $a^6$   D) $a^8$   E) $a^{-6}$
 
 *Jaro 2011 PUP, příklad č. 3. Body: 1. Výsledek: $30t^2$.*
 
-*(Pozn.: přesný tvar výrazu se v podkladu nedochoval zcela přesně — rekonstrukce odpovídá dochovanému mezikroku $\sqrt{t^2\cdot50\cdot18\cdot t^2}$.)*
+((Pozn.: přesný tvar výrazu se v podkladu nedochoval zcela přesně — rekonstrukce odpovídá dochovanému mezikroku $\sqrt{t^2\cdot50\cdot18\cdot t^2}$.))
 
 Řešení: $t\cdot\sqrt{50}\cdot\sqrt{18t^2} = \sqrt{t^2\cdot50\cdot18\cdot t^2} = \sqrt{900t^4} = 30t^2$.
 
@@ -58,7 +58,7 @@ b) $\sqrt{25y^{16}}$
 
 *2014 (2), příklad č. 3. Body: 2. Výsledek: a) $6n^5$, b) $5y^8$.*
 
-*(Pozn.: přesný tvar obou výrazů se v podkladu nedochoval — rekonstrukce odpovídá dochovaným výsledkům.)*
+((Pozn.: přesný tvar obou výrazů se v podkladu nedochoval — rekonstrukce odpovídá dochovaným výsledkům.))
 
 Řešení: a) $\sqrt{36n^{10}} = 6n^5$ (pro $n\in\mathbb N$ je $n\geq0$, absolutní hodnota tedy netřeba). b) $\sqrt{25y^{16}} = 5y^8$ (protože $y^{16}$ je vždy nezáporné pro libovolné reálné $y$ díky sudému exponentu, je i výsledek $5y^8$ automaticky nezáporný, žádná absolutní hodnota není potřeba).
 

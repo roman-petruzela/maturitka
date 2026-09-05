@@ -47,6 +47,6 @@ Výsledek: ||S = 2,89 m²||
 
 Výsledek: ||S = 0,1592 ha||
 
-**5.** Vypočítejte obsah a obvod vyšrafovaného obrazce *(obrázek se nedochoval; zachované údaje: úhel $\alpha=42°$, rozměry 30 cm a 50 cm)*.
+**5.** Vypočítejte obsah a obvod vyšrafovaného obrazce ((obrázek se nedochoval; zachované údaje: úhel $\alpha=42°$, rozměry 30 cm a 50 cm)).
 
 Výsledek: ||S = 1000,2 cm²; o = 141,52 cm||

@@ -138,7 +138,7 @@ __Římskokatolická církev__
 
 \- __kněží__ – musejí zachovávat celibát
 
-*(obrázek vynechán)*\- __chrámy__ jsou postaveny na půdorysu východního kříže
+((obrázek vynechán))\- __chrámy__ jsou postaveny na půdorysu východního kříže
 
 \- modlí se k otci a Marii a k svatým \(skuteční lidé, kteří byli za své skutky prohlášení za svaté\)
 
@@ -150,7 +150,7 @@ __Římskokatolická církev__
 
 __Evangelíci__
 
-*(obrázek vynechán)*\- __faráři__ – mohou se ženit
+((obrázek vynechán))\- __faráři__ – mohou se ženit
 
 	  nosí talár a někteří dokonce chodí v civilu
 
@@ -172,7 +172,7 @@ __Pravoslavní__
 
 pokud chce postoupit na biskupa, musí být svobodný \(poslat manželku do kláštera nebo počkat až zemře\)
 
-*(obrázek vynechán)*\- __chrámy__ jsou postaveny na půdorysu rovnoramenného kříže \(kostel je velmi zdobený\)
+((obrázek vynechán))\- __chrámy__ jsou postaveny na půdorysu rovnoramenného kříže \(kostel je velmi zdobený\)
 
 \- při bohoslužbě stojí a jen se křižují a klaní
 
@@ -373,7 +373,7 @@ __Symboly židovství:__
 
 __\- Kipa__ \- znamená totéž co kopule nebo klenba, také pokrývka hlavy, kterou věřící židé nosí
 
-__*(obrázek vynechán)*__         \- je také známá pod výrazem z jidiš __„jarmulka“__, což je slovo pravděpodobně slovanského
+__((obrázek vynechán))__         \- je také známá pod výrazem z jidiš __„jarmulka“__, což je slovo pravděpodobně slovanského
            původu\.
 
 __\- Menora__ \-__ __sedmiramenný svícen je skutečným symbolem židovství, a to již od starověku
@@ -426,7 +426,7 @@ __\- cíl:__ úplné podřízení se Alláhově vůli
                nebe, odtud se vrátí, zabije všechny nevyznavače islámu, zemře a bude pohřben vedle
                Mohameda v Medině
 
-*(obrázek vynechán)*            \- nemá se překládat, potvrzuje existenci andělů a božích poslů
+((obrázek vynechán))            \- nemá se překládat, potvrzuje existenci andělů a božích poslů
 
             \- věří v existenci duchovních bytostí – džinů
 
@@ -491,7 +491,7 @@ __    __\- cesta do ráje – přechod po mostě, pod nímž je peklo
 
 __HINDUISMUS__
 
-__*(obrázek vynechán)*__\- je náboženstvím indické civilizace
+__((obrázek vynechán))__\- je náboženstvím indické civilizace
 
 \- vznikl ve 2\. tisíciletí př\. n\. l\.
 
@@ -518,7 +518,7 @@ __\- sansára__ = koloběh zrození, smrti a opětovného zrození \(jsou zde uv
 
 __BUDDHISMUS__
 
-__*(obrázek vynechán)*__\- vznikl v 6\. \- 5\. st\. př\. n\. l\.
+__((obrázek vynechán))__\- vznikl v 6\. \- 5\. st\. př\. n\. l\.
 
 \- zakladatelem byl __Gautama Sithártha__, který byl často nazýván Buddhou \(„probuzeným“\)
 
@@ -573,7 +573,7 @@ __KONFUCIANISMUS__
 
 \- Vznikl v Číně v 5\.stol\. př\.n\.l\.
 
-__*(obrázek vynechán)*__\- Zakladatelem je Konfucius
+__((obrázek vynechán))__\- Zakladatelem je Konfucius
 
 \- Zdůrazňuje pojem __Li__ = správné chování a disciplína
 
@@ -591,7 +591,7 @@ __TAOISMUS__
 
 \- významné úspěchy v lékařství – vyvinuli akupunkturu, systém zdravotních cvičení
 
-*(obrázek vynechán)*\- snaha vyvinout elixír věčného mládí
+((obrázek vynechán))\- snaha vyvinout elixír věčného mládí
 
 \- celý vesmír ovládají dvě protikladné síly: JIN a JANG
 

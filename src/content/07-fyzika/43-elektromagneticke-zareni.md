@@ -83,7 +83,7 @@ Rentgenové záření
 
               \(viz\. schéma\)
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 - Vlastnosti – proniká látkami \(látky s vyšším protonovým číslem jej pohlcují více\)
 
@@ -101,7 +101,7 @@ Rentgenové záření
 
 					\- rentgenová astronomie
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 Spektroskop
 
@@ -133,7 +133,7 @@ Druhy spekter
 
 				tělesy
 
-*(obrázek vynechán)*Příklady spekter
+((obrázek vynechán))Příklady spekter
 
 a\) Spojité spektrum
 
@@ -149,11 +149,11 @@ emisní spektrum rtuti
 
 sluneční spektrum
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 Tepelné záření
 
@@ -171,7 +171,7 @@ Energie elektromagnetického záření je vyzařována nebo pohlcována po kvant
 
 				f … frekvence záření
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 Záření černého tělesa
 
@@ -205,7 +205,7 @@ Wienův posunovací zákon
 
 *					   b*  \- Wienova konstanta; b = 2,898 mm \. K
 
-*(obrázek vynechán)**(obrázek vynechán)*
+((obrázek vynechán))((obrázek vynechán))
 
 Některé fotometrické veličiny
 
@@ -244,4 +244,4 @@ Jemná mechanická práce, rýsování
 
 							 ΔΩ – velikost prostorového úhlu
 
-               *(obrázek vynechán)*    *(obrázek vynechán)*   *(obrázek vynechán)*
+               ((obrázek vynechán))    ((obrázek vynechán))   ((obrázek vynechán))

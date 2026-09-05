@@ -70,7 +70,7 @@ __Účtování cenin__
 
 __Inventarizační rozdíly__
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 __Bankovní účet, kontokorentní účet, devizový účet a jejich zařazení do rozvahy__
 
@@ -132,4 +132,4 @@ __Ocenění krátkodobého finančního majetku v průběhu pořizování__
 
 __Účtování prodeje krátkodobého finančního majetku__
 
-*(obrázek vynechán)*
+((obrázek vynechán))

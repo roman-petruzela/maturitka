@@ -69,7 +69,7 @@ __Tuzemské závazky z obchodního styku__
 - Povinnost vystavit daňový doklad již na zaplacenou zálohu
 - Účtování je stejné, jen u daňového dokladu se neúčtuje cena bez daně
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 __Závazky v cizí měně a kurzové rozdíly__
 

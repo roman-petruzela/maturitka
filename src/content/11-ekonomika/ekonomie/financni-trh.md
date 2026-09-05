@@ -139,7 +139,7 @@ Speciální
 
 1. Zákonné x Listinné
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 __Dividenda__
 

@@ -12,9 +12,9 @@ m… relativistická hmotnost
 
 m0… klidová hmotnost
 
-                                                   *(obrázek vynechán)*
+                                                   ((obrázek vynechán))
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 - Závislost relativistické hmotnosti tělesa na jeho rychlosti vzhledem k dané inerciální vztažné soustavě
 
@@ -25,24 +25,24 @@ Relativistická hybnost
 - Pro rychlosti mnohem menší než rychlost světla platí __zákon zachování hybnosti__: __Celková hybnost izolované soustavy těles zůstává u všech dějů probíhajících uvnitř soustavy konstantní\.__
 - V relativistické mechanice je nahrazena klidová hmotnost relativistickou, tudíž platí:
 
-                                                                  *(obrázek vynechán)*
+                                                                  ((obrázek vynechán))
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 Vztah mezi energií a hmotností
 
 - Podle klasické mechaniky není mezi energií tělesa E a jeho setrvačnou hmotností m0 žádný vztah\.
 - Einstein však dokázal, že __se při každé změně celkové energie soustavy změní také její hmotnost__, a to podle vztahu:
 
-                                                                                                                              *(obrázek vynechán)*
+                                                                                                                              ((obrázek vynechán))
 
 - Platí také rovnice:
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
     __Einsteinův vztah mezi energií a hmotností__
 
-- Vztah  *(obrázek vynechán)*je nejvýznamnější výsledek speciální teorie relativity\. Je využíván při jaderných reakcích, a to jak v reaktorech elektráren, tak při vývoji atomových a termonukleárních bomb a při jejich testech i experimentálně ověřen\.
+- Vztah  ((obrázek vynechán))je nejvýznamnější výsledek speciální teorie relativity\. Je využíván při jaderných reakcích, a to jak v reaktorech elektráren, tak při vývoji atomových a termonukleárních bomb a při jejich testech i experimentálně ověřen\.
 - Pro celkovou energii soustavy platí __zákon zachování energie__: __Celková energie izolované soustavy zůstává při všech dějích probíhajících uvnitř soustavy konstantní__\.
 
 Hmotnostní úbytek
@@ -53,9 +53,9 @@ Hmotnostní úbytek
 
 - Největší hmotnostní úbytek na 1 nukleon mají jádra s nukleonovým číslem okolo 60\. Z toho vyplývá možnost uvolnění jaderné energie buď při štěpení těžkých jader, nebo při slučování lehkých jader\.
 
-                                                                                             *(obrázek vynechán)*
+                                                                                             ((obrázek vynechán))
 
-     *(obrázek vynechán)*
+     ((obrázek vynechán))
 
 Vazebná energie
 
@@ -65,7 +65,7 @@ Vazebná energie
 
 Hmotnostní schodek
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 - kde: 	      hmotnost protonu
 
@@ -73,21 +73,21 @@ Hmotnostní schodek
 
                    	      hmotnost jádra
 
-      *(obrázek vynechán)*
+      ((obrázek vynechán))
 
-      *(obrázek vynechán)*
+      ((obrázek vynechán))
 
-      *(obrázek vynechán)*
+      ((obrázek vynechán))
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
-                                             *(obrázek vynechán)*                                                *(obrázek vynechán)*
+                                             ((obrázek vynechán))                                                ((obrázek vynechán))
 
 hmotnost atomu daného nuklidu
 
 hmotnost atomu vodíku
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 - Hmotnostní schodek vyjádřen pomocí atomové hmotnostní jednotky:
 
@@ -99,13 +99,13 @@ kde:                   jsou relativní atomové hmotnosti
 
        __jednotka:__
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
-     *(obrázek vynechán)*
+     ((obrázek vynechán))
 
-                  *(obrázek vynechán)*
+                  ((obrázek vynechán))
 
-                         *(obrázek vynechán)*
+                         ((obrázek vynechán))
 
 - hodnoty hmotnostního schodku jsou __pro všechny nuklidy kladné__
 - při vzniku jádra z volných nukleonů působí mezi nimi __přitažlivé jaderné síly__ ⇒ konají při přibližování __práci__, která se projeví __úbytkem celkové energie__ soustavy nukleonů
@@ -116,12 +116,12 @@ kde:                   jsou relativní atomové hmotnosti
 - __Celková energie jádra je menší o vazebnou energii než celková energie všech jeho nukleonů po uvolnění z jádra__
 - __dle Einsteinova vztahu__:
 
-                                                             *(obrázek vynechán)*
+                                                             ((obrázek vynechán))
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 *Závislost průměrné vazební energie na počtu nukleonů*
 
-**(obrázek vynechán)**
+*((obrázek vynechán))*
 
 *Závislost hmotnostního schodku na počtu nukleonů*

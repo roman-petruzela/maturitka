@@ -178,7 +178,7 @@ __1\. Kritika čistého rozumu
                   \- Protože nevíme, jak je objektivní realita uspořádána, jsme nuceni spoléhat se na __její popis
                      jako jev__, člověk je vlastně__ zákonodárcem přírody__\.
                   \- __Koperníkovský obrat__ – přírodu je nutné hledat ne venku, ale v člověku\.
-*(obrázek vynechán)*
+((obrázek vynechán))
 
         __f\) K čemu směřuje teoretický rozum a jaké jsou jeho hranice?__
                   \- Lidský rozum tíhne k vytváření tří idejí: __duše__, __svět__ a __Bůh__\. Tyto ideje směřují lidský rozum

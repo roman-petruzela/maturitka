@@ -21,7 +21,7 @@ __Oblasti hlavní činnosti__
 
 Opravy
 
-Peněžní a pojišťovací služby*(obrázek vynechán)*
+Peněžní a pojišťovací služby((obrázek vynechán))
 
 Pošty a telekomunikace
 
@@ -109,7 +109,7 @@ __Hospodářský cyklus:__
 
 = pravidelné kolísání ekonomické aktivity
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 - HDP roste → dosáhne vrcholu → dojde ke zlomu → HDP klesá → dno \(sedlo\) → cyklus se opakuje
 - Fáze expanze
@@ -205,7 +205,7 @@ __Horizontální struktura platební bilance:__
 - Magický čtyřúhelník
 - slouží ke zhodnocení úspěšné hospodářské politiky a výkonnosti ekonomiky
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 - Integrační procesy v ekonomice
 
@@ -268,7 +268,7 @@ __Symboly EU:__
 - __2007 –__ Rumunsko a Bulharsko
 - __2013 –__ Chorvatsko
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 1957
 

@@ -43,7 +43,7 @@ Nesamostatný elektrický výboj
 
 - Komorou prochází __nasycený proud__, pro který __neplatí__ Ohmův zákon
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 = Voltampérová charakteristika výboje
 
@@ -76,7 +76,7 @@ __Obloukový výboj__
 - Mezi elektrodami vzniká __plazma__ \- ↑ teplota a intenzivní světlo
 - __Využití__: svařování kovů, tavení kovů, zdroj světla \- vysokotlaké výbojky \(pouliční osvětlení\), do výbojek se ještě přidává sodík, barva se změní na žlutou a intenzita je 5x větší než běžné žárovky
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 __Jiskrový výboj__
 
@@ -110,7 +110,7 @@ Termoemise
 	- šíří se přímočaře \(není\-li pod vlivem el\. nebo mag\. pole\), vychyluje se v el\. a mag\. poli, proniká velmi tenkými materiály a rozptyluje se, tepelné a chemické účinky
 - __Využití:__ obrazovka, osciloskop \- obrazovky s elektrostatickým vychylováním el\. paprsku
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 Katodové záření
 
@@ -131,4 +131,4 @@ Obrazovka
 - Potom jsou soustavou anod __A1, A2 urychlovány__ a __soustřeďovány__ do elektronového paprsku, který prochází dvěma páry __vychylovacích destiček D1, D2__ a dopadá na __stínítko__ S, pokryté vrstvou sulfidu zinečnatého ZnS\.
 - V místě dopadu vznikne __svítící stopa\.__
 
-*(obrázek vynechán)*
+((obrázek vynechán))

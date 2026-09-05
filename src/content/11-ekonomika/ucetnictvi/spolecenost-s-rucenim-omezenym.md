@@ -68,7 +68,7 @@ __Zřizovací výdaje__
 
 __Zahajovací rozvaha__
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 __Otevření účetních knih__
 

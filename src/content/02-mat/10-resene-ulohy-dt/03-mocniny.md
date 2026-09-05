@@ -44,7 +44,7 @@ b) $\left(\dfrac{a^{-4}}{a^{-1}}\right)^{-2}=(a^{-3})^{-2}=a^6$ *(nebo: $(a^{-4}
 
 *Podzim 2013, příklad č. 2. Body: 1. Výsledek: $3^{180}$.*
 
-*(Pozn.: přesný tvar zadaného výrazu se nedochoval — z dochovaného mezikroku "$\cdot3^{120}=3^{60}\cdot3^{120}=3^{180}$" je zřejmé, že šlo o výraz, který se nejdřív upraví na $3^{60}$ a poté vynásobí $3^{120}$, např. $9^{30}\cdot3^{120}$.)*
+((Pozn.: přesný tvar zadaného výrazu se nedochoval — z dochovaného mezikroku "$\cdot3^{120}=3^{60}\cdot3^{120}=3^{180}$" je zřejmé, že šlo o výraz, který se nejdřív upraví na $3^{60}$ a poté vynásobí $3^{120}$, např. $9^{30}\cdot3^{120}$.))
 
 Řešení: $9^{30}\cdot3^{120} = (3^2)^{30}\cdot3^{120} = 3^{60}\cdot3^{120} = 3^{180}$.
 

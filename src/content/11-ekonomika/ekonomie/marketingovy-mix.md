@@ -46,7 +46,7 @@ __Komplexní produkt__
 
 - teorie  vychází z moderních ﬁlosoﬁí podnikání, tzn\.: jde o to uspokojit najednou co nejvíce a nejlépe zákazníkových potřeb
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 __Další příklad:__
 

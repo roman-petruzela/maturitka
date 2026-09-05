@@ -14,33 +14,33 @@ Princip generátoru střídavého napětí
 - V elektrárnách se používá __trojfázový alternátor__, jehož princip je na obr\.
 - Stator je tvořen __třemi cívkami__, jejichž osy svírají vzájemně úhel 120°\. Mezi cívkami se __otáčí magnet__ a v cívkách se __indukují__ střídavá napětí
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 - Cívky se nachází v __nestacionárním mag\. poli,__ které vytváří otáčivý magnet
 - V cívkách se indukuje střídavé napětí __u1, u2, u3__, mají stejnou __amplitudu__ a __frekvenci__ a jsou __fázově posunuta o ⅔ π__
 
-__*(obrázek vynechán)*__
+__((obrázek vynechán))__
 
-*(obrázek vynechán)**(obrázek vynechán)**(obrázek vynechán)*
+((obrázek vynechán))((obrázek vynechán))((obrázek vynechán))
 
 Trojfázová soustava střídavých napětí
 
 - Z fázorového diagramu z předtím je zřejmé, že __součet okamžitých hodnot__ všech tří napětí je __stále nulový\.__ \(i vektrorový součet\)
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 - Toho se využívá k tomu, že jeden konec každé z cívek se spojuje do společného bodu – __uzlu__\.
 - Ke druhým koncům cívek jsou připojeny __fázové vodiče__
 - S uzlem bývá spojen __nulovací vodič\.__
-- Mezi fázovými vodiči a nulovacím vodičem jsou __fázová napětí u1, u2, u3__ \(v síti 230 V\); mezi fázovými vodiči je __napětí sdružené u12, u13, u23__ \- v síti= *(obrázek vynechán)*
+- Mezi fázovými vodiči a nulovacím vodičem jsou __fázová napětí u1, u2, u3__ \(v síti 230 V\); mezi fázovými vodiči je __napětí sdružené u12, u13, u23__ \- v síti= ((obrázek vynechán))
 - __Nulovací \(nulový\) vodič__ vznikne spojením  vodiču od každé cívky
 - __Fázový vodič__ \- 1\., 2\., 3\. fáze \(ty tři vodiče\)
 	- __fázové napětí__ je mezi daným fázovým vodičem a nulovacím vodičem v ČR 230 V
 - __Sdružené napětí__ je napětí mezi jednotlivými fázemi u12, u13, u23 \- v ČR 400 V
 
-__*(obrázek vynechán)*__
+__((obrázek vynechán))__
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 fázový \- hnědý, černý
 
@@ -56,9 +56,9 @@ Trojfázový alternátor
 	1. do __hvězdy__ \(na napětí 220 V, není nutný tak velký výkon\)
 	2. do __trojúhelníku__ \(380 V, výkonnější\)
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 Elektromotor
 
@@ -111,7 +111,7 @@ __Jednofázový transformátor__
 - Tvoří __dvě cívky__, které jsou na společném jádře z měkké oceli, je uzavřené
 - __Primární cívka__ je připojena k střídavému __napětí u1__ a prochází jí __střídavý proud i1__
 - Vytváří se __mag\. pole__ a v každém závitu primární nebo sekundární cívky se __indukuje napětí ui__
-- Celkové napětí na cívkách s __N1__ nebo __N2 závity__: *(obrázek vynechán)*
+- Celkové napětí na cívkách s __N1__ nebo __N2 závity__: ((obrázek vynechán))
 
 C1,2 \- cívky 1 a 2
 
@@ -121,14 +121,14 @@ u2 \- výstupní napětí
 
 N \-počet závitů
 
-J \- společné jádro*(obrázek vynechán)**(obrázek vynechán)*
+J \- společné jádro((obrázek vynechán))((obrázek vynechán))
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 - Poměr efektivních hodnot proudu vyplývá z rovnosti výkonů v __primární__ a __sekundární__ cívce
 - Pro poměr efektivních hodnot indukovaných napětí pak vyplývá __rovnice transformátoru:__
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 - __k__ je __transformační poměr transformátoru__
 - Pro __k__ platí:
@@ -144,7 +144,7 @@ J \- společné jádro*(obrázek vynechán)**(obrázek vynechán)*
 	- Příkon P1 se rovná výkonu P2 \(platí __zákon zachování energie__\)
 	- __P = U \. I__ \-> P1 =  U1 \. I1 \-> __U1 \. I1 = U2 \. I2__
 
-__*(obrázek vynechán)*__
+__((obrázek vynechán))__
 
 - __Použití__: nabíječka mobilních telefonů, rádia, televize, transformátorová pájka __↑__
 - Napětí střídavého proudu se __zvyšuje__, aby se __zamezilo ztrátám__ způsobeným odporem vodičů

@@ -15,7 +15,7 @@ source: "MATURITA HADR/Zeměpis/Zeměpis GLP/5. Litosféra.docx"
 
 # Mohorovičičova plocha nespojitosti \-\) zpomaluje seismické vlny
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 Stavba Země
 

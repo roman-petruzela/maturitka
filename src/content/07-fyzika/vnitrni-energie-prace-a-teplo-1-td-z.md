@@ -86,7 +86,7 @@ Měrná tepelná kapacita c
 Kalorimetr
 
 - Slouží k experimentálnímu určení __tepla Q__ a __tepelné kapacity c__
-- __Směšovací kalorimetr__ je tepelně izolovaná nádoba s míchačkou a teploměrem, naplněná kapalinou\. Pro přesnější měření může mít dvojitou stěnu vyplněnou vakuem\.*(obrázek vynechán)*
+- __Směšovací kalorimetr__ je tepelně izolovaná nádoba s míchačkou a teploměrem, naplněná kapalinou\. Pro přesnější měření může mít dvojitou stěnu vyplněnou vakuem\.((obrázek vynechán))
 - Je\-li __ck__ tepelná kapacita kalorimetru, můžeme vyjádřit:
 
 		\- teplo Q1 = c1m1 \(t1 – t\), které __těleso odevzdá__

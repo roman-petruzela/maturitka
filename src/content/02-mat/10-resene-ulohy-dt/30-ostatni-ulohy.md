@@ -19,7 +19,7 @@ A) $x=-30$   B) $x=-15$   C) $x=15$   **D) $x=30$**   E) rovnost neplatí pro ž
 
 Řešení: místo řešení rovnic s absolutní hodnotou je výhodnější postupovat obráceně — do každé rovnice postupně dosadíme kandidátní čísla $-30,-15,15,30$ a ověříme, které vyhovuje. a) $x=30$ vyhovuje ($|30-30|=0$). b) $x=15$ vyhovuje ($|15-30|=15$). c) $x=-15$ vyhovuje ($-15+30=15=|-15|$).
 
-**2)** Zaokrouhlete na desítky výsledek číselného výrazu (dva periodické desetinné zlomky). *(Přesné zadání se nedochovalo.)*
+**2)** Zaokrouhlete na desítky výsledek číselného výrazu (dva periodické desetinné zlomky). ((Přesné zadání se nedochovalo.))
 
 *Jaro 2013, příklad č. 2. Body: 1. Výsledek: 4 750.*
 
@@ -63,7 +63,7 @@ A) $y=3x+1$   B–E) *(nedochováno)*
 
 Řešení: poslední políčko $(x-5)\cdot2+7$ je vstupem do finálního kroku, jehož výsledek $y$ (neznámé číslo) splňuje $\dfrac{y-1}3=x \implies y-1=3x \implies y=3x+1$.
 
-**8)** Zapište číslo $m$ (ze vztahu se součinem a převrácenou hodnotou). *(Přesné zadání se nedochovalo, dochovaly se jen závěrečné kroky.)*
+**8)** Zapište číslo $m$ (ze vztahu se součinem a převrácenou hodnotou). ((Přesné zadání se nedochovalo, dochovaly se jen závěrečné kroky.))
 
 *Jaro 2017, příklad č. 3. Body: 1. Výsledek: $m=\dfrac1{10}$.*
 
@@ -93,7 +93,7 @@ A) $y=3x+1$   B–E) *(nedochováno)*
 
 Řešení (2. větou o logaritmech): $z=\log_3\dfrac{18}2=\log_39=2$.
 
-**4i)** Vyznačte na číselné ose obrazy dvou čísel (osa rozdělená na díly, 8 dílků odpovídá určité zadané hodnotě). *(Přesná zadaná čísla se nedochovala.)*
+**4i)** Vyznačte na číselné ose obrazy dvou čísel (osa rozdělená na díly, 8 dílků odpovídá určité zadané hodnotě). ((Přesná zadaná čísla se nedochovala.))
 
 *2010 (2), příklad č. 1. Body: 2.*
 
@@ -117,7 +117,7 @@ A) $y=3x+1$   B–E) *(nedochováno)*
 
 Řešení (2. větou): $\log\dfrac4a=\log4-\log a$. Dosazením: $(\log4-\log a)-\log400+\log a=\log4-\log400=\log\dfrac4{400}=\log\dfrac1{100}=-2$ (protože $10^{-2}=\dfrac1{100}$).
 
-**8i)** Vyznačte na číselné ose obraz periodického čísla. *(Přesné zadané číslo se nedochovalo.)*
+**8i)** Vyznačte na číselné ose obraz periodického čísla. ((Přesné zadané číslo se nedochovalo.))
 
 *2014 (1), příklad č. 1. Body: 1.*
 

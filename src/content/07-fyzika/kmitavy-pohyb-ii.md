@@ -8,9 +8,9 @@ Matematické kyvadlo
 - Je __myšlenkový model__
 - Je to __hmotný bod__ zavěšený na __tenkém vlákně__ se __zanedbatelnou hmotností__ a __zanedbává__ se i __odpor__ prostředí a __deformace vlákna__
 - Ve skutečnosti se matematickému kyvadlu blíží závaží zavěšené na tenkém provázku\.
-- *(obrázek vynechán)*Když kyvadlo necháme kmitat tak, aby výchylka nepřekročila __5°__, můžeme pohyb hmotného bodu __považovat__ za __pohyb přímočarý__\. Na hmotný bod působí __tíhová síla FG__, která se při vychýlení z rovnovážné polohy rozkládá na sílu __F’__, která __napíná lanko__ a na sílu __F__, která způsobuje, že se hmotný bod __snaží vrátit__ do __rovnovážné polohy__
+- ((obrázek vynechán))Když kyvadlo necháme kmitat tak, aby výchylka nepřekročila __5°__, můžeme pohyb hmotného bodu __považovat__ za __pohyb přímočarý__\. Na hmotný bod působí __tíhová síla FG__, která se při vychýlení z rovnovážné polohy rozkládá na sílu __F’__, která __napíná lanko__ a na sílu __F__, která způsobuje, že se hmotný bod __snaží vrátit__ do __rovnovážné polohy__
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 __α ≐ sinα ≐ tgα__
 
@@ -18,16 +18,16 @@ __α ≐ sinα ≐ tgα__
 - __y__ je velikost výchylky hmotného bodu tzn\. __velikost oblouku kružnice__, o který se hmotný bod vychýlí z rovnovážné polohy\.
 - __Kyvadlo__ má vlastnosti mechanického oscilátoru, pro který platí:
 
-*(obrázek vynechán)**(obrázek vynechán)*
+((obrázek vynechán))((obrázek vynechán))
 
 - Po dosazení do vztahu pro __periodu__ a __frekvenci vlastního kmitání__ kyvadla:
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 - __Perioda__ matematického kyvadla závisí jen na __délce závěsu__ a na __tíhovém zrychlení\.__ Tak lze periodu pohybu kyvadla určit délkou závěsu nebo pomocí kyvadla určit tíhové zrychlení v daném místě\.
 - Důležitý pojem v souvislosti s měřením času je i __kyv t__, který je roven __polovině periody\.__ __Kyv__ je doba za kterou kyvadlo projde z jednoho maxima do druhého\. Sekundové kyvadlo má kyv __1 sekundu\.__
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 Fyzické kyvadlo
 
@@ -37,15 +37,15 @@ Fyzické kyvadlo
 - Čím větší je __délka závěsu l__, tím větší je __perioda kmitu T0__
 - __Pohybová rovnice__ kyvadla:
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 - __Úhlová frekvence__ kmitání:
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 - __Perioda__ kmitání:
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 Tlumené kmitání
 
@@ -54,7 +54,7 @@ Tlumené kmitání
 - __Energie__ se __mění__ na __jiné formy__ než na __mechanickou__ – většinou na __vnitřní energii__
 - Při kmitání ve vzduchu se amplituda výchylky zmenšuje velmi pomalu, ve vodě rychleji – závisí ____na__ odporu prostředí__
 
-*(obrázek vynechán)**(obrázek vynechán)*
+((obrázek vynechán))((obrázek vynechán))
 
 Nucené kmitání
 
@@ -74,18 +74,18 @@ Rezonance
 - __Graf__ závislosti amplitudy __nucených kmitů__ na __frekvenci nutících kmitů__ je __rezonanční křivka\.__
 - __Rezonanční frekvence__ se poněkud zmenšuje s rostoucím tlumením\.
 - Význam rezonance spočívá v tom, že umožňuje rezonanční zesílení kmitů\.
-- *(obrázek vynechán)*__Malou__, __periodicky__ působící __sílou__ lze v oscilátoru vzbudit kmitání o značné amplitudě výchylky, pokud je __perioda vnějšího__ působení __shodná__ s __periodou vlastního kmitání__ oscilátoru\.
+- ((obrázek vynechán))__Malou__, __periodicky__ působící __sílou__ lze v oscilátoru vzbudit kmitání o značné amplitudě výchylky, pokud je __perioda vnějšího__ působení __shodná__ s __periodou vlastního kmitání__ oscilátoru\.
 
 Složené kmitání
 
-- *(obrázek vynechán)*Když spojíme dva oscilátory __vláknem__, jehož střed zvýrazníme, a rozkmitáme oscilátory, uvidíme, že i střed vlákna kmitá\. Jeho kmity odpovídají pohybu vzniklému __složením__ kmitů obou oscilátorů\.
+- ((obrázek vynechán))Když spojíme dva oscilátory __vláknem__, jehož střed zvýrazníme, a rozkmitáme oscilátory, uvidíme, že i střed vlákna kmitá\. Jeho kmity odpovídají pohybu vzniklému __složením__ kmitů obou oscilátorů\.
 - Skládají\-li se harmonické pohyby se __stejnou frekvenc__í, vznikne __harmonický pohyb se stejnou frekvencí\.__
 - U takového skládání se musí uvažovat jen s __amplitudou__ a __počáteční fází\.__ Tyto veličiny se zobrazují jako __fázory__, proto je výhodné pro skládání kmitů používat __fázorový diagram__, kde jednotlivým harmonickým pohybům přísluší fázory\.
 - Výsledný pohyb, jeho __amplituda__ a __počáteční fáze__ se určí __vektorovým součtem__
 - Pokud mají jednotlivé kmity různou frekvenci, vzniknou poměrně složité kmity s neharmonickým průběhem\.
 - Zvláštní případ nastane, když obě frekvence jsou přibližně stejně velké \(w1 → w2\)\.
 
-*(obrázek vynechán)**(obrázek vynechán)*
+((obrázek vynechán))((obrázek vynechán))
 - __Amplituda__ výchylky __výsledného pohybu__ se periodicky __zvětšuje__ a __zmenšuje__\.
 - Vzniká __složené kmitání__, které nazýváme __rázy__\.
 - Amplituda rázů se mění s frekvencí __f = f2 – f1__\.
@@ -95,33 +95,33 @@ Princip superpozice
 
 - Koná\-li hmotný bod __současně__ dva nebo více harmonických pohybů v jedné přímce s okamžitými výchylkami __y1, y2, \.\.\., yn__, je __okamžitá výchylka__ výsledného kmitání rovna jejich součtu __y = y1 \+ y2 \+ \.\.\. \+ yn\.__
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 Energiový popis
 
 - __Celková__ energie mechanického oscilátoru se skládá z __kinetické energie Ek__, z __tíhové potenciální energie Ept__ a potenciální energie pružnosti Epr
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 - __Kinetická energie__ je
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 - __Tíhová potenciální energie__ je
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 - __Potenciální energie pružnosti__ je
 
-*(obrázek vynechán)* 		△l = y
+((obrázek vynechán)) 		△l = y
 
 - __Klidová energie__ oscilátoru je
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 - Když __celkovou energii__ rozdělíme na __klidovou energii__ a __energii kmitání__, bude energie kmitání:
 
-*(obrázek vynechán)**(obrázek vynechán)*
+((obrázek vynechán))((obrázek vynechán))
 
 Elektromagnetický oscilátor
 
@@ -129,16 +129,16 @@ Elektromagnetický oscilátor
 - Kondenzátor __nabijeme__ ze zdroje __stejnosměrného napětí__ a pak ho připojíme k cívce\.
 - V oscilačním obvodu vznikne __elektromagnetické kmitání__
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 __Průběh jedné periody:__
 
 - __Kondenzátor__ je __nabit__, je na něm náboj __Qm__\. K nabití byla kondenzátoru dodána energie __Ee__\. Napětí kondenzátoru je __Um__\.
 - __Kondenzátor__ se __vybíjí__ přes __cívku__\. Vlivem vlastní indukce proud postupně narůstá, v čase dosáhne hodnoty __Im__\. Náboj i napětí na kondenzátoru jsou nulové\. Magnetické pole cívky má energii __Em__\.
-- *(obrázek vynechán)*__Proud__ v obvodu __postupně klesá__ při zachování původního směru až v čase          zaniká\. __Kondenzátor__ je však __znovu nabit__, ale opačně než v čase\.
+- ((obrázek vynechán))__Proud__ v obvodu __postupně klesá__ při zachování původního směru až v čase          zaniká\. __Kondenzátor__ je však __znovu nabit__, ale opačně než v čase\.
 - __Kmitání__ oscilátoru je __harmonické__, mezi napětím a proudem je fázový rozdíl\.
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 		= Thomsonův vztah
 
@@ -150,7 +150,7 @@ Vázané oscilátory
 - __Energie__ se při kmitání __přenáší__ z __jednoho__ oscilátoru na __druhý__ a \(v důsledku zákona zachování energie\) opět __zpátky__
 - Spřažená kyvadla jsou příkladem __výměny energie__ mezi __oscilátorem__ a __rezonátorem__ působením vzájemné __vazby__\.
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 - __Vazba volná__ \- vazbou vzniká jen __malé__ vzájemné působení, __energie__ z oscilátoru do rezonátoru přechází __déle__\.
 - __Vazba těsná__ \- vzájemné působení je __silné__, __energie__ přejde do rezonátoru v __krátké době__\.

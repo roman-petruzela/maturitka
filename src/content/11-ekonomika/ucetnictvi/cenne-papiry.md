@@ -130,7 +130,7 @@ __Účtování směnky z pohledu majitele/věřitele/dlužníka__
 - Dlužník uhradí svůj závazek, tak, že předá věřiteli směnku, v níž se zavazuje, že jí ve stanoveném termínu uhradí
 - K rozvahovému dni se ještě přiúčtuje alikvotní úrokový výnos Z pohledu dlužníka
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 1. __Dlužníka__
 

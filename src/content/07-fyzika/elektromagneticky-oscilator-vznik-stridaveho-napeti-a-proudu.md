@@ -8,7 +8,7 @@ LC oscilační obvod
 - __Nejjednodušším elmg\. oscilátorem__ je obvod tvořený paralelně zapojenou __cívkou__ a __kondenzátorem__
 - Parametry oscilačního obvodu jsou __indukčnost L__ a __kapacita C__
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 - Na počátku děje je __kondenzátor nabitý__
 - Za __čtvrtinu periody__ se __vybije__ a __proud__ je __maximální__ => vzniká __indukované napětí__
@@ -16,7 +16,7 @@ LC oscilační obvod
 - Ve __druhé polovině periody__ se tento děj __opakuje__ opačným směrem
 - Vlivem ztrát je toto __kmitání tlumené__
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 Princip vzniku střídavého napětí a proudu
 
@@ -25,15 +25,15 @@ Princip vzniku střídavého napětí a proudu
 - __Zdrojem__ je nejčastěji __alternátor__ složený ze
 	- __Statoru__ – nepohyblivá část, která vytváří homogenní mg\. pole
 	- __Rotoru__ – pohyblivá část, otáčivý pohyb cívky v mg\. poli
-- *(obrázek vynechán)*Pro __okamžité napětí u__ platí vztah:
+- ((obrázek vynechán))Pro __okamžité napětí u__ platí vztah:
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 - Pro __okamžitý proud i__ platí vztah:
 - Grafem střídavého napětí a proudu je __sinusoida__
 - Fáze kmitavého pohybu
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 Analogie mezi mechanickým a elektromagnetickým oscilátorem
 
@@ -48,23 +48,23 @@ Thomsonův vztah
 
 - Napětí na kondenzátoru je stejně veliké jako napětí na cívce, z toho plyne:
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 - XL = induktance \[ω\],XC  =kapacitance \[ω\]
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
-*(obrázek vynechán)**(obrázek vynechán)*
+((obrázek vynechán))((obrázek vynechán))
 
 - Po rozložení získáme __Thomsonův vztah__ pro __periodu vlastního kmitání elmg\.  oscilátoru:__
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 - Dále také získáme vztah pro __frekvenci vlastního kmitání:__
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 Tlumené kmitání
 
@@ -72,7 +72,7 @@ Tlumené kmitání
 - __Energie__ elektrického a magnetického pole se __postupně přeměňuje__ ve v__nitřní energii__ vodiče obvodu\.
 - Elektromagnetické kmitání oscilačního obvodu je __tlumené__
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 Nucené kmitání
 
@@ -90,7 +90,7 @@ Rezonance oscilátoru a rezonanční křivka
 - Poloha maxima křivky určuje __rezonanční frekvenci oscilátoru__, __tvar__ křivky je značně ovlivněn __tlumením__\.
 - Ostré maximum charakterizuje oscilátor s __malým tlumením \(1\),__ kdežto oscilátor s __větším tlumením__ má rezonanční křivku s __méně výrazným maximem \(2\)__\.
 
-*(obrázek vynechán)**(obrázek vynechán)*
+((obrázek vynechán))((obrázek vynechán))
 
 Rezonanční jevy v technické praxi
 
@@ -103,4 +103,4 @@ __Zpětná vazba__
 
 - Zpětná vazba \(také zpětnovazební smyčka\) je termín pro situaci \(mechanismus, elektronický obvod\), kdy výstup nějakého systému ovlivňuje zpětně jeho vstup
 
-*(obrázek vynechán)*
+((obrázek vynechán))

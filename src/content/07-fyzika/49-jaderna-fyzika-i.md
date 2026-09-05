@@ -25,7 +25,7 @@ lze je dělit podle typu média:
 - __scintilační__ – založeny na principu excitace elektronu do vyššího energetického stavu zářením, přičemž návrat elektronu do základního stavu se projeví jako světelný záblesk
 - __polovodičové__ – opět funguje na principu exitace elektronu tentokrát do tzv\. vodivého pásma polovodiče, působí\-li na polovodič elektrické pole, projeví se tento přeskok jako zvýšení vodivosti
 
-*(obrázek vynechán)*Detektory
+((obrázek vynechán))Detektory
 
 __GM čítač \(1928\)__
 
@@ -33,15 +33,15 @@ __GM čítač \(1928\)__
 - je trubice plněná plynem, v níž jsou dvě elektrody, mezi nimiž je silné elektrické pole\.
 - Částice, která proletí trubicí, způsobí kaskádovitou ionizaci a tím i krátkodobý elektrický výboj, který lze registrovat čítačem\.
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 __Fotografické emulze__ – zaznamenávají dráhu částice a umožňují změřit její energii a hybnost
 
 __Wilsonova mlžná komora__ – je naplněná parami alkoholu nebo vody\. Páry v komoře jsou syté a prolétávající částice vytvoří stopu z malých kapiček vody nebo alkoholu
 
-*(obrázek vynechán)**(obrázek vynechán)*
+((obrázek vynechán))((obrázek vynechán))
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 Detektory II
 
@@ -53,9 +53,9 @@ __Polovodičové detektory__ \(ATLAS\)
 
 – slouží ke sledování drah částic
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
-*(obrázek vynechán)*Ženevské jezero
+((obrázek vynechán))Ženevské jezero
 
 Large Hadron Collider
 
@@ -97,9 +97,9 @@ kde 	mj … klidová hmotnost jádra
 
 Vazebná energie jader jednotlivých nuklidů se navzájem liší a proto zavádíme vazebnou energii připadající na jeden nukleon
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
-                                               *(obrázek vynechán)*
+                                               ((obrázek vynechán))
 
 Vazebné energii odpovídá podle vztahu ΔE = Δm\.c2 úbytek klidové hmotnosti, který nazýváme __hmotnostní úbytek *B\.*__
 
@@ -115,9 +115,9 @@ Jaderné reakce jsou přeměny jader atomů vyvolané vnějším zásahem \(srá
 
 Další jaderná reakce již vedla k objevení neutronu \(experimentálně i teoreticky vysvětlen tento jev až J\. Chadwickem 1932, NC 1935\)
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 Fúze a štěpení I
 
@@ -129,7 +129,7 @@ __Jaderná syntéza \(fúze\)__ – složením dvou lehčích jader \(s menší
 
 *		2\) Řízená termonukleární reakce je stále ve stádiu výzkumu a experimentů*
 
-                              *(obrázek vynechán)*              *(obrázek vynechán)*
+                              ((obrázek vynechán))              ((obrázek vynechán))
 
 Fúze a štěpení II
 
@@ -141,9 +141,9 @@ Vzniklá jádra jsou v excitovaném stavu a uvolňuje se kolem 200 MeV energie\.
 
 *Pozn\.: Jaderná štěpná reakce se využívá v jaderných elektrárnách \(řízená reakce – 1942 E\. Fermi\), zneužívá se v jaderných bombách \(neřízená reakce – Hirošima a Nagasaki 1945\)\.*
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
-*(obrázek vynechán)*Jaderný reaktor
+((obrázek vynechán))Jaderný reaktor
 
 V jaderném reaktoru probíhá řetězová reakce za účasti jen určitého počtu účinných neutronů \(k – multiplikační faktor\)
 
@@ -151,4 +151,4 @@ Je\-li k<1, reakce vyhasíná, je\-li k=1, je reakce činná a plně pod kontrol
 
 První řízenou jadernou reakci provedl v r\.1942 E\. Fermi pod stadionem Chicagské univerzity
 
-*(obrázek vynechán)*Jaderná elektrárna
+((obrázek vynechán))Jaderná elektrárna

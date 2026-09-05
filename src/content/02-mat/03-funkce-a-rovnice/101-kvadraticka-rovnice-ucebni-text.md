@@ -5,7 +5,7 @@ source: "mat/IT2M_2.docx"
 hasExercises: true
 ---
 
-> Pozn. k obsahu: Zdrojový dokument obsahoval matematické vzorce vložené jako obrázky/rovnice, které se při převodu ztratily (označeno jako *(obrázek vynechán)*). Text i řešené úlohy jsou zachovány beze změny významu.
+> Pozn. k obsahu: Zdrojový dokument obsahoval matematické vzorce vložené jako obrázky/rovnice, které se při převodu ztratily (označeno jako ((obrázek vynechán))). Text i řešené úlohy jsou zachovány beze změny významu.
 
 ## 7. Kvadratická rovnice
 
@@ -71,17 +71,17 @@ Pokud bychom nepoužívali normovaný tvar, lze provést rozklad kvadratického 
 
 Sestrojíme graf kvadratické funkce podle pravidel z lekcí o kvadratických funkcích. Protože kvadratická rovnice má y = 0, tak platí, že průsečíky grafu s osou x jsou také kořeny rovnice.
 
-- 2 různé kořeny x1, x2 *(obrázek vynechán)*
-- Dvojnásobný kořen x1 = x2 *(obrázek vynechán)*
-- Bez řešení *(obrázek vynechán)*
+- 2 různé kořeny x1, x2 ((obrázek vynechán))
+- Dvojnásobný kořen x1 = x2 ((obrázek vynechán))
+- Bez řešení ((obrázek vynechán))
 
 ### 11.2 Vietovo grafické řešení
 
 Druhý pohled na grafické řešení kvadratické funkce vychází z úpravy kvadratické rovnice x² + px + q = 0 na rovnost x² = −px − q. Kořeny pak najdeme jako průsečík(y) grafu kvadratické funkce y = x² a lineární funkce y = −px − q.
 
-- 2 různé kořeny x1, x2 *(obrázek vynechán)*
-- Dvojnásobný kořen x1 = x2 *(obrázek vynechán)*
-- Bez řešení *(obrázek vynechán)*
+- 2 různé kořeny x1, x2 ((obrázek vynechán))
+- Dvojnásobný kořen x1 = x2 ((obrázek vynechán))
+- Bez řešení ((obrázek vynechán))
 
 Řešte výpočetně, graficky a také pomocí Vietova pohledu rovnice:
 
@@ -105,16 +105,16 @@ Pokud ale neexistují kořeny kvadratické funkce, pak musíme postupovat složi
 
 Sestrojíme graf kvadratické funkce podle pravidel z lekcí o kvadratických funkcích. Nejprve se zaměříme na to, jaké kořeny by měla kvadratická rovnice pro y = 0. Následně řešíme nerovnosti (větší a menší). Označíme také otevřenost, uzavřenost intervalu.
 
-- 2 různé kořeny x1, x2 *(obrázek vynechán)*
-- Dvojnásobný kořen x1 = x2 *(obrázek vynechán)*
+- 2 různé kořeny x1, x2 ((obrázek vynechán))
+- Dvojnásobný kořen x1 = x2 ((obrázek vynechán))
 - Bez řešení: záleží na znaménku a
 
 ### 13.2 Vietovo grafické řešení
 
 Druhý pohled na grafické řešení kvadratické funkce vychází z úpravy kvadratické rovnice x² + px + q = 0 na rovnost x² = −px − q. Kořeny pak najdeme jako průsečík(y) grafu kvadratické funkce y = x² a lineární funkce y = −px − q. Nerovnost pak odpovídá všem bodům na ose x, které danou nerovnost splňují.
 
-- 2 různé kořeny x1, x2 *(obrázek vynechán)*
-- Dvojnásobný kořen x1 = x2 *(obrázek vynechán)*
+- 2 různé kořeny x1, x2 ((obrázek vynechán))
+- Dvojnásobný kořen x1 = x2 ((obrázek vynechán))
 - Bez řešení: záleží na znaménku a
 
 ## 14. Soustavy lineárních a kvadratických rovnic s více neznámými

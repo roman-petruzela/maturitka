@@ -17,7 +17,7 @@ Povrchová vrstva kapalin
 - __Vysvětlení__: kolem každé molekuly kapaliny existuje tzv\. __sféra molekulového působení__ \(s poloměrem __rm__\), kde na molekuly výrazně působí __přitažlivé síly__ \(za hranicí sféry je tomu naopak\)
 - Povrchová vrstva se skládá z molekul, jejichž vzdálenost od volného povrchu kapaliny je __menší__ než poloměr __rm__ a na které působí výsledné __přitažlivá síla__ směřující __do kapaliny__
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 Povrchová energie
 
@@ -30,7 +30,7 @@ Povrchové napětí
 - __Skalární veličina__, vyjadřuje __pružnou__ vlastnost __povrchové vrstvy__
 - __Povrchové napětí σ__ se rovná podílu velikosti __povrchové síly__ __F__ a délky __l__ __okraje povrchové blány__, na který povrchová síla působí __kolmo__ v povrchu kapaliny
 
-						*(obrázek vynechán)*
+						((obrázek vynechán))
 
  N\.m\-1
 
@@ -43,7 +43,7 @@ Povrchová síla
 - Na __okraj__ povrchové blány působí molekuly kapaliny __povrchovou silou__, která je kolmá na tento okraj a jejíž směr leží v povrchu kapaliny
 - Ponoříme\-li drátěný rámeček s lehce __pohyblivou__ příčkou __AB__ do mýdlového __roztoku__, vytáhneme ho a příčku posuneme, vytvoří se na něm tenká __kapalinová blána__ s povrchovými vrstvami na obou stranách\. Když příčku uvolníme, tak pozorujeme, že se blána __stahuje__ a táhne za sebou i __příčku AB\.__ Je tomu tak proto, že na příčku AB působí v každém povrchu \(blána má dva povrchy\) __kolmá síla F__, síla leží v povrchu kapaliny\.
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 Jevy na rozhraní pevného tělesa a kapaliny
 
@@ -51,12 +51,12 @@ Jevy na rozhraní pevného tělesa a kapaliny
 - __F1__ – přitažlivá síla částic stěny nádoby
 - __F2__ – přitažlivá síla molekul kapaliny \(směřuje dovnitř kapaliny\)
 - __F = F1 \+ F2__
-	- jestliže __výslednice__ směřuje __ven__ z kapaliny, pak povrch kapaliny je __dutý__ \(např\. voda ve sklenici\) \- __kapalina smáčí stěnu__*(obrázek vynechán)**(obrázek vynechán)**(obrázek vynechán)*
+	- jestliže __výslednice__ směřuje __ven__ z kapaliny, pak povrch kapaliny je __dutý__ \(např\. voda ve sklenici\) \- __kapalina smáčí stěnu__((obrázek vynechán))((obrázek vynechán))((obrázek vynechán))
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 -
-	- *(obrázek vynechán)*Jestliže __výslednice__ směřuje __dovnitř__ kapaliny, je povrch __vypuklý__ \(např\. rtuť v mědi\) __\- kapalina nesmáčí stěnu__
+	- ((obrázek vynechán))Jestliže __výslednice__ směřuje __dovnitř__ kapaliny, je povrch __vypuklý__ \(např\. rtuť v mědi\) __\- kapalina nesmáčí stěnu__
 	- Pokud výslednice leží na __povrchu__ nádoby, je povrch __rovný__
 - Úhel __v = stykový úhel__
 - __ν=0°__→dokonale __smáčí__; __ν= π__ → dokonale __nesmáčí__
@@ -66,13 +66,13 @@ Kapilární jevy
 
 - Nastává u trubic s velmi __malým vnitřním průměrem__
 - Jevy způsobeny __kapilárním tlakem__
-- *(obrázek vynechán)*__kapilární elevace__ \(jestliže kapalina __smáčí__ vnitřní povrch kapiláry\)
+- ((obrázek vynechán))__kapilární elevace__ \(jestliže kapalina __smáčí__ vnitřní povrch kapiláry\)
 - __kapilární deprese__ \(kapalina __nesmáčí__ vnitřní povrch kapiláry\)
 - depresi a elevaci souhrnně nazýváme __kapilarita__
 - __např__\. vystupování vody z hloubky kapilárami do povrchových vrstev půdy, kde se vypařuje – __vzlínavost__
 - Pro __výšku h__ při kapilární elevaci/depresi platí vztah:
 
- 			*(obrázek vynechán)*
+ 			((obrázek vynechán))
 
 __ς__ – hustota kapaliny; __σ__ – povrchové napětí
 
@@ -83,7 +83,7 @@ __R__ – vnitřní poloměr kapiláry; __g__ – grav\. zrychlení
 - Kapilární jevy vysvětlují schopnost řady látek __vstřebávat__ \(nasávat\) __vlhkost__
 - __Kapilární tlak:__
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 - Bublina s __větším__ poloměrem __roste__ a __menší__ se __smrskává__, až nakonec zanikne
 - Svědčí to o tom, že na počátku děje je __větší kapilární tlak__ v __menší__ bublině a tím také __větší tlak vzduchu__ v bublině
@@ -93,13 +93,13 @@ Teplotní objemová roztažnost kapalin
 - Nastává při __změně teploty__
 - Pro __nepříliš velké teplotní__ rozdíly a za __stálého__ vnějšího __tlaku__ platí:
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 __β__ = teplotní součinitel objemové roztažnosti 	kapaliny \(viz MFCHT\)
 
 - Pro __větší__ teplotní __rozdíly__:
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 - Využívá se u __kapalinových teploměrů__
 - Se změnou teploty kapaliny se mění také její __hustota__:
@@ -109,7 +109,7 @@ __β__ = teplotní součinitel objemové roztažnosti 	kapaliny \(viz MFCHT\)
 Anomálie vody
 
 - __Hustota__ vody v intervalu __0°C__ až __4°C__ __roste__ \(a __zmenšuje__ se její __objem__\), při teplotě __4°C__ dosahuje __maxima__ a pak __klesá__ \(__objem__ se __zvětšuje__\)
-- Tento jev se nazývá __anomálie vody__*(obrázek vynechán)*
+- Tento jev se nazývá __anomálie vody__((obrázek vynechán))
 - Led při teplotě __0 °C__ úplně __neroztaje__, takže ve vodě zůstávají drobné krystalky ledu    \- v nichž jsou molekuly vzdálenější než ve vodě
 - Při __zvětšování__ teploty od __0 °C__ do __4 °C__ zbytky ledu mizí, tím se __zmenšují vzdálenosti__ mezi molekulami vody a celkový __objem klesá__, __hustota roste__\.
 - Od __4 °C__ se při ohřívání střední __vzdálenosti__ molekul __zvětšují__, __objem roste__ a __hustota klesá__\.

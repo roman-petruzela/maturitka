@@ -47,4 +47,4 @@ __kompozice__: komediální zápletky, hra psána formou prózy, chronologie, me
 
 __jazykové prostředky:__ spisovný, běžná, historismy, vyprávěcí, Dialog i monolog, Přímá
 
-__*(obrázek vynechán)*__
+__((obrázek vynechán))__

@@ -55,7 +55,7 @@ __Termíny inventarizací__
 
 __Inventarizační rozdíly a jejich zaúčtování__
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 __Ověření ocenění majetku__
 

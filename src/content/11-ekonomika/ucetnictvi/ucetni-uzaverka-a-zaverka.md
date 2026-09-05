@@ -99,15 +99,15 @@ __Uzávěrka účtů v hlavní knize__
 
 Převod konečných zůstatků:
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 Převod zisku/ztráty k 31\. 12\.:
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 Převod zisku/ztráty k 1\. 1\.:
 
-*(obrázek vynechán)*
+((obrázek vynechán))
 
 Účetní závěrka
 
