@@ -29,6 +29,18 @@ A) 20 cm   **B) 19,5 cm**   C) 19 cm   D) 18 cm   E) žádná z uvedených
 
 Řešení: obvod menšího $8+9+13=30$ cm, většího $30+15=45$ cm. Poměr podobnosti $45:30=1{,}5$. Nejdelší strana většího: $1{,}5\cdot13=19{,}5$ cm.
 
+```geometry
+{
+  "points": { "A": [0, 0], "B": [13, 0], "C": [7.154, 5.461] },
+  "segments": [
+    { "from": "A", "to": "B", "label": "13" },
+    { "from": "B", "to": "C", "label": "8" },
+    { "from": "C", "to": "A", "label": "9" }
+  ],
+  "title": "Trojúhelník o stranách 8, 9, 13"
+}
+```
+
 **4)** Určete s přesností na desítky metrů délku hranice $ST$ ((trojúhelník se dvěma zadanými úhly 75° a 60° a jednou stranou — přesná délka strany se nedochovala)).
 
 A) 2 230 m   **B) 2 450 m**   C) 2 630 m   D) 2 800 m   E) 3 010 m
@@ -57,6 +69,19 @@ A) $10\sin40°$   B–C) *(nedochováno)*   D) $10\,\mathrm{tg}\,40°$   E) *(ne
 
 Řešení: Pythagorova věta: $236^2=190^2+x^2 \implies 55\,696=36\,100+x^2 \implies x^2=19\,596 \implies x\approx139{,}99$. Šířka $d\approx139{,}99+25\approx165$ m.
 
+```geometry
+{
+  "points": { "C": [0, 0], "A": [190, 0], "B": [0, 140] },
+  "segments": [
+    { "from": "C", "to": "A", "label": "190" },
+    { "from": "C", "to": "B", "label": "x" },
+    { "from": "A", "to": "B", "label": "236" }
+  ],
+  "angles": [{ "at": "C", "from": "A", "to": "B", "rightAngle": true }],
+  "title": "Pravoúhlý trojúhelník — přepona 236, odvěsna 190"
+}
+```
+
 **8)** Vypočtěte délku strany $BC$ *(pravoúhlý trojúhelník s úhlem 60° a odvěsnou $6\sqrt3$)*.
 
 *Podzim 2011, příklad č. 13. Body: 1.*
@@ -68,6 +93,25 @@ A) $10\sin40°$   B–C) *(nedochováno)*   D) $10\,\mathrm{tg}\,40°$   E) *(ne
 *Podzim 2011, příklad č. 14. Body: 1. Výsledek: $v=9$.*
 
 Řešení: jako v úloze 8: $a=18$, $b=6\sqrt3$. Pythagorova věta: $c^2=18^2+(6\sqrt3)^2=324+108=432$, $c=\sqrt{432}$. Obsah $S=\dfrac{ab}2=\dfrac{18\cdot6\sqrt3}2=54\sqrt3$. Také $S=\dfrac{cv}2$, tedy $54\sqrt3=\dfrac{\sqrt{432}\cdot v}2 \implies v=9$.
+
+```geometry
+{
+  "points": { "A": [10.392, 0], "B": [0, 18], "C": [0, 0], "H": [7.794, 4.5] },
+  "hiddenPoints": ["H"],
+  "segments": [
+    { "from": "C", "to": "A", "label": "6√3" },
+    { "from": "C", "to": "B", "label": "18" },
+    { "from": "A", "to": "B", "label": "c" },
+    { "from": "C", "to": "H", "dashed": true, "label": "v_c = 9" }
+  ],
+  "angles": [
+    { "at": "C", "from": "A", "to": "B", "rightAngle": true },
+    { "at": "H", "from": "C", "to": "B", "rightAngle": true },
+    { "at": "A", "from": "C", "to": "B", "label": "60°" }
+  ],
+  "title": "Úlohy 8–9: pravoúhlý trojúhelník s úhlem 60°"
+}
+```
 
 **10)** Úsek, který se ve skutečnosti ujde deseti kroky, je na plánu 1 cm. Kruh na plánu má poloměr 2,5 cm. Kolika kroky se obejde skutečný kruh?
 
@@ -94,6 +138,22 @@ A) 5:6   B) 4:5   **C) 3:4**   D) 2:3   E) 1:2
 *Jaro 2012, příklad č. 9. Body: 2. Výsledek: 10.*
 
 Řešení: $\sin30°=0{,}5=\dfrac5{|PQ|} \implies |PQ|=10$.
+
+```geometry
+{
+  "points": { "P": [0, 5], "Q": [8.66, 0], "R": [0, 0] },
+  "segments": [
+    { "from": "R", "to": "P", "label": "5" },
+    { "from": "R", "to": "Q", "label": "8,66" },
+    { "from": "P", "to": "Q", "label": "10" }
+  ],
+  "angles": [
+    { "at": "R", "from": "P", "to": "Q", "rightAngle": true },
+    { "at": "Q", "from": "P", "to": "R", "label": "30°" }
+  ],
+  "title": "Pravoúhlý trojúhelník PQR"
+}
+```
 
 **14)** Dva vnitřní úhly trojúhelníku jsou $\dfrac{2\pi}5$ a $\dfrac\pi4$ *(rekonstrukce ze stupňové varianty)*. Vypočtěte třetí úhel.
 
@@ -165,6 +225,22 @@ A) žádný   B) jeden   **C) dva**   D) tři   E) čtyři
 
 Řešení: $\cos60°=0{,}5=\dfrac2d \implies d=4$. $o=2(a+b)=2(2+4)=12$ cm.
 
+```geometry
+{
+  "points": { "Q": [0, 0], "P": [2, 0], "R": [2, 3.464] },
+  "segments": [
+    { "from": "Q", "to": "P", "label": "2" },
+    { "from": "P", "to": "R" },
+    { "from": "Q", "to": "R", "label": "d" }
+  ],
+  "angles": [
+    { "at": "P", "from": "Q", "to": "R", "rightAngle": true },
+    { "at": "Q", "from": "P", "to": "R", "label": "60°" }
+  ],
+  "title": "Trojúhelník ABD — pravoúhlý s úhlem 60°"
+}
+```
+
 **24)** a) Vypočtěte úhel $\alpha$ schodiště (odvěsny 20 a 30). b) Délka delší strany šikmé části zábradlí (5× delší než přepona).
 
 *Jaro 2014, příklad č. 9. Body: 2. Výsledek: a) $\alpha\approx56°$, b) $d\approx180$ cm.*
@@ -172,6 +248,22 @@ A) žádný   B) jeden   **C) dva**   D) tři   E) čtyři
 Řešení: a) $\mathrm{tg}\,\alpha=\dfrac{30}{20}=1{,}5 \implies \alpha\approx56°19'\approx56°$.
 
 b) Pythagorova věta: $x^2=20^2+30^2=1\,300 \implies x\approx36{,}06$. $d\approx5\cdot36{,}06\approx180$ cm.
+
+```geometry
+{
+  "points": { "C": [0, 0], "A": [20, 0], "B": [0, 30] },
+  "segments": [
+    { "from": "C", "to": "A", "label": "20" },
+    { "from": "C", "to": "B", "label": "30" },
+    { "from": "A", "to": "B" }
+  ],
+  "angles": [
+    { "at": "C", "from": "A", "to": "B", "rightAngle": true },
+    { "at": "A", "from": "C", "to": "B", "label": "α" }
+  ],
+  "title": "Schodiště — pravoúhlý trojúhelník s odvěsnami 20 a 30"
+}
+```
 
 **25)** Vypočtěte s přesností na cm² obsah tmavé plochy ornamentu (čtverec o obsahu 400, čtyři čtvrtkruhy tvoří jeden kruh).
 
@@ -192,6 +284,19 @@ A) 11 140 m²   B) 11 300 m²   **C) 12 400 m²**   D) 12 560 m²   E) jiný obs
 *Jaro 2014, příklad č. 22. Body: 2.*
 
 Řešení: Kosinová věta: $a^2=120^2+100^2-2\cdot120\cdot100\cos60°=14\,400+10\,000-12\,000=12\,400$. $S=a^2=12\,400\text{ m}^2$.
+
+```geometry
+{
+  "points": { "V": [0, 0], "P1": [120, 0], "P2": [50, 86.6] },
+  "segments": [
+    { "from": "V", "to": "P1", "label": "120" },
+    { "from": "V", "to": "P2", "label": "100" },
+    { "from": "P1", "to": "P2", "label": "a" }
+  ],
+  "angles": [{ "at": "V", "from": "P1", "to": "P2", "label": "60°" }],
+  "title": "Trojúhelník se stranami 120, 100 a úhlem 60° mezi nimi"
+}
+```
 
 **28)** Na přímce $p$ sestrojte a) bod dělící úhel $KAL=180°$, b) bod $B$, kde $|BK|=|BL|$.
 
@@ -318,6 +423,22 @@ A) 24 m   **B) 27 m**   C) 32 m   D) 33 m   E) 35 m
 *Jaro 2017, příklad č. 22. Body: 2.*
 
 Řešení: vedlejší úhel k 50° je 130°; třetí úhel $180°-(20°+130°)=30°$. Sinovou větou (úhel $20°$ naproti $s$, úhel $30°$ naproti $BD=40$ m): $s\approx27$ m.
+
+```geometry
+{
+  "points": { "L": [0, 0], "P": [125, 0], "A": [179.95, 311.67] },
+  "segments": [
+    { "from": "L", "to": "P", "label": "125" },
+    { "from": "L", "to": "A" },
+    { "from": "P", "to": "A" }
+  ],
+  "angles": [
+    { "at": "L", "from": "P", "to": "A", "label": "60°" },
+    { "at": "P", "from": "L", "to": "A", "label": "100°" }
+  ],
+  "title": "Trojúhelník ALP — úhly 60° a 20°, strana LP = 125 m"
+}
+```
 
 **45)** V trojúhelníku $ABC$ (výška z $C$ dělí $AB$; v pravoúhlém trojúhelníku $PBC$: přepona 4, odvěsna $2\sqrt3$): a) úhel $\gamma$, b) výška $v_c$.
 

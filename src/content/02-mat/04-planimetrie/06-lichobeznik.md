@@ -17,6 +17,23 @@ $$S = m \cdot v, \quad \text{kde } m \text{ je střední příčka (úsečka spo
 
 Čtyři vrcholy ABCD, strany $a$ a $c$ rovnoběžné (základny), strany $b$ a $d$ (ramena) různě dlouhé. Čtyři různé vnitřní úhly se součtem $360°$.
 
+```geometry
+{
+  "points": { "A": [0, 0], "D": [7, 0], "B": [1.5, 3], "C": [5.5, 3], "H": [1.5, 0], "M1": [0.75, 1.5], "M2": [6.25, 1.5] },
+  "hiddenPoints": ["H", "M1", "M2"],
+  "segments": [
+    { "from": "A", "to": "D", "label": "a" },
+    { "from": "B", "to": "C", "label": "c" },
+    { "from": "A", "to": "B", "label": "d" },
+    { "from": "D", "to": "C", "label": "b" },
+    { "from": "B", "to": "H", "dashed": true, "label": "v" },
+    { "from": "M1", "to": "M2", "dashed": true, "label": "m" }
+  ],
+  "angles": [{ "at": "H", "from": "B", "to": "D", "rightAngle": true }],
+  "title": "Lichoběžník ABCD — výška v a střední příčka m"
+}
+```
+
 ## 2. Rovnoramenný lichoběžník
 
 Strany $a$ a $c$ rovnoběžné, ramena $b$ a $d$ stejně dlouhá. Platí $\alpha=\beta$ a $\gamma=\delta$ (úhly u delší základny stejné, úhly u kratší základny stejné). Pro vodorovný přesah kratší základny nad kolmicí z jejího konce platí:

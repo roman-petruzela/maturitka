@@ -17,6 +17,10 @@ $$S = \pi r_1^2 + \pi r_2^2 + \pi(r_1+r_2)s$$
 
 $$V = \frac13 \pi v\left(r_1^2 + r_1 r_2 + r_2^2\right)$$
 
+```solid
+{ "type": "komoly_kuzel", "params": { "r1": 3.5, "r2": 1, "v": 6 }, "labels": [{ "at": [3.5, 0, 0], "text": "r_1" }, { "at": [1, 0, 6], "text": "r_2" }, { "at": [0, 0, 3], "text": "v" }], "title": "Komolý rotační kužel" }
+```
+
 ## Úkol (interaktivní, Cabri 3D)
 
 1. V programu Cabri nakreslete komolý kužel. Cabri toto těleso přímo nezná, model lze ale vytvořit pomocí nástroje *stopa prvku*:

@@ -19,6 +19,21 @@ $$S = \frac{a\cdot v_a}{2} = \frac{b\cdot v_b}{2} = \frac{c\cdot v_c}{2}$$
 
 **Pozn.:** v pravoúhlém trojúhelníku je strana $a$ zároveň výškou na stranu $b$ a strana $b$ výškou na stranu $a$ — proto platí $S=\dfrac{a\cdot b}{2}$. Pravoúhlý trojúhelník je vlastně polovina obdélníku (u rovnoramenného pravoúhlého polovina čtverce).
 
+```geometry
+{
+  "points": { "A": [2, 4], "B": [0, 0], "C": [6, 0], "H": [2, 0] },
+  "hiddenPoints": ["H"],
+  "segments": [
+    { "from": "B", "to": "C", "label": "a" },
+    { "from": "A", "to": "B" },
+    { "from": "A", "to": "C" },
+    { "from": "A", "to": "H", "dashed": true, "label": "v_a" }
+  ],
+  "angles": [{ "at": "H", "from": "A", "to": "C", "rightAngle": true }],
+  "title": "Obsah pomocí strany a a výšky v_a"
+}
+```
+
 **2b) Obsah trojúhelníku pomocí všech stran — Heronův vzorec:**
 
 $$S = \sqrt{s(s-a)(s-b)(s-c)}, \qquad \text{kde } s=\frac{a+b+c}{2} \text{ (poloviční obvod)}$$

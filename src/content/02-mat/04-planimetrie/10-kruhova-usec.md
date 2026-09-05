@@ -19,6 +19,19 @@ $$S_{\text{úseč}} = S_{\text{výseč}} - S_{\triangle} = \frac{\pi r^2}{360°}
 
 kde $S_{\text{výseč}}$ je obsah kruhové výseče (viz [Délka kruhového oblouku a kruhová výseč](/mat/planimetrie/09-delka-kruhoveho-oblouku-a-kruhova-vysec/)) a $S_\triangle$ je obsah trojúhelníku $ABS$ — ten lze počítat libovolným ze způsobů z kapitoly [Trojúhelník — obecný](/mat/planimetrie/04-trojuhelnik-obecny/) (nejpřirozeněji vzorcem $S=\frac12 r^2\sin\alpha$, protože strany $SA=SB=r$ svírají přesně úhel $\alpha$).
 
+```geometry
+{
+  "points": { "S": [0, 0], "A": [2.819, 1.026], "B": [-0.521, 2.954] },
+  "segments": [
+    { "from": "S", "to": "A", "dashed": true, "label": "r" },
+    { "from": "S", "to": "B", "dashed": true },
+    { "from": "A", "to": "B", "label": "tětiva" }
+  ],
+  "arcs": [{ "center": "S", "radius": 3, "fromDeg": 20, "toDeg": 100, "fill": "segment", "label": "S_úseč" }],
+  "title": "Kruhová úseč — tětiva AB odděluje úseč od zbytku kruhu"
+}
+```
+
 ## Úkoly
 
 **1.** Vypočtěte obsah kruhové úseče, je-li její průměr 120 cm a středový úhel $\alpha=100°$.

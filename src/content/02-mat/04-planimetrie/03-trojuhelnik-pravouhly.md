@@ -28,6 +28,19 @@ $$c^2 = a^2+b^2$$
 
 kde strana $c$ je **přepona** (leží vždy naproti pravému úhlu) a strany $a, b$ jsou **odvěsny**.
 
+```geometry
+{
+  "points": { "A": [0, 3], "B": [5, 0], "C": [0, 0] },
+  "segments": [
+    { "from": "C", "to": "A", "label": "b" },
+    { "from": "C", "to": "B", "label": "a" },
+    { "from": "A", "to": "B", "label": "c" }
+  ],
+  "angles": [{ "at": "C", "from": "A", "to": "B", "rightAngle": true }],
+  "title": "Pravoúhlý trojúhelník ABC (pravý úhel při C)"
+}
+```
+
 ## Úkol 1
 
 Vypočítejte velikost druhé odvěsny v pravoúhlém trojúhelníku ABC s pravým úhlem při vrcholu C, když víte: $a=6\text{ cm}, c=12\text{ cm}$.
@@ -78,6 +91,24 @@ Pro pravoúhlý trojúhelník s výškou $v_c$ na přeponu $c$, která ji rozdě
 
 **Euklidova věta o odvěsnách:** $\qquad a^2 = c\cdot c_a, \qquad b^2 = c\cdot c_b$
 
+```geometry
+{
+  "points": { "A": [0, 4], "B": [3, 0], "C": [0, 0], "P": [1.92, 1.44] },
+  "segments": [
+    { "from": "C", "to": "A", "label": "b" },
+    { "from": "C", "to": "B", "label": "a" },
+    { "from": "A", "to": "P", "label": "c_a" },
+    { "from": "P", "to": "B", "label": "c_b" },
+    { "from": "C", "to": "P", "label": "v_c" }
+  ],
+  "angles": [
+    { "at": "C", "from": "A", "to": "B", "rightAngle": true },
+    { "at": "P", "from": "C", "to": "B", "rightAngle": true }
+  ],
+  "title": "Výška v_c na přeponu — Eukleidovy věty"
+}
+```
+
 ## Úkol 6
 
 Vypočítejte v trojúhelníku ABC velikost výšky na stranu $c$, jestliže znáte: $c=12\text{ cm}$ a úsek $c_a=4\text{ cm}$.
@@ -95,3 +126,17 @@ Výsledek: ||z věty o výšce: c_a = v_c²/c_b = 36/4 = 9 cm, tedy c = c_a+c_b 
 Sestrojíme-li kružnici $k$ se středem $S$, který je středem úsečky $AB$ (tedy s průměrem $AB$), pak v **každém** bodě ležícím na kružnici $k$, který spolu s body $A$ a $B$ tvoří trojúhelník, bude u tohoto bodu **pravý úhel**.
 
 Toto je užitečný nástroj pro konstrukci pravoúhlých trojúhelníků a pro důkazy v planimetrii.
+
+```geometry
+{
+  "points": { "S": [0, 0], "A": [-3, 0], "B": [3, 0], "C": [1.03, 2.82] },
+  "segments": [
+    { "from": "A", "to": "B", "dashed": true },
+    { "from": "A", "to": "C" },
+    { "from": "C", "to": "B" }
+  ],
+  "circles": [{ "center": "S", "radius": 3, "label": "k" }],
+  "angles": [{ "at": "C", "from": "A", "to": "B", "rightAngle": true }],
+  "title": "Thaletova kružnice — úhel u C je vždy pravý"
+}
+```

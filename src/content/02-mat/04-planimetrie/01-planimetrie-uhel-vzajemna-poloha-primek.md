@@ -62,7 +62,20 @@ $$30° = \frac{30\pi}{180} = \frac{\pi}{6}\text{ rad}, \quad 60° = \frac{60\pi}
 
 ## Úkol 2
 
-((Obrázek se nedochoval.)) Na obdélníku ABCD, kde na straně AB leží bod E, sestrojte jednotlivé druhy úhlů pomocí dvou různobarevných polopřímek.
+((Obrázek s řešením se nedochoval, výchozí obrazec šlo ale ze zadání jednoznačně dopočítat.)) Na obdélníku ABCD, kde na straně AB leží bod E, sestrojte jednotlivé druhy úhlů pomocí dvou různobarevných polopřímek.
+
+```geometry
+{
+  "points": { "A": [0, 0], "B": [5, 0], "C": [5, 3], "D": [0, 3], "E": [3, 0] },
+  "segments": [
+    { "from": "A", "to": "B" },
+    { "from": "B", "to": "C" },
+    { "from": "C", "to": "D" },
+    { "from": "D", "to": "A" }
+  ],
+  "title": "Zadání: obdélník ABCD s bodem E na straně AB"
+}
+```
 
 ## Dvojice úhlů
 
@@ -74,6 +87,7 @@ $$30° = \frac{30\pi}{180} = \frac{\pi}{6}\text{ rad}, \quad 60° = \frac{60\pi}
 ```geometry
 {
   "points": { "A1": [-3, 2], "A2": [3, 2], "B1": [-3, -1], "B2": [3, -1], "T1": [-1.5, 3], "T2": [1.5, -2] },
+  "hiddenPoints": ["A1", "A2", "B1", "B2", "T1", "T2"],
   "segments": [
     { "from": "A1", "to": "A2" },
     { "from": "B1", "to": "B2" },

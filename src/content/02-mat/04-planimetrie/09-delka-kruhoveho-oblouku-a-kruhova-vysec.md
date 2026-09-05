@@ -13,6 +13,15 @@ Vzdálenost mezi body $A$ a $B$ ležícími na kružnici, měřená podél kruž
 
 $$l = \frac{2\pi r}{360°}\cdot\alpha \quad \text{(}\alpha\text{ ve stupňové míře)}, \qquad l = \frac{2\pi r}{2\pi}\cdot\alpha = r\alpha \quad \text{(}\alpha\text{ v obloukové míře)}$$
 
+```geometry
+{
+  "points": { "S": [0, 0], "A": [3, 0], "B": [1.8, 2.4] },
+  "segments": [{ "from": "S", "to": "A", "dashed": true, "label": "r" }, { "from": "S", "to": "B", "dashed": true }],
+  "arcs": [{ "center": "S", "radius": 3, "fromDeg": 0, "toDeg": 53, "label": "l" }],
+  "title": "Kruhový oblouk l pro úhel α"
+}
+```
+
 ## Úkoly
 
 **1.** Dvě přímé silnice svírají úhel $65°$. Jak dlouhý je oblouk o poloměru 300 m, který převede jeden směr v druhý?
@@ -38,6 +47,15 @@ Výsledek: ||r = l·360°/(2πα) ≈ 570,31 mm||
 Body $S$, $A$, $B$ (střed a dva body na kružnici) vymezují část obsahu kruhu — **kruhovou výseč** ($S_{\text{výs}}$) o poloměru $r$ a úhlu $\alpha$.
 
 $$S_{\text{výs}} = \frac{\pi r^2}{360°}\cdot\alpha \quad \text{(}\alpha\text{ ve stupňové míře)}, \qquad S_{\text{výs}} = \frac{\pi r^2}{2\pi}\cdot\alpha = \frac{r^2\alpha}{2} \quad \text{(}\alpha\text{ v obloukové míře)}$$
+
+```geometry
+{
+  "points": { "S": [0, 0], "A": [3, 0], "B": [1.8, 2.4] },
+  "segments": [{ "from": "S", "to": "A" }, { "from": "S", "to": "B" }],
+  "arcs": [{ "center": "S", "radius": 3, "fromDeg": 0, "toDeg": 53, "fill": "sector", "label": "S_výs" }],
+  "title": "Kruhová výseč"
+}
+```
 
 ## Úkoly
 

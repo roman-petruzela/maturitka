@@ -33,6 +33,29 @@ $$\alpha = \frac{360°}{n} \qquad \text{(úhel u středu v každém z dílčích
 
 **Pozn.:** poloměrem kružnice **vepsané** ($\rho$) u pravidelného $n$-úhelníka je výška $v_a$ dílčího trojúhelníku; poloměrem kružnice **opsané** ($r$) je rameno dílčího trojúhelníku.
 
+```geometry
+{
+  "points": { "O": [0, 0], "A": [3, 0], "B": [1.5, 2.598], "C": [-1.5, 2.598], "D": [-3, 0], "E": [-1.5, -2.598], "F": [1.5, -2.598], "M": [2.25, 1.299] },
+  "hiddenPoints": ["M"],
+  "segments": [
+    { "from": "A", "to": "B" },
+    { "from": "B", "to": "C" },
+    { "from": "C", "to": "D" },
+    { "from": "D", "to": "E" },
+    { "from": "E", "to": "F" },
+    { "from": "F", "to": "A" },
+    { "from": "O", "to": "A", "dashed": true, "label": "r" },
+    { "from": "O", "to": "B", "dashed": true },
+    { "from": "O", "to": "C", "dashed": true },
+    { "from": "O", "to": "D", "dashed": true },
+    { "from": "O", "to": "E", "dashed": true },
+    { "from": "O", "to": "F", "dashed": true },
+    { "from": "O", "to": "M", "dashed": true, "label": "ρ" }
+  ],
+  "title": "Pravidelný šestiúhelník — rozdělení na 6 trojúhelníků"
+}
+```
+
 ## Úkoly
 
 **1.** Jak velké budou úhly jednoho z 24 trojúhelníků, ze kterých lze sestavit pravidelný 24-úhelník?

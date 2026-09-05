@@ -21,6 +21,18 @@ $$a+b>c, \qquad a+c>b, \qquad b+c>a$$
 
 (součet libovolných dvou stran musí být větší než strana třetí)
 
+```geometry
+{
+  "points": { "A": [0, 0], "B": [6, 0], "C": [2, 4] },
+  "segments": [
+    { "from": "A", "to": "B", "label": "c" },
+    { "from": "B", "to": "C", "label": "a" },
+    { "from": "C", "to": "A", "label": "b" }
+  ],
+  "title": "Trojúhelník ABC — značení stran"
+}
+```
+
 ## Úkol 1
 
 **a)** Zjistěte, zda lze sestrojit trojúhelník o stranách $a=8\text{ cm}, b=5\text{ cm}, c=14\text{ cm}$.
@@ -60,6 +72,22 @@ Sestrojte alespoň jeden zástupce každého typu trojúhelníku podle úhlů (p
 **8) Kružnice opsaná** — dotýká se všech vrcholů trojúhelníku; její střed leží na průsečíku os stran. Značení poloměru: $r$.
 
 **9) Kružnice vepsaná** — dotýká se všech stran trojúhelníku; její střed leží na průsečíku os vnitřních úhlů. Značení poloměru: $\rho$.
+
+```geometry
+{
+  "points": { "A": [0, 0], "B": [6, 0], "C": [2, 4], "O": [3, 1], "I": [2.41, 1.49] },
+  "segments": [
+    { "from": "A", "to": "B" },
+    { "from": "B", "to": "C" },
+    { "from": "C", "to": "A" }
+  ],
+  "circles": [
+    { "center": "O", "radius": 3.162, "label": "opsaná — r" },
+    { "center": "I", "radius": 1.488, "label": "vepsaná — ρ" }
+  ],
+  "title": "Kružnice opsaná (střed O) a vepsaná (střed I)"
+}
+```
 
 ## Úkol 5
 

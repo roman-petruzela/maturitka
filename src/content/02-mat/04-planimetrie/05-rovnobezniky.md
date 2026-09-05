@@ -17,6 +17,21 @@ $$o=4a, \qquad S=a^2=\frac12 u^2, \qquad u = a\sqrt2$$
 
 $$\rho = \frac{a}{2}\ \text{(poloměr kružnice vepsané)}, \qquad r = \frac{u}{2}\ \text{(poloměr kružnice opsané)}$$
 
+```geometry
+{
+  "points": { "A": [0, 0], "B": [4, 0], "C": [4, 4], "D": [0, 4] },
+  "segments": [
+    { "from": "A", "to": "B", "label": "a" },
+    { "from": "B", "to": "C" },
+    { "from": "C", "to": "D" },
+    { "from": "D", "to": "A" },
+    { "from": "A", "to": "C", "dashed": true, "label": "u" },
+    { "from": "B", "to": "D", "dashed": true }
+  ],
+  "title": "Čtverec ABCD s úhlopříčkami"
+}
+```
+
 ### Úkoly
 
 **1.** Ve čtverci ABCD je velikost úhlopříčky 12 cm. Vypočítejte obsah a obvod čtverce.
@@ -36,6 +51,21 @@ Výsledek: ||0,08 ha = 800 m², a = √800 ≈ 28,28 m, pletivo na 3 strany = 3a
 Rovinný útvar se čtyřmi vrcholy ABCD, čtyřmi stranami (protilehlé strany stejně dlouhé) a čtyřmi vnitřními pravými úhly. Má dvě stejně velké úhlopříčky ($u_1=u_2$), které mezi sebou **nesvírají** pravý úhel a rozdělují obdélník na čtyři rovnoramenné trojúhelníky (dva protilehlé páry jsou shodné). Platí $\alpha=\alpha'$, $\beta=\beta'$.
 
 $$o = 2(a+b), \qquad S = a\cdot b, \qquad u=\sqrt{a^2+b^2}, \qquad r=\frac{u}{2}$$
+
+```geometry
+{
+  "points": { "A": [0, 0], "B": [6, 0], "C": [6, 3], "D": [0, 3] },
+  "segments": [
+    { "from": "A", "to": "B", "label": "a" },
+    { "from": "B", "to": "C", "label": "b" },
+    { "from": "C", "to": "D" },
+    { "from": "D", "to": "A" },
+    { "from": "A", "to": "C", "dashed": true, "label": "u" },
+    { "from": "B", "to": "D", "dashed": true }
+  ],
+  "title": "Obdélník ABCD s úhlopříčkami"
+}
+```
 
 ### Úkoly
 
@@ -69,6 +99,23 @@ $$S = a\cdot v = \frac12 u_1 u_2 = a^2\sin\alpha = a^2\sin\beta$$
 
 $$\rho = \frac12 a\sin\alpha\ \text{(poloměr kružnice vepsané)}$$
 
+```geometry
+{
+  "points": { "A": [-4, 0], "B": [0, -3], "C": [4, 0], "D": [0, 3], "O": [0, 0] },
+  "hiddenPoints": ["O"],
+  "segments": [
+    { "from": "A", "to": "B", "label": "a" },
+    { "from": "B", "to": "C" },
+    { "from": "C", "to": "D" },
+    { "from": "D", "to": "A" },
+    { "from": "A", "to": "C", "dashed": true, "label": "u_1" },
+    { "from": "B", "to": "D", "dashed": true, "label": "u_2" }
+  ],
+  "angles": [{ "at": "O", "from": "A", "to": "D", "rightAngle": true }],
+  "title": "Kosočtverec ABCD — úhlopříčky kolmé"
+}
+```
+
 ### Úkoly
 
 **9.** Vypočítejte obsah a obvod kosočtverce o straně $a=5\text{ cm}$, svírají-li strany úhel $48°$.
@@ -94,6 +141,22 @@ Rovinný útvar se čtyřmi vrcholy ABCD, čtyřmi stranami (protilehlé strany 
 $$o = 2(a+b)$$
 
 $$S = a\cdot v_a = b\cdot v_b = ab\sin\alpha = ab\sin\beta$$
+
+```geometry
+{
+  "points": { "A": [0, 0], "B": [5, 0], "C": [7, 3], "D": [2, 3], "H": [2, 0] },
+  "hiddenPoints": ["H"],
+  "segments": [
+    { "from": "A", "to": "B", "label": "a" },
+    { "from": "B", "to": "C", "label": "b" },
+    { "from": "C", "to": "D" },
+    { "from": "D", "to": "A" },
+    { "from": "D", "to": "H", "dashed": true, "label": "v_a" }
+  ],
+  "angles": [{ "at": "H", "from": "D", "to": "B", "rightAngle": true }],
+  "title": "Kosodélník ABCD — výška v_a na stranu a"
+}
+```
 
 ### Úkoly
 

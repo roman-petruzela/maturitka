@@ -15,6 +15,10 @@ $$S_p = \pi r^2 \qquad S_{pl} = 2\pi r v \qquad S = 2S_p + S_{pl} = 2\pi r^2 + 2
 
 $$V = S_p \cdot v = \pi r^2 v$$
 
+```solid
+{ "type": "valec", "params": { "r": 3, "v": 5 }, "labels": [{ "at": [3, 0, 0], "text": "r" }, { "at": [0, 0, 2.5], "text": "v" }], "title": "Rotační válec" }
+```
+
 ## Úkoly (interaktivní, Cabri 3D)
 
 1. V programu Cabri nakreslete válec o poloměru podstavy $r=5\text{ cm}$ a výšce $v=7\text{ cm}$. Ve válci vyznačte výšku. Vypočtěte objem a povrch válce a své výsledky ověřte pomocí programu Cabri.
