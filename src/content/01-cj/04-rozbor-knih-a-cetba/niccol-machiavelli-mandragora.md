@@ -2,6 +2,7 @@
 title: "Niccolò Machiavelli - Mandragora"
 order: 69
 source: "MATURITA HADR/ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Niccolò Machiavelli - Mandragora/Mandragora.odt"
+tags: ["mimo-seznam-cetby"]
 ---
 __Autor:
 __

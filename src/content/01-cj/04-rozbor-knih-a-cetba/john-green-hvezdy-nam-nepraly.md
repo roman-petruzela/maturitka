@@ -2,6 +2,7 @@
 title: "John Green - Hvězdy nám nepřály"
 order: 43
 source: "MATURITA HADR/ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/John Green - Hvězdy nám nepřály/Hvězdy Nám Nepřály.docx"
+tags: ["mimo-seznam-cetby"]
 ---
 Téma & motiv
 

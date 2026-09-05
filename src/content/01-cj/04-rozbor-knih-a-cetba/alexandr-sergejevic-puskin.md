@@ -2,6 +2,7 @@
 title: "Alexandr Sergejevič Puškin"
 order: 4
 source: "MATURITA HADR/ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Alexandr Sergejevič Puškin/ALEXANDER SERGEJEVIČ PUŠKIN - Piková dáma.docx"
+tags: ["mimo-seznam-cetby"]
 ---
 __Piková dáma__
 

@@ -2,6 +2,7 @@
 title: "Jean Paul Sartre - Zeď"
 order: 41
 source: "MATURITA HADR/ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Jean Paul Sartre - Zeď/Jean Paul Sartre zed.pdf"
+tags: ["mimo-seznam-cetby"]
 ---
 _M. Zelingerová P3b_
 

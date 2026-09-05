@@ -2,6 +2,7 @@
 title: "George Orwell - Farma Zvířat"
 order: 31
 source: "MATURITA HADR/ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/George Orwell - Farma Zvířat/15. farma zvířat.docx"
+tags: ["mimo-seznam-cetby"]
 ---
 Literární žánr: Próza \(bajka\), novela
 

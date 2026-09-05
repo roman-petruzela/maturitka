@@ -2,6 +2,7 @@
 title: "Alexandr Isajevič Solženicyn - Jeden den Ivana Děnisoviče"
 order: 3
 source: "MATURITA HADR/ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Alexandr Isajevič Solženicyn - Jeden den Ivana Děnisoviče/18. Jeden den Ivana Děnisoviče - Evropa 1945-89.docx"
+tags: ["mimo-seznam-cetby"]
 ---
 Jeden den Ivana Děnisoviče
 

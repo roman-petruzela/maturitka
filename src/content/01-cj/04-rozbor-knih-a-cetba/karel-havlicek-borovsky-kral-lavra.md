@@ -2,6 +2,7 @@
 title: "Karel Havlíček Borovský - Král Lávra"
 order: 51
 source: "MATURITA HADR/ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Karel Havlíček Borovský - Král Lávra/Král Lávra -  Karel Havlíček Borovský.docx"
+tags: ["mimo-seznam-cetby"]
 ---
 Námět: 		irská pohádka, Hloupý král Midás \- Starověké báje a pověsti
 

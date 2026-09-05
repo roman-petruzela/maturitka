@@ -5,77 +5,77 @@ source: "cjl/Seznam četby k MZ (1).docx"
 ---
 1\. BOCCACCIO, Giovanni: Dekameron
 
- 2\. SHAKESPEARE, William: Romeo a Julie
+ 2\. SHAKESPEARE, William: Romeo a Julie [x](/cj/rozbor-knih-a-cetba/william-shakespeare-romeo-a-julie/ "Rozbor")
 
-3\. SHAKESPEARE, William: Hamlet
+3\. SHAKESPEARE, William: Hamlet [x](/cj/rozbor-knih-a-cetba/william-shakespeare-hamlet/ "Rozbor")
 
  4\. SHAKESPEARE, William: Othello
 
-5\. SHAKESPEARE, William: Kupec benátský
+5\. SHAKESPEARE, William: Kupec benátský [x](/cj/rozbor-knih-a-cetba/william-shakespeare-kupec-benatsky/ "Rozbor")
 
-6\. MOLIÈRE: Lakomec
+6\. MOLIÈRE: Lakomec [x](/cj/rozbor-knih-a-cetba/moliere-lakomec/ "Rozbor")
 
 7\. MOLIÈRE: Tartuffe
 
- 8\. GOLDONI, Carlo: Sluha dvou pánů ¨
+ 8\. GOLDONI, Carlo: Sluha dvou pánů ¨ [x](/cj/rozbor-knih-a-cetba/carlo-goldoni-sluha-dvou-panu/ "Rozbor")
 
-9\. HUGO, Victor: Chrám Matky Boží v Paříži
+9\. HUGO, Victor: Chrám Matky Boží v Paříži [x](/cj/rozbor-knih-a-cetba/victor-hugo-chram-matky-bozi-v-parizi/ "Rozbor")
 
 10\. HUGO, Victor: Bídníci
 
-11\. PUŠKIN, Alexandr Sergejevič: Evžen Oněgin
+11\. PUŠKIN, Alexandr Sergejevič: Evžen Oněgin [x](/cj/rozbor-knih-a-cetba/alexandr-sergejevic-puskin-evzen-onegin/ "Rozbor")
 
-12\. MÁCHA, Karel Hynek: Máj
+12\. MÁCHA, Karel Hynek: Máj [x](/cj/rozbor-knih-a-cetba/karel-hynek-macha-maj/ "Rozbor") [x](/cj/rozbor-knih-a-cetba/karel-hynek-macha-maj-1/ "Rozbor")
 
-13\. ERBEN, Karel Jaromír: Kytice
+13\. ERBEN, Karel Jaromír: Kytice [x](/cj/rozbor-knih-a-cetba/karel-jaromir-erben-kytice/ "Rozbor")
 
-14\. NĚMCOVÁ, Božena: Divá Bára
+14\. NĚMCOVÁ, Božena: Divá Bára [x](/cj/rozbor-knih-a-cetba/bozena-nemcova-diva-bara/ "Rozbor")
 
-15\. AUSTENOVÁ, Jane: Pýcha a předsudek
+15\. AUSTENOVÁ, Jane: Pýcha a předsudek [x](/cj/rozbor-knih-a-cetba/jane-austenova-pycha-a-predsudek/ "Rozbor")
 
 16\. DICKENS, Charles: Oliver Twist
 
-17\. BALZAC, Honoré: Otec Goriot
+17\. BALZAC, Honoré: Otec Goriot [x](/cj/rozbor-knih-a-cetba/honore-de-balzac-otec-goriot/ "Rozbor")
 
 18\. FLAUBERT, Gustave: Paní Bovaryová
 
 19\. MAUPASSANT, Guy: Miláček
 
-20\. MAUPASSANT, Guy: Kulička
+20\. MAUPASSANT, Guy: Kulička [x](/cj/rozbor-knih-a-cetba/guy-de-maupassant-kulicka/ "Rozbor")
 
-21\. GOGOL, Nikolaj Vasiljevič: Revizor
+21\. GOGOL, Nikolaj Vasiljevič: Revizor [x](/cj/rozbor-knih-a-cetba/nikolaj-vasiljevic-gogol-revizor/ "Rozbor")
 
-22\. TOLSTOJ, Lev Nikolajevič: Anna Karenina
+22\. TOLSTOJ, Lev Nikolajevič: Anna Karenina [x](/cj/rozbor-knih-a-cetba/lev-nikolajevic-tolstoj-anna-karenina/ "Rozbor")
 
-23\. NERUDA, Jan: Povídky malostranské
+23\. NERUDA, Jan: Povídky malostranské [x](/cj/rozbor-knih-a-cetba/jan-neruda-povidky-malostranske/ "Rozbor")
 
 24\. ARBES, Jakub: Sivooký démon
 
 25\. JIRÁSEK, Alois: F\. L\. Věk \(1\. díl\)
 
-26\. MRŠTÍKOVÉ, Alois a Vilém: Maryša
+26\. MRŠTÍKOVÉ, Alois a Vilém: Maryša [x](/cj/rozbor-knih-a-cetba/alois-a-vilem-mrstik-marysa/ "Rozbor")
 
-27\. VRCHLICKÝ, Jaroslav: Noc na Karlštejně
+27\. VRCHLICKÝ, Jaroslav: Noc na Karlštejně [x](/cj/rozbor-knih-a-cetba/jaroslav-vrchlicky-noc-na-karlstejne/ "Rozbor")
 
-28\. WILDE, Oscar: Obraz Doriana Graye
+28\. WILDE, Oscar: Obraz Doriana Graye [x](/cj/rozbor-knih-a-cetba/oscar-wilde-obraz-doriana-graye-1/ "Rozbor")
 
 29\. WILDE, Oscar: Jak je důležité míti Filipa
 
-30\. HEMINGWAY, Ernest: Stařec a moře
+30\. HEMINGWAY, Ernest: Stařec a moře [x](/cj/rozbor-knih-a-cetba/ernest-hemingway-starec-a-more/ "Rozbor")
 
-31\. FITZGERALD, Francis Scott: Velký Gatsby
+31\. FITZGERALD, Francis Scott: Velký Gatsby [x](/cj/rozbor-knih-a-cetba/francis-scott-fitzgeral-velky-gatsby/ "Rozbor")
 
-32\. STEINBECK, John: O myších a lidech
+32\. STEINBECK, John: O myších a lidech [x](/cj/rozbor-knih-a-cetba/john-steinbeck-o-mysich-a-lidech/ "Rozbor")
 
-33\. SHAW, J\. B\.: Pygmalion
+33\. SHAW, J\. B\.: Pygmalion [x](/cj/rozbor-knih-a-cetba/g-b-shaw-pygmalion/ "Rozbor")
 
-34\. ROLLAND, Romain: Petr a Lucie
+34\. ROLLAND, Romain: Petr a Lucie [x](/cj/rozbor-knih-a-cetba/romain-rolland-petr-a-lucie/ "Rozbor")
 
-35\. REMARQUE, Erich Maria: Na západní frontě klid
+35\. REMARQUE, Erich Maria: Na západní frontě klid [x](/cj/rozbor-knih-a-cetba/erich-maria-remarque-na-zapadni-fronte-klid/ "Rozbor") [x](/cj/rozbor-knih-a-cetba/erich-maria-remarque-na-zapadni-fronte-klid-1/ "Rozbor")
 
 36\. REMARQUE, Erich Maria: Tři kamarádi
 
-37\. STYRON, William: Sophiina volba
+37\. STYRON, William: Sophiina volba [x](/cj/rozbor-knih-a-cetba/william-styron-sophiina-volba/ "Rozbor")
 
 38\. CAPOTE, Truman: Chladnokrevně
 
@@ -83,7 +83,7 @@ source: "cjl/Seznam četby k MZ (1).docx"
 
  40\. MORAVIA, Alberto: Horalka
 
-41\. NABOKOV, Vladimír: Lolita
+41\. NABOKOV, Vladimír: Lolita [x](/cj/rozbor-knih-a-cetba/vladimir-nabokov-lolita/ "Rozbor")
 
 42\. WILLIAMS, Tennessee: Tramvaj do stanice Touha
 
@@ -113,11 +113,11 @@ source: "cjl/Seznam četby k MZ (1).docx"
 
 55\. BACKMAN, Fredrik: Medvědín
 
-56\. DYK, Viktor: Krysař
+56\. DYK, Viktor: Krysař [x](/cj/rozbor-knih-a-cetba/viktor-dyk-krysar/ "Rozbor")
 
-57\. KAFKA, Franz: Proměna
+57\. KAFKA, Franz: Proměna [x](/cj/rozbor-knih-a-cetba/franz-kafka-promena/ "Rozbor") [x](/cj/rozbor-knih-a-cetba/franz-kafka-promena-1/ "Rozbor")
 
-58\. BEZRUČ, Petr: Slezské písně
+58\. BEZRUČ, Petr: Slezské písně [x](/cj/rozbor-knih-a-cetba/petr-bezruc-slezske-pisne/ "Rozbor")
 
 59\. WOLKER, Jiří: Těžká hodina
 
@@ -129,41 +129,41 @@ source: "cjl/Seznam četby k MZ (1).docx"
 
 63\. OLBRACHT, Ivan: Nikola Šuhaj loupežník
 
-64\. HAVLÍČEK, Jaroslav: Petrolejové lampy
+64\. HAVLÍČEK, Jaroslav: Petrolejové lampy [x](/cj/rozbor-knih-a-cetba/jaroslav-havlicek-petrolejove-lampy/ "Rozbor")
 
 65\. ČAPEK, Josef: Stín kapradiny
 
-66\. ČAPEK, Karel: Bílá nemoc
+66\. ČAPEK, Karel: Bílá nemoc [x](/cj/rozbor-knih-a-cetba/karel-capek-matka-a-bila-nemoc/ "Rozbor")
 
-67\. ČAPEK, Karel: Povídky z jedné kapsy
+67\. ČAPEK, Karel: Povídky z jedné kapsy [x](/cj/rozbor-knih-a-cetba/karel-capek-povidky-z-jedne-a-druhe-kapsy/ "Rozbor")
 
-68\. ČAPEK, Karel: Matka
+68\. ČAPEK, Karel: Matka [x](/cj/rozbor-knih-a-cetba/karel-capek-matka-a-bila-nemoc/ "Rozbor")
 
-69\. POLÁČEK, Karel: Bylo nás pět
+69\. POLÁČEK, Karel: Bylo nás pět [x](/cj/rozbor-knih-a-cetba/karel-polacek-bylo-nas-pet/ "Rozbor")
 
 70\. BASS, Eduard: Cirkus Humberto
 
 71\. OTČENÁŠEK, Jan: Romeo, Julie a tma
 
-72\. KAFKA, Franz: Proměna
+72\. KAFKA, Franz: Proměna [x](/cj/rozbor-knih-a-cetba/franz-kafka-promena/ "Rozbor") [x](/cj/rozbor-knih-a-cetba/franz-kafka-promena-1/ "Rozbor")
 
 73\. KOŽÍK, František: Největší z pierotů
 
-74\. PAVEL, Ota: Smrt krásných srnců
+74\. PAVEL, Ota: Smrt krásných srnců [x](/cj/rozbor-knih-a-cetba/ota-pavel-smrt-krasnych-srncu/ "Rozbor")
 
-75\. FUKS, Ladislav: Spalovač mrtvol
+75\. FUKS, Ladislav: Spalovač mrtvol [x](/cj/rozbor-knih-a-cetba/ladislav-fuks-spalovac-mrtvol/ "Rozbor") [x](/cj/rozbor-knih-a-cetba/ladislav-fuks-spalovac-mrtvol-1/ "Rozbor")
 
-76\. HRABAL, Bohumil: Ostře sledované vlaky
+76\. HRABAL, Bohumil: Ostře sledované vlaky [x](/cj/rozbor-knih-a-cetba/bohumil-hrabal-ostre-sledovane-vlaky/ "Rozbor")
 
 77\. HRABAL, Bohumil: Obsluhoval jsem anglického krále
 
 78\. KAPLICKÝ, Václav: Kladivo na čarodějnice
 
-79\. JIROTKA, Zdeněk: Saturnin
+79\. JIROTKA, Zdeněk: Saturnin [x](/cj/rozbor-knih-a-cetba/zdenek-jirotka-saturnin/ "Rozbor")
 
 80\. VIEWEGH, Michal: Účastníci zájezdu
 
-81\. VIEWEGH, Michal: Báječná léta pod psa
+81\. VIEWEGH, Michal: Báječná léta pod psa [x](/cj/rozbor-knih-a-cetba/michal-viewehg-bajecna-leta-pod-psa/ "Rozbor")
 
 82\. MORNŠTAJNOVÁ, Alena: Hana
 

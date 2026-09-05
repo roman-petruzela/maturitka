@@ -2,6 +2,7 @@
 title: "Agatha Christie - Smrt na Nilu"
 order: 1
 source: "MATURITA HADR/ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Agatha Christie - Smrt na Nilu/Smrt Na Nilu.docx"
+tags: ["mimo-seznam-cetby"]
 ---
 Téma & motiv
 

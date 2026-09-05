@@ -2,6 +2,7 @@
 title: "Antoine de Saint-Exupéry - Malý Princ"
 order: 7
 source: "MATURITA HADR/ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Antoine de Saint-Exupéry - Malý Princ/Malý princ - A. S. de Exupéry(1).docx"
+tags: ["mimo-seznam-cetby"]
 ---
 Námět:		vlastní zážitky – porouchání letadla při přeletu nad Afrikou
 

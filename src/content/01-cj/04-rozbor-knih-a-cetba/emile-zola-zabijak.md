@@ -2,6 +2,7 @@
 title: "Émile Zola - Zabiják"
 order: 21
 source: "MATURITA HADR/ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Émile Zola - Zabiják/8. Zabiják, naturalismus a realismus.docx"
+tags: ["mimo-seznam-cetby"]
 ---
 __Autor:__ Emile Zola
 

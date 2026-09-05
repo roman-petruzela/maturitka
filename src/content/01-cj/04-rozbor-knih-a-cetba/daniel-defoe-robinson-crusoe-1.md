@@ -2,6 +2,7 @@
 title: "Daniel Defoe - Robinson Crusoe (1)"
 order: 15
 source: "MATURITA HADR/ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Daniel Defoe - Robinson Crusoe (1)/Robinson Crusoe.docx"
+tags: ["mimo-seznam-cetby"]
 ---
 __Autor__
 

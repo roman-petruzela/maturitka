@@ -2,6 +2,7 @@
 title: "Daniel Defoe - Robinson Crusoe"
 order: 14
 source: "MATURITA HADR/ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Daniel Defoe - Robinson Crusoe/Crusoe.docx"
+tags: ["mimo-seznam-cetby"]
 ---
 Robinson Crusoe – Daniel Defoe, J\. V\. Pleva
 

@@ -2,6 +2,7 @@
 title: "Edgar Allan Poe - Černý kocour"
 order: 16
 source: "MATURITA HADR/ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Edgar Allan Poe - Černý kocour/Černý Kocour.docx"
+tags: ["mimo-seznam-cetby"]
 ---
 Téma & motiv
 

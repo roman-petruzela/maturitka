@@ -2,6 +2,7 @@
 title: "Pavel Kohout - Katyně"
 order: 75
 source: "MATURITA HADR/ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Pavel Kohout - Katyně/kohout-katyne.doc"
+tags: ["mimo-seznam-cetby"]
 ---
 \*1928 v Praze
 

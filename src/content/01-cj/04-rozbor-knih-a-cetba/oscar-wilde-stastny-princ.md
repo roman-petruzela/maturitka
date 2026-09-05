@@ -2,6 +2,7 @@
 title: "Oscar Wilde - Šťastný Princ"
 order: 72
 source: "MATURITA HADR/ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Oscar Wilde - Šťastný Princ/oscar wilde - stastny princ.docx"
+tags: ["mimo-seznam-cetby"]
 ---
 Šťastný princ
 

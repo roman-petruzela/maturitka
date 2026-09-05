@@ -2,6 +2,7 @@
 title: "Karel Čapek - R.U.R"
 order: 49
 source: "MATURITA HADR/ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Karel Čapek - R.U.R/R.U.R..docx"
+tags: ["mimo-seznam-cetby"]
 ---
 __Ostatní autoři této doby :__
 

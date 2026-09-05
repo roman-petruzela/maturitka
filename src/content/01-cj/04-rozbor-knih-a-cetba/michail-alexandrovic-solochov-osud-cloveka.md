@@ -2,6 +2,7 @@
 title: "Michail Alexandrovič Šolochov - Osud Člověka"
 order: 64
 source: "MATURITA HADR/ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Michail Alexandrovič Šolochov - Osud Člověka/Osud člověka.docx"
+tags: ["mimo-seznam-cetby"]
 ---
 Osud člověka – Michail Alexandrovič Šolochov
 

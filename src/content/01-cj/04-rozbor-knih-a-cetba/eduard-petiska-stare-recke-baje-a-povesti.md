@@ -2,6 +2,7 @@
 title: "Eduard Petiška - Staré Řecké Báje a Pověsti"
 order: 20
 source: "MATURITA HADR/ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Eduard Petiška - Staré Řecké Báje a Pověsti/2. Staré řecké báje a pověsti - Řecko, Antika, Řím.docx"
+tags: ["mimo-seznam-cetby"]
 ---
 __Autor:__ Eduard Petiška
 

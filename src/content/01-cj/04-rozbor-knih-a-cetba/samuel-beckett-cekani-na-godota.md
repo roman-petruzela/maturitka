@@ -2,6 +2,7 @@
 title: "Samuel Beckett - Čekání na Godota"
 order: 79
 source: "MATURITA HADR/ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Samuel Beckett - Čekání na Godota/16. Čekání na Godota.docx"
+tags: ["mimo-seznam-cetby"]
 ---
 Čekání na Godota
 Samuel Beckett

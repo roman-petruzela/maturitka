@@ -65,6 +65,11 @@ const namedGroupKeys = orderedGroupKeys.filter((g): g is string => g !== null);
 											doplněno
 										</span>
 									)}
+									{entry.data.tags?.includes('mimo-seznam-cetby') && (
+										<span class="mini-badge" title="Není na aktuálním školním seznamu četby k maturitě">
+											mimo seznam četby
+										</span>
+									)}
 								</span>
 							</a>
 						</li>

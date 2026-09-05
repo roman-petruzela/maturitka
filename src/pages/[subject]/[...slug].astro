@@ -99,6 +99,13 @@ const { Content } = await render(entry);
 			</p>
 		)
 	}
+	{
+		entry.data.tags?.includes('mimo-seznam-cetby') && (
+			<p class="doplneno-badge">
+				Toto dílo není na aktuálním školním seznamu četby k maturitě — rozbor je tu jen jako doplněk.
+			</p>
+		)
+	}
 	<article class="topic" data-pagefind-body>
 		<Content />
 	</article>
