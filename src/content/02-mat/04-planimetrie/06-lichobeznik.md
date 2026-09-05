@@ -19,7 +19,7 @@ $$S = m \cdot v, \quad \text{kde } m \text{ je střední příčka (úsečka spo
 
 ```geometry
 {
-  "points": { "A": [0, 0], "D": [7, 0], "B": [1.5, 3], "C": [5.5, 3], "H": [1.5, 0], "M1": [0.75, 1.5], "M2": [6.25, 1.5] },
+  "points": { "A": [0, 0], "D": [7, 0], "B": [0.5, 2.5], "C": [4.5, 2.5], "H": [0.5, 0], "M1": [0.25, 1.25], "M2": [5.75, 1.25] },
   "hiddenPoints": ["H", "M1", "M2"],
   "segments": [
     { "from": "A", "to": "D", "label": "a" },
@@ -30,7 +30,7 @@ $$S = m \cdot v, \quad \text{kde } m \text{ je střední příčka (úsečka spo
     { "from": "M1", "to": "M2", "dashed": true, "label": "m" }
   ],
   "angles": [{ "at": "H", "from": "B", "to": "D", "rightAngle": true }],
-  "title": "Lichoběžník ABCD — výška v a střední příčka m"
+  "title": "Lichoběžník ABCD — výška v a střední příčka m (obecný, ramena různě dlouhá i skloněná)"
 }
 ```
 
@@ -39,13 +39,58 @@ $$S = m \cdot v, \quad \text{kde } m \text{ je střední příčka (úsečka spo
 Strany $a$ a $c$ rovnoběžné, ramena $b$ a $d$ stejně dlouhá. Platí $\alpha=\beta$ a $\gamma=\delta$ (úhly u delší základny stejné, úhly u kratší základny stejné). Pro vodorovný přesah kratší základny nad kolmicí z jejího konce platí:
 
 $$x' = x'' = \frac{a-c}{2}$$
-
+```geometry
+{
+  "points": {
+    "A": [0, 0],
+    "B": [7, 0],
+    "C": [5.5, 3],
+    "D": [1.5, 3],
+    "H": [1.5, 0],
+    "M1": [0.75, 1.5],
+    "M2": [6.25, 1.5]
+  },
+  "hiddenPoints": ["H", "M1", "M2"],
+  "segments": [
+    { "from": "A", "to": "B", "label": "a" },
+    { "from": "B", "to": "C", "label": "b" },
+    { "from": "C", "to": "D", "label": "c" },
+    { "from": "D", "to": "A", "label": "d" },
+    { "from": "D", "to": "H", "dashed": true, "label": "v" },
+    { "from": "M1", "to": "M2", "dashed": true, "label": "m" }
+  ],
+  "angles": [
+    { "at": "H", "from": "B", "to": "D", "rightAngle": true }
+  ],
+  "title": "Lichoběžník ABCD — výška v a střední příčka m"
+}
+```
 ## 3. Pravoúhlý lichoběžník
 
 Strany $a$ a $c$ rovnoběžné, ramena $b$ a $d$ různě dlouhá, ale dva vnitřní úhly jsou pravé ($\alpha=\delta=90°$ nebo $\beta=\gamma=90°$). Platí:
 
 $$x = a-c$$
-
+```geometry
+{
+  "points": {
+    "A": [0, 0],
+    "B": [5, 0],
+    "C": [3, 2.5],
+    "D": [0, 2.5]
+  },
+  "segments": [
+    { "from": "A", "to": "B", "label": "a" },
+    { "from": "B", "to": "C", "label": "b" },
+    { "from": "C", "to": "D", "label": "c" },
+    { "from": "D", "to": "A", "label": "d = v" }
+  ],
+  "angles": [
+    { "at": "A", "from": "B", "to": "D", "rightAngle": true },
+    { "at": "D", "from": "A", "to": "C", "rightAngle": true }
+  ],
+  "title": "Pravoúhlý lichoběžník"
+}
+```
 ## Úkoly
 
 **1.** Vypočtěte delší základnu lichoběžníku ABCD, je-li dána kratší základna $c=12\text{ cm}$, výška $v=8\text{ cm}$ a obsah $S=320\text{ cm}^2$.
