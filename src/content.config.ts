@@ -1,6 +1,8 @@
 import { defineCollection } from 'astro:content';
 import { glob } from 'astro/loaders';
 import { z } from 'astro/zod';
+import path from 'node:path';
+import { listOrderedDirs } from './lib/content-fs';
 
 const topicSchema = z.object({
 	title: z.string(),
@@ -12,26 +14,17 @@ const topicSchema = z.object({
 	hasExercises: z.boolean().optional(),
 });
 
-const SUBJECT_KEYS = [
-	'cj',
-	'mat',
-	'aj',
-	'it',
-	'dejepis',
-	'zemepis',
-	'fyzika',
-	'spolecenske-vedy',
-	'pravo',
-	'psychologie',
-	'ekonomika',
-	'nemcina',
-] as const;
+// Subjects are discovered from `src/content/*` directories rather than a
+// hardcoded key list — a folder's leading "NN-" prefix sets its order
+// (stripped to form the collection key/URL slug), see `lib/content-fs.ts`.
+const CONTENT_ROOT = path.resolve('./src/content');
+const subjectDirs = listOrderedDirs(CONTENT_ROOT);
 
 export const collections = Object.fromEntries(
-	SUBJECT_KEYS.map((key) => [
-		key,
+	subjectDirs.map(({ dirName, slug }) => [
+		slug,
 		defineCollection({
-			loader: glob({ pattern: '**/*.md', base: `./src/content/${key}` }),
+			loader: glob({ pattern: '**/*.md', base: `./src/content/${dirName}` }),
 			schema: topicSchema,
 		}),
 	])

@@ -1,18 +1,21 @@
-export const SUBJECTS = {
-	cj: { label: 'Český jazyk', description: 'Literatura, mluvnice a teorie k maturitě' },
-	mat: { label: 'Matematika', description: 'Řešené postupy maturitních okruhů' },
-	aj: { label: 'Angličtina', description: 'Reálie a tematické okruhy' },
-	it: { label: 'IT', description: 'Hardware, software, sítě a programování' },
-	dejepis: { label: 'Dějepis', description: 'Maturitní okruhy z dějepisu' },
-	zemepis: { label: 'Zeměpis', description: 'Maturitní okruhy ze zeměpisu' },
-	fyzika: { label: 'Fyzika', description: 'Maturitní okruhy z fyziky' },
-	'spolecenske-vedy': { label: 'Společenské vědy', description: 'Filosofie, právo, ekonomie a politologie' },
-	pravo: { label: 'Právo', description: 'Maturitní okruhy z práva' },
-	psychologie: { label: 'Psychologie', description: 'Maturitní okruhy z psychologie' },
-	ekonomika: { label: 'Ekonomika', description: 'Ekonomika, účetnictví a podnikání' },
-	nemcina: { label: 'Němčina', description: 'Reálie a tematické okruhy' },
-} as const;
+import path from 'node:path';
+import type { CollectionKey } from 'astro:content';
+import { listOrderedDirs, readDirMeta } from './content-fs';
 
-export type SubjectKey = keyof typeof SUBJECTS;
+// Subjects (and their order + label/description) are discovered from
+// `src/content/*` directories and their `_meta.json` — see `content-fs.ts`.
+// To reorder subjects or edit their label/description, rename the folder or
+// edit its `_meta.json`; nothing here needs to change.
+const CONTENT_ROOT = path.resolve('./src/content');
+const subjectDirs = listOrderedDirs(CONTENT_ROOT);
 
-export const SUBJECT_KEYS = Object.keys(SUBJECTS) as SubjectKey[];
+export const SUBJECTS: Record<string, { label: string; description: string }> = Object.fromEntries(
+	subjectDirs.map(({ dirName, slug }) => {
+		const meta = readDirMeta(path.join(CONTENT_ROOT, dirName));
+		return [slug, { label: meta.label ?? slug, description: meta.description ?? '' }];
+	})
+);
+
+export type SubjectKey = CollectionKey;
+
+export const SUBJECT_KEYS = subjectDirs.map((d) => d.slug) as SubjectKey[];

@@ -3,7 +3,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import MathScratchpad from '../../components/MathScratchpad.astro';
 import TopicFilmstrip from '../../components/TopicFilmstrip.astro';
 import { SUBJECTS, SUBJECT_KEYS, type SubjectKey } from '../../lib/subjects';
-import { groupLabel, groupOfId, sortEntriesByOrder, sortGroupKeys } from '../../lib/groups';
+import { cleanId, groupLabel, groupOfId, sortEntriesByOrder, sortGroupKeys } from '../../lib/groups';
 import { getCollection, render } from 'astro:content';
 
 type Entry = Awaited<ReturnType<typeof getCollection<SubjectKey>>>[number];
@@ -48,7 +48,7 @@ export async function getStaticPaths() {
 			}
 		}
 		const filmstrip: FilmstripItem[] = flat.map(({ entry, group }) => ({
-			id: entry.id,
+			id: cleanId(entry.id),
 			title: entry.data.title,
 			order: entry.data.order ?? null,
 			group,
@@ -60,7 +60,7 @@ export async function getStaticPaths() {
 			const sorted = sortEntriesByOrder(group);
 			sorted.forEach((entry, i) => {
 				paths.push({
-					params: { subject, slug: entry.id },
+					params: { subject, slug: cleanId(entry.id) },
 					props: {
 						entry,
 						subject,
@@ -112,7 +112,7 @@ const { Content } = await render(entry);
 		(prev || next) && (
 			<nav class="topic-pager">
 				{prev ? (
-					<a class="topic-pager-prev" href={`/${subject}/${prev.id}/`}>
+					<a class="topic-pager-prev" href={`/${subject}/${cleanId(prev.id)}/`}>
 						← {prev.data.title}
 					</a>
 				) : (
@@ -120,7 +120,7 @@ const { Content } = await render(entry);
 				)}
 				<TopicFilmstrip subject={subject} items={filmstrip} currentIndex={filmstripIndex} />
 				{next && (
-					<a class="topic-pager-next" href={`/${subject}/${next.id}/`}>
+					<a class="topic-pager-next" href={`/${subject}/${cleanId(next.id)}/`}>
 						{next.data.title} →
 					</a>
 				)}

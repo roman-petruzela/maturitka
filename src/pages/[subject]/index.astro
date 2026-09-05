@@ -2,7 +2,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Icon from '../../components/Icon.astro';
 import { SUBJECTS, SUBJECT_KEYS, type SubjectKey } from '../../lib/subjects';
-import { groupLabel, groupOfId, sortEntriesByOrder, sortGroupKeys } from '../../lib/groups';
+import { cleanId, groupLabel, groupOfId, sortEntriesByOrder, sortGroupKeys } from '../../lib/groups';
 import { getCollection } from 'astro:content';
 
 export async function getStaticPaths() {
@@ -51,7 +51,7 @@ const namedGroupKeys = orderedGroupKeys.filter((g): g is string => g !== null);
 				<ul class="topic-list">
 					{sortEntries(groups.get(g)!).map((entry) => (
 						<li>
-							<a href={`/${subject}/${entry.id}/`}>
+							<a href={`/${subject}/${cleanId(entry.id)}/`}>
 								{entry.data.order != null && <span class="num">{entry.data.order}.</span>}
 								<span>{entry.data.title}</span>
 								<span class="badge-group">

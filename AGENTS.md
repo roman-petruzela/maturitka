@@ -8,6 +8,23 @@ astro dev --background
 
 Manage the background server with `astro dev stop`, `astro dev status`, and `astro dev logs`.
 
+## Content ordering & labels
+
+Subject and topic-group order/labels are NOT hardcoded in TypeScript (there's no
+per-subject config table to edit). Instead, `src/content/*` directories (both subject
+folders and the category folders inside them) follow a filesystem convention read by
+`src/lib/content-fs.ts`:
+
+- A leading `NN-` numeric prefix on a folder name sets its sort order and is stripped to
+  form the public URL slug (e.g. `03-funkce-a-rovnice` → `/mat/funkce-a-rovnice/`).
+- An optional `_meta.json` in that folder (`{ "label": "...", "description": "..." }`)
+  supplies the display label/description when the auto-capitalized slug isn't good enough
+  (missing diacritics, needs a "(2. ročník)" suffix, etc). Without it, the label falls back
+  to an auto-capitalized version of the slug.
+- To reorder or relabel subjects/categories: rename the folder and/or edit `_meta.json` —
+  no code changes needed. Individual topic files keep their own existing convention
+  (`NN-slug.md` filename + `order:` in frontmatter, both already in sync across the archive).
+
 ## Documentation
 
 Full documentation: https://docs.astro.build
