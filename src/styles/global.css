@@ -38,6 +38,29 @@ body {
 	line-height: 1.65;
 }
 
+/* Hidden off-screen until keyboard focus lands on it — lets someone
+   tabbing through the page (or using a screen reader) jump straight past
+   the sticky/auto-hiding header and the full subject strip instead of
+   having to tab through every link in it first. */
+.skip-link {
+	position: absolute;
+	top: -3rem;
+	left: 1rem;
+	z-index: 100;
+	background: var(--accent);
+	color: var(--bg);
+	padding: 0.6rem 1rem;
+	border-radius: 6px;
+	font-family: ui-sans-serif, system-ui, sans-serif;
+	font-weight: 600;
+	text-decoration: none;
+	transition: top 0.15s ease;
+}
+
+.skip-link:focus {
+	top: 1rem;
+}
+
 header.site-header {
 	position: sticky;
 	top: 0;
@@ -860,4 +883,31 @@ article.topic td {
 	font-family: ui-sans-serif, system-ui, sans-serif;
 	font-size: 0.8rem;
 	color: var(--muted);
+}
+
+/* Print: study material is meant to be printed and read on paper, so drop
+   everything that only makes sense on screen (sticky/hidden nav chrome,
+   the footer, the click-to-reveal spoiler overlay) and force spoiler
+   content to actually show up instead of staying blacked out. */
+@media print {
+	.skip-link,
+	header.site-header,
+	.site-footer {
+		display: none;
+	}
+
+	main {
+		max-width: none;
+		padding: 0;
+	}
+
+	.spoiler-block-overlay {
+		display: none;
+	}
+
+	.spoiler,
+	.spoiler-block {
+		color: inherit;
+		background: none;
+	}
 }

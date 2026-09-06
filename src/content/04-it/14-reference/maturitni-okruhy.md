@@ -54,9 +54,8 @@ U každého bodu je odkaz na materiál, který ho na webu nejlépe pokrývá. �
 
 ## 7) Počítačová grafika
 
-- využití počítačové grafiky, základní pojmy, rozdělení a principy — zatím bez podkladů
-- [barevné modely, barevná hloubka, formáty souborů, rastr × vektor](/it/grafika-na-pc/02-graficke-formaty-rozliseni-barevne-modely-rastr-x-vektor/)
-- software pro počítačovou grafiku — [GIMP, Zoner, SketchUp](/it/grafika-na-pc/01-gimp-zoner-sketchup/)
+- využití počítačové grafiky, základní pojmy, rozdělení a principy, barevné modely, formáty souborů, rastr × vektor — [počítačová grafika, pojmy a software](/it/grafika-na-pc/01-pocitacova-grafika-a-software/)
+- software pro počítačovou grafiku — [GIMP](/it/grafika-na-pc/03-rastrova-grafika-gimp/), [Zoner Callisto](/it/grafika-na-pc/02-vektorova-grafika/)
 - příklad na výpočet datové velikosti obrázku — zatím bez podkladů
 
 ## 8) Počítačová sestava

@@ -8,12 +8,12 @@ Osnova podle školního vzdělávacího programu (4.4.1 Matematika), a jak ji po
 
 ## 1. ročník — kategorie [„Výrazy a mocniny"](/mat/#vyrazy-a-mocniny)
 
-- Mocniny a odmocniny — [Částečné odmocňování](/mat/vyrazy-a-mocniny/02-castecne-odmocni/), [Procvičení — odmocniny a mocniny s racionálním mocnitelem](/mat/vyrazy-a-mocniny/09-procviceni/)
-- Číselné a algebraické výrazy — [Zápis číselných výrazů](/mat/vyrazy-a-mocniny/13-zapis-ciselnych-vyrazu/), [Definiční obor výrazů](/mat/vyrazy-a-mocniny/03-definicni-obor-vyrazu/)
-- Mnohočleny — [Dělení mnohočleny](/mat/vyrazy-a-mocniny/01-05-deleni-mnohoclenu/) (a [příklady](/mat/vyrazy-a-mocniny/04-deleni-mnohoclenu-priklady/))
-- Lomené výrazy — [shrnutí](/mat/vyrazy-a-mocniny/05-lomene-vyrazy-shrnuti/), [násobení a dělení](/mat/vyrazy-a-mocniny/06-nasobeni-a-deleni-lomenych-vyrazu/)
-- Rozklad na součin — [výklad](/mat/vyrazy-a-mocniny/10-rozklad-na-soucin/)
-- Usměrňování zlomků — [1](/mat/vyrazy-a-mocniny/11-usmernovani-zlomku/), [2](/mat/vyrazy-a-mocniny/12-usmernovani-zlomku-2/)
+- Mocniny a odmocniny — [Částečné odmocňování](/mat/vyrazy-a-mocniny/12-castecne-odmocni/), [Procvičení — odmocniny a mocniny s racionálním mocnitelem](/mat/vyrazy-a-mocniny/19-procviceni/)
+- Číselné a algebraické výrazy — [Zápis číselných výrazů](/mat/vyrazy-a-mocniny/23-zapis-ciselnych-vyrazu/), [Definiční obor výrazů](/mat/vyrazy-a-mocniny/13-definicni-obor-vyrazu/)
+- Mnohočleny — [Dělení mnohočleny](/mat/vyrazy-a-mocniny/11-05-deleni-mnohoclenu/) (a [příklady](/mat/vyrazy-a-mocniny/14-deleni-mnohoclenu-priklady/))
+- Lomené výrazy — [shrnutí](/mat/vyrazy-a-mocniny/15-lomene-vyrazy-shrnuti/), [násobení a dělení](/mat/vyrazy-a-mocniny/16-nasobeni-a-deleni-lomenych-vyrazu/)
+- Rozklad na součin — [výklad](/mat/vyrazy-a-mocniny/20-rozklad-na-soucin/)
+- Usměrňování zlomků — [1](/mat/vyrazy-a-mocniny/21-usmernovani-zlomku/), [2](/mat/vyrazy-a-mocniny/22-usmernovani-zlomku-2/)
 - Číselné obory (R, N, Z, Q, I; absolutní hodnota; intervaly; trojčlenka, procenta, poměr) — **zatím bez podkladů**
 - Funkce, lineární funkce; lineární rovnice a nerovnice — **zatím bez podkladů** (řešené příklady jsou aspoň v kategorii [Řešené úlohy z DT](/mat/#resene-ulohy-dt): [lineární rovnice](/mat/resene-ulohy-dt/07-linearni-rovnice/), [lineární nerovnice](/mat/resene-ulohy-dt/09-linearni-nerovnice/), [lineární funkce](/mat/resene-ulohy-dt/19-linearni-funkce/))
 

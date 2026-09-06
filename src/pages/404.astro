@@ -1,0 +1,20 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { SUBJECTS, SUBJECT_KEYS } from '../lib/subjects';
+---
+
+<BaseLayout title="Stránka nenalezena" description="Tato stránka neexistuje nebo byla přesunuta.">
+	<p class="eyebrow">Chyba 404</p>
+	<h1>Stránka nenalezena</h1>
+	<p>Odkaz, na který jsi klikl, buď neexistuje, nebo byl přesunut jinam.</p>
+	<div class="subject-grid">
+		{
+			SUBJECT_KEYS.map((key) => (
+				<a class="subject-card" href={`/${key}/`}>
+					<h2>{SUBJECTS[key].label}</h2>
+					<p>{SUBJECTS[key].description}</p>
+				</a>
+			))
+		}
+	</div>
+</BaseLayout>

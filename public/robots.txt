@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://maturitka.petruze.la/sitemap-index.xml

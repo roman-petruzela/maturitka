@@ -87,7 +87,12 @@ const { entry, subject, prev, next, filmstrip, filmstripIndex } = Astro.props as
 const { Content } = await render(entry);
 ---
 
-<BaseLayout title={entry.data.title} activeSubject={subject} wide>
+<BaseLayout
+	title={entry.data.title}
+	description={`${entry.data.title} — ${SUBJECTS[subject].label}, učební materiál k maturitě.`}
+	activeSubject={subject}
+	wide
+>
 	<p class="eyebrow">
 		<a class="back-link" href={`/${subject}/`}>← {SUBJECTS[subject].label}</a>
 	</p>

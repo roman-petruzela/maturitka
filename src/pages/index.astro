@@ -10,7 +10,10 @@ for (const key of SUBJECT_KEYS) {
 const total = Object.values(counts).reduce((sum, n) => sum + n, 0);
 ---
 
-<BaseLayout title="Přehled předmětů">
+<BaseLayout
+	title="Přehled předmětů"
+	description={`Přehledně poskládaný učební materiál z archivu maturitních podkladů — ${total} témat napříč ${SUBJECT_KEYS.length} předměty.`}
+>
 	<p class="eyebrow">Učební materiál k maturitě</p>
 	<h1>MATURITKA</h1>
 	<p>

@@ -1,35 +1,44 @@
 # MATURITKA
 
 Přehledný učební web postavený z archivu maturitních podkladů (`../MATURITA HADR`,
-`../maturitni prehled`). V1 pokrývá čtyři předměty: Český jazyk, Matematiku, Angličtinu a IT.
-Astro + Markdown content collections, žádný backend, statický build. Vyhledávání přes Pagefind.
+`../maturitni prehled`). Pokrývá 12 předmětů (Český jazyk, Matematika, IT, Angličtina,
+Dějepis, Zeměpis, Fyzika, Společenské vědy, Právo, Psychologie, Ekonomika, Němčina) —
+viz `src/content/*`, kde každá `NN-slug` složka je jeden předmět a nic dalšího není
+potřeba měnit v kódu, aby se objevil v navigaci (viz `src/lib/content-fs.ts`).
+Astro + Markdown content collections, žádný backend, statický build. Obsah je pod
+licencí CC BY-NC-SA 4.0 (viz `/licence/` a `LICENSE`).
 
 ## Vývoj
 
 ```sh
 npm install
-npm run dev       # http://localhost:4321
-npm run build     # ./dist/ + vygenerovaný Pagefind index
-npm run preview   # servíruje ./dist/
+npm run dev          # http://localhost:4321
+npm run build        # ./dist/ + sitemap-index.xml
+npm run preview      # servíruje ./dist/
 npm run astro check
+npm run check:links  # po buildu — najde interní odkazy mířící na neexistující stránku
 ```
 
 ## Struktura
 
 ```
 src/
-  content.config.ts     # definice kolekcí cj/mat/aj/it (Zod schema: title, order, tags, source)
-  content/{cj,mat,aj,it}/**/*.md   # obsah — podsložka = skupina v navigaci daného předmětu
-  layouts/BaseLayout.astro
+  content.config.ts     # kolekce se generují automaticky z src/content/* (Zod schema:
+                         # title, order, tags, source, hasExercises)
+  content/<predmet>/**/*.md   # obsah — podsložka = skupina v navigaci daného předmětu
+  layouts/BaseLayout.astro    # hlavička, patička, OG/meta tagy, skip-link
   pages/
     index.astro                # přehled předmětů
     [subject]/index.astro      # seznam témat (seskupeno podle podsložky)
     [subject]/[...slug].astro  # detail tématu
+    licence.astro               # licenční stránka (odkaz z patičky)
+    404.astro                   # vlastní stránka pro neexistující URL
 scripts/
   build-manifests.mjs    # skenuje ../MATURITA HADR a generuje scripts/manifest/*.json
   convert-docx.mjs       # mammoth: docx/doc/odt → markdown (docx přímo, doc/odt přes LibreOffice)
   convert-pdf.py         # pymupdf4llm (venv v scripts/.venv): pdf → markdown, volitelně --ocr
   manifest/*.json        # mapování zdroj → cíl (title, order, tags, src, dest) — upravuj ručně
+  check-links.mjs        # po buildu ověří, že žádný interní <a href> nevede do prázdna
 ```
 
 ## Jak přidat další předmět nebo doplnit obsah
