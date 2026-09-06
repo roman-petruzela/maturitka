@@ -40,31 +40,31 @@ Literární / obecně kulturní kontext
 
 Život:	\- narodil se v Borové v rodině zámožného kupce
 
-\- i když se v rodině mluvilo německy a Havlíček studoval na německých školách, němčinu za svůj rodný jazyk     nepovažoval, tatínek z něj chtěl mít advokáta a maminka kněze
+- i když se v rodině mluvilo německy a Havlíček studoval na německých školách, němčinu za svůj rodný jazyk     nepovažoval, tatínek z něj chtěl mít advokáta a maminka kněze
 
-\- vstoupil do kněžského semináře \( byl přesvědčen, že právě kněz může nejvíce působit na lidi, rozšiřovat český národní a vlastenecký život\) – měl přesné předpoklady
+- vstoupil do kněžského semináře \( byl přesvědčen, že právě kněz může nejvíce působit na lidi, rozšiřovat český národní a vlastenecký život\) – měl přesné předpoklady
 
-\-  pro své názory byl ze semináře vyloučen
+-  pro své názory byl ze semináře vyloučen
 
-\- právě v této době začal psát epigramy \( s krutým vtipem a útočnými myšlenkami\) na církevní dogmata a     církevní morálku
+- právě v této době začal psát epigramy \( s krutým vtipem a útočnými myšlenkami\) na církevní dogmata a     církevní morálku
 
-\- po vyloučení odjel do Moskvy jako vychovatel, kde ho město uchvátilo, ale venkovem byl znechucen
+- po vyloučení odjel do Moskvy jako vychovatel, kde ho město uchvátilo, ale venkovem byl znechucen
 
-\- reportáže o Rusku \(Obrazy z Rus\)
+- reportáže o Rusku \(Obrazy z Rus\)
 
-\- po návratu působí v redakci Pražských novin a jejich literární přílohy Česká včela – zde kritizoval Tylova Posledního Čecha
+- po návratu působí v redakci Pražských novin a jejich literární přílohy Česká včela – zde kritizoval Tylova Posledního Čecha
 
-\- má také vlastní politický deník Národní noviny \+ satirická a humoristický příloha Šotek\- byly zastaveny \-
+- má také vlastní politický deník Národní noviny \+ satirická a humoristický příloha Šotek\- byly zastaveny \-
 
-\- odstěhoval se do Kutné hory – časopis Slova – opět kritika politicky zaměřená
+- odstěhoval se do Kutné hory – časopis Slova – opět kritika politicky zaměřená
 
-\- poslán do vyhnanství do Brixenu \(Tyrolsko\), je tam 4 roky, psychicky strádal
+- poslán do vyhnanství do Brixenu \(Tyrolsko\), je tam 4 roky, psychicky strádal
 
-\- rodina ho navštěvovala, ženě se díky čerstvému vzduchu prodloužil život, trpěla tuberkolozou
+- rodina ho navštěvovala, ženě se díky čerstvému vzduchu prodloužil život, trpěla tuberkolozou
 
-\- po návratu domů brzy umírá na téže nemoc jako jeho žena \- plicní choroba
+- po návratu domů brzy umírá na téže nemoc jako jeho žena \- plicní choroba
 
-\- jeho pohřeb se stal národní manifestací \(Božena Němcová mu pokládá na hrob trnovou korunu\)
+- jeho pohřeb se stal národní manifestací \(Božena Němcová mu pokládá na hrob trnovou korunu\)
 
 Dílo:   __Tyrolské elegie__ – příběh o deportaci policií do Brixenu
 
@@ -76,27 +76,27 @@ __Satira__ – využívá humoru ke kritice__, Ironie__ – vtipné a výsměšn
 
 __REALISMUS__
 
-\- rozvíjel se společně s romantismem, 2\. pol\. 19\. stol\., je to období národního obrození
+- rozvíjel se společně s romantismem, 2\. pol\. 19\. stol\., je to období národního obrození
 
-\- u nás vedle významných realistů období básnických skupin \(Májovci, Lumírovci, Ruchovci\)
+- u nás vedle významných realistů období básnických skupin \(Májovci, Lumírovci, Ruchovci\)
 
-\- neexistuje výjimečný svět ani jedinec, autoři nepsali vůbec o minulosti
+- neexistuje výjimečný svět ani jedinec, autoři nepsali vůbec o minulosti
 
-\- kritika současných chyb, ale snaží se o nápravu ve společnosti
+- kritika současných chyb, ale snaží se o nápravu ve společnosti
 
-\- pravdivost, věrnost, co nejlepší přiblížení skutečnosti
+- pravdivost, věrnost, co nejlepší přiblížení skutečnosti
 
-\- autor nevstupuje ani nezasahuje do děje, nechává vyvíjet události přirozeně
+- autor nevstupuje ani nezasahuje do děje, nechává vyvíjet události přirozeně
 
-\- __kritický realismus__ vystupňovaný realismus \(u nás venkovský \(K\.V\. Rais, Antal Stašek\) x historický \(A\. Jirásek\)
+- __kritický realismus__ vystupňovaný realismus \(u nás venkovský \(K\.V\. Rais, Antal Stašek\) x historický \(A\. Jirásek\)
 
 __NATURALISMUS__
 
-\- z latinského natura = příroda
+- z latinského natura = příroda
 
-\- omezení člověka na jeho biologickou podstatu\. Všímá si dědičnosti a vlivu prostředí\.
+- omezení člověka na jeho biologickou podstatu\. Všímá si dědičnosti a vlivu prostředí\.
 
-\- zakladatelem Emile Zola, vznik ve Francii
+- zakladatelem Emile Zola, vznik ve Francii
 
 Další autoři:
 

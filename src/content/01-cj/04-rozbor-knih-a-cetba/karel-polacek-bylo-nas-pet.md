@@ -9,31 +9,31 @@ Karel Poláček \(1892–1945\)
 
 \* Rychnov nad Kněžnou
 
-\- český spisovatel, novinář, scénárista, prozaik publicista
+- český spisovatel, novinář, scénárista, prozaik publicista
 
-\- roku 1995 mu byl in memoriam udělen Řád T\. G\. Masaryka II\. třídy
+- roku 1995 mu byl in memoriam udělen Řád T\. G\. Masaryka II\. třídy
 
-\- patřil k nejvýznamnějším humoristům v ČSR
+- patřil k nejvýznamnějším humoristům v ČSR
 
-\- jeho otec byl židovský obchodník s koloniálním zbožím
+- jeho otec byl židovský obchodník s koloniálním zbožím
 
-\- studoval vyšší gymnázium v Rychnově nad Kněžnou, odkud ho za špatné známky a chování vyhodili
+- studoval vyšší gymnázium v Rychnově nad Kněžnou, odkud ho za špatné známky a chování vyhodili
 
-\- nakonec 1912 udělal maturitu a šel studovat na Karlovu univerzitu
+- nakonec 1912 udělal maturitu a šel studovat na Karlovu univerzitu
 
-\- jeho první povídka __Kolotoč__ byla napsaná po tom, co zužitkoval praxi jako úředník ve vývozní a dovozní komisi
+- jeho první povídka __Kolotoč__ byla napsaná po tom, co zužitkoval praxi jako úředník ve vývozní a dovozní komisi
 
-\- před první světovou válkou narukoval a studoval vojenskou školu, ovšem dál než na četaře se nedostal\. Byl poslán do Ruska, kde rakouská armáda utrpěla porážku a on padl do zajetí, ze kterého ho pustili po válce\.
+- před první světovou válkou narukoval a studoval vojenskou školu, ovšem dál než na četaře se nedostal\. Byl poslán do Ruska, kde rakouská armáda utrpěla porážku a on padl do zajetí, ze kterého ho pustili po válce\.
 
-\- v roce 1920 začal psát do humoristických časopisů __Štika__ venkova a __Nebojsa__, v nich se seznámil s bratry Čapkovými
+- v roce 1920 začal psát do humoristických časopisů __Štika__ venkova a __Nebojsa__, v nich se seznámil s bratry Čapkovými
 
 - fejetonista v Lidových novinách
 - s Karlem Čapkem psali sloupky
 - má dcerku, kterou posílá do Británie
 
-\- během okupace publikoval pod jménem Vlastimila Rady \(malíře\)
+- během okupace publikoval pod jménem Vlastimila Rady \(malíře\)
 
-\- 5\. 6\. 1943 byl deportován do Terezína, přihlásil se dobrovolně kvůli své družce \-> Tam píše BYLO NÁS 5 a v roce 1944 umírá v plynových komorách
+- 5\. 6\. 1943 byl deportován do Terezína, přihlásil se dobrovolně kvůli své družce \-> Tam píše BYLO NÁS 5 a v roce 1944 umírá v plynových komorách
 
 - zachycuje životy na malém městě\. to bylo dřív nejčtěnější
 - Péťa Bajza je jakési jeho alterego
@@ -43,13 +43,13 @@ Karel Poláček \(1892–1945\)
 
 __• Zařazení autora do uměleckého směru__
 
-\- představitel humanistické demokratické literatury = demokratický proud \- meziválečná česká próza
+- představitel humanistické demokratické literatury = demokratický proud \- meziválečná česká próza
 
 __• Určení století, v němž autor tvořil__ 1\. polovina 20\. století
 
 __• Určení dalších autorů stejného um\. směru__ Eduard Bass \(1888–1946\)
 
-\- spisovatel, novinář, redaktor, herec, autor textů pro kabaret Klapzubova jedenáctka – moderní pohádka pro mládež Cirkus Humberto – jediný autorův román, hodnocen nejvýš
+- spisovatel, novinář, redaktor, herec, autor textů pro kabaret Klapzubova jedenáctka – moderní pohádka pro mládež Cirkus Humberto – jediný autorův román, hodnocen nejvýš
 
 __Díla__: Muži v offsidu, Dům nad předměstí
 

@@ -35,13 +35,13 @@ např\. Hra o trůny = části, ze kterých se skládá úryvek \- uvést, z jak
 
 ● literární druh a žánr
 
-\- rozhodneme, o jaký druh a žánr se jedná, a své tvrzení zdůvodníme literární druhy:
+- rozhodneme, o jaký druh a žánr se jedná, a své tvrzení zdůvodníme literární druhy:
 
 lyrika – dílo, které nemá děj; popisuje dojmy, pocity, nálady autora epika – dílo, které má děj; popisuje skutečnost drama – dílo, které má děj; předvádí skutečnost a je určeno pro divadlo literární žánr: \- určuje se v rámci literárního druhu lyrické – óda, elegie, epigram,\.\.\. lyricko\-epické – balada, romance, poéma,\.\.\. epické – román, povídka, novela, bajka, pohádka, báje, pověst,\.\.\. dramatické – komedie, tragédie, činohra
 
 ● vypravěč / lyrický subjekt
 
-\- v próze hovoříme o vypravěči, v poezii o lyrickém subjektu vypravěč = mluvčí, který předkládá příběh čtenářovi \- podle gramatické osoby se rozlišuje:
+- v próze hovoříme o vypravěči, v poezii o lyrickém subjektu vypravěč = mluvčí, který předkládá příběh čtenářovi \- podle gramatické osoby se rozlišuje:
 
 er\-forma – vypravěč hovoří ve 3\. osobě jednotného i množného čísla, obvykle v minulém čase
 
@@ -55,7 +55,7 @@ např\. V\. Dyk \- Krysař personální vypravěč – vystupuje v ich\-formě, 
 
 ● postava
 
-\- jmenujte osoby, které vystupují v úryvku, ale i v celé knize, a charakterizujte je dělení: hlavní/vedlejší/epizodická/fiktivní \(v ději nevystupuje přímo, např\. Godot\) kladná/neutrální/záporná
+- jmenujte osoby, které vystupují v úryvku, ale i v celé knize, a charakterizujte je dělení: hlavní/vedlejší/epizodická/fiktivní \(v ději nevystupuje přímo, např\. Godot\) kladná/neutrální/záporná
 
 ● vyprávěcí způsoby
 
@@ -69,9 +69,9 @@ souvislá a nepřerušovaná promluva jedné z postav dialog – promluva dvou a
 
 ● veršová výstavba
 
-\- týká se pouze poezie \- určit, kolik slok a veršů obsahuje úryvek
+- týká se pouze poezie \- určit, kolik slok a veršů obsahuje úryvek
 
-\- určit druh rýmu:
+- určit druh rýmu:
 
 střídavý: a, b, a, b
 
@@ -91,7 +91,7 @@ volný rým: nemá pravidelné schéma
 
 ● jazykové prostředky a jejich funkce ve výňatku
 
-\- týká se pouze prózy a dramatu \- jednotlivá slova vyhledat, pojmenovat a citovat \- rozlišit: slova spisovná – neutrální \(pes\) hovorová \(spacák\) knižní \(oř\)
+- týká se pouze prózy a dramatu \- jednotlivá slova vyhledat, pojmenovat a citovat \- rozlišit: slova spisovná – neutrální \(pes\) hovorová \(spacák\) knižní \(oř\)
 
 básnická = poetismy \(luna\) archaismy – slova zastaralá \(hvozd\) historismy – slova označující zaniklé skutečnosti \(palcát\) neologismy – slova nově utvořená \(Smuténka\) přechodníky – archaické tvary sloves \(vstávajíc\) citoslovce \(kšá, hú, hrrr\) termíny – odborné názvy \(pálená cihla\) slova nespisovná – obecná čeština \(von, pěknej\)
 
@@ -99,7 +99,7 @@ citově zabarvená slova \(zlatíčko, kretén\) nářeční – slova vázaná 
 
 ● tropy a figury a jejich funkce ve výňatku
 
-\- nalézt, pojmenovat a citovat tropy: metafora – nepřímé pojmenování na základě vnější podobnosti \(hlad \- nejlepší kuchař\) metonymie – nepřímé pojmenování na základě vnitřní souvislosti \(půjčil si Kunderu\)
+- nalézt, pojmenovat a citovat tropy: metafora – nepřímé pojmenování na základě vnější podobnosti \(hlad \- nejlepší kuchař\) metonymie – nepřímé pojmenování na základě vnitřní souvislosti \(půjčil si Kunderu\)
 
 personifikace – zosobnění \(stromy šeptaly\) přirovnání – porovnání dvou jevů se společným rysem \(chová se jako vůl\) epiteton – básnický přívlastek \(nejčokoládovější čokoláda, krutopřísný vtip\) hyperbola – nadsázka \(sto let v šachtě žil\) eufemismus – zjemnění nepříjemné skutečnosti \(usnout navěky = zemřít\) dysfemismus – zhrubění skutečnosti \(pazoura = ruka\) oxymóron – nelogické spojení slov \(mrtvé milenky cit\) synekdocha – záměna části za celek \(přišel o střechu nad hlavou\) ironie – řečené je myšleno obráceně \(Tobě to ale sluší\!\) figury: \- určují se pouze v poezii
 
@@ -109,43 +109,43 @@ opakování slov na konci veršů = epifora opakování slova na konci jednoho a
 
 ● kontext autorovy tvorby
 
-\- zjistěte, v jaké části autorovy tvorby dílo vzniklo např\. prvotina, vrcholné dílo, dílo ze závěrečného období autorova života, dílo vydané po autorově smrti
+- zjistěte, v jaké části autorovy tvorby dílo vzniklo např\. prvotina, vrcholné dílo, dílo ze závěrečného období autorova života, dílo vydané po autorově smrti
 
 ● literární / obecně kulturní kontext
 
-\- zařadit autora do století, půlstoletí, uměleckého slohu, literárního proudu např\. 1\. pol\. 19\. stol\. = romantismus; období mezi dvěma světovými válkami – 1\. pol\. 20\. stol\. – demokratický proud \- říct základní rysy a další zástupce daného směru
+- zařadit autora do století, půlstoletí, uměleckého slohu, literárního proudu např\. 1\. pol\. 19\. stol\. = romantismus; období mezi dvěma světovými válkami – 1\. pol\. 20\. stol\. – demokratický proud \- říct základní rysy a další zástupce daného směru
 
 Charakteristika neuměleckého textu
 
 ● souvislost mezi výňatky
 
-\- nalézt a vyjádřit společné téma uměleckého a neuměleckého textu, své tvrzení zdůvodnit
+- nalézt a vyjádřit společné téma uměleckého a neuměleckého textu, své tvrzení zdůvodnit
 
 ● hlavní myšlenka textu
 
-\- říct vlastními slovy, o čem pojednává text; postihnout ústřední téma
+- říct vlastními slovy, o čem pojednává text; postihnout ústřední téma
 
 ● podstatné a nepodstatné informace
 
-\- najít v textu pasáže, které nesou základní informace \- najít v textu pasáže/slova, která by bylo možné vypustit
+- najít v textu pasáže, které nesou základní informace \- najít v textu pasáže/slova, která by bylo možné vypustit
 
 např\. slova uvedená v závorkách, menším písmem, vysvětlivky, nadbytečná synonyma
 
 ● různé způsoby čtení a interpretace textu
 
-\- zodpovědět otázku, zda je text jednoznačný, nebo připouští více výkladů
+- zodpovědět otázku, zda je text jednoznačný, nebo připouští více výkladů
 
 ● domněnky a fakta \- zodpovědět otázku, zda text obsahuje pouze ověřené informace, nebo i neověřená tvrzení
 
 ● komunikační situace \(účel, adresát\)
 
-\- zodpovědět otázku, za jakým účelem text vznikl a komu je určen
+- zodpovědět otázku, za jakým účelem text vznikl a komu je určen
 
 např\. inzerát – účelem je prodat danou věc, adresátem je někdo, kdo tuto věc shání \- své tvrzení podložit zdůvodněním, co mě k němu vede
 
 ● funkční styl
 
-\- zařadit text k jednomu z funkčních stylů, případně zdůvodnit, proč je možné text řadit k více funkčním stylům
+- zařadit text k jednomu z funkčních stylů, případně zdůvodnit, proč je možné text řadit k více funkčním stylům
 
 prostě sdělovací – vzkaz, SMS, komentář nebo status na FB, telefonát,\.\.\. slouží k jednoduchému, prostému sdělení, má volnější stavbu, obsahuje hovorové a nespisovné výrazy
 
@@ -159,13 +159,13 @@ umělecký – román, povídka, bajka, báseň \- má estetický účinek, slou
 
 ● slohový postup
 
-\- identifikovat, které slohové postupy se v textu vyskytují \- málokterý text obsahuje jediný slohový postup, obvykle se mísí dva až tři \- citovat, která pasáž náleží k jakému slohovému postupu
+- identifikovat, které slohové postupy se v textu vyskytují \- málokterý text obsahuje jediný slohový postup, obvykle se mísí dva až tři \- citovat, která pasáž náleží k jakému slohovému postupu
 
 informační – udává informace v nepromyšleném sledu, je nejjednodušší vyprávěcí – uvádí příběh v časovém sledu, má promyšlenou stavbu výkladový – uvádí vztahy mezi jevy a vysvětluje je popisný – uvádí vnější vzhled popisované osoby, věci, prostředí charakterizační – uvádí povahové vlastnosti osoby, skupiny osob nebo zvířete úvahový – uvádí myšlenkové pochody pisatele, obsahuje jeho názory a argumenty
 
 ● kompoziční výstavba výňatku
 
-\- rozlišit a pojmenovat jednotlivé části textu \(možno je i prstem ukázat\)
+- rozlišit a pojmenovat jednotlivé části textu \(možno je i prstem ukázat\)
 
 např\. počet odstavců, přítomnost nadpisu, titulku, mezititulku, přímé řeči, odrážek, vysvětlivek,\.\.\.
 

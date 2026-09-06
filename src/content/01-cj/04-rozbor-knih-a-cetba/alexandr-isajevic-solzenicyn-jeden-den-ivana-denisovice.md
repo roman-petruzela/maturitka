@@ -41,11 +41,11 @@ Po signálu, který zazní během práce, se muselo na oběd\. A po chlebu a ka�
 
 __Historické pozadí \- Evropa 1945\-1989__
 
-\- Evropa byla rozdělena do dvou mocenských bloků \- 2 pakty proti sobě : Varš\. smlouva x NATO
+- Evropa byla rozdělena do dvou mocenských bloků \- 2 pakty proti sobě : Varš\. smlouva x NATO
 
-\- byl budován socialismus, smrt Stalina, symbol pádu komunistů zboření Berlínské zdi
+- byl budován socialismus, smrt Stalina, symbol pádu komunistů zboření Berlínské zdi
 
-\- Pop Art, Happening, Body Art, Graffiti, Romány, Fantasy, SCIFI, Komedie
+- Pop Art, Happening, Body Art, Graffiti, Romány, Fantasy, SCIFI, Komedie
 
 __Alexandr Solženicyn \-__ v roce 1945 byl zatčen, pochyboval o Stalinovi, 1957 byl rehabilitován, 1973 nobelová cena, 1994 se vrátil do Ruska, kde zemřel
 
@@ -55,19 +55,19 @@ __Alexandr Solženicyn \-__ v roce 1945 byl zatčen, pochyboval o Stalinovi, 195
 
 __Albert Camus__ \-nobelová cena , spisovatel, filozof, odpor proti okupantům jako redaktor ileg\. novin
 
-                          \- Mýtus o Sisyfovi \- eseje, o jedinci který se vzbouří proti svému údělu, pak ho příjme
+- Mýtus o Sisyfovi \- eseje, o jedinci který se vzbouří proti svému údělu, pak ho příjme
 
-                          \- Cizinec \- román, sexuální vztah, soudní proces
+- Cizinec \- román, sexuální vztah, soudní proces
 
-                          \- Mor \- kronika, popisuje morovou epidemii
+- Mor \- kronika, popisuje morovou epidemii
 
 __Jean Paul Sartre \-__ odmítl nobelovku, oslepl
 
-                               \- Zeď \- jedinci v krizových životních situacích
+- Zeď \- jedinci v krizových životních situacích
 
 __Samuel Beckett \-__ irský dramatik, získal nobelovu cenu
 
-                              \- Čekání na Godota \- drama
+- Čekání na Godota \- drama
 
 __Eugen lonesco \-__ Plešatá zpěvačka \- inspirace učebnice angličtiny
 
@@ -77,13 +77,13 @@ __Primo Levi \-__ vzpomínky na válečné útrapy, \- Je\-li toto člověk \- z
 
 __Graham Greene \-__ prozaik, dramatik, podporoval české disidenty, pohrával si se smrtí
 
-                               \- Jádro věci \- román, pracuje s tématem milostného vztahu
+- Jádro věci \- román, pracuje s tématem milostného vztahu
 
-                               \- Tichý Američan \- román, důsledky naivity Američanů
+- Tichý Američan \- román, důsledky naivity Američanů
 
 __Alberto Moravia \-__ 3x ženat, představitel neorealismu \- Římanka \- obraz italské společnosti
 
-                                                                                                 \- Horalka \- o obchodnici, která popisuje vztahy
+- Horalka \- o obchodnici, která popisuje vztahy
 
                                                                                                                     mezi lidmi
 
@@ -93,6 +93,6 @@ __Heinrich Boll \-__ nobelová cena \- Biliár o půl desáté \- román, o 3 ge
 
 __Elfride Jelineková \-__ nobelová cena \- zabývala se problémem postavení žen ve společnosti
 
-                                  \- byla označována jako odpůrkyně státu, pornografka
+- byla označována jako odpůrkyně státu, pornografka
 
-                                  \- Pianistka \- román , matka manipuluje se svojí dcerou, matka řídí její život
+- Pianistka \- román , matka manipuluje se svojí dcerou, matka řídí její život

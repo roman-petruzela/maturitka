@@ -6,17 +6,17 @@ tags: ["mimo-seznam-cetby"]
 ---
 \*1928 v Praze
 
-\- Básník, prozaik, dramatik, překladatel a významný spisovatel samizdatu a exilu
+- Básník, prozaik, dramatik, překladatel a významný spisovatel samizdatu a exilu
 
      \(samizdat = obcházení cenzury vlastním vydáváním\)
 
-\- Na počátku své tvorby v 50\.letech představitel budovatelské poezie
+- Na počátku své tvorby v 50\.letech představitel budovatelské poezie
 
-\- Známý je tím, že prošel osobnostním vývojem od počáteční bezvýhradné podpory       stalinismu, přes postupné vystřízlivění až po účast na Pražském jaru a nucený odchod do exilu   v 70\. letech, přičemž patřil vždy mezi ty nejaktivnější v daném proudu\.
+- Známý je tím, že prošel osobnostním vývojem od počáteční bezvýhradné podpory       stalinismu, přes postupné vystřízlivění až po účast na Pražském jaru a nucený odchod do exilu   v 70\. letech, přičemž patřil vždy mezi ty nejaktivnější v daném proudu\.
 
-\- vystudoval studium estetiky a divadelní vědy na Karlově Universitě
+- vystudoval studium estetiky a divadelní vědy na Karlově Universitě
 
-\- ze začátku přesvědčený komunista \(Kulturní kádr\)
+- ze začátku přesvědčený komunista \(Kulturní kádr\)
 
 \-Podporoval Pražské jaro \-> 1969 vyloučen s KSČ
 

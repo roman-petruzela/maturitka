@@ -44,7 +44,7 @@ __G\. H\. Bondy__ – průmyslník, továrník \- financoval projekt rozšířen
 
 __Povondra__ \- vrátný pana Bondyho
 
-                   \- jediný pohled na problematiku z pozice řadového občana … mloci
+- jediný pohled na problematiku z pozice řadového občana … mloci
 
 __Jaz\. Prostředky :__
 

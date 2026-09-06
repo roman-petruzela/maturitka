@@ -39,27 +39,27 @@ Tropy a figury a jejich funkce ve výňatku:		\-
 
 Kontext autorovy tvorby:
 
-\- Narodil se v Lounech\. Jeho pravé jméno je Emil Frída\.
+- Narodil se v Lounech\. Jeho pravé jméno je Emil Frída\.
 
- \- Studoval na filozofické fakultě v Praze, kde studoval filosofii, historii a románské jazyky\.
+- Studoval na filozofické fakultě v Praze, kde studoval filosofii, historii a románské jazyky\.
 
-\- Při studiích se seznámil se Zikmundem Winterem, Sládkem\.
+- Při studiích se seznámil se Zikmundem Winterem, Sládkem\.
 
-\- Pracoval jako vychovatel a tajemník v hraběcí rodině v Itálii\.
+- Pracoval jako vychovatel a tajemník v hraběcí rodině v Itálii\.
 
-\- V Česku se stal profesorem moderních věd, byl povýšen do šlechtického stavu\.
+- V Česku se stal profesorem moderních věd, byl povýšen do šlechtického stavu\.
 
-\- Jako dvacetiletý se seznamuje se Sofií Podlipksou \(o 20 let starší\), do které se zamiloval, ale oženil se nakonec s její  dcerou\. První roky manželství byly šťastné, než zjistil, že děti má s hercem Jakubem Seifertem, a ne s ním\.
+- Jako dvacetiletý se seznamuje se Sofií Podlipksou \(o 20 let starší\), do které se zamiloval, ale oženil se nakonec s její  dcerou\. První roky manželství byly šťastné, než zjistil, že děti má s hercem Jakubem Seifertem, a ne s ním\.
 
-\- Zjištění se projevilo v jeho tvorbě, která začala být pesimističtější\. Vyrovnanost nachází zas až ke konci života\.
+- Zjištění se projevilo v jeho tvorbě, která začala být pesimističtější\. Vyrovnanost nachází zas až ke konci života\.
 
-\- Byl nominován na Nobelovu cenu\.
+- Byl nominován na Nobelovu cenu\.
 
-\- 1908 utrpěl mozkovou mrtvici – ztráta schopnosti číst a psát\. Umřel v Domažlicích
+- 1908 utrpěl mozkovou mrtvici – ztráta schopnosti číst a psát\. Umřel v Domažlicích
 
-\- 144 knih, 98 překladů – __Shakespeara__\!
+- 144 knih, 98 překladů – __Shakespeara__\!
 
-\- Lartpourlartismus \(umění pro umění\) – není důležitý obsah ale forma
+- Lartpourlartismus \(umění pro umění\) – není důležitý obsah ale forma
 
 Dílo:	Zlomky epopeje \(__básnický cyklus__\) – Legenda o sv\. Prokopu, Zlomky epopeje, Selské balady
 

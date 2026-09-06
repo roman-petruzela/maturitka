@@ -41,7 +41,7 @@ __Vypravěč / lyrický subjekt__
 
 __\- Typy promluv__ – Vypravěčem je autor – er\-forma, Časté dialogy
 
-\- Veršová výstavba není
+- Veršová výstavba není
 
 __\- Vyprávěcí způsoby :__ Slohový postup vyprávěcí
 

@@ -12,59 +12,59 @@ __Autor:__
 
 Ernest Hemingway \([21\. 7\.](http://cs.wikipedia.org/wiki/21._červenec) [1899](http://cs.wikipedia.org/wiki/1899), USA – [2\. 7\.](http://cs.wikipedia.org/wiki/2._červenec) [1961](http://cs.wikipedia.org/wiki/1961), USA\)
 
-\- [americký](http://cs.wikipedia.org/wiki/Spojené_státy_americké) spisovatel, novinář, povídkář, dramatik
+- [americký](http://cs.wikipedia.org/wiki/Spojené_státy_americké) spisovatel, novinář, povídkář, dramatik
 
-\- miloval přírodu, lov a dobrodružství
+- miloval přírodu, lov a dobrodružství
 
-\- čelní představitel tzv\. ztracené generace
+- čelní představitel tzv\. ztracené generace
 
-\- hrál na [violoncello](http://cs.wikipedia.org/wiki/Violoncello) a přitom boxoval
+- hrál na [violoncello](http://cs.wikipedia.org/wiki/Violoncello) a přitom boxoval
 
-\- po absolvování základní školy se stal reportérem kansaského listu Star
+- po absolvování základní školy se stal reportérem kansaského listu Star
 
-\- byl velmi ovlivněn válečnými událostmi
+- byl velmi ovlivněn válečnými událostmi
 
-\- hned po vypuknutí 1\. světové války vstoupil do italské armády jako dobrovolník ambulantních sborů Červeného kříže
+- hned po vypuknutí 1\. světové války vstoupil do italské armády jako dobrovolník ambulantních sborů Červeného kříže
 
-\- byl těžce raněn
+- byl těžce raněn
 
-\- španělské občanské války se zúčastnil jako reportér
+- španělské občanské války se zúčastnil jako reportér
 
-\- válečný zpravodaj v Číně
+- válečný zpravodaj v Číně
 
-\- za druhé světové války pobýval na Kubě a vyhledával německé ponorky v Karibském moři
+- za druhé světové války pobýval na Kubě a vyhledával německé ponorky v Karibském moři
 
-\- jeho postavami jsou muži – stateční, cílevědomí, ctižádostiví, staví je do kritické mezní
+- jeho postavami jsou muži – stateční, cílevědomí, ctižádostiví, staví je do kritické mezní
 
   situace, zkouší jak to hrdinové vydrží a jak se zachovají
 
-\- způsob psaní: metoda ledovce  podstatné je to „pod vodou“ \(cílem si to domyslet\)
+- způsob psaní: metoda ledovce  podstatné je to „pod vodou“ \(cílem si to domyslet\)
 
-\- v roce 1953 získal Pulitzerovu cenu
+- v roce 1953 získal Pulitzerovu cenu
 
-\- v roce [1954](http://cs.wikipedia.org/wiki/1954) dostal [Nobelovu cenu](http://cs.wikipedia.org/wiki/Nobelova_cena_za_literaturu) za dílo [Stařec a moře](http://cs.wikipedia.org/wiki/Stařec_a_moře)
+- v roce [1954](http://cs.wikipedia.org/wiki/1954) dostal [Nobelovu cenu](http://cs.wikipedia.org/wiki/Nobelova_cena_za_literaturu) za dílo [Stařec a moře](http://cs.wikipedia.org/wiki/Stařec_a_moře)
 
-\- ve svých dílech vystupuje pod [pseudonymem](http://cs.wikipedia.org/wiki/Pseudonym) Nick Adams
+- ve svých dílech vystupuje pod [pseudonymem](http://cs.wikipedia.org/wiki/Pseudonym) Nick Adams
 
-\- v roce [1961](http://cs.wikipedia.org/wiki/1961) pravděpodobně spáchal [sebevraždu](http://cs.wikipedia.org/wiki/Sebevražda) \(zastřelil se puškou\) \- někdy smrt
+- v roce [1961](http://cs.wikipedia.org/wiki/1961) pravděpodobně spáchal [sebevraždu](http://cs.wikipedia.org/wiki/Sebevražda) \(zastřelil se puškou\) \- někdy smrt
 
   vysvětlována  jako nehoda při čistění hlavně
 
 ● __zařazení autora do uměleckého směru__
 
-\- představitel americké meziválečné prózy
+- představitel americké meziválečné prózy
 
-\- představitel „ztracené generace“
+- představitel „ztracené generace“
 
 ztracená generace:
 
-\- skupina spisovatelů narozených kolem roku [1900](http://cs.wikipedia.org/wiki/1900)
+- skupina spisovatelů narozených kolem roku [1900](http://cs.wikipedia.org/wiki/1900)
 
-\- spisovatelé zažili [první světovou válku](http://cs.wikipedia.org/wiki/První_světová_válka) a  zobrazovali ji ve svých dílech
+- spisovatelé zažili [první světovou válku](http://cs.wikipedia.org/wiki/První_světová_válka) a  zobrazovali ji ve svých dílech
 
-\- vyjadřují pocity vojáků po návratu z války \(vrátili se duševně zmrzačeni a měli problémy se zařazením se do společnosti\)
+- vyjadřují pocity vojáků po návratu z války \(vrátili se duševně zmrzačeni a měli problémy se zařazením se do společnosti\)
 
-\- pro autory jsou typické životní postoje, kterými dávají najevo nesouhlas a nedůvěru ke společnosti, často staví své hrdiny do velmi nebezpečných situací, kde musí prokazovat svůj charakter
+- pro autory jsou typické životní postoje, kterými dávají najevo nesouhlas a nedůvěru ke společnosti, často staví své hrdiny do velmi nebezpečných situací, kde musí prokazovat svůj charakter
 
 základními tématy jsou: zklamání a skepse, rozklad lidských a společenských hodnot, hledání východiska v útěku do přírody nebo kultury
 
@@ -76,69 +76,69 @@ základními tématy jsou: zklamání a skepse, rozklad lidských a společensk�
 
 Romain Rolland
 
-\- Francouz, prozaik, dramatik, esejista, hudební historik a literární kritik
+- Francouz, prozaik, dramatik, esejista, hudební historik a literární kritik
 
-\- nositel Nobelovy ceny za literaturu \(1915\)
+- nositel Nobelovy ceny za literaturu \(1915\)
 
-\- pracoval v nově vzniklém Červeném kříži
+- pracoval v nově vzniklém Červeném kříži
 
-\- profesor dějin umění a dějin hudby
+- profesor dějin umění a dějin hudby
 
-\- kritizoval fašismus
+- kritizoval fašismus
 
-\- propagoval Sovětský svaz a jeho socialistickou formu vlády
+- propagoval Sovětský svaz a jeho socialistickou formu vlády
 
-\- díla: *Jan Kryštof, Petr a Lucie, Dobrý člověk ještě žije*
+- díla: *Jan Kryštof, Petr a Lucie, Dobrý člověk ještě žije*
 
 William Faulkner
 
-\- Američan, prozaik, básník, scénárista
+- Američan, prozaik, básník, scénárista
 
-\- nositel Nobelovy ceny za literaturu \(1949\)
+- nositel Nobelovy ceny za literaturu \(1949\)
 
-\- absolvoval letecký výcvik
+- absolvoval letecký výcvik
 
-\- v roce [1918](http://cs.wikipedia.org/wiki/1918) byl poslán s Královským letectvem do [Francie](http://cs.wikipedia.org/wiki/Francie), kde byl při cvičném letu raněn
+- v roce [1918](http://cs.wikipedia.org/wiki/1918) byl poslán s Královským letectvem do [Francie](http://cs.wikipedia.org/wiki/Francie), kde byl při cvičném letu raněn
 
-\- obránce práv černochů
+- obránce práv černochů
 
-\- celý život hájil právo umělce na soukromí
+- celý život hájil právo umělce na soukromí
 
-\- díla: *Absolone, Absolone, Pobertové, Vojákův žold*
+- díla: *Absolone, Absolone, Pobertové, Vojákův žold*
 
 John Steinbeck
 
-\- Američan
+- Američan
 
-\- nositel Nobelovy ceny za literaturu \(1962\)
+- nositel Nobelovy ceny za literaturu \(1962\)
 
-\- nositel Pulitzerovy ceny \(1940\) \- prestižní [americké](http://cs.wikipedia.org/wiki/Spojené_státy_americké) [žurnalistické](http://cs.wikipedia.org/wiki/Žurnalistika) a [umělecké](http://cs.wikipedia.org/wiki/Umění) ocenění
+- nositel Pulitzerovy ceny \(1940\) \- prestižní [americké](http://cs.wikipedia.org/wiki/Spojené_státy_americké) [žurnalistické](http://cs.wikipedia.org/wiki/Žurnalistika) a [umělecké](http://cs.wikipedia.org/wiki/Umění) ocenění
 
-\- prokazuje zájem o sociální problémy
+- prokazuje zájem o sociální problémy
 
-\- díla: *O myších a lidech, Hrozny hněvu, Na východ od ráje*
+- díla: *O myších a lidech, Hrozny hněvu, Na východ od ráje*
 
 Erich Maria Remarque \(vl\. jménem Erich Paul Remark\)
 
-\- Němec
+- Němec
 
-\- odešel jako dobrovolník do 1\. světové války, v roce 1918 byl raněn
+- odešel jako dobrovolník do 1\. světové války, v roce 1918 byl raněn
 
-\- zajímal se o automobilové závody a nějaký čas i aktivně závodil
+- zajímal se o automobilové závody a nějaký čas i aktivně závodil
 
-\- po nástupu fašismu v Německu v roce 1933 se dostal na seznam	zakázaných autorů
+- po nástupu fašismu v Německu v roce 1933 se dostal na seznam	zakázaných autorů
 
-\- v roce 1938 byl zbaven německého občanství
+- v roce 1938 byl zbaven německého občanství
 
-\- nacistická propaganda prohlásila, že byl doopravdy Paul Kramer \(Remarque pozpátku\), Žid, který se nezúčastnil 1\.sv\.války, a tudíž ji nemůže popisovat
+- nacistická propaganda prohlásila, že byl doopravdy Paul Kramer \(Remarque pozpátku\), Žid, který se nezúčastnil 1\.sv\.války, a tudíž ji nemůže popisovat
 
-\- v roce 1939 odjel do New Yorku, kde získal americké občanství
+- v roce 1939 odjel do New Yorku, kde získal americké občanství
 
-\- oženil se s bývalou manželkou [Charlieho Chaplina](http://cs.wikipedia.org/wiki/Charlie_Chaplin)
+- oženil se s bývalou manželkou [Charlieho Chaplina](http://cs.wikipedia.org/wiki/Charlie_Chaplin)
 
-\- do vlasti se nikdy nevrátil \(styděl za to, čeho jsou [Němci](http://cs.wikipedia.org/wiki/Němci) schopní\)
+- do vlasti se nikdy nevrátil \(styděl za to, čeho jsou [Němci](http://cs.wikipedia.org/wiki/Němci) schopní\)
 
-\- díla: *Na západní frontě klid, Miluj bližního svého, Tři kamarádi*
+- díla: *Na západní frontě klid, Miluj bližního svého, Tři kamarádi*
 
 ● __názvy \(případně obsahy\) dalších autorových děl__
 
@@ -280,9 +280,9 @@ Spisovná čeština, v dialozích a vnitřních monolozích nespisovná\.
 
 __V úryvku:__
 
-\- vnitřní monolog, úvahová část\.
+- vnitřní monolog, úvahová část\.
 
-\- řečnické otázky
+- řečnické otázky
 
 „A teď ji přece jenom dostali\.“ – personifikace
 

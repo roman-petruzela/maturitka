@@ -41,9 +41,9 @@ Zachována jednotná dějová linie
 
  __Jazykové prostředky :__
 
-\- Převážně spisovný jazyk
+- Převážně spisovný jazyk
 
-\- lexikální prostředky: Běžné
+- lexikální prostředky: Běžné
 
                         Hovorové
 
@@ -53,15 +53,15 @@ Zachována jednotná dějová linie
 
                         Historismy
 
-\- Převládají dialogy
+- Převládají dialogy
 
-\- Metafora
+- Metafora
 
-\- Anafora
+- Anafora
 
-\- Apostrofa
+- Apostrofa
 
-\- Řečnická otázka
+- Řečnická otázka
 
 __Děj :__
 

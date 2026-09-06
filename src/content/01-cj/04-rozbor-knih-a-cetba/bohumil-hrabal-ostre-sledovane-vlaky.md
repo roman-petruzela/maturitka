@@ -5,9 +5,9 @@ source: "MATURITA HADR/ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k matur
 ---
 __Autor__
 
-\- Český prozaik
+- Český prozaik
 
-\- Psal povídky, novely, experimentální texty, romány
+- Psal povídky, novely, experimentální texty, romány
 
 - Narodil se v Brně\-Židenicích a zemřel v Praze po pádu z okna v pátém patře nemocnice na Bulovce, ve které se léčil
 - Po maturitě studoval na právnické fakultě Univerzity Karlovy v Praze, Vinou uzavření vysokých škol v období okupace mohl svá studia dokončit až v roce 1946
@@ -35,15 +35,15 @@ __Literární žánr :__ Novela
 
 __Literární směr :__ Česká literatura v letech 1958 – 1968, druhá vlna válečné prózy
 
-\- Uvolnění kontroly nad literaturou, scelování povolené zakázané literatury, formální i jazykové experimenty
+- Uvolnění kontroly nad literaturou, scelování povolené zakázané literatury, formální i jazykové experimenty
 
-\- Kritika stalinismu, oslabení moci komunistické vlády
+- Kritika stalinismu, oslabení moci komunistické vlády
 
-\- Ovlivnění existencialismem
+- Ovlivnění existencialismem
 
-\- Romány, absurdní dramata experimentální poezie
+- Romány, absurdní dramata experimentální poezie
 
-\- Malé scény semafor
+- Malé scény semafor
 
 __Postavy :__
 
@@ -57,39 +57,39 @@ __\- Partyzánka Viktoria Freie__ \- dodá Hubičkovi bombu a zbavuje ho jeho "
 
 __Jaz\. Prostředky :__
 
-\- zvláštní výstavba textu \(dlouhá souvětí, krátké izolované příběhy, které jsou propojené volnými \-\-\-\-asociacemi myšlenek \- prvek surrealismu\)
+- zvláštní výstavba textu \(dlouhá souvětí, krátké izolované příběhy, které jsou propojené volnými \-\-\-\-asociacemi myšlenek \- prvek surrealismu\)
 
-\- absurdní a naturalistické scény \(hlava pod tankem\.\.\.\)
+- absurdní a naturalistické scény \(hlava pod tankem\.\.\.\)
 
-\- nečekaná přirovnání
+- nečekaná přirovnání
 
-\- jiný slovosled v souvětí
+- jiný slovosled v souvětí
 
-\- opakující se slova, spojovací výrazy
+- opakující se slova, spojovací výrazy
 
-\- podrobné popisy
+- podrobné popisy
 
-\- německá slova a fráze
+- německá slova a fráze
 
-\- erotický podtext
+- erotický podtext
 
-\- v přímé řeči se objevují vulgární úsloví a vulgarismy ve zdrobnělinách; normální text je ale spisovný
+- v přímé řeči se objevují vulgární úsloví a vulgarismy ve zdrobnělinách; normální text je ale spisovný
 
-\- v díle je hezká práce se jmény \(Hubička \- proutník\)
+- v díle je hezká práce se jmény \(Hubička \- proutník\)
 
-\- často popisuje věci, které mají červenou barvu = symbolika války
+- často popisuje věci, které mají červenou barvu = symbolika války
 
-\- motiv utrpení zvířat = atmosféra války
+- motiv utrpení zvířat = atmosféra války
 
-\- má objektivní pohled na Němce \(popisuje i slušné lidi\)
+- má objektivní pohled na Němce \(popisuje i slušné lidi\)
 
-\- kapitoly nemají názvy
+- kapitoly nemají názvy
 
-\- __epiteton:__ *zvadlé lilium*, *cloněná lampa*
+- __epiteton:__ *zvadlé lilium*, *cloněná lampa*
 
-\- __přirovnání:__ *"Měl zvednuté ruce, jako by připíjel slunci\."*; *"Díval se tak, jako bych já ten vlak rozstřílel\."*
+- __přirovnání:__ *"Měl zvednuté ruce, jako by připíjel slunci\."*; *"Díval se tak, jako bych já ten vlak rozstřílel\."*
 
-\- __odborné výrazy:__ *detonace* \(výbuch\), *lazaret* \(nemocnice\)
+- __odborné výrazy:__ *detonace* \(výbuch\), *lazaret* \(nemocnice\)
 
 __Děj :__
 
@@ -99,5 +99,5 @@ Hlavní částí knihy je, že Hubička navrhne Milošovi, že vyhodí ostře sl
 
 __Hlavní myšlenka, podtext :__
 
-\- Život v malé vesničce a válka
-\- Za svobodu může bojovat kdokoliv
+- Život v malé vesničce a válka
+- Za svobodu může bojovat kdokoliv

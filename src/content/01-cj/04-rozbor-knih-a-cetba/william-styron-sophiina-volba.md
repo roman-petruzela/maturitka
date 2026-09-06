@@ -11,41 +11,41 @@ __Autor:__
 
 William Clark Styron, Jr\. \(1925–2006\)
 
-\- americký prozaik – romanopisec a esejista
+- americký prozaik – romanopisec a esejista
 
-\- narozen na Jihu, ve Virginii \(sám Styron vnímal toto území jako zaostalé\)
+- narozen na Jihu, ve Virginii \(sám Styron vnímal toto území jako zaostalé\)
 
-\- jeho prarodiče ještě měli otroky, ale jeho rodiče již byli modernější
+- jeho prarodiče ještě měli otroky, ale jeho rodiče již byli modernější
 
-\- představitel tzv\. jižanské prózy
+- představitel tzv\. jižanské prózy
 
-\- otec námořní inženýr, trpěl depresemi
+- otec námořní inženýr, trpěl depresemi
 
-\- matka pocházela ze Severu, zemřela na rakovinu prsu, když mu bylo 14 let
+- matka pocházela ze Severu, zemřela na rakovinu prsu, když mu bylo 14 let
 
-\- studoval Davidson College, poté Dukeovu univerzitu, zároveň prošel výcvikem u jednotky námořní pěchoty
+- studoval Davidson College, poté Dukeovu univerzitu, zároveň prošel výcvikem u jednotky námořní pěchoty
 
-\- účastník 2\. sv\. války \(boje v Tichomoří\), přímých bojů se neúčastnil pro nízký věk
+- účastník 2\. sv\. války \(boje v Tichomoří\), přímých bojů se neúčastnil pro nízký věk
 
-\- od r\. 1947 žil v New Yorku, navštěvoval kurz tvůrčího psaní a začal psát knihy
+- od r\. 1947 žil v New Yorku, navštěvoval kurz tvůrčího psaní a začal psát knihy
 
-\- pracoval jako nakladatelský redaktor, práce ho nenaplňovala
+- pracoval jako nakladatelský redaktor, práce ho nenaplňovala
 
-\- první knihy měly úspěch, stal se spisovatelem z povolání
+- první knihy měly úspěch, stal se spisovatelem z povolání
 
-\- byl odvolán do armády do války v Koreji, ale poté byl propuštěn kvůli oční vadě
+- byl odvolán do armády do války v Koreji, ale poté byl propuštěn kvůli oční vadě
 
-\- cestoval po Evropě, v Paříži spoluzakládal literární časopis Paris Review
+- cestoval po Evropě, v Paříži spoluzakládal literární časopis Paris Review
 
-\- v Římě se seznámil se svojí budoucí manželkou Rose, vzali se roku 1953 a měli 4 děti
+- v Římě se seznámil se svojí budoucí manželkou Rose, vzali se roku 1953 a měli 4 děti
 
-\- roku 1985 ho postihl záchvat deprese
+- roku 1985 ho postihl záchvat deprese
 
-\- nejznámější díla napsal v posledních 20 letech života
+- nejznámější díla napsal v posledních 20 letech života
 
-\- držitel Pulitzerovy ceny \(1968, za knihu Doznání Nata Turnera\) a Americké knižní ceny
+- držitel Pulitzerovy ceny \(1968, za knihu Doznání Nata Turnera\) a Americké knižní ceny
 
-\- zemřel na zápal plic v 81 letech
+- zemřel na zápal plic v 81 letech
 
 - __zařazení autora do uměleckého směru__
 
@@ -53,31 +53,31 @@ Zobrazení druhé světové války ve světové literatuře:
 
 východní literatura – Rusko
 
-\- oslavování hrdinství, popisování válečných scén
+- oslavování hrdinství, popisování válečných scén
 
 západní literatura – Evropa, USA
 
-\- líčení válečných hrůz
+- líčení válečných hrůz
 
-\- satira, moderní postupy
+- satira, moderní postupy
 
 Tzv\. jižanská próza:
 
-\- autoři, kteří pocházejí z Jihu Spojených států, z území bývalé Konfederace
+- autoři, kteří pocházejí z Jihu Spojených států, z území bývalé Konfederace
 
-\- vzniká od 20\. let 20\. století
+- vzniká od 20\. let 20\. století
 
-\- typicky jižanská témata: dozvuky otroctví, rasová diskriminace, násilí, tělesně a duševně postižení lidé, důraz na zemědělství, silná víra – protestantství
+- typicky jižanská témata: dozvuky otroctví, rasová diskriminace, násilí, tělesně a duševně postižení lidé, důraz na zemědělství, silná víra – protestantství
 
-\- pod vlivem modernismu, metoda proudu vědomí
+- pod vlivem modernismu, metoda proudu vědomí
 
-\- za typického představitele je považován Mark Twain, dále William Faulkner, Tennessee Williams,  a další
+- za typického představitele je považován Mark Twain, dále William Faulkner, Tennessee Williams,  a další
 
-\- A\. Tate, J\. C\. Ransome, později R\. P\. Warren, T\. Capote, W\. Styron, W\. Percy
+- A\. Tate, J\. C\. Ransome, později R\. P\. Warren, T\. Capote, W\. Styron, W\. Percy
 
 Postmoderní literatura
 
-\- román nese i rysy postmoderny
+- román nese i rysy postmoderny
 
 - __určení století, v němž autor tvořil__
 
@@ -89,65 +89,65 @@ Zobrazení druhé světové války a holocaustu ve světové literatuře – zá
 
 Thomas Keneally \(\*1935\)
 
-\- australský prozaik, dramatik, herec
+- australský prozaik, dramatik, herec
 
-\- román *Schindlerova archa*: námět k filmu Schindlerův seznam, zpracování osudů Oskara Schindlera – válečný zbohatlík, který chtěl zachránit tisícovku „svých židů“\.
+- román *Schindlerova archa*: námět k filmu Schindlerův seznam, zpracování osudů Oskara Schindlera – válečný zbohatlík, který chtěl zachránit tisícovku „svých židů“\.
 
 Robert Merle \(1908–2004\)
 
-\- francouzský prozaik, dramatik, překladatel
+- francouzský prozaik, dramatik, překladatel
 
-\- profesor anglické a americké literatury
+- profesor anglické a americké literatury
 
-\- účastník bojů o Dunkerque ve druhé světové válce
+- účastník bojů o Dunkerque ve druhé světové válce
 
-\- román *Smrt je mým řemeslem*: životní příběh Rudolfa Langa, který vstoupil do NSDAP\. Jeho úkolem je vést koncentrační tábor v Osvětimi\. Zde má za úkol se co nejefektivněji zbavovat židů\.
+- román *Smrt je mým řemeslem*: životní příběh Rudolfa Langa, který vstoupil do NSDAP\. Jeho úkolem je vést koncentrační tábor v Osvětimi\. Zde má za úkol se co nejefektivněji zbavovat židů\.
 
 Anne Franková \(1929–1945\)
 
-\- rodina žila do r\. 1933 v Německu, po zvolení Adolfa Hitlera říšským kancléřem prchli do Amsterodamu v Holandsku, kde se skrývali v rodinné továrně
+- rodina žila do r\. 1933 v Německu, po zvolení Adolfa Hitlera říšským kancléřem prchli do Amsterodamu v Holandsku, kde se skrývali v rodinné továrně
 
-\- Anna si během pobytu v úkrytu vedla deník, psala dopisy imaginární přítelkyni Kitty\.
+- Anna si během pobytu v úkrytu vedla deník, psala dopisy imaginární přítelkyni Kitty\.
 
-\- rodina žila v úkrytu do 4\. 8\. 1944 – byli zatčeni policií po telefonickém udání
+- rodina žila v úkrytu do 4\. 8\. 1944 – byli zatčeni policií po telefonickém udání
 
-\- *Deník Anny Frankové*
+- *Deník Anny Frankové*
 
 Jižanská próza:
 
 Mark Twain \(1835–1910\)
 
-\- Američan, humorista, novinář, předchůdce jižanské literatury
+- Američan, humorista, novinář, předchůdce jižanské literatury
 
-\- dílo: *Dobrodružstvá Toma Sawyera, Dobrodružství Huckleberryho Finna*
+- dílo: *Dobrodružstvá Toma Sawyera, Dobrodružství Huckleberryho Finna*
 
 William Faulkner \(1897–1962\)
 
-\- jeho život silně ovlivnil jeho dílo
+- jeho život silně ovlivnil jeho dílo
 
-\- z jižanské rodiny – bělošská rodina, černošští otroci \(inspirace pro většinu próz = jižanská sága\)
+- z jižanské rodiny – bělošská rodina, černošští otroci \(inspirace pro většinu próz = jižanská sága\)
 
-\- účastník 1\. světové války – pilot
+- účastník 1\. světové války – pilot
 
-\- scenárista v Hollywoodu
+- scenárista v Hollywoodu
 
-\- neměl rád publicitu
+- neměl rád publicitu
 
 dílo:
 
-\- psychologie jižanských lidí, výjimeční hrdinové, dějové odbočky, epizodičnost
+- psychologie jižanských lidí, výjimeční hrdinové, dějové odbočky, epizodičnost
 
-\- pomalá cesta ke čtenářům, obliba nejprve u Francouzů
+- pomalá cesta ke čtenářům, obliba nejprve u Francouzů
 
 *Divoké palmy, Vojákův žold, Hluk a vřava*
 
 - __názvy \(případně obsahy\) dalších autorových děl__
 
-\- jeho texty řeší otázku viny a trestu \(navazuje na F\. M\. Dostojevského\)
+- jeho texty řeší otázku viny a trestu \(navazuje na F\. M\. Dostojevského\)
 
-\- ovlivněn W\. Faulkenerem – jižanské prostředí
+- ovlivněn W\. Faulkenerem – jižanské prostředí
 
-\- časté téma rasismu
+- časté téma rasismu
 
 *Ulehni v temnotách* – prvotina, román, velký úspěch – oceněno Římskou cenou
 
@@ -159,9 +159,9 @@ dílo:
 
 *Doznání Nata Turnera* – třetí Styronův román, vzbudil nevoli
 
-\- osud vzdělaného černocha, který vedl černošskou vzpouru r\. 1831
+- osud vzdělaného černocha, který vedl černošskou vzpouru r\. 1831
 
-\- oceněn Pulitzerovou cenou
+- oceněn Pulitzerovou cenou
 
 *Na triplárně* – jediné Styronovo drama
 
@@ -199,9 +199,9 @@ vyprávěcí, ale také úvahový a popisný
 
 Sophiina volba – hrdinka příběhu Sophie je při příchodu do Osvětimi postavena před zrůdnou volbu – musí zvolit, které z jejích dětí bude okamžitě odvedeno do plynu
 
-\- Sophie však musela volit ve svém životě několikrát \(Být antisemitou jako otec? Účastnit se odboje? Svést Rudolfa Hesse? Ukončit svůj život?\)
+- Sophie však musela volit ve svém životě několikrát \(Být antisemitou jako otec? Účastnit se odboje? Svést Rudolfa Hesse? Ukončit svůj život?\)
 
-\- pojem „Sophiina volba“ se nyní používá pro označení jakéhokoli zásadního a těžkého rozhodnutí
+- pojem „Sophiina volba“ se nyní používá pro označení jakéhokoli zásadního a těžkého rozhodnutí
 
 - __posouzení aktuálnosti díla__
 
@@ -215,7 +215,7 @@ místo: New York – Brooklyn, nejčastěji dům Yetti Zimmermanové \(v Sophiin
 
 - __stručné nastínění děje__
 
-\- kniha je rozdělena do 16 poměrně dlouhých kapitol
+- kniha je rozdělena do 16 poměrně dlouhých kapitol
 
 Vypravěč, jehož jméno zpočátku neznáme, pracuje v newyorském nakladatelství a posuzuje rukopisy, které poté doporučuje k vydání\. Toto zaměstnání ho nebaví, ale zároveň z něj načerpává inspiraci, protože by chtěl napsat knihu\. Ani není moc zklamaný, když je vyhozen\. Je mladý \(22 let\), pochází z Jihu, nyní bydlí sám a se ženami nemá zkušenosti\. Protože nemá práci, je nucen si sehnat levnější byt\. Otec mu sice poslal peníze z dědictví po tetě \(teta je získala prodejem otroka\), ale vypravěč nechce příliš utrácet\. Nastěhuje se do domu Yetti Zimmermanové, který je celý vymalovaný růžovou barvou a kde už žije několik židů\. Ještě víc než růžová barva pokoje vyděsí vypravěče zvuky z probíhající soulože, které se ozývají z pokoje nad ním\.
 
@@ -253,13 +253,13 @@ Kdokoli – román ukazuje, že každý z nás je součástí kolektivní viny,
 
 - __zařazení knihy do kontextu celého autorova díla__
 
-\- jedná se o Styronův čtvrtý poslední román
+- jedná se o Styronův čtvrtý poslední román
 
 Námět ke knize údajně autora napadl při návštěvě Československa a polské Osvětimi roku 1974\.
 
 Kniha vyšla roku 1979 a vzbudila značný ohlas\. V jižní Africe byla zakázána kvůli otevřené sexualitě a vulgárním výrazům\. V Polsku byla zakázána kvůli přiznání polského antisemitismu\. V roce 1980 se stala bestsellerem a získala Národní knižní cenu\.
 
-\- román vyvolal rozporuplné pocity, autorovi bylo vyčítáno především to, že sám holocaust nezažil\.
+- román vyvolal rozporuplné pocity, autorovi bylo vyčítáno především to, že sám holocaust nezažil\.
 
 - __porovnání s filmovou verzí nebo dramatizací__
 
@@ -311,9 +311,9 @@ Sophie \+ Nathan \+ Stingo – přátelé, spolubydlící
 
 ● __použité jazykové prostředky__
 
-\- pásmo vypravěče Stinga je spisovné, používá složitější větné konstrukce
+- pásmo vypravěče Stinga je spisovné, používá složitější větné konstrukce
 
-\- Nathanova promluva obsahuje polská slova a francouzská slova *peut\-être *\(= asi, snad\) a *menteur* \(= lhář\) – chce Sophii ublížit tím, že paroduje její jazykové schopnosti
+- Nathanova promluva obsahuje polská slova a francouzská slova *peut\-être *\(= asi, snad\) a *menteur* \(= lhář\) – chce Sophii ublížit tím, že paroduje její jazykové schopnosti
 
 *namočená v těch vyzývavých voňavkách* – metafora, hyperbola
 
@@ -335,8 +335,8 @@ Sophie \+ Nathan \+ Stingo – přátelé, spolubydlící
 
 v celém románu:
 
-\- Sophiina mluva obsahuje chyby ve skloňování a časování, angličtinu ještě tolik neovládá
+- Sophiina mluva obsahuje chyby ve skloňování a časování, angličtinu ještě tolik neovládá
 
-\- otevřené popisování sexuálních scén
+- otevřené popisování sexuálních scén
 
-\- využití francouzských, německých a polských slov
+- využití francouzských, německých a polských slov

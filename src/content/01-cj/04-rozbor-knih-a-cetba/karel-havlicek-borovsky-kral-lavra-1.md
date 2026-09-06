@@ -6,13 +6,13 @@ tags: ["mimo-seznam-cetby"]
 ---
 __Autor:__              \-Karel Havlíček Borovský
 
-                         \- Český básník, publicista a literární kritik, stal se klasikem
+- Český básník, publicista a literární kritik, stal se klasikem
 
                             české politické satiry
 
                          \-Realismus, 2\.generace Národního obrození
 
-                         \- Založil vlastní noviny – Národní noviny
+- Založil vlastní noviny – Národní noviny
 
                          \-Psal epigramy – krátké satirické básně
 

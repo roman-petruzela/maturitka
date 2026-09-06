@@ -38,19 +38,19 @@ __Historické pozadí \(Staré řecké báje a pověsti\)__
 
 Antická literatura \- literatura starověkého Řecka, Říma
 
-                                \- začalo v období 8 stol\. př\.n\.l\. a skončilo v 5 stol\. \.n\.l\.
+- začalo v období 8 stol\. př\.n\.l\. a skončilo v 5 stol\. \.n\.l\.
 
-                                \- v 5\. stol\. n\.l\. došlo k nahrazení antické vzdělanosti kulturou křesťanskou
+- v 5\. stol\. n\.l\. došlo k nahrazení antické vzdělanosti kulturou křesťanskou
 
 Přínos antické kultury:  \- Řekové \- mytologie, vznik tragédie a komedie
 
-                                           \- Římané \- rozvod dědictví starověku, rozšíření ant\. kultury po Evropě
+- Římané \- rozvod dědictví starověku, rozšíření ant\. kultury po Evropě
 
 __ŘECKO__ \- 8\. \- 6\. stol\. př\. n\. l\.
 
 Architektura \- dórský, ionský, korintský architektonický styl
 
-                        \- hradby měli budit dojem, že je postavili mocní Kyklopové
+- hradby měli budit dojem, že je postavili mocní Kyklopové
 
 Malířství \- hodně dekorativní, postavy při různých činnostech, ornamenty
 
@@ -58,37 +58,37 @@ Malířství \- hodně dekorativní, postavy při různých činnostech, ornamen
 
 Archaické období \- 8\. až 6\. stol\. př\. n\. l\.,  řecká myt\. byla datována jen ústně
 
-                                \- Homér \- nejstarší známý řecký básník, o jeho životě neexistují hist\. dolož\. inf\.
+- Homér \- nejstarší známý řecký básník, o jeho životě neexistují hist\. dolož\. inf\.
 
-                                \- Dílo: Ilias \- veršovaný hrd\. epos, tvoří jej 24 zpěvů s více než 15 000 verši, děj zach\. troj\. v\.
+- Dílo: Ilias \- veršovaný hrd\. epos, tvoří jej 24 zpěvů s více než 15 000 verši, děj zach\. troj\. v\.
 
                                            Odyssea \- verš\. hrd\. epos, 24 zpěvů asi 12 000 veršů, popisuje cestu ithackého krále
 
                                                              Odyssea z Trojské války
 
-                                 \- Ezop \- tvůrce bajek
+- Ezop \- tvůrce bajek
 
-                                 \- Do archaického období dále patří Hesiodos a Anakreon
+- Do archaického období dále patří Hesiodos a Anakreon
 
 Klasické \(attaické\) období \- 5\. stol\. př\.n\.l\., vznik a rozvoj tragédie a komedie
 
-                                               \- Aischylos \- autor tragédie, přidal na scénu druhého herce, zavedl dialog
+- Aischylos \- autor tragédie, přidal na scénu druhého herce, zavedl dialog
 
-                                               \- Dílo: Oresteia \- čerpal z mytologie a řešil otázku Oresteovy viny
+- Dílo: Oresteia \- čerpal z mytologie a řešil otázku Oresteovy viny
 
-                                               \- Sofokles \- jeho tvorba byla oblíbená, působil jako athénský pokladník
+- Sofokles \- jeho tvorba byla oblíbená, působil jako athénský pokladník
 
-                                               \- Dílo: Antigona \- pohřbí tělo svého bratra, který si dovolil zaútočit na Théby, aby
+- Dílo: Antigona \- pohřbí tělo svého bratra, který si dovolil zaútočit na Théby, aby
 
                                                                               získal trůn, Kreont chce popravit Antigonu, nechá ji zazdít
 
-                                               \- Euripides \- vynikal ve zpěvu, tanci, atletice, narodil se v zámožné rodině
+- Euripides \- vynikal ve zpěvu, tanci, atletice, narodil se v zámožné rodině
 
-                                               \- Dílo: Médea \- čerpá z mýt\. příběhu milenky a manželky lasona
+- Dílo: Médea \- čerpá z mýt\. příběhu milenky a manželky lasona
 
-                                               \- Aristoteles \- filozof a vědec, vychovatel Alexandra Velikého
+- Aristoteles \- filozof a vědec, vychovatel Alexandra Velikého
 
-                                               \- Herodotos \- přezdíván jako otec dějepisu, historik
+- Herodotos \- přezdíván jako otec dějepisu, historik
 
 Helenistické období \- řecká civilizace, kultura a jazyk se rozšiřuje do Orientu
 
@@ -96,7 +96,7 @@ Helenistické období \- řecká civilizace, kultura a jazyk se rozšiřuje do O
 
 __ŘÍM__ \- byl založen 753 př\. n\. l\., v roce 395 se říše rozpadla na Západořím\. a Východořím\.
 
-         \- po vyhnání posledního krále vzniká republika
+- po vyhnání posledního krále vzniká republika
 
 Architektura \- od Řeků převzali tlupy, vysušovali močály, brali arch\. od ostatních národů
 
@@ -108,18 +108,18 @@ Hudba \- ovlivněna Etrusky
 
 __Archaické období__ \- Titus Maccius PLAUTUS \- představitel římské komedie, navazoval na divadel\. tradici
 
-                                 \- Komedie o hrnci
+- Komedie o hrnci
 
 Zlatý věk \- Caesar \- politik, vojevůdce, spisovatel, nejmocnější muž tehdejšího Říma, diktátor
 
-                 \- Marcus Tulius Cicero \- řečník
+- Marcus Tulius Cicero \- řečník
 
-                 \- Publius VERGILIUS Maro \- Aeneis \- epos, líčí příběhy hrdiny, který prchá z hořící tróje
+- Publius VERGILIUS Maro \- Aeneis \- epos, líčí příběhy hrdiny, který prchá z hořící tróje
 
-                 \- Publius Ovidius Naso \- Umění milovat \- rady ženám a mužům, jak si uchovat lásku,
+- Publius Ovidius Naso \- Umění milovat \- rady ženám a mužům, jak si uchovat lásku,
 
-                                                          \- Proměny \- 250 epických básní
+- Proměny \- 250 epických básní
 
 Stříbrný věk \- Marcus Aurelius \- filozof na trůně \- hovory k sobě
 
-                       \- Publius Cornelius Tacitus \- největší historik starověk\. Říma \- zachytil vývoj římského impéria od smrti prvního císaře
+- Publius Cornelius Tacitus \- největší historik starověk\. Říma \- zachytil vývoj římského impéria od smrti prvního císaře

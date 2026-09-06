@@ -71,27 +71,27 @@ Dílo: 	povídky: Kulička, Marná krása,
 
 __REALISMUS__
 
-\- rozvíjel se společně s romantismem, 2\. pol\. 19\. stol\., je to období národního obrození
+- rozvíjel se společně s romantismem, 2\. pol\. 19\. stol\., je to období národního obrození
 
-\- u nás vedle významných realistů období básnických skupin \(Májovci, Lumírovci, Ruchovci\)
+- u nás vedle významných realistů období básnických skupin \(Májovci, Lumírovci, Ruchovci\)
 
-\- neexistuje výjimečný svět ani jedinec, autoři nepsali vůbec o minulosti
+- neexistuje výjimečný svět ani jedinec, autoři nepsali vůbec o minulosti
 
-\- kritika současných chyb, ale snaží se o nápravu ve společnosti
+- kritika současných chyb, ale snaží se o nápravu ve společnosti
 
-\- pravdivost, věrnost, co nejlepší přiblížení skutečnosti
+- pravdivost, věrnost, co nejlepší přiblížení skutečnosti
 
-\- autor nevstupuje ani nezasahuje do děje, nechává vyvíjet události přirozeně
+- autor nevstupuje ani nezasahuje do děje, nechává vyvíjet události přirozeně
 
-\- __kritický realismus__ vystupňovaný realismus \(u nás venkovský \(K\.V\. Rais, Antal Stašek\) x historický \(A\. Jirásek\)
+- __kritický realismus__ vystupňovaný realismus \(u nás venkovský \(K\.V\. Rais, Antal Stašek\) x historický \(A\. Jirásek\)
 
 __NATURALISMUS__
 
-\- z latinského natura = příroda
+- z latinského natura = příroda
 
-\- omezení člověka na jeho biologickou podstatu\. Všímá si dědičnosti a vlivu prostředí\.
+- omezení člověka na jeho biologickou podstatu\. Všímá si dědičnosti a vlivu prostředí\.
 
-\- zakladatelem Emile Zola, vznik ve Francii
+- zakladatelem Emile Zola, vznik ve Francii
 
 Další autoři realismu:
 

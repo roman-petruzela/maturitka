@@ -59,9 +59,9 @@ Jde o autobiografickou vzpomínku na autorovo dětství a dospívání\.
 - viz\. \- Tatínek musel nasytit své syny předtím, než je pošlou do Terezína\.
 - __Časoprostor \(prostřední a doba, ve které se odehrává to dílo\)__
 
-\- od 30\. let přes dobu okupace až do 60\. let 20\. stol\.
+- od 30\. let přes dobu okupace až do 60\. let 20\. stol\.
 
-\- Praha, okolí Berounky, Buštěhrad, křivoklátské lesy
+- Praha, okolí Berounky, Buštěhrad, křivoklátské lesy
 
 - __Kompozice__
 - 8 povídek, chronolog\.
@@ -110,9 +110,9 @@ __Jazykové funkce__
 
 __DETAILY__
 
-\- V povídkách se projevuje autorův vztah k přírodě, k rybaření, k rodné zemi, k venkovu, k rodině\.
+- V povídkách se projevuje autorův vztah k přírodě, k rybaření, k rodné zemi, k venkovu, k rodině\.
 
-\- Výraznou roli hraje příroda\. \(Příroda mu pomáhá, aby našel cestu sám k sobě, aby se zbavil neupřímnosti,
+- Výraznou roli hraje příroda\. \(Příroda mu pomáhá, aby našel cestu sám k sobě, aby se zbavil neupřímnosti,
 
    přetvářky a smutku lidského života\. Odměňuje se jí pokorou a něhou: *„Chtěl jsem se stokrát zabít, když už *
 
@@ -120,9 +120,9 @@ __DETAILY__
 
 *   chytit stříbrné ryby\. Ta rybařina mě naučila trpělivosti a vzpomínky mi pomáhaly přežít\.“\)*
 
-\- Příběhy jsou prosté, hluboce lidské, mají jednoduchý děj a jednoduchou kompozici\.
+- Příběhy jsou prosté, hluboce lidské, mají jednoduchý děj a jednoduchou kompozici\.
 
-\- Závažné věci sděluje nenápadně, bez patosu, jakoby mimochodem \(např\.když vypráví o transportech do
+- Závažné věci sděluje nenápadně, bez patosu, jakoby mimochodem \(např\.když vypráví o transportech do
 
   koncentráků či o Lidicích\)\.
 
@@ -130,7 +130,7 @@ Jako jeden z mála autorů, který se dokázal věnovat jak útrapám války, ta
 
 __Vypravěč:__
 
-\- personální, osobní \- on je tím nejmladším chlapcem v rodině a vzpomíná na svůj život a lidi kolem sebe
+- personální, osobní \- on je tím nejmladším chlapcem v rodině a vzpomíná na svůj život a lidi kolem sebe
 
   v určité době
 

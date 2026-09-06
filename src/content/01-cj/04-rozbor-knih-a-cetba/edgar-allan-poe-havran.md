@@ -41,61 +41,61 @@ __Znaky literárního směru:__
 
 Romantismus:
 
-\- umělecký směr, který se odráží v uměleckých odvětvích, ale také životní pocit
+- umělecký směr, který se odráží v uměleckých odvětvích, ale také životní pocit
 
-\- vznik v Anglii na počátku 19\. století, odtud do celé Evropy
+- vznik v Anglii na počátku 19\. století, odtud do celé Evropy
 
-\- je ovlivněn revolučními převraty v době národněosvobozeneckých válek
+- je ovlivněn revolučními převraty v době národněosvobozeneckých válek
 
-\- inspirací je gotika pro svou tajuplnost
+- inspirací je gotika pro svou tajuplnost
 
-\- znaky romantismu: důraz na city, zájem o historii, únik z reality, autor se ztotožňuje
+- znaky romantismu: důraz na city, zájem o historii, únik z reality, autor se ztotožňuje
 
 s hrdinou, tragické konce hrdinů, zájem o přírodu, hrdina zobrazován v krajních situacích,
 
 inspirace ústní lidovou slovesností, svoboda umělecké tvorby, jazyk citově zabarvený
 
-\- hojné použití básnických jazykových prostředků
+- hojné použití básnických jazykových prostředků
 
-\- typický romantický hrdina: většinou myšlenkově totožný s autorem = má autobiografické
+- typický romantický hrdina: většinou myšlenkově totožný s autorem = má autobiografické
 
 rysy, většinou výjimečná osobnost, nikdo mu nerozumí, je osamělý; touží po lásce, ale často
 
 miluje nešťastně, jeho život končí tragicky, jeho původ je nejasný
 
-\- typické romantické prostředí: výjimečné – hrad, samota, hřbitov, katedrála, sklepení, temné, jezero, hluboký les
+- typické romantické prostředí: výjimečné – hrad, samota, hřbitov, katedrála, sklepení, temné, jezero, hluboký les
 
-\- hlavní žánry: román, povídka, balada
+- hlavní žánry: román, povídka, balada
 
 Dekadence, tzv\. prokletí básníci:
 
-\- označení pro francouzské básníky poslední třetiny 19\. století
+- označení pro francouzské básníky poslední třetiny 19\. století
 
-\- označení použil Paul Verlaine v eseji Prokletí básníci \(vydáno 1884\) pro sebe, Tristana
+- označení použil Paul Verlaine v eseji Prokletí básníci \(vydáno 1884\) pro sebe, Tristana
 
 Corbiéra, Arthura Rimbauda a Charlese Baudelaira
 
-\- spojeni s dekadentním způsobem života – drogy, alkohol, zločinnost, násilí, neúcta
+- spojeni s dekadentním způsobem života – drogy, alkohol, zločinnost, násilí, neúcta
 
 k pravidlům
 
-\- původně se označení prokletí básníci používalo jen pro autory zmíněné v eseji, později se
+- původně se označení prokletí básníci používalo jen pro autory zmíněné v eseji, později se
 
 používal pro všechny spisovatele, jejichž život byl protispolečenský → O\. Wilde, E\. A\. Poe
 
-\- žili naplno – bohémsky, bouřili se proti vlastní rodině i proti společnosti
+- žili naplno – bohémsky, bouřili se proti vlastní rodině i proti společnosti
 
-\- scházeli se v kavárnách, oblékali se výstředně, vzájemně si půjčovali peníze
+- scházeli se v kavárnách, oblékali se výstředně, vzájemně si půjčovali peníze
 
-\- např\. je k nim řazen renesanční básník Francois Villon nebo K\. H\. Mácha
+- např\. je k nim řazen renesanční básník Francois Villon nebo K\. H\. Mácha
 
 znaky tvorby prokletých básníků:
 
-\- hlavní znak: krása v ošklivosti, svoboda, nezávislost jedince na společnosti, soustředěnost na vnitřní život člověka, právo osobitého vidění světa
+- hlavní znak: krása v ošklivosti, svoboda, nezávislost jedince na společnosti, soustředěnost na vnitřní život člověka, právo osobitého vidění světa
 
 → ve své době nebyli pochopeni, pobuřovali, inspirace dalších generací
 
-\- přinesli poezii novou inspiraci, protikladné dojmy hromaděny vedle sebe
+- přinesli poezii novou inspiraci, protikladné dojmy hromaděny vedle sebe
 
 __Téma a myšlenka:__
 
@@ -127,17 +127,17 @@ Havran však stále sedí\. Muž shledává, že jeho duše se už nevzchopí\.
 
 Výklad podle Poeovy Filozofie básnické skladby:
 
-\- báseň má takový rozsah, aby se dala přečíst najednou; je ucelená \(108 veršů\)
+- báseň má takový rozsah, aby se dala přečíst najednou; je ucelená \(108 veršů\)
 
-\- cílem básně bylo vzbudit ve čtenáři Krásno
+- cílem básně bylo vzbudit ve čtenáři Krásno
 
-\- krása vynikne, pokud bude tón básně smutný
+- krása vynikne, pokud bude tón básně smutný
 
-\- refrénem básně je slovo „nevermore“ \(víckrát ne\), které je krátké a dobře zní
+- refrénem básně je slovo „nevermore“ \(víckrát ne\), které je krátké a dobře zní
 
-\- nejsmutnější téma je podle básníka smrt krásné ženy, proto ho zvolil
+- nejsmutnější téma je podle básníka smrt krásné ženy, proto ho zvolil
 
-\- autor nechal hlavního hrdinu pokládat stále závažnější a závažnější otázky, na něž havran
+- autor nechal hlavního hrdinu pokládat stále závažnější a závažnější otázky, na něž havran
 
 vždy odpoví „nevermore“, až začne pokládat otázky, které jsou pro něj zásadní – „pronáší je
 

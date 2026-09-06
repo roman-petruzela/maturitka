@@ -68,21 +68,21 @@ __Karel Čapek__
 
 __\-__ představitel humanistické demokratické literatury = demokratický proud
 
-\- narodil se roku 1890 ve Svatoňovicích
+- narodil se roku 1890 ve Svatoňovicích
 
-\- český spisovatel, novinář, překladatel, dramatik, politik
+- český spisovatel, novinář, překladatel, dramatik, politik
 
-\- vystudoval filozofii a začal psát do Lidových novin spolu s bratrem Josefem
+- vystudoval filozofii a začal psát do Lidových novin spolu s bratrem Josefem
 
-\- jeho próza i dramata paří mezi vrcholné české autory
+- jeho próza i dramata paří mezi vrcholné české autory
 
-\- zajímal se o fotografování, etnickou hudbu a cizí kultury
+- zajímal se o fotografování, etnickou hudbu a cizí kultury
 
-\- předsedou Československého svazu spisovatelů
+- předsedou Československého svazu spisovatelů
 
-\- uvědomoval si nebezpečí fašismu a upozorňoval na ně ve svém díle
+- uvědomoval si nebezpečí fašismu a upozorňoval na ně ve svém díle
 
-\- odepsání Mnichovské dohody pak bral jako národní i osobní tragédii
+- odepsání Mnichovské dohody pak bral jako národní i osobní tragédii
 
 \-Další autorova díla: Bílá nemoc, Krakatit
 
@@ -92,23 +92,23 @@ __Česká meziválečná literatura 1\. poloviny 20\. Století__
 
 __Česká próza – Demokratický proud__
 
-\- Meziválečná česká próza
+- Meziválečná česká próza
 
-\- Autoři, kteří ho zastupují stojí na pozicích demokracie, obhajují lidství
+- Autoři, kteří ho zastupují stojí na pozicích demokracie, obhajují lidství
 
-\- Pracovali jako redaktoři v Lidových novinách
+- Pracovali jako redaktoři v Lidových novinách
 
-\- Atmosféra doby: \- 1\. světová válka, 2\. světová válka
+- Atmosféra doby: \- 1\. světová válka, 2\. světová válka
 
-\- Autoři demokratického proudu byli tzv\. pragmatisté
+- Autoři demokratického proudu byli tzv\. pragmatisté
 
 Pragmatismus = filozofický směr 20\. století, vznikl v USA\. Správné je to, co je pro člověka prospěšné\.
 
-\- Snažili se vybírat i to, co skutečného člověk zajímá, vznikají i knížky o zahradničení, fotbalu, o chovu domácích zvířat, čtenáři se snažili přiblížit i jazykem, do děl vkládají i humor
+- Snažili se vybírat i to, co skutečného člověk zajímá, vznikají i knížky o zahradničení, fotbalu, o chovu domácích zvířat, čtenáři se snažili přiblížit i jazykem, do děl vkládají i humor
 
-\- Rozvíjela se i literární kritika\.
+- Rozvíjela se i literární kritika\.
 
-\- Do jeho děl se dostávají i utopické prvky\.
+- Do jeho děl se dostávají i utopické prvky\.
 
 __R\.U\.R\. \- Rossumovi univerzální roboti__
 

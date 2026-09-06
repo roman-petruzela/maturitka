@@ -38,25 +38,25 @@ __Postavy:__  Cyril \- zkorumpovaný soudce, sobec
 
 Současná česká literatura
 
-\- v listopadu 1989 komun\. režim potlačil studentskou demonstraci
+- v listopadu 1989 komun\. režim potlačil studentskou demonstraci
 
-\- Václav Havel byl zvolen prezidentem republiky
+- Václav Havel byl zvolen prezidentem republiky
 
-\- ČR členem EU od roku 2004, klesá zájem o časopisy, zahlcení trhu
+- ČR členem EU od roku 2004, klesá zájem o časopisy, zahlcení trhu
 
-\- poezie \- na trh se dostalo velké množství kvalitních děl, snížení zájmu o nové autory
+- poezie \- na trh se dostalo velké množství kvalitních děl, snížení zájmu o nové autory
 
-\- próza \- autoři přecházeli k politice, zájem o sci\-fi
+- próza \- autoři přecházeli k politice, zájem o sci\-fi
 
-\- divadlo \- snižování dotací, centra politického a kulturního dění
+- divadlo \- snižování dotací, centra politického a kulturního dění
 
-\- literární ceny: Skácelová cena, Karla Čapka, Seiferta
+- literární ceny: Skácelová cena, Karla Čapka, Seiferta
 
 Ženy v literatuře
 
 Tučková \- vystudovala gympl v Brně \- Vyhnání Gerty Schnirch \- osud německé dívky vyhnané v 1945
 
-                                                                  \- Žítkovské bohyně \- příběhy léčitelek z Bílých Karpat
+- Žítkovské bohyně \- příběhy léčitelek z Bílých Karpat
 
 Procházková \- Pan Ministr \- o Masarykovi |Slunce v úplňku \- příběh Palacha, popis invaze do ČSR
 

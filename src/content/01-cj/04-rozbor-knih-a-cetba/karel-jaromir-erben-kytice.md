@@ -62,41 +62,41 @@ motiv = vina a trest, osud, marný boj proti nadpřirozeným silám
 prostor = česká krajina – vesnice, les, jezero, hřbitov
 
 3. Kompoziční výstavba
-\- 13 balad
-\- básně s tragickým koncem
-\- tématicky si odpovídají první na poslední, druhá na předposlední atd\.
+- 13 balad
+- básně s tragickým koncem
+- tématicky si odpovídají první na poslední, druhá na předposlední atd\.
 
 4. Literární druh a žánr
-\- literární forma = poezie
-\- literární druh = lyryckoepický
-\- literární žánr = balada
+- literární forma = poezie
+- literární druh = lyryckoepický
+- literární žánr = balada
 
 5. Vypravěč / lyrický subjekt
-\- je zde použitá „ich“ forma ale i „er“ forma
+- je zde použitá „ich“ forma ale i „er“ forma
 
 6. Postavy
-\- hlavní postavy jsou ženy, většinou matky, které ubližují svou láskou dětem
+- hlavní postavy jsou ženy, většinou matky, které ubližují svou láskou dětem
 další postavy: Vodník, Polednice, Mrtvý milenec
 
 7. Vyprávěcí způsoby
-\- přímá řeč v dialozích postav
+- přímá řeč v dialozích postav
 
 8. Typy promluv
-\- stručné dialogy
-\- popis krajiny
+- stručné dialogy
+- popis krajiny
 
 9. Veršová výstavba
-\- sdružený a střídavý rým
-\- obkročný, přerývaný, přízvučný rým
-\- gnomický verš = krátký a hutný
+- sdružený a střídavý rým
+- obkročný, přerývaný, přízvučný rým
+- gnomický verš = krátký a hutný
 
 10. Jazykové prostředky a jejich funkce ve výňatku
-\- strohý jazyk
-\- běžná slova
-\- dokonalá zvukomalba
-\- časté citoslovce
-\- naléhavost a mystičnost
-\- zvukomalba
+- strohý jazyk
+- běžná slova
+- dokonalá zvukomalba
+- časté citoslovce
+- naléhavost a mystičnost
+- zvukomalba
 
 11. Tropy a figury a jejich funkce ve výňatku
 tropy = metafora, přirovnání, personifikace

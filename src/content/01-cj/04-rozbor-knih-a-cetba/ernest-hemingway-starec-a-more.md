@@ -55,27 +55,27 @@ __Kontext autorovy tvorby__
 
 __Ernest Hemingway__
 
-\- novinář, spisovatel
+- novinář, spisovatel
 
-\- čelní představitel Ztracené generace
+- čelní představitel Ztracené generace
 
-\- hned po vypuknutí 1\. světové války vstoupil do italské armády jako dobrovolník
+- hned po vypuknutí 1\. světové války vstoupil do italské armády jako dobrovolník
 
    ambulantních sborů Červeného kříže, byl těžce raněn
 
-\- miloval přírodu, lov a dobrodružství, hrál na violoncello, boxoval
+- miloval přírodu, lov a dobrodružství, hrál na violoncello, boxoval
 
-\- španělské občanské války se zúčastnil jako reportér
+- španělské občanské války se zúčastnil jako reportér
 
-\- za druhé světové války pobýval na Kubě a vyhledával německé ponorky v Karibském moři
+- za druhé světové války pobýval na Kubě a vyhledával německé ponorky v Karibském moři
 
-\- způsob psaní: metoda ledovce  podstatné je to co je „mezi řádky“ \(cílem je si to domyslet\)
+- způsob psaní: metoda ledovce  podstatné je to co je „mezi řádky“ \(cílem je si to domyslet\)
 
-\- v roce 1953 získal Pulitzerovu cenu
+- v roce 1953 získal Pulitzerovu cenu
 
-\- v roce 1954 dostal Nobelovu cenu za dílo Stařec a moře
+- v roce 1954 dostal Nobelovu cenu za dílo Stařec a moře
 
-\- v roce 1961 pravděpodobně spáchal sebevraždu \(zastřelil se puškou\) \- někdy smrt
+- v roce 1961 pravděpodobně spáchal sebevraždu \(zastřelil se puškou\) \- někdy smrt
 
   vysvětlována jako nehoda při čistění hlavně
 
@@ -89,13 +89,13 @@ __Literárně/obecně kulturní kontext__
 
 představitel americké meziválečné prózy, 1\. polovina 20\. Století\.
 
-\- představitel „ztracené generace“
+- představitel „ztracené generace“
 
 ztracená generace: \- skupina spisovatelů narozených kolem roku 1900
 
-                                   \- spisovatelé zažili první světovou válku a zobrazovali ji ve svých dílech
+- spisovatelé zažili první světovou válku a zobrazovali ji ve svých dílech
 
-                                   \- vyjadřují pocity vojáků po návratu z války \(vrátili se duševně zmrzačeni a měli
+- vyjadřují pocity vojáků po návratu z války \(vrátili se duševně zmrzačeni a měli
 
                                       problémy se zařazením se do společnosti\)
 

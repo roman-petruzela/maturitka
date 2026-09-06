@@ -51,16 +51,16 @@ Pomocí ironie autor vystavil kritice špatné vlastnosti lidí, společenské k
 Hra řeší problematiku ženské emancipace a v širším kontextu otázku lidské důstojnosti\.
 __Jazykové prostředky:
 __\- Psáno formou dialogů\.
-\- V textu je velká část věnována scénickým poznámkám, nejen na začátku dějství, ale i během něj, objevují se dlouhé pasáže s vysvětlivkami, co a proč kdo dělá\.
+- V textu je velká část věnována scénickým poznámkám, nejen na začátku dějství, ale i během něj, objevují se dlouhé pasáže s vysvětlivkami, co a proč kdo dělá\.
 \-Častý výskyt ironie, sarkasmu a komiky\.
-\- Kontrast života, jazyka, chování a zvyků mezi nižší a vyšší vrstvou \(slovní zásoba společenské "spodiny" = chybná výslovnost, délka samohlásek, jiné souhlásky, polykání celých slabik
-\- Jazyk: hovorový, spisovný i nespisovný, jednoduchý i knižní
-\- hyperbola: "Jela jsem taxíkem milionkrát\!"
-\- různá oslovení: "truhlíku, miláčku\.\.\."
-\- opakování slov: "ale copak, copak, copak\.\.\." \(gradace\)
-\- při oslovení použití 1\. pádu: "Pane strážník" \(nikoliv 5\. pádu\)
-\- metafora: "Není tu živá duše\.", "Jste moje sesterská bitevní loď\."
-\- přirovnání: "visela mi kolem krku jako balvan"
+- Kontrast života, jazyka, chování a zvyků mezi nižší a vyšší vrstvou \(slovní zásoba společenské "spodiny" = chybná výslovnost, délka samohlásek, jiné souhlásky, polykání celých slabik
+- Jazyk: hovorový, spisovný i nespisovný, jednoduchý i knižní
+- hyperbola: "Jela jsem taxíkem milionkrát\!"
+- různá oslovení: "truhlíku, miláčku\.\.\."
+- opakování slov: "ale copak, copak, copak\.\.\." \(gradace\)
+- při oslovení použití 1\. pádu: "Pane strážník" \(nikoliv 5\. pádu\)
+- metafora: "Není tu živá duše\.", "Jste moje sesterská bitevní loď\."
+- přirovnání: "visela mi kolem krku jako balvan"
 
 __Hlavní postavy:__
 

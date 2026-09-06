@@ -15,14 +15,14 @@ Děj se odehrává na počátku 17\. Století na hradě Elsinor v Dánsku\.
 
 __Literární směr :__
 
-\- představitel renesance, žil na přelomu 16\. a 17\. století
+- představitel renesance, žil na přelomu 16\. a 17\. století
 
 __Znaky literárního směru:__
 
 renesance = znovuzrození \(antiky\), obrození
 
 - pojem renesance je francouzský překlad užitý francouzským historikem [Julesem Micheletem](http://cs.wikipedia.org/wiki/Jules_Michelet" \o "Jules Michelet)
-\- 14\.\-16\. století
+- 14\.\-16\. století
 - zrod v severní Itálii na konci 13\. století, šířila se dál \(Anglie, Španělsko, Německo, Francie,\.\.\.\)
 - v italských městech se rozvíjel obchod, vytvořila se skupina bohatých obchodníků a bankéřů – podporovali umělce, studia = mecenáši
 - mnoho přírodních a astronomických objevů \(Koperník, Galilei, Bruno\) – tyto objevy otřásly církví
@@ -103,9 +103,9 @@ __Určení dalších autorů stejného um\. Směru:__
 
 Geoffrey Chaucer \(1340–1400\)
 
-\- první velký anglický básník
+- první velký anglický básník
 
-\- diplomat v královských službách – cestoval do Florencie, kde se setkal s Boccacciem a Petrarcou
+- diplomat v královských službách – cestoval do Florencie, kde se setkal s Boccacciem a Petrarcou
 
 *Canterburské povídky* – 24 veršovaných i prozaických povídek
 
@@ -113,31 +113,31 @@ Geoffrey Chaucer \(1340–1400\)
 
 Giordano Bruno
 
-\- byl jeden z nejvýznamnějších italských filozofů, spisovatel \(básník a komediograf\), astronom
+- byl jeden z nejvýznamnějších italských filozofů, spisovatel \(básník a komediograf\), astronom
 
 Dante Alighieri \(1265–1321\)
 
-\- z Florencie, proti papeži – 20 let ve vyhnanství
+- z Florencie, proti papeži – 20 let ve vyhnanství
 
 *Božská komedie* – psáno 15 let ve vyhnanství, duchovní epos, vyjádření lásky k Beatrici
 
 Francesco Petrarca \(1304–1374\)
 
-\- z Florencie, ve vyhnanství – studoval práva v Avignonu
+- z Florencie, ve vyhnanství – studoval práva v Avignonu
 
-\- kněz, platonická láska se šlechtičnou Laurou
+- kněz, platonická láska se šlechtičnou Laurou
 
 *Sonety Lauře* \(*Zpěvník*\) – dvě části \(za života Laury, po její smrti\)
 
-\- 366 milostných básní, většina formou sonetu
+- 366 milostných básní, většina formou sonetu
 
 Giovanni Boccaccio \(1313–1375\)
 
-\- tvrdé dětství – přísný otec, macecha
+- tvrdé dětství – přísný otec, macecha
 
-\- vystudoval práva, hodně cestoval
+- vystudoval práva, hodně cestoval
 
-\- psal od mládí, příběhy s milostnou tematikou
+- psal od mládí, příběhy s milostnou tematikou
 
 *Dekameron* – soubor 100 novel, „kniha krve a rozkoše“
 
@@ -165,20 +165,20 @@ Francois Villon \(1431–1463\)
 
 Miguel de Cervantes Saavedra \(1547–1616\)
 
-\- prozaik, dramatik, básník, vrcholný autor zlatého věku španělského písemnictví
+- prozaik, dramatik, básník, vrcholný autor zlatého věku španělského písemnictví
 
-\- smutný život – z rodiny zchudlého šlechtice, neměli na vzdělání
+- smutný život – z rodiny zchudlého šlechtice, neměli na vzdělání
 
-\- v bitvě přišel o levou ruku, později v zajetí a 5 let otrokem v Alžíru, po návratu se oženil
+- v bitvě přišel o levou ruku, později v zajetí a 5 let otrokem v Alžíru, po návratu se oženil
 
 *Důmyslný rytíř Don Quijote de la Mancha* – dvoudílný román \(1605, 1615\)
 
-\- satira na rytířské romány
+- satira na rytířské romány
 
 Lope de Vega \(1562–1635\)
 
-\- divadelní teoretik, nejvýznamnější dramatik zlatého věku – napsal přes 1800 her \(zachovalo se jich asi 500\)
+- divadelní teoretik, nejvýznamnější dramatik zlatého věku – napsal přes 1800 her \(zachovalo se jich asi 500\)
 
-\- idol Španělů
+- idol Španělů
 
 Fuente Ovejuna \(Ovčí pramen\) – vrcholné drama, námět z národních dějin

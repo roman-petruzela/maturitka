@@ -8,7 +8,7 @@ __Autor__
 
 \-1660 – 1731 \(Londýn\)
 
-\- Narodil se do rodiny řezníka a svíčkaře Jamese Foa\. Na svůj původ nebyl nijak hrdý a později si ke jménu přidal šlechticky znějící předponu De
+- Narodil se do rodiny řezníka a svíčkaře Jamese Foa\. Na svůj původ nebyl nijak hrdý a později si ke jménu přidal šlechticky znějící předponu De
 
 \-Získal dobré vzdělání a stal se obchodníkem
 

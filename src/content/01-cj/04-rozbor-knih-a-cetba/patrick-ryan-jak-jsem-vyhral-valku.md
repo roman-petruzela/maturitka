@@ -8,12 +8,12 @@ __17\. Jak jsem vyhrál válku \- Patrick Rayn
 __\-Světová literatura 20\. století
 reaguje na 2\.sv
  __Západní proud__:\- Psychologicky propracovaná lit\., líčí pravdivé dějství v 2\.sv, není patetická, spíše dojemná,hledá způsob jak se vyrovnat s zážitky z hrůz války
-\- Angličan, prozaik\- narozen na ostrově Wight, rodiče byli Irové
-\- účastník 2\. světové války – válčil v Severní Africe, Itálii, Řecku
-\- narukoval k pěšímu pluku, byl povýšen na důstojníka
-\- po válce žil v Leedsu, pracoval jako manažer továrny
-\- poté pracoval jako vrchní poštmistr
-\- od 60\. let psal do humoristického časopisu Punch, přispíval do časopisů Playboy a Holiday
+- Angličan, prozaik\- narozen na ostrově Wight, rodiče byli Irové
+- účastník 2\. světové války – válčil v Severní Africe, Itálii, Řecku
+- narukoval k pěšímu pluku, byl povýšen na důstojníka
+- po válce žil v Leedsu, pracoval jako manažer továrny
+- poté pracoval jako vrchní poštmistr
+- od 60\. let psal do humoristického časopisu Punch, přispíval do časopisů Playboy a Holiday
 Další autoři: Joseph Heller, William Styron, Michail Šolochov
 
 2\.__Druh:__ Epika

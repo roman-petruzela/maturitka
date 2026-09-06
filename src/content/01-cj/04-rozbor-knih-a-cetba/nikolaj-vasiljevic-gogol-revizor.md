@@ -29,7 +29,7 @@ __Téma__
 
 __Motiv__
 
-\- motivy záměny, tupost a zkaženost úředníků
+- motivy záměny, tupost a zkaženost úředníků
 
 __Časoprostor__
 
@@ -39,7 +39,7 @@ __Časoprostor__
 
 __Kompoziční výstavba__
 
-\- kompozice díla je chronologická, 5 dějství, poslední je nejkratší
+- kompozice díla je chronologická, 5 dějství, poslední je nejkratší
 
 __Literární druh a žánr__
 
@@ -53,11 +53,11 @@ __II\. část__
 
 __Vypravěč / lyrický subjekt__
 
-\- __Typy promluv__ – dialog – střídání více ich\-forem, dialog hejtmana a Chlestakova
+- __Typy promluv__ – dialog – střídání více ich\-forem, dialog hejtmana a Chlestakova
 
-\- Veršová výstavba není
+- Veršová výstavba není
 
-\- __Vyprávěcí způsoby__ \-  přímá řeč hejtmana a Chlestakova
+- __Vyprávěcí způsoby__ \-  přímá řeč hejtmana a Chlestakova
 
 __Postavy :__
 

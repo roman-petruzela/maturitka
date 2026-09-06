@@ -91,13 +91,13 @@ __Literární / obecně kulturní kontext:__
 
 Dekadence, tzv\. __prokletí básníci__
 
-\- označení pro francouzské básníky poslední třetiny 19\. století
+- označení pro francouzské básníky poslední třetiny 19\. století
 
-\- žili naplno – bohémsky, bouřili se proti vlastní rodině i proti společnosti
+- žili naplno – bohémsky, bouřili se proti vlastní rodině i proti společnosti
 
-\- scházeli se v kavárnách, oblékali se výstředně, vzájemně si půjčovali peníze
+- scházeli se v kavárnách, oblékali se výstředně, vzájemně si půjčovali peníze
 
-\- např\. je k nim řazen renesanční básník __Francois Villon__ nebo zakladatel hororu __E\. A\. Poe__, __K\. H\. Mácha__
+- např\. je k nim řazen renesanční básník __Francois Villon__ nebo zakladatel hororu __E\. A\. Poe__, __K\. H\. Mácha__
 
 znaky tvorby prokletých básníků:
 

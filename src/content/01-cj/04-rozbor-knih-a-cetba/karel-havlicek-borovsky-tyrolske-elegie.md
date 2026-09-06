@@ -53,7 +53,7 @@ __\-Kompoziční výstavba :__
 
    \-[ich\-forma](http://www.cesky-jazyk.cz/slovnicek-pojmu/ich-forma/)
 
-   \- Knižní výrazy, obecná čeština, historismy, personifikace
+- Knižní výrazy, obecná čeština, historismy, personifikace
 
    \-Německé výrazy
 

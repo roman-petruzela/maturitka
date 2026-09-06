@@ -10,35 +10,35 @@ __Autor:__
 
 Alexander Sergejevič Puškin \(1799–1837\)
 
-\- pocházel ze starého šlechtického rodu
+- pocházel ze starého šlechtického rodu
 
-\- studoval v Carském Selu lyceum pro šlechtice, kde vynikal svým literárním talentem
+- studoval v Carském Selu lyceum pro šlechtice, kde vynikal svým literárním talentem
 
-\- po ukončení studia pracoval na ministerstvu zahraničí v Petrohradě
+- po ukončení studia pracoval na ministerstvu zahraničí v Petrohradě
 
-\- začal se politicky angažovat \(sympatizoval s děkabristy\)
+- začal se politicky angažovat \(sympatizoval s děkabristy\)
 
-\- byl členem literárního spolku Zelená lampa a Arzamas
+- byl členem literárního spolku Zelená lampa a Arzamas
 
-\- roku 1820 odchází do vyhnanství do jižního Ruska a v r\. 1823 do Oděsy
+- roku 1820 odchází do vyhnanství do jižního Ruska a v r\. 1823 do Oděsy
 
-\- roku 1825 je mu povolen volný pohyb
+- roku 1825 je mu povolen volný pohyb
 
-\- odešel do Moskvy, kde založil časopis Moskovskij Věstnik
+- odešel do Moskvy, kde založil časopis Moskovskij Věstnik
 
-\- roku 1831 se odstěhoval do Petrohradu, kde se oženil s Natalií Nikolajevnou Gončarovovou
+- roku 1831 se odstěhoval do Petrohradu, kde se oženil s Natalií Nikolajevnou Gončarovovou
 
-\- téhož roku se stal úředníkem ministerstva zahraničí
+- téhož roku se stal úředníkem ministerstva zahraničí
 
-\- dne 8\. února 1837 se Puškin utkal v souboji s pistolemi s milencem své ženy a
+- dne 8\. února 1837 se Puškin utkal v souboji s pistolemi s milencem své ženy a
 
 pozdějším francouzským diplomatem Georgesem d'Anthèsem, ten střelil Puškina do břicha
 
-\- v hrozných bolestech byl odvezen domů, kde prohlásil carův osobní lékař Puškinův stav za
+- v hrozných bolestech byl odvezen domů, kde prohlásil carův osobní lékař Puškinův stav za
 
 beznadějný, zemřel o dva dny později
 
-\- o jeho rodinu se s doživotní penzí postaral car
+- o jeho rodinu se s doživotní penzí postaral car
 
 __Určení místa a času textu místo:__
 
@@ -52,25 +52,25 @@ Romantismus
 
 __Znaky literárního směru:__
 
-\- od slova román = dobrodružný jako v románě
+- od slova román = dobrodružný jako v románě
 
-\- vznikl v Anglii na počátku 19\. stol\., rozšířil se do celé Evropy
+- vznikl v Anglii na počátku 19\. stol\., rozšířil se do celé Evropy
 
- \- někde přetrval celou polovinu 19\. stol\.
+- někde přetrval celou polovinu 19\. stol\.
 
-\- navazuje na tendence preromantismu
+- navazuje na tendence preromantismu
 
- \- není jen umělecký styl, ale životní pocit, postoj člověka
+- není jen umělecký styl, ale životní pocit, postoj člověka
 
- \- nový způsob pohledu na svět
+- nový způsob pohledu na svět
 
  – silně subjektivní a individualistický
 
-\- požaduje se tvůrčí svoboda, nezávislost, touha po harmonii s přírodou
+- požaduje se tvůrčí svoboda, nezávislost, touha po harmonii s přírodou
 
- \- inspirace – gotika pro svou tajuplnost
+- inspirace – gotika pro svou tajuplnost
 
-\- Lidé jsou nespokojeni, cítí se vyřazeni ze společnosti, osamoceni
+- Lidé jsou nespokojeni, cítí se vyřazeni ze společnosti, osamoceni
 
 __Téma:__
 
@@ -84,7 +84,7 @@ což může vést ke zničení života\. Člověk by si měl peníze vydělat, n
 
 __Obsah:__
 
-\- povídka je rozdělena do šesti kapitol
+- povídka je rozdělena do šesti kapitol
 
  Tomský ve společnosti karetních hráčů vypráví příběh své babičky Anny Fedotovny\.
 
@@ -188,23 +188,23 @@ Rusko
 
 * Michael Jurjevič Lermontov \(1814–1841\)*
 
- \- básník, prozaik, dramatik
+- básník, prozaik, dramatik
 
- \- jeho dílem vrcholí ruský revoluční romantismus
+- jeho dílem vrcholí ruský revoluční romantismus
 
- \- zemřel ve 27 letech v souboji \(jako pravý romantik\) na Kavkaze ve vyhnanství
+- zemřel ve 27 letech v souboji \(jako pravý romantik\) na Kavkaze ve vyhnanství
 
  *\- Démon – poema*
 
 *Francie Victor Hugo \(1802–1885*\)
 
- \- nejslavnější osobnost francouzského romantismu
+- nejslavnější osobnost francouzského romantismu
 
- \- 20 let byl ve vyhnanství na malém ostrově u Normandie
+- 20 let byl ve vyhnanství na malém ostrově u Normandie
 
- \- napsal zde básnickou epiku Legenda věků \(trojdílný básnický cyklus, zobrazuje vývoj lidstva, filozofický podtext\)
+- napsal zde básnickou epiku Legenda věků \(trojdílný básnický cyklus, zobrazuje vývoj lidstva, filozofický podtext\)
 
- \- *Chrám Matky boží v Paříži, Bídníci*
+- *Chrám Matky boží v Paříži, Bídníci*
 
 *Stendhal \(1783–1842\)*
 
@@ -220,17 +220,17 @@ Anglie
 
 *Jane Austenová \(1775–1817\)*
 
-\- narodila se roku 1775 ve Steventonu v hrabství Hampshire \(\+1817\)
+- narodila se roku 1775 ve Steventonu v hrabství Hampshire \(\+1817\)
 
-\- byla anglická spisovatelka, představitelka tzv\. rodinného románu \(domestic novel\)
+- byla anglická spisovatelka, představitelka tzv\. rodinného románu \(domestic novel\)
 
-\- ve svých dílech obvykle zachycovala život venkovských vyšších vrstev
+- ve svých dílech obvykle zachycovala život venkovských vyšších vrstev
 
-\- *Pýcha a předsudek, Emma, Northangerské panství*
+- *Pýcha a předsudek, Emma, Northangerské panství*
 
 *George Gordon Byron \(1788\-1824\)*
 
-\- hlavní představitel romantismu
+- hlavní představitel romantismu
 
 básnické povídky: Džaur, Korzár, Lara – hlavním hrdinou je člověk revoltující proti
 
@@ -240,9 +240,9 @@ současnému světu
 
 *Percy Bysshe Shelley \(1792–1822\)*
 
-\- zemřel utonutím, plavil se na lodi Ariel
+- zemřel utonutím, plavil se na lodi Ariel
 
-\- jeho manželka, Mary Shelleyová, je autorkou Frankensteina
+- jeho manželka, Mary Shelleyová, je autorkou Frankensteina
 
 *Odpoutaný Prométheus* – dramatická báseň, utopie, vyjadřuje téma osvobození lidské
 
@@ -250,7 +250,7 @@ Myšlenky
 
 *Walter Scott \(1771–1832\)*
 
-\- považován za zakladatele historické povídky a historického románu
+- považován za zakladatele historické povídky a historického románu
 
 *Waverly *– román o povstání v Irsku
 

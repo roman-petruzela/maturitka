@@ -19,23 +19,23 @@ Romantismus
 
 __Znaky literárního směru__
 
-\- od slova román = dobrodružný jako v románě
+- od slova román = dobrodružný jako v románě
 
- \- vznikl v Anglii na počátku 19\. stol\., rozšířil se do celé Evropy
+- vznikl v Anglii na počátku 19\. stol\., rozšířil se do celé Evropy
 
-\- někde přetrval celou polovinu 19\. stol\.
+- někde přetrval celou polovinu 19\. stol\.
 
- \- navazuje na tendence preromantismu
+- navazuje na tendence preromantismu
 
- \- není jen umělecký styl, ale životní pocit, postoj člověka
+- není jen umělecký styl, ale životní pocit, postoj člověka
 
- \- nový způsob pohledu na svět
+- nový způsob pohledu na svět
 
 – silně subjektivní a individualistický
 
-\- požaduje se tvůrčí svoboda, nezávislost, touha po harmonii s přírodou
+- požaduje se tvůrčí svoboda, nezávislost, touha po harmonii s přírodou
 
-\- inspirace
+- inspirace
 
 – gotika pro svou tajuplnost
 
@@ -157,23 +157,23 @@ Rusko
 
 * Michael Jurjevič Lermontov \(1814–1841\)*
 
- \- básník, prozaik, dramatik
+- básník, prozaik, dramatik
 
- \- jeho dílem vrcholí ruský revoluční romantismus
+- jeho dílem vrcholí ruský revoluční romantismus
 
- \- zemřel ve 27 letech v souboji \(jako pravý romantik\) na Kavkaze ve vyhnanství
+- zemřel ve 27 letech v souboji \(jako pravý romantik\) na Kavkaze ve vyhnanství
 
  *\- Démon – poema*
 
 *Francie Victor Hugo \(1802–1885*\)
 
- \- nejslavnější osobnost francouzského romantismu
+- nejslavnější osobnost francouzského romantismu
 
- \- 20 let byl ve vyhnanství na malém ostrově u Normandie
+- 20 let byl ve vyhnanství na malém ostrově u Normandie
 
- \- napsal zde básnickou epiku Legenda věků \(trojdílný básnický cyklus, zobrazuje vývoj lidstva, filozofický podtext\)
+- napsal zde básnickou epiku Legenda věků \(trojdílný básnický cyklus, zobrazuje vývoj lidstva, filozofický podtext\)
 
- \- *Chrám Matky boží v Paříži, Bídníci*
+- *Chrám Matky boží v Paříži, Bídníci*
 
 *Stendhal \(1783–1842\)*
 
@@ -189,17 +189,17 @@ Anglie
 
 *Jane Austenová \(1775–1817\)*
 
-\- narodila se roku 1775 ve Steventonu v hrabství Hampshire \(\+1817\)
+- narodila se roku 1775 ve Steventonu v hrabství Hampshire \(\+1817\)
 
-\- byla anglická spisovatelka, představitelka tzv\. rodinného románu \(domestic novel\)
+- byla anglická spisovatelka, představitelka tzv\. rodinného románu \(domestic novel\)
 
-\- ve svých dílech obvykle zachycovala život venkovských vyšších vrstev
+- ve svých dílech obvykle zachycovala život venkovských vyšších vrstev
 
-\- *Pýcha a předsudek, Emma, Northangerské panství*
+- *Pýcha a předsudek, Emma, Northangerské panství*
 
 *George Gordon Byron \(1788\-1824\)*
 
-\- hlavní představitel romantismu
+- hlavní představitel romantismu
 
 básnické povídky: Džaur, Korzár, Lara – hlavním hrdinou je člověk revoltující proti
 
@@ -209,9 +209,9 @@ současnému světu
 
 *Percy Bysshe Shelley \(1792–1822\)*
 
-\- zemřel utonutím, plavil se na lodi Ariel
+- zemřel utonutím, plavil se na lodi Ariel
 
-\- jeho manželka, Mary Shelleyová, je autorkou Frankensteina
+- jeho manželka, Mary Shelleyová, je autorkou Frankensteina
 
 *Odpoutaný Prométheus* – dramatická báseň, utopie, vyjadřuje téma osvobození lidské
 
@@ -219,7 +219,7 @@ Myšlenky
 
 *Walter Scott \(1771–1832\)*
 
-\- považován za zakladatele historické povídky a historického románu
+- považován za zakladatele historické povídky a historického románu
 
 *Waverly *– román o povstání v Irsku
 

@@ -29,7 +29,7 @@ __VYPRAVĚČ__ = Er\-forma, Ich\-forma
 
 __POSTAVY__ = Kvido \- neohrabaný, tlustý, nadprůměrně inteligentní
 
-                               \- autorovo alter ego
+- autorovo alter ego
 
                 = Jaruška \- životní láska Kvida, alergická na všechno
 
