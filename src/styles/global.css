@@ -214,6 +214,25 @@ a {
 	margin: 0;
 	color: var(--muted);
 	font-size: 0.9rem;
+	/* Truncate instead of wrapping — at narrow widths this used to wrap
+	   onto a second line for longer descriptions while shorter ones
+	   stayed on one, giving every card row a different height and
+	   breaking the list's visual rhythm. min-width: 0 is needed for a
+	   flex item to actually shrink below its content's intrinsic width
+	   (the flexbox default is min-width: auto, which would otherwise
+	   force wrapping/overflow instead of letting text-overflow kick in).
+	   flex-basis: 0 (not auto) matters at very narrow widths specifically:
+	   with "auto", the flex-wrap line-breaking decision still uses the
+	   text's full nowrap content width as this item's hypothetical size,
+	   so on a narrow enough screen it got pushed onto its own line below
+	   the heading instead of just shrinking in place — flex-basis 0 makes
+	   it contribute ~nothing to that calculation and rely purely on
+	   flex-grow for whatever space is actually left on the row. */
+	flex: 1 1 0%;
+	min-width: 0;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
 }
 
 @media (max-width: 560px) {
