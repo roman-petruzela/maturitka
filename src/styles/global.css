@@ -1,25 +1,18 @@
 @import 'mathlive/static.css';
 
+/* Always the same dark brown/orange palette, regardless of the device's
+   system light/dark preference — this used to follow
+   prefers-color-scheme, which meant devices set to light mode got a
+   plain white theme instead of the intended look. */
 :root {
-	--bg: #fdfcfa;
-	--fg: #1c1a17;
-	--muted: #6b6558;
-	--accent: #8a3324;
-	--border: #e4ddd0;
-	--card-bg: #ffffff;
+	--bg: #16140f;
+	--fg: #ece7dc;
+	--muted: #a39d8d;
+	--accent: #e0a17a;
+	--border: #34302a;
+	--card-bg: #1e1b15;
 	--max-width: 72ch;
-	color-scheme: light dark;
-}
-
-@media (prefers-color-scheme: dark) {
-	:root {
-		--bg: #16140f;
-		--fg: #ece7dc;
-		--muted: #a39d8d;
-		--accent: #e0a17a;
-		--border: #34302a;
-		--card-bg: #1e1b15;
-	}
+	color-scheme: dark;
 }
 
 * {
