@@ -254,6 +254,62 @@ const PEN_WIDTHS = [
 			// stays reachable while the whiteboard is in fullscreen (the
 			// Fullscreen API only renders the fullscreen element itself, so
 			// buttons living outside it, like (a), become unclickable there).
+			//
+			// Not every numbered item is actually something worth writing out
+			// on a blank canvas, though — two cases specifically don't belong:
+			//
+			// 1. Plain illustrative lists that aren't a task at all — e.g. a
+			//    "Příklady výroků:" list that just shows what a výrok looks
+			//    like (there's nothing to solve, only a fact to read). Content
+			//    across this corpus is too varied to require one single
+			//    positive marker for "this is a real exercise" (some real
+			//    exercises are introduced by "**Příklad:**", others by
+			//    "Postup řešení:", "Úkoly (interaktivní...)", or just a plain
+			//    imperative sentence with no special marker at all) — trying
+			//    that made the filter far too aggressive and stripped the
+			//    button from dozens of genuine exercises across the site.
+			//    What the illustrative case actually looks like, specifically,
+			//    is an intro starting with the *plural* "Příklady" ("examples
+			//    of ...") as opposed to the singular "Příklad" used to label
+			//    an actual exercise — a narrow, deliberately conservative
+			//    negative signal instead of a broad positive requirement.
+			// 2. Exercises that already carry their own interactive scaffolding
+			//    on the page — a value table, a plotted graph, or a result
+			//    math-field — between this item and the next heading/candidate.
+			//    Those can't be usefully "taken to the canvas" since the point
+			//    of the exercise is filling in that scaffolding, not freehand
+			//    work.
+			const NUMBERED_RE = /^\d{1,2}[.)]\s*\S/;
+			const ILLUSTRATIVE_INTRO_RE = /^Příklady\b/i;
+			const isNumberedParagraph = (el: Element | null) =>
+				!!el && el.tagName === 'P' && NUMBERED_RE.test((el.firstChild?.textContent ?? el.textContent ?? '').trim());
+
+			function precedingIntro(el: Element): Element | null {
+				let prev = el.previousElementSibling;
+				while (isNumberedParagraph(prev)) prev = prev!.previousElementSibling;
+				return prev;
+			}
+
+			function isIllustrativeIntro(introEl: Element | null): boolean {
+				if (!introEl || introEl.tagName !== 'P') return false;
+				return ILLUSTRATIVE_INTRO_RE.test((introEl.textContent ?? '').trim());
+			}
+
+			// stopBefore is the next candidate group's own start element (or
+			// null at the end of the article) — scanning must not run past it,
+			// otherwise scaffolding that belongs to a *later*, unrelated
+			// exercise further down the page would wrongly veto this one.
+			function hasScaffoldingBefore(startEl: Element, stopBefore: Element | null): boolean {
+				let node: Element | null = startEl;
+				while (node && node !== stopBefore) {
+					if (node.matches('table, .graph-plot, .spoiler-block, math-field')) return true;
+					if (node.querySelector?.('table, .graph-plot, .spoiler-block, math-field')) return true;
+					if (/^H[1-4]$/.test(node.tagName) && node !== startEl) break;
+					node = node.nextElementSibling;
+				}
+				return false;
+			}
+
 			const addNote = (text: string) => {
 				createFloatingNote(canvasWrap, text);
 				whiteboardRoot.scrollIntoView({ behavior: 'smooth', block: 'center' });
@@ -266,12 +322,40 @@ const PEN_WIDTHS = [
 
 			const article = document.querySelector('article.topic');
 			if (article) {
-				const candidates = new Set<HTMLElement>();
-				article.querySelectorAll('ol > li').forEach((li) => candidates.add(li as HTMLElement));
+				const allCandidates = new Set<HTMLElement>();
+				article.querySelectorAll('ol > li').forEach((li) => allCandidates.add(li as HTMLElement));
 				article.querySelectorAll('p').forEach((p) => {
-					const firstText = (p.firstChild?.textContent ?? p.textContent ?? '').trim();
-					if (/^\d{1,2}[.)]\s*\S/.test(firstText)) candidates.add(p as HTMLElement);
+					if (isNumberedParagraph(p)) allCandidates.add(p as HTMLElement);
 				});
+
+				// Dedupe into one entry per group (all <li> of the same <ol>
+				// share a group), in document order, so each group's scaffolding
+				// scan knows exactly where the *next* group starts.
+				const groupOf = (el: HTMLElement) => (el.tagName === 'LI' ? (el.closest('ol') as HTMLElement) : el);
+				const groups: HTMLElement[] = [];
+				const seenGroups = new Set<HTMLElement>();
+				for (const el of allCandidates) {
+					const group = groupOf(el);
+					if (!seenGroups.has(group)) {
+						seenGroups.add(group);
+						groups.push(group);
+					}
+				}
+				groups.sort((a, b) =>
+					a.compareDocumentPosition(b) & Node.DOCUMENT_POSITION_FOLLOWING ? -1 : 1
+				);
+
+				const allowedGroups = new Set<HTMLElement>();
+				groups.forEach((group, i) => {
+					if (isIllustrativeIntro(precedingIntro(group))) return;
+					if (hasScaffoldingBefore(group, groups[i + 1] ?? null)) return;
+					allowedGroups.add(group);
+				});
+
+				const candidates = new Set<HTMLElement>();
+				for (const el of allCandidates) {
+					if (allowedGroups.has(groupOf(el))) candidates.add(el);
+				}
 
 				candidates.forEach((el) => {
 					const text = el.textContent?.trim();
@@ -528,6 +612,57 @@ const PEN_WIDTHS = [
 
 	.whiteboard:fullscreen .whiteboard-canvas-wrap {
 		min-height: 0;
+	}
+
+	/* Fullscreen HUD, Miro-style: the toolbar leaves the top bar and floats
+	   as a vertical pill along the left edge instead, over the canvas
+	   rather than squeezing it — matches how dedicated whiteboard apps lay
+	   out their tools once the canvas itself is the whole viewport. Taken
+	   out of normal flow (position: absolute), so .whiteboard-canvas-wrap
+	   (flex: 1 1 auto) naturally reclaims the strip of height the toolbar
+	   used to occupy at the top. */
+	.whiteboard:fullscreen .whiteboard-toolbar {
+		position: absolute;
+		top: 50%;
+		left: 1.25rem;
+		transform: translateY(-50%);
+		z-index: 20;
+		flex-direction: column;
+		width: auto;
+		padding: 0.6rem 0.5rem;
+		border-radius: 999px;
+		border: 1px solid var(--border);
+		border-bottom: 1px solid var(--border);
+		box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+	}
+
+	.whiteboard:fullscreen .whiteboard-group {
+		flex-direction: column;
+	}
+
+	/* thin dividers between tool groups, like Miro's floating toolbar —
+	   only shown once stacked vertically, a horizontal bar reads fine
+	   without them */
+	.whiteboard:fullscreen .whiteboard-toolbar > *:not(:first-child) {
+		border-top: 1px solid var(--border);
+		padding-top: 0.5rem;
+		margin-top: 0.1rem;
+	}
+
+	.whiteboard:fullscreen .whiteboard-exercises {
+		margin-left: 0;
+	}
+
+	.whiteboard:fullscreen .whiteboard-exercises-toggle {
+		width: 2rem;
+		justify-content: center;
+		padding: 0;
+	}
+
+	.whiteboard:fullscreen .whiteboard-exercises-menu {
+		top: 0;
+		left: calc(100% + 0.6rem);
+		right: auto;
 	}
 
 	.whiteboard-canvas {
