@@ -10,24 +10,21 @@ Po roce 1945 se svět rozdělí na dva soupeřící bloky — poválečná liter
 
 ### Alexandr Solženicyn
 - **Charakteristika:** (Rusko) Sám prošel sovětským táborem nucených prací (gulagem) za vykonstruované obvinění.
-- **Jeden den Ivana Děnisoviče:**
+- **Jeden den Ivana Děnisoviče** ([rozbor](/cj/rozbor-knih-a-cetba/alexandr-isajevic-solzenicyn-jeden-den-ivana-denisovice/ "Rozbor díla Jeden den Ivana Děnisoviče")):
   - **Děj:** Líčí jediný, zdánlivě "docela dobrý" den vězně v gulagu — právě všední, věcný tón bez přehnaného patosu činí z díla drtivé svědectví o systému, ve kterém je i "dobrý den" jen dnem holého přežití.
-  - **Rozbor:** [Jeden den Ivana Děnisoviče](/cj/rozbor-knih-a-cetba/alexandr-isajevic-solzenicyn-jeden-den-ivana-denisovice/)
 - **Souostroví Gulag:** Rozsáhlé dílo systematicky mapuje celý sovětský táborový systém.
 
 ### Michail Alexandrovič Šolochov
 - **Charakteristika:** (Rusko)
-- **Osud člověka:**
+- **Osud člověka** ([rozbor](/cj/rozbor-knih-a-cetba/michail-alexandrovic-solochov-osud-cloveka/ "Rozbor díla Osud člověka")):
   - **Děj:** Voják Andrej Sokolov přežije německé zajetí i ztrátu celé rodiny za 2. světové války, a přesto si po válce najde sílu ujmout se osiřelého chlapce a začít znovu žít.
   - **Téma:** Syrové i hluboce lidské svědectví o schopnosti přežít i tu nejtěžší ztrátu.
-  - **Rozbor:** [Osud člověka](/cj/rozbor-knih-a-cetba/michail-alexandrovic-solochov-osud-cloveka/)
 
 ### William Styron
 - **Charakteristika:** (USA)
-- **Sophiina volba:**
+- **Sophiina volba** ([rozbor](/cj/rozbor-knih-a-cetba/william-styron-sophiina-volba/ "Rozbor díla Sophiina volba")):
   - **Děj:** Polská přistěhovalkyně Sophie žije v poválečné Americe s tajemstvím z Osvětimi — nacistický důstojník ji kdysi donutil vybrat, které z jejích dvou dětí půjde do plynové komory a které přežije.
   - **Téma:** Nesnesitelná vina, kterou oběť holocaustu musí nosit navzdory tomu, že sama nic nezavinila.
-  - **Rozbor:** [Sophiina volba](/cj/rozbor-knih-a-cetba/william-styron-sophiina-volba/)
 
 ### Robert Merle
 - **Charakteristika:** (Francie)
@@ -37,15 +34,13 @@ Po roce 1945 se svět rozdělí na dva soupeřící bloky — poválečná liter
 
 ### Patrick Ryan
 - **Charakteristika:** (Anglie)
-- **Jak jsem vyhrál válku:**
+- **Jak jsem vyhrál válku** ([rozbor](/cj/rozbor-knih-a-cetba/patrick-ryan-jak-jsem-vyhral-valku/ "Rozbor díla Jak jsem vyhrál válku")):
   - **Děj:** Parodie na tradiční válečné hrdinské příběhy, ve které se neschopný, ale sebejistý britský poručík Goodbody přesvědčuje, že to byl právě on, kdo svými (ve skutečnosti katastrofálními) rozhodnutími vyhrál válku.
-  - **Rozbor:** [Jak jsem vyhrál válku](/cj/rozbor-knih-a-cetba/patrick-ryan-jak-jsem-vyhral-valku/)
 
 ### Henryk Sienkiewicz
 - **Charakteristika:** (Polsko, přelom 19./20. stol., Nobelova cena) Sem svým dílem chronologicky nepatří, ale bývá se poválečnou i starší historickou prózou probírán společně kvůli tématu perzekuce.
-- **Quo vadis:**
+- **Quo vadis** ([rozbor](/cj/rozbor-knih-a-cetba/henryk-sienkiewicz-quo-vadis/ "Rozbor díla Quo vadis")):
   - **Děj:** Historický román líčí pronásledování prvních křesťanů v Římě za císaře Nerona a jejich vytrvalost ve víře navzdory hrozbě mučednické smrti.
-  - **Rozbor:** [Quo vadis](/cj/rozbor-knih-a-cetba/henryk-sienkiewicz-quo-vadis/)
 
 ## Beat generation (60. léta, USA)
 
@@ -80,36 +75,31 @@ Po roce 1945 se svět rozdělí na dva soupeřící bloky — poválečná liter
 
 ### Vladimir Nabokov
 - **Charakteristika:** (Rusko/USA)
-- **Lolita:**
+- **Lolita** ([rozbor](/cj/rozbor-knih-a-cetba/vladimir-nabokov-lolita/ "Rozbor díla Lolita")):
   - **Děj:** Vypravěč Humbert Humbert, sofistikovaný a jazykově brilantní, ale morálně zcela zvrácený muž, líčí vlastní posedlost dvanáctiletou dívkou.
   - **Téma:** Dílo je čtenářsky náročné právě proto, že krásný, přesvědčivý jazyk vypravěče je v naprostém rozporu s hrůzností toho, co ve skutečnosti popisuje.
-  - **Rozbor:** [Lolita](/cj/rozbor-knih-a-cetba/vladimir-nabokov-lolita/)
 
 ## Populární a současná světová próza
 
 ### Agatha Christie
 - **Charakteristika:** (Anglie) Nejprodávanější autorka detektivních románů historie.
-- **Smrt na Nilu:**
+- **Smrt na Nilu** ([rozbor](/cj/rozbor-knih-a-cetba/agatha-christie-smrt-na-nilu/ "Rozbor díla Smrt na Nilu")):
   - **Děj:** Slavný belgický detektiv Hercule Poirot řeší vraždu na palubě lodi plující po Nilu, obklopen uzavřeným okruhem podezřelých se skrytými motivy — typický příklad klasické "whodunit" detektivky s překvapivým rozuzlením.
-  - **Rozbor:** [Smrt na Nilu](/cj/rozbor-knih-a-cetba/agatha-christie-smrt-na-nilu/)
 
 ### Stephen King
 - **Charakteristika:** (USA) Nejplodnější současný autor hororu a napínavé prózy.
-- **Zelená míle:**
+- **Zelená míle** ([rozbor](/cj/rozbor-knih-a-cetba/stephen-king-zelena-mile/ "Rozbor díla Zelená míle")):
   - **Děj:** Novela se odehrává na cele smrti americké věznice 30. let, kde dozorce objeví, že odsouzený obr Coffey má tajemný léčitelský dar, což zpochybní jistotu o jeho vině.
-  - **Rozbor:** [Zelená míle](/cj/rozbor-knih-a-cetba/stephen-king-zelena-mile/)
 
 ### John Green
 - **Charakteristika:** (USA) Autor populární young-adult prózy.
-- **Hvězdy nám nepřály:**
+- **Hvězdy nám nepřály** ([rozbor](/cj/rozbor-knih-a-cetba/john-green-hvezdy-nam-nepraly/ "Rozbor díla Hvězdy nám nepřály")):
   - **Děj:** Vypráví o lásce dvou teenagerů, kteří se poznají ve skupině pro onkologicky nemocné, s citlivým, ale nesentimentálním pohledem na nemoc, smrt a to, jak najít smysl i v omezeném čase.
-  - **Rozbor:** [Hvězdy nám nepřály](/cj/rozbor-knih-a-cetba/john-green-hvezdy-nam-nepraly/)
 
 ### Jonas Jonasson
 - **Charakteristika:** (Švédsko)
-- **Stoletý stařík, který vylezl z okna a zmizel:**
+- **Stoletý stařík, který vylezl z okna a zmizel** ([rozbor](/cj/rozbor-knih-a-cetba/jonas-jonasson-stolety-starik-ktery-vylezl-z-okna-a-zmizel/ "Rozbor díla Stoletý stařík, který vylezl z okna a zmizel")):
   - **Děj:** Stoletý Allan uteče v den svých narozenin z domova důchodců a jeho absurdní útěk se prolíná se vzpomínkami na jeho neuvěřitelný život, ve kterém (mimoděk) ovlivnil klíčové události světové historie 20. století.
-  - **Rozbor:** [Stoletý stařík...](/cj/rozbor-knih-a-cetba/jonas-jonasson-stolety-starik-ktery-vylezl-z-okna-a-zmizel/)
 
 ## Cvičení
 

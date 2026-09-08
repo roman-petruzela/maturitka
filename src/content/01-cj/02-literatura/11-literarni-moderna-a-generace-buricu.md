@@ -8,9 +8,9 @@ Na přelomu 19. a 20. století se v evropské literatuře objevuje hned několik
 
 ## Literární moderna — evropské směry
 
-- **Symbolismus:** Pracuje se znakem a nepřímým pojmenováním — místo přesného popisu autor naznačuje, čtenář musí sám dotvořit význam; typický je i volný verš.
-- **Impresionismus:** Snaží se zachytit prchavý, subjektivní dojem okamžiku (odtud "impression") a zaujmout všechny smysly najednou, ne jen popsat fakta.
-- **Dekadence:** Zobrazuje i temné, negativní stránky života (úpadek, nemoc, přesycenost) jako formu kritiky společnosti. K tomuto okruhu patří i francouzští **prokletí básníci** — skupina spojená provokativním životním stylem a demonstrativní neúctou k měšťácké morálce a pravidlům.
+- **Symbolismus:** Pracuje se znakem (symbolem) a nepřímým pojmenováním — místo přesného popisu autor naznačuje a čtenář musí sám dotvořit význam; časté je hudební, zvukomalebné využití jazyka a princip **synestezie** (propojování vjemů různých smyslů v jednom obraze, např. "barva zvuku" nebo "vůně hudby").
+- **Impresionismus:** Snaží se zachytit prchavý, subjektivní dojem okamžiku (odtud "impression", z francouzštiny) a zaujmout všechny smysly najednou, ne jen popsat fakta — v próze i poezii se tak prosazuje **volný verš** (báseň bez pravidelného rýmu a metra, řídící se přirozeným rytmem věty a citu, ne předem daným vzorcem).
+- **Dekadence:** Zobrazuje i temné, negativní stránky života (úpadek, nemoc, přesycenost, umělost stavěná nad "zdravou" přirozenost) jako formu kritiky měšťácké společnosti. K tomuto okruhu patří i francouzští **prokletí básníci** — skupina spojená provokativním životním stylem a demonstrativní neúctou k měšťácké morálce a pravidlům.
 
 ### Charles Baudelaire
 - **Charakteristika:** (Francie) Zakladatelská postava symbolismu.
@@ -22,11 +22,10 @@ Na přelomu 19. a 20. století se v evropské literatuře objevuje hned několik
 
 ### Oscar Wilde
 - **Charakteristika:** (Irsko/Anglie) Dramatik a prozaik spojovaný s dekadencí a estetismem (přesvědčením, že umění nemusí sloužit morálce, jen kráse).
-- **Obraz Doriana Graye:**
+- **Obraz Doriana Graye** ([rozbor](/cj/rozbor-knih-a-cetba/oscar-wilde-obraz-doriana-graye-1/ "Rozbor díla Obraz Doriana Graye")):
   - **Děj:** Mladík si přeje věčné mládí — jeho portrét pak za něj stárne a hyzebně se mění s každým jeho mravním pádem, zatímco on sám zůstává navenek krásný.
-- **Šťastný princ:** Oblíbená pohádka.
+- **Šťastný princ** ([rozbor](/cj/rozbor-knih-a-cetba/oscar-wilde-stastny-princ/ "Rozbor díla Šťastný princ")): Oblíbená pohádka.
 - **Jak je důležité míti Filipa:** Komedie.
-- **Rozbory:** [Obraz Doriana Graye](/cj/rozbor-knih-a-cetba/oscar-wilde-obraz-doriana-graye-1/), [Šťastný princ](/cj/rozbor-knih-a-cetba/oscar-wilde-stastny-princ/)
 
 ## Česká moderna (konec 19. – počátek 20. stol.)
 
@@ -47,15 +46,13 @@ Mladí básníci spojení s anarchistickým hnutím (spolek Omladina) — protis
 
 ### Viktor Dyk
 - **Charakteristika:** Lyrický i epický básník, dramatik a prozaik.
-- **Krysař:**
+- **[Krysař](https://cs.wikisource.org/wiki/Krysař)** ([rozbor](/cj/rozbor-knih-a-cetba/viktor-dyk-krysar/ "Rozbor díla Krysař")):
   - **Děj:** Novela převypráví starou pověst o muži, který svou hrou na píšťalu vyžene z města krysy, ale když mu město odmítne zaplatit slíbenou odměnu, stejným způsobem odláká pryč i všechny jeho děti.
   - **Význam:** Dykova verze navíc dodává postavě krysaře hlubší, tragičtější vnitřní motivaci (zklamání z lidské malosti a chamtivosti).
-  - **Rozbor:** [Krysař](/cj/rozbor-knih-a-cetba/viktor-dyk-krysar/)
 
 ### Petr Bezruč
 - **Charakteristika:** Autor jediné, ale zásadní sbírky.
-- **Slezské písně:** Drsné, vzdorné verše, které dávají hlas národnostnímu a sociálnímu útisku slezského lidu (Poláků, Čechů i Němců) na přelomu století, na pomezí uhelných dolů a hutí Ostravska.
-- **Rozbor:** [Slezské písně](/cj/rozbor-knih-a-cetba/petr-bezruc-slezske-pisne/)
+- **Slezské písně** ([rozbor](/cj/rozbor-knih-a-cetba/petr-bezruc-slezske-pisne/ "Rozbor díla Slezské písně")): Drsné, vzdorné verše, které dávají hlas národnostnímu a sociálnímu útisku slezského lidu (Poláků, Čechů i Němců) na přelomu století, na pomezí uhelných dolů a hutí Ostravska.
 
 ### Fráňa Šrámek
 - **Charakteristika:** Básník (*Modrý a rudý*), prozaik (*Stříbrný vítr* — vzpomínka na studentská léta a první lásku) a dramatik (*Měsíc nad řekou*).
@@ -69,6 +66,7 @@ Mladí básníci spojení s anarchistickým hnutím (spolek Omladina) — protis
 
 ## Cvičení
 
+- Vysvětli pojmy synestezie a volný verš a řekni, ke kterému ze tří směrů literární moderny se váží.
 - Vysvětli rozdíl mezi symbolismem (Baudelaire, Březina) a impresionismem (Sova) — čím se liší jejich přístup k vyjádření prožitku?
 - Vysvětli, v čem je Dykův Krysař tragičtější než původní pověst, ze které vychází.
 - Ukaž na S. K. Neumannovi, jak se generace buřičů postupně vyvíjela od anarchismu k socialismu.

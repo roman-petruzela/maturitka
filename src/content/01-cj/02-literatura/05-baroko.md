@@ -6,6 +6,10 @@ tags: ["doplněno"]
 
 Baroko (2. polovina 16. stol. – 80. léta 18. stol.) vzniká jako reakce na neklidnou dobu náboženských válek a nejistoty — Evropu zmítá třicetiletá válka, boj mezi katolictvím a protestantismem, strach z pomíjivosti života. Umění barokní doby je velkolepé, mohutné, plné kontrastů (světlo a stín, život a smrt, tělesnost a spiritualita) a má za cíl doslova ohromit diváka či čtenáře a zapůsobit na jeho city — na rozdíl od renesančního klidu a harmonie. Typické literární žánry: legenda, duchovní epos, duchovní píseň, kázání, traktát, alegorický příběh.
 
+## Klíčové motivy: vanitas a memento mori
+
+Ústředním pocitem barokního člověka je pomíjivost a nejistota pozemského života. Odtud dva stále se vracející motivy: **vanitas** (marnost — vše pozemské, bohatství, krása i moc, je pomíjivé a nakonec bezvýznamné) a **memento mori** ("pamatuj na smrt" — připomínka, že smrt může přijít kdykoli, a proto je třeba žít mravně a myslet na spásu duše). Evropské baroko v tomto duchu tvoří i mimo české země (např. dramatik Pedro Calderón de la Barca ve Španělsku, "Život je sen"), v Čechách má ale baroko navíc zcela specifický, dramatický kontext pobělohorské doby.
+
 ## České baroko — doba pobělohorská
 
 Po prohrané bitvě na Bílé hoře (1620) čeká nekatolické obyvatelstvo Čech drsná volba: přestoupit ke katolictví, nebo zemi opustit. Odchází i velká část vzdělané české inteligence (tzv. "Čeští bratři") — vzniká proto významná **exilová literatura**.
@@ -18,7 +22,7 @@ Po prohrané bitvě na Bílé hoře (1620) čeká nekatolické obyvatelstvo Čec
 - **Labyrint světa a ráj srdce:**
   - **Děj:** Alegorické dílo popisuje pouť poutníka spletitým, klamným a marným světem (labyrintem plným falše a marnosti), který nakonec nalézá pravý klid jen v ústraní vlastního srdce s Bohem.
 
-Domácí (nikoli exilová) tvorba v Čechách je z velké části **jezuitská** — jezuité se ujímají vzdělávání a spolu s barokní zbožností vznikají duchovní písně, kázání, legendy, ale i naučná historická literatura. Vedle toho existuje i **lidová** barokní tvorba (poutní písně, legendy šířené mezi prostým lidem).
+Domácí (nikoli exilová) tvorba v Čechách je z velké části **jezuitská** — jezuité se ujímají vzdělávání a spolu s barokní zbožností vznikají duchovní písně, kázání, legendy, ale i naučná historická literatura. Vedle toho existuje i **lidová** barokní tvorba (poutní písně, legendy šířené mezi prostým lidem). Součástí této katolické, protireformační linie je i **Bible svatováclavská** (překlad Bible do češtiny z počátku 18. stol., pořízený jako katolická odpověď na exilovou Bibli kralickou z předchozí, protestantské éry — viz [Renesance a humanismus](/cj/literatura/04-renesance-a-humanismus/)).
 
 ### Bedřich Bridel
 - **Charakteristika:** (17. stol.) Autor barokní duchovní poezie.
@@ -32,6 +36,7 @@ Domácí (nikoli exilová) tvorba v Čechách je z velké části **jezuitská**
 
 ## Cvičení
 
+- Vysvětli pojmy vanitas a memento mori a ukaž je na Bridelově básni Co Bůh, co člověk?
 - Vysvětli, proč po Bílé hoře vznikla významná exilová větev české literatury a kdo k ní patřil.
 - Porovnej renesanční a barokní přístup k člověku — kde renesance zdůrazňuje rozum a harmonii, co zdůrazňuje baroko?
 - Vyjmenuj aspoň tři pedagogická díla J. A. Komenského a stručně řekni, čím bylo každé z nich průkopnické.

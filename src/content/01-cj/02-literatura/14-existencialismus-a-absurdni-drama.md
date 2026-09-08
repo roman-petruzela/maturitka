@@ -8,22 +8,20 @@ Po zkušenosti dvou světových válek ztrácí Evropa důvěru v to, že svět 
 
 ## Existencialismus (od 20. let 20. stol.)
 
-- **Charakteristika:** Především filozofický směr (z lat. *existentia*, bytí, jsoucno), který teprve druhotně ovlivňuje literaturu.
+- **Charakteristika:** Především filozofický směr (z lat. *existentia*, bytí, jsoucno), který teprve druhotně ovlivňuje literaturu. Jeho kořeny sahají k dánskému filozofovi 19. století Sørenu Kierkegaardovi a německému filozofovi Martinu Heideggerovi, plně rozvinutou literární i filozofickou podobu ale dostává až ve francouzském existencialismu 20. století (Sartre, Camus).
 - **Základní myšlenka:** Člověk je do světa "vržen" bez vlastní volby a je pak "odsouzen ke svobodě" — musí se neustále mezi něčím rozhodovat a nese za svá rozhodnutí (i za osudy lidí kolem sebe) plnou odpovědnost, aniž by měl na koho svalit vinu.
 - **Jistota a smysl:** Jediná jistota v životě je smrt. Protože svět existencialisté vnímají jako "bez Boha" (nebo bez jakéhokoli vnějšího zdroje smyslu), záleží čistě na člověku, jaký smysl svému životu sám dá — z toho pramení typické pocity úzkosti, odcizení a osamění, se kterými se existencialistický hrdina musí vyrovnat.
 
 ### Albert Camus
 - **Charakteristika:** (Francie, Nobelova cena)
-- **Cizinec:**
+- **Cizinec** ([rozbor](/cj/rozbor-knih-a-cetba/albert-camus-cizinec/ "Rozbor díla Cizinec")):
   - **Děj:** Hlavní hrdina Mersault reaguje na svět (i na vlastní vraždu, které se dopustí téměř bez zjevného motivu) s nápadnou citovou lhostejností; teprve ve vězení, tváří v tvář vlastní popravě, si plně uvědomí absurditu a zároveň jedinečnost vlastní existence.
   - **Téma:** Camus rozvíjel i pojem "absurdna" — rozporu mezi lidskou touhou po smyslu a lhostejným, nesmyslným světem.
-  - **Rozbor:** [Cizinec](/cj/rozbor-knih-a-cetba/albert-camus-cizinec/)
 
 ### Jean-Paul Sartre
 - **Charakteristika:** (Francie) Hlavní filozofický zakladatel existencialismu ("existence předchází esenci" — člověk se nejdřív narodí a teprve svými činy si sám vytváří to, čím je).
-- **Zeď:**
+- **Zeď** ([rozbor](/cj/rozbor-knih-a-cetba/jean-paul-sartre-zed/ "Rozbor díla Zeď")):
   - **Děj:** Povídka líčí poslední hodiny tří vězňů čekajících na popravu za španělské občanské války — jejich myšlenky a pocity těsně před smrtí jsou existenciální sondou do toho, co v takové chvíli člověku vlastně zůstává.
-  - **Rozbor:** [Zeď](/cj/rozbor-knih-a-cetba/jean-paul-sartre-zed/)
 
 ## Absurdní drama (50.–60. léta 20. stol.)
 
@@ -31,10 +29,9 @@ Po zkušenosti dvou světových válek ztrácí Evropa důvěru v to, že svět 
 
 ### Samuel Beckett
 - **Charakteristika:** (Irsko) Napsal klíčové dílo tohoto směru.
-- **Čekání na Godota:**
+- **Čekání na Godota** ([rozbor](/cj/rozbor-knih-a-cetba/samuel-beckett-cekani-na-godota/ "Rozbor díla Čekání na Godota")):
   - **Děj:** Dva tuláci, Vladimír a Estragon, čekají u opuštěné cesty na jistého pana Godota, aniž by přesně věděli, kdo to je nebo proč na něj čekají — Godot nikdy nepřijde, jen den co den přichází posel se zprávou, že přijde "zítra".
   - **Význam:** Hra je proslulá tím, že se v ní "nic neděje, a to dvakrát" — přesně to je ale její smysl: absurdní, nekonečné čekání jako obraz lidského údělu.
-  - **Rozbor:** [Čekání na Godota](/cj/rozbor-knih-a-cetba/samuel-beckett-cekani-na-godota/)
 
 ### Friedrich Dürrenmatt
 - **Charakteristika:** (Švýcarsko) Píše tragikomedie s ostrým společenským podtextem.

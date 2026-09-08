@@ -185,6 +185,61 @@ h1 {
 	margin-bottom: 0.3rem;
 }
 
+/* CJ literatura author photo (rehype-author-portrait.ts) — a real figure
+   floated beside the section, same treatment as a ```graph plot (see
+   .graph-plot, .graph-plot--float-right above), not a small inline avatar.
+   .author-photo-img/figcaption reuse the base .graph-plot rules for
+   spacing/caption styling; only the things specific to a photo (vs. an
+   SVG plot) are set here. */
+.author-photo-img {
+	display: block;
+	width: 100%;
+	max-height: 22rem;
+	object-fit: cover;
+	border-radius: 8px;
+	background: var(--border);
+}
+
+.author-photo--placeholder {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	aspect-ratio: 3 / 4;
+	border: 1px dashed var(--border);
+	border-radius: 8px;
+	color: var(--muted);
+	background: var(--card-bg);
+}
+
+.author-photo-placeholder-icon {
+	width: 30%;
+	height: 30%;
+}
+
+/* Small icon-only link to this site's own book analysis
+   (rehype-rozbor-link.ts) — sits right next to a work's title, which
+   itself links to the full text when one is available. */
+.rozbor-link {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 1.3rem;
+	height: 1.3rem;
+	margin-left: 0.15rem;
+	color: var(--muted);
+	vertical-align: -0.25em;
+}
+
+.rozbor-link:hover {
+	color: var(--accent);
+}
+
+.rozbor-icon {
+	width: 100%;
+	height: 100%;
+}
+
 a {
 	color: var(--accent);
 }

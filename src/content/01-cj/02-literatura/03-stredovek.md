@@ -6,6 +6,14 @@ tags: ["doplněno"]
 
 Středověká literatura (5.–15. století) se ještě dlouho šíří především mluveným slovem — přednáší se, zpívá nebo předčítá nahlas, protože gramotnost je vzácná a knihy (ručně psané na pergamenu) drahé. Zpočátku se píše výhradně latinsky, jazykem vzdělanců a církve, teprve postupně se prosazují národní jazyky. Literatura se dělí na **duchovní** (modlitby, žalmy, hymny, legendy o svatých, biblické hry) a **světskou** (dvorská a milostná lyrika, hrdinské a rytířské eposy, cestopisy, kroniky, frašky).
 
+## Myšlenkový základ a žánry středověku
+
+- **Teocentrismus:** Na rozdíl od antického důrazu na člověka je středověké myšlení teocentrické — středem světa i hodnotového žebříčku je Bůh, pozemský život je jen přípravou na posmrtný, a umění má sloužit především k oslavě víry a mravnímu poučení (odtud časté legendy a exempla — krátké naučné příběhy vkládané do kázání).
+- **Duchovní žánry:** **Legenda** (idealizovaný životopis světce, zdůrazňuje zázraky a mučednictví), **hagiografie** (opisné označení pro tento typ životopisné literatury o svatých), duchovní píseň a modlitba, biblické (liturgické) hry hrané v kostele o Vánocích a Velikonocích — z nich se postupně vyvinulo i světské drama (viz Mastičkář níže).
+- **Dvorská a rytířská literatura:** Ve Francii ji pěstují **truvéři** (na severu) a **trubadúři** (na jihu, provensálsky), v německých zemích **Minnesang** — milostná lyrika opěvující nedosažitelnou, společensky výše postavenou dámu (motiv tzv. dvorské lásky). Hrdinský epos (francouzsky *chanson de geste*, "píseň o činu") opěvuje vojenské činy a rytířské ctnosti (věrnost, čest, odvahu) — viz Píseň o Rolandovi níže.
+- **Kronika:** Chronologický záznam dějin (obvykle od "počátku světa" nebo mýtických počátků národa až po autorovu současnost), mísící ověřitelná fakta s pověstmi a legendami — ve středověku se ještě přísně nerozlišovalo mezi historickou pravdou a tradovaným vyprávěním.
+- **Satira a fraška:** Od pozdního středověku se vedle vážných duchovních a dvorských žánrů prosazuje i lidová komika a sociální satira (viz Mastičkář, Podkoní a žák níže) — ohlašuje pozdější renesanční důraz na svět "tady a teď".
+
 ## Evropská středověká literatura
 
 - **Píseň o Rolandovi** (Francie, kolem 12. stol., autor neznámý):
@@ -58,8 +66,11 @@ Nejstarší česká literatura vzniká na Velké Moravě a v raných Přemyslovs
 - **Charakteristika:** (kolem 1370–1415) Klíčová postava předhusitské doby — kazatel, reformátor a rektor pražské univerzity, který ostře kritizuje mravní úpadek církve, zejména prodej odpustků (spisy **O církvi**, **Knížky o svatokupectví**). Jeho učení bylo prohlášeno za kacířské a Hus byl roku 1415 upálen na kostnickém koncilu, což vyvolalo husitské revoluční hnutí.
 - **O pravopise českém:** Traktát, ve kterém navrhl zjednodušení tehdejšího složitého spřežkového pravopisu zavedením diakritických znamének — nabodeníčka krátkého (dnešní háček) a dlouhého (dnešní čárka); tato reforma je základem dodnes používaného českého pravopisu.
 
+Po Husově smrti vzniká v husitských Čechách 15. století bojová a satirická **husitská literatura** — anonymní bojové písně (nejznámější **Ktož jsú boží bojovníci**, zpívaná husitskými vojsky) a ostré náboženské a politické satiry namířené proti katolické církvi a papeži.
+
 ## Cvičení
 
+- Vysvětli pojem teocentrismus a ukaž na jednom díle z této kapitoly, jak se projevuje.
 - Vysvětli, proč se ve středověku dlouho nerozlišovalo mezi "historickou pravdou" a "pověstí" tak přísně jako dnes — dokresli na příkladu Kosmovy kroniky.
 - Porovnej Píseň o Rolandovi (hrdinský epos) s Mastičkářem (satirická fraška) — jak se v obou projevuje odlišný účel a publikum?
 - Vyjmenuj, čím byl Jan Hus významný jak pro církevní/politické dějiny, tak pro vývoj českého jazyka.

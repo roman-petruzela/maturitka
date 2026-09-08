@@ -10,6 +10,8 @@ tags: ["doplněno"]
 
 Osvícenství klade důraz na vzdělání, kritické myšlení a svobodu jednotlivce; ve Francii vzniká projekt **Encyklopedie** (snaha shromáždit veškeré tehdejší vědění na jedno místo, redigoval ji mj. Denis Diderot).
 
+**Formální znaky klasicismu:** Klasicismus se vrací k antickému pravidlu **tří jednot** (místa, času a děje — viz [Starověk a antika](/cj/literatura/02-starovek-a-antika/)) a k přísné **hierarchii žánrů**: "vysoké" žánry (tragédie, óda, epos) smějí zobrazovat jen urozené postavy a vážná témata, zatímco "nízké" žánry (komedie, bajka, satira) se věnují běžným lidem a všedním, i komickým situacím — tyto dvě roviny se přísně nesmějí míchat.
+
 ### Voltaire
 - **Charakteristika:** (vlastním jménem François-Marie Arouet, Francie) Filozof, dramatik a prozaik, mistr ironie a satiry.
 - **Candide, neboli Optimismus:**
@@ -17,24 +19,21 @@ Osvícenství klade důraz na vzdělání, kritické myšlení a svobodu jednotl
 
 ### Molière
 - **Charakteristika:** (vlastním jménem Jean-Baptiste Poquelin, Francie) Klasicistní komediograf, jehož hry dodnes patří k nejhranějším divadelním kusům světa.
-- **Lakomec:**
+- **Lakomec** ([rozbor](/cj/rozbor-knih-a-cetba/moliere-lakomec/ "Rozbor díla Lakomec")):
   - **Děj:** Zesměšňuje postavu Harpagona, jehož chorobná lakota ničí vztahy s vlastními dětmi.
-  - **Rozbor:** [Lakomec](/cj/rozbor-knih-a-cetba/moliere-lakomec/)
 - **Tartuffe:**
   - **Děj:** Satira na pokrytecké předstírání zbožnosti — titulní postava si pod rouškou zbožnosti a skromnosti postupně podmaňuje celou domácnost bohatého Orgona.
 
 ### Carlo Goldoni
 - **Charakteristika:** (Benátky) Reformátor italské komedie — na rozdíl od tehdy zavedené komedie dell'arte (improvizované, s ustálenými maskami) píše pevně dané texty s věrohodnějšími, civilnějšími postavami.
-- **Sluha dvou pánů:**
+- **Sluha dvou pánů** ([rozbor](/cj/rozbor-knih-a-cetba/carlo-goldoni-sluha-dvou-panu/ "Rozbor díla Sluha dvou pánů")):
   - **Děj:** Mazaný, věčně hladový sluha Truffaldino se ze ziskuchtivosti nechá najmout naráz dvěma pány a musí před oběma tajit, že slouží i tomu druhému, což vede k sérii komických omylů a zmatků.
-  - **Rozbor:** [Sluha dvou pánů](/cj/rozbor-knih-a-cetba/carlo-goldoni-sluha-dvou-panu/)
 
 ### Daniel Defoe
 - **Charakteristika:** (Anglie) Autor **Robinsona Crusoe**.
-- **Robinson Crusoe:**
+- **Robinson Crusoe** ([rozbor](/cj/rozbor-knih-a-cetba/daniel-defoe-robinson-crusoe/ "Rozbor díla Robinson Crusoe")):
   - **Děj:** Dobrodružný román o námořníkovi, který ztroskotá na pustém ostrově a musí si tam vlastníma rukama vybudovat obydlí, obstarat potravu a nakonec i společnost (domorodec, kterého zachrání a pojmenuje Pátek).
   - **Téma:** Oslava lidské vynalézavosti, houževnatosti a schopnosti civilizovat i tu nejdivočejší přírodu — dílo zakládá celý žánr "robinsonád".
-  - **Rozbor:** [Robinson Crusoe](/cj/rozbor-knih-a-cetba/daniel-defoe-robinson-crusoe/)
 
 ### Jonathan Swift
 - **Charakteristika:** (Irsko) Autor **Gulliverových cest**, fantastického a zároveň hluboce satirického cestopisného románu.
@@ -48,15 +47,15 @@ Preromantismus je přechodovým obdobím mezi klasicismem a romantismem. Klade d
 
 ### Johann Wolfgang Goethe
 - **Charakteristika:** (Německo) Stojí svým raným dílem přesně na hranici preromantismu a romantismu.
-- **Utrpení mladého Werthera:**
-  - **Děj:** Epistolární román o mladém muži, jehož nešťastná, beznadějná láska k zasnoubené (a později vdané) Lottě ho dovede až k sebevraždě.
+- **Utrpení mladého Werthera** ([rozbor](/cj/rozbor-knih-a-cetba/johann-wolfgang-von-goethe-utrpeni-mladeho-werthera/ "Rozbor díla Utrpení mladého Werthera")):
+  - **Děj:** **Epistolární román** (vyprávěný formou dopisů, což čtenáři umožňuje bezprostřední přístup k hrdinovým citům) o mladém muži, jehož nešťastná, beznadějná láska k zasnoubené (a později vdané) Lottě ho dovede až k sebevraždě.
   - **Význam:** Dílo vyvolalo ve své době skutečnou "vlnu werterismu", kdy se řada mladých čtenářů v Evropě sama zabila ze stejného důvodu.
-  - **Rozbor:** [Utrpení mladého Werthera](/cj/rozbor-knih-a-cetba/johann-wolfgang-von-goethe-utrpeni-mladeho-werthera/)
 - **Faust:**
   - **Děj:** Veršované drama líčí učence toužícího po absolutním poznání a životní naplnění, který za tímto účelem uzavře úpis s ďáblem Mefistofelem; na rozdíl od tradiční legendy o Faustovi ale Goethův hrdina nakonec dosáhne spásy — právě díky tomu, že se v závěru života obrátí od sobeckého hledání k činorodé pomoci druhým.
 
 ## Cvičení
 
+- Vysvětli klasicistní pravidlo tří jednot a hierarchii žánrů a ukaž, do které kategorie (vysoký/nízký žánr) patří Molièrovy komedie.
 - Vysvětli, jak Voltairův Candide satiricky pracuje s filozofickým názorem, že "žijeme v nejlepším z možných světů".
 - Porovnej Robinsona Crusoe (klasicistně-osvícenský optimismus vůči lidským schopnostem) s Gulliverovými cestami (osvícenská satira na lidskou společnost) — v čem se oba tituly liší svým pohledem na člověka?
 - Vysvětli, proč je Goethův mladý Werther řazen k preromantismu, zatímco Faust už vykazuje i pozdější romantické i osvícenské rysy zároveň.

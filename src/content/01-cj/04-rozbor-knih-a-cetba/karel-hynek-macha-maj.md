@@ -47,16 +47,16 @@ __ROMANTISMUS__
 __Stručný obsah díla:__
 
 <a id="_heading=h.gjdgxs"></a>1\. ZPĚV
-Úvodem básně je líčení májové krajiny kolem jezera\. Začíná zde i epický děj\. Jarmila sedí na břehu jezera a vyhlíží svého milého Viléma, který by měl přijet na loďce\. Nejdříve spatří na jezeře jen bílý bod\. Básník jej přirovnává k bílé vodní lilii\. Z loďky vystoupí plavec, který oznámí Jarmile, že Vilém byl uvězněn a bude popraven, protože zabil svého otce, když bránil čest své [dívky](about:blank)\. Nevěděl, že svůdcem je jeho otec, který ho v mládí vyhnal z domu\. Jarmila se v zoufalství utopí v jezeře\.
+Úvodem básně je líčení májové krajiny kolem jezera\. Začíná zde i epický děj\. Jarmila sedí na břehu jezera a vyhlíží svého milého Viléma, který by měl přijet na loďce\. Nejdříve spatří na jezeře jen bílý bod\. Básník jej přirovnává k bílé vodní lilii\. Z loďky vystoupí plavec, který oznámí Jarmile, že Vilém byl uvězněn a bude popraven, protože zabil svého otce, když bránil čest své dívky\. Nevěděl, že svůdcem je jeho otec, který ho v mládí vyhnal z domu\. Jarmila se v zoufalství utopí v jezeře\.
 
 2\. ZPĚV
-Ten začíná motivem padající hvězdy\. Pak nás básník zavádí do vězení, kde je Vilém\. Básník zde popisuje chmurné vězení a každé věci vdechne život\. Vilém klečí a přemýšlí o svém životě a o svém mládí\. Ptá se sám sebe, čím se provinil, že byl uvězněn\. Vrací se do dětství a myslí na to, čí vina je větší, jestli otcova, který ho vyhnal nebo jeho, že se nechal strhnout životem a stal se loupežníkem\. Jako loupežník pak přijal přezdívku "Strašný lesů pán"\. Dívá se do krajiny a uvědomuje si její [krásu](about:blank)\. Slyší lesní rohy a ví, že je už nikdy nebude slyšet\. Nevěří, že po smrti něco existuje a lituje, že musí zemřít\. Jeho čas mu odměřují kapky, které skapávají ze sloupků\. Ve svém zoufalství mluví nahlas a jeho monolog zaslechne stráž, která se již nikdy neusměje, neboť je nešťastná nad osudem Viléma\.
+Ten začíná motivem padající hvězdy\. Pak nás básník zavádí do vězení, kde je Vilém\. Básník zde popisuje chmurné vězení a každé věci vdechne život\. Vilém klečí a přemýšlí o svém životě a o svém mládí\. Ptá se sám sebe, čím se provinil, že byl uvězněn\. Vrací se do dětství a myslí na to, čí vina je větší, jestli otcova, který ho vyhnal nebo jeho, že se nechal strhnout životem a stal se loupežníkem\. Jako loupežník pak přijal přezdívku "Strašný lesů pán"\. Dívá se do krajiny a uvědomuje si její krásu\. Slyší lesní rohy a ví, že je už nikdy nebude slyšet\. Nevěří, že po smrti něco existuje a lituje, že musí zemřít\. Jeho čas mu odměřují kapky, které skapávají ze sloupků\. Ve svém zoufalství mluví nahlas a jeho monolog zaslechne stráž, která se již nikdy neusměje, neboť je nešťastná nad osudem Viléma\.
 
 I\. INTERMEZZO
-Sbor duchů se připravuje na přijetí nového odsouzence na popravišti\. Sundávají starou lebku a ptají se přírody, co dá Vilémovi k pohřbu\. Zvířata i [rostliny](about:blank), mraky i vítr slíbí, že mu obstarají hudbu, smuteční závoje i rakev\.
+Sbor duchů se připravuje na přijetí nového odsouzence na popravišti\. Sundávají starou lebku a ptají se přírody, co dá Vilémovi k pohřbu\. Zvířata i rostliny, mraky i vítr slíbí, že mu obstarají hudbu, smuteční závoje i rakev\.
 
 3\. ZPĚV
-Začíná [obrazem](about:blank) probouzející se májové přírody\. Lidé spěchají na popravu\. Ptáci zpívají a mládí slaví máj\. Zločinec je vyveden, modlí se, naposled se dívá na kraj, kde [žil](about:blank)\. Posílá po větru a obláčkách pozdrav své matce – [zemi](about:blank)\. Potom odchází na popraviště, kde už čeká kat\. Vilémovi je useknuta hlava a [tělo](about:blank) je vpleteno do kola a lámáno\.
+Začíná obrazem probouzející se májové přírody\. Lidé spěchají na popravu\. Ptáci zpívají a mládí slaví máj\. Zločinec je vyveden, modlí se, naposled se dívá na kraj, kde žil\. Posílá po větru a obláčkách pozdrav své matce – zemi\. Potom odchází na popraviště, kde už čeká kat\. Vilémovi je useknuta hlava a tělo je vpleteno do kola a lámáno\.
 
 II\. INTERMEZZO
 Básník nás přivádí k loupežníkům, kteří truchlí nad Vilémovou smrtí\.

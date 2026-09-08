@@ -8,13 +8,11 @@ Po roce 1989 zaniká cenzura i dělení literatury na oficiální/exilovou/samiz
 
 ### Michal Viewegh
 - **Charakteristika:** Patří k nejčtenějším a nejpřekládanějším českým autorům porevoluční doby, píše lehkým, ironickým, čtenářsky přístupným stylem.
-- **Báječná léta pod psa:**
+- **Báječná léta pod psa** ([rozbor](/cj/rozbor-knih-a-cetba/michal-viewehg-bajecna-leta-pod-psa/ "Rozbor díla Báječná léta pod psa")):
   - **Děj:** Polobiografické vyprávění o dětství a dospívání za normalizace v rodině, kde otec byl kvůli disidentským postojům "socialisticky" perzekvován — vážné téma ale Viewegh podává s odlehčeným, místy komickým nadhledem.
-  - **Rozbor:** [Báječná léta pod psa](/cj/rozbor-knih-a-cetba/michal-viewehg-bajecna-leta-pod-psa/)
 - **Účastníci zájezdu:** Satiricky zachycuje partu turistů na autobusovém zájezdu k moři a jejich drobné iluze i zklamání.
-- **Román pro muže:**
+- **Román pro muže** ([rozbor](/cj/rozbor-knih-a-cetba/michal-viewegh-roman-pro-muze/ "Rozbor díla Román pro muže")):
   - **Děj:** Komedie o muži, kterého opustí manželka a on se musí (s pomocí přátel a improvizovaných rad) vyrovnat se singles životem.
-  - **Rozbor:** [Román pro muže](/cj/rozbor-knih-a-cetba/michal-viewegh-roman-pro-muze/)
 
 ### Alena Mornštajnová
 - **Charakteristika:** Autorka bestselleru **Hana**.

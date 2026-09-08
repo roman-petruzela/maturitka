@@ -25,17 +25,15 @@ tags: ["doplněno"]
 ### Honoré de Balzac
 
 - **Charakteristika:** Zakladatel francouzského realismu, autor cyklu **Lidská komedie**.
-- **Otec Goriot:**
+- **Otec Goriot** ([rozbor](/cj/rozbor-knih-a-cetba/honore-de-balzac-otec-goriot/ "Rozbor díla Otec Goriot")):
   - **Děj:** Příběh starého obchodníka, který obětoval majetek pro dcery, aby se provdaly do vyšší společnosti. Dcery ho po dosažení postavení opustí a nechají zemřít v chudobě.
   - **Téma:** Ostrá kritika peněz jako jediné hodnoty měšťanské společnosti, která ničí i nejpřirozenější (rodičovské) vztahy.
-  - **Rozbor:** [Otec Goriot](/cj/rozbor-knih-a-cetba/honore-de-balzac-otec-goriot/)
 
 ### Victor Hugo
 
 - **Charakteristika:** Spojuje ve své tvorbě romantismus s prvky sociálního realismu.
-- **Chrám Matky Boží v Paříži:**
+- **Chrám Matky Boží v Paříži** ([rozbor](/cj/rozbor-knih-a-cetba/victor-hugo-chram-matky-bozi-v-parizi/ "Rozbor díla Chrám Matky Boží v Paříži")):
   - **Děj:** Znetvořený zvoník Quasimodo a jeho neopětovaná láska k cikánce Esmeraldě v kontrastu s pokryteckou touhou zdánlivě zbožného arciděkana Frolla.
-  - **Rozbor:** [Chrám Matky Boží v Paříži](/cj/rozbor-knih-a-cetba/victor-hugo-chram-matky-bozi-v-parizi/)
 - **Bídníci:**
   - **Děj:** Bývalý trestanec Jean Valjean se navzdory své minulosti snaží žít čestně a pomáhat druhým, zatímco ho neúnavně pronásleduje inspektor Javert.
   - **Téma:** Monumentální freska francouzské společnosti 19. století a jedna z nejslavnějších obhajob soucitu a vykoupení v literatuře.
@@ -56,18 +54,16 @@ tags: ["doplněno"]
 ### Guy de Maupassant
 
 - **Charakteristika:** Mistr krátké povídky s přesnou, úspornou stavbou a často nečekanou pointou.
-- **Kulička:**
+- **Kulička** ([rozbor](/cj/rozbor-knih-a-cetba/guy-de-maupassant-kulicka/ "Rozbor díla Kulička")):
   - **Děj:** Prostitutka cestující v kočáře s "počestnými" měšťany za prusko-francouzské války — ti od ní ochotně přijmou jídlo, později ji donutí, aby se na úkor vlastní důstojnosti obětovala kvůli jejich bezpečí, a pak jí za to pohrdavě otočí zády.
   - **Téma:** Ostrá kritika pokrytecké měšťanské morálky.
-  - **Rozbor:** [Kulička](/cj/rozbor-knih-a-cetba/guy-de-maupassant-kulicka/)
 
 ### Émile Zola
 
 - **Charakteristika:** Hlavní představitel francouzského naturalismu.
-- **Zabiják:**
+- **Zabiják** ([rozbor](/cj/rozbor-knih-a-cetba/emile-zola-zabijak/ "Rozbor díla Zabiják")):
   - **Děj:** Pradlena Gervaisa, jejíž muž propadne alkoholismu — alkohol (symbolizovaný i destilačním "zabijákem", strojem v krčmě) postupně zničí celou rodinu a dovede ji k úpadku.
   - **Téma:** Syrové zobrazení bídy pařížské dělnické čtvrti bez jakékoliv idealizace.
-  - **Rozbor:** [Zabiják](/cj/rozbor-knih-a-cetba/emile-zola-zabijak/)
 - **Nana:** Osud prostitutky, která se stane symbolem morálního rozkladu vyšší společnosti, jež ji zároveň přitahuje i ničí.
 
 ### Jules Verne
@@ -81,9 +77,8 @@ tags: ["doplněno"]
 
 - **Charakteristika:** Patří k největším románopiscům světové literatury.
 - **Vojna a mír:** Monumentální historický román zasazený do napoleonských válek, sledující osudy několika ruských šlechtických rodin.
-- **Anna Karenina:**
+- **Anna Karenina** ([rozbor](/cj/rozbor-knih-a-cetba/lev-nikolajevic-tolstoj-anna-karenina/ "Rozbor díla Anna Karenina")):
   - **Děj:** Vdaná žena se zamiluje do důstojníka Vronského a poruší nepsaná pravidla vyšší společnosti — společenské zavržení, ztráta syna, žárlivost a beznaděj ji nakonec dovedou k sebevraždě.
-  - **Rozbor:** [Anna Karenina](/cj/rozbor-knih-a-cetba/lev-nikolajevic-tolstoj-anna-karenina/)
 
 ### Fjodor Michajlovič Dostojevskij
 
@@ -97,6 +92,17 @@ tags: ["doplněno"]
 - **Višňový sad, Strýček Váňa, Tři sestry:** Hry bez velkého vnějšího děje, soustředěné na city a myšlenky postav, na míšení tragiky s všední komikou a na to, co zůstává nevyřčeno.
 - **Dáma s psíčkem:** Ukázka Čechova jako mistra krátké povídky.
 
+## Anglie
+
+### Charles Dickens
+
+- **Charakteristika:** Nejpopulárnější anglický romanopisec viktoriánské doby — díla vycházela nejprve na pokračování v časopisech, což ovlivnilo jejich stavbu (krátké kapitoly, časté "cliffhangery" na konci dílu). Spojuje realistickou sociální kritiku (bída, dětská práce, nespravedlivý právní systém) s citovostí, humorem a laskavým, i když nikdy naivním pohledem na své hrdiny.
+- **Oliver Twist:**
+  - **Děj:** Sirotek Oliver prochází anglickými chudobinci a londýnským podsvětím zlodějské tlupy, než nakonec najde skutečnou rodinu — cestou odhaluje krutost tehdejšího systému péče o chudé děti.
+- **Vánoční koleda:**
+  - **Děj:** Lakomý a bezcitný Ebenezer Scrooge je o Štědrém večeru navštíven třemi duchy (minulých, přítomných a budoucích Vánoc), kteří mu ukážou důsledky jeho lakoty — a promění ho v štědrého, laskavého člověka.
+  - **Význam:** Novela zásadně ovlivnila dnešní podobu vánoční tradice v anglosaském světě.
+
 ## Norsko
 
 ### Henrik Ibsen
@@ -106,6 +112,7 @@ tags: ["doplněno"]
 
 ## Cvičení
 
+- Vysvětli, jak Dickensova Vánoční koleda propojuje sociální kritiku s citovým, výchovným příběhem.
 - Vysvětli princip "typizace" v realistickém románu a ukaž ho na příkladu Otce Goriota nebo Anny Kareniny.
 - Porovnej realismus (Balzac, Tolstoj) s naturalismem (Zola) — v čem naturalismus jde "dál" než klasický realismus?
 - Vysvětli, proč je Ibsenova Nora považována za přelomové dílo z hlediska zobrazení postavení ženy.

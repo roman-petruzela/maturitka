@@ -4,7 +4,7 @@ order: 10
 tags: ["doplněno"]
 ---
 
-60.–80. léta 19. století jsou dobou skutečného rozkvětu české kultury — vzniká Sokol, pěvecký spolek Hlahol, Umělecká beseda, otevírá se Prozatímní divadlo (předchůdce Národního divadla, na jehož stavbu se v té době vybírají veřejné sbírky). Mladá generace spisovatelů se rozděluje do tří skupin, pojmenovaných podle almanachů/časopisů, ve kterých publikovala.
+60.–80. léta 19. století jsou dobou skutečného rozkvětu české kultury — vzniká Sokol, pěvecký spolek Hlahol, Umělecká beseda, otevírá se Prozatímní divadlo (předchůdce Národního divadla, na jehož stavbu se v té době vybírají veřejné sbírky). Mladá generace spisovatelů se rozděluje do tří skupin, pojmenovaných podle almanachů/časopisů, ve kterých publikovala — hlavní osa sporu mezi nimi je otázka, čemu má literatura sloužit: má se soustředit na národní a historická témata (ruchovci), nebo se má otevřít světové, "kosmopolitní" literatuře a soudobému životu (májovci, lumírovci)?
 
 ## Májovci (60.–70. léta)
 
@@ -13,8 +13,7 @@ Almanach **Máj** (1858) vzniká na počest Karla Hynka Máchy — jako výraz o
 ### Jan Neruda
 - **Charakteristika:** Nejvýznamnější představitel májovců — básník, prozaik i dlouholetý redaktor Národních listů.
 - **Balady a romance:** Sbírka kombinuje lidové motivy s expresivním, moderním výrazem.
-- **Povídky malostranské:** Zachycují každodenní život, drobné lidské osudy a osobitá figurky pražské Malé Strany 19. století s jemným humorem i soucitem — jsou dodnes jedním z nejčtenějších obrazů starého pražského maloměšťáctví.
-- **Rozbor:** [Povídky malostranské](/cj/rozbor-knih-a-cetba/jan-neruda-povidky-malostranske/)
+- **Povídky malostranské** ([rozbor](/cj/rozbor-knih-a-cetba/jan-neruda-povidky-malostranske/ "Rozbor díla Povídky malostranské")): Zachycují každodenní život, drobné lidské osudy a osobitá figurky pražské Malé Strany 19. století s jemným humorem i soucitem — jsou dodnes jedním z nejčtenějších obrazů starého pražského maloměšťáctví.
 
 ### Jakub Arbes
 - **Charakteristika:** Tvůrce osobitého žánru **romaneto** — kratší, dramatické prózy stavějící na napětí mezi tajemným, zdánlivě nadpřirozeným jevem a jeho nakonec vždy racionálním, vědeckým vysvětlením.
@@ -27,8 +26,7 @@ Almanach **Máj** (1858) vzniká na počest Karla Hynka Máchy — jako výraz o
 ### Jaroslav Vrchlický
 - **Charakteristika:** Nejplodnější český básník 19. století, dramatik i překladatel.
 - **Eklogy a písně** a řada dalších básnických cyklů: Ukazují jeho formální mistrovství.
-- **Noc na Karlštejně:** Drama o tom, jak se Karel IV. snaží ochránit hrad Karlštejn před přítomností žen, ale nakonec ho i tak jedna z dvorních dam přelstí — dodnes jedna z nejoblíbenějších českých historických komedií.
-- **Rozbor:** [Noc na Karlštejně](/cj/rozbor-knih-a-cetba/jaroslav-vrchlicky-noc-na-karlstejne/)
+- **Noc na Karlštejně** ([rozbor](/cj/rozbor-knih-a-cetba/jaroslav-vrchlicky-noc-na-karlstejne/ "Rozbor díla Noc na Karlštejně")): Drama o tom, jak se Karel IV. snaží ochránit hrad Karlštejn před přítomností žen, ale nakonec ho i tak jedna z dvorních dam přelstí — dodnes jedna z nejoblíbenějších českých historických komedií.
 
 ### Josef Václav Sládek
 - **Charakteristika:** Patřil formálně k lumírovcům, tematicky je ale spíš spojován i s ruchovci — píše venkovskou a přírodní lyriku, epickou poezii inspirovanou vlastní cestou do Ameriky a rozsáhlou dětskou poezii (dodnes se učí ve školách).
@@ -45,10 +43,9 @@ Almanach **Ruch** (1868, stejný rok, kdy byl položen základní kámen Národn
 
 ### Vilém Mrštík
 - **Charakteristika:** (spolu s bratrem Aloisem Mrštíkem)
-- **Maryša:**
+- **Maryša** ([rozbor](/cj/rozbor-knih-a-cetba/alois-a-vilem-mrstik-marysa/ "Rozbor díla Maryša")):
   - **Děj:** Tragický příběh dívky, kterou rodiče proti její vůli provdají za bohatého, ale krutého vdovce; Maryša nakonec manžela otráví, protože jinak úniku ze svého neštěstí nevidí.
   - **Význam:** Dodnes jedno z nejsilnějších českých dramat o síle společenského nátlaku na jednotlivce.
-  - **Rozbor:** [Maryša](/cj/rozbor-knih-a-cetba/alois-a-vilem-mrstik-marysa/)
 - **Santa Lucia:** Naturalistický román, jehož je Vilém Mrštík zároveň autorem.
 
 ## Cvičení
