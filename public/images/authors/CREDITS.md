@@ -20,12 +20,28 @@ legally required, but source is noted here for traceability.
 | anton-pavlovic-cechov.jpg | File:Anton Pavlovich Chekhov.jpg | Anton Pavlovič Čechov |
 | emile-zola.jpg | File:Émile Zola 1895.jpg | Émile Zola |
 | johann-wolfgang-goethe.jpg | File:Johann Wolfgang von Goethe (Josef Stieler).jpg — 1828 painting | Johann Wolfgang Goethe |
+| josef-jungmann.jpg | File:Antonín Machek - Portrait of Josef Jungmann.jpg — painting by Antonín Machek (d. 1846) | Josef Jungmann |
+| karel-jaromir-erben.jpg | File:Jan Vilímek - Karel Jaromír Erben.jpg | Karel Jaromír Erben |
+| karel-havlicek-borovsky.jpg | File:Karel Havlíček Borovský – Jan Vilímek – České album (cropped).jpg | Karel Havlíček Borovský |
+| jan-neruda.jpg | File:Jan Vilímek - Jan Neruda.jpg | Jan Neruda |
+| alois-jirasek.jpg | File:Jan Vilímek - Alois Jirásek.jpg | Alois Jirásek |
+| svatopluk-cech.jpg | File:Jan Vilímek - Svatopluk Čech.jpg | Svatopluk Čech |
+| jaroslav-vrchlicky.jpg | File:Jan Vilímek - Jaroslav Vrchlický.jpg | Jaroslav Vrchlický |
+| alexandr-sergejevic-puskin.jpg | File:Portrait of Alexander Pushkin (Orest Kiprensky, 1827).PNG | Alexandr Sergejevič Puškin |
+| nikolaj-vasiljevic-gogol.jpg | File:Моллер Фёдор - Портрет Н. В. Гоголя.jpg — painting by Fjodor Moller (d. 1905) | Nikolaj Vasiljevič Gogol |
+| charles-dickens.jpg | File:Charles Dickens by Daniel Maclise.jpg — painting by Daniel Maclise (d. 1870) | Charles Dickens |
+| george-gordon-byron.jpg | File:George Gordon Byron, 6th Baron Byron by Richard Westall.jpg (d. 1836) | George Gordon Byron |
+| jules-verne.jpg | File:Félix Nadar 1820-1910 portraits Jules Verne (restoration).jpg | Jules Verne |
 
-Not sourced yet (need a second attempt, download failed mid-session due to
-rate limiting): Bohumil Hrabal (candidate: File:Bohumil Hrabal (cropped).jpg,
-CC BY-SA 3.0 by Hana Hamplová — **this one is CC-BY-SA, not public domain,
-so if added later, credit "Hana Hamplová, CC BY-SA 3.0" must be shown
-somewhere, e.g. this file**).
+The Jan Vilímek portraits (1860–1938) are from his "České album" series of
+the 1880s–90s, published in period magazines (Humoristické listy, Zlatá
+Praha, Světozor); Vilímek died in 1938, so pma-70 is long past.
+
+| bohumil-hrabal.jpg | File:Bohumil Hrabal (cropped).jpg — **CC BY-SA 3.0, Hana Hamplová** (not PD — see credit line rendered under the photo itself, via `findAuthorCredit()` in `author-image.ts`) | Bohumil Hrabal |
+
+Not sourced yet (Wikimedia rate-limited the download mid-batch, retry
+later): Oscar Wilde (candidate: File:Oscar Wilde by Napoleon Sarony,
+1882.jpg — confirmed to exist and PD, just didn't download this round).
 
 Miguel de Cervantes was deliberately skipped — no authentic portrait of him
 is known to exist; every image commonly labeled as his is a later,

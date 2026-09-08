@@ -39,3 +39,15 @@ export function findAuthorImage(name: string): string | null {
 	}
 	return null;
 }
+
+// Most portraits are public domain (photographer/painter dead 70+ years) and
+// need no credit. The handful that are only CC-licensed (see CREDITS.md)
+// must show visible attribution next to the image, not just in the credits
+// file — keyed by the same slug as the image filename.
+const CC_CREDITS: Record<string, string> = {
+	'bohumil-hrabal': 'Hana Hamplová, CC BY-SA 3.0',
+};
+
+export function findAuthorCredit(name: string): string | null {
+	return CC_CREDITS[authorSlug(name)] ?? null;
+}

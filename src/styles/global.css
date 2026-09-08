@@ -217,6 +217,13 @@ h1 {
 	height: 30%;
 }
 
+.author-photo-credit {
+	display: block;
+	margin-top: 0.15rem;
+	font-size: 0.75em;
+	color: var(--muted);
+}
+
 /* Small icon-only link to this site's own book analysis
    (rehype-rozbor-link.ts) — sits right next to a work's title, which
    itself links to the full text when one is available. */

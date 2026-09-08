@@ -15,7 +15,7 @@
 import { visit } from 'unist-util-visit';
 import type { Root, Element, ElementContent } from 'hast';
 import type { VFile } from 'vfile';
-import { findAuthorImage } from './author-image';
+import { findAuthorImage, findAuthorCredit } from './author-image';
 
 const NOT_A_PERSON_RE = /^(Realismus|Naturalismus)\b/;
 
@@ -61,7 +61,16 @@ function placeholderFigure(name: string): Element {
 	};
 }
 
-function photoFigure(src: string, name: string): Element {
+function photoFigure(src: string, name: string, credit: string | null): Element {
+	const captionChildren: ElementContent[] = [{ type: 'text', value: name }];
+	if (credit) {
+		captionChildren.push({
+			type: 'element',
+			tagName: 'span',
+			properties: { className: ['author-photo-credit'] },
+			children: [{ type: 'text', value: `Foto: ${credit}` }],
+		});
+	}
 	return {
 		type: 'element',
 		tagName: 'figure',
@@ -73,7 +82,7 @@ function photoFigure(src: string, name: string): Element {
 				properties: { className: ['author-photo-img'], src, alt: name, loading: 'lazy' },
 				children: [],
 			},
-			{ type: 'element', tagName: 'figcaption', properties: {}, children: [{ type: 'text', value: name }] },
+			{ type: 'element', tagName: 'figcaption', properties: {}, children: captionChildren },
 		],
 	};
 }
@@ -95,7 +104,7 @@ export function rehypeAuthorPortrait() {
 			if (!text || NOT_A_PERSON_RE.test(text)) return;
 
 			const src = findAuthorImage(text);
-			const figure = src ? photoFigure(src, text) : placeholderFigure(text);
+			const figure = src ? photoFigure(src, text, findAuthorCredit(text)) : placeholderFigure(text);
 			parent.children.splice(index + 1, 0, figure as ElementContent);
 		});
 	};
