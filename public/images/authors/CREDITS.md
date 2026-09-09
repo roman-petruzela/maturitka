@@ -37,6 +37,15 @@ The Jan Vilímek portraits (1860–1938) are from his "České album" series of
 the 1880s–90s, published in period magazines (Humoristické listy, Zlatá
 Praha, Světozor); Vilímek died in 1938, so pma-70 is long past.
 
+| voltaire.jpg | File:Nicolas de Largillière - Portrait de Voltaire ... 1718 - musée Carnavalet.jpg — painter d. 1746 | Voltaire |
+| moliere.jpg | File:Pierre Mignard - Portrait de Jean-Baptiste Poquelin dit Molière - Google Art Project (cropped).jpg — painter d. 1695 | Molière |
+| jan-amos-komensky.jpg | File:John Amos Comenius portrait.jpg — traditional painted portrait | Jan Amos Komenský |
+| jane-austenova.jpg | File:Cassandra Austen-Jane Austen(c.1810).jpg — only authenticated likeness, by her sister | Jane Austenová |
+| walter-scott.jpg | File:Sir Henry Raeburn - Portrait of Sir Walter Scott.jpg — painter d. 1823 | Walter Scott |
+| gustave-flaubert.jpg | File:Gustave flaubert.jpg — photo by Nadar (d. 1910) | Gustave Flaubert |
+| charles-baudelaire.jpg | File:Étienne Carjat, Portrait of Charles Baudelaire, circa 1862.jpg — photographer d. 1906 | Charles Baudelaire |
+| henrik-ibsen.jpg | File:Portrait of Henrik Ibsen, 1863-64 (cropped).jpg | Henrik Ibsen |
+
 | bohumil-hrabal.jpg | File:Bohumil Hrabal (cropped).jpg — **CC BY-SA 3.0, Hana Hamplová** (not PD — see credit line rendered under the photo itself, via `findAuthorCredit()` in `author-image.ts`) | Bohumil Hrabal |
 
 Not sourced yet (Wikimedia rate-limited the download mid-batch, retry

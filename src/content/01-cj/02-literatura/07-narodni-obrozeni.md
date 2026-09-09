@@ -42,7 +42,7 @@ Vedle jazyka a literatury hraje klíčovou roli i **vlastenecké divadlo** — p
 - **Charakteristika:** Dramatik a novinář.
 - **Strakonický dudák:**
   - **Děj:** Dramatická báchorka o dudákovi Švandovi, který odejde do světa zkoušet štěstí se svými kouzelnými dudami, ale zjišťuje, že pravé štěstí a domov nachází zpátky doma.
-- **Fidlovačka aneb Žádný hněv a žádná rvačka:** V této hře poprvé zazněla píseň **Kde domov můj** (hudba František Škroup) — dnešní česká státní hymna.
+- **[Fidlovačka aneb Žádný hněv a žádná rvačka](https://cs.wikisource.org/wiki/Fidlovačka,_neb:_Žádný_hněv_a_žádná_rvačka):** V této hře poprvé zazněla píseň **Kde domov můj** (hudba František Škroup) — dnešní česká státní hymna.
 
 ### Karel Jaromír Erben
 - **Charakteristika:** Sběratel lidových písní, pohádek a přísloví.

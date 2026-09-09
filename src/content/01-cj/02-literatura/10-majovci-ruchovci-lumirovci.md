@@ -12,8 +12,8 @@ Almanach **Máj** (1858) vzniká na počest Karla Hynka Máchy — jako výraz o
 
 ### Jan Neruda
 - **Charakteristika:** Nejvýznamnější představitel májovců — básník, prozaik i dlouholetý redaktor Národních listů.
-- **Balady a romance:** Sbírka kombinuje lidové motivy s expresivním, moderním výrazem.
-- **Povídky malostranské** ([rozbor](/cj/rozbor-knih-a-cetba/jan-neruda-povidky-malostranske/ "Rozbor díla Povídky malostranské")): Zachycují každodenní život, drobné lidské osudy a osobitá figurky pražské Malé Strany 19. století s jemným humorem i soucitem — jsou dodnes jedním z nejčtenějších obrazů starého pražského maloměšťáctví.
+- **[Balady a romance](https://cs.wikisource.org/wiki/Balady_a_romance):** Sbírka kombinuje lidové motivy s expresivním, moderním výrazem.
+- **[Povídky malostranské](https://cs.wikisource.org/wiki/Povídky_malostranské)** ([rozbor](/cj/rozbor-knih-a-cetba/jan-neruda-povidky-malostranske/ "Rozbor díla Povídky malostranské")): Zachycují každodenní život, drobné lidské osudy a osobitá figurky pražské Malé Strany 19. století s jemným humorem i soucitem — jsou dodnes jedním z nejčtenějších obrazů starého pražského maloměšťáctví.
 
 ### Jakub Arbes
 - **Charakteristika:** Tvůrce osobitého žánru **romaneto** — kratší, dramatické prózy stavějící na napětí mezi tajemným, zdánlivě nadpřirozeným jevem a jeho nakonec vždy racionálním, vědeckým vysvětlením.
@@ -26,7 +26,7 @@ Almanach **Máj** (1858) vzniká na počest Karla Hynka Máchy — jako výraz o
 ### Jaroslav Vrchlický
 - **Charakteristika:** Nejplodnější český básník 19. století, dramatik i překladatel.
 - **Eklogy a písně** a řada dalších básnických cyklů: Ukazují jeho formální mistrovství.
-- **Noc na Karlštejně** ([rozbor](/cj/rozbor-knih-a-cetba/jaroslav-vrchlicky-noc-na-karlstejne/ "Rozbor díla Noc na Karlštejně")): Drama o tom, jak se Karel IV. snaží ochránit hrad Karlštejn před přítomností žen, ale nakonec ho i tak jedna z dvorních dam přelstí — dodnes jedna z nejoblíbenějších českých historických komedií.
+- **[Noc na Karlštejně](https://cs.wikisource.org/wiki/Noc_na_Karlštejně)** ([rozbor](/cj/rozbor-knih-a-cetba/jaroslav-vrchlicky-noc-na-karlstejne/ "Rozbor díla Noc na Karlštejně")): Drama o tom, jak se Karel IV. snaží ochránit hrad Karlštejn před přítomností žen, ale nakonec ho i tak jedna z dvorních dam přelstí — dodnes jedna z nejoblíbenějších českých historických komedií.
 
 ### Josef Václav Sládek
 - **Charakteristika:** Patřil formálně k lumírovcům, tematicky je ale spíš spojován i s ruchovci — píše venkovskou a přírodní lyriku, epickou poezii inspirovanou vlastní cestou do Ameriky a rozsáhlou dětskou poezii (dodnes se učí ve školách).
@@ -40,6 +40,7 @@ Almanach **Ruch** (1868, stejný rok, kdy byl položen základní kámen Národn
 
 ### Alois Jirásek
 - **Charakteristika:** Věnuje se historické próze napříč téměř celými českými dějinami a ve svém díle výrazně vyzdvihuje husitství jako vrchol národních dějin — patří k nejčtenějším a nejadaptovanějším českým autorům historických románů vůbec.
+- **[Staré pověsti české](https://cs.wikisource.org/wiki/Staré_pověsti_české):** Literární převyprávění nejstarších českých pověstí (o Čechovi, Krokovi a Libuši, Přemyslu Oráči, dívčí válce, Horymírovi a Šemíkovi) — navazuje na Kosmovu kroniku (viz [Středověk](/cj/literatura/03-stredovek/)), ale dodává jim ucelenou, literárně zpracovanou podobu, ve které je dodnes česká čtenářská veřejnost s těmito pověstmi nejvíc obeznámená.
 
 ### Vilém Mrštík
 - **Charakteristika:** (spolu s bratrem Aloisem Mrštíkem)

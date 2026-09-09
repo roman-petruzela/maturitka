@@ -1,6 +1,6 @@
 ---
 title: "Přehled epoch, autorů a žánrů podle Katalogu požadavků (Cermat)"
-order: 1.5
+order: 0
 tags: ["doplněno"]
 source: "cermat/katalog-cjl.txt — Katalog požadavků zkoušek společné části maturitní zkoušky, ČESKÝ JAZYK A LITERATURA (Cermat), Část C – Seznam autorů literárních děl, literárních žánrů, směrů a hnutí"
 ---

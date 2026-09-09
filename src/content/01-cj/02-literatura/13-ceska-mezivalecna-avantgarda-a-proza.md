@@ -13,7 +13,7 @@ Umělecký svaz **Devětsil** (založen 1920 v Praze z iniciativy Vladislava Van
 ### Vladislav Vančura
 - **Charakteristika:** Zakladatel Devětsilu, píše osobitým, jazykově bohatým a archaizujícím stylem.
 - **Markéta Lazarová:** Láska a násilí ve středověkém prostředí loupeživých rodů.
-- **Rozmarné léto:** Veselejší idyla tří přátel a kouzelníka na malém městě u řeky.
+- **[Rozmarné léto](https://cs.wikisource.org/wiki/Rozmarné_léto):** Veselejší idyla tří přátel a kouzelníka na malém městě u řeky.
 - **Pekař Jan Marhoul:** Sociálně kritický román.
 
 ### Jan Werich a Jiří Voskovec
@@ -39,14 +39,14 @@ Umělecký svaz **Devětsil** (založen 1920 v Praze z iniciativy Vladislava Van
 
 ### Jiří Wolker
 - **Charakteristika:** Představitel tzv. **proletářské poezie** (mezi válkami, ovlivněná myšlenkami socialismu a třídním pohledem na společnost, tematizující sociální nespravedlnost).
-- **Host do domu:** Plná optimismu a dětské hravosti.
+- **[Host do domu](https://cs.wikisource.org/wiki/Host_do_domu):** Plná optimismu a dětské hravosti.
 - **Těžká hodina:** Už obsahuje sociální balady s tvrdší realitou.
 
 ## Meziválečná próza a drama
 
 ### Jaroslav Hašek
 - **Charakteristika:** Autor **Osudů dobrého vojáka Švejka za světové války**.
-- **Osudy dobrého vojáka Švejka:**
+- **[Osudy dobrého vojáka Švejka](https://cs.wikisource.org/wiki/Osudy_dobrého_vojáka_Švejka_za_světové_války):**
   - **Děj:** Nedokončený, groteskní román o prostoduchém (nebo možná jen předstíraně prostoduchém) vojákovi Švejkovi, který svou poslušnou hloupostí a nekonečným vyprávěním historek nevědomky rozvrací rakousko-uherskou armádní byrokracii zevnitř.
   - **Význam:** Plné černého humoru a satiry na válku a vojenskou hierarchii, jedno z nejpřekládanějších děl české literatury vůbec.
 
@@ -74,12 +74,12 @@ Umělecký svaz **Devětsil** (založen 1920 v Praze z iniciativy Vladislava Van
 
 ### Karel Poláček
 - **Charakteristika:** Napsal humoristický, ale zároveň citlivý román z dětského pohledu.
-- **Bylo nás pět** ([rozbor](/cj/rozbor-knih-a-cetba/karel-polacek-bylo-nas-pet/ "Rozbor díla Bylo nás pět")):
+- **[Bylo nás pět](https://cs.wikisource.org/wiki/Bylo_nás_pět)** ([rozbor](/cj/rozbor-knih-a-cetba/karel-polacek-bylo-nas-pet/ "Rozbor díla Bylo nás pět")):
   - **Děj:** Vypravěčem je malý kluk Petr Bajza a jeho parta kamarádů, autor s láskou i nadhledem zachycuje dětský svět a řeč malých hrdinů.
 
 ### Eduard Bass
 - **Charakteristika:** Autor oblíbené fotbalové pohádky.
-- **Klapzubova jedenáctka** ([rozbor](/cj/rozbor-knih-a-cetba/eduard-bass-klapzubova-jedenactka/ "Rozbor díla Klapzubova jedenáctka")):
+- **[Klapzubova jedenáctka](https://cs.wikisource.org/wiki/Klapzubova_jedenáctka_(1954))** ([rozbor](/cj/rozbor-knih-a-cetba/eduard-bass-klapzubova-jedenactka/ "Rozbor díla Klapzubova jedenáctka")):
   - **Děj:** Chudá venkovská rodina jedenácti synů se stane fotbalovým mužstvem, které porazí i mistry světa.
 - **Cirkus Humberto:** Rozsáhlejší román.
 
