@@ -77,13 +77,28 @@ Opačné číslo ke kladnému číslu je záporné, opačné číslo k záporné
 
 a) $5$   b) $-13$   c) $0$   d) $-(7+13)$   e) $-(2\cdot16)$   f) $(2-7)$
 
-Výsledek: ||a) -5; b) 13; c) 0; d) -(7+13)=-20, opačné je 20; e) -(2·16)=-32, opačné je 32; f) (2-7)=-5, opačné je 5||
+Výsledek:
+
+- **a)** ||-5||
+- **b)** ||13||
+- **c)** ||0||
+- **d)** ||-(7+13)=-20, opačné je 20||
+- **e)** ||-(2·16)=-32, opačné je 32||
+- **f)** ||(2-7)=-5, opačné je 5||
 
 **Příklad:** Vypočítejte:
 
 a) $24-45$   b) $-16+25$   c) $17-(-35)$   d) $-28-(-39)$   e) $12\cdot(-3)$   f) $(-7)\cdot(-2)$   g) $(-2)\cdot(-3)\cdot(-4)$
 
-Výsledek: ||a) -21; b) 9; c) 17+35=52; d) -28+39=11; e) -36; f) 14; g) -24 (tři záporní činitelé → výsledek záporný)||
+Výsledek:
+
+- **a)** ||-21||
+- **b)** ||9||
+- **c)** ||17+35=52||
+- **d)** ||-28+39=11||
+- **e)** ||-36||
+- **f)** ||14||
+- **g)** ||-24 (tři záporní činitelé → výsledek záporný)||
 
 ## Obor racionálních čísel ℚ
 

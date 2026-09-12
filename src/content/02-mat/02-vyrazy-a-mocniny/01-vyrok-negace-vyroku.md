@@ -32,7 +32,15 @@ Výrokem tedy nejsou otázky ani příkazy. Rovnost v příkladu 4) je výrok (o
 6. Máš čas?
 7. $(a+b)^2=a^2+b^2$.
 
-Výsledek: ||1) výrok (pravdivý); 2) výrok (nepravdivý); 3) výrok (pravdivý); 4) NENÍ výrok (citoslovce, nemá pravdivostní hodnotu); 5) výrok (nepravdivý — hl. město Německa je Berlín); 6) NENÍ výrok (otázka); 7) NENÍ výrok (bez kvantifikátoru — platí jen pro některá a,b, ne obecně)||
+Výsledek:
+
+- **1)** ||výrok (pravdivý)||
+- **2)** ||výrok (nepravdivý)||
+- **3)** ||výrok (pravdivý)||
+- **4)** ||NENÍ výrok (citoslovce, nemá pravdivostní hodnotu)||
+- **5)** ||výrok (nepravdivý — hl. město Německa je Berlín)||
+- **6)** ||NENÍ výrok (otázka)||
+- **7)** ||NENÍ výrok (bez kvantifikátoru — platí jen pro některá a,b, ne obecně)||
 
 ## Negace výroku
 
@@ -56,7 +64,13 @@ Negaci výroku můžeme vyslovit i v lepším znění než "není pravda, že" �
 4. Je středa nebo čtvrtek.
 5. $\sqrt2+\pi>4$
 
-Výsledek: ||1) Číslo 8 je záporné nebo nulové (nekladné). 2) Je noc. 3) Není podzim (je jaro, léto nebo zima). 4) Není středa ani čtvrtek. 5) √2+π≤4||
+Výsledek:
+
+- **1)** ||Číslo 8 je záporné nebo nulové (nekladné).||
+- **2)** ||Je noc.||
+- **3)** ||Není podzim (je jaro, léto nebo zima).||
+- **4)** ||Není středa ani čtvrtek.||
+- **5)** ||√2+π≤4||
 
 **Do negace výroku musíme vždy zahrnout všechny možnosti, které neobsahuje původní výrok.**
 
@@ -68,7 +82,13 @@ Výsledek: ||1) Číslo 8 je záporné nebo nulové (nekladné). 2) Je noc. 3) N
 4. $5-8\geq4-6$
 5. $\sqrt{49}\neq7$
 
-Výsledek: ||1) pravdivý (5≥0); negace: "Číslo 5 je záporné" (nepravdivá). 2) pravdivý (√5≈2,236>2); negace: √5≤2 (nepravdivá). 3) pravdivý (6-9=-3, není kladné); negace: "Číslo 6-9 je kladné" (nepravdivá). 4) nepravdivý (5-8=-3, 4-6=-2, a -3≥-2 neplatí); negace: 5-8<4-6 (pravdivá). 5) nepravdivý (√49=7 přesně); negace: √49=7 (pravdivá)||
+Výsledek:
+
+- **1)** ||pravdivý (5≥0); negace: "Číslo 5 je záporné" (nepravdivá).||
+- **2)** ||pravdivý (√5≈2,236>2); negace: √5≤2 (nepravdivá).||
+- **3)** ||pravdivý (6-9=-3, není kladné); negace: "Číslo 6-9 je kladné" (nepravdivá).||
+- **4)** ||nepravdivý (5-8=-3, 4-6=-2, a -3≥-2 neplatí); negace: 5-8<4-6 (pravdivá).||
+- **5)** ||nepravdivý (√49=7 přesně); negace: √49=7 (pravdivá)||
 
 **Příklad:** Určete, který z následujících výroků je pravdivý:
 
@@ -78,7 +98,13 @@ Výsledek: ||1) pravdivý (5≥0); negace: "Číslo 5 je záporné" (nepravdivá
 4. Pro každé přirozené číslo $x$ je číslo $x+1$ kladné.
 5. Pro každé celé číslo $x$ je číslo $x+1$ kladné.
 
-Výsledek: ||1) PRAVDIVÝ — rovnice je identita (6x-2=6x-2), platí pro každé x. 2) NEPRAVDIVÝ — protipříklad \|0\|=0, což není kladné číslo. 3) PRAVDIVÝ — vzdálenost je vždy ≥0. 4) PRAVDIVÝ — nejmenší přirozené číslo dává x+1≥1>0. 5) NEPRAVDIVÝ — protipříklad x=-2: x+1=-1, což není kladné||
+Výsledek:
+
+- **1)** ||PRAVDIVÝ — rovnice je identita (6x-2=6x-2), platí pro každé x.||
+- **2)** ||NEPRAVDIVÝ — protipříklad |0|=0, což není kladné číslo.||
+- **3)** ||PRAVDIVÝ — vzdálenost je vždy ≥0.||
+- **4)** ||PRAVDIVÝ — nejmenší přirozené číslo dává x+1≥1>0.||
+- **5)** ||NEPRAVDIVÝ — protipříklad x=-2: x+1=-1, což není kladné||
 
 ## Negace výroků o počtu ("alespoň", "nejvýše")
 
@@ -97,7 +123,13 @@ Výsledek: ||1) PRAVDIVÝ — rovnice je identita (6x-2=6x-2), platí pro každ�
 4. Krychle má nejvýše 8 vrcholů.
 5. Množina $M$ má právě $n-1$ prvků.
 
-Výsledek: ||1) Rovnice x⁸-1=0 má nejvýše jeden reálný kořen. (mimochodem: původní výrok je pravdivý, rovnice má reálné kořeny x=1 a x=-1, tedy dva) 2) V této přihrádce je alespoň 11 předmětů. 3) Číslo 12 má alespoň 6 dělitelů. (původní výrok je NEpravdivý — 12 má dělitele 1,2,3,4,6,12, tedy přesně 6, takže negace je pravdivá) 4) Krychle má alespoň 9 vrcholů. (původní výrok je pravdivý — krychle má přesně 8 vrcholů, negace je tedy nepravdivá) 5) Množina M nemá právě n-1 prvků (má jiný počet prvků než n-1)||
+Výsledek:
+
+- **1)** ||Rovnice x⁸-1=0 má nejvýše jeden reálný kořen. (mimochodem: původní výrok je pravdivý, rovnice má reálné kořeny x=1 a x=-1, tedy dva)||
+- **2)** ||V této přihrádce je alespoň 11 předmětů.||
+- **3)** ||Číslo 12 má alespoň 6 dělitelů. (původní výrok je NEpravdivý — 12 má dělitele 1,2,3,4,6,12, tedy přesně 6, takže negace je pravdivá)||
+- **4)** ||Krychle má alespoň 9 vrcholů. (původní výrok je pravdivý — krychle má přesně 8 vrcholů, negace je tedy nepravdivá)||
+- **5)** ||Množina M nemá právě n-1 prvků (má jiný počet prvků než n-1)||
 
 ## Zdroje
 

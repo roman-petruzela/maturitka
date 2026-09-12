@@ -34,7 +34,10 @@ a) Pro čísla $x,y$ platí $x^2+y^2=0$.
 
 b) Pro číslo $x$ platí $x^2+1>0$.
 
-Výsledek: ||a) rovnost x²+y²=0 platí jen pro x=0,y=0 (jinak je součet dvou nezáporných čtverců kladný), tedy nutný je existenční kvantifikátor: ∃x,y∈ℝ: x²+y²=0; b) x²+1≥1>0 platí pro VŠECHNA reálná x, tedy: ∀x∈ℝ: x²+1>0||
+Výsledek:
+
+- **a)** ||rovnost x²+y²=0 platí jen pro x=0,y=0 (jinak je součet dvou nezáporných čtverců kladný), tedy nutný je existenční kvantifikátor: ∃x,y∈ℝ: x²+y²=0||
+- **b)** ||x²+1≥1>0 platí pro VŠECHNA reálná x, tedy: ∀x∈ℝ: x²+1>0||
 
 ## Negace kvantifikovaných výroků
 

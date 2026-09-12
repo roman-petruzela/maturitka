@@ -34,7 +34,11 @@ U konjunkce $a\land b$ i disjunkce $a\lor b$ lze pořadí výroků zaměnit beze
 2. $(a\lor b)\Rightarrow a$
 3. $(a\lor b)\Rightarrow(a\land b)$
 
-Výsledek: ||1) tabulka dává T,T,T,T pro všechny kombinace a,b → TAUTOLOGIE (vždy pravdivý, bez ohledu na a,b); 2) T,T,F,T → nepravdivý jen když a je nepravdivé a b pravdivé, jinak pravdivý; 3) T,F,F,T → pravdivý pouze když a,b mají stejnou pravdivostní hodnotu (oba pravdivé nebo oba nepravdivé)||
+Výsledek:
+
+- **1)** ||tabulka dává T,T,T,T pro všechny kombinace a,b → TAUTOLOGIE (vždy pravdivý, bez ohledu na a,b)||
+- **2)** ||T,T,F,T → nepravdivý jen když a je nepravdivé a b pravdivé, jinak pravdivý||
+- **3)** ||T,F,F,T → pravdivý pouze když a,b mají stejnou pravdivostní hodnotu (oba pravdivé nebo oba nepravdivé)||
 
 ## Ekvivalence
 
@@ -69,7 +73,11 @@ a) $(a\land b)\Leftrightarrow(\neg a\lor\neg b)$
 b) $(a\Leftrightarrow b)\Leftrightarrow(\neg a\Leftrightarrow\neg b)$
 c) $(a\Rightarrow b)\Rightarrow(\neg a\Rightarrow\neg b)$
 
-Výsledek: ||a) NENÍ tautologie (pro a=T,b=T vyjde a∧b=T, ale ¬a∨¬b=F, takže T⇔F=F); b) JE tautologie (vyjde T pro všechny 4 kombinace a,b); c) NENÍ tautologie (pro a=F,b=T vyjde a⇒b=T, ale ¬a⇒¬b=T⇒F=F, takže T⇒F=F)||
+Výsledek:
+
+- **a)** ||NENÍ tautologie (pro a=T,b=T vyjde a∧b=T, ale ¬a∨¬b=F, takže T⇔F=F)||
+- **b)** ||JE tautologie (vyjde T pro všechny 4 kombinace a,b)||
+- **c)** ||NENÍ tautologie (pro a=F,b=T vyjde a⇒b=T, ale ¬a⇒¬b=T⇒F=F, takže T⇒F=F)||
 
 ## Další příklady
 
@@ -79,7 +87,11 @@ a) $a\Rightarrow(a\land b)$
 b) $(a\land b)\Rightarrow b$
 c) $(a\land b)\Rightarrow(a\lor b)$
 
-Výsledek: ||a) nepravdivý pouze když a je pravdivé a b nepravdivé, jinak pravdivý; b) TAUTOLOGIE (vždy pravdivý); c) TAUTOLOGIE (vždy pravdivý)||
+Výsledek:
+
+- **a)** ||nepravdivý pouze když a je pravdivé a b nepravdivé, jinak pravdivý||
+- **b)** ||TAUTOLOGIE (vždy pravdivý)||
+- **c)** ||TAUTOLOGIE (vždy pravdivý)||
 
 **2.** Vyšetřete pravdivost výroků v závislosti na pravdivosti $a$, $b$:
 
@@ -87,7 +99,11 @@ a) $a\Leftrightarrow(a\land b)$
 b) $a\Leftrightarrow(a\lor b)$
 c) $(a\lor b)\Leftrightarrow(a\land b)$
 
-Výsledek: ||a) nepravdivý jen když a je pravdivé a b nepravdivé; b) nepravdivý jen když a je nepravdivé a b pravdivé; c) pravdivý jen když a,b mají stejnou pravdivostní hodnotu (jinak řečeno, je logicky totéž jako a⇔b)||
+Výsledek:
+
+- **a)** ||nepravdivý jen když a je pravdivé a b nepravdivé||
+- **b)** ||nepravdivý jen když a je nepravdivé a b pravdivé||
+- **c)** ||pravdivý jen když a,b mají stejnou pravdivostní hodnotu (jinak řečeno, je logicky totéž jako a⇔b)||
 
 **3.** Vyšetřete pravdivost výroku $(a\Rightarrow b)\Leftrightarrow[(b\Rightarrow a)\lor(\neg a\Rightarrow b)]$ v závislosti na $a$, $b$.
 

@@ -71,7 +71,16 @@ $$4a^2-b^2-14a+7b = (2a-b)(2a+b) - 7(2a-b) = (2a-b)\big[(2a+b)-7\big] = (2a-b)(2
 
 a) $6x-15y$   b) $25r+35s$   c) $12a^2b^4-44ab^3+20a^3b^3$   d) $-3x^2y-9xy^2+36xy^4$   e) $6r-6s+kr-ks$   f) $kp+3k-4p-12$   g) $5px+10p+2r+rx$   h) $14y-7-r+2ry$
 
-Výsledek: ||a) 3(2x-5y); b) 5(5r+7s); c) 4ab³(5a²+3ab-11); d) -3xy(x+3y-12y³); e) (r-s)(6+k); f) (p+3)(k-4); g) (x+2)(5p+r); h) (2y-1)(7+r)||
+Výsledek:
+
+- **a)** ||3(2x-5y)||
+- **b)** ||5(5r+7s)||
+- **c)** ||4ab³(5a²+3ab-11)||
+- **d)** ||-3xy(x+3y-12y³)||
+- **e)** ||(r-s)(6+k)||
+- **f)** ||(p+3)(k-4)||
+- **g)** ||(x+2)(5p+r)||
+- **h)** ||(2y-1)(7+r)||
 
 **2.** Rozložte na součin podle vhodného vzorce (rozdíl čtverců):
 
@@ -81,7 +90,13 @@ c) $\dfrac{x^2}9-1$
 d) $\dfrac{r^2}9-9p^2$
 e) $\dfrac{81}{49}-16m^4$
 
-Výsledek: ||a) (c-8)(c+8); b) (0,5-s)(0,5+s); c) (x/3-1)(x/3+1); d) (r/3-3p)(r/3+3p); e) (9/7-4m²)(9/7+4m²)||
+Výsledek:
+
+- **a)** ||(c-8)(c+8)||
+- **b)** ||(0,5-s)(0,5+s)||
+- **c)** ||(x/3-1)(x/3+1)||
+- **d)** ||(r/3-3p)(r/3+3p)||
+- **e)** ||(9/7-4m²)(9/7+4m²)||
 
 **3.** Vyjádřete jako druhou mocninu dvojčlenu:
 
@@ -92,7 +107,14 @@ d) $0{,}04+c^2+0{,}4c$
 e) $\dfrac{x^2}{25}-\dfrac{2x}5+1$
 f) $12du-36d^2-u^2$
 
-Výsledek: ||a) (p-8)²; b) (3m+k)²; c) (4s-5r)²; d) (c+0,2)²; e) (x/5-1)²; f) -(6d-u)² [je to záporně vzatá druhá mocnina, protože u²+36d² má opačné znaménko než součin 12du]||
+Výsledek:
+
+- **a)** ||(p-8)²||
+- **b)** ||(3m+k)²||
+- **c)** ||(4s-5r)²||
+- **d)** ||(c+0,2)²||
+- **e)** ||(x/5-1)²||
+- **f)** ||-(6d-u)² [je to záporně vzatá druhá mocnina, protože u²+36d² má opačné znaménko než součin 12du]||
 
 **4.** Rozložte na součin (kombinace vzorce a vytýkání):
 
@@ -101,7 +123,12 @@ b) $49b^2-a^2-2a-1$
 c) $25x^2-y^2+5x-y$
 d) $m^2-36s^2-m-6s$
 
-Výsledek: ||a) (c+2)²-9d² = (c+2-3d)(c+2+3d); b) 49b²-(a+1)² = (7b-a-1)(7b+a+1); c) (5x-y)(5x+y)+(5x-y) = (5x-y)(5x+y+1); d) (m-6s)(m+6s)-(m+6s) = (m+6s)(m-6s-1)||
+Výsledek:
+
+- **a)** ||(c+2)²-9d² = (c+2-3d)(c+2+3d)||
+- **b)** ||49b²-(a+1)² = (7b-a-1)(7b+a+1)||
+- **c)** ||(5x-y)(5x+y)+(5x-y) = (5x-y)(5x+y+1)||
+- **d)** ||(m-6s)(m+6s)-(m+6s) = (m+6s)(m-6s-1)||
 
 ## Zdroje
 

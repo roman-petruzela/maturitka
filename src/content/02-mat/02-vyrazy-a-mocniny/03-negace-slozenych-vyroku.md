@@ -103,7 +103,11 @@ $$\neg(a\Rightarrow b) = (a\land\neg b) \qquad \neg(a\Leftrightarrow b) = (\neg 
 2. Poslední cifra dekadického zápisu čísla $37^7$ není nula ani pětka.
 3. Je-li ciferný součet čísla $37^7$ dělitelný třemi, je toto číslo dělitelné třemi.
 
-Výsledek: ||1) disjunkce → negace je konjunkce negací: "Bod B neleží na kružnici k ani na přímce p." 2) je to už tvar ¬a∧¬b ("není nula ani pětka") → negace je disjunkce: "Poslední cifra čísla 37⁷ je nula nebo pětka." 3) implikace a⇒b → negace a∧¬b: "Ciferný součet čísla 37⁷ je dělitelný třemi a zároveň toto číslo není dělitelné třemi."||
+Výsledek:
+
+- **1)** ||disjunkce → negace je konjunkce negací: "Bod B neleží na kružnici k ani na přímce p."||
+- **2)** ||je to už tvar ¬a∧¬b ("není nula ani pětka") → negace je disjunkce: "Poslední cifra čísla 37⁷ je nula nebo pětka."||
+- **3)** ||implikace a⇒b → negace a∧¬b: "Ciferný součet čísla 37⁷ je dělitelný třemi a zároveň toto číslo není dělitelné třemi."||
 
 **2.** Utvořte negace výroků (symbolicky):
 
@@ -115,7 +119,15 @@ Výsledek: ||1) disjunkce → negace je konjunkce negací: "Bod B neleží na kr
 6. $\neg a\land\neg b$
 7. $\neg a\lor\neg b$
 
-Výsledek: ||1) ¬a∧b; 2) a∧b; 3) a⇔¬b (nebo ¬a⇔b); 4) a∨¬b; 5) ¬a∧¬b; 6) a∨b; 7) a∧b||
+Výsledek:
+
+- **1)** ||¬a∧b||
+- **2)** ||a∧b||
+- **3)** ||a⇔¬b (nebo ¬a⇔b)||
+- **4)** ||a∨¬b||
+- **5)** ||¬a∧¬b||
+- **6)** ||a∨b||
+- **7)** ||a∧b||
 
 **3.** Utvořte negace výroků (symbolicky, $a$, $b$, $c$ jsou libovolné výroky):
 
@@ -124,7 +136,12 @@ Výsledek: ||1) ¬a∧b; 2) a∧b; 3) a⇔¬b (nebo ¬a⇔b); 4) a∨¬b; 5) ¬a
 3. $(a\land c)\Leftrightarrow b$
 4. $a\Leftrightarrow(b\Rightarrow c)$
 
-Výsledek: ||1) (a∧b)∧¬c, tedy a∧b∧¬c; 2) a∧¬(b∨c), tedy a∧¬b∧¬c; 3) ¬(a∧c)⇔b, tedy (¬a∨¬c)⇔b; 4) ¬a⇔(b⇒c) (nebo a⇔(b∧¬c))||
+Výsledek:
+
+- **1)** ||(a∧b)∧¬c, tedy a∧b∧¬c||
+- **2)** ||a∧¬(b∨c), tedy a∧¬b∧¬c||
+- **3)** ||¬(a∧c)⇔b, tedy (¬a∨¬c)⇔b||
+- **4)** ||¬a⇔(b⇒c) (nebo a⇔(b∧¬c))||
 
 ## Zdroje
 

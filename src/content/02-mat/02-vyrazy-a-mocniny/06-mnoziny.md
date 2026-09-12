@@ -61,7 +61,11 @@ Výsledek: ||A' = {x∈ℤ; x≥1} (celá čísla, která NEJSOU menší než 1)
 2. $A=\{x\in\mathbb{N};\ x>2\}$, $B=\{x\in\mathbb{N};\ x<7\}$
 3. $A=\{x\in\mathbb{Z};\ x>-3\}$, $B=\{x\in\mathbb{Z};\ x>-5\}$
 
-Výsledek: ||1) A∩B={1,5}; 2) A∩B={3,4,5,6} = {x∈ℕ; 2<x<7}; 3) protože x>-3 vždy implikuje x>-5, je A⊂B, tedy A∩B=A={x∈ℤ; x>-3}||
+Výsledek:
+
+- **1)** ||A∩B={1,5}||
+- **2)** ||A∩B={3,4,5,6} = {x∈ℕ; 2<x<7}||
+- **3)** ||protože x>-3 vždy implikuje x>-5, je A⊂B, tedy A∩B=A={x∈ℤ; x>-3}||
 
 ## Sjednocení množin
 
@@ -69,7 +73,11 @@ Výsledek: ||1) A∩B={1,5}; 2) A∩B={3,4,5,6} = {x∈ℕ; 2<x<7}; 3) protože 
 
 **Příklad:** Určete sjednocení množin ze stejného zadání jako výše.
 
-Výsledek: ||1) A∪B={1,2,3,5,7,8}; 2) každé přirozené číslo je buď >2, nebo <7 (nebo obojí) — sjednocení je celé ℕ; 3) protože A⊂B, je A∪B=B={x∈ℤ; x>-5}||
+Výsledek:
+
+- **1)** ||A∪B={1,2,3,5,7,8}||
+- **2)** ||každé přirozené číslo je buď >2, nebo <7 (nebo obojí) — sjednocení je celé ℕ||
+- **3)** ||protože A⊂B, je A∪B=B={x∈ℤ; x>-5}||
 
 ## Rozdíl množin
 
@@ -77,7 +85,11 @@ Výsledek: ||1) A∪B={1,2,3,5,7,8}; 2) každé přirozené číslo je buď >2, 
 
 **Příklad:** Určete rozdíl $A\setminus B$ ze stejného zadání jako výše.
 
-Výsledek: ||1) A\\B={2,8}; 2) A\\B={x∈ℕ; x>6} (prvky A, které nejsou v B — tedy přirozená čísla větší než 2, která zároveň nejsou menší než 7); 3) protože A⊂B, je A\\B=∅ (každý prvek A je i v B, nezbude nic)||
+Výsledek:
+
+- **1)** ||A\\B={2,8}||
+- **2)** ||A\\B={x∈ℕ; x>6} (prvky A, které nejsou v B — tedy přirozená čísla větší než 2, která zároveň nejsou menší než 7)||
+- **3)** ||protože A⊂B, je A\\B=∅ (každý prvek A je i v B, nezbude nic)||
 
 ## Zdroje
 
