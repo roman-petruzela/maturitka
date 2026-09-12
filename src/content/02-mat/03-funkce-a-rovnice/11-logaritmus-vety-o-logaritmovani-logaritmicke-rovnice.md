@@ -31,6 +31,12 @@ Máme dva speciální logaritmy:
 
 **b)** $\log_3 81 = x$. $3^x = 81 = 3^4$, tedy $x=4$.
 
+Graficky je $\log_2 8$ hodnota funkce $y=\log_2 x$ v bodě $x=8$:
+
+```graph
+{ "fn": "log2(x)", "domain": [0.2, 10], "title": "y = log₂(x) — v bodě x=8 je y=3", "points": [{"x": 8, "y": 3, "label": "log₂8=3"}] }
+```
+
 ## Příklady na procvičení
 
 **Příklad 1:** $\log_5 25 = x$
@@ -96,6 +102,10 @@ $$x^2+7 = x^2+14x+49 \ \Rightarrow\ -14x = 42 \ \Rightarrow\ x=-3$$
 **Zkouška:** $L: \log[(-3)^2+7] = \log(9+7) = \log 16$. $P: 2\log(-3+7) = 2\log 4 = \log 4^2 = \log 16$. $L=P$ ✓ (a argument $x+7=4>0$ je v pořádku).
 
 **Výsledek:** $x=-3$
+
+```graph
+{ "fn": "log10(x^2+7)", "fn2": "2*log10(x+7)", "fn2Label": "y = 2log(x+7)", "domain": [-6, 8], "title": "y = log(x²+7) a y = 2log(x+7) — protínají se v x = −3", "points": [{"x": -3, "y": 1.204, "label": "x=−3"}] }
+```
 
 ## Příklady na procvičení
 

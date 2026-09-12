@@ -585,6 +585,17 @@ article.topic p {
 	stroke-linejoin: round;
 }
 
+.graph-plot .curve-2 {
+	stroke: var(--muted);
+	stroke-width: 2;
+	stroke-dasharray: 6 4;
+	stroke-linecap: round;
+}
+
+.graph-plot .curve-2-label {
+	fill: var(--muted);
+}
+
 .graph-plot .marker {
 	fill: currentColor;
 	stroke: var(--bg);

@@ -4,11 +4,11 @@
 // plugin, and geometry-svg.ts for the JSON shape.
 import { visit } from 'unist-util-visit';
 import { renderGeometrySvg, type GeometrySpec } from './geometry-svg';
-import type { Root } from 'mdast';
+import type { Root, Code, Html } from 'mdast';
 
 export function remarkGeometry() {
 	return (tree: Root) => {
-		visit(tree, 'code', (node: any) => {
+		visit(tree, 'code', (node: Code) => {
 			if (node.lang !== 'geometry') return;
 			let spec: GeometrySpec;
 			try {
@@ -22,7 +22,11 @@ export function remarkGeometry() {
 			} catch (err) {
 				throw new Error(`\`\`\`geometry block failed to render: ${(err as Error).message}\n${node.value}`);
 			}
-			node.type = 'html';
+			// mdast's Code/HTML node types are structurally identical (both just
+			// { type, value }) — this in-place mutation swaps a fenced code block
+			// for its rendered HTML without needing to splice a new node into the
+			// parent's children array.
+			(node as unknown as Html).type = 'html';
 			node.value = svg;
 		});
 	};

@@ -25,6 +25,10 @@ $$\vec u\cdot\vec v = 1\cdot1+0\cdot1 = 1, \qquad |\vec u|=1,\quad |\vec v|=\sqr
 
 $$\cos\varphi = \frac{1}{1\cdot\sqrt2} = \frac{1}{\sqrt2} \implies \varphi = 45°$$
 
+```geometry
+{ "points": { "O": [0, 0], "U": [1, 0], "V": [1, 1] }, "segments": [{ "from": "O", "to": "U" }, { "from": "O", "to": "V" }], "angles": [{ "at": "O", "from": "U", "to": "V", "label": "φ=45°" }], "title": "Úhel vektorů u = (1;0) a v = (1;1)" }
+```
+
 ## Kolmost vektorů
 
 Dva nenulové vektory jsou **kolmé** (na sebe) právě tehdy, když je jejich skalární součin roven nule (protože $\cos90°=0$):
@@ -34,6 +38,10 @@ $$\vec u \perp \vec v \iff \vec u\cdot\vec v = 0$$
 **Příklad:** Jsou vektory $\vec u=(2;3)$ a $\vec v=(-3;2)$ kolmé?
 
 $$\vec u\cdot\vec v = 2\cdot(-3) + 3\cdot2 = -6+6 = 0 \implies \text{ano, jsou kolmé}$$
+
+```geometry
+{ "points": { "O": [0, 0], "U": [2, 3], "V": [-3, 2] }, "segments": [{ "from": "O", "to": "U" }, { "from": "O", "to": "V" }], "angles": [{ "at": "O", "from": "U", "to": "V", "rightAngle": true }], "title": "u = (2;3) a v = (−3;2) jsou kolmé" }
+```
 
 ## Příklady
 

@@ -81,6 +81,12 @@ Výsledek:
 - diskriminant: ||D = 25+24 = 49, √D = 7||
 - kořeny: ||x₁ = (−5+7)/4 = 0,5, x₂ = (−5−7)/4 = −3||
 
+Kořeny rovnice jsou zároveň průsečíky grafu funkce $y = 2x^2+5x-3$ s osou x:
+
+```graph
+{ "fn": "2*x^2 + 5*x - 3", "domain": [-5, 3], "title": "y = 2x² + 5x − 3, kořeny x₁ = 0,5 a x₂ = −3", "points": [{"x": 0.5, "y": 0, "label": "x₁"}, {"x": -3, "y": 0, "label": "x₂"}], "spoiler": true }
+```
+
 **Př. 2:** $-3x^2 + 12x - 12 = 5x^2 + 10x - 13$
 
 Výsledek:

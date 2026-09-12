@@ -25,6 +25,10 @@ Napište obecnou rovnici přímky procházející bodem $A=[2;-1]$ s normálový
 
 $$3(x-2)+4(y-(-1))=0 \implies 3x-6+4y+4=0 \implies 3x+4y-2=0$$
 
+```geometry
+{ "points": { "A": [2, -1], "N": [5, 3], "P1": [-2, 2], "P2": [6, -4] }, "hiddenPoints": ["P1", "P2"], "segments": [{ "from": "A", "to": "N" }, { "from": "P1", "to": "P2", "dashed": true }], "angles": [{ "at": "A", "from": "N", "to": "P2", "rightAngle": true }], "title": "Přímka 3x+4y−2=0 (čárkovaně) a její normálový vektor n=(3;4) v bodě A" }
+```
+
 ## Z dvou bodů
 
 Prochází-li přímka body $A$, $B$, nejprve spočítáme směrový vektor $\vec s=B-A=(s_1;s_2)$, z něj normálový vektor $\vec n=(s_2;-s_1)$ (viz [Směrový a normálový vektor](/mat/analyticka-geometrie/06-smerovy-a-normalovy-vektor/)) a postupujeme jako výše.

@@ -5,8 +5,6 @@ source: "mat/IT2M_2.docx"
 hasExercises: true
 ---
 
-> Pozn. k obsahu: Zdrojový dokument obsahoval matematické vzorce vložené jako obrázky/rovnice, které se při převodu ztratily (označeno jako ((obrázek vynechán))). Text i řešené úlohy jsou zachovány beze změny významu.
-
 ## 7. Kvadratická rovnice
 
 V předchozích kapitolách jsme poznali průběh kvadratické funkce. Dokázali jsme sledovat průběh hodnot funkce podle proměnné. Kvadratickou funkci jsme aplikovali především na rovnoměrně zrychlený pohyb a tak jsme graficky zakreslili průběh dráhy na čase.
@@ -71,17 +69,45 @@ Pokud bychom nepoužívali normovaný tvar, lze provést rozklad kvadratického 
 
 Sestrojíme graf kvadratické funkce podle pravidel z lekcí o kvadratických funkcích. Protože kvadratická rovnice má y = 0, tak platí, že průsečíky grafu s osou x jsou také kořeny rovnice.
 
-- 2 různé kořeny x1, x2 ((obrázek vynechán))
-- Dvojnásobný kořen x1 = x2 ((obrázek vynechán))
-- Bez řešení ((obrázek vynechán))
+- **2 různé kořeny** (D > 0) — graf protíná osu x ve dvou bodech:
+
+```graph
+{ "fn": "x^2 - 4*x + 3", "domain": [-1, 5], "title": "x² − 4x + 3 = 0 — dva různé kořeny x₁ = 1, x₂ = 3", "points": [{"x": 1, "y": 0, "label": "x₁"}, {"x": 3, "y": 0, "label": "x₂"}] }
+```
+
+- **Dvojnásobný kořen** (D = 0) — graf se osy x jen dotýká (vrchol leží přímo na ose x):
+
+```graph
+{ "fn": "x^2 - 4*x + 4", "domain": [-1, 5], "title": "x² − 4x + 4 = 0 — dvojnásobný kořen x₁ = x₂ = 2", "points": [{"x": 2, "y": 0, "label": "x₁=x₂"}] }
+```
+
+- **Bez řešení** (D < 0) — graf osu x vůbec nepotká:
+
+```graph
+{ "fn": "x^2 - 4*x + 5", "domain": [-1, 5], "title": "x² − 4x + 5 = 0 — bez řešení" }
+```
 
 ### 11.2 Vietovo grafické řešení
 
-Druhý pohled na grafické řešení kvadratické funkce vychází z úpravy kvadratické rovnice x² + px + q = 0 na rovnost x² = −px − q. Kořeny pak najdeme jako průsečík(y) grafu kvadratické funkce y = x² a lineární funkce y = −px − q.
+Druhý pohled na grafické řešení kvadratické funkce vychází z úpravy kvadratické rovnice x² + px + q = 0 na rovnost x² = −px − q. Kořeny pak najdeme jako průsečík(y) grafu kvadratické funkce y = x² a lineární funkce y = −px − q. Na stejných třech rovnicích jako výše (jen vydělených a přepsaných do tvaru x² = 4x − c):
 
-- 2 různé kořeny x1, x2 ((obrázek vynechán))
-- Dvojnásobný kořen x1 = x2 ((obrázek vynechán))
-- Bez řešení ((obrázek vynechán))
+- **2 různé kořeny:** přímka protíná parabolu ve dvou bodech.
+
+```graph
+{ "fn": "x^2", "fn2": "4*x - 3", "fn2Label": "y = 4x−3", "domain": [-1, 5], "title": "x² = 4x − 3 — dva průsečíky", "points": [{"x": 1, "y": 1, "label": "x₁"}, {"x": 3, "y": 9, "label": "x₂"}] }
+```
+
+- **Dvojnásobný kořen:** přímka se paraboly jen dotýká (je jejím tečnou).
+
+```graph
+{ "fn": "x^2", "fn2": "4*x - 4", "fn2Label": "y = 4x−4", "domain": [-1, 5], "title": "x² = 4x − 4 — jediný (dotykový) průsečík", "points": [{"x": 2, "y": 4, "label": "x₁=x₂"}] }
+```
+
+- **Bez řešení:** přímka s parabolou vůbec nesouvisí.
+
+```graph
+{ "fn": "x^2", "fn2": "4*x - 5", "fn2Label": "y = 4x−5", "domain": [-1, 5], "title": "x² = 4x − 5 — žádný průsečík" }
+```
 
 Řešte výpočetně, graficky a také pomocí Vietova pohledu rovnice:
 
@@ -105,17 +131,21 @@ Pokud ale neexistují kořeny kvadratické funkce, pak musíme postupovat složi
 
 Sestrojíme graf kvadratické funkce podle pravidel z lekcí o kvadratických funkcích. Nejprve se zaměříme na to, jaké kořeny by měla kvadratická rovnice pro y = 0. Následně řešíme nerovnosti (větší a menší). Označíme také otevřenost, uzavřenost intervalu.
 
-- 2 různé kořeny x1, x2 ((obrázek vynechán))
-- Dvojnásobný kořen x1 = x2 ((obrázek vynechán))
-- Bez řešení: záleží na znaménku a
+*Příklad:* Řešme nerovnici x² − 4x + 3 > 0 — použijeme stejnou parabolu jako v části 11.1. Graf je nad osou x (kladné hodnoty) mimo interval kořenů, pod osou x (záporné hodnoty) mezi kořeny:
+
+```graph
+{ "fn": "x^2 - 4*x + 3", "domain": [-1, 5], "title": "x² − 4x + 3 > 0 ⟹ x ∈ (−∞; 1) ∪ (3; +∞)", "points": [{"x": 1, "y": 0, "label": "x₁"}, {"x": 3, "y": 0, "label": "x₂"}] }
+```
+
+Řešením nerovnice x² − 4x + 3 > 0 je tedy x ∈ (−∞; 1) ∪ (3; +∞) — oba krajní body jsou vyloučeny (ostrá nerovnost). Pro opačnou nerovnici x² − 4x + 3 < 0 by řešením byl uzavřený interval mezi kořeny, x ∈ (1; 3).
+
+- **2 různé kořeny:** dva krajní body dělí osu x na tři intervaly (vně kořenů graf nad osou, mezi kořeny pod osou — pro parabolu otevřenou nahoru).
+- **Dvojnásobný kořen:** graf se osy x jen dotýká, takže má všude stejné znaménko kromě jediného bodu (kde je nula).
+- **Bez řešení:** graf má všude stejné znaménko — záleží na znaménku koeficientu a (viz graf x² − 4x + 5 v části 11.1, který je celý nad osou x, protože a > 0).
 
 ### 13.2 Vietovo grafické řešení
 
-Druhý pohled na grafické řešení kvadratické funkce vychází z úpravy kvadratické rovnice x² + px + q = 0 na rovnost x² = −px − q. Kořeny pak najdeme jako průsečík(y) grafu kvadratické funkce y = x² a lineární funkce y = −px − q. Nerovnost pak odpovídá všem bodům na ose x, které danou nerovnost splňují.
-
-- 2 různé kořeny x1, x2 ((obrázek vynechán))
-- Dvojnásobný kořen x1 = x2 ((obrázek vynechán))
-- Bez řešení: záleží na znaménku a
+Druhý pohled na grafické řešení kvadratické funkce vychází z úpravy kvadratické rovnice x² + px + q = 0 na rovnost x² = −px − q. Kořeny pak najdeme jako průsečík(y) grafu kvadratické funkce y = x² a lineární funkce y = −px − q. Nerovnost pak odpovídá všem bodům na ose x, které danou nerovnost splňují — tedy tam, kde je parabola y = x² nad (nebo pod) přímkou y = −px − q. Grafy jsou stejné jako v části 11.2: pro x² − 4x + 3 > 0 (tedy x² > 4x − 3) hledáme, kde je parabola nad přímkou y = 4x − 3 — to platí mimo interval mezi průsečíky x = 1 a x = 3.
 
 ## 14. Soustavy lineárních a kvadratických rovnic s více neznámými
 

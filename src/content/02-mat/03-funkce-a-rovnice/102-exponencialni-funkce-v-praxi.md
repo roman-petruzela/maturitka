@@ -5,8 +5,6 @@ source: "mat/IT2M_3.docx"
 hasExercises: true
 ---
 
-> Pozn. k obsahu: Zdrojový dokument obsahoval matematické vzorce vložené jako obrázky/rovnice, které se při převodu ztratily (označeno jako ((obrázek vynechán))). Text i tabulky s daty jsou zachovány beze změny významu.
-
 ## 21.–22. Exponenciální funkce v praxi
 
 V předchozí výuce matematiky jsme se setkali s různými funkcemi — lineární, konstantní, kvadratická aj.
@@ -33,11 +31,21 @@ Pokud bychom jakýkoliv přírodovědný vztah uvedený výše vyjádřili grafi
 |---|---|---|---|---|---|---|---|---|---|---|
 | m (g) | 0,43 | 0,40 | 0,37 | 0,35 | 0,32 | 0,30 | 0,28 | 0,26 | 0,24 | 0,22 |
 
-((obrázek vynechán — graf))
+```graph
+{ "fn": "2^(-x/183)", "domain": [0, 400], "title": "m(t) = m₀ · 2^(−t/T) — radioaktivní rozpad (T ≈ 183 s)", "xLabel": "t (s)", "yLabel": "m (g)" }
+```
 
-Pokud bychom opustili definiční obor typický pro přírodovědné bádání, tedy definiční obor D(f) = ⟨0;+∞), pak by mohla křivka vypadat i pro záporná t. ((obrázek vynechán))
+Pokud bychom opustili definiční obor typický pro přírodovědné bádání, tedy definiční obor D(f) = ⟨0;+∞), pak by mohla křivka vypadat i pro záporná t:
 
-Exponenciální funkce o základu „a" je funkce na množině R vyjádřená ve tvaru y = aˣ, kde „a" je kladné číslo různé od jedné. Základ „a" ovlivňuje tvar a průběh funkce. Především je rozdíl u funkcí, které mají základ a > 1 a 0 < a < 1. Pro a = 1 by měla funkce průběh typický pro konstantní funkci, kde y = 1. ((obrázek vynechán))
+```graph
+{ "fn": "2^(-x/183)", "domain": [-200, 400], "title": "m(t) = m₀ · 2^(−t/T) rozšířeno i na záporná t" }
+```
+
+Exponenciální funkce o základu „a" je funkce na množině R vyjádřená ve tvaru y = aˣ, kde „a" je kladné číslo různé od jedné. Základ „a" ovlivňuje tvar a průběh funkce. Především je rozdíl u funkcí, které mají základ a > 1 a 0 < a < 1. Pro a = 1 by měla funkce průběh typický pro konstantní funkci, kde y = 1.
+
+```graph
+{ "fn": "2^x", "fn2": "0.5^x", "fn2Label": "y = 0,5ˣ", "domain": [-3, 3], "title": "y = 2ˣ (a > 1, rostoucí) a y = 0,5ˣ (0 < a < 1, klesající)" }
+```
 
 - Definiční obor je R
 - Obor hodnot je (0;+∞)
@@ -90,7 +98,11 @@ Pokud bychom jakýkoliv přírodovědný vztah uvedený výše vyjádřili grafi
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
 | pH | 12,00 | 11,00 | 10,00 | 9,00 | 8,00 | 7,00 | 6,00 | 5,00 | 4,00 | 3,00 | 2,00 | 1,00 |
 
-((obrázek vynechán))
+Tabulka jde napříč 12 řády koncentrace, což se na běžném (lineárním) grafu nedá čitelně zobrazit — ukazuje to ale stejnou funkci pH = −log10(x), jen pro čitelnější rozsah koncentrace:
+
+```graph
+{ "fn": "-log10(x)", "domain": [0.01, 1.2], "title": "pH = −log10(c) — čím nižší koncentrace, tím vyšší pH", "xLabel": "c (mol·dm⁻³)", "yLabel": "pH" }
+```
 
 Pokud bychom opustili definiční obor typický pro hledání pH, tedy definiční obor velmi malých kladných čísel, pak by mohla křivka y = log10(x) vypadat takto:
 
@@ -104,7 +116,9 @@ A pro y = log0,1(x):
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
 | y | 0,70 | 0,30 | 0,15 | 0,00 | -0,30 | -0,48 | -0,60 | -0,70 | -0,78 | -0,85 | -0,90 | -0,95 |
 
-((obrázek vynechán))
+```graph
+{ "fn": "log10(x)", "fn2": "-log10(x)", "fn2Label": "y = log₀,₁(x)", "domain": [0.2, 9], "title": "y = log10(x) (a > 1, rostoucí) a y = log0,1(x) (0 < a < 1, klesající)" }
+```
 
 Logaritmická funkce o základu „a" je funkce inverzní k exponenciální funkci y = aˣ, kde „a" je kladné číslo různé od jedné. Značení je voleno jako y = logₐ(x), čteme logaritmus „x" o základu „a".
 
@@ -116,7 +130,7 @@ Logaritmická funkce o základu „a" je funkce inverzní k exponenciální funk
 - Nemá v žádném bodě maximum a ani minimum
 - Funkční hodnota v bodě 1 je rovna 0
 
-((obrázek vynechán))
+Graf výše zároveň dobře ukazuje, že logaritmická funkce je vždy inverzní k exponenciální funkci téhož základu — je to stejný princip jako u y = x² a y = √x v kapitole o kvadratických funkcích, jen se základem „a" místo druhé mocniny.
 
 ## 28.–29. Logaritmická funkce, parametry a grafy
 

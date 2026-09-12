@@ -6,10 +6,15 @@
 //    the build on every `\frac{a}{b}`; plain markdown doesn't have that
 //    problem, so graphs are authored as data via `compileExpr()` below
 //    instead of as embedded JSX)
-import { fmt, escapeAttr, labelTspans } from './svg-utils';
+import { fmt, escapeAttr, labelTspans, wrapSpoiler } from './svg-utils';
 
 export interface GraphSpec {
 	fn?: (x: number) => number;
+	// optional second curve plotted over the same domain/scale as `fn` (e.g.
+	// a line overlaid on a parabola for a "graphical solution" figure) —
+	// rendered dashed so it reads as distinct from the primary curve
+	fn2?: (x: number) => number;
+	fn2Label?: string;
 	domain?: [number, number];
 	parametric?: (t: number) => [number, number];
 	tDomain?: [number, number];
@@ -41,6 +46,8 @@ export interface GraphSpec {
 export function compileExpr(expr: string, varName: 'x' | 't' = 'x'): (v: number) => number {
 	const js = expr
 		.replace(/\^/g, '**')
+		.replace(/\blog10\(/g, 'Math.log10(')
+		.replace(/\blog2\(/g, 'Math.log2(')
 		.replace(/\b(sin|cos|tan|asin|acos|atan|sqrt|log|exp|abs|floor|ceil|round|sign|cbrt)\(/g, 'Math.$1(')
 		.replace(/\bln\(/g, 'Math.log(')
 		.replace(/\bpi\b/gi, 'Math.PI')
@@ -78,6 +85,7 @@ export function renderGraphSvg(spec: GraphSpec): string {
 	const PAD = 34;
 
 	let rawPoints: { x: number; y: number }[][] = [];
+	let rawPoints2: { x: number; y: number }[][] = [];
 	let xDomain: [number, number];
 	let yDomain: [number, number];
 
@@ -112,15 +120,20 @@ export function renderGraphSvg(spec: GraphSpec): string {
 		yDomain = spec.yDomain;
 	} else {
 		if (!spec.fn || !spec.domain) throw new Error('graph: function mode requires fn + domain');
-		const { fn, domain } = spec;
+		const { fn, fn2, domain } = spec;
 		xDomain = domain;
-		const raw: (number | null)[] = [];
-		for (let i = 0; i <= samples; i++) {
-			const x = domain[0] + ((domain[1] - domain[0]) * i) / samples;
-			const y = fn(x);
-			raw.push(Number.isFinite(y) ? y : null);
-		}
-		const finiteYs = raw.filter((y): y is number => y !== null);
+		const sample = (f: (x: number) => number) => {
+			const raw: (number | null)[] = [];
+			for (let i = 0; i <= samples; i++) {
+				const x = domain[0] + ((domain[1] - domain[0]) * i) / samples;
+				const y = f(x);
+				raw.push(Number.isFinite(y) ? y : null);
+			}
+			return raw;
+		};
+		const raw = sample(fn);
+		const raw2 = fn2 ? sample(fn2) : null;
+		const finiteYs = [...raw, ...(raw2 ?? [])].filter((y): y is number => y !== null);
 		let [yMin, yMax] = spec.yDomain ?? [Math.min(...finiteYs), Math.max(...finiteYs)];
 		if (!spec.yDomain) {
 			const padding = (yMax - yMin) * 0.1 || 1;
@@ -129,19 +142,25 @@ export function renderGraphSvg(spec: GraphSpec): string {
 		}
 		yDomain = [yMin, yMax];
 		const jumpThreshold = (yMax - yMin) * 0.6;
-		let current: { x: number; y: number }[] = [];
-		let prevY: number | null = null;
-		for (let i = 0; i <= samples; i++) {
-			const x = domain[0] + ((domain[1] - domain[0]) * i) / samples;
-			const y = raw[i];
-			if (y === null || (prevY !== null && Math.abs(y - prevY) > jumpThreshold)) {
-				if (current.length > 1) rawPoints.push(current);
-				current = [];
+		const segment = (raw: (number | null)[]): { x: number; y: number }[][] => {
+			const segments: { x: number; y: number }[][] = [];
+			let current: { x: number; y: number }[] = [];
+			let prevY: number | null = null;
+			for (let i = 0; i <= samples; i++) {
+				const x = domain[0] + ((domain[1] - domain[0]) * i) / samples;
+				const y = raw[i];
+				if (y === null || (prevY !== null && Math.abs(y - prevY) > jumpThreshold)) {
+					if (current.length > 1) segments.push(current);
+					current = [];
+				}
+				if (y !== null) current.push({ x, y });
+				prevY = y;
 			}
-			if (y !== null) current.push({ x, y });
-			prevY = y;
-		}
-		if (current.length > 1) rawPoints.push(current);
+			if (current.length > 1) segments.push(current);
+			return segments;
+		};
+		rawPoints = segment(raw);
+		if (raw2) rawPoints2 = segment(raw2);
 	}
 
 	const innerW = width - PAD * 2;
@@ -170,9 +189,10 @@ export function renderGraphSvg(spec: GraphSpec): string {
 		sy = (y) => PAD + innerH - ((y - yDomain[0]) / (yDomain[1] - yDomain[0])) * innerH;
 	}
 
-	const pathD = rawPoints
-		.map((seg) => seg.map((p, i) => `${i === 0 ? 'M' : 'L'}${sx(p.x).toFixed(2)},${sy(p.y).toFixed(2)}`).join(' '))
-		.join(' ');
+	const toPathD = (segs: { x: number; y: number }[][]) =>
+		segs.map((seg) => seg.map((p, i) => `${i === 0 ? 'M' : 'L'}${sx(p.x).toFixed(2)},${sy(p.y).toFixed(2)}`).join(' ')).join(' ');
+	const pathD = toPathD(rawPoints);
+	const pathD2 = toPathD(rawPoints2);
 
 	const xTicks = ticksFor(xDomain).filter((t) => t !== 0);
 	const yTicks = ticksFor(yDomain).filter((t) => t !== 0);
@@ -183,11 +203,6 @@ export function renderGraphSvg(spec: GraphSpec): string {
 
 	const floatClass = spec.float ? ` graph-plot--float-${spec.float}` : '';
 	const parts: string[] = [];
-	if (spec.spoiler) {
-		parts.push(
-			`<div class="spoiler-block${floatClass}" tabindex="0" role="button" aria-label="Skryté – klikněte pro zobrazení">`
-		);
-	}
 	parts.push(`<figure class="graph-plot${spec.spoiler ? '' : floatClass}"><svg viewBox="0 0 ${width} ${height}" width="${width}" height="${height}" role="img" aria-label="${escapeAttr(title ?? 'Graf funkce')}">`);
 	for (const t of xTicks) parts.push(`<line x1="${sx(t)}" y1="${PAD}" x2="${sx(t)}" y2="${height - PAD}" class="grid-line" />`);
 	for (const t of yTicks) parts.push(`<line x1="${PAD}" y1="${sy(t)}" x2="${width - PAD}" y2="${sy(t)}" class="grid-line" />`);
@@ -201,6 +216,13 @@ export function renderGraphSvg(spec: GraphSpec): string {
 	if (xLabel) parts.push(`<text x="${width - PAD}" y="${(showXAxis ? xAxisY : height - PAD) - 8}" class="axis-label" text-anchor="end">${labelTspans(xLabel)}</text>`);
 	if (yLabel) parts.push(`<text x="${(showYAxis ? yAxisX : PAD) + 8}" y="${PAD + 4}" class="axis-label" text-anchor="start">${labelTspans(yLabel)}</text>`);
 	parts.push(`<path d="${pathD}" class="curve" fill="none" />`);
+	if (pathD2) {
+		parts.push(`<path d="${pathD2}" class="curve curve-2" fill="none" />`);
+		if (spec.fn2Label) {
+			const last = rawPoints2[rawPoints2.length - 1]?.slice(-1)[0];
+			if (last) parts.push(`<text x="${sx(last.x) - 4}" y="${sy(last.y) - 6}" class="marker-label curve-2-label" text-anchor="end">${labelTspans(spec.fn2Label)}</text>`);
+		}
+	}
 	for (const p of points) {
 		parts.push(`<circle cx="${sx(p.x)}" cy="${sy(p.y)}" r="3.5" class="marker" />`);
 		if (p.label) parts.push(`<text x="${sx(p.x) + 6}" y="${sy(p.y) - 6}" class="marker-label">${labelTspans(p.label)}</text>`);
@@ -208,10 +230,5 @@ export function renderGraphSvg(spec: GraphSpec): string {
 	parts.push(`</svg>`);
 	if (title) parts.push(`<figcaption>${escapeAttr(title)}</figcaption>`);
 	parts.push(`</figure>`);
-	if (spec.spoiler) {
-		parts.push(
-			`<div class="spoiler-block-overlay"><span class="spoiler-block-label">Klikni pro zobrazení grafu</span></div></div>`
-		);
-	}
-	return parts.join('');
+	return wrapSpoiler(parts.join(''), spec.spoiler, floatClass, 'Klikni pro zobrazení grafu');
 }

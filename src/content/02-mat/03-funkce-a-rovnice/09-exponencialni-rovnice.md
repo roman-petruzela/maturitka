@@ -62,6 +62,12 @@ Zavedeme substituci $y=2^x$ (a protože $2^x>0$, i $y>0$): $y^2 - 5y + 4 = 0 \Ri
 
 Vrátíme se k substituci: $2^x=1 \Rightarrow x=0$; $2^x=4 \Rightarrow x=2$. Oba kořeny vyhovují podmínce $y>0$, zkouška vyjde — **výsledek: $x_1=0,\ x_2=2$**.
 
+Graficky jde o hledání, kde funkce $y=2^x$ nabývá hodnot $y=1$ a $y=4$ (výsledky substituce):
+
+```graph
+{ "fn": "2^x", "domain": [-1, 3], "title": "y = 2ˣ — hodnoty y=1 a y=4 nastávají v x=0 a x=2", "points": [{"x": 0, "y": 1, "label": "x₁"}, {"x": 2, "y": 4, "label": "x₂"}] }
+```
+
 **f) Rovnice bez řešení:**
 
 $$2^x = -4$$

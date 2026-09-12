@@ -48,6 +48,12 @@ Roznásobíme vzorcem $(a+b)^2$ a použijeme $\sin2x=2\sin x\cos x$:
 
 $$= \sin^2x + 2\sin x\cos x + \cos^2x - 2\sin x \cos x = \sin^2x+\cos^2x = 1$$
 
+Graf potvrzuje, že výraz vychází pro každé $x$ stejně — je to vodorovná přímka $y=1$, přestože zápis vypadá jako složitá funkce proměnné $x$:
+
+```graph
+{ "fn": "(sin(x)+cos(x))^2 - sin(2*x)", "domain": [0, 6.283185307], "yDomain": [0, 2], "title": "y = (sin x + cos x)² − sin 2x = 1 pro každé x" }
+```
+
 **c)** Zjednodušte $(\cos x - \sin x)(\cos x + \sin x)$.
 
 Použijeme vzorec $a^2-b^2=(a-b)(a+b)$ „pozpátku":

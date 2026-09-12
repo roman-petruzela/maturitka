@@ -29,11 +29,16 @@ export function labelTspans(s: string): string {
 // Wraps rendered figure markup with the same click-to-reveal treatment as
 // inline "||spoiler||" text (see rehype-spoiler.ts / .spoiler-block in
 // global.css) — shared by every figure type that wants a hideable answer.
-export function wrapSpoiler(figureHtml: string, spoiler: boolean | undefined, floatClass: string): string {
+export function wrapSpoiler(
+	figureHtml: string,
+	spoiler: boolean | undefined,
+	floatClass: string,
+	label = 'Klikni pro zobrazení'
+): string {
 	if (!spoiler) return figureHtml;
 	return (
 		`<div class="spoiler-block${floatClass}" tabindex="0" role="button" aria-label="Skryté – klikněte pro zobrazení">` +
 		figureHtml +
-		`<div class="spoiler-block-overlay"><span class="spoiler-block-label">Klikni pro zobrazení</span></div></div>`
+		`<div class="spoiler-block-overlay"><span class="spoiler-block-label">${label}</span></div></div>`
 	);
 }

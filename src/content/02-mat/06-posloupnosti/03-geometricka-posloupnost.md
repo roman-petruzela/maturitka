@@ -15,6 +15,12 @@ Geometrická posloupnost se tedy vždy násobí stejným číslem — např. pro
 
 $$1,\ \underbrace{3}_{\times3},\ \underbrace{9}_{\times3},\ \underbrace{27}_{\times3},\ \underbrace{81}_{\times3},\ \dots$$
 
+Na rozdíl od aritmetické posloupnosti (přímka) leží členy geometrické posloupnosti na exponenciální křivce $a_n=a_1\cdot q^{n-1}$ (pro $a_1=3,\ q=4$):
+
+```graph
+{ "fn": "3 * 4^(x-1)", "domain": [1, 3], "title": "aₙ = 3 · 4ⁿ⁻¹ — členy a₁=3, a₂=12, a₃=48 rostou exponenciálně", "points": [{"x": 1, "y": 3, "label": "a₁"}, {"x": 2, "y": 12, "label": "a₂"}, {"x": 3, "y": 48, "label": "a₃"}], "xLabel": "n" }
+```
+
 ## Vzorce a ukázkové příklady
 
 **Výpočet dalšího členu pomocí předcházejícího a kvocientu:**

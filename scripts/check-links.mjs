@@ -54,6 +54,18 @@ async function main() {
 	let brokenCount = 0;
 	let checkedCount = 0;
 	const bySource = new Map();
+	// The same handful of nav/footer hrefs repeats on every one of the ~750
+	// generated pages, so cache each resolved target's existence instead of
+	// re-`access()`-ing the same file over and over.
+	const existsCache = new Map();
+	async function existsCached(p) {
+		let cached = existsCache.get(p);
+		if (cached === undefined) {
+			cached = await exists(p);
+			existsCache.set(p, cached);
+		}
+		return cached;
+	}
 
 	for (const file of files) {
 		const html = await readFile(file, 'utf-8');
@@ -63,7 +75,7 @@ async function main() {
 			if (!href.startsWith('/')) continue; // external, mailto:, tel:, etc.
 			checkedCount++;
 			const target = resolveTarget(href);
-			if (!(await exists(target))) {
+			if (!(await existsCached(target))) {
 				brokenCount++;
 				const rel = path.relative(DIST, file);
 				if (!bySource.has(rel)) bySource.set(rel, []);

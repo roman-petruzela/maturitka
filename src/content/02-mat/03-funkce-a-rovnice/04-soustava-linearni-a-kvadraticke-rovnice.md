@@ -91,6 +91,10 @@ Průsečíky zjistíme i početně (dosazením $y=x-5$ do $xy=-6$): $x(x-5) = -6
 
 **Výsledek:** $A = [2;\ -3]$, $B = [3;\ -2]$
 
+```graph
+{ "fn": "x - 5", "fn2": "-6/x", "fn2Label": "y = −6/x", "domain": [-4, 7], "yDomain": [-9, 6], "title": "y = x − 5 (přímka) a y = −6/x (hyperbola) — průsečíky A, B", "points": [{"x": 2, "y": -3, "label": "A"}, {"x": 3, "y": -2, "label": "B"}] }
+```
+
 ## Příklady na procvičení (graficky)
 
 **Příklad 1:** Řešte soustavu $4x + 2y - 6 = 0$, $y = x^2$.
@@ -102,6 +106,10 @@ Výsledek:
 - dosazením $x^2 = -2x+3$: ||x² + 2x − 3 = 0, (x+3)(x−1) = 0, x₁ = −3, x₂ = 1||
 - řešení: ||A = [1; 1], B = [−3; 9]||
 
+```graph
+{ "fn": "x^2", "fn2": "-2*x + 3", "fn2Label": "y = −2x+3", "domain": [-5, 3], "title": "y = x² a y = −2x + 3", "points": [{"x": 1, "y": 1, "label": "A"}, {"x": -3, "y": 9, "label": "B"}], "spoiler": true }
+```
+
 ---
 
 **Příklad 2:** Řešte soustavu $y = x^2$, $xy = 8$.
@@ -112,6 +120,10 @@ Výsledek:
 
 - dosazením $x^2 = 8/x$: ||x³ = 8||
 - řešení: ||x = 2, y = 4, tedy A = [2; 4] (jediný reálný průsečík — rovnice x³=8 má jen jeden reálný kořen, zbylé dva jsou komplexní)||
+
+```graph
+{ "fn": "x^2", "fn2": "8/x", "fn2Label": "y = 8/x", "domain": [-4, 4], "yDomain": [-10, 12], "title": "y = x² a y = 8/x — jediný reálný průsečík A", "points": [{"x": 2, "y": 4, "label": "A"}], "spoiler": true }
+```
 
 ## Shrnutí
 

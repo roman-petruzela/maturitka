@@ -15,6 +15,12 @@ Aritmetická posloupnost se tedy vždy zvětšuje (nebo zmenšuje) o stejnou hod
 
 $$1,\ \underbrace{3}_{+2},\ \underbrace{5}_{+2},\ \underbrace{7}_{+2},\ \underbrace{9}_{+2},\ \dots$$
 
+Členy aritmetické posloupnosti leží na přímce — je to totiž jen lineární funkce $a_n=a_1+(n-1)d$ vyčíslená pro přirozená čísla $n$ (pro $a_1=3,\ d=4$):
+
+```graph
+{ "fn": "3 + (x-1)*4", "domain": [1, 5], "title": "aₙ = 3 + (n−1)·4 — členy a₁, a₂, a₃, a₄, a₅ leží na přímce", "points": [{"x": 1, "y": 3, "label": "a₁"}, {"x": 2, "y": 7, "label": "a₂"}, {"x": 3, "y": 11, "label": "a₃"}, {"x": 4, "y": 15, "label": "a₄"}, {"x": 5, "y": 19, "label": "a₅"}], "xLabel": "n" }
+```
+
 ## Vzorce a ukázkové příklady
 
 **Výpočet dalšího členu pomocí předcházejícího a diference:**

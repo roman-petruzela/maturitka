@@ -5,8 +5,18 @@
 // of italic text becomes tiring to read; a quieter, differently-styled span
 // keeps the disclaimer visible without competing with the actual problem
 // text for attention. Mirrors rehype-spoiler.ts's text-splitting approach.
-import { visit } from 'unist-util-visit';
+import { visit, SKIP } from 'unist-util-visit';
 import type { Root, RootContent, Text, Element } from 'hast';
+
+// rehype-math.ts renders `$...$`/`$$...$$` into these spans *before* this
+// plugin runs (see the rehypePlugins order in astro.config.mjs) — a
+// rendered formula can legitimately contain a literal "((...))"-shaped text
+// node (e.g. an unescaped `$((12))$`), which must never be reinterpreted as
+// a recon-note and mangled.
+function isMathSpan(node: Element): boolean {
+	const classNames = node.properties?.className;
+	return Array.isArray(classNames) && (classNames.includes('math-inline') || classNames.includes('math-display'));
+}
 
 const RECON_NOTE_RE = /\(\(([^()]+)\)\)/g;
 
@@ -42,7 +52,7 @@ function splitTextNode(node: Text): RootContent[] | null {
 export function rehypeReconNote() {
 	return (tree: Root) => {
 		visit(tree, 'element', (node: Element) => {
-			if (node.tagName === 'code' || node.tagName === 'pre') return;
+			if (node.tagName === 'code' || node.tagName === 'pre' || isMathSpan(node)) return SKIP;
 			const children: RootContent[] = [];
 			let changed = false;
 			for (const child of node.children) {

@@ -50,6 +50,12 @@ Vyřešíme: $(x+3)(x-2)=0$, tedy $x_1 = -3$, $x_2 = 2$.
 
 **Výsledek:** $x = 2$
 
+Graf ukazuje přesně, proč $x_1=-3$ byl cizí kořen: funkce $y=\sqrt{x+7}$ (vždy nezáporná) a $y=x+1$ se skutečně protínají jen jednou, v bodě $x=2$ — u $x=-3$ umocněním vzniklá rovnice "vidí" průsečík, který ve skutečnosti neexistuje, protože tam je $x+1$ záporné:
+
+```graph
+{ "fn": "sqrt(x+7)", "fn2": "x+1", "fn2Label": "y = x+1", "domain": [-7, 4], "title": "y = √(x+7) a y = x+1 — jediný skutečný průsečík je x = 2", "points": [{"x": 2, "y": 3, "label": "x₂"}] }
+```
+
 ## Příklady na procvičení
 
 **Příklad 1:** Řešte rovnici $\sqrt{2x-3} = x-3$.

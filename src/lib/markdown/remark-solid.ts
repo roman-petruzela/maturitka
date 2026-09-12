@@ -3,11 +3,11 @@
 // shape and remark-graph.ts for why this runs at the mdast stage.
 import { visit } from 'unist-util-visit';
 import { renderSolidSvg, type SolidSpec } from './solid-svg';
-import type { Root } from 'mdast';
+import type { Root, Code, Html } from 'mdast';
 
 export function remarkSolid() {
 	return (tree: Root) => {
-		visit(tree, 'code', (node: any) => {
+		visit(tree, 'code', (node: Code) => {
 			if (node.lang !== 'solid') return;
 			let spec: SolidSpec;
 			try {
@@ -21,7 +21,7 @@ export function remarkSolid() {
 			} catch (err) {
 				throw new Error(`\`\`\`solid block failed to render: ${(err as Error).message}\n${node.value}`);
 			}
-			node.type = 'html';
+			(node as unknown as Html).type = 'html';
 			node.value = svg;
 		});
 	};

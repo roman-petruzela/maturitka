@@ -19,10 +19,12 @@
 //     ```
 import { visit } from 'unist-util-visit';
 import { compileExpr, compileParametric, renderGraphSvg, type GraphSpec } from './graph-svg';
-import type { Root } from 'mdast';
+import type { Root, Code, Html } from 'mdast';
 
 interface GraphJson {
 	fn?: string;
+	fn2?: string;
+	fn2Label?: string;
 	domain?: [number, number];
 	parametric?: string;
 	tDomain?: [number, number];
@@ -52,15 +54,17 @@ function toSpec(json: GraphJson): GraphSpec {
 		yLabel: json.yLabel,
 		spoiler: json.spoiler,
 		float: json.float,
+		fn2Label: json.fn2Label,
 	};
 	if (json.parametric) spec.parametric = compileParametric(json.parametric);
 	if (json.fn) spec.fn = compileExpr(json.fn, 'x');
+	if (json.fn2) spec.fn2 = compileExpr(json.fn2, 'x');
 	return spec;
 }
 
 export function remarkGraph() {
 	return (tree: Root) => {
-		visit(tree, 'code', (node: any) => {
+		visit(tree, 'code', (node: Code) => {
 			if (node.lang !== 'graph') return;
 			let json: GraphJson;
 			try {
@@ -74,7 +78,7 @@ export function remarkGraph() {
 			} catch (err) {
 				throw new Error(`\`\`\`graph block failed to render: ${(err as Error).message}\n${node.value}`);
 			}
-			node.type = 'html';
+			(node as unknown as Html).type = 'html';
 			node.value = svg;
 		});
 	};

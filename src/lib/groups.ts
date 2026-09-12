@@ -21,9 +21,19 @@ const subjectDirNames: Record<string, string> = Object.fromEntries(
 	listOrderedDirs(CONTENT_ROOT).map((d) => [d.slug, d.dirName])
 );
 
+// `getStaticPaths` calls groupLabel()/sortGroupKeys() once per generated
+// content *page* (hundreds of times per subject), so the underlying
+// `readdirSync` this triggers is worth caching per subject rather than
+// re-reading the same category directory from disk on every single page.
+const categoryDirsCache = new Map<SubjectKey, ReturnType<typeof listOrderedDirs>>();
+
 function categoryDirsOf(subject: SubjectKey) {
+	const cached = categoryDirsCache.get(subject);
+	if (cached) return cached;
 	const subjectDir = subjectDirNames[subject];
-	return subjectDir ? listOrderedDirs(path.join(CONTENT_ROOT, subjectDir)) : [];
+	const dirs = subjectDir ? listOrderedDirs(path.join(CONTENT_ROOT, subjectDir)) : [];
+	categoryDirsCache.set(subject, dirs);
+	return dirs;
 }
 
 export function groupLabel(subject: SubjectKey, slug: string): string {

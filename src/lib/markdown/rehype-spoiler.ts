@@ -1,8 +1,18 @@
 // Rehype plugin: Discord-style "||hidden text||" becomes a click-to-reveal
 // span. Toggling is handled by a single delegated listener in BaseLayout.astro
 // (see .spoiler / .spoiler.is-revealed in global.css).
-import { visit } from 'unist-util-visit';
+import { visit, SKIP } from 'unist-util-visit';
 import type { Root, RootContent, Text, Element } from 'hast';
+
+// rehype-math.ts renders `$...$`/`$$...$$` into these spans *before* this
+// plugin runs (see the rehypePlugins order in astro.config.mjs) — a
+// rendered formula can legitimately contain a literal "((...))"-shaped text
+// node (e.g. an unescaped `$((12))$`), which must never be reinterpreted as
+// spoiler syntax and mangled.
+function isMathSpan(node: Element): boolean {
+	const classNames = node.properties?.className;
+	return Array.isArray(classNames) && (classNames.includes('math-inline') || classNames.includes('math-display'));
+}
 
 const SPOILER_RE = /\|\|([^\s|](?:[^|\n]*[^\s|])?)\|\|/g;
 
@@ -43,7 +53,7 @@ function splitTextNode(node: Text): RootContent[] | null {
 export function rehypeSpoiler() {
 	return (tree: Root) => {
 		visit(tree, 'element', (node: Element) => {
-			if (node.tagName === 'code' || node.tagName === 'pre') return;
+			if (node.tagName === 'code' || node.tagName === 'pre' || isMathSpan(node)) return SKIP;
 			const children: RootContent[] = [];
 			let changed = false;
 			for (const child of node.children) {
