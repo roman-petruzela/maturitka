@@ -14,7 +14,12 @@ function isMathSpan(node: Element): boolean {
 	return Array.isArray(classNames) && (classNames.includes('math-inline') || classNames.includes('math-display'));
 }
 
-const SPOILER_RE = /\|\|([^\s|](?:[^|\n]*[^\s|])?)\|\|/g;
+// Content can legitimately contain single "|" characters (absolute-value
+// bars like |x-3|=5 are common in math spoilers) — only a literal "||" ends
+// the spoiler, so the middle group matches lazily up to the next "||"
+// rather than excluding "|" outright like an earlier version of this regex
+// did (that version silently broke on any spoiler containing |...|).
+const SPOILER_RE = /\|\|(\S(?:[^\n]*?\S)?)\|\|/g;
 
 function spoilerToHast(text: string): Element {
 	return {

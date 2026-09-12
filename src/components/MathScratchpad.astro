@@ -281,8 +281,17 @@ const PEN_WIDTHS = [
 			//    work.
 			const NUMBERED_RE = /^\d{1,2}[.)]\s*\S/;
 			const ILLUSTRATIVE_INTRO_RE = /^Příklady\b/i;
+			// Uses the paragraph's *full* text, not just its first child node —
+			// a bold "**1.**" marker (a common convention for exercise numbers
+			// across this corpus) renders as `<p><strong>1.</strong> Text…</p>`,
+			// where the first child is the <strong> element and its own
+			// textContent is just "1." with nothing after the dot. Checking
+			// el.textContent instead (the concatenation of the whole paragraph)
+			// still correctly anchors the numbered-marker match to the very
+			// start via `^`, so it doesn't start matching paragraphs where a
+			// number merely appears somewhere in the middle.
 			const isNumberedParagraph = (el: Element | null) =>
-				!!el && el.tagName === 'P' && NUMBERED_RE.test((el.firstChild?.textContent ?? el.textContent ?? '').trim());
+				!!el && el.tagName === 'P' && NUMBERED_RE.test((el.textContent ?? '').trim());
 
 			function precedingIntro(el: Element): Element | null {
 				let prev = el.previousElementSibling;
@@ -293,6 +302,24 @@ const PEN_WIDTHS = [
 			function isIllustrativeIntro(introEl: Element | null): boolean {
 				if (!introEl || introEl.tagName !== 'P') return false;
 				return ILLUSTRATIVE_INTRO_RE.test((introEl.textContent ?? '').trim());
+			}
+
+			// A third non-exercise case, alongside the two described above: a
+			// numbered <ol> used to enumerate universally-true facts/cases
+			// ("Pro všechna reálná čísla a platí…", "Pro každé...") rather than
+			// tasks to work through — grammatically these are statements, not
+			// instructions, so there's nothing to "solve" on a blank canvas.
+			// Deliberately narrow (requires *every* item to open this way, not
+			// just one) since plenty of real exercises are also authored as a
+			// plain <ol> without any bold/heading marker (see the two rejected
+			// heuristics this replaced, tested against the corpus: excluding by
+			// preceding colon or by enclosing heading both wrongly vetoed real
+			// exercises elsewhere on the site).
+			const UNIVERSAL_STATEMENT_RE = /^Pro (všechna|každé|libovolné)\b/i;
+			function isUniversalStatementList(group: HTMLElement): boolean {
+				if (group.tagName !== 'OL') return false;
+				const items = Array.from(group.children) as HTMLElement[];
+				return items.length > 0 && items.every((li) => UNIVERSAL_STATEMENT_RE.test((li.textContent ?? '').trim()));
 			}
 
 			// stopBefore is the next candidate group's own start element (or
@@ -348,6 +375,7 @@ const PEN_WIDTHS = [
 				const allowedGroups = new Set<HTMLElement>();
 				groups.forEach((group, i) => {
 					if (isIllustrativeIntro(precedingIntro(group))) return;
+					if (isUniversalStatementList(group)) return;
 					if (hasScaffoldingBefore(group, groups[i + 1] ?? null)) return;
 					allowedGroups.add(group);
 				});
