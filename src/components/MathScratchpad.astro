@@ -279,7 +279,14 @@ const PEN_WIDTHS = [
 			//    Those can't be usefully "taken to the canvas" since the point
 			//    of the exercise is filling in that scaffolding, not freehand
 			//    work.
-			const NUMBERED_RE = /^\d{1,2}[.)]\s*\S/;
+			// Matches both "1." / "1)" (digit markers) and "a)" / "b)" (single
+			// lowercase-letter markers — the convention for sub-parts of one
+			// exercise, e.g. "**a)** $\frac{...}{...}$"). A bare single letter
+			// immediately followed by ")" essentially never occurs in normal
+			// Czech prose (not even short prepositions like "v"/"k"/"s" are
+			// ever written that way), so this doesn't need the same kind of
+			// disambiguation the digit case does.
+			const NUMBERED_RE = /^(?:\d{1,2}|[a-z])[.)]\s*\S/;
 			const ILLUSTRATIVE_INTRO_RE = /^Příklady\b/i;
 			// Uses the paragraph's *full* text, not just its first child node —
 			// a bold "**1.**" marker (a common convention for exercise numbers
