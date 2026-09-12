@@ -16,6 +16,8 @@ Vedle jazyka a literatury hraje klíčovou roli i **vlastenecké divadlo** — p
 
 ### Josef Dobrovský (1. fáze)
 - **Charakteristika:** Zakladatel vědecké slavistiky a české mluvnice — paradoxně píše převážně německy (protože to byl jazyk tehdejší vědy), je ovlivněný osvícenským racionalismem a zpočátku byl dokonce skeptický k tomu, že by čeština mohla znovu ožít jako plnohodnotný kulturní jazyk.
+- **Dějiny české řeči a literatury** (1792): První ucelený vědecký přehled vývoje českého jazyka a písemnictví.
+- **Zevrubná mluvnice jazyka českého** (1809): Kodifikuje pravidla spisovné češtiny na základě jazyka humanistické doby (16. stol.) — na této kodifikaci pak stavěli i další obrozenci.
 
 ### Josef Jungmann (2. fáze)
 - **Charakteristika:** Jazykovědec a překladatel, píše už vědomě česky.

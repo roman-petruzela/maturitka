@@ -48,11 +48,24 @@ Praha, Světozor); Vilímek died in 1938, so pma-70 is long past.
 
 | bohumil-hrabal.jpg | File:Bohumil Hrabal (cropped).jpg — **CC BY-SA 3.0, Hana Hamplová** (not PD — see credit line rendered under the photo itself, via `findAuthorCredit()` in `author-image.ts`) | Bohumil Hrabal |
 
-Not sourced yet (Wikimedia rate-limited the download mid-batch, retry
-later): Oscar Wilde (candidate: File:Oscar Wilde by Napoleon Sarony,
-1882.jpg — confirmed to exist and PD, just didn't download this round).
+| oscar-wilde.jpg | File:Oscar Wilde by Napoleon Sarony, 1882.jpg — photographer d. 1896 | Oscar Wilde |
+| dante-alighieri.jpg | File:Dante Alighieri's portrait by Sandro Botticelli.jpg — painter d. 1510 | Dante Alighieri |
+| francesco-petrarca.jpg | File:Altichiero, ritratto di Francesco Petrarca.jpg — near-contemporary, painter d. c. 1393 | Francesco Petrarca |
+| giovanni-boccaccio.jpg | File:Andrea del Castagno Giovanni Boccaccio c 1450.jpg — painter d. 1457 | Giovanni Boccaccio |
+| daniel-defoe.jpg | File:Godfrey Kneller - Daniel Defoe - Royal Museums Greenwich.jpg — painter d. 1723 | Daniel Defoe |
+| jonathan-swift.jpg | File:Charles Jervas - Jonathan Swift - National Portrait Gallery.jpg — painter d. 1739 | Jonathan Swift |
+| guy-de-maupassant.jpg | File:Guy de Maupassant fotograferad av Félix Nadar 1888.jpg — photographer d. 1910 | Guy de Maupassant |
+| jean-arthur-rimbaud.jpg | File:Arthur Rimbaud by Étienne Carjat, 1872, color.jpg — photographer d. 1906 | Jean Arthur Rimbaud |
+
+**Note on François Villon** (francois-villon.jpg, File:Francois Villon
+1489.jpg): unlike a normal portrait, this is the woodcut illustration from
+the 1489 Pierre Levet printed edition of his own works — a genuine period
+artifact contemporary to Villon, but (like most 15th-century woodcuts of
+commoners) a generic/symbolic figure, not a true likeness. Shown because
+it's the traditional image associated with his book, not because it's
+verified to resemble him — flagged here for transparency.
 
 Miguel de Cervantes was deliberately skipped — no authentic portrait of him
-is known to exist; every image commonly labeled as his is a later,
-unverified attribution, which conflicts with this project's own "verified
-data only" rule.
+is known to exist, not even a period-symbolic one comparable to Villon's;
+every image commonly labeled as his is a later, unverified attribution,
+which conflicts with this project's own "verified data only" rule.

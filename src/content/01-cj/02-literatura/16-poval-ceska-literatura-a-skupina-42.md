@@ -56,7 +56,10 @@ Oficiální literatura 50. let musela navíc dodržovat závaznou uměleckou met
   - **Děj:** Vzpomínková próza kombinuje idylické vzpomínky na dětství, rybaření a otce-obchodníka se stíny doby (otec byl za války jako Žid vězněn) — prolíná se v ní něha, humor i tichý smutek.
 
 ### Vladimír Páral
-- **Charakteristika:** Ve svých románech (**Milenci a vrazi**, **Soukromá vichřice**) se věnuje mezilidským (často milostným) vztahům v prostředí severočeských chemiček — s ironickým, satirickým odstupem od konzumního způsobu života normalizační doby.
+- **Charakteristika:** Ve svých románech se věnuje mezilidským (často milostným) vztahům v prostředí severočeských chemiček — s ironickým, satirickým odstupem od konzumního způsobu života normalizační doby.
+- **Milenci a vrazi:**
+  - **Děj:** Mozaika milostných a mezilidských vztahů v prostředí severočeského průmyslového města — postavy se v honbě za štěstím a kariérou k sobě navzájem chovají manipulativně a bezohledně, "vraždí" jeden druhého citově, ne doslova.
+- **Soukromá vichřice:** Podobně laděný román z chemičkářského prostředí.
 
 ### Ladislav Fuks
 - **Charakteristika:** Patří ke generaci autorů zpracovávajících téma holocaustu s prvky magického realismu a psychologické hrůzy.

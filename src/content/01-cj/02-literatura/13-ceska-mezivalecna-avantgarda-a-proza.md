@@ -30,7 +30,7 @@ Umělecký svaz **Devětsil** (založen 1920 v Praze z iniciativy Vladislava Van
 
 ### František Halas
 - **Charakteristika:** Píše existenciálněji laděnou poezii.
-- **Kohout plaší smrt, Torzo naděje:** Sbírky.
+- **[Kohout plaší smrt](https://cs.wikisource.org/wiki/Kohout_plaší_smrt), Torzo naděje:** Sbírky.
 - **Já se tam vrátím:** Pozdější próza.
 
 ### Jaroslav Seifert
@@ -57,8 +57,8 @@ Umělecký svaz **Devětsil** (založen 1920 v Praze z iniciativy Vladislava Van
 ### Karel Čapek
 - **Charakteristika:** Nejvýznamnější český meziválečný spisovatel — dramatik, prozaik, novinář a překladatel; je považován za tvůrce novinářského žánru **fejetonu**.
 - **[R.U.R.](https://cs.wikisource.org/wiki/R.U.R.)** (Rossumovi Univerzální Roboti) ([rozbor](/cj/rozbor-knih-a-cetba/karel-capek-r-u-r/ "Rozbor díla R.U.R.")): Divadelní hra poprvé použila slovo "robot" (vymyslel ho Čapkův bratr Josef) pro uměle vyrobené dělníky, kteří se nakonec vzbouří proti svým tvůrcům — jedno z nejvlivnějších děl světové science fiction.
-- **Bílá nemoc, Matka** ([rozbor](/cj/rozbor-knih-a-cetba/karel-capek-matka-a-bila-nemoc/ "Rozbor díla Bílá nemoc, Matka")): Dramata reagující na hrozbu blížící se 2. světové války a fašismu.
-- **Válka s Mloky** ([rozbor](/cj/rozbor-knih-a-cetba/karel-capek-valka-s-mloky/ "Rozbor díla Válka s Mloky")): Satirická alegorie na kolonialismus a fašismus (lidstvo vycvičí inteligentní mloky k práci, ti se ale postupně vymknou kontrole).
+- **[Bílá nemoc](https://cs.wikisource.org/wiki/Bílá_nemoc), Matka** ([rozbor](/cj/rozbor-knih-a-cetba/karel-capek-matka-a-bila-nemoc/ "Rozbor díla Bílá nemoc, Matka")): Dramata reagující na hrozbu blížící se 2. světové války a fašismu.
+- **[Válka s Mloky](https://cs.wikisource.org/wiki/Válka_s_mloky)** ([rozbor](/cj/rozbor-knih-a-cetba/karel-capek-valka-s-mloky/ "Rozbor díla Válka s Mloky")): Satirická alegorie na kolonialismus a fašismus (lidstvo vycvičí inteligentní mloky k práci, ti se ale postupně vymknou kontrole).
 - **Povídky z jedné a druhé kapsy** ([rozbor](/cj/rozbor-knih-a-cetba/karel-capek-povidky-z-jedne-a-druhe-kapsy/ "Rozbor díla Povídky z jedné a druhé kapsy")): Ukázka Čapka jako mistra krátké prózy.
 
 ### Jaroslav Havlíček

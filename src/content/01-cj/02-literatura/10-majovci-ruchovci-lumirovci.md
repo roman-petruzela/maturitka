@@ -30,6 +30,7 @@ Almanach **Máj** (1858) vzniká na počest Karla Hynka Máchy — jako výraz o
 
 ### Josef Václav Sládek
 - **Charakteristika:** Patřil formálně k lumírovcům, tematicky je ale spíš spojován i s ruchovci — píše venkovskou a přírodní lyriku, epickou poezii inspirovanou vlastní cestou do Ameriky a rozsáhlou dětskou poezii (dodnes se učí ve školách).
+- **Skřivánčí písně** (1888): Nejznámější sbírka jeho poezie pro děti — prostá, muzikální říkadla a básničky o přírodě a domově, řada z nich zlidověla a děti se je učí dodnes.
 
 ## Ruchovci (70.–80. léta)
 
@@ -37,6 +38,7 @@ Almanach **Ruch** (1868, stejný rok, kdy byl položen základní kámen Národn
 
 ### Svatopluk Čech
 - **Charakteristika:** Básník a autor tzv. "broučkiád" — satirických próz o měšťanovi panu Broučkovi, kterého autor situuje do fantastických prostředí (minulost, Měsíc), aby skrze jeho pohodlnou malost a sobectví zesměšnil maloměšťáckou českou společnost své doby.
+- **Výlety páně Broučkovy** (Výlet pana Broučka do Měsíce, Nový epochální výlet pana Broučka, tentokrát do XV. století): Brouček je pohodlný, zbabělý domácí pán, který se nečekaně ocitne nejdřív na Měsíci mezi umělci-snílky a poté v husitských Čechách mezi bojovníky za pravdu — v obou světech jen směšně přežívá vlastním sobectvím a zbabělostí, což je hlavním terčem autorovy satiry na českého maloměšťáka.
 
 ### Alois Jirásek
 - **Charakteristika:** Věnuje se historické próze napříč téměř celými českými dějinami a ve svém díle výrazně vyzdvihuje husitství jako vrchol národních dějin — patří k nejčtenějším a nejadaptovanějším českým autorům historických románů vůbec.

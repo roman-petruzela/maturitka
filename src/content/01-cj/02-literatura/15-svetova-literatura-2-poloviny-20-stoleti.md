@@ -47,6 +47,7 @@ Po roce 1945 se svět rozdělí na dva soupeřící bloky — poválečná liter
 - **Charakteristika:** Protestní hnutí spisovatelů odmítajících konzumní americkou společnost 50. let — volnost, cestování bez cíle, život v komunitách bez majetku a stálé práce, experimenty s alkoholem i drogami jako forma úniku a hledání autentického prožitku.
 
 ### Jack Kerouac
+- **Charakteristika:** (USA) Klíčová postava beat generation, psal spontánní, rytmickou prózou blízkou jazzové improvizaci ("spontaneous prose").
 - **Na cestě:**
   - **Děj:** Román napsaný v podobě téměř nepřerušovaného proudu textu (podle legendy na jeden dlouhý svitek papíru) — vypráví o bezcílných cestách napříč Amerikou, honbě za svobodou a intenzivním prožitkem okamžiku; stal se ikonickým dílem celé generace.
 

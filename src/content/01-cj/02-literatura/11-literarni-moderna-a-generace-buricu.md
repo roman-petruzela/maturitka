@@ -55,12 +55,15 @@ Mladí básníci spojení s anarchistickým hnutím (spolek Omladina) — protis
 - **Slezské písně** ([rozbor](/cj/rozbor-knih-a-cetba/petr-bezruc-slezske-pisne/ "Rozbor díla Slezské písně")): Drsné, vzdorné verše, které dávají hlas národnostnímu a sociálnímu útisku slezského lidu (Poláků, Čechů i Němců) na přelomu století, na pomezí uhelných dolů a hutí Ostravska.
 
 ### Fráňa Šrámek
-- **Charakteristika:** Básník (*Modrý a rudý*), prozaik (*Stříbrný vítr* — vzpomínka na studentská léta a první lásku) a dramatik (*Měsíc nad řekou*).
+- **Charakteristika:** Básník, prozaik a dramatik spojený s civilismem a vitalismem — jeho dílo prochází od protiválečného a protispolečenského vzdoru k citlivé, smyslové oslavě mládí, přírody a lásky.
+- **Modrý a rudý:** Básnická sbírka.
+- **Stříbrný vítr:** Lyrizovaný román vzpomíná na poslední léta studentských let a první lásku — smyslové, netlumené prožívání mládí v kontrastu s omezeními měšťácké společnosti a školy.
+- **Měsíc nad řekou:** Drama.
 
 ### Stanislav Kostka Neumann
 - **Charakteristika:** Prochází ve své tvorbě několika fázemi, jeho vývoj sám o sobě mapuje proměny celé generace buřičů směrem k levicové angažovanosti.
 - **Kniha mládí a vzdoru:** Anarchistická fáze.
-- **Knihy lesů, vod a strání:** Vitalistická fáze.
+- **[Kniha lesů, vod a strání](https://cs.wikisource.org/wiki/Kniha_lesů,_vod_a_strání):** Vitalistická fáze.
 - **Nové zpěvy:** Civilistní fáze — oslava velkoměsta a techniky.
 - **Rudé zpěvy:** Výslovně socialistická fáze.
 
