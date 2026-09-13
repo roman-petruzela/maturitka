@@ -78,7 +78,7 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 			<span class="site-footer-sep" aria-hidden="true" />
 			<a href="/licence/">CC BY-NC-SA 4.0</a>
 			<span class="site-footer-sep" aria-hidden="true" />
-			<span>© {year} MATURITKA</span>
+			<span>© {year} <a href="/o-strance/">MATURITKA</a></span>
 			<span class="site-footer-sep" aria-hidden="true" />
 			<span>v{version}</span>
 		</footer>
@@ -347,7 +347,69 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 						var li = document.createElement('li');
 						var a = document.createElement('a');
 						a.href = '#' + node.id;
-						a.appendChild(node.cloneNode(true));
+						var clone = node.cloneNode(true);
+
+						// Split off an explanatory tail like
+						// "\\text{kde } m \\text{ je střední příčka...}".
+						// MathLive renders \\text{} as .ML__text, so the first
+						// one that opens with a Czech connective marks where the
+						// formula stops and the prose starts. Everything from
+						// there is re-set as plain sentence text below the
+						// formula; left in place it rendered as maths and looked
+						// like a second equation that had been cut off.
+						var NOTE_RE = /^(kde|pro|kdy|přičemž|resp\.)\b/i;
+						var texts = clone.querySelectorAll('.ML__text');
+						var cut = null;
+						for (var t = 0; t < texts.length; t++) {
+							if (NOTE_RE.test((texts[t].textContent || '').trim())) {
+								cut = texts[t];
+								break;
+							}
+						}
+						var note = '';
+						if (cut) {
+							// Climb only while the node is the last thing in its
+							// parent. Stopping at the first ancestor that still
+							// has a following sibling is what keeps the formula:
+							// an unconditional climb to the clone's own child
+							// grabbed MathLive's single wrapper element, which
+							// holds the *whole* expression, so "S = m·v" ended up
+							// inside the caption and the formula row went blank.
+							var top = cut;
+							while (top.parentNode && top.parentNode !== clone && !top.nextSibling) {
+								top = top.parentNode;
+							}
+							var doomed = [];
+							for (var n = top; n; n = n.nextSibling) doomed.push(n);
+							var parts = [];
+							doomed.forEach(function (n) {
+								parts.push(n.textContent || '');
+								n.parentNode.removeChild(n);
+							});
+							note = parts
+								.join(' ')
+								.replace(/\s+/g, ' ')
+								.replace(/\s+([,.;:)\]])/g, '$1')
+								.replace(/([(\[])\s+/g, '$1')
+								.trim()
+								.replace(/^[,;\s]+/, '');
+
+							// If the split left nothing to show as a formula,
+							// it wasn't a formula-plus-prose after all — put it
+							// back and show the original.
+							if (!(clone.textContent || '').trim()) {
+								clone = node.cloneNode(true);
+								note = '';
+							}
+						}
+
+						a.appendChild(clone);
+						if (note) {
+							var cap = document.createElement('span');
+							cap.className = 'rail-formula-note';
+							cap.textContent = note;
+							a.appendChild(cap);
+						}
 						li.appendChild(a);
 						formulaList.appendChild(li);
 					});
