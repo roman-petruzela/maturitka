@@ -1,22 +1,109 @@
 @import 'mathlive/static.css';
+@import '@fontsource-variable/literata/opsz.css';
+@import '@fontsource-variable/literata/opsz-italic.css';
+@import '@fontsource-variable/inter/wght.css';
 
-/* Always the same dark brown/orange palette, regardless of the device's
-   system light/dark preference — this used to follow
-   prefers-color-scheme, which meant devices set to light mode got a
-   plain white theme instead of the intended look. */
+/* ─────────────────────────────────────────────────────────────────────────
+   MATURITKA — tmavý archivní systém
+   Fixed dark palette regardless of the device's system light/dark
+   preference: following prefers-color-scheme meant devices set to light
+   mode got a plain white theme instead of the intended look.
+   ───────────────────────────────────────────────────────────────────── */
 :root {
-	--bg: #16140f;
-	--fg: #ece7dc;
-	--muted: #a39d8d;
-	--accent: #e0a17a;
-	--border: #34302a;
-	--card-bg: #1e1b15;
-	--max-width: 72ch;
+	--bg: #141311;
+	--surface: #1a1816;
+	--surface-raised: #1f1d1a;
+	--fg: #e5e0d8;
+	--muted: #9e978e;
+	--accent: #d98a5b;
+	--accent-deep: #c87a4b;
+	--border: #2b2622;
+	--border-strong: #3a342d;
+
+	/* Display face for the wordmark and every heading — the stack this site
+	   has always used. It resolves to a different (but always old-style)
+	   serif per platform: Iowan Old Style on macOS, Palatino Linotype on
+	   Windows, Georgia or P052 on Linux. That variation is deliberate and
+	   long-standing here; see --serif for the one face that is pinned. */
+	--display: 'Iowan Old Style', 'Palatino Linotype', Georgia, ui-serif, serif;
+	/* Reading face, pinned to a webfont so body copy is identical
+	   everywhere — Literata is drawn for long-form screen reading. */
+	--serif: 'Literata Variable', 'Iowan Old Style', 'Palatino Linotype', Georgia, serif;
+	--sans: 'Inter Variable', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
+	--mono: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace;
+
+	/* 40rem at the 17px root = exactly 680px — the brief's reading cap,
+	   which lands at ~72 characters per line in Literata at --t-read */
+	--measure: 40rem;
+	/* page shells: reading pages keep the rails tight around the 680px
+	   column, index pages get more room because their content is a grid
+	   that genuinely benefits from the width */
+	--shell-reading: 76rem;
+	--shell-index: 80rem;
+	--shell-prose: 46rem;
+	--rail-gap: 3rem;
+
+	--t-xs: 0.72rem;
+	--t-sm: 0.82rem;
+	--t-ui: 0.9rem;
+	--t-read: 1.08rem;
+
 	color-scheme: dark;
+}
+
+/* Extra width on large monitors goes to the index rails, never to the
+   reading column — longer lines would undo the 680px measure. */
+@media (min-width: 1800px) {
+	:root {
+		--shell-reading: 86rem;
+		--shell-index: 92rem;
+	}
 }
 
 * {
 	box-sizing: border-box;
+}
+
+html {
+	font-size: 17px;
+	scroll-behavior: smooth;
+}
+
+body {
+	margin: 0;
+	background: var(--bg);
+	color: var(--fg);
+	font-family: var(--serif);
+	font-optical-sizing: auto;
+	line-height: 1.7;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+}
+
+@media (prefers-reduced-motion: reduce) {
+	html {
+		scroll-behavior: auto;
+	}
+	*,
+	*::before,
+	*::after {
+		animation-duration: 0.01ms !important;
+		animation-iteration-count: 1 !important;
+		transition-duration: 0.01ms !important;
+	}
+}
+
+a {
+	color: var(--accent);
+}
+
+a:hover {
+	color: var(--accent-deep);
+}
+
+:focus-visible {
+	outline: 2px solid var(--accent);
+	outline-offset: 2px;
 }
 
 /* shared monochrome icon set (src/components/Icon.astro) — nudge down to
@@ -24,18 +111,6 @@
 .icon {
 	vertical-align: -0.2em;
 	flex-shrink: 0;
-}
-
-html {
-	font-size: 17px;
-}
-
-body {
-	margin: 0;
-	background: var(--bg);
-	color: var(--fg);
-	font-family: 'Iowan Old Style', 'Palatino Linotype', Georgia, ui-serif, serif;
-	line-height: 1.65;
 }
 
 /* Hidden off-screen until keyboard focus lands on it — lets someone
@@ -50,8 +125,9 @@ body {
 	background: var(--accent);
 	color: var(--bg);
 	padding: 0.6rem 1rem;
-	border-radius: 6px;
-	font-family: ui-sans-serif, system-ui, sans-serif;
+	border-radius: 2px;
+	font-family: var(--sans);
+	font-size: var(--t-ui);
 	font-weight: 600;
 	text-decoration: none;
 	transition: top 0.15s ease;
@@ -61,16 +137,19 @@ body {
 	top: 1rem;
 }
 
+/* ── Hlavička ─────────────────────────────────────────────────────────
+   Centered masthead: wordmark on its own line, the full subject strip
+   centered beneath it. The strip still scrolls sideways rather than
+   wrapping (12 subjects never fit on a phone), so `safe center` is
+   doing real work here — it centers while the links fit and falls back
+   to start-alignment the moment they overflow, which plain `center`
+   would not (it would push the first subjects out of reach). */
 header.site-header {
 	position: sticky;
 	top: 0;
 	z-index: 30;
 	background: var(--bg);
 	border-bottom: 1px solid var(--border);
-	padding: 1rem 1.5rem;
-	display: flex;
-	align-items: center;
-	gap: 1.5rem;
 	transition: transform 0.25s ease;
 }
 
@@ -78,25 +157,30 @@ header.site-header.header-hidden {
 	transform: translateY(-100%);
 }
 
+.site-header-inner {
+	max-width: var(--shell-index);
+	margin: 0 auto;
+	padding: 1rem 1.5rem;
+	display: flex;
+	align-items: center;
+	gap: 1.5rem;
+}
+
 .brand {
 	flex: 0 0 auto;
+	font-family: var(--display);
 	font-weight: 700;
 	font-size: 1.3rem;
 	letter-spacing: 0.02em;
 	color: var(--fg);
 	text-decoration: none;
+	white-space: nowrap;
 }
 
 .brand span {
 	color: var(--accent);
 }
 
-/* Horizontally scrollable strip of subjects next to the (fixed) brand —
-   rather than wrapping onto multiple lines (which used to happen on
-   narrow phone widths once there were 12 subjects), it stays on the
-   brand's row, at the same height, and simply scrolls sideways when it
-   doesn't fit. Supports mouse drag-to-scroll (see BaseLayout's script)
-   in addition to touch/trackpad, which already scroll it natively. */
 nav.subject-nav {
 	flex: 1 1 auto;
 	display: flex;
@@ -105,8 +189,8 @@ nav.subject-nav {
 	gap: 1.25rem;
 	overflow-x: auto;
 	-webkit-overflow-scrolling: touch;
-	font-family: ui-sans-serif, system-ui, sans-serif;
-	font-size: 0.95rem;
+	font-family: var(--sans);
+	font-size: var(--t-ui);
 	cursor: grab;
 	/* the strip already scrolls via drag/touch/trackpad — a visible
 	   scrollbar underneath the links isn't needed and sat awkwardly
@@ -128,28 +212,38 @@ nav.subject-nav a {
 	white-space: nowrap;
 	color: var(--muted);
 	text-decoration: none;
-	padding: 0.25rem 0;
+	padding: 0.2rem 0;
 	border-bottom: 2px solid transparent;
 	-webkit-user-drag: none;
 	user-select: none;
+	transition: color 0.15s ease;
 }
 
-nav.subject-nav a:hover,
+nav.subject-nav a:hover {
+	color: var(--fg);
+}
+
 nav.subject-nav a.active {
 	color: var(--fg);
 	border-bottom-color: var(--accent);
 }
 
+/* ── Rámce stránky ───────────────────────────────────────────────────── */
 main {
-	max-width: var(--max-width);
+	max-width: var(--shell-prose);
 	margin: 0 auto;
-	padding: 2rem 1.5rem 5rem;
+	padding: 2.5rem 1.5rem 5rem;
 }
 
-main.wide {
-	max-width: 60rem;
+main.index {
+	max-width: var(--shell-index);
 }
 
+main.reading {
+	max-width: var(--shell-reading);
+}
+
+/* ── Patička ─────────────────────────────────────────────────────────── */
 .site-footer {
 	border-top: 1px solid var(--border);
 	padding: 1.5rem;
@@ -157,52 +251,1163 @@ main.wide {
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: center;
-	gap: 0.5rem;
-	font-family: ui-sans-serif, system-ui, sans-serif;
-	font-size: 0.85rem;
+	gap: 0.9rem;
+	font-family: var(--sans);
+	font-size: var(--t-sm);
 	color: var(--muted);
 }
 
 .site-footer a {
 	color: var(--muted);
+	text-decoration: none;
+	border-bottom: 1px solid transparent;
 }
 
 .site-footer a:hover {
 	color: var(--accent);
+	border-bottom-color: var(--accent);
 }
 
+/* thin upright rule between footer items rather than a middle dot */
 .site-footer-sep {
-	color: var(--border);
+	width: 1px;
+	height: 0.9em;
+	background: var(--border-strong);
 }
 
-h1, h2, h3, h4 {
-	font-family: ui-sans-serif, system-ui, sans-serif;
-	line-height: 1.25;
+/* ── Základní typografie ─────────────────────────────────────────────── */
+h1,
+h2,
+h3,
+h4 {
+	font-family: var(--display);
+	font-weight: 700;
+	line-height: 1.24;
 }
 
 h1 {
-	font-size: 1.9rem;
+	font-size: 2.05rem;
 	/* the browser default top margin (relative to h1's own larger font-size)
 	   made the gap above the heading noticeably bigger than the one below
-	   it, even though both sit right next to a single-line .eyebrow — zero
-	   it out so the eyebrow+heading reads as one tight unit */
+	   it, even though both sit right next to a single-line breadcrumb — zero
+	   it out so breadcrumb + heading read as one tight unit */
 	margin-top: 0;
-	margin-bottom: 0.3rem;
+	margin-bottom: 0.35rem;
 }
 
+/* Breadcrumb back-link, e.g. "← Zpět na předměty". Sentence case in the
+   accent colour; deliberately not a tracked-out uppercase eyebrow. */
+.crumb {
+	margin: 0 0 0.75rem;
+	font-family: var(--sans);
+	font-size: var(--t-ui);
+}
+
+.crumb a {
+	font-family: var(--sans);
+	font-size: var(--t-ui);
+	color: var(--accent);
+	text-decoration: none;
+}
+
+.crumb a:hover {
+	color: var(--accent-deep);
+	text-decoration: underline;
+	text-underline-offset: 0.25em;
+}
+
+/* Small panel/section label — Inter against the surrounding serif is what
+   marks it as chrome rather than content, so it needs no uppercasing. */
+.panel-label {
+	margin: 0 0 0.7rem;
+	padding-bottom: 0.5rem;
+	border-bottom: 1px solid var(--border);
+	font-family: var(--sans);
+	font-size: var(--t-sm);
+	font-weight: 600;
+	line-height: 1.3;
+	color: var(--fg);
+}
+
+/* ─────────────────────────────────────────────────────────────────────────
+   TITULNÍ STRANA — hlavička archivu + rejstřík předmětů
+   ───────────────────────────────────────────────────────────────────── */
+.masthead {
+	text-align: center;
+	padding: 1.5rem 0 0;
+}
+
+.masthead h1 {
+	font-size: clamp(2.5rem, 6.6vw, 3.9rem);
+	font-weight: 700;
+	letter-spacing: 0.01em;
+	margin: 0;
+}
+
+.masthead-sub {
+	max-width: 30rem;
+	margin: 0.6rem auto 0;
+	color: var(--muted);
+	font-size: 1.02rem;
+	line-height: 1.6;
+}
+
+/* The archive's tally set into the rule beneath the wordmark, the way an
+   issue line sits on a periodical's masthead rule — three grid tracks so
+   the rules either side stretch to fill whatever the text doesn't use. */
+.masthead-tally {
+	display: grid;
+	grid-template-columns: 1fr auto 1fr;
+	align-items: center;
+	gap: 1.1rem;
+	margin-top: 1.6rem;
+	font-family: var(--sans);
+	font-size: var(--t-sm);
+	color: var(--muted);
+}
+
+.masthead-tally::before,
+.masthead-tally::after {
+	content: '';
+	height: 4px;
+	border-top: 1px solid var(--border);
+	border-bottom: 1px solid var(--border);
+}
+
+.masthead-tally-items {
+	display: flex;
+	align-items: center;
+	gap: 0.85rem;
+	white-space: nowrap;
+}
+
+.masthead-tally b {
+	font-weight: 600;
+	font-variant-numeric: tabular-nums;
+	color: var(--fg);
+}
+
+.masthead-tally i {
+	width: 1px;
+	height: 0.85em;
+	background: var(--border-strong);
+	flex: 0 0 auto;
+}
+
+/* On a phone the three items no longer fit on one line between two rules,
+   so the rule moves above them and the items wrap under it. */
+@media (max-width: 620px) {
+	.masthead-tally {
+		grid-template-columns: minmax(0, 1fr);
+		gap: 0.75rem;
+	}
+
+	.masthead-tally::after {
+		display: none;
+	}
+
+	.masthead-tally-items {
+		flex-wrap: wrap;
+		justify-content: center;
+		gap: 0.2rem 1.3rem;
+		white-space: normal;
+	}
+
+	/* once the line wraps, a separator can end up dangling at the end of a
+	   row with nothing after it — the wider gap separates them instead */
+	.masthead-tally i {
+		display: none;
+	}
+}
+
+/* Subject index: a printed table laid out as a real grid — cells are
+   separated by the grid's own hairlines (gap + background), not by
+   individually bordered floating cards. */
+.subject-index {
+	display: grid;
+	grid-template-columns: repeat(3, minmax(0, 1fr));
+	gap: 1px;
+	background: var(--border);
+	border-top: 1px solid var(--border);
+	border-bottom: 1px solid var(--border);
+	margin-top: 2.75rem;
+}
+
+.subject-cell {
+	display: block;
+	background: var(--bg);
+	padding: 1.35rem 1.5rem 1.45rem;
+	text-decoration: none;
+	color: var(--fg);
+	transition: background 0.15s ease;
+}
+
+.subject-cell:hover,
+.subject-cell:focus-visible {
+	background: var(--surface);
+}
+
+.subject-cell-head {
+	display: flex;
+	align-items: baseline;
+	gap: 0.6em;
+}
+
+.subject-cell-title {
+	font-family: var(--display);
+	font-size: 1.22rem;
+	font-weight: 700;
+	transition: color 0.15s ease;
+}
+
+/* the leader line connecting a subject to its topic count, like a printed
+   table of contents — an empty flex sibling stretched with a dotted
+   underline; align-items: baseline on the row above lines its bottom edge
+   up with the surrounding text's own baseline */
+.subject-cell-leader {
+	flex: 1 1 auto;
+	min-width: 1.5rem;
+	border-bottom: 1px dotted color-mix(in srgb, var(--muted) 50%, transparent);
+	transition: border-color 0.15s ease;
+}
+
+.subject-cell-count {
+	flex: 0 0 auto;
+	font-family: var(--sans);
+	font-size: var(--t-sm);
+	font-variant-numeric: tabular-nums;
+	color: var(--muted);
+	transition: color 0.15s ease;
+}
+
+.subject-cell-desc {
+	display: block;
+	margin-top: 0.4rem;
+	font-family: var(--sans);
+	font-size: var(--t-sm);
+	line-height: 1.5;
+	color: var(--muted);
+}
+
+.subject-cell:hover .subject-cell-title,
+.subject-cell:focus-visible .subject-cell-title {
+	color: var(--accent);
+}
+
+.subject-cell:hover .subject-cell-leader,
+.subject-cell:focus-visible .subject-cell-leader {
+	border-bottom-color: var(--accent);
+}
+
+.subject-cell:hover .subject-cell-count,
+.subject-cell:focus-visible .subject-cell-count {
+	color: var(--accent);
+}
+
+.subject-cell:focus-visible {
+	outline: 2px solid var(--accent);
+	outline-offset: -2px;
+}
+
+@media (max-width: 1000px) {
+	.subject-index {
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+	}
+}
+
+@media (max-width: 620px) {
+	.subject-index {
+		grid-template-columns: minmax(0, 1fr);
+	}
+	.subject-cell {
+		padding: 1.1rem 0 1.15rem;
+	}
+}
+
+/* ─────────────────────────────────────────────────────────────────────────
+   STRÁNKA PŘEDMĚTU
+   ───────────────────────────────────────────────────────────────────── */
+.subject-head {
+	max-width: 44rem;
+}
+
+.subject-head p {
+	margin: 0;
+	color: var(--muted);
+	font-size: 1.02rem;
+}
+
+.subject-head-tally {
+	margin-top: 0.5rem;
+	font-family: var(--sans);
+	font-size: var(--t-sm);
+	font-variant-numeric: tabular-nums;
+	color: var(--muted);
+}
+
+/* horizontal category pills */
+.group-jump {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.5rem;
+	margin: 1.75rem 0 0;
+	padding-top: 1.5rem;
+	border-top: 1px solid var(--border);
+	font-family: var(--sans);
+	font-size: var(--t-sm);
+}
+
+.group-jump a {
+	padding: 0.35rem 0.8rem;
+	border: 1px solid var(--border);
+	border-radius: 2px;
+	color: var(--muted);
+	text-decoration: none;
+	transition: border-color 0.15s ease, color 0.15s ease;
+}
+
+.group-jump a:hover,
+.group-jump a:focus-visible {
+	color: var(--accent);
+	border-color: var(--accent);
+}
+
+.group-jump a.is-active {
+	color: var(--accent);
+	border-color: var(--accent);
+	background: var(--surface);
+}
+
+/* Category blocks across the full width. Deliberately CSS columns and not
+   a grid: categories are wildly uneven (Matematika has a 1-topic block
+   sitting next to a 23-topic one) and a grid row is always as tall as its
+   tallest cell, so the short blocks left half-empty rows behind them.
+   Columns pack by height instead, and the reading order stays
+   top-to-bottom-then-across, the way a printed index reads. */
+.group-grid {
+	columns: 21rem auto;
+	column-gap: 4rem;
+	/* a real rule down each gutter, not just whitespace — three dense
+	   numbered lists side by side otherwise read as one field of text and
+	   the eye loses which column it is in */
+	column-rule: 1px solid var(--border);
+	margin-top: 2.5rem;
+}
+
+.group-block {
+	break-inside: avoid;
+	margin-bottom: 2.75rem;
+	/* the room the accent bar drops into when this category is the one you
+	   jumped to, reserved up front so nothing shifts sideways on arrival */
+	border-left: 2px solid transparent;
+	padding-left: 0.9rem;
+	margin-left: -0.9rem;
+}
+
+/* The category you picked from the quick-nav stays marked until you pick
+   another, so a jump into the middle of a tall column doesn't leave you
+   guessing which block you landed on. :has() carries the whole block; the
+   heading rule underneath it is the fallback where :has() is missing. */
+.group-block-head:target {
+	border-bottom-color: var(--accent);
+}
+
+.group-block-head:target .group-block-title {
+	color: var(--accent);
+}
+
+.group-block:has(.group-block-head:target) {
+	border-left-color: var(--accent);
+}
+
+.group-block-head {
+	display: flex;
+	align-items: baseline;
+	gap: 0.6em;
+	margin: 0 0 0.5rem;
+	padding-bottom: 0.5rem;
+	border-bottom: 1px solid var(--border-strong);
+	scroll-margin-top: 7rem;
+}
+
+.group-block-title {
+	font-family: var(--display);
+	font-size: 1.05rem;
+	font-weight: 700;
+	color: var(--fg);
+}
+
+.group-block-count {
+	margin-left: auto;
+	font-family: var(--sans);
+	font-size: var(--t-xs);
+	font-variant-numeric: tabular-nums;
+	color: var(--muted);
+}
+
+.topic-list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+/* Rules hang off the bottom of every row (plus one on the list itself)
+   rather than between rows: the flat variant below flows through CSS
+   columns, where a between-rows rule would leave the top of columns 2
+   and 3 open while column 1 stayed closed. */
+.topic-list li a {
+	border-bottom: 1px solid var(--border);
+}
+
+.topic-list li a {
+	display: flex;
+	gap: 0.7rem;
+	align-items: baseline;
+	padding: 0.62rem 0.5rem 0.62rem 0;
+	text-decoration: none;
+	color: var(--fg);
+	font-family: var(--sans);
+	font-size: var(--t-ui);
+	line-height: 1.45;
+	transition: color 0.15s ease, background 0.15s ease;
+}
+
+.topic-list li a:hover,
+.topic-list li a:focus-visible {
+	color: var(--accent);
+	background: var(--surface);
+	box-shadow: -0.5rem 0 0 var(--surface), 0.5rem 0 0 var(--surface);
+}
+
+/* Subjects with no categories are a single run of numbered topics; on a
+   wide screen that is one very tall column beside a lot of nothing, so it
+   flows into balanced columns instead — top-to-bottom then across, the way
+   a printed index reads, which keeps the numbering sequential down each
+   column. */
+.topic-list--flat {
+	border-top: 1px solid var(--border);
+	columns: 22rem auto;
+	column-gap: 4rem;
+	column-rule: 1px solid var(--border);
+	margin-top: 2.5rem;
+}
+
+.topic-list--flat li {
+	break-inside: avoid;
+}
+
+.topic-list .num {
+	color: var(--muted);
+	font-variant-numeric: tabular-nums;
+	/* fixed width + right alignment, not min-width — some groups mix
+	   single- and triple-digit order numbers (e.g. funkce-a-rovnice runs
+	   1–14 then jumps to 100–102), and a min-width left-aligned box grows
+	   with the widest number, knocking every shorter row's title out of
+	   alignment with the rest of the list */
+	width: 2rem;
+	text-align: right;
+	flex: 0 0 auto;
+	font-size: var(--t-sm);
+}
+
+.topic-list .topic-title {
+	flex: 1 1 auto;
+	min-width: 0;
+}
+
+.badge-group {
+	margin-left: auto;
+	display: flex;
+	align-items: center;
+	gap: 0.4rem;
+	flex: 0 0 auto;
+	padding-left: 0.3rem;
+}
+
+.mini-badge {
+	font-family: var(--sans);
+	font-size: var(--t-xs);
+	color: var(--accent);
+	border: 1px solid color-mix(in srgb, var(--accent) 35%, transparent);
+	border-radius: 2px;
+	padding: 0.05rem 0.35rem;
+	white-space: nowrap;
+	line-height: 1.5;
+}
+
+/* Just the glyph in the accent colour — the old version wrapped it in a
+   tinted circle, which is exactly the kind of floating pill the brief
+   rules out. */
+.exercise-badge {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	color: var(--accent);
+	flex: 0 0 auto;
+}
+
+/* ─────────────────────────────────────────────────────────────────────────
+   ČLÁNEK — třísloupcové rozvržení
+   nav (rejstřík předmětu) │ text (max 680px) │ aside (obsah, vzorce)
+
+   Below the 3-column breakpoint both rails collapse behind their own
+   toggle button and reflow around the article: the table of contents
+   goes above it (it's what you want before reading), the subject index
+   below (what you want after).
+   ───────────────────────────────────────────────────────────────────── */
+.reading-shell {
+	display: grid;
+	grid-template-columns: minmax(0, 1fr);
+	grid-template-areas: 'aside' 'main' 'nav';
+	gap: 2rem 0;
+}
+
+.reading-shell > .rail-nav {
+	grid-area: nav;
+}
+
+.reading-shell > .reading-column {
+	grid-area: main;
+	min-width: 0;
+	/* the 680px measure is enforced here, not only by the grid track: below
+	   the three-column breakpoint the shell is a single full-width column,
+	   and without this the text ran to ~100 characters a line on a tablet */
+	max-width: var(--measure);
+	margin-inline: auto;
+	width: 100%;
+}
+
+.reading-shell > .rail-aside {
+	grid-area: aside;
+}
+
+/* Tablet: the table of contents earns its place beside the text before the
+   subject index does — you want to know where you are in the article you're
+   reading before you want to jump to a different one. */
+@media (min-width: 1024px) {
+	.reading-shell {
+		grid-template-columns: minmax(0, var(--measure)) minmax(13rem, 18rem);
+		grid-template-areas: 'nav nav' 'main aside';
+		justify-content: center;
+		gap: 0 var(--rail-gap);
+		align-items: start;
+	}
+
+	.reading-shell > .rail-nav {
+		margin-bottom: 2rem;
+	}
+}
+
+@media (min-width: 1280px) {
+	.reading-shell {
+		grid-template-columns: minmax(0, 1fr) minmax(0, var(--measure)) minmax(0, 1fr);
+		grid-template-areas: 'nav main aside';
+	}
+
+	.reading-shell > .rail-nav {
+		margin-bottom: 0;
+	}
+}
+
+/* ── Postranní panely ────────────────────────────────────────────────── */
+.rail {
+	font-family: var(--sans);
+	font-size: var(--t-sm);
+	line-height: 1.5;
+	min-width: 0;
+}
+
+/* Collapsed is the default state for both rails; each one switches to its
+   open, sticky desktop form at its own breakpoint below. Deliberately a
+   button + class rather than <details>: on desktop the rails must be
+   plainly visible and not collapsible at all, and a <details> cannot be
+   forced open from CSS across browsers. */
+.rail-body {
+	display: none;
+	padding: 1rem 0 0.25rem;
+}
+
+.rail.is-open > .rail-body {
+	display: block;
+}
+
+/* the toggle button already carries this text while it's on screen */
+.rail-title {
+	display: none;
+}
+
+.rail-toggle {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 0.75rem;
+	width: 100%;
+	padding: 0.6rem 0;
+	background: none;
+	border: none;
+	border-top: 1px solid var(--border);
+	border-bottom: 1px solid var(--border);
+	color: var(--fg);
+	font-family: var(--sans);
+	font-size: var(--t-sm);
+	font-weight: 600;
+	text-align: left;
+	cursor: pointer;
+}
+
+.rail-toggle:hover {
+	color: var(--accent);
+}
+
+/* the meta block sits directly above the toggle and closes with its own
+   rule, so the button must not draw a second one right underneath it */
+.rail-meta + .rail-toggle {
+	border-top: none;
+}
+
+/* rotates to point down when the panel is open — the one bit of motion
+   that answers a click, so it stays */
+.rail-toggle-mark {
+	flex: 0 0 auto;
+	color: var(--muted);
+	transition: transform 0.15s ease;
+}
+
+.rail.is-open .rail-toggle-mark {
+	transform: rotate(90deg);
+}
+
+@media (min-width: 1024px) {
+	.rail-aside .rail-toggle {
+		display: none;
+	}
+
+	.rail-aside .rail-body {
+		display: block;
+		padding: 0;
+	}
+
+	.rail-aside .rail-title {
+		display: block;
+	}
+
+	.rail-aside {
+		position: sticky;
+		top: 7.5rem;
+		max-height: calc(100vh - 9.5rem);
+		overflow-y: auto;
+		overscroll-behavior: contain;
+		scrollbar-width: thin;
+		scrollbar-color: var(--border-strong) transparent;
+		padding-bottom: 1.5rem;
+	}
+}
+
+@media (min-width: 1280px) {
+	.rail-nav .rail-toggle {
+		display: none;
+	}
+
+	.rail-nav .rail-body {
+		display: block;
+		padding: 0;
+	}
+
+	.rail-nav .rail-title {
+		display: block;
+	}
+
+	.rail-nav {
+		position: sticky;
+		top: 7.5rem;
+		max-height: calc(100vh - 9.5rem);
+		overflow-y: auto;
+		overscroll-behavior: contain;
+		scrollbar-width: thin;
+		scrollbar-color: var(--border-strong) transparent;
+		padding-bottom: 1.5rem;
+	}
+}
+
+.rail-section + .rail-section {
+	margin-top: 1.75rem;
+}
+
+.rail-meta + .rail-toggle {
+	border-top: none;
+}
+
+/* ── Levý panel: rejstřík předmětu ───────────────────────────────────── */
+.rail-tree {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.rail-tree-group + .rail-tree-group {
+	margin-top: 1.1rem;
+}
+
+.rail-tree-group-label {
+	margin: 0 0 0.3rem;
+	padding-bottom: 0.3rem;
+	border-bottom: 1px solid var(--border);
+	font-size: var(--t-xs);
+	font-weight: 600;
+	color: var(--muted);
+}
+
+.rail-tree-items {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.rail-tree-items a {
+	display: flex;
+	gap: 0.5rem;
+	padding: 0.28rem 0.4rem 0.28rem 0.55rem;
+	/* the marker rail every row shares, so the current topic's accent bar
+	   lights up in place instead of shifting the text sideways */
+	border-left: 2px solid transparent;
+	color: var(--muted);
+	text-decoration: none;
+	transition: color 0.15s ease, background 0.15s ease;
+}
+
+.rail-tree-items a:hover {
+	color: var(--fg);
+	background: var(--surface);
+}
+
+.rail-tree-items .is-current {
+	border-left-color: var(--accent);
+	background: var(--surface);
+	color: var(--fg);
+	font-weight: 500;
+}
+
+.rail-tree-num {
+	flex: 0 0 1.3rem;
+	text-align: right;
+	font-variant-numeric: tabular-nums;
+	/* dimmer than the title it belongs to, but still a readable number —
+	   these are the topic's real ordinal, not decoration */
+	color: color-mix(in srgb, var(--muted) 70%, var(--bg));
+}
+
+.rail-tree-items .is-current .rail-tree-num {
+	color: var(--accent);
+}
+
+/* ── Pravý panel: metadata, obsah článku, vzorce ─────────────────────── */
+.rail-meta {
+	margin: 0 0 1.6rem;
+	color: var(--muted);
+}
+
+.rail-meta > div {
+	display: flex;
+	justify-content: space-between;
+	gap: 0.75rem;
+	padding: 0.35rem 0;
+	border-bottom: 1px solid var(--border);
+}
+
+.rail-meta > div:first-child {
+	border-top: 1px solid var(--border);
+}
+
+.rail-meta dt {
+	flex: 0 0 auto;
+}
+
+.rail-meta dd {
+	margin: 0;
+	min-width: 0;
+	color: var(--fg);
+	text-align: right;
+	font-variant-numeric: tabular-nums;
+	overflow-wrap: anywhere;
+}
+
+.rail-toc {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.rail-toc a {
+	display: block;
+	padding: 0.28rem 0.4rem 0.28rem 0.65rem;
+	border-left: 2px solid var(--border);
+	color: var(--muted);
+	text-decoration: none;
+	transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.rail-toc a:hover {
+	color: var(--fg);
+	border-left-color: var(--border-strong);
+}
+
+.rail-toc .toc-depth-3 a {
+	padding-left: 1.4rem;
+	font-size: var(--t-xs);
+}
+
+.rail-toc a.is-active {
+	color: var(--fg);
+	border-left-color: var(--accent);
+}
+
+/* Formula digest, cloned from the article's own display math at runtime
+   (see BaseLayout's script) so it can never drift out of sync with the
+   text. Hidden entirely when an article has no display formulas. */
+.rail-formulas {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.rail-formulas li + li {
+	margin-top: 0.4rem;
+}
+
+.rail-formulas a {
+	display: block;
+	padding: 0.5rem 0.6rem;
+	background: var(--surface);
+	border-left: 2px solid var(--border);
+	color: var(--fg);
+	text-decoration: none;
+	overflow-x: auto;
+	scrollbar-width: none;
+	transition: border-color 0.15s ease;
+}
+
+.rail-formulas a::-webkit-scrollbar {
+	display: none;
+}
+
+.rail-formulas a:hover {
+	border-left-color: var(--accent);
+}
+
+.rail-formulas .math-display {
+	margin: 0;
+	font-size: 0.85em;
+	text-align: left;
+	background: none;
+	padding: 0;
+	border: none;
+}
+
+.rail-empty {
+	margin: 0;
+	color: var(--muted);
+}
+
+/* ─────────────────────────────────────────────────────────────────────────
+   TĚLO ČLÁNKU
+   ───────────────────────────────────────────────────────────────────── */
+.topic-head {
+	padding-bottom: 1.25rem;
+	margin-bottom: 1.75rem;
+	border-bottom: 1px solid var(--border);
+}
+
+.topic-head h1 {
+	font-size: 1.95rem;
+}
+
+article.topic {
+	font-size: var(--t-read);
+	line-height: 1.72;
+}
+
+article.topic > :first-child {
+	margin-top: 0;
+}
+
+article.topic h2 {
+	margin: 2.5rem 0 0.8rem;
+	font-size: 1.4rem;
+	padding-bottom: 0.35rem;
+	border-bottom: 1px solid var(--border);
+	clear: both;
+	scroll-margin-top: 7.5rem;
+}
+
+article.topic h3 {
+	margin: 1.9rem 0 0.6rem;
+	font-size: 1.15rem;
+	color: var(--fg);
+	clear: both;
+	scroll-margin-top: 7.5rem;
+}
+
+article.topic h4 {
+	margin: 1.5rem 0 0.5rem;
+	font-size: 1.02rem;
+	scroll-margin-top: 7.5rem;
+}
+
+/* some source documents use "# " for their own top-level sections; the
+   page title is already an h1 outside the article, so these read as the
+   article's major section breaks */
+article.topic h1 {
+	margin: 2.75rem 0 0.9rem;
+	font-size: 1.55rem;
+	padding-bottom: 0.4rem;
+	border-top: 1px solid var(--border);
+	border-bottom: 1px solid var(--border);
+	padding-top: 0.4rem;
+	clear: both;
+	scroll-margin-top: 7.5rem;
+}
+
+article.topic p {
+	margin: 0.95rem 0;
+}
+
+article.topic strong {
+	font-weight: 700;
+	color: var(--fg);
+}
+
+/* manual clear point inside a section (a plain "---") — h2/h3 already clear
+   floats, but a floated exercise graph can still be "active" when the next
+   exercise starts mid-section (bold "**Příklad 2:**" lead-in, not a
+   heading), which visually mixes the new exercise text into the previous
+   graph's margin */
+article.topic hr {
+	clear: both;
+	margin: 2rem 0;
+	height: 4px;
+	border: none;
+	border-top: 1px solid var(--border);
+	border-bottom: 1px solid var(--border);
+}
+
+article.topic blockquote {
+	margin: 1.4rem 0;
+	padding: 0.65rem 1.1rem;
+	border-left: 3px solid var(--accent);
+	background: var(--surface);
+	color: var(--fg);
+}
+
+article.topic blockquote > :first-child {
+	margin-top: 0;
+}
+
+article.topic blockquote > :last-child {
+	margin-bottom: 0;
+}
+
+/* dense nested bullet lists (this content is heavily "heslovité") need real
+   breathing room between items, or the whole page reads as one grey wall */
+article.topic ul,
+article.topic ol {
+	padding-left: 1.3em;
+}
+
+article.topic li {
+	margin-bottom: 0.5rem;
+}
+
+article.topic li > ul,
+article.topic li > ol {
+	margin-top: 0.5rem;
+}
+
+article.topic li::marker {
+	color: var(--muted);
+}
+
+article.topic code {
+	font-family: var(--mono);
+	background: var(--surface-raised);
+	border: 1px solid var(--border);
+	border-radius: 2px;
+	padding: 0.1em 0.35em;
+	font-size: 0.88em;
+}
+
+article.topic pre {
+	background: var(--surface);
+	border: 1px solid var(--border);
+	border-left: 3px solid var(--border-strong);
+	border-radius: 0;
+	padding: 0.9rem 1.1rem;
+	overflow-x: auto;
+	font-size: 0.88em;
+	line-height: 1.6;
+}
+
+article.topic pre code {
+	background: none;
+	border: none;
+	padding: 0;
+	font-size: 1em;
+}
+
+article.topic table {
+	width: 100%;
+	border-collapse: collapse;
+	font-family: var(--sans);
+	font-size: var(--t-sm);
+	margin: 1.4rem 0;
+}
+
+article.topic thead th {
+	background: var(--surface);
+	font-weight: 600;
+	border-bottom: 1px solid var(--border-strong);
+}
+
+article.topic th,
+article.topic td {
+	border: 1px solid var(--border);
+	padding: 0.45rem 0.65rem;
+	text-align: left;
+	vertical-align: top;
+}
+
+article.topic tbody tr:hover {
+	background: var(--surface);
+}
+
+/* statically-typeset formulas (rehype-math.ts, build-time via MathLive's SSR
+   renderer) — .ML__latex itself only sets sizing/layout, color/vertical
+   alignment against surrounding text needs to be set here */
+/* Literata has a tall x-height, next to which MathLive's default sizing
+   reads a size too small — nudged back up so a symbol mid-sentence matches
+   the weight of the words around it */
+.math-inline {
+	color: var(--fg);
+	vertical-align: middle;
+	font-size: 1.08em;
+}
+
+/* display math sits in its own quiet container rather than floating in the
+   text column — same surface as a blockquote, no border, no radius */
+.math-display {
+	display: block;
+	margin: 1.4rem 0;
+	padding: 0.9rem 1rem;
+	background: var(--surface);
+	text-align: center;
+	color: var(--fg);
+	overflow-x: auto;
+	scrollbar-width: thin;
+	scrollbar-color: var(--border-strong) transparent;
+}
+
+/* "this wasn't preserved in the source" disclaimers (rehype-recon-note.ts,
+   "((text))") — deliberately NOT italic: on badly-damaged source files
+   these show up on nearly every sentence, and a whole paragraph of italics
+   is tiring to read. Smaller + muted instead, so it visibly recedes behind
+   the actual problem text instead of competing with it for attention. */
+.recon-note {
+	font-style: normal;
+	font-size: 0.9em;
+	color: var(--muted);
+}
+
+/* Status notice above an article — flat, ruled on the accent side, not a
+   tinted rounded callout */
+.topic-notice {
+	font-family: var(--sans);
+	font-size: var(--t-sm);
+	line-height: 1.55;
+	color: var(--fg);
+	background: var(--surface);
+	border-left: 3px solid var(--accent);
+	padding: 0.7rem 0.9rem;
+	margin: 0 0 1.5rem;
+}
+
+.source-note {
+	margin-top: 3rem;
+	padding-top: 1rem;
+	border-top: 1px solid var(--border);
+	font-family: var(--sans);
+	font-size: var(--t-xs);
+	color: var(--muted);
+}
+
+/* ── Stránkování mezi tématy ─────────────────────────────────────────── */
+.topic-pager {
+	display: grid;
+	/* the middle column must be a *definite* size, not auto — the filmstrip
+	   inside it uses percentage widths (width: min(100%, 21rem) on the
+	   track, calc(50% - ...) on its edge spacers) to size itself, and an
+	   auto grid track's size is derived from its content's intrinsic size,
+	   which those percentages can't resolve against without circularity.
+	   Browsers "solve" that by falling back to something else entirely,
+	   which is what blew the whole row's layout up. */
+	grid-template-columns: minmax(0, 1fr) minmax(0, 22rem) minmax(0, 1fr);
+	align-items: center;
+	gap: 0.6rem 1rem;
+	margin-top: 2.5rem;
+	padding-top: 1.5rem;
+	border-top: 1px solid var(--border);
+	font-family: var(--sans);
+	font-size: var(--t-ui);
+}
+
+.topic-pager a {
+	color: var(--fg);
+	text-decoration: none;
+}
+
+.topic-pager a:hover {
+	color: var(--accent);
+}
+
+.topic-pager-prev {
+	justify-self: start;
+}
+
+.topic-pager-next {
+	justify-self: end;
+	text-align: right;
+	grid-column: 3;
+}
+
+@media (max-width: 720px) {
+	.topic-pager {
+		grid-template-columns: 1fr 1fr;
+		grid-template-areas: 'prev next' 'filmstrip filmstrip';
+	}
+	.topic-pager-prev {
+		grid-area: prev;
+	}
+	.topic-pager-next {
+		grid-area: next;
+		grid-column: auto;
+	}
+	.topic-pager .filmstrip {
+		grid-area: filmstrip;
+	}
+}
+
+/* ─────────────────────────────────────────────────────────────────────────
+   OBRÁZKY, GRAFY A DIAGRAMY
+   ───────────────────────────────────────────────────────────────────── */
+
 /* CJ literatura author photo (rehype-author-portrait.ts) — a real figure
-   floated beside the section, same treatment as a ```graph plot (see
-   .graph-plot, .graph-plot--float-right above), not a small inline avatar.
-   .author-photo-img/figcaption reuse the base .graph-plot rules for
-   spacing/caption styling; only the things specific to a photo (vs. an
-   SVG plot) are set here. */
+   floated beside the section, same treatment as a ```graph plot, not a
+   small inline avatar. */
 .author-photo-img {
 	display: block;
 	width: 100%;
 	max-height: 22rem;
 	object-fit: cover;
-	border-radius: 8px;
-	background: var(--border);
+	border-radius: 0;
+	background: var(--surface);
 }
 
 .author-photo--placeholder {
@@ -211,10 +1416,9 @@ h1 {
 	align-items: center;
 	justify-content: center;
 	aspect-ratio: 3 / 4;
-	border: 1px dashed var(--border);
-	border-radius: 8px;
+	border: 1px solid var(--border);
 	color: var(--muted);
-	background: var(--card-bg);
+	background: var(--surface);
 }
 
 .author-photo-placeholder-icon {
@@ -224,8 +1428,9 @@ h1 {
 
 .author-photo-credit {
 	display: block;
-	margin-top: 0.15rem;
-	font-size: 0.75em;
+	margin-top: 0.2rem;
+	font-family: var(--sans);
+	font-size: 0.72em;
 	color: var(--muted);
 }
 
@@ -252,253 +1457,12 @@ h1 {
 	height: 100%;
 }
 
-a {
-	color: var(--accent);
-}
-
-.eyebrow {
-	font-family: ui-sans-serif, system-ui, sans-serif;
-	text-transform: uppercase;
-	letter-spacing: 0.08em;
-	font-size: 0.75rem;
-	color: var(--muted);
-}
-
-.subject-grid {
-	display: flex;
-	flex-direction: column;
-	gap: 0.9rem;
-	margin-top: 2rem;
-}
-
-.subject-card {
-	display: flex;
-	align-items: baseline;
-	gap: 1rem;
-	border: 1px solid var(--border);
-	border-radius: 10px;
-	padding: 1.1rem 1.4rem;
-	background: var(--card-bg);
-	text-decoration: none;
-	color: var(--fg);
-	font-family: ui-sans-serif, system-ui, sans-serif;
-	transition: border-color 0.15s ease, transform 0.15s ease;
-}
-
-.subject-card:hover {
-	border-color: var(--accent);
-	transform: translateX(0.2rem);
-}
-
-.subject-card h2 {
-	margin: 0;
-	font-size: 1.25rem;
-	flex: 0 0 auto;
-}
-
-.subject-card .eyebrow {
-	flex: 0 0 6rem;
-}
-
-.subject-card p {
-	margin: 0;
-	color: var(--muted);
-	font-size: 0.9rem;
-	/* Truncate instead of wrapping — at narrow widths this used to wrap
-	   onto a second line for longer descriptions while shorter ones
-	   stayed on one, giving every card row a different height and
-	   breaking the list's visual rhythm. min-width: 0 is needed for a
-	   flex item to actually shrink below its content's intrinsic width
-	   (the flexbox default is min-width: auto, which would otherwise
-	   force wrapping/overflow instead of letting text-overflow kick in).
-	   flex-basis: 0 (not auto) matters at very narrow widths specifically:
-	   with "auto", the flex-wrap line-breaking decision still uses the
-	   text's full nowrap content width as this item's hypothetical size,
-	   so on a narrow enough screen it got pushed onto its own line below
-	   the heading instead of just shrinking in place — flex-basis 0 makes
-	   it contribute ~nothing to that calculation and rely purely on
-	   flex-grow for whatever space is actually left on the row. */
-	flex: 1 1 0%;
-	min-width: 0;
-	white-space: nowrap;
-	overflow: hidden;
-	text-overflow: ellipsis;
-}
-
-@media (max-width: 560px) {
-	.subject-card {
-		flex-wrap: wrap;
-	}
-	.subject-card .eyebrow {
-		flex-basis: 100%;
-		order: 3;
-	}
-}
-
-.topic-list {
-	list-style: none;
-	padding: 0;
-	margin: 1.5rem 0;
-	display: grid;
-	gap: 0.5rem;
-}
-
-.topic-list li a {
-	display: flex;
-	gap: 0.6rem;
-	align-items: baseline;
-	padding: 0.6rem 0.8rem;
-	border: 1px solid var(--border);
-	border-radius: 8px;
-	text-decoration: none;
-	color: var(--fg);
-	font-family: ui-sans-serif, system-ui, sans-serif;
-	font-size: 0.95rem;
-}
-
-.topic-list li a:hover {
-	border-color: var(--accent);
-	background: var(--card-bg);
-}
-
-.topic-list .num {
-	color: var(--muted);
-	font-variant-numeric: tabular-nums;
-	/* fixed width + right alignment, not min-width — some groups mix
-	   single- and triple-digit order numbers (e.g. funkce-a-rovnice runs
-	   1–14 then jumps to 100–102), and a min-width left-aligned box grows
-	   with the widest number, knocking every shorter row's title out of
-	   alignment with the rest of the list */
-	width: 2.3rem;
-	text-align: right;
-}
-
-.topic-group-title {
-	margin-top: 2rem;
-	font-family: ui-sans-serif, system-ui, sans-serif;
-	color: var(--muted);
-	font-size: 0.85rem;
-	text-transform: uppercase;
-	letter-spacing: 0.06em;
-	scroll-margin-top: 1.5rem;
-}
-
-.badge-group {
-	margin-left: auto;
-	display: flex;
-	align-items: center;
-	gap: 0.4rem;
-}
-
-.mini-badge {
-	font-size: 0.68rem;
-	text-transform: uppercase;
-	letter-spacing: 0.04em;
-	color: var(--accent);
-	border: 1px solid color-mix(in srgb, var(--accent) 35%, transparent);
-	border-radius: 4px;
-	padding: 0.1rem 0.4rem;
-	white-space: nowrap;
-}
-
-.exercise-badge {
-	display: inline-flex;
-	align-items: center;
-	justify-content: center;
-	width: 1.3rem;
-	height: 1.3rem;
-	font-size: 0.8rem;
-	line-height: 1;
-	border-radius: 50%;
-	background: color-mix(in srgb, var(--accent) 14%, transparent);
-	color: var(--accent);
-	flex: 0 0 auto;
-}
-
-.group-jump {
-	display: flex;
-	flex-wrap: wrap;
-	gap: 0.4rem 0.6rem;
-	margin: 1.25rem 0 0;
-	font-family: ui-sans-serif, system-ui, sans-serif;
-	font-size: 0.82rem;
-}
-
-.group-jump a {
-	color: var(--muted);
-	text-decoration: none;
-	border-bottom: 1px dotted var(--border);
-}
-
-.group-jump a:hover {
-	color: var(--accent);
-	border-bottom-color: var(--accent);
-}
-
-article.topic {
-	font-size: 1.05rem;
-}
-
-article.topic h2 {
-	margin-top: 2rem;
-	border-bottom: 1px solid var(--border);
-	padding-bottom: 0.3rem;
-	clear: both;
-}
-
-article.topic h3 {
-	margin-top: 1.5rem;
-	clear: both;
-}
-
-/* manual clear point inside a section (a plain "---") — h2/h3 already clear
-   floats, but a floated exercise graph can still be "active" when the next
-   exercise starts mid-section (bold "**Příklad 2:**" lead-in, not a
-   heading), which visually mixes the new exercise text into the previous
-   graph's margin */
-article.topic hr {
-	clear: both;
-	margin: 1.75rem 0;
-	border: none;
-	border-top: 1px solid var(--border);
-}
-
-article.topic p {
-	margin: 0.9rem 0;
-}
-
-/* statically-typeset formulas (rehype-math.ts, build-time via MathLive's SSR
-   renderer) — .ML__latex itself only sets sizing/layout, color/vertical
-   alignment against surrounding text needs to be set here */
-.math-inline {
-	color: var(--fg);
-	vertical-align: middle;
-}
-
-.math-display {
-	display: block;
-	margin: 1.1rem 0;
-	text-align: center;
-	color: var(--fg);
-}
-
-/* "this wasn't preserved in the source" disclaimers (rehype-recon-note.ts,
-   "((text))") — deliberately NOT italic: on badly-damaged source files
-   these show up on nearly every sentence, and a whole paragraph of italics
-   is tiring to read. Smaller + muted instead, so it visibly recedes behind
-   the actual problem text instead of competing with it for attention. */
-.recon-note {
-	font-style: normal;
-	font-size: 0.9em;
-	color: var(--muted);
-}
-
 /* Discord-style "||spoiler||" (rehype-spoiler.ts) — toggled by the delegated
    click/keydown listener in BaseLayout.astro */
 .spoiler {
 	background: var(--fg);
 	color: transparent;
-	border-radius: 0.25em;
+	border-radius: 1px;
 	padding: 0 0.15em;
 	cursor: pointer;
 	transition: background 0.15s;
@@ -509,15 +1473,15 @@ article.topic p {
 }
 
 .spoiler.is-revealed {
-	background: var(--border);
+	background: var(--surface-raised);
 	color: var(--fg);
 	cursor: text;
 }
 
 /* block-level spoiler for graphs (graph-svg.ts's "spoiler": true) — a blur
    still let the shape show through and gave the answer away, so this is a
-   fully opaque card instead (markup: figure + .spoiler-block-overlay,
-   generated together in graph-svg.ts so the pill label can be a real nested
+   fully opaque panel instead (markup: figure + .spoiler-block-overlay,
+   generated together in graph-svg.ts so the label can be a real nested
    element rather than ::after content, which can't have its own background) */
 .spoiler-block {
 	position: relative;
@@ -530,18 +1494,18 @@ article.topic p {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background: var(--card-bg);
+	background: var(--surface);
 	border: 1px solid var(--border);
-	border-radius: 12px;
 }
 
 .spoiler-block-label {
-	padding: 0.65rem 1.25rem;
-	border-radius: 999px;
-	background: var(--fg);
-	color: var(--bg);
-	font-family: ui-sans-serif, system-ui, sans-serif;
-	font-size: 0.9rem;
+	padding: 0.5rem 1.1rem;
+	border: 1px solid var(--border-strong);
+	border-radius: 2px;
+	background: var(--bg);
+	color: var(--fg);
+	font-family: var(--sans);
+	font-size: var(--t-sm);
 	font-weight: 600;
 }
 
@@ -556,7 +1520,7 @@ article.topic p {
 /* build-time function/curve plots — src/lib/markdown/graph-svg.ts, used both
    by GraphPlot.astro and the ```graph fenced-block rehype plugin */
 .graph-plot {
-	margin: 1.3rem 0;
+	margin: 1.5rem 0;
 	text-align: center;
 }
 
@@ -582,7 +1546,7 @@ article.topic p {
 .graph-plot .axis-label {
 	fill: var(--muted);
 	font-size: 11px;
-	font-family: system-ui, sans-serif;
+	font-family: var(--sans);
 }
 
 .graph-plot .axis-label {
@@ -616,13 +1580,14 @@ article.topic p {
 .graph-plot .marker-label {
 	fill: var(--fg);
 	font-size: 12px;
-	font-family: system-ui, sans-serif;
+	font-family: var(--sans);
 }
 
 .graph-plot figcaption {
-	margin-top: -0.4rem;
+	margin-top: 0.2rem;
+	font-family: var(--sans);
 	color: var(--muted);
-	font-size: 0.9rem;
+	font-size: var(--t-sm);
 }
 
 /* 2D geometric figures (geometry-svg.ts, ```geometry blocks) */
@@ -652,13 +1617,13 @@ article.topic p {
 	fill: var(--fg);
 	font-size: 14px;
 	font-weight: 600;
-	font-family: system-ui, sans-serif;
+	font-family: var(--sans);
 }
 
 .geometry-plot .geom-label {
 	fill: var(--muted);
 	font-size: 12px;
-	font-family: system-ui, sans-serif;
+	font-family: var(--sans);
 }
 
 .geometry-plot .geom-angle-arc {
@@ -712,57 +1677,38 @@ article.topic p {
 	.spoiler-block--float-left {
 		float: none;
 		max-width: 100%;
-		margin: 1.3rem 0;
+		margin: 1.5rem 0;
 	}
 }
 
-/* dense nested bullet lists (this content is heavily "heslovité") need real
-   breathing room between items, or the whole page reads as one grey wall */
-article.topic ul,
-article.topic ol {
-	padding-left: 1.3em;
-}
+/* ─────────────────────────────────────────────────────────────────────────
+   MATEMATICKÁ TABULE — prvky vkládané skriptem za běhu
+   These live in global CSS rather than a component's scoped <style>: a
+   scoped block only ever applies to elements Astro compiled into that
+   component's own template, not ones created with document.createElement.
+   ───────────────────────────────────────────────────────────────────── */
 
-article.topic li {
-	margin-bottom: 0.55rem;
-}
-
-article.topic li > ul,
-article.topic li > ol {
-	margin-top: 0.55rem;
-}
-
-article.topic li::marker {
-	color: var(--muted);
-}
-
-/* injected by MathScratchpad's client script next to detected exercises —
-   lives here (not in the component's scoped styles) since the button is
-   appended into article content outside that component's own markup */
+/* injected by MathScratchpad's client script next to detected exercises */
 .exercise-send-btn {
 	display: inline-flex;
 	align-items: center;
-	font-family: ui-sans-serif, system-ui, sans-serif;
-	font-size: 0.72rem;
+	font-family: var(--sans);
+	font-size: var(--t-xs);
 	white-space: nowrap;
 	color: var(--accent);
-	background: color-mix(in srgb, var(--accent) 10%, transparent);
+	background: none;
 	border: 1px solid color-mix(in srgb, var(--accent) 35%, transparent);
-	border-radius: 5px;
+	border-radius: 2px;
 	padding: 0.05rem 0.4rem;
 	cursor: pointer;
 	vertical-align: middle;
 }
 
 .exercise-send-btn:hover {
-	background: color-mix(in srgb, var(--accent) 20%, transparent);
+	background: color-mix(in srgb, var(--accent) 16%, transparent);
 }
 
-/* the floating "sticky note" on the math whiteboard — also created via
-   document.createElement in a client script (see src/lib/whiteboard.ts), so
-   it must live in global CSS rather than a component's scoped <style>,
-   which only ever applies to elements Astro compiled into that component's
-   own template, not ones added dynamically at runtime */
+/* the floating "sticky note" on the math whiteboard (src/lib/whiteboard.ts) */
 .whiteboard-note {
 	position: absolute;
 	width: 15rem;
@@ -771,8 +1717,7 @@ article.topic li::marker {
 	overflow-y: auto;
 	background: #fff6c9;
 	border: 1px solid color-mix(in srgb, #b8960a 40%, transparent);
-	border-radius: 4px;
-	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+	border-radius: 2px;
 	padding: 0.5rem 0.6rem 0.65rem;
 	cursor: grab;
 	touch-action: none;
@@ -781,12 +1726,11 @@ article.topic li::marker {
 
 .whiteboard-note.is-dragging {
 	cursor: grabbing;
-	box-shadow: 0 8px 18px rgba(0, 0, 0, 0.32);
+	border-color: #b8960a;
 }
 
 /* pen/eraser brush-size indicator that follows the cursor over the canvas —
-   also created via document.createElement (see whiteboard.ts), same reason
-   as .whiteboard-note above for living here instead of a scoped <style> */
+   stays a circle because it represents the round brush's actual size */
 .whiteboard-cursor {
 	position: absolute;
 	border-radius: 50%;
@@ -823,7 +1767,7 @@ article.topic li::marker {
 	padding: 0;
 	line-height: 1;
 	border: none;
-	border-radius: 50%;
+	border-radius: 2px;
 	background: rgba(0, 0, 0, 0.08);
 	color: #55480a;
 	cursor: pointer;
@@ -835,26 +1779,25 @@ article.topic li::marker {
 }
 
 .whiteboard-note-body {
-	font-family: ui-sans-serif, system-ui, sans-serif;
-	font-size: 0.82rem;
+	font-family: var(--sans);
+	font-size: var(--t-sm);
 	line-height: 1.4;
 	color: #3a3005;
 	white-space: pre-wrap;
 }
 
-/* items in the whiteboard's "Zadání" dropdown — also injected dynamically,
-   same reasoning as .whiteboard-note above */
+/* items in the whiteboard's "Zadání" dropdown */
 .whiteboard-exercises-item {
 	display: block;
 	width: 100%;
 	text-align: left;
-	font-family: ui-sans-serif, system-ui, sans-serif;
-	font-size: 0.8rem;
+	font-family: var(--sans);
+	font-size: var(--t-sm);
 	line-height: 1.35;
 	color: var(--fg);
 	background: none;
 	border: none;
-	border-radius: 6px;
+	border-radius: 2px;
 	padding: 0.4rem 0.5rem;
 	cursor: pointer;
 }
@@ -864,129 +1807,32 @@ article.topic li::marker {
 	color: var(--accent);
 }
 
-article.topic code {
-	background: var(--card-bg);
-	border: 1px solid var(--border);
-	border-radius: 4px;
-	padding: 0.1em 0.35em;
-	font-size: 0.92em;
-}
-
-article.topic pre code {
-	background: none;
-	border: none;
-	padding: 0;
-}
-
-article.topic table {
-	width: 100%;
-	border-collapse: collapse;
-	font-size: 0.9rem;
-	margin: 1rem 0;
-}
-
-article.topic th,
-article.topic td {
-	border: 1px solid var(--border);
-	padding: 0.4rem 0.6rem;
-	text-align: left;
-	vertical-align: top;
-}
-
-.back-link {
-	font-family: ui-sans-serif, system-ui, sans-serif;
-	font-size: 0.9rem;
-}
-
-.doplneno-badge {
-	font-family: ui-sans-serif, system-ui, sans-serif;
-	font-size: 0.82rem;
-	color: var(--accent);
-	background: color-mix(in srgb, var(--accent) 12%, transparent);
-	border: 1px solid color-mix(in srgb, var(--accent) 35%, transparent);
-	border-radius: 6px;
-	padding: 0.5rem 0.75rem;
-	margin: 0.75rem 0 1.5rem;
-}
-
-.topic-pager {
-	display: grid;
-	/* the middle column must be a *definite* size, not auto — the filmstrip
-	   inside it uses percentage widths (width: min(100%, 21rem) on the
-	   track, calc(50% - ...) on its edge spacers) to size itself, and an
-	   auto grid track's size is derived from its content's intrinsic size,
-	   which those percentages can't resolve against without circularity.
-	   Browsers "solve" that by falling back to something else entirely,
-	   which is what blew the whole row's layout up. */
-	grid-template-columns: minmax(0, 1fr) minmax(0, 22rem) minmax(0, 1fr);
-	align-items: center;
-	gap: 0.6rem 1rem;
-	margin-top: 2rem;
-	padding-top: 1.25rem;
-	border-top: 1px solid var(--border);
-	font-family: ui-sans-serif, system-ui, sans-serif;
-	font-size: 0.92rem;
-}
-
-.topic-pager a {
-	color: var(--fg);
-	text-decoration: none;
-}
-
-.topic-pager a:hover {
-	color: var(--accent);
-}
-
-.topic-pager-prev {
-	justify-self: start;
-}
-
-.topic-pager-next {
-	justify-self: end;
-	text-align: right;
-	grid-column: 3;
-}
-
-@media (max-width: 720px) {
-	.topic-pager {
-		grid-template-columns: 1fr 1fr;
-		grid-template-areas: 'prev next' 'filmstrip filmstrip';
-	}
-	.topic-pager-prev {
-		grid-area: prev;
-	}
-	.topic-pager-next {
-		grid-area: next;
-		grid-column: auto;
-	}
-	.topic-pager .filmstrip {
-		grid-area: filmstrip;
-	}
-}
-
-.source-note {
-	margin-top: 3rem;
-	padding-top: 1rem;
-	border-top: 1px dashed var(--border);
-	font-family: ui-sans-serif, system-ui, sans-serif;
-	font-size: 0.8rem;
-	color: var(--muted);
-}
-
-/* Print: study material is meant to be printed and read on paper, so drop
-   everything that only makes sense on screen (sticky/hidden nav chrome,
-   the footer, the click-to-reveal spoiler overlay) and force spoiler
-   content to actually show up instead of staying blacked out. */
+/* ─────────────────────────────────────────────────────────────────────────
+   TISK
+   Study material is meant to be printed and read on paper, so drop
+   everything that only makes sense on screen (sticky nav chrome, both
+   rails, the footer, the click-to-reveal overlay) and force spoiler
+   content to actually show up instead of staying blacked out.
+   ───────────────────────────────────────────────────────────────────── */
 @media print {
 	.skip-link,
 	header.site-header,
-	.site-footer {
+	.site-footer,
+	.rail,
+	.topic-pager,
+	.group-jump {
 		display: none;
 	}
 
-	main {
+	main,
+	main.index,
+	main.reading {
 		max-width: none;
 		padding: 0;
+	}
+
+	.reading-shell {
+		display: block;
 	}
 
 	.spoiler-block-overlay {
@@ -996,6 +1842,11 @@ article.topic td {
 	.spoiler,
 	.spoiler-block {
 		color: inherit;
+		background: none;
+	}
+
+	.math-display,
+	article.topic blockquote {
 		background: none;
 	}
 }
