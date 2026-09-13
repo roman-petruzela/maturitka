@@ -29,6 +29,12 @@ const namedGroupKeys = orderedGroupKeys.filter((g): g is string => g !== null);
 // balanced columns; the rest get a grid of per-category blocks.
 const isFlat = orderedGroupKeys.length === 1 && orderedGroupKeys[0] === null;
 
+// A category longer than this is allowed to flow across column breaks.
+// Keeping every block atomic looked tidier but wrecked the balancing: Český
+// jazyk's 97-topic "Rozbor knih a četba" is taller than a third of the page
+// on its own, so it claimed a whole column and left the third one empty.
+const SPLIT_AT = 20;
+
 // Czech needs three number forms: 1 téma / 2–4 témata / 5+ témat.
 const plural = (n: number, one: string, few: string, many: string) =>
 	n === 1 ? one : n >= 2 && n <= 4 ? few : many;
@@ -79,7 +85,7 @@ const plural = (n: number, one: string, few: string, many: string) =>
 		) : (
 			<div class="group-grid">
 				{orderedGroupKeys.map((g) => (
-					<section class="group-block">
+					<section class={groups.get(g)!.length > SPLIT_AT ? 'group-block group-block--splittable' : 'group-block'}>
 						<h2 class="group-block-head" id={g ?? undefined}>
 							<span class="group-block-title">{g ? groupLabel(subject, g) : 'Ostatní témata'}</span>
 							<span class="group-block-count">{groups.get(g)!.length}</span>
