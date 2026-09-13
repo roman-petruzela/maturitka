@@ -8,13 +8,18 @@ interface Props {
 	title: string;
 	description?: string;
 	activeSubject?: string;
-	wide?: boolean;
+	/**
+	 * Page shell width. 'prose' is the default single narrow column (404,
+	 * licence); 'index' is the wide subject/topic grid; 'reading' is the
+	 * three-column article shell, which manages its own inner columns.
+	 */
+	layout?: 'prose' | 'index' | 'reading';
 }
 
 const DEFAULT_DESCRIPTION =
 	'Přehledně poskládaný učební materiál k maturitě z archivu maturitních podkladů — matematika, český jazyk, IT, angličtina a další předměty.';
 
-const { title, description = DEFAULT_DESCRIPTION, activeSubject, wide = false } = Astro.props;
+const { title, description = DEFAULT_DESCRIPTION, activeSubject, layout = 'prose' } = Astro.props;
 const year = new Date().getFullYear();
 const pageTitle = `${title} · MATURITKA`;
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
@@ -47,27 +52,34 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 	<body>
 		<a class="skip-link" href="#main-content">Přeskočit na obsah</a>
 		<header class="site-header">
-			<a class="brand" href="/">MATURIT<span>KA</span></a>
-			<nav class="subject-nav">
-				{
-					SUBJECT_KEYS.map((key) => (
-						<a href={`/${key}/`} class={activeSubject === key ? 'active' : ''} draggable="false">
-							{SUBJECTS[key].label}
-						</a>
-					))
-				}
-			</nav>
+			<div class="site-header-inner">
+				<a class="brand" href="/">MATURIT<span>KA</span></a>
+				<nav class="subject-nav" aria-label="Předměty">
+					{
+						SUBJECT_KEYS.map((key) => (
+							<a
+								href={`/${key}/`}
+								class={activeSubject === key ? 'active' : ''}
+								aria-current={activeSubject === key ? 'page' : undefined}
+								draggable="false"
+							>
+								{SUBJECTS[key].label}
+							</a>
+						))
+					}
+				</nav>
+			</div>
 		</header>
-		<main id="main-content" class={wide ? 'wide' : ''}>
+		<main id="main-content" class={layout}>
 			<slot />
 		</main>
 		<footer class="site-footer">
 			<a href="https://github.com/roman-petruzela/maturitka" target="_blank" rel="noopener noreferrer">GitHub</a>
-			<span class="site-footer-sep" aria-hidden="true">·</span>
+			<span class="site-footer-sep" aria-hidden="true" />
 			<a href="/licence/">CC BY-NC-SA 4.0</a>
-			<span class="site-footer-sep" aria-hidden="true">·</span>
+			<span class="site-footer-sep" aria-hidden="true" />
 			<span>© {year} MATURITKA</span>
-			<span class="site-footer-sep" aria-hidden="true">·</span>
+			<span class="site-footer-sep" aria-hidden="true" />
 			<span>v{version}</span>
 		</footer>
 		<script is:inline>
@@ -272,6 +284,136 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 						},
 						true
 					);
+				}
+			})();
+		</script>
+		<script is:inline>
+			(function () {
+				// ── Postranní panely na úzkých displejích ──────────────────
+				// Below the three-column breakpoint each rail collapses behind
+				// its own button. Deliberately a button + class rather than
+				// <details>: the rails must be plainly visible (and not
+				// collapsible) on desktop, and a <details> can't be forced open
+				// from CSS across browsers.
+				document.querySelectorAll('[data-rail-toggle]').forEach(function (btn) {
+					var rail = btn.closest('.rail');
+					if (!rail) return;
+					btn.addEventListener('click', function () {
+						var open = rail.classList.toggle('is-open');
+						btn.setAttribute('aria-expanded', String(open));
+					});
+				});
+
+				// ── Rychlá navigace po kategoriích ────────────────────────
+				// CSS handles marking the category block you jumped to (the
+				// :target rules), but a pill can't style itself off the URL
+				// hash, so the matching one is marked here and kept in sync
+				// when the hash changes.
+				var jump = document.querySelector('.group-jump');
+				if (jump) {
+					var pills = Array.prototype.slice.call(jump.querySelectorAll('a[href^="#"]'));
+					var syncPills = function () {
+						var hash = decodeURIComponent(location.hash.slice(1));
+						pills.forEach(function (a) {
+							a.classList.toggle('is-active', hash !== '' && decodeURIComponent(a.hash.slice(1)) === hash);
+						});
+					};
+					window.addEventListener('hashchange', syncPills);
+					syncPills();
+				}
+
+				var article = document.querySelector('article.topic');
+				if (!article) return;
+
+				// ── Vzorce v článku ────────────────────────────────────────
+				// The formula digest is cloned out of the article's own
+				// rendered display math instead of being derived from the
+				// Markdown source a second time — one source of truth, so it
+				// can't drift, and it costs nothing at build time.
+				var formulaList = document.querySelector('[data-formulas]');
+				if (formulaList) {
+					var section = formulaList.closest('.rail-section');
+					var seen = {};
+					var picked = [];
+					article.querySelectorAll('.math-display').forEach(function (node, i) {
+						var key = (node.textContent || '').replace(/\s+/g, '');
+						if (!key || seen[key]) return;
+						seen[key] = true;
+						if (!node.id) node.id = 'vzorec-' + (i + 1);
+						picked.push(node);
+					});
+					var MAX = 6;
+					picked.slice(0, MAX).forEach(function (node) {
+						var li = document.createElement('li');
+						var a = document.createElement('a');
+						a.href = '#' + node.id;
+						a.appendChild(node.cloneNode(true));
+						li.appendChild(a);
+						formulaList.appendChild(li);
+					});
+					if (picked.length > MAX) {
+						var more = document.createElement('li');
+						more.className = 'rail-empty';
+						more.textContent = 'a další v textu (' + (picked.length - MAX) + ')';
+						formulaList.appendChild(more);
+					}
+					if (picked.length === 0 && section) section.remove();
+				}
+
+				// ── Obsah článku: zvýraznění právě čtené sekce ─────────────
+				var toc = document.querySelector('[data-toc]');
+				if (toc) {
+					var links = Array.prototype.slice.call(toc.querySelectorAll('a[href^="#"]'));
+					var pairs = [];
+					links.forEach(function (a) {
+						var target = document.getElementById(decodeURIComponent(a.hash.slice(1)));
+						if (target) pairs.push({ link: a, target: target });
+					});
+
+					var active = null;
+					function syncActive() {
+						// last heading whose top has passed under the header —
+						// a plain scroll read, which behaves predictably around
+						// short sections where IntersectionObserver ratios flap
+						var cutoff = 140;
+						var current = pairs.length ? pairs[0] : null;
+						for (var i = 0; i < pairs.length; i++) {
+							if (pairs[i].target.getBoundingClientRect().top <= cutoff) current = pairs[i];
+							else break;
+						}
+						if (!current || current.link === active) return;
+						if (active) active.classList.remove('is-active');
+						current.link.classList.add('is-active');
+						active = current.link;
+					}
+
+					var tocTicking = false;
+					window.addEventListener(
+						'scroll',
+						function () {
+							if (tocTicking) return;
+							tocTicking = true;
+							requestAnimationFrame(function () {
+								syncActive();
+								tocTicking = false;
+							});
+						},
+						{ passive: true }
+					);
+					syncActive();
+				}
+
+				// ── Rejstřík předmětu: nascrollovat na právě otevřené téma ──
+				// Scrolls the rail itself, never scrollIntoView(): that is
+				// allowed to nudge ancestor scroll containers (including the
+				// page) when it judges the target isn't fully in view, which
+				// would yank the reader away from the top of the article.
+				var rail = document.querySelector('[data-subject-rail]');
+				var current = rail && rail.querySelector('.is-current');
+				if (rail && current && rail.scrollHeight > rail.clientHeight) {
+					var railBox = rail.getBoundingClientRect();
+					var itemBox = current.getBoundingClientRect();
+					rail.scrollTop += itemBox.top - railBox.top - (rail.clientHeight - itemBox.height) / 2;
 				}
 			})();
 		</script>
