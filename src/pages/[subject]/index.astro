@@ -26,7 +26,7 @@ const namedGroupKeys = orderedGroupKeys.filter((g): g is string => g !== null);
 ---
 
 <BaseLayout title={SUBJECTS[subject].label} description={SUBJECTS[subject].description} activeSubject={subject}>
-	<p class="eyebrow"><a class="back-link" href="/">← Předměty</a></p>
+	<p class="breadcrumb"><a href="/">← Předměty</a></p>
 	<h1>{SUBJECTS[subject].label}</h1>
 	<p>{SUBJECTS[subject].description}</p>
 

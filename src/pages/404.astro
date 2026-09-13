@@ -4,17 +4,21 @@ import { SUBJECTS, SUBJECT_KEYS } from '../lib/subjects';
 ---
 
 <BaseLayout title="Stránka nenalezena" description="Tato stránka neexistuje nebo byla přesunuta.">
-	<p class="eyebrow">Chyba 404</p>
-	<h1>Stránka nenalezena</h1>
+	<h1>Stránka nenalezena (chyba 404)</h1>
 	<p>Odkaz, na který jsi klikl, buď neexistuje, nebo byl přesunut jinam.</p>
-	<div class="subject-grid">
+	<ol class="record-list">
 		{
-			SUBJECT_KEYS.map((key) => (
-				<a class="subject-card" href={`/${key}/`}>
-					<h2>{SUBJECTS[key].label}</h2>
-					<p>{SUBJECTS[key].description}</p>
-				</a>
+			SUBJECT_KEYS.map((key, i) => (
+				<li>
+					<a class="record" href={`/${key}/`}>
+						<span class="record-num">{String(i + 1).padStart(2, '0')}</span>
+						<div class="record-body">
+							<h2 class="record-title">{SUBJECTS[key].label}</h2>
+							<span class="record-desc">{SUBJECTS[key].description}</span>
+						</div>
+					</a>
+				</li>
 			))
 		}
-	</div>
+	</ol>
 </BaseLayout>
