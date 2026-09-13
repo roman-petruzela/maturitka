@@ -1,12 +1,13 @@
 # MATURITKA
 
-Přehledný učební web postavený z archivu maturitních podkladů (`../MATURITA HADR`,
-`../maturitni prehled`). Pokrývá 12 předmětů (Český jazyk, Matematika, IT, Angličtina,
-Dějepis, Zeměpis, Fyzika, Společenské vědy, Právo, Psychologie, Ekonomika, Němčina) —
-viz `src/content/*`, kde každá `NN-slug` složka je jeden předmět a nic dalšího není
-potřeba měnit v kódu, aby se objevil v navigaci (viz `src/lib/content-fs.ts`).
-Astro + Markdown content collections, žádný backend, statický build. Obsah je pod
-licencí CC BY-NC-SA 4.0 (viz `/licence/` a `LICENSE`).
+Učební web poskládaný z archivu školních podkladů k maturitě — prezentací, skenovaných PDF
+a dokumentů, které jsou převedené do jednotného Markdownu a setříděné podle předmětů
+a okruhů. Pokrývá 12 předmětů (Český jazyk, Matematika, IT, Angličtina, Dějepis, Zeměpis,
+Fyzika, Společenské vědy, Právo, Psychologie, Ekonomika, Němčina).
+
+Astro + Markdown content collections, žádný backend, statický build. Obsah i kód jsou pod
+licencí CC BY-NC-SA 4.0 (viz `/licence/` a `LICENSE`). Co projekt je a proč vznikl, shrnuje
+stránka `/o-strance/`.
 
 ## Vývoj
 
@@ -19,53 +20,88 @@ npm run astro check
 npm run check:links  # po buildu — najde interní odkazy mířící na neexistující stránku
 ```
 
+Verze v `package.json` se vykresluje v patičce webu, takže se zvedá s každou viditelnou
+změnou — pravidlo je v [`AGENTS.md`](AGENTS.md), stejně jako poznámka o cache, která umí
+po zásahu do `src/lib/**` tiše servírovat starý build.
+
 ## Struktura
 
 ```
 src/
   content.config.ts     # kolekce se generují automaticky z src/content/* (Zod schema:
-                         # title, order, tags, source, hasExercises)
-  content/<predmet>/**/*.md   # obsah — podsložka = skupina v navigaci daného předmětu
-  layouts/BaseLayout.astro    # hlavička, patička, OG/meta tagy, skip-link
+                        # title, order, tags, source, hasExercises)
+  content/<predmet>/**/*.md   # obsah — podsložka = kategorie v navigaci daného předmětu
+  layouts/BaseLayout.astro    # hlavička, patička, OG/meta tagy, skip-link, klientské skripty
   pages/
     index.astro                # přehled předmětů
-    [subject]/index.astro      # seznam témat (seskupeno podle podsložky)
-    [subject]/[...slug].astro  # detail tématu
-    licence.astro               # licenční stránka (odkaz z patičky)
-    404.astro                   # vlastní stránka pro neexistující URL
+    [subject]/index.astro      # seznam témat po kategoriích
+    [subject]/[...slug].astro  # detail tématu (třísloupcové rozvržení)
+    o-strance.astro            # o projektu (odkaz z patičky)
+    licence.astro              # licenční stránka
+    404.astro                  # vlastní stránka pro neexistující URL
+  components/
+    SubjectRail.astro     # levý sloupec — rejstřík celého předmětu
+    ArticleAside.astro    # pravý sloupec — značky, sousední témata, obsah, vzorce
+    TopicRow.astro        # řádek v seznamu témat (číslo, název, odznaky)
+    MathScratchpad.astro  # pracovní plocha pod články z matematiky
+    GraphPlot.astro, Icon.astro
+  lib/
+    content-fs.ts, subjects.ts, groups.ts   # čtení předmětů a kategorií z filesystému
+    whiteboard.ts                            # kreslení na pracovní ploše
+    markdown/           # remark/rehype pluginy: math, spoilery, grafy, geometrie,
+                        # tělesa, portréty autorů, odkazy na rozbory
+  styles/global.css     # designový systém (barvy, písma, rozvržení)
 scripts/
-  build-manifests.mjs    # skenuje ../MATURITA HADR a generuje scripts/manifest/*.json
+  build-manifests.mjs    # projde zdrojový adresář s podklady a vygeneruje scripts/manifest/*.json
   convert-docx.mjs       # mammoth: docx/doc/odt → markdown (docx přímo, doc/odt přes LibreOffice)
   convert-pdf.py         # pymupdf4llm (venv v scripts/.venv): pdf → markdown, volitelně --ocr
   manifest/*.json        # mapování zdroj → cíl (title, order, tags, src, dest) — upravuj ručně
   check-links.mjs        # po buildu ověří, že žádný interní <a href> nevede do prázdna
 ```
 
-## Jak přidat další předmět nebo doplnit obsah
+## Pořadí a názvy předmětů a kategorií
 
-1. Přidej záznamy do `scripts/manifest/<predmet>.json` (nebo rozšiř `build-manifests.mjs`,
-   pokud jde o nový zdrojový adresář se stovkami souborů — viz existující buildery jako vzor).
-   Formát položky: `{ "src": "MATURITA HADR/...", "dest": "<predmet>/<skupina>/<slug>.md",
-   "title": "...", "order": 1, "tags": [...] }`. Podsložka v `dest` = skupina v navigaci.
+Nejsou nikde v kódu — čtou se z filesystému (`src/lib/content-fs.ts`):
+
+- Číselná předpona `NN-` u složky určuje pořadí a do URL se nepromítne
+  (`src/content/03-funkce-a-rovnice/` → `/mat/funkce-a-rovnice/`).
+- Volitelný `_meta.json` ve složce (`{ "label": "...", "description": "..." }`) dodá
+  zobrazovaný název a popis. Bez něj se název odvodí ze slugu.
+
+Přerovnat nebo přejmenovat předmět či kategorii je tedy přejmenování složky nebo úprava
+`_meta.json` — v TypeScriptu se nemění nic.
+
+## Jak přidat obsah
+
+**Nový předmět** — založ `src/content/NN-slug/` a v ní `_meta.json` s názvem a popisem.
+Kolekce, stránky i navigace se dotáhnou samy.
+
+**Ručně psané téma** — stačí Markdown v `src/content/<predmet>/<kategorie>/NN-slug.md`
+s frontmatterem (povinný je jen `title`; dál `order`, `tags`, `source`, `hasExercises`).
+
+**Převod z archivního souboru:**
+
+1. Přidej záznam do `scripts/manifest/<predmet>.json` ve tvaru
+   `{ "src": "<cesta ke zdrojovému souboru>", "dest": "<predmet>/<kategorie>/<slug>.md",
+   "title": "...", "order": 1, "tags": [...] }`. Podsložka v `dest` určuje kategorii.
 2. Spusť konverzi (skripty samy přeskočí položky, na které nemají příponu):
    ```sh
    node scripts/convert-docx.mjs scripts/manifest/<predmet>.json
    scripts/.venv/bin/python scripts/convert-pdf.py scripts/manifest/<predmet>.json
    ```
-3. Pokud jde o zcela nový předmět (ne jen doplnění), přidej klíč do `SUBJECTS`
-   v `src/lib/subjects.ts` a novou kolekci v `src/content.config.ts` — stránky a navigace
-   se pak dotáhnou samy, nic dalšího se nemění.
-4. Ruční/vlastní markdown lze samozřejmě psát i přímo do `src/content/<predmet>/...`
-   bez konverzních skriptů — stačí dodržet frontmatter (`title` povinné). Podsložka v cestě
-   určuje skupinu v navigaci; pro IT a ČJ má pořadí a české názvy skupin `src/lib/groups.ts`
-   (`GROUP_CONFIG`) — u ostatních předmětů se skupina odvodí ze slugu automaticky.
-5. Obsah dopsaný ručně (ne převedený z archivního souboru) označ `tags: ["doplněno"]`
-   ve frontmatteru — je to jediný způsob, jak v archivu rozeznat, co je z původních
-   podkladů a co je nově napsané (a tedy dobré nechat zkontrolovat vyučujícím). Příklad:
-   celá kategorie IT → Databázové systémy vznikla takto, protože se pro ni nedochoval
-   žádný zdrojový dokument.
+3. Výstup projdi a dorovnej ručně — konverze je začátek, ne hotová věc.
 
-### Poznámky ke kvalitě konverze
+## Značky ve frontmatteru
+
+- `tags: ["doplněno"]` — obsah dopsaný ručně, ne převedený z archivního souboru. Je to
+  jediný způsob, jak rozeznat původní podklady od nově napsaného textu (a tedy od toho,
+  co je dobré nechat zkontrolovat vyučujícím). Takto vznikla například část témat
+  v IT → Databázové systémy, pro která se nedochoval žádný zdrojový dokument.
+- `tags: ["mimo-seznam-cetby"]` — rozbor díla, které není na aktuálním školním seznamu
+  četby k maturitě.
+- `hasExercises: true` — téma obsahuje příklady na výpočet; web u něj zobrazí odznak.
+
+## Poznámky ke kvalitě konverze
 
 - Mammoth (docx) občas nerozpozná Wordí tabulku a vypíše ji jako plochý seznam řádků —
   obsahově nic nechybí, jen to není vizuálně spárované do tabulky.
@@ -73,4 +109,6 @@ scripts/
   jednoho odstavce — čitelné, ale méně přehledné.
 - OCR (`--ocr`, čeština) funguje jen na tištěný/skenovaný text. Na rukopisné poznámky
   produkuje nepoužitelný výstup — takové zdroje raději nechat jako placeholder
-  ("zatím nepřevedeno") než vnucovat zmatečný OCR text.
+  („zatím nepřevedeno") než vnucovat zmatečný OCR text.
+- Co se ze zdroje nedochovalo, se v textu označuje zápisem `((...))` místo tichého
+  zalepení mezery.
