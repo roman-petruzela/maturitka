@@ -8,189 +8,42 @@ for (const key of SUBJECT_KEYS) {
 	counts[key] = (await getCollection(key)).length;
 }
 const total = Object.values(counts).reduce((sum, n) => sum + n, 0);
-
-// Split into two even columns, read top-to-bottom-then-across — like a book's
-// table of contents spread over two pages, not a left-to-right grid. Stays
-// correct if a 13th subject ever gets added (ceil, not a hardcoded half).
-const half = Math.ceil(SUBJECT_KEYS.length / 2);
-const columns = [SUBJECT_KEYS.slice(0, half), SUBJECT_KEYS.slice(half)];
 ---
 
 <BaseLayout
 	title="Přehled předmětů"
 	description={`Přehledně poskládaný učební materiál z archivu maturitních podkladů — ${total} témat napříč ${SUBJECT_KEYS.length} předměty.`}
-	wide
+	layout="index"
 >
-	<div class="home-hero">
-		<h1>MATURITKA</h1>
-		<p class="home-intro">
-			Přehledně poskládaný učební materiál z archivu maturitních podkladů — {total} témat
-			napříč {SUBJECT_KEYS.length} předměty, další budou přibývat.
+	<div class="masthead">
+		<h1>Archiv maturitních podkladů</h1>
+		<p class="masthead-sub">
+			Výpisky, přehledy a řešené příklady ze školních materiálů — přepsané do čitelné
+			podoby a setříděné podle předmětů.
+		</p>
+		<p class="masthead-tally">
+			<span class="masthead-tally-items">
+				<span><b>{total}</b> témat</span>
+				<i aria-hidden="true"></i>
+				<span><b>{SUBJECT_KEYS.length}</b> předmětů</span>
+				<i aria-hidden="true"></i>
+				<span>doplňuje se průběžně</span>
+			</span>
 		</p>
 	</div>
 
-	<div class="home-toc">
-		<div class="toc-columns">
-			<ul class="toc-column">
-				{columns[0].map((key) => (
-					<li>
-						<a class="toc-row" href={`/${key}/`}>
-							<span class="toc-row-head">
-								<span class="toc-row-title">{SUBJECTS[key].label}</span>
-								<span class="toc-row-leader" aria-hidden="true" />
-								<span class="toc-row-count">{counts[key]}</span>
-							</span>
-							<span class="toc-row-desc">{SUBJECTS[key].description}</span>
-						</a>
-					</li>
-				))}
-			</ul>
-			<div class="toc-gutter" aria-hidden="true"></div>
-			<ul class="toc-column">
-				{columns[1].map((key) => (
-					<li>
-						<a class="toc-row" href={`/${key}/`}>
-							<span class="toc-row-head">
-								<span class="toc-row-title">{SUBJECTS[key].label}</span>
-								<span class="toc-row-leader" aria-hidden="true" />
-								<span class="toc-row-count">{counts[key]}</span>
-							</span>
-							<span class="toc-row-desc">{SUBJECTS[key].description}</span>
-						</a>
-					</li>
-				))}
-			</ul>
-		</div>
-	</div>
+	<nav class="subject-index" aria-label="Předměty">
+		{
+			SUBJECT_KEYS.map((key) => (
+				<a class="subject-cell" href={`/${key}/`}>
+					<span class="subject-cell-head">
+						<span class="subject-cell-title">{SUBJECTS[key].label}</span>
+						<span class="subject-cell-leader" aria-hidden="true" />
+						<span class="subject-cell-count">{counts[key]}</span>
+					</span>
+					<span class="subject-cell-desc">{SUBJECTS[key].description}</span>
+				</a>
+			))
+		}
+	</nav>
 </BaseLayout>
-
-<style>
-	.home-hero {
-		max-width: 34rem;
-	}
-
-	.home-hero h1 {
-		margin-top: 0;
-	}
-
-	.home-intro {
-		margin-top: 0;
-		color: var(--muted);
-		font-size: 1.05rem;
-	}
-
-	.home-toc {
-		margin-top: 1.75rem;
-	}
-
-	/* a real grid track for the gutter (not a border+padding hack on the
-	   second column) — that version gave the two 1fr columns unequal usable
-	   widths, since the border's own column got an extra padding-left on
-	   top of the column-gap already either side of it. This way both 1fr
-	   tracks are guaranteed equal, and the two column-gaps flanking the
-	   thin middle track are equal too, so the rule sits exactly centered. */
-	.toc-columns {
-		display: grid;
-		grid-template-columns: 1fr 1px 1fr;
-		column-gap: 2rem;
-	}
-
-	.toc-gutter {
-		background: var(--border);
-	}
-
-	.toc-column {
-		list-style: none;
-		margin: 0;
-		padding: 0;
-	}
-
-	.toc-row {
-		display: block;
-		padding: 0.85rem 0;
-		border-top: 1px solid var(--border);
-		color: var(--fg);
-		text-decoration: none;
-		border-radius: 4px;
-	}
-
-	.toc-column li:first-child .toc-row {
-		border-top: none;
-		padding-top: 0;
-	}
-
-	.toc-row-head {
-		display: flex;
-		align-items: baseline;
-		gap: 0.6em;
-	}
-
-	.toc-row-title {
-		font-family: 'Iowan Old Style', 'Palatino Linotype', Georgia, ui-serif, serif;
-		font-size: 1.15rem;
-		font-weight: 600;
-		transition: color 0.15s ease;
-	}
-
-	/* the leader line connecting a title to its count, like a printed table
-	   of contents — an empty flex sibling stretched with a dotted underline;
-	   align-items: baseline on the row above lines its bottom edge up with
-	   the surrounding text's own baseline */
-	.toc-row-leader {
-		flex: 1 1 auto;
-		min-width: 1.5rem;
-		border-bottom: 1px dotted color-mix(in srgb, var(--muted) 55%, transparent);
-		transition: border-color 0.15s ease;
-	}
-
-	.toc-row-count {
-		flex: 0 0 auto;
-		font-family: ui-sans-serif, system-ui, sans-serif;
-		font-size: 0.85rem;
-		font-variant-numeric: tabular-nums;
-		color: var(--muted);
-	}
-
-	.toc-row-desc {
-		display: block;
-		margin-top: 0.3rem;
-		font-family: ui-sans-serif, system-ui, sans-serif;
-		font-size: 0.85rem;
-		color: var(--muted);
-	}
-
-	.toc-row:hover .toc-row-title,
-	.toc-row:focus-visible .toc-row-title {
-		color: var(--accent);
-	}
-
-	.toc-row:hover .toc-row-leader,
-	.toc-row:focus-visible .toc-row-leader {
-		border-bottom-color: var(--accent);
-	}
-
-	.toc-row:focus-visible {
-		outline: 2px solid var(--accent);
-		outline-offset: 3px;
-	}
-
-	@media (max-width: 640px) {
-		.toc-columns {
-			grid-template-columns: 1fr;
-		}
-
-		/* same element as the desktop vertical rule, turned into a horizontal
-		   one between the two stacked columns instead of hiding it */
-		.toc-gutter {
-			height: 1px;
-			margin: 0.5rem 0;
-		}
-
-		/* general-sibling (~), not adjacent (+) — the .toc-gutter div now
-		   sits between the two .toc-column lists in the markup */
-		.toc-column ~ .toc-column li:first-child .toc-row {
-			border-top: none;
-			padding-top: 0;
-		}
-	}
-</style>
