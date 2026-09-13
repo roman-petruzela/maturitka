@@ -1,51 +1,93 @@
 ---
 import type { MarkdownHeading } from 'astro';
 
+export type AdjacentTopic = { href: string; title: string } | null;
+
 interface Props {
 	headings: MarkdownHeading[];
-	minutes: number;
 	categoryLabel?: string;
+	tags: string[];
+	hasExercises: boolean;
+	prev: AdjacentTopic;
+	next: AdjacentTopic;
 	/** true when the article contains display math worth digesting into the rail */
 	hasFormulas: boolean;
 }
 
-const { headings, minutes, categoryLabel, hasFormulas } = Astro.props;
+const { headings, categoryLabel, tags, hasExercises, prev, next, hasFormulas } = Astro.props;
 
 // Source documents disagree about where their heading hierarchy starts:
 // some open at "#", most at "##". Rebasing on the shallowest level actually
 // present keeps the rail's indentation meaningful either way.
 const shown = headings.filter((h) => h.depth <= 3 && h.text.trim() !== '');
 const base = shown.length ? Math.min(...shown.map((h) => h.depth)) : 1;
+
+// Frontmatter flags, spelled the way they read to a student rather than the
+// way they're stored.
+const marks: { label: string; title: string }[] = [];
+if (hasExercises) marks.push({ label: 'úlohy', title: 'Obsahuje úlohy na výpočet' });
+if (tags.includes('doplněno'))
+	marks.push({ label: 'doplněno', title: 'Doplněný obsah, není z archivu podkladů' });
+if (tags.includes('mimo-seznam-cetby'))
+	marks.push({ label: 'mimo seznam četby', title: 'Není na aktuálním školním seznamu četby k maturitě' });
 ---
 
 <aside class="rail rail-aside">
-	{/* Reading time sits outside the collapsible part: on a phone it's the
-	    one thing worth seeing before you decide to start reading, and it's
-	    two rows, so hiding it behind a tap would be a worse trade. */}
-	<dl class="rail-meta">
-		<div>
-			<dt>Doba čtení</dt>
-			<dd>{minutes} min</dd>
-		</div>
-		{
-			categoryLabel && (
-				<div>
-					<dt>Kategorie</dt>
-					<dd>{categoryLabel}</dd>
-				</div>
-			)
-		}
-	</dl>
+	{/* Kept outside the collapsible part: on a phone these are the two things
+	    worth seeing before you commit to reading, and they're a few rows. */}
+	{
+		(categoryLabel || marks.length > 0) && (
+			<dl class="rail-meta">
+				{categoryLabel && (
+					<div>
+						<dt>Kategorie</dt>
+						<dd>{categoryLabel}</dd>
+					</div>
+				)}
+				{marks.length > 0 && (
+					<div>
+						<dt>Značky</dt>
+						<dd class="rail-marks">
+							{marks.map((m) => (
+								<span class="mini-badge" title={m.title}>
+									{m.label}
+								</span>
+							))}
+						</dd>
+					</div>
+				)}
+			</dl>
+		)
+	}
+
+	{
+		(prev || next) && (
+			<nav class="rail-adjacent" aria-label="Sousední témata">
+				{prev && (
+					<a href={prev.href}>
+						<span class="rail-adjacent-label">← Předchozí</span>
+						<span class="rail-adjacent-title">{prev.title}</span>
+					</a>
+				)}
+				{next && (
+					<a href={next.href}>
+						<span class="rail-adjacent-label">Další →</span>
+						<span class="rail-adjacent-title">{next.title}</span>
+					</a>
+				)}
+			</nav>
+		)
+	}
 
 	<button class="rail-toggle" type="button" data-rail-toggle aria-expanded="false">
-		<span>Obsah článku</span>
+		<span>Obsah</span>
 		<span class="rail-toggle-mark" aria-hidden="true">›</span>
 	</button>
 	<div class="rail-body">
 		{
 			shown.length > 0 && (
 				<section class="rail-section">
-					<p class="rail-title panel-label">Obsah článku</p>
+					<p class="rail-title panel-label">Obsah</p>
 					<ul class="rail-toc" data-toc>
 						{shown.map((h) => (
 							<li class={`toc-depth-${Math.min(h.depth - base + 2, 3)}`}>
