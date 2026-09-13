@@ -2,12 +2,33 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { SUBJECTS, SUBJECT_KEYS } from '../lib/subjects';
 import { getCollection } from 'astro:content';
+import { execSync } from 'node:child_process';
 
 const counts: Record<string, number> = {};
 for (const key of SUBJECT_KEYS) {
 	counts[key] = (await getCollection(key)).length;
 }
 const total = Object.values(counts).reduce((sum, n) => sum + n, 0);
+
+// Date of the last commit, read at build time. Falls back to the build's own
+// clock where git isn't available or the checkout is shallow (some CI
+// runners) — the site is rebuilt on deploy, so that is still honest.
+function lastUpdated(): Date {
+	try {
+		const iso = execSync('git log -1 --format=%cI', { encoding: 'utf8', stdio: ['ignore', 'pipe', 'ignore'] }).trim();
+		const d = new Date(iso);
+		if (!Number.isNaN(d.getTime())) return d;
+	} catch {
+		// no git here — fall through
+	}
+	return new Date();
+}
+
+const updated = lastUpdated().toLocaleDateString('cs-CZ', {
+	day: 'numeric',
+	month: 'numeric',
+	year: 'numeric',
+});
 ---
 
 <BaseLayout
@@ -27,7 +48,7 @@ const total = Object.values(counts).reduce((sum, n) => sum + n, 0);
 				<i aria-hidden="true"></i>
 				<span><b>{SUBJECT_KEYS.length}</b> předmětů</span>
 				<i aria-hidden="true"></i>
-				<span>doplňuje se průběžně</span>
+				<span>aktualizováno {updated}</span>
 			</span>
 		</p>
 	</div>
