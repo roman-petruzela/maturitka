@@ -269,7 +269,7 @@ const { subject, items, currentIndex } = Astro.props;
 		flex-direction: column;
 		align-items: center;
 		gap: 0.2rem;
-		font-family: ui-sans-serif, system-ui, sans-serif;
+		font-family: var(--sans);
 	}
 
 	.filmstrip-track {
@@ -327,9 +327,9 @@ const { subject, items, currentIndex } = Astro.props;
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		border: 1.5px solid var(--border);
-		border-radius: 9px;
-		background: var(--card-bg);
+		border: 1px solid var(--border);
+		border-radius: 2px;
+		background: var(--surface);
 		color: var(--muted);
 		text-decoration: none;
 		font-variant-numeric: tabular-nums;
@@ -356,23 +356,22 @@ const { subject, items, currentIndex } = Astro.props;
 	   drag, marked by highlighting the card's border/frame */
 	.filmstrip-card.is-centered {
 		border-color: var(--accent);
-		background: color-mix(in srgb, var(--accent) 14%, var(--card-bg));
+		background: color-mix(in srgb, var(--accent) 14%, var(--surface));
 		transform: scale(1.12);
 	}
 
+	/* "has exercises" marker: the glyph alone in the accent colour, tucked
+	   inside the card's own corner. The filled disc it used to sit in read
+	   as a notification badge and drew more attention than the topic
+	   number it was decorating. */
 	.filmstrip-card-exercise {
 		position: absolute;
-		top: -0.35rem;
-		right: -0.35rem;
-		width: 1.1rem;
-		height: 1.1rem;
+		top: 0.15rem;
+		right: 0.2rem;
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		font-size: 0.6rem;
-		border-radius: 50%;
-		background: var(--accent);
-		color: var(--bg);
+		color: var(--accent);
 	}
 
 	.filmstrip-divider {
@@ -389,8 +388,6 @@ const { subject, items, currentIndex } = Astro.props;
 		writing-mode: vertical-rl;
 		transform: rotate(180deg);
 		font-size: 0.62rem;
-		text-transform: uppercase;
-		letter-spacing: 0.05em;
 		color: var(--muted);
 		white-space: nowrap;
 	}
