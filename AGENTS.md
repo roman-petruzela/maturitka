@@ -21,6 +21,21 @@ rm -rf dist node_modules/.astro node_modules/.vite .astro
 npm run build    # or: astro dev --background
 ```
 
+## Versioning
+
+`package.json`'s `version` is rendered in the site footer (`BaseLayout.astro` imports it
+directly), so it is the visible build marker rather than an npm publishing detail.
+
+**Bump it in the same commit as every user-visible change.** Nothing enforces this
+automatically — no hook, no CI check — so it is on whoever makes the change:
+
+- patch (`0.2.0` → `0.2.1`) — content fixes, copy edits, single-topic additions
+- minor (`0.2.0` → `0.3.0`) — new pages, layout or design changes, new subjects
+- major — reserved for a full rebuild
+
+Keep `package-lock.json`'s two top-level `"version"` fields in step, or the next
+`npm install` will rewrite them as a stray diff.
+
 ## Content ordering & labels
 
 Subject and topic-group order/labels are NOT hardcoded in TypeScript (there's no
