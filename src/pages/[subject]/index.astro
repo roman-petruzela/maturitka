@@ -1,6 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import Icon from '../../components/Icon.astro';
+import TopicRow from '../../components/TopicRow.astro';
 import { SUBJECTS, SUBJECT_KEYS, type SubjectKey } from '../../lib/subjects';
 import { cleanId, groupLabel, groupOfId, sortEntriesByOrder, sortGroupKeys } from '../../lib/groups';
 import { getCollection } from 'astro:content';
@@ -23,16 +23,39 @@ const sortEntries = sortEntriesByOrder<(typeof entries)[number]>;
 
 const orderedGroupKeys = sortGroupKeys(subject, [...groups.keys()]);
 const namedGroupKeys = orderedGroupKeys.filter((g): g is string => g !== null);
+
+// Seven of the twelve subjects keep every topic in one flat, numbered run
+// (no category folders at all). Those get a single list flowed into
+// balanced columns; the rest get a grid of per-category blocks.
+const isFlat = orderedGroupKeys.length === 1 && orderedGroupKeys[0] === null;
+
+// Czech needs three number forms: 1 téma / 2–4 témata / 5+ témat.
+const plural = (n: number, one: string, few: string, many: string) =>
+	n === 1 ? one : n >= 2 && n <= 4 ? few : many;
 ---
 
-<BaseLayout title={SUBJECTS[subject].label} description={SUBJECTS[subject].description} activeSubject={subject}>
-	<p class="eyebrow"><a class="back-link" href="/">← Předměty</a></p>
-	<h1>{SUBJECTS[subject].label}</h1>
-	<p>{SUBJECTS[subject].description}</p>
+<BaseLayout
+	title={SUBJECTS[subject].label}
+	description={SUBJECTS[subject].description}
+	activeSubject={subject}
+	layout="index"
+>
+	<p class="crumb"><a href="/">← Zpět na předměty</a></p>
+	<div class="subject-head">
+		<h1>{SUBJECTS[subject].label}</h1>
+		<p>{SUBJECTS[subject].description}</p>
+		<p class="subject-head-tally">
+			{entries.length}&nbsp;{plural(entries.length, 'téma', 'témata', 'témat')}
+			{
+				namedGroupKeys.length > 0 &&
+					` ve ${namedGroupKeys.length} ${plural(namedGroupKeys.length, 'kategorii', 'kategoriích', 'kategoriích')}`
+			}
+		</p>
+	</div>
 
 	{
-		namedGroupKeys.length > 6 && (
-			<nav class="group-jump" aria-label="Rychlá navigace na kategorii">
+		namedGroupKeys.length >= 3 && (
+			<nav class="group-jump" aria-label="Kategorie předmětu">
 				{namedGroupKeys.map((g) => (
 					<a href={`#${g}`}>{groupLabel(subject, g)}</a>
 				))}
@@ -41,41 +64,40 @@ const namedGroupKeys = orderedGroupKeys.filter((g): g is string => g !== null);
 	}
 
 	{
-		orderedGroupKeys.map((g) => (
-			<>
-				{g && (
-					<p class="topic-group-title" id={g}>
-						{groupLabel(subject, g)}
-					</p>
-				)}
-				<ul class="topic-list">
-					{sortEntries(groups.get(g)!).map((entry) => (
-						<li>
-							<a href={`/${subject}/${cleanId(entry.id)}/`}>
-								{entry.data.order != null && <span class="num">{entry.data.order}.</span>}
-								<span>{entry.data.title}</span>
-								<span class="badge-group">
-									{entry.data.hasExercises && (
-										<span class="exercise-badge" title="Obsahuje úlohy na výpočet">
-											<Icon name="pencil" size={13} />
-										</span>
-									)}
-									{entry.data.tags?.includes('doplněno') && (
-										<span class="mini-badge" title="Doplněný obsah, není z archivu podkladů">
-											doplněno
-										</span>
-									)}
-									{entry.data.tags?.includes('mimo-seznam-cetby') && (
-										<span class="mini-badge" title="Není na aktuálním školním seznamu četby k maturitě">
-											mimo seznam četby
-										</span>
-									)}
-								</span>
-							</a>
-						</li>
-					))}
-				</ul>
-			</>
-		))
+		isFlat ? (
+			<ul class="topic-list topic-list--flat">
+				{sortEntries(groups.get(null)!).map((entry) => (
+					<TopicRow
+						href={`/${subject}/${cleanId(entry.id)}/`}
+						title={entry.data.title}
+						order={entry.data.order}
+						hasExercises={entry.data.hasExercises}
+						tags={entry.data.tags}
+					/>
+				))}
+			</ul>
+		) : (
+			<div class="group-grid">
+				{orderedGroupKeys.map((g) => (
+					<section class="group-block">
+						<h2 class="group-block-head" id={g ?? undefined}>
+							<span class="group-block-title">{g ? groupLabel(subject, g) : 'Ostatní témata'}</span>
+							<span class="group-block-count">{groups.get(g)!.length}</span>
+						</h2>
+						<ul class="topic-list">
+							{sortEntries(groups.get(g)!).map((entry) => (
+								<TopicRow
+									href={`/${subject}/${cleanId(entry.id)}/`}
+									title={entry.data.title}
+									order={entry.data.order}
+									hasExercises={entry.data.hasExercises}
+									tags={entry.data.tags}
+								/>
+							))}
+						</ul>
+					</section>
+				))}
+			</div>
+		)
 	}
 </BaseLayout>
