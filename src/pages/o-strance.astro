@@ -1,0 +1,78 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { SUBJECT_KEYS } from '../lib/subjects';
+import { getCollection } from 'astro:content';
+
+let total = 0;
+for (const key of SUBJECT_KEYS) {
+	total += (await getCollection(key)).length;
+}
+---
+
+<BaseLayout
+	title="O stránce"
+	description="Co je MATURITKA, z čeho archiv vznikl a jak s materiály pracovat."
+>
+	<p class="crumb"><a href="/">← Zpět na předměty</a></p>
+	<h1>O stránce</h1>
+
+	<p>
+		MATURITKA je archiv studijních materiálů k maturitě — {total} témat ve {SUBJECT_KEYS.length} předmětech,
+		přepsaných ze školních podkladů do podoby, která se dá číst v prohlížeči.
+	</p>
+
+	<h2>Proč vznikla</h2>
+	<p>
+		Podklady k maturitě existovaly jako hromada souborů: prezentace, skenované PDF, dokumenty
+		ve Wordu. Každý v jiném formátu, řada z nich špatně čitelná, nedaly se prohledávat a na
+		telefonu se v nich nedalo učit vůbec. Tahle stránka je sbírá na jedno místo, převádí do
+		jednotného textu a řadí podle předmětů a okruhů, aby se v nich dalo hledat a číst.
+	</p>
+	<p>
+		Převod není jen kopírování. Vzorce jsou přepsané do LaTeXu, grafy a geometrické obrázky se
+		vykreslují znovu, a tam, kde se v původním souboru něco nedochovalo, je to v textu
+		označené — místo aby se mezera tiše zalepila.
+	</p>
+
+	<h2>Odkud materiály pocházejí</h2>
+	<p>
+		Většina obsahu vychází z archivu školních podkladů; u každého tématu je dole uvedený zdrojový
+		soubor, ze kterého vznikl. Část témat v archivu chyběla a byla dopsána podle ŠVP — ta jsou
+		označená odznakem <span class="mini-badge">doplněno</span>. U doplněného obsahu si ověř, že
+		odpovídá tomu, co se probíralo ve tvé třídě.
+	</p>
+	<p>
+		U rozborů knih se navíc objevuje odznak <span class="mini-badge">mimo seznam četby</span>.
+		Takové dílo není na aktuálním školním seznamu četby k maturitní zkoušce a je tu jen jako
+		doplněk.
+	</p>
+
+	<h2>Jak to používat</h2>
+	<ul>
+		<li>Předmět otevřeš z přehledu na úvodní stránce, kategorii pak z lišty nahoře.</li>
+		<li>
+			V tématu máš vlevo rejstřík celého předmětu, vpravo obsah článku, sousední témata
+			a u matematiky i klíčové vzorce.
+		</li>
+		<li>
+			Odznak <span class="mini-badge">úlohy</span> značí téma s příklady na procvičení. U matematiky
+			je pod článkem pracovní plocha, do které se dá počítat myší nebo perem.
+		</li>
+		<li>Řešení příkladů jsou schovaná — odkryješ je kliknutím.</li>
+		<li>Stránky jsou připravené i na tisk, chrom kolem textu se při tisku vynechá.</li>
+	</ul>
+
+	<h2>Licence a zdrojový kód</h2>
+	<p>
+		Obsah i kód jsou pod licencí <a href="/licence/">CC BY-NC-SA 4.0</a> — smíš je sdílet
+		i upravovat, nekomerčně a se zachováním licence. Celý web včetně obsahu je na
+		<a href="https://github.com/roman-petruzela/maturitka" target="_blank" rel="noopener noreferrer">GitHubu</a>;
+		když najdeš chybu, dá se nahlásit nebo rovnou opravit tam.
+	</p>
+
+	<h2>Upozornění</h2>
+	<p>
+		Materiály jsou studijní pomůcka, ne oficiální zdroj. Za to, co se u maturity vyžaduje, ručí
+		škola a katalog požadavků — ne tenhle web.
+	</p>
+</BaseLayout>
