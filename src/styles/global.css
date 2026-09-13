@@ -182,6 +182,11 @@ h1, h2, h3, h4 {
 
 h1 {
 	font-size: 1.9rem;
+	/* the browser default top margin (relative to h1's own larger font-size)
+	   made the gap above the heading noticeably bigger than the one below
+	   it, even though both sit right next to a single-line .eyebrow — zero
+	   it out so the eyebrow+heading reads as one tight unit */
+	margin-top: 0;
 	margin-bottom: 0.3rem;
 }
 
@@ -359,7 +364,13 @@ a {
 .topic-list .num {
 	color: var(--muted);
 	font-variant-numeric: tabular-nums;
-	min-width: 1.6rem;
+	/* fixed width + right alignment, not min-width — some groups mix
+	   single- and triple-digit order numbers (e.g. funkce-a-rovnice runs
+	   1–14 then jumps to 100–102), and a min-width left-aligned box grows
+	   with the widest number, knocking every shorter row's title out of
+	   alignment with the rest of the list */
+	width: 2.3rem;
+	text-align: right;
 }
 
 .topic-group-title {
@@ -806,6 +817,10 @@ article.topic li::marker {
 	float: right;
 	width: 1.2rem;
 	height: 1.2rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0;
 	line-height: 1;
 	border: none;
 	border-radius: 50%;
