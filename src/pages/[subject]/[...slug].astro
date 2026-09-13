@@ -2,6 +2,8 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import MathScratchpad from '../../components/MathScratchpad.astro';
 import TopicFilmstrip from '../../components/TopicFilmstrip.astro';
+import SubjectRail from '../../components/SubjectRail.astro';
+import ArticleAside from '../../components/ArticleAside.astro';
 import { SUBJECTS, SUBJECT_KEYS, type SubjectKey } from '../../lib/subjects';
 import { cleanId, groupLabel, groupOfId, sortEntriesByOrder, sortGroupKeys } from '../../lib/groups';
 import { getCollection, render } from 'astro:content';
@@ -38,8 +40,9 @@ export async function getStaticPaths() {
 		}
 
 		// flat, subject-wide reading order (same grouping/sorting as the
-		// index page) — used to drive the filmstrip picker across every
-		// category, not just the current one
+		// index page) — used to drive both the filmstrip picker and the
+		// left rail's subject index, across every category, not just the
+		// current one
 		const orderedGroupKeys = sortGroupKeys(subject, [...groups.keys()]);
 		const flat: { entry: Entry; group: string | null }[] = [];
 		for (const g of orderedGroupKeys) {
@@ -84,59 +87,107 @@ const { entry, subject, prev, next, filmstrip, filmstripIndex } = Astro.props as
 	filmstrip: FilmstripItem[];
 	filmstripIndex: number;
 };
-const { Content } = await render(entry);
+const { Content, headings } = await render(entry);
+
+// Estimated reading time, measured on the Markdown source rather than the
+// rendered page so it can be computed at build time. Fenced diagram blocks
+// and LaTeX are dropped first — a ```graph block is a hundred characters of
+// config that renders as a picture, and counting it as prose would roughly
+// double the estimate on maths topics. 180 wpm rather than the usual 230:
+// this is dense study material, not an article you skim.
+function readingMinutes(body: string): number {
+	const prose = body
+		.replace(/```[\s\S]*?```/g, ' ')
+		.replace(/\$\$[\s\S]*?\$\$/g, ' ')
+		.replace(/\$[^$\n]*\$/g, ' ')
+		.replace(/!?\[([^\]]*)\]\([^)]*\)/g, '$1')
+		.replace(/<[^>]+>/g, ' ')
+		.replace(/[#>*_`|~]/g, ' ');
+	const words = prose.split(/\s+/).filter(Boolean).length;
+	return Math.max(1, Math.round(words / 180));
+}
+
+const minutes = readingMinutes(entry.body ?? '');
+const group = groupOfId(entry.id);
+const categoryLabel = group ? groupLabel(subject, group) : undefined;
+const currentId = cleanId(entry.id);
+const hasFormulas = /\$\$[\s\S]*?\$\$/.test(entry.body ?? '');
+
+// Heading anchors are only useful to the table of contents if they exist;
+// a leading heading that just repeats the page title would give the rail a
+// redundant first row, so it's dropped.
+const normalized = (s: string) => s.trim().toLowerCase().replace(/\s+/g, ' ');
+const tocHeadings = headings.filter(
+	(h, i) => !(i === 0 && normalized(h.text) === normalized(entry.data.title))
+);
 ---
 
 <BaseLayout
 	title={entry.data.title}
 	description={`${entry.data.title} — ${SUBJECTS[subject].label}, učební materiál k maturitě.`}
 	activeSubject={subject}
-	wide
+	layout="reading"
 >
-	<p class="eyebrow">
-		<a class="back-link" href={`/${subject}/`}>← {SUBJECTS[subject].label}</a>
-	</p>
-	<h1>{entry.data.title}</h1>
-	{
-		entry.data.tags?.includes('doplněno') && (
-			<p class="doplneno-badge">
-				Doplněný obsah — není z archivu podkladů, napsáno podle ŠVP. Vhodné ověřit u vyučujícího.
+	<div class="reading-shell">
+		<SubjectRail
+			subject={subject}
+			subjectLabel={SUBJECTS[subject].label}
+			items={filmstrip}
+			currentId={currentId}
+		/>
+
+		<div class="reading-column">
+			<p class="crumb">
+				<a href={`/${subject}/`}>← Zpět na {SUBJECTS[subject].label.toLowerCase()}</a>
 			</p>
-		)
-	}
-	{
-		entry.data.tags?.includes('mimo-seznam-cetby') && (
-			<p class="doplneno-badge">
-				Toto dílo není na aktuálním školním seznamu četby k maturitě — rozbor je tu jen jako doplněk.
-			</p>
-		)
-	}
-	<article class="topic">
-		<Content />
-	</article>
-	{subject === 'mat' && <MathScratchpad />}
-	{
-		entry.data.source && (
-			<p class="source-note">Zdroj: {entry.data.source}</p>
-		)
-	}
-	{
-		(prev || next) && (
-			<nav class="topic-pager">
-				{prev ? (
-					<a class="topic-pager-prev" href={`/${subject}/${cleanId(prev.id)}/`}>
-						← {prev.data.title}
-					</a>
-				) : (
-					<span />
-				)}
-				<TopicFilmstrip subject={subject} items={filmstrip} currentIndex={filmstripIndex} />
-				{next && (
-					<a class="topic-pager-next" href={`/${subject}/${cleanId(next.id)}/`}>
-						{next.data.title} →
-					</a>
-				)}
-			</nav>
-		)
-	}
+			<div class="topic-head">
+				<h1>{entry.data.title}</h1>
+			</div>
+			{
+				entry.data.tags?.includes('doplněno') && (
+					<p class="topic-notice">
+						Doplněný obsah — není z archivu podkladů, napsáno podle ŠVP. Vhodné ověřit u vyučujícího.
+					</p>
+				)
+			}
+			{
+				entry.data.tags?.includes('mimo-seznam-cetby') && (
+					<p class="topic-notice">
+						Toto dílo není na aktuálním školním seznamu četby k maturitě — rozbor je tu jen jako doplněk.
+					</p>
+				)
+			}
+			<article class="topic">
+				<Content />
+			</article>
+			{subject === 'mat' && <MathScratchpad />}
+			{entry.data.source && <p class="source-note">Zdroj: {entry.data.source}</p>}
+			{
+				(prev || next) && (
+					<nav class="topic-pager" aria-label="Předchozí a další téma">
+						{prev ? (
+							<a class="topic-pager-prev" href={`/${subject}/${cleanId(prev.id)}/`}>
+								← {prev.data.title}
+							</a>
+						) : (
+							<span />
+						)}
+						<TopicFilmstrip subject={subject} items={filmstrip} currentIndex={filmstripIndex} />
+						{next && (
+							<a class="topic-pager-next" href={`/${subject}/${cleanId(next.id)}/`}>
+								{next.data.title} →
+							</a>
+						)}
+					</nav>
+				)
+			}
+		</div>
+
+		<ArticleAside
+			headings={tocHeadings}
+			minutes={minutes}
+			categoryLabel={categoryLabel}
+			hasFormulas={hasFormulas}
+		/>
+	</div>
 </BaseLayout>

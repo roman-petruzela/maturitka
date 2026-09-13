@@ -1,0 +1,58 @@
+---
+import type { SubjectKey } from '../lib/subjects';
+import type { FilmstripItem } from '../pages/[subject]/[...slug].astro';
+
+interface Props {
+	subject: SubjectKey;
+	subjectLabel: string;
+	items: FilmstripItem[];
+	currentId: string;
+}
+
+const { subject, subjectLabel, items, currentId } = Astro.props;
+
+// The flat, subject-wide reading order is already grouped and sorted by the
+// page's getStaticPaths (it's the same list the filmstrip picker runs on) —
+// this only re-segments it into consecutive category runs for display, so
+// the rail can never disagree with the order you page through.
+type Section = { key: string | null; label: string; items: FilmstripItem[] };
+const sections: Section[] = [];
+for (const item of items) {
+	const last = sections[sections.length - 1];
+	if (last && last.key === item.group) last.items.push(item);
+	else sections.push({ key: item.group, label: item.groupLabel, items: [item] });
+}
+---
+
+<aside class="rail rail-nav" data-subject-rail>
+	<button class="rail-toggle" type="button" data-rail-toggle aria-expanded="false">
+		<span>Navigace předmětu</span>
+		<span class="rail-toggle-mark" aria-hidden="true">›</span>
+	</button>
+	<div class="rail-body">
+		<p class="rail-title panel-label">Navigace předmětu</p>
+		<nav class="rail-tree" aria-label={`Témata předmětu ${subjectLabel}`}>
+			{
+				sections.map((section) => (
+					<div class="rail-tree-group">
+						{section.key && <p class="rail-tree-group-label">{section.label}</p>}
+						<ul class="rail-tree-items">
+							{section.items.map((item, i) => (
+								<li>
+									<a
+										href={`/${subject}/${item.id}/`}
+										class={item.id === currentId ? 'is-current' : ''}
+										aria-current={item.id === currentId ? 'page' : undefined}
+									>
+										<span class="rail-tree-num">{item.order ?? i + 1}</span>
+										<span>{item.title}</span>
+									</a>
+								</li>
+							))}
+						</ul>
+					</div>
+				))
+			}
+		</nav>
+	</div>
+</aside>

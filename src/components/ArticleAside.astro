@@ -1,0 +1,69 @@
+---
+import type { MarkdownHeading } from 'astro';
+
+interface Props {
+	headings: MarkdownHeading[];
+	minutes: number;
+	categoryLabel?: string;
+	/** true when the article contains display math worth digesting into the rail */
+	hasFormulas: boolean;
+}
+
+const { headings, minutes, categoryLabel, hasFormulas } = Astro.props;
+
+// Source documents disagree about where their heading hierarchy starts:
+// some open at "#", most at "##". Rebasing on the shallowest level actually
+// present keeps the rail's indentation meaningful either way.
+const shown = headings.filter((h) => h.depth <= 3 && h.text.trim() !== '');
+const base = shown.length ? Math.min(...shown.map((h) => h.depth)) : 1;
+---
+
+<aside class="rail rail-aside">
+	{/* Reading time sits outside the collapsible part: on a phone it's the
+	    one thing worth seeing before you decide to start reading, and it's
+	    two rows, so hiding it behind a tap would be a worse trade. */}
+	<dl class="rail-meta">
+		<div>
+			<dt>Doba čtení</dt>
+			<dd>{minutes} min</dd>
+		</div>
+		{
+			categoryLabel && (
+				<div>
+					<dt>Kategorie</dt>
+					<dd>{categoryLabel}</dd>
+				</div>
+			)
+		}
+	</dl>
+
+	<button class="rail-toggle" type="button" data-rail-toggle aria-expanded="false">
+		<span>Obsah článku</span>
+		<span class="rail-toggle-mark" aria-hidden="true">›</span>
+	</button>
+	<div class="rail-body">
+		{
+			shown.length > 0 && (
+				<section class="rail-section">
+					<p class="rail-title panel-label">Obsah článku</p>
+					<ul class="rail-toc" data-toc>
+						{shown.map((h) => (
+							<li class={`toc-depth-${Math.min(h.depth - base + 2, 3)}`}>
+								<a href={`#${h.slug}`}>{h.text}</a>
+							</li>
+						))}
+					</ul>
+				</section>
+			)
+		}
+
+		{
+			hasFormulas && (
+				<section class="rail-section">
+					<p class="panel-label">Klíčové vzorce</p>
+					<ul class="rail-formulas" data-formulas />
+				</section>
+			)
+		}
+	</div>
+</aside>
