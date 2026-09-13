@@ -1,7 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import MathScratchpad from '../../components/MathScratchpad.astro';
-import TopicFilmstrip from '../../components/TopicFilmstrip.astro';
 import SubjectRail from '../../components/SubjectRail.astro';
 import ArticleAside from '../../components/ArticleAside.astro';
 import { SUBJECTS, SUBJECT_KEYS, type SubjectKey } from '../../lib/subjects';
@@ -9,7 +8,7 @@ import { cleanId, groupLabel, groupOfId, sortEntriesByOrder, sortGroupKeys } fro
 import { getCollection, render } from 'astro:content';
 
 type Entry = Awaited<ReturnType<typeof getCollection<SubjectKey>>>[number];
-export type FilmstripItem = {
+export type TopicItem = {
 	id: string;
 	title: string;
 	order: number | null;
@@ -26,8 +25,7 @@ export async function getStaticPaths() {
 			subject: SubjectKey;
 			prev: Entry | null;
 			next: Entry | null;
-			filmstrip: FilmstripItem[];
-			filmstripIndex: number;
+			topics: TopicItem[];
 		};
 	}[] = [];
 	for (const subject of SUBJECT_KEYS) {
@@ -40,9 +38,8 @@ export async function getStaticPaths() {
 		}
 
 		// flat, subject-wide reading order (same grouping/sorting as the
-		// index page) — used to drive both the filmstrip picker and the
-		// left rail's subject index, across every category, not just the
-		// current one
+		// index page) — drives the left rail's subject index across every
+		// category, not just the current one
 		const orderedGroupKeys = sortGroupKeys(subject, [...groups.keys()]);
 		const flat: { entry: Entry; group: string | null }[] = [];
 		for (const g of orderedGroupKeys) {
@@ -50,7 +47,7 @@ export async function getStaticPaths() {
 				flat.push({ entry, group: g });
 			}
 		}
-		const filmstrip: FilmstripItem[] = flat.map(({ entry, group }) => ({
+		const topics: TopicItem[] = flat.map(({ entry, group }) => ({
 			id: cleanId(entry.id),
 			title: entry.data.title,
 			order: entry.data.order ?? null,
@@ -69,8 +66,7 @@ export async function getStaticPaths() {
 						subject,
 						prev: sorted[i - 1] ?? null,
 						next: sorted[i + 1] ?? null,
-						filmstrip,
-						filmstripIndex: flat.findIndex((f) => f.entry.id === entry.id),
+						topics,
 					},
 				});
 			});
@@ -79,35 +75,15 @@ export async function getStaticPaths() {
 	return paths;
 }
 
-const { entry, subject, prev, next, filmstrip, filmstripIndex } = Astro.props as {
+const { entry, subject, prev, next, topics } = Astro.props as {
 	entry: Entry;
 	subject: SubjectKey;
 	prev: Entry | null;
 	next: Entry | null;
-	filmstrip: FilmstripItem[];
-	filmstripIndex: number;
+	topics: TopicItem[];
 };
 const { Content, headings } = await render(entry);
 
-// Estimated reading time, measured on the Markdown source rather than the
-// rendered page so it can be computed at build time. Fenced diagram blocks
-// and LaTeX are dropped first — a ```graph block is a hundred characters of
-// config that renders as a picture, and counting it as prose would roughly
-// double the estimate on maths topics. 180 wpm rather than the usual 230:
-// this is dense study material, not an article you skim.
-function readingMinutes(body: string): number {
-	const prose = body
-		.replace(/```[\s\S]*?```/g, ' ')
-		.replace(/\$\$[\s\S]*?\$\$/g, ' ')
-		.replace(/\$[^$\n]*\$/g, ' ')
-		.replace(/!?\[([^\]]*)\]\([^)]*\)/g, '$1')
-		.replace(/<[^>]+>/g, ' ')
-		.replace(/[#>*_`|~]/g, ' ');
-	const words = prose.split(/\s+/).filter(Boolean).length;
-	return Math.max(1, Math.round(words / 180));
-}
-
-const minutes = readingMinutes(entry.body ?? '');
 const group = groupOfId(entry.id);
 const categoryLabel = group ? groupLabel(subject, group) : undefined;
 const currentId = cleanId(entry.id);
@@ -132,7 +108,7 @@ const tocHeadings = headings.filter(
 		<SubjectRail
 			subject={subject}
 			subjectLabel={SUBJECTS[subject].label}
-			items={filmstrip}
+			items={topics}
 			currentId={currentId}
 		/>
 
@@ -167,15 +143,16 @@ const tocHeadings = headings.filter(
 					<nav class="topic-pager" aria-label="Předchozí a další téma">
 						{prev ? (
 							<a class="topic-pager-prev" href={`/${subject}/${cleanId(prev.id)}/`}>
-								← {prev.data.title}
+								<span class="topic-pager-label">Předchozí</span>
+								<span class="topic-pager-title">← {prev.data.title}</span>
 							</a>
 						) : (
 							<span />
 						)}
-						<TopicFilmstrip subject={subject} items={filmstrip} currentIndex={filmstripIndex} />
 						{next && (
 							<a class="topic-pager-next" href={`/${subject}/${cleanId(next.id)}/`}>
-								{next.data.title} →
+								<span class="topic-pager-label">Další</span>
+								<span class="topic-pager-title">{next.data.title} →</span>
 							</a>
 						)}
 					</nav>
@@ -185,8 +162,11 @@ const tocHeadings = headings.filter(
 
 		<ArticleAside
 			headings={tocHeadings}
-			minutes={minutes}
 			categoryLabel={categoryLabel}
+			tags={entry.data.tags ?? []}
+			hasExercises={entry.data.hasExercises ?? false}
+			prev={prev ? { href: `/${subject}/${cleanId(prev.id)}/`, title: prev.data.title } : null}
+			next={next ? { href: `/${subject}/${cleanId(next.id)}/`, title: next.data.title } : null}
 			hasFormulas={hasFormulas}
 		/>
 	</div>
