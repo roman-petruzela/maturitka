@@ -2,19 +2,18 @@
 // Small monochrome line-icon set (stroke=currentColor, no fill) replacing
 // the emoji used around the site — picks up the surrounding text color
 // automatically, same weight/style across all of them.
-export type IconName = 'pencil' | 'eraser' | 'clipboard' | 'expand' | 'keyboard' | 'trash' | 'archive';
+export type IconName = 'pencil' | 'eraser' | 'clipboard' | 'expand' | 'keyboard' | 'trash';
 
 interface Props {
 	name: IconName;
 	size?: number;
-	class?: string;
 }
 
-const { name, size = 18, class: className } = Astro.props;
+const { name, size = 18 } = Astro.props;
 ---
 
 <svg
-	class:list={['icon', className]}
+	class="icon"
 	width={size}
 	height={size}
 	viewBox="0 0 24 24"
@@ -74,15 +73,6 @@ const { name, size = 18, class: className } = Astro.props;
 				<path d="M15 10 H15.01" />
 				<path d="M18 10 H18.01" />
 				<path d="M7 14 H17" />
-			</>
-		)
-	}
-	{
-		name === 'archive' && (
-			<>
-				<rect x="3" y="4" width="18" height="4" rx="1.2" />
-				<path d="M5 8 V18.5 A1.5 1.5 0 0 0 6.5 20 H17.5 A1.5 1.5 0 0 0 19 18.5 V8" />
-				<path d="M10 12.5 H14" />
 			</>
 		)
 	}

@@ -14,25 +14,21 @@ const total = Object.values(counts).reduce((sum, n) => sum + n, 0);
 	title="Přehled předmětů"
 	description={`Přehledně poskládaný učební materiál z archivu maturitních podkladů — ${total} témat napříč ${SUBJECT_KEYS.length} předměty.`}
 >
+	<p class="eyebrow">Učební materiál k maturitě</p>
 	<h1>MATURITKA</h1>
 	<p>
 		Přehledně poskládaný učební materiál z archivu maturitních podkladů — {total} témat
 		napříč {SUBJECT_KEYS.length} předměty, další budou přibývat.
 	</p>
-	<ol class="record-list">
+	<div class="subject-grid">
 		{
-			SUBJECT_KEYS.map((key, i) => (
-				<li>
-					<a class="record" href={`/${key}/`}>
-						<span class="record-num">{String(i + 1).padStart(2, '0')}</span>
-						<div class="record-body">
-							<h2 class="record-title">{SUBJECTS[key].label}</h2>
-							<span class="record-desc">{SUBJECTS[key].description}</span>
-						</div>
-						<span class="record-count">{counts[key]} témat</span>
-					</a>
-				</li>
+			SUBJECT_KEYS.map((key) => (
+				<a class="subject-card" href={`/${key}/`}>
+					<span class="eyebrow">{counts[key]} témat</span>
+					<h2>{SUBJECTS[key].label}</h2>
+					<p>{SUBJECTS[key].description}</p>
+				</a>
 			))
 		}
-	</ol>
+	</div>
 </BaseLayout>

@@ -93,8 +93,8 @@ const { Content } = await render(entry);
 	activeSubject={subject}
 	wide
 >
-	<p class="breadcrumb">
-		<a href={`/${subject}/`}>← {SUBJECTS[subject].label}</a>
+	<p class="eyebrow">
+		<a class="back-link" href={`/${subject}/`}>← {SUBJECTS[subject].label}</a>
 	</p>
 	<h1>{entry.data.title}</h1>
 	{
