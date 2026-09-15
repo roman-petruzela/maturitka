@@ -1914,6 +1914,42 @@ article.topic tbody tr:hover {
 	color: var(--accent);
 }
 
+/* Result rows in SearchDialog.astro — also document.createElement, same
+   reasoning as the whiteboard notes above for living here instead of that
+   component's own scoped <style>. */
+.search-result {
+	border-radius: 2px;
+}
+
+.search-result a {
+	display: flex;
+	flex-direction: column;
+	gap: 0.15rem;
+	padding: 0.55rem 0.65rem;
+	color: var(--fg);
+	text-decoration: none;
+}
+
+.search-result-title {
+	font-family: var(--sans);
+	font-size: 0.95rem;
+	line-height: 1.4;
+}
+
+.search-result-meta {
+	font-family: var(--sans);
+	font-size: var(--t-xs);
+	color: var(--muted);
+}
+
+.search-result.is-active {
+	background: var(--surface);
+}
+
+.search-result.is-active .search-result-title {
+	color: var(--accent);
+}
+
 /* ─────────────────────────────────────────────────────────────────────────
    TISK
    Study material is meant to be printed and read on paper, so drop

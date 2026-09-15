@@ -1,0 +1,408 @@
+---
+import Icon from './Icon.astro';
+---
+
+<button type="button" class="search-trigger" data-search-open aria-haspopup="dialog">
+	<Icon name="search" size={15} />
+	<span class="search-trigger-label">Hledat</span>
+	<kbd class="search-trigger-key">/</kbd>
+</button>
+
+<dialog class="search-dialog" data-search-dialog aria-label="Hledat téma" aria-modal="true">
+	<div class="search-dialog-inner">
+		<div class="search-field">
+			<Icon name="search" size={16} />
+			<input
+				type="text"
+				class="search-input"
+				data-search-input
+				role="combobox"
+				aria-expanded="true"
+				aria-controls="search-results"
+				aria-autocomplete="list"
+				placeholder="Hledat téma…"
+				autocomplete="off"
+				spellcheck="false"
+				aria-label="Hledat téma"
+			/>
+			<button type="button" class="search-close" data-search-close aria-label="Zavřít hledání">
+				<Icon name="close" size={15} />
+			</button>
+		</div>
+		<p class="search-status" data-search-hint>Piš název tématu, předmětu nebo kategorie — diakritika není potřeba.</p>
+		<p class="search-status" data-search-loading hidden>Načítám rejstřík…</p>
+		<p class="search-status" data-search-empty hidden>Nic jsme nenašli. Zkus jiné slovo.</p>
+		<ul class="search-results" id="search-results" data-search-results role="listbox" aria-label="Výsledky hledání"></ul>
+	</div>
+</dialog>
+
+<script>
+	interface SearchItem {
+		title: string;
+		url: string;
+		subject: string;
+		group: string | null;
+	}
+
+	function initSearch() {
+		const openBtn = document.querySelector<HTMLButtonElement>('[data-search-open]');
+		const dialog = document.querySelector<HTMLDialogElement>('[data-search-dialog]');
+		const closeBtn = document.querySelector<HTMLButtonElement>('[data-search-close]');
+		const input = document.querySelector<HTMLInputElement>('[data-search-input]');
+		const results = document.querySelector<HTMLUListElement>('[data-search-results]');
+		const hint = document.querySelector<HTMLElement>('[data-search-hint]');
+		const loading = document.querySelector<HTMLElement>('[data-search-loading]');
+		const empty = document.querySelector<HTMLElement>('[data-search-empty]');
+		if (!openBtn || !dialog || !closeBtn || !input || !results || !hint || !loading || !empty) return;
+
+		let items: SearchItem[] | null = null;
+		let indexPromise: Promise<void> | null = null;
+		let activeIndex = -1;
+		let lastFocused: HTMLElement | null = null;
+
+		function ensureIndexLoaded() {
+			if (!indexPromise) {
+				indexPromise = fetch('/search.json')
+					.then((r) => r.json())
+					.then((data: SearchItem[]) => {
+						items = data;
+						renderResults(input!.value);
+					})
+					.catch(() => {
+						// offline or the request failed — leave items null so
+						// renderResults keeps showing the loading line rather
+						// than silently pretending there are zero results
+						indexPromise = null;
+					});
+			}
+			return indexPromise;
+		}
+
+		// Strips combining diacritical marks after NFD decomposition, which
+		// folds nearly every Czech accented letter (ř → r, é → e, ů → u, …)
+		// onto its plain ASCII base — so searching without hačky/čárky
+		// (the common case on a non-Czech keyboard layout) still matches.
+		function normalize(s: string): string {
+			return s
+				.normalize('NFD')
+				.replace(/[\u0300-\u036f]/g, '')
+				.toLowerCase();
+		}
+
+		const WORD_BOUNDARY = /[\s\-–—,.:;()/]/;
+
+		// Prefix match ranks highest, a match right after a word boundary
+		// (e.g. the second word of a title) next, a mid-word substring last;
+		// -1 means "does not match" and excludes the item entirely.
+		function matchScore(queryNorm: string, haystack: string | null): number {
+			if (!haystack) return -1;
+			const hn = normalize(haystack);
+			const idx = hn.indexOf(queryNorm);
+			if (idx === -1) return -1;
+			if (idx === 0) return 100;
+			if (WORD_BOUNDARY.test(hn[idx - 1])) return 70;
+			return 40;
+		}
+
+		function search(query: string): SearchItem[] {
+			const qn = normalize(query.trim());
+			if (!qn || !items) return [];
+			const scored: { item: SearchItem; score: number }[] = [];
+			for (const item of items) {
+				const titleScore = matchScore(qn, item.title);
+				// A category/subject-only match (title itself doesn't
+				// contain the query) still surfaces, just ranked below any
+				// title match — typing "planimetrie" should find its
+				// topics even though none of their titles say the word.
+				const context = [item.subject, item.group].filter(Boolean).join(' ');
+				const contextScore = matchScore(qn, context);
+				const score = titleScore >= 0 ? titleScore : contextScore >= 0 ? contextScore * 0.5 : -1;
+				if (score >= 0) scored.push({ item, score: score - item.title.length * 0.01 });
+			}
+			scored.sort((a, b) => b.score - a.score);
+			return scored.slice(0, 40).map((s) => s.item);
+		}
+
+		function setActive(index: number) {
+			const rows = results!.querySelectorAll<HTMLLIElement>('.search-result');
+			if (activeIndex >= 0 && rows[activeIndex]) rows[activeIndex].classList.remove('is-active');
+			activeIndex = index;
+			const row = rows[activeIndex];
+			if (row) {
+				row.classList.add('is-active');
+				input!.setAttribute('aria-activedescendant', row.id);
+				row.scrollIntoView({ block: 'nearest' });
+			} else {
+				input!.removeAttribute('aria-activedescendant');
+			}
+		}
+
+		function moveSelection(delta: number) {
+			const count = results!.querySelectorAll('.search-result').length;
+			if (!count) return;
+			setActive((activeIndex + delta + count) % count);
+		}
+
+		function activateSelection() {
+			const rows = results!.querySelectorAll<HTMLLIElement>('.search-result');
+			const row = rows[activeIndex] ?? rows[0];
+			const a = row?.querySelector('a');
+			if (a) location.href = a.href;
+		}
+
+		function renderResults(query: string) {
+			results!.innerHTML = '';
+			activeIndex = -1;
+			input!.removeAttribute('aria-activedescendant');
+
+			if (!items) {
+				hint!.hidden = true;
+				empty!.hidden = true;
+				loading!.hidden = false;
+				return;
+			}
+			loading!.hidden = true;
+
+			const q = query.trim();
+			if (!q) {
+				empty!.hidden = true;
+				hint!.hidden = false;
+				return;
+			}
+			hint!.hidden = true;
+
+			const matches = search(q);
+			if (matches.length === 0) {
+				empty!.hidden = false;
+				return;
+			}
+			empty!.hidden = true;
+
+			matches.forEach((item, i) => {
+				const li = document.createElement('li');
+				li.id = `search-result-${i}`;
+				li.className = 'search-result';
+				li.setAttribute('role', 'option');
+
+				const a = document.createElement('a');
+				a.href = item.url;
+
+				const title = document.createElement('span');
+				title.className = 'search-result-title';
+				title.textContent = item.title;
+
+				const meta = document.createElement('span');
+				meta.className = 'search-result-meta';
+				meta.textContent = [item.subject, item.group].filter(Boolean).join(' › ');
+
+				a.append(title, meta);
+				li.append(a);
+				li.addEventListener('mouseenter', () => setActive(i));
+				results!.appendChild(li);
+			});
+			setActive(0);
+		}
+
+		function openDialog() {
+			lastFocused = document.activeElement as HTMLElement | null;
+			if (!dialog!.open) dialog!.showModal();
+			input!.value = '';
+			ensureIndexLoaded();
+			renderResults('');
+			requestAnimationFrame(() => input!.focus());
+		}
+
+		openBtn.addEventListener('click', openDialog);
+		closeBtn.addEventListener('click', () => dialog!.close());
+
+		// Standard native-<dialog> "light dismiss": a click that lands on
+		// the ::backdrop bubbles a click event whose target is the <dialog>
+		// element itself (nothing else covers that area), so this can't
+		// misfire for a click on the actual dialog content.
+		dialog.addEventListener('click', (e) => {
+			if (e.target === dialog) dialog!.close();
+		});
+
+		dialog.addEventListener('close', () => {
+			lastFocused?.focus();
+		});
+
+		input.addEventListener('input', () => renderResults(input!.value));
+		input.addEventListener('keydown', (e) => {
+			if (e.key === 'ArrowDown') {
+				e.preventDefault();
+				moveSelection(1);
+			} else if (e.key === 'ArrowUp') {
+				e.preventDefault();
+				moveSelection(-1);
+			} else if (e.key === 'Enter') {
+				e.preventDefault();
+				activateSelection();
+			}
+		});
+
+		// Site-wide "/" shortcut, guarded against firing while the visitor
+		// is already typing somewhere else — including the maths
+		// scratchpad's <math-field> custom element, which behaves like a
+		// text input but isn't one.
+		document.addEventListener('keydown', (e) => {
+			if (e.key !== '/' || e.metaKey || e.ctrlKey || e.altKey || dialog!.open) return;
+			const target = e.target as HTMLElement | null;
+			const tag = target?.tagName;
+			if (tag === 'INPUT' || tag === 'TEXTAREA' || tag === 'SELECT' || tag === 'MATH-FIELD' || target?.isContentEditable) {
+				return;
+			}
+			e.preventDefault();
+			openDialog();
+		});
+	}
+
+	initSearch();
+</script>
+
+<style>
+	.search-trigger {
+		flex: 0 0 auto;
+		display: flex;
+		align-items: center;
+		gap: 0.45rem;
+		margin-left: 1.25rem;
+		padding: 0.4rem 0.65rem;
+		border: 1px solid var(--border);
+		border-radius: 2px;
+		background: none;
+		color: var(--muted);
+		font-family: var(--sans);
+		font-size: var(--t-sm);
+		cursor: pointer;
+		transition: border-color 0.15s ease, color 0.15s ease;
+	}
+
+	.search-trigger:hover,
+	.search-trigger:focus-visible {
+		color: var(--fg);
+		border-color: var(--border-strong);
+	}
+
+	.search-trigger-key {
+		font-family: var(--sans);
+		font-size: 0.72rem;
+		line-height: 1.3;
+		padding: 0 0.35rem;
+		border: 1px solid var(--border);
+		border-radius: 2px;
+		color: var(--muted);
+	}
+
+	@media (max-width: 640px) {
+		/* icon only — there's no physical "/" key affordance to advertise
+		   on a touch device, and the lone glyph without "Hledat" next to
+		   it read as an orphaned fragment rather than a shortcut hint */
+		.search-trigger-label,
+		.search-trigger-key {
+			display: none;
+		}
+		.search-trigger {
+			gap: 0;
+			margin-left: 0.75rem;
+			padding: 0.4rem;
+		}
+	}
+
+	/* ── Dialog shell ──────────────────────────────────────────────────
+	   Positioned toward the top rather than dead-center (a command
+	   palette, not a modal alert) — margin overrides the UA stylesheet's
+	   auto-centering on the vertical axis only. */
+	.search-dialog {
+		width: min(34rem, calc(100vw - 2rem));
+		margin: 12vh auto auto;
+		padding: 0;
+		border: 1px solid var(--border-strong);
+		border-radius: 0;
+		background: var(--surface-raised);
+		color: var(--fg);
+	}
+
+	.search-dialog::backdrop {
+		background: rgba(10, 8, 6, 0.72);
+	}
+
+	.search-dialog-inner {
+		display: flex;
+		flex-direction: column;
+		max-height: 70vh;
+	}
+
+	.search-field {
+		flex: 0 0 auto;
+		display: flex;
+		align-items: center;
+		gap: 0.6rem;
+		padding: 0.9rem 1rem;
+		border-bottom: 1px solid var(--border);
+		color: var(--muted);
+	}
+
+	.search-input {
+		flex: 1 1 auto;
+		min-width: 0;
+		background: none;
+		border: none;
+		color: var(--fg);
+		font-family: var(--sans);
+		font-size: 1.02rem;
+	}
+
+	.search-input:focus {
+		outline: none;
+	}
+
+	.search-input::placeholder {
+		color: var(--muted);
+	}
+
+	.search-close {
+		flex: 0 0 auto;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 1.6rem;
+		height: 1.6rem;
+		padding: 0;
+		border: none;
+		border-radius: 2px;
+		background: none;
+		color: var(--muted);
+		cursor: pointer;
+	}
+
+	.search-close:hover,
+	.search-close:focus-visible {
+		color: var(--fg);
+		background: var(--surface);
+	}
+
+	.search-status {
+		flex: 0 0 auto;
+		margin: 0;
+		padding: 1.1rem 1rem;
+		font-family: var(--sans);
+		font-size: var(--t-sm);
+		color: var(--muted);
+	}
+
+	/* flex: 1 1 auto + min-height: 0 is the actual pairing that makes this
+	   scroll — flex-grow alone still leaves a flex child sized to its
+	   content, so up to 40 results could push the dialog past the
+	   viewport instead of scrolling inside it. */
+	.search-results {
+		flex: 1 1 auto;
+		min-height: 0;
+		list-style: none;
+		margin: 0;
+		padding: 0.4rem;
+		overflow-y: auto;
+		scrollbar-width: thin;
+		scrollbar-color: var(--border-strong) transparent;
+	}
+</style>
