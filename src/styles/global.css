@@ -93,6 +93,68 @@ body {
 	}
 }
 
+/* ─────────────────────────────────────────────────────────────────────────
+   PŘECHODY MEZI STRÁNKAMI
+   Native cross-document View Transitions — opts every same-origin
+   navigation into a soft crossfade instead of the usual hard cut. This is
+   a real page load throughout (not a client-side router swap), so every
+   existing script on the site keeps running exactly as before; a browser
+   that doesn't support the feature just navigates normally, no fallback
+   code needed. One single, deliberately slow moment, not per-element
+   effects: everything below only touches the whole-page "root" pair, no
+   individual element opts into its own named transition.
+   ───────────────────────────────────────────────────────────────────── */
+@view-transition {
+	navigation: auto;
+}
+
+/* A plain opacity crossfade is what the browser gives you for free; this
+   adds a hair of depth on top of it — the departing page settles back and
+   fades, the arriving one eases in from just slightly larger — so a page
+   change reads as moving forward through the archive rather than one flat
+   image dissolving into another. Still small enough (1.5%) to be a texture,
+   not a zoom effect you consciously notice. */
+@keyframes maturitka-page-out {
+	to {
+		opacity: 0;
+		transform: scale(0.985);
+	}
+}
+
+@keyframes maturitka-page-in {
+	from {
+		opacity: 0;
+		transform: scale(1.015);
+	}
+}
+
+::view-transition-old(root) {
+	animation: 0.42s cubic-bezier(0.4, 0, 0.2, 1) both maturitka-page-out;
+}
+
+::view-transition-new(root) {
+	animation: 0.42s cubic-bezier(0.4, 0, 0.2, 1) both maturitka-page-in;
+}
+
+/* The morphing title (see .topic-head h1's view-transition-name) needs its
+   own, gentler treatment — the default UA cross-fade-and-resize is already
+   the effect wanted here, just slowed to match the page crossfade instead
+   of the browser's much snappier ~250ms default. */
+::view-transition-group(article-title) {
+	animation-duration: 0.42s;
+	animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* the blanket reduced-motion rule above can't reach these — they aren't
+   part of the normal DOM tree, so a plain `*` selector never matches them */
+@media (prefers-reduced-motion: reduce) {
+	::view-transition-group(*),
+	::view-transition-old(*),
+	::view-transition-new(*) {
+		animation: none !important;
+	}
+}
+
 a {
 	color: var(--accent);
 }
@@ -334,9 +396,23 @@ h1 {
 /* ─────────────────────────────────────────────────────────────────────────
    TITULNÍ STRANA — hlavička archivu + rejstřík předmětů
    ───────────────────────────────────────────────────────────────────── */
+
+/* The one deliberate page-load entrance on the whole site, reserved for the
+   front door: the title settles in, then the subject index follows a beat
+   behind it — two moves, not twelve. Each individual subject cell staying
+   out of this (no per-card stagger) is the point: a dozen cards fading up
+   one after another is the generic "AI template" tell this is avoiding. */
+@keyframes maturitka-rise-in {
+	from {
+		opacity: 0;
+		transform: translateY(0.6rem);
+	}
+}
+
 .masthead {
 	text-align: center;
 	padding: 1.5rem 0 0;
+	animation: maturitka-rise-in 0.5s cubic-bezier(0.16, 1, 0.3, 1) both;
 }
 
 .masthead h1 {
@@ -431,6 +507,10 @@ h1 {
 	gap: 1px;
 	background: var(--border);
 	border-top: 1px solid var(--border);
+	/* follows the masthead in as one block, a beat behind it — see the
+	   comment by .masthead's own animation above */
+	animation: maturitka-rise-in 0.5s cubic-bezier(0.16, 1, 0.3, 1) both;
+	animation-delay: 0.1s;
 	border-bottom: 1px solid var(--border);
 	margin-top: 2.75rem;
 }
@@ -845,8 +925,17 @@ h1 {
 	padding: 1rem 0 0.25rem;
 }
 
+/* Capped and independently scrollable — a subject with a hundred-plus
+   topics used to expand into the full list inline, pushing the actual
+   article thousands of pixels down the page. Only ever matters here: at
+   the wider breakpoints below, the toggle button (and so the .is-open
+   class) is never reachable in the first place, so this never competes
+   with each rail's own sticky-sidebar scrolling on desktop. */
 .rail.is-open > .rail-body {
 	display: block;
+	max-height: 60vh;
+	overflow-y: auto;
+	overscroll-behavior: contain;
 }
 
 /* the toggle button already carries this text while it's on screen */
@@ -915,9 +1004,21 @@ h1 {
 		max-height: calc(100vh - 9.5rem);
 		overflow-y: auto;
 		overscroll-behavior: contain;
-		scrollbar-width: thin;
-		scrollbar-color: var(--border-strong) transparent;
 		padding-bottom: 1.5rem;
+		/* glides to close the gap the header leaves once it auto-hides —
+		   same easing/duration as the header's own slide-away, so the two
+		   read as one coordinated movement rather than two unrelated ones */
+		transition: top 0.25s ease, max-height 0.25s ease;
+	}
+
+	/* The header is `position: sticky` + `transform: translateY(-100%)`
+	   when hidden, not removed from flow — its own 7.5rem of reserved
+	   space above the rail stays empty once it slides away. Mirrored onto
+	   <body> by BaseLayout's scroll script (the rail isn't a descendant of
+	   <header>, so a plain sibling/descendant selector can't reach it). */
+	body.header-hidden .rail-aside {
+		top: 1.5rem;
+		max-height: calc(100vh - 3.5rem);
 	}
 }
 
@@ -941,10 +1042,49 @@ h1 {
 		max-height: calc(100vh - 9.5rem);
 		overflow-y: auto;
 		overscroll-behavior: contain;
-		scrollbar-width: thin;
-		scrollbar-color: var(--border-strong) transparent;
 		padding-bottom: 1.5rem;
+		transition: top 0.25s ease, max-height 0.25s ease;
 	}
+
+	body.header-hidden .rail-nav {
+		top: 1.5rem;
+		max-height: calc(100vh - 3.5rem);
+	}
+}
+
+/* Both rails share one scrollbar treatment, deliberately kept as a single
+   rule rather than repeated per-rail — .rail-nav (subject-wide, dozens of
+   topics) is almost always long enough to need it; .rail-aside (this one
+   article's own contents) only sometimes is, which used to read as "the
+   right rail has a bigger, more visible scrollbar" when it happened to be
+   just barely taller than its box, purely because Firefox's default thin
+   thumb and Chromium's default (much thicker, always-opaque) one looked
+   nothing alike. Pinning both to the same explicit width/colour removes
+   that inconsistency regardless of which rail or browser you're on. */
+.rail-aside,
+.rail-nav,
+.rail-body {
+	scrollbar-width: thin;
+	scrollbar-color: var(--border-strong) transparent;
+}
+
+.rail-aside::-webkit-scrollbar,
+.rail-nav::-webkit-scrollbar,
+.rail-body::-webkit-scrollbar {
+	width: 5px;
+}
+
+.rail-aside::-webkit-scrollbar-track,
+.rail-nav::-webkit-scrollbar-track,
+.rail-body::-webkit-scrollbar-track {
+	background: transparent;
+}
+
+.rail-aside::-webkit-scrollbar-thumb,
+.rail-nav::-webkit-scrollbar-thumb,
+.rail-body::-webkit-scrollbar-thumb {
+	background: var(--border-strong);
+	border-radius: 0;
 }
 
 .rail-section + .rail-section {
@@ -1069,20 +1209,14 @@ h1 {
 }
 
 /* Adjacent topics, in the slot the reading-time estimate used to hold —
-   where you go next is a decision; "3 min" was only ever trivia. */
+   where you go next is a decision; "3 min" was only ever trivia. The only
+   place this shows now (the article body used to end with a duplicate
+   Předchozí/Další pager of its own) — always visible, same as on desktop,
+   not tucked behind the "Obsah" toggle below it. */
 .rail-adjacent {
 	display: flex;
 	flex-direction: column;
 	margin-bottom: 1.6rem;
-}
-
-/* Stacked layouts already end the article with the same two links in
-   .topic-pager, so the rail's copy would just be them a second time — and
-   it pushed the article title half a screen down on a phone. */
-@media (max-width: 1023px) {
-	.rail-adjacent {
-		display: none;
-	}
 }
 
 .rail-adjacent a {
@@ -1112,6 +1246,19 @@ h1 {
 
 .rail-adjacent-title {
 	line-height: 1.35;
+}
+
+/* Crossing into a neighbouring category — the accent border is permanent
+   here rather than only-on-hover (unlike a plain same-category link), so
+   the "this isn't the category you're reading" signal is visible before
+   you've even moved the pointer over it. */
+.rail-adjacent a.is-other-group {
+	border-left-color: var(--accent);
+}
+
+.rail-adjacent-crumb {
+	font-size: var(--t-xs);
+	color: var(--accent);
 }
 
 .rail-toc {
@@ -1154,10 +1301,6 @@ h1 {
 }
 
 .rail-formulas li + li {
-	margin-top: 0.4rem;
-}
-
-.rail-formulas li + li {
 	margin-top: 0.55rem;
 }
 
@@ -1177,20 +1320,34 @@ h1 {
 
 /* Full reading size, not the rail's small-print size: a formula is the
    thing you came to the panel for, and MathLive's glyphs go unreadable
-   below about a rem. The row scrolls sideways rather than shrinking. */
+   below about a rem. The row scrolls sideways rather than shrinking.
+   The scrollbar is deliberately visible (not hidden, unlike most
+   scrollbars on this site) — a wide formula that overflows with no visual
+   hint that there's more to it off to the side just looked cut off and
+   broken; a thin sliver of scrollbar is what tells you to keep scrolling. */
 .rail-formulas .math-display {
 	margin: 0;
 	font-size: 1.05rem;
 	text-align: left;
 	background: none;
-	padding: 0;
+	padding: 0 0 0.35rem;
 	border: none;
 	overflow-x: auto;
-	scrollbar-width: none;
+	scrollbar-width: thin;
+	scrollbar-color: var(--border-strong) transparent;
 }
 
 .rail-formulas .math-display::-webkit-scrollbar {
-	display: none;
+	height: 5px;
+}
+
+.rail-formulas .math-display::-webkit-scrollbar-track {
+	background: transparent;
+}
+
+.rail-formulas .math-display::-webkit-scrollbar-thumb {
+	background: var(--border-strong);
+	border-radius: 0;
 }
 
 /* The "kde ..." tail that so many of these formulas carry, lifted out of
@@ -1221,6 +1378,15 @@ h1 {
 
 .topic-head h1 {
 	font-size: 1.95rem;
+	/* Named so the cross-document view transition can morph the old title
+	   straight into the new one on topic-to-topic navigation (Předchozí/
+	   Další, the subject rail, search) — a small, concrete "you're still
+	   reading, just a different topic now" cue, rather than the title
+	   just being part of the flat whole-page crossfade like everything
+	   else. Harmless on a transition to/from a page with no matching
+	   element (e.g. the homepage) — the browser just fades that side on
+	   its own instead of morphing, no special-casing needed here. */
+	view-transition-name: article-title;
 }
 
 article.topic {
@@ -1335,6 +1501,14 @@ article.topic code {
 	border-radius: 2px;
 	padding: 0.1em 0.35em;
 	font-size: 0.88em;
+	/* a longer inline identifier (document.querySelector("…")) has no
+	   natural break point and doesn't fit a phone-width column, especially
+	   nested a couple of lists deep — this lets it wrap inside its own
+	   line instead of pushing the whole page into horizontal scroll. Has
+	   no effect inside a <pre> block: `white-space: pre` there already
+	   blocks wrapping regardless, which is correct — a multi-line code
+	   sample scrolls sideways (see article.topic pre), it doesn't reflow. */
+	overflow-wrap: break-word;
 }
 
 article.topic pre {
@@ -1355,12 +1529,39 @@ article.topic pre code {
 	font-size: 1em;
 }
 
+/* A table with several columns doesn't have anywhere to shrink to on a
+   phone — `width: 100%` alone doesn't stop cells from staying at their
+   content's natural width, which was pushing the whole page into
+   horizontal scroll. `display: block` is what lets a <table> respect
+   `overflow-x` as a plain scroll container; <thead>/<tr>/<td> keep their
+   own table-formatting roles regardless (those come from the elements'
+   own tag names in the UA stylesheet, not from their parent's display),
+   so it still renders as a normal table, just one that scrolls sideways
+   as a whole instead of overflowing the page. */
 article.topic table {
+	display: block;
+	max-width: 100%;
+	overflow-x: auto;
 	width: 100%;
 	border-collapse: collapse;
 	font-family: var(--sans);
 	font-size: var(--t-sm);
 	margin: 1.4rem 0;
+	scrollbar-width: thin;
+	scrollbar-color: var(--border-strong) transparent;
+}
+
+article.topic table::-webkit-scrollbar {
+	height: 5px;
+}
+
+article.topic table::-webkit-scrollbar-track {
+	background: transparent;
+}
+
+article.topic table::-webkit-scrollbar-thumb {
+	background: var(--border-strong);
+	border-radius: 0;
 }
 
 article.topic thead th {
@@ -1387,10 +1588,37 @@ article.topic tbody tr:hover {
 /* Literata has a tall x-height, next to which MathLive's default sizing
    reads a size too small — nudged back up so a symbol mid-sentence matches
    the weight of the words around it */
+/* inline-block + max-width + overflow-x, not plain inline: MathLive renders
+   a formula as one rigid, unbreakable run with no internal wrap points
+   (unlike a long word, which at least has hyphenation to fall back on) —
+   on a narrow phone, a longer inline expression (a multi-part "a=…, b=…,
+   c=…, β=…" is the common case here) was simply wider than the whole
+   viewport and pushed the page into horizontal scroll. Short, ordinary
+   inline formulas are unaffected: they're already narrower than their
+   line, so max-width never engages and nothing about how they sit against
+   the surrounding text changes. */
 .math-inline {
-	color: var(--fg);
+	display: inline-block;
+	max-width: 100%;
+	overflow-x: auto;
 	vertical-align: middle;
+	color: var(--fg);
 	font-size: 1.08em;
+	scrollbar-width: thin;
+	scrollbar-color: var(--border-strong) transparent;
+}
+
+.math-inline::-webkit-scrollbar {
+	height: 4px;
+}
+
+.math-inline::-webkit-scrollbar-track {
+	background: transparent;
+}
+
+.math-inline::-webkit-scrollbar-thumb {
+	background: var(--border-strong);
+	border-radius: 0;
 }
 
 /* display math sits in its own quiet container rather than floating in the
@@ -1438,67 +1666,6 @@ article.topic tbody tr:hover {
 	font-family: var(--sans);
 	font-size: var(--t-xs);
 	color: var(--muted);
-}
-
-/* ── Stránkování mezi tématy ─────────────────────────────────────────── */
-.topic-pager {
-	display: grid;
-	grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
-	gap: 1rem 2rem;
-	margin-top: 2.5rem;
-	padding-top: 1.5rem;
-	border-top: 1px solid var(--border);
-	font-family: var(--sans);
-	font-size: var(--t-ui);
-}
-
-.topic-pager a {
-	display: flex;
-	flex-direction: column;
-	gap: 0.15rem;
-	color: var(--fg);
-	text-decoration: none;
-	border: 1px solid transparent;
-	padding: 0.55rem 0.7rem;
-	margin: -0.55rem -0.7rem;
-	transition: border-color 0.15s ease, color 0.15s ease;
-}
-
-.topic-pager a:hover {
-	color: var(--accent);
-	border-color: var(--border-strong);
-}
-
-.topic-pager-label {
-	font-size: var(--t-xs);
-	color: var(--muted);
-}
-
-.topic-pager-title {
-	line-height: 1.4;
-}
-
-.topic-pager-prev {
-	justify-self: start;
-}
-
-/* always the second column, so "Další" stays right-aligned even when there
-   is no previous topic to balance it */
-.topic-pager-next {
-	grid-column: 2;
-	justify-self: end;
-	text-align: right;
-}
-
-@media (max-width: 560px) {
-	.topic-pager {
-		grid-template-columns: minmax(0, 1fr);
-	}
-	.topic-pager-next {
-		grid-column: 1;
-		justify-self: start;
-		text-align: left;
-	}
 }
 
 /* ─────────────────────────────────────────────────────────────────────────
@@ -1962,7 +2129,6 @@ article.topic tbody tr:hover {
 	header.site-header,
 	.site-footer,
 	.rail,
-	.topic-pager,
 	.group-jump {
 		display: none;
 	}
