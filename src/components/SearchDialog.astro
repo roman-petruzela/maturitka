@@ -321,10 +321,40 @@ import Icon from './Icon.astro';
 		border-radius: 0;
 		background: var(--surface-raised);
 		color: var(--fg);
+		/* opening is the one moment here that answers a direct action (a
+		   click or the "/" shortcut), so it earns a small settle-in rather
+		   than the hard cut every other state change on this site gets —
+		   `allow-discrete` is what lets the *closing* half play too, since
+		   without it the dialog would leave the top layer (and stop being
+		   painted) the instant .close() runs, before the fade could show */
+		opacity: 1;
+		transform: translateY(0);
+		transition: opacity 0.18s ease, transform 0.18s ease, overlay 0.18s allow-discrete, display 0.18s allow-discrete;
 	}
 
 	.search-dialog::backdrop {
 		background: rgba(10, 8, 6, 0.72);
+		opacity: 1;
+		transition: opacity 0.18s ease, overlay 0.18s allow-discrete, display 0.18s allow-discrete;
+	}
+
+	/* starting-style = the state it animates *from* on open; browsers
+	   without support just skip straight to the resting state above,
+	   which is a perfectly fine instant open, not a broken one */
+	@starting-style {
+		.search-dialog[open] {
+			opacity: 0;
+			transform: translateY(-0.5rem);
+		}
+
+		.search-dialog[open]::backdrop {
+			opacity: 0;
+		}
+	}
+
+	.search-dialog:not([open]) {
+		opacity: 0;
+		transform: translateY(-0.5rem);
 	}
 
 	.search-dialog-inner {
