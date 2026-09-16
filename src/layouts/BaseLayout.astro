@@ -121,8 +121,15 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 					var y = window.scrollY;
 					if (y > lastY && y > 72) {
 						header.classList.add('header-hidden');
+						// Mirrored on <body> so the sticky side rails (which
+						// aren't descendants of <header>) can close the gap
+						// the header leaves behind instead of just sitting
+						// under empty space — see .rail-nav/.rail-aside's
+						// body.header-hidden override in global.css.
+						document.body.classList.add('header-hidden');
 					} else if (y < lastY) {
 						header.classList.remove('header-hidden');
+						document.body.classList.remove('header-hidden');
 					}
 					lastY = y;
 					headerTicking = false;
@@ -344,22 +351,25 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 						if (!node.id) node.id = 'vzorec-' + (i + 1);
 						picked.push(node);
 					});
-					var MAX = 6;
-					picked.slice(0, MAX).forEach(function (node) {
+					picked.forEach(function (node) {
 						var li = document.createElement('li');
 						var a = document.createElement('a');
 						a.href = '#' + node.id;
 						var clone = node.cloneNode(true);
 
 						// Split off an explanatory tail like
-						// "\\text{kde } m \\text{ je střední příčka...}".
-						// MathLive renders \\text{} as .ML__text, so the first
-						// one that opens with a Czech connective marks where the
-						// formula stops and the prose starts. Everything from
-						// there is re-set as plain sentence text below the
-						// formula; left in place it rendered as maths and looked
-						// like a second equation that had been cut off.
-						var NOTE_RE = /^(kde|pro|kdy|přičemž|resp\.)\b/i;
+						// "\\text{kde } m \\text{ je střední příčka...}" or a
+						// standalone aside like "\\text{(poloměr kružnice
+						// vepsané)}". MathLive renders \\text{} as .ML__text,
+						// so the first one that either opens with a Czech
+						// connective or is a fully self-contained "(...)"
+						// marks where the formula stops and the prose starts.
+						// Everything from there is re-set as plain sentence
+						// text below the formula; left in place it rendered
+						// as maths and read as a second, broken equation (or,
+						// for the parenthetical case, as a fragment of maths
+						// notation that wasn't actually notation).
+						var NOTE_RE = /^(kde|pro|kdy|přičemž|resp\.)\b|^\(.+\)[.,;:]?$/i;
 						var texts = clone.querySelectorAll('.ML__text');
 						var cut = null;
 						for (var t = 0; t < texts.length; t++) {
@@ -415,12 +425,6 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 						li.appendChild(a);
 						formulaList.appendChild(li);
 					});
-					if (picked.length > MAX) {
-						var more = document.createElement('li');
-						more.className = 'rail-empty';
-						more.textContent = 'a další v textu (' + (picked.length - MAX) + ')';
-						formulaList.appendChild(more);
-					}
 					if (picked.length === 0 && section) section.remove();
 				}
 
