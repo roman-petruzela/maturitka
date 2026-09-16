@@ -1,7 +1,12 @@
 ---
 import type { MarkdownHeading } from 'astro';
 
-export type AdjacentTopic = { href: string; title: string } | null;
+export type AdjacentTopic = {
+	href: string;
+	title: string;
+	/** set only when this topic sits in a different category than the one being read */
+	otherGroupLabel?: string;
+} | null;
 
 interface Props {
 	headings: MarkdownHeading[];
@@ -64,14 +69,20 @@ if (tags.includes('mimo-seznam-cetby'))
 		(prev || next) && (
 			<nav class="rail-adjacent" aria-label="Sousední témata">
 				{prev && (
-					<a href={prev.href}>
+					<a href={prev.href} class={prev.otherGroupLabel ? 'is-other-group' : undefined}>
 						<span class="rail-adjacent-label">← Předchozí</span>
+						{prev.otherGroupLabel && (
+							<span class="rail-adjacent-crumb">{prev.otherGroupLabel}</span>
+						)}
 						<span class="rail-adjacent-title">{prev.title}</span>
 					</a>
 				)}
 				{next && (
-					<a href={next.href}>
+					<a href={next.href} class={next.otherGroupLabel ? 'is-other-group' : undefined}>
 						<span class="rail-adjacent-label">Další →</span>
+						{next.otherGroupLabel && (
+							<span class="rail-adjacent-crumb">{next.otherGroupLabel}</span>
+						)}
 						<span class="rail-adjacent-title">{next.title}</span>
 					</a>
 				)}

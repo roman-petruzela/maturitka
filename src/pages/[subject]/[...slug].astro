@@ -56,21 +56,23 @@ export async function getStaticPaths() {
 			hasExercises: entry.data.hasExercises ?? false,
 		}));
 
-		for (const group of groups.values()) {
-			const sorted = sortEntriesByOrder(group);
-			sorted.forEach((entry, i) => {
-				paths.push({
-					params: { subject, slug: cleanId(entry.id) },
-					props: {
-						entry,
-						subject,
-						prev: sorted[i - 1] ?? null,
-						next: sorted[i + 1] ?? null,
-						topics,
-					},
-				});
+		// prev/next walk the flat, subject-wide order rather than staying
+		// inside the current category — otherwise the first/last topic of
+		// every category (all but one, in a subject with several) silently
+		// lost its "Předchozí" or "Další" instead of crossing over into the
+		// neighbouring one.
+		flat.forEach(({ entry }, i) => {
+			paths.push({
+				params: { subject, slug: cleanId(entry.id) },
+				props: {
+					entry,
+					subject,
+					prev: flat[i - 1]?.entry ?? null,
+					next: flat[i + 1]?.entry ?? null,
+					topics,
+				},
 			});
-		}
+		});
 	}
 	return paths;
 }
@@ -88,6 +90,18 @@ const group = groupOfId(entry.id);
 const categoryLabel = group ? groupLabel(subject, group) : undefined;
 const currentId = cleanId(entry.id);
 const hasFormulas = /\$\$[\s\S]*?\$\$/.test(entry.body ?? '');
+
+// prev/next now walk the whole subject (see getStaticPaths above), so the
+// boundary topic of a category points into the neighbouring one — flagged
+// here so the UI can say so instead of silently switching context.
+function otherGroupLabel(other: Entry | null): string | undefined {
+	if (!other) return undefined;
+	const otherGroup = groupOfId(other.id);
+	if (otherGroup === group) return undefined;
+	return otherGroup ? groupLabel(subject, otherGroup) : undefined;
+}
+const prevOtherGroup = otherGroupLabel(prev);
+const nextOtherGroup = otherGroupLabel(next);
 
 // Heading anchors are only useful to the table of contents if they exist;
 // a leading heading that just repeats the page title would give the rail a
@@ -138,26 +152,6 @@ const tocHeadings = headings.filter(
 			</article>
 			{subject === 'mat' && <MathScratchpad />}
 			{entry.data.source && <p class="source-note">Zdroj: {entry.data.source}</p>}
-			{
-				(prev || next) && (
-					<nav class="topic-pager" aria-label="Předchozí a další téma">
-						{prev ? (
-							<a class="topic-pager-prev" href={`/${subject}/${cleanId(prev.id)}/`}>
-								<span class="topic-pager-label">Předchozí</span>
-								<span class="topic-pager-title">← {prev.data.title}</span>
-							</a>
-						) : (
-							<span />
-						)}
-						{next && (
-							<a class="topic-pager-next" href={`/${subject}/${cleanId(next.id)}/`}>
-								<span class="topic-pager-label">Další</span>
-								<span class="topic-pager-title">{next.data.title} →</span>
-							</a>
-						)}
-					</nav>
-				)
-			}
 		</div>
 
 		<ArticleAside
@@ -165,8 +159,16 @@ const tocHeadings = headings.filter(
 			categoryLabel={categoryLabel}
 			tags={entry.data.tags ?? []}
 			hasExercises={entry.data.hasExercises ?? false}
-			prev={prev ? { href: `/${subject}/${cleanId(prev.id)}/`, title: prev.data.title } : null}
-			next={next ? { href: `/${subject}/${cleanId(next.id)}/`, title: next.data.title } : null}
+			prev={
+				prev
+					? { href: `/${subject}/${cleanId(prev.id)}/`, title: prev.data.title, otherGroupLabel: prevOtherGroup }
+					: null
+			}
+			next={
+				next
+					? { href: `/${subject}/${cleanId(next.id)}/`, title: next.data.title, otherGroupLabel: nextOtherGroup }
+					: null
+			}
 			hasFormulas={hasFormulas}
 		/>
 	</div>
