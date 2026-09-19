@@ -17,7 +17,11 @@ hasExercises: true
 
 **2)** Neznámá $x\in\mathbb R$ splňuje současně dvě podmínky: $x<6\leq-2x+4$. Který zápis je ekvivalentní?
 
-A) $x\in(-\infty;-6)$   **B) $x\in(-\infty;-1\rangle$**   C) $x\in(-2;6)$   D) $x\in\langle-1;6)$   E) žádný z uvedených
+A) $x\in(-\infty;-6)$
+**B) $x\in(-\infty;-1\rangle$**
+C) $x\in(-2;6)$
+D) $x\in\langle-1;6)$
+E) žádný z uvedených
 
 *Podzim 2011, příklad č. 19. Body: 2.*
 

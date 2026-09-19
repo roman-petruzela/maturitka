@@ -18,8 +18,11 @@ hasExercises: true
 
 Implikace $a\Rightarrow b$ je pravdivá právě tehdy, když jsou pravdivé oba výroky $a$, $b$, **nebo** když je výrok $a$ nepravdivý (a $b$ je jakýkoli). Implikace je nepravdivá jedině tehdy, je-li pravdivý předpoklad $a$ a nepravdivý závěr $b$ — tedy když pravdivý předpoklad vede k nepravdivému závěru.
 
-**Příklad:** $a$: Číslo 5 je prvočíslo. $b$: Číslo 5 je sudé. $c$: Číslo 5 je liché. $d$: Číslo 5 je záporné.
-
+**Příklad:**
+$a$: Číslo 5 je prvočíslo.
+$b$: Číslo 5 je sudé.
+$c$: Číslo 5 je liché.
+$d$: Číslo 5 je záporné.
 Utvořte implikace $a\Rightarrow d$, $a\Rightarrow c$, $b\Rightarrow c$, $b\Rightarrow d$ a určete jejich pravdivost.
 
 Výsledek: ||a=T, b=F, c=T, d=F; a⇒d: T⇒F = NEPRAVDIVÝ; a⇒c: T⇒T = PRAVDIVÝ; b⇒c: F⇒T = PRAVDIVÝ (nepravdivý předpoklad); b⇒d: F⇒F = PRAVDIVÝ (nepravdivý předpoklad)||
@@ -61,7 +64,10 @@ Výsledek: ||sestavením tabulky pro všechny kombinace a,b vyjde a⇒b i ¬b⇒
 
 Výsledek: ||a: "√10<3" je NEPRAVDIVÝ výrok (√10≈3,162>3); b: "jsem náčelníkem Siouxů" je PRAVDIVÝ (dáno zadáním). Původní implikace a⇒b: F⇒T = PRAVDIVÁ (nepravdivý předpoklad → implikace automaticky pravdivá, i když spolu tvrzení věcně nesouvisí). Obrácená b⇒a: T⇒F = NEPRAVDIVÁ. Obměněná ¬b⇒¬a: ¬b=F, ¬a=T, F⇒T = PRAVDIVÁ (shoduje se s původní, jak očekáváno)||
 
-**Příklad:** $a$: $\sqrt{20}>4$. $b$: $-\sqrt{20}<-4$. Posuďte pravdivost výroků $a\Rightarrow b$, $b\Rightarrow a$, $\neg a\Rightarrow\neg b$.
+**Příklad:**
+$a$: $\sqrt{20}>4$.
+$b$: $-\sqrt{20}<-4$.
+Posuďte pravdivost výroků $a\Rightarrow b$, $b\Rightarrow a$, $\neg a\Rightarrow\neg b$.
 
 Výsledek: ||√20≈4,472, tedy a je PRAVDIVÝ (4,472>4) a b je PRAVDIVÝ (-4,472<-4, protože násobení/porovnání záporným číslem obrací nerovnost stejně jako u a). a⇒b: T⇒T=PRAVDIVÝ; b⇒a: T⇒T=PRAVDIVÝ; ¬a⇒¬b: F⇒F=PRAVDIVÝ — všechny tři jsou pravdivé||
 

@@ -11,7 +11,11 @@ hasExercises: true
 
 **1)** V uzavřeném skleněném kvádru $30\times60\times80$ cm je kapalina. Na stěně $30\times60$ dosahuje do výšky 40 cm. Jaká bude výška na stěně $30\times80$?
 
-A) 20 cm   B) 25 cm   **C) 30 cm**   D) 35 cm   E) v jiné výšce
+A) 20 cm
+B) 25 cm
+**C) 30 cm**
+D) 35 cm
+E) v jiné výšce
 
 *Jaro 2011, příklad č. 20. Body: 2.*
 
@@ -19,7 +23,10 @@ A) 20 cm   B) 25 cm   **C) 30 cm**   D) 35 cm   E) v jiné výšce
 
 **2)** Rozhodněte o pravdivosti (kvádr $5\times2\times3$ dílků):
 
-a) Nejmenší stěna má obsah 10 čtverců.   b) Největší stěna má obsah 15 čtverců.   c) Objem je 30 krychliček.   d) Ve složeném kvádru jsou 4 hrany s délkou 3 díly.
+a) Nejmenší stěna má obsah 10 čtverců.
+b) Největší stěna má obsah 15 čtverců.
+c) Objem je 30 krychliček.
+d) Ve složeném kvádru jsou 4 hrany s délkou 3 díly.
 
 *Podzim 2011, příklad č. 16. Body: 2. Výsledek: a) NE, b) ANO, c) ANO, d) ANO.*
 
@@ -27,7 +34,11 @@ a) Nejmenší stěna má obsah 10 čtverců.   b) Největší stěna má obsah 1
 
 **3)** Váleček se po jedné otočce posune o 25 cm. Poloměr podstavy?
 
-A) přibližně 4,0 cm   B) 4,1 cm   C) 4,2 cm   **D) 4,3 cm**   E) jiný poloměr
+A) přibližně 4,0 cm
+B) 4,1 cm
+C) 4,2 cm
+**D) 4,3 cm**
+E) jiný poloměr
 
 *Podzim 2011, příklad č. 18. Body: 2.*
 
@@ -65,7 +76,11 @@ A) přibližně 4,0 cm   B) 4,1 cm   C) 4,2 cm   **D) 4,3 cm**   E) jiný polom�
 
 **9)** Káď (válec, podstava 14 000 cm², objem 600 l) je naplněna do tří čtvrtin. Výška hladiny?
 
-A) 13 cm   **B) 32 cm**   C) 44 cm   D) 57 cm   E) v jiné výšce
+A) 13 cm
+**B) 32 cm**
+C) 44 cm
+D) 57 cm
+E) v jiné výšce
 
 *Jaro 2013, příklad č. 20. Body: 2.*
 
@@ -73,7 +88,11 @@ A) 13 cm   **B) 32 cm**   C) 44 cm   D) 57 cm   E) v jiné výšce
 
 **10)** Jaký je obsah obalu (obepínajícího válce o poloměru 3, výška 13, obal $6\times$poloměr $+$ obvod kruhu)?
 
-A) **479 cm²**   B) 514 cm²   C) 543 cm²   D) 598 cm²   E) jiný obsah
+A) **479 cm²**
+B) 514 cm²
+C) 543 cm²
+D) 598 cm²
+E) jiný obsah
 
 *Jaro 2013, příklad č. 21. Body: 2.*
 
@@ -93,7 +112,11 @@ A) **479 cm²**   B) 514 cm²   C) 543 cm²   D) 598 cm²   E) jiný obsah
 
 **13)** Sklenice (válec, průměr 12 cm, výška 16 cm). Nejdelší seříznutá špejle, která se vejde šikmo bez přesahu?
 
-A) 17 cm   B) 18 cm   C) 19 cm   **D) 20 cm**   E) 21 cm
+A) 17 cm
+B) 18 cm
+C) 19 cm
+**D) 20 cm**
+E) 21 cm
 
 *Podzim 2013, příklad č. 17. Body: 2.*
 
@@ -101,7 +124,11 @@ A) 17 cm   B) 18 cm   C) 19 cm   **D) 20 cm**   E) 21 cm
 
 **14)** Obsah černé plochy jednoho pásu (obdélník, šířka 3, poloměr 2, délka $2\times20+$ obvod kruhu)?
 
-A) $4(\pi+10)\text{ cm}^2$   B) $6(\pi+20)\text{ cm}^2$   C) $6(3\pi+20)\text{ cm}^2$   D) $12(\pi+5)\text{ cm}^2$   **E) $12(\pi+10)\text{ cm}^2$**
+A) $4(\pi+10)\text{ cm}^2$
+B) $6(\pi+20)\text{ cm}^2$
+C) $6(3\pi+20)\text{ cm}^2$
+D) $12(\pi+5)\text{ cm}^2$
+**E) $12(\pi+10)\text{ cm}^2$**
 
 *Podzim 2013, příklad č. 19. Body: 2.*
 
@@ -117,7 +144,11 @@ b) Rozvinutý plášť: šířka $=20+\pi r=20+10\pi$, výška $=70$: $S=(20+10\
 
 **16)** Z osmi kuliček (poloměr 1 cm) vytvořena jedna koule. Poloměr?
 
-A) 8 cm   B) $4\sqrt2$ cm   C) 4 cm   D) $2\sqrt2$ cm   **E) 2 cm**
+A) 8 cm
+B) $4\sqrt2$ cm
+C) 4 cm
+D) $2\sqrt2$ cm
+**E) 2 cm**
 
 *Jaro 2014, příklad č. 21. Body: 2.*
 
@@ -151,7 +182,11 @@ b) Podstava jehlanu $S_p=8^2=64$. $V=\dfrac{S_p\cdot v}3 \implies128=\dfrac{64v}
 
 **21)** Jaká je výška válce (na desetiny cm, objem 570, $2r=v$)?
 
-A) menší než 8,4 cm   B) 8,5 cm   C) 8,7 cm   **D) 9,0 cm**   E) větší než 9,1 cm
+A) menší než 8,4 cm
+B) 8,5 cm
+C) 8,7 cm
+**D) 9,0 cm**
+E) větší než 9,1 cm
 
 *Jaro 2015, příklad č. 21. Body: 2.*
 
@@ -159,7 +194,11 @@ A) menší než 8,4 cm   B) 8,5 cm   C) 8,7 cm   **D) 9,0 cm**   E) větší ne�
 
 **22)** Kolik papíru je použito na čepici (kužel bez podstavy, $r=8$, $s=16$)?
 
-A) $96\pi$   **B) $128\pi$**   C) $192\pi$   D) $256\pi$   E) jiný počet
+A) $96\pi$
+**B) $128\pi$**
+C) $192\pi$
+D) $256\pi$
+E) jiný počet
 
 *Jaro 2015, příklad č. 22. Body: 2.*
 
@@ -173,7 +212,11 @@ A) $96\pi$   **B) $128\pi$**   C) $192\pi$   D) $256\pi$   E) jiný počet
 
 **24)** Jaký je povrch kvádru (čtvercová podstava, $a+2c=16$, $a+c=10$)?
 
-A) 64 cm²   B) 96 cm²   **C) 128 cm²**   D) 144 cm²   E) jiný povrch
+A) 64 cm²
+B) 96 cm²
+**C) 128 cm²**
+D) 144 cm²
+E) jiný povrch
 
 *Podzim 2015, příklad č. 23. Body: 2.*
 
@@ -201,7 +244,11 @@ b) vodorovné plochy: 3 fólie; boční: 2 (rozstřižené); přední: 2 (1 rozs
 
 **28)** Válec: průměr 12, plášť $60\pi$. Objem?
 
-A) $36\pi$   B) $84\pi$   **C) $180\pi$**   D) $240\pi$   E) jiný objem
+A) $36\pi$
+B) $84\pi$
+**C) $180\pi$**
+D) $240\pi$
+E) jiný objem
 
 *Jaro 2016, příklad č. 18. Body: 2.*
 
@@ -209,7 +256,11 @@ A) $36\pi$   B) $84\pi$   **C) $180\pi$**   D) $240\pi$   E) jiný objem
 
 **29)** Kolik vody pojme natažená hadice 50 m (vnitřní průměr 26,3 mm)?
 
-A) 11 l   **B) 27 l**   C) 86 l   D) 272 l   E) jiné množství
+A) 11 l
+**B) 27 l**
+C) 86 l
+D) 272 l
+E) jiné množství
 
 *Podzim 2016, příklad č. 20. Body: 2.*
 
@@ -217,7 +268,11 @@ A) 11 l   **B) 27 l**   C) 86 l   D) 272 l   E) jiné množství
 
 **30)** Povrch válce s polokoulovou dutinou ($r=10$, $v=20$)?
 
-A) více než $900\pi$   **B) $900\pi$**   C) $800\pi$   D) $700\pi$   E) méně než $700\pi$
+A) více než $900\pi$
+**B) $900\pi$**
+C) $800\pi$
+D) $700\pi$
+E) méně než $700\pi$
 
 *Podzim 2016, příklad č. 21. Body: 2. Výsledek: D.*
 
@@ -225,7 +280,11 @@ A) více než $900\pi$   **B) $900\pi$**   C) $800\pi$   D) $700\pi$   E) méně
 
 **31)** Kapka rtuti (koule, průměr 3 mm) se rozdělí na dvě stejné kapičky. Poloměr nové kapičky?
 
-A) 0,75 mm   B) 1,04 mm   **C) 1,19 mm**   D) 1,25 mm   E) 1,44 mm
+A) 0,75 mm
+B) 1,04 mm
+**C) 1,19 mm**
+D) 1,25 mm
+E) 1,44 mm
 
 *Jaro 2017, příklad č. 23. Body: 2.*
 
@@ -233,7 +292,11 @@ A) 0,75 mm   B) 1,04 mm   **C) 1,19 mm**   D) 1,25 mm   E) 1,44 mm
 
 **32)** Povrch tělesa (dva válce, $r_1=60,r_2=90$, $v=70$, plus mezikruží)?
 
-A) 4,1 m²   B) 6,8 m²   C) 7,2 m²   **D) 9,4 m²**   E) 11,6 m²
+A) 4,1 m²
+B) 6,8 m²
+C) 7,2 m²
+**D) 9,4 m²**
+E) 11,6 m²
 
 *Jaro 2017, příklad č. 24. Body: 2.*
 
@@ -241,7 +304,11 @@ A) 4,1 m²   B) 6,8 m²   C) 7,2 m²   **D) 9,4 m²**   E) 11,6 m²
 
 **33)** Jaký je povrch trojbokého hranolu (podstava: pravoúhlý trojúhelník s odvěsnami 6, 8, výška hranolu 10)?
 
-A) 188 cm²   B) 198 cm²   C) 240 cm²   **D) 288 cm²**   E) 308 cm²
+A) 188 cm²
+B) 198 cm²
+C) 240 cm²
+**D) 288 cm²**
+E) 308 cm²
 
 *Podzim 2017, příklad č. 19. Body: 2.*
 
@@ -249,7 +316,11 @@ A) 188 cm²   B) 198 cm²   C) 240 cm²   **D) 288 cm²**   E) 308 cm²
 
 **34)** $a_1:a_2=2:1$, $b_1:b_2=3:4$. Jaký je poměr $V_1:V_2$ (kvádry se stejnou výškou $v$)?
 
-A) **3:2**   B) 4:3   C) 6:5   D) 1:1   E) nelze určit
+A) **3:2**
+B) 4:3
+C) 6:5
+D) 1:1
+E) nelze určit
 
 *Podzim 2017, příklad č. 20. Body: 2.*
 
@@ -257,7 +328,11 @@ A) **3:2**   B) 4:3   C) 6:5   D) 1:1   E) nelze určit
 
 **35)** Objem polokoule (povrch s podstavou $108\pi$)?
 
-A) 186 cm³   B) 280 cm³   **C) 452 cm³**   D) 831 cm³   E) jiný objem
+A) 186 cm³
+B) 280 cm³
+**C) 452 cm³**
+D) 831 cm³
+E) jiný objem
 
 *Podzim 2017, příklad č. 21. Body: 2.*
 
@@ -269,7 +344,11 @@ A) 186 cm³   B) 280 cm³   **C) 452 cm³**   D) 831 cm³   E) jiný objem
 
 **1p)** Obsah podstavy válce $S_p=18\text{ dm}^2$, výška $=$ poloměr. Povrch?
 
-A) $2{,}5\cdot S_p$   B) $3\cdot S_p$   C) $3{,}5\cdot S_p$   **D) $4\cdot S_p$**   E) $4{,}5\cdot S_p$
+A) $2{,}5\cdot S_p$
+B) $3\cdot S_p$
+C) $3{,}5\cdot S_p$
+**D) $4\cdot S_p$**
+E) $4{,}5\cdot S_p$
 
 *Jaro 2011 PUP, příklad č. 20. Body: 2.*
 
@@ -281,7 +360,10 @@ A) $2{,}5\cdot S_p$   B) $3\cdot S_p$   C) $3{,}5\cdot S_p$   **D) $4\cdot S_p$*
 
 **1i)** Krychle s hranou 10 cm a kvádr s hranami 10 a 6 cm mají stejný povrch. Třetí hrana kvádru?
 
-**A) $c=15$ cm**   B) $c=15{,}5$ cm   C) *(nedochováno)*   D) jiné řešení
+**A) $c=15$ cm**
+B) $c=15{,}5$ cm
+C) *(nedochováno)*
+D) jiné řešení
 
 *2010 (1), příklad č. 17. Body: 3.*
 
@@ -289,7 +371,11 @@ A) $2{,}5\cdot S_p$   B) $3\cdot S_p$   C) $3{,}5\cdot S_p$   **D) $4\cdot S_p$*
 
 **2i)** Výška nádoby (pravidelný šestiboký hranol, podstava 0,5 dm²), kterou naplní 3 čtvrtlitrové hrnky?
 
-A) 37,5 cm   B) 17 cm   **C) 15 cm**   D) 11,5 cm   E) jiný výsledek
+A) 37,5 cm
+B) 17 cm
+**C) 15 cm**
+D) 11,5 cm
+E) jiný výsledek
 
 *2010 (2), příklad č. 16. Body: 2.*
 
@@ -297,7 +383,11 @@ A) 37,5 cm   B) 17 cm   **C) 15 cm**   D) 11,5 cm   E) jiný výsledek
 
 **3i)** Koule má poloměr 0,3 m. Kolikrát větší je objem koule s dvojnásobným poloměrem?
 
-A) devětkrát   **B) osmkrát**   C) šestkrát   D) třikrát   E) méně než třikrát
+A) devětkrát
+**B) osmkrát**
+C) šestkrát
+D) třikrát
+E) méně než třikrát
 
 *2010 (2), příklad č. 17. Body: 2.*
 
@@ -311,7 +401,12 @@ A) devětkrát   **B) osmkrát**   C) šestkrát   D) třikrát   E) méně než
 
 **5i)** Přiřaďte: a) stěny krychle, b) hrany osmibokého jehlanu, c) vrcholy dvanáctibokého hranolu, d) stěny hranolu s 24 hranami.
 
-A) 6   B) 10   C) 12   D) 20   E) 24   F) jiný výsledek
+A) 6
+B) 10
+C) 12
+D) 20
+E) 24
+F) jiný výsledek
 
 *2011, příklad č. 21. Body: 4. Výsledek: a) A, b) F (16), c) E, d) B.*
 
@@ -327,7 +422,11 @@ A–D) *(nedochováno)*   E) *(výsledek)*
 
 **7i)** Obvod podstavy válce 30 cm, strana klobouku (kužele) 12 cm. Povrch klobouku?
 
-A) 1,2 dm²   B) 1,4 dm²   C) 1,5 dm²   **D) 1,8 dm²**   E) jiný povrch
+A) 1,2 dm²
+B) 1,4 dm²
+C) 1,5 dm²
+**D) 1,8 dm²**
+E) jiný povrch
 
 *2012, příklad č. 24. Body: 2.*
 
@@ -335,7 +434,12 @@ A) 1,2 dm²   B) 1,4 dm²   C) 1,5 dm²   **D) 1,8 dm²**   E) jiný povrch
 
 **8i)** Přiřaďte sítím a)–d) tělesa:
 
-A) pravidelný trojboký jehlan   B) pravidelný čtyřboký jehlan   C) pravidelný šestiboký jehlan   D) pravidelný trojboký hranol   E) pravidelný šestiboký hranol   F) není sítí žádného tělesa
+A) pravidelný trojboký jehlan
+B) pravidelný čtyřboký jehlan
+C) pravidelný šestiboký jehlan
+D) pravidelný trojboký hranol
+E) pravidelný šestiboký hranol
+F) není sítí žádného tělesa
 
 *2012, příklad č. 25. Body: 4. Výsledek: a) B, b) C, c) A, d) D.*
 
@@ -349,7 +453,11 @@ A) pravidelný trojboký jehlan   B) pravidelný čtyřboký jehlan   C) pravide
 
 **10i)** Jaký objem má domeček (krychle $+$ jehlan, vnitřní průměr podstavy plechovky $=$ stěnová úhlopříčka $3\sqrt2$)?
 
-A) **menší než 38,0 cm³ (36 cm³)**   B) 38,0 cm³   C) 41,5 cm³   D) 45,0 cm³   E) větší než 45,0 cm³
+A) **menší než 38,0 cm³ (36 cm³)**
+B) 38,0 cm³
+C) 41,5 cm³
+D) 45,0 cm³
+E) větší než 45,0 cm³
 
 *2013, příklad č. 23. Body: 2.*
 
@@ -357,7 +465,11 @@ A) **menší než 38,0 cm³ (36 cm³)**   B) 38,0 cm³   C) 41,5 cm³   D) 45,0 
 
 **11i)** Jak veliká je plocha střechy (jehlan, 4 shodné trojúhelníkové stěny, stěnová výška ze stran 8 a 6)?
 
-A) 192   B) 202   **C) 320**   D) 448   E) 512
+A) 192
+B) 202
+**C) 320**
+D) 448
+E) 512
 
 *2014 (1), příklad č. 18. Body: 2.*
 
@@ -365,7 +477,11 @@ A) 192   B) 202   **C) 320**   D) 448   E) 512
 
 **12i)** Kolik litrů vody se vešlo do kádě (kvádr $110\times50\times90$ cm)?
 
-A) méně než 57 l   B) 467,5 l   **C) 495 l**   D) 4 675 l   E) 56 925 l
+A) méně než 57 l
+B) 467,5 l
+**C) 495 l**
+D) 4 675 l
+E) 56 925 l
 
 *2014 (1), příklad č. 19. Body: 2.*
 
@@ -373,7 +489,11 @@ A) méně než 57 l   B) 467,5 l   **C) 495 l**   D) 4 675 l   E) 56 925 l
 
 **13i)** Rozvinutý plášť kužele je půlkruh, strana kužele 6 cm. Obsah pláště?
 
-A) 6   B) 8   C) 9   D) 12   **E) 18**
+A) 6
+B) 8
+C) 9
+D) 12
+**E) 18**
 
 *2014 (1), příklad č. 20. Body: 2. (Výsledek $18\pi$ cm².)*
 
@@ -399,7 +519,11 @@ A) 6   B) 8   C) 9   D) 12   **E) 18**
 
 **17i)** Model krychle: drátěná kostra 144 cm celkem (12 hran). Povrch (lepenka)?
 
-**A) 864 cm²**   B) 648 cm²   C) 578 cm²   D) 486 cm²   E) jiný výsledek
+**A) 864 cm²**
+B) 648 cm²
+C) 578 cm²
+D) 486 cm²
+E) jiný výsledek
 
 *2014 (2), příklad č. 20. Body: 2.*
 

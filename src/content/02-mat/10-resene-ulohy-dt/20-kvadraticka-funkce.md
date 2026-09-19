@@ -9,7 +9,9 @@ hasExercises: true
 
 *Příklady z maturitních testů Cermatu (základní úroveň) — Kvadratická funkce*
 
-**1)** Funkce $f:y=(x-1)(x-3)$. a) Zapište souřadnice průsečíku $Y$ grafu $f$ s osou $y$. b) Sestrojte graf funkce $f$.
+**1)** Funkce $f:y=(x-1)(x-3)$.
+a) Zapište souřadnice průsečíku $Y$ grafu $f$ s osou $y$.
+b) Sestrojte graf funkce $f$.
 
 *Podzim 2013, příklad č. 8. Body: 3.*
 
@@ -23,7 +25,10 @@ Do tabulky volíme $x$-ové souřadnice co nejblíž vrcholu (nejlépe jen napra
 |---|---|---|
 | $y$ | 0 | 3 |
 
-**2)** Pro $x\in\mathbb R$ je dána funkce $f:y=(2-x)(2+x)$. a) Sestrojte graf $f$. b) Zapište průsečík s osou $y$. c) Zapište všechna $x$, pro něž je $f(x)>0$.
+**2)** Pro $x\in\mathbb R$ je dána funkce $f:y=(2-x)(2+x)$.
+a) Sestrojte graf $f$.
+b) Zapište průsečík s osou $y$.
+c) Zapište všechna $x$, pro něž je $f(x)>0$.
 
 *Jaro 2014, příklad č. 8. Body: 3. Výsledek: b) $P[0;4]$, c) $x\in(-2;2)$.*
 
@@ -76,7 +81,11 @@ d) Vrchol $[0;9]$, parabola se otevírá dolů ($a<0$), takže obor hodnot je $H
 
 **7)** *(Graf ukazuje parabolu s vrcholem $[-1;0]$ procházející body $[-2;1]$, $[0;1]$.)* Které tvrzení je pravdivé?
 
-A) Graf je souměrný podle přímky $p:x-1=0$.   **B) Funkce $f$ má předpis $y=(x+1)^2$.**   C) Funkce je klesající v $(-\infty;0)$.   D) Obor hodnot je $(0;+\infty)$.   E) $f(0)=-1$.
+A) Graf je souměrný podle přímky $p:x-1=0$.
+**B) Funkce $f$ má předpis $y=(x+1)^2$.**
+C) Funkce je klesající v $(-\infty;0)$.
+D) Obor hodnot je $(0;+\infty)$.
+E) $f(0)=-1$.
 
 *Podzim 2017, příklad č. 24. Body: 2.*
 

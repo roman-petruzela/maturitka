@@ -25,7 +25,11 @@ Podmínky: $2x>0 \implies x>0$.
 
 **3)** Je dána rovnice $\log(x^2)-2\log x=0$. Řešením je:
 
-A) $\emptyset$   B) $\{0\}$   C) $\{0{,}1;10\}$   **D) $(0;+\infty)$**   E) $\mathbb R\setminus\{0\}$
+A) $\emptyset$
+B) $\{0\}$
+C) $\{0{,}1;10\}$
+**D) $(0;+\infty)$**
+E) $\mathbb R\setminus\{0\}$
 
 *Jaro 2012, příklad č. 23. Body: 2.*
 
@@ -54,7 +58,12 @@ A) $\emptyset$   B) $\{0\}$   C) $\{0{,}1;10\}$   **D) $(0;+\infty)$**   E) $\ma
 a) $\log_2x=-1$
 b) $\log_2x^2=0$
 
-A) $\{-2\}$   B) $\{-1\}$   **C) $\left\{\tfrac12\right\}$**   D) $\{1\}$   E) $\emptyset$   **F) jiná množina**
+A) $\{-2\}$
+B) $\{-1\}$
+**C) $\left\{\tfrac12\right\}$**
+D) $\{1\}$
+E) $\emptyset$
+**F) jiná množina**
 
 *Podzim 2015, příklad č. 25.3, 25.4. Body: 2. Výsledek: a) C, b) F ($x_1=1,x_2=-1$).*
 
@@ -119,7 +128,12 @@ Podmínky: $2x-2>0 \implies x>1$.
 a) $\log_22+\log_21=\log_22x$
 b) $\log_2x^2-\log_2x=1$
 
-A) $\{-2;2\}$   B) $\{-2\}$   C) $\{-1\}$   D) $\{1\}$   **E) $\{2\}$**   F) $\emptyset$
+A) $\{-2;2\}$
+B) $\{-2\}$
+C) $\{-1\}$
+D) $\{1\}$
+**E) $\{2\}$**
+F) $\emptyset$
 
 *2014 (2), příklad č. 25.3, 25.4. Body: 2. Výsledek: a) D, b) E.*
 

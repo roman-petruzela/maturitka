@@ -11,7 +11,11 @@ hasExercises: true
 
 **Konjunkce** libovolných výroků $a$, $b$ je výrok, který vznikne jejich spojením spojkou *a*. Zapisujeme $a\land b$, čteme "$a$ a zároveň $b$".
 
-**Příklad:** $a$: Číslo 5 je prvočíslo. $b$: Číslo 5 je sudé. $c$: Číslo 5 je liché. $d$: Číslo 5 je záporné.
+**Příklad:**
+$a$: Číslo 5 je prvočíslo.
+$b$: Číslo 5 je sudé.
+$c$: Číslo 5 je liché.
+$d$: Číslo 5 je záporné.
 
 $a\land d$: "Číslo 5 je prvočíslo a zároveň je záporné."
 

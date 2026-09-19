@@ -69,7 +69,14 @@ $$4a^2-b^2-14a+7b = (2a-b)(2a+b) - 7(2a-b) = (2a-b)\big[(2a+b)-7\big] = (2a-b)(2
 
 **1.** Rozložte na součin vytýkáním:
 
-a) $6x-15y$   b) $25r+35s$   c) $12a^2b^4-44ab^3+20a^3b^3$   d) $-3x^2y-9xy^2+36xy^4$   e) $6r-6s+kr-ks$   f) $kp+3k-4p-12$   g) $5px+10p+2r+rx$   h) $14y-7-r+2ry$
+a) $6x-15y$
+b) $25r+35s$
+c) $12a^2b^4-44ab^3+20a^3b^3$
+d) $-3x^2y-9xy^2+36xy^4$
+e) $6r-6s+kr-ks$
+f) $kp+3k-4p-12$
+g) $5px+10p+2r+rx$
+h) $14y-7-r+2ry$
 
 Výsledek:
 

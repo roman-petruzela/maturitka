@@ -14,7 +14,11 @@ hasExercises: true
 a) nerovnice tvaru $\dfrac{(\text{vždy kladný čitatel})}{3-x}<0$
 b) $\dfrac{3-x}{x-3}>0$
 
-A) $\emptyset$   B) $(-\infty;1)$   C) $(-\infty;3)$   D) $(1;+\infty)$   **E) $(3;+\infty)$**
+A) $\emptyset$
+B) $(-\infty;1)$
+C) $(-\infty;3)$
+D) $(1;+\infty)$
+**E) $(3;+\infty)$**
 
 *Podzim 2015, příklad č. 26.2, 26.3. Body: 2. Výsledek: a) E, b) A.*
 
@@ -40,7 +44,9 @@ $$x-2>0 \implies x>2 \implies x\in(2;\infty)$$
 
 **1i)** Jaké je řešení nerovnice $\dfrac{-5x}{x-5}<0$ v oboru $\mathbb R$?
 
-A) $\emptyset$   B–D) *(nedochováno)*   **E) $(-\infty;0)\cup(5;\infty)$**
+A) $\emptyset$
+B–D) *(nedochováno)*
+**E) $(-\infty;0)\cup(5;\infty)$**
 
 *2012, příklad č. 19. Body: 2.*
 

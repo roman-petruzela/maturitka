@@ -25,7 +25,11 @@ b) součet všech bodů $=0\cdot7+1\cdot6+2\cdot6+3\cdot4+4\cdot2=38$; $38:25=1{
 
 **3)** Kolik písemných prací bylo oznámkováno, je-li medián známek 2,5?
 
-**A) 16**   B) 17   C) 18   D) 19   E) jiný počet
+**A) 16**
+B) 17
+C) 18
+D) 19
+E) jiný počet
 
 *Jaro 2015, příklad č. 19. Body: 2.*
 
@@ -33,7 +37,10 @@ b) součet všech bodů $=0\cdot7+1\cdot6+2\cdot6+3\cdot4+4\cdot2=38$; $38:25=1{
 
 **4)** (20 žáků; známka 4 má 10 %, známka 2 má 30 %, známka 3 má 8 žáků.) Rozhodněte o pravdivosti:
 
-a) počet žáků se známkou 1 nebo 2 $=$ počet se známkou 3 nebo 4   b) průměr známek je 2,4   c) medián je 3   d) modus je 3
+a) počet žáků se známkou 1 nebo 2 $=$ počet se známkou 3 nebo 4
+b) průměr známek je 2,4
+c) medián je 3
+d) modus je 3
 
 *Podzim 2015, příklad č. 16. Body: 2. Výsledek: a) A, b) A, c) N, d) A.*
 
@@ -65,7 +72,10 @@ d) nejvyšší četnost (8) má známka 3 — modus $=3$, pravdivé.
 
 **2i)** (20 žáků, zapomenuté úkoly.) Rozhodněte o pravdivosti:
 
-a) dvakrát zapomnělo úkol 30 % žáků   b) průměr je 2,0   c) modus je 2   d) medián je 2
+a) dvakrát zapomnělo úkol 30 % žáků
+b) průměr je 2,0
+c) modus je 2
+d) medián je 2
 
 *2013, příklad č. 16. Body: 2. Výsledek: a) ANO, b) NE, c) NE, d) ANO.*
 

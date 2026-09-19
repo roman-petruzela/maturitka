@@ -11,7 +11,11 @@ hasExercises: true
 
 **1)** První tři členy posloupnosti: $a_1=36$, $a_2=12$, $a_3=4$. Který vzorec pro $n$-tý člen lze použít?
 
-A) $a_n=36+24^{-n}$   B) $a_n=52-16n$   C) $a_n=60-24n$   **D) $a_n=\dfrac{108}{3^n}$**   E) $a_n=36\left(\dfrac13\right)^n$
+A) $a_n=36+24^{-n}$
+B) $a_n=52-16n$
+C) $a_n=60-24n$
+**D) $a_n=\dfrac{108}{3^n}$**
+E) $a_n=36\left(\dfrac13\right)^n$
 
 *Podzim 2014, příklad č. 24. Body: 2.*
 

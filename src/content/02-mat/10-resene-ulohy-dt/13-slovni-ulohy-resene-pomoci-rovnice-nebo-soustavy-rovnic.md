@@ -57,7 +57,11 @@ $$\frac x6+\frac{6{,}5-x}8=1\ /\cdot24 \implies 4x+3(6{,}5-x)=24 \implies 4x+19{
 
 **8)** Kolik výrobků druhé firmy získalo nejvyšší známku 1? *(Úloha vycházela z tabulky s počty výrobků podle známek pro obě firmy — dochované hodnoty: 1. firma 6× známka 1, 10× známka 2, 4× známka 3; 2. firma 8× známka 2, celkem 20 výrobků.)*
 
-A) 4   B) 6   C) 8   **D) jiný počet (7 výrobků)**   E) situace nemůže nastat
+A) 4
+B) 6
+C) 8
+**D) jiný počet (7 výrobků)**
+E) situace nemůže nastat
 
 *Jaro 2014, příklad č. 18. Body: 2.*
 
@@ -65,7 +69,11 @@ A) 4   B) 6   C) 8   **D) jiný počet (7 výrobků)**   E) situace nemůže nas
 
 **9)** Za správně vyřešenou úlohu +50 Kč, za chybnou −150 Kč. 20 úloh, Marek dostal 200 Kč. Kolik % vyřešil správně?
 
-A) 70 %   B) 75 %   **C) 80 %**   D) 85 %   E) jiný počet
+A) 70 %
+B) 75 %
+**C) 80 %**
+D) 85 %
+E) jiný počet
 
 *Podzim 2014, příklad č. 18. Body: 2.*
 
@@ -95,7 +103,9 @@ A) 70 %   B) 75 %   **C) 80 %**   D) 85 %   E) jiný počet
 
 Řešení: cena knihy $x$: Petr má $(x-250)$ Kč, Radek $(x+150)$ Kč. Radek má 3× víc (pozor, ne naopak): $x+150=3(x-250) \implies x+150=3x-750 \implies 900=2x \implies x=450$.
 
-**14)** Bořek uspořil 11 000 Kč, Cyril třetinu průměru úspor Adama a Bořka. Všichni dohromady 3× víc než Adam. a) Kolik uspořil Adam? b) Kolik Cyril?
+**14)** Bořek uspořil 11 000 Kč, Cyril třetinu průměru úspor Adama a Bořka. Všichni dohromady 3× víc než Adam.
+a) Kolik uspořil Adam?
+b) Kolik Cyril?
 
 *Podzim 2016, příklad č. 15. Body: 3. Výsledek: a) 7 000 Kč, b) 3 000 Kč.*
 
@@ -111,7 +121,9 @@ Cyril: $\dfrac{7\,000+11\,000}6=3\,000$ Kč.
 
 Řešení: celkem mincí $32+68=100$. 5Kč mincí $x$, 2Kč mincí $(100-x)$. Na 1. hromádce: $\dfrac x5+\dfrac{100-x}2=32\ /\cdot10 \implies 2x+5(100-x)=320 \implies 2x+500-5x=320 \implies x=60$. Hodnota: $60\cdot5+40\cdot2=380$ Kč.
 
-**16)** 12 učebnic němčiny + několik španělštiny stály stejně; španělština o 60 Kč dražší. Při 12+12 kusech by stálo 3 600 Kč. a) Cena němčiny? b) Kolik španělských učebnic koupeno?
+**16)** 12 učebnic němčiny + několik španělštiny stály stejně; španělština o 60 Kč dražší. Při 12+12 kusech by stálo 3 600 Kč.
+a) Cena němčiny?
+b) Kolik španělských učebnic koupeno?
 
 *Podzim 2017, příklad č. 15. Body: 3. Výsledek: němčina 120 Kč; 8 učebnic španělštiny.*
 
@@ -123,7 +135,11 @@ Cyril: $\dfrac{7\,000+11\,000}6=3\,000$ Kč.
 
 **1p)** Houska je o třetinu levnější než bageta. 5 housek + 3 bagety $=228$ Kč. Cena 3 baget?
 
-A) méně než 120 Kč   B) 120 Kč   C) 144 Kč   D) více než 144 Kč   E) nedostatek údajů
+A) méně než 120 Kč
+B) 120 Kč
+C) 144 Kč
+D) více než 144 Kč
+E) nedostatek údajů
 
 *Jaro 2011 PUP, příklad č. 23. Body: 2. Výsledek: A (108 Kč).*
 
@@ -131,7 +147,11 @@ A) méně než 120 Kč   B) 120 Kč   C) 144 Kč   D) více než 144 Kč   E) ne
 
 **1i)** Žaluzie celkem 2 650 Kč, žaluzie o 954 Kč dražší než instalace. Kolik % z částky tvoří instalace?
 
-A) 42 %   B) 37,5 %   C) 36 %   **D) 32 %**   E) 26,5 %
+A) 42 %
+B) 37,5 %
+C) 36 %
+**D) 32 %**
+E) 26,5 %
 
 *2010 (2), příklad č. 13. Body: 2.*
 
@@ -151,7 +171,11 @@ A) 42 %   B) 37,5 %   C) 36 %   **D) 32 %**   E) 26,5 %
 
 **4i)** Martin jel se zájezdem, o rok později soukromě s Terezkou stejnou trasu — trvalo o 2 dny déle, protože denně ujeli o desetinu méně. Kolik dní trval zájezd?
 
-A) 14   B) 16   **C) 18**   D) 20   E) jiný počet
+A) 14
+B) 16
+**C) 18**
+D) 20
+E) jiný počet
 
 *2012, příklad č. 21. Body: 2.*
 
@@ -165,13 +189,19 @@ A) 14   B) 16   **C) 18**   D) 20   E) jiný počet
 
 **6i)** 4 osoby složí 240 beden o hodinu dřív než 3 osoby. Za kolik hodin to zvládnou 4 osoby?
 
-A) 2 h   **B) 3 h**   C) 4 h   D) 5 h   E) jiný počet
+A) 2 h
+**B) 3 h**
+C) 4 h
+D) 5 h
+E) jiný počet
 
 *2013, příklad č. 18. Body: 2.*
 
 Řešení: 4 osoby: $x$ h; 1 osoba: $4x$ h; 3 osoby: $\dfrac{4x}3$ h $=x+1$: $\dfrac{4x}3=x+1\ /\cdot3 \implies 4x=3x+3 \implies x=3$.
 
-**7i)** Kočky naplní sýpku samy za 2 h, kocouři za 5 h, myšky ji vyprázdní za 10 h. Kocouři pracovali sami 1 h, pak přišly kočky i myšky (současně) až do naplnění. a) Za jak dlouho se sýpka naplnila? b) Jakou část sýpky myšky rozkradly?
+**7i)** Kočky naplní sýpku samy za 2 h, kocouři za 5 h, myšky ji vyprázdní za 10 h. Kocouři pracovali sami 1 h, pak přišly kočky i myšky (současně) až do naplnění.
+a) Za jak dlouho se sýpka naplnila?
+b) Jakou část sýpky myšky rozkradly?
 
 *2014 (1), příklad č. 15. Body: 4. Výsledek: a) 2 h 20 min, b) $\tfrac2{15}$.*
 

@@ -75,7 +75,12 @@ Opačné číslo ke kladnému číslu je záporné, opačné číslo k záporné
 
 **Příklad:** Určete čísla opačná k daným:
 
-a) $5$   b) $-13$   c) $0$   d) $-(7+13)$   e) $-(2\cdot16)$   f) $(2-7)$
+a) $5$
+b) $-13$
+c) $0$
+d) $-(7+13)$
+e) $-(2\cdot16)$
+f) $(2-7)$
 
 Výsledek:
 
@@ -88,7 +93,13 @@ Výsledek:
 
 **Příklad:** Vypočítejte:
 
-a) $24-45$   b) $-16+25$   c) $17-(-35)$   d) $-28-(-39)$   e) $12\cdot(-3)$   f) $(-7)\cdot(-2)$   g) $(-2)\cdot(-3)\cdot(-4)$
+a) $24-45$
+b) $-16+25$
+c) $17-(-35)$
+d) $-28-(-39)$
+e) $12\cdot(-3)$
+f) $(-7)\cdot(-2)$
+g) $(-2)\cdot(-3)\cdot(-4)$
 
 Výsledek:
 

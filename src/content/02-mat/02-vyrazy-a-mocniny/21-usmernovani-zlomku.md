@@ -25,7 +25,15 @@ $$\frac{1}{\sqrt5-\sqrt3} = \frac{\sqrt5+\sqrt3}{(\sqrt5-\sqrt3)(\sqrt5+\sqrt3)}
 
 ## Usměrni zlomky
 
-a) $\dfrac4{\sqrt3}$   b) $\dfrac{3\sqrt2}{\sqrt6}$   c) $\dfrac7{\sqrt7}$   d) $\dfrac{625}{\sqrt5}$   e) $\dfrac{-3}{\sqrt{11}}$   f) $\dfrac{9\sqrt2}{3-\sqrt6}$   g) $\dfrac1{1+\sqrt2}$   h) $\dfrac2{\sqrt3-\sqrt4}$   i) $\dfrac{\sqrt3}{\sqrt3+\sqrt5}$
+a) $\dfrac4{\sqrt3}$
+b) $\dfrac{3\sqrt2}{\sqrt6}$
+c) $\dfrac7{\sqrt7}$
+d) $\dfrac{625}{\sqrt5}$
+e) $\dfrac{-3}{\sqrt{11}}$
+f) $\dfrac{9\sqrt2}{3-\sqrt6}$
+g) $\dfrac1{1+\sqrt2}$
+h) $\dfrac2{\sqrt3-\sqrt4}$
+i) $\dfrac{\sqrt3}{\sqrt3+\sqrt5}$
 
 Výsledek:
 

@@ -11,7 +11,10 @@ hasExercises: true
 
 **1)** U čtveřic čísel určete, tvoří-li geometrickou posloupnost:
 
-a) $(4;2;-2;-4)$   b) $(1;4;16;64)$   c) $(8;-4;2;-1)$   d) $(0;4;8;12)$
+a) $(4;2;-2;-4)$
+b) $(1;4;16;64)$
+c) $(8;-4;2;-1)$
+d) $(0;4;8;12)$
 
 *Jaro 2011, příklad č. 16. Body: 2. Výsledek: a) NE, b) ANO, c) ANO, d) NE.*
 
@@ -19,7 +22,11 @@ a) $(4;2;-2;-4)$   b) $(1;4;16;64)$   c) $(8;-4;2;-1)$   d) $(0;4;8;12)$
 
 **2)** Počet obyvatel se za 2 roky zvýšil z 24 500 na 26 500 (stejný meziroční přírůstek). Jaký byl přírůstek?
 
-A) méně než 4,0 %   **B) přibližně 4,0 %**   C) přibližně 4,1 %   D) přibližně 4,2 %   E) více než 4,2 %
+A) méně než 4,0 %
+**B) přibližně 4,0 %**
+C) přibližně 4,1 %
+D) přibližně 4,2 %
+E) více než 4,2 %
 
 *Jaro 2012, příklad č. 18. Body: 2.*
 
@@ -27,7 +34,11 @@ A) méně než 4,0 %   **B) přibližně 4,0 %**   C) přibližně 4,1 %   D) p�
 
 **3)** Počítač za 10 000 Kč se každý rok znehodnotí o stejné procento. Po 4 letech klesne na cca 1 300 Kč. Kolik procent ročně (s přesností na 1 %)?
 
-A) méně než 22 %   B) 22 %   C) 34 %   **D) 40 %**   E) více než 40 %
+A) méně než 22 %
+B) 22 %
+C) 34 %
+**D) 40 %**
+E) více než 40 %
 
 *Podzim 2012, příklad č. 22. Body: 2.*
 
@@ -43,7 +54,11 @@ A–D) *(nedochováno, pravdivá)*   **E) $\dfrac{a_3}q=2$ (chybně; ve skutečn
 
 **5)** $a_2=12$, $a_3=18$. Jaký je součet $a_1+a_2+a_3+a_4$?
 
-A) 60   B) 64   **C) 65**   D) 72   E) jiný součet
+A) 60
+B) 64
+**C) 65**
+D) 72
+E) jiný součet
 
 *Podzim 2013, příklad č. 23. Body: 2.*
 
@@ -53,7 +68,11 @@ A) 60   B) 64   **C) 65**   D) 72   E) jiný součet
 
 **6)** Kocourkovští si půjčili 1 mil. Kč, dluh každý rok roste o 50 %. Ve kterém roce dluh poprvé překročí 15 mil. Kč?
 
-A) v 6. roce   **B) v 8. roce**   C) v 9. roce   D) v 10. roce   E) později
+A) v 6. roce
+**B) v 8. roce**
+C) v 9. roce
+D) v 10. roce
+E) později
 
 *Jaro 2014, příklad č. 19. Body: 2.*
 
@@ -71,7 +90,11 @@ A–B, D–E) *(nedochováno)*   **C) $a_3=8$**
 
 **8)** Do kterého intervalu patří třetí člen posloupnosti (ze zadaných $a_2$, $a_4$, kde členy musí být kladné)?
 
-A) $\langle1;4)$   **B) $\langle4;8)$**   C) $\langle8;16)$   D) $\langle16;32)$   E) $\langle32;40\rangle$
+A) $\langle1;4)$
+**B) $\langle4;8)$**
+C) $\langle8;16)$
+D) $\langle16;32)$
+E) $\langle32;40\rangle$
 
 *Jaro 2015, příklad č. 23. Body: 2. Výsledek: $a_3=4{,}5$.*
 
@@ -79,7 +102,11 @@ A) $\langle1;4)$   **B) $\langle4;8)$**   C) $\langle8;16)$   D) $\langle16;32)$
 
 **9)** V geometrické posloupnosti $q=-2$, $a_1+a_2+a_3+a_4+a_5=15{,}4$. Do kterého intervalu patří $a_1$?
 
-A) $\langle-8;0)$   **B) $(0;2\rangle$**   C) $(2;4\rangle$   D) $(4;8\rangle$   E) do žádného
+A) $\langle-8;0)$
+**B) $(0;2\rangle$**
+C) $(2;4\rangle$
+D) $(4;8\rangle$
+E) do žádného
 
 *Podzim 2015, příklad č. 19. Body: 2. Výsledek: $a_1=1{,}4$.*
 
@@ -87,7 +114,11 @@ A) $\langle-8;0)$   **B) $(0;2\rangle$**   C) $(2;4\rangle$   D) $(4;8\rangle$  
 
 **10)** Stroj za 200 000 Kč zlevňoval o stejné procento denně; po 4. snížení klesl na 81 920 Kč. O kolik se cena snížila poprvé?
 
-A) méně než 30 000 Kč   B) 30 000 Kč   C) 35 000 Kč   **D) 40 000 Kč**   E) více než 40 000 Kč
+A) méně než 30 000 Kč
+B) 30 000 Kč
+C) 35 000 Kč
+**D) 40 000 Kč**
+E) více než 40 000 Kč
 
 *Jaro 2016, příklad č. 20. Body: 2.*
 
@@ -112,7 +143,12 @@ A–C, E) *(pravdivá)*   **D) (nepravdivé)**
 a) $a_1=8$, $a_4=-1$
 b) $q=-\tfrac12$, $s_3=-12$
 
-A) $a_2=4$   B) $a_2=5$   C) $a_2=6$   D) $a_2=7$   **E) $a_2=8$**   F) jiná hodnota
+A) $a_2=4$
+B) $a_2=5$
+C) $a_2=6$
+D) $a_2=7$
+**E) $a_2=8$**
+F) jiná hodnota
 
 *Podzim 2017, příklad č. 25.3, 25.4. Body: 2. Výsledek: a) F ($a_2=-4$), b) E.*
 
@@ -132,7 +168,12 @@ b) $s_3=a_1\cdot\dfrac{q^3-1}{q-1}=-12$; s $q=-\dfrac12$ vychází $a_1=-16$. $a
 
 **2i)** V GP je $g_2=-10$, $g_3=20$. Přiřaďte a) $g_1$, b) $g_4$:
 
-A) $-50$   B) $-40$   C) $-10$   **D) 5**   E) 40   F) 50
+A) $-50$
+B) $-40$
+C) $-10$
+**D) 5**
+E) 40
+F) 50
 
 *2011, příklad č. 22.3, 22.4. Body: 2. Výsledek: a) D, b) B.*
 
@@ -148,7 +189,11 @@ A–B) *(nedochováno)*   C) 2   **D) 4**   E) 6
 
 **4i)** Úvěr s 10% roční úrokovou mírou splacen po 2 letech částkou 72 600 Kč (složené úročení). Kolik bylo půjčeno?
 
-**A) 60 000 Kč**   B) 60 200 Kč   C) 60 500 Kč   D) 60 600 Kč   E) jiná částka
+**A) 60 000 Kč**
+B) 60 200 Kč
+C) 60 500 Kč
+D) 60 600 Kč
+E) jiná částka
 
 *2014 (2), příklad č. 19. Body: 2.*
 

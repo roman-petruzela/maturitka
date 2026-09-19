@@ -38,7 +38,11 @@ d) Součet obou výrazů je roven ((nedochovalo se)).
 
 **6)** Je dán výraz s neznámou $x\in\mathbb R$ ((nedochoval se)). Jaká je jeho hodnota pro danou hodnotu $x$ ((nedochovala se))?
 
-A) $5+\sqrt3$   B) $-0{,}5-\sqrt3$   **C) $-2$**   D) $-2{,}2$   E) $-3$
+A) $5+\sqrt3$
+B) $-0{,}5-\sqrt3$
+**C) $-2$**
+D) $-2{,}2$
+E) $-3$
 
 *Podzim 2012, příklad č. 17. Body: 2.*
 
@@ -98,7 +102,9 @@ Obecná teorie (dochovala se celá): Rozšířit zlomek nějakým nenulovým č�
 
 *Jaro 2016, příklad č. 4. Body: 2.*
 
-**20)** Je dán výraz $\left(\sqrt{9-x}\right)^2$ *(rekonstrukce z dochovaných podmínek — odmocnina vyžaduje $9-x\geq0$)*. a) Uveďte podmínky. b) Zjednodušte do tvaru dvojčlenu.
+**20)** Je dán výraz $\left(\sqrt{9-x}\right)^2$ *(rekonstrukce z dochovaných podmínek — odmocnina vyžaduje $9-x\geq0$)*.
+a) Uveďte podmínky.
+b) Zjednodušte do tvaru dvojčlenu.
 
 *Podzim 2016, příklad č. 3. Body: 2. Výsledek: a) $x\in(-\infty;9\rangle$, b) $9-x$.*
 

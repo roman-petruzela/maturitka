@@ -59,7 +59,11 @@ hasExercises: true
 
 **9)** Je dán $a_{30}=100$, $d=3$. Kolikátým členem je číslo 280?
 
-A) 60. členem   **B) 90. členem**   C) 120. členem   D) 180. členem   E) jiné pořadí
+A) 60. členem
+**B) 90. členem**
+C) 120. členem
+D) 180. členem
+E) jiné pořadí
 
 *Podzim 2012, příklad č. 21. Body: 2.*
 
@@ -95,7 +99,11 @@ A) 60. členem   **B) 90. členem**   C) 120. členem   D) 180. členem   E) jin
 
 **15)** Jak dlouhá je řada 61 korálků (levá a pravá řada bez prostředního tvoří AP s $d=-2$)?
 
-A) méně než 720 mm   B) 730 mm   **C) 740 mm**   D) 750 mm   E) více než 750 mm
+A) méně než 720 mm
+B) 730 mm
+**C) 740 mm**
+D) 750 mm
+E) více než 750 mm
 
 *Podzim 2014, příklad č. 23. Body: 2.*
 
@@ -103,7 +111,11 @@ A) méně než 720 mm   B) 730 mm   **C) 740 mm**   D) 750 mm   E) více než 75
 
 **16)** Jaký je obvod obrazce (vnořené čtverce, strany $3\cdot50,3\cdot48,\dots,3\cdot16$, plus 2 boční strany po 52)?
 
-A) 1 688 cm   B) 1 735 cm   C) 1 784 cm   **D) 1 886 cm**   E) jiný obvod
+A) 1 688 cm
+B) 1 735 cm
+C) 1 784 cm
+**D) 1 886 cm**
+E) jiný obvod
 
 *Jaro 2015, příklad č. 24. Body: 2.*
 
@@ -117,7 +129,11 @@ A) 1 688 cm   B) 1 735 cm   C) 1 784 cm   **D) 1 886 cm**   E) jiný obvod
 
 **18)** V aritmetické posloupnosti platí vzorec pro $a_n$, kde $a_1=-12{,}5$, $a_2=-37{,}5$. Jaká je diference?
 
-A) 12,5   B) 5   C) $-5$   D) $-12{,}5$   **E) $-25$**
+A) 12,5
+B) 5
+C) $-5$
+D) $-12{,}5$
+**E) $-25$**
 
 *Jaro 2016, příklad č. 19. Body: 2.*
 
@@ -125,7 +141,11 @@ A) 12,5   B) 5   C) $-5$   D) $-12{,}5$   **E) $-25$**
 
 **19)** Pět po sobě jdoucích členů AP: $4,x,y,z,-8$. Jaká hodnota je $x+y+z$?
 
-A) $-2$   B) $-3$   C) $-4$   **D) $-6$**   E) žádná z uvedených
+A) $-2$
+B) $-3$
+C) $-4$
+**D) $-6$**
+E) žádná z uvedených
 
 *Podzim 2016, příklad č. 24. Body: 2.*
 
@@ -148,7 +168,12 @@ A) $-2$   B) $-3$   C) $-4$   **D) $-6$**   E) žádná z uvedených
 a) ((zadání se nedochovalo, dochovaný postup vede k $a_2=7$))
 b) $a_1=12$, $s_4=0$
 
-A) $a_2=4$   B) $a_2=5$   C) $a_2=6$   **D) $a_2=7$**   E) $a_2=8$   F) jiná hodnota
+A) $a_2=4$
+B) $a_2=5$
+C) $a_2=6$
+**D) $a_2=7$**
+E) $a_2=8$
+F) jiná hodnota
 
 *Podzim 2017, příklad č. 25.1, 25.2. Body: 2. Výsledek: a) D, b) A.*
 
@@ -172,7 +197,10 @@ A) $a_2=4$   B) $a_2=5$   C) $a_2=6$   **D) $a_2=7$**   E) $a_2=8$   F) jiná ho
 
 **3p)** V AP platí $a_9-a_8=20$. Rozhodněte o pravdivosti:
 
-a) $a_{10}-a_9=20$   b) $a_8-a_7=20$   c) $d=20$   d) $a_{10}=a_5+5d \implies a_5=0$ *(dosazením $a_{10}=100$)*
+a) $a_{10}-a_9=20$
+b) $a_8-a_7=20$
+c) $d=20$
+d) $a_{10}=a_5+5d \implies a_5=0$ *(dosazením $a_{10}=100$)*
 
 *Jaro 2011 PUP, příklad č. 16. Body: 2. Výsledek: a) NE, b) NE, c) ANO, d) ANO.*
 
@@ -184,7 +212,10 @@ a) $a_{10}-a_9=20$   b) $a_8-a_7=20$   c) $d=20$   d) $a_{10}=a_5+5d \implies a_
 
 **1i)** Za prvních 6 míst v soutěži vyplaceno celkem 2 400 Kč (odměny tvoří klesající AP). Které tvrzení je pravdivé?
 
-**A) Součet za 1. a 6. místo je 800 Kč.**   B) 1 200 Kč   C) více než 1 200 Kč   D) nelze určit
+**A) Součet za 1. a 6. místo je 800 Kč.**
+B) 1 200 Kč
+C) více než 1 200 Kč
+D) nelze určit
 
 *2010 (1), příklad č. 14. Body: 3.*
 
@@ -192,7 +223,10 @@ a) $a_{10}-a_9=20$   b) $a_8-a_7=20$   c) $d=20$   d) $a_{10}=a_5+5d \implies a_
 
 **2i)** 17 po sobě jdoucích lichých čísel, prostřední (9.) je 23. Rozhodněte o pravdivosti:
 
-a) rozdíl sousedních členů je 1   b) $a_{12}=29$   c) všechny členy jsou větší než 5   d) součet čtyř nejmenších je 40
+a) rozdíl sousedních členů je 1
+b) $a_{12}=29$
+c) všechny členy jsou větší než 5
+d) součet čtyř nejmenších je 40
 
 *2010 (2), příklad č. 20. Body: 3. Výsledek: a) NE, b) ANO, c) ANO, d) ANO.*
 
@@ -200,7 +234,12 @@ a) rozdíl sousedních členů je 1   b) $a_{12}=29$   c) všechny členy jsou v
 
 **3i)** V AP je $a_2=-20$, $a_3=10$. Přiřaďte a) $a_1$, b) $a_4$:
 
-A) $-50$   B) $-40$   C) $-10$   D) 5   **E) 40**   F) 50
+A) $-50$
+B) $-40$
+C) $-10$
+D) 5
+**E) 40**
+F) 50
 
 *2011, příklad č. 22.1, 22.2. Body: 2. Výsledek: a) A, b) E.*
 
@@ -208,7 +247,11 @@ A) $-50$   B) $-40$   C) $-10$   D) 5   **E) 40**   F) 50
 
 **4i)** Trojúhelníková síť s 31 trojúhelníky v nejdelší řadě ($a_1=31$, $a_n=1$, $d=-2$). Kolik trojúhelníků celkem?
 
-A) méně než 225   B) 225   **C) 256**   D) 289   E) více než 289
+A) méně než 225
+B) 225
+**C) 256**
+D) 289
+E) více než 289
 
 *2013, příklad č. 20. Body: 2.*
 
@@ -228,7 +271,11 @@ A) méně než 225   B) 225   **C) 256**   D) 289   E) více než 289
 
 **7i)** Zeď z krychlí ($a_1=20$, $a_n=195$, $d=5$, prostřední krychle má hranu 200). Jak dlouhá je zeď?
 
-A) 80,3 m   **B) 79,4 m**   C) 79 m   D) 78,6 m   E) méně než 78,6 m
+A) 80,3 m
+**B) 79,4 m**
+C) 79 m
+D) 78,6 m
+E) méně než 78,6 m
 
 *2014 (2), příklad č. 18. Body: 2.*
 

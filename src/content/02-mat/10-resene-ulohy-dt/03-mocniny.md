@@ -32,7 +32,11 @@ $$4^x(4^{x+1}-3\cdot4^x) = 4^x(4^x\cdot4^1-3\cdot4^x) = 4^x\cdot4^x = 4^{2x}$$
 a) $(a^{-1}\cdot a^2)^3$
 b) $\left(\dfrac{a^{-4}}{a^{-1}}\right)^{-2}$
 
-A) $a^3$   B) $a^4$   C) $a^6$   D) $a^8$   E) $a^{-6}$
+A) $a^3$
+B) $a^4$
+C) $a^6$
+D) $a^8$
+E) $a^{-6}$
 
 *Jaro 2013, příklad č. 26.1, 26.2. Body: 2. Výsledek: a) A, b) C.*
 

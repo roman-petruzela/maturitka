@@ -15,7 +15,11 @@ a) $4-x^2$
 b) $(1-2x)^2$
 c) $(x-2)(2x-2)$
 
-A) $(1-2x)(1+2x)$   B) $(x-1)(2x-4)$   C) $(2+x)(2-x)$   D) $(2x-1)(2x-1)$   E) žádné z uvedených
+A) $(1-2x)(1+2x)$
+B) $(x-1)(2x-4)$
+C) $(2+x)(2-x)$
+D) $(2x-1)(2x-1)$
+E) žádné z uvedených
 
 *Jaro 2012, příklad č. 26. Body: 3. Výsledek: a) C, b) D, c) B.*
 
@@ -63,7 +67,11 @@ c) $(x-2)(2x-2)=(x-2)\cdot2\cdot(x-1)=(x-1)\cdot2\cdot(x-2)=(x-1)(2x-4)$.
 
 **7)** Doplňte do rámečků taková celá čísla, aby platila rovnost: $(3x+\square)^2=\square x^2+60x+\square$. Jaký je součet všech tří doplněných čísel?
 
-A) 23   B) 113   **C) 119**   D) 939   E) jiný součet
+A) 23
+B) 113
+**C) 119**
+D) 939
+E) jiný součet
 
 *Jaro 2016, příklad č. 21. Body: 2.*
 

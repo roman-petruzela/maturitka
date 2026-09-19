@@ -11,7 +11,12 @@ hasExercises: true
 
 **1)** Přiřaďte ke každému grafu a)–d) odpovídající předpis funkce:
 
-A) $y=2$   B) $y=x+2$   C) $y=x-2$   D) $y=-x+2$   E) $y=2x-1$   F) $y=2x+2$
+A) $y=2$
+B) $y=x+2$
+C) $y=x-2$
+D) $y=-x+2$
+E) $y=2x-1$
+F) $y=2x+2$
 
 *Jaro 2013, příklad č. 25. Body: 4. Výsledek: a) B, b) F, c) D, d) A.*
 
@@ -69,7 +74,11 @@ b) Graf $g$ prochází počátkem $[0;0]$, tedy v rovnici $y=ax+b$ platí $b=0$.
 
 **1p)** Který z bodů A–D neleží na přímce $p$ *(graf ukazuje přímku procházející počátkem a bodem $[3;2]$)*?
 
-A) $A[-12;-8]$   B) $B[-9;-6]$   C) $C[0;0]$   D) $D[6;4]$   **E) všechny body leží na přímce $p$**
+A) $A[-12;-8]$
+B) $B[-9;-6]$
+C) $C[0;0]$
+D) $D[6;4]$
+**E) všechny body leží na přímce $p$**
 
 *Jaro 2011 PUP, příklad č. 17. Body: 2.*
 
@@ -77,7 +86,10 @@ A) $A[-12;-8]$   B) $B[-9;-6]$   C) $C[0;0]$   D) $D[6;4]$   **E) všechny body 
 
 **1i)** Graf lineární funkce prochází body $A[2;3]$ a $B[6;-3]$. Jaká je hodnota funkce pro $x=3$?
 
-A) $-1{,}5$   B) $1$   C) $1{,}2$   **D) $1{,}5$**
+A) $-1{,}5$
+B) $1$
+C) $1{,}2$
+**D) $1{,}5$**
 
 *2010 (1), příklad č. 15. Body: 3.*
 

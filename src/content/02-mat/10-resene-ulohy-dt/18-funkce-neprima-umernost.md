@@ -9,7 +9,9 @@ hasExercises: true
 
 *Příklady z maturitních testů Cermatu (základní úroveň) — Funkce nepřímá úměrnost*
 
-**1)** Bod $A[2;2]$ leží na grafu funkce nepřímé úměrnosti $y=\dfrac kx$. a) Vypočtěte konstantu $k$. b) Vypočtěte souřadnici $x$ bodu $P[x;0{,}5]$ a souřadnici $y$ bodu $Q[1;y]$ (oba body leží na stejném grafu).
+**1)** Bod $A[2;2]$ leží na grafu funkce nepřímé úměrnosti $y=\dfrac kx$.
+a) Vypočtěte konstantu $k$.
+b) Vypočtěte souřadnici $x$ bodu $P[x;0{,}5]$ a souřadnici $y$ bodu $Q[1;y]$ (oba body leží na stejném grafu).
 
 *Jaro 2012, příklad č. 7. Body: 3. Výsledek: a) $k=4$, b) $x=8$, $y=4$.*
 

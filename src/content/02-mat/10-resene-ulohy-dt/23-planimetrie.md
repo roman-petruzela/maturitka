@@ -23,7 +23,11 @@ hasExercises: true
 
 **3)** Strany trojúhelníku jsou 8, 9 a 13 cm. Podobný trojúhelník má obvod o 15 cm větší. Určete nejdelší stranu podobného trojúhelníku.
 
-A) 20 cm   **B) 19,5 cm**   C) 19 cm   D) 18 cm   E) žádná z uvedených
+A) 20 cm
+**B) 19,5 cm**
+C) 19 cm
+D) 18 cm
+E) žádná z uvedených
 
 *Jaro 2011, příklad č. 18. Body: 2.*
 
@@ -43,7 +47,11 @@ A) 20 cm   **B) 19,5 cm**   C) 19 cm   D) 18 cm   E) žádná z uvedených
 
 **4)** Určete s přesností na desítky metrů délku hranice $ST$ ((trojúhelník se dvěma zadanými úhly 75° a 60° a jednou stranou — přesná délka strany se nedochovala)).
 
-A) 2 230 m   **B) 2 450 m**   C) 2 630 m   D) 2 800 m   E) 3 010 m
+A) 2 230 m
+**B) 2 450 m**
+C) 2 630 m
+D) 2 800 m
+E) 3 010 m
 
 *Jaro 2011, příklad č. 19. Body: 2.*
 
@@ -51,7 +59,10 @@ A) 2 230 m   **B) 2 450 m**   C) 2 630 m   D) 2 800 m   E) 3 010 m
 
 **5)** Přiřaďte úsečkám a) strana $a$, b) strana $c$, c) úhlopříčka $f$ jejich délky *(pravoúhlý trojúhelník s úhlem 40° a přeponou/odvěsnou 10 jednotek)*:
 
-A) $10\sin40°$   B–C) *(nedochováno)*   D) $10\,\mathrm{tg}\,40°$   E) *(nedochováno)*
+A) $10\sin40°$
+B–C) *(nedochováno)*
+D) $10\,\mathrm{tg}\,40°$
+E) *(nedochováno)*
 
 *Jaro 2011, příklad č. 26. Body: 3. Výsledek: a) E, b) D, c) C.*
 
@@ -121,7 +132,11 @@ A) $10\sin40°$   B–C) *(nedochováno)*   D) $10\,\mathrm{tg}\,40°$   E) *(ne
 
 **11)** Obdélníková plocha 2 000 m² byla rozdělena na dva menší obdélníky v poměru ploch 3:2. Větší se od menšího liší v délce jedné strany o 10 m. V jakém poměru jsou délky stran u větší z obou částí?
 
-A) 5:6   B) 4:5   **C) 3:4**   D) 2:3   E) 1:2
+A) 5:6
+B) 4:5
+**C) 3:4**
+D) 2:3
+E) 1:2
 
 *Podzim 2011, příklad č. 17. Body: 2.*
 
@@ -163,7 +178,11 @@ A) 5:6   B) 4:5   **C) 3:4**   D) 2:3   E) 1:2
 
 **15)** Trojúhelník $ABC$: $a=9$ cm, $b=15$ cm, $c=10$ cm. Kosinus největšího vnitřního úhlu (na setiny)?
 
-A) $+0{,}49$   B) $+0{,}12$   **C) $-0{,}24$**   D) $-0{,}49$   E) $-0{,}76$
+A) $+0{,}49$
+B) $+0{,}12$
+**C) $-0{,}24$**
+D) $-0{,}49$
+E) $-0{,}76$
 
 *Jaro 2012, příklad č. 17. Body: 2.*
 
@@ -185,7 +204,11 @@ A) $+0{,}49$   B) $+0{,}12$   **C) $-0{,}24$**   D) $-0{,}49$   E) $-0{,}76$
 
 **18)** Jaká je délka úhlopříčky $AC$ (na desetiny cm), trojúhelník s úhly 30° a 70°?
 
-A) méně než 6,1 cm   B) 6,1 cm   **C) 6,7 cm**   D) 7,0 cm   E) více než 7,0 cm
+A) méně než 6,1 cm
+B) 6,1 cm
+**C) 6,7 cm**
+D) 7,0 cm
+E) více než 7,0 cm
 
 *Podzim 2012, příklad č. 20. Body: 2.*
 
@@ -199,7 +222,10 @@ A) méně než 6,1 cm   B) 6,1 cm   **C) 6,7 cm**   D) 7,0 cm   E) více než 7,
 
 **20)** V trojúhelníku $ABC$ (proti stranám $a,b,c$ úhly $\alpha,\beta,\gamma$) rozhodněte, zda popisuje pravoúhlý trojúhelník s přeponou $c$:
 
-a) $b=1,c=2,\alpha=60°$   b) $a=1,b=\sqrt3,\alpha=60°$   c) $a=2,c=4,\alpha=30°$   d) $a=\sqrt2,b=\sqrt6,\alpha=30°$
+a) $b=1,c=2,\alpha=60°$
+b) $a=1,b=\sqrt3,\alpha=60°$
+c) $a=2,c=4,\alpha=30°$
+d) $a=\sqrt2,b=\sqrt6,\alpha=30°$
 
 *Jaro 2013, příklad č. 16. Body: 2. Výsledek: a) ANO, b) NE, c) ANO, d) ANO.*
 
@@ -207,7 +233,11 @@ a) $b=1,c=2,\alpha=60°$   b) $a=1,b=\sqrt3,\alpha=60°$   c) $a=2,c=4,\alpha=30
 
 **21)** Kolik ze čtyř trojúhelníků má ortocentrum vně trojúhelníku?
 
-A) žádný   B) jeden   **C) dva**   D) tři   E) čtyři
+A) žádný
+B) jeden
+**C) dva**
+D) tři
+E) čtyři
 
 *Jaro 2013, příklad č. 17. Body: 2.*
 
@@ -279,7 +309,11 @@ b) Pythagorova věta: $x^2=20^2+30^2=1\,300 \implies x\approx36{,}06$. $d\approx
 
 **27)** Obsah čtvercového pozemku (trojúhelník se stranami 120, 100 a úhlem 60°)?
 
-A) 11 140 m²   B) 11 300 m²   **C) 12 400 m²**   D) 12 560 m²   E) jiný obsah
+A) 11 140 m²
+B) 11 300 m²
+**C) 12 400 m²**
+D) 12 560 m²
+E) jiný obsah
 
 *Jaro 2014, příklad č. 22. Body: 2.*
 
@@ -308,7 +342,11 @@ b) Množina bodů se stejnou vzdáleností od $K$ a $L$ je **osa úsečky $KL$**
 
 **29)** Jaký je obsah čtyřúhelníku $ABCD$ (lichoběžník s rameny 4 a 3, resp. $\sqrt{50}$)?
 
-A) $(20+\sqrt{50})\text{ cm}^2$   **B) $37{,}5\text{ cm}^2$**   C) $(41-0{,}5\sqrt{50})\text{ cm}^2$   D) $39{,}5\text{ cm}^2$   E) jiný obsah
+A) $(20+\sqrt{50})\text{ cm}^2$
+**B) $37{,}5\text{ cm}^2$**
+C) $(41-0{,}5\sqrt{50})\text{ cm}^2$
+D) $39{,}5\text{ cm}^2$
+E) jiný obsah
 
 *Podzim 2014, příklad č. 20. Body: 2.*
 
@@ -316,7 +354,11 @@ A) $(20+\sqrt{50})\text{ cm}^2$   **B) $37{,}5\text{ cm}^2$**   C) $(41-0{,}5\sq
 
 **30)** Přiřaďte úhlům a) $\alpha$, b) $\beta$, c) $\gamma$ jejich velikosti (pravoúhlé trojúhelníky se společným bodem $X$).
 
-A) 15°   B) 25°   C) 35°   D) 45°   E) jiná velikost
+A) 15°
+B) 25°
+C) 35°
+D) 45°
+E) jiná velikost
 
 *Podzim 2014, příklad č. 26. Body: 3. Výsledek: a) D ($\alpha=45°$), b) E ($\beta=30°$), c) A ($\gamma=15°$).*
 
@@ -330,7 +372,11 @@ A) 15°   B) 25°   C) 35°   D) 45°   E) jiná velikost
 
 **32)** Přiřaďte trojúhelníkům délku strany $x$:
 
-A) $x<4$ cm   B) $x=4$ cm   C) $x=5$ cm   D) $x=6$ cm   E) $x>6$ cm
+A) $x<4$ cm
+B) $x=4$ cm
+C) $x=5$ cm
+D) $x=6$ cm
+E) $x>6$ cm
 
 *Jaro 2015, příklad č. 26. Body: 3. Výsledek: a) D, b) C, c) E ($x\approx6{,}56$ cm).*
 
@@ -346,7 +392,11 @@ b) Kosinová věta (pozor, úhel na pravé straně rovnice musí ležet naproti 
 
 **34)** Jaká je vzdálenost $AL$ (trojúhelník s úhly 60° a 20°, stranou $LP=125$ m)?
 
-A) 250 m   B) 343 m   **C) 360 m**   D) 365 m   E) jiná vzdálenost
+A) 250 m
+B) 343 m
+**C) 360 m**
+D) 365 m
+E) jiná vzdálenost
 
 *Podzim 2015, příklad č. 20. Body: 2.*
 
@@ -354,7 +404,11 @@ A) 250 m   B) 343 m   **C) 360 m**   D) 365 m   E) jiná vzdálenost
 
 **35)** Jaký je obsah tmavého čtyřúhelníku $ABDE$ (rozdíl dvou trojúhelníků, obsahy 24 a 3 cm²)?
 
-A) 21 cm²   B) 22 cm²   C) 23 cm²   D) 24 cm²   E) jiný obsah
+A) 21 cm²
+B) 22 cm²
+C) 23 cm²
+D) 24 cm²
+E) jiný obsah
 
 *Podzim 2015, příklad č. 21. Body: 2. Výsledek: A.*
 
@@ -368,7 +422,10 @@ A) 21 cm²   B) 22 cm²   C) 23 cm²   D) 24 cm²   E) jiný obsah
 
 **37)** Rozhodněte o pravdivosti (čtverec $ABCD$ s vepsaným půlkruhem $r=20$ a kruhem $r=10$):
 
-a) Tmavý půlkruh má obsah $400\pi\text{ cm}^2$.   b) Bílý kruh má poloviční obsah tmavého půlkruhu.   c) Bílá část čtverce má obsah $25\pi\text{ cm}^2$.   d) Bílý kruh má obsah $200\pi\text{ cm}^2$.
+a) Tmavý půlkruh má obsah $400\pi\text{ cm}^2$.
+b) Bílý kruh má poloviční obsah tmavého půlkruhu.
+c) Bílá část čtverce má obsah $25\pi\text{ cm}^2$.
+d) Bílý kruh má obsah $200\pi\text{ cm}^2$.
 
 *Jaro 2016, příklad č. 16. Body: 2. Výsledek: a) N, b) A, c) A, d) N.*
 
@@ -376,7 +433,11 @@ a) Tmavý půlkruh má obsah $400\pi\text{ cm}^2$.   b) Bílý kruh má polovič
 
 **38)** Jaká je velikost zorného úhlu $\varphi$ (trojúhelník se stranami 39, 101, 128)?
 
-A) **14°**   B) 18°   C) 21°   D) 23°   E) 38°
+A) **14°**
+B) 18°
+C) 21°
+D) 23°
+E) 38°
 
 *Jaro 2016, příklad č. 17. Body: 2.*
 
@@ -390,7 +451,11 @@ A) **14°**   B) 18°   C) 21°   D) 23°   E) 38°
 
 **40)** Jaký je obsah šestiúhelníku $ABCDEF$ (lichoběžník se základnou 6 cm, plocha 32; trojúhelníky s odvěsnami 10 a 6)?
 
-A) 74,5 cm²   B) 82 cm²   C) 90,5 cm²   D) 96 cm²   **E) 100 cm²**
+A) 74,5 cm²
+B) 82 cm²
+C) 90,5 cm²
+D) 96 cm²
+**E) 100 cm²**
 
 *Podzim 2016, příklad č. 19. Body: 2.*
 
@@ -398,7 +463,11 @@ A) 74,5 cm²   B) 82 cm²   C) 90,5 cm²   D) 96 cm²   **E) 100 cm²**
 
 **41)** Šířka řeky $s$ (vzdálenost $AB=50$ m) ve třech situacích:
 
-A) méně než 28 m   **B) 30 m**   **C) 32 m**   **D) 34 m**   E) více než 36 m
+A) méně než 28 m
+**B) 30 m**
+**C) 32 m**
+**D) 34 m**
+E) více než 36 m
 
 *Podzim 2016, příklad č. 26. Body: 3. Výsledek: a) C, b) B, c) D.*
 
@@ -418,7 +487,11 @@ A) méně než 28 m   **B) 30 m**   **C) 32 m**   **D) 34 m**   E) více než 36
 
 **44)** Jaká je šířka řeky $s$ (trojúhelník s úhly 20° a 50°, strana $BD=40$ m)?
 
-A) 24 m   **B) 27 m**   C) 32 m   D) 33 m   E) 35 m
+A) 24 m
+**B) 27 m**
+C) 32 m
+D) 33 m
+E) 35 m
 
 *Jaro 2017, příklad č. 22. Body: 2.*
 
@@ -450,7 +523,11 @@ b) Pythagorova věta: $4^2=(2\sqrt3)^2+v_c^2 \implies 16=12+v_c^2 \implies v_c=2
 
 **46)** Jaká je velikost zorného úhlu $\varphi$ (trojúhelník $KLM$: úhel při $K=125°$, strany $KL=6$ m, $LM=55$ m)?
 
-A) **5,1°**   B) 6,3°   C) 7,4°   D) 8,2°   E) jiná velikost
+A) **5,1°**
+B) 6,3°
+C) 7,4°
+D) 8,2°
+E) jiná velikost
 
 *Podzim 2017, příklad č. 17. Body: 2.*
 
@@ -458,7 +535,11 @@ A) **5,1°**   B) 6,3°   C) 7,4°   D) 8,2°   E) jiná velikost
 
 **47)** O kolik cm² se liší obsahy trojúhelníků $ABD$ a $BCD$ (lichoběžník s obsahem 32, základnou 6, výškou 4)?
 
-A) o 5 cm²   B) o 6,5 cm²   C) o 7 cm²   D) o 7,5 cm²   **E) o 8 cm²**
+A) o 5 cm²
+B) o 6,5 cm²
+C) o 7 cm²
+D) o 7,5 cm²
+**E) o 8 cm²**
 
 *Podzim 2017, příklad č. 18. Body: 2.*
 
@@ -466,7 +547,11 @@ A) o 5 cm²   B) o 6,5 cm²   C) o 7 cm²   D) o 7,5 cm²   **E) o 8 cm²**
 
 **48)** Na pozemku 0,16 km² je čtvercová zahrada o straně 0,2 km. Kolik % plochy zabírá?
 
-A) méně než 20 %   B) 20 %   **C) 25 %**   D) 36 %   E) více než 36 %
+A) méně než 20 %
+B) 20 %
+**C) 25 %**
+D) 36 %
+E) více než 36 %
 
 *Podzim 2017, příklad č. 26.1. Body: 1.*
 
@@ -490,7 +575,11 @@ A) méně než 20 %   B) 20 %   **C) 25 %**   D) 36 %   E) více než 36 %
 
 **3p)** Kolika krokům odpovídá vzdálenost $MN$ (podobné trojúhelníky $PON\sim PQM$, odvěsny 80 a 120 kroků, druhá odvěsna 60)?
 
-A) 240   **B) 250**   C) 260   D) 270   E) 280
+A) 240
+**B) 250**
+C) 260
+D) 270
+E) 280
 
 *Jaro 2011 PUP, příklad č. 18. Body: 2.*
 
@@ -498,7 +587,11 @@ A) 240   **B) 250**   C) 260   D) 270   E) 280
 
 **4p)** Kolik 10metrových úseků je zaúčtováno (trojúhelník se stranami 70, 85 a úhlem 110° mezi nimi)?
 
-A) 10   B) 11   C) 12   **D) 13**   E) 14
+A) 10
+B) 11
+C) 12
+**D) 13**
+E) 14
 
 *Jaro 2011 PUP, příklad č. 19. Body: 2.*
 
@@ -516,7 +609,10 @@ A–B) *(nedochováno)*   C) 6   D) 12   E) jiná hodnota
 
 *Ilustrační maturitní testy Cermatu*
 
-**1i)** Rovnoběžník $ABCD$: $a=5$ cm, úhel $ABS=90°$, úhlopříčka $f=BD=12$ cm. a) Náčrtek. b) Obvod. c) Úhel při $A$.
+**1i)** Rovnoběžník $ABCD$: $a=5$ cm, úhel $ABS=90°$, úhlopříčka $f=BD=12$ cm.
+a) Náčrtek.
+b) Obvod.
+c) Úhel při $A$.
 
 *2010 (1), příklad č. 10. Body: 4. Výsledek: b) $o=36$ cm.*
 
@@ -546,7 +642,11 @@ c) soustava trojúhelníků s $\varepsilon$: $2\varepsilon+3\varepsilon=90° \im
 
 **4i)** Pozemek tvaru půlkruhu: rovná část plotu 28 m. Kolik metrů pletiva na oblouk?
 
-A) **44 m**   B) 48 m   C) 52 m   D) 56 m   E) jiný počet
+A) **44 m**
+B) 48 m
+C) 52 m
+D) 56 m
+E) jiný počet
 
 *2010 (2), příklad č. 14. Body: 2.*
 
@@ -554,7 +654,11 @@ A) **44 m**   B) 48 m   C) 52 m   D) 56 m   E) jiný počet
 
 **5i)** Rovnoramenný trojúhelník: úhel při základně 75°, ramena 10. Základna $c$?
 
-A) přibližně 4,9   **B) přibližně 5,2**   C) přibližně 5,5   D) přibližně 5,8   E) jinou délku
+A) přibližně 4,9
+**B) přibližně 5,2**
+C) přibližně 5,5
+D) přibližně 5,8
+E) jinou délku
 
 *2010 (2), příklad č. 15. Body: 2.*
 
@@ -602,7 +706,10 @@ A–D) *(nedochováno)*   E) *(výsledek)*
 
 **12i)** Trojúhelník $ABC$ s úhlem a vztahem stran splňujícím $a^2+b^2=c^2$. Rozhodněte:
 
-a) Nejdelší strana je $c$.   b) Největší úhel má 100°.   c) Trojúhelník je rovnoramenný.   d) Osa strany $b$ je rovnoběžná se stranou $a$.
+a) Nejdelší strana je $c$.
+b) Největší úhel má 100°.
+c) Trojúhelník je rovnoramenný.
+d) Osa strany $b$ je rovnoběžná se stranou $a$.
 
 *2012, příklad č. 16. Body: 2. Výsledek: a) ANO, b) NE, c) NE, d) ANO.*
 
@@ -610,7 +717,11 @@ a) Nejdelší strana je $c$.   b) Největší úhel má 100°.   c) Trojúhelní
 
 **13i)** Trojúhelník $ABC$: $a=3$, $b=5$, $c=7$ cm. Součet dvou nejmenších úhlů?
 
-A) 22°   B) 38°   **C) 60°**   D) 105°   E) jiný součet
+A) 22°
+B) 38°
+**C) 60°**
+D) 105°
+E) jiný součet
 
 *2012, příklad č. 17. Body: 2.*
 
@@ -624,7 +735,11 @@ A) 22°   B) 38°   **C) 60°**   D) 105°   E) jiný součet
 
 **15i)** Ve kterém trojúhelníku leží ortocentrum vně a zároveň na ose jedné strany?
 
-A) rovnostranný   B) pravoúhlý   C) ostroúhlý   **D) rovnoramenný tupoúhlý**   E) nemůže nastat
+A) rovnostranný
+B) pravoúhlý
+C) ostroúhlý
+**D) rovnoramenný tupoúhlý**
+E) nemůže nastat
 
 *2013, příklad č. 21. Body: 2.*
 
@@ -632,7 +747,11 @@ A) rovnostranný   B) pravoúhlý   C) ostroúhlý   **D) rovnoramenný tupoúhl
 
 **16i)** Jak dlouhá je hrana krychle, je-li $\mathrm{tg}\,\alpha=\dfrac{2a}{3(6-a)}$ (delší odvěsna $6-a$)?
 
-A) kratší než 2,4 m   **B) 2,4 m**   C) 2,5 m   D) 2,6 m   E) delší než 2,6 m
+A) kratší než 2,4 m
+**B) 2,4 m**
+C) 2,5 m
+D) 2,6 m
+E) delší než 2,6 m
 
 *2013, příklad č. 22. Body: 2.*
 
@@ -652,7 +771,11 @@ A) kratší než 2,4 m   **B) 2,4 m**   C) 2,5 m   D) 2,6 m   E) delší než 2,
 
 **19i)** Součet obsahů tří útvarů (trojúhelník, kosodélník se základnou 3 a výškou 4, lichoběžník)?
 
-A) méně než 27,5   B) 27,5   C) 28,0   **D) 28,5**   E) více než 28,5
+A) méně než 27,5
+B) 27,5
+C) 28,0
+**D) 28,5**
+E) více než 28,5
 
 *2014 (1), příklad č. 17. Body: 2.*
 
@@ -666,7 +789,11 @@ A) méně než 27,5   B) 27,5   C) 28,0   **D) 28,5**   E) více než 28,5
 
 **21i)** Obsah obdélníkového pozemku (trojúhelník s úhly 50°, 30°, stranou $b=30$)?
 
-A) 979 m²   B) 1 732 m²   **C) 1 928 m²**   D) 1 958 m²   E) 2 298 m²
+A) 979 m²
+B) 1 732 m²
+**C) 1 928 m²**
+D) 1 958 m²
+E) 2 298 m²
 
 *2014 (2), příklad č. 17. Body: 2.*
 

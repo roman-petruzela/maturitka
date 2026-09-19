@@ -23,7 +23,11 @@ hasExercises: true
 
 **3)** Přiřaďte nerovnici $\dfrac{x-3}2<-1$ řešené v oboru $\mathbb R$ odpovídající množinu řešení:
 
-A) $\emptyset$   **B) $(-\infty;1)$**   C) $(-\infty;3)$   D) $(1;+\infty)$   E) $(3;+\infty)$
+A) $\emptyset$
+**B) $(-\infty;1)$**
+C) $(-\infty;3)$
+D) $(1;+\infty)$
+E) $(3;+\infty)$
 
 *Podzim 2015, příklad č. 26.1. Body: 1.*
 
@@ -51,7 +55,11 @@ a) $1-\dfrac x2\leq0$
 b) $-2\cdot(x-2)\geq0$
 c) $(x-2)\cdot(2-2)\leq0$
 
-A) $\emptyset$   B) $\mathbb R$   C–D) *(nedochováno)*   E) *(nedochováno)*   F) jiné řešení
+A) $\emptyset$
+B) $\mathbb R$
+C–D) *(nedochováno)*
+E) *(nedochováno)*
+F) jiné řešení
 
 *2014 (1), příklad č. 25.2, 25.3, 25.4. Body: 3. Výsledek: a) D ($\langle2;\infty)$), b) E ($(-\infty;2\rangle$), c) B.*
 

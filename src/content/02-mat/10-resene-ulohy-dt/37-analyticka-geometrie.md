@@ -9,7 +9,9 @@ hasExercises: true
 
 *Příklady z maturitních testů Cermatu (základní úroveň) — Analytická geometrie*
 
-**1)** Vektor $\vec u=(-3;4)$ je umístěn s počátečním bodem $A[1;-1]$. a) Znázorněte umístění vektoru v počátku. b) Určete souřadnice koncového bodu $B$.
+**1)** Vektor $\vec u=(-3;4)$ je umístěn s počátečním bodem $A[1;-1]$.
+a) Znázorněte umístění vektoru v počátku.
+b) Určete souřadnice koncového bodu $B$.
 
 *Jaro 2011, příklad č. 7. Body: 3. Výsledek: b) $B[-2;3]$.*
 
@@ -17,13 +19,19 @@ hasExercises: true
 
 **2)** Přímka $p$ prochází body $A[-2;3]$, $B[0;2]$, $C[2;1]$. Která rovnice ji určuje?
 
-A) $2x-y+2=0$   B) $x-2y+4=0$   C) $x-4y-2=0$   **D) $x+2y-4=0$**   E) $2x+y-2=0$
+A) $2x-y+2=0$
+B) $x-2y+4=0$
+C) $x-4y-2=0$
+**D) $x+2y-4=0$**
+E) $2x+y-2=0$
 
 *Jaro 2011, příklad č. 17. Body: 2.*
 
 Řešení: směrový vektor $\vec s=B-A=(2;-1)$, normálový $\vec n=(1;2)$. $p:x+2y+c=0$; $A\in p$: $-2+6+c=0 \implies c=-4$. $p:x+2y-4=0$.
 
-**3)** Je dán vektor $\vec u=(4;-3)$. a) Určete jeho velikost. b) Doplňte souřadnice vektoru $\vec v=(x;y)$ kolmého k $\vec u$ s dvojnásobnou velikostí.
+**3)** Je dán vektor $\vec u=(4;-3)$.
+a) Určete jeho velikost.
+b) Doplňte souřadnice vektoru $\vec v=(x;y)$ kolmého k $\vec u$ s dvojnásobnou velikostí.
 
 *Podzim 2011, příklad č. 7. Body: 3. Výsledek: a) $|\vec u|=5$, b) $\vec v=(6;8)$ nebo $(-6;-8)$.*
 
@@ -33,7 +41,11 @@ b) prodloužený vektor: $2\vec u=(8;-6)$; přehozením souřadnic a změnou zna
 
 **4)** Která z přímek a–e je kolmá k přímce $p$ (procházející body $A[-3;-2]$, $B[0;0]$, $C[3;2]$)?
 
-A) $2x-3y+7=0$   B) $2x+3y-7=0$   C) $2x-3y-7=0$   D) $3x-2y-7=0$   **E) $3x+2y+7=0$**
+A) $2x-3y+7=0$
+B) $2x+3y-7=0$
+C) $2x-3y-7=0$
+D) $3x-2y-7=0$
+**E) $3x+2y+7=0$**
 
 *Podzim 2011, příklad č. 20. Body: 2.*
 
@@ -45,7 +57,9 @@ A) $2x-3y+7=0$   B) $2x+3y-7=0$   C) $2x-3y-7=0$   D) $3x-2y-7=0$   **E) $3x+2y+
 
 Řešení: $q:2x-y-1=0$, normálový vektor $q$: $(2;-1)$. Normálový vektor $p$ (kolmé k $q$, tedy rovnoběžný se směrovým vektorem $q$): $(1;2)$. $p:x+2y+c=0$; $O\in p \implies c=0$. $p:x+2y=0$.
 
-**6)** Trojúhelník $X[1;1]$, $Y[2;8]$, $Z[-6;2]$. Narýsujte a rozhodněte: a) je rovnoramenný? b) je ostroúhlý? c), d) shoduje se pata výšky se středem protější strany?
+**6)** Trojúhelník $X[1;1]$, $Y[2;8]$, $Z[-6;2]$. Narýsujte a rozhodněte:
+a) je rovnoramenný?
+b) je ostroúhlý? c), d) shoduje se pata výšky se středem protější strany?
 
 *Jaro 2012, příklad č. 16. Body: 2. Výsledek: a) ANO, b) NE, c) ANO, d) NE.*
 
@@ -65,7 +79,11 @@ A) $2x-3y+7=0$   B) $2x+3y-7=0$   C) $2x-3y-7=0$   D) $3x-2y-7=0$   **E) $3x+2y+
 
 **9)** Trojúhelník $A[0;1]$, $B[3;-1]$, $C[2;3]$. Výška z $C$ leží na přímce $p$. Její rovnice je:
 
-**A) $3x-2y=0$**   B) $3x+2y-12=0$   C) $2x-3y=0$   D) $2x-3y+5=0$   E) $2x+3y-13=0$
+**A) $3x-2y=0$**
+B) $3x+2y-12=0$
+C) $2x-3y=0$
+D) $2x-3y+5=0$
+E) $2x+3y-13=0$
 
 *Podzim 2012, příklad č. 24. Body: 2.*
 
@@ -85,7 +103,11 @@ A) $2x-3y+7=0$   B) $2x+3y-7=0$   C) $2x-3y-7=0$   D) $3x-2y-7=0$   **E) $3x+2y+
 
 **12)** Čtverec $ABCD$ s úhlopříčkou $AC$, $A[-4;0]$, $\vec{AC}=(6;4)$. Souřadnice středu $S$?
 
-A) $S[1;2]$   B) $S[3;2]$   C) $S[2;4]$   **D) $S[-1;2]$**   E) $S[5;-2]$
+A) $S[1;2]$
+B) $S[3;2]$
+C) $S[2;4]$
+**D) $S[-1;2]$**
+E) $S[5;-2]$
 
 *Podzim 2013, příklad č. 20. Body: 2.*
 
@@ -93,7 +115,11 @@ A) $S[1;2]$   B) $S[3;2]$   C) $S[2;4]$   **D) $S[-1;2]$**   E) $S[5;-2]$
 
 **13)** Jakou rovnici má osa $o$ úsečky $AB$ (kde $\vec{AB}=(0;-6)$, střed $S[-2;0]$)?
 
-A) $x+6y=0$   B) $4x-6y=0$   **C) $y=0$**   D) $x=-2$   E) jinou rovnici
+A) $x+6y=0$
+B) $4x-6y=0$
+**C) $y=0$**
+D) $x=-2$
+E) jinou rovnici
 
 *Podzim 2013, příklad č. 21. Body: 2.*
 
@@ -107,7 +133,11 @@ A) $x+6y=0$   B) $4x-6y=0$   **C) $y=0$**   D) $x=-2$   E) jinou rovnici
 
 **15)** Trojúhelník $A[4;-3]$, $B[4;3]$, $C[2;1]$. Jaká je vzdálenost $A$ od středu $S$ strany $BC$?
 
-A) 4   B) $\sqrt{17}$   C) 5   **D) $\sqrt{26}$**   E) jiná vzdálenost
+A) 4
+B) $\sqrt{17}$
+C) 5
+**D) $\sqrt{26}$**
+E) jiná vzdálenost
 
 *Jaro 2014, příklad č. 23. Body: 2.*
 
@@ -123,7 +153,11 @@ b) $\vec w=\vec u+\vec v=(3;0)+(-2;3)=(1;3)$.
 
 **17)** Body $K[3;y]$, $L[x;8]$ leží na přímce $p:x=3-5t,\ y=-4-12t$. Jaká je délka úsečky $KL$?
 
-**A) 13**   B) $\sqrt{73}$   C) $\sqrt{40}$   D) 5   E) jiná délka
+**A) 13**
+B) $\sqrt{73}$
+C) $\sqrt{40}$
+D) 5
+E) jiná délka
 
 *Podzim 2014, příklad č. 19. Body: 2.*
 
@@ -157,7 +191,11 @@ b) $AB:x+2y+c=0$; $A\in AB$: $-2+6+c=0 \implies c=-4$. $AB:x+2y-4=0$. Průsečí
 
 **22)** Přímka $p:-12x+4y-5=0$. Která z přímek zadaných parametricky je s $p$ rovnoběžná?
 
-A) $\vec s=(3;-1)$   B) $\vec s=(3;1)$   C) $\vec s=(-1;3)$   **D) $\vec s=(1;3)$**   E) $\vec s=(-5;-5)$
+A) $\vec s=(3;-1)$
+B) $\vec s=(3;1)$
+C) $\vec s=(-1;3)$
+**D) $\vec s=(1;3)$**
+E) $\vec s=(-5;-5)$
 
 *Podzim 2015, příklad č. 24. Body: 2.*
 
@@ -171,7 +209,11 @@ A) $\vec s=(3;-1)$   B) $\vec s=(3;1)$   C) $\vec s=(-1;3)$   **D) $\vec s=(1;3)
 
 **24)** Vektory $\vec u=(1;2)$, $\vec v=(3;0)$. Doplňte souřadnice: a) $2\vec u$, b) $\vec u+\vec v$, c) vektor kolmý k $\vec u$.
 
-A) $(4;2)$   **B) $(2;4)$**   C) $(2;-4)$   D) $(-2;-4)$   **E) $(-4;2)$**
+A) $(4;2)$
+**B) $(2;4)$**
+C) $(2;-4)$
+D) $(-2;-4)$
+**E) $(-4;2)$**
 
 *Jaro 2016, příklad č. 26. Body: 3. Výsledek: a) B, b) A, c) E.*
 
@@ -185,7 +227,10 @@ A) $(4;2)$   **B) $(2;4)$**   C) $(2;-4)$   D) $(-2;-4)$   **E) $(-4;2)$**
 
 **26)** Bod $P[3;-5]$. Prochází jím přímka a)–d)?
 
-a) $x-5=0$   b) $y=-\tfrac53x$ *(rekonstrukce ze sklonu)*   c) $3x+5y+16=0$   d) $x=3,\ y=t$
+a) $x-5=0$
+b) $y=-\tfrac53x$ *(rekonstrukce ze sklonu)*
+c) $3x+5y+16=0$
+d) $x=3,\ y=t$
 
 *Podzim 2016, příklad č. 16. Body: 2. Výsledek: a) N, b) A, c) A, d) A.*
 
@@ -193,7 +238,11 @@ a) $x-5=0$   b) $y=-\tfrac53x$ *(rekonstrukce ze sklonu)*   c) $3x+5y+16=0$   d)
 
 **27)** Body $A$, $B$ dány tak, že $\vec{AB}=(2\sqrt5;-2\sqrt2)$. Jaký obvod má čtverec $ABCD$?
 
-A) $8\sqrt5$   B) 22   **C) $8\sqrt7$**   D) 28   E) nelze určit
+A) $8\sqrt5$
+B) 22
+**C) $8\sqrt7$**
+D) 28
+E) nelze určit
 
 *Podzim 2016, příklad č. 17. Body: 2.*
 
@@ -229,7 +278,11 @@ b) $\mathrm{tg}\,\alpha=\dfrac26=\dfrac13\approx0{,}333 \implies\alpha\approx18�
 
 **32)** Přímka $p$ prochází $B[2;1]$, kolmá k $AB$ ($A[-3;-1]$). Která rovnice ji určuje?
 
-A) $5x-2y-8=0$   **B) $5x+2y-12=0$**   C) $2x-5y+1=0$   D) $2x+5y-9=0$   E) žádná z uvedených
+A) $5x-2y-8=0$
+**B) $5x+2y-12=0$**
+C) $2x-5y+1=0$
+D) $2x+5y-9=0$
+E) žádná z uvedených
 
 *Podzim 2017, příklad č. 23. Body: 2.*
 
@@ -239,11 +292,13 @@ A) $5x-2y-8=0$   **B) $5x+2y-12=0$**   C) $2x-5y+1=0$   D) $2x+5y-9=0$   E) žá
 
 *Příklady z testů PUP*
 
-**1p)** Vektor $\vec u=(6;-4)$. a) Doplňte $x$ ve $\vec v=(x;2)$, násobku $\vec u$. b) Doplňte $y$ ve $\vec w=(4;y)$, kolmém k $\vec u$.
+**1p)** Vektor $\vec u=(6;-4)$.
+a) Doplňte $x$ ve $\vec v=(x;2)$, násobku $\vec u$.
+b) Doplňte $y$ ve $\vec w=(4;y)$, kolmém k $\vec u$.
 
 *Jaro 2011 PUP, příklad č. 7. Body: 2. Výsledek: a) $x=-3$, b) $y=6$.*
 
-Řešení: a) $(-2)\cdot x=6 \implies x=-3$ (z poměru druhých souřadnic $2=(-2)\cdot(-4)/... $, přesněji $\vec v=k\vec u$ s $k=-1/2$).
+Řešení: a) $(-2)\cdot x=6 \implies x=-3$ (z druhých souřadnic $-4=(-2)\cdot2$, přesněji $\vec v=k\vec u$ s $k=-1/2$).
 
 b) $\vec u\cdot\vec w=0$: $6\cdot4+(-4)y=0 \implies24=4y \implies y=6$.
 
@@ -251,7 +306,9 @@ b) $\vec u\cdot\vec w=0$: $6\cdot4+(-4)y=0 \implies24=4y \implies y=6$.
 
 *Ilustrační maturitní testy Cermatu*
 
-**1i)** Přímka $p:x=3t,\ y=4-2t$. a) Určete směrový vektor. b) Určete průsečík $P$ s osou $x$.
+**1i)** Přímka $p:x=3t,\ y=4-2t$.
+a) Určete směrový vektor.
+b) Určete průsečík $P$ s osou $x$.
 
 *2010 (1), příklad č. 7. Body: 2. Výsledek: a) $(3;-2)$, b) $P[6;0]$.*
 
@@ -299,7 +356,11 @@ A–C) *(nedochováno)*   **D) $X[6;-8]$**
 
 **8i)** Přímka $q$ s normálovým vektorem $(2;-1)$, přímka $p:x=3-2t,\ y=t$. Jaká je jejich odchylka?
 
-A) 0°   B) 30°   C) 45°   D) 60°   **E) 90°**
+A) 0°
+B) 30°
+C) 45°
+D) 60°
+**E) 90°**
 
 *2013, příklad č. 24. Body: 2.*
 
@@ -307,7 +368,8 @@ A) 0°   B) 30°   C) 45°   D) 60°   **E) 90°**
 
 **9i)** Přímka $p$ (směrový vektor $(2;-1)$), přímka $q:y=0$. Do kterého intervalu patří odchylka $\varphi$?
 
-**A) $\langle0°;36°)$**   B–E) *(nedochováno)*
+**A) $\langle0°;36°)$**
+B–E) *(nedochováno)*
 
 *2014 (1), příklad č. 21. Body: 2. Výsledek: $\varphi\approx27°$.*
 
@@ -315,7 +377,11 @@ A) 0°   B) 30°   C) 45°   D) 60°   **E) 90°**
 
 **10i)** Rovnoběžník $ABCD$, $A[-1;-2]$, $C[3;2]$ (dopočteno z rovnoběžnosti stran). Která rovnice určuje $AC$?
 
-A) $x+y+3=0$   **B) $x-y-1=0$**   C) $x-2y-3=0$   D) $2x-y=0$   E) žádná z uvedených
+A) $x+y+3=0$
+**B) $x-y-1=0$**
+C) $x-2y-3=0$
+D) $2x-y=0$
+E) žádná z uvedených
 
 *2014 (1), příklad č. 22. Body: 2.*
 
@@ -341,7 +407,11 @@ A–D) *(nedochováno)*   **E) 13**
 
 **1s)** Trojúhelník $A$, $B$, $C[2;4]$ ($\vec{AB}=(3;-3)$). Na které přímce leží výška $v_c$?
 
-**A) $x-y+2=0$**   B) $3x-y-2=0$   C) $3x+y-10=0$   D) $x+y-6=0$   E) $2x-y=0$
+**A) $x-y+2=0$**
+B) $3x-y-2=0$
+C) $3x+y-10=0$
+D) $x+y-6=0$
+E) $2x-y=0$
 
 *Kapitola 8, příklad č. 11.*
 

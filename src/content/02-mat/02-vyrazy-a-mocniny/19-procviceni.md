@@ -10,7 +10,12 @@ hasExercises: true
 
 ## 1. Částečně odmocněte
 
-a) $\sqrt{150}$   b) $\sqrt{80}$   c) $\sqrt[3]{40}$   d) $\sqrt[3]{108}$   e) $\sqrt{a^7}$   f) $\sqrt[3]{b^{10}}$
+a) $\sqrt{150}$
+b) $\sqrt{80}$
+c) $\sqrt[3]{40}$
+d) $\sqrt[3]{108}$
+e) $\sqrt{a^7}$
+f) $\sqrt[3]{b^{10}}$
 
 Výsledek:
 
@@ -33,7 +38,10 @@ Výsledek:
 
 ## 3. Zapište pomocí racionálního mocnitele
 
-a) $\sqrt[7]{3}$   b) $\sqrt[6]{a^3}$   c) $\sqrt[5]{a^{-6}}$   d) $\left(\dfrac1{\sqrt[4]{a}}\right)^6$
+a) $\sqrt[7]{3}$
+b) $\sqrt[6]{a^3}$
+c) $\sqrt[5]{a^{-6}}$
+d) $\left(\dfrac1{\sqrt[4]{a}}\right)^6$
 
 Výsledek:
 

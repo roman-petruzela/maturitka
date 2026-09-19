@@ -34,7 +34,12 @@ hasExercises: true
 a) $2^x=\dfrac12$
 b) $2^x=0$
 
-A) $\{-2\}$   **B) $\{-1\}$**   C) $\left\{-\tfrac12\right\}$   D) $\{1\}$   **E) $\emptyset$**   F) jiná množina
+A) $\{-2\}$
+**B) $\{-1\}$**
+C) $\left\{-\tfrac12\right\}$
+D) $\{1\}$
+**E) $\emptyset$**
+F) jiná množina
 
 *Podzim 2015, příklad č. 25.1, 25.2. Body: 2. Výsledek: a) B, b) E.*
 
@@ -89,7 +94,12 @@ b) rovnice nemá řešení — nulu nelze napsat jako mocninu čísla 2 (mocnina
 a) $2^{x-1}=\dfrac14$
 b) $2^x=-4$
 
-A) $\{-2;2\}$   B) $\{-2\}$   **C) $\{-1\}$**   D) $\{1\}$   E) $\{2\}$   **F) $\emptyset$**
+A) $\{-2;2\}$
+B) $\{-2\}$
+**C) $\{-1\}$**
+D) $\{1\}$
+E) $\{2\}$
+**F) $\emptyset$**
 
 *2014 (2), příklad č. 25.1, 25.2. Body: 2. Výsledek: a) C, b) F.*
 

@@ -39,7 +39,11 @@ a) V celém intervalu jsou funkce sinus i kosinus klesající.
 b) V celém intervalu jsou funkce sinus i kosinus rostoucí.
 c) V celém intervalu je funkce sinus klesající a funkce kosinus rostoucí.
 
-A) $\left(0;\dfrac\pi2\right)$   B) *(nedochováno)*   **C) $\left(\dfrac\pi2;\pi\right)$**   **D) $\left(\pi;\dfrac{3\pi}2\right)$**   **E) $\left(\dfrac{3\pi}2;2\pi\right)$**
+A) $\left(0;\dfrac\pi2\right)$
+B) *(nedochováno)*
+**C) $\left(\dfrac\pi2;\pi\right)$**
+**D) $\left(\pi;\dfrac{3\pi}2\right)$**
+**E) $\left(\dfrac{3\pi}2;2\pi\right)$**
 
 *2014 (2), příklad č. 26. Body: 3. Výsledek: a) C, b) E, c) D.*
 

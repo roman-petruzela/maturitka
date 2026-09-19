@@ -11,7 +11,11 @@ hasExercises: true
 
 **1)** Podle jízdního řádu má být vlak za 10 minut ve stanici. K nádraží mu zbývá 32 km jízdy. Vlak za každé 2 minuty ujede 3 kilometry kromě posledního dvoukilometrového úseku, který mu trvá 5 minut. Jaké předpokládané zpoždění se objeví na nádražní informační tabuli?
 
-A) žádné   B) 5 min   C) 10 min   **D) 15 min**   E) jiné zpoždění
+A) žádné
+B) 5 min
+C) 10 min
+**D) 15 min**
+E) jiné zpoždění
 
 *Jaro 2011, příklad č. 22. Body: 2.*
 
@@ -19,7 +23,11 @@ A) žádné   B) 5 min   C) 10 min   **D) 15 min**   E) jiné zpoždění
 
 **2)** Eva má hotovost 450 000 Kč a peněžní ústav jí nabízí roční termínovaný vklad s 3% roční úrokovou mírou. Před vyzvednutím částky se z úroku odpočítá státem stanovená daň ve výši 15 %. Kolik korun bude z tohoto ročního termínovaného vkladu odvedeno na daních?
 
-A) 13 500 Kč   B) 2 250 Kč   **C) 2 025 Kč**   D) 1 000 Kč   E) jiná suma
+A) 13 500 Kč
+B) 2 250 Kč
+**C) 2 025 Kč**
+D) 1 000 Kč
+E) jiná suma
 
 *Jaro 2011, příklad č. 23. Body: 2.*
 
@@ -27,7 +35,11 @@ A) 13 500 Kč   B) 2 250 Kč   **C) 2 025 Kč**   D) 1 000 Kč   E) jiná suma
 
 **3)** Divadlo nabízí pro každé představení celkem 220 vstupenek po 300 korunách a 80 vstupenek po 500 korunách. Během deseti představení bylo šestkrát zcela vyprodáno a čtyřikrát se neprodala polovina dražších lístků. Jaká je průměrná tržba na jedno z deseti představení?
 
-**A) 98 000 Kč**   B) 97 000 Kč   C) 96 000 Kč   D) 95 000 Kč   E) jiná tržba
+**A) 98 000 Kč**
+B) 97 000 Kč
+C) 96 000 Kč
+D) 95 000 Kč
+E) jiná tržba
 
 *Jaro 2011, příklad č. 24. Body: 2.*
 
@@ -37,7 +49,12 @@ A) 13 500 Kč   B) 2 250 Kč   **C) 2 025 Kč**   D) 1 000 Kč   E) jiná suma
 
 a) Kolik % chodí alespoň 2× týdně? b) Kolik % chodí denně? c) Kolik % chodí pravidelně? d) Kolik % chodí nepravidelně?
 
-A) 5 %   B) 25 %   C) 30 %   D) 40 %   E) 65 %   F) jiná hodnota — **a) D, b) A, c) E, d) C**
+A) 5 %
+B) 25 %
+C) 30 %
+D) 40 %
+E) 65 %
+F) jiná hodnota — **a) D, b) A, c) E, d) C**
 
 *Jaro 2011, příklad č. 25. Body: 4.*
 
@@ -57,7 +74,11 @@ A) 5 %   B) 25 %   C) 30 %   D) 40 %   E) 65 %   F) jiná hodnota — **a) D, b)
 
 **7)** Na trh se zavádí nový výrobek. V prvním týdnu se prodává za sníženou zaváděcí cenu. Pět výrobků pořízených za zaváděcí cenu stojí tolik jako tři výrobky koupené za běžnou cenu. O kolik procent je zaváděcí cena nižší než běžná?
 
-**A) více než o 30 %**   B) o 30 %   C) o 20 %   D) méně než o 20 %   E) nelze určit
+**A) více než o 30 %**
+B) o 30 %
+C) o 20 %
+D) méně než o 20 %
+E) nelze určit
 
 *Podzim 2011, příklad č. 21. Body: 2. Výsledek: A (o 40 %).*
 
@@ -65,7 +86,11 @@ A) 5 %   B) 25 %   C) 30 %   D) 40 %   E) 65 %   F) jiná hodnota — **a) D, b)
 
 **8)** V Kocourkově se příjmy obyvatel každým rokem zvýší o 50 % oproti předchozímu roku. Během každého dvouletého období však peníze ztratí polovinu své hodnoty. Jak se změní hodnota příjmů po uplynutí deseti let?
 
-A) zvýší se o víc než 200 %   **B) zvýší se přibližně o 80 %**   C) nezmění se   D) sníží se o ~69 %   E) sníží se o ~94 %
+A) zvýší se o víc než 200 %
+**B) zvýší se přibližně o 80 %**
+C) nezmění se
+D) sníží se o ~69 %
+E) sníží se o ~94 %
 
 *Podzim 2011, příklad č. 22. Body: 2.*
 
@@ -73,7 +98,11 @@ A) zvýší se o víc než 200 %   **B) zvýší se přibližně o 80 %**   C) n
 
 **9)** Kolik žáků dojíždí z Nemanína?
 
-A) 14 žáků   B) 18 žáků   **C) 20 žáků**   D) 24 žáků   E) jiný počet
+A) 14 žáků
+B) 18 žáků
+**C) 20 žáků**
+D) 24 žáků
+E) jiný počet
 
 *Podzim 2011, příklad č. 24. Body: 2.*
 
@@ -99,7 +128,11 @@ A) 14 žáků   B) 18 žáků   **C) 20 žáků**   D) 24 žáků   E) jiný po�
 
 **13)** Osm šéfů gangu představuje 2,5 % počtu všech členů gangu, ale připadá na ně celá polovina zisku. Kolikrát větší je průměrný zisk šéfa oproti průměrnému zisku řadového člena?
 
-A) 19krát   B) 20krát   C) 25krát   **D) 39krát**   E) 80krát
+A) 19krát
+B) 20krát
+C) 25krát
+**D) 39krát**
+E) 80krát
 
 *Jaro 2012, příklad č. 19. Body: 2.*
 
@@ -107,7 +140,11 @@ A) 19krát   B) 20krát   C) 25krát   **D) 39krát**   E) 80krát
 
 **14)** Průměrný plat ve skupině deseti pracovníků byl 26 800 Kč. Čtyřem pracovníkům zvýšili plat o stejnou částku, proto se průměrný plat zvedl o 240 Kč. O kolik korun si polepšil každý zvýhodněný pracovník?
 
-A) o 240 Kč   B) o 400 Kč   C) o 480 Kč   D) o 960 Kč   **E) o jinou částku**
+A) o 240 Kč
+B) o 400 Kč
+C) o 480 Kč
+D) o 960 Kč
+**E) o jinou částku**
 
 *Jaro 2012, příklad č. 20. Body: 2. Výsledek: E (o 600 Kč).*
 
@@ -121,7 +158,11 @@ A) o 240 Kč   B) o 400 Kč   C) o 480 Kč   D) o 960 Kč   **E) o jinou částk
 
 **16)** Čtyři pracovníci si rozdělili výdělek: první dostal pětinu celkové částky, zbývající tři si rozdělili zbytek na tři stejné části. V jakém poměru jsou částky prvního a druhého pracovníka?
 
-**A) 3 : 4**   B) 4 : 5   C) 5 : 4   D) 5 : 3   E) 3 : 2
+**A) 3 : 4**
+B) 4 : 5
+C) 5 : 4
+D) 5 : 3
+E) 3 : 2
 
 *Podzim 2013, příklad č. 22. Body: 2.*
 
@@ -137,7 +178,11 @@ A) o 240 Kč   B) o 400 Kč   C) o 480 Kč   D) o 960 Kč   **E) o jinou částk
 
 **19)** Ve dvoukolové soutěži se řešilo 80 úkolů, v 1. kole čtvrtina, ve 2. kole zbytek. Z 1. kola vyřešeno jen 1/5, proto ve 2. kole z každé trojice úkolů vyřešeny právě 2. Kolik procent úkolů družstvo vyřešilo?
 
-**A) 55 %**   B) 57 %   C) 59 %   D) 61 %   E) jiný počet
+**A) 55 %**
+B) 57 %
+C) 59 %
+D) 61 %
+E) jiný počet
 
 *Jaro 2014, příklad č. 20. Body: 2.*
 
@@ -151,7 +196,11 @@ A) o 240 Kč   B) o 400 Kč   C) o 480 Kč   D) o 960 Kč   **E) o jinou částk
 
 **21)** Obchodník koupil výrobky za jednotnou nákupní cenu. Doporučená prodejní cena je o 60 % vyšší než nákupní. Za doporučenou cenu prodal část výrobků, zbytek se neprodal. O kolik procent je částka získaná z prodeje vyšší než částka vynaložená na nákup všech výrobků?
 
-A) o 48 %   **B) o 28 %**   C) o 20 %   D) obě částky stejné   E) o jiný rozdíl
+A) o 48 %
+**B) o 28 %**
+C) o 20 %
+D) obě částky stejné
+E) o jiný rozdíl
 
 *Podzim 2014, příklad č. 17. Body: 2.*
 
@@ -215,7 +264,11 @@ A) o 48 %   **B) o 28 %**   C) o 20 %   D) obě částky stejné   E) o jiný ro
 
 **32)** Cyklista ujede 3,6 km za 12 minut. Trasu, kterou ujede za půl hodiny, měří na mapě 18 cm. Jaké je měřítko mapy?
 
-A) 1 : 20 000   B) 1 : 25 000   **C) 1 : 50 000**   D) 1 : 100 000   E) 1 : 200 000
+A) 1 : 20 000
+B) 1 : 25 000
+**C) 1 : 50 000**
+D) 1 : 100 000
+E) 1 : 200 000
 
 *Jaro 2017, příklad č. 17. Body: 2.*
 
@@ -229,7 +282,11 @@ A) 1 : 20 000   B) 1 : 25 000   **C) 1 : 50 000**   D) 1 : 100 000   E) 1 : 200 
 
 **34)** Stroj ztrácí každoročně 40 % ceny z předešlého roku. Na kolik % současné ceny klesne za 2 roky?
 
-A) na méně než 20 %   B) na 20 %   C) na 25 %   **D) na 36 %**   E) na více než 36 %
+A) na méně než 20 %
+B) na 20 %
+C) na 25 %
+**D) na 36 %**
+E) na více než 36 %
 
 *Podzim 2017, příklad č. 26.2. Body: 1.*
 
@@ -237,7 +294,11 @@ A) na méně než 20 %   B) na 20 %   C) na 25 %   **D) na 36 %**   E) na více 
 
 **35)** Svetr byl před Vánocemi zdražen o 25 %. V lednu byl zlevněn zpět na původní cenu. O kolik procent byla v lednu snížena zdražená cena?
 
-A) o méně než 20 %   **B) o 20 %**   C) o 25 %   D) o 36 %   E) o víc než 36 %
+A) o méně než 20 %
+**B) o 20 %**
+C) o 25 %
+D) o 36 %
+E) o víc než 36 %
 
 *Podzim 2017, příklad č. 26.3. Body: 1.*
 
@@ -249,7 +310,11 @@ A) o méně než 20 %   **B) o 20 %**   C) o 25 %   D) o 36 %   E) o víc než 3
 
 **1p)** Vlak jede průměrnou rychlostí 75 km/h. Podle jízdního řádu má být za 11 minut ve stanici, ale má před sebou ještě 20 km. Jaké zpoždění se objeví na tabuli?
 
-A) žádné   **B) 5 minut**   C) 10 minut   D) 15 minut   E) jiné
+A) žádné
+**B) 5 minut**
+C) 10 minut
+D) 15 minut
+E) jiné
 
 *Jaro 2011 PUP, příklad č. 22. Body: 2.*
 
@@ -257,7 +322,11 @@ A) žádné   **B) 5 minut**   C) 10 minut   D) 15 minut   E) jiné
 
 **2p)** Obchodníček prodával 8 dní na trzích svíce: 400 dražších po 80 Kč, 560 levnějších po 50 Kč. Levnější prodal všechny. Z dražších prodal v prvních 3 dnech $\tfrac38$ počátečních zásob, pak polovinu zbytku. Jaká byla průměrná tržba na den?
 
-A) 5 500 Kč   B) 5 750 Kč   **C) 6 250 Kč**   D) 6 500 Kč   E) jiná tržba
+A) 5 500 Kč
+B) 5 750 Kč
+**C) 6 250 Kč**
+D) 6 500 Kč
+E) jiná tržba
 
 *Jaro 2011 PUP, příklad č. 24. Body: 2.*
 
@@ -273,7 +342,10 @@ A) 5 500 Kč   B) 5 750 Kč   **C) 6 250 Kč**   D) 6 500 Kč   E) jiná tržba
 
 *Ilustrační maturitní testy Cermatu*
 
-**1i)** Každý student 3. ročníku si vybral právě dva ze čtyř seminářů A–D (tabulka dvojic). a) Doplňte tabulku. b) Kolik studentů má přístup k síti (navštěvuje A nebo B)? c) Kolik studentů je ve 3. ročnících?
+**1i)** Každý student 3. ročníku si vybral právě dva ze čtyř seminářů A–D (tabulka dvojic).
+a) Doplňte tabulku.
+b) Kolik studentů má přístup k síti (navštěvuje A nebo B)?
+c) Kolik studentů je ve 3. ročnících?
 
 *2010 (1), příklad č. 9. Body: 4. Výsledek: b) 48, c) 60.*
 
@@ -293,7 +365,11 @@ A) 5 500 Kč   B) 5 750 Kč   **C) 6 250 Kč**   D) 6 500 Kč   E) jiná tržba
 
 **4i)** Zdeněk si půjčí 15 000 Kč, splácí v 5 splátkách po 3 000 Kč, ke každé splátce navíc 5 % z aktuálního dluhu. Kolik celkem připlatí?
 
-A) 2 070 Kč   **B) 2 250 Kč**   C) 2 750 Kč   D) 3 750 Kč   E) jinou částku
+A) 2 070 Kč
+**B) 2 250 Kč**
+C) 2 750 Kč
+D) 3 750 Kč
+E) jinou částku
 
 *2011, příklad č. 14. Body: 2.*
 
@@ -301,7 +377,11 @@ A) 2 070 Kč   **B) 2 250 Kč**   C) 2 750 Kč   D) 3 750 Kč   E) jinou částk
 
 **5i)** Výrobek s 20% daní stál 6 000 Kč. Kolik by stál se 10% daní? (zaokrouhleno na celé koruny)
 
-A) 5 280 Kč   B) 5 400 Kč   **C) 5 500 Kč**   D) 5 700 Kč   E) 5 980 Kč
+A) 5 280 Kč
+B) 5 400 Kč
+**C) 5 500 Kč**
+D) 5 700 Kč
+E) 5 980 Kč
 
 *2011, příklad č. 15. Body: 2.*
 
@@ -309,7 +389,11 @@ A) 5 280 Kč   B) 5 400 Kč   **C) 5 500 Kč**   D) 5 700 Kč   E) 5 980 Kč
 
 **6i)** Jak se celková roční tržba kin ze vstupného změnila mezi lety 1990 a 2000?
 
-A) v podstatě beze změny   B) zvýšila max o 20 %   **C) zhruba zdvojnásobila**   D) zvýšila téměř 5×   E) o víc než 500 %
+A) v podstatě beze změny
+B) zvýšila max o 20 %
+**C) zhruba zdvojnásobila**
+D) zvýšila téměř 5×
+E) o víc než 500 %
 
 *2011, příklad č. 16. Body: 2.*
 
@@ -317,7 +401,11 @@ A) v podstatě beze změny   B) zvýšila max o 20 %   **C) zhruba zdvojnásobil
 
 **7i)** Pan Novák si za večer vydělal o čtvrtinu víc než pan Dung. Pan Dung utratil 20 % svého výdělku za večeři, pan Novák utratil stejnou částku. Kolik % svého výdělku utratil Novák?
 
-**A) 16 %**   B) 18 %   C) 20 %   D) 25 %   E) jiné řešení
+**A) 16 %**
+B) 18 %
+C) 20 %
+D) 25 %
+E) jiné řešení
 
 *2012, příklad č. 20. Body: 2.*
 
@@ -329,7 +417,9 @@ A) v podstatě beze změny   B) zvýšila max o 20 %   **C) zhruba zdvojnásobil
 
 Řešení: čtverec $=x$ ($100\%$), kruh $=0{,}8x$ ($1\%=0{,}008x$). $x:0{,}008x=125\%$. $125-100=25\%$.
 
-**9i)** Tiskárna tiskne 20 listů za $n$ sekund. a) Kolik listů za 1 sekundu? b) Kolik za $n$ minut?
+**9i)** Tiskárna tiskne 20 listů za $n$ sekund.
+a) Kolik listů za 1 sekundu?
+b) Kolik za $n$ minut?
 
 *2013, příklad č. 9. Body: 2. Výsledek: a) $\tfrac{20}n$, b) 1 200.*
 
@@ -337,7 +427,11 @@ A) v podstatě beze změny   B) zvýšila max o 20 %   **C) zhruba zdvojnásobil
 
 **10i)** Pan Novák vložil 100 000 Kč. Na konci 1.–3. roku úrok 3 %, dále 2 % (vždy z aktuální částky). Kolik korun (na tisíce) přibylo za 6 let?
 
-A) 13 000   B) 15 000   **C) 16 000**   D) 30 000   E) 35 000
+A) 13 000
+B) 15 000
+**C) 16 000**
+D) 30 000
+E) 35 000
 
 *2013, příklad č. 19. Body: 2.*
 
@@ -347,7 +441,11 @@ A) 13 000   B) 15 000   **C) 16 000**   D) 30 000   E) 35 000
 
 **12i)** Kolik minut denně věnuje paní Nová v průměru četbě?
 
-A) 32 min   **B) 36 min**   C) 38 min   D) 40 min   E) 45 min
+A) 32 min
+**B) 36 min**
+C) 38 min
+D) 40 min
+E) 45 min
 
 *2014 (1), příklad č. 24. Body: 2.*
 
@@ -357,7 +455,11 @@ A) 32 min   **B) 36 min**   C) 38 min   D) 40 min   E) 45 min
 
 **14i)** Kolik % hlasujících žáků vybralo jméno "Vikingové"?
 
-A) 20 %   **B) 22 %**   C) 33 %   D) 40 %   E) jiný počet
+A) 20 %
+**B) 22 %**
+C) 33 %
+D) 40 %
+E) jiný počet
 
 *2014 (2), příklad č. 24. Body: 2.*
 

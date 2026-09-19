@@ -51,9 +51,17 @@ Zkouška: $L=\dfrac1{5\cdot4}=\dfrac1{20}$, $P=\dfrac3{10}-\dfrac14=\dfrac6{20}-
 
 **1i)** Ke každé rovnici a)–d) přiřaďte interval, v němž je obsaženo její řešení:
 
-a) $\dfrac{2x+3}3=0$   b) $1-\dfrac3x=-3$ ($x\neq0$)   c) $\dfrac{x-2}{2x}=\dfrac12$ ($x\neq0$)   d) $\dfrac{3-2x}6=\dfrac12$
+a) $\dfrac{2x+3}3=0$
+b) $1-\dfrac3x=-3$ ($x\neq0$)
+c) $\dfrac{x-2}{2x}=\dfrac12$ ($x\neq0$)
+d) $\dfrac{3-2x}6=\dfrac12$
 
-A) $(-\infty;-1)$   B) $\langle-1;0)$   C) $\{0\}$   D) $(0;1\rangle$   E) $(1;+\infty)$   F) rovnice nemá řešení
+A) $(-\infty;-1)$
+B) $\langle-1;0)$
+C) $\{0\}$
+D) $(0;1\rangle$
+E) $(1;+\infty)$
+F) rovnice nemá řešení
 
 *2010 (2), příklad č. 11. Body: 4. Výsledek: a) A ($x=-\tfrac32$), b) D ($x=\tfrac34$, podmínky $x\neq0$), c) F, d) C ($x=0$).*
 

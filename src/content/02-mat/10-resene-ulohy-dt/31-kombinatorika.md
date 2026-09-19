@@ -25,7 +25,11 @@ hasExercises: true
 
 **3)** Na křižovatce lze zahnout doleva (L), doprava (P) nebo pokračovat rovně (S). Kolika způsoby projede auto dvěma křižovatkami?
 
-**A) 9**   B) 8   C) 6   D) 5   E) 4
+**A) 9**
+B) 8
+C) 6
+D) 5
+E) 4
 
 *Jaro 2011, příklad č. 21. Body: 2.*
 
@@ -33,7 +37,11 @@ hasExercises: true
 
 **4)** Vláďa losuje 1 otázku z 10 a dvojici otázek z jiné skupiny 20. Kolik trojic otázek je ve hře?
 
-A) 4 600   B) 4 000   C) 3 800   **D) 1 900**   E) jiný počet
+A) 4 600
+B) 4 000
+C) 3 800
+**D) 1 900**
+E) jiný počet
 
 *Podzim 2011, příklad č. 23. Body: 2.*
 
@@ -41,7 +49,11 @@ A) 4 600   B) 4 000   C) 3 800   **D) 1 900**   E) jiný počet
 
 **5)** Fronta má 4 dívky a 6 chlapců. Kolika způsoby se mohou seřadit?
 
-**A) $10!$**   B) $4!+6!$   C) $4\cdot6$   D) $4!\cdot6!$   E) $(4\cdot6)!$
+**A) $10!$**
+B) $4!+6!$
+C) $4\cdot6$
+D) $4!\cdot6!$
+E) $(4\cdot6)!$
 
 *Podzim 2012, příklad č. 23. Body: 2.*
 
@@ -49,7 +61,11 @@ A) 4 600   B) 4 000   C) 3 800   **D) 1 900**   E) jiný počet
 
 **6)** Pětimístný kód z pěti různých číslic, na prvním místě 8, na posledním 5. Kolik kódů vyhovuje?
 
-A) méně než 336   **B) 336**   C) 512   D) 720   E) více než 720
+A) méně než 336
+**B) 336**
+C) 512
+D) 720
+E) více než 720
 
 *Jaro 2013, příklad č. 22. Body: 2.*
 
@@ -57,7 +73,11 @@ A) méně než 336   **B) 336**   C) 512   D) 720   E) více než 720
 
 **7)** Petr je jeden ze 14 chlapců; vybírá se 4členný tým, Petr je jistý, ostatní 3 losem z 13. Kolik týmů lze sestavit?
 
-A) *(nedochováno)*   **B) $\binom{13}3$**   C) $1+13+12+11$   D) $13\cdot12\cdot11$   E) jiný počet
+A) *(nedochováno)*
+**B) $\binom{13}3$**
+C) $1+13+12+11$
+D) $13\cdot12\cdot11$
+E) jiný počet
 
 *Podzim 2013, příklad č. 24. Body: 2.*
 
@@ -65,7 +85,11 @@ A) *(nedochováno)*   **B) $\binom{13}3$**   C) $1+13+12+11$   D) $13\cdot12\cdo
 
 **8)** Z 5 děvčat a 4 chlapců vybíráme 6člennou skupinu (3 dívky, 3 chlapci). Kolika způsoby?
 
-A) 16   B) 20   **C) 40**   D) 180   E) jiný počet
+A) 16
+B) 20
+**C) 40**
+D) 180
+E) jiný počet
 
 *Jaro 2014, příklad č. 17. Body: 2.*
 
@@ -79,7 +103,11 @@ A) 16   B) 20   **C) 40**   D) 180   E) jiný počet
 
 **10)** V první řadě divadla je 12 obsazených a 3 volná místa (z 15). Kolika způsoby lze volná místa rozmístit?
 
-A) 220   **B) 455**   C) 1 320   D) 2 730   E) jiný počet
+A) 220
+**B) 455**
+C) 1 320
+D) 2 730
+E) jiný počet
 
 *Podzim 2014, příklad č. 21. Body: 2.*
 
@@ -87,9 +115,17 @@ A) 220   **B) 455**   C) 1 320   D) 2 730   E) jiný počet
 
 **11)** Z 10 dětí (mezi nimi jediný Adam, jediná Bohunka) vybíráme trojici. Kolika způsoby při podmínce:
 
-a) není Adam ani Bohunka   b) je Adam i Bohunka   c) je Adam, není Bohunka   d) je Adam
+a) není Adam ani Bohunka
+b) je Adam i Bohunka
+c) je Adam, není Bohunka
+d) je Adam
 
-A) 28   **B) 36**   C) 56   D) 72   E) 336   F) jiný počet
+A) 28
+**B) 36**
+C) 56
+D) 72
+E) 336
+F) jiný počet
 
 *Jaro 2015, příklad č. 25. Body: 4. Výsledek: a) C, b) F (8), c) A, d) B.*
 
@@ -111,7 +147,11 @@ A–C) *(nedochováno)*   **D) $n$**   E) $2n$
 
 **13)** 8 spolužáků se seřadí tak, aby Eva byla první a Dan předposlední. Kolika způsoby?
 
-A) 5 040   B) 2 880   C) 1 440   **D) 720**   E) jiný počet
+A) 5 040
+B) 2 880
+C) 1 440
+**D) 720**
+E) jiný počet
 
 *Podzim 2015, příklad č. 18. Body: 2.*
 
@@ -119,7 +159,11 @@ A) 5 040   B) 2 880   C) 1 440   **D) 720**   E) jiný počet
 
 **14)** Rovnice s neznámou $n\in\mathbb N$: $\dfrac{10!}{9!}+\dfrac{9!}{9!}=n$ ((rekonstrukce z postupu — přesný tvar zlomků s faktoriály se z části nedochoval)). Řešení?
 
-**A) 11**   B) 10   C) 9   D) 8   E) jiné řešení
+**A) 11**
+B) 10
+C) 9
+D) 8
+E) jiné řešení
 
 *Jaro 2016, příklad č. 23. Body: 2.*
 
@@ -133,7 +177,11 @@ A) 5 040   B) 2 880   C) 1 440   **D) 720**   E) jiný počet
 
 **16)** Čtyřciferné číslo ze 4 různých číslic, na prvním místě 2, na místě desítek lichá číslice. Kolik čísel?
 
-A) 21   B) 240   **C) 280**   D) 360   E) jiný počet
+A) 21
+B) 240
+**C) 280**
+D) 360
+E) jiný počet
 
 *Jaro 2017, příklad č. 19. Body: 2.*
 
@@ -143,7 +191,11 @@ A) 21   B) 240   **C) 280**   D) 360   E) jiný počet
 
 **17)** Kolikrát je číslo $A$ větší než číslo $B$? ((Přesná čísla $A$, $B$ se nedochovala.))
 
-A) méně než 10krát   B) 10krát   C) 20krát   **D) 50krát**   E) více než 50krát
+A) méně než 10krát
+B) 10krát
+C) 20krát
+**D) 50krát**
+E) více než 50krát
 
 *Jaro 2017, příklad č. 21. Body: 2.*
 
@@ -169,7 +221,10 @@ A) méně než 10krát   B) 10krát   C) 20krát   **D) 50krát**   E) více ne�
 
 **3p)** Pětimístné slovo se skládá ze dvou čárek a tří teček. Kolik takových slov existuje?
 
-**A) 10**   B) 20   C–D) *(nedochováno)*   E) jiný počet
+**A) 10**
+B) 20
+C–D) *(nedochováno)*
+E) jiný počet
 
 *Jaro 2011 PUP, příklad č. 21. Body: 2.*
 
@@ -189,7 +244,11 @@ $$P'_{k_1,k_2}(k) = \frac{k!}{k_1!\cdot k_2!} = \frac{5!}{2!\cdot3!} = 10$$
 
 **2i)** Kolika způsoby lze na šachovnici rozmístit 3 stejné figury tak, aby byly všechny na hlavní, nebo všechny na vedlejší diagonále?
 
-A) 16   **B) 20**   C) 30   D) 32   E) 33
+A) 16
+**B) 20**
+C) 30
+D) 32
+E) 33
 
 *2012, příklad č. 22. Body: 2.*
 
@@ -203,7 +262,11 @@ A) 16   **B) 20**   C) 30   D) 32   E) 33
 
 **4i)** Čtyřmístný kód: první tři místa různé nenulové číslice, čtvrté místo nejmenší z těchto tří. Kolik kódů vyhovuje?
 
-A) méně než 504   **B) 504**   C) 512   D) 720   E) více než 720
+A) méně než 504
+**B) 504**
+C) 512
+D) 720
+E) více než 720
 
 *2014 (2), příklad č. 22. Body: 2.*
 

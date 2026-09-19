@@ -15,7 +15,10 @@ hasExercises: true
 
 **2)** Graf funkce $y=\log_ax$ prochází bodem $P\left[2;\dfrac12\right]$. Ve kterém intervalu je hodnota základu $a$?
 
-A) $(5;\infty)$   **B) $(3;5\rangle$**   C) $(1;3\rangle$   D–E) *(nedochováno)*
+A) $(5;\infty)$
+**B) $(3;5\rangle$**
+C) $(1;3\rangle$
+D–E) *(nedochováno)*
 
 *Jaro 2014, příklad č. 24. Body: 2. Výsledek: B ($a=4$).*
 

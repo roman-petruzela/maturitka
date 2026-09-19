@@ -34,7 +34,12 @@ b) $x-2y=4$, $\ 2x-y=2$
 c) $-x+2y-1=0$, $\ x-2y=0$
 d) $x=y+2$, $\ y=x-2$
 
-A) $\emptyset$   B) $\{[2;0]\}$   C) $\{[0;2]\}$   D) $\{[0;-2]\}$   E) $\{[0;y],\ y\in\mathbb R\}$   F) jiná množina
+A) $\emptyset$
+B) $\{[2;0]\}$
+C) $\{[0;2]\}$
+D) $\{[0;-2]\}$
+E) $\{[0;y],\ y\in\mathbb R\}$
+F) jiná množina
 
 *Jaro 2014, příklad č. 25. Body: 4. Výsledek: a) E, b) D, c) A, d) F.*
 

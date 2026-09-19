@@ -31,7 +31,11 @@ hasExercises: true
 
 **4)** Je dána rovnice $2x^2-x=6$. Ve kterém intervalu naleznete oba kořeny?
 
-A) $\langle2;6\rangle$   B) $\langle0;5\rangle$   **C) $\langle-4;3\rangle$**   D) $\langle-6;-3\rangle$   E) v žádném z uvedených
+A) $\langle2;6\rangle$
+B) $\langle0;5\rangle$
+**C) $\langle-4;3\rangle$**
+D) $\langle-6;-3\rangle$
+E) v žádném z uvedených
 
 *Jaro 2012, příklad č. 22. Body: 2. Výsledek: C (kořeny $x_1=2$, $x_2=-1{,}5$).*
 
@@ -77,7 +81,11 @@ $$\frac{y-7}{4-y}-\frac{2y-3}{4-y}=0\ /\cdot(4-y) \implies (y-7)-(2y-3)=0 \impli
 
 **10)** Které z rovnic **nemá** řešení? I: $2x^2-4=-4x$; II: $(2x-1)^2=0$; III: $x^2-1=-(x^2-1)$.
 
-A) I a II   B) II a III   C) pouze I   D) pouze III   **E) všechny tři rovnice mají řešení**
+A) I a II
+B) II a III
+C) pouze I
+D) pouze III
+**E) všechny tři rovnice mají řešení**
 
 *Jaro 2015, příklad č. 18. Body: 2.*
 
@@ -91,7 +99,11 @@ A) I a II   B) II a III   C) pouze I   D) pouze III   **E) všechny tři rovnice
 
 **12)** Je dána rovnice $\dfrac1{2x-1}=x$. Do kterého intervalu patří oba kořeny?
 
-A) $\langle-3{,}4;-0{,}6\rangle$   B) $\langle-1{,}2;0{,}6\rangle$   C) $\langle-0{,}9;0{,}9\rangle$   **D) $\langle-0{,}6;1{,}2\rangle$**   E) do žádného
+A) $\langle-3{,}4;-0{,}6\rangle$
+B) $\langle-1{,}2;0{,}6\rangle$
+C) $\langle-0{,}9;0{,}9\rangle$
+**D) $\langle-0{,}6;1{,}2\rangle$**
+E) do žádného
 
 *Jaro 2016, příklad č. 22. Body: 2. Výsledek: D (kořeny $x_1=1$, $x_2=-0{,}5$); podmínky $x\neq0{,}5$.*
 
@@ -143,7 +155,9 @@ c) $9-x^2=0 \implies x^2=9 \implies x_1=3$ (nevyhovuje, $x\neq3$), $x_2=-3$. Rov
 
 Řešení (2. způsob — chytřejší): protože $x^2-4=(x-2)(x+2)$, lze zlomek zjednodušit hned na $x+2$ (pro $x\neq2$): $x+2=3x \implies 2=2x \implies x=1$.
 
-**1i)** Řešte $\dfrac4x-\dfrac{3(x-7)}{x(x-3)}=\dfrac{x+1}{x-3}$. a) Pro které $x$ není rovnice definována? b) Určete množinu řešení.
+**1i)** Řešte $\dfrac4x-\dfrac{3(x-7)}{x(x-3)}=\dfrac{x+1}{x-3}$.
+a) Pro které $x$ není rovnice definována?
+b) Určete množinu řešení.
 
 *2010 (1), příklad č. 8. Body: 4. Výsledek: a) $x=0$, $x=3$, b) $x=-3$.*
 
@@ -151,7 +165,10 @@ c) $9-x^2=0 \implies x^2=9 \implies x_1=3$ (nevyhovuje, $x\neq3$), $x_2=-3$. Rov
 
 **2i)** V $\mathbb R$ řešte $(2x-3)^2-x^2=0$. Které tvrzení je pravdivé?
 
-A) Rovnice má právě jedno řešení.   **B) Hodnoty obou kořenů se liší o 2.**   C) Kořeny jsou opačná nenulová čísla.   D) Žádné z A–C.
+A) Rovnice má právě jedno řešení.
+**B) Hodnoty obou kořenů se liší o 2.**
+C) Kořeny jsou opačná nenulová čísla.
+D) Žádné z A–C.
 
 *2010 (1), příklad č. 13. Body: 3. Výsledek: B ($x_1=1$, $x_2=3$).*
 
@@ -167,7 +184,9 @@ A) Rovnice má právě jedno řešení.   **B) Hodnoty obou kořenů se liší o
 
 **4i)** Přiřaďte úloze $\dfrac{(x-2)^2}{2-x}=0$ odpovídající řešení:
 
-A) $\emptyset$   B) $\mathbb R$   C–F) *(nedochováno)*
+A) $\emptyset$
+B) $\mathbb R$
+C–F) *(nedochováno)*
 
 *2014 (1), příklad č. 25.1. Body: 1. Výsledek: A; podmínky $x\neq2$.*
 

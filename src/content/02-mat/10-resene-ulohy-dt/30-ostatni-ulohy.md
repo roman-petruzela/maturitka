@@ -11,9 +11,15 @@ hasExercises: true
 
 **1)** Přiřaďte k zápisům a)–c) hodnotu $x$, aby platila rovnost:
 
-a) $|x-30|=0$   b) $|x-30|=x$   c) $x+30=|x|$
+a) $|x-30|=0$
+b) $|x-30|=x$
+c) $x+30=|x|$
 
-A) $x=-30$   B) $x=-15$   C) $x=15$   **D) $x=30$**   E) rovnost neplatí pro žádné z uvedených
+A) $x=-30$
+B) $x=-15$
+C) $x=15$
+**D) $x=30$**
+E) rovnost neplatí pro žádné z uvedených
 
 *Podzim 2011, příklad č. 26. Body: 3. Výsledek: a) D, b) C, c) B.*
 
@@ -27,7 +33,11 @@ A) $x=-30$   B) $x=-15$   C) $x=15$   **D) $x=30$**   E) rovnost neplatí pro ž
 
 **3)** Ve kterém domě bydlí Martin (geometrická úloha s mapou domů a věží $V$)?
 
-A) dům A   **B) dům B**   C) dům C   D) dům D   E) jiný dům
+A) dům A
+**B) dům B**
+C) dům C
+D) dům D
+E) jiný dům
 
 *Podzim 2013, příklad č. 18. Body: 2.*
 
@@ -49,7 +59,11 @@ A) dům A   **B) dům B**   C) dům C   D) dům D   E) jiný dům
 
 **6)** Na číselné ose je obraz čísla 1. Které z čísel má obraz nejdále od obrazu čísla 1?
 
-A) $-\sqrt3$   B) $-\dfrac\pi2$   C) $\dfrac\pi2$   D) $\pi-1$   **E) $1-\pi$**
+A) $-\sqrt3$
+B) $-\dfrac\pi2$
+C) $\dfrac\pi2$
+D) $\pi-1$
+**E) $1-\pi$**
 
 *Podzim 2016, příklad č. 18. Body: 2.*
 
@@ -57,7 +71,8 @@ A) $-\sqrt3$   B) $-\dfrac\pi2$   C) $\dfrac\pi2$   D) $\pi-1$   **E) $1-\pi$**
 
 **7)** Která rovnice odpovídá naznačenému schématu (4 políčka, postupné operace proti směru hodinových ručiček: $x\to x-5\to(x-5)\cdot2\to(x-5)\cdot2+7$, poslední krok dává zpět $x$)?
 
-A) $y=3x+1$   B–E) *(nedochováno)*
+A) $y=3x+1$
+B–E) *(nedochováno)*
 
 *Podzim 2016, příklad č. 23. Body: 2. Výsledek: A.*
 

@@ -17,7 +17,11 @@ hasExercises: true
 
 **2)** Přiřaďte k výrazu $\sqrt{a^4}\cdot\sqrt{a^{12}}$ jeho ekvivalentní vyjádření (A–E):
 
-A) $a^3$   B) $a^4$   C) $a^6$   D) $a^8$   E) $a^{-6}$
+A) $a^3$
+B) $a^4$
+C) $a^6$
+D) $a^8$
+E) $a^{-6}$
 
 *Jaro 2013, příklad č. 26.3. Body: 1. Výsledek: D.*
 

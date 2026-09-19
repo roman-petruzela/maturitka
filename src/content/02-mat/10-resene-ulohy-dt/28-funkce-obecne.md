@@ -17,9 +17,17 @@ hasExercises: true
 
 **2)** Přiřaďte předpisům a)–d) název grafu:
 
-a) $y=(2x)^2$   b) $y=2^x$   c) *(zjednodušuje se na $y=x$)*   d) *(nepřímá úměrnost)*
+a) $y=(2x)^2$
+b) $y=2^x$
+c) *(zjednodušuje se na $y=x$)*
+d) *(nepřímá úměrnost)*
 
-A) přímka   B) parabola   C) hyperbola   D) kružnice   E) graf exponenciální funkce   F) jiný název
+A) přímka
+B) parabola
+C) hyperbola
+D) kružnice
+E) graf exponenciální funkce
+F) jiný název
 
 *Jaro 2012, příklad č. 25. Body: 4. Výsledek: a) B, b) E, c) A, d) C.*
 
@@ -27,7 +35,10 @@ A) přímka   B) parabola   C) hyperbola   D) kružnice   E) graf exponenciáln�
 
 **3)** Přiřaďte předpisům a)–d) graf funkce:
 
-a) $y=4^x$   b) *(nepřímá úměrnost, $k>0$)*   c) *(zjednodušuje se na $y=x$)*   d) $y=\log_4x$
+a) $y=4^x$
+b) *(nepřímá úměrnost, $k>0$)*
+c) *(zjednodušuje se na $y=x$)*
+d) $y=\log_4x$
 
 *Podzim 2012, příklad č. 25. Body: 4. Výsledek: a) D, b) A, c) B, d) F.*
 
@@ -35,9 +46,17 @@ a) $y=4^x$   b) *(nepřímá úměrnost, $k>0$)*   c) *(zjednodušuje se na $y=x
 
 **4)** Přiřaďte výrazům a)–d) definiční obor:
 
-a) $\log x$   b) $2^x$   c) $\dfrac1{x+2}$   d) *(zlomek s $x$ ve jmenovateli)*
+a) $\log x$
+b) $2^x$
+c) $\dfrac1{x+2}$
+d) *(zlomek s $x$ ve jmenovateli)*
 
-A) $\mathbb R$   B) $(0;+\infty)$   C) $(2;+\infty)$   D) $(-\infty;0)\cup(0;+\infty)$   E) $(-\infty;2)\cup(2;+\infty)$   F) jiná množina
+A) $\mathbb R$
+B) $(0;+\infty)$
+C) $(2;+\infty)$
+D) $(-\infty;0)\cup(0;+\infty)$
+E) $(-\infty;2)\cup(2;+\infty)$
+F) jiná množina
 
 *Podzim 2013, příklad č. 25. Body: 4. Výsledek: a) B, b) A, c) F ($x\in(-\infty;-2)\cup(-2;\infty)$), d) D.*
 
@@ -45,7 +64,10 @@ A) $\mathbb R$   B) $(0;+\infty)$   C) $(2;+\infty)$   D) $(-\infty;0)\cup(0;+\i
 
 **5)** Přiřaďte předpisům a)–d) graf funkce (předpisy si nejprve zjednodušte):
 
-a) $y=(2^{-1})^x$   b) $y=2(-x)^2$   c) $y=2(-x)^{-1}$   d) $y=2(-x)$
+a) $y=(2^{-1})^x$
+b) $y=2(-x)^2$
+c) $y=2(-x)^{-1}$
+d) $y=2(-x)$
 
 *Podzim 2014, příklad č. 25. Body: 4. Výsledek: a) A, b) C, c) F, d) E.*
 
@@ -59,7 +81,12 @@ a) $y=(2^{-1})^x$   b) $y=2(-x)^2$   c) $y=2(-x)^{-1}$   d) $y=2(-x)$
 
 **7)** Přiřaďte grafům a)–d) předpis funkce (výrazy se po úpravě zjednoduší na):
 
-A) $y=2x$   B) $y=-2x$   C) *(kladný násobek $x$)*   D) *(hyperbola, 1. a 3. kvadrant)*   E) *(hyperbola, 2. a 4. kvadrant)*   F) *(hyperbola, 2. a 4. kvadrant)*
+A) $y=2x$
+B) $y=-2x$
+C) *(kladný násobek $x$)*
+D) *(hyperbola, 1. a 3. kvadrant)*
+E) *(hyperbola, 2. a 4. kvadrant)*
+F) *(hyperbola, 2. a 4. kvadrant)*
 
 *Jaro 2016, příklad č. 25. Body: 4. Výsledek: a) D, b) E, c) B, d) C.*
 
@@ -67,7 +94,10 @@ A) $y=2x$   B) $y=-2x$   C) *(kladný násobek $x$)*   D) *(hyperbola, 1. a 3. k
 
 **8)** Přiřaďte grafům a)–d) předpis (pomocí $\mathrm{tg}$ typických úhlů):
 
-a) $y=\mathrm{tg}\,45°$   b) $y=x\cdot\mathrm{tg}\,135°$   c) $y=x\cdot\mathrm{tg}\,225°$   d) $y=x+\mathrm{tg}\,315°$
+a) $y=\mathrm{tg}\,45°$
+b) $y=x\cdot\mathrm{tg}\,135°$
+c) $y=x\cdot\mathrm{tg}\,225°$
+d) $y=x+\mathrm{tg}\,315°$
 
 *Jaro 2017, příklad č. 25. Body: 4. Výsledek: a) F, b) A, c) B, d) E.*
 
@@ -99,7 +129,12 @@ d) $y=1x-1$ — rostoucí, protíná osu $y$ v $-1$ — E.
 
 **2i)** Přiřaďte grafům $f_1$–$f_4$ (pro $x\in\langle0;+\infty)$) předpis:
 
-A) $y=2^x$   B) $y=-4x$   C) $y=\log x$   D) *(hyperbola, 1. kvadrant)*   E) $y=x^2$   F) $y=4-x$
+A) $y=2^x$
+B) $y=-4x$
+C) $y=\log x$
+D) *(hyperbola, 1. kvadrant)*
+E) $y=x^2$
+F) $y=4-x$
 
 *2013, příklad č. 25. Body: 4. Výsledek: a) D, b) F, c) A, d) E.*
 

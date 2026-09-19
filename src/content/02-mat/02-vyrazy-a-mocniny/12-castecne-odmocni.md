@@ -27,7 +27,14 @@ $$\sqrt{50} = \sqrt{25\cdot2} = \sqrt{25}\cdot\sqrt2 = 5\sqrt2$$
 
 Částečně odmocněte:
 
-a) $\sqrt{18}$   b) $\sqrt{72}$   c) $\sqrt{300}$   d) $\sqrt{80}$   e) $\sqrt{175}$   f) $\sqrt{52}$   g) $\sqrt{108}$   h) $\sqrt{245}$
+a) $\sqrt{18}$
+b) $\sqrt{72}$
+c) $\sqrt{300}$
+d) $\sqrt{80}$
+e) $\sqrt{175}$
+f) $\sqrt{52}$
+g) $\sqrt{108}$
+h) $\sqrt{245}$
 
 Výsledek:
 

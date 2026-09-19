@@ -50,7 +50,11 @@ $$D(v) = \mathbb{R}$$
 
 Určete definiční obory výrazů:
 
-a) $\dfrac{y}{y-5}$   b) $\sqrt{2x-6}$   c) $\dfrac{\sqrt{t+1}}{t-2}$   d) $\dfrac{5}{m^2-9}$   e) $\dfrac{3}{n^2+4}$
+a) $\dfrac{y}{y-5}$
+b) $\sqrt{2x-6}$
+c) $\dfrac{\sqrt{t+1}}{t-2}$
+d) $\dfrac{5}{m^2-9}$
+e) $\dfrac{3}{n^2+4}$
 
 Výsledek:
 

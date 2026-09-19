@@ -36,7 +36,11 @@ Výsledek:
 
 ## 3. Usměrněte zlomky
 
-a) $\dfrac1{\sqrt3}$   b) $\dfrac4{\sqrt5}$   c) $\dfrac{-6}{\sqrt6}$   d) $\dfrac{55}{\sqrt{11}}$   e) $\dfrac{-14}{\sqrt7}$
+a) $\dfrac1{\sqrt3}$
+b) $\dfrac4{\sqrt5}$
+c) $\dfrac{-6}{\sqrt6}$
+d) $\dfrac{55}{\sqrt{11}}$
+e) $\dfrac{-14}{\sqrt7}$
 
 Výsledek:
 

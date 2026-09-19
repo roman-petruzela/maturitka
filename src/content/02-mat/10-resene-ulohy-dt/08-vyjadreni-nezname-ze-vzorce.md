@@ -11,7 +11,11 @@ hasExercises: true
 
 **1)** Pro $x\neq0$ a $n\in\mathbb N$ platí vztah $n=\dfrac nx-3$. Pro veličinu $x$ platí:
 
-A) $x=-2$   B) $x=1-3n$   C) *(nedochováno)*   D) *(nedochováno)*   **E) $x=\dfrac{n}{n+3}$**
+A) $x=-2$
+B) $x=1-3n$
+C) *(nedochováno)*
+D) *(nedochováno)*
+**E) $x=\dfrac{n}{n+3}$**
 
 *Podzim 2012, příklad č. 18. Body: 2.*
 
@@ -31,7 +35,11 @@ a) $b-2a=1-3a$
 b) $2a-b=b-2$
 c) $a-\dfrac b2=a+1$
 
-A) $a=b-1$   B) $a=b+1$   C) $a=1-b$   D) $a=b+2$   E) žádné z uvedených vyjádření nevyhovuje
+A) $a=b-1$
+B) $a=b+1$
+C) $a=1-b$
+D) $a=b+2$
+E) žádné z uvedených vyjádření nevyhovuje
 
 *Podzim 2013, příklad č. 26. Body: 3. Výsledek: a) C, b) A, c) E.*
 
@@ -78,7 +86,11 @@ b) $\dfrac1t+z=2\ /\cdot t \implies 1+tz=2t \implies 1=2t-tz \implies 1=t(2-z) \
 
 **3i)** Který z uvedených vztahů je odvozen ze vzorce $v=\dfrac{2s}{t_1+t_2}$ (průměrná rychlost při dvoufázovém pohybu)?
 
-A) *(nedochováno)*   B) *(nedochováno)*   **C) $s=\dfrac{v(t_1+t_2)}2$**   D) *(nedochováno)*   E) *(nedochováno)*
+A) *(nedochováno)*
+B) *(nedochováno)*
+**C) $s=\dfrac{v(t_1+t_2)}2$**
+D) *(nedochováno)*
+E) *(nedochováno)*
 
 *2013, příklad č. 17. Body: 2.*
 
