@@ -3,9 +3,6 @@ title: "Sedmisegmentový displej"
 order: 13
 source: "robotika1.pol/cv11_Sedmisegmentovy_displej.pdf"
 ---
-IT3 – RBT – Arduino – Sedmisegmentový displej
-
-CV-11
 
 # **Sedmisegmentový displej**
 
@@ -31,11 +28,6 @@ _Obrázek 2: Značení sedmisegmentového displeje a propojení CA a CC_
 
 6. 8x Odpor 220Ω
 
-_
-IT3 – RBT – Arduino – Sedmisegmentový displej
-
-CV-11
-
 ## **Zapojení**
 
 _Obrázek 3: Zapojení sedmisegmentovky s Arduinem_
@@ -53,11 +45,6 @@ _Obrázek 3: Zapojení sedmisegmentovky s Arduinem_
 |g|9|
 |e|10|
 |d|11|
-
-_
-IT3 – RBT – Arduino – Sedmisegmentový displej
-
-CV-11
 
 _Obrázek 4: Reálné zapojení sedmisegmentového displeje_
 
@@ -100,11 +87,6 @@ void loop() {
 digital_1();// zobrazit 1 na displeji
 delay(1000);// počkat 1000 ms (1s)
 ```
-
-_
-CV-11
-
-IT3 – RBT – Arduino – Sedmisegmentový displej
 
 ```
 digital_2();// zobrazit 2 na displeji
@@ -157,11 +139,6 @@ digitalWrite(f, ON);
 digitalWrite(g, ON);
 ```
 
-_
-IT3 – RBT – Arduino – Sedmisegmentový displej
-
-CV-11
-
 ||**`digitalWrite(b,`**|**`ON);`**|
 |---|---|---|
 ||**`digitalWrite(c,`**|**`ON);`**|
@@ -212,11 +189,6 @@ CV-11
 ||**`digitalWrite(f,`**|**`ON);`**|
 ||**`digitalWrite(e,`**|**`ON);`**|
 
-_
-CV-11
-
-IT3 – RBT – Arduino – Sedmisegmentový displej
-
 ```
 digitalWrite(d, ON);
 digitalWrite(c, ON);
@@ -252,4 +224,3 @@ digitalWrite(thisPin, !ON);
 
 Arduino MAXI Starter kit OD BASTLÍŘŮ BASTLÍŘŮM - Lekce 18 Sedmisegmentový displej
 
-_

@@ -57,13 +57,20 @@ Zvuková karta, Reproduktory a mikrofony
 
 # Druhy zvukových karet
 
-<!-- Start of picture text -->
-Integrovaná<br>zvuková karta<br>Interní zvuková karta<br>Externí zvuková karta<br><!-- End of picture text -->
+((obrázek vynechán))
+
 
 # Barevné označení vstupů a výstupů zvukové karty
 
-<!-- Start of picture text -->
-Barva Funkce<br>Růžová Analogový mikrofonní vstup.<br>Světle  Analogový vstup.<br>modrá<br>Limetkově  Analogový výstup pro hlavní stereo signál (přední<br>zelená reproduktory nebo sluchátka).<br>Černá Analogový výstup pro zadní reproduktory.<br>Stříbrná Analogový výstup pro boční reproduktory.<br>Oranžová S/PDIF digitální výstup.<br><!-- End of picture text -->
+|Barva|Funkce|
+|---|---|
+|Růžová|Analogový mikrofonní vstup.|
+|Světle modrá|Analogový vstup.|
+|Limetkově zelená|Analogový výstup pro hlavní stereo signál (přední reproduktory nebo sluchátka).|
+|Černá|Analogový výstup pro zadní reproduktory.|
+|Stříbrná|Analogový výstup pro boční reproduktory.|
+|Oranžová|S/PDIF digitální výstup.|
+
 
 # Reproduktor
 
@@ -155,8 +162,8 @@ Barva Funkce<br>Růžová Analogový mikrofonní vstup.<br>Světle  Analogový v
 
 # Vlastnosti mikrofonů
 
-<!-- Start of picture text -->
-0°<br>● Směrové charakteristiky -5dB-10dB<br>-15dB-20dB-25dB<br>– Všesměrová  270° 90° 0°<br>–– Kardioidní Superkardioidní  180° 270° -5 dB-10 dB-15 dB-20 dB-25 dB 90°<br>– Hyperkardioidní  180°<br>– Osmičková<br>– Úzce směrová<br><!-- End of picture text -->
+((obrázek vynechán))
+
 
 - Frekvenční charakteristiky
 

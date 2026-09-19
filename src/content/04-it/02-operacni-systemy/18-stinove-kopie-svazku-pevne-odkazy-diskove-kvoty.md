@@ -7,7 +7,7 @@ Použití stínové kopie svazku, pevné odkazy, diskové kvóty
 
 Použití stínové kopie svazku **Stínové kopírování souborů ve sdílených složkách** • umožňuje konfigurovat svazky tak, aby se v nastavených intervalech během dne ve sdílených složkách automaticky vytvářely stínové kopie souborů
 
-- lze se vrátit k předchozím verzím souborů,které jsou uloženy ve sdílených složkách
+- lze se vrátit k předchozím verzím souborů, které jsou uloženy ve sdílených složkách
 
 - • pomocí těchto starších verzí lze obnovit odstraněné, nesprávně upravené nebo přepsané soubory
 
@@ -31,7 +31,7 @@ Před implementací je vhodné zvážit následující hlediska:
 
 ## Implementace stínových kopiíí sdílených složek
 
-• jakmile nastavíme funkci stínové kopírování svazků,začnou se vytvářet stínové kopie souborů ve sdílených složkách na těchto svazcích
+• jakmile nastavíme funkci stínové kopírování svazků, začnou se vytvářet stínové kopie souborů ve sdílených složkách na těchto svazcích
 
 • ukládá se až 64 verzí každého souboru a ve výchozím nastavení nakonfiguruje svou max. spotřebu na 10 % kapacity svazku, po tomto nastavení je maximální hodnota pevná, dokud jí nezměníme → může docházet k chybám v důsledku nedostatku místa !
 

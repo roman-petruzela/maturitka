@@ -157,7 +157,7 @@ Ethernet
 
    - Všechny uzly (v rámci jedné kolizní domény) se dělí o jednu společnou přenosovou kapacitu
 
-   - Sdílený charakter končí na na nejbližším mostu, přepínači, směrovači
+   - Sdílený charakter končí na nejbližším mostu, přepínači, směrovači
 
    - Když stanice obdrží paket s jinou než vlastní adresou, zahodí jej.
 
@@ -263,8 +263,8 @@ Ethernet
 
 ## Kolizní doména
 
-<!-- Start of picture text -->
-HUB<br>Switch<br><!-- End of picture text -->
+((obrázek vynechán))
+
 
 ## 10Base T
 

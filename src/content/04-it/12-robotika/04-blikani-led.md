@@ -3,9 +3,6 @@ title: "Blikání LED"
 order: 4
 source: "robotika1.pol/cv03_Blikani_LED.pdf"
 ---
-IT3 – RBT – Arduino – Blikání LED
-
-CV-03
 
 # **Blikáme LED**
 
@@ -37,11 +34,6 @@ CV-03
 
 - Pak Tools → Serial Port vyberte sériový port, na který je Arduino připojeno
 
-_
-IT3 – RBT – Arduino – Blikání LED
-
-CV-03
-
 ## **Zapojení**
 
 Dle obrázku:
@@ -70,4 +62,3 @@ void loop() {
 }
 ```
 
-_

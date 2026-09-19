@@ -13,8 +13,10 @@ source: "site/01_Sitovy_HW_pasivni_prvky_kabely_KOAX_UTP.pdf"
 
 # Možnosti komunikace různými médii
 
-<!-- Start of picture text -->
-elektrický signál<br>elektromagnetické vlny<br>světlo - světelné impulsy  (frekvence,vlnová délka)<br><!-- End of picture text -->
+- elektrický signál
+- elektromagnetické vlny
+- světlo – světelné impulsy (frekvence, vlnová délka)
+
 
 # Síťový HW – pasivní prvky
 
@@ -32,8 +34,8 @@ elektrický signál<br>elektromagnetické vlny<br>světlo - světelné impulsy  
 
 # Koaxiální kabel - „souosý" (co-axiální)
 
-<!-- Start of picture text -->
-izolační vrstva  vyrobená<br>z dielektrika (elektricky  Nonplenum:<br>izolující látka) z polyethylenu nebo PVC<br>plenum  –  žáruvzdorný:<br>z teflonu nebo kynaru<br>vnitřní<br>(středový, nosný, signálový)<br>vodič  - vodivý drát, většinou  vnější stínění  – většinou měděné -<br>měděný, plný nebo splétaný-  odstiňuje středový vodič od okolních<br>lanko, vlivů (zejména od vnějšího<br>elektromagnetického pole) a brání<br>vyzařování ven<br><!-- End of picture text -->
+((obrázek vynechán))
+
 
 # Použití
 
@@ -191,5 +193,5 @@ izolační vrstva  vyrobená<br>z dielektrika (elektricky  Nonplenum:<br>izoluj�
 
 # Konektory pro TP
 
-<!-- Start of picture text -->
-RJ-45 pro STP/FTP<br>Rj-45 pro licnu<br>RJ-45 pro drát Zásuvka 2x RJ-45<br><!-- End of picture text -->
+((obrázek vynechán))
+

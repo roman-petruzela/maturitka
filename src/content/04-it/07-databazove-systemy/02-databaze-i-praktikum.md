@@ -7,8 +7,6 @@ source: "MATURITA HADR/IT/DAT_I-praktikum.pdf"
 
 Střední Průmyslová škola ÚSTÍ NAD LABEM DAT I – Ladislav Kožej
 
-Databáze II. ročník | Praktikum
-
 ### Úvod
 
 - Jazyk SQL není case sensitive. Doporučuji však hlavně v postgre sjednotit case v názvech.
@@ -47,11 +45,7 @@ Do rozhraní pro SQL se následně dostaneme ve webovém prohlížeči na adrese
 
 Žlutá: Panel s databázemi a tlačítko pro vytvoření nové databáze. Červená: Porovnávání (collation). Nastavit **uft8_czech_ci** , pro česká data, která v hodinách používáme. **Důležité!**
 
-Střední Průmyslová škola ÚSTÍ NAD LABEM
-
 LADISLAV KOŽEJ 1
-
-Databáze II. ročník | Praktikum
 
 **<u>Rozhraní pro tvorbu SQL queries: part 1</u>**
 
@@ -61,11 +55,7 @@ _Toto rozhraní bychom používat_ **_neměli._**
 
 ###### **<u>Rozhraní pro tvorbu SQL queries: part 2</u>**
 
-Střední Průmyslová škola ÚSTÍ NAD LABEM
-
 LADISLAV KOŽEJ 2
-
-Databáze II. ročník | Praktikum
 
 Při kliknutí na databázi ( _2it_ ) a na záložku **SQL** , se zobrazí prostředí pro tvorbu query.
 
@@ -89,11 +79,7 @@ Až budete mít databázi vytvořenou, připojíte se k ní dvojklikem. Zpočát
 
 ###### **<u>Vytvoření databáze pgAdmin III:</u>**
 
-Střední Průmyslová škola ÚSTÍ NAD LABEM
-
 LADISLAV KOŽEJ 3
-
-Databáze II. ročník | Praktikum
 
 Klikneme pravým tlačítkem na **Databáze** , objeví se menu a vybereme **Nová databáze…** .
 
@@ -103,11 +89,7 @@ Z daných polí nás bude zajímat zatím akorát **Název** v prvním obrázku,
 
 První čeho si všimneme v prostředí, je grafický upgrade. Pocit nadšení je však brzy nahrazen pocitem zklamání, že kvůli designu byla obětována Windows vyskakovací okna a panely. Nyní už nejde mít jakékoliv vyskakovací okno mimo okno hlavní, takže pokud hlavní okno minimalizujeme, minimalizujeme i všechna ostatní okna aplikace. Další důležitou změnu je monitoring na panelu **Dashboard** , kterou zatím nevyužijeme.
 
-Střední Průmyslová škola ÚSTÍ NAD LABEM
-
 LADISLAV KOŽEJ 4
-
-Databáze II. ročník | Praktikum
 
 Většina ostatních věcí zůstala stejná, pro vytvoření databáze se podívejte o kousek výše na **pgAdmin III** .
 
@@ -149,11 +131,7 @@ registered datetime NOT NULL CURRENT_TIMESTAMP
 );
 ```
 
-Střední Průmyslová škola ÚSTÍ NAD LABEM
-
 LADISLAV KOŽEJ 5
-
-Databáze II. ročník | Praktikum
 
 ##### PostgreSQL
 
@@ -195,11 +173,7 @@ PostgreSQL `CREATE TABLE cars ( id_car serial, spz varchar(10) NOT NULL, PRIMARY
 ALTER TABLE cars
 ```
 
-Střední Průmyslová škola ÚSTÍ NAD LABEM
-
 LADISLAV KOŽEJ 6
-
-Databáze II. ročník | Praktikum
 
 ```
 DROP PRIMARY KEY;
@@ -215,11 +189,7 @@ ALTER TABLE cars
 ADD CONSTRAINT fk_cars_driver FOREIGN KEY (driver) REFERENCES driver(id_driver);
 ```
 
-Střední Průmyslová škola ÚSTÍ NAD LABEM
-
 LADISLAV KOŽEJ 7
-
-Databáze II. ročník | Praktikum
 
 ### Úkol 3
 
@@ -270,11 +240,7 @@ OP int NOT NULL,
 PRIMARY KEY (id_zak));
 ```
 
-Střední Průmyslová škola ÚSTÍ NAD LABEM
-
 LADISLAV KOŽEJ 8
-
-Databáze II. ročník | Praktikum
 
 ```
 ALTER TABLE vyjpujcky
@@ -335,11 +301,7 @@ ALTER TABLE vypujcky
 ADD CONSTRAINT fk_vypujcky_voz_id FOREIGN KEY(voz_id) REFERENCES vozidla(id_voz);
 ```
 
-Střední Průmyslová škola ÚSTÍ NAD LABEM
-
 LADISLAV KOŽEJ 9
-
-Databáze II. ročník | Praktikum
 
 ### Úkol 4
 
@@ -392,11 +354,7 @@ first_name varchar(32) NOT NULL,
 last_name varchar(32) NOT NULL);
 ```
 
-Střední Průmyslová škola ÚSTÍ NAD LABEM
-
 LADISLAV KOŽEJ 10
-
-Databáze II. ročník | Praktikum
 
 PostgreSQL `CREATE TABLE students ( id_s serial PRIMARY KEY, first_name varchar(32) NOT NULL, last_name varchar(32) NOT NULL, class int NOT NULL);`
 
@@ -418,11 +376,7 @@ last_name varchar(32) NOT NULL);
 
 `//TODO: Foreign keys` Spolčený insert, update, delete `INSERT INTO teachers (id_t, first_name, last_name) VALUES (1, 'Kamil', 'Balín'), (2, 'Aleš', 'Kučera'), (3, 'Ladislav', 'Kožej'), (4, 'Vratislav', 'Medřický'), (5, 'Josef', 'Mádle'), (6, 'Eva', 'Helešicová'); INSERT INTO classrooms (code, type, building) VALUES ('228', 2, 1), ('325', 2, 1), ('221', 1, 1), ('C24', 1, 1), ('C3', 1, 1), ('318', 1, 1); INSERT INTO classes (code,year,classroom) VALUES ('ITA',1,4), ('ITB',1,5), ('ITC',1,3), ('ITA',2,3), ('ITB',2,2), ('ITC',2,2); INSERT INTO students (first_name,last_name, class) VALUES ('Michal', 'Popčák', 1), ('Tomáš', 'Jedno', 2), ('Prokop', 'Buben', 3), ('Alois', 'Námořník', 4), ('Josef', 'Nesnesl', 5), ('Michal', 'Trouba', 6); UPDATE classrooms SET code = concat('S', code)`
 
-Střední Průmyslová škola ÚSTÍ NAD LABEM
-
 LADISLAV KOŽEJ 11
-
-Databáze II. ročník | Praktikum
 
 ```
 WHERE building = 1;
@@ -435,11 +389,7 @@ DELETE from classrooms
 WHERE type = 2;
 ```
 
-Střední Průmyslová škola ÚSTÍ NAD LABEM
-
 LADISLAV KOŽEJ 12
-
-Databáze II. ročník | Praktikum
 
 ### Úkol 5
 
@@ -495,11 +445,7 @@ SELECT price||kč, price/20||'usd', price/24||'eur', price/38||'gbp'
 FROM items;
 ```
 
-Střední Průmyslová škola ÚSTÍ NAD LABEM
-
 LADISLAV KOŽEJ 13
-
-Databáze II. ročník | Praktikum
 
 ### Úkol 7
 
@@ -541,11 +487,7 @@ Databáze II. ročník | Praktikum
 
 **Vypište zákazníka, který nejvíckrát nakoupil u pobočky s nejvyšším průměrným platem. Vypište název pobočky, počet vyřízených objednávek a celkovou částku za ně. Vypište počet objednávek podle jednotlivých měsíců.**
 
-Střední Průmyslová škola ÚSTÍ NAD LABEM
-
 LADISLAV KOŽEJ 14
-
-Databáze II. ročník | Praktikum
 
 ### Úkol 14
 
@@ -556,7 +498,5 @@ Databáze II. ročník | Praktikum
 **Vypište tři nejbohatší hráče. Vypište hráče, kteří mají nad 12000 jídla. Vypište hráče a jejich celkové suroviny (hráč | celkovéMnožstvíVšechSurovin) Nejchudší hráč z nejlepší guildy.**
 
 **Vypište měsíce názvem, počet registrovaných uživatelů, seřazeno dle pořadí měsíce.**
-
-Střední Průmyslová škola ÚSTÍ NAD LABEM
 
 LADISLAV KOŽEJ 15

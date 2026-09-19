@@ -3,9 +3,6 @@ title: "LED matice 8×8"
 order: 15
 source: "robotika1.pol/cv13_LEDmatice8x8.pdf"
 ---
-IT3 – RBT – Arduino – LED matice 8x8
-
-CV-13
 
 # **LED matice 8x8**
 
@@ -14,11 +11,6 @@ Díky low-voltage scanning metodě mají maticové LED displeje své výhody, kt
 _Obrázek 1: LED matice 8x8 a číslování pinů_
 
 _Obrázek 2: Číslování pinů matice 8x8_
-
-_
-IT3 – RBT – Arduino – LED matice 8x8
-
-CV-13
 
 C1 – C8 – sloupce R1 – R8 – řádky
 
@@ -54,11 +46,6 @@ Přirozeným řešením tohoto problému je využití jednočipového mikropoč�
 
 6. 8x Odpor 220Ω
 
-_
-IT3 – RBT – Arduino – LED matice 8x8
-
-CV-13
-
 ## **Zapojení**
 
 _Obrázek 3: Schéma zapojení LED matice 8x8_
@@ -78,14 +65,7 @@ _Obrázek 3: Schéma zapojení LED matice 8x8_
 |6|oranžová|ano|4|
 |7|bílá|ano|3|
 |8|šedá|-|2|
-
-_
-CV-13
-
-### IT3 – RBT – Arduino – LED matice 8x8
-
 |9|zelená|-|1|
-|---|---|---|---|
 |10|černá|-|9|
 |11|oranžová|ano|10|
 |12|žlutá|ano|11|
@@ -105,11 +85,6 @@ Stáhněte zdrojový soubor programu „ **arduino_LED_Matrix_8x8.ino** “. Do 
 
 _Obrázek 4: Zapojení LED matice 8x8_
 
-_
-CV-13
-
-IT3 – RBT – Arduino – LED matice 8x8
-
 ## **Úkol:**
 
 Upravte kód programu 2 tak, aby zobrazil vaše jméno. Použijte znaky bez diakritiky. Můžete využít: <u>https://embed.plnkr.co/3VUsekP3jC5xwSIQDVHx/preview</u> nebo <u>https://github.com/dhepper/font8x8</u>
@@ -118,4 +93,3 @@ Upravte kód programu 2 tak, aby zobrazil vaše jméno. Použijte znaky bez diak
 
 Arduino MAXI Starter kit OD BASTLÍŘŮ BASTLÍŘŮM - Lekce 20 8x8 LED matice
 
-_

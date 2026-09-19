@@ -8,7 +8,7 @@ source: "MATURITA HADR/IT/5. Hardware pojmy, základní deska, BIOS, zdroj.docx"
 - Počítač – stroj na zpracování informací
 - Informace – vše co nám předává zprávu o věcech nebo událostech
 - Bit – základní jednotka informace – nabývá hodnot logická 0 nebo 1
-- Firmware__ __\- programové vybavení, které tvoří součást technického vybavení
+- Firmware \- programové vybavení, které tvoří součást technického vybavení
 - Registr \- velmi rychlé paměťové místo malé kapacity, umístěné většinou uvnitř procesoru počítače
 - Cache paměť – paměť úrovně L1, L2, L3 v procesoru nebo i na pevném disku, má malou kapacitu, slouží jako zásobník dat mezi různě rychlými komponenty počítače
 - BIOS – základní programové vybavení uložené v paměti ROM; spouští se ihned po startu počítače a zajišťuje základní funkce:

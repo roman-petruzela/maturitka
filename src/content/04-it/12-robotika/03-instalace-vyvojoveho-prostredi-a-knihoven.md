@@ -3,9 +3,6 @@ title: "Instalace vývojového prostředí a knihoven"
 order: 3
 source: "robotika1.pol/cv02_Instalace_vyvojoveho_prostredi+knihovny.pdf"
 ---
-IT3 – RBT – Arduino – Instalace vývojového prostředí a knihoven
-
-CV-02
 
 # **Instalace vývojového prostředí Arduino IDE a knihoven**
 
@@ -25,11 +22,6 @@ _Obrázek 1: Stažení Arduino IDE_
 
 _Obrázek 2: Instalace Arduino IDE do C:\SW_
 
-_
-IT3 – RBT – Arduino – Instalace vývojového prostředí a knihoven
-
-CV-02
-
 V dalším kroku přejdeme do adresáře „arduino-1.8.16“; nalezneme soubor „arduino.exe“ a vytvoříme si odkaz na ploše (obrázek 3).
 
 _Obrázek 3: Vytvoření odkazu na Ploše_
@@ -42,24 +34,18 @@ Nyní můžeme prvně spustit Arduino IDE.
 
 _Obrázek 4: První spuštění Arduino IDE_
 
-_
-CV-02
-
-IT3 – RBT – Arduino – Instalace vývojového prostředí a knihoven
-
 Případně ještě povolte na firewallu Javaw.exe
 
 _Obrázek 5: Povolení Javaw.exe na firewallu_
 
 ## **Seznámení se s prostředím Arduino IDE**
 
-<!-- Start of picture text -->
-Hlavní menu – práce se soubory<br>a nastavení vývojového<br>prostředí<br>Sada ikon pro<br>rychlou práci<br>s programem<br>Pole pro psaní programů<br>Pole s chybovými hláškami<br>a dalšími informacemi<br><!-- End of picture text -->
+((obrázek vynechán))
 
-_
-IT3 – RBT – Arduino – Instalace vývojového prostředí a knihoven
-
-CV-02
+- Hlavní menu – práce se soubory a nastavení vývojového prostředí
+- Sada ikon pro rychlou práci s programem
+- Pole pro psaní programů
+- Pole s chybovými hláškami a dalšími informacemi
 
 ### **Význam ikon**
 
@@ -79,4 +65,3 @@ Zleva doprava:
 
 - „ **Sériový monitor** “ – „ikona lupy“ – vysvětleno později
 
-_

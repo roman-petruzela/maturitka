@@ -3,9 +3,6 @@ title: "LED a tlačítko s proměnnou"
 order: 5
 source: "robotika1.pol/cv04_LED_tlacitko_prom.pdf"
 ---
-IT3 – RBT – Arduino – LED a tlačítko, prom
-
-CV-04
 
 # **Proměnné**
 
@@ -52,11 +49,6 @@ void loop() {
 - **char** – jeden znaku textu, znak je zde uchován jako jeho číselná hodnota v ASCII tabulce znaků.
 
 - **string** – pro uchování řetězce znaků, řetězec se zapisuje v uvozovkách
-
-_
-IT3 – RBT – Arduino – LED a tlačítko, prom
-
-CV-04
 
 ### **Příklad:**
 
@@ -122,11 +114,6 @@ pinMode(cislo_pinu, INPUT/OUTPUT);
 
 **cislo_pinu** – je natištěno na desce Arduina u každého pinu
 
-_
-CV-04
-
-IT3 – RBT – Arduino – LED a tlačítko, prom
-
 - digitální: 0 – 13
 
 - analogové: A0 – A5 – ty lze také použít jako digitální
@@ -180,11 +167,6 @@ se ulozi hodnota HIGH, pokud ne, tak LOW
 
 8. LED dioda.
 
-_
-IT3 – RBT – Arduino – LED a tlačítko, prom
-
-CV-04
-
 ## **Zapojení**
 
 Dle obrázku:
@@ -209,4 +191,3 @@ void loop() {
 }
 ```
 
-_

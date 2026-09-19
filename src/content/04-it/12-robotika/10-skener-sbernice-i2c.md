@@ -3,9 +3,6 @@ title: "Skener sběrnice I2C"
 order: 10
 source: "robotika1.pol/cv09a_skener_sbernice_I2C.pdf"
 ---
-IT3 – RBT – Arduino – Skener sběrnice I2C
-
-CV-09a
 
 # **Skener sběrnice I**<sup>**2**</sup> **C**
 
@@ -40,11 +37,6 @@ Dle obrázku:
 |SDA|A4|
 |SCL|A5|
 
-_
-IT3 – RBT – Arduino – Skener sběrnice I2C
-
-CV-09a
-
 _Obrázek 1: Zapojení LCD displaye na Arduino na sběrnici I2C_
 
 _Obrázek 2: Připojení Arduina na LCD display_
@@ -73,11 +65,6 @@ Serial.println("\nI2C Skener");
 void loop() {
 byte error, address;
 ```
-
-_
-CV-09a
-
-IT3 – RBT – Arduino – Skener sběrnice I2C
 
 ```
 int nDevices;
@@ -143,15 +130,9 @@ delay(5000);               // počkat 5 vteřin
 
 PO spuštění programu se na sériovém monitoru objeví nalezené zařízení a jeho adresa.
 
-_
-IT3 – RBT – Arduino – Skener sběrnice I2C
-
-CV-09a
-
 _Obrázek 3: Výstup na sérovém monitoru_
 
 ## **Citace:**
 
 Arduino MAXI Starter kit OD BASTLÍŘŮ BASTLÍŘŮM - Lekce 5 Používaní skaneru sběrnicí I²C, str. 12
 
-_

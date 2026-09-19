@@ -15,8 +15,6 @@ source: "osy/Licence.pptx"
 
 - v případě pořizování softwarového vybavení nejde o koupi softwaru – jde jen o získání LICENCE.
 
-1
-
 # **Licence**
 
 >  Cena za software je tedy de facto poplatkem za poskytnutou licenci - právo k užívání softwarového produktu.
@@ -24,8 +22,6 @@ source: "osy/Licence.pptx"
 - Při instalaci software věnujte aspoň mrknutí tomu, co potvrzujete.
 
 - typy softwaru podle licencí (dále)
-
-2
 
 ## **Druhy softwarů podle licencí**
 
@@ -43,8 +39,6 @@ source: "osy/Licence.pptx"
 
    - GNU/GPL
 
-3
-
 # **Komerční software**
 
 >  majitelé komerčních programů poskytují uživatelům za úhradu licenci k užívání těchto programů
@@ -55,23 +49,17 @@ source: "osy/Licence.pptx"
 
 - OS Windows, Adobe Ilustrator, AutoCad,…
 
-4
-
 # **Demoverze**
 
 - Programy na vyzkoušení, které zpravidla mívají zablokované některé funkce (ukládání souboru na disk, tisk)
 
 - dodávají se zdarma nebo za malý poplatek
 
-5
-
 # **Zkušební (trial) verze programů**
 
 >  umožňují plnohodnotnou práci včetně ukládání i tisku po určitou dobu (např. 1 měsíc, spustí se 30 krát, …)
 
 >  po uplynutí doby program nelze spustit ani znovu nainstalovat
-
-6
 
 # **OEM software**
 
@@ -82,8 +70,6 @@ source: "osy/Licence.pptx"
 - není dostupná podpora formou hot-line
 
 - nedá se upgradovat na vyšší verzi programu
-
-7
 
 # **Freeware**
 
@@ -105,8 +91,6 @@ source: "osy/Licence.pptx"
 
 ◦ později se z něho může stát komerčně šířený program
 
-8
-
 # **Public domain**
 
 - skupina programů k volnému užití
@@ -116,8 +100,6 @@ source: "osy/Licence.pptx"
 - nemusí být dostupný jeho zdrojový kód
 
 - může být případným koncovým uživatelům k dispozici pouze ve formě spustitelného souboru
-
-9
 
 # **Open Source**
 
@@ -129,13 +111,9 @@ source: "osy/Licence.pptx"
 
 - GPL licence (stanovuje, že nikdo nesmí bránit ve volném nakládání s takto licencovaným programem a každý, kdo k němu něco přidá, musí všem opět své úpravy poskytnout pod stejnou licencí)
 
-10
-
 # **Multilicence**
 
 >  jedná se o hromadnou licenci, tj. oprávnění instalovat konkrétní software na určený počet počítačů
-
-11
 
 # **Ochrana softwaru**
 
@@ -147,8 +125,6 @@ source: "osy/Licence.pptx"
 
 - **CD, DVD s programem** – nelze kopírovat, např. speciálně upravená chybová místa
 
-12
-
 # **Nelegální překonávání ochrany softwaru**
 
 - umožňují různá warez fóra s licenčními klíči: ◦ Cracky – programy odstraňující ochranu softwaru
@@ -157,4 +133,3 @@ source: "osy/Licence.pptx"
 
 - Mohou být nakaženy různými typy malware
 
-13

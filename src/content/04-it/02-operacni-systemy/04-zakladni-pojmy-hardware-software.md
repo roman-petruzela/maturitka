@@ -82,6 +82,37 @@ Rozdíl mezi kB a KiB je malý, ale s rostoucí velikostí se kumuluje — 1 TB 
 
 1. Vyjmenujte alespoň 5 operačních systémů.
 2. Jaký je rozdíl mezi operačním systémem a firmwarem?
-3. Pro které typy souborů se používají přípony: a) .jpg&nbsp; b) .zip&nbsp; c) .docx&nbsp; d) .xlsx&nbsp; e) .exe&nbsp; f) .bat&nbsp; g) .gif&nbsp; h) .bmp&nbsp; i) .png&nbsp; j) .rar&nbsp; k) .txt&nbsp; l) .tmp&nbsp; m) .mp3&nbsp; n) .pdf&nbsp; o) .pptx
-4. Převeďte jednotky: a) 3 B = ? b&nbsp; b) 72 b = ? B&nbsp; c) 2048 B = ? KiB&nbsp; d) 5 KiB = ? B&nbsp; e) 5 kB = ? B&nbsp; f) 3000 B = ? kB&nbsp; g) 2 MiB = ? B&nbsp; h) 4 KiB = ? b&nbsp; i) 3 MiB = ? KiB&nbsp; j) 6 MB = ? kB&nbsp; k) 24576 b = ? KiB&nbsp; l) 1 GiB = ? KiB
-5. Kolik bitů potřebuju pro zakódování: a) 10 znaků&nbsp; b) 60 znaků&nbsp; c) 100 znaků&nbsp; d) 1000 znaků
+3. Pro které typy souborů se používají přípony:
+   a) .jpg
+   b) .zip
+   c) .docx
+   d) .xlsx
+   e) .exe
+   f) .bat
+   g) .gif
+   h) .bmp
+   i) .png
+   j) .rar
+   k) .txt
+   l) .tmp
+   m) .mp3
+   n) .pdf
+   o) .pptx
+4. Převeďte jednotky:
+   a) 3 B = ? b
+   b) 72 b = ? B
+   c) 2048 B = ? KiB
+   d) 5 KiB = ? B
+   e) 5 kB = ? B
+   f) 3000 B = ? kB
+   g) 2 MiB = ? B
+   h) 4 KiB = ? b
+   i) 3 MiB = ? KiB
+   j) 6 MB = ? kB
+   k) 24576 b = ? KiB
+   l) 1 GiB = ? KiB
+5. Kolik bitů potřebuju pro zakódování:
+   a) 10 znaků
+   b) 60 znaků
+   c) 100 znaků
+   d) 1000 znaků

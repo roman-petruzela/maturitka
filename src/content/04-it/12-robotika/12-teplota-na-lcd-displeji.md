@@ -3,9 +3,6 @@ title: "Teplota na LCD displeji"
 order: 12
 source: "robotika1.pol/cv10_teplota_LCD_displej.pdf"
 ---
-IT3 – RBT – Arduino – I2C LCD displej a teplota
-
-CV-10
 
 # **Zobrazení teploty a vlhkosti na LCD displeji**
 
@@ -48,11 +45,6 @@ Zobrazte na LCD displeji údaje o teplotě a vlhkosti. Pro připojení čidla m�
 |„+“|5V|
 |out|pin 4|
 
-_
-IT3 – RBT – Arduino – I2C LCD displej a teplota
-
-CV-10
-
 ## **Program**
 
 Do Arduino IDE vložíme kód programu a nahrajeme jej do Arduina:
@@ -72,11 +64,6 @@ LiquidCrystal_I2C lcd(0x27,16,2);
 ```
 DHT dht(DHTPIN, DHTTYPE);  //vytvořit objekt třídy dht
 ```
-
-_
-IT3 – RBT – Arduino – I2C LCD displej a teplota
-
-CV-10
 
 ```
 void setup() {
@@ -122,4 +109,3 @@ delay(300);// počkat 300 ms
 
 Arduino MAXI Starter kit OD BASTLÍŘŮ BASTLÍŘŮM - Lekce 24 Senzor teploty a vlhkosti vzduchu DHT11
 
-_

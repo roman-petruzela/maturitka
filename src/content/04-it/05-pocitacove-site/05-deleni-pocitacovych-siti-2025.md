@@ -11,9 +11,6 @@ source: "site/Deleni_siti_2025.pdf"
 
 - soustava vzájemně propojených sítí (katenetový model)
 
-<!-- Start of picture text -->
-2<br><!-- End of picture text -->
-
 # Každá počítačová síť se skládá z:
 
 - **propojených systému** (počítače, mobilní telefony, paměťová zařízení, tiskárny, …
@@ -33,8 +30,6 @@ source: "site/Deleni_siti_2025.pdf"
    - **prvky vzájemného propojení sítí** (ROUTER, BRIDGE, GATEWAY)
 
 - **fyzických přenosových médii** (medium schopné přenášet elektromagnetický signál)
-
-3
 
 # Kritéria dělení sítí
 
@@ -84,10 +79,6 @@ source: "site/Deleni_siti_2025.pdf"
 
    - počítačové, telekomunikační
 
-4
-
-6
-
 # Dělení podle dosahu sítě
 
 |vzdálenost|celek|příklad|
@@ -112,9 +103,6 @@ source: "site/Deleni_siti_2025.pdf"
 - Infrastruktura je většinou tvořena metalickými kabely a případně optickou páteří.
 
 - Přenosové rychlosti LAN začínají na desítkách Mbit/s, nejnovější technologie umožňují přenos s rychlostí až desitek Gbit.
-
-<!-- Start of picture text -->
-9<br><!-- End of picture text -->
 
 # MAN
 
@@ -170,14 +158,15 @@ source: "site/Deleni_siti_2025.pdf"
 
 - Tímto způsobem pracuje internet jako nejrozsáhlejší a nejznámější WAN.
 
-12
-
-11
-
 # WAN – vnitřní struktura
 
-<!-- Start of picture text -->
-● páteřní sítě<br>● propojují několik málo míst<br>● typicky velmi rychlé a spolehlivé<br>● sítě „střední míle“<br>● tvoří přechod mezi přístupovou sítí  a páteřní sítí<br>● přístupové sítě<br>● propojují body místa, kde končí vlastní síť<br>poskytovatele a místa, kde se nachází zákazník<br>13<br><!-- End of picture text -->
+- páteřní sítě
+  - propojují několik málo míst
+  - typicky velmi rychlé a spolehlivé
+- sítě „střední míle“
+  - tvoří přechod mezi přístupovou sítí a páteřní sítí
+- přístupové sítě
+  - propojují body místa, kde končí vlastní síť poskytovatele a místa, kde se nachází zákazník
 
 # Architektura sítě
 
@@ -189,27 +178,26 @@ source: "site/Deleni_siti_2025.pdf"
 
 - Frame Relay, atd
 
-<!-- Start of picture text -->
-15<br><!-- End of picture text -->
-
 # Topologie
 
 - **Fyzická topologie** – popisuje reálnou konstrukci sítě, jednotlivé uzly a fyzicky zapojená zařízení a jejich umístění včetně instalovaných kabelů, přesného umístění uzlů a přípojek mezi nimi
 
 - **Logická topologie** – se vztahuje k tomu, jak jsou data v síti přenášena a kudy protékají z jednoho zařízení do druhého. Nemusí nutně kopírovat fyzické schéma sítě.
 
-<!-- Start of picture text -->
-17<br><!-- End of picture text -->
-
 # WAN
-
-<!-- Start of picture text -->
-14<br><!-- End of picture text -->
 
 # Role (postavení) uzlů
 
-<!-- Start of picture text -->
-role koncových uzlů je daná způsobem<br>komunikace provozování aplikací (tzv.<br>výpočetní model)<br>● některé uzly jsou servery<br>● některé uzlu jsou v roli klientů<br>● uzly jsou rovnocenné<br>síť může fungovat různými způsoby<br>● spojovaně / nespojovaně<br>● spolehlivě / nespolehlivě<br>● na princip přepojování paketů / okruhů<br>● stylem „best-effort“ / s garanci kvality<br>● blokovým / proudovým způsobem<br>16<br><!-- End of picture text -->
+- role koncových uzlů je daná způsobem komunikace provozování aplikací (tzv. výpočetní model)
+  - některé uzly jsou servery
+  - některé uzly jsou v roli klientů
+  - uzly jsou rovnocenné
+- síť může fungovat různými způsoby
+  - spojovaně / nespojovaně
+  - spolehlivě / nespolehlivě
+  - na princip přepojování paketů / okruhů
+  - stylem „best-effort“ / s garancí kvality
+  - blokovým / proudovým způsobem
 
 # Použité přenosové techniky
 
@@ -222,8 +210,6 @@ role koncových uzlů je daná způsobem<br>komunikace provozování aplikací (
 - žádné spojení nenavazuje
 
 - technologie založené na broadcastu, tzn. všesměrovém vysílání  (Ethernet, Token Ring, FDDI): rámec se dostane ke všem uzlům a příslušný uzel rozhoduje, zda je adresátem nebo ne.
-
-19
 
 # Použité přenosové médium
 
@@ -256,8 +242,6 @@ role koncových uzlů je daná způsobem<br>komunikace provozování aplikací (
 - je využíván "směrem ven", zejména ke komunikaci se zákazníky (jde-li o firemní extranet).
 
 - Typickými extranetovými aplikacemi jsou různé aplikace z oblasti e-commerce a e-business, umožňující objednávání, prodej a související aktivity.
-
-20
 
 # Citace
 

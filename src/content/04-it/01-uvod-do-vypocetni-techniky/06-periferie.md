@@ -54,7 +54,7 @@ __CRT__ \( Cathode Ray Tube\) monitory
 __LCD__ \(Liquid crystal display\) monitory
 
 - Tekuté krystaly vlivem elektrického napětí mění svoji molekulární strukturu a určitým náklonem mění prostupnost světla
-- Tyto krystaly se se nachází mezi dvěma polarizačními filtry, přičemž osy polarizace jsou na sebe kolmé; bez krystalů by tak nemohlo dojít k rotaci světla a to by neprošlo druhým polarizačním filtrem
+- Tyto krystaly se nachází mezi dvěma polarizačními filtry, přičemž osy polarizace jsou na sebe kolmé; bez krystalů by tak nemohlo dojít k rotaci světla a to by neprošlo druhým polarizačním filtrem
 	- __Monochromatické LCD displeje__ \(pasivní – s odrazem světla\) – nemají podsvícení, potřebují vnější zdroj světla, který odráží a tím tvoří obraz
 	- __Monochromatické LCD displeje__ \(aktivní – s průchodem světla\) – displej je podsvícený a čitelný i ve tmě, světlo prochází tam, kde nepůsobí elektrostatické pole
 - Jednotlivé body samy o sobě nezáří, jen regulují množství procházeného světla; k dosažení barevného obrazu je potřeba užití RGB filtru, kde tvoříme barvy pomocí mixování barev RGB spektra

@@ -3,9 +3,6 @@ title: "5× LED a potenciometr"
 order: 7
 source: "robotika1.pol/cv06_5xLED_potenciometr.pdf"
 ---
-IT3 – RBT – Arduino – 5xLED a potenciometr
-
-CV-06
 
 # **Podmínky**
 
@@ -56,11 +53,6 @@ Používají se logické operátory pro spojení s jednoduchých podmínek.
 !(1 == 2) //true
 !(false) //true
 ```
-
-_
-IT3 – RBT – Arduino – 5xLED a potenciometr
-
-CV-06
 
 ## **Jednoduchá podmínka**
 
@@ -114,11 +106,6 @@ else if ((A < 500) && (A > 200)){
 }
 ```
 
-_
-CV-06
-
-IT3 – RBT – Arduino – 5xLED a potenciometr
-
 ## **Přepínač**
 
 ```
@@ -159,11 +146,6 @@ default:
 6. 5xLED dioda.
 
 7. Potenciometr – s lineárním průběhem (B10K)
-
-_
-IT3 – RBT – Arduino – 5xLED a potenciometr
-
-CV-06
 
 ## **Zapojení**
 
@@ -212,11 +194,6 @@ else if(val > 400){
 digitalWrite(led[2],HIGH);
 ```
 
-_
-CV-06
-
-IT3 – RBT – Arduino – 5xLED a potenciometr
-
 ```
 }
 else if(val > 200){
@@ -240,4 +217,3 @@ digitalWrite(led[4],LOW);
 }
 ```
 
-_

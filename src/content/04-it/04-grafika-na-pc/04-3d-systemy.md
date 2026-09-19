@@ -11,11 +11,9 @@ source: "grafika/VY_32_INOVACE_3224_01.pdf"
 
    - **hardwaru**
 
-- a **so�waru**
+- a **softwaru**
 
 - pro vytváření a prezentaci 3D grafiky.
-
-2
 
 # Hardware pro 3D
 
@@ -29,30 +27,17 @@ source: "grafika/VY_32_INOVACE_3224_01.pdf"
 
 - **3D skener**
 
-- **3D �skárna / CNC fréza**
+- **3D tiskárna / CNC fréza**
 
 - Zařízení pro **virtuální realitu** (3D brýle, senzorický oblek či rukavice)
 
-3
-
-4
-
 # 3D skener
 
-<!-- Start of picture text -->
-5<br><!-- End of picture text -->
-
-# 3D �skárna
-
-<!-- Start of picture text -->
-7<br><!-- End of picture text -->
+# 3D tiskárna
 
 # 3D brýle a senzorický oblek
 
-<!-- Start of picture text -->
-6<br><!-- End of picture text -->
-
-# So�ware pro 3D
+# Software pro 3D
 
 ## Modelovací sw pro práci s 3D objekty:
 
@@ -64,9 +49,7 @@ source: "grafika/VY_32_INOVACE_3224_01.pdf"
 |Cinema 4D||
 |Rhino||
 
-8
-
-# So�ware pro 3D
+# Software pro 3D
 
 ## Sw pro práci s obrázky (foto) či videem:
 
@@ -83,17 +66,11 @@ source: "grafika/VY_32_INOVACE_3224_01.pdf"
 
 2. Nalezněte na internetu hardwarová zařízení jako je 3D myš, 3D skener či 3D brýle. Jaká je jejich dostupnost a cena?
 
-3. Nalezněte so�ware pro 3D grafiku, jejich dostupnost a cenu.
-
-9
+3. Nalezněte software pro 3D grafiku, jejich dostupnost a cenu.
 
 # Řešení
 
-1. Pracovní stanice je špičkový desktop nebo stolní mikropočítač navržený pro technické použi�. Pracovní stanice jsou obvykle určeny pro práci jednoho uživatele, i když mohou být zpřístupněny i vzdáleně dalším uživatelům. Pracovní stanice nabízejí obvykle vyšší výkon než běžná výpočetní technika.
-
-12
-
-11
+1. Pracovní stanice je špičkový desktop nebo stolní mikropočítač navržený pro technické použití. Pracovní stanice jsou obvykle určeny pro práci jednoho uživatele, i když mohou být zpřístupněny i vzdáleně dalším uživatelům. Pracovní stanice nabízejí obvykle vyšší výkon než běžná výpočetní technika.
 
 # Řešení
 
@@ -103,10 +80,8 @@ source: "grafika/VY_32_INOVACE_3224_01.pdf"
 |---|---|
 |3D myš|2500,- – 10000,- Kč|
 |3D skener|11 000,- – 800 000 Kč|
-|3D �skárna|13 000,- - 1 500 000,- Kč|
-|3D brýle|Od 250,- Kč pasivní<br>Od 7 500.- Kč ak�vní – virtuální realita|
-
-13
+|3D tiskárna|13 000,- - 1 500 000,- Kč|
+|3D brýle|Od 250,- Kč pasivní<br>Od 7 500.- Kč aktivní – virtuální realita|
 
 ### **Použité zdroje:**
 
@@ -114,9 +89,9 @@ source: "grafika/VY_32_INOVACE_3224_01.pdf"
 
 ### **3D myši:**
 
-- 3dconnexion_family. _3Dconnexion: 3D Mo�on Controlers_ [online]. 2014 [cit. 2014-03-31]. Dostupné z: h�p://www.3dconnexion.eu/index.php
+- 3dconnexion_family. _3Dconnexion: 3D Motion Controlers_ [online]. 2014 [cit. 2014-03-31]. Dostupné z: http://www.3dconnexion.eu/index.php
 
-- SPACECONTROL, GmbH. CapBallController1206. _SpaceControl_ [online]. 2014 [cit. 2014-03-31]. Dostupné z: h�p://www.spacecontrol.us/3dmaeuse-spacecontroller-kappe-ball.html
+- SPACECONTROL, GmbH. CapBallController1206. _SpaceControl_ [online]. 2014 [cit. 2014-03-31]. Dostupné z: http://www.spacecontrol.us/3dmaeuse-spacecontroller-kappe-ball.html
 
 # Řešení
 
@@ -124,36 +99,27 @@ source: "grafika/VY_32_INOVACE_3224_01.pdf"
 
 |**Komerční**|**Cena**|**Nekomerční**|
 |---|---|---|
-|3D studio MAX|Od 120 �s. Kč|Blender|
-|MAYA|Od 14 �s. Kč|OpenSCad|
-|Lightwave|Od 22 �s. Kč||
-|Cinema 4D|Od 19 �s. Kč||
-|Rhino|Od 31 �s. Kč||
+|3D studio MAX|Od 120 tis. Kč|Blender|
+|MAYA|Od 14 tis. Kč|OpenSCad|
+|Lightwave|Od 22 tis. Kč||
+|Cinema 4D|Od 19 tis. Kč||
+|Rhino|Od 31 tis. Kč||
 
-14
-
-- 03a. _6D - Valen�ne Heun - Design, Art and Technology_ [online]. 2010 [cit. 2014-03-31]. Dostupné z: h�p://www.valen�nheun.com/por�olio/6d/
+- 03a. _6D - Valentine Heun - Design, Art and Technology_ [online]. 2010 [cit. 2014-03-31]. Dostupné z: http://www.valentinheun.com/portfolio/6d/
 
 - **3D skenery:**
 
-- 1422_Z_20Scanner_20700CX_0026-LOW-RES. _Matrix CAD Design, Inc._ [online]. 2012 [cit. 2014-03-31]. Dostupné z: h�p://www.matrixcaddesign.com/productsZ700CX.html
+- 1422_Z_20Scanner_20700CX_0026-LOW-RES. _Matrix CAD Design, Inc._ [online]. 2012 [cit. 2014-03-31]. Dostupné z: http://www.matrixcaddesign.com/productsZ700CX.html
 
-- 3D skener Mephisto Pico-PRO. _Skenování ve 3D_ [online]. © 2011–2014 [cit. 2014-03-31]. Dostupné z: h�p://www.skenovanive3d.cz/3dskenery/mephisto-pico-pro/
+- 3D skener Mephisto Pico-PRO. _Skenování ve 3D_ [online]. © 2011–2014 [cit. 2014-03-31]. Dostupné z: http://www.skenovanive3d.cz/3dskenery/mephisto-pico-pro/
 
-16
+- 3D tiskárny:
 
-15
-
-- 3D �skárny:
-
-- Tiskárna Prusa Mendel. _Linuxexpres: 3D �skárny RepRap: Open-source mašinky, které vám usnadní život_ [online]. 2012, 10. září [cit. 2014-03-31]. Dostupné z: h�p://www.linuxexpres.cz/uploads/gallery/ori ginal/6697.jpg
+- Tiskárna Prusa Mendel. _Linuxexpres: 3D tiskárny RepRap: Open-source mašinky, které vám usnadní život_ [online]. 2012, 10. září [cit. 2014-03-31]. Dostupné z: http://www.linuxexpres.cz/uploads/gallery/ori ginal/6697.jpg
 
 ## **Licence:**
 
-   - Vlastníkem licence pro používání Microso� Office 2013 je SPŠei Ostrava, Kratochvílova 7
+   - Vlastníkem licence pro používání Microsoft Office 2013 je SPŠei Ostrava, Kratochvílova 7
 
-- <sup>Profo3dmaker_web.</sup><sup>_PROFI3DMAKER |_</sup> _3Dfactories: PROFI3DMAKER_ [online]. 2014 [cit. 2014-03-31]. Dostupné z: h�p://www.3dfactories.com/sites/default/file s/gallery/2013/09/profo3dmaker_web.jpg
+- <sup>Profo3dmaker_web.</sup><sup>_PROFI3DMAKER |_</sup> _3Dfactories: PROFI3DMAKER_ [online]. 2014 [cit. 2014-03-31]. Dostupné z: http://www.3dfactories.com/sites/default/file s/gallery/2013/09/profo3dmaker_web.jpg
 
-18
-
-17

@@ -145,8 +145,18 @@ Transportní vrstva
 
 # Síťový model TCP/IP
 
-<!-- Start of picture text -->
-Porovnání modelu ISO/OSI aTCP/IP<br>OSI vrstvy Zařízení Protokol / Standard TCP/IP vrstvy<br>7 – Aplikační  Firewall, Gateway SMTP, POP3, IMAP, DNS, DHCP, FTP,  Aplikační<br>TFTP, HTTP, SNMP, VoIP, NNTP, NTP<br>6 – Prezentační  N/A JPG, JPEG, TIFF, PNG, GIF, MIME,<br>MP3, MP4<br>5 - Relační N/A SQL, NFS, ASP, RPC<br>4 - Transportní Firewall TCP, UDP Transportní<br>3 – Síťová Router IP, ARP, RARP, ICMP, IGMP, IGRP,  Síťová<br>IPSEC<br>2 – Linková  Switch, Bridge Ethernet, PPP, HDLC, ATM,  Vrstva síťového<br>FrameRealy  rozhraní<br>1 – Fyzická  Hub, Repeater, Transciever RJ45, ST/SC,<br><!-- End of picture text -->
+**Porovnání modelu ISO/OSI a TCP/IP**
+
+|OSI vrstvy|Zařízení|Protokol / Standard|TCP/IP vrstvy|
+|---|---|---|---|
+|7 – Aplikační|Firewall, Gateway|SMTP, POP3, IMAP, DNS, DHCP, FTP, TFTP, HTTP, SNMP, VoIP, NNTP, NTP|Aplikační|
+|6 – Prezentační|N/A|JPG, JPEG, TIFF, PNG, GIF, MIME, MP3, MP4|Aplikační|
+|5 – Relační|N/A|SQL, NFS, ASP, RPC|Aplikační|
+|4 – Transportní|Firewall|TCP, UDP|Transportní|
+|3 – Síťová|Router|IP, ARP, RARP, ICMP, IGMP, IGRP, IPSEC|Síťová|
+|2 – Linková|Switch, Bridge|Ethernet, PPP, HDLC, ATM, Frame Relay|Vrstva síťového rozhraní|
+|1 – Fyzická|Hub, Repeater, Transceiver|RJ45, ST/SC|Vrstva síťového rozhraní|
+
 
 # Vrstva síťového rozhraní
 

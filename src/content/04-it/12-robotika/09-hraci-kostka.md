@@ -3,9 +3,6 @@ title: "Hrací kostka"
 order: 9
 source: "robotika1.pol/cv07b_hraci_kostka.pdf"
 ---
-IT3 – RBT – Arduino – Hrací kostka
-
-CV-07b
 
 # **Funkce - Náhodná čísla**
 
@@ -45,11 +42,6 @@ Pomocí funkce **_random()_** si vytvoříme jednoduchou hrací kostku. Výslede
 
 2. USB kabel.
 
-_
-CV-07b
-
-IT3 – RBT – Arduino – Hrací kostka
-
 3. Nepájivé kontaktní pole.
 
 4. Vodiče
@@ -68,21 +60,11 @@ Dle obrázku:
 
 nebo s kontaktním polem:
 
-_
-IT3 – RBT – Arduino – Hrací kostka
-
-CV-07b
-
 ## **Program**
 
 Vše zapojíme podle obrázku. Není důležité, na jaký pin připojíme jakou LED diodu. Vše se dá jednoduše upravit v programu.
 
-Před uploadem programu do Arduina musíme upravit pole s informacemi o tom, na jaké piny jsou připojeny LED a tlačítko. Jedná se o pole **leds[]** a proměnnou **tlacitko** . Led diody na kostce jsou
-
-_
-CV-07b
-
-IT3 – RBT – Arduino – Hrací kostka očíslovány následovně (číslo LED odpovídá jejímu indexu v poli). Stáhněte zdrojový soubor programu „ **cv07b_hraci_kostka.ino** “. Do Arduino IDE vložíme kód programu a nahrajeme jej do Arduina.
+Před uploadem programu do Arduina musíme upravit pole s informacemi o tom, na jaké piny jsou připojeny LED a tlačítko. Jedná se o pole **leds[]** a proměnnou **tlacitko** . Led diody na kostce jsou očíslovány následovně (číslo LED odpovídá jejímu indexu v poli). Stáhněte zdrojový soubor programu „ **cv07b_hraci_kostka.ino** “. Do Arduino IDE vložíme kód programu a nahrajeme jej do Arduina.
 
 ## **Úkol:**
 
@@ -90,4 +72,3 @@ IT3 – RBT – Arduino – Hrací kostka očíslovány následovně (číslo LE
 
 Průvodce světem Arduina – Kapitola 24 – Hrací kostka
 
-_

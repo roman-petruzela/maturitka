@@ -3,8 +3,6 @@ title: "IPv6 adresování"
 order: 12
 source: "site/IPv6_Adresovani.pdf"
 ---
-<!-- Start of picture text -->
-IP verze 6<br><!-- End of picture text -->
 
 # Formát datagramu IPv6
 
@@ -52,8 +50,8 @@ IP verze 6<br><!-- End of picture text -->
 
 - Vzhledem k tomu, že drtivá většina koncových zařízení je dnes připojena prostřednictvím různých variant Ethernetu nebo Wi-Fi s MTU alespoň 1500 B, lze očekávat, že tato hodnota se usídlí téměř všude a fragmentace prakticky zmizí ze světa.
 
-<!-- Start of picture text -->
-Základní Rozšířující Rozšířující<br>hlavička hlavička hlavička Data (např. TCP)<br><!-- End of picture text -->
+((obrázek vynechán))
+
 
 - základní hlavička je co nejjednodušší
 

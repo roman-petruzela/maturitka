@@ -11,7 +11,7 @@ V 60. letech 20. století začaly vznikat komplexnější operační systémy, k
 
 V 70. letech 20. století se operační systémy začaly masivně rozšiřovat. První osobní počítače, jako byl Altair 8800 a Apple II, byly dodávány s operačními systémy, jako je CP/M <u>(https://cs.wikipedia.org/wiki/CP/M) a Apple DOS (https://en.wikipedia.org/wiki/Apple_DOS).</u>
 
-V 80. letech 20. století se objevily první operační systémy pro osobní počítače s grafickým uživatelským rozhraním (GUI). První operační systém s GUI Xerox Star <u>(https://en.wikipedia.org/wiki/Xerox_Star) se příliš nerozšířil.Mezi nejznámější operační</u> systémy této doby patří Microsoft Windows, Macintosh OS a AmigaOS.
+V 80. letech 20. století se objevily první operační systémy pro osobní počítače s grafickým uživatelským rozhraním (GUI). První operační systém s GUI Xerox Star <u>(https://en.wikipedia.org/wiki/Xerox_Star) se příliš nerozšířil. Mezi nejznámější operační</u> systémy této doby patří Microsoft Windows, Macintosh OS a AmigaOS.
 
 V 90. letech 20. století se operační systémy staly ještě komplexnějšími a funkčnějšími. Standardem se stal multitasking, podpora více uživatelů a bezpečnostní funkce.
 

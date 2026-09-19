@@ -11,12 +11,6 @@ source: "site/IT3_IPv4_adresovani.pdf"
 
 - Co je to default gateway?
 
-<!-- Start of picture text -->
-IPv4<br><!-- End of picture text -->
-
-<!-- Start of picture text -->
-1/16<br><!-- End of picture text -->
-
 # Pojmy v IP adresaci
 
 - Příklad IP adresy: 192.168.25.1
@@ -27,21 +21,15 @@ IPv4<br><!-- End of picture text -->
 
 - **Maska** podsítě – je 32 bitové číslo zleva začínající jedničkami  a pokračuje nulami. Jedničky určují, které bity v IP adrese označují síť a nuly pak identifikují zařízení v dané síti.
 
-<!-- Start of picture text -->
-●<br><!-- End of picture text -->
+# Třídy IP adres
 
-<!-- Start of picture text -->
-2/16<br><!-- End of picture text -->
-
-<!-- Start of picture text -->
-Třídy IP adres<br><!-- End of picture text -->
-
-<!-- Start of picture text -->
-Třída 1.B IP adresy 2.B IP adresy 3.B IP adresy 4.B IP adresy Maska<br>A 0sssssss Adresa počítače 255.0.0.0<br>1-12710<br>B 10ssssss ssssssss Adresa počítače 255.255.0.0<br>128 - 19110<br>C 110sssss ssssssss ssssssss Adresa počítače 255.255.255.0<br>192-22310<br>D 1110mmmm mmmmmmmm mmmmmmmm mmmmmmmm<br>224 - 23910<br>E >23910<br><!-- End of picture text -->
-
-3/16
-
-4/16
+|Třída|Struktura 1.–4. bajtu IP adresy|Maska|První bajt (dekadicky)|
+|---|---|---|---|
+|A|`0sssssss` + adresa počítače|255.0.0.0|1–127|
+|B|`10ssssss ssssssss` + adresa počítače|255.255.0.0|128–191|
+|C|`110sssss ssssssss ssssssss` + adresa počítače|255.255.255.0|192–223|
+|D|`1110mmmm mmmmmmmm mmmmmmmm mmmmmmmm`||224–239|
+|E|||> 239|
 
 # IP adresa a maska
 
@@ -58,8 +46,6 @@ Třída 1.B IP adresy 2.B IP adresy 3.B IP adresy 4.B IP adresy Maska<br>A 0ssss
 1111 1111.1111 1111.1111 1111.0000 0000 **IP:** 1100 0000.1010 1000.0001 1001.0000 0001 **M:** 1111 1111.1111 1111.1111 1111.0000 0000
 
 Část identifikující síť Část identifikující koncové zařízení
-
-5/16
 
 # Počítání IP adres - ClassFull
 
@@ -103,10 +89,6 @@ Třída 1.B IP adresy 2.B IP adresy 3.B IP adresy 4.B IP adresy Maska<br>A 0ssss
 
 **IP: 1100 0000.1010 1000.0001 1001** . **00** 00 0001 **M:** 1111 1111.1111 1111.1111 1111.1100 0000 **N:1100 0000.1010 1000.0001 1001** . **0000 0000 B:1100 0000.1010 1000.0001 1001** . **0011 1111**
 
-7/16
-
-8/16
-
 # Pojmy v IP adresaci
 
 - **Unicast** – je vysílání pro jedno konkrétní zařízení v dané síti
@@ -135,13 +117,9 @@ Broadcast: 1.255.255.255
 
 # Příklady IP adres
 
-9/16
-
 Kam zmizela síť začínající 127?
 
 # Příklady IP adres
-
-10/16
 
 - Třída B:
 
@@ -163,10 +141,6 @@ Broadcast: 128.0.255.255
 
 Broadcast: 192.0.0.255
 
-11/16
-
-12/16
-
 # Příklady IP adres
 
 - Třída D:
@@ -187,8 +161,6 @@ Pro výzkumné účely.
 
 IP adresa: 240.0.0.0 – 255.255.255.255
 
-13/16
-
 # Privátní IP adresy
 
 - Pro směrování ve veřejné síti se musí používat unikátní IP adresy.
@@ -196,8 +168,6 @@ IP adresa: 240.0.0.0 – 255.255.255.255
 - Existuje jasně definovaná skupina adres, která se **nepoužívají ve veřejné síti,** ale jen v sítích privátních, jenž jsou od **veřejné sítě odděleny** .
 
 - Počítače v **privátní** síti se schovávají za hraničním zařízením (směrovač) a ve veřejné síti jejich IP adresa se nevyskytuje.
-
-14/16
 
 # Privátní IP adresy
 
@@ -207,6 +177,3 @@ IP adresa: 240.0.0.0 – 255.255.255.255
 
 - Třída C: IP adresy: 192.168.0.0 – 192.168.255.0 /24 192.168.0.0 – 192.168.255.254
 
-15/16
-
-16/16

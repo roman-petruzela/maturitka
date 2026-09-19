@@ -36,7 +36,7 @@ Internetová adresa – IPv4 \(32bit\)
 	- Doména 2\. úrovně – určuje název organizace – apple\.com
 	- Doména 3\. úrovně – určuje název počítače v rámci organizace – chrome\.google\.com
 
-Modem – \(__mo__dulátor\-__dem__odulátor\)
+Modem – \(**mo**dulátor\-**dem**odulátor\)
 
 - Převádí analogový signál na digitální a obráceně – rychlost => 56kb/s \(7kB/s\)
 - Připojení přes telefonní linku – nejhorší – pomalá

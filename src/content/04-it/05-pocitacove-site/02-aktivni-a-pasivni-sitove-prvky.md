@@ -37,7 +37,7 @@ __Kroucená dvojlinka__
 - Sedm základních kategorií přičemž 5 je nejčastější
 - Může přenášet data s rychlostí až do 100 Mb/s
 - Vodiče jsou vždy vzájemně obtočeny – minimalizace EMI a ztráty způsobené odporen
-- Odpor vodiče je u všech typů 100Ω
+- Odpor vodiče je u všech typů 100Ω
 - Výhody – snadné připojení každého zařízení; snadná instalace; nízká cena; STP skvělá ochrana proti EMI
 - Nevýhody – STP – silný obtížně se s ním pracuje; UTP – citlivější na šum než coax a signál nemůže bez regenerace signálu být přenášen na větší vzdálenost
 - Konektor RJ\-45

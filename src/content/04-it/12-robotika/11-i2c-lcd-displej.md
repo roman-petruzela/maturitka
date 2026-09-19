@@ -3,9 +3,6 @@ title: "I2C LCD displej"
 order: 11
 source: "robotika1.pol/cv09b_I2C_LCD_displej.pdf"
 ---
-IT3 – RBT – Arduino – I2C LCD displej
-
-CV-09b
 
 # **I2C LCD displej**
 
@@ -40,11 +37,6 @@ Dle obrázku:
 |SDA|A4|
 |SCL|A5|
 
-_
-IT3 – RBT – Arduino – I2C LCD displej
-
-CV-09b
-
 _Obrázek 1: Zapojení LCD displaye na Arduino na sběrnici I2C_
 
 _Obrázek 2: Připojení Arduina na LCD display – Zadní strana_
@@ -77,11 +69,6 @@ char array2[]=" Ahoj ajtaci!             ";// druhý řádek
 displeje (26 znaků!)
 ```
 
-_
-IT3 – RBT – Arduino – I2C LCD displej
-
-CV-09b
-
 ### **`int tim = 500;  //délka pauzy`**
 
 |**`// inicializace knihovny displeje`**<br>**`LiquidCrystal_I2C lcd(0x27,16,2);`**<br>**`//`**<br>**`displeje na 0x27 pro 1602 displej`**|**`nastavit adresu`**|
@@ -104,12 +91,7 @@ Po spuštění programu se na LCD displeji objeví posunující se text.
 
 Pokud nejde na displeji nic vidět, tak je potřeba změnit nastavení odporového trimru (modrý čtverec) na spodní straně displeje.
 
-_
 _Obrázek 4: Kontrola podsvícení LCD displeje_
-
-IT3 – RBT – Arduino – I2C LCD displej
-
-CV-09b
 
 ## **Úkol:**
 
@@ -119,4 +101,3 @@ Upravte program tak, aby text zobrazovaném na druhém řádku probíhal zleva d
 
 Arduino MAXI Starter kit OD BASTLÍŘŮ BASTLÍŘŮM - Lekce 6 Lekce 6 I2C LCD displej
 
-_

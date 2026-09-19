@@ -3,9 +3,6 @@ title: "4místný segmentový displej"
 order: 14
 source: "robotika1.pol/cv12_4mistny_segmentovy_displej.pdf"
 ---
-IT3 – RBT – Arduino – 4-místný sedmisegmentový displej
-
-CV-12
 
 # **4-místný sedmisegmentový displej**
 
@@ -22,11 +19,6 @@ Pokud se použije 4-místný 7-segmentový LED displej, pin “společná anoda 
 ## **Zapojení**
 
 _Obrázek 1: Zapojení 4x7 segmentového displeje_
-
-_
-IT3 – RBT – Arduino – 4-místný sedmisegmentový displej
-
-CV-12
 
 ### Tabulka zapojení pinů
 
@@ -48,11 +40,6 @@ CV-12
 _Obrázek 2: Označení pinů na displeji_
 
 _Obrázek 3: Reálné zapojení 4x7 segmentového displeje_
-
-_
-IT3 – RBT – Arduino – 4-místný sedmisegmentový displej
-
-CV-12
 
 _Obrázek 4: Jiný pohled na zapojení 4x7 segmentového displeje_
 
@@ -96,11 +83,6 @@ ON_NUMBER za LOW
 #define OFF_DIGIT HIGH
 #endif
 ```
-
-_
-CV-12
-
-IT3 – RBT – Arduino – 4-místný sedmisegmentový displej
 
 ```
 // Připojení displeje k pinům Arduino
@@ -156,11 +138,6 @@ Timer1.attachInterrupt( add ); // připojme servisní rutinu
 ```
 void loop() {
 ```
-
-_
-CV-12
-
-IT3 – RBT – Arduino – 4-místný sedmisegmentový displej
 
 ```
 clearLEDs();    // vypnout všechny segmenty
@@ -237,11 +214,6 @@ break;
 čísel
 ```
 
-_
-CV-12
-
-IT3 – RBT – Arduino – 4-místný sedmisegmentový displej
-
 ```
 // Zde "x" je číslo, které chceš zobrazit. Je to celé číslo od 0
 do 9
@@ -302,11 +274,6 @@ digitalWrite(p, OFF_NUMBER);
 // zobrazit 0 na displeji
 void zero() {
 ```
-
-_
-CV-12
-
-IT3 – RBT – Arduino – 4-místný sedmisegmentový displej
 
 ```
 digitalWrite(a, ON_NUMBER);
@@ -390,11 +357,6 @@ digitalWrite(g, ON_NUMBER);
 ```
 // zobrazit 5 na displeji
 ```
-
-_
-CV-12
-
-IT3 – RBT – Arduino – 4-místný sedmisegmentový displej
 
 ```
 void five() {
@@ -483,11 +445,6 @@ digitalWrite(g, ON_NUMBER);
 }
 ```
 
-_
-CV-12
-
-IT3 – RBT – Arduino – 4-místný sedmisegmentový displej
-
 ```
 void add() {
 // přepnout LED
@@ -506,4 +463,3 @@ n = 0;
 
 Arduino MAXI Starter kit OD BASTLÍŘŮ BASTLÍŘŮM - Lekce 19 Stopky - 4-místný sedmisegmentový displej
 
-_

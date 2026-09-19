@@ -19,13 +19,13 @@ Klávesnice, myš, 3D myš, Trackball a grafický tablet
 
 # Rozložení americké klávesnice
 
-<!-- Start of picture text -->
-Esc F1 F2 F3 F4 F5 F6 F7 F8 F9 F10 F11 F12 PrintScrnSysRq ScrollLock PauseBreak NumLock CapsLock ScrollLock<br>~` !1 @2 3# 4$ %5 6^ &7 8* 9( )0 _- += |\ Insert Home PageUp NumLock / * -<br>Tab CapsLock QA WS ED RF TG YH UJ IK OL P:; {[ "' }] Delete End PageDown 74Home 85 96PgUp +<br>CtrlShift ZAlt X C V B N M <, >. Alt Gr ?/ Shift Ctrl 10EndIns 2 3DelPgDn. Enter<br>Typewriter keys Function keys Enter keys<br>System keys Numeric keypad Other<br>Application key Cursor control keys<br><!-- End of picture text -->
+((obrázek vynechán))
+
 
 # Rozložení klávesnice QWERTZ
 
-<!-- Start of picture text -->
-Esc F1 F2 F3 F4 F5 F6 F7 F8 F9 F10 F11 F12 PrintScrnSysRq ScrollLock PauseBreak NumLock CapsLock ScrollLock<br>˚; 1+ 2ě š3 č4 5ř ž6 7ý á8 í9 é0 %= ˇ' '" Insert Home PageUp NumLock / * -<br>Tab CapsLock QA WS ED RF TG ZH UJ IK OL P"ů /ú !§ () Delete End PageDown 74Home 85 96PgUp +<br>CtrlShift YAlt X C V B N M ?, :. Alt Gr _- Shift Ctrl 10EndIns 2 3DelPgDn. Enter<br>Typewriter keys Function keys Enter keys<br>Windows keys Numeric keypad Other<br>Application key Cursor control keys<br><!-- End of picture text -->
+((obrázek vynechán))
+
 
 # Význam jednotlivých kláves
 
@@ -77,8 +77,8 @@ Esc F1 F2 F3 F4 F5 F6 F7 F8 F9 F10 F11 F12 PrintScrnSysRq ScrollLock PauseBreak 
 
 - Na spodní straně myši je umístěn snímač pohybu, který je buď mechanický, optický nebo laserový
 
-<!-- Start of picture text -->
-CAD myš<br>Herní<br>myši<br>Kuličková myš<br><!-- End of picture text -->
+((obrázek vynechán))
+
 
 # Dělení počítačových myší
 
@@ -114,8 +114,8 @@ CAD myš<br>Herní<br>myši<br>Kuličková myš<br><!-- End of picture text -->
 
       - BlueEye / BlueTrack
 
-<!-- Start of picture text -->
-3D myš<br>Axsotic 3D mouse<br>3DConnecxion<br>SpaceControl<br><!-- End of picture text -->
+((obrázek vynechán))
+
 
 # Grafický tablet
 

@@ -19,19 +19,11 @@ K odvedení tepla slouží takzvané chladiče.
 
 - **Základní deska** – Zde mají největší podíl napájecí obvody, které jsou složeny z tranzistorů, poté čipset, pak přídavné čipy, jako zvukový kodek, síťový čip a další, a pak třeba rezistory ad.
 
-1/10
-
-cv23_chlazeni_PC.odt
-
 - **Grafická karta** – Zde nejvíc tepla produkuje GPU, pak napájecí obvody, poté paměti a pak součásti typu rezistorů a další.
 
 - **Pevný disk** – Nejvíce tepla zde vytváří malý elektromotor, který otáčí disk.
 
 - **Zdroj** – Jedná se o zařízení, které se nachází na konci chladicího systému, nicméně jím produkované teplo se může přes skříň přenášet i do prostoru skříně. Odpadní teplo zde vzniká především v transformátoru, usměrňovači a tranzistorech
-
-2/10
-
-cv23_chlazeni_PC.odt
 
 - **Operační paměť** – Tato součást vyzařuje obvykle o poznání méně tepla než ostatní součásti, přesto díky ploše a umístění obtížně chladí a tak mnohdy díky tomu dosahují teploty 60-70 °C a více.
 
@@ -46,10 +38,6 @@ cv23_chlazeni_PC.odt
 - ✔ **_Vodní chlazení_** – demineralizovaná voda, speciální chladící olej
 
 - ✔ **_Extrémní chlazení_**
-
-3/10
-
-cv23_chlazeni_PC.odt
 
 ## **Chladící médium**
 
@@ -72,10 +60,6 @@ cv23_chlazeni_PC.odt
 - ➢ aktivní a pasivní
 
 - ➢ Prachový filtr: Zabraňuje proudění vzduchu
-
-4/10
-
-cv23_chlazeni_PC.odt
 
 #### **Teplovodivá pasta**
 
@@ -106,14 +90,6 @@ Je vyrobena
 - Hermetický uzavřená trubice
 
 - Budeme-li jeden konec ohřívat a na druhý umístíme chladič, začne se pracovní médium odpařovat. V důsledku toho roste tlak. Na chlazeném konci páry kondenzují a předávají tak teplo, které bylo spotřebováno k odpaření. Kondenzát teče, nebo vzlíná zpět a tak to jde stále dokola.
-
-5/10
-
-cv23_chlazeni_PC.odt
-
-6/10
-
-cv23_chlazeni_PC.odt
 
 #### **Ložiska větráku**
 
@@ -153,14 +129,6 @@ Prodávají se jak kompletní sestavy, tak jednotlivé díly pro vlastní sestav
 
 Vodní chlazení pouze pomáhá přesouvat velká kvanta tepla z uzavřených a pro vzduch těžko dostupných míst. Díky možnosti přesunu tepla na vhodnější místo lze však s pomocí vodního okruhu chladit sestavu mnohem efektivněji.
 
-7/10
-
-cv23_chlazeni_PC.odt
-
-8/10
-
-cv23_chlazeni_PC.odt
-
 ## **„Akvárko“**
 
 ## **Extrémní chlazení**
@@ -171,10 +139,5 @@ Většinou za dosažením co největšího přetaktování a tak vytvoření rek
 
 Nejedná se vůbec o levné chlazení, cena 10 000 Kč za jednu tlakovou lahev
 
-9/10
-
-cv23_chlazeni_PC.odt
-
 ## **Chlazení notebooků**
 
-10/10

@@ -327,8 +327,8 @@ Karta kreslí obraz – je tak jádrem celé soustavy
 
 - DVI-D (digital only)
 
-<!-- Start of picture text -->
-FEMALE LAYOUT<br>– pouze digitální signál<br>● DVI-A (analog only)<br>DVI-I (Single Link)<br>– pro kompatibilitu s analogovými<br>monitory=<br>● DVI-I (digital & analog) DVI-I (Dual Link)<br>– digitální i analogový signál<br>DVI-D (Single Link)<br>DVI-D (Dual Link)<br>DVI-A<br><!-- End of picture text -->
+((obrázek vynechán))
+
 
 - Založen na sériovém formátu používá Transition Minimized Differential Signaling (TMDS)
 
@@ -372,11 +372,19 @@ FEMALE LAYOUT<br>– pouze digitální signál<br>● DVI-A (analog only)<br>DVI
 
 - Verze HDMI 1.0 až 2.1
 
-<!-- Start of picture text -->
-HDMI<br><!-- End of picture text -->
+((obrázek vynechán))
 
-<!-- Start of picture text -->
-DisplayPort DisplayPort<br>● Digitální konektor sloužící k přenosu nekomprimovaného  digitálního obsahu<br>s podporou až 8kanálového zvuku  a ochrany DPCP (DisplayPort Content<br>Protection)<br>– využívá 128bitové šifrování AES<br>– podporuje rychlost přenosu 10,8 Gbit/s<br>– do 3 metrů podporuje rozlišení WQXGA (2560×1600 pixelů)<br>– do 15 metrů podporuje rozlišení 1920×1080 pixelů<br>– s konektory typu DVI a HDMI je jen omezeně zpětně kompatibilní<br>– navržen tak, aby nahradil digitální (DVI) i analogové (VGA) konektory<br>v monitorech počítačů stejně jako v grafických kartách<br>– má všechny funkce HDMI<br>– určen spíše pro kancelářské a IT využití<br><!-- End of picture text -->
+
+- Digitální konektor sloužící k přenosu nekomprimovaného digitálního obsahu s podporou až 8kanálového zvuku a ochrany DPCP (DisplayPort Content Protection)
+  - využívá 128bitové šifrování AES
+  - podporuje rychlost přenosu 10,8 Gbit/s
+  - do 3 metrů podporuje rozlišení WQXGA (2560×1600 pixelů)
+  - do 15 metrů podporuje rozlišení 1920×1080 pixelů
+  - s konektory typu DVI a HDMI je jen omezeně zpětně kompatibilní
+  - navržen tak, aby nahradil digitální (DVI) i analogové (VGA) konektory v monitorech počítačů stejně jako v grafických kartách
+  - má všechny funkce HDMI
+  - určen spíše pro kancelářské a IT využití
+
 
 # TV OUT, TV IN
 
@@ -542,8 +550,15 @@ DisplayPort DisplayPort<br>● Digitální konektor sloužící k přenosu nekom
 
 - technologie se pak označuje jako TN+F
 
-<!-- Start of picture text -->
-1-Zdroj bílého světla<br>2-Polarizační desky<br>3-Polarizované světlo<br>4-Elektrody<br>5-Tekuté krystaly<br>6-Film zlepšující<br>pozorovací úhly<br><!-- End of picture text -->
+((obrázek vynechán))
+
+1. Zdroj bílého světla
+2. Polarizační desky
+3. Polarizované světlo
+4. Elektrody
+5. Tekuté krystaly
+6. Film zlepšující pozorovací úhly
+
 
 # Technologie IPS (in-Plane Switching)
 

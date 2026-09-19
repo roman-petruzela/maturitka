@@ -3,9 +3,6 @@ title: "LED a potenciometr"
 order: 6
 source: "robotika1.pol/cv05_LED_potenciometr.pdf"
 ---
-IT3 – RBT – Arduino – LED a potenciometr
-
-CV-05
 
 # **Konstanty**
 
@@ -42,11 +39,6 @@ pouze dva stavy napětí:
    - při zápisu mezi GND  a pinem 0.
 
    - při čtení mezi GND  a pinem napětí menší než 2V
-
-_
-IT3 – RBT – Arduino – LED a potenciometr
-
-CV-05
 
 ## **Analogový vstup a výstup**
 
@@ -92,11 +84,6 @@ _Obrázek 1: PWM modulace_
 
 6. LED dioda.
 
-_
-CV-05
-
-IT3 – RBT – Arduino – LED a potenciometr
-
 7. Potenciometr – s lineárním průběhem (B10K)
 
 ## **Zapojení**
@@ -127,4 +114,3 @@ void setup() {
 }
 ```
 
-_

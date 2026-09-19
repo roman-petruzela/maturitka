@@ -3,9 +3,6 @@ title: "Had z 5 LED"
 order: 8
 source: "robotika1.pol/cv07a_had_5xLED.pdf"
 ---
-IT3 – RBT – Arduino – had 5xLED
-
-CV-07a
 
 # **Složené operátory**
 
@@ -58,11 +55,6 @@ while(podminka){
   prikazy...
 }
 ```
-
-_
-IT3 – RBT – Arduino – had 5xLED
-
-CV-07a
 
 Příklad 1 – ukázka cyklu
 
@@ -123,11 +115,6 @@ do{
 strednik " ten zde musi byt
 ```
 
-_
-IT3 – RBT – Arduino – had 5xLED
-
-CV-07a
-
 Příklad 1 – ukázka cyklu
 
 ```
@@ -181,11 +168,6 @@ void setup() {
 }
 ```
 
-_
-IT3 – RBT – Arduino – had 5xLED
-
-CV-07a
-
 ```
 void loop() {
 ```
@@ -213,11 +195,6 @@ void loop() {
 ## **Zapojení**
 
 Dle obrázku:
-
-_
-IT3 – RBT – Arduino – had 5xLED
-
-CV-07a
 
 ## **Program**
 
@@ -252,4 +229,3 @@ void loop() {
 
 Doplňte program tak, aby se  diody rozsvěcovaly a zhasínaly i v opačném směru.
 
-_
