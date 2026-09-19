@@ -72,7 +72,7 @@ Dílo:   __Tyrolské elegie__ – příběh o deportaci policií do Brixenu
 
 	__Epigramy –__ krátký básnický satirický útvar s expozicí a pointou \(církvi, králi, vlasti, múzám a světu\)
 
-__Satira__ – využívá humoru ke kritice__, Ironie__ – vtipné a výsměšné vyjádření využívající protikladu, __Sarkasmus__ – hořká ironie, jízlivý posměšek
+__Satira__ – využívá humoru ke kritice, Ironie – vtipné a výsměšné vyjádření využívající protikladu, __Sarkasmus__ – hořká ironie, jízlivý posměšek
 
 __REALISMUS__
 

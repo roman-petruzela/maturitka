@@ -65,11 +65,11 @@ O autorovi:
 
 Dílo:
 
-1. novinářská a prozaická činnost__ __– začal ji tvořit před 1\. sv\. se svým bratrem
+1. novinářská a prozaická činnost – začal ji tvořit před 1\. sv\. se svým bratrem
 
 Fejetony \- __Zahradníkův rok, Jak se co dělá, Měl jsem psa a kočku, Italské listy, Cesta na sever, Výlet do Španěl__
 
-1. utopická tvorba__ __– poukazuje na pomyslnou hrozbu zneužití lidských vynálezů, které se rychle vyvíjí
+1. utopická tvorba – poukazuje na pomyslnou hrozbu zneužití lidských vynálezů, které se rychle vyvíjí
 
 drama – __R\.U\.R\., Věc Makropulos__	romány – __Továrna na absolutno, Krakatit, Válka s mloky__
 
@@ -95,7 +95,7 @@ Autoři, kteří tvořili v meziválečné době:
 
 Německy psaná literatura u nás: __Franz Kafka__ \(Proces, Proměna, Zámek\), __Ranier Maria Rilke__ \(Kniha hodinek\), __Egon Erwin Kisch__ \(Pražský Pitaval, Zuřivý reportér\)
 
-__Vladislav Vančura__  \(Rozmarné léto, Markéta Lazarová, Konec starých časů\) \- avantgardní proud, __Ivan Olbracht__ = levicově orientovaný \(Nikola Šuhaj, loupežník, Žalář nejtemnější__\) \-__ levicově orientovaný__, Jaroslav Hašek =__ legionáři \(Osudy dobrého vojáka Švejka za světové války\) __Jaroslav Havlíček__ \(Petrolejové lamy, Neviditelný\) = psychologická próza, __Jiří Voskovec, Jan Werich__ \(Golem, West Pocket revue\) \- Osvobozené divadlo
+__Vladislav Vančura__  \(Rozmarné léto, Markéta Lazarová, Konec starých časů\) \- avantgardní proud, __Ivan Olbracht__ = levicově orientovaný \(Nikola Šuhaj, loupežník, Žalář nejtemnější\) \- levicově orientovaný, Jaroslav Hašek = legionáři \(Osudy dobrého vojáka Švejka za světové války\) __Jaroslav Havlíček__ \(Petrolejové lamy, Neviditelný\) = psychologická próza, __Jiří Voskovec, Jan Werich__ \(Golem, West Pocket revue\) \- Osvobozené divadlo
 
 Imanigativní próza \(V\. Vančura\) =  básnická próza
 

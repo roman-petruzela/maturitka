@@ -18,7 +18,7 @@ __Postavy:__  Cyril \- zkorumpovaný soudce, sobec
 
                   Bruno \- novinář regionálního tisku, trpí nemocí
 
-                  Aneta \- nejmladší novinářka, věří v ideál lásky,neodporuje Cyrilovi
+                  Aneta \- nejmladší novinářka, věří v ideál lásky, neodporuje Cyrilovi
 
                    Tali \- lehká slečna, Cyril jí koupí Brunovi, pak spolu zůstanou
 
@@ -80,6 +80,6 @@ Kohout \- Sněžím
 
 Vaculík \- fejetony
 
-Písničkáři: Nohavica, Suchý,Kupka
+Písničkáři: Nohavica, Suchý, Kupka
 
 Radek John \- scénarista, spisovatel, zaměřoval se na problémy mladých lidí \- drogy, násilí, prostituce

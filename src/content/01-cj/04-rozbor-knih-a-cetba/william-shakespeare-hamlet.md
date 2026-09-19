@@ -21,7 +21,7 @@ __Znaky literárního směru:__
 
 renesance = znovuzrození \(antiky\), obrození
 
-- pojem renesance je francouzský překlad užitý francouzským historikem [Julesem Micheletem](http://cs.wikipedia.org/wiki/Jules_Michelet" \o "Jules Michelet)
+- pojem renesance je francouzský překlad užitý francouzským historikem [Julesem Micheletem](http://cs.wikipedia.org/wiki/Jules_Michelet)
 - 14\.\-16\. století
 - zrod v severní Itálii na konci 13\. století, šířila se dál \(Anglie, Španělsko, Německo, Francie,\.\.\.\)
 - v italských městech se rozvíjel obchod, vytvořila se skupina bohatých obchodníků a bankéřů – podporovali umělce, studia = mecenáši
@@ -149,7 +149,7 @@ Francois Villon \(1431–1463\)
 
 *Odkaz* \(*Malý testament*\) – sbírka ironických a satirických básní
 
-### *Závěť *\(*Velký testament*\) – rozmanité básně: nábožné, dvorské, „bláznivé“ – vše z prostředí podsvětí
+### *Závěť* \(*Velký testament*\) – rozmanité básně: nábožné, dvorské, „bláznivé“ – vše z prostředí podsvětí
 
 ### \- zamyšlení nad osudem, zároveň výsměch sobě i jiným
 

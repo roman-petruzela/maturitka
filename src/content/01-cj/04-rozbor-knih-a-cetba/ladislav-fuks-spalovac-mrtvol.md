@@ -81,7 +81,7 @@ __Josef Škvorecký \- psal romány : Zbabělci, Mirákl__
 
                               __\- psal detektivní žánry : Smutek poručíka Borůvky, Konec Poručíka Borůvky, Návrat__
 
-__Ludvík Vaculík \- patřil do Charty 77, autor textu Dva tisíce slov = manifest, patří dělníkům, zemědělcům,úředníkům__
+__Ludvík Vaculík \- patřil do Charty 77, autor textu Dva tisíce slov = manifest, patří dělníkům, zemědělcům, úředníkům__
 
 __Bohumil Hrabal \- narodil se jako nemanželské dítě, po 68 nesměl publikovat__
 

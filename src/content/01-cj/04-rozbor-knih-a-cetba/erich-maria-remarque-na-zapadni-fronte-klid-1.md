@@ -3,9 +3,9 @@ title: "Erich Maria Remarque - Na západní frontě klid (1)"
 order: 22
 source: "MATURITA HADR/ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Erich Maria Remarque - Na západní frontě klid (1)/9. E. M. Remarque Na západní frontě klid.docx"
 ---
-__Kniha: __Na západní frontě klid
+**Kniha:** Na západní frontě klid
 
-__  Autor: __Erich Maria Remarque
+**Autor:** Erich Maria Remarque
 
 __ERICH MARIA REMARQUE__
 
@@ -54,7 +54,7 @@ __Motiv:__ zfanatizovaný učitel
 
 __Jazyk:__
 
-- Profesionalismy,slang\-v zákopech mezi vojáky
+- Profesionalismy, slang\-v zákopech mezi vojáky
 - Gradace\-„ s údivem, pak rozhořčeně a nakonec lhostejně“
 - Perifráze“důležitější než čtyři svazky Schopenhauera“
 - Frazémy\-„aby to z nás vytloukli“

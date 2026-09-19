@@ -65,7 +65,7 @@ Zeměměřič K\. dostane práci na zámku\. Ve vesnici u zámku bydlí, ale zá
 
 Když se Řehoř Samsa jednou ráno probudil z nepokojných snů, shledal, že se v posteli proměnil v jakýsi nestvůrný hmyz\.\.\.
 
-Největší okamžité zlepšení situace jim ovšem jistě snadno přinese změna bytu; vezmou si teď menší a levnější a přitom lépe položený a vůbec praktičtější byt, než je nynější, který vybíral ještě Řehoř\. Jak si tak povídali, zadívali se pan a paní Samsovi na svou čím dál čilejší dceru a skoro zároveň je napadlo, jak za poslední dobu přes všechno soužení, od něhož jí pobledly tváře, rozkvetla v krásnou a kyprou dívku\. Umlkli, a dorozumívajíce se skoro nevědomky pohledy, pomysleli si, že bude teď načase, aby pro ni také vyhledali hodného muže\. A připadalo jim jako dotvrzení jejich nových snů a dobrých úmyslů, když u cíle jejich cesty dcera prví vstala a protáhla své mladé tělo\.*<a id="footnote-ref-1"></a>[\[1\]](#footnote-1)*
+Největší okamžité zlepšení situace jim ovšem jistě snadno přinese změna bytu; vezmou si teď menší a levnější a přitom lépe položený a vůbec praktičtější byt, než je nynější, který vybíral ještě Řehoř\. Jak si tak povídali, zadívali se pan a paní Samsovi na svou čím dál čilejší dceru a skoro zároveň je napadlo, jak za poslední dobu přes všechno soužení, od něhož jí pobledly tváře, rozkvetla v krásnou a kyprou dívku\. Umlkli, a dorozumívajíce se skoro nevědomky pohledy, pomysleli si, že bude teď načase, aby pro ni také vyhledali hodného muže\. A připadalo jim jako dotvrzení jejich nových snů a dobrých úmyslů, když u cíle jejich cesty dcera prví vstala a protáhla své mladé tělo\.
 
 ## <a id="_Toc26429982"></a>Děj
 
@@ -150,4 +150,3 @@ Dílo je racionální, styl je věcný a byl mi blízký\.
 	- Americký spisovatel
 	- Výrazný představitel ztracené generace
 
-1. <a id="footnote-1"></a> [↑](#footnote-ref-1)

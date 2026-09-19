@@ -58,7 +58,7 @@ __Postavy :__
 
 __Robinson Crusoe__ – Pochází z bohaté rodiny obchodníka z Yorku\. Jeho snem je plavba na moři\. Ten se mu nakonec splní, ale přitom ztroskotá a stane se trosečníkem na pustém ostrově na dvacet osm let\. Je to klasicky osvícenská postava – racionální, zodpovědná\. Je odvážný a vynálezavý, má velké odhodlání a vůli přežít
 
-__Pátek __– Černoch, který s pomocí Robinsona unikne před jistou smrtí a snězením kanibalů\. Uctívá horského boha, ale Robinson jej převrátí na křesťanství\. S Robinsonovým vedením se naučí také angličtinu a další dovednosti\. Je odvážný a věrný
+**Pátek** – Černoch, který s pomocí Robinsona unikne před jistou smrtí a snězením kanibalů\. Uctívá horského boha, ale Robinson jej převrátí na křesťanství\. S Robinsonovým vedením se naučí také angličtinu a další dovednosti\. Je odvážný a věrný
 
 __Jaz\. Prostředky :__
 

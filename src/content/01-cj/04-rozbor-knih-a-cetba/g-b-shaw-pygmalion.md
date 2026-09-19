@@ -26,8 +26,8 @@ Historické hry: __Caesar a Kleopatra__ – parodie Shakespearovského díla Ant
 Satira: __Živnost paní Warrenové__ – vyvolala skandál, kritika členů anglické vysoké společnosti
 Utopická pentalogie: __Zpět k Metuzálemovi__
 
-__Další autoři z tohoto období:
-__James Joyce – román Odysseus \(rodák z Dublinu\)
+**Další autoři z tohoto období:**
+James Joyce – román Odysseus \(rodák z Dublinu\)
 Marcel Proust – 7 d\. románový cyklus Hledání ztraceného času
 Antoine De Saint\-Exupéry – filozofická pohádka Malý princ
 Francis Scott Fitzgerald – román Velký Gatsby, povídka Podivuhodný případ Benjamina Buttona
@@ -49,8 +49,8 @@ __Námět:__ Dílo proměny, řecké báje a pověsti, přeměna člověka
 Autor chtěl v díle poukázat na rozdíly mezi společenskými vrstvami \(chování i jazyk\), ale zároveň chtěl ukázat, že se člověk z nižší vrstvy dokáže vyrovnat člověku z vrstvy vyšší\.
 Pomocí ironie autor vystavil kritice špatné vlastnosti lidí, společenské konvence a předsudky, které považuje za hloupé a nebezpečné\.
 Hra řeší problematiku ženské emancipace a v širším kontextu otázku lidské důstojnosti\.
-__Jazykové prostředky:
-__\- Psáno formou dialogů\.
+**Jazykové prostředky:**
+\- Psáno formou dialogů\.
 - V textu je velká část věnována scénickým poznámkám, nejen na začátku dějství, ale i během něj, objevují se dlouhé pasáže s vysvětlivkami, co a proč kdo dělá\.
 \-Častý výskyt ironie, sarkasmu a komiky\.
 - Kontrast života, jazyka, chování a zvyků mezi nižší a vyšší vrstvou \(slovní zásoba společenské "spodiny" = chybná výslovnost, délka samohlásek, jiné souhlásky, polykání celých slabik

@@ -3,8 +3,8 @@ title: "Alois a Vilém Mrštík - Maryša"
 order: 6
 source: "MATURITA HADR/ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Alois a Vilém Mrštík - Maryša/8. Maryša-období.docx"
 ---
-__Maryša
-Český realismus __
+**Maryša
+Český realismus** 
 
 - __Český realismus__
 	- v 80\. a 90\. letech 19\. století

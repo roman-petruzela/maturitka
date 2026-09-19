@@ -45,8 +45,6 @@ próza, epika, román
 
 vševědoucí vypravěč v er-formě
 
-1
-
 #### • **postava**
 
 Goriot – hodný, šetřivý, rozdávačný, dobrosrdečný dcery Delfína a Anastázie - rozmazlené, zdánlivě šťastné vychovatelka – duchaplná, vkusná
@@ -70,8 +68,6 @@ pásmo vypravěče v er-formě
 - _žily si jako nějaké milenky_ přirovnání
 
 _Stačilo jen, aby vyslovily nejdražší přání, a už viděly, jak je otec spěšně splňuje_ nadsázka _knížecí dary_ metafora
-
-2
 
 ### **Literárněhistorický kontext**
 
@@ -141,8 +137,6 @@ Francie:
 
 Gustav Flaubert (1821–1880)
 
-3
-
 _Paní Bovaryová_ – hlavní hrdinka Ema Bovaryová -> literární typ, žena utíkající od skutečnosti k iluzím = bovarismus
 
 _Citová výchova_ – podtitul Historie mladého muže, osudy romantika _Bouvard a Pécuchet_ – nedokončený román, podle něj seriál Byli jednou dva písaři
@@ -193,8 +187,6 @@ Nikolaj Vasiljevič Gogol (1809–1852)
 
 - byl to mistr satiry, psal komedie, romány, povídky povídkové knihy _Večery na samotě i Dikaňky_ – žertovně a strašidelně laděné příběhy tzv. petrohradské povídky – _Podobizna, Bláznovy zápisky, Plášť_ román _Mrtvé duše_ – první díl plánované trilogie, kritika statkářů komedie: _Ženitba, Hráči_
 
-4
-
 ##### Anglie:
 
 Charles Dickens (1812–1870) - ostrá kritika společenských jevů, citová hloubka, láskyplný humor _Kronika Pickwickova klubu_ – první román, příběhy z cest 4 členů klubu na venkov _Oliver Twist_ – román se sociálním podtextem, osiřelý chlapec vyrůstá v chudobinci, žije špatně. Utíká do Londýna a stává se členem zločinecké party a brzy je zadržen. Dostává se zpět do zločinecké party. _David Copperfield_ – román s autobiografickými rysy
@@ -212,8 +204,6 @@ Henryk Sienkiewicz (1846–1916)
 - získal Nobelovu cenu za literaturu v roce 1905
 
 _Ohněm a mečem_ – románová trilogie ze 17. stol., boj polských šlechticů proti ukrajinským kozákům _Quo vadis_ – z doby Neronova Říma, pronásledování prvních křesťanů
-
-5
 
 ### **Další údaje o knize:**
 
@@ -245,4 +235,3 @@ Jane Austenová – _Pýcha a předsudek_ : Jedna z mladších dcer uteče od ro
 
 Filmová verze pod stejným jménem byla natočena ve Francii roku 2004.
 
-6

@@ -47,7 +47,7 @@ __III\. Část__
 
 __JAZYKOVÉ PROSTŘEDKY__ = Spisovný jazyk a nespisovný jazyk \(postavy\)
 
-__                                         __= Nedokončené věty
+= Nedokončené věty
 
 __TROPY__ = Eufemismy
 

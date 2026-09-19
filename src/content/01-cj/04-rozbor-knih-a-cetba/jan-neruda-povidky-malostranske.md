@@ -41,7 +41,7 @@ __Postavy:__
 
 __pan Ryšánek__ – starší, vyšší, slabší; nemluví s panem Šléglem, protože mu dala jedna žena přednost před ním
 
-__pan Šlégl__ – zavalitý, fyzicky statnější; vede s panem Ryšánkem tichou válku __ __
+__pan Šlégl__ – zavalitý, fyzicky statnější; vede s panem Ryšánkem tichou válku  
 
 __Děj__
 
@@ -83,7 +83,7 @@ __Téma:__ přátelství mezi kamarády
 
 __Motivy:__ vysokoškolští studenti, přátelství, schůzky na střeše a za vikýřem
 
-__Postavy:__ Hovorka \(sám Neruda\), Jäkl, Kupka, Novomlýnský__ __
+__Postavy:__ Hovorka \(sám Neruda\), Jäkl, Kupka, Novomlýnský 
 
 __Děj__
 

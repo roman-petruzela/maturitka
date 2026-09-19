@@ -38,4 +38,4 @@ __dědeček__ \- starý muž, bohatý jak svými zkušenostmi posbíranými za s
 
 __Jazyk:__ přísloví pořekadla, úvahy, archaismy, jazyková komika, situační komika, spisovný jazyk, řečnické otázky, metafory, eufemizmy
 
-__Kompozice:__ Chronologický děj s retrospektivním vyprávěním tety Kateřiny, vypravěče, saturnina… ,  ,přísloví, ich forma \- autor,dialog i monolog, citace dopisů, postřehy vypravěče, anglický humor
+__Kompozice:__ Chronologický děj s retrospektivním vyprávěním tety Kateřiny, vypravěče, saturnina… ,  ,přísloví, ich forma \- autor, dialog i monolog, citace dopisů, postřehy vypravěče, anglický humor

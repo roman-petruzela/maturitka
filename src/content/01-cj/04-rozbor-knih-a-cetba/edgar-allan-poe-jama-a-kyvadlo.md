@@ -15,8 +15,8 @@ tags: ["mimo-seznam-cetby"]
 - nějaký čas žili v Liverpoolu \(Anglie se mu stala inspirací\)
 - Edgar studoval literaturu na University of Virginia, kde však začal mít potíže s alkoholem a s hráčskými dluhy
 - Poe se ve finanční krizi zapsal na vojenskou akademii ve West Pointu \-> propuštěn za nedisciplínu
-- v r\. 1833 první úspěch na literární soutěži soutěži
-- v r\. 1835 se stal šéfredaktorem* Southern Literary Messenger*
+- v r\. 1833 první úspěch na literární soutěži
+- v r\. 1835 se stal šéfredaktorem *Southern Literary Messenger*
 - Alkohol a drogy způsobovaly Poeovi intenzivní stavy [deprese](http://cs.wikipedia.org/wiki/Deprese_%28psychologie%29) a později i ztrátu zaměstnání\. Roku 1845 uveřejnil rozsáhlou báseň Havran, který doslova ohromil tehdejší veřejnost
 - Poeova smrt byla hodna děl [3\. října](http://cs.wikipedia.org/wiki/3._%C5%99%C3%ADjen) [1849](http://cs.wikipedia.org/wiki/1849) byl nalezen opilý  a zdrogovaný na chodníku Byl urychleně hospitalizován\.  Zemřel na překrvení mozku\.
 

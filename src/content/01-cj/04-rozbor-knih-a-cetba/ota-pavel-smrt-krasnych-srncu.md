@@ -35,8 +35,8 @@ Pavel Kohout – Katyně, Ladislav Mňačko – Jak chutná moc, Josef Škvoreck
 
 __poválečná literatura:__
 začátek – demokratické myšlenky 1\. republiky, reakce na válku, euforie z osvobození – pouze krátká
-1948 – přelom neobecně, komunistický puč, znárodnění kultury \-> __vznik budovatelského románu
-__50\. léta – doba temna – falešné procesy, popravy
+1948 – přelom neobecně, komunistický puč, znárodnění kultury \-> **vznik budovatelského románu**
+50\. léta – doba temna – falešné procesy, popravy
 Syndikát českých spisovatelů \-> Svaz českých spisovatelů
 řada emigrací
 1952 – zákaz Lidových novin
@@ -54,7 +54,7 @@ Jde o autobiografickou vzpomínku na autorovo dětství a dospívání\.
   z autorova rodinného prostředí na pozadí dané doby\.
 
 - Zavádí nás do kouzelných míst svého dětství a mládí do Buštěhradu, k řece Berounce a do křivoklátských lesů\. Vzpomíná na své dětství, na jeho problémy s židovstvím a porovnává jak před válkou bylo vše super a poté následoval trapnsport do koncentračních táborů, což bylo zlo\.
-- Poukazuje rovněž na obětavost rodičů,na jejich toleranci,sny a touhy\.
+- Poukazuje rovněž na obětavost rodičů, na jejich toleranci, sny a touhy\.
 
 - viz\. \- Tatínek musel nasytit své syny předtím, než je pošlou do Terezína\.
 - __Časoprostor \(prostřední a doba, ve které se odehrává to dílo\)__
@@ -112,13 +112,7 @@ __DETAILY__
 
 - V povídkách se projevuje autorův vztah k přírodě, k rybaření, k rodné zemi, k venkovu, k rodině\.
 
-- Výraznou roli hraje příroda\. \(Příroda mu pomáhá, aby našel cestu sám k sobě, aby se zbavil neupřímnosti,
-
-   přetvářky a smutku lidského života\. Odměňuje se jí pokorou a něhou: *„Chtěl jsem se stokrát zabít, když už *
-
-*   jsem nemohl dál, ale nikdy jsem to neudělal\. Snad jsem v podvědomí toužil ještě několikrát políbit řeku a *
-
-*   chytit stříbrné ryby\. Ta rybařina mě naučila trpělivosti a vzpomínky mi pomáhaly přežít\.“\)*
+- Výraznou roli hraje příroda\. \(Příroda mu pomáhá, aby našel cestu sám k sobě, aby se zbavil neupřímnosti, přetvářky a smutku lidského života\. Odměňuje se jí pokorou a něhou: *„Chtěl jsem se stokrát zabít, když už jsem nemohl dál, ale nikdy jsem to neudělal\. Snad jsem v podvědomí toužil ještě několikrát políbit řeku a chytit stříbrné ryby\. Ta rybařina mě naučila trpělivosti a vzpomínky mi pomáhaly přežít\.“*\)
 
 - Příběhy jsou prosté, hluboce lidské, mají jednoduchý děj a jednoduchou kompozici\.
 
@@ -152,16 +146,16 @@ Osudy Pavlova tatínka jsou velice rozverné\. Člověk si říká, že tolik ne
 
 Nebylo povídky, která by se mi nelíbila\. Všechny mají své kouzlo\. Která mi ale utkvěla v hlavě jako nejvíce zdrcující \- Králíci s moudrýma očima\. Člověk si říká, že už rodina všechno těžké zvládla\. Pavlovi rodiče se měli jakž takž dobře, pracovali, ale měli svůj klid\. Objeví se šance, jak si naposledy zkusit vydělat velké peníze\. Tak jede Pavlův otec na soutěž s králíky\. Já tušila, že se to nevyvede, ale strašně moc jsem mu přála, aby se to povedlo\. Byla jsem z toho smutná\. Představa, jak se trmácí jako troska pěšky domů podél řeky, je naprosto strašná\. Hnal se za penězi, aby se rodina měla dobře, až ho to nakonec položilo\.
 
-Nejdražší ve střední Evropě – autorův tatínek byl prodavačem ledniček značky Elektrolux, ale jeho vášní byly ryby\. Maminka by ráda jela na dovolenou do Itálie, ale tatínek raději lovil na Berounce\. Všechny našetřené peníze utratil za rybník, ve kterém údajně žije mnoho kaprů\. Při výlovu se ale zjistí, že prodejce pan doktor Václavík tatínka ošidil, v rybníce byl jen jeden veliký kapr\. Po letech si pan doktor Václavík přišel koupit ledničku, tatínek si řekl stejnou částku, jakou dal kdysi za prázdný rybník a zaslal panu doktorovi jen prázdnou skříň\.
+Nejdražší ve střední Evropě – autorův tatínek byl prodavačem ledniček značky Elektrolux, ale jeho vášní byly ryby\. Maminka by ráda jela na dovolenou do Itálie, ale tatínek raději lovil na Berounce\. Všechny našetřené peníze utratil za rybník, ve kterém údajně žije mnoho kaprů\. Při výlovu se ale zjistí, že prodejce pan doktor Václavík tatínka ošidil, v rybníce byl jen jeden veliký kapr\. Po letech si pan doktor Václavík přišel koupit ledničku, tatínek si řekl stejnou částku, jakou dal kdysi za prázdný rybník a zaslal panu doktorovi jen prázdnou skříň\.
 
-Ve službách Švédska – Tatínek byl ve firmě Elektrolux nejlepším prodejcem za celý rok a nakonec byla ne jeho počest uspořádána večeře\. Ředitel firmy Korálek měl krásnou ženu Irmu, do které byl tatínek zamilovaný, ale na večeři se před ní i celou společností znemožnil, když jedl kuře rukama\. Později se tatínek seznámil s vynikajícím malířem Nechlebou\. Nechleba si pana Poppera oblíbil, říkal mu Poppříčku a vzájemně se navštěvovali\. Tatínek si přál, aby profesor nechleba namaloval paní Irmu; ta se oblékla a nechala načesat, ale profesor Nechleba prohlásil, že takovou paničku malovat nebude\. Tatínka nevyhodili jen proto, že byl nejlepším prodejcem, a maminka měla radost, jak to všechno dopadlo\.
+Ve službách Švédska – Tatínek byl ve firmě Elektrolux nejlepším prodejcem za celý rok a nakonec byla ne jeho počest uspořádána večeře\. Ředitel firmy Korálek měl krásnou ženu Irmu, do které byl tatínek zamilovaný, ale na večeři se před ní i celou společností znemožnil, když jedl kuře rukama\. Později se tatínek seznámil s vynikajícím malířem Nechlebou\. Nechleba si pana Poppera oblíbil, říkal mu Poppříčku a vzájemně se navštěvovali\. Tatínek si přál, aby profesor nechleba namaloval paní Irmu; ta se oblékla a nechala načesat, ale profesor Nechleba prohlásil, že takovou paničku malovat nebude\. Tatínka nevyhodili jen proto, že byl nejlepším prodejcem, a maminka měla radost, jak to všechno dopadlo\.
 
-Smrt krásných srnců – Ota jezdil s tatínkem rád na Křivoklátsko\. Měli zde známého, pytláka Karla Proška, který měl vlčáka Holana\. Holan byl vycvičený, aby lovil srnce v zámecké zahradě, které se říkalo „smrt krásných srnců“\. Když byli Otovi bratři povoláni do transportu, tatínek chtěl, aby se pořádně najedli masa a koncentrační tábor tak lépe přečkali\. Odpáral si z kabátu židovskou hvězdu a jel za Karlem Proškem, aby mu obstaral zvěřinu\. Karel se bál pytlačit, protože v kraji už byli němečtí vojáci a mohli by ho za pytlačení zastřelit\. Tatínek si tedy alespoň vypůjčil Holana a společně jednoho srnce získali\. Bratr Jiří byl po návratu z koncentračního tábora vyhublý a slabý\. Říkal, že možná přežil právě díky srnčímu masu\.
+Smrt krásných srnců – Ota jezdil s tatínkem rád na Křivoklátsko\. Měli zde známého, pytláka Karla Proška, který měl vlčáka Holana\. Holan byl vycvičený, aby lovil srnce v zámecké zahradě, které se říkalo „smrt krásných srnců“\. Když byli Otovi bratři povoláni do transportu, tatínek chtěl, aby se pořádně najedli masa a koncentrační tábor tak lépe přečkali\. Odpáral si z kabátu židovskou hvězdu a jel za Karlem Proškem, aby mu obstaral zvěřinu\. Karel se bál pytlačit, protože v kraji už byli němečtí vojáci a mohli by ho za pytlačení zastřelit\. Tatínek si tedy alespoň vypůjčil Holana a společně jednoho srnce získali\. Bratr Jiří byl po návratu z koncentračního tábora vyhublý a slabý\. Říkal, že možná přežil právě díky srnčímu masu\.
 
-Kapři pro Wehrmacht – Když do Buštěhradu přijeli Němci, musel jim tatínek odevzdat svůj rybník s kapry, které nade všechno miloval\. V zimě byl povolán do transportu a noc před odjezdem vzbudil dvanáctiletého Otu\. Ota myslel, že se s ním chce tatínek rozloučit, ale ten ho potřeboval na práci\. Společně vysekali do rybníku díru, kterou kapry vylovili a malý Ota je potom vyměnit za jídlo a cigarety pro maminku, která věci potom posílala tatínkovi a bratrům\. Tatínek teda Němcům „vypálil rybník“\.
+Kapři pro Wehrmacht – Když do Buštěhradu přijeli Němci, musel jim tatínek odevzdat svůj rybník s kapry, které nade všechno miloval\. V zimě byl povolán do transportu a noc před odjezdem vzbudil dvanáctiletého Otu\. Ota myslel, že se s ním chce tatínek rozloučit, ale ten ho potřeboval na práci\. Společně vysekali do rybníku díru, kterou kapry vylovili a malý Ota je potom vyměnit za jídlo a cigarety pro maminku, která věci potom posílala tatínkovi a bratrům\. Tatínek teda Němcům „vypálil rybník“\.
 
-Jak jsme se střetli s vlky – Tatínek soupeřil s rodinou Vlkových, kdo uloví víc štik\. Spolu s Otou jich několik ulovili, ale když je na vozíku dotáhli k Vlkom, zjistili, že oni jich nalovili víc a větších\. Zklamaní odvezli své ryby zase zpátky\.
+Jak jsme se střetli s vlky – Tatínek soupeřil s rodinou Vlkových, kdo uloví víc štik\. Spolu s Otou jich několik ulovili, ale když je na vozíku dotáhli k Vlkom, zjistili, že oni jich nalovili víc a větších\. Zklamaní odvezli své ryby zase zpátky\.
 
-Otázka hmyzu vyřešena – Po válce tatínek prodával ledacos, ale nic nebylo úspěšné\. Jednou se nechal najmout inženýrem Jedličkou a prodával mucholapky, které nelepily\. Vzal si jako věc cti, že je všechny prodá, což se mu také podařilo a panu Jehličkovi vydělal milion\. Jenže když v létě začaly mouchy létat a hospodyně rozbalily nelepící mucholapky, byl jejich podnik označen za podvod\. Všichni posílali nefunkční mucholapky zpátky a tatínek dal výpověď\.
+Otázka hmyzu vyřešena – Po válce tatínek prodával ledacos, ale nic nebylo úspěšné\. Jednou se nechal najmout inženýrem Jedličkou a prodával mucholapky, které nelepily\. Vzal si jako věc cti, že je všechny prodá, což se mu také podařilo a panu Jehličkovi vydělal milion\. Jenže když v létě začaly mouchy létat a hospodyně rozbalily nelepící mucholapky, byl jejich podnik označen za podvod\. Všichni posílali nefunkční mucholapky zpátky a tatínek dal výpověď\.
 
-Králíci s moudrýma očima – Poslední tatínkův pokus o zbohatnutí měl být s prodejem králíků\. Otec je choval asi deset let, až je nakonec nechal tetovat, aby získali „papíry“ a mohli se prodávat na chov\. Po tetování ale znalci rozhodli, že tatínkovi zajíci nejsou čistokrevní, a tak je tatínek vypustil do přírody\. Na konci povídky tatínka odvážejí do nemocnice, dokud se už nevrátil\.
+Králíci s moudrýma očima – Poslední tatínkův pokus o zbohatnutí měl být s prodejem králíků\. Otec je choval asi deset let, až je nakonec nechal tetovat, aby získali „papíry“ a mohli se prodávat na chov\. Po tetování ale znalci rozhodli, že tatínkovi zajíci nejsou čistokrevní, a tak je tatínek vypustil do přírody\. Na konci povídky tatínka odvážejí do nemocnice, dokud se už nevrátil\.

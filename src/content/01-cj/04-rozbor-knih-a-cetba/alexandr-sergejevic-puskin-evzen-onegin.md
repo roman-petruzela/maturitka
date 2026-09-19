@@ -109,7 +109,7 @@ neodpovídá\. Nakonec jí Oněgin vyzná lásku, ale Taťána, i když Oněgina
 
 jeho city\. Je vdaná za jiného a tomu chce zůstat věrná\. Oněgin ztrácí smysl života\.
 
-__Hlavní postavy__:__ __
+__Hlavní postavy__: 
 
 Evžen Oněgin – mladý šlechtic, lehkovážný, připadá si zbytečný, společenský, vzdělaný, nebyl vychován rodiči, chodil z jedné společenské akce do druhé, po zločinu, který spáchá je nešťastný
 
@@ -155,7 +155,7 @@ __Další spisovatelé__
 
 Rusko
 
-* Michael Jurjevič Lermontov \(1814–1841\)*
+- *Michael Jurjevič Lermontov \(1814–1841\)*
 
 - básník, prozaik, dramatik
 
@@ -183,7 +183,7 @@ Rusko
 
 *Alfred de Musset \(1810\-1857\)*
 
-* Zpověď dítěte svého věku* – intimní autobiografický román, vylíčil svůj vztah k George Sandové
+- *Zpověď dítěte svého věku* – intimní autobiografický román, vylíčil svůj vztah k George Sandové
 
 Anglie
 
@@ -221,6 +221,6 @@ Myšlenky
 
 - považován za zakladatele historické povídky a historického románu
 
-*Waverly *– román o povstání v Irsku
+*Waverly* – román o povstání v Irsku
 
 nejslavnější romány: *Rob Roy, Ivanhoe, Kenilworth, Pirát*

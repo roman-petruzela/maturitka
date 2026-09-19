@@ -34,7 +34,7 @@ __Naturalismus \-__ je umělecký směr, který se snaží zachytit nezkreslenou
 
 __Anglie__
 
-__Charles Dickens__ \- hrdinové se musejí sami probíjet životem, důvod těchto námětů je v jeho vlastním životě, musel pracovat v továrně kde se setkával s dětmi stejného osudu,protože jeho rodiče byli ve vězení a byl zadlužený už v 11 kde se setkával s dětmi stejného osudu\.
+__Charles Dickens__ \- hrdinové se musejí sami probíjet životem, důvod těchto námětů je v jeho vlastním životě, musel pracovat v továrně kde se setkával s dětmi stejného osudu, protože jeho rodiče byli ve vězení a byl zadlužený už v 11 kde se setkával s dětmi stejného osudu\.
 
 __Oliver Twist__ \- Kriticky popisuje podmínky života městské chudiny, především dětí\. Příběh vypráví o tajném původu sirotka a jeho putování\.
 
@@ -56,9 +56,9 @@ __Honore de Balzac__ \- nejvýznamější tvůrce francouzského realismu, vystu
 
 		__*Evženie Grandetová \- *__ je to o otci a dceři, kteří žijí v nůzných podmínkách\. Starý Grandet spekuluje s majetkem a také s provdáním dcery, aby měl více majetku, ale sám povídá dceři jak jsou na tom špatně\. Evženie se mu chce pomstít, ale nezvládne to protože ho má ráda, jakmile umře tak zjistí že je bohatá a začne se chovat stejně\.
 
-__Gustave Flauber \-__ perfektně zobrazoval vztahy a city, studoval práva, ale nedostudoval kvůli jeho nemoci\. Za jedno jeho dílo byl postaven před policii, ale díky kvalitní obhajobě z toho vyváz__*l\.*__
+__Gustave Flauber \-__ perfektně zobrazoval vztahy a city, studoval práva, ale nedostudoval kvůli jeho nemoci\. Za jedno jeho dílo byl postaven před policii, ale díky kvalitní obhajobě z toho vyvázl\.
 
-__*		Paní Bovaryová \- *__Hrdinka se provdá za lékaře, s tím že to bude perfektní, však se zmílí najde si milence, ten jí opustí najde si dalšího\. Zamluví se lichváři a Bovaryův dům propadá exekuci\. Hrdinka se nakonec otráví a umírá v samotě
+***Paní Bovaryová \-*** Hrdinka se provdá za lékaře, s tím že to bude perfektní, však se zmílí najde si milence, ten jí opustí najde si dalšího\. Zamluví se lichváři a Bovaryův dům propadá exekuci\. Hrdinka se nakonec otráví a umírá v samotě
 
       __Emile Zola \-__ zemřel ve spánku na otravu, autor povídek, románů
 
@@ -66,7 +66,7 @@ __*		Paní Bovaryová \- *__Hrdinka se provdá za lékaře, s tím že to bude p
 
 		__*Zabiják*__
 
-__*		Nana \-*__ román o dceři pradleny a klempíře, ze které se stala prostitutka; obraz nevěstinců i vysoké společnosti
+***Nana \-*** román o dceři pradleny a klempíře, ze které se stala prostitutka; obraz nevěstinců i vysoké společnosti
 
 __Rusko__
 
@@ -78,9 +78,9 @@ __Lev Nikolajevič Tolstoj \-__ významný ruský realista, autor drobných pov�
 
 __Dostojevskij \-__ významný ruský spisovatel, měl být popraven, ale trest mu byl zmírněn\.
 
-__*Zločin a trest \-  *__Hrdina okradl a zabil starou lichvářku a její sestru, vražda v jeho svědomí vyvolá výčitky a otázku, zda má člověk právo zabít
+***Zločin a trest \-***  Hrdina okradl a zabil starou lichvářku a její sestru, vražda v jeho svědomí vyvolá výčitky a otázku, zda má člověk právo zabít
 
-__Tugeněv \- *Lovcovy zápisky \- *__ popisuje krásu přírody a zbídačený ruský venkov
+**Tugeněv \- *Lovcovy zápisky \-***  popisuje krásu přírody a zbídačený ruský venkov
 
 __Gogol \-__ popisuje reálné ruské prostředí a život z různých společenský vrstev, po vydání díla Revizor dostal kritiku a opustil Rusko
 
@@ -90,12 +90,12 @@ __Gogol \-__ popisuje reálné ruské prostředí a život z různých společen
 
 __Polsko__
 
-__Henryk Sienkiewicz  \-__ nositel nobelovy ceny, povídky o těžkém údělu lidí na venkovu, historické romány  \-__*Quo vadis \-  *__mistrovsky vylíčil poměry ve starém Římě za vlády krutého císaře Nerona, zejména jeho pronásledování křesťanů
+__Henryk Sienkiewicz  \-__ nositel nobelovy ceny, povídky o těžkém údělu lidí na venkovu, historické romány  \-***Quo vadis \-***  mistrovsky vylíčil poměry ve starém Římě za vlády krutého císaře Nerona, zejména jeho pronásledování křesťanů
 
 __Amerika__
 
-__Mark Twain \-__ proslul charakteristikami chlapeckých hrdinů, zachycoval jejich psychiku,   Díla: __*Dobrodružství Toma Sawyera, Dobrodružství Huckleberryho Finna *__
+__Mark Twain \-__ proslul charakteristikami chlapeckých hrdinů, zachycoval jejich psychiku,   Díla: ***Dobrodružství Toma Sawyera, Dobrodružství Huckleberryho Finna*** 
 
-__Jack London \-__ vystřídal plno zaměstnání, propadl alkoholu Dílo: __*Tulák po hvězdách \- *__Jeho vlastní zkušenosti s alkoholem
+__Jack London \-__ vystřídal plno zaměstnání, propadl alkoholu Dílo: ***Tulák po hvězdách \-*** Jeho vlastní zkušenosti s alkoholem
 
-__Dánsko__ \-__Hans Christian Andersen \- Dílo: *Pohádka mého života *__– vzpomínková próza, líčí vlastní osudy \.\.\.\.\. __Norsko \- Henrik Johan Ibsen \-__ hlavní tvůrce real\. dramatu \- Díla: Domov Loutek, Nepřátel lidu
+__Dánsko__ \-**Hans Christian Andersen \- Dílo: *Pohádka mého života*** – vzpomínková próza, líčí vlastní osudy \.\.\.\.\. __Norsko \- Henrik Johan Ibsen \-__ hlavní tvůrce real\. dramatu \- Díla: Domov Loutek, Nepřátel lidu

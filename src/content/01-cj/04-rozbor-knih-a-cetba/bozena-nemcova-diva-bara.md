@@ -3,8 +3,8 @@ title: "Božena Němcová - Divá Bára"
 order: 11
 source: "MATURITA HADR/ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Božena Němcová - Divá Bára/Divá-Bára.docx"
 ---
-__DIVÁ BÁRA
-__Božena Němcová
+**DIVÁ BÁRA**
+Božena Němcová
 
 __Romantismus:__ spadá do období 30\. a 40\. let 19\. století\. Řada revolucí vyvolala růst politického uvědomění a nastolila otázku národní svobody\. Čeština se postupem stávala jazykem veřejného života a projevem národního cítění\. Bylo založeno i několik organizací jako např\. Matice česká a také došlo k rozvoji divadel a časopisů\. Probudilo se i emancipační hnutí žen, což se stalo hlavním motivem pro díla Boženy Němcové\.
 

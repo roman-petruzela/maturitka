@@ -17,15 +17,15 @@ __Ostatní autoři této doby__
 
 __Zasazení výňatku do kontextu díla__
 
-__Téma \-__  Základní lidské hodnoty; příběh krysaře, který přišel město očistit od krys__ __
+__Téma \-__  Základní lidské hodnoty; příběh krysaře, který přišel město očistit od krys 
 
-__Motiv –__ Povrchnost, nelidskost, přetvářka, milostné motivy, lidská odlišnost__ __
+__Motiv –__ Povrchnost, nelidskost, přetvářka, milostné motivy, lidská odlišnost 
 
 __Čas –__ není určen, zřejmě středověk \(v té době krysy přenášely mor\)
 
 __Prostor__ – propast u německého hanzovního města Hammeln
 
-__Kompoziční výstavba –__ Chronologická kompozice__ __
+__Kompoziční výstavba –__ Chronologická kompozice 
 
 __Literární druh a žánr__
 
@@ -33,7 +33,7 @@ __Druh –__ Epika
 
 __Žánr –__ Novela
 
-__Literární směr \-__ Česká literatura na přelomu 19\. a 20\. století, anarchističtí buřiči__ __
+__Literární směr \-__ Česká literatura na přelomu 19\. a 20\. století, anarchističtí buřiči 
 
 __Vypravěč / lyrický subjekt__
 
@@ -41,7 +41,7 @@ __\- Typy promluv –__ Vševědoucí vypravěč, er\-forma, monolog krysaře
 
 __\- Veršová výstavba není__
 
-__\- Vyprávěcí způsoby –__ přímá řeč krysaře, nepřímá řeč, vnitřní monology \- sledujeme pocity postav, dialogy__ __
+__\- Vyprávěcí způsoby –__ přímá řeč krysaře, nepřímá řeč, vnitřní monology \- sledujeme pocity postav, dialogy 
 
 Slohový postup vyprávěcí, popisný a úvahový
 

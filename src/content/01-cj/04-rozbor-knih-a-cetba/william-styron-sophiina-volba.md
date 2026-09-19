@@ -313,7 +313,7 @@ Sophie \+ Nathan \+ Stingo – přátelé, spolubydlící
 
 - pásmo vypravěče Stinga je spisovné, používá složitější větné konstrukce
 
-- Nathanova promluva obsahuje polská slova a francouzská slova *peut\-être *\(= asi, snad\) a *menteur* \(= lhář\) – chce Sophii ublížit tím, že paroduje její jazykové schopnosti
+- Nathanova promluva obsahuje polská slova a francouzská slova *peut\-être* \(= asi, snad\) a *menteur* \(= lhář\) – chce Sophii ublížit tím, že paroduje její jazykové schopnosti
 
 *namočená v těch vyzývavých voňavkách* – metafora, hyperbola
 

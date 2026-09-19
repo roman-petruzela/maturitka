@@ -186,7 +186,7 @@ __Další spisovatelé__
 
 Rusko
 
-* Michael Jurjevič Lermontov \(1814–1841\)*
+- *Michael Jurjevič Lermontov \(1814–1841\)*
 
 - básník, prozaik, dramatik
 
@@ -214,7 +214,7 @@ Rusko
 
 *Alfred de Musset \(1810\-1857\)*
 
-* Zpověď dítěte svého věku* – intimní autobiografický román, vylíčil svůj vztah k George Sandové
+- *Zpověď dítěte svého věku* – intimní autobiografický román, vylíčil svůj vztah k George Sandové
 
 Anglie
 
@@ -252,6 +252,6 @@ Myšlenky
 
 - považován za zakladatele historické povídky a historického románu
 
-*Waverly *– román o povstání v Irsku
+*Waverly* – román o povstání v Irsku
 
 nejslavnější romány: *Rob Roy, Ivanhoe, Kenilworth, Pirát*

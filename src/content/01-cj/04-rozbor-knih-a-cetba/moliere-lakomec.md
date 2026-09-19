@@ -31,7 +31,7 @@ __Motivy:__ lakomství, krádež milovaných peněz
 
 __Prostředí__: Paříž 1670
 
-__postavy__	 Harpagon: lichvář a skrblík, myslí vždy a pouze na zisk,vdovec, chamtivý, 					bezcitný,
+__postavy__	 Harpagon: lichvář a skrblík, myslí vždy a pouze na zisk, vdovec, chamtivý, 					bezcitný,
 
 	Kleantes: Harpagonuv syn, chce si vzít Marianu, chytrý, podnikavý
 

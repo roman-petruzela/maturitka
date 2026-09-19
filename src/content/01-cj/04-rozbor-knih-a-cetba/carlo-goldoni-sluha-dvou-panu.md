@@ -21,19 +21,19 @@ __Motivy:__ lež, láska, peníze, boj, lidové a měšťanské vrstvy té doby
 
 __Postavy:__
 __Truffaldino__ – vychytralý sluha, svým způsobem prosťáček, který vypadá, že neumí do pěti napočítat, docela obratně však vybruslí z každé situace, kterou mu jeho dvojí služba přinese\.
-__Beatrice __– žena, vydávající se za svého mrtvého bratra\. To proto, aby se jeho obchodní partner necukal při vyplácení jeho pohledávek\. Krom peněz si přijela do Benátek také najít svého milého Florinda, který kvůli ní jejího bratra, Frederica Rasponiho, zabil\. To ji ovšem nevadí\. Je to jedna Truffaldinova paní\.
+**Beatrice** – žena, vydávající se za svého mrtvého bratra\. To proto, aby se jeho obchodní partner necukal při vyplácení jeho pohledávek\. Krom peněz si přijela do Benátek také najít svého milého Florinda, který kvůli ní jejího bratra, Frederica Rasponiho, zabil\. To ji ovšem nevadí\. Je to jedna Truffaldinova paní\.
 __Florindo__ – Další pán Truffaldina\. Který se v Benátkách schovává před zákonem z Turína\. Tam zabil bratra své láska, Beatrice\.
 __Pantalone__ – Obchodní partner zesnulého bratra Beatrice a otec Klárky, která je zasnoubena nejprve za Beatricina bratra ale i za Silvia
 
-__Silvio __– je snoubenec slečna Klárky\. Miluje ji a hodlá si ji vybojovat v domnění, že bratr Beatrice, za něhož se ona vydává, není mrtev\.
+**Silvio** – je snoubenec slečna Klárky\. Miluje ji a hodlá si ji vybojovat v domnění, že bratr Beatrice, za něhož se ona vydává, není mrtev\.
 
 __Klárka__ – Pantalonova dcera, která byla zaslíbena otcově obchodnímu partnerovi, panu Fredericu Rasponimu\. Po příchozí zprávě o jeho smrti se však zasnoubila se svým milým, Silviem\.
 
 __Jazykové prostředky:__
 Použití jak spisovného tak nespisovného jazyka, stejně tak i zdrobnělin\.
-Dialogy,improvizace,hyperbola
+Dialogy, improvizace, hyperbola
 
-__Kompozice:
-__\-hra o 3 dějství, komedie, chronologický děj, hra končí happy endem, přirovnání, personifikace
+**Kompozice:**
+\-hra o 3 dějství, komedie, chronologický děj, hra končí happy endem, přirovnání, personifikace
 
 __((obrázek vynechán))__

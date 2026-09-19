@@ -38,8 +38,6 @@ Den poté však potká anglické vojáky a ukáže se v tom nejlepším světle,
 
 Danny potkává svého přítele Přému, který byl zavřený ve sklepě, ale podařilo se mu uniknout. Celý boj dopadne nakonec pro město „docela“ dobře. Hlavní hrdina doufá, že se dočká uznání a lásky od Ireny, ta však čeká na svého Zdeňka. Na konci knihy Danny vzpomíná na všechny, které miloval, a přemýšlí nad tím, jaká bude dívka, kterou potká v Praze.
 
-1
-
 #### • **téma a motiv**
 
 téma: závěr války v Kostelci motivy: hudba, kolaborantství, humor
@@ -88,11 +86,7 @@ přímé řeči kluků nespisovná čeština ( _víst, takovýho, vod něj, voba
 
 - metonymie _otevřít před sebou noty_
 
-2
-
 personifikace _ticho se rozhostilo_ ironie _„Začínám mít úctu k dělnýmu lidu.“_
-
-3
 
 ### **Literárněhistorický kontext**
 
@@ -164,8 +158,6 @@ Bohumil Hrabal (1914–1997)
 
 - oblíbený v 60.-80. letech, po revoluci méně výrazný
 
-4
-
 - žije v Praze a Mariánských Lázních
 
 - „autor pokleslé aktivity“
@@ -193,8 +185,6 @@ Ludvík Vaculík (1926–2015)
 - autor manifestu 2000 slov
 
 - _Jak se dělá chlapec, Morčata, Rušný dům, Sekyra_
-
-5
 
 ### **Další údaje o knize:**
 
@@ -226,4 +216,3 @@ Jan Drda − _Němá barikáda_ : Děj těchto povídek se stejnou tematikou jak
 
 O scénář se zasloužila režisérka Andrea Sedláčková a míní, že film by se mohl začít točit v dubnu až červnu r. 2013 (poslední údaje udávají rok 2018). V rozhovorech zmiňuje lítost, že se jí toto dílo nepodařilo ještě před smrtí J. Š. Filmovat se bude pravděpodobně v Náchodě, avšak problémem bude možná velikost náměstí. Město však vyjádřilo plnou podporu po všech stránkách. Herci prozatím nebyli zveřejněni.
 
-6

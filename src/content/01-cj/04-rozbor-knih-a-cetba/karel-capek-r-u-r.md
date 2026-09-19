@@ -26,13 +26,13 @@ __Kompoziční výstavba –__ Kompozice je chronologická, Předehra a 3 dějst
 
 __Druh –__ Drama
 
-__Žánr –__Vědeckofantastické antiutopické drama__ __
+Žánr –Vědeckofantastické antiutopické drama 
 
-__Literární směr \-__ Česká meziválečná literatura 1\. poloviny 20\. Století__ __
+__Literární směr \-__ Česká meziválečná literatura 1\. poloviny 20\. Století 
 
 __Vypravěč / lyrický subjekt__
 
-__\- Typy promluv –__ Vypravěč neurčen\. ____polylog 4 postav__ __\(Polylog – mnohost hlasů, každý z účastníků komunikační situace mluví o vlastním tématu\)
+__\- Typy promluv –__ Vypravěč neurčen\. polylog 4 postav \(Polylog – mnohost hlasů, každý z účastníků komunikační situace mluví o vlastním tématu\)
 
 __\- Veršová výstavba není__
 

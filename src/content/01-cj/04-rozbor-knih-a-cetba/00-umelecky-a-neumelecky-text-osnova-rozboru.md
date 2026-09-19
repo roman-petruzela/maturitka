@@ -75,9 +75,9 @@ souvislá a nepřerušovaná promluva jedné z postav dialog – promluva dvou a
 
 střídavý: a, b, a, b
 
-*Poledne v tom okamžení, A táta přijde z roboty: B *a mně hasne u vaření A pro tebe, ty zlobo, ty\! B
+*Poledne v tom okamžení, A táta přijde z roboty: B* a mně hasne u vaření A pro tebe, ty zlobo, ty\! B
 
-sdružený: a, a, b, b *Sedí babka při ohnisku, A měří vodu z misky v misku, A dvanáct misek v jedné řadě\. B Pán u baby na poradě\. B *
+sdružený: a, a, b, b *Sedí babka při ohnisku, A měří vodu z misky v misku, A dvanáct misek v jedné řadě\. B Pán u baby na poradě\. B* 
 
 obkročný: a, b, b, a Šuhaj z Hané práce hledí a dbá, A aniž v díle prahne po děvuše, B ví, že žena raz za práh přikluše, B tři dny a tři noci bude svatba\. A
 

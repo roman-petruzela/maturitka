@@ -4,8 +4,8 @@ order: 69
 source: "MATURITA HADR/ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Niccolò Machiavelli - Mandragora/Mandragora.odt"
 tags: ["mimo-seznam-cetby"]
 ---
-__Autor:
-__
+**Autor:**
+
 
 Niccolo Machiavelli \(03\.05\.1469; Florencie – 21\.06\.1527; Florencie\)
 

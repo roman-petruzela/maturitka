@@ -6,7 +6,7 @@ tags: ["mimo-seznam-cetby"]
 ---
 Šťastný princ
 
-__ __Oscar Wilde
+Oscar Wilde
 
 __Literární žánr:__
 

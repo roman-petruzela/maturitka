@@ -21,8 +21,6 @@ Pavel se začal Štěpce dvořit a ta se do něj zamilovala. Záhy po svatbě al
 
 Pavlův zdravotní stav se horší, přestává chodit a začne být na lidi na statku zlý. Brzy na to umírá Štěpce otec, jeho pohřeb Pavla vyděsí a začne trpět záchvaty zuřivosti (vše rozbíjí a říká nesmyslné věci). Pavel se pokusí spáchat sebevraždu skokem za skal, ale nezdaří se mu to, Štěpka ho nalezne a odvede domů. Štěpka si definitivně uvědomuje, že je Pavel blázen. Péči musí dělit mezi něho a nemocnou matku. Matka posléze umírá a jí zbývá pouze starání se o Pavla. Jednoho dne ho dal převézt jeho bratr Jan bez jejího vědomí do Prahy do ústavu. Štěpka se vydá do Prahy přivést manžela zpět domů, ale lékaři ji vysvětlili, že to není možné. Po pár měsících Pavel umírá. Štěpka si uvědomí, že její sen o tom mít děti ještě není úplně ztracený, totéž dojde Janovi (bratrpvi Pavla).
 
-1
-
 Jestli se dají dohromady ale v knize uvedeno není.
 
 #### • **téma a motiv**
@@ -68,8 +66,6 @@ vojenský slang _hejtman, čáka, ostruhy, šavle, výložky_ zdrobnělina _ruka
 #### • **tropy a figury a jejich funkce ve výňatku**
 
 metafora _břinkal ostruhami, nesl se, obrovská loutka s očima vyvalenýma štěstím_ epiteton _kostnaté prsty, krupičkovaná růžová husí kůže, unylá bytost, mrholivý déšť_ přirovnání _vypadala jako jelito v ubrousku; kůže drsná jako struhadlo; obličej se rděl jako zapadající slunce; leskly se, jako by byly čerstvě namazány sádlem; jako by ten důstojník vlekl moučný pytel_ epizeuxis _ovšem, ovšem_ personifikace _obličej se pod ním rděl_
-
-2
 
 ### **Literárněhistorický kontext**
 
@@ -133,8 +129,6 @@ _Zázrak flamendrů_ (1964), _Prodavač času_ (196á), _Hodinky pana Balabána_
 
 _Případ profesora Körnera_ − líčí profesora s komplexem méněcennosti, který se snaží překonat volbou přátel a manželky, vyhledává silnější osobnosti, jeho snaha ztroskotá a on podléhá ještě větším depresím.
 
-3
-
 Jarmila Glazarová (1901–1977)
 
 - měla o 29 staršího manžela, lékaře Podivínského
@@ -154,8 +148,6 @@ Václav Řezáč (1901−1956)
 - redaktor Lidových novin
 
 - ředitel nakladatelství Československý spisovatel dílo: _Rozhraní, Kluci, hurá za ním, Poplach v kovářské uličce, Černé světlo Bitva_ − Odehrává se v létě 1947 a líčí boj mezi komunistickými a antikomunistickými silami o pohraničí. Autor vycházel spíše z předem daných představ o osidlování než z faktů na místě poznaných.
-
-4
 
 ### **Další údaje o knize:**
 
@@ -193,4 +185,3 @@ Václav Řezáč − _Černé světlo_ : hlavní hrdina se zdá slabým jedincem
 
 Stejnojmenný film z roku 1971 od režiséra Juraje Herze obdržel na ČSFD 84 %. Hlavní role Iva Janžurová a Petr Čepek. Dle mého názoru ale Herz změnil rovnováhu sil v příběhu, Štěpě ubral na rozhodnosti a bojovnosti. Románová předloha je hlubší a propracovanější, ale přesto velmi podobná filmu.
 
-5

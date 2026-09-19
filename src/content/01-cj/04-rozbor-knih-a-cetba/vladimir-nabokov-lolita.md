@@ -5,8 +5,6 @@ source: "MATURITA HADR/ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k matur
 ---
 VLADIMIR NABOKOV **Název díla:** LOLITA
 
-#
-Vladimir Vladimirovič Nabokov (1899–1977) „ruský romanopisec, který patří Americe“
 
 - psal ruskou a anglickou prózu a poezii, překládal
 

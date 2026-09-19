@@ -57,7 +57,7 @@ __\-otec__ \- Vyhýbá se kontaktu se synem, při setkání po něm hází jabl
 
 __Jaz\. Prostředky :__
 
-__\-__Spisovná forma jazyka bez slangových či hovorových výrazů
+\-Spisovná forma jazyka bez slangových či hovorových výrazů
 \-Vulgarismus → ono to chcíplo\!
 
 \-Eufemismus \(tropy\) → z chřípí mu slabě unikl poslední dech \(jemnější oznámení smrti\)

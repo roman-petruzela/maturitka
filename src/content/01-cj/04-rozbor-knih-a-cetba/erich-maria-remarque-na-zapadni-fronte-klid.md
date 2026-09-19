@@ -49,8 +49,8 @@ __3\. Dílo__
 
 - válečný historický román,
 
-__TÉMA
-__\- reaguje na první světovou válku, na její zbytečnost, absurdita války
+**TÉMA**
+\- reaguje na první světovou válku, na její zbytečnost, absurdita války
 - oslavuje lidskou obětavost \(i v mezních situacích\)
 - pevná přátelství, přátelské pouto
 - nelidskost, odpor proti krutosti
@@ -59,20 +59,20 @@ __\- reaguje na první světovou válku, na její zbytečnost, absurdita války
 - výsměch vzdělání \(ti kluci museli opustit studia – před maturitou – vzdělání jim ylo na frontě naprosto k ničemu, museli se o sebe v takové mezní situaci postarat sami\)
 - smrt vidí i jako osvobození z utrpení i jako tragédii nevinných lidí \(autor se pozastavuje nad tím, proč mají nevinní lidé odnášet rivalitu mezi mocnostmi\)
 
-__ČASOPROSTOR
-__\- doba první světové války, válečná bojiště západní fronty ve Francii \(na hranicích s Německem\)
+**ČASOPROSTOR**
+\- doba první světové války, válečná bojiště západní fronty ve Francii \(na hranicích s Německem\)
 - od r\. 1916 \(nastoupil do války\) až do r\. 1918
 
-__KOMPOZICE
-__\- retrospektivní \(prolíná se minulost s přítomností\) = chronologická se vzpomínkami do minulosti
+**KOMPOZICE**
+\- retrospektivní \(prolíná se minulost s přítomností\) = chronologická se vzpomínkami do minulosti
 - gradace
 - líčí příhody ze školy, ale většina chronologicky z fronty; někdy se vrací do dětství \(symbol jistoty\)
 
-__ANALÝZA \(ich/er forma\)
-__\- ich\-forma \(vypráví Pavel\)
+**ANALÝZA \(ich/er forma\)**
+\- ich\-forma \(vypráví Pavel\)
 
-__CHARAKTERISTIKA POSTAV
-__Pavel Baumer – vypravěč, hlavní postava; středoškolský student, mladík, z chudé rodiny, pod nátlakem třídního učitele se hlásí do války, která ho změnila \)stal se necitelným, silná povaha, obětavý, pomáhá ostatním
+**CHARAKTERISTIKA POSTAV**
+Pavel Baumer – vypravěč, hlavní postava; středoškolský student, mladík, z chudé rodiny, pod nátlakem třídního učitele se hlásí do války, která ho změnila \)stal se necitelným, silná povaha, obětavý, pomáhá ostatním
 
 Himmelstoss – desátník, šikanuje je, primitiv
 
@@ -80,23 +80,23 @@ Katczinsky – nejstarší, houževnatý a nejsilnější ve skupině, Pavlův n
 
 Kropp, Müller, Kemmerich, Tjaden – Pavlovi spolužáci
 
-Kantorek – jejich třídní, přemlouvá je,aby šli ddo války
+Kantorek – jejich třídní, přemlouvá je, aby šli ddo války
 
-__JAZYK A STYL
-__\- spisovný jazyk, místy hovorový
+**JAZYK A STYL**
+\- spisovný jazyk, místy hovorový
 - úvahové prvky
 - metafory
 
-__DETAILY
-__\- když mají jednoho z nich odvézt do lazaretu \(když jedou vlakem\), Pavel předstírá nemoc, aby mohl vystoupit v lazaretu s ním a byl mu nablízku
+**DETAILY**
+\- když mají jednoho z nich odvézt do lazaretu \(když jedou vlakem\), Pavel předstírá nemoc, aby mohl vystoupit v lazaretu s ním a byl mu nablízku
 - když poprvé v zákopu zabil nepřátele, cítil se mizerně \(podíval se mu do kapsy a našel fotku jeho rodiny, zjistil, jak se jmenuje – tížila ho představa, že na něj doma čeká rodina s manželkou a on je teď mrtví – Pavel si slíbil, že jeho rodině napíše dopis, že ji bude posílat peníze, ale myslím si, že to nikdy neudělal > válka dělá z lidí zvířata, bezhlavá, bezcitná, nesmyslné zabíjení\)
 - konec knihy je stejný jako konec knihy Ostře sledované vlaky od Bohumila Hrabala \(uvědomění si zbytečnosti války, oba dva jsou jen lidé, mají jen sami sebe, umírají vedle sebe\)
 - vypráví o tom, jak jako malý s kamarády skotačil kolem říčky a stromů podél ní a jak chytali motýly \(poté se motýl objeví v zákopech – pro mě to je symbol naděje, návrat do dětství, kdy jsme žili v naivním světě plném jistoty\)
 - když měl volno a vracel se domů, jeho sestra ho přivítala \(ale poněkud chladně, ani se neobjali\) – v tom je rozdíl oproti filmu \(tam se dojemně objímají\) \(byl natočen i film, který byl oceněn Oscarem\) – jeho rodina je chudá, nemají co k jídlu, matka leží v posteli a je nemocná, ptá se ho, jak se má, on jí nechce sdělit pravdu, aby se o něj nestrachovala \(také mu schovala brusinky, které má Pavel moc rád – v tom tkví láska, i přesto, že jsou chudí a nemají co jist, matka mu schovala jídlo, které má rád\)
 - když se vrací domů, potkává nějaké přátele a známé – vyptávají se ho, jaké to tam je \(nemohou to ale nikdy pochopit\)
 
-__OBSAH
-__Hlavní hrdina a zároveň vypravěč Pavel Bäumer podlehne spolu s několika dalšími spolužáky \(Kropp, Tjaden, Müller, Wolf, Kemmerich aj\.\) vlasteneckému nadšení svého profesora tělocviku Kantorka a přihlásí se jako dobrovolník na frontu\. Počáteční nadšení se ale brzy vytratí\. Pavel se svými kamarády nejprve prochází tvrdou průpravou a terorem\. Desetitýdenní výcvik pod vedením velitele Himmelstosse je plný šikanování\. Po výcviku odjíždí na frontu\.
+**OBSAH**
+Hlavní hrdina a zároveň vypravěč Pavel Bäumer podlehne spolu s několika dalšími spolužáky \(Kropp, Tjaden, Müller, Wolf, Kemmerich aj\.\) vlasteneckému nadšení svého profesora tělocviku Kantorka a přihlásí se jako dobrovolník na frontu\. Počáteční nadšení se ale brzy vytratí\. Pavel se svými kamarády nejprve prochází tvrdou průpravou a terorem\. Desetitýdenní výcvik pod vedením velitele Himmelstosse je plný šikanování\. Po výcviku odjíždí na frontu\.
 První boje na frontě všem otevřou oči a ukážou válku v pravém [světle](javascript:void(0)) \(plynové útoky, bombardování, budování zákopů, utrpení raněných, smrt přátel, krvavé boje [muže](javascript:void(0)) proti muži aj\.\)\. Vojáci [žijí](javascript:void(0)) v neustálých obavách o život, trpí hladem, zimou, jsou špinaví, zavšivení\. Téměř polovina roty byla již zabita \- vojáci, kteří přežijí, dostávají dvojité příděly jídla a tabáku\. Stavy vojáků jsou doplňovány velmi mladými chlapci bez výcviku\. Pavel postupně ztratí všechny kamarády\.
 Velkou oporou pro dvacetileté vojáky je velitel roty Stanislav Katczinsky, s nímž se Pavel spřátelil\. Po dovolené, ze které se Pavel vrací znechucen \(matka umírala na rakovinu, s [ostatními](javascript:void(0)) lidmi nedokázal nalézt společnou řeč\), se dostává zpět na frontu\. Uprostřed bitevního [pole](javascript:void(0)) se najednou ocitne sám zblízka v boji muže proti muži\. Smrtelně zraní francouzského vojáka, poté mu ováže ránu a snaží se mu ulehčit umírání\. Velkým otřesem je pro Pavla smrt Katczinského\. Zraněného se ho snažil s vypětím všech sil odnést z bojiště do bezpečí\. Cestou byl však Katczinsky zasažen střepinou a zemřel\.
 Na podzim 1918 zůstává Pavel poslední naživu ze sedmi spolužáků\. Cítí se vnitřně prázdný a velmi unavený\. Ke zprávám o příměří je netečný, nevěděl již, zda si vůbec přeje mír\. Pavel si je jistý, že se už nedokáže zapojit do normálního života \- byl poznamenán roky prožitými na frontě\.
