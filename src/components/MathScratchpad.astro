@@ -71,7 +71,7 @@ const PEN_WIDTHS = [
 				</button>
 				<div class="whiteboard-exercises-menu" data-whiteboard-exercises-menu hidden>
 					<p class="whiteboard-exercises-empty" data-whiteboard-exercises-empty>
-						Na téhle stránce se nepodařilo najít žádné číslované zadání.
+						Na téhle stránce se nepodařilo najít žádné zadání.
 					</p>
 				</div>
 			</div>
@@ -134,6 +134,7 @@ const PEN_WIDTHS = [
 <script>
 	import 'mathlive';
 	import { Whiteboard, createFloatingNote } from '../lib/whiteboard';
+	import { findExercises, buildStatement, buildPreview, type Exercise } from '../lib/exercises';
 
 	function initScratchpads() {
 		const sections = document.querySelectorAll<HTMLElement>('[data-scratchpad]');
@@ -244,108 +245,16 @@ const PEN_WIDTHS = [
 				resultField.executeCommand?.('toggleVirtualKeyboard');
 			});
 
-			// Detect exercises in the article — covers the two numbering styles
-			// used across the content: real markdown ordered lists (<ol><li>)
-			// and paragraphs starting with a bold or plain "1." marker.
-			// Heuristic, not perfect for every document. Exposed two ways:
-			// (a) an inline "send to whiteboard" button next to each one, handy
-			// while scrolling the normal page; (b) a "Zadání" dropdown in the
-			// whiteboard's own toolbar, which — unlike the article content —
-			// stays reachable while the whiteboard is in fullscreen (the
-			// Fullscreen API only renders the fullscreen element itself, so
-			// buttons living outside it, like (a), become unclickable there).
-			//
-			// Not every numbered item is actually something worth writing out
-			// on a blank canvas, though — two cases specifically don't belong:
-			//
-			// 1. Plain illustrative lists that aren't a task at all — e.g. a
-			//    "Příklady výroků:" list that just shows what a výrok looks
-			//    like (there's nothing to solve, only a fact to read). Content
-			//    across this corpus is too varied to require one single
-			//    positive marker for "this is a real exercise" (some real
-			//    exercises are introduced by "**Příklad:**", others by
-			//    "Postup řešení:", "Úkoly (interaktivní...)", or just a plain
-			//    imperative sentence with no special marker at all) — trying
-			//    that made the filter far too aggressive and stripped the
-			//    button from dozens of genuine exercises across the site.
-			//    What the illustrative case actually looks like, specifically,
-			//    is an intro starting with the *plural* "Příklady" ("examples
-			//    of ...") as opposed to the singular "Příklad" used to label
-			//    an actual exercise — a narrow, deliberately conservative
-			//    negative signal instead of a broad positive requirement.
-			// 2. Exercises that already carry their own interactive scaffolding
-			//    on the page — a value table, a plotted graph, or a result
-			//    math-field — between this item and the next heading/candidate.
-			//    Those can't be usefully "taken to the canvas" since the point
-			//    of the exercise is filling in that scaffolding, not freehand
-			//    work.
-			// Matches both "1." / "1)" (digit markers) and "a)" / "b)" (single
-			// lowercase-letter markers — the convention for sub-parts of one
-			// exercise, e.g. "**a)** $\frac{...}{...}$"). A bare single letter
-			// immediately followed by ")" essentially never occurs in normal
-			// Czech prose (not even short prepositions like "v"/"k"/"s" are
-			// ever written that way), so this doesn't need the same kind of
-			// disambiguation the digit case does.
-			const NUMBERED_RE = /^(?:\d{1,2}|[a-z])[.)]\s*\S/;
-			const ILLUSTRATIVE_INTRO_RE = /^Příklady\b/i;
-			// Uses the paragraph's *full* text, not just its first child node —
-			// a bold "**1.**" marker (a common convention for exercise numbers
-			// across this corpus) renders as `<p><strong>1.</strong> Text…</p>`,
-			// where the first child is the <strong> element and its own
-			// textContent is just "1." with nothing after the dot. Checking
-			// el.textContent instead (the concatenation of the whole paragraph)
-			// still correctly anchors the numbered-marker match to the very
-			// start via `^`, so it doesn't start matching paragraphs where a
-			// number merely appears somewhere in the middle.
-			const isNumberedParagraph = (el: Element | null) =>
-				!!el && el.tagName === 'P' && NUMBERED_RE.test((el.textContent ?? '').trim());
-
-			function precedingIntro(el: Element): Element | null {
-				let prev = el.previousElementSibling;
-				while (isNumberedParagraph(prev)) prev = prev!.previousElementSibling;
-				return prev;
-			}
-
-			function isIllustrativeIntro(introEl: Element | null): boolean {
-				if (!introEl || introEl.tagName !== 'P') return false;
-				return ILLUSTRATIVE_INTRO_RE.test((introEl.textContent ?? '').trim());
-			}
-
-			// A third non-exercise case, alongside the two described above: a
-			// numbered <ol> used to enumerate universally-true facts/cases
-			// ("Pro všechna reálná čísla a platí…", "Pro každé...") rather than
-			// tasks to work through — grammatically these are statements, not
-			// instructions, so there's nothing to "solve" on a blank canvas.
-			// Deliberately narrow (requires *every* item to open this way, not
-			// just one) since plenty of real exercises are also authored as a
-			// plain <ol> without any bold/heading marker (see the two rejected
-			// heuristics this replaced, tested against the corpus: excluding by
-			// preceding colon or by enclosing heading both wrongly vetoed real
-			// exercises elsewhere on the site).
-			const UNIVERSAL_STATEMENT_RE = /^Pro (všechna|každé|libovolné)\b/i;
-			function isUniversalStatementList(group: HTMLElement): boolean {
-				if (group.tagName !== 'OL') return false;
-				const items = Array.from(group.children) as HTMLElement[];
-				return items.length > 0 && items.every((li) => UNIVERSAL_STATEMENT_RE.test((li.textContent ?? '').trim()));
-			}
-
-			// stopBefore is the next candidate group's own start element (or
-			// null at the end of the article) — scanning must not run past it,
-			// otherwise scaffolding that belongs to a *later*, unrelated
-			// exercise further down the page would wrongly veto this one.
-			function hasScaffoldingBefore(startEl: Element, stopBefore: Element | null): boolean {
-				let node: Element | null = startEl;
-				while (node && node !== stopBefore) {
-					if (node.matches('table, .graph-plot, .spoiler-block, math-field')) return true;
-					if (node.querySelector?.('table, .graph-plot, .spoiler-block, math-field')) return true;
-					if (/^H[1-4]$/.test(node.tagName) && node !== startEl) break;
-					node = node.nextElementSibling;
-				}
-				return false;
-			}
-
-			const addNote = (text: string) => {
-				createFloatingNote(canvasWrap, text);
+			// Tasks in the article get a "⇥ tabule" button next to them, and are
+			// also listed in the "Zadání" dropdown of the whiteboard's own toolbar,
+			// which — unlike the article — stays reachable while the whiteboard is
+			// in fullscreen (the Fullscreen API only renders the fullscreen element
+			// itself, so buttons living outside it become unclickable there).
+			// What counts as a task, and what its statement is, lives in
+			// ../lib/exercises.ts; the note gets a copy of the statement's markup,
+			// so typeset formulas stay formulas.
+			const addNote = (exercise: Exercise) => {
+				createFloatingNote(canvasWrap, buildStatement(exercise));
 				whiteboardRoot.scrollIntoView({ behavior: 'smooth', block: 'center' });
 			};
 
@@ -356,63 +265,31 @@ const PEN_WIDTHS = [
 
 			const article = document.querySelector('article.topic');
 			if (article) {
-				const allCandidates = new Set<HTMLElement>();
-				article.querySelectorAll('ol > li').forEach((li) => allCandidates.add(li as HTMLElement));
-				article.querySelectorAll('p').forEach((p) => {
-					if (isNumberedParagraph(p)) allCandidates.add(p as HTMLElement);
-				});
+				const exercises = findExercises(article);
+				const hostsWithButton = new Set<HTMLElement>();
 
-				// Dedupe into one entry per group (all <li> of the same <ol>
-				// share a group), in document order, so each group's scaffolding
-				// scan knows exactly where the *next* group starts.
-				const groupOf = (el: HTMLElement) => (el.tagName === 'LI' ? (el.closest('ol') as HTMLElement) : el);
-				const groups: HTMLElement[] = [];
-				const seenGroups = new Set<HTMLElement>();
-				for (const el of allCandidates) {
-					const group = groupOf(el);
-					if (!seenGroups.has(group)) {
-						seenGroups.add(group);
-						groups.push(group);
+				exercises.forEach((exercise) => {
+					// two tasks can share a host (a heading's statement paragraph that is
+					// itself numbered) — one button per place is enough
+					if (!hostsWithButton.has(exercise.host)) {
+						hostsWithButton.add(exercise.host);
+						const btn = document.createElement('button');
+						btn.type = 'button';
+						btn.className = 'exercise-send-btn';
+						btn.title = 'Poslat na tabuli';
+						btn.setAttribute('aria-label', 'Poslat úlohu na tabuli');
+						btn.textContent = '⇥ tabule';
+						btn.addEventListener('click', () => addNote(exercise));
+						exercise.host.append(document.createTextNode(' '), btn);
 					}
-				}
-				groups.sort((a, b) =>
-					a.compareDocumentPosition(b) & Node.DOCUMENT_POSITION_FOLLOWING ? -1 : 1
-				);
-
-				const allowedGroups = new Set<HTMLElement>();
-				groups.forEach((group, i) => {
-					if (isIllustrativeIntro(precedingIntro(group))) return;
-					if (isUniversalStatementList(group)) return;
-					if (hasScaffoldingBefore(group, groups[i + 1] ?? null)) return;
-					allowedGroups.add(group);
-				});
-
-				const candidates = new Set<HTMLElement>();
-				for (const el of allCandidates) {
-					if (allowedGroups.has(groupOf(el))) candidates.add(el);
-				}
-
-				candidates.forEach((el) => {
-					const text = el.textContent?.trim();
-					if (!text) return;
-
-					const btn = document.createElement('button');
-					btn.type = 'button';
-					btn.className = 'exercise-send-btn';
-					btn.title = 'Poslat na tabuli';
-					btn.setAttribute('aria-label', 'Poslat úlohu na tabuli');
-					btn.textContent = '⇥ tabule';
-					btn.addEventListener('click', () => addNote(text));
-					el.appendChild(document.createTextNode(' '));
-					el.appendChild(btn);
 
 					if (exercisesMenu) {
 						const item = document.createElement('button');
 						item.type = 'button';
 						item.className = 'whiteboard-exercises-item';
-						item.textContent = text.length > 70 ? `${text.slice(0, 70)}…` : text;
+						item.append(buildPreview(exercise));
 						item.addEventListener('click', () => {
-							addNote(text);
+							addNote(exercise);
 							exercisesMenu.hidden = true;
 							exercisesToggle?.setAttribute('aria-expanded', 'false');
 						});
@@ -420,7 +297,7 @@ const PEN_WIDTHS = [
 					}
 				});
 
-				if (candidates.size > 0) exercisesEmpty?.remove();
+				if (exercises.length > 0) exercisesEmpty?.remove();
 			}
 
 			exercisesToggle?.addEventListener('click', () => {

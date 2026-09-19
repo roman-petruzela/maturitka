@@ -291,11 +291,13 @@ export class Whiteboard {
 	}
 }
 
-// A small draggable "sticky note" showing an exercise's text, floated over
+// A small draggable "sticky note" showing an exercise's statement, floated over
 // the whiteboard canvas so it stays visible while working the problem.
+// `content` is either plain text or already-built markup (a copy of the
+// statement as typeset in the article, so formulas stay formulas).
 // `container` must be position:relative (or similar) for the absolute
 // positioning here to be relative to it, not the page.
-export function createFloatingNote(container: HTMLElement, text: string) {
+export function createFloatingNote(container: HTMLElement, content: string | Node) {
 	const existingCount = container.querySelectorAll('.whiteboard-note').length;
 
 	const note = document.createElement('div');
@@ -311,7 +313,12 @@ export function createFloatingNote(container: HTMLElement, text: string) {
 
 	const body = document.createElement('div');
 	body.className = 'whiteboard-note-body';
-	body.textContent = text;
+	if (typeof content === 'string') {
+		body.classList.add('is-plain');
+		body.textContent = content;
+	} else {
+		body.append(content);
+	}
 
 	note.append(closeBtn, body);
 	container.appendChild(note);

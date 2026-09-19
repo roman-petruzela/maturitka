@@ -2057,10 +2057,48 @@ article.topic tbody tr:hover {
 	font-size: var(--t-sm);
 	line-height: 1.4;
 	color: #3a3005;
+	overflow-wrap: anywhere;
+}
+
+/* text-only note (a string): keep its line breaks */
+.whiteboard-note-body.is-plain {
 	white-space: pre-wrap;
 }
 
-/* items in the whiteboard's "Zadání" dropdown */
+/* a note built from the article's own markup: typeset formulas, lists, bold.
+   The article's typography is reset here — a heading copied into the note
+   must not bring its own size and margins along. */
+.whiteboard-note-body > div > :is(p, ol, ul, div) {
+	margin: 0 0 0.45em;
+}
+
+.whiteboard-note-body > div > :last-child {
+	margin-bottom: 0;
+}
+
+.whiteboard-note-body :is(ol, ul) {
+	padding-left: 1.25em;
+}
+
+/* the article gives display math its own tinted box and the theme's text colour —
+   on the yellow note that would be a dark box with light-on-yellow type */
+.whiteboard-note-body .math-inline,
+.whiteboard-note-body .math-display {
+	color: inherit;
+}
+
+.whiteboard-note-body .math-display {
+	margin: 0.35em 0;
+	padding: 0.15em 0;
+	background: none;
+}
+
+.whiteboard-note-body .recon-note {
+	font-size: inherit;
+}
+
+/* items in the whiteboard's "Zadání" dropdown — the first paragraph of the task
+   as typeset in the article, clipped to two lines */
 .whiteboard-exercises-item {
 	display: block;
 	width: 100%;
@@ -2074,6 +2112,14 @@ article.topic tbody tr:hover {
 	border-radius: 2px;
 	padding: 0.4rem 0.5rem;
 	cursor: pointer;
+}
+
+.whiteboard-exercises-item > span {
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	line-clamp: 2;
+	overflow: hidden;
 }
 
 .whiteboard-exercises-item:hover {
