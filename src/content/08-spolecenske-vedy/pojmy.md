@@ -86,7 +86,7 @@ __„A PŘECE SE TOČÍ“__
 __NIHILISMUS__
 \- Slovo se poprvé vyskytuje jako [teologický](https://cs.wikipedia.org/wiki/Teologie) pojem u [Augustina](https://cs.wikipedia.org/wiki/Svat%C3%BD_Augustin) jako označení pro ty, kdo
   odmítají [křesťanství](https://cs.wikipedia.org/wiki/K%C5%99es%C5%A5anstv%C3%AD) a popírají Boží zjevení
-\- U [Abélarda](https://cs.wikipedia.org/wiki/Ab%C3%A9lard" \o "Abélard) a některých dalších [scholastiků](https://cs.wikipedia.org/wiki/Scholastika) označuje ty, kdo dovozovali nesamostatnost Kristovy
+\- U [Abélarda](https://cs.wikipedia.org/wiki/Ab%C3%A9lard) a některých dalších [scholastiků](https://cs.wikipedia.org/wiki/Scholastika) označuje ty, kdo dovozovali nesamostatnost Kristovy
   osoby a odtud i to, že Kristus není individuum a je tedy nic
 \- Rozhodující význam má však pojem nihilismu až u [Friedricha Nietzscheho](https://cs.wikipedia.org/wiki/Friedrich_Nietzsche) \- podle něho je nihilismus
   přímým důsledkem „smrti Boha“ \- veškerá metafyzika je nesmyslná, nadsmyslová jsoucna jsou
@@ -108,7 +108,7 @@ __EXISTENCE X ESENCE__
   pojmu [__existence__](https://cs.wikipedia.org/wiki/Existence), tj\. aktuálního bytí, existování nebo výskytu věci
 \- starší esencialistická filosofie \([G\. Leibniz](https://cs.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz)\) chápala esenci jako nutnou podmínku existence \(bez
   esence psa nemůže existovat žádný pes\)
-\- dánský filosof [Soren Kierkegaard](https://cs.wikipedia.org/wiki/Soren_Kierkegaard" \o "Soren Kierkegaard), který chtěl zdůraznit jedinečnost každého člověka, jeho
+\- dánský filosof [Soren Kierkegaard](https://cs.wikipedia.org/wiki/Soren_Kierkegaard), který chtěl zdůraznit jedinečnost každého člověka, jeho
   neopakovatelnou osobu a nezastupitelnou odpovědnost, postavil na první místo existenci \-> člověk
   je tedy podle něho především sám sebou a teprve druhotně také člověkem vůbec \-> na to pak
   navázal [existencialismus](https://cs.wikipedia.org/wiki/Existencialismus)

@@ -276,7 +276,7 @@ __EGON BONDY__ \(1930\-2007\)
   hodnost [kandidát věd](https://cs.wikipedia.org/wiki/Kandid%C3%A1t_v%C4%9Bd) \(CSc\.\)\. Od stejného roku byl v invalidním důchodu\.
 
 \- V 70\. letech se seznámil s [Ivanem Martinem Jirousem](https://cs.wikipedia.org/wiki/Ivan_Martin_Jirous), manažerem hudební skupiny [Plastic People
-  of the Universe](https://cs.wikipedia.org/wiki/The_Plastic_People_of_the_Universe" \o "The Plastic People of the Universe), která zhudebnila část jeho textů\. V 80\. letech ovlivnil ranou tvorbu [Jáchyma
+  of the Universe](https://cs.wikipedia.org/wiki/The_Plastic_People_of_the_Universe), která zhudebnila část jeho textů\. V 80\. letech ovlivnil ranou tvorbu [Jáchyma
   Topola](https://cs.wikipedia.org/wiki/J%C3%A1chym_Topol) nebo [J\. H\. Krchovského](https://cs.wikipedia.org/wiki/J._H._Krchovsk%C3%BD)\.
 
 \- Bondy se ve svých textech nikdy neztotožnil s podobou poúnorového režimu a stal se jeho

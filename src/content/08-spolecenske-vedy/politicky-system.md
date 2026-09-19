@@ -8,7 +8,7 @@ __= souhrn politických institucí , idejí dané společnosti a vzájemných vz
 
 __ČESKÁ REPUBLIKA__
 
-\- [Česká republika](https://cs.wikipedia.org/wiki/%C4%8Cesko) je [unitární stát](https://cs.wikipedia.org/wiki/Unit%C3%A1rn%C3%AD_st%C3%A1t), [zastupitelská demokracie](https://cs.wikipedia.org/wiki/Zastupitelsk%C3%A1_demokracie) a [parlamentní republika](https://cs.wikipedia.org/wiki/Parlamentn%C3%AD_republika) s [vícestranickým systémem](https://cs.wikipedia.org/wiki/Stranick%C3%BD_syst%C3%A9m" \o "Stranický systém)
+\- [Česká republika](https://cs.wikipedia.org/wiki/%C4%8Cesko) je [unitární stát](https://cs.wikipedia.org/wiki/Unit%C3%A1rn%C3%AD_st%C3%A1t), [zastupitelská demokracie](https://cs.wikipedia.org/wiki/Zastupitelsk%C3%A1_demokracie) a [parlamentní republika](https://cs.wikipedia.org/wiki/Parlamentn%C3%AD_republika) s [vícestranickým systémem](https://cs.wikipedia.org/wiki/Stranick%C3%BD_syst%C3%A9m)
 \- [Výkonná moc](https://cs.wikipedia.org/wiki/V%C3%BDkonn%C3%A1_moc) je delegována na [prezidenta](https://cs.wikipedia.org/wiki/Prezident_%C4%8Cesk%C3%A9_republiky) a [vládu](https://cs.wikipedia.org/wiki/Vl%C3%A1da_%C4%8Cesk%C3%A9_republiky), v jejímž čele stojí [premiér](https://cs.wikipedia.org/wiki/Seznam_premi%C3%A9r%C5%AF_%C4%8Ceska)
 \- [Zákonodárnou moc](https://cs.wikipedia.org/wiki/Z%C3%A1konod%C3%A1rn%C3%A1_moc) tvoří [dvoukomorový](https://cs.wikipedia.org/wiki/Bikameralismus) [parlament](https://cs.wikipedia.org/wiki/Parlament_%C4%8Cesk%C3%A9_republiky) a [soudní moc](https://cs.wikipedia.org/wiki/Soudn%C3%AD_moc) realizuje čtyřčlánková [soudní soustava](https://cs.wikipedia.org/wiki/Soudy_v_%C4%8Cesku) a [Ústavní soud](https://cs.wikipedia.org/wiki/%C3%9Astavn%C3%AD_soud_%C4%8Cesk%C3%A9_republiky)\.
 
