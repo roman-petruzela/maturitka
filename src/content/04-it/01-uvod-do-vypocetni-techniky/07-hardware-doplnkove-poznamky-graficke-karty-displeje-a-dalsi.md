@@ -11,12 +11,12 @@ __Grafická karta__ 
 
  
 
-- Základním úkolem je převádět data z počítače do takové formy, aby je bylo možné zobrazit na monitoru 
+- Základním úkolem je převádět data z počítače do takové formy, aby je bylo možné zobrazit na monitoru 
 - Původně grafické čipy \(TV modulátory\) byly integrovány na základní desce 
 - Díky vlastnímu specializovanému procesoru \(podporuje zpracování častých grafických výpočtů\), dokáže zpracovat grafiku rychleji než procesor 
 - __Integrované grafické karty__ mají malou spotřebu jsou levné a mají nízký výkon 
 - __Samostatné grafické karty__ mají vlastní paměť jsou výkonnější, dražší a potřebují náročnější chlazení 
-- Samotné grafické karty se k počítači připojují pomocí slotů \(zejména AGP a PCIe\) 
+- Samotné grafické karty se k počítači připojují pomocí slotů \(zejména AGP a PCIe\) 
 
  
 
@@ -42,7 +42,7 @@ Výběr grafické karty 
 2. __Velikost paměti \-__ Čím vyšší, tím lepší? Není úplně pravda\. Jedná se o takový chyták\. \(Musíme si uvědomit, pro jaký účel nám tato grafická karta je\. Tudíž v low\-end třídě \(kancelářské využití\) je nám vysoká paměť k ničemu a jen si připlácíme\) 
 3. __Rychlost grafického jádra__ 
 4. __Rychlost pamětí__   
-5. __Počet a rychlost stream procesorů\. __ 
+5. **Počet a rychlost stream procesorů\.**  
 
 - Rychlost je udávána v Mhz a zde obecně platí že čím více, tím lépe\. To samé platí i o počtu stream procesorů\. 
 
@@ -71,8 +71,8 @@ __API:__ 
 2. Zobrazované těleso se musí matematicky popsat \- povrch tělesa se převede na síť trojúhelníků \(grafické obvody akcelerátoru\) 
 3. Vytvoří se povrch vyobrazovaných těles "vymalováním" trojúhelníků 
 	- metody: 
-		- __stínování__ \(je stanovena barva každého pixelu v trojúhelníku\) 
-		- __mapování textur__ \(každý trojúhelník je potažen dvourozměrným vzorkem\) 
+		- __stínování__ \(je stanovena barva každého pixelu v trojúhelníku\) 
+		- __mapování textur__ \(každý trojúhelník je potažen dvourozměrným vzorkem\) 
 4. __Filtrování a vyhlazování obrazu__ 
 	- odstranění chvění obrazu při rychlých změnách, vyhlazení hran a podobně 
 5. __Viditelnost trojúhelníků__ 
@@ -87,10 +87,10 @@ __Pipeline__ 
 - vytvářený obraz se rozloží na části většinou trojúhelníky \(polygony\) a každá pipeline zpracuje jednu část obrazu 
 - na jeden vykreslený pixel může být aplikována jedna textura za jeden cyklus 
 - Počet pixelů vykreslených za jeden cyklus je počet pipeline \* frekvence __\(fill\-rate__\) 
-- aby obraz vypadal prostorově musí se na každý pixel aplikovat více textur \(elementární textury \- __texely__\) 
+- aby obraz vypadal prostorově musí se na každý pixel aplikovat více textur \(elementární textury \- __texely__\) 
 - dnešní karty pracují paralelně \-> mají více pipeline \(za jeden takt se vytvoří více texelů\) 
 - každá pipeline je vybavená shardery, které pracují na graf\. kartě \(resp\. na jejích „stream procesorech“\) 
-	- __vertex shade__r \- vytváří trojrozměrné objekty, umísťuje je do prostoru a stará se o světelné efekty 
+	- **vertex shader** \- vytváří trojrozměrné objekty, umísťuje je do prostoru a stará se o světelné efekty 
 	- __pixel shader__ \- definuje barvu a průhlednost objektů 
 
  
@@ -112,7 +112,7 @@ __D/A převodník \(RAMDAC\)__ 
 __GPU \(Graphics Processing Unit\)__ 
 
 - Zajišťuje rychlé grafické výpočty a změny obsahu videopaměti 
-- GPU je v některých výpočtech výkonnější, než CPU 
+- GPU je v některých výpočtech výkonnější, než CPU 
 - Zpracovává 3D geometrii do 2D obrazu 
 - GPU je zejména pro vektorové výpočty, které jsou potřeba pro vytvoření grafických scén 
 - Obsahuje řadu obvodů, které umožňují přímo pracovat se základními grafickými prvky a tvary, což umožňuje vykreslovat grafické objekty rychleji, než pomocí CPU 
@@ -132,18 +132,18 @@ __Paměť grafické karty__ 
 
 __*Integrované grafické karty se sdílenou pamětí*__ 
 
-- Grafické karty se sdílenou pamětí využívají část operační paměti počítače k ukládání dat 
-- Protože se dělí o paměť s procesorem, který má pro přístup do paměti vyšší prioritu, je zpracování dat pomalejší 
+- Grafické karty se sdílenou pamětí využívají část operační paměti počítače k ukládání dat 
+- Protože se dělí o paměť s procesorem, který má pro přístup do paměti vyšší prioritu, je zpracování dat pomalejší 
 - Určeno pro kancelářské aplikace, sledování filmů a dalších graficky nenáročných aplikací 
 - Většina základních desek obsahuje levné integrované grafické karty 
 - Základní desky zároveň podporují výkonnější samostatné grafické karty 
 - Po připojení samostatné grafické karty se automaticky odpojí integrovaná karta 
 
-__*Samostatné grafické karty s vlastní pamětí*__ 
+__*Samostatné grafické karty s vlastní pamětí*__ 
 
-- Samostatné grafické karty pracují s velkými objemy dat, musí být výkonné a vybaveny pamětí 
+- Samostatné grafické karty pracují s velkými objemy dat, musí být výkonné a vybaveny pamětí 
 
-__Sloty __ 
+**Sloty**  
 
 - Pro samostatnou grafickou kartu se využívá nejčastěji slot AGP a PCI Express \(PCI\-E\) 
 - PCI\-E sloty jsou novější a podporují dvojnásobně vyšší přenosovou rychlost než sloty AGP 
@@ -161,10 +161,10 @@ Monitory 
 
 __Základní parametry monitorů__ 
 
-- __Úhlopříčka__ – vzdálenost mezi protilehlými rohy monitoru, udává se v palcích 
-- __Rozlišení__ – udává se v pixelech, \(FULL HD\- 1920 X 1080\) 
-- __Doba odezvy__ – doba ze kterou se bod na LCD rozsvítí a zhasne v milisekundách  
-- __Obnovovací frekvence__ – Udává se v Hertz, počet obnovení obrazu na monitoru – čím je vyšší, tím je obraz monitoru vnímán jako stabilnější 
+- __Úhlopříčka__ – vzdálenost mezi protilehlými rohy monitoru, udává se v palcích 
+- __Rozlišení__ – udává se v pixelech, \(FULL HD\- 1920 X 1080\) 
+- __Doba odezvy__ – doba ze kterou se bod na LCD rozsvítí a zhasne v milisekundách  
+- __Obnovovací frekvence__ – Udává se v Hertz, počet obnovení obrazu na monitoru – čím je vyšší, tím je obraz monitoru vnímán jako stabilnější 
 - __Vstupy__ – __DVI, HDMI, VGA__ 
 
 ((obrázek vynechán))
@@ -238,7 +238,7 @@ __*Popis funkce CRT*__ 
 
  
 
-  
+  
 
  
 
@@ -246,8 +246,8 @@ LCD \(Liquid Crystal Display\) 
 
  
 
-- Displej z tekutých krystalů 
-- Je\-li propojen s grafickou kartou, dostává informace, které se budou zobrazovat 
+- Displej z tekutých krystalů 
+- Je\-li propojen s grafickou kartou, dostává informace, které se budou zobrazovat 
 
 __*Výhody*__ 
 
@@ -267,7 +267,7 @@ __*Nevýhody*__ 
 
 __*Popis funkce LCD*__ 
 
-- Luminescenční výbojka, světlo z této výbojky se šíří ve formě vln \(sinusoidy\) 
+- Luminescenční výbojka, světlo z této výbojky se šíří ve formě vln \(sinusoidy\) 
 - Světlo prochází přes 1\. polarizační filtr, ale projde jen část světla \(horizontální sinusovky\) 
 - Mezi 2 orientačními filtry se nachází skleněné destičky, kde první propouští vertikální světlo a druhá horizontální světlo \(Twisted Nematic\) 
 - Mezi těmito destičkami se nachází velmi tenká vrstva tekutých krystalů 
@@ -299,9 +299,9 @@ __Typy neimpaktních tiskáren:__ \- termální \(tepelné\) \- inkoustové \- l
 
 __Charakteristika a možnosti tiskáren__ 
 
-- __*Možnosti a rychlost: *__ 
+- ***Možnosti a rychlost:***  
 - Rychlost se udává ve „__stránkách za minutu“__ \(PPM\) rychlost je ovlivněna složitostí obrazu a kvality požadované uživatelem\. __Inkoustové__ tiskárny jsou  pomalejší, ale pro domácnost či kancelář dostačující\. 
-- __*Barevná nebo černobílá: *__ 
+- ***Barevná nebo černobílá:***  
 - Tiskárna tvoří barvy používáním subtraktivního míchaní, v tiskárnách se používá model __CMYK\.__ Volba barevné nebo černobílé tiskárny závisí na potřebách zákazníka\.  
 - ((obrázek vynechán))
 - __*Kvalita:*__ 
@@ -312,58 +312,58 @@ __Charakteristika a možnosti tiskáren__ 
 	- __Plánovaný servis:__ servis je založen na předpokládaném užití 
 	- __„Mean time between failures \(MTBF\)“:__ tiskárna by měla fungovat určitou dobu bez poruchy 
 - __*Koncová cena:*__ 
-- Cena nekončí pouze tiskárnou, ale je třeba počítat s barvou, údržbou, papírem a další\. 
-- Tiskárna musí mít kompatibilní rozhraní s počítačem, aby mohla tisknou\. Klasicke se používá parallel, USB nebo bezdrátové rozhraní\. Tiskárna může byt připojená i k síti\. 
+- Cena nekončí pouze tiskárnou, ale je třeba počítat s barvou, údržbou, papírem a další\. 
+- Tiskárna musí mít kompatibilní rozhraní s počítačem, aby mohla tisknou\. Klasicke se používá parallel, USB nebo bezdrátové rozhraní\. Tiskárna může byt připojená i k síti\. 
 - __*Druhy připojení*__ 
-- __Seriál: __ 
-	- Přenos dat je pohyb bitů informacím v jednom cyklu\. Používá se v jehličkových tiskárnách, protože potřebuje rychlý přenos\. 
+- **Seriál:**  
+	- Přenos dat je pohyb bitů informacím v jednom cyklu\. Používá se v jehličkových tiskárnách, protože potřebuje rychlý přenos\. 
 - __Parallel:__ 
-	- Rychlejší než seriál\. přenos dat je vícero bitů informací v jednom cyklu, protože přenosná cesta je širší než u seriál, tak se data pohybují rychleji do tiskárny\. 
-- __SCSI: __ 
+	- Rychlejší než seriál\. přenos dat je vícero bitů informací v jednom cyklu, protože přenosná cesta je širší než u seriál, tak se data pohybují rychleji do tiskárny\. 
+- **SCSI:**  
 	- Small computer systém interface 
-	- Používá paralelní komunikace k dosažení vyšších přenosových rychlostí 
-- __USB: __ 
+	- Používá paralelní komunikace k dosažení vyšších přenosových rychlostí 
+- **USB:**  
 	- Nejčastější rozhraní při zapojení do PC, které podporuje __PLUG\-AND\-PLAG__, tak je zařízení automaticky detektováno a jsou spuštěny instalace ovladačů\. 
 
 __*Typy tiskáren*__ 
 
 - __*Inkoustová tiskárna*__ 
-- Tiskne o vysoké kvalitě jednoduché použití a levnější než lasserové tiskárny\. Kvalita tisku se měří v DPI, vyšší znamená lepší kvalitu obrazu\. 
-- K tisku se využívá inkoustová nádrž, které nanáší inkoust na stránku malými otvory, tryskami které jsou na tiskové hlavici\. 
+- Tiskne o vysoké kvalitě jednoduché použití a levnější než lasserové tiskárny\. Kvalita tisku se měří v DPI, vyšší znamená lepší kvalitu obrazu\. 
+- K tisku se využívá inkoustová nádrž, které nanáší inkoust na stránku malými otvory, tryskami které jsou na tiskové hlavici\. 
 - __Tisková hlavice a inkoustové nádržky__ 
 	- Jsou na podvozku, jež je připevněn na pásu motoru\. Jak válec tahá papír ze zásobníku, pás posune podvozek dopředu a dozadu a inkoust je tak vstřikován na papír 
 	- Existují dva typy trysek 
 		- __Termální \(bublinkové\)__ 
-			- Pulsy elektrického proudu ohřívají tělíska, jež zahřívají inkoust, Při zahřátí vznikne v trysce bublina, která způsobí vymrštění inkoustové kapky na papír  
+			- Pulsy elektrického proudu ohřívají tělíska, jež zahřívají inkoust, Při zahřátí vznikne v trysce bublina, která způsobí vymrštění inkoustové kapky na papír  
 			- Jejich hlavním spojencem je tedy vysoká teplota\. V každé tiskové hlavě se nachází speciální tryska pro každý barevný kanál\. Uvnitř trysky pracuje malý rezistor, který produkuje teplotu okolo 100°C\. Ten způsobí rychlé rozpínání inkoustu, který může uniknout jedině tryskou\. Kapka je tedy vysokou rychlostí "vystřelena" přímo do papíru\. 
-		- __Piezoelektrické __ 
-			- Tisková hlava v tiskárně pracuje s piezoelektrickými krystaly, což jsou vlastně destičky, které jsou schopné měnit svůj tvar\. Trysky jsou vloženy v komůrkách__ __ z těchto krystalů\. Tyto komůrky jsou roztahovány a zvyšovány a tryska podle toho vystříkne inkoust\. 
+		- **Piezoelektrické**  
+			- Tisková hlava v tiskárně pracuje s piezoelektrickými krystaly, což jsou vlastně destičky, které jsou schopné měnit svůj tvar\. Trysky jsou vloženy v komůrkách  z těchto krystalů\. Tyto komůrky jsou roztahovány a zvyšovány a tryska podle toho vystříkne inkoust\. 
 - Inkoustové tiskárny užívají obyčejný papír, ale může být použit zvláštní druh papíru pro vytvoření například kvalitních fotografií\. Některé mohou tisknout obou straně, když je tisk dokončen, tak je inkoust vlhký\. Na papír by se neměl 10\-15 sekund sahat\. Pokud je tisk nekvalitní, je třeba použít kalibrační software\. 
 - __*Výhody:*__ 
 	- Nízká cena  
 	- Vysoké rozlišení  
 	- Rychlé používaní 
-- __*Nevýhody: *__ 
+- ***Nevýhody:***  
 	- Trysky se ucpávají 
 	- Náplně jsou relativně drahé 
 	- Vlhký inkoust po dokončení tisku 
 
 ((obrázek vynechán))
 
-  ((obrázek vynechán))
+  ((obrázek vynechán))
 
-__*Laserová tiskárny *__ 
+***Laserová tiskárny***  
 
-- Používají laserový paprsek k provedení rychlého tisku s vysokou kvalitou,  
-- hlavní součástí je kovový válec s vrstvou polovodiče \(např\. selen\) na povrchu\.  
-- Polovodiče mění při osvícení odpor z přibližně 300 Ω až na cca 2\-3 MΩ, pokud není osvícení povrchu válce, je v celé šířce nabit u korony\.  
-- V bodech, které se mají tisknout je válec osvícen laserem, tím je odpor polovodiče v bodě snížen a náboj z povrchu se vybije do středu válce\.  
-- __Toner \(jemný prášek\)__ je vlivem otáčení válce nabit na stejnou polaritu válce a přilne k válci pouze na místech, kde byl náboj odstraněn\. 
+- Používají laserový paprsek k provedení rychlého tisku s vysokou kvalitou,  
+- hlavní součástí je kovový válec s vrstvou polovodiče \(např\. selen\) na povrchu\.  
+- Polovodiče mění při osvícení odpor z přibližně 300 Ω až na cca 2\-3 MΩ, pokud není osvícení povrchu válce, je v celé šířce nabit u korony\.  
+- V bodech, které se mají tisknout je válec osvícen laserem, tím je odpor polovodiče v bodě snížen a náboj z povrchu se vybije do středu válce\.  
+- __Toner \(jemný prášek\)__ je vlivem otáčení válce nabit na stejnou polaritu válce a přilne k válci pouze na místech, kde byl náboj odstraněn\. 
 - U ostatních místech je toner od válce odpuzován\.  
-- Následně se toner přenese z válce na papír, který je nabit na opačnou hodnotu než povrch válce\. 
+- Následně se toner přenese z válce na papír, který je nabit na opačnou hodnotu než povrch válce\. 
 - Povrch je záporně nabitý a válec kladně\. Když oblast, na kterou chceme tisknout zbavíme náboje, tak prášek je přitahován na těchto místech kladně nabitým válcem\.  
 - Papír se pod válec dostane ze vstupního zásobníku, je nabit opačným nábojem než povrch válce a toner\. Toner se nábojem přenese na papír\. Toner je potom pomocí vysoké teploty \(180\) a tlaku roztaven a zapečetěn do papíru, následně je papír vložen do výstupního zásobníku\.  
-- Laserový paprsek prochází __deflektorem__, což je součástka, která v závislosti na přivedeném napětí proudí světlo\. Napětí je obrazem bit mapy tištěné stránky, Rostoucí zrcátko \(hranol\) rozprostírá paprsek po celé šířce válce\. Po skončení tisku setře stěrač zbytky toneru a žárovka odstraní náboj z předchozí fáze tisku\.  
+- Laserový paprsek prochází __deflektorem__, což je součástka, která v závislosti na přivedeném napětí proudí světlo\. Napětí je obrazem bit mapy tištěné stránky, Rostoucí zrcátko \(hranol\) rozprostírá paprsek po celé šířce válce\. Po skončení tisku setře stěrač zbytky toneru a žárovka odstraní náboj z předchozí fáze tisku\.  
 - __LED tiskárny__ fungují na podobném principu jako tiskárny laserové a často se také mezi laserové tiskárny zařazují\. LED tiskárny se totiž od laserových liší pouze způsobem ozařování válce\. Obraz je vykreslován na selenový válec řadou LED diod a otáčející se válec je v tomto případě osvětlován po řádcích\. I v případě LED tiskáren je hlavní výhodou kvalitní tisk\. 
 - __*Výhody*__ 
 	- Cena za stránku 
@@ -375,13 +375,11 @@ __*Laserová tiskárny *__ 
 	- Toner je drahý 
 	- Požaduje vysoký stupeň údržby 
 
-  
+  
 
 ((obrázek vynechán))
 
-__* *__ 
-
-  
+  
 
 __*Termální \(tepelné\) tiskárny*__ 
 
@@ -397,13 +395,13 @@ __*Termální \(tepelné\) tiskárny*__ 
 	- Papír musí být uchován při pokojové teplotě 
 	- Nemožnost barevného tisku  
 
-  
+  
 
 __*Jehličkové tiskárny*__ 
 
-- Používají k tiskovou hlavu, která se pohybuje ze strany na stranu a přes barvící pásku naplněnou inkoustem se otiskne jehličky na papír\. Z důvodu tisku mechanickým tlakem mohou vytvářet kopie, pomocí kopíráku\.  
+- Používají k tiskovou hlavu, která se pohybuje ze strany na stranu a přes barvící pásku naplněnou inkoustem se otiskne jehličky na papír\. Z důvodu tisku mechanickým tlakem mohou vytvářet kopie, pomocí kopíráku\.  
 - Každý bod je vykreslen malou kovovou jehlou řízenou elektromagnetem a to buď přímo nebo pomocí malých vahadel\. 
-- Jsou výrazně pomalejší oproti laserovým či inkoustovým, ale využívají se například v supermarketu, kde není třeba vysoká kvalita tisku\.  
+- Jsou výrazně pomalejší oproti laserovým či inkoustovým, ale využívají se například v supermarketu, kde není třeba vysoká kvalita tisku\.  
 - __*Výhody*__ 
 	- Používá levný inkoust 
 	- Používá nepřetržitý tok papíru 
@@ -415,14 +413,14 @@ __*Jehličkové tiskárny*__ 
 
 ((obrázek vynechán))
 
-  
+  
 
-  
+  
 
 __*Scannery*__ 
 
 - Zařízení, které umožní převést 2D nebo 3D předlohy do digitální podoby pro další využití, většinou pomocí PC\.  
-- První digitální snímek byl vytvořen v roce 1967 
+- První digitální snímek byl vytvořen v roce 1967 
 
 __*Druhy Scannerů*__ 
 
@@ -447,7 +445,7 @@ __*Druhy Scannerů*__ 
 - Nákladná technologie\- 
 - Pro profesionální použití\. 
 
-  
+  
 
 ((obrázek vynechán))
 
@@ -459,10 +457,10 @@ __*Parametry scannerů*__ 
 - Udává množství odstínů barev, které je schopen skener nasnímat\. Dříve se používala  
 24 bit bar hloubka \(8 bit na kanál\), u současných přístrojů to je 48 bit \(16 bit na kanál\)\.  
 - __*Rozlišení obrazu*__ 
-- Udává se v DPI \(počet bodů na palec\)\. Značí jemnost snímací paprsku\. Dnes se používá rozlišení mezi 1200 a 5900 DPI\. 
+- Udává se v DPI \(počet bodů na palec\)\. Značí jemnost snímací paprsku\. Dnes se používá rozlišení mezi 1200 a 5900 DPI\. 
 - __*Velikost snímané předlohy*__ 
 - __*Denzita*__ 
-- Logaritmus poměru intenzity dopadajícího světla k intenzitě světla\.  
+- Logaritmus poměru intenzity dopadajícího světla k intenzitě světla\.  
 - Udávají se dvě hodnoty denzity 
 	- __Maximální:__ 
 		- Udává maximální rozlišitelnou hodnotu denzity\. 
@@ -471,23 +469,23 @@ __*Parametry scannerů*__ 
 - __*Digital ice*__ 
 - Technologie odstraňující kombinací SW a HW prostředků povrchu a škrábance\. 
 - __*Rozpoznání textu*__ 
-- Metoda, která umožňuje digitalizaci tištěných textů, s nímž lze pak pracovat jako s normálním PC textem\. 
+- Metoda, která umožňuje digitalizaci tištěných textů, s nímž lze pak pracovat jako s normálním PC textem\. 
 
 ((obrázek vynechán))
 
-  
+  
 
 ((obrázek vynechán))
 
-  
+  
 
 *Princip skeneru* 
 
 Skener pracuje na principu odrazu světla od předlohy\. Hlavním prvkem skeneru je snímací čidlo, které převádí odražené světlo na elektrický signál\. Uvnitř skeneru se nachází speciální jednotka obsahující optickou soustavu vyzařující světlo a fotocitlivou diodu nebo CCD prvek\. 
 
-Snímač CCD je citlivý elektronický obvod, ve kterém je vytvářen elektrický signál\. Speciální jednotka je uložena pod sklem, na které se položí předloha určená k naskenování\. Snímací mechanismus se uvnitř skeneru pohybuje tak, aby obsáhl celou skenovanou oblast\. Předloha je osvětlena diodou\. Snímací prvek zachytí odražené světlo a převede ho na digitální signál\. 
+Snímač CCD je citlivý elektronický obvod, ve kterém je vytvářen elektrický signál\. Speciální jednotka je uložena pod sklem, na které se položí předloha určená k naskenování\. Snímací mechanismus se uvnitř skeneru pohybuje tak, aby obsáhl celou skenovanou oblast\. Předloha je osvětlena diodou\. Snímací prvek zachytí odražené světlo a převede ho na digitální signál\. 
 
-Skener snímá obraz po řádcích, kdy počet řádků a množství snímaných bodů na rameni ukazuje rozlišení skeneru\. Rozlišení skeneru se udává v dpi \(dots per inch\)\. Čím je dpi vyšší, tím podrobněji je obraz převeden do digitální podoby\. 
+Skener snímá obraz po řádcích, kdy počet řádků a množství snímaných bodů na rameni ukazuje rozlišení skeneru\. Rozlišení skeneru se udává v dpi \(dots per inch\)\. Čím je dpi vyšší, tím podrobněji je obraz převeden do digitální podoby\. 
 
 *CCD snímač* 
 
@@ -499,11 +497,11 @@ Jeho nejdůležitější součástí je čtecí zařízení \(snímací hlava\),
 
 3\) Paměťová zařízení 
 
-__*Paměť *__ 
+***Paměť***  
 
-- Pro počítač „životní nutnost“ mikroprocesor z ní čte programy a ukládá do ní výsledky ssvé práce 
+- Pro počítač „životní nutnost“ mikroprocesor z ní čte programy a ukládá do ní výsledky ssvé práce 
 	- __Paměti primární__ 
-		- CPU s ní bezprostředně spolupracuje __\(operační paměť__\)\. 
+		- CPU s ní bezprostředně spolupracuje __\(operační paměť__\)\. 
 	- __Paměti sekundární__ 
 		- Odkládá si zde data, které CPU nutně nepotřebuje __\(disky__\) 
 
@@ -511,22 +509,22 @@ __*Paměti mají charakteristické parametry, které popisují jejich kvalitu*__
 
 __*Vybavovací doba*__ 
 
-- Rychlost \(v ms\) s jakou rychlostí zapíše nebo ukládá CPU zadaná data 
+- Rychlost \(v ms\) s jakou rychlostí zapíše nebo ukládá CPU zadaná data 
 
 __*Kapacita paměti*__ 
 
-- Určuje kolik bajtů je možné v paměti uchovat\.  
+- Určuje kolik bajtů je možné v paměti uchovat\.  
 - Důležitým kritériem je to, zda se paměť po vypnutí počítače vymaže\. 
 
 __*Další*__ 
 
-- V případě RAM podpora „dual Channelu“ zapisování a čtení na dvě RAM současně \(2x4GB paměti jsou rychlejší nežli 1x8gb\) 
+- V případě RAM podpora „dual Channelu“ zapisování a čtení na dvě RAM současně \(2x4GB paměti jsou rychlejší nežli 1x8gb\) 
 
 __*Typy paměti*__ 
 
 __*ROM*__ 
 
-- Dovoluje pouze čtení z paměti, zápis do ní provádí výrobce 
+- Dovoluje pouze čtení z paměti, zápis do ní provádí výrobce 
 
 __*RAM*__ 
 
@@ -536,7 +534,7 @@ __*RAM*__ 
 
 __*Fyzikální princip pamětí*__ 
 
-- U principu je každá paměť tvořena maticí miniaturních elektronický součástek, každá z těchto součástek může nabývat stavu 0,1 bit osm těchto prvků pak tvoří BYTE\.  
+- U principu je každá paměť tvořena maticí miniaturních elektronický součástek, každá z těchto součástek může nabývat stavu 0,1 bit osm těchto prvků pak tvoří BYTE\.  
 - Prvky jsou spojeny vertikálním i horizontálními vodiči, těmito dráty je možné prvky ovládat – číst a zapisovat\. 
 - Typ elektronické součástky tvoří paměťový prvek, definuje vlastnosti celé paměti\. 
 
@@ -546,7 +544,7 @@ __*Paměti typu ROM*__ 
 
 - Hlavním úkolem je pamatovat si data, když je pc vypnuté\. 
 - Používají se pro uskladnění BIOSU 
-- Skrz bios se často přistupuje k HW, ale paměti rom jsou pomalejší než ram, proto se při startu pc bios uloží z rom do ram, kde s ním pak pracuje\. Tento proces se nazývá __stínování__ 
+- Skrz bios se často přistupuje k HW, ale paměti rom jsou pomalejší než ram, proto se při startu pc bios uloží z rom do ram, kde s ním pak pracuje\. Tento proces se nazývá __stínování__ 
 
 __*ROM*__ 
 
@@ -578,7 +576,7 @@ __*EEPROM*__ 
 - Podobné EPROM 
 - Mazaní probíhá elektrickými impulsy 
 - Informaci si pamatuje 40 let 
-- V ROM i PROM není doba ohraničena 
+- V ROM i PROM není doba ohraničena 
 
  
 
@@ -592,9 +590,9 @@ __*Flash poměť*__ 
 
 __*Paměti typu RAM*__ 
 
-- Paměť s níž nejčastěji spolupracuje CPU rychlejší než ROM\. 
+- Paměť s níž nejčastěji spolupracuje CPU rychlejší než ROM\. 
 - Dá se zapisovat i číst  
-- Existuje více typů RAM s různými vlastnosti 
+- Existuje více typů RAM s různými vlastnosti 
 
 __*Statické RAM \(SRAM\)*__ 
 
@@ -610,16 +608,16 @@ __*CMOS RAM*__ 
 
 - Vyrobeno technologií CMOS, díky níž se označuje malou spotřebu ´ 
 - Používá se pro zápis parametrů BIOSU 
-- Programem SETUP jsou v ní uložena životně důležitá data k konfiguraci PC 
-- Po vypnutí je paměť CMOS napájena z baterie na desce 
-- Často je v CMOS integrovaný obvod 
+- Programem SETUP jsou v ní uložena životně důležitá data k konfiguraci PC 
+- Po vypnutí je paměť CMOS napájena z baterie na desce 
+- Často je v CMOS integrovaný obvod 
 - Hodiny reálného času \(pamatuje si datum a čas\) 
 
  
 
 __*Druhy paměti RAM*__ 
 
-- Paměti mohou pracovat v různých režimech 
+- Paměti mohou pracovat v různých režimech 
 - Jaký režim bude používat záleží na chipsetu desky\.  
 
 __*SDRAM \(synchronous dynamic\)*__ 
@@ -636,13 +634,13 @@ __*DDR \(double date rate\)*__ 
 řídicí impulsy 
 
 - Během jednoho taktu, tak paměť DDR provede dvě operace, nabízejí dvojnásobnou propustnost\.  
-- Výroba vychází z SDRAM – je levná a implementace je snadná\. 
+- Výroba vychází z SDRAM – je levná a implementace je snadná\. 
 
-__*DDR II *__ 
+***DDR II***  
 
-- Stejný způsob jako DDR, pracuje s poloviční frekvencí, menší napětí, nižší spotřeba a je možné si ji taktovat na vyšší rachlost 
+- Stejný způsob jako DDR, pracuje s poloviční frekvencí, menší napětí, nižší spotřeba a je možné si ji taktovat na vyšší rachlost 
 
-__*RDRAM *__ 
+***RDRAM***  
 
 - Jméno po výrobci 
 - Odlišný způsob přenosu dat než klasické paměti umožňuje díky malé šířce sběrnice umístit do chipsetu základní desky\. Více paralelních kanálu a zvýšit tak propustnost celé paměti 
@@ -652,20 +650,20 @@ __*RDRAM *__ 
 
 __*Externí paměti \(vnější\)*__ 
 
-- Slouží k slouhodobému ukládání dat 
+- Slouží k slouhodobému ukládání dat 
 - Velká kapacita, nízká rychlost 
 - Není nezbytná, ale je důležitá, standardně CD ROM atd\. 
-- __Disketa __ 
+- **Disketa**  
 	- Disketová mechanika je napájena speciálními kabelem přímo ze zdroje\. 
 	- Princip čtení a zápisu obdobná jako u HDD, pouze však hlavičky se přímo dotýkají magnetického povrchu desky 
-	- Oboustranný magnetický nosič informace, kotouč je umístěn v tuhém obalu 
+	- Oboustranný magnetický nosič informace, kotouč je umístěn v tuhém obalu 
 	- Tři druhy 
 	- 3,5“ 720 KB až 1,44 MB 
 	- 5,23“ 360KB až 1,2 MB 
 	- ZIP disketa – 100,250 a 750 MB 
-	- Dnes se již nepoužívá, nevyhovuje v žádném ohledu \(kapacita, velikost\) 
+	- Dnes se již nepoužívá, nevyhovuje v žádném ohledu \(kapacita, velikost\) 
 - __CD\-ROM, CD\-RW__ 
-	- Velkokapacitní médium s kapacitami 250, 630, 700, 800, 900 MB\. Data jsou zaznamenávána mechanicky, pomocí lisováním nebo laserem\.  
+	- Velkokapacitní médium s kapacitami 250, 630, 700, 800, 900 MB\. Data jsou zaznamenávána mechanicky, pomocí lisováním nebo laserem\.  
 	- CD\-ROM mechanika slouží ke čtení kompaktních disků, čte se pomocí laseri a optické soustavy 
 	- Připojuje se pomocí rozhraní IDE nebo SATA 
 	- CD mí na povrchu odrážku ve formě spirály ve které jsou uložena data\. 
@@ -676,7 +674,7 @@ __*Externí paměti \(vnější\)*__ 
 	- Dvouvrstvé, jednostranné \- 8,5GB 
 	- Jednovrstvé, oboustranné \- 9,4 GB 
 	- Dvouvrstvé, dvoustranné\- 17 GB 
-	- Nelze přehrát v CD\.ROM ale DVD\- ROM dokáže přečíst CD  
+	- Nelze přehrát v CD\.ROM ale DVD\- ROM dokáže přečíst CD  
 - __FLASH paměti__ 
 	- Zařízení pro uchování dat, která se dají přepisovat 
 	- Do PC se připojují většinou přes USB vyšší fyzická odolnost, nemá pohybové části, velká kapacita \(až 1 TB\) 
@@ -686,14 +684,14 @@ __*Externí paměti \(vnější\)*__ 
 
 Pevný disk a optická média 
 
-- Slouží k dlouhodobému uchovávání dat či jejich přenosu 
+- Slouží k dlouhodobému uchovávání dat či jejich přenosu 
 
 Hard disk \(HDD\) 
 
 - Hard Disc Drive, HDD 
-- První komerční pevné disky se objevily v 60\. letech 
+- První komerční pevné disky se objevily v 60\. letech 
 - Předchůdcem pevných disků je magnetická páska a magnetický buben 
-- Používají se k trvalému uchování většího množství dat 
+- Používají se k trvalému uchování většího množství dat 
 - Velmi výhodný poměr kapacity a ceny \(jsou i relativně rychlé\) 
 - Disk není napěťově závislý 
 - Data se při odpojení disku od napájení neztrácejí \(ukládají se na magnetickém principu, nikoliv elektrickém\) 
@@ -708,9 +706,9 @@ Parametry HDD 
 
 - Kapacita \(stovky GB až několik TB\) 
 - Přístupová doba – doba za kterou disk vyhledá požadovaná data několik ms \(obvykle 8ms\) 
-- Doba vystavení – čas nutný k pohybu hlav nad určitou stopu 
+- Doba vystavení – čas nutný k pohybu hlav nad určitou stopu 
 - Doba čekání – čas, kdy disk čeká na začátek dat \(začátek čtení\) na dané stopě 
-- Rychlost otáčení – 5400, 7200 nebo 10 000 otáček za minutu 
+- Rychlost otáčení – 5400, 7200 nebo 10 000 otáček za minutu 
 - Přenosová rychlost – desítky MB/s 
 - Velikost paměti cache HDD – 512 kB 
 - Cena se pohybuje různě, cca od 1000 Kč 
@@ -719,13 +717,13 @@ Parametry HDD 
 	- 2,5“ – pro notebooky 
 	- Různé speciální velikosti \(př\. 1,8“ pro některé iPody\) 
 
-  
+  
 
 HW struktura HDD 
 
-- HDD se skládá z několika __kotoučů \(ploten\)__, které se po celou dobu, kdy je disk připojený k napájení točí 
+- HDD se skládá z několika __kotoučů \(ploten\)__, které se po celou dobu, kdy je disk připojený k napájení točí 
 - Data jsou na povrchu disku organizována do soustředných kružnic zvaných __stopy__ 
-- Každá stopa obsahuje pevný nebo proměnný počet __sektorů__ z důvodu efektivnějšího využíti povrchu 
+- Každá stopa obsahuje pevný nebo proměnný počet __sektorů__ z důvodu efektivnějšího využíti povrchu 
 - Sektor je nejmenší adresovatelná jednotka disku 
 
 *Řadič HDD* 
@@ -742,8 +740,8 @@ Uložení dat na HDD 
 Výhody HDD 
 
 - Nevyžaduje trvalé napájení  
-- Na rozdíl od magnetické pásky umožňuje přímý přístup k jednotlivým blokům záznamů 
-- Výhodný poměr kapacity a ceny disku i s dostatečnou rychlostí čtení a zápisu dat 
+- Na rozdíl od magnetické pásky umožňuje přímý přístup k jednotlivým blokům záznamů 
+- Výhodný poměr kapacity a ceny disku i s dostatečnou rychlostí čtení a zápisu dat 
 
 Nevýhody HDD 
 
@@ -760,14 +758,14 @@ Fyzický vs Logický disk 
 
 Tabulka rozdělení disku 
 
-- Tabulka s popisem rozdělení disku se nachází v takzvaném MBR \(Master Boot Record\) 
-- V tomto prostoru se obvykle nachází i zavaděč, který rozhoduje, ze kterého oddílu bude následně zaveden operační systém 
+- Tabulka s popisem rozdělení disku se nachází v takzvaném MBR \(Master Boot Record\) 
+- V tomto prostoru se obvykle nachází i zavaděč, který rozhoduje, ze kterého oddílu bude následně zaveden operační systém 
 
 Výhody logických disků 
 
 - Umožní nám to „rozsekat“ disk do určité hierarchie  
 - Možnost mít na jednom počítači více operačních systémů 
-- Lze nainstalovat Linux, Max OS X, Windows, či jiné operační systémy na různé diskové oddíly pevného disku a při startu počítače si jednoduše vybrat jeden z nich, který chceme používat 
+- Lze nainstalovat Linux, Max OS X, Windows, či jiné operační systémy na různé diskové oddíly pevného disku a při startu počítače si jednoduše vybrat jeden z nich, který chceme používat 
 - Někdy lze nainstalovat i dva OS na jeden logický oddíl, ale bývá to těžší a OS se navzájem omezují 
 - Uchování dat, například při poškození systému 
 
@@ -777,7 +775,7 @@ Nevýhody logických disků 
 
 - Snižuje to celkové místo dostupné pro ukládání uživatelských dat na disk  
 	- OS musí vytvořit na každém oddílu speciální oblast pro správu konkrétního souborového systému 
-- Snižuje se celkový výkon disku v systémech, kde je často k datům přistupováno paralelně na více oddílech, jelikož čtecí a zápisová hlava disku je tak nucena se hýbat sem a tam, aby mohla přistupovat k datům na každém oddílu \(netýká se SSD\) 
+- Snižuje se celkový výkon disku v systémech, kde je často k datům přistupováno paralelně na více oddílech, jelikož čtecí a zápisová hlava disku je tak nucena se hýbat sem a tam, aby mohla přistupovat k datům na každém oddílu \(netýká se SSD\) 
 - Může zabránit využití celé kapacity disku 
 - Pokud máme dva oddíly, na každém 3 GB volného místa \(6 GB celkem\), nemůže na disk nahrát 4 GB soubor 
 - Zpomalí se přesun dat mezi různými diskovými oddíly jednoho pevného disku\. OS musí zkopírovat celý obsah přesouvaných dat i přesto, že data zůstávají na stejném disku 
@@ -790,9 +788,9 @@ Nevýhody logických disků 
 Organizace HDD 
 
 - Kovové nebo skleněné plotny, pokryté tenkou magnetickou měkkou vrstvou 
-- Nad každou plotnou se vznáší magnetická čtecí hlava, která zajišťuje samotné čtení a zápis z pevného disku 
+- Nad každou plotnou se vznáší magnetická čtecí hlava, která zajišťuje samotné čtení a zápis z pevného disku 
 
-  
+  
 
 Organizace diskové plotny 
 
@@ -807,8 +805,8 @@ Organizace diskové plotny 
 *Sektory* 
 
 - Dnes je velikost sektorů nejčastěji 4096 B, tedy 4 kB 
-- Kvůli rozdílné délce stop u obvodu plotny a blíže k jejímu středu nemohou být všechny stopy rozděleny na stejný počet sektorů, a proto se využívá tzv\. Zone Bit Recording: 
-- __Zone Bit Recording__ – metoda rozdělující stopy disku na sektory dle jejich délky, ale k přístup k datům činí složitějším 
+- Kvůli rozdílné délce stop u obvodu plotny a blíže k jejímu středu nemohou být všechny stopy rozděleny na stejný počet sektorů, a proto se využívá tzv\. Zone Bit Recording: 
+- __Zone Bit Recording__ – metoda rozdělující stopy disku na sektory dle jejich délky, ale k přístup k datům činí složitějším 
 
 *Cylindr* 
 
@@ -816,27 +814,27 @@ Organizace diskové plotny 
 - Díky cylindrům se hlavy pevného disku využívají rovnoměrně a disk má tak vyšší výkon 
 - Proto disk se při zapisování neplní po plotnách, nýbrž po cylindrech, aby se průběžně využívaly všechny hlavy, jež jsou umístěny na jednom společném rameně 
 
-  
+  
 
 Skutečné uspořádání dat 
 
-- OS pracují s jednotkou označovanou jako __cluster__ 
-- Jednotlivé clustery v sobě shlukují určité množství sektorů, jejich počet se může lišit v závislosti na použitém souborovém systému \(NTFS, FAT32\)  
-- Velikost clusterů je volitelná, takže pokud často pracujeme s malými soubory, jsou vhodnější clustery s menší velikostí a opačně 
-- Dříve sektory měly stejnou velikost a nezáleželo na jeho fyzickém umístění na povrchu disku, data byla na sobě hodně natěsnána, a to se negativně projevovalo na magnetické stálosti záznamu – docházelo k vzájemnému ovlivňování sousedních sektorů 
+- OS pracují s jednotkou označovanou jako __cluster__ 
+- Jednotlivé clustery v sobě shlukují určité množství sektorů, jejich počet se může lišit v závislosti na použitém souborovém systému \(NTFS, FAT32\)  
+- Velikost clusterů je volitelná, takže pokud často pracujeme s malými soubory, jsou vhodnější clustery s menší velikostí a opačně 
+- Dříve sektory měly stejnou velikost a nezáleželo na jeho fyzickém umístění na povrchu disku, data byla na sobě hodně natěsnána, a to se negativně projevovalo na magnetické stálosti záznamu – docházelo k vzájemnému ovlivňování sousedních sektorů 
 
 Funkce 
 
 - Data jsou na disk uložena zmagnetováním míst, jež se provádí pomocí cívky čtecí hlavy a elektrického proudu 
 - Pomocí cívky je realizováno i čtení 
-- V ní se při pohybu nad různě orientovanými zmagnetizovanými místy indukuje elektrický proud a ten je řídící jednotkou disku převáděn zpět na 0 a 1 
+- V ní se při pohybu nad různě orientovanými zmagnetizovanými místy indukuje elektrický proud a ten je řídící jednotkou disku převáděn zpět na 0 a 1 
 - Počet čtení a zápisů na disk je při běžném používání téměř neomezený 
 
 Princip zápisu dat 
 
 - Zápis a čtení na disk mají na starost hlavičky 
-- Pokud cívkou prochází elektrický proud, dojde k vytvoření magnetického toku, která se uzavírá ve štěrbině mezi hlavičkou a plotnou a tím ovlivňuje i záznamovou vrstvu pevného disku 
-- V závislosti na směru toku proudu při této operaci dochází k zmagnetizování daného místa určitým směrem 
+- Pokud cívkou prochází elektrický proud, dojde k vytvoření magnetického toku, která se uzavírá ve štěrbině mezi hlavičkou a plotnou a tím ovlivňuje i záznamovou vrstvu pevného disku 
+- V závislosti na směru toku proudu při této operaci dochází k zmagnetizování daného místa určitým směrem 
 - Mezi dvěma zmagnetizovanými místy vznikají tzv\. magnetické rezervace 
 - __JEDNODUŠE:__ Disk je zmagnetizován v jednom směru, a když cívka začne produkovat elektřinu \(vytvoří se magnetické pole\), to začne měnit směr magnetického pole na daném místě na disku \(\-\) 0 a \(\+\) 1 \- záleží jaký směr bude produkovat elektromagnet \. Čtecí hlava následně data dokáže číst \(magnetické rezervace a ty následně vyvolají magnetický tok, který je zpracováván na elektrický impuls \(1,0\) 
 
@@ -851,24 +849,24 @@ Fragmentace disku 
 
 - Disky zapisují soubory větší než jeden cluster nahodile na volná místa disku 
 - Tím vzniká fragmentace disku \(„rozházení“ dat po disku\) 
-- Po nějaké době jsou volná místa po disku roztroušená a promixována již s plnými, a tak vznikají při zápisu a čtení dat čím dál větší prodlevy \(čtecí hlavička hledá správné místo\) a klesá i výkon disku 
-- __Defragmentace disku__ – řeší problém s fragmentací, provádí se z prostředí OS a jejím úkolem je poskládat roztroušené fragmenty jednotlivých souborů tak, aby byly co nejblíže sobě 
-- Data na disku se zahustí a tím se zrychlí i operace s daty 
+- Po nějaké době jsou volná místa po disku roztroušená a promixována již s plnými, a tak vznikají při zápisu a čtení dat čím dál větší prodlevy \(čtecí hlavička hledá správné místo\) a klesá i výkon disku 
+- __Defragmentace disku__ – řeší problém s fragmentací, provádí se z prostředí OS a jejím úkolem je poskládat roztroušené fragmenty jednotlivých souborů tak, aby byly co nejblíže sobě 
+- Data na disku se zahustí a tím se zrychlí i operace s daty 
 
 SSD disky 
 
 - Současné pevné \(HDD\) disky disponují hned několika nedostatky 
 	- Některé jsou hlučné, pohyblivé části uvnitř 
 - Řešením jsou SSD disky, které navíc disponují vysokým výkonem 
-- Zápis a čtení dat průměrného SSD disku se pohybuje blízko hranice 500 Mb/s, u některých se rychlosti pohybují i v řádech tisíců  
+- Zápis a čtení dat průměrného SSD disku se pohybuje blízko hranice 500 Mb/s, u některých se rychlosti pohybují i v řádech tisíců  
 - Nevýhodou je obří cena disku oproti klasickým HDD a menší kapacitou 
 - Jejich výhodou je nízká energetická náročnost 
 
-  
+  
 
 Optická média 
 
-- První optické disky se objevily v 60\. letech 
+- První optické disky se objevily v 60\. letech 
 - Na rozdíl od HDD plotny nemá soustředěné do kruhové stopy o různých délkách, ale má jedinou spirálovou stopu začínající u středu disku, na které jsou stejně dlouhé sektory 
 
 ((obrázek vynechán))
@@ -889,17 +887,17 @@ Rozdělení optických disků 
 - Podle možnosti zápisu/přepisu informace 
 	- __ROM__ – paměťové médium je výhradně pro čtení 
 	- __R__ \(Recordable\) – Lze jednou zapsat a zapsanou informaci již nelze vrátit\. Paměťové médium obsahuje speciální vrstvu barviva, do které zle informaci jednorázově zapsat vypálením pitu pomocí laseru ve vypalovací mechanice 
-	- __RW__ \(Rewritable\) – Umožňuje zapsat informaci a následně i vymazat a zapsat novou \(cca 1000 přepisů\)\. Paměťové médium obsahuje záznamovou vrstvu ze speciální chemické sloučeniny, které mění působením tepelné energie laseru svůj stav z krystalického \(vysoce odrazivý\) na amorfní \(rozptyluje laserový paprsek\) Zároveň má schopnost působením teplené energie laseru se vrátit do původního stavu\. 
+	- __RW__ \(Rewritable\) – Umožňuje zapsat informaci a následně i vymazat a zapsat novou \(cca 1000 přepisů\)\. Paměťové médium obsahuje záznamovou vrstvu ze speciální chemické sloučeniny, které mění působením tepelné energie laseru svůj stav z krystalického \(vysoce odrazivý\) na amorfní \(rozptyluje laserový paprsek\) Zároveň má schopnost působením teplené energie laseru se vrátit do původního stavu\. 
 
-  
+  
 
-Čtení z optického disku 
+Čtení z optického disku 
 
 - Laserovým paprskem 
 - Laserový paprsek vystřelí na polopropustné zrcadlo 
-- Zrcadlo odrazí paprsek směrem k disku 
+- Zrcadlo odrazí paprsek směrem k disku 
 - Povrch CD je opatřen odrazivou vrstvou, která způsobí odraz laserového paprsku zpět 
-- Právě v tomto okamžiku se rozhoduje o přečtené hodnotě\. Síla odrazu závisí na tom, zda se paprsek odráží od výstupku nebo prohlubně 
+- Právě v tomto okamžiku se rozhoduje o přečtené hodnotě\. Síla odrazu závisí na tom, zda se paprsek odráží od výstupku nebo prohlubně 
 - Paprsek se odrazí směrem na polopropustné zrcadlo, které ho již neodrazí, ale propustí na fotodiodu 
 
 Zápis CD\-R 
@@ -911,14 +909,14 @@ Zápis CD\-R 
 - Laserový impuls způsobí narušení vrstvy organického barviva 
 - Tím vznikne obdoba prohlubně, od které se čtecí laserový paprsek neodrazí 
 
-((obrázek vynechán))  
+((obrázek vynechán))  
 
 Zápis CD\-RW 
 
 - Zápis lze přepsat 
 - Zápis na CD\-RW se provádí laserovým paprskem, který ohřeje slitinu aktivní vrstvy na teplotu 500\-700 stupňů Celsia 
-- Slitina se tak velmi rychle začne tavit a při následném ochlazení dojde k fázové přeměně do amorfního stavu 
-- Mazání média se provádí zahřátím slitiny pod teplotu tání, avšak nad krystalizační teplotu \(200 stupňů Celsia\) po dostatečně dlouhou dobu\. Po ochlazení se fáze slitiny navrátí zpět z amorfního stavu do základního krystalického, a médium se chová jako prázdné 
+- Slitina se tak velmi rychle začne tavit a při následném ochlazení dojde k fázové přeměně do amorfního stavu 
+- Mazání média se provádí zahřátím slitiny pod teplotu tání, avšak nad krystalizační teplotu \(200 stupňů Celsia\) po dostatečně dlouhou dobu\. Po ochlazení se fáze slitiny navrátí zpět z amorfního stavu do základního krystalického, a médium se chová jako prázdné 
 
 ((obrázek vynechán))
 
@@ -926,17 +924,17 @@ Zápis CD\-RW 
 
 Počítačová skříň \(PC case\) 
 
-- Hardware pro počítač, který slouží k mechanickému upevnění všech ostatních vnitřních dílů a částí počítače 
+- Hardware pro počítač, který slouží k mechanickému upevnění všech ostatních vnitřních dílů a částí počítače 
 - Uchovává nám komponenty bezpečně uzavřené 
 - Standardizované rozměry, úložné šachty a montážní otvory 
 
 Konstrukce 
 
-- Obvykle je skříň vyrobená z plechu \(ocel, hliník, karbon, dural atd\.\) 
-- Skříň také může být z plastu anebo jiných materiálů 
+- Obvykle je skříň vyrobená z plechu \(ocel, hliník, karbon, dural atd\.\) 
+- Skříň také může být z plastu anebo jiných materiálů 
 - Skříně mívají odnímatelné víko nebo boční stěny 
-- Jsou různé konstrukce od obyčejných \(od klasické „bedny“, po zajímavé konstrukce \(vláčky, různé nápady a druhy fantazie, nepatří však již k běžným standardům\)\) 
-- __Vnitřek skříně __ 
+- Jsou různé konstrukce od obyčejných \(od klasické „bedny“, po zajímavé konstrukce \(vláčky, různé nápady a druhy fantazie, nepatří však již k běžným standardům\)\) 
+- **Vnitřek skříně**  
 	- Upevňovací plochy a otvory – připevnění PC komponent 
 	- Otvory na větráky 
 	- Hlavní plocha pro připevnění základní desky 
@@ -956,13 +954,13 @@ Konstrukce 
 
 Tvar a rozměry skříně 
 
-- Skříně se vyrábějí v různých velikostech a jsou standardizované  
+- Skříně se vyrábějí v různých velikostech a jsou standardizované  
 
 Desktop 
 
 - Skříně „naležato“ 
 - Leží na své největší straně 
-- Základní deska je v přirozené vodorovné poloze 
+- Základní deska je v přirozené vodorovné poloze 
 - Jsou málo oblíbené 
 - Typy: desktop, slim, booksize, desknote 
 - Desktop má tvar klasické krabice 
@@ -977,7 +975,7 @@ Desktop 
 
 Výhody 
 
-- Deska je položena v rovině, výhodné pro větrání grafické karty 
+- Deska je položena v rovině, výhodné pro větrání grafické karty 
 - Karty jsou ve své poloze a teplo, které vyvíjejí se přirozeně dostává mimo karty, respektive základní desky 
 - snadný přístup k disketovým mechanikám, k mechanice CD\-ROM a ke konektorům na zadní stěně počítače\. 
 
@@ -1009,7 +1007,7 @@ Výhody 
 Nevýhody 
 
 - Základní deska je umístěna svisle a tím přídavné karty leží vodorovně 
-- Některé karty, které vyvíjejí největší teplo \(grafické karty\) jsou tím pádem umístěny chladičem dolů \(což je z hlediska chlazení nejhorší možný stav\) 
+- Některé karty, které vyvíjejí největší teplo \(grafické karty\) jsou tím pádem umístěny chladičem dolů \(což je z hlediska chlazení nejhorší možný stav\) 
 - Skříně vyžadují kvalitnější větrání  
 
 Další varianty  
@@ -1037,8 +1035,8 @@ Další varianty  
 All in one PC 
 
 - Počítač integrovaný do monitoru 
-- PC case je spojený spolu s obrazovkou/monitorem 
-- Nemá externí case, ale vše je obsaženo v jednom 
+- PC case je spojený spolu s obrazovkou/monitorem 
+- Nemá externí case, ale vše je obsaženo v jednom 
 - Tento typ využívá například Apple produkt Mac 
 
 ((obrázek vynechán))
@@ -1046,7 +1044,7 @@ All in one PC 
 Výhody 
 
 - Zabírají nejméně místa 
-- Žádné zbytečné kabely vedoucí z počítače 
+- Žádné zbytečné kabely vedoucí z počítače 
 - Nižší spotřeba  
 
 Nevýhody 
@@ -1058,17 +1056,17 @@ Nevýhody 
 
 Chlazení PC a Case  
 
-- Potřebné pro obvod nadbytečného tepla z počítačové skříně \(casy\), které produkují komponenty 
-- Zajišťuje dodržování přijatelné teploty pro komponenty, aby nedošlo k jejich poškození 
+- Potřebné pro obvod nadbytečného tepla z počítačové skříně \(casy\), které produkují komponenty 
+- Zajišťuje dodržování přijatelné teploty pro komponenty, aby nedošlo k jejich poškození 
 - Komponenty bývají nejčastěji navrhnuty tak, aby produkovaly nejméně tepla 
-- Moderní komponenty jsou navrženy tak aby se zpomalily anebo vypnuly v případě, že dosáhnou určité tepelné hranice 
+- Moderní komponenty jsou navrženy tak aby se zpomalily anebo vypnuly v případě, že dosáhnou určité tepelné hranice 
 
 Typy chlazení 
 
 *Počítačové větráky* 
 
 - Nejrozšířenější 
-- Dostávají teplo z počítačové skříně \(case\) pomocí vyfoukávání teplého vzduchu ven 
+- Dostávají teplo z počítačové skříně \(case\) pomocí vyfoukávání teplého vzduchu ven 
 - Často se zanášejí a zpomalují se 
 - Je nutné je pravidelně čistit 
 
@@ -1076,7 +1074,7 @@ Typy chlazení 
 
 - Přídavné zařízení 
 - Instaluje se do casy, většinou přímo na komponentu, odvádí nežádoucí teplo 
-- Princip – efektivněji odvádí teplo z komponenty, které pak také efektivněji předává chladícímu zařízení \(vzduch \+ větrák, vodní chlazení\) 
+- Princip – efektivněji odvádí teplo z komponenty, které pak také efektivněji předává chladícímu zařízení \(vzduch \+ větrák, vodní chlazení\) 
 
 *Vodní chlazení* 
 
@@ -1086,38 +1084,38 @@ Typy chlazení 
 
 Napájecí zdroj 
 
-- Zařízení, sloužící ke zpracování střídavého napětí dodávaného ze sítě, na nízké stejnosměrné napětí, které je potřebné k napájení počítačových komponent 
+- Zařízení, sloužící ke zpracování střídavého napětí dodávaného ze sítě, na nízké stejnosměrné napětí, které je potřebné k napájení počítačových komponent 
 - Komponenty potřebují většinou – 3\.3 V, 5 V nebo 12 V 
 - Ve světě existuje více napájecích voltáží zdroje  
 	- 120\-127 V – Severní Amerika, Jižní Amerika, Japonsko, Tchaj\-wan 
-	- 220\-240 V – Zbytek světa, v Česku 203 V/ 50 Hz 
-	- Některé zdroje mají přepínač pro změnu vstupního napětí mezi 230 V a 115 V 
+	- 220\-240 V – Zbytek světa, v Česku 203 V/ 50 Hz 
+	- Některé zdroje mají přepínač pro změnu vstupního napětí mezi 230 V a 115 V 
 - Porucha zdroje může způsobit zničení dalších komponent 
 
-  
+  
 
 Rozdělení zdrojů 
 
 *AT* 
 
-- Poskytuje 5 V nebo 12 V 
+- Poskytuje 5 V nebo 12 V 
 - Zapínal se spínačem napojeným přímo na síť  
 - Nebylo dostupné softwarové zapínání 
 
 *ATX* 
 
-- Poskytuje 3\.3 V, 5 V a 12 V 
+- Poskytuje 3\.3 V, 5 V a 12 V 
 - Již obsahuje softwarové zapínání 
 - Obsahuje 20\-ti pinový konektor pro základní desku 
 
-  
+  
 
 *ATX 12 V* 
 
 - Standard pro současné počítačové zdroje 
 - Osahuje 20\-ti pinový konektor \+ 4 pinový konektor \(12 V\) pro základní desku 
 - 4 pinový konektor slouží pro napájení napěťových regulátorů, které vytváří napětí pro procesor 
-- ATX 12 V 2\.0 – obsahuje 24 pinový konektor 
+- ATX 12 V 2\.0 – obsahuje 24 pinový konektor 
 
 Co vše zdroj napájí 
 
@@ -1166,22 +1164,22 @@ Podle formátu základní desky 
 - Novější a dnes nejpoužívanější formát desek 
 - Obsahuje širokou škálu konektorů 
 - Napájení desky pomocí 20ti pinového konektoru \(3\.3V, 5V, 12V\) 
-- ATX zdroje se zapínají a vypínají přímo z desky, toto umožňuje například softwarové vypnutí počítače 
+- ATX zdroje se zapínají a vypínají přímo z desky, toto umožňuje například softwarové vypnutí počítače 
 - Jsou lépe navržené 
 
 Micro\-ATX 
 
 - Je o 25% menší než klasická ATX deska 
-- Deska je stejná jako ATX, jen s menšími rozměry 
+- Deska je stejná jako ATX, jen s menšími rozměry 
 - Slouží pro sestavování malých počítačů \(omezená rozšiřitelnost PC\) 
 
 *BTX* 
 
 - Vytvořen společností Intel, jako potenciální nástupce ATX 
-- Řeší problémy s odvodem tepla  
-- Formát BTX ztratil význam poté co Intel přistoupil k vývoji úsporných procesorů  
+- Řeší problémy s odvodem tepla  
+- Formát BTX ztratil význam poté co Intel přistoupil k vývoji úsporných procesorů  
 - Formát BTX využíval Mac Pro od Apple 
-- Vývoj BTX byl v roce 2006 zastaven 
+- Vývoj BTX byl v roce 2006 zastaven 
 
  
 
@@ -1220,14 +1218,14 @@ CPU \(Central Processing Unit\) 
 - Je zodpovědný za běh programů, aritmetické a logické výpočty 
 - Procesor se při práci zahřívá, a proto je nutné jej chladit 
 
-  
+  
 
 APU \(Accelerated Processing Unit\) 
 
-- Pokud je GPU přímo zakomponováno v CPU nazývá se procesor APU 
+- Pokud je GPU přímo zakomponováno v CPU nazývá se procesor APU 
 - Obsahuje tedy jak CPU, tak GPU 
 - Odstraňuje řadu problémů díky zlepšené komunikaci mezi jádry CPU a jádry GPU 
-- Vlivem této integrace se u počítačů s APU výrazně zlepšuje poměr výkon/cena 
+- Vlivem této integrace se u počítačů s APU výrazně zlepšuje poměr výkon/cena 
 - Dnes již klasické APU je pro mobilní telefony, netbooky, tablety atd\. 
 
  
@@ -1235,27 +1233,27 @@ APU \(Accelerated Processing Unit\) 
 RAM \(Random Access Memory\) 
 
 - Operační paměť 
-- Paměť s náhodným přístupem 
-- Přístup k operační paměti je mnohem rychlejší než k vnější paměti 
-- Slouží k dočasnému ukládání dat operačního systému a programů po dobu spuštění 
+- Paměť s náhodným přístupem 
+- Přístup k operační paměti je mnohem rychlejší než k vnější paměti 
+- Slouží k dočasnému ukládání dat operačního systému a programů po dobu spuštění 
 - RAM je napěťově závislá 
 
 BIOS \(Basic Input/Output Systém\) 
 
 - ROM paměť, složí pouze ke čtení, 
 - Působí jako základní ovládací prvek mezi hardwarem a softwarem 
-- BIOS obsahuje kód potřebný k ovládání klávesnice, obrazovky, mechaniky, sériové komunikace a další funkce 
+- BIOS obsahuje kód potřebný k ovládání klávesnice, obrazovky, mechaniky, sériové komunikace a další funkce 
 - Parametry se nestavují většinou pomocí programu zvaného SETUP 
 - SETUP je možné spustit při bootování počítače 
-- SETUP bývá uložen nejčastěji v permanentní paměti počítače – Flash ROM \- či CMOS RAM 
+- SETUP bývá uložen nejčastěji v permanentní paměti počítače – Flash ROM \- či CMOS RAM 
 - Špatné nastavení BIOSu může způsobit zpomalení anebo nefunkčnost počítače 
 
 CMOS RAM 
 
-- Je v ní uložena základní informace o konfiguraci počítače a o jeho hardwaru  
-- Paměť s malou kapacitou 
+- Je v ní uložena základní informace o konfiguraci počítače a o jeho hardwaru  
+- Paměť s malou kapacitou 
 - Je energeticky závislá 
-- Napájena malým akumulátorem na základní desce \(malá kulatá 3 V baterie\) 
+- Napájena malým akumulátorem na základní desce \(malá kulatá 3 V baterie\) 
 - CMOS RAM obsahuje: 
 	- Čas 
 	- Informace o typech a kapacitách HDD/SDD/Floppy disků 
@@ -1273,7 +1271,7 @@ Rozšiřující sloty 
 - Umožňuje zapojení přídavných karet, např\. zvukovou, grafickou, síťovou kartu atd\.  
 - Určité druhy se převážně liší přenosovými rychlostmi a schopnostmi napájet připojená zařízení 
 - Druhy slotů: 
-	- __ISA__ – dnes se již nepoužívá, sloužila třeba k připojení grafické, zvukové karty 
+	- __ISA__ – dnes se již nepoužívá, sloužila třeba k připojení grafické, zvukové karty 
 	- __EISA__ – dnes se již nepoužívá, rozšíření ISA slotu 
 	- __PCI__ – dříve používaný slot pro všechny karty, nestačí současným grafickým kartám 
 	- __AGP__ – slot navržený speciálně pro grafické karty, rychlejší než PCI 
@@ -1299,29 +1297,29 @@ Chipset \(čipová sada\) 
 
 Switche a Jumpery 
 
-- Slouží k nastavení některých parametrů základní desky 
+- Slouží k nastavení některých parametrů základní desky 
 - Polohy jednotlivých Jumperů určují nastavení základní desky 
-- U moderních desek se místo nastavování v Jumperů využívá nastavování v BIOSu 
+- U moderních desek se místo nastavování v Jumperů využívá nastavování v BIOSu 
 - Jejich používání již není nutné 
 
 I/O porty 
 
-- VGA, HDMI, USB, PS/2 \(myš/klávesnice\), LAN, FireWire  
+- VGA, HDMI, USB, PS/2 \(myš/klávesnice\), LAN, FireWire  
 
  
 
-  
+  
 
 ((obrázek vynechán))
 
- ((obrázek vynechán))((obrázek vynechán))((obrázek vynechán))
+ ((obrázek vynechán))((obrázek vynechán))((obrázek vynechán))
 
-7\) Mikroprocesory a komunikace s okolím
+7\) Mikroprocesory a komunikace s okolím
 
 Mikroprocesor 
 
 - Je „mozkem“ počítače 
-- Slouží k zpracování instrukcí od programů 
+- Slouží k zpracování instrukcí od programů 
 - Některé instrukce zpracovává sám 
 - K provedení některých dalších instrukcí používá různé komponenty počítače __\(např\. operační paměti, disky, displej nebo tiskárny\)__ 
 
@@ -1329,7 +1327,7 @@ Součásti mikroprocesoru 
 
 - __Řadič nebo řídící jednotka__, která zajišťuje řízení součinnosti jednotlivých částí procesoru dle prováděných strojových instrukcí 
 - __Sada registrů__ pro uchování operandů a mezivýsledků 
-- Přístup k registrům je mnohem rychlejší než přístup k RAM připojené k procesoru pomocí sběrnice 
+- Přístup k registrům je mnohem rychlejší než přístup k RAM připojené k procesoru pomocí sběrnice 
 
 Logický obvod 
 
@@ -1341,15 +1339,15 @@ Instrukční sada 
 
 - Instrukční sada poskytuje programátorům přívětivější prostředky pro napsání složitějšího aplikačního programu 
 
-Program napsaný v mikro instrukcích 
+Program napsaný v mikro instrukcích 
 
 - Převod instrukční sady na mikroinstrukce, které je mikroprocesor schopen řešit 
 
 Registry 
 
 - Malá a velmi rychlá paměť, kterou procesor využívá při své činnosti 
-- Často sem přesouvá data z operační paměti, aby je mohl zpracovat 
-- Nepotřebná data z registrů jsou zpět zapisována do operační paměti 
+- Často sem přesouvá data z operační paměti, aby je mohl zpracovat 
+- Nepotřebná data z registrů jsou zpět zapisována do operační paměti 
 
 Rozdělení mikroprocesorů 
 
@@ -1357,7 +1355,7 @@ Podle instrukční sady 
 
 RISC \(Reduced Instruction Set Computing\) 
 
-- Procesory s redukovanou instrukční sadou 
+- Procesory s redukovanou instrukční sadou 
 - Nemají složité instrukce 
 	- Př\. Násobení provádí tak, že spolu několikrát za sebou sečtou číslo \(3\*4 = 3\+3\+3\+3\) 
 - Jejich návrh je zaměřen na jednoduchou, vysoce optimalizovanou sadu strojových instrukcí 
@@ -1365,18 +1363,18 @@ RISC \(Reduced Instruction Set Computing\) 
 	- Celkový počet instrukcí RISC procesoru mlže být paradoxně vyšší, než u jiných architektur \(musí si __mnohokrát ukládat a načítat data\)__ 
 - Obsahuje relativně velké množství registrů – kvůli častému ukládání a načítání  
 - Použití: 
-	- Servery, laserové tiskárny, v osobních počítačích 
+	- Servery, laserové tiskárny, v osobních počítačích 
 
 CISC \(Complex Instruction Set Computing\) 
 
-- Procesory s kompletní instrukční sadou 
+- Procesory s kompletní instrukční sadou 
 - Obsahují složité instrukce 
 - Procesor obsahuje relativně nízký počet registrů 
-- Použití v osobních počítačích 
+- Použití v osobních počítačích 
 
 RISC vs CISC 
 
-- Složitost CISC procesorů vede k problémům při výrobě: 
+- Složitost CISC procesorů vede k problémům při výrobě: 
 	- Velká spotřeba materiálu 
 	- Větší pravděpodobnost vady 
 	- Komplikovaný návrh 
@@ -1386,15 +1384,15 @@ RISC vs CISC 
 
 Podle počtu jader 
 
-- V současné době vývoj spěje k dodávání více jader do CPU 
+- V současné době vývoj spěje k dodávání více jader do CPU 
 	- Jednojádrové 
-	- Vícejádrové – procesor, který v jednom pouzdře nebo na jednom čipu integruje více CPU\. Jádra spolu mohou navzájem komunikovat, spolupráce jader se obecně provádí prostřednictvím RAM\. Efektivnější je sdílená cache paměť 
+	- Vícejádrové – procesor, který v jednom pouzdře nebo na jednom čipu integruje více CPU\. Jádra spolu mohou navzájem komunikovat, spolupráce jader se obecně provádí prostřednictvím RAM\. Efektivnější je sdílená cache paměť 
 
 Podle šířky slova \(v bitech\) 
 
-- Zjednodušeně řečeno – s jak velkými čísly dokáže procesor počítat 
-- Počet bitů, které je procesor schopen zpracovat v jednom kroku 
-- Pokud mikroprocesor nemá dostatečnou šířku slova na práci s číslem, může být akce rozdělena do více kroků 
+- Zjednodušeně řečeno – s jak velkými čísly dokáže procesor počítat 
+- Počet bitů, které je procesor schopen zpracovat v jednom kroku 
+- Pokud mikroprocesor nemá dostatečnou šířku slova na práci s číslem, může být akce rozdělena do více kroků 
 
 Patice procesoru 
 
@@ -1418,14 +1416,14 @@ CPU \(Central Processing Unit\) 
 - Je zodpovědný za běh programů, aritmetické a logické výpočty 
 - Procesor se při práci zahřívá, a proto je nutné jej chladit 
 
-  
+  
 
 APU \(Accelerated Processing Unit\) 
 
-- Pokud je GPU přímo zakomponováno v CPU nazývá se procesor APU 
+- Pokud je GPU přímo zakomponováno v CPU nazývá se procesor APU 
 - Obsahuje tedy jak CPU, tak GPU 
 - Odstraňuje řadu problémů díky zlepšené komunikaci mezi jádry CPU a jádry GPU 
-- Vlivem této integrace se u počítačů s APU výrazně zlepšuje poměr výkon/cena 
+- Vlivem této integrace se u počítačů s APU výrazně zlepšuje poměr výkon/cena 
 - Dnes již klasické APU je pro mobilní telefony, netbooky, tablety atd\. 
 
  
@@ -1449,7 +1447,7 @@ Historie 
 - První počítač ENIAC 
 	- Pro výpočty dělostřeleckých tabulek pro americkou armádu 
 	- Dokončen až po válce 
-- V 70\. letech začalo docházet ke zmenšování procesorů, které dříve byly velké jako místnost 
+- V 70\. letech začalo docházet ke zmenšování procesorů, které dříve byly velké jako místnost 
 
 Použití procesorů 
 
@@ -1472,9 +1470,9 @@ Postup přerušení 
 
 Historie procesorů 
 
-- Prapůvodní procesory se skládaly z obvodů obsahující velké množství tranzistorů, rezistorů, elektronek a kondenzátorů 
-- Teprve v 70\. letech začala miniaturizace procesů, které dříve byly velké jako místnost 
-- Nejdříve byly složeny z několika desítek nebo stovek integrovaných obvodů, když se pak podařilo umístit základní obvody procesoru do jediného integrovaného obvodu, vznikl mikroprocesor 
+- Prapůvodní procesory se skládaly z obvodů obsahující velké množství tranzistorů, rezistorů, elektronek a kondenzátorů 
+- Teprve v 70\. letech začala miniaturizace procesů, které dříve byly velké jako místnost 
+- Nejdříve byly složeny z několika desítek nebo stovek integrovaných obvodů, když se pak podařilo umístit základní obvody procesoru do jediného integrovaného obvodu, vznikl mikroprocesor 
 
 Typy procesorů – historie  
 
@@ -1482,7 +1480,7 @@ Typy procesorů – historie  
 
 - Intel 4004 \(první 4 bitový mikroprocesor\) 
 - Intel 8080 \(8 bitový mikroprocesor, který se stal základem prvních 8 bitových osobních PC\) 
-- Intel 8086 \(16 bitový mikroprocesor, první z architektury x86\) 
+- Intel 8086 \(16 bitový mikroprocesor, první z architektury x86\) 
 - Pentium Pro a Pentium II \(Nové výkonnější jádro P6\) 
 - Pentium 4 \(nový design, architektura NetBurst, nová instrukční sada SSE2, Hyper\-threading \(technologie umožňující se procesoru tvářit jako 2 logické procesory\) 
 - Core 2 Duo a Quad \(nová architektura Core, méně se zahřívají, jsou celkově rychlejší\) 
@@ -1518,32 +1516,32 @@ __Počítačový virus__ je program, který může infikovat jiné programy tím
 
 1983 – poprvé definován počítačový vir – MS DOS 
 
-  
+  
 
 __Funkce:__ vkládá sebe do jiných programů, následně provádí většinou škodlivou činnost\. 
 
-  
+  
 
 __Vlastnosti virů__ 
 
 - Ve většiny případů nemohou poškodit HW počítače 
 
-  
+  
 
-__Projevy PC virů __ 
+**Projevy PC virů**  
 
 - Zpomalení systému 
 - Destrukce dat 
 - Znemožněná činnosti OS 
 - Selhání vybavení 
-- Využití PC v síti botnetu\(zombie\)  
+- Využití PC v síti botnetu\(zombie\)  
 	- Zombie \- počítač připojený k Internetu a který je napaden 
 	- může být použit pro další počítačové útoky\.  
 	- Mnoho zombie počítačů může tvořit síť nazvanou botnet 
 		- slouží k rozesílání spamu na email a též k zahlcení cílového serveru\.  
 		- Mnoho vlastníků těchto nakažených počítačů mnohdy ani neví, že je jejich počítač zombie\. 
 
-  
+  
 
 __Pojmenování PC virů__ 
 
@@ -1578,9 +1576,9 @@ __Základní dělení virů__ 
 
 - __Trojské koně__ 
 	- Není schopen sebe\-replikace a infekce souborů, slouží jako nositel viru\. Většinou spustitelný \.exe soubor\. 
-	- __Keylogge__r – sledování \(záznam\) znaků zadávaných z klávesnice \(Krádeže hesel\) 
+	- **Keylogger** – sledování \(záznam\) znaků zadávaných z klávesnice \(Krádeže hesel\) 
 	- __Spyware__ – sleduje uživatele a jeho zvyklosti při surfování na Internetu a posílá o tom zprávy 
-	- __Backdoo__r – trojský kůň obsahuje síťovou službu, kterou může útočník použít pro získání přístupu do systému přes počítačovou síť 
+	- **Backdoor** – trojský kůň obsahuje síťovou službu, kterou může útočník použít pro získání přístupu do systému přes počítačovou síť 
 		- Zadní vrátka 
 		- Client\-Server virus 
 		- \(typicky skrytá\) metoda vstupu do programu nebo počítačového systému\. 
@@ -1593,7 +1591,7 @@ __Základní dělení virů__ 
 	- Nešíří se ve formě infikovaných souborů, ale síťových packetů\. \(většinou jako příloha e\-mailu\)\. 
 	- __Techniky možného šíření__ 
 		- Dvojtá přípona \(např\. \.PCX\.EXE \- Windows zpravidla zobrazí pouze první, takže uživatel si myslí, že se jedná o obrázek \(\.PCX\), ne spustitelný soubor \(\.EXE\)  
-		- HTML scripty, které zajišťují automatické spuštění přílohy\. Proti červům se můžete chránit nastavením vyšší úrovně bezpečnosti ve vašem e\-mailovém klientovi\. Novější verze e\-mailových klientů mají tuto bezpečnější úroveň již nastavenou\.__ __ 
+		- HTML scripty, které zajišťují automatické spuštění přílohy\. Proti červům se můžete chránit nastavením vyšší úrovně bezpečnosti ve vašem e\-mailovém klientovi\. Novější verze e\-mailových klientů mají tuto bezpečnější úroveň již nastavenou\.  
 - __Logic bomb__ 
 	- je škodlivý software zanesený do počítačové infrastruktury \(typicky podnikové sítě\) s cílem spustit nežádoucí činnost poté, co nastanou předem definované „události“\.  
 	- __Rozbuška__ je algoritmus navázaný na sledování určité události\. Časté jsou časové bomby, trojští koně, kteří spouštějí bomby vázané na určitá výročí, významné dny \(1\. dubna – Apríl\) apod\. Jindy může jít o určitý počet dní od proniknutí do systému, objem dat v podnikové databázi, počet souborů na disku apod\. Podmínkou fungování bomby je, aby její rozbuška byla spolehlivě spouštěna a tak mohla sledovat výskyt události a spustit samotnou akci\. 
@@ -1623,7 +1621,7 @@ __Základní dělení virů__ 
 	- \(kombinace boot a souborových\)\. 
 	- Dokáží infikovat nejen Partition tabulku pevného disku, ale i spustitelné soubory\. 
 	- Mohou použít libovolný postup souborové infekce 
-	- Jediná technicky poněkud obtížnější pasáž spočívá v tom, že multipartitní virus se po svém zavedení ze systémové oblasti do paměti musí chvíli chovat trpělivě – počkat, až bude dokončeno zavádění operačního systému a teprve poté převzít kontrolu nad "vyšší úrovní" služeb\.  
+	- Jediná technicky poněkud obtížnější pasáž spočívá v tom, že multipartitní virus se po svém zavedení ze systémové oblasti do paměti musí chvíli chovat trpělivě – počkat, až bude dokončeno zavádění operačního systému a teprve poté převzít kontrolu nad "vyšší úrovní" služeb\.  
 
 __*Citace*__ 
 
@@ -1653,7 +1651,7 @@ __*Autorská Práva*__ 
 - Je možno udělit licencí na používání licencovaných děl 
 - Ochrana autorským právem je často symbolizována znakem následováno jménem autora a rokem\. 
 
-  
+  
 
 __*Software*__ 
 
@@ -1663,7 +1661,7 @@ __Softwarové licence__ 
 - Softwarové licence jsou komplikované, jejich výběr si vybírá autor software\. 
 - Často se používá forma EULA, která umožňuje použít před\-vytvořenou licenci a autor software ji může libovolně upravovat\. 
 
-  
+  
 
 __Druhy licencí softwaru vývojář__ 
 
@@ -1690,7 +1688,7 @@ __Public domain__ 
 
 __Lite verze a demoverze__ 
 
-- Funkčně omezená verze programu, nejčastěji se setkáváme s demoverzemi her 
+- Funkčně omezená verze programu, nejčastěji se setkáváme s demoverzemi her 
 
 __GPL__ 
 
@@ -1706,11 +1704,11 @@ __Freeware__ 
 
 __Plná verze zdarma__ 
 
-- Nepleťte si tyto programy s freeware, tento software nelze volné šíčit, jedná se o neomezené komerční programy\. 
+- Nepleťte si tyto programy s freeware, tento software nelze volné šíčit, jedná se o neomezené komerční programy\. 
 
 __Adware__ 
 
-- Programy bývají zdarma, ovšem v programu se zobrazuje reklama \(většinou stahována z internetu\)\. 
+- Programy bývají zdarma, ovšem v programu se zobrazuje reklama \(většinou stahována z internetu\)\. 
 
 9\) Operační systém \(vysvětlení pojmu, druhy, architektura OS \(i s nákresy\)\) 
 
@@ -1723,12 +1721,12 @@ Systémový správce prostředků 
 - OS tvoří podmnožinu softwarů 
 - Základní programové vybavení počítače 
 - Zaveden při startu počítače do paměti 
-- Zůstává v běhu do jeho vypnutí 
+- Zůstává v běhu do jeho vypnutí 
 - Podstatě __program, který nám umožňuje počítač ovládat__ 
 - Tvoří rozhraní mezi aplikačními \(uživatelskými\) programy a hardwarem 
 - Vývoj je mnohem složitější a náročnější než vývoj obyčejných programů 
 
-  
+  
 
 Rutina 
 
@@ -1736,15 +1734,15 @@ Rutina 
 
 Proces 
 
-- Je instan__cí__ programu 
+- Je instan**cí** programu 
 - Proces vzniká první vykonanou instrukcí a končí úplně poslední 
 
 *Vlastnosti* 
 
-- Každá rutina výpočetního systému, může být vykonávána pouze v rámci procesu i několika procesy 
+- Každá rutina výpočetního systému, může být vykonávána pouze v rámci procesu i několika procesy 
 - Jednu rutinu mohou vykonávat dva procesy najednou  
 - Multitasking – střídání procesů 
-- Ve výpočetním systému musí v každém okamžiku existovat alespoň jeden proces 
+- Ve výpočetním systému musí v každém okamžiku existovat alespoň jeden proces 
 - První vzniklý proces je bootovací proces 
 - Ostatní procesy vznikají na úkor bootovacího procesu 
 - Procesy vznikají jako reakce na požadavek jiného procesu \(rodičovského\) – výjimka je bootovací proces 
@@ -1752,13 +1750,13 @@ Proces 
 Paměťový region \(paměťová buňka\) 
 
 - Souvisle adresovaná oblast paměti přidělena procesoru  
-- Může k němu přistupovat více procesů najednou 
+- Může k němu přistupovat více procesů najednou 
 
 OS jako správce 
 
 - Hlavní účel této správy spočívá ve vytváření přesně definovaného a bezpečného prostředí pro procesy, a to ve dvou následujících těsně provázaných směrech: 
 	1. __Vytvoření tzn\. Virtuálního PC__ – rutiny OS vytvářejí jednotné rozhraní, které skrývá jemné rozdíly na úrovni fyzických zařízení, toto jednotné rozhraní má charakter virtuálního PC 
-	2. __Nezávislost jednotlivých procesů__ – pro každý proces běžící v rámci OS musí rutiny OS vytvářet iluzi, že je jediným procesem, který kdy běžel, běží a bude běžet v rámci dané instance OS 
+	2. __Nezávislost jednotlivých procesů__ – pro každý proces běžící v rámci OS musí rutiny OS vytvářet iluzi, že je jediným procesem, který kdy běžel, běží a bude běžet v rámci dané instance OS 
 
 Správa prostředků 
 
@@ -1796,8 +1794,8 @@ __Systémový pohled__ 
 
 - OS je tvořen množinou rutin 
 - Na základě vzájemného volání lze rutiny organizovat do několika vrstev 
-- Nejnižší leží vrstva rutin, které přímo přistupují k hardwaru 
-- Rutina by správně měla komunikovat pouze s vrstvou, která je buď hned nad ní, anebo pod ní 
+- Nejnižší leží vrstva rutin, které přímo přistupují k hardwaru 
+- Rutina by správně měla komunikovat pouze s vrstvou, která je buď hned nad ní, anebo pod ní 
 - Každý vrstva nabízí vyšším vrstvám přesně definované rozhraní 
 
 Typy operačních systémů 
@@ -1805,21 +1803,21 @@ Typy operačních systémů 
 OS koncových uživatelů 
 
 - Osobní operačn systémy využívající uživatelé běžných PC nebo mobilních zařízení 
-- Dominantní OS je Microsoft Windows s podílem na trhu přibližně \(83%\) 
+- Dominantní OS je Microsoft Windows s podílem na trhu přibližně \(83%\) 
 - MacOC společnosti Apple INC\. Je na druhém místě \(11%\) 
 - Varianty Linuxu jsou na třetím místě \(1,5%\) 
 
 OS serverů a superpočítačů 
 
-- V superpočítačích a velkokapacitních serverech 
+- V superpočítačích a velkokapacitních serverech 
 - Používán operační systém Linux \(používán pro svou bezpečnost a spolehlivost\) 
 
-  
+  
 
 Jádro OS 
 
-- Patří sem rutiny, které bezprostředně přistupují k hardwaru počítače 
-- Tyto rutiny zajišťují tzv\. virtualizaci, nezbytnou k zajištění nezávislosti jednotlivých procesů 
+- Patří sem rutiny, které bezprostředně přistupují k hardwaru počítače 
+- Tyto rutiny zajišťují tzv\. virtualizaci, nezbytnou k zajištění nezávislosti jednotlivých procesů 
 - Obsahuje rutiny zajišťující základní logické prostředky 
 
 Architektura OS 
@@ -1831,9 +1829,9 @@ Dělení dle úrovně spolupráce rutin 
 
 - Všechny se doplňují 
 
-  
+  
 
-1. __Monolitické__ – s těsným propojením rutin 
+1. __Monolitické__ – s těsným propojením rutin 
 2. __Hierarchické__ \(vrstevnaté\) – spolupráce rutin omezena hierarchicky  
 3. __Klient\-Server__ – plně distribuované  
 
@@ -1845,11 +1843,11 @@ Druhy architektur 
 - Výhoda je jednoduchost 
 - Dnes se již nepoužívají nahrazeny jinými architekturami  
 
-  
+  
 
 ((obrázek vynechán))
 
-  
+  
 
 - Jádro tvořeno souborem rutin \(R1, R2, R3 atd\.\) 
 
@@ -1858,17 +1856,17 @@ Rozhraní jádra 
 - Využívají ho systémové procesy i běžné aplikace 
 - Chrání aplikace 
 - Často provázeno i změnou režimu privilegovanosti procesoru, neboť jedině tak zle jádro ochránit před destruktivním chováním aplikace  
-	- __Neprivilegovaná režim \(uživatelský\)__ –přistupuje pouze k části OP a nesmí provést privilegované instrukce 
+	- __Neprivilegovaná režim \(uživatelský\)__ –přistupuje pouze k části OP a nesmí provést privilegované instrukce 
 	- __Privilegovaný režim \(systémový\)__ – Režim jádra, vykonávají se rutiny jádra\. Neomezený přístup do operační paměti 
 - __Příklad__ OS: MS DOS, Solaris, Windows ME 
 
 *Hierarchické OS* 
 
 - Typická pro OS 
-- V dnešní době neexistuje OS, který by neobsahoval rysy hierarchické architektury __\(UNIX\)__ 
+- V dnešní době neexistuje OS, který by neobsahoval rysy hierarchické architektury __\(UNIX\)__ 
 - Rutiny OS jsou uspořádány do vrstev, postupně obalují HW a nabízejí vyšším vrstvám pevně definované rozhraní 
 - Systém vyžaduje, aby rutiny každé vrstvy přímo volali pouze vrstvy bezprostředně nižší  
-- Nelze z cela dodržet \-> setkáváme se i s přímým voláním hlouběji zanořených rutin  
+- Nelze z cela dodržet \-> setkáváme se i s přímým voláním hlouběji zanořených rutin  
 
 ((obrázek vynechán))
 
@@ -1877,7 +1875,7 @@ Pojmy 
 - __API__ – rozhraní pro volání systémových služeb \(vrstva funkcí\) 
 - __HAL__ – uvnitř OS, vytvářena mezivrstva, která usnadňuje programování ovladačů jednotlivých zařízení 
 - __Virtualizátor paměti__ – simulace HW ve virtuálním světě 
-- __Přepínač kontextů __ 
+- **Přepínač kontextů**  
 - __Dispečer systémových služeb__ – řídí provoz  
 
  
@@ -1886,17 +1884,17 @@ Pojmy 
 
 - Snižuje výkon systému, relativně pomalá 
 - Omezená konkurence schopná  
-- Hlavní změnou proti hierarchickému modelu \-> vyčleňuje všechny „zbytečné“ rutiny z jádra do specializovaných systémových procesů – serverů  
-- V jádře zůstávají pouze zcela nezbytné rutiny pro virtualizaci paměti, přepínání kontextů a komunikaci procesů 
+- Hlavní změnou proti hierarchickému modelu \-> vyčleňuje všechny „zbytečné“ rutiny z jádra do specializovaných systémových procesů – serverů  
+- V jádře zůstávají pouze zcela nezbytné rutiny pro virtualizaci paměti, přepínání kontextů a komunikaci procesů 
 - Osekané jádro se jmenuje mikrojádro – nabízí ostatním procesům pouze základní funkce, vše ostatní zajišťují servery 
 - Počet serverů je neomezený  
 
- 
+ 
 
 Klient\-server vs hierarchická 
 
 - Klient\-server je osekaná verze hierarchické  
-- Potřebné věci zůstávají v mikrojádře a vše ostatní jde na server 
+- Potřebné věci zůstávají v mikrojádře a vše ostatní jde na server 
 
 ((obrázek vynechán))
 
@@ -1966,14 +1964,14 @@ Pokud není volná je požadavek odmítnut => __s fatálními důsledky pro proc
 
 - strategie statických bloků umožňuje souběžnou existenci více procesů i bez odkládání do sekundární paměti 
 - počet souběžně existujících procesů je omezen počtem bloků 
--  hlavní nevýhodou je malá pružnost systému alokace, jsou\-li požadavky v rozporu s velikostní strukturou bloků, roste nevyužitá paměť 
+-  hlavní nevýhodou je malá pružnost systému alokace, jsou\-li požadavky v rozporu s velikostní strukturou bloků, roste nevyužitá paměť 
 
  
 
 1. Dynamické bloky 
 
 - Aplikační paměť lze i rozdělit na bloky, jejichž velikost se dynamicky přizpůsobuje procesů 
-- V počátečním stavu \( před alokací 1 regionu\) tvoří ap\.  Adresový prostor jediný volný blok\. 
+- V počátečním stavu \( před alokací 1 regionu\) tvoří ap\.  Adresový prostor jediný volný blok\. 
 
 Strategie alokace: 
 
@@ -2060,9 +2058,9 @@ Virtualizátor 
 - Pro správu log\.paměti lze použít libovolnou dříve uvedenou strategii\. Díky charakteru log\. Paměti se většina nevýhod těchto typů správy minimalizuje či dokonce eliminuje\. 
 - Fragmentace LAP je nepříjemná ale méně nebezpečná | \(rozsah log\. Prostoru je řádově větší a navíc je užíván jen jedním procesem\) 
 
-  
+  
 
-  
+  
 
 Stránkování \(Paging\) 
 
@@ -2086,13 +2084,13 @@ Pojmy 
 - __Neplatná stránka__ – nemá přidělený rámec \(fyzickou adresu\) 
 - __Volné rámce__ – nepřidělená LAP 
 
-  
+  
 
 ((obrázek vynechán))
 
  
 
-  
+  
 
 Překlad adres 
 
@@ -2101,14 +2099,14 @@ Překlad adres 
 	2. __Druhá__ obsahuje adresu paměťového místa \(stránkový offset\) 
 2. Tabulka stránek určí číslo rámce podle pořadí stránky 
 3. Tabulka obsahuje položky, které jsou indexovány a obsahují číslo rámce a skupinu příznaků 
-4. Poté v tabulce stránek si logická stránka najde volný rámec, která se pozná podle VF \(Validity Flag\) a bitovým posunutím vlevo získá báze rámce 
-5. Mezitím se stránkový offset rozšíří na 32 bitu a sečtením offsetu s bází rámce získáme skutečnou fyzickou adresu 
-6. __VF \(Validity Flag\)__ –__ __příznak platnosti 
+4. Poté v tabulce stránek si logická stránka najde volný rámec, která se pozná podle VF \(Validity Flag\) a bitovým posunutím vlevo získá báze rámce 
+5. Mezitím se stránkový offset rozšíří na 32 bitu a sečtením offsetu s bází rámce získáme skutečnou fyzickou adresu 
+6. __VF \(Validity Flag\)__ – příznak platnosti 
 7. __DF \(Dirty Flag\)__ – příznak zápisu do stránky \- říká zda data byla změněna \(rámec obsahuje jiná data než jeho obraz na swapu\) 
 
  
 
-  
+  
 
 ((obrázek vynechán))
 
@@ -2116,16 +2114,16 @@ Překlad adres 
 
  
 
-  
+  
 
 Výpadek stránky 
 
-1. Výpadek stránky nastane, pokud proces přistoupí k neplatné stránce 
-2. Výpadek stránky \(výjimka\) – přeruší instrukci a předá řízení obslužné rutině v jádře systému, tato rutina má dvě možnosti, jak zareagovat: 
-	1. __Najde volný rámec__ – nalezne odpovídající fyzický rámec a zajistí jeho propojení s logickou stránkou a tu následně splatní \(v tabulce stránek se uloží index rámce a nastaví se bit platnosti \(VF\)\) 
+1. Výpadek stránky nastane, pokud proces přistoupí k neplatné stránce 
+2. Výpadek stránky \(výjimka\) – přeruší instrukci a předá řízení obslužné rutině v jádře systému, tato rutina má dvě možnosti, jak zareagovat: 
+	1. __Najde volný rámec__ – nalezne odpovídající fyzický rámec a zajistí jeho propojení s logickou stránkou a tu následně splatní \(v tabulce stránek se uloží index rámce a nastaví se bit platnosti \(VF\)\) 
 	2. __Ukončí proces__ – pošle se výjimka WIN 32 
-3. O tom, jak obslužná rutina zareaguje, rozhoduje umístění logické stránky v LAP 
-4. \(Pokud dostane rámec, už ho má a není neplatná a v budoucnu nezpůsobí výpadek\) 
+3. O tom, jak obslužná rutina zareaguje, rozhoduje umístění logické stránky v LAP 
+4. \(Pokud dostane rámec, už ho má a není neplatná a v budoucnu nezpůsobí výpadek\) 
 
 Zjednodušeně 
 
@@ -2140,25 +2138,25 @@ Zjednodušeně 
 
 Stránkování na žádost 
 
-- Neplatné stránky \(__panenské stránky__\) – nikdo do nich nebylo zapisováno, proces k nim nepřistoupil \(jsou v LAP\) 
+- Neplatné stránky \(__panenské stránky__\) – nikdo do nich nebylo zapisováno, proces k nim nepřistoupil \(jsou v LAP\) 
 - Základním principem je tzv\. lenivé vykonávání 
-- __Lenivé vykonávání__ – vše je provedeno až v okamžiku, kdy je toho skutečně třeba 
-- Po přidělení regionu jsou všechny stránky neplatné a platnými se stávají, až v prvním přístupu k nim 
-- Fyzická paměť je procesoru přidělována až v okamžiku, kdy ji skutečně potřebuje 
-- Vyřešení výpadku při přístupu k panenské stránce záleží na druhu regionu, ke kterému tato panenská stránka náleží 
+- __Lenivé vykonávání__ – vše je provedeno až v okamžiku, kdy je toho skutečně třeba 
+- Po přidělení regionu jsou všechny stránky neplatné a platnými se stávají, až v prvním přístupu k nim 
+- Fyzická paměť je procesoru přidělována až v okamžiku, kdy ji skutečně potřebuje 
+- Vyřešení výpadku při přístupu k panenské stránce záleží na druhu regionu, ke kterému tato panenská stránka náleží 
 
-V kódovém regionu 
+V kódovém regionu 
 
 - Musí být nalezen volný rámec, pokud není musí jej ukrást 
-- Rámec se propojí s logickou stránkou a splatní se \(nastaví se bit platnosti v tabulce stránek\) 
+- Rámec se propojí s logickou stránkou a splatní se \(nastaví se bit platnosti v tabulce stránek\) 
 - Obnoví se instrukce, u které proces skončil 
 
-V datovém regionu 
+V datovém regionu 
 
-- Reakce se liší v závislosti na požadované počáteční hodnotě daného paměťového místa 
-	1. __Na počáteční hodnotě nezáleží__, stačí logickou stránku propojit s libovolným rámcem a logickou stránku splatnit 
-	2. __Pokud je požadována 0 hodnota,__ je použit podobný přístup jako v předchozím případe, pouze při vyhledávání rámce jsou preferovány rámce, které jsou vyplněny pouze nulovou hodnotou\. Pokud se nenajde, vezme systém za vděk libovolný volný rámec, který před svým připojením vynuluje 
-	3. Stránky na pozicích statických proměnných s nenulovou počáteční hodnotou \(jsou uloženy ve spustitelném souboru, kde tvoří zvláštní datový blok\. Při výpadku je vzat volný rámec, do něj je zkopírována odpovídající část spustitelného souboru a následně je rámec s danou logickou stránkou propojen 
+- Reakce se liší v závislosti na požadované počáteční hodnotě daného paměťového místa 
+	1. __Na počáteční hodnotě nezáleží__, stačí logickou stránku propojit s libovolným rámcem a logickou stránku splatnit 
+	2. __Pokud je požadována 0 hodnota,__ je použit podobný přístup jako v předchozím případe, pouze při vyhledávání rámce jsou preferovány rámce, které jsou vyplněny pouze nulovou hodnotou\. Pokud se nenajde, vezme systém za vděk libovolný volný rámec, který před svým připojením vynuluje 
+	3. Stránky na pozicích statických proměnných s nenulovou počáteční hodnotou \(jsou uloženy ve spustitelném souboru, kde tvoří zvláštní datový blok\. Při výpadku je vzat volný rámec, do něj je zkopírována odpovídající část spustitelného souboru a následně je rámec s danou logickou stránkou propojen 
 
 Zásobníkový region 
 
@@ -2167,22 +2165,22 @@ Zásobníkový region 
  
 
 - __Strážce zásobníku__ – může zvětšovat datový a zásobníkový region 
-- V oblasti paměti jádra jsou za běhu panenské stránky spíše výjimkou, většina je využita ve fázi bootování\. Nebo jsou pevně vázány na rámec \(nemohou být ukradeny\) 
+- V oblasti paměti jádra jsou za běhu panenské stránky spíše výjimkou, většina je využita ve fázi bootování\. Nebo jsou pevně vázány na rámec \(nemohou být ukradeny\) 
 
 ((obrázek vynechán))
 
-  
+  
 
 Jak si ukrást stránku 
 
-- V OP není nikdy dost volných rámců, a tak je systém nucen odebírat rámce procesům 
+- V OP není nikdy dost volných rámců, a tak je systém nucen odebírat rámce procesům 
 - __Tabulka rámců__ – je prohledávána virtualizátorem, popisuje stavy \(volný, obsazený a pozice na SWAPU\) 
 
 Fáze kradení stránek 
 
 1. __Nalezneme volný rámec__ 
 	- Virtualizátor si udržuje informace o využití všech rámců 
-	- Každá položka v tabulce rámců je prohledána, pokud není nalezen volný rámec je zahájeno kradení rámce 
+	- Každá položka v tabulce rámců je prohledána, pokud není nalezen volný rámec je zahájeno kradení rámce 
 2. __Vytipování vhodného rámce__ 
 	- Rámec, jehož ukradení by co nejméně zpomalilo systém 
 3. __Uložení obsahu vytipovaného rámce do SWAPu__ 
@@ -2191,18 +2189,18 @@ Fáze kradení stránek 
 	- Má\-li zvolený rámec svůj obraz na SWAPu \(byl již ukraden\), je do něj umístěn 
 	- __Dirty bit__ – říká zda data byla změněna \(rámec obsahuje jiná data než jeho obraz na swapu\) 
 4. __Zneplatnění logické stránky, která daný rámec obsahovala__ 
-	- Po uložení rámce na disk, proces zneplatní logickou stránku, s níž byl rámec propojen 
-	- Nyní, když je stránka volná, může být propojena s logickou stránkou, jejíž výpadek proces odstartoval  
+	- Po uložení rámce na disk, proces zneplatní logickou stránku, s níž byl rámec propojen 
+	- Nyní, když je stránka volná, může být propojena s logickou stránkou, jejíž výpadek proces odstartoval  
 
 - __Thrashing__ – systém neustále swapuje na disk a procesy stojí 
 
-  
+  
 
 ((obrázek vynechán))
 
-  
+  
 
-  
+  
 
 Zloděj stránek 
 
@@ -2223,16 +2221,16 @@ Lokální strategie FIFO 
 
 Sdílená paměť 
 
-- Doteď se předpokládalo, že každý region paměti je vlastněn pouze jedním procesem a že každý rámec OP je nanejvýš propojen s jednou logickou stránkou 
-- Virtualizace paměti umožňuje realizaci, tzv\. sdílených pamětí – fyzický adresový prostor je přístupný z několika LAP 
+- Doteď se předpokládalo, že každý region paměti je vlastněn pouze jedním procesem a že každý rámec OP je nanejvýš propojen s jednou logickou stránkou 
+- Virtualizace paměti umožňuje realizaci, tzv\. sdílených pamětí – fyzický adresový prostor je přístupný z několika LAP 
 - Na jeden rámec FAP se může připojit více stránek LAP 
 - Fyzický paměťový prostor – \(SWAP \+ FAP\)  
-- Sdílení obsahu tabulky stránek, tj\. položky tabulky stránek příslušnému danému bloku obsahují v obou LAP shodné údaje \(i v tabulce na SWAPU, v tabulce rámců\) 
-	1. __Princip konzistence__ – všechny procesy musí mít v každém okamžiku stejný obraz paměti 
+- Sdílení obsahu tabulky stránek, tj\. položky tabulky stránek příslušnému danému bloku obsahují v obou LAP shodné údaje \(i v tabulce na SWAPU, v tabulce rámců\) 
+	1. __Princip konzistence__ – všechny procesy musí mít v každém okamžiku stejný obraz paměti 
 	2. __Princip lenivého vykování__ – vše je provedeno až tehdy, kdy je to opravdu třeba 
-- Např\. pokud dojde k ukradení rámce, musí být zneplatněny všechny logické stránky sdílející daný rámec 
-- Naopak pokud dojde ke splatnění stránky v rámci výpadku stránky způsobené jedním z procesů, stačí když je splatněna jen ta jediná výpadkem dotčená logická stránka 
-- Kódový region je sdíleným a v každém případě se šetří odkládací prostor a urychluje se běh aplikací 
+- Např\. pokud dojde k ukradení rámce, musí být zneplatněny všechny logické stránky sdílející daný rámec 
+- Naopak pokud dojde ke splatnění stránky v rámci výpadku stránky způsobené jedním z procesů, stačí když je splatněna jen ta jediná výpadkem dotčená logická stránka 
+- Kódový region je sdíleným a v každém případě se šetří odkládací prostor a urychluje se běh aplikací 
 
 Využití 
 
@@ -2241,7 +2239,7 @@ Využití 
 Dočasně sdílená paměť \(Copy On Write\) 
 
 - Více stránek je propojeno na jeden rámec 
-- Je dáno že z něj mohou pouze číst 
+- Je dáno že z něj mohou pouze číst 
 - Pokud se jedna ze stránek pokusí zapsat do rámce data je jí to odepřeno 
 - Najde se jí rámec, propojí se sním, spojení se starým rámec je zrušeno a tam poté už zapisuje svá data 
 
@@ -2250,13 +2248,13 @@ Dočasně sdílená paměť \(Copy On Write\) 
 Proces 
 
 - Proces patří mezi základní prostředky všech OS 
-- Proces popisujeme z různých pohledů, které se navzájem doplňují 
-- Je instan__cí__ programu 
+- Proces popisujeme z různých pohledů, které se navzájem doplňují 
+- Je instan**cí** programu 
 - Proces vzniká první vykonanou instrukcí a končí úplně poslední 
 
 Vlastnosti procesu 
 
-- Každá rutina výpočetního sytému, může být vykonávána pouze v rámci procesu i několika procesy 
+- Každá rutina výpočetního sytému, může být vykonávána pouze v rámci procesu i několika procesy 
 - Jednu rutinu mohou vykonávat dva procesy najednou, __multitasking__ – střídání procesů 
 - První proces je bootovací 
 - Proces vzniká vždy na popud jiného procesu, výjimkou je bootovací 
@@ -2281,15 +2279,15 @@ Systémový pohled 
 - Udržuje informace o užívaných prostředcích a jejich stavech 
 - Důležitou vlastností procesu je jeho jednoznačná identifikace, mezi všemi ostatními procesy 
 
-  
+  
 
 Kontext procesu 
 
-- Souhrn stavů všech prostředků OS, které proces v danou chvíli využívá 
+- Souhrn stavů všech prostředků OS, které proces v danou chvíli využívá 
 - __DETERMINISMUS__ – procesy jsou ovlivňovány budoucími procesy 
 - Patří sem všechny prostředky, jejichž změna mimo proces by vedla ke změně chování programu 
 - Do kontextu může patřit – procesor, kódový region, zásobník, paměť 
-- Kontext se musí ukládat i obnovovat v rámci přepínání procesů při multitaskingu, a to by mohlo trvat poněkud dlouho 
+- Kontext se musí ukládat i obnovovat v rámci přepínání procesů při multitaskingu, a to by mohlo trvat poněkud dlouho 
 	- __Řešení – Vyhražený prostředek__ 
 
 Vyhražený prostředek 
@@ -2311,9 +2309,9 @@ Strategie rozdělení sdílených prostředků 
 Strategie vyhrazených serverů 
 
 - Užívána u prostředků, které zle obtížně rozdělit 
-- V tomto případě se jeden z procesů stává výhradním vlastníkem prostředků 
+- V tomto případě se jeden z procesů stává výhradním vlastníkem prostředků 
 - Funkčnost je většinou ve formě fronty požadavků 
-- Příklad: správa tiskárny tiskovým serverem \(pouze proces serveru má přístup k tiskárně, další procesy musí využít nepřímý prostředek, tiskovou frontu\) 
+- Příklad: správa tiskárny tiskovým serverem \(pouze proces serveru má přístup k tiskárně, další procesy musí využít nepřímý prostředek, tiskovou frontu\) 
 
  
 
@@ -2321,15 +2319,15 @@ Multitasking 
 
 - Správa procesů, která umožňuje existenci více nezávislých procesů najednou  
 - Vytváří iluzi souběžného běhu 
-- Umožňuje existenci více nezávislých procesů v jednom okamžiku 
-- Dochází k rychlé výměně procesů \(milisekundy\), což vytváří iluzi souběžného běhu více procesů i na jedno procesorových strojích 
+- Umožňuje existenci více nezávislých procesů v jednom okamžiku 
+- Dochází k rychlé výměně procesů \(milisekundy\), což vytváří iluzi souběžného běhu více procesů i na jedno procesorových strojích 
 
 Vzájemné volání procesů 
 
 - Systém, který využívá jen vzájemného volání je zastaralý 
 - Postup vzájemného volání: 
 	- Na začátku existuje jeden proces bootovací 
-	- Nový proces může vzniknout pouze v rámci volání služby jádra tímto procesem 
+	- Nový proces může vzniknout pouze v rámci volání služby jádra tímto procesem 
 	- Volání pozastaví aktuální proces, uloží jeho kontext a vytvoří počáteční kontext nového procesu, kterému následně předá řízení 
 	- Nyní běží jen ten nový proces, který po jisté době zavolá službu EXIT, aby byl ukončen 
 
@@ -2341,34 +2339,34 @@ Druhy multitaskingu 
 
 Kooperativní multitasking 
 
-- K výměně procesů nedochází pouze na požádání běžícího procesu, ale vždy když aktuální proces nemůže pokračovat v běhu \(čeká na nějakou podmínku, stisk klávesy atd\.\) 
-- Proces se vzdá dobrovolně procesoru jen tehdy pokud ho v danou chvíli nepotřebuje  
+- K výměně procesů nedochází pouze na požádání běžícího procesu, ale vždy když aktuální proces nemůže pokračovat v běhu \(čeká na nějakou podmínku, stisk klávesy atd\.\) 
+- Proces se vzdá dobrovolně procesoru jen tehdy pokud ho v danou chvíli nepotřebuje  
 - Systém musí zajistit, že běh procesu bude obnoven poté co se splní podmínka 
-- To vede k následujícím požadavkům na OS: 
-	1. K výměně procesů může docházet jen ve službách jádra 
+- To vede k následujícím požadavkům na OS: 
+	1. K výměně procesů může docházet jen ve službách jádra 
 	2. Speciální rutina zvaná dispečer, musí rozhodnout, který proces bude obnoven 
 	3. Systém musí řešit situaci, kdy není žádný proces schopný běhu \(všechny čekají na podmínku\) – spustí IDLE proces, jenž nekonečně volá dispečera  
 
 Dispečer 
 
 - Speciální rutina 
-- Rozhoduje, který z pozastavených procesů bude obnoven – dostane procesor 
+- Rozhoduje, který z pozastavených procesů bude obnoven – dostane procesor 
 
 IDLE proces 
 
-- V situaci, že neexistuje žádný proces, který by chtěl na procesor je zavolán IDLE proces 
-- IDLE proces volá v nekonečném cyklu dispečera 
+- V situaci, že neexistuje žádný proces, který by chtěl na procesor je zavolán IDLE proces 
+- IDLE proces volá v nekonečném cyklu dispečera 
 
 Výhody 
 
-- Pokud aplikace komunikuje s okolím a čeká na externí události \(stisk klávesy, pohyb myši\) 
+- Pokud aplikace komunikuje s okolím a čeká na externí události \(stisk klávesy, pohyb myši\) 
 
 Nevýhody 
 
 - Proces nemůže být násilně pozastaven 
-- Proces se může zacyklit a tím dojde k neohraničenému držení procesoru jedním procesem 
+- Proces se může zacyklit a tím dojde k neohraničenému držení procesoru jedním procesem 
 
-  
+  
 
 Preemptivní multitasking 
 
@@ -2376,15 +2374,15 @@ Preemptivní multitasking 
 - Přidělování procesoru probíhá na základě priorit procesů  
 - Proces může být zbaven procesoru i nedobrovolně 
 - Je nutná virtualizace paměti 
-- Proces může být v uživatelském režimu přerušen v libovolném okamžiku 
+- Proces může být v uživatelském režimu přerušen v libovolném okamžiku 
 - Odebírání procesů je spíše výjimkou, převládá zde kooperace 
 - preempce je jen tehdy pokud proces drží procesor příliš dlouho 
 
 Časovač 
 
 - Speciální hardwarové zařízení 
-- V pravidelných intervalech \(milisekund\) vyvolává externí přerušení 
-- Během externího přerušení může dojít k výměně procesů na procesoru 
+- V pravidelných intervalech \(milisekund\) vyvolává externí přerušení 
+- Během externího přerušení může dojít k výměně procesů na procesoru 
 
 Průběh 
 
@@ -2394,7 +2392,7 @@ Průběh 
 
 Další výměna procesů 
 
-1. K výměně může docházet z obsluhy přerušení jádra 
+1. K výměně může docházet z obsluhy přerušení jádra 
 2. Při vyvolání externím přerušením 
 
 Preempce 
@@ -2415,29 +2413,29 @@ Stavový diagram procesů 
 
  
 
-  
+  
 
 Stavy procesů 
 
 *New \[N\]* 
 
 - Nový proces 
-- Proces si alokuje paměťové regionu v LAP \(je mu přidělena paměť\) 
+- Proces si alokuje paměťové regionu v LAP \(je mu přidělena paměť\) 
 - Nový proces je vždy vytvářen jako požadavek jiného procesu 
 	- Na popud jiného procesu 
 	- Na základě požadavku uživatele 
 	- Na základně požadavku OS 
 - Rodičovský proces zavolá systémovou službu, pro vytvoření nového dětského procesu a rutiny této služby nový proces vytvoří  
-	- Vytvoření záznamu v tabulce procesů 
+	- Vytvoření záznamu v tabulce procesů 
 	- Alokace logických prostředků, především paměti 
-- Během celé této doby se proces nachází ve stavu __New \[N\]__ a v této chvíli není schopen běhu 
+- Během celé této doby se proces nachází ve stavu __New \[N\]__ a v této chvíli není schopen běhu 
 - Teprve po úplném vytvoření je proces přesunut do stavu __Waiting \[W\]__ a tím začíná jeho samostatná existence 
 - Oba procesy \(rodič i dítě\) jsou zcela nezávislé a nemají žádný zvláštní vztah 
 
 *Waiting \[W\]* 
 
 - Proces je připravený přejít do stavu __Running \[R\]__ 
-- Jsou zde procesy, které jsou připraveny na vykonání, ale musí čekat na procesor, který je v danou chvíli obsazen 
+- Jsou zde procesy, které jsou připraveny na vykonání, ale musí čekat na procesor, který je v danou chvíli obsazen 
 - Procesy ve stavu __Waiting__ jsou organizovány do jediné fronty FIFO 
 	- Fronta je prioritní \(s předbíháním\) 
 	- Hodnota <\-20,20> \(čím je nižší tím větší má proces prioritu\) 
@@ -2446,13 +2444,13 @@ Stavy procesů 
 
 *Running \[R\]* 
 
-- V jednoprocesorovém systému existuje právě jeden běžící proces 
-- Běžící proces může běžet buď v režimu: 
+- V jednoprocesorovém systému existuje právě jeden běžící proces 
+- Běžící proces může běžet buď v režimu: 
 	- Neprivilegovaným \(uživatelským\) 
 	- Privilegovaným \(jádra\) 
 - Proces tento stav může opustit: 
 	- __Dobrovolně__ \(vzdá se procesoru a přechází do stavu __Sleeping \[S\]__ – čeká na událost\) 
-	- __Nedobrovolně__ – procesor je mu odebrán a přechází do stavu __Waiting \[W\] __ 
+	- __Nedobrovolně__ – procesor je mu odebrán a přechází do stavu **Waiting \[W\]**  
 
 *Sleeping \[S\]* 
 
@@ -2465,13 +2463,13 @@ Stavy procesů 
 - Při přechodu do stavu __Sleeping__ \(zablokování procesu\) by měl proces využívat minimum dalších prostředků, aby je zbytečně neblokoval 
 - Ve stavu __Sleeping__ se může nacházet více procesů čekajících na stejný vyhrazený prostředek 
 - Pro uvolnění ze sleepingu existují dva mechanismy: 
-	- __Fronta čekajících procesů__ – procesy čekající na prostředek jsou stavěny do fronty a po uvolnění prostředků je pouze první z nich \(nejdéle čekající\) odblokován 
+	- __Fronta čekajících procesů__ – procesy čekající na prostředek jsou stavěny do fronty a po uvolnění prostředků je pouze první z nich \(nejdéle čekající\) odblokován 
 	- __Probuďte se a přebíhejte__ – probouzeny jsou všechny procesy a o tom, který proces získá rozhoduje absolutní priorita 
 
 *Zombie \[Z\]* 
 
 - Zombie neboli mátoha je finální stádium procesu 
-- Ze stavu __Zombie__ nevede cesta zpět a proces v něm zůstává až do svého úplného odstranění 
+- Ze stavu __Zombie__ nevede cesta zpět a proces v něm zůstává až do svého úplného odstranění 
 - Procesu jsou při přechodu do tohoto stavu odebrány všechny prostředky 
 
 Příčiny stavu Zombie \[Z\] 
@@ -2486,26 +2484,26 @@ Vražda 
 Sebevražda 
 
 - Běžící proces zavolá systémovou službu pro své ukončení \(většinou exit\) 
-- Je přesunut do stavu Zombie z Running 
+- Je přesunut do stavu Zombie z Running 
 - __\[R\] \-> exit \-> \[Z\]__ 
 
 Smrtelný úraz 
 
-- Chyba v kódu, proces provede instrukci, ke které nemá oprávnění atd\. 
+- Chyba v kódu, proces provede instrukci, ke které nemá oprávnění atd\. 
 - __\[R\] \-> úraz \-> \[Z\]__ 
 
-  
+  
 
-  ((obrázek vynechán))
+  ((obrázek vynechán))
 
 Vlákna 
 
 - Pro preemptivní systémy, je typická paralelnost na úrovni všech procesů 
-- Pokud proces čeká na klávesnici, může v nevyužitém čase provádět na pozadí pomocné operace 
+- Pokud proces čeká na klávesnici, může v nevyužitém čase provádět na pozadí pomocné operace 
 - Vlákna – obdoba procesů, sdílejí datový region, což usnadňuje jejich vzájemné působení, komunikují prostřednictvím globálních statických proměnných  
 - Vlákna mají svou aktuální instrukci a svůj programový zásobník a souběžně běží nad společnou pamětí  
 - Každý proces má své hlavní vlákno  
-- OS může na požádání vytvořit pro proces nové vlákno, které začne vykonávat část programu v souběhu s ostatními vlákny 
+- OS může na požádání vytvořit pro proces nové vlákno, které začne vykonávat část programu v souběhu s ostatními vlákny 
 
 Výhody 
 
@@ -2519,7 +2517,7 @@ Základní správa vláken 
 
 - Nejdůležitější operací je vytvoření vlákna a pak jeho spuštění 
 - Vytvoření vlákna se provádí přímím voláním specializované služby 
-- Vlákno končí svou činnost buď dosažením hlavní funkce nebo může být ukončeno z vnějšku stejně jako proces 
+- Vlákno končí svou činnost buď dosažením hlavní funkce nebo může být ukončeno z vnějšku stejně jako proces 
 - Pokud svou činnost končí hlavní vlákno, jsou ukončena i ostatní vlákna 
 
 13\) Synchronizace
@@ -2528,7 +2526,7 @@ Synchronizace 
 
 - Pro preemptivní multitasking je typická téměř úplná vzájemná nezávislost procesů 
 - Nezávislosti procesů dosáhneme tehdy, pokud striktně oddělíme prostředky užívány jednotlivými procesy 
-- Je ideální na uživatelské úrovni, a to výhradně u procesů, které s okolními procesy nikdy nekomunikují 
+- Je ideální na uživatelské úrovni, a to výhradně u procesů, které s okolními procesy nikdy nekomunikují 
 - U rutiny jádra, přistupují procesy ke sdíleným prostředkům – vzniká kolize 
 - Musíme oddělit prostředky, tak aby si procesy mysleli, že jsou jenom jejich 
 
@@ -2540,7 +2538,7 @@ Příklad komunikace mezi procesy 
 	1. Konzument čte dříve \(využije prostředek dříve, než tam jsou data\) 
 	2. Konzument čte dvakrát, či více tentýž data 
 	3. Producent přepíše data dříve, než je konzument přečte 
-	4. Náhodný souběh, dochází k souběhovým kolizím, obsahuje fragmentace více klíčů 
+	4. Náhodný souběh, dochází k souběhovým kolizím, obsahuje fragmentace více klíčů 
 
 Kritický kód 
 
@@ -2557,14 +2555,14 @@ Využití synchronizace 
 	2. __Vzájemné vyloučení__ – synchronizace musí zabránit současnému vykonání dvou kritických kódů\(dvou přístupů ke sdílenému prostředku\) 
 - Lze kombinovat oba typy synchronizace 
 
-  
+  
 
 Synchronizační prostředky 
 
 Obecný semafor 
 
-- Vhodný pro synchronizaci přístupu procesů k více prvkové množině prostředků 
-- Může přistupovat k více prostředkům na ráz 
+- Vhodný pro synchronizaci přístupu procesů k více prvkové množině prostředků 
+- Může přistupovat k více prostředkům na ráz 
 - Stavy nabývají hodnot \(0, …, MAX\), reprezentuje to počet volných prostředků  
 - MAX je neměnná konstanta daného semaforu, která je určena při jeho definici 
 - Obecný semafor je určen dvěma operacemi: 
@@ -2574,10 +2572,10 @@ Obecný semafor 
 
 Binární semafor 
 
-- Binární semafor přistupuje pouze k jednomu prostředku 
+- Binární semafor přistupuje pouze k jednomu prostředku 
 - Binární semafor je pouhým speciálním případem obecného semaforu 
 - Patří mezi nejdéle známe a používané synchronizační prostředky 
-- Aby se k prostředku \(na semafor\) dostal proces, volá neustále operaci, že chce prostředek 
+- Aby se k prostředku \(na semafor\) dostal proces, volá neustále operaci, že chce prostředek 
 - Hlavní výhodou je jednoduchá sémantika  
 - Nevýhodou je vyšší chybovost  
 - Binární semafor má dva stavy: 
@@ -2585,7 +2583,7 @@ Binární semafor 
 	- Zelená  
 - Binární semafor má dvě operace: 
 	- __WAIT__ – pokud je semafor ve stavu zelená, tak je prostředek volný, jakmile přijde proces, tak se semafor přepne na červenou\. Jiný proces čeká na zelenou, kterou způsobí stav  
-	- __SIGNAL__ – stav semaforu je přepnut na červenou, aby byl proces sám, pokud proces odchází z prostředku \(semaforu\), přepne semafor na zelenou  
+	- __SIGNAL__ – stav semaforu je přepnut na červenou, aby byl proces sám, pokud proces odchází z prostředku \(semaforu\), přepne semafor na zelenou  
 - Všechny operace musí být __ATOMICKÉ__ – bez přerušení, bez přepínání kontextu 
 
 Využití semaforu 
@@ -2593,7 +2591,7 @@ Využití semaforu 
 - Zajištění vzájemného vyloučení nad kritickým kódem \(Nepřistoupí dva procesy k jednomu prostředku naráz\) 
 - Lepší variantou je Mutex 
 
-  
+  
 
 Mutex \(Mutex Exclusion\) 
 
@@ -2601,7 +2599,7 @@ Mutex \(Mutex Exclusion\) 
 - Mutex je určen dvěma hodnotami: 
 	1. __Identifikací procesu__ 
 		- Identifikace procesu, který mutex drží  
-	2. __Počet uzamknutí mutexu __ 
+	2. **Počet uzamknutí mutexu**  
 		- Musí být celé nezáporné číslo 
 		- Nad nímž jsou definovány 2 atomické operace 
 			- __LOCK__ \(uzamčení mutexu\) 
@@ -2611,7 +2609,7 @@ Mutex \(Mutex Exclusion\) 
 			- __UNLOCK__ \(odemčneí/uvolnění mutexu\) 
 				- __Je\-li mutex volný__ – je chování nedefinováno  
 
-__Je\-li mutex vlastněn aktuálním procesem__ – zmenšuje se počet o 1 a je\-li poté nulový mutex uvolněn a jeden z čekajících procesů je odblokován  
+__Je\-li mutex vlastněn aktuálním procesem__ – zmenšuje se počet o 1 a je\-li poté nulový mutex uvolněn a jeden z čekajících procesů je odblokován  
 
  
 
@@ -2619,15 +2617,15 @@ __Je\-li mutex vlastněn aktuálním procesem__ – zmenšuje se počet o 1 a je
 	-
 		-
 			-
-				- __Je\-li mutex vlastněn jiným než aktuálním procesem__ – je chování nedefinováno, ale mutex není v žádném případě uvolněn  
+				- __Je\-li mutex vlastněn jiným než aktuálním procesem__ – je chování nedefinováno, ale mutex není v žádném případě uvolněn  
 		- Cílem je zabránění více procesům držet daný mutex  
 		- Při vícenásobném uzamknutí musí být i stejný počet odemknutí 
 		- Mutex je implementován na úrovni jádra \(__Atomičnost operací\)__ 
 
-Mutex v režimu jádra 
+Mutex v režimu jádra 
 
 - Zajištění vzájemného vyloučení nad kritickým kódem 
-- Výhodou je snazší použití, především v rozsáhlých projektech, dále možnost více násobného zamykání  
+- Výhodou je snazší použití, především v rozsáhlých projektech, dále možnost více násobného zamykání  
 
 Událost \(event\) 
 
@@ -2636,17 +2634,17 @@ Událost \(event\) 
 - Zajišťuje čekání na událost  
 - Je dosažitelný na uživatelské úrovni 
 - Nejčastější případ: 
-	- Spolupráce dvou procesů, z nichž jeden musí čekat, dokud není splněna podmínka, jejíž pravdivost je ovlivňována druhým procesem 
+	- Spolupráce dvou procesů, z nichž jeden musí čekat, dokud není splněna podmínka, jejíž pravdivost je ovlivňována druhým procesem 
 
 Uváznutí 
 
-- Problematická místa veškeré synchronizace – __trvalé zablokování procesů, při chybném použití synchronizačních prostředků __ 
+- Problematická místa veškeré synchronizace – **trvalé zablokování procesů, při chybném použití synchronizačních prostředků**  
 	- Př\. Proces, který získal semafor opětovně zavolá jeho operaci __WAIT__ 
-- Uváznutí vznikají důsledkem hrubých chyb v použitím synchronizačních prostředků 
+- Uváznutí vznikají důsledkem hrubých chyb v použitím synchronizačních prostředků 
 
 Deadlock 
 
-- Stav, v němž se proces vinnou chybné synchronizace trvale zablokuje \(bez ukončení stavu __SLEEPING__\)  
+- Stav, v němž se proces vinnou chybné synchronizace trvale zablokuje \(bez ukončení stavu __SLEEPING__\)  
 - Proces se dostane do trvalé smyčky  
 
 Eliminace uváznutí 
@@ -2665,18 +2663,18 @@ __Algoritmy uváznutí__ – uváznutí lze zabránit i za pomocí algoritmů, a
 Meziprocesorová komunikace 
 
 - Výměna dat mezi dvěma nebo více procesy, či vlákny  
-- Komunikace může probíhat i mezi počítači v síti 
+- Komunikace může probíhat i mezi počítači v síti 
 - Současné OS nabízejí celou škálu prostředků ke komunikaci 
 - Komunikační prostředky se liší svou rychlostí, způsobem použití 
 
 Vlákna 
 
 - Pro preemptivní systémy, je typická paralelnost na úrovni všech procesů 
-- Pokud proces čeká na klávesnici, může v nevyužitém čase provádět na pozadí pomocné operace 
+- Pokud proces čeká na klávesnici, může v nevyužitém čase provádět na pozadí pomocné operace 
 - Vlákna – obdoba procesů, sdílejí datový region, což usnadňuje jejich vzájemné působení, komunikují prostřednictvím globálních statických proměnných  
 - Vlákna mají svou aktuální instrukci a svůj programový zásobník a souběžně běží nad společnou pamětí  
 - Každý proces má své hlavní vlákno  
-- OS může na požádání vytvořit pro proces nové vlákno, které začne vykonávat část programu v souběhu s ostatními vlákny 
+- OS může na požádání vytvořit pro proces nové vlákno, které začne vykonávat část programu v souběhu s ostatními vlákny 
 
 Výhody 
 
@@ -2690,7 +2688,7 @@ Základní správa vláken 
 
 - Nejdůležitější operací je vytvoření vlákna a pak jeho spuštění 
 - Vytvoření vlákna se provádí přímím voláním specializované služby 
-- Vlákno končí svou činnost buď dosažením hlavní funkce nebo může být ukončeno z vnějšku stejně jako proces 
+- Vlákno končí svou činnost buď dosažením hlavní funkce nebo může být ukončeno z vnějšku stejně jako proces 
 - Pokud svou činnost končí hlavní vlákno, jsou ukončena i ostatní vlákna 
 
  
@@ -2716,10 +2714,10 @@ Klasifikace komunikačních prostředků 
 	- Proudově orientované \(datovody\) – data tvoří jediný nečleněný proud 
 	- Zprávově orientované – data jsou orientovaná do zpráv 
 3. __Směrování přenášených dat__ 
-	- Jednosměrné – z jednoho procesu do druhého 
+	- Jednosměrné – z jednoho procesu do druhého 
 	- Obousměrné 
-	- Všesměrové – z jednoho procesu k více procesům 
-	- Dostředné – od více procesů k jedinému procesu 
+	- Všesměrové – z jednoho procesu k více procesům 
+	- Dostředné – od více procesů k jedinému procesu 
 4. __Přenášený objem dat \(přenosová rychlost\)__ 
 	- Malé \(kB/s\) – fronta zpráv a signály 
 	- Střední \(10\+ kB/s – MB/s\) – roury a sokety 
@@ -2734,8 +2732,8 @@ Roura 
 
 - Základní komunikační prostředek OS Unix 
 - Klasická roura je jednosměrná 
-- V případě obousměrného přenosu je nutno použít dvojici rour 
-- Vhodná především k výměně malých a středních objemů dat mezi dvěma procesy 
+- V případě obousměrného přenosu je nutno použít dvojici rour 
+- Vhodná především k výměně malých a středních objemů dat mezi dvěma procesy 
 - Implementace roury je jednoduchá 
 
 *Dva typy roury* 
@@ -2750,8 +2748,8 @@ Pojmenovaná roura 
 
 - Má vlastní identifikátor, „je pojmenovaná“ 
 - Používá se pro přenos dat mezi procesy, jež nejsou příbuzné 
-- Je viditelná v souborovém systému, tj\. má vlastní jméno a umístění v adresářové struktuře a může tedy být užívána libovolně 2 procesy 
-- Při otevření může dojít k zablokování procesu, neboť služba __OPEN__ čeká jestliže není přítomen proces na druhé konci roury 
+- Je viditelná v souborovém systému, tj\. má vlastní jméno a umístění v adresářové struktuře a může tedy být užívána libovolně 2 procesy 
+- Při otevření může dojít k zablokování procesu, neboť služba __OPEN__ čeká jestliže není přítomen proces na druhé konci roury 
 
 Soket \(schránka\) 
 
@@ -2764,9 +2762,9 @@ Soket \(schránka\) 
 	2. __Druhá dvojice__: Údaje o procesu klienta \(žadatele, IP adresa klienta, číslo portu\) 
 	3. __Poslední údaj pětice__: Určuje použitý nízkoúrovňová protokol, výhradně TCP/UDP 
 	4. __TCP__ je spojově orientovaný protokol což znamená, že k navázání "end\-to\-end" komunikace potřebuje, aby proběhl mezi klientem a serverem tzv\. "handshaking"\.  
-		1. __klient pošle SYN packet__ s uvedeným číslem sekvence \(x\), číslo odpovědi 0 
-		2. druhá strana si uloží číslo sekvence \(x\) a odpoví SYN\-ACK, jako číslo sekvence nastaví svoje číslo \(y\) a do čísla odpovědi vloží \(x\+1\) \- další očekávanou hodnotu 
-		3. klient odpoví ACK, číslo sekvence \(x\+1\), číslo odpovědi \(y\+1\) 
+		1. __klient pošle SYN packet__ s uvedeným číslem sekvence \(x\), číslo odpovědi 0 
+		2. druhá strana si uloží číslo sekvence \(x\) a odpoví SYN\-ACK, jako číslo sekvence nastaví svoje číslo \(y\) a do čísla odpovědi vloží \(x\+1\) \- další očekávanou hodnotu 
+		3. klient odpoví ACK, číslo sekvence \(x\+1\), číslo odpovědi \(y\+1\) 
 
  ((obrázek vynechán))
 
@@ -2800,14 +2798,14 @@ Fronta zpráv 
 - Zprávově orientovaný komunikační prostředek 
 - Zajišťuje směrování, řazení zpráv i základní synchronizaci procesů 
 - Umožňuje cílenou i všesměrovou výměnu zpráv omezené velikosti mezi dvěma či více procesy 
-- Každá zpráva se skládá z hlavičky \(obsahuje základní informace\) a těla zprávy 
+- Každá zpráva se skládá z hlavičky \(obsahuje základní informace\) a těla zprávy 
 - Pokud je fronta zpráv plná, __vysílající__ proces se blokuje 
 - Není\-li ve frontě zpráv žádná použitelná zpráva, __přijímací__ proces se blokuje 
-- Zprávy jsou nezbytné u OS s architekturou klient\-server, ale používají se i v jiných systémech 
+- Zprávy jsou nezbytné u OS s architekturou klient\-server, ale používají se i v jiných systémech 
 
 Vzdálené volání procedur 
 
-- Umožňuje volání funkcí v jiném adresovém prostoru, nebo v jiné instanci OS 
+- Umožňuje volání funkcí v jiném adresovém prostoru, nebo v jiné instanci OS 
 - Vzdáleně volaná procedura může přijímat parametry 
 - Jedná se o zprávově orientovaný obousměrný komunikační prostředek 
 
@@ -2819,17 +2817,17 @@ Vzdálené volání procedur 
 *Nevýhody* 
 
 - Identifikace vzdálené funkce se musí dít na základě poskytované služby \(adresa, port\) a nikoliv jen adresou funkce 
-- Ošetřování chybových stavů – může dojít k chybě během přenosu parametrů a návratové hodnoty, dále přerušení spojení, chybná identifikace protistrany atd\. 
+- Ošetřování chybových stavů – může dojít k chybě během přenosu parametrů a návratové hodnoty, dále přerušení spojení, chybná identifikace protistrany atd\. 
 
 15\) DB \(Data x informace, koncepční model, fyzický model, ERD \(transferable x nontransferable, optionalita x kardinalita\)
 
 - Databázový design\(návrh\) je proces vytvoření detailního modelu databáze 
-- Slouží k popisu databáze a jejích potřeb 
+- Slouží k popisu databáze a jejích potřeb 
 	- Jak bude vypadat 
 	- Tabulky, datová struktura, atributy 
 	- Primární klíče, cizí klíče 
 	- Propojení 
-- K popisu databáze slouží ERD  
+- K popisu databáze slouží ERD  
 
 Data x Informace 
 
@@ -2839,12 +2837,12 @@ Data x Informace 
 Data 
 
 - Záznam něčeho\.\. __\(číslo, datum, řetězec__\) 
-- Například \- známky z testů, __zameškané hodiny studenta, telefoní čísla__ 
+- Například \- známky z testů, __zameškané hodiny studenta, telefoní čísla__ 
 
 Informace 
 
-- Může být výsledkem práce s daty 
-- Například – průměrná známka z testů, absence z češtiny, nejvíce vytáčené tel\. číslo 
+- Může být výsledkem práce s daty 
+- Například – průměrná známka z testů, absence z češtiny, nejvíce vytáčené tel\. číslo 
 
 Databáze 
 
@@ -2885,8 +2883,8 @@ Proces vývoje databáze 
 Příklad 
 
 - Máme Firmu  \- vytvoříme pro ně databázi 
-- Oddělení ve firmě – v databázi vytvoříme tabulku oddělení, která bude obsahovat různé informace 
-- Máme zaměstnance – zaměstnance odkážeme v DB na oddělení v jakém pracují 
+- Oddělení ve firmě – v databázi vytvoříme tabulku oddělení, která bude obsahovat různé informace 
+- Máme zaměstnance – zaměstnance odkážeme v DB na oddělení v jakém pracují 
 - Atd 
 
 Konceptuální návrh 
@@ -2903,7 +2901,7 @@ Konceptuální návrh 
 - Vytváří dokumentaci „ideálního systému“\. 
 - Vytváří základ pro fyzický návrh databáze\. 
 
-  
+  
 
 Fyzický datový model 
 
@@ -2918,7 +2916,7 @@ Fyzický datový model 
 
 ERD \(Entity Relationship Model\) 
 
-- Využívá se pro zobrazení databáze, vztahů v ní, tabulek, dat\.\. 
+- Využívá se pro zobrazení databáze, vztahů v ní, tabulek, dat\.\. 
 - Nezávislé na zvolené databází 
 - Slouží pouze ke zobrazení  
 - Návrh bude stejný pro MySQL, Oracle, PostgressSQL, MariaDB…\. 
@@ -2927,14 +2925,14 @@ ERD \(Entity Relationship Model\) 
 
 Entita 
 
-- Dá se definovat jako věc schopná samostatné existence__\(člověk, zvíře, auto, student\.\.\)__ 
+- Dá se definovat jako věc schopná samostatné existence **\(člověk, zvíře, auto, student\.\.\)** 
 - Buď abstraktní nebo konkrétní 
 - __Objednávka, Transakce__ x __Dům, Hráč__ 
 - Entity se zobrazují jako obdélníky 
 - Každá entita musí obsahovat primární klíč, aby byla jednoznačně identifikovatelná 
-- V DB reprezentovány jako tabulky 
-- Instance entit se v DB označují jako záznamy a najdeme je v tabulkách 
-- V programovacích jazycích je můžeme označit jako objekty 
+- V DB reprezentovány jako tabulky 
+- Instance entit se v DB označují jako záznamy a najdeme je v tabulkách 
+- V programovacích jazycích je můžeme označit jako objekty 
 
 Atribut     
 
@@ -2943,8 +2941,8 @@ Atribut     
 - Mají své jméno a datový typ 
 - Není schopen samostatné existence 
 - Například věk, počet, emailová adresa, adresa bydliště, popis… 
-- V DB reprezentovány jako sloupce tabulek 
-- V programovacích jazycích je můžeme označit jako vlastnosti objektu 
+- V DB reprezentovány jako sloupce tabulek 
+- V programovacích jazycích je můžeme označit jako vlastnosti objektu 
 
 *Typy* 
 
@@ -2953,7 +2951,7 @@ Atribut     
 	- __Povinný atribut__ \- Atribut, jež nesmí být NULL\. 
 	- __Volitelný atribut__ \- Atribut, jež může být NULL\. 
 
-  
+  
 
 *Primární klíč \(Primary key\)* 
 
@@ -2973,21 +2971,21 @@ Atribut     
 *Kandidátní klíč* 
 
 - Klíč jež bude u každého záznamu odlišný 
-- Tzv\. unikátní pro každý záznam v tabulce 
+- Tzv\. unikátní pro každý záznam v tabulce 
 - Nemusí, ale může se jednat o primární klíč 
 - Př\. 
 - Máme Zaměstnance\(Rodné číslo, id zaměstnance\) 
 - Rodné číslo i ID zaměstnance je pro každého jiné 
-- Pokud zvolíme ID\_zam jako primární klíč, poté rodné číslo bude __alternativní klíč __ 
+- Pokud zvolíme ID\_zam jako primární klíč, poté rodné číslo bude **alternativní klíč**  
 
 *Cizí klíč \(Foreign key\)* 
 
-- Slouží k vyjádření vztahů mezi entitama/tabulkama 
+- Slouží k vyjádření vztahů mezi entitama/tabulkama 
 - Jedná se o hodnoty jež ve dvou záznamech spolu souvisí nebo jsou stejné 
 
 Vztah 
 
-- Spojuje 2 entity k sobě  
+- Spojuje 2 entity k sobě  
 - Na základě primárních a cizích klíčů 
 
 Vlastnosti 
@@ -3011,7 +3009,7 @@ Jeden zaměstnanec __musí\(optionalita\)__ mít __jednu\(kardinalita\)__ práci
 
 Jeda práce __může\(optionalita\)__ mít __jednoho či více\(kardinalita\)__ zaměstnanců 
 
-__ __ Transferable 
+Transferable 
 
 - Možnost změny vztahu 
 - Příklad: 
@@ -3026,16 +3024,16 @@ Nontransferable 
 
 Databázový design\(návrh\) je proces vytvoření detailního modelu databáze 
 
-- Slouží k popisu databáze a jejích potřeb 
+- Slouží k popisu databáze a jejích potřeb 
 	- Jak bude vypadat 
 	- Tabulky, datová struktura, atributy 
 	- Primární klíče, cizí klíče 
 	- Propojení 
-- K popisu databáze slouží ERD  
+- K popisu databáze slouží ERD  
 
 ERD \(Entity Relationship Model\) 
 
-- Využívá se pro zobrazení databáze, vztahů v ní, tabulek, dat\.\. 
+- Využívá se pro zobrazení databáze, vztahů v ní, tabulek, dat\.\. 
 - Nezávislé na zvolené databází 
 - Slouží pouze ke zobrazení  
 - Návrh bude stejný pro MySQL, Oracle, PostgressSQL, MariaDB…\. 
@@ -3049,9 +3047,9 @@ Entita 
 - Objednávka, Transakce x Dům, Hráč 
 - Entity se zobrazují jako obdélníky 
 - Každá entita musí obsahovat primární klíč, aby byla jednoznačně identifikovatelná 
-- V DB reprezentovány jako tabulky 
-- Instance entit se v DB označují jako záznamy a najdeme je v tabulkách 
-- V programovacích jazycích je můžeme označit jako objekty 
+- V DB reprezentovány jako tabulky 
+- Instance entit se v DB označují jako záznamy a najdeme je v tabulkách 
+- V programovacích jazycích je můžeme označit jako objekty 
 
 Atribut     
 
@@ -3060,16 +3058,14 @@ Atribut     
 - Mají své jméno a datový typ 
 - Není schopen samostatné existence 
 - Například věk, počet, emailová adresa, adresa bydliště, popis… 
-- V DB reprezentovány jako sloupce tabulek 
-- V programovacích jazycích je můžeme označit jako vlastnosti objektu 
+- V DB reprezentovány jako sloupce tabulek 
+- V programovacích jazycích je můžeme označit jako vlastnosti objektu 
 
 *Typy* 
 
 - __Unikátní identifikátor__ – Atribut  
 - __Povinný atribut__ \- Atribut, jež nesmí být NULL\. 
 - __Volitelný atribut__ \- Atribut, jež může být NULL\. 
-
-* * 
 
 *Primární klíč \(Primary key\)* 
 
@@ -3083,32 +3079,30 @@ Atribut     
 	- Nabývají vždy jiné hodnoty od předchozích záznamů¨ 
 	- Známe je jako ID\_Entity 
 
-* * 
-
 *Kandidátní klíč* 
 
 - Klíč jež bude u každého záznamu odlišný 
-- Tzv\. unikátní pro každý záznam v tabulce 
+- Tzv\. unikátní pro každý záznam v tabulce 
 - Nemusí, ale může se jednat o primární klíč 
 - Př\. 
 	- Máme Zaměstnance\(Rodné číslo, id zaměstnance\) 
 	- Rodné číslo i ID zaměstnance je pro každého jiné 
-	- Pokud zvolíme ID\_zam jako primární klíč, poté rodné číslo bude __alternativní klíč __ 
+	- Pokud zvolíme ID\_zam jako primární klíč, poté rodné číslo bude **alternativní klíč**  
 
 *Cizí klíč \(Foreign key\)* 
 
-- Slouží k vyjádření vztahů mezi entitama/tabulkama 
+- Slouží k vyjádření vztahů mezi entitama/tabulkama 
 - Jedná se o hodnoty jež ve dvou záznamech spolu souvisí nebo jsou stejné 
 
 Vztah 
 
-- Spojuje 2 entity k sobě  
+- Spojuje 2 entity k sobě  
 - Na základě primárních a cizích klíčů 
 - \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\- NOVÁ DATA \(ODSUD DOLŮ \- NAHOŘE ČÁST OTÁZKY 15\) 
 
 Identifikátory 
 
-- Používají se pro jednoznačné označení\(identifikaci\) v celé DB  
+- Používají se pro jednoznačné označení\(identifikaci\) v celé DB  
 - Téměř vše může mít identifikátor – Servery, __databáze, tabulky, pohledy, indexy, triggery, procedury__… 
 - ,,Tzv\. jsou to jména“ 
 - Identifikátor zadáváme když objekt vytváříme   
@@ -3118,7 +3112,7 @@ Omezení 
 
 - Nelze vytvořit stejné identifikátory 
 - Pokud je DBA incase – sensitive nelze vytvořit ani identifikátory ,,Student“ a „student“ 
-- Identifikátor nesmí být již definované slovo\(__rezervované slovo__\) v DBS jako „CREATE, DELETE, SELECT, VIEW, TABLE“… 
+- Identifikátor nesmí být již definované slovo\(__rezervované slovo__\) v DBS jako „CREATE, DELETE, SELECT, VIEW, TABLE“… 
 - Rezervovaná slova jsou jak Lower\-case tak i Upper\-case 
 
  
@@ -3128,13 +3122,13 @@ ARC vztah 
 - Vyjadřuje vztah mezi dvěma entitami, které se  navzájem vylučují 
 - __Příklad__ 
 	- Osoba je buď zaměstnanec nebo zákazník, nikdy obojí najednou 
-	- Billboard obsahuje buď film, nebo produkt, nebo ustanovení nikdy, vždy jednu z věcí, nikdy 2 a více naráz 
+	- Billboard obsahuje buď film, nebo produkt, nebo ustanovení nikdy, vždy jednu z věcí, nikdy 2 a více naráz 
 
-  
+  
 
 CRUD 
 
-- O__značení pro 4 základní operace nad DB__ 
+- **Označení pro 4 základní operace nad DB** 
 
 __Význam__ 
 
@@ -3142,66 +3136,66 @@ __Důvod__ 
 
 __SQL__ 
 
-__C__REATE 
+**C**REATE 
 
 Vytvoření dat 
 
 INSERT 
 
-__R__ETRIEVE 
+**R**ETRIEVE 
 
 Získání dat 
 
 SELECT 
 
-__U__PDATE 
+**U**PDATE 
 
 Úprava dat 
 
 UPDATE 
 
-__D__ELETE 
+**D**ELETE 
 
 Vymazání dat 
 
 DELETE 
 
-  
+  
 
 Syntaxe INSERT 
 
-INSERT INTO *table\_name* \(*column1*,* column2*,* *\.\.\.\) 
+INSERT INTO *table\_name* \(*column1*, *column2*, \.\.\.\) 
 
-VALUES\(*value1*,* value2*,* value3*, \.\.\.\) 
+VALUES\(*value1*, *value2*, *value3*, \.\.\.\) 
 
 Syntaxe SELECT 
 
-SELECT *column1*,* column2, \.\.\.* 
+SELECT *column1*, *column2, \.\.\.* 
 
-FROM *table\_name*; 
+FROM *table\_name*; 
 
 Syntaxe UPDATE 
 
-UPDATE *table\_name* 
+UPDATE *table\_name* 
 
-SET *column1 *=* value1*,* column2 *=* value2*, \.\.\. 
+SET *column1* = *value1*, *column2* = *value2*, \.\.\. 
 
-WHERE *condition*; 
+WHERE *condition*; 
 
 Syntaxe DELETE 
 
-DELETE FROM *table\_name* 
+DELETE FROM *table\_name* 
 
-WHERE *condition*; 
+WHERE *condition*; 
 
-  
+  
 
-  
+  
 
 Rekurzivní model 
 
-- Rekurzivní model spojuje 2 objekty/záznamy se s sebou samým 
-- __Příklad    __ 
+- Rekurzivní model spojuje 2 objekty/záznamy se s sebou samým 
+- **Příklad**     
 	- Máme firmu 
 	- Ve firmě pracují zaměstnanci 
 	- Zaměstnanci mají svého managera/nadřízeného 
@@ -3211,7 +3205,7 @@ Rekurzivní model 
 		- __Manažer\(jméno, mzda, nástup,\.\.\)__ 
 	- Vytvoříme pouze tabulku zaměstnanci, kterou propojíme na tabulku zaměstnanci 
 	- Pokud bude zaměstnanec, vyplníme jeho atribut nadřízený 
-	- Pokud bude manager necháme místo NULL__, pokud nemá jiného nadřízeného__ 
+	- Pokud bude manager necháme místo NULL, pokud nemá jiného nadřízeného 
 
 ((obrázek vynechán))
 
@@ -3227,7 +3221,7 @@ Hierarchický model  x Rekurzivní model 
 
 Normalizace 
 
-- Proces organizace dat v databázi 
+- Proces organizace dat v databázi 
 - Zahrnuje vytvoření tabulek, definici jejich struktur \(atributů\), vztahů mezi tabulkami… 
 - __Snaží se o vyloučení 2 faktorů__ 
 
@@ -3245,14 +3239,14 @@ Nekonzistentní závislost dat 
 - Pokud jsou informace uložené na nesprávném místě 
 - Zatěžuje dostupnost údajů 
 - Př\. 
-	- Pokud je mzda zaměstnance uložena v záznamu firmy u které pracuje 
+	- Pokud je mzda zaměstnance uložena v záznamu firmy u které pracuje 
 	- Plat zaměstnance je závislý na zaměstnanci, nikoliv na firmě 
 
 Pravidla 
 
 1 Normalizace 
 
-- Neopakovat data v tabulkách 
+- Neopakovat data v tabulkách 
 - Data jsou uložena pouze jednou a to na nejlepším místě 
 
 2 Normalizace 
@@ -3279,37 +3273,37 @@ Pravidla 
 
 Kategorie příkazů 
 
-DML \- Data Manipulation Language 
+DML \- Data Manipulation Language 
 
-- Příkay pro manipulaci s daty – jejich __získání, úpravu a mazání__ 
-	1. __SELECT__ – vybírá data z databáze 
-	2. __INSERT__ – vkládá do databáze nová data\. 
-	3. __UPDAT__E – mění data v databázi \(editace\)\. 
-	4. __MERGE__ – kombinace INSERT a UPDATE – data buď vloží \(pokud neexistuje odpovídající klíč\), pokud existuje, pak je upraví ve stylu UPDATE\. 
-	5. __DELETE__ – odstraňuje data \(záznamy\) z databáze\. 
+- Příkay pro manipulaci s daty – jejich __získání, úpravu a mazání__ 
+	1. __SELECT__ – vybírá data z databáze 
+	2. __INSERT__ – vkládá do databáze nová data\. 
+	3. **UPDATE** – mění data v databázi \(editace\)\. 
+	4. __MERGE__ – kombinace INSERT a UPDATE – data buď vloží \(pokud neexistuje odpovídající klíč\), pokud existuje, pak je upraví ve stylu UPDATE\. 
+	5. __DELETE__ – odstraňuje data \(záznamy\) z databáze\. 
 
 \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\- 
 
 -
-	1. __EXPLAIN__ – speciální příkaz, který zobrazuje postup zpracování SQL příkazu\. Pomáhá uživateli optimalizovat příkazy tak, aby byly rychlejší\. 
-	2. __SHOW__ \- méně častý příkaz, umožňující zobrazit databáze, tabulky nebo jejich definice 
+	1. __EXPLAIN__ – speciální příkaz, který zobrazuje postup zpracování SQL příkazu\. Pomáhá uživateli optimalizovat příkazy tak, aby byly rychlejší\. 
+	2. __SHOW__ \- méně častý příkaz, umožňující zobrazit databáze, tabulky nebo jejich definice 
 
 DDL – Data Definition Language 
 
 - Příkazy pro vytvoření struktury databáze 
-	1. __CREATE__ – vytváření nových objektů\. 
-	2. __ALTER__ – změny existujících objektů\. 
-	3. __DROP__ – odstraňování objektů\. 
+	1. __CREATE__ – vytváření nových objektů\. 
+	2. __ALTER__ – změny existujících objektů\. 
+	3. __DROP__ – odstraňování objektů\. 
 
-DCL – Data Control Language 
+DCL – Data Control Language 
 
 - Někdy též TCC – Transaction Control Commands 
 - Příkazy pro nastavování přístupových práv a řízení transakcí 
-	1. __GRANT__ – příkaz pro přidělení oprávnění uživateli k určitým objektům\. 
-	2. __REVOKE__ – příkaz pro odnětí práv uživateli\. 
-	3. __START TRANSACTION__ – zahájení transakce\. 
-	4. __COMMIT__ – potvrzení transakce\. 
-	5. __ROLLBACK__ – zrušení transakce, návrat do původního stavu\. 
+	1. __GRANT__ – příkaz pro přidělení oprávnění uživateli k určitým objektům\. 
+	2. __REVOKE__ – příkaz pro odnětí práv uživateli\. 
+	3. __START TRANSACTION__ – zahájení transakce\. 
+	4. __COMMIT__ – potvrzení transakce\. 
+	5. __ROLLBACK__ – zrušení transakce, návrat do původního stavu\. 
 
 Ostatní příkazy 
 
@@ -3327,26 +3321,26 @@ Komentáře 
 - SQL podporuje i komentáře 
 - MySQL podporuje následující 
 
-*Jednořádkový    * 
+*Jednořádkový*     
 
-- před komentářem __   \[\-\-, \#\#, \#\]__ 
+- před komentářem    \[\-\-, \#\#, \#\] 
 
 *Víceřádkový* 
 
-- před komentářem   __/\*__ 
-- za komentářem __\*/__ 
+- před komentářem   /\* 
+- za komentářem \*/ 
 
-Konverze dat 
+Konverze dat 
 
-- Konverze znamená v informatice převod informace do jiného zobrazení, zejména do jiného kódu, jiného formátu nebo jiné číselné soustavy 
+- Konverze znamená v informatice převod informace do jiného zobrazení, zejména do jiného kódu, jiného formátu nebo jiné číselné soustavy 
 - Př\.  
-	- Z BIN2 do HEX16 
-	- Z Javy do C\# 
-- U MySQL __funkce CONVERT__\(*data\_type\(length\), expression, style*\) či konvert 
-	- SELECT__ CONVERT\(varchar, 25\.65\);__ 
-	- SELECT CAST\(varchar AS 25\.65\); 
+	- Z BIN2 do HEX16 
+	- Z Javy do C\# 
+- U MySQL __funkce CONVERT__\(*data\_type\(length\), expression, style*\) či konvert 
+	- SELECT **CONVERT\(varchar, 25\.65\);** 
+	- SELECT CAST\(varchar AS 25\.65\); 
 
-Funkce   
+Funkce   
 
 - Funkce je pojmenovaný blok kódu 
 - Uložené na serveru 
@@ -3383,11 +3377,11 @@ IFNULL 
 - IFNULL\(první\_výraz,druhý\_výraz\) 
 - vrátí první neNULLový výraz 
 
-SELECT IFNULL \(0,2\) – vrátí 0 
+SELECT IFNULL \(0,2\) – vrátí 0 
 
-SELECT ProductName, UnitPrice \* \(UnitsInStock \+ IFNULL\(UnitsOnOrder, 0\)\) 
+SELECT ProductName, UnitPrice \* \(UnitsInStock \+ IFNULL\(UnitsOnOrder, 0\)\) 
 
-FROM  Products 
+FROM  Products 
 
 ISNULL 
 
@@ -3398,7 +3392,7 @@ ISNULL 
 
 Propojování tabulek 
 
-- K propojování tabulek slouží příkaz JOIN 
+- K propojování tabulek slouží příkaz JOIN 
 - Propojení tabulek na základě 1 či více parametrů například __ID__ 
 - 4 typy spojení tabulek 
 	- INNER JOIN \-   zobrazí položky, které jsou celé tzv\. nechybí u nich nějaká klíčová data, Pokud by v našem případě neexistoval uživatel s id, které je u článku uvedeno, článek bez uživatele by vůbec nebyl ve výsledcích obsažen 
@@ -3428,11 +3422,11 @@ JOIN zamestnanci ON zamestnani\.zam\_id = zamestnanec\.zam\_id 
 
 ((obrázek vynechán))
 
-  
+  
 
-  
+  
 
-  
+  
 
 Podmínky 
 
@@ -3442,17 +3436,17 @@ WHERE 
 - Získávání specifických záznamů, které splňují určitou podmínku 
 - Podmínek může být více 
 
-SELECT nazev, cislo, \.\.\. 
+SELECT nazev, cislo, \.\.\. 
 
 FROM  tabulka 
 
-WHERE cislo = 2 
+WHERE cislo = 2 
 
 Operátory pro podmínky 
 
 -
 	- AND, &&    musí být splněny obě podmínky 
-	- OR, ||        jedna z podmínek je pravdivá 
+	- OR, ||        jedna z podmínek je pravdivá 
 	- =        podmínky se rovnají 
 	- >, =>        větší, větší nebo rovno 
 	- <, <=        menší, menší nebo rovno 
@@ -3486,7 +3480,7 @@ Funkce IF 
 
 -
 	- IF\(podmínka, hodnota1, hodnota2\) 
-	- SELECT IF\(500<1000, "YES", "NO"\); 
+	- SELECT IF\(500<1000, "YES", "NO"\); 
 
 CASE 
 
@@ -3497,11 +3491,11 @@ SELECT objednavkaID, mnozstvi, 
 
 CASE 
 
-    WHEN mnozstvi > 30 THEN "množství je vetsi nez 30" 
+    WHEN mnozstvi > 30 THEN "množství je vetsi nez 30" 
 
-    WHEN mnozstvi = 30 THEN "množství je 30" 
+    WHEN mnozstvi = 30 THEN "množství je 30" 
 
-    ELSE "Počet je vetsi" 
+    ELSE "Počet je vetsi" 
 
 END 
 
@@ -3514,14 +3508,14 @@ Poddotazy – subquery 
 - Dotaz, jež je umístěn uvnitř jiného dotazu 
 - Subquery mohou vracet data nebo záznamy tabulek 
 - __Nejtypičtější__ – subselect 
-- Používá se například když nemůžeme použít agregační funkce jako SUM\(\)__,__ COUNT\(\), což je nejčastěji v bloku WHERE 
+- Používá se například když nemůžeme použít agregační funkce jako SUM\(\)__,__ COUNT\(\), což je nejčastěji v bloku WHERE 
 - Př – zjištění kdo má větší plat než průměr 
 
-SELECT *jméno*, příjmení  
+SELECT *jméno*, příjmení  
 
-FROM Platy  
+FROM Platy  
 
-WHERE *plat* > \(SELECT AVG\(*plat*\) FROM Platy\)  
+WHERE *plat* > \(SELECT AVG\(*plat*\) FROM Platy\)  
 
 Data dictionary 
 
@@ -3539,7 +3533,7 @@ Obsahuje: 
 - Auditní __informace, kdo kde přistoupil či upravil jaký objekt\.__ 
 - A další informace o databázi\. 
 
-  
+  
 
 Struktura Data dictionary: 
 
@@ -3559,7 +3553,7 @@ Datové typy 
 Atributy 
 
 - NOT NULL – atribut musí být zadán, musí mít určitou hodnotu 
-- AUTO\_INCREMENT – automaticky se zvýší hodnota v každém řádku o 1 
+- AUTO\_INCREMENT – automaticky se zvýší hodnota v každém řádku o 1 
 - UNSIGNED – číslo nesmí být záporné, 0 \-> 255 
 - SIGNED – číslo může být záporné i kladné, \-128 \-> 127 
 	- Při nezadání atributu, je číslo vždy SIGNED 
@@ -3581,7 +3575,7 @@ TINYINT 
 
 Velmi malá čísla 
 
-  
+  
 
 SMALLINT 
 
@@ -3589,7 +3583,7 @@ SMALLINT 
 
 Malá čísla 
 
-  
+  
 
 MEDIUMINT 
 
@@ -3597,7 +3591,7 @@ MEDIUMINT 
 
 Středně velká čísla 
 
-  
+  
 
 INT 
 
@@ -3605,7 +3599,7 @@ INT 
 
 Běžná čísla 
 
-  
+  
 
 BIGINT 
 
@@ -3613,12 +3607,12 @@ BIGINT 
 
 Velká čísla – např\. ID 
 
-  
+  
 
 - Celá čísla lze také zmenšit na chtěný počet míst 
 - Př 
-	- *Nazev* ____INT\(5\)__ __\- 12345 
-	- *Nazev*__ __INT\(3\) \- 678 
+	- *Nazev* INT\(5\) \- 12345 
+	- *Nazev* INT\(3\) \- 678 
 
 Desetinná     
 
@@ -3636,7 +3630,7 @@ FLOAT\(M,D\) 
 
 Malá desetinná čísla 
 
-  
+  
 
 DOUBLE\(M,D\) 
 
@@ -3644,7 +3638,7 @@ DOUBLE\(M,D\) 
 
 Velká desetinná čísla 
 
-  
+  
 
 DECIMAL\(M,D\) 
 
@@ -3655,10 +3649,10 @@ Velká desetinná čísla 
 Ukládáno jako řetězec 
 
 - __M –__ počet míst, které bude číslo obsahovat 
-- __D –__ počet, kolik míst z __M__ bude za desetinnou čárkou 
+- __D –__ počet, kolik míst z __M__ bude za desetinnou čárkou 
 - __Př__ 
-	- *Prom*__ __FLOAT\(6,4\) – 26,6886 
-	- *Prom* ____DOUBLE\(6,2\)__ – __5000,87__ __ 
+	- *Prom* FLOAT\(6,4\) – 26,6886 
+	- *Prom* DOUBLE\(6,2\) – 5000,87  
 
 Datum a čas 
 
@@ -3676,7 +3670,7 @@ DATE 
 
 Datum *–„YYYY\-MM\-DD“* 
 
-  
+  
 
 TIME 
 
@@ -3684,7 +3678,7 @@ TIME 
 
 Čas – „hh:mm:ss“ 
 
-  
+  
 
 DATETIME 
 
@@ -3694,7 +3688,7 @@ datum a čas 
 
 *„CCYY\-MM\-DD hh:mm:ss“* 
 
-  
+  
 
 TIMESTAMP\(M\) 
 
@@ -3720,13 +3714,11 @@ Výchozí M=4 
 
 00 pro YEAR\(2\) 
 
-- Funkce pro aktuální čas nebo datum \- CURDATE\(\), CURTIME\(\), NOW\(\)  
+- Funkce pro aktuální čas nebo datum \- CURDATE\(\), CURTIME\(\), NOW\(\)  
 - __Př\. –__ vložení  hodnoty 
-	- VALUES__\(__ STR\_TO\_DATE\('1\-01\-2012', '%d\-%m\-%Y'\) __\)__ 
-	- VALUES__\(__ '2012\-01\-01' __\)__ 
-	- VALUES__\(__ CURDATE\(\) __\)__ 
-
-__ __ 
+	- VALUES\( STR\_TO\_DATE\('1\-01\-2012', '%d\-%m\-%Y'\) \) 
+	- VALUES\( '2012\-01\-01' \) 
+	- VALUES\( CURDATE\(\) \) 
 
 Řetězcové 
 
@@ -3742,17 +3734,17 @@ Název 
 
 Velikost 
 
-  
+  
 
 CHAR\(M\) 
 
 \[M\]B 
 
-Není\-li M uvedeno – M=1 
+Není\-li M uvedeno – M=1 
 
-Pokud je řetězec delší než M, zkrátí se na délku M a konec se odsekne 
+Pokud je řetězec delší než M, zkrátí se na délku M a konec se odsekne 
 
-Je\-li kratší než M, doplní se mezerami na délku M, ta je však při načítání dat z databáze ignorována, takže nejsou žádné mezery „navíc“ 
+Je\-li kratší než M, doplní se mezerami na délku M, ta je však při načítání dat z databáze ignorována, takže nejsou žádné mezery „navíc“ 
 
 __Pevná délka, n 1 až 8000__ 
 
@@ -3760,87 +3752,87 @@ VARCHAR\(M\) 
 
 M\+1B 
 
-Pokud je řetězec delší než M, tak se zkrátí na délku M a zbytek se „ztratí“ 
+Pokud je řetězec delší než M, tak se zkrátí na délku M a zbytek se „ztratí“ 
 
-Je\-li řetězec kratší než M, koncové mezery se při ukládání odstraní 
+Je\-li řetězec kratší než M, koncové mezery se při ukládání odstraní 
 
 __Variabilní délka \(min až max\)__ 
 
 TINYBLOB 
 
-  
+  
 
-  
+  
 
 BLOB 
 
-  
+  
 
-  
+  
 
 MEDIUMBLOB 
 
-  
+  
 
-  
+  
 
 LONGBLOB 
 
-  
+  
 
-  
+  
 
 TINYTEXT 
 
-  
+  
 
-  
+  
 
 TEXT 
 
-  
+  
 
-  
+  
 
 MEDIUMTEXT 
 
-  
+  
 
-  
+  
 
 LONGTEXT 
 
-  
+  
 
-  
+  
 
 ENUM\(h1,h2,h3\.\.\) 
 
-  
+  
 
-Výčtový typ \- Lze přiřadit pouze jednu z hodnot h1,h2… 
+Výčtový typ \- Lze přiřadit pouze jednu z hodnot h1,h2… 
 
 SET\(h1,h2,h3\.\.\) 
 
-  
+  
 
-Výčtový typ \- Lze přiřadit i více z hodnot h1,h2… 
+Výčtový typ \- Lze přiřadit i více z hodnot h1,h2… 
 
 - Př\. Prom VARCHAR\(10\) __–__ „Bohumil Mi“ 
 
  
 
-DML \- Data Manipulation Language 
+DML \- Data Manipulation Language 
 
-- Příkay pro manipulaci s daty – jejich získání, úpravu a mazání 
+- Příkay pro manipulaci s daty – jejich získání, úpravu a mazání 
 
-1. SELECT – vybírá data z databáze 
-2. INSERT – vkládá do databáze nová data\. 
-3. UPDATE – mění data v databázi \(editace\)\. 
-4. MERGE – kombinace INSERT a UPDATE – data buď vloží \(pokud neexistuje odpovídající klíč\), pokud existuje, pak je upraví ve stylu UPDATE\. 
-5. DELETE – odstraňuje data \(záznamy\) z databáze\. 
-6. EXPLAIN – speciální příkaz, který zobrazuje postup zpracování SQL příkazu\. Pomáhá uživateli optimalizovat příkazy tak, aby byly rychlejší\. 
-7. SHOW \- méně častý příkaz, umožňující zobrazit databáze, tabulky nebo jejich definice 
+1. SELECT – vybírá data z databáze 
+2. INSERT – vkládá do databáze nová data\. 
+3. UPDATE – mění data v databázi \(editace\)\. 
+4. MERGE – kombinace INSERT a UPDATE – data buď vloží \(pokud neexistuje odpovídající klíč\), pokud existuje, pak je upraví ve stylu UPDATE\. 
+5. DELETE – odstraňuje data \(záznamy\) z databáze\. 
+6. EXPLAIN – speciální příkaz, který zobrazuje postup zpracování SQL příkazu\. Pomáhá uživateli optimalizovat příkazy tak, aby byly rychlejší\. 
+7. SHOW \- méně častý příkaz, umožňující zobrazit databáze, tabulky nebo jejich definice 
 
 Výběr hodnot z tabulky 
 
@@ -3862,9 +3854,9 @@ DDL – Data Definition Language 
 
 - Příkazy pro vytvoření struktury databáze 
 
-1. CREATE – vytváření nových objektů\. 
-2. ALTER – změny existujících objektů\. 
-3. DROP – odstraňování objektů\. 
+1. CREATE – vytváření nových objektů\. 
+2. ALTER – změny existujících objektů\. 
+3. DROP – odstraňování objektů\. 
 
 Vytvoření tabulky 
 
@@ -3872,7 +3864,7 @@ CREATE TABLE Objednavky \( 
 
 *Pocet* INT UNSIGNED, 
 
-*Datum *DATE, 
+*Datum* DATE, 
 
 *Uzivatel* BIGINT UNSIGNED, 
 
@@ -3882,15 +3874,15 @@ CREATE TABLE Objednavky \( 
 
 Úprava tabulky 
 
-ALTER TABLE *table\_name* 
+ALTER TABLE *table\_name* 
 
-ADD *column\_name datatype*; 
+ADD *column\_name datatype*; 
 
-  
+  
 
-ALTER TABLE *table\_name* 
+ALTER TABLE *table\_name* 
 
-DROP *column\_name datatype*; 
+DROP *column\_name datatype*; 
 
 19\) Database programming  \- omezení \(=constraints\) \-view \- sequence \-indexes \-DCL 
 
@@ -3898,23 +3890,23 @@ Omezení \(constraints\) 
 
 - __Klíčové__ slovo jazyka SQL 
 - Umožňuje vytvořit omezení s podmínkami, jež musí být splněny pro hodnoty jejích sloupců při vkládání nebo změnu záznamů 
-- Slouží k vytvoření pravidel pro data v DB 
-- Udržuje konzistentní data v DB 
+- Slouží k vytvoření pravidel pro data v DB 
+- Udržuje konzistentní data v DB 
 - Jsou definované na úrovni objektu\(tabulky\) nebo na úrovni atributu\(sloupce\) 
-- Zajišťují například, že tabulka nemůže být odstraněna pokud má vztahy s jinými tabulkami 
+- Zajišťují například, že tabulka nemůže být odstraněna pokud má vztahy s jinými tabulkami 
 - Nesmí být atribut prázdný atd\.  
 
 Typy 
 
 - __NOT NULL__    Nesmí mít NULL hodnotu 
-- __UNIQUE KEY__    Musí být jedna jediná hodnota v tabulce, nesmí být 2 stejné 
+- __UNIQUE KEY__    Musí být jedna jediná hodnota v tabulce, nesmí být 2 stejné 
 - __PRIMARY KEY__    Identifikace záznamu v tabulce 
-- __FOREIGN KEY__    Identifikace záznamu v jiné tabulce na ni propojené 
-- __CHECK__        Zkontroluje zadanou hodnotu \- Den TINYINT CHECK \(*Den *>=1 AND *Den* <=31\), 
+- __FOREIGN KEY__    Identifikace záznamu v jiné tabulce na ni propojené 
+- __CHECK__        Zkontroluje zadanou hodnotu \- Den TINYINT CHECK \(*Den* >=1 AND *Den* <=31\), 
 
 Vytvoření  
 
-CREATE TABLE soutezni*\_*otazky\( 
+CREATE TABLE soutezni\_otazky\( 
 
 Mesic TINYINT, 
 
@@ -3928,9 +3920,9 @@ CONSTRAINT c1 CHECK \(mesic BETWEEN 1 AND 12\) 
 
 \) 
 
-  
+  
 
-CREATE TABLE soutezni*\_*odpovedi\( 
+CREATE TABLE soutezni\_odpovedi\( 
 
 Odpoved TEXT, 
 
@@ -3940,51 +3932,51 @@ ADD FOREIGN KEY\(Otazka\) REFERENCES soutezni\_otazky\(ID\) 
 
 \) 
 
-  
+  
 
-DCL – Data Control Language 
+DCL – Data Control Language 
 
 - Někdy též TCC – Transaction Control Commands 
 - Příkazy pro nastavování přístupových práv a řízení transakcí 
 
-1. __GRANT__ – příkaz pro přidělení oprávnění uživateli k určitým objektům\. 
-2. __REVOKE__ – příkaz pro odnětí práv uživateli\. 
-3. __START__ __TRANSACTION__ – zahájení transakce\. 
-4. __COMMIT__ – potvrzení transakce\. 
-5. __ROLLBACK__ – zrušení transakce, návrat do původního stavu\. 
+1. __GRANT__ – příkaz pro přidělení oprávnění uživateli k určitým objektům\. 
+2. __REVOKE__ – příkaz pro odnětí práv uživateli\. 
+3. __START__ __TRANSACTION__ – zahájení transakce\. 
+4. __COMMIT__ – potvrzení transakce\. 
+5. __ROLLBACK__ – zrušení transakce, návrat do původního stavu\. 
 
-  
+  
 
 View \(pohled\) 
 
 - Mohou sloužit jako jiné pojmenování tabulek 
 - Mohou z tabulky vybrat jen určité řádky \(nebo sloupce\) 
 - Pohledy mohou obsahovat výrazy \(jako jsou vestavěné funkce MySQL nebo uživatelsky definované funkce\)\. 
-- Mohou spojovat data z více tabulek  
+- Mohou spojovat data z více tabulek  
 - A konečně, pohledy se mohou odkazovat na další pohledy 
 
 Výhody oproti tabulkám 
 
-- Mohou spojit a zjednodušit více tabulek v jednu virtuální tabulku 
-- __Může řešit oprávnění__ – uživatel může mít přístup k view, avšak nemusí mít přístup k samotné tabulce 
+- Mohou spojit a zjednodušit více tabulek v jednu virtuální tabulku 
+- __Může řešit oprávnění__ – uživatel může mít přístup k view, avšak nemusí mít přístup k samotné tabulce 
 - Zabírají velmi málo místa – databáze si uchovává pouze jak view vypadá, __nikoliv všechna data na která se odkazuje__ 
 
 Vytvoření 
 
-CREATE OR REPLACE VIEW pohled AS 
+CREATE OR REPLACE VIEW pohled AS 
 
-SELECT jmeno, nazev, pocet \.\.\. 
+SELECT jmeno, nazev, pocet \.\.\. 
 
-FROM tabulka 
+FROM tabulka 
 
 WHERE podmínka\.\.\. 
 
- Sekvence 
+ Sekvence 
 
 - Sekvence je pořadí čísel po sobě jdoucích 
 - Čísla jsou generována na požadavek 
-- Sekvence jsou velmi využívána kvůli potřebě unikátních čísel v tabulce např\. pro PK 
-- Příklad sekvence v MySQL je AUTO\_INCREMENT 
+- Sekvence jsou velmi využívána kvůli potřebě unikátních čísel v tabulce např\. pro PK 
+- Příklad sekvence v MySQL je AUTO\_INCREMENT 
 - Pro každou tabulku se vytvoří sekvence zvlášť 
 - Počáteční hodnotu si můžeme nastavit, výchozí = 0 
 - Můžeme získat poslední/aktuální hodnot sekvence pomocí LAST\_INSERT\_ID\(\) nad danou tabulkou __\(i pomocí PHP\)__ 
@@ -4001,19 +3993,19 @@ IPRIMARY KEY\(ID\) 
 
 AUTO\_INCREMENT = 115 
 
-   
+   
 
 Indexy 
 
-- Slouží ke zrychlení vyhledávacích a dotazovacích procesů na data v databázi 
+- Slouží ke zrychlení vyhledávacích a dotazovacích procesů na data v databázi 
 - Měli by se použít u všech sloupců tabulek, podle kterých se vyhledávají, třídí data nebo se podle nich spojují tabulky 
 
 Jak fungují 
 
 - Při vkládání dat do DB, obvykle nejsou tříděny a jsou rovnány za sebe 
 - Pokud chceme pak vybrat specifická data musíme projet všechna data za sebou než najdeme požadovaná data 
-- K tomu abychom nemuseli projíždět všechna data slouží Indexy 
-- V Indexech jsou data organizována tak, abychom nemuseli projíždět všechna data 
+- K tomu abychom nemuseli projíždět všechna data slouží Indexy 
+- V Indexech jsou data organizována tak, abychom nemuseli projíždět všechna data 
 
 Vytvoření 
 
@@ -4039,7 +4031,7 @@ datum\_nastupu DATE, 
 
 - Rozžíření SQL jazyka 
 - Umožňuje přenést část aplikační logiky na server do DB 
-- Některá práce s daty lze provést přímo na serveru nikoliv až v aplikaci 
+- Některá práce s daty lze provést přímo na serveru nikoliv až v aplikaci 
 - __PL/SQL__ = procedurálně rozšířené SQL  
 
 Obsah rozšíření 
@@ -4059,7 +4051,7 @@ Typy 
 
 Lokální 
 
-- Dají se použít pouze v daném bloku 
+- Dají se použít pouze v daném bloku 
 - Klíčové slovíčko __DECLARE__ 
 
 DECLARE xname VARCHAR\(5\) DEFAULT 'bob'; 
@@ -4068,20 +4060,20 @@ DECLARE newname VARCHAR \(5\); 
 
 DECLARE xid INT; 
 
-  
+  
 
 Session 
 
 - Když se připojí klient na server, vytvoří se mezi nimi vztah/session 
-- Dají se používat pouze v daném připojení s klientem 
+- Dají se používat pouze v daném připojení s klientem 
 - Ovlivňuje připojení mezi klientem a serverem 
 - SET SESSION nazev = hodnota;  
 
-  
+  
 
 Globální 
 
-- Dají se používat v rámci celé DB i mezi různými Sessionami 
+- Dají se používat v rámci celé DB i mezi různými Sessionami 
 - Ovlivňuje DB, př\. můžeme nastavit systémové proměnné jako max\. počet připojených klientů 
 
 SET @název=hodnota; 
@@ -4097,9 +4089,9 @@ Transaction controll 
 - Provádí se pomocí DCL 
 - Transakce může být provedena, ale také může být zrušena a navrácena 
 - 2 závěry  
-	- __Transakce se povede __ 
-	- __Transakce se nepovede__ – dojde k navrácení\(ROLLBACK\) 
-- Používá se pokud chceme mít jistotu, že k něčemu došlo, či došlo k chybě 
+	- **Transakce se povede**  
+	- __Transakce se nepovede__ – dojde k navrácení\(ROLLBACK\) 
+- Používá se pokud chceme mít jistotu, že k něčemu došlo, či došlo k chybě 
 	- Při výpadku serveru 
 
  
@@ -4107,7 +4099,7 @@ Transaction controll 
 - Transakce __začíná BEGIN WORK__ 
 - Končí 
 	- __COMMIT__ – když dojde ke správnému vykonání transakce příkazem COMMIT dáme najevo ať se změny projeví 
-	- __ROLLBACK__  \- když dojde k chybě v transakci, příkazem ROLLBACK navrátíme vše do původního stavu před provedením transakce 
+	- __ROLLBACK__  \- když dojde k chybě v transakci, příkazem ROLLBACK navrátíme vše do původního stavu před provedením transakce 
 
  
 
@@ -4146,9 +4138,9 @@ Bloky pro zpracování výjimek 
 
 Kurzory 
 
-- Používají se pro práci s daty v PL/SQL 
+- Používají se pro práci s daty v PL/SQL 
 - Kurzor naplníme pomocí SQL příkazu daty 
-- Vytvoří si v paměti místo pro data – tzv kontext kurzoru 
+- Vytvoří si v paměti místo pro data – tzv kontext kurzoru 
 - Kurzor drží jeden či více záznamů\(aktivní sada\) 
 
 Typy 
@@ -4159,13 +4151,13 @@ Implicitní 
 - Databázový systém si ho vytváří sám 
 - Vytváří se pro DML\(INSERT, UPDATE, DELETE\) 
 - Pro INSERT se vytvoří kurzor, který drží data která se mají přidat 
-- Pro UPDATE a DELETE se vytvoří kurzor s daty jež budou ovlivněny 
+- Pro UPDATE a DELETE se vytvoří kurzor s daty jež budou ovlivněny 
 
 Explicitní 
 
 - Uživatel si vytváří kurzor sám 
 
-  
+  
 
 Vytvoření 
 
@@ -4173,11 +4165,11 @@ Vytvoření 
 
 DECLARE nazev\_kursoru CURSOR FOR SELECT ID, name, adress FROM  customers; 
 
-1. Otevření kurzoru – otevřením alokujeme prostor v paměti a připravíme kurzor na připnutí dat k němu 
+1. Otevření kurzoru – otevřením alokujeme prostor v paměti a připravíme kurzor na připnutí dat k němu 
 
 OPEN nazev\_kurzoru; 
 
-1. Připnutí dat – kurzoru přiřadíme v danou chvíli postupně vždy 1 řádek ze všech vrácených 
+1. Připnutí dat – kurzoru přiřadíme v danou chvíli postupně vždy 1 řádek ze všech vrácených 
 
 FETCH nazev\_kurzoru INTO variable1, variable2, \.\.; 
 
@@ -4193,7 +4185,7 @@ Knihy\(id, nazev, cena, rok, stav\) 
 
 Vyrazene\(id, nazev, cena, rok, dat\_vyr\) 
 
-  
+  
 
 DELIMITER // 
 
@@ -4213,13 +4205,13 @@ DECLARE v\_rok YEAR\(4\); 
 
 DECLARE cur\_vyrazeni CURSOR FOR SELECT id, nazev, cena, rok FROM  Knihy WHERE stav=5; 
 
-  
+  
 
 OPEN cur\_vyrazeni; 
 
 vyrazeni: LOOP 
 
-  
+  
 
 IF done THEN LEAVE vyrazeni 
 
@@ -4237,7 +4229,7 @@ END // 
 
 Loop – smyčky 
 
-- Slouží k opakovanému provedení bloku kódu__                                           __ 
+- Slouží k opakovanému provedení bloku kódu                                            
 
 BASIC LOOP 
 
@@ -4257,7 +4249,7 @@ EXIT WHEN podmínka 
 
 END LOOP; 
 
-  
+  
 
 WHILE LOOP 
 
@@ -4275,7 +4267,7 @@ statement2; 
 
 END LOOP; 
 
-  
+  
 
 FOR LOOP 
 
@@ -4287,7 +4279,7 @@ Příkazy SQL 
 
 END LOOP; 
 
-  
+  
 
 REPEAT LOOP 
 
@@ -4311,9 +4303,9 @@ Systémové  
 
 - Vyvolány automaticky při výskytu chyby 
 
-  
+  
 
-  
+  
 
 Triggery  
 
@@ -4365,7 +4357,7 @@ DELIMITER ; 
 
  
 
-Funkce   
+Funkce   
 
 - Funkce je pojmenovaný blok kódu 
 - Uložené na serveru 
@@ -4388,14 +4380,14 @@ DECLARE prom dat\_typ DEFAULT hodnota 
 
 Příkazy SQL; 
 
-RETURN hodnota;  
+RETURN hodnota;  
 
 END; 
 
 Procedury      
 
 - Procedura je zvláštním případem funkce 
-- NEMÁ návratovou hodnotu a nemusí mít ani vstupní parametry 
+- NEMÁ návratovou hodnotu a nemusí mít ani vstupní parametry 
 - Používají se často při dávkovém zpracování – např\. každou hodinu zavoláme proceduru, která zpracuje objednávky, které se nashromáždily v databázi, a předá je do jiného systému\. 
 - Uložené na serveru 
 - Zkompilované pro rychlejší použití 
@@ -4416,7 +4408,7 @@ Procedury s parametrem  
 Vlastnosti vstupních parametrů 
 
 -
-	- __OUT__ – pokud dojde ke změně argumentu v průběhu procedury, změní se i předaná proměnná vně procedury 
+	- __OUT__ – pokud dojde ke změně argumentu v průběhu procedury, změní se i předaná proměnná vně procedury 
 	- __INOUT__ \-  
 
 Vytvoření procedury 
@@ -4431,13 +4423,13 @@ Příkazy SQL; 
 
 END; 
 
-      Procedury s parametrem 
+      Procedury s parametrem 
 
 DELIMITER // 
 
-CREATE PROCEDURE sp\_vratradek \(\[IN, OUT, INOUT\] radek int\)  
+CREATE PROCEDURE sp\_vratradek \(\[IN, OUT, INOUT\] radek int\)  
 
-BEGIN SELECT \* FROM tabulka WHERE ID = radek;  END // 
+BEGIN SELECT \* FROM tabulka WHERE ID = radek;  END // 
 
 22\) Programování – definice 
 
@@ -4448,17 +4440,17 @@ Dědičnost 
 - Třída \(potomek\), získává vlastnosti od svého rodiče \(parent\) 
 - Tyto vlastnosti/metody jsou definovány __PUBLIC__ / __PROTECTED__ 
 - Zděděné metody můžeme i přepisovat, a tak měnit i jejich funkčnost  
-- Každý potomek, může být i uložen v rozhraní rodiče 
+- Každý potomek, může být i uložen v rozhraní rodiče 
 - ChildName : ParentName 
 
 Vzájemné volání konstruktorů 
 
-- V JAVE se konstruktor rodiče v potomkovi volá pomocí __super\(param\)__; 
-- V C\# se se konstruktor rodiče v potomkovi volá pomocí __base\(param\);__ 
+- V JAVE se konstruktor rodiče v potomkovi volá pomocí __super\(param\)__; 
+- V C\# se konstruktor rodiče v potomkovi volá pomocí __base\(param\);__ 
 
-  
+  
 
-   
+   
 
 Abstraktní třída 
 
@@ -4466,13 +4458,13 @@ Abstraktní třída 
 - Slouží jako předpis pro jiné třídy 
 - Mohou obsahovat i abstraktní \(__abstract__\) metody, které nemají tělo, potomek si je pak přepisuje a určuje jejich funkcionalitu  
 
-  ((obrázek vynechán))
+  ((obrázek vynechán))
 
  
 
 Rozhraní \(interface\) 
 
-- Nemá žádné metody s tělem 
+- Nemá žádné metody s tělem 
 - Jedná se o předpis třídy, určuje jen jaké metody musí potomek mít  
 
 ((obrázek vynechán))
@@ -4480,7 +4472,7 @@ Rozhraní \(interface\) 
 Výčtový typ \(enum\) 
 
 - Datový typ, který může nabývat více hodnot 
-- Například dny v týdnu, barvy atd\.  
+- Například dny v týdnu, barvy atd\.  
 
 ((obrázek vynechán))
 
@@ -4497,9 +4489,9 @@ Přetížení metod a funkcí 
 
 Modifikátory přístupu 
 
-- __PUBLIC__ – veřejné, můžeme k ní přistupovat i mimo třídu 
-- __PROTECTED__ – stejné jako private, s tím rozdílem, že potomci mohou k daným věcem přistupovat jako by byly public 
-- __PRIVATE__ – umožňuje přístup pouze v rámci dané třídy 
+- __PUBLIC__ – veřejné, můžeme k ní přistupovat i mimo třídu 
+- __PROTECTED__ – stejné jako private, s tím rozdílem, že potomci mohou k daným věcem přistupovat jako by byly public 
+- __PRIVATE__ – umožňuje přístup pouze v rámci dané třídy 
 
 Anonymní třída 
 
@@ -4510,13 +4502,13 @@ Anonymní třída 
 Výjimky 
 
 - Neboli try catch  
-- Pokud dojde během běhu kódu k chybě v try, catch vyvolá patřičnou výjimku 
+- Pokud dojde během běhu kódu k chybě v try, catch vyvolá patřičnou výjimku 
 
 ((obrázek vynechán))
 
 Singleton 
 
-- Třída, která nemá instanci je v běhu systému jen 1 
+- Třída, která nemá instanci je v běhu systému jen 1 
 - Je nutné dávat pozor u vláken na Singletona, aby běžel jen napříč vlákny 1 
 
  
@@ -4525,11 +4517,11 @@ Factory method 
 
 - Pokud děláme instanci třídy, která má až moc zbytečných parametrů, můžeme si to oddělit do nové třídy, která ji nám vytvoří jen holou a patřičné parametry si když tak nastavíme ¨ 
 
-  
+  
 
 ((obrázek vynechán))
 
-   
+   
 
 Mediátor 
 
@@ -4543,19 +4535,19 @@ Něco jako EVENT, čeká a naslouchá na nějakou událost a pak zareaguje 
 
 23\) Logické funkce 
 
-  
+  
 
 Logická je funkce jež pro konečný počet vstupních parametrů vrací logické hodnoty\. 
 
-  
+  
 
 __AND__ \- logický součin\. 
 
-  
+  
 
 Pravdivostní tabulka 
 
-  
+  
 
 A 
 
@@ -4587,21 +4579,21 @@ Y 
 
 1 
 
-  
+  
 
-  
+  
 
 __OR__ \- logický součet 
 
-  
+  
 
 Y = A \+ B 
 
-  
+  
 
 Pravdivostní tabulka 
 
-  
+  
 
 A 
 
@@ -4633,21 +4625,21 @@ Y 
 
 1 
 
-  
+  
 
-  
+  
 
 __NON__ \- logický součet 
 
-  
+  
 
 Y = A \+ B 
 
-  
+  
 
 Pravdivostní tabulka: 
 
-  
+  
 
 A 
 
@@ -4661,21 +4653,21 @@ Y 
 
 1 
 
-  
+  
 
-  
+  
 
 __NAND__ \- negovaný logický součin 
 
-  
+  
 
 Y = //\(A\*B\) 
 
-  
+  
 
 Pravdivostní tabulka 
 
-  
+  
 
 A 
 
@@ -4707,21 +4699,21 @@ Y 
 
 0 
 
-  
+  
 
-  
+  
 
 __NOR__ \- negovaný logický součet 
 
-  
+  
 
 Y = //\(A\+ B\) 
 
-  
+  
 
 Pravdivostní tabulka: 
 
-  
+  
 
 A 
 
@@ -4753,21 +4745,21 @@ Y 
 
 0 
 
-  
+  
 
-  
+  
 
 XOR \- exkluzivní OR \(nonekvivalence\) 
 
-  
+  
 
 Y = /A\. B \+ A \./B 
 
-  
+  
 
 Pravdivostní tabulka: 
 
-  
+  
 
 A 
 
@@ -4799,13 +4791,13 @@ Y 
 
 0 
 
-  
+  
 
-  
+  
 
 Booleova algebra 
 
-  
+  
 
 Booleovu algebru lze chápat jako nauku o operacích na množině obsahující dvě logické konstanty 0 a 1 a další logické proměnné, které se označují malými písměny\.  
 
@@ -4813,11 +4805,11 @@ Booleovo algebra používá tento základní soubor operaci: 
 
 1. AND, OR, negate 
 
-  
+  
 
 Logická proměnná může nabývat pouze dvou hodnot: 0 a 1; Booleova algebra není tudíž algebrou čísel, ale stavů\. Logické funkce se často pro přehlednost zapisují pomocí pravdivostní tabulky\. Pro n proměnných z nichž každá může nabývat dvou stavů, dostáváme celkem 2^4 = 16 funkcí\. 
 
-  
+  
 
 a 
 
@@ -4999,9 +4991,9 @@ f15 
 
 1 
 
-  
+  
 
-  
+  
 
 1. f0, f15 \- Identické funkce 
 2. f1 \- funkce AND 
@@ -5012,13 +5004,11 @@ f15 
 7. f9 \- funkce ekvlivalence \(negace XOR f6\) 
 8. f13 \- funkce implikace a=>b \(v digitální technice se nepoužívá\) 
 
-  
+  
 
 Pro tři proměnné __a,b__ a __c__ platí __zákony__ 
 
-__ __ 
-
-  
+  
 
 __Logický součin__ 
 
@@ -5066,27 +5056,21 @@ De Morganovy zákony 
 
 /\(x\+y\) = /x \. /y 
 
-__ __ 
-
-__ __ 
-
 A další zákony, jako: zákony od idempotenci prvků, zákon dvojité negace, princip duality 
 
-  
-
-__  __ 
+  
 
 __Minimalizace logické funkce__ 
 
-  
+  
 
 Jeden z postupů, jak minimalizovat logickou funkci je použití Booleanovy algebry či de Maorgenových zákonů\. 
 
-  
+  
 
 Mějme zadanou pravdivostní tabulku: 
 
-  
+  
 
 A 
 
@@ -5160,58 +5144,58 @@ Y 
 
 0 
 
-  
+  
 
-  
+  
 
 Z dané pravdivostní tabulky zapíšeme pro ukázku úplně zapsaný součet součinů\. Zaměřujeme se při tom na řádky tabulky obsahující ve sloupci výstupní hodnoty lofické funkce logickou 1 a zapíšeme: 
 
 Y = /A \. /B \. C \+ /A \. B \. C \+ A \. /B \. PC \+ A \. /B \. C 
 
-  
+  
 
 Vezmeme první dva součiny a vytkneme a upravíme\. Jako výsledek dostaneme první minimalizovanou část funkce: 
 
 Y1 = /A /B C \+ /A B C = /A C \. \(/B \+ B\) = /A C \. 1 = /AC 
 
-  
+  
 
 Podobně upravíme druhou část, vezmem tedy dva součiny: 
 
 Y2 = A /B /C \+ A /B C = /B A \. \(/C \+ C\) = /B A \. 1 = /BA 
 
-  
+  
 
 Výslednou minimalizaci funkci zapíšeme jako součet 
 
 Y = /AC \+ /BA 
 
-  
+  
 
 __Žebříčkový diagram__ 
 
 [http://fatek\.seapraha\.cz/zaklladr/](http://fatek.seapraha.cz/zaklladr/) 
 
-  
+  
 
 Grafický “jazyk” určený pro programování automatických systémů a je užíván od druhé světové váky\. Do dnešních dob je nejstarším a jedním z nepopulárnějších jazyků, které jsou určeny k programování automatických systémů\. 
 
-  
+  
 
 Jazyk původně obsahoval jen několik základních elementů, jako kontakty typu A \(NO \- normally open\), kontakty typu B\(NC \- normally closed\), výstupní relé, časovače a čítače\. Když se obejvili mikropočítače, mohlo být využito více prvků, jako diferencované kontakty, rozšířená instrukční sada a další rozšíření, která umožnila masový rozvoj\. 
 
-  
+  
 
 Jsou dva způsoby využití logiky Ladder diagramů: 
 
 1. Kombinační logika 
 2. Sekvenční logika 
 
-  
+  
 
 Kombinační logika vzniká spojením jednoho nebo více prvků vstupu v seriovém nebo paralerním zapojení a výstupu, kterým může být relé, časovač/čitač a jiné intstrukce pro externí aplikaci\. 
 
-  
+  
 
 Sekvenční logika užívá v obvodech, kde je nutno zajistit zpětné ovládání \- což znamená, že výstup jednoho obvodu slouží k ovládání výstupu jiného\. 
 
@@ -5223,11 +5207,11 @@ Pasivní a polovodičové prvky 
 
 Aktivní součástky 
 
-- Chovají se jako zdroj el\. energie, např\. baterie, nebo součástky, které se v obvodu chovají jako zdroj i spotřebič \(fotodioda, tranzistor jak zesilovací součástka\) 
+- Chovají se jako zdroj el\. energie, např\. baterie, nebo součástky, které se v obvodu chovají jako zdroj i spotřebič \(fotodioda, tranzistor jak zesilovací součástka\) 
 
 Pasivní součástky 
 
-- Jsou spotřebiče, které se v obvodu nikdy nechovají jako zdroj el\. energie\. Např\. rezistor, kondenzátor, cívka, ale taky polovodičová dioda, termistor atd\. 
+- Jsou spotřebiče, které se v obvodu nikdy nechovají jako zdroj el\. energie\. Např\. rezistor, kondenzátor, cívka, ale taky polovodičová dioda, termistor atd\. 
 
  
 
@@ -5237,15 +5221,15 @@ Pasivní prvky 
 
 Pasivní prvek je prvek, jež se v obvodu nechová jako zdroj\. 
 
-  
+  
 
 - __Rezistor__  
 	- Funkce spočívá ve vzniku úbytku napětí v elektrickém obvodě, nebo\-li k omezení proudu v elektrickém obvodu\.  
 	- Zjednodušeně lze odpor přirovnat k vodiči se špatnou vodivostí\.  
 	- Velikost hodnoty je dána konstrukcí, množstvím a použitým materiálem\. 
 	- Nejčastěji je použit uhlíkový materiál\.  
-	- Konstrukce rezistoru se dělí na na dva základní způsoby\.  
-	- __Drátové a vrstičkové\. __ 
+	- Konstrukce rezistoru se dělí na dva základní způsoby\.  
+	- **Drátové a vrstičkové\.**  
 		- Drátové jsou zastaralý druh, konstrukce spočívala v namotání izolovaného odporového drátu na nosnou keramickou trubičku\. 
 		- __Vrstvičkové__ – nalepení uhlíkového pásku přímo na tištěný spoj, nebo na keramickou destičku  
 	- Množství uhlíkového materiálu též určuje výkon rezistoru\. 
@@ -5266,7 +5250,7 @@ Pasivní prvek je prvek, jež se v obvodu nechová jako zdroj\. 
 kontaktu a tím došlo k neutralizaci \(vybití elektrických nábojů\)\. 
 
 -
-	- S rostoucími rozměry, roste i velikost kapacity  
+	- S rostoucími rozměry, roste i velikost kapacity  
 	- Kvalita izolace mezi vodivými plášti určuje jak hodnotu, tak především kvalitu kondenzátoru 
 	- Ideálním dialektrikem \(izolací\) je vákum \(i vzduch\)  
 
@@ -5279,12 +5263,12 @@ kontaktu a tím došlo k neutralizaci \(vybití elektrických nábojů\)\. 
 - __Cívka__ \-  \(Induktor\) 
 	- Pasivní elektronická součástka 
 	- Amperovo pravidlo pravé ruky  
-	- __Ampérovo pravidlo pravé ruky pro cívku__, které zní následovně: *Cívku uchopíme do pravé ruky tak, že ohnuté prsty ukazují směr elektrického proudu v jejích závitech\. Odtažený palec pak ukazuje severní pól cívky\.* 
+	- __Ampérovo pravidlo pravé ruky pro cívku__, které zní následovně: *Cívku uchopíme do pravé ruky tak, že ohnuté prsty ukazují směr elektrického proudu v jejích závitech\. Odtažený palec pak ukazuje severní pól cívky\.* 
 	- Ukládá dočasně energii v podobě magnetického pole\. 
 	- Při připojení napětí začně magnetické pole narůstat, čím více závitů, tím větší magnetické pole\. 
 	- Konstrukce cívky – namotání drátu na nějaké jádro, způsob namotání určuje výslednou cívku 
-	- Nejčastěji používaným materiálem je měď\. 
-	- Cívka je definována svou indukčností, která se udává v H \(Henry\) 
+	- Nejčastěji používaným materiálem je měď\. 
+	- Cívka je definována svou indukčností, která se udává v H \(Henry\) 
 	- Indukčnost je výsledkem: 
 		- Průřez a materiál vodiče 
 		- Tloušťka a materiál izolace 
@@ -5296,13 +5280,13 @@ kontaktu a tím došlo k neutralizaci \(vybití elektrických nábojů\)\. 
 	- Obecně platí: čím menší hodnota indukčnosti \(méně závitů\), tím lépe cívka propouští nižší frekvence 
 	- Využití: 
 		- __Cívka jako elektromagnet:__ 
-			- Využívá se magnetická síla magnetického pole kolem cívky v zařízeních: 
+			- Využívá se magnetická síla magnetického pole kolem cívky v zařízeních: 
 				- Elektromotor, zvonek, reproduktor, elektromagnetické relé 
-				- Elektromagnetický jeřáb, vychylovací cívky v monitorech  
+				- Elektromagnetický jeřáb, vychylovací cívky v monitorech  
 		- __Cívka jako induktor__ 
 			- Využívá se elektrické napětí indukované proměnným magnetickým polem kolem cívky 
-				- __Tlumivka__ – je proti prudkým změnám v elektrickém obvodu \(např\. zapnutí/vypnutí, elektrický výboj apod\.\) 
-				- __Transformátor__ – obsahuje dvě nebo více cívek na společném jádře\. Změnou elektrického proudu \(střídavým proudem\) v jedné cívce se indukuje elektrický proud v druhé cívce, dochází k transformaci proudu a napětí 
+				- __Tlumivka__ – je proti prudkým změnám v elektrickém obvodu \(např\. zapnutí/vypnutí, elektrický výboj apod\.\) 
+				- __Transformátor__ – obsahuje dvě nebo více cívek na společném jádře\. Změnou elektrického proudu \(střídavým proudem\) v jedné cívce se indukuje elektrický proud v druhé cívce, dochází k transformaci proudu a napětí 
 
 Takto lze elektrické napětí bez velkých ztrát přenášet na dlouhé vzdálenosti pomocí elektrického vedení\.  
 
@@ -5326,9 +5310,9 @@ Výhodné pro případný přenos na velké vzdálenosti elektrickou soustavou\.
 	-
 		-
 			-
-				- __Čtecí hlavy v pevných discích __ 
+				- **Čtecí hlavy v pevných discích**  
 
-  
+  
 
 - __Potenciometr__ \-  Součástka jež slouží jako odporový napěťový dělič\. Nejjednoduší konstrukce se skládá z odporové dráhy po níž se ovládacím prvkem pohybuje 
 
@@ -5340,13 +5324,13 @@ Pokud je jezdec v krajní poloze všechno napětí je na žárovce a žárovka t
 
  
 
-  
+  
 
  
 
  ((obrázek vynechán))
 
-  
+  
 
 Polovodičové prvky 
 
@@ -5354,15 +5338,15 @@ Polovodičový prvek prvek je součástka jež pro svou funkci využívá někte
 
  
 
-  
+  
 
 - __Termistor__ \- Teplotně závislý rezistor se využívá k měření teploty, k regulaci teploty, k teplotní stabilizaci el\. obvodů\. 
 
-  
+  
 
 - __Fotorezisotr__ \- Prvek, jehož odpor se mění s osvětlením\. Používá se k regulaci a k měření osvětlení\. 
 
-  
+  
 
 - __Dioda \-__ Elektrická součástka se dvěma elektrodami, označovanými jako anoda a katoda\. Po připojeni anody na kladnější napěti než\-li je na katodé klade dioda malý odpor\. zatímco při opačném zapojení je dioda téměř nevodivá\. Propouští tedy proud pouze jedním směrem\. 
 
@@ -5376,59 +5360,59 @@ Polovodičový prvek prvek je součástka jež pro svou funkci využívá někte
 
 ((obrázek vynechán))
 
-  
+  
 
-- __Unipolární tranzistor__ \- Na rozdíl od bipolárních tranzistorů\. u kterých řízený proud prochází dvěma polovodičovými přechody a ovládají se bázovým proudem, tak u unipolárních tranzistoru *řízený *proud prochází jen polovodičem jednoho typu\. mají tedy velmi malý úbytek napěti v sepnutím stavu a ovládal, se pouze napětím\. Mailým velmi velký vstupní odpor 
+- __Unipolární tranzistor__ \- Na rozdíl od bipolárních tranzistorů\. u kterých řízený proud prochází dvěma polovodičovými přechody a ovládají se bázovým proudem, tak u unipolárních tranzistoru *řízený* proud prochází jen polovodičem jednoho typu\. mají tedy velmi malý úbytek napěti v sepnutím stavu a ovládal, se pouze napětím\. Mailým velmi velký vstupní odpor 
 
-  
+  
 
 - __Tyristor \-__ Součástka Jež slouží ke spínání elektrického obvodu fungující jako řízený elektronický ventil 
 
-  
+  
 
 Odporový napěťový dělič a výpočet napětí o proudu 
 
-  
+  
 
 __Odporový napěťový dělič__ 
 
-Nezatížený odporový dělič je obvod který umožňuje získat menši napětí než *je *napěti zdroje Je realizován dvěma [rezistory\. na](http://rezistory.na) kterých naměříme stálé napětí Ul a U2 
+Nezatížený odporový dělič je obvod který umožňuje získat menši napětí než *je* napěti zdroje Je realizován dvěma [rezistory\. na](http://rezistory.na) kterých naměříme stálé napětí Ul a U2 
 
  
 
  
 
-  ((obrázek vynechán))
+  ((obrázek vynechán))
 
-  
+  
 
 U napěťového děliče je napětí na rezistorech závislé na jejich odporu, a to tak, že, poměr hodnot odporů udává jejich napětí\. Máme\-li zdroj o napětí 5V a 2 rezistory o hodně 10 ohmů, je napětí děleno v poměru 1:1, tedy každý rezistor má napětí 2,5V\. Je\-li hodnota odporu jednoho rezistoru 10komů a druhého 90 komů, hodnota zdroje napětí zůstává stejná, je poměr obou odporů 1:9, na prvním rezistoru máme tedy napětí 0,5V a na druhém 4,5V\. 
 
-  
+  
 
 __Výpočet napětí a proudu__ 
 
-  
+  
 
 Výpočet napětí a proudu se provádí Ohmových zákonem\. Ohmův zákon vyjadřuje 
 
 vztah mezi elektrickým odporem, napětím a proudem\. 
 
-  
+  
 
 U=I\*R 
 
-  
+  
 
 __Zapojení a práce tranzistoru__ 
 
-  
+  
 
 Bipolární tranzistor je součástka, jež umožňuje malým proudem řídit větší proud\. 
 
 Bipolární tranzistor si můžeme představit jako rezistor \(s nožičkami kolektor C a emitor E\), který mění svůj odpor, tak aby mezi E a C neprotékal větší proud, než je beta\-násobek proudu, který teče do řídí nožičky \- báze B\. Obvykle se používá buď to jako spínač, nebo jako zesilovač\. 
 
-  
+  
 
 __Spínáč__ je zařízení určené k vodivému spojení nebo rozpojení části elektrického obvodu\. 
 
@@ -5436,7 +5420,7 @@ __Zesilovač__ je zařízení, které je schopno transformací elektrické energ
 
 napájecího zdroje měnit parametry vstupního signálu\. 
 
-  
+  
 
 Bipolární tranzistory se vyskytují ve dvou variantách: NPN a PNP\. Jsou funkčně podobné 
 
@@ -5444,7 +5428,7 @@ liší se ale opačnou polaritou: tam, kde u NPN teče proud jedním směrem, te
 
 opačným\. 
 
-  
+  
 
 [https://filip2ms\.wordpress\.com/2012/12/09/zakladni\-elektrotechnicke\-soucastky/](https://filip2ms.wordpress.com/2012/12/09/zakladni-elektrotechnicke-soucastky/) 
 
