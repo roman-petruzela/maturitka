@@ -31,24 +31,25 @@ Zobrazení
 
 Základní HTML tagy
 
-- <p> = základní tag pro úpravu textu, slouží pro vytvoření odstavce
-- <br> = tag, který slouží pro nucené zalomení textového řetězce avšak bez mezery za odstavcem
-- <b> = tag, který z normálního textu vytvoří text tučný
-- <i> = tag, který z normálního textu vytvoří text s kurzívou
-- <img> = tag sloužící k vložení obrázku
-- <a> = tag, kterým vkládáme odkaz¨
-- <ul> = odrážkový seznam, kde každá odrážka musí začínat tagem <li>
-- <ol> = číslovaný seznam, kde každá odrážka musí začínat tagem <li>
-- <bgsound> = spustí zvolenou hudbu při otevření webové stránky
-- <tr> = tag pro tvorbu buňky = odděluje jednotlivé řádky <td> = tag pro každý sloupec tabulky
-- <h1> = nadpis nejvyšší úrovně => po číslo 6 = nejnižší úroveň
+- `<p>` = základní tag pro úpravu textu, slouží pro vytvoření odstavce
+- `<br>` = tag, který slouží pro nucené zalomení textového řetězce avšak bez mezery za odstavcem
+- `<b>` = tag, který z normálního textu vytvoří text tučný
+- `<i>` = tag, který z normálního textu vytvoří text s kurzívou
+- `<img>` = tag sloužící k vložení obrázku
+- `<a>` = tag, kterým vkládáme odkaz
+- `<ul>` = odrážkový seznam, kde každá odrážka musí začínat tagem `<li>`
+- `<ol>` = číslovaný seznam, kde každá odrážka musí začínat tagem `<li>`
+- `<bgsound>` = spustí zvolenou hudbu při otevření webové stránky
+- `<tr>` = tag pro řádek tabulky = odděluje jednotlivé řádky
+- `<td>` = tag pro každý sloupec (buňku) tabulky
+- `<h1>` = nadpis nejvyšší úrovně => po `<h6>` = nejnižší úroveň
 
 __CSS__
 
 - Slouží pro úpravu vzhledu souboru HTML a změně vizualizace stránek a jejich úpravy
 - Css styly se píší do složených závorek a před každou závorkou definujeme na jakou oblast HTML dokumentu se budou kaskádové styl vztahovat
 - Můžeme definovat pro každý tag zvlášť
-- Je důležité propojit css soubor se souborem HTML pomocí tagu <LINKs> jinak by CSS styly nefungovali
+- Je důležité propojit css soubor se souborem HTML pomocí tagu `<link>` jinak by CSS styly nefungovali
 - Každá syntaxe musí byt oddělena v rámci závorky střednikem
 - Zápis CSS h1 \{ color: blue; font\-size: 12px;\}
 
@@ -63,12 +64,16 @@ Nejznámější syntaxe
 - padding \{\} = velikost vnitřního okraje
 - veškeré barvy jsou zadávány pomocí šestnáctkového značení nebo model RGB
 
+Příklad základní struktury dokumentu:
+
+```html
 <html>
 <head>
-  <meta http\-equiv="Content\-Type" content="text/html; charset=windows\-1250">
+  <meta http-equiv="Content-Type" content="text/html; charset=windows-1250">
   <title>Jméno</title>
 </head>
 <body>
   samotný text stránky
 </body>
 </html>
+```
