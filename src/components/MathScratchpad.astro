@@ -167,6 +167,8 @@ const PEN_WIDTHS = [
 			// (window resize, entering/leaving fullscreen)
 			const ro = new ResizeObserver(() => board.resize());
 			ro.observe(canvas);
+			// a page zoom changes devicePixelRatio, and not always the element's CSS size
+			window.addEventListener('resize', () => board.resize());
 
 			const savedBoard = localStorage.getItem(keys.board);
 			if (savedBoard) {
@@ -513,15 +515,23 @@ const PEN_WIDTHS = [
 	.whiteboard-canvas-wrap {
 		position: relative;
 		flex: 1 1 auto;
+		/* the same 16:9 as the paper (FRAME_W × FRAME_H in whiteboard.ts), so a board of
+		   normal size shows exactly the paper — before, the canvas element's own default
+		   size (300×150) accidentally made it 2:1 */
+		aspect-ratio: 16 / 9;
 		min-height: 16rem;
 		overflow: hidden;
+		/* ruled paper: the lines are part of the picture, so their spacing follows the
+		   board's scale (--wb-s, see whiteboard.ts) — only the line itself stays 1px */
 		background-image: repeating-linear-gradient(
-			#fdfdfb 0 27px,
-			color-mix(in srgb, var(--muted) 14%, transparent) 27px 28px
+			#fdfdfb 0 calc(28px * var(--wb-s, 1) - 1px),
+			color-mix(in srgb, var(--muted) 14%, transparent) calc(28px * var(--wb-s, 1) - 1px)
+				calc(28px * var(--wb-s, 1))
 		);
 	}
 
 	.whiteboard:fullscreen .whiteboard-canvas-wrap {
+		aspect-ratio: auto;
 		min-height: 0;
 	}
 
@@ -576,7 +586,11 @@ const PEN_WIDTHS = [
 		right: auto;
 	}
 
+	/* out of flow: the wrap's size comes from its own aspect ratio, never from the
+	   canvas's intrinsic (backing-buffer) size */
 	.whiteboard-canvas {
+		position: absolute;
+		inset: 0;
 		display: block;
 		width: 100%;
 		height: 100%;

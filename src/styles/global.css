@@ -1330,11 +1330,15 @@ h1 {
 	font-size: 1.05rem;
 	text-align: left;
 	background: none;
-	padding: 0 0 0.35rem;
+	padding: 0 2px 0.35rem 0; /* the 2px: see .math-inline */
 	border: none;
 	overflow-x: auto;
 	scrollbar-width: thin;
 	scrollbar-color: var(--border-strong) transparent;
+}
+
+.rail-formulas .math-display.is-fitting {
+	overflow-x: visible;
 }
 
 .rail-formulas .math-display::-webkit-scrollbar {
@@ -1353,6 +1357,25 @@ h1 {
 /* The "kde ..." tail that so many of these formulas carry, lifted out of
    the maths and set as plain prose — left inside the formula it rendered
    in maths italics and read as a second, broken equation. */
+/* the small caption above a formula (or a run of formulas of one section): what it is
+   called. Deliberately quieter than the panel's own title. */
+.rail-formulas .rail-formula-heading {
+	margin: 1rem 0 0.4rem;
+	font-family: var(--sans);
+	font-size: var(--t-xs);
+	font-weight: 600;
+	line-height: 1.3;
+	color: var(--muted);
+}
+
+.rail-formulas .rail-formula-heading:first-child {
+	margin-top: 0;
+}
+
+.rail-formulas .rail-formula-heading + li {
+	margin-top: 0;
+}
+
 .rail-formula-note {
 	display: block;
 	margin-top: 0.35rem;
@@ -1494,6 +1517,12 @@ article.topic li::marker {
 	color: var(--muted);
 }
 
+/* a bare URL as link text (Wikipedia links with percent-encoded titles) has no break point
+   either, and pushed a phone's page sideways */
+article.topic a {
+	overflow-wrap: anywhere;
+}
+
 article.topic code {
 	font-family: var(--mono);
 	background: var(--surface-raised);
@@ -1600,6 +1629,12 @@ article.topic tbody tr:hover {
 .math-inline {
 	display: inline-block;
 	max-width: 100%;
+	/* MathLive's sub/superscript boxes stick 2px out of the formula (margin-right:
+	   -2px, a KaTeX-derived Safari workaround). With overflow: auto that counts as
+	   scrollable overflow, so every "v_c" grew a scrollbar; the padding makes room
+	   for it and the negative margin gives the width back. */
+	padding-right: 2px;
+	margin-right: -2px;
 	overflow-x: auto;
 	vertical-align: middle;
 	color: var(--fg);
@@ -1619,6 +1654,12 @@ article.topic tbody tr:hover {
 .math-inline::-webkit-scrollbar-thumb {
 	background: var(--border-strong);
 	border-radius: 0;
+}
+
+/* the formula fits — what the scroll box measured as overflow is MathLive's own
+   2px-per-box slack (see BaseLayout.astro, markFitting): no scrollbar for it */
+.math-inline.is-fitting {
+	overflow-x: visible;
 }
 
 /* display math sits in its own quiet container rather than floating in the
@@ -1734,6 +1775,8 @@ article.topic tbody tr:hover {
 /* Discord-style "||spoiler||" (rehype-spoiler.ts) — toggled by the delegated
    click/keydown listener in BaseLayout.astro */
 .spoiler {
+	/* a long unbroken answer ("155·6+160·9+165·20+…") must not push a phone's page sideways */
+	overflow-wrap: anywhere;
 	background: var(--fg);
 	color: transparent;
 	border-radius: 1px;
@@ -1985,9 +2028,20 @@ article.topic tbody tr:hover {
 /* the floating "sticky note" on the math whiteboard (src/lib/whiteboard.ts) */
 .whiteboard-note {
 	position: absolute;
+	/* The note sits on the paper like the strokes do: --wx / --wy are paper units
+	   and --wb-s (set on the board by whiteboard.ts) is the current pixels per
+	   paper unit — so fullscreen, page zoom or a resize scale the whole picture
+	   and never shift a note against the drawing. Its own size follows the same
+	   factor, but never drops below 0.8 (on a phone the board is ~0.55, and 15px
+	   type would become 8px). */
+	--note-s: max(var(--wb-s, 1), 0.8);
+	left: calc(var(--wx, 12) * var(--wb-s, 1) * 1px);
+	top: calc(var(--wy, 12) * var(--wb-s, 1) * 1px);
+	transform: scale(var(--note-s));
+	transform-origin: 0 0;
 	width: 15rem;
-	max-width: calc(100% - 1.5rem);
-	max-height: calc(100% - 1.5rem);
+	max-width: calc((100% - 1.5rem) / var(--note-s));
+	max-height: calc((100% - 1.5rem) / var(--note-s));
 	overflow-y: auto;
 	background: #fff6c9;
 	border: 1px solid color-mix(in srgb, #b8960a 40%, transparent);
