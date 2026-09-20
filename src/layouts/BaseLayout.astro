@@ -334,6 +334,30 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 				var article = document.querySelector('article.topic');
 				if (!article) return;
 
+				// ── Vzorce, které se vejdou ────────────────────────────────
+				// MathLive's sub/superscript, fraction and root boxes each stick a couple
+				// of pixels out of their formula (a KaTeX-derived workaround). In a box
+				// that scrolls sideways that counted as overflow and put a scrollbar
+				// under formulas that plainly fit. Overflow within SLACK is that
+				// artefact (pure whitespace) and is let through; anything wider is a
+				// real overflow and keeps its scrollbar.
+				var SLACK = 10;
+				var markFitting = function (root) {
+					root.querySelectorAll('.math-inline, .math-display').forEach(function (el) {
+						el.classList.toggle('is-fitting', el.scrollWidth - el.clientWidth <= SLACK);
+					});
+				};
+				markFitting(article);
+				var fittingTimer = 0;
+				var refit = function () {
+					cancelAnimationFrame(fittingTimer);
+					fittingTimer = requestAnimationFrame(function () {
+						markFitting(article);
+					});
+				};
+				window.addEventListener('resize', refit);
+				if (document.fonts && document.fonts.ready) document.fonts.ready.then(refit);
+
 				// ── Vzorce v článku ────────────────────────────────────────
 				// The formula digest is cloned out of the article's own
 				// rendered display math instead of being derived from the
@@ -344,17 +368,92 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 					var section = formulaList.closest('.rail-section');
 					var seen = {};
 					var picked = [];
+					// A formula inside a spoiler is an answer — it must not leak into the digest.
 					article.querySelectorAll('.math-display').forEach(function (node, i) {
+						if (node.closest('.spoiler, .spoiler-block')) return;
 						var key = (node.textContent || '').replace(/\s+/g, '');
 						if (!key || seen[key]) return;
 						seen[key] = true;
 						if (!node.id) node.id = 'vzorec-' + (i + 1);
 						picked.push(node);
 					});
+
+					// What each formula is called, for the small caption above it in the
+					// rail (and its tooltip — a caption also works on a phone, where there
+					// is no hover). In order of preference: the bold lead-in right before
+					// it ("Euklidova věta o výšce:"), else the section heading above it,
+					// tidied up: "2) Goniometrické funkce — sin, cos, tg, cotg" ->
+					// "Goniometrické funkce".
+					var headings = Array.prototype.slice.call(article.querySelectorAll('h2, h3, h4'));
+					var cleanLabel = function (s) {
+						return (s || '')
+							.replace(/\s+/g, ' ')
+							.replace(/^\d+\s*[.)]\s*/, '')
+							.replace(/\s*\([^)]*\)\s*/g, ' ')
+							.replace(/\s+[\u2014\u2013-]\s+.*$/, '')
+							.replace(/[:.\s]+$/, '')
+							.trim();
+					};
+					// lead-ins that structure a text rather than name a formula ("Znění: …",
+					// "Vzorec: …") — for those the section heading is the better label.
+					// ("Příklad" and "Řešení" are kept: they say the formula belongs to a
+					// worked example, which is more useful than the section's own title.)
+					var GENERIC = /^(znění|vzorce?|pozn|poznámka|pozor|definice|značení|důkaz|tip)(?![\p{L}])/iu;
+					// a paragraph that holds nothing but a display formula
+					var isFormulaOnly = function (p) {
+						return (
+							p.tagName === 'P' &&
+							p.children.length === 1 &&
+							p.firstElementChild.classList.contains('math-display') &&
+							(p.textContent || '').trim() === (p.firstElementChild.textContent || '').trim()
+						);
+					};
+					var leadLabel = function (strong) {
+						var label = cleanLabel(strong.textContent);
+						return label && !GENERIC.test(label) ? label : '';
+					};
+					var labelFor = function (node) {
+						var para = node.closest('p');
+						if (para) {
+							// a bold lead-in earlier in the same paragraph ...
+							for (var c = 0; c < para.children.length && para.children[c] !== node; c++) {
+								if (para.children[c].tagName === 'STRONG') {
+									var same = leadLabel(para.children[c]);
+									if (same) return same;
+								}
+							}
+							// ... or opening the paragraph just above — looking past other formulas
+							// that follow the same lead-in ("a² = c·c_a" then "b² = c·c_b")
+							var before = para.previousElementSibling;
+							while (before && isFormulaOnly(before)) before = before.previousElementSibling;
+							if (before && before.tagName === 'P' && before.firstElementChild && before.firstElementChild.tagName === 'STRONG') {
+								var lead = leadLabel(before.firstElementChild);
+								if (lead) return lead;
+							}
+						}
+						var heading = null;
+						for (var h = 0; h < headings.length; h++) {
+							if (headings[h].compareDocumentPosition(node) & Node.DOCUMENT_POSITION_FOLLOWING) heading = headings[h];
+							else break;
+						}
+						return heading ? cleanLabel(heading.textContent) : '';
+					};
+
+					var lastLabel = null;
 					picked.forEach(function (node) {
+						var label = labelFor(node);
+						if (label && label !== lastLabel) {
+							var head = document.createElement('li');
+							head.className = 'rail-formula-heading';
+							head.textContent = label;
+							formulaList.appendChild(head);
+						}
+						lastLabel = label;
+
 						var li = document.createElement('li');
 						var a = document.createElement('a');
 						a.href = '#' + node.id;
+						if (label) a.title = label;
 						var clone = node.cloneNode(true);
 
 						// Split off an explanatory tail like
@@ -426,6 +525,28 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 						formulaList.appendChild(li);
 					});
 					if (picked.length === 0 && section) section.remove();
+
+					// A formula slightly wider than the rail is shrunk to fit (down to a
+					// still-readable size) rather than left to scroll sideways; only one that
+					// is far wider keeps its scrollbar. Re-run whenever the rail's width
+					// changes — it is 0 while the rail is folded away on a narrow screen.
+					var fitFormulas = function () {
+						if (!formulaList.clientWidth) return;
+						formulaList.querySelectorAll('.math-display').forEach(function (el) {
+							el.style.fontSize = '';
+							var size = 1.05;
+							while (el.scrollWidth > el.clientWidth + SLACK && size > 0.76) {
+								size -= 0.04;
+								el.style.fontSize = size.toFixed(2) + 'rem';
+							}
+						});
+						markFitting(formulaList);
+					};
+					if (picked.length > 0) {
+						fitFormulas();
+						if (window.ResizeObserver) new ResizeObserver(fitFormulas).observe(formulaList);
+						if (document.fonts && document.fonts.ready) document.fonts.ready.then(fitFormulas);
+					}
 				}
 
 				// ── Obsah článku: zvýraznění právě čtené sekce ─────────────
