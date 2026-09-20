@@ -52,12 +52,17 @@ folders and the category folders inside them) follow a filesystem convention rea
 - To reorder or relabel subjects/categories: rename the folder and/or edit `_meta.json` —
   no code changes needed. Individual topic files keep their own existing convention
   (`NN-slug.md` filename + `order:` in frontmatter, both already in sync across the archive).
+- **Pages that are not study content** — a signpost (rozcestník), a ŠVP overview, a topic plan, an
+  exam syllabus, a reading list, a formula sheet — sit at `order` ≤ 0, so the numbered content
+  starts at 1: −1 for the signpost that should come first (`literarni-skupiny-…-rozcestnik`,
+  `maturitni-okruhy`, `prehled-vzorcu`, the Cermat outline), 0 for the ŠVP overviews and plans.
 
 ## Markdown pipeline (`src/lib/markdown/`)
 
 Plugins run in this order (`astro.config.mjs`): `remarkLineBreaks` → `remarkProtectMath` →
-`remarkGraph` / `remarkGeometry` / `remarkSolid` (JSON fences → build-time SVG) →
-`rehypeMath` → `rehypeSpoiler` → `rehypeReconNote` → `rehypeAuthorPortrait` → `rehypeRozborLink`.
+`remarkGraph` / `remarkGeometry` / `remarkSolid` (JSON fences → build-time SVG) / `remarkTimeline` /
+`remarkFormulas` (JSON fences → build-time HTML) → `rehypeMath` → `rehypeSpoiler` → `rehypeReconNote` →
+`rehypeAuthorPortrait` → `rehypeRozborLink`.
 
 - **Formulas.** `$…$` / `$$…$$` are typeset at build time with MathLive's SSR renderer. Markdown
   would corrupt LaTeX before it ever reached `rehype-math` (`\{ \} \\ \, \; \!` lose their
@@ -78,7 +83,9 @@ Plugins run in this order (`astro.config.mjs`): `remarkLineBreaks` → `remarkPr
 - **Formula scrollbars.** MathLive's sub/superscript, fraction and root boxes each stick ~2px out
   of their formula, which read as overflow and put a scrollbar under formulas that fit.
   `BaseLayout.astro` (`markFitting`) marks anything within `SLACK` px as `.is-fitting`
-  (`overflow: visible`); only a genuinely too-wide formula keeps its scrollbar.
+  (`overflow: visible`); only a genuinely too-wide formula keeps its scrollbar. `.is-fitting` is
+  also what lets an inline formula sit on the text baseline — a box with `overflow: auto` has its
+  bottom edge as baseline, so a scrolling one has to be centred instead (`vertical-align: middle`).
 - **Line breaks.** `remark-line-breaks.ts` turns a newline inside a paragraph into `<br>`, but
   only for `01-cj`, `02-mat`, `04-it` — their newlines are always intended (Word notes, exercise
   parts `a)` / `b)` that must sit under each other). The other subjects come from PDFs whose
@@ -87,6 +94,23 @@ Plugins run in this order (`astro.config.mjs`): `remarkLineBreaks` → `remarkPr
 - **Content markers.** `||text||` spoiler (may contain formulas and `<br>`), `((text))` "not
   preserved in the source" note, `((obrázek vynechán))` for a lost image — never rebuild a lost
   figure as ASCII art, never invent missing content.
+- **Timeline.** A ```` ```timeline ```` fence holds JSON — `{ "title"?, "items": [{ "name", "href"?, "dates"?,
+  "works"? }] }` — and becomes a vertical axis of numbered nodes (`timeline-html.ts`, `.timeline` in
+  global.css): the period's name (a link) and its `dates` (a string, or an array with one line per
+  entry) to the right of the axis, the `works` (string or array, joined by commas) to its left; in a
+  narrow column (a container query) all text moves to the right. Used for the period overview in
+  `01-cj/02-literatura/literarni-skupiny-a-obdobi-prehled-pojmu.md`. Dates there are only ones the
+  period pages themselves state — don't add a range that the text doesn't support.
+- **Formula sheet.** A ```` ```formulas ```` fence — `{ "sections": [{ "title"?, "items": [{ "label"?,
+  "tex"?, "note"? }] }] }` (or just `"items"`) — becomes a grid of cards, one per formula: the label small
+  above it, the formula in display style (`.math-display` inside `.formula-card`, so it scrolls only
+  when it truly does not fit), a note under it; `label` and `note` may hold `$inline math$`. A formula
+  wider than `WIDE_UNITS` (`formula-sheet-html.ts`, measured in the browser, not guessed) takes a
+  whole row; `fitCards` in `BaseLayout.astro` shrinks one that is a little too wide for its card down
+  to ~0.78× before it is left to scroll. The rail's formula digest skips `.formula-sheet`. LaTeX in
+  the JSON needs doubled backslashes (`"\\frac{a}{b}"`). The renderer typesets through
+  `math-markup.ts`, the one place that calls MathLive (the `\dots` fix included), shared with
+  `rehype-math.ts`.
 - Regexes over Czech text: JS `\b` only knows ASCII letters (`/Řešení\b/` never matches before
   `:`); use `(?!\p{L})` with the `u` flag.
 
@@ -101,8 +125,15 @@ Plugins run in this order (`astro.config.mjs`): `remarkLineBreaks` → `remarkPr
 - The **Klíčové vzorce** rail is cloned from the display formulas of the article. Each formula is
   captioned (and gets a tooltip) with the bold lead-in right before it ("**Euklidova věta o
   výšce:**"), else the tidied section heading ("2) Goniometrické funkce — sin, cos" → "Goniometrické
-  funkce"); generic lead-ins ("Znění:", "Vzorec:") are skipped in favour of the heading. Formulas
-  hidden in a spoiler never appear. A formula a little wider than the rail is shrunk to fit.
+  funkce"). A lead-in counts only when the bold phrase *opens* its paragraph, starts with a capital,
+  holds no formula, and either is the whole paragraph or the paragraph ends with a colon — a bold word
+  inside a sentence ("jsou **kolmé** právě tehdy …") is emphasis, not a title. Numbering ("2b)") is
+  stripped, and of "popis — Název" a capitalised tail wins ("… — Heronův vzorec" → "Heronův vzorec"),
+  a lower-case one is dropped. Generic lead-ins ("Znění:", "Vzorec:") are skipped in favour of the
+  heading. A note tail ("kde s = (a+b+c)/2 …") is shown under the formula with its fractions typeset
+  (words as plain text, the maths between them in a MathLive wrapper) — never flattened with
+  `textContent`. Formulas hidden in a spoiler never appear. A formula a little wider than the rail is
+  shrunk to fit.
 - A figure caption (`"title"` of a graph / geometry / solid block) may use the same subscript
   shorthand as the labels inside the drawing: `v_c`, `log_{1/4} x`.
 
@@ -118,6 +149,15 @@ below 0.8× so a phone keeps readable type. Zoom/pan are kept in paper units as 
 is 16:9 by CSS (`aspect-ratio`), the canvas is out of flow; saved data is versioned (`v: 2`) and the
 old fractional format is migrated on load.
 
+A click without a drag is a dot (a round hole with the eraser) — a stroke of one point is drawn as a
+filled circle — and the brush ring is exactly as wide as the line it draws or the hole it erases (it
+was twice that). A floating task note is resized by dragging the grip in its bottom-right corner
+(the whole note scales with the distance of the pointer from its top-left corner, 0.35–3×, double
+click resets): the factor is `--note-k`, multiplied into `--note-s`, which also drives the note's size
+limits; the grip and the close button grow back as the note shrinks so they stay hittable. In
+fullscreen the toolbar is a vertical pill; its dividers are real `.whiteboard-sep` elements (a
+`border-top` on the buttons was drawn *as* their top border and ran into their corners).
+
 ## Whiteboard tasks (`src/lib/exercises.ts`, `MathScratchpad.astro`)
 
 The math whiteboard offers a "⇥ tabule" button next to each task and a "Zadání" dropdown.
@@ -129,6 +169,19 @@ bullets under a "Úkoly / Procvičování" heading. The statement ends at `Řeš
 gets a **copy of the DOM** (typeset formulas survive; spoilers, buttons and ids are stripped).
 `findExercises()` deliberately uses only sibling/text access so it can be run from Node against
 `dist/` with a parse5-backed shim to check coverage after content changes.
+
+## Math reference (`02-mat/01-reference/`)
+
+The category is labelled "Reference" (as in IT). Besides the ŠVP overview (order 0) it holds
+`prehled-vzorcu.md` (order −1), a formula sheet: per category an `##`, per topic an `###` that links to
+the topic's page, and under it one ```` ```formulas ```` block (nested groups such as square /
+rectangle become titled sections; two tables — intervals, values of the trigonometric functions —
+are copied as they stand). It was assembled from the theory of the topic pages only — no worked
+examples, no DT solutions — and every formula was checked to occur verbatim in the page it is
+attributed to (ignoring whitespace and `\frac` vs `\dfrac`). A note tail such as
+`\qquad\text{kde } …` is moved out of the formula into the card's `note`. Nothing regenerates the
+page: when a topic's formulas change, edit the sheet by hand and repeat the check. Its formulas are
+inside `.formula-sheet`, so the "Klíčové vzorce" rail stays empty (and is removed) on that page.
 
 ## Content conversion checklist
 
