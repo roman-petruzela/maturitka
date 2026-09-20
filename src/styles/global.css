@@ -1385,6 +1385,13 @@ h1 {
 	color: var(--muted);
 }
 
+/* a fraction or index inside the note keeps its typeset form; at the note's own size its
+   numerator and denominator would be unreadably small */
+.rail-formula-note .ML__latex {
+	font-size: 1.35em;
+	vertical-align: middle;
+}
+
 .rail-empty {
 	margin: 0;
 	color: var(--muted);
@@ -1660,6 +1667,11 @@ article.topic tbody tr:hover {
    2px-per-box slack (see BaseLayout.astro, markFitting): no scrollbar for it */
 .math-inline.is-fitting {
 	overflow-x: visible;
+	/* Only a box with overflow: visible has its real text baseline as its own — with
+	   overflow: auto the baseline is the bottom edge, which is why the scrolling box above
+	   has to be centred instead. Aligned on the baseline, the formula sits level with the
+	   words around it (centred, a tall fraction pushed its neighbours up by a few pixels). */
+	vertical-align: baseline;
 }
 
 /* display math sits in its own quiet container rather than floating in the

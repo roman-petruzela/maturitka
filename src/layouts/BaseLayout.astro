@@ -404,13 +404,20 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 					// "Goniometrické funkce".
 					var headings = Array.prototype.slice.call(article.querySelectorAll('h2, h3, h4'));
 					var cleanLabel = function (s) {
-						return (s || '')
+						var t = (s || '')
 							.replace(/\s+/g, ' ')
-							.replace(/^\d+\s*[.)]\s*/, '')
+							.replace(/^(?:\d+[a-z]?|[a-z])\s*[.)]\s*/i, '') // "2)", "2b)", "a)"
 							.replace(/\s*\([^)]*\)\s*/g, ' ')
-							.replace(/\s+[\u2014\u2013-]\s+.*$/, '')
-							.replace(/[:.\s]+$/, '')
 							.trim();
+						// "Obsah pomocí všech stran — Heronův vzorec": a capitalised tail is the name
+						// of the thing and the better label; a lower-case one ("— sin, cos, tg")
+						// only elaborates the heading, so there the front part wins.
+						var dash = /\s+[\u2014\u2013-]\s+/.exec(t);
+						if (dash) {
+							var tail = t.slice(dash.index + dash[0].length);
+							t = /^\p{Lu}/u.test(tail) ? tail : t.slice(0, dash.index);
+						}
+						return t.replace(/[:.\s]+$/, '').trim();
 					};
 					// lead-ins that structure a text rather than name a formula ("Znění: …",
 					// "Vzorec: …") — for those the section heading is the better label.
@@ -426,26 +433,39 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 							(p.textContent || '').trim() === (p.firstElementChild.textContent || '').trim()
 						);
 					};
-					var leadLabel = function (strong) {
-						var label = cleanLabel(strong.textContent);
-						return label && !GENERIC.test(label) ? label : '';
+					// The bold phrase that opens a paragraph and names what follows —
+					// "Euklidova věta o výšce:", "Poloměr kružnice opsané (pomocí …):" — but not
+					// a bold word inside a sentence ("Dva vektory jsou **kolmé** právě tehdy,
+					// když …"), and not one that itself holds a formula. `stop` is the child of
+					// the paragraph where the lead-in text must end (the formula, when it sits
+					// in the same paragraph), or null for the whole paragraph.
+					var leadIn = function (p, stop) {
+						var first = p.firstChild;
+						while (first && first.nodeType === 3 && !(first.textContent || '').trim()) first = first.nextSibling;
+						if (!first || first.tagName !== 'STRONG' || first.querySelector('.math-inline, .math-display')) return '';
+						var bold = (first.textContent || '').trim();
+						var label = cleanLabel(bold);
+						if (!label || GENERIC.test(label) || !/^\p{Lu}/u.test(label)) return '';
+						var text = '';
+						for (var c = p.firstChild; c && c !== stop; c = c.nextSibling) text += c.textContent || '';
+						text = text.trim();
+						// a heading in bold, or a sentence that introduces the formula below it
+						return text === bold || /:$/.test(bold) || /:$/.test(text) ? label : '';
 					};
 					var labelFor = function (node) {
 						var para = node.closest('p');
 						if (para) {
-							// a bold lead-in earlier in the same paragraph ...
-							for (var c = 0; c < para.children.length && para.children[c] !== node; c++) {
-								if (para.children[c].tagName === 'STRONG') {
-									var same = leadLabel(para.children[c]);
-									if (same) return same;
-								}
-							}
-							// ... or opening the paragraph just above — looking past other formulas
+							// a lead-in opening the same paragraph ...
+							var stop = node;
+							while (stop.parentNode && stop.parentNode !== para) stop = stop.parentNode;
+							var same = leadIn(para, stop);
+							if (same) return same;
+							// ... or the paragraph just above — looking past other formulas
 							// that follow the same lead-in ("a² = c·c_a" then "b² = c·c_b")
 							var before = para.previousElementSibling;
 							while (before && isFormulaOnly(before)) before = before.previousElementSibling;
-							if (before && before.tagName === 'P' && before.firstElementChild && before.firstElementChild.tagName === 'STRONG') {
-								var lead = leadLabel(before.firstElementChild);
+							if (before && before.tagName === 'P') {
+								var lead = leadIn(before, null);
 								if (lead) return lead;
 							}
 						}
@@ -486,7 +506,7 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 						// as maths and read as a second, broken equation (or,
 						// for the parenthetical case, as a fragment of maths
 						// notation that wasn't actually notation).
-						var NOTE_RE = /^(kde|pro|kdy|přičemž|resp\.)\b|^\(.+\)[.,;:]?$/i;
+						var NOTE_RE = /^(kde|pro|kdy|přičemž|resp\.)(?![\p{L}])|^\(.+\)[.,;:]?$/iu;
 						var texts = clone.querySelectorAll('.ML__text');
 						var cut = null;
 						for (var t = 0; t < texts.length; t++) {
@@ -495,7 +515,7 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 								break;
 							}
 						}
-						var note = '';
+						var noteNodes = [];
 						if (cut) {
 							// Climb only while the node is the last thing in its
 							// parent. Stopping at the first ancestor that still
@@ -508,35 +528,53 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 							while (top.parentNode && top.parentNode !== clone && !top.nextSibling) {
 								top = top.parentNode;
 							}
+							var host = top.parentNode;
 							var doomed = [];
 							for (var n = top; n; n = n.nextSibling) doomed.push(n);
-							var parts = [];
+							// The tail is re-set as a sentence: its words become plain text in the
+							// caption's own face, everything between them (a fraction, a root, an
+							// index) keeps its typeset markup inside a fresh MathLive wrapper.
+							// Flattening it with textContent turned "s = (a+b+c)/2" into "s = 2a+b+c".
+							var run = null;
 							doomed.forEach(function (n) {
-								parts.push(n.textContent || '');
 								n.parentNode.removeChild(n);
+								if (n.nodeType === 1 && n.classList.contains('ML__text')) {
+									run = null;
+									noteNodes.push(document.createTextNode((n.textContent || '').replace(/\s+/g, ' ')));
+								} else if (n.nodeType === 1) {
+									if (!run) {
+										run = document.createElement('span');
+										run.className = 'ML__latex';
+										run.appendChild(document.createElement('span')).className = 'ML__base';
+										noteNodes.push(run);
+									}
+									run.firstChild.appendChild(n);
+								}
 							});
-							note = parts
-								.join(' ')
-								.replace(/\s+/g, ' ')
-								.replace(/\s+([,.;:)\]])/g, '$1')
-								.replace(/([(\[])\s+/g, '$1')
-								.trim()
-								.replace(/^[,;\s]+/, '');
+							if (noteNodes.length && noteNodes[0].nodeType === 3) {
+								noteNodes[0].textContent = noteNodes[0].textContent.replace(/^[,;\s]+/, '');
+							}
+							// what joined the tail to the formula ("…, \qquad kde …") goes with it
+							while (host.lastChild && !(host.lastChild.textContent || '').replace(/[,;\s​]/g, '')) {
+								host.removeChild(host.lastChild);
+							}
 
 							// If the split left nothing to show as a formula,
 							// it wasn't a formula-plus-prose after all — put it
 							// back and show the original.
 							if (!(clone.textContent || '').trim()) {
 								clone = node.cloneNode(true);
-								note = '';
+								noteNodes = [];
 							}
 						}
 
 						a.appendChild(clone);
-						if (note) {
+						if (noteNodes.length) {
 							var cap = document.createElement('span');
 							cap.className = 'rail-formula-note';
-							cap.textContent = note;
+							noteNodes.forEach(function (n) {
+								cap.appendChild(n);
+							});
 							a.appendChild(cap);
 						}
 						li.appendChild(a);
