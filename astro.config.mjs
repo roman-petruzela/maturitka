@@ -11,13 +11,15 @@ import { remarkLineBreaks } from './src/lib/markdown/remark-line-breaks.ts';
 import { remarkGraph } from './src/lib/markdown/remark-graph.ts';
 import { remarkGeometry } from './src/lib/markdown/remark-geometry.ts';
 import { remarkSolid } from './src/lib/markdown/remark-solid.ts';
+import { remarkTimeline } from './src/lib/markdown/remark-timeline.ts';
+import { remarkFormulas } from './src/lib/markdown/remark-formulas.ts';
 
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://maturitka.petruze.la',
 	integrations: [sitemap()],
 	markdown: {
-		remarkPlugins: [remarkLineBreaks, remarkProtectMath, remarkGraph, remarkGeometry, remarkSolid],
+		remarkPlugins: [remarkLineBreaks, remarkProtectMath, remarkGraph, remarkGeometry, remarkSolid, remarkTimeline, remarkFormulas],
 		rehypePlugins: [rehypeMath, rehypeSpoiler, rehypeReconNote, rehypeAuthorPortrait, rehypeRozborLink],
 	},
 });

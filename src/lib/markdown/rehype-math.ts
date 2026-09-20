@@ -9,31 +9,13 @@
 // instead of one unbreakable one — see formula-breaks.ts.
 import { visit } from 'unist-util-visit';
 import { fromHtmlIsomorphic } from 'hast-util-from-html-isomorphic';
-import { convertLatexToMarkup } from 'mathlive/ssr';
 import type { Root, RootContent, Text, Element } from 'hast';
 import { segmentMath } from './math-segments';
 import { inlineSegments, alignedRows } from './formula-breaks';
-
-// MathLive has no \dots (it knows \ldots and \cdots), so every "1, 2, \dots"
-// in the content rendered as a red error. amsmath's \dots picks the low or
-// the centred version from context — centred next to an operator or a
-// relation ("35+37+\dots+135", "a=b=\dots"), on the baseline otherwise
-// ("1, 2, 3, \dots") — this does the same.
-const OPERATOR_BEFORE = /(?:[+\-=<>:·×÷]|\\(?:cdot|times|div|pm|mp|le|ge|leq|geq|neq|approx))$/;
-const OPERATOR_AFTER = /^(?:[+\-=<>:·×÷]|\\(?:cdot|times|div|pm|mp|le|ge|leq|geq|neq|approx))/;
-
-function fixDots(latex: string): string {
-	return latex.replace(/\\dots(?![a-zA-Z])/g, (match, offset: number, whole: string) => {
-		const before = whole.slice(0, offset).trimEnd();
-		const after = whole.slice(offset + match.length).trimStart();
-		return OPERATOR_BEFORE.test(before) || OPERATOR_AFTER.test(after) ? '\\cdots' : '\\ldots';
-	});
-}
+import { latexToMarkup } from './math-markup';
 
 function mathToHast(latex: string, display: boolean): Element {
-	const markup = convertLatexToMarkup(fixDots(latex), {
-		defaultMode: display ? 'math' : 'inline-math',
-	});
+	const markup = latexToMarkup(latex, display);
 	const fragment = fromHtmlIsomorphic(markup, { fragment: true });
 	return {
 		type: 'element',

@@ -347,11 +347,27 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 						el.classList.toggle('is-fitting', el.scrollWidth - el.clientWidth <= SLACK);
 					});
 				};
+				// A card of a formula sheet (```formulas) that is a little too wide for its column — on a
+				// phone, or between the two column layouts — shrinks its formula (down to ~0.78x)
+				// rather than scrolling it; only a formula far wider than the card keeps its scrollbar.
+				var fitCards = function (root) {
+					root.querySelectorAll('.formula-card .math-display').forEach(function (el) {
+						el.style.fontSize = '';
+						if (el.scrollWidth - el.clientWidth <= SLACK) return;
+						var base = parseFloat(getComputedStyle(el).fontSize);
+						for (var f = 0.96; f > 0.77; f -= 0.04) {
+							el.style.fontSize = (base * f).toFixed(1) + 'px';
+							if (el.scrollWidth - el.clientWidth <= SLACK) return;
+						}
+					});
+				};
+				fitCards(article);
 				markFitting(article);
 				var fittingTimer = 0;
 				var refit = function () {
 					cancelAnimationFrame(fittingTimer);
 					fittingTimer = requestAnimationFrame(function () {
+						fitCards(article);
 						markFitting(article);
 					});
 				};
@@ -369,8 +385,10 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 					var seen = {};
 					var picked = [];
 					// A formula inside a spoiler is an answer — it must not leak into the digest.
+					// A formula sheet (```formulas) is a digest of its own: listing its couple of
+					// hundred cards in the rail again would only repeat the page.
 					article.querySelectorAll('.math-display').forEach(function (node, i) {
-						if (node.closest('.spoiler, .spoiler-block')) return;
+						if (node.closest('.spoiler, .spoiler-block, .formula-sheet')) return;
 						var key = (node.textContent || '').replace(/\s+/g, '');
 						if (!key || seen[key]) return;
 						seen[key] = true;
