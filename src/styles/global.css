@@ -2283,8 +2283,9 @@ article.topic tbody tr:hover {
 	   paper unit — so fullscreen, page zoom or a resize scale the whole picture
 	   and never shift a note against the drawing. Its own size follows the same
 	   factor, but never drops below 0.8 (on a phone the board is ~0.55, and 15px
-	   type would become 8px). */
-	--note-s: max(var(--wb-s, 1), 0.8);
+	   type would become 8px), times --note-k: the factor the user sets by dragging
+	   the note's corner (whiteboard.ts; 1 when untouched). */
+	--note-s: calc(max(var(--wb-s, 1), 0.8) * var(--note-k, 1));
 	left: calc(var(--wx, 12) * var(--wb-s, 1) * 1px);
 	top: calc(var(--wy, 12) * var(--wb-s, 1) * 1px);
 	transform: scale(var(--note-s));
@@ -2337,8 +2338,8 @@ article.topic tbody tr:hover {
 
 .whiteboard-note-close {
 	float: right;
-	width: 1.2rem;
-	height: 1.2rem;
+	width: max(1.3rem, calc(1.6rem / var(--note-k, 1)));
+	height: max(1.3rem, calc(1.6rem / var(--note-k, 1)));
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -2349,11 +2350,35 @@ article.topic tbody tr:hover {
 	background: rgba(0, 0, 0, 0.08);
 	color: #55480a;
 	cursor: pointer;
-	font-size: 0.85rem;
+	font-size: max(0.85rem, calc(1.05rem / var(--note-k, 1)));
 }
 
 .whiteboard-note-close:hover {
 	background: rgba(0, 0, 0, 0.16);
+}
+
+/* bottom-right corner: drag it to scale the whole note (whiteboard.ts sets --note-k). Sticky, so
+   a statement long enough to scroll keeps it in view. Its size cancels a small --note-k, or a
+   note scaled right down would be left with a grip too small to grab. */
+.whiteboard-note-resize {
+	position: sticky;
+	bottom: 0.1rem;
+	width: max(1.1rem, calc(1.5rem / var(--note-k, 1)));
+	height: max(1.1rem, calc(1.5rem / var(--note-k, 1)));
+	margin: 0.2rem 0 0 auto;
+	color: #8a7a2a;
+	cursor: nwse-resize;
+	touch-action: none;
+}
+
+.whiteboard-note-resize:hover,
+.whiteboard-note.is-resizing .whiteboard-note-resize {
+	color: #55480a;
+}
+
+.whiteboard-note.is-resizing {
+	cursor: nwse-resize;
+	user-select: none;
 }
 
 .whiteboard-note-body {

@@ -41,6 +41,7 @@ const PEN_WIDTHS = [
 					))
 				}
 			</div>
+			<span class="whiteboard-sep" aria-hidden="true"></span>
 			<div class="whiteboard-group" role="group" aria-label="Tloušťka pera">
 				{
 					PEN_WIDTHS.map((w, i) => (
@@ -57,6 +58,7 @@ const PEN_WIDTHS = [
 					))
 				}
 			</div>
+			<span class="whiteboard-sep" aria-hidden="true"></span>
 			<div class="whiteboard-exercises" data-whiteboard-exercises>
 				<button
 					type="button"
@@ -75,6 +77,7 @@ const PEN_WIDTHS = [
 					</p>
 				</div>
 			</div>
+			<span class="whiteboard-sep" aria-hidden="true"></span>
 			<button
 				type="button"
 				class="whiteboard-eraser"
@@ -93,6 +96,7 @@ const PEN_WIDTHS = [
 			>
 				<Icon name="trash" size={17} />
 			</button>
+			<span class="whiteboard-sep" aria-hidden="true"></span>
 			<button
 				type="button"
 				class="whiteboard-fullscreen"
@@ -559,15 +563,22 @@ const PEN_WIDTHS = [
 		flex-direction: column;
 	}
 
-	/* thin dividers between tool groups, like Miro's floating toolbar —
-	   only shown once stacked vertically, a horizontal bar reads fine
-	   without them. --muted (not --border) on purpose: --border is close
-	   enough in tone to --card-bg that it nearly vanished against the
-	   toolbar's own background here. */
-	.whiteboard:fullscreen .whiteboard-toolbar > *:not(:first-child) {
-		border-top: 1px solid var(--muted);
-		padding-top: 0.5rem;
-		margin-top: 0.1rem;
+	/* thin dividers between tool groups, like Miro's floating toolbar — only shown once
+	   stacked vertically, a horizontal bar reads fine without them. Real elements in
+	   the flex column, so the toolbar's own gap keeps them clear of the buttons: the
+	   earlier border-top on the buttons was drawn *as* their top border and ran into
+	   its corners. --muted (not --border) on purpose: --border is close enough in tone
+	   to the toolbar's background that it nearly vanished. */
+	.whiteboard-sep {
+		display: none;
+	}
+
+	.whiteboard:fullscreen .whiteboard-sep {
+		display: block;
+		align-self: stretch;
+		height: 1px;
+		margin: 0.2rem 0.1rem;
+		background: color-mix(in srgb, var(--muted) 70%, transparent);
 	}
 
 	.whiteboard:fullscreen .whiteboard-exercises {

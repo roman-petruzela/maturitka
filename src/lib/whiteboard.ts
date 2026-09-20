@@ -213,6 +213,8 @@ export class Whiteboard {
 		const width = this.mode === 'erase' ? this.width * 3 : this.width;
 		this.current = { points: [this.toPaper(e.clientX, e.clientY)], color: this.color, width, mode: this.mode };
 		this.strokes.push(this.current);
+		// a click without a drag is a dot (or, with the eraser, a round hole) — show it now
+		this.redraw();
 	};
 
 	private handlePointerMove = (e: PointerEvent) => {
@@ -251,11 +253,12 @@ export class Whiteboard {
 
 	// diameter/position of the brush-size indicator circle, in CSS pixels — the
 	// stroke's width is in paper units, so its on-screen thickness is
-	// width * fit * zoom
+	// width * fit * zoom. That is the circle's diameter, no more: it used to be
+	// twice that, so the eraser's ring showed a hole twice as big as the one it cut.
 	private updateCursorIndicator(e: PointerEvent) {
 		const rect = this.canvas.getBoundingClientRect();
 		const effectiveWidth = this.mode === 'erase' ? this.width * 3 : this.width;
-		const diameter = Math.max(6, effectiveWidth * this.fit * this.zoom * 2);
+		const diameter = Math.max(6, effectiveWidth * this.fit * this.zoom);
 		this.cursorEl.style.width = `${diameter}px`;
 		this.cursorEl.style.height = `${diameter}px`;
 		this.cursorEl.style.left = `${e.clientX - rect.left}px`;
@@ -282,8 +285,17 @@ export class Whiteboard {
 		ctx.lineCap = 'round';
 		ctx.lineJoin = 'round';
 		for (const stroke of this.strokes) {
-			if (stroke.points.length < 2) continue;
+			if (stroke.points.length === 0) continue;
 			ctx.globalCompositeOperation = stroke.mode === 'erase' ? 'destination-out' : 'source-over';
+			if (stroke.points.length === 1) {
+				// a stroke that never moved: a dot as wide as the line would have been
+				const [p] = stroke.points;
+				ctx.fillStyle = stroke.color;
+				ctx.beginPath();
+				ctx.arc(p.x, p.y, stroke.width / 2, 0, Math.PI * 2);
+				ctx.fill();
+				continue;
+			}
 			ctx.strokeStyle = stroke.color;
 			ctx.lineWidth = stroke.width;
 			ctx.beginPath();
@@ -296,6 +308,13 @@ export class Whiteboard {
 	}
 }
 
+// the note's resize grip: two short diagonal lines in its bottom-right corner
+const NOTE_GRIP =
+	'<svg viewBox="0 0 12 12" width="100%" height="100%" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true"><path d="M11 3.5 3.5 11"/><path d="M11 7.5 7.5 11"/></svg>';
+/** how far the user may scale a note (1 = as it appears) */
+const NOTE_MIN_K = 0.35;
+const NOTE_MAX_K = 3;
+
 // A small draggable "sticky note" showing an exercise's statement, floated over
 // the whiteboard canvas so it stays visible while working the problem.
 // `content` is either plain text or already-built markup (a copy of the
@@ -306,6 +325,12 @@ export class Whiteboard {
 // Like the strokes, a note sits on the paper: its position is stored in paper
 // units (--wx / --wy) and global.css turns them into pixels with the board's
 // --wb-s, so the note keeps its place on the drawing whatever the board's size.
+//
+// The grip in the note's bottom-right corner resizes it: drag it towards or away from the
+// note's top-left corner and the whole note (text and formulas) scales with it, continuously —
+// for when the statement covers the part of the paper one wants to work on. The factor is the
+// `--note-k` custom property (global.css multiplies it into the note's scale); a double click
+// on the grip puts the note back to its own size.
 export function createFloatingNote(container: HTMLElement, content: string | Node) {
 	const existingCount = container.querySelectorAll('.whiteboard-note').length;
 	const boardScale = () => parseFloat(container.style.getPropertyValue('--wb-s')) || 1;
@@ -330,10 +355,47 @@ export function createFloatingNote(container: HTMLElement, content: string | Nod
 		body.append(content);
 	}
 
-	note.append(closeBtn, body);
+	const grip = document.createElement('div');
+	grip.className = 'whiteboard-note-resize';
+	grip.innerHTML = NOTE_GRIP;
+	grip.title = 'Táhni pro změnu velikosti zadání (dvojklik = původní velikost)';
+
+	note.append(closeBtn, body, grip);
 	container.appendChild(note);
 
 	closeBtn.addEventListener('click', () => note.remove());
+
+	// resizing: the corner follows the pointer along the diagonal from the note's top-left
+	let resizing = false;
+	let originX = 0;
+	let originY = 0;
+	let startDist = 1;
+	let startK = 1;
+	grip.addEventListener('pointerdown', (e) => {
+		if (e.pointerType === 'mouse' && e.button !== 0) return;
+		e.stopPropagation(); // not the start of a drag of the whole note
+		e.preventDefault();
+		grip.setPointerCapture(e.pointerId);
+		const rect = note.getBoundingClientRect();
+		originX = rect.left;
+		originY = rect.top;
+		startDist = Math.max(1, Math.hypot(e.clientX - originX, e.clientY - originY));
+		startK = parseFloat(note.style.getPropertyValue('--note-k')) || 1;
+		resizing = true;
+		note.classList.add('is-resizing');
+	});
+	grip.addEventListener('pointermove', (e) => {
+		if (!resizing) return;
+		const k = (startK * Math.hypot(e.clientX - originX, e.clientY - originY)) / startDist;
+		note.style.setProperty('--note-k', String(Math.min(NOTE_MAX_K, Math.max(NOTE_MIN_K, k))));
+	});
+	const endResize = () => {
+		resizing = false;
+		note.classList.remove('is-resizing');
+	};
+	grip.addEventListener('pointerup', endResize);
+	grip.addEventListener('pointercancel', endResize);
+	grip.addEventListener('dblclick', () => note.style.removeProperty('--note-k'));
 
 	let dragging = false;
 	let startX = 0;
@@ -342,7 +404,8 @@ export function createFloatingNote(container: HTMLElement, content: string | Nod
 	let startWy = 0;
 
 	note.addEventListener('pointerdown', (e) => {
-		if (e.target === closeBtn) return;
+		// a press on one of the note's buttons is a click, not the start of a drag
+		if ((e.target as Element).closest('button')) return;
 		dragging = true;
 		note.setPointerCapture(e.pointerId);
 		startX = e.clientX;
