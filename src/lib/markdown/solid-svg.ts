@@ -20,7 +20,7 @@
 //       "labels": [{ "at": [3, 0, 0], "text": "r" }, { "at": [0, 0, 2.5], "text": "v" }],
 //       "title": "Kužel" }
 //     ```
-import { fmt, escapeAttr, labelTspans, wrapSpoiler } from './svg-utils';
+import { fmt, escapeAttr, labelTspans, captionHtml, wrapSpoiler } from './svg-utils';
 
 export type SolidType = 'kvadr' | 'krychle' | 'hranol' | 'jehlan' | 'valec' | 'kuzel' | 'koule' | 'komoly_jehlan' | 'komoly_kuzel';
 
@@ -263,7 +263,7 @@ export function renderSolidSvg(spec: SolidSpec): string {
 	}
 
 	parts.push(`</svg>`);
-	if (title) parts.push(`<figcaption>${escapeAttr(title)}</figcaption>`);
+	if (title) parts.push(`<figcaption>${captionHtml(title)}</figcaption>`);
 	parts.push(`</figure>`);
 
 	return wrapSpoiler(parts.join(''), spec.spoiler, floatClass);

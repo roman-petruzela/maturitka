@@ -6,7 +6,7 @@
 //    the build on every `\frac{a}{b}`; plain markdown doesn't have that
 //    problem, so graphs are authored as data via `compileExpr()` below
 //    instead of as embedded JSX)
-import { fmt, escapeAttr, labelTspans, wrapSpoiler } from './svg-utils';
+import { fmt, escapeAttr, labelTspans, captionHtml, wrapSpoiler } from './svg-utils';
 
 export interface GraphSpec {
 	fn?: (x: number) => number;
@@ -228,7 +228,7 @@ export function renderGraphSvg(spec: GraphSpec): string {
 		if (p.label) parts.push(`<text x="${sx(p.x) + 6}" y="${sy(p.y) - 6}" class="marker-label">${labelTspans(p.label)}</text>`);
 	}
 	parts.push(`</svg>`);
-	if (title) parts.push(`<figcaption>${escapeAttr(title)}</figcaption>`);
+	if (title) parts.push(`<figcaption>${captionHtml(title)}</figcaption>`);
 	parts.push(`</figure>`);
 	return wrapSpoiler(parts.join(''), spec.spoiler, floatClass, 'Klikni pro zobrazení grafu');
 }

@@ -26,6 +26,17 @@ export function labelTspans(s: string): string {
 	return `${escapeAttr(main)}<tspan baseline-shift="sub" font-size="0.7em">${escapeAttr(sub)}</tspan>${escapeAttr(rest)}`;
 }
 
+// The same subscript shorthand for a figure's caption (an HTML <figcaption>, not
+// SVG): "Výška v_c na přeponu" -> "v<sub>c</sub>", "log_{1/4} x" -> "log<sub>1/4</sub> x".
+// Without it the caption showed a literal "v_c" under a drawing whose own labels
+// were already typeset as subscripts.
+export function captionHtml(s: string): string {
+	return escapeAttr(s).replace(
+		/([\p{L}\p{N})\]])_(?:\{([^}]+)\}|([\p{L}\p{N}]+))/gu,
+		(_m, base: string, braced?: string, plain?: string) => `${base}<sub>${braced ?? plain}</sub>`
+	);
+}
+
 // Wraps rendered figure markup with the same click-to-reveal treatment as
 // inline "||spoiler||" text (see rehype-spoiler.ts / .spoiler-block in
 // global.css) — shared by every figure type that wants a hideable answer.

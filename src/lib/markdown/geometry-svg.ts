@@ -14,7 +14,7 @@
 //       "title": "Trojúhelník ABC"
 //     }
 //     ```
-import { fmt, escapeAttr, labelTspans, wrapSpoiler } from './svg-utils';
+import { fmt, escapeAttr, labelTspans, captionHtml, wrapSpoiler } from './svg-utils';
 
 export interface GeometrySpec {
 	points: Record<string, [number, number]>;
@@ -218,7 +218,7 @@ export function renderGeometrySvg(spec: GeometrySpec): string {
 	}
 
 	parts.push(`</svg>`);
-	if (title) parts.push(`<figcaption>${escapeAttr(title)}</figcaption>`);
+	if (title) parts.push(`<figcaption>${captionHtml(title)}</figcaption>`);
 	parts.push(`</figure>`);
 
 	return wrapSpoiler(parts.join(''), spec.spoiler, floatClass);
