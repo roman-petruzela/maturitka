@@ -45,7 +45,9 @@ Vrchol grafu kvadratické funkce označujeme $V$ — je to bod, ve kterém se mo
 
 **a) pomocí vzorce:**
 
-$$V = \left[-\frac{b}{2a};\ -\frac{D}{4a}\right], \quad D = b^2 - 4ac$$
+$$V = \left[-\frac{b}{2a};\ -\frac{D}{4a}\right]$$
+
+$$D = b^2 - 4ac$$
 
 **b) úpravou na čtverec:** pokud $f: y = a(x + m)^2 + n$, pak $V = [-m; n]$.
 

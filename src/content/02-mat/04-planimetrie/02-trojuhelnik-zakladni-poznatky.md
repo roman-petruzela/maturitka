@@ -13,11 +13,17 @@ hasExercises: true
 
 ## Základní vlastnosti
 
-**1) Součet vnitřních úhlů:** $\alpha+\beta+\gamma = 180°$
+**1) Součet vnitřních úhlů:**
+
+$$\alpha+\beta+\gamma = 180°$$
 
 **2) Trojúhelníková nerovnost** (rozhoduje, zda lze trojúhelník vůbec sestrojit): musí platit současně
 
-$$a+b>c, \qquad a+c>b, \qquad b+c>a$$
+$$a+b>c$$
+
+$$a+c>b$$
+
+$$b+c>a$$
 
 (součet libovolných dvou stran musí být větší než strana třetí)
 

@@ -91,9 +91,13 @@ Jinou možností je vyslovit výrok ve tvaru $\neg a\Leftrightarrow(b\land c)$: 
 
 ## Shrnutí vzorců
 
-$$\neg(a\land b) = (\neg a\lor\neg b) \qquad \neg(a\lor b) = (\neg a\land\neg b)$$
+$$\neg(a\land b) = (\neg a\lor\neg b)$$
 
-$$\neg(a\Rightarrow b) = (a\land\neg b) \qquad \neg(a\Leftrightarrow b) = (\neg a\Leftrightarrow b) = (a\Leftrightarrow\neg b)$$
+$$\neg(a\lor b) = (\neg a\land\neg b)$$
+
+$$\neg(a\Rightarrow b) = (a\land\neg b)$$
+
+$$\neg(a\Leftrightarrow b) = (\neg a\Leftrightarrow b) = (a\Leftrightarrow\neg b)$$
 
 ## Příklady
 

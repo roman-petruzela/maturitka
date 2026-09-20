@@ -21,7 +21,9 @@ $$\cos\varphi = \frac{\vec u\cdot\vec v}{|\vec u|\cdot|\vec v|}$$
 
 **Příklad:** Určete úhel vektorů $\vec u=(1;0)$ a $\vec v=(1;1)$.
 
-$$\vec u\cdot\vec v = 1\cdot1+0\cdot1 = 1, \qquad |\vec u|=1,\quad |\vec v|=\sqrt2$$
+$$\vec u\cdot\vec v = 1\cdot1+0\cdot1 = 1$$
+
+$$|\vec u|=1,\quad |\vec v|=\sqrt2$$
 
 $$\cos\varphi = \frac{1}{1\cdot\sqrt2} = \frac{1}{\sqrt2} \implies \varphi = 45°$$
 

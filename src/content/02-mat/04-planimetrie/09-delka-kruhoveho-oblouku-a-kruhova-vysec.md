@@ -11,7 +11,9 @@ hasExercises: true
 
 Vzdálenost mezi body $A$ a $B$ ležícími na kružnici, měřená podél kružnice (ne přímo), je **délka kruhového oblouku** ($l$) kružnice o poloměru $r$ pro daný úhel $\alpha$.
 
-$$l = \frac{2\pi r}{360°}\cdot\alpha \quad \text{(}\alpha\text{ ve stupňové míře)}, \qquad l = \frac{2\pi r}{2\pi}\cdot\alpha = r\alpha \quad \text{(}\alpha\text{ v obloukové míře)}$$
+$$l = \frac{2\pi r}{360°}\cdot\alpha \quad \text{(}\alpha\text{ ve stupňové míře)}$$
+
+$$l = \frac{2\pi r}{2\pi}\cdot\alpha = r\alpha \quad \text{(}\alpha\text{ v obloukové míře)}$$
 
 ```geometry
 {
@@ -46,7 +48,9 @@ Výsledek: ||r = l·360°/(2πα) ≈ 570,31 mm||
 
 Body $S$, $A$, $B$ (střed a dva body na kružnici) vymezují část obsahu kruhu — **kruhovou výseč** ($S_{\text{výs}}$) o poloměru $r$ a úhlu $\alpha$.
 
-$$S_{\text{výs}} = \frac{\pi r^2}{360°}\cdot\alpha \quad \text{(}\alpha\text{ ve stupňové míře)}, \qquad S_{\text{výs}} = \frac{\pi r^2}{2\pi}\cdot\alpha = \frac{r^2\alpha}{2} \quad \text{(}\alpha\text{ v obloukové míře)}$$
+$$S_{\text{výs}} = \frac{\pi r^2}{360°}\cdot\alpha \quad \text{(}\alpha\text{ ve stupňové míře)}$$
+
+$$S_{\text{výs}} = \frac{\pi r^2}{2\pi}\cdot\alpha = \frac{r^2\alpha}{2} \quad \text{(}\alpha\text{ v obloukové míře)}$$
 
 ```geometry
 {

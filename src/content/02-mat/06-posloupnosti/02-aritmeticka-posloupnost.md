@@ -29,7 +29,9 @@ $$a_{n+1} = a_n + d$$
 
 **Příklad:** $a_1=3$, $d=4$. Určete $a_2$, $a_3$.
 
-$$a_2 = a_1+4 = 3+4 = 7, \qquad a_3 = a_2+4 = 7+4 = 11$$
+$$a_2 = a_1+4 = 3+4 = 7$$
+
+$$a_3 = a_2+4 = 7+4 = 11$$
 
 **Výpočet členu pomocí sousedních členů:**
 
@@ -99,7 +101,15 @@ Výsledek: ||a₁=40, d=3, n=12; a₁₂=a₁+(12-1)d=40+11·3=73; S₁₂=12/2�
 
 Aritmetická posloupnost se neustále zvětšuje či zmenšuje o stejnou hodnotu — diferenci $d$.
 
-$$a_{n+1}=a_n+d \qquad a_n=\frac{a_{n+1}+a_{n-1}}{2} \qquad a_n=a_1+(n-1)d \qquad a_r=a_s+(r-s)d \qquad S_n=\frac n2(a_1+a_n)$$
+$$a_{n+1}=a_n+d$$
+
+$$a_n=\frac{a_{n+1}+a_{n-1}}{2}$$
+
+$$a_n=a_1+(n-1)d$$
+
+$$a_r=a_s+(r-s)d$$
+
+$$S_n=\frac n2(a_1+a_n)$$
 
 ## Zdroje
 

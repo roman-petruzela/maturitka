@@ -41,7 +41,9 @@ Ale pozor — Př.: $(2x-5)(x+4)=2x^2-4$ — roznásobíme: $2x^2+8x-5x-20=2x^2-
 
 **a) diskriminant a vzorec pro výpočet kořenů**
 
-$$D = b^2 - 4ac, \qquad x_{1,2} = \frac{-b \pm \sqrt{D}}{2a}$$
+$$D = b^2 - 4ac$$
+
+$$x_{1,2} = \frac{-b \pm \sqrt{D}}{2a}$$
 
 - $D > 0$ → dvě různá řešení
 - $D = 0$ → jeden dvojnásobný kořen
@@ -49,7 +51,9 @@ $$D = b^2 - 4ac, \qquad x_{1,2} = \frac{-b \pm \sqrt{D}}{2a}$$
 
 **b) Vietovy vzorce**
 
-$$x_1 \cdot x_2 = \frac{c}{a}, \qquad x_1 + x_2 = -\frac{b}{a}$$
+$$x_1 \cdot x_2 = \frac{c}{a}$$
+
+$$x_1 + x_2 = -\frac{b}{a}$$
 
 Hledáme dvě čísla, jejichž součin je $c/a$ a součet $-b/a$.
 

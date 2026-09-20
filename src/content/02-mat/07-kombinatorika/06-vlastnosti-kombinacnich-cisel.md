@@ -12,7 +12,9 @@ Kombinační čísla $\binom{n}{k} = \dfrac{n!}{k!(n-k)!}$ mají několik užite
 
 ## Krajní hodnoty
 
-$$\binom{n}{0} = 1, \qquad \binom{n}{n} = 1$$
+$$\binom{n}{0} = 1$$
+
+$$\binom{n}{n} = 1$$
 
 Existuje přesně jeden způsob, jak vybrat „nic" (prázdnou skupinu) nebo jak vybrat „všechno" (celou n-tici) z $n$ prvků.
 

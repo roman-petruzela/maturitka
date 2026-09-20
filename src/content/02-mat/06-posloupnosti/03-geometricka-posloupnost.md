@@ -29,7 +29,9 @@ $$a_{n+1} = a_n \cdot q$$
 
 **Příklad:** $a_1=3$, $q=4$. Určete $a_2$, $a_3$.
 
-$$a_2 = a_1\cdot4 = 3\cdot4 = 12, \qquad a_3 = a_2\cdot4 = 12\cdot4 = 48$$
+$$a_2 = a_1\cdot4 = 3\cdot4 = 12$$
+
+$$a_3 = a_2\cdot4 = 12\cdot4 = 48$$
 
 **Výpočet libovolného členu pomocí prvního členu a kvocientu:**
 
@@ -81,7 +83,13 @@ Výsledek: ||S₁₀=a₁·(q¹⁰-1)/(q-1)=-6·(1024-1)/1=-6·1023=-6138||
 
 Geometrická posloupnost se neustále násobí stejným číslem — kvocientem $q$.
 
-$$a_{n+1}=a_n\cdot q \qquad a_n=a_1\cdot q^{n-1} \qquad a_s=a_r\cdot q^{s-r} \qquad S_n=a_1\cdot\frac{q^n-1}{q-1}\ (q\neq1)$$
+$$a_{n+1}=a_n\cdot q$$
+
+$$a_n=a_1\cdot q^{n-1}$$
+
+$$a_s=a_r\cdot q^{s-r}$$
+
+$$S_n=a_1\cdot\frac{q^n-1}{q-1}\ (q\neq1)$$
 
 ## Zdroje
 

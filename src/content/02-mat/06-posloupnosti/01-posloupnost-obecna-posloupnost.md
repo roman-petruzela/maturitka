@@ -9,7 +9,9 @@ hasExercises: true
 
 **Posloupnost** je řada hodnot (čísel) mající přesné pořadí. Formálně je posloupnost **funkce** — zobrazení množiny přirozených čísel $\mathbb{N}$ do množiny reálných čísel $\mathbb{R}$:
 
-$$1,\ 3,\ 5,\ 7,\ 9,\ \dots \quad\in\mathbb{R} \qquad\qquad 1.,\ 2.,\ 3.,\ 4.,\ 5.,\ \dots \quad\in\mathbb{N}$$
+$$1,\ 3,\ 5,\ 7,\ 9,\ \dots \quad\in\mathbb{R}$$
+
+$$1.,\ 2.,\ 3.,\ 4.,\ 5.,\ \dots \quad\in\mathbb{N}$$
 
 Členy posloupnosti značíme $a_n$ (např. $a_1;a_2;a_3;\dots;a_{n-1};a_n;a_{n+1};\dots$) — index $n$ udává pořadí členu.
 

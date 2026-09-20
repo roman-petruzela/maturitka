@@ -125,7 +125,9 @@ Jiný postup: převedeme oba zlomky na společného jmenovatele.
 
 Racionální čísla lze zapisovat buď ve tvaru **zlomku**, nebo **desetinného čísla** — u desetinného zápisu se vždy dříve nebo později objeví opakující se skupina číslic, tzv. **perioda**:
 
-$$\frac{10}{33} = 0{,}303030\ldots = 0{,}\overline{30} \qquad \frac{15}{22} = 0{,}6818181\ldots = 0{,}6\overline{81}$$
+$$\frac{10}{33} = 0{,}303030\ldots = 0{,}\overline{30}$$
+
+$$\frac{15}{22} = 0{,}6818181\ldots = 0{,}6\overline{81}$$
 
 (V prvním případě je periodou skupina číslic "30", ve druhém "81", následující po úvodní neopakující se číslici 6.)
 

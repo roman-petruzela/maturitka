@@ -17,7 +17,9 @@ a) pojem inverzní funkce, b) ukázkové příklady, c) příklady na procvičen
 
 Nechť je funkce $f$ **prostá** (tj. buď jen rostoucí, nebo jen klesající na celém svém definičním oboru). Pak k ní existuje inverzní funkce $f^{-1}$, pro kterou platí:
 
-$$D(f) = H(f^{-1}), \qquad H(f) = D(f^{-1})$$
+$$D(f) = H(f^{-1})$$
+
+$$H(f) = D(f^{-1})$$
 
 Je-li funkce $f$ rostoucí (klesající), je i funkce $f^{-1}$ rostoucí (klesající).
 

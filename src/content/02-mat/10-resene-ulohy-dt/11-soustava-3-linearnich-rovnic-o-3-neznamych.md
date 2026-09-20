@@ -9,7 +9,11 @@ hasExercises: true
 
 **1)** Řešte soustavu rovnic s neznámými $x,y,z\in\mathbb R$:
 
-$$x+2y=-1 \qquad z-2y=-2 \qquad x-2z=-3$$
+$$x+2y=-1$$
+
+$$z-2y=-2$$
+
+$$x-2z=-3$$
 
 *Podzim 2017, příklad č. 5. Body: 2. Výsledek: uspořádaná trojice $[-3;1;0]$.*
 

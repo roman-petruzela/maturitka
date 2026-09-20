@@ -42,11 +42,17 @@ Např. vzdálenost Země od Slunce $\approx1{,}496\cdot10^{8}\text{ km}$, hmotno
 
 Pro každé reálné číslo $a\neq0$ a každá přirozená čísla $r$, $s$ platí:
 
-$$a^r\cdot a^s = a^{r+s} \qquad \frac{a^r}{a^s} = a^{r-s}\ (r>s) \qquad (a^r)^s = a^{r\cdot s}$$
+$$a^r\cdot a^s = a^{r+s}$$
+
+$$\frac{a^r}{a^s} = a^{r-s}\ (r>s)$$
+
+$$(a^r)^s = a^{r\cdot s}$$
 
 Pro každá dvě reálná čísla $a$, $b$ a každé přirozené číslo $r$ platí:
 
-$$(a\cdot b)^r = a^r\cdot b^r \qquad \left(\frac{a}{b}\right)^r = \frac{a^r}{b^r}\ (b\neq0)$$
+$$(a\cdot b)^r = a^r\cdot b^r$$
+
+$$\left(\frac{a}{b}\right)^r = \frac{a^r}{b^r}\ (b\neq0)$$
 
 ## Zdroje
 

@@ -9,7 +9,9 @@ hasExercises: true
 
 **Jehlan** je geometrické těleso, jehož podstavou je mnohoúhelník. Boční stěny (plášť) jsou tvořeny trojúhelníky, které mají jeden společný bod — **vrchol jehlanu**. **Tělesová výška** $v$ je vzdálenost vrcholu jehlanu od roviny podstavy. **Stěnová výška** $s$ je vzdálenost vrcholu jehlanu od podstavné hrany (výška bočního trojúhelníku).
 
-$$S = S_p + S_{pl} \qquad V = \frac13 S_p \cdot v$$
+$$S = S_p + S_{pl}$$
+
+$$V = \frac13 S_p \cdot v$$
 
 kde $S_p$ je obsah podstavy a $S_{pl}$ obsah pláště.
 
@@ -17,7 +19,9 @@ kde $S_p$ je obsah podstavy a $S_{pl}$ obsah pláště.
 
 Má čtvercovou podstavu a vrchol kolmo nad průsečíkem úhlopříček. Podstava: $S_p=a^2$. Plášť tvoří čtyři shodné trojúhelníky o základně $a$ a výšce $s$, tedy $S_{pl}=4\cdot\frac{a\cdot s}{2}=2as$.
 
-$$S = a^2 + 2as \qquad V = \frac13 a^2 v$$
+$$S = a^2 + 2as$$
+
+$$V = \frac13 a^2 v$$
 
 Tělesová výška $v$, stěnová výška $s$ a polovina podstavné hrany $\frac{a}{2}$ tvoří pravoúhlý trojúhelník — platí mezi nimi Pythagorova věta ($s^2=v^2+\left(\frac{a}{2}\right)^2$) i goniometrické funkce.
 
@@ -29,7 +33,9 @@ Tělesová výška $v$, stěnová výška $s$ a polovina podstavné hrany $\frac
 
 Jehlan, jehož podstavu i všechny tři boční stěny tvoří shodné rovnostranné trojúhelníky (všechny hrany mají stejnou délku $a$).
 
-$$S = a^2\sqrt3 \qquad V = \frac{1}{12}a^3\sqrt2$$
+$$S = a^2\sqrt3$$
+
+$$V = \frac{1}{12}a^3\sqrt2$$
 
 ```solid
 { "type": "jehlan", "params": { "n": 3, "r": 0.577, "v": 0.8165 }, "title": "Pravidelný čtyřstěn (a = 1)" }

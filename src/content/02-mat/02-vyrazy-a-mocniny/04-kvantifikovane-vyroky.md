@@ -20,13 +20,18 @@ Výroky s obecným kvantifikátorem nazýváme **obecné**, s existenčním **ex
 
 Kvantifikujeme-li úvodní sdělení, dostaneme skutečný výrok:
 
-$$\text{Pro všechna reálná čísla } a,b \text{ platí } (a+b)^2=a^2+2ab+b^2. \qquad \forall a,b\in\mathbb{R}: \big((a+b)^2=a^2+2ab+b^2\big)$$
+Pro všechna reálná čísla $a,b$ platí $(a+b)^2=a^2+2ab+b^2$.
+
+$$\forall a,b\in\mathbb{R}: \big((a+b)^2=a^2+2ab+b^2\big)$$
 
 Další příklady:
 
-- Existuje alespoň jedno kladné přirozené číslo. $\quad \exists n\in\mathbb{N}: n>0$
-- Pro každé reálné číslo $a$ platí: $(-a)^2=a^2$. $\quad \forall a\in\mathbb{R}: (-a)^2=a^2$
-- Existuje alespoň jedno přirozené číslo $a$ takové, že $a+1=2$. $\quad \exists a\in\mathbb{N}: a+1=2$
+- Existuje alespoň jedno kladné přirozené číslo.
+  $\exists n\in\mathbb{N}: n>0$
+- Pro každé reálné číslo $a$ platí: $(-a)^2=a^2$.
+  $\forall a\in\mathbb{R}: (-a)^2=a^2$
+- Existuje alespoň jedno přirozené číslo $a$ takové, že $a+1=2$.
+  $\exists a\in\mathbb{N}: a+1=2$
 
 **Příklad:** Pomocí kvantifikátorů utvořte z následujících vět pravdivé výroky:
 

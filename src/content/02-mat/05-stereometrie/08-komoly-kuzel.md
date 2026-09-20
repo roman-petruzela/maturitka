@@ -11,7 +11,11 @@ hasExercises: true
 
 Povrch tvoří dvě kruhové podstavy a plášť (výseč mezikruží):
 
-$$S_{P1} = \pi r_1^2 \qquad S_{P2} = \pi r_2^2 \qquad S_{pl} = \pi(r_1+r_2)s$$
+$$S_{P1} = \pi r_1^2$$
+
+$$S_{P2} = \pi r_2^2$$
+
+$$S_{pl} = \pi(r_1+r_2)s$$
 
 $$S = \pi r_1^2 + \pi r_2^2 + \pi(r_1+r_2)s$$
 

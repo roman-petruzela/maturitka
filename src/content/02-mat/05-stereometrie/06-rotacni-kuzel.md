@@ -17,7 +17,9 @@ Rozvinutý plášť je kruhová výseč, jejíž délka oblouku je rovna obvodu 
 
 $$S_{pl} = \pi r s$$
 
-$$S = S_p + S_{pl} = \pi r^2 + \pi r s = \pi r(r+s) \qquad V = \frac13 \pi r^2 v$$
+$$S = S_p + S_{pl} = \pi r^2 + \pi r s = \pi r(r+s)$$
+
+$$V = \frac13 \pi r^2 v$$
 
 ```solid
 { "type": "kuzel", "params": { "r": 3, "v": 4 }, "labels": [{ "at": [3, 0, 0], "text": "r" }, { "at": [0, 0, 2], "text": "v" }, { "at": [1.5, 0, 2], "text": "s" }], "title": "Rotační kužel" }

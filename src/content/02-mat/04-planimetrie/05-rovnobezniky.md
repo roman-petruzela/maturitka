@@ -13,9 +13,15 @@ hasExercises: true
 
 Rovinný útvar se čtyřmi vrcholy ABCD, čtyřmi stejně velkými stranami a čtyřmi vnitřními pravými úhly. Má dvě stejně velké úhlopříčky ($u_1=u_2$), které mezi sebou svírají pravý úhel a rozdělují čtverec na čtyři shodné pravoúhlé rovnoramenné trojúhelníky.
 
-$$o=4a, \qquad S=a^2=\frac12 u^2, \qquad u = a\sqrt2$$
+$$o=4a$$
 
-$$\rho = \frac{a}{2}\ \text{(poloměr kružnice vepsané)}, \qquad r = \frac{u}{2}\ \text{(poloměr kružnice opsané)}$$
+$$S=a^2=\frac12 u^2$$
+
+$$u = a\sqrt2$$
+
+$$\rho = \frac{a}{2}\ \text{(poloměr kružnice vepsané)}$$
+
+$$r = \frac{u}{2}\ \text{(poloměr kružnice opsané)}$$
 
 ```geometry
 {
@@ -50,7 +56,13 @@ Výsledek: ||0,08 ha = 800 m², a = √800 ≈ 28,28 m, pletivo na 3 strany = 3a
 
 Rovinný útvar se čtyřmi vrcholy ABCD, čtyřmi stranami (protilehlé strany stejně dlouhé) a čtyřmi vnitřními pravými úhly. Má dvě stejně velké úhlopříčky ($u_1=u_2$), které mezi sebou **nesvírají** pravý úhel a rozdělují obdélník na čtyři rovnoramenné trojúhelníky (dva protilehlé páry jsou shodné). Platí $\alpha=\alpha'$, $\beta=\beta'$.
 
-$$o = 2(a+b), \qquad S = a\cdot b, \qquad u=\sqrt{a^2+b^2}, \qquad r=\frac{u}{2}$$
+$$o = 2(a+b)$$
+
+$$S = a\cdot b$$
+
+$$u=\sqrt{a^2+b^2}$$
+
+$$r=\frac{u}{2}$$
 
 ```geometry
 {

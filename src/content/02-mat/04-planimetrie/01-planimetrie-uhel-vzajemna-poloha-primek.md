@@ -58,7 +58,13 @@ $$1° = \frac{1\cdot\pi}{180}\text{ rad} \approx 0{,}017\text{ rad}$$
 
 Proto např.:
 
-$$30° = \frac{30\pi}{180} = \frac{\pi}{6}\text{ rad}, \quad 60° = \frac{60\pi}{180}=\frac{\pi}{3}\text{ rad}, \quad 90° = \frac{\pi}{2}\text{ rad}, \quad 120° = \frac{2\pi}{3}\text{ rad}$$
+$$30° = \frac{30\pi}{180} = \frac{\pi}{6}\text{ rad}$$
+
+$$60° = \frac{60\pi}{180}=\frac{\pi}{3}\text{ rad}$$
+
+$$90° = \frac{\pi}{2}\text{ rad}$$
+
+$$120° = \frac{2\pi}{3}\text{ rad}$$
 
 ## Úkol 2
 

@@ -38,7 +38,9 @@ Prochází-li přímka body $A$, $B$, je jejím směrovým vektorem $\vec s=\ove
 
 **Příklad:** Najděte směrový a normálový vektor přímky $AB$, kde $A=[2;-1]$, $B=[5;3]$.
 
-$$\vec s = B-A = (3;4), \qquad \vec n = (4;-3)$$
+$$\vec s = B-A = (3;4)$$
+
+$$\vec n = (4;-3)$$
 
 ## Příklady
 

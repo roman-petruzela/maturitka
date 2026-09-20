@@ -11,7 +11,11 @@ hasExercises: true
 
 Poloměr podstavy značíme $r$, průměr podstavy $d$, vzdálenost mezi podstavami (výšku válce) $v$. Pokud plášť válce rozvineme do roviny, dostaneme obdélník, jehož jedna strana má délku $v$ a druhá délku obvodu podstavy $2\pi r$.
 
-$$S_p = \pi r^2 \qquad S_{pl} = 2\pi r v \qquad S = 2S_p + S_{pl} = 2\pi r^2 + 2\pi r v = 2\pi r(r+v)$$
+$$S_p = \pi r^2$$
+
+$$S_{pl} = 2\pi r v$$
+
+$$S = 2S_p + S_{pl} = 2\pi r^2 + 2\pi r v = 2\pi r(r+v)$$
 
 $$V = S_p \cdot v = \pi r^2 v$$
 

@@ -9,7 +9,9 @@ hasExercises: true
 
 **Kolmý hranol** je těleso, které se skládá ze dvou shodných a rovnoběžných podstav a pláště; boční stěny svírají s rovinou podstavy pravý úhel.
 
-$$V = S_p \cdot v \qquad S = 2S_p + S_{pl}$$
+$$V = S_p \cdot v$$
+
+$$S = 2S_p + S_{pl}$$
 
 kde $S_p$ je obsah podstavy, $v$ je výška (vzdálenost mezi podstavami) a $S_{pl}$ je obsah pláště (součet obsahů bočních stěn — u hranolu s podstavou o obvodu $o$ platí $S_{pl}=o\cdot v$).
 
@@ -22,7 +24,9 @@ Hranoly dělíme podle podstav na:
 
 **Krychle** je speciální případ kolmého hranolu — pravidelný čtyřboký hranol, jehož výška je stejná jako délka podstavné hrany. Všech šest stěn krychle jsou shodné čtverce.
 
-$$V = a^3 \qquad S = 6a^2$$
+$$V = a^3$$
+
+$$S = 6a^2$$
 
 kde $a$ je délka hrany krychle.
 
@@ -34,7 +38,9 @@ kde $a$ je délka hrany krychle.
 
 **Kvádr** je speciální případ kolmého hranolu, jehož podstavou je obdélník. Rozměry kvádru značíme $a$, $b$, $c$ (délka, šířka, výška).
 
-$$V = a\cdot b\cdot c \qquad S = 2ab + 2ac + 2bc = 2(ab+ac+bc)$$
+$$V = a\cdot b\cdot c$$
+
+$$S = 2ab + 2ac + 2bc = 2(ab+ac+bc)$$
 
 ```solid
 { "type": "kvadr", "params": { "a": 5, "b": 3, "c": 2 }, "labels": [{ "at": [5, 0, 0], "text": "a" }, { "at": [5, 3, 0], "text": "b" }, { "at": [5, 3, 1], "text": "c" }], "title": "Kvádr" }

@@ -31,9 +31,13 @@ Podmnožiny reálných čísel, které lze znázornit jako úsečku, polopřímk
 
 **Příklad:** Zapište intervaly $\{x\in\mathbb{R};-k\leq x\leq k\}$, $\{x\in\mathbb{R};-k<x<k\}$, $\{x\in\mathbb{R};-k\leq x<k\}$ a $\{x\in\mathbb{R};-k<x\leq k\}$ v intervalovém tvaru.
 
-$$\{x\in\mathbb{R};-k\leq x\leq k\} = \langle -k;k\rangle \qquad \{x\in\mathbb{R};-k<x<k\} = (-k;k)$$
+$$\{x\in\mathbb{R};-k\leq x\leq k\} = \langle -k;k\rangle$$
 
-$$\{x\in\mathbb{R};-k\leq x<k\} = \langle -k;k) \qquad \{x\in\mathbb{R};-k<x\leq k\} = (-k;k\rangle$$
+$$\{x\in\mathbb{R};-k<x<k\} = (-k;k)$$
+
+$$\{x\in\mathbb{R};-k\leq x<k\} = \langle -k;k)$$
+
+$$\{x\in\mathbb{R};-k<x\leq k\} = (-k;k\rangle$$
 
 ## Zdroje
 

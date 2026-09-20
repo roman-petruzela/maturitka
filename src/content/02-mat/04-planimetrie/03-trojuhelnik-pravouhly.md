@@ -55,9 +55,13 @@ Výsledek: ||úhlopříčka AC = 50√2 ≈ 70,71 m, cesta přes B = 50+50 = 100
 
 ## 2) Goniometrické funkce — sin, cos, tg, cotg
 
-$$\sin\alpha = \frac{\text{protilehlá}}{\text{přepona}} = \frac{a}{c}, \qquad \cos\alpha = \frac{\text{přilehlá}}{\text{přepona}} = \frac{b}{c}$$
+$$\sin\alpha = \frac{\text{protilehlá}}{\text{přepona}} = \frac{a}{c}$$
 
-$$\mathrm{tg}\,\alpha = \frac{\text{protilehlá}}{\text{přilehlá}} = \frac{a}{b}, \qquad \mathrm{cotg}\,\alpha = \frac{\text{přilehlá}}{\text{protilehlá}} = \frac{b}{a}$$
+$$\cos\alpha = \frac{\text{přilehlá}}{\text{přepona}} = \frac{b}{c}$$
+
+$$\mathrm{tg}\,\alpha = \frac{\text{protilehlá}}{\text{přilehlá}} = \frac{a}{b}$$
+
+$$\mathrm{cotg}\,\alpha = \frac{\text{přilehlá}}{\text{protilehlá}} = \frac{b}{a}$$
 
 **Pozn.:** pozor, při úhlu $\beta$ (u vrcholu B) je naopak strana $b$ protilehlá tomuto úhlu a strana $a$ přilehlá.
 
@@ -87,9 +91,15 @@ Výsledek: ||tg α = a/b = 6/9 ≈ 0,6667, α = arctg(0,6667) ≈ 33°41'24''||
 
 Pro pravoúhlý trojúhelník s výškou $v_c$ na přeponu $c$, která ji rozděluje na úseky $c_a$ (u vrcholu A) a $c_b$ (u vrcholu B), platí $c=c_a+c_b$ a:
 
-**Euklidova věta o výšce:** $\qquad v_c^2 = c_a \cdot c_b$
+**Euklidova věta o výšce:**
 
-**Euklidova věta o odvěsnách:** $\qquad a^2 = c\cdot c_a, \qquad b^2 = c\cdot c_b$
+$$v_c^2 = c_a \cdot c_b$$
+
+**Euklidova věta o odvěsnách:**
+
+$$a^2 = c\cdot c_a$$
+
+$$b^2 = c\cdot c_b$$
 
 ```geometry
 {
@@ -105,7 +115,7 @@ Pro pravoúhlý trojúhelník s výškou $v_c$ na přeponu $c$, která ji rozdě
     { "at": "C", "from": "A", "to": "B", "rightAngle": true },
     { "at": "P", "from": "C", "to": "B", "rightAngle": true }
   ],
-  "title": "Výška v_c na přeponu — Eukleidovy věty"
+  "title": "Výška v_c k přeponě c ji dělí na úseky c_a a c_b — z toho vycházejí Euklidovy věty"
 }
 ```
 

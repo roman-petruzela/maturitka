@@ -21,7 +21,11 @@ To už je složitější — zlomek můžeme takto rozdělit jen podle sčítán
 
 $$2275 : 7 = 325$$
 
-$$22:7=3\ (\text{zbytek }1),\quad 17:7=2\ (\text{zbytek }3),\quad 35:7=5\ (\text{zbytek }0)$$
+$$22:7=3\ (\text{zbytek }1)$$
+
+$$17:7=2\ (\text{zbytek }3)$$
+
+$$35:7=5\ (\text{zbytek }0)$$
 
 U mnohočlenů postupujeme úplně stejně — jen místo "nejvyšší cifry" hledáme člen s **nejvyšší mocninou**.
 

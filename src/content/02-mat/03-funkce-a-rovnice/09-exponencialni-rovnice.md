@@ -24,7 +24,13 @@ Exponenciální rovnice je rovnice ve tvaru $a^v = b$, kde $a \in \mathbb{R}^+ \
 
 **b) Vzorce pro práci s mocninami:**
 
-$$a^r \cdot a^s = a^{r+s}, \qquad a^r : a^s = a^{r-s}, \qquad (a^r)^s = a^{r \cdot s}, \qquad (a^r \cdot b^s)^v = a^{r \cdot v} \cdot b^{s \cdot v}$$
+$$a^r \cdot a^s = a^{r+s}$$
+
+$$a^r : a^s = a^{r-s}$$
+
+$$(a^r)^s = a^{r \cdot s}$$
+
+$$(a^r \cdot b^s)^v = a^{r \cdot v} \cdot b^{s \cdot v}$$
 
 ## Postup řešení
 

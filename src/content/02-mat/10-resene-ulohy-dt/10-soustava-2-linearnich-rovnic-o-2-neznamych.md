@@ -11,7 +11,9 @@ hasExercises: true
 
 **1)** Pro $x\in\mathbb R$, $y\in\mathbb R\setminus\{0\}$ je dána soustava rovnic:
 
-$$\frac xy=4 \qquad 2x-5y=-3$$
+$$\frac xy=4$$
+
+$$2x-5y=-3$$
 
 a) Vypočtěte hodnotu neznámé $x$. b) Vypočtěte hodnotu neznámé $y$.
 
@@ -53,7 +55,9 @@ d) $x=y+2 \implies x-y=2$; $y=x-2 \implies -x+y=-2$. Sečteme: $0=0$ — pravdiv
 
 **3)** Pro $x\in\mathbb R$, $y\in\mathbb R\setminus\{0\}$ řešte:
 
-$$\frac{x+1}y=4 \qquad 2x-4y=-6$$
+$$\frac{x+1}y=4$$
+
+$$2x-4y=-6$$
 
 *Podzim 2014, příklad č. 6. Body: 2. Výsledek: $K=\{[-5;-1]\}$.*
 
@@ -67,7 +71,9 @@ $$\frac{x+1}y=4 \qquad 2x-4y=-6$$
 
 **1i)** V $\mathbb R^2$ řešte soustavu rovnic:
 
-$$1-2x=1 \qquad \frac5{1-y}-6=0$$
+$$1-2x=1$$
+
+$$\frac5{1-y}-6=0$$
 
 *2014 (2), příklad č. 5. Body: 3. Výsledek: $K=\left\{\left[0;\tfrac16\right]\right\}$; podmínky $y\neq1$.*
 

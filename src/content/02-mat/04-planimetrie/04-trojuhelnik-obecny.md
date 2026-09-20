@@ -44,9 +44,13 @@ $$S = \frac12 ab\sin\gamma = \frac12 ac\sin\beta = \frac12 bc\sin\alpha$$
 
 ## Další vzorce
 
-$$r = \frac{abc}{4S} \quad\text{— poloměr kružnice opsané (pomocí všech stran a obsahu trojúhelníku)}$$
+**Poloměr kružnice opsané** (pomocí všech stran a obsahu trojúhelníku):
 
-$$\rho = \frac{S}{s} \quad\text{— poloměr kružnice vepsané (pomocí obsahu a polovičního obvodu)}$$
+$$r = \frac{abc}{4S}$$
+
+**Poloměr kružnice vepsané** (pomocí obsahu a polovičního obvodu):
+
+$$\rho = \frac{S}{s}$$
 
 ## Úkol 1
 

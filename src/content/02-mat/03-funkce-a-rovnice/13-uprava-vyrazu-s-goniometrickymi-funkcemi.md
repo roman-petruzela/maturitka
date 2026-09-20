@@ -22,13 +22,21 @@ a) pojem výraz s goniometrickými funkcemi, b) vzorce a vztahy pro řešení, c
 
 **Algebraické vzorce:**
 
-$$(a+b)^2 = a^2+2ab+b^2, \qquad (a-b)^2 = a^2-2ab+b^2, \qquad a^2-b^2 = (a-b)(a+b)$$
+$$(a+b)^2 = a^2+2ab+b^2$$
+
+$$(a-b)^2 = a^2-2ab+b^2$$
+
+$$a^2-b^2 = (a-b)(a+b)$$
 
 **Goniometrické vztahy:**
 
 $$\sin^2 x + \cos^2 x = 1$$
 
-$$\mathrm{tg}\,x = \frac{\sin x}{\cos x}, \qquad \mathrm{cotg}\,x = \frac{\cos x}{\sin x}, \qquad \mathrm{tg}\,x \cdot \mathrm{cotg}\,x = 1$$
+$$\mathrm{tg}\,x = \frac{\sin x}{\cos x}$$
+
+$$\mathrm{cotg}\,x = \frac{\cos x}{\sin x}$$
+
+$$\mathrm{tg}\,x \cdot \mathrm{cotg}\,x = 1$$
 
 $$\sin 2x = 2\sin x \cos x$$
 
