@@ -4,12 +4,15 @@
 // field — no separate KaTeX/MathJax dependency or font set needed).
 //
 // What counts as a formula is decided by math-segments.ts (shared with
-// remark-math-raw.ts, which puts the original LaTeX back before this runs).
+// remark-protect-math.ts, which puts the original LaTeX back before this runs).
+// Long derivations ("A \implies B \implies C …") are laid out in several rows / boxes
+// instead of one unbreakable one — see formula-breaks.ts.
 import { visit } from 'unist-util-visit';
 import { fromHtmlIsomorphic } from 'hast-util-from-html-isomorphic';
 import { convertLatexToMarkup } from 'mathlive/ssr';
 import type { Root, RootContent, Text, Element } from 'hast';
 import { segmentMath } from './math-segments';
+import { inlineSegments, alignedRows } from './formula-breaks';
 
 // MathLive has no \dots (it knows \ldots and \cdots), so every "1, 2, \dots"
 // in the content rendered as a red error. amsmath's \dots picks the low or
@@ -40,12 +43,27 @@ function mathToHast(latex: string, display: boolean): Element {
 	};
 }
 
+// One formula as one or more nodes. A long chain of steps becomes an aligned block (display)
+// or several inline boxes with ordinary spaces between them (inline) — the spaces are
+// where a paragraph can wrap.
+function mathNodes(latex: string, display: boolean): RootContent[] {
+	if (display) return [mathToHast(alignedRows(latex) ?? latex, true)];
+	const parts = inlineSegments(latex);
+	if (!parts) return [mathToHast(latex, false)];
+	const out: RootContent[] = [];
+	parts.forEach((part, i) => {
+		if (i > 0) out.push({ type: 'text', value: ' ' } as Text);
+		out.push(mathToHast(part, false));
+	});
+	return out;
+}
+
 function splitTextNode(node: Text): RootContent[] | null {
 	if (!node.value.includes('$')) return null;
 	const segments = segmentMath(node.value);
 	if (!segments.some((s) => s.type === 'math')) return null;
-	return segments.map((seg) =>
-		seg.type === 'math' ? mathToHast(seg.value, !!seg.display) : ({ type: 'text', value: seg.value } as Text)
+	return segments.flatMap((seg): RootContent[] =>
+		seg.type === 'math' ? mathNodes(seg.value, !!seg.display) : [{ type: 'text', value: seg.value } as Text]
 	);
 }
 
