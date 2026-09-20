@@ -1,6 +1,6 @@
 ---
 title: "Tematický plán (přehled látky)"
-order: 3
+order: 0
 source: "osy/plán.docx"
 ---
 - základní pojmy
