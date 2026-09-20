@@ -67,6 +67,18 @@ Plugins run in this order (`astro.config.mjs`): `remarkLineBreaks` → `remarkPr
   (same rule on both sides). MathLive has **no `\dots`** — `rehype-math` maps it to `\ldots` /
   `\cdots` by context. After touching any of this, a build must show **zero** `ML__error`
   (grep the built HTML) and no leaked `\ue000…\ue001` tokens.
+- **Long derivations.** MathLive's static output is one rigid box, so a solution written as
+  `A \implies B \implies C …` used to overflow its column with a scrollbar. `formula-breaks.ts`
+  (pure, testable from Node) finds the top-level relations and `rehype-math` then lays a long
+  *display* out as an `aligned` block (arrow at the start of each row; long `=` chains lined up on
+  the `=`) and cuts a long *inline* formula into several inline boxes separated by ordinary spaces —
+  the places a paragraph can wrap, as in TeX. Only algebra is touched (there must be a `=`/`<`/`>`
+  in it): a propositional formula uses the same arrows as connectives. Widths are estimated with
+  `visualWidth()` (a fraction is as wide as its wider half), not LaTeX length.
+- **Formula scrollbars.** MathLive's sub/superscript, fraction and root boxes each stick ~2px out
+  of their formula, which read as overflow and put a scrollbar under formulas that fit.
+  `BaseLayout.astro` (`markFitting`) marks anything within `SLACK` px as `.is-fitting`
+  (`overflow: visible`); only a genuinely too-wide formula keeps its scrollbar.
 - **Line breaks.** `remark-line-breaks.ts` turns a newline inside a paragraph into `<br>`, but
   only for `01-cj`, `02-mat`, `04-it` — their newlines are always intended (Word notes, exercise
   parts `a)` / `b)` that must sit under each other). The other subjects come from PDFs whose
@@ -77,6 +89,34 @@ Plugins run in this order (`astro.config.mjs`): `remarkLineBreaks` → `remarkPr
   figure as ASCII art, never invent missing content.
 - Regexes over Czech text: JS `\b` only knows ASCII letters (`/Řešení\b/` never matches before
   `:`); use `(?!\p{L})` with the `u` flag.
+
+## Writing formulas in content
+
+- One formula per `$$…$$` block. Never join independent formulas with `\qquad` / `\quad` (sin and
+  cos, the two Euclid theorems, `V = …` and `S = …` each get their own block) and never use `\qquad`
+  to fake indentation after an inline label — put the label in its own bold paragraph and the
+  formula in a display under it.
+- A sentence does not belong inside a display (`\text{— poloměr kružnice…}`): write it as prose. A
+  short condition or note tail (`\qquad (b\neq0)`, `\quad\text{kde } s=…`) is fine.
+- The **Klíčové vzorce** rail is cloned from the display formulas of the article. Each formula is
+  captioned (and gets a tooltip) with the bold lead-in right before it ("**Euklidova věta o
+  výšce:**"), else the tidied section heading ("2) Goniometrické funkce — sin, cos" → "Goniometrické
+  funkce"); generic lead-ins ("Znění:", "Vzorec:") are skipped in favour of the heading. Formulas
+  hidden in a spoiler never appear. A formula a little wider than the rail is shrunk to fit.
+- A figure caption (`"title"` of a graph / geometry / solid block) may use the same subscript
+  shorthand as the labels inside the drawing: `v_c`, `log_{1/4} x`.
+
+## Whiteboard (`src/lib/whiteboard.ts`)
+
+Strokes, notes and the ruled paper share one coordinate system, a fixed **paper** of
+`FRAME_W × FRAME_H` (640 × 360) units. The paper is fitted into the canvas element with a single
+factor for both axes (`fit = min(w / FRAME_W, h / FRAME_H)`, published as `--wb-s` on the board),
+anchored top-left. So fullscreen, page zoom or a resized window scale the *same picture* — they
+must never restretch it, which is what storing 0..1 fractions of the element did. Pen widths are in
+paper units too; notes position themselves with `--wx/--wy` × `--wb-s` (global.css) and never drop
+below 0.8× so a phone keeps readable type. Zoom/pan are kept in paper units as well. The small board
+is 16:9 by CSS (`aspect-ratio`), the canvas is out of flow; saved data is versioned (`v: 2`) and the
+old fractional format is migrated on load.
 
 ## Whiteboard tasks (`src/lib/exercises.ts`, `MathScratchpad.astro`)
 
