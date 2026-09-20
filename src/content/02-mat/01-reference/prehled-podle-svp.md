@@ -1,6 +1,6 @@
 ---
 title: "Přehled matematiky podle ŠVP"
-order: 1
+order: 0
 source: "src/content/it/reference/svp-prehled.md (§4.4.1 Matematika)"
 ---
 
