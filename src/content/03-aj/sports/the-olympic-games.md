@@ -3,9 +3,10 @@ title: "The Olympic Games"
 order: 25
 source: "MATURITA HADR/ANJ/Témata/Témata/Sports/The Olympic Games/25_olympic_games.pdf"
 ---
-sport
 
-# **<mark>the olyMPic gAMes</mark>** Tragedy struck the Olympics Mark Spitz winning a record during the Munich games in seven medals, in 1972, and in **Memorable** 1972. Eleven members of the 1976 Romanian gymnast Nadia Israeli Olympic team **were** Comaneci becoming the first **kidnapped** and killed by gymnast **to receive a perfect moments or** Palestinian terrorists. **ten score from the judges** . The Cold War also **interfered** In the 1990s, professional **with** the Olympics. In 1980, athletes were allowed to the US **boycotted** the games compete for the first time, **a political tool?** held in Moscow to protest resulting in the legendary
+# **The Olympic Games**
+
+((Text z rámečků, sloupce se při převodu promíchaly.)) Tragedy struck the Olympics Mark Spitz winning a record during the Munich games in seven medals, in 1972, and in **Memorable** 1972. Eleven members of the 1976 Romanian gymnast Nadia Israeli Olympic team **were** Comaneci becoming the first **kidnapped** and killed by gymnast **to receive a perfect moments or** Palestinian terrorists. **ten score from the judges** . The Cold War also **interfered** In the 1990s, professional **with** the Olympics. In 1980, athletes were allowed to the US **boycotted** the games compete for the first time, **a political tool?** held in Moscow to protest resulting in the legendary
 
 Mark Spitz winning a record seven medals, in 1972, and in 1976 Romanian gymnast Nadia Comaneci becoming the first gymnast **to receive a perfect ten score from the judges** .
 
@@ -13,11 +14,11 @@ The Cold War also **interfered with** the Olympics. In 1980, the US **boycotted*
 
 In the 1990s, professional athletes were allowed to compete for the first time, resulting in the legendary _Dream Team_ , the American basketball team **that featured** players such as Michael Jordan and Larry Bird.
 
-**this August the city of Beijing, chinA, will host the 29th suMMer olyMPics. through the yeArs the olyMPics hAve not AlwAys Met the goAl of Being PeAceful And APoliticAl, But they hAve BecoMe A PArt of our world culture, And hAve given us MAny thrilling And unforgettABle MoMents.**
+**this August the city of Beijing, china, will host the 29th summer olympics. through the years the olympics have not Always Met the goal of Being Peaceful And Apolitical, But they have Become A Part of our world culture, And have given us Many thrilling And unforgettable Moments.**
 
-#### **the 2008 gAMes**
+#### **The 2008 Games**
 
-#### **MAgic MoMents**
+#### **Magic Moments**
 
 Over the years there have been many performances that have thrilled the world. The 1924 games inspired the 1981 UK Oscar-winning film _Chariots of Fire_ , about two British athletes.
 
@@ -45,7 +46,7 @@ brought... to the world stage [steIdZ] - uvedla... na světovou scénu incredibl
 
 apolitical [eIp@"lItIk(@)l] - apolitický, nepolitický thrilling and memorable [ TrIlIN "mEm(@)r@b(@)l] - vzrušujících a nezapomenutelných
 
-#### **Modern tiMes**
+#### **Modern Times**
 
 Ironically, **it took a war to bring about the beginnings of** the modern **Olympics** . A Frenchman, Baron Pierre de Coubertin, tried to find the reason his nation was defeated in the Franco-Prussian War (1870 - 71). His **conclusion** was that the Prussian soldiers were in much better physical condition than the French. Coubertin thought a regular meeting of nations to compete in athletics would help **prevent** war, and, if another war did come, the games would also make his countrymen more fit to fight. Other Europeans liked the idea, and in 1896 the first modern Olympics were held in Athens, Greece. The games were a huge success, and with 250 athletes representing 14 countries, it was **up to that**
 
@@ -75,17 +76,15 @@ su:%pI@rI"QrIti] - rasová nadřazenost
 
 - to boycot ["bOIkQt] - bojkotovat
 
-**32** Bridge 06/2007–2008
-
 patrick phillips (USA)
 
-## summer olympic
+## Summer Olympic
 
-## disciplines
+## Disciplines
 
-**there Are 28 sPorts rePresented in the 2008 olyMPics, eAch including vArious disciPlines. in totAl, there will Be over 300 events (coMPetitions in which MedAls Are AwArded).**
+**there Are 28 sports represented in the 2008 olympics, each including various disciplines. in total, there will Be over 300 events (competitions in which Medals Are Awarded).**
 
-**PArticiPAnts will coMPete in swiMMing, diving, cycling, Boxing, cAnoeing, BAseBAll, BAsketBAll, footBAll, gyMnAstics, judo, tennis, shooting, weightlifting And MAny More sPorts. one of the Most PoPulAr suMMer olyMPics sPorts is Athletics – And here Are A few of the Most wAtched Athletic disciPlines:**
+**Participants will compete in swimming, diving, cycling, Boxing, canoeing, Baseball, Basketball, football, gymnastics, judo, tennis, shooting, weightlifting And Many More sports. one of the Most Popular summer olympics sports is Athletics – And here Are A few of the Most watched Athletic disciplines:**
 
 **100 meters** is the shortest sprint in outdoor athletics. From the moment **the starting gun goes off** , participants give everything they have in a **burst** of speed. Ten seconds later it is over, and the sprinters wait another four years to do it again.
 
@@ -107,4 +106,3 @@ The **marathon** is the longest race in athletics. Participants must run a road 
 
 **Discus, javelin, shot put, hammer throw** : The goal of the four throwing disciplines is similar – throw something farther than anyone else. The discus, similar to a frisbee (flying disc), and the javelin can both be thrown great distances. The shot (a metal ball) and the hammer are very heavy, and so the distances they can be thrown are much shorter.
 
-Bridge 06/2007–2008 **33**

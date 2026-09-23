@@ -3,47 +3,7 @@ title: "The Czech Republic - UNESCO"
 order: 16
 source: "MATURITA HADR/ANJ/Témata/Témata/The Czech Republic/The Czech Republic - UNESCO/16_czech_republic_unesco.pdf"
 ---
-GeoGraphy
 
-**10**
-
-Bridge 06 − 2008/2009
-
-<!-- Start of picture text -->
-c<br><!-- End of picture text -->
-
-<!-- Start of picture text -->
-ec<br><!-- End of picture text -->
-
-<!-- Start of picture text -->
-t<br><!-- End of picture text -->
-
-<!-- Start of picture text -->
-H<br><!-- End of picture text -->
-
-<!-- Start of picture text -->
-e<br><!-- End of picture text -->
-
-<!-- Start of picture text -->
-Z<br><!-- End of picture text -->
-
-<!-- Start of picture text -->
-H<br><!-- End of picture text -->
-
-<!-- Start of picture text -->
-lic<br><!-- End of picture text -->
-
-<!-- Start of picture text -->
-re<br><!-- End of picture text -->
-
-<!-- Start of picture text -->
-P<br><!-- End of picture text -->
-
-<!-- Start of picture text -->
-B<br><!-- End of picture text -->
-
-<!-- Start of picture text -->
-u<br><!-- End of picture text -->
 
 **the czech republic seldom makes headlines, but this year’s czech presidency of the eu might increase awareness of this medium-sized state in central europe. Prague is usually the first thing that comes to mind, as the birthplace of Kafka or the picturesque backdrop to the Velvet revolution. But the czech state has more in store.**
 
@@ -65,9 +25,9 @@ The historical roots of the Czech state **can be traced back to** the 10<sup>th<
 
 Mountains form natural boundaries in the north (Krkonoše), south (Šumava) and west (Krušné Mountains). The highest **peak** is Sněžka (1,602 m) in the Krkonoše mountain range. The major European river the Elbe **rises** in Krkonoše too.
 
-# **tHe 12 WoNDers ON THE UNESCO LIST**
+# **The 12 Wonders on the UNESCO List**
 
-**Because of the state’s long and eventful history, there are numerous castles, palaces and places of interest presenting different architectural styles. some of them have been listed as uNesco sights and are under the protection of this international organisation.**
+**Because of the state’s long and eventful history, there are numerous castles, palaces and places of interest presenting different architectural styles. some of them have been listed as unesco sights and are under the protection of this international organisation.**
 
 ### **1. the Historical centre of**
 
@@ -98,10 +58,6 @@ As every Czech knows, ‘lednice’ means ‘refrigerator’ but this chateux co
 as Krkonoše, Šumava (with the **remains of primeval forests** ), Czech Paradise ( **sandstone** rock formations in the north) and Moravian Karst (a series of caves and the **gorge** Macocha). **Ryan Scott (Australia), Zuzana Sklenková (CR)**
 
 The interior is more of a plain, broken by small hills, rivers and streams. The Moravian landscape has **lowlands** in the south as well as mountains such as Jeseníky in the north and Beskydy in the east. Natural beauty spots include national parks in mountains such
-
-**11**
-
-Bridge 06 − 2008/2009
 
 **A)**
 
@@ -147,7 +103,7 @@ This historical centre includes St. Prokopius’ Romanesque‑Gothic basilica as
 
 **Try to match each UNESCO sight to the right photo.**
 
-**tasK**
+**Task**
 
 **_Solution on p. 3_**
 

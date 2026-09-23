@@ -5,14 +5,11 @@ source: "MATURITA HADR/ANJ/Témata/Témata/USA/The Cities of the USA/09_usa_citi
 ---
 { **facts** }
 
-# **<mark>the UNited StateS</mark>** Jacy Meyer (USA) **<mark>of america</mark>**
-
-<!-- Start of picture text -->
-Jacy Meyer<br>(USA)<br><!-- End of picture text -->
+# **The United States of America**
 
 **Population:** 300 million **Area:** 9,631,420 sq km **Capital:** Washington
 
-##### **The flAG**
+##### **The Flag**
 
 The US flag, nicknamed the “Stars and Stripes”, has 13 stripes of red and white, representing the original 13 colonies of the new nation. The blue square in the upper left corner contains 50 white stars, **standing for** the 50 states. In the original flag from 1777 no real details were described, so many of the country’s early flags looked different. In 1818, President Monroe **adopted a bill** that described the basic design of the flag. In 1949, Congress made a **permanent nationwide observance** of Flag Day every year on June 14 (but it’s not a federal holiday).
 
@@ -36,7 +33,7 @@ Death Valley National Park, situated south-east of the Sierra Nevada mountains, 
 
 The forest in the Great Smoky Mountains National Park in North Carolina and Tennessee is responsible for the park’s name. The trees **give off water vapor and an oily residue** which covers the mountains and fills the valleys with a **smoke-like haze** .
 
-### **US cUltUral citieS**
+### **US Cultural Cities**
 
 Thanks to some of the films that come out of Hollywood, many people think the US is a cultural **wasteland** . But both the country and its citizens enjoy a variety of monuments, museums, concerts, and other artistic **venues** located mainly in the country’s larger cities.
 
@@ -48,12 +45,9 @@ Carnegie Hall is a concert venue in Manhattan known not only for its beauty and 
 
 The Metropolitan Museum of Art, the “Met” as it’s popularly known, is one of the most important art institutions in the world.
 
-66 Bridge 06/2006–2007
+((obrázek vynechán))
 
-<!-- Start of picture text -->
-4<br>Seattle<br>3<br>New<br>York<br>Chicago<br>San<br>Francisco Washington D. C.<br>Grand  Denver<br>Death  Canyon<br>Valley<br>Great<br>Los  Smoky<br>Angeles 1 Carlsbad  Mountains 5<br>Caverns<br>2<br>Houston<br>Mount<br>Everglades<br>McKinley National<br>Park<br>ALASKA<br>Rokcy Moutnians<br><!-- End of picture text -->
-
-#### **TAsk**
+#### **Task**
 
 Can you guess the names of the states which have been coloured on the map? Then match the following facts to them.
 
@@ -71,7 +65,7 @@ Moving south along the Atlantic coast we visit Washington D.C., the nation’s c
 
 - **D)** This state is well known for its desert landscape with cactuses and impressive rocks (Monument Valley).
 
-#### **los angeles**
+#### **Los Angeles**
 
 If you jump across the country to the west coast, you’ll find Los Angeles, California. Many people are familiar with L.A. because of Hollywood, but there are lots of other interesting things to see. Los Angeles has more than 4 million people, and is **ethnically diverse** , with many **residents** moving to the city from Latin America and Asia. One popular tourist spot is Mann’s Chinese Theater, built in 1927 to be the world’s greatest cinema. It’s famous for the **autographs** of wellknown movie stars written in cement in the theater’s **courtyard** .
 
@@ -109,4 +103,3 @@ Measures
 
 Columbia is an old nickname for the present-day USA. It originated from the name of Christopher Columbus, who discovered the continent. Today, it still appears in the names of some places, institutions and things, e.g. District of Columbia, Columbia University in New York, or the spaceship Columbia.
 
-> Bridge 06/2006–2007 7

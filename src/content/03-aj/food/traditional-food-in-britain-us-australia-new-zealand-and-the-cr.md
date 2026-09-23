@@ -47,8 +47,6 @@ Despite what you read in phrase books, we hardly use the term waiter or waitress
 
 If you ask for water, it will be **straight from the tap** unless you say mineral water. Tap water is safe to drink everywhere in the UK and you should not be charged for it.
 
-26 Bridge 06/2006–2007
-
 { **food** }
 
 A take-away is when you order the food and then take it away to eat either in the car, the park or at home. Chinese and Indian take-aways are very popular. Take-aways do not have to be cheap, and some are very expensive.
@@ -107,8 +105,6 @@ salsa - a spicy Mexican sauce made from tomatoes, chillies, onions and spices; i
 
 Burrito, the name of a tasty Mexican meal, literally means “little donkey” in Spanish.
 
-> Bridge 06/2006–2007 27
-
 { **food** }
 
 Jeff Gulley, **Canadian** Gerald Taylor (Canada) **specialties**
@@ -148,8 +144,6 @@ These days, many New Zealanders enjoy eating Pipis and Toheora - both New Zealan
 In both countries, there is nothing better to eat on a cold day than a hot **meat pie** with tomato sauce (not ketchup). However, throughout the whole year people like to have barbeques or barbies. There are barbie sites everywhere by the beaches and in parks, and
 
 Flake, the flesh of small shark, has a mild flavour and a clean white appearance. Thanks to its low price it became the most common type of fish to be served in Australian fish and chip shops.
-
-28 Bridge 06/2006–2007
 
 { **food** }
 
@@ -209,4 +203,3 @@ _Řízek_ is a meal which is difficult to translate but easy to eat. Traditional
 
 - to je neslýchaná věc
 
-> Bridge 06/2006–2007 29

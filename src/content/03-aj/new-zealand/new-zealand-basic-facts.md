@@ -3,11 +3,10 @@ title: "New Zealand - Basic Facts"
 order: 20
 source: "MATURITA HADR/ANJ/Témata/Témata/New Zealand/New Zealand - Basic Facts/20_new_zeland_basic_facts.pdf"
 ---
-11
 
-# **~~<u>New Zealand</u>~~**
+# **<u>New Zealand</u>**
 
-**~~Total area:~~** ~~268,680 sq km~~ **~~Population:~~** ~~4 million~~ **~~Capital:~~** ~~Wellington~~
+**Total area:** 268,680 sq km **Population:** 4 million **Capital:** Wellington
 
 ## **Geography**
 
@@ -45,9 +44,25 @@ Marie Šormová, Phil Jones (Great Britain)
 
 New Zealand is a constitutional monarchy in which the British monarch is the formal head of state and **appoints** a governor−general. **Legislative power resides with the single−chamber** House of Representatives (Parliament), whose members are elected for three−year terms. The party that has a majority in the House forms the government, which comprises the prime minister (the leader of the winning party) and their ministers. There are two major parties − National and Labour.
 
-### vocabulary
+### Vocabulary
 
-**glacial lake** ["gleISl leIk] − ledovcové jezero **mainly for** − hlavnì kvùli **ancestor** ["&nsEst@] − pøedchùdce **tradesman** ["treIdzm@n] − obchodník **took control of... by right of discovery** [k@n"tr@Ul dI"skVv(@)ri] − ovládla... právem objevitele **treaty** ["tri:ti] − dohoda, smlouva **to break out** − vypuknout **were not willing to sell... to the newcomers and felt deceived** ["nju:kVm@z dI"si:vd] − nebyli ochotni prodat... pøistìhovalcùm a cítili se podvedeni **resistance** [rI"zIst(@)ns] − odpor **effort... culminated** ["Ef@t "kVlmIneItId] − snaha... vyvrcholila **to appoint** [@"pOInt] − jmenovat **legislative power resides with the single− chamber** ["lEdZIsl@tIv rI"zaIdz "tSeImb@] − zákonodárná moc pøísluší jednokomorovému **descent** [dI"sEnt] − pùvod **easygoing** [%i:zi"g@UIN] − pohodový **celebrates those values admirable about this nation** ["v&lju:z "&dm(@)r@b(@)l] − oslavuje vlastnosti, které jsou na tomto národu obdivuhodné **comradeship** ["kQmreIdSIp] − kamarádství, soudr�nost **self−sacrifice** [%sElf"s&krIfaIs] − obìtavost **star formation** [fO:"meIS(@)n] − souhvìzdí
+- **glacial lake** ["gleISl leIk] − ledovcové jezero
+- **mainly for** − hlavně kvůli
+- **ancestor** ["&nsEst@] − předchůdce
+- **tradesman** ["treIdzm@n] − obchodník
+- **took control of... by right of discovery** [k@n"tr@Ul dI"skVv(@)ri] − ovládla... právem objevitele
+- **treaty** ["tri:ti] − dohoda, smlouva
+- **to break out** − vypuknout **were not willing to sell... to the newcomers and felt deceived** ["nju:kVm@z dI"si:vd] − nebyli ochotni prodat... přistěhovalcům a cítili se podvedeni
+- **resistance** [rI"zIst(@)ns] − odpor
+- **effort... culminated** ["Ef@t "kVlmIneItId] − snaha... vyvrcholila
+- **to appoint** [@"pOInt] − jmenovat
+- **legislative power resides with the single− chamber** ["lEdZIsl@tIv rI"zaIdz "tSeImb@] − zákonodárná moc přísluší jednokomorovému
+- **descent** [dI"sEnt] − původ
+- **easygoing** [%i:zi"g@UIN] − pohodový
+- **celebrates those values admirable about this nation** ["v&lju:z "&dm(@)r@b(@)l] − oslavuje vlastnosti, které jsou na tomto národu obdivuhodné
+- **comradeship** ["kQmreIdSIp] − kamarádství, soudržnost
+- **self−sacrifice** [%sElf"s&krIfaIs] − obětavost
+- **star formation** [fO:"meIS(@)n] − souhvězdí
 
 ## **People**
 

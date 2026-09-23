@@ -5,18 +5,17 @@ source: "MATURITA HADR/ANJ/Témata/Témata/The Czech Republic/The Czech Republic
 ---
 { **facts** }
 
-# **the CzeCh republiC**
+# **The Czech Republic**
 
-<!-- Start of picture text -->
-Zuzana Pernicová,<br>Marie Luhanová,<br>Patrick Philips (USA)<br><!-- End of picture text -->
+((obrázek vynechán))
 
 **Population** : 10 million **Area** : 78,866 sq km **Capital:** Prague **Location** : inland country in central Europe **Major cities:** Brno, Ostrava, Zlín, Plzeň, Hradec Králové
 
-#### **The fLAg:**
+#### **The Flag:**
 
 **Karlštejn** , one of the most famous Czech castles, was founded in the 14th century by Charles IV as a place for keeping the coronation jewels and other treasures.
 
-### **CzeCh history**
+### **Czech History**
 
 the 9<sup>th</sup> century, the Czech state was **unified** by the Přemyslids (who ruled the country until 1306) and prospered.
 
@@ -38,13 +37,11 @@ After the collapse of the Austro-Hungarian Empire at the end of WWI, Czechs and 
 
 A Czech statesman, **Tomáš garrigue Masaryk** (1850 - 1937), supported democratic policies and defended Czechoslovak independence during WWI. He became the first president of Czechoslovakia.
 
-16 Bridge 06/2006–2007
-
 After the war, Czechoslovakia was **restored** , but soon it **fell under the rule** of the communist party **and the influence** of the Soviet Union. In 1989, it gained freedom through a peaceful revolution and in 1993 it **split into** two independent states. In 2004, both the Czech Republic and Slovakia joined the European Union.
 
-### **CzeCh personalities**
+### **Czech Personalities**
 
-### **sport**
+### **Sport**
 
 Football is probably the most popular sport in the Czech Republic. Several top Czech footballers play in the most prestigeous European clubs. Ice-hockey enjoys huge popularity too. Many excellent hockey players in NHL teams in the US and Canada are
 
@@ -68,7 +65,7 @@ A leader of the “new wave” of Czechoslovak cinema in the 1960s, **Miloš for
 
 There is one sport **particular to** the Czech Republic - _nohejbal_ . It is similar to volleyball, but players kick the ball over a low net with their feet.
 
-### **art**
+### **Art**
 
 A brilliant novelist, journalist, and playwright, **Karel Čapek** (1890 - 1938), **coined** the word _robot_ in his play _R.U.R._ **Milan Kundera** (b. 1929) **,** the contemporary author, reached international fame with
 
@@ -90,4 +87,3 @@ split [splIt] - rozdělení, rozpad tribe [traIb] - kmen to settle ["sEt(@)l] - 
 
 - specifický pro to coin [kOIn] - vytvořit gained worldwide recognition [rEk@g"nIS(@)n] - si získal celosvětový věhlas branch of electrochemistry [brA:n(t)S IlEktr@U"kEmIstri] - odvětví elektrochemie cultural heritage ["kVltS(@)r(@)l "hErItIdZ] - kulturní dědictví
 
-> Bridge 06/2006–2007 17

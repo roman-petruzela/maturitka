@@ -3,9 +3,8 @@ title: "Australia - Basic Facts"
 order: 18
 source: "MATURITA HADR/ANJ/Témata/Témata/Australia/Australia - Basic Facts/18_australia_basic_facts.pdf"
 ---
-10
 
-# **~~<u>Australia</u>~~**
+# **<u>Australia</u>**
 
 ## **Geography**
 
@@ -19,7 +18,7 @@ Aborigines and Torres Straight Islanders were the original Australians. Differen
 
 The Australian flag is dark blue, with the flag of the United Kingdom in the upper left hand corner. The lower left hand corner **contains** a **seven pointed** star known as the Commonwealth Star. Each of the star's points represents one of the six **sovereign** states, and the seventh point represents all of the territories. The rest of the flag is a picture of **the Southern Cross constellation** , which can only be seen in the **southern hemisphere** . It has one small star and four larger ones.
 
-**~~Total area:~~** ~~7,686,850 sq km~~ **~~Population:~~** ~~20 million~~ **<u>Capital:</u>** <u>Canberra</u>
+**Total area:** 7,686,850 sq km **Population:** 20 million **<u>Capital:</u>** <u>Canberra</u>
 
 **The Sydney Opera House is one of the most distinctive and famous 20th century buildings in the world. The building and its surroundings form a typical Australian image.**
 
@@ -39,9 +38,23 @@ Dagmar Prosková, Jacy Meyer (USA)
 
 In 1901, the Commonwealth of Australia was founded and the six colonies (New South Wales, Victoria, Queensland, South Australia, Western Australia and Tasmania) **federated** as sovereign states.
 
-### vocabulary
+### Vocabulary
 
-**the driest** − nejsušší **the lowest rainfall rates** ["reInfO:l] − nejni�ší srá�ky **three−quarters** ["kwO:t@z] − tøi ètvrtiny **depending on** [dI"pEndIN] − podle toho **explorer** [Ik"splOr@] − prùzkumník, objevitel **to claim** [kleIm] − nárokovat si **penal colony** ["pi:n(@)l "kQl@ni] - trestanecká kolonie **convict** [k@n"vIkt] − odsouzenec **the new settlers disrupted the lifestyle of the indigenous people** ["sEtl@z dIs"rVptId In"dIdZIn@s] − noví osadníci narušili �ivotní styl pùvodních obyvatel **to federate** ["fEd@reIt] − spojit se, vytvoøit federaci **to recognize** ["rEk@gnaIz] − uznávat **to contain** [k@n"teIn] − obsahovat **seven pointed** − sedmicípá **sovereign** ["sQvrIn] − nezávislý, suverénní (stát) **the Southern Cross constellation** ["sVD(@)n kQnst@"leIS(@)n] − souhvìzdí Ji�ní køí� **southern hemisphere** ["sVD(@)n "hEmIsfI@] − ji�ní polokoule
+- **the driest** − nejsušší
+- **the lowest rainfall rates** ["reInfO:l] − nejnižší srážky
+- **three−quarters** ["kwO:t@z] − tři čtvrtiny
+- **depending on** [dI"pEndIN] − podle toho
+- **explorer** [Ik"splOr@] − průzkumník, objevitel
+- **to claim** [kleIm] − nárokovat si
+- **penal colony** ["pi:n(@)l "kQl@ni] - trestanecká kolonie
+- **convict** [k@n"vIkt] − odsouzenec **the new settlers disrupted the lifestyle of the indigenous people** ["sEtl@z dIs"rVptId In"dIdZIn@s] − noví osadníci narušili životní styl původních obyvatel
+- **to federate** ["fEd@reIt] − spojit se, vytvořit federaci
+- **to recognize** ["rEk@gnaIz] − uznávat
+- **to contain** [k@n"teIn] − obsahovat
+- **seven pointed** − sedmicípá
+- **sovereign** ["sQvrIn] − nezávislý, suverénní (stát)
+- **the Southern Cross constellation** ["sVD(@)n kQnst@"leIS(@)n] − souhvězdí Jižní kříž
+- **southern hemisphere** ["sVD(@)n "hEmIsfI@] − jižní polokoule
 
 ## **Political system**
 

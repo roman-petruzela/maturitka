@@ -2,11 +2,10 @@
 title: "Charles Dickens - Oliver Twist"
 source: "MATURITA HADR/ANJ/Témata/Témata/Literature/Charles Dickens - Oliver Twist/olivertwist.pdf"
 ---
-6 L i T e R AT u R e
 
 oliver running away from the scene of a crime that he didn’t commit.
 
-# **a GlooMY CHildHood**
+# **A Gloomy Childhood**
 
 ## **Charles dickens’** **_Oliver Twist_**
 
@@ -14,25 +13,21 @@ oliver running away from the scene of a crime that he didn’t commit.
 
 sympathy for the poor. Other details came from Dickens’s work as a journalist and the records he made of his times.
 
-##### **workhouse blues**
+##### **Workhouse Blues**
 
 In Victorian Britain, when people had no work or were incredibly poor, they went to a **workhouse**<sup>**7**</sup> similar to the one at the beginning of _Oliver Twist_ . A typical job was picking the **fibres**<sup>**8**</sup> ( **oakum**<sup>**9**</sup> ) from old ropes. Oakum was mainly used for repairing holes in ships. The job was very boring and after a few hours the hands of the people **would bleed**<sup>**10**</sup> .
 
 Dickens is sometimes considered a ‘difficult’ author because of his complex language. However, Polanski’s richly-detailed film presents the story in an entertaining way. Moreover, he gives a sense of the working and living conditions of Victorian children.
 
-##### **dangerous chimneys**
+##### **Dangerous Chimneys**
 
 Some of the story is based on Dickens’ own life. Though not an orphan like Oliver, he had to work in a **boot-blacking factory**<sup>**5**</sup> when his father was sent to a **debtors’ prison**<sup>**6**</sup> . The experience left a lasting
 
 When Oliver did not become an **apprentice**<sup>**11**</sup> to a master **chimney sweep**<sup>**12**</sup> , he was saved from a **fate**<sup>**13**</sup> worse than the workhouse. Many real-life Victorian boys were not so lucky, and boys as young as six,
 
-#### **charleS DIckeNS** (1812–1870)
+#### **Charles Dickens** (1812–1870)
 
 is the most famous english writer of the Victorian era. in that era, for the first time in history, books were becoming widely bought and read. Thanks to that, Dickens enjoyed greater popularity than any author before him. His works were often first published as series in newspapers. He was a master of realism and comedy, and had a gift for description. His characters are ‘larger-than-life’ (= have strong, memorable personalities) and immediately recognizable.
-
-2011 | november | **BRIDGE**
-
-7
 
 Children were particularly good pickpockets.
 
@@ -42,7 +37,7 @@ many of them orphans, were apprenticed to master chimney sweeps. The work was ve
 
 Factory work and life in **overcrowded**<sup>**16**</sup> , dirty cities sharply reduced **life expectancy**<sup>**17**</sup> . For **undertakers**<sup>**18**</sup> it was a **boom-time**<sup>**19**</sup> . Apprentice undertakers would help with cleaning the shop, building
 
-### wHo IS wHo
+### Who Is Who
 
 **Oliver Twist** (Barney Clark) an orphaned boy who was born in a workhouse and grows up in a harsh, uncaring environment, and poverty.
 
@@ -52,7 +47,7 @@ Factory work and life in **overcrowded**<sup>**16**</sup> , dirty cities sharply
 
 coffins and preparing bodies. Dickens had a very low opinion of undertakers and thought they only made money from other people’s misery. When Oliver is an apprentice to the undertaker Sowerberry, Polanski highlights this negative opinion by showing Sowerberry taking **snuff**<sup>**20**</sup> from a **coffin-shaped**<sup>**21**</sup> box.
 
-##### **stealing from pockets**
+##### **Stealing from Pockets**
 
 The growth of cities in the Victorian era provided many opportunities for thieves. Children were particularly good **pickpockets**<sup>**22**</sup> as they could move through a crowd more easily than adults and their smaller hands could **slip**<sup>**23**</sup> into strangers’ pockets and coats. For the children it was probably a better life than being a chimney sweep, even though they risked being sent to prison with adults, transported to Australia, **whipped**<sup>**24**</sup> or **hung**<sup>**25**</sup> . Oliver experiences stealing when he meets Fagin’s gang (see the excerpt from the book). **ryan scott** (Australia)
 
@@ -62,9 +57,9 @@ The growth of cities in the Victorian era provided many opportunities for thieve
 
 **Mr. Brownlow** (edward Hardwicke) a rich and kind gentleman who takes care of oliver and gives him a new home.
 
-###### **extract**
+###### **Extract**
 
-## olIVER TWIST
+## Oliver Twist
 
 in this excerpt, oliver meets fagin, a criminal who trains boys to become pickpockets. When oliver sees the boys learning to steal, he thinks it is only a game. Dickens does this to illustrate how innocent oliver is.
 
@@ -72,7 +67,7 @@ _When the breakfast was cleared away, the cheerful old gentleman [Fagin] and the
 
 extract taken from Charles dickens’ _Oliver Twist_ , penguin readers, level 6.
 
-###### **ta S k**
+###### **Task**
 
 **Fill in the missing verbs to describe what Fagin and the boys were doing in the extract. Make sure to use correct verb forms.**
 
@@ -82,7 +77,7 @@ He pretended to **4 ...............** into shop windows. The boys quickly **5 ..
 
 The Dodger **6 ...............** on fagin’s toes. Solution on p. 3
 
-###### **~~Vo cabulary~~**
+###### **Vocabulary**
 
 - 1 **gloomy** – pochmurný
 
@@ -136,4 +131,3 @@ The Dodger **6 ...............** on fagin’s toes. Solution on p. 3
 
 - 27 **pin** – jehlice, brož
 
-**BRIDGE** | november | 2011

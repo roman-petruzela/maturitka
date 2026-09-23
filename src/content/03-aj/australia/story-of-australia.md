@@ -3,28 +3,7 @@ title: "Story of Australia"
 order: 19
 source: "MATURITA HADR/ANJ/Témata/Témata/Australia/Story of Australia/19_story_of_australia.pdf"
 ---
-history
 
-**18**
-
-upper intermediate
-
-Bridge 06 − 2008/2009
-
-<!-- Start of picture text -->
-The story of Australia:<br><!-- End of picture text -->
-
-<!-- Start of picture text -->
-Change<br><!-- End of picture text -->
-
-<!-- Start of picture text -->
-C<br><!-- End of picture text -->
-
-<!-- Start of picture text -->
-onstan<br><!-- End of picture text -->
-
-<!-- Start of picture text -->
-and<br><!-- End of picture text -->
 
 **Throughout the whole last year, Bridge focused on Australia, its nature and culture. One thing that wasn’t covered in depth was Australian history. So let’s have a closer look at it now. In the May-June issue, you can then look forward to learning more about Australian literature.**
 
@@ -32,7 +11,7 @@ Australia is an ancient land as well as a relatively young country. Aboriginals 
 
 **When Europeans settled in Australia, there were about 300,000 – 750,000 Aboriginals living on the continent. Now they make up about 2.6% of Australia’s population.**
 
-# ABoriginAl country
+# Aboriginal Country
 
 lives of the convicts were still brutal. living conditions were poor and **corporal punishment** was a common fact of life.
 
@@ -42,13 +21,13 @@ Aboriginal people arrived **via** a ‘landbridge’ from Asia during the **Ice 
 
 population emmigrated to Australia during this period. People also came from north America and china. Such an **influx** of people changed the situation in Australia. the people demanded certain rights, including a **free press** , **trial by jury** and **greater representation** . it was during this time that the Australian political institutions started to take shape. moreover, many adults at that time were actually Australian born. to them, Australia was ‘the mother country’. this growing **national consciousness** was reflected in the growing demands for a **federation** and even a republic.
 
-# growtH of tHE coloniES
+# Growth of the Colonies
 
 life in the early colony was harsh. **Unlike** the Aboriginal people, who had an **intimate understanding** of the Australian natural world, the British arrived with their old views in a new land. they wanted to plant European **crops** and even wanted to follow the European natural cycle. unfortunately, the seasons in Australia **are reversed** . Plus, Australia receives much less rainfall than Europe. the first **settlers** almost died of **starvation** . over time and **through trial and error** the settlers found the crops, like **wheat** , and animals, like sheep, which could prosper. But the
 
 Slowly more colonies were established. transportation of convicts began to slow down and stopped **entirely** by the 1860s as more free settlers, who had come to Australia attracted by very cheap land, **opposed the practice** . in 1835, melbourne was established not as a prison but as a village. By the 1880s, this ‘village’ grew to become the second largest city in the whole British Empire.
 
-# PEnAl SEttlEmEnt
+# Penal Settlement
 
 the lives of Aboriginal people changed dramatically with the arrival of Europeans. the Dutch are considered to be the first Europeans to make contact with Australia. However, they didn’t establish any colonies. the first European colony **was**
 
@@ -56,13 +35,9 @@ the growth of melbourne, along with other cities, **was spurred** by the **gold 
 
 the Aboriginal reaction to the new colonies was **understandably hostile** . the two groups **were in competition**
 
-**19**
-
-Bridge 06 − 2008/2009
-
 for resources and land. many Australian cities were established in places where Aboriginal communities were **densest** because there was enough water. **Clashes** were common, with **casualties** on both sides, more of them among Aboriginals. Even more devastating than guns were the diseases **unintentionally** brought by the settlers. many Aboriginal people died of diseases such as **small pox** , **chicken pox** , the flu and **measles** . in 1901, when Australian federation was declared, the Aboriginal population was 10% of what it had been at the time of the first European settlement.
 
-# firSt HAlf of tHE 20<sup>tH</sup> cEntury
+# First Half of the 20<sup>th</sup> Century
 
 federated Australia remained a part of the British Empire and for much of the first half of the twentieth century kept very strong **ties** with Britain. it had a discriminatory immigration policy called the white Australia Policy, which limited the number of non‑Europeans, especially non‑British, who could enter. these **restrictions** were not officially lifted until 1973. Australia also maintained very close foreign policy relations with Britain. in 1914, it entered the first world war as a member
 
@@ -72,7 +47,7 @@ of the British Empire. Australians also fought in the Second world war. when Jap
 
 there, assisting them with travel and finding them work. this was the second great influx of immigrants. they changed the population into a much more mixed one; other languages were starting to be spoken in Australia and this **diversity** has become a permanent part of the Australian society. in fact, 43% of Australians today were the immigrants from this period.
 
-# PoSt-wAr ProSPErity
+# Post-war Prosperity
 
 Despite these attacks, Australia was relatively **unscarred compared to** many other countries. for this reason, it was an attractive place for families to **relocate** after the war. the Australian government encouraged people to settle
 
@@ -82,7 +57,7 @@ demanded the **recognition of past ownership** . this wish was finally achieved 
 
 the Australian republican movement didn’t completely disappear. in november 1999, republicans hoped to **sever** all ties with Britain when a referendum was held to change the **constitution** to introduce a **parliamentary appointed** president. But the republicans lost in all states and the British monarch remained the official head of state.
 
-# AuStrAliA toDAy
+# Australia Today
 
 At the turn of the millennium, Australia was increasingly more prosperous but conservative. unemployment was low and living standards were high, but the open cosmopolitan nature of Australia seemed **in decline** . many Australians wanted a more restrictive immigration policy and felt that they had moved away too much from their British roots.
 
@@ -150,6 +125,6 @@ oral nature - stories and culture were passed down from generation to generation
 
 mother country - the country where you were born
 
-## lanGuaGe point
+## Language Point
 
 The verb “to lift” usually means to move something from a lower to a higher position. ( _Please, help me lift this armchair, it is heavy. She lifted her eyes from the book she was reading._ ) But it can also mean to end a rule or law. ( _These restrictions were not officially lifted until 1973._ )

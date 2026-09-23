@@ -2,15 +2,11 @@
 title: "James Joyce"
 source: "MATURITA HADR/ANJ/Témata/Témata/Literature/James Joyce/jamesjoyce.pdf"
 ---
-**6**
 
-~~liTeraTure~~
-
-~~BrIDGe | March | 2011~~
 
 # How Am I Supposed to Read This?!
 
-**Jacy Meyer** (uSa)
+**Jacy Meyer** (USA)
 
 The literary experiments of James Joyce
 
@@ -24,7 +20,7 @@ James Joyce was born in 1882 in Dublin. He set all of his stories in Dublin, eve
 
 June 16, the day on which the action in _Ulysses_ takes place, is celebrated as “Bloomsday” by Joyce fans. In Dublin, people dress in period clothing, meet at the many locations throughout the city connected with the book, and replay scenes from the book. In other cities around the world, readings, discussions and performances are held.
 
-## Joyce’S moST famouS bookS
+## Joyce’s Most Famous Books
 
 #### **Dubliners**
 
@@ -45,8 +41,6 @@ the childhood, adolescence and young adult years of a man called Stephen Dedalus
 _Finnegans Wake_ is so **obscure**<sup>**5**</sup> that when Joyce was writing it, even his friends thought he was losing it. Because of the many different literary styles Joyce uses, including stream of consciousness, the dream form and literary **allusions**<sup>**6**</sup> , even **scholars**<sup>**7**</sup> can’t agree on a basic plot description. He experiments with language as well, so sometimes it does not resemble standard English at all: “What clashes here of wills gen wonts, oystrygods gaggin fishygods! Brékkek Kékkek Kékkek Kékkek!”
 
 upper **7** inTermediaTe
-
-~~BrIDGe | March | 2011~~
 
 # Eveline
 
@@ -84,7 +78,7 @@ _The boat_ **_blew_** _a long_ **_mournful whistle_**<sup>**_15_**</sup> _into t
 
 - 5 **obscure** [@b"skjU@] – nesrozumitelný
 
-###### **VOCABULARy**
+###### **Vocabulary**
 
    - 6 **allusion** [@"lu;Z(@)n] – narážka
 

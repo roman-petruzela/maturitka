@@ -39,4 +39,3 @@ to capture ["k&ptS@] - ukořistit legal code ["li:g(@)l k@Ud] - zákoník unrest
 
 **13**<sup>**th**</sup> **century – Magna Carta** In 1215, King John signed the Magna Carta, which restricted the power of the ruler and recognized the rights and
 
-88 Bridge 06/2006–2007

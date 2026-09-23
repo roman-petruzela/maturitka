@@ -5,13 +5,19 @@ source: "MATURITA HADR/ANJ/Témata/Témata/Technology/Science and Technology/38_
 ---
 { **technology** }
 
-# **science and Technology** Jan Dosoudil,  , **hisTorical Timeline** Nigel Haward
+# **Science and Technology**
+
+Jan Dosoudil
+
+**Historical Timeline**
+
+Nigel Haward
 
 Jan Dosoudil,  , Nigel Haward (Great Britain)
 
-**The developmenT of science and Technology is as old as mankind. many ‘invenTions’ claimed afTer The 11**<sup>**Th**</sup> **cenTury in facT daTed back To The greeks and chinese many cenTuries before. scienTific informaTion proposed by The greek philosopher arisToTle (384 – 322 bc) and oThers was losT in The dark ages in briTain and europe afTer The collapse of The roman empire.**
+**The development of science and Technology is as old as mankind. many ‘inventions’ claimed after The 11**<sup>**Th**</sup> **century in fact dated back To The greeks and chinese many centuries before. scientific information proposed by The greek philosopher aristotle (384 – 322 bc) and others was lost in The dark ages in britain and europe after The collapse of The roman empire.**
 
-### **The birTh of Technology (2 million years bc)**
+### **The Birth of Technology (2 Million Years BC)**
 
 #### **Tools**
 
@@ -23,7 +29,7 @@ The birth of ‘technology’ was when the first human-like species, _Homo habil
 
 invention of all time. **Carts** came into common use. By 2000 BC wheels had **spokes** , and then rapid development occurred with waterwheels and **windmills** to provide power.
 
-#### **arab alCheMy**
+#### **Arab Alchemy**
 
 **Turning** common metals **into** precious metals, **proved to be a dead end** around the 9<sup>th</sup> century AD. Nevertheless, Arabs were clever chemists and discovered many chemicals that we use today.
 
@@ -35,7 +41,7 @@ Swords, daggers and other weaponry represented a warlike society but are also in
 
 Gunpowder is a substance used in guns to propel (= move forward) the bullet.
 
-#### **MeTals**
+#### **Metals**
 
 **lead** (Pb), one of the softest metals, was being **extracted** from rock in 6500 BC in Anatolia (now Turkey) followed by **copper** (Cu) three thousand years later in Mesopotamia. The Iron Age was built on a hard, strong and **versatile** metal, iron (Fe).
 
@@ -45,25 +51,23 @@ The wheel, the longest-used invention in human history, had the biggest influenc
 
 Around 4500 BC the wheel and **axle** combination became the most important
 
-30 Bridge 06/2006–2007
-
 **friar** and philosopher, was the first to describe its **formula** . Guns soon followed.
 
-#### **prinTinG**
+#### **Printing**
 
 Spreading knowledge and information was a very slow process before the invention of typography. Johannes Gutenberg (1398 – 1468) developed the first mechanical printing machine in the 1440s. The first printed book was the Bible in 1456 **with a run of** 150 **copies** . Each Bible previously took three years to make by hand.
 
-#### **The TelesCope**
+#### **The Telescope**
 
 The telescope was invented by Dutchman Hans Lippershey (1570 – 1619). In 1610, using his improved design, Galileo Galilei (1564 - 1642) was able to prove that the Earth **revolved around** the Sun. This **confirmed** the ideas of the Polish astronomer Nicolaus Copernicus (1473 – 1543) but it **angered** the Catholic Church who had adopted the idea that the Earth was at the centre of everything.
 
 The Harlan J. Smith Telescope, McDonald Observatory in Fort Davis (USA). Founded in 1932, it is the observatory of the University of Texas and operates six telescopes.
 
-#### **The MiCrosCope**
+#### **The Microscope**
 
 Looking at small things became possible when a Dutch maker of **spectacles** , Hans Janssen and his son, put glass **lenses** together in 1590 to make a primitive microscope. Anton van Leeuwenhoek (1632 – 1723) **took this invention a step further** in 1676 **with a magnification of 270 times** and discovered **tiny single-celled creatures in pond water** . **ultimately** , this helped our understanding of microorganisms and disease.
 
-#### **liGhTninG ConduCTor**
+#### **Lightning Conductor**
 
 In 1752, Benjamin Franklin (1706 –1790), the American statesman, philosopher
 
@@ -71,9 +75,9 @@ Lightning conductor, Nieuwe Kerk (New Church), Delf, Holland
 
 and scientist proved that **lightning** was a form of electricity when he flew a **kite** in a **thunderstorm** . Around 1754, Franklin and the Czech scientist, Prokop Diviš (1698 - 1765) **independently** developed the lighting conductor to protect buildings from being hit and damaged by lighting.
 
-### **The firsT indusTrial revoluTion (1760 – 1840)**
+### **The First Industrial Revolution (1760 – 1840)**
 
-#### **sTeaM power**
+#### **Steam Power**
 
 This era saw the development of **steam engines** to **power** factory machinery. Heating water in a boiler to make steam to power a vehicle was a major technological **advance** . James Watt (1736 – 1819) is
 
@@ -87,21 +91,17 @@ George Stephenson’s (1781 - 1848) _Rocket_ was the first locomotive to pull he
 
 ##### _Rocket_ locomotive
 
-#### **phoToGraphy**
+#### **Photography**
 
 In 1826, after years of experiments, the French inventor Joseph Nicéphore Niépce (1765 - 1833), using ‘bitumen of Judea’ **spread on a pewter plate** and an **exposure** of eight hours in bright sunlight, produced the first permanent picture. His technique was improved upon by his colleague Louis Daguerre (1787 - 1851) by using **compounds of silver** , the basis of modern photography.
 
 Already in the 16th century, a device called “camera obscura” was able to project images on a board, however, it wasn’t able to capture permanent images.
 
-31
-
-Bridge 06/2006–2007
-
 { **technology** }
 
-### **The second indusTrial revoluTion (19**<sup>**Th**</sup> **cenTury – 1945)**
+### **The Second Industrial Revolution (19**<sup>**Th**</sup> **Century – 1945)**
 
-#### **The eleCTriC liGhT**
+#### **The Electric Light**
 
 After many **refinements** , Thomas Edison’s (1847 – 1931) electric light **bulbs** were the best and by 1879 they would last for hundreds of hours, much longer than any of their rivals. They were also cheap. To sell bulbs, energy was needed, so Edison’s Electric Illumination Company built their own **power station** in New York. After many decades he successfully **persuaded the public to opt** for clean, convenient electric light rather than **gas** lights.
 
@@ -121,7 +121,7 @@ on the other side of the world. **admittedly** , it was **initially** from one r
 
 It has been only just over one hundred years since the first movie, or film, was shown by the brothers Auguste and Louis Lumière (1862 - 1954 and 1864 - 1948) in 1895 at the Grand Café in Paris. The terrifying film was entitled _The Arrival of a Train at Ciotat Station_ . Surprisingly, the brothers decided that films didn’t have much of a future and went back to photography. In 1889, George Eastman (1854 - 1932) **pioneered celluloid** film with holes **punched in the side** so that the movie camera could show the film precisely **frame** by frame.
 
-#### **The MoTor Car**
+#### **The Motor Car**
 
 Until the 1860s all prototype motor cars were **steam driven** . German inventor Nicolas Otto (1832 - 1891) created an improved **internal combustion engine** in 1876 and this is still the way cars work today. In 1885, the first car, the Benz Patent Motorwagen, was developed by Karl Benz (1844 - 1929). It was a long time before cars became common. **petrol** , a **cleaning fluid** , was only available from the chemist. Famous names such as Rolls Royce and Henry Ford developed the technology; Rolls Royce for the rich and Henry Ford for the man in the street.
 
@@ -133,40 +133,35 @@ X-rays were quickly adapted for their use in medicine. They are especially usefu
 
 Science is impressive when something is discovered that cannot be seen. German physicist Wilhelm Rontgen (1845 – 1923) working with **electrical discharges in glass tubes** noticed in 1895 that there was a **faint glow** on a nearby screen. These **rays were invisible** and could
 
-32 Bridge 06/2006–2007
-
 **pass through** most materials. He also recorded them on photographic paper and thus the first X-ray image was developed. He quickly realised the **medical potential** of his discovery. Henri Becquerel (1852 – 1908) discovered radioactivity in 1896 while trying to find more out about X-rays. Marie Curie (1867 – 1934), a Polish born French chemist and physicist and two times Nobel Prize winner, is best remembered for her research into radioactivity and new radioactive elements.
 
 Morse code uses short and long elements (known as “dots” and “dashes”) to transmit information. Originally created for an electric telegraph, it was often used for early radio communication.
 
-#### **CoMMuniCaTions**
+#### **Communications**
 
 Radio waves travel in all directions **at an incredible** 300 000 km per second. The German physicist Heinrich Hertz (1857 – 1854) was the first to prove they existed but it was Guglielmo Marconi (1874 – 1937) who set up the world’s first radio stations to **transmit** and receive **Morse code** . In 1896, he sent the first message across the Atlantic from Cornwall to Newfoundland. He was awarded the Nobel Prize for Physics in 1909. It was not until 1915 that engineers were able to transmit sound effectively. The first clear television pictures to be transmitted were sent by Scottish-born John Logie Baird (1888 – 1946). He founded the Baird Television Company Limited and worked on programmes for the BBC (British Broadcasting Corporation).
 
 The Proton rocket is a type of Russian space vehicle. It was first launched in 1965 and it is still used today, which makes it one of the most successful rockets in the history of space flight.
 
-#### **roCkeTs and spaCe fliGhTs**
+#### **Rockets and Space Flights**
 
 The earliest rockets were used in China in the 11<sup>th</sup> century but by the 19<sup>th</sup> century speed and **accuracy** were much improved. Knowledge of astronomy meant that scientists knew the relative movements of the planets **in relation to** the Earth. A Russian mathematics teacher, Konstantin Tsiolkovsky (1857 – 1935), was the first person to **draw up** plans for space stations and air locks to allow space walks. He correctly calculated that a rocket would have to travel at 8 km per second to leave the atmosphere and that **liquid rocket fuel** would be essential. American scientist Robert Goddard (1882 – 1945) not knowing of Tsiolkovsky’s ideas, independently developed liquid fuelled rockets from 1926. Ultimately, NASA **took up the challenge** but the Russians eventually won the race to put a man into **orbit** . Yuri Gagarin (1934 – 1968) **orbited** the earth in 1961. In the US, NASA scientists **redressed the balance in the space race with their moon landing** in 1969.
 
 The cloud of smoke and flame produced by a nuclear explosion is called a “mushroom cloud” because of its typical shape.
 
-#### **The aToMiC boMb**
+#### **The Atomic Bomb**
 
-<!-- Start of picture text -->
-Model of the Wright brothers’ airplane<br><!-- End of picture text -->
+((obrázek vynechán — Model of the Wright brothers’ airplane))
 
-**fliGhT**
+**Flight**
 
 At the turn of the century, in 1903, two bicycle **repairmen** from Ohio, Wilbur and Orville Wright (1867 – 1912 and 1871 – 1948) built and flew the first really successful aeroplane near Kitty Hawk, North Carolina. From that time progress was rapid and the military advantages of flight were realised in WWI.
 
 Science and technological advances can be seen as good or bad. The invention of gunpowder must have seemed like that. In 1932, physicists John Cockcroft (1897 – 1967) and Earnest Walton (1903 – 1995) did the impossible. They **split** the atom. They proved Albert Einstein’s (1879 – 1955) theory of relativity (E=mc²) and **unlocked** the secrets of the atomic **nucleus** . Splitting the atom was a brilliant scientific achievement. However, having that knowledge allowed scientists to develop the atomic bomb. The use of an atomic bomb on Hiroshima and Nagasaki in Japan to end the WWII in 1945 was a political decision that was highly controversial. We now know that **there is no turning back once** scientific and technological discoveries have been made.
 
-> Bridge 06/2006–2007 33
-
 { **technology** }
 
-### **The Third scienTific‑Technical revoluTion (1945 ‑ )**
+### **The Third Scientific‑Technical Revolution (1945 ‑ )**
 
 After the WWII new discoveries and advances in science and technology came **thick and fast** . Plastics were developed for the first time. In 1949, the first practical programmed electronic computer ran mathematical problems. It **fitted into** one room! In the 1960s, the electronic silicon chip was invented, computers became smaller and more powerful. In 1984, the CD was born and the digital revolution began. The worldwide web has given us access to billions of documents with information and images as well as online shopping and banking. Mobile telephone
 
@@ -204,4 +199,3 @@ medical potential ["mEdIk(@)l p@(U)"tEnS(@)l]
 
 bitumen of Judea - a black sticky substance, such as asphalt, usually obtained from the Dead Sea (hence called “of Judea”) air lock - a chamber in which the air is kept under pressure, permitting passage to or from a space
 
-34 Bridge 06/2006–2007

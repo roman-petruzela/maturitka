@@ -3,11 +3,10 @@ title: "The United States of America - Regions"
 order: 8
 source: "MATURITA HADR/ANJ/Témata/Témata/USA/The United States of America - Regions/08_regions_usa.pdf"
 ---
-BRIDGE | January-February | 2010
 
 **50** | **english‑speaking countries**
 
-# **~~Help The of~~** **~~<mark>America</mark> United States~~**
+# **The United States of America**
 
 **The US is the third largest country in the world (over 9.8 million km**<sup>**2**</sup> **, with a population of about 300 million people) and it consists of 50 states and the capital, Washington, D.C. It also possesses some territories in the Pacific and the Caribbean. Here is a look at the main US regions and some important cities.**
 
@@ -30,9 +29,6 @@ Hawaii is the only US state situated only on islands. All the islands were forme
 The South This region was devastated by the Civil War (1861-5), a conflict between the South (which supported slavery because its main industry, agriculture, was dependant on this type of labor) and the North (which was against slavery because it profited more from industries which were not as dependant on slave labor). The North won and slavery was abolished, but for many years blacks were segregated and discriminated against. The region has a mild climate suitable for agriculture and is a popular destination for retired people.
 
 ## The South
-
-www.bridge-online.cz
-
 | **51**
 
 ## The Midwest

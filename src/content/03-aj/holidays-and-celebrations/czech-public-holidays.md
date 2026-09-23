@@ -2,13 +2,11 @@
 title: "Czech Public Holidays"
 source: "MATURITA HADR/ANJ/Témata/Témata/Holidays and Celebrations/Czech Public Holidays/holidays_cr.pdf"
 ---
-~~holiDays~~
 
-**48**
 
-~~BRIDGE | January–February | 2011~~
+# The Mystery of Czech Public Holidays
 
-# The Mystery of Czech Public **Zdeňka Kosková** (CR) Holidays
+**Zdeňka Kosková** (CR)
 
 **Christmas and Easter are the biggest holidays for both religious and non‑religious people in the Czech Republic. Let’s have a closer look at why we have public holidays and what Czechs do on these days.**
 
@@ -36,12 +34,6 @@ This day celebrates the end of the Second World War (WWII _)_ in Europe. Soviet 
 
 **Reality:** Ceremonial acts take place; the Czech president, political representatives and WWII veterans commemorate the end of the war by placing flower **wreaths**<sup>**17**</sup> at memorials of the victims of WWII.
 
-~~holiDays~~
-
-**49**
-
-~~BRIDGE | January–February | 2011~~
-
 ## **St. Wenceslas Day, the Day of Czech Statehood** September 28
 
 The day when the whole nation remembers the main patron saint of the Czech state. Wenceslas was one of the early **Premyslid dukes of Bohemia**<sup>**23**</sup> . He was born in 907, the son of Bořivoj I. and Drahomíra. In 921 Wenceslas became the duke of Bohemia and ruled until his death on September 28, 935 when he was murdered by his younger brother Boleslav I. He is the first Czech ruler to **suffer a martyr’s death**<sup>**24**</sup> and many legends were created afterwards.
@@ -67,10 +59,6 @@ On July 6 in 1415, religious reformer Jan Hus was burned at the **stake**<sup>**
 **Reality:** Because it is two **consecutive**<sup>**22**</sup> days off, Cyril and Methodius on July 5 followed by Jan Hus Day on July 6, Czechs take two days off and join them with the weekend, and they spend it at their summer cottages.
 
 Illustrations © Ondřej Strnad
-
-> **50** ~~holiDays~~
-
-~~BRIDGE | January–February | 2011~~
 
 ## **Day of the Fight for Freedom and Democracy** November 17
 

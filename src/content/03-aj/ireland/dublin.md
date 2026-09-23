@@ -2,13 +2,11 @@
 title: "Dublin"
 source: "MATURITA HADR/ANJ/Témata/Témata/Ireland/Dublin/dublin.pdf"
 ---
-**m AT U R I TA** / i r e L A n d 7
 
-**1**
 
-# **PoEts anD BEEr**
+# **Poets and Beer**
 
-## **the irish capital Dublin**
+## **The Irish Capital Dublin**
 
 - **1 o’connell street** , dublin’s biggest street, has seen a lot of fighting – but you’ll be safe visiting the souvenir shops that line it now. To see reminders of ireland’s civil War, look for the bullet marks (= holes left by shots) on the statue of irish politician daniel o’connell at the river end of the street. also be sure to stop by the general post office. The impressive 19<sup>th</sup> -century building was the headquarters of the 1916 easter rising (an unsuccessful rebellion against British rule).
 
@@ -28,13 +26,3 @@ You can see books, papers, and other personal items that belonged to writers suc
 
 if you would like to learn something about irish language and music, there is an interview with radvan markus, a charles University teacher and musician, on the Bridge website.
 
-<!-- Start of picture text -->
-2<br><!-- End of picture text -->
-
-<!-- Start of picture text -->
-3<br><!-- End of picture text -->
-
-<!-- Start of picture text -->
-4<br><!-- End of picture text -->
-
-**BRIDGE** | March | 2012

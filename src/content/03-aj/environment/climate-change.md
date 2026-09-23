@@ -3,13 +3,12 @@ title: "Climate Change"
 order: 34
 source: "MATURITA HADR/ANJ/Témata/Témata/Environment/Climate Change/34_climate_change.pdf"
 ---
-environment
 
 # **Climate Change** Are we doing enough to help?
 
-**Climate Change! global warming! these days you hear all kinds of news and opinions about how the environment is Changing. sCary tv shows prediCt massive floods, earthquakes and famines; politiCal leaders from all over the world disCuss what steps to take – everyone is finally paying attention to this global phenomenon.**
+**Climate Change! global warming! these days you hear all kinds of news and opinions about how the environment is Changing. scary tv shows predict massive floods, earthquakes and famines; political leaders from all over the world discuss what steps to take – everyone is finally paying attention to this global phenomenon.**
 
-#### the effects on people
+#### The Effects on People
 
 Is global warming really affecting people now? And where can we see these effects? The answers to these questions are “yes” and “all over the world”.
 
@@ -37,8 +36,6 @@ At the meeting in Kyoto, Japan, in 1997, many countries signed an agreement, now
 
 However, only developed countries were required to reduce emissions. The largest, fastest-growing countries in the world – China, India, and Brazil – did not have to do anything; they could continue polluting as usual. At the same time, the US, which was responsible for 25 % of all greenhouse gas emissions, **was assigned to cut far too much fuel usage** in a very short time, according to the government administration of President
 
-22 Bridge 06/2007–2008
-
 George Bush. Nonetheless, many people believe that after Bush leaves office at the end of 2008, the new president may **be willing** to sign, too.
 
 #### People say – yes!
@@ -63,7 +60,7 @@ Perhaps best of all, the environment benefits from the program. For example, the
 
 - funds to help pay for a van to bring workers to the job
 
-#### the future
+#### The Future
 
 • a cash payment to workers who **give up** their parking place at work Businesses like the Best Workplaces plan because it helps them save money in unexpected ways. For example, large companies which have problems finding enough parking spaces for
 
@@ -71,11 +68,11 @@ In the meantime, countries continue to meet and discuss plans for reducing green
 
 Similar programs are popular elsewhere in the world as well. The United
 
-## **solar-powered taxi**
+## **Solar-powered Taxi**
 
 Many people dream about electric cars, but a Swiss teacher actually built one. And then he drove it all the way from Switzerland to the climate change conference in Bali, Indonesia, just to prove it could work.
 
-##### **disCuss:**
+##### **Discuss:**
 
 - Do you consider climate change a serious problem? Do you think governments are doing enough to deal with the problem?
 
@@ -123,4 +120,3 @@ a trailer loaded with ["treIl@ "l@UdId] - přívěs naložený is then fed in
 
 nomad – a member of a community that moves with its animals from place to place commuter – someone who regularly travels between work and home wind turbine – a tall structure with blades (= wide flat parts on a machine) that are blown round by the wind and produce energy
 
-Bridge 06/2007–2008 23

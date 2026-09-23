@@ -3,7 +3,6 @@ title: "Medical Alert"
 order: 28
 source: "MATURITA HADR/ANJ/Témata/Témata/Health/Medical Alert/28_medical_alert.pdf"
 ---
-20
 
 # **_MEDICAL ALERT!_**
 
@@ -31,8 +30,6 @@ If the doctor does think you need a specific medicine, he will write a **prescri
 
 However, maybe the doctor finds out something else is wrong with you. You could have the flu, which is like a cold with a **fever** . The **stomach flu** is different, that's when you are **vomiting** or have
 
-21
-
 ## **Important organs of your body**
 
 Our bodies are very complicated, and while usually everything is fine, sometimes things can go wrong. If something is wrong on the inside of your body, it may involve one of your organs. The big organs are your heart and **lungs** . But the **stomach** , **small** and **large intestines** , **kidneys** , **bladder** and **liver** all play an important role in keeping your body functioning. It's important to treat these organs carefully, because they are the only ones you get. **If one of your organs fails** , you may be lucky enough to get a transplant. That's when an organ from someone else's body is implanted in to yours. This is major surgery, and you will have to take lots of medicine to make sure your body doesn't **reject** its new part.
@@ -47,11 +44,57 @@ Jacy Meyer (USA)
 
 **trachea** (“wind pipe” - the tube for breathing) **diaphragm** (a muscle for breathing) **kidney spleen** (helps the quality of your blood) **pancreas** (helps your body digest food) **bladder**
 
-**to sneeze** [sni:z] − kýchat **diabetes** [daI@"bi:ti:z] − cukrovka **pancreas** ["p&NkrI@s] − slinivka bøišní **a lack of oxygen** [l&k "QksIdZ(@)n] − nedostatek kyslíku **blood flow** [blVd fl@U] − proudìní krve **emergency room** [I"m@:dZ(@)nsi] − pohotovost **plaster** − sádra **lungs** [lVNz] − plíce **stomach** − �aludek **small / large intestine** [In"tEstIn] − tenké / tlusté støevo **kidneys** ["kIdniz] − ledviny **bladder** ["bl&d@] − moèový mìchýø **liver** ["lIv@] − játra **if one of your organs fails** − pokud nìkterý z vašich orgánù sel�e **to reject** [rI"dZEkt] − odmítnout **to be in charge of** − být zodpovìdný za **vaccine** ["v&ksi:n] − oèkování **shot** [SQt] − injekce **polio** ["p@UlI@U] − obrna **first aid** [eId] − první pomoc
+- **to sneeze** [sni:z] − kýchat
+- **diabetes** [daI@"bi:ti:z] − cukrovka
+- **pancreas** ["p&NkrI@s] − slinivka břišní
+- **a lack of oxygen** [l&k "QksIdZ(@)n] − nedostatek kyslíku
+- **blood flow** [blVd fl@U] − proudění krve
+- **emergency room** [I"m@:dZ(@)nsi] − pohotovost
+- **plaster** − sádra
+- **lungs** [lVNz] − plíce
+- **stomach** − žaludek
+- **small / large intestine** [In"tEstIn] − tenké / tlusté střevo
+- **kidneys** ["kIdniz] − ledviny
+- **bladder** ["bl&d@] − močový měchýř
+- **liver** ["lIv@] − játra
+- **if one of your organs fails** − pokud některý z vašich orgánů selže
+- **to reject** [rI"dZEkt] − odmítnout
+- **to be in charge of** − být zodpovědný za
+- **vaccine** ["v&ksi:n] − očkování
+- **shot** [SQt] − injekce
+- **polio** ["p@UlI@U] − obrna
+- **first aid** [eId] − první pomoc
 
-### vocabulary
+### Vocabulary
 
-**scratchy throat** ["skr&tSi Tr@Ut] − škrábání v krku **stuffy nose** ["stVfi] − ucpaný nos **cough drops** [kQf] − kapky proti kašli **sore throat** [sO:] − bolavý krk **over−the−counter medicine** ["kaUnt@ "mEds(@)n, "mEdIsIn] − léky bez lékaøského pøedpisu **noodle** ["nu:d(@)l] − nudlová **to make an appointment** [@"pOIntm(@)nt] − domluvit si návštìvu (u lékaøe) **examining room** [Ig"z&mInIN] − ordinace **thermometer** [T@"mQmIt@] − teplomìr **prescription** [prI"skrIpS(@)n] − pøedpis **fever** ["fi:v@] − horeèka **stomach flu** ["stVm@k flu:] − støevní chøipka **to vomit** ["vQmIt] − zvracet **diarrhea** [daI@"rI@] − prùjem **eye chart** − zraková tabule (pro úèel zkoušení zraku) **severe** [sI"vI@] − vá�ný **recuring** [rI@"k@:rIN] − vracející se **migraine** ["mi:greIn] − migréna **to be dizzy** ["dIzi] − mít závra� **to be nauseous** ["nO:sI@s] − trpìt nevolností **growth** [gr@UT] − výrùstek **tumor** ["tju:m@] − nádor **cancerous** ["k&ns(@)r@s] − rakovinný **cell** [sEl] − buòka **heart attack** [hA:t @"t&k] − infarkt **stroke** [str@Uk] − mrtvice **to admit to the hospital** − pøijmout do nemocnice **fur** [f@:] − chlupy
+- **scratchy throat** ["skr&tSi Tr@Ut] − škrábání v krku
+- **stuffy nose** ["stVfi] − ucpaný nos
+- **cough drops** [kQf] − kapky proti kašli
+- **sore throat** [sO:] − bolavý krk
+- **over−the−counter medicine** ["kaUnt@ "mEds(@)n, "mEdIsIn] − léky bez lékařského předpisu
+- **noodle** ["nu:d(@)l] − nudlová
+- **to make an appointment** [@"pOIntm(@)nt] − domluvit si návštěvu (u lékaře)
+- **examining room** [Ig"z&mInIN] − ordinace
+- **thermometer** [T@"mQmIt@] − teploměr
+- **prescription** [prI"skrIpS(@)n] − předpis
+- **fever** ["fi:v@] − horečka
+- **stomach flu** ["stVm@k flu:] − střevní chřipka
+- **to vomit** ["vQmIt] − zvracet
+- **diarrhea** [daI@"rI@] − průjem
+- **eye chart** − zraková tabule (pro účel zkoušení zraku)
+- **severe** [sI"vI@] − vážný
+- **recuring** [rI@"k@:rIN] − vracející se
+- **migraine** ["mi:greIn] − migréna
+- **to be dizzy** ["dIzi] − mít závrať
+- **to be nauseous** ["nO:sI@s] − trpět nevolností
+- **growth** [gr@UT] − výrůstek
+- **tumor** ["tju:m@] − nádor
+- **cancerous** ["k&ns(@)r@s] − rakovinný
+- **cell** [sEl] − buňka
+- **heart attack** [hA:t @"t&k] − infarkt
+- **stroke** [str@Uk] − mrtvice
+- **to admit to the hospital** − přijmout do nemocnice
+- **fur** [f@:] − chlupy
 
 ### British versus American English
 

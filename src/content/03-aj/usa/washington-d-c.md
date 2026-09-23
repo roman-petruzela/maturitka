@@ -2,9 +2,7 @@
 title: "Washington, D.C"
 source: "MATURITA HADR/ANJ/Témata/Témata/USA/Washington, D.C/washington.pdf"
 ---
-**M AT u r I TA** / u s a
 
-**upper INTerMeDIATe**
 
 # **Washington, D.C. and Its Must-sees**
 

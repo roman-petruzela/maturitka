@@ -7,12 +7,9 @@ source: "MATURITA HADR/ANJ/Témata/Témata/Holidays and Celebrations/The America
 
 **AmericAn** Jacy Meyer (USA) **federAl holidAys**
 
-**did you know thAt the origin of the word “holidAy” is ActuAlly “holy dAy”? holidAys originAlly represented speciAl religious dAys. nowAdAys, the word holidAy is used A bit differently in the us. whenever there’s A dAy “off”, we cAll it A holidAy – but if we tAke time off And go AwAy on A trip, we cAll it A vAcAtion.**
+**did you know that the origin of the word “holiday” is Actually “holy day”? holidays originally represented special religious days. nowadays, the word holiday is used A bit differently in the us. whenever there’s A day “off”, we call it A holiday – but if we take time off And go Away on A trip, we call it A vacation.**
 
 On the first Monday in September, we have Labor Day, which celebrates working people. **Sadly** , it also often signals the end of summer and the start of a new school year for students.
-
-<!-- Start of picture text -->
-Independence Day<br><!-- End of picture text -->
 
 The second Monday in October is Columbus Day, which commemorates explorer Christopher Columbus’ landing in the New World in 1492.
 
@@ -38,7 +35,7 @@ as it is more commonly known, the Fourth of July! This is when we
 
 remember our beginnings as an independent nation, **free from** British **rule** . Independence Day is always held on July 4, and if it falls on a weekend, either the Friday or the Monday is a day off.
 
-# Y Vocabulary
+# Vocabulary
 
 origin ["QrIdZIn] - původ holy ["h@Uli] - svatý, posvátný to designate ["dEzIgn@t] - určit, vyhlásit equal rights among all races ["i:kw(@)l reIsIz] - rovnoprávnost všech lidských ras that way - díky tomu free from... rule [ru:l] - osvobozené od... nadvlády sadly ["s&dli] - bohužel harvest ["hA:vIst] - sklizeň
 
@@ -46,4 +43,3 @@ In February, the third Monday of the month is President’s Day, which honors al
 
 In 1964, Martin Luther King became the youngest man to be awarded the Nobel Peace Prize. He received it for promoting nonviolence and equal treatment for different races.
 
-> Bridge 06/2006–2007 **11**

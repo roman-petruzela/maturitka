@@ -2,13 +2,7 @@
 title: "Edgar Allan Poe"
 source: "MATURITA HADR/ANJ/Témata/Témata/Literature/Edgar Allan Poe/poe.pdf"
 ---
-UPPER INTERMEDIATE
 
-LITERATURE
-
-**4**
-
-**BRIDGE | October | 2010**
 
 # A Battle with Demons
 
@@ -37,10 +31,6 @@ bridge2010_02.indd   4
 20.9.2010   14:23:41
 
 bridge-online.cz/studenti/poslechy
-
-**5**
-
-BRIDGE | October | 2010
 
 ## The Black Cat
 

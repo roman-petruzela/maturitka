@@ -5,7 +5,9 @@ source: "MATURITA HADR/ANJ/Témata/Témata/The United Kingdom/Unforgettable Pers
 ---
 uk history
 
-# unforgettaBle nigel haward personalities (Great Britain) in British history
+# Unforgettable Personalities (Great Britain) in British History
+
+Nigel Haward
 
 the history of the united kingdom is rich and varied. the political union of england, scotland, Wales and northern ireland has often been bloody and turbulent but now the uk is one of the most peaceful and stable states in the world. important and influential personalities shaped life on the British isles and the “society” we live in today.
 
@@ -17,7 +19,7 @@ all things in his kingdom: this was to be the famous Domesday Book.
 
 The appearance of William, **Duke** of Normandy (now northern France), with his army on the English **shore** in 1066 was a **major turning point** in English history. In that year, Harold, Earl of Wessex, was crowned King of England. William **was furious** because he thought that he had been promised the throne, and invaded England. Harold was defeated by William’s forces in the Battle of Hastings. From that time the administration of England was governed by Norman aristocracy.
 
-#### **oliver CromWell**
+#### **Oliver Cromwell**
 
 (ruled 1649 – 1658)
 
@@ -39,19 +41,19 @@ Oliver Cromwell also introduced a fashion of clothing that was **plain** , in co
 
 He became Prime Minister in May 1940 and refused to **surrender** to the Nazis. He worked **tirelessly** throughout the war, building strong relations with US President Roosevelt **while maintaining** a sometimes difficult alliance with the Soviet Union. Victory came in 1945 but ironically the people wanted a new start and **voted him out of office** . He continued to campaign in opposition and focused on the problems of the Cold War (he **coined** the term ‘ **The Iron Curtain** ’) while encouraging European and trans-Atlantic unity.
 
-#### **admiral horatio lord nelson**
+#### **Admiral Horatio Lord Nelson**
 
 (*1758 – †1805)
 
 Nelson was a national hero. Over the period 1794 – 1805, under his leadership, **the Royal Navy proved its supremacy over** the French. He was **bold** when fighting and was known to ignore the orders of his **seniors** . This **defiance** brought him victory against the Spanish off **Cape** Vincent in 1797. In the Battle of the Nile in 1798, he successfully destroyed Napoleon’s fleet and cut off the direct trade route to India. His most famous victory was at Cape Trafalgar in 1805 when he saved Britain from invasion by Napoleon.
 
-#### **margaret thatCher**
+#### **Margaret Thatcher**
 
 ###### (*1925)
 
 Margaret Thatcher was Britain’s first female Prime Minister and served three **consecutive** terms in office from 1979 to 1990. **She was an advocate of privatisation** of state owned industries (e.g. shipbuilding and **coal mining** ). She reformed the **trade unions** , lowered taxes, and reduced inflation. On the negative side, unemployment rose rapidly and there were strikes and civil conflicts.
 
-#### **queen viCtoria**
+#### **Queen Victoria**
 
 (ruled 1837 – 1901)
 
@@ -61,11 +63,9 @@ Queen Victoria **was strongly in favour of** an imperial Britain. In 1887, she b
 
 On the international scene, in 1982, she led Britain to victory in the Falklands War (war over Falkland Islands between Argentina and the UK). Known as the Iron Lady by the Soviets she warmly welcomed the rise of the reformist Soviet leader Mikhail Gorbachev.
 
-8 Bridge 06/2007–2008
-
 Thatcher was a close friend of US President Reagan and shared his mistrust of communism and his support of free market ideology.
 
-## **uK history timeline**
+## **UK History Timeline**
 
 ##### **Prehistoric Britain (5000 BC – 100 BC)**
 
@@ -135,4 +135,3 @@ England, being an island, developed a fantastically efficient navy that sailed t
 
 After WWII, Britain looked forward to peace and prosperity under the rule of the young queen Elizabeth II. British influence on the world stage **declined** with the loss of its colonies and the rise of two world powers: the USA and the USSR. Britain remains an important player in financial and commercial world markets.
 
-Bridge 06/2007–2008 **9**

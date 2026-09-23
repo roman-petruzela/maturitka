@@ -2,11 +2,6 @@
 title: "Must Sees in the USA"
 source: "MATURITA HADR/ANJ/Témata/Témata/USA/Must Sees in the USA/usa_mustsee.pdf"
 ---
-~~english-sPeaking countries~~
-
-**44**
-
-~~BRIDGE | January–February | 2011~~
 
 # What You Must See!
 
@@ -83,10 +78,6 @@ I can never get enough natural beauty, so to admire the impressive American moun
 From there I would set out to South Dakota’s Black Hills to see a monument to the four American presidents, sculpted into the rock, **12** …….. You can feel very small looking at the huge heads of Washington, Jefferson, Lincoln and Teddy Roosevelt.
 
 No trip to the US would be complete without seeing the West Coast, particularly California. This state is known for its natural beauty, relaxed lifestyle and celebrity **buzz**<sup>**17**</sup> .
-
-**45**
-
-~~BRIDGE | January–February | 2011~~
 
 **13** …….. represents the American film industry, hosts the Academy Award Ceremony every year and tourists can step on the Hollywood Walk of Fame among the stars. The other popular city, **14** …….. , built on hills over a bay, gives off a different feel. I would love to take a ride on the town’s typical means of transport – the cable car* through the city’s many neighbourhoods, e.g Chinatown,
 

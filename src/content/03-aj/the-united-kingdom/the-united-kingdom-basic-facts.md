@@ -3,9 +3,8 @@ title: "The United Kingdom - Basic facts"
 order: 1
 source: "MATURITA HADR/ANJ/Témata/Témata/The United Kingdom/The United Kingdom - Basic facts/01_uk_basic_facts.pdf"
 ---
-4
 
-# **~~<u>The United Kingdom of Great Britain and Northern Ireland</u>~~**
+# **<u>The United Kingdom of Great Britain and Northern Ireland</u>**
 
 ## **Geography**
 
@@ -41,17 +40,38 @@ The 18th century saw Great Britain as a major colonial and industrial power; esp
 
 In the 19th century, Britain **laid political claim to one quarter of the**
 
-5
-
-**~~Total area:~~** ~~244,820 sq km~~ **<u>Population:</u>** <u>60,4 million</u> **~~Capital:~~** ~~London~~
+**Total area:** 244,820 sq km **<u>Population:</u>** <u>60,4 million</u> **Capital:** London
 
 **A prehistoric megalithic complex of standing stones, Stonehenge (near Salisbury in Wiltshire), is believed to have had some religious or astronomical purpose.**
 
 **The romantic countryside of Wales attracts many tourists every year.**
 
-### vocabulary
+### Vocabulary
 
-**to consist of** [k@n"sIst] − skládat se z **lie off the NW mainland of Europe** − le�í severo− západnì od kontinentální Evropy **tip** [tIp] − konec **roughly** ["rVflI] − pøibli�nì **latitude** ["l&tItju:d] − zemìpisná šíøka **longitude** ["lQndZItju:d] − zemìpisná délka **meridian** [m@"rIdI@n] − poledník **varied** ["vE:rId] − rozmanitý **is referred to as** [rI"f@:d] − se nazývá **drained** ["dreInd] − vyschlý, vysušený **a main talking point** − hlavní téma hovoru **variability is due to the temperate maritime climate** [%vE:rI@"bIlIti dju: "tEmp(@)r@t "m&rItaIm "klaIm@t] − promìnlivost je zpùsobena mírným pøímoøským klimatem **mild** [maIld] − mírný **drift** [drIft] − proud **overcast** [@Uv@"kA:st] − zata�ený **successively** [s@k"sEsIvli] − postupnì **to beat** [bi:t] − porazit **particularly** [p@"tIkjUl@li] − zejména **disputes... over** [dI"spju:ts] − spory... o **gained the throne** [geInd Tr@Un] − usedla na trùn **reign** [reIn] − vláda, panování **was marked by overseas expansion** ["@Uv@si:z Ik"sp&nS(@)n] − se vyznaèovala expanzemi do zámoøí **to join** [dZOIn] − pøipojit **to merge** [m@:dZ] − spojit
+- **to consist of** [k@n"sIst] − skládat se z
+- **lie off the NW mainland of Europe** − leží severo− západně od kontinentální Evropy
+- **tip** [tIp] − konec
+- **roughly** ["rVflI] − přibližně
+- **latitude** ["l&tItju:d] − zeměpisná šířka
+- **longitude** ["lQndZItju:d] − zeměpisná délka
+- **meridian** [m@"rIdI@n] − poledník
+- **varied** ["vE:rId] − rozmanitý
+- **is referred to as** [rI"f@:d] − se nazývá
+- **drained** ["dreInd] − vyschlý, vysušený
+- **a main talking point** − hlavní téma hovoru
+- **variability is due to the temperate maritime climate** [%vE:rI@"bIlIti dju: "tEmp(@)r@t "m&rItaIm "klaIm@t] − proměnlivost je způsobena mírným přímořským klimatem
+- **mild** [maIld] − mírný
+- **drift** [drIft] − proud
+- **overcast** [@Uv@"kA:st] − zatažený
+- **successively** [s@k"sEsIvli] − postupně
+- **to beat** [bi:t] − porazit
+- **particularly** [p@"tIkjUl@li] − zejména
+- **disputes... over** [dI"spju:ts] − spory... o
+- **gained the throne** [geInd Tr@Un] − usedla na trůn
+- **reign** [reIn] − vláda, panování
+- **was marked by overseas expansion** ["@Uv@si:z Ik"sp&nS(@)n] − se vyznačovala expanzemi do zámoří
+- **to join** [dZOIn] − připojit
+- **to merge** [m@:dZ] − spojit
 
 decisions for the UK are made in London through the Parliament, consisting of the **elected** House of Commons and the un− elected House of Lords. Recently there has been a process called devolution. This means that Scotland now has its own parliament in Edinburgh and there is a National **Assembly** for Wales in Cardiff. The establishment of an Assembly for Northern Ireland in Belfast **is still under discussion** because of problems with the peace process.
 
@@ -69,18 +89,18 @@ To live in Britain means that you could enjoy a very good standard of living wit
 
 **life expectancy** for men being nearly 76 years and 81 years for women. **Unemployment** is low (4.8%). On the negative side, 17% of the population **is living below the poverty line** .
 
-**laid political claim to one quarter of the earth's surface** ["kwO:t@ "s@:fIs] − si nárokovala politický vliv nad ètvrtinou zemì **founding member** ["faUndIN "mEmb@] − zakládající èlen
+**laid political claim to one quarter of the earth's surface** ["kwO:t@ "s@:fIs] − si nárokovala politický vliv nad čtvrtinou země **founding member** ["faUndIN "mEmb@] − zakládající člen
 
-**are not keen** [ki:n] − nejsou naklonìni **currency** ["kVr(@)nsi] − mìna
+**are not keen** [ki:n] − nejsou nakloněni **currency** ["kVr(@)nsi] − měna
 
-**government is responsible to her for its decisions** [rI"spQnsIb(@)l] − vláda se jí zodpovídá ze svých rozhodnutí **currently** ["kVr(@)ntli] − momentálnì **elected** [I"lEktId] − volený **assembly** [@"sEmbli] − shromá�dìní **is still under discussion** − je stále pøedmìtem diskusí
+**government is responsible to her for its decisions** [rI"spQnsIb(@)l] − vláda se jí zodpovídá ze svých rozhodnutí **currently** ["kVr(@)ntli] − momentálně **elected** [I"lEktId] − volený **assembly** [@"sEmbli] − shromáždění **is still under discussion** − je stále předmětem diskusí
 
 ## **Holidays**
 
 The UK doesn't have special holidays apart from Christmas, New Year and Easter. There are single day ' **bank holidays** ' in May and August. Nigel Haward (Great Britain)
 
-**life expectancy** [Ik"spEkt(@)nsi] − prùmìrná délka �ivota
+**life expectancy** [Ik"spEkt(@)nsi] − průměrná délka života
 
-**unemployment** [VnIm"plOIm(@)nt] − nezamìstnanost **is living below the poverty line** ["pQv@ti] − �ije pod hranicí chudoby **bank holidays** − státní svátek, den pracovního volna **diagonal** [daI"&g(@)n(@)l] − úhlopøíèný **mural** ["mjU@r@l] − nástìnný
+**unemployment** [VnIm"plOIm(@)nt] − nezaměstnanost **is living below the poverty line** ["pQv@ti] − žije pod hranicí chudoby **bank holidays** − státní svátek, den pracovního volna **diagonal** [daI"&g(@)n(@)l] − úhlopříčný **mural** ["mjU@r@l] − nástěnný
 
 **Mural paintings are common in Belfast.**

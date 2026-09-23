@@ -3,9 +3,7 @@ title: "Typical Sports in English-Speaking Countries"
 order: 24
 source: "MATURITA HADR/ANJ/Témata/Témata/Sports/Typical Sports in English-Speaking Countries/24_typical_sports_english_speaking_countries.pdf"
 ---
-www.bridge-online.cz
-
-# Typical sporTs
+# Typical Sports
 
 ## **America**
 
@@ -36,9 +34,6 @@ Football continues to be one of the most popular spectator sports today. Teams s
 Amongst the minor sports, taekwondo is increasingly popular and together with judo is an Olympic sport. In this fighting event, competitors blend grace and agility with explosive power. They wear protective helmets and body padding. The contest lasts for three rounds, each of which lasts three minutes. Judges decide the winner according to the number of technically correct kicks or blows to the head and body.
 
 Rowing has become popular as a result of the British rower Steve Redgrave achieving gold medals in the Olympics in every Olympic year from 1984 to 2000. In boats designed for two, four or eight people, rowers can reach speeds of up to 36km/h. Each year in March, Cambridge and Oxford universities compete on the River Thames. **Nigel Haward** (Great Britain)
-
-www.bridge-online.cz
-
 ## **New Zealand**
 
 Ball-oriented sports are very popular in New Zealand. In winter, Kiwis (New Zealanders) enjoy rugby and indoor netball. In summer, cricket and touch rugby (a gentler form of rugby) are popular, and netball (the outdoors version) becomes commonplace too. Rugby involves all the aspects of ball play - catching, running and kicking. The aim of the game is to try to get the rugby ball across to the other side of the field, between the goalposts. This is usually done through a ‘try', which is when a player runs to the posts and puts the ball between them. You have to be strong physically for this game. There are lots of knocks and spills.

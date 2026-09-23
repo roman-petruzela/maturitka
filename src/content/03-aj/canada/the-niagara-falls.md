@@ -2,11 +2,9 @@
 title: "The Niagara Falls"
 source: "MATURITA HADR/ANJ/Témata/Témata/Canada/The Niagara Falls/niagara.pdf"
 ---
-**10** h G **e** A Do G r A p h Y
-
 The niagara River marks the natural border between the US and canada.
 
-# **teMPtiNG the water sPirit**
+# **Tempting the Water Spirit**
 
 ### **Going down the Niagara Falls**
 
@@ -16,7 +14,7 @@ into **the current**<sup>**9**</sup> , **set** her **alight**<sup>**10**</sup> ,
 
 Until the mid‑18<sup>th</sup> century, the Iroquois people tried to **gain the favour of**<sup>**2**</sup> the Water Spirit by sending a maiden (young innocent girl) in a white canoe over the **edge**<sup>**3**</sup> of the falls. The Iroquois believed that such **sacrifices**<sup>**4**</sup> were the greatest honour and ensured a happy afterlife.
 
-##### **dangerous falls**
+##### **Dangerous Falls**
 
 The first person to survive a **drop**<sup>**13**</sup> over the falls with just a **life jacket**<sup>**14**</sup> was seven‑year‑old Roger Woodward. On July 9, 1960 a boat motor **failure**<sup>**15**</sup> during a boat ride sent him, his 17‑year‑old sister and their family friend James Honeycutt towards the falls. When the boat neared the falls, the waves turned it over. Two men on the river bank managed to pull Roger’s sister out of the water. Roger was in Honeycutt’s arms as they approached the falls, but the strong water pulled them apart. Roger survived the fall but James Honeycutt **drowned**<sup>**16**</sup> **.**
 
@@ -24,24 +22,19 @@ In 1837, a group of Canadian rebels **fled**<sup>**5**</sup> to the United State
 
 The first known person to survive the fall without a **flotation device**<sup>**17**</sup> is Kirk Jones from Michigan. He went over
 
-## DISAppEARInG **Falls**
+## Disappearing **Falls**
 
 niagara falls is slowly moving south. The huge power of the niagara river going over the cliff causes the erosion of the cliff. At one period in history, the falls were located 11 kilometres north of their current location. engineering has slowed the erosion and movement of the falls. The current rate of erosion is approximately 30 cm per year, down from a historical average of 91 cm per year. however, it is estimated that 50,000 years from now, even at this reduced rate of erosion, the remaining 32 km to lake erie **will have been undermined**<sup>**26**</sup> and the falls will no longer exist.
 
-<!-- Start of picture text -->
-The edge of<br>the Niagara<br>Falls in 1678<br><!-- End of picture text -->
+((obrázek vynechán — The edge of the Niagara Falls in 1678))
 
 the edge in October 20, 2003 and survived with only broken **ribs**<sup>**18**</sup> . Unfortunately, every year there are 12 to 18 known **suicides**<sup>**19**</sup> at Niagara Falls. Because of the rocks at the bottom, people expect
-
-2011 | September | **BRIDGE**
-
-**11**
 
 annie edson Taylor – a teacher who decided to go over the niagara Falls in a barrel.
 
 a quick death and hope their body won’t be found. Only one other person survived an unprotected trip over the falls, as reported on March 11, 2009.
 
-#### **waterFalls iN the Middle oF a towN**
+#### **Waterfalls in the Middle of a Town**
 
 The niagara falls are formed by two main waterfalls, the **Horseshoe**<sup>**28**</sup> falls on the canadian side of the river and the American falls on American side. The horseshoe falls, formed in a shape of a horseshoe, drop for about 53 metres. The American falls drop from 21–30 metres because of the giant **boulders**<sup>**29**</sup> at their base. if a visitor wants to see both waterfalls, then he has to enter both canada and the US. The niagara falls are valued both for their beauty and as a **source of hydroelectric power**<sup>**30**</sup> . it has become a popular destination for a **honeymoon**<sup>**31**</sup> stay, which is why many hotels were built along the niagara river.
 
@@ -57,7 +50,7 @@ Many of the people risking their lives have chosen to do so in specially constru
 
 Why this fascination with the Niagara Falls? The answer is very individual: while some **are content**<sup>**25**</sup> to just stare into the depths, others find it necessary to jump. **hana Škrdlová** (canada)
 
-###### **~~Vo cabulary~~**
+###### **Vocabulary**
 
 - 1 **to tempt** ["tem(p)t] – pokoušet
 
@@ -117,4 +110,3 @@ Why this fascination with the Niagara Falls? The answer is very individual: whil
 
 - 31 **honeymoon** – líbánky, svatební cesta
 
-**BRIDGE** | September | 2011

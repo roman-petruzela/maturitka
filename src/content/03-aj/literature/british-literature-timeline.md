@@ -3,7 +3,6 @@ title: "British Literature Timeline"
 order: 6
 source: "MATURITA HADR/ANJ/Témata/Témata/Literature/British Literature Timeline/06_british_literature_timeline.pdf"
 ---
-16
 
 # **<u>British literature timeline (till the 19th century)</u>**
 
@@ -37,7 +36,7 @@ greatest poets is celebrated for his powerful, rhetoric poetry and is famous mai
 
 _Lost_ . Besides poems, Milton published **pamphlets defending civil and religious rights** .
 
-### **18**<sup>**th**</sup> **century literature**
+### **18**<sup>**th**</sup> **Century Literature**
 
 This century is the time of the **Enlightenment** , the "Age of Reason", when all branches of science were developed and resulted in great technical progress.
 
@@ -79,6 +78,27 @@ _Wuthering Heights_ by **Emily Brontë** (1818 − 1848) were two of the most or
 
 Dagmar Prosková, Jane Haward (Great Britain)
 
-## vocabulary
+## Vocabulary
 
-**frightening** ["fraIt(@)nIN] − dìsivý **epic** ["EpIk] − epos **scholar** ["skQl@] − uèenec **to support** [s@"pO:t] − podporovat **is considered to be** [k@n"sId@d] − je pova�ován za **records the imagined** [rI"kO:dz I"m&dZInd] − zachycují smyšlené **pilgrim** ["pIlgrIm] − poutník **saying** ["seIIN] − úsloví **forces** [fO:sIz] − vojsko, armáda **pamphlets defending civil and religious rights** ["p&mflIts dI"fEndIN "sIv(@)l rI"lIdZ@s] − pamflety obhajující obèanská a nábo�enská práva **Enlightenment** [In"laIt(@)nm(@)nt] − osvícenství **controversial** [kQntr@"v@:S(@)l] − kontroverzní, sporný **adventurous sincere boy** [@d"vEntS(@)r@s sIn"sI@] − upøímný kluk milující dobrodru�ství **moral codes** ["mQr(@)l] − morální pravidla **sense of justice** ["dZVstIs] − smysl pro spravedlnost **is concerned with** [k@n"s@:nd] − se zabývá **prose** [pr@Uz] − próza **fresh and unconventional** [Vnk@n"vEnS(@)n(@)l] − svì�í a nekonvenèní **villain** ["vIl@n] − padouch **hustle and bustle** ["hVs(@)l "bVs(@)l] − ruch a shon **to depict** [dI"pIkt] − líèit
+- **frightening** ["fraIt(@)nIN] − děsivý
+- **epic** ["EpIk] − epos
+- **scholar** ["skQl@] − učenec
+- **to support** [s@"pO:t] − podporovat
+- **is considered to be** [k@n"sId@d] − je považován za
+- **records the imagined** [rI"kO:dz I"m&dZInd] − zachycují smyšlené
+- **pilgrim** ["pIlgrIm] − poutník
+- **saying** ["seIIN] − úsloví
+- **forces** [fO:sIz] − vojsko, armáda
+- **pamphlets defending civil and religious rights** ["p&mflIts dI"fEndIN "sIv(@)l rI"lIdZ@s] − pamflety obhajující občanská a náboženská práva
+- **Enlightenment** [In"laIt(@)nm(@)nt] − osvícenství
+- **controversial** [kQntr@"v@:S(@)l] − kontroverzní, sporný
+- **adventurous sincere boy** [@d"vEntS(@)r@s sIn"sI@] − upřímný kluk milující dobrodružství
+- **moral codes** ["mQr(@)l] − morální pravidla
+- **sense of justice** ["dZVstIs] − smysl pro spravedlnost
+- **is concerned with** [k@n"s@:nd] − se zabývá
+- **prose** [pr@Uz] − próza
+- **fresh and unconventional** [Vnk@n"vEnS(@)n(@)l] − svěží a nekonvenční
+- **villain** ["vIl@n] − padouch
+- **hustle and bustle** ["hVs(@)l "bVs(@)l] − ruch a shon
+- **to depict** [dI"pIkt] − líčit
+

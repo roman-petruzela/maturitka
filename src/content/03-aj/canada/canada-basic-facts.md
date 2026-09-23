@@ -3,9 +3,8 @@ title: "Canada - Basic Facts"
 order: 21
 source: "MATURITA HADR/ANJ/Témata/Témata/Canada/Canada - Basic Facts/21_canada_basic_facts.pdf"
 ---
-8
 
-# **~~<u>Canada</u>~~**
+# **<u>Canada</u>**
 
 ## **Geography**
 
@@ -27,7 +26,7 @@ Canada was a British colony until Confederation in 1867 when the
 
 Parliament adopted what is now Canada's National Flag in 1964. It has a central **maple leaf** emblem and the red and white colors which are Canada's official colors. Canada's **aboriginal people** had discovered the food properties of **maple sap** , which they **gathered** every spring. Later, the maple leaf was the dominant symbol used by Canadian soldiers during the WWI and WWII.
 
-**~~Total area:~~** ~~9,984,670 sq km~~ **~~<u>Population:</u>~~** ~~<u>32,8 million</u>~~ **~~Capital:~~** ~~Ottawa~~
+**Total area:** 9,984,670 sq km **<u>Population:</u>** <u>32,8 million</u> **Capital:** Ottawa
 
 Dominion of Canada was born and the first Prime Minister, Sir John Alexander Macdonald, began to build the country we know today. Canada has a long history of rivalries between French and English settlers but much care was taken to protect the interests of both peoples and to have a constitution that served everyone.
 
@@ -53,8 +52,30 @@ Gerald Taylor (Canada)
 
 **Canada Day is celebrated with parades.**
 
-### vocabulary
+### Vocabulary
 
-**coastline** ["k@UstlaIn] − pobøe�í **descendant** [dI"sEnd(@)nt] − potomek **to inhabit** − osídlit **from diseases carried by the settlers** [dI"zi:zIz "sEtl@z] − na nemoci, které sem zavlekli kolonisté **riches** ["rItSIz] − bohatství **obstacle** ["Qbst@k(@)l] − pøeká�ka **voyage** ["vOIIdZ] − cesta, plavba **laid the basis** ["beIsIs] − polo�ila základy **claim** − nárok **representative** [rEprI"zEnt@tIv] − zástupce **to pass** − pøimout (zákon) **party system** ["pA:ti "sIst@m] − systém politických stran
+- **coastline** ["k@UstlaIn] − pobřeží
+- **descendant** [dI"sEnd(@)nt] − potomek
+- **to inhabit** − osídlit
+- **from diseases carried by the settlers** [dI"zi:zIz "sEtl@z] − na nemoci, které sem zavlekli kolonisté
+- **riches** ["rItSIz] − bohatství
+- **obstacle** ["Qbst@k(@)l] − překážka
+- **voyage** ["vOIIdZ] − cesta, plavba
+- **laid the basis** ["beIsIs] − položila základy
+- **claim** − nárok
+- **representative** [rEprI"zEnt@tIv] − zástupce
+- **to pass** − přimout (zákon)
+- **party system** ["pA:ti "sIst@m] − systém politických stran
 
-**majority party** [m@"dZQrIti] − vítìzná strana (strana, která získala ve volbách vìtšinu) **parallel** ["p&r@lEl] − rovnobì�ka **hospitable** [hQ"spIt@b(@)l] − vlídný **harvest** ["hA:vIst] − sklizeò **elaborate meals** [I"l&b(@)r@t] - slo�itá jídla **stuffing** ["stVfIN] − nádivka **cranberry sauce** ["kr&nb(@)ri sO:s] − brusinková omáèka **maple leaf** ["meIp(@)l li:f] − javorový list **aboriginal people** [&b@"rIdZIn(@)l] − pùvodní obyvatelé **maple sap** [s&p] − javorový sirup **to gather** ["g&D@] − sbírat
+- **majority party** [m@"dZQrIti] − vítězná strana (strana, která získala ve volbách většinu)
+- **parallel** ["p&r@lEl] − rovnoběžka
+- **hospitable** [hQ"spIt@b(@)l] − vlídný
+- **harvest** ["hA:vIst] − sklizeň
+- **elaborate meals** [I"l&b(@)r@t] - složitá jídla
+- **stuffing** ["stVfIN] − nádivka
+- **cranberry sauce** ["kr&nb(@)ri sO:s] − brusinková omáčka
+- **maple leaf** ["meIp(@)l li:f] − javorový list
+- **aboriginal people** [&b@"rIdZIn(@)l] − původní obyvatelé
+- **maple sap** [s&p] − javorový sirup
+- **to gather** ["g&D@] − sbírat
+

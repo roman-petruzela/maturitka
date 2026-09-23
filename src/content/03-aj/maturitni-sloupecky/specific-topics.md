@@ -2,9 +2,7 @@
 title: "Specific topics"
 source: "MATURITA HADR/ANJ/Témata/Maturitní sloupečky/Specific topics/sloupecky_2013.pdf"
 ---
-**44 M AT U R I TA**
 
-S P e a K i n g – S P e C i F i C TO P i C Sr e a d i n g
 
 # **MEANS OF TRANSPORT**
 
@@ -51,10 +49,6 @@ Traditional crops include wheat (grown for animal feed and for bread making), ba
 Farming requires many different skills to be successful. A farmer has to have an understanding of breeding animals, how to operate complex machinery, the safe use of chemicals and also business and economics.
 
 **crops** – plants such as a grain, fruits or vegetables grown in large amounts **confined, cramped** – small, not having much space **welfare** – health and well-being **fertiliser** – a natural or chemical substance that is spread on the land to make plants grow well
-
-2013 | January–February | **BRIDGE**
-
-S P e a K i n g – S P e C i F i C TO P i C Sr e a d i n g **M AT U R I TA 45**
 
 # **NURSING**
 
@@ -114,4 +108,3 @@ Finally, there are software applications. This type of software is the reason we
 
 **resource** – a component of the computer system
 
-**BRIDGE** | January–February | 2013

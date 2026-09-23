@@ -2,11 +2,7 @@
 title: "Unexpected Tastes of the World"
 source: "MATURITA HADR/ANJ/Témata/Témata/Food/Unexpected Tastes of the World/unexpectedtastes.pdf"
 ---
-~~fooD~~
 
-**20**
-
-~~brIDGe | September | 2010~~
 
 # Yorkshire Pudding with Tikka Massala
 
@@ -30,11 +26,11 @@ Scones are another old dish. Originally from Scotland, they are a type of bread 
 
 A recent **survey**<sup>**15**</sup> suggested that the most popular dish in Britain is chicken tikka
 
-massala*, which comes from India. Italian and Chinese food is very popular, too. A lot of English people don’t actually eat much English food any more! In Scotland, a new dish has been invented – **deep fried**<sup>**16**</sup> Mars **bars**<sup>**17**</sup> , so the British taste for heavy food is still alive and well. **Alex Jordan** (uK)
+massala*, which comes from India. Italian and Chinese food is very popular, too. A lot of English people don’t actually eat much English food any more! In Scotland, a new dish has been invented – **deep fried**<sup>**16**</sup> Mars **bars**<sup>**17**</sup> , so the British taste for heavy food is still alive and well. **Alex Jordan** (UK)
 
 **Listen to a chat about a dinner party on the Bridge CD!**
 
-###### **VOCABULARy**
+###### **Vocabulary**
 
 1 **bland** [bl&nd] – bez chuti
 
@@ -72,19 +68,15 @@ massala*, which comes from India. Italian and Chinese food is very popular, too.
 
 ###### *
 
-###### **gLOSSARy**
+###### **Glossary**
 
 **spotted dick** – a pudding made of currants, which give it a distinct look; dick is short for Richard, and also a very offensive word **chicken tikka massala** – an Indian dish consisting of chicken pieces in a creamy tomato sauce
-
-~~fooD~~ **21**
-
-~~brIDGe | September | 201~~ 0
 
 ## Unexpected Tastes of the World
 
 **Look in most textbooks and you’d think all Americans eat hamburgers and the British stuff themselves on fish and chips. What about Australia, Canada, and South Africa? Here is what some of Bridge’s contributors said when asked to name a typical dish from home.**
 
-#### south africa: Biltong and Boerewors
+#### South Africa: Biltong and Boerewors
 
 There are two things that every South African **longs for**<sup>**1**</sup> when away from home. First, biltong, which is beef, **ostrich**<sup>**2**</sup> , or **game meat**<sup>**3**</sup> that is cut into long **strips**<sup>**4**</sup> , marinated, and then hung up to dry. Biltong is tastiest when really dry and **flaky**<sup>**5**</sup> .
 
@@ -92,7 +84,7 @@ The second specialty is boerewors, Afrikaans for “farmers’ sausage”, which
 
 **trip**<sup>**7**</sup> . The traditional recipe uses **minced beef**<sup>**8**</sup> , **mutton**<sup>**9**</sup> and **veal**<sup>**10**</sup> , pork fat and spices. **Pearl Harris**
 
-#### australia: vegemite
+#### Australia: Vegemite
 
 No, we don’t sit down to a **hearty**<sup>**11**</sup> meal of kangaroo. Well, not often. Our most popular food is a **spread**<sup>**12**</sup> called Vegemite. This black paste made from **yeast extract**<sup>**13**</sup> is regarded as a national icon by Australians, while the rest of the world says it is like salty **boot polish**<sup>**14**</sup> , **tar in a jar**<sup>**15**</sup> , or simply **inedible**<sup>**16**</sup> .
 
@@ -100,7 +92,7 @@ Vegemite is eaten in sandwiches, but it’s best spread over hot toast with butt
 
 #### Canada: habitant* pea soup
 
-### usa: s’mores
+### USA: S’mores
 
 A popular **camping dessert**<sup>**19**</sup> in the US is the s’more. S’mores are made by **roasting**<sup>**20**</sup> a marshmallow on a **stick**<sup>**21**</sup> over the campfire. When it gets brown and soft, you put it between two graham crackers* and a piece of chocolate to make a sandwich. Be sure to **squish**<sup>**22**</sup> the sandwich together because the heat from the marshmallow is supposed to melt the chocolate. Why are they
 
@@ -112,7 +104,7 @@ French-Canadian pea soup that helped feed the troops during the First World War.
 
 This heart-warming soup is known as habitant pea soup because of its French-Canadian origins and is made with yellow peas, pork fat and spices including **bay leaf**<sup>**26**</sup> and **thyme**<sup>**27**</sup> . The soup quickly **became a staple**<sup>**28**</sup> in households across Canada and the United States, and has even been sold in a can. **Hana Škrdlová**
 
-###### **VOCABULARy**
+###### **Vocabulary**
 
 ###### **SOUTH AFRICA**
 
@@ -178,6 +170,6 @@ This heart-warming soup is known as habitant pea soup because of its French-Cana
 
 ###### *
 
-###### **gLOSSARy**
+###### **Glossary**
 
 **graham cracker** – a thin biscuit that tastes like a Bebe cookie **habitant** – a French settler in Canada

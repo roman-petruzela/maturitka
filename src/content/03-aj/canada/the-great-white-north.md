@@ -5,11 +5,11 @@ source: "MATURITA HADR/ANJ/Témata/Témata/Canada/The Great White North/23_great
 ---
 { **facts** }
 
-# **Canada – The GreaT**
+# **Canada – The Great White North**
 
 **Population:** 32,6 million **Area:** 9, 984, 670 sq km **Capital:** Ottawa **Location:** northern North America, **extending** from the Atlantic Ocean to the Pacific Ocean; it shares land borders with the United States **Major cities:** Toronto, Calgary, Montreal, Vancouver, Victoria, Winnipeg
 
-**The fLAg**
+**The Flag**
 
 The flag consists of two **vertical bands** of red with a white square between them and a red **maple** leaf centered in the white square. The design of the flag is based on a strong sense of Canadian history: red and white were **proclaimed** the official colours of Canada in 1921 by the British King George V. Canada’s **aboriginal people** had discovered the food **properties** of maple **sap** , which they **gathered** every spring. It grew in public **consciousness** as a symbol of the country. In 1965, it became a component of the national flag of Canada.
 
@@ -29,10 +29,6 @@ Those who live in the area between the Great Lakes experience seasonal extremes:
 
 Newfoundland sits north of Quebec and the Atlantic provinces; it was the last province to enter Confederation in 1949, eighty-two years after Canadian Confederation began in 1867.
 
-12 Bridge 06/2006–2007
-
-# **WhiTe norTh**
-
 that Canada occupies! Most of Canada’s northern lands are **hostile** environments for living in: only **the toughest** can survive the **harsh** winters of the territories. Most Canadians live in larger cities and towns close to the southern border with the US. The US has traditionally been Canada’s number one trading partner, and the border between the two countries is the longest unprotected border in the world.
 
 Because of the huge variety of landscapes in Canada, the climate is just as varied. The west and east coasts **tend to have** warmer winters and cooler
@@ -45,8 +41,7 @@ Canada is the second largest country in the world (after Russia). However, its p
 
 The Canadian national animal is the beaver, which is less **populous** now than it used to be because of past trapping. Moose, bears (polar bears, grizzly bears, and black bears), foxes, wolves, seals, deer, and many different species of fish are among the other common wildlife of Canada.
 
-<!-- Start of picture text -->
-Great<br>Bear<br>Lake<br>Yukon Nunavut<br>Mount<br>Logan Great<br>Slave<br>Lake<br>Labrador<br>G r e a t P l a i n s<br>British  Alberta Manitoba Quebec<br>Columbia<br>Prince<br>Edward<br>Calgary Ontario  Island<br>Vancouver Quebec Halifax<br>Winnipeg Montreal Nova Scotia<br>Victoria Ottawa<br>Toronto<br>Northwest<br>Territories<br>Great Lakes<br>Newfoundland<br>Saskatchewan New Brunswick<br>y MRockountains<br><!-- End of picture text -->
+((obrázek vynechán))
 
 Jeff Gulley (Canada)
 
@@ -60,4 +55,3 @@ Canada, which was formerly a dominion of the British Empire, is now one of fifty
 
 to extend [Ik"stEnd] - táhnout se, rozléhat se vertical band ["v@:tIk(@)l b&nd] - svislý pruh maple ["meIp(@)l] - javorový to proclaim [pr@"kleIm] - prohlásit aboriginal people [&b@"rIdZIn(@)l] - domorodí lidé property ["prQp@ti] - vlastnost sap [s&p] - míza to gather ["g&D@] - sbírat consciousness ["kQnS@snIs] - povědomí roller-coaster ["r@Ul@"k@Ust@] - horská dráha vast plateau [vA:st "pl&t@U] - rozhlehlá rovina rich with oil [rItS OIl] - bohatou na ropu wheat farming [wi:t] - pěstování pšenice abundance [@"bVnd(@)ns] - velké množství has the distinction of being [dI"stINkS(@)n] - se vyznačuje tím, že je bilingual [baI"lINgw(@)l] - dvojjazyčná dominion [d@"mInj@n] - oblast used to be... offensively referred to as [@"fEnsIvlI rI"f@:d] - byli... urážlivě nazýváni hostile ["hQstaIl] - nevlídný the toughest [tVfIst] - ti nejodolnější harsh [hA:S] - drsný, krutý tend to have [tEnd] - mívají evaporation [I%v&p@"reISn] - vypařování populous ["pQpj@l@s] - hojný
 
-> Bridge 06/2006–2007 13

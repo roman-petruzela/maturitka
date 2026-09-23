@@ -2,11 +2,9 @@
 title: "Oscar Wilde"
 source: "MATURITA HADR/ANJ/Témata/Témata/Literature/Oscar Wilde/oscarwilde.pdf"
 ---
-6 **m AT U R I TA** / o S C A r W i L d e
 
-**UppER INTERmEDIATE**
 
-# **tHE iMPortanCE oF BEing WilDE**
+# **The Importance of Being Wilde**
 
 **An idea that is not dangerous is unworthy of being called an idea at all .**
 
@@ -28,7 +26,7 @@ Switching identities in _The Importance of Being Earnest_ is used as a way to ma
 
 _(The excerpts have been simplified.)_
 
-## **oscar Wilde’s quotes**
+## **Oscar Wilde’s Quotes**
 
 - _“A grand passion is the privilege of people who have nothing to do.”_
 
@@ -42,4 +40,3 @@ A young fisherman falls in love with a beautiful mermaid (woman with a fish’s 
 
 read an extended version of the article – about _The Happy Prince_ , a story of love and the power of sacrifice – with an exercise and recording, just for you! www.bridge-online.cz/studenti
 
-2012 | March | **BRIDGE**

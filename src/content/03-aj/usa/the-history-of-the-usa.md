@@ -5,7 +5,7 @@ source: "MATURITA HADR/ANJ/Témata/Témata/USA/The History of the USA/10_history
 ---
 { **history** }
 
-# **the history of the UsA**
+# **The History of the USA**
 
 Patrick Philips (USA)
 
@@ -13,7 +13,7 @@ punished the South for the rebellion, and kept soldiers in the former Confederat
 
 In 1898, the US went to war against Spain, and won from them many islands including Cuba, Puerto Rico, and the Philippines.
 
-### **the 20th century and the Cold War**
+### **The 20th Century and the Cold War**
 
 In the 20th century, the US became one of the most dominant powers in the world. America participated in both world wars during this time, and ended WWII as one of two superpowers (the USSR was the other).
 
@@ -23,7 +23,7 @@ According to archeologists, the present-day United States was first populated by
 
 years. But the biggest and the bloodiest war America fought was the Civil War, 1861 - 1865.
 
-### **the beginning**
+### **The Beginning**
 
 Today the US is the only superpower in the world, and because of this many countries do not like America. American **involvement** in the Middle East has been very unpopular, and many people dislike American domination of world markets and politics. Though the US may not be as popular as it once was, no one can **deny** the experiment in democracy has been a success.
 
@@ -39,9 +39,9 @@ In 1787, the United States **drafted** a constitution, and in 1789 George Washin
 
 to draft [drA:ft] - načrtnout, sepsat slavery ["sleIv(@)ri] - otroctví to abolish [@"bQlIS] - zrušit agrarian [@"grE:rI@n] - zemědělský penalty ["pEn(@)lti] - trest to assassinate [@"s&sIneIt] - zavraždit to drop - shodit natural resources ["n&tS(@)r(@)l rI"sO:sIz] - přírodní zdroje involvement [In"vQlvm(@)nt] - angažovanost to deny [dI"naI] - popřít
 
-### **19th century America**
+### **19th Century America**
 
-### **- the Civil War**
+### **- The Civil War**
 
 America expanded greatly in the 19th century. In 1803, President Thomas Jefferson bought the Louisiana territory from Napoleon Bonaparte of France. The Louisiana Purchase added 2.1 million square km to the US.
 
@@ -51,4 +51,3 @@ The American Civil War is impressively portrayed in this movie telling the story
 
 This period also saw many wars. In 1812, the US went to war again with Britain, and was victorious after three
 
-> Bridge 06/2006–2007 **9**

@@ -3,11 +3,10 @@ title: "Ireland - Basic Facts"
 order: 17
 source: "MATURITA HADR/ANJ/Témata/Témata/Ireland/Ireland - Basic Facts/17_ireland_basic_facts.pdf"
 ---
-9
 
-# **~~<u>Ireland</u>~~**
+# **<u>Ireland</u>**
 
-**~~Total area:~~** ~~70,280 sq km~~ **<u>Population:</u>** <u>4 million</u> **~~Capital:~~** ~~Dublin (Baile Átha Cliath)~~
+**Total area:** 70,280 sq km **<u>Population:</u>** <u>4 million</u> **Capital:** Dublin (Baile Átha Cliath)
 
 ## **Geography**
 
@@ -35,9 +34,23 @@ Although Irish Gaelic is the official first language and it is a compulsory subj
 
 Ireland is the homeland of writers such as Jonathan Swift, James Joyce, Oscar Wilde, Samuel Beckett and W. B. Yeats, and Irish music is known **worldwide** , from traditional music to modern artists such as U2 or Sinéad O'Connor.
 
-### vocabulary
+### Vocabulary
 
-**resembles a basin** ["beIs(@)n] − pøipomíná mísu **emerald** ["Em(@)r(@)ld] − smaragdový **missionaries spread the Christian religion throughout Europe** ["mIS(@)n(@)riz sprEd "krIstS(@)n rI"lIdZ(@)n Tru:"aUt] − misionáøi šíøili køes�anství po celé Evropì **onwards** ["Qnw@dz] − dále (od urè. momentu v èase) **to impose** [Im"p@Uz] − prosazovat, zavádìt **to crush** [krVS] − potlaèit **famine** ["f&mIn] − hladomor **Easter Rising** ["i:st@ "raIzIN] − Velikonoèní povstání **proclaimed independence** [pr@"kleImd] − vyhlásili nezávislost **to suppress** [s@"prEs] − potlaèit **county** ["kaUnti] − hrabství (oblast) **struggle** ["strVg(@)l] − boj, potyèka **worldwide** − po celém svìtì **patron saint** ["peItr(@)n seInt] − svatý patron **to feast** [fi:st] − hodovat
+- **resembles a basin** ["beIs(@)n] − připomíná mísu
+- **emerald** ["Em(@)r(@)ld] − smaragdový
+- **missionaries spread the Christian religion throughout Europe** ["mIS(@)n(@)riz sprEd "krIstS(@)n rI"lIdZ(@)n Tru:"aUt] − misionáři šířili křesťanství po celé Evropě
+- **onwards** ["Qnw@dz] − dále (od urč. momentu v čase)
+- **to impose** [Im"p@Uz] − prosazovat, zavádět
+- **to crush** [krVS] − potlačit
+- **famine** ["f&mIn] − hladomor
+- **Easter Rising** ["i:st@ "raIzIN] − Velikonoční povstání
+- **proclaimed independence** [pr@"kleImd] − vyhlásili nezávislost
+- **to suppress** [s@"prEs] − potlačit
+- **county** ["kaUnti] − hrabství (oblast)
+- **struggle** ["strVg(@)l] − boj, potyčka
+- **worldwide** − po celém světě
+- **patron saint** ["peItr(@)n seInt] − svatý patron
+- **to feast** [fi:st] − hodovat
 
 ## **Holidays**
 

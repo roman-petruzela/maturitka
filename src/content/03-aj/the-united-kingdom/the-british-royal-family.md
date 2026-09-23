@@ -2,13 +2,12 @@
 title: "The British Royal Family"
 source: "MATURITA HADR/ANJ/Témata/Témata/The United Kingdom/The British Royal Family/britishroyalfamily.pdf"
 ---
-BRIDGE | April | 2010
 
 **14** | **Great Britain**
 
-# **~~Elizabeth ? What’s up with~~**
+# **Elizabeth ? What’s up with**
 
-## **tHE britiSH royal faMily toDay**
+## **The British Royal Family Today**
 
 T owards the end of March, the Czech Republic expected a prestigious visit from the UK. The Prince of Wales, Charles, and his wife Camilla, the Duchess of Cornwall, were to spend a few days in the country.
 
@@ -28,7 +27,7 @@ The Queen has many important **formal duties**<sup>**1**</sup> but in most cases
 
 Finally, the Windsor royal family spends a great deal of their time travelling up and down the country in support of different charities and regional projects.
 
-~~In 2005, after graduating from university, Prince William spent time teaching English in Uruguay, the sort of work many young British people do. In 2009, Prince Harry visited New York to help a number of charities.~~
+In 2005, after graduating from university, Prince William spent time teaching English in Uruguay, the sort of work many young British people do. In 2009, Prince Harry visited New York to help a number of charities.
 
 #### Queen Elizabeth ii in a nutshell
 
@@ -46,11 +45,11 @@ There are British people called ‘anti-monarchists’ who do not believe there 
 
 There are critics outside of the UK as well. In 1999, the Australian government called a referendum to decide whether the country should become a republic with a president, rather than having the British Queen as the Australian Head of State. In the end, Australia voted for the British Queen. **a. J. Dalton** (UK)
 
-### st george’s Day
+### St George’s Day
 
 On April 23 the English celebrate St George’s Day. St George was a brave Roman soldier who protested against the torture of Christians by Romans and died for his beliefs. He was the patron saint of soldiers. On the eve of the Battle of Agincourt in 1415, the king, Henry V, called on St George and after the victory St George’s Day became as important as Christmas. Later, many English forgot about this national day but in recent years people are beginning to recognise it again.
 
-###### **~~Vocabulary~~**
+###### **Vocabulary**
 
 - 1 **formal duties** ["dju;ti;z] – formální povinnosti
 
@@ -60,7 +59,7 @@ On April 23 the English celebrate St George’s Day. St George was a brave Roman
 
 - 4 **tax** – daň
 
-###### **~~GloSSary *~~**
+###### **Glossary***
 
 **credit crunch** – a situation where it is difficult to borrow money from banks (to get credit) **number plates** – an identification number on cars
 

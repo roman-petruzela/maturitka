@@ -5,8 +5,6 @@ source: "MATURITA HADR/ANJ/Témata/Témata/Environment/Environment and its Prote
 ---
 **Windmills are a source of alternative energy.**
 
-24
-
 # **The environment and its protection**
 
 **For millions of years, the atmosphere, the hydrosphere, the lithosphere and the biosphere have been in balance on the Earth. These four parts make up what we call the Earth's environment.**
@@ -43,8 +41,6 @@ Four million years ago, humans first walked on the Earth's surface. We have a **
 
 <u>Solutions:</u> **Ban** the use of dangerous chemicals in **aerosols** , **refrigerators** and **car air conditioning** .
 
-25
-
 ### **Cutting down the rainforests - deforestation**
 
 <u>Background:</u> As humans we like to eat meat and the modern trend for beef burgers has increased the demand for more **cattle** and more space worldwide. We also use more hard wood for furniture.
@@ -77,13 +73,51 @@ Four million years ago, humans first walked on the Earth's surface. We have a **
 
 Nigel Haward (Great Britain)
 
-#### vocabulary
+#### Vocabulary
 
-**have been in balance** ["b&l(@)ns] − byly v rovnováze **greenhouse gases** ["gri:nhaUs g&sIz] − skleníkové plyny **ozone layer** ["@Uz@Un "leI@] − ozonová vrstva **highly developed** [dI"vEl@pt] − vysoce vyvinutý **in our favour** ["feIv@] − v náš prospìch **transparent blanket** [tr&n"sp&r(@)nt "bl&NkIt] − prùhledná pokrývka
+**have been in balance** ["b&l(@)ns] − byly v rovnováze **greenhouse gases** ["gri:nhaUs g&sIz] − skleníkové plyny **ozone layer** ["@Uz@Un "leI@] − ozonová vrstva **highly developed** [dI"vEl@pt] − vysoce vyvinutý **in our favour** ["feIv@] − v náš prospěch **transparent blanket** [tr&n"sp&r(@)nt "bl&NkIt] − průhledná pokrývka
 
 <u>Causes:</u> Coal burning in power stations releases **sulphur dioxide** into the atmosphere. This mixes with water in clouds and acid rain is formed. Car **exhaust gases** add other acids.
 
-**radiation** [reIdI"eIS(@)n] − záøení **to trap** [tr&p] − uvìznit, polapit **carbon dioxide** ["kA:b(@)n daI"QksaId] − oxid uhlièitý **too high to support life** [s@"pO:t] - pøíliš vysoké na udr�ení �ivota **fossil fuels** ["fQs(@)l fjU@lz] − fosilní paliva **overall** [@Uv@r"O:l] - globální **rising sea levels** − stoupající hladiny moøí **unpredictable** [VnprI"dIkt@b(@)l] − nevyzpytatelný **flooding** [flVdIN] − záplavy **drought** [draUt] − sucho **thin** [Tin] − tenký **ultra violet** ["Vltr@ "vaI@l@t] − ultrafialové **to release** [rI"li:s] − vypouštìt **to ban** [b&n] − zakázat **aerosol** ["E:r@sQl] − sprej **refrigerator** [rI"frIdZ@reIt@] − lednièka **car air condiotioning** [e@ k@n"dIS(@)nIN] − klimatizace v autì **deforestation** [di:fQrI"st"eIS(@)n] − odlesòování **cattle** ["k&t(@)l] − dobytek **basin** ["beIs(@)n] − povodí **to become extinct** [Ik"stINkt] − vyhynout **to dispose of** [dI"sp@Uz] − zbavit se, zlikvidovat **to dump** [dVmp] - vyhodit, zbavit se **pest** [pEst] − škùdce **to leak** [li:k] − unikat **to update** − aktualizovat **acid** ["&sId] − kyselý **scale** [skeIl] − stupnice **alkaline** ["&lk@laIn] − zásaditý **in a narrow range** ["n&r@U reIn(d)Z] − v úzkém rozmezí **sulphur dioxide** ["sVlf@ daI"QksaId] − oxid siøièitý **exhaust gases** [Ig"zO:st] − výfukové plyny **chimney** ["tSImni] − komín **to expand** [Ik"sp&nd] − rozvíjet se **to switch off** − vypnout **to turn down** − stáhnout **to insulate** ["InsjUl@t] − izolovat **to encourage** [In"kVrIdZ] − pøimìt, pøesvìdèit **to see the longer view** − aby uva�ovali v dlouhodobìjším èasovém horizontu
+- **radiation** [reIdI"eIS(@)n] − záření
+- **to trap** [tr&p] − uvěznit, polapit
+- **carbon dioxide** ["kA:b(@)n daI"QksaId] − oxid uhličitý
+- **too high to support life** [s@"pO:t] - příliš vysoké na udržení života
+- **fossil fuels** ["fQs(@)l fjU@lz] − fosilní paliva
+- **overall** [@Uv@r"O:l] - globální
+- **rising sea levels** − stoupající hladiny moří
+- **unpredictable** [VnprI"dIkt@b(@)l] − nevyzpytatelný
+- **flooding** [flVdIN] − záplavy
+- **drought** [draUt] − sucho
+- **thin** [Tin] − tenký
+- **ultra violet** ["Vltr@ "vaI@l@t] − ultrafialové
+- **to release** [rI"li:s] − vypouštět
+- **to ban** [b&n] − zakázat
+- **aerosol** ["E:r@sQl] − sprej
+- **refrigerator** [rI"frIdZ@reIt@] − lednička
+- **car air condiotioning** [e@ k@n"dIS(@)nIN] − klimatizace v autě
+- **deforestation** [di:fQrI"st"eIS(@)n] − odlesňování
+- **cattle** ["k&t(@)l] − dobytek
+- **basin** ["beIs(@)n] − povodí
+- **to become extinct** [Ik"stINkt] − vyhynout
+- **to dispose of** [dI"sp@Uz] − zbavit se, zlikvidovat
+- **to dump** [dVmp] - vyhodit, zbavit se
+- **pest** [pEst] − škůdce
+- **to leak** [li:k] − unikat
+- **to update** − aktualizovat
+- **acid** ["&sId] − kyselý
+- **scale** [skeIl] − stupnice
+- **alkaline** ["&lk@laIn] − zásaditý
+- **in a narrow range** ["n&r@U reIn(d)Z] − v úzkém rozmezí
+- **sulphur dioxide** ["sVlf@ daI"QksaId] − oxid siřičitý
+- **exhaust gases** [Ig"zO:st] − výfukové plyny
+- **chimney** ["tSImni] − komín
+- **to expand** [Ik"sp&nd] − rozvíjet se
+- **to switch off** − vypnout
+- **to turn down** − stáhnout
+- **to insulate** ["InsjUl@t] − izolovat
+- **to encourage** [In"kVrIdZ] − přimět, přesvědčit
+- **to see the longer view** − aby uvažovali v dlouhodobějším časovém horizontu
 
 ## **Energy**
 

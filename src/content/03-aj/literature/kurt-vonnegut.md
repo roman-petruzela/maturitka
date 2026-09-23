@@ -2,11 +2,6 @@
 title: "Kurt Vonnegut"
 source: "MATURITA HADR/ANJ/Témata/Témata/Literature/Kurt Vonnegut/vonnegut.pdf"
 ---
-upper ~~literature~~ intermeDiate
-
-**4**
-
-~~BRIDGE | April | 2011~~
 
 # **AND SO IT GOES** Life according to Kurt Vonnegut
 
@@ -30,7 +25,7 @@ Vonnegut became more pessimistic about life as he grew older. He joined a writer
 
 Vonnegut illustrated some of his books. His first illustrated book was _Slaughterhouse Five_ and he continued with his felt-tip pen illustrations in _Breakfast of Champions_ .
 
-### other famous books by kurt Vonnegut
+### Other Famous Books by Kurt Vonnegut
 
 ###### **Player Piano**
 
@@ -43,10 +38,6 @@ Published in 1963, this book explores themes of science, technology, and religio
 ###### **Breakfast of Champions**
 
 Written in 1973, this book  is a portrait of a fictional town in the American Mid-West (called Midland city) that is home to a group of slightly neurotic characters. An unknown science fiction writer, Kilgore Trout, comes there and meets a rich businessman, Dwayne Hoover, who owns much of the city but is slowly going **insane**<sup>**17**</sup> .
-
-**5**
-
-~~BRIDGE | April | 2011~~
 
 ## Slaughterhouse Five
 
@@ -96,7 +87,7 @@ Solution on p. 3
 
 **DISCUSS** In the excerpt first Billy goes back to his childhood, in the next moment he jumps into a comic description of how he was trying to find the steering wheel. How do his time travels tie in with the moment when he’s telling his fellow wanderers (soldiers) to leave him behind, when he feel dizzy, cold, and embarrassed, (Was the memory from his childhood a pleasant one?
 
-###### **VOCABULARy**
+###### **Vocabulary**
 
 - 1 **pure** [pjU@] – čístý, ryzí
 
@@ -180,7 +171,7 @@ volant
 
 - 33 **jigsaw puzzle** ["dZIgsO; "pVz(@)l] – skládačka puzzle
 
-###### **GLOSSARy***
+###### **Glossary***
 
 **deep end** – the deep part of a swimming pool (=hloubka) **inch –** unit of length (1 inch = 2.54 cm), hear _inch_ means small amount or part of something (=kousek, píď)
 

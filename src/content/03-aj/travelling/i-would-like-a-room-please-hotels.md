@@ -3,9 +3,7 @@ title: "I Would like a Room, Please (Hotels)"
 order: 40
 source: "MATURITA HADR/ANJ/Témata/Témata/Travelling/I Would like a Room, Please (Hotels)/40_hotels.pdf"
 ---
-www.bridge-online.cz
-
-# **~~“I'd like a room, please...”~~**
+# **“I'd like a room, please...”**
 
 **Many people travel abroad for business or on holiday. In many countries, English is the only language which both the traveler and the accommodator can understand. So, it is necessary to know some basic information about booking accommodation in English. Let's have a look at some of the most typical types of accommodation.**
 

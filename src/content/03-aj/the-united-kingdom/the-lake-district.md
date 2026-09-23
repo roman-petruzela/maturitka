@@ -2,11 +2,10 @@
 title: "The Lake District"
 source: "MATURITA HADR/ANJ/Témata/Témata/The United Kingdom/The Lake District/lakedistrict.pdf"
 ---
-6 G e o G R A p h y
 
 The Lake District is a very popular tourist destination. All land above 3,000 feet (914 metres) in England is in this area.
 
-# **MountAinS, lAKES AnD DAffoDilS**
+# **Mountains, Lakes and Daffodils**
 
 **the English lake District**
 
@@ -34,29 +33,25 @@ courses based at the lakes. Many people just go there to relax and enjoy the won
 
 However, the beautiful landscape of the Lakes also holds hidden dangers. Tourists and even experienced walkers sometimes have accidents and get into trouble on
 
-2012 | April | **BRIDGE**
-
-7
-
 The Castlerigg Stone Circle was probably constructed more than 5,000 years ago and nobody knows its real purpose. The stone circle, or rather an oval, is about 30 m wide, with the tallest stone being more than 2 m high.
 
 do happen but there’s lots of rain, fog and clouds. For at least one third of the year, it’s very windy. Sometimes the wind is so strong that it’s difficult to stand up when climbing on the peaks and **ridges**<sup>**9**</sup> .
 
 People must take notice of the weather forecast before they **set off**<sup>**10**</sup> . Sometimes even organisations get it wrong. Each year there is a race across the fells called the Original Mountain Marathon. One year the weather forecast was bad but the organisers decided to **go ahead**<sup>**11**</sup> with the race. In **gale force wind**<sup>**12**</sup> and **driving rain**<sup>**13**</sup> 1,700 runners were ‘lost’ overnight. By the next day they had been found, but it highlighted the dangers of ignoring the weather forecast.
 
-#### **land of sheep**
+#### **Land of Sheep**
 
 Windermere is the largest lake in England. It is about 17 km long, but very narrow – its maximum width is only about 1.5 km. Such long and narrow lakes, usually formed by glaciers, are called ‘ribbon lakes’.
 
-Sheep farming is the main agricultural activity in the Lake District. The sheep live on the fells and there are no fences. This is because the sheep have a historical memory of their home area. Generations of sheep have lived in the area where they were born and they don’t get lost. The locals say that the sheep are ‘heafed’. Heaf is a local word meaning home territory. After the **foot and mouth epidemic**<sup>**14**</sup> in 2001, when thousands of sheep were **slaughtered**<sup>**15**</sup> , new sheep were brought into the area. Electric fences are being used for these animals until they can learn where their home is. **nigel Haward** (uK)
+Sheep farming is the main agricultural activity in the Lake District. The sheep live on the fells and there are no fences. This is because the sheep have a historical memory of their home area. Generations of sheep have lived in the area where they were born and they don’t get lost. The locals say that the sheep are ‘heafed’. Heaf is a local word meaning home territory. After the **foot and mouth epidemic**<sup>**14**</sup> in 2001, when thousands of sheep were **slaughtered**<sup>**15**</sup> , new sheep were brought into the area. Electric fences are being used for these animals until they can learn where their home is. **nigel Haward** (UK)
 
 the fells and peaks. The weather can be bright and sunny but it can change very quickly; fog reduces visibility and rocks become **slippery**<sup>**8**</sup> . Rescuers deal with over a hundred incidents each year. They either carry the injured to safety or, if there is a serious problem, they call a rescue helicopter.
 
-#### **tricky weather**
+#### **Tricky Weather**
 
 The character of the Lake District is partly formed by the climate. Sunny clear days
 
-## LAkE POETS
+## Lake Poets
 
 The Lake poets were a group of British Romantic poets who lived in the Lake District and were inspired by its beauty. The most famous poets from the group are William Wordsworth (1770–1850) and samuel Taylor Coleridge (1772–1834). Wordsworth wrote one of the bestknown poems in english literature, called “i Wandered Lonely as a Cloud”. The poem was inspired by a walk in the Lake District, where he came across lots of daffodils. here is the first verse of the poem. Can you imagine what the poet saw?
 
@@ -64,7 +59,7 @@ _I wandered lonely as a cloud That floats on high o’er vales and hills When al
 
 ( **o’er** – over; **vale** – valley; **host** – many; **to flutter** – třepotat se; **breeze** – light wind)
 
-### **watch out!**
+### **Watch Out!**
 
 Careless tourists sometimes get into trouble in the Lake District. some incidents from the rescuers’ **log book**<sup>**16**</sup> include:
 
@@ -72,7 +67,7 @@ _A couple got lost when it became dark. They had no map, compass or_ **_torch_**
 
 _A woman fell two metres from the top of a large_ **_boulder_**<sup>**_18_**</sup> _. She had climbed the rock to avoid a large_ **_puddle_**<sup>**_19_**</sup> _that was in her way across the path. Ironically, she injured herself when she fell into the puddle._
 
-##### **~~Vo cabulary~~**
+##### **Vocabulary**
 
 > 1 **daffodil** ["d&f@dIl] – narcis
 
@@ -110,4 +105,3 @@ _A woman fell two metres from the top of a large_ **_boulder_**<sup>**_18_**</su
 
 > 19 **puddle** ["pVd(@)l] – louže
 
-**BRIDGE** | April | 2012

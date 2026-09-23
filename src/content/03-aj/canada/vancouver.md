@@ -2,9 +2,7 @@
 title: "Vancouver"
 source: "MATURITA HADR/ANJ/Témata/Témata/Canada/Vancouver/vancouver.pdf"
 ---
-14 H E A D
-
-# **the World’S greeneSt City**
+# **The World’s Greenest City**
 
 ## **Scenic, futuristic Vancouver**
 
@@ -22,19 +20,9 @@ The city cares a lot for the environment. The mayor promised that “Vancouver w
 
 Cycling is actively encouraged, with cycle tracks along the sides of most
 
-**1**
-
-**m At U R I tA** / C A n A D A
-
-15
-
-<!-- Start of picture text -->
-2 3<br>1Stanley Park is an oasis surrounded by  skyscrapers 8 , home to a variety of wildlife and local<br>tree species. A big part of it is a forest, but there are<br>also several attractive beaches along the shoreline.<br>The park has forest trails, cycling, jogging, walking<br>and roller-skating tracks. You can also see totem poles<br>by Native Americans there.<br>2the Vancouver Public Library occupies a whole The architecturally impressive central  branch 9  of<br>city block. Its shape  resembles 10 that of the ancient<br>Colosseum in Rome. The library contains light, airy<br>spaces for reading, internet facilities and bistros.<br>Granville Island is a paradise for artists. Abandoned (no longer used)<br><!-- End of picture text -->
+((Text z obrázku, sloupce se při převodu promíchaly.)) 2 3 1Stanley Park is an oasis surrounded by skyscrapers 8 , home to a variety of wildlife and local tree species. A big part of it is a forest, but there are also several attractive beaches along the shoreline. The park has forest trails, cycling, jogging, walking and roller-skating tracks. You can also see totem poles by Native Americans there. 2the Vancouver Public Library occupies a whole The architecturally impressive central branch 9 of city block. Its shape resembles 10 that of the ancient Colosseum in Rome. The library contains light, airy spaces for reading, internet facilities and bistros. Granville Island is a paradise for artists. Abandoned (no longer used)
 
 3Granville Island is a paradise for artists. Abandoned (no longer used) **warehouses**<sup>**11**</sup> and factories are now colourfully painted and contain **woodcarving**<sup>**12**</sup> , painting and **sculpting**<sup>**13**</sup> studios, and arts and **craft stores**<sup>**14**</sup> . Emily Carr University, one of the world’s leading art and design universities, is situated there. The photo shows some of the luxury floating homes (boat houses) moored (anchored) at Granville Island.
-
-<!-- Start of picture text -->
-4<br><!-- End of picture text -->
 
 4ball and features interactive scientific displays Science World resembles a huge, **glittering**<sup>**15**</sup> golf and exhibits.
 
@@ -44,15 +32,9 @@ Cycling is actively encouraged, with cycle tracks along the sides of most
 
 streets. All buses have a special **rack**<sup>**5**</sup> to carry bicycles in the front. Bikes are allowed free on city trains, called SkyTrains. The doors of the SkyTrain **are level with the platform**<sup>**6**</sup> , so you just push your bike into the train without any problem. Of course, all stations have lifts, so you don’t have to carry your bike up or down any steps.
 
-<!-- Start of picture text -->
-5<br><!-- End of picture text -->
-
-<!-- Start of picture text -->
-6<br><!-- End of picture text -->
-
 Vancouver repeatedly appears on the list of “World’s Most **Liveable**<sup>**7**</sup> Cities”, and with its scenery, active lifestyle and friendly citizens, it is easy to see why. **pearl harris** (South Africa)
 
-### **~~VO CaBUlary~~**
+### **Vocabulary**
 
 - 1 **logging path** – dřevařská stezka
 
@@ -90,4 +72,3 @@ Vancouver repeatedly appears on the list of “World’s Most **Liveable**<sup>*
 
 - 18 **sharp bends** – ostré zatáčky
 
-**BRIDGE** | May–June | 2012

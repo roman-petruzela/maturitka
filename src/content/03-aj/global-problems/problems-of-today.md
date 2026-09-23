@@ -7,9 +7,6 @@ source: "MATURITA HADR/ANJ/Témata/Témata/Global problems/Problems of Today/32_
 
 # **Problems of today**
 
-<!-- Start of picture text -->
-Jacy Meyer (USA)<br><!-- End of picture text -->
-
 **Did you oversleep today? Did you forget to do your homework or fail a test? Those can seem like big problems in our lives, but people around the world often deal with bigger issues, such as illiteracy, disease, hunger and war.**
 
 countries like Iran are often **accused of** not granting rights to women and countries with an **indigenous population** like Australia often have conflicts over the rights of the natives versus non-natives. Countries that have problems with human rights include North Korea, Sudan and China.
@@ -26,20 +23,15 @@ Human rights are basic “privileges” that everyone should receive. Not being 
 
 ### **Wars**
 
-<!-- Start of picture text -->
-Jacy Meyer<br>(USA)<br><!-- End of picture text -->
-
 Conflicts are happening around the world. We are all familiar with the problems in Afghanistan and Iraq. Fighting between the government and **militias is occurring** in Somalia and innocent civilians are being killed in the fighting or are forced to leave their homes for safer areas. This past summer we saw fighting between Israel and Lebanon in the Middle East, the area constantly troubled by the longterm Israeli-Palestinian conflict. There are different reasons for war: sometimes two groups are fighting for control of a country and sometimes their **dispute** is based on their religions. We’ve seen a **rise** in terrorist acts committed by people who believe they are defending their religion. The attacks in the US in September 2001 and in Britain in July 2005 are two examples – but people in Indonesia, Spain, Israel and the Palestinian territories also have suffered from terrorism.
 
 the right types of food) and **starvation** . Poor countries also may not have a good **health care system** , which leads to a population that is ill and has many diseases. We see these problems in many African countries like Chad and Nigeria, as well as in Central American countries like Guatemala, South American countries like Brazil, Asian countries like Nepal, and countries closer to home like Romania.
 
-### **environment**
+### **Environment**
 
 Environmental issues **are a concern for everyone** . Global warming is becoming a huge problem, and those in the developed nations are **contributing to** , and **will be** greatly **affected by** , climate change. Cutting down trees,
 
 Climate change can lead to more frequent floods as well as catastrophic droughts.
-
-18 Bridge 06/2006–2007
 
 ### **Problems at home**
 
@@ -71,4 +63,3 @@ to oversleep [@Uv@"sli:p] - zaspat illiteracy [I"lIt(@)r@si] - negramotnost wide
 
 - přispět k (něčemu), mit podíl na to be affected by ["fEktId] - být ovlivněn (něčím) to pollute [p@"lu:t] - znečisťovat consumer society [k@n"sju:m@ s@"saIti] - konzumní společnost ozone layer ["@Uz@Un "leI@] - ozonová vrstva extinct [Ik"stINkt] - vyhynulý is currently figuring out ["kVr(@)ntli "fIg@rIN] - momentálně řeší to dump [dVmp] - složit, vysypat on record - který byl kdy zaznamenán left over from mining ["maInIN] - která zůstala po těžbě ongoing ["Qng@UIN] - trvalý prejudice ["prEdZUdIs] - předpojatost, předsudek to treat (sb.) [tri:t] - chovat se (k někomu)
 
-> Bridge 06/2006–2007 19

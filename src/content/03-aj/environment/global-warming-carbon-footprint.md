@@ -6,15 +6,13 @@ source: "MATURITA HADR/ANJ/Témata/Témata/Environment/Global Warming, Carbon Fo
 
 Listening activity online
 
-BRIDGE | April | 2010
+# Man-made Disaster
 
-# mAn-mADE DisAstER
-
-### **the effects**
+### **The Effects**
 
 **of global warming**
 
-### **on planet Earth**
+### **On Planet Earth**
 
 S cientistsplanet Earth. By 2100 the sea levels will **envision**<sup>**1**</sup> a terrifying future for rise, coastlines disappear, Amsterdam and New York will be underwater. 100–200 million people will become homeless. And all because of global warming. So what is this threat? Is the danger real? And what can we do to stop it? To understand this complex subject, besides global warming, the greenhouse effect and climate change must also be explained.
 
@@ -43,17 +41,13 @@ The combined effects of CO2 overproduction and lower levels of absorption have i
 Global warming and climate change are closely related. Scientists claim that the increase in overall global temperature is changing the climate (= the long-term weather patterns). Global warming doesn’t necessarily mean that the weather will be warmer and that beach resorts **will spring up**<sup>**13**</sup> in northern countries, rather the weather will become more **unpredictable**<sup>**14**</sup> . That could mean hurricanes and floods in some places, and **spells of drought**<sup>**15**</sup> in others. And we have all seen the evidence of this **erratic**<sup>**16**</sup> weather behaviour. There have been summer floods and very little
 
 | **5**
+((Text z obrázku, sloupce se při převodu promíchaly.)) The latest talks about climate change in Copenhagen in December 2009 ended without an agreement. The developed countries didn’t reach consensus on how to f i nance the reduction of CO 2 in developing countries.
 
-www.bridge-online.cz
-
-<!-- Start of picture text -->
-The latest talks about climate change in Copenhagen in December 2009<br>ended without an agreement. The developed countries didn’t reach<br>consensus on how to f i nance the reduction of CO 2  in developing countries.<br><!-- End of picture text -->
-
-~~The Czech President Václav Klaus is a strong opponent of climate change, claiming that the increase in the global temperatures has been small and the forecasts are speculative.~~
+The Czech President Václav Klaus is a strong opponent of climate change, claiming that the increase in the global temperatures has been small and the forecasts are speculative.
 
 snow in Europe, and in comparison lots of snow this year even in places like Great Britain. Hurricanes are much more violent than in the past, causing a lot of damage and loss of life in the Caribbean and the southern states of the USA.
 
-## the carbon footprint
+## The Carbon Footprint
 
 ##### **Politics and climate change**
 
@@ -67,8 +61,7 @@ Developing countries<sup>18</sup> , led by China and India, are now improving th
 
 #### How to reduce your carbon footprint
 
-<!-- Start of picture text -->
-YoUR How to reduce your carbon footprint<br>tURn<br>Look at what you can do to reduce the amount of CO2 in the atmosphere. Which<br>things are you willing to do?<br>Switch off<br>Hang out the  lights when<br>washing instead of  not required.<br>tumble drying 22  it. Turn<br>down the<br>Share your car journeys  hot water<br>with someone else and  setting<br>Fill the  kettle 23 plan how often you  by two<br>with only as much  use the car. degrees.<br>water as you need.<br>Buy locally grown fruits<br>Turn down the central heating  and vegetables because<br>by one or two degrees. Put on  the transport of goods<br>an extra jumper. Don’t expect to  from distant places<br>wear a T-shirt in the house! produces lots of CO2.<br><!-- End of picture text -->
+((Text z obrázku, sloupce se při převodu promíchaly.)) YoUR How to reduce your carbon footprint tURn Look at what you can do to reduce the amount of CO2 in the atmosphere. Which things are you willing to do? Switch off Hang out the lights when washing instead of not required. tumble drying 22 it. Turn down the Share your car journeys hot water with someone else and setting Fill the kettle 23 plan how often you by two with only as much use the car. degrees. water as you need. Buy locally grown fruits Turn down the central heating and vegetables because by one or two degrees. Put on the transport of goods an extra jumper. Don’t expect to from distant places wear a T-shirt in the house! produces lots of CO2.
 
 Because of the CO2 increase developed countries decided to take action. In 1997 the leaders of these countries met in Kyoto in Japan and agreed that the production of greenhouse gases should be reduced by 5.2% in 2012.
 
@@ -78,7 +71,7 @@ Not all scientists believe in the existence of global warming. They say that the
 
 **nigel Haward** (UK)
 
-###### **~~Vocabulary~~**
+###### **Vocabulary**
 
 - 1 **to envision** [En"vIZ(@)n] – předvídat 2 **layer** ["leI@] – vrstva 3 **transparent blanket** [tr&n"sp&r(@)nt "bl&NkIt] – průhledná pokrývka
 
@@ -104,7 +97,7 @@ Not all scientists believe in the existence of global warming. They say that the
 
 v sušičce 23 **kettle** ["kEt(@)l] – elektrická konvice
 
-###### **~~GloSSary *~~**
+###### **Glossary***
 
 **fossil fuels** (fosilní paliva) – sources of energy formed from dead animals and plants million of years ago; these include gas, coal and oil
 

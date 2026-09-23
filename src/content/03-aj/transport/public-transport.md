@@ -3,9 +3,7 @@ title: "Public Transport"
 order: 35
 source: "MATURITA HADR/ANJ/Témata/Témata/Transport/Public Transport/35_public_transport.pdf"
 ---
-www.bridge-online.cz
-
-# **~~Public transportation~~**
+# **Public transportation**
 
 **“Public transportation" generally means using some kind of vehicle (car, wagon, bicycle, bus, tram) to move a person from one place to another. Public transportation takes many forms.**
 
@@ -32,9 +30,6 @@ The biggest advantage of traveling by school bus is that it's very safe. Buses a
 ## **Trams**
 
 Trams and commuter trains are found in some of the larger cities of the world. In the Czech
-
-www.bridge-online.cz
-
 The advantages and disadvantages of traveling by tram or commuter train are similar to buses, except on commuter trains you can enjoy a quiet ride lasting an hour or two twice a day, when you can read the newspaper or finish office paper work.
 
 ## **Metro, underground, subway**

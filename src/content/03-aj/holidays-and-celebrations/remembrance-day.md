@@ -2,15 +2,9 @@
 title: "Remembrance Day"
 source: "MATURITA HADR/ANJ/Témata/Témata/Holidays and Celebrations/Remembrance Day/remembranceday.pdf"
 ---
-uPPer intermediate
 
-~~significant day~~
-
-**8**
 
 bridge-online.cz/studenti/extra-clanky
-
-~~brIDGe | november | 2010~~
 
 **The history of mankind is stained with the blood of countless battles and wars. History books usually speak of great leaders and brilliant strategists. Remembrance Day is dedicated to the millions of unknown soldiers who lost their lives, especially during the First World War and Second World War.**
 
@@ -29,10 +23,6 @@ risked their lives in the fight for freedom and **restoration of sovereignty**<s
 People who are interested, military and civilian, prominent officials, usually wearing a symbolic red **poppy**<sup>**6**</sup> , **join remembrance services**<sup>**7**</sup> that are held at war memorials where **wreaths are laid**<sup>**8**</sup> . “The Last Post” (a tune that ends the day at an army camp) is played and **a minute’s silence is observed**<sup>**9**</sup> .
 
 **Inscribed**<sup>**10**</sup> on many war memorials is part of the poem _For the Fallen,_ written in 1914 by British poet and art critic Laurence
-
-**9**
-
-~~brIDGe | november | 2010~~
 
 We were eighteen and had begun to love life and the world; and we had to shoot it to pieces.
 
@@ -62,7 +52,7 @@ A high proportion of deaths were the result of disease. Shrapnel from an explodi
 
 The trenches were a military strategy that had tragic consequences for the soldiers on both sides while achieving very little **in terms of forward progress**<sup>**15**</sup> . The German
 
-### the symbol of remembrance
+### The Symbol of Remembrance
 
 People wear real or artificial poppies in honour of Remembrance Day. The red poppy grew in great numbers in the craters and trenches of the war zone. It became a symbol thanks to a Canadian doctor, John McCrae, who in May 1915 after the second battle of Ypres wrote the poem _In Flanders Fields*_ , the place of battlefields and the resting place of dead soldiers where red poppies grew **in abundance**<sup>**30**</sup> .
 
@@ -74,10 +64,6 @@ Harry Patch said that disputes should be settled by discussion rather than war.
 
 In areas such as Ypres, in belgium, fighting in trenches was like a continuous hell. Imagine the vast extent of the trenches when a soldier could walk on battlefields from nieuwpoort in belgium, located three kilometres from the coastline, to the Swiss borders (a distance of around 550 kilometres), without even his helmet standing out over the edge of trenches.
 
-> **10** ~~significant day~~
-
-~~brIDGe | november | 2010~~
-
 _Front_ , was written by German writer Erich Maria Remarque.
 
 that cause disease). Antibiotics had not yet been discovered, so a wound, especially in the **abdomen**<sup>**28**</sup> , was usually fatal in the end. A fungal infection of the feet (trench foot) due to the wet conditions often resulted in **gangrene**<sup>**29**</sup> and amputation.
@@ -88,17 +74,17 @@ Eye witnesses to life and death in the trenches commented that they thought that
 
 ##### **All Quiet on the Western Front**
 
-‘We are not youth any longer… We were eighteen and had begun to love life and the world; and we had to shoot it to pieces.’ **Nigel Haward** (uK) **Marie Šormová** (Cr)
+‘We are not youth any longer… We were eighteen and had begun to love life and the world; and we had to shoot it to pieces.’ **Nigel Haward** (UK) **Marie Šormová** (Cr)
 
 One of the most famous novels dealing with the First World War, _All Quiet on the Western_
 
 The most famous literary work about Czech soldiers in the Austro-Hungarian army is the humorous novel _The Good Soldier Švejk_ written by Jaroslav Hašek. The raw description of the war becomes an actual accusation of how human lives are wasted on the battlefields. Illustration © Josef lada – heir, 2008
 
-#### in honour of the brave
+#### In Honour of the Brave
 
 On November 11, 2004 a bronze monument was erected in Vítězné náměstí in Prague to honour the Czechoslovak soldiers who died fighting abroad in both Czechoslovak and Allied armies during the Second World War. The monument is inscribed with places and a map where the soldiers were killed. The area around the monument is paved with granite tiles under which boxes containing soil from different battlefields are stored. A part of the installation is an interactive database giving the names of soldiers, their unit and how they died. It’s a reminder of all the brave men who perished serving their country.
 
-###### **VOCABULARy**
+###### **Vocabulary**
 
 - 1 **pretext** ["pri;tEkst] – záminka
 
@@ -174,6 +160,6 @@ On November 11, 2004 a bronze monument was erected in Vítězné náměstí in P
 
 - 33 **welfare of ex-servicemen** ["wElfE;] – sociální zabezpečení bývalých vojáků (příslušníků armády)
 
-###### **GLOSSARy***
+###### **Glossary***
 
 **Flanders fields** – an area in present-day Belgium, France, and the Netherlands

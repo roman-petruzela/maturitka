@@ -3,15 +3,7 @@ title: "Shop Till you Drop"
 order: 37
 source: "MATURITA HADR/ANJ/Témata/Témata/Shopping/Shop Till you Drop/37_shopping.pdf"
 ---
-> **28** shopping
 
-Bridge 06 − 2008/2009
-
-<!-- Start of picture text -->
-shop<br><!-- End of picture text -->
-
-<!-- Start of picture text -->
- till you drop<br><!-- End of picture text -->
 
 **Buying and selling goods has probably been a regular human activity for as long as people have lived together. Trade began the moment one person had more of one thing, say fish, and wanted something they had little of, say grain. They would exchange their fish for someone else’s grain. This is known as bartering and it is the simplest and earliest form of economic activity.**
 
@@ -31,12 +23,7 @@ Along with supermarkets, many people do their shopping in a department store. De
 
 For the last thirty years or so, all of our shopping needs have been concentrated into
 
-**29**
-
-Bridge 06 − 2008/2009
-
-<!-- Start of picture text -->
-Are<br>you willing<br>to haggle?<br><!-- End of picture text -->
+Are you willing to haggle?
 
 **Read about somebody’s TASK shopping plans and fill in the missing words. Try to fill as many words as you can think of into each space.**
 
@@ -88,7 +75,7 @@ to rummage about ["rVmIdZ] - přehrabovat se gem [dZEm] - poklad postage ["p@Ust
 
 indifferent [In"dIf(@)r(@)nt] - lhostejný
 
-# glossary
+# Glossary
 
 to give way to sth - to be replaced by something, usually because it is better, cheaper or easier ( _Over time, open-air market places gave way to permanent establishments._ )
 
@@ -100,13 +87,13 @@ drugstore - (US) typically a shop where you can buy not only medicines, but also
 
 _supermarkets are open around the clock._ = they are open all day and all night) pushy - behaving in an unpleasant way by trying to persuade you to do something (for example to buy products)
 
-# brE x aME
+# BrE x AmE
 
 trolley (BrE) x cart (AmE) supermarket (BrE, AmE) x grocery store (AmE)
 
 shopping centre (BrE) x shopping mall (AmE)
 
-# languagE points
+# Language Points
 
 The word “goods” (things for sale) can only be used in plural ( _The internet shop will deliver all the goods to your doorstep._ )
 

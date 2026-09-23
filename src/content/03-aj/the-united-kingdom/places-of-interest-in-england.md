@@ -2,11 +2,6 @@
 title: "Places of Interest in England"
 source: "MATURITA HADR/ANJ/Témata/Témata/The United Kingdom/Places of Interest in England/uk_sights.pdf"
 ---
-~~english-sPeaking countries~~
-
-**46**
-
-~~BRIDGE | January–February | 2011~~
 
 # Where to go in England?
 
@@ -32,13 +27,7 @@ Most tourists start exploring 1 England by visiting the British capital, **Londo
 
 **York** is an ancient city that was very wealthy and 2 powerful under the reign of the Vikings (who called it Jorvik). At the Jorvik Viking Centre you can see reconstructions of Viking York, complete with sounds and smells. The museum is built on the exact spot where the Viking town and houses were uncovered in 1978. A small train takes you through the exhibits, and a museum at the end displays real Viking artefacts. York is also famous for its large Gothic cathedral.
 
-14
-
 Cornwall
 
-**47**
+((Text z obrázku, sloupce se při převodu promíchaly.)) Zuzana Pernicová (CR) Alex Jordan (UK) The town of Canterbury 10 is known for its medieval cathedral, where the archbishop Thomas Becket was murdered in 1170. It became a destination for Christian pilgrims, and one such pilgrimage was the theme of The Canterbury Tales , a famous 14 th -century literary work by Geoffrey Chaucer. Liverpool draws 6 11 thousands of music fans Lake District every year as it is the place where The Beatles were formed. In the past, it used to be a very important port, and a part of the city centre with the docks is a UNESCO World Heritage Site. Liverpool 2 York The main attraction of Salisbury is its beautiful 11 12 medieval cathedral. It was built eight hundred years ago and houses the Magna Carta – the famous document that the British constitution and legal system are based on. Some 15 km from Salisbury you can find Stonehenge , perhaps the best-known prehistoric monument in the world. Built in about 2,500 BC, it consists of circles of big standing stones. It may have served as a burial ground and a place of worship (= religious ceremonies). People enjoy gathering there on the summer and winter solstice (= the longest and shortest Nottingham 7 days of the year) and watching the sunrise. Stratford-upon-Avon is 13 the birthplace of one of Stratford the greatest playwrights 13 in history, William Shakespeare. You can visit the house where Shakespeare was born and the Royal Shakespeare Theatre. But even if you are not into theatre, Cotswolds you can enjoy the old streets 8 5 5 with picturesque half-timbered Cambridge houses from Shakespeare’s time Oxford (= houses with a wooden frame which shows on the surface). London 1 12 Cornwall , a county in the south-west Salisbury 14 of England, is very popular thanks to its Stonehenge 10 long and beautiful coastline. You can find 4 Land’s End there, the most southwesterly point Canterbury in Britain, and also Tintagel Castle, an impressive Portsmouth 9 Brighton castle ruin towering over the sea, which is said to be the birthplace of the legendary King Arthur.
 
-~~BRIDGE | January–February | 2011~~
-
-<!-- Start of picture text -->
-Zuzana Pernicová  (CR)<br>Alex Jordan  (UK)<br>The town of  Canterbury<br>10 is known for its medieval<br>cathedral, where the<br>archbishop Thomas Becket was<br>murdered in 1170. It became<br>a destination for Christian<br>pilgrims, and one such pilgrimage<br>was the theme of  The Canterbury<br>Tales , a famous 14 th -century<br>literary work by Geoffrey Chaucer.<br>Liverpool  draws<br>6 11 thousands of music fans<br>Lake District every year as it is the<br>place where The Beatles were<br>formed. In the past, it used to be<br>a very important port, and a part<br>of the city centre with the docks is<br>a UNESCO World Heritage Site.<br>Liverpool 2 York The main attraction of  Salisbury  is its beautiful<br>11 12 medieval cathedral. It was built eight hundred<br>years ago and houses the Magna Carta – the famous<br>document that the British constitution and legal system are<br>based on. Some 15 km from Salisbury you can find  Stonehenge ,<br>perhaps the best-known prehistoric monument in the world.<br>Built in about 2,500 BC, it consists of circles of big standing<br>stones. It may have served as a burial ground and a place of<br>worship (= religious ceremonies). People enjoy gathering there<br>on the summer and winter solstice (= the longest and shortest<br>Nottingham 7 days of the year) and watching the sunrise.<br>Stratford-upon-Avon  is<br>13 the birthplace of one of<br>Stratford the greatest playwrights<br>13 in history, William Shakespeare.<br>You can visit the house where<br>Shakespeare was born and the<br>Royal Shakespeare Theatre. But<br>even if you are not into theatre,<br>Cotswolds you can enjoy the old streets<br>8<br>5 5 with picturesque half-timbered<br>Cambridge houses from Shakespeare’s time<br>Oxford (= houses with a wooden frame<br>which shows on the surface).<br>London 1<br>12<br>Cornwall , a county in the south-west<br>Salisbury 14 of England, is very popular thanks to its<br>Stonehenge 10 long and beautiful coastline. You can find<br>4 Land’s End there, the most southwesterly point<br>Canterbury in Britain, and also Tintagel Castle, an impressive<br>Portsmouth 9 Brighton castle ruin towering over the sea, which is said to<br>be the birthplace of the legendary King Arthur.<br><!-- End of picture text -->

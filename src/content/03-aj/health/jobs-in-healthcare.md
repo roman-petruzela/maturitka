@@ -3,18 +3,9 @@ title: "Jobs in Healthcare"
 order: 29
 source: "MATURITA HADR/ANJ/Témata/Témata/Health/Jobs in Healthcare/29_jobs_in_healthcare.pdf"
 ---
-health
 
-upper intermediate
 
-**32**
-
-Bridge 06 − 2008/2009
-
-<!-- Start of picture text -->
-The healing<br><!-- End of picture text -->
-
-# **Jobs in healThcare**
+# **Jobs in Healthcare**
 
 Every hospital has two main parts: an **outpatient department** and an **inpatient department** . The outpatient department is usually on the ground floor of the main building or in a separate building. It contains **hospital records** and waiting rooms. The inpatient department, located in the main building, is composed of **wards** or units where patients **are admitted for treatment** . A ward usually consists of rooms for patients, a **day room** , an **admission room** , a treatment room, sister’s room, small laboratory, and bathrooms.
 
@@ -24,24 +15,17 @@ Hospitals might not be the most attractive places to spend time; nevertheless th
 
 Patients are usually sent to the hospital by their general practitioner or family doctor. If they must stay in the hospital for further treatment, they become inpatients in one of the many hospital wards. Each ward falls under the responsibility of a **ward sister** . A ward sister is a senior position for a registered, experienced nurse with three years of training. Staff nurses, the first post
 
-<!-- Start of picture text -->
-touch<br><!-- End of picture text -->
-
 for all newly qualified registered nurses, assist the ward sister. The rest of the nursing staff is made up of untrained nursing assistants called auxiliary or practical nurses. The ward sister is responsible for their training. They learn things such as bed‑making, washing patients, **bedpan rounds** , giving medicine and managing transfusions.
 
 There may be over twenty wards or units in a typical hospital. Each of these falls under the supervision of a **head physician** who is usually a consultant, a specialist in their field. In addition, the various wards will have trainee doctors or interns working at the hospital to get further practical experience, as well as registrars or residents, doctors who already have experience in their chosen speciality.
 
 Technologists and technicians play important roles in assisting doctors **to make correct diagnoses** and perform certain therapies. For example, an **occupational therapist** will help you get better after an illness or injury by giving you special
 
-**33**
-
-Bridge 06 − 2008/2009
-
 activities. Laboratory technicians get to examine various samples taken from patients
 
 – everything from blood to **stools.**
 
-## **hospiTal deparTMenTs**
+## **Hospital Departments**
 
 **Surgery** is the branch of medicine that treats disease or injury by **operative measures** . The doctor performing the operation is known as a surgeon. Operations are classified as **emergency, essential and elective** . Hospitals have emergency departments where operations must take place with minimal delay in order to save patients’ lives. Examples are **appendicitis** and motor car accidents. Essential operations are performed **to remove a threat to the life** of the patient, but an operation does not have to take place immediately. Elective operations are those which the patient has chosen to have to improve their comfort or health. A hospital may have a plastic surgery unit for cosmetic operations. Operations take place in an **operating theatre** where everything must be hygienic, counted and checked. Operating theatre staff must be fit and well – at the first sign of an infection they are excluded from duty. General **anaesthetics** are given for surgical procedures to **depress the patient’s central nervous system** . They **are administered by** an anaesthetist. Following a serious operation, most patients will be placed in the hospital’s **intensive care unit** (ICU) where specially trained personnel provide immediate and **continuous** treatment and monitoring.
 
@@ -59,7 +43,7 @@ Hospitals tend to be very large, confusing and even **daunting** places, but the
 
 **What do the following doctors specialize in: a urologist and an E-N-T doctor?**
 
-**TasK**
+**Task**
 
 #### **_Solution on p. 3_**
 

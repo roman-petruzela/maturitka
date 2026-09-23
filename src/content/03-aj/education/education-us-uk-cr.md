@@ -3,50 +3,9 @@ title: "Education (US, UK, CR)"
 order: 27
 source: "MATURITA HADR/ANJ/Témata/Témata/Education/Education (US, UK, CR)/27_education_uk_usa_cr.pdf"
 ---
-> **22** Education
 
-Bridge 06 − 2008/2009
 
-<!-- Start of picture text -->
-WO<br><!-- End of picture text -->
-
-<!-- Start of picture text -->
-YO<br><!-- End of picture text -->
-
-<!-- Start of picture text -->
-HERE<br><!-- End of picture text -->
-
-<!-- Start of picture text -->
-LD<br><!-- End of picture text -->
-
-<!-- Start of picture text -->
-W<br><!-- End of picture text -->
-
-<!-- Start of picture text -->
-u<br><!-- End of picture text -->
-
-<!-- Start of picture text -->
-u<br><!-- End of picture text -->
-
-<!-- Start of picture text -->
-LI<br><!-- End of picture text -->
-
-<!-- Start of picture text -->
-k<br><!-- End of picture text -->
-
-<!-- Start of picture text -->
-E<br><!-- End of picture text -->
-
-<!-- Start of picture text -->
-o to school?<br><!-- End of picture text -->
-
-<!-- Start of picture text -->
-to<br><!-- End of picture text -->
-
-<!-- Start of picture text -->
-G<br><!-- End of picture text -->
-
-# **A compArison of educAtion systems in the us, uK And the czech republic**
+# **A Comparison of Education Systems in the US, UK and the Czech Republic**
 
 front of the whole class as in the CR; most of the testing takes place in the form of quizzes, essays and other projects. When students are juniors, they take the SAT test (Scholastic Aptitude Test). This four-hour test quizzes students on their language, writing, math and critical thinking skills, among other things. The scores on this national test determine whether you succeed when applying to the university of your choice. The completion of high school is celebrated with a graduation ceremony in which students dress in long **gowns** in colors of their alma mater, receive their diplomas and **toss** their funny flat hats – called mortarboards – in the air. At the end of every school year students attend a dance, called the prom, which is an opportunity to dress up and have a good time.
 
@@ -58,7 +17,7 @@ A Bachelor’s degree is designed to take four years, but some students take lon
 
 Most children go to public schools without **charge,** or they have a choice of private schools, which they must pay for. Students are graded on a system of A-F; with A being the best, and F meaning fail. There is no E grade, however.
 
-## **the united stAtes**
+## **The United States**
 
 Similar to other countries, little children start their education with **kindergarten** between the ages of five and six. They are divided into groups and spend their time playing. Some children may attend pre-school from as early as three or four years. Parents have to pay for this pre-school education.
 
@@ -66,13 +25,9 @@ In grade six students go to **Junior High/ middle school** and in the ninth grad
 
 **Elementary/grade school** formally starts their **compulsory** education, and covers five grades/years. The **curriculum** is determined by a particular school district but usually essential subjects include English, math and science (where you learn what soap is made of, why the sky is blue and other basic facts from biology, physics and chemistry). On the daily schedule is also a little patriotic _Pledge of Allegiance_ which children have to recite every morning before the start of their classes.
 
-## **GreAt britAin**
+## **Great Britain**
 
 British children begin their schooling quite early; very small children aged three and four are sent to **nursery school** or a **playgroup** . All the fun ends at the age of five when they have to start attending primary school which can be either state-funded or private. Both types of school have to follow a prescribed national curriculum. **Primary school** is
-
-**23**
-
-Bridge 06 − 2008/2009
 
 divided into two cycles: **infant schools** where children acquire basic skills like writing, reading and maths. At seven they go on to **junior school** with more complex subjects such as history, geography and science.
 
@@ -90,7 +45,7 @@ After the age of eighteen, most pupils find jobs or go to university. There are 
 
 which you have to pay back once you start earning a certain amount of money.
 
-## **the czech republic**
+## **The Czech Republic**
 
 Likewise, the Czech education system operates on three levels: **primary** , **secondary** and **tertiary.**
 
@@ -132,7 +87,7 @@ towards that level
 
 Ivy League schools - a group of eight high-quality universities in the US (Harvard, Princeton etc.)
 
-### brE x aME
+### BrE x AmE
 
 child care (BrE) x day care (AmE) nursery school(BrE) x kindergarten (AmE) primary school (BrE) x grade school (AmE) secondary school (BrE) x high school (AmE)
 
@@ -142,6 +97,6 @@ college in Britain - refers to a specialized further education institution, teac
 
 training college or to the sixth-form college – a state educational institution for students over 16 marks (BrE) x grades (AmE) maths (BrE) x math (AmE)
 
-### lanGuaGE point
+### Language Point
 
 Don’t forget that some words change pronunciation when they are shifted from a noun to a verb, i.e. noun a graduate ["gr&dZU@t] vs. verb to graduate ["gr&dZUeIt] or noun an estimate ["EstIm@t] vs. verb to estimate ["EstImeIt].

@@ -3,14 +3,7 @@ title: "British Literature Trough History"
 order: 5
 source: "MATURITA HADR/ANJ/Témata/Témata/Literature/British Literature Trough History/05_british_literature_in_history.pdf"
 ---
-literature
 
-**12**
-
-Bridge 06 − 2008/2009
-
-<!-- Start of picture text -->
-British literature<br><!-- End of picture text -->
 
 **Britain’s history has been a dramatic one. It has gone from an occupied land to a major colonial power. Throughout this time, its poets, dramatists and novelists have created an outstandingly rich body of work.**
 
@@ -52,7 +45,7 @@ Libraries are burnt and destroyed. A lot of medieval and Anglo-Saxon literature 
 
 **1558-1603**
 
-### **the elizabethan era**
+### **The Elizabethan Era**
 
 William Shakespeare writes his plays and poems. This time is sometimes called ‘The Golden Age of Poetry’ as England produces a lot of brilliant poets and playwrights, such as Christopher Marlowe, Edmund Spenser and John Donne, **who are overshadowed** by Shakespeare.
 
@@ -74,13 +67,6 @@ John Milton publishes _Paradise Lost_ , an epic poem concerned with the early st
 
 **the restoration** The monarchy is restored under Charles II
 
-**13**
-
-Bridge 06 − 2008/2009
-
-<!-- Start of picture text -->
-throughout history<br><!-- End of picture text -->
-
 ## **1707**
 
 ## **1719**
@@ -93,7 +79,7 @@ Daniel Defoe writes _Robinson Crusoe_ . This is an early novel. As well as being
 
 Swift’s _Gulliver’s Travels_ is published. It is a **savage** satire. This marks the beginning of another Golden Age – of satire. For the next eighty years writers and cartoonists **wittily** attack each other.
 
-## **LaTe eIghTeenTh cenTury**
+## **Late Eighteenth Century**
 
 Jane Austen’s novels are published. Her books concentrate on the dependence of women on a good marriage which would secure them. Romanticism became popular around the time Jane Austen was writing. The Romantics were interested mainly in death, love, nature and the cult of the individual. Famous Romantics include Lord Byron and the Brontë sisters.
 

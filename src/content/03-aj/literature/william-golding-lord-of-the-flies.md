@@ -2,11 +2,9 @@
 title: "William Golding - Lord of the Flies"
 source: "MATURITA HADR/ANJ/Témata/Témata/Literature/William Golding - Lord of the Flies/golding.pdf"
 ---
-l i t e R At u R e 9
 
-**UppER INTERMEDIATE**
 
-# **lord oF the Flies** gets You!
+# **Lord of the Flies** Gets You!
 
 **Book about society of murderers**
 
@@ -16,7 +14,7 @@ A plane with British **public school**<sup>**2**</sup> boys crashes on a deserte
 
 intelligent “Piggy” – a nickname based on the boy’s fat **build**<sup>**4**</sup> .
 
-## **two different groups**
+## **Two Different Groups**
 
 The boys have to deal with the typical tasks of survival – how to find something to eat and how to keep a fire burning to attract the attention of passing ships. They also start to fear a mysterious creature simply called “the beast”.
 
@@ -34,19 +32,19 @@ Finally, they turn their aggression on the rest of Ralph’s group, especially o
 
 The first major theme of _Lord of the Flies_ is the **fragility**<sup>**15**</sup> of civilization. The second is the conflict between rational living **bound by rules**<sup>**16**</sup> versus a savage tribal one ruled by the law of jungle. Golding shows that without basic rules, people will **degenerate**<sup>**17**</sup> into an almost animal state. They will choose laziness instead of work and use violence instead of reason. **ryan scott** (Australia) **Josef Šorm** (CR)
 
-### **kill thE bEast!**
+### **Kill the Beast!**
 
 The extract from the book was so violent that we could not print it! however, we know you also want to give in to your animal instincts so we have a bonus on our web page. There is an extract recorded by our aggressive native speaker plus one sadistic exercise for you just as well. so go‑CheCK‑it‑out!
 
 www.bridge‑online.cz/ studenti
 
-#### **WilliaM GoldiNG**
+#### **William Golding**
 
 **(1911–1993)**
 
 While a student at oxford, William golding published a collection of poetry, which failed to **arouse**<sup>**18**</sup> much interest. for the next two decades, he worked as a schoolmaster. his first book, _Lord of the Flies_ , **was** initially **rejected**<sup>**19**</sup> by publishers. When it was eventually published it was an immediate success.
 
-##### **~~Vo cabulary~~**
+##### **Vocabulary**
 
 1 **to be stranded** [str&ndId] – zůstat trčet
 
@@ -84,4 +82,3 @@ While a student at oxford, William golding published a collection of poetry, whi
 
 18 **to arouse** [@"raUz] – vyvolat 19 **to reject** [rI"dZekt] – odmítnout
 
-**BRIDGE** | october | 2011

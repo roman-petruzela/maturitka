@@ -7,9 +7,9 @@ world cities
 
 # Prague: city of history
 
-**Prague, the caPital of the czech rePublic, has a PoPulation of 1.2 million PeoPle. it is not only the governmental heart of the country, but it’s also a city full of cultural events, architecture and history. Join us on a Jaunt through Prague!**
+**Prague, the capital of the czech republic, has a Population of 1.2 million People. it is not only the governmental heart of the country, but it’s also a city full of cultural events, architecture and history. Join us on a Jaunt through Prague!**
 
-# and beauty
+# And Beauty
 
 ## Prague history
 
@@ -23,7 +23,7 @@ A variety of architecture can be seen all over the city from the Gothic St. Vitu
 
 The old centre of Prague consists of five historical districts. Old Town, New Town and Josefov (the former Jewish Town) are situated on the right **bank** of the Vltava. The Lesser Quarter and Hradčany (the Castle District) are on the left bank.
 
-### the old town
+### The Old Town
 
 Charles Bridge **ranks among** the greatest monuments in Prague. Its construction began on 9<sup>th</sup> July 1357 at 5.31 a.m. According to astrologists at the time, it was the best date and time **for laying the foundation stone** . While the bridge was being built, the builders added eggs to the **mortar** to make a strong substance to hold the bridge together. People from all over the country gave eggs to help the cause. Legend has it that one village didn’t quite understand the concept and sent the eggs to Prague **hard-boiled** !
 
@@ -39,11 +39,9 @@ The Old Town Square is another significant historical spot. It used to be the mo
 
 The **Estates Theatre** is near the Old Town Square. The world premiere of Mozart’s opera Don Giovanni took place there in 1787. Mozart visited Prague a few times. He stayed mainly at Bertramka in Smíchov as a guest of Czech **composer** F. X. Dušek and his wife Josefine. The house has now been converted into a Mozart museum where it is possible to see the composer’s personal **belongings** , letters, music **manuscripts** and old musical instruments.
 
-### the lesser Quarter
+### The Lesser Quarter
 
 Near Charles bridge lies Kampa Island, separated from the Lesser Quarter by
-
-**16** Bridge 06/2007–2008
 
 a small canal called Čertovka. In the past there used to be many **mills** on Kampa and two big wooden **mill wheels** are still preserved today.
 
@@ -55,13 +53,13 @@ Legend has it that if you touch the statue of St. John of Nepomuk on Charles Bri
 
 **workshop** . The most important house is probably No. 233, also known as At The Two Suns. This is where the well‑known Czech writer Jan Neruda used to live. Today the building is a famous pub.
 
-### the castle district
+### The Castle District
 
 The Cathedral of St. Vitus is the biggest church in Prague and holds the treasury of the Czech **coronation jewels** . There are many interesting parts to the cathedral: It has the oldest **reticulated vault** in Europe and the southern Golden Gate has an amazing **mosaic** decoration. St. Wenceslas **Chapel** was built to protect the **relics** of the most important Czech saint and national patron – St. Wenceslas. Its walls are decorated with frescoes and Czech **semi-precious stones** .
 
 Another well‑known place in the Castle District is the Loreta. The most fascinating part is its Treasure Chamber with a diamond **monstrance** decorated with 6,222 diamonds.
 
-## other places of interest
+## Other Places of Interest
 
 ### Vyšehrad
 
@@ -73,7 +71,7 @@ Vyšehrad Castle is situated on a rock **overlooking** the Vltava River. Legend 
 
 The house At the Black Madonna in Celetná Street in Prague 1, built in 1912 and designed by the architect Josef Gočár, represents a unique example of cubist architecture in Prague.
 
-### cultural life
+### Cultural Life
 
 Prague’s cultural events offer something for everyone. The National Gallery houses a collection of modern art, various dance performances can be seen at the National Theatre and classical concerts by Mozart, Dvořák, Smetana and other famous composers can be heard at the Rudolfinum and the Municipal House. Modern dramatic productions include many theatre plays as well as the special **black light performances** in The Laterna Magica.
 
@@ -145,4 +143,3 @@ observatory [@b"z@:v@t(@)ri]
 
 - se nechávají okouzlit
 
-Bridge 06/2007–2008 **17**

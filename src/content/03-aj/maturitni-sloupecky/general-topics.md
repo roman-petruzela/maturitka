@@ -2,7 +2,6 @@
 title: "General topics"
 source: "MATURITA HADR/ANJ/Témata/Maturitní sloupečky/General topics/sloupecky_2012.pdf"
 ---
-46 **m at u R I ta /** s p e a k i n g – s p e c i F i c t o p i c s
 
 # **The UK**
 
@@ -49,10 +48,6 @@ There are about 300 million people in the US. The country is often called a “m
 The American political system is  laid out in its Constitution. The government is divided into three branches: the executive, legislative and judicial. The executive branch is made up of the president and his cabinet, or advisors. The legislative branch is the section that makes the laws. It is made up of two houses, the Senate and the House of Representatives. Together they  form the Congress. The judicial branch is the federal court system, which enforces and defines the laws made by Congress. The highest court in the country is called the Supreme Court.
 
 There are a lot of natural attractions in the US, such as Yellowstone National Park with its geysers and Yosemite National Park with its rocks and waterfalls. The Grand Canyon is a spectacular canyon on the Colorado River. In Sequoia National Park you can find some of the largest living trees on Earth. Everglades National Park in Florida is a special wetland where you can see many animals including alligators.
-
-2012 | January–February | **BRIDGE**
-
-47
 
 # **Canada**
 
@@ -106,10 +101,6 @@ New Zealand is known for its spectacular scenery – from the coastlines and bea
 
 Everywhere you look there are sheep in New Zealand. In fact it’s thought that for every one person there are nine sheep! The animal most associated with the country, though, is the native kiwi bird – it’s become such a symbol that even New Zealanders themselves are known affectionately as ‘Kiwis’.
 
-**BRIDGE** | January–February | 2012
-
-48 **m at u R I ta /** s p e a k i n g – s p e c i F i c t o p i c s
-
 # **The Czech Republic**
 
 The Czech Republic is located in Central Europe. It shares borders with Germany, Poland, Slovakia and Austria. It is a land-locked country, which means there is no border with the sea. The country is made up of three regions, Bohemia, Moravia and Silesia.
@@ -153,10 +144,6 @@ Tourists also come to London to see Buckingham Palace, one of the Royal Family�
 The best way to get around the city is by public transport, either the underground train, known as ‘the tube’ (which was build in 1863 and is the world’s first underground train system) or to take one of London’s iconic red double-decker buses.
 
 The city of London is an important business and finance centre, and London has a huge influence on fashion, culture, politics, entertainment, media and sport across the UK and Europe. The 2012 Summer Olympics are going to take place there.
-
-2012 | January–February | **BRIDGE**
-
-49
 
 # **American Cities**
 
@@ -210,10 +197,6 @@ In December, the holidays are all about **Christmas** . We celebrate Christmas w
 
 There are also some holidays we observe that aren’t public holidays. We celebrate St. Nicholas on December 5 in the evening before his feast day. Children get sweets from a person dressed like St. Nicholas, who is often accompanied by a devil and an angel. On May 5 we remember the date of the Czech uprising against the Germans in 1945.
 
-**BRIDGE** | January–February | 2012
-
-**50 m at u R I ta /** s p e a k i n g – s p e c i F i c t o p i c s
-
 # **William Shakespeare**
 
 Shakespeare is one of Britain’s most famous writers. His plays and sonnets (a type of poem) have been translated and read all over the world.
@@ -262,4 +245,3 @@ Assessment in the UK starts with the GCSE (General Certificate of Secondary Educ
 
 You can find other materials covering maturita topics at www.bridge-online.cz in the “Maturitní speciál – Maturitní témata” section.
 
-**2012 | January–February | BRIDGE**

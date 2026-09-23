@@ -5,11 +5,11 @@ source: "MATURITA HADR/ANJ/Témata/Témata/The United Kingdom/London/02_london.p
 ---
 { **travel** }
 
-# **London – the city on the thames**
+# **London – The City on the Thames**
 
 Dagmar Prosková, Jacy Meyer (USA)
 
-**For one reason or another, London is speciaL in many ways. with a popuLation oF about 7 miLLion, it’s one oF the most denseLy popuLated and biggest cities in europe, and For centuries it has been the capitaL oF great britain.**
+**For one reason or another, London is special in many ways. with a population of about 7 million, it’s one of the most densely populated and biggest cities in europe, and For centuries it has been the capital of great britain.**
 
 herself is surrounded by allegorical statues representing Victorian virtues such as Maternity, Justice, Truth and Courage.
 
@@ -33,4 +33,3 @@ Together with **Piccadilly Circus** , the intersection which has no exact geomet
 
 The **National Gallery** , located on Trafalgar Square, has one of the greatest collections in the world, showcasing paintings from Early Renaissance to the Post-impressionists. The **Tate Modern** is the other end of the artistic spectrum, offering modern art. Originally a power station, the museum only opened in 2000. Its collection focuses on important moments in international modern art, and has been very popular with both the British and tourists alike.
 
-36 Bridge 06/2006–2007

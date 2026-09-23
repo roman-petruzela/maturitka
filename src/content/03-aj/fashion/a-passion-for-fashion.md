@@ -3,13 +3,12 @@ title: "A Passion for Fashion"
 order: 30
 source: "MATURITA HADR/ANJ/Témata/Témata/Fashion/A Passion for Fashion/30_passion_for_fashion.pdf"
 ---
-Fashion
 
-# a Passion FoR Fashion
+# A Passion for Fashion
 
-**Fashion is constantly changing, so that in one liFetime we are likely to see the same or similar looks come around many times. you can guarantee that the things that will make the most Frequent comebacks are the styles that Flatter us, that make us look slim or sexy, like high heeled shoes and tight skirts. other things, such as hats, come in and go out oF style regularly.**
+**Fashion is constantly changing, so that in one lifetime we are likely to see the same or similar looks come around many times. you can guarantee that the things that will make the most Frequent comebacks are the styles that Flatter us, that make us look slim or sexy, like high heeled shoes and tight skirts. other things, such as hats, come in and go out of style regularly.**
 
-**so let’s look back over the decades and see how Fashion has changed and what the most signiFicant looks oF each era were.**
+**so let’s look back over the decades and see how Fashion has changed and what the most significant looks of each era were.**
 
 ###### Colourful ‘50s
 
@@ -17,7 +16,7 @@ or in the factory. Late sixties hippie‑look fashion still keeps on coming back
 
 I can hardly think of the ‘50s without seeing photos of my mother and grandmother in colourful **cotton print dresses** , **tightly belted at the waist** with big full skirts. Stiff net **petticoAts** were worn underneath, great for rock and roll dancing.
 
-###### swinging ‘60s
+###### Swinging ‘60s
 
 The sixties were the era of swinging London.
 
@@ -55,7 +54,7 @@ The eighties brought us fashion that we all want to forget, at the moment anyway
 
 ###### Free-style,
 
-###### street style ‘90s
+###### Street Style ‘90s
 
 nineties fashion is maybe harder to define. From that period up until the present day, we have seen so many looks. Street fashion has certainly been big with looks including grunge (wearing clothes that look dirty and untidy), goth (black or **purple** clothes), and retro (styles from the past).
 
@@ -65,17 +64,13 @@ satin ["s&tIn] - satén plum [plVm] - švestkově modrá side-by-side with - b
 
 stiff net - a type of strong material that doesn’t bend and holds the skirt outwards
 
-###### noughty new looks
+###### Noughty New Looks
 
 floppy hat - a hat with a wide loose brim that hangs down over the face feather boa - a long thin scarf made of feathers and worn around a woman’s neck (and in the ‘80s, also around a man‘s neck)
 
 Our current decade is now often called the noughties, a play on the word “naughty” plus, of course, the fact that the year 2000 has three zeros, also known as noughts.
 
 sneak preview - an opportunity to see sth before it is officially shown to the public
-
-Bridge 06/2007–2008 **19**
-
-Fashion
 
 ### Ladies’ fashion in words
 
@@ -107,7 +102,7 @@ For the last couple of seasons in the uk, it seems to me that everywhere you loo
 
 A classic skirt never goes out of style.
 
-###### **leggings – yes-yes Fashion!**
+###### **Leggings – Yes-yes Fashion!**
 
 A pleated mini skirt
 
@@ -120,8 +115,6 @@ I have to **admit** I kept a couple of pairs of my favourite leggings in the bac
 Then one day I noticed that she was cutting the feet off her **TIGHTS** and wearing the FOOTLESS TIGHTS.
 
 “Hey, I thought... she’s wearing leggings!” Yes, leggings were already back in fashion and we were all allowed to wear them again!
-
-20 Bridge 06/2007–2008
 
 #### The world of men’s fashion
 
@@ -157,7 +150,7 @@ If you’re going somewhere really special you might wear a **dinner JAcKet** .
 
 In a more romantic era you might have worn a **cLoAK**
 
-##### **the extravagant Prom**
+##### **The Extravagant Prom**
 
 In the US there is a tradition usually called The Prom (the term derived from the late 19<sup>th</sup> century practice of a promenade ball). The Junior Prom or the Senior Prom, held at the end of the high school year, is an excuse **to get very dressed up** , boys in **TUXEDOS** , girls in **BALLGOWNS** , or at least in elegant evening dresses. Some parents **take the extreme approach** and pay for their kids to arrive in helicopters or with a horse and carriage.
 
@@ -211,4 +204,3 @@ denims - jeans shades - sunglasses
 
 knickers (BrE) - underpants (AmE) tights (BrE) - pantyhose (ame) dinner jacket (BrE) - tuxedo (AmE) braces (BrE) - suspenders (AmE) trainers (BrE) - runners (AmE) zip (BrE) - zipper (AmE)
 
-Bridge 06/2007–2008 21

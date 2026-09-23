@@ -3,17 +3,16 @@ title: "The United Kingdom - Basic facts, Government, Places of Interest"
 order: 1
 source: "MATURITA HADR/ANJ/Témata/Témata/The United Kingdom/The United Kingdom - Basic facts, Government, Places of Interest/01_uk_gov_places.pdf"
 ---
-BRIDGE | January-February | 2010
 
 **48** | **English‑speaking countries**
 
-# **~~The United Kingdom of Great Britain and Northern Ireland~~**
+# **The United Kingdom of Great Britain and Northern Ireland**
 
-##### **HElp**
+##### **Help**
 
 T he United Kingdom is situated to the northwest of the European continent, between the Atlantic Ocean and the North Sea. It has a total land area of 243,600 km<sup>2</sup> . The United Kingdom is made up of England, Scotland, Wales and Northern Ireland.
 
-### NorTherN IrelaNd
+### Northern Ireland
 
 Northern Ireland lies in the northeast of the island of Ireland. In 1801, the whole of Ireland was incorporated into the United Kingdom. After years of civil war, Ireland became a republic in 1921. At this time, Britain negotiated with Ireland to keep the six counties in the northeast of Ireland. These six counties now make up what is known as Northern Ireland. The southern part of the island is the Republic of Ireland. The famous writer C.S. Lewis is from Northern Ireland.
 
@@ -46,30 +45,27 @@ a mountainous country on the western side of Great Britain. Wales has not been p
 The executive power of the Crown is exercised by the cabinet, headed by the Prime Minister, currently Gordon Brown (Labour).
 
 Recently, there has been a process called devolution. This means that Scotland, Wales and Northern Ireland now have their own parliaments.
-
-www.bridge-online.cz
-
 | **49**
 
-##### **HElp**
+##### **Help**
 
 #### The scottish highlands
 
-## sCoTlaNd
+## Scotland
 
 A mountainous area in Scotland including the highest mountain in the UK, Ben Nevis (1,343 m). There are also popular ski resorts such as the Glenshee Ski Centre. The famous Highland Games, with bagpipes, dancing, and heavy athletics, are held each year to celebrate Scottish and Celtic culture, especially in the Scottish Highlands.
 
 Scotland is a mountainous country in the north of Great Britain, famous for its freshwater lochs (lakes). The largest one is Loch Lomond, which is 40 km long. Famous people from Scotland include writers Walter Scott, R. L. Stevenson, A. C. Doyle and actors Sean Connery and Ewan McGregor. St Andrew is the patron saint of Scotland.
 
-#### edinburgh
+#### Edinburgh
 
 The capital city of Scotland is known for the annual Edinburgh Festival, a collection of festivals held over about four weeks from early August. Among the notable places in Edinburgh are Edinburgh Castle, which dominates the skyline of the city, and Holyroodhouse, the Queen’s official residence while in Scotland.
 
-## eNGlaNd
+## England
 
 England makes up the southern part of Great Britain. Nearly 84% of the population of the UK lives in England. England is only 35 km away from France, linked by a tunnel under the English Channel. The patron saint of England is St George.
 
-#### oxford
+#### Oxford
 
 England is famous for its educational institutions. The oldest university in the English-speaking world is in Oxford, with evidence of teaching which goes back to the 11<sup>th</sup> century. The University of Oxford is made up of 38 colleges. Other famous academic institutions include the University of Cambridge, which celebrated 800 years of history in 2009, and the University of London.
 
@@ -77,6 +73,6 @@ England is famous for its educational institutions. The oldest university in the
 
 Windsor is a town in South East England, best known as the site of Windsor Castle, the official residence of the Queen and the largest and oldest continually occupied castle in the world. In the borough, you can also find Eton College, Ascot Racecourse and Legoland.
 
-#### london
+#### London
 
 The capital city of the United Kingdom, a major financial, political, cultural, educational and fashion centre. Central London is full of places of interest, historical buildings, museums and galleries. Many tourists come to London to visit places connected with the royal family, such as Buckingham Palace, the Tower of London and Kensington Palace.
