@@ -75,7 +75,7 @@ Konec : __cca 12\.stol\. vpád Dórů__ a před nimi ještě vpád mořských n�
 
 __=> vítězství železa nad bronzem__
 
-\- kolem roku 1200 př\.Kr\. se odehrála __Trojská válka__  *\( Trója = řecky Ílion \) *
+\- kolem roku 1200 př\.Kr\. se odehrála __Trojská válka__  *\( Trója = řecky Ílion \)* 
 
 \-1873 __archeolog H\.Schlüman__ –> Priamův poklad ve vrstvě 7A
 
@@ -153,7 +153,7 @@ __Olympia__ – západ Peloponésu, leží v kraji Élis,
 
 \- dodnes je zde zachován stadion \( dále tady byl hipodrom \)
 
-__\-__ jádrem je ____posvátný okrsek Altis__ __
+__\-__ jádrem je __posvátný okrsek Altis__ 
 
 __Olympijské hry__ : \- 1\.zaznamenané se konaly v roce __776 př\.Kr__\.  a Řekové odtud počítali svůj letopočet\. Poslední hry se konaly v roce __393 n\.l__\. Prvním zaznamenaným vítězem je __Koroibos z Élidy__, který podle tehdejších zpráv je prvním smrtelníkem, který hry vyhrál\.
 
@@ -199,7 +199,7 @@ __Nejdůležitější řecké městské státy :__
 
 \- podmanili si původní zemědělce => vrstva __heilóti__ \( nesvobodní , majetek státu \) – v podstatě otroci
 
-\- pracovali svobodní, ale bezprávní __perioikové__ *\( ti co bydlí okolo – překlad \) *– to byli taky Dórové, a spolu se Sparťany byli zahrnováni mezi __Lakedaimoňany__ \( __Lakedaimonion__ je název Sparty \)
+\- pracovali svobodní, ale bezprávní __perioikové__ \( ti co bydlí okolo – překlad \) – to byli taky Dórové, a spolu se Sparťany byli zahrnováni mezi __Lakedaimoňany__ \( __Lakedaimonion__ je název Sparty \)
 
 \- hospodářství : \- soběstačné, omezen styk s ostatními státy
 
@@ -217,7 +217,7 @@ vláda : __2 dědiční králové__,
 
 __\- 5 dohlížitelů – eforů__ – voleni na 1 rok, mohli dokonce sesadit a uvěznit krále\.
 
-\- __Lidové shromáždění__ *\( apellá *\) \- všichni Sparťané od 30 let  – menší pravomoci
+\- __Lidové shromáždění__ \( apellá \) \- všichni Sparťané od 30 let  – menší pravomoci
 
 \- Spartský městský stát začal brzy hospodářsky i kulturně zaostávat\.
 
@@ -475,7 +475,7 @@ Poté __vypálil Persepolis__ jako odvetu Řeků za vyplenění Athén\.Poté pr
 
 __327 př\.Kr\. – tažení do Indie__ – překročil Indus, ale vojáci ho dál nechtěli následovat \-> vrátil se\.
 
-Centrem své říše učinil strategicky __Babylón\.__Odtud vládl orientální despocií \( všichni ho museli uctívat \)
+Centrem své říše učinil strategicky Babylón\.Odtud vládl orientální despocií \( všichni ho museli uctívat \)
 
 __323 př\. Kr__\. __podlehnul nějaké nemoci ve věku 33 let__\. Po jeho smrti se říše rozpadá a moc získávají __diadochové__ \( bývalí vojevůdci \)
 

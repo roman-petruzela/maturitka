@@ -153,7 +153,7 @@ __Eduard III\. už měl žoldnéřskou armádu a lučištníky__ \( mocná zbra�
 
 __1360 – uzavřen mír__ v Bretygny \( územní zisky Anglie , ale Anglie se vzdává trůnu\)
 
-__*2\.fáze *__:
+__2\.fáze *__:
 
 1364 – korunován Karel V\. – ten nechtěl ztracená území jen tak nechat a znovu začaly boje\.
 
@@ -373,9 +373,9 @@ Znak Moskevské Rusi : Dvouhlavý orel
 
 \- __Kazimír III\. Veliký__ : \- negramotný, ale velmi schopný
 
-			\- současník Karla IV\., poslední polský panovník z rodu Piastovců\.
+\- současník Karla IV\., poslední polský panovník z rodu Piastovců\.
 
-			\- zřízena Univerzita v Krakově\.
+\- zřízena Univerzita v Krakově\.
 
 __\- konec 14\.stol__\. \-> na polský trůn usedá litevský __kníže Jagello__ – až do dospělosti pohanem\.Ale __korunovace v r\. 1386__ na polského krále si žádala pokřtění\. Po křtu přijal jméno Vladislav \-> zakladatel nejslavnějšího polského rodu Jagellonců\.
 

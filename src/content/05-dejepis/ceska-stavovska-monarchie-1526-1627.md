@@ -61,7 +61,7 @@ __Boj dvou principů__ : __Stavovská monarchie__ \( zemský sněm,panovník pou
 
 vs\.
 
-                                __absolutistická monarchie__ \( panovník vládne, sněm pouze formální\)
+__absolutistická monarchie__ \( panovník vládne, sněm pouze formální\)
 
 __katolictví__ vs\. __protestanství__  vs\. __vyrovnané postavení obou náboženství__
 
@@ -71,11 +71,11 @@ Zbytek nejednotní nekatolíci\. \( kališníci \( utraquisté \) 70%, luteráni
 
 __Maxmilián II\.\(1564 – 1576\)__  – byl nábožensky tolerantní\.
 
-			\- byl II \. Maxmilián, který byl Římským císařem,jako č\.král Maxmilián I\.
+\- byl II \. Maxmilián, který byl Římským císařem,jako č\.král Maxmilián I\.
 
 Česká konfese __\( 1575 \)__ – náboženská svoboda v Čechách,Maxmilián II\. to nepodepsal, pouze ústně to potvrdil\.
 
-*konfese = vyznání *=> česká víra
+konfese = vyznání => česká víra
 
 __RUDOLF II\. \( 1576 – 1611 \)__ : \- velmi vzdělaný, \( vychován ve Španělsku \( na dvoře Filipa II\.\), vychováván velmi katolicky\.
 

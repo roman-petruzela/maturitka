@@ -289,7 +289,7 @@ __Středověká města :__
 
 __Stavy :__ 	\- šlechta \( rytířský stav, panský stav \)
 
-		\- církev
+\- církev
 
 __Dělení měst podle vzniku__ : 	a\) __postupně vzniklá__ \-> křivolaké uličky, neorganizovaná struktura
 

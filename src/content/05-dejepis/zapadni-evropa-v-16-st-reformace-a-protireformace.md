@@ -27,9 +27,9 @@ To se kombinovalo se sociálními problémy v Evropě :
 
 __Rozdíly  s husitstvím__: 	a\) husitství bylo lokálně omezeno
 
-			  	b\) husité nechtěli vytvořit vlastní církev
+b\) husité nechtěli vytvořit vlastní církev
 
-				c\) jiná atmosféra doby \( kontakt s zámořskými civilizacemi, humanismus \-> dal lidem více kritičnosti, odvahy samostatně uvažovat, 1453 – knihtisk \-> šíření informací atd\. \)
+c\) jiná atmosféra doby \( kontakt s zámořskými civilizacemi, humanismus \-> dal lidem více kritičnosti, odvahy samostatně uvažovat, 1453 – knihtisk \-> šíření informací atd\. \)
 
 Typy reformací\. 1\) __německá reformace__ – __Martin Luther__ \( 1483 – 1546\)
 
@@ -75,7 +75,7 @@ __„ cuius regio, eius religio“__
 
 Luteránství se uchytilo v : Švédsko, Dánsko, Island atd\.
 
-		2\) __švýcarská reformace – Jan Kalvín__  \( 1509 –1564\)
+2\) __švýcarská reformace – Jan Kalvín__  \( 1509 –1564\)
 
 \- zveřejnil v Basileji v r\. 1536 hlavní zásady svého učení\.
 
@@ -113,11 +113,11 @@ Dále zde působila Jednota bratrská – už nepotírala vzdělání\. Byla nej
 
 Význam reformace :  	\- záborem církevního majetku podlomen feudalismus
 
-			\- národní jazyky při bohoslužbě
+\- národní jazyky při bohoslužbě
 
-			\- pocit oprávněnosti revolučního řešení společenských poměrů \-> revoluce v Nizozemí, Anglii atd\.
+\- pocit oprávněnosti revolučního řešení společenských poměrů \-> revoluce v Nizozemí, Anglii atd\.
 
-			atd\.
+atd\.
 
 __Katolíci__ chtěli reformaci tvrdě potlačit => __protireformace__
 
@@ -253,10 +253,10 @@ __1600 –založena Východoindická společnost__ – kolonizace Indie a Severn
 
 __Závěr__ : __Evropa se v 16\.stol\. rozdělila__ : a \) __hospodářsky__ 	– oblast spějící k novověku –> rozvoj kapitalismu
 
-								\- oblst usilující upevnit středověký hosp\. systém
+\- oblst usilující upevnit středověký hosp\. systém
 
 b \) __politicky__ :  \- katolické země \-> Španělsko atd\.
 
-		\- protestantské –> Anglie, Nizozemí, Švédsko
+\- protestantské –> Anglie, Nizozemí, Švédsko
 
 __Toto rozdělení vyvrcholilo třicetiletou válkou\.__

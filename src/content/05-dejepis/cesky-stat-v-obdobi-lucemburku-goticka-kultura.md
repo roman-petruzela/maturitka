@@ -37,9 +37,9 @@ __Okolnosti nástupu__ :  musel podepsat __inaugurační diplomy__ \( 2 – pro 
 
 __2 principy__ : 	__stavovský__ \( vládne šlechta a panovník pouze reprezentuje \)
 
-		VS\.
+VS\.
 
-		__absolutistický__ \( vládne panovník a šlechta pouze formálně schvaluje \)
+__absolutistický__ \( vládne panovník a šlechta pouze formálně schvaluje \)
 
 Např\. panovník musel potvrdit, že významné úřady bude muset vykonávat pouze česká šlechta
 
@@ -137,7 +137,7 @@ Staré a Nové město, Hradčany, Malá strana, Židovské ghetto
 
 __7\.4\.1348 – Karlova Univerzita__
 
-Dále : __Karlův \( Kamenný \) most \( místo Juditina \)__ – po vzoru mostu v Avignonu__, Karlštejn__ \( postaven v letech 1348 – 1357 \) – uloženy římské korunovační klenoty \.
+Dále : __Karlův \( Kamenný \) most \( místo Juditina \)__ – po vzoru mostu v Avignonu, Karlštejn \( postaven v letech 1348 – 1357 \) – uloženy římské korunovační klenoty \.
 
 __Manželky__ : Blanka z Valois, Anna Falcká, Anna Svídnická \(1361 \* Václav IV\. \-> č\.král, ř\.král\.\),  Alžběta Pomořanská \( lámala meče, syn Zikmund \)
 
@@ -254,13 +254,13 @@ Na východ od Rýna byla první univerzita právě UK\.
 \- trvá až do 15\.stol\.
 __Stavby__ : 	\- sakrální
 
-		\- světské
+\- světské
 
 Typické __znaky gotické architektury__ : \- __lomený oblouk__ \( připomínající k modlitbě spjaté ruce \)  , žebrová klenba, u chrámů – opěrný systém
 
 __Světské stavby__ :
 
-	__Hrady__ : \- sídla vysoké šlechty, panovníka
+__Hrady__ : \- sídla vysoké šlechty, panovníka
 
 \- obranný charakter
 

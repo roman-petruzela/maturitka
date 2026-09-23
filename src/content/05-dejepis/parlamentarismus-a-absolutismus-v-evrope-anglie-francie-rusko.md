@@ -36,13 +36,13 @@ __Karel I\. \( 1625 – 1649 \)__ – nesvolával parlament \-> __utužení abso
 
 \- proti němu v parlamentu opozice : 	__a\) puritáni :__ \- kalvínisti, hrotili náb\. problémy\.
 
-					__b\) independenti :__ \- ekonomická nezávislost, uvolnění režimu  –  __O\.Cromwell__
+__b\) independenti :__ \- ekonomická nezávislost, uvolnění režimu  –  __O\.Cromwell__
 
-					__c\) levelleři –__ stejná úroveň pro všechny , ekonomická rovnost, radikální požadavky\.
+__c\) levelleři –__ stejná úroveň pro všechny , ekonomická rovnost, radikální požadavky\.
 
 => __OBČANSKÁ VÁLKA  \( 1642 – 1649 \)__  : panovník, šlechta, církev vs\. parlament
 
-			__1645 – bitva u Naseby \( Nejsby \)__ – parlament vyhrál \-> Karel I\. Utíká do Skotska \-> vydán angl\. Parlamentu \->uprchl \-> 2\.obč\. válka \-> královská armáda opět prohrála \->  __1649 poprava panovníka Karla I\.__ \-> __vyhlášena republika__\.
+__1645 – bitva u Naseby \( Nejsby \)__ – parlament vyhrál \-> Karel I\. Utíká do Skotska \-> vydán angl\. Parlamentu \->uprchl \-> 2\.obč\. válka \-> královská armáda opět prohrála \->  __1649 poprava panovníka Karla I\.__ \-> __vyhlášena republika__\.
 
 Skotsko : \- nezávislé, personální unie s Anglií, postupně splynulo s Anglií v jeden stát\.
 
@@ -70,7 +70,7 @@ Vytlačení Nizozemců z S\.Ameriky \-> New Amsterdam => New York
 
 __Jakub II\. \( 1685 – 1688 \)__ : 	\- bratr Karla II\.
 
-				\- přestoupil ke katolíkům, chtěl absolutismus
+\- přestoupil ke katolíkům, chtěl absolutismus
 
 \-> byl z Anglie vyhnán  = __„ slavná revoluce“__ \.
 
@@ -117,13 +117,13 @@ __1685 – oficiálně zrušen Edikt nantský__
 
 __Ekonomický rozvoj : merkantilismus__ – zdrojem bohatství ve státě je množství drahých kovů v zemi \-> zákaz vývozu drahých kovů, minimalizován dovoz zboží do Francie – prosazoval to ministr __Jean Colbert__\.
 
-		\-> zakládání manufaktur, hromadná výroba
+\-> zakládání manufaktur, hromadná výroba
 
 __Zahraniční politika :__ 	\- __výbojná politika__
 
-				\- ostrov Madagaskar, v Americe kolonie Lousiana \( povodí Mississippi, Missouri \)\.
+\- ostrov Madagaskar, v Americe kolonie Lousiana \( povodí Mississippi, Missouri \)\.
 
-				\- boje se Španělskem, Rakouskem, Anglií, Holandskem\.
+\- boje se Španělskem, Rakouskem, Anglií, Holandskem\.
 
 \- zisk Alsaska , Štrasburku a části Jižního Nizozemí \-> Francie chtěla zajistit hranice na Rýně\.
 
@@ -202,7 +202,7 @@ Svatá Říše Římská národa německého po Třicetileté válce :
 
 __Říšský sněm__ : 	\- nikdo se jím neřídil\.
 
-			\- od r\. 1663 do 1806 \( rozpad Říše \) zasedá v Řezně\.
+\- od r\. 1663 do 1806 \( rozpad Říše \) zasedá v Řezně\.
 
 ## Polsko
 

@@ -257,7 +257,7 @@ Všechny tyto problémy vyvrcholily __OBČANSKOU VÁLKOU__, kdy mezi sebou soupe
 
 \- __Populáři__ \( lid \) – představitel __Gaius Marius –__ \( vojenský velitel \) __104\-100 př\.Kr\.__  zvolen konzulem, provedl vojenskou reformu \-> profesionální armáda \( obživa pro chudé, a ti po skončení služby \( 16 let \) měli dostat malý pozemek \. Úspěšně bojoval proti Germánům \)
 
-__90\-__88 př\.Kr\. – válka se spojenci \-> římské občanské právo rozšířeno na všechno svobodné italské obyvatelstvo \( do té doby pouze Řím \)
+90\-88 př\.Kr\. – válka se spojenci \-> římské občanské právo rozšířeno na všechno svobodné italské obyvatelstvo \( do té doby pouze Řím \)
 
 vs\. __Optimáti__ \( překlad – nejlepší \) – představitel __Lucius Cornelius Sulla__
 
@@ -305,7 +305,7 @@ Caesar – usmířil Pompeia a Crassa 	a dohodli se tak na vzájemné podpoře\.
 
 __59 př\.Kr\. – konzul__ \-> zákony ve prospěch chudých občanů a veteránů\.
 
-	__58 př\.Kr\. – prokonzul v Galii__ \( na 5 let \) – boje s Galy, povstání Vercingetorixe – potlačeno, Vercingetorix má ve Francii sochu\.
+__58 př\.Kr\. – prokonzul v Galii__ \( na 5 let \) – boje s Galy, povstání Vercingetorixe – potlačeno, Vercingetorix má ve Francii sochu\.
 
 58\-50 \->ovládl skoro celou Galii, vylodil se v Británii\.
 
@@ -403,7 +403,7 @@ Jak se dostal k moci? Jako odstoupil ze své funkce, ale senát ho přesvědči
 
 \- senátu přiznal podíl na řízení státu
 
-\- další __výbojné války__ \( Hispánie, proti Germánům \-> __9 n\.l\. byla římská armáda poražena v Teutuborském lese –__ tři legie pobyty do posledního muže__\->__hranice Říma zůstaly na Rýně \)
+\- další __výbojné války__ \( Hispánie, proti Germánům \-> __9 n\.l\. byla římská armáda poražena v Teutuborském lese –__ tři legie pobyty do posledního muže\->hranice Říma zůstaly na Rýně \)
 
 \- __PAX ROMANA__
 
@@ -423,7 +423,7 @@ Neměl žádného syna, pouze dceru\.Proto __spojil rod Iuliů a rod Claudiů__,
 
 __1\) Tiberius \( 14 – 37 n\.l\.  \)__ – měl velkou autoritu, zavedl úsporná opatření \( aby naplnil císařskou pokladnu \)\.Během své vlády se přesídlil na Capri, odkud řídil Říši\.Vedl zde rozmařilý a perverzní život\.
 
-Začalo se za něj zneužívat zákona o urážce majestátu__ __\-> odstraňování politických odpůrců\. nevázaný život
+Začalo se za něj zneužívat zákona o urážce majestátu \-> odstraňování politických odpůrců\. nevázaný život
 
 \- jednou zvítězil na Olympijských hrách
 
@@ -431,7 +431,7 @@ Začalo se za něj zneužívat zákona o urážce majestátu__ __\-> odstraňov�
 
 \- skvěle se sebeovládal, byl samotář, filozof, ale na druhou stranu velmi rozporuplný\.
 
-__2\) Caligula \( 37 – 41 n\.l\. \)– šílenec a sadista__ \(__ __kůň senátorem, mramorová stáj, prohlásil se bohem \)
+__2\) Caligula \( 37 – 41 n\.l\. \)– šílenec a sadista__ \( kůň senátorem, mramorová stáj, prohlásil se bohem \)
 
 \- nakonec zavražděn velitelem praetoriánů
 
@@ -441,7 +441,7 @@ __3\) Claudius \( 41 – 54 n\.l\. \)__– provolán praetoriány za císaře po
 
 \- vytvořil dokonale fungující státní aparát, budoval akvadukty a silnice\.
 
-__4\) Nero –__ adoptivní Claudiův syn ,  __ __
+__4\) Nero –__ adoptivní Claudiův syn ,   
 
 přinutil k sebevraždě Senecu \( jeho vychovatel \), krutý, podpálil Řím \( chtěl napsat báseň o Tróji – obvinil z toho křesťany \),
 
@@ -457,7 +457,7 @@ __Flaviovci :__ Nero neměl nástupce, a tak po jeho smrti nastaly boje o moc\.Z
 
 __Vespasianus__ – potlačil židovské povstání v Judei \( zrovna v době, kdy se stal císařem \)
 
-__Titus –__ oblíbený , dobře vycházel se senátem__\.__
+__Titus –__ oblíbený , dobře vycházel se senátem\.
 
 24\.8\. __79 n\.l\. výbuch Vesuvu \-> Pompeje__ \+ Herculaneum\( v 19\.stol\. archeologické vykopávky, významné pro historiky a archeology \)
 

@@ -117,7 +117,7 @@ Novoasyrská říše \(911 – 612 př\. n\. l\.\)
 - panovník Sargon II\. – zavedl přesnou hierarchii úředníků, posunul hranice \(v obd\. vrcholného vývoje: celá Mezopotámie, Sýrie, S část Izraelského království, Fénická města, dočasně i část Nilské delty\)
 - vznik největších měst: pevnost Ninive \( jedno z nejv\. měst starověku: půl km dlouhá, dokonce tam byla ZOO \) , v ní postavena knihovna
 - dobrá armáda \( pěchota, jezdci, lučištníci, vozy \) \-> ovládli Babylon \( právě z toho peníze na rozvoj Ninive \) – později říše dobyla Egypt  a Blízký východ  \+ samozřejmě celou Mezopotámii\.
-- 612 př\.Kr\. dobyto__ __Ninive a zpustošeno \(Médové a Babylóňané je dobyli\) → počátek pádu Novoas\. říše
+- 612 př\.Kr\. dobyto Ninive a zpustošeno \(Médové a Babylóňané je dobyli\) → počátek pádu Novoas\. říše
 
 __Novobabylonská říše \( 7\.\-6\.stol\.př\.Kr\. \)__
 
@@ -128,13 +128,13 @@ __Novobabylonská říše \( 7\.\-6\.stol\.př\.Kr\. \)__
 
 __Kultura Mezopotámie__ : 	\- stovky různých božstev
 
-				\- zikuraty \( např\. Babylonská věž \)
+\- zikuraty \( např\. Babylonská věž \)
 
-				\- klínové písmo
+\- klínové písmo
 
-				\- rozvoj astronomie
+\- rozvoj astronomie
 
-				\- 60ková soustava
+\- 60ková soustava
 
 __Starověké národy v Malé Asii a na Blízkém východě__
 
@@ -309,7 +309,7 @@ __Taoismus__
 Starověká Indie
 
 - poměrně izolovaný vývoj
-- kastovní rozdělení__ __společnosti \(4 varny  \- soc\. skupiny – předchůdci kast \)
+- kastovní rozdělení společnosti \(4 varny  \- soc\. skupiny – předchůdci kast \)
 
 Náboženství
 
@@ -513,9 +513,9 @@ písmo
 - obrázkové, psalo se na papyrus
 - 3 typy písma:	1\. __hieroglyfy__ \(= posvátné vrypy\) \- Jean – Francois Champollion \(1822\) – rozluštil hieroglyfy pomocí Rossetské desky \(řecky \(alphabeta\) a dva typy egyptsky \(démotické písmo a hieroglyfy\), dnes je uložena v Londýnském muzeu\. Byla objevena za Napoleona v r\. 1799
 
-2__\. hieratické písmo__ – knězské písmo – jednodušší
+2\. hieratické písmo – knězské písmo – jednodušší
 
-3__\. démotické__ __písmo__– lidové a nejjednodušší písmo *\( démos = řecky lid *
+3\. démotické __písmo__– lidové a nejjednodušší písmo \( démos = řecky lid *
 
 stavitelství
 

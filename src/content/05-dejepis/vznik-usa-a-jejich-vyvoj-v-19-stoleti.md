@@ -109,7 +109,7 @@ válka s Anglií nebyla jen bojem za nezávislost ale i buržoazní revolucí \
 
 __1783 – uznána nezávislost amerických kolonií__
 
-__Ve válce za nezávislost byla extrémně důležitá podpora Francie\.__např\. generál markýz de la Fayette
+Ve válce za nezávislost byla extrémně důležitá podpora Francie\.např\. generál markýz de la Fayette
 
 __Situace po válce za nezávislost :__
 
@@ -141,7 +141,7 @@ Aljaška – 1867 koupena od Ruska za 8 mil\. USD , v Rusku byl hladomor, tak p
 
 __OBČANSKÁ VÁLKA \( 1861 – 1865 \)__
 
-Postupně tedy vznikaly a připojovaly se nové státy a __vzrůstaly rozdíly mezi státy na severu a jihu\.__ => vyhrocení hospodářských a sociálních rozdílů__\.__
+Postupně tedy vznikaly a připojovaly se nové státy a __vzrůstaly rozdíly mezi státy na severu a jihu\.__ => vyhrocení hospodářských a sociálních rozdílů\.
 
 Rozdíly : __SEVER :__ \- lidnatější, síť železnic
 

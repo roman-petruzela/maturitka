@@ -12,7 +12,7 @@ __Příčiny:__  		\-     __hlavně mocenský boj__
 - __stavovský princip vs\. absolutismus__
 - __nerovnoměrný hospodářský vývoj v Evropě__
 
-			\-    __protestantství vs\. katolictví\.__
+  \-    __protestantství vs\. katolictví\.__
 
 Protestanství : __REFORMACE \( 1\. pol\. 16\. stol\.\)__ – 1517 Martin Luther \( Witenberg\)
 
@@ -38,7 +38,7 @@ __1\.Válka česká \( 1618 – 1620 \) :__\- po porážce stavovského povstán
 
 __8\.11\.1620__ – bitva na Bílé hoře\.
 
- __\-__ nastupuje Ferdinand II\. ____\( po smrti Matyáše 1619\)__ __
+ __\-__ nastupuje Ferdinand II\. __\( po smrti Matyáše 1619\)__ 
 
 __2\. Válka Falcká \( 1621 – 1623 \) :__\- pomsta Habsburků \-> vpád bavorského a španělského vojska do Falce =>vs\. Fridrich Falcký \+ pomoc Unie a Nizozemí : Fridrich Falcký prohrál=> ztráta Horní a Dolní Falce
 
@@ -125,9 +125,8 @@ Jiří Rakoczi – v Uhrách bojuje proti Turkům \( povstání \) v období 3
 
 České země po 30ti leté válce :
 
--
-	- __katastrofální důsledky__, násilné rekvizice obilí, dobytka atd\.
-	- zvyšování daní, znehodnocování peněz \( __dlouhá mince__ – snížený obsah drahého kovu \)
+- __katastrofální důsledky__, násilné rekvizice obilí, dobytka atd\.
+- zvyšování daní, znehodnocování peněz \( __dlouhá mince__ – snížený obsah drahého kovu \)
 
 Změny demografické : \- __obrovský úbytek obyvatelstva__ \( válka, chudoba, epidemie \( např\. 1679 – 1680 morová epidemie v Praze \)\) \( 1/3 obyv\., před : 1,7 mil\. Obyv\. v Čechách, po : 950 tis\. \)
 
@@ -141,9 +140,8 @@ __Selská povstání__ :
 
 \- několik desítek
 
--
-	- zvyšování robotní povinnosti, zvyšování daní \-> poddaní žádali zlepšení podmínek\.
-	- __1680 protirobotní selské povstání \-> Robotní patent__ \( Leopold I\. \) – robota max\. 3 dny / týden, vrchnost měla robotníkům platit\.
+- zvyšování robotní povinnosti, zvyšování daní \-> poddaní žádali zlepšení podmínek\.
+- __1680 protirobotní selské povstání \-> Robotní patent__ \( Leopold I\. \) – robota max\. 3 dny / týden, vrchnost měla robotníkům platit\.
 
 __Povstání Chodů \( 1692 – 1695 \)__ :
 
@@ -151,8 +149,7 @@ Chodové měli privilegia \( pohraničí \), bez  roboty \-> Lomikar \( Lamingen
 
 Chodové se dostali pod nadvládu Lomikara\.Při povstání zemřeli 3 lidé\.
 
--
-	- Jirásek : Psohlavci \( etm\. Nadávka od Bavorů na Chody \), Jirásek mnoho skutečností pozměnil
+- Jirásek : Psohlavci \( etm\. Nadávka od Bavorů na Chody \), Jirásek mnoho skutečností pozměnil
 
 Rozdělení české společnosti :
 
@@ -170,9 +167,9 @@ __Venkovské obyvatelstvo : 	a\) osedlí__  \- měli chalupu, barák
 
 __Chalupníci, domkáři__ – malé políčko, dřevěný barák
 
-				__b\) neosedlí__ – pasáci, děvečky – neměli svůj dům
+__b\) neosedlí__ – pasáci, děvečky – neměli svůj dům
 
-				__c\) spodina__ : tuláci, cikáni, zloději atd\.
+__c\) spodina__ : tuláci, cikáni, zloději atd\.
 
 __Zemědělství__ : \- pozvolný přechod od trojpolního systému k systému střídavému\.
 
@@ -182,8 +179,8 @@ Evropa :
 
 4 absolutistické monarchie : 	Rakousko \- Habsburkové
 
-					Prusko \- Hohenzollernové
+Prusko \- Hohenzollernové
 
-					Francie, Španělsko \- Bourboni
+Francie, Španělsko \- Bourboni
 
-					Rusko \- Romanovci
+Rusko \- Romanovci

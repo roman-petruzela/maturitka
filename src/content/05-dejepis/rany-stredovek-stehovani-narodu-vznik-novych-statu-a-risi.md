@@ -113,7 +113,7 @@ Proběhlo smíšení s původním obyvatelstvem \-> __ROMANIZACE__ \( přejíma
 
 __Anglové, Jutové, Sasové__ – germánské kmeny, které se dostaly na Britské ostrovy\.Nesmísily se s Kelty\.Neproběhla romanizace\!
 
-__Slovani__ nazýváni Venedové\.začali do Evropy proudit z oblasti __mezi Vislou a Dněprem\.__Pravlastí Slovanů je pravděpodobně sever Indie\.Byli to pastevci a zemědělci\.Polytheismus \( nejvyšší bůh Perun \)
+__Slovani__ nazýváni Venedové\.začali do Evropy proudit z oblasti mezi Vislou a Dněprem\.Pravlastí Slovanů je pravděpodobně sever Indie\.Byli to pastevci a zemědělci\.Polytheismus \( nejvyšší bůh Perun \)
 
 Okolo roku __500__ se do pohybu dali i __Sálští Frankové__ \( pravý břeh Rýna \) pod vedením Chlodvíka\.Dostali se na území dnešní Francie a za poměrně krátkou dobu založili Franckou říši\.
 

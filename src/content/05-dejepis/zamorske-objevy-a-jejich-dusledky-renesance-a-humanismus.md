@@ -43,9 +43,9 @@ __Předpoklady__ : \- __zdokonalení lodí__, lepší plachetní systém \( 3 st
 
 __Orientace__ : 	\- astroláb – hvězdy
 
-		\- kvadrant \( později sextant, oktant \)
+\- kvadrant \( později sextant, oktant \)
 
-		\- kompas \- zdokonalen
+\- kompas \- zdokonalen
 
 1492 – 1\. globus – Němec Martin Beheim
 
@@ -105,11 +105,11 @@ __Kryštof Kolumbus__ \( 1451 – 1506 \) :
 
 4 plavby : 	1\.plavba 1492 – 1493  : po „objevení Ameriky“ cesta pokračovala na Kubu, Hispaniolu\. Santa Maria ztroskotala na ostrově Hispaniola, na Hispaniole staví pevnost Navidad – tam nechal 40 mužů, kteří, když se tam vrátil na 2\.plavbě, byli už na pravdě boží \( asi srali Indiány \)
 
-		2\.plavba 1493 – 1496
+2\.plavba 1493 – 1496
 
-		3\.plavba 1498 – 1500
+3\.plavba 1498 – 1500
 
-		4\.plavba 1502 – 1504 – podél pobřeží Střední a jižní Ameriky \( např\. vidí aligátora, muže, kteří loví perly … \)
+4\.plavba 1502 – 1504 – podél pobřeží Střední a jižní Ameriky \( např\. vidí aligátora, muže, kteří loví perly … \)
 
 \- umírá v roce 1506 ve Valladolidu
 

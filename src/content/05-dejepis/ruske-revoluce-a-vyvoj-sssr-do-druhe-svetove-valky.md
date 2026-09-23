@@ -10,29 +10,23 @@ __Únorová revoluce__
 - Urputné boje – ztráty na lidských životech a území
 - Zhoršení hospodářské situace – nedostatek potravin, oblečení, topného materiálu
 - Klasické podhoubí pro nepokoje, demonstrace a stávky
-	-
-		- Ty vypukly roku 1917
-			- Podporovala je Sociálně demokratická strana Ruska \(1898\)
-				- Říkala, že hájí zájmy dělníků, chudých…
-				- Roku 1903 se SDSR rozštěpila na dvě strany
+    - Ty vypukly roku 1917
+        - Podporovala je Sociálně demokratická strana Ruska \(1898\)
+            - Říkala, že hájí zájmy dělníků, chudých…
+            - Roku 1903 se SDSR rozštěpila na dvě strany
 
 Bolševici – velmi radikální
 
 Menševici – chtěli získat moc pokojnou cestou
 
--
-	-
-		-
-			-
-				- Představitel Bolševiků – V\.I\.Lenin \(Uljanov\)
+- Představitel Bolševiků – V\.I\.Lenin \(Uljanov\)
 
 Museli působit v ilegalitě
 
 1917 – Lenin emigroval do Švýcarska
 
 - Bolševici podporovali demonstrace – chtěli převzít politickou moc – vytvářeli revoluční orgány SOVĚTY \(rady\)
-	-
-		- 1\. Vznikl v Petrohradě roku 1917 – Sovět dělníků a vojáků
+    - 1\. Vznikl v Petrohradě roku 1917 – Sovět dělníků a vojáků
 - Všude nespokojenost, car problémy nedostatečně řešil
 - 15\.3\.1917 – car Mikuláš abdikoval ve prospěch svého bratra, ale ten to nepřijal
 	- Rusko bylo bez cara
@@ -70,7 +64,7 @@ __Říjnová revoluce__
 
 __Občanská válka v Rusku 1918 – 1921__
 
-- Boje začaly na přelomu let[1917](http://cs.wikipedia.org/wiki/1917)/[1918](http://cs.wikipedia.org/wiki/1918) a skončily __vítězstvím bolševiků v roce __[__1920__](http://cs.wikipedia.org/wiki/1920)
+- Boje začaly na přelomu let[1917](http://cs.wikipedia.org/wiki/1917)/[1918](http://cs.wikipedia.org/wiki/1918) a skončily vítězstvím bolševiků v roce [__1920__](http://cs.wikipedia.org/wiki/1920)
 - Bolševici x odpůrci
 - Odpůrci
 	- Přívrženci carského režimu

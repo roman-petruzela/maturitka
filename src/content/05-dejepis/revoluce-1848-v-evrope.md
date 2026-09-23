@@ -25,9 +25,9 @@ __Specifické cíle__ : \- snaha o sjednocení území tam, kde byla feudální 
 
 __Rozdělení společnosti__ : __buržoazie__ – a\) liberální \( umírněná \) \-> chtěli reformy
 
-				b\) radikální \( revoluční \) – radikální demokraté \->chtěli revoluce
+b\) radikální \( revoluční \) – radikální demokraté \->chtěli revoluce
 
-				__dělnictvo__ – poprvé jako samostatná politická síla
+__dělnictvo__ – poprvé jako samostatná politická síla
 
 Revoluce __nevypukla v Rusku a Anglii__, jinak zasáhla celou Evropu\.
 
@@ -91,7 +91,7 @@ __1869__ – slavnostně otevřen __Suezský průplav__
 
 Snaha o zvětšování koloniálního panství \-> __1870__ – Francie se nechala vyprovokovat k __válce s Pruskem__ , __Francie ostudně poražena__ => Napoleon III\. utíká z Francie\.
 
-*Pojem : utopický socialismus : např\. Charles Fourier *
+*Pojem : utopický socialismus : např\. Charles Fourier* 
 
 *\- dávali kontrast utopických společností s reálným vývojem\.Kapitalistický vývoj považovali za sociální deformaci*\.
 

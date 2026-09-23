@@ -231,11 +231,11 @@ Systém dvou politických stran :
 
 Kolonie : 	Kanada \-> dominium \( vlastní vláda, oficiální představitel je britská královna \)
 
-		Afrika \( severní, jižní \)
+Afrika \( severní, jižní \)
 
-		Indie – nejvýznamnější kolonie
+Indie – nejvýznamnější kolonie
 
-		Austrálie, Nový Zéland, část pobřeží Číny
+Austrálie, Nový Zéland, část pobřeží Číny
 
 Význam kolonií : ekonomický \-> suroviny, plodiny, nerostné bohatství, dovoz do kolonií\.
 
@@ -393,15 +393,15 @@ Vzdělanost – z Předlitavska jsme na tom byli nejlépe, existovala rozsáhl�
 
 Školský systém : 	\- obecná škola
 
-			\- měšťanka \( dokončení základního vzdělání \)
+\- měšťanka \( dokončení základního vzdělání \)
 
-			\- víceletá gymnázia 	– klasická \( humanitní – latina, řečtina \)
+\- víceletá gymnázia 	– klasická \( humanitní – latina, řečtina \)
 
-						\- reálná \( reálky \) – přírodní vědy, matika, živé jazyky
+\- reálná \( reálky \) – přírodní vědy, matika, živé jazyky
 
-			\- obchodní akademie
+\- obchodní akademie
 
-			\- univerzity : Pražská univerzita \( roku 1882 rozdělena na českou a německou část \)
+\- univerzity : Pražská univerzita \( roku 1882 rozdělena na českou a německou část \)
 
 Věda : \- pozitivismus \-> shromažďování co největšího počtu faktů \-> faktografie\.
 
@@ -441,9 +441,9 @@ historizující slohy : \- napodobování starých stylů
 
 Budování pomníků – např\. 	J\.V\.Myslbek \-> Svatý Václav na Václaváku
 
-				L\.Šaloun \-> Jan Hus na Staromáku
+L\.Šaloun \-> Jan Hus na Staromáku
 
-				S\.Sucharda \-> František Palacký na Palačáku
+S\.Sucharda \-> František Palacký na Palačáku
 
 __Mezinárodní vztahy na přelomu 19\.\-20\.stol\.__
 
@@ -501,7 +501,7 @@ Tichomoří : 1898 – Amerika VS\. Španělsko
 
 \- vítězství Ameriky – zisk např\. Havaj, Filipíny, protektorát nad Kubou\.
 
-Rusko na přelomu 19\.\-20\.stol__\.__
+Rusko na přelomu 19\.\-20\.stol\.
 
 __Krymská válka__ \( Rusové prohráli \)\-> __Alexandr II\. – reforma ruské rolnické společnosti__ \-> 1861 zrušeno nevolnictví \-> rolníci získali osobní svobodu\.
 

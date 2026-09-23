@@ -313,17 +313,17 @@ __Záminka__ : fingované napadení rozhlasového vysílače v Hlivicích \( n�
 
 \- jednoznačná převaha Němců \( technologická, početní \)
 
-			Německo			Polsko
+Německo			Polsko
 
 počet divizí 		58				37
 
 technika 		2,5 tisíce tanků		téměř bez tanků
 
-			2 tisíce letadel			400 letadel
+2 tisíce letadel			400 letadel
 
-							11 jezdeckých brigád
+11 jezdeckých brigád
 
-							\- Poláci válčili velmi hrdinně\.
+\- Poláci válčili velmi hrdinně\.
 
 9\.9\. – obsazena Z část Polska
 
@@ -361,7 +361,7 @@ Od severu : \- __konflikt s Finskem__ \-> cíl: líp ochránit Leningrad \( pos
 
 SSSR žádal odstoupení části finského území u Leningradu a některých ostrovů ve Finském zálivu a to výměnou za Karélii\.Finové odmítli
 
- =>  ____30__\.11\.39 – 3\.40 – Sovětsko\-Finská válka \( „zimní“\) __\. \-> Rusko bylo SN označeno za agresora a tak__ Rusko bylo vyloučeno ze SN __\( 14\.12\.1939 \)
+ =>  __30__\.11\.39 – 3\.40 – Sovětsko\-Finská válka \( „zimní“\) __\. \-> Rusko bylo SN označeno za agresora a tak__ Rusko bylo vyloučeno ze SN \( 14\.12\.1939 \)
 
 Útok vedl jeden z mála generálů, co přežili Stalinovi čistky – Timošenko \)
 
@@ -471,7 +471,7 @@ __Velká Británie :__
 
 \- __RAF__ \( Hugh Dowding\)  __VS\. Luftwafe__ \( Hermann Göring \)
 
-\- souboj vojenské techniky – kdo to déle vydrží – __VB podporována USA – letadla Hurricane, Spitfire__ \( Němci měli Messerschmity \)__ __
+\- souboj vojenské techniky – kdo to déle vydrží – __VB podporována USA – letadla Hurricane, Spitfire__ \( Němci měli Messerschmity \) 
 
 \- velké ztráty \( piloti \)
 
@@ -509,7 +509,7 @@ __Italové – 9\.1940 \-> Egypt__ \( VB \), ale zatlačeni do Lybie \-> Italům
 
 Pak Italové napadli __Řecko__ \-> opět jim Němci museli pomoc\.
 
-__4\.1941__ – Něm\.\+Ita\. \( \+ Maď\. \+ Bul\. \) obsazují __Jugoslávii a Řecko__ \(__ __Metaxosova linie \)
+__4\.1941__ – Něm\.\+Ita\. \( \+ Maď\. \+ Bul\. \) obsazují __Jugoslávii a Řecko__ \( Metaxosova linie \)
 
 Pak obsazeno i __Chorvatsko \-> Ante Pavelič__
 
@@ -517,7 +517,7 @@ Pak obsazeno i __Chorvatsko \-> Ante Pavelič__
 
 __Srbsko__ – okupační správa, kolaborantská vláda v čele s __generálem Nedic’em\.__
 
-Obyvatelstvo však sympatizovalo s jednotkami __Mihailovic’__e – ten podporoval exilovou královskou rodinu \) \+ partyzánská armáda \( __Josip Broz Tito__  \- komunisté \)
+Obyvatelstvo však sympatizovalo s jednotkami Mihailovic’e – ten podporoval exilovou královskou rodinu \) \+ partyzánská armáda \( __Josip Broz Tito__  \- komunisté \)
 
 Itálie – neúspěch za neúspěchem => dohoda s Německem, že se Itálie plně podřídí válečným cílům Německa\.
 

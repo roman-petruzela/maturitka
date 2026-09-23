@@ -87,7 +87,7 @@ cíle : hlavně sekuralizace
 
 2\) __pražané__ : 	a\) umírnění \( bohatí kupci, mistři atd\. \) – např\. kněz Jan Rokycan
 
-		b\) radikální \( chudí, Nové město \) – Jan Želivský
+b\) radikální \( chudí, Nové město \) – Jan Želivský
 
 \- kněz Jakoubek ze Stříbra
 
@@ -259,7 +259,7 @@ __Církev__ – nejvíce postižena \( ztratila cca 4/5 majetku \), ztratila pol
 
 \-> křesťanství 		katolické
 
-			kališnická \( utraquisté \)
+kališnická \( utraquisté \)
 
 => __Čechy = země dvojího lidu__ \.
 

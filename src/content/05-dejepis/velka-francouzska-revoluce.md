@@ -109,7 +109,7 @@ Poté se revoluční vlna přesunula na venkov, do celé Francie\. \-> rabován�
 
 __4\.\-5\.8\.__ – Národní shromáždění __zrušilo dekretem poddanství a šlechtická privilegia__ \( včetně šlechtického soudnictví\)\.Zavedlo placení daní podle výše příjmu\.Do úřadů se již mělo dosazovat podle schopností, ne podle původu\.
 
-V srpnu se NS přejmenovalo na Ústavodárné shromáždění \( *Konstituanta\) \( *z lat\. constitutio = ustanovení, ústava \) a začalo pracovat na nové ústavě\.* *
+V srpnu se NS přejmenovalo na Ústavodárné shromáždění \( *Konstituanta\) \( *z lat\. constitutio = ustanovení, ústava \) a začalo pracovat na nové ústavě\.** 
 
 __26\.8\.1789 – Deklarace práv člověka a občana__\.
 
@@ -135,7 +135,7 @@ __26\.8\.1789 – Deklarace práv člověka a občana__\.
 
 \- plná práva židům \( jako první v Evropě\)
 
-__=> základ občanské společnosti__ \(__ __zrušeny feudální tituly, všichni si tykali atd\. \)
+__=> základ občanské společnosti__ \( zrušeny feudální tituly, všichni si tykali atd\. \)
 
 => Myšlenky této deklarace později pronikly do všech evropských ústav\.
 
@@ -341,7 +341,7 @@ __1805 – koalice Anglie, Ruska, Rakouska__, \+ Švédska, Neapolského králov
 
 => další koaliční válka \.
 
-__21\.10\.1805 – námořní bitva u mysu Trafalgar__ \( poblíž Španělska \)__ __ \- Britové \( admirál Horacio Nelson – jednoruký a jednonohý zde zemřel \) vyhráli \( Francouzům pomáhalo Španělské loďstvo – ty odjakživa soupeřili s VB \)a opět tak dokázali svou převahu na moři\. => Trafalgar Square v Londýně\.
+__21\.10\.1805 – námořní bitva u mysu Trafalgar__ \( poblíž Španělska \)  \- Britové \( admirál Horacio Nelson – jednoruký a jednonohý zde zemřel \) vyhráli \( Francouzům pomáhalo Španělské loďstvo – ty odjakživa soupeřili s VB \)a opět tak dokázali svou převahu na moři\. => Trafalgar Square v Londýně\.
 
 Vzápětí však __Napoleon obsadil jižní Německo a obsadil Vídeň__\. Rakouské vojsko se spojilo s Rusy a ustoupilo na Moravu => __2\.12\.1805 bitva u Slavkova \( bitva tří císařů\)__
 
@@ -363,7 +363,7 @@ Kontinentální blokáda =>např\. rozmach cukrové řepy, a pálivé papriky z�
 
 V té době se stavěly v Paříži triumfální oblouky, muzea \( věci z dobytých území\), chrámy \-> jednoduché antické tvary \-> __empír__ \( u nás např\. Kostelec nad Orlicí \)\.
 
-Blokáda měla několik trhlin \( hlavně Portugalsko a Španělsko \-> na jih Evropy anglické zboží \) =>  __1808 – 1809__ – __tažení do Španělska__ \-> ovládnutí Španělska, na trůn dosadil bratra Františka\. Civilní obyvatelstvo vedlo proti Francouzům __PARTYZÁNSKOU \( gerilovou \) válku__ \( gerila = malá ozbrojená skupinka –> noční útoky, nečekané výpady ze zálohy atd__\.__ \)\-> velké ztráty Francouzů \+ vázalo hodně fr\. sil\. Španělsko nebylo Francií úplně pokořeno\.
+Blokáda měla několik trhlin \( hlavně Portugalsko a Španělsko \-> na jih Evropy anglické zboží \) =>  __1808 – 1809__ – __tažení do Španělska__ \-> ovládnutí Španělska, na trůn dosadil bratra Františka\. Civilní obyvatelstvo vedlo proti Francouzům __PARTYZÁNSKOU \( gerilovou \) válku__ \( gerila = malá ozbrojená skupinka –> noční útoky, nečekané výpady ze zálohy atd\. \)\-> velké ztráty Francouzů \+ vázalo hodně fr\. sil\. Španělsko nebylo Francií úplně pokořeno\.
 
 __1809__ – Rakousko vojensky vystoupilo proti Francii \-> __Napoleon úplně poráží Rakousko__\.
 
@@ -373,7 +373,7 @@ Mezitím se však již ve Francii hlásila hospodářská a vojenská krize, nes
 
 1810 – Rusko porušuje blokádu a Napoleon I\. se rozhodl Rusko vojensky pokořit =>
 
-červen__1812 – tažení do Ruska__ – Napoleon měl ohromnou armádu \( 600 tisíc mužů – v té době největší armáda světa \) vs\. Ruští __generálové__ __Kutuzov a Bagration__ \-> zvolili taktiku, že se nechtěli utkat v jedné bitvě, ale pořád ustupovali\.
+červen**1812 – tažení do Ruska** – Napoleon měl ohromnou armádu \( 600 tisíc mužů – v té době největší armáda světa \) vs\. Ruští __generálové__ __Kutuzov a Bagration__ \-> zvolili taktiku, že se nechtěli utkat v jedné bitvě, ale pořád ustupovali\.
 
 Září __1812 – bitva u Borodina__ – první větší bitva , \- blízko Moskvy, \- velmi krvavá bitva\.
 

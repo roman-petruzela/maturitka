@@ -296,7 +296,7 @@ __Trojlodní chrám na Kapitolu__ – zasvěcený Iovovi, Minervě a Iunoně\.
 
 Divadla na rozdíl od Řeků nezastavovali do přírody, ale jako samostatné budovy ve městech\.\)
 
-Pro zápasy a gladiátorské hry – __amfiteátr__, uprostřed prostor vysypaný pískem \-> __aréna__ *\( arena = latinsky písek \)\.*Největším amfiteátrem je __Colosseum__ – postavené za Flaviovců \( 50 tis\.diváků \)\.Nejstarší je __amfiteátr pompejský__\.
+Pro zápasy a gladiátorské hry – __amfiteátr__, uprostřed prostor vysypaný pískem \-> __aréna__ *\( arena = latinsky písek \)\.* Největším amfiteátrem je __Colosseum__ – postavené za Flaviovců \( 50 tis\.diváků \)\.Nejstarší je __amfiteátr pompejský__\.
 
 ### Triumfální oblouky – budovány na oslavu vítězstvínejznámnější je Constantinův \( poblíž Colossea \)
 
@@ -402,7 +402,7 @@ __Právo__ : 3 kulturní zdroje : \- ustanovení o rodinném systému \( odraz k
 
 __Gladiátorské hry :__
 
-__\-__ od slova ____latinsky__ __*gladius \- meč*
+__\-__ od slova __latinsky__ *gladius \- meč*
 
 __\-__ převzato od Etrusků \-> při pohřbech, na počest zemřelého
 
@@ -438,7 +438,7 @@ __JEŽÍŠ KRISTUS :__
 
 \- prokurátor Judeje Pontius Pilatus \( za císaře Tiberia \)
 
-\- jeho učedníci = apoštolové \( *apostolos = vyslanci *\)
+\- jeho učedníci = apoštolové \( apostolos = vyslanci \)
 
 #### I\.N\.R\.I\. – Jesus Nazaretský , král židovský
 

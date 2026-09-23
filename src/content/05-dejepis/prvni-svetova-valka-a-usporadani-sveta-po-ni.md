@@ -43,7 +43,7 @@ __Balkánské války  :__ balkánské státy , Itálie VS Osmanská říše\.
 
 __Osmanská říše byla téměř vytlačena z Evropy__ \( zůstal jen úzký pruh kolem Istanbulu \)
 
-	Koncem června 1913 vypukla 2\.balkánská válka \-> bývalí spojenci se utkali o přerozdělení území Makedonie\.Srbsko, Řecko, Rumunsko a Osmanská říše porazili Bulharsko a připravili ho tak o většinu územních zisků z 1\.balkánské války\.
+Koncem června 1913 vypukla 2\.balkánská válka \-> bývalí spojenci se utkali o přerozdělení území Makedonie\.Srbsko, Řecko, Rumunsko a Osmanská říše porazili Bulharsko a připravili ho tak o většinu územních zisků z 1\.balkánské války\.
 
 ## Záminka : sarajevský atentát na Františka Ferdinanda d’Este 28\.6\.1914
 
@@ -95,15 +95,15 @@ Turecko – na straně R\-U, Německa\.
 
 __Důležitá data :__ 	1891 – francouzsko\-ruské spojenectví
 
-			1904 – francouzsko\-britská dohoda \( a loni to Blair s Chirakem slavnostně připomínali – 100 let \)
+1904 – francouzsko\-britská dohoda \( a loni to Blair s Chirakem slavnostně připomínali – 100 let \)
 
-			1907 – britsko\-ruská dohoda
+1907 – britsko\-ruská dohoda
 
-			1908 – anexe Bosny a Hercegoviny
+1908 – anexe Bosny a Hercegoviny
 
-			1912 – 1913 – Balkánské války
+1912 – 1913 – Balkánské války
 
-			28\.6\.1914 – Sarajevský atentát
+28\.6\.1914 – Sarajevský atentát
 
 Charakter zemí z vojenského hlediska :
 
@@ -177,7 +177,7 @@ Předpoklady : Rusko – dlouhá mobilizace \( cca 4\-5 týdnů \)
 
 ale : __plán nevyšel__ : 	\- Rusko mobilizovalo rychleji, než se čekalo\.
 
-			\- Francie se nedala porazit\.
+\- Francie se nedala porazit\.
 
 __Nejvýznamnější bojiště : Západní fronta :__
 
@@ -205,7 +205,7 @@ Verdun : \- posádkové město, bráněno několika pevnostmi \( 2 obranné pevn
 
 \- ztráty :	 Francie 362 tis\.vojáků
 
-		 Německo 336 tis\.vojáků
+Německo 336 tis\.vojáků
 
 \- pro Francouze to mělo extrémní morální význam
 
@@ -269,9 +269,9 @@ __Boje na moři :__
 
 \- __3 blokační pásy__ : 	a\) na sever od Německa \( Severní moře \)
 
-			b\) mezi VB a Norskem
+b\) mezi VB a Norskem
 
-			c\) v La Manchi
+c\) v La Manchi
 
 __1916__ – střet flotil \-> 31\.5\-1\.6\.__bitva u Skagerraku__ \( u Jutského poloostrova \)
 
@@ -435,7 +435,7 @@ Německo – 1\.prezident – Friedrich Ebert, předseda vlády Výmarské rep\.
 
 Británie : volby – konzervativně\-liberální koalice – Lloyd George
 
-		Konzervativci – Baldwin; labouristé – MacDonald
+Konzervativci – Baldwin; labouristé – MacDonald
 
 __Washingtonská konference__ : 1921 – 1922 \-> uspořádání v oblasti Tichomoří a Dálného východu\.Čína = samostatný stát\.Zúčastnili se : USA, VB, Japonsko, Francie, Itálie a další\.
 

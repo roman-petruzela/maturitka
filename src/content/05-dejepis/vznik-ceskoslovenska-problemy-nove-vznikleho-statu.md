@@ -235,15 +235,15 @@ __zákony o pozemkové reformě__ : duben 1919 – půda zabavována šlechtě a
 
 Celkem : 13 mil\. obyv\. a z toho : 	6,85 mil\. Čechů
 
-					3,1   mil\. Němců
+3,1   mil\. Němců
 
-					1,9   mil\. Slováků
+1,9   mil\. Slováků
 
-					0,75 mil\. Maďarů
+0,75 mil\. Maďarů
 
-					0,5   mil\. Rusínů, Ukrajinců, Rusů
+0,5   mil\. Rusínů, Ukrajinců, Rusů
 
-					180 tisíc Židů\.
+180 tisíc Židů\.
 
 __Čechoslovakismus__ – je jeden československý národ – 2 větve\.
 

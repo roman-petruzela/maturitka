@@ -125,7 +125,7 @@ __Svatopluk umírá v roce 894\.__ Měl 3 syny \( pověst o třech prutech \) \
 
 __Mojmír II\. \( 894 – 904 \) –__ nebyl tolik silný – úpadek  => vymanil se mu z poslušnosti český kníže, syn Bořivoje, __Spytihněv I__\.
 
-=> __oslabený velkomoravský stát pak podlehl Maďarům__\.Ti na počátku 10\. stol\. podnikli velký nápor a nájezdy \. ____V letech__ 903 – 907 __\( vítězná bitva u Bratislavy \) porazili VMŘ\.
+=> __oslabený velkomoravský stát pak podlehl Maďarům__\.Ti na počátku 10\. stol\. podnikli velký nápor a nájezdy \. __V letech__ 903 – 907 \( vítězná bitva u Bratislavy \) porazili VMŘ\.
 
 __Velkomoravská říše se rozpadla na menší části \( kolem r\. 906 \)__\( knížectví v Čechách, Polsku, Uhrách atd\. \)
 
@@ -205,7 +205,7 @@ __Václav \( 921 – 935__ \( 929 \)\) : \- syn Vratislava
 
 \- za jeho vlády došlo k __posílení křesťanství –__ boj křesťanství proti pohanství
 
-\- založil __kostel sv\. Víta__ na Pražském Hradě \( rotunda \)__ __\. Tehdy Vít byl hodně uctíván v Sasku\.
+\- založil __kostel sv\. Víta__ na Pražském Hradě \( rotunda \) \. Tehdy Vít byl hodně uctíván v Sasku\.
 
 __28\.9\.935__ \( 929 \) – __zavražděn__ ve Staré Boleslavi, nechal ho zavraždit Boleslav
 
@@ -339,7 +339,7 @@ __Literatura__ – legendy \( agiografie \)
 
 \- __písně__ – Svatý Václave, Hospodine pomiluj ny
 
-­\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 Jak se měřil čas : křesťasnký letopočet zaveden r\. 525, více se začal užívat až v 9\.století\. Vedení kalendáře měla na starost církev\.
 

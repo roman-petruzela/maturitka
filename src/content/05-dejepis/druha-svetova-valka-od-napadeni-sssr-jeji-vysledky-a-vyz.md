@@ -39,7 +39,7 @@ Někteří Němci dokonce vystoupili na Elbrus\.
 
 \- sousoší dětí – přežilo bitvu
 
-Obdélníkový tvar na západním břehu Volhy\. Z východu tam přes řeku proudili Sověti\. V jednu chvíli byla pro Sověty situace kritická \( pouze 100 mužů v přístavu \), ale nakonec se podařilo Němce obklíčit\. Hitler odmítl ústup, vázlo zásobování \-> nakonec „Stalingradský kotel“\. \-> __6\.německá armáda__ pod velením generála __Paulus__e upadla do obklíčení a vzdala se\. Z původně 0,5 mil\. armády do kotle šlo 300tis\. , do zajetí 90 tis\. a ze zajetí se vrátilo pouze 6 tisíc vojáků\. Zajatci šli na Sibiř\.
+Obdélníkový tvar na západním břehu Volhy\. Z východu tam přes řeku proudili Sověti\. V jednu chvíli byla pro Sověty situace kritická \( pouze 100 mužů v přístavu \), ale nakonec se podařilo Němce obklíčit\. Hitler odmítl ústup, vázlo zásobování \-> nakonec „Stalingradský kotel“\. \-> __6\.německá armáda__ pod velením generála **Paulus**e upadla do obklíčení a vzdala se\. Z původně 0,5 mil\. armády do kotle šlo 300tis\. , do zajetí 90 tis\. a ze zajetí se vrátilo pouze 6 tisíc vojáků\. Zajatci šli na Sibiř\.
 
 \- Němcům zde pomáhali Rumuni \( ale velmi špatní \)
 
@@ -355,7 +355,7 @@ Japonci – kamikadze
 
 Atomová bomba \-> 	6\.8\. Hirošima
 
-			9\.8\. Nagasaki
+9\.8\. Nagasaki
 
 \- bombardér B\-29????
 

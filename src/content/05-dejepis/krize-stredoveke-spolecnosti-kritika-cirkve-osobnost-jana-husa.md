@@ -21,7 +21,7 @@ Anglie – John Wycliff \(1320\-1384 \)\- překlad Bible do angličtiny
 
 ### __Čechy – Husovi předchůdci__
 
-- __Konrád Waldhauser__ \(1326 \- 1369\)\- farář, původně augustiniánský mnich z Rakouska; kazatel u sv\. Havla \( pro bohaté Němce a měšťany \)__ __kritika nedostatků ve světském a duchovním životě \( bohatství církve \), kázal v němčině, což mu bylo zakázáno \( musel kázat v latině \)\.
+- __Konrád Waldhauser__ \(1326 \- 1369\)\- farář, původně augustiniánský mnich z Rakouska; kazatel u sv\. Havla \( pro bohaté Němce a měšťany \) kritika nedostatků ve světském a duchovním životě \( bohatství církve \), kázal v němčině, což mu bylo zakázáno \( musel kázat v latině \)\.
 - __Jan Milíč z Kroměříže__\( ? \- 1374 \)\- kněz; kanovník Vyšehradské kapituly,  nejradikálnější; kázal česky, tvrdá kritika, kázal na venkově, dodržoval půsty; úsilí o nápravu vlastním příkladem, učení o Antikristu \( za Antikrista označil Karla IV\. \) \-  obžalován \-> 2krát se hájil u papeže v Avignonu, obhájil se, ale při cestě zpátky umrzl\.
 - __Matěj z Janova__ \( 1350 \- 1394 \)\- teolog; církev x Bible; spis Pravidla Starého a Nového zákona\- v latině \-  nařčen z kacířství; donucen odvolat, následovník Milíče\. Jeho případ řešil Jan z Pomuku\.
 - __Mistr Jeroným Pražský__  \( 1360 –1416 \)\- vzdělanec, Husův přítel; odvážný kritik; studium Wycliffových spisů; mistr 4 univerzit; __r\. 1409 podíl na vydání dekretu Kutnohorského__; zatčen – uprchl; 1415 v Kostnici snaha pomoci Husovi \-  zatčen a __upálen__
