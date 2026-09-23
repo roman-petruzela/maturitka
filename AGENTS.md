@@ -100,7 +100,33 @@ Plugins run in this order (`astro.config.mjs`): `remarkLineBreaks` → `remarkPr
   entry) to the right of the axis, the `works` (string or array, joined by commas) to its left; in a
   narrow column (a container query) all text moves to the right. Used for the period overview in
   `01-cj/02-literatura/literarni-skupiny-a-obdobi-prehled-pojmu.md`. Dates there are only ones the
-  period pages themselves state — don't add a range that the text doesn't support.
+  period pages themselves state — don't add a range that the text doesn't support. A `works` entry may
+  be a string or `{ "name", "href"?, "rozbor"?: { "href", "title"? } }`; `remark-timeline.ts` links the
+  strings by itself: a name that is a heading of the period's own page (`timeline-sources.ts` reads the
+  page and takes the heading ids from `search-outline.ts`, so an anchor cannot dangle) becomes a link to
+  it, and the author of exactly one book analysis in `01-cj/04-rozbor-knih-a-cetba` gets the small
+  rozbor icon (`timeline-links.ts` is the pure matcher: accents and case ignored, the part before a
+  `(` counts). The timeline HTML is raw, so `rehype-rozbor-link` never sees it — the icon is written
+  as markup in `timeline-html.ts`. The pages it reads are not tracked as dependencies: after
+  renaming a heading in a period page do the clean rebuild.
+- **3D solids.** A ```` ```solid ```` fence — `{ "type": "kvadr" | "krychle" | "hranol" | "jehlan" |
+  "komoly_jehlan" | "valec" | "kuzel" | "komoly_kuzel" | "koule", "params": {…}, "letters"?, "marks"?,
+  "labels"?, "segments"?, "projection"?, "azimuth"?, "elevation"?, "shade"?, "width"?, "height"?,
+  "title"?, "spoiler"?, "float"? }` (full schema and the parameter names in the comment on top of
+  `solid-svg.ts`). `solid-geometry.ts` is the pure part: a polyhedron is drawn in the **cavalier**
+  projection (front face true, depth at `theta` 45° foreshortened by `k` 0.5 — the textbook picture), a
+  round solid in an **orthographic** view from above (`elevation` 24°, so the base circles are
+  ellipses). Visibility is decided from the face normals — an edge is drawn solid iff a face it borders
+  faces the viewer, otherwise dashed — not by guessing which edges are "at the back"; curves on a round
+  surface are cut into visible / hidden runs by bisection, and the silhouette of a (truncated) cone is
+  the pair of tangents from its apex. `letters` names the vertices in the order the solid builds them,
+  `marks` writes a dimension beside what it measures (`["a","b","c"]`, or `{ "name": "v", "text":
+  "v = 4" }`; a mark the type has no meaning for is an error, as is a missing parameter). The spec is
+  kept in the figure's `data-solid`; `solid-viewer.ts` (loaded by `BaseLayout.astro`) runs the same
+  `solidSvg()` in the browser so a figure can be dragged round (arrow keys too; double click or Escape
+  restores the textbook view; a figure inside an unrevealed spoiler stays put). The first turn of a
+  polyhedron leaves the cavalier projection for an orthographic one — a "true front face" is only right
+  for the textbook picture.
 - **Formula sheet.** A ```` ```formulas ```` fence — `{ "sections": [{ "title"?, "items": [{ "label"?,
   "tex"?, "note"? }] }] }` (or just `"items"`) — becomes a grid of cards, one per formula: the label small
   above it, the formula in display style (`.math-display` inside `.formula-card`, so it scrolls only
@@ -158,6 +184,16 @@ limits; the grip and the close button grow back as the note shrinks so they stay
 fullscreen the toolbar is a vertical pill; its dividers are real `.whiteboard-sep` elements (a
 `border-top` on the buttons was drawn *as* their top border and ran into their corners).
 
+Every change to the drawing is an entry of a history (`Op`: a stroke added, a stroke erased, the whole
+board cleared) with a `future` list behind it, so **undo / redo** (buttons, and Ctrl+Z / Ctrl+Y /
+Ctrl+Shift+Z while the canvas has focus — it takes focus on pointer down) also take back a "clear";
+`loadJSON` starts a fresh history. The view moves by Ctrl+wheel (zoom to the cursor), middle-button
+drag (pan) and, on touch, a two-finger pinch (`beginPinch` / `movePinch`: zoom is clamped to 0.5–8× and
+the paper point under the midpoint stays under it; the one-finger stroke that began the gesture is
+discarded, not left as a dot). The recentre button is enabled only while the view is off the default —
+`onViewChange` (third constructor argument) tells the toolbar, `syncButtons` in `MathScratchpad.astro`
+keeps the three buttons' `disabled` state in step.
+
 ## Whiteboard tasks (`src/lib/exercises.ts`, `MathScratchpad.astro`)
 
 The math whiteboard offers a "⇥ tabule" button next to each task and a "Zadání" dropdown.
@@ -182,6 +218,36 @@ attributed to (ignoring whitespace and `\frac` vs `\dfrac`). A note tail such as
 `\qquad\text{kde } …` is moved out of the formula into the card's `note`. Nothing regenerates the
 page: when a topic's formulas change, edit the sheet by hand and repeat the check. Its formulas are
 inside `.formula-sheet`, so the "Klíčové vzorce" rail stays empty (and is removed) on that page.
+`node scripts/check-formulas.mjs` is that check, automated: every `tex` of a card, every `$…$` of a
+label / note / table must still occur (whitespace aside; `\dfrac` = `\frac`) in the topic page the
+`###` heading links to. The page also carries a filter box (`formula-filter.ts`, loaded by
+`BaseLayout.astro`): it hides cards whose text or context (the section and topic headings) does not
+match — accents ignored, every word must be found — via `.is-filtered`, hides a section or topic
+whose cards are all hidden, and shows "N z M"; Enter jumps to the first hit, Escape clears. In print
+(`@media print` in global.css) the palette variables are overridden to ink on white, the scratchpad,
+buttons and the filter are hidden and the sheet is three columns; headings do not end a page.
+
+## Search (`SearchDialog.astro`, `src/pages/search.json.ts`)
+
+`search.json` is built from the Markdown source, not from rendered pages (that would render every
+page twice). `search-outline.ts` (pure, runnable from Node) gives each page its headings — text and
+the id the heading gets in the page, computed with `github-slugger` from the *rendered* text
+(emphasis, links and tags do not count, a repeated heading gets `-1`; a heading with a formula gets no
+id) —, the first real paragraph as an excerpt and the terms set in bold. `search.json.ts` keeps a
+term only if at most `MAX_PAGES_PER_TERM` (6) pages use it, at most `MAX_TERMS_PER_PAGE` (30) per
+page: otherwise "vzorec" would index every page. Fields of an item: `title`, `url`, `subject`,
+`group`, `h` (headings), `x` (excerpt), `k` (key terms). The index is fetched the first time the dialog
+opens. `search-match.ts` is the matcher (pure): accents and case folded, a Czech stem fallback for
+declined forms, scores by field (title > heading > term > excerpt); a heading hit links to
+`url#id`, a term hit shows "Pojem: …", a snippet shows the sentence around the match. After changing
+the outline rules check that every heading id of the index exists in the built HTML.
+
+## Checks and CI
+
+`.github/workflows/ci.yml` runs on every push to `main` and every pull request what "Verifying a
+change" below lists: `astro check`, a build, `scripts/check-links.mjs` (every internal link of the
+built site, `#fragment`s included) and `scripts/check-formulas.mjs`. It does not scan the built HTML for
+`ML__error` / leaked tokens / a literal `$` — do that by hand after touching the math pipeline.
 
 ## Content conversion checklist
 
@@ -199,14 +265,44 @@ grepping for after every new import:
   OCR dumps, Word `HYPERLINK … \o "…"` and `file:///` links, empty footnote definitions;
 - words glued together by a PDF table export (`Předchozípříkaz`).
 
+Found in the English pages (`03-aj`, Bridge magazine PDFs) and other PDF subjects; each has a check:
+
+- **mojibake**: Windows-1250 read as Latin-1 — `ø è ì ù ò` for `ř č ě ů ň` (`pøedpis`, `èlen`), U+FFFD for
+  `ž` **or `ť`** (`køes▓anství` is křesťanství, `závra▓` závrať): list every token containing one of the
+  characters and read it, never map U+FFFD blind. Names such as Molière, Søren, Sèvres, Niccolò are
+  correct as they are.
+- **struck-through and highlighted text**: `~~x~~` and `<mark>` are PDF styling (underline, highlight)
+  the converter mistook for strike-through; text under `~~` is shown crossed out. Remove the markers.
+- **small-caps type**: a magazine heading came out as `tHings you migHt`, `SYDnEY`, `growtH of
+  tHE coloniES` or letter-spaced (`G e o G R A p h y`). A capital inside a word is always an artefact
+  (except BrE, AmE, McX, GCSEs, pH — and phonetic transcriptions in `[…]`, which are SAMPA and must
+  not be touched); headings are put in Title Case, bold paragraphs only lose the stray capitals.
+- **running headers and footers** of the magazine: `Bridge 06/2006–2007`, `~~BRIDGE | March | 2011~~`,
+  `10 MATURITA / AUSTRALIA`, a bare page number beside one of these, `www.bridge-online.cz`. A bare
+  number is a page number only next to such a line — in `07-fyzika` and `11-ekonomika` a number on its
+  own line is a table cell.
+- **vocabulary run into one paragraph** (`**term** [ipa] − translation **term** …`): one list item per
+  entry. Leave a line alone when numbers are woven between the entries (a column layout).
+- **picture-text dumps**: a block of ≤ 30 characters is a fragment of a headline that was an image —
+  delete it; a caption becomes `((obrázek vynechán — caption))`; the labels of a map become
+  `((obrázek vynechán))`; real prose that exists nowhere else on the page is kept with a note that the
+  columns were mixed up. Never throw the only copy of a sentence away.
+- soft hyphens (U+00AD) inside words (`ob<U+00AD>sah` does not match a search for "obsah"), an orphaned `#` /
+  `###` on a line of its own above its heading text, a heading with a caption or byline stuck to it.
+
 ## Verifying a change
 
 ```
 rm -rf dist node_modules/.astro node_modules/.vite .astro
 npx astro check
 npm run build                 # then: no ML__error / leaked tokens / literal "$" in the built HTML
-node scripts/check-links.mjs
+node scripts/check-links.mjs  # every internal link — and every #fragment — of the built site
+node scripts/check-formulas.mjs
 ```
+
+A `\ue000` alone inside a MathLive box (a stretchy delimiter) is not a leaked token; a leak looks like
+`\ue000` + digits + `\ue001`. Delete the `dist/__*` files of a screenshot harness before running
+`check-links.mjs`, it counts them as pages.
 
 For anything visual use the headless Zen flatpak (no other browser is installed).
 
