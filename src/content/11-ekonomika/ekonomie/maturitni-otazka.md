@@ -95,8 +95,7 @@ __Zánik PP__
 		1. Dvoustranný právní akt – písemně
 	2. Výpověď
 		1. Ze strany zaměstnavatele
-			-
-				1. Odstupné
+            1. Odstupné
 
 1 Průměrný plat, pokud pracoval méně než rok
 
@@ -106,14 +105,11 @@ __Zánik PP__
 
 1\.	 Důvody vždy uvedeny dle ZP
 
--
-	-
-		-
-			1. Na straně zaměstnavatele – zaměstnanec získá odstupné
-			2. Na straně zaměstnance – např\. porušení prac\. Řádu
+1. Na straně zaměstnavatele – zaměstnanec získá odstupné
+2. Na straně zaměstnance – např\. porušení prac\. Řádu
 
-		1. Ze strany zaměstnance
-			1. Nemusí uvádět důvody
+1. Ze strany zaměstnance
+    1. Nemusí uvádět důvody
 
 Výpovědní lhůta nastává od prvního dne následujícího měsíce a trvá 2 měsíce
 
@@ -210,7 +206,7 @@ Základní mzda \+ pohyblivé složky = hrubá mzda
 
 Druhy mezd
 
-							Pohyblivé složky mzdy
+Pohyblivé složky mzdy
 
 - Časová
 - Výkonová
@@ -227,7 +223,7 @@ Druhy mezd
 
 Výkonová mzda
 
-	= tarif výkonu x počet výkonu
+= tarif výkonu x počet výkonu
 
 __Náhrada mzdy__
 

@@ -58,7 +58,7 @@ __Tuzemské závazky z obchodního styku__
 1. Zaplacení zálohy		324/221
 2. FAP za provedené reklamní služby – bez daně	518/321
 
-		− DPH 		343/321
+   − DPH 		343/321
 
 3\) Odečet ze zaplacené zálohy 			321/324
 

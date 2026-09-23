@@ -28,17 +28,17 @@ __Vztah daňové soustavy a státního rozpočtu –__ daně jsou podstatnou č�
 
 výběrové 		spotřební daně
 
-						           energetické daně
+energetické daně
 
 2\. Přímé daně 	       z příjmů  	        daň z příjmů fyzických osob
 
-						        daň z příjmů právnických osob
+daň z příjmů právnických osob
 
-       majetkové   	          daň z nemovitých věcí
+majetkové   	          daň z nemovitých věcí
 
-						          daň z nabytí nemovitosti
+daň z nabytí nemovitosti
 
-						           silniční daň
+silniční daň
 
 - Základní daňové pojmy
 
@@ -104,9 +104,9 @@ __Daňový únik__ = protiprávní jednání daňového subjektu s cílem neopr
 	- plátcem DPH se stává od 1\. dne druhého měsíce následujícího po měsíci, ve kterém byl překročen stanovený obrat
 	- __příklad:__ 	*Pan Šťastný začal podnikat od 1\. 7\. 2016\. V roce 2016 měl tyto obraty: 	400 000, 450 000, v lednu 180 000\. V lednu 2017 měl obrat přes 1 mil\. Kč\.*
 
-*		→ přihláška k registraci do 15\. 2\. 2017*
+*→ přihláška k registraci do 15\. 2\. 2017*
 
-*		→ plátcem daně od 1\. 3\. 2017*
+*→ plátcem daně od 1\. 3\. 2017*
 
 *	 *
 
@@ -127,11 +127,11 @@ b\) Dobrovolně
 
 	__NE, pokud__: 	\- zboží nepodléhá spotřební daní \+ hodnota nepřekročila
 
-		326 000 Kč
+   326 000 Kč
 
-		\- pořídil ho podnikatel neplátce DPH, soukromá osoba,
+   \- pořídil ho podnikatel neplátce DPH, soukromá osoba,
 
-		nebo PO, která nebyla založena za účelem podnikání
+   nebo PO, která nebyla založena za účelem podnikání
 
 \- __plnění, která nejsou předmětem daně:__
 
@@ -150,9 +150,8 @@ odběratel – plátce i neplátce z ČR
 
 dodavatel – plátce DPH z ČR
 
--
-	- dodání zboží, převod nemovitostí, poskytování služeb __za úplatu povinnou k dani__
-	- může dojít k __přenesené daňové povinnosti__
+- dodání zboží, převod nemovitostí, poskytování služeb __za úplatu povinnou k dani__
+- může dojít k __přenesené daňové povinnosti__
 
 odběratel uplatní nárok na odpočečt
 
@@ -167,19 +166,15 @@ odběratel – neplátce z EU
 
 dodavatel – plátce DPH z ČR
 
--
-	-
-		1. tuzemský plátce dodá odběrateli zboží za cenu včetně DPH → použije tuzemskou sazbu daně
-	- Pořízení zboží z členského státu
+1. tuzemský plátce dodá odběrateli zboží za cenu včetně DPH → použije tuzemskou sazbu daně
+- Pořízení zboží z členského státu
 
 odběratel – plátce z ČR
 
 dodavatel – plátce DPH v EU
 
--
-	-
-		1. český plátce daň __samovyměří__ → daň vypočítá a odvede → při splnění podmínek si uplatní nárok na odpočet
-		2. __při vývozu__ většinou osvobozená plnění s nárokem na odpočet DPH
+1. český plátce daň __samovyměří__ → daň vypočítá a odvede → při splnění podmínek si uplatní nárok na odpočet
+2. __při vývozu__ většinou osvobozená plnění s nárokem na odpočet DPH
 - Osvobozená plnění
 
 1. Bez nároku na odpočet daně:

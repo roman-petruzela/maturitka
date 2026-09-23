@@ -23,8 +23,8 @@ Subjekty hospodářské politiky:
 	1. výrobní
 	2. nevýrobní
 
-__Ekonomické systémy
-__Zvyková ekonomika
+Ekonomické systémy
+Zvyková ekonomika
 příkazová ekonomika
 tržní ekonomika
 smíšená \(tržní \+ příkazová\)
@@ -201,4 +201,4 @@ __Magický čtyř úhelník__
 
 - Diamant
 - Hodnotí souhrnně všechny 4 nejdůležitější makroekonomické ukazatele ((obrázek vynechán))
-- Čím větší tím lepší\.__ __
+- Čím větší tím lepší\. 

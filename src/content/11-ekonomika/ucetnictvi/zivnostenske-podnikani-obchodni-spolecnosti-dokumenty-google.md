@@ -281,7 +281,7 @@ Zakládat  obchodní  společnosti  a  účastnit  se  na  jejich  podnikání  
 
 - je  schopna  usnášet  se,  pokud  jsou  přítomni  akcionáři  vlastnící  akcie,  jejichž  jmenovitá hodnota  nebo  počet  přesahuje  30  %  základního  kapitálu,  ledaže  stanovy  určí  jinak
 
-- rozhoduje  většina  hlasů  přítomných  akcionářů,  ledaže  zákon  nebo  stanovy  vyžadují  většinu jinou  (např.  ke  změně  stanov,  výše  základního  kapitálu  nebo  ke  zrušení  společnosti  s likvidací  je  potřeba  �⁄�  hlasů  přítomných  akcionářů)
+- rozhoduje  většina  hlasů  přítomných  akcionářů,  ledaže  zákon  nebo  stanovy  vyžadují  většinu jinou  (např.  ke  změně  stanov,  výše  základního  kapitálu  nebo  ke  zrušení  společnosti  s likvidací  je  potřeba  ((zlomek se nedochoval))  hlasů  přítomných  akcionářů)
 
 -  rovněž  u  akciových  společností  může  být  dohodnutu  rozhodování  per  rollam(způsob rozhodování  s,  které  neprobíhá  jako  obvykle  na  shromáždění  jeho  členů,  ale  korespondenčně nebo  prostřednictvím  technických  prostředků).  nebo  hlasování  korespondenční
 

@@ -64,11 +64,9 @@ Výrobková
 - 1920 – 1940
 - Podnikatelé vychází z přesvědčení, že v každé době se najdou zákazníci, kteří jsou ochotni si připlatit za kvalitu zboží
 - Kvalita je dána:
-	-
-		-
-			- Materiálem
-			- Zpracováním
-			- Technickými parametry
+    - Materiálem
+    - Zpracováním
+    - Technickými parametry
 - Výrobci se soustřeďují tedy na výrobek a nedbají tolik o potřeby zákazníků
 - I dnes u luxusního zboží
 
@@ -143,18 +141,14 @@ __Marketingový výzkum__
 
 1. Vnější \(= externí\)
 2. Statistiky
-	-
-		-
-			- Národní \(ČSÚ, krajské úřady, státní organizace\)
-			- Nadnárodní \(Eurostat, OSN, světová obchodní organizace, OPEK, UNESCO, Mezinárodní měnový fond,…\)
+    - Národní \(ČSÚ, krajské úřady, státní organizace\)
+    - Nadnárodní \(Eurostat, OSN, světová obchodní organizace, OPEK, UNESCO, Mezinárodní měnový fond,…\)
 3. Periodika \(Noviny, časopisy\)
 4. Publikace \(Učebnice, skripta\)
 5. Internet \(Neplacené a placené databáze\)
 6. Výroční zprávy konkurenčních firem
 7. Vnitřní
-	-
-		-
-			- Z účetnictví, evidence, kalkulací, zprávy prodejců
+    - Z účetnictví, evidence, kalkulací, zprávy prodejců
 
 - __Výhody__ – Nejsou finančně ani časově náročné
 - __Nevýhody__ – Nejsou aktuální, spolehlivé ani přesné
@@ -215,7 +209,7 @@ Analýza zákazníka:
 
 \- Významnou úlohu při rozhodování zákazníka hrají tyto faktory:
 
-	__1\. Kulturní__
+__1\. Kulturní__
 
 \- člověk je nejvíce ovlivněn kulturou, která se zaznamenává hluboko do jeho psychiky
 
@@ -223,7 +217,7 @@ Analýza zákazníka:
 
 \- kultura je předávána mezi generacemi, ale postupně se mění \(atomizace rodin\)
 
-	__2\. Sociální__
+__2\. Sociální__
 
 \- každý člověk je příslušníkem mnoha sociálních skupin => členové těchto skupin se navzájem ovlivňují
 
@@ -270,9 +264,9 @@ __7\.__ Prázdné hnízdo 2
 
 __8\.__ Osamělý senior
 
-	__4\. Psychologické__
+__4\. Psychologické__
 
-		\- záleží na 4 psychologických činitelích:
+\- záleží na 4 psychologických činitelích:
 
 1. Motivace – dle Maslowovy teorie potřeb
 2. Vnímání – selektivní vnímání závisí na momentální potřebě
@@ -292,7 +286,7 @@ Bostonská analýza
 
 \- 	 dobré investovat do reklamy, dále se rozšiřovat
 
-	__Otazníky:__
+__Otazníky:__
 
 - jde o produkty, které mají nízký podíl na trhu, který ale vyhazuje budoucí rychlé tempo růstu tržeb
 - tyto produkty sami nevytvářejí dostatek prostředků pro investice \(jsou vysoké a rizikové\)

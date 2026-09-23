@@ -54,13 +54,13 @@ __Lázeňské služby__
 
 a\) Diagnostika
 
-    \- určení aktuálního stavu hosta
+\- určení aktuálního stavu hosta
 
 b\) Balneoterapie
 
-    \- všechny léčebné procedury
+\- všechny léčebné procedury
 
-    \- pitná kúra, suchá uhličitá koupel, léčebné inhalace, vodoléčba, rehabilitace, magnetoterapie, elektroterapie, dietoterapie, parafínoterapie, klimatoterapie,
+\- pitná kúra, suchá uhličitá koupel, léčebné inhalace, vodoléčba, rehabilitace, magnetoterapie, elektroterapie, dietoterapie, parafínoterapie, klimatoterapie,
 
  speleoterapie, peloidoterapie, aromaterapie, akupunktura, kryoterapie, oxigenoteapie
 
@@ -68,39 +68,39 @@ b\) Balneoterapie
 
 a\) Lázeňský dům, hotel
 
-               \- dvojlůžkový pokoj, více úložných prostorů
+\- dvojlůžkový pokoj, více úložných prostorů
 
-               \- prostory pro využití volného času
+\- prostory pro využití volného času
 
-               \- při komplexním i příspěvkovém pobytu
+\- při komplexním i příspěvkovém pobytu
 
-               \- dodržování domovního a ubytovacího řádu
+\- dodržování domovního a ubytovacího řádu
 
-           b\) Lázeňský penzion
+b\) Lázeňský penzion
 
-               \- při příspěvkovém a samopláteckém pobytu
+\- při příspěvkovém a samopláteckém pobytu
 
-               \- menší rozsah služeb, mimo lázeňská centra
+\- menší rozsah služeb, mimo lázeňská centra
 
-          c\) Ubytování v soukromí
+c\) Ubytování v soukromí
 
-              \- pokoje, apartmány
+\- pokoje, apartmány
 
-              \- při samopláteckém pobytu
+\- při samopláteckém pobytu
 
-     __3__\.   __Stravovací__
+__3__\.   __Stravovací__
 
-__          __a\) Režimové
+a\) Režimové
 
-              \- dietní režim \(dospělí 4 jídla, děti 6 jídel\), určení času jídel
+\- dietní režim \(dospělí 4 jídla, děti 6 jídel\), určení času jídel
 
-          b\) Nerežimové
+b\) Nerežimové
 
-              \- běžné stravování dle požadované osoby
+\- běžné stravování dle požadované osoby
 
-          c\) Doplňkové
+c\) Doplňkové
 
-             \- cukrárny, kavárny, čajovny
+\- cukrárny, kavárny, čajovny
 
 __Lázeňský místopis__
 
@@ -164,7 +164,7 @@ __Akce__
 
 __Služby__
 
-1. __Související s jednáním__ – zajištění místa konání, příprava a vytištění kongresových materiálů \(pozvánka, program, sborník\), překladatelské a tlumočnické služby, propagace, organizační služby před akcí a během akce, výběr vložného a registrace úč__\.__
+1. __Související s jednáním__ – zajištění místa konání, příprava a vytištění kongresových materiálů \(pozvánka, program, sborník\), překladatelské a tlumočnické služby, propagace, organizační služby před akcí a během akce, výběr vložného a registrace úč\.
 2. __Související s pobytem –__ ubytování stravování, doprava
 3. __Ostatní –__ recepční, směnárenské, průvodcovské služby, autokarová doprava, činnost hostesek
 

@@ -46,17 +46,14 @@ __2\. Financování:__
 __LEASING__
 
 1. podle územního hlediska
-	-
-		- tuzemský
-		- zahraniční
+    - tuzemský
+    - zahraniční
 2. podle účastníků
-	-
-		- přímý \(výrobce, nájemce\)
-		- nepřímý \(výrobce, leasingová společnost, nájemce\)
+    - přímý \(výrobce, nájemce\)
+    - nepřímý \(výrobce, leasingová společnost, nájemce\)
 3. podle míry krytí pořizovací ceny
-	-
-		- operativní – krátkodobý, kompletní servis, po ukončení zůstává majitelem pronajímatelem
-		- finanční – dlouhodobý,  po ukončení pronájmu dochází k odkupu → majitel je nájemce
+    - operativní – krátkodobý, kompletní servis, po ukončení zůstává majitelem pronajímatelem
+    - finanční – dlouhodobý,  po ukončení pronájmu dochází k odkupu → majitel je nájemce
 
 - daň z příjmů → dle ZDP si může nájemce zahrnout splátky do nákladů
 - DPH → dle zákona o DPH má nárok na odpočet daně na vstupu leasingová společnost

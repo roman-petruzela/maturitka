@@ -43,7 +43,7 @@ __Podnikání =__ soustavná činnost provozována samostatně, vlastním jméne
 
 = vnitřní uspořádání podniků → rozčlenění podniku do organizačních jednotek dle organizačního řádu
 
-				vertikální – vztahy nadřízenosti a podřazenosti
+vertikální – vztahy nadřízenosti a podřazenosti
 
 - základní vazby:
 

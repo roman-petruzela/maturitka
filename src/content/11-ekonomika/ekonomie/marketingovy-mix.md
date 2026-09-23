@@ -35,7 +35,7 @@ __Životní cyklus zboží__
 
 __Fáze křivky__
 
-							GRAF
+GRAF
 
 1. zavádění
 2. růst

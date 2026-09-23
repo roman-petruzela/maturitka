@@ -24,7 +24,7 @@ __Návratnost –__ sleduje se, zda je klient schopen peníze vrátit do určit�
 
 __Výnosnost__ – za kolik % peníze půjčit, aby banka vydělala
 
- 	\- úrok je pevný nebo pohyblivý
+\- úrok je pevný nebo pohyblivý
 
 Při poskytování úvěru banka prověřuje:
 
@@ -50,29 +50,26 @@ Sazba = *p* = úroková míra \- \- \- \- \- \-  \- \- \- \- \- \- \- \-  \- \- 
 
 Doba úročení = *d* = rozdíl měsíců \* 30 \+ rozdíl dnů 	   		p\. s\. – půlročně
 
-										p\. q\. – čtvrtročně
+p\. q\. – čtvrtročně
 
 __VKLADOVÁ ČINNOST__
 
 1. Z hlediska směny 		KORUNOVÉ / DEVIZOVÉ
 2. Z hlediska času 			TERMÍNOVANÉ – lze vyzvednout po sjednané					lhůtě
 
-__	__NETERMÍNOVANÉ – „Na viděnou“ – kdykoli je možné vybrat peníze
+	NETERMÍNOVANÉ – „Na viděnou“ – kdykoli je možné vybrat peníze
 
--
-	-
-		-
-			- hůře úročené
+- hůře úročené
 
 __Další zdroje komerčních bank:__
 
-	\- úvěry od ČNB
+\- úvěry od ČNB
 
-	\- úvěry od ostatních bank – sazba PRIBOR \(za kolik si banky půjčují, okolo 2%\)
+\- úvěry od ostatních bank – sazba PRIBOR \(za kolik si banky půjčují, okolo 2%\)
 
-	\- emise úvěrových cenných papírů \(obligace\)
+\- emise úvěrových cenných papírů \(obligace\)
 
-	\- emise HZL – Hypoteční zástavní list
+\- emise HZL – Hypoteční zástavní list
 
 __NEUTRÁLNÍ BANK\. OPERACE__
 
@@ -87,20 +84,18 @@ __\-__ jde o další služby, které banky nabízí svým klientům
 
 Hotovostní = uskutečňuje se pomocí bankovek a mincí
 
--
-	- Výhodou je, že se platba uskutečňuje ihned a odpadají problémy s platební neschopností
+- Výhodou je, že se platba uskutečňuje ihned a odpadají problémy s platební neschopností
 
 Bezhotovostní = převod peněz z účtu na účet
 
--
-	- Není nutná fyzické přítomnost peněz, bezpečnost
-	- Nevýhodou je, že je to pomalejší, platí se poplatek za provedení úhrady a je zde riziko platební neschopnosti
+- Není nutná fyzické přítomnost peněz, bezpečnost
+- Nevýhodou je, že je to pomalejší, platí se poplatek za provedení úhrady a je zde riziko platební neschopnosti
 
 __Úhrada__ – z příkazu plátce
 
 __Inkaso__ – z příkazu příjemce
 
-	Příkazy:
+Příkazy:
 
 - Jednorázový příkaz k úhradě \(inkaso\)
 - Hromadný
@@ -170,6 +165,6 @@ POJIŠŤOVNICTVÍ
 	5. Povinné pojištění cestovní kanceláře
 - DOBROVOLNÉ
 
-			Životní \(obyčejné/ investiční\)
+  Životní \(obyčejné/ investiční\)
 
-			Neživotní \(důchodové připojištění, havarijní, pojištění podnikatelů…\)
+  Neživotní \(důchodové připojištění, havarijní, pojištění podnikatelů…\)

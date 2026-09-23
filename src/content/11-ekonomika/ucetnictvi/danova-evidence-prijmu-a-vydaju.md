@@ -27,13 +27,13 @@ __Daňová evidence příjmů a výdajů__
 
 Podstata daňové evidence zůstává stejná jako v dříve používaném jednoduchém účetnictví, pouze je upravena zákonem o dani z příjmů\. Dle tohoto zákona musí vést daňová evidence ke zjištění základu daně z příjmů a musí obsahovat údaje o příjmech a výdajích a o pohledávkách a závazcích podnikatelského subjektu\.
 
-Nejdůležitější knihou v daňové evidenci je __*deník příjmů a výdajů*__, často také nazývaný __*peněžní*__ __*deník\. *__Zde se v průběhu kalendářního roku zapisují údaje o hospodářských operacích, které vyjad\-řují příjem nebo výdej peněžních prostředků\. Nezapisují se zde tedy hospodářské operace, které mají charakter předpisu plateb, např\. vystavené faktury, povinnost zaplatit daně finančnímu úřadu\.\.\. Zapisování v peněžním deníku si klade tyto základní cíle:
+Nejdůležitější knihou v daňové evidenci je __*deník příjmů a výdajů*__, často také nazývaný __*peněžní*__ deník\. Zde se v průběhu kalendářního roku zapisují údaje o hospodářských operacích, které vyjad\-řují příjem nebo výdej peněžních prostředků\. Nezapisují se zde tedy hospodářské operace, které mají charakter předpisu plateb, např\. vystavené faktury, povinnost zaplatit daně finančnímu úřadu\.\.\. Zapisování v peněžním deníku si klade tyto základní cíle:
 
 1. zajistit správné údaje pro zjištění daňového základu daně z příjmů,
 2. zajistit evidenci o peněžních prostředcích v podkladně a na bankovním účtu,
 3. poskytnout podklady pro podrobnější analýzu výdajů a příjmů pro potřeby řízení a kontroly hospodárnosti\.
 
-__Forma, způsob a technika vedení deníku příjmů a výdajů není předepsána\.__ Podnikatel si ho__ __vede takovým způsobem, aby v deníku byly v časové posloupnosti zaznamenány všechny hospodářské operace příjmů a výdajů, které při podnikání nastaly a jsou podloženy průkazným dokladem\. Zapisování v tomto deníku probíhá chronologicky v průběhu roku a vždy minimálně „dvoustranně“, tj\. na dvou položkách deníku\. Na jedné straně bude hospodářská operace příjmem nebo výdajem peněžních prostředků, na druhé straně se tato hospodářská operace dotkne jednotli\-vých příjmů a výdajů zahrnovaných nebo nezahrnovaných do základu daně z příjmů\.
+__Forma, způsob a technika vedení deníku příjmů a výdajů není předepsána\.__ Podnikatel si ho vede takovým způsobem, aby v deníku byly v časové posloupnosti zaznamenány všechny hospodářské operace příjmů a výdajů, které při podnikání nastaly a jsou podloženy průkazným dokladem\. Zapisování v tomto deníku probíhá chronologicky v průběhu roku a vždy minimálně „dvoustranně“, tj\. na dvou položkách deníku\. Na jedné straně bude hospodářská operace příjmem nebo výdajem peněžních prostředků, na druhé straně se tato hospodářská operace dotkne jednotli\-vých příjmů a výdajů zahrnovaných nebo nezahrnovaných do základu daně z příjmů\.
 
 Průběžné položky slouží k zaznamenávání převodu peněžních prostředků z pokladny na běžný účet a z běžného účtu do pokladny, příp\. k pohybu peněz mezi více běžnými účty\. Potřeba používat průběžné položky je vyvolána časovým nesouladem mezi záznamem pohybu peněz v hotovosti \(na základě pokladního dokladu\) a na běžném účtu, které lze provést až na základě výpisu z běžného účtu\.
 
@@ -280,7 +280,7 @@ __Ztrátu –__ daňovou ztrátu lze maximálně umořovat 5 let
 
 __Nezdanitelné částky__ jako:
 
-- __dary__ \(platí stejná pravidla jako v účetnictví – musí být poskytnuté na vědu, výzkum, sportovní,__ __kulturní aktivity, do školství, charitativní činnost aj\., minimální hodnota daru musí být 1 000,\-Kč a maximálně lze odečíst 15 % ze základu daně\)
+- __dary__ \(platí stejná pravidla jako v účetnictví – musí být poskytnuté na vědu, výzkum, sportovní, kulturní aktivity, do školství, charitativní činnost aj\., minimální hodnota daru musí být 1 000,\-Kč a maximálně lze odečíst 15 % ze základu daně\)
 - __úroky z úvěru ze stavebního spoření nebo hypotéky,__ maximálně 300 000,\- za rok
 - __příspěvek na penzijní připojištění__, maximálně lze za 1 rok odečíst 24 000,\- Kč
 - __pojistné na životní pojištění__, maximálně lze za 1 rok odečíst 12 000,\- Kč
@@ -402,39 +402,39 @@ případů rozhodněte, do kterých evidenčních knih je zapíšete a jakým zp
 
 1\. Vklad do firmy : a\) v hotovosti do pokladny                                 	20 000,\- Kč
 
-                                b\) na bankovní účet                                          		180 000,\-
+b\) na bankovní účet                                          		180 000,\-
 
-                                c\) automobil Škoda Octavia                             		150 000,\-
+c\) automobil Škoda Octavia                             		150 000,\-
 
-                                d\) stroje a zařízení                                              		55 000,\-
+d\) stroje a zařízení                                              		55 000,\-
 
 2\. Zřizovací výdaje podnikatele zaplacené v hotovosti
 
-    \( živnostenský list, notářské poplatky, poštovní výdaje \)                	1 860,\-
+\( živnostenský list, notářské poplatky, poštovní výdaje \)                	1 860,\-
 
 3\. Nákup dřeva v hotovosti od firmy Staněk a synové
 
-                                a\) cena bez DPH                                                 		12 600,\-
+a\) cena bez DPH                                                 		12 600,\-
 
-                                b\) DPH 21%                                                          		2 646,\-
+b\) DPH 21%                                                          		2 646,\-
 
-                                c\) celkem                                                             		15 246,\-
+c\) celkem                                                             		15 246,\-
 
 4\. FAP, od místních novin za propagaci firmy
 
-                                a\) cena bez DPH                                                  		11 200,\-
+a\) cena bez DPH                                                  		11 200,\-
 
-                                b\) DPH 21%                                                          		2 352,\-
+b\) DPH 21%                                                          		2 352,\-
 
-                                c\) celkem                                                             		13 552,\-
+c\) celkem                                                             		13 552,\-
 
 5\. Přijatá tržba v hotovosti za prodej nábytku na zakázku
 
-                                a\) cena včetně DPH                                              		34 750,\-
+a\) cena včetně DPH                                              		34 750,\-
 
-                                b\) DPH 21%                                                          	 	6 031,\-
+b\) DPH 21%                                                          	 	6 031,\-
 
-                                c\) cena bez DPH                                                  	 	28 719,\-
+c\) cena bez DPH                                                  	 	28 719,\-
 
 6\. Výběr z bankovního účtu do pokladny\(PPD\)                                   	26 000,\-
 
@@ -442,24 +442,24 @@ případů rozhodněte, do kterých evidenčních knih je zapíšete a jakým zp
 
 8\.  Výpis z běžného účtu : a\) výběr hotovosti                                       	26 000,\-
 
-                                           b\) úhrada za reklamu v místních novinách  	1 200,\-
+b\) úhrada za reklamu v místních novinách  	1 200,\-
 
-                                           c\) odvod zálohy na daň z příjmu FO            	8 000,\-
+c\) odvod zálohy na daň z příjmu FO            	8 000,\-
 
-                                           d\) odvod záloh na zdrav\. a soc\. pojištění     	3 650,\-
+d\) odvod záloh na zdrav\. a soc\. pojištění     	3 650,\-
 
 9\. FAV za zhotovené židle pro mateřskou školu
 
-                                a\) 30 ks po 250,\- Kč                                               	 	7 500,\-
+a\) 30 ks po 250,\- Kč                                               	 	7 500,\-
 
-                                b\) DPH 21%                                                            		1 575,\-
+b\) DPH 21%                                                            		1 575,\-
 
-                                c\) celkem                                                                	 	9 075,\-
+c\) celkem                                                                	 	9 075,\-
 
 10\. Nákup nářadí v hotovosti
 
-                                a\) cena včetně DPH                                                	 2 690,\-
+a\) cena včetně DPH                                                	 2 690,\-
 
-                                b\) DPH 21%                                                              	 467,\-
+b\) DPH 21%                                                              	 467,\-
 
-                                c\) cena bez DPH                                                      	2223,\-
+c\) cena bez DPH                                                      	2223,\-

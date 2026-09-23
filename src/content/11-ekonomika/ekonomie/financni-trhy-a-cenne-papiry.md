@@ -14,17 +14,15 @@ __Peníze__ = všeobecně přijímaný prostředek směny – zákonné platidlo
 - peněžní jednotka daného státu = měna
 - emitent = ČNB
 - Funkce peněz:
-	-
-		- všeobecný prostředek směny \(nakoupím za to kdekoliv\)
-		- zúčtovací jednotka \(vyjádřím cenu\)
-		- uchovatel hodnoty \(můžu naspořit\)
+    - všeobecný prostředek směny \(nakoupím za to kdekoliv\)
+    - zúčtovací jednotka \(vyjádřím cenu\)
+    - uchovatel hodnoty \(můžu naspořit\)
 - Formy peněz:
 - mince
 - bankovky
 - depozita \(vklady na účtech v bankách\)
 - cenné papíry
-	-
-		- Vlastnosti peněz:
+    - Vlastnosti peněz:
 - dělitelnost \(1 koruna = 100 haléřů\)
 - zaměnitelnost \(1 tis\. = 2 pětistovky\)
 - přenositelnost
@@ -50,10 +48,9 @@ __Peníze__ = všeobecně přijímaný prostředek směny – zákonné platidlo
 	- dlouhodobé úvěry, vklady
 
 - Peněžní trh
-	-
-		- krátkodobý trh peněžních prostředků a úvěrů
-		- je charakterizován nízkým rizikem, nízkým úrokem a vysokou likviditou
-		- __Funkce peněžního trhu:__
+    - krátkodobý trh peněžních prostředků a úvěrů
+    - je charakterizován nízkým rizikem, nízkým úrokem a vysokou likviditou
+    - __Funkce peněžního trhu:__
 
 1\. Umožňuje přerozdělení \(redistribuci\) dočasně volného krátkodobého kapitálu\. Tento mechanismus je vysoce efektivní a není možno jej ničím nahradit\.
 2\. Umožňuje centrální bance pružně regulovat množství peněz v ekonomice\.

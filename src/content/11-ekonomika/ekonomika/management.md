@@ -38,24 +38,20 @@ Znaky
 - Plány musí být jasné, srozumitelné a splnitelné
 - __Plány__ __= výsledek plánování__
 - Z podstaty rozlišujeme plány na:
-	-
-		- __Strategické__ = určují obecné cíle na dlouhé období
-		- __Taktické__ = určují úkoly podrobné na období 1\. roku
-		- __Operativní__ = zpracovávají taktické plány např\.: na jednotlivé měsíce, týdne
+    - __Strategické__ = určují obecné cíle na dlouhé období
+    - __Taktické__ = určují úkoly podrobné na období 1\. roku
+    - __Operativní__ = zpracovávají taktické plány např\.: na jednotlivé měsíce, týdne
 - Z hlediska času:
-	-
-		- __Dlouhodobé__ = 5\+ let \(strategické\)
-		- __Střednědobé__ = 1\-5 let \(taktické\)
-		- __Krátkodobé__ = do 1 roku \(operativní\)
+    - __Dlouhodobé__ = 5\+ let \(strategické\)
+    - __Střednědobé__ = 1\-5 let \(taktické\)
+    - __Krátkodobé__ = do 1 roku \(operativní\)
 - Z hlediska měnné jednotky
-	-
-		- __Peněžní__
-		- __Hmotné__ \(bilance materiálu, v hmotných jednotkách\)
-		- __V jednotkách práce__ \(počet zaměstnanců, růst produktivity práce\)
+    - __Peněžní__
+    - __Hmotné__ \(bilance materiálu, v hmotných jednotkách\)
+    - __V jednotkách práce__ \(počet zaměstnanců, růst produktivity práce\)
 - Z hlediska dynamiky
-	-
-		- __Posuvné__ \(rozpracovává se do růstu každá změna\)
-		- __Stabilní__ \(změny nedávají do plánu\)
+    - __Posuvné__ \(rozpracovává se do růstu každá změna\)
+    - __Stabilní__ \(změny nedávají do plánu\)
 
 1. __Organizování__ = řídící činnost, při nichž se vytváří struktura řízeného celku
 
@@ -66,7 +62,7 @@ Znaky
 
 2\) __pracovní__ __řád__ = vymezuje práva a povinnosti zaměstnanců a zaměstnavatelů
 
-3__\) popis funkčních míst__ = navazuje na organizační řád a vymezuje např\.: kvalifikaci praxi, školení
+3\) popis funkčních míst = navazuje na organizační řád a vymezuje např\.: kvalifikaci praxi, školení
 
 1. __Vedení a motivace lidí__ = řídící činnosti, snaha co nejdéle udržet zaměstnance ve firmě
 
@@ -96,7 +92,7 @@ Druhy hodnot
 - __Dovednosti__ => a\) __technické__ = řidičský průkaz, práce na PC; b\) __osobní__ __dovednosti__ = umění jednat s lidmi, řešit konflikty; c\) __koncepční__ = co je podstatné, nepodstatné, co teď, co později
 - __Vedení__:
 
-a__\) autokratický styl__ = sám rozhoduje, přiděluje úkoly, vše řeší, podřízení nemají žádnou odpovědnost;
+a\) autokratický styl = sám rozhoduje, přiděluje úkoly, vše řeší, podřízení nemají žádnou odpovědnost;
 
 b\) __demokratický styl__ = manažer rozhoduje společně s podřízenými, diskutují společně o problémech, ale konečné rozhodnutí provádí manažer, podřízeným dává určitou pravomoc a odpovědnost;
 

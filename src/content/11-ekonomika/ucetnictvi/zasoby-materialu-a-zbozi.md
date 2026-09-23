@@ -58,7 +58,7 @@ __Úbytek zásob:__	MD	D
 
 6\. Tržby z prodeje zboží	211/311	604
 
-	211/311	343
+211/311	343
 
 __Účtování způsobem B__
 
@@ -81,7 +81,7 @@ __Nákup zásob ze zahraničí__
 
 __1\. Pořízení zásob z jiného členského státu EU__
 
-__ 		__cena	MD	D
+cena	MD	D
 
 1\. FAP od rakouského dodavatele	130 000	131	321
 
@@ -94,7 +94,7 @@ __2\. Pořízení zásob ze zemí mimo EU__
 - __clo__ se stanoví příslušnou sazbou z celního sazebníku vypočítanou z celní hodnoty \(cena z FAP v Kč\)
 - __DPH__ si účetní jednotka vypočítá sama
 
-__	__MD	D
+	MD	D
 
 1\. FAP za nákup	111/131	321
 
@@ -132,35 +132,35 @@ __Příklad:__ 	  cena	MD	 D
 
 1\. Dodavatelská faktura:
 
-	a\) cena zboží bez DPH	600 000	131	\-\-\-\-	b\) DPH 21%	126 000	343	\-\-\-\-	c\) cena vč\. DPH	726 000	\-\-\-\-	321
+a\) cena zboží bez DPH	600 000	131	\-\-\-\-	b\) DPH 21%	126 000	343	\-\-\-\-	c\) cena vč\. DPH	726 000	\-\-\-\-	321
 
 2\. Příjemky na převzetí zboží
 
-	a\) pořizovací cena	600 000	\-\-\-\-	131
+a\) pořizovací cena	600 000	\-\-\-\-	131
 
-	b\) prodejní cena	900 000	132\.1	\-\-\-\-	c\) oceňovací rozdíl	300 000	\-\-\-\-	132\.2
+b\) prodejní cena	900 000	132\.1	\-\-\-\-	c\) oceňovací rozdíl	300 000	\-\-\-\-	132\.2
 
 3\. Tržby za zboží v hotovosti
 
-	a\) cena vč\. DPH	800 000	211	\-\-\-\-
+a\) cena vč\. DPH	800 000	211	\-\-\-\-
 
-	b\) DPH 21%	138 880	\-\-\-\-	343
+b\) DPH 21%	138 880	\-\-\-\-	343
 
-	c\) cena bez DPH	661 120	\-\-\-\-	604
+c\) cena bez DPH	661 120	\-\-\-\-	604
 
 4\. Úbytek prodaného zboží
 
-	a\) prodejní cena	800 000	504	132\.1
+a\) prodejní cena	800 000	504	132\.1
 
-	b\) oceňovací rozdíl	249 040	132\.2	504
+b\) oceňovací rozdíl	249 040	132\.2	504
 
 *Výpočty:*
 
-*DPH z prodejní ceny = 800 000 \* 0,1736 = *__*138 880 Kč*__
+DPH z prodejní ceny = 800 000 \* 0,1736 = **138 880 Kč*
 
-*Průměrné procento OR = *
+*Průměrné procento OR =* 
 
-*Podíl OR k prodanému zboží =  = *__*349 040 Kč*__
+Podíl OR k prodanému zboží =  = **349 040 Kč*
 
 __Účtování drobného hmotného majetku__
 
@@ -173,13 +173,13 @@ __1\. Inventura__ = zjištění skutečného stavu
 
 __2\. Porovnání__ skutečného stavu se stavem účetním
 
-	\- zjištění inventarizačních výsledků
+\- zjištění inventarizačních výsledků
 
-	SS < ÚS = MANKO – k úhradě
+SS < ÚS = MANKO – k úhradě
 
-	SS > ÚS = PŘEBYTEK – špatné zaúčtování
+SS > ÚS = PŘEBYTEK – špatné zaúčtování
 
-	\- jejich zaúčtování ještě do toho roku
+\- jejich zaúčtování ještě do toho roku
 
 __3\. Zjištění viníků__ – náprava, opatření
 
@@ -197,9 +197,9 @@ b\) manko nad normu __549/112__
 
 2\. Náhrada \- 	hotově	211	335
 
-	na účet	221	335
+na účet	221	335
 
-	srážka ze mzdy	331	335
+srážka ze mzdy	331	335
 
 __Přebytek__
 

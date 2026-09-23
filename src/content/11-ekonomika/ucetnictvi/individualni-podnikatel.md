@@ -60,13 +60,13 @@ Vypočtená daň se dále snižuje o slevy na daní:
 
 a\) dle §35ba ZDP 	\- na poplatníka
 
-	\- na manželku \(manžela\) s vlastními příjmy do 68 000 Kč
+\- na manželku \(manžela\) s vlastními příjmy do 68 000 Kč
 
-	\- na vlastní invaliditu
+\- na vlastní invaliditu
 
-	\- na studenta
+\- na studenta
 
-	\- na umístění dítěte \(tzv\. školkovné\)
+\- na umístění dítěte \(tzv\. školkovné\)
 
 b\) dle §35c ZDP	\- na vyživované dítě
 
@@ -116,7 +116,7 @@ Otevření účtů:
 
 __Roční účetní uzávěrka__
 
-	   MD	     D
+MD	     D
 
 1\. Uzavření výsledkových účtů
 
@@ -134,7 +134,7 @@ b\) pasivních	tř\. 2, 3, 4	    702
 
 __Začátek následujícího roku__
 
-	   MD	     D
+MD	     D
 
 1\. Otevření rozvahových účtů
 

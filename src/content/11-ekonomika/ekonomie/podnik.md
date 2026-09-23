@@ -159,7 +159,7 @@ Personalistika
 
 Management
 
-\- __řízení určitou skupinu lidí v podniku, j__ako management se označují řídící pracovníci \(manažeři\), kteří realizují manažerské funkce\.
+\- **řízení určitou skupinu lidí v podniku, j**ako management se označují řídící pracovníci \(manažeři\), kteří realizují manažerské funkce\.
 
 1. __Funkce podniku__
 

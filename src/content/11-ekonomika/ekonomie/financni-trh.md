@@ -32,7 +32,7 @@ Dělíme na:
 1. Primární
 2. Sekundární
 
-        \-s dříve vydanými cennými papíry
+   \-s dříve vydanými cennými papíry
 
 Předmětem obchodu je dlouhodobý finanční kapitál
 
@@ -44,17 +44,17 @@ __Nástroje:__
 
 __Cenné papíry__
 
-__\-__jsou vydávány \(emitovány\) ve velkých objemech
+\-jsou vydávány \(emitovány\) ve velkých objemech
 
 __Dělíme:__
 
-   __1\)__MAJETKOVÉ CENNÉ PAPÍRY
+   1\)MAJETKOVÉ CENNÉ PAPÍRY
 
 - Představují část hodnoty majetku a přinášejí podíl z výnosů z podnikání \(akcie, podílový list\)
 
-                        X
+  X
 
-       ÚVĚROVÉ CENNÉ PAPÍRY
+  ÚVĚROVÉ CENNÉ PAPÍRY
 
 - Emitend se stává dlužníkem kupce cenného papíru
 - Investor je kupec cenného papíru
@@ -65,35 +65,35 @@ __Dělíme:__
 
 - Jsou splatné do 1 roka \(šeky, směnky\)
 
-                        X
+  X
 
-      DLOUHODOBÉ CENNÉ PAPÍRY
+  DLOUHODOBÉ CENNÉ PAPÍRY
 
-__3\)__LISTINNÉ \(materializované\)
+3\)LISTINNÉ \(materializované\)
 
-                  X
+X
 
-     ZAKNIHOVANÉ
+ZAKNIHOVANÉ
 
 - Depozitář cenných papírů
 
  __4\)__ NA JMÉNO \(konkrétní majitel\)
 
-               X
+X
 
-       NA MAJITELE \(na doručitele\)
+NA MAJITELE \(na doručitele\)
 
-__5\)__VOLNĚ OBCHODOVATELNÉ
+5\)VOLNĚ OBCHODOVATELNÉ
 
 - Majitel s nim může volně nakládat
 
-      X
+  X
 
-       NEOBCHODOVATELNÉ
+  NEOBCHODOVATELNÉ
 
 - Nelze veřejně obchodovat
 
- __6\)__STÁTNÍ
+ 6\)STÁTNÍ
 
 - Emitentem je stát
 - Vydávány ve velkých objemech
@@ -107,9 +107,9 @@ __5\)__VOLNĚ OBCHODOVATELNÉ
 
 - Jsou emitovány firmami
 
-              X
+  X
 
-      KOMUNÁLNÍ
+  KOMUNÁLNÍ
 
 - Jsou vydávány městami a obcemi
 - Jejich emise musí být schválena ministerstvem financí ČR
@@ -268,9 +268,9 @@ nový majitel se stává věřitelem a píše se na rubopis \(indosament\)
 - při nesplacení směnky může její majitel vykonat tzv\. REGRES, což je finanční postich
 - při zaplacení směnky se opatří tzv\. „likvidační doložkou“
 
-                                                                          \-zaplaceno dne
+  \-zaplaceno dne
 
-                                                                          \-podpis
+  \-podpis
 
 __Šeky__
 

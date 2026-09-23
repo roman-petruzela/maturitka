@@ -146,9 +146,8 @@ __b\) Pasivní operace__
 		- pohyblivé – platí po určitou dobu a poté právo banky je upravit
 	- jednoduché úročení:
 - složené úročení:
-	-
-		- prostředky máme uložené déle než 1 rok
-		- nevybereme úroky za dobu uložení → úrok součástí vkladu → úročí se
+    - prostředky máme uložené déle než 1 rok
+    - nevybereme úroky za dobu uložení → úrok součástí vkladu → úročí se
 
 ÚROK JE TŘEBA SNÍŽIT O SRÁŽKOVOU DAŇ 15%
 

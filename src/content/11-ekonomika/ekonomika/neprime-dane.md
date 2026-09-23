@@ -50,14 +50,14 @@ __1\. Daň z přidané hodnoty DPH__
 	- __Zjednodušený DD__ – např\.: __paragon, účtenka, stvrzenka__; vyhotovuje se na zdanitelné plnění, které nepřesáhne 10 000 Kč včetně DPH \(bezhotovostní i hotovostní způsob platby\); stejné náležitosti DD, ale neobsahuje označení osoby pro kterou bylo provedeno zdanitelné plnění, cena za jednotku, základ a sazbu daně
 	- __Splátkový kalendář__ – vyskytuje se u finančního leasingu a má stejné náležitosti jako DD
 	- __Platební kalendář__ – obsahuje rozpis plateb na určité období; stejné náležitosti DD
-	- __Souhrnný D__D – vystavuje se pokud se provádí __opakovaná plnění__ pro stejného příjemce, vyhotovuje se do 15 dnů po skončení měsíce, kdy bylo provedeno zdanitelné plnění
+	- **Souhrnný D**D – vystavuje se pokud se provádí __opakovaná plnění__ pro stejného příjemce, vyhotovuje se do 15 dnů po skončení měsíce, kdy bylo provedeno zdanitelné plnění
 	- __Doklad o použití__ – vystavuje se za účelem __darování__ nebo osobního použití
 	- __Opravný DD__ – používá se pokud se zvyšuje nebo snižuje základ daně – např\.: při __reklamaci__; stejné náležitosti jako DD, ale navíc obsahují rozdíl mezi novou a původní cenou a číslo původního dokladu
 
 __2\. Spotřební daň__
 
 - Nepřímé výběrové daně, které se vztahují na vybrané výrobky
-- __Funkce: 1\) fiskální__ – velký příjem do státního rozpočtu; 2\) __zdravotní__ – alkohol, cigarety – ohrožují zdraví; 3\) __ekologická__ – ohrožují životní prostředí__; druhá a třetí funkce má regulační význam__
+- __Funkce: 1\) fiskální__ – velký příjem do státního rozpočtu; 2\) __zdravotní__ – alkohol, cigarety – ohrožují zdraví; 3\) __ekologická__ – ohrožují životní prostředí; druhá a třetí funkce má regulační význam
 - Správcem této daně je __celní úřad__
 - Plátci jsou __veškeré FO nebo PO__, které jsou buď příjemcem nebo výrobcem vybraných výrobků
 - __Předměty__ daní: daň z minerálních olejů, pivo, víno, líh, tabákové výrobky

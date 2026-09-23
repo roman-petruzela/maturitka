@@ -10,11 +10,11 @@ source: "MATURITA HADR/Ekonomie/17. Marketing.docx"
 = proces řízení, jehož výsledkem je poznání, předvídání, ovlivňování a v konečné fázi uspokojování potřeb a přání zákazníka efektivním a výhodným způsobem zajišťujícím splnění cílů organizace
 
 - Cíl marketingu
-- dostat __s__právný __produkt__
-- ve __s__právném __množství__
-- na __s__právné __místo				5 ES__
-- ve __s__právný __čas__
-- za __s__právnou __cenu__
+- dostat **s**právný __produkt__
+- ve **s**právném __množství__
+- na **s**právné __místo				5 ES__
+- ve **s**právný __čas__
+- za **s**právnou __cenu__
 - Vývoj marketingových koncepcí
 
 → metody, podle kterých organizace provádějí své marketingové aktivity:
@@ -76,13 +76,13 @@ __Fáze výzkumu:__
 
 = zahrnuje všechny nástroje organizace, které vedu k růstu poptávky
 
-__4P__ 	→__ __product – co a komu
+__4P__ 	→ product – co a komu
 
-	→__ __price – za kolik
+→ price – za kolik
 
-	→ place – kde
+→ place – kde
 
-	→ promotion – jak
+→ promotion – jak
 
 - Product – výrobek
 
@@ -171,7 +171,7 @@ Zákazník \(domácnosti, firma\)
 
 __Maloobchod:__
 
-- __síť prodejen__ → nabízí __zboží konečnému spot__řebiteli
+- __síť prodejen__ → nabízí **zboží konečnému spot**řebiteli
 - __předmětem__ činnosti je __nákup a prodej zboží__
 - tvoří tržby za prodej zboží, vlastních výrobků a služeb \(pohostinství, ubytování, opravy motor\. vozidel a spotřebních předmětů\)
 

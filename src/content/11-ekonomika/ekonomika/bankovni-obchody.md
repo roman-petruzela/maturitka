@@ -5,15 +5,15 @@ source: "MATURITA HADR/Ekonomika/1. Bankovní obchody.docx"
 ---
 __Bankovnictví__
 
-		__a\) peněžní rezerva –__ dočasně volné peníze firem
+__a\) peněžní rezerva –__ dočasně volné peníze firem
 
-		__b\) peněžní úspora –__ dočasně volné peníze FO
+__b\) peněžní úspora –__ dočasně volné peníze FO
 
 - s penězi se obchoduje na finančním trhu dělí se:
 
-		a\) __přímé obchody__ – podnik, občan nevyužívá banku
+  a\) __přímé obchody__ – podnik, občan nevyužívá banku
 
-		b\) __nepřímé obchody__ – podnik, občan využije banku
+  b\) __nepřímé obchody__ – podnik, občan využije banku
 
 - __banka__ = podnik, který nakupuje vklady a znovu je investuje do úvěru a půjček, cenných papírů a provádí řadu s tím spojených bankovních operací
 
@@ -33,13 +33,13 @@ __Nástroje__
 
  __1\) měnová politika__
 
-	a\) __povinné minimální rezervy__ = předepsané %, které si musí uložit komerční banky u ČNB a tím se reguluje 	množství peněz v ekonomice
+a\) __povinné minimální rezervy__ = předepsané %, které si musí uložit komerční banky u ČNB a tím se reguluje 	množství peněz v ekonomice
 
-	b__\) diskontní sazba__ = % na které si půjčují komerční banky peníze u ČNB
+b\) diskontní sazba = % na které si půjčují komerční banky peníze u ČNB
 
-	c\) __operace na volném trhu__ = obchody s cennými papíry mezi komerčními bankami a ČNB
+c\) __operace na volném trhu__ = obchody s cennými papíry mezi komerčními bankami a ČNB
 
-	d__\) minimální úrokové sazby pro vklady,__ maximální úrokové sazby pro úvěry, půjčky
+d\) minimální úrokové sazby pro vklady, maximální úrokové sazby pro úvěry, půjčky
 
  2\) __emise__ – tiskne a razí nové bankovky a mince
 
@@ -161,9 +161,9 @@ __Druhy__
 
 - __význam__
 
-1.  	__klient__ = rychlejší, bezpečnější
-2.  	__prodejce__ = zvyšují se jim tužby, protože mají více zákazníků
-3.  	__banka__ = nový zdroj příjmů; snižuje počty zaměstnanců
+  1.  	__klient__ = rychlejší, bezpečnější
+  2.  	__prodejce__ = zvyšují se jim tužby, protože mají více zákazníků
+  3.  	__banka__ = nový zdroj příjmů; snižuje počty zaměstnanců
 
 __4\) Směnárenské obchody__
 

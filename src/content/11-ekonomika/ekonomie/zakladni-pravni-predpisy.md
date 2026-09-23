@@ -11,17 +11,17 @@ PRÁVO  = souhrn pravidel stanovených státem, podle nichž se řídí soužit�
 
 __Pojem právo__ chápeme:
 
-	a\) Ve smyslu subjektivním
+a\) Ve smyslu subjektivním
 
 \- právo jedince \(právo určitého subjektu na něco\)
 
 \- často spojeno s povinností
 
-\-* např\. právo vlastnit dům > povinnost platit daň z nemovitosti*
+\- *např\. právo vlastnit dům > povinnost platit daň z nemovitosti*
 
-	b\) Ve smyslu objektivním
+b\) Ve smyslu objektivním
 
-		\- veškeré právní normy, které upravují společenské vztahy
+\- veškeré právní normy, které upravují společenské vztahy
 
 __Právní řád__
 
@@ -31,9 +31,9 @@ __=__ souhrn všech právních předpisů ve státě
 
 ((obrázek vynechán))
 
-	Zákonné/Základní
+Zákonné/Základní
 
-	Podzákonné/Prováděcí
+Podzákonné/Prováděcí
 
 __Charakteristika právního řádu__
 
@@ -80,7 +80,7 @@ __Druhy právních norem__
 
 - Zavazující – zavazují k určitému chování              přikazující *\(zaplatit daň\)*
 
-          zakazující *\(zákaz kartelových dohod\)*
+  zakazující *\(zákaz kartelových dohod\)*
 
 - Opravňující – umožňují volbu chování 					                      *\(pokuta za porušení smlouv, nemusí být sjednána\)*
 
@@ -93,21 +93,21 @@ __Publikace právních norem__
 
 __\-__ označeny číslem a názvem, členěny do paragrafů, odstavců a písmen
 
-		Ústavní zákony
+Ústavní zákony
 
-		Zákony				Sbírka zákonů ČR
+Zákony				Sbírka zákonů ČR
 
-		Nařízení vlády
+Nařízení vlády
 
-		Vyhlášky ministerstev
+Vyhlášky ministerstev
 
-		Ostatní vyhlášky			Věstníky
+Ostatní vyhlášky			Věstníky
 
 - Právní vědomí = znalost vlastního právního řádu občany
 
 Neznalost práva neomlouvá\.
 
-	Před zákonem jsou si všichni rovni\.
+Před zákonem jsou si všichni rovni\.
 
 __Právní vztahy__
 
@@ -115,13 +115,13 @@ __Právní vztahy__
 
 __3__ složky: __1\.__ Předmět – cíl *\(např\. změna vlastnictví dané věci – kupní smlouva\)*
 
-	    __2\.__ Obsah – práva a povinnosti *\(kupující platí, prodávající předá\)*
+__2\.__ Obsah – práva a povinnosti *\(kupující platí, prodávající předá\)*
 
-	    __3\.__ Účastníci – FO, PO *\(prodávající x kupující\)*
+__3\.__ Účastníci – FO, PO *\(prodávající x kupující\)*
 
 __Právní skutečnost__
 
-__=__ každá__ __skutečnost, s níž právní norma spojuje vznik, změnu nebo zánik právního vztahu
+__=__ každá skutečnost, s níž právní norma spojuje vznik, změnu nebo zánik právního vztahu
 
 Objektivní událost				Právní jednání
 
@@ -177,9 +177,9 @@ Základními prameny ústavního práva jsou: Ústava Čr č1/93sb, LZPS č2/93s
 
 __Hlavy:__ 	1\. Úvodní ustanovení
 
-		2\. Zákonodárná moc
+2\. Zákonodárná moc
 
-		3\. Výkonná moc
+3\. Výkonná moc
 
 4\. Soudní moc
 
@@ -195,7 +195,7 @@ __A\) Zákonodárná moc__
 
 Parlament Čr
 
-		Dolní komora					Horní komora			POSLANECKÁ SNĚMOVNA			   SENÁT
+Dolní komora					Horní komora			POSLANECKÁ SNĚMOVNA			   SENÁT
 
 __Tvorba zákonů__
 
@@ -222,9 +222,9 @@ __Vláda__
 
 Funkce:
 
-	\- navrhování zákonů
+\- navrhování zákonů
 
-	\- podání demise = předčasné volby do PS
+\- podání demise = předčasné volby do PS
 
 __C\) Soudní moc__
 

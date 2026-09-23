@@ -35,7 +35,7 @@ __Charakteristika akciové společnosti__
 
 − orgány společnosti:	\- nejvyšší orgán – valná hromada
 
-	\- statutární orgán:
+\- statutární orgán:
 
 1. __Dualistický systém__ – tento systém je známý již z předchozí právní úpravy
 	- __Představenstvo__
@@ -107,11 +107,9 @@ __Způsoby snížení základního kapitálu v akciové společnosti a jejich �
 - Dochází k němu:
 	- __Dobrovolně__ \- když se snižuje rozsah činnosti
 	- __Vynuceně__
-		-
-			-
-				- při dlouhodobější ztrátě
-				- při dlouhodobější ztrátě se nejdříve uhrazuje z účtu 421, pokud nestačí ZRF, 		   tak z jiných fondů a nakonec se přistupuje ke snížení ZK
-				- schvaluje a rozhoduje o tom v obou případech valná hromada, ta určí rozsah, 		  důvod a způsob snížení ZK
+        - při dlouhodobější ztrátě
+        - při dlouhodobější ztrátě se nejdříve uhrazuje z účtu 421, pokud nestačí ZRF, 		   tak z jiných fondů a nakonec se přistupuje ke snížení ZK
+        - schvaluje a rozhoduje o tom v obou případech valná hromada, ta určí rozsah, 		  důvod a způsob snížení ZK
 
 __Různé povinnosti jak se ZK snižuje:__
 

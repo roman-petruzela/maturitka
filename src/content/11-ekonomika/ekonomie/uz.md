@@ -7,12 +7,11 @@ source: "MATURITA HADR/Ekonomie/12.-UZ.docx"
 
 - Dělí se do *kategorií* a *tříd*
 - __Kategorie__  – 	hotel
-	-
-		- Hotel garni
-		- Penzion
-		- Motel
-		- Botel
-		- A další: hostely, kempy, turistické ubytovny, horské chaty…
+    - Hotel garni
+    - Penzion
+    - Motel
+    - Botel
+    - A další: hostely, kempy, turistické ubytovny, horské chaty…
 - __Třídy__ označujeme \*, podle Hotelstars, vybavení a služeb:
 
  	 \*  TOURISM
@@ -29,46 +28,41 @@ source: "MATURITA HADR/Ekonomie/12.-UZ.docx"
 
 - V oboru platí tato klasifikace jako dobrovolná, ale dle živnostenského oprávnění je povinnost každého majitele *mít označené UZ kategorií a třídou*
 - Výhodou označení dle Hotelstars je, *že host podle počtu \* očekává určitý standart a služby, bude spokojen*
-- *HOTEL – *UZ pro přechodné ubytování hostů, má nejméně 10 pokojů a může mít        1 – 5 \*
+- HOTEL – UZ pro přechodné ubytování hostů, má nejméně 10 pokojů a může mít        1 – 5 \*
 - *MOTEL –* UZ pro přechodné ubytování hostů, které se nachází v blízkosti pozemní komunikace \(lesní cesta\), recepce a restaurace může být zvlášť
 - *PENZION –* UZ s nejméně 5 a max 20 pokoji, omezená nabídka služeb, dělí se do 4 tříd\. Recepce s restaurací mohou být mimo \(ale i nemusí\)
 - Hotely mohou mít různá další zaměření jako např\.:
-	-
-		- Spa hotel – pouze v lázeňských městech
-		- Wellness – regenerace organismu, bazény, masáže
-		- Golf resort hotel, Pet friendly hotel, Baby friendly hotel…
+    - Spa hotel – pouze v lázeňských městech
+    - Wellness – regenerace organismu, bazény, masáže
+    - Golf resort hotel, Pet friendly hotel, Baby friendly hotel…
 
 __Terminologie:__
 
 1. __Pokoje      –__    jednolůžkový
-	-
-		- 2 lůžkový
-		- Vícelůžkový
-		- Rodinný \(2 postele pro dospělé\)
-		- Apartmá \(ložnice oddělena od obýváku a kuchyně\)
-		- Studio \( pokoj s kuchyň\. Koutem\)
-		- Suite \(apartmá bez kuchyně\)
-		- Junior suit \(pokoj se sedací soupravou\)
-		- Spojené pokoje
-		- Duplex \(vícepodlažní pokoj\)
+    - 2 lůžkový
+    - Vícelůžkový
+    - Rodinný \(2 postele pro dospělé\)
+    - Apartmá \(ložnice oddělena od obýváku a kuchyně\)
+    - Studio \( pokoj s kuchyň\. Koutem\)
+    - Suite \(apartmá bez kuchyně\)
+    - Junior suit \(pokoj se sedací soupravou\)
+    - Spojené pokoje
+    - Duplex \(vícepodlažní pokoj\)
 2. __Postele__      \-    single bed
-	-
-		- Double bed \(pro 2 osoby, jedna matrace\)
-		- Twinsbeds \(pro 2 osoby, 2 matrace\)
-		- Queen bed \(velká matrace pro 1 osobu\)
-		- King bed \(velká postel pro 2 osoby\)
-		- California queen bed \(velká, 2os\)
+    - Double bed \(pro 2 osoby, jedna matrace\)
+    - Twinsbeds \(pro 2 osoby, 2 matrace\)
+    - Queen bed \(velká matrace pro 1 osobu\)
+    - King bed \(velká postel pro 2 osoby\)
+    - California queen bed \(velká, 2os\)
 3. __Sazby__        \-    ubytování
-	-
-		-   Ubytování se snídaní
-		-   Polopenze
-		-   Plná penze
-		-   All inklusive
+    -   Ubytování se snídaní
+    -   Polopenze
+    -   Plná penze
+    -   All inklusive
 4. __Snídaně__     \-  kontinentální
-	-
-		- Rozšířená kontinentální
-		- Švédské stoly
-		- Anglická
+    - Rozšířená kontinentální
+    - Švédské stoly
+    - Anglická
 
 __Druhy řízení hotelů__
 
@@ -80,14 +74,14 @@ __Druhy řízení hotelů__
 
 __Provozní část rozdělujeme:__
 
- 	__STRAVOVACÍ ÚSEK 				UBYTOVACÍ ČÁST__
+__STRAVOVACÍ ÚSEK 				UBYTOVACÍ ČÁST__
 
 __VÁROBNÍ ČÁST 	ODBYTOVÁ ČÁST	 	FORNTOOFFICE 	HOUSEKEEPING__
 
 __Frontoffice:__
 
 - __Recepce__
-- __Pracovnící haly \(__bell captain, dveřník, bagážista, bell boy, lift boy, telefonista, směnárna\)
+- Pracovnící haly \(bell captain, dveřník, bagážista, bell boy, lift boy, telefonista, směnárna\)
 - __Rezervace__
 - __Consierge__
 - __Sekretářské služby__
@@ -117,13 +111,12 @@ __Housekeeping__
 
 - Manager housekeepingu, hotelová hospodyně
 -  Činnosti –
-	-
-		- Vedení práce pokojských \(zadávání úkolů\) a uklízeček
-		- Spolupracuje s rezervacemi a recepcí
-		- Zodpovědná za vybavení a funkčnost zařízení pokojů
-		- Zpracovává raportky \(hlášení o skutečné obsazenosti\)
-		- Vybírá úklidové prostředky
-		- Má na starost výzdobu hotelu
+    - Vedení práce pokojských \(zadávání úkolů\) a uklízeček
+    - Spolupracuje s rezervacemi a recepcí
+    - Zodpovědná za vybavení a funkčnost zařízení pokojů
+    - Zpracovává raportky \(hlášení o skutečné obsazenosti\)
+    - Vybírá úklidové prostředky
+    - Má na starost výzdobu hotelu
 
 __Mng hotelu se dělí na 3 úrovně:__
 
@@ -176,24 +169,21 @@ __Hotelová hospodyně se stará i o prádlo, které dělíme na:__
 Prádlo pereme buď ve __vlastní prádelně__, která je v technickém zázemí hotelu nebo u __dodavatelů__ nebo __outsoursing__ \(pronajatá firma\)
 
 - __*Zásada*__ – čísté prádlo se nesmí potkat s prádlem špinavým
-	-
-		- Odděleně pereme prádlo hostů a hotel\. Prádlo
-		- Špinavé prádlo se dělí podle druhu znečištění
+    - Odděleně pereme prádlo hostů a hotel\. Prádlo
+    - Špinavé prádlo se dělí podle druhu znečištění
 
 Technický úsek zahrnuje: údržba, kotelna, vzduchotechnika, garáž a parkoviště, sklady inventáře, prádelna, zahradnictví, hotel\. Ochrana, správa počítačové sítě, hot\. Ubytovna, sportoviště
 
 __HOTELOVÁ EVIDENCE__
 
 1. __Drobná       –__ registrační karty
-	-
-		- Magnetická/ čipová karta
-		- Legitimace, hotelová karta
-		- Vzkazník
-		- Sejfová karta
+    - Magnetická/ čipová karta
+    - Legitimace, hotelová karta
+    - Vzkazník
+    - Sejfová karta
 2. __V rezervacích –__ kniha objednávek
-	-
-		- Kniha rezervací
-		- Waiting list
+    - Kniha rezervací
+    - Waiting list
 
 \+ kniha zvláštních služeb
 
@@ -202,24 +192,21 @@ __HOTELOVÁ EVIDENCE__
 3. Denní – recepční list „štafle“
 4. Ostatní – kniha buzení, zvláštních služeb, nálezů
 5. __Finanční –__ hotelový účet
-	-
-		- Kniha VYFA
-		- Denní výkaz
-		- Hotelový deník
-		- Stravovací bony
+    - Kniha VYFA
+    - Denní výkaz
+    - Hotelový deník
+    - Stravovací bony
 
 __*Náležitosti hotelového účtu:*__
 
--
-	-
-		- Název, jméno hosta \+ číslo pokoje
-		- Doba pobytu
-		- Služby \(dělené dle sazeb DPH\)
-		- Sazba DPH \(%\)
-		- Cena \+ DPH \+ cena celkem
+- Název, jméno hosta \+ číslo pokoje
+- Doba pobytu
+- Služby \(dělené dle sazeb DPH\)
+- Sazba DPH \(%\)
+- Cena \+ DPH \+ cena celkem
 
 Denní finanční kontrola probíhá ve stanovenou hodinu a kontroluje se shoda:
 
-	Denní výkaz – tržby za jednotlivé úseky hotelu
+Denní výkaz – tržby za jednotlivé úseky hotelu
 
-	Hotel\. Deník – denní útrata hot\. hostů
+Hotel\. Deník – denní útrata hot\. hostů

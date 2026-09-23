@@ -33,11 +33,11 @@ __Velkoobchodní síť__
 
 1\) __provedení__ – a\) otevřené sklady \(stavební materiál\); b\) polootevřené \(přístřešky\); c\) uzavřené;
 
-	d\)specializované \(chladírny, mrazírny\)
+d\)specializované \(chladírny, mrazírny\)
 
 2\) __skladové operace__\- a\) běžné provozní sklady – pro uchování zboží a jeho postupného vyskladňování;
 
-	b\) odlehčované – pouze pro dočasné uschování zásob
+b\) odlehčované – pouze pro dočasné uschování zásob
 
 __Velkoobchod__
 
@@ -47,21 +47,21 @@ __Druhy__
 
 1\)	__předmět__
 
-	a\) __specializované__ – na nějaký druh zboží; poměrně málo
+a\) __specializované__ – na nějaký druh zboží; poměrně málo
 
-	b\) __širokosortimentní__ – převažují a obsahují různé druhy zboží
+b\) __širokosortimentní__ – převažují a obsahují různé druhy zboží
 
 2\)	__forem__
 
-	a\) __dodávkový__ \(tradiční\) VO – nejrozšířenější a nejstarší druh VO; vlastní sklad a dopravní prostředky; pracuje na 		systému objednávek => maloobchodník si objedná zboží, které mu VO zabalí a doveze; poskytuje řeadu 			služeb – doprava, obchodní úvěr, leták
+a\) __dodávkový__ \(tradiční\) VO – nejrozšířenější a nejstarší druh VO; vlastní sklad a dopravní prostředky; pracuje na 		systému objednávek => maloobchodník si objedná zboží, které mu VO zabalí a doveze; poskytuje řeadu 			služeb – doprava, obchodní úvěr, leták
 
-	b\) __zprostředkovatelské__ VO – nevlastní budovy, ale má pouze dopravní prostředky; nakupuje zboží přímo od 		výrobců a rozváží ho konečným spotřebitelům na základě jejich požadavků; u objemného zboží – písek, uhlí, 		stavební materiál; většinou nenabízí služby
+b\) __zprostředkovatelské__ VO – nevlastní budovy, ale má pouze dopravní prostředky; nakupuje zboží přímo od 		výrobců a rozváží ho konečným spotřebitelům na základě jejich požadavků; u objemného zboží – písek, uhlí, 		stavební materiál; většinou nenabízí služby
 
-	c\) __CASH__ __and__ __CARRY__ – zaplať a odvez; určen pro malé podnikatele: majitele malých rodinných restaurací, 		hotelů, penzionů a nebo pro FO; zboží si sami vyberou, odvezou, zaplatí
+c\) __CASH__ __and__ __CARRY__ – zaplať a odvez; určen pro malé podnikatele: majitele malých rodinných restaurací, 		hotelů, penzionů a nebo pro FO; zboží si sami vyberou, odvezou, zaplatí
 
-	d\) __regálový__ __VO__ – pronajímá si plochy nebo regály v určitém obchodním centru nebo supermarketu, 				hypermarketu; takto se prodává hlavně potravinářské zboží a různé potřeby pro domácnost
+d\) __regálový__ __VO__ – pronajímá si plochy nebo regály v určitém obchodním centru nebo supermarketu, 				hypermarketu; takto se prodává hlavně potravinářské zboží a různé potřeby pro domácnost
 
-	e\) __pojízdný__ __velkoobchodník__ – vozí zboží od výrobců a prodavači z MO si zboží v tomto autě vybírají: koření, 		čerstvé květiny, čerstvé ryby, různé sezónní zboží
+e\) __pojízdný__ __velkoobchodník__ – vozí zboží od výrobců a prodavači z MO si zboží v tomto autě vybírají: koření, 		čerstvé květiny, čerstvé ryby, různé sezónní zboží
 
 __Maloobchod__
 
@@ -71,17 +71,17 @@ __Maloobchod__
 
 __Formy prodeje__
 
-		__1\) volný výběr__
+__1\) volný výběr__
 
-		__2\) samoobslužný – super/hypermarket__
+__2\) samoobslužný – super/hypermarket__
 
-		__3\) pultový__
+__3\) pultový__
 
-		__4\) prodejní automaty__
+__4\) prodejní automaty__
 
-		__5\) zásilkový__
+__5\) zásilkový__
 
-		__6\) internetové obchody__
+__6\) internetové obchody__
 
 - __maloobchodní síť__ = veškeré prodejny na území určitého státu
 
@@ -89,23 +89,23 @@ a\) stacionární síť; b\) ambulantní síť
 
 __1\) Stacionární síť__
 
-	a\) __podniková prodejna__ – nejlevnější; výrobce si dodává vlastní výrobky
+a\) __podniková prodejna__ – nejlevnější; výrobce si dodává vlastní výrobky
 
-	b\) __diskontní jednoty__ – poměrně levná, protože prodává hlavně potravinářské zboží přímo v obalech od výrobců, 		nakupují velká množství zboží; horší prodejní podmínky, doprodávají zboží od zkrachovalých výrobců
+b\) __diskontní jednoty__ – poměrně levná, protože prodává hlavně potravinářské zboží přímo v obalech od výrobců, 		nakupují velká množství zboží; horší prodejní podmínky, doprodávají zboží od zkrachovalých výrobců
 
-	c\) __supermarket__ – převažuje potravinářské zboží
+c\) __supermarket__ – převažuje potravinářské zboží
 
-	d\) __hypermarket__ – převažuje nepotravinářské zboží
+d\) __hypermarket__ – převažuje nepotravinářské zboží
 
-	c\+d\) mají velké prodejní plochy, umístěny na krajích měst, aby měli velké parkovací plochy; dlouhá prodejní 			  doba; poměrně levné zboží, protože ho nakupují ve velkém množství
+c\+d\) mají velké prodejní plochy, umístěny na krajích měst, aby měli velké parkovací plochy; dlouhá prodejní 			  doba; poměrně levné zboží, protože ho nakupují ve velkém množství
 
-	e\) __obchodní domy__ – v centrech velkých měst; malé parkovací plochy; specializace na prodej určitého zboží; mají 		několik pater
+e\) __obchodní domy__ – v centrech velkých měst; malé parkovací plochy; specializace na prodej určitého zboží; mají 		několik pater
 
-	f\) __obchodní centrum__ – dražší způsob prodeje; zpravidla na okrajích měst; velké parkovací prostory; je v ních 		velký počet značkových obchodů; musí obsahovat super/hypermarket a nějaké služby
+f\) __obchodní centrum__ – dražší způsob prodeje; zpravidla na okrajích měst; velké parkovací prostory; je v ních 		velký počet značkových obchodů; musí obsahovat super/hypermarket a nějaké služby
 
-	g\) __prodejny se zbožím denní spotřeby__ – pekařství, zelenina …; poměrně drahé => malý počet
+g\) __prodejny se zbožím denní spotřeby__ – pekařství, zelenina …; poměrně drahé => malý počet
 
-	h\) __specializované__ __obchody__ – nejdražší prodejny
+h\) __specializované__ __obchody__ – nejdražší prodejny
 
 __2\) Ambulantní síť__
 

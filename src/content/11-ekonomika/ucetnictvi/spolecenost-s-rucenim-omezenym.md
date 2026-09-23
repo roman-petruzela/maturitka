@@ -43,7 +43,7 @@ __Charakteristika společnosti s ručením omezeným__
 
 − orgány společnosti: \- nejvyšší orgán – valná hromada \(shromáždění společníků\)
 
-	\- statutární orgán – jednatel
+\- statutární orgán – jednatel
 
 __Splacení vkladů__
 
@@ -89,7 +89,7 @@ __1\. Vklady, které zvyšují základní kapitál s\. r\. o\.__
 __2\. Příplatky mimo základní kapitál \(povinné, dobrovolné\)__
 
 - Chce\-li s\. r\. o\. posílit vlastní kapitál, a přitom nechce zvyšovat ZK, umožňuje obchodní zákoník tzv\. příplatek mimo ZK, ten může mít dvojí formu:
-	1. __Povinný \-__ vyplývá ze společenské smlouvy, nesmí převýšit polovinu ZK \(max\. 100 000\) výhradně peněžitá forma__ __
+	1. __Povinný \-__ vyplývá ze společenské smlouvy, nesmí převýšit polovinu ZK \(max\. 100 000\) výhradně peněžitá forma 
 	2. __Dobrovolný \-__ společníci se dobrovolně domluví
 
 __Zálohy na podíly na zisku__

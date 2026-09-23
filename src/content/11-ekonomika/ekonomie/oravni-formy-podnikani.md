@@ -5,11 +5,11 @@ source: "MATURITA HADR/Ekonomie/23. Orávní formy podnikání.odt"
 ---
 Dělí se na: 	1\) Státní
 
-		2\) Soukromé
+2\) Soukromé
 
-		3\) Korporace		\- Obchodní společnosti
+3\) Korporace		\- Obchodní společnosti
 
-					\- Družstva
+\- Družstva
 
 __Podnik__ – vznikl za účelem zisku
 
@@ -28,15 +28,15 @@ __Korporace__
 
 1. *OSOBNÍ*	veřejná obchodní společnost
 
-			komanditní společnost
+   komanditní společnost
 
 1. *KAPITÁLOVÉ*	společnost s ručením omezeným
 
-				akciová společnost
+   akciová společnost
 
 \- zakladatelé jsou FO/PO i jejich kombinace
 
-	__Osobní společnosti				Kapitálové__
+__Osobní společnosti				Kapitálové__
 
 \- ručení neomezené				\- ručení omezené do výše vkladu
 
@@ -44,47 +44,47 @@ __Korporace__
 
 \- základní kapitál není povinný			\- je dána minimální výše základního kapitálu
 
-						\- jsou dány povinné řídící orgány
+\- jsou dány povinné řídící orgány
 
 __Založení__	\- podpisem společenské smlouvy \(2 a více zakladatelů\)
 
-		\- podpisem zakladatelské listiny \(1 zakladatel\)
+\- podpisem zakladatelské listiny \(1 zakladatel\)
 
 \- je nutné notářské ověření
 
 __Vznik__		\- sp\. smlouvy/listina \+ další doklady se předloží soudu a ten provede zápis nové PO do obchodního rejstříku
 
-		\- do 90ti dnů od založení musí zahájit podnikání
+\- do 90ti dnů od založení musí zahájit podnikání
 
-		\- před zahájením podnikání si musí zařídit živnostenské oprávnění
+\- před zahájením podnikání si musí zařídit živnostenské oprávnění
 
 __Zrušení__
 
 \- může trvat i několik let
 
-	1\) Likvidací	\- neexistuje právní nástupce
+1\) Likvidací	\- neexistuje právní nástupce
 
-			\- společníci jmenují likvidátora, který soustředí peněžní prostředky jedné banky, dále provádí prodej majetku firmy
+\- společníci jmenují likvidátora, který soustředí peněžní prostředky jedné banky, dále provádí prodej majetku firmy
 
-			\- v OR se napíše „v likvidaci“
+\- v OR se napíše „v likvidaci“
 
-			\- po zaplacení všech dluhů zbyde „likvidační zůstatek“, jenž se rozdělí mezi společníky
+\- po zaplacení všech dluhů zbyde „likvidační zůstatek“, jenž se rozdělí mezi společníky
 
-	2\) Bez likvidace
+2\) Bez likvidace
 
-			\- existuje právní nástupce, který majetek převezme včetně dluhů 				\(např\. spojení firem\)
+\- existuje právní nástupce, který majetek převezme včetně dluhů 				\(např\. spojení firem\)
 
-	3\) Prohlášením konkurzu – dle zákona o konkurzu
+3\) Prohlášením konkurzu – dle zákona o konkurzu
 
-			\- věřitelé mohou dát soudu návrh na zrušení firmy dlužníka prohlášením konkurzu \(prohlášení konkurzu může předejít tzv\. „vyrovnání“\)
+\- věřitelé mohou dát soudu návrh na zrušení firmy dlužníka prohlášením konkurzu \(prohlášení konkurzu může předejít tzv\. „vyrovnání“\)
 
-			\- soud jmenuje správce konkurzní podstaty \(=majetku\)
+\- soud jmenuje správce konkurzní podstaty \(=majetku\)
 
-			\- věřitelé jsou vyzváni, aby přihlásili své pohledávky
+\- věřitelé jsou vyzváni, aby přihlásili své pohledávky
 
-			\- dlužník je povinen ohlásit, že je „v úpadku“
+\- dlužník je povinen ohlásit, že je „v úpadku“
 
-			\- je rozprodán majetek a z výdělku jsou uspokojení věřitelé
+\- je rozprodán majetek a z výdělku jsou uspokojení věřitelé
 
 - Návrh může podat i sám majitel \(ochrana před věřiteli\)
 
@@ -92,19 +92,19 @@ __Zánik__		\- zaniká výmazem z OR
 
 __Veřejná obchodní společnost__ 	\(__V\.O\.S\.__ / Jan Novák __a spol\.__\)
 
-	Založení :		\- společenskou smlouvou minimálně 2 FO či PO / kombinace
+Založení :		\- společenskou smlouvou minimálně 2 FO či PO / kombinace
 
-	Vznik :		\- zápisem do OR
+Vznik :		\- zápisem do OR
 
-	Společníci :		\- nesmí být osoba, která v uplynulých 3 letech prošla konkurzem
+Společníci :		\- nesmí být osoba, která v uplynulých 3 letech prošla konkurzem
 
-	Ručení :		\- neomezené \(ručí i svým osobním majetkem\)
+Ručení :		\- neomezené \(ručí i svým osobním majetkem\)
 
-	Řízení :		\- práva řídit mají všichni společníci, jsou __statutárním orgánem__
+Řízení :		\- práva řídit mají všichni společníci, jsou __statutárním orgánem__
 
 \(pokud není ve společenské smlouvě uvedeno jinak\)
 
-*\- *během trvání může vstoupit nový společník, ale musí být nová společenská smlouva
+\- během trvání může vstoupit nový společník, ale musí být nová společenská smlouva
 
 \- může i vystoupit a je mu vyplacen podíl
 
@@ -118,45 +118,45 @@ pokud není ve společenské smlouvě uvedeno jinak\)
 
 __Komanditní společnost \(Kom\. spol\.\)__
 
-	Založení :	\- společenskou smlouvou minimálně 2 FO či PO / kombinace
+Založení :	\- společenskou smlouvou minimálně 2 FO či PO / kombinace
 
-	Vznik :	\- zápise do OR
+Vznik :	\- zápise do OR
 
-	Společníci :	\- Komanditisté	\- dávají vklad, ale neřídí společnost
+Společníci :	\- Komanditisté	\- dávají vklad, ale neřídí společnost
 
-						\- ručí omezeně do výše vkladu
+\- ručí omezeně do výše vkladu
 
-						\- neplatí zákaz konkurence
+\- neplatí zákaz konkurence
 
-			\- Komplementáři	\- nemusí dávat vklad
+\- Komplementáři	\- nemusí dávat vklad
 
-						\- jsou statutárním orgánem
+\- jsou statutárním orgánem
 
-						\- ručí neomezeně
+\- ručí neomezeně
 
-						\- platí zákaz konkurence
+\- platí zákaz konkurence
 
 \- v každé společnosti musí být alespoň 1 komanditista a 1 komplementář \!\!\!
 
 \- pokud se ve sp\. s\. nestanový jinak ZISK se dělí rovným dílem mezi komand\. a kompl\.
 
-	__Komanditisté					Komplementáři__
+__Komanditisté					Komplementáři__
 
-	50 %						50 %
+50 %						50 %
 
-	\- rozdělení dle výše vkladu			\- rovným dílem
+\- rozdělení dle výše vkladu			\- rovným dílem
 
 __Společnost s ručením omezeným \(s\.r\.o\. / spol\. s\.r\.o\.\)__
 
-	Založení :		\- může 1 FO / PO sp\. s\. nebo zakladatelskou listinou
+Založení :		\- může 1 FO / PO sp\. s\. nebo zakladatelskou listinou
 
-	Vznik :		\- zápisem do OR
+Vznik :		\- zápisem do OR
 
-	Nejvyšší orgán :	\- valná hromada \(minimálně 1 ročně schůze všech společníků\)
+Nejvyšší orgán :	\- valná hromada \(minimálně 1 ročně schůze všech společníků\)
 
-	Statutární orgán :	\- jednatel/é
+Statutární orgán :	\- jednatel/é
 
-	Kontrolní orgán :	\- dozorčí rada
+Kontrolní orgán :	\- dozorčí rada
 
 \- základní kapitál je tvořen vklady společníků, ke kterým se zavázali při založení
 
@@ -178,27 +178,27 @@ Akcie	\- majetkový CP, vyjadřuje část hodnoty majetku a\. s\.
 
 \- práva akcionáře :	1\) právo na podíl ze zisku \(dividenda\)
 
-			2\) právo účastnit se valné hromady \(hlasovat\)
+2\) právo účastnit se valné hromady \(hlasovat\)
 
-			3\) právo na podíl z likvidačního zůstatku
+3\) právo na podíl z likvidačního zůstatku
 
 \- formy akcií :		a\) listinné \(materializované\)
 
-			b\) zaknihované \(dematerializované\)
+b\) zaknihované \(dematerializované\)
 
-			\- evidovány v Centrálním depozitáři CP
+\- evidovány v Centrálním depozitáři CP
 
 \- druhy akcií :		I\. Kmenové				1\) Na jméno
 
-			II\. Speciální				2\) Na doručitele \(majitele\)
+II\. Speciální				2\) Na doručitele \(majitele\)
 
 - Prioritní	\- omezené hlasovací právo
 
-					\- 1\. je na řadě k výplatě dividend
+  \- 1\. je na řadě k výplatě dividend
 
 - Zaměstnanecké	\- neobchodovatelné
 
-			\- prodány za,\-cům za symbolickou zenu jako 			nástroj motivace
+  \- prodány za,\-cům za symbolickou zenu jako 			nástroj motivace
 
 - Úrokové	\- i v roce, kdy není vyplácena dividenda, je majiteli 			vyplacen úrok, jakoby měl peníze v bance
 
@@ -216,17 +216,17 @@ __Družstva__
 
 \- v\. d\. – výrobní družstvo
 
-	Založení :		\- minimálně 3 FO / PO
+Založení :		\- minimálně 3 FO / PO
 
-				\- notářsky ověřeným zápisem z členské schůze – povinné stanovy
+\- notářsky ověřeným zápisem z členské schůze – povinné stanovy
 
-	Vznik :		\- zápisem do OR
+Vznik :		\- zápisem do OR
 
-	Nejvyšší orgán:	\- členská schůze
+Nejvyšší orgán:	\- členská schůze
 
-	Statutární orgán	\- předseda, představenstvo
+Statutární orgán	\- předseda, představenstvo
 
-	Kontrolní orgán	\- kontrolní komise
+Kontrolní orgán	\- kontrolní komise
 
 \- členové družstva neruší, pouze do výše vkladu
 
@@ -260,7 +260,7 @@ __Státní podnik \(s\. p\.\)__
 
 \-stát má 2 možnosti jak podnikat	akcionář v akciové společnosti
 
-						s\. p\.
+s\. p\.
 
 \- založení zakládací listinou příslušným ministerstvem
 

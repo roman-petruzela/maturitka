@@ -52,11 +52,9 @@ __1\) Inventarizace__
 			- MD majetek
 			- D 413
 - porovnání účetní hodnoty majetku s hodnotou reálnou a zaúčtování případných rozdílů
-	-
-		-
-			- pokud je reálná hodnota majetku nižší, účtuje se v případě trvalého snížení hodnoty jako škoda \(549 / majetkový účet\)
-			- u dočasného snížení hodnoty majetku účtujeme nepřímo pomocí opravných položek \(zpravidla 559 / 09, 19, 29, 391\)
-			- pouze u vybraných cenných papírů lze účetní hodnotu i navyšovat na úroveň hodnoty reálné, avšak ne přes opravné položky \(251/564, 664; 253/566,666\)
+    - pokud je reálná hodnota majetku nižší, účtuje se v případě trvalého snížení hodnoty jako škoda \(549 / majetkový účet\)
+    - u dočasného snížení hodnoty majetku účtujeme nepřímo pomocí opravných položek \(zpravidla 559 / 09, 19, 29, 391\)
+    - pouze u vybraných cenných papírů lze účetní hodnotu i navyšovat na úroveň hodnoty reálné, avšak ne přes opravné položky \(251/564, 664; 253/566,666\)
 
 __2\) Zaúčtování účetních operací na konci účetního období__
 
@@ -67,33 +65,26 @@ __2\) Zaúčtování účetních operací na konci účetního období__
 	- u manka jeho porovnání s vnitropodnikovou směrnicí normy přirozených úbytků
 	- posouzení účetní hodnoty zásob na skladě
 2. Časové rozlišení nákladů a výnosů
-	-
-		- účty časového rozlišení podléhají dokladové inventarizace, proto se musí u účtů 381 až 385 zkontrolovat \(podle analytické evidence\), zda souhlasí jednotlivé tituly časového rozlišení se skutečností
+    - účty časového rozlišení podléhají dokladové inventarizace, proto se musí u účtů 381 až 385 zkontrolovat \(podle analytické evidence\), zda souhlasí jednotlivé tituly časového rozlišení se skutečností
 3. Dohadné položky
-	-
-		- dohadné položky jsou existující, avšak dosud nepotvrzené pohledávky a závazky
-		- je znám účel i období, ale není známa přesná částka → není externí účetní doklad
-		- v následujícím období se pak účtuje již o částce potvrzené a případný rozdíl je nákladem či výnosem tohoto období
+    - dohadné položky jsou existující, avšak dosud nepotvrzené pohledávky a závazky
+    - je znám účel i období, ale není známa přesná částka → není externí účetní doklad
+    - v následujícím období se pak účtuje již o částce potvrzené a případný rozdíl je nákladem či výnosem tohoto období
 4. Rezervy
-	-
-		- v rámci inventarizace je třeba zkontrolovat, zda stále trvají důvody pro existenci rezerv
+    - v rámci inventarizace je třeba zkontrolovat, zda stále trvají důvody pro existenci rezerv
 5. Kurzové rozdíly
-	-
-		- na základě kurzu ČNB k poslednímu dni účetního období
+    - na základě kurzu ČNB k poslednímu dni účetního období
 6. Opravné položky
-	-
-		- vytvářejí se k majetkovým účtům v případě, že:
-			1. skutečná hodnota sledovaného majetku je nižší než účetní hodnota
-			2. snížení tohoto majetku není trvalého charakteru
-		- je nutné dodržovat tyto zásady:
-			-
-				- opravné položky nesmějí mít aktivní zůstatek
-				- tvořit opravnou položku na zvýšení hodnoty majetku se nesmí
-				- nelze současně vytvářet rezervu i opravnou položku ke stejnému majetku
+    - vytvářejí se k majetkovým účtům v případě, že:
+        1. skutečná hodnota sledovaného majetku je nižší než účetní hodnota
+        2. snížení tohoto majetku není trvalého charakteru
+    - je nutné dodržovat tyto zásady:
+        - opravné položky nesmějí mít aktivní zůstatek
+        - tvořit opravnou položku na zvýšení hodnoty majetku se nesmí
+        - nelze současně vytvářet rezervu i opravnou položku ke stejnému majetku
 7. Odpis pohledávek
-	-
-		- v případě, kdy se věřitel opodstatněně domnívá, že se jedná o trvalé snížení hodnoty pohledávky → nebude dlužníkem uhrazena
-		- daňově uznatelný náklad
+    - v případě, kdy se věřitel opodstatněně domnívá, že se jedná o trvalé snížení hodnoty pohledávky → nebude dlužníkem uhrazena
+    - daňově uznatelný náklad
 
 __Uzávěrka účtů v hlavní knize__
 
@@ -117,15 +108,15 @@ Převod zisku/ztráty k 1\. 1\.:
 
 − základní zdroj informací pro:	− vlastníka
 
-	− banku
+− banku
 
-	− obchodní partnery
+− obchodní partnery
 
-	− stát
+− stát
 
-	− burzy CP
+− burzy CP
 
-	− investory
+− investory
 
 __Obsah a struktura účetních výkazů__
 
@@ -137,7 +128,7 @@ __Obsah a struktura účetních výkazů__
 
 4\. Přehled o peněžních tocích – Cash Flow
 
-5\. Přehled o změnách vlastního kapitálu __ __
+5\. Přehled o změnách vlastního kapitálu  
 
 __1\. Rozvaha__
 
@@ -145,25 +136,25 @@ __1\. Rozvaha__
 
 − rozvaze se výše aktiv za běžné účetní období uvádí v těchto hodnotách:
 
-	• __brutto__ – výše aktiv podle jednotlivých položek neupravená o opravné položky a		oprávky
+• __brutto__ – výše aktiv podle jednotlivých položek neupravená o opravné položky a		oprávky
 
-	• __korekce__ – výše opravných položek a oprávek k příslušným aktivům
+• __korekce__ – výše opravných položek a oprávek k příslušným aktivům
 
-	• __netto__ – výše aktiv snížená o opravné položky a oprávky
+• __netto__ – výše aktiv snížená o opravné položky a oprávky
 
 a\) Rozvaha v plném rozsahu
 
-	− jednotlivé položky aktiv a pasiv jsou označeny velkými písmeny, římskými a arabskými 	číslicemi
+− jednotlivé položky aktiv a pasiv jsou označeny velkými písmeny, římskými a arabskými 	číslicemi
 
-	− velké a střední účetní jednotky
+− velké a střední účetní jednotky
 
-	− malé a mikro s povinností auditu
+− malé a mikro s povinností auditu
 
 b\) Rozvaha ve zkráceném rozsahu
 
-	− rozšířená – malé bez povinnosti auditu
+− rozšířená – malé bez povinnosti auditu
 
-	− základní – mikro bez povinnosti auditu
+− základní – mikro bez povinnosti auditu
 
 __Struktura rozvahy ve zkráceném rozsahu – rozšířená verze__
 
@@ -229,17 +220,17 @@ __2\. Výkaz zisku a ztráty__
 
 − Výkaz je uspořádán stupňovitě tak, aby umožnil vyčíslit:
 
-	• provozní výsledek hospodaření
+• provozní výsledek hospodaření
 
-	• finanční výsledek hospodaření
+• finanční výsledek hospodaření
 
-	• výsledek hospodaření před zdaněním
+• výsledek hospodaření před zdaněním
 
-	• výsledek hospodaření po zdanění
+• výsledek hospodaření po zdanění
 
-	• výsledek hospodaření za účetní období
+• výsledek hospodaření za účetní období
 
-	• čistý obrat za účetní období
+• čistý obrat za účetní období
 
 __Struktura výkazu zisku a ztráty ve zkráceném rozsahu__
 
@@ -315,9 +306,9 @@ __4\. Přehled o peněžních tocích – Cash Flow__
 
 − sledujeme ve 3 činnostech:	1\. provozní činnost
 
-	2\. investiční činnost
+2\. investiční činnost
 
-	3\. finanční činnost
+3\. finanční činnost
 
 __ukazatel__
 

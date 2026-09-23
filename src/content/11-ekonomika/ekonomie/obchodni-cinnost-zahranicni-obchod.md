@@ -75,7 +75,7 @@ a\) __kurzová rizika__ – vznikají pohybem kurzu měny v níž je placeno
 - zhodnocení měny – stoupá její kurz, za jednotku této měny obdržíme více jednotek měny jiné
 - znehodnocení měny – kurz klesá, za jednotku této měny obdržíme méně jednotek měny jiné
 
-       vznikají kurzové zisky a kurzové ztráty
+  vznikají kurzové zisky a kurzové ztráty
 
 b\) __politická rizika__ – nepokoje stávky, zákazy dovozu do dané země, politické převraty \(USA a KLDR\)
 

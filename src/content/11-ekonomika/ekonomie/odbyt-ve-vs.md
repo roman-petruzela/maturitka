@@ -24,16 +24,16 @@ formy prodeje:
 -  provadí kasírovaní
 - doprovazí hosta ke stolu
 
-                   Systémy:    1\) Rajonový systém
+  Systémy:    1\) Rajonový systém
 
 - rozdělený na úseky
 - každý číšník ma svůj rajon a děla v něm vše
 
-                                       2\) Francouzský systém
+  2\) Francouzský systém
 
-                                                \- Specializace na praci
+  \- Specializace na praci
 
-                                                 \- velmi nakladný
+  \- velmi nakladný
 
 1. __pultový – vyskytuje se v rychlých občerstveních a mají omezený sortiment__
 
@@ -70,13 +70,13 @@ vyúčtování s hostem:
 
 \- zahrnuje 2 úkony: 1\. *vystavení účtu* = číšník vystavuje účet přímo před hostem
 
-					 = číšník vystaví účet z kontrolní pokladny
+= číšník vystaví účet z kontrolní pokladny
 
-		         2\. *inkaso *– hotově = vrací se nejprve mince pak bankovky
+2\. inkaso – hotově = vrací se nejprve mince pak bankovky
 
-					   = peníze od hosta se ukládají na konec
+= peníze od hosta se ukládají na konec
 
-			            – bezhotovostně = nikdy nedávat kartu z ruky
+– bezhotovostně = nikdy nedávat kartu z ruky
 
 odvod tržeb:
 
@@ -90,17 +90,17 @@ Kapacita
 
 - maximální počet hostů, které lze obsloužit
 
-                zaleží na: 1\) velikosti prostoru
+  zaleží na: 1\) velikosti prostoru
 
-                                2\) na ploše 1 místa
+  2\) na ploše 1 místa
 
-                                      3\) na obratce \( počet hostů, kteří se vystřídají na 1 židli\)
+  3\) na obratce \( počet hostů, kteří se vystřídají na 1 židli\)
 
-       P
+  P
 
 K=\_\_\_  x o
 
-      m
+m
 
 Kontrola ve VS
 \- vykonávají ji státní orgány a organizace státem pověřené
@@ -136,13 +136,13 @@ kontrolní orgány:
 
 =největší kontrolní úřad
 
-*ČOI *\- kontroluje FO i PO, které prodávají zboží, poskytují služby nebo vyvíjí činnost na vnitřním trhu
+ČOI \- kontroluje FO i PO, které prodávají zboží, poskytují služby nebo vyvíjí činnost na vnitřním trhu
 \- kontroluje jakost, nezávadnost, správné míry a hmotnost, správnost cen, ověřena
 měřidla, prohlášení o shodě
 
-*CZPI *\- kontroluje zemědělské a potravinářské výrobky, není oprávněná kotrolovat přípravu jídel a nápojů
+CZPI \- kontroluje zemědělské a potravinářské výrobky, není oprávněná kotrolovat přípravu jídel a nápojů
 *
-*__*Státní veterinární správa*__ \- kontroluje potraviny živočišného původu, jejich úpravy
+**Státní veterinární správa* \- kontroluje potraviny živočišného původu, jejich úpravy
 
 __*Živnostenský úřad*__ \- kontroluje rozsah a platnost živnostenského oprávnění
 \- kontrolují označení provozovny
@@ -151,18 +151,18 @@ __*Živnostenský úřad*__ \- kontroluje rozsah a platnost živnostenského opr
 __*Státní požární dozor*__ \- kontrola hasicích přístroju, hlásičů a kontrola unikových cest
 \- školení zaměstnanců
 *
-*__*Český úřad bezpečnosti práce*__* *\- patří pod MPSV
+**Český úřad bezpečnosti práce** \- patří pod MPSV
 \- kontroluje dodržování bezpečnostních předpisů
 
 __*Úřad práce*__ \- zaměřen na pracovně právní předpisy
 
-__*Finanční úřad*__* *\- kontroluje správnou výši daní a správné časové placení daní
+__*Finanční úřad*__* \- kontroluje správnou výši daní a správné časové placení daní
 
 __*ČNB* \-__ kontroluje směnárenskou činnost a divizvou činnost
 
-__*Metrologický orgán*__* *\- kontroluje měřidla
-__
-*Policie ČR a městská policie*__ \- dohlíží na veřejný pořádek, noční klid
+__*Metrologický orgán*__* \- kontroluje měřidla
+
+*Policie ČR a městská policie* \- dohlíží na veřejný pořádek, noční klid
 \- ochrana před alkoholismem a omamnými látkami
 
 ## Cena

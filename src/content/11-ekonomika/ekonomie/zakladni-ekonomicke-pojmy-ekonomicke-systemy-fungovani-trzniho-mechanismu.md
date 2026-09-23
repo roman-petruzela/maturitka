@@ -41,25 +41,25 @@ source: "MATURITA HADR/Ekonomie/10. Základní ekonomické pojmy, ekonomické sy
 
 __Druhy potřeb__
 
-	__Hmotné__ \- potřeba něco vlastnit \(potřeba vlastnit auto\)
+__Hmotné__ \- potřeba něco vlastnit \(potřeba vlastnit auto\)
 
-	__Nehmotné__ \- potřeba získat znalosti \(potřeba umět řídit auto\)
+__Nehmotné__ \- potřeba získat znalosti \(potřeba umět řídit auto\)
 
-	__Biologická__ \- souvisí s existencí člověka \(potřeba spánku\)
+__Biologická__ \- souvisí s existencí člověka \(potřeba spánku\)
 
-	__Kulturní__ \- týkají se sociálních potřeb \(potřeba navštívit kino\)
+__Kulturní__ \- týkají se sociálních potřeb \(potřeba navštívit kino\)
 
-	__Individuální__ \- týkají se jednotlivců \(__já__ mám potřebu jíst\)
+__Individuální__ \- týkají se jednotlivců \(__já__ mám potřebu jíst\)
 
-	__Společenské__ \- týkají se společnosti lidí \(__celá třída__ chce odmaturovat\)
+__Společenské__ \- týkají se společnosti lidí \(__celá třída__ chce odmaturovat\)
 
-	__Zbytné__ \- závisí na finančních možnostech člověka \(potřeba vlastnit auto\)
+__Zbytné__ \- závisí na finančních možnostech člověka \(potřeba vlastnit auto\)
 
-	__Nezbytná__ \- souvisí s existencí člověka \(potřeba spánku\)
+__Nezbytná__ \- souvisí s existencí člověka \(potřeba spánku\)
 
-	__Současné__ \- vyjadřují naše současné pocity \(jsou závislé na věku, pohlaví,…\)
+__Současné__ \- vyjadřují naše současné pocity \(jsou závislé na věku, pohlaví,…\)
 
-	__Budoucí__ \- souvisí s našimi představami o budoucnosti, sny, touhami,…
+__Budoucí__ \- souvisí s našimi představami o budoucnosti, sny, touhami,…
 
 - Statky
 
@@ -67,9 +67,9 @@ __Druhy potřeb__
 
 - __Statky podle způsobu dosažení__
 
-__	__Ekonomické 	\- vznikají hospodářskou činností
+	Ekonomické 	\- vznikají hospodářskou činností
 
-			\- ke vztahu k potřebám jsou vzácné → omezené \(potraviny, ošacení\)
+  \- ke vztahu k potřebám jsou vzácné → omezené \(potraviny, ošacení\)
 
 Volné \- vyskytují se volně v přírodě, relativně v dostatečném množství, není nutné rozdělování \(vzduch, voda, léčivé byliny\)
 
@@ -166,7 +166,7 @@ __Faktory ovlivňující poptávku__
 - reguluje množství zboží tak, aby docházelo k rovnovážnému stavu
 - Rovnovážná cena = cena, při níž na trhu nevzniká ani přebytek, ani nedostatek
 - Přebytek zboží = ceny jsou nad bodem rovnováhy, výrobek nejde na odbyt
-- Nedostatek zboží__ __= ceny jsou pod bodem rovnováhy, výrobci ceny zvyšují
+- Nedostatek zboží = ceny jsou pod bodem rovnováhy, výrobci ceny zvyšují
 - Zásahy státu do tržního mechanismu
 - tržní mechanismus je také regulován vhodnými státními zásady → státní orgány \(parlament, vláda, ministerstvo, …\)
 
@@ -196,9 +196,9 @@ __Specializace__ = zaměření jednotlivců a skupin lidí na určitý druh prá
 
 __Kooperace__ = spolupráce při vytváření statků a služeb
 
-	__Výkonná práce__ – obsluha strojů, uklízení
+__Výkonná práce__ – obsluha strojů, uklízení
 
-	__Řídicí práce__ – kontrola, vedení lidí
+__Řídicí práce__ – kontrola, vedení lidí
 
 2\. Přírodní zdroje – půda
 

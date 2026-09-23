@@ -64,23 +64,23 @@ výnosy – náklady
 
 __Účetní výsledek hospodaření__		Účetní výsledek hospodaření
 
-		\+ náklady daňově neuznatelné
+\+ náklady daňově neuznatelné
 
-	\- výnosy nezahrnované do ZD
+\- výnosy nezahrnované do ZD
 
-	± rozdíl mezi účetními a daňovými	odpisy
+± rozdíl mezi účetními a daňovými	odpisy
 
-	Základ daně
+Základ daně
 
-	\- odčitatelné položky \(§20 a 34 ZDP\)
+\- odčitatelné položky \(§20 a 34 ZDP\)
 
-	Základ daně snížený o odčitatelné	položky
+Základ daně snížený o odčitatelné	položky
 
-	x sazba daně \(19%\)
+x sazba daně \(19%\)
 
-	Daň z příjmů splatná
+Daň z příjmů splatná
 
-	\- slevy na dani \(§35 ZDP\)
+\- slevy na dani \(§35 ZDP\)
 
 \- Daň z příjmů splatná po slevách	Daň z příjmů splatná po slevách
 
@@ -94,15 +94,15 @@ NA DAŇOVÝ ZÁKLAD DANĚ Z PŘÍJMŮ
 
 provozní HV
 
-       \+	hrubý účetní zisk
+\+	hrubý účetní zisk
 
 finanční HV
 
-	__\+ daňově neuznatelné náklady:__
+__\+ daňově neuznatelné náklady:__
 
-		\+513
+\+513
 
-		\+524 – *jen když není uhrazeno do 31\. 1\. následujícího roku*
+\+524 – *jen když není uhrazeno do 31\. 1\. následujícího roku*
 
 \+528
 
@@ -116,7 +116,7 @@ finanční HV
 
 \+551 – *účetní – daňové → >0 = \+*
 
-*				     <0 = \-*
+*<0 = \-*
 
 \+559
 
@@ -151,6 +151,6 @@ Doměrek za minulé období	595 / 341
 
 Disponibilní zisk \(ztráta\) = hrubý účetní zisk – daň po slevách
 
-	k 31\. 12\. 	710 / 702
+k 31\. 12\. 	710 / 702
 
-	k 1\. 1\. 	701 / 431
+k 1\. 1\. 	701 / 431

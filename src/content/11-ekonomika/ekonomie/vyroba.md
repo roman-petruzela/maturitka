@@ -91,9 +91,9 @@ Důvod: pro zásobování, rozpis směn\.\.\.
 
 - Vychází ze stavu surovin, sezónnost surovin, oblíbenost pokrmů = předpoklad\.poptávky Vypočítáme díky vzorečku: počet pokrmů daného pokrmu
 
-                                                   —————————————  • 100% = %
+  —————————————  • 100% = %
 
-                                                            počtem porcí celkem
+  počtem porcí celkem
 
 JÍDELNÍ LÍSTEK  = je přehled produktů, které nabízí jídelna, restaurace nebo bufet\. Informuje hosty o nabídce a cenách\.
 
@@ -125,7 +125,7 @@ Náležitosti:
 
 Zásady: kalkuluje se  \- na 3 desetinná místa
 
-                                   \- z hrubé hmotnosti
+\- z hrubé hmotnosti
 
 HYGIENA PROVOZU
 

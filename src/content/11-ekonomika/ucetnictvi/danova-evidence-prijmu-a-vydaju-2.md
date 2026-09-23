@@ -18,10 +18,7 @@ __Podnikání fyzických osob, kdo může vést daňovou evidenci__
 - Podnikání je soustavná činnost provozovaná samostatně, vlastním jménem, na vlastní odpovědnost a za účel dosažení zisku
 - Základním právním předpisem pro podnikatele je obchodní zákoník, který upravuje postavení podnikatelů, obchodní závazkové vztahy a další vztahy s podnikáním související
 - Podnikatelem mohou být PO \(jsou vždy účetními jednotkami\) i FO
-	-
-		-
-			-
-				- __Fyzické osoby podnikají nejčastěji na základě živnostenského oprávnění__, které vydává v místě příslušná ŽÚ a to po splnění podmínek například:
+    - __Fyzické osoby podnikají nejčastěji na základě živnostenského oprávnění__, které vydává v místě příslušná ŽÚ a to po splnění podmínek například:
 	- Dosažení věku 18 let
 	- Způsobilost k právním úkonům
 	- Bezúhonnost
@@ -36,10 +33,9 @@ __Podnikání fyzických osob, kdo může vést daňovou evidenci__
 
 __Zapisování příjmů a výdajů do deníku__
 
--
-	- Zapisování v deníku příjmů a výdajů v průběhu roku probíhá vždy minimálně „dvoustranně“ tj\. na dvou položkách deníku
-	- Na jedné straně hospodářská operace bude příjmem nebo výdajem peněžních prostředků
-	- Na druhé straně se tato hospodářská operace dotkne jednotlivých příjmů a výdajů zahrnovaných nebo nezahrnovaných do základu daně z příjmů \(popř\. průběžných položek\)
+- Zapisování v deníku příjmů a výdajů v průběhu roku probíhá vždy minimálně „dvoustranně“ tj\. na dvou položkách deníku
+- Na jedné straně hospodářská operace bude příjmem nebo výdajem peněžních prostředků
+- Na druhé straně se tato hospodářská operace dotkne jednotlivých příjmů a výdajů zahrnovaných nebo nezahrnovaných do základu daně z příjmů \(popř\. průběžných položek\)
 
 __Zapisování příjmů:__
 
@@ -65,9 +61,8 @@ __DPH a její zaznamenávání do deníku příjmů a výdajů__
 
 __Zaznamenávání průběžných položek__
 
--
-	- Slouží k zachycení převodu peněžních prostředků podnikatele z pokladny na běžný účet a z běžného účtu do pokladny popřípadě i mezi více BÚ podnikatele
-	- Nutnost evidence průběžných položkách při těchto hospodářských operacích je vyvolávána časovým nesouladem mezi evidencí pohybu peněz v hotovosti a evidencí pohybu na BÚ, kterou lze provést až na základě výpisu z bankovního účtu
+- Slouží k zachycení převodu peněžních prostředků podnikatele z pokladny na běžný účet a z běžného účtu do pokladny popřípadě i mezi více BÚ podnikatele
+- Nutnost evidence průběžných položkách při těchto hospodářských operacích je vyvolávána časovým nesouladem mezi evidencí pohybu peněz v hotovosti a evidencí pohybu na BÚ, kterou lze provést až na základě výpisu z bankovního účtu
 
 __Postup evidence průběžných položek:__
 
@@ -101,14 +96,10 @@ __Kniha faktur vydaných a přijatých:__
 
 __Ostatní pohledávky a závazky__
 
--
-	-
-		-
-			-
-				- Zvláštní knihu pohledávek a závazků je možné zřídit pro neobchodní pohledávky a závazky jedná se o evidenci:
-	- Poskytnutých a přijatých bankovních úvěrů
-	- Závazků, popř\. pohledávek k FÚ
-	- Pohledávek k zaměstnancům
+- Zvláštní knihu pohledávek a závazků je možné zřídit pro neobchodní pohledávky a závazky jedná se o evidenci:
+- Poskytnutých a přijatých bankovních úvěrů
+- Závazků, popř\. pohledávek k FÚ
+- Pohledávek k zaměstnancům
 
 __Výpočet základu daně – OSVČ__
 

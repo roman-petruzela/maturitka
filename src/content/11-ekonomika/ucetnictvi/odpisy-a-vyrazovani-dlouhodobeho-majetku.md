@@ -23,9 +23,7 @@ __Účetní odpisy__
 __a\) Časové__
 
 - tato metoda vychází z doby použitelnosti majetku
-	-
-		-
-			- __příklad:__
+    - __příklad:__
 
 *Podnik pořídil v červenci 2015 kopírovací stroj za 80 000 Kč, u kterého stanovil dobu použitelnosti 40 měsíců\. Účetní jednotka se rozhodla, že bude odpisovat od prvého dne následujícího měsíce\.*
 
@@ -35,7 +33,7 @@ __a\) Časové__
 
 *80 000/40 = 2 000*
 
-*2015 → srpen, září, říjen, listopad, prosinec *
+*2015 → srpen, září, říjen, listopad, prosinec* 
 
 *2018 → zbylé měsíce*
 
@@ -45,7 +43,7 @@ __a\) Časové__
 
 *Účetní odpis 2017	24 000 Kč → 12 \* 2 000*
 
-*Účetní odpis 2018	22 000 Kč → 11 \* 2 000 *
+*Účetní odpis 2018	22 000 Kč → 11 \* 2 000* 
 
 __b\) Výkonové__
 
@@ -56,7 +54,7 @@ __b\) Výkonové__
 
 *Odpis za 1km	2 500 000 / 500 000 	= 5kč/1km*
 
-*Účetní odpis v prvním roce	50 000 km \* 5 Kč 	= 250 000 Kč *
+*Účetní odpis v prvním roce	50 000 km \* 5 Kč 	= 250 000 Kč* 
 
 *Účetní odpis ve druhém roce	90 000 km \* 5 Kč	= 450 000 Kč*
 
@@ -262,7 +260,7 @@ __c\) Možnost zvýšení odpisu v prvním roce__ \(§ 31 ZDP\)
 
 __Příklad \- rovnoměrné:__
 
-*Podnik pořídil v roce 2016 kopírovací stroj za 90 000 Kč\. Je zařazen do první odpisové skupiny\. Podnik se rozhodl, že jej bude odpisovat rovnoměrně\. Odpis v prvním roce ovšem navýší o 10%\. *
+*Podnik pořídil v roce 2016 kopírovací stroj za 90 000 Kč\. Je zařazen do první odpisové skupiny\. Podnik se rozhodl, že jej bude odpisovat rovnoměrně\. Odpis v prvním roce ovšem navýší o 10%\.* 
 
 __*Rok*__
 
@@ -294,7 +292,7 @@ __*90 000 Kč*__
 
 __Příklad \- zrychlené:__
 
-*Podnik pořídil v roce 2016 kopírovací stroj za 90 000 Kč\. Je zařazen do první odpisové skupiny\. Podnik se rozhodl, že jej bude odpisovat rovnoměrně\. Odpis v prvním roce ovšem navýší o 10%\. *
+*Podnik pořídil v roce 2016 kopírovací stroj za 90 000 Kč\. Je zařazen do první odpisové skupiny\. Podnik se rozhodl, že jej bude odpisovat rovnoměrně\. Odpis v prvním roce ovšem navýší o 10%\.* 
 
 __*Rok*__
 

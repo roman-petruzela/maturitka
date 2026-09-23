@@ -63,9 +63,9 @@ metody stanovení:
 2. __Procento z tržby__ – používá se u nových provozoven a stanovuje se určitým % z předpokládané tržby
 3. __Časová norma zásob__ – udává čas, po který jsou zásoby na skladě
 
-a\) *ČNZ = Z max\. \+ Z min\. 		*b\)* ČNZ = c \+ p \+ t *
+a\) *ČNZ = Z max\. \+ Z min\. 		*b\)* ČNZ = c \+ p \+ t* 
 
-*	2                                             2*
+*2                                             2*
 
 1. __Normativ zásob__ – vyjadřuje kolik zásob v naturálních jednotkách je na skladě
 
@@ -75,9 +75,9 @@ a\) *ČNZ = Z max\. \+ Z min\. 		*b\)* ČNZ = c \+ p \+ t *
 
 1. FNZ = finanční normativ zásob – udává množství zásob v korunách
 
-	   *FNZ = ČNZ x s x c*
+   *FNZ = ČNZ x s x c*
 
-*                                               d*
+*d*
 
 c … dodávkový cyklus \(časová norma zásob\)
 
@@ -113,11 +113,8 @@ c … cena \(finanční normativ zásob\)
 
 druhy přejímky:
 
--
-	-
-		-
-			1. __stoprocentní__ – úplná
-			2. __namátková__ – výběrová = jen určité druhy
+1. __stoprocentní__ – úplná
+2. __namátková__ – výběrová = jen určité druhy
 
 # Skladování
 
@@ -168,13 +165,10 @@ zabezpečení skladu proti:
 
 fáze:
 
--
-	-
-		-
-			1. fyzická inventarizace – veškeré zboží se přeměřuje, převažuje, přepočítává a zapisuje do soupisek
-			2. dokladová – kontrola účetních dokladů
-			3. zjištění výsledku – porovnání fyzické a dokladové inventury
-			4. vyvození důsledku – odhalení příčin
+1. fyzická inventarizace – veškeré zboží se přeměřuje, převažuje, přepočítává a zapisuje do soupisek
+2. dokladová – kontrola účetních dokladů
+3. zjištění výsledku – porovnání fyzické a dokladové inventury
+4. vyvození důsledku – odhalení příčin
 
 druhy inventarizace:
 
@@ -194,11 +188,11 @@ a\) shoda \(rovnost\)
 
 b\) ztráta – fyzická kontrola je menší než dokladová
 
-	1\. přirozený úbytek \(manko do normy\)
+1\. přirozený úbytek \(manko do normy\)
 
-	2\. zaviněné manko – za ztrátu zodpovídá skladník
+2\. zaviněné manko – za ztrátu zodpovídá skladník
 
-	3\. manka živelné ztráty
+3\. manka živelné ztráty
 
 c\) přebytek – fyzická inventura je větší než stav podle dokladu
 
@@ -216,11 +210,10 @@ inventarizační komise:
 
 obsahuje:
 
--
-	- průběh
-	- výsledek
-	- přijatá opatření
-	- všichni se musí podepsat
+- průběh
+- výsledek
+- přijatá opatření
+- všichni se musí podepsat
 
 \- pokud se zjistí zavadá, je stanoven termín odstranění a poté následuje tzv\. následná inventarizace, která je zaměřená na odstranění závad
 
@@ -232,17 +225,17 @@ ukazatele:
 
 \- udává kolik dnů uplyne od nákupu k prodeji zboží → za kolik dní se zásoby vymění
 
-*D = z x d					*
+*D = z x d*					
 
-*          s *
+*s* 
 
-	2\. Rychlost obratu – o
+2\. Rychlost obratu – o
 
 \- udává kolikrát za období se nám zásoby vymění
 
-		*o = O*
+*o = O*
 
-*		       z*
+*z*
 
 z … průměrná zásoba
 

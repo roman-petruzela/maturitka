@@ -68,7 +68,7 @@ Dohody:
 
 - provize = závislá na výsledku práce např\.: procento z tržeb
 
-b\) pobídkové složky mzdy \- osobní ohodnocení \- hodnotí kvalitu práce zaměstnance; prémie \- pohyblivá složka mzdy, 1 za čtvrt roku, dopředu určená pravidla se musí splnit; odměny \- jednorázové částky; příplatky 1\) přesčas 25% 2\) v noci od 22\-6 hod 10% 3\) práce ve ztíženém zdravotním prostředí 10̈́% 4\) So, Ne \- 10% 5\) svátek \- 100% z průměrného výdělku
+b\) pobídkové složky mzdy \- osobní ohodnocení \- hodnotí kvalitu práce zaměstnance; prémie \- pohyblivá složka mzdy, 1 za čtvrt roku, dopředu určená pravidla se musí splnit; odměny \- jednorázové částky; příplatky 1\) přesčas 25% 2\) v noci od 22\-6 hod 10% 3\) práce ve ztíženém zdravotním prostředí 10% 4\) So, Ne \- 10% 5\) svátek \- 100% z průměrného výdělku
 
 c\) náhrada mzdy \- dovolená, ošetřování, soudy
 

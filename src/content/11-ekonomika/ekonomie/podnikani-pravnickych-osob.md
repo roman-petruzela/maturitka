@@ -112,9 +112,9 @@ individuální \- jednatel
 
 d\) Rozdělení zisku
 
-	podle zákona
+podle zákona
 
-	podle společenské smlouvy
+podle společenské smlouvy
 
 - Typy společností
 - Veřejně obchodní společnost

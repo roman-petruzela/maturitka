@@ -14,14 +14,14 @@ Zdroje dělíme dle různých hledisek:
 
 __*VLASTNÍ ZDROJE:*__
 
-1. __Základní kapitál
-__= hodnota peněžitého i nepeněžitého vkladu vlastníka či společníků
+1. Základní kapitál
+= hodnota peněžitého i nepeněžitého vkladu vlastníka či společníků
 \- u obchodních společností se zapisuje do obchodního rejstříku
 \- povinná výše – a\.s\. – 2 mil\. Kč
                           \- s\.r\.o\. – 1Kč
 \- ve státních podnicích se nazývá ,,kmenové jmění‘‘
-2. __Emisní Ážio
-__= kladný rozdíl mezi tržní a nominální cenou akcií \(při emisi\), \(opak je disážio\)
+2. Emisní Ážio
+= kladný rozdíl mezi tržní a nominální cenou akcií \(při emisi\), \(opak je disážio\)
 \- pouze u akciových spoolečností
 3. __Zisk__
 = kladný hospodářský výsledek
@@ -31,13 +31,13 @@ __= kladný rozdíl mezi tržní a nominální cenou akcií \(při emisi\), \(op
 \- hrubý zisk se musí zdanit \(19% daň z příjmu PO\) a vznikne čistý zisk
 \- v a\.s\. se dále z čistého zisku vyplácí dividendy
 \- ze zisku lze tvořit nepovinné fondy – např\. rezervních odměn
-4. __Odpisy
-__1\. Účetní \(dle zákona o účetnictví\)
+4. Odpisy
+1\. Účetní \(dle zákona o účetnictví\)
 2\. Daňové \(dle zákona o dani z příjmů\)
 \- plní funkci nákladovou, zdrojovou a investiční rozvoje
 \- pomocí nich přechází hodnota DM postupně do nákladů, a tím dochází ke snížení HV, což znamená nižší daň z příjmu → ušetřené peníze z daně lze použít jako zdroj financování
-5. __Ostatní
-__\- odprodej vlastního majetku \(nepotřebného\)
+5. Ostatní
+\- odprodej vlastního majetku \(nepotřebného\)
 
 __*CIZÍ ZDROJE:*__
 
@@ -47,8 +47,8 @@ __Zákonné rezervy__
 \- dle zákona o rezervách musí firmy odkládat část prostředků, tyto nesmí použít a jsou pouze k určitému účelu \(nepodléhají zdanění\)
 \- jdou do nákladů firmy
 
-__Dluhy
-__1\) Úvěry
+Dluhy
+1\) Úvěry
      \- krátkodobé/dlouhodobé, zajištěné/nezajištěné – k bankám
 
 2\) Dodavatelé
@@ -86,8 +86,8 @@ __1\) Úvěry
 10\) Venture Capital
      \- rizikový kapitál investovaný do cizí firmy
 
-__Návratnost investic
-__\- za jak dlouho a za kolik se nám investice vrátí
+Návratnost investic
+\- za jak dlouho a za kolik se nám investice vrátí
 
 Např\. Restaurace investovala 800 000Kč do dodávky \(auto\), jehož životnost je 4 roky
 Roční účetní odpis = 200 000Kč, zisk je 20 000Kč
@@ -169,8 +169,8 @@ a\) Hypoteční
 b\) Emisní
 \- je spojen s emisí \(vydání\) dlouhodobých cenných papírů např\. podnikových obligací
 
-__\!__ za zvláštní druh úvěru lze považovat ____odkup pohledávek, před dobou její splatnosti__\!
-__\- nemusí jít o banku
+__\!__ za zvláštní druh úvěru lze považovat __odkup pohledávek, před dobou její splatnosti__\!
+\- nemusí jít o banku
 
 FACTORING = odkup krátkodobých pohledávek, splatné do 1 roku
 FORFAITING = odkup dlouhodobých pohledávek

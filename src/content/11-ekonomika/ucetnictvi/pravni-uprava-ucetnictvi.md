@@ -30,7 +30,7 @@ __Právní normy upravující účetnictví__
 4. Vyhláška ministerstva financí č\. 500/2002\- směrná účtová osnova pro podnikatele
 5. Daňové zákony
 
-*Zákon o účetnictví *
+*Zákon o účetnictví* 
 
 1. Účetnictví je __úplné__, jestliže jsou zaúčtovány všechny účetní případy týkající se účetního období
 2. Účetnictví je vedeno __průkazným__ způsobem, jestliže jsou účetní případy a účetní zápisy doloženy účetními doklady a účetní jednotka provedla inventarizaci
@@ -64,7 +64,7 @@ __Účtový rozvrh__
 __Účtová osnova \(dána Ministerstvem financí\)__
 
 - Je seznam účtových tříd a účtových skupin, ve kterém si účetní jednotka stanový potřebné syntetické a analytické účty \(obchodní společnosti, družstva, státní podniky, FO, které jsou účetní jednotkou\)
-- Účtová osnova__ __zahrnuje 10 tříd, které se dále člení na účtové skupiny \(vydává Ministerstvo financí\)
+- Účtová osnova zahrnuje 10 tříd, které se dále člení na účtové skupiny \(vydává Ministerstvo financí\)
 
 __Vnitropodnikové směrnice__
 

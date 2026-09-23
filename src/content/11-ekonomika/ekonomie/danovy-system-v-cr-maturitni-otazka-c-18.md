@@ -264,7 +264,7 @@ __Osvobození od daně:__
 - Mají sazbu 0 %
 - Pošta, banky, pojišťovny, zdravotnické služby, sociální služby…
 
-Prodávající musí vyhotovit DAŇOVÝ DOKLAD__ __\(při ceně menší než 10 000 Kč se nazývá ZJEDNODUŠENÝ DANŇOVÝ DOKLAD\), kde provádí daňový odpočet:
+Prodávající musí vyhotovit DAŇOVÝ DOKLAD \(při ceně menší než 10 000 Kč se nazývá ZJEDNODUŠENÝ DANŇOVÝ DOKLAD\), kde provádí daňový odpočet:
 
 Daňový odpočet DPH = DPH na vstupu – DPH na výstupu
 

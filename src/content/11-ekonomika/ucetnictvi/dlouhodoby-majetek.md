@@ -97,13 +97,13 @@ __Technické zhodnocení__
 
 __malé –__ do 40 tis\. Kč	u DHM – účet __548 na MD__
 
-		u DNM – účet __518 na MD__
+u DNM – účet __518 na MD__
 
 __velké__ – nad 40 tis\. Kč → zvyšuje pořizovací cenu \(majetkové účty na MD\)
 
-          __−__u pronajatého	u DHM – __029 na MD__
+−u pronajatého	u DHM – __029 na MD__
 
-		____u DNM –__ 019 na MD__
+____u DNM –__ 019 na MD__
 
 __Analytická evidence__
 

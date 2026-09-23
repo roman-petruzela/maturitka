@@ -108,9 +108,9 @@ __Prodejní cena včetně DPH__
 1. Přímé náklady – na základě technickohospodářských norem spotřeby materiálu a výkonových norem
 2. Nepřímé náklady – nejprve se zjistí jejich celková výše a poté se rozpočítávají na kalkulační jednici:	• kalkulace prostým dělením
 
-		• kalkulace dělením s poměrovými čísly
+   • kalkulace dělením s poměrovými čísly
 
-		• kalkulace přirážková
+   • kalkulace přirážková
 
 1\. Kalkulace prostým dělením
 

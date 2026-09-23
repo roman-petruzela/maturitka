@@ -28,17 +28,17 @@ __Vztah daňové soustavy a státního rozpočtu –__ daně jsou podstatnou č�
 
 výběrové 		spotřební daně
 
-						           energetické daně
+energetické daně
 
 2\. Přímé daně 	       z příjmů  	        daň z příjmů fyzických osob
 
-						        daň z příjmů právnických osob
+daň z příjmů právnických osob
 
-       majetkové   	          daň z nemovitých věcí
+majetkové   	          daň z nemovitých věcí
 
-						          daň z nabytí nemovitosti
+daň z nabytí nemovitosti
 
-						           silniční daň
+silniční daň
 
 - Základní daňové pojmy
 

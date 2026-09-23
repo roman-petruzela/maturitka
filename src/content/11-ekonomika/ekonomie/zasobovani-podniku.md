@@ -13,17 +13,17 @@ source: "MATURITA HADR/Ekonomie/12. Zásobování podniku.docx"
 1. __Zásoby:__
 2. materiál – předměty na zhotovení výrobku
 
-  		základní suroviny – podstata výrobku
+   základní suroviny – podstata výrobku
 
-  		pomocné látky – součást výrobku
+   pomocné látky – součást výrobku
 
-  		provozní látky – zajišťují provoz podniku
+   provozní látky – zajišťují provoz podniku
 
-		náhradní díly – slouží k uvedení HM do původního stavu
+   náhradní díly – slouží k uvedení HM do původního stavu
 
-		obaly – zabezpečují ochranu a dopravu OM
+   obaly – zabezpečují ochranu a dopravu OM
 
-		drobný hmotný majetek – majetek s pořizovací cenou 							nižší než 40tis\. Kč
+   drobný hmotný majetek – majetek s pořizovací cenou 							nižší než 40tis\. Kč
 
 1. zboží – movité věci koupené za účelem dalšího prodeje
 2. výrobky  \- předměty vyráběny podnikem a dále poskytnuty na prodej
@@ -51,9 +51,9 @@ source: "MATURITA HADR/Ekonomie/12. Zásobování podniku.docx"
 
 __Měření rychlosti obratu zásob__
 
-1. 		kolikrát proběhne koloběh
-2. 		za kolik dní proběhne jeden 									koloběh \(chceme, aby doba 									byla co nejkratší
-3.  		jaká hodnota připadá na 									1 Kč spotřeby
+1. kolikrát proběhne koloběh
+2. za kolik dní proběhne jeden koloběh \(chceme, aby doba byla co nejkratší
+3. jaká hodnota připadá na 1 Kč spotřeby
 
 __Možnosti zrychlení obratu__
 
@@ -99,12 +99,12 @@ KZ = konečná zásoba na konci plánovaného období
 
 1. __Běžné zásoby__ – počet dní, na které má zásoba vydržet při zajištění pravidelnosti dodávek a výroby
 
-           – rovná se polovině dodávkového cyklu – __C__ \(počet dní mezi dvěma 								dodávkami\)
+   – rovná se polovině dodávkového cyklu – __C__ \(počet dní mezi dvěma 								dodávkami\)
 
 1. __Pojistné zásoby \(p\)__ – počet dní, na které by měla zásoba vydržet při zpoždění dodávky
 2. __Technické zásoby \(t\)__ – počet dní, které jsou k úpravě materiálu před vydáním do spotřeby \(např\. vyschnutí dřeva\)
 
-			udává počet dní, na které vydrží průměrná zásoba
+   udává počet dní, na které vydrží průměrná zásoba
 
 - Norma zásob
 - udává velikost průměrné zásoby v naturálních jednotkách
@@ -141,7 +141,7 @@ __Odpovědnosti plynoucí ze smlouvy__
 
 – neodstranitelné
 
-	2\. právní – zboží je zatíženo 3\. osobou \(nebyla zakoupena licence k výrobě\)
+2\. právní – zboží je zatíženo 3\. osobou \(nebyla zakoupena licence k výrobě\)
 
 __Reklamační nároky__
 
@@ -171,22 +171,22 @@ __kombinovaná –__ jeden velký sklad a několik 				menších skladů
 
 - činnosti skladů: 	\- příjem zásob
 
-		\- uložení a péče o zásoby
+  \- uložení a péče o zásoby
 
-		\- výdej zásob
+  \- výdej zásob
 
 - Evidence
 - pomocí dokladů:
 
 1. Vystavené dodavatelem		__dodací list__ \(slouží ke kontrole při							přejímce\)
 
-						__faktura__ s náležitostmi daňového dokladu 						 \- doklad pro placení a zúčtování daně a 						zaúčtování
+   __faktura__ s náležitostmi daňového dokladu 						 \- doklad pro placení a zúčtování daně a 						zaúčtování
 
 1. Vystavené odběratelem 		__příjemka –__ slouží pro přijetí zboží na						sklad, vystavuje se ve skladu
 
-						__skladní karta__ – slouží k evidenci pohybu 						zboží a zjištění stavu zásob
+   __skladní karta__ – slouží k evidenci pohybu 						zboží a zjištění stavu zásob
 
-						__výdejka__ – slouží k výdeji materiálu do 						výroby
+   __výdejka__ – slouží k výdeji materiálu do 						výroby
 
 - Ocenění zásob ve skladu
 - __pořizovací cena__ = u nakupovaných zásob, zahrnuje: přepravní, clo, provize, pojistné

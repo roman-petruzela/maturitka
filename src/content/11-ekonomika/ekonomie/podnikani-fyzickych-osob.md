@@ -214,7 +214,7 @@ __Daňová povinnost, přeplatek__
 
 __Daňové přiznání a platba daně__ → po uplynutí, do 1\. dubna \(bez daňového poradce\)
 
-			          		        do 1\. července \(s daňovým poradcem\)
+do 1\. července \(s daňovým poradcem\)
 
 - Procentní uplatnění výdajů
 - místo skutečných výdajů se mohou příjmy __odečíst výdaje stanovené jako procento z příjmů:__

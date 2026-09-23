@@ -7,7 +7,7 @@ __Nekomerční__ __pojištění__ = ZP, SP, Důchodové připojištění \(dobro
 
 __Sociální zabezpečení__
 
-        = právně upraveno zákonem o sociálním zabezpečení a příspěvku na státní politiku zaměstnanosti
+= právně upraveno zákonem o sociálním zabezpečení a příspěvku na státní politiku zaměstnanosti
 
 - správou peněz se zabývá Česká správa sociálního zabezpečení přes OSSZ
 

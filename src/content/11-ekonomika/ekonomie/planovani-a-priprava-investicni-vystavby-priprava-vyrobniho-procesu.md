@@ -29,7 +29,7 @@ __Reprodukce \(obnova\) =__ nahrazování starého DM novým
 - vyjádřeno v %
 - zvýšení využití – podnik dosáhne přiblížení se k optimálním podmínkám výroby \(zlepšení organizace práce\)
 - Využitelný časový fond
-- maximální doba v hodinách, po kterou může být zařízení za 1 rok v chodu\. Jinak řečeno od celkového pracovní­ho času odečteme plánovaná přerušení provozu\.
+- maximální doba v hodinách, po kterou může být zařízení za 1 rok v chodu\. Jinak řečeno od celkového pracovního času odečteme plánovaná přerušení provozu\.
 - můžeme jej zjišťovat:
 	- za rok
 	- čtvrtletí
@@ -135,7 +135,7 @@ Výsledkem činnosti konstrukční přípravy je konstrukční dokumentace:
 
 __1\. Technické výkresy__
 
-__\-__ součástky__ __skupin a celého výrobku nebo střihový plán, recept, nákres, záleží na druhu výrobku
+__\-__ součástky skupin a celého výrobku nebo střihový plán, recept, nákres, záleží na druhu výrobku
 
 __2\. Kusovník__
 

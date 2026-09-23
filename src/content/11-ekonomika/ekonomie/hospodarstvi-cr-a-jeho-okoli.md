@@ -140,7 +140,7 @@ __Hospodářský cyklus:__
 
 	 nedobrovolná	regionální	strukturální
 
-			cyklická
+  cyklická
 
 - Inflace
 
@@ -148,7 +148,7 @@ __Hospodářský cyklus:__
 
 - zjišťuje se porovnáním cen vybraných produktů
 
-		tzv\. __spotřebitelský koš__
+  tzv\. __spotřebitelský koš__
 
 	\(potraviny, alkoholické nápoje a tabák, odívání a obuv, bydlení, voda, energie,
 
@@ -400,10 +400,9 @@ __EBRD – Evropská banka pro obnovu a rozvoj__
 
 __Dopad brexitu na ČR__
 
--
-	- spojené království je jeden z 5 největších odběratelů České republiky
-	- mohlo by nás to hodně bolet i z hlediska vyjednávání v EU
-	- UK je pro nás velký spojenec pro euro, takže možná bude větší nátlak, abychom ho zavedli
+- spojené království je jeden z 5 největších odběratelů České republiky
+- mohlo by nás to hodně bolet i z hlediska vyjednávání v EU
+- UK je pro nás velký spojenec pro euro, takže možná bude větší nátlak, abychom ho zavedli
 
 __Negativní vliv na EU__
 

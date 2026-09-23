@@ -88,17 +88,14 @@ __Akcie__
 - označení formy akcie
 - u akcie na jméno jednoznačnou identifikaci akcionáře
 - údaje o druhu akcie
-	-
-		- forma akcie
+    - forma akcie
 	- akcie na majetek volně převoditelné
-		-
-			-
-				- akcie na jména seznam akcionářů
+        - akcie na jména seznam akcionářů
 		- akcie má:
 			- jmenovitou \(nominální\) hodnotu
 			- tržní \(kurzovou\) hodnotu – cena, za kterou se nakupuje a prodává
 
-*                     Pozn\. rozdílem je ážio*
+*Pozn\. rozdílem je ážio*
 
 __Ručení__
 

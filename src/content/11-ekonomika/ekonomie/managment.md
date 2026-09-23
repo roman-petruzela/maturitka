@@ -7,7 +7,7 @@ __Management, funkce manažera__
 
 Pojem \(to manage\) = vést, řídit, starat se, spravovat 
 
-__Management má tyto významy:  __
+**Management má tyto významy:**  
 
 1. Samostatný vědní obor \(ekonom\., sociál\. Věda\) 
 2. Skupina řídících pracovníků \(manager= vedoucí, manageři= management\) 
@@ -17,13 +17,13 @@ __Management má tyto významy:  __
 
 __Definice managementu:__ Proces plánování, organizování, vedení a kontroly, zaměření na dosažení stanovených cílů\. 
 
-__Manager = __Každý vedoucí pracovník 
+Manager = Každý vedoucí pracovník 
 
               \- Výběr managerů je klíčovou podmínkou pro úspěch podnikání 
 
  
 
-     __PODNIKATEL__       				           __MANAGER__
+__PODNIKATEL__       				           __MANAGER__
 
 zaměstnavatel 
 
@@ -73,7 +73,7 @@ __MANAGERSKÉ FUNKCE__
 3. PERSONALISTIKA
 4. VEDENÍ LIDÍ
 5. KONTROLA
-6. __Plánování __
+6. **Plánování** 
 
 = Je specializovaná činnost, která řeší dvě věci: 
 
@@ -88,7 +88,7 @@ __MANAGERSKÉ FUNKCE__
 
 Plány jsou: 
 
-1. __Dle času  __
+1. **Dle času**  
 
 \- DLOUHODOBÉ \-\- 5 a více let 
 
@@ -100,7 +100,7 @@ Plány jsou: 
 
  
 
-1. __Dle cílů  __
+1. **Dle cílů**  
 
 \- STRATEGICKÉ \-\- zabývá se TOP management 
 
@@ -152,7 +152,7 @@ Plány jsou: 
 
  
 
-__2\. Organizování __
+**2\. Organizování** 
 
 \- Jde o rozdělení činností ve firmě na základě dělby práce, specializace a kooperace, vymezení vztahů nadřízenosti a podřízenosti a určení kompetencí a odpovědnosti 
 
@@ -166,7 +166,7 @@ Organizační schéma: grafické vyjádření vnitřního uspořádání firmy�
 
 DĚLENÍ ORGANIZAČNÍ STRUKTURY 
 
-1. __Dle pravomocí __
+1. **Dle pravomocí** 
 2. LINIOVÁ \- jednoduché uspořádání, dnes pouze v malých firmách, informace jsou předávány po 1 linii a platí zásada, že každý má pouze 1 přímého nadřízeného 
 
  
@@ -185,19 +185,19 @@ DĚLENÍ ORGANIZAČNÍ STRUKTURY 
 
  
 
-1. __Dle míry soustředění moci __
+1. **Dle míry soustředění moci** 
 2. CENTRALIZOVANÁ \- moc je soustředěna do rukou velmi úzké skupiny managerů, kteří rozhodují o všem 
 3. DECENTRALIZOVANÁ \- pravomoce jsou přeneseny na úrovně MNG 
 
  
 
-1. __Dle počtu řízení pracovníků __
+1. **Dle počtu řízení pracovníků** 
 2. PLOCHÁ \- obtížné předávání informací 
 3. ÚZKÁ \- pomalý tok informací 
 
  
 
-1. __ Dle času trvání __
+1.  **Dle času trvání** 
 2. TRVALÁ 
 3. DOČASNÁ \- na přechodné období 
 
@@ -207,7 +207,7 @@ DĚLENÍ ORGANIZAČNÍ STRUKTURY 
 
  
 
-1. __Dle formálnosti __
+1. **Dle formálnosti** 
 2. FORMÁLNÍ \- někdo něco nařídí 
 3. NEFORMÁLNÍ \- vzniká spontánně 
 
@@ -226,7 +226,7 @@ __Hodnocení zaměstnanců__
 
 \- Je prováděno: managery a personalisty
 
-               : najatou agenturou
+: najatou agenturou
 
 __Kritéria__
 
@@ -286,7 +286,7 @@ __odměny:__   __1\) HMOTNÉ__
 
 __2\) NEHMOTNÉ__\- nestojí firmu peníze
 
-__		__ \- pochvaly, uznání \(formou diplomu, zaměstnanec měsíce
+\- pochvaly, uznání \(formou diplomu, zaměstnanec měsíce
 
 1. __Kontrola__
 	- Proces vyhledávání odchylek od požadovaného stavu a opatření k jejich nápravě
@@ -337,9 +337,9 @@ Generální ředitel, ekonomický ředitel
 
 Př\.: FaB manager – manager restaurace
 
-		      – manager zásob
+– manager zásob
 
-		      – šéfkuchař
+– šéfkuchař
 
 - OPERATIVNÍ MANAGEMENT
 
@@ -365,15 +365,15 @@ __AUTOKRATICKÝ STYL__
 
 Autokrat= manager, který se rozhoduje sám a neradí se se svými podřízenými
 
-	   \- vydává pouze příkazy a neustále kontroluje jejich plnění
+\- vydává pouze příkazy a neustále kontroluje jejich plnění
 
-	   \- lze použít tam, kde pracovníci nemají zájem pracovat
+\- lze použít tam, kde pracovníci nemají zájem pracovat
 
-	   \- nevýhoda \- nízká motivace k zaměstnanci
+\- nevýhoda \- nízká motivace k zaměstnanci
 
-	   \- výhody – rychlost rozhodování
+\- výhody – rychlost rozhodování
 
-		      – kolektivy dosahují dobré kvantity \(množství\) Př\.: armáda
+– kolektivy dosahují dobré kvantity \(množství\) Př\.: armáda
 
 __DEMOKRATICKÝ STYL__
 

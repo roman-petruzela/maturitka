@@ -66,9 +66,9 @@ __3\) Ústavy__
 \- jsou soukromé nebo veřejné
 \- soukromé\- charita
 
-                                            __Majetková práva__
-__
-Absolutní majetková práva__
+__Majetková práva__
+
+**Absolutní majetková práva**
 \- působí všeobecně
 \- moc nad věcí
 \- nikdo nesmí zasahovat do vlastnictví jiné osoby
@@ -83,23 +83,23 @@ Věc= Každý předmět lidského chápání, ohraničený, má majetkovou hodno
 __A\)__ hmotné
 __B\)__ nehmotné
 
-__
-Hmotné věci__
+
+**Hmotné věci**
 \-zapsány v katastru nemovitostí, vždy písemná smlouva
 __1\)__ movité x nemovité
 __2\)__ spotřebitelné x upotřebitelné
 __3\)__ dělitelné x nedělitelné
 __4\)__ hlavní součást a příslušenství
-__
-Nehmotné věci:__
+
+**Nehmotné věci:**
 \- nemají žádné prostorové vymezení, mají majetkovou hodnotu
 \- vztah k nehmotným věcem upravuje __právo duševního vlastnictví__ = autorské právo \(trvá 70 let po smrti autora\)
-__
-Duševní vlastnictví: __
+
+**Duševní vlastnictví:** 
 Tvůrčí činnost\- licence
 Výsledek technické tvůrčí činnosti\- patent
 
-                              __Věcná práva \(k vlastním věcem\)__
+__Věcná práva \(k vlastním věcem\)__
 
 __A\) Držba:__
 \- faktické ovládání věci
@@ -134,7 +134,7 @@ Vznik:
 
 rozhodování podle podílu
 
-                           __Věcná práva k cizím věcem__
+__Věcná práva k cizím věcem__
 
 __Právo stavby:__
 \- právo stavebníka mít chatu na cizím pozemku
@@ -210,7 +210,7 @@ __6\. Třída__\- potomci sourozenců a prarodičů
 
 Lze dědit i kombinovaně
 
-                               __Relativní majetkové právo__
+__Relativní majetkové právo__
 
 = ustanovení o závazcích
 
@@ -266,8 +266,8 @@ Změna vlastnictví:
 __a\)__ u movité věci= okamžité předání
 __b\)__ u nemovité věci= datem zápisu do katastru
 \- v kupní smlouvě může být sjednaná delší záruční lhůta
-__
-3\) Směnná__
+
+**3\) Směnná**
 \- věc za věc
 \- barterové obchody
 
@@ -300,7 +300,7 @@ __11\) Smlouva o úvěru__
 = sjednám úrok
 
 __12\) Smlouva o zájezdu__
-__
-13\) Odvážné smlouvy__
+
+**13\) Odvážné smlouvy**
 \- prospěch či neprospěch jedné ze stran závisí na nejisté události
 př: smlouvy v pojišťovnictví

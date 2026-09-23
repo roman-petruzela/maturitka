@@ -92,10 +92,9 @@ __v Kč za měsíc__
 	- závisí na HMT a na počtu operací/výrobků, které splní
 	- výkonová norma – času = kolik času je potřeba na zhotovení 1 výrobku
 
-                                  − množství = kolik výrobků vyrobíme za 1 časovou jednotku
+      − množství = kolik výrobků vyrobíme za 1 časovou jednotku
 
--
-	- úkolová sazba = kolik zaměstnanec dostane za 1 kus \(v Kč\)
+- úkolová sazba = kolik zaměstnanec dostane za 1 kus \(v Kč\)
 
 1. __Podílová__
 	- provize, je závislá na tržbách, obratu, atd…

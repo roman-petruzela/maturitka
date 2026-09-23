@@ -85,7 +85,7 @@ __= pronájem práv k podnikání, kdy jedna strana poskytuje licenci a zaběhnu
 - kosmetická společnost Yves Rocher
 - drogerie Teta
 - Maloobchodní činnosti
-- __síť prodejen__ → nabízí __zboží konečnému spot__řebiteli
+- __síť prodejen__ → nabízí **zboží konečnému spot**řebiteli
 - __předmětem__ činnosti je __nákup a prodej zboží__
 - tvoří tržby za prodej zboží, vlastních výrobků a služeb \(pohostinství, ubytování, opravy motor\. vozidel a spotřebních předmětů\)
 - __uskutečňuje se__:
@@ -157,9 +157,9 @@ __Hospodaření maloobchodních jednotek__
 	- \+ zajistit dostatečný zisk
 - k ceně se připočítává DPH v příslušné sazbě \(u plátců\)
 
-*Příklad: *
+*Příklad:* 
 
-*Stanovte obchodní marži, prodejní cenu a zisk u pánského kola: *
+*Stanovte obchodní marži, prodejní cenu a zisk u pánského kola:* 
 
 *Nákupní cena = 8 600*
 
@@ -173,9 +173,9 @@ __Hospodaření maloobchodních jednotek__
 
 *obchodní marže = 2 408 … 8 600 \* 0,28*
 
-*prodejní cena = 11 008 … 8 600 \+ 2 408 *
+*prodejní cena = 11 008 … 8 600 \+ 2 408* 
 
-*zisk = 1 108 		… 2 408 – 1 300 *
+*zisk = 1 108 		… 2 408 – 1 300* 
 
 __Průběh obchodní činnosti v maloobchodě__
 

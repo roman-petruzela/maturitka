@@ -48,13 +48,13 @@ __Příprava výroby__
 
 __1\) organizační příprava výroby__ = řeší, kde se v podniku budou vyrábět výrobky
 
-	a\) __technologické__ = do jedné dílny dáme stejné nebo podobné stroje; výhody – dobrá organizace práce, není 	problém, když se stroj rozbije nebo onemocní pracovník, výhodné pro kusovou nebo malosériovou; nevýhody – 	špatný přehled o rozpracované výrobě, dlouhý výrobní proces
+a\) __technologické__ = do jedné dílny dáme stejné nebo podobné stroje; výhody – dobrá organizace práce, není 	problém, když se stroj rozbije nebo onemocní pracovník, výhodné pro kusovou nebo malosériovou; nevýhody – 	špatný přehled o rozpracované výrobě, dlouhý výrobní proces
 
-	b\) __předmětné__ = různé stroje v jedné dílně; výhody – krátký výrobní cyklus, protože výrobek je výsledkem 1 dílny, 	nízké náklady na přepravu v podniku; nevýhody – problémy při nemocnosti pracovníků nebo při poruše stroje
+b\) __předmětné__ = různé stroje v jedné dílně; výhody – krátký výrobní cyklus, protože výrobek je výsledkem 1 dílny, 	nízké náklady na přepravu v podniku; nevýhody – problémy při nemocnosti pracovníků nebo při poruše stroje
 
 __2\) technická příprava výroby__
 
-	a\) __konstrukce__ = jak výrobek vypadá, hmotnost, barva, nosnost;
+a\) __konstrukce__ = jak výrobek vypadá, hmotnost, barva, nosnost;
 
 - začínají na základě technického příkazu \(= jak má výrobek vypadat\); u technicky složitějších výrobků se dělá studie \(= porovnává náš výrobek s konkurenčními\)
 - následně se vytvoří __projekt__ = přesný popis výrobku – vzhled a fungování
@@ -100,7 +100,7 @@ Náklady na kus
 
 Ks
 
-	b\) __variabilní__ __náklady__
+b\) __variabilní__ __náklady__
 
 - náklady, které se mění v závislosti na objemu výroby
 

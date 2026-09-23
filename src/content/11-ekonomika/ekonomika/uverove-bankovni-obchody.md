@@ -65,14 +65,14 @@ __Krátkodobé a střednědobé úvěry__
 
 __Střednědobé a dlouhodobé úvěry__
 
-__3\) hypoteční úvě__r = nejoblíbenější typ úvěru, uzavírá se na dlouhé časové období, poskytuje se pouze na nemovitosti 	do výše 80\-90% její ceny; peníze na tyto úvěry získá banka prodejem hypotečních zástavních listů; banka musí mít 	licenci
+**3\) hypoteční úvě**r = nejoblíbenější typ úvěru, uzavírá se na dlouhé časové období, poskytuje se pouze na nemovitosti 	do výše 80\-90% její ceny; peníze na tyto úvěry získá banka prodejem hypotečních zástavních listů; banka musí mít 	licenci
 
 __4\) půjčky občanům__ = musí se prokázat, že má daná osoba příjem, ze kterého může splácet tuto půjčku
 
-	a\) __pořizovací__ __půjčka__ – banka nám půjčí na celou věc potřebnou částku
+a\) __pořizovací__ __půjčka__ – banka nám půjčí na celou věc potřebnou částku
 
-	b\) __doplňková__ __půjčka__ – část peněz mám, zbytek si půjčím
+b\) __doplňková__ __půjčka__ – část peněz mám, zbytek si půjčím
 
-	c\) __osobní__ __půjčka__ – neřeknu bance na co si půjčuji, vysoký úvěr => neuvedení důvodu
+c\) __osobní__ __půjčka__ – neřeknu bance na co si půjčuji, vysoký úvěr => neuvedení důvodu
 
 __5\) americká hypotéka__ = můžeme si ji vzít na cokoliv, vysoké částky \(můžou\), ručí se nemovitostí, splácí se cca do 20 let; úroky jsou větší než u hypotečního úvěru, ale menší než u ostatních úvěrů

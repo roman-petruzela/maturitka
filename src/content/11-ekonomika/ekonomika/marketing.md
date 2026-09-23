@@ -22,7 +22,7 @@ source: "MATURITA HADR/Ekonomika/6. Marketing.docx"
 1. __„ v terénu“__ – přímo se osloví zákazník na veřejnosti; převažuje
 2. __„od stolu“__ – vyhodnocují se různé statistické údaje; sledují se vývojové tendence
 
-- __Cí__l – určit co, komu, za jakou cenu a kde budeme prodávat
+- **Cí**l – určit co, komu, za jakou cenu a kde budeme prodávat
 
 *Marketingový mix* \(nelze zaměnit pořadí\)
 
@@ -103,9 +103,9 @@ __IV\.__
 4. __Podpora prodeje__
 5. __Na spotřebitele__ – __kupóny__ – předtištěná sleva na určité zboží, v určitém obchodě, určitou dobu
 
-	    __bonusy__ – slevy na celé balení od výrobce
+   __bonusy__ – slevy na celé balení od výrobce
 
-	    __rabat__ – nárok na dodatečnou slevu
+   __rabat__ – nárok na dodatečnou slevu
 
 1. __Na obchodníka__ – množstevní slevy na velké balení; za okamžitou platbu
 2. __Publicita__ – nejpravdivější nástroj propagace; nefinancován výrobcem; forma recenze na internetu, zpráv v odborných časopisech, různých výročních zpráv

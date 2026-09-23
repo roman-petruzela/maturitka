@@ -24,11 +24,10 @@ Zaměstnavatel 	24\.8 %
 Zam – tel 		9 %
 
 - Pojištěnci:
-	-
-		- Zaměstnanci
-		- Zaměstnavatelé
-		- OSVČ
-		- Osoby, za které platí stát \(děti, studenti\)
+    - Zaměstnanci
+    - Zaměstnavatelé
+    - OSVČ
+    - Osoby, za které platí stát \(děti, studenti\)
 
 __SP__
 
@@ -38,8 +37,7 @@ __SP__
 
 __NEMOCENSKÉ POJIŠTĚNÍ –__ výjimku mají OSVČ, nemusí si platit část soc\. pojištění a to nemocenské pojištění
 
--
-	- jsou vypláceny:
+- jsou vypláceny:
 
 1. __dávky v nemoci – „nemocenská“__, kterou prvních 14 dní platí zaměstnavatel jako náhradu mzdy
 
@@ -65,10 +63,8 @@ __NEMOCENSKÉ POJIŠTĚNÍ –__ výjimku mají OSVČ, nemusí si platit část 
 __DŮCHODOVÉ POJIŠTĚNÍ__
 
 1. __Starobní –__ musí být splněny 2 podmínky
-	-
-		-
-			- Dosažení věku 65 let
-			- počet pojištěných let \(33 – 35 let\)
+    - Dosažení věku 65 let
+    - počet pojištěných let \(33 – 35 let\)
 
 - Výše důchodu záleží na:
 - předchozích příjmech
@@ -76,11 +72,9 @@ __DŮCHODOVÉ POJIŠTĚNÍ__
 - Lze odejít do důchodu dříve:
 	- PŘEDČASNÝ DŮCHOD – nevýhodou je, že důchod je trvale zkrácen
 	- PŘEDDŮCHOD – o 5 let dříve
-		-
-			-
-				- Žadatel musí mít našetřeno v důchodovém pojištění
-				- Léta se započítávají
-				- Starobní důchod není krácen
+        - Žadatel musí mít našetřeno v důchodovém pojištění
+        - Léta se započítávají
+        - Starobní důchod není krácen
 
 1. __Sirotčí –__ náleží jednostranně/ oboustranně osiřelému dítěti
 
@@ -88,12 +82,10 @@ __DŮCHODOVÉ POJIŠTĚNÍ__
 - Výše záleží na době pojištění a na výši pojištění zemřelého rodiče
 
 1. __Vdovský/ vdovecký –__ vyplácí se ovdovělému za určitých podmínek:
-	-
-		-
-			- 1 rok po smrti partnera
-			- Po dobu péče tzv\. nezaopatřené dítě \(opět dokud studuje\)
-			- Pak až při starobní penzi část
-2. __Invalidní –__ 1\. – 3\. stupně, podle míry postižení__ __
+    - 1 rok po smrti partnera
+    - Po dobu péče tzv\. nezaopatřené dítě \(opět dokud studuje\)
+    - Pak až při starobní penzi část
+2. __Invalidní –__ 1\. – 3\. stupně, podle míry postižení 
 
 - Omezení výdělku
 

@@ -29,12 +29,10 @@ source: "MATURITA HADR/Účetnictví/19. Vnitropodnikové účetnictví.docx"
 - Podstata vnitropodnikového účetnictví spočívá v tom, že jednotlivé vnitropodnikové útvary \(hospodářská střediska\) si evidují své náklady, výnosy a zjišťují svůj hospodářský výsledek
 - Hospodářská střediska si také na určité období plánují \(rozpočtují\) své náklady a výnosy
 - Ve vnitropodnikovém účetnictví __NEBUDEME__ evidovat:
-	-
-		-
-			- Majetek\- výjimkou je nedokončená výroba, která se eviduje ve výrobní středisku a výrobky, které se evidují v odbytu
-			- Závazky a vlastní kapitál
-			- Poskytuje informace pro management podniku
-			- Řídí se vnitřními účetními směrnicemi
+    - Majetek\- výjimkou je nedokončená výroba, která se eviduje ve výrobní středisku a výrobky, které se evidují v odbytu
+    - Závazky a vlastní kapitál
+    - Poskytuje informace pro management podniku
+    - Řídí se vnitřními účetními směrnicemi
 
 __Význam vnitropodnikového účetnictví__
 
@@ -46,9 +44,8 @@ __Formy vnitropodnikového účetnictví__
 
 1. Vnitropodnikové účetnictví bude vedeno formou analytické evidence v rámci finančního účetnictví \(nazýváme jednookruhovým\)
 2. Vnitropodnikové účetnictví povedeme podvojným způsobem v rámci účtových tříd 8 a 9 \(nazýváme dvojkruhové\) a to:
-	-
-		- __Centralizované \-__ účetnictví všech středisek bude vedeno v jedné účtárně
-		- __Decentralizované \-__ každé hospodářské středisko si vede své účetnictví, bude zde nutný účet Střediskové převody
+    - __Centralizované \-__ účetnictví všech středisek bude vedeno v jedné účtárně
+    - __Decentralizované \-__ každé hospodářské středisko si vede své účetnictví, bude zde nutný účet Střediskové převody
 
 __Hlavní úkoly vnitropodnikového účetnictví__
 

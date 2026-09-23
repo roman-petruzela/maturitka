@@ -197,9 +197,9 @@ __Příklady ostatních závazků:__
 
 5\. VÚD vyúčtování náhrad pracovníkům za ztrátu výdělku, za bolest
 
-    a ztížení společenské uplatnění, věcnou škodu při pracovních
+a ztížení společenské uplatnění, věcnou škodu při pracovních
 
-    úrazech, úhrada na praní, žehlení a čištění pracovních oděvů	548	333
+úrazech, úhrada na praní, žehlení a čištění pracovních oděvů	548	333
 
 6\. VÚD převod zůstatků při uzavírání účetních knih	333	702
 

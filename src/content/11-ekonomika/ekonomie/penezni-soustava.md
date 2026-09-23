@@ -121,15 +121,15 @@ __Dělení:__
 
  \-investiční \- na pořízení dlouhodobého majetku
 
-       2\) Dle ručení \- zajištěné x nezajištěné
+2\) Dle ručení \- zajištěné x nezajištěné
 
-       3\) Dle poskytovatele \- bankovní x nebankovní
+3\) Dle poskytovatele \- bankovní x nebankovní
 
-       4\) Dle úročení \- s pevným úročením \- krátkodobý
+4\) Dle úročení \- s pevným úročením \- krátkodobý
 
-     \- s pohyblivým úročením \- dlouhodobý
+\- s pohyblivým úročením \- dlouhodobý
 
-       5\) Dle času
+5\) Dle času
 
 - Krátkodobé \- splatné do 1 roku
 
@@ -145,15 +145,15 @@ C\) Revolvingový \- banka umožňuje opakovat čerpání úvěru po splacení p
 
 D\) Lombardní \- se zástavou movité věci
 
-    \-akceptační \- banka přijme cizí směnku
+\-akceptační \- banka přijme cizí směnku
 
 -  Dlouhodobé
 
 A\) hypoteční úvěr \- zástavba nemovitostí
 
-            \- hypoteční zástavní listy
+\- hypoteční zástavní listy
 
-       B\) emisní úvěr \- spojen s emisí dlouhodobých CP např\.: podmínkových obligací
+B\) emisní úvěr \- spojen s emisí dlouhodobých CP např\.: podmínkových obligací
 
 Factoring\- odkup krátkodobých pohledávek
 
@@ -205,7 +205,7 @@ B\) Sociální \- platí ho zaměstnanci, zaměstnavatelé, OSVČ, vybrané pros
 4. Pojištění pracovních úrazů a nemocí z povolání
 5. Dobrovolné \- životní \- investiční, životní
 
-        \- neživotní \- osob, majetku, autopojištění, cestovní pojištění, podnikatelů
+   \- neživotní \- osob, majetku, autopojištění, cestovní pojištění, podnikatelů
 
 __Podílové fondy__
 

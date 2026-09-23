@@ -149,8 +149,8 @@ __Činnosti CA__
 - zprostředkovává prodej jednotlivých služeb pro CK, CA, jiné subjekty \(dopravci\) za provizi
 - prodej map, průvodců, jízdních řádů, …
 
-__
-Povinnosti CA__
+
+**Povinnosti CA**
 
 - označení provozovny, katalogů a propagačních materiálů slov „Cestovní agentura“, případně zkratkou „CA“
 - s účastníkem musí uzavřít smlouvu o zájezdu

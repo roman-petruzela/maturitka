@@ -43,7 +43,7 @@ __Podíl__
 
 - __převod podílu__ – každý společník může svůj podíl převést na jiného společníka se souhlasem určitého orgánu, pokud je uvedeno v SS; může převést i na osobu, která není společníkem se souhlasem valné hromady
 - __dědění podílu__ – dědic se může domáhat, aby byla zrušena jeho účast ve společnosti soudem, jestliže uvede důvody, podle kterých nemůže ve společnosti setrvat
-- __uvolněný podí__l – podíl společníka, jehož účast zanikla jinak než převodem podílu; společnost s podílem nakládá jako zmocněnec, tento podíl prodá za přiměřenou cenu s možností i prodání společníkovi či společníkům v poměru jejich vkladů
+- **uvolněný podí**l – podíl společníka, jehož účast zanikla jinak než převodem podílu; společnost s podílem nakládá jako zmocněnec, tento podíl prodá za přiměřenou cenu s možností i prodání společníkovi či společníkům v poměru jejich vkladů
 
 __Zrušení OS__
 
@@ -77,6 +77,6 @@ __Práva a povinnosti společníků__
 
 __Orgány společnosti__
 
-1. __valná hromada –__ hlasování je stanoveno ve společenské smlouvě a musí se účastnit __osobně nebo v zastoupení__ \(plná moc\); společníci se mohou usnášet jestli jsou přítomni společníci, alespoň s polovinou všech hlasů 1hlas = 1,\- Kč; termín se oznamuje písemně 15 dní dopředu; volí se __předseda a zapisovatel__; rozhoduje o změně výše __základního kapitálu__, změně s__polečenské smlouvy,__ __jmenování__ a __odvolání jednatelů__, __likvidátorů__; udělení __prokury__; zrušení společnosti a projednává účetní závěrku
+1. __valná hromada –__ hlasování je stanoveno ve společenské smlouvě a musí se účastnit __osobně nebo v zastoupení__ \(plná moc\); společníci se mohou usnášet jestli jsou přítomni společníci, alespoň s polovinou všech hlasů 1hlas = 1,\- Kč; termín se oznamuje písemně 15 dní dopředu; volí se __předseda a zapisovatel__; rozhoduje o změně výše __základního kapitálu__, změně s**polečenské smlouvy,** __jmenování__ a __odvolání jednatelů__, __likvidátorů__; udělení __prokury__; zrušení společnosti a projednává účetní závěrku
 2. __jednatelé –__ jsou __statutárním orgánem;__ provádí obchodní vedení společnosti; zajišťují řádné vedení předepsané evidence a účetnictví; vedou __seznam společníků__; zajišťují nové vypracování SS a uložení do sbírky listin v obchodním rejstříku; pokud jednatel zemře nebo odstoupí tak musí být do __1 měsíce zvolen valnou hromadou nový jednatel__; má __zákaz konkurence__
 3. __dozorčí rada –__ zřizuje se pokud je uvedeno ve SS; tato rada __dohlíží na činnost jednatelů;__ nahlíží do účetních knih a jiných dokladů a účetních závěrek; podává jednou za rok zprávu o své činnosti valné hromadě; členem nemůže být jednatel a má __zákaz konkurence__

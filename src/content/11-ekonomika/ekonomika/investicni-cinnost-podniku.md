@@ -54,9 +54,9 @@ __2\.2\) Stavební investice__
 
 	2\) __dodavatel__ – osoba, která uskutečňuje investiční výstavbu
 
-		a\) __generální dodavatel__ – odpovídá za realizaci celé investiční výstavby
+  a\) __generální dodavatel__ – odpovídá za realizaci celé investiční výstavby
 
-		b\) __subdodavatel__ – realizuje pouze určité části investiční výstavby
+  b\) __subdodavatel__ – realizuje pouze určité části investiční výstavby
 
 	3\) __projektant__ – řeší investiční výstavbu po stránce technické, architektonické, finanční, právní atd\.
 

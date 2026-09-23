@@ -17,13 +17,13 @@ __Mikroekonomie__ – zabývá se hospodářskými vztahy jednotlivých subjekt�
 
 ## __Potřeby__
 
-              \- vrozený či získaný pocit nedostatku nebo nadbytku, který se snažíme odstranit
+\- vrozený či získaný pocit nedostatku nebo nadbytku, který se snažíme odstranit
 
-              \- neustále se vyvíjí, nelze je zcela nikdy uspokojit
+\- neustále se vyvíjí, nelze je zcela nikdy uspokojit
 
-              \- individuálně se liší podle: věku, pohlaví, vzdělání, zájmů…
+\- individuálně se liší podle: věku, pohlaví, vzdělání, zájmů…
 
-	\- nikdy je nelze zcela uspokojit
+\- nikdy je nelze zcela uspokojit
 
 ### Členění potřeb:
 
@@ -94,17 +94,17 @@ __Věcné__ – týkají se hmotných statků člověka, např\.: autoopravy, pr
 
 - __Domácnosti__ = chtějí na trhu uspokojit své potřeby
 
-                      = vystupují jako kupující \(zboží\) a jako prodávající prac\. síly
+  = vystupují jako kupující \(zboží\) a jako prodávající prac\. síly
 
 __Prac\. síla__ = souhrn znalostí, dovedností a schopností konat práci
 
 - __Firmy__ = na trhu vystupují jako prodávající \(zboží, služby\) a nakupují vstupy do podnikání \(výrobní faktory\)
 
-           = cíl firem je minimalizovat zisk
+  = cíl firem je minimalizovat zisk
 
 - __Stát__ = vstupuje na trh s cílem regulovat jeho dopady na některé skupiny lidí \(senioři, nemocní lidé, méně kvalifikovaní lidé\)
 
-        = vstupuje na trh jako kupující \(výrobní faktory, energie\)
+  = vstupuje na trh jako kupující \(výrobní faktory, energie\)
 
 ## Zboží
 
@@ -134,9 +134,9 @@ __4\. Spotřeba__
 
 \- k výrobě jsou potřebné tzv\. výrobní činitele \(zdroje\):	__1\) Práce__
 
-                                                                                     	 __2\) Půda a přírodní zdroje__
+__2\) Půda a přírodní zdroje__
 
-                                                                                            __3\) Kapitál__
+__3\) Kapitál__
 
 ### 1\) Práce
 
@@ -150,25 +150,25 @@ __4\. Spotřeba__
 
 B\) __Fyzická__ – převládá činnost svalů, např\.: horník, zedník
 
-       2\.     A\) __Řídící__ – vykonává manager
+2\.     A\) __Řídící__ – vykonává manager
 
-                B\) __Výkonná__ – vykonává podřízený manažera
+B\) __Výkonná__ – vykonává podřízený manažera
 
-       3\.      A\) __Jednoduchá__ – méně kvalifikovaná \(pásová výroba\)
+3\.      A\) __Jednoduchá__ – méně kvalifikovaná \(pásová výroba\)
 
-                B\) __Složitá__ – vyžaduje více znalostí
+B\) __Složitá__ – vyžaduje více znalostí
 
-       4\.     A\) __Kvalifikovaná__ – je potřeba určitá kvalifikace pro výkon práce
+4\.     A\) __Kvalifikovaná__ – je potřeba určitá kvalifikace pro výkon práce
 
-                B\) __Nekvalifikované – není__ potřebná kvalifikace
+B\) __Nekvalifikované – není__ potřebná kvalifikace
 
-       5\.      A\) __Mechanické__ – neustále se opakující \(pásová výroba\)
+5\.      A\) __Mechanické__ – neustále se opakující \(pásová výroba\)
 
-                 B\) __Tvůrčí__ – nestereotypní, proměnlivá, např\.: sochař, lékař
+B\) __Tvůrčí__ – nestereotypní, proměnlivá, např\.: sochař, lékař
 
-        6\.      A\) __Živá__ – průběh práce člověka, např\.: kuchař vaří, učitel učí
+6\.      A\) __Živá__ – průběh práce člověka, např\.: kuchař vaří, učitel učí
 
-                 B\) __Zvěcnělá__ – práce obsažená již v hotových věcech
+B\) __Zvěcnělá__ – práce obsažená již v hotových věcech
 
 #### Při vzniku statků a služeb dochází:
 
@@ -184,13 +184,13 @@ B\) __Fyzická__ – převládá činnost svalů, např\.: horník, zedník
 
 \- dělíme je na: 1\. __Vzácné__ \(omezené\)
 
-                           2\. __Nenahraditelné__
+2\. __Nenahraditelné__
 
 \- tvoří je: __a\) Přírodní síly__
 
-                 __b\) Půda__
+__b\) Půda__
 
-                 __c\) Nerostné suroviny__
+__c\) Nerostné suroviny__
 
 ### __Půda__
 
@@ -293,13 +293,13 @@ B\) __V__ __domácnosti__ – KONEČNÁ SPOTŘEBA
 
 4\. __Trvanlivost__ – bankovky vyrábí státní tiskárna cenin v Praze, jejich autorem je \-> Oldřich Kulhánek
 
-                         \- mince se razí v Jablonci
+\- mince se razí v Jablonci
 
 #### Funkce peněz:
 
 1. __Prostředek__ __směny__ = usnadňují směnu služeb a zboží
 2. __Oběživo__ = obíhají mezi subjekty trhu
-3. __Slouží jako zúčtovací jednotka__ = pomocí nich umíme vyjádřit hodnotu jakéhokoli produk__tu__
+3. __Slouží jako zúčtovací jednotka__ = pomocí nich umíme vyjádřit hodnotu jakéhokoli produk**tu**
 4. __Tezaurace__ = slouží k hromadění a je možné je použít i v budoucnu \(INFLACE\)
 
 #### Ochranné prvky bankovek:

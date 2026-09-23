@@ -7,7 +7,7 @@ source: "MATURITA HADR/Ekonomie/25.-cestovní-ruch.docx"
 - Neexistuje žádná všeobecně platná definice CR, nejvíce se využívá definice světové organizace WTO
 - Zahrnuje činnosti osob, které cestují a pobývají mimo své trvalé bydliště po dobu nepřesahující 1 rok, za účelem využití volného času, obchodním i jiným účelem\.
 
-__*ÚČASTNÍK *__
+__ÚČASTNÍK *__
 
  výletník – do 24 h, nepřenocuje
 
@@ -19,19 +19,19 @@ __*Členění CR*__
 2. Podle délky trvání – krátkodobý \(do 3 dnů\) , dlouhodobý \(nad 3 dny\)
 3. Podle způsobu přípravy, cesty a pobytu – A\) organizovaný \-ck, škola, zaměstnavatel
 
-                                                                 B\) neorganizovaný – pobyt a cestu si zajistí účastník sám
+   B\) neorganizovaný – pobyt a cestu si zajistí účastník sám
 
 4\) Podle způsobu úhrady nákladů na cestování – A\) volný – vše si hradí účastník sám
 
-                                                                                B\) vázaný – část hradí účastník část jiný subjekt
+B\) vázaný – část hradí účastník část jiný subjekt
 
 5\) Podle vztahu CR k platební bilanci – A\) aktivní \(příjezdový\)
 
-                                                                     B\) pasivní \(výjezdový\)
+B\) pasivní \(výjezdový\)
 
 __*Divizové prostředky*__ – __valuty__ \(cizí měna v hotovosti\) a __devizy__ \(cizí měna v bezhotovostní formě\)
 
-__*Základní složky CR *__
+__Základní složky CR *__
 
 __Lidé__ – účastníci , zaměstnanci
 
