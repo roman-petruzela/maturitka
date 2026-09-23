@@ -650,7 +650,7 @@ Karta kreslí obraz – je tak jádrem celé soustavy
 
 - Kontrast
 
-      -  nesměrodatný údaj cca 160° v obou osách
+  -  nesměrodatný údaj cca 160° v obou osách
 
    - Úhel pohledu
 
