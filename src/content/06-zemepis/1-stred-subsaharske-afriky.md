@@ -14,7 +14,7 @@ __GEOGRAFIE STŘEDNÍ AFRIKY__
 
 - Střední Afrika leží na __Konžské pánvi__ – mělká sníženina, která vznikla v prvohorách a
 
-          zabírá 3 mil\. km2 velké území
+  zabírá 3 mil\. km2 velké území
 
 - Leží na jih od pouště Sahary a západně od Velké příkopové propadliny
 - Řeka __Kongo__ a její přítoky zde tvoří druhou největší říční síť na světě
@@ -174,5 +174,5 @@ __OBYVATELSTVO A POLITIKA__
 - Státním zřízením to je republika \(prezident Félix Tshisekedi\)
 - Správní členění: 26 autonomních provincií
 
-__
-__
+
+

@@ -3,8 +3,8 @@ title: "1 BIOSFÉRA"
 order: 6
 source: "MATURITA HADR/Zeměpis/Zeměpis GLP/6.1 BIOSFÉRA.docx"
 ---
-__BIOSFÉRA
-__
+**BIOSFÉRA**
+
 
 = živý obal země
 
@@ -60,8 +60,8 @@ __Společenstva__
 - existují mezi nimi vztahy
 - živá čalst ekosystému
 
-__
-Biomy__
+
+**Biomy**
 
 - dílčí oblast biosféry, charakterizovaná určitým typem biotických a abiotických podmínek
 - Vodní \- biom volného oceánu, biom šelfových moří

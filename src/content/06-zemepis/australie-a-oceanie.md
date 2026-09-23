@@ -21,7 +21,7 @@ source: "MATURITA HADR/Zeměpis/Zeměpis GLP/14. Austrálie a Oceánie.docx"
 - uznává královnu VB
 - dlouhodobá diskriminace pův\. ob\.
 - dlouho se do Austrálie směli přistěhovat jen bílí křesťané z Evropy
-- __3 geologické celky__:__ __Západoaustralská plošina, Středoaustralská pánev a Velké předělové pohoří
+- __3 geologické celky__: Západoaustralská plošina, Středoaustralská pánev a Velké předělové pohoří
 - leží na jižní a východní polokouli
 - nejsevernější bod: mys York
 - nejjižnější bod: Jihovýchodní mys

@@ -13,7 +13,7 @@ source: "MATURITA HADR/Zeměpis/Zeměpis GLP/11. POLITICKÁ MAPA SVĚTA.docx"
 - Politická geografie = Vědní disciplína o politologii a geografii\.
 
 1. __Změny na politické mapě světa__
-2. __Období po 1\. světové válce\-__rozpad Rakousko\-Uherska, Německo ztrácí kolonie \(Nigérie, Kongo, Samoa\), vznik nástupnických států \(Polsko, Rakousko, Maďarsko, Československo\), zánik carského Ruska \(vznik SSSR 1922\)
+2. Období po 1\. světové válce\-rozpad Rakousko\-Uherska, Německo ztrácí kolonie \(Nigérie, Kongo, Samoa\), vznik nástupnických států \(Polsko, Rakousko, Maďarsko, Československo\), zánik carského Ruska \(vznik SSSR 1922\)
 3. __Období po 2\. světové válce\-__ bipolární rozdělení světa, ztráty pro Německo, období Studené války, okupace Pobaltí Sovětským svazem, vznik Jugoslávie, světová dekolonizace\- 1960 rok Afriky\- 17 států se osamostatnilo, neokolonialismus
 4. __Období po roce 1989\-__ rozpad ČSR\-vznik ČR, rozpad SSSR, rozpad Jugoslávie, konec Studené války\- demokratizace, převraty socialistických republik, pád Berlínské zdi
 
@@ -43,7 +43,7 @@ source: "MATURITA HADR/Zeměpis/Zeměpis GLP/11. POLITICKÁ MAPA SVĚTA.docx"
 
 1. __Podle způsobu vlády__
 
-- __Demokracie\-__pluralita politických stran, ústava, parlament, volby, moc rozdělena
+- Demokracie\-pluralita politických stran, ústava, parlament, volby, moc rozdělena
 - __Autokracie__\-totalitní, fašistické nebo komunistické oblasti \(Čína, Vietnam, Kuba\)
 
 1. __Podle územní organizace__
@@ -83,7 +83,7 @@ source: "MATURITA HADR/Zeměpis/Zeměpis GLP/11. POLITICKÁ MAPA SVĚTA.docx"
 1. __Charakteristika současného světa__
 
 - Po 2\. světové válce svět rozdělen mezi 2 velmoci\-SSSR a USA\-__bipolární svět\.__
-- __Unipolární svět\-__1 velmoc \(USA\), __multipolární svět__\-několik menších velmocí, vzájemná kontrola, __neokolonialismus\-__novodobé ekonomické využívání kolonií\.
+- Unipolární svět\-1 velmoc \(USA\), __multipolární svět__\-několik menších velmocí, vzájemná kontrola, neokolonialismus\-novodobé ekonomické využívání kolonií\.
 
 __Mezinárodní organizace__
 

@@ -8,8 +8,8 @@ source: "MATURITA HADR/Zeměpis/Zeměpis GLP/24. jihovýchodní Evropa.docx"
 __STÁTY:__ Slovinsko \(Lublaň\), Chorvatsko \(Záhřeb\), Bosna a Hercegovina \(Sarajevo\), Srbsko \(Bělehrad\), Černá hora \(Podgorica\), Makedonie \(Skopje\), Albánie \(Tirana\), Bulharsko \(Sofie\),
 Rumunsko \(Bukurešť\), \[Kosovo \(Priština\) – dodnes není uznáno jako samostatný stát, ale většina je tak bere\]
 
-__3 ZÁKLADNÍ ČÁSTI:
-__1\. Bulharsko a Rumunsko
+3 ZÁKLADNÍ ČÁSTI:
+1\. Bulharsko a Rumunsko
 2\. bývalé státy Jugoslávie
 3\. Albánie
 

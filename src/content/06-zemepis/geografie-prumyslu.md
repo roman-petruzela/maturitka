@@ -20,7 +20,7 @@ source: "MATURITA HADR/Zeměpis/Zeměpis GLP/9. GEOGRAFIE PRŮMYSLU.docx"
 
 __Těžba uhlí__ \- průmyslový pás USA\- Apalačské pohoří, Porúří, britský Midlands, Doněcko \- dněperský region Ukrajiny, světadíly s největší těžbou: Asie, Evropa a Severní Amerika, největší producenti: Čína, USA, Indie, Austrálie, Rusko; hlavní exportér: Austrálie
 
-__Těžba ropy \-__ Perský záliv \(Saudská Arábie, Írán, Irák, Kuvajt\), Kaspické moře \(Rusko, Írán, Turkmenistán\)\. Sundský šelf \(Malajsie, Brunej, Indonésie\)__,__ Severní Amerika: Mexický, Aljaška__,__ Jižní Amerika: Venezuela, Kolumbie a Ekvádor, Evropa: Rumunsko, VB a Norsko \(Severní moře\), severní Rusko__,__ Afrika: \(Egypt, Libye, Alžírsko\), Angola \(Guinejský záliv\)
+__Těžba ropy \-__ Perský záliv \(Saudská Arábie, Írán, Irák, Kuvajt\), Kaspické moře \(Rusko, Írán, Turkmenistán\)\. Sundský šelf \(Malajsie, Brunej, Indonésie\)__,__ Severní Amerika: Mexický, Aljaška, Jižní Amerika: Venezuela, Kolumbie a Ekvádor, Evropa: Rumunsko, VB a Norsko \(Severní moře\), severní Rusko, Afrika: \(Egypt, Libye, Alžírsko\), Angola \(Guinejský záliv\)
 
 __Těžba zemního plynu__ \- ekologicky čisté palivo, největší zásoby v Rusku a jihozápadní Asii, na 1\. místě v těžbě \- USA \(Texas\), Rusko, Írán, Kanada, Perský záliv
 

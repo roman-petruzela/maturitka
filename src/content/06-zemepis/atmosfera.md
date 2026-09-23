@@ -79,7 +79,7 @@ Počasí
 
 \- změny počasí způsobeny především zemskou rotací
 
-                Meteorologické prvky
+Meteorologické prvky
 
 \-pomáhají ke kvalitní a účelné předpovědi průběhu počasí
 

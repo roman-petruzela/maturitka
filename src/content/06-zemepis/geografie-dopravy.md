@@ -14,7 +14,7 @@ __DOPRAVA__
 - nezastupitelný význam ve světové ekonomice
 - samotná doprava je větším spotřebitelem primárních energetických zdrojů než celý průmysl dohromady \(28% oproti 25%\)
 - 3 základní složky: dopravní cesty a uzly, dopravní prostředky, ostatní dopravní infrastruktura \(řídící centra, čerpadla pohonných hmot…\)
-- základní druhy dopravy:__ __
+- základní druhy dopravy: 
 - __pevninská__ \- silniční, železniční, říční, potrubní, rozvod elektřiny
 - __námořní__
 - __vzdušná__
@@ -71,9 +71,9 @@ __Vodní doprava__
 - pomalá, ale nejlevnější \- doprava velkých objemů na velké vzdálenosti \(ropa, zemědělské plodiny, průmyslové výrobky…\)
 - vodní cesty: __vnitrozemské a námořní__
 - __námořní:__ interkontinentální a příbřežní
-- nejvýznamnější doprava: Atlantik\- spojení mezi Starým a Novým světem__,__ trasy spojující Asii s Amerikou
-- plavidla: ____malé lodě__, __středně velké lodě__, __velké zaoceánské parníky__, trajektové lodě__,__ tankery__:přepravují ropu__, __lodě přepravující sypké materiály__, univerzální lodě__:přepravují smíšení náklady__, kontejnerové lodě__:přepravují kontejnery
-- přístavy: dopravní uzly, překládka nákladu__:__ Šanghaj, Singapur, Rotterdam, Hongkong, Antverpy, New Orleans, New York
+- nejvýznamnější doprava: Atlantik\- spojení mezi Starým a Novým světem, trasy spojující Asii s Amerikou
+- plavidla: ____malé lodě__, __středně velké lodě__, __velké zaoceánské parníky__, trajektové lodě__, tankery:přepravují ropu, __lodě přepravující sypké materiály__, univerzální lodě:přepravují smíšení náklady, kontejnerové lodě:přepravují kontejnery
+- přístavy: dopravní uzly, překládka nákladu: Šanghaj, Singapur, Rotterdam, Hongkong, Antverpy, New Orleans, New York
 - Trampová přeprava\-plují nepravidelně \(podle potřeby\), trampových je víc než linkových
 - Linková přeprava\-plují na pevně stanovených trasách \(podle jízdního řádu\)
 - __Vnitrozemské:__ přeprava hromadných substrátů na střední a velké vzdálenosti
@@ -143,9 +143,9 @@ __Druhy cestovního ruchu__
 
 - dle místa hosta a jeho realizace:
 - domácí
-- zahraniční: ____aktivní\-návštěva určité země zahraničními turisty__, __pasivní – vycestování turistů ze své země
-- dle délky pobytu:__ __krátkodobý \(1\-3 dny\) či dlouhodobý
-- dle původu hosta:__ __bezprostřední \(blízké\) okolí či vzdálené okolí
+- zahraniční: __aktivní\-návštěva určité země zahraničními turisty__, pasivní – vycestování turistů ze své země
+- dle délky pobytu: krátkodobý \(1\-3 dny\) či dlouhodobý
+- dle původu hosta: bezprostřední \(blízké\) okolí či vzdálené okolí
 - dle formy úhrady nákladů:
 	- volný CR \- účastní si platí vše sám
 	- vázaný CR \- platí firma \- zaměstnanec\. ŠVP, lázně…

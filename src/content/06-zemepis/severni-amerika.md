@@ -13,7 +13,7 @@ source: "MATURITA HADR/Zeměpis/Zeměpis GLP/12. Severní Amerika.docx"
 __Povrch__
 
 - horizontálně velice členitý s řadou zálivů, poloostrovů \(největší poloostrov – Labrador\) a ostrovů
-- na vývoj reliéfu velký vliv hranice litosférický desek – leží na severoamerické litosférické desce \+ na západním pobřeží dochází k přibližování de­sek
+- na vývoj reliéfu velký vliv hranice litosférický desek – leží na severoamerické litosférické desce \+ na západním pobřeží dochází k přibližování desek
 - díku pohybu desek se vytvořily Kordillery \(nejdelší pásemné pohoří světa, nejvyšší hora Denali– Aljaška\)
 - část hranice mezi deskami – zlomové pásmo San Andreas v Kalifornii – v tomto místě je častá zemětřesná činnost
 - převládá hornatý charakter
@@ -171,7 +171,7 @@ nejnavštěvovanější oblasti: Kalifornie, Florida, Havaj, NY
 - Provincie: Alberta, Britská Kolumbie, Manitoba, Nový Brunšvik, Newfoundland a Labrador, Nové Skotsko, Ontario, Ostrov prince Edwarda, Québec a Saskatchewan
 - Teritoria: Severozápadní teritoria, Nunavut a Yukon
 - Uznává královnu VB
-- Nízká hustota zalidnění – asi 3 ob/km__²__
+- Nízká hustota zalidnění – asi 3 ob/km**²**
 - V pásu 300 km od hranic s USA žije asi 90% obyvatel
 - 2\. největší stát světa – rozloha asi 10 000 km __²__
 - Složení obyvatel: 92% evropského původu \(hlavně VB a F\), 2% původní obyvatelé = lesní Indiáni a Inuité na severu
@@ -211,11 +211,11 @@ nejnavštěvovanější oblasti: Kalifornie, Florida, Havaj, NY
 - Oficiální název: Grónsko
 - Hlavní město: Nuuk
 - Úřední jazyk: grónština, dánština
-- __Obyvatelstvo
-__Původními obyvateli byli Eskymáci, kteří dnes řídce osidlují jižní a západní pobřeží Grónska\. Převážnou část obyvatelstva tvoří Gróňané, což jsou Inuité, běloši narození v Grónsku a míšenci\. Zbytek populace tvoří Dánové, kteří se sem přistěhovali\. Na ostrově je poměrně obtížné zjistit původ zde žijících lidí, jelikož zde probíhalo neregistrované přistěhovalectví, velká migrace a za staletí se smísila veškerá etnika\. Téměř všichni obyvatelé jsou luteráni\. Kromě úředních jazyků se na ostrově používá také východní inuitština\. V zemi je pouze 1% negramotnost\.
-- __Ekonomika
-__Hlavním zdrojem příjmů místních obyvatel je rybolov, který tvoří 92 % veškerého exportu ze země\. Loví se také kožešinová zvířata\. Lidé zde chovají ovce a soby, tuleně, mrože a kožešinovou zvěř\. Hlavními nerostnými surovinami jsou kryolit, grafit, ruda zinku a olova, uhlí a platina\. Lidé se věnují také řezbářství\. Z velrybích, narvalích a mrožích kostí či klů vyřezávají nejrůznější předměty a suvenýry\. V Grónsku najdeme i bohaté zásoby minerálů, bylo zde objeveno kolem 500 druhů minerálů\. Rozvíjí se také turismus, který je však limitován krátkou sezónou\. Musí se zde dovážet potraviny, spotřební zboží, stroje a dopravní zařízení\.
-- __Dějiny a kultura
-__Grónsko objevil roku 875 vikingský mořeplavec Gurnbjorn\. V letech 982\-985 prozkoumával ostrov Nor Erik Rudý\. Kolem 10\. století na ostrov dopluli Islanďané a začali jej kolonizovat\. V roce 1261 se pak ostrov dostal pod norskou, v roce 1380 pod dánskou svrchovanost a nakonec je od roku 1814 součástí dánského státu\. Během 2\. světové války byl ostrov pod ochranou Spojených států, které zde začaly budovat své vojenské základny\.V roce 1953 byla vyhlášena autonomie\. V roce 1979 získal ostrov vnitřní samosprávu\. Grónsko má své 2 poslance v Dánském parlamentu\.
+- Obyvatelstvo
+Původními obyvateli byli Eskymáci, kteří dnes řídce osidlují jižní a západní pobřeží Grónska\. Převážnou část obyvatelstva tvoří Gróňané, což jsou Inuité, běloši narození v Grónsku a míšenci\. Zbytek populace tvoří Dánové, kteří se sem přistěhovali\. Na ostrově je poměrně obtížné zjistit původ zde žijících lidí, jelikož zde probíhalo neregistrované přistěhovalectví, velká migrace a za staletí se smísila veškerá etnika\. Téměř všichni obyvatelé jsou luteráni\. Kromě úředních jazyků se na ostrově používá také východní inuitština\. V zemi je pouze 1% negramotnost\.
+- Ekonomika
+Hlavním zdrojem příjmů místních obyvatel je rybolov, který tvoří 92 % veškerého exportu ze země\. Loví se také kožešinová zvířata\. Lidé zde chovají ovce a soby, tuleně, mrože a kožešinovou zvěř\. Hlavními nerostnými surovinami jsou kryolit, grafit, ruda zinku a olova, uhlí a platina\. Lidé se věnují také řezbářství\. Z velrybích, narvalích a mrožích kostí či klů vyřezávají nejrůznější předměty a suvenýry\. V Grónsku najdeme i bohaté zásoby minerálů, bylo zde objeveno kolem 500 druhů minerálů\. Rozvíjí se také turismus, který je však limitován krátkou sezónou\. Musí se zde dovážet potraviny, spotřební zboží, stroje a dopravní zařízení\.
+- Dějiny a kultura
+Grónsko objevil roku 875 vikingský mořeplavec Gurnbjorn\. V letech 982\-985 prozkoumával ostrov Nor Erik Rudý\. Kolem 10\. století na ostrov dopluli Islanďané a začali jej kolonizovat\. V roce 1261 se pak ostrov dostal pod norskou, v roce 1380 pod dánskou svrchovanost a nakonec je od roku 1814 součástí dánského státu\. Během 2\. světové války byl ostrov pod ochranou Spojených států, které zde začaly budovat své vojenské základny\.V roce 1953 byla vyhlášena autonomie\. V roce 1979 získal ostrov vnitřní samosprávu\. Grónsko má své 2 poslance v Dánském parlamentu\.
 - __Geografie__
 Grónsko je největší ostrov světa, který se rozkládá mezi Atlantským a Severním ledovým oceánem\. Jelikož leží severovýchodně od Kanady, považuje se geograficky za součást Severní Ameriky\. Politicky a historicky však náleží Dánsku\. Většina ostrova je pokryta ledem, pouze 15 % jeho rozlohy je trvale bez ledu\. Žije zde množství vzácných zvířat, jako například medvěd lední, tur pižmový, sobi, hranostaj, lumík, polární liška či vlk, několik druhů tuleňů, mroži, velryby a spousta dalších\. Na skalách hnízdí také hejna mořských ptáků\. Na ostrově je největší národní park na světě – Severogrónský národní park\.

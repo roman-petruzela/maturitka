@@ -75,30 +75,26 @@ průlivy:
 chemické složení
 
 - salinita  – dána celkovým množstvím rozpuštěných látek v 1 kg mořské vody
-	-
-		- látky – chloridy, sírany, uhličitany
-		- vyjadřuje se v promile – průměrná salinita = 35 promile
-		- ovlivňována srážkami, výparem z hladiny, přítokem říční vody, změnami teploty vody, oceánskými proudy, hloubkou moře
-		- moře mírných zem\. šířek mají nižší salinitu než moře tropů a subtropů
+    - látky – chloridy, sírany, uhličitany
+    - vyjadřuje se v promile – průměrná salinita = 35 promile
+    - ovlivňována srážkami, výparem z hladiny, přítokem říční vody, změnami teploty vody, oceánskými proudy, hloubkou moře
+    - moře mírných zem\. šířek mají nižší salinitu než moře tropů a subtropů
 - chlorinita – množství solí rozpuštěné v 1 kg mořské vody
 
 fyzikální vlastnosti
 
 - barva     – závisí na množství minerálních a org\. látek rozpuštěných ve vodě
-	-
-		- zelenou barvu má mořská voda s planktonem
-		- modrou barvu má čistá mořská voda
+    - zelenou barvu má mořská voda s planktonem
+    - modrou barvu má čistá mořská voda
 - hustota – vyšší než u sladké vody
-	-
-		- závisí na teplotě, salinitě a tlaku
-		- nejnižší v tropických oblastech
-		- se zeměpisnou šířkou se hustota zvyšuje, maxima v polárních oblastech
+    - závisí na teplotě, salinitě a tlaku
+    - nejnižší v tropických oblastech
+    - se zeměpisnou šířkou se hustota zvyšuje, maxima v polárních oblastech
 - teplota – závisí na slunečním záření, pohlcuje až 85%
-	-
-		- zásobárna tepla celé planety
-		- ovlivněna mořskými proudy
-		- průměrná teplota 17 °C, nejteplejší je Tichý oceán
-		- maximální teploty v uzavřených mělčinách tropických moří \(Perský záliv, Rudé moře\) klidně až 40 °C
+    - zásobárna tepla celé planety
+    - ovlivněna mořskými proudy
+    - průměrná teplota 17 °C, nejteplejší je Tichý oceán
+    - maximální teploty v uzavřených mělčinách tropických moří \(Perský záliv, Rudé moře\) klidně až 40 °C
 
 ### Led na oceánské hladině
 
@@ -108,20 +104,17 @@ fyzikální vlastnosti
 ### Pohyby oceánské vody
 
 - vlnění – děje se po uzavřených dráhách
-	-
-		- eolické – působení větru na hladinu
-		- příboj – náraz mořských vln na pobřeží
-		- tsunami – vlny vyvolané podmořským zemětřesením nebo podmořskou sopečnou činností
+    - eolické – působení větru na hladinu
+    - příboj – náraz mořských vln na pobřeží
+    - tsunami – vlny vyvolané podmořským zemětřesením nebo podmořskou sopečnou činností
 - dmutí – příliv a odliv
-	-
-		- skočný – největší
-		- hluchý – nejmenší
+    - skočný – největší
+    - hluchý – nejmenší
 - vlny – každou vlnu tvoří hřbet a vpadlina
-	-
-		- délka vlny – vzdálenost dvou hřbetů
-		- výška vlny – rozdíl mezi hřbetem a vpadlinou
-		- perioda vlny – doba mezi dvěma průchody hřbetů
-		- průměrná výška vln je 15 m
+    - délka vlny – vzdálenost dvou hřbetů
+    - výška vlny – rozdíl mezi hřbetem a vpadlinou
+    - perioda vlny – doba mezi dvěma průchody hřbetů
+    - průměrná výška vln je 15 m
 
 ### Oceánské proudy
 
@@ -129,9 +122,7 @@ fyzikální vlastnosti
 - přemisťování obrovských mas vody na velké vzdálenosti
 - ovlivňují teplotní poměry oceánů a přilehlých pevnin
 - teplé proudy \(20 \- 24°C\) – od rovníku, z nižších zem\. šířek do vyšších
-	-
-		-
-			- Golfský, Severní rovníkový, Kuro\-šio
+    - Golfský, Severní rovníkový, Kuro\-šio
 - studené proudy \(16°C a míň\) – z vyšších zem\. šířek do nižších
 - Florida – oblast střetu studeného a teplého proudu, nedokáže se vyrovnat tlak, vznik tornád a hurikánů
 
@@ -163,54 +154,47 @@ fyzikální vlastnosti
 - úmoří = oblast kde se řeka vlévá do moře \(ČR patří do úmoří Severního, Černého a Baltského moře\)
 - souš – 79% odvodňováno do moří, 21% bezodtoková oblast \(Čadské a Aralské jezero\)
 - řeky – pramen = počátek každého vodního toku
-	-
-		- ústí = konec vodního toku
-		- délka vodního toku = vzdálenost od pramene k ústí
-		- spád vodního toku = výškový rozdíl mezi dvěma libovolně zvolenými body na řece
-		- hustota říční sítě = poměr délky všech toků k ploše povodí
-		- povodí = území, z kterého tok odvádí povrchovou a podpovrchovou vodu
-		- rozvodí = hranice mezi povodími
-		- úmoří = moře/oceán do kterého se řeka vlévá
-		- různé režimy odtoku – rovníkové, monzunové, pustinné…\.
+    - ústí = konec vodního toku
+    - délka vodního toku = vzdálenost od pramene k ústí
+    - spád vodního toku = výškový rozdíl mezi dvěma libovolně zvolenými body na řece
+    - hustota říční sítě = poměr délky všech toků k ploše povodí
+    - povodí = území, z kterého tok odvádí povrchovou a podpovrchovou vodu
+    - rozvodí = hranice mezi povodími
+    - úmoří = moře/oceán do kterého se řeka vlévá
+    - různé režimy odtoku – rovníkové, monzunové, pustinné…\.
 - jezera – 5% sladkovodních zásob
-	-
-		- zdroj pitné vody, rybolov, rekreace
-		- vulkanická jezera – zaplavené krátery vyhaslých sopek
-		- tektonická jezera – vznikla poklesem zemské kůry
-		- ledovcová jezera – vznikla působením ledovce
-		- krasová jezera – zaplavení krasových depresí
-		- jezera smíšeného původu – vznikla tektonicky, později modelována ledovcem
+    - zdroj pitné vody, rybolov, rekreace
+    - vulkanická jezera – zaplavené krátery vyhaslých sopek
+    - tektonická jezera – vznikla poklesem zemské kůry
+    - ledovcová jezera – vznikla působením ledovce
+    - krasová jezera – zaplavení krasových depresí
+    - jezera smíšeného původu – vznikla tektonicky, později modelována ledovcem
 - umělé vodní nádrže – výsledek lidské činnosti
-	-
-		- rybník – umělá vodní nádrž, chov ryb, rekreace
-		- přehradní nádrže – zadržení vody pro hospodářské účely, negativní důsledky na krajinu \(zábor půdy, kácení lesů\)
+    - rybník – umělá vodní nádrž, chov ryb, rekreace
+    - přehradní nádrže – zadržení vody pro hospodářské účely, negativní důsledky na krajinu \(zábor půdy, kácení lesů\)
 - mokřady – přirozené zásobárny vody v krajině
-	-
-		- vznik v horských oblastech a nížinách \(srážky převládají nad výparem\)
-		- bažiny – bez odtoku, trvale přesycené vodou
-		- rašeliniště – vznik v horských oblastech při vývěrech vod, vznik tlustých vrstev rašeliny, mohou na ní růst i keře
-		- slatiniště – v nižších nadmořských výškách na kyselých a chudých půdách
+    - vznik v horských oblastech a nížinách \(srážky převládají nad výparem\)
+    - bažiny – bez odtoku, trvale přesycené vodou
+    - rašeliniště – vznik v horských oblastech při vývěrech vod, vznik tlustých vrstev rašeliny, mohou na ní růst i keře
+    - slatiniště – v nižších nadmořských výškách na kyselých a chudých půdách
 
 ### Voda ve sněhu a ledu
 
 - převážná část veškeré vody na pevnině \(přibližně 65% sladké vody\)
 - ledovce – pevninské \(větší\) a horské \(menší\)
-	-
-		- globální oteplování způsobuje tání ledovců a zvyšování hladiny oceánu
+    - globální oteplování způsobuje tání ledovců a zvyšování hladiny oceánu
 
-###
-Podpovrchová voda
+### Podpovrchová voda
 
 - pod povrch se dostává vsakováním atmosférických srážek
 - půdní voda – obsažena v půdních pórech
 - podzemní voda – vytváří souvislou vodní hladinu
-	-
-		- puklinová – vyplňuje pukliny hornin
-		- průlinová – vyplňuje průliny nezpevněných hornin \(štěrk, písek\)
-		- krasová – ve velkých vápencových puklinách
-		- artézská – hladina je pod hydrostatickým tlakem
-		- pramen – místo vývěru na povrch
-		- hladina podzemní vody je různá, záleží na propustnosti půdy
+    - puklinová – vyplňuje pukliny hornin
+    - průlinová – vyplňuje průliny nezpevněných hornin \(štěrk, písek\)
+    - krasová – ve velkých vápencových puklinách
+    - artézská – hladina je pod hydrostatickým tlakem
+    - pramen – místo vývěru na povrch
+    - hladina podzemní vody je různá, záleží na propustnosti půdy
 - význam – lázeňství, zdroje pitné vody, geotermální energie
 
 ### Minerální voda

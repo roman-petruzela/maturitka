@@ -6,7 +6,7 @@ source: "MATURITA HADR/Zeměpis/Zeměpis GLP/1. PLANETA ZEMĚ.doc"
 ##  Země jako vesmírné těleso
 
 - __Vývoj názorů na postavení Země ve vesmíru\.__
-- __Geocentrický názor\-__Aristoteles a Ptolemaios
+- Geocentrický názor\-Aristoteles a Ptolemaios
 - __Heliocentrický názor__\-Koperník,Galileo, Bruno,Kepler…16\.a17\.stol
 - 19\.stol\. a 20\. stol\.vědecko\- technický pokrok,1957\-Sputnik I,1961 Gagarin,1969 Apollo 11 na Měsíci\-N\.Armstrong…
 - __Sluneční soustavu__ tvoří Slunce se všemi tělesy, která obíhají v jeho gravitačním poli\. Slunce je jednou z hvězd\. Ty se seskupují do hvězdných soustav \- __galaxií__\. Naše galaxie má tvar disku, rozčleněného do spirál\. __Mléčnou dráhu__ tvoří hvězdy\.
@@ -55,7 +55,7 @@ source: "MATURITA HADR/Zeměpis/Zeměpis GLP/1. PLANETA ZEMĚ.doc"
 - __Merkur__ \- posel bohů,led, pomalá rotace\-velké rozdíly v teplotách,nemá měsíc, nejblíže Slunci
 - __Venuše__ \- bohyně lásky, jitřenka nebo večernice, nemá mag\. pole ani měsíc, den je delší než rok,nejvíce podobná\. Zemi\-velikostí a hmotností,hustá oblaka kyseliny sírové, skleníkový efekt, vysoká teplota, krátery,sondy k Venuši…
 - __Země__ \- viz výše
-- __Mars__ \- bůh války,rudá planeta\-barva půdy,dny jsou skoro tak dlouhé jako na Zemi,teplota \-27ºC,2měsíce\-Deimos a Phobos\(Hrůza a Strach\)obrovské sopky, dříve voda\-kaňony,nyní pod povrchem nebo na pólech
+- __Mars__ \- bůh války,rudá planeta\-barva půdy,dny jsou skoro tak dlouhé jako na Zemi,teplota \-27°C,2měsíce\-Deimos a Phobos\(Hrůza a Strach\)obrovské sopky, dříve voda\-kaňony,nyní pod povrchem nebo na pólech
 - __Jupiter__ \- největší,král bohů,plynný obr,nejrychleji rotující planeta kolem své osy\-vznik pásů, 3 prstence, velká rudá skvrna,silné gravitační pole,28 měsíců
 - __Saturn__ \- druhý největší,také rychlá rotace, vznik pásů,prstence,nejvíc měsíců\(asi 30\)
 - __Uran__ \- bůh nebes Uran,vodík,obíhá Slunce sklopen na bok
