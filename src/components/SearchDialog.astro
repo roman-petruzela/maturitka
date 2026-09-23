@@ -8,7 +8,7 @@ import Icon from './Icon.astro';
 	<kbd class="search-trigger-key">/</kbd>
 </button>
 
-<dialog class="search-dialog" data-search-dialog aria-label="Hledat téma" aria-modal="true">
+<dialog class="search-dialog" data-search-dialog aria-label="Hledat" aria-modal="true">
 	<div class="search-dialog-inner">
 		<div class="search-field">
 			<Icon name="search" size={16} />
@@ -20,16 +20,16 @@ import Icon from './Icon.astro';
 				aria-expanded="true"
 				aria-controls="search-results"
 				aria-autocomplete="list"
-				placeholder="Hledat téma…"
+				placeholder="Hledat téma nebo slovo…"
 				autocomplete="off"
 				spellcheck="false"
-				aria-label="Hledat téma"
+				aria-label="Hledat"
 			/>
 			<button type="button" class="search-close" data-search-close aria-label="Zavřít hledání">
 				<Icon name="close" size={15} />
 			</button>
 		</div>
-		<p class="search-status" data-search-hint>Piš název tématu, předmětu nebo kategorie — diakritika není potřeba.</p>
+		<p class="search-status" data-search-hint>Piš název tématu, nadpisu nebo slovo z úvodu stránky — diakritika není potřeba.</p>
 		<p class="search-status" data-search-loading hidden>Načítám rejstřík…</p>
 		<p class="search-status" data-search-empty hidden>Nic jsme nenašli. Zkus jiné slovo.</p>
 		<ul class="search-results" id="search-results" data-search-results role="listbox" aria-label="Výsledky hledání"></ul>
@@ -37,12 +37,7 @@ import Icon from './Icon.astro';
 </dialog>
 
 <script>
-	interface SearchItem {
-		title: string;
-		url: string;
-		subject: string;
-		group: string | null;
-	}
+	import { search, type Hit, type SearchItem } from '../lib/search-match';
 
 	function initSearch() {
 		const openBtn = document.querySelector<HTMLButtonElement>('[data-search-open]');
@@ -76,51 +71,6 @@ import Icon from './Icon.astro';
 					});
 			}
 			return indexPromise;
-		}
-
-		// Strips combining diacritical marks after NFD decomposition, which
-		// folds nearly every Czech accented letter (ř → r, é → e, ů → u, …)
-		// onto its plain ASCII base — so searching without hačky/čárky
-		// (the common case on a non-Czech keyboard layout) still matches.
-		function normalize(s: string): string {
-			return s
-				.normalize('NFD')
-				.replace(/[\u0300-\u036f]/g, '')
-				.toLowerCase();
-		}
-
-		const WORD_BOUNDARY = /[\s\-–—,.:;()/]/;
-
-		// Prefix match ranks highest, a match right after a word boundary
-		// (e.g. the second word of a title) next, a mid-word substring last;
-		// -1 means "does not match" and excludes the item entirely.
-		function matchScore(queryNorm: string, haystack: string | null): number {
-			if (!haystack) return -1;
-			const hn = normalize(haystack);
-			const idx = hn.indexOf(queryNorm);
-			if (idx === -1) return -1;
-			if (idx === 0) return 100;
-			if (WORD_BOUNDARY.test(hn[idx - 1])) return 70;
-			return 40;
-		}
-
-		function search(query: string): SearchItem[] {
-			const qn = normalize(query.trim());
-			if (!qn || !items) return [];
-			const scored: { item: SearchItem; score: number }[] = [];
-			for (const item of items) {
-				const titleScore = matchScore(qn, item.title);
-				// A category/subject-only match (title itself doesn't
-				// contain the query) still surfaces, just ranked below any
-				// title match — typing "planimetrie" should find its
-				// topics even though none of their titles say the word.
-				const context = [item.subject, item.group].filter(Boolean).join(' ');
-				const contextScore = matchScore(qn, context);
-				const score = titleScore >= 0 ? titleScore : contextScore >= 0 ? contextScore * 0.5 : -1;
-				if (score >= 0) scored.push({ item, score: score - item.title.length * 0.01 });
-			}
-			scored.sort((a, b) => b.score - a.score);
-			return scored.slice(0, 40).map((s) => s.item);
 		}
 
 		function setActive(index: number) {
@@ -171,31 +121,39 @@ import Icon from './Icon.astro';
 			}
 			hint!.hidden = true;
 
-			const matches = search(q);
+			const matches: Hit[] = search(items, q);
 			if (matches.length === 0) {
 				empty!.hidden = false;
 				return;
 			}
 			empty!.hidden = true;
 
-			matches.forEach((item, i) => {
+			matches.forEach((hit, i) => {
+				const { item } = hit;
 				const li = document.createElement('li');
 				li.id = `search-result-${i}`;
 				li.className = 'search-result';
 				li.setAttribute('role', 'option');
 
 				const a = document.createElement('a');
-				a.href = item.url;
+				a.href = hit.heading && hit.heading[1] ? `${item.url}#${hit.heading[1]}` : item.url;
 
 				const title = document.createElement('span');
 				title.className = 'search-result-title';
-				title.textContent = item.title;
+				title.textContent = hit.heading ? hit.heading[0] : item.title;
 
 				const meta = document.createElement('span');
 				meta.className = 'search-result-meta';
-				meta.textContent = [item.subject, item.group].filter(Boolean).join(' › ');
+				meta.textContent = (hit.heading ? `${item.title} · ` : '') + [item.subject, item.group].filter(Boolean).join(' › ');
 
 				a.append(title, meta);
+				const note = hit.term ? `Pojem: ${hit.term}` : hit.snippet;
+				if (note) {
+					const snippet = document.createElement('span');
+					snippet.className = 'search-result-snippet';
+					snippet.textContent = note;
+					a.append(snippet);
+				}
 				li.append(a);
 				li.addEventListener('mouseenter', () => setActive(i));
 				results!.appendChild(li);

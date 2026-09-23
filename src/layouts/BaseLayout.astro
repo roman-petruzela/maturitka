@@ -92,7 +92,8 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 				// a list page (e.g. the "← Předmět" link on a topic page).
 				var scrollKey = 'maturitka-scroll:' + location.pathname;
 				var saved = sessionStorage.getItem(scrollKey);
-				if (saved) window.scrollTo(0, parseInt(saved, 10));
+				// (a link to a section — from the search, or a heading's own — must land there)
+					if (saved && !location.hash) window.scrollTo(0, parseInt(saved, 10));
 
 				var scrollTicking = false;
 				function saveScroll() {

@@ -2575,6 +2575,15 @@ article.topic tbody tr:hover {
 	color: var(--muted);
 }
 
+/* the words of a page's opening that the query was found in */
+.search-result-snippet {
+	font-family: var(--sans);
+	font-size: var(--t-xs);
+	line-height: 1.4;
+	color: var(--muted);
+	opacity: 0.85;
+}
+
 .search-result.is-active {
 	background: var(--surface);
 }
