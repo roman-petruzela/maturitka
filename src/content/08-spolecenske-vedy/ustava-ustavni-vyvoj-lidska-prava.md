@@ -8,8 +8,8 @@ Protože ústava je především právním výrazem trvání státu, souvisí n�
 
 Rozlišujeme 3 základní etapy našeho ústavního vývoje:
 
-__1\. První etapa
-__\- do roku 1848 bylo Rakousko absolutní monarchií
+1\. První etapa
+\- do roku 1848 bylo Rakousko absolutní monarchií
 \- císařský patent z 15\.3\.1848 obsahoval příslib vydání ústavy a poté i volby do říšského sněmu\.
 \- 25\.4\. byla sice vyhlášena první rakouská ústava, ale byla oktrojovaná = vyhlášena rozhodnutím
    císaře bez souhlasu říšského sněmu a nikdy nevstoupila v platnost
@@ -73,9 +73,9 @@ __2\. Druhá etapa__
 \- do října 1945 měl prezident právo vydávat dekrety \(na návrh vlády a s jejím souhlasem\)
 \- všechny dekrety prošly později i ratihabicí \(byly dodatečně schváleny\) prozatímním NS
 \- __26\.5\. 1946 se konaly volby do Ústavodárného NS, které vyhrála KSČ \- získala 93 mandátů ze 300__
-\- kombinací ústavních a neústavních metod došlo v __únoru 1948 k převzetí moci komunistickou
+\- kombinací ústavních a neústavních metod došlo v únoru 1948 k převzetí moci komunistickou
    stranou \!
-__\- podle Ústavy 1920 je vláda usnášeníschopná, je\-li přítomna nadpoloviční většina jejich členů
+\- podle Ústavy 1920 je vláda usnášeníschopná, je\-li přítomna nadpoloviční většina jejich členů
 \- díky výrazné podpoře parlamentu a nelegitimních postupu komunistů \(Lidové milice, akční výbory
   Národní fronty, masové demonstrace\) se Benešovi ani nemohlo podařit zformovat jinou vládu
 
@@ -84,7 +84,7 @@ __\- podle Ústavy 1920 je vláda usnášeníschopná, je\-li přítomna nadpolo
   charakter, protože umožnila obcházení lidských práv a protože chod státních orgánů kontrolovalo
   mocenské centrum KSČ\)
 
-\- ____v r\.1960 byla vyhlášena nová socialistická ústava \(__Ústava ČSSR__\)
+\- v r\.1960 byla vyhlášena nová socialistická ústava \(__Ústava ČSSR__\)
 \- článkem 4 si komunisté pojistili svou pozici i podle práva, když svou stranu definovali jako „vedoucí
    sílu ve společnosti a ve státě, jako předvoj dělnické třídy, složenou z nejuvědomělejších a
    nejaktivnějších občanů z řad dělníků, rolníků a inteligence“
@@ -140,7 +140,7 @@ __1\. HLAVA__
 
 __2\. HLAVA__
 
-\- zákonodárná moc \(parlament ČR = poslanecká sněmovna a senát\) __ __
+\- zákonodárná moc \(parlament ČR = poslanecká sněmovna a senát\)  
 
 __\- PS –__ dolní komora, 200 poslanců, na 4 roky, min 21 let, občan ČR, poměrný systém \(volba stran, zisk
           křesel v parlamentu v %\), předseda: Jan Hamáček \(ČSSD\)
@@ -163,20 +163,20 @@ __3\. HLAVA__
 \- __prezident__ \- hlava státu, přímá volba \(na 5 \- 10 let\), Václav Klaus \(2003\-2013\), __Miloš__ __Zeman__ \(8\.3\.
                                                                                                                                                         2013\-dosud\)
 
-                     \- většinový systém, občan ČR, nad 40 let,
+\- většinový systém, občan ČR, nad 40 let,
 
-                     \- návrh prezidenta – podpora 20 poslanců, 10 senátorů nebo 50 tisíc podpisů
+\- návrh prezidenta – podpora 20 poslanců, 10 senátorů nebo 50 tisíc podpisů
 
-                     \- když je zvolen, složí slib do rukou předsedy senátu
+\- když je zvolen, složí slib do rukou předsedy senátu
 
-                     \- pravomoci: reprezentace, podepisování zákonů, amnestie, velitel vojsk, jmenuje a
-                                            odvolává předsedu vlády a další členy vlády, uděluje vyznamenání, rozpouští
-                                            PS, jmenuje soudce, prezidenta viceprezidenta kontrolního úřadu, členy
-                                            bankovní rady ČNB, sjednává a ratifikuje mezinárodní smlouvy, vyhlašuje
-                                            volby do parlamentu
+\- pravomoci: reprezentace, podepisování zákonů, amnestie, velitel vojsk, jmenuje a
+odvolává předsedu vlády a další členy vlády, uděluje vyznamenání, rozpouští
+PS, jmenuje soudce, prezidenta viceprezidenta kontrolního úřadu, členy
+bankovní rady ČNB, sjednává a ratifikuje mezinárodní smlouvy, vyhlašuje
+volby do parlamentu
 
-                     \- nelze ho zadržet, stíhat \(ani, když už není prezident\), soudit \(pouze velezrada –př\.
-                       narušení obranyschopnosti země\)
+\- nelze ho zadržet, stíhat \(ani, když už není prezident\), soudit \(pouze velezrada –př\.
+narušení obranyschopnosti země\)
 
 __\- vláda__ – skládá se z ministrů, předseda: __B\. Sobotka__, místopředsedové: Babiš, Bělobrádek, vládní
                 koalice \(ČSSD, ANO, KDU\-ČSL\), do 30 dnů požádá o důvěru PS, skládají slib, PS – může
@@ -192,12 +192,12 @@ __\-__ soudní moc – převedena na soustavy soudů
 \- mimo stojí __ústavní soud__ \- zkoumá, zda jsou zákony v souladu s ústavou, reaguje na stížnosti
                                                  ohledně práv v LZPS
 
-                                             \- ústavní soudci \- 15 soudců, voleni na 10 let, od 40 let, právníci, praxe 10 let
+\- ústavní soudci \- 15 soudců, voleni na 10 let, od 40 let, právníci, praxe 10 let
 
-                                             \- soudce – jmenován prezidentem na neurčito, nezávislí, nemůžou mít víc
-                                                                fcí, právníci, bezúhonní
+\- soudce – jmenován prezidentem na neurčito, nezávislí, nemůžou mít víc
+fcí, právníci, bezúhonní
 
-                                             \- rozsudek se vyhlašuje veřejně
+\- rozsudek se vyhlašuje veřejně
 
 __5\. HLAVA__
 
@@ -230,9 +230,9 @@ __Všeobecná deklarace lidských práv__
 __\- byla schválena Valným shromážděním Organizace spojených národů dne 10\.12\.1948__
 \- hlasování o přijetí se zdrželo Československo, Polsko, Ukrajina, Bělorusko,\.\.
 \- pro přijetí hlasovali Belgie, Brazílie, Čína, Kanada, Rakousko,\.\.
-\- zkrácená verze: __
+\- zkrácená verze: 
 1\. všichni lidé se rodí svobodní a sobě rovní v důstojnosti a právech
-2\. všichni mají stejná práva navzdory rozdílnostem __\(rasa, barva pleti, pohlaví, náboženství,\.\.\)
+2\. všichni mají stejná práva navzdory rozdílnostem \(rasa, barva pleti, pohlaví, náboženství,\.\.\)
 __3\. každý má právo na život, svobodu a osobní bezpečnost
 4\. nikdo nesmí být držen v otroctví nebo nevolnictví, nikdo nesmí brát nikoho do otroctví
 5\. nikdo nesmí být podrobován mučení nebo krutému, nelidskému či ponižujícímu zacházení

@@ -12,15 +12,15 @@ __APEIRON__
 \- arché podle Anaximandra
 = něco neurčitého, neomezeného, nekonečného, bez hranic, protiklad všech pomíjivých věcí
 
-__10
-__\- Pythagoras \- arché = číslo
+10
+\- Pythagoras \- arché = číslo
 \- věřili, že na obloze existuje 10 těles, vymysleli si antizemi
 \- koncepce duše \- lidský život lze připodobnit přímce \(od zrození ke smrti\)
 \- 1 = bod, 2 = úsečka, 3 = plocha, 4 = prostor
 \- život duše lze připodobnit ke kružnici \- je nesmrtelná
 
-__APORIE
-__= paradoxy, neřešitelný rozpor mezi dvěma stejně dobře doloženými názory
+APORIE
+= paradoxy, neřešitelný rozpor mezi dvěma stejně dobře doloženými názory
 \- Zenón z Eleje \- na jejich základě se snažil dokázat neexistenci pohybu, př\. Letící šíp \- dráha šípu je
   složena z klidových momentů \- v každém bodě dráhy v určitém čase je v klidu \-> nepohybuje se
 
@@ -30,8 +30,8 @@ __DAIMONION__
 \- ozve se vždy, když je něco špatně \(=svědomí\)
 \- Sokrates
 
-__LÁTKA X FORMA
-__\- Aristotelova metafyzika \- podle něj je každá věc kombinací látky a formy
+LÁTKA X FORMA
+\- Aristotelova metafyzika \- podle něj je každá věc kombinací látky a formy
 \- __látka__ = něco, z čeho je vytvořena každá věc
              \- bez látky by neexistovala žádná věc, protože by musela být vyrobena z ničeho
 \- __forma__ = určuje, co věc je
@@ -40,8 +40,8 @@ __\- Aristotelova metafyzika \- podle něj je každá věc kombinací látky a f
 \- např\. vznik kamenné sochy → socha vzniká kombinací kamene \(látka\) s určitou formou, která
                                                          formuje látku do konkrétní podoby \(socha\)
 
-__„MYSLÍM, TEDY JSEM“
-__= Cogito ergo sum
+„MYSLÍM, TEDY JSEM“
+= Cogito ergo sum
 \- René Descartes
 \- I kdybych o všech jistotách, včetně smyslových vjemů mohl pochybovat, věta „myslím, tedy jsem“ je
   ve chvíli, kdy je vyslovena, nutně pravdivá\.
@@ -49,29 +49,29 @@ __= Cogito ergo sum
 __MONISMUS__
 \- názor, že veškerenstvo vychází z jediné podstaty = arché
 
-__DUALISMUS
-__\- novověká filosofie – dualismus hmoty a duše
+DUALISMUS
+\- novověká filosofie – dualismus hmoty a duše
 \- např\. René Descartes
 
-__PLURALISMUS
-__\- 1 pralátka je nedostačující
+PLURALISMUS
+\- 1 pralátka je nedostačující
 \- existuje několik pralátek, které jsou řízené nějakou vnější silou
 
 __LYKEION__
 __=__ peripatetická škola \- v roce 335 př\.n\.l\. založil Aristoteles v Athénách svou vlastní školu
 
-__ENCYKLOPEDISTÉ
+ENCYKLOPEDISTÉ
 __= autoři Encyklopedie = 28 svazkové dílo encyklopedických věd, umění a řemesel \(18\.st\.\)__
 __= shrnutí poznatků tehdejší doby__
 __\- začátek: „Věk náboženství a filozofie ustupuje století vědy“__
-\- __Denis Diderot, Jean D’Alembert, Jean Jacques Rousseau
+\- Denis Diderot, Jean D’Alembert, Jean Jacques Rousseau
 
 __„EMIL“__
 \- pedagogický spis __*Emil čili O výchově*__, ve kterém Jean Jacques Rousseau líčí, jak by pomocí výchovy
   měly být děti chráněni před zhoubnými vlivy společnosti
 
-__„SLUNEČNÍ STÁT“
-__\- T\. Campanella v díle opisuje hrubo [rovnostářský](https://cs.wikipedia.org/wiki/Rovnost%C3%A1%C5%99stv%C3%AD), [beztřídní](https://cs.wikipedia.org/wiki/Bezt%C5%99%C3%ADdn%C3%AD_spole%C4%8Dnost), soběstačný [městský
+„SLUNEČNÍ STÁT“
+\- T\. Campanella v díle opisuje hrubo [rovnostářský](https://cs.wikipedia.org/wiki/Rovnost%C3%A1%C5%99stv%C3%AD), [beztřídní](https://cs.wikipedia.org/wiki/Bezt%C5%99%C3%ADdn%C3%AD_spole%C4%8Dnost), soběstačný [městský
   stát](https://cs.wikipedia.org/wiki/M%C4%9Bstsk%C3%BD_st%C3%A1t) řízení [osvícenými](https://cs.wikipedia.org/wiki/Osv%C3%ADcen%C3%AD) [kněží](https://cs.wikipedia.org/wiki/Kn%C4%9B%C5%BE%C3%AD) a [filosofy](https://cs.wikipedia.org/wiki/Filosof) \([sofokracie](https://cs.wikipedia.org/wiki/Sofokracie)\) s přísnou reglementací života, [kolektivním
   plánováním](https://cs.wikipedia.org/wiki/Pl%C3%A1novan%C3%A1_ekonomika), společenskou organizací práce a všeobecnou [vzdělaností](https://cs.wikipedia.org/wiki/Vzd%C4%9Bl%C3%A1n%C3%AD)
 \- Toto Campanellovo nejznámější dílo je psáno formou dialogu mezi mořeplavcem z Janova, který
@@ -119,8 +119,8 @@ __AUTONOMNÍ X HETERONOMNÍ MORÁLKA__
 \- vnitřní \- __autonomní morálka__ – člověk sám sobě říká, jak se má chovat
 \- vnější – __heteronomní morálka__ – někdo člověku říká, jak se má chovat \(zákony\)
 
-__PATRISTIKA
-__\- patres = otcové
+PATRISTIKA
+\- patres = otcové
 \- teoreticky se formuluje křesťanství v dílech svatých otců pomocí filosofických a teologických pojmů
 \- Svatý Augustin \- usiloval o nalezení objektivní pravdy – prošel mnoha myšlenkovými směry \-> našel
                                 ji až v křesťanství
@@ -140,7 +140,7 @@ __KATEGORICKÝ IMPERATIV__
 \- Immanuel Kant ve svém díle __*Kritika praktického rozumu*__ říká, že člověk používá svůj rozum také
   k jednání, zabývá se tím, jak by měl člověk jednat, čím se řídit
 \- jádrem je KATEGORICKÝ IMPERATIV => „Jedná tak, jak čeká, že by se měli chovat ostatní“
-__ __\- z našeho chování by mělo vyplynout všeobecné zákonodárství – já nekradu, ostatní by také
+ \- z našeho chování by mělo vyplynout všeobecné zákonodárství – já nekradu, ostatní by také
    neměli X já kradu, dovoluji ostatním, aby také mohli krást
 
 __FILOSOF S KLADIVEM__
@@ -151,8 +151,8 @@ __FILOSOF S KLADIVEM__
 
 __NEGACE – NEGACE__
 
-__„KAPITÁL“
-__= obecně [člověkem](https://cs.wikipedia.org/wiki/%C4%8Clov%C4%9Bk) dříve vytvořené prostředky, jež nejsou [spotřebovány](https://cs.wikipedia.org/wiki/Spot%C5%99eba), ale použity jako [vstup](https://cs.wikipedia.org/wiki/V%C3%BDrobn%C3%AD_faktor) do
+„KAPITÁL“
+= obecně [člověkem](https://cs.wikipedia.org/wiki/%C4%8Clov%C4%9Bk) dříve vytvořené prostředky, jež nejsou [spotřebovány](https://cs.wikipedia.org/wiki/Spot%C5%99eba), ale použity jako [vstup](https://cs.wikipedia.org/wiki/V%C3%BDrobn%C3%AD_faktor) do
   další [výroby](https://cs.wikipedia.org/wiki/V%C3%BDroba) s cílem dosažení [zisku](https://cs.wikipedia.org/wiki/Zisk) či vyšších [výnosů](https://cs.wikipedia.org/wiki/V%C3%BDnos) v budoucnu
 \- Kapitál může nabývat různých podob a významů \- věcné statky, [výrobní prostředky](https://cs.wikipedia.org/wiki/V%C3%BDrobn%C3%AD_prost%C5%99edek), [peníze](https://cs.wikipedia.org/wiki/Pen%C3%ADze) a jejich
   formy \([cenné papíry](https://cs.wikipedia.org/wiki/Cenn%C3%BD_pap%C3%ADr), např\. [akcie](https://cs.wikipedia.org/wiki/Akcie)\), někdy i [patenty](https://cs.wikipedia.org/wiki/Patent), [licence](https://cs.wikipedia.org/wiki/Licence), jež jsou uplatněny v [ekonomice](https://cs.wikipedia.org/wiki/Ekonomika) a

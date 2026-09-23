@@ -27,9 +27,9 @@ __\- polyteismus__ – uznává více bohů a bohyň pro různé pozemské zále
 
 \- __religionistika__ – zabývá se vědeckým zkoumáním náboženství, studuje dějiny náboženství
 
-          \- dělení: historická – studuje dějiny jednotlivých náboženství
+\- dělení: historická – studuje dějiny jednotlivých náboženství
 
-                          srovnávací – porovnává různé náboženské jevy
+srovnávací – porovnává různé náboženské jevy
 
 \- Slovo Bůh pochází se staroindického slova __Bhaga__, které vyjadřuje něco zářivého, nebeského, co je
   světlem a zdrojem života
@@ -82,17 +82,17 @@ __\- Svatou trojici__, kterou křesťané vyznávají, doplňuje __Duch svatý__
 
 \- správní jednotkou je diecéze v čele s biskupem
 
-__\-__ povinnosti__:__ miluj Boha a bližního svého, desatero přikázání
+__\-__ povinnosti: miluj Boha a bližního svého, desatero přikázání
 
 __\-__ cíl: dosáhnout společenství člověka a Boha v jeho slávě a odpuštění hříchů
 
-__\-__ posvátné texty__:__ __Písmo svaté = Bible__
+__\-__ posvátné texty: __Písmo svaté = Bible__
 
-                 __\- Starý zákon__ – sdílí křesťanství s judaismem \(39 knih\)
+__\- Starý zákon__ – sdílí křesťanství s judaismem \(39 knih\)
 
-                 __\- Nový zákon__ – hovoří především o životě a působení Ježíše
-                                             z Nazareta ve 4 evangeliích \(Jan, Matouš, Marek,
-                                             Lukáš\) – 27 knih
+__\- Nový zákon__ – hovoří především o životě a působení Ježíše
+z Nazareta ve 4 evangeliích \(Jan, Matouš, Marek,
+Lukáš\) – 27 knih
 
 __\- hlavní proudy:__
 
@@ -102,8 +102,8 @@ ortodoxní \(pravoslavní\) křesťané
 
 protestanti – 12\. století – vznik lidových kacířských hnutí
 
-                      \- zříkají se složité církevní hierarchie, měřítkem víry pouze Bible, odmítají celibát,
-                        mnišství, kult Svatých a andělů
+\- zříkají se složité církevní hierarchie, měřítkem víry pouze Bible, odmítají celibát,
+mnišství, kult Svatých a andělů
 
 \- náboženské obřady se konají v __kostelech__
 
@@ -152,11 +152,11 @@ __Evangelíci__
 
 ((obrázek vynechán))\- __faráři__ – mohou se ženit
 
-	  nosí talár a někteří dokonce chodí v civilu
+nosí talár a někteří dokonce chodí v civilu
 
 \- __chrámy__ jsou postaveny na půdorysu latinského kříže
 
-	  není moc zdobený, nemají v chrámu obrazy svatých ani sochy
+není moc zdobený, nemají v chrámu obrazy svatých ani sochy
 
 \- modlí se k Bohu nebo k Ježíši
 
@@ -195,7 +195,7 @@ __BIBLE__
 Starý zákon
 
 \- vznik v Palestině, psán __hebrejsky__ – písmo zprava doleva, nemá samohlásky \+ malá část __aramejsky__ =
-  hovorový jazyk židů, mluvil tak i Ježíš__ __
+  hovorový jazyk židů, mluvil tak i Ježíš 
 
 \- obsah:
 
@@ -207,11 +207,11 @@ Starý zákon
 
 4\) poezie, písně, žalmy
 
-       \- Boží smlouva s lidem: uzavřel ji Bůh skrze Mojžíše s Izraelci na poušti pod horou Sinaj, když
-                                                 putovali z Egypta
+\- Boží smlouva s lidem: uzavřel ji Bůh skrze Mojžíše s Izraelci na poušti pod horou Sinaj, když
+putovali z Egypta
 
-                                               \- před uzavřením se museli všichni zavázat, že budou dodržovat boží zákon
-                                                 a *Desatero*
+\- před uzavřením se museli všichni zavázat, že budou dodržovat boží zákon
+a *Desatero*
 
 Nový zákon
 
@@ -222,7 +222,7 @@ Nový zákon
 
 \- Ježíš – v dětství žije v Nazaretu, jeho život nekončí smrtí, ale ukřižováním \-> podstata radostné zvěsti \-> vstal z mrtvých a stal se zárukou věčného života pro každého, kdo se k němu hlásí
 
-      \- není to životopis JK, je to psáno na základě setkání Ježíše s lidmi
+\- není to životopis JK, je to psáno na základě setkání Ježíše s lidmi
 
 \- původně psán unciálním způsobem – pouze velká písmena, slova nemají mezery, bez interpunkce
 
@@ -235,18 +235,18 @@ Nový zákon
 3\) Ježíšova smrt – narozen 24\./25\. 12\., odsouzen kvůli popularitě, začalo se s ním spolčovat hodně lidí
                                  a to se nelíbilo představitelům a místodržícím – dělal ze sebe božího syna
 
-                              \- zradil jej Jidáš – jeden z apoštolů, dovolil Ježíšovo zatčení
+\- zradil jej Jidáš – jeden z apoštolů, dovolil Ježíšovo zatčení
 
-                              \- odehrála se v Jeruzalémě, velerada rozhodla o jeho smrti v čele s Pilátem Ponským
+\- odehrála se v Jeruzalémě, velerada rozhodla o jeho smrti v čele s Pilátem Ponským
 
-                              \- smrt ukřižováním \(v pátek\) – tehdejší forma trestu, na pahorku Golgota
+\- smrt ukřižováním \(v pátek\) – tehdejší forma trestu, na pahorku Golgota
 
-                              \- odsouzením a smrtí končí evangelia
+\- odsouzením a smrtí končí evangelia
 
 4\) Nová smlouva – Bůh ji uzavřel skrze svého syna Ježíše se všemi lidmi
 
-                               \- „Nové přikázání Vám dávám, abyste se navzájem milovali, jako já jsem miloval
-                                   Vás“
+\- „Nové přikázání Vám dávám, abyste se navzájem milovali, jako já jsem miloval
+Vás“
 
 5\) Skutky apoštolů – pokračování Lukášova evangelia, zachycuje počátky křesťanství a jeho šíření
 
@@ -277,11 +277,11 @@ __JUDAISMUS__
 
 __\-__ hebrejská část Bible __= Pět knih Mojžíšových \(Tóra/Zákon\) –__ řecký název = Pentateuch
 
-                                      __=>__ GENESIS, EXODUS, NUMERI, LEVITICUS, DEUTERONOMIUM
+__=>__ GENESIS, EXODUS, NUMERI, LEVITICUS, DEUTERONOMIUM
 
 \- __TANACH__ = hebrejská bible = Tóra \+ proroci \+ spisy
 
-        \- výkladu Tanachu, židovského náboženství a jeho práva se věnuje __TALMUD__
+\- výkladu Tanachu, židovského náboženství a jeho práva se věnuje __TALMUD__
 
 __\- povinnosti:__ žít podle __Talmudu__ = sbírka 613 příkazů, pouček a jejich výkladu pro židovskou víru
 
@@ -298,23 +298,23 @@ __\- antisemitismus__ = náboženská a rasová nenávist Židů, vše vyvrcholi
 
 Abrahám – odchází do Kanánu – „země zaslíbené“, aby se zde usadil => Palestina
 
-                  \- syn Izák – syn Jákob \(Izrael\) – syn Josef \+ dalších 11 synů
+\- syn Izák – syn Jákob \(Izrael\) – syn Josef \+ dalších 11 synů
 
 Josef – předpověděl 7 let hojnosti a 7 let svobody \(po výkladu faraonova snu\) – jmenován správcem
              Egypta
 
-           \- přemístí se s otcem a se svými bratry do Gošenu \(Egypt\) a tam se izraelský národ rozrůstá
+\- přemístí se s otcem a se svými bratry do Gošenu \(Egypt\) a tam se izraelský národ rozrůstá
 
-           \- Egypťané vidí v rozrůstajícím národě nebezpečí \-> udělají z Izraelitů otroky
+\- Egypťané vidí v rozrůstajícím národě nebezpečí \-> udělají z Izraelitů otroky
 
 Mojžíš – zachráněné otrocké dítě, Bůh vykonává své plány skrze něj \(zjevení v hořícím keři, tři
                                                                                                                            znamení\)
 
-             \- *vyvedl Izraelity z egyptského otroctví* – popisuje kniha Exodus \-> rozestoupení Rudého moře
-               \(40 letá cesta\), hora Sinaj, 10 přikázání
+\- *vyvedl Izraelity z egyptského otroctví* – popisuje kniha Exodus \-> rozestoupení Rudého moře
+\(40 letá cesta\), hora Sinaj, 10 přikázání
 
-             \- sám do země zaslíbené nedošel, až jeho nástupci – Jozue a soudci = vůdci nastoleni Bohem –
-                vystřídáni řadou králů – např\. David, Šalamoun
+\- sám do země zaslíbené nedošel, až jeho nástupci – Jozue a soudci = vůdci nastoleni Bohem –
+vystřídáni řadou králů – např\. David, Šalamoun
 
 __Bůh a jeho zákon__:
 
@@ -338,12 +338,12 @@ __Náboženská pravidla:__
 
 \- centrum veřejné bohoslužby = __synagoga__ \- modlitby ve stoje, společenské obřady a studium
 
-                                                        \- obrácena k Jeruzalému, sedí se do čtverce, všichni tváří k Tóře
+\- obrácena k Jeruzalému, sedí se do čtverce, všichni tváří k Tóře
 
-                                                        \- muži na hlavách čapky \(jarmulky\) a přes ramena bílé modlitební šály
+\- muži na hlavách čapky \(jarmulky\) a přes ramena bílé modlitební šály
 
-                                                        \- vyvrcholením obřadu je otevření skříňky s textem Tóry, ty jsou
-                                                          neseny dokola synagogy a lidé se jim klaní
+\- vyvrcholením obřadu je otevření skříňky s textem Tóry, ty jsou
+neseny dokola synagogy a lidé se jim klaní
 
 \- __šema__ = modlitba, která se odříkává 2x denně
 
@@ -363,7 +363,7 @@ __\- Jom kipur__ – Den Smíření, nejsvětější den v roce, 10\. den nové
 
 __\- Chanuka__ – svátek světel, svátek znovuzasvěcení chrámu, = zimní svátek
 
-__\- Sukot –__ podzimní svátek, oslava__ __sklizně ovoce, táboří se venku ve stáncích z větví, „svátek stánků“,
+__\- Sukot –__ podzimní svátek, oslava sklizně ovoce, táboří se venku ve stáncích z větví, „svátek stánků“,
                  připomíná obydlí Izraelitů při pouti z otroctví
 
 \- __Pentecostes__ – svátek týdnů, oslava žní, 7 týdnů po Pesahu, souvisí s odevzdáním zákona na hoře
@@ -376,7 +376,7 @@ __\- Kipa__ \- znamená totéž co kopule nebo klenba, také pokrývka hlavy, kt
 __((obrázek vynechán))__         \- je také známá pod výrazem z jidiš __„jarmulka“__, což je slovo pravděpodobně slovanského
            původu\.
 
-__\- Menora__ \-__ __sedmiramenný svícen je skutečným symbolem židovství, a to již od starověku
+__\- Menora__ \- sedmiramenný svícen je skutečným symbolem židovství, a to již od starověku
 
 \- __Davidova hvězda__ \- hexagram, zvaný též Davidova hvězda nebo Davidův štít je tvořen dvěma
                                      propletenými rovnostrannými trojúhelníky\. Tento symbol je často považován za
@@ -399,16 +399,16 @@ __\- cíl:__ úplné podřízení se Alláhově vůli
 
 \- zakladatelem je __prorok Mohamed__, který pocházel z Mekky
 
-               \- jednou měl zjevení \(40 let\) – vyzván, aby se vzdal pohanství a polyteismu v Mekce a začal
-                 hlásit existenci
+\- jednou měl zjevení \(40 let\) – vyzván, aby se vzdal pohanství a polyteismu v Mekce a začal
+hlásit existenci
 
-                 jediného boha Alláha
+jediného boha Alláha
 
-               \- Korán mu nadiktoval archanděl Gabriel – M neuměl číst, naučil se 78 tisíc slov nazpaměť
+\- Korán mu nadiktoval archanděl Gabriel – M neuměl číst, naučil se 78 tisíc slov nazpaměť
 
-               \- roku __622__ prchá __Mohamed z Mekky do Mediny__ = __hidžra__ \(= počátek muslimského letopočtu\)
+\- roku __622__ prchá __Mohamed z Mekky do Mediny__ = __hidžra__ \(= počátek muslimského letopočtu\)
 
-               \- roku 630 útok proti Mekce – podrobení, 632 náhle umírá, na jeho místo řada kalífů
+\- roku 630 útok proti Mekce – podrobení, 632 náhle umírá, na jeho místo řada kalífů
 
 \- __Alláh –__ má 99 \(\+1\) jmen – každý má vryto v dlani, kdo se je naučí, má přímou cestu do nebe, 100\.
                  jméno zná pouze velbloud
@@ -416,23 +416,23 @@ __\- cíl:__ úplné podřízení se Alláhově vůli
 \- __Korán__ \(vyprávění\) – posvátný text, obsahuje ústní a písemné záznamy o zjeveních proroka
                                        Mohameda
 
-            \- neomylné slovo boží, seslané z nebes, ničím nezměnitelné
+\- neomylné slovo boží, seslané z nebes, ničím nezměnitelné
 
-            \- samotná recitace v originále zajišťuje muslimům milost = __baraka__
+\- samotná recitace v originále zajišťuje muslimům milost = __baraka__
 
-            __\-__ obsahuje částečně Starý a Nový zákon \+ Mohamedovy výroky__ __
+__\-__ obsahuje částečně Starý a Nový zákon \+ Mohamedovy výroky 
 
-            __\- Ježíš:__ když Jidáš zradil, stal se podobný Ježíšovi, omylem ukřižován místo něj, Ježíš přišel do
-               nebe, odtud se vrátí, zabije všechny nevyznavače islámu, zemře a bude pohřben vedle
-               Mohameda v Medině
+__\- Ježíš:__ když Jidáš zradil, stal se podobný Ježíšovi, omylem ukřižován místo něj, Ježíš přišel do
+nebe, odtud se vrátí, zabije všechny nevyznavače islámu, zemře a bude pohřben vedle
+Mohameda v Medině
 
 ((obrázek vynechán))            \- nemá se překládat, potvrzuje existenci andělů a božích poslů
 
-            \- věří v existenci duchovních bytostí – džinů
+\- věří v existenci duchovních bytostí – džinů
 
 __\- Hadíth –__ tradice, následuje hned za Koránem, = záznam života a skutků Mohameda
 
-                \- obsahuje: Sunnu \(příklad\) a Proroka – vzor, jejž by měli následovat všichni muslimové
+\- obsahuje: Sunnu \(příklad\) a Proroka – vzor, jejž by měli následovat všichni muslimové
 
 \- spojením Koránu a Sunny vznikl __Šaría__ \(zákon\) – podrobný průvodce životem a chováním
 
@@ -443,7 +443,7 @@ __Sunnité__ \(90%\) – řídí se Koránem
 __Šíité__ – považují za legitimní islámské vůdce jen potomky Mohamedovy rodiny, neuznali jeho
              nástupce Barka
 
-__  __\- hlavní rozdíl mezi nimi spočívá ve způsobu, jak se odhalována boží vůle = wahabi
+  \- hlavní rozdíl mezi nimi spočívá ve způsobu, jak se odhalována boží vůle = wahabi
 
 __\- 5 základních pilířů islámu:__
 
@@ -453,10 +453,10 @@ __Vyznávat jediného boha \(šaháda__\) – „Není boha kromě Alláha a Moh
 
 __Modlitba \(salat\)__ – modlit se předepsaným způsobem, muslimové se modlí 5 × denně
 
-                              – každý sám, několik lidí společně nebo v mešitě \(27x hodnotnější\), svolává
-                                 muezzin
+– každý sám, několik lidí společně nebo v mešitě \(27x hodnotnější\), svolává
+muezzin
 
-                               \- znehodnocení modlitby: pokud před modlícím projde pes, osel nebo žena
+\- znehodnocení modlitby: pokud před modlícím projde pes, osel nebo žena
 
 __Půst \(saum\)__ – v ramadánu nesmí muslimové jíst, pít, kouřit ani se pohlavně stýkat v době od
                           úsvitu do západu slunce
@@ -479,12 +479,12 @@ __Poutě \(hadždž\)__ – jednou za život musí muslim vykonat pouť do posv�
 
 \- __ráj x peklo__
 
-__    __\- cesta do ráje – přechod po mostě, pod nímž je peklo
+\- cesta do ráje – přechod po mostě, pod nímž je peklo
 
-          \- nevěřící mají most úzký \-> spadnou do pekla a tam se škvaří, ale později jdou také do ráje –
-             např\. křesťané
+\- nevěřící mají most úzký \-> spadnou do pekla a tam se škvaří, ale později jdou také do ráje –
+např\. křesťané
 
-          \- věřící = muslim – má most široký, hlídaný anděly
+\- věřící = muslim – má most široký, hlídaný anděly
 
    \- ráj – veliký strom, příjemný chládek, 4 řeky \(voda, víno, mléko, med\) \+ hurisky = panny na
                obveselování mužů
@@ -503,7 +503,7 @@ __((obrázek vynechán))__\- je náboženstvím indické civilizace
 
 \- hinduisté věří v množství bohů, kteří jsou ztělesněním přírodních sil a ovlivňují lidský osud
 
-\- hlavní bohové__:  Brahna__ – stvořitel__, Višnu__ – udržovatel__, Šiva__ – ničitel
+\- hlavní bohové:  Brahna – stvořitel, Višnu – udržovatel, Šiva – ničitel
 
 __\-__ povinnosti: uznat védskou moudrost, a odkazy bohů, ke kterým chtějí přistoupit
 
@@ -522,22 +522,22 @@ __((obrázek vynechán))__\- vznikl v 6\. \- 5\. st\. př\. n\. l\.
 
 \- zakladatelem byl __Gautama Sithártha__, který byl často nazýván Buddhou \(„probuzeným“\)
 
-       \- théravádovský kánon – buddhistické posvátné knihy
+\- théravádovský kánon – buddhistické posvátné knihy
 
 \- základní buddhistický posvátný spis: __Tripitaka__ – Tři koše rozprav
 
 __\-__ buddhistické společenství se nazývá __sangha –__ vedeni __guru__ = mistři __–__ chtějí dospět k poznání a
   nejvyšší pravdě
 
-__\- Trirantna__ \(tři klenoty\) je základním buddhistickým pojmem ____\(__Buddha __– učitel__, dharma __– zákon__,
-  sangha __– obec\)
+__\- Trirantna__ \(tři klenoty\) je základním buddhistickým pojmem \(Buddha __– učitel__, dharma __– zákon__,
+  sangha – obec\)
 
 \- buddhistické učení: Velký vůz – opírá se o Buddhovy rozpravy
 
-                                      Malý vůz – řídí se tradicí „cesty starých“, vyhnutí se jakémukoliv ublížení jiné
-                                                          bytosti
+Malý vůz – řídí se tradicí „cesty starých“, vyhnutí se jakémukoliv ublížení jiné
+bytosti
 
-                                      Diamantový vůz – nejvyšší forma, srovnání s Buddhou
+Diamantový vůz – nejvyšší forma, srovnání s Buddhou
 
 \- neteistické náboženství \-> žádný Bůh, nepřipouští pojem duše
 
@@ -552,8 +552,8 @@ __\- Dalajláma__ je duchovní vůdce tibetského budhismu
 
 __\- 4 ušlechtilé pravdy:__
 
-                 __\-__ existuje utrpení, existuje příčina utrpení, utrpení je možné ukončit__,__ cesta vedoucí k zániku
-                   utrpení
+__\-__ existuje utrpení, existuje příčina utrpení, utrpení je možné ukončit, cesta vedoucí k zániku
+utrpení
 
 __\-__ cíl: ____dosažení__ nirvány__ \(= stav osvobození od utrpení, nedostatku, převtělování\)
 
@@ -561,7 +561,7 @@ __\-__ posvátné texty:sbírky __Vijána a Nijáha__
 
 __\-__ náboženské obřady se konají v __klášterech__
 
-__ASI PŘED 2500 LETY VZNIKLY V ČÍNĚ DVA VELKÉ NÁBOŽENSKO – FILOZOFICKÉ SYSTÉMY* – KONFUCIÁNSTVÍ A TAOISMUS\.*__
+__ASI PŘED 2500 LETY VZNIKLY V ČÍNĚ DVA VELKÉ NÁBOŽENSKO – FILOZOFICKÉ SYSTÉMY *– KONFUCIÁNSTVÍ A TAOISMUS\.*__
 
  \- nikdy v evropském pojetí \-> nevěří v žádného boha ani v božské bytosti
 
@@ -595,9 +595,9 @@ __TAOISMUS__
 
 \- celý vesmír ovládají dvě protikladné síly: JIN a JANG
 
-         \- JIN – tma, měkkost a ženskost
+\- JIN – tma, měkkost a ženskost
 
-         \- JANG – světlo, tvrdost a mužskost
+\- JANG – světlo, tvrdost a mužskost
 
 __SEKTY A JINÁ NÁBOŽENSTVÍ__
 
@@ -610,21 +610,21 @@ __SEKTY A JINÁ NÁBOŽENSTVÍ__
 \- Některé nové náboženské skupiny, označované jako sekty, s sebou přinášejí společensky
   problematické jevy, např\.\)
 
-    \- bezvýhradná poslušnost, potlačování svobody, izolace, utajování informací, vyžadování obětí od
-      členů, nemožnost vystoupení, upevňování strachu aj\.
+\- bezvýhradná poslušnost, potlačování svobody, izolace, utajování informací, vyžadování obětí od
+členů, nemožnost vystoupení, upevňování strachu aj\.
 
 \- původ v křesťanství – Moonisté = federace žen za mír, svobodným členům vybírá vedení partnery –
                                                                dokonalé rodiny
 
-                                       \- Děti boží, Slovo života…
+\- Děti boží, Slovo života…
 
-                                       \- Mormoni \(církev Ježíše Krista Svatých posledních dnů\) – mnohoženství
+\- Mormoni \(církev Ježíše Krista Svatých posledních dnů\) – mnohoženství
 
-                                       \- Svědci Jehovovi – neslaví narozeniny, Vánoce, Velikonoce, nesmí přijmout
-                                                                         transfuzi krve, odmítají vykonávat vojenskou službu, nevolí,
-                                                                         popírají, že Ježíš zemřel na kříži
+\- Svědci Jehovovi – neslaví narozeniny, Vánoce, Velikonoce, nesmí přijmout
+transfuzi krve, odmítají vykonávat vojenskou službu, nevolí,
+popírají, že Ježíš zemřel na kříži
 
-                                         \- časopisy: Strážná věž, Probuďte se, sídlo: Brooklyn, zakladatel: Ch\. T\. Russel
+\- časopisy: Strážná věž, Probuďte se, sídlo: Brooklyn, zakladatel: Ch\. T\. Russel
 
 \- původ v islámu – Bahá’í
 

@@ -39,8 +39,8 @@ __Gorgias z Leontýn__
                    \- „je\-li něco, nemůže to člověk poznat“
                    \- „lze\-li to poznat, nelze to druhému sdělit“
 
-__
-SOKRATES __
+
+**SOKRATES** 
 \- celý život v Athénách
 \- vyučil se sochařem, ale věnoval se filosofii
 \- nezanechal po sobě dílo – putoval městem a navazoval nahodilé hovory s lidmi, které se týkaly
@@ -52,8 +52,8 @@ SOKRATES __
 \- nikdy se nepovažoval za učitele
 \- vnitřní hlas __daimonion__ – součást vesmírné božské bytosti \- ozve se, když je něco špatně \(=svědomí\)
 
-Sokratův ideální stát__
-__\- více souvisel se ctností \- 3 zákl\. ctnosti \- střídmost
+Sokratův ideální stát
+\- více souvisel se ctností \- 3 zákl\. ctnosti \- střídmost
                                                                         \- udatnost
                                                                         \- spravedlnost
 \- je založený na zemědělství, vojenství \(jsou opakem řemesla a obchodu, ty totiž souvisí s penězi a tím
@@ -87,8 +87,8 @@ Podobenství o jeskyni
 Lidská duše
 \- je nesmrtelná
 \- než se ocitla v lidském těle, pobývala v říši idejí \-> proto má člověk základní povědomí o světě
-  \(získává orientaci ve světě tím, že se rozpomíná na ideje\) \-> teorie __anamnéze
-__\- duše se skládá ze 3 částí \- rozumová \(miluje pravdu, měla by vládnout nad ostatními částmi duše\)
+  \(získává orientaci ve světě tím, že se rozpomíná na ideje\) \-> teorie anamnéze
+\- duše se skládá ze 3 částí \- rozumová \(miluje pravdu, měla by vládnout nad ostatními částmi duše\)
                                                \- ctižádostivá \(miluje čest a vítězství\)
                                                \- žádostivá \(touží po jídle, pití a tělesné slasti\)
 
@@ -118,10 +118,10 @@ __ARISTOTELES__
 
 Aristotelova metafyzika
 \- každá věc v hmotném světě \(každé jsoucno\) je kombinací látky a formy
-\- 4 příčiny jsoucna \(řídí podstatu každé věci\) – __1\. formální__ \(jakou to má formu, co to je\)__
+\- 4 příčiny jsoucna \(řídí podstatu každé věci\) – __1\. formální__ \(jakou to má formu, co to je\)
                                                                                    2\. materiální __\(materiál, z čeho to je\)__
                                                                                    3\. působící __\(člověk, který to vyrobil\)__
-                                                                                   4\. účelová__ \(z jakého důvodu je to vyrobeno\)
+                                                                                   4\. účelová \(z jakého důvodu je to vyrobeno\)
 Aristotelova etika
 \- byl prvním velkým __naturalistou__
 \- základním zdrojem všech hodnot je člověk a jeho životní cíle

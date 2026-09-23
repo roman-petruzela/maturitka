@@ -3,16 +3,16 @@ title: "PSYCHOLOGIE OSOBNOSTI"
 order: 1
 source: "MATURITA HADR/Společenské vědy/1. PSYCHOLOGIE OSOBNOSTI.docx"
 ---
-__OSOBNOST
+OSOBNOST
 __= souhrn biologických, psychických a sociálních znaků__
 __\- zahrnuje \- psych\.vlastností, procesy a stavy, které tvoří celistvou strukturu a dynamiku, individualitu
  konkrétního člověka__
-__\- každá osobnost má své jedinečné psychické, biologické a sociální vlastnosti
+\- každá osobnost má své jedinečné psychické, biologické a sociální vlastnosti
 
-__Osobnost utváří
+Osobnost utváří
 \- __Dědičnost a růst – vnitřní podmínky__
 \- __Prostředí – vnější vliv__
-\- __Výchova – vnější vliv
+\- Výchova – vnější vliv
 
 __ZAŘAZENÍ DO SYSTÉMU PSYCHOLOGICKÝCH VĚD__
 
@@ -23,16 +23,16 @@ __ZÁKLADNÍ \(TEORETICKÁ\)__
 
 __5 disciplín psychologie__
 
-__1\. Obecná psychologie
-__\- základní teoretické otázky psychologie, podává celkový obraz člověka
+1\. Obecná psychologie
+\- základní teoretické otázky psychologie, podává celkový obraz člověka
 \- zabývá se problematikou poznávacích procesů, dynamikou citového života, problematikou
  lidské zaměřenosti a usilování \(např\. motivy,zájmy,postoji\) atd\.
 \- je úzce spojena s dějinami psychologie a psychologickou metodologií\.
-__2\. Vývojová psychologie \(ontogenetická\)
-__\- věnuje se otázkám psychického vývoje člověka a to již od prenatálního období
+2\. Vývojová psychologie \(ontogenetická\)
+\- věnuje se otázkám psychického vývoje člověka a to již od prenatálního období
 \- věnuje se charakteristikám vývojových období člověka \(např\. vývoj vnímání, motoriky, intelligence,\.\.\)
-__3\. Sociální psychologie
-\- __řeší otázky forem a mechanismů začleňování lidí do mezilidských vztahů,sociálních skupin a
+3\. Sociální psychologie
+\- řeší otázky forem a mechanismů začleňování lidí do mezilidských vztahů,sociálních skupin a
  společenských institucí
 __4\. Psychopatologie__
 \- zabývá se popisem psychických poruch a potíží \(např\. Poruchy osobnosti,vědomí,nálad\)
@@ -41,8 +41,8 @@ __5\. Psychologie osobnosti__
 \- zabývá se strukturou a vývojem osobnosti, dynamikou psychický procesů jedince\.
 \- je úzce spojena s obecnou psychologií, vývojovou a sociální\.
 
-__SPECIÁLNÍ
-\- __zaměřená na určitá témata, která se týkají psychologie člověka
+SPECIÁLNÍ
+\- zaměřená na určitá témata, která se týkají psychologie člověka
 \- např\. neuropsychologie, psychologie zdraví…
 
 __APLIKOVANÁ
@@ -70,24 +70,24 @@ __PSYCHICKÁ STRUKTURA OSOBNOSTI__
 \- do této struktury se promítá jednota prožívání a chování
 \- relativně stálá, ale s vývojem a změnou životních podmínek se může měnit
 
-__TEMPERAMENT
+TEMPERAMENT
 __= soustava psychických vlastností projevujících se způsobem reagování, prožívání, chování, jak rychle
   u něj jeho city vznikají, trvají a jak se střídají__
 \- __dynamická vlastnost \(pozná se při mluvě,chůzi \- ovlivňují naši činnost\)__
 __\- temperamentní člověk \- radost ze života, aktivní, hlasitý, je vidět, sebevědomý__
 __\- vrozená vlastnost, částečně získaná po rodičích__
-__\- aspekty ovlivňující temperament : Poškození při porodu, v těhotenství
+\- aspekty ovlivňující temperament : Poškození při porodu, v těhotenství
                              Léky, drogy
                              Špatné sociální okolí, nevhodná výchova
 
-Vývoj__
+Vývoj
 1\. Hipocrates __\- rozdělil \- sangvinik, cholerik, melancholik, flegmatik__
 2\. Galenos __\(1\.\-2\.st\.\) \- přidal tekutiny \- sangvinik – krev__
                                __cholerik – žluč__
                                __melancholik – lymfa__
                                __flegmatik – hleny__
 3\. Carl Jung __\(18\.st\.\) \- rozdělil \- extrovert, introvert__
-4\. Aysenck__ \- temperamentový kříž
+4\. Aysenck \- temperamentový kříž
 
 __5\. Ernst Kretschmer__ \- pyknik = cyklotým \- malý, krátké končetiny, sklon k ukládání tuku, kulatý obličej,
                                   veselý, spokojený

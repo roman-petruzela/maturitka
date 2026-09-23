@@ -67,8 +67,8 @@ Zánik pracovního poměru:
                            __d\) zrušením ve zkušební době__ – zaměstnavatel i zaměstnanec mohou zrušit prac\.
                                                                                       poměr kdykoli a bez udání důvodu
 
-__PRÁVO NA ZAMĚSTNÁNÍ
-\- __Zákon o zaměstnanosti deklaruje každému občanovi právo na zaměstnání, jímž se rozumí právo
+PRÁVO NA ZAMĚSTNÁNÍ
+\- Zákon o zaměstnanosti deklaruje každému občanovi právo na zaměstnání, jímž se rozumí právo
    občana, který chce a může pracovat a o práci se skutečně uchází, na
                        \- zprostředkování pracovního uplatnění ve vhodném zaměstnání,
                        \- na rekvalifikaci nezbytnou k pracovnímu uplatnění,
@@ -137,8 +137,8 @@ __PRÁVNICKÁ OSOBA__
 \- za ní jedná její statutární orgán nebo zástupce
 \- zástupcem s nejrozsáhlejší plnou mocí je __prokurista\.__
 
-__PODNIK
-__= soubor všech hmotných i nehmotných složek podnikání patřících podnikateli a určených k jeho
+PODNIK
+= soubor všech hmotných i nehmotných složek podnikání patřících podnikateli a určených k jeho
    podnikatelskému provozu \(nehmotná složka – př\. průmyslová práva k vynálezům, pohledávky, obchodní
                                                      tajemství\)
 
@@ -179,8 +179,8 @@ __OBCHODNÍ SPOLEČNOSTI, JEJICH ZALOŽENÍ A VZNIK__
 
 \- Obchodní společnosti jsou právnickými osobami založenými za účelem podnikání\.
 
-__
-__Společnosti osobní
+
+Společnosti osobní
 
 \- společník je povinen pro společnost osobně pracovat\.
 
@@ -244,9 +244,9 @@ __b\) vázané__ – podmínkou provozování je odborná způsobilost, získan�
 
 __c\) volné__ – odborná způsobilost není podmínkou provozování
 
-Koncesované živnosti* *
+Koncesované živnosti *
 
-*\- *mohou provozovat osoby, které na základě žádosti obdrží __koncesní listinu__
+\- mohou provozovat osoby, které na základě žádosti obdrží __koncesní listinu__
 
 Podmínky provozování živností
 
@@ -298,14 +298,14 @@ __Nájemní smlouva__ \- pronajímatel přenechává na dohodnutou dobu za úpla
 [__Smlouva o zápůjčce__](https://cs.wikipedia.org/wiki/Z%C3%A1p%C5%AFj%C4%8Dka) – věřitel přenechává za úplatu nebo bezúplatně dlužníkovi druhově určené věci
                                         \(zejména [peníze](https://cs.wikipedia.org/wiki/Pen%C3%ADze)\) a dlužník se zavazuje je po uplynutí dohodnuté doby vrátit a
                                         případně i zaplatit [úrok](https://cs.wikipedia.org/wiki/%C3%9Arok)\.
-[__Pracovní smlouva__](https://cs.wikipedia.org/wiki/Pracovn%C3%AD_smlouva)__ __– upravuje [pracovní poměr](https://cs.wikipedia.org/wiki/Pracovn%C3%AD_pom%C4%9Br) mezi zaměstnavatelem a zaměstnancem
+[__Pracovní smlouva__](https://cs.wikipedia.org/wiki/Pracovn%C3%AD_smlouva) __– upravuje [pracovní poměr](https://cs.wikipedia.org/wiki/Pracovn%C3%AD_pom%C4%9Br) mezi zaměstnavatelem a zaměstnancem
                                      \(mimo pracovní poměr upravuje dohody mezi zaměstnavatelem a
                                      zaměstnancem [dohoda o provedení práce](https://cs.wikipedia.org/wiki/Dohoda_o_proveden%C3%AD_pr%C3%A1ce) nebo [dohoda o pracovní činnosti](https://cs.wikipedia.org/wiki/Dohoda_o_pracovn%C3%AD_%C4%8Dinnosti)\)\.
-[__Pojistná smlouva__](https://cs.wikipedia.org/wiki/Pojistn%C3%A1_smlouva)__ __– pojistitel se zavazuje v případě vzniku nahodilé události poskytnout dohodnuté
+[__Pojistná smlouva__](https://cs.wikipedia.org/wiki/Pojistn%C3%A1_smlouva)__ – pojistitel se zavazuje v případě vzniku nahodilé události poskytnout dohodnuté
                                     finanční plnění a pojistník se zavazuje pravidelně platit pojistiteli pojistné\.
 
-Další typy smluv__
-__[Příkazní smlouva](https://cs.wikipedia.org/wiki/P%C5%99%C3%ADkazn%C3%AD_smlouva), [zprostředkovatelská smlouva](https://cs.wikipedia.org/w/index.php?title=Zprost%C5%99edkovatelsk%C3%A1_smlouva&action=edit&redlink=1), [smlouva o dílo](https://cs.wikipedia.org/wiki/Smlouva_o_d%C3%ADlo), [smlouva o úschově](https://cs.wikipedia.org/wiki/Smlouva_o_%C3%BAschov%C4%9B), [smlouva o ubytování](https://cs.wikipedia.org/w/index.php?title=Smlouva_o_ubytov%C3%A1n%C3%AD&action=edit&redlink=1), [cestovní smlouva](https://cs.wikipedia.org/w/index.php?title=Cestovn%C3%AD_smlouva&action=edit&redlink=1), [smlouva o důchodu](https://cs.wikipedia.org/w/index.php?title=Smlouva_o_d%C5%AFchodu&action=edit&redlink=1)
+Další typy smluv
+[Příkazní smlouva](https://cs.wikipedia.org/wiki/P%C5%99%C3%ADkazn%C3%AD_smlouva), [zprostředkovatelská smlouva](https://cs.wikipedia.org/w/index.php?title=Zprost%C5%99edkovatelsk%C3%A1_smlouva&action=edit&redlink=1), [smlouva o dílo](https://cs.wikipedia.org/wiki/Smlouva_o_d%C3%ADlo), [smlouva o úschově](https://cs.wikipedia.org/wiki/Smlouva_o_%C3%BAschov%C4%9B), [smlouva o ubytování](https://cs.wikipedia.org/w/index.php?title=Smlouva_o_ubytov%C3%A1n%C3%AD&action=edit&redlink=1), [cestovní smlouva](https://cs.wikipedia.org/w/index.php?title=Cestovn%C3%AD_smlouva&action=edit&redlink=1), [smlouva o důchodu](https://cs.wikipedia.org/w/index.php?title=Smlouva_o_d%C5%AFchodu&action=edit&redlink=1)
 
 __SOCIÁLNÍ STÁT__
 \- měl by zajistit každému svému občanovi základní sociální minimum

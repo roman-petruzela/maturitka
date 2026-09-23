@@ -31,37 +31,37 @@ __VZNIK STÁTU
 2\. Teologická __\- stát vznikl z boží vůle__
 3\. Patriarchální __\- stát vzniká z rodiny\(otec 🡪 panovník\)__
 4\. Organická/Mocenská__ \- stát vzniká nadvládou silnějšího nad slabšími, inspirováno
-                                               přírodou \(Hobbes, Machiavelli\), organismus který se vyvíjí a roste__
+                                               přírodou \(Hobbes, Machiavelli\), organismus který se vyvíjí a roste
 5\. Smluvní __\- důvodem vzniku státu je smlouva mezi lidmi, smluvní teoretikové \(\+Grotius\),
                        přenesení části práv na stát__
 6\. Patrimoniální __\- vznik z vlastnictví půdy__
-7\. Marxistická__ \- stát je nástrojem nadvlády
+7\. Marxistická \- stát je nástrojem nadvlády
 
 __POLITICKÉ SMĚRY
 \- __pojmy pravice x levice v 18\. století během velké francouzské revoluce, kdy na jedné straně
   zasedali monarchističtí aristokraté a na druhé radikálové\. Dnes spíše ekonomické linie__
 \- Levice__ \- sociální politika, sociální jistoty, sociálně odpovědný stát \(silný\), rovnost výsledků,
-                 ekonomie \- státní ochranářství, snížení nezaměstnanosti, kolektivismus__
-\- Pravice \-__ umožnění podnikatelské aktivity, minimalizace kompetencí státu, rovnost
-                   příležitostí, liberalizace \(svoboda\), snížení inflace, individualismus__
+                 ekonomie \- státní ochranářství, snížení nezaměstnanosti, kolektivismus
+\- Pravice \- umožnění podnikatelské aktivity, minimalizace kompetencí státu, rovnost
+                   příležitostí, liberalizace \(svoboda\), snížení inflace, individualismus
 \- Strana středu \- __výhodou je vysoký koaliční potenciál__
-\- Extremistické strany__ \- antisystémové, často antisemitické, romské, …, často v rozporu s
+\- Extremistické strany \- antisystémové, často antisemitické, romské, …, často v rozporu s
                                            ústavou
 
 __FORMY STÁTU__
 
 1\. Podle počtu suverénů/vládců
 __a\) Monarchie/Tyranie__ \- vládne jeden
-__b\) Oligarchie/Aristokracie__ \- vládne jich několik__
-c\) Demokracie/Politeia__ \- vláda všech
+__b\) Oligarchie/Aristokracie__ \- vládne jich několik
+**c\) Demokracie/Politeia** \- vláda všech
 
 2\. Podle toho, kdo vládne \(Platónův názor\)
-__a\) Sofokracie__ \- filosof__
-b\) Monarchie __\- král__
+__a\) Sofokracie__ \- filosof
+**b\) Monarchie __\- král__
 c\) Timokracie __\- vláda nejsilnějších__
 d\) Oligarchie __\- vláda bohatých__
 e\) Demokracie __\- vláda nevědomého lidu__
-f\) Aristokracie__ \- urození
+f\) Aristokracie** \- urození
 
 3\. Podle toho, zda je fce hlavy státu volená nebo dědičná
 __a\) Monarchie__ \- dědičná, doživotní vláda 1 panovníka \(absolutistická\- neomezená,
@@ -77,7 +77,7 @@ __a\) Diktátorské__ \- příkazy, utlačování lidských práv a svobod\. Jed
                            \- Totalitní \- právní stát mění na policejní, moc v rukou jedné strany
 __b\) Demokratické__
 
-5\. Podle územně\-právního členění__* *__
+5\. Podle územně\-právního členění 
 __a\) Federace__ \- sdružení států na základě společné ústavy, kdy jako suverén vystupuje pouze
                          jeden celek \(USA, Švýcarsko, …\)
 __b\) Konfederace__ \- volná sdružení samostatných států, ve kterých má centrální vláda určitou
@@ -345,8 +345,8 @@ __2\. kdo vládne__
 
 \- monarcha = monarchie \- a\) konstituční \- panovník je omezen pravomocemi dalších státní orgánů
 
-                                               b\) absolutní \- panovník má veškerou výkonnou moc, je nejvyšším
-                                                                        zákonodárcem i soudcem
+b\) absolutní \- panovník má veškerou výkonnou moc, je nejvyšším
+zákonodárcem i soudcem
 
 \- filozofové = sofokracie
 
@@ -374,7 +374,7 @@ __4\. podle režimu__
 
 \- diktatura \- potlačení práv a opozice \- a\) jednoduchá = policie, armáda, byrokracie                                                              a                                                                   b\) caesaristická = vládne osobnost
 
-                                                                     c\) totalitní = vláda strany
+c\) totalitní = vláda strany
 
 \- demokracie \- realizace práv
 

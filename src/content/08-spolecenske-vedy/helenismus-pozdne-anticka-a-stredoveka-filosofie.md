@@ -3,8 +3,8 @@ title: "HELENISMUS, POZDNE ANTICKA A STREDOVEKA FILOSOFIE"
 order: 18
 source: "MATURITA HADR/Společenské vědy/18. HELENISMUS, POZDNE ANTICKA A STREDOVEKA FILOSOFIE.docx"
 ---
-__HELÉNISTICKÁ FILOSOFIE
-__\- vznik \- říše Alexandra Makedonského \(asi konec 4\.st\.př\.n\.l\.\)
+HELÉNISTICKÁ FILOSOFIE
+\- vznik \- říše Alexandra Makedonského \(asi konec 4\.st\.př\.n\.l\.\)
 \- konec \- asi 30 n\.l\. kdy byl dobit poslední helénistický stát Egypt Římany
               \- ale dle filosofie až do zániku antiky – 6\.st\.
               \- 529 – zrušení všech pohanských škol i Akademie výnosem císaře Justiniána I\.
@@ -21,8 +21,8 @@ __\- vznik \- říše Alexandra Makedonského \(asi konec 4\.st\.př\.n\.l\.\)
                               \- __novoplatonismus
                               __\-__ elekticismus__
 
-__1\. Stoicismus
-__Zenón z Kitia
+1\. Stoicismus
+Zenón z Kitia
 \- nebyl athénským občanem – nemohl koupit dům – setkávali se ve sloupové síni \(Stoa Poikile =
                                                                                                                                                malované sloupořadí\)
 \- dělí svůj systém na \- __logiku__ – aristotelovské základy \(10 kategorií redukují na 4\)
@@ -129,8 +129,8 @@ __5\. Novoplatonismus__
 \- soudobý s počátky křesťanství
 \- revize Platónovy filosofie
 
-Plotínos                                                                                        X                                                                  Platón__
-__\- konečný zdroj bůh =__ jedno__                                                                             \- 2 světy \(hmotný\+ svět idejí\)
+Plotínos                                                                                        X                                                                  Platón
+**__\- konečný zdroj bůh =__ jedno**                                                                             \- 2 světy \(hmotný\+ svět idejí\)
                                      \- nedefinovatelný, nepopsatelný                                \- __idea dobra__ – mezi idejemi a
                                      \- můžeme jen říct, že je                                                   konečným zdrojem existence
 
@@ -148,8 +148,8 @@ __STŘEDOVĚKÁ FILOSOFIE__
                                    \- 1492 – K\. Kolumbus objevil Ameriku
                                    \- 1517 – reformace, Luther publikoval kritiku církve
 \- přejímá a přepracovává antická filosofická díla – Aristoteles a novoplatonikové
-\- dělení \- __patristika__ \(1\.st\.\-800\)__
-              __\-__ scholastika__ \(9\.st\.\-15\.st\.\)
+\- dělení \- __patristika__ \(1\.st\.\-800\)
+              **__\-__ scholastika** \(9\.st\.\-15\.st\.\)
 \- __apologet__ = člověk hájící křesťanství před pohanskými pověrami
                     \- apologetika – jejich díla
 

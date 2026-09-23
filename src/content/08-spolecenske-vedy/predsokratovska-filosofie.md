@@ -28,13 +28,13 @@ __1\) Mílétská škola__
 __Thales z Milétu__
 \- zakladatel Milétské školy, 1\.evropský filosof, kupec, obchodník, cestovatel
 \- předpověděl zatmění slunce v roce 585, vypočítal výšku pyramidy podle délky jejího stínu
-\- *arché *= voda, protože je proměnlivá, má sílu a život vznikl ve vodě
+\- arché = voda, protože je proměnlivá, má sílu a život vznikl ve vodě
 
 __Anaximandros__
 \- Thaletův žák
 \- dílo: De natura \(O přírodě\)
 \- popsal vznik kosmu
-\- *arché *= apeiron = nekonečné, neomezené; hmota, která nemá hranice a naše smysly ji nerozpoznají
+\- arché = apeiron = nekonečné, neomezené; hmota, která nemá hranice a naše smysly ji nerozpoznají
                                 \- protiklad všech pomíjivých věcí \(pera = omezení\)
  __Anaximenes__
 \- pokračovatel Anaximandra, zjednodušil jeho učení
@@ -47,7 +47,7 @@ __2\) Herakleitos z Efesu__
 \- myšlenky \- __pantha rhei__ = vše plyne, vše je v pohybu, nic netrvá = 2x nevstoupíš do téže řeky
                     \- každá věc má svůj protiklad a potřebuje ho pro své bytí – tento neustálý souboj
                       protikladů utváří celistvost světa \(bez nemoci bychom neznali zdraví, bez války mír
-\- *arché *= oheň \- nejlépe charakterizuje neustálé změny, proměnlivost
+\- arché = oheň \- nejlépe charakterizuje neustálé změny, proměnlivost
 
 __3\) Pythagoras ze Samu__
 \- žil v řeckém městě Krotón
@@ -126,7 +126,7 @@ __Empedokles__
 __Anaxagoras z Klazomen__
 \- jako 1\.přenesl filozofii do Athén, kde strávil značnou část života
 \- z Athén pro bezbožnost nucen uprchnout \- tvrdí, že Slunce je žhavá hmota, ne bůh
-\- *arché *= semena věcí, nekonečné množství pralátek, hmotné malé částečky
+\- arché = semena věcí, nekonečné množství pralátek, hmotné malé částečky
 \- hybný princip mimo pralátku \- __nús__ = světový duch, rozum \- abstraktní kosmický princip, spojuje
   semena do shluků, které tvoří konkrétní věci, uspořádání z chaosu
 

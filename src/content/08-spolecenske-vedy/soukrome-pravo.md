@@ -44,8 +44,8 @@ __PRÁVNICKÁ OSOBA__
 \- za ní jedná její statutární orgán nebo zástupce
 \- zástupcem s nejrozsáhlejší plnou mocí je __prokurista\.__
 
-__PODNIK
-__= soubor všech hmotných i nehmotných složek podnikání patřících podnikateli a určených k jeho
+PODNIK
+= soubor všech hmotných i nehmotných složek podnikání patřících podnikateli a určených k jeho
    podnikatelskému provozu \(nehmotná složka – př\. průmyslová práva k vynálezům, pohledávky, obchodní
                                                      tajemství\)
 
@@ -86,8 +86,8 @@ __OBCHODNÍ SPOLEČNOSTI, JEJICH ZALOŽENÍ A VZNIK__
 
 \- Obchodní společnosti jsou právnickými osobami založenými za účelem podnikání\.
 
-__
-__Společnosti osobní
+
+Společnosti osobní
 
 \- společník je povinen pro společnost osobně pracovat\.
 
@@ -151,9 +151,9 @@ __b\) vázané__ – podmínkou provozování je odborná způsobilost, získan�
 
 __c\) volné__ – odborná způsobilost není podmínkou provozování
 
-Koncesované živnosti* *
+Koncesované živnosti *
 
-*\- *mohou provozovat osoby, které na základě žádosti obdrží __koncesní listinu__
+\- mohou provozovat osoby, které na základě žádosti obdrží __koncesní listinu__
 
 Podmínky provozování živností
 
@@ -186,8 +186,8 @@ __\-__ Jestliže tomu brání překážka uvedená v zákoně\. Př\. soudem ul
 5\. Z vlastního podnětu to může živnostenský úřad učinit ze závažných důvodů – př\. podnikatel již nesplňuje
     nebo nedodržuje podmínky provozování živnosti\.
 
-__OBČANSKÉ PRÁVO
-__
+**OBČANSKÉ PRÁVO**
+
 
 __SUBJEKTY OBČANSKÉHO PRÁVA__
 
@@ -213,8 +213,8 @@ __FYZICKOU OSOBOU__
 	- v rozhodné době pro nabytí práv, resp\. Povinností je prokazatelně počat,
 	- narodí se živý\.
 
-__
-PRÁVNICKÉ OSOBY__
+
+**PRÁVNICKÉ OSOBY**
 
 Sdružení fyzických a právnických osob \- Obchodní společnosti \(veřejná obchodní společnost,
                                                                        společnost s ručením omezeným, komanditní společnost,
@@ -298,13 +298,13 @@ __RODINNÉ PRÁVO__
 __\- Osobní a majetkové vztahy mezi členy rodiny__ jsou zejména \- Vztahy mezi manžely
                                                                                                                \- Vztahy mezi rodiči a dětmi
 
-	                                                                                                               \- Vztahy náhradní rodinné výchovy
+\- Vztahy náhradní rodinné výchovy
 
 __\- Prameny rodinného práva__ \- Úmluva o právech dítěte
 
-                                                            \- Zákon o rodině \(především právní úprava manželských a rodinných vztahů\)
+\- Zákon o rodině \(především právní úprava manželských a rodinných vztahů\)
 
-                                                            \- Občanský zákoník
+\- Občanský zákoník
 
 __MANŽELSTVÍ__
 
@@ -367,22 +367,22 @@ __3\. rozvod__ \- sporný rozvod, nesporný rozvod \(smluvený rozvod\), ztíže
                   \- Před rozhodnutím o rozvodu musí být upraveny poměry nezletilých dětí\. Opatrovnický soud
                      musí rozhodnout o \- Svěření do výchovy\- jak má každý z rodičů přispívat na výživu\. dítěte\.
 
-                                                                \- Společná výchova\- situace, jako kdyby k rozvodu nedošlo\.
+\- Společná výchova\- situace, jako kdyby k rozvodu nedošlo\.
 
-                                                                \- Střídavá výchova \- dítě je určitou dobu střídavě s jedním z rodičů\.
+\- Střídavá výchova \- dítě je určitou dobu střídavě s jedním z rodičů\.
 
-                                                                \- Svěření do výchovy jednoho z rodičů
+\- Svěření do výchovy jednoho z rodičů
 
 __RODIČE A DĚTI__
 
- ____Určování rodičovství__
-\- __právní vztah mezi rodiči a dětmi vzniká v okamžiku narození dítěte, bez ohledu na skutečnost, zda se dítě
+ __Určování rodičovství__
+\- právní vztah mezi rodiči a dětmi vzniká v okamžiku narození dítěte, bez ohledu na skutečnost, zda se dítě
   narodilo v manželství\. „matka je jistá, otec nejistý“\. Proto zákon o rodině upravuje pouze otcovství a to na
   základě tří právních domněnek, které jsou vyvratitelné, tj\. platí, pokud není prokázán opak\.
 
-        \- __1\. otcem je manžel matky, 2\. souhlasné prohlášení rodičů, 3\. soudní rozhodnutí__
+\- __1\. otcem je manžel matky, 2\. souhlasné prohlášení rodičů, 3\. soudní rozhodnutí__
 
-__ __Vztahy mezi rodiči a dětmi
+ Vztahy mezi rodiči a dětmi
 \- souhrn práv a povinností, které mají rodiče s plnou způsobilostí k právním úkonům vůči svému
   nezletilému dítěti, nazývá zákon o rodině __rodičovská zodpovědnost__\.
 
@@ -394,10 +394,10 @@ __3\. správa jmění dítěte__
 
 \- Další práva a povinnosti rodičů \- 1\. vyživovací povinnost
 
-                                                                     2\. určení jména a příjmení dítěte
+2\. určení jména a příjmení dítěte
 
-__
-NÁHRADNÍ RODINNÁ VÝCHOVA __
+
+**NÁHRADNÍ RODINNÁ VÝCHOVA** 
 
 1\. Osvojení
 \- vzniká mezi osvojitelem a osvojencem takový právní vztah jako mezi rodiči a dětmi\.
@@ -407,14 +407,14 @@ NÁHRADNÍ RODINNÁ VÝCHOVA __
 __\- u nezrušitelného osvojení__ jsou osvojitelé zapsáni do matriky místo rodičů\. K osvojení je třeba souhlasu
   rodičů dítěte, ledaže by rodiče \- 1\. byli zbaveni rodičovské zodpovědnosti
 
-                                                                           2\. soustavně neprojevily o dítě zájem po dobu 6\-ti měsíců
+2\. soustavně neprojevily o dítě zájem po dobu 6\-ti měsíců
 
-                                                                           3\. dva měsíce po narození neprojevili žádný zájem
+3\. dva měsíce po narození neprojevili žádný zájem
 
-                                                                           4\. zřekli se dítěte
+4\. zřekli se dítěte
 
 2\. Pěstounská péče
-\-* *určena pro děti, které není možné osvojit \(zdravotní stav, vyšší věk, rodiče nedali souhlas s osvojením\)
+\- určena pro děti, které není možné osvojit \(zdravotní stav, vyšší věk, rodiče nedali souhlas s osvojením\)
 
 __\- Individuální__ pěstounská péče\.
 
@@ -439,12 +439,12 @@ __4\. Mezi manžely__ – tato povinnost je založena na zásadě vzájemnosti\.
 
 __5\. K rozvedenému manželovi__ \(př\. matka malých dětí\)\.
 
-__SOCIÁLNĚ\-PRÁVNÍ OCHRANA DĚTÍ
-__\- od 1\.4\.2000 upravena v samostatném zákonu\.
+SOCIÁLNĚ\-PRÁVNÍ OCHRANA DĚTÍ
+\- od 1\.4\.2000 upravena v samostatném zákonu\.
 
 \- Sociálně právní ochranou se rozumí zejména: __1\. ochrana práva dítěte na příznivý vývoj a řádnou výchovu__
 
-__                                                                                                    2\. ochrana oprávněných zájmů dítěte, včetně ochrany jeho
-                                                                                                         jmění__
+2\. ochrana oprávněných zájmů dítěte, včetně ochrany jeho
+jmění
 
-                                                                                                    __3\. působení směrující k obnovení narušených funkcí rodiny__
+__3\. působení směrující k obnovení narušených funkcí rodiny__

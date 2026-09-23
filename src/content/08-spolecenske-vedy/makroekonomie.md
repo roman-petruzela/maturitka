@@ -6,8 +6,8 @@ source: "MATURITA HADR/Společenské vědy/8. MAKROEKONOMIE.docx"
 __Lidské potřeby a ekonomika__
 *Abraham Maslow\-pyramida potřeb*
 
-__EKONOMIE
-__\- úřední disciplína zkoumající souvislosti ekonomického života společnosti
+EKONOMIE
+\- úřední disciplína zkoumající souvislosti ekonomického života společnosti
 \- zkoumá využívání vzácných vstupů k výrobě ekonomických statků mezi ekonomické subjekty s cílem
   uspokojování jejích potřeb
 \- věda, která zkoumá co lidé vyrábějí, spotřebovávají, snaží se vysvětlit jak se chovají podniky, domácnosti,
@@ -16,12 +16,12 @@ __\- úřední disciplína zkoumající souvislosti ekonomického života spole�
 \- chce najít řešení, které by umožnilo zvýšit efektivnost výrob a rozdělování
 
 \- lidé v ekonomickém životě vystupují jako fyzické osoby nebo jako právnické
-__Ekonomický statek
-__\- cokoliv, co je užitečné a schopné uspokojit potřebu, co je vzácné
+Ekonomický statek
+\- cokoliv, co je užitečné a schopné uspokojit potřebu, co je vzácné
 \- dělí se na \- volný \(vzduch,voda\)
                      \- vzácný\(pro získaní musíme něco vykonat\)
-__
-EKONOMIKA __\(hospodářství\)
+
+EKONOMIKA \(hospodářství\)
 \- souhrn hosp\. činností určitého subjektu \(např\.stát, firmy, domácnost, lidé\)
 \- služba\->zvláštní druh statku, zpravidla nehmotné, neskladovatelné, nezkazitelné
              \->dělí se na \- věcné\(např\.oprava auta\-obnova hm\.statků\)
@@ -49,8 +49,8 @@ __3 ekonomické subjekty:__ domácnosti\(spotřebitelé\), firmy, stát
                hospodářství, zvyšování stability ekonom\.systému \(nízká inflace\), zvyšování efektivnosti ekonom\.
                systému
 
-__
-Ekonomické sektory:__ primární \(zemědělství\)
+
+**Ekonomické sektory:** primární \(zemědělství\)
                                        sekundární\(zpracovatelský průmysl\)
                                        terciální\(služby\)
                                        kvaterální\(věda, výzkum\)
@@ -58,17 +58,17 @@ Ekonomické sektory:__ primární \(zemědělství\)
 __MAKROEKONOMIE__
 \- studuje chování ekonomie jako celku
 
-__
-Subjekty makroekonomie:__ 1\. podniky jako celek \- firmy
 
-                                                 2\. souhrn všech domácností
+**Subjekty makroekonomie:** 1\. podniky jako celek \- firmy
 
-			          3\. stát
+2\. souhrn všech domácností
+
+3\. stát
 
 __Cíle:__ úroveň produktu\(HNP\), zaměstnanost, stabilita cenové úrovně, bilance zahraničního obchodu
 
-__HRUBÝ NÁRODNÍ PRODUKT\(HNP\)
-__\- používá se k měření celkové výkonnosti ekonomiky
+HRUBÝ NÁRODNÍ PRODUKT\(HNP\)
+\- používá se k měření celkové výkonnosti ekonomiky
 \- tvoří ho všechny finální výrobky a služby, které byly za určité období vyrobeny za použití národních
   výrobních faktorů
 \- obsahuje jenom finální výrobky a služby= produkty, které lidé kupují pro spotřebu, nezahrnuje
@@ -76,22 +76,22 @@ __\- používá se k měření celkové výkonnosti ekonomiky
 
 VÝDAJOVÁ METODA:
 
-				     __HNP= C\+ G\+Ig\+\( Ex \- Im\)__
+__HNP= C\+ G\+Ig\+\( Ex \- Im\)__
 
-__
-C \-__ výdaje domácnosti na spotřebu, nakupují předmět krátkodobého užití i dlouhodobého\->potřeby a
+
+**C \-** výdaje domácnosti na spotřebu, nakupují předmět krátkodobého užití i dlouhodobého\->potřeby a
                                                                                                                                                                      služby
 
 __Ig \-__ výdaje firem na obnovu a rozšíření kapitálu\(modernizace strojů, nová zařízení\.\.\)
 
 __G \-__ vládní nákupy statků i služeb, souhrn výdajů na státní spotřebu a státní investice
 
-    \- nejsou v ní zahrnuty státní transportní platby\(dávky, důchod\.\.\)
+\- nejsou v ní zahrnuty státní transportní platby\(dávky, důchod\.\.\)
 
-__Export\-__I__mport__\- čistý export\- saldo zahraničního obchodu
+__Export\-**I**mport__\- čistý export\- saldo zahraničního obchodu
 
-__HRUBÝ DOMÁCÍ PRODUKT\(HDP\)
-__\- určuje výkonnost ekonomiky
+HRUBÝ DOMÁCÍ PRODUKT\(HDP\)
+\- určuje výkonnost ekonomiky
 
 \- objem finální produkce, vtvořený za určitého období výrobními faktory, které působily na území
    některého státu
@@ -103,13 +103,13 @@ __Hrubý \-__ znamená to, že z investice\(I\) nebylo odečteno znehodnocení 
               opotřebován nebo spotřebován\)
             \- jestliže odečteme opotřebení od hrubých investic, dostaneme čisté investice
 *
-*                 __I – a = In__		*a= amortizace* \-> opotřebení, znehodnocení
+- __I – a = In__ *a= amortizace* \-> opotřebení, znehodnocení
 
 __REÁLNÝ HNP__ \- slouží k porovnání výkonnosti co si za 100Kč můžu koupit teď a co před 20ti lety
 
 __NOMINÁLNÍ HNP \-__ měříme skutečnými cenami, 100Kč je 100Kč, nemění se časem, je to číslo
-*nominální mzda *\- číslo jako odměna za práci
-*reálná mzda *\- co si za to můžu koupit
+nominální mzda \- číslo jako odměna za práci
+reálná mzda \- co si za to můžu koupit
 
 __Co HDP a HNP nezahrnuje:__
 1\.Netrží produkce \- činnost vykonána pro rodinu, přátele, sebe
@@ -121,8 +121,8 @@ __Co HDP a HNP nezahrnuje:__
 5\.Tržní cena, kterou zaplatíme např\. za brambory je v HNP a HDP, ale práci, kterou vynaložíme na přípravu
     brambor se nezapočítává
 
-__NÁSTROJE MAKROEKONOMICKÉ POLITIKY
-__\- stát nebo vláda má k dispozici nástroje hosp\.politiky, které mohou být použity k prosazování makroek\.cílů
+NÁSTROJE MAKROEKONOMICKÉ POLITIKY
+\- stát nebo vláda má k dispozici nástroje hosp\.politiky, které mohou být použity k prosazování makroek\.cílů
 
 __1\.FISKÁLNÍ POLITIKA
 \-__ rozpočtová, politika st\. rozpočtu
@@ -134,22 +134,22 @@ __1\.FISKÁLNÍ POLITIKA
 
 \- Plánované výdaje: __a\)přebytkové__ \- příjmy jsou vyšší než výdaje
 
-	                                     __b\)vyrovnaný__ \- příjmy = výdaje
+__b\)vyrovnaný__ \- příjmy = výdaje
 
-		                       __c\)deficitní__ \- výdaje vyšší než příjmy, záporné saldo st\.rozpočtu
+__c\)deficitní__ \- výdaje vyšší než příjmy, záporné saldo st\.rozpočtu
 
-	\- má\-li vláda rozpočtový deficit, musí buď tisknout peníze, tím ale podporuje inflační tlaky nebo ho může
-              krýt půjčkami od jiných subjektů\(podniky, domácnosti, banky, jednotlivci…\) \-> tyto půjčky se realizují
-              prodejem státních cenných papírů na kapitálovém trhu
+\- má\-li vláda rozpočtový deficit, musí buď tisknout peníze, tím ale podporuje inflační tlaky nebo ho může
+krýt půjčkami od jiných subjektů\(podniky, domácnosti, banky, jednotlivci…\) \-> tyto půjčky se realizují
+prodejem státních cenných papírů na kapitálovém trhu
 
-	\- opakovanými deficity státními rozpočty vzniká a narůstá státní dluh \(veřejný vládní dluh\) 1 630 000 000
-              \*ideální inflace jsou 2%
+\- opakovanými deficity státními rozpočty vzniká a narůstá státní dluh \(veřejný vládní dluh\) 1 630 000 000
+\*ideální inflace jsou 2%
 
-           \- státní deficit \- veličina za daný rok
-           \- dluh \- veličina stavu v daném okamžiku
+\- státní deficit \- veličina za daný rok
+\- dluh \- veličina stavu v daném okamžiku
 
-__
-Zdroje státního rozpočtu__:
+
+**Zdroje státního rozpočtu**:
 1\) Daně\(přímé, nepřímé\)\- omezují důchody obyvatelstva ; vyšší daně=nižší důchod na útratu\->omezení
                                                 výdajů na spotřebu\->snížení celkové poptávky\->skutečný HNP\(nižší\)
 2\)Poplatky soc\.pojištění\(nemocenská\)
@@ -160,22 +160,22 @@ Lafferova křivka\- zobrazuje závislost celkové sumy vybraných daní na míř
 \- výdaje státního rozpočtu směřují do oblastí: podpory při nezaměstnanosti,
   zdravotnictví, školství,národní hospodářství, státní správa\-policie…
 
-__2\.MONETÁRNÍ POLITIKA
-__\- peněžní
+2\.MONETÁRNÍ POLITIKA
+\- peněžní
 \- uskutečňuje se prostřednictvím centrální banky dané země a svými nástroji může ovlivňovat nabídku
   peněz
 \- zrychlováním nebo zpomalováním růstu nabídky peněz povzbuzuje nebo omezuje hosp\. aktivitu
 \- centrální banka se stará o stabilitu měny \(inflaci\)
 
-__3\.DŮCHODOVÁ POLITIKA
+3\.DŮCHODOVÁ POLITIKA
 __\- mzdová a cenová__
-__\- stát může zavést přímou administrativní kontrolu mzdy a ceny \(např\. max\. možné přírůstky mezd a cen\),
+\- stát může zavést přímou administrativní kontrolu mzdy a ceny \(např\. max\. možné přírůstky mezd a cen\),
   cenová regulace \- min\.mzda 8500Kč
 
 \- je souhrnem opatření vlády, která usiluje o zmírnění inflace pomocí přímých kroků
 
-__4\.VNĚJŠÍ MĚNOVÁ A OBCHODNÍ POLITIKA
-__\- zabývá se exportem a importem
+4\.VNĚJŠÍ MĚNOVÁ A OBCHODNÍ POLITIKA
+\- zabývá se exportem a importem
 \- stát reguluje tok výrobků a služeb, které plynou za hranice země\(celní politika\.\.\)
 \- reguluje měnové kurzy\-to působí na příliv a odliv kapitálu
 
@@ -224,7 +224,7 @@ __INFLACE__
    Patří mezi ně \- __1\. Index spotřebitelských cen__ – vyjadřuje velikost změny výdajů na nákup
                                                                                        tzv\. spotřebního koše oproti výchozímu období
 
-		  __2\. Index cen výrobku__ \-  sleduje např\. vývoj cen surovin, strojů, služeb
+__2\. Index cen výrobku__ \-  sleduje např\. vývoj cen surovin, strojů, služeb
 
 __Formy inflace__
 

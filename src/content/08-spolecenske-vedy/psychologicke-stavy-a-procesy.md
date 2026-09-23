@@ -18,13 +18,13 @@ __3\. Psychické vlastnosti__ \- relativně trvalé charakteristiky, ovlivňují
 __4\. Dílčí psychické předpoklady__ \- předpoklady k činnostem, proměnlivější než vlastnosti
                                                          \- učení, postoje
 
-__
-PSYCHICKÉ PROCESY__
+
+**PSYCHICKÉ PROCESY**
 \- části lidské činnosti s krátkodobým trváním
 \- umožňují jedinci orientovat se ve svém okolí, vnímat, myslet, mluvit, posuzovat, hodnotit věci
 
-__DETERMINACE \( URČENÍ \) LIDSKÉ PSYCHIKY
-__= v jakém poměru je naše osobnost determinována = určována = vymezena
+DETERMINACE \( URČENÍ \) LIDSKÉ PSYCHIKY
+= v jakém poměru je naše osobnost determinována = určována = vymezena
 
 A\) Vnitřními vlivy \- biologickými, zděděnými
 B\) Vnějšími vlivy \- sociální okolí, výchova
@@ -131,26 +131,26 @@ __3\. Abstraktní__ = teoretické \- symboly, abstraktní pojmy \- zná jejich v
 __4\. Konvergentní__ = sbíhavé \- na konci pouze jediný závěr
 __5\. Divergentní__ = rozbíhávé \- na konci více výsledků \- podmínky \-> závěr
 
-__UČENÍ
-__= celoživotní proces, vlastnost, při které získáváme zkušenosti, vědomosti, dovednosti a návyky
+UČENÍ
+= celoživotní proces, vlastnost, při které získáváme zkušenosti, vědomosti, dovednosti a návyky
 
-__Zkušenost
-= __něco, co jsme zažili, odneseme si z toho něco do budoucna, uplatníme
-__Vědomost
-= __nějaká info, pojem, uplatňujeme paměť
+Zkušenost
+= něco, co jsme zažili, odneseme si z toho něco do budoucna, uplatníme
+Vědomost
+= nějaká info, pojem, uplatňujeme paměť
 __Dovednosti__
 = konkrétnější schopnosti
 1\. Senzomotorické \- více spojenu v jednu \(činnost\), propojují se smysly \+ motorika \(pohyb\)
                                    \- chytání míče, degustátor, housle
 2\. Intelektové \- pogika, poučky, definice
 3\. Sociální \- komunikace na určité úrovni, schopnost empatie, odhadnutí nálady druhých
-__Návyk
-= __určité, zaběhnuté, zmechanizované činnosti, nad kterými nemusíme přemýšlet
+Návyk
+= určité, zaběhnuté, zmechanizované činnosti, nad kterými nemusíme přemýšlet
 \- pozitivní \- čištění zubů, oblíkání se, cvičení, děkování, prosba
 \- negativní = zlozvyk \- kousání nehtů, mlaskání, kouření, alkohol
 
-__DRUHY UČENÍ
-1\. Napodobování \- __1\.úsměv
+DRUHY UČENÍ
+1\. Napodobování \- 1\.úsměv
 __2\. Nezáměrné = bezděčné \-__  výchova dětí, otravná písnička
 __3\. Záměrné__ \- chceme, máme cíl, nucení \- plně řízené \- škola, kurzy
                                                                         \- neřízené \- možnost výběru
@@ -164,8 +164,8 @@ __\- o__ 3 __ráno se zvyšuje aktivita, od__ 7__ snižuje \(před jídlem\)
 \- __18__ \- snížená
 \- __21__ \- méně a méně
 
-__PRAVIDLA EFEKTIVNÍHO UČENÍ
-__1\. Na začátku nebereme nejtěžší předmět \- uprostřed nejtěžší, na konci lehčí
+PRAVIDLA EFEKTIVNÍHO UČENÍ
+1\. Na začátku nebereme nejtěžší předmět \- uprostřed nejtěžší, na konci lehčí
 2\. Střídat předměty
 3\. Po příchodu domů zopakovat
 4\. Učit se vizuálně \+ audiálně \+ mechanicky
@@ -176,34 +176,34 @@ __1\. Na začátku nebereme nejtěžší předmět \- uprostřed nejtěžší, n
 9\. Ticho, ale ne úplně
 10\. Ani fyzicky, ani psychicky na dně
 
-__TYPY UČENÍ DLE ŽIVOTNÍCH SOUVISLOSTÍ
+TYPY UČENÍ DLE ŽIVOTNÍCH SOUVISLOSTÍ
 1\. Úroveň fyziologická
-\- __I\.P\.Pavlov
+\- I\.P\.Pavlov
 \- učení na úrovni podmíněných reflexů
 \- zvoní budík \-> vstanu \+ stres ze školy / špatná zkušenost s učitelem
-__2\. Pokus \- omyl
-__\- postupnou aproximací \- Thorndike
+2\. Pokus \- omyl
+\- postupnou aproximací \- Thorndike
 \- učení „nechtěně“
 \- vaření \- zkusit něco přidat \(pokus\)
 \- v matematice
-__3\. Senzomotorické
-__\- vnímání našich smyslů a pohyby
+3\. Senzomotorické
+\- vnímání našich smyslů a pohyby
 \- hudebn nástroj \(sluch, prsty\), sporty, řízení auta
-__4\. Verbální
-__\- Bernstein
+4\. Verbální
+\- Bernstein
 \- rozumět významu slov, melodii, hlasu
-__5\. Pojmové
-__\- navazuje na verbální, pouze lidi
+5\. Pojmové
+\- navazuje na verbální, pouze lidi
 \- Piaget \+ Vygotskij
-__6\. Vhledem
-__= problémové učení
+6\. Vhledem
+= problémové učení
 \- Kohler \+ Wertheimer
 \- opice v kleci \- nad ní banány, v kleci tyč, 2 bedny \-> tyč \-> ne, bedna \-> ne,tyč \+ bedny \-> úspěch
-__7\. Napodobování
-__= observační chování = imitace
+7\. Napodobování
+= observační chování = imitace
 \- regrese = napodobování ve špatném slova smyslu \(sprostá slova, drogy,\.\.\)
-__8\. Učení v životních souvislostech
-__\- celý život
+8\. Učení v životních souvislostech
+\- celý život
 
 __ŘEČ__
 \- nástroj myšlení a prostředek dorozumívání
@@ -269,8 +269,8 @@ Poruchy paměti
 \- __Amnézie__ \- krátkodobá ztráta paměti, vratná \(př\.otřesem mozku\)
 \- __Hypomnézie__ \- částečné či celkové snížení výkonnosti paměti \(únava, užívání léků,\.\.\)
 
-__POZORNOST
-__= schopnost vnímat jeden nebo více podnět po určitou dobu
+POZORNOST
+= schopnost vnímat jeden nebo více podnět po určitou dobu
 
 Dělení
 __1\. Nezáměrná = neúmyslná = bezděčná = mimovolní__
@@ -279,8 +279,8 @@ __1\. Nezáměrná = neúmyslná = bezděčná = mimovolní__
      \- využívá se v reklamách, musí zaujmout
      \- děti – hračky, ženy – mláďata, muži – ženy, auta
      \- i vnitřní podněty – hlad, bolest, zima
-__2\. Záměrná = úmyslná
-__     \- je třeba udržet aspoň 45min \(vyuč\. hodina\)
+**2\. Záměrná = úmyslná**
+     \- je třeba udržet aspoň 45min \(vyuč\. hodina\)
      \- děti 15min ve školce, 20min ve škole \(pak změnit činnost\)
 
 Vlastnosti

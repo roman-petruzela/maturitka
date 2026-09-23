@@ -122,5 +122,5 @@ __4\. Věcná__ \- přesně se vymezuje, čeho se týká \(oblast\)
 \- [mezinárodní právo veřejné](https://cs.wikipedia.org/wiki/Mezin%C3%A1rodn%C3%AD_pr%C3%A1vo)
 \- [právo Evropské unie](https://cs.wikipedia.org/wiki/Pr%C3%A1vo_Evropsk%C3%A9_unie)
 
-__LEGALITA
-= __Zákonnost – povinnost dodržovat zákon
+LEGALITA
+= Zákonnost – povinnost dodržovat zákon

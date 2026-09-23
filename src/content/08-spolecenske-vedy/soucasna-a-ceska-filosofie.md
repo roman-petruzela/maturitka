@@ -14,9 +14,9 @@ __FILOZOFIE 20\. STOLETÍ__
 \- globalizace = věci se začínají provádět stejně všude ve světě, ekonomiky propojené, všichni se
                           navzájem ovlivňují
 
-                        \- s polokoule využívají země j polokoule\-> rozvojové země
+\- s polokoule využívají země j polokoule\-> rozvojové země
 
-                        \- stírá kulturní rozdíly – mizí lokální kultury
+\- stírá kulturní rozdíly – mizí lokální kultury
 
 \- pokrok ve spoustě vědeckých oborů, medicíně
 
@@ -26,8 +26,8 @@ __FILOZOFIE 20\. STOLETÍ__
 
    \- *A\. Einstein* – relativita – čas, prostor, délka už nejsou považovány za absolutní, ale relativní
 
-        \- Sociální teorie relativity \(1905\), Obecná teorie relativity \(1916\) – gravitace, hmota zakřivuje
-                                                                                                                              časoprostor
+\- Sociální teorie relativity \(1905\), Obecná teorie relativity \(1916\) – gravitace, hmota zakřivuje
+časoprostor
 
    \- *Max Planck* – kvantová mechanika/teorie \(1900\)
 
@@ -43,8 +43,8 @@ __FILOZOFIE 20\. STOLETÍ__
 
 \- odděluje se od ní spousta dalších věd \(např\. kognitivní věda – myšlení…\)
 
-         \- řeší, co je mysl, kam člověk směřuje \-> fil si ponechává část kompetencí = řeší některé věci,
-            které si ostatní vědy nemohou řešit samy
+\- řeší, co je mysl, kam člověk směřuje \-> fil si ponechává část kompetencí = řeší některé věci,
+které si ostatní vědy nemohou řešit samy
 
 __Pragmatismus
 __\- Název__ pragmatismus__ je odvozen od řeckého slova *pragma* \(jednání, čin\), jedná se o směr
@@ -59,7 +59,7 @@ William James
 \- byl __psychologem__, učil na Harvardu
 \- byl jedním ze zakladatelů moderní __psychologie__ \(PRINCIPY PSYCHOLOGIE\)
 \- Tradiční pojetí pravdy hovoří o __shodě skutečnosti a poznávajícího__\. Podle Jamese je __pravda
-  nástrojem__, pravdivé je to,__ co má využití, co se osvědčí __a__ co přináší úspěch__\. Pravda se dá přirovnat
+  nástrojem__, pravdivé je to, **co má využití, co se osvědčí __a__ co přináší úspěch**\. Pravda se dá přirovnat
   k cestě z lesa\.
 \- Totéž by mělo platit pro __filosofii__\. Je nesmyslné stavět filosofii jako vědu o poučkách, ale soustředit
   se na její __praktické využití__\. Filosofie je k ničemu, pokud nedokáže člověku pomoct\.
@@ -102,10 +102,10 @@ Edmund Husserl
 \- Přestože nemáme detailní a objektivní povědomí o světě, dobře se v něm orientujeme\.
 __\- Příklad:__ Pojmy „blízko“ a „daleko“ neurčují konkrétní vzdálenost, přesto je používáme a rozumíme
                   jim\.
-__\- Věda__ přichází až potom, co známe __přirozený svět\.__ Snaží se vše __kvantifikovat__ a__ objektivně zkoumat\.
+__\- Věda__ přichází až potom, co známe __přirozený svět\.__ Snaží se vše __kvantifikovat__ a objektivně zkoumat\.
   __Podle fenomenologů__ věda svět vyprazdňuje, __za vědeckými zákonitostmi__ přestáváme vidět náš
-  přirozený svět\.__
-\- Vědecké hypotézy a teorie se mění, ale naše __přirozené vědomí__ o světě zůstává stejné__,__ pouze se
+  přirozený svět\.
+\- Vědecké hypotézy a teorie se mění, ale naše __přirozené vědomí__ o světě zůstává stejné, pouze se
   komunikací __zpřesňuje\.__ Abychom si rozuměli, měly by se nám věci vyjevovat všem stejně\.
 
 Martin Heidegger
@@ -162,7 +162,7 @@ Karl Jaspers
 \- Předměty se spojují do __světa__, který nás obklopuje jako __horizont__ – kamkoliv se pohneme, horizont se
   pohybuje s námi\. Na svět se __nikdy nemůžeme zaměřit jako na celek__\.
 \- Bytí světa je __obemykající__\. Je __nepoznatelné__, nemůžeme se k němu přiblížit, ale __uvědomujeme si je
-  jako mez__\. Smyslem filosofie je__ přecházet od konkrétního bytí k obemykajícímu__\.
+  jako mez__\. Smyslem filosofie je **přecházet od konkrétního bytí k obemykajícímu**\.
 \- Lidské bytí je rovněž __nepoznatelné__, přestože existují určité __vědy o člověku__ – ty jej však poznávají
   jen zčásti, člověk je __vždy něco víc__\.
 \- Lidská existence může být vyjasněna pomocí __tří kategorií__:
@@ -171,7 +171,7 @@ Karl Jaspers
                        \- __dějinnost__ – jednota času a věčnosti, ve které se člověk projevuje
 \- Existence se bezprostředně uskutečňuje v __mezních situacích__: smrt, utrpení, zápas, vina\. Člověk se
   v takové situaci __může stát sám sebou__\. Nejposlednější situací je __ztroskotání__ – zde __plně zakoušíme
-  bytí__\. Jaspers je tedy__ pesimista__\.
+  bytí__\. Jaspers je tedy **pesimista**\.
 
 Gabriel Marcel
 \- francouzský existencialista
@@ -187,8 +187,8 @@ Jean Paul Sartre
 \- jeho partnerkou byla __Simone de Beauvoir__, feministická teoretička
 \- čerpal z __Heideggera__
 \- __ateista__, radikální levičák, hlásil se ke __komunismu__ a ke Stalinovi
-\- dílo: __BYTÍ A NICOTA*
-*__\- Existence je pro Sartra „holé bytí“\. Existovat znamená__ „být tu“__\. Taková existence je pro člověka
+\- dílo: __BYTÍ A NICOTA
+*__\- Existence je pro Sartra „holé bytí“\. Existovat znamená „být tu“\. Taková existence je pro člověka
   málo – __člověk sám sebe musí učinit tím, čím je__\.
 \- V Sartreově filosofii __existence předchází esenci__\. Tím, že člověk zabil boha, zrušil vlastně formu
   svého bytí \(srv\. Platón, Aristotelés, středověk\), která mu předcházela\. K této formě \(esenci\) se
@@ -234,8 +234,8 @@ __TOMÁŠ GARRIGUE MASARYK__
 \- hovoří i o krizi náboženství, protože člověk se chce držet toho starého a není schopen vytvořit nové,
   které by bylo v souladu s novými poznatky vědy \- lidi věří v něco, co tu bylo před 2000 lety a chtějí to
   aplikovat na současnou moderní společnost, je to nesmysl
-\- dílo:  __Sebevražda
-            __Česká otázka – nejlepší
+\- dílo:  Sebevražda
+            Česká otázka – nejlepší
             O demokracii
             Ideály humanitní – filosofie
             Světová revoluce \- dějepis
@@ -266,7 +266,7 @@ __EGON BONDY__ \(1930\-2007\)
   1957, ve věku 27 let, odmaturoval na [Gymnáziu v Hellichově ulici](https://cs.wikipedia.org/wiki/Gymn%C3%A1zium_Jana_Nerudy), téhož roku se dostal na dálkové
   studium filozofie a psychologie na [Filozofické fakultě Univerzity Karlovy](https://cs.wikipedia.org/wiki/Filozofick%C3%A1_fakulta_Univerzity_Karlovy), přestože nepodal včas
   přihlášku\. „Šel jsem rovnou za děkanem\. Ten tam samozřejmě nebyl, ale byl tam jeho tajemník
-  Salač\. Byl to alkoholik\. Jak jsme na sebe dýchli, tak jsme poznali bratry v triku\.* *
+  Salač\. Byl to alkoholik\. Jak jsme na sebe dýchli, tak jsme poznali bratry v triku\. *
 
 \- Studium absolvoval v roce 1961, v letech 1957–1962 navíc pracoval jako noční hlídač v [Národním
   muzeu](https://cs.wikipedia.org/wiki/N%C3%A1rodn%C3%AD_muzeum)\. Mezi roky 1962–1967 byl zaměstnán v bibliografickém oddělení Státní knihovny ČSSR\. V té

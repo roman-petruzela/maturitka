@@ -29,10 +29,10 @@ Auguste Comte
               __\- pozitivní__ – lidé se nezaměřují na nepoznatelné, ale snaží se hledat souvislosti mezi fakty
               \- stádia se projevují nejen ve vývoji společnosti, ale také v životě jednotlivce a v každé vědě
 \- klasifikoval vědy od nejdokonalejší:
-              __\- matematika__ \- nejzákladnější__
-              \- anorganické
+              __\- matematika__ \- nejzákladnější
+              **\- anorganické
               \- organické
-              \- filosofie__ – vnáší systém do všech věd
+              \- filosofie** – vnáší systém do všech věd
               __\- psychologie__ – jako věda není možná, protože lidský druh nemůže zkoumat sám sebe
 
 Jeremy Bentham
@@ -54,8 +54,8 @@ Herbert Spencer
   průmyslový a mírový stát \-> __organicismus__
 \- stavěl se proti socialismu – lidé mají spolupracovat dobrovolně a stát má sloužit jednotlivci
 
-__MATERIALISMUS
-__\- německý materialismus vzešel z Hegelovské levice, jeho původem byly přírodověda a společenská
+MATERIALISMUS
+\- německý materialismus vzešel z Hegelovské levice, jeho původem byly přírodověda a společenská
   situace
 
 Ludwig Feuerbach
@@ -79,15 +79,15 @@ Karl Marx
 \- Základním zákonem materialistického vývoje je pode Marxe __přerod kvantity v kvalitu__\. \(Příklad:
   nahromadění nezaměstnaných vyvolá společenské změny\)
 
-                                                                    __Ideová nadstavba__ – filosofie, kultura, umění, náboženství,\.\.
+__Ideová nadstavba__ – filosofie, kultura, umění, náboženství,\.\.
 
-                                                                             __Materiální základna__ – společenské, ekonomické,
-                                                                                                                      materiální vztahy
+__Materiální základna__ – společenské, ekonomické,
+materiální vztahy
 
 \- Společnost podle Marxe prochází několika stádii:
              __prvobytně pospolná 🡪 otrokářská 🡪 feudalistická 🡪 kapitalistická 🡪 komunistická__
 \- V kapitalismu spolu bojují __kapitalisté__ a __proletariát__\. V komunismu dojde ke __zrušení soukromého
-  vlastnictví__, nebude docházet k __vykořisťování__,__ __statky budou rozdělovány__ podle potřeby__\. Marx
+  vlastnictví__, nebude docházet k __vykořisťování__, **__statky budou rozdělovány__ podle potřeby**\. Marx
   nabádá proletariát ke vzpouře
 
 \- Člověk uskutečňuje sebe samotného, __prací naplňuje svou podstatu__\. Zároveň jej ale produkt práce
@@ -129,7 +129,7 @@ Arthur Schopenhauer
   miluje to, co jemu samotnému chybí\. Nejvíce maskulinní typy hledají nejvíce femininní typy\. Fyzická
   krása je pomíjivá, v manželství dochází k vystřízlivění\.
 \- Vůle je nekonečná, nedá se ale nikdy zcela naplnit\. Lidský život je plný nesplnitelných přání\. __Nelze
-  nalézt trvalé štěstí\. __Slast a pocit štěstí jsou pouze__ nepřítomností bolesti__\. Nejvíce trpí__ géniové__\.
+  nalézt trvalé štěstí\. __Slast a pocit štěstí jsou pouze__ nepřítomností bolesti__\. Nejvíce trpí **géniové**\.
 \- Nedokážeme si vážit toho, co máme\. Hodnotu si uvědomíme, až když o ni přijdeme\.
 \- Většina lidí má __nouzi__, a ti, kteří se jí dokáží vyhnout, trpí __nudou__\.
 \- Život spočívá v __zápase a ničení__\. Nestojí za žití a směřuje jen ke smrti\.
@@ -144,7 +144,7 @@ Søren Kierkegaard
 \- jeho filosofie je __pesimistická__, svá díla vydával pod pseudonymy
 \- __nezabýval  se obecnými problémy__, zaměřoval se na __konkrétní život jednotlivce__ a jeho niterné
   problémy – na jeho __existenci__\. To z Kierkegaarda dělá __otce existencialismu
-__\- Hlásal__ opravdové křesťanství__, kdy má člověk stanout__ jako jednotlivec před Bohem__, odmítal
+__\- Hlásal__ opravdové křesťanství__, kdy má člověk stanout **jako jednotlivec před Bohem**, odmítal
   mechanizované církevní rituály\.
 \- Měl strach z toho, že se jeho filosofie dostane do rukou profesorům
 
@@ -157,14 +157,14 @@ Friedrich Nietzsche
                 \- ovlivněn Wagnerem, Schopenhaurem – ZROZENÍ TRAGÉDIE Z DUCHA HUDBY
                 \- ovlivněn Darwinem – RADOSTNÁ VĚDA
                 \- etika, morálka – TAK PRAVIL ZARATHUSTRA
-\- Ve spisu ZROZENÍ TRAGÉDIE Z DUCHA* *HUDBY se Nietzsche zabývá působením dvou živlů, které se
+\- Ve spisu ZROZENÍ TRAGÉDIE Z DUCHA HUDBY se Nietzsche zabývá působením dvou živlů, které se
   prolínají __uměním__, ale také __životem obecně__ \- __apollinský__ – zasněný, harmonický, umírněný živel
                                                                                 \- __dionýský__ – divoký, nespoutaný, sjednocující živel
                                                                                                      \- byl mu bližší
-*\- „Tento svět je vůle k moci – a jinak nic\. Avšak právě tak i vy jste vůle k moci – a jinak nic\!“ *Podstatou
+\- „Tento svět je vůle k moci – a jinak nic\. Avšak právě tak i vy jste vůle k moci – a jinak nic\!“ Podstatou
   světa je podle Nietzscheho __vůle k moci__ \(inspirace Schopenhauerem\)\. Vše ve světě __usiluje o moc__\.
-\- Veškerá metafyzika je nesmyslná\. Nadsmyslová jsoucna jsou vynálezem slabých\. *„Bůh je mrtev\.“
-  *\(TAK PRAVIL ZARATHUSTRA\)
+\- Veškerá metafyzika je nesmyslná\. Nadsmyslová jsoucna jsou vynálezem slabých\. „Bůh je mrtev\.“
+  \(TAK PRAVIL ZARATHUSTRA\)
 \- Jako voluntarista Nietzsche __snižuje úlohu rozumu__, ten je pouze __služebníkem vůle__\. Nejvíce si
   Nietzsche cení __vášně__ a __instinktů__\.
 \- Nietzsche ve svých spisech __rozbíjel staré hodnoty__ a místo nich přinášel hodnoty __nové__\.
@@ -173,8 +173,8 @@ Friedrich Nietzsche
   __nepoddajností__\. Otrocká morálka je __stádní__, dělá ctnost ze __slabosti__\. Z toho důvodu Nietzsche
   __opovrhuje socialismem__ a __křesťanstvím
 __\- Křesťanství pěstuje v lidech__ otrockou morálku__\. Kdo je poslušný a soucitný, bude po smrti odměněn\.
-  Tak křesťanství __převrátilo přirozené hodnoty__\. Potlačuje vášně, staví se proti životu samotnému\.__
-__\- Ve spisu TAK PRAVIL ZARATHUSTRA zvěstuje Nietzsche__ příchod nadčlověka __\(*Übermensch*\), který
+  Tak křesťanství __převrátilo přirozené hodnoty__\. Potlačuje vášně, staví se proti životu samotnému\.
+__\- Ve spisu TAK PRAVIL ZARATHUSTRA zvěstuje Nietzsche__ příchod nadčlověka \(*Übermensch*\), který
   povede stádo\. Bohové jsou mrtvi, nadchází nová etapa existence lidstva\.
 \- Nadčlověk je vyznavačem __panské morálky__, ztělesněním __dionýského živlu__ a __vůle k moci__\. Nietzsche
   je __optimista__\.

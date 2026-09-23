@@ -3,7 +3,7 @@ title: "DEMOKRATICKY PRAVNI STAT"
 order: 12
 source: "MATURITA HADR/Společenské vědy/12. DEMOKRATICKY PRAVNI STAT.docx"
 ---
-__DEMOKRACIE
+DEMOKRACIE
 __\- Demokracie z __démos kratos __=__ vláda lidu__
 \- zrodila se v 6\-4\.st přnl\. v městských státech polis v Řecku – svobodní občané se mohli podílet na
   řízení státu a volit
@@ -24,7 +24,7 @@ __\-__ Alexis de Tocqueville – __dobrá stránka demokracie \(vláda lidu\), �
 __\-__ John Stuart Mill \-  __nutná nepřímá dem\., parlament volen poměrným systémem, zvýhodnění menšin__
 \- T\.G\. Masaryk – __dem není přirozená, nutno se k ní dopracovat vzděláním__
                             __\- Ne vláda, ale správa lidu__
-                            __\- Dem: FORMÁLNÍ \(na papíře, fungující rámec\) a SUBSTANTIVNÍ \(lidé se chovají
+                            \- Dem: FORMÁLNÍ \(na papíře, fungující rámec\) a SUBSTANTIVNÍ \(lidé se chovají
                                                                                                                                       demokraticky, Tocqueville\)
 
 __PRAVNÍ STÁT__
@@ -58,9 +58,9 @@ __2\. Nepřímá –__ Lidé si volí zástupce, kteří za ně rozhodují
                                     dějin
 \- Karl Raimund Popper – otevřená/uzavřená\(komunisté, fašisté\) společnost
 
-Nedemokratické režimy__
-1\. Autoritářské – __Bělorusko; falšování voleb, vláda jedince, zastrašování opozice__
-2\. Totalitní –__ Severní Korea; jedna strana bez opozice, tajná policie, vláda jedné ideologie, politika
+Nedemokratické režimy
+**1\. Autoritářské – __Bělorusko; falšování voleb, vláda jedince, zastrašování opozice__
+2\. Totalitní –** Severní Korea; jedna strana bez opozice, tajná policie, vláda jedné ideologie, politika
                                                    vším prostupuje
 
 Jiné

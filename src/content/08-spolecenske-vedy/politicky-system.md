@@ -3,8 +3,8 @@ title: "POLITICKY SYSTEM"
 order: 13
 source: "MATURITA HADR/Společenské vědy/13. POLITICKY SYSTEM.docx"
 ---
-__
-__= souhrn politických institucí , idejí dané společnosti a vzájemných vztahů mezi nimi
+
+= souhrn politických institucí , idejí dané společnosti a vzájemných vztahů mezi nimi
 
 __ČESKÁ REPUBLIKA__
 
@@ -127,8 +127,8 @@ Polsko a EU
 
 \- V Radě má 27 hlasů, v parlamentu 51 poslanců, neplatí eurem
 
-__
-SLOVENSKO__
+
+**SLOVENSKO**
 
 \- Vstup do EU 1\. 5\. 2004, v Radě EU má 7 hlasů, v EP má 13 poslanců, platí eurem
 
@@ -144,9 +144,7 @@ SLOVENSKO__
 
 \- Soudní moc: Ústavní soud – 10 členů jmenovaných prezidentem na dobu 7 let \(Košice\)
 
--
-	-
-		- Okresní soudy – krajské soudy – Nejvyšší soud SR
+- Okresní soudy – krajské soudy – Nejvyšší soud SR
 
 \- Administrativní dělení – 8 krajů
 
@@ -166,20 +164,18 @@ __RAKOUSKO__
 
 \- Dvoukomorový parlamentní systém – SPOLKOVÉ SHROMÁŽDĚNÍ
 
--
-	- Národní rada \(reprezentuje občany\) – 4 roky, obyvatelstvem183 členů, v současné době 6 stran – Soc\.dem\., Rakouská strana lidová, Rakouská strana lidová, Svobodná strana Rakouska, Zelení Rakouska, Team Stronach, Neos
-	- Spolková rada \(reprezentuje kraje – vybírají do rady zástupce, počet určuje prezident, dle výsledků sčítání lidu, 62 členů
+- Národní rada \(reprezentuje občany\) – 4 roky, obyvatelstvem183 členů, v současné době 6 stran – Soc\.dem\., Rakouská strana lidová, Rakouská strana lidová, Svobodná strana Rakouska, Zelení Rakouska, Team Stronach, Neos
+- Spolková rada \(reprezentuje kraje – vybírají do rady zástupce, počet určuje prezident, dle výsledků sčítání lidu, 62 členů
 
 \- V čele republiky je přímo volený spolkový prezident volený na 6 let s možností znovuzvolení
 
--
-	- „spolkového prezidenta volí lid Spolku na základě rovného, přímého, tajného a osobního volebního práva“
-	- Kandidát – minimálně 35 let, může být navržen buď 6000 podpisy občanů, 5 členy Národní rady nebo politickou stranou
-	- Dvoukolový volební proces
-	- Zastupuje stát navenek i dovnitř, velí branné moci, jmenuje členy vlády, soudce …
-	- Prezident je odpovědný spolkovému shromáždění, které může prezidenta odvolat během jeho funkčního období lidovým hlasováním nebo může na prezidenta podat žalobu pro porušení Ústavy Rakouské republiky
-	- Společné pravomoci s českým prezidentem: zastupování státu, velení ozbrojených sil, jmenování a odvolání členů různých subjektů, udělení amnestie, oba potřebují spolupodpis kancléře, popřípadě předsedy anebo příslušného ministra, aby daný zákon platil
-	- Rozdílné pravomoci: …spolkový prezident nemá právo vrátit Parlamentu přijatý zákon – do toho spolkový prezident vůbec nezasahuje
+- „spolkového prezidenta volí lid Spolku na základě rovného, přímého, tajného a osobního volebního práva“
+- Kandidát – minimálně 35 let, může být navržen buď 6000 podpisy občanů, 5 členy Národní rady nebo politickou stranou
+- Dvoukolový volební proces
+- Zastupuje stát navenek i dovnitř, velí branné moci, jmenuje členy vlády, soudce …
+- Prezident je odpovědný spolkovému shromáždění, které může prezidenta odvolat během jeho funkčního období lidovým hlasováním nebo může na prezidenta podat žalobu pro porušení Ústavy Rakouské republiky
+- Společné pravomoci s českým prezidentem: zastupování státu, velení ozbrojených sil, jmenování a odvolání členů různých subjektů, udělení amnestie, oba potřebují spolupodpis kancléře, popřípadě předsedy anebo příslušného ministra, aby daný zákon platil
+- Rozdílné pravomoci: …spolkový prezident nemá právo vrátit Parlamentu přijatý zákon – do toho spolkový prezident vůbec nezasahuje
 
 \- Rakouský kancléř Sebastian Kurz
 
@@ -191,7 +187,7 @@ __NĚMECKO
 __Státní zřízení__
 \- Federativní republika __sestávající z__ 16 spolkových zemí__ \(13 sp\. země a 3 svobodná města\), kancléřská a parlamentní
   demokracie\. Vláda rozdělena mezi federální úroveň a jednotlivé spolkové země\.
-\- Ústava tzv\. Základní zákon \(r\.1949\) prvně jen pro západ\.__
+\- Ústava tzv\. Základní zákon \(r\.1949\) prvně jen pro západ\.
 __Německo po 2\. sv\. Válce__
 \- __4 okupační zóny__
 \- __1949 USA\+VB\+FR z jejich zón vzniká Spolková republika Německo \(1957 se připojí i Sársko\)__
@@ -204,8 +200,8 @@ __Německo po 2\. sv\. Válce__
 \- __od 1969 vládla koalice SPD\+FDP__
 \- __1982 vláda vystřídána SDU/CSU\+FDP__
 __Nejvyšší státní orgány__
-Moc zákonodárná a kontrolní:__
-*Spolkový sněm=*jednokomorový parlament\- je volen každé __čtyři__ roky v parlamentních volbách \(Volby do Spolkového sněmu probíhají na základě poměrného volebního systému\), v nichž se rozděluje min\. __598 mandátů__, přesný počet poslanců závisí na počtu tzv\. kompenzačních neboli převislých mandátů\.
+Moc zákonodárná a kontrolní:
+Spolkový sněm=jednokomorový parlament\- je volen každé __čtyři__ roky v parlamentních volbách \(Volby do Spolkového sněmu probíhají na základě poměrného volebního systému\), v nichž se rozděluje min\. __598 mandátů__, přesný počet poslanců závisí na počtu tzv\. kompenzačních neboli převislých mandátů\.
 
 - schvaluje zákony, volí kancléře, dohlíží na polkovou vládu
 
@@ -214,7 +210,7 @@ Moc zákonodárná a kontrolní:__
 - zastupuje zájmy spolkových zemí na federální úrovni
 
 __Moc výkonná:__
-*Spolkový prezident *hlava státu je volena nepřímo na __pětileté funkční období__ zvláštním grémiem, tzv\. __Spolkovým shromážděním__, sestávajícím z členů Spolkového sněmu a stejného počtu volitelů zvolených na zemské úrovni\. Spolkový prezident smí být jedenkrát znovu zvolen, min\. věk 40 let\.
+Spolkový prezident hlava státu je volena nepřímo na __pětileté funkční období__ zvláštním grémiem, tzv\. __Spolkovým shromážděním__, sestávajícím z členů Spolkového sněmu a stejného počtu volitelů zvolených na zemské úrovni\. Spolkový prezident smí být jedenkrát znovu zvolen, min\. věk 40 let\.
 
 - navrhuje kancléře a ministry, zastupuje Německo navenek
 - Frank\-Walter Steinmeier \(r\. 2017\)
@@ -226,7 +222,7 @@ Vládu od 17\. prosince 2013 tvoří koalice Křesťansko demokratické unie 
 __Moc soudní:__
 *Spolkový ústavní soud* v Karlsruhe dohlíží na dodržování Ústavy\. Soud rozhoduje spory mezi státními orgány, posuzuje soulad přijímané legislativy se Základním zákonem atd\.
 
-V Německu existuje pět nejvyšších soudů, jimž jsou případy rozdělovány podle oblasti, které se týkají\. Jedná se o *Spolkový soudní dvůr* vykonávající soudní moc řádnou, *Spolkový pracovní soud *zabývající se pracovně\-právními otázkami, *Spolkový finanční dvůr* řešící finanční spory, *Spolkový sociální soud* pod nějž spadají problémy sociální oblasti a *Spolkový správní soud* do jehož kompetence spadá problematika správních sporů\.
+V Německu existuje pět nejvyšších soudů, jimž jsou případy rozdělovány podle oblasti, které se týkají\. Jedná se o *Spolkový soudní dvůr* vykonávající soudní moc řádnou, Spolkový pracovní soud zabývající se pracovně\-právními otázkami, *Spolkový finanční dvůr* řešící finanční spory, *Spolkový sociální soud* pod nějž spadají problémy sociální oblasti a *Spolkový správní soud* do jehož kompetence spadá problematika správních sporů\.
     V soudní architektuře pak následují soudy nižších stupňů
 
 Volební systém
@@ -256,18 +252,18 @@ __VELKÁ BRITÁNIE__
 \- parlamentní demokracie \(spojení tradice, opírá se o nepsanou ústavu\) s mimořádným postavením ministerského
   předsedy, někdy je britský systém označován jako *„premiérský“*
 
-*\- *závislá území \(Mariány, Portoriko\.\.\.\)
+\- závislá území \(Mariány, Portoriko\.\.\.\)
 
 \- Britské společenství: Kanada, JAR, Nový Zéland, Kypr, Malta\.\.\.\- britský panovník je hlavou všech těchto států, tyto
   země disponují státní suverenitou
 
 \- neexistence Ústavy ≠ neexistence jasně definovaných principů politického života a vlády \- jsou definovány:	Magna Charta libertatum \(1215\)
 
-              Pitition of Rights \(1628\)
+Pitition of Rights \(1628\)
 
-              Habeas Corpus Act \(1679\)
+Habeas Corpus Act \(1679\)
 
-             Bill of Rights \(1689\)
+Bill of Rights \(1689\)
 
 \- nejrozsáhlejší zákonné úpravy pocházejí z 19\. a 20\. století a týkají se především rozšiřování volební účasti
 
@@ -282,17 +278,16 @@ __VELKÁ BRITÁNIE__
 
 ÚSTAVA – nesystematický soubor kodifikací, zvyků a vazeb mezi jednotlivými prvky systému
 
--
-	- postavení premiéra\! \(premiér musí být členem Dolní komory\!\)
-	- rysy politické kultury VB: konsensuálnost
+- postavení premiéra\! \(premiér musí být členem Dolní komory\!\)
+- rysy politické kultury VB: konsensuálnost
 
-                                                            gradualismus
+  gradualismus
 
-                                                            respektování zákonů
+  respektování zákonů
 
-                                                            pragmatismus
+  pragmatismus
 
-                                                            demokratičnost
+  demokratičnost
 
 __VÝKONNÁ MOC__
 
@@ -323,24 +318,24 @@ __VÝKONNÁ MOC__
 \- pravomoci:
       \- Rozhoduje o velikosti a složení kabinetu
 
-      \- vytváří a jmenuje členy výborů kabinetu
+\- vytváří a jmenuje členy výborů kabinetu
 
-      \- svolává zasedání kabinetu, vybírá a může odvolávat členy vlády
+\- svolává zasedání kabinetu, vybírá a může odvolávat členy vlády
 
-       \- hlavní spojovací článek panovníka s vládou – žádný ministr nemůže kontaktovat panovníka bez toho, aniž by
-          předem informoval premiéra
+\- hlavní spojovací článek panovníka s vládou – žádný ministr nemůže kontaktovat panovníka bez toho, aniž by
+předem informoval premiéra
 
-          \- je arbitrem ve sporech mezi jednotlivými ministerstvy a úřady vlády
+\- je arbitrem ve sporech mezi jednotlivými ministerstvy a úřady vlády
 
-          \- jmenuje vedoucí pracovníky soudů, státní správy, armády a arcibiskupa anglikánské církve
+\- jmenuje vedoucí pracovníky soudů, státní správy, armády a arcibiskupa anglikánské církve
 
-          \- je předsedou své strany i parlamentu v zemi
+\- je předsedou své strany i parlamentu v zemi
 
-          \- dvakrát v týdnu odpovídá v Dolní komoře parlamentu na otázky poslanců
+\- dvakrát v týdnu odpovídá v Dolní komoře parlamentu na otázky poslanců
 
-          \- rozsáhlé pravomoci premiéra jsou však omezeny principem kolektivní odpovědnosti kabinetu
+\- rozsáhlé pravomoci premiéra jsou však omezeny principem kolektivní odpovědnosti kabinetu
 
-          \- nemá pevné funkční období
+\- nemá pevné funkční období
 
 *Kabinet*
 
@@ -360,9 +355,9 @@ __VÝKONNÁ MOC__
 
 \- složení vlády:	ministři – členové kabinetu
 
-               ministři – nečlenové kabinetu, jejich zástupci
+ministři – nečlenové kabinetu, jejich zástupci
 
-               představitelé významných administrativních institucí \+ další osoby
+představitelé významných administrativních institucí \+ další osoby
 
 \- vláda se nikdy neschází jako celek – jako celek nepřijímá rozhodnutí
 
@@ -392,7 +387,7 @@ __ZÁKONODÁRNÁ MOC__
 
 \- složení: dolní komora – Sněmovna reprezentantů
 
-                 horní komora – Sněmovna lordů
+horní komora – Sněmovna lordů
 
 \- Jednoznačně je nadřazena DK\!
 
@@ -449,8 +444,8 @@ __„Každoroční projev o stavu unie“__ \-> Od něho se odvíjí následná 
    souhlasem senátu\)\. Dále má právo udělit plnou nebo podmíněnou milost každému, kdo se dopustí porušení
    federálního zákona s výjimkou velezrady
 
-__2\. Volební systém
-__\- Aktivní volební právo – občané starší 18\-ti let\.
+2\. Volební systém
+\- Aktivní volební právo – občané starší 18\-ti let\.
 
 \- Kandidát na úřad prezidenta \- americké občanství zrozením
                                                        \- nejméně 14 let pobytu v USA
@@ -520,8 +515,7 @@ Na území jednotlivých států působí dále státní soudy, které se zabýv
 3. FEDERÁLNÍ KOMISE PRO SPOJE – přiděluje licence a vysílací frekvence pro soukromé televizní a rozhlasové
                                                            stanice
 
-# __
-6\. Místní vlády a samospráva__
+**6\. Místní vlády a samospráva**
 
 \- 50 států a Kolumbijský okrsek – každá z těchto jednotek má svou vlastní vládu\.
 \- pravomoci má rozsáhlé a týkají se např\.: veřejné služby, školství, zdravotnictví, sociální péče, obchodu…

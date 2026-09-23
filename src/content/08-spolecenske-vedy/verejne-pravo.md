@@ -97,22 +97,22 @@ __FINANČNÍ PRÁVO__
 
 \- Finanční úřad \- zabývá se daněmi a poplatky \( za psy, odpadky\)
 
-                            \- řeší příjmovou část státního rozpočtu, ale i výdajové přerozdělení a užívání
-                              finančních prostředků
+\- řeší příjmovou část státního rozpočtu, ale i výdajové přerozdělení a užívání
+finančních prostředků
 
-                            \- řeší finanční hospodaření podnikatelských subjektů
+\- řeší finanční hospodaření podnikatelských subjektů
 
 \- obsahuje normy \- daňová soustava, soustava cel, peněžní oběh, burza, pojistné vztahy v CNB
 
-__DAŇOVÁ SOUSTAVA
-__= nástroj, který ovlivňuje ekonomiku\. Je součástí fiskální ek\. státu\.
+DAŇOVÁ SOUSTAVA
+= nástroj, který ovlivňuje ekonomiku\. Je součástí fiskální ek\. státu\.
 
 Daně
 = jediné jisté příjmy do státního rozpočtu
 
 \- Funkce daní: __1\. motivující__ \- daňové prázdniny, menší daně
 
-	            __2\. demotivující__ \- zvýšení daní
+__2\. demotivující__ \- zvýšení daní
 
 = povinné a v některých případech nenávratné platby, které platí občan nebo podnik do státního
    rozpočtu ve stanovené výši
@@ -124,8 +124,8 @@ Daně
 \- Dělení: __1\. Přímá__ \- jsou daně placené přímo fyzickými a právnickými osobami\. Jedná se zejména o
                                   daně z příjmu \(důchodové\), jež mají větší význam, daně z majetku a dědické daně
 
-	 __2\. nepřímá__ \- jsou daně připočítané k cenám zboží a služeb\. Do státního rozpočtu je odvádějí
-                                      prodávající\. Jde o daň z přidané hodnoty \(DPH\) a spotřební daně\.
+__2\. nepřímá__ \- jsou daně připočítané k cenám zboží a služeb\. Do státního rozpočtu je odvádějí
+prodávající\. Jde o daň z přidané hodnoty \(DPH\) a spotřební daně\.
 
 \- __Druhy daní__ \- daň z přidané hodnoty, daň z příjmu, spotřební daň, daň z nemovitostí, silniční daň,
                           dědická daň, darovací daň …\.viz MO 4
@@ -195,19 +195,19 @@ __TRESTÍ ODPOVĚDNOST__
 
 \- pachatel ve věku 15 \-18 let = mladiství
 
-__NEPŘÍČETNOST
-= __je schopnost pachatele rozpoznat nebezpečnost činu a ovládat své jednání, bývá způsobena
+NEPŘÍČETNOST
+= je schopnost pachatele rozpoznat nebezpečnost činu a ovládat své jednání, bývá způsobena
   duševní poruchou\. \(Nepříčetným osobám se ukládá ochranné léčení\)\. Za nepříčetnou osobu se
   nepovažuje osoba pod vlivem drog nebo alkoholu v době činu\.
 
-__NETRESTNOST PROTIPRÁVNÍHO JEDNÁNÍ
-1\. ____Nutnost obrany__ \- odvrácení hrozícího nebezpečí \(násilné zneškodnění nebezpečného pachatele\)
+NETRESTNOST PROTIPRÁVNÍHO JEDNÁNÍ
+1\. __Nutnost obrany__ \- odvrácení hrozícího nebezpečí \(násilné zneškodnění nebezpečného pachatele\)
 __2\.__ __Krajní nouze__ \- odvrácení hrozícího nebezpečí \(k záchraně života při živelných katastrofách\)
 
 __3\.__ __Oprávněné použití zbraně__
 
-__MÍRA ZAVINĚNÍ
-1\. ____úmyslně__ \- pachatel chtěl porušit zákon
+MÍRA ZAVINĚNÍ
+1\. __úmyslně__ \- pachatel chtěl porušit zákon
 
 __2\.__ __z nedbalosti__ \- pachatel věděl, že svým jednáním může porušit zákon, ale spoléhal na to, že k tomu
                               nedojde, nebo o ohrožení nevěděl
@@ -218,9 +218,9 @@ __TRESTNÍ ŘÍZENÍ__
 
 \- Orgány \- __Soud__ – rozhoduje senát nebo samosoudce
 
-	    __Státní zastupitelství__ – podává žalobu
+__Státní zastupitelství__ – podává žalobu
 
-	    __Vyšetřovatelé__ – policie
+__Vyšetřovatelé__ – policie
 
 Osoby, proti které se řízení vede:
 
@@ -273,19 +273,19 @@ __ZADRŽOVACÍ VAZBA__ \- pokud existuje obava, že obviněný uprchne, bude pok
                                          činnosti nebo mařit vyšetřování, může být vzat do vazby na max\. 48 hod –
                                          v této lhůtě musí být zadržená osoba předána soudu
 
-__
-OBHÁJCE EX OFFO__ \- v případě, kdy si obviněný nezvolí obhájce, je mu soudem přidělen
 
-__
-PRÁVO ODEPŘÍT VÝPOVĚĎ__ \- má příbuzný obviněného; svědek nemusí vypovídat pokud by svou
+**OBHÁJCE EX OFFO** \- v případě, kdy si obviněný nezvolí obhájce, je mu soudem přidělen
+
+
+**PRÁVO ODEPŘÍT VÝPOVĚĎ** \- má příbuzný obviněného; svědek nemusí vypovídat pokud by svou
                                                     výpovědí způsobil nebezpečí trestního stíhání sobě nebo svému
                                                     příbuznému
 
-__
-AMNESTIE__ = hromadné prominutí trestu
 
-__
-MILOST__ =  prominutí trestu jedné osobě prezidentem
+**AMNESTIE** = hromadné prominutí trestu
+
+
+**MILOST** =  prominutí trestu jedné osobě prezidentem
 
 __PRESUMPCE NEVINY__ = je princip, podle kterého je na účastníka [trestně\-právního](http://cs.wikipedia.org/wiki/Trestn%C3%AD_pr%C3%A1vo) [řízení](http://cs.wikipedia.org/wiki/%C5%98%C3%ADzen%C3%AD) v různých
                                           fázích řízení nahlíženo jako na [nevinného](http://cs.wikipedia.org/wiki/Vina), dokud není pravomocným
@@ -346,8 +346,8 @@ __4\. se zvýšenou ostrahou__ – pachatelé s doživotním trestem, nebezpeč
 
 __RECIDIVISTA__ = osoba dopouštějící se opětovného spáchání trestného činu stejné povahy
 
-__
-PROBACE__ = organizování a vykonávání dohledu nad obviněným, obžalovaným nebo odsouzeným,
+
+**PROBACE** = organizování a vykonávání dohledu nad obviněným, obžalovaným nebo odsouzeným,
                       kontrola výkonu trestů nespojených s odnětím svobody, včetně uložených povinností a
                       omezení, sledování chování odsouzeného ve zkušební době podmíněného propuštění z
                       výkonu trestu odnětí svobody, dále individuální pomoc obviněnému a působení na něj\.
@@ -377,19 +377,19 @@ __PRACOVNÍ POMĚR__
 \- __pracovní smlouva__ \- podepisována osobně, nutné prostudování před podpisem
                                     \- Obsah:  a\) den nástupu do prac\. poměru
 
-                                                     b\) místo výkonu práce, adresa a název zaměstnavatele
+b\) místo výkonu práce, adresa a název zaměstnavatele
 
-                                                     c\) druh práce \(funkce\)
+c\) druh práce \(funkce\)
 
-                                                     d\) délka dovolené \(4 týdny\)
+d\) délka dovolené \(4 týdny\)
 
-                                                     e\) údaje o zkušební \(3měsíce\) a výpovědní lhůtě
+e\) údaje o zkušební \(3měsíce\) a výpovědní lhůtě
 
-                                                      f\) mzdu a způsob odměňování, termín
+f\) mzdu a způsob odměňování, termín
 
-                                                     g\) délku prac\. doby a rozvržení prac\. dob
+g\) délku prac\. doby a rozvržení prac\. dob
 
-                                                     h\) podpis zaměstnavatele a zaměstnance
+h\) podpis zaměstnavatele a zaměstnance
 
 Zánik pracovního poměru:
 
@@ -398,27 +398,27 @@ Zánik pracovního poměru:
 \- __Rozvázáním__ \- __a\) dohodou__ – dvoustranný prac\. úkon zaměstnanec a zaměstnavatel se písemně
                                                      dohodnou, kterým dnem ukončí prac, poměr
 
-                            __b\) výpovědí__ – zaměstnanec či zaměstnavatel \(musí doložit zákonem připuštěný
-                                                     důvod\) dá tomu druhému písemnou výpověď, prac\. poměr skončí
-                                                     uplynutím výpovědní doby – obvykle 2 měsíce
+__b\) výpovědí__ – zaměstnanec či zaměstnavatel \(musí doložit zákonem připuštěný
+důvod\) dá tomu druhému písemnou výpověď, prac\. poměr skončí
+uplynutím výpovědní doby – obvykle 2 měsíce
 
-                            __c\) okamžitým zrušením__ – zaměstnavatel zruší prac\. poměr  při hrubém porušení
-                                                                          kázně či odsouzením zaměstnance pro úmyslný trestný čin
+__c\) okamžitým zrušením__ – zaměstnavatel zruší prac\. poměr  při hrubém porušení
+kázně či odsouzením zaměstnance pro úmyslný trestný čin
 
-                             – zaměstnanec tehdy, nedostane\-li mzdu nebo je\-li prací
-                                vážně ohroženo jeho zdraví
+– zaměstnanec tehdy, nedostane\-li mzdu nebo je\-li prací
+vážně ohroženo jeho zdraví
 
-                           __d\) zrušením ve zkušební době__ – zaměstnavatel i zaměstnanec mohou zrušit prac\.
-                                                                                      poměr kdykoli a bez udání důvodu
+__d\) zrušením ve zkušební době__ – zaměstnavatel i zaměstnanec mohou zrušit prac\.
+poměr kdykoli a bez udání důvodu
 
-__PRÁVO NA ZAMĚSTNÁNÍ
-\- __Zákon o zaměstnanosti deklaruje každému občanovi právo na zaměstnání, jímž se rozumí právo
+PRÁVO NA ZAMĚSTNÁNÍ
+\- Zákon o zaměstnanosti deklaruje každému občanovi právo na zaměstnání, jímž se rozumí právo
    občana, který chce a může pracovat a o práci se skutečně uchází, na
 
-                       \- zprostředkování pracovního uplatnění ve vhodném zaměstnání,
-                       \- na rekvalifikaci nezbytnou k pracovnímu uplatnění,
+\- zprostředkování pracovního uplatnění ve vhodném zaměstnání,
+\- na rekvalifikaci nezbytnou k pracovnímu uplatnění,
 
-                       \- na hmotné zabezpečení před nástupem do zaměstnání a v případě ztráty zaměstnání\.
+\- na hmotné zabezpečení před nástupem do zaměstnání a v případě ztráty zaměstnání\.
 
 __ZÁKON O KOLEKTIVNÍM VYJEDNÁVÁNÍ__
 \- upravuje kolektivní vyjednávání mezi [odborovými organizacemi](http://cs.wikipedia.org/wiki/Odbory) a [zaměstnavateli](http://cs.wikipedia.org/wiki/Zam%C4%9Bstnavatel) nebo jejich
@@ -459,7 +459,7 @@ __1\. HLAVA__
 
 __2\. HLAVA__
 
-\- zákonodárná moc \(parlament ČR = poslanecká sněmovna a senát\) __ __
+\- zákonodárná moc \(parlament ČR = poslanecká sněmovna a senát\)  
 
 __\- PS –__ dolní komora, 200 poslanců, na 4 roky, min 21 let, občan ČR, poměrný systém \(volba stran, zisk
           křesel v parlamentu v %\), předseda: Jan Hamáček \(ČSSD\)
@@ -482,20 +482,20 @@ __3\. HLAVA__
 \- __prezident__ \- hlava státu, přímá volba \(na 5 \- 10 let\), Václav Klaus \(2003\-2013\), __Miloš__ __Zeman__ \(8\.3\.
                                                                                                                                                         2013\-dosud\)
 
-                     \- většinový systém, občan ČR, nad 40 let,
+\- většinový systém, občan ČR, nad 40 let,
 
-                     \- návrh prezidenta – podpora 20 poslanců, 10 senátorů nebo 50 tisíc podpisů
+\- návrh prezidenta – podpora 20 poslanců, 10 senátorů nebo 50 tisíc podpisů
 
-                     \- když je zvolen, složí slib do rukou předsedy senátu
+\- když je zvolen, složí slib do rukou předsedy senátu
 
-                     \- pravomoci: reprezentace, podepisování zákonů, amnestie, velitel vojsk, jmenuje a
-                                            odvolává předsedu vlády a další členy vlády, uděluje vyznamenání, rozpouští
-                                            PS, jmenuje soudce, prezidenta viceprezidenta kontrolního úřadu, členy
-                                            bankovní rady ČNB, sjednává a ratifikuje mezinárodní smlouvy, vyhlašuje
-                                            volby do parlamentu
+\- pravomoci: reprezentace, podepisování zákonů, amnestie, velitel vojsk, jmenuje a
+odvolává předsedu vlády a další členy vlády, uděluje vyznamenání, rozpouští
+PS, jmenuje soudce, prezidenta viceprezidenta kontrolního úřadu, členy
+bankovní rady ČNB, sjednává a ratifikuje mezinárodní smlouvy, vyhlašuje
+volby do parlamentu
 
-                     \- nelze ho zadržet, stíhat \(ani, když už není prezident\), soudit \(pouze velezrada –př\.
-                       narušení obranyschopnosti země\)
+\- nelze ho zadržet, stíhat \(ani, když už není prezident\), soudit \(pouze velezrada –př\.
+narušení obranyschopnosti země\)
 
 __\- vláda__ – skládá se z ministrů, předseda: __B\. Sobotka__, místopředsedové: Babiš, Bělobrádek, vládní
                 koalice \(ČSSD, ANO, KDU\-ČSL\), do 30 dnů požádá o důvěru PS, skládají slib, PS – může
@@ -511,12 +511,12 @@ __\-__ soudní moc – převedena na soustavy soudů
 \- mimo stojí __ústavní soud__ \- zkoumá, zda jsou zákony v souladu s ústavou, reaguje na stížnosti
                                                  ohledně práv v LZPS
 
-                                             \- ústavní soudci \- 15 soudců, voleni na 10 let, od 40 let, právníci, praxe 10 let
+\- ústavní soudci \- 15 soudců, voleni na 10 let, od 40 let, právníci, praxe 10 let
 
-                                             \- soudce – jmenován prezidentem na neurčito, nezávislí, nemůžou mít víc
-                                                                fcí, právníci, bezúhonní
+\- soudce – jmenován prezidentem na neurčito, nezávislí, nemůžou mít víc
+fcí, právníci, bezúhonní
 
-                                             \- rozsudek se vyhlašuje veřejně
+\- rozsudek se vyhlašuje veřejně
 
 __5\. HLAVA__
 

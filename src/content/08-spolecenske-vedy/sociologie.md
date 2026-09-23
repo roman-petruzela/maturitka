@@ -138,8 +138,8 @@ __1\. společnost uzavřená__ \- s malou až nulovou mobilitou, znemožněna ja
 __2\. společnost otevřená \-__ moderní, demokratické státy\-  postavení si získáváme v průběhu života na
                                              základě našich kvalit a schopností
 
-__SOCIÁLNÍ ROLE
-__\- očekávané chování od člověka určitého postavení, souhrn očekávaného chování od jedince v určité
+SOCIÁLNÍ ROLE
+\- očekávané chování od člověka určitého postavení, souhrn očekávaného chování od jedince v určité
   pozici
 \- Každý člověk plní řadu sociálních rolí, učí se je v procesu socializace, svou roli si může do určité míry
   zvolit, vybrat, role nejsou absolutně závazné \(v případě velkých odchylek ale přichází trest
@@ -254,8 +254,8 @@ Rodina
                          \- 4\. Citová, emocionální \- uspokojování citových potřeb členů
 \- V současnosti mluvíme o krizi rodiny\-  zvyšuje se rozvodovost\(33%\), přestává plnit všechny své fce
 
-__ DAVY
-__\- sociální agregát
+ DAVY
+\- sociální agregát
 
 Klasifikace sociálních skupin
 __1\) dav sociálně strukturovaný__
@@ -275,7 +275,7 @@ __3\) nezákonné davy__
 a\) aktivní expresivní dav – rebelující dav, nepovolená demonstrace
 b\) amorální davy – narkomani, opilci, orgiastické skupiny
 
-__KULTURA
+KULTURA
 \- __Něco umělého, souhrn umění, výtvorů, ideí, myšlenek, postojů a to všechno je dále předáváno__
 \- __nemateriální – zvyky, tradice, hudba, desatero přikázání, Platonovy myšlenky, nábožen\.__
 \- __materiální \(masová\) – technické prostředky: televize, tisk, rádio, móda – vzniká ve 20\.stol\.
@@ -284,7 +284,7 @@ __KULTURA
 \- __kulturní difúze – prolínání kultur, působení na jiné kultury__
 \- __akulturace – osvojení prvků z jiných kultur__
 \- __kulturní dědictví – to co se osvědčilo a co je nutné předat dále \(seznam památek UNESCO\)__
-\- __masová kultura – kultura přístupná a srozumitelná každou společností, šířená mas médii \(populární
+\- masová kultura – kultura přístupná a srozumitelná každou společností, šířená mas médii \(populární
                                    hudba, seriál\)
 
 __MÉDIA
@@ -301,7 +301,7 @@ __MÉDIA
 __\- dokáže člověka oklamat, zmanipulovat
 \- reklamní letáky, fotografie \(fake, retuš\), video \(střihy, triky\)__
 \- Texty__ – náboženské spisy , zákony, nařízení, filosof\.spisy, knihy \(mniši přepisovali až do 15\. stol\.;
-                                                                                                                      J\.Guttenber – knihtisk\)__
+                                                                                                                      J\.Guttenber – knihtisk\)
 \- Noviny __\- 18\. stol\., vznik z ekonomických zpráv__
                 \- __Lidové, hospodářské, právo__
                 \- __Bulvár – drby, prodejnost, nízká kvalita zpráv, barevnost__
@@ -319,4 +319,4 @@ __\- dokáže člověka oklamat, zmanipulovat
                    \- __Demokratický potenciál, kriminální potenciál__
                    \- __Svoboda projevu, dostupnost, rychlost, lenost__
                    \- __Prostor pro občanskou aktivitu__
-__                   \- Zneužívání dat, informační záplavy – moc informací, porušování autorských práv, atd\.
+                   \- Zneužívání dat, informační záplavy – moc informací, porušování autorských práv, atd\.

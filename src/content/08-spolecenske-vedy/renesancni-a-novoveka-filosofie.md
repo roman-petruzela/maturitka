@@ -20,10 +20,10 @@ __RENESANCE__
 \- filosofie \- přírodní
                   \- společenská
 
-__PŘÍRODNÍ FILOSOFIE
-__\- pracovali s názory vědců
+PŘÍRODNÍ FILOSOFIE
+\- pracovali s názory vědců
 
-Mikuláš Kusánský__ __
+Mikuláš Kusánský 
 \- Němec, advokát a kněz
 \- tvrdil, že vesmír nemá žádný střed a je nekonečný
 \- bůh stvořil svět na základě matematických zákonů, k poznání vesmíru je nutno ovládat matematiku
@@ -44,8 +44,8 @@ Francis Bacon
                                           \- zbavit se pomocí indukce = tvoření obecných závěrů z jednotlivých premis
 \- dílo: NOVÁ ATLANTIDA – utopické dílo, jeho stát vedou vědci
 
-__SPOLEČENSKÁ FILOSOFIE
-__\- zájem o člověka v duchu antické vzdělanosti
+SPOLEČENSKÁ FILOSOFIE
+\- zájem o člověka v duchu antické vzdělanosti
 \- otec __humanismu__ – Francesco Petrarca, Giovanni Boccaccia
 \- náboženská reformace \- narůstala nespokojenost s poměry v katolické církvi
                                             \- Martin Luther – odmítal výlučný nárok církve na prostřednictví mezi
@@ -120,8 +120,8 @@ EMPIRISMUS
 
 \- vyzdvihovali úlohu lidské zkušenosti
 
-__Racionalismus
-__René Descartes__ __
+**Racionalismus
+__René Descartes__** 
 \- „Cogito, ergo sum\.“ \(= Myslím \(pochybuji\), tedy jsem\) \-> důkaz lidské existence
 \- francouzský matematik, vědec, filosof
 \- dílo: ROZPRAVA O METODĚ
@@ -153,8 +153,8 @@ Gottfried Wilhelm Leibniz
 \- zabýval se diferenciálními počty \(derivace, integrály\), matematik, právník, historik, geolog, ing,\.\.
 \- poslední „renesanční člověk“ v Evropě
 \- hlásal spojenectví křesťanů s nekřesťany
-\- díla: *Nová soustava přírody, Monadologie, Principy přírody a milosti, Teodicea *
-*\- *vycházel z Descarta, ale odmítal ho
+\- díla: Nová soustava přírody, Monadologie, Principy přírody a milosti, Teodicea *
+\- vycházel z Descarta, ale odmítal ho
 \- pohyb jde zastavit => zákon zachování síly \(energie\) – zůstává i tehdy, pokud je pohyb zastaven,
                                                                                                    přechází jen v jiné formy
 \- hmota není dělitelná donekonečna \(X Descartes\) – musíme dojít k nějaké zákl\. částici
@@ -172,13 +172,13 @@ __Monadologie__
 \- Z těchto základních bodů jsou pak složena všechna tělesa
 \- každá monáda v sobě nese boží řád a tudíž všechny tvoří harmonický celek
 
-__Teodicea
+Teodicea
 __= ospravedlnění boží existence ve zlém světě, zabývali se tím i ve středověku \(sv\. Augustýn\) \-> zlo =
    absence dobra__
 __\- bůh stvořil nejlepší svět, jaký mohl__
 __\- 3 druhy zla\- 1\. metafyzické – svět je konečný, lidé umírají, protože svět končí, bůh s tím nic nenadělá__
                         __2\. fyzické – dáno nedokonalostí lidských bytostí – cítíme záporné emoce__
-                        __3\. morální – děje se proto, že jsme nedokonalí a máme svobodu – často si vybíráme
+                        3\. morální – děje se proto, že jsme nedokonalí a máme svobodu – často si vybíráme
                                                špatně => v rozporu s předjednanou harmonií
 
 __Empirismus__
@@ -216,7 +216,7 @@ John Locke
 
 George Berkeley
 \- Ir, hodně cestoval – USA; biskup
-\- dílo: *Esej o nové teorii lidského poznání*, Pojednání* o základech lidského poznání*
+\- dílo: *Esej o nové teorii lidského poznání*, Pojednání o základech lidského poznání
 \- materialista
 \- kritizoval Locka
 \- subjektivní idealista \(příčinou všech věcí je subjekt \(člověk\) sám\)\-neexistuje hmotný svět, pouze
@@ -225,7 +225,7 @@ George Berkeley
                             \- veškerá realita závislá na mysli, na co jsme schopni myslet, to existuje
                             \- __veškeré věci, které vnímáme svými smysly, musí existovat pouze v našem vědomí
                               \-> když je nevnímáme, neexistují__
-                            ____\-__ __každý člověk ovšem vnímá stejnou věc stejně \- má obecné ideje dány od Boha
+                            __\-__ každý člověk ovšem vnímá stejnou věc stejně \- má obecné ideje dány od Boha
                             \- věci mohou existovat pouze jako vnímatelné objekty
                             \- věci, které vnímá více lidí, jsou společnou představou
 \- to, co existuje objektivně je duch, ne hmota => nemá objektivní existenci

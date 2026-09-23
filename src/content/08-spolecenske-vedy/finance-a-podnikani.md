@@ -41,7 +41,7 @@ __3\. Daně__ – představují příjmy do státního rozpočtu
 __4\. Transfery__ – dotace do podnikatelské sféry, podpora v nezaměstnanosti nebo zdravotně
                           postižených…
 
-__5\.__ [__Vládní výdaje__](https://cs.wikipedia.org/wiki/Vl%C3%A1dn%C3%AD_v%C3%BDdaje)__ na nákup zboží a služeb__ – představují výdaje ze státního rozpočtu
+__5\.__ [**Vládní výdaje**](https://cs.wikipedia.org/wiki/Vl%C3%A1dn%C3%AD_v%C3%BDdaje) **na nákup zboží a služeb** – představují výdaje ze státního rozpočtu
 
 __DANĚ__
 
@@ -127,8 +127,8 @@ __PRÁVNICKÁ OSOBA__
 \- za ní jedná její statutární orgán nebo zástupce
 \- zástupcem s nejrozsáhlejší plnou mocí je __prokurista\.__
 
-__PODNIK
-__= soubor všech hmotných i nehmotných složek podnikání patřících podnikateli a určených k jeho
+PODNIK
+= soubor všech hmotných i nehmotných složek podnikání patřících podnikateli a určených k jeho
    podnikatelskému provozu \(nehmotná složka – př\. průmyslová práva k vynálezům, pohledávky, obchodní
                                                      tajemství\)
 
@@ -169,8 +169,8 @@ __OBCHODNÍ SPOLEČNOSTI, JEJICH ZALOŽENÍ A VZNIK__
 
 \- Obchodní společnosti jsou právnickými osobami založenými za účelem podnikání\.
 
-__
-__Společnosti osobní
+
+Společnosti osobní
 
 \- společník je povinen pro společnost osobně pracovat\.
 
@@ -187,8 +187,8 @@ __1\. Veřejná obchodní společnost__
 
 __2\. Komanditní společnost__
 
-__
-__Společnosti kapitálové
+
+Společnosti kapitálové
 
 \- nutno složit určité základní jmění, jehož minimální výši předepisuje zákon\. Společnost je povinna zřídit
   zákonem předepsané orgány\. Ukončení účasti prodejem svého podílu
@@ -235,9 +235,9 @@ __b\) vázané__ – podmínkou provozování je odborná způsobilost, získan�
 
 __c\) volné__ – odborná způsobilost není podmínkou provozování
 
-Koncesované živnosti* *
+Koncesované živnosti *
 
-*\- *mohou provozovat osoby, které na základě žádosti obdrží __koncesní listinu__
+\- mohou provozovat osoby, které na základě žádosti obdrží __koncesní listinu__
 
 Podmínky provozování živností
 
@@ -282,8 +282,8 @@ __FINANČNÍ PRÁVO__
                             \- řeší finanční hospodaření podnikatelských subjektů
 \- obsahuje normy \- daňová soustava, soustava cel, peněžní oběh, burza, pojistné vztahy v CNB
 
-__DAŇOVÁ SOUSTAVA
-__= nástroj, který ovlivňuje ekonomiku\. Je součástí fiskální ek\. státu\.
+DAŇOVÁ SOUSTAVA
+= nástroj, který ovlivňuje ekonomiku\. Je součástí fiskální ek\. státu\.
 
 Daně
 = jediné jisté příjmy do státního rozpočtu
@@ -311,10 +311,10 @@ __BANKY__
 __1\. Komerční__\(Obchodní\) – Komerční banka, ČSOB, AirBank,\.\.
 \-cílem je dosažení zisku; AKTIVNĚ\(úvěr na úrok\), nebo PASIVNĚ\(spořící účet, stavebí spoření\)
 \-BANKOVNÍ ROZPĚTÍ – rozdíl mezi úroky u úvěrů a úroky u vkladů
-\-KREDITNÍ karta\(můžeme jít do mínusu, banka ro kryje\), DEBETNÍ\(naše peníze\)__
-2\. Centrální__ – ČNB, ukotveno v 6\. Hlavě ústavy
-\-rada\(7 členů\) v čele guvernér\(Singer\)__
-__\-monetrání politika – vydávání peněz
+\-KREDITNÍ karta\(můžeme jít do mínusu, banka ro kryje\), DEBETNÍ\(naše peníze\)
+2\. Centrální – ČNB, ukotveno v 6\. Hlavě ústavy
+\-rada\(7 členů\) v čele guvernér\(Singer\)
+\-monetrání politika – vydávání peněz
 \-diskontní p\. – primární úrok
 \-určování výše apitálu u ČNB ostatních banek
 \-operuje na trhu, vede účty veřejných institucí, NEZÁVISLÁ INSTITUCE
