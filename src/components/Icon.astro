@@ -2,7 +2,7 @@
 // Small monochrome line-icon set (stroke=currentColor, no fill) replacing
 // the emoji used around the site — picks up the surrounding text color
 // automatically, same weight/style across all of them.
-export type IconName = 'pencil' | 'eraser' | 'clipboard' | 'expand' | 'keyboard' | 'trash' | 'search' | 'close';
+export type IconName = 'pencil' | 'eraser' | 'clipboard' | 'expand' | 'keyboard' | 'trash' | 'search' | 'close' | 'undo' | 'redo' | 'recenter';
 
 interface Props {
 	name: IconName;
@@ -100,6 +100,33 @@ const { name, size = 18 } = Astro.props;
 			<>
 				<path d="M5.5 5.5 L18.5 18.5" />
 				<path d="M18.5 5.5 L5.5 18.5" />
+			</>
+		)
+	}
+	{
+		name === 'undo' && (
+			<>
+				<path d="M9 14 L4 9 L9 4" />
+				<path d="M4 9 H14.5 A5.5 5.5 0 0 1 14.5 20 H11" />
+			</>
+		)
+	}
+	{
+		name === 'redo' && (
+			<>
+				<path d="M15 14 L20 9 L15 4" />
+				<path d="M20 9 H9.5 A5.5 5.5 0 0 0 9.5 20 H13" />
+			</>
+		)
+	}
+	{
+		name === 'recenter' && (
+			<>
+				<circle cx="12" cy="12" r="3.2" />
+				<path d="M12 3 V6.5" />
+				<path d="M12 17.5 V21" />
+				<path d="M3 12 H6.5" />
+				<path d="M17.5 12 H21" />
 			</>
 		)
 	}

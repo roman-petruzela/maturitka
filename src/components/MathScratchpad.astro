@@ -80,6 +80,37 @@ const PEN_WIDTHS = [
 			<span class="whiteboard-sep" aria-hidden="true"></span>
 			<button
 				type="button"
+				class="whiteboard-undo"
+				data-whiteboard-undo
+				title="Zpět (Ctrl+Z)"
+				aria-label="Zpět"
+				disabled
+			>
+				<Icon name="undo" size={17} />
+			</button>
+			<button
+				type="button"
+				class="whiteboard-redo"
+				data-whiteboard-redo
+				title="Znovu (Ctrl+Y)"
+				aria-label="Znovu"
+				disabled
+			>
+				<Icon name="redo" size={17} />
+			</button>
+			<button
+				type="button"
+				class="whiteboard-recenter"
+				data-whiteboard-recenter
+				title="Celá tabule (zrušit přiblížení)"
+				aria-label="Celá tabule"
+				disabled
+			>
+				<Icon name="recenter" size={17} />
+			</button>
+			<span class="whiteboard-sep" aria-hidden="true"></span>
+			<button
+				type="button"
 				class="whiteboard-eraser"
 				data-whiteboard-eraser
 				title="Guma"
@@ -159,12 +190,28 @@ const PEN_WIDTHS = [
 			const base = `maturitka-scratchpad:${location.pathname}`;
 			const keys = { board: `${base}:board`, result: `${base}:result` };
 
-			const board = new Whiteboard(canvas, () => {
-				if (hint) hint.style.display = board.isEmpty() ? '' : 'none';
-				const json = board.toJSON();
-				if (board.isEmpty()) localStorage.removeItem(keys.board);
-				else localStorage.setItem(keys.board, json);
-			});
+			const undoBtn = section.querySelector<HTMLButtonElement>('[data-whiteboard-undo]');
+			const redoBtn = section.querySelector<HTMLButtonElement>('[data-whiteboard-redo]');
+			const recenterBtn = section.querySelector<HTMLButtonElement>('[data-whiteboard-recenter]');
+			const syncButtons = () => {
+				if (undoBtn) undoBtn.disabled = !board.canUndo();
+				if (redoBtn) redoBtn.disabled = !board.canRedo();
+				if (recenterBtn) recenterBtn.disabled = !board.viewChanged();
+			};
+			const board = new Whiteboard(
+				canvas,
+				() => {
+					if (hint) hint.style.display = board.isEmpty() ? '' : 'none';
+					const json = board.toJSON();
+					if (board.isEmpty()) localStorage.removeItem(keys.board);
+					else localStorage.setItem(keys.board, json);
+					syncButtons();
+				},
+				syncButtons
+			);
+			undoBtn?.addEventListener('click', () => board.undo());
+			redoBtn?.addEventListener('click', () => board.redo());
+			recenterBtn?.addEventListener('click', () => board.resetView());
 
 			// size the backing pixel buffer to the element's on-screen size —
 			// must happen after layout, and again whenever that size changes
@@ -426,6 +473,9 @@ const PEN_WIDTHS = [
 		background: var(--accent);
 	}
 
+	.whiteboard-undo,
+	.whiteboard-redo,
+	.whiteboard-recenter,
 	.whiteboard-eraser,
 	.whiteboard-clear-toolbar,
 	.whiteboard-fullscreen {
@@ -503,6 +553,16 @@ const PEN_WIDTHS = [
 		color: var(--muted);
 	}
 
+	.whiteboard-undo:disabled,
+	.whiteboard-redo:disabled,
+	.whiteboard-recenter:disabled {
+		opacity: 0.35;
+		cursor: default;
+	}
+
+	.whiteboard-undo:not(:disabled):hover,
+	.whiteboard-redo:not(:disabled):hover,
+	.whiteboard-recenter:not(:disabled):hover,
 	.whiteboard-eraser:hover,
 	.whiteboard-eraser.is-active,
 	.whiteboard-clear-toolbar:hover,

@@ -15,6 +15,8 @@
 type Point = { x: number; y: number };
 type Mode = 'draw' | 'erase';
 type Stroke = { points: Point[]; color: string; width: number; mode: Mode };
+// what can be undone: one stroke, or the whole board wiped at once
+type Op = { kind: 'stroke'; stroke: Stroke } | { kind: 'clear'; removed: Stroke[] };
 
 /** the paper, in paper units — the size of the board in a normal article column */
 export const FRAME_W = 640;
@@ -27,10 +29,14 @@ export class Whiteboard {
 	private ctx: CanvasRenderingContext2D;
 	private strokes: Stroke[] = [];
 	private current: Stroke | null = null;
+	// undo / redo: the strokes that were added (or the wipe), newest last
+	private history: Op[] = [];
+	private future: Op[] = [];
 	private color = '#1c1a17';
 	private width = 4;
 	private mode: Mode = 'draw';
 	private onChange: () => void;
+	private onViewChange: () => void;
 
 	// CSS pixels per paper unit at zoom 1 — recomputed on every resize
 	private fit = 1;
@@ -47,6 +53,10 @@ export class Whiteboard {
 	// away into empty space with no way to tell which direction to drag back
 	private static readonly PAN_MARGIN = 0.12;
 
+	// touch: the fingers that are down, and the pinch two of them make (zoom and pan together)
+	private touches = new Map<number, Point>();
+	private pinch: { dist: number; zoom: number; under: Point } | null = null;
+
 	// middle-click-drag panning state
 	private panPointerId: number | null = null;
 	private panStartClientX = 0;
@@ -61,13 +71,17 @@ export class Whiteboard {
 	// for the same reason the floating notes below need it).
 	private cursorEl: HTMLDivElement;
 
-	constructor(canvas: HTMLCanvasElement, onChange: () => void = () => {}) {
+	constructor(canvas: HTMLCanvasElement, onChange: () => void = () => {}, onViewChange: () => void = () => {}) {
 		this.canvas = canvas;
 		const ctx = canvas.getContext('2d');
 		if (!ctx) throw new Error('2D canvas context unavailable');
 		this.ctx = ctx;
 		this.onChange = onChange;
+		this.onViewChange = onViewChange;
 		this.canvas.style.touchAction = 'none';
+		// focusable, so Ctrl+Z / Ctrl+Y reach it (a press on the board focuses it)
+		this.canvas.tabIndex = 0;
+		this.canvas.addEventListener('keydown', this.handleKeyDown);
 
 		this.cursorEl = document.createElement('div');
 		this.cursorEl.className = 'whiteboard-cursor';
@@ -96,9 +110,58 @@ export class Whiteboard {
 	}
 
 	clear() {
+		if (this.strokes.length) {
+			this.history.push({ kind: 'clear', removed: this.strokes });
+			this.future = [];
+		}
 		this.strokes = [];
 		this.redraw();
 		this.onChange();
+	}
+
+	canUndo() {
+		return this.history.length > 0;
+	}
+
+	canRedo() {
+		return this.future.length > 0;
+	}
+
+	undo() {
+		const op = this.history.pop();
+		if (!op) return;
+		if (op.kind === 'stroke') {
+			const i = this.strokes.lastIndexOf(op.stroke);
+			if (i >= 0) this.strokes.splice(i, 1);
+		} else {
+			this.strokes = op.removed;
+		}
+		this.future.push(op);
+		this.redraw();
+		this.onChange();
+	}
+
+	redo() {
+		const op = this.future.pop();
+		if (!op) return;
+		if (op.kind === 'stroke') this.strokes.push(op.stroke);
+		else this.strokes = [];
+		this.history.push(op);
+		this.redraw();
+		this.onChange();
+	}
+
+	/** whether the view has been zoomed or panned away from the whole paper */
+	viewChanged() {
+		return this.zoom !== 1 || this.panX !== 0 || this.panY !== 0;
+	}
+
+	resetView() {
+		this.zoom = 1;
+		this.panX = 0;
+		this.panY = 0;
+		this.redraw();
+		this.onViewChange();
 	}
 
 	isEmpty() {
@@ -110,6 +173,8 @@ export class Whiteboard {
 	}
 
 	loadJSON(json: string) {
+		this.history = [];
+		this.future = [];
 		try {
 			const parsed = JSON.parse(json);
 			if (Array.isArray(parsed)) {
@@ -192,6 +257,16 @@ export class Whiteboard {
 		this.zoom = zoom;
 		this.clampPan();
 		this.redraw();
+		this.onViewChange();
+	};
+
+	private handleKeyDown = (e: KeyboardEvent) => {
+		if (!(e.ctrlKey || e.metaKey)) return;
+		const key = e.key.toLowerCase();
+		if (key === 'z' && !e.shiftKey) this.undo();
+		else if (key === 'y' || (key === 'z' && e.shiftKey)) this.redo();
+		else return;
+		e.preventDefault();
 	};
 
 	private handlePointerDown = (e: PointerEvent) => {
@@ -210,6 +285,17 @@ export class Whiteboard {
 		}
 		if (e.button !== undefined && e.button !== 0 && e.pointerType === 'mouse') return;
 		this.canvas.setPointerCapture(e.pointerId);
+		this.canvas.focus({ preventScroll: true });
+		if (e.pointerType === 'touch') {
+			this.touches.set(e.pointerId, { x: e.clientX, y: e.clientY });
+			if (this.touches.size === 2) {
+				// the second finger: what the first one had begun was the start of a pinch, not a stroke
+				this.discardCurrent();
+				this.beginPinch();
+				return;
+			}
+			if (this.touches.size > 2) return;
+		}
 		const width = this.mode === 'erase' ? this.width * 3 : this.width;
 		this.current = { points: [this.toPaper(e.clientX, e.clientY)], color: this.color, width, mode: this.mode };
 		this.strokes.push(this.current);
@@ -223,7 +309,15 @@ export class Whiteboard {
 			this.panY = this.panStartY + (e.clientY - this.panStartClientY) / this.fit;
 			this.setPanLimitIndicator(this.clampPan());
 			this.redraw();
+			this.onViewChange();
 			return;
+		}
+		if (this.touches.has(e.pointerId)) {
+			this.touches.set(e.pointerId, { x: e.clientX, y: e.clientY });
+			if (this.pinch) {
+				this.movePinch();
+				return;
+			}
 		}
 		this.updateCursorIndicator(e);
 		if (!this.current) return;
@@ -231,13 +325,46 @@ export class Whiteboard {
 		this.redraw();
 	};
 
+	// The two fingers: the zoom follows the distance between them, and the paper point that was
+	// under their midpoint stays under it — so moving both fingers pans, spreading them zooms.
+	private beginPinch() {
+		const [a, b] = [...this.touches.values()];
+		const mid = { x: (a.x + b.x) / 2, y: (a.y + b.y) / 2 };
+		this.pinch = { dist: Math.hypot(a.x - b.x, a.y - b.y) || 1, zoom: this.zoom, under: this.toPaper(mid.x, mid.y) };
+	}
+
+	private movePinch() {
+		if (!this.pinch || this.touches.size < 2) return;
+		const [a, b] = [...this.touches.values()];
+		const rect = this.canvas.getBoundingClientRect();
+		const zoom = Math.min(8, Math.max(0.5, (this.pinch.zoom * (Math.hypot(a.x - b.x, a.y - b.y) || 1)) / this.pinch.dist));
+		this.panX = ((a.x + b.x) / 2 - rect.left) / this.fit - this.pinch.under.x * zoom;
+		this.panY = ((a.y + b.y) / 2 - rect.top) / this.fit - this.pinch.under.y * zoom;
+		this.zoom = zoom;
+		this.clampPan();
+		this.redraw();
+		this.onViewChange();
+	}
+
+	// a stroke that was under way is dropped (a second finger arrived, or the gesture was cancelled)
+	private discardCurrent() {
+		if (!this.current) return;
+		const i = this.strokes.lastIndexOf(this.current);
+		if (i >= 0) this.strokes.splice(i, 1);
+		this.current = null;
+		this.redraw();
+	}
+
 	private handlePointerUp = (e: PointerEvent) => {
 		if (this.panPointerId === e.pointerId) {
 			this.panPointerId = null;
 			this.setPanLimitIndicator(false);
 			return;
 		}
+		if (this.touches.delete(e.pointerId) && this.touches.size < 2) this.pinch = null;
 		if (!this.current) return;
+		this.history.push({ kind: 'stroke', stroke: this.current });
+		this.future = [];
 		this.current = null;
 		this.onChange();
 	};
