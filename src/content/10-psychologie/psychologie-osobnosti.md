@@ -32,7 +32,7 @@ __Individuum__
 __OSOBNOST__
 
 - Pojem __osobnost__ je odvozen z termínu __*osoba*__, který je odvozen z latinského __*persona*__
-- Pojem __*persona*__* *původně označoval masku, kterou si antičtí herci nasazovali po dobu hry
+- Pojem __*persona*__* původně označoval masku, kterou si antičtí herci nasazovali po dobu hry
 - V běžném užívání \(mimo psychologii\) označuje termín osobnost významného člověka
 - __V psychologii__ nahradil tento pojem __termín duše__
 - Označuje __nositele lidské psychiky__
@@ -51,9 +51,7 @@ __Pojem osobnost v běžném užívání__
 __STRUKTURA OSOBNOSTI__
 
 - Vnitřně uspořádaný systém osobnosti, který má své zákonitosti
-	-
-		-
-			1. __SCHOPNOSTI__
+    1. __SCHOPNOSTI__
 - Souhrn potenciálních předpokladů k určité činnosti
 - Psychické vlastnosti, které umožňuji člověku naučit se růžné činnosti a vykonávat je
 - Jsou ukazatelem toho, jaký rozdíl bude ve kvalitě, rychlosti a snadnosti osvojení určitého výkonu
@@ -68,32 +66,22 @@ __Dělení schopností__
 
 __Stupně schopností__
 
--
-	- Specifické, výrazné rozvinuté, vyhraněné vlohy
-	- K oblastem, ve kterých se talent a nadání nejčastěji projevují, se řadí intelekt, tvořivé myšlení, umělecká produkce, teoretické vědecké myšlení, praktické schopnosti
+- Specifické, výrazné rozvinuté, vyhraněné vlohy
+- K oblastem, ve kterých se talent a nadání nejčastěji projevují, se řadí intelekt, tvořivé myšlení, umělecká produkce, teoretické vědecké myšlení, praktické schopnosti
 
 __Nadání__
 
--
-	-
-		-
-			1. Soubor dobře rozvinutých schopností
-			2. Umožňují výborný výkon v dané oblasti
+1. Soubor dobře rozvinutých schopností
+2. Umožňují výborný výkon v dané oblasti
 
 __Talent__
 
--
-	-
-		-
-			1. Ještě vyšší stupeň rozvinutých schopností
-			2. Předpoklad pro vynikající výsledky v dané oblasti
+1. Ještě vyšší stupeň rozvinutých schopností
+2. Předpoklad pro vynikající výsledky v dané oblasti
 
 __Genialita__
 
--
-	-
-		-
-			1. Mimořádně rozvinutá talent
+1. Mimořádně rozvinutá talent
 
 __Dělení schopností:__
 

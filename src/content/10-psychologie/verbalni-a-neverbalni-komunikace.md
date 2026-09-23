@@ -41,7 +41,7 @@ __Komunikant__
 
 - Ten kdo přijímá vyslanou zprávu
 - Vnímání je ovlivněno zkušenostmi, prožitky, vlastními záměry a cíli
-- Měl by si připravovat otázky, __ne__domýšlet sdělení, neslyšet v tom čemu naslouchá to, co chce slyšet
+- Měl by si připravovat otázky, **ne**domýšlet sdělení, neslyšet v tom čemu naslouchá to, co chce slyšet
 
 __Komuniké__
 

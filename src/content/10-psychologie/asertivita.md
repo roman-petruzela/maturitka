@@ -118,12 +118,12 @@ __ASERTIVNÍ TECHNIKY__
 
 - Technika zaměřená na to, jak zvládat vlastní omyly, chyby a nedostatky
 - Za nedostatky se nemusíme stydět – nikdo není dokonalý
-- Doporučuje se tyto nedostatky přiznat, souhlasit s kritikou, __ne__rozebírat nedostatky, poučit se z nich
+- Doporučuje se tyto nedostatky přiznat, souhlasit s kritikou, **ne**rozebírat nedostatky, poučit se z nich
 
 __Asertivní práva__
 
 - Právo sám za sebe posuzovat své emoce, chování, myšlení a nést odpovědnost za jejich důsledky
-- Máš právo __ne__nabízet žádné výmluvy ani omluvy ospravedlňující tvé chování \(nemusíš se druhým ospravedlňovat, např\. udělám něco, s čím druzí nesouhlasí – doprovodím závislou dívku do K\-centra\)
+- Máš právo **ne**nabízet žádné výmluvy ani omluvy ospravedlňující tvé chování \(nemusíš se druhým ospravedlňovat, např\. udělám něco, s čím druzí nesouhlasí – doprovodím závislou dívku do K\-centra\)
 - Máš právo posoudit, zda a nakolik jsi zodpovědný za chování a problémy druhých
 - Máš právo změnit svůj názor
 - Má právo dělat chyby a být za ně zodpovědný
@@ -226,7 +226,7 @@ __Při konfliktu pociťujeme__
 - Pocity viny, pocity křivdy, zlost, lítost, napětí, úzkost, rozčílení, strach, agresi, bezmoc, …
 - Můžeme rozlišit:
 
-1. K__onflikt intrapersonální__
+1. K**onflikt intrapersonální**
 
 - Týkají se jedné osoby, odehrávají se v jejím nitru
 - Může jít buď o střet:

@@ -12,11 +12,11 @@ __PSYCHOLOGIE JAKO VĚDNÍ DISCIPLÍNA, ZÁKLADNÍ POJMY__
 __Psychologie__
 
 - Věda, která se vyčlenila z __filozofie__, ve __2\. polovině 19\. století__
-- Pojem psychologie je odvozen __ze slov *psyché *__a __*logos = VĚDA O DUŠI*__
+- Pojem psychologie je odvozen __ze slov psyché a *logos = VĚDA O DUŠI*__
 
 __*Psyché*=__ duše \(v řeckém bájesloví byla Psyché bohyní krásy\)
 
-__*Logos = *__*věda, slovo*
+__Logos = *__*věda, slovo*
 
 - Za zakladatele psychologie je považován __Wilhelm Wundt__ \(jeho myšlenka: „psychologie by měla být vědou empirickou a experimentální“, to znamená: měla by být založena na zkušenostech a výsledcích experimentů\)
 - Wundt __založil__ na univerzitě v Lipsku __první Psychologickou laboratoř__ v __roce 1879__
@@ -296,26 +296,26 @@ __Psycholingvistika__
 
 __Použité zdroje:__
 
-Helus, Z\. \(2018\)\. *Úvod do psychologie\. *\(2\., aktualiz\. vyd\.\)\. Praha: Grada\.
+Helus, Z\. \(2018\)\. Úvod do psychologie\. \(2\., aktualiz\. vyd\.\)\. Praha: Grada\.
 
-Kolář, Z\., et al\. \(2012\)\. *Výkladový slovník z pedagogiky: 583 vybraných hesel\. *Praha: Grada\.
+Kolář, Z\., et al\. \(2012\)\. Výkladový slovník z pedagogiky: 583 vybraných hesel\. Praha: Grada\.
 
-Kopecká, I\. \(2011\)\. *Psychologie 1 díl\. Učebnice pro obor sociální činnosti\. *Praha: Grada\.
+Kopecká, I\. \(2011\)\. Psychologie 1 díl\. Učebnice pro obor sociální činnosti\. Praha: Grada\.
 
 Kučera, D\. \(2013\)\. *Moderní psychologie: Hlavní obory a témata současné psychologické vědy\.* Praha: Grada\.
 
 Mikulaštík, M\. \(2015\)\. *Manažerská psychologie*\. \(3\., aktualiz\. vyd\.\)\. Praha: Grada\.
 
-Pavlovský, P\., et al\. \(2012\)\. *Soudní psychiatrie a psychologie\. *\(4\., aktualiz\. vyd\.\)\. Praha: Grada\.
+Pavlovský, P\., et al\. \(2012\)\. Soudní psychiatrie a psychologie\. \(4\., aktualiz\. vyd\.\)\. Praha: Grada\.
 
 Plevová, I\., & Petrová, A\. \(2012\)\. *Obecná psychologie\.* Olomouc: Univerzita Palackého v Olomouci\.
 
 Plháková, A\. \(2007\)\. *Učebnice obecné psychologie\.* Praha: Academia\.
 
-Řehulka, E\. \(1997\)\. *Úvod do studia psychologie pro posluchače speciální pedagogiky\. *Brno: Paido\.
+Řehulka, E\. \(1997\)\. Úvod do studia psychologie pro posluchače speciální pedagogiky\. Brno: Paido\.
 
-Severová, J\. \(2002\)\. *Sociální psychologie a psychologie obchodu\. *\(3\., aktualiz\. vyd\.\)\. Brno\.
+Severová, J\. \(2002\)\. Sociální psychologie a psychologie obchodu\. \(3\., aktualiz\. vyd\.\)\. Brno\.
 
 Vágnerová, M\. \(2017\)\. *Obecná psychologie: Dílčí aspekty lidské psychiky a jejich orgánový základ\.* Praha: Karlova Univerzita v Praze, Karolinum Press\.
 
-Zacharová, E\. \(2012\)\. *Základy obecné psychologie\. *Ostrava: Ostravská univerzita v Ostravě
+Zacharová, E\. \(2012\)\. Základy obecné psychologie\. Ostrava: Ostravská univerzita v Ostravě

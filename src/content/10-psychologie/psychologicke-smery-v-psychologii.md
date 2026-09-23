@@ -106,7 +106,7 @@ __ __
 
 __W\. M\. Wundt__
 
-- Narodil se v Německu, tiché dítě, špatně se učil \(své školní neúspěchy později připisoval *nadměrnému dennímu snění *☺ \)
+- Narodil se v Německu, tiché dítě, špatně se učil \(své školní neúspěchy později připisoval nadměrnému dennímu snění ☺ \)
 
 Vystudoval medicínu, později se zabýval fyziologickou psychologií, přednášel na univerzitě v Lipsku
 
@@ -191,17 +191,17 @@ __Topický model__
 
 Rozlišuje 3 základní stavy psychiky:
 
-__*Vědomí *__
+__Vědomí *__
 
 -
 	- Obsahuje informace, které si jedinec plně uvědomuje
 
-__*Předvědomí *__
+__Předvědomí *__
 
 -
 	- Obsahuje informace, které nejsou aktuálně ve vědomí, ale do vědomí se můžou s větším či menším úsilím
 
-__*Nevědomí *__
+__Nevědomí *__
 
 -
 	- Obsahuje představy, zkreslené obrazy skutečnosti, přání, které si člověk neuvědomuje, ale i přesto mají silný vliv na funkci osobnosti a chování člověka

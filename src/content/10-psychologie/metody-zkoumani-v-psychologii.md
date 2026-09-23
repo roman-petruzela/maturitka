@@ -66,7 +66,7 @@ Vztah k druhým
 
 Vztah k objektům
 
-- Způsob zacházení s pomůckami na vyšetření, pečlivost, opatrnost, nedbalost, neuspořádanost, ­…
+- Způsob zacházení s pomůckami na vyšetření, pečlivost, opatrnost, nedbalost, neuspořádanost, …
 
 Projevy emocí
 
@@ -93,7 +93,7 @@ __Extrospekce x introspekce__
 __Přímé x nepřímé pozorování__
 
 - __Přímé__
-- Pozorovatel __je__ v přímém__ kontaktu__ s pozorovanou osobou \(tváří v tvář\)
+- Pozorovatel __je__ v přímém **kontaktu** s pozorovanou osobou \(tváří v tvář\)
 - __Nepřímé__
 - Pozorovatel __není__ v přímém kontaktu s pozorovanou osobou \(video nahrávka, polopropustné sklo\)
 
@@ -141,11 +141,9 @@ __Zásady při pozorování__
 
 __Poznámka:__
 
--
-	-
-		- __Přítomnost pozorovatelů__ může na chování pozorovaných osob __působit rušivě__
-		- Lze využít „nepozorovaného pozorování“ za pomoci technických zařízení \(např\. pozorování v laboratoři přes poloprospustné sklo\)
-		- Např\. u dětí lze využít i toho, že pozorovatel dochází do skupiny pravidelně a děti si na něj zvyknou
+- __Přítomnost pozorovatelů__ může na chování pozorovaných osob __působit rušivě__
+- Lze využít „nepozorovaného pozorování“ za pomoci technických zařízení \(např\. pozorování v laboratoři přes poloprospustné sklo\)
+- Např\. u dětí lze využít i toho, že pozorovatel dochází do skupiny pravidelně a děti si na něj zvyknou
 
 1. __ROZHOVOR \(INTERVIEW\)__
 
@@ -260,7 +258,7 @@ __Projektivní otázky__
 __Otevřené otázky__
 
 - Zjišťujeme podrobnější informace
-- Začínají „*kdo“, „co“, „ jak“, „proč“, *apod\.
+- Začínají „kdo“, „co“, „ jak“, „proč“, apod\.
 - Výhody: větší prostor pro rozhovor, odpovídající může více přemýšlet, povzbuzují
 - Nevýhoda: časová náročnost
 
@@ -364,7 +362,7 @@ __Druhy otázek__
 1. __Uzavřené__
 
 - Respondent má na výběr z daného výčtu odpovědí
-- N__emá__ prostor k bližšímu vyjádření se k otázce, tyto otázky nejdou příliš do hloubky problému
+- N**emá** prostor k bližšímu vyjádření se k otázce, tyto otázky nejdou příliš do hloubky problému
 - Při uzavřených otázkách musí být varianty opovědí tak, aby si respondent mohl zvolit
 
 → __Jestliže není v nabídce odpověď, která by mu vyhovovala, otázku vynechá nebo odpoví nepravdivě\!\!\!__
@@ -394,17 +392,13 @@ __Druhy otázek__
 
 *Místo bydliště:*
 
--
-	-
-		-
-			1. Ostrava
-			2. Havířov
-			3. Karviná
-			4. Jiné – vypiš:
+1. Ostrava
+2. Havířov
+3. Karviná
+4. Jiné – vypiš:
 
 1. __Škálovací__
-	-
-		- Respondent vybírá odpověď na slovní nebo číselné škále, př\.:
+    - Respondent vybírá odpověď na slovní nebo číselné škále, př\.:
 
 *Sportovním aktivitám se věnuji:*
 
@@ -436,9 +430,7 @@ __*5*__
 
 *souhlasím*
 
--
-	-
-		- U dětí je možné pro lepší orientaci využít obrázky, např\.:
+- U dětí je možné pro lepší orientaci využít obrázky, např\.:
 
 *Jak se ti líbí ve třídě?*
 
@@ -452,7 +444,7 @@ Dobře
 
 Špatně
 
-      Velmi špatně
+Velmi špatně
 
 ((obrázek vynechán))((obrázek vynechán))((obrázek vynechán))((obrázek vynechán))((obrázek vynechán))
 
@@ -464,172 +456,134 @@ Dobře
 
 Špatně
 
-       Velmi špatně
+Velmi špatně
 
 1. __Anamnéza__
-	-
-		- Sběr anamnestických dat
-		- Zjišťování informací z minulosti jedince a jejich vliv na jeho současný stav
-		- Relevantní informace zaměřené např\. na rodinu, vývoj, sociální vztahy, postoje, hodnoty, abnormální jevy, aj\.
+    - Sběr anamnestických dat
+    - Zjišťování informací z minulosti jedince a jejich vliv na jeho současný stav
+    - Relevantní informace zaměřené např\. na rodinu, vývoj, sociální vztahy, postoje, hodnoty, abnormální jevy, aj\.
 
 __Autoanamnéza \(subjektivní anamnéza\)__
 
--
-	-
-		- Rozpomíná se sám jedinec \(hovoří sám o sobě\)
-		- Informace mohou být zkreslené
+- Rozpomíná se sám jedinec \(hovoří sám o sobě\)
+- Informace mohou být zkreslené
 
 __Heteroanamnéza \(objektivní anamnéza\)__
 
--
-	-
-		- Informace o klientovi sdělují jiné osoby \(rodiče, příbuzní, kolegové, přátelé, učitelé, aj\.\)
-		- I tyto informace mohou být zkreslené \(např\. rodiče, partneři, děti, které jsou s klientem v konfliktu\)
+- Informace o klientovi sdělují jiné osoby \(rodiče, příbuzní, kolegové, přátelé, učitelé, aj\.\)
+- I tyto informace mohou být zkreslené \(např\. rodiče, partneři, děti, které jsou s klientem v konfliktu\)
 
 1. __Analýza produktů__
-	-
-		- Rozbor produktů, které zkoumaná osoba vytvořila
-		- Vyžaduje odbornou zkušenost toho, kdo produkty analyzuje
-		- Zahrnuje např\. analýzu:
+    - Rozbor produktů, které zkoumaná osoba vytvořila
+    - Vyžaduje odbornou zkušenost toho, kdo produkty analyzuje
+    - Zahrnuje např\. analýzu:
 
 - Kresby, malby
 - Rukopisy, deníky, básně, další literární činnost
 - Písmo, amatérské výrobky, dopisy
 - Příběhy \(psané, vyprávěné\)
-	-
-		- Ve škole např\. rukodělné práce, školní sešity, dílenské výrobky, dlouhodobé projekty, modely, výkresy, malby, aj\.
+    - Ve škole např\. rukodělné práce, školní sešity, dílenské výrobky, dlouhodobé projekty, modely, výkresy, malby, aj\.
 
 1. __Psychologické testy__
-	-
-		- Slouží k posouzení nebo měření výkonů a schopností \(např\. míra inteligence, sociální zralost, kapacita paměti, vyrovnanost/emoční labilita, apod\.\)
-		- Přesné vymezené postupy → umožňují srovnání výsledků různých osob
-		- Zaznamenávání a vyhodnocování probíhá podle jasně stanovených postupů
-		- Konstrukce testů je velice složitá
-		- Správné použití testů vyžaduje odbornou přípravu
-		- Většinu testů mohou interpretovat pouze erudovaní psychologové \(nebo speciálně vyškolení zástupci jiných pomáhajících profesí – lékaři, sociální pracovníci\)
+    - Slouží k posouzení nebo měření výkonů a schopností \(např\. míra inteligence, sociální zralost, kapacita paměti, vyrovnanost/emoční labilita, apod\.\)
+    - Přesné vymezené postupy → umožňují srovnání výsledků různých osob
+    - Zaznamenávání a vyhodnocování probíhá podle jasně stanovených postupů
+    - Konstrukce testů je velice složitá
+    - Správné použití testů vyžaduje odbornou přípravu
+    - Většinu testů mohou interpretovat pouze erudovaní psychologové \(nebo speciálně vyškolení zástupci jiných pomáhajících profesí – lékaři, sociální pracovníci\)
 
 __Výkonové testy__
 
--
-	-
-		- Testy inteligence
-		- Testy speciálních schopností \(paměť, kreativita, technické schopnosti, verbální schopnosti, matematické schopnosti, umělecké schopnosti, aj\.\)
+- Testy inteligence
+- Testy speciálních schopností \(paměť, kreativita, technické schopnosti, verbální schopnosti, matematické schopnosti, umělecké schopnosti, aj\.\)
 
 __Testy osobnosti__
 
--
-	-
-		- Projektivní \(verbální, grafické, testy volby, …\)
-		- Objektivní testy osobnosti
-		- Dotazníky
+- Projektivní \(verbální, grafické, testy volby, …\)
+- Objektivní testy osobnosti
+- Dotazníky
 
 1. __EXPERIMENT__
-	-
-		- Záměrné navozování a kontrola určitých jevů
-		- Záměrně zasahujeme, upravujeme podmínky a vlivy, abychom mohli lépe zjistit to, co se snažíme zkoumat
-		- Můžeme jej opakovat např\. na několika skupinách a výsledky následně porovnat
-		- Lze rozdělit na přirozený a laboratorní
+    - Záměrné navozování a kontrola určitých jevů
+    - Záměrně zasahujeme, upravujeme podmínky a vlivy, abychom mohli lépe zjistit to, co se snažíme zkoumat
+    - Můžeme jej opakovat např\. na několika skupinách a výsledky následně porovnat
+    - Lze rozdělit na přirozený a laboratorní
 
 __Laboratorní podmínky__
 
--
-	-
-		- Probíhá v laboratořích, ty jsou vybaveny technickými prostředky, které umožňují ovlivňování vnějších podnětů
-		- Nevýhoda – probíhá v prostředí, které je pro zkoumané osoby nezvyklé, nepřirozené \(to může ovlivnit jejich chování, prožívání, výkon\)
+- Probíhá v laboratořích, ty jsou vybaveny technickými prostředky, které umožňují ovlivňování vnějších podnětů
+- Nevýhoda – probíhá v prostředí, které je pro zkoumané osoby nezvyklé, nepřirozené \(to může ovlivnit jejich chování, prožívání, výkon\)
 
 __Přirozené podmínky__
 
--
-	-
-		- Probíhá v přirozených podmínkách, v reálné situaci
-		- Např\. učitel nebude čekat na vhodnou příležitost, aby mohl pozorovat žáky, ale sám takovou situaci vyvolá \(např\. zadá společný úkol\)
-		- Zkoumaná osoba nemusí vůbec vědět, že jde o experiment
-		- Např\. vyučující zkoumá rozdíly mezi tradiční výukou a výukou za použití audiovizuálních pomůcek ve dvou odlišných třídách
+- Probíhá v přirozených podmínkách, v reálné situaci
+- Např\. učitel nebude čekat na vhodnou příležitost, aby mohl pozorovat žáky, ale sám takovou situaci vyvolá \(např\. zadá společný úkol\)
+- Zkoumaná osoba nemusí vůbec vědět, že jde o experiment
+- Např\. vyučující zkoumá rozdíly mezi tradiční výukou a výukou za použití audiovizuálních pomůcek ve dvou odlišných třídách
 
 1. __SOCIOMETRIE__
-	-
-		- Postupy zaměřené na zjišťování, popis a analýzu mezilidských vztahů v malé sociální skupině
+    - Postupy zaměřené na zjišťování, popis a analýzu mezilidských vztahů v malé sociální skupině
 
 __Sociometrický test__
 
--
-	-
-		- Zjišťujeme pozitivní volby ve skupině \(např\. sympatie, preference\)
-		- Zjišťujeme negativní volby \(např\. odmítání\)
-		- Otázky umožňuje všem členům skupiny volit partnery pro určité situace
-		- Nejčastěji písemnou formou
-		- U malých dětí je možné využít např\. fotografie nebo značky dětí
+- Zjišťujeme pozitivní volby ve skupině \(např\. sympatie, preference\)
+- Zjišťujeme negativní volby \(např\. odmítání\)
+- Otázky umožňuje všem členům skupiny volit partnery pro určité situace
+- Nejčastěji písemnou formou
+- U malých dětí je možné využít např\. fotografie nebo značky dětí
 
 __OMYLY V SOCIÁLNÍ PERCEPCI__
 
--
-	-
-		- Poznávání jedince by mělo být __objektivní__
-		- Stává se, že jsme ovlivněni různými faktory, které objektivitu narušují, a měli bychom se snažit jim vyvarovat
+- Poznávání jedince by mělo být __objektivní__
+- Stává se, že jsme ovlivněni různými faktory, které objektivitu narušují, a měli bychom se snažit jim vyvarovat
 
 __Haló efekt__
 
--
-	-
-		- Sklon \(tendence\) posuzovat druhé na základně prvního dojmu – pozitivního nebo negativního
-		- Brání přesnějšímu poznání druhého člověka → může ovlivnit celkové hodnocení jedince
-		- Často je vytváříme hned při seznámení díky __jedné nápadné__ a často nedůležité vlastnosti
-		- Je těžké tento názor změnit
-		- Př\. Dobře oblečený muž, s přiměřenými gesty a melodickým hlasem je po první chvíli hodnocen jako solidní člověk \(Doopravdy ale nevím, zda je slušný, spolehlivý a zda říká pravdu\.\)
+- Sklon \(tendence\) posuzovat druhé na základně prvního dojmu – pozitivního nebo negativního
+- Brání přesnějšímu poznání druhého člověka → může ovlivnit celkové hodnocení jedince
+- Často je vytváříme hned při seznámení díky __jedné nápadné__ a často nedůležité vlastnosti
+- Je těžké tento názor změnit
+- Př\. Dobře oblečený muž, s přiměřenými gesty a melodickým hlasem je po první chvíli hodnocen jako solidní člověk \(Doopravdy ale nevím, zda je slušný, spolehlivý a zda říká pravdu\.\)
 
 Člověka s tetováním hodnotíme negativně\. Přitom se může jednat o člověka slušného a inteligentního\.
 
 __Projekce__
 
--
-	-
-		- Do druhého člověka promítáme své vlastní vzorce chování, nedostatky, klady, představy apod\. \(„podle sebe soudím tebe“\)
+- Do druhého člověka promítáme své vlastní vzorce chování, nedostatky, klady, představy apod\. \(„podle sebe soudím tebe“\)
 
 __Předsudky__
 
--
-	-
-		- Nekritické přijímání názorů druhých lidí, které nemáme reálně podloženy
-		- Přebíráme je od druhých lidí nebo z médií
-		- Zjednodušené úsudky o druhých osobách nebo sociálních skupinách
-		- Například dle národnosti, náboženství, pohlaví, povolání, politických názorů apod\.
+- Nekritické přijímání názorů druhých lidí, které nemáme reálně podloženy
+- Přebíráme je od druhých lidí nebo z médií
+- Zjednodušené úsudky o druhých osobách nebo sociálních skupinách
+- Například dle národnosti, náboženství, pohlaví, povolání, politických názorů apod\.
 
 __Efekt svatozáře__
 
--
-	-
-		- Vidíme druhého v lepším světle
-		- Např\. nadřízený lépe hodnotí pracovníka, který zůstává přesčas \(Tento pracovník, ale může přesčas zůstávat třeba proto, že svou práci nestíhá, je pomalý, neschopný, doma se nudí, nebo se na pracovišti věnuje svým koníčkům\)
-		- Např\. nadřízený lépe hodnotí pracovníka s VŠ vzděláním, než  pracovníka se SŠ vzděláním, i když je ten se SŠ šikovnější
+- Vidíme druhého v lepším světle
+- Např\. nadřízený lépe hodnotí pracovníka, který zůstává přesčas \(Tento pracovník, ale může přesčas zůstávat třeba proto, že svou práci nestíhá, je pomalý, neschopný, doma se nudí, nebo se na pracovišti věnuje svým koníčkům\)
+- Např\. nadřízený lépe hodnotí pracovníka s VŠ vzděláním, než  pracovníka se SŠ vzděláním, i když je ten se SŠ šikovnější
 
 __Efekt primárnosti__
 
--
-	-
-		- Pozitivní očekávání učitele může vést ke zvýšení sebedůvěry žáka a zlepšení jeho výsledků \(a naopak\)
-		- První informace má zásadní vliv na formování našeho názoru
-		- Např\. učitel jde poprvé do nové třídy a kolega mu řekne, že je třída hrozná, učitel už s tímto názorem do třídy přichází
+- Pozitivní očekávání učitele může vést ke zvýšení sebedůvěry žáka a zlepšení jeho výsledků \(a naopak\)
+- První informace má zásadní vliv na formování našeho názoru
+- Např\. učitel jde poprvé do nové třídy a kolega mu řekne, že je třída hrozná, učitel už s tímto názorem do třídy přichází
 
 __Efekt kontrastu__
 
--
-	-
-		- Porovnávání s přítomnými alternativami
-		- Např\. osoba je v přítomnosti neatraktivních osob vnímána jako přitažlivější
+- Porovnávání s přítomnými alternativami
+- Např\. osoba je v přítomnosti neatraktivních osob vnímána jako přitažlivější
 
 __Efekt mírnosti a shovívavosti__
 
--
-	-
-		- U lidí, kteří nám jsou sympatičtí, máme tendenci nadhodnocovat jejich vlastnosti a snižovat negativní vlastnosti
-		- U lidí, kteří nám jsou nesympatičtí, máme tendenci podhodnocovat jejich vlastnosti
+- U lidí, kteří nám jsou sympatičtí, máme tendenci nadhodnocovat jejich vlastnosti a snižovat negativní vlastnosti
+- U lidí, kteří nám jsou nesympatičtí, máme tendenci podhodnocovat jejich vlastnosti
 
 __Efekt figury na pozadí__
 
--
-	-
-		- Osoba je posuzována podle sociálního kontextu, ve kterém byla spatřena
-		- Příklad
+- Osoba je posuzována podle sociálního kontextu, ve kterém byla spatřena
+- Příklad
 
 Učitel lépe hodnotí žáka, kterého poprvé pozná jako nadaného sportovce, který reprezentuje školu
 
@@ -639,17 +593,15 @@ Lépe hodnotíme osobu, která se vyskytuje v blízkosti druhé osoby, která j
 
 __Logická chyba__
 
--
-	-
-		- Hodnotíme člověka podle kritérií, která se nám zdají logické
-		- „Logicky“ předpokládáme jisté vlastnosti → tento výstup nemusí odpovídat realitě
-		- Např\. Mohutní a silní muži jsou rozhodní a energičtí
+- Hodnotíme člověka podle kritérií, která se nám zdají logické
+- „Logicky“ předpokládáme jisté vlastnosti → tento výstup nemusí odpovídat realitě
+- Např\. Mohutní a silní muži jsou rozhodní a energičtí
 
 __Použité zdroje:__
 
-Bednář, V\., et al\. \(2013\)\. *Sociální vztahy v organizaci a jejich management\. *Praha: Grada\.
+Bednář, V\., et al\. \(2013\)\. Sociální vztahy v organizaci a jejich management\. Praha: Grada\.
 
-Chráska, M\. \(2016\)\. *Metody pedagogického výzkumu\. Základy kvantitativního výzkumu\. *\(2\., aktualiz\. vyd\.\)\. Praha: Grada\.
+Chráska, M\. \(2016\)\. Metody pedagogického výzkumu\. Základy kvantitativního výzkumu\. \(2\., aktualiz\. vyd\.\)\. Praha: Grada\.
 
 Jedlička, R\., Koťa, J\., & Slavík, J\. \(2018\)\. *Pedagogická psychologie pro učitele: psychologie ve výchově a vzdělávání\.* Praha: Grada\.
 
@@ -659,4 +611,4 @@ Mikulaštík, M\. \(2010\)\. *Komunikační dovednosti v praxi\.* \(2\., aktual
 
 Plevová, I\. \(2017\)\. *Psychologické metody pro výchovné poradce\.* Olomouc: Univerzita Palackého v Olomouci\.
 
-Šnýdrová, I\. \(2008\)\.* Psychodiagnostika\. *Praha: Grada\.
+Šnýdrová, I\. \(2008\)\. Psychodiagnostika\. Praha: Grada\.

@@ -15,25 +15,19 @@ __PSYCHICKÉ JEVY__
 
 __PSYCHICKÉ PROCESY__
 
--
-	- Duševní děje, které se aktuálně odehrávají, můžeme u nich určit začátek, průběh, konec a efekt
-	- Základní funkce \(z hlediska život a vývoje\) je __adaptace__
-	- __Adaptace__ umožňuje zvládat nároky, které jsou na člověka kladeny
+- Duševní děje, které se aktuálně odehrávají, můžeme u nich určit začátek, průběh, konec a efekt
+- Základní funkce \(z hlediska život a vývoje\) je __adaptace__
+- __Adaptace__ umožňuje zvládat nároky, které jsou na člověka kladeny
 - __Akomodace__ = pasivní přizpůsobování se požadavkům
 - __Adaptace__ = aktivní přizpůsobování si podmínek potřebám a možnostem
 
 __Rozlišujeme 3 skupiny psychických procesů:__
 
--
-	-
-		-
-			1. __Kognitivní \(poznávací\) procesy__ – vnímání, učení, paměť, imaginace, myšlení a řeč
+1. __Kognitivní \(poznávací\) procesy__ – vnímání, učení, paměť, imaginace, myšlení a řeč
 - Výsledkem těchto procesů je __subjektivní__ obraz \(subjektivní = to co se vztahuje k danému jedinci, každý člověk může poznávat a učit svým vlastním způsobem\)
 - Poznání nám umožňuje orientovat se v prostředí, získávat informace apod\.
-	-
-		-
-			1. Emocionální procesy – vedou ke vzniku emocí
-			2. Motivační procesy – aktivizují a usměrňují chování
+    1. Emocionální procesy – vedou ke vzniku emocí
+    2. Motivační procesy – aktivizují a usměrňují chování
 
 \(v této maturitní otázce se zabýváme kognitivními, tedy poznávacími procesy\)
 
@@ -41,60 +35,54 @@ __Čití a vnímání__
 
 __ČITÍ__
 
--
-	- Činnost analyzátorů
-	- Počitek = odraz vlastností předmětů a jevů, které působí na receptory člověka \(odraz jednotlivých vlastností
-	- __Výsledek__ čití = __počitek__
+- Činnost analyzátorů
+- Počitek = odraz vlastností předmětů a jevů, které působí na receptory člověka \(odraz jednotlivých vlastností
+- __Výsledek__ čití = __počitek__
 
 Příklady počitků
 
--
-	- Zrakové počitky – __barva__ laku na nehtech, __barva__ laku auta, __intenzita__ světla, __průhledný__ konferenční stolek, …
-	- Sluchové počitky – __zvuk__ motoru, __skřípění__ nehtů o tabuli, __hlasitost__ TV od sousedů, tón
-	- Hmatové počitky – __drsná__ kůra stromu, __hladký__ kámen, __pichlavý__ kaktus, __teplá__ dlaň, __studená__ láhev
-	- Čichový – __vůně__ grilovaného masa, __zápach__ odpadků, __vůně__ nového nábytku
-	- Chuťový – __sladká__ jahoda, __kyselý__ bonbon, __hořký__ sirup
+- Zrakové počitky – __barva__ laku na nehtech, __barva__ laku auta, __intenzita__ světla, __průhledný__ konferenční stolek, …
+- Sluchové počitky – __zvuk__ motoru, __skřípění__ nehtů o tabuli, __hlasitost__ TV od sousedů, tón
+- Hmatové počitky – __drsná__ kůra stromu, __hladký__ kámen, __pichlavý__ kaktus, __teplá__ dlaň, __studená__ láhev
+- Čichový – __vůně__ grilovaného masa, __zápach__ odpadků, __vůně__ nového nábytku
+- Chuťový – __sladká__ jahoda, __kyselý__ bonbon, __hořký__ sirup
 
 __Smyslová citlivost__
 
--
-	- Míra kvality čití je individuální
-	- U stejného člověka může být citlivost ovlivněna únavou, nemocí, cvičením
-	- U různých lidí může být kvalita počitku také odlišná
-	- Lidé pracující s barvami mají „lepší cit“ pro rozeznání jednotlivých odstínů barev
-	- Hudebník dokáže rozeznat nepatrnou odchylku v tónu, kterou „obyčejný lajk“ nezaznamená
-	- Degustátor rozpozná jednotlivé přísady
+- Míra kvality čití je individuální
+- U stejného člověka může být citlivost ovlivněna únavou, nemocí, cvičením
+- U různých lidí může být kvalita počitku také odlišná
+- Lidé pracující s barvami mají „lepší cit“ pro rozeznání jednotlivých odstínů barev
+- Hudebník dokáže rozeznat nepatrnou odchylku v tónu, kterou „obyčejný lajk“ nezaznamená
+- Degustátor rozpozná jednotlivé přísady
 
 __VNÍMÁNÍ__
 
--
-	- Proces, jehož výsledkem jsou __vjemy__
-	- __Vjem__ = __celostní psychický obraz__\(vnímáme podnět jako celek – viz příklady\)
-	- Veškeré poznání začíná vnímáním
-	- Vše co je kolem nás vnímáme jako celek
-	- Jablko – vnímáme tvar, velikost, chuť, barvu, vůni, slyšíme chroupání, když se do něj zakousneme
-	- Člověk – pohlaví, výška, věk, oblečení, upravenost, tón hlasu
+- Proces, jehož výsledkem jsou __vjemy__
+- __Vjem__ = __celostní psychický obraz__\(vnímáme podnět jako celek – viz příklady\)
+- Veškeré poznání začíná vnímáním
+- Vše co je kolem nás vnímáme jako celek
+- Jablko – vnímáme tvar, velikost, chuť, barvu, vůni, slyšíme chroupání, když se do něj zakousneme
+- Člověk – pohlaví, výška, věk, oblečení, upravenost, tón hlasu
 
 Vjem př\.:
 
--
-	- Zaměřím se na kořeny, hnědou a drsnou kůru, větve, zelené listy – vjem je __strom__
-	- Zaměřím se na projíždějící auto – slyším zvuk motoru, vidím červenou barvu, žlutý znak s černým koněm, vidím perfektní kola – vjem je ferrari☺
+- Zaměřím se na kořeny, hnědou a drsnou kůru, větve, zelené listy – vjem je __strom__
+- Zaměřím se na projíždějící auto – slyším zvuk motoru, vidím červenou barvu, žlutý znak s černým koněm, vidím perfektní kola – vjem je ferrari☺
 
 __Rozdíly ve vnímání__
 
 __Kvalita vjemu může být ovlivněna__
 
--
-	- Vyspělosti a stavem smyslového orgánu
-	- Vnímání se zhoršuje s přibývajícím věkem, v nemoci, při únavě
-	- Vjemy lidí s porušeným nebo nevyvinutým zrakem, sluchem, čichem, hmatem se liší od vjemů zdravých lidí
-	- Celkovým stavem nervového systému
-	- Odpočatý člověk – jasnější a úplnější vjemy
-	- Unavený, ustaraný, nevyspalý člověk – nejasné, útržkovité vjemy
-	- Zneužívání drog, alkoholu, léků – zkreslení vjemů
-	- Dřívějšími zkušenostmi
-	- Znalosti člověka a konkrétním jevu
+- Vyspělosti a stavem smyslového orgánu
+- Vnímání se zhoršuje s přibývajícím věkem, v nemoci, při únavě
+- Vjemy lidí s porušeným nebo nevyvinutým zrakem, sluchem, čichem, hmatem se liší od vjemů zdravých lidí
+- Celkovým stavem nervového systému
+- Odpočatý člověk – jasnější a úplnější vjemy
+- Unavený, ustaraný, nevyspalý člověk – nejasné, útržkovité vjemy
+- Zneužívání drog, alkoholu, léků – zkreslení vjemů
+- Dřívějšími zkušenostmi
+- Znalosti člověka a konkrétním jevu
 
 __MYŠLENÍ A ŘEČ__
 
@@ -242,7 +230,7 @@ __UČENÍ__
 - Změny, které jsou důsledkem životních zkušeností
 - Osvojování jakékoli individuální zkušenosti, která způsobuje trvalou změnu v chování i v osobnosti
 - Lidské učení je základním procesem, prostřednictvím kterého jsou získávány a měněny vědomosti, dovednosti, činnosti, chování, osobnost
-- Opakem naučeného je vrozené ⇨ některým reakcím a vzorcům chování se člověk učit __ne__musí, k těmto vrozeným reakcím patří: __reflexy__ \(jednoduché reakce umožňující rychlé přizpůsobení vůči změnám okolního světa\) a __instinkty__ \(relativně složité\) ⇨ získávají se v průběhu dlouhého evolučního vývoje
+- Opakem naučeného je vrozené ⇨ některým reakcím a vzorcům chování se člověk učit **ne**musí, k těmto vrozeným reakcím patří: __reflexy__ \(jednoduché reakce umožňující rychlé přizpůsobení vůči změnám okolního světa\) a __instinkty__ \(relativně složité\) ⇨ získávají se v průběhu dlouhého evolučního vývoje
 - Prostřednictvím učení získáváme nové „adaptace“ i během několika hodin
 
 __Náhodné a řízené učení__
@@ -320,7 +308,7 @@ __Fáze paměti__
 
 \(Př\. Delfín je savec – Delfín je ryba – správná odpověď: Delfín je savec\)
 
-\(Psychické jevy dělíme na: a\) *Psychické procesy, děje, vlastnosti b\)Psychické procesy, stavy, vlastnosti – *b\) je správně\)
+\(Psychické jevy dělíme na: a\) Psychické procesy, děje, vlastnosti b\)Psychické procesy, stavy, vlastnosti – b\) je správně\)
 
 - Při rekognici podáváme lepší výkony než při vybavování
 
