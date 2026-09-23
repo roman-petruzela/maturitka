@@ -662,6 +662,17 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 				}
 			})();
 		</script>
+		<script>
+			// The 3D solids of the stereometrie pages can be turned by dragging them; the code is loaded
+			// only on a page that has one.
+			if (document.querySelector('figure.solid-plot[data-solid]')) {
+				import('../lib/solid-viewer').then((m) => m.initSolidViewers());
+			}
+			// a formula sheet gets a filter box, on the same terms
+			if (document.querySelector('.formula-sheet')) {
+				import('../lib/formula-filter').then((m) => m.initFormulaFilter());
+			}
+		</script>
 		<Analytics />
 	</body>
 </html>
