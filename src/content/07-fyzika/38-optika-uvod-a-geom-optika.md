@@ -45,10 +45,9 @@ Základní pojmy geometrické optiky
 
 - Světelné zdroje – tělesa vyzařující světlo
 - Optické prostředí – prostředí, kterým se světlo šíří
-	-
-		- __Průhledné__ – nedochází k rozptylu světla
-		- __Průsvitné__ – při průchodu prostředím se část rozptyluje
-		- __Neprůhledné__ – světlo se v něm silně pohlcuje nebo se na povrchu odráží
+    - __Průhledné__ – nedochází k rozptylu světla
+    - __Průsvitné__ – při průchodu prostředím se část rozptyluje
+    - __Neprůhledné__ – světlo se v něm silně pohlcuje nebo se na povrchu odráží
 - Opticky homogenní \(stejnorodé\) prostředí – optické prostředí, které má kdekoli ve svém objemu stejné optické vlastnosti
 - Ve stejnorodém optickém prostředí se světlo šíří přímočaře
 - Opticky izotropní prostředí – nezávisí\-li rychlost šíření světla v optickém prostředí na směru
@@ -60,8 +59,7 @@ Základní pojmy geometrické optiky
 Zákon odrazu světla
 
 - Pokud světelný paprsek dopadá na rozhraní dvou prostředí s odlišnými optickými vlastnostmi, pak se světlo na rozhraní částečně odráží a částečně se láme do druhého prostředí
-	-
-		- Odraz a lom světla se řídí stejnými zákony, jaké byly odvozeny pro mechanické vlnění pomocí Huygensova principu \(viz\. otázka 23\.\)
+    - Odraz a lom světla se řídí stejnými zákony, jaké byly odvozeny pro mechanické vlnění pomocí Huygensova principu \(viz\. otázka 23\.\)
 - Zákon odrazu světla:
 	- Úhel odrazu α ´ se rovná úhlu dopadu α\. Odražený paprsek leží v rovině dopadu\.
 - Úhel odrazu nezávisí na frekvenci světla\. Proto se paprsky různých barev odrážejí stejně\.
@@ -70,38 +68,34 @@ Lom světla
 
 - Pro směr lomeného paprsku platí vztah:
 
-                            ((obrázek vynechán))
+  ((obrázek vynechán))
 
 β…úhel lomu
 
 - Podíl rychlostí v1 a v2 je veličina zvaná __index lomu__ *n* pro dané rozhraní
-- Pokud je první prostředí vakuum nebo vzduch platí  *v1 = c *a pro rychlost světla v druhém prostředí zavedeme *v2 = v*
+- Pokud je první prostředí vakuum nebo vzduch platí  v1 = c a pro rychlost světla v druhém prostředí zavedeme *v2 = v*
 - Poté platí:	((obrázek vynechán))		… absolutní index lomu optického prostředí
 
 Zákon lomu
 
 - Nazývá se též Snellův zákon
-	-
-		- Objevil ho v 17\. století Holanďan W\. Snell
+    - Objevil ho v 17\. století Holanďan W\. Snell
 
-                                  ((obrázek vynechán)) nebo   ((obrázek vynechán))
+      ((obrázek vynechán)) nebo   ((obrázek vynechán))
 
--
-	-
-		- Zvláštní případ lomu od kolmice nastává, když β = 90°\. Úhel dopadu, kterému odpovídá tento úhel lomu, se nazývá __mezní úhel αm\.__ Je – li úhel dopadu __α > αm__, lom světla nenastává a vzniká úplný odraz světla\.
+- Zvláštní případ lomu od kolmice nastává, když β = 90°\. Úhel dopadu, kterému odpovídá tento úhel lomu, se nazývá __mezní úhel αm\.__ Je – li úhel dopadu __α > αm__, lom světla nenastává a vzniká úplný odraz světla\.
 - Když dochází k úplnému odrazu světla na rozhraní s vakuem, platí pro mezní úhel vztah:
 
-               	((obrázek vynechán))
+  ((obrázek vynechán))
 
 Index lomu světla
 
 - Hodnoty indexu lomu různých látek:
-	-
-		- Vakuum: n = 1 … Vzduch: n = 1 \(1,0002718\)
-		- Led: n = 1,31 … Voda: n = 1,33 … Běžné sklo: n = 1,5
+    - Vakuum: n = 1 … Vzduch: n = 1 \(1,0002718\)
+    - Led: n = 1,31 … Voda: n = 1,33 … Běžné sklo: n = 1,5
 - Když se světlo šíří z optického prostředí o indexu *n1*, v němž má rychlost *v1*, do prostředí s indexem lomu *n2*, kde má rychlost *v2*, platí:
 
-                                                          ((obrázek vynechán))
+  ((obrázek vynechán))
 
 - Prostředí opticky hustší – větší index lomu
 - Prostředí opticky řidší – menší index lomu
@@ -113,8 +107,7 @@ Index lomu světla
 
 ((obrázek vynechán))
 
--
-	1.  při přechodu světla z opticky hustšího prostředí do prostředí opticky řidšího nastává lom světla __od kolmice \( α<β\)\. __
+1.  při přechodu světla z opticky hustšího prostředí do prostředí opticky řidšího nastává lom světla **od kolmice \( α<β\)\.** 
 
 Refraktometry a optické kabely
 

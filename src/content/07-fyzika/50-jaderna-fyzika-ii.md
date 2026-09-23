@@ -6,17 +6,17 @@ Zákony zachování při jaderných reakcích
 
 Je\-li jaderná přeměna vyvolaná srážkou atomového jádra s jinými jádry nebo částicemi, hovoříme o *jaderné reakci*\. Jaderné reakce zapisujeme podobně jako chemické reakce rovnicemi\.
 
-U jaderných reakcí musí být splněny *zákony zachování\. *Jsou to experimentálně ověřené obecné vztahy, které odrážejí podstatné vlastnosti a symetrie hmoty, prostoru a času\.
+U jaderných reakcí musí být splněny zákony zachování\. Jsou to experimentálně ověřené obecné vztahy, které odrážejí podstatné vlastnosti a symetrie hmoty, prostoru a času\.
 
 Jsou to:
 
-	\- zákon zachování *energie*
+\- zákon zachování *energie*
 
-	\- zákon zachování *hybnosti*
+\- zákon zachování *hybnosti*
 
-	\- zákon zachování *elektrického náboje*
+\- zákon zachování *elektrického náboje*
 
-	\- zákon zachování *počtu nukleonů*
+\- zákon zachování *počtu nukleonů*
 
 Jaderné reakce rozlišujeme *endoenergetické* \(energii zvnějšku dodáváme\) a *exoenergetické* \(energie se uvolňuje\)
 
@@ -42,11 +42,11 @@ Druhy jaderného záření I\.
 
 Záření, které při radioaktivním rozpadu vzniká, je čtyř druhů, které označujeme jako α, β, γ a neutronové záření\.
 
-__*α*__ – proud jader atomu *He*\. Částice *α *mají velkou kinetickou energii \(2\-8 MeV\) a silné ionizační účinky\. Vychylují se v el\. i mg\. poli a jsou pohlcené již listem papíru nebo několika cm vzduchu\. Zářič *α *částic však může být nebezpečný při vdechnutí nebo požití – působí uvnitř organismu\.
+__*α*__ – proud jader atomu *He*\. Částice α mají velkou kinetickou energii \(2\-8 MeV\) a silné ionizační účinky\. Vychylují se v el\. i mg\. poli a jsou pohlcené již listem papíru nebo několika cm vzduchu\. Zářič α částic však může být nebezpečný při vdechnutí nebo požití – působí uvnitř organismu\.
 
 __*β\-*__ proud elektronů o energii až 10 MeV emitovaných z jádra\. Pohybují se rychlostí blízkou rychlosti světla\. Vychylují se v el\. i mg\. poli a jsou pohlcované tenkým plechem\.
 
-	Některé radionuklidy vyzařují místo elektronů pozitrony a potom hovoříme o β\+ rozpadu
+Některé radionuklidy vyzařují místo elektronů pozitrony a potom hovoříme o β\+ rozpadu
 
 ((obrázek vynechán))
 
@@ -66,13 +66,13 @@ Radionuklidy vysílají radioaktivní záření a přeměňují se na stabilní 
 
 *Zákon radioaktivního rozpadu* udává počet nerozpadlých jader *N* radionuklidu v čase *t*:
 
-						λ … přeměnová konstanta
+λ … přeměnová konstanta
 
-						N0 … počet jader v t=0 s
+N0 … počet jader v t=0 s
 
 *Poločas přeměny \(rozpadu\)* *T* je doba, za kterou se rozpadne polovina původního počtu jader
 
-         ((obrázek vynechán))
+((obrázek vynechán))
 
 ((obrázek vynechán))
 
@@ -80,15 +80,15 @@ Aktivita zářiče
 
 Pro aktivitu vzorku můžeme psát
 
-		__A = A0 \. e – λ\.t__
+__A = A0 \. e – λ\.t__
 
 resp\.
 
-		__A = A0 \. 0,5 t/T__
+__A = A0 \. 0,5 t/T__
 
 nebo
 
-		__A = λ \. *N*__
+__A = λ \. *N*__
 
 ((obrázek vynechán))
 

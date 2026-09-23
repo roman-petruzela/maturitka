@@ -18,7 +18,7 @@ __Vrh tělesa__
 
 	1\. rovnoměrný přímočarý pohyb ve směru rychlosti
 
-		2\. volný pád ve směru zrychlení g
+  2\. volný pád ve směru zrychlení g
 
 __Volný pád__
 
@@ -124,11 +124,11 @@ Bod P – __perigeum__
 
 Bod A – __apogeum__
 
-	\- těleso má od středu Země __největší__ vzdálenost
+\- těleso má od středu Země __největší__ vzdálenost
 
 ((obrázek vynechán))
 
-		= parabolická \(úniková\) rychlost
+= parabolická \(úniková\) rychlost
 
 ((obrázek vynechán))
 
@@ -162,7 +162,7 @@ __1\. Keplerův zákon__
 
 __2\. Keplerův zákon__
 
-- *Obsahy ploch opsaných průvodičem planety za jednotku času jsou konstantní\. *
+- *Obsahy ploch opsaných průvodičem planety za jednotku času jsou konstantní\.* 
 - __Průvodič__ – úsečka spojující střed planety a střed Slunce
 - __Perihelium__ – P \(přísluní\)
 
@@ -185,17 +185,17 @@ __3\. Keplerův zákon__
 
 T1, T2 – oběžné doby dvou planet
 
-		a1, a2 – délky jejich hlavních poloos
+a1, a2 – délky jejich hlavních poloos
 
 - Považujeme\-li trajektorie planet za __kružnice__:
 
 ((obrázek vynechán))
 
-	r1, r2 – střední vzdálenosti planet od Slunce
+r1, r2 – střední vzdálenosti planet od Slunce
 
 - ((obrázek vynechán))__Astronomická jednotka AU__
 
-		\- střední vzdálenost Země od Slunce
+  \- střední vzdálenost Země od Slunce
 
 - Je\-li např\. oběžná doba Jupiteru T1=12 let a víme\-li, že pro Zemi T2 = 1 rok, r2 = 1 AU, pak střední vzdálenost Jupiteru od Slunce je r1 = 5,2 AU
 

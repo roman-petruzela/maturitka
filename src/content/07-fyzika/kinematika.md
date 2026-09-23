@@ -58,9 +58,9 @@ Je __skalár__, který je definován jako podíl dráhy s a doby t, za kterou HB
 
 __Hlavní jednotka:__ m\.s\-1
 
-	\(u dopravních prostředků: km\.h\-1\)((obrázek vynechán))
+\(u dopravních prostředků: km\.h\-1\)((obrázek vynechán))
 
-		1 m\.s\-1 = 3,6 km\.h\-1
+1 m\.s\-1 = 3,6 km\.h\-1
 
 Vztah k určení vp na celé trajektorii \(známe\-li s1, s2, …\):
 
@@ -71,7 +71,7 @@ Okamžitá rychlost v
 
 __Změna polohového vektoru Δr__ \(k níž dojde při pohybu HB za dobu Δt, je dána
 
-rozdílem obou polohových vektorů: Δ__r__ = __r´__ – __r__
+rozdílem obou polohových vektorů: Δ**r** = __r´__ – __r__
 
 ((obrázek vynechán))
 
@@ -89,7 +89,7 @@ Zrychlení HB
 
 - Zrychlení __a__ je vektor, který se týká časové změny vektoru rychlosti, tj\. změny velikosti i směru vektoru rychlosti((obrázek vynechán))
 
-		__Zrychlení__ a v čase Δt definujeme vztahem:
+  __Zrychlení__ a v čase Δt definujeme vztahem:
 
 \(kde Δt je velmi malé\)((obrázek vynechán))
 
@@ -113,10 +113,10 @@ Druhy pohybů těles
 	- 	→ pohyb přímočarý
 	- 	→ pohyb křivočarý
 - __Podle časové změny velikosti rychlosti:__
-	- 		→ pohyb rovnoměrný
-	- 		→ pohyb nerovnoměrný
-		- 		→ pohyb rovnoměrně zrychlený
-		- 		→ pohyb rovnoměrně zpomalený
+         - 		→ pohyb rovnoměrný
+         - 		→ pohyb nerovnoměrný
+             - 		→ pohyb rovnoměrně zrychlený
+             - 		→ pohyb rovnoměrně zpomalený
 
 Pohyb rovnoměrný přímočarý
 

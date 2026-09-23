@@ -15,15 +15,15 @@ W = F · s · cos α
 - Působí\-li síla proti směru pohybu, pak => cosα <0 \.\.\. W = \- F \* s => __práce se spotřebovává__
 - __JEDNOTKA:__
 
-				\[W\] = J \(joule\) = N · m =
+  \[W\] = J \(joule\) = N · m =
 
-			   	=
+  =
 
 ((obrázek vynechán))Na obrázku je znázorněno __působení síly__ F\. Ta se rozkládá na složku k trajektorii kolmou \(F2\) – ta práci nekoná – a na složku rovnoběžnou s trajektorií \(F1\) – ta koná všechnu práci\.
 
 - __Mechanickou práci__ lze určit i graficky\. Zobrazíme\-li závislost velikosti síly *F1* \(rovnoběžné složky\) na dráze *s*, pak získáme pracovní diagram\. Velikost práce *W* je plocha, kterou ohraničuje graf velikosti síly, počáteční a konečná hodnota dráhy\. Mění\-li se působící síla v závislosti na dráze, pak lze dráhu s rozdělit na nekonečně mnoho velmi malých drah Δ*s*\. Pro práci Δ*Wi*, kterou vykoná síla *Fi* na daném úseku Δ*s* platí((obrázek vynechán))
 
-				                  Δ Wi = Fi · Δs
+  Δ Wi = Fi · Δs
 
 ((obrázek vynechán))
 
@@ -64,13 +64,13 @@ Energie
 - Energie je schopnost tělesa konat práci, při konání práce vždy dochází k přenosu energie z jednoho tělesa na druhé
 - __Mechanická energie:__  
 
-		1\. __kinetická__ \(pohybová\) – má ji pohybující se těleso
+  1\. __kinetická__ \(pohybová\) – má ji pohybující se těleso
 
-		2\. __potenciální__ \(polohová\) – mají ji tělesa, která jsou v silovém poli jiného tělesa a také pružně deformovaná tělesa
+  2\. __potenciální__ \(polohová\) – mají ji tělesa, která jsou v silovém poli jiného tělesa a také pružně deformovaná tělesa
 
 - Součet kinetické a potenciální energie tvoří __celkovou mechanickou energii__ E tělesa
 
-   				E = Ek \+ Ep
+  E = Ek \+ Ep
 
 ((obrázek vynechán))
 
@@ -100,7 +100,7 @@ Rotační pohyb
 - Při __otáčivém pohybu__ tuhého tělesa kolem nehybné osy se všechny body pohybují po kružnicích, jejichž středy leží na ose otáčení, stejnou úhlovou rychlostí ω\.
 - __Kinetickou energii tělesa určíme:__
 
-				Ek = 1/2·m·r·ω2
+  Ek = 1/2·m·r·ω2
 
 - __moment setrvačnosti__ → J = m·r2
 
@@ -146,13 +146,13 @@ Konzervativní silové pole
 
 Zákon zachování energie
 
-- Při všech mechanických dějích v izolované soustavě těles se __mění potenciální energie__ v__ kinetickou energii__ a naopak, přičemž celková mechanická energie je __konstantní__, tedy
+- Při všech mechanických dějích v izolované soustavě těles se __mění potenciální energie__ v **kinetickou energii** a naopak, přičemž celková mechanická energie je __konstantní__, tedy
 
 E = Ek \+ Ep = konst\.
 
 Vztah mezi změnou kin\. energie a prací všech sil na ni působících
 
-				((obrázek vynechán))
+((obrázek vynechán))
 
 - ΔEk >0 … Ek2> Ek1 … W >0 → těleso práci koná, __Ek se zvýší__
 - ΔEk <0 … Ek1> Ek2 … W <0 → těleso práci nekoná, práci konají vnější síly nebo síly pole __Ek se sníží__

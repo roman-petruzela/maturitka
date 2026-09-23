@@ -41,12 +41,12 @@ Faradayův zákon elektromagnetické indukce
 
 ((obrázek vynechán))
 
-- *Indukované elektromotorické napětí *__*Ui*__* je rovno záporně vzaté časové změně magnetického indukčního toku\. *
+- Indukované elektromotorické napětí **Ui* je rovno záporně vzaté časové změně magnetického indukčního toku\. *
 
 Lenzův zákon
 
 - Určuje __orientaci indukovaného proudu__ v uzavřeném vodiči \(elektrickém obvodu\)
-- *Indukovaný elektrický proud v uzavřeném obvodu má takový směr, že svým magnetickým polem působí*__* proti změně magnetického indukčního toku*__*, která je jeho příčinou\.*
+- *Indukovaný elektrický proud v uzavřeném obvodu má takový směr, že svým magnetickým polem působí*__* proti změně magnetického indukčního toku__*, která je jeho příčinou\.*
 - Ve formulaci __Faradayova zákona__ je __Lenzův zákon__ zahrnut ve znaménku \(–\)
 - Směr indukovaného proudu určujeme pomocí __Flemingova pravidla pravé ruky__
 - Položíme\-li pravou ruku k vodiči tak, aby odtažený palec ukazoval směr pohybu vodiče a vektor magnetické indukce vstupoval do dlaně, pak prsty ukazují směr indukovaného proudu ve vodiči\.

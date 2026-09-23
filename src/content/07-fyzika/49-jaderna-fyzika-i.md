@@ -75,7 +75,7 @@ __Atomové jádro__ tvoří centrální oblast atomu a představuje prakticky ce
 
 Pro poloměr atomového jádra platí:		R = R0 \. A1/3
 
-	kde A … nukleonové číslo, R0 = 1,3\.10\-15 m
+kde A … nukleonové číslo, R0 = 1,3\.10\-15 m
 
 __Nuklid__ je soubor atomů, které mají stejné protonové číslo i nukleonové číslo \(počet nukleonů v jádře\)\.
 
@@ -89,23 +89,23 @@ __= \(Z\.mp \+ n\.mn – mj\) \. c2__
 
 kde 	mj … klidová hmotnost jádra
 
-		mp = 1,673 \. 10\-27 kg
+mp = 1,673 \. 10\-27 kg
 
-		mn = 1,675 \. 10\-27 kg
+mn = 1,675 \. 10\-27 kg
 
-	a 	B … hmotnostní úbytek \(defekt\)
+a 	B … hmotnostní úbytek \(defekt\)
 
 Vazebná energie jader jednotlivých nuklidů se navzájem liší a proto zavádíme vazebnou energii připadající na jeden nukleon
 
 ((obrázek vynechán))
 
-                                               ((obrázek vynechán))
+((obrázek vynechán))
 
 Vazebné energii odpovídá podle vztahu ΔE = Δm\.c2 úbytek klidové hmotnosti, který nazýváme __hmotnostní úbytek *B\.*__
 
-Potom       __*	*__Ev = B\.c2, __B = \(m1\+m2\+…\+mn\) – m__
+Potom       	Ev = B\.c2, __B = \(m1\+m2\+…\+mn\) – m__
 
-__	__kde součet v závorce je součet klidových hmotností jednotlivých částí \(nukleonů jádra\) a m je klidová hmotnost jádra\.
+kde součet v závorce je součet klidových hmotností jednotlivých částí \(nukleonů jádra\) a m je klidová hmotnost jádra\.
 
 Při chemických reakcích je *B* velmi malé, ale vazebná energie atomových jader je cca 102 krát větší než energie chemická\. Proto syntézou \(fúzí\) lehkých jader nebo jaderným štěpením těžkých jader lze získat značnou energii
 
@@ -127,9 +127,9 @@ __Jaderná syntéza \(fúze\)__ – složením dvou lehčích jader \(s menší
 
 *Pozn\.: 	1\) Problémem jaderných syntéz je přiblížit kladně nabitá jádra na dosah jaderných sil \(„vadí“ např\. elektronové obaly a odpudivé síly mezi jádry\)\. Potřebnou energii mohou jádra získat zahřátím na teploty vyšší než 106 K\. Takto probíhá termonukleární reakce při výbuchu vodíkové bomby nebo v nitru hvězd\.*
 
-*		2\) Řízená termonukleární reakce je stále ve stádiu výzkumu a experimentů*
+*2\) Řízená termonukleární reakce je stále ve stádiu výzkumu a experimentů*
 
-                              ((obrázek vynechán))              ((obrázek vynechán))
+((obrázek vynechán)) ((obrázek vynechán))
 
 Fúze a štěpení II
 

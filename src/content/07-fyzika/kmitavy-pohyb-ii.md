@@ -49,7 +49,7 @@ Fyzické kyvadlo
 
 Tlumené kmitání
 
-- Je kmitání, u kterého se s ča__s__em __zmenšuje amplituda__, každé __reálné kyvadlo__
+- Je kmitání, u kterého se s časem __zmenšuje amplituda__, každé __reálné kyvadlo__
 - Na oscilátor působí __odpor prostředí__, proto se __amplituda__ postupně __zmenšuje__, až je nakonec __nulová__
 - __Energie__ se __mění__ na __jiné formy__ než na __mechanickou__ – většinou na __vnitřní energii__
 - Při kmitání ve vzduchu se amplituda výchylky zmenšuje velmi pomalu, ve vodě rychleji – závisí ____na__ odporu prostředí__
@@ -79,7 +79,7 @@ Rezonance
 Složené kmitání
 
 - ((obrázek vynechán))Když spojíme dva oscilátory __vláknem__, jehož střed zvýrazníme, a rozkmitáme oscilátory, uvidíme, že i střed vlákna kmitá\. Jeho kmity odpovídají pohybu vzniklému __složením__ kmitů obou oscilátorů\.
-- Skládají\-li se harmonické pohyby se __stejnou frekvenc__í, vznikne __harmonický pohyb se stejnou frekvencí\.__
+- Skládají\-li se harmonické pohyby se **stejnou frekvenc**í, vznikne __harmonický pohyb se stejnou frekvencí\.__
 - U takového skládání se musí uvažovat jen s __amplitudou__ a __počáteční fází\.__ Tyto veličiny se zobrazují jako __fázory__, proto je výhodné pro skládání kmitů používat __fázorový diagram__, kde jednotlivým harmonickým pohybům přísluší fázory\.
 - Výsledný pohyb, jeho __amplituda__ a __počáteční fáze__ se určí __vektorovým součtem__
 - Pokud mají jednotlivé kmity různou frekvenci, vzniknou poměrně složité kmity s neharmonickým průběhem\.
@@ -140,7 +140,7 @@ __Průběh jedné periody:__
 
 ((obrázek vynechán))
 
-		= Thomsonův vztah
+= Thomsonův vztah
 
 Vázané oscilátory
 

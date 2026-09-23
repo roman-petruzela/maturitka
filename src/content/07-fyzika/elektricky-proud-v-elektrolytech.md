@@ -16,7 +16,7 @@ Elektrolytická disociace
 - Je to __samovolný proces__, který končí dosažením __rovnovážného stavu__, při němž jsou přítomny vždy dva druhy iontů – __kationty \( \+ \)__ __a anionty \( \- \)__
 - Např\.                KCl      \->	K\+   \+   Cl\-  ;	KOH \-> K\+ \+ OH\-
 
-                  	CaCl2   \->   	Ca2\+   \+   2Cl\- ;    H2SO4 \-> 2H\+ \+ SO42\-
+  CaCl2   \->   	Ca2\+   \+   2Cl\- ;    H2SO4 \-> 2H\+ \+ SO42\-
 
 Elektrolýza
 
@@ -31,13 +31,13 @@ Faradayovy zákony pro elektrolýzu
 
 1. __Faradayův zákon:__
 
-- __*Hmotnost m *__*vyloučené látky je přímo úměrná součinu stálého *__*proudu I*__* a *__*doby t*__*, po kterou proud elektrolytem procházel\.*                                                                                          				__m = A\. Q__
+- __Hmotnost m *__*vyloučené látky je přímo úměrná součinu stálého proudu I*__* a *__*doby t, po kterou proud elektrolytem procházel\.*                                                                                          				__m = A\. Q__
 
 __m = A\.I\.t__
 
-      __2\.   Faradayův zákon:__
+__2\.   Faradayův zákon:__
 
-- __*Elektrochemický ekvivalent*__* látky vypočteme, jestliže její *__*molární hmotnost *__*vydělíme *__*Faradayovou konstantou*__* a *__*počtem elektronů*__* potřebných k vyloučení jedné molekuly:   *   ((obrázek vynechán))
+- __*Elektrochemický ekvivalent*__* látky vypočteme, jestliže její molární hmotnost vydělíme **Faradayovou konstantou** a **počtem elektronů** potřebných k vyloučení jedné molekuly:   *   ((obrázek vynechán))
 
 - Kde __F je Faradayova konstanta F = 9,6481×104 C\.mol\-1__ a __z__ je __počet \(mocenství\) elektronů__, které jsou potřeba při vyloučení jedné molekuly \(např\. pro Cu2\+  →  Cu je __z = 2__, pro Ag\+ → Ag je __z = 1__\)
 - __Látková množství__ různých látek vyloučených při elektrolýze týmž nábojem jsou __chemicky ekvivalentní__\. \(Mohou se navzájem nahradit v chemické sloučenině nebo se mohou bezezbytku sloučit\.\)

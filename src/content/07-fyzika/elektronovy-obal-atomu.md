@@ -35,9 +35,9 @@ Moderní kvantově mechanický model atomu vznikl na základě de Broglieho teo
 
 vlnová funkce  Ψ\(x, y, z, t\),
 
-	podle které elektron \(stejně jako všechny ostatní částice\) není popisován jako hmotný bod, ale jako vlnová funkce definující pravděpodobnosti výskytu elektronu v různých místech prostoru\. Spolu s Heisenbergovými relacemi neurčitosti
+podle které elektron \(stejně jako všechny ostatní částice\) není popisován jako hmotný bod, ale jako vlnová funkce definující pravděpodobnosti výskytu elektronu v různých místech prostoru\. Spolu s Heisenbergovými relacemi neurčitosti
 
-	to znamená, že elegantní pravidelné eliptické dráhy Bohrova modelu byly opuštěny a nahrazeny neostře definovanými oblastmi, ve kterých se elektron s určitou pravděpodobností nalézá, tzv\. orbitaly\. Tento model je sice hůře pochopitelný a jeho pravděpodobnostní povaha zejména zpočátku přitahovala značnou kritiku, dokáže však vysvětlit mnoho atomových vlastností, které byly dřívějšími teoriemi nepředpověditelné\.
+to znamená, že elegantní pravidelné eliptické dráhy Bohrova modelu byly opuštěny a nahrazeny neostře definovanými oblastmi, ve kterých se elektron s určitou pravděpodobností nalézá, tzv\. orbitaly\. Tento model je sice hůře pochopitelný a jeho pravděpodobnostní povaha zejména zpočátku přitahovala značnou kritiku, dokáže však vysvětlit mnoho atomových vlastností, které byly dřívějšími teoriemi nepředpověditelné\.
 
 Kvantově mechanický model je již zcela založen na principech kvantové fyziky\.
 
@@ -95,7 +95,7 @@ určuje orientaci orbitalu v prostoru
 
 __*s*__
 
-*Poznámka: K vyjádření vedlejšího kvantového čísla *l* se často používají písmena *s, p, d …
+Poznámka: K vyjádření vedlejšího kvantového čísla *l* se často používají písmena s, p, d …
 
 Spinové
 
@@ -133,7 +133,7 @@ orbital
 
 Pomocí čtyř kvantových čísel lze jednoznačně popsat elektrony v atomu, přičemž však platí *Pauliho vylučovací pricip*:
 
-*	V daném atomu nemohou existovat dva elektrony ve stejném kvantovém stavu, tj\. se stejnými kvantovými čísla n, l, m, s\.*
+*V daném atomu nemohou existovat dva elektrony ve stejném kvantovém stavu, tj\. se stejnými kvantovými čísla n, l, m, s\.*
 
 Tento princip platí pro *fermiony* \(např\. elektron, proton …\)\. Částice, pro které Pauliho princip neplatí nazýváme *bosony* \(foton …\)
 
@@ -141,9 +141,9 @@ ATOMY S VĚTŠÍM POČTEM ELEKTRONŮ
 
 V obalu každého atomu obíhá Z elektronů a jejich náboj je kompenzovaný nábojem jádra
 
-*Slupka el\. obalu – *systém elektronů se stejným kvant\. č\. *n*
+Slupka el\. obalu – systém elektronů se stejným kvant\. č\. *n*
 
-*Podslupka* – systém elektronů se stejnými čísly *n *a *l*
+*Podslupka* – systém elektronů se stejnými čísly n a *l*
 
 *Elektronový pár* – dva elektrony v jednom orbitalu s různým spinovým číslem
 
@@ -169,7 +169,7 @@ __Parametry chemické vazby__
 
 __Dělení vazeb__
 
-	Obecně se chemická vazba dělí na:
+Obecně se chemická vazba dělí na:
 
 - kovalentní resp\. koordinační vazba \- dochází k překryvu orbitalů a sdílení jednoho elektronového 	páru dvěma atomy
 - iontová vazba – založena na elektrostatických silách, předpokládá přenos elektronu z jednoho 	atomu na druhý \- vznik iontů\. Ve skutečnosti se částečně uplatňuje i kovalentní vazba\.

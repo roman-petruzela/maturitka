@@ -54,7 +54,7 @@ __Tlak plynu__
 
    tlak plynu v nádobě
 
-                     									difúze
+difúze
 
 __Brownův pohyb__
 
@@ -153,7 +153,7 @@ __Nuklid__
 
 ((obrázek vynechán))((obrázek vynechán))
 
-	__Mm__
+__Mm__
 
 - __molární hmotnost__ je hmotnost jednoho molu látky
 - je dána podílem hmotnosti látky m a látkového množství n
@@ -167,7 +167,7 @@ __Mr__
 
 ((obrázek vynechán))
 
-	__n__
+__n__
 
 - __látkové množství__, charakterizuje množství částic v látce
 - základní jednotkou látkového množství je __mol__ \(v SI soustavě\)

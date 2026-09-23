@@ -12,7 +12,7 @@ Pevné látky
 	- polykrystaly – většina krystalických látek
 - amorfní – beztvaré
 
-		 – pryskyřice, asfalt, vosk, polymery
+  – pryskyřice, asfalt, vosk, polymery
 
 Krystalické látky
 
@@ -89,19 +89,19 @@ Kolik atomů v krystalové mřížce připadá na jednu základní buňku, kter�
 
 a\) __prostá__
 
-		x = 8 \. 1/8 = 1
+x = 8 \. 1/8 = 1
 
 - 8 částic na rohu sdílí s 8 dalšími elementárními buňkami
 
 b\) __plošně centrovaná__
 
-		x = 8 \. 1/8 \+ 6 \. 1/2 = 4
+x = 8 \. 1/8 \+ 6 \. 1/2 = 4
 
 - \-\-II\-\-, 6 částic sdílí s dalšími dvěma elementárními buňkami
 
 c\) __prostorově centrovaná__
 
-		x = 8 \. 1/8 \+ 1 = 2
+x = 8 \. 1/8 \+ 1 = 2
 
 - \-\-II\-\-, 1 částice je uprostřed el\. buňky, nesdílí s nikým
 
@@ -114,13 +114,13 @@ Hlavní typy vazeb v pevných látkách
 - Pro viditelné světlo jsou většinou propustné
 - __Např__\. alkalické halogenidy \(NaCl, KBr\) a oxidy alkalických zemin \(CaO\)
 
-      2\. __Vodíková \(vodíkový můstek\)__
+  2\. __Vodíková \(vodíkový můstek\)__
 
 - Je __nejsilnější__ z nevazebných interakcí, může se uplatnit i v rámci dvou částí jedné molekuly
 - Podstatně __slabší__ než __iontová__ nebo __kovalentní__ vazba, ale silnější než většina ostatních __mezimolekulárních sil__
 - Spojuje např\. kyslíkové ionty v krystalu ledu vody, ale je častá i v organických látkách
 
-      3\. __Kovová__
+  3\. __Kovová__
 
 - Kovové krystaly mají velmi dobrou __tepelnou__ a __elektrickou vodivost__, povrchový __lesk__, v tlustších vrstvách jsou __neprůhledné__\. __Nejsou štěpné__ a některé z nich se vyznačují dobrou __kujností__ a __tažností__\.
 - __Např__\. Cu, Fe, Al, W, …

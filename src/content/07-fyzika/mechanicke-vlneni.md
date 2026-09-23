@@ -112,7 +112,7 @@ Lom vlnění
 - Lom vlnění se projevuje __změnou směru__, kterým se vlnění po __průchodu__ dvou __rozhraní__ šíří\.
 - Platí __zákon lomu vlnění:__
 
-*Poměr sinu úhlu dopadu k sinu úhlu lomu je pro dané dvě prostředí stálá veličina a rovná se poměru rychlostí vlnění v obou prostředích\. *
+*Poměr sinu úhlu dopadu k sinu úhlu lomu je pro dané dvě prostředí stálá veličina a rovná se poměru rychlostí vlnění v obou prostředích\.* 
 
 - ((obrázek vynechán))Nazývá se __index lomu vlnění n__ pro daná prostředí\. Lomený paprsek zůstává __v rovině dopadu\.__
 - Podle obrázku platí:
@@ -135,7 +135,7 @@ Ohyb vlnění
 - Ohyb vlnění nastává i v případě, že je v překážce __velkých rozměrů malý otvor\.__ Za překážkou se __vlnění šíří všemi směry__\(nastal ohyb vlnění a to se odchyluje od svého původního směru\)\.
 - Ohyb vlnění vysvětlujeme pomocí __Huygensova principu:__
 
-*Každý bod vlnoplochy, která dospěla k překážce je zdrojem elementárního vlnění, které se šíří všemi směry, tedy i do prostoru za překážku\. *
+*Každý bod vlnoplochy, která dospěla k překážce je zdrojem elementárního vlnění, které se šíří všemi směry, tedy i do prostoru za překážku\.* 
 
 - Tam tato __vlnění__ navzájem __interferují__ a dochází ke __zvětšení/zmenšení amplitudy__ výsledného vlnění v jednotlivých bodech => to se projevuje jako __ohyb vlnění\.__
 - __Směr__ šíření vlnění je ovlivněn __ohybem__ vlnění na __překážkách__\. Tento vliv je však tím menší, čím menší je vlnová délka vlnění\.

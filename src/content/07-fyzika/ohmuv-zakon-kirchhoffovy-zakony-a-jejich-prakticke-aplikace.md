@@ -7,7 +7,7 @@ Ohmův zákon pro část elektrického obvodu
 
 - ((obrázek vynechán))__Vysvětlení__: Ke svorkám zdroje napětí, jehož __elektromotorické napětí Ue__ můžeme měnit, je přes spínač připojen kovový vodič a ampérmetr\. Napětí na vodiči mezi body __A__ a __B__ měříme voltmetrem\. Měníme\-li __Ue__, mění se __napětí U__ mezi dvěma body vodiče a proud jím procházející\.
 - Z pokusu vyplývá:
-- *Elektrické *__*napětí U*__* mezi konci kovového vodiče je přímo úměrné *__*elektrickému proudu*__* tímto vodičem procházejícím\. \(*__*R*__* konstantní\)*
+- *Elektrické napětí U*__* mezi konci kovového vodiče je přímo úměrné *__*elektrickému proudu*__* tímto vodičem procházejícím\. \(__*R* konstantní\)
 - Tento poznatek byl objeven v r\. __1826__ německým fyzikem __G\. S\. Ohmem__ a nazývá se __Ohmův zákon pro část elektrického obvodu__\.
 - Pro různé vodiče je konstanta úměrnosti mezi __I__ a __U__ různá
 - Zavádíme proto novou jednotku __elektrický odpor__
@@ -52,13 +52,13 @@ __Závislost odporu na geometrických rozměrech vodiče a na látce:__
 
 ((obrázek vynechán))
 
-	__l__ … délka vodiče
+__l__ … délka vodiče
 
 __S__ … obsah příčného řezu vodiče
 
 __ρ__ … měrný elektrický odpor \(rezistivita\)
 
- 	jednotkou je \[Ώ\.m\]
+jednotkou je \[Ώ\.m\]
 
 __Závislost odporu na teplotě:__
 
@@ -84,11 +84,11 @@ __U = RI__\.\.\.svorkové napětí při průchodu I
 
 __Ui = RiI__…\.úbytek napětí na zdroji
 
-	__Ue__\.\.\.elektromotorické napětí
+__Ue__\.\.\.elektromotorické napětí
 
-	__Ri__\.\.\.vnitřní napětí zdroje
+__Ri__\.\.\.vnitřní napětí zdroje
 
-	__R__\.\.\.vnější napětí obvodu
+__R__\.\.\.vnější napětí obvodu
 
 - Pro svorkové napětí platí:  __U= Ue – RiI__
 - Tím je objasněno, proč svorkové napětí je vždy menší než elektromotorické – příčinou je existence vnitřního napětí\.
@@ -134,7 +134,7 @@ U:U1:U2:U3:…:Un = R:R1:R2:R3:…:R4
 
 Paralelní zapojení rezistorů
 
-- *Převrácená hodnota výsledného odporu paralelně zapojených rezistorů se rovná součtu převrácených hodnot jednotlivých rezistorů\. *
+- *Převrácená hodnota výsledného odporu paralelně zapojených rezistorů se rovná součtu převrácených hodnot jednotlivých rezistorů\.* 
 - __Výsledný odpor__ je vždy __menší__ než odpor libovolného zapojeného rezistoru\.
 - Proudy se ve větvích rozdělí v __obráceném poměru__ k jejich odporům:
 

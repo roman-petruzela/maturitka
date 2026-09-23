@@ -92,4 +92,4 @@ PRVNÍ OBRÁZEK\.\.\.MUSÍ BÝT DUTÝ
 
 - Nesouměrný profil nosné plochy způsobuje, že vzduch obtéká její horní stěnu větší rychlostí než stěnu spodní\. Podle __Bernoulliho rovnice__ je tlak na horní stěnu nosné plochy menší než na spodní stěnu a na celou nosnou plochu působí __vztlaková aerodynamická síla Fy__\. Na nosnou plochu letadla působí tedy dvě síly: __aerodynamická vztlaková síla Fy,__ která působí proti tíhové síle a udržuje letadlo ve vzduchu, a __odporová síla Fx__, kterou překonává tažná síla motorů\. Výslednicí obou sil je výsledná __aerodynamická síla__
 
-					F = Fx \+ Fy
+  F = Fx \+ Fy

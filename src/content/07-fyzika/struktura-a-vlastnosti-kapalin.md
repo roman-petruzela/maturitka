@@ -30,7 +30,7 @@ Povrchové napětí
 - __Skalární veličina__, vyjadřuje __pružnou__ vlastnost __povrchové vrstvy__
 - __Povrchové napětí σ__ se rovná podílu velikosti __povrchové síly__ __F__ a délky __l__ __okraje povrchové blány__, na který povrchová síla působí __kolmo__ v povrchu kapaliny
 
-						((obrázek vynechán))
+  ((obrázek vynechán))
 
  N\.m\-1
 
@@ -55,9 +55,8 @@ Jevy na rozhraní pevného tělesa a kapaliny
 
 ((obrázek vynechán))
 
--
-	- ((obrázek vynechán))Jestliže __výslednice__ směřuje __dovnitř__ kapaliny, je povrch __vypuklý__ \(např\. rtuť v mědi\) __\- kapalina nesmáčí stěnu__
-	- Pokud výslednice leží na __povrchu__ nádoby, je povrch __rovný__
+- ((obrázek vynechán))Jestliže __výslednice__ směřuje __dovnitř__ kapaliny, je povrch __vypuklý__ \(např\. rtuť v mědi\) __\- kapalina nesmáčí stěnu__
+- Pokud výslednice leží na __povrchu__ nádoby, je povrch __rovný__
 - Úhel __v = stykový úhel__
 - __ν=0°__→dokonale __smáčí__; __ν= π__ → dokonale __nesmáčí__
 - skutečné kapaliny mají __hodnotu__ v v intervalu 0° < ν < π/2 nebo π/2<v<π
@@ -72,7 +71,7 @@ Kapilární jevy
 - __např__\. vystupování vody z hloubky kapilárami do povrchových vrstev půdy, kde se vypařuje – __vzlínavost__
 - Pro __výšku h__ při kapilární elevaci/depresi platí vztah:
 
- 			((obrázek vynechán))
+  ((obrázek vynechán))
 
 __ς__ – hustota kapaliny; __σ__ – povrchové napětí
 

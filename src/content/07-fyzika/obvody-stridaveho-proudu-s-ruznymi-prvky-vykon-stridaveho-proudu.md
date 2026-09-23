@@ -125,9 +125,9 @@ __Sériové zapojení RLC__
 
 3\. __XL = XC__ – sériová rezonance
 
-		((obrázek vynechán))
+((obrázek vynechán))
 
-		= rezonanční frekvence
+= rezonanční frekvence
 
 ((obrázek vynechán))
 
@@ -149,7 +149,7 @@ Výkon střídavého proudu
 ((obrázek vynechán))
 
 - kde __U__ a __I__ jsou efektivní hodnoty střídavého __proudu__ a __napětí__, __φ__ je __fázový posun__ mezi __proudem__ a __napětím__, člen __cosφ__ se nazývá __účiník__
-- __*Efektivní hodnoty*__* střídavého proudu a napětí jsou hodnoty takového stejnosměrného proudu a napětí, jehož *__*výkon by byl stejný *__*jako je výkon daného střídavého proudu a napětí*
+- __*Efektivní hodnoty*__* střídavého proudu a napětí jsou hodnoty takového stejnosměrného proudu a napětí, jehož výkon by byl stejný jako je výkon daného střídavého proudu a napětí
 - __Velikost efektivní hodnoty__ střídavého proudu a napětí s harmonickým průběhem:
 
 ((obrázek vynechán))

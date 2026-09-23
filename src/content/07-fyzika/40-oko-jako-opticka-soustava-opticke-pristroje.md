@@ -18,21 +18,21 @@ Zornice – otvor do duhovky
 
 Sítnice – při ostrém vidění se na ní vytváří obraz
 
-		   – jsou na ní dva typy buněk
+– jsou na ní dva typy buněk
 
-                         	 	 – tyčinky \(na intenzitu světla\)
+– tyčinky \(na intenzitu světla\)
 
-			             – čípky \(na barvu\)
+– čípky \(na barvu\)
 
-		  – v různých místech různě citlivá
+– v různých místech různě citlivá
 
-		  – žlutá skvrna – průsečík sítnice s opt\. osou
+– žlutá skvrna – průsečík sítnice s opt\. osou
 
-				  – největší citlivost sítnice
+– největší citlivost sítnice
 
-		  – slepá skvrna – napojen zrakový nerv
+– slepá skvrna – napojen zrakový nerv
 
-				   – chybí tyčinky i čípky
+– chybí tyčinky i čípky
 
 Při velké vzdálenosti předmětu je zakřivení čočky \(opt\. mohutnost\) menší, ohnisková vzdálenost se tedy zvětšuje\.
 
@@ -51,37 +51,37 @@ Optimální vzdálenost, v níž můžeme pozorovat, tj\. konvenční zraková v
 ((obrázek vynechán))Normální oko
 \- blízký bod cca 15 cm od oka
 
-	\- daleký bod v nekonečnu
+\- daleký bod v nekonečnu
 
-	\- mezi dalekým a blízkým bodem vidíme ostře
+\- mezi dalekým a blízkým bodem vidíme ostře
 
 ((obrázek vynechán))Krátkozraké oko
 
-	\- daleký bod v konečné vzdálenosti
+\- daleký bod v konečné vzdálenosti
 
-	\- blízký bod posunut blíže k oku
+\- blízký bod posunut blíže k oku
 
-	\- obraz vzniká před sítnicí
+\- obraz vzniká před sítnicí
 
-	\- opt\. mohutnost čočky je velká
+\- opt\. mohutnost čočky je velká
 
-	\- vady může být způsobená protáhlostí oka
+\- vady může být způsobená protáhlostí oka
 
-	\- korekce vady rozptylkou \(obraz vzniká na sítnici\)
+\- korekce vady rozptylkou \(obraz vzniká na sítnici\)
 
 ((obrázek vynechán))Dalekozraké oko
 
-	\- daleký bod v nekonečnu
+\- daleký bod v nekonečnu
 
-	\- blízký bod posunut dále od oka
+\- blízký bod posunut dále od oka
 
-	\- obraz vzniká za sítnicí
+\- obraz vzniká za sítnicí
 
-	\- opt\. mohutnost čočky je malá
+\- opt\. mohutnost čočky je malá
 
-	\- korekce vady spojkou
+\- korekce vady spojkou
 
-	\- vada může být způsobena i zploštělostí oka
+\- vada může být způsobena i zploštělostí oka
 
 Podmínky zřetelného vidění
 
@@ -93,11 +93,11 @@ Podmínky zřetelného vidění
 
 Zorný úhel τ
 
-	\- svírají okrajové paprsky předmětu, které procházejí středem oční čočky
+\- svírají okrajové paprsky předmětu, které procházejí středem oční čočky
 
 Úhlové zvětšení γ
 
-	γ = τ´ / τ
+γ = τ´ / τ
 
 ((obrázek vynechán))
 
@@ -110,7 +110,7 @@ Zorný úhel τ
 
     γ = τ´/τ = y/f : y/f = d/f    → γ = 0,25 φ
 
-				 φ …optická mohutnost lupy
+  φ …optická mohutnost lupy
 
 Mikroskop
 
@@ -130,15 +130,15 @@ Mikroskop
 
 __Další optické přístroje__
 
-*Dalekohled *
+*Dalekohled* 
 
-	\- opt\. soustava sloužící k pozorování vzdálených objektů
+\- opt\. soustava sloužící k pozorování vzdálených objektů
 
-	\- vynalezli G\. Galilei a J\. Kepler
+\- vynalezli G\. Galilei a J\. Kepler
 
-	\- různé typy: Keplerův, zrcadlový, …
+\- různé typy: Keplerův, zrcadlový, …
 
-	\- γ = f1 / f2
+\- γ = f1 / f2
 
 *Fotografické přístroje*
 

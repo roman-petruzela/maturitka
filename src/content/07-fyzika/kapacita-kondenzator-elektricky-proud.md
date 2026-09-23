@@ -21,11 +21,11 @@ Kapacita vodiče
 
 ((obrázek vynechán))
 
-                                                       = permitivita vakua((obrázek vynechán))
+= permitivita vakua((obrázek vynechán))
 
 Kondenzátor, kapacita kondenzátoru
 
-- Kapacita __osamoceného vodiče__ je malá__\.__ Mnohem větší kapacitu má __soustava dvou plochých vodičů__ oddělených od sebe tenkou vrstvou vzduchu nebo __dielektrika__ \(látky, které __nepřenáší el\. proud__\)\. Takové zařízení nazýváme __deskový kondenzátor\.__
+- Kapacita __osamoceného vodiče__ je malá\. Mnohem větší kapacitu má __soustava dvou plochých vodičů__ oddělených od sebe tenkou vrstvou vzduchu nebo __dielektrika__ \(látky, které __nepřenáší el\. proud__\)\. Takové zařízení nazýváme __deskový kondenzátor\.__
 - Nejjednodušší je deskový kondenzátor __bez dielektrika__, který je tvořen dvěma __rovnoběžnými deskami__ o plošném __obsahu S__ a __vzdálenosti d__\. __Mezi__ deskami předpokládáme __vakuum__\.
 - __Schématická značka__ kondenzátoru:
 

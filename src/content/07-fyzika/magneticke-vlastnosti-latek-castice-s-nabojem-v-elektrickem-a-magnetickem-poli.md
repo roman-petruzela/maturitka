@@ -48,7 +48,7 @@ __Elektromagnet__
 - Pokud cívkou __neprochází__ proud, jádro __nepřitahuje__ drobné ocelové piliny
 - Pokud proud začne __procházet__, pak dojde k __magnetování jádra__ a to začne přitahovat piliny
 - S rostoucím __proudem__ se __indukce__ zvyšuje, při určitém proudu dosáhne __maxima__ \(je __magneticky nasyceno__\) a již s proudem neroste
-- Když proud přerušíme, magnetické pole zcela __nezanikne__, zůstává č__ástečně zmagnetováno__ a jeho magnetické pole má __remanentní magnetickou indukci__, na základě této indukce rozlišujeme materiály __magneticky tvrdé__ \(permanentní magnet\) a __magneticky měkké__ \(dočasný magnet\)
+- Když proud přerušíme, magnetické pole zcela __nezanikne__, zůstává č**ástečně zmagnetováno** a jeho magnetické pole má __remanentní magnetickou indukci__, na základě této indukce rozlišujeme materiály __magneticky tvrdé__ \(permanentní magnet\) a __magneticky měkké__ \(dočasný magnet\)
 - Použití elektromagnetů:
 	- Elektomagnetický jeřáb
 	- Elektromagnetické relé
@@ -80,7 +80,7 @@ __Lorentzova síla__
 
 - __q__ \- elektrický náboj; __v__ \- rychlost částice; __E__ \- intenzita elektrického pole; __B__ \- magnetická indukce
 
-       ((obrázek vynechán))
+  ((obrázek vynechán))
 
 - Výslednicí je __vektorový součin v__ a __B__
 - __Q__ – náboj; v \- rychlost pohybu částice; __B__ – magnet\. indukce; __α__ \- úhel, který svírá směr __v__ a __B__

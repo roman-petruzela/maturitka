@@ -74,7 +74,7 @@ Dostředivá síla
 - Dostředivá síla způsobuje změnu směru __vektoru rychlosti__ \(dostředivé zrychlení\) a tím zakřivení trajektorie, velikost vektoru rychlosti však nemění\!
 - Vztah velikosti dostředivé síly, hmotnosti tělesa m, velikosti rychlosti tělesa v \(popř\. úhlové rychlosti ω\) a poloměru křivosti r je:
 
-                                                                     ((obrázek vynechán))
+  ((obrázek vynechán))
 
 ((obrázek vynechán))- praxe: řetízkový kolotoč, hod diskem
 

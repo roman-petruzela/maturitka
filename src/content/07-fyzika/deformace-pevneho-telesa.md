@@ -65,7 +65,7 @@ Normálové napětí
 - V libovolném __příčném řezu__ vzniká stav napjatosti charakterizovaný veličinou __normálového napětí σn__ , kde __Fp__ je velikost __síly pružnosti__ působící kolmo na plochu příčného řezu o __obsahu S__
 - ((obrázek vynechán))Hlavní jednotkou __normálového napětí__ je __Pa__\. V praxi se využívá násobných jednotek MPa nebo GPa
 - Pomocí __σn__ můžeme určit, kdy je ještě __deformace pružná__
-- Měříme veličinou __mez pružnosti σE__ , což je __experimentálně__ určená n__ejvětší hodnota σn__ , při kterém je ještě __deformace pružná__, při vyšším __σn__ je těleso __trvale deformováno__
+- Měříme veličinou __mez pružnosti σE__ , což je __experimentálně__ určená n**ejvětší hodnota σn** , při kterém je ještě __deformace pružná__, při vyšším __σn__ je těleso __trvale deformováno__
 - Překročí\-li normálové napětí tzv\. __mez pevnosti σp__, poruší se __soudržnost materiálu__ \(drát se přetrhne, cihla se rozpadne\)\.
 
 Hookův zákon

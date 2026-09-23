@@ -63,7 +63,7 @@ el\. energie
 Princip činnosti laseru
 
 - Laser
-	- __L__ight __A__mplification by __S__timulated __E__mission of __R__adiation
+	- **L**ight **A**mplification by **S**timulated **E**mission of **R**adiation
 	- Zařízení pracující na principu stimulované emise
 	- Uvolňuje nahromaděnou energii jako energii monofrekvenčního záření
 	- Světlo je polarizované, koherentní a monochromatické
@@ -82,9 +82,8 @@ Ne
 
 ((obrázek vynechán))
 
--
-	- Světlo je z laseru vyzařováno ve formě úzkého svazku
-	- Princip laseru využívá zákonů kvantové mechaniky a termodynamiky
+- Světlo je z laseru vyzařováno ve formě úzkého svazku
+- Princip laseru využívá zákonů kvantové mechaniky a termodynamiky
 
 Zdroj záření
 
@@ -94,15 +93,14 @@ Odrazné zrcadlo
 
 Aktivní prostředí
 
--
-	- Zdrojem energie \(výbojka\) je do aktivního média dodávána energie\.
-	- Ta vybudí elektrony aktivního prostředí ze základní energetické hladiny do vyšší energetické hladiny, dojde k tzv\. excitaci\.
-	- Vzniká tzv\. inverzní populace\.
-	- Při opětném přestupu elektronu na nižší energetickou hladinu dojde k vyzáření \(emisi\) kvanta energie ve formě fotonů\.
-	- Fotony následně interagují s dalšími elektrony inverzní populace, čímž spouštějí tzv\. stimulovanou emisi fotonů\.
-	- Díky umístění aktivní části Laseru do rezonátoru dochází k odrazu paprsku fotonů a jeho opětovnému průchodu prostředím\.
-	- Dochází k exponenciálnímu zesilování toku fotonů\.
-	- Výsledný paprsek opouští laser polopropustným zrcadlem\.
+- Zdrojem energie \(výbojka\) je do aktivního média dodávána energie\.
+- Ta vybudí elektrony aktivního prostředí ze základní energetické hladiny do vyšší energetické hladiny, dojde k tzv\. excitaci\.
+- Vzniká tzv\. inverzní populace\.
+- Při opětném přestupu elektronu na nižší energetickou hladinu dojde k vyzáření \(emisi\) kvanta energie ve formě fotonů\.
+- Fotony následně interagují s dalšími elektrony inverzní populace, čímž spouštějí tzv\. stimulovanou emisi fotonů\.
+- Díky umístění aktivní části Laseru do rezonátoru dochází k odrazu paprsku fotonů a jeho opětovnému průchodu prostředím\.
+- Dochází k exponenciálnímu zesilování toku fotonů\.
+- Výsledný paprsek opouští laser polopropustným zrcadlem\.
 
 Polopropustné zrcadlo
 
@@ -141,12 +139,11 @@ Různé typy laserů
 Užití laserů
 
 - Využívány v mnoha oborech vědy i v technické praxi\. Uplatňuje se:
-	-
-		- Vysoký stupeň koherence světla \(např\. holografie\)
-		- Značná intenzita světla a energie soustředěná do malého prostoru \(obrábění tvrdých materiálů\)
-		- Přesný směr a malá rozbíhavost laserového paprsku \(měřící technika, mikroelektronika\)
-		- Přímá přeměna elektrické energie na světelnou \(polovodičové lasery v tiskárnách, CD snímače\)
-		- Medicína \(laserový skalpel\)
+    - Vysoký stupeň koherence světla \(např\. holografie\)
+    - Značná intenzita světla a energie soustředěná do malého prostoru \(obrábění tvrdých materiálů\)
+    - Přesný směr a malá rozbíhavost laserového paprsku \(měřící technika, mikroelektronika\)
+    - Přímá přeměna elektrické energie na světelnou \(polovodičové lasery v tiskárnách, CD snímače\)
+    - Medicína \(laserový skalpel\)
 
 *Holografie*
 

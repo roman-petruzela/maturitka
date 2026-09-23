@@ -54,18 +54,18 @@ Relativnost současnosti
 
 - Pozorovatel B však zjistí:
 - Hodiny jsou vzhledem k pozorovateli B v pohybu o rychlosti __v__, signál tedy musí urazit větší vzdálenost l za dobu ∆t, ve vzorci se to projeví:
--                         z toho tedy
+          -                         z toho tedy
 - Díky tomu mohl být odvozen vzorec:
 - Kde:	 Δt    \-  dilatace času
--             t    \-   čas\(doba po kterou se těleso pohybuje \)
--             v   \-   rychlost kterou se těleso pohybuje
--             c   \-   rychlost světla
+          -             t    \-   čas\(doba po kterou se těleso pohybuje \)
+          -             v   \-   rychlost kterou se těleso pohybuje
+          -             c   \-   rychlost světla
 
 ((obrázek vynechán))
 
-             ((obrázek vynechán))                             ((obrázek vynechán))
+((obrázek vynechán))                             ((obrázek vynechán))
 
-                                                                                               ((obrázek vynechán))
+((obrázek vynechán))
 
 - Z předešlých příkladů tedy vyplývá, že hodiny pohybující se vzhledem k pozorovateli jdou pomaleji než hodiny, které jsou vzhledem k pozorovateli v klidu
 - __Dilatace času:__ Jestliže pozorovatelé, kteří se vzájemně pohybují měří časový interval mezi dvěma událostmi, dojdou obecně k rozdílným výsledkům\.
@@ -83,15 +83,15 @@ Kontrakce délek
 ((obrázek vynechán))
 
 - Ve vzorci je L – délka v soustavě, vzhledem k níž se těleso pohybuje
--                     L0 \-  délka v klidové soustavě
--                     w – rychlost pohybujícího se tělesa
--                     c – rychlost světla
+          -                     L0 \-  délka v klidové soustavě
+          -                     w – rychlost pohybujícího se tělesa
+          -                     c – rychlost světla
 
 Skládání rychlostí ve speciální teorii relativity
 
 - Uvažujeme inerciální vztažnou soustavu K´ pohybující se vzhledem k jiné inerciální vztažné soustavě K rychlostí v
 - V soustavě K´ nechť se pohybuje částice stálou rychlostí u´ souhlasně orientovanou s osou x´; z klasické fyziky vyplývá, že rychlost u této částice vzhledem k soustavě K je dána klasickým vztahem pro skládání rychlostí
--                                     u = u´\+ v
+          -                                     u = u´\+ v
 - Tento vzorec je však v rozporu s druhým postulátem speciální teorie relativity, podle něhož se světlo ve vakuu šíří vzhledem k libovolné inerciální vztažné soustavě rychlostí c
 - Einstein proto odvodil obecnější relativistický zákon pro skládání rychlostí:
 

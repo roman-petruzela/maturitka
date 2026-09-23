@@ -20,7 +20,7 @@ __Magnetické pole__
 - Existenci magnetického pole prokážeme __magnetkou__ – __permanentní__ \(trvale zmagnetován\) __magnet__ tvaru kosočtverce, který se může volně otáčet, má dva póly: __N a S__ \(z angličtiny\), severní pól N je __zbarven tmavě__
 - V blízkosti tyčového magnetu se magnetka natočí tak, že severním pólem míří k jižnímu pólu magnetu, značení: N \- severní pól, S \- jižní pól \.
 - __Země má vlastnosti magnetu__, proto se používá magnetka jako kompas k orientaci \(v blízkosti severního geografického pólu leží jižní magnetický pól\)
-- __Severní mag\. pól__ Země je v blízkosti j__ižního geografického pólu__ a naopak
+- __Severní mag\. pól__ Země je v blízkosti j**ižního geografického pólu** a naopak
 
 Magnetické pole vodiče s proudem
 
@@ -61,7 +61,7 @@ Tyčový magnet a jeho magnetické pole \(magnet, siločáry vytvořené pomocí
 Magnetické pole cívky
 
 - Podobně jako je možné znázornit __magnetické pole přímého vodiče s proudem__, je možné znázornit i magnetické pole vodičů s proudem ve tvaru __závitu nebo cívky__
-- __Dlouhá válcová cívka__ s velkým počtem __závitů__, jejichž __průmě__r je mnohem menší než __délka cívky__, se nazývá __solenoid__
+- __Dlouhá válcová cívka__ s velkým počtem __závitů__, jejichž **průmě**r je mnohem menší než __délka cívky__, se nazývá __solenoid__
 - Stočíme\-li solenoid do __prstence__, dostaneme __toroid__\.
 - Pomocí pokusu s __pilinami__ je možné zjistit, že uvnitř __solenoidu__ \(v jeho střední části\) jsou __magnetické indukční čáry__ __rovnoběžné__ s jeho __osou__ \- jedná se tedy o __homogenní magnetické pole__\.
 - Orientaci mag\. indukčních čar určíme pomocí __Ampérova pravidla pravé ruky__
@@ -70,7 +70,7 @@ Magnetické pole cívky
 
 __Ampérovo pravidlo pravé ruky__
 
-- *Naznačíme\-li uchopení vodiče do *__*pravé ruky*__* tak, aby *__*palec *__*ukazoval dohodnutý *__*směr proudu*__* ve vodiči, *__*prsty *__*pak ukazují orientaci magnetických indukčních čar\. *
+- *Naznačíme\-li uchopení vodiče do pravé ruky*__* tak, aby *__*palec ukazoval dohodnutý směr proudu* ve vodiči, prsty pak ukazují orientaci magnetických indukčních čar\. *
 
 *((obrázek vynechán))*
 
@@ -81,7 +81,7 @@ __Flemingovo pravidlo__
 ((obrázek vynechán))
 
 - __Směr síly__ __Fm__ určíme __Flemingovým pravidlem levé ruky__:
-- *Položíme\-li *__*levou ruku*__* k vodiči tak, aby *__*prsty ukazovaly směr proudu*__* a *__*indukční čáry vstupovaly do dlaně*__*, ukazuje *__*odtažený palec směr síly Fm *__* působící na vodič\.*
+- *Položíme\-li levou ruku*__* k vodiči tak, aby *__*prsty ukazovaly směr proudu*__* a *__*indukční čáry vstupovaly do dlaně*__, ukazuje *__*odtažený palec směr síly Fm  působící na vodič\.*
 
 ((obrázek vynechán))
 
@@ -100,7 +100,7 @@ Vzájemné působení dvou přímých rovnoběžných vodičů
 
 Definice Ampéru
 
-- *Ampér je *__*stálý elektrický proud,*__* který při průchodu dvěma přímými rovnoběžnými nekonečně dlouhými vodiči zanedbatelného kruhového průřezu umístěnými ve vakuu ve vzájemné vzdálenosti *__*1 metr*__* vyvolá mezi nimi stálou*__* sílu o velikosti 2 \.10\-7 N*__* na *__*1 metr*__* délky vodiče\. *
+- *Ampér je stálý elektrický proud,*__* který při průchodu dvěma přímými rovnoběžnými nekonečně dlouhými vodiči zanedbatelného kruhového průřezu umístěnými ve vakuu ve vzájemné vzdálenosti *__*1 metr*__* vyvolá mezi nimi stálou__* sílu o velikosti 2 \.10\-7 N na **1 metr** délky vodiče\. *
 
 Lorentzova síla
 

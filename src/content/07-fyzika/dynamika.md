@@ -66,7 +66,7 @@ __2\.NPZ – Zákon síly__
 - Velikost zrychlení __a__ tělesa je přímo úměrná velikosti výslednice sil __F__ působících na těleso a nepřímo úměrná hmotnosti tělesa m
 - Síla je určena poměrem hybnosti a času, za který tato změna proběhla\.
 
-                                  ((obrázek vynechán))
+  ((obrázek vynechán))
 
 __3\.NPZ – Zákon akce a reakce \(vzájemného působení těles\)__
 
@@ -114,6 +114,6 @@ __Smykové tření a valivý odpor__
 
 ((obrázek vynechán))                                                    		((obrázek vynechán))… součinitel smykového tření
 
-                                                                      ((obrázek vynechán)) … rameno valivého odporu \(řecké ksí\)
+((obrázek vynechán)) … rameno valivého odporu \(řecké ksí\)
 
-                                                                    ((obrázek vynechán))  … poloměr valícího se tělesa
+((obrázek vynechán))  … poloměr valícího se tělesa

@@ -46,7 +46,7 @@ Coulombův zákon
 - Bodový el\. náboj – myšlený el\. náboj soustředěný do 1 bodu, u něhož se projevují jen elektrické vlastnosti \(obdoba HB v mechanice\)
 - __Coulombův zákon:__
 
-*Dva bodové elektrické náboje v klidu se navzájem přitahují nebo odpuzují stejně velkými*__* elektrickými silami Fe*__*, *__*\-Fe *__*opačného směru\. Velikost *__*elektrické síly Fe*__* je přímo úměrná absolutní hodnotě součinu*__* nábojů Q1, Q1*__* a nepřímo úměrná druhé mocnině jejich *__*vzdáleností r\.*__
+*Dva bodové elektrické náboje v klidu se navzájem přitahují nebo odpuzují stejně velkými*__* elektrickými silami Fe__*, \-Fe opačného směru\. Velikost elektrické síly Fe*__* je přímo úměrná absolutní hodnotě součinu__* nábojů Q1, Q1 a nepřímo úměrná druhé mocnině jejich vzdáleností r\.
 
 ((obrázek vynechán))
 
@@ -82,7 +82,7 @@ Siločáry
 
 1\. __spojité čáry__, které začínají na __kladném__ a končí na __záporném__ náboji
 
-    \(u osamoceného náboje ubíhají do nekonečna\)
+\(u osamoceného náboje ubíhají do nekonečna\)
 
 2\. navzájem se nikde __neprotínají__
 
@@ -110,7 +110,7 @@ nesouhlasných				souhlasných
 Elektrický potenciál
 
 - skalár, značka __φ__, jednotka __volt__ \(V\), kilovolt \(kV\) a milivolt \(mV\), __1V = 1 J\.C\-1__
-- __*Elektrický potenciál φ*__*A v bodě A elektrického pole v okolí náboje *__*Q *__*definujeme jako podíl*__* práce W,*__* kterou vykonají síly elektrického pole při přemísťování kladného *__*bodového náboje Q0 *__*z bodu A na zem, a tohoto náboje *__*Q0*__*\.*
+- __*Elektrický potenciál φ*__*A v bodě A elektrického pole v okolí náboje Q definujeme jako podíl*__* práce W,__* kterou vykonají síly elektrického pole při přemísťování kladného bodového náboje Q0 z bodu A na zem, a tohoto náboje **Q0**\.
 
 ((obrázek vynechán))
 
@@ -165,9 +165,9 @@ Dielektrikum v elektrostatickém poli
 - __polarizace dielektrika__ – při vložení izolantu do el\. pole se vytvoří na __protilehlých koncích__ izolantu navzájem opačné el\. náboje
 - __polární dielektrika__ – molekuly tvoří dipóly samovolně, bez vnějšího el\. pole
 
-		          – izolant se polarizuje až působením vnějšího el\. pole
+  – izolant se polarizuje až působením vnějšího el\. pole
 
-          – např\. voda, amoniak
+  – např\. voda, amoniak
 
 - __Polarizací__ dielektrika vzniká __tenká vrstva záporných__ \(siločáry el\. pole vstupují do dielektrika\) a kladných \(vystupují\) __nábojů__ – mezi nimi se vytváří __vnitřní el\. pole__ o __intenzitě Ei__ opčaného směru, než je __intenzita E__ vnějšího pole
 - __Výsledná intenzita Ev__ má směr intenzity __E__ vnějšího pole a velikost __Ev = E \- Ei__

@@ -20,16 +20,16 @@ Stavové veličiny
 
 Rovnovážný stav
 
-- *Každá soustava, která je od určitého okamžiku v neměnných vnějších podmínkách, přejde samovolně po určité době do *__*rovnovážného stavu*__*\. V tomto stavu setrvá, pokud zůstanou tyto podmínky zachovány*
+- *Každá soustava, která je od určitého okamžiku v neměnných vnějších podmínkách, přejde samovolně po určité době do **rovnovážného stavu**\. V tomto stavu setrvá, pokud zůstanou tyto podmínky zachovány*
 - nemění se objem, tlak ani teplota, neprobíhají žádné změny skupenství, chemické reakce ani jaderné přeměny
 - __Pokus:__ Do termosky s vlažnou vodou nasypeme led\. Teplota obou složek se změní a ustálí při neměnných vnějších podmínkách na konstantní teplotě\.
 - Je stavem s největší pravděpodobností výskytu
 
 ((obrázek vynechán))     			p – pravděpodobnost výskytu
 
-			m – počet příznivých výsledků
+m – počet příznivých výsledků
 
-			n – počet všech případů
+n – počet všech případů
 
 __Relaxační doba__
 
@@ -82,7 +82,7 @@ Celsiova teplotní stupnice
 - Vytvořena v roce 1792 švédským astronomem Andersem Celsiem
 - __Dva pevné body:__	0 °C – teplota tání
 
-                           	100 °C – teplota varu vody
+  100 °C – teplota varu vody
 
 - Původně byly pevné body obráceně
 - Dnes je jako __vedlejší jednotka SI__ soustavy definována pomocí __trojného bodu vody__, kterému je přiřazena teplota __0,01 °C__ a tím, že absolutní velikost jednoho dílku teplotní stupnice \(1 °C\) je rovna 1 K\.
@@ -94,11 +94,11 @@ Fahrenheitova teplotní stupnice
 - Pojmenována po německém skláři Gabrielu Fahrenheitovi
 - __Dva referenční body__: __0 °F__ – __nejnižší teplota__, jaké byl schopen dosáhnout \(smícháním soli a ledu\)
 
-       __96 °F__ – __teplota lidského těla__
+  __96 °F__ – __teplota lidského těla__
 
 - Později upraveno na __32 °F – bod mrazu__
 
-         __212 °F – bod varu vody__
+  __212 °F – bod varu vody__
 
 - Dnes se používá především v Americe
 

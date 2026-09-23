@@ -53,7 +53,7 @@ __Pascalův zákon:__
 
 - V tíhovém poli Země působí na __všechny částice kapalného tělesa tíhová síla__\. Výsledkem tohoto působení je __hydrostatická tlaková síla *F*h__\.  Touto silou působí kapalina na dno a stěny nádoby nebo na potápěče či ponorku pod hladinou\.
 - __Velikost hydrostatické tlakové síly *F*h,__ kterou působí kapalina v hloubce *h* na dno nádoby o plošném obsahu *S*, je dána v případě nádoby se svislými stěnami tíhou __*FG*__ kapaliny v nádobě\.
-- Je\-li __m = ρ ⋅ V__ \(*ρ* je hustota a *V* objem kapaliny\) a __V = S ⋅ h__, pak platí:		__* Fh = FG = m ⋅ g = S ⋅ h ⋅ ρ ⋅ g*__
+- Je\-li __m = ρ ⋅ V__ \(*ρ* je hustota a *V* objem kapaliny\) a __V = S ⋅ h__, pak platí:		__* Fh = FG = m ⋅ g = S ⋅ h ⋅ ρ ⋅ g__
 - __Velikost hydrostatické tlakové síly__ závisí na hustotě kapaliny, na obsahu dna a na hloubce pod volným povrchem kapaliny\. __Nezávisí__ na tvaru a celkovém objemu kapalného tělesa\.
 - ((obrázek vynechán))Když nalijeme kapalinu do nádob různého tvaru, ale se dnem stejné plochy S a hladinou ve stejné výšce h, bude na dno nádoby působit __vždy stejná tlaková síla__\. Tento jev se nazývá __hydrostatické paradoxon__\. Je způsobeno tím, že v nádobách, jejichž stěny nejsou svislé působí kromě tíhy kapaliny také reakce stěn na kolmé tlakové síly\.
 - __Tlak v kapalině__ vyvolaný hydrostatickou tlakovou silou se nazývá __hydrostatický tlak *ph*\.__ Hydrostatický tlak v hloubce h pod volným povrchem kapaliny o hustotě ρ je:
@@ -77,22 +77,22 @@ Vztlaková síla v kapalinách a plynech
 
 ((obrázek vynechán))
 
-	__Jejich výslednice__ je vztlaková síla:
+__Jejich výslednice__ je vztlaková síla:
 
 ((obrázek vynechán))
 
 __Archimédův zákon:__
 
-- *Těleso ponořené do kapaliny je nadlehčováno vztlakovou silou, jejíž velikost se rovná tíze kapaliny stejného objemu, jako je objem ponořeného tělesa\. *
+- *Těleso ponořené do kapaliny je nadlehčováno vztlakovou silou, jejíž velikost se rovná tíze kapaliny stejného objemu, jako je objem ponořeného tělesa\.* 
 - Důsledkem Archimédova zákona je __různé chování těles v kapalině__\. Na každé těleso ponořené do kapaliny totiž působí Země tíhovou silou FG ve svislém směru dolů a kapalina vztlakovou silou FVZ\. ρt je __průměrná__ hustota ponořeného tělesa, ρ  je hustota kapaliny a V objem ponořeného tělesa\.
 
 ((obrázek vynechán))((obrázek vynechán))
 
 __Mohou nastat tři případy:__
 
-__*1\) ρ t > ρ  ⇒  FG > Fvz* __  výslednice sil __*F*__ směřuje dolů a těleso __klesá ke dnu__\. Takto se chovají např\. kovové předměty ve vodě\.
+***1\) ρ t > ρ  ⇒  FG > Fvz***   výslednice sil __*F*__ směřuje dolů a těleso __klesá ke dnu__\. Takto se chovají např\. kovové předměty ve vodě\.
 
-__*2\) ρ t = ρ  ⇒  FG = Fvz* __   výslednice sil __*F* = 0__ a těleso se v kapalině __vznáší__\. Ve vodě se vnášejí např\. ryby a mořští živočichové\.
+***2\) ρ t = ρ  ⇒  FG = Fvz***    výslednice sil __*F* = 0__ a těleso se v kapalině __vznáší__\. Ve vodě se vnášejí např\. ryby a mořští živočichové\.
 
 __*3\) ρ t < ρ ⇒  FG < Fvz*__    výslednice sil __*F*__ směřuje nahoru a těleso __stoupá k volné hladině__ kapaliny\. Jakmile jí dosáhne, částečně se vynoří a ustálí se v takové poloze, že tíhová síla *FG* je v rovnováze se vztlakovou silou, jejíž velikost se rovná tíze *G´* kapaliny stejného objemu *V´,* kterou vytlačuje ponořená část tělesa = __plování těles__\. Takto se chová např\. dřevěný špalek ve vodě\.
 

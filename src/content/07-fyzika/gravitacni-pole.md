@@ -36,9 +36,9 @@ Newtonův gravitační zákon
 
 Superpozice gravitačních polí
 
-- Síla __F__, kterou působí na libovolné těleso gravitační pole buzené tělesy T1, T2 ,… Tn je rovna součtu sil __F__1, __F__2, …__F__n, kterými by na ně působila gravitační pole buzená jednotlivými tělesy, tj\. platí
+- Síla __F__, kterou působí na libovolné těleso gravitační pole buzené tělesy T1, T2 ,… Tn je rovna součtu sil **F**1, **F**2, …**F**n, kterými by na ně působila gravitační pole buzená jednotlivými tělesy, tj\. platí
 
-		__F__ = __F__1 \+ __F__2 \+ … \+ __F__n
+  __F__ = **F**1 \+ **F**2 \+ … \+ **F**n
 
 Intenzita gravitačního pole
 
@@ -46,13 +46,13 @@ Intenzita gravitačního pole
 
 ((obrázek vynechán))	 => =>
 
-		\.\.\.pro těleso ve vzdálenosti r od Země
+\.\.\.pro těleso ve vzdálenosti r od Země
 
-		\.\.\.pro těleso na povrchu Země
+\.\.\.pro těleso na povrchu Země
 
-				Mz – hmotnost Země = 5,98 \* 10^24 kg
+Mz – hmotnost Země = 5,98 \* 10^24 kg
 
-				Rz – poloměr Země = 6,37 \* 10^6 m \(=6378 km\)
+Rz – poloměr Země = 6,37 \* 10^6 m \(=6378 km\)
 
 - gravitační zrychlení závisí na nadmořské výšce
 - Tato vektorová veličina __nezávisí na hmotnosti__, ale jen na gravitačním poli v bodě P\. Charakterizuje silové účinky pole\.
@@ -61,7 +61,7 @@ Intenzita gravitačního pole
 
 __Gravitační pole:__ 1\. Centrální gravitační pole \(Radiální\)
 
-		     2\. Homogenní gravitační pole
+2\. Homogenní gravitační pole
 
 Radiální gravitační pole
 
@@ -81,13 +81,13 @@ Gravitační a tíhové pole v laboratorní vztažné soustavě
 - Vlivem __otáčení Země__ je laboratorní soustava spojená v daném místě s povrchem Země neinerciální, takže na každé těleso v ní působí kromě __gravitační síly__ i __síly setrvačné\.__
 - Na těleso, které je v klidu, působí __setrvačná síla odstředivá Fo__\. Ta je kolmá na osu otáčení Země a je orientována směrem od ní\. Její velikost je:
 
-		Fo=mω2r		Fo<<Fg
+  Fo=mω2r		Fo<<Fg
 
 m – hmotnost tělesa, ω – úhlová rychlost otáčení Země, r – vzdálenost od osy
 
 - V laboratorní soustavě na každé těleso působí výslednice gravitační a odstředivé síly\. Jde o sílu tíhovou, označuje se
 
-		__F__G=__F__g\+__F__o((obrázek vynechán))
+  **F**G=**F**g\+**F**o((obrázek vynechán))
 
 - Její směr se označuje jako __svislý__\. Udává jej např\. __klidná olovnice__
 - Nepůsobí\-li na HB jiná síla než tíhová, pohybuje se HB v lab\. soustavě se zrychlením __g__\.

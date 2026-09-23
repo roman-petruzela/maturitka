@@ -9,7 +9,7 @@ Práce plynu
 
 ((obrázek vynechán))
 
-W’ = Fs = pSΔs = pΔV__ __
+W’ = Fs = pSΔs = pΔV 
 
 - Práce vykonaná při __izobarickém ději__, při němž plyn přejde ze stavu __A__ do stavu __B__, je znázorněna __obsahem__ obdélníku ležícího v __p\-V diagramu__ pod __izobarou__ AB\. Diagram p\-V se nazývá __pracovní diagram__((obrázek vynechán))
 - Při __proměnném tlaku:__
@@ -36,8 +36,8 @@ Kruhový děj
 
 Druhý termodynamický zákon
 
-1. __*Není možné*__* sestrojit periodicky pracující stroj, který by jen *__*přijímal teplo *__*od určitého tělesa \(ohřívače\) a *__*vykonával stejně velkou práci*__
-2. *Při *__*tepelné výměně *__*těleso o *__*vyšší *__*teplotě *__*nemůže *__*samovolně *__*přijímat teplo *__*od tělesa s *__*nižší *__*teplotou*
+1. __*Není možné*__* sestrojit periodicky pracující stroj, který by jen přijímal teplo od určitého tělesa \(ohřívače\) a vykonával stejně velkou práci
+2. Při tepelné výměně těleso o vyšší teplotě nemůže samovolně přijímat teplo od tělesa s nižší **teplotou*
 
 __Cyklicky pracující tepelný stroj			Perpetum mobile druhého druhu__
 

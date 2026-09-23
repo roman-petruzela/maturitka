@@ -31,7 +31,7 @@ Změna vnitřní energie
 
 \- současně tepelnou výměnou a konáním práce
 
-__∆__U = U2 – U1
+∆U = U2 – U1
 
 __∆U >0__ \- vnitřní energie se zvětšila, __přírůstek vnitřní energie__
 
@@ -41,10 +41,10 @@ Změna vnitřní energie konáním práce
 
 - nastává např\. při působení __vnější tlakové síly__ __F__ na píst válce s plynem, čímž dochází ke __stlačování plynu__\. Protože částice plynu dopadají na pohybující se píst, __zvyšují po odrazu svou rychlost__\. Tím dochází ke změně celkové __vnitřní kinetické energie Uk__ částic\. Zmenšování objemu plynu způsobuje __zmenšování vzdáleností__ mezi částicemi, proto se mění i celková __vnitřní potenciální energie Up__ částic\. Tato změna se projeví __zvýšením teploty nádoby a stlačovaného plynu__ \(př\. hustilka na nafukování\)
 
-__∆__U = U2 – U1 = W
+∆U = U2 – U1 = W
 
-- v případě, že by byla nádoba __adiabaticky \(tepelně\) izolována__   __∆__U = W
-- __vykoná\-li práci plyn__ \(=okolí\) __W’__ posunutím pístu, __zmenší__ se jeho vnitřní energie\. Proto změna vnitřní energie plnu bude záporná   __∆__U = \-W’\.
+- v případě, že by byla nádoba __adiabaticky \(tepelně\) izolována__   ∆U = W
+- __vykoná\-li práci plyn__ \(=okolí\) __W’__ posunutím pístu, __zmenší__ se jeho vnitřní energie\. Proto změna vnitřní energie plnu bude záporná   ∆U = \-W’\.
 - využívá se v tepelných motorech
 
 Změna vnitřní energie tepelnou výměnou
@@ -68,20 +68,19 @@ Měrná tepelná kapacita c
 - *Je množství tepla potřebné k ohřátí 1 kg látky o 1 °C \(1 K\)*
 - __Měrná tepelná kapacita \(látky\) c__
 
-		\- je číselně rovna teplu potřebnému k zahřátí 1 kg látky o 1 °C \(1 K\)
+  \- je číselně rovna teplu potřebnému k zahřátí 1 kg látky o 1 °C \(1 K\)
 
-		\- je to tepelná kapacita __vztažená__ na __1 kg látky__
+  \- je to tepelná kapacita __vztažená__ na __1 kg látky__
 
-		\- 		\[J\.K\-1\.kg\-1\]   => Q = m\.c\.∆t
+  \- 		\[J\.K\-1\.kg\-1\]   => Q = m\.c\.∆t
 
 \- teplo, které přijme stejnorodé těleso je přímo úměrné hmotnosti 	a přírůstku teploty
 
 \- uvedeny v MFChT
 
 - __Tepelná kapacita C__
-	-
-		- *Množství tepla, jakým se *__*těleso *__*ohřeje za 1 teplotní rozdíl *
-		- platí pro konkrétní tělesa
+    - Množství tepla, jakým se těleso ohřeje za 1 teplotní rozdíl *
+    - platí pro konkrétní tělesa
 
 Kalorimetr
 
@@ -89,18 +88,18 @@ Kalorimetr
 - __Směšovací kalorimetr__ je tepelně izolovaná nádoba s míchačkou a teploměrem, naplněná kapalinou\. Pro přesnější měření může mít dvojitou stěnu vyplněnou vakuem\.((obrázek vynechán))
 - Je\-li __ck__ tepelná kapacita kalorimetru, můžeme vyjádřit:
 
-		\- teplo Q1 = c1m1 \(t1 – t\), které __těleso odevzdá__
+  \- teplo Q1 = c1m1 \(t1 – t\), které __těleso odevzdá__
 
-		\- teplo Q2 = c1m1 \(t – t2\), které __přijme kapalina__
+  \- teplo Q2 = c1m1 \(t – t2\), které __přijme kapalina__
 
-		\- teplo Qk = Ck \(t – t2\), které __přijme soustava kalorimetru__
+  \- teplo Qk = Ck \(t – t2\), které __přijme soustava kalorimetru__
 
 Kalorimetrická rovnice
 
-- Vyjadřuje __energetickou bilanc__i při tepelné výměně mezi tělesy v kalorimetru\.
+- Vyjadřuje **energetickou bilanc**i při tepelné výměně mezi tělesy v kalorimetru\.
 - Neuvažujeme\-li tepelnou kapacitu kalorimetru s příslušenstvím, má rovnice tvar:
 
-		__c1m1 \(t1 – t\) = c2m2 \(t – t2\) \+ Ck \(t – t2\)__
+  __c1m1 \(t1 – t\) = c2m2 \(t – t2\) \+ Ck \(t – t2\)__
 
 	teplo odevzdané = teplo přijaté studenějším tělesem a kalorimetrem
 
@@ -111,11 +110,11 @@ První termodynamický zákon
 - __Neexistuje__ tepelný stroj, který by porušoval zákon zachování energie a vykonával trvale a cyklicky mechanickou práci bez přísunu energie\. __\(Perpetuum mobile prvního druhu\)__
 - __Změna vnitřní energie__ termodynamické soustavy se rovná součtu tepla dodaného soustavě a vykonané práce 	__∆U = Q \+ W__
 
-					∆U = změna vnitřní energie
+  ∆U = změna vnitřní energie
 
-					Q = teplo
+  Q = teplo
 
-					W = práce
+  W = práce
 
 - Jestliže __Q >0 a W >0, pak ∆U >0__
 	- __vnitřní energie roste__ – soustava teplo přijímá, okolí vykonává práci na soustavě

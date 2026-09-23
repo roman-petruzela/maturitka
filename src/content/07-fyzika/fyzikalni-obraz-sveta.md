@@ -43,15 +43,15 @@ Experiment
 
 Teorie
 
-	\- mechanické kmitání a vlnění
+\- mechanické kmitání a vlnění
 
-	\- elektřina a magnetismus
+\- elektřina a magnetismus
 
-	\- optika
+\- optika
 
-	\- atomová fyzika
+\- atomová fyzika
 
-	\- jaderná fyzika, astronomie a astrofyzika
+\- jaderná fyzika, astronomie a astrofyzika
 
 __Význam experimentu__
 
@@ -67,23 +67,23 @@ Teorie
 
 Při fyzikálním experimentu provádíme měření nejrůznějších fyzikálních veličin\. Při tomto měření se však dopouštíme chyb měření a fyzikální veličinu tak určíme jen s určitou přesností\.
 
-	Tyto chyby jsou způsobené:
+Tyto chyby jsou způsobené:
 
-		\- nedokonalostí našich smyslů
+\- nedokonalostí našich smyslů
 
-		\- nedokonalostí měřicích přístrojů a použitých měřidel
+\- nedokonalostí měřicích přístrojů a použitých měřidel
 
-		\- nedokonalostí měřicích metod
+\- nedokonalostí měřicích metod
 
-		\- vlivem kolísajících vnějších podmínek
+\- vlivem kolísajících vnějších podmínek
 
-	Chyby měření můžeme rozdělit na:
+Chyby měření můžeme rozdělit na:
 
-		\- systematické \(viz výše\)
+\- systematické \(viz výše\)
 
-		\- hrubé \(nepozornost, omyl nebo únava pozorovatele, …\)
+\- hrubé \(nepozornost, omyl nebo únava pozorovatele, …\)
 
-		\- náhodné \(kolísající rušivé vlivy, …\)
+\- náhodné \(kolísající rušivé vlivy, …\)
 
 __Fyzika a matematika__
 
@@ -97,11 +97,11 @@ Vztah F a ostatních přírodních věd je oboustranný – F něco poskytuje, n
 
 Bi	– rentgenová strukturní analýza \(DNA\)
 
-	– elektronové mikroskopy pro studium virů, bakterií, …
+– elektronové mikroskopy pro studium virů, bakterií, …
 
-	– radionuklidy \(pochopení procesů probíhajících v živých organismech\)
+– radionuklidy \(pochopení procesů probíhajících v živých organismech\)
 
-	– rentgen, laser, ultrazvuk, tomografie, …
+– rentgen, laser, ultrazvuk, tomografie, …
 
 Ch	– podpořila atomovou hypotézu v 17\. – 19\. století
 
@@ -126,7 +126,7 @@ __Současný FOS__
 
 Obraz světa podle současné fyziky vychází především z poznatků získaných v 19\. a 20\. století\. Fyzikové pochopili strukturu atomů i obecné zákony kvantové fyziky, které platí v mikrosvětě\. Rozdíl mezi částicemi a poli z klasické fyziky zanikl\. Každá částice má i vlnové vlastnosti a každé pole má svá kvanta\.
 
-	Všechny interakce částic je možné rozdělit do 4 skupin:
+Všechny interakce částic je možné rozdělit do 4 skupin:
 
 - \- gravitační \(Einsteinova OTR, Newtonův gravitační zákon, …\)
 - \- elektromagnetické \(Maxwellova teorie elektromagnetického pole, …\)
@@ -169,9 +169,9 @@ Kvantová teorie
 
 __Základní pojmy__ – mechanický – Hmota jako látka \(těleso\) s diskrétní strukturou; pohyb jako mechanické přemisťování těles; absolutní prostor a čas navzájem nezávislé; gravitační interakce; působení na dálku; éter; invariantnost Newtonových zákonů vzhledem ke Galileiho transformaci
 
-		\- elektrodynamický – Hmota jako spojitě vyplňující prostor; materiálnost pole; spojitost hmoty a pohybu; elektromagnetický pohyb \(vlnění\); relativnost prostoru a času; elektromagnetická interakce; působení nablízko; invariantnost fyzikálních zákonů vzhledem k Lorentzově transformaci
+\- elektrodynamický – Hmota jako spojitě vyplňující prostor; materiálnost pole; spojitost hmoty a pohybu; elektromagnetický pohyb \(vlnění\); relativnost prostoru a času; elektromagnetická interakce; působení nablízko; invariantnost fyzikálních zákonů vzhledem k Lorentzově transformaci
 
-		\- kvantový – Hmota jako jednota látky a pole \(jednota diskrétnosti a spojitosti – kvanta\); fyzikální pole jako množina kvant; pohyb částic popsaný vlnovou rovnicí; čtyři základní interakce; výměnný charakter interakce; vzájemná přeměnitelnost druhů hmoty; čtyřrozměrná symetrie času a prostoru
+\- kvantový – Hmota jako jednota látky a pole \(jednota diskrétnosti a spojitosti – kvanta\); fyzikální pole jako množina kvant; pohyb částic popsaný vlnovou rovnicí; čtyři základní interakce; výměnný charakter interakce; vzájemná přeměnitelnost druhů hmoty; čtyřrozměrná symetrie času a prostoru
 
 __Hl\. principy__ – mechanický – Galileův princip relativity, Newtonovy zákony, Princip působení na dálku
 

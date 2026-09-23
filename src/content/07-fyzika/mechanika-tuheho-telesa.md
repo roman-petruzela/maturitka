@@ -32,9 +32,9 @@ Moment síly vzhledem k ose
 - __Označení__: M((obrázek vynechán))
 - __Jednotka__: N\.m \(newton metr\)
 
-	   __M__ = __F__ x __r__     F…velikost působící síly
+  __M__ = __F__ x __r__     F…velikost působící síly
 
-		     	   r…vzdálenost r, tj\. rameno síly
+  r…vzdálenost r, tj\. rameno síly
 
 	= vektorový součin
 
@@ -61,7 +61,7 @@ __Skládání dvou sil se společným působištěm__
 
 ((obrázek vynechán))((obrázek vynechán))
 
-                     	((obrázek vynechán))
+((obrázek vynechán))
 
 ((obrázek vynechán))__Skládání více sil se společným působištěm__
 
@@ -83,11 +83,11 @@ __Rozklad síly na dvě různoběžné složky__
 
 ((obrázek vynechán))
 
-__FG__ = __F1__ \+ __F2                                                                                  FG__ / 2 = __F1__sinα                                                                       __F1__ = __F2__
+__FG__ = __F1__ \+ __F2                                                                                  FG__ / 2 = **F1**sinα                                                                       __F1__ = __F2__
 
 ((obrázek vynechán))
 
-__F1__ = d2/d · __FG__                                                                                                        __F2__ = d1/d · __FG__                                                                                                               __F1__d1 = __F2__d2
+__F1__ = d2/d · __FG__                                                                                                        __F2__ = d1/d · __FG__                                                                                                               **F1**d1 = **F2**d2
 
 Dvojice sil
 
@@ -114,11 +114,11 @@ Podmínky rovnovážné polohy tuhého tělesa
 - Tuhé těleso je v rovnovážné poloze, jestliže se pohybový účinek všech sil působících na těleso navzájem ruší a těleso je v klidu\.
 - __Podmínka rovnováhy sil:__ Těleso je v rovnovážné poloze, je\-li výslednice všech sil působících na těleso nulová\.
 
-                        __F__ = __F1__ \+ __F2__ \+ … \+ __Fn__ = __0__
+  __F__ = __F1__ \+ __F2__ \+ … \+ __Fn__ = __0__
 
 - __Podmínka rovnováhy momentů sil:__ Těleso otáčivé kolem nehybné osy je v rovnovážné poloze, je\-li vzhledem k této ose výsledný moment všech sil působících na těleso nulový = __momentová věta__
 
-                        __M__ = __M1__ \+ __M2__ \+ … \+ __Mn__ = __0__
+  __M__ = __M1__ \+ __M2__ \+ … \+ __Mn__ = __0__
 
 Rovnovážné polohy tuhých těles
 

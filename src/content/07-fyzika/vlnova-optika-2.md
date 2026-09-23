@@ -16,19 +16,19 @@ Difrakce \(ohyb\) světla
 
 Ohyb světla na hraně
 
-	a\) v geometrické optice
+a\) v geometrické optice
 
-	\- na stínítku vzniká ostré rozraní mezi světlem a tmou
+\- na stínítku vzniká ostré rozraní mezi světlem a tmou
 
-	b\) ve vlnové optice
+b\) ve vlnové optice
 
-	\- při dopadu na okraj překážky se světlo šíří i za ni, do oblasti geometrického stínu
+\- při dopadu na okraj překážky se světlo šíří i za ni, do oblasti geometrického stínu
 
-	\- na stínítku uvidíme neostré rozhraní \(bílé a tmavé proužky\)
+\- na stínítku uvidíme neostré rozhraní \(bílé a tmavé proužky\)
 
-	\- každý bod světelného vlnění se stává zdrojem dalšího vlnění
+\- každý bod světelného vlnění se stává zdrojem dalšího vlnění
 
-	\- paprsky vycházející z jednotlivých bodů se skládají a vzniká mnohonásobná interference
+\- paprsky vycházející z jednotlivých bodů se skládají a vzniká mnohonásobná interference
 
 Ohybové jevy jsou výrazné, má\-li překážka malé rozměry
 
@@ -50,9 +50,9 @@ a\) na šířce štěrbiny \(užší štěrbina => výraznější ohyb\)
 
 b\) na vlnové délce světla \(frekvenci\): ↑ λ ~ ↑ ohyb
 
-	Např\.: ohyb s červenou barvou je výraznější než s fialovou
+Např\.: ohyb s červenou barvou je výraznější než s fialovou
 
-	Pozn\.: při osvětlení bílým světlem nulté maximum vidíme jako bílé, vedlejší vidíme v různých barvách \(maxima různých barev jsou na různých místech\)
+Pozn\.: při osvětlení bílým světlem nulté maximum vidíme jako bílé, vedlejší vidíme v různých barvách \(maxima různých barev jsou na různých místech\)
 
 Ohyb světla na optické mřížce
 
@@ -64,17 +64,17 @@ Ohyb světla na optické mřížce
 
 ((obrázek vynechán))
 
-	 je\-li b velmi malé => paprsky jsou rovnoběžné
+je\-li b velmi malé => paprsky jsou rovnoběžné
 
-	Δ s … dráhový rozdíl dvou paprsků
+Δ s … dráhový rozdíl dvou paprsků
 
-	Podmínka pro interferenční maxima:
+Podmínka pro interferenční maxima:
 
 Při zvětšení počtu štěrbin se interferenční maxima zužují a intenzita osvětlení v nich roste\.
 
-	Současně vznikají vedlejší maxima s malou intenzitou osvětlení\.
+Současně vznikají vedlejší maxima s malou intenzitou osvětlení\.
 
-               ((obrázek vynechán))
+((obrázek vynechán))
 
 b … vzdálenost štěrbin
 
@@ -84,27 +84,27 @@ k … řád interference
 
 λ … vlnová délka dopadajícího světla
 
-                ((obrázek vynechán))
+((obrázek vynechán))
 
 ((obrázek vynechán))
 
 *b\) ohyb světla na optické mřížce*
 
-	OPTICKÁ MŘÍŽKA = soustava složená z velkého počtu stejně širokých štěrbin, které jsou rovnoběžné a v malé vzdálenosti od sebe
+OPTICKÁ MŘÍŽKA = soustava složená z velkého počtu stejně širokých štěrbin, které jsou rovnoběžné a v malé vzdálenosti od sebe
 
-	Platí podmínka:
+Platí podmínka:
 
 ((obrázek vynechán))
 
-	b … mřížková konstanta \(perioda mřížky\)
+b … mřížková konstanta \(perioda mřížky\)
 
-	Při osvětlení mřížky monofrekvenčním světlem vznikají ostrá maxima\.
+Při osvětlení mřížky monofrekvenčním světlem vznikají ostrá maxima\.
 
-	Při dopadu bílého světla:
+Při dopadu bílého světla:
 
-		→ nulté maximum – bílé
+→ nulté maximum – bílé
 
-		→ maxima vyšších řádů – po stranách, rozloženy do spektra
+→ maxima vyšších řádů – po stranách, rozloženy do spektra
 
 Graf intenzity světla při ohybu na jedné štěrbině \(a\),
 
@@ -132,9 +132,9 @@ Polarizace světla
 
 = přeměna nepolarizovaného světla ve světlo lineárně polarizované
 
-	Lineárně polarizované světlo \(obr\. b\) – světelné vlnění, jehož vektor __E__ kmitá v jedné rovině, tzv\. KMITOVÉ ROVINĚ \(např\. displej mobilu\)
+Lineárně polarizované světlo \(obr\. b\) – světelné vlnění, jehož vektor __E__ kmitá v jedné rovině, tzv\. KMITOVÉ ROVINĚ \(např\. displej mobilu\)
 
-	____Nepolarizované světlo \(obr\. a\) – světelné vlnění, jehož vektor__ E __nekmitá v jediné rovině, ale nahodile se mění \(běžné zdroje světla – zářivka, Slunce, …\)
+__Nepolarizované světlo \(obr\. a\) – světelné vlnění, jehož vektor__ E nekmitá v jediné rovině, ale nahodile se mění \(běžné zdroje světla – zářivka, Slunce, …\)
 
 ((obrázek vynechán))
 
@@ -144,7 +144,7 @@ Polarizace světla
 - Polarizace je částečná a závisí na úhlu dopadu
 - Úplná polarizace nastává pouze při určitém úhlu dopadu
 
-		 – tzv\. Brewsterův úhel
+  – tzv\. Brewsterův úhel
 
 ((obrázek vynechán))
 
@@ -158,17 +158,17 @@ __Izotropní__ __prostředí__ – světlo se šíří ve všech směrech stejno
 
 __Anizotropní prostředí__
 
-	\- rychlost světla se v různých směrech liší \(krystaly některých látek\)
+\- rychlost světla se v různých směrech liší \(krystaly některých látek\)
 
-	\- při průchodu světla nastává dvojlom světla
+\- při průchodu světla nastává dvojlom světla
 
-		– paprsek se rozdělí na dva:
+– paprsek se rozdělí na dva:
 
-		→ *řádný paprsek* – řídí se zákonem lomu
+→ *řádný paprsek* – řídí se zákonem lomu
 
-		→ *mimořádný paprsek* – neřídí se zákonem lomu
+→ *mimořádný paprsek* – neřídí se zákonem lomu
 
-			Islandský vápenec
+Islandský vápenec
 
 ((obrázek vynechán))
 
@@ -195,7 +195,7 @@ __Anizotropní prostředí__
 
 - __8\. Zobrazovací LCD jednotky__ \(displej s tekutými krystaly\)
 
-__	__Tekuté krystaly \- látky, které mají vlastnost kapaliny, jsou v určitém teplotním rozmezí tekuté, ale na rozdíl od kapaliny mají uspořádanou strukturu molekul \(tekuté mýdlo\)
+	Tekuté krystaly \- látky, které mají vlastnost kapaliny, jsou v určitém teplotním rozmezí tekuté, ale na rozdíl od kapaliny mají uspořádanou strukturu molekul \(tekuté mýdlo\)
 
 	2 typy TK:
 

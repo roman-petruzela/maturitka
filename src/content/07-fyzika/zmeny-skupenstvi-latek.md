@@ -93,7 +93,7 @@ Měrné skupenské teplo sublimace
 
 - __Měrné skupenské teplo sublimace__ je teplo, které přijme __1 kilogram pevné__ látky při __sublimaci__
 
-				((obrázek vynechán))
+  ((obrázek vynechán))
 
 - __m__ – hmotnost, __Ls__  – skupenské teplo sublimace
 - __ls__ =\[J·kg\-1\], __Ls__=\[J\]
@@ -209,7 +209,7 @@ __Relativní vlhkost vzduchu__
 
 - Udává poměr mezi __okamžitým množstvím vodních par__ ve vzduchu a __množstvím par__, které by __měl__ vzduch o __stejném tlaku__ a __teplotě__ při plném __nasycení__\. Udává se v procentech __\(%\)__
 
-         ((obrázek vynechán))         ((obrázek vynechán))           ((obrázek vynechán))
+  ((obrázek vynechán))         ((obrázek vynechán))           ((obrázek vynechán))
 
 __Φn__ – absolutní vlhkost vzduchu, __m__ – hmotnost vodní páry, která je ve vzduchu obsažena,
 

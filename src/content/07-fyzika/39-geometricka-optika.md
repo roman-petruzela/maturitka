@@ -34,7 +34,7 @@ ZOBRAZENÍ KULOVÝM ZRCADLEM
 
 1. Rovnoběžný s opt\. osou \(odráží se od ohniska\)
 2. Procházející ohniskem \(rovnoběžný s osou\)
-3. __((obrázek vynechán))__Jdoucí středem opt\. plochy \(odráží se do opačného směru\)
+3. ((obrázek vynechán))Jdoucí středem opt\. plochy \(odráží se do opačného směru\)
 
 	__Zobrazovací rovnice kulového zrcadla__
 

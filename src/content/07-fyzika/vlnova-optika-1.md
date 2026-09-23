@@ -11,7 +11,7 @@ Světlo jako elektromagnetické vlnění
 
 ((obrázek vynechán))
 
-	kde __*f*__ je __frekvence světla__\. Jako světlo se označuje elektromagnetického vlnění, na které je citlivý lidský zrakový orgán – oko: Fyziologický vjem zvaný vidění vyvolává elektromagnetické vlnění o vlnových délkách 390 nm až 790 nm\.
+kde __*f*__ je __frekvence světla__\. Jako světlo se označuje elektromagnetického vlnění, na které je citlivý lidský zrakový orgán – oko: Fyziologický vjem zvaný vidění vyvolává elektromagnetické vlnění o vlnových délkách 390 nm až 790 nm\.
 
 ((obrázek vynechán))Disperze světla
 
@@ -20,7 +20,7 @@ Světlo jako elektromagnetické vlnění
 
 ((obrázek vynechán))
 
-	projevuje se disperze světla různými hodnotami indexu lomu optického prostředí pro světla různých frekvencí: __Index lomu optického prostředí se při normální disperzi s rostoucí frekvencí zvětšuje\.__
+projevuje se disperze světla různými hodnotami indexu lomu optického prostředí pro světla různých frekvencí: __Index lomu optického prostředí se při normální disperzi s rostoucí frekvencí zvětšuje\.__
 
 Přechod z prostředí opticky řidšího do prostředí opticky hustšího\.
 
@@ -59,7 +59,7 @@ Youngův pokus
 
 ((obrázek vynechán))
 
-	2\. Tmavý proužek odpovídá __interferenčnímu minimu__ – v místech, v nichž mají vlnění fázi opačnou \(viz obrázek\)\. Platí podmínka:
+2\. Tmavý proužek odpovídá __interferenčnímu minimu__ – v místech, v nichž mají vlnění fázi opačnou \(viz obrázek\)\. Platí podmínka:
 
 ((obrázek vynechán))
 
@@ -88,7 +88,7 @@ Praktické využití interference
 - Na obr\. 3a je znázorněna situace pro vznik interferenčních minim v odraženém světle\.
 - V případě vzniku interferenčních maxim v odraženém světle, je nutno si pomoci stavem vlnění nikoliv v čase t0 dopadu vlnění na dolní rozhraní tenké vrstvy, ale stavem v čase
 
-                             ((obrázek vynechán))
+  ((obrázek vynechán))
 
 	\(kde *T* je perioda vlnění\), abychom mohli zkonstruovat odraženou vlnu \(viz obr\. 3b\)\.
 
@@ -96,23 +96,23 @@ Praktické využití interference
 
 	tedy dráhový rozdíl vln zvětší o     , kde λ je vlnová délka uvažovaného vlnění\.
 
-                                                ((obrázek vynechán))
+  ((obrázek vynechán))
 
 Podmínky interference na tenké vrstvě
 
 - Podmínky pro interferenční maximum:
 
-      ((obrázek vynechán))                 ((obrázek vynechán))                   ((obrázek vynechán))
+  ((obrázek vynechán))                 ((obrázek vynechán))                   ((obrázek vynechán))
 
 - Podmínky pro interferenční minimum:
 
 ((obrázek vynechán))         ((obrázek vynechán))                 ((obrázek vynechán))
 
-	n… index lomu tenké vrstvy
+n… index lomu tenké vrstvy
 
-	d… šířka vrstvy
+d… šířka vrstvy
 
-	λ… vlnová délka dopadajícího světla
+λ… vlnová délka dopadajícího světla
 
 Newtonova skla
 

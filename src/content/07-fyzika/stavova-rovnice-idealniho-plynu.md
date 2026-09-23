@@ -29,7 +29,7 @@ Rozdělení molekul ideálního plynu podle rychlosti
 
 ∆N/N … střední relativní četnost molekul
 
-    __2\.    Histogramem__
+__2\.    Histogramem__
 
 __((obrázek vynechán))__
 
@@ -117,10 +117,9 @@ Izotermický děj s ideálním plynem
 - Děj, při kterém je __teplota plynu stálá__, se nazývá __izotermický děj__, ze stavové rovnice ideálního plynu vyplývá:
 	- Při izotermickém ději s ideálním plynem __stálé hmotnosti__ je součin __tlaku a objemu plynu stálý__ \(Boylův\-Mariottův zákon\):
 
-			*pV = konst\.,     resp\. p1V1 = p2V2*
+      *pV = konst\.,     resp\. p1V1 = p2V2*
 
--
-	- __Neboli__: Tlak ideálního plynu při izotermickém ději je nepřímo úměrný jeho objemu\.
+- __Neboli__: Tlak ideálního plynu při izotermickém ději je nepřímo úměrný jeho objemu\.
 - Graf vyjadřující tlak plynu __stálé hmotnosti__ jako funkci jeho objemu při izotermickém ději se nazývá __izoterma__
 - Při izotermickém ději je __ΔU = 0__ a z __prvního termodynamického zákona__ vyplývá:
 	- ((obrázek vynechán))Teplo __QT__ přijaté ideálním plynem při __izotermickém ději__ je rovno práci __W´__ kterou plyn při tomto ději vykoná: __QT = W´__
@@ -143,7 +142,7 @@ Izobarický děj s ideálním plynem
 - Děj, při kterém je __tlak plynu stálý__, se nazývá __izobarický děj__, ze stavové rovnice pro ideální plyn vyplývá:
 	- Při izobarickém ději s ideálním plynem __stálé hmotnosti__ je objem plynu přímo úměrný jeho termodynamické teplotě \(zákon Gay\-Lussacův\):
 
-			((obrázek vynechán))
+      ((obrázek vynechán))
 
 - ((obrázek vynechán))Graf vyjadřující objem plynu __stálé hmotnosti__ jako funkci jeho termodynamické teploty, resp\. tlak plynu jako funkci jeho objemu, při __izobarickém ději__ se nazývá __izobara__
 - __Mění se vnitřní energie__ __plynu__ a plyn __koná práci__, tedy dostáváme z __prvního termodynamického zákona:__

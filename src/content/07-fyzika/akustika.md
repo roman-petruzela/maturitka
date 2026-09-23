@@ -46,7 +46,7 @@ __Rychlost zvuku__
 
 - Ze zdroje se zvuk šíří jen pružným __látkovým prostředím__ libovolného skupenství\. Nejčastěji je to __vzduch__, v němž se zvuk šíří jako __podélné postupné vlnění__\. Nejdůležitější charakteristikou prostředí z hlediska šíření zvuku je __rychlost zvuku__ v daném prostředí\. Rychlost zvuku ve vzduchu závisí na __složení vzduchu__ \(nečistoty, vlhkost\), ale nejvíce na jeho __teplotě__\. Ve vzduchu o __teplotě t__ v Celsiových stupních má zvuk rychlost:
 
-                               	\[m\.s\-1\]((obrázek vynechán))
+  \[m\.s\-1\]((obrázek vynechán))
 
 - Rychlost zvuku __není__ ovlivněna __tlakem vzduchu__ a je stejná pro zvuková vlnění všech __frekvencí__\. V kapalinách a pevných látkách je rychlost zvuku větší než ve vzduchu \(popř\. jiných plynech\)\.
 	- vzduch \(13,4°C\) 340 m/s
@@ -55,7 +55,7 @@ __Rychlost zvuku__
 	- sklo 5200 m/s
 - Šíření zvuku je ovlivněno i překážkami, na které vlnění dopadá, projevuje se to __odrazem__ či __ohybem zvukového vlnění__
 - Zvláštním případem odrazu zvuku od rozlehlé překážky \(skalní stěna, velká budova\) je __ozvěna__
-- Je to důsledkem vlastnosti zvuku, kdy dva po sobě jdoucí zvuky můžeme rozlišit pokud mezi nimi uběhne doba alespoň __0,1 s__, což je přibližně doba, kterou potřebujeme na v__yslovení jedné slabiky__, zvuk za tu dobu urazí přibližně __34 m__ \(17 m k překážce a 17 m zpět\)\. Při vzdálenosti 17 m od překážky tedy vzniká __jednoslabičná ozvěna\.__
+- Je to důsledkem vlastnosti zvuku, kdy dva po sobě jdoucí zvuky můžeme rozlišit pokud mezi nimi uběhne doba alespoň __0,1 s__, což je přibližně doba, kterou potřebujeme na v**yslovení jedné slabiky**, zvuk za tu dobu urazí přibližně __34 m__ \(17 m k překážce a 17 m zpět\)\. Při vzdálenosti 17 m od překážky tedy vzniká __jednoslabičná ozvěna\.__
 - Jestliže je překážka __blíže než 17 m__, zvuky již neodlišíme, částečně se překrývají a odražený zvuk splývá se zvukem původním, to vnímáme jako prodloužení trvání zvuku, tzv\. __dozvuk__\.
 
 Vlastnosti zvuku

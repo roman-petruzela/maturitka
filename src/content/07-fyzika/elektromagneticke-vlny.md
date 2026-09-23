@@ -91,7 +91,7 @@ Elektromagnetický dipól
 - Jednoduchý dipól se označuje jako __půlvlný dipól__ – délka je rovna __polovině vlnové délky__ elektromagnetického vlnění
 - __Největší část energie__ se vyzařuje ve směru kolmém k ose dipólu \(ve směru __c\)__
 - Ve směru osy se energie __nevyzařuje__
-- Elektromagnetický dipól se používá jako __anténa__ \(parabola\)__ __u vysílačů a přijímačů ve sdělovací technice
+- Elektromagnetický dipól se používá jako __anténa__ \(parabola\) u vysílačů a přijímačů ve sdělovací technice
 
 Elektromagnetické pole dipólu        ((obrázek vynechán))
 

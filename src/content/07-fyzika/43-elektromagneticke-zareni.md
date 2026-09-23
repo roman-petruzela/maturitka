@@ -52,9 +52,7 @@ Světlo
 
 - Okem zachytitelné elektromagnetické záření
 - Zdrojem jsou vysoce zahřátá tělesa
-	-
-		-
-			- Např\. Slunce, hvězdy, elektrický oblouk, speciální výbojky naplněné párami rtuti
+    - Např\. Slunce, hvězdy, elektrický oblouk, speciální výbojky naplněné párami rtuti
 - Je pohlcováno např\. draselným sklem či ozónosférou
 - Pro oko je škodlivé a neviditelné \(z toho důvodu se používají brýle s UV filtrem\)
 - Rozdělujeme na UVA \(dlouhovlnné\), UVB \(středněvlnné a UVC \(krátkovlnné\)
@@ -66,22 +64,22 @@ Rentgenové záření
 
 - Dělení 	– tvrdé \(oblast kratších vlnových délek\)
 
-			– měkké \(oblast delších vlnových délek\)
+  – měkké \(oblast delších vlnových délek\)
 
 - Objeveno německým fyzikem W\. C\. Röntgenem \(1895\)
 - Jako zdroj se v praxi používá Rentgenka
 
-		\- skládá se z katody, která emituje
+  \- skládá se z katody, která emituje
 
-              elektrony a anody z wolframu,
+  elektrony a anody z wolframu,
 
-              mezi nimiž je velký potenciálový
+  mezi nimiž je velký potenciálový
 
-              rozdíl \(případně i z rotoru, jedná\-li
+  rozdíl \(případně i z rotoru, jedná\-li
 
-              se o rentgenku s rotační anodou
+  se o rentgenku s rotační anodou
 
-              \(viz\. schéma\)
+  \(viz\. schéma\)
 
 ((obrázek vynechán))
 
@@ -89,17 +87,17 @@ Rentgenové záření
 
     – působí na fotografickou emulzi
 
-		    – ionizuje látky, kterými prochází
+  – ionizuje látky, kterými prochází
 
-		    – v látkách je specificky pohlcováno
+  – v látkách je specificky pohlcováno
 
 - Praktické využití 	\- rentgenová diagnostika
 
-					\- rentgenová strukturní analýza
+  \- rentgenová strukturní analýza
 
-					\- rentgenová spektroskopie
+  \- rentgenová spektroskopie
 
-					\- rentgenová astronomie
+  \- rentgenová astronomie
 
 ((obrázek vynechán))
 
@@ -108,30 +106,29 @@ Spektroskop
 - Používá se při spektrální analýze
 - Světlo rozkládá
 
-		– optický hranolem \(hranolový spektroskop\)
+  – optický hranolem \(hranolový spektroskop\)
 
-		– difrakční mřížkou \(mřížkový spektroskop\)			  Hranolový spektroskop z roku 1860
+  – difrakční mřížkou \(mřížkový spektroskop\)			  Hranolový spektroskop z roku 1860
 
 - Spektrální analýza
-	-
-		- Pomocí polohy čar ve spektru zkoumané látky určuje obsah chemických prvků\.
-		- Pomocí charakteristických pásů pásového spektra určuje přítomnost molekul ve zkoumané látce\.
-		- Na základě intenzity spektrálních čar lze určit množství prvku \(např\. ve slitině kovu\)\. Na tom je založena kvantitativní spektr\. analýza
+    - Pomocí polohy čar ve spektru zkoumané látky určuje obsah chemických prvků\.
+    - Pomocí charakteristických pásů pásového spektra určuje přítomnost molekul ve zkoumané látce\.
+    - Na základě intenzity spektrálních čar lze určit množství prvku \(např\. ve slitině kovu\)\. Na tom je založena kvantitativní spektr\. analýza
 
 Druhy spekter
 
 - Emisní – látka vyzařující určitou část elmag\. záření
 - Absorpční	 \- vzniká pohlcením světla některých vlnových délek při
 
-			    průchodu plynnou látkou o nižší teplotě
+  průchodu plynnou látkou o nižší teplotě
 
 - Čárová – spektra vyzařovaná atomy prvků
 - Pásová – vyzařují je molekuly
 - Spojitá spektra – obsahují určitý rozsah vlnových délek
 
-			       – jsou vyzařována rozžhavenými pevnými
+  – jsou vyzařována rozžhavenými pevnými
 
-				tělesy
+  tělesy
 
 ((obrázek vynechán))Příklady spekter
 
@@ -161,15 +158,15 @@ S rostoucí teplotou tělesa se vyzařování tepelného záření přesouvá ke
 
 Experiment: vlákno žárovky – při teplotě 900°C svítí červeně
 
-				        při teplotě  1100°C svítí oranžově
+při teplotě  1100°C svítí oranžově
 
-				        při teplotě  1300°C svítí žlutě
+při teplotě  1300°C svítí žlutě
 
 Energie elektromagnetického záření je vyzařována nebo pohlcována po kvantech energie:
 
-		E=h \. f	h=6,625 \. 10\-34 J\.s … Planckova konstanta
+E=h \. f	h=6,625 \. 10\-34 J\.s … Planckova konstanta
 
-				f … frekvence záření
+f … frekvence záření
 
 ((obrázek vynechán))
 
@@ -189,21 +186,21 @@ Záření černého tělesa
 
 - Při určité teplotě T vyzařuje černé těleso elektromagnetické vlnění různých vlnových délek, ale zároveň  __Me ~ σT4__ \(Stefanův\-Boltzmannův zákon\)
 
-			Me … celková intenzita tepelného záření černého tělesa
+  Me … celková intenzita tepelného záření černého tělesa
 
-			T … termodynamický teplota
+  T … termodynamický teplota
 
-			σ = 5,67 \. 10\-8 W\.m\-2\.K\-4 … Stefanova\-Boltzmannova konstanta
+  σ = 5,67 \. 10\-8 W\.m\-2\.K\-4 … Stefanova\-Boltzmannova konstanta
 
 Wienův posunovací zákon
 
 - Fyzikální zákon, který konstatuje, že v záření absolutně černého tělesa je maximální energie vyzařována na vlnové délce, která se s rostoucí termodynamickou teplotou snižuje:
 
-								  λmax  \- vlnová délka maxima vyzařování,
+  λmax  \- vlnová délka maxima vyzařování,
 
-*					   T*  \- termodynamická teplota tělesa
+*T* \- termodynamická teplota tělesa
 
-*					   b*  \- Wienova konstanta; b = 2,898 mm \. K
+*b* \- Wienova konstanta; b = 2,898 mm \. K
 
 ((obrázek vynechán))((obrázek vynechán))
 
@@ -238,10 +235,10 @@ Jemná mechanická práce, rýsování
 	- Označujeme jej __E__, jeho jednotkou je lux __\[lx\]__
 	- Je definováno vztahem
 
-						ΔΦ – část světelného toku
+      ΔΦ – část světelného toku
 
-							 ΔS – plocha, na kterou světlo dopadá
+      ΔS – plocha, na kterou světlo dopadá
 
-							 ΔΩ – velikost prostorového úhlu
+      ΔΩ – velikost prostorového úhlu
 
-               ((obrázek vynechán))    ((obrázek vynechán))   ((obrázek vynechán))
+      ((obrázek vynechán))    ((obrázek vynechán))   ((obrázek vynechán))

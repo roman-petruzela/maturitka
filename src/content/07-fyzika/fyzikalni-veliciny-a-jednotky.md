@@ -24,23 +24,23 @@ __Vektorové veličiny__
 
 Pozn: Při počítání s vektorovými fyzikálními veličinami používáme
 
-          matematická pravidla \(Pythagorova věta, \.\.\.\)
+matematická pravidla \(Pythagorova věta, \.\.\.\)
 
 Jednotka fyzikální veličiny
 
 - Hodnotu veličiny – určujeme srovnáváním s hodnotou veličiny
 
-                               téhož druhu, kterou volíme za jednotku\.
+  téhož druhu, kterou volíme za jednotku\.
 
 - Číselná hodnota – kolikrát je hodnota měřené veličiny větší
 
-                               než zvolená jednotka
+  než zvolená jednotka
 
 - Hodnotu fyzikální veličiny A vyjadřujeme:
 
    	 \- číselnou hodnotou\{A\}		A = \{A\}\[A\]
 
-    	 \- jednotkou \[A\]			l = 41 mm
+  \- jednotkou \[A\]			l = 41 mm
 
 Ke vzájemnému srovnávání veličin byly vytvořeny zákonné jednotky vycházející z Mezinárodní soustavy jednotek \(SI\)\.
 
@@ -69,7 +69,7 @@ __C\) Odvozené jednotky__
 
 Př\.:   v = rychlost    s = dráha     t = čas((obrázek vynechán))((obrázek vynechán))
 
-           	dosazení jednotek:
+dosazení jednotek:
 
 Některé jednotky mají vlastní názvy a značky:
 
@@ -98,7 +98,7 @@ __E\) Vedlejší jednotky__
 - Čas – minuta \(min\), hodina \(h\), den \(d\), rok \(r\)
 - Objem – litr \(l\)
 - Hmotnost – tuna \(t\),
--                        atomová hmotnostní jednotka \(u\)
+          -                        atomová hmotnostní jednotka \(u\)
 - Energie – elektronvolt \(eV\)
 
 SI soustava
@@ -151,7 +151,7 @@ Součet vektorů: __a__ \+ __b__ = __c__			Rozdíl vektorů: __a__ \- __b__ = __
 
 Skalární součin dvou vektorů:
 
-               ((obrázek vynechán))        ((obrázek vynechán))
+((obrázek vynechán))        ((obrázek vynechán))
 
 - výsledkem je skalár
 

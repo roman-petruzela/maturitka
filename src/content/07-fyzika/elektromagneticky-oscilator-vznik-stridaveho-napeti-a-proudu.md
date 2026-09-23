@@ -69,7 +69,7 @@ Thomsonův vztah
 Tlumené kmitání
 
 - Největší hodnoty tj\. __amplitudy__ napětí a proudu se __postupně zmenšují__\. Příčinou je __odpor R__ oscilačního obvodu\.
-- __Energie__ elektrického a magnetického pole se __postupně přeměňuje__ ve v__nitřní energii__ vodiče obvodu\.
+- __Energie__ elektrického a magnetického pole se __postupně přeměňuje__ ve v**nitřní energii** vodiče obvodu\.
 - Elektromagnetické kmitání oscilačního obvodu je __tlumené__
 
 ((obrázek vynechán))

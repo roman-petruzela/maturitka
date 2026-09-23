@@ -58,19 +58,19 @@ Harmonický kmitavý pohyb
 
 ((obrázek vynechán))	__y = ym ∙ sinωt          y = r ∙ sinωt__
 
-	__y = r ∙ sinφ	         x = r ∙ cosωt__
+__y = r ∙ sinφ	         x = r ∙ cosωt__
 
-	__y__…okamžitá výchylka v čase t __\[m\]__
+__y__…okamžitá výchylka v čase t __\[m\]__
 
-	__ym__…maximální výchylka \(amplituda\) __\[m\]__
+__ym__…maximální výchylka \(amplituda\) __\[m\]__
 
-	__ω__…úhlová rychlost \(frekvence\) __\[rad∙s\-1\]__
+__ω__…úhlová rychlost \(frekvence\) __\[rad∙s\-1\]__
 
  __ω = 2πf__
 
-	__t__…čas __\[s\]__
+__t__…čas __\[s\]__
 
-	__φ = ωt__ … fáze kmitavého pohybu __\[rad\]__
+__φ = ωt__ … fáze kmitavého pohybu __\[rad\]__
 
 Kinematika harmonického pohybu
 
@@ -83,14 +83,14 @@ Fáze kmitavého pohybu
 - Dosud jen harmonické kmitání, při němž bylo kmitající těleso v __počátečním okamžiku__ v __rovnovážné poloze__
 - V praxi potřebujeme zapsat i rovnici harmonického kmitání v případě, že těleso je v __počátečním okamžiku__ v __jiné poloze__, popř\. chceme popsat kmitání dvou oscilátorů, které nekmitají synchronně
 
-           			 __φ = ωt__
+  __φ = ωt__
 
 - ((obrázek vynechán))Veličina __φ0__ je __počáteční fáze__ kmitavého pohybu\. Určuje výchylku, popř\. jinou veličinu harm\. kmitání v __počátečním okamžiku t0__\. Obvykle vyjadřuje fázový rozdíl těchto veličin\.
 - Pro __okamžitou výchylku__ platí vztah:
 
-		__y = ym ∙ sin\(ωt \+ φ0\)__
+  __y = ym ∙ sin\(ωt \+ φ0\)__
 
-		__φ0 = ωt0__
+  __φ0 = ωt0__
 
 ((obrázek vynechán))
 
@@ -113,9 +113,9 @@ Dynamika kmitavého pohybu
 - Zrychlení: __a = \- ω2y__           __2 NPZ: F = ma__
 - __Síla__, která způsobuje harm\. kmitání:
 
-			__F = \- myω2__   \- pohybová rce mechanického oscilátoru
+  __F = \- myω2__   \- pohybová rce mechanického oscilátoru
 
-			__F = \- ky__        \- pro pružná tělesa
+  __F = \- ky__        \- pro pružná tělesa
 
 - __k__ – tuhost pružiny \(o jakou délku se pružina prodlouží, pokud na ni působí vnější síla\)
 - \[k\] = __Nm\-1__      př\. k = 10Nm\-1  – při působení 10N se pružina prodlouží o 1m
@@ -135,7 +135,7 @@ F = \- myω2             →   \- ky = \- myω2	→  __ω2 = k/m__
 
 - Z toho plyne: Úhlová frekvence volně kmitajícího mechanického oscilátoru závisí jen na jeho parametrech, tj\. na __hmotnosti m__ tělesa a __tuhosti k pružiny__\. Takové kmitání nazýváme __vlastní kmitání__ oscilátoru a jeho __vlastí úhlovou frekvenci__ značíme ω0:
 
-				= perioda vlastního kmitání	= frekvence vlastního kmitání
+  = perioda vlastního kmitání	= frekvence vlastního kmitání
 
 Fázorový diagram
 
