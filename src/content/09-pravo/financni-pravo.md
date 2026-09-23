@@ -73,10 +73,10 @@ __FINANČNÍ INSTITUCE__
 Finanční instituce jsou soukromoprávní subjekty podnikající ve finančním sektoru\. Všechny podléhají státní regulaci, dozoru a finanční kontrole\.
 
 - Banky – specializované subjekty zprostředkovávající toky finančních prostředků mezi ostatní subjekty, PO – akciová společnost, zákl\. kapitál min 500 mil\. Kč, bankovní licence ČNB
-- Burzy__ __– komoditní \(zbožové, za dohledu kontrolních orgánů\) a finanční burzy \(obchod s investičními nástroji\)
-- Obchodníci s cennými papíry__ __\(banky\) – soukromé subjekty zprostředkovávající ostatním subjektům obchodování s cennými papíry, PO – akciová společnost, na základě povolení ČNB
-- Fondy kolektivního investování__ __– subjekty jim svěřují své dočasně volné finanční prostředky za účelem jejich zhodnocení vhodným investováním
-- Penzijní fondy__ __– umožňují FO v produktivním věku vytvoření doplňkového zdroje příjmů pro budoucnost \(k důchodu\)
+- Burzy – komoditní \(zbožové, za dohledu kontrolních orgánů\) a finanční burzy \(obchod s investičními nástroji\)
+- Obchodníci s cennými papíry \(banky\) – soukromé subjekty zprostředkovávající ostatním subjektům obchodování s cennými papíry, PO – akciová společnost, na základě povolení ČNB
+- Fondy kolektivního investování – subjekty jim svěřují své dočasně volné finanční prostředky za účelem jejich zhodnocení vhodným investováním
+- Penzijní fondy – umožňují FO v produktivním věku vytvoření doplňkového zdroje příjmů pro budoucnost \(k důchodu\)
 - Pojišťovny – kryjí nahodilé riziko v případě pojistných událostí
 
 __ROZPOČTOVÉ PRÁVO__

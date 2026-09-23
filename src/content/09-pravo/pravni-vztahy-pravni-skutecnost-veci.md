@@ -55,9 +55,9 @@ Právní jednání musí svým obsahem i účelem odpovídat dobrým mravům i z
 
 Právní jednání musí obsahovat dvě základní složky:
 
-	vůle \(vnitřně\)
+vůle \(vnitřně\)
 
-	projev vůle \(navenek\)
+projev vůle \(navenek\)
 
 Právní relevanci mají jen objektivně vnímatelné skutečnosti, kdy neprojevená vůle nemá žádný právní význam\.
 
@@ -145,27 +145,27 @@ __ČAS__ – lhůty \(prekluzivní, promlčecí\) – učebnice 31, § 600 OZ
 
 __Promlčecí lhůta__
 
-         __20\.1\. 2021 zapůjčila 500 Kč__
+__20\.1\. 2021 zapůjčila 500 Kč__
 
-         __22\. 1\. 2021 vrácení zápůjčky__
+__22\. 1\. 2021 vrácení zápůjčky__
 
-          __23\. 1\. 2021 začíná běžet promlčecí lhůta \(§ 609 a násl\. OZ\)__
+__23\. 1\. 2021 začíná běžet promlčecí lhůta \(§ 609 a násl\. OZ\)__
 
-          __22\. 1\. 2024 konec promlčecí lhůty__
+__22\. 1\. 2024 konec promlčecí lhůty__
 
-           __právo je oslabeno, ale trvá__
+__právo je oslabeno, ale trvá__
 
 __Prekluzivní lhůta__
 
-          __22\. 1 2021 zakoupili boty__
+__22\. 1 2021 zakoupili boty__
 
-         __23\.1\. 2021 počátek běhu prekluzivní lhůty__
+__23\.1\. 2021 počátek běhu prekluzivní lhůty__
 
-__              __Záruční lhůta 24 měsíců
+Záruční lhůta 24 měsíců
 
-         __22\. 1\. 2023 konec prekluzivní lhůty záruční lhůty__
+__22\. 1\. 2023 konec prekluzivní lhůty záruční lhůty__
 
-           __Po skončení prekluzivní lhůty právo ZANIKÁ__
+__Po skončení prekluzivní lhůty právo ZANIKÁ__
 
 __Počítání času__
 

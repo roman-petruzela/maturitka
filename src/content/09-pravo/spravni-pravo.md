@@ -23,49 +23,49 @@ __VNITŘNÍ ČLENĚNÍ SPRÁVNÍHO PRÁVA__
 - Správní právo procesní
 - Správní právo trestné
 
-SPRÁVNÍ PRÁVO ORGANIZAČNÍ__ __
+SPRÁVNÍ PRÁVO ORGANIZAČNÍ 
 
 Zakotvuje základní zásady organizace veřejné správy, konkretizuje postavení, organizaci, pravomoc a působnost subjektů veřejné správy\.
 
-Předpisy:__ __Zákon o postavení ministerstev a ostatních ústředních orgánů státní správy
+Předpisy: Zákon o postavení ministerstev a ostatních ústředních orgánů státní správy
 
-                  Zákon o krajích
+Zákon o krajích
 
-                  Zákon o obcích
+Zákon o obcích
 
-SPRÁVNÍ PRÁVO HMOTNÉ__ __
+SPRÁVNÍ PRÁVO HMOTNÉ 
 
 Představuje hmotně právní úpravu jednotlivých oblastní a úseků veřejné správy\.
 
-Předpisy:__ __Školský zákon
+Předpisy: Školský zákon
 
-                   Zákon o péči zdraví lidu
+Zákon o péči zdraví lidu
 
-                   Stavební zákon
+Stavební zákon
 
-                   Živnostenský zákon
+Živnostenský zákon
 
-                   Zákon o zaměstnanosti
+Zákon o zaměstnanosti
 
-SPRÁVNÍ PRÁVO PROCESNÍ__ __
+SPRÁVNÍ PRÁVO PROCESNÍ 
 
 Upravuje procesně právní postup při rozhodování o právech, právem chráněných zájmech a povinnostech účastníků správního řízení, konaného před orgány veřejné správy\.
 
-Předpisy:__ __Správní řád
+Předpisy: Správní řád
 
-                  Stavební zákon \(pro tzv\. stavební řízení\)
+Stavební zákon \(pro tzv\. stavební řízení\)
 
-                  Zákon o správě daní a poplatků
+Zákon o správě daní a poplatků
 
-SPRÁVNÍ PRÁVO TRESTNÍ__ __
+SPRÁVNÍ PRÁVO TRESTNÍ 
 
 Zahrnuje právní úpravu základů a následků odpovědnosti za správní delikty, s uplatněním správně trestní odpovědnosti\.
 
-Předpisy:__ __Zákon o přestupcích
+Předpisy: Zákon o přestupcích
 
-                  Stavební zákon \(správní delikty na tomto úseku\)
+Stavební zákon \(správní delikty na tomto úseku\)
 
-                  Živnostenský zákon \(správní delikty na tomto úseku\)
+Živnostenský zákon \(správní delikty na tomto úseku\)
 
 __SPRÁVNÍ PRÁVO SUBJEKTIVNÍ A OBJEKTIVNÍ__
 
@@ -108,7 +108,7 @@ Orgány příslušné k vyřizování přestupků jsou
 
 __NORMATIVNÍ A INDIVIDUÁLNÍ SPRÁVNÍ AKTY__
 
-NORMATIVNÍMI SPRÁVNÍMI AKTY__ __jsou akty vydávané orgánem veřejné správy na základě zákonného zmocnění, jsou v něm obsažena obecně závazná pravidla zákonného chování\.
+NORMATIVNÍMI SPRÁVNÍMI AKTY jsou akty vydávané orgánem veřejné správy na základě zákonného zmocnění, jsou v něm obsažena obecně závazná pravidla zákonného chování\.
 
 - Adresátem je každý, koho se toto pravidlo týká, tedy __předem neurčený kruh osob\.__
 

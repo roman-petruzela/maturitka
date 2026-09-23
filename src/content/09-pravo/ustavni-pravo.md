@@ -91,7 +91,7 @@ Veškerou státní moc vykonává lid prostřednictvím moci zákonodárné, vý
 
 Parlament tvoří Poslanecká sněmovna a Senát\. PS má 200 členů, od 21 let, 4 roky\. Senát má 81 členů, 1/3 každé dva roky na 6 let, od 40 let\.
 
-1. HLAVA TŘETÍ __–__ moc výkonná__ __
+1. HLAVA TŘETÍ __–__ moc výkonná 
 
 Prezident je hlavou státu a je volen přímou volbou na 5 let\. Vrchním velitel ozbrojených sil\.
 

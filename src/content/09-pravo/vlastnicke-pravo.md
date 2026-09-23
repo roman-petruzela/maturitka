@@ -36,11 +36,11 @@ __OBSAH VLASTNICKÉHO PRÁVA__ jsou jednotlivá oprávnění vlastníka:
 
 - *vlastník své právo může vykonávat jak tím, že věc užívá,* *tak i tím, že ji neužívá*
 
-1. Oprávnění věc__ __používat
+1. Oprávnění věc používat
 
 - *tedy brát z ní plody a jiné užitky \(výnosy z pole, plody stromů, mláďata zvířat, ale také úroky z vkladů\)*
 
-1. Oprávnění s věcí__ __nakládat
+1. Oprávnění s věcí nakládat
 
 - *rozhodovat o jejím osudu, půjčit ji, odkázat ji závětí, zcizit prodejem, darováním nebo výměnou za jinou věc, opuštění věci*
 

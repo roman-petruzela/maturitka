@@ -49,10 +49,10 @@ Příklady: rodinné, obchodní, pracovní, občanské právo hmotné\.\.\.
 __Právo veřejné:__ Právo, kde stát leží nad oba subjekty vyjednávání \(stát je nad fyzickou a právnickou osobou\)\.
 Příklady: ústavní, trestní, správní, finanční, právo soc\. zabezpečení…
 
-                 __Veřejné právo                                               Soukromé právo__
+__Veřejné právo                                               Soukromé právo__
 
-                         __stát__
+__stát__
 
-            __právnická = fyzická                                    stát = právnická = fyzická__
+__právnická = fyzická                                    stát = právnická = fyzická__
 
 __Novela:__ Aktualizace dané právní normy\.

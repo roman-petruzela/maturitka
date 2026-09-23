@@ -88,9 +88,9 @@ __OCHRANA OSOBNÍCH ÚDAJŮ__
 
 O právní ochraně osobních údajů se začalo uvažovat v 70\. letech 20\. století\. Iniciativu převzala Rada Evropy jako mezinárodní organizace působící v oblasti ochrany lidských práv\. V ČR byl vydán zákon o ochraně osobních údajů\.
 
-__SPRÁVCE – s__ubjekt, který provádí zpracování osobních údajů, z vlastního rozhodnutí nebo proto, že je
+**SPRÁVCE – s**ubjekt, který provádí zpracování osobních údajů, z vlastního rozhodnutí nebo proto, že je
 
-                     to jeho zákonnou povinností
+to jeho zákonnou povinností
 
 __ZPRACOVATEL –__ subjekt, který provádí zpracování osobních údajů, na základě pověření správcem
 

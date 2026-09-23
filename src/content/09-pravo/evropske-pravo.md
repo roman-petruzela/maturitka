@@ -39,9 +39,9 @@ __Přehled důležitých dat:__
 
 1958 – Římské smlouvy:
 
- 	Smlouva o založení Evropského hospodářského společenství
+Smlouva o založení Evropského hospodářského společenství
 
- 	Smlouva o založení Evropského společenství pro atomovou energii \(EURATOM\)
+Smlouva o založení Evropského společenství pro atomovou energii \(EURATOM\)
 
 1987 – Jednotný evropský pakt: Jednotný trh
 

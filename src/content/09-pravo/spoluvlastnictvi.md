@@ -25,7 +25,7 @@ SPOLUVLASTNICTVÍ znamená, že více vlastníků vlastní jednu věc \(právo k
 
 a\) __bytové__ \(spoluvlastnictví bytu\),
 
-b__\) přídatné__ \(chatová osada, která má jednu příjezdovou cestu; té jsou spoluvlastníci všichni, aby se dostali ke své chatě, studna\),
+b\) přídatné \(chatová osada, která má jednu příjezdovou cestu; té jsou spoluvlastníci všichni, aby se dostali ke své chatě, studna\),
 
 c\) __podílové__ je základním spoluvlastnictvím; podíl je míra, jakou se spoluvlastníci podílí na právech a povinnostech ke stejné věci\. Podíl vyjadřujeme v procentech či zlomkem\.
 

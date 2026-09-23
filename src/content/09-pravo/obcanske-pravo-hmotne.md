@@ -11,7 +11,7 @@ Souhrn právních norem, které upravují obecná soukromá práva a povinnosti 
 
 Základním pramenem občanského práva hmotného je občanský zákoník\.
 
-*„co není zákonem výslovně zakázáno, je dovoleno“ *– vytváří právem neregulovaný volný prostor pro realizaci právních vztahů\.
+„co není zákonem výslovně zakázáno, je dovoleno“ – vytváří právem neregulovaný volný prostor pro realizaci právních vztahů\.
 
 Občanské právo hmotné je potřeba rozlišit od občanského práva procesního, které řeší naopak to, jak mají postupovat účastníci u soudu, pokud jejich práva byla ohrožena nebo porušena\.
 
@@ -21,33 +21,33 @@ __Systematika občanského zákoníku:__
 
 1. Obecná část                                        			Předmět úpravy a její základní zásady
 
-                                                              			Osoby
+   Osoby
 
-                                                               			Zastoupení
+   Zastoupení
 
-                                                               			Věci a jejich rozdělení
+   Věci a jejich rozdělení
 
-                                                               			Právní skutečnosti
+   Právní skutečnosti
 
 1. Rodinné právo                                     			Manželství
 
-                                                               			Příbuzenství a švagrovství
+   Příbuzenství a švagrovství
 
-                                                               			Poručenství a jiné formy péče o dítě
+   Poručenství a jiné formy péče o dítě
 
 1. Absolutní majetková práva               			Všeobecná ustanovení
 
-                                                               			Věcná práva
+   Věcná práva
 
-                                                               			Dědické právo
+   Dědické právo
 
 1. Relativní majetková práva                			Všeobecná ustanovení o závazcích
 
-                                                               			Závazky z právních jednání
+   Závazky z právních jednání
 
-                                                               			Závazky deliktů
+   Závazky deliktů
 
-                                                               			Závazky z jiných právních důvodů
+   Závazky z jiných právních důvodů
 
 1. Ustanovení společná, přechodná a závěrečná
 
@@ -66,7 +66,7 @@ __Ochrana soukromých práv__
 
 Každý, kdo se cítí ve svém právu zkrácen, může se domáhat ochrany u orgánů vykonávajících veřejnou moc \(ombudsman, soud\)
 
-Svépomoc__ __– Každý si může přiměřeným způsobem pomoci ke svému právu sám, je\-li ohroženo nebo je zřejmé, že by zásah veřejné moci přišel pozdě \(nutná obrana, krajní nouze\)
+Svépomoc – Každý si může přiměřeným způsobem pomoci ke svému právu sám, je\-li ohroženo nebo je zřejmé, že by zásah veřejné moci přišel pozdě \(nutná obrana, krajní nouze\)
 
 __OSOBY__
 
@@ -76,7 +76,7 @@ SVÉPRÁVNOST je způsobilost nabývat pro sebe vlastním právním jednáním p
 
 __FYZICKÁ OSOBA__
 
-=> je právní pojem odlišující člověka od jiných právních subjektů, které__ __mají právní subjektivitu \(právnická osoba, stát\)
+=> je právní pojem odlišující člověka od jiných právních subjektů, které mají právní subjektivitu \(právnická osoba, stát\)
 
 - Každý člověk má vrozená, již samotným rozumem a citem poznatelná __přirozená práva,__ a tudíž se považuje za osobu\. Přirozená práva nelze zcizit a nelze se jich vzdát
 - Na počaté dítě, __nasciturus,__ se hledí jako na již narozené, pokud to vyhovuje jeho zájmům\. Nenarodí\-li se živé, hledí se na něj jako by nikdy nebylo
@@ -114,13 +114,13 @@ Nápomoc při rozhodování je jedním z podpůrných opatření při narušen�
 ZÁSAH DO INTEGRITY \(duševní a tělesná\)
 
 - Člověk je nedotknutelný\. Lidské tělo je pod právní ochranou i po smrti\. Naložit s pozůstatky nedůstojně se zakazuje\.
-- Zásah do integrity je zakázán mimo případ stanovený zákonem\. Lze jen se souhlasem uděleného s vědomím o povaze zásahu a jeho možných následcích\. Některé zásahy vyžadují písemnou formu__ __– operace
+- Zásah do integrity je zakázán mimo případ stanovený zákonem\. Lze jen se souhlasem uděleného s vědomím o povaze zásahu a jeho možných následcích\. Některé zásahy vyžadují písemnou formu – operace
 
 __PRÁVNICKÁ OSOBA__
 
 => je to organizovaný útvar, o kterém zákon stanoví, že má právní osobnost, nebo jehož právní osobnost zákon uzná
 
-- Má právní osobnost__ __od svého vzniku do svého zániku\. Tyto osoby spolehlivě vedou záznamy
+- Má právní osobnost od svého vzniku do svého zániku\. Tyto osoby spolehlivě vedou záznamy
 o svých majetkových poměrech, i když nejsou povinny vést účetnictví\.
 - Stát se v oblasti soukromého práva považuje za právnickou osobu\.
 - Do veřejného rejstříku PO se zapíše alespoň den vzniku/zániku s důvodem, název, adresa sídla, předmět činnosti, jméno a adresa člena statutárního orgánu, způsobu jejich zastupování
@@ -146,11 +146,11 @@ __1\) KORPORACI__
 
 => vytváří jako PO společenství osob\.
 
-SPOLEK__ __jsou alespoň 3 osoby se společným zájmem, který mohou založit k jeho naplňování a spolčovat se v něm\.
+SPOLEK jsou alespoň 3 osoby se společným zájmem, který mohou založit k jeho naplňování a spolčovat se v něm\.
 
 __2\) FUNDACE__
 
-=>__ __je PO vytvořená majetkem vyčleněným k určitému účelu\.
+=> je PO vytvořená majetkem vyčleněným k určitému účelu\.
 
 NADACE – slouží k trvalé službě společensky nebo hospodářsky užitečnému účelu\.
 

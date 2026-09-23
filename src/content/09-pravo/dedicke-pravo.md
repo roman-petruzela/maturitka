@@ -105,7 +105,7 @@ __Druhy:__
 - Závěť alografní – jinak než vlastní rukou \(strojem, cizí rukou\), datována, podepsána pořizovatelem před 2 svědky \(ti závěť také podepíšou\)
 - Závěť privilegovaná – V mimořádných situacích \(snižují se nároky na osoby svědků\)
 
-Správce závěti =__ __listina o ustanovení správce dědictví \(formou notářského zápisu – může být též notář\)
+Správce závěti = listina o ustanovení správce dědictví \(formou notářského zápisu – může být též notář\)
 
 Vydědění = vyloučení nepominutelného dědice z dědění – formou listiny o vydědění a podmínek stanovené zákonem
 

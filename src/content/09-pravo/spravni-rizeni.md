@@ -5,9 +5,9 @@ source: "MATURITA HADR/Právo/15. Správní řízení/15_spravni_rizeni.docx"
 ---
 # __15\. Správní řízení__
 
-__SPRÁVNÍ ŘÍZENÍ__ představuje postup správního orgánu__,__ jehož účelem je vydání individuálního správního aktu, který má podobu konstitutivního nebo deklaratorního rozhodnutí\. \(konstitutivní – zakládá, mění nebo ruší povinnosti: deklaratorní – prohlašuje, zda určitá osoba práva nebo povinnosti má či nikoliv\)\.
+__SPRÁVNÍ ŘÍZENÍ__ představuje postup správního orgánu, jehož účelem je vydání individuálního správního aktu, který má podobu konstitutivního nebo deklaratorního rozhodnutí\. \(konstitutivní – zakládá, mění nebo ruší povinnosti: deklaratorní – prohlašuje, zda určitá osoba práva nebo povinnosti má či nikoliv\)\.
 
-SPRÁVNÍ ŘÍZENÍ OBECNÉ ____–__ __upraveno správním řádem
+SPRÁVNÍ ŘÍZENÍ OBECNÉ __–__ upraveno správním řádem
 
 Představuje postup správních orgánů při rozhodování ve všech oblastech a úsecích veřejné správy\.
 
@@ -17,11 +17,11 @@ Představuje postup orgánů s výjimkami u některých dílčích otázek stan
 
 __ZÁKLADNÍ ZÁSADY ČINNOSTI SPRÁVNÍCH ORGÁNŮ__
 
-ZÁSADA ZÁKONNOSTI__ __
+ZÁSADA ZÁKONNOSTI 
 
 Přikazuje správnímu orgánu postupovat v souladu se zákony a ostatními právními předpisy a mezinárodními smlouvami\.
 
-ZÁSADA NESTRANNÉHO POSTUPU SPRÁVNÍHO ORGÁNU__  __
+ZÁSADA NESTRANNÉHO POSTUPU SPRÁVNÍHO ORGÁNU  
 
 Správní orgán dbá, aby přijaté řešení bylo v souladu s veřejným zájmem a aby odpovídalo okolnostem daného případu\.
 
@@ -29,11 +29,11 @@ ZÁSADA SOUČINNOSTI S ÚČASTNÍKY
 
 Projevuje se např\. v povinnosti správního orgánu, poskytnout přiměřené poučení dotčené osobě: na druhé straně jsou i účastnící řízení povinni při opatřování podkladů pro vydání rozhodnutí poskytovat správnímu orgánu veškerou potřebnou součinnost
 
-ZÁSADA ROVNOSTI__ __
+ZÁSADA ROVNOSTI 
 
 Dotčené osoby mají při uplatňování svých procesních práv rovné postavení ani rozdělení účastníků řízení do třech skupin, nepředstavuje popření této zásady\.
 
-ZÁSADA VEŘEJNÉ SPRÁVY JAKO SLUŽBY__ __
+ZÁSADA VEŘEJNÉ SPRÁVY JAKO SLUŽBY 
 
 Veřejná správu chápeme jako službu veřejnosti: ukládá účastníkům správních orgánů povinnost slušně se chovat vůči klientům veřejné správy\.
 

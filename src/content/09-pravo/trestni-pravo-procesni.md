@@ -191,7 +191,7 @@ __Mimořádné opravné prostředky =__ dovolání, stížnost pro porušení z�
 
 1. __KRIMINALITA PÁCHÁNA NA DĚTECH A MLADISTVÝCH__
 
-__\-__patří do zvláštního způsobu řízení \(patří sem i řízení proti uprchlému\), odchyluje se od standartního řízení
+\-patří do zvláštního způsobu řízení \(patří sem i řízení proti uprchlému\), odchyluje se od standartního řízení
 
 \-zákon o odpovědnosti mládeže za protiprávní činy, zákon o soudnictví ve věcech mládeže
 
