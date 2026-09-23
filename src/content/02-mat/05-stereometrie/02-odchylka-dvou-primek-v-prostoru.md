@@ -18,12 +18,7 @@ Přímky v prostoru mohou mít čtyři vzájemné polohy: **totožné**, **rovno
 ## Ukázkové příklady
 
 ```solid
-{ "type": "krychle", "params": { "a": 4 }, "labels": [
-	{ "at": [0, 0, 0], "text": "A" }, { "at": [4, 0, 0], "text": "B" },
-	{ "at": [4, 4, 0], "text": "C" }, { "at": [0, 4, 0], "text": "D" },
-	{ "at": [0, 0, 4], "text": "E" }, { "at": [4, 0, 4], "text": "F" },
-	{ "at": [4, 4, 4], "text": "G" }, { "at": [0, 4, 4], "text": "H" }
-], "title": "Krychle ABCDEFGH" }
+{"type": "krychle", "params": {"a": 4}, "letters": "ABCDEFGH", "title": "Krychle ABCDEFGH"}
 ```
 
 **Příklad 1:** Ve standardní krychli ABCDEFGH určete odchylku přímek $AH$ a $DG$.
@@ -61,12 +56,7 @@ $$\angle ACB = 45°$$
 Mějme kvádr ABCDEFGH, kde $|AB|=6\text{ cm}, |BC|=3\text{ cm}, |AE|=2\text{ cm}$. Vypočtěte:
 
 ```solid
-{ "type": "kvadr", "params": { "a": 6, "b": 3, "c": 2 }, "labels": [
-	{ "at": [0, 0, 0], "text": "A" }, { "at": [6, 0, 0], "text": "B" },
-	{ "at": [6, 3, 0], "text": "C" }, { "at": [0, 3, 0], "text": "D" },
-	{ "at": [0, 0, 2], "text": "E" }, { "at": [6, 0, 2], "text": "F" },
-	{ "at": [6, 3, 2], "text": "G" }, { "at": [0, 3, 2], "text": "H" }
-], "title": "Kvádr ABCDEFGH (6 × 3 × 2 cm)" }
+{"type": "kvadr", "params": {"a": 6, "b": 3, "c": 2}, "letters": "ABCDEFGH", "title": "Kvádr ABCDEFGH (6 × 3 × 2 cm)"}
 ```
 
 **a)** odchylku přímek $AC$ a $AG$

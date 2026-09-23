@@ -22,7 +22,7 @@ Plášť tvoří lichoběžníky (obsah lichoběžníku se základnami $a$, $c$ 
 $$S_{pl} = 4\cdot\frac{a_1+a_2}{2}\cdot s = 2(a_1+a_2)s$$
 
 ```solid
-{ "type": "komoly_jehlan", "params": { "n": 4, "r1": 5.657, "r2": 1.414, "v": 4 }, "labels": [{ "at": [0, 0, 2], "text": "v" }], "title": "Komolý čtyřboký jehlan (a₁ = 8, a₂ = 2, v = 4)" }
+{"type": "komoly_jehlan", "params": {"n": 4, "r1": 5.657, "r2": 1.414, "v": 4}, "marks": ["v", "a1", "a2"], "title": "Komolý čtyřboký jehlan (a₁ = 8, a₂ = 2, v = 4)"}
 ```
 
 ## Úkoly (interaktivní, Cabri 3D)

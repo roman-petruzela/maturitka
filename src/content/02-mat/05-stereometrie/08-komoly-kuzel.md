@@ -22,7 +22,7 @@ $$S = \pi r_1^2 + \pi r_2^2 + \pi(r_1+r_2)s$$
 $$V = \frac13 \pi v\left(r_1^2 + r_1 r_2 + r_2^2\right)$$
 
 ```solid
-{ "type": "komoly_kuzel", "params": { "r1": 3.5, "r2": 1, "v": 6 }, "labels": [{ "at": [3.5, 0, 0], "text": "r_1" }, { "at": [1, 0, 6], "text": "r_2" }, { "at": [0, 0, 3], "text": "v" }], "title": "Komolý rotační kužel" }
+{"type": "komoly_kuzel", "params": {"r1": 3.5, "r2": 1, "v": 6}, "marks": ["r1", "r2", "v", "s"], "title": "Komolý rotační kužel"}
 ```
 
 ## Úkol (interaktivní, Cabri 3D)

@@ -31,7 +31,7 @@ $$S = 6a^2$$
 kde $a$ je délka hrany krychle.
 
 ```solid
-{ "type": "krychle", "params": { "a": 4 }, "labels": [{ "at": [4, 0, 0], "text": "a" }], "title": "Krychle" }
+{"type": "krychle", "params": {"a": 4}, "marks": ["a"], "title": "Krychle"}
 ```
 
 ## Kvádr
@@ -43,11 +43,11 @@ $$V = a\cdot b\cdot c$$
 $$S = 2ab + 2ac + 2bc = 2(ab+ac+bc)$$
 
 ```solid
-{ "type": "kvadr", "params": { "a": 5, "b": 3, "c": 2 }, "labels": [{ "at": [5, 0, 0], "text": "a" }, { "at": [5, 3, 0], "text": "b" }, { "at": [5, 3, 1], "text": "c" }], "title": "Kvádr" }
+{"type": "kvadr", "params": {"a": 5, "b": 3, "c": 2}, "marks": ["a", "b", "c"], "title": "Kvádr"}
 ```
 
 ```solid
-{ "type": "hranol", "params": { "n": 3, "r": 2.31, "v": 6 }, "labels": [{ "at": [0, 0, 3], "text": "v" }], "title": "Kolmý trojboký hranol" }
+{"type": "hranol", "params": {"n": 3, "r": 2.31, "v": 6}, "marks": ["v"], "title": "Kolmý trojboký hranol"}
 ```
 
 ## Úkoly (interaktivní, Cabri 3D)

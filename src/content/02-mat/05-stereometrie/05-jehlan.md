@@ -26,7 +26,7 @@ $$V = \frac13 a^2 v$$
 Tělesová výška $v$, stěnová výška $s$ a polovina podstavné hrany $\frac{a}{2}$ tvoří pravoúhlý trojúhelník — platí mezi nimi Pythagorova věta ($s^2=v^2+\left(\frac{a}{2}\right)^2$) i goniometrické funkce.
 
 ```solid
-{ "type": "jehlan", "params": { "n": 4, "r": 4.243, "v": 4 }, "labels": [{ "at": [0, 0, 2], "text": "v" }], "title": "Pravidelný čtyřboký jehlan" }
+{"type": "jehlan", "params": {"n": 4, "r": 4.243, "v": 4}, "marks": ["a", "v"], "title": "Pravidelný čtyřboký jehlan"}
 ```
 
 ## Pravidelný čtyřstěn
@@ -38,7 +38,7 @@ $$S = a^2\sqrt3$$
 $$V = \frac{1}{12}a^3\sqrt2$$
 
 ```solid
-{ "type": "jehlan", "params": { "n": 3, "r": 0.577, "v": 0.8165 }, "title": "Pravidelný čtyřstěn (a = 1)" }
+{"type": "jehlan", "params": {"n": 3, "r": 0.577, "v": 0.8165}, "marks": ["a"], "title": "Pravidelný čtyřstěn (a = 1)"}
 ```
 
 ## Ostatní jehlany

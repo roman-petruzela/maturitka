@@ -20,7 +20,7 @@ $$S = 2S_p + S_{pl} = 2\pi r^2 + 2\pi r v = 2\pi r(r+v)$$
 $$V = S_p \cdot v = \pi r^2 v$$
 
 ```solid
-{ "type": "valec", "params": { "r": 3, "v": 5 }, "labels": [{ "at": [3, 0, 0], "text": "r" }, { "at": [0, 0, 2.5], "text": "v" }], "title": "Rotační válec" }
+{"type": "valec", "params": {"r": 3, "v": 5}, "marks": ["r", "v"], "title": "Rotační válec"}
 ```
 
 ## Úkoly (interaktivní, Cabri 3D)

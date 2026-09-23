@@ -49,12 +49,7 @@ Mohou nastat tři případy:
 Je dána standardní krychle ABCDEFGH (spodní podstava ABCD, horní EFGH, hrana AE svislá). Určete vzájemnou polohu:
 
 ```solid
-{ "type": "krychle", "params": { "a": 4 }, "labels": [
-	{ "at": [0, 0, 0], "text": "A" }, { "at": [4, 0, 0], "text": "B" },
-	{ "at": [4, 4, 0], "text": "C" }, { "at": [0, 4, 0], "text": "D" },
-	{ "at": [0, 0, 4], "text": "E" }, { "at": [4, 0, 4], "text": "F" },
-	{ "at": [4, 4, 4], "text": "G" }, { "at": [0, 4, 4], "text": "H" }
-], "title": "Krychle ABCDEFGH" }
+{"type": "krychle", "params": {"a": 4}, "letters": "ABCDEFGH", "title": "Krychle ABCDEFGH"}
 ```
 
 **a)** přímek $AC$ a $HF$

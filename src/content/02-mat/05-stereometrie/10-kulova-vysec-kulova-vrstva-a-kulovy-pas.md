@@ -22,7 +22,7 @@ kde $r$ je poloměr koule a $v$ výška kulového vrchlíku, který je součást
 $$V = \frac{\pi v}{6}\left(3\rho_1^2 + 3\rho_2^2 + v^2\right)$$
 
 ```solid
-{ "type": "koule", "params": { "r": 5, "z1": -1, "z2": 3 }, "labels": [{ "at": [0, -4.9, -1], "text": "ρ_1" }, { "at": [0, -4, 3], "text": "ρ_2" }], "title": "Kulová vrstva mezi řezy v = 4" }
+{"type": "koule", "params": {"r": 5, "z1": -1, "z2": 3}, "marks": ["rho1", "rho2"], "title": "Kulová vrstva mezi řezy v = 4"}
 ```
 
 ## Kulový pás
