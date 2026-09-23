@@ -1,35 +1,43 @@
-// Build-time SVG renderer for 3D solids (stereometrie): kvádr, krychle,
-// hranol, jehlan, válec, kužel, koule. Uses "volné rovnoběžné promítání"
-// (cavalier/oblique parallel projection) — the standard Czech textbook
-// convention: the x (right) and z (up) axes are drawn undistorted, the y
-// (depth) axis is drawn at an angle (default 45°) and foreshortened by a
-// factor (default 1/2). That's why a horizontal circle (a cylinder's base)
-// comes out looking like an ellipse — that's the correct, expected look,
-// not a bug — while a sphere's front-facing outline (which lies entirely in
-// the undistorted x/z plane) comes out as a true circle.
-//
-// v1 draws a plain wireframe — no hidden-line dashing. Proper hidden-line
-// removal needs real visibility computation per solid; a wireframe is a
-// solid, correct improvement over no diagram at all and was the pragmatic
-// cut given the size of that problem versus everything else in this pass.
+// Build-time renderer for 3D solids (stereometrie): kvádr, krychle, hranol, jehlan, komolý jehlan,
+// válec, kužel, komolý kužel, koule. What the picture looks like is worked out in solid-geometry.ts
+// (projection, hidden edges, the ellipses of the round solids); this file fits it into a frame and
+// writes the SVG — and the same functions run in the browser for a figure the reader can turn
+// (solid-viewer.ts), which is why the whole spec is kept in the figure's `data-solid`.
 //
 // Content authors write, e.g.:
 //
 //     ```solid
-//     { "type": "kuzel", "params": { "r": 3, "v": 5 },
-//       "labels": [{ "at": [3, 0, 0], "text": "r" }, { "at": [0, 0, 2.5], "text": "v" }],
-//       "title": "Kužel" }
+//     { "type": "kvadr", "params": { "a": 6, "b": 3, "c": 2 }, "letters": "ABCDEFGH",
+//       "marks": ["a", "b", "c"], "title": "Kvádr ABCDEFGH" }
 //     ```
+//
+//  * `letters` names the vertices in the order the solid builds them (a kvádr: ABCD along the
+//    bottom from the front left, EFGH above them; a pyramid: the base, then the apex);
+//  * `marks` writes the dimensions beside what they measure — a, b, c of a kvádr, a and v of a
+//    prism, v (with a dashed axis) of a pyramid, r, v, s of a cone, r1, r2, v, s of a frustum,
+//    r, rho1, rho2 of a sphere — either just the name or { "name": "v", "text": "v = 4" };
+//  * `labels` puts free text at a 3D point, `segments` draws extra lines (a diagonal);
+//  * a polyhedron is drawn in the cavalier projection (`theta`, `k`), a round solid in an
+//    orthographic view from above (`elevation`); `"projection"` and `"azimuth"` change the view.
 import { fmt, escapeAttr, labelTspans, captionHtml, wrapSpoiler } from './svg-utils';
+import { cameraFor, drawSolid, missingParam, projector, solidBounds, type Camera, type SolidType, type Vec2, type Vec3 } from './solid-geometry';
 
-export type SolidType = 'kvadr' | 'krychle' | 'hranol' | 'jehlan' | 'valec' | 'kuzel' | 'koule' | 'komoly_jehlan' | 'komoly_kuzel';
+export type { SolidType };
 
 export interface SolidSpec {
 	type: SolidType;
 	params: Record<string, number>;
-	labels?: { at: [number, number, number]; text: string }[];
+	letters?: string;
+	marks?: (string | { name: string; text?: string })[];
+	labels?: { at: Vec3; text: string; dir?: Vec2; dx?: number; dy?: number }[];
+	segments?: { from: Vec3; to: Vec3; label?: string; dashed?: boolean; dir?: Vec2 }[];
+	projection?: 'cavalier' | 'ortho';
 	theta?: number;
 	k?: number;
+	azimuth?: number;
+	elevation?: number;
+	/** false: no tinted faces, a plain line drawing */
+	shade?: boolean;
 	width?: number;
 	height?: number;
 	title?: string;
@@ -37,234 +45,151 @@ export interface SolidSpec {
 	float?: 'left' | 'right';
 }
 
-type Vec3 = [number, number, number];
-type Vec2 = [number, number];
+/** how the solid sits in the frame: pixels per unit, and the point of the page in the middle of it */
+export interface Fit {
+	scale: number;
+	cx: number;
+	cy: number;
+}
 
-function regularPolygon(n: number, r: number, z: number): Vec3[] {
-	const pts: Vec3[] = [];
-	// offset by half a vertex-spacing so a flat EDGE faces front/bottom
-	// instead of a vertex — for n=4 this is the difference between an
-	// axis-aligned square (recognizable, matches kvadr's own square base)
-	// and a "diamond" rotated 45°, whose edges in cavalier projection run
-	// close to the depth-skew direction and visually collapse into a
-	// thin sliver instead of reading as a square
-	for (let i = 0; i < n; i++) {
-		const ang = -Math.PI / 2 + Math.PI / n + (2 * Math.PI * i) / n;
-		pts.push([r * Math.cos(ang), r * Math.sin(ang), z]);
+const PAD = 34; // room for the labels round the drawing
+
+// the text a mark writes when it is not given one
+const MARK_TEXT: Record<string, string> = { rho1: 'ρ_1', rho2: 'ρ_2', r1: 'r_1', r2: 'r_2', a1: 'a_1', a2: 'a_2' };
+
+function hash(s: string): string {
+	let h = 2166136261;
+	for (let i = 0; i < s.length; i++) h = Math.imul(h ^ s.charCodeAt(i), 16777619);
+	return (h >>> 0).toString(36);
+}
+
+const pathOf = (pts: Vec2[]) => pts.map((p, i) => `${i ? 'L' : 'M'}${fmt(p[0])},${fmt(p[1])}`).join(' ');
+
+/**
+ * The `<svg>` of a solid seen through `cam`. By default the drawing is fitted to the frame; with
+ * `fixedScale` (pixels per unit) it keeps that size and stays centred on the solid instead — how the
+ * figure that is turned by hand avoids growing and shrinking. `inner` is the svg's content alone.
+ */
+export function solidSvg(spec: SolidSpec, cam: Camera, fixedScale?: number): { svg: string; inner: string; fit: Fit } {
+	const { width = 360, height = 320, title } = spec;
+	const d = drawSolid(spec.type, spec.params, cam);
+	const { project } = projector(cam);
+
+	// the extra lines and labels the author asked for, in page coordinates
+	const segments = (spec.segments ?? []).map((s) => ({ ...s, pts: [project(s.from), project(s.to)] as Vec2[] }));
+	const labels = (spec.labels ?? []).map((l) => ({ ...l, at: project(l.at) }));
+
+	// the frame
+	const points: Vec2[] = [
+		...d.extent,
+		...d.visible.flat(),
+		...d.hidden.flat(),
+		...d.faces.flatMap((f) => f.pts),
+		...d.dims.flatMap((m) => m.pts),
+		...segments.flatMap((s) => s.pts),
+		...labels.map((l) => l.at),
+	];
+	let fit: Fit;
+	if (fixedScale) {
+		const { c } = solidBounds(spec.type, spec.params);
+		const [cx, cy] = project(c);
+		fit = { scale: fixedScale, cx, cy };
+	} else {
+		const xs = points.map((p) => p[0]);
+		const ys = points.map((p) => p[1]);
+		const [x0, x1, y0, y1] = [Math.min(...xs), Math.max(...xs), Math.min(...ys), Math.max(...ys)];
+		fit = {
+			scale: Math.min((width - PAD * 2) / (x1 - x0 || 1), (height - PAD * 2) / (y1 - y0 || 1)),
+			cx: (x0 + x1) / 2,
+			cy: (y0 + y1) / 2,
+		};
 	}
-	return pts;
-}
+	const { scale, cx, cy } = fit;
+	const toScreen = (p: Vec2): Vec2 => [width / 2 + (p[0] - cx) * scale, height / 2 - (p[1] - cy) * scale];
 
-function circlePts(n: number, r: number, z: number): Vec3[] {
-	const pts: Vec3[] = [];
-	for (let i = 0; i <= n; i++) {
-		const ang = (2 * Math.PI * i) / n;
-		pts.push([r * Math.cos(ang), r * Math.sin(ang), z]);
-	}
-	return pts;
-}
-
-function ring(pts: Vec3[]): Vec3[][] {
-	return pts.map((p, i) => [p, pts[(i + 1) % pts.length]]);
-}
-
-// Returns the wireframe as a list of polylines (each an array of >=2 3D
-// points to connect in order) — straight edges are 2-point polylines,
-// circles/arcs are many-point polylines.
-function buildEdges(spec: SolidSpec): Vec3[][] {
-	const p = spec.params;
-	switch (spec.type) {
-		case 'krychle': {
-			return buildEdges({ ...spec, type: 'kvadr', params: { a: p.a, b: p.a, c: p.a } });
-		}
-		case 'kvadr': {
-			const { a, b, c } = p;
-			const bot: Vec3[] = [
-				[0, 0, 0],
-				[a, 0, 0],
-				[a, b, 0],
-				[0, b, 0],
-			];
-			const top: Vec3[] = bot.map(([x, y, z]) => [x, y, z + c] as Vec3);
-			const verticals = bot.map((v, i) => [v, top[i]] as Vec3[]);
-			return [...ring(bot), ...ring(top), ...verticals];
-		}
-		case 'hranol': {
-			const { n, r, v } = p;
-			const bot = regularPolygon(n, r, 0);
-			const top = regularPolygon(n, r, v);
-			const verticals = bot.map((pt, i) => [pt, top[i]] as Vec3[]);
-			return [...ring(bot), ...ring(top), ...verticals];
-		}
-		case 'jehlan': {
-			const { n, r, v } = p;
-			const bot = regularPolygon(n, r, 0);
-			const apex: Vec3 = [0, 0, v];
-			const laterals = bot.map((pt) => [pt, apex] as Vec3[]);
-			return [...ring(bot), ...laterals];
-		}
-		case 'valec': {
-			const { r, v } = p;
-			const bot = circlePts(48, r, 0);
-			const top = circlePts(48, r, v);
-			const silhouette: Vec3[][] = [
-				[
-					[r, 0, 0],
-					[r, 0, v],
-				],
-				[
-					[-r, 0, 0],
-					[-r, 0, v],
-				],
-			];
-			return [bot, top, ...silhouette];
-		}
-		case 'komoly_jehlan': {
-			const { n, r1, r2, v } = p;
-			const bot = regularPolygon(n, r1, 0);
-			const top = regularPolygon(n, r2, v);
-			const verticals = bot.map((pt, i) => [pt, top[i]] as Vec3[]);
-			return [...ring(bot), ...ring(top), ...verticals];
-		}
-		case 'komoly_kuzel': {
-			const { r1, r2, v } = p;
-			const bot = circlePts(48, r1, 0);
-			const top = circlePts(48, r2, v);
-			const silhouette: Vec3[][] = [
-				[
-					[r1, 0, 0],
-					[r2, 0, v],
-				],
-				[
-					[-r1, 0, 0],
-					[-r2, 0, v],
-				],
-			];
-			return [bot, top, ...silhouette];
-		}
-		case 'kuzel': {
-			const { r, v } = p;
-			const bot = circlePts(48, r, 0);
-			const apex: Vec3 = [0, 0, v];
-			const silhouette: Vec3[][] = [
-				[
-					[r, 0, 0],
-					apex,
-				],
-				[
-					[-r, 0, 0],
-					apex,
-				],
-			];
-			return [bot, ...silhouette];
-		}
-		case 'koule': {
-			const { r, z1, z2 } = p;
-			// front-facing outline (lies in the undistorted x/z plane, so it
-			// projects as a true circle — drawn as a native <circle> below,
-			// this polyline only feeds the bounding-box computation) plus a
-			// horizontal "equator" to suggest the curved surface, exactly
-			// like the classic textbook sketch of a sphere.
-			const outline: Vec3[] = [];
-			for (let i = 0; i <= 48; i++) {
-				const ang = (2 * Math.PI * i) / 48;
-				outline.push([r * Math.cos(ang), 0, r * Math.sin(ang)]);
+	const id = `sg-${hash(JSON.stringify(spec))}`;
+	const defs: string[] = [];
+	const faces: string[] = [];
+	if (spec.shade !== false) {
+		for (const f of d.faces) {
+			const pts = f.pts.map(toScreen).map((p) => `${fmt(p[0])},${fmt(p[1])}`).join(' ');
+			if (f.gradient) {
+				const g = `${id}-${f.gradient}`;
+				if (!defs.some((x) => x.includes(`id="${g}"`))) {
+					const stop = (o: number, a: number) => `<stop offset="${o}" style="stop-color:var(--accent);stop-opacity:${a}"/>`;
+					defs.push(
+						f.gradient === 'linear'
+							? `<linearGradient id="${g}" x1="0" y1="0" x2="1" y2="0">${stop(0, 0.05)}${stop(0.32, 0.3)}${stop(1, 0.05)}</linearGradient>`
+							: `<radialGradient id="${g}" cx="0.38" cy="0.32" r="0.75">${stop(0, 0.32)}${stop(1, 0.04)}</radialGradient>`
+					);
+				}
+				faces.push(`<polygon class="solid-face" points="${pts}" style="fill:url(#${g})"/>`);
+			} else {
+				faces.push(`<polygon class="solid-face" points="${pts}" style="fill:var(--accent);fill-opacity:${fmt(0.04 + 0.24 * f.shade)}"/>`);
 			}
-			const equator = circlePts(48, r, 0);
-			const cuts: Vec3[][] = [];
-			// optional horizontal "cut" circles at height z1/z2 (kulový
-			// vrchlík/výseč/vrstva/pás — a plane cutting the sphere at height
-			// z intersects it in a circle of radius sqrt(r² - z²))
-			for (const z of [z1, z2]) {
-				if (z == null || Math.abs(z) >= r) continue;
-				cuts.push(circlePts(48, Math.sqrt(r * r - z * z), z));
-			}
-			return [outline, equator, ...cuts];
 		}
 	}
+
+	const edges = (list: Vec2[][], cls: string) => list.map((pts) => `<path class="${cls}" d="${pathOf(pts.map(toScreen))}"/>`);
+
+	// what a mark (or a label) writes, and where: pushed off the drawing along `dir`
+	const text: string[] = [];
+	const write = (at: Vec2, dir: Vec2, s: string, dx = 0, dy = 0) => {
+		const [x, y] = toScreen(at);
+		const len = s.replace(/[_{}]/g, '').length;
+		const pad = 8 + 4.5 * Math.max(1, len);
+		const l = Math.hypot(dir[0], dir[1]) || 1;
+		const lx = x + (dir[0] / l) * pad + dx;
+		const ly = y - (dir[1] / l) * pad * 0.8 + dy;
+		text.push(`<text class="solid-label" x="${fmt(lx)}" y="${fmt(ly)}">${labelTspans(s)}</text>`);
+	};
+	const outward = (at: Vec2): Vec2 => [at[0] - d.centre[0], at[1] - d.centre[1]];
+
+	(spec.letters ?? '').split('').forEach((ch, i) => {
+		if (d.vertices[i]) write(d.vertices[i], outward(d.vertices[i]), ch);
+	});
+	const marks = (spec.marks ?? []).map((m) => (typeof m === 'string' ? { name: m, text: undefined } : m));
+	const dims: string[] = [];
+	for (const m of marks) {
+		const at = d.marks[m.name];
+		if (!at) throw new Error(`the mark "${m.name}" does not exist for a "${spec.type}"`);
+		for (const dim of d.dims.filter((x) => x.name === m.name)) {
+			dims.push(`<path class="solid-dim${dim.dashed ? ' solid-dim--dashed' : ''}" d="${pathOf(dim.pts.map(toScreen))}"/>`);
+		}
+		write(at.at, at.dir, m.text ?? MARK_TEXT[m.name] ?? m.name);
+	}
+	for (const s of segments) {
+		dims.push(`<path class="solid-dim${s.dashed ? ' solid-dim--dashed' : ''}" d="${pathOf(s.pts.map(toScreen))}"/>`);
+		if (s.label) {
+			const m: Vec2 = [(s.pts[0][0] + s.pts[1][0]) / 2, (s.pts[0][1] + s.pts[1][1]) / 2];
+			write(m, s.dir ?? outward(m), s.label);
+		}
+	}
+	for (const l of labels) write(l.at, l.dir ?? [0, 0], l.text, l.dx ?? 0, l.dy ?? 0);
+
+	const inner =
+		(defs.length ? `<defs>${defs.join('')}</defs>` : '') +
+		faces.join('') +
+		edges(d.hidden, 'solid-edge solid-edge--hidden').join('') +
+		edges(d.visible, 'solid-edge').join('') +
+		dims.join('') +
+		text.join('');
+	const svg = `<svg viewBox="0 0 ${width} ${height}" width="${width}" height="${height}" role="img" aria-label="${escapeAttr(title ?? 'Těleso')}">${inner}</svg>`;
+	return { svg, inner, fit };
 }
 
 export function renderSolidSvg(spec: SolidSpec): string {
-	const { width = 360, height = 320, title, theta = 45, k = 0.5 } = spec;
-	const PAD = 30;
-	const rad = (theta * Math.PI) / 180;
-	const cosT = Math.cos(rad) * k;
-	const sinT = Math.sin(rad) * k;
-
-	// cavalier projection to math-space 2D (x right, "z" still up — flipped
-	// for SVG's y-down convention only at the very end, same as
-	// geometry-svg.ts, so the uniform-scale/centering math stays identical)
-	const project = ([x, y, z]: Vec3): Vec2 => [x + y * cosT, z + y * sinT];
-
-	const edges = buildEdges(spec);
-	const allPts: Vec2[] = edges.flat().map(project);
-	for (const l of spec.labels ?? []) allPts.push(project(l.at));
-
-	const xs = allPts.map((p) => p[0]);
-	const ys = allPts.map((p) => p[1]);
-	const xMin = Math.min(...xs);
-	const xMax = Math.max(...xs);
-	const yMin = Math.min(...ys);
-	const yMax = Math.max(...ys);
-	const xSpan = xMax - xMin || 1;
-	const ySpan = yMax - yMin || 1;
-
-	const innerW = width - PAD * 2;
-	const innerH = height - PAD * 2;
-	const scale = Math.min(innerW / xSpan, innerH / ySpan);
-	const usedW = xSpan * scale;
-	const usedH = ySpan * scale;
-	const offsetX = PAD + (innerW - usedW) / 2;
-	const offsetY = PAD + (innerH - usedH) / 2;
-	const toScreen = (p: Vec3): Vec2 => {
-		const [px, pz] = project(p);
-		return [offsetX + (px - xMin) * scale, offsetY + usedH - (pz - yMin) * scale];
-	};
-
-	const parts: string[] = [];
+	const missing = missingParam(spec.type, spec.params);
+	if (missing) throw new Error(`a "${spec.type}" needs the parameter "${missing}"`);
+	const { svg } = solidSvg(spec, cameraFor(spec.type, spec));
 	const floatClass = spec.float ? ` graph-plot--float-${spec.float}` : '';
-	parts.push(
-		`<figure class="graph-plot solid-plot${spec.spoiler ? '' : floatClass}"><svg viewBox="0 0 ${width} ${height}" width="${width}" height="${height}" role="img" aria-label="${escapeAttr(title ?? 'Těleso')}">`
-	);
-
-	if (spec.type === 'koule') {
-		const { r, z1, z2 } = spec.params;
-		const center = toScreen([0, 0, 0]);
-		const edgePt = toScreen([r, 0, 0]);
-		const rPx = Math.hypot(edgePt[0] - center[0], edgePt[1] - center[1]);
-		parts.push(`<circle cx="${fmt(center[0])}" cy="${fmt(center[1])}" r="${fmt(rPx)}" class="solid-edge" fill="none" />`);
-		const equator = circlePts(48, r, 0).map(toScreen);
-		parts.push(`<path d="${equator.map((p, i) => `${i === 0 ? 'M' : 'L'}${fmt(p[0])},${fmt(p[1])}`).join(' ')}" class="solid-edge solid-edge--hidden" fill="none" />`);
-		for (const z of [z1, z2]) {
-			if (z == null || Math.abs(z) >= r) continue;
-			const cut = circlePts(48, Math.sqrt(r * r - z * z), z).map(toScreen);
-			parts.push(`<path d="${cut.map((p, i) => `${i === 0 ? 'M' : 'L'}${fmt(p[0])},${fmt(p[1])}`).join(' ')}" class="solid-edge solid-edge--hidden" fill="none" />`);
-		}
-	} else {
-		for (const edge of edges) {
-			const screenPts = edge.map(toScreen);
-			const d = screenPts.map((p, i) => `${i === 0 ? 'M' : 'L'}${fmt(p[0])},${fmt(p[1])}`).join(' ');
-			parts.push(`<path d="${d}" class="solid-edge" fill="none" />`);
-		}
-		// jehlan/kuzel come to a single apex point with no vertical edge of
-		// their own to hang a "v" label on, so a labelled height ends up
-		// floating with nothing to anchor it to — draw the tělesová výška
-		// as an explicit dashed guide line from base-center to apex/top-center
-		if (spec.type === 'jehlan' || spec.type === 'kuzel' || spec.type === 'komoly_jehlan' || spec.type === 'komoly_kuzel') {
-			const bottom = toScreen([0, 0, 0]);
-			const top = toScreen([0, 0, spec.params.v]);
-			parts.push(`<path d="M${fmt(bottom[0])},${fmt(bottom[1])} L${fmt(top[0])},${fmt(top[1])}" class="solid-edge solid-edge--hidden" fill="none" />`);
-		}
-	}
-
-	for (const l of spec.labels ?? []) {
-		const [x, y] = toScreen(l.at);
-		parts.push(`<text x="${fmt(x)}" y="${fmt(y)}" class="geom-label" text-anchor="middle">${labelTspans(l.text)}</text>`);
-	}
-
-	parts.push(`</svg>`);
-	if (title) parts.push(`<figcaption>${captionHtml(title)}</figcaption>`);
-	parts.push(`</figure>`);
-
+	// the spec travels with the figure so that the browser can draw the same solid from another side
+	const { title: _t, spoiler: _s, float: _f, ...drawn } = spec;
+	const parts = [
+		`<figure class="graph-plot solid-plot${spec.spoiler ? '' : floatClass}" data-solid="${escapeAttr(JSON.stringify(drawn))}">`,
+		svg,
+		spec.title ? `<figcaption>${captionHtml(spec.title)}</figcaption>` : '',
+		`</figure>`,
+	];
 	return wrapSpoiler(parts.join(''), spec.spoiler, floatClass);
 }
