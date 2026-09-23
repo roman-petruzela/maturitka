@@ -6,9 +6,11 @@
 //
 //     node scripts/check-links.mjs
 //
-// Only checks same-origin links (href starting with "/"); external links
-// and mailto:/tel: are skipped since those need a real network request to
-// verify and aren't at risk from local content changes anyway.
+// Only checks same-origin links (href starting with "/") and same-page
+// "#fragment" links; external links and mailto:/tel: are skipped since those need a
+// real network request to verify and aren't at risk from local content changes anyway.
+// A link with a #fragment must also find that id in its target page — a heading that was
+// renamed breaks "page#heading" links (the timeline's, the search results') silently.
 
 import { readdir, readFile, access } from 'node:fs/promises';
 import path from 'node:path';
@@ -27,11 +29,21 @@ async function walk(dir) {
 	return files;
 }
 
-function resolveTarget(href) {
+function resolveTarget(href, fromFile) {
 	const [pathname] = href.split('#');
-	if (pathname === '') return path.join(DIST, 'index.html'); // "#fragment" on the same page
+	if (pathname === '') return fromFile; // "#fragment" on the same page
 	const clean = pathname.endsWith('/') ? pathname + 'index.html' : pathname;
 	return path.join(DIST, clean);
+}
+
+function fragmentOf(href) {
+	const i = href.indexOf('#');
+	if (i < 0) return '';
+	try {
+		return decodeURIComponent(href.slice(i + 1));
+	} catch {
+		return href.slice(i + 1);
+	}
 }
 
 async function exists(p) {
@@ -67,25 +79,46 @@ async function main() {
 		return cached;
 	}
 
+	// the ids of a page, read once (a page is the target of many links)
+	const idCache = new Map();
+	async function idsOf(target) {
+		let ids = idCache.get(target);
+		if (!ids) {
+			const html = await readFile(target, 'utf-8');
+			ids = new Set([...html.matchAll(/\s(?:id|name)="([^"]+)"/g)].map((m) => m[1]));
+			idCache.set(target, ids);
+		}
+		return ids;
+	}
+
 	for (const file of files) {
 		const html = await readFile(file, 'utf-8');
 		let match;
 		while ((match = hrefRe.exec(html))) {
-			const href = match[1];
-			if (!href.startsWith('/')) continue; // external, mailto:, tel:, etc.
+			const href = match[1].replace(/&amp;/g, '&');
+			if (!href.startsWith('/') && !href.startsWith('#')) continue; // external, mailto:, tel:, etc.
 			checkedCount++;
-			const target = resolveTarget(href);
-			if (!(await existsCached(target))) {
+			const target = resolveTarget(href, file);
+			let problem = null;
+			if (!(await existsCached(target))) problem = href;
+			else {
+				const fragment = fragmentOf(href);
+				// "#" and "#top" are the browser's own; an .html target is the only place ids can be looked up
+				if (fragment && fragment !== 'top' && target.endsWith('.html') && !(await idsOf(target)).has(fragment)) {
+					problem = `${href}  (no element with that id)`;
+				}
+			}
+			if (problem) {
 				brokenCount++;
 				const rel = path.relative(DIST, file);
 				if (!bySource.has(rel)) bySource.set(rel, []);
-				bySource.get(rel).push(href);
+				bySource.get(rel).push(problem);
 			}
 		}
 	}
 
 	if (brokenCount === 0) {
-		console.log(`OK — checked ${checkedCount} internal links across ${files.length} pages, none broken.`);
+		console.log(`OK — checked ${checkedCount} internal links across ${files.length} pages, none broken (fragments included).`);
 		return;
 	}
 

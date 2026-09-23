@@ -11,7 +11,8 @@
     "preview": "astro preview",
     "astro": "astro",
     "convert:docx": "node scripts/convert-docx.mjs",
-    "check:links": "node scripts/check-links.mjs"
+    "check:links": "node scripts/check-links.mjs",
+    "check:formulas": "node scripts/check-formulas.mjs"
   },
   "dependencies": {
     "@astrojs/markdown-remark": "^7.3.1",
