@@ -16,7 +16,7 @@ Vypravěč:		er\-forma
 
 Postavy:	__Klapzuba__ – starý, chytrý, vynalézavý, přísný trenér, kterému ale nechybí smysl pro humor\. I přes úspěch svůj i svých synů zůstává stále stejný
 
-			__synové__ – sportovci, čestní, hodní, pracovití
+__synové__ – sportovci, čestní, hodní, pracovití
 
 Vyprávěcí způsoby:	přímá řeč, nepřímá řeč
 

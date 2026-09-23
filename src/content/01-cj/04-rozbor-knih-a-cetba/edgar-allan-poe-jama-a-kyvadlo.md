@@ -22,13 +22,13 @@ tags: ["mimo-seznam-cetby"]
 
 HOROR = je označení prozaického a filmového žánru jehož námět i děj  jsou vedeny se záměrem
 
-                 vyvolávat u čtenáře či diváka pocity strachu a hrůzy
+vyvolávat u čtenáře či diváka pocity strachu a hrůzy
 
 DETEKTIVKA = je považován za otce detektivního žánru, vytvořil prvního detektivního amatéra C\.
 
-                          Augustina Dupina, který řešil složité a záhadné případy typickou úvahou a
+Augustina Dupina, který řešil složité a záhadné případy typickou úvahou a
 
-                         zkoumáním místa činu
+zkoumáním místa činu
 
 __Jáma a Kyvadlo__
 
@@ -48,11 +48,11 @@ literární forma: próza
 
 Jazyk: autor používá výhradně spisovný jazyk, v českém překladyu se oběvují zastaralé výrazy
 
-           \(archaismy\)
+\(archaismy\)
 
 postavy: trestanec \- \(jméno není uvedeno\), kacíř, který je inkvizičním soudem odsouzen k trestu smrti
 
-                generál Fr\. armády – zahrání na konci trestance
+generál Fr\. armády – zahrání na konci trestance
 
 Místo děje :  Věznice v Toledu
 

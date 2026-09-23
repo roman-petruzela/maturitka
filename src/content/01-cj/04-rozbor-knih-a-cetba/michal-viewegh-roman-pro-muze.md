@@ -16,19 +16,19 @@ __Období:__  současná literatura od 1989 dodnes
 
 __Postavy:__  Cyril \- zkorumpovaný soudce, sobec
 
-                  Bruno \- novinář regionálního tisku, trpí nemocí
+Bruno \- novinář regionálního tisku, trpí nemocí
 
-                  Aneta \- nejmladší novinářka, věří v ideál lásky, neodporuje Cyrilovi
+Aneta \- nejmladší novinářka, věří v ideál lásky, neodporuje Cyrilovi
 
-                   Tali \- lehká slečna, Cyril jí koupí Brunovi, pak spolu zůstanou
+Tali \- lehká slečna, Cyril jí koupí Brunovi, pak spolu zůstanou
 
-                  Reneta \- manželka Bruna
+Reneta \- manželka Bruna
 
-                  Alan \- děvkař, měl Anetu a tajil jí manželku i děti
+Alan \- děvkař, měl Anetu a tajil jí manželku i děti
 
-                  Šimi \- fotbalista sparty, bavil se s Reném
+Šimi \- fotbalista sparty, bavil se s Reném
 
-                   René \- chodil s Tali
+René \- chodil s Tali
 
 1\. Část \- Začíná to svatbou Bruna s Renatou\. Cyril jako soudce nejezdí škodou, ale favoritem\. Cyril Brunovi doveze nový kvádro a šampaňské\. Autorovi je 26 let, bydlí chudobě a bojí se, že ho přijedou navštívit bývalé spolužačky ze školy\.\. Nakonec to skončí tak že jede do Prahy, kde se jeho život obrátí k lepšímu
 

@@ -33,15 +33,15 @@ __Prostředí__: Paříž 1670
 
 __postavy__	 Harpagon: lichvář a skrblík, myslí vždy a pouze na zisk, vdovec, chamtivý, 					bezcitný,
 
-	Kleantes: Harpagonuv syn, chce si vzít Marianu, chytrý, podnikavý
+Kleantes: Harpagonuv syn, chce si vzít Marianu, chytrý, podnikavý
 
-	Mariana: chudá a hodná dívka, je zamilovaná do Kleantes, myslí na ni 			Harpagon
+Mariana: chudá a hodná dívka, je zamilovaná do Kleantes, myslí na ni 			Harpagon
 
-	Štika: sluha Kleantese, je velice mazaný
+Štika: sluha Kleantese, je velice mazaný
 
-	Eliška: Harpagonova dcera, je zamilovaná do Valéra
+Eliška: Harpagonova dcera, je zamilovaná do Valéra
 
-	Váler: správce v domě Harpagona, je zamilován do Elišky
+Váler: správce v domě Harpagona, je zamilován do Elišky
 
 __kompozice__: komediální zápletky, hra psána formou prózy, chronologie, metafory, ironie, nadsázka, 		hyperbola
 

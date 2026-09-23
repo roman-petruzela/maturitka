@@ -16,13 +16,13 @@ __Literární žánr:__ novela
 
 __Další díla :__ 	Národní báchorky a pověsti /1845\-1847/
 
-		Slovanské pohádky a pověsti / 1857\-1858/
+Slovanské pohádky a pověsti / 1857\-1858/
 
-		Obrazy z okolí Domažlického
+Obrazy z okolí Domažlického
 
-		Babička – Obrazy z venkovského života – /1855/
+Babička – Obrazy z venkovského života – /1855/
 
-		povídky – Baruška /1853/, Dobrý člověk /1858/, Pan učitel /1860/, Pohorská vesnice, /1856/, V zámku a podzámčí / 1856/\.
+povídky – Baruška /1853/, Dobrý člověk /1858/, Pan učitel /1860/, Pohorská vesnice, /1856/, V zámku a podzámčí / 1856/\.
 
 __Místo a doba děje:__ Vesnice Vestec, 19\. století
 

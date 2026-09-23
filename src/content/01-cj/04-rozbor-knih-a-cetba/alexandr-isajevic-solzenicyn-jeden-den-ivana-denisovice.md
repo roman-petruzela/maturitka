@@ -16,15 +16,15 @@ __Období:__  50\. léta 20\. stol\.
 
 __Postavy:__  Ivan Děnisovič Šuchov \- hlavní postava, poctivý člověk, vždy odvede svojí práci
 
-                  Andrej Prokofijevič Ťurin \- vedoucí brigády, ví koho a jak podplatit
+Andrej Prokofijevič Ťurin \- vedoucí brigády, ví koho a jak podplatit
 
-                  Estonci \- dělali vše spolu, říkali o sobě že jsou bratři
+Estonci \- dělali vše spolu, říkali o sobě že jsou bratři
 
-                  Lotyš Kylgas \- vtipný, všichni ho mají rádi
+Lotyš Kylgas \- vtipný, všichni ho mají rádi
 
-                  Gopčík \- mladičký, nedospělý
+Gopčík \- mladičký, nedospělý
 
-                  Dozorci ve vězení \- vylívají si na něm vztek
+Dozorci ve vězení \- vylívají si na něm vztek
 
 Dílo opravdu pojednává o jednom lednovém dni jistého Ivana Děnisoviče Šuchova\. Je odsouzen za vlastizradu jako pracovník v táboře na 10 let\.
 
@@ -49,9 +49,9 @@ __Historické pozadí \- Evropa 1945\-1989__
 
 __Alexandr Solženicyn \-__ v roce 1945 byl zatčen, pochyboval o Stalinovi, 1957 byl rehabilitován, 1973 nobelová cena, 1994 se vrátil do Ruska, kde zemřel
 
-                                       Rakovina \- román, o vyhnanci, který sdílí pokoj s ostatními pacienty
+Rakovina \- román, o vyhnanci, který sdílí pokoj s ostatními pacienty
 
-                                       Souostroví Gulag \- trilogie, popisování sovětských táborů
+Souostroví Gulag \- trilogie, popisování sovětských táborů
 
 __Albert Camus__ \-nobelová cena , spisovatel, filozof, odpor proti okupantům jako redaktor ileg\. novin
 
@@ -85,7 +85,7 @@ __Alberto Moravia \-__ 3x ženat, představitel neorealismu \- Římanka \- obra
 
 - Horalka \- o obchodnici, která popisuje vztahy
 
-                                                                                                                    mezi lidmi
+  mezi lidmi
 
 __Umberto Eco \-__ Růže \- v hlavní roli mnicha z Baskervillu
 

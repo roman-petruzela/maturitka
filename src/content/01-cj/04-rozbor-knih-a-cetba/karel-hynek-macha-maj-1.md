@@ -33,7 +33,7 @@ __Jarmila__ \- krásná, nešťastná; zamilovaná do Viléma; poctivá, oddan�
 __poutník Hynek__ \- vystupuje ve 4\. zpěvu, sám autor; zamyšlený, vrací se k Vilémovu popravišti
 __otec Viléma__ \- nečestný; svůdce Jarmily
 
-      __Kat__ \- spravedlivý
+__Kat__ \- spravedlivý
 
 - Téma, motiv
 - Kompoziční výstavba

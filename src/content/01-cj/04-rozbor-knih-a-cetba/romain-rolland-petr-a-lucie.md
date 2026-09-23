@@ -31,13 +31,13 @@ filozofické otázky, symbolika
 
 \(rusovlasá dívka – blížící se smrt\)
 
-		přechodníky
+přechodníky
 
 Tropy a figury a jejich funkce ve výňatku: 		metafora \(Vlna smrti ho již zanedlouho odnese\)
 
 přirovnání \(šero naplňovalo chrámovou loď jako olej posvátnou nádobkou\)
 
-		personifikace \(ledová mlha je rozechvěla, chvějící se hvězdy\)
+personifikace \(ledová mlha je rozechvěla, chvějící se hvězdy\)
 
 Kontext autorovy tvorby:	Dílo vzniklo v roce 1920, 2 roky po samotné zažité tragédii
 
@@ -47,13 +47,13 @@ Světová literatura 1\. pol\. 20\. stol\., která trvala do roku 1945\. Literat
 
 3 proudy:	__1\) proud realistický__ – autoři se vrací k realismu, používají klasické umělecké prostředky, dochází k zaměření se na psychický a citový život jedince \(autoři ztracené generace\)
 
-	__2\) proud experimentální__ – experimentace ve způsobu vyprávění, s jazykem, ubývá dějovosti, složitá symbolika, prvky absurdity, čtenář si musí dost sám domýšlet, konfrontace vnitřního světa s okolím \(Kafka\)
+__2\) proud experimentální__ – experimentace ve způsobu vyprávění, s jazykem, ubývá dějovosti, složitá symbolika, prvky absurdity, čtenář si musí dost sám domýšlet, konfrontace vnitřního světa s okolím \(Kafka\)
 
-	____představitelé:__ Marcel Proust __\(Hledání ztraceného času – román\)
+__představitelé:__ Marcel Proust \(Hledání ztraceného času – román\)
 
-		__James Joyce__ \(Odysseus\)		__Virginie Woolfová__ \(K majáku, Orlando\)
+__James Joyce__ \(Odysseus\)		__Virginie Woolfová__ \(K majáku, Orlando\)
 
-	__3\) proud překračující tabu__ – zobrazovaly se erotické náměty, sex a homosexualita vznikají nová uskupení a hnutí \(PEN klub\), spisovatele spojuje i rozděluje světový i politický názor, především důležitý postoj k válkám, náboženství, fašismu, demokracii, komunismu, nacismu
+__3\) proud překračující tabu__ – zobrazovaly se erotické náměty, sex a homosexualita vznikají nová uskupení a hnutí \(PEN klub\), spisovatele spojuje i rozděluje světový i politický názor, především důležitý postoj k válkám, náboženství, fašismu, demokracii, komunismu, nacismu
 
 O autorovi:
 
@@ -68,11 +68,11 @@ O autorovi:
 
 Dílo: 	__životopisy__ – Tolstoj, Beethoven, Gándhí, Michelangelo
 
-               __romány__ – Jan Kryštof \(nejznámější, román – řeka\), Okouzlená duše
+__romány__ – Jan Kryštof \(nejznámější, román – řeka\), Okouzlená duše
 
-               __povídky__ – Dobrý člověk ještě žije
+__povídky__ – Dobrý člověk ještě žije
 
-               __divadelní hry__ – Tragédie víry, Obléhání Mantovy
+__divadelní hry__ – Tragédie víry, Obléhání Mantovy
 
 Tvořili ve stejné době jako R\. Rolland
 

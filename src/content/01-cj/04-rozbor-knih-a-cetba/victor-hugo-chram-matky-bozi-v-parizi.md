@@ -45,13 +45,13 @@ Zachována jednotná dějová linie
 
 - lexikální prostředky: Běžné
 
-                        Hovorové
+  Hovorové
 
-                        Knižní
+  Knižní
 
-                        Archaismy
+  Archaismy
 
-                        Historismy
+  Historismy
 
 - Převládají dialogy
 

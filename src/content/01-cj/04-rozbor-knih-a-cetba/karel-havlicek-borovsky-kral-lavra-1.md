@@ -8,13 +8,13 @@ __Autor:__              \-Karel Havlíček Borovský
 
 - Český básník, publicista a literární kritik, stal se klasikem
 
-                            české politické satiry
+české politické satiry
 
-                         \-Realismus, 2\.generace Národního obrození
+\-Realismus, 2\.generace Národního obrození
 
 - Založil vlastní noviny – Národní noviny
 
-                         \-Psal epigramy – krátké satirické básně
+\-Psal epigramy – krátké satirické básně
 
 __Současníci :__    \- Božena Němcová, Karel Jaromír Erben
 
@@ -28,11 +28,11 @@ __Směr :__               \- Realismus, 2\. generace národního obrození
 
 __Postavy :__          \-__Král Lávra__ \- Starý dobrý král, lidé ho měli rádi, byl
 
-                           moudrý a oblíbený, rovněž přihlouplý
+moudrý a oblíbený, rovněž přihlouplý
 
-                         \-__Kukulín__ \- Holič, utrápený s potřebou se svěřit, syn vdovy
+\-__Kukulín__ \- Holič, utrápený s potřebou se svěřit, syn vdovy
 
-                         \-__Poustevníček__
+\-__Poustevníček__
 
 ((obrázek vynechán))                         \-__Červíček__ \- Hráč na kontrabas
 
@@ -46,4 +46,4 @@ __Prostředí:__            \- Čechy, avšak v cizím světě
 
 __Jazykový styl:__      \-Spisovný, humorný, zastaralý, nepravidelné verše
 
-	\-Metafory, fabule, metonymie, personifikace, elipsa
+\-Metafory, fabule, metonymie, personifikace, elipsa

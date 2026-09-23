@@ -31,13 +31,13 @@ __POSTAVY__ = Kvido \- neohrabaný, tlustý, nadprůměrně inteligentní
 
 - autorovo alter ego
 
-                = Jaruška \- životní láska Kvida, alergická na všechno
+  = Jaruška \- životní láska Kvida, alergická na všechno
 
-                = Kvidův otec \- inteligentní člověk, chudých poměrů, odmítá komunistickou str\.
+  = Kvidův otec \- inteligentní člověk, chudých poměrů, odmítá komunistickou str\.
 
-                = Kvidova matka \- právnička, herečka, inteligentní, milující a ochotná
+  = Kvidova matka \- právnička, herečka, inteligentní, milující a ochotná
 
-                = Paco \- Kvidův bratr, chová se jako kovboj
+  = Paco \- Kvidův bratr, chová se jako kovboj
 
 __VYPRÁVĚCÍ ZPŮSOB__ = Přímá řeč
 
@@ -51,7 +51,7 @@ __JAZYKOVÉ PROSTŘEDKY__ = Spisovný jazyk a nespisovný jazyk \(postavy\)
 
 __TROPY__ = Eufemismy
 
-            = Ironie
+= Ironie
 
 __Literárně historický kontext__
 

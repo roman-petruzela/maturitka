@@ -18,11 +18,11 @@ Vypravěč:		Er\-forma – neznámý vypravěč
 
 Postavy:	__Král Lávra__ – dobrý panovník, nechce, aby někdo věděl jeho tajemství – stydí se za uši
 
-	__Kukulín__ – holič, čestný, spravedlivý, bojácný, smířený s osudem, utrápený s potřebou se svěřit \- upovídaný
+__Kukulín__ – holič, čestný, spravedlivý, bojácný, smířený s osudem, utrápený s potřebou se svěřit \- upovídaný
 
-	__Kukulínova matka__ – vdova, milující, zachránila syna před šibenicí
+__Kukulínova matka__ – vdova, milující, zachránila syna před šibenicí
 
-	__Muzikant Červíček__ – český muzikant, hráč na kontrabas, ztratil kolíček, a tak si vzal větvičku z vrby, která později prozradila Lávrovo tajemství
+__Muzikant Červíček__ – český muzikant, hráč na kontrabas, ztratil kolíček, a tak si vzal větvičku z vrby, která později prozradila Lávrovo tajemství
 
 Vyprávěcí způsoby:	spisovný jazyk, přímá řeč, neznámý vypravěč, prostý text, styl vyprávěcí
 
@@ -68,9 +68,9 @@ Literární / obecně kulturní kontext
 
 Dílo:   __Tyrolské elegie__ – příběh o deportaci policií do Brixenu
 
-	__Křest svatého Vladimíra__ – nedokončená skladba
+__Křest svatého Vladimíra__ – nedokončená skladba
 
-	__Epigramy –__ krátký básnický satirický útvar s expozicí a pointou \(církvi, králi, vlasti, múzám a světu\)
+__Epigramy –__ krátký básnický satirický útvar s expozicí a pointou \(církvi, králi, vlasti, múzám a světu\)
 
 __Satira__ – využívá humoru ke kritice, Ironie – vtipné a výsměšné vyjádření využívající protikladu, __Sarkasmus__ – hořká ironie, jízlivý posměšek
 
@@ -108,7 +108,7 @@ Rusko:     Nikolaj Vasilejevič __GOGOL__ \(Mrtvé duše, Revizor, petrohradské
 
 U Nás:	__Božena__ __Němcová__ \(Babička, Divá Bára, Karla, V zámku a podzámčí, Obrazy z okolí domažlického\)
 
-	Karel Havlíček Borovský
+Karel Havlíček Borovský
 
 Obsah:
 

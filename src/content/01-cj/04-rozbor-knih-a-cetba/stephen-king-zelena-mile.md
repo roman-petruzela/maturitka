@@ -59,7 +59,7 @@ O autorovi:
 
 Dílo: __horory__: Povznesení, Černočerná tma, Svědectví, Carrie, Temná věž, Mrtvá zóna, Čtyři roční doby, Noční směna, Dračí oči, Prokletí Salemu atd\.
 
-	__zfilmované:__ Carrie, Mrtvá zóna, Srdce v Atlantidě, Mlha, Stůj při mně, Vykoupení z věznice Shawshank, Osvícení, Misery nechce zemřít, Doktor spánek, Řbitov zvířátek, To
+__zfilmované:__ Carrie, Mrtvá zóna, Srdce v Atlantidě, Mlha, Stůj při mně, Vykoupení z věznice Shawshank, Osvícení, Misery nechce zemřít, Doktor spánek, Řbitov zvířátek, To
 
 Obsah:
 
@@ -67,9 +67,9 @@ Paul Edgecombe přeskakuje mezi různými etapami svého života a celý příb�
 
 Spolu s ním zde pracovali ještě Dean, Harry, Brutus Howell zvaný Kruťas a Percy, zbabělý a bezcharakterní dozorce, který těží ze svých známostí a libuje si v šikanování vězňů\. Jednoho dne se na míli objeví myš, kterou dozorci pojmenují Parníkový Willy\. Je velmi inteligentní a všichni, kromě Percyho, si ji oblíbili\. Později si ji ochočil vězeň Delacroix, říkal jí pan Cinkal\. Na podzim roku 1932 je přiveden na blok John Coffey, obrovský černoch odsouzený za znásilnění a vraždu dvojčat Detterickových\. Pořád sedí ve své cele a pláče\. Paul v té době trpí bolestivou infekcí močového měchýře, kterou ho John zbaví pouhým dotykem\. Vysátou nemoc pak John ze sebe vydechne v podobě oblaku hmyzu, který pak zanikne\.
 
-	Do cely smrti přichází další vězeň William Wharton, který se hned při příchodu pokusí zabít Deana, \(tím že se ho řetězem snaží uškrtit\) a i později dělá potíže, také napadne Percyho\. Je proto několikrát zavřen ve svěrací kazajce do izolované místnosti\. Del si hraje s panem Cinkalem\. Háže mu cívku a on ji přikutálí zpět\. Jednou se však cívka odrazí na chodbu, kde Percy myšáka zašlápne\. Paul podá myš Johnovi a ona v jeho rukou jako zázrakem ožije\. Paul začíná uvažovat, že když John pomohl jemu i panu Cinkalovi, mohl by to dokázat i s ženou správce Hala Moorese, Mellindou, které zjistili neoperovatelný tumor mozku\.
+Do cely smrti přichází další vězeň William Wharton, který se hned při příchodu pokusí zabít Deana, \(tím že se ho řetězem snaží uškrtit\) a i později dělá potíže, také napadne Percyho\. Je proto několikrát zavřen ve svěrací kazajce do izolované místnosti\. Del si hraje s panem Cinkalem\. Háže mu cívku a on ji přikutálí zpět\. Jednou se však cívka odrazí na chodbu, kde Percy myšáka zašlápne\. Paul podá myš Johnovi a ona v jeho rukou jako zázrakem ožije\. Paul začíná uvažovat, že když John pomohl jemu i panu Cinkalovi, mohl by to dokázat i s ženou správce Hala Moorese, Mellindou, které zjistili neoperovatelný tumor mozku\.
 
-	Následující noci se koná poprava Eduarda Delacroixe\. Aby se blok E mohl zbavit Percyho, tak musel Paul slíbit Halovi, že Percy provede popravu Delacroixe\. Percy však z nesnášenlivosti k němu a myšákovi mu úmyslně dá na hlavu suchou houbu, a tak je Del upálen zaživa na jiskřidle\. Což je pro samotné diváky, kteří mu smrt přáli, obrovská pohroma\.
+Následující noci se koná poprava Eduarda Delacroixe\. Aby se blok E mohl zbavit Percyho, tak musel Paul slíbit Halovi, že Percy provede popravu Delacroixe\. Percy však z nesnášenlivosti k němu a myšákovi mu úmyslně dá na hlavu suchou houbu, a tak je Del upálen zaživa na jiskřidle\. Což je pro samotné diváky, kteří mu smrt přáli, obrovská pohroma\.
 
 Paul seznamuje ostatní s plánem na záchranu Mellindy\. Všichni souhlasí a jedné noci tedy podají v nápoji Whartonovi prášky na spaní, Percyho zavřou na samotku a vydají se k Mooresům, kde obr vysaje z paní nemoc, ale nevyplivne ji jako vždy předtím, nechá ji v sobě a vypadá tedy, že se nedožije ani své popravy\. Po návratu jdou bachaři pustit Percyho\. John ho chytne a přenese do něj Mellindinu nemoc\. Percy se zblázní, zastřelí Whartona a je zavřen do ústavu\. Paul si začne dávat dohromady souvislosti, které zjistil a dojde mu, že vrahem těch dvou holčiček je právě Divokej Bill Wharton\. Potvrdí mu to i John, jenž si to uvědomil, když se ho Wharton dotkl\. Paul to poví ostatním, ale s rychle se blížící popravou nemůžou nic dělat\. Coffey je černoch, tudíž šance, že by byl případ znovu otevřen, je nulová, a tak je tento 'boží dar' popraven\. Před popravou si s ním všichni dozorci ještě podají ruku\.
 
@@ -91,19 +91,19 @@ Vypravěč:		Er \- forma
 
 Postavy:	__Carrie Whiteová__ \-17létá studentka oplácané postavy, ze začátku popisována jako neatraktivní, ráda šila šaty, ovládá telekinezi již od dětství, ve škole je terčem posměchu kvůli neznalosti menstruace, při vyhlídkách na lepší dny žertík zruinuje její osobnost
 
-	__matka Margaret Whiteová__ – náboženská fanatička snažící se ženu vychovat v náboženské askezi, tyranizuje ji a ke konci ji chce dokonce zabít
+__matka Margaret Whiteová__ – náboženská fanatička snažící se ženu vychovat v náboženské askezi, tyranizuje ji a ke konci ji chce dokonce zabít
 
-	__učitelka Desjardinová__ – tělocvikářka využívající ostré metody, aby sjednala spravedlnost
+__učitelka Desjardinová__ – tělocvikářka využívající ostré metody, aby sjednala spravedlnost
 
-	__ředitel Henry Grayle__ – postaví se za správnou věc a zastane se Carrie, ačkoliv otec od Chris chce školu kvůli nedorozumění s maturitním plesem zažalovat – nemůže se ho zúčastnit
+__ředitel Henry Grayle__ – postaví se za správnou věc a zastane se Carrie, ačkoliv otec od Chris chce školu kvůli nedorozumění s maturitním plesem zažalovat – nemůže se ho zúčastnit
 
-	__Chris Hargensová__ – mezi kluky oblíbená, pomstychtivá, zákeřná, posměvačná, nedodržuje pravidla, využívá Billyho, aby ji sehnal prasečí krev
+__Chris Hargensová__ – mezi kluky oblíbená, pomstychtivá, zákeřná, posměvačná, nedodržuje pravidla, využívá Billyho, aby ji sehnal prasečí krev
 
-	__Sue Snellová__ – přítelkyně Tommyho, ze začátku se Carrie ve sprchách rovněž posmívala, ale chce to odčinit tím, že ji Tommy pozve na ples, který si s ním užije a dá ji naději
+__Sue Snellová__ – přítelkyně Tommyho, ze začátku se Carrie ve sprchách rovněž posmívala, ale chce to odčinit tím, že ji Tommy pozve na ples, který si s ním užije a dá ji naději
 
-	__Tommy Ross__ – chodí se Sue, hodný, milý, oblíbený, kapitán fotbalového týmu
+__Tommy Ross__ – chodí se Sue, hodný, milý, oblíbený, kapitán fotbalového týmu
 
-	__Billy, 2 jeho kamarádi, otec od Chris \(advokát\), šerif Doyle, Ralph__
+__Billy, 2 jeho kamarádi, otec od Chris \(advokát\), šerif Doyle, Ralph__
 
 Vyprávěcí způsoby:	přímá řeč, nepřímá řeč
 
@@ -121,25 +121,25 @@ __Světoví spisovatelé 2\. pol\. 20\. stol:__
 
 VB: 	__Gerald William Golding__ – Pán much, Pyramida, Volný pád		__Patrick Ryan__ – Jak jsem vyhrál válku
 
-	__Graham Green__ – Tichý Američan	__Salman Rushdie__ – Satanské verše		__James Clavell__ – Král krysa
+__Graham Green__ – Tichý Američan	__Salman Rushdie__ – Satanské verše		__James Clavell__ – Král krysa
 
 FR: 	__Pierre Boulle__ – Most přes řeku Kwai, Planeta opic		__Robert Marle__ – Smrt je mým řemeslem, Malevil
 
-		__Marce Pagnol__ – Jak voní tymián				__Boris Vian__ – Naplivu na vaše hroby
+__Marce Pagnol__ – Jak voní tymián				__Boris Vian__ – Naplivu na vaše hroby
 
 NĚM: 	__Henrich Bőll__  \- Vlak přijel přesně, Biliár o půl desáté	__Gunter Grass__ – Plechový bubínek
 
-	__Johanes Mario Simmel__ – Láska je jen slovo, Všichni lidé bratry jsou
+__Johanes Mario Simmel__ – Láska je jen slovo, Všichni lidé bratry jsou
 
 USA:	__Woody Allen__ – Co všechno chcete vědět o sexu a bojíte se zeptat, Láska a smrt 	__Joseph Heller__ – Hlava XXII
 
-	__Truman Capote__ – Snídaně u Tiffanyho 	__Edgar Lawrence Doctorow__ \- Ragtime
+__Truman Capote__ – Snídaně u Tiffanyho 	__Edgar Lawrence Doctorow__ \- Ragtime
 
-	__Robert Fulghum__ – Všechno co potřebuji znát, jsem se naučil v mateřské školce	__W\. Styron__ – Sophiina volba
+__Robert Fulghum__ – Všechno co potřebuji znát, jsem se naučil v mateřské školce	__W\. Styron__ – Sophiina volba
 
-	__John Irving__ – Svět podle Garpa, Pravidla moštárny	__Ken Kesey__ – Vyhoďme ho z kola ven
+__John Irving__ – Svět podle Garpa, Pravidla moštárny	__Ken Kesey__ – Vyhoďme ho z kola ven
 
-	__John Updike__ – Králíku, utíkej	 __Kurt Vonnegut__ – Groteska	__Betty McDonaldová__ – Vejce a já, Co mi život dal a vzal	__Agata Christie__ – Vražda v Orient\-Expresu	__Dan Brown__ – Inferno, Andělé a démoni	__Jonas Jonason__
+__John Updike__ – Králíku, utíkej	 __Kurt Vonnegut__ – Groteska	__Betty McDonaldová__ – Vejce a já, Co mi život dal a vzal	__Agata Christie__ – Vražda v Orient\-Expresu	__Dan Brown__ – Inferno, Andělé a démoni	__Jonas Jonason__
 
 Obsah:
 

@@ -62,9 +62,9 @@ Archaické období \- 8\. až 6\. stol\. př\. n\. l\.,  řecká myt\. byla dato
 
 - Dílo: Ilias \- veršovaný hrd\. epos, tvoří jej 24 zpěvů s více než 15 000 verši, děj zach\. troj\. v\.
 
-                                           Odyssea \- verš\. hrd\. epos, 24 zpěvů asi 12 000 veršů, popisuje cestu ithackého krále
+  Odyssea \- verš\. hrd\. epos, 24 zpěvů asi 12 000 veršů, popisuje cestu ithackého krále
 
-                                                             Odyssea z Trojské války
+  Odyssea z Trojské války
 
 - Ezop \- tvůrce bajek
 
@@ -80,7 +80,7 @@ Klasické \(attaické\) období \- 5\. stol\. př\.n\.l\., vznik a rozvoj tragé
 
 - Dílo: Antigona \- pohřbí tělo svého bratra, který si dovolil zaútočit na Théby, aby
 
-                                                                              získal trůn, Kreont chce popravit Antigonu, nechá ji zazdít
+  získal trůn, Kreont chce popravit Antigonu, nechá ji zazdít
 
 - Euripides \- vynikal ve zpěvu, tanci, atletice, narodil se v zámožné rodině
 

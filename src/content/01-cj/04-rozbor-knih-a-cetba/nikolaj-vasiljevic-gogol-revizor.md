@@ -77,7 +77,7 @@ __Bobčinskij a Dobčinskij__ \- oba jsou podsadití, menšího vzrůstu, stejn
 
 __Poštmistr__ \- naivní, prostoduchý, nesoustředěný, stručně řečeno jednoduchý; v každé scéně vystupuje opilý, jeho jedinou zábavou je tajně rozlepovat a číst cizí dopisy
 
-       __Osip__ \- Chlestakovův sluha, mazaný člověk, sice již starší, avšak o to protřelejší a drzejší\. Ke svému pánovi nechová příliš velkou úctu a často odmlouvá, ale přesto ho má rád a snaží se, aby nepřišel k nějaké újmě
+__Osip__ \- Chlestakovův sluha, mazaný člověk, sice již starší, avšak o to protřelejší a drzejší\. Ke svému pánovi nechová příliš velkou úctu a často odmlouvá, ale přesto ho má rád a snaží se, aby nepřišel k nějaké újmě
 
 __Kontext autorovy tvorby__
 
@@ -120,9 +120,9 @@ Objevuje se v literatuře od 2 poloviny 19\. Století\.
 
 Další autoři této doby: Fjodor Michajlovič Dostojevskij
 
-             Lev Nikolajevč Tolstoj
+Lev Nikolajevč Tolstoj
 
-             Anton Pavlovič Čechov
+Anton Pavlovič Čechov
 
 __Děj :__
 

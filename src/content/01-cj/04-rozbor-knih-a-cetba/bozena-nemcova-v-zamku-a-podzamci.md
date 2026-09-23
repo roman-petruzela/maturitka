@@ -32,9 +32,9 @@ Děj: Odehrává se na zámku kde sídlí pán a paní Skočdopolovi a v podzám
 
 Charakteristika postav: Vojtíšek – hodný chlapec, stará se o psíka paní Skočdopole
 
-	Paní Skočdopole – v nitru hodná ale je ovlivňována mamsel Sárou, po 	uzdravení na povrch vyplouvá její dobrota
+Paní Skočdopole – v nitru hodná ale je ovlivňována mamsel Sárou, po 	uzdravení na povrch vyplouvá její dobrota
 
-	mamsel Sára – pracuje u paní Skočdopole, jde jí o její vlastní prospěch, 	spřádá intriky
+mamsel Sára – pracuje u paní Skočdopole, jde jí o její vlastní prospěch, 	spřádá intriky
 
 Prostředí : v zámku a v podzámčí nedaleko Nymburka v polovině 19\. století
 

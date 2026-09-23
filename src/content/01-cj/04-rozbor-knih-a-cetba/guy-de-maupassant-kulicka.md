@@ -65,9 +65,9 @@ Literární / obecně kulturní kontext
 
 Dílo: 	povídky: Kulička, Marná krása,
 
-	romány: Příběh jednoho života, Miláček, Naše srdce
+romány: Příběh jednoho života, Miláček, Naše srdce
 
-	divadelní hra: Domácí mír
+divadelní hra: Domácí mír
 
 __REALISMUS__
 
@@ -97,13 +97,13 @@ Další autoři realismu:
 
 Francie:	 __Honoré de Balzac__ \(Lidská komedie \- Otec Goriot, Ztracená Iluze, Lesk a bída kurtizán\)
 
-	 __Gustav Flaubert__ \(Paní Bovaryová\)	__Jules Verne__ \(Cesta do středu Země\)
+__Gustav Flaubert__ \(Paní Bovaryová\)	__Jules Verne__ \(Cesta do středu Země\)
 
-	 __Emil Zola__ = naturalismus \(cyklus románů Les Rougon – Macquart: Zabiják, Břicho Paříže\)
+__Emil Zola__ = naturalismus \(cyklus románů Les Rougon – Macquart: Zabiják, Břicho Paříže\)
 
 Anglie:	 __Charles Dickens__ \(Oliver Twist, Kronika Pickwickova klubu, David Copperfield, Malá Doritka\)
 
-	__Charlotte Bronteová__ \(Jana Eyrová\)	__Emily Bronteová__ \(Na větrné hůrce\)
+__Charlotte Bronteová__ \(Jana Eyrová\)	__Emily Bronteová__ \(Na větrné hůrce\)
 
 Polsko: 	__Henryk Sienkiewicz__ \(Quo Vadis\)		Norsko: __Henrik Ibsen__ \(Nora\)
 
@@ -113,7 +113,7 @@ Rusko:   	__Nikolaj Vasilejevič GOGOL__ \(Mrtvé duše, Revizor, petrohradské 
 
 U Nás:	__Božena Němcová__ \(Babička, Divá Bára, Karla, V zámku a podzámčí, Obrazy z okolí domažlického\)
 
-	__Karel Havlíček Borovský__ \(Král Lávra, Tyrolské elegie\)
+__Karel Havlíček Borovský__ \(Král Lávra, Tyrolské elegie\)
 
 Obsah:
 

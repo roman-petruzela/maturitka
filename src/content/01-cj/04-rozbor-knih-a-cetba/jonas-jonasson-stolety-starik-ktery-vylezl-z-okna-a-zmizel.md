@@ -16,19 +16,19 @@ Vypravěč:		Ich\-forma a Er\-forma
 
 Postavy:	__Alan Karlsson__ – apatický fatalista, 100letý stařík, vitální, zbožňuje popíjet kořalku, extrovert, ačkoliv není fyzicky zdatný uvnitř skrývá duši malého kluka, optimistický
 
-	__Detektiv Aronsson__ – vážný, zkoumavý, snažící se dělat svoji práci, co nejlépe dovede, není pomstychtivý, v závěru vlastně i lhostejný
+__Detektiv Aronsson__ – vážný, zkoumavý, snažící se dělat svoji práci, co nejlépe dovede, není pomstychtivý, v závěru vlastně i lhostejný
 
-	__Julius Jonsson__ – místní zlodějíček, tamními neoblíbený, ale povahově není zákeřný člověk, taky rád pije kořalku
+__Julius Jonsson__ – místní zlodějíček, tamními neoblíbený, ale povahově není zákeřný člověk, taky rád pije kořalku
 
-	__Benny__ – původně majitel  stánku, renesanční typ člověka, ve všech oborech velmi vzdělaný, bratr od Bosseho
+__Benny__ – původně majitel  stánku, renesanční typ člověka, ve všech oborech velmi vzdělaný, bratr od Bosseho
 
-	__Kráska \(Gunilla\)__ – zrzavá vulgárně mluvící žena, libí se Benymu
+__Kráska \(Gunilla\)__ – zrzavá vulgárně mluvící žena, libí se Benymu
 
-	__Štika \(Šéf Gardin__\) – původně chtěl s Aronssonem vydělávat na masových kuličkách s formalínem, zloděj, v závěru dobrý chlapík
+__Štika \(Šéf Gardin__\) – původně chtěl s Aronssonem vydělávat na masových kuličkách s formalínem, zloděj, v závěru dobrý chlapík
 
-	__Šroub__ – agresivní, hloupý, zpomalený, nejchytřejší představitel z gangu Never Again, ale pořád hloupý neupravený
+__Šroub__ – agresivní, hloupý, zpomalený, nejchytřejší představitel z gangu Never Again, ale pořád hloupý neupravený
 
-	__Kýbl__ – představitel gangu, __Bosse__ – bratr od Benyho, který mu dlužil peníze, __Herbert Einstein, Slonice Soňa, Caracas__ \(gang\), __Amanda__ – servírka, __pes Buster, sestra Alice__
+__Kýbl__ – představitel gangu, __Bosse__ – bratr od Benyho, který mu dlužil peníze, __Herbert Einstein, Slonice Soňa, Caracas__ \(gang\), __Amanda__ – servírka, __pes Buster, sestra Alice__
 
 Vyprávěcí způsoby:	přímá řeč
 
@@ -51,7 +51,7 @@ Kontext autorovy tvorby:
 
 Dílo:	Analfabetka, která uměla počítat, Stojednaletý stařík, který se vrátil, aby zachránil svět,
 
-	Zabiják Anders a jeho přátelé \(a sem tam nepřítel\)
+Zabiják Anders a jeho přátelé \(a sem tam nepřítel\)
 
 Literární / obecně kulturní kontext		viz King – světoví spisovatelé 2\. pol\. 20\. století
 

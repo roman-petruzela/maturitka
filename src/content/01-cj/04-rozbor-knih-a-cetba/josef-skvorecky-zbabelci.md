@@ -152,7 +152,7 @@ Bohumil Hrabal (1914–1997)
 
 - _Ostře sledované vlaky, Obsluhoval jsem anglického krále, Slavnosti sněženek, Postřižiny_
 
-- Vladimír Páral (* 1932)
+- Vladimír Páral ( 1932)
 
 - pseudonym Jan Laban, chemický inženýr, pracovně spojen se severními Čechami
 
@@ -164,7 +164,7 @@ Bohumil Hrabal (1914–1997)
 
 - „černá pentalogie“ ( _Veletrh splněných přání, Soukromá vichřice, Katapult, Milenci a vrazi)_ , bílá pentalogie ( _Mladý muž a bílá velryba_ ), po revoluci rysy pornografie ( _Playgirls_ )
 
-- Milan Kundera (* 1929)
+- Milan Kundera ( 1929)
 
 - básník, dramatik, prozaik, esejista, překladatel
 

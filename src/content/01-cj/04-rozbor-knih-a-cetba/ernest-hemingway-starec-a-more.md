@@ -97,7 +97,7 @@ ztracená generace: \- skupina spisovatelů narozených kolem roku 1900
 
 - vyjadřují pocity vojáků po návratu z války \(vrátili se duševně zmrzačeni a měli
 
-                                      problémy se zařazením se do společnosti\)
+  problémy se zařazením se do společnosti\)
 
 - Téma, motiv
 - Kompoziční výstavba

@@ -14,13 +14,13 @@ __Období:__ 2\. polovina 19\. století
 
 __Postavy:__ Gervaisa \(milá, skromná\)
 
-                 Coupeau \(Gervaisin manžel, opilec\)
+Coupeau \(Gervaisin manžel, opilec\)
 
-                 Lantier \(Gervaisin bývalý přítel\)
+Lantier \(Gervaisin bývalý přítel\)
 
-                 Lorilleuxovi \(sestra Coupeaua\)
+Lorilleuxovi \(sestra Coupeaua\)
 
-                 Goujet \(kovář, zamilovaný do Gervaisy\)
+Goujet \(kovář, zamilovaný do Gervaisy\)
 
 Gervaisa se přestěhuje s dětmi Klaudiem a Štěpánem a s jejím manželem do Paříže\. Lantier zdědil peníze po své matce, tak věří, že se jim ve městě povede o dost líp\. Postupem času peníze ubývají, rozhazují je, kde se dá, a jsou nuceni se přestěhovat do hotelu nižší kvality, a Lantier dokonce podvádí Gervaisu s jinou\. Gervaisa pracuje jako pradlena u paní Fauconnierové, ale moc touží po tom, aby měla svou pradlenu\. Potom se seznámí s klempířem Coupeauem, potom je svatba a narodí se jim dcera Nana\. Za našetřené peníze si chtějí koupit vlastní prádelnu\. Coupeau pak bude mít úraz \- spadne ze střechy\. všechny úspory jdou na jeho léčení\. Bohužel v průběhu léčby zleniví, a pak začne pít \- Gervaisa ho musí živit\. Kovář Goujet se zamiluje do Gervaisy a pomáhá jim \- půjčuje jim peníze\. Lantier se pak vrací, začíná si rozumět s Coupeauem, nastěhuje se k nim\.  Propijou úplně všechny úspory, stěhují se do chudého bytu\. Coupeau se dostává do blázince a umírá\. Gervaisa z těchto údalosti také začíná pít a taky nakonec umírá\.
 
@@ -48,23 +48,23 @@ __Francie \-__ rozvíjí se spolu s romantismem, autoři píšou v duchu romanti
 
 __Honore de Balzac__ \- nejvýznamější tvůrce francouzského realismu, vystudoval práva, snažil se prosadit všelijakým způsobem, za celý život se zadlužil, měl dluhy a zemřel přepracováním\.
 
-		__Šuani \-__ román, příběh z období před francouzskou revolucí\. Zachycuje historické __*události v duchu realistického přístupu\.*__
+__Šuani \-__ román, příběh z období před francouzskou revolucí\. Zachycuje historické __*události v duchu realistického přístupu\.*__
 
-		__Lidská komedie \-__   obraz francouzské společnosti od Velké francouzské revoluce – důkladný popis prostředí, postav všech společenských vrstev – mamonářství, touhy po moci a zisku
+__Lidská komedie \-__   obraz francouzské společnosti od Velké francouzské revoluce – důkladný popis prostředí, postav všech společenských vrstev – mamonářství, touhy po moci a zisku
 
-		__Otec Goriot \-__ Hlavní hrdina je měšťan, který zbohatl v době revoluce, a to cestou spekulací s obilím\. Má dcery, kterým dá věno poté co jim vybere ženichi, ještě mu něco zbyde a pokaždé dcerám něco dá, jakmile žije sám v penzionu pro chudé tak dcery o něj ztratí zájem\. Nakonec umírá mezi cizími lidmi a dcery nejdou ani na pohřeb, protože se stydí za neurozenost otce\.
+__Otec Goriot \-__ Hlavní hrdina je měšťan, který zbohatl v době revoluce, a to cestou spekulací s obilím\. Má dcery, kterým dá věno poté co jim vybere ženichi, ještě mu něco zbyde a pokaždé dcerám něco dá, jakmile žije sám v penzionu pro chudé tak dcery o něj ztratí zájem\. Nakonec umírá mezi cizími lidmi a dcery nejdou ani na pohřeb, protože se stydí za neurozenost otce\.
 
-		__*Evženie Grandetová \- *__ je to o otci a dceři, kteří žijí v nůzných podmínkách\. Starý Grandet spekuluje s majetkem a také s provdáním dcery, aby měl více majetku, ale sám povídá dceři jak jsou na tom špatně\. Evženie se mu chce pomstít, ale nezvládne to protože ho má ráda, jakmile umře tak zjistí že je bohatá a začne se chovat stejně\.
+__Evženie Grandetová \- *__ je to o otci a dceři, kteří žijí v nůzných podmínkách\. Starý Grandet spekuluje s majetkem a také s provdáním dcery, aby měl více majetku, ale sám povídá dceři jak jsou na tom špatně\. Evženie se mu chce pomstít, ale nezvládne to protože ho má ráda, jakmile umře tak zjistí že je bohatá a začne se chovat stejně\.
 
 __Gustave Flauber \-__ perfektně zobrazoval vztahy a city, studoval práva, ale nedostudoval kvůli jeho nemoci\. Za jedno jeho dílo byl postaven před policii, ale díky kvalitní obhajobě z toho vyvázl\.
 
 ***Paní Bovaryová \-*** Hrdinka se provdá za lékaře, s tím že to bude perfektní, však se zmílí najde si milence, ten jí opustí najde si dalšího\. Zamluví se lichváři a Bovaryův dům propadá exekuci\. Hrdinka se nakonec otráví a umírá v samotě
 
-      __Emile Zola \-__ zemřel ve spánku na otravu, autor povídek, románů
+__Emile Zola \-__ zemřel ve spánku na otravu, autor povídek, románů
 
-		__*Rougon\-Macquartové \(ružón markvartové\) \- *__přírodopis a sociální dějepis jedné rodiny za 2\. císařství, rodina je podrobně popsána, vliv genů atd\.\.
+Rougon\-Macquartové \(ružón markvartové\) \- přírodopis a sociální dějepis jedné rodiny za 2\. císařství, rodina je podrobně popsána, vliv genů atd\.\.
 
-		__*Zabiják*__
+__*Zabiják*__
 
 ***Nana \-*** román o dceři pradleny a klempíře, ze které se stala prostitutka; obraz nevěstinců i vysoké společnosti
 
@@ -72,9 +72,9 @@ __Rusko__
 
 __Lev Nikolajevič Tolstoj \-__ významný ruský realista, autor drobných povídek
 
-		__*Vojna a mír \- *__řada skutečných událostí, zameřuje se na to, že násilí je to co může člověk udělat jako poslední, dále se zaměřuje na sedláky
+Vojna a mír \- řada skutečných událostí, zameřuje se na to, že násilí je to co může člověk udělat jako poslední, dále se zaměřuje na sedláky
 
-		__*Anna Karenina  \-*__  2 milostné a rodinné osudy, Anna odchází od manžela i syna, protože se zamiluje do jiného nakonec spáchá sebevraždu a druhý příběh je protiklad \- štěstí jiné rodiny\.
+__*Anna Karenina  \-*__  2 milostné a rodinné osudy, Anna odchází od manžela i syna, protože se zamiluje do jiného nakonec spáchá sebevraždu a druhý příběh je protiklad \- štěstí jiné rodiny\.
 
 __Dostojevskij \-__ významný ruský spisovatel, měl být popraven, ale trest mu byl zmírněn\.
 
@@ -84,9 +84,9 @@ __Dostojevskij \-__ významný ruský spisovatel, měl být popraven, ale trest 
 
 __Gogol \-__ popisuje reálné ruské prostředí a život z různých společenský vrstev, po vydání díla Revizor dostal kritiku a opustil Rusko
 
-	            __*Revizor \- *__ukazuje na úplatkářství, jde o hrdinu, který je omylem označován za revizora on toho však umí využít ve svůj prospěch\.
+Revizor \- ukazuje na úplatkářství, jde o hrdinu, který je omylem označován za revizora on toho však umí využít ve svůj prospěch\.
 
-		__*Mrtvé duše \- *__hlavní hrdina, zbohatl skupováním „mrtvých duší“ \(nevolníků\), aby mu dopomohly k finančním spekulacím
+Mrtvé duše \- hlavní hrdina, zbohatl skupováním „mrtvých duší“ \(nevolníků\), aby mu dopomohly k finančním spekulacím
 
 __Polsko__
 

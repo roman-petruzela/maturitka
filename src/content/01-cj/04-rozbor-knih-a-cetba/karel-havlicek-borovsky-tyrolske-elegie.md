@@ -49,7 +49,7 @@ __\-Kompoziční výstavba :__
 
    \-příběh je vyprávěn retrospektivně \(události na základě vzpomínek, známe důsledek a
 
-     hledáme  příčiny\)
+hledáme  příčiny\)
 
    \-[ich\-forma](http://www.cesky-jazyk.cz/slovnicek-pojmu/ich-forma/)
 

@@ -63,9 +63,9 @@ Kontext autorovy tvorby:
 
 Dílo:	Zlomky epopeje \(__básnický cyklus__\) – Legenda o sv\. Prokopu, Zlomky epopeje, Selské balady
 
-	Dojmy a rozmary, Okna v bouři \(Za trochu lásky\) = __slavné sbírky__
+Dojmy a rozmary, Okna v bouři \(Za trochu lásky\) = __slavné sbírky__
 
-	Drahomíra, Bratři \- __drama__
+Drahomíra, Bratři \- __drama__
 
 Literární / obecně kulturní kontext
 
@@ -86,7 +86,7 @@ __Julius Zeyer__ – Dům U tonoucí hvězdy, Tři legendy o krucifixu = lumíro
 
 Ruchovci: 	__Svatopluk Čech__ – Adamité, Evropa, Slávie, Ve stínu lípy
 
-		__Eliška Krásnohorská__ – Ze Šumavy, Hubička, Tajemství
+__Eliška Krásnohorská__ – Ze Šumavy, Hubička, Tajemství
 
 Májovci:	mladší skupina – vycházely jednom dvě knihy: Babička a Kytice, točili se kolem Almanachu Máj, byli v době bachovského absolutismu, __K\. Světlá, Vítězslav Hálek, Jan Neruda, Jakub Arbes__
 

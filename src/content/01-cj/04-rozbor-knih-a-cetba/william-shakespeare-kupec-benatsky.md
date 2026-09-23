@@ -9,9 +9,9 @@ William Shakespeare
 
 Dílo vzniklo mezi  léty 1596\-1598, tj\. koncem renesance\.  Shakespeare psal hodně divadelních her pro alžbětinské obecenstvo\.
 
-	Renesance \(14\.\-16\. stol\.\):
+Renesance \(14\.\-16\. stol\.\):
 
-	Základní znaky:
+Základní znaky:
 
 1. Odklon od víry v Boha
 2. Důraz kladen na člověka, jeho schopnosti a rozum

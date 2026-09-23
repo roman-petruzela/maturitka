@@ -100,7 +100,7 @@ složky
 
 - **určení dalších autorů stejného um. směru**
 
-- Umberto Eco (* 5. 1. 1932)
+- Umberto Eco ( 5. 1. 1932)
 
 - je italský sémiolog, estetik, filosof a spisovatel
 
@@ -118,7 +118,7 @@ složky
 
 - argentinský spisovatel
 
-- během života získal řadu ocenění, např. cenu Formentor nebo Cervantesovu cenu - tvorba: _Dějiny věčnosti, Šest problémů pro Dna Isidra Parodiho_ Milan Kundera (* 1929)
+- během života získal řadu ocenění, např. cenu Formentor nebo Cervantesovu cenu - tvorba: _Dějiny věčnosti, Šest problémů pro Dna Isidra Parodiho_ Milan Kundera ( 1929)
 
 - básník, dramatik, prozaik, esejista, překladatel
 

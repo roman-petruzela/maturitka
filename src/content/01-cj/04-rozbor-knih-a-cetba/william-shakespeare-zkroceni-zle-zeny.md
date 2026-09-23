@@ -8,9 +8,9 @@ tags: ["mimo-seznam-cetby"]
 - jeho životě se toho moc nevíme
 - narodil se 23\. dubna 1564 ve Stratfordu nad Avonou a zemřel 23 dubna 1616
 
-                      Pocházel z rodiny dobře situovaného měšťana\. Studoval na King's New School\. Oženil se v 19 letech o 8 let starší ženou\. Měl 3 děti\.
+  Pocházel z rodiny dobře situovaného měšťana\. Studoval na King's New School\. Oženil se v 19 letech o 8 let starší ženou\. Měl 3 děti\.
 
-                   Někdy kolem roku 1585 odešel do Londýna, kde se věnoval divadlu nejprve jako herec, pak jako autor her\. Stal se spoluvlastníkem divadla Globe Theatre\. Alžbětinské divadlo\- hráli v něm jen muži\. Napsal kole 40 divadelních her a přes 200 děl\.byl to vynikající psycholog\.
+  Někdy kolem roku 1585 odešel do Londýna, kde se věnoval divadlu nejprve jako herec, pak jako autor her\. Stal se spoluvlastníkem divadla Globe Theatre\. Alžbětinské divadlo\- hráli v něm jen muži\. Napsal kole 40 divadelních her a přes 200 děl\.byl to vynikající psycholog\.
 
 __Doba\- Renesance__
 
