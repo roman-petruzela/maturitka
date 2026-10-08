@@ -25,3 +25,4 @@ pnpm-debug.log*
 
 # python venv for scripts/convert-pdf.py
 scripts/.venv/
+.vscode/
