@@ -1,15 +1,12 @@
 ---
-title: "Právní nauka"
+title: "Úvod do teorie práva"
 order: 1
-tags: ["doplněno"]
 source: "Právní nauka – učební materiál.md"
 ---
 
-## 1. Úvod do teorie práva
+## 1. Právo a stát
 
 **Právo** je soubor pravidel, podle kterých se organizuje a řídí lidské soužití. Od morálky nebo zvyků se liší tím, že ho lze vynutit státní mocí.
-
-### Právo a stát
 
 Právo vzniká se vznikem státu. Znaky státu:
 
@@ -66,9 +63,11 @@ Každý předpis má číslo a rok, např. **zákon č. 89/2012 Sb.** (občansk�
 | Předpis | Jak se člení |
 | --- | --- |
 | Zákony a ostatní předpisy | paragraf (§) → odstavec → písmeno |
-| Ústava | články (čl.) |
+| Ústava | hlava → článek (čl.) → odstavec → písmeno |
 
-Příklad citace: § 2 odst. 1 písm. a) zákona č. 89/2012 Sb.
+Příklad citace zákona: § 2 odst. 1 písm. a) zákona č. 89/2012 Sb.
+
+Příklad citace ústavy: čl. 63 odst. 1 písm. a) Ústavy ČR
 
 ## 4. Právní předpis × právní norma
 
@@ -80,7 +79,7 @@ Příklad citace: § 2 odst. 1 písm. a) zákona č. 89/2012 Sb.
 
 Jeden předpis obsahuje mnoho norem. Jednotlivé ustanovení (odstavec paragrafu) je normou, za jejíž porušení hrozí postih.
 
-### Struktura normy (doplněno)
+### Struktura normy
 
 - **Hypotéza** – za jakých podmínek norma platí
 - **Dispozice** – jak se máš chovat
@@ -170,8 +169,6 @@ Příklad – kupní smlouva: subjekty = prodávající a kupující, obsah = po
 
 ## 9. Právní rozhodnutí, právo veřejné × soukromé
 
-Tato dvě témata na fotkách sešitu nebyla, jsou doplněná podle běžného učiva.
-
 ### Právní rozhodnutí
 
 **Právní rozhodnutí** vydává státní orgán (soud, úřad) v konkrétní věci pro konkrétní osobu. Předpis naopak platí obecně pro všechny.
@@ -190,6 +187,36 @@ Tato dvě témata na fotkách sešitu nebyla, jsou doplněná podle běžného u
 | Odvětví | ústavní, správní, trestní, finanční | občanské, obchodní, rodinné, pracovní |
 | Příklad | pokuta za rychlou jízdu | kupní smlouva mezi dvěma lidmi |
 
+### Odvětví práva
+
+**Veřejné právo**
+
+| Odvětví | Co upravuje | Hlavní předpis |
+| --- | --- | --- |
+| Ústavní | základy státu, státní moc, základní práva a svobody | Ústava ČR, Listina základních práv a svobod |
+| Správní | veřejnou správu – úřady a jejich vztah k občanům | správní řád (č. 500/2004 Sb.) |
+| Finanční | státní rozpočet, daně, poplatky, měnu | daňové zákony, např. zákon o daních z příjmů |
+| Trestní | trestné činy a tresty | trestní zákoník (č. 40/2009 Sb.), trestní řád |
+
+**Soukromé právo**
+
+| Odvětví | Co upravuje | Hlavní předpis |
+| --- | --- | --- |
+| Občanské | majetkové a osobní vztahy lidí – vlastnictví, smlouvy, dědění | občanský zákoník (č. 89/2012 Sb.), občanský soudní řád |
+| Rodinné | manželství, vztahy rodičů a dětí, náhradní rodinnou péči | občanský zákoník (část druhá) |
+| Obchodní | podnikání a obchodní společnosti | občanský zákoník, zákon o obchodních korporacích (č. 90/2012 Sb.) |
+| Pracovní | vztahy zaměstnance a zaměstnavatele | zákoník práce (č. 262/2006 Sb.) |
+| Právo duševního vlastnictví | autorská díla, vynálezy, ochranné známky | autorský zákon (č. 121/2000 Sb.) |
+
+**Mezinárodní a evropské právo**
+
+| Odvětví | Co upravuje |
+| --- | --- |
+| Mezinárodní právo veřejné | vztahy mezi státy a mezinárodními organizacemi (smlouvy, OSN) |
+| Evropské právo | právo EU, které platí i v ČR (nařízení, směrnice) |
+
+**Hmotné × procesní:** trestní i občanské právo má dvě části. **Hmotné** říká, jaká práva a povinnosti máš, **procesní** říká, jak se o nich vede řízení u soudu. Proto se rozlišuje trestní zákoník × trestní řád a občanský zákoník × občanský soudní řád.
+
 ## 10. Otázky na procvičení
 
 Zkus odpovědět nahlas, pak si zkontroluj odpověď vpravo.
@@ -201,7 +228,7 @@ Zkus odpovědět nahlas, pak si zkontroluj odpověď vpravo.
 | Rozdíl objektivního a subjektivního práva? | objektivní platí všeobecně, subjektivní pro 1 konkrétní subjekt |
 | Seřaď předpisy podle právní síly. | ústava → zákony → nařízení vlády, vyhlášky ministerstev → vyhlášky obcí a krajů |
 | Kde se publikují zákony? | ve Sbírce zákonů ČR (Sb.) |
-| Jak se člení zákon a jak ústava? | zákon: paragraf, odstavec, písmeno; ústava: články |
+| Jak se člení zákon a jak ústava? | zákon: paragraf, odstavec, písmeno; ústava: hlava, článek, odstavec, písmeno |
 | Rozdíl předpisu a normy? | předpis je forma (celý zákon), norma je obsah (jedno pravidlo) |
 | Kogentní × dispozitivní norma? | od kogentní se nelze odchýlit, dispozitivní si strany mohou upravit dohodou |
 | Platnost × účinnost? | platnost = vyhlášení ve Sbírce, účinnost = povinnost dodržovat (obvykle 15. den) |
@@ -212,3 +239,6 @@ Zkus odpovědět nahlas, pak si zkontroluj odpověď vpravo.
 | Příklad unilaterálního jednání? | závěť |
 | Co je konkludentní jednání? | jednání vyplývající z chování (kývnutí, zboží na pokladně) |
 | Speciální × generální plná moc? | speciální na jednu věc, generální na všechny |
+| Vyjmenuj odvětví veřejného práva. | ústavní, správní, finanční, trestní |
+| Vyjmenuj odvětví soukromého práva. | občanské, rodinné, obchodní, pracovní, právo duševního vlastnictví |
+| Hmotné × procesní právo? | hmotné = jaká práva a povinnosti máš, procesní = jak se o nich vede řízení u soudu |
