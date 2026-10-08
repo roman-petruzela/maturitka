@@ -242,12 +242,12 @@ declined forms, scores by field (title > heading > term > excerpt); a heading hi
 `url#id`, a term hit shows "Pojem: …", a snippet shows the sentence around the match. After changing
 the outline rules check that every heading id of the index exists in the built HTML.
 
-## Checks and CI
+## Checks
 
-`.github/workflows/ci.yml` runs on every push to `main` and every pull request what "Verifying a
-change" below lists: `astro check`, a build, `scripts/check-links.mjs` (every internal link of the
-built site, `#fragment`s included) and `scripts/check-formulas.mjs`. It does not scan the built HTML for
-`ML__error` / leaked tokens / a literal `$` — do that by hand after touching the math pipeline.
+There is no CI (the GitHub Actions workflow was dropped on purpose) — run what "Verifying a change"
+below lists by hand: `astro check`, a build, `scripts/check-links.mjs` (every internal link of the
+built site, `#fragment`s included) and `scripts/check-formulas.mjs`. None of them scans the built HTML
+for `ML__error` / leaked tokens / a literal `$` — do that by hand after touching the math pipeline.
 
 ## Content conversion checklist
 
