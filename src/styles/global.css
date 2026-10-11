@@ -504,8 +504,12 @@ h1 {
 .subject-index {
 	display: grid;
 	grid-template-columns: repeat(3, minmax(0, 1fr));
+	/* the hairlines between cells are each cell's own 1px shadow spilling
+	   into the gap, not the grid's background showing through it — that
+	   painted the empty slots of an unfilled last row as a solid block.
+	   overflow clips the shadow at the outer edges */
 	gap: 1px;
-	background: var(--border);
+	overflow: hidden;
 	border-top: 1px solid var(--border);
 	/* follows the masthead in as one block, a beat behind it — see the
 	   comment by .masthead's own animation above */
@@ -518,6 +522,7 @@ h1 {
 .subject-cell {
 	display: block;
 	background: var(--bg);
+	box-shadow: 0 0 0 1px var(--border);
 	padding: 1.35rem 1.5rem 1.45rem;
 	text-decoration: none;
 	color: var(--fg);
