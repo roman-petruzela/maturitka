@@ -49,6 +49,19 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 			// browser back/forward navigation.
 			if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
 		</script>
+		<script is:inline>
+			// The page crossfade is a cross-document View Transition
+			// (@view-transition in global.css), which Firefox-based browsers
+			// don't run yet — they have startViewTransition but no
+			// `pagereveal`, the event that ships with the cross-document kind.
+			// There a softer dim-and-brighten is played on <body> instead (see
+			// "vt-fallback" in global.css and the click handler at the end of
+			// <body>). Set here, before first paint, so the arriving page
+			// doesn't flash in at full brightness first.
+			if (!('onpagereveal' in window) && !matchMedia('(prefers-reduced-motion: reduce)').matches) {
+				document.documentElement.classList.add('vt-fallback');
+			}
+		</script>
 	</head>
 	<body>
 		<a class="skip-link" href="#main-content">Přeskočit na obsah</a>
@@ -661,6 +674,40 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 					var itemBox = current.getBoundingClientRect();
 					rail.scrollTop += itemBox.top - railBox.top - (rail.clientHeight - itemBox.height) / 2;
 				}
+			})();
+		</script>
+		<script is:inline>
+			// Fallback page transition (see the "vt-fallback" note in <head>).
+			(function () {
+				var root = document.documentElement;
+				if (!root.classList.contains('vt-fallback')) return;
+
+				// A real navigation starts at once (no added delay); the old page
+				// dims while the next one loads.
+				window.addEventListener('click', function (e) {
+					if (e.defaultPrevented || e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+					var a = e.target.closest && e.target.closest('a[href]');
+					if (!a || a.target || a.hasAttribute('download')) return;
+					var url = new URL(a.href, location.href);
+					if (url.origin !== location.origin) return;
+					// a jump within the same page, or a file rather than a page
+					if (url.pathname === location.pathname && url.search === location.search) return;
+					if (/\.[a-z0-9]+$/i.test(url.pathname) && !/\.html?$/i.test(url.pathname)) return;
+					root.classList.add('is-leaving');
+					// if the navigation never happens (cancelled, a download),
+					// don't leave the page dimmed
+					setTimeout(function () { root.classList.remove('is-leaving'); }, 3000);
+				});
+
+				// back/forward restores this page from the bfcache as it was
+				// left — dimmed — so bring it back
+				window.addEventListener('pageshow', function (e) {
+					if (!e.persisted) return;
+					root.classList.remove('is-leaving');
+					document.body.style.animation = 'none';
+					void document.body.offsetWidth;
+					document.body.style.animation = '';
+				});
 			})();
 		</script>
 		<script>

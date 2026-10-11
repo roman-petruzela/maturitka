@@ -136,6 +136,32 @@ body {
 	animation: 0.42s cubic-bezier(0.4, 0, 0.2, 1) both maturitka-page-in;
 }
 
+/* Browsers without cross-document transitions (Firefox / Zen) get a quieter
+   stand-in, played on <body> by the "vt-fallback" script in BaseLayout.astro:
+   dim a little when a link is followed, brighten on the next load. Without a
+   real crossfade the old and new page never overlap, so the native keyframes
+   (fade to nothing, scale) read as a blink between pages — this only dips
+   the opacity part way and never moves anything. */
+@keyframes maturitka-soft-out {
+	to {
+		opacity: 0.6;
+	}
+}
+
+@keyframes maturitka-soft-in {
+	from {
+		opacity: 0.6;
+	}
+}
+
+html.vt-fallback body {
+	animation: 0.32s cubic-bezier(0.25, 0.1, 0.25, 1) backwards maturitka-soft-in;
+}
+
+html.vt-fallback.is-leaving body {
+	animation: 0.18s ease-out forwards maturitka-soft-out;
+}
+
 /* The morphing title (see .topic-head h1's view-transition-name) needs its
    own, gentler treatment — the default UA cross-fade-and-resize is already
    the effect wanted here, just slowed to match the page crossfade instead
