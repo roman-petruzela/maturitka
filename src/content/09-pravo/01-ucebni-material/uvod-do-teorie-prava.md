@@ -219,26 +219,26 @@ Příklad – kupní smlouva: subjekty = prodávající a kupující, obsah = po
 
 ## 10. Otázky na procvičení
 
-Zkus odpovědět nahlas, pak si zkontroluj odpověď vpravo.
+Zkus odpovědět nahlas, pak klikni na odpověď vpravo a zkontroluj se.
 
 | Otázka | Odpověď |
 | --- | --- |
-| Co je právo? | soubor pravidel, podle kterých se organizuje a řídí lidské soužití, vynutitelný státem |
-| Vyjmenuj znaky státu. | území, obyvatelstvo, státní složky, ozbrojené složky, jazyk, symboly, měna |
-| Rozdíl objektivního a subjektivního práva? | objektivní platí všeobecně, subjektivní pro 1 konkrétní subjekt |
-| Seřaď předpisy podle právní síly. | ústava → zákony → nařízení vlády, vyhlášky ministerstev → vyhlášky obcí a krajů |
-| Kde se publikují zákony? | ve Sbírce zákonů ČR (Sb.) |
-| Jak se člení zákon a jak ústava? | zákon: paragraf, odstavec, písmeno; ústava: hlava, článek, odstavec, písmeno |
-| Rozdíl předpisu a normy? | předpis je forma (celý zákon), norma je obsah (jedno pravidlo) |
-| Kogentní × dispozitivní norma? | od kogentní se nelze odchýlit, dispozitivní si strany mohou upravit dohodou |
-| Platnost × účinnost? | platnost = vyhlášení ve Sbírce, účinnost = povinnost dodržovat (obvykle 15. den) |
-| Čtyři druhy působnosti? | osobní, územní, časová, věcná |
-| Prvky právního vztahu? | subjekty (FO, PO), obsah (práva a povinnosti), předmět |
-| Co je PO? | právnická osoba, uměle vytvořený subjekt |
-| Samočinná × záměrná právní skutečnost? | samočinná nezávisí na vůli (smrt), záměrná je projev vůle (smlouva) |
-| Příklad unilaterálního jednání? | závěť |
-| Co je konkludentní jednání? | jednání vyplývající z chování (kývnutí, zboží na pokladně) |
-| Speciální × generální plná moc? | speciální na jednu věc, generální na všechny |
-| Vyjmenuj odvětví veřejného práva. | ústavní, správní, finanční, trestní |
-| Vyjmenuj odvětví soukromého práva. | občanské, rodinné, obchodní, pracovní, právo duševního vlastnictví |
-| Hmotné × procesní právo? | hmotné = jaká práva a povinnosti máš, procesní = jak se o nich vede řízení u soudu |
+| Co je právo? | \|\|soubor pravidel, podle kterých se organizuje a řídí lidské soužití, vynutitelný státem\|\| |
+| Vyjmenuj znaky státu. | \|\|území, obyvatelstvo, státní složky, ozbrojené složky, jazyk, symboly, měna\|\| |
+| Rozdíl objektivního a subjektivního práva? | \|\|objektivní platí všeobecně, subjektivní pro 1 konkrétní subjekt\|\| |
+| Seřaď předpisy podle právní síly. | \|\|ústava → zákony → nařízení vlády, vyhlášky ministerstev → vyhlášky obcí a krajů\|\| |
+| Kde se publikují zákony? | \|\|ve Sbírce zákonů ČR (Sb.)\|\| |
+| Jak se člení zákon a jak ústava? | \|\|zákon: paragraf, odstavec, písmeno; ústava: hlava, článek, odstavec, písmeno\|\| |
+| Rozdíl předpisu a normy? | \|\|předpis je forma (celý zákon), norma je obsah (jedno pravidlo)\|\| |
+| Kogentní × dispozitivní norma? | \|\|od kogentní se nelze odchýlit, dispozitivní si strany mohou upravit dohodou\|\| |
+| Platnost × účinnost? | \|\|platnost = vyhlášení ve Sbírce, účinnost = povinnost dodržovat (obvykle 15. den)\|\| |
+| Čtyři druhy působnosti? | \|\|osobní, územní, časová, věcná\|\| |
+| Prvky právního vztahu? | \|\|subjekty (FO, PO), obsah (práva a povinnosti), předmět\|\| |
+| Co je PO? | \|\|právnická osoba, uměle vytvořený subjekt\|\| |
+| Samočinná × záměrná právní skutečnost? | \|\|samočinná nezávisí na vůli (smrt), záměrná je projev vůle (smlouva)\|\| |
+| Příklad unilaterálního jednání? | \|\|závěť\|\| |
+| Co je konkludentní jednání? | \|\|jednání vyplývající z chování (kývnutí, zboží na pokladně)\|\| |
+| Speciální × generální plná moc? | \|\|speciální na jednu věc, generální na všechny\|\| |
+| Vyjmenuj odvětví veřejného práva. | \|\|ústavní, správní, finanční, trestní\|\| |
+| Vyjmenuj odvětví soukromého práva. | \|\|občanské, rodinné, obchodní, pracovní, právo duševního vlastnictví\|\| |
+| Hmotné × procesní právo? | \|\|hmotné = jaká práva a povinnosti máš, procesní = jak se o nich vede řízení u soudu\|\| |
