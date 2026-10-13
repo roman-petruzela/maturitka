@@ -2,8 +2,9 @@
 
 Učební web poskládaný z archivu školních podkladů k maturitě — prezentací, skenovaných PDF
 a dokumentů, které jsou převedené do jednotného Markdownu a setříděné podle předmětů
-a okruhů. Pokrývá 12 předmětů (Český jazyk, Matematika, IT, Angličtina, Dějepis, Zeměpis,
-Fyzika, Společenské vědy, Právo, Psychologie, Ekonomika, Němčina).
+a okruhů. Pokrývá 13 předmětů (Český jazyk, Matematika, Angličtina, IT, Dějepis, Zeměpis,
+Fyzika, Společenské vědy, Právo, Psychologie, Ekonomika, Němčina, Občanská nauka).
+Angličtina je napsaná znovu podle školního seznamu maturitních témat (úroveň B2), ne převedená.
 
 Astro + Markdown content collections, žádný backend, statický build. Obsah i kód jsou pod
 licencí CC BY-NC-SA 4.0 (viz `/licence/` a `LICENSE`). Co projekt je a proč vznikl, shrnuje
@@ -17,7 +18,9 @@ npm run dev          # http://localhost:4321
 npm run build        # ./dist/ + sitemap-index.xml
 npm run preview      # servíruje ./dist/
 npm run astro check
-npm run check:links  # po buildu — najde interní odkazy mířící na neexistující stránku
+npm run check:links     # po buildu — najde interní odkazy mířící na neexistující stránku
+npm run check:formulas  # vzorce na přehledu vzorců musí sedět s tématy, na která odkazují
+npm run verify          # všechno najednou: astro check, čistý build, odkazy, vzorce
 ```
 
 Verze v `package.json` se vykresluje v patičce webu, takže se zvedá s každou viditelnou
@@ -56,7 +59,10 @@ scripts/
   convert-docx.mjs       # mammoth: docx/doc/odt → markdown (docx přímo, doc/odt přes LibreOffice)
   convert-pdf.py         # pymupdf4llm (venv v scripts/.venv): pdf → markdown, volitelně --ocr
   manifest/*.json        # mapování zdroj → cíl (title, order, tags, src, dest) — upravuj ručně
+  archive.mjs, archive_paths.py  # aliasy cest k archivu (archiv-1/…) — skutečné názvy složek
+                         # jsou jen v git-ignorovaném archive-aliases.local.json, viz AGENTS.md
   check-links.mjs        # po buildu ověří, že žádný interní <a href> nevede do prázdna
+  check-formulas.mjs     # ověří přehled vzorců proti stránkám témat
 ```
 
 ## Pořadí a názvy předmětů a kategorií

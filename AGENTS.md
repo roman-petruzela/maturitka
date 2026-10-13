@@ -249,6 +249,30 @@ below lists by hand: `astro check`, a build, `scripts/check-links.mjs` (every in
 built site, `#fragment`s included) and `scripts/check-formulas.mjs`. None of them scans the built HTML
 for `ML__error` / leaked tokens / a literal `$` — do that by hand after touching the math pipeline.
 
+## English (`03-aj/`)
+
+Hand-written, not converted: the old Bridge-magazine conversions were only used as a source of facts and
+then deleted, and `build-manifests.mjs` no longer generates an `aj` manifest. The structure follows the
+school's list of 20 oral-exam topics, each a general topic plus a specific part:
+`01-maturitni-temata/` (the 20 general topics, `order` 1–20 = the topic number, written at Cambridge B2
+First level), `02-realie/` and `03-it-english/` (the specific parts). Every page has the same shape: a
+line saying which topic it belongs to with a link to the other half, the model text, a **Vocabulary**
+table (English | Česky), **Useful phrases** and practice questions whose hints are spoilers
+(`\|\|hint\|\|` inside a table cell). Facts that date (heads of state, population figures) are written
+as of the time of writing — re-check them when you touch a page.
+
+## No names of teachers or students
+
+Nothing in this repo may name a teacher or a student — not page text, not a `source:` (it is shown
+under every page as "Zdroj: …"), not a manifest, script or doc. Several folders and files of the
+source archive are named after people, so the repo only knows them by alias: manifests store
+`archiv-1/…` / `archiv-2/…` paths, `source:` shows the path without that root (`ANJ/Témata/…`), and
+`scripts/archive.mjs` / `scripts/archive_paths.py` translate an alias to the real path through
+`scripts/archive-aliases.local.json` — git-ignored, the only place the real names exist. A key there may
+be a folder or a single file; the longest match wins. When importing new material whose path names a
+person, add an alias for it there instead of writing the path anywhere. Public figures in the content
+(writers, politicians, a magazine article's byline) are fine.
+
 ## Content conversion checklist
 
 Sources were converted from Word/PDF/PPTX; these artefacts were found and fixed and are worth
@@ -290,7 +314,39 @@ Found in the English pages (`03-aj`, Bridge magazine PDFs) and other PDF subject
 - soft hyphens (U+00AD) inside words (`ob<U+00AD>sah` does not match a search for "obsah"), an orphaned `#` /
   `###` on a line of its own above its heading text, a heading with a caption or byline stuck to it.
 
+## Motion
+
+One curve and three durations, defined as custom properties in `:root` (global.css): `--ease`,
+`--dur-quick` (hover, colour, small toggles), `--dur-move` (things that slide or open — the auto-hiding
+header, the rails following it, the search dialog) and `--dur-page` (the page change). Components use
+these, never their own numbers — the site had seven different timings before, which is what made it feel
+broken.
+
+- **Page change:** a plain crossfade, no scaling — `::view-transition-old/new(root)` natively; in
+  browsers without cross-document view transitions (Firefox/Zen: no `pagereveal`) the `vt-fallback`
+  script dims `<body>` to 0.6 on a link click and brings it back on load (a fade to 0 blinks there,
+  because the two pages never overlap). The topic title morphs between topic pages (`article-title`).
+- **Front-page entrance** (`maturitka-rise-in`) plays only on a fresh load: a page reached through a
+  view transition gets `html.vt-arrived` (set on `pagereveal`), and `html.vt-fallback` already has its
+  entrance — playing both made the page move twice.
+- **Scroll restoration** must use `behavior: 'instant'`: `html` has `scroll-behavior: smooth`, and a
+  smooth restore scrolled the page visibly on every return and fired scroll events that hid the header.
+- `prefers-reduced-motion` switches all of it off (the view-transition pseudo-elements need their own
+  rule, a `*` selector does not reach them).
+
+## Author portraits (`rehype-author-portrait.ts`)
+
+On the `02-literatura` pages every `###` / `####` heading that names a person gets a figure: the photo
+from `public/images/authors/<slug>.jpg` (slug = the name without `(…)` groups and a `— 2. fáze` tail,
+diacritics stripped), else a silhouette placeholder. Headings that name a period, group or topic
+("Futurismus", "Prokletí básníci", "Ztracená generace") are listed in `NOT_A_PERSON_RE` and stay plain —
+add a new one there when you write such a heading.
+CC-licensed photos must show their credit: `public/images/authors/credits.json` (`{ "<slug>": "<author>,
+<licence>" }`); sources go to `CREDITS.md`.
+
 ## Verifying a change
+
+`npm run verify` runs all of the following in one go.
 
 ```
 rm -rf dist node_modules/.astro node_modules/.vite .astro
