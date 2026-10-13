@@ -233,7 +233,7 @@ import Icon from './Icon.astro';
 		font-family: var(--sans);
 		font-size: var(--t-sm);
 		cursor: pointer;
-		transition: border-color 0.15s ease, color 0.15s ease;
+		transition: border-color var(--dur-quick) var(--ease), color var(--dur-quick) var(--ease);
 	}
 
 	.search-trigger:hover,
@@ -287,13 +287,13 @@ import Icon from './Icon.astro';
 		   painted) the instant .close() runs, before the fade could show */
 		opacity: 1;
 		transform: translateY(0);
-		transition: opacity 0.18s ease, transform 0.18s ease, overlay 0.18s allow-discrete, display 0.18s allow-discrete;
+		transition: opacity var(--dur-move) var(--ease), transform var(--dur-move) var(--ease), overlay var(--dur-move) allow-discrete, display var(--dur-move) allow-discrete;
 	}
 
 	.search-dialog::backdrop {
 		background: rgba(10, 8, 6, 0.72);
 		opacity: 1;
-		transition: opacity 0.18s ease, overlay 0.18s allow-discrete, display 0.18s allow-discrete;
+		transition: opacity var(--dur-move) var(--ease), overlay var(--dur-move) allow-discrete, display var(--dur-move) allow-discrete;
 	}
 
 	/* starting-style = the state it animates *from* on open; browsers

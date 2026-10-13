@@ -48,6 +48,14 @@
 	--t-ui: 0.9rem;
 	--t-read: 1.08rem;
 
+	/* Motion: one curve and three durations for the whole site — hover and
+	   colour changes (quick), things that move or open (move), and the page
+	   change (page). Components use these instead of their own numbers. */
+	--ease: cubic-bezier(0.2, 0, 0, 1);
+	--dur-quick: 150ms;
+	--dur-move: 220ms;
+	--dur-page: 300ms;
+
 	color-scheme: dark;
 }
 
@@ -100,66 +108,57 @@ body {
    a real page load throughout (not a client-side router swap), so every
    existing script on the site keeps running exactly as before; a browser
    that doesn't support the feature just navigates normally, no fallback
-   code needed. One single, deliberately slow moment, not per-element
-   effects: everything below only touches the whole-page "root" pair, no
-   individual element opts into its own named transition.
+   code needed. One whole-page crossfade, not per-element effects — the only
+   named element is the article title, which morphs between topic pages.
    ───────────────────────────────────────────────────────────────────── */
 @view-transition {
 	navigation: auto;
 }
 
-/* A plain opacity crossfade is what the browser gives you for free; this
-   adds a hair of depth on top of it — the departing page settles back and
-   fades, the arriving one eases in from just slightly larger — so a page
-   change reads as moving forward through the archive rather than one flat
-   image dissolving into another. Still small enough (1.5%) to be a texture,
-   not a zoom effect you consciously notice. */
-@keyframes maturitka-page-out {
+/* One crossfade for every page change, without movement or scaling. The
+   native transition fades the old page out while the new one fades in. */
+@keyframes maturitka-fade-out {
 	to {
 		opacity: 0;
-		transform: scale(0.985);
 	}
 }
 
-@keyframes maturitka-page-in {
+@keyframes maturitka-fade-in {
 	from {
 		opacity: 0;
-		transform: scale(1.015);
 	}
 }
 
 ::view-transition-old(root) {
-	animation: 0.42s cubic-bezier(0.4, 0, 0.2, 1) both maturitka-page-out;
+	animation: var(--dur-page) var(--ease) both maturitka-fade-out;
 }
 
 ::view-transition-new(root) {
-	animation: 0.42s cubic-bezier(0.4, 0, 0.2, 1) both maturitka-page-in;
+	animation: var(--dur-page) var(--ease) both maturitka-fade-in;
 }
 
-/* Browsers without cross-document transitions (Firefox / Zen) get a quieter
-   stand-in, played on <body> by the "vt-fallback" script in BaseLayout.astro:
-   dim a little when a link is followed, brighten on the next load. Without a
-   real crossfade the old and new page never overlap, so the native keyframes
-   (fade to nothing, scale) read as a blink between pages — this only dips
-   the opacity part way and never moves anything. */
-@keyframes maturitka-soft-out {
+/* Browsers without cross-document transitions (Firefox / Zen) get the same
+   timing played on <body> by the "vt-fallback" script in BaseLayout.astro.
+   There the old and new page never overlap, so instead of fading to nothing
+   (a blink between pages) the page only dims part way and comes back. */
+@keyframes maturitka-dim-out {
 	to {
 		opacity: 0.6;
 	}
 }
 
-@keyframes maturitka-soft-in {
+@keyframes maturitka-dim-in {
 	from {
 		opacity: 0.6;
 	}
 }
 
 html.vt-fallback body {
-	animation: 0.32s cubic-bezier(0.25, 0.1, 0.25, 1) backwards maturitka-soft-in;
+	animation: var(--dur-page) var(--ease) backwards maturitka-dim-in;
 }
 
 html.vt-fallback.is-leaving body {
-	animation: 0.18s ease-out forwards maturitka-soft-out;
+	animation: var(--dur-quick) var(--ease) forwards maturitka-dim-out;
 }
 
 /* The morphing title (see .topic-head h1's view-transition-name) needs its
@@ -167,8 +166,8 @@ html.vt-fallback.is-leaving body {
    the effect wanted here, just slowed to match the page crossfade instead
    of the browser's much snappier ~250ms default. */
 ::view-transition-group(article-title) {
-	animation-duration: 0.42s;
-	animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+	animation-duration: var(--dur-page);
+	animation-timing-function: var(--ease);
 }
 
 /* the blanket reduced-motion rule above can't reach these — they aren't
@@ -218,7 +217,7 @@ a:hover {
 	font-size: var(--t-ui);
 	font-weight: 600;
 	text-decoration: none;
-	transition: top 0.15s ease;
+	transition: top var(--dur-quick) var(--ease);
 }
 
 .skip-link:focus {
@@ -238,7 +237,7 @@ header.site-header {
 	z-index: 30;
 	background: var(--bg);
 	border-bottom: 1px solid var(--border);
-	transition: transform 0.25s ease;
+	transition: transform var(--dur-move) var(--ease);
 }
 
 header.site-header.header-hidden {
@@ -304,7 +303,7 @@ nav.subject-nav a {
 	border-bottom: 2px solid transparent;
 	-webkit-user-drag: none;
 	user-select: none;
-	transition: color 0.15s ease;
+	transition: color var(--dur-quick) var(--ease);
 }
 
 nav.subject-nav a:hover {
@@ -350,7 +349,7 @@ main.reading {
 	text-decoration: underline;
 	text-underline-offset: 0.25em;
 	text-decoration-color: var(--border-strong);
-	transition: color 0.15s ease, text-decoration-color 0.15s ease;
+	transition: color var(--dur-quick) var(--ease), text-decoration-color var(--dur-quick) var(--ease);
 }
 
 .site-footer a:hover {
@@ -438,7 +437,18 @@ h1 {
 .masthead {
 	text-align: center;
 	padding: 1.5rem 0 0;
-	animation: maturitka-rise-in 0.5s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+/* Only on a fresh load: when the page was reached through a page transition
+   (vt-arrived, set on pagereveal in BaseLayout) or the Firefox stand-in
+   (vt-fallback), that transition already is the entrance — playing both made
+   the front page move twice. */
+html:not(.vt-arrived):not(.vt-fallback) .masthead {
+	animation: maturitka-rise-in var(--dur-page) var(--ease) backwards;
+}
+
+html:not(.vt-arrived):not(.vt-fallback) .subject-index {
+	animation: maturitka-rise-in var(--dur-page) var(--ease) 80ms backwards;
 }
 
 .masthead h1 {
@@ -537,10 +547,6 @@ h1 {
 	gap: 1px;
 	overflow: hidden;
 	border-top: 1px solid var(--border);
-	/* follows the masthead in as one block, a beat behind it — see the
-	   comment by .masthead's own animation above */
-	animation: maturitka-rise-in 0.5s cubic-bezier(0.16, 1, 0.3, 1) both;
-	animation-delay: 0.1s;
 	border-bottom: 1px solid var(--border);
 	margin-top: 2.75rem;
 }
@@ -552,7 +558,7 @@ h1 {
 	padding: 1.35rem 1.5rem 1.45rem;
 	text-decoration: none;
 	color: var(--fg);
-	transition: background 0.15s ease;
+	transition: background var(--dur-quick) var(--ease);
 }
 
 .subject-cell:hover,
@@ -570,7 +576,7 @@ h1 {
 	font-family: var(--display);
 	font-size: 1.22rem;
 	font-weight: 700;
-	transition: color 0.15s ease;
+	transition: color var(--dur-quick) var(--ease);
 }
 
 /* the leader line connecting a subject to its topic count, like a printed
@@ -581,7 +587,7 @@ h1 {
 	flex: 1 1 auto;
 	min-width: 1.5rem;
 	border-bottom: 1px dotted color-mix(in srgb, var(--muted) 50%, transparent);
-	transition: border-color 0.15s ease;
+	transition: border-color var(--dur-quick) var(--ease);
 }
 
 .subject-cell-count {
@@ -590,7 +596,7 @@ h1 {
 	font-size: var(--t-sm);
 	font-variant-numeric: tabular-nums;
 	color: var(--muted);
-	transition: color 0.15s ease;
+	transition: color var(--dur-quick) var(--ease);
 }
 
 .subject-cell-desc {
@@ -676,7 +682,7 @@ h1 {
 	border-radius: 2px;
 	color: var(--muted);
 	text-decoration: none;
-	transition: border-color 0.15s ease, color 0.15s ease;
+	transition: border-color var(--dur-quick) var(--ease), color var(--dur-quick) var(--ease);
 }
 
 .group-jump a:hover,
@@ -798,7 +804,7 @@ h1 {
 	font-family: var(--sans);
 	font-size: var(--t-ui);
 	line-height: 1.45;
-	transition: color 0.15s ease, background 0.15s ease;
+	transition: color var(--dur-quick) var(--ease), background var(--dur-quick) var(--ease);
 }
 
 .topic-list li a:hover,
@@ -1008,7 +1014,7 @@ h1 {
 .rail-toggle-mark {
 	flex: 0 0 auto;
 	color: var(--muted);
-	transition: transform 0.15s ease;
+	transition: transform var(--dur-quick) var(--ease);
 }
 
 .rail.is-open .rail-toggle-mark {
@@ -1039,7 +1045,7 @@ h1 {
 		/* glides to close the gap the header leaves once it auto-hides —
 		   same easing/duration as the header's own slide-away, so the two
 		   read as one coordinated movement rather than two unrelated ones */
-		transition: top 0.25s ease, max-height 0.25s ease;
+		transition: top var(--dur-move) var(--ease), max-height var(--dur-move) var(--ease);
 	}
 
 	/* The header is `position: sticky` + `transform: translateY(-100%)`
@@ -1074,7 +1080,7 @@ h1 {
 		overflow-y: auto;
 		overscroll-behavior: contain;
 		padding-bottom: 1.5rem;
-		transition: top 0.25s ease, max-height 0.25s ease;
+		transition: top var(--dur-move) var(--ease), max-height var(--dur-move) var(--ease);
 	}
 
 	body.header-hidden .rail-nav {
@@ -1173,7 +1179,7 @@ h1 {
 	border-left: 2px solid transparent;
 	color: var(--muted);
 	text-decoration: none;
-	transition: color 0.15s ease, background 0.15s ease;
+	transition: color var(--dur-quick) var(--ease), background var(--dur-quick) var(--ease);
 }
 
 .rail-tree-items a:hover {
@@ -1258,7 +1264,7 @@ h1 {
 	border-left: 2px solid var(--border);
 	color: var(--fg);
 	text-decoration: none;
-	transition: border-color 0.15s ease, background 0.15s ease;
+	transition: border-color var(--dur-quick) var(--ease), background var(--dur-quick) var(--ease);
 }
 
 .rail-adjacent a + a {
@@ -1304,7 +1310,7 @@ h1 {
 	border-left: 2px solid var(--border);
 	color: var(--muted);
 	text-decoration: none;
-	transition: color 0.15s ease, border-color 0.15s ease;
+	transition: color var(--dur-quick) var(--ease), border-color var(--dur-quick) var(--ease);
 }
 
 .rail-toc a:hover {
@@ -1342,7 +1348,7 @@ h1 {
 	border-left: 2px solid var(--border);
 	color: var(--fg);
 	text-decoration: none;
-	transition: border-color 0.15s ease;
+	transition: border-color var(--dur-quick) var(--ease);
 }
 
 .rail-formulas a:hover {
@@ -1953,7 +1959,7 @@ article.topic tbody tr:hover {
 	border-radius: 1px;
 	padding: 0 0.15em;
 	cursor: pointer;
-	transition: background 0.15s;
+	transition: background var(--dur-quick) var(--ease);
 }
 
 .spoiler:hover {
@@ -2473,7 +2479,7 @@ article.topic tbody tr:hover {
    pannable area — soft/wide on purpose, not a thin bright line, since it's
    just "you can't go further this way", not an error */
 .whiteboard-canvas-wrap {
-	transition: box-shadow 0.15s;
+	transition: box-shadow var(--dur-quick) var(--ease);
 }
 
 .whiteboard-canvas-wrap.is-pan-limited {
