@@ -17,7 +17,11 @@ import type { Root, Element, ElementContent } from 'hast';
 import type { VFile } from 'vfile';
 import { findAuthorImage, findAuthorCredit } from './author-image';
 
-const NOT_A_PERSON_RE = /^(Realismus|Naturalismus)\b/;
+// Headings on these pages that name a period, group or topic rather than a
+// person — they must not get a person-shaped placeholder. Every other h3/h4
+// is an author: a photo if one exists, a silhouette otherwise.
+const NOT_A_PERSON_RE =
+	/^(Realismus|Naturalismus|Bible|Rukopis|Antická|Archaické|Attické|Filozofové|Proč|Znaky|Další|Myšlenkové|Prokletí|Futurismus|Dadaismus|Surrealismus|Nobelova|Odraz|Ztracená|Světová|Česká)(?!\p{L})/u;
 
 function headingText(node: Element): string {
 	let text = '';
@@ -99,12 +103,13 @@ export function rehypeAuthorPortrait() {
 		if (!LITERATURA_PATH_RE.test(filePath)) return;
 
 		visit(tree, 'element', (node: Element, index, parent) => {
-			if (node.tagName !== 'h3' || index === undefined || !parent) return;
+			if ((node.tagName !== 'h3' && node.tagName !== 'h4') || index === undefined || !parent) return;
 			const text = headingText(node);
 			if (!text || NOT_A_PERSON_RE.test(text)) return;
 
 			const src = findAuthorImage(text);
-			const figure = src ? photoFigure(src, text, findAuthorCredit(text)) : placeholderFigure(text);
+			const name = text.replace(/(\([^)]*\))\s+[—–]\s.*$/, '$1'); // keep the dates, drop a "— 2. fáze" tail
+			const figure = src ? photoFigure(src, name, findAuthorCredit(text)) : placeholderFigure(name);
 			parent.children.splice(index + 1, 0, figure as ElementContent);
 		});
 	};

@@ -21,7 +21,6 @@ legally required, but source is noted here for traceability.
 | emile-zola.jpg | File:Émile Zola 1895.jpg | Émile Zola |
 | johann-wolfgang-goethe.jpg | File:Johann Wolfgang von Goethe (Josef Stieler).jpg — 1828 painting | Johann Wolfgang Goethe |
 | josef-jungmann.jpg | File:Antonín Machek - Portrait of Josef Jungmann.jpg — painting by Antonín Machek (d. 1846) | Josef Jungmann |
-| karel-jaromir-erben.jpg | File:Jan Vilímek - Karel Jaromír Erben.jpg | Karel Jaromír Erben |
 | karel-havlicek-borovsky.jpg | File:Karel Havlíček Borovský – Jan Vilímek – České album (cropped).jpg | Karel Havlíček Borovský |
 | jan-neruda.jpg | File:Jan Vilímek - Jan Neruda.jpg | Jan Neruda |
 | alois-jirasek.jpg | File:Jan Vilímek - Alois Jirásek.jpg | Alois Jirásek |

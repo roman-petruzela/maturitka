@@ -3,7 +3,7 @@
 // portrait would be stored under, e.g. "František Ladislav Čelakovský
 // (2. fáze)" -> "frantisek-ladislav-celakovsky".
 import { existsSync } from 'node:fs';
-import { readdirSync } from 'node:fs';
+import { readdirSync, readFileSync } from 'node:fs';
 import path from 'node:path';
 
 // resolved from process.cwd() rather than import.meta.url — see the comment
@@ -13,7 +13,8 @@ const AUTHORS_DIR = path.resolve(process.cwd(), 'public/images/authors');
 
 export function authorSlug(name: string): string {
 	return name
-		.replace(/\s*\([^)]*\)\s*$/, '') // strip a trailing "(2. fáze)"-style suffix
+		.replace(/\s*\([^)]*\)/g, '') // drop any "(1773–1847)" / "(2. fáze)" group
+		.replace(/\s+[—–]\s.*$/, '') // and then a "— 2. fáze"-style tail
 		.normalize('NFD')
 		.replace(/[\u0300-\u036f]/g, '') // strip combining diacritics (Ř -> R, etc.)
 		.toLowerCase()
@@ -41,13 +42,17 @@ export function findAuthorImage(name: string): string | null {
 }
 
 // Most portraits are public domain (photographer/painter dead 70+ years) and
-// need no credit. The handful that are only CC-licensed (see CREDITS.md)
-// must show visible attribution next to the image, not just in the credits
-// file — keyed by the same slug as the image filename.
-const CC_CREDITS: Record<string, string> = {
-	'bohumil-hrabal': 'Hana Hamplová, CC BY-SA 3.0',
-};
+// need no credit. Those that are only CC-licensed must show visible
+// attribution next to the image, not just in CREDITS.md — they are listed in
+// public/images/authors/credits.json ({ "<slug>": "<author>, <licence>" }),
+// keyed by the same slug as the image filename.
+const CREDITS_FILE = path.join(AUTHORS_DIR, 'credits.json');
+let cachedCredits: Record<string, string> | null = null;
+function credits(): Record<string, string> {
+	if (!cachedCredits) cachedCredits = existsSync(CREDITS_FILE) ? JSON.parse(readFileSync(CREDITS_FILE, 'utf8')) : {};
+	return cachedCredits!;
+}
 
 export function findAuthorCredit(name: string): string | null {
-	return CC_CREDITS[authorSlug(name)] ?? null;
+	return credits()[authorSlug(name)] ?? null;
 }
