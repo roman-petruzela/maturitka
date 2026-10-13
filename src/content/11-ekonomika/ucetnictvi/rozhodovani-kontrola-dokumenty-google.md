@@ -1,7 +1,7 @@
 ---
 title: "Rozhodování, kontrola Dokumenty Google"
 order: 21
-source: "MATURITA HADR/Účetnictví/21. Rozhodování, kontrola - Dokumenty Google.pdf"
+source: "Účetnictví/21. Rozhodování, kontrola - Dokumenty Google.pdf"
 ---
 ## **Rozhodování  a  princip  volby**
 

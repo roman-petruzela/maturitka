@@ -1,7 +1,7 @@
 ---
 title: "Funkce nepřímá úměrnost"
 order: 18
-source: "MATURITA HADR/Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/18) Funkce nepřímá úměrnost.pdf"
+source: "Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/18) Funkce nepřímá úměrnost.pdf"
 hasExercises: true
 ---
 
@@ -59,4 +59,4 @@ c) Dosadíme $y=\dfrac12$: $\dfrac12=\dfrac2x\ /\cdot2x \implies x=4$.
 
 ## Zdroje
 
-MATURITA HADR / Matematika / řešené postupy matematických okruhů z DT 2010–2017, dokument *18) Funkce nepřímá úměrnost.pdf*.
+Matematika / řešené postupy matematických okruhů z DT 2010–2017, dokument *18) Funkce nepřímá úměrnost.pdf*.

@@ -1,7 +1,7 @@
 ---
 title: "Marketing"
 order: 17
-source: "MATURITA HADR/Ekonomie/17. Marketing.docx"
+source: "Ekonomie/17. Marketing.docx"
 ---
 17\. Marketing
 

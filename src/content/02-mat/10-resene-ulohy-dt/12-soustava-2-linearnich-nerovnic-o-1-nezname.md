@@ -1,7 +1,7 @@
 ---
 title: "Soustava 2 lineárních nerovnic o 1 neznámé"
 order: 12
-source: "MATURITA HADR/Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/12) Soustava 2 lineárních nerovnic o 1 neznámé.pdf"
+source: "Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/12) Soustava 2 lineárních nerovnic o 1 neznámé.pdf"
 hasExercises: true
 ---
 
@@ -53,4 +53,4 @@ Logické spojce "a současně" ($\land$) odpovídá množinová operace "průnik
 
 ## Zdroje
 
-MATURITA HADR / Matematika / řešené postupy matematických okruhů z DT 2010–2017, dokument *12) Soustava 2 lineárních nerovnic o 1 neznámé.pdf*.
+Matematika / řešené postupy matematických okruhů z DT 2010–2017, dokument *12) Soustava 2 lineárních nerovnic o 1 neznámé.pdf*.

@@ -1,7 +1,7 @@
 ---
 title: "Geometrická posloupnost"
 order: 36
-source: "MATURITA HADR/Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/36) Geometrická posloupnost.pdf"
+source: "Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/36) Geometrická posloupnost.pdf"
 hasExercises: true
 ---
 
@@ -201,4 +201,4 @@ E) jiná částka
 
 ## Zdroje
 
-MATURITA HADR / Matematika / řešené postupy matematických okruhů z DT 2010–2017, dokument *36) Geometrická posloupnost.pdf*.
+Matematika / řešené postupy matematických okruhů z DT 2010–2017, dokument *36) Geometrická posloupnost.pdf*.

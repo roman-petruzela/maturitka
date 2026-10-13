@@ -1,7 +1,7 @@
 ---
 title: "Elektromagnetický oscilátor vznik střídavého napětí a proudu"
 order: 34
-source: "MATURITA HADR/FYZIKA-maturitní otázky/34-Elektromagnetický-oscilátor-vznik-střídavého-napětí-a-proudu.docx"
+source: "FYZIKA-maturitní otázky/34-Elektromagnetický-oscilátor-vznik-střídavého-napětí-a-proudu.docx"
 ---
 LC oscilační obvod
 

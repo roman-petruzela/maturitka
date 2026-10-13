@@ -1,7 +1,7 @@
 ---
 title: "Hydrostatika"
 order: 8
-source: "MATURITA HADR/FYZIKA-maturitní otázky/8-Hydrostatika.docx"
+source: "FYZIKA-maturitní otázky/8-Hydrostatika.docx"
 ---
 Vlastnosti kapalin a plynů
 

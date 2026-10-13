@@ -1,7 +1,7 @@
 ---
 title: "Literární druhy a žánry"
 order: 1
-source: "MATURITA HADR/ČESKÝ JAZYK - VŠE/Český jazyk - Mluvnice /Literární druhy a žánry.docx"
+source: "ČESKÝ JAZYK - VŠE/Český jazyk - Mluvnice /Literární druhy a žánry.docx"
 ---
 __Literární druhy Lyrika__ vznikla z řeckého „lyrika melé“ – lyrou doprovázené verše, \- typická pro poezii, \- vyjadřuje dojmy, city, \(příroda i člověk\) \- snaží se zachytit skutečnost v jedinečném okamžiku, \- tato díla mohou obsahovat epické prvky – náznak děje, postavy\. __Epika__ – z řeckého „epikos“ – výpravný, dějový, \- vychází z děje, \- vypráví příběh s postavami, prostředím,
 

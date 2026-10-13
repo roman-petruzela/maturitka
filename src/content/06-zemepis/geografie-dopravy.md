@@ -1,7 +1,7 @@
 ---
 title: "GEOGRAFIE DOPRAVY"
 order: 10
-source: "MATURITA HADR/Zeměpis/Zeměpis GLP/10. GEOGRAFIE DOPRAVY.doc"
+source: "Zeměpis/Zeměpis GLP/10. GEOGRAFIE DOPRAVY.doc"
 ---
 - terciér = nevýrobní sféra = obslužná sféra
 - celosvětově téměř 40% zaměstnaných \(přibližně stejně jako primární sektor\)

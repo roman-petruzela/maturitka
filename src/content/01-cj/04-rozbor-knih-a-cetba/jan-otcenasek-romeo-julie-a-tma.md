@@ -1,7 +1,7 @@
 ---
 title: "Jan Otčenášek - Romeo, Julie a tma"
 order: 94
-source: "MATURITA 2023 (ČÍP)/cj/15 Romeo, Julie a tma/16. - Romeo, Julie a tma - ČSR 45-48 Drda, Otčenášek.docx"
+source: "cj/15 Romeo, Julie a tma/16. - Romeo, Julie a tma - ČSR 45-48 Drda, Otčenášek.docx"
 ---
 **Autor**
 

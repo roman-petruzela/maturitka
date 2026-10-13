@@ -1,7 +1,7 @@
 ---
 title: "Finanční řízení podniku"
 order: 15
-source: "MATURITA HADR/Ekonomie/15. Finanční řízení podniku.docx"
+source: "Ekonomie/15. Finanční řízení podniku.docx"
 ---
 15\. Finanční řízení podniku
 

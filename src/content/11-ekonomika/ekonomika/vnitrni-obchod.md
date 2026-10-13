@@ -1,7 +1,7 @@
 ---
 title: "Vnitřní obchod"
 order: 8
-source: "MATURITA HADR/Ekonomika/8. Vnitřní obchod.docx"
+source: "Ekonomika/8. Vnitřní obchod.docx"
 ---
 - odvětví ekonomik, které se zabývá přesunem výrobků od výrobců ke spotřebitelům
 - vnitřní obchod realizuje obchodní podniky, převažuje obchodní činnost

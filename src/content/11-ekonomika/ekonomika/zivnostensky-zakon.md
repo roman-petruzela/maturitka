@@ -1,7 +1,7 @@
 ---
 title: "Živnostenský zákon"
 order: 19
-source: "MATURITA HADR/Ekonomika/19. Živnostenský zákon.docx"
+source: "Ekonomika/19. Živnostenský zákon.docx"
 ---
 - __Právní úprava__ – živnostenský zákon \(ŽZ\); občanský zákoník; zákon o DPH, daň z príjmu, daň z nemovitostí, silniční daň
 - __Živnost__ – činnost soustavná, samostatná, na vlastní jméno, na vlastní odpovědnost, za účelem zisku – všechny znaky se musí splnit najednou

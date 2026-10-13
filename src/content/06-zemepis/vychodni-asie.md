@@ -1,7 +1,7 @@
 ---
 title: "Východní Asie"
 order: 15
-source: "MATURITA HADR/Zeměpis/Zeměpis GLP/15. Východní Asie.docx"
+source: "Zeměpis/Zeměpis GLP/15. Východní Asie.docx"
 ---
 # Východní Asie
 

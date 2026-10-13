@@ -1,7 +1,7 @@
 ---
 title: "SZP"
 order: 22
-source: "MATURITA HADR/Ekonomie/22.-SZP.docx"
+source: "Ekonomie/22.-SZP.docx"
 ---
 SOCIÁLNÍ POLITIKA = v ČR stejně jako v ostatních vyspělých zemích stát přebírá část odpovědnosti za své občany, kteří nejsou schopni se o sebe plně postarat vzhledem k:
 

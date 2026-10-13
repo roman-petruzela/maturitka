@@ -1,7 +1,7 @@
 ---
 title: "Bankovní obchody"
 order: 1
-source: "MATURITA HADR/Ekonomika/1. Bankovní obchody.docx"
+source: "Ekonomika/1. Bankovní obchody.docx"
 ---
 __Bankovnictví__
 

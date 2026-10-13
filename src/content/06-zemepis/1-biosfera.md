@@ -1,7 +1,7 @@
 ---
 title: "1 BIOSFÉRA"
 order: 6
-source: "MATURITA HADR/Zeměpis/Zeměpis GLP/6.1 BIOSFÉRA.docx"
+source: "Zeměpis/Zeměpis GLP/6.1 BIOSFÉRA.docx"
 ---
 **BIOSFÉRA**
 

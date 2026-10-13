@@ -1,7 +1,7 @@
 ---
 title: "Český stát v období Lucemburků, gotická kultura"
 order: 9
-source: "MATURITA HADR/Dějepis/09.Český stát v období Lucemburků, gotická kultura.doc"
+source: "Dějepis/09.Český stát v období Lucemburků, gotická kultura.doc"
 ---
 9\.
 

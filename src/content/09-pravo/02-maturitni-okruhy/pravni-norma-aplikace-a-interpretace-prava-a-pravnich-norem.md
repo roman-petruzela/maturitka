@@ -1,7 +1,7 @@
 ---
 title: "Právní norma, aplikace a interpretace práva a právních norem"
 order: 3
-source: "MATURITA HADR/Právo/3. Právní norma, aplikace a interpretace práva a právních norem/spolecnost_a_socialni_normy_emil.docx"
+source: "Právo/3. Právní norma, aplikace a interpretace práva a právních norem/spolecnost_a_socialni_normy.docx"
 ---
 # Společnost a sociální normy
 

@@ -1,7 +1,7 @@
 ---
 title: "Zásobování podniku"
 order: 12
-source: "MATURITA HADR/Ekonomie/12. Zásobování podniku.docx"
+source: "Ekonomie/12. Zásobování podniku.docx"
 ---
 12\. Zásobování podniku
 

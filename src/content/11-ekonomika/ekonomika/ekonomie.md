@@ -1,7 +1,7 @@
 ---
 title: "Ekonomie"
 order: 25
-source: "MATURITA HADR/Ekonomika/25. Ekonomie.docx"
+source: "Ekonomika/25. Ekonomie.docx"
 ---
 1\) teoretická věda – zabývá se studií ekonomiky
 

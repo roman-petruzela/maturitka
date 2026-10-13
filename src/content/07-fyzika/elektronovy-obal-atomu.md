@@ -1,7 +1,7 @@
 ---
 title: "Elektronový obal atomu"
 order: 48
-source: "MATURITA HADR/FYZIKA-maturitní otázky/48. Elektronový obal atomu.docx"
+source: "FYZIKA-maturitní otázky/48. Elektronový obal atomu.docx"
 ---
 Kvantově mechanický model atomu vodíku
 

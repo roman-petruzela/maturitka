@@ -1,7 +1,7 @@
 ---
 title: "Právní úprava účetnictví Dokumenty Google"
 order: 1
-source: "MATURITA HADR/Účetnictví/1. Právní úprava účetnictví - Dokumenty Google.pdf"
+source: "Účetnictví/1. Právní úprava účetnictví - Dokumenty Google.pdf"
 ---
 ## **Význam  a  funkce  účetnictví**
 

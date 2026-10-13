@@ -1,7 +1,7 @@
 ---
 title: "Obcanske pravo"
 order: 7
-source: "MATURITA HADR/Ekonomie/7.-obcanske-pravo.docx"
+source: "Ekonomie/7.-obcanske-pravo.docx"
 ---
 =Nejrozsáhlejší odvětví našeho právního řádu
 = Souhrn právních norem, které upravují osobní stav, právní postavení a vzájemné vztahy mezi FO a PO

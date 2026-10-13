@@ -1,7 +1,7 @@
 ---
 title: "Závazky"
 order: 11
-source: "MATURITA HADR/Účetnictví/11. Závazky.docx"
+source: "Účetnictví/11. Závazky.docx"
 ---
 11\. Závazky
 

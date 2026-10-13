@@ -1,7 +1,7 @@
 ---
 title: "Společnost s ručením omezeným"
 order: 16
-source: "MATURITA HADR/Ekonomika/16. Společnost s ručením omezeným.docx"
+source: "Ekonomika/16. Společnost s ručením omezeným.docx"
 ---
 - Právní úprava: zákon o obchodních korporacích, občanský zákoník, daňové zákony
 - __Obchodní korporace__  = obchodní společnosti \+ družstva

@@ -1,7 +1,7 @@
 ---
 title: "Litosféra"
 order: 5
-source: "MATURITA HADR/Zeměpis/Zeměpis GLP/5. Litosféra.docx"
+source: "Zeměpis/Zeměpis GLP/5. Litosféra.docx"
 ---
 5\. Litosféra
 

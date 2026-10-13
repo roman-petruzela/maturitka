@@ -1,7 +1,7 @@
 ---
 title: "William Styron - Sophiina Volba"
 order: 90
-source: "MATURITA HADR/ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/William Styron - Sophiina Volba/14. Sophiina_volba.doc"
+source: "ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/William Styron - Sophiina Volba/14. Sophiina_volba.doc"
 ---
 __Autor:__ WILLIAM STYRON
 

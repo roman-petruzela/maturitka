@@ -1,7 +1,7 @@
 ---
 title: "Stereometrie"
 order: 24
-source: "MATURITA HADR/Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/24) Stereometrie.pdf"
+source: "Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/24) Stereometrie.pdf"
 hasExercises: true
 ---
 
@@ -531,4 +531,4 @@ E) jiný výsledek
 
 ## Zdroje
 
-MATURITA HADR / Matematika / řešené postupy matematických okruhů z DT 2010–2017, dokument *24) Stereometrie.pdf*.
+Matematika / řešené postupy matematických okruhů z DT 2010–2017, dokument *24) Stereometrie.pdf*.

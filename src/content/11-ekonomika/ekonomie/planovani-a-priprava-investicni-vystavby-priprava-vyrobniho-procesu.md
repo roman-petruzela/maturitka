@@ -1,7 +1,7 @@
 ---
 title: "Plánování a příprava investiční výstavby, příprava výrobního procesu"
 order: 6
-source: "MATURITA HADR/Ekonomie/6. Plánování a příprava investiční výstavby, příprava výrobního procesu.docx"
+source: "Ekonomie/6. Plánování a příprava investiční výstavby, příprava výrobního procesu.docx"
 ---
 6\. Plánování a příprava investiční výstavby, příprava výrobního procesu
 

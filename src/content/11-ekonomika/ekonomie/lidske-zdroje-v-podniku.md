@@ -1,7 +1,7 @@
 ---
 title: "Lidské zdroje v podniku"
 order: 13
-source: "MATURITA HADR/Ekonomie/13. Lidské zdroje v podniku.docx"
+source: "Ekonomie/13. Lidské zdroje v podniku.docx"
 ---
 13\. Lidské zdroje v podniku
 

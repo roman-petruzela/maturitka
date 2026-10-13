@@ -1,7 +1,7 @@
 ---
 title: "Podmínky podnikání v CR"
 order: 26
-source: "MATURITA HADR/Ekonomie/26. Podmínky podnikání v CR.odt"
+source: "Ekonomie/26. Podmínky podnikání v CR.odt"
 ---
 26\. Podmínky podnikání v cestovním ruchu
 

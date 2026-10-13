@@ -1,7 +1,7 @@
 ---
 title: "Ústavní právo"
 order: 5
-source: "MATURITA HADR/Právo/5. Ústavní právo/5_ustavni_pravo.odt"
+source: "Právo/5. Ústavní právo/5_ustavni_pravo.odt"
 ---
 1. __5\. Ústavní právo__
 

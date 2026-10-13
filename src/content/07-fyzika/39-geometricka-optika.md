@@ -1,6 +1,6 @@
 ---
 title: "39 geometrická optika"
-source: "MATURITA HADR/FYZIKA-maturitní otázky/39 geometrická optika.docx"
+source: "FYZIKA-maturitní otázky/39 geometrická optika.docx"
 ---
 Obecné
 

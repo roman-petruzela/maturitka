@@ -1,7 +1,7 @@
 ---
 title: "Obchodní společnosti kapitálové a. s., s. r. o."
 order: 22
-source: "MATURITA HADR/Ekonomie/22. Obchodní společnosti kapitálové - a. s., s. r. o..docx"
+source: "Ekonomie/22. Obchodní společnosti kapitálové - a. s., s. r. o..docx"
 ---
 22\. Obchodní společnosti kapitálové
 

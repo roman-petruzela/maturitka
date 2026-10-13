@@ -1,7 +1,7 @@
 ---
 title: "Daňová evidence příjmů a výdajů"
 order: 10
-source: "MATURITA HADR/Účetnictví/10. Daňová evidence příjmů a výdajů.doc"
+source: "Účetnictví/10. Daňová evidence příjmů a výdajů.doc"
 ---
 <a id="page1"></a>__Daňová evidence příjmů a výdajů__
 

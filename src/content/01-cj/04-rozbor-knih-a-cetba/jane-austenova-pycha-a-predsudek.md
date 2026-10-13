@@ -1,7 +1,7 @@
 ---
 title: "Jane Austenová - Pýcha a Předsudek"
 order: 38
-source: "MATURITA HADR/ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Jane Austenová - Pýcha a Předsudek/Pýcha a předsudek - Jane Austenová.docx"
+source: "ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Jane Austenová - Pýcha a Předsudek/Pýcha a předsudek - Jane Austenová.docx"
 ---
 Téma a motiv: 		rodinné vztahy a snaha matek najít pro své dcery vhodné ženichy, láska, námluvy, plesy, tvrdohlavost, předsudky, pýcha, intelekt, pokrytectví, život střední třídy, pohrdání
 

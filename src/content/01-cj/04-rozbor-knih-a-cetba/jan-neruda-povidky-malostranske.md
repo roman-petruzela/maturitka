@@ -1,7 +1,7 @@
 ---
 title: "Jan Neruda - Povídky Malostránské"
 order: 36
-source: "MATURITA HADR/ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Jan Neruda - Povídky Malostránské/7. Povídky malostranské .docx"
+source: "ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Jan Neruda - Povídky Malostránské/7. Povídky malostranské .docx"
 ---
 # POVÍDKY MALOSTRANSKÉ
 

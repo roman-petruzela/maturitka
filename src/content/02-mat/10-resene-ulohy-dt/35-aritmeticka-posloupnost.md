@@ -1,7 +1,7 @@
 ---
 title: "Aritmetická posloupnost"
 order: 35
-source: "MATURITA HADR/Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/35) Aritmetická posloupnost.pdf"
+source: "Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/35) Aritmetická posloupnost.pdf"
 hasExercises: true
 ---
 
@@ -283,4 +283,4 @@ E) méně než 78,6 m
 
 ## Zdroje
 
-MATURITA HADR / Matematika / řešené postupy matematických okruhů z DT 2010–2017, dokument *35) Aritmetická posloupnost.pdf*.
+Matematika / řešené postupy matematických okruhů z DT 2010–2017, dokument *35) Aritmetická posloupnost.pdf*.

@@ -1,7 +1,7 @@
 ---
 title: "Slovní úlohy řešené pomocí rovnice nebo soustavy rovnic"
 order: 13
-source: "MATURITA HADR/Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/13) Slovní úlohy řešené pomocí rovnice nebo soustavy rovnic.pdf"
+source: "Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/13) Slovní úlohy řešené pomocí rovnice nebo soustavy rovnic.pdf"
 hasExercises: true
 ---
 
@@ -237,4 +237,4 @@ A–E) ((hodnoty možností se nedochovaly))
 
 ## Zdroje
 
-MATURITA HADR / Matematika / řešené postupy matematických okruhů z DT 2010–2017, dokument *13) Slovní úlohy řešené pomocí rovnice nebo soustavy rovnic.pdf*.
+Matematika / řešené postupy matematických okruhů z DT 2010–2017, dokument *13) Slovní úlohy řešené pomocí rovnice nebo soustavy rovnic.pdf*.

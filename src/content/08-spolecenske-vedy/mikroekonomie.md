@@ -1,7 +1,7 @@
 ---
 title: "MIKROEKONOMIE"
 order: 7
-source: "MATURITA HADR/Společenské vědy/7. MIKROEKONOMIE.docx"
+source: "Společenské vědy/7. MIKROEKONOMIE.docx"
 ---
 \- věda, která zkoumá dílčí ekonomické __subjekty__, které se setkávají na __trhu__:
 

@@ -1,7 +1,7 @@
 ---
 title: "Mzdy a zaměstnanci(1)"
 order: 12
-source: "MATURITA HADR/Účetnictví/12. Mzdy a zaměstnanci(1).docx"
+source: "Účetnictví/12. Mzdy a zaměstnanci(1).docx"
 ---
 12\. Mzdy a zaměstnanci
 

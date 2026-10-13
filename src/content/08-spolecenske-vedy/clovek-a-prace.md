@@ -1,7 +1,7 @@
 ---
 title: "CLOVEK A PRACE"
 order: 9
-source: "MATURITA HADR/Společenské vědy/9. CLOVEK A PRACE.docx"
+source: "Společenské vědy/9. CLOVEK A PRACE.docx"
 ---
 \- kdo může pracovat
 \- pracovní podmínky

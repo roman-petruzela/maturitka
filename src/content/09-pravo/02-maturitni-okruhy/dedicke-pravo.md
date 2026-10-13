@@ -1,7 +1,7 @@
 ---
 title: "Dědické právo"
 order: 10
-source: "MATURITA HADR/Právo/10. Dědické právo/10_dedicke_pravo.odt"
+source: "Právo/10. Dědické právo/10_dedicke_pravo.odt"
 ---
 1. __10\. Dědické právo, notářství__
 

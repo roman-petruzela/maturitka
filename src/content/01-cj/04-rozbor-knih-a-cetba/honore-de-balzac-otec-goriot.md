@@ -1,7 +1,7 @@
 ---
 title: "Honoré de Balzac - Otec Goriot"
 order: 34
-source: "MATURITA HADR/ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Honoré de Balzac - Otec Goriot/5. Otec Goriot.pdf"
+source: "ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Honoré de Balzac - Otec Goriot/5. Otec Goriot.pdf"
 ---
 ## **CHARAKTERISTIKA UMĚLECKÉHO TEXTU**
 

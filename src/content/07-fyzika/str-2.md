@@ -1,7 +1,7 @@
 ---
 title: "STR"
 order: 46
-source: "MATURITA HADR/FYZIKA-maturitní otázky/46-STR.docx"
+source: "FYZIKA-maturitní otázky/46-STR.docx"
 ---
 Relativistická hmotnost
 

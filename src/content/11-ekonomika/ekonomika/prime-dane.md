@@ -1,7 +1,7 @@
 ---
 title: "Přímé daně"
 order: 11
-source: "MATURITA HADR/Ekonomika/11. Přímé daně.docx"
+source: "Ekonomika/11. Přímé daně.docx"
 ---
 - daň – povinná, pravidelná, zákonem určená platba do státního rozpočtu
 - přímá daň – známe u nich poplatníka; platí ji domácnosti a firmy v závislosti na svých příjmech a majetku; poplatník si je sám vypočítá, vyplní daňové přiznání a odvede je příslušnému FÚ

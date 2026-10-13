@@ -1,7 +1,7 @@
 ---
 title: "ČR zemědělství"
 order: 28
-source: "MATURITA HADR/Zeměpis/Zeměpis GLP/28. ČR - zemědělství.docx"
+source: "Zeměpis/Zeměpis GLP/28. ČR - zemědělství.docx"
 ---
 ## 28\. ČR – zemědělství
 

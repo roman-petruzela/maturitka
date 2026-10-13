@@ -1,6 +1,6 @@
 ---
 title: "SOCIÁLNÍ PSYCHOLOGIE"
-source: "MATURITA HADR/PSYCHOLOGIE/SOCIÁLNÍ-PSYCHOLOGIE.docx"
+source: "PSYCHOLOGIE/SOCIÁLNÍ-PSYCHOLOGIE.docx"
 ---
 1. __Sociální psychologie__
 

@@ -1,7 +1,7 @@
 ---
 title: "Investiční činnost podniku"
 order: 10
-source: "MATURITA HADR/Ekonomika/10. Investiční činnost podniku.docx"
+source: "Ekonomika/10. Investiční činnost podniku.docx"
 ---
 - zajišťuje pro podnik dlouhodobý majetek v potřebných druzích, pečuje o něj, veškeré tyto činnosti provádí s co nejnižšími náklady
 - vykonává buď majitel nebo technický úsek

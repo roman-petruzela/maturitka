@@ -1,7 +1,7 @@
 ---
 title: "Mechanika tuhého tělesa"
 order: 7
-source: "MATURITA HADR/FYZIKA-maturitní otázky/7-Mechanika-tuhého-tělesa.docx"
+source: "FYZIKA-maturitní otázky/7-Mechanika-tuhého-tělesa.docx"
 ---
 Tuhé těleso a jeho pohyb
 

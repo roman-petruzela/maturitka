@@ -1,7 +1,7 @@
 ---
 title: "Kruhový děj s ideálním plynem 2. TD z."
 order: 16
-source: "MATURITA HADR/FYZIKA-maturitní otázky/16-Kruhový-děj-s-ideálním-plynem-2.-TD-z..docx"
+source: "FYZIKA-maturitní otázky/16-Kruhový-děj-s-ideálním-plynem-2.-TD-z..docx"
 ---
 Práce plynu
 

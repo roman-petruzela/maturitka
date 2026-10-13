@@ -1,7 +1,7 @@
 ---
 title: "Kmitavý pohyb II"
 order: 22
-source: "MATURITA HADR/FYZIKA-maturitní otázky/22-Kmitavý-pohyb-II.docx"
+source: "FYZIKA-maturitní otázky/22-Kmitavý-pohyb-II.docx"
 ---
 Matematické kyvadlo
 

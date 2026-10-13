@@ -1,7 +1,7 @@
 ---
 title: "Fyzikální veličiny a jednotky"
 order: 2
-source: "MATURITA HADR/FYZIKA-maturitní otázky/2-Fyzikální-veličiny-a-jednotky.docx"
+source: "FYZIKA-maturitní otázky/2-Fyzikální-veličiny-a-jednotky.docx"
 ---
 Fyzikální veličina
 

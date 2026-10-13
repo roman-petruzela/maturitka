@@ -1,7 +1,7 @@
 ---
 title: "Funkce obecně"
 order: 28
-source: "MATURITA HADR/Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/28) Funkce obecně.pdf"
+source: "Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/28) Funkce obecně.pdf"
 hasExercises: true
 ---
 
@@ -152,4 +152,4 @@ c) dosazením $y=0$: $0=\dfrac{10}x \implies0=10$ — nepravdivá rovnost, rovni
 
 ## Zdroje
 
-MATURITA HADR / Matematika / řešené postupy matematických okruhů z DT 2010–2017, dokument *28) Funkce obecně.pdf*.
+Matematika / řešené postupy matematických okruhů z DT 2010–2017, dokument *28) Funkce obecně.pdf*.

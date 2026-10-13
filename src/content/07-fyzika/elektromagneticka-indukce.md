@@ -1,7 +1,7 @@
 ---
 title: "Elektromagnetická indukce"
 order: 33
-source: "MATURITA HADR/FYZIKA-maturitní otázky/33-Elektromagnetická-indukce.docx"
+source: "FYZIKA-maturitní otázky/33-Elektromagnetická-indukce.docx"
 ---
 Nestacionární magnetické pole
 

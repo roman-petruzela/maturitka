@@ -1,7 +1,7 @@
 ---
 title: "Pojišťovnictví"
 order: 2
-source: "MATURITA HADR/Ekonomika/2. Pojišťovnictví.docx"
+source: "Ekonomika/2. Pojišťovnictví.docx"
 ---
 a\) __komerční__
 

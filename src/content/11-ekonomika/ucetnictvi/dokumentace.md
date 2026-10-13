@@ -1,7 +1,7 @@
 ---
 title: "Dokumentace"
 order: 2
-source: "MATURITA HADR/Účetnictví/2. Dokumentace.docx"
+source: "Účetnictví/2. Dokumentace.docx"
 ---
 2\. Dokumentace
 

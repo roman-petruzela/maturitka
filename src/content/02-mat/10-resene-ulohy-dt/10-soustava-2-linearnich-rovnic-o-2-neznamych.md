@@ -1,7 +1,7 @@
 ---
 title: "Soustava 2 lineárních rovnic o 2 neznámých"
 order: 10
-source: "MATURITA HADR/Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/10) Soustava 2 lineárních rovnic o 2 neznámých.pdf"
+source: "Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/10) Soustava 2 lineárních rovnic o 2 neznámých.pdf"
 hasExercises: true
 ---
 
@@ -85,4 +85,4 @@ Zkouška: $L_1=1-2\cdot0=1=P_1$ ✓. $L_2=\dfrac5{1-\frac16}-6=\dfrac5{\frac56}-
 
 ## Zdroje
 
-MATURITA HADR / Matematika / řešené postupy matematických okruhů z DT 2010–2017, dokument *10) Soustava 2 lineárních rovnic o 2 neznámých.pdf*.
+Matematika / řešené postupy matematických okruhů z DT 2010–2017, dokument *10) Soustava 2 lineárních rovnic o 2 neznámých.pdf*.

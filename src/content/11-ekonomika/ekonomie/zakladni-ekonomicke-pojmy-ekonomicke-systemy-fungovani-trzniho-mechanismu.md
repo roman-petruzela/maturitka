@@ -1,7 +1,7 @@
 ---
 title: "Základní ekonomické pojmy, ekonomické systémy, fungování tržního mechanismu"
 order: 10
-source: "MATURITA HADR/Ekonomie/10. Základní ekonomické pojmy, ekonomické systémy, fungování tržního mechanismu.docx"
+source: "Ekonomie/10. Základní ekonomické pojmy, ekonomické systémy, fungování tržního mechanismu.docx"
 ---
 10\. Základní ekonomické pojmy, ekonomické systémy, fungování tržního mechanismu
 

@@ -1,7 +1,7 @@
 ---
 title: "Trestní právo hmotné"
 order: 22
-source: "MATURITA HADR/Právo/22. Trestní právo hmotné/22_trestni_pravo_hmotne.docx"
+source: "Právo/22. Trestní právo hmotné/22_trestni_pravo_hmotne.docx"
 ---
 # __22\. Trestní právo hmotné__
 

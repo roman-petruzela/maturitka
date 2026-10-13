@@ -1,7 +1,7 @@
 ---
 title: "Výroba"
 order: 9
-source: "MATURITA HADR/Ekonomie/9. výroba.docx"
+source: "Ekonomie/9. výroba.docx"
 ---
 = ve výrobním středisku dochází k přípravě hotových pokrmů a nápojů k jejich expedici\.
 

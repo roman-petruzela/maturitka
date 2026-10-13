@@ -1,7 +1,7 @@
 ---
 title: "Obchodní činnosti vnitrostátní obchod"
 order: 19
-source: "MATURITA HADR/Ekonomie/19. Obchodní činnosti - vnitrostátní obchod.docx"
+source: "Ekonomie/19. Obchodní činnosti - vnitrostátní obchod.docx"
 ---
 19\. Obchodní činnosti – vnitrostátní obchod
 

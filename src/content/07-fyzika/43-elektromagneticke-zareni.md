@@ -1,6 +1,6 @@
 ---
 title: "43 Elektromagnetické záření"
-source: "MATURITA HADR/FYZIKA-maturitní otázky/43 Elektromagnetické záření.docx"
+source: "FYZIKA-maturitní otázky/43 Elektromagnetické záření.docx"
 ---
 Přehled elektromagnetického záření
 

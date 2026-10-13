@@ -1,7 +1,7 @@
 ---
 title: "Základní příkazy Cisco IOS pro správu směrovačů a přepínačů"
 order: 14
-source: "MATURITA HADR/IT/RTR_CMD-2-CZ-_29_.pdf"
+source: "IT/RTR_CMD-2-CZ-_29_.pdf"
 ---
 Josef Kaderka
 

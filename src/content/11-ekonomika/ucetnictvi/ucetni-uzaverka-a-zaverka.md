@@ -1,7 +1,7 @@
 ---
 title: "Účetní uzávěrka a závěrka"
 order: 17
-source: "MATURITA HADR/Účetnictví/17. Účetní uzávěrka a závěrka.docx"
+source: "Účetnictví/17. Účetní uzávěrka a závěrka.docx"
 ---
 17\. Účetní uzávěrka a závěrka
 

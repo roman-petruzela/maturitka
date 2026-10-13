@@ -1,7 +1,7 @@
 ---
 title: "Viktor Dyk - Krysař"
 order: 84
-source: "MATURITA HADR/ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Viktor Dyk - Krysař/Viktor Dyk - Krysař (1)/Krysař.docx"
+source: "ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Viktor Dyk - Krysař/Viktor Dyk - Krysař (1)/Krysař.docx"
 ---
 __Ostatní autoři této doby :__
 

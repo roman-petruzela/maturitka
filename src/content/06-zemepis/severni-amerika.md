@@ -1,7 +1,7 @@
 ---
 title: "Severní Amerika"
 order: 12
-source: "MATURITA HADR/Zeměpis/Zeměpis GLP/12. Severní Amerika.docx"
+source: "Zeměpis/Zeměpis GLP/12. Severní Amerika.docx"
 ---
 # Severní Amerika
 

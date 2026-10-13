@@ -1,7 +1,7 @@
 ---
 title: "SOCIOLOGIE"
 order: 3
-source: "MATURITA HADR/Společenské vědy/3. SOCIOLOGIE.docx"
+source: "Společenské vědy/3. SOCIOLOGIE.docx"
 ---
 \- latinsky: __societas__=společnost, __logos__=věda
 \-  věda o společnosti, ostatní společenské vědy zkoumají pouze jeden aspekt společnosti, sociologie

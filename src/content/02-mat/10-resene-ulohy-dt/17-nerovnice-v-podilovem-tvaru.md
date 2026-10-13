@@ -1,7 +1,7 @@
 ---
 title: "Nerovnice v podílovém tvaru"
 order: 17
-source: "MATURITA HADR/Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/17) Nerovnice v podílovém tvaru.pdf"
+source: "Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/17) Nerovnice v podílovém tvaru.pdf"
 hasExercises: true
 ---
 
@@ -74,4 +74,4 @@ Ověření nulových bodů: $x_1=0$ dává hodnotu $0$ (nevyhovuje ostré nerovn
 
 ## Zdroje
 
-MATURITA HADR / Matematika / řešené postupy matematických okruhů z DT 2010–2017, dokument *17) Nerovnice v podílovém tvaru.pdf*.
+Matematika / řešené postupy matematických okruhů z DT 2010–2017, dokument *17) Nerovnice v podílovém tvaru.pdf*.

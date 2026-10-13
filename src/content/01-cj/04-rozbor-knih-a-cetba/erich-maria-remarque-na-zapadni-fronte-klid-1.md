@@ -1,7 +1,7 @@
 ---
 title: "Erich Maria Remarque - Na západní frontě klid (1)"
 order: 22
-source: "MATURITA HADR/ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Erich Maria Remarque - Na západní frontě klid (1)/9. E. M. Remarque Na západní frontě klid.docx"
+source: "ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Erich Maria Remarque - Na západní frontě klid (1)/9. E. M. Remarque Na západní frontě klid.docx"
 ---
 **Kniha:** Na západní frontě klid
 

@@ -1,7 +1,7 @@
 ---
 title: "Obvody střídavého proudu s různými prvky výkon střídavého proudu"
 order: 35
-source: "MATURITA HADR/FYZIKA-maturitní otázky/35-Obvody-střídavého-proudu-s-různými-prvky-výkon-střídavého-proudu.docx"
+source: "FYZIKA-maturitní otázky/35-Obvody-střídavého-proudu-s-různými-prvky-výkon-střídavého-proudu.docx"
 ---
 Střídavé napětí a proud
 

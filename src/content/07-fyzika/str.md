@@ -1,7 +1,7 @@
 ---
 title: "STR"
 order: 45
-source: "MATURITA HADR/FYZIKA-maturitní otázky/45-STR.docx"
+source: "FYZIKA-maturitní otázky/45-STR.docx"
 ---
 Inerciální a neinerciální vztažná soustava
 

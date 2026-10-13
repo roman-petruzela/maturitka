@@ -1,7 +1,7 @@
 ---
 title: "SVETOVA NABOZENSTVI A MIMOEVROPSKA FILOSOFIE"
 order: 23
-source: "MATURITA HADR/Společenské vědy/23. SVETOVA NABOZENSTVI A MIMOEVROPSKA FILOSOFIE.docx"
+source: "Společenské vědy/23. SVETOVA NABOZENSTVI A MIMOEVROPSKA FILOSOFIE.docx"
 ---
 \- náboženství označuje aktivní i pasivní projevy lidského vztahu k vyšší, nadlidské moci
 

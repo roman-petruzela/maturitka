@@ -1,5 +1,5 @@
 ---
 title: "4) Schweiz"
-source: "MATURITA HADR/Němčina/4) Schweiz.pdf"
+source: "Němčina/4) Schweiz.pdf"
 ---
 

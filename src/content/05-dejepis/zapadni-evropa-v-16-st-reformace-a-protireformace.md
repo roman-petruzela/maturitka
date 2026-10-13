@@ -1,7 +1,7 @@
 ---
 title: "Západní Evropa v 16.st., reformace a protireformace"
 order: 13
-source: "MATURITA HADR/Dějepis/13.Západní Evropa v 16.st., reformace a protireformace.doc"
+source: "Dějepis/13.Západní Evropa v 16.st., reformace a protireformace.doc"
 ---
 13\.
 

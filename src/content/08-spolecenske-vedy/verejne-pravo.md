@@ -1,7 +1,7 @@
 ---
 title: "VEREJNE PRAVO"
 order: 5
-source: "MATURITA HADR/Společenské vědy/5. VEREJNE PRAVO.docx"
+source: "Společenské vědy/5. VEREJNE PRAVO.docx"
 ---
 __SPRÁVNÍ PRÁVO__
 

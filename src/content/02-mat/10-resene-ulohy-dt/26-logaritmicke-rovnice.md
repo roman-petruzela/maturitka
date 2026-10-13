@@ -1,7 +1,7 @@
 ---
 title: "Logaritmické rovnice"
 order: 26
-source: "MATURITA HADR/Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/26) Logaritmické rovnice.pdf"
+source: "Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/26) Logaritmické rovnice.pdf"
 hasExercises: true
 ---
 
@@ -143,4 +143,4 @@ b) 2. větou: $\log_2\dfrac{x^2}x=1 \implies\log_2x=1 \implies x=2$. Podmínky: 
 
 ## Zdroje
 
-MATURITA HADR / Matematika / řešené postupy matematických okruhů z DT 2010–2017, dokument *26) Logaritmické rovnice.pdf*.
+Matematika / řešené postupy matematických okruhů z DT 2010–2017, dokument *26) Logaritmické rovnice.pdf*.

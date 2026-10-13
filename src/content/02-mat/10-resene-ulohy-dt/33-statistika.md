@@ -1,7 +1,7 @@
 ---
 title: "Statistika"
 order: 33
-source: "MATURITA HADR/Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/33) Statistika.pdf"
+source: "Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/33) Statistika.pdf"
 hasExercises: true
 ---
 
@@ -91,4 +91,4 @@ d) medián $=\dfrac{2+2}2=2$ — pravdivé.
 
 ## Zdroje
 
-MATURITA HADR / Matematika / řešené postupy matematických okruhů z DT 2010–2017, dokument *33) Statistika.pdf*.
+Matematika / řešené postupy matematických okruhů z DT 2010–2017, dokument *33) Statistika.pdf*.

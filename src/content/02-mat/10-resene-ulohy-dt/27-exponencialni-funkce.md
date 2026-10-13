@@ -1,7 +1,7 @@
 ---
 title: "Exponenciální funkce"
 order: 27
-source: "MATURITA HADR/Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/27) Exponenciální funkce.pdf"
+source: "Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/27) Exponenciální funkce.pdf"
 hasExercises: true
 ---
 
@@ -33,4 +33,4 @@ hasExercises: true
 
 ## Zdroje
 
-MATURITA HADR / Matematika / řešené postupy matematických okruhů z DT 2010–2017, dokument *27) Exponenciální funkce.pdf*.
+Matematika / řešené postupy matematických okruhů z DT 2010–2017, dokument *27) Exponenciální funkce.pdf*.

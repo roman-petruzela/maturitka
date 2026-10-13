@@ -1,7 +1,7 @@
 ---
 title: "Vybrané formy CR"
 order: 29
-source: "MATURITA HADR/Ekonomie/29. vybrané formy CR.docx"
+source: "Ekonomie/29. vybrané formy CR.docx"
 ---
 __Vybrané formy cestovního ruchu__
 

@@ -1,7 +1,7 @@
 ---
 title: "Goniometrické funkce"
 order: 21
-source: "MATURITA HADR/Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/21) Goniometrické funkce.pdf"
+source: "Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/21) Goniometrické funkce.pdf"
 hasExercises: true
 ---
 
@@ -53,4 +53,4 @@ Po kvadrantech: v $\left(0;\frac\pi2\right)$ sinus roste, kosinus klesá; v $\le
 
 ## Zdroje
 
-MATURITA HADR / Matematika / řešené postupy matematických okruhů z DT 2010–2017, dokument *21) Goniometrické funkce.pdf*.
+Matematika / řešené postupy matematických okruhů z DT 2010–2017, dokument *21) Goniometrické funkce.pdf*.

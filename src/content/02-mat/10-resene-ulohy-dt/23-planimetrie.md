@@ -1,7 +1,7 @@
 ---
 title: "Planimetrie"
 order: 23
-source: "MATURITA HADR/Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/23) Planimetrie.pdf"
+source: "Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/23) Planimetrie.pdf"
 hasExercises: true
 ---
 
@@ -801,4 +801,4 @@ E) 2 298 m²
 
 ## Zdroje
 
-MATURITA HADR / Matematika / řešené postupy matematických okruhů z DT 2010–2017, dokument *23) Planimetrie.pdf*.
+Matematika / řešené postupy matematických okruhů z DT 2010–2017, dokument *23) Planimetrie.pdf*.

@@ -1,7 +1,7 @@
 ---
 title: "Elektrický proud v polovodičích"
 order: 28
-source: "MATURITA HADR/FYZIKA-maturitní otázky/28-Elektrický-proud-v-polovodičích.docx"
+source: "FYZIKA-maturitní otázky/28-Elektrický-proud-v-polovodičích.docx"
 ---
 Polovodiče
 

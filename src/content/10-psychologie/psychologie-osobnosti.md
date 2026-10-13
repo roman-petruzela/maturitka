@@ -1,6 +1,6 @@
 ---
 title: "PSYCHOLOGIE OSOBNOSTI"
-source: "MATURITA HADR/PSYCHOLOGIE/PSYCHOLOGIE-OSOBNOSTI.docx"
+source: "PSYCHOLOGIE/PSYCHOLOGIE-OSOBNOSTI.docx"
 ---
 __5\. Psychologie osobnosti__
 

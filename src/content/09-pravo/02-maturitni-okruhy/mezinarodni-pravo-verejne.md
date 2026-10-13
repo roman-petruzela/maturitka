@@ -1,7 +1,7 @@
 ---
 title: "Mezinárodní právo veřejné"
 order: 24
-source: "MATURITA HADR/Právo/24. Mezinárodní právo veřejné/24_mezinarodni_pravo_verejne.odt"
+source: "Právo/24. Mezinárodní právo veřejné/24_mezinarodni_pravo_verejne.odt"
 ---
 1. __24\. Mezinárodní právo veřejné__
 

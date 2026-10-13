@@ -1,7 +1,7 @@
 ---
 title: "Správní řízení"
 order: 15
-source: "MATURITA HADR/Právo/15. Správní řízení/15_spravni_rizeni.docx"
+source: "Právo/15. Správní řízení/15_spravni_rizeni.docx"
 ---
 # __15\. Správní řízení__
 

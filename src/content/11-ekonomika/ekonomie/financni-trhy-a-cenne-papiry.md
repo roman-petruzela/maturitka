@@ -1,7 +1,7 @@
 ---
 title: "Finanční trhy a cenné papíry"
 order: 8
-source: "MATURITA HADR/Ekonomie/8. Finanční trhy a cenné papíry.docx"
+source: "Ekonomie/8. Finanční trhy a cenné papíry.docx"
 ---
 8\. Finanční trhy a cenné papíry
 

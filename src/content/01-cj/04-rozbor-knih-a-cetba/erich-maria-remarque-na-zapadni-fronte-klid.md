@@ -1,7 +1,7 @@
 ---
 title: "Erich Maria Remarque – Na Západní Frontě klid"
 order: 23
-source: "MATURITA HADR/ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Erich Maria Remarque – Na Západní Frontě klid/Na-západní-frontě-klid.docx"
+source: "ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Erich Maria Remarque – Na Západní Frontě klid/Na-západní-frontě-klid.docx"
 ---
 __Na západní frontě klid \(1928\)__
 
@@ -50,7 +50,7 @@ __3\. Dílo__
 - válečný historický román,
 
 **TÉMA**
-\- reaguje na první světovou válku, na její zbytečnost, absurdita války
+- reaguje na první světovou válku, na její zbytečnost, absurdita války
 - oslavuje lidskou obětavost \(i v mezních situacích\)
 - pevná přátelství, přátelské pouto
 - nelidskost, odpor proti krutosti
@@ -60,16 +60,16 @@ __3\. Dílo__
 - smrt vidí i jako osvobození z utrpení i jako tragédii nevinných lidí \(autor se pozastavuje nad tím, proč mají nevinní lidé odnášet rivalitu mezi mocnostmi\)
 
 **ČASOPROSTOR**
-\- doba první světové války, válečná bojiště západní fronty ve Francii \(na hranicích s Německem\)
+- doba první světové války, válečná bojiště západní fronty ve Francii \(na hranicích s Německem\)
 - od r\. 1916 \(nastoupil do války\) až do r\. 1918
 
 **KOMPOZICE**
-\- retrospektivní \(prolíná se minulost s přítomností\) = chronologická se vzpomínkami do minulosti
+- retrospektivní \(prolíná se minulost s přítomností\) = chronologická se vzpomínkami do minulosti
 - gradace
 - líčí příhody ze školy, ale většina chronologicky z fronty; někdy se vrací do dětství \(symbol jistoty\)
 
 **ANALÝZA \(ich/er forma\)**
-\- ich\-forma \(vypráví Pavel\)
+- ich\-forma \(vypráví Pavel\)
 
 **CHARAKTERISTIKA POSTAV**
 Pavel Baumer – vypravěč, hlavní postava; středoškolský student, mladík, z chudé rodiny, pod nátlakem třídního učitele se hlásí do války, která ho změnila \)stal se necitelným, silná povaha, obětavý, pomáhá ostatním
@@ -83,12 +83,12 @@ Kropp, Müller, Kemmerich, Tjaden – Pavlovi spolužáci
 Kantorek – jejich třídní, přemlouvá je, aby šli ddo války
 
 **JAZYK A STYL**
-\- spisovný jazyk, místy hovorový
+- spisovný jazyk, místy hovorový
 - úvahové prvky
 - metafory
 
 **DETAILY**
-\- když mají jednoho z nich odvézt do lazaretu \(když jedou vlakem\), Pavel předstírá nemoc, aby mohl vystoupit v lazaretu s ním a byl mu nablízku
+- když mají jednoho z nich odvézt do lazaretu \(když jedou vlakem\), Pavel předstírá nemoc, aby mohl vystoupit v lazaretu s ním a byl mu nablízku
 - když poprvé v zákopu zabil nepřátele, cítil se mizerně \(podíval se mu do kapsy a našel fotku jeho rodiny, zjistil, jak se jmenuje – tížila ho představa, že na něj doma čeká rodina s manželkou a on je teď mrtví – Pavel si slíbil, že jeho rodině napíše dopis, že ji bude posílat peníze, ale myslím si, že to nikdy neudělal > válka dělá z lidí zvířata, bezhlavá, bezcitná, nesmyslné zabíjení\)
 - konec knihy je stejný jako konec knihy Ostře sledované vlaky od Bohumila Hrabala \(uvědomění si zbytečnosti války, oba dva jsou jen lidé, mají jen sami sebe, umírají vedle sebe\)
 - vypráví o tom, jak jako malý s kamarády skotačil kolem říčky a stromů podél ní a jak chytali motýly \(poté se motýl objeví v zákopech – pro mě to je symbol naděje, návrat do dětství, kdy jsme žili v naivním světě plném jistoty\)

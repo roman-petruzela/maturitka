@@ -1,7 +1,7 @@
 ---
 title: "Podnik"
 order: 6
-source: "MATURITA HADR/Ekonomie/6. Podnik.odt"
+source: "Ekonomie/6. Podnik.odt"
 ---
 PODNIK
 

@@ -1,7 +1,7 @@
 ---
 title: "Vznik USA a jejich vývoj v 19.století"
 order: 19
-source: "MATURITA HADR/Dějepis/19.Vznik USA a jejich vývoj v 19.století.doc"
+source: "Dějepis/19.Vznik USA a jejich vývoj v 19.století.doc"
 ---
 # 		19\.
 

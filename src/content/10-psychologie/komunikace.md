@@ -1,6 +1,6 @@
 ---
 title: "KOMUNIKACE"
-source: "MATURITA HADR/PSYCHOLOGIE/KOMUNIKACE.docx"
+source: "PSYCHOLOGIE/KOMUNIKACE.docx"
 ---
 - V širším smyslu __sdílení__ \(communicare, communicatio\)
 - V užším smyslu __výměna informací__

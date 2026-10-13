@@ -1,7 +1,7 @@
 ---
 title: "Kapitálové účty (účtová třída 4) Dokumenty Google"
 order: 6
-source: "MATURITA HADR/Účetnictví/6. Kapitálové účty (účtová třída 4) - Dokumenty Google.pdf"
+source: "Účetnictví/6. Kapitálové účty (účtová třída 4) - Dokumenty Google.pdf"
 ---
 - 4.  účtová  třída
 

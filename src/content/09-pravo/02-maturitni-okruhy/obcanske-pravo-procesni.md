@@ -1,7 +1,7 @@
 ---
 title: "Občanské právo procesní"
 order: 19
-source: "MATURITA HADR/Právo/19. Občanské právo procesní/maturitni otazka c. 19.docx"
+source: "Právo/19. Občanské právo procesní/maturitni otazka c. 19.docx"
 ---
 Občanské právo procesní\. – Maturitní otázka č\. 19
 

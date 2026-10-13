@@ -1,7 +1,7 @@
 ---
 title: "2 PEDOSFÉRA"
 order: 6
-source: "MATURITA HADR/Zeměpis/Zeměpis GLP/6.2 PEDOSFÉRA.docx"
+source: "Zeměpis/Zeměpis GLP/6.2 PEDOSFÉRA.docx"
 ---
 = půdní obal Země
 

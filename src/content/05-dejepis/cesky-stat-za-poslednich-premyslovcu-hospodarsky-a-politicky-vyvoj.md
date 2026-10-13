@@ -1,7 +1,7 @@
 ---
 title: "Český stát za posledních Přemyslovců hospodářský a politický vývoj"
 order: 8
-source: "MATURITA HADR/Dějepis/08.Český stát za posledních Přemyslovců - hospodářský a politický vývoj.doc"
+source: "Dějepis/08.Český stát za posledních Přemyslovců - hospodářský a politický vývoj.doc"
 ---
 8\.
 

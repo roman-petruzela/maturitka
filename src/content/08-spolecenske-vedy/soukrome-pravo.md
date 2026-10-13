@@ -1,7 +1,7 @@
 ---
 title: "SOUKROME PRAVO"
 order: 6
-source: "MATURITA HADR/Společenské vědy/6. SOUKROME PRAVO.docx"
+source: "Společenské vědy/6. SOUKROME PRAVO.docx"
 ---
 __OBCHODNÍ PRÁVO__
 __=__ je souhrn právních norem upravujících postavení podnikatelů, obchodní závazkové vztahy a další vztahy

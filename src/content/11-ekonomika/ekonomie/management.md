@@ -1,7 +1,7 @@
 ---
 title: "Management"
 order: 16
-source: "MATURITA HADR/Ekonomie/16. Management.docx"
+source: "Ekonomie/16. Management.docx"
 ---
 16\. Management
 

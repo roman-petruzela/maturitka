@@ -1,7 +1,7 @@
 ---
 title: "Politický systém první republiky, Mnichov 1938"
 order: 25
-source: "MATURITA HADR/Dějepis/25.politický systém první republiky, Mnichov 1938.doc"
+source: "Dějepis/25.politický systém první republiky, Mnichov 1938.doc"
 ---
 25\.
 

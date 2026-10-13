@@ -1,7 +1,7 @@
 ---
 title: "CLOVEK A PRAVO"
 order: 4
-source: "MATURITA HADR/Společenské vědy/4. CLOVEK A PRAVO.docx"
+source: "Společenské vědy/4. CLOVEK A PRAVO.docx"
 ---
 __PRÁVO__
 = je souborem norem, vydaných a uznaných státem, které jsou pro společnost závazné a jejichž zachování je

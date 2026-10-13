@@ -1,7 +1,7 @@
 ---
 title: "Subsaharská afrika"
 order: 18
-source: "MATURITA HADR/Zeměpis/Zeměpis GLP/18. subsaharská afrika.docx"
+source: "Zeměpis/Zeměpis GLP/18. subsaharská afrika.docx"
 ---
 # 18\. GEOGRAFICKÁ CHARAKTERISTIKA SUBSAHARSKÉ AFRIKY
 

@@ -1,7 +1,7 @@
 ---
 title: "Cenné papíry"
 order: 9
-source: "MATURITA HADR/Účetnictví/9. Cenné papíry.docx"
+source: "Účetnictví/9. Cenné papíry.docx"
 ---
 9\. Cenné papíry
 

@@ -1,7 +1,7 @@
 ---
 title: "Zúčtovací vztahy (účtová třída 3) Dokumenty Google"
 order: 5
-source: "MATURITA HADR/Účetnictví/5. Zúčtovací vztahy (účtová třída 3) - Dokumenty Google.pdf"
+source: "Účetnictví/5. Zúčtovací vztahy (účtová třída 3) - Dokumenty Google.pdf"
 ---
 ## **Pohledávky  a  závazky  z  obchodních  vztahů**
 

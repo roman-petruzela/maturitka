@@ -1,7 +1,7 @@
 ---
 title: "Nikolaj Vasiljevič Gogol - Revizor"
 order: 70
-source: "MATURITA HADR/ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Nikolaj Vasiljevič Gogol - Revizor/Revizor.docx"
+source: "ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Nikolaj Vasiljevič Gogol - Revizor/Revizor.docx"
 ---
 __Ostatní autoři této doby :__
 

@@ -1,7 +1,7 @@
 ---
 title: "Stacionární magnetické pole"
 order: 31
-source: "MATURITA HADR/FYZIKA-maturitní otázky/31-Stacionární-magnetické-pole.docx"
+source: "FYZIKA-maturitní otázky/31-Stacionární-magnetické-pole.docx"
 ---
 Stacionární magnetické pole
 

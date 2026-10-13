@@ -1,7 +1,7 @@
 ---
 title: "J. K. Rowlingová - Harry Potter a Kámen mudrců"
 order: 92
-source: "MATURITA 2023 (ČÍP)/cj/10 ROWLINGOVÁ, J. K. Harry Potter a kámen mudrců/ROWLINGOVÁ, J. K. Harry Potter a kámen mudrců.docx"
+source: "cj/10 ROWLINGOVÁ, J. K. Harry Potter a kámen mudrců/ROWLINGOVÁ, J. K. Harry Potter a kámen mudrců.docx"
 ---
 **Autorka**
 

@@ -1,7 +1,7 @@
 ---
 title: "John Steinbeck - O Myších a Lidech"
 order: 44
-source: "MATURITA HADR/ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/John Steinbeck - O Myších a Lidech/John Steinbeck - O myších a lidech - pracovní list dle struktury zkoušky.docx"
+source: "ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/John Steinbeck - O Myších a Lidech/John Steinbeck - O myších a lidech - pracovní list dle struktury zkoušky.docx"
 ---
 # John Steinbeck – O Myších a lidech
 

@@ -1,7 +1,7 @@
 ---
 title: "Správní právo"
 order: 14
-source: "MATURITA HADR/Právo/14. Správní právo/14_spravni_pravo.docx"
+source: "Právo/14. Správní právo/14_spravni_pravo.docx"
 ---
 # __14\. Správní právo__
 

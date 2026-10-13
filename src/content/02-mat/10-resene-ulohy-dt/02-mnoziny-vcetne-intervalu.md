@@ -1,7 +1,7 @@
 ---
 title: "Množiny (včetně intervalů)"
 order: 2
-source: "MATURITA HADR/Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/2) Množiny ( včetně intervalů ).pdf"
+source: "Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/2) Množiny ( včetně intervalů ).pdf"
 hasExercises: true
 ---
 
@@ -63,4 +63,4 @@ d) $B\cup C=\{-3;-2;-1;0;1;2\}$
 
 ## Zdroje
 
-MATURITA HADR / Matematika / řešené postupy matematických okruhů z DT 2010–2017, dokument *2) Množiny ( včetně intervalů ).pdf*.
+Matematika / řešené postupy matematických okruhů z DT 2010–2017, dokument *2) Množiny ( včetně intervalů ).pdf*.

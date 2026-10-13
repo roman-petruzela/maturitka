@@ -1,7 +1,7 @@
 ---
 title: "Daňová soustava ČR nepřímé daně"
 order: 2
-source: "MATURITA HADR/Ekonomie/2. Daňová soustava ČR - nepřímé daně.docx"
+source: "Ekonomie/2. Daňová soustava ČR - nepřímé daně.docx"
 ---
 2\. Daňová soustava ČR – nepřímé daně
 

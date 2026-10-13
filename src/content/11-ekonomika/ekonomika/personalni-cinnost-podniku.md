@@ -1,7 +1,7 @@
 ---
 title: "Personální činnost podniku"
 order: 20
-source: "MATURITA HADR/Ekonomika/20. Personální činnost podniku.docx"
+source: "Ekonomika/20. Personální činnost podniku.docx"
 ---
 - zabývá se zajišťováním pracovníků v potřebném počtu a kvalifikaci uzavírání pracovního poměru, skončení pracovního poměru, péče o zaměstnance
 - Zaměstnavatel = zpravidla PO; zaměstnává zaměstnance; přiděluje práci; vyplácí odměnu

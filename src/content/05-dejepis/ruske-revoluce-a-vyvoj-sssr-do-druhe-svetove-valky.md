@@ -1,7 +1,7 @@
 ---
 title: "RUSKÉ REVOLUCE A VÝVOJ SSSR DO DRUHÉ SVĚTOVÉ VÁLKY"
 order: 26
-source: "MATURITA HADR/Dějepis/26.RUSKÉ REVOLUCE A VÝVOJ SSSR DO DRUHÉ SVĚTOVÉ VÁLKY.docx"
+source: "Dějepis/26.RUSKÉ REVOLUCE A VÝVOJ SSSR DO DRUHÉ SVĚTOVÉ VÁLKY.docx"
 ---
 __Únorová revoluce__
 

@@ -1,7 +1,7 @@
 ---
 title: "Kapacita kondenzátor elektrický proud"
 order: 26
-source: "MATURITA HADR/FYZIKA-maturitní otázky/26-Kapacita-kondenzátor-elektrický-proud.docx"
+source: "FYZIKA-maturitní otázky/26-Kapacita-kondenzátor-elektrický-proud.docx"
 ---
 Kapacita vodiče
 

@@ -1,7 +1,7 @@
 ---
 title: "Management"
 order: 24
-source: "MATURITA HADR/Ekonomika/24. Management.docx"
+source: "Ekonomika/24. Management.docx"
 ---
 - = řídit, ovládat, usměrňovat firmu; velké množství definic
 

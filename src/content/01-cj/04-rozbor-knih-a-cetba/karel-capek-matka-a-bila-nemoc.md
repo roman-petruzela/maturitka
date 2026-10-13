@@ -1,7 +1,7 @@
 ---
 title: "Karel Čapek - Matka a Bílá Nemoc"
 order: 47
-source: "MATURITA HADR/ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Karel Čapek - Matka a Bílá Nemoc/Matka a Bílá nemoc K. Čapek.docx"
+source: "ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Karel Čapek - Matka a Bílá Nemoc/Matka a Bílá nemoc K. Čapek.docx"
 ---
 Námět:		reakce na válku ve Španělsku, s námětem přišla jeho žena Olga, varování před totalitou
 

@@ -1,7 +1,7 @@
 ---
 title: "Jaroslav Vrchlický - Noc na Karlštejně"
 order: 40
-source: "MATURITA HADR/ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Jaroslav Vrchlický - Noc na Karlštejně/Noc na Karlštejně - Jaroslav Vrchlický.docx"
+source: "ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Jaroslav Vrchlický - Noc na Karlštejně/Noc na Karlštejně - Jaroslav Vrchlický.docx"
 ---
 Téma a motiv: 		láska a všechno, co je člověk pro lásku ochoten udělat, podhradní život, středověký hrad, samota, převleky, kaple, špásování s muži, porušení zákazu, za vším hledej ženu
 

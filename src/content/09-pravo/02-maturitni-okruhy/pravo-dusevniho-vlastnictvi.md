@@ -1,7 +1,7 @@
 ---
 title: "Právo duševního vlastnictví"
 order: 16
-source: "MATURITA HADR/Právo/16. Právo duševního vlastnictví/maturitni otazka c. 16.docx"
+source: "Právo/16. Právo duševního vlastnictví/maturitni otazka c. 16.docx"
 ---
 Právo duševního vlastnictví – maturitní otázka č\. 16
 

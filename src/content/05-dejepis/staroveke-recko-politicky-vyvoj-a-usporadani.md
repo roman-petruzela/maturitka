@@ -1,7 +1,7 @@
 ---
 title: "Starověké Řecko politický vývoj a uspořádání"
 order: 2
-source: "MATURITA HADR/Dějepis/02.Starověké Řecko - politický vývoj a uspořádání.doc"
+source: "Dějepis/02.Starověké Řecko - politický vývoj a uspořádání.doc"
 ---
 2\.
 

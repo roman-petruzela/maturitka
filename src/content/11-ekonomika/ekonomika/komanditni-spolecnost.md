@@ -1,7 +1,7 @@
 ---
 title: "Komanditní společnost"
 order: 22
-source: "MATURITA HADR/Ekonomika/22. Komanditní společnost.docx"
+source: "Ekonomika/22. Komanditní společnost.docx"
 ---
 - Právní úprava: zákon o obchodních korporacích, občanský zákoník, daňové zákony
 - __Obchodní korporace__  = obchodní společnosti \+ družstva

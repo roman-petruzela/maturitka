@@ -1,7 +1,7 @@
 ---
 title: "Elektrický proud v plynech"
 order: 30
-source: "MATURITA HADR/FYZIKA-maturitní otázky/30-Elektrický-proud-v-plynech.docx"
+source: "FYZIKA-maturitní otázky/30-Elektrický-proud-v-plynech.docx"
 ---
 Ionizace, ionizátor, ionizovaný plyn
 

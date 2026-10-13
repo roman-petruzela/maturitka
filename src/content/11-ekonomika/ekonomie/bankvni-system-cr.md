@@ -1,7 +1,7 @@
 ---
 title: "Bankvní systém ČR"
 order: 7
-source: "MATURITA HADR/Ekonomie/7. Bankvní systém ČR.docx"
+source: "Ekonomie/7. Bankvní systém ČR.docx"
 ---
 7\. Bankovní systém ČR
 

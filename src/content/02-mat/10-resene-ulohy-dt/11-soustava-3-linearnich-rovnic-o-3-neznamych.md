@@ -1,7 +1,7 @@
 ---
 title: "Soustava 3 lineárních rovnic o 3 neznámých"
 order: 11
-source: "MATURITA HADR/Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/11) Soustava 3 lineárních rovnic o 3 neznámých.pdf"
+source: "Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/11) Soustava 3 lineárních rovnic o 3 neznámých.pdf"
 hasExercises: true
 ---
 
@@ -34,4 +34,4 @@ Zkouška: $x+2y=-3+2=-1$ ✓, $z-2y=0-2=-2$ ✓, $x-2z=-3-0=-3$ ✓.
 
 ## Zdroje
 
-MATURITA HADR / Matematika / řešené postupy matematických okruhů z DT 2010–2017, dokument *11) Soustava 3 lineárních rovnic o 3 neznámých.pdf*.
+Matematika / řešené postupy matematických okruhů z DT 2010–2017, dokument *11) Soustava 3 lineárních rovnic o 3 neznámých.pdf*.

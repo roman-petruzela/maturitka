@@ -1,7 +1,7 @@
 ---
 title: "Náklady včetně časového rozlišení nákladů"
 order: 16
-source: "MATURITA HADR/Účetnictví/16. Náklady včetně časového rozlišení nákladů.docx"
+source: "Účetnictví/16. Náklady včetně časového rozlišení nákladů.docx"
 ---
 16\. Náklady včetně časového rozlišení
 

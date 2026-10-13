@@ -1,7 +1,7 @@
 ---
 title: "Nepřímé daně"
 order: 13
-source: "MATURITA HADR/Ekonomika/13. Nepřímé daně.docx"
+source: "Ekonomika/13. Nepřímé daně.docx"
 ---
 - __daň__ – povinná, pravidelná, zákonem určená platba do státního rozpočtu
 - __nepřímá daň__ – neznáme u ní poplatníka, ale známe plátce, protože je součástí ceny prodávaných výrobků a poskytovaných služeb; tyto daně se dostávají do státního rozpočtu zprostředkovaně, protože je platí kupující, ale odvádí je prodávající; administrativně náročné

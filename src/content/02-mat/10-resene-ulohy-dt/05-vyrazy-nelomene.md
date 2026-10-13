@@ -1,7 +1,7 @@
 ---
 title: "Výrazy (nelomené)"
 order: 5
-source: "MATURITA HADR/Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/5) Výrazy ( nelomené ).pdf"
+source: "Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/5) Výrazy ( nelomené ).pdf"
 hasExercises: true
 ---
 
@@ -105,4 +105,4 @@ $$(y^2-2)^3 = (y^2-2)^2\cdot(y^2-2) = (y^4-4y^2+4)(y^2-2) = y^6-6y^4+12y^2-8$$
 
 ## Zdroje
 
-MATURITA HADR / Matematika / řešené postupy matematických okruhů z DT 2010–2017, dokument *5) Výrazy ( nelomené ).pdf*.
+Matematika / řešené postupy matematických okruhů z DT 2010–2017, dokument *5) Výrazy ( nelomené ).pdf*.

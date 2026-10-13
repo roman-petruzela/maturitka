@@ -1,7 +1,7 @@
 ---
 title: "Kinematika"
 order: 3
-source: "MATURITA HADR/FYZIKA-maturitní otázky/3-Kinematika.docx"
+source: "FYZIKA-maturitní otázky/3-Kinematika.docx"
 ---
 Z řeckého kineó \(= pohybovat\)
 

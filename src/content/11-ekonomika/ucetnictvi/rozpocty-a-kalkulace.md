@@ -1,7 +1,7 @@
 ---
 title: "Rozpočty a kalkulace"
 order: 18
-source: "MATURITA HADR/Účetnictví/18. Rozpočty a kalkulace.docx"
+source: "Účetnictví/18. Rozpočty a kalkulace.docx"
 ---
 18\. Rozpočty a kalkulace
 

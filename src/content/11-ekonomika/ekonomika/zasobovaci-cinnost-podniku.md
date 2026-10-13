@@ -1,7 +1,7 @@
 ---
 title: "Zásobovací činnost podniku"
 order: 4
-source: "MATURITA HADR/Ekonomika/4. Zásobovací činnost podniku.docx"
+source: "Ekonomika/4. Zásobovací činnost podniku.docx"
 ---
 - Zajištuje podnik materiálem v potřebných druzích a kvalitě a v co nejnižších nákladech
 - __Materiál__ – část oběžného majetku; stává se součástí koloběhu výroby

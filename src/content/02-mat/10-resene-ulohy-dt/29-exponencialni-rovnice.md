@@ -1,7 +1,7 @@
 ---
 title: "Exponenciální rovnice"
 order: 29
-source: "MATURITA HADR/Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/29) Exponenciální rovnice.pdf"
+source: "Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/29) Exponenciální rovnice.pdf"
 hasExercises: true
 ---
 
@@ -109,4 +109,4 @@ b) rovnice nemá řešení — hodnota libovolné mocniny čísla 2 je vždy kla
 
 ## Zdroje
 
-MATURITA HADR / Matematika / řešené postupy matematických okruhů z DT 2010–2017, dokument *29) Exponenciální rovnice.pdf*.
+Matematika / řešené postupy matematických okruhů z DT 2010–2017, dokument *29) Exponenciální rovnice.pdf*.

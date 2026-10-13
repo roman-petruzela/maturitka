@@ -1,7 +1,7 @@
 ---
 title: "Rovnice v součinovém nebo podílovém tvaru"
 order: 15
-source: "MATURITA HADR/Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/15) Rovnice v součinovém nebo podílovém tvaru.pdf"
+source: "Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/15) Rovnice v součinovém nebo podílovém tvaru.pdf"
 hasExercises: true
 ---
 
@@ -25,4 +25,4 @@ Podmínky: $2y+4\neq0 \implies y\neq-2$ (splněno).
 
 ## Zdroje
 
-MATURITA HADR / Matematika / řešené postupy matematických okruhů z DT 2010–2017, dokument *15) Rovnice v součinovém nebo podílovém tvaru.pdf*.
+Matematika / řešené postupy matematických okruhů z DT 2010–2017, dokument *15) Rovnice v součinovém nebo podílovém tvaru.pdf*.

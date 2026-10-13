@@ -1,7 +1,7 @@
 ---
 title: "GEOGRAFIE PRŮMYSLU"
 order: 9
-source: "MATURITA HADR/Zeměpis/Zeměpis GLP/9. GEOGRAFIE PRŮMYSLU.docx"
+source: "Zeměpis/Zeměpis GLP/9. GEOGRAFIE PRŮMYSLU.docx"
 ---
 ## 9\. Geografie průmyslu – sekundární sektor
 

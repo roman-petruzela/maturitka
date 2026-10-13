@@ -1,7 +1,7 @@
 ---
 title: "Krátkodobý finanční majetek a krátkodobé bankovní úvěry (útová třída 2) Dokumenty Google"
 order: 4
-source: "MATURITA HADR/Účetnictví/4. Krátkodobý finanční majetek a krátkodobé bankovní úvěry (útová třída 2) - Dokumenty Google.pdf"
+source: "Účetnictví/4. Krátkodobý finanční majetek a krátkodobé bankovní úvěry (útová třída 2) - Dokumenty Google.pdf"
 ---
 ## **Charakteristika**
 

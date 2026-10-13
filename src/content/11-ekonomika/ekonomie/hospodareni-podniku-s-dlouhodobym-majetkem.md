@@ -1,7 +1,7 @@
 ---
 title: "Hospodaření podniku s dlouhodobým majetkem"
 order: 11
-source: "MATURITA HADR/Ekonomie/11. Hospodaření podniku s dlouhodobým majetkem.docx"
+source: "Ekonomie/11. Hospodaření podniku s dlouhodobým majetkem.docx"
 ---
 11\. Hospodaření podniku s dlouhodobým majetkem
 

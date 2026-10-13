@@ -1,7 +1,7 @@
 ---
 title: "Aktivní a pasivní síťové prvky"
 order: 2
-source: "MATURITA HADR/IT/11. Aktivní a pasivní síťové prvky.docx"
+source: "IT/11. Aktivní a pasivní síťové prvky.docx"
 ---
 __Pasivní síťové prvky__
 

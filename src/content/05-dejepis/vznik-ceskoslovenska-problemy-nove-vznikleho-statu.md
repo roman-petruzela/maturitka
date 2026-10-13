@@ -1,7 +1,7 @@
 ---
 title: "Vznik Československa, problémy nově vzniklého státu"
 order: 24
-source: "MATURITA HADR/Dějepis/24.Vznik Československa, problémy nově vzniklého státu.doc"
+source: "Dějepis/24.Vznik Československa, problémy nově vzniklého státu.doc"
 ---
 24\.
 

@@ -1,6 +1,6 @@
 ---
 title: "Vzorečky"
-source: "MATURITA HADR/Ekonomika/Vzorečky.docx"
+source: "Ekonomika/Vzorečky.docx"
 ---
 __Plánování spotřeby materiálu a nákupu__
 

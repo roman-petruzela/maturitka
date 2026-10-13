@@ -1,7 +1,7 @@
 ---
 title: "William Shakespeare - Kupec Benátský"
 order: 87
-source: "MATURITA HADR/ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/William Shakespeare - Kupec Benátský/Kupec benatský.docx"
+source: "ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/William Shakespeare - Kupec Benátský/Kupec benatský.docx"
 ---
 KUPEC BENÁTSKÝ
 

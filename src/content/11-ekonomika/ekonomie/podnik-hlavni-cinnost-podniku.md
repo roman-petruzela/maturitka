@@ -1,7 +1,7 @@
 ---
 title: "Podnik hlavní činnost podniku"
 order: 3
-source: "MATURITA HADR/Ekonomie/3. Podnik - hlavní činnost podniku.docx"
+source: "Ekonomie/3. Podnik - hlavní činnost podniku.docx"
 ---
 3\. Podnik – hlavní činnost podniku
 

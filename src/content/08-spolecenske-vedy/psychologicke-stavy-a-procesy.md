@@ -1,7 +1,7 @@
 ---
 title: "PSYCHOLOGICKE STAVY A PROCESY"
 order: 2
-source: "MATURITA HADR/Společenské vědy/2. PSYCHOLOGICKE STAVY A PROCESY.docx"
+source: "Společenské vědy/2. PSYCHOLOGICKE STAVY A PROCESY.docx"
 ---
 __PSYCHICKÉ JEVY__
 \- funkce mozku, zformované vlivem společnosti, především výchovou

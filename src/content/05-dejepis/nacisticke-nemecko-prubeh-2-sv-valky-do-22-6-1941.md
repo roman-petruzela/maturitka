@@ -1,7 +1,7 @@
 ---
 title: "Nacistické Německo, průběh 2.sv.války do 22.6.1941"
 order: 27
-source: "MATURITA HADR/Dějepis/27.Nacistické Německo, průběh 2.sv.války do 22.6.1941.doc"
+source: "Dějepis/27.Nacistické Německo, průběh 2.sv.války do 22.6.1941.doc"
 ---
 27\.
 

@@ -1,7 +1,7 @@
 ---
 title: "Dlouhodobý majetek (účtová třída 0) Dokumenty Google"
 order: 2
-source: "MATURITA HADR/Účetnictví/2. Dlouhodobý majetek (účtová třída 0) - Dokumenty Google.pdf"
+source: "Účetnictví/2. Dlouhodobý majetek (účtová třída 0) - Dokumenty Google.pdf"
 ---
 ## **Dlouhodobý  majetek**
 

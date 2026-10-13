@@ -1,7 +1,7 @@
 ---
 title: "Pracovněprávní vztahy Dokumenty Google"
 order: 22
-source: "MATURITA HADR/Účetnictví/22. Pracovněprávní vztahy - Dokumenty Google.pdf"
+source: "Účetnictví/22. Pracovněprávní vztahy - Dokumenty Google.pdf"
 ---
 ## **Právní  předpisy  upravující  výkon  práce**
 

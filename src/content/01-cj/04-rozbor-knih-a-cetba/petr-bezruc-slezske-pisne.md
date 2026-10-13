@@ -1,7 +1,7 @@
 ---
 title: "Petr Bezruč - Slezské Písně"
 order: 76
-source: "MATURITA HADR/ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Petr Bezruč - Slezské Písně/11.Slezské písně.docx"
+source: "ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Petr Bezruč - Slezské Písně/11.Slezské písně.docx"
 ---
 Petr Bezruč
 

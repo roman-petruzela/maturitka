@@ -1,7 +1,7 @@
 ---
 title: "Západní Evropa a Benelux"
 order: 23
-source: "MATURITA HADR/Zeměpis/Zeměpis GLP/23. západní Evropa a Benelux.docx"
+source: "Zeměpis/Zeměpis GLP/23. západní Evropa a Benelux.docx"
 ---
 23\. ZÁPADNÍ EVROPA \+ BENELUX
 

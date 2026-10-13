@@ -1,6 +1,6 @@
 ---
 title: "Otazky"
-source: "MATURITA HADR/Účetnictví/otazky.pdf"
+source: "Účetnictví/otazky.pdf"
 ---
 ## **1. Právní úprava účetnictví**
 

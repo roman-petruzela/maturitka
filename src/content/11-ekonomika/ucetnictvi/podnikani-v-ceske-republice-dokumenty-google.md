@@ -1,7 +1,7 @@
 ---
 title: "Podnikání v České republice Dokumenty Google"
 order: 12
-source: "MATURITA HADR/Účetnictví/12. Podnikání v České republice - Dokumenty Google.pdf"
+source: "Účetnictví/12. Podnikání v České republice - Dokumenty Google.pdf"
 ---
 ## **1.1  Právní  předpisy  upravující  podnikání  v  České  republice**
 

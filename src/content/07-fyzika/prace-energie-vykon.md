@@ -1,7 +1,7 @@
 ---
 title: "Práce energie výkon"
 order: 5
-source: "MATURITA HADR/FYZIKA-maturitní otázky/5-Práce-energie-výkon.docx"
+source: "FYZIKA-maturitní otázky/5-Práce-energie-výkon.docx"
 ---
 Mechanická práce
 

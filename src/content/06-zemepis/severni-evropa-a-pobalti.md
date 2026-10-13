@@ -1,7 +1,7 @@
 ---
 title: "Severní Evropa a Pobaltí"
 order: 22
-source: "MATURITA HADR/Zeměpis/Zeměpis GLP/22. severní Evropa a Pobaltí.docx"
+source: "Zeměpis/Zeměpis GLP/22. severní Evropa a Pobaltí.docx"
 ---
 22\. SEVERNÍ EVROPA \+ POBALTÍ
 

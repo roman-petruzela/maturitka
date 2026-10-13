@@ -1,7 +1,7 @@
 ---
 title: "Rovnovážná stav vratný děj tepelná rovnováha teplota a její měření"
 order: 13
-source: "MATURITA HADR/FYZIKA-maturitní otázky/13-Rovnovážná-stav-vratný-děj-tepelná-rovnováha-teplota-a-její-měření.docx"
+source: "FYZIKA-maturitní otázky/13-Rovnovážná-stav-vratný-děj-tepelná-rovnováha-teplota-a-její-měření.docx"
 ---
 Termodynamické soustavy
 

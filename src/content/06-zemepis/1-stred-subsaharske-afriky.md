@@ -1,7 +1,7 @@
 ---
 title: "1 STŘED SUBSAHARSKÉ AFRIKY"
 order: 18
-source: "MATURITA HADR/Zeměpis/Zeměpis GLP/18.1 STŘED SUBSAHARSKÉ AFRIKY.docx"
+source: "Zeměpis/Zeměpis GLP/18.1 STŘED SUBSAHARSKÉ AFRIKY.docx"
 ---
 18\.1 STŘED SUBSAHARSKÉ AFRIKY
 

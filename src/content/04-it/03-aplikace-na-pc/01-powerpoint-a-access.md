@@ -1,7 +1,7 @@
 ---
 title: "PowerPoint a Access"
 order: 1
-source: "MATURITA HADR/IT/20. a 25. PowerPoint a Access.docx"
+source: "IT/20. a 25. PowerPoint a Access.docx"
 ---
 __PowerPoint__
 

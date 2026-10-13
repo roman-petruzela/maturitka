@@ -1,7 +1,7 @@
 ---
 title: "Počítačová grafika — pojmy a software"
 order: 1
-source: "MATURITA HADR/IT/15.–18. GIMP, Zoner, SketchUp; Grafické formáty...; grafika/01_Instalace_Zoner_Callisto_5_Free.pdf (sloučeno)"
+source: "IT/15.–18. GIMP, Zoner, SketchUp; Grafické formáty...; grafika/01_Instalace_Zoner_Callisto_5_Free.pdf (sloučeno)"
 ---
 
 Počítačová grafika je obor výpočetní techniky, který používá počítač k tvorbě umělých grafických objektů a k úpravě fotografií nasnímaných z reálného světa. Rozlišujeme dva základní přístupy k uložení obrázku — **rastrovou** a **vektorovou** grafiku.

@@ -1,7 +1,7 @@
 ---
 title: "Edgar Allan Poe - Jáma a Kyvadlo"
 order: 18
-source: "MATURITA HADR/ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Edgar Allan Poe - Jáma a Kyvadlo/Edgar Allan Poe - Jáma a kyvadlo.docx"
+source: "ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Edgar Allan Poe - Jáma a Kyvadlo/Edgar Allan Poe - Jáma a kyvadlo.docx"
 tags: ["mimo-seznam-cetby"]
 ---
 - byl americký básník a prozaik

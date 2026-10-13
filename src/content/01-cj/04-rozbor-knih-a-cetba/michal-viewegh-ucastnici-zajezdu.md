@@ -1,7 +1,7 @@
 ---
 title: "Michal Viewegh - Účastníci zájezdu"
 order: 95
-source: "MATURITA 2023 (ČÍP)/cj/19VIEWEGH, Michal Účastníci zájezdu/ucastnici zajezdu.docx"
+source: "cj/19VIEWEGH, Michal Účastníci zájezdu/ucastnici zajezdu.docx"
 ---
 **Autor**
 

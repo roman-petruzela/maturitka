@@ -1,7 +1,7 @@
 ---
 title: "Kvadratická funkce"
 order: 20
-source: "MATURITA HADR/Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/20) Kvadratická funkce.pdf"
+source: "Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/20) Kvadratická funkce.pdf"
 hasExercises: true
 ---
 
@@ -129,4 +129,4 @@ Na parabole c) leží bod $[3;0]$ — dosazením vyhovuje pouze rovnice B.
 
 ## Zdroje
 
-MATURITA HADR / Matematika / řešené postupy matematických okruhů z DT 2010–2017, dokument *20) Kvadratická funkce.pdf*.
+Matematika / řešené postupy matematických okruhů z DT 2010–2017, dokument *20) Kvadratická funkce.pdf*.

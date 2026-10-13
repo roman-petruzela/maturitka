@@ -1,6 +1,6 @@
 ---
 title: "38 Optika úvod a geom. optika"
-source: "MATURITA HADR/FYZIKA-maturitní otázky/38 Optika - úvod a geom. optika.docx"
+source: "FYZIKA-maturitní otázky/38 Optika - úvod a geom. optika.docx"
 ---
 Optika obecně
 

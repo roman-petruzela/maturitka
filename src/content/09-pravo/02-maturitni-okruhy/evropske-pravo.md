@@ -1,7 +1,7 @@
 ---
 title: "Evropské právo"
 order: 25
-source: "MATURITA HADR/Právo/25. Evropské právo/25_evropske_pravo.odt"
+source: "Právo/25. Evropské právo/25_evropske_pravo.odt"
 ---
 1. __25\. Evropské právo__
 

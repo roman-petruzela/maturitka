@@ -1,7 +1,7 @@
 ---
 title: "Vnitropodnikové účetnictví"
 order: 19
-source: "MATURITA HADR/Účetnictví/19. Vnitropodnikové účetnictví.docx"
+source: "Účetnictví/19. Vnitropodnikové účetnictví.docx"
 ---
 19\. Vnitropodnikové účetnictví
 

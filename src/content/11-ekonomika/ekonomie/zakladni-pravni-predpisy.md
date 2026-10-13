@@ -1,7 +1,7 @@
 ---
 title: "Základní právní předpisy"
 order: 28
-source: "MATURITA HADR/Ekonomie/28. základní právní předpisy.docx"
+source: "Ekonomie/28. základní právní předpisy.docx"
 ---
 __Základní právní předpisy__
 

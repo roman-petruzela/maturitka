@@ -1,6 +1,6 @@
 ---
 title: "VERBÁLNÍ A NEVERBÁLNÍ KOMUNIKACE"
-source: "MATURITA HADR/PSYCHOLOGIE/VERBÁLNÍ-A-NEVERBÁLNÍ-KOMUNIKACE.docx"
+source: "PSYCHOLOGIE/VERBÁLNÍ-A-NEVERBÁLNÍ-KOMUNIKACE.docx"
 ---
 1. __Verbální a neverbální komunikace__
 

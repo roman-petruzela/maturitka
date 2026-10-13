@@ -1,7 +1,7 @@
 ---
 title: "Atmosféra"
 order: 3
-source: "MATURITA HADR/Zeměpis/Zeměpis GLP/3. Atmosféra.docx"
+source: "Zeměpis/Zeměpis GLP/3. Atmosféra.docx"
 ---
 = plynný obal tělesa v kosmickém prostoru přitahovaný gravitační silou
 

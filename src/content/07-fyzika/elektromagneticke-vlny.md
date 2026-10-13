@@ -1,7 +1,7 @@
 ---
 title: "Elektromagnetické vlny"
 order: 37
-source: "MATURITA HADR/FYZIKA-maturitní otázky/37-Elektromagnetické-vlny.docx"
+source: "FYZIKA-maturitní otázky/37-Elektromagnetické-vlny.docx"
 ---
 Přehled elmg\. vln podle vlnové délky a způsobu vzniku
 

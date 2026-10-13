@@ -1,7 +1,7 @@
 ---
 title: "Mezinárodní obchod"
 order: 23
-source: "MATURITA HADR/Ekonomika/23. Mezinárodní obchod.docx"
+source: "Ekonomika/23. Mezinárodní obchod.docx"
 ---
 - přesun zboží, služby, licence, výrobní receptury a služeb \(=předmět\)  mezi zeměmi
 - __právně__ upraveno v Devizovém zákoně, Zákonem o DPH, Občanským zákoníkem \(kupní smlouva\)

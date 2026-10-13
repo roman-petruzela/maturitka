@@ -1,7 +1,7 @@
 ---
 title: "Vladimír Nabokov - Lolita"
 order: 85
-source: "MATURITA HADR/ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Vladimír Nabokov - Lolita/15. Lolita.pdf"
+source: "ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Vladimír Nabokov - Lolita/15. Lolita.pdf"
 ---
 VLADIMIR NABOKOV **Název díla:** LOLITA
 

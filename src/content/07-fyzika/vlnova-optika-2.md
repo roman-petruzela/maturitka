@@ -1,7 +1,7 @@
 ---
 title: "Vlnová optika 2"
 order: 42
-source: "MATURITA HADR/FYZIKA-maturitní otázky/42-Vlnová-optika-2.docx"
+source: "FYZIKA-maturitní otázky/42-Vlnová-optika-2.docx"
 ---
 Difrakce \(ohyb\) světla
 

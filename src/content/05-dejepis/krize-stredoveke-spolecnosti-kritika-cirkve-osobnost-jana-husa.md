@@ -1,7 +1,7 @@
 ---
 title: "Krize středověké společnosti, kritika církve, osobnost Jana Husa"
 order: 11
-source: "MATURITA HADR/Dějepis/11. Krize středověké společnosti, kritika církve, osobnost Jana Husa.doc"
+source: "Dějepis/11. Krize středověké společnosti, kritika církve, osobnost Jana Husa.doc"
 ---
 # Krize středověké společnosti, kritika církve, osobnost Jana Husa
 

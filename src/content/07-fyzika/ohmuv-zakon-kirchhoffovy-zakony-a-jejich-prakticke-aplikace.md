@@ -1,7 +1,7 @@
 ---
 title: "Ohmův zákon Kirchhoffovy zákony a jejich praktické aplikace"
 order: 27
-source: "MATURITA HADR/FYZIKA-maturitní otázky/27-Ohmův-zákon-Kirchhoffovy-zákony-a-jejich-praktické-aplikace.docx"
+source: "FYZIKA-maturitní otázky/27-Ohmův-zákon-Kirchhoffovy-zákony-a-jejich-praktické-aplikace.docx"
 ---
 Ohmův zákon pro část elektrického obvodu
 

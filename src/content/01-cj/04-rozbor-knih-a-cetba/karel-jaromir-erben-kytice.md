@@ -1,7 +1,7 @@
 ---
 title: "Karel Jaromír Erben - Kytice"
 order: 56
-source: "MATURITA HADR/ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Karel Jaromír Erben - Kytice/4. Kytice-čtenářský-deník.docx"
+source: "ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Karel Jaromír Erben - Kytice/4. Kytice-čtenářský-deník.docx"
 ---
 **Kytice**
 

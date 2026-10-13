@@ -1,7 +1,7 @@
 ---
 title: "Eduard Bass - Klapzubova Jedenáctka"
 order: 19
-source: "MATURITA HADR/ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Eduard Bass - Klapzubova Jedenáctka/Klapzubova jedenáctka - Eduard Bass.docx"
+source: "ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Eduard Bass - Klapzubova Jedenáctka/Klapzubova jedenáctka - Eduard Bass.docx"
 tags: ["mimo-seznam-cetby"]
 ---
 Téma a motiv: 		příhody, úspěchy a kariéra fotbalového mužstva,  11 synů, poctivost, píle, bratrství, sourozenecké cíle, houževnatost, skromnost, vítězství, rodina

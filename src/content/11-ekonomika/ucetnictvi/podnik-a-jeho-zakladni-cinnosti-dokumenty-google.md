@@ -1,7 +1,7 @@
 ---
 title: "Podnik a jeho základní činnosti Dokumenty Google"
 order: 14
-source: "MATURITA HADR/Účetnictví/14. Podnik a jeho základní činnosti - Dokumenty Google.pdf"
+source: "Účetnictví/14. Podnik a jeho základní činnosti - Dokumenty Google.pdf"
 ---
 ## **Hlavní  činnost  podniku**
 

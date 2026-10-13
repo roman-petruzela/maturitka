@@ -1,7 +1,7 @@
 ---
 title: "Mechanické vlnění"
 order: 23
-source: "MATURITA HADR/FYZIKA-maturitní otázky/23-Mechanické-vlnění.docx"
+source: "FYZIKA-maturitní otázky/23-Mechanické-vlnění.docx"
 ---
 - Vlnění:
 	- Mechanické

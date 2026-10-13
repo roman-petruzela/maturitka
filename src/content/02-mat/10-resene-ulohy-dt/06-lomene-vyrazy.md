@@ -1,7 +1,7 @@
 ---
 title: "Lomené výrazy"
 order: 6
-source: "MATURITA HADR/Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/6) Lomené výrazy.pdf"
+source: "Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/6) Lomené výrazy.pdf"
 hasExercises: true
 ---
 
@@ -208,4 +208,4 @@ A–D) ((možnosti se nedochovaly))   **E) Výraz je definován pro všechna re�
 
 ## Zdroje
 
-MATURITA HADR / Matematika / řešené postupy matematických okruhů z DT 2010–2017, dokument *6) Lomené výrazy.pdf*.
+Matematika / řešené postupy matematických okruhů z DT 2010–2017, dokument *6) Lomené výrazy.pdf*.

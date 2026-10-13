@@ -1,7 +1,7 @@
 ---
 title: "Parlamentarismus a absolutismus v Evropě – Anglie, Francie, Rusko"
 order: 16
-source: "MATURITA HADR/Dějepis/16.Parlamentarismus a absolutismus v Evropě – Anglie, Francie, Rusko.doc"
+source: "Dějepis/16.Parlamentarismus a absolutismus v Evropě – Anglie, Francie, Rusko.doc"
 ---
 16\.
 

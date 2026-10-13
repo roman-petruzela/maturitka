@@ -1,7 +1,7 @@
 ---
 title: "První světová válka a uspořádání světa po ní"
 order: 23
-source: "MATURITA HADR/Dějepis/23.První světová válka a uspořádání světa po ní.doc"
+source: "Dějepis/23.První světová válka a uspořádání světa po ní.doc"
 ---
 23\.
 

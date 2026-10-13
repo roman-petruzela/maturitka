@@ -1,7 +1,7 @@
 ---
 title: "William Shakespeare - Hamlet"
 order: 86
-source: "MATURITA HADR/ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/William Shakespeare - Hamlet/William Shakespeare - hamlet(1).docx"
+source: "ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/William Shakespeare - Hamlet/William Shakespeare - hamlet(1).docx"
 ---
 __Hamlet__
 

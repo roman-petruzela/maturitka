@@ -1,7 +1,7 @@
 ---
 title: "Struktura a vlastnosti pevných látek"
 order: 17
-source: "MATURITA HADR/FYZIKA-maturitní otázky/17-Struktura-a-vlastnosti-pevných-látek.docx"
+source: "FYZIKA-maturitní otázky/17-Struktura-a-vlastnosti-pevných-látek.docx"
 ---
 Pevné látky
 

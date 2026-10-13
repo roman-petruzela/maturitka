@@ -1,7 +1,7 @@
 ---
 title: "Daňová soustava v ČR Dokumenty Google"
 order: 11
-source: "MATURITA HADR/Účetnictví/11. Daňová soustava v ČR - Dokumenty Google.pdf"
+source: "Účetnictví/11. Daňová soustava v ČR - Dokumenty Google.pdf"
 ---
 ## **Obecná  charakteristika,  podstata  a  principy  zdanění**
 

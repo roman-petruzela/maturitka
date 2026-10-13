@@ -1,7 +1,7 @@
 ---
 title: "Náklady a výnosy podniku, kalkulace, rozpočet"
 order: 14
-source: "MATURITA HADR/Ekonomie/14. Náklady a výnosy podniku, kalkulace, rozpočet.docx"
+source: "Ekonomie/14. Náklady a výnosy podniku, kalkulace, rozpočet.docx"
 ---
 14\. Náklady a výnosy podniku, kalkulace a rozpočet
 

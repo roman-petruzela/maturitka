@@ -1,7 +1,7 @@
 ---
 title: "Pohyby těles v gravitačním poli"
 order: 11
-source: "MATURITA HADR/FYZIKA-maturitní otázky/11-Pohyby-těles-v-gravitačním-poli.docx"
+source: "FYZIKA-maturitní otázky/11-Pohyby-těles-v-gravitačním-poli.docx"
 ---
 - homogenní tíhové pole \(viz kapitolu 10\)
 

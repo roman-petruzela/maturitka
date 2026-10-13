@@ -1,7 +1,7 @@
 ---
 title: "Odpisy a vyřazování dlouhodobého majetku"
 order: 5
-source: "MATURITA HADR/Účetnictví/5. Odpisy a vyřazování dlouhodobého majetku.docx"
+source: "Účetnictví/5. Odpisy a vyřazování dlouhodobého majetku.docx"
 ---
 5\. Odpisy a vyřezování dlouhodobého majetku
 

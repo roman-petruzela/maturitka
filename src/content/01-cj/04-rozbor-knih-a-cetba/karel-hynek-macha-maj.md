@@ -1,7 +1,7 @@
 ---
 title: "Karel Hynek Mácha - Máj"
 order: 54
-source: "MATURITA HADR/ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Karel Hynek Mácha - Máj/Mááj.docx"
+source: "ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Karel Hynek Mácha - Máj/Mááj.docx"
 ---
 __Lit\. Druh:__ poezie, lyricko\-epická
 

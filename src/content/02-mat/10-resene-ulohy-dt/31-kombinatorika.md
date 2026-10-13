@@ -1,7 +1,7 @@
 ---
 title: "Kombinatorika"
 order: 31
-source: "MATURITA HADR/Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/31) Kombinatorika.pdf"
+source: "Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/31) Kombinatorika.pdf"
 hasExercises: true
 ---
 
@@ -274,4 +274,4 @@ E) více než 720
 
 ## Zdroje
 
-MATURITA HADR / Matematika / řešené postupy matematických okruhů z DT 2010–2017, dokument *31) Kombinatorika.pdf*.
+Matematika / řešené postupy matematických okruhů z DT 2010–2017, dokument *31) Kombinatorika.pdf*.

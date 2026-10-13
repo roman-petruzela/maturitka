@@ -1,5 +1,5 @@
 ---
 title: "10) wohnen"
-source: "MATURITA HADR/Němčina/10) wohnen.pdf"
+source: "Němčina/10) wohnen.pdf"
 ---
 

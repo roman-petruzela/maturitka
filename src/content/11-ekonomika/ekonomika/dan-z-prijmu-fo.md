@@ -1,7 +1,7 @@
 ---
 title: "Daň z příjmu FO"
 order: 12
-source: "MATURITA HADR/Ekonomika/12. Daň z příjmu FO.docx"
+source: "Ekonomika/12. Daň z příjmu FO.docx"
 ---
 - __daň__ – povinná, pravidelná, zákonem určená platba do státního rozpočtu
 - __přímá daň__ – známe u nich poplatníka; platí ji domácnosti a firmy v závislosti na svých příjmech a majetku; poplatník si je sám vypočítá, vyplní daňové přiznání a odvede je příslušnému FÚ

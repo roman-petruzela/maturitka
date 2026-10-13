@@ -1,7 +1,7 @@
 ---
 title: "Výnosy a hospodářský výsledek"
 order: 14
-source: "MATURITA HADR/Účetnictví/14. Výnosy a hospodářský výsledek.docx"
+source: "Účetnictví/14. Výnosy a hospodářský výsledek.docx"
 ---
 14\. Výnosy a hospodářský výsledek
 

@@ -1,7 +1,7 @@
 ---
 title: "Obchodní činnost zahraniční obchod"
 order: 21
-source: "MATURITA HADR/Ekonomie/21. Obchodní činnost - zahraniční obchod.docx"
+source: "Ekonomie/21. Obchodní činnost - zahraniční obchod.docx"
 ---
 21\. Obchodní činnost – zahraniční obchod
 

@@ -1,7 +1,7 @@
 ---
 title: "Kapitálový trh"
 order: 17
-source: "MATURITA HADR/Ekonomika/17. Kapitálový trh.docx"
+source: "Ekonomika/17. Kapitálový trh.docx"
 ---
 - Místo, kde se střetává dočasně volná nabídka a poptávka po penězích a cenných papírech
 

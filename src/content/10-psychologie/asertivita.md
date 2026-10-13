@@ -1,6 +1,6 @@
 ---
 title: "ASERTIVITA"
-source: "MATURITA HADR/PSYCHOLOGIE/ASERTIVITA.docx"
+source: "PSYCHOLOGIE/ASERTIVITA.docx"
 ---
 1. __Asertivita__
 

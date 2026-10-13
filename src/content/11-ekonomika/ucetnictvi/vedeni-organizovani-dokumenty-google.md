@@ -1,7 +1,7 @@
 ---
 title: "Vedení, organizování Dokumenty Google"
 order: 19
-source: "MATURITA HADR/Účetnictví/19. Vedení, organizování - Dokumenty Google.pdf"
+source: "Účetnictví/19. Vedení, organizování - Dokumenty Google.pdf"
 ---
 ## **Motivace**
 

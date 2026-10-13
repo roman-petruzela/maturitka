@@ -1,7 +1,7 @@
 ---
 title: "KARTOGARFIE"
 order: 2
-source: "MATURITA HADR/Zeměpis/Zeměpis GLP/2. KARTOGARFIE.docx"
+source: "Zeměpis/Zeměpis GLP/2. KARTOGARFIE.docx"
 ---
 KARTOGRAFIE
 

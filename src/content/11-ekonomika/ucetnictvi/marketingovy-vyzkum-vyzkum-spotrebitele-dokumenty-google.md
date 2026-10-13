@@ -1,7 +1,7 @@
 ---
 title: "Marketingový výzkum, výzkum spotřebitele Dokumenty Google"
 order: 24
-source: "MATURITA HADR/Účetnictví/24. Marketingový výzkum, výzkum spotřebitele - Dokumenty Google.pdf"
+source: "Účetnictví/24. Marketingový výzkum, výzkum spotřebitele - Dokumenty Google.pdf"
 ---
 ## **Charakteristika  mark.  výzkumu,  subjekty  provádějící  výzkum**
 

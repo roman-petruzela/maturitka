@@ -1,7 +1,7 @@
 ---
 title: "Austrálie a Oceánie"
 order: 14
-source: "MATURITA HADR/Zeměpis/Zeměpis GLP/14. Austrálie a Oceánie.docx"
+source: "Zeměpis/Zeměpis GLP/14. Austrálie a Oceánie.docx"
 ---
 # Austrálie a Oceánie
 

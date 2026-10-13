@@ -1,7 +1,7 @@
 ---
 title: "Náklady (účtová třída 5) Dokumenty Google"
 order: 7
-source: "MATURITA HADR/Účetnictví/7. Náklady (účtová třída 5) - Dokumenty Google.pdf"
+source: "Účetnictví/7. Náklady (účtová třída 5) - Dokumenty Google.pdf"
 ---
 - sledování  nákladů  je  pro  každý  podnikatelský  subjekt  velmi  důležité
 

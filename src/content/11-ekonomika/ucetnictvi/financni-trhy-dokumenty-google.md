@@ -1,7 +1,7 @@
 ---
 title: "Finanční trhy Dokumenty Google"
 order: 17
-source: "MATURITA HADR/Účetnictví/17. Finanční trhy - Dokumenty Google.pdf"
+source: "Účetnictví/17. Finanční trhy - Dokumenty Google.pdf"
 ---
 ## **Charakteristika  finančních  trhů**
 

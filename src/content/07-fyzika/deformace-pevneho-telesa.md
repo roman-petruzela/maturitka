@@ -1,7 +1,7 @@
 ---
 title: "Deformace pevného tělesa"
 order: 18
-source: "MATURITA HADR/FYZIKA-maturitní otázky/18-Deformace-pevného-tělesa.docx"
+source: "FYZIKA-maturitní otázky/18-Deformace-pevného-tělesa.docx"
 ---
 Deformace
 

@@ -1,7 +1,7 @@
 ---
 title: "Dlouhodobý majetek"
 order: 4
-source: "MATURITA HADR/Účetnictví/4. Dlouhodobý majetek.docx"
+source: "Účetnictví/4. Dlouhodobý majetek.docx"
 ---
 4\. Dlouhodobý majetek
 

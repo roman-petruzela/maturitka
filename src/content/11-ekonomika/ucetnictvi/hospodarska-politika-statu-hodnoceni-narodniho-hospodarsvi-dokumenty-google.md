@@ -1,7 +1,7 @@
 ---
 title: "Hospodářská politika státu, hodnocení národního hospodářsví Dokumenty Google"
 order: 16
-source: "MATURITA HADR/Účetnictví/16. Hospodářská politika státu, hodnocení národního hospodářsví - Dokumenty Google.pdf"
+source: "Účetnictví/16. Hospodářská politika státu, hodnocení národního hospodářsví - Dokumenty Google.pdf"
 ---
 ## **Hospodářská  politika  státu**
 

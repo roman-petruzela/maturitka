@@ -1,7 +1,7 @@
 ---
 title: "OS Linux - distribuce, grafický a textový režim"
 order: 1
-source: "MATURITA HADR/IT/2. OS Linux - distribuce, grafický a textový režim.docx"
+source: "IT/2. OS Linux - distribuce, grafický a textový režim.docx"
 ---
 - Operační systém = základní softwarové vybavení počítače, které je nahráno do paměti počítače při jeho startu a zůstává v činnosti až do jeho vypnutí nebo odpojení od zdroje napájení
 - Standardně se skládá z jádra \(kernel\) a pomocných systémových nástrojů, které se liší verzí a výrobcem operačního systému

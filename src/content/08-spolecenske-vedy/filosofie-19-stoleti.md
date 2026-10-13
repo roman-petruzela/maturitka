@@ -1,7 +1,7 @@
 ---
 title: "FILOSOFIE 19.STOLETI"
 order: 21
-source: "MATURITA HADR/Společenské vědy/21. FILOSOFIE 19.STOLETI.docx"
+source: "Společenské vědy/21. FILOSOFIE 19.STOLETI.docx"
 ---
 \- 19\. století představuje __období bouřlivých změn__ – __průmyslová revoluce__, __sociální otřesy__, __vzestup
   nacionalismu __a__ dělnického hnutí __a__ emancipace nejnižších vrstev__\.

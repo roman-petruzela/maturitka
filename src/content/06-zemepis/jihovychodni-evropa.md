@@ -1,7 +1,7 @@
 ---
 title: "Jihovýchodní Evropa"
 order: 24
-source: "MATURITA HADR/Zeměpis/Zeměpis GLP/24. jihovýchodní Evropa.docx"
+source: "Zeměpis/Zeměpis GLP/24. jihovýchodní Evropa.docx"
 ---
 24\. JIHOVÝCHODNÍ EVROPA
 

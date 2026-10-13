@@ -1,7 +1,7 @@
 ---
 title: "OSVICENSKA A NEMECKA KLASICKA FILOSOFIE"
 order: 20
-source: "MATURITA HADR/Společenské vědy/20. OSVICENSKA A NEMECKA KLASICKA FILOSOFIE.docx"
+source: "Společenské vědy/20. OSVICENSKA A NEMECKA KLASICKA FILOSOFIE.docx"
 ---
 __OSVÍCENSTVÍ__
 \- myšlenkový směr __18\. století__, navazuje na novověk, kryje se s klasicismem \(není zdobený jako

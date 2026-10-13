@@ -1,7 +1,7 @@
 ---
 title: "Orávní formy podnikání"
 order: 23
-source: "MATURITA HADR/Ekonomie/23. Orávní formy podnikání.odt"
+source: "Ekonomie/23. Orávní formy podnikání.odt"
 ---
 Dělí se na: 	1\) Státní
 

@@ -1,7 +1,7 @@
 ---
 title: "Odměňování zaměstnanců"
 order: 20
-source: "MATURITA HADR/Ekonomie/20. Odměňování zaměstnanců.docx"
+source: "Ekonomie/20. Odměňování zaměstnanců.docx"
 ---
 20\. Odměňování zaměstnanců
 

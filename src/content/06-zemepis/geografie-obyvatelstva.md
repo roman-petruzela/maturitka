@@ -1,7 +1,7 @@
 ---
 title: "GEOGRAFIE OBYVATELSTVA"
 order: 7
-source: "MATURITA HADR/Zeměpis/Zeměpis GLP/7. GEOGRAFIE OBYVATELSTVA.docx"
+source: "Zeměpis/Zeměpis GLP/7. GEOGRAFIE OBYVATELSTVA.docx"
 ---
 # 7\. GEOGRAFIE OBYVATELSTVA A SÍDEL
 

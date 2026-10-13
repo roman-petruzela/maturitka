@@ -1,6 +1,6 @@
 ---
 title: "POJMY"
-source: "MATURITA HADR/Společenské vědy/POJMY.docx"
+source: "Společenské vědy/POJMY.docx"
 ---
 __ARCHÉ__
 = pralátka

@@ -1,7 +1,7 @@
 ---
 title: "Stavová rovnice ideálního plynu"
 order: 15
-source: "MATURITA HADR/FYZIKA-maturitní otázky/15-Stavová-rovnice-ideálního-plynu.docx"
+source: "FYZIKA-maturitní otázky/15-Stavová-rovnice-ideálního-plynu.docx"
 ---
 Ideální plyn
 

@@ -1,7 +1,7 @@
 ---
 title: "HELENISMUS, POZDNE ANTICKA A STREDOVEKA FILOSOFIE"
 order: 18
-source: "MATURITA HADR/Společenské vědy/18. HELENISMUS, POZDNE ANTICKA A STREDOVEKA FILOSOFIE.docx"
+source: "Společenské vědy/18. HELENISMUS, POZDNE ANTICKA A STREDOVEKA FILOSOFIE.docx"
 ---
 HELÉNISTICKÁ FILOSOFIE
 \- vznik \- říše Alexandra Makedonského \(asi konec 4\.st\.př\.n\.l\.\)

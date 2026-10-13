@@ -1,7 +1,7 @@
 ---
 title: "Živnostenské podnikání, obchodní společnosti Dokumenty Google"
 order: 13
-source: "MATURITA HADR/Účetnictví/13. Živnostenské podnikání, obchodní společnosti - Dokumenty Google.pdf"
+source: "Účetnictví/13. Živnostenské podnikání, obchodní společnosti - Dokumenty Google.pdf"
 ---
 ## **1.  Živnostenské  podnikání**
 

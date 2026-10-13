@@ -1,7 +1,7 @@
 ---
 title: "Akustika"
 order: 24
-source: "MATURITA HADR/FYZIKA-maturitní otázky/24-Akustika.docx"
+source: "FYZIKA-maturitní otázky/24-Akustika.docx"
 ---
 - Akustika je obor zabývající se fyzikálními ději, které jsou spojeny se __vznikem__ zvukového vlnění, jeho __šířením__ a vnímáním zvuku __sluchem__\.
 - Zvukem nazýváme každé __mechanické vlnění__ v __látkovém prostředí,__ které je schopno __vyvolat__ v lidském uchu __sluchový vjem__\.

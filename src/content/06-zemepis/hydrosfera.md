@@ -1,7 +1,7 @@
 ---
 title: "Hydrosféra"
 order: 4
-source: "MATURITA HADR/Zeměpis/Zeměpis GLP/4. Hydrosféra.docx"
+source: "Zeměpis/Zeměpis GLP/4. Hydrosféra.docx"
 ---
 # 4\. Hydrosféra
 

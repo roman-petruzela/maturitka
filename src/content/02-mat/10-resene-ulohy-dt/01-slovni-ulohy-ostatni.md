@@ -1,7 +1,7 @@
 ---
 title: "Slovní úlohy ostatní"
 order: 1
-source: "MATURITA HADR/Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/1) Slovní úlohy ostatní.pdf"
+source: "Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/1) Slovní úlohy ostatní.pdf"
 hasExercises: true
 ---
 
@@ -467,4 +467,4 @@ E) jiný počet
 
 ## Zdroje
 
-MATURITA HADR / Matematika / řešené postupy matematických okruhů z DT 2010–2017, dokument *1) Slovní úlohy ostatní.pdf* — autorská řešení navazující na ostré a ilustrační maturitní testy Cermatu.
+Matematika / řešené postupy matematických okruhů z DT 2010–2017, dokument *1) Slovní úlohy ostatní.pdf* — autorská řešení navazující na ostré a ilustrační maturitní testy Cermatu.

@@ -1,6 +1,6 @@
 ---
 title: "49 Jaderná fyzika I"
-source: "MATURITA HADR/FYZIKA-maturitní otázky/49 Jaderná fyzika I.docx"
+source: "FYZIKA-maturitní otázky/49 Jaderná fyzika I.docx"
 ---
 Experimentální metody jaderné fyziky
 

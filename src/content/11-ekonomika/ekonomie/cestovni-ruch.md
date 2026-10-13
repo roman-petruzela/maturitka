@@ -1,7 +1,7 @@
 ---
 title: "Cestovní ruch"
 order: 25
-source: "MATURITA HADR/Ekonomie/25.-cestovní-ruch.docx"
+source: "Ekonomie/25.-cestovní-ruch.docx"
 ---
 - __*Charakteristika cestovního ruchu*__
 - Neexistuje žádná všeobecně platná definice CR, nejvíce se využívá definice světové organizace WTO

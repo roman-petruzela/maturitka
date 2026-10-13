@@ -1,7 +1,7 @@
 ---
 title: "RENESANCNI A NOVOVEKA FILOSOFIE"
 order: 19
-source: "MATURITA HADR/Společenské vědy/19. RENESANCNI A NOVOVEKA FILOSOFIE.docx"
+source: "Společenské vědy/19. RENESANCNI A NOVOVEKA FILOSOFIE.docx"
 ---
 __RENESANCE__
 \- období mezi Středověkem a Novověkem

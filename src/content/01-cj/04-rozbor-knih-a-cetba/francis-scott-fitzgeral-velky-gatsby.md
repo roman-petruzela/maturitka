@@ -1,7 +1,7 @@
 ---
 title: "Francis Scott Fitzgeral - Velký Gatsby"
 order: 26
-source: "MATURITA HADR/ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Francis Scott Fitzgeral - Velký Gatsby/Velký Gatsby.docx"
+source: "ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Francis Scott Fitzgeral - Velký Gatsby/Velký Gatsby.docx"
 ---
 Téma & motiv
 

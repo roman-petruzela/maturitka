@@ -1,7 +1,7 @@
 ---
 title: "Komunikace Dokumenty Google"
 order: 20
-source: "MATURITA HADR/Účetnictví/20. Komunikace - Dokumenty Google.pdf"
+source: "Účetnictví/20. Komunikace - Dokumenty Google.pdf"
 ---
 ### **Komunikační  proces**
 

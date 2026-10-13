@@ -1,7 +1,7 @@
 ---
 title: "Ota Pavel - Smrt Krásných Srnců"
 order: 73
-source: "MATURITA HADR/ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Ota Pavel - Smrt Krásných Srnců/Smrt Krásných Srnců(1).docx"
+source: "ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Ota Pavel - Smrt Krásných Srnců/Smrt Krásných Srnců(1).docx"
 ---
 1. __Autor__
 

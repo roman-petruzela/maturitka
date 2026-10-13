@@ -1,7 +1,7 @@
 ---
 title: "Hospodářství ČR a jeho okolí"
 order: 18
-source: "MATURITA HADR/Ekonomie/18. Hospodářství ČR a jeho okolí.docx"
+source: "Ekonomie/18. Hospodářství ČR a jeho okolí.docx"
 ---
 18\. Hospodářství ČR a jeho okolí
 

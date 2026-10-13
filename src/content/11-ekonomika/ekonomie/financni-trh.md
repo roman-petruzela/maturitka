@@ -1,7 +1,7 @@
 ---
 title: "Finanční trh"
 order: 3
-source: "MATURITA HADR/Ekonomie/3.-Finanční-trh.docx"
+source: "Ekonomie/3.-Finanční-trh.docx"
 ---
 3\. Finanční trh
 

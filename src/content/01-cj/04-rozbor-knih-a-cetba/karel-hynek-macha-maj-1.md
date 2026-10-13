@@ -1,7 +1,7 @@
 ---
 title: "Karel Hynek Mácha - Máj (1)"
 order: 55
-source: "MATURITA HADR/ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Karel Hynek Mácha - Máj (1)/Máj (1).docx"
+source: "ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Karel Hynek Mácha - Máj (1)/Máj (1).docx"
 ---
 - __Karel Hynek Mácha__
 

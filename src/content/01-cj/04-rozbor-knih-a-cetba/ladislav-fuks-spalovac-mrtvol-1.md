@@ -1,7 +1,7 @@
 ---
 title: "Ladislav Fuks - Spalovač mrtvol (1)"
 order: 60
-source: "MATURITA HADR/ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Ladislav Fuks - Spalovač mrtvol (1)/Ladislav Fuks - Spalovač mrtvol(1).docx"
+source: "ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Ladislav Fuks - Spalovač mrtvol (1)/Ladislav Fuks - Spalovač mrtvol(1).docx"
 ---
 __Spalovač mrtvol__
 

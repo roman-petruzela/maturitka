@@ -1,7 +1,7 @@
 ---
 title: "Třicetiletá válka a její důsledky pro české země"
 order: 15
-source: "MATURITA HADR/Dějepis/15.Třicetiletá válka a její důsledky pro české země.doc"
+source: "Dějepis/15.Třicetiletá válka a její důsledky pro české země.doc"
 ---
 ### 15\.
 

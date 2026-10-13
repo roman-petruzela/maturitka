@@ -1,7 +1,7 @@
 ---
 title: "Maturitní otázka"
 order: 21
-source: "MATURITA HADR/Ekonomie/21. Maturitní-otázka.docx"
+source: "Ekonomie/21. Maturitní-otázka.docx"
 ---
 __Pramen__
 

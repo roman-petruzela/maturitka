@@ -1,7 +1,7 @@
 ---
 title: "Věcné právo Dokumenty Google"
 order: 26
-source: "MATURITA HADR/Účetnictví/26. Věcné právo - Dokumenty Google.pdf"
+source: "Účetnictví/26. Věcné právo - Dokumenty Google.pdf"
 ---
 ## **Základní  vymezení  věcí  a  majetku**
 

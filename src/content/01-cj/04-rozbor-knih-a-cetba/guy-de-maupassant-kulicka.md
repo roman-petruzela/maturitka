@@ -1,7 +1,7 @@
 ---
 title: "Guy de Maupassant - Kulička"
 order: 32
-source: "MATURITA HADR/ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Guy de Maupassant - Kulička/Kulička - G. de Maupassant .docx"
+source: "ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Guy de Maupassant - Kulička/Kulička - G. de Maupassant .docx"
 ---
 Námět:		kritika doby aristokracie a špatných lidských vlastností, postavení žen
 

@@ -1,7 +1,7 @@
 ---
 title: "FINANCE A PODNIKANI"
 order: 10
-source: "MATURITA HADR/Společenské vědy/10. FINANCE A PODNIKANI.docx"
+source: "Společenské vědy/10. FINANCE A PODNIKANI.docx"
 ---
 __FISKÁLNÍ POLITIKA__
 \- rozpočtová politika

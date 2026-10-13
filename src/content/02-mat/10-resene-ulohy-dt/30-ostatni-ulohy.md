@@ -1,7 +1,7 @@
 ---
 title: "Ostatní úlohy"
 order: 30
-source: "MATURITA HADR/Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/30) Ostatní úlohy.pdf"
+source: "Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/30) Ostatní úlohy.pdf"
 hasExercises: true
 ---
 
@@ -156,4 +156,4 @@ b) hledaná množina je **osa úsečky** $M_1M_2$ (přímka procházející jej�
 
 ## Zdroje
 
-MATURITA HADR / Matematika / řešené postupy matematických okruhů z DT 2010–2017, dokument *30) Ostatní úlohy.pdf*.
+Matematika / řešené postupy matematických okruhů z DT 2010–2017, dokument *30) Ostatní úlohy.pdf*.

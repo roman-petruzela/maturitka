@@ -1,14 +1,17 @@
 #!/usr/bin/env node
-// Scans the raw MATURITA HADR source tree and generates per-subject manifest
+// Scans the raw source archive (alias archiv-1, see archive.mjs) and generates per-subject manifest
 // JSON files (scripts/manifest/{cj,mat,aj,it}.json) consumed by
 // convert-docx.mjs and convert-pdf.py. See the plan for curation rationale.
 
 import { readdir, stat, mkdir, writeFile } from 'node:fs/promises';
 import path from 'node:path';
+import { toAlias, toReal } from './archive.mjs';
 
 const WEB_ROOT = path.resolve(import.meta.dirname, '..');
 const REPO_ROOT = path.resolve(WEB_ROOT, '..');
-const HADR = path.join(REPO_ROOT, 'MATURITA HADR');
+// the main archive folder; its real name (and every other name of a person in
+// the archive) is resolved through archive.mjs and never written into this repo
+const ARCHIVE = path.join(REPO_ROOT, toReal('archiv-1'));
 
 const DIACRITICS_MAP = {
 	á: 'a', č: 'c', ď: 'd', é: 'e', ě: 'e', í: 'i', ň: 'n', ó: 'o', ř: 'r',
@@ -39,7 +42,7 @@ async function walk(dir) {
 }
 
 function relSrc(absPath) {
-	return path.relative(REPO_ROOT, absPath);
+	return toAlias(path.relative(REPO_ROOT, absPath));
 }
 
 const DOC_EXT_RANK = { '.docx': 4, '.odt': 3, '.doc': 2, '.pdf': 1 };
@@ -65,7 +68,7 @@ const NO_TEXT_LAYER_BOOKS = new Set([
 
 async function buildCJ() {
 	const items = [];
-	const litRoot = path.join(HADR, 'ČESKÝ JAZYK - VŠE', 'Český jazyk - rozbory děl k maturitě');
+	const litRoot = path.join(ARCHIVE, 'ČESKÝ JAZYK - VŠE', 'Český jazyk - rozbory děl k maturitě');
 	const bookDirs = (await readdir(litRoot, { withFileTypes: true }))
 		.filter((e) => e.isDirectory())
 		.map((e) => e.name)
@@ -121,7 +124,7 @@ async function buildCJ() {
 	// literatura — literární historie a teorie (období, směry, autoři)
 	const literatura = [
 		{
-			src: path.join(HADR, 'ČESKÝ JAZYK - VŠE', 'Literární skupiny a období', 'lit skupiny, období _pojmyMZ2020.docx'),
+			src: path.join(ARCHIVE, 'ČESKÝ JAZYK - VŠE', 'Literární skupiny a období', 'lit skupiny, období _pojmyMZ2020.docx'),
 			title: 'Literární skupiny a období — přehled pojmů',
 			order: 1,
 		},
@@ -134,7 +137,7 @@ async function buildCJ() {
 	const mluvnice = [
 		{
 			src: path.join(
-				HADR,
+				ARCHIVE,
 				'ČESKÝ JAZYK - VŠE',
 				'Český jazyk - Mluvnice ',
 				'Literární druhy a žánry.docx'
@@ -151,7 +154,7 @@ async function buildCJ() {
 	// sebe na začátku (před samotnými rozbory konkrétních knih, order 1+)
 	items.push({
 		src: relSrc(
-			path.join(HADR, 'ČESKÝ JAZYK - VŠE', 'Český jazyk - umělecký-neumělecký text', 'Osnova_s_vysvětlivky.docx')
+			path.join(ARCHIVE, 'ČESKÝ JAZYK - VŠE', 'Český jazyk - umělecký-neumělecký text', 'Osnova_s_vysvětlivky.docx')
 		),
 		dest: 'cj/rozbor-knih-a-cetba/00-umelecky-a-neumelecky-text-osnova-rozboru.md',
 		title: 'Umělecký a neumělecký text — osnova rozboru',
@@ -242,7 +245,7 @@ function matTyCategory(n) {
 async function buildMAT() {
 	const items = [];
 
-	const dtDir = path.join(HADR, 'Matematika', 'řešené postupy matematických okruhů z DT 2010 - 2017');
+	const dtDir = path.join(ARCHIVE, 'Matematika', 'řešené postupy matematických okruhů z DT 2010 - 2017');
 	const dtFiles = (await readdir(dtDir)).filter((f) => f.toLowerCase().endsWith('.pdf'));
 	for (const f of dtFiles) {
 		const m = f.match(/^(\d+)\)\s*(.+)\.pdf$/i);
@@ -432,7 +435,7 @@ const IT_TITLE_OVERRIDE = {
 const IT_EXTRA_ORDER = { DAT_I: 1, 'DAT_I-praktikum': 2 };
 
 // Extra current-year "Počítačové sítě" (3. ročník) source material the user
-// dropped in ../site/ (sibling of MATURITA HADR) — not part of the original
+// dropped in ../site/ (sibling of the main archive) — not part of the original
 // IT/ 24-topic archive, so it's scanned separately and merged into the same
 // pocitacove-site category. Priority just keeps them in a sensible reading
 // order relative to each other (they land after the old numbered 1-4 topics).
@@ -752,7 +755,7 @@ const OSY_ORDER = [
 ];
 
 async function buildIT() {
-	const dir = path.join(HADR, 'IT');
+	const dir = path.join(ARCHIVE, 'IT');
 	const files = (await readdir(dir)).filter((f) => /\.(docx|pdf)$/i.test(f));
 	const raw = [];
 	for (const f of files) {
@@ -862,42 +865,17 @@ async function buildIT() {
 	return items;
 }
 
-// ---------------------------------------------------------------------------
-// AJ — ANJ/Témata tree: topic = leaf folder name, category = theme folder
-// ---------------------------------------------------------------------------
-async function buildAJ() {
-	const root = path.join(HADR, 'ANJ', 'Témata');
-	const files = (await walk(root)).filter((f) => /\.(pdf|docx)$/i.test(f));
-	const items = [];
-	const seenDest = new Map();
-	for (const f of files) {
-		const rel = path.relative(root, f);
-		const parts = rel.split(path.sep);
-		const category = parts[0] === 'Témata' ? parts[1] : parts[0];
-		const title = path.basename(path.dirname(f));
-		const m = path.basename(f).match(/^(\d+)[_.]/);
-		const order = m ? Number(m[1]) : undefined;
-		let dest = `aj/${slugify(category)}/${slugify(title)}.md`;
-		if (seenDest.has(dest)) {
-			const n = seenDest.get(dest) + 1;
-			seenDest.set(dest, n);
-			dest = dest.replace(/\.md$/, `-${n}.md`);
-		} else {
-			seenDest.set(dest, 1);
-		}
-		items.push({ src: relSrc(f), dest, title, order });
-	}
-	return items;
-}
+// AJ is not generated: its pages (maturita topics, realia, IT English) were
+// rewritten by hand from the archive sources, so there is no aj manifest.
 
 // ---------------------------------------------------------------------------
 // New general-education subjects, added in bulk with minimal curation ("just
 // get them onto the site") — flat folder, one file = one topic, category =
 // immediate subfolder name if there is one. Leading "N." / "N-" in the
 // filename becomes the order; dest collisions (two files that slugify to the
-// same title) get a numeric suffix like buildAJ() does.
+// same title) get a numeric suffix.
 // ---------------------------------------------------------------------------
-async function buildSimpleSubject(dir, subjectKey, { skip = new Set(), category = null, sourceLabel } = {}) {
+async function buildSimpleSubject(dir, subjectKey, { skip = new Set(), category = null } = {}) {
 	const files = (await walk(dir)).filter((f) => /\.(pdf|docx|doc|odt)$/i.test(f) && !skip.has(path.basename(f)));
 	const items = [];
 	const seenDest = new Map();
@@ -918,38 +896,34 @@ async function buildSimpleSubject(dir, subjectKey, { skip = new Set(), category 
 			seenDest.set(dest, 1);
 		}
 		const src = relSrc(f);
-		items.push({ src, dest, title: cased, order, ...(sourceLabel ? { source: sourceLabel(src) } : {}) });
+		items.push({ src, dest, title: cased, order });
 	}
 	return items;
 }
 
 async function buildDejepis() {
-	// the source folder name embeds a person's name — displayed `source:`
-	// gets a generic label instead (see privacy-scrub convention elsewhere
-	// in this file: never let a real name leak through the source path)
-	return buildSimpleSubject(path.join(HADR, 'Dějepis (Eliška Sýkorová)'), 'dejepis', {
-		sourceLabel: (src) => src.replace('Dějepis (Eliška Sýkorová)', 'Dějepis'),
-	});
+	// the real folder name holds a person's name — reached through its alias
+	return buildSimpleSubject(path.join(REPO_ROOT, toReal('archiv-1/Dějepis')), 'dejepis');
 }
 
 async function buildZemepis() {
-	return buildSimpleSubject(path.join(HADR, 'Zeměpis', 'Zeměpis GLP'), 'zemepis');
+	return buildSimpleSubject(path.join(ARCHIVE, 'Zeměpis', 'Zeměpis GLP'), 'zemepis');
 }
 
 async function buildFyzika() {
-	return buildSimpleSubject(path.join(HADR, 'FYZIKA-maturitní otázky'), 'fyzika');
+	return buildSimpleSubject(path.join(ARCHIVE, 'FYZIKA-maturitní otázky'), 'fyzika');
 }
 
 async function buildSpolecenskeVedy() {
-	return buildSimpleSubject(path.join(HADR, 'Společenské vědy'), 'spolecenske-vedy');
+	return buildSimpleSubject(path.join(ARCHIVE, 'Společenské vědy'), 'spolecenske-vedy');
 }
 
 async function buildPsychologie() {
-	return buildSimpleSubject(path.join(HADR, 'PSYCHOLOGIE'), 'psychologie');
+	return buildSimpleSubject(path.join(ARCHIVE, 'PSYCHOLOGIE'), 'psychologie');
 }
 
 async function buildNemcina() {
-	return buildSimpleSubject(path.join(HADR, 'Němčina'), 'nemcina');
+	return buildSimpleSubject(path.join(ARCHIVE, 'Němčina'), 'nemcina');
 }
 
 // Ekonomie / Ekonomika / Účetnictví — three parallel sets of maturitní
@@ -958,20 +932,20 @@ async function buildNemcina() {
 async function buildEkonomika() {
 	const items = [];
 	items.push(
-		...(await buildSimpleSubject(path.join(HADR, 'Ekonomie'), 'ekonomika', {
+		...(await buildSimpleSubject(path.join(ARCHIVE, 'Ekonomie'), 'ekonomika', {
 			category: 'ekonomie',
 			skip: new Set(['Maturita EKO.zip']),
 		}))
 	);
-	items.push(...(await buildSimpleSubject(path.join(HADR, 'Ekonomika'), 'ekonomika', { category: 'ekonomika' })));
-	items.push(...(await buildSimpleSubject(path.join(HADR, 'Účetnictví'), 'ekonomika', { category: 'ucetnictvi' })));
+	items.push(...(await buildSimpleSubject(path.join(ARCHIVE, 'Ekonomika'), 'ekonomika', { category: 'ekonomika' })));
+	items.push(...(await buildSimpleSubject(path.join(ARCHIVE, 'Účetnictví'), 'ekonomika', { category: 'ucetnictvi' })));
 	return items;
 }
 
 // Právo — like ČJ's rozbory: one folder per topic, several candidate files
 // inside (odt/docx/pdf/txt), pick the most complete one.
 async function buildPravo() {
-	const root = path.join(HADR, 'Právo');
+	const root = path.join(ARCHIVE, 'Právo');
 	const topicDirs = (await readdir(root, { withFileTypes: true }))
 		.filter((e) => e.isDirectory())
 		.map((e) => e.name)
@@ -1004,7 +978,6 @@ async function main() {
 	const builders = {
 		cj: buildCJ,
 		mat: buildMAT,
-		aj: buildAJ,
 		it: buildIT,
 		dejepis: buildDejepis,
 		zemepis: buildZemepis,

@@ -1,7 +1,7 @@
 ---
 title: "HTML a CSS"
 order: 1
-source: "MATURITA HADR/IT/14. HTML a CSS.docx"
+source: "IT/14. HTML a CSS.docx"
 ---
 - Hypertextový značkovací jazyk v dnešní době nejoblíbenější jazyk pro vytváření jednoduchých stránek
 - Značkovací jazyk rozumíme, že pomocí něho označkujeme části textu, hodnoty

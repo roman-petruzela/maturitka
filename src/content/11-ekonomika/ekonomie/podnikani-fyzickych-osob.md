@@ -1,7 +1,7 @@
 ---
 title: "Podnikání fyzických osob"
 order: 4
-source: "MATURITA HADR/Ekonomie/4. Podnikání fyzických osob.docx"
+source: "Ekonomie/4. Podnikání fyzických osob.docx"
 ---
 4\. Podnikání fyzických osob
 

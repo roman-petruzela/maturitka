@@ -1,7 +1,7 @@
 ---
 title: "ČR přírodní poměry"
 order: 26
-source: "MATURITA HADR/Zeměpis/Zeměpis GLP/26. ČR - přírodní poměry.docx"
+source: "Zeměpis/Zeměpis GLP/26. ČR - přírodní poměry.docx"
 ---
 ## 26\. ČR – přírodní poměry
 

@@ -1,7 +1,7 @@
 ---
 title: "Gravitační pole"
 order: 10
-source: "MATURITA HADR/FYZIKA-maturitní otázky/10-Gravitační-pole.docx"
+source: "FYZIKA-maturitní otázky/10-Gravitační-pole.docx"
 ---
 Gravitace
 

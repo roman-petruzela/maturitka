@@ -1,6 +1,6 @@
 ---
 title: "40 Oko jako optická soustava, optické přístroje"
-source: "MATURITA HADR/FYZIKA-maturitní otázky/40 Oko jako optická soustava, optické přístroje.docx"
+source: "FYZIKA-maturitní otázky/40 Oko jako optická soustava, optické přístroje.docx"
 ---
 ((obrázek vynechán))Oko
 

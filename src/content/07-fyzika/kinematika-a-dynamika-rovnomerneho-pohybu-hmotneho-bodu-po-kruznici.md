@@ -1,7 +1,7 @@
 ---
 title: "Kinematika a dynamika rovnoměrného pohybu hmotného bodu po kružnici"
 order: 6
-source: "MATURITA HADR/FYZIKA-maturitní otázky/6-Kinematika-a-dynamika-rovnoměrného-pohybu-hmotného-bodu-po-kružnici.docx"
+source: "FYZIKA-maturitní otázky/6-Kinematika-a-dynamika-rovnoměrného-pohybu-hmotného-bodu-po-kružnici.docx"
 ---
 - Pohyb rovnoměrný po kružnici můžeme sledovat buď jako pohyb v __IVS__ \(jestliže stojíme na točící se gramofonové desce\) nebo pohyb v __NVS__ \(jestliže nestojíme na desce, ale jsme vnější pozorovatelé\)
 

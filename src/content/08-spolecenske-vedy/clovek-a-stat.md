@@ -1,7 +1,7 @@
 ---
 title: "CLOVEK A STAT"
 order: 11
-source: "MATURITA HADR/Společenské vědy/11. CLOVEK A STAT.docx"
+source: "Společenské vědy/11. CLOVEK A STAT.docx"
 ---
 \- stát, funkce, národ, občanství, unitární stát, federace, konfederace, ústavní vývoj našho státu, ideologie,
 

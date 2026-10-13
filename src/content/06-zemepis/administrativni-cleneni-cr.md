@@ -1,7 +1,7 @@
 ---
 title: "Administrativní členění čr"
 order: 30
-source: "MATURITA HADR/Zeměpis/Zeměpis GLP/30. administrativní členění čr.docx"
+source: "Zeměpis/Zeměpis GLP/30. administrativní členění čr.docx"
 ---
 30\. ADMINISTRATIVNÍ ČLENĚNÍ ČR
 \(adm\. členění, ochrana živ\. prostředí, Plzeňský kraj\)

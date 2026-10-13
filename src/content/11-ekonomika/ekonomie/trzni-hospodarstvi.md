@@ -1,7 +1,7 @@
 ---
 title: "Třžní hospodářství"
 order: 2
-source: "MATURITA HADR/Ekonomie/2. Třžní hospodářství.odt"
+source: "Ekonomie/2. Třžní hospodářství.odt"
 ---
 __Tržní hospodářství__
 

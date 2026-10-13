@@ -1,7 +1,7 @@
 ---
 title: "Periferie"
 order: 6
-source: "MATURITA HADR/IT/9. Periferie.docx"
+source: "IT/9. Periferie.docx"
 ---
 - Počítačové periferie jsou zařízení zlepšující funkčnost [počítače](https://is.mendelu.cz/eknihovna/opory/popupokno.pl?pojem=0)
 - Pod pojmem periferie si můžeme představit všechna zařízení připojená k počítači

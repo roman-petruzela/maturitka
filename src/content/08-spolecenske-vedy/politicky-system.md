@@ -1,7 +1,7 @@
 ---
 title: "POLITICKY SYSTEM"
 order: 13
-source: "MATURITA HADR/Společenské vědy/13. POLITICKY SYSTEM.docx"
+source: "Společenské vědy/13. POLITICKY SYSTEM.docx"
 ---
 
 = souhrn politických institucí , idejí dané společnosti a vzájemných vztahů mezi nimi

@@ -1,7 +1,7 @@
 ---
 title: "Karel Poláček - Bylo nás Pět"
 order: 57
-source: "MATURITA HADR/ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Karel Poláček - Bylo nás Pět/BYLO NÁS 5.docx"
+source: "ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Karel Poláček - Bylo nás Pět/BYLO NÁS 5.docx"
 ---
 1. __AUTOR__
 

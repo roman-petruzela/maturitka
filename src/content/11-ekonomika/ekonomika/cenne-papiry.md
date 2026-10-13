@@ -1,7 +1,7 @@
 ---
 title: "Cenné papíry"
 order: 3
-source: "MATURITA HADR/Ekonomika/3. Cenné papíry.docx"
+source: "Ekonomika/3. Cenné papíry.docx"
 ---
 - = __listina__, se kterou je právo spojeno takový způsobem, že bez něho nemůže majitel cenného papíru toto právo uplatnit
 - Právně upraveno: šekový a směnečný zákon; zákon o obchodních korporacích; občanský zákoník

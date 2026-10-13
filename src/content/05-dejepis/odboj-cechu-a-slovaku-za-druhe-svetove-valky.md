@@ -1,7 +1,7 @@
 ---
 title: "Odboj Čechů a Slováků za druhé světové války"
 order: 29
-source: "MATURITA HADR/Dějepis/29.Odboj Čechů a Slováků za druhé světové války.doc"
+source: "Dějepis/29.Odboj Čechů a Slováků za druhé světové války.doc"
 ---
 # Odboj Čechů a Slováků za druhé světové války
 

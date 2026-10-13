@@ -1,7 +1,7 @@
 ---
 title: "Účetní závěrka a hospodářský výsledek Dokumenty Google"
 order: 9
-source: "MATURITA HADR/Účetnictví/9. Účetní závěrka a hospodářský výsledek - Dokumenty Google.pdf"
+source: "Účetnictví/9. Účetní závěrka a hospodářský výsledek - Dokumenty Google.pdf"
 ---
 ## **Účetní  závěrka**
 

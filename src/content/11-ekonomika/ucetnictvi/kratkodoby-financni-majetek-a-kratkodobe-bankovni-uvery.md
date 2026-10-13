@@ -1,7 +1,7 @@
 ---
 title: "Krátkodobý finanční majetek a krátkodobé bankovní úvěry"
 order: 8
-source: "MATURITA HADR/Účetnictví/8. Krátkodobý finanční majetek a krátkodobé bankovní úvěry.docx"
+source: "Účetnictví/8. Krátkodobý finanční majetek a krátkodobé bankovní úvěry.docx"
 ---
 8\. Krátkodobý finanční majetek a krátkodobé bankovní úvěry
 

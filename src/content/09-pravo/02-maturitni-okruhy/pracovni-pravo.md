@@ -1,7 +1,7 @@
 ---
 title: "Pracovní právo"
 order: 20
-source: "MATURITA HADR/Právo/20. Pracovní právo/20_pracovni_pravo.docx"
+source: "Právo/20. Pracovní právo/20_pracovni_pravo.docx"
 ---
 # __20\. Pracovní právo__
 

@@ -1,7 +1,7 @@
 ---
 title: "G.B. Shaw - Pygmalion"
 order: 29
-source: "MATURITA HADR/ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/G.B. Shaw - Pygmalion/George Bernard Shaw-Pygmalion.docx"
+source: "ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/G.B. Shaw - Pygmalion/George Bernard Shaw-Pygmalion.docx"
 ---
 __George Bernard Shaw
 Pygmalion__
@@ -50,7 +50,7 @@ Autor chtěl v díle poukázat na rozdíly mezi společenskými vrstvami \(chov
 Pomocí ironie autor vystavil kritice špatné vlastnosti lidí, společenské konvence a předsudky, které považuje za hloupé a nebezpečné\.
 Hra řeší problematiku ženské emancipace a v širším kontextu otázku lidské důstojnosti\.
 **Jazykové prostředky:**
-\- Psáno formou dialogů\.
+- Psáno formou dialogů\.
 - V textu je velká část věnována scénickým poznámkám, nejen na začátku dějství, ale i během něj, objevují se dlouhé pasáže s vysvětlivkami, co a proč kdo dělá\.
 \-Častý výskyt ironie, sarkasmu a komiky\.
 - Kontrast života, jazyka, chování a zvyků mezi nižší a vyšší vrstvou \(slovní zásoba společenské "spodiny" = chybná výslovnost, délka samohlásek, jiné souhlásky, polykání celých slabik

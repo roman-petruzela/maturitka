@@ -1,7 +1,7 @@
 ---
 title: "Hlavní etapy vývoje poválečného ČSR"
 order: 30
-source: "MATURITA HADR/Dějepis/30. Hlavní etapy vývoje poválečného ČSR.doc"
+source: "Dějepis/30. Hlavní etapy vývoje poválečného ČSR.doc"
 ---
 30\. Hlavní etapy vývoje poválečného ČSR
 

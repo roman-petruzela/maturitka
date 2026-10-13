@@ -1,7 +1,7 @@
 ---
 title: "Německo a Alpské země"
 order: 25
-source: "MATURITA HADR/Zeměpis/Zeměpis GLP/25. Německo a Alpské země.docx"
+source: "Zeměpis/Zeměpis GLP/25. Německo a Alpské země.docx"
 ---
 25\. NĚMECKO A ALPSKÉ ZEMĚ
 

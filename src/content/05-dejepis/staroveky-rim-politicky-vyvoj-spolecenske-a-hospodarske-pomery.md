@@ -1,7 +1,7 @@
 ---
 title: "Starověký Řím politický vývoj, společenské a hospodářské poměry"
 order: 3
-source: "MATURITA HADR/Dějepis/03.Starověký Řím - politický vývoj, společenské a hospodářské poměry.doc"
+source: "Dějepis/03.Starověký Řím - politický vývoj, společenské a hospodářské poměry.doc"
 ---
 3\.
 

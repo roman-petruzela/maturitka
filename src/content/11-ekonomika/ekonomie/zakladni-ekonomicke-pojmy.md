@@ -1,7 +1,7 @@
 ---
 title: "Základní ekonomické pojmy"
 order: 1
-source: "MATURITA HADR/Ekonomie/1. Základní-ekonomické-pojmy.docx"
+source: "Ekonomie/1. Základní-ekonomické-pojmy.docx"
 ---
 # Základní ekonomické pojmy
 

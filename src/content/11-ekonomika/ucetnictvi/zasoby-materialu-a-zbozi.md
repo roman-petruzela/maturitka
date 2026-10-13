@@ -1,7 +1,7 @@
 ---
 title: "Zásoby materiálu a zboží"
 order: 6
-source: "MATURITA HADR/Účetnictví/6. Zásoby materiálu a zboží.docx"
+source: "Účetnictví/6. Zásoby materiálu a zboží.docx"
 ---
 6\. Zásoby materiálu a zboží
 

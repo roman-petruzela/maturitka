@@ -1,7 +1,7 @@
 ---
 title: "ISOOSI, TCPIP, síťové protokoly"
 order: 3
-source: "MATURITA HADR/IT/12. ISOOSI, TCPIP, síťové protokoly.docx"
+source: "IT/12. ISOOSI, TCPIP, síťové protokoly.docx"
 ---
 - Přenos informací v počítačové síti je obecně složitá úloha sestávající se z mnoha kroků
 - Proto se komunikace rozděluje do několika úrovní, kdy každá vrstva řeší pouze určité kroky spojené s přenosem

@@ -1,7 +1,7 @@
 ---
 title: "VELKÁ FRANCOUZSKÁ REVOLUCE"
 order: 18
-source: "MATURITA HADR/Dějepis/18.VELKÁ FRANCOUZSKÁ REVOLUCE.doc"
+source: "Dějepis/18.VELKÁ FRANCOUZSKÁ REVOLUCE.doc"
 ---
 # 18\.
 

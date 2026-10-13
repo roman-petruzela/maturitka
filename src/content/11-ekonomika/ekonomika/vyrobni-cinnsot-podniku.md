@@ -1,7 +1,7 @@
 ---
 title: "Výrobní činnsot podniku"
 order: 15
-source: "MATURITA HADR/Ekonomika/15. Výrobní činnsot podniku.docx"
+source: "Ekonomika/15. Výrobní činnsot podniku.docx"
 ---
 - hlavní činnost = činnost pro kterou byl podnik založen; v OR
 - dělí se na: výrobní činnost \(VČ\); obchod; služby; veřejná správa

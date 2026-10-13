@@ -1,7 +1,7 @@
 ---
 title: "Kmitavý pohyb I"
 order: 21
-source: "MATURITA HADR/FYZIKA-maturitní otázky/21-Kmitavý-pohyb-I.docx"
+source: "FYZIKA-maturitní otázky/21-Kmitavý-pohyb-I.docx"
 ---
 Kmitavý pohyb
 

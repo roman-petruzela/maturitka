@@ -1,6 +1,6 @@
 ---
 title: "METODY ZKOUMÁNÍ V PSYCHOLOGII"
-source: "MATURITA HADR/PSYCHOLOGIE/METODY-ZKOUMÁNÍ-V-PSYCHOLOGII.docx"
+source: "PSYCHOLOGIE/METODY-ZKOUMÁNÍ-V-PSYCHOLOGII.docx"
 ---
 1. __Metody zkoumání v pedagogice a psychologie; omyly v percepci osob__
 

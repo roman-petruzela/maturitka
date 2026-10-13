@@ -1,7 +1,7 @@
 ---
 title: "Akciová společnost"
 order: 14
-source: "MATURITA HADR/Ekonomika/14. Akciová společnost.docx"
+source: "Ekonomika/14. Akciová společnost.docx"
 ---
 - Právní úprava: zákon o obchodních korporacích, občanský zákoník, daňové zákony
 - __Obchodní korporace__  = obchodní společnosti \+ družstva

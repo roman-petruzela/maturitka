@@ -1,7 +1,7 @@
 ---
 title: "Procesor a chipset"
 order: 3
-source: "MATURITA HADR/IT/6. Procesor a chipset.docx"
+source: "IT/6. Procesor a chipset.docx"
 ---
 - Je jednotkou, která zpracovává téměř všechny data, informace, požadavky, úkoly, které počítač realizuje
 - Mozek počítače, zajišťuje nejdůležitější funkce, řídí činnost PC

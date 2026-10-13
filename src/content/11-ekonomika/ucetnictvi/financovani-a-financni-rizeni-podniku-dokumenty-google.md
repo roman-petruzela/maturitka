@@ -1,7 +1,7 @@
 ---
 title: "Financování a finanční řízení podniku Dokumenty Google"
 order: 15
-source: "MATURITA HADR/Účetnictví/15. Financování a finanční řízení podniku - Dokumenty Google.pdf"
+source: "Účetnictví/15. Financování a finanční řízení podniku - Dokumenty Google.pdf"
 ---
 **financování  podniku** =  činnost,  při  které  dochází  k  tvorbě,  rozdělování  a  užití  finančních zdrojů.
 

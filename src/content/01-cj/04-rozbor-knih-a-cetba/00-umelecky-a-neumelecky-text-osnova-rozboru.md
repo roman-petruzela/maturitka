@@ -1,7 +1,7 @@
 ---
 title: "Umělecký a neumělecký text — osnova rozboru"
 order: -1
-source: "MATURITA HADR/ČESKÝ JAZYK - VŠE/Český jazyk - umělecký-neumělecký text/Osnova_s_vysvětlivky.docx"
+source: "ČESKÝ JAZYK - VŠE/Český jazyk - umělecký-neumělecký text/Osnova_s_vysvětlivky.docx"
 ---
 Osnova s vysvětlivky
 

@@ -1,7 +1,7 @@
 ---
 title: "Vlnová optika 1"
 order: 41
-source: "MATURITA HADR/FYZIKA-maturitní otázky/41-Vlnová optika-1.docx"
+source: "FYZIKA-maturitní otázky/41-Vlnová optika-1.docx"
 ---
 Světlo jako elektromagnetické vlnění
 

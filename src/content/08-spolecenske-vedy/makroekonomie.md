@@ -1,7 +1,7 @@
 ---
 title: "MAKROEKONOMIE"
 order: 8
-source: "MATURITA HADR/Společenské vědy/8. MAKROEKONOMIE.docx"
+source: "Společenské vědy/8. MAKROEKONOMIE.docx"
 ---
 __Lidské potřeby a ekonomika__
 *Abraham Maslow\-pyramida potřeb*

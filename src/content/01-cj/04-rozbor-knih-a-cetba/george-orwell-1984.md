@@ -1,7 +1,7 @@
 ---
 title: "George Orwell - 1984"
 order: 30
-source: "MATURITA HADR/ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/George Orwell - 1984/1984.docx"
+source: "ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/George Orwell - 1984/1984.docx"
 tags: ["mimo-seznam-cetby"]
 ---
 __\(1949\)__

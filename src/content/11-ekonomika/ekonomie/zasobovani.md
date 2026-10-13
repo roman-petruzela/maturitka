@@ -1,7 +1,7 @@
 ---
 title: "Zasobovani"
 order: 8
-source: "MATURITA HADR/Ekonomie/8-Zasobovani.docx"
+source: "Ekonomie/8-Zasobovani.docx"
 ---
 8\. Zásobování a skladování ve VS
 

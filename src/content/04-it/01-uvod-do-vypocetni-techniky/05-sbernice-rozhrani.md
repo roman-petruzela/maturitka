@@ -1,7 +1,7 @@
 ---
 title: "Sběrnice, rozhraní"
 order: 5
-source: "MATURITA HADR/IT/8. Sběrnice, rozhraní.docx"
+source: "IT/8. Sběrnice, rozhraní.docx"
 ---
 - Zajišťují propojení jednotlivých obvodů počítače
 - Používají se k přenosu dat, adres, řídicích a stavových signálů a každé zařízení v PC musí být k některé sběrnici připojeno

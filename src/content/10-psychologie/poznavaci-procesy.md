@@ -1,6 +1,6 @@
 ---
 title: "POZNÁVACÍ PROCESY"
-source: "MATURITA HADR/PSYCHOLOGIE/POZNÁVACÍ-PROCESY.docx"
+source: "PSYCHOLOGIE/POZNÁVACÍ-PROCESY.docx"
 ---
 1. __Poznávací procesy__
 

@@ -1,7 +1,7 @@
 ---
 title: "Hardware – doplňkové poznámky (grafické karty, displeje a další)"
 order: 7
-source: "MATURITA HADR/IT/Tech.docx"
+source: "IT/Tech.docx"
 ---
 1\) Zobrazovací soustava 
 

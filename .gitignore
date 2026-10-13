@@ -26,3 +26,9 @@ pnpm-debug.log*
 # python venv for scripts/convert-pdf.py
 scripts/.venv/
 .vscode/
+
+# real names of archive folders (they name people) — see scripts/archive.mjs
+scripts/archive-aliases.local.json
+
+# Python bytecode
+__pycache__/

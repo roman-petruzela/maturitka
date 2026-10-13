@@ -1,7 +1,7 @@
 ---
 title: "Změny skupenství látek"
 order: 20
-source: "MATURITA HADR/FYZIKA-maturitní otázky/20-Změny-skupenství-látek.docx"
+source: "FYZIKA-maturitní otázky/20-Změny-skupenství-látek.docx"
 ---
 - __Skupenství__ je konkrétní __forma__ látky, charakterizovaná především __uspořádáním částic__ v látce a projevující se typickými __vlastnostmi__
 - Pro označení skupenství se používá pojem __fáze__, který je však __obecnější__ než __skupenství__

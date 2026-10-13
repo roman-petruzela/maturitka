@@ -1,7 +1,7 @@
 ---
 title: "Oscar Wilde - Obraz Doriana Graye (1)"
 order: 71
-source: "MATURITA HADR/ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Oscar Wilde - Obraz Doriana Graye (1)/Obraz Doriana Graye.docx"
+source: "ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Oscar Wilde - Obraz Doriana Graye (1)/Obraz Doriana Graye.docx"
 ---
 __O autorovi : Oscar Wilde__
 

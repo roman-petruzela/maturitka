@@ -1,7 +1,7 @@
 ---
 title: "Word a Excel"
 order: 2
-source: "MATURITA HADR/IT/21. - 24. Word a Excel.docx"
+source: "IT/21. - 24. Word a Excel.docx"
 ---
 __Word__
 

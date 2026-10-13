@@ -1,7 +1,7 @@
 ---
 title: "Spoluvlastnictví"
 order: 9
-source: "MATURITA HADR/Právo/9. Spoluvlastnictví/9_spoluvlastnictvi.docx"
+source: "Právo/9. Spoluvlastnictví/9_spoluvlastnictvi.docx"
 ---
 # __9\. Spoluvlastnictví, práva k cizí věci__
 

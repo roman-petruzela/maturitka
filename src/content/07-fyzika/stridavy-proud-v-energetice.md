@@ -1,7 +1,7 @@
 ---
 title: "Střídavý proud v energetice"
 order: 36
-source: "MATURITA HADR/FYZIKA-maturitní otázky/36-Střídavý-proud-v-energetice.docx"
+source: "FYZIKA-maturitní otázky/36-Střídavý-proud-v-energetice.docx"
 ---
 Princip generátoru střídavého napětí
 

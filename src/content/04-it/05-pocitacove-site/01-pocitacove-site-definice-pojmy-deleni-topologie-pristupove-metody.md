@@ -1,7 +1,7 @@
 ---
 title: "Počítačové sítě - definice, pojmy, dělení, topologie, přístupové metody"
 order: 1
-source: "MATURITA HADR/IT/10. Počítačové sítě - definice, pojmy, dělení, topologie, přístupové metody.docx"
+source: "IT/10. Počítačové sítě - definice, pojmy, dělení, topologie, přístupové metody.docx"
 ---
 - Počítačová síť – souhrnné označení všech technických a programových prostředků, které zajišťují spojení a výměnu informací mezi počítači či jinými zařízení
 - Umožňují uživatelům vzájemnou komunikaci podle určitých pravidel, typicky výměnu zpráv, dat nebo společné využívání síťových služeb

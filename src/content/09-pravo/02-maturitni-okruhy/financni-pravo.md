@@ -1,7 +1,7 @@
 ---
 title: "Finanční právo"
 order: 21
-source: "MATURITA HADR/Právo/21. Finanční právo/21_financni_pravo.docx"
+source: "Právo/21. Finanční právo/21_financni_pravo.docx"
 ---
 # __21\. Finanční právo__
 

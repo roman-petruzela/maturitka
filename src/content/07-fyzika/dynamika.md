@@ -1,7 +1,7 @@
 ---
 title: "Dynamika"
 order: 4
-source: "MATURITA HADR/FYZIKA-maturitní otázky/4-Dynamika.docx"
+source: "FYZIKA-maturitní otázky/4-Dynamika.docx"
 ---
 Základní pojmy
 

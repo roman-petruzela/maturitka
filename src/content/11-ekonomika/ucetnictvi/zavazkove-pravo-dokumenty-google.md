@@ -1,7 +1,7 @@
 ---
 title: "Závazkové právo Dokumenty Google"
 order: 25
-source: "MATURITA HADR/Účetnictví/25. Závazkové právo - Dokumenty Google.pdf"
+source: "Účetnictví/25. Závazkové právo - Dokumenty Google.pdf"
 ---
 ## **Závazkový  vztah,  závazek,  pohledávka,  věřitel,  dlužník**
 

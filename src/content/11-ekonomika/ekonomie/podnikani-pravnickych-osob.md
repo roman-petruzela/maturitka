@@ -1,7 +1,7 @@
 ---
 title: "Podnikání právnických osob"
 order: 5
-source: "MATURITA HADR/Ekonomie/5. Podnikání právnických osob.docx"
+source: "Ekonomie/5. Podnikání právnických osob.docx"
 ---
 5\. Podnikání právnických osob
 

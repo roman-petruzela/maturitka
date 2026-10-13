@@ -1,7 +1,7 @@
 ---
 title: "USTAVA, USTAVNI VYVOJ, LIDSKA PRAVA"
 order: 14
-source: "MATURITA HADR/Společenské vědy/14. USTAVA, USTAVNI VYVOJ, LIDSKA PRAVA.docx"
+source: "Společenské vědy/14. USTAVA, USTAVNI VYVOJ, LIDSKA PRAVA.docx"
 ---
 __ČESKÝ ÚSTAVNÍ VÝVOJ__
 Protože ústava je především právním výrazem trvání státu, souvisí náš ústavní vývoj s existencí různých státních útvarů na našem území\.

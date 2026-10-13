@@ -1,7 +1,7 @@
 ---
 title: "Moliére - Lakomec"
 order: 68
-source: "MATURITA HADR/ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Moliére - Lakomec/1. Moliére-Lakomec.docx"
+source: "ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Moliére - Lakomec/1. Moliére-Lakomec.docx"
 ---
 \-klasicismus 17/18 stol\. vzn\. ve Francii, za vlády Ludvíka XIV\. Navazuje na antiku a renesanci, odklon od závislosti na bohu, literatura vyžadovala přesný řád a pevná pravidla, VFR 1789, touhy jedince ustupují před společenskými normami
 

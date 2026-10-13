@@ -1,7 +1,7 @@
 ---
 title: "Struktura a vlastnosti kapalin"
 order: 19
-source: "MATURITA HADR/FYZIKA-maturitní otázky/19-Struktura-a-vlastnosti-kapalin.docx"
+source: "FYZIKA-maturitní otázky/19-Struktura-a-vlastnosti-kapalin.docx"
 ---
 Struktura kapalin
 

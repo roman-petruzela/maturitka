@@ -1,7 +1,7 @@
 ---
 title: "Nerovnice v součinovém tvaru"
 order: 16
-source: "MATURITA HADR/Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/16) Nerovnice v součinovém tvaru.pdf"
+source: "Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/16) Nerovnice v součinovém tvaru.pdf"
 hasExercises: true
 ---
 
@@ -41,4 +41,4 @@ Ověření nulových bodů: ani $x_1=0$, ani $x_2=1{,}5$ nevyhovuje ostré nerov
 
 ## Zdroje
 
-MATURITA HADR / Matematika / řešené postupy matematických okruhů z DT 2010–2017, dokument *16) Nerovnice v součinovém tvaru.pdf*.
+Matematika / řešené postupy matematických okruhů z DT 2010–2017, dokument *16) Nerovnice v součinovém tvaru.pdf*.

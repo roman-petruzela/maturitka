@@ -1,7 +1,7 @@
 ---
 title: "Marketing"
 order: 4
-source: "MATURITA HADR/Ekonomie/4. Marketing.docx"
+source: "Ekonomie/4. Marketing.docx"
 ---
 4\. MARKETING
 

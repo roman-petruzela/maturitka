@@ -1,7 +1,7 @@
 ---
 title: "Internet"
 order: 4
-source: "MATURITA HADR/IT/13. Internet.docx"
+source: "IT/13. Internet.docx"
 ---
 - Celosvětová počítačová síť WAN – propojení LAN, MAN a vzniká v roce 1969
 - První síť se jmenovala ARPANET sloužila pro vojenské účely, ale časem se napojovaly i civilní instituce

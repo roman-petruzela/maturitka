@@ -1,7 +1,7 @@
 ---
 title: "Právní vztahy. Právní skutečnost. Věci"
 order: 4
-source: "MATURITA HADR/Právo/4. Právní vztahy. Právní skutečnost. Věci/Pravni vztahy (1).docx"
+source: "Právo/4. Právní vztahy. Právní skutečnost. Věci/Pravni vztahy (1).docx"
 ---
 Právní vztah – učebnice od strany 29, text v e\-learning
 

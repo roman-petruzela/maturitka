@@ -1,7 +1,7 @@
 ---
 title: "Obchodní banky"
 order: 16
-source: "MATURITA HADR/Ekonomie/16.-obchodní-banky.doc"
+source: "Ekonomie/16.-obchodní-banky.doc"
 ---
 __= zřízeny za účelem zisku__
 

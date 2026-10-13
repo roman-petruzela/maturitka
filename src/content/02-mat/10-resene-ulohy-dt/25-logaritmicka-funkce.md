@@ -1,7 +1,7 @@
 ---
 title: "Logaritmická funkce"
 order: 25
-source: "MATURITA HADR/Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/25) Logaritmická funkce.pdf"
+source: "Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/25) Logaritmická funkce.pdf"
 hasExercises: true
 ---
 
@@ -26,4 +26,4 @@ D–E) *(nedochováno)*
 
 ## Zdroje
 
-MATURITA HADR / Matematika / řešené postupy matematických okruhů z DT 2010–2017, dokument *25) Logaritmická funkce.pdf*.
+Matematika / řešené postupy matematických okruhů z DT 2010–2017, dokument *25) Logaritmická funkce.pdf*.

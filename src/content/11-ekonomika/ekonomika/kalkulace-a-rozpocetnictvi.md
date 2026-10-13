@@ -1,7 +1,7 @@
 ---
 title: "Kalkulace a rozpočetnictví"
 order: 21
-source: "MATURITA HADR/Ekonomika/21. Kalkulace a rozpočetnictví.docx"
+source: "Ekonomika/21. Kalkulace a rozpočetnictví.docx"
 ---
 __Kalkulace__
 

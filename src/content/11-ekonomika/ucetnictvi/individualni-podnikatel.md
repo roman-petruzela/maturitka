@@ -1,7 +1,7 @@
 ---
 title: "Individuální podnikatel"
 order: 21
-source: "MATURITA HADR/Účetnictví/21. Individuální podnikatel.docx"
+source: "Účetnictví/21. Individuální podnikatel.docx"
 ---
 21\. Individuální podnikatel
 

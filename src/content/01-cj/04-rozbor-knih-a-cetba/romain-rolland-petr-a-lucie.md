@@ -1,7 +1,7 @@
 ---
 title: "Romain Rolland – Petr a Lucie"
 order: 78
-source: "MATURITA HADR/ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Romain Rolland – Petr a Lucie/Petr a Lucie - Romain Rolland.docx"
+source: "ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Romain Rolland – Petr a Lucie/Petr a Lucie - Romain Rolland.docx"
 ---
 Námět: 		Nenávist k této době, v níž zahynulo spousta Rollandových přátel kvůli bombardování v Paříži v roce 1918\. Mezi nimi byla i jeho žena\.
 

@@ -1,7 +1,7 @@
 ---
 title: "Národní hospodářstviiii"
 order: 20
-source: "MATURITA HADR/Ekonomie/20.-Národní-hospodářstviiii.docx"
+source: "Ekonomie/20.-Národní-hospodářstviiii.docx"
 ---
 - souhrn ekonomických činnosti a subjektů na území jednoho státu
 - makroekonomie se zabývá hospodářskými vztahy na úrovní NH

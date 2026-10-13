@@ -1,7 +1,7 @@
 ---
 title: "Druhá světová válka od napadení SSSR, její výsledky a výz"
 order: 28
-source: "MATURITA HADR/Dějepis/28.Druhá světová válka od napadení SSSR, její výsledky a výz.doc"
+source: "Dějepis/28.Druhá světová válka od napadení SSSR, její výsledky a výz.doc"
 ---
 28\.
 

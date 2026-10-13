@@ -1,7 +1,7 @@
 ---
 title: "Elektrický proud v elektrolytech"
 order: 29
-source: "MATURITA HADR/FYZIKA-maturitní otázky/29-Elektrický-proud-v-elektrolytech.docx"
+source: "FYZIKA-maturitní otázky/29-Elektrický-proud-v-elektrolytech.docx"
 ---
 Elektrolyt
 

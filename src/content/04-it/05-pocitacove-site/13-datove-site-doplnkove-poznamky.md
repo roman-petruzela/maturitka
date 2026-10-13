@@ -1,7 +1,7 @@
 ---
 title: "Datové sítě – doplňkové poznámky"
 order: 13
-source: "MATURITA HADR/IT/Datové-sítě.docx"
+source: "IT/Datové-sítě.docx"
 ---
 1\) Úvod do sítí
 

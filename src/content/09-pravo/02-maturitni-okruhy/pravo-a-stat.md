@@ -1,7 +1,7 @@
 ---
 title: "Právo a stát"
 order: 1
-source: "MATURITA HADR/Právo/1. Právo a stát/pojmy na právo.docx"
+source: "Právo/1. Právo a stát/pojmy na právo.docx"
 ---
 pojmy na právo
 

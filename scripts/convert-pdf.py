@@ -14,6 +14,8 @@ from pathlib import Path
 import pymupdf4llm
 from pymupdf4llm.helpers.document_layout import OCRMode
 
+from archive_paths import display_source, to_real
+
 WEB_ROOT = Path(__file__).resolve().parent.parent
 REPO_ROOT = WEB_ROOT.parent
 
@@ -126,7 +128,7 @@ def _to_pdf(src_abs: Path, tmp_dir: Path) -> Path:
 def convert_one(item: dict, ocr: bool, tmp_dir: Path) -> None:
     dest_abs = WEB_ROOT / "src" / "content" / item["dest"]
     frontmatter = build_frontmatter(
-        item["title"], item.get("order"), item.get("tags"), item.get("source") or item["src"]
+        item["title"], item.get("order"), item.get("tags"), item.get("source") or display_source(item["src"])
     )
     skip_reason = item.get("skip")
     if skip_reason:
@@ -141,7 +143,7 @@ def convert_one(item: dict, ocr: bool, tmp_dir: Path) -> None:
             encoding="utf-8",
         )
         return
-    src_abs = _to_pdf(REPO_ROOT / item["src"], tmp_dir)
+    src_abs = _to_pdf(REPO_ROOT / to_real(item["src"]), tmp_dir)
     if ocr:
         md = pymupdf4llm.to_markdown(
             str(src_abs), use_ocr=OCRMode.FORCE_DROP_OLD, ocr_language="ces", show_progress=False

@@ -1,7 +1,7 @@
 ---
 title: "Revoluce 1848 v Evropě"
 order: 20
-source: "MATURITA HADR/Dějepis/20.revoluce 1848 v Evropě.doc"
+source: "Dějepis/20.revoluce 1848 v Evropě.doc"
 ---
 20\.
 

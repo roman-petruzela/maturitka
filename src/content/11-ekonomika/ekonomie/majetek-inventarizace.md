@@ -1,7 +1,7 @@
 ---
 title: "Majetek inventarizace"
 order: 14
-source: "MATURITA HADR/Ekonomie/14.-majetek-inventarizace.doc"
+source: "Ekonomie/14.-majetek-inventarizace.doc"
 ---
 __Majtek podniku, inventarizace__
 

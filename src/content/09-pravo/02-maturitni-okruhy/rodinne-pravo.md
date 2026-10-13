@@ -1,7 +1,7 @@
 ---
 title: "Rodinné právo"
 order: 12
-source: "MATURITA HADR/Právo/12. Rodinné právo/12_rodinne_pravo.odt"
+source: "Právo/12. Rodinné právo/12_rodinne_pravo.odt"
 ---
 1. __12\. Rodinné právo__
 

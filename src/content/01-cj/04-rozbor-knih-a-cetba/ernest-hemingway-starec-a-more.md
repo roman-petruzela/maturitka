@@ -1,7 +1,7 @@
 ---
 title: "Ernest Hemingway - Stařec a moře"
 order: 25
-source: "MATURITA HADR/ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Ernest Hemingway - Stařec a moře/Stařec a moře.docx"
+source: "ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Ernest Hemingway - Stařec a moře/Stařec a moře.docx"
 ---
 __Ostatní autoři této doby__
 

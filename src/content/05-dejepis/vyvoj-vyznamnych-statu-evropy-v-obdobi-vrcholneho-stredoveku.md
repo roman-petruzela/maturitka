@@ -1,7 +1,7 @@
 ---
 title: "Vývoj významných států Evropy v období vrcholného středověku"
 order: 7
-source: "MATURITA HADR/Dějepis/07.Vývoj významných států Evropy v období vrcholného středověku.doc"
+source: "Dějepis/07.Vývoj významných států Evropy v období vrcholného středověku.doc"
 ---
 7\.
 

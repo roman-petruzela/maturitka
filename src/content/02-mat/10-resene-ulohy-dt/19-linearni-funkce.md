@@ -1,7 +1,7 @@
 ---
 title: "Lineární funkce"
 order: 19
-source: "MATURITA HADR/Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/19) Lineární funkce.pdf"
+source: "Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/19) Lineární funkce.pdf"
 hasExercises: true
 ---
 
@@ -111,4 +111,4 @@ Grafické řešení odpovídá obrázku C.
 
 ## Zdroje
 
-MATURITA HADR / Matematika / řešené postupy matematických okruhů z DT 2010–2017, dokument *19) Lineární funkce.pdf*.
+Matematika / řešené postupy matematických okruhů z DT 2010–2017, dokument *19) Lineární funkce.pdf*.

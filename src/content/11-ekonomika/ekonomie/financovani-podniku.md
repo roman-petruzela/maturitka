@@ -1,7 +1,7 @@
 ---
 title: "FINANCOVÁNÍ PODNIKU"
 order: 19
-source: "MATURITA HADR/Ekonomie/19. FINANCOVÁNÍ-PODNIKU.docx"
+source: "Ekonomie/19. FINANCOVÁNÍ-PODNIKU.docx"
 ---
 = zajištění finančních zdrojů pro chod firmy
 

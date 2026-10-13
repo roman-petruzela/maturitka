@@ -1,7 +1,7 @@
 ---
 title: "PLANETA ZEMĚ"
 order: 1
-source: "MATURITA HADR/Zeměpis/Zeměpis GLP/1. PLANETA ZEMĚ.doc"
+source: "Zeměpis/Zeměpis GLP/1. PLANETA ZEMĚ.doc"
 ---
 ##  Země jako vesmírné těleso
 

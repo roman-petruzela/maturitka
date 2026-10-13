@@ -1,7 +1,7 @@
 ---
 title: "Mocniny"
 order: 3
-source: "MATURITA HADR/Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/3) Mocniny.pdf"
+source: "Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/3) Mocniny.pdf"
 hasExercises: true
 ---
 
@@ -88,4 +88,4 @@ b) $\left(\dfrac{a^{-4}}{a^{-1}}\right)^{-2}=(a^{-3})^{-2}=a^6$ *(nebo: $(a^{-4}
 
 ## Zdroje
 
-MATURITA HADR / Matematika / řešené postupy matematických okruhů z DT 2010–2017, dokument *3) Mocniny.pdf*.
+Matematika / řešené postupy matematických okruhů z DT 2010–2017, dokument *3) Mocniny.pdf*.

@@ -1,7 +1,7 @@
 ---
 title: "Obecná posloupnost"
 order: 34
-source: "MATURITA HADR/Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/34) Obecná posloupnost.pdf"
+source: "Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/34) Obecná posloupnost.pdf"
 hasExercises: true
 ---
 
@@ -45,4 +45,4 @@ Kontrola: $a_{16}=5\cdot16-3=77=11\cdot7=11a_2$ ✓.
 
 ## Zdroje
 
-MATURITA HADR / Matematika / řešené postupy matematických okruhů z DT 2010–2017, dokument *34) Obecná posloupnost.pdf*.
+Matematika / řešené postupy matematických okruhů z DT 2010–2017, dokument *34) Obecná posloupnost.pdf*.

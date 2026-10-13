@@ -1,5 +1,5 @@
 ---
 title: "6) Prag"
-source: "MATURITA HADR/Němčina/6) Prag.pdf"
+source: "Němčina/6) Prag.pdf"
 ---
 

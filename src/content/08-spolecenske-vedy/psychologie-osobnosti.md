@@ -1,7 +1,7 @@
 ---
 title: "PSYCHOLOGIE OSOBNOSTI"
 order: 1
-source: "MATURITA HADR/Společenské vědy/1. PSYCHOLOGIE OSOBNOSTI.docx"
+source: "Společenské vědy/1. PSYCHOLOGIE OSOBNOSTI.docx"
 ---
 OSOBNOST
 __= souhrn biologických, psychických a sociálních znaků__

@@ -1,7 +1,7 @@
 ---
 title: "Inventarizace"
 order: 3
-source: "MATURITA HADR/Účetnictví/3. Inventarizace.docx"
+source: "Účetnictví/3. Inventarizace.docx"
 ---
 3\. Inventarizace
 

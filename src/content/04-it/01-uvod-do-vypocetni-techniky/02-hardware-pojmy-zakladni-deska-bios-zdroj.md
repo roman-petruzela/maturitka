@@ -1,7 +1,7 @@
 ---
 title: "Hardware pojmy, základní deska, BIOS, zdroj"
 order: 2
-source: "MATURITA HADR/IT/5. Hardware pojmy, základní deska, BIOS, zdroj.docx"
+source: "IT/5. Hardware pojmy, základní deska, BIOS, zdroj.docx"
 ---
 - Hardware – technické, fyzické vybavení počítače
 - Software – programové vybavení počítače, programy

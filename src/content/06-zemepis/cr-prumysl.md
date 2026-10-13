@@ -1,7 +1,7 @@
 ---
 title: "ČR průmysl"
 order: 27
-source: "MATURITA HADR/Zeměpis/Zeměpis GLP/27. ČR - průmysl.docx"
+source: "Zeměpis/Zeměpis GLP/27. ČR - průmysl.docx"
 ---
 ## 27\. ČR – průmysl
 

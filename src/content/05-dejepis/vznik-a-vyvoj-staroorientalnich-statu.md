@@ -1,7 +1,7 @@
 ---
 title: "Vznik a vývoj staroorientálních států"
 order: 1
-source: "MATURITA HADR/Dějepis/01.vznik a vývoj staroorientálních států.doc"
+source: "Dějepis/01.vznik a vývoj staroorientálních států.doc"
 ---
 __Charakteristika státu__
 

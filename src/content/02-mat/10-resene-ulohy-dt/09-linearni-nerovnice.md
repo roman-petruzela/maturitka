@@ -1,7 +1,7 @@
 ---
 title: "Lineární nerovnice"
 order: 9
-source: "MATURITA HADR/Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/9) Lineární nerovnice.pdf"
+source: "Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/9) Lineární nerovnice.pdf"
 hasExercises: true
 ---
 
@@ -79,4 +79,4 @@ c) $(x-2)\cdot0\leq0 \implies 0\leq0$ — pravdivé pro každé $x$, tedy $x\in\
 
 ## Zdroje
 
-MATURITA HADR / Matematika / řešené postupy matematických okruhů z DT 2010–2017, dokument *9) Lineární nerovnice.pdf*.
+Matematika / řešené postupy matematických okruhů z DT 2010–2017, dokument *9) Lineární nerovnice.pdf*.

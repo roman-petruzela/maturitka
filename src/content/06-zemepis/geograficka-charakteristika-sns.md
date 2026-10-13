@@ -1,7 +1,7 @@
 ---
 title: "Geografická charakteristika sns"
 order: 19
-source: "MATURITA HADR/Zeměpis/Zeměpis GLP/19. Geografická charakteristika sns.docx"
+source: "Zeměpis/Zeměpis GLP/19. Geografická charakteristika sns.docx"
 ---
 ## 19\. Geologická charakteristika SNS
 

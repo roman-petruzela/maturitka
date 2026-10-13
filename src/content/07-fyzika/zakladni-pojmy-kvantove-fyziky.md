@@ -1,7 +1,7 @@
 ---
 title: "Základní pojmy kvantové fyziky"
 order: 47
-source: "MATURITA HADR/FYZIKA-maturitní otázky/47. Základní pojmy kvantové fyziky.docx"
+source: "FYZIKA-maturitní otázky/47. Základní pojmy kvantové fyziky.docx"
 ---
 __Úvod__
 

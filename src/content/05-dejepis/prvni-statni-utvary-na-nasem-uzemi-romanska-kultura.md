@@ -1,7 +1,7 @@
 ---
 title: "První státní útvary na našem území, románská kultura"
 order: 6
-source: "MATURITA HADR/Dějepis/06.První státní útvary na našem území, románská kultura.doc"
+source: "Dějepis/06.První státní útvary na našem území, románská kultura.doc"
 ---
 6\.
 

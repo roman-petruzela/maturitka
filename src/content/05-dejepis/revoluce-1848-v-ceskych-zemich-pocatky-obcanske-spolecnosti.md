@@ -1,7 +1,7 @@
 ---
 title: "Revoluce 1848 v českých zemích, počátky občanské společnosti"
 order: 21
-source: "MATURITA HADR/Dějepis/21.Revoluce 1848 v českých zemích, počátky občanské společnosti.doc"
+source: "Dějepis/21.Revoluce 1848 v českých zemích, počátky občanské společnosti.doc"
 ---
 21\.
 

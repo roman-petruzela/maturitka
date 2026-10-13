@@ -1,7 +1,7 @@
 ---
 title: "Alois a Vilém Mrštík - Maryša"
 order: 6
-source: "MATURITA HADR/ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Alois a Vilém Mrštík - Maryša/8. Maryša-období.docx"
+source: "ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Alois a Vilém Mrštík - Maryša/8. Maryša-období.docx"
 ---
 **Maryša
 Český realismus** 

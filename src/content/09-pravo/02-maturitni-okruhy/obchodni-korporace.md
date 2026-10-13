@@ -1,7 +1,7 @@
 ---
 title: "Obchodní korporace"
 order: 18
-source: "MATURITA HADR/Právo/18. Obchodní korporace/pravo_kontolni_otazky.docx"
+source: "Právo/18. Obchodní korporace/pravo_kontolni_otazky.docx"
 ---
 1. __Jaká byla právní úprava obchodního práva při vzniku Československa?__
 

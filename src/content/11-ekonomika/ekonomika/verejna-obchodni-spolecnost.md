@@ -1,7 +1,7 @@
 ---
 title: "Veřejná obchodní společnost"
 order: 18
-source: "MATURITA HADR/Ekonomika/18. Veřejná obchodní společnost.docx"
+source: "Ekonomika/18. Veřejná obchodní společnost.docx"
 ---
 - Právní úprava: zákon o obchodních korporacích, občanský zákoník, daňové zákony
 - __Obchodní korporace__  = obchodní společnosti \+ družstva

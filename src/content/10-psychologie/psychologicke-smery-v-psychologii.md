@@ -1,6 +1,6 @@
 ---
 title: "PSYCHOLOGICKÉ SMĚRY V PSYCHOLOGII"
-source: "MATURITA HADR/PSYCHOLOGIE/PSYCHOLOGICKÉ-SMĚRY-V-PSYCHOLOGII.docx"
+source: "PSYCHOLOGIE/PSYCHOLOGICKÉ-SMĚRY-V-PSYCHOLOGII.docx"
 ---
 1. __Psychologické směry v psychologii__
 

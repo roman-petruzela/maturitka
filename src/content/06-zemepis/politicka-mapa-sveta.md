@@ -1,7 +1,7 @@
 ---
 title: "POLITICKÁ MAPA SVĚTA"
 order: 11
-source: "MATURITA HADR/Zeměpis/Zeměpis GLP/11. POLITICKÁ MAPA SVĚTA.docx"
+source: "Zeměpis/Zeměpis GLP/11. POLITICKÁ MAPA SVĚTA.docx"
 ---
 - __196 nezávislých států a 27 závislých území__
 - Zobrazuje území konkrétních suverénních národních států, která jsou oddělena hranicemi\.

@@ -1,7 +1,7 @@
 ---
 title: "Magnetické vlastnosti látek částice s nábojem v elektrickém a magnetickém poli"
 order: 32
-source: "MATURITA HADR/FYZIKA-maturitní otázky/32-Magnetické-vlastnosti-látek-částice-s-nábojem-v-elektrickém-a-magnetickém-poli.docx"
+source: "FYZIKA-maturitní otázky/32-Magnetické-vlastnosti-látek-částice-s-nábojem-v-elektrickém-a-magnetickém-poli.docx"
 ---
 Diamagnetické a paramagnetické atomy
 

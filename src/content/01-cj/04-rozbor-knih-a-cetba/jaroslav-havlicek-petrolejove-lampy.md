@@ -1,7 +1,7 @@
 ---
 title: "Jaroslav Havlíček - Petrolejové Lampy"
 order: 39
-source: "MATURITA HADR/ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Jaroslav Havlíček - Petrolejové Lampy/18. Petrolejove_lampy.pdf"
+source: "ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Jaroslav Havlíček - Petrolejové Lampy/18. Petrolejove_lampy.pdf"
 ---
 ## **CHARAKTERISTIKA UMĚLECKÉHO TEXTU**
 

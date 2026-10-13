@@ -1,7 +1,7 @@
 ---
 title: "Prameny práva, právní kultura, právní řád ČR"
 order: 2
-source: "MATURITA HADR/Právo/2. Prameny práva, právní kultura, právní řád ČR/prameny_prava_emil.docx"
+source: "Právo/2. Prameny práva, právní kultura, právní řád ČR/prameny_prava.docx"
 ---
 # Prameny práva
 

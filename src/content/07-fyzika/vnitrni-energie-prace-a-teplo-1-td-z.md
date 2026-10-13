@@ -1,7 +1,7 @@
 ---
 title: "Vnitřní energie práce a teplo 1.TD z."
 order: 14
-source: "MATURITA HADR/FYZIKA-maturitní otázky/14-Vnitřní-energie-práce-a-teplo-1.TD-z..docx"
+source: "FYZIKA-maturitní otázky/14-Vnitřní-energie-práce-a-teplo-1.TD-z..docx"
 ---
 Celková energie soustavy
 

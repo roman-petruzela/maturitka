@@ -1,7 +1,7 @@
 ---
 title: "Lineární rovnice"
 order: 7
-source: "MATURITA HADR/Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/7) Lineární rovnice.pdf"
+source: "Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/7) Lineární rovnice.pdf"
 hasExercises: true
 ---
 
@@ -99,4 +99,4 @@ Zkouška: $L=\dfrac{4-1}3-3=1-3=-2$; $P=\dfrac42-4=2-4=-2$; $L=P$ ✓.
 
 ## Zdroje
 
-MATURITA HADR / Matematika / řešené postupy matematických okruhů z DT 2010–2017, dokument *7) Lineární rovnice.pdf*.
+Matematika / řešené postupy matematických okruhů z DT 2010–2017, dokument *7) Lineární rovnice.pdf*.

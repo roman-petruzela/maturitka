@@ -1,7 +1,7 @@
 ---
 title: "Základní poznatky molekulové fyziky a termodynamiky"
 order: 12
-source: "MATURITA HADR/FYZIKA-maturitní otázky/12-Základní-poznatky-molekulové-fyziky-a-termodynamiky.docx"
+source: "FYZIKA-maturitní otázky/12-Základní-poznatky-molekulové-fyziky-a-termodynamiky.docx"
 ---
 - __termodynamika__ – vědní obor zkoumající __přeměny energie__ a __tepelné děje__
 - __molekulová fyzika__ – zkoumá __částicové složení látek__, jejich __pohyb__, __síly__, které mezi nimi působí

@@ -1,7 +1,7 @@
 ---
 title: "DAŇOVÝ SYSTÉM V ČR maturitní otázka č. 18"
 order: 18
-source: "MATURITA HADR/Ekonomie/18. DAŇOVÝ-SYSTÉM-V-ČR-maturitní-otázka-č.-18.docx"
+source: "Ekonomie/18. DAŇOVÝ-SYSTÉM-V-ČR-maturitní-otázka-č.-18.docx"
 ---
 __Daň__ = platba do veřejných rozpočtů, která je ze zákona a která odčerpává peníze určitému subjektu na principu solidarity
 

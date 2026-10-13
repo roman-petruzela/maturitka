@@ -1,7 +1,7 @@
 ---
 title: "Právní úprava podnikání"
 order: 17
-source: "MATURITA HADR/Právo/17. Právní úprava podnikání/17_pravni_uprava_podnikani.odt"
+source: "Právo/17. Právní úprava podnikání/17_pravni_uprava_podnikani.odt"
 ---
 -
 	-

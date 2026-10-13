@@ -1,7 +1,7 @@
 ---
 title: "Pohledávky"
 order: 10
-source: "MATURITA HADR/Účetnictví/10. Pohledávky.docx"
+source: "Účetnictví/10. Pohledávky.docx"
 ---
 10\. Pohledávky
 

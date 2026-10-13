@@ -1,7 +1,7 @@
 ---
 title: "KLASICKA RECKA FILOSOFIE"
 order: 17
-source: "MATURITA HADR/Společenské vědy/17. KLASICKA RECKA FILOSOFIE.docx"
+source: "Společenské vědy/17. KLASICKA RECKA FILOSOFIE.docx"
 ---
 \- kulturním a politickým centrem se stávají Athény za vlády Perikla ½ 5\.st\.BC \- zlatý věk Athén \-
 \- toto období začíná působením sofistů na přelomu 5\./4\. stol\.BC, končí roku 322\-Aristotelovou smrtí

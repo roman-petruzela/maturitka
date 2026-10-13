@@ -1,7 +1,7 @@
 ---
 title: "Marketing"
 order: 6
-source: "MATURITA HADR/Ekonomika/6. Marketing.docx"
+source: "Ekonomika/6. Marketing.docx"
 ---
 - = řízení výroby pomocí trhu, cílem marketingu je dosažení zisku
 - Zisk:

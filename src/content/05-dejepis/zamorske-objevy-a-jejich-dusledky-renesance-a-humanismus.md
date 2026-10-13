@@ -1,7 +1,7 @@
 ---
 title: "Zámořské objevy a jejich důsledky, renesance a humanismus"
 order: 10
-source: "MATURITA HADR/Dějepis/10.Zámořské objevy a jejich důsledky, renesance a humanismus.doc"
+source: "Dějepis/10.Zámořské objevy a jejich důsledky, renesance a humanismus.doc"
 ---
 10\.
 

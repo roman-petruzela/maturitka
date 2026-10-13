@@ -1,7 +1,7 @@
 ---
 title: "Elektrostatické pole"
 order: 25
-source: "MATURITA HADR/FYZIKA-maturitní otázky/25-Elektrostatické-pole.docx"
+source: "FYZIKA-maturitní otázky/25-Elektrostatické-pole.docx"
 ---
 Elektrický náboj
 

@@ -1,7 +1,7 @@
 ---
 title: "Manželství"
 order: 13
-source: "MATURITA HADR/Právo/13. Manželství/13_manzelstvi.odt"
+source: "Právo/13. Manželství/13_manzelstvi.odt"
 ---
 1. __13\. Manželství__
 

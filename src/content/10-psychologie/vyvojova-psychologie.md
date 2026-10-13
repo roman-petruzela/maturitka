@@ -1,6 +1,6 @@
 ---
 title: "VÝVOJOVÁ PSYCHOLOGIE"
-source: "MATURITA HADR/PSYCHOLOGIE/VÝVOJOVÁ-PSYCHOLOGIE.docx"
+source: "PSYCHOLOGIE/VÝVOJOVÁ-PSYCHOLOGIE.docx"
 ---
 1. __Vývojová psychologie__
 

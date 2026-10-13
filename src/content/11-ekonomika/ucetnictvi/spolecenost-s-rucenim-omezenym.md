@@ -1,7 +1,7 @@
 ---
 title: "Společenost s ručením omezeným"
 order: 22
-source: "MATURITA HADR/Účetnictví/22. Společenost s ručením omezeným.docx"
+source: "Účetnictví/22. Společenost s ručením omezeným.docx"
 ---
 22\. Společnost s ručením omezeným
 

@@ -1,7 +1,7 @@
 ---
 title: "UZ"
 order: 12
-source: "MATURITA HADR/Ekonomie/12.-UZ.docx"
+source: "Ekonomie/12.-UZ.docx"
 ---
 = ubytovací zařízení \(UZ\) v ČR se rozděluje podle jednotné klasifikace __HOTELSTARS__ \(napr\.: czech tourism\), kterou organizuje __AHR ČR__ a další profesní organizace pod záštitou Ministerstva pro místní rozvoj\.
 

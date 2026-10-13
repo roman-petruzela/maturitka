@@ -1,7 +1,7 @@
 ---
 title: "DEMOKRATICKY PRAVNI STAT"
 order: 12
-source: "MATURITA HADR/Společenské vědy/12. DEMOKRATICKY PRAVNI STAT.docx"
+source: "Společenské vědy/12. DEMOKRATICKY PRAVNI STAT.docx"
 ---
 DEMOKRACIE
 __\- Demokracie z __démos kratos __=__ vláda lidu__

@@ -1,7 +1,7 @@
 ---
 title: "Marketingový mix"
 order: 5
-source: "MATURITA HADR/Ekonomie/5.-Marketingový-mix.docx"
+source: "Ekonomie/5.-Marketingový-mix.docx"
 ---
 __Marketingový mix__
 

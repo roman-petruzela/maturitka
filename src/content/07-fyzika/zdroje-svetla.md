@@ -1,7 +1,7 @@
 ---
 title: "ZDROJE SVETLA"
 order: 44
-source: "MATURITA HADR/FYZIKA-maturitní otázky/44-ZDROJE-SVETLA.docx"
+source: "FYZIKA-maturitní otázky/44-ZDROJE-SVETLA.docx"
 ---
 44\. Zdroje Světla
 

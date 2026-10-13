@@ -1,7 +1,7 @@
 ---
 title: "Relativní majetková práva"
 order: 11
-source: "MATURITA HADR/Právo/11. Relativní majetková práva/11_relativni_majetkova_prava.odt"
+source: "Právo/11. Relativní majetková práva/11_relativni_majetkova_prava.odt"
 ---
 1. __11\. Relativní majetková práva__
 

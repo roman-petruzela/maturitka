@@ -1,7 +1,7 @@
 ---
 title: "EKONOMICKA REFORMA A TRZNI EKONOMIKA"
 order: 24
-source: "MATURITA HADR/Společenské vědy/24. EKONOMICKA REFORMA A TRZNI EKONOMIKA.docx"
+source: "Společenské vědy/24. EKONOMICKA REFORMA A TRZNI EKONOMIKA.docx"
 ---
 \- smyslem ekonomické reformy je přechod od __centrálně plánované ekonomiky \(CPE\)__ k __ekonomice
   trhu__

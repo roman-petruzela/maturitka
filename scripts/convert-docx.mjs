@@ -11,6 +11,7 @@ import os from 'node:os';
 import { execFile } from 'node:child_process';
 import { promisify } from 'node:util';
 import mammoth from 'mammoth';
+import { displaySource, toReal } from './archive.mjs';
 
 const execFileAsync = promisify(execFile);
 
@@ -106,7 +107,7 @@ async function forceResave(srcAbs, tmpDir) {
 }
 
 async function convertOne(item, tmpDir) {
-	const srcAbs = path.join(REPO_ROOT, item.src);
+	const srcAbs = path.join(REPO_ROOT, toReal(item.src));
 	const destAbs = path.join(WEB_ROOT, 'src', 'content', item.dest);
 	const docxPath = await toDocx(srcAbs, tmpDir);
 	let markdown, messages;
@@ -124,7 +125,7 @@ async function convertOne(item, tmpDir) {
 		title: item.title,
 		order: item.order,
 		tags: item.tags,
-		source: item.source ?? item.src,
+		source: item.source ?? displaySource(item.src),
 	});
 	await writeFile(destAbs, frontmatter + cleanMarkdown(markdown));
 	return { item, warnings: warnings.length };

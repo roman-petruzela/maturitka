@@ -1,7 +1,7 @@
 ---
 title: "Občanské právo hmotné"
 order: 7
-source: "MATURITA HADR/Právo/7. Občanské právo hmotné/7_obcanske_pravo_hmotne.odt"
+source: "Právo/7. Občanské právo hmotné/7_obcanske_pravo_hmotne.odt"
 ---
 1. __7\. Občanské právo hmotné__
 

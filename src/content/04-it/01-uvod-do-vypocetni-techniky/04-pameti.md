@@ -1,7 +1,7 @@
 ---
 title: "Paměti"
 order: 4
-source: "MATURITA HADR/IT/7. Paměti.docx"
+source: "IT/7. Paměti.docx"
 ---
 - Zařízení, které slouží k ukládání programů a dat
 - Paměťový řadič – řídí veškeré kroky spojené s operací čtení, zápis a zabezpečení přenosu dat

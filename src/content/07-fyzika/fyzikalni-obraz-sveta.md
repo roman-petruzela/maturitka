@@ -1,7 +1,7 @@
 ---
 title: "Fyzikální obraz světa"
 order: 1
-source: "MATURITA HADR/FYZIKA-maturitní otázky/1-Fyzikální-obraz-světa.docx"
+source: "FYZIKA-maturitní otázky/1-Fyzikální-obraz-světa.docx"
 ---
 - Eukleides z Megary – položil základy matematiky, geometrie \(dílo *Základy\)*
 - Mikuláš Koperník – polský astronom, heliocentrismus

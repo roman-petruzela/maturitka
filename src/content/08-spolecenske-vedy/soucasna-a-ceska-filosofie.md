@@ -1,7 +1,7 @@
 ---
 title: "SOUCASNA A CESKA FILOSOFIE"
 order: 22
-source: "MATURITA HADR/Společenské vědy/22. SOUCASNA A CESKA FILOSOFIE.docx"
+source: "Společenské vědy/22. SOUCASNA A CESKA FILOSOFIE.docx"
 ---
 __FILOZOFIE 20\. STOLETÍ__
 

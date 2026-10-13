@@ -1,7 +1,7 @@
 ---
 title: "Pojišťovnictví"
 order: 9
-source: "MATURITA HADR/Ekonomie/9. Pojišťovnictví.docx"
+source: "Ekonomie/9. Pojišťovnictví.docx"
 ---
 9\. Pojišťovnictví
 

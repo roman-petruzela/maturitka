@@ -1,7 +1,7 @@
 ---
 title: "Úvěrové bankovní obchody"
 order: 9
-source: "MATURITA HADR/Ekonomika/9. Úvěrové bankovní obchody.docx"
+source: "Ekonomika/9. Úvěrové bankovní obchody.docx"
 ---
 - obchody s dočasně volnými peněžními prostředky
 

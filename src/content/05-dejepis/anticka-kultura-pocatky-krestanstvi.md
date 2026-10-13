@@ -1,7 +1,7 @@
 ---
 title: "Antická kultura, počátky křesťanství"
 order: 4
-source: "MATURITA HADR/Dějepis/04.antická kultura, počátky křesťanství.doc"
+source: "Dějepis/04.antická kultura, počátky křesťanství.doc"
 ---
 4\.
 

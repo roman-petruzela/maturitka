@@ -1,5 +1,5 @@
 ---
 title: "25) Meine Lektüre"
-source: "MATURITA HADR/Němčina/25) Meine Lektüre.pdf"
+source: "Němčina/25) Meine Lektüre.pdf"
 ---
 

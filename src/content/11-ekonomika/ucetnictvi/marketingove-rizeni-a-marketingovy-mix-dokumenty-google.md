@@ -1,7 +1,7 @@
 ---
 title: "Marketingové řízení a marketingový mix Dokumenty Google"
 order: 23
-source: "MATURITA HADR/Účetnictví/23. Marketingové řízení a marketingový mix - Dokumenty Google.pdf"
+source: "Účetnictví/23. Marketingové řízení a marketingový mix - Dokumenty Google.pdf"
 ---
 # **Marketingové  řízení**
 

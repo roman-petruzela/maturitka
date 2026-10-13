@@ -1,7 +1,7 @@
 ---
 title: "Databáze I – teorie"
 order: 1
-source: "MATURITA HADR/IT/DAT_I.pdf"
+source: "IT/DAT_I.pdf"
 ---
 Teorie
 

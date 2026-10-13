@@ -1,7 +1,7 @@
 ---
 title: "Bohumil Hrabal - Ostře sledované vlaky"
 order: 8
-source: "MATURITA HADR/ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Bohumil Hrabal - Ostře sledované vlaky/Bohumil Hrabal - Ostře sledované vlaky (1)/Ostře sledované vlaky.docx"
+source: "ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Bohumil Hrabal - Ostře sledované vlaky/Bohumil Hrabal - Ostře sledované vlaky (1)/Ostře sledované vlaky.docx"
 ---
 __Autor__
 

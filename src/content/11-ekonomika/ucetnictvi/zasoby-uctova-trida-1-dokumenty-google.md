@@ -1,7 +1,7 @@
 ---
 title: "Zásoby (účtová třída 1) Dokumenty Google"
 order: 3
-source: "MATURITA HADR/Účetnictví/3. Zásoby (účtová třída 1) - Dokumenty Google.pdf"
+source: "Účetnictví/3. Zásoby (účtová třída 1) - Dokumenty Google.pdf"
 ---
 - zásoby  jsou  oběžným  majetkem  účetní  jednotky,  ve  výrobním  procesu  mění  svoji  podobu
 

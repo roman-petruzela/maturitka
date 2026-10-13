@@ -1,7 +1,7 @@
 ---
 title: "Socialni a zdravotni"
 order: 5
-source: "MATURITA HADR/Ekonomika/5. Socialni a zdravotni.docx"
+source: "Ekonomika/5. Socialni a zdravotni.docx"
 ---
 __Nekomerční__ __pojištění__ = ZP, SP, Důchodové připojištění \(dobrovoné,sprravují ho různé penzijní fondy, vyplácí se naspořená částka a státní příspěvek\)
 

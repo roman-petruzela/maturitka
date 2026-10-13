@@ -1,7 +1,7 @@
 ---
 title: "Daňová soustava ČR přímé daně"
 order: 1
-source: "MATURITA HADR/Ekonomie/1. Daňová soustava ČR - přímé daně.docx"
+source: "Ekonomie/1. Daňová soustava ČR - přímé daně.docx"
 ---
 1\. Daňová soustava ČR – přímé daně
 

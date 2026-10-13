@@ -1,7 +1,7 @@
 ---
 title: "Ochrana lidských práv"
 order: 6
-source: "MATURITA HADR/Právo/6. Ochrana lidských práv/6_ochrana_lidskych_prav.odt"
+source: "Právo/6. Ochrana lidských práv/6_ochrana_lidskych_prav.odt"
 ---
 1. __6\. Ochrana lidských práv, ochrana osobních údajů__
 

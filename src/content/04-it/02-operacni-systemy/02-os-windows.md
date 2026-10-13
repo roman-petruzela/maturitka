@@ -1,7 +1,7 @@
 ---
 title: "OS Windows"
 order: 2
-source: "MATURITA HADR/IT/3. OS Windows.docx"
+source: "IT/3. OS Windows.docx"
 ---
 - Operační systém = základní softwarové vybavení počítače, které je nahráno do paměti počítače při jeho startu a zůstává v činnosti až do jeho vypnutí nebo odpojení od zdroje napájení
 - Standardně se skládá z jádra \(kernel\) a pomocných systémových nástrojů, které se liší verzí a výrobcem operačního systému

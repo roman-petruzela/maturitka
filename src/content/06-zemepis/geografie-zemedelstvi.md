@@ -1,7 +1,7 @@
 ---
 title: "GEOGRAFIE ZEMĚDĚLSTVÍ"
 order: 8
-source: "MATURITA HADR/Zeměpis/Zeměpis GLP/8. GEOGRAFIE ZEMĚDĚLSTVÍ.docx"
+source: "Zeměpis/Zeměpis GLP/8. GEOGRAFIE ZEMĚDĚLSTVÍ.docx"
 ---
 ## 8\. Geografie zemědělství \- primární sektor
 

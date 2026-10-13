@@ -1,7 +1,7 @@
 ---
 title: "Živnostenské oprávnění"
 order: 27
-source: "MATURITA HADR/Ekonomie/27. Živnostenské oprávnění.docx"
+source: "Ekonomie/27. Živnostenské oprávnění.docx"
 ---
 __Živnostenské podnikání__
 

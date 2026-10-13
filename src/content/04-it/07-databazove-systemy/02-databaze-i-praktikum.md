@@ -1,7 +1,7 @@
 ---
 title: "Databáze I – praktikum"
 order: 2
-source: "MATURITA HADR/IT/DAT_I-praktikum.pdf"
+source: "IT/DAT_I-praktikum.pdf"
 ---
 ## Praktikum
 

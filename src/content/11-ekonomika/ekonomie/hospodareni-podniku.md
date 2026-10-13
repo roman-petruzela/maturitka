@@ -1,7 +1,7 @@
 ---
 title: "Hospodaření podniku"
 order: 24
-source: "MATURITA HADR/Ekonomie/24-Hospodaření-podniku.docx"
+source: "Ekonomie/24-Hospodaření-podniku.docx"
 ---
 24\. Hospodaření podniku
 

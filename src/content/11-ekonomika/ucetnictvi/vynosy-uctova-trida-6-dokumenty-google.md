@@ -1,7 +1,7 @@
 ---
 title: "Výnosy (účtová třída 6) Dokumenty Google"
 order: 8
-source: "MATURITA HADR/Účetnictví/8. Výnosy (účtová třída 6) - Dokumenty Google.pdf"
+source: "Účetnictví/8. Výnosy (účtová třída 6) - Dokumenty Google.pdf"
 ---
 - Výsledkem  výrobních  a  jiných  činností  firem  jsou  jejich  realizované  výkony,  k  nimž patří  výrobky,  práce  a  služby  dodávané  a  poskytované  spotřebitelům.
 

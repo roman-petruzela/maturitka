@@ -1,7 +1,7 @@
 ---
 title: "Latinská a Jižní Amerika"
 order: 13
-source: "MATURITA HADR/Zeměpis/Zeměpis GLP/13. Latinská a Jižní Amerika.docx"
+source: "Zeměpis/Zeměpis GLP/13. Latinská a Jižní Amerika.docx"
 ---
 # __Latinská a Jižní Amerika__
 

@@ -1,7 +1,7 @@
 ---
 title: "Družstvo"
 order: 7
-source: "MATURITA HADR/Ekonomika/7. Družstvo.docx"
+source: "Ekonomika/7. Družstvo.docx"
 ---
 - společenství neuzavřeného počtu osob, které slouží k vzájemné podpoře svých členů nebo třetích osob, případně za účelem podnikání; __alespoň 3 členy__ a v názvu slovo družstvo
 

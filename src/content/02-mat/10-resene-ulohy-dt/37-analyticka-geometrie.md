@@ -1,7 +1,7 @@
 ---
 title: "Analytická geometrie"
 order: 37
-source: "MATURITA HADR/Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/37) Analytická geometrie.pdf"
+source: "Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/37) Analytická geometrie.pdf"
 hasExercises: true
 ---
 
@@ -419,4 +419,4 @@ E) $2x-y=0$
 
 ## Zdroje
 
-MATURITA HADR / Matematika / řešené postupy matematických okruhů z DT 2010–2017, dokument *37) Analytická geometrie.pdf*.
+Matematika / řešené postupy matematických okruhů z DT 2010–2017, dokument *37) Analytická geometrie.pdf*.

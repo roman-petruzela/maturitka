@@ -1,7 +1,7 @@
 ---
 title: "Jaroslav Seifert - Maminka"
 order: 93
-source: "MATURITA 2023 (ČÍP)/cj/12 maminka/17 Maminka.docx"
+source: "cj/12 maminka/17 Maminka.docx"
 ---
 **Informace o díle**
 

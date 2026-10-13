@@ -1,7 +1,7 @@
 ---
 title: "Trestní právo procesní"
 order: 23
-source: "MATURITA HADR/Právo/23. Trestní právo procesní/23_trestni_pravo_procesni.docx"
+source: "Právo/23. Trestní právo procesní/23_trestni_pravo_procesni.docx"
 ---
 # __23\. Trestní právo procesní__
 

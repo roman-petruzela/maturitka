@@ -1,6 +1,6 @@
 ---
 title: "50 Jaderná fyzika II"
-source: "MATURITA HADR/FYZIKA-maturitní otázky/50 Jaderná fyzika II.docx"
+source: "FYZIKA-maturitní otázky/50 Jaderná fyzika II.docx"
 ---
 Zákony zachování při jaderných reakcích
 

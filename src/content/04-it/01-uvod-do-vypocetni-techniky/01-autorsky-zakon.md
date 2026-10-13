@@ -1,7 +1,7 @@
 ---
 title: "Autorský zákon"
 order: 1
-source: "MATURITA HADR/IT/4. Autorský zákon.docx"
+source: "IT/4. Autorský zákon.docx"
 ---
 - je zkrácený název zákona 121/2000 Sb\., o právu autorském a právem s ním souvisejícím; nabyl účinnosti 1\. prosince 2000
 - řeší autorské právo a právní problémy s ním související

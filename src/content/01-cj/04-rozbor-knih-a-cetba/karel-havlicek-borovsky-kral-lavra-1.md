@@ -1,7 +1,7 @@
 ---
 title: "Karel Havlíček Borovský - Král Lávra (1)"
 order: 52
-source: "MATURITA HADR/ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Karel Havlíček Borovský - Král Lávra (1)/Král Lávra.docx"
+source: "ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Karel Havlíček Borovský - Král Lávra (1)/Král Lávra.docx"
 tags: ["mimo-seznam-cetby"]
 ---
 __Autor:__              \-Karel Havlíček Borovský

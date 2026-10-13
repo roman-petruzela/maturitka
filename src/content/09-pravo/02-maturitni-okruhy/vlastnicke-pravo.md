@@ -1,7 +1,7 @@
 ---
 title: "Vlastnické právo"
 order: 8
-source: "MATURITA HADR/Právo/8. Vlastnické právo/8_vlastnicke_pravo.docx"
+source: "Právo/8. Vlastnické právo/8_vlastnicke_pravo.docx"
 ---
 # __8\. Vlastnické právo__
 

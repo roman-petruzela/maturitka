@@ -1,7 +1,7 @@
 ---
 title: "Managment"
 order: 30
-source: "MATURITA HADR/Ekonomie/30. managment.docx"
+source: "Ekonomie/30. managment.docx"
 ---
 __Management, funkce manažera__
 

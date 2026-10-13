@@ -1,7 +1,7 @@
 ---
 title: "Carlo Goldoni - Sluha Dvou Pánu"
 order: 13
-source: "MATURITA HADR/ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Carlo Goldoni - Sluha Dvou Pánu/2.Sluha dvou pánů.docx"
+source: "ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Carlo Goldoni - Sluha Dvou Pánu/2.Sluha dvou pánů.docx"
 ---
 __Carlo Goldoni__ \(1707 – 1793\) byl italský dramatik, právník a učitel\. Autor několika desítek komedií\. Působil hlavně ve Francii, své díla však psal pro italské divadlo, do Itálie je rovněž posílal\. Stal se mimo jiné i vychovatelem královských dcer v Paříži\. Z tohoto postu mu náležela penze, která mu však byla odebrána\. Na popud jeho přátel mu měla být vrácena, on však jen pár dní před tímto aktem ve své chudobě umírá\.
 __Klasicismus__ viz\. Lakomec

@@ -1,7 +1,7 @@
 ---
 title: "PREDSOKRATOVSKA FILOSOFIE"
 order: 16
-source: "MATURITA HADR/Společenské vědy/16. PREDSOKRATOVSKA FILOSOFIE.docx"
+source: "Společenské vědy/16. PREDSOKRATOVSKA FILOSOFIE.docx"
 ---
 __FILOSOFIE__
 \- nemá jednoznačnou definici;  z řeckých slov filein = milovat \+ sofia = moudrost = láska k moudrosti

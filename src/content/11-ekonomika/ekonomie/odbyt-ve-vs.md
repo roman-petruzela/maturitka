@@ -1,7 +1,7 @@
 ---
 title: "Odbyt ve VS"
 order: 10
-source: "MATURITA HADR/Ekonomie/10-Odbyt-ve-VS.docx"
+source: "Ekonomie/10-Odbyt-ve-VS.docx"
 ---
 10\. Odbyt ve VS
 

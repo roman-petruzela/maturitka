@@ -1,7 +1,7 @@
 ---
 title: "Odmocniny"
 order: 4
-source: "MATURITA HADR/Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/4) Odmocniny.pdf"
+source: "Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/4) Odmocniny.pdf"
 hasExercises: true
 ---
 
@@ -68,4 +68,4 @@ b) $\sqrt{25y^{16}}$
 
 ## Zdroje
 
-MATURITA HADR / Matematika / řešené postupy matematických okruhů z DT 2010–2017, dokument *4) Odmocniny.pdf*.
+Matematika / řešené postupy matematických okruhů z DT 2010–2017, dokument *4) Odmocniny.pdf*.

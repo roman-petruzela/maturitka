@@ -1,7 +1,7 @@
 ---
 title: "Právní úprava účetnictví"
 order: 1
-source: "MATURITA HADR/Účetnictví/1. Právní úprava účetnictví.docx"
+source: "Účetnictví/1. Právní úprava účetnictví.docx"
 ---
 1\. Právní úprava účetnictví
 

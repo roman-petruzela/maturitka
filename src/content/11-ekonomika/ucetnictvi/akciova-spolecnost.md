@@ -1,7 +1,7 @@
 ---
 title: "Akciová společnost"
 order: 23
-source: "MATURITA HADR/Účetnictví/23. Akciová společnost.docx"
+source: "Účetnictví/23. Akciová společnost.docx"
 ---
 23\. Akciová společnost
 

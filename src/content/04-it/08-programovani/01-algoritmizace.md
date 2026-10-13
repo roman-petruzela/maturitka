@@ -1,7 +1,7 @@
 ---
 title: "Algoritmizace"
 order: 1
-source: "MATURITA HADR/IT/1. Algoritmizace.docx"
+source: "IT/1. Algoritmizace.docx"
 ---
 - sekvence jednoduchých kroků, kdy v každém kroku víme, který krok bude následovat nebo bude končit, navíc je po konečném počtu kroků získán výsledek
 - algoritmus musí být:
