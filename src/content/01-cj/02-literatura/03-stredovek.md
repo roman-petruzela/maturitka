@@ -1,10 +1,32 @@
 ---
 title: "Středověk (evropský a český)"
 order: 3
-tags: ["doplněno"]
+source: "Prezentace Středověká literatura (archiv literatury), doplněno o české písemnictví"
 ---
 
 Středověká literatura (5.–15. století) se ještě dlouho šíří především mluveným slovem — přednáší se, zpívá nebo předčítá nahlas, protože gramotnost je vzácná a knihy (ručně psané na pergamenu) drahé. Zpočátku se píše výhradně latinsky, jazykem vzdělanců a církve, teprve postupně se prosazují národní jazyky. Literatura se dělí na **duchovní** (modlitby, žalmy, hymny, legendy o svatých, biblické hry) a **světskou** (dvorská a milostná lyrika, hrdinské a rytířské eposy, cestopisy, kroniky, frašky).
+
+## Vymezení a společnost
+
+- **Doba:** od konce 5. do konce 15. století — tradičně od **zániku Západořímské říše (476)** do **objevení Ameriky (1492)**; středověk končí s příchodem renesance.
+- **Klíčové pojmy:** stěhování národů, feudalismus, trojí lid, církev, latina, vznik národních literatur.
+- **Víra a církev:** Hlavním náboženstvím a ideologií bylo **křesťanství**, které ovlivňovalo myšlení i morálku. **Církev** měla dominantní postavení a velkou moc (inkvizice, pronásledování kacířů, upalování kacířů a "čarodějnic"); hlavním textem byla **Bible**. Ve světě stěhování národů, epidemií moru, křížových výprav a válek hledali lidé jistotu a naději v Bohu.
+- **Trojí lid:** Společnost se dělila na tři stavy — **panský** (panovník a šlechta; úkolem je vládnout a bojovat), **duchovní** (pečovat o lidskou duši) a **poddanský** (pracovat; asi 90 % populace, držené v chudobě a nevzdělanosti). Příslušnost ke stavu byla podle tehdejšího názoru předurčena Bohem a nedala se změnit.
+- **Pozemský a posmrtný život:** Pozemský život byl chápán jako trest za prvotní hřích Adama a Evy a jako příprava na život věčný. Křesťany po smrti čekal očistec a návrat do ráje, k věčné blaženosti, nekřesťany a kacíře pád do pekla — věčné zatracení.
+
+| | Antika | Středověk |
+| --- | --- | --- |
+| společnost | otrokářství | feudalismus |
+| středem zájmu je | člověk | Bůh |
+| důraz na | rozum | cit, víru |
+| důležitější je | pozemský život | posmrtný život |
+
+## Umění a literatura ve středověku
+
+- **Funkce literatury:** 1. **poučit**, 2. **vychovávat**, 3. **bavit**.
+- **Pojetí krásy:** Základem krásy je Bůh a umění je odleskem boží krásy, napodobením dokonalého. Umění je **řemeslo sloužící Bohu** a jeho chvále; umělec je jen řemeslník, sám nedůležitý a nedokonalý — proto jsou díla často **anonymní**.
+- **Jazyk:** Hlavním jazykem byla **latina**, kterou znali jen příslušníci církve (kněží, mniši), protože školy a knihovny byly jen při klášterech. Od **12. století** se rozvíjejí **národní jazyky** (čeština, němčina, francouzština…) a literatura v nich. Většina lidí neuměla číst a psát, a tak se literatura šířila hlavně ústně (písně).
+- **Dva proudy:** **církevní (křesťanská) literatura** — latinsky, pro vzdělance (legendy, modlitby, kázání), a **světská (lidová) literatura** — v národních jazycích (hrdinské eposy, rytířské romány, satira).
 
 ## Myšlenkový základ a žánry středověku
 
@@ -16,20 +38,22 @@ Středověká literatura (5.–15. století) se ještě dlouho šíří předev�
 
 ## Evropská středověká literatura
 
+**Hrdinský epos** je rozsáhlé vyprávění o odvážném a čestném bojovníkovi. Každá země má svůj:
+
+| Epos | Země |
+| --- | --- |
+| Beowulf | Anglie |
+| Píseň o Rolandovi | Francie |
+| Píseň o Cidovi | Španělsko |
+| Píseň o Nibelunzích | Německo |
+| Slovo o pluku Igorově | Rusko |
+
 - **Píseň o Rolandovi** (Francie, kolem 12. stol., autor neznámý):
   - **Charakteristika:** Nejznámější francouzský hrdinský epos.
   - **Děj:** Výprava Karla Velikého proti maurským (muslimským) vládcům ve Španělsku; kvůli zradě je zadní voj francouzského vojska pod velením hraběte Rolanda přepaden v Roncevalském průsmyku. Roland ve své hrdosti odmítá zatroubit na roh a přivolat pomoc, dokud není pozdě.
   - **Téma:** Bitva a Rolandova smrt jsou vylíčeny jako vrchol rytířské cti a věrnosti, i když stojí životy celého voje.
 
-### Dante Alighieri
-- **Charakteristika:** (13.–14. stol., Florencie) Autor **Božské komedie**.
-- **Božská komedie:**
-  - **Děj:** Rozsáhlá veršovaná alegorická báseň, ve které autor sám jako poutník prochází peklem, očistcem a rájem (peklem a očistcem ho provází římský básník Vergilius, rájem jeho milovaná Beatrice).
-  - **Význam:** Jeden ze základních kamenů italské (a evropské) literatury — poprvé ve velkém stylu píše vážné téma v živém, ne latinském jazyce (toskánském nářečí, ze kterého se vyvinula moderní italština).
-
-### Francesco Petrarca
-- **Charakteristika:** (14. stol., Itálie) Považován za zakladatele evropské sonetové milostné lyriky; stojí na pomezí středověku a renesance — formálně ještě navazuje na dvorskou lyriku, obsahově už ale klade důraz na individuální prožívání citu jednotlivce, což je typicky renesanční rys.
-- **Sonety Lauře:** Opěvuje idealizovanou, nedosažitelnou lásku k ženě jménem Laura.
+Na pomezí středověku a renesance stojí Italové **Dante Alighieri** (*Božská komedie*) a **Francesco Petrarca** (*Sonety Lauře*) — časově patří do středověku, myšlením už do renesance, a proto jsou podrobně popsáni v kapitole [Renesance a humanismus](/cj/literatura/04-renesance-a-humanismus/).
 
 ## České písemnictví raného středověku
 
@@ -70,6 +94,8 @@ Po Husově smrti vzniká v husitských Čechách 15. století bojová a satirick
 
 ## Cvičení
 
+- Popiš středověkou společnost (trojí lid) a vysvětli, proč nebylo možné změnit stav, do kterého se člověk narodil.
+- Porovnej antiku a středověk v tabulce (společnost, středem zájmu, rozum × cit, pozemský × posmrtný život).
 - Vysvětli pojem teocentrismus a ukaž na jednom díle z této kapitoly, jak se projevuje.
 - Vysvětli, proč se ve středověku dlouho nerozlišovalo mezi "historickou pravdou" a "pověstí" tak přísně jako dnes — dokresli na příkladu Kosmovy kroniky.
 - Porovnej Píseň o Rolandovi (hrdinský epos) s Mastičkářem (satirická fraška) — jak se v obou projevuje odlišný účel a publikum?

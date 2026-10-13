@@ -17,7 +17,7 @@ Tohle je přesný seznam z **Části C oficiálního Katalogu požadavků Cermat
 - [Preromantismus a romantismus](/cj/literatura/06-klasicismus-osvicenstvi-a-preromantismus/) (preromantismus) a [Světový romantismus](/cj/literatura/08-svetovy-romantismus/) / [Národní obrození](/cj/literatura/07-narodni-obrozeni/) (český romantismus)
 - [Realismus a naturalismus](/cj/literatura/09-realismus-a-naturalismus/)
 - [Literární moderna](/cj/literatura/11-literarni-moderna-a-generace-buricu/) (symbolismus, impresionismus, dekadence)
-- Modernismus a avantgarda — [Světová meziválečná literatura a avantgarda](/cj/literatura/12-svetova-mezivalecna-literatura/) (expresionismus, dadaismus, futurismus, surrealismus) a [Česká meziválečná avantgarda](/cj/literatura/13-ceska-mezivalecna-avantgarda-a-proza/) (poetismus)
+- Modernismus a avantgarda — [Světová literatura 1. poloviny 20. století](/cj/literatura/12-svetova-mezivalecna-literatura/) (expresionismus, dadaismus, futurismus, surrealismus) a [Česká meziválečná avantgarda](/cj/literatura/13-ceska-mezivalecna-avantgarda-a-proza/) (poetismus)
 - [Existencialismus](/cj/literatura/14-existencialismus-a-absurdni-drama/)
 - [Socialistický realismus](/cj/literatura/16-poval-ceska-literatura-a-skupina-42/)
 - [Magický realismus](/cj/literatura/15-svetova-literatura-2-poloviny-20-stoleti/)

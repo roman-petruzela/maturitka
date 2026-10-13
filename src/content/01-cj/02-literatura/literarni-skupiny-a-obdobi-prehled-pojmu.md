@@ -1,7 +1,7 @@
 ---
 title: "Přehled literárních období a směrů (rozcestník)"
 order: -1
-source: "MATURITA HADR/ČESKÝ JAZYK - VŠE/Literární skupiny a období/lit skupiny, období _pojmyMZ2020.docx"
+source: "ČESKÝ JAZYK - VŠE/Literární skupiny a období/lit skupiny, období _pojmyMZ2020.docx"
 ---
 
 Kompletní chronologický přehled literárních období, směrů, hnutí a skupin — podle stejné struktury, jakou používá Katalog požadavků k maturitní zkoušce z ČJL (Cermat, Část C): chronologicky, se samostatným rozlišením světové a české literatury tam, kde to dává smysl. Každé období má vlastní materiál s podrobnější charakteristikou směru a rozvedenými medailonky autorů (život, kontext, díla) i odkazy na dostupné rozbory knih.
@@ -24,7 +24,7 @@ Období jdou shora dolů od nejstaršího po nejmladší. Název období je odka
     {"name": "Realismus a naturalismus", "href": "/cj/literatura/09-realismus-a-naturalismus/", "dates": "2. polovina 19. století", "works": ["Balzac", "Hugo", "Flaubert", "Maupassant", "Dostojevskij", "Tolstoj", "Zola", "Ibsen"]},
     {"name": "Májovci, ruchovci a lumírovci", "href": "/cj/literatura/10-majovci-ruchovci-lumirovci/", "dates": "60.–80. léta 19. století", "works": ["Neruda", "Arbes", "Vrchlický", "Sládek", "Čech", "Jirásek", "Mrštík"]},
     {"name": "Literární moderna, Česká moderna a generace buřičů", "href": "/cj/literatura/11-literarni-moderna-a-generace-buricu/", "dates": "přelom 19. a 20. století", "works": ["Baudelaire", "Rimbaud", "Wilde", "Sova", "Březina", "Dyk", "Bezruč"]},
-    {"name": "Světová meziválečná literatura a avantgarda", "href": "/cj/literatura/12-svetova-mezivalecna-literatura/", "dates": "1918–1939", "works": ["Kafka", "Joyce", "Mann", "ztracená generace (Hemingway, Remarque, Steinbeck)", "Orwell", "Saint-Exupéry"]},
+    {"name": "Světová literatura 1. poloviny 20. století", "href": "/cj/literatura/12-svetova-mezivalecna-literatura/", "dates": "1918–1939", "works": ["Kafka", "Joyce", "Mann", "ztracená generace (Hemingway, Remarque, Steinbeck)", "Orwell", "Saint-Exupéry"]},
     {"name": "Česká meziválečná avantgarda, próza a drama", "href": "/cj/literatura/13-ceska-mezivalecna-avantgarda-a-proza/", "dates": "1918–1939", "works": ["Devětsil", "poetismus (Nezval, Seifert)", "Hašek", "Čapek", "Poláček"]},
     {"name": "Existencialismus a absurdní drama", "href": "/cj/literatura/14-existencialismus-a-absurdni-drama/", "dates": ["existencialismus od 20. let 20. stol.", "absurdní drama 50.–60. léta 20. stol."], "works": ["Camus", "Sartre", "Beckett", "Dürrenmatt"]},
     {"name": "Světová literatura 2. poloviny 20. a 21. století", "href": "/cj/literatura/15-svetova-literatura-2-poloviny-20-stoleti/", "dates": "po roce 1945 – dosud", "works": ["Solženicyn", "García Márquez", "Eco", "Kundera", "Nabokov", "současná populární próza"]},
