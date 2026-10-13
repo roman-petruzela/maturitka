@@ -1,13 +1,38 @@
 ---
 title: "Základní příkazy Cisco IOS pro správu směrovačů a přepínačů"
-order: 14
+order: 21
 source: "IT/RTR_CMD-2-CZ-_29_.pdf"
 ---
-Josef Kaderka
+Přehled nejpoužívanějších příkazů operačního systému Cisco IOS pro směrovače a přepínače (příkazová karta, verze 28, inspirováno materiály Boson). Nejdřív je stručně vysvětleno, jak IOS pracuje s pamětmi a konfigurací, pak následují tabulky příkazů. Praktický postup na cvičné topologii ukazuje stránka [Cisco Packet Tracer](/it/pocitacove-site/22-cisco-packet-tracer/).
 
-Verse 28
+## Cisco IOS, paměti a start zařízení
 
-Inspirace Boson
+- **Cisco IOS** (Internetwork Operating System) je operační systém většiny směrovačů a přepínačů Cisco. Celý je uložen v jednom souboru s příponou `.bin` (verze s webovým rozhraním jako `.tar` s adresářem HTML). Ovládá se z příkazové řádky (**CLI**).
+- Funkce závisí na **licenci a verzi** IOS: přepínač 2. vrstvy má jen verzi LAN Base, přepínač 3. vrstvy i IP Base; vyšší verze vždy obsahuje vše z nižší. Existují verze se šifrováním (SSH) a bez něj.
+- Zařízení Cisco používají čtyři druhy pamětí:
+
+|Paměť|Vlastnosti|Obsah|
+|---|---|---|
+|**ROM**|jen pro čtení, nezávislá na napájení|**POST** (test hardwaru po zapnutí), **bootstrap** (zavaděč IOS), **ROM monitor** (diagnostický režim pro řešení problémů), u starších zařízení **RxBoot** (omezený IOS pro instalaci správného obrazu)|
+|**Flash**|zapisovatelná, nezávislá na napájení|obraz (image) IOS, i více verzí; u přepínačů `vlan.dat` s databází VLAN a `config.text`; výpis `show flash:`, `dir flash:`|
+|**NVRAM**|zapisovatelná, nezávislá na napájení|**startup-config** – konfigurace použitá při startu|
+|**RAM**|rychlá, po vypnutí se vymaže|běžící IOS, **running-config**, směrovací a ARP tabulky, vyrovnávací paměť paketů; výpis `show memory`|
+
+**Start zařízení:**
+
+1. Po zapnutí proběhne z ROM test **POST** a spustí se **bootstrap**.
+2. Bootstrap najde obraz IOS (standardně ve Flash) a zavede ho do RAM; když platný IOS nenajde, spustí ROM monitor.
+3. IOS načte **startup-config** z NVRAM a provede jeho příkazy (jako by je někdo zadal ručně) – vznikne running-config. Když startup-config neexistuje, nabídne průvodce úvodním nastavením (setup, express setup).
+
+Každý zadaný konfigurační příkaz platí **okamžitě**, ale ukládá se jen do **running-config** v RAM. Po restartu se zařízení vrátí do stavu startup-config – zachránit konfiguraci po nevratné chybě tedy lze restartem bez uložení. Změny, které mají restart přežít, je nutné uložit příkazem **copy running-config startup-config**.
+
+**Práce v CLI:** k zařízení se připojíme **konzolovým** (sériovým) kabelem z programu PuTTY či jiného terminálu, po základní konfiguraci i vzdáleně přes **Telnet** nebo bezpečněji **SSH**. Příkazy lze zkracovat na jednoznačný začátek (`sh run`), **Tab** příkaz doplní, **?** vypíše možné příkazy s popisem, šipky procházejí historii; dlouhý výpis se stránkuje mezerníkem (stránka) a Enterem (řádek). `exit` vrací o úroveň zpět, **Ctrl+Z** nebo `end` rovnou do privilegovaného režimu.
+
+**Značení přepínačů Catalyst**, např. **C3750G-24PS**: C = Catalyst, 3750 = modelová řada, G = gigabitové porty, 24 = počet portů, PS = porty s napájením PoE. Další přípony: TT = uplinky RJ-45, TC = uplinky SFP, FS = všechny porty optické, S = všechny porty SFP.
+
+**Záloha a obnova**: obraz IOS i konfigurace se zálohují a obnovují přes **TFTP** server (`copy running-config tftp`, `copy flash: tftp`). Při zapomenutém hesle je potřeba fyzický přístup: zařízení se nastartuje bez načtení startup-config (u přepínače podržením tlačítka MODE při zapnutí, u směrovače změnou konfiguračního registru v ROM monitoru), v privilegovaném režimu bez hesla se původní konfigurace zkopíruje do běžící, nastaví se nové heslo a konfigurace se uloží.
+
+## Přehled příkazů
 
 Příkazy jsou uváděny v základním tvaru, bez kontextu (tj. aktuálního módu), předpokládá se jeho znalost nebo vypěstování Cisco IOS intuice. Například je uveden příkaz pro přiřazení IP adresy rozhraní **ip address {adr} {sm} .** Pro jeho zadání je ale nutno napřed přejít do privilegovaného módu (příkaz **enable** ), pak do globálního konfiguračního módu (příkaz **configure terminal** ) a pak do specifického konfiguračního módu (příkaz **interface** **_{int}_** ).
 
@@ -313,7 +338,7 @@ Příkazy jsou uváděny v základním tvaru, bez kontextu (tj. aktuálního mó
 |**Konfigurace rozhraní pro připojení stanice**||
 |---|---|
 |Volba rozhraní|**interface gigabit 0/1**|
-|Tatáž operace nad více rozhraními (jen u novějších přepínačů); syntax<br>vyžaduje uvedení mezer kolem pomlčky!|**interface range fastethernet 0/1 – 12**|
+|Tatáž operace nad více rozhraními (jen u novějších přepínačů); syntax<br>vyžaduje uvedení mezer kolem pomlčky!|**interface range fastethernet 0/1 - 12**|
 |Volba plného duplexu|**duplex full**|
 |Volba rychlosti 100 Mb/s|**speed 100**|
 |K rozhraní bude připojena výhradně stanice|**switchport mode access**|
@@ -385,7 +410,7 @@ Příkazy jsou uváděny v základním tvaru, bez kontextu (tj. aktuálního mó
 
 |**Sdružení několika rozhraní do jediného o kumulované rychlosti (Etherchannel)**||
 |---|---|
-|Volba rozhraní (všechna musí být nastavena stejně; tj<br>nebo access)a skupiny|. v režimu trunk<br>**interface range FastEthernet0/1 - 4**<br>**channel-group 1 mode auto**|
+|Volba rozhraní (všechna musí být nastavena stejně, tj. v režimu trunk<br>nebo access) a skupiny|**interface range FastEthernet0/1 - 4**<br>**channel-group 1 mode auto**|
 |**Monitorování provozu jednoho či více rozhraní či VLAN jiným rozhraním (SPAN - Switched Port Analyzer)**||
 |Volba zdroje provozu (všechna rozhraní musí být<br>nastavena stejně)|**monitor session 1 source interface FastEthernet0/1**<br>**monitor session 1 source interface FastEthernet0/2** |
 |Zde se bude provoz monitorovat|**monitor session 1 destination interface gigabitEthernet0/1**|

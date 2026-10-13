@@ -26,7 +26,7 @@ GIMP, Blender, vektorová i rastrová grafika — 37 témat, nejobsáhlejší ka
 
 ## [Počítačové sítě](/it/#pocitacove-site) (3. ročník) ✓
 
-Definice a dělení sítí, síťové prvky, model ISO/OSI a TCP/IP, adresování IPv4/IPv6, příkazy Cisco IOS — 16 témat.
+Dělení sítí a topologie, standardizace a model ISO/OSI a TCP/IP, protokoly, signály a přenosový kanál, kabeláž a síťové prvky, Ethernet, přepínání a VLAN, Wi-Fi, IPv4 (datagram, adresování, CIDR a VLSM, NAT), IPv6, směrování, DNS, WAN, technická dokumentace, bezpečnost a diagnostika, Cisco IOS a Packet Tracer — 22 témat s řešenými příklady a otázkami k opakování.
 
 ## [Elektronické publikování](/it/#elektronicke-publikovani) — částečně
 

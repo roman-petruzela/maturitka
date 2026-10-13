@@ -3,86 +3,97 @@ title: "Internet"
 order: 4
 source: "IT/13. Internet.docx"
 ---
-- Celosvětová počítačová síť WAN – propojení LAN, MAN a vzniká v roce 1969
-- První síť se jmenovala ARPANET sloužila pro vojenské účely, ale časem se napojovaly i civilní instituce
-- Propojení různých počítačů, které mohli předávat data dál
-- Hypertext = odkaz na jiný dokument či soubor na webu
-- Autor http Tim Berners\-Lee
 
-Technologie dálkových linek WAN
+## Vznik a vývoj Internetu
 
-- Dvoubodové spojení mezi různými pobočkami
-- Do centrálního místa se připojuje větší počet vzdálených uživatelů
-- Zařízení pracující ve WAN: routery \(3\. vrstva ISO/OSI\), modem, komunikační server
+- Internet je celosvětová počítačová síť typu WAN, která propojuje lokální a metropolitní sítě (LAN, MAN) – „síť sítí“.
+- Začátky sahají do roku **1969**, kdy vznikla síť **ARPANET**. Sloužila nejprve pro vojenské a výzkumné účely, časem se k ní připojovaly i civilní instituce, hlavně univerzity.
+- Myšlenkou bylo propojit různé počítače tak, aby si mohly předávat data dál, i když část sítě vypadne.
+- V roce 1983 přešel ARPANET na protokoly **TCP/IP**, na kterých Internet funguje dodnes; v roce 1984 vznikl systém doménových jmen DNS.
+- Československo se k Internetu připojilo v roce 1992.
 
-World Wide Web WWW
+## Technologie dálkových linek WAN
 
-- Vzniká v roce 1989 ve středisku CERN, kde se rozšířila do svět
-- Provoz založen na aplikačních protokolech
-- Umožňují pohyb informací z počítače na počítač
-- Používá protokoly TCP/IP
-	- Aplikační vrstva – převod dat pro koncovou aplikace
-	- Transportní vrstva
-	- Síťová vrstva – přenáší IP diagramy mezi počítači; nese adresu příjemce, dělí přenášená data na pakety
-	- Vrstva síťového rozhraní
+- Dvoubodové spojení mezi různými pobočkami firmy.
+- Připojení většího počtu vzdálených uživatelů do jednoho centrálního místa.
+- Zařízení pracující ve WAN: routery (3. vrstva ISO/OSI), modemy, komunikační servery.
+- Podrobněji viz [WAN technologie](/it/pocitacove-site/18-wan-technologie/).
 
-Internetová adresa – IPv4 \(32bit\)
+## World Wide Web (WWW)
 
-- 192\.168\.1\.13
-- Každý připojený počítač má přidělenu jednu IP adresu
-- DNS = převádí číselnou adresu na textovou, která se lépe pamatuje
-- Jméno počítače se skládá z domén oddělených tečkou
-	- Doména 1\. úrovně – určuje skupinu podle země nebo kategorie – je úplně vlevo \(cz\) \.cz
-	- Doména 2\. úrovně – určuje název organizace – apple\.com
-	- Doména 3\. úrovně – určuje název počítače v rámci organizace – chrome\.google\.com
+- WWW vznikl v roce **1989** ve středisku **CERN** u Ženevy, odkud se rozšířil do světa. Jeho autorem je **Tim Berners-Lee**, který navrhl i protokol HTTP a jazyk HTML.
+- **Hypertext** je text, který obsahuje odkazy na jiné dokumenty či soubory na webu.
+- Provoz WWW je založen na aplikačních protokolech, které umožňují přenášet informace z počítače na počítač.
+- Používá protokoly TCP/IP:
+	- aplikační vrstva – převod dat pro koncovou aplikaci (HTTP, HTTPS),
+	- transportní vrstva – TCP,
+	- síťová vrstva – přenáší IP datagramy mezi počítači, nese adresu příjemce,
+	- vrstva síťového rozhraní – Ethernet, Wi-Fi.
 
-Modem – \(**mo**dulátor\-**dem**odulátor\)
+## Internetová adresa a doménová jména
 
-- Převádí analogový signál na digitální a obráceně – rychlost => 56kb/s \(7kB/s\)
-- Připojení přes telefonní linku – nejhorší – pomalá
-- Připojení přes kabelovou televizi
-- Bezdrátové připojení \(mikrovlnné, satelitní, rádiové připojení\)
+- Každý počítač připojený k Internetu má přidělenou IP adresu, např. v IPv4 (32 bitů) `192.168.1.13`. Podrobně viz [IPv4 adresování](/it/pocitacove-site/12-ipv4-adresovani/).
+- **DNS** převádí doménová jména, která se lépe pamatují, na číselné IP adresy a naopak.
+- Doménové jméno se skládá z domén oddělených tečkami a čte se **zprava doleva**:
+	- doména 1. úrovně (TLD) – úplně **vpravo**; určuje zemi nebo kategorii: `.cz`, `.com`, `.org`,
+	- doména 2. úrovně – název organizace nebo služby: `google.com`, `apple.com`,
+	- doména 3. úrovně – konkrétní služba nebo počítač v rámci organizace: `chrome.google.com`.
+- Podrobněji viz [DNS – systém doménových jmen](/it/pocitacove-site/17-dns-system-domenovych-jmen/).
 
-Prohlížeč
+## Připojení k Internetu, modem
 
-- Zadáme internetovou adresu – název se převede na IP adresu pomocí DNS systému na kterou je pak prohlížeč přesměrován
-- Program sloužící pro prohlížení www stránek
-- Z dané lokace se pak načtou data, které jsou prohlížečem interpretovány jako webová stránka
-- Cache = skladiště souborů – urychluje načítání stránky – obrázky se nestahuje ze severu, ale načtou se z disku
-- Webové stránky se vytváří za pomocí jazyka HTML – říká, jak je daná stránky upravená
+- **Modem** (**mo**dulátor-**dem**odulátor) převádí digitální signál počítače na analogový signál vhodný pro vedení a zpět.
+- Připojení přes telefonní linku vytáčeným modemem bylo nejpomalejší – nejvýše 56 kb/s (asi 7 kB/s).
+- Dále připojení přes kabelovou televizi (kabelový modem), DSL po telefonní lince, optické připojení (FTTH).
+- Bezdrátové připojení – mikrovlnné, satelitní, rádiové (Wi-Fi), mobilní sítě (LTE, 5G).
 
-Elektronická pošta
+## Webový prohlížeč
 
-- Umožňuje zasílat zprávy téměř všem lidem na světě v krátkém okamžiku
-- Na zasílaní a přijímaní elektronické pošty je možné využít poštovního klienta \(MS Outlook, Gmail, Seznam, …\)
-- Pokud chceme vybrat poštu, klient se připojí k serveru, na který nám pošta chodí a zprávy stáhne do počítače, stejně funguje i naopak
+- Program sloužící k prohlížení webových stránek.
+- Zadáme internetovou adresu (URL); název serveru se pomocí DNS převede na IP adresu, ke které se prohlížeč připojí.
+- Z dané adresy se načtou data, která prohlížeč zobrazí jako webovou stránku.
+- **Cache** (mezipaměť) je úložiště souborů na disku – urychluje načítání stránky, protože např. obrázky se znovu nestahují ze serveru, ale načtou se z disku.
+- Webové stránky se tvoří jazykem **HTML**, který popisuje strukturu stránky; vzhled určuje CSS.
 
-Pojmy a protokoly
+## Elektronická pošta
 
-- ftp – protokol pro přenos souborů mezi počítači
-- www – službu zajišťuje protokol http a slouží k přenosu hypertextových dokumentů
-- url – adresa zajišťující přístup ke konkrétnímu objektu umístěnému na počítači, ke kterému se chceme dostat
-- DNS – překlad doménových jmen na IP adresy a naopak
-- HTML– značkovací jazyk sloužící k tvorbě webových stránek
-- SMTP – protokol pro e\-mailovou komunikaci; přenos odesílané zprávy na sever
-- IMAP \- protokol pro e\-mailovou komunikaci; přenos doručené zprávy ze serveru na počítač
-- POP3 – stejný protokol jako IMAP
-- RSS – technologie pro získávání informací a přidávání novinek na internetové stránky
-- NIC – centrum pro národní správu domén
-- http – protokol pro výměnu hypertextových dokumentů
-- hoax – nevyžádaná zprávy poplašného charakteru
-- moodle – systém pro správu vyučování prostřednictvím e\-learningu
-- blog – internetový deník
-- cookies – soubory, které se ukládají na disk počítače, podle kterých je možné sledovat pohyb uživatele na po internetových stránkách
-- spam – nevyžádaná zpráva nejčastěji reklamního charakteru
+- Umožňuje během okamžiku poslat zprávu téměř komukoli na světě.
+- K odesílání a přijímání pošty slouží poštovní klient (MS Outlook, Thunderbird) nebo webové rozhraní (Gmail, Seznam).
+- Při vybírání pošty se klient připojí k serveru, na který nám pošta chodí, a zprávy stáhne nebo zobrazí; při odesílání předá zprávu odchozímu serveru.
 
-Viry
+## Pojmy a protokoly
 
-- program, který může infikovat jiný počítačový program takovým způsobem, že do něj zkopíruje své tělo, čímž se infikovaný program stává prostředkem pro další aktivaci viru
-- viry využívají jiných programů \(hostitelů\) k jejich šíření
-- červ je schopen se šířit sám, bez závislosti na přenosu hostitele
-- v dnešní době internetu je šíření virů mnohem rychlejší a snazší než dříve
-- typy virů:
-	- trojský kůň \- odposlouchávání [přístupových jmen](https://cs.wikipedia.org/w/index.php?title=P%C5%99%C3%ADstupov%C3%A9_jm%C3%A9no&action=edit&redlink=1) a [hesel](https://cs.wikipedia.org/wiki/Heslo), čísel kreditních karet; odposlouchávání klávesnice
-	- spyware \- sleduje uživatele a jeho zvyklosti při surfování na Internetu a posílá o tom zprávy
-	- crimeware \- páchání [krádeží identity](https://cs.wikipedia.org/w/index.php?title=Identity_theft&action=edit&redlink=1) prostřednictvím [sociálního inženýrství](https://cs.wikipedia.org/wiki/Soci%C3%A1ln%C3%AD_in%C5%BEen%C3%BDrstv%C3%AD_(bezpe%C4%8Dnost)) nebo k získání přístupů k různým placeným službám a bankovním účtům uživatele za účelem provádění neoprávněných transakcí
+- **FTP** – protokol pro přenos souborů mezi počítači.
+- **WWW** – služba pro přenos hypertextových dokumentů; zajišťuje ji protokol **HTTP** (zabezpečeně HTTPS).
+- **URL** – adresa konkrétního objektu (stránky, souboru) na serveru, např. `https://www.example.com/index.html`.
+- **DNS** – překlad doménových jmen na IP adresy a naopak.
+- **HTML** – značkovací jazyk pro tvorbu webových stránek.
+- **SMTP** – protokol pro odesílání e-mailu na server a jeho přenos mezi servery.
+- **IMAP** – protokol pro práci s doručenou poštou; zprávy zůstávají na serveru.
+- **POP3** – protokol pro stažení doručené pošty ze serveru do počítače; na rozdíl od IMAP zprávy obvykle stáhne a ze serveru odstraní.
+- **RSS** – formát pro odběr novinek z webových stránek.
+- **NIC** – správce národní domény; v Česku sdružení CZ.NIC spravuje doménu `.cz`.
+- **Hoax** – nevyžádaná zpráva poplašného charakteru, která vyzývá k dalšímu rozeslání.
+- **Spam** – nevyžádaná hromadná zpráva, nejčastěji reklamní.
+- **Cookies** – malé soubory, které si webová stránka ukládá v prohlížeči; slouží k udržení přihlášení nebo nastavení, ale také ke sledování pohybu uživatele po stránkách.
+- **Moodle** – systém pro řízení výuky prostřednictvím e-learningu.
+- **Blog** – internetový deník.
+
+## Internet věcí (IoT)
+
+- **Internet věcí** (Internet of Things) je síť běžných předmětů, které obsahují senzory, řídicí elektroniku a síťové připojení a samy si vyměňují data – chytré žárovky, termostaty, zásuvky, kamery, hodinky, auta, průmyslové stroje.
+- Zařízení obvykle posílají naměřená data do cloudu, kde se vyhodnocují, a přijímají odtud příkazy; uživatel je ovládá aplikací v telefonu.
+- Připojují se přes Wi-Fi, Bluetooth, Zigbee, mobilní sítě nebo úsporné sítě s dlouhým dosahem (LoRaWAN, Sigfox, NB-IoT).
+- Velký počet zařízení je jedním z důvodů přechodu na [IPv6](/it/pocitacove-site/15-ipv6-adresovani/).
+- Rizika: slabé zabezpečení (výchozí hesla, chybějící aktualizace) – napadená IoT zařízení se zneužívají v botnetech k útokům DDoS; sběr citlivých dat o domácnosti.
+
+## Počítačové viry
+
+- **Virus** je program, který dokáže infikovat jiný program tak, že do něj zkopíruje své tělo; infikovaný program se pak stává prostředkem dalšího šíření.
+- Viry k šíření potřebují jiné programy (hostitele); **červ** se šíří sám, nezávisle na hostiteli, obvykle přes síť.
+- V dnešní době Internetu je šíření škodlivého kódu mnohem rychlejší a snazší než dříve.
+- Další druhy škodlivého softwaru:
+	- **trojský kůň** – tváří se jako užitečný program; odposlouchává přístupová jména a hesla, čísla platebních karet, zaznamenává stisky kláves,
+	- **spyware** – sleduje uživatele a jeho zvyklosti při procházení Internetu a posílá o tom zprávy,
+	- **crimeware** – slouží ke krádeži identity (často pomocí sociálního inženýrství) nebo k získání přístupu k placeným službám a bankovním účtům uživatele a provádění neoprávněných transakcí.
+- Podrobněji viz [malware](/it/operacni-systemy/26-malware/).

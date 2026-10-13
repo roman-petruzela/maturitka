@@ -12,45 +12,46 @@ U každého bodu je odkaz na materiál, který ho na webu nejlépe pokrývá. �
 
 ## 1) Počítačová síť
 
-- [definice počítačové sítě](/it/pocitacove-site/01-pocitacove-site-definice-pojmy-deleni-topologie-pristupove-metody/)
-- výpočtový model — zatím bez podkladů
-- [členění počítačových sítí](/it/pocitacove-site/05-deleni-pocitacovych-siti-2025/)
-- tvorba technické dokumentace sítě — zatím bez podkladů
+- [definice počítačové sítě](/it/pocitacove-site/01-pocitacove-site-definice-pojmy-deleni-topologie-pristupove-metody/#co-je-počítačová-síť)
+- [výpočtový model](/it/pocitacove-site/01-pocitacove-site-definice-pojmy-deleni-topologie-pristupove-metody/#výpočetní-model--role-uzlů-v-síti)
+- [členění počítačových sítí](/it/pocitacove-site/01-pocitacove-site-definice-pojmy-deleni-topologie-pristupove-metody/#dělení-počítačových-sítí), [topologie a přístupové metody](/it/pocitacove-site/01-pocitacove-site-definice-pojmy-deleni-topologie-pristupove-metody/#topologie-sítě)
+- [tvorba technické dokumentace sítě](/it/pocitacove-site/19-technicka-dokumentace-site/)
 
 ## 2) Síťový model
 
-- standardizace ve světě počítačových sítí — zatím bez podkladů
-- [RM ISO/OSI a TCP/IP](/it/pocitacove-site/06-sitovy-model-iso-osi-a-tcp-ip/)
-- [protokoly TCP/IP — stručný popis](/it/pocitacove-site/03-isoosi-tcpip-sitove-protokoly/)
-- druhy datagramu, rozbor paketu — zatím bez podkladů
+- [standardizace ve světě počítačových sítí](/it/pocitacove-site/02-standardizace-model-iso-osi-a-tcp-ip/#standardizace-v-počítačových-sítích)
+- [RM ISO/OSI a TCP/IP](/it/pocitacove-site/02-standardizace-model-iso-osi-a-tcp-ip/)
+- [protokoly TCP/IP — stručný popis](/it/pocitacove-site/03-protokoly-tcp-ip/)
+- [druhy datagramu, rozbor paketu](/it/pocitacove-site/11-ip-protokol-a-ipv4-datagram/#rozbor-paketu)
 
 ## 3) IP adresace IPv4 a IPv6
 
-- [základní pojmy: třídy adres, síťová maska, NetID, HostID, Broadcast](/it/pocitacove-site/10-sitova-vrstva-a-ipv4-protokol/)
-- [statické IP adresování a DHCP](/it/pocitacove-site/11-ipv4-adresovani/) — DHCP viz i [operační systémy](/it/operacni-systemy/23-dhcp/)
-- nedostatek IP adres a jeho řešení (CIDR) — zatím bez podkladů
-- [vyhrazené adresy, privátní adresy](/it/pocitacove-site/12-ipv6-adresovani/)
+- [základní pojmy: třídy adres, síťová maska, NetID, HostID, Broadcast](/it/pocitacove-site/12-ipv4-adresovani/)
+- [statické IP adresování a DHCP](/it/pocitacove-site/12-ipv4-adresovani/#statické-a-dynamické-přidělování-adres) — DHCP viz i [protokoly TCP/IP](/it/pocitacove-site/03-protokoly-tcp-ip/#dhcp-dynamic-host-configuration-protocol) a [operační systémy](/it/operacni-systemy/23-dhcp/)
+- [nedostatek IP adres a jeho řešení (CIDR)](/it/pocitacove-site/13-cidr-podsitovani-a-vlsm/)
+- vyhrazené adresy, privátní adresy — [IPv4](/it/pocitacove-site/12-ipv4-adresovani/#vyhrazené-adresy), [IPv6](/it/pocitacove-site/15-ipv6-adresovani/#důležité-adresy-a-prefixy)
 
 ## 4) Routování mezi sítěmi, provoz globální sítě
 
-- propojení více sítí, routovací tabulka — [praktická konfigurace v Cisco Packet Tracer](/it/pocitacove-site/15-cisco-packet-tracer/)
-- druhy překladu adres (NAT) — zatím bez podkladů
-- systém domén, DNS — zatím bez podkladů
-- [Internet](/it/pocitacove-site/04-internet/), Internet věcí
+- [propojení více sítí, routovací tabulka](/it/pocitacove-site/16-smerovani-a-routovaci-tabulka/) — prakticky v [Cisco Packet Tracer](/it/pocitacove-site/22-cisco-packet-tracer/)
+- [druhy překladu adres (NAT)](/it/pocitacove-site/14-nat-preklad-adres/)
+- [systém domén, DNS](/it/pocitacove-site/17-dns-system-domenovych-jmen/)
+- [Internet](/it/pocitacove-site/04-internet/), [Internet věcí](/it/pocitacove-site/04-internet/#internet-věcí-iot), [WAN technologie a připojení k Internetu](/it/pocitacove-site/18-wan-technologie/)
 
 ## 5) Informace v počítačových sítích
 
-- informace a data, jednotky a prefixy, diskrétní a spojitá informace — zatím bez podkladů
-- analogový a digitální signál, paralelní a sériový přenos — zatím bez podkladů
-- přepínání paketů a okruhů, multiplexing — [doplňkové poznámky k datovým sítím](/it/pocitacove-site/13-datove-site-doplnkove-poznamky/)
-- vlastnosti přenosového kanálu, modulace — zatím bez podkladů
+- [informace a data, jednotky a prefixy, diskrétní a spojitá informace](/it/pocitacove-site/05-informace-signaly-a-prenosovy-kanal/#informace-a-data)
+- [analogový a digitální signál, paralelní a sériový přenos](/it/pocitacove-site/05-informace-signaly-a-prenosovy-kanal/#signál)
+- [přepínání paketů a okruhů](/it/pocitacove-site/05-informace-signaly-a-prenosovy-kanal/#přepojování-okruhů-zpráv-a-paketů), [multiplexing](/it/pocitacove-site/05-informace-signaly-a-prenosovy-kanal/#multiplex)
+- [vlastnosti přenosového kanálu](/it/pocitacove-site/05-informace-signaly-a-prenosovy-kanal/#vlastnosti-přenosového-kanálu), [modulace](/it/pocitacove-site/05-informace-signaly-a-prenosovy-kanal/#modulace)
 
 ## 6) Hardware počítačových sítí a Ethernet
 
-- [přenosová média, pasivní prvky sítě](/it/pocitacove-site/07-sitovy-hw-pasivni-prvky-kabelaz-koax-utp/)
-- [aktivní prvky, jejich charakteristika, MAC adresa](/it/pocitacove-site/02-aktivni-a-pasivni-sitove-prvky/), [síťové karty](/it/pocitacove-site/08-sitove-karty/)
-- [ethernetová síť v provedení TP/UTP, přístupová metoda CSMA/CD](/it/pocitacove-site/09-ethernet-a-lan/)
-- typy rámců, struktura rámce, druhy a označování ethernetu — viz výše
+- [přenosová média, pasivní prvky sítě](/it/pocitacove-site/06-pasivni-sitove-prvky-a-kabelaz/)
+- [aktivní prvky, jejich charakteristika](/it/pocitacove-site/07-aktivni-sitove-prvky-a-sitova-karta/), [MAC adresa](/it/pocitacove-site/07-aktivni-sitove-prvky-a-sitova-karta/#mac-adresa), [síťové karty](/it/pocitacove-site/07-aktivni-sitove-prvky-a-sitova-karta/#síťová-karta-nic)
+- [ethernetová síť v provedení TP/UTP, přístupová metoda CSMA/CD](/it/pocitacove-site/08-ethernet-a-lan/)
+- [typy rámců, struktura rámce](/it/pocitacove-site/08-ethernet-a-lan/#ethernetový-rámec), [druhy a označování ethernetu](/it/pocitacove-site/08-ethernet-a-lan/#označování-ethernetu)
+- navazující témata: [přepínání, STP a VLAN](/it/pocitacove-site/09-prepinani-stp-a-vlan/), [bezdrátové sítě](/it/pocitacove-site/10-bezdratove-site-wi-fi/)
 
 ## 7) Počítačová grafika
 
@@ -142,6 +143,6 @@ U každého bodu je odkaz na materiál, který ho na webu nejlépe pokrývá. �
 ## 20) Zranitelnost webových aplikací
 
 - [10 nejnebezpečnějších zranitelností podle OWASP](/it/kyberneticka-bezpecnost/02-zabezpeceni-siti-a-aplikaci/)
-- DNS — hierarchie, požadavky, DNS tunneling — zatím bez podkladů
+- DNS — [hierarchie, požadavky](/it/pocitacove-site/17-dns-system-domenovych-jmen/), DNS tunneling — zatím bez podkladů
 - protokol HTTP — metody, stavové kódy — viz výše
 - SQL injection a Cross-site scripting (reflected/stored/blind XSS) — viz výše
