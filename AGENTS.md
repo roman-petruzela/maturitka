@@ -82,7 +82,7 @@ Plugins run in this order (`astro.config.mjs`): `remarkLineBreaks` → `remarkPr
   `visualWidth()` (a fraction is as wide as its wider half), not LaTeX length.
 - **Formula scrollbars.** MathLive's sub/superscript, fraction and root boxes each stick ~2px out
   of their formula, which read as overflow and put a scrollbar under formulas that fit.
-  `BaseLayout.astro` (`markFitting`) marks anything within `SLACK` px as `.is-fitting`
+  `markFitting` in `rail-formulas.ts` (run by `article-page.ts`) marks anything within `SLACK` px as `.is-fitting`
   (`overflow: visible`); only a genuinely too-wide formula keeps its scrollbar. `.is-fitting` is
   also what lets an inline formula sit on the text baseline — a box with `overflow: auto` has its
   bottom edge as baseline, so a scrolling one has to be centred instead (`vertical-align: middle`).
@@ -132,7 +132,7 @@ Plugins run in this order (`astro.config.mjs`): `remarkLineBreaks` → `remarkPr
   above it, the formula in display style (`.math-display` inside `.formula-card`, so it scrolls only
   when it truly does not fit), a note under it; `label` and `note` may hold `$inline math$`. A formula
   wider than `WIDE_UNITS` (`formula-sheet-html.ts`, measured in the browser, not guessed) takes a
-  whole row; `fitCards` in `BaseLayout.astro` shrinks one that is a little too wide for its card down
+  whole row; `fitCards` in `article-page.ts` shrinks one that is a little too wide for its card down
   to ~0.78× before it is left to scroll. The rail's formula digest skips `.formula-sheet`. LaTeX in
   the JSON needs doubled backslashes (`"\\frac{a}{b}"`). The renderer typesets through
   `math-markup.ts`, the one place that calls MathLive (the `\dots` fix included), shared with
@@ -275,6 +275,13 @@ person, add an alias for it there instead of writing the path anywhere. Public f
 
 ## Content conversion checklist
 
+Pictures of Word sources are kept: `convert-docx.mjs` saves them as `public/images/content/<page>/NN.webp`
+(EMF/WMF rendered by LibreOffice, everything resized to ≤ 1400 px by ImageMagick) and puts them in as
+`<img … width>` with the width the picture had in Word, read from the document XML and matched to
+mammoth's images by the hash of their bytes. On the dark page they sit on a paper-coloured card
+(`article.topic img:not([class])`). The ~900 pictures the first conversion had dropped were restored the
+same way; `((obrázek vynechán))` is left only where the source was a PDF.
+
 Sources were converted from Word/PDF/PPTX; these artefacts were found and fixed and are worth
 grepping for after every new import:
 
@@ -344,12 +351,37 @@ add a new one there when you write such a heading.
 CC-licensed photos must show their credit: `public/images/authors/credits.json` (`{ "<slug>": "<author>,
 <licence>" }`); sources go to `CREDITS.md`.
 
+## Styles
+
+`src/styles/global.css` only imports the area files in order: `tokens.css` (palette, fonts, motion
+variables), `transitions.css`, `chrome.css` (header, footer, base typography), `home.css`,
+`subject.css`, `article-layout.css` (the three columns and rails), `article-body.css`, `figures.css`
+(graphs, solids, timeline, formula sheet, portraits), `whiteboard.css`, `print.css`. Where this file
+says "global.css", it means these files. The bundle is the same single stylesheet as before.
+
+## Client scripts
+
+Pages carry almost no inline JavaScript. `BaseLayout.astro` keeps inline only what must run before
+the first paint (switching off the browser's scroll restoration, the `vt-fallback` class, restoring the
+saved page and subject-strip offsets); everything else is bundled TypeScript: `site-chrome.ts` (every
+page — scroll memory, auto-hiding header, spoilers, the draggable subject strip and its edge fades,
+the fallback page transition, the category pills), `article-page.ts` (topic pages — folding rails,
+fitting formulas, the table of contents, centring the subject rail) and `rail-formulas.ts` (the
+"Klíčové vzorce" rail; its text helpers are pure and tested). MathLive (~800 kB) is not loaded with the
+page: `MathScratchpad.astro` imports it when the result field comes near the viewport or is touched —
+until then nothing may set the field's properties, or they shadow MathLive's accessors on upgrade.
+
+Unit tests of the pure modules live in `tests/*.test.ts` and run with `npm test` (Node strips the
+types itself; imports use the `.ts` extension).
+
 ## Verifying a change
 
 `npm run verify` runs all of the following in one go.
 
 ```
 rm -rf dist node_modules/.astro node_modules/.vite .astro
+npm test
+npm run lint                  # Biome: lint + formatting (biome.json); `npx biome check --write .` fixes
 npx astro check
 npm run build                 # then: no ML__error / leaked tokens / literal "$" in the built HTML
 node scripts/check-links.mjs  # every internal link — and every #fragment — of the built site
