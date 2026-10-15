@@ -27,18 +27,18 @@ header.site-header.header-hidden {
 	gap: 1.5rem;
 }
 
+/* The wordmark repeats the favicon: the serif "M" and the dot are in the accent colour. */
 .brand {
 	flex: 0 0 auto;
 	font-family: var(--display);
 	font-weight: 700;
-	font-size: 1.3rem;
-	letter-spacing: 0.02em;
+	font-size: 1.4rem;
 	color: var(--fg);
 	text-decoration: none;
 	white-space: nowrap;
 }
 
-.brand span {
+.brand-accent {
 	color: var(--accent);
 }
 

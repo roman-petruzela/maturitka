@@ -29,7 +29,10 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 <html lang="cs">
 	<head>
 		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg?v=3" />
+		<link rel="icon" href="/favicon.ico?v=3" sizes="48x48" />
+		<link rel="apple-touch-icon" href="/apple-touch-icon.png?v=3" />
+		<meta name="theme-color" content="#141311" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
 		<title>{pageTitle}</title>
@@ -72,7 +75,7 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 		<a class="skip-link" href="#main-content">Přeskočit na obsah</a>
 		<header class="site-header">
 			<div class="site-header-inner">
-				<a class="brand" href="/">MATURIT<span>KA</span></a>
+				<a class="brand" href="/" aria-label="MATURITKA – úvodní stránka"><span class="brand-accent">M</span>aturitka<span class="brand-accent">.</span></a>
 				<nav class="subject-nav" aria-label="Předměty">
 					{
 						SUBJECT_KEYS.map((key) => (
