@@ -83,3 +83,11 @@ export function sortGroupKeys(subject: SubjectKey, keys: (string | null)[]): (st
 		return a.localeCompare(b, 'cs');
 	});
 }
+
+/**
+ * The number shown before a topic's title. Pages that are not study content (signpost, plan,
+ * syllabus) sit at `order` ≤ 0 and get no number — "-1" and "0" in the list read as a bug.
+ */
+export function topicOrdinal(order: number | null | undefined): number | null {
+	return order != null && order > 0 ? order : null;
+}

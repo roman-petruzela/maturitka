@@ -36,8 +36,7 @@ const isFlat = orderedGroupKeys.length === 1 && orderedGroupKeys[0] === null;
 const SPLIT_AT = 20;
 
 // Czech needs three number forms: 1 téma / 2–4 témata / 5+ témat.
-const plural = (n: number, one: string, few: string, many: string) =>
-	n === 1 ? one : n >= 2 && n <= 4 ? few : many;
+const plural = (n: number, one: string, few: string, many: string) => (n === 1 ? one : n >= 2 && n <= 4 ? few : many);
 ---
 
 <BaseLayout

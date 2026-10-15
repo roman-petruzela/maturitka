@@ -17,7 +17,16 @@
 export type Vec2 = [number, number];
 export type Vec3 = [number, number, number];
 
-export type SolidType = 'kvadr' | 'krychle' | 'hranol' | 'jehlan' | 'valec' | 'kuzel' | 'koule' | 'komoly_jehlan' | 'komoly_kuzel';
+export type SolidType =
+	| 'kvadr'
+	| 'krychle'
+	| 'hranol'
+	| 'jehlan'
+	| 'valec'
+	| 'kuzel'
+	| 'koule'
+	| 'komoly_jehlan'
+	| 'komoly_kuzel';
 
 const ROUND_TYPES: SolidType[] = ['valec', 'kuzel', 'koule', 'komoly_kuzel'];
 export const isRound = (type: SolidType) => ROUND_TYPES.includes(type);
@@ -104,7 +113,16 @@ export interface Drawing {
 	marks: Record<string, { at: Vec2; dir: Vec2 }>;
 }
 
-const emptyDrawing = (): Drawing => ({ faces: [], visible: [], hidden: [], vertices: [], centre: [0, 0], extent: [], dims: [], marks: {} });
+const emptyDrawing = (): Drawing => ({
+	faces: [],
+	visible: [],
+	hidden: [],
+	vertices: [],
+	centre: [0, 0],
+	extent: [],
+	dims: [],
+	marks: {},
+});
 
 // A face that looks towards the light is brighter. Light comes from above, a little from the left
 // and from the viewer's side, so the top of a solid is the brightest and its right side the darkest.
@@ -165,10 +183,28 @@ export function buildPoly(type: SolidType, p: Record<string, number>): Poly | nu
 		case 'kvadr': {
 			const { a, b, c } = p;
 			const verts: Vec3[] = [
-				[0, 0, 0], [a, 0, 0], [a, b, 0], [0, b, 0],
-				[0, 0, c], [a, 0, c], [a, b, c], [0, b, c],
+				[0, 0, 0],
+				[a, 0, 0],
+				[a, b, 0],
+				[0, b, 0],
+				[0, 0, c],
+				[a, 0, c],
+				[a, b, c],
+				[0, b, c],
 			];
-			return { kind: 'box', n: 4, verts, faces: [[0, 3, 2, 1], [4, 5, 6, 7], [0, 1, 5, 4], [3, 7, 6, 2], [0, 4, 7, 3], [1, 2, 6, 5]] };
+			return {
+				kind: 'box',
+				n: 4,
+				verts,
+				faces: [
+					[0, 3, 2, 1],
+					[4, 5, 6, 7],
+					[0, 1, 5, 4],
+					[3, 7, 6, 2],
+					[0, 4, 7, 3],
+					[1, 2, 6, 5],
+				],
+			};
 		}
 		case 'hranol':
 		case 'komoly_jehlan': {
@@ -203,7 +239,11 @@ export function drawPoly(poly: Poly, cam: Camera): Drawing {
 		let m: Vec3 = [0, 0, 0];
 		for (let i = 0; i < f.length; i++) {
 			const [a, b] = [verts[f[i]], verts[f[(i + 1) % f.length]]];
-			m = [m[0] + (a[1] - b[1]) * (a[2] + b[2]), m[1] + (a[2] - b[2]) * (a[0] + b[0]), m[2] + (a[0] - b[0]) * (a[1] + b[1])];
+			m = [
+				m[0] + (a[1] - b[1]) * (a[2] + b[2]),
+				m[1] + (a[2] - b[2]) * (a[0] + b[0]),
+				m[2] + (a[0] - b[0]) * (a[1] + b[1]),
+			];
 		}
 		m = norm(m);
 		const c: Vec3 = [0, 0, 0];
@@ -278,7 +318,11 @@ export function drawPoly(poly: Poly, cam: Camera): Drawing {
 // A closed curve given by an angle t ∈ [0, 2π): its points on the page, and whether the surface
 // at each point faces the viewer. Returns the visible runs and the hidden runs, cut exactly where
 // the visibility changes (found by bisection).
-function splitCurve(at: (t: number) => Vec2, seen: (t: number) => boolean, samples = 160): { visible: Vec2[][]; hidden: Vec2[][] } {
+function splitCurve(
+	at: (t: number) => Vec2,
+	seen: (t: number) => boolean,
+	samples = 160
+): { visible: Vec2[][]; hidden: Vec2[][] } {
 	const T = 2 * Math.PI;
 	const ts = Array.from({ length: samples }, (_, i) => (T * i) / samples);
 	const flags = ts.map(seen);
@@ -289,7 +333,10 @@ function splitCurve(at: (t: number) => Vec2, seen: (t: number) => boolean, sampl
 		return out;
 	}
 	// begin at a change of visibility, so that no run is split by the seam of the loop
-	const start = Math.max(0, flags.findIndex((f, i) => f !== flags[(i + samples - 1) % samples]));
+	const start = Math.max(
+		0,
+		flags.findIndex((f, i) => f !== flags[(i + samples - 1) % samples])
+	);
 	const tAt = (step: number) => ts[(start + step) % samples] + (start + step >= samples ? T : 0);
 	const boundary = (t0: number, f0: boolean, t1: number): number => {
 		let [lo, hi] = [t0, t1];
@@ -318,8 +365,11 @@ function splitCurve(at: (t: number) => Vec2, seen: (t: number) => boolean, sampl
 	return out;
 }
 
-const ellipse = (cx: number, cy: number, a: number, b: number) => (t: number): Vec2 => [cx + a * Math.cos(t), cy + b * Math.sin(t)];
-const ring = (at: (t: number) => Vec2, n = 96): Vec2[] => Array.from({ length: n + 1 }, (_, i) => at((2 * Math.PI * i) / n));
+const ellipse =
+	(cx: number, cy: number, a: number, b: number) =>
+	(t: number): Vec2 => [cx + a * Math.cos(t), cy + b * Math.sin(t)];
+const ring = (at: (t: number) => Vec2, n = 96): Vec2[] =>
+	Array.from({ length: n + 1 }, (_, i) => at((2 * Math.PI * i) / n));
 
 export function drawRound(type: SolidType, p: Record<string, number>, cam: Camera): Drawing {
 	const e = rad(cam.elevation);
@@ -350,7 +400,10 @@ export function drawRound(type: SolidType, p: Record<string, number>, cam: Camer
 			if (z == null || Math.abs(z) >= r) return;
 			push(latitude(z));
 			const rho = Math.sqrt(r * r - z * z);
-			const [from, to]: Vec2[] = [[0, z * ce], [rho, z * ce]];
+			const [from, to]: Vec2[] = [
+				[0, z * ce],
+				[rho, z * ce],
+			];
 			d.dims.push({ name: `rho${i + 1}`, pts: [from, to], dashed: true });
 			d.marks[`rho${i + 1}`] = { at: mid2(from, to), dir: [0, 1] };
 		});
@@ -375,7 +428,10 @@ export function drawRound(type: SolidType, p: Record<string, number>, cam: Camer
 	let t1: Vec2 | null = null; // where the right line leaves the bottom ellipse
 	let t2: Vec2 | null = null; // and where it leaves the top one
 	if (Math.abs(r1 - r2) < 1e-9) {
-		[t1, t2] = [[r1, 0], [r2, top]];
+		[t1, t2] = [
+			[r1, 0],
+			[r2, top],
+		];
 	} else {
 		const apexY = (v * r1 * ce) / (r1 - r2);
 		if (Math.abs(apexY) > b1 + EPS) {
@@ -397,7 +453,11 @@ export function drawRound(type: SolidType, p: Record<string, number>, cam: Camer
 		const right: Vec2[] = [t1, r2 === 0 ? apex : t2];
 		const left: Vec2[] = right.map(([x, y]) => [-x, y] as Vec2);
 		d.visible.push(right, left);
-		d.faces.push({ pts: hull([...ring(ellipse(0, 0, r1, b1), 64), ...(r2 === 0 ? [apex] : ring(ellipse(0, top, r2, b2), 64))]), shade: 0.5, gradient: 'linear' });
+		d.faces.push({
+			pts: hull([...ring(ellipse(0, 0, r1, b1), 64), ...(r2 === 0 ? [apex] : ring(ellipse(0, top, r2, b2), 64))]),
+			shade: 0.5,
+			gradient: 'linear',
+		});
 		if (r2 > 0) d.faces.push({ pts: ring(ellipse(0, top, r2, b2), 64), shade: 0.85 });
 		// the label of the slant sits beside the right line, on the outside of it
 		const u = unit2(right[0], right[1]);
@@ -432,12 +492,31 @@ export function solidBounds(type: SolidType, p: Record<string, number>): { c: Ve
 	let pts: Vec3[];
 	const poly = buildPoly(type, p);
 	if (poly) pts = poly.verts;
-	else if (type === 'koule') pts = [[p.r, 0, 0], [-p.r, 0, 0], [0, p.r, 0], [0, -p.r, 0], [0, 0, p.r], [0, 0, -p.r]];
+	else if (type === 'koule')
+		pts = [
+			[p.r, 0, 0],
+			[-p.r, 0, 0],
+			[0, p.r, 0],
+			[0, -p.r, 0],
+			[0, 0, p.r],
+			[0, 0, -p.r],
+		];
 	else {
 		const [r1, r2] = type === 'valec' ? [p.r, p.r] : type === 'kuzel' ? [p.r, 0] : [p.r1, p.r2];
-		pts = [[r1, 0, 0], [-r1, 0, 0], [0, r1, 0], [0, -r1, 0], [r2, 0, p.v], [-r2, 0, p.v], [0, r2, p.v], [0, -r2, p.v]];
+		pts = [
+			[r1, 0, 0],
+			[-r1, 0, 0],
+			[0, r1, 0],
+			[0, -r1, 0],
+			[r2, 0, p.v],
+			[-r2, 0, p.v],
+			[0, r2, p.v],
+			[0, -r2, p.v],
+		];
 	}
-	const c: Vec3 = [0, 1, 2].map((i) => (Math.min(...pts.map((q) => q[i])) + Math.max(...pts.map((q) => q[i]))) / 2) as Vec3;
+	const c: Vec3 = [0, 1, 2].map(
+		(i) => (Math.min(...pts.map((q) => q[i])) + Math.max(...pts.map((q) => q[i]))) / 2
+	) as Vec3;
 	return { c, R: Math.max(...pts.map((q) => Math.hypot(q[0] - c[0], q[1] - c[1], q[2] - c[2]))) || 1 };
 }
 
@@ -460,5 +539,5 @@ export function missingParam(type: SolidType, p: Record<string, number> | undefi
 		komoly_kuzel: ['r1', 'r2', 'v'],
 	};
 	if (!need[type]) return `a known "type" (got "${type}")`;
-	return need[type].find((k) => typeof p?.[k] !== 'number' || !isFinite(p[k])) ?? null;
+	return need[type].find((k) => typeof p?.[k] !== 'number' || !Number.isFinite(p[k])) ?? null;
 }

@@ -190,7 +190,9 @@ export function renderGraphSvg(spec: GraphSpec): string {
 	}
 
 	const toPathD = (segs: { x: number; y: number }[][]) =>
-		segs.map((seg) => seg.map((p, i) => `${i === 0 ? 'M' : 'L'}${sx(p.x).toFixed(2)},${sy(p.y).toFixed(2)}`).join(' ')).join(' ');
+		segs
+			.map((seg) => seg.map((p, i) => `${i === 0 ? 'M' : 'L'}${sx(p.x).toFixed(2)},${sy(p.y).toFixed(2)}`).join(' '))
+			.join(' ');
 	const pathD = toPathD(rawPoints);
 	const pathD2 = toPathD(rawPoints2);
 
@@ -203,29 +205,50 @@ export function renderGraphSvg(spec: GraphSpec): string {
 
 	const floatClass = spec.float ? ` graph-plot--float-${spec.float}` : '';
 	const parts: string[] = [];
-	parts.push(`<figure class="graph-plot${spec.spoiler ? '' : floatClass}"><svg viewBox="0 0 ${width} ${height}" width="${width}" height="${height}" role="img" aria-label="${escapeAttr(title ?? 'Graf funkce')}">`);
-	for (const t of xTicks) parts.push(`<line x1="${sx(t)}" y1="${PAD}" x2="${sx(t)}" y2="${height - PAD}" class="grid-line" />`);
-	for (const t of yTicks) parts.push(`<line x1="${PAD}" y1="${sy(t)}" x2="${width - PAD}" y2="${sy(t)}" class="grid-line" />`);
+	parts.push(
+		`<figure class="graph-plot${spec.spoiler ? '' : floatClass}"><svg viewBox="0 0 ${width} ${height}" width="${width}" height="${height}" role="img" aria-label="${escapeAttr(title ?? 'Graf funkce')}">`
+	);
+	for (const t of xTicks)
+		parts.push(`<line x1="${sx(t)}" y1="${PAD}" x2="${sx(t)}" y2="${height - PAD}" class="grid-line" />`);
+	for (const t of yTicks)
+		parts.push(`<line x1="${PAD}" y1="${sy(t)}" x2="${width - PAD}" y2="${sy(t)}" class="grid-line" />`);
 	if (showXAxis) parts.push(`<line x1="${PAD}" y1="${xAxisY}" x2="${width - PAD}" y2="${xAxisY}" class="axis-line" />`);
-	if (showYAxis) parts.push(`<line x1="${yAxisX}" y1="${PAD}" x2="${yAxisX}" y2="${height - PAD}" class="axis-line" />`);
-	if (showXAxis) for (const t of xTicks) parts.push(`<text x="${sx(t)}" y="${xAxisY + 14}" class="tick-label" text-anchor="middle">${fmt(t)}</text>`);
-	if (showYAxis) for (const t of yTicks) parts.push(`<text x="${yAxisX - 6}" y="${sy(t) + 4}" class="tick-label" text-anchor="end">${fmt(t)}</text>`);
+	if (showYAxis)
+		parts.push(`<line x1="${yAxisX}" y1="${PAD}" x2="${yAxisX}" y2="${height - PAD}" class="axis-line" />`);
+	if (showXAxis)
+		for (const t of xTicks)
+			parts.push(`<text x="${sx(t)}" y="${xAxisY + 14}" class="tick-label" text-anchor="middle">${fmt(t)}</text>`);
+	if (showYAxis)
+		for (const t of yTicks)
+			parts.push(`<text x="${yAxisX - 6}" y="${sy(t) + 4}" class="tick-label" text-anchor="end">${fmt(t)}</text>`);
 	if (showXAxis || showYAxis) {
-		parts.push(`<text x="${showYAxis ? yAxisX - 6 : PAD}" y="${(showXAxis ? xAxisY : height - PAD) + 14}" class="tick-label" text-anchor="end">0</text>`);
+		parts.push(
+			`<text x="${showYAxis ? yAxisX - 6 : PAD}" y="${(showXAxis ? xAxisY : height - PAD) + 14}" class="tick-label" text-anchor="end">0</text>`
+		);
 	}
-	if (xLabel) parts.push(`<text x="${width - PAD}" y="${(showXAxis ? xAxisY : height - PAD) - 8}" class="axis-label" text-anchor="end">${labelTspans(xLabel)}</text>`);
-	if (yLabel) parts.push(`<text x="${(showYAxis ? yAxisX : PAD) + 8}" y="${PAD + 4}" class="axis-label" text-anchor="start">${labelTspans(yLabel)}</text>`);
+	if (xLabel)
+		parts.push(
+			`<text x="${width - PAD}" y="${(showXAxis ? xAxisY : height - PAD) - 8}" class="axis-label" text-anchor="end">${labelTspans(xLabel)}</text>`
+		);
+	if (yLabel)
+		parts.push(
+			`<text x="${(showYAxis ? yAxisX : PAD) + 8}" y="${PAD + 4}" class="axis-label" text-anchor="start">${labelTspans(yLabel)}</text>`
+		);
 	parts.push(`<path d="${pathD}" class="curve" fill="none" />`);
 	if (pathD2) {
 		parts.push(`<path d="${pathD2}" class="curve curve-2" fill="none" />`);
 		if (spec.fn2Label) {
 			const last = rawPoints2[rawPoints2.length - 1]?.slice(-1)[0];
-			if (last) parts.push(`<text x="${sx(last.x) - 4}" y="${sy(last.y) - 6}" class="marker-label curve-2-label" text-anchor="end">${labelTspans(spec.fn2Label)}</text>`);
+			if (last)
+				parts.push(
+					`<text x="${sx(last.x) - 4}" y="${sy(last.y) - 6}" class="marker-label curve-2-label" text-anchor="end">${labelTspans(spec.fn2Label)}</text>`
+				);
 		}
 	}
 	for (const p of points) {
 		parts.push(`<circle cx="${sx(p.x)}" cy="${sy(p.y)}" r="3.5" class="marker" />`);
-		if (p.label) parts.push(`<text x="${sx(p.x) + 6}" y="${sy(p.y) - 6}" class="marker-label">${labelTspans(p.label)}</text>`);
+		if (p.label)
+			parts.push(`<text x="${sx(p.x) + 6}" y="${sy(p.y) - 6}" class="marker-label">${labelTspans(p.label)}</text>`);
 	}
 	parts.push(`</svg>`);
 	if (title) parts.push(`<figcaption>${captionHtml(title)}</figcaption>`);

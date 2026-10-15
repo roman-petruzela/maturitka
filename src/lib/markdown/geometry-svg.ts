@@ -30,7 +30,14 @@ export interface GeometrySpec {
 	// counterclockwise from fromDeg to toDeg. "sector" fills the pie slice
 	// (center to arc, kruhová výseč); "segment" fills just arc-to-chord
 	// (kruhová úseč, no center point in the fill)
-	arcs?: { center: string; radius: number; fromDeg: number; toDeg: number; label?: string; fill?: 'sector' | 'segment' }[];
+	arcs?: {
+		center: string;
+		radius: number;
+		fromDeg: number;
+		toDeg: number;
+		label?: string;
+		fill?: 'sector' | 'segment';
+	}[];
 	angles?: { at: string; from: string; to: string; label?: string; rightAngle?: boolean }[];
 	labels?: { at: [number, number]; text: string }[];
 	width?: number;
@@ -108,7 +115,10 @@ export function renderGeometrySvg(spec: GeometrySpec): string {
 		parts.push(
 			`<circle cx="${fmt(cx)}" cy="${fmt(cy)}" r="${fmt(r)}" class="geom-circle"${c.dashed ? ' stroke-dasharray="5,4"' : ''} />`
 		);
-		if (c.label) parts.push(`<text x="${fmt(cx)}" y="${fmt(cy - r - 6)}" class="geom-label" text-anchor="middle">${labelTspans(c.label)}</text>`);
+		if (c.label)
+			parts.push(
+				`<text x="${fmt(cx)}" y="${fmt(cy - r - 6)}" class="geom-label" text-anchor="middle">${labelTspans(c.label)}</text>`
+			);
 	}
 
 	for (const a of spec.arcs ?? []) {
@@ -138,14 +148,18 @@ export function renderGeometrySvg(spec: GeometrySpec): string {
 			const midDeg = a.fromDeg + span / 2;
 			const midRad = (midDeg * Math.PI) / 180;
 			const lp = proj([mcx + a.radius * 1.2 * Math.cos(midRad), mcy + a.radius * 1.2 * Math.sin(midRad)]);
-			parts.push(`<text x="${fmt(lp[0])}" y="${fmt(lp[1])}" class="geom-label" text-anchor="middle">${labelTspans(a.label)}</text>`);
+			parts.push(
+				`<text x="${fmt(lp[0])}" y="${fmt(lp[1])}" class="geom-label" text-anchor="middle">${labelTspans(a.label)}</text>`
+			);
 		}
 	}
 
 	for (const s of spec.segments ?? []) {
 		const [x1, y1] = screen[s.from];
 		const [x2, y2] = screen[s.to];
-		parts.push(`<line x1="${fmt(x1)}" y1="${fmt(y1)}" x2="${fmt(x2)}" y2="${fmt(y2)}" class="geom-segment"${s.dashed ? ' stroke-dasharray="5,4"' : ''} />`);
+		parts.push(
+			`<line x1="${fmt(x1)}" y1="${fmt(y1)}" x2="${fmt(x2)}" y2="${fmt(y2)}" class="geom-segment"${s.dashed ? ' stroke-dasharray="5,4"' : ''} />`
+		);
 		if (s.label) {
 			const mx = (x1 + x2) / 2;
 			const my = (y1 + y2) / 2;
@@ -177,7 +191,9 @@ export function renderGeometrySvg(spec: GeometrySpec): string {
 			const p1: Vec2 = [V[0] + uF[0] * s, V[1] + uF[1] * s];
 			const p2: Vec2 = [V[0] + uF[0] * s + uT[0] * s, V[1] + uF[1] * s + uT[1] * s];
 			const p3: Vec2 = [V[0] + uT[0] * s, V[1] + uT[1] * s];
-			parts.push(`<path d="M${fmt(p1[0])},${fmt(p1[1])} L${fmt(p2[0])},${fmt(p2[1])} L${fmt(p3[0])},${fmt(p3[1])}" class="geom-right-angle" fill="none" />`);
+			parts.push(
+				`<path d="M${fmt(p1[0])},${fmt(p1[1])} L${fmt(p2[0])},${fmt(p2[1])} L${fmt(p3[0])},${fmt(p3[1])}" class="geom-right-angle" fill="none" />`
+			);
 		} else {
 			const r = 22;
 			const ang1 = Math.atan2(uF[1], uF[0]);
@@ -196,7 +212,9 @@ export function renderGeometrySvg(spec: GeometrySpec): string {
 				const midAng = ang1 + diff / 2;
 				const lx = V[0] + Math.cos(midAng) * (r + 14);
 				const ly = V[1] + Math.sin(midAng) * (r + 14);
-				parts.push(`<text x="${fmt(lx)}" y="${fmt(ly)}" class="geom-label" text-anchor="middle">${escapeAttr(a.label)}</text>`);
+				parts.push(
+					`<text x="${fmt(lx)}" y="${fmt(ly)}" class="geom-label" text-anchor="middle">${escapeAttr(a.label)}</text>`
+				);
 			}
 		}
 	}
@@ -214,7 +232,9 @@ export function renderGeometrySvg(spec: GeometrySpec): string {
 
 	for (const l of spec.labels ?? []) {
 		const [x, y] = proj(l.at);
-		parts.push(`<text x="${fmt(x)}" y="${fmt(y)}" class="geom-label" text-anchor="middle">${labelTspans(l.text)}</text>`);
+		parts.push(
+			`<text x="${fmt(x)}" y="${fmt(y)}" class="geom-label" text-anchor="middle">${labelTspans(l.text)}</text>`
+		);
 	}
 
 	parts.push(`</svg>`);

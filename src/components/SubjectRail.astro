@@ -1,5 +1,6 @@
 ---
 import type { SubjectKey } from '../lib/subjects';
+import { topicOrdinal } from '../lib/groups';
 import type { TopicItem } from '../pages/[subject]/[...slug].astro';
 
 interface Props {
@@ -53,7 +54,7 @@ const currentSection = sections.find((s) => s.items.some((i) => i.id === current
 										class={item.id === currentId ? 'is-current' : ''}
 										aria-current={item.id === currentId ? 'page' : undefined}
 									>
-										<span class="rail-tree-num">{item.order ?? i + 1}</span>
+										<span class="rail-tree-num">{item.order == null ? i + 1 : topicOrdinal(item.order)}</span>
 										<span>{item.title}</span>
 									</a>
 								</li>

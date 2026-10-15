@@ -22,14 +22,14 @@
 // be mistaken for a paragraph line.
 import type { Root, PhrasingContent, Text, Parent } from 'mdast';
 import { visit } from 'unist-util-visit';
+import type { VFile } from 'vfile';
 import { OPEN, CLOSE, type StoredMath } from './remark-protect-math';
 
 const SUBJECTS = /[\\/]content[\\/](?:01-cj|02-mat|04-it)[\\/]/;
 const TOKEN_ONLY = new RegExp(`^${OPEN}(\\d+)${CLOSE}$`);
 
 export function remarkLineBreaks() {
-	// `file` is a vfile; typed loosely for the same reason as in remark-protect-math.ts
-	return (tree: Root, file: any) => {
+	return (tree: Root, file: VFile) => {
 		if (!SUBJECTS.test(file.path ?? '')) return;
 		const store: StoredMath[] = file.data.protectedMath ?? [];
 

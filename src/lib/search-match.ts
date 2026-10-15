@@ -106,7 +106,10 @@ export function search(items: SearchItem[] | null, query: string): Hit[] {
 		}
 		// several words that are all on the page, but not in one place: a title and a heading, a heading and a term
 		if (page < 0 && found === 0 && tokens.length > 1) {
-			const s = fieldScore(tokens, [item.title, context, ...(item.h ?? []).map((h) => h[0]), ...(item.k ?? [])].join(' '));
+			const s = fieldScore(
+				tokens,
+				[item.title, context, ...(item.h ?? []).map((h) => h[0]), ...(item.k ?? [])].join(' ')
+			);
 			if (s >= 0) {
 				hits.push({ item, score: s * 0.2 - item.title.length * 0.01 - 3 });
 				continue;

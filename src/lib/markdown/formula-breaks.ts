@@ -61,7 +61,7 @@ export function visualWidth(s: string): number {
 			if (s[i] === '{') w += visualWidth(group()) * 0.6;
 			else if (i < s.length) {
 				w += 0.6;
-				i += s[i] === '\\' ? (/^\\([A-Za-z]+|.)/s.exec(s.slice(i))![0].length) : 1;
+				i += s[i] === '\\' ? /^\\([A-Za-z]+|.)/s.exec(s.slice(i))![0].length : 1;
 			}
 			continue;
 		}
@@ -178,7 +178,7 @@ export function inlineSegments(latex: string): string[] | null {
 		// a step that is itself a long chain of equalities is broken after its "=" as well
 		const parts = visualWidth(step.body) >= EQUALS_UNITS ? splitSteps(step.body, equals) : [];
 		if (parts.length > 1 && parts.every((p) => p.body.length > 0)) {
-			parts.forEach((p) => out.push(`${p.body}${p.relation ? ' =' : rel(step.relation)}`));
+			for (const p of parts) out.push(`${p.body}${p.relation ? ' =' : rel(step.relation)}`);
 		} else {
 			out.push(`${step.body}${rel(step.relation)}`);
 		}
@@ -206,7 +206,9 @@ export function alignedRows(latex: string): string | null {
 	}
 	const eq = splitSteps(latex, equals);
 	if (eq.length > 2 && eq.every((p) => p.body.length > 0)) {
-		const rows = eq.map((p, k) => (k === 0 ? `${p.body} & = ${eq[1].body}` : k === 1 ? '' : `& = ${p.body}`)).filter(Boolean);
+		const rows = eq
+			.map((p, k) => (k === 0 ? `${p.body} & = ${eq[1].body}` : k === 1 ? '' : `& = ${p.body}`))
+			.filter(Boolean);
 		return `\\begin{aligned}${rows.join(' \\\\ ')}\\end{aligned}`;
 	}
 	return null;

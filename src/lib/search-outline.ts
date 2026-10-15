@@ -62,7 +62,8 @@ export function outline(body: string): { headings: Heading[]; excerpt: string; t
 		if (!excerpt && paragraph.length) {
 			const text = plain(paragraph.join(' '));
 			// a real sentence, not a label, a note or a lone symbol
-			if (text.length > 30) excerpt = text.length > EXCERPT_LENGTH ? text.slice(0, EXCERPT_LENGTH).replace(/\s+\S*$/, '') + '…' : text;
+			if (text.length > 30)
+				excerpt = text.length > EXCERPT_LENGTH ? text.slice(0, EXCERPT_LENGTH).replace(/\s+\S*$/, '') + '…' : text;
 		}
 		paragraph = [];
 	};

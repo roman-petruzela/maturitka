@@ -1,5 +1,6 @@
 ---
 import Icon from './Icon.astro';
+import { topicOrdinal } from '../lib/groups';
 
 interface Props {
 	href: string;
@@ -10,6 +11,7 @@ interface Props {
 }
 
 const { href, title, order = null, hasExercises = false, tags = [] } = Astro.props;
+const ordinal = topicOrdinal(order);
 ---
 
 <li>
@@ -17,7 +19,7 @@ const { href, title, order = null, hasExercises = false, tags = [] } = Astro.pro
 		{/* the gutter is always rendered, even for the handful of archive
 		    entries with no `order:` in their frontmatter — dropping it for
 		    those pushed their titles out of line with the rest of the column */}
-		<span class="num">{order != null ? `${order}.` : ''}</span>
+		<span class="num">{ordinal != null ? `${ordinal}.` : ''}</span>
 		<span class="topic-title">{title}</span>
 		<span class="badge-group">
 			{hasExercises && (

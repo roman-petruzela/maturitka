@@ -337,7 +337,10 @@ export class Whiteboard {
 		if (!this.pinch || this.touches.size < 2) return;
 		const [a, b] = [...this.touches.values()];
 		const rect = this.canvas.getBoundingClientRect();
-		const zoom = Math.min(8, Math.max(0.5, (this.pinch.zoom * (Math.hypot(a.x - b.x, a.y - b.y) || 1)) / this.pinch.dist));
+		const zoom = Math.min(
+			8,
+			Math.max(0.5, (this.pinch.zoom * (Math.hypot(a.x - b.x, a.y - b.y) || 1)) / this.pinch.dist)
+		);
 		this.panX = ((a.x + b.x) / 2 - rect.left) / this.fit - this.pinch.under.x * zoom;
 		this.panY = ((a.y + b.y) / 2 - rect.top) / this.fit - this.pinch.under.y * zoom;
 		this.zoom = zoom;

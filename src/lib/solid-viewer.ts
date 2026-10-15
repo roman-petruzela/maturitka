@@ -95,7 +95,8 @@ function setup(fig: HTMLElement): void {
 		if (!drag.moved) {
 			drag.moved = true;
 			// a turn starts from where the solid is now: the textbook view's angles are not the camera's
-			if (!turned) [drag.az, drag.el] = [home.kind === 'ortho' ? home.azimuth : -28, home.kind === 'ortho' ? home.elevation : 24];
+			if (!turned)
+				[drag.az, drag.el] = [home.kind === 'ortho' ? home.azimuth : -28, home.kind === 'ortho' ? home.elevation : 24];
 			fig.classList.add('is-turning');
 		}
 		turnTo(drag.az + dx * DEG_PER_PX.azimuth, drag.el + dy * DEG_PER_PX.elevation);
@@ -120,8 +121,15 @@ function setup(fig: HTMLElement): void {
 	svg.addEventListener('dblclick', reset);
 	svg.addEventListener('keydown', (e) => {
 		if (covered()) return;
-		const [az, el] = turned ? [cam.azimuth, cam.elevation] : [home.kind === 'ortho' ? home.azimuth : -28, home.kind === 'ortho' ? home.elevation : 24];
-		const moves: Record<string, [number, number]> = { ArrowLeft: [-8, 0], ArrowRight: [8, 0], ArrowUp: [0, -6], ArrowDown: [0, 6] };
+		const [az, el] = turned
+			? [cam.azimuth, cam.elevation]
+			: [home.kind === 'ortho' ? home.azimuth : -28, home.kind === 'ortho' ? home.elevation : 24];
+		const moves: Record<string, [number, number]> = {
+			ArrowLeft: [-8, 0],
+			ArrowRight: [8, 0],
+			ArrowUp: [0, -6],
+			ArrowDown: [0, 6],
+		};
 		if (moves[e.key]) {
 			e.preventDefault();
 			turnTo(az + moves[e.key][0], el + moves[e.key][1]);

@@ -42,13 +42,16 @@ const WIDE_UNITS = 18;
 function richText(s: string): string {
 	return segmentMath(s)
 		.map((seg) =>
-			seg.type === 'text' ? escapeAttr(seg.value) : `<span class="math-inline">${latexToMarkup(seg.value, false)}</span>`
+			seg.type === 'text'
+				? escapeAttr(seg.value)
+				: `<span class="math-inline">${latexToMarkup(seg.value, false)}</span>`
 		)
 		.join('');
 }
 
 function card(item: FormulaItem, where: string): string {
-	if (!item || (!item.tex?.trim() && !item.note?.trim())) throw new Error(`${where}: an item needs a "tex" or a "note"`);
+	if (!item || (!item.tex?.trim() && !item.note?.trim()))
+		throw new Error(`${where}: an item needs a "tex" or a "note"`);
 	const label = item.label ? `<span class="formula-label">${richText(item.label)}</span>` : '';
 	const note = item.note ? `<span class="formula-note">${richText(item.note)}</span>` : '';
 	const tex = item.tex?.trim();

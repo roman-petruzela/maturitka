@@ -47,7 +47,8 @@ const TASK_HEADING_RE =
 // (JS's \b only knows ASCII letters, so "Řešení\b" never matched before a colon —
 // hence the Unicode-aware lookaheads below instead of word boundaries)
 // where the statement ends and the solution / commentary begins
-const SOLUTION_RE = /^(?:Řešení|Postup|Výsledek|Výsledky|Návod|Odpověď|Poznámka|Pozn\.|Pozor|Zkouška|Ověření|Kontrola)(?!\p{L})/iu;
+const SOLUTION_RE =
+	/^(?:Řešení|Postup|Výsledek|Výsledky|Návod|Odpověď|Poznámka|Pozn\.|Pozor|Zkouška|Ověření|Kontrola)(?!\p{L})/iu;
 
 // bullet lists are tasks only under a heading that says so ("Úkoly", "Procvičování" …)
 const TASK_SECTION_RE = /(?<!\p{L})(?:Úkoly|Úlohy|Příklady|Cvičení|Procvičování|Zadání)(?!\p{L})/iu;
@@ -209,13 +210,13 @@ export function findExercises(article: ParentNode): Exercise[] {
 
 /** what must never reach a note: our own buttons and the answers hidden in spoilers */
 function sanitize(root: Element) {
-	root.querySelectorAll('.exercise-send-btn, .spoiler, .spoiler-block, button').forEach((n) => n.remove());
-	root.querySelectorAll('[id]').forEach((n) => n.removeAttribute('id'));
+	for (const n of root.querySelectorAll('.exercise-send-btn, .spoiler, .spoiler-block, button')) n.remove();
+	for (const n of root.querySelectorAll('[id]')) n.removeAttribute('id');
 }
 
 function ordinalOf(li: Element): string {
 	const list = li.parentElement;
-	if (!list || list.tagName !== 'OL') return '';
+	if (list?.tagName !== 'OL') return '';
 	const start = parseInt(list.getAttribute('start') ?? '1', 10) || 1;
 	return `${start + Array.from(list.children).indexOf(li)}.`;
 }
@@ -268,7 +269,7 @@ export function buildPreview(ex: Exercise): HTMLElement {
 		sanitize(copy);
 		if (copy.tagName === 'LI') line.append(`${ordinalOf(node)} `);
 		// only the first paragraph of a statement — lists and sub-parts stay out of the preview
-		copy.querySelectorAll('ul, ol, p').forEach((n) => n.remove());
+		for (const n of copy.querySelectorAll('ul, ol, p')) n.remove();
 		line.append(...Array.from(copy.childNodes));
 	});
 	return line;

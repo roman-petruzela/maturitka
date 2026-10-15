@@ -24,6 +24,7 @@
 // the time this one runs remark-parse has already installed `this.parser`.
 import { visit } from 'unist-util-visit';
 import type { Root, Text } from 'mdast';
+import type { VFile } from 'vfile';
 import { segmentMath } from './math-segments';
 
 export const OPEN = String.fromCharCode(0xe000);
@@ -33,6 +34,13 @@ const TOKEN_RE = new RegExp(`${OPEN}(\\d+)${CLOSE}`, 'g');
 export interface StoredMath {
 	latex: string;
 	display: boolean;
+}
+
+// the formulas lifted out of a document travel with its vfile to the later plugins
+declare module 'vfile' {
+	interface DataMap {
+		protectedMath: StoredMath[];
+	}
 }
 
 // A formula that continues over several lines inside a blockquote still
@@ -109,16 +117,17 @@ function protectMath(doc: string): { source: string; store: StoredMath[] } {
 
 // `this` is the unified processor; typed loosely to avoid pulling `unified`
 // in as a direct dependency just for one type.
+// biome-ignore lint/suspicious/noExplicitAny: the processor type lives in `unified`, not a direct dependency
 export function remarkProtectMath(this: any) {
-	const parse = this.parser as (doc: string, file: any) => Root;
-	this.parser = (doc: string, file: any) => {
+	const parse = this.parser as (doc: string, file: VFile) => Root;
+	this.parser = (doc: string, file: VFile) => {
 		const { source, store } = protectMath(doc);
 		file.data.protectedMath = store;
 		return parse(source, file);
 	};
 
-	return (tree: Root, file: any) => {
-		const store: StoredMath[] | undefined = file.data.protectedMath;
+	return (tree: Root, file: VFile) => {
+		const store = file.data.protectedMath;
 		if (!store || store.length === 0) return;
 		visit(tree, 'text', (node: Text) => {
 			if (!node.value.includes(OPEN)) return;

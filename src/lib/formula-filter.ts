@@ -67,8 +67,15 @@ export function initFormulaFilter(): void {
 				if (match) shown++;
 			}
 			// a topic with cards stays while one of them does; a topic of tables only, when its words match
-			const bodyText = plain(s.body.filter((el) => !el.querySelector('.formula-card')).map((el) => el.textContent).join(' '));
-			const visible = cards.length ? cards.some((c) => !c.classList.contains('is-filtered')) : words.every((w) => `${s.context} ${bodyText}`.includes(w));
+			const bodyText = plain(
+				s.body
+					.filter((el) => !el.querySelector('.formula-card'))
+					.map((el) => el.textContent)
+					.join(' ')
+			);
+			const visible = cards.length
+				? cards.some((c) => !c.classList.contains('is-filtered'))
+				: words.every((w) => `${s.context} ${bodyText}`.includes(w));
 			if (!cards.length && visible) shown++;
 			hide(s.title, !visible);
 			for (const el of s.body) hide(el, !visible);
@@ -86,7 +93,8 @@ export function initFormulaFilter(): void {
 				if (title) hide(title, !any);
 			}
 		}
-		for (const [heading, list] of categories) hide(heading, list.length > 0 && list.every((s) => s.title.classList.contains('is-filtered')));
+		for (const [heading, list] of categories)
+			hide(heading, list.length > 0 && list.every((s) => s.title.classList.contains('is-filtered')));
 		hide(empty, shown > 0);
 		count.textContent = words.length ? `${shown} z ${total}` : '';
 	};

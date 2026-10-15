@@ -42,7 +42,9 @@ export const GET: APIRoute = async () => {
 	}
 
 	const items = pages.map(({ item, terms }) => {
-		const k = terms.filter((t) => (spread.get(t.toLowerCase()) ?? 0) <= MAX_PAGES_PER_TERM).slice(0, MAX_TERMS_PER_PAGE);
+		const k = terms
+			.filter((t) => (spread.get(t.toLowerCase()) ?? 0) <= MAX_PAGES_PER_TERM)
+			.slice(0, MAX_TERMS_PER_PAGE);
 		return k.length ? { ...item, k } : item;
 	});
 

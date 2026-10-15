@@ -107,9 +107,7 @@ const nextOtherGroup = otherGroupLabel(next);
 // a leading heading that just repeats the page title would give the rail a
 // redundant first row, so it's dropped.
 const normalized = (s: string) => s.trim().toLowerCase().replace(/\s+/g, ' ');
-const tocHeadings = headings.filter(
-	(h, i) => !(i === 0 && normalized(h.text) === normalized(entry.data.title))
-);
+const tocHeadings = headings.filter((h, i) => !(i === 0 && normalized(h.text) === normalized(entry.data.title)));
 ---
 
 <BaseLayout
@@ -128,7 +126,7 @@ const tocHeadings = headings.filter(
 
 		<div class="reading-column">
 			<p class="crumb">
-				<a href={`/${subject}/`}>← Zpět na {SUBJECTS[subject].label.toLowerCase()}</a>
+				<a href={`/${subject}/`}>← {SUBJECTS[subject].label}</a>
 			</p>
 			<div class="topic-head">
 				<h1>{entry.data.title}</h1>

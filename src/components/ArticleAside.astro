@@ -31,8 +31,7 @@ const base = shown.length ? Math.min(...shown.map((h) => h.depth)) : 1;
 // way they're stored.
 const marks: { label: string; title: string }[] = [];
 if (hasExercises) marks.push({ label: 'úlohy', title: 'Obsahuje úlohy na výpočet' });
-if (tags.includes('doplněno'))
-	marks.push({ label: 'doplněno', title: 'Doplněný obsah, není z archivu podkladů' });
+if (tags.includes('doplněno')) marks.push({ label: 'doplněno', title: 'Doplněný obsah, není z archivu podkladů' });
 if (tags.includes('mimo-seznam-cetby'))
 	marks.push({ label: 'mimo seznam četby', title: 'Není na aktuálním školním seznamu četby k maturitě' });
 ---

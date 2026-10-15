@@ -51,7 +51,7 @@ function placeholderFigure(name: string): Element {
 					'aria-hidden': 'true',
 				},
 				children: [
-					{ type: 'element', tagName: 'circle', properties: { cx: '12', cy: '9' , r: '4.2' }, children: [] },
+					{ type: 'element', tagName: 'circle', properties: { cx: '12', cy: '9', r: '4.2' }, children: [] },
 					{
 						type: 'element',
 						tagName: 'path',

@@ -20,7 +20,17 @@
 //  * a polyhedron is drawn in the cavalier projection (`theta`, `k`), a round solid in an
 //    orthographic view from above (`elevation`); `"projection"` and `"azimuth"` change the view.
 import { fmt, escapeAttr, labelTspans, captionHtml, wrapSpoiler } from './svg-utils';
-import { cameraFor, drawSolid, missingParam, projector, solidBounds, type Camera, type SolidType, type Vec2, type Vec3 } from './solid-geometry';
+import {
+	cameraFor,
+	drawSolid,
+	missingParam,
+	projector,
+	solidBounds,
+	type Camera,
+	type SolidType,
+	type Vec2,
+	type Vec3,
+} from './solid-geometry';
 
 export type { SolidType };
 
@@ -112,11 +122,15 @@ export function solidSvg(spec: SolidSpec, cam: Camera, fixedScale?: number): { s
 	const faces: string[] = [];
 	if (spec.shade !== false) {
 		for (const f of d.faces) {
-			const pts = f.pts.map(toScreen).map((p) => `${fmt(p[0])},${fmt(p[1])}`).join(' ');
+			const pts = f.pts
+				.map(toScreen)
+				.map((p) => `${fmt(p[0])},${fmt(p[1])}`)
+				.join(' ');
 			if (f.gradient) {
 				const g = `${id}-${f.gradient}`;
 				if (!defs.some((x) => x.includes(`id="${g}"`))) {
-					const stop = (o: number, a: number) => `<stop offset="${o}" style="stop-color:var(--accent);stop-opacity:${a}"/>`;
+					const stop = (o: number, a: number) =>
+						`<stop offset="${o}" style="stop-color:var(--accent);stop-opacity:${a}"/>`;
 					defs.push(
 						f.gradient === 'linear'
 							? `<linearGradient id="${g}" x1="0" y1="0" x2="1" y2="0">${stop(0, 0.05)}${stop(0.32, 0.3)}${stop(1, 0.05)}</linearGradient>`
@@ -125,12 +139,15 @@ export function solidSvg(spec: SolidSpec, cam: Camera, fixedScale?: number): { s
 				}
 				faces.push(`<polygon class="solid-face" points="${pts}" style="fill:url(#${g})"/>`);
 			} else {
-				faces.push(`<polygon class="solid-face" points="${pts}" style="fill:var(--accent);fill-opacity:${fmt(0.04 + 0.24 * f.shade)}"/>`);
+				faces.push(
+					`<polygon class="solid-face" points="${pts}" style="fill:var(--accent);fill-opacity:${fmt(0.04 + 0.24 * f.shade)}"/>`
+				);
 			}
 		}
 	}
 
-	const edges = (list: Vec2[][], cls: string) => list.map((pts) => `<path class="${cls}" d="${pathOf(pts.map(toScreen))}"/>`);
+	const edges = (list: Vec2[][], cls: string) =>
+		list.map((pts) => `<path class="${cls}" d="${pathOf(pts.map(toScreen))}"/>`);
 
 	// what a mark (or a label) writes, and where: pushed off the drawing along `dir`
 	const text: string[] = [];
@@ -154,7 +171,9 @@ export function solidSvg(spec: SolidSpec, cam: Camera, fixedScale?: number): { s
 		const at = d.marks[m.name];
 		if (!at) throw new Error(`the mark "${m.name}" does not exist for a "${spec.type}"`);
 		for (const dim of d.dims.filter((x) => x.name === m.name)) {
-			dims.push(`<path class="solid-dim${dim.dashed ? ' solid-dim--dashed' : ''}" d="${pathOf(dim.pts.map(toScreen))}"/>`);
+			dims.push(
+				`<path class="solid-dim${dim.dashed ? ' solid-dim--dashed' : ''}" d="${pathOf(dim.pts.map(toScreen))}"/>`
+			);
 		}
 		write(at.at, at.dir, m.text ?? MARK_TEXT[m.name] ?? m.name);
 	}
