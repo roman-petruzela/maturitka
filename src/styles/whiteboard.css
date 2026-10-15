@@ -1,0 +1,252 @@
+/* ─────────────────────────────────────────────────────────────────────────
+   MATEMATICKÁ TABULE — prvky vkládané skriptem za běhu
+   These live in global CSS rather than a component's scoped <style>: a
+   scoped block only ever applies to elements Astro compiled into that
+   component's own template, not ones created with document.createElement.
+   ───────────────────────────────────────────────────────────────────── */
+
+/* injected by MathScratchpad's client script next to detected exercises */
+.exercise-send-btn {
+	display: inline-flex;
+	align-items: center;
+	font-family: var(--sans);
+	font-size: var(--t-xs);
+	white-space: nowrap;
+	color: var(--accent);
+	background: none;
+	border: 1px solid color-mix(in srgb, var(--accent) 35%, transparent);
+	border-radius: 2px;
+	padding: 0.05rem 0.4rem;
+	cursor: pointer;
+	vertical-align: middle;
+}
+
+.exercise-send-btn:hover {
+	background: color-mix(in srgb, var(--accent) 16%, transparent);
+}
+
+/* the floating "sticky note" on the math whiteboard (src/lib/whiteboard.ts) */
+.whiteboard-note {
+	position: absolute;
+	/* The note sits on the paper like the strokes do: --wx / --wy are paper units
+	   and --wb-s (set on the board by whiteboard.ts) is the current pixels per
+	   paper unit — so fullscreen, page zoom or a resize scale the whole picture
+	   and never shift a note against the drawing. Its own size follows the same
+	   factor, but never drops below 0.8 (on a phone the board is ~0.55, and 15px
+	   type would become 8px), times --note-k: the factor the user sets by dragging
+	   the note's corner (whiteboard.ts; 1 when untouched). */
+	--note-s: calc(max(var(--wb-s, 1), 0.8) * var(--note-k, 1));
+	left: calc(var(--wx, 12) * var(--wb-s, 1) * 1px);
+	top: calc(var(--wy, 12) * var(--wb-s, 1) * 1px);
+	transform: scale(var(--note-s));
+	transform-origin: 0 0;
+	width: 15rem;
+	max-width: calc((100% - 1.5rem) / var(--note-s));
+	max-height: calc((100% - 1.5rem) / var(--note-s));
+	overflow-y: auto;
+	background: #fff6c9;
+	border: 1px solid color-mix(in srgb, #b8960a 40%, transparent);
+	border-radius: 2px;
+	padding: 0.5rem 0.6rem 0.65rem;
+	cursor: grab;
+	touch-action: none;
+	z-index: 5;
+}
+
+.whiteboard-note.is-dragging {
+	cursor: grabbing;
+	border-color: #b8960a;
+}
+
+/* pen/eraser brush-size indicator that follows the cursor over the canvas —
+   stays a circle because it represents the round brush's actual size */
+.whiteboard-cursor {
+	position: absolute;
+	border-radius: 50%;
+	border: 1.5px solid var(--fg);
+	background: color-mix(in srgb, var(--fg) 8%, transparent);
+	transform: translate(-50%, -50%);
+	pointer-events: none;
+	z-index: 6;
+}
+
+.whiteboard-cursor.is-erase {
+	border: 1.5px dashed var(--accent);
+	background: color-mix(in srgb, var(--accent) 10%, transparent);
+}
+
+/* shown while a middle-click pan drag is pushing against the edge of the
+   pannable area — soft/wide on purpose, not a thin bright line, since it's
+   just "you can't go further this way", not an error */
+.whiteboard-canvas-wrap {
+	transition: box-shadow var(--dur-quick) var(--ease);
+}
+
+.whiteboard-canvas-wrap.is-pan-limited {
+	box-shadow: inset 0 0 0 6px color-mix(in srgb, var(--muted) 30%, transparent);
+}
+
+.whiteboard-note-close {
+	float: right;
+	width: max(1.3rem, calc(1.6rem / var(--note-k, 1)));
+	height: max(1.3rem, calc(1.6rem / var(--note-k, 1)));
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0;
+	line-height: 1;
+	border: none;
+	border-radius: 2px;
+	background: rgba(0, 0, 0, 0.08);
+	color: #55480a;
+	cursor: pointer;
+	font-size: max(0.85rem, calc(1.05rem / var(--note-k, 1)));
+}
+
+.whiteboard-note-close:hover {
+	background: rgba(0, 0, 0, 0.16);
+}
+
+/* bottom-right corner: drag it to scale the whole note (whiteboard.ts sets --note-k). Sticky, so
+   a statement long enough to scroll keeps it in view. Its size cancels a small --note-k, or a
+   note scaled right down would be left with a grip too small to grab. */
+.whiteboard-note-resize {
+	position: sticky;
+	bottom: 0.1rem;
+	width: max(1.1rem, calc(1.5rem / var(--note-k, 1)));
+	height: max(1.1rem, calc(1.5rem / var(--note-k, 1)));
+	margin: 0.2rem 0 0 auto;
+	color: #8a7a2a;
+	cursor: nwse-resize;
+	touch-action: none;
+}
+
+.whiteboard-note-resize:hover,
+.whiteboard-note.is-resizing .whiteboard-note-resize {
+	color: #55480a;
+}
+
+.whiteboard-note.is-resizing {
+	cursor: nwse-resize;
+	user-select: none;
+}
+
+.whiteboard-note-body {
+	font-family: var(--sans);
+	font-size: var(--t-sm);
+	line-height: 1.4;
+	color: #3a3005;
+	overflow-wrap: anywhere;
+}
+
+/* text-only note (a string): keep its line breaks */
+.whiteboard-note-body.is-plain {
+	white-space: pre-wrap;
+}
+
+/* a note built from the article's own markup: typeset formulas, lists, bold.
+   The article's typography is reset here — a heading copied into the note
+   must not bring its own size and margins along. */
+.whiteboard-note-body > div > :is(p, ol, ul, div) {
+	margin: 0 0 0.45em;
+}
+
+.whiteboard-note-body > div > :last-child {
+	margin-bottom: 0;
+}
+
+.whiteboard-note-body :is(ol, ul) {
+	padding-left: 1.25em;
+}
+
+/* the article gives display math its own tinted box and the theme's text colour —
+   on the yellow note that would be a dark box with light-on-yellow type */
+.whiteboard-note-body .math-inline,
+.whiteboard-note-body .math-display {
+	color: inherit;
+}
+
+.whiteboard-note-body .math-display {
+	margin: 0.35em 0;
+	padding: 0.15em 0;
+	background: none;
+}
+
+.whiteboard-note-body .recon-note {
+	font-size: inherit;
+}
+
+/* items in the whiteboard's "Zadání" dropdown — the first paragraph of the task
+   as typeset in the article, clipped to two lines */
+.whiteboard-exercises-item {
+	display: block;
+	width: 100%;
+	text-align: left;
+	font-family: var(--sans);
+	font-size: var(--t-sm);
+	line-height: 1.35;
+	color: var(--fg);
+	background: none;
+	border: none;
+	border-radius: 2px;
+	padding: 0.4rem 0.5rem;
+	cursor: pointer;
+}
+
+.whiteboard-exercises-item > span {
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	line-clamp: 2;
+	overflow: hidden;
+}
+
+.whiteboard-exercises-item:hover {
+	background: color-mix(in srgb, var(--accent) 10%, transparent);
+	color: var(--accent);
+}
+
+/* Result rows in SearchDialog.astro — also document.createElement, same
+   reasoning as the whiteboard notes above for living here instead of that
+   component's own scoped <style>. */
+.search-result {
+	border-radius: 2px;
+}
+
+.search-result a {
+	display: flex;
+	flex-direction: column;
+	gap: 0.15rem;
+	padding: 0.55rem 0.65rem;
+	color: var(--fg);
+	text-decoration: none;
+}
+
+.search-result-title {
+	font-family: var(--sans);
+	font-size: 0.95rem;
+	line-height: 1.4;
+}
+
+.search-result-meta {
+	font-family: var(--sans);
+	font-size: var(--t-xs);
+	color: var(--muted);
+}
+
+/* the words of a page's opening that the query was found in */
+.search-result-snippet {
+	font-family: var(--sans);
+	font-size: var(--t-xs);
+	line-height: 1.4;
+	color: var(--muted);
+	opacity: 0.85;
+}
+
+.search-result.is-active {
+	background: var(--surface);
+}
+
+.search-result.is-active .search-result-title {
+	color: var(--accent);
+}

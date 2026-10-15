@@ -1,0 +1,562 @@
+/* ─────────────────────────────────────────────────────────────────────────
+   ČLÁNEK — třísloupcové rozvržení
+   nav (rejstřík předmětu) │ text (max 680px) │ aside (obsah, vzorce)
+
+   Below the 3-column breakpoint both rails collapse behind their own
+   toggle button and reflow around the article: the table of contents
+   goes above it (it's what you want before reading), the subject index
+   below (what you want after).
+   ───────────────────────────────────────────────────────────────────── */
+.reading-shell {
+	display: grid;
+	grid-template-columns: minmax(0, 1fr);
+	grid-template-areas: "nav" "aside" "main";
+	gap: 1.25rem 0;
+}
+
+.reading-shell > .rail-nav {
+	grid-area: nav;
+}
+
+.reading-shell > .reading-column {
+	grid-area: main;
+	min-width: 0;
+	/* the 680px measure is enforced here, not only by the grid track: below
+	   the three-column breakpoint the shell is a single full-width column,
+	   and without this the text ran to ~100 characters a line on a tablet */
+	max-width: var(--measure);
+	margin-inline: auto;
+	width: 100%;
+}
+
+.reading-shell > .rail-aside {
+	grid-area: aside;
+}
+
+/* Tablet: the table of contents earns its place beside the text before the
+   subject index does — you want to know where you are in the article you're
+   reading before you want to jump to a different one. */
+@media (min-width: 1024px) {
+	.reading-shell {
+		grid-template-columns: minmax(0, var(--measure)) minmax(13rem, 18rem);
+		grid-template-areas: "nav nav" "main aside";
+		justify-content: center;
+		gap: 0 var(--rail-gap);
+		align-items: start;
+	}
+
+	.reading-shell > .rail-nav {
+		margin-bottom: 2rem;
+	}
+}
+
+@media (min-width: 1280px) {
+	.reading-shell {
+		grid-template-columns: minmax(0, 1fr) minmax(0, var(--measure)) minmax(0, 1fr);
+		grid-template-areas: "nav main aside";
+	}
+
+	.reading-shell > .rail-nav {
+		margin-bottom: 0;
+	}
+}
+
+/* ── Postranní panely ────────────────────────────────────────────────── */
+.rail {
+	font-family: var(--sans);
+	font-size: var(--t-sm);
+	line-height: 1.5;
+	min-width: 0;
+}
+
+/* Collapsed is the default state for both rails; each one switches to its
+   open, sticky desktop form at its own breakpoint below. Deliberately a
+   button + class rather than <details>: on desktop the rails must be
+   plainly visible and not collapsible at all, and a <details> cannot be
+   forced open from CSS across browsers. */
+.rail-body {
+	display: none;
+	padding: 1rem 0 0.25rem;
+}
+
+/* Capped and independently scrollable — a subject with a hundred-plus
+   topics used to expand into the full list inline, pushing the actual
+   article thousands of pixels down the page. Only ever matters here: at
+   the wider breakpoints below, the toggle button (and so the .is-open
+   class) is never reachable in the first place, so this never competes
+   with each rail's own sticky-sidebar scrolling on desktop. */
+.rail.is-open > .rail-body {
+	display: block;
+	max-height: 60vh;
+	overflow-y: auto;
+	overscroll-behavior: contain;
+}
+
+/* the toggle button already carries this text while it's on screen */
+.rail-title {
+	display: none;
+}
+
+.rail-toggle {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 0.75rem;
+	width: 100%;
+	padding: 0.6rem 0;
+	background: none;
+	border: none;
+	border-top: 1px solid var(--border);
+	border-bottom: 1px solid var(--border);
+	color: var(--fg);
+	font-family: var(--sans);
+	font-size: var(--t-sm);
+	font-weight: 600;
+	text-align: left;
+	cursor: pointer;
+}
+
+.rail-toggle:hover {
+	color: var(--accent);
+}
+
+/* the meta block sits directly above the toggle and closes with its own
+   rule, so the button must not draw a second one right underneath it */
+.rail-meta + .rail-toggle {
+	border-top: none;
+}
+
+/* rotates to point down when the panel is open — the one bit of motion
+   that answers a click, so it stays */
+.rail-toggle-mark {
+	flex: 0 0 auto;
+	color: var(--muted);
+	transition: transform var(--dur-quick) var(--ease);
+}
+
+.rail.is-open .rail-toggle-mark {
+	transform: rotate(90deg);
+}
+
+@media (min-width: 1024px) {
+	.rail-aside .rail-toggle {
+		display: none;
+	}
+
+	.rail-aside .rail-body {
+		display: block;
+		padding: 0;
+	}
+
+	.rail-aside .rail-title {
+		display: block;
+	}
+
+	.rail-aside {
+		position: sticky;
+		top: 7.5rem;
+		max-height: calc(100vh - 9.5rem);
+		overflow-y: auto;
+		overscroll-behavior: contain;
+		padding-bottom: 1.5rem;
+		/* glides to close the gap the header leaves once it auto-hides —
+		   same easing/duration as the header's own slide-away, so the two
+		   read as one coordinated movement rather than two unrelated ones */
+		transition:
+			top var(--dur-move) var(--ease),
+			max-height var(--dur-move) var(--ease);
+	}
+
+	/* The header is `position: sticky` + `transform: translateY(-100%)`
+	   when hidden, not removed from flow — its own 7.5rem of reserved
+	   space above the rail stays empty once it slides away. Mirrored onto
+	   <body> by BaseLayout's scroll script (the rail isn't a descendant of
+	   <header>, so a plain sibling/descendant selector can't reach it). */
+	body.header-hidden .rail-aside {
+		top: 1.5rem;
+		max-height: calc(100vh - 3.5rem);
+	}
+}
+
+@media (min-width: 1280px) {
+	.rail-nav .rail-toggle {
+		display: none;
+	}
+
+	.rail-nav .rail-body {
+		display: block;
+		padding: 0;
+	}
+
+	.rail-nav .rail-title {
+		display: block;
+	}
+
+	.rail-nav {
+		position: sticky;
+		top: 7.5rem;
+		max-height: calc(100vh - 9.5rem);
+		overflow-y: auto;
+		overscroll-behavior: contain;
+		padding-bottom: 1.5rem;
+		transition:
+			top var(--dur-move) var(--ease),
+			max-height var(--dur-move) var(--ease);
+	}
+
+	body.header-hidden .rail-nav {
+		top: 1.5rem;
+		max-height: calc(100vh - 3.5rem);
+	}
+}
+
+/* Both rails share one scrollbar treatment, deliberately kept as a single
+   rule rather than repeated per-rail — .rail-nav (subject-wide, dozens of
+   topics) is almost always long enough to need it; .rail-aside (this one
+   article's own contents) only sometimes is, which used to read as "the
+   right rail has a bigger, more visible scrollbar" when it happened to be
+   just barely taller than its box, purely because Firefox's default thin
+   thumb and Chromium's default (much thicker, always-opaque) one looked
+   nothing alike. Pinning both to the same explicit width/colour removes
+   that inconsistency regardless of which rail or browser you're on. */
+.rail-aside,
+.rail-nav,
+.rail-body {
+	scrollbar-width: thin;
+	scrollbar-color: var(--border-strong) transparent;
+}
+
+.rail-aside::-webkit-scrollbar,
+.rail-nav::-webkit-scrollbar,
+.rail-body::-webkit-scrollbar {
+	width: 5px;
+}
+
+.rail-aside::-webkit-scrollbar-track,
+.rail-nav::-webkit-scrollbar-track,
+.rail-body::-webkit-scrollbar-track {
+	background: transparent;
+}
+
+.rail-aside::-webkit-scrollbar-thumb,
+.rail-nav::-webkit-scrollbar-thumb,
+.rail-body::-webkit-scrollbar-thumb {
+	background: var(--border-strong);
+	border-radius: 0;
+}
+
+.rail-section + .rail-section {
+	margin-top: 1.75rem;
+}
+
+.rail-meta + .rail-toggle {
+	border-top: none;
+}
+
+/* ── Levý panel: rejstřík předmětu ───────────────────────────────────── */
+.rail-tree {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.rail-tree-group + .rail-tree-group {
+	margin-top: 1.1rem;
+}
+
+/* Category headings in the rail: the display serif rather than the rows'
+   sans, which is what stops them dissolving into the list underneath —
+   they used to be the same face at almost the same size. The category
+   you're currently reading in is the one that carries colour. */
+.rail-tree-group-label {
+	margin: 0 0 0.35rem;
+	padding: 0.3rem 0.55rem;
+	background: var(--surface);
+	border-left: 2px solid var(--border-strong);
+	font-family: var(--display);
+	font-size: 0.95rem;
+	font-weight: 700;
+	line-height: 1.3;
+	color: var(--fg);
+}
+
+.rail-tree-group-label.is-current {
+	border-left-color: var(--accent);
+	color: var(--accent);
+}
+
+.rail-tree-items {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.rail-tree-items a {
+	display: flex;
+	gap: 0.5rem;
+	padding: 0.28rem 0.4rem 0.28rem 0.55rem;
+	/* the marker rail every row shares, so the current topic's accent bar
+	   lights up in place instead of shifting the text sideways */
+	border-left: 2px solid transparent;
+	color: var(--muted);
+	text-decoration: none;
+	transition:
+		color var(--dur-quick) var(--ease),
+		background var(--dur-quick) var(--ease);
+}
+
+.rail-tree-items a:hover {
+	color: var(--fg);
+	background: var(--surface);
+}
+
+.rail-tree-items .is-current {
+	border-left-color: var(--accent);
+	background: var(--surface);
+	color: var(--fg);
+	font-weight: 500;
+}
+
+.rail-tree-num {
+	flex: 0 0 1.3rem;
+	text-align: right;
+	font-variant-numeric: tabular-nums;
+	/* dimmer than the title it belongs to, but still a readable number —
+	   these are the topic's real ordinal, not decoration */
+	color: color-mix(in srgb, var(--muted) 70%, var(--bg));
+}
+
+.rail-tree-items .is-current .rail-tree-num {
+	color: var(--accent);
+}
+
+/* ── Pravý panel: metadata, obsah článku, vzorce ─────────────────────── */
+.rail-meta {
+	margin: 0 0 1.6rem;
+	color: var(--muted);
+}
+
+.rail-meta > div {
+	display: flex;
+	justify-content: space-between;
+	gap: 0.75rem;
+	padding: 0.35rem 0;
+	border-bottom: 1px solid var(--border);
+}
+
+.rail-meta > div:first-child {
+	border-top: 1px solid var(--border);
+}
+
+.rail-meta dt {
+	flex: 0 0 auto;
+}
+
+.rail-meta dd {
+	margin: 0;
+	min-width: 0;
+	color: var(--fg);
+	text-align: right;
+	font-variant-numeric: tabular-nums;
+	overflow-wrap: anywhere;
+}
+
+.rail-marks {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	gap: 0.3rem;
+}
+
+/* Adjacent topics, in the slot the reading-time estimate used to hold —
+   where you go next is a decision; "3 min" was only ever trivia. The only
+   place this shows now (the article body used to end with a duplicate
+   Předchozí/Další pager of its own) — always visible, same as on desktop,
+   not tucked behind the "Obsah" toggle below it. */
+.rail-adjacent {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 1.6rem;
+}
+
+.rail-adjacent a {
+	display: flex;
+	flex-direction: column;
+	gap: 0.1rem;
+	padding: 0.5rem 0.6rem;
+	border-left: 2px solid var(--border);
+	color: var(--fg);
+	text-decoration: none;
+	transition:
+		border-color var(--dur-quick) var(--ease),
+		background var(--dur-quick) var(--ease);
+}
+
+.rail-adjacent a + a {
+	margin-top: 0.35rem;
+}
+
+.rail-adjacent a:hover {
+	border-left-color: var(--accent);
+	background: var(--surface);
+}
+
+.rail-adjacent-label {
+	font-size: var(--t-xs);
+	color: var(--muted);
+}
+
+.rail-adjacent-title {
+	line-height: 1.35;
+}
+
+/* Crossing into a neighbouring category — the accent border is permanent
+   here rather than only-on-hover (unlike a plain same-category link), so
+   the "this isn't the category you're reading" signal is visible before
+   you've even moved the pointer over it. */
+.rail-adjacent a.is-other-group {
+	border-left-color: var(--accent);
+}
+
+.rail-adjacent-crumb {
+	font-size: var(--t-xs);
+	color: var(--accent);
+}
+
+.rail-toc {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.rail-toc a {
+	display: block;
+	padding: 0.28rem 0.4rem 0.28rem 0.65rem;
+	border-left: 2px solid var(--border);
+	color: var(--muted);
+	text-decoration: none;
+	transition:
+		color var(--dur-quick) var(--ease),
+		border-color var(--dur-quick) var(--ease);
+}
+
+.rail-toc a:hover {
+	color: var(--fg);
+	border-left-color: var(--border-strong);
+}
+
+.rail-toc .toc-depth-3 a {
+	padding-left: 1.4rem;
+	font-size: var(--t-xs);
+}
+
+.rail-toc a.is-active {
+	color: var(--fg);
+	border-left-color: var(--accent);
+}
+
+/* Formula digest, cloned from the article's own display math at runtime
+   (see BaseLayout's script) so it can never drift out of sync with the
+   text. Hidden entirely when an article has no display formulas. */
+.rail-formulas {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.rail-formulas li + li {
+	margin-top: 0.55rem;
+}
+
+.rail-formulas a {
+	display: block;
+	padding: 0.6rem 0.7rem;
+	background: var(--surface);
+	border-left: 2px solid var(--border);
+	color: var(--fg);
+	text-decoration: none;
+	transition: border-color var(--dur-quick) var(--ease);
+}
+
+.rail-formulas a:hover {
+	border-left-color: var(--accent);
+}
+
+/* Full reading size, not the rail's small-print size: a formula is the
+   thing you came to the panel for, and MathLive's glyphs go unreadable
+   below about a rem. The row scrolls sideways rather than shrinking.
+   The scrollbar is deliberately visible (not hidden, unlike most
+   scrollbars on this site) — a wide formula that overflows with no visual
+   hint that there's more to it off to the side just looked cut off and
+   broken; a thin sliver of scrollbar is what tells you to keep scrolling. */
+.rail-formulas .math-display {
+	margin: 0;
+	font-size: 1.05rem;
+	text-align: left;
+	background: none;
+	padding: 0 2px 0.35rem 0; /* the 2px: see .math-inline */
+	border: none;
+	overflow-x: auto;
+	scrollbar-width: thin;
+	scrollbar-color: var(--border-strong) transparent;
+}
+
+.rail-formulas .math-display.is-fitting {
+	overflow-x: visible;
+}
+
+.rail-formulas .math-display::-webkit-scrollbar {
+	height: 5px;
+}
+
+.rail-formulas .math-display::-webkit-scrollbar-track {
+	background: transparent;
+}
+
+.rail-formulas .math-display::-webkit-scrollbar-thumb {
+	background: var(--border-strong);
+	border-radius: 0;
+}
+
+/* The "kde ..." tail that so many of these formulas carry, lifted out of
+   the maths and set as plain prose — left inside the formula it rendered
+   in maths italics and read as a second, broken equation. */
+/* the small caption above a formula (or a run of formulas of one section): what it is
+   called. Deliberately quieter than the panel's own title. */
+.rail-formulas .rail-formula-heading {
+	margin: 1rem 0 0.4rem;
+	font-family: var(--sans);
+	font-size: var(--t-xs);
+	font-weight: 600;
+	line-height: 1.3;
+	color: var(--muted);
+}
+
+.rail-formulas .rail-formula-heading:first-child {
+	margin-top: 0;
+}
+
+.rail-formulas .rail-formula-heading + li {
+	margin-top: 0;
+}
+
+.rail-formula-note {
+	display: block;
+	margin-top: 0.35rem;
+	font-family: var(--sans);
+	font-size: var(--t-xs);
+	line-height: 1.45;
+	color: var(--muted);
+}
+
+/* a fraction or index inside the note keeps its typeset form; at the note's own size its
+   numerator and denominator would be unreadably small */
+.rail-formula-note .ML__latex {
+	font-size: 1.35em;
+	vertical-align: middle;
+}
+
+.rail-empty {
+	margin: 0;
+	color: var(--muted);
+}

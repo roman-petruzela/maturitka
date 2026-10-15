@@ -1,0 +1,122 @@
+/* ─────────────────────────────────────────────────────────────────────────
+   PŘECHODY MEZI STRÁNKAMI
+   Native cross-document View Transitions — opts every same-origin
+   navigation into a soft crossfade instead of the usual hard cut. This is
+   a real page load throughout (not a client-side router swap), so every
+   existing script on the site keeps running exactly as before; a browser
+   that doesn't support the feature just navigates normally, no fallback
+   code needed. One whole-page crossfade, not per-element effects — the only
+   named element is the article title, which morphs between topic pages.
+   ───────────────────────────────────────────────────────────────────── */
+@view-transition {
+	navigation: auto;
+}
+
+/* One crossfade for every page change, without movement or scaling. The
+   native transition fades the old page out while the new one fades in. */
+@keyframes maturitka-fade-out {
+	to {
+		opacity: 0;
+	}
+}
+
+@keyframes maturitka-fade-in {
+	from {
+		opacity: 0;
+	}
+}
+
+::view-transition-old(root) {
+	animation: var(--dur-page) var(--ease) both maturitka-fade-out;
+}
+
+::view-transition-new(root) {
+	animation: var(--dur-page) var(--ease) both maturitka-fade-in;
+}
+
+/* Browsers without cross-document transitions (Firefox / Zen) get the same
+   timing played on <body> by the "vt-fallback" script in BaseLayout.astro.
+   There the old and new page never overlap, so instead of fading to nothing
+   (a blink between pages) the page only dims part way and comes back. */
+@keyframes maturitka-dim-out {
+	to {
+		opacity: 0.6;
+	}
+}
+
+@keyframes maturitka-dim-in {
+	from {
+		opacity: 0.6;
+	}
+}
+
+html.vt-fallback body {
+	animation: var(--dur-page) var(--ease) backwards maturitka-dim-in;
+}
+
+html.vt-fallback.is-leaving body {
+	animation: var(--dur-quick) var(--ease) forwards maturitka-dim-out;
+}
+
+/* The morphing title (see .topic-head h1's view-transition-name) needs its
+   own, gentler treatment — the default UA cross-fade-and-resize is already
+   the effect wanted here, just slowed to match the page crossfade instead
+   of the browser's much snappier ~250ms default. */
+::view-transition-group(article-title) {
+	animation-duration: var(--dur-page);
+	animation-timing-function: var(--ease);
+}
+
+/* the blanket reduced-motion rule above can't reach these — they aren't
+   part of the normal DOM tree, so a plain `*` selector never matches them */
+@media (prefers-reduced-motion: reduce) {
+	::view-transition-group(*),
+	::view-transition-old(*),
+	::view-transition-new(*) {
+		animation: none !important;
+	}
+}
+
+a {
+	color: var(--accent);
+}
+
+a:hover {
+	color: var(--accent-deep);
+}
+
+:focus-visible {
+	outline: 2px solid var(--accent);
+	outline-offset: 2px;
+}
+
+/* shared monochrome icon set (src/components/Icon.astro) — nudge down to
+   sit on the text baseline instead of the (taller) SVG box's own baseline */
+.icon {
+	vertical-align: -0.2em;
+	flex-shrink: 0;
+}
+
+/* Hidden off-screen until keyboard focus lands on it — lets someone
+   tabbing through the page (or using a screen reader) jump straight past
+   the sticky/auto-hiding header and the full subject strip instead of
+   having to tab through every link in it first. */
+.skip-link {
+	position: absolute;
+	top: -3rem;
+	left: 1rem;
+	z-index: 100;
+	background: var(--accent);
+	color: var(--bg);
+	padding: 0.6rem 1rem;
+	border-radius: 2px;
+	font-family: var(--sans);
+	font-size: var(--t-ui);
+	font-weight: 600;
+	text-decoration: none;
+	transition: top var(--dur-quick) var(--ease);
+}
+
+.skip-link:focus {
+	top: 1rem;
+}

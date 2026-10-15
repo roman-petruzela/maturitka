@@ -1,0 +1,102 @@
+@import "mathlive/static.css";
+@import "@fontsource-variable/literata/opsz.css";
+@import "@fontsource-variable/literata/opsz-italic.css";
+@import "@fontsource-variable/inter/wght.css";
+
+/* ─────────────────────────────────────────────────────────────────────────
+   MATURITKA — tmavý archivní systém
+   Fixed dark palette regardless of the device's system light/dark
+   preference: following prefers-color-scheme meant devices set to light
+   mode got a plain white theme instead of the intended look.
+   ───────────────────────────────────────────────────────────────────── */
+:root {
+	--bg: #141311;
+	--surface: #1a1816;
+	--surface-raised: #1f1d1a;
+	--fg: #e5e0d8;
+	--muted: #9e978e;
+	--accent: #d98a5b;
+	--accent-deep: #c87a4b;
+	--border: #2b2622;
+	--border-strong: #3a342d;
+
+	/* Display face for the wordmark and every heading — the stack this site
+	   has always used. It resolves to a different (but always old-style)
+	   serif per platform: Iowan Old Style on macOS, Palatino Linotype on
+	   Windows, Georgia or P052 on Linux. That variation is deliberate and
+	   long-standing here; see --serif for the one face that is pinned. */
+	--display: "Iowan Old Style", "Palatino Linotype", Georgia, ui-serif, serif;
+	/* Reading face, pinned to a webfont so body copy is identical
+	   everywhere — Literata is drawn for long-form screen reading. */
+	--serif: "Literata Variable", "Iowan Old Style", "Palatino Linotype", Georgia, serif;
+	--sans: "Inter Variable", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+	--mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+
+	/* 40rem at the 17px root = exactly 680px — the brief's reading cap,
+	   which lands at ~72 characters per line in Literata at --t-read */
+	--measure: 40rem;
+	/* page shells: reading pages keep the rails tight around the 680px
+	   column, index pages get more room because their content is a grid
+	   that genuinely benefits from the width */
+	--shell-reading: 76rem;
+	--shell-index: 80rem;
+	--shell-prose: 43rem;
+	--rail-gap: 3rem;
+
+	--t-xs: 0.72rem;
+	--t-sm: 0.82rem;
+	--t-ui: 0.9rem;
+	--t-read: 1.08rem;
+
+	/* Motion: one curve and three durations for the whole site — hover and
+	   colour changes (quick), things that move or open (move), and the page
+	   change (page). Components use these instead of their own numbers. */
+	--ease: cubic-bezier(0.2, 0, 0, 1);
+	--dur-quick: 150ms;
+	--dur-move: 220ms;
+	--dur-page: 300ms;
+
+	color-scheme: dark;
+}
+
+/* Extra width on large monitors goes to the index rails, never to the
+   reading column — longer lines would undo the 680px measure. */
+@media (min-width: 1800px) {
+	:root {
+		--shell-reading: 86rem;
+		--shell-index: 92rem;
+	}
+}
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 17px;
+	scroll-behavior: smooth;
+}
+
+body {
+	margin: 0;
+	background: var(--bg);
+	color: var(--fg);
+	font-family: var(--serif);
+	font-optical-sizing: auto;
+	line-height: 1.7;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+}
+
+@media (prefers-reduced-motion: reduce) {
+	html {
+		scroll-behavior: auto;
+	}
+	*,
+	*::before,
+	*::after {
+		animation-duration: 0.01ms !important;
+		animation-iteration-count: 1 !important;
+		transition-duration: 0.01ms !important;
+	}
+}

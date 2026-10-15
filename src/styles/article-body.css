@@ -1,0 +1,464 @@
+/* ─────────────────────────────────────────────────────────────────────────
+   TĚLO ČLÁNKU
+   ───────────────────────────────────────────────────────────────────── */
+.topic-head {
+	padding-bottom: 1.25rem;
+	margin-bottom: 1.75rem;
+	border-bottom: 1px solid var(--border);
+}
+
+.topic-head h1 {
+	font-size: 1.95rem;
+	/* Named so the cross-document view transition can morph the old title
+	   straight into the new one on topic-to-topic navigation (Předchozí/
+	   Další, the subject rail, search) — a small, concrete "you're still
+	   reading, just a different topic now" cue, rather than the title
+	   just being part of the flat whole-page crossfade like everything
+	   else. Harmless on a transition to/from a page with no matching
+	   element (e.g. the homepage) — the browser just fades that side on
+	   its own instead of morphing, no special-casing needed here. */
+	view-transition-name: article-title;
+}
+
+article.topic {
+	font-size: var(--t-read);
+	line-height: 1.72;
+}
+
+article.topic > :first-child {
+	margin-top: 0;
+}
+
+article.topic h2 {
+	margin: 2.5rem 0 0.8rem;
+	font-size: 1.4rem;
+	padding-bottom: 0.35rem;
+	border-bottom: 1px solid var(--border);
+	clear: both;
+	scroll-margin-top: 7.5rem;
+}
+
+article.topic h3 {
+	margin: 1.9rem 0 0.6rem;
+	font-size: 1.15rem;
+	color: var(--fg);
+	clear: both;
+	scroll-margin-top: 7.5rem;
+}
+
+article.topic h4 {
+	margin: 1.5rem 0 0.5rem;
+	font-size: 1.02rem;
+	scroll-margin-top: 7.5rem;
+}
+
+/* some source documents use "# " for their own top-level sections; the
+   page title is already an h1 outside the article, so these read as the
+   article's major section breaks */
+article.topic h1 {
+	margin: 2.75rem 0 0.9rem;
+	font-size: 1.55rem;
+	padding-bottom: 0.4rem;
+	border-top: 1px solid var(--border);
+	border-bottom: 1px solid var(--border);
+	padding-top: 0.4rem;
+	clear: both;
+	scroll-margin-top: 7.5rem;
+}
+
+article.topic p {
+	margin: 0.95rem 0;
+}
+
+article.topic strong {
+	font-weight: 700;
+	color: var(--fg);
+}
+
+/* manual clear point inside a section (a plain "---") — h2/h3 already clear
+   floats, but a floated exercise graph can still be "active" when the next
+   exercise starts mid-section (bold "**Příklad 2:**" lead-in, not a
+   heading), which visually mixes the new exercise text into the previous
+   graph's margin */
+article.topic hr {
+	clear: both;
+	margin: 2rem 0;
+	height: 4px;
+	border: none;
+	border-top: 1px solid var(--border);
+	border-bottom: 1px solid var(--border);
+}
+
+article.topic blockquote {
+	margin: 1.4rem 0;
+	padding: 0.65rem 1.1rem;
+	border-left: 3px solid var(--accent);
+	background: var(--surface);
+	color: var(--fg);
+}
+
+article.topic blockquote > :first-child {
+	margin-top: 0;
+}
+
+article.topic blockquote > :last-child {
+	margin-bottom: 0;
+}
+
+/* dense nested bullet lists (this content is heavily "heslovité") need real
+   breathing room between items, or the whole page reads as one grey wall */
+article.topic ul,
+article.topic ol {
+	padding-left: 1.3em;
+}
+
+article.topic li {
+	margin-bottom: 0.5rem;
+}
+
+article.topic li > ul,
+article.topic li > ol {
+	margin-top: 0.5rem;
+}
+
+article.topic li::marker {
+	color: var(--muted);
+}
+
+/* a bare URL as link text (Wikipedia links with percent-encoded titles) has no break point
+   either, and pushed a phone's page sideways */
+article.topic a {
+	overflow-wrap: anywhere;
+}
+
+article.topic code {
+	font-family: var(--mono);
+	background: var(--surface-raised);
+	border: 1px solid var(--border);
+	border-radius: 2px;
+	padding: 0.1em 0.35em;
+	font-size: 0.88em;
+	/* a longer inline identifier (document.querySelector("…")) has no
+	   natural break point and doesn't fit a phone-width column, especially
+	   nested a couple of lists deep — this lets it wrap inside its own
+	   line instead of pushing the whole page into horizontal scroll. Has
+	   no effect inside a <pre> block: `white-space: pre` there already
+	   blocks wrapping regardless, which is correct — a multi-line code
+	   sample scrolls sideways (see article.topic pre), it doesn't reflow. */
+	overflow-wrap: break-word;
+}
+
+article.topic pre {
+	background: var(--surface);
+	border: 1px solid var(--border);
+	border-left: 3px solid var(--border-strong);
+	border-radius: 0;
+	padding: 0.9rem 1.1rem;
+	overflow-x: auto;
+	font-size: 0.88em;
+	line-height: 1.6;
+}
+
+article.topic pre code {
+	background: none;
+	border: none;
+	padding: 0;
+	font-size: 1em;
+}
+
+/* A table with several columns doesn't have anywhere to shrink to on a
+   phone — `width: 100%` alone doesn't stop cells from staying at their
+   content's natural width, which was pushing the whole page into
+   horizontal scroll. `display: block` is what lets a <table> respect
+   `overflow-x` as a plain scroll container; <thead>/<tr>/<td> keep their
+   own table-formatting roles regardless (those come from the elements'
+   own tag names in the UA stylesheet, not from their parent's display),
+   so it still renders as a normal table, just one that scrolls sideways
+   as a whole instead of overflowing the page. */
+article.topic table {
+	display: block;
+	max-width: 100%;
+	overflow-x: auto;
+	width: 100%;
+	border-collapse: collapse;
+	font-family: var(--sans);
+	font-size: var(--t-sm);
+	margin: 1.4rem 0;
+	scrollbar-width: thin;
+	scrollbar-color: var(--border-strong) transparent;
+}
+
+article.topic table::-webkit-scrollbar {
+	height: 5px;
+}
+
+article.topic table::-webkit-scrollbar-track {
+	background: transparent;
+}
+
+article.topic table::-webkit-scrollbar-thumb {
+	background: var(--border-strong);
+	border-radius: 0;
+}
+
+article.topic thead th {
+	background: var(--surface);
+	font-weight: 600;
+	border-bottom: 1px solid var(--border-strong);
+}
+
+article.topic th,
+article.topic td {
+	border: 1px solid var(--border);
+	padding: 0.45rem 0.65rem;
+	text-align: left;
+	vertical-align: top;
+}
+
+article.topic tbody tr:hover {
+	background: var(--surface);
+}
+
+/* statically-typeset formulas (rehype-math.ts, build-time via MathLive's SSR
+   renderer) — .ML__latex itself only sets sizing/layout, color/vertical
+   alignment against surrounding text needs to be set here */
+/* Literata has a tall x-height, next to which MathLive's default sizing
+   reads a size too small — nudged back up so a symbol mid-sentence matches
+   the weight of the words around it */
+/* inline-block + max-width + overflow-x, not plain inline: MathLive renders
+   a formula as one rigid, unbreakable run with no internal wrap points
+   (unlike a long word, which at least has hyphenation to fall back on) —
+   on a narrow phone, a longer inline expression (a multi-part "a=…, b=…,
+   c=…, β=…" is the common case here) was simply wider than the whole
+   viewport and pushed the page into horizontal scroll. Short, ordinary
+   inline formulas are unaffected: they're already narrower than their
+   line, so max-width never engages and nothing about how they sit against
+   the surrounding text changes. */
+.math-inline {
+	display: inline-block;
+	max-width: 100%;
+	/* MathLive's sub/superscript boxes stick 2px out of the formula (margin-right:
+	   -2px, a KaTeX-derived Safari workaround). With overflow: auto that counts as
+	   scrollable overflow, so every "v_c" grew a scrollbar; the padding makes room
+	   for it and the negative margin gives the width back. */
+	padding-right: 2px;
+	margin-right: -2px;
+	overflow-x: auto;
+	vertical-align: middle;
+	color: var(--fg);
+	font-size: 1.08em;
+	scrollbar-width: thin;
+	scrollbar-color: var(--border-strong) transparent;
+}
+
+.math-inline::-webkit-scrollbar {
+	height: 4px;
+}
+
+.math-inline::-webkit-scrollbar-track {
+	background: transparent;
+}
+
+.math-inline::-webkit-scrollbar-thumb {
+	background: var(--border-strong);
+	border-radius: 0;
+}
+
+/* the formula fits — what the scroll box measured as overflow is MathLive's own
+   2px-per-box slack (see BaseLayout.astro, markFitting): no scrollbar for it */
+.math-inline.is-fitting {
+	overflow-x: visible;
+	/* Only a box with overflow: visible has its real text baseline as its own — with
+	   overflow: auto the baseline is the bottom edge, which is why the scrolling box above
+	   has to be centred instead. Aligned on the baseline, the formula sits level with the
+	   words around it (centred, a tall fraction pushed its neighbours up by a few pixels). */
+	vertical-align: baseline;
+}
+
+/* display math sits in its own quiet container rather than floating in the
+   text column — same surface as a blockquote, no border, no radius */
+.math-display {
+	display: block;
+	margin: 1.4rem 0;
+	padding: 0.9rem 1rem;
+	background: var(--surface);
+	text-align: center;
+	color: var(--fg);
+	overflow-x: auto;
+	scrollbar-width: thin;
+	scrollbar-color: var(--border-strong) transparent;
+}
+
+/* ```formulas blocks (src/lib/markdown/formula-sheet-html.ts): a formula sheet — a card per
+   formula, the label small above it, the formula large and centred, a note below. Two columns
+   in the reading column, one on a phone; a wide formula takes the whole row. */
+.formula-sheet {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(min(100%, 15rem), 1fr));
+	gap: 0.6rem;
+	margin: 1rem 0 1.9rem;
+}
+
+/* (.formula-sheet in the selector: article.topic p would otherwise win with its margins) */
+.formula-sheet .formula-group-title {
+	grid-column: 1 / -1;
+	margin: 0.6rem 0 0;
+	font-family: var(--sans);
+	font-size: var(--t-sm);
+	font-weight: 600;
+	line-height: 1.3;
+	color: var(--accent);
+}
+
+.formula-card {
+	display: flex;
+	flex-direction: column;
+	gap: 0.15rem;
+	min-width: 0;
+	padding: 0.6rem 0.85rem 0.7rem;
+	background: var(--surface);
+	border-left: 2px solid var(--border-strong);
+}
+
+.formula-card.is-wide {
+	grid-column: 1 / -1;
+}
+
+.formula-label {
+	font-family: var(--sans);
+	font-size: var(--t-xs);
+	font-weight: 600;
+	line-height: 1.35;
+	color: var(--muted);
+}
+
+/* the formula is a .math-display (so it scrolls only when it truly is too wide), without that
+   class's own box: the card is the box. margin: auto centres it between label and note. */
+.formula-card .math-display {
+	margin: auto 0;
+	padding: 0.25rem 2px 0.3rem 0; /* the 2px: see .math-inline */
+	background: none;
+	font-size: 1.25rem;
+}
+
+/* on a phone the card is barely wider than the screen: a little smaller, so fewer formulas scroll */
+@media (max-width: 30rem) {
+	.formula-card .math-display {
+		font-size: 1.1rem;
+	}
+}
+
+/* a formula that fits needs no scroll box; the card's own padding is too thin to hold the few
+   pixels a fraction sticks out above and below, which showed up as a vertical scrollbar */
+.formula-card .math-display.is-fitting {
+	overflow: visible;
+}
+
+.formula-note {
+	font-family: var(--sans);
+	font-size: var(--t-xs);
+	line-height: 1.45;
+	color: var(--muted);
+	text-align: center;
+}
+
+/* a formula in a note, at the note's own size, would be unreadably small */
+.formula-note .math-inline,
+.formula-label .math-inline {
+	font-size: 1.3em;
+}
+
+/* a card without a formula: just its statement */
+.formula-card.is-text .formula-note {
+	font-size: var(--t-sm);
+	color: var(--fg);
+	text-align: left;
+}
+
+/* the filter box of a formula sheet (formula-filter.ts) */
+.sheet-filter {
+	display: flex;
+	align-items: center;
+	gap: 0.75rem;
+	margin: 1.4rem 0 0.4rem;
+}
+
+.sheet-filter input {
+	flex: 1;
+	min-width: 0;
+	padding: 0.55rem 0.8rem;
+	background: var(--surface);
+	border: 1px solid var(--border-strong);
+	border-radius: 2px;
+	color: var(--fg);
+	font-family: var(--sans);
+	font-size: var(--t-ui);
+}
+
+.sheet-filter input:focus {
+	border-color: var(--accent);
+	outline: none;
+}
+
+.sheet-filter-count {
+	flex: none;
+	font-family: var(--sans);
+	font-size: var(--t-sm);
+	color: var(--muted);
+}
+
+.sheet-empty {
+	font-family: var(--sans);
+	color: var(--muted);
+}
+
+/* what the filter has taken out */
+.is-filtered {
+	display: none !important;
+}
+
+/* "this wasn't preserved in the source" disclaimers (rehype-recon-note.ts,
+   "((text))") — deliberately NOT italic: on badly-damaged source files
+   these show up on nearly every sentence, and a whole paragraph of italics
+   is tiring to read. Smaller + muted instead, so it visibly recedes behind
+   the actual problem text instead of competing with it for attention. */
+.recon-note {
+	font-style: normal;
+	font-size: 0.9em;
+	color: var(--muted);
+}
+
+/* Status notice above an article — flat, ruled on the accent side, not a
+   tinted rounded callout */
+.topic-notice {
+	font-family: var(--sans);
+	font-size: var(--t-sm);
+	line-height: 1.55;
+	color: var(--fg);
+	background: var(--surface);
+	border-left: 3px solid var(--accent);
+	padding: 0.7rem 0.9rem;
+	margin: 0 0 1.5rem;
+}
+
+.source-note {
+	margin-top: 3rem;
+	padding-top: 1rem;
+	border-top: 1px solid var(--border);
+	font-family: var(--sans);
+	font-size: var(--t-xs);
+	color: var(--muted);
+}
+
+/* Pictures restored from the Word sources are drawn for white paper — black lines and formulas,
+   often on a transparent background — so on the dark page they sit on a paper-coloured card. The
+   portraits and diagrams of the site have classes of their own and are left alone. */
+article.topic img:not([class]) {
+	display: block;
+	max-width: 100%;
+	height: auto;
+	margin: 0.8rem 0;
+	padding: 0.5rem;
+	background: #f4f1ea;
+	border-radius: 3px;
+}

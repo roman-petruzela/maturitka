@@ -1,0 +1,243 @@
+/* ─────────────────────────────────────────────────────────────────────────
+   STRÁNKA PŘEDMĚTU
+   ───────────────────────────────────────────────────────────────────── */
+.subject-head {
+	max-width: 44rem;
+}
+
+.subject-head p {
+	margin: 0;
+	color: var(--muted);
+	font-size: 1.02rem;
+}
+
+.subject-head-tally {
+	margin-top: 0.5rem;
+	font-family: var(--sans);
+	font-size: var(--t-sm);
+	font-variant-numeric: tabular-nums;
+	color: var(--muted);
+}
+
+/* horizontal category pills */
+.group-jump {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.5rem;
+	margin: 1.75rem 0 0;
+	padding-top: 1.5rem;
+	border-top: 1px solid var(--border);
+	font-family: var(--sans);
+	font-size: var(--t-sm);
+}
+
+.group-jump a {
+	padding: 0.35rem 0.8rem;
+	border: 1px solid var(--border);
+	border-radius: 2px;
+	color: var(--muted);
+	text-decoration: none;
+	transition:
+		border-color var(--dur-quick) var(--ease),
+		color var(--dur-quick) var(--ease);
+}
+
+.group-jump a:hover,
+.group-jump a:focus-visible {
+	color: var(--accent);
+	border-color: var(--accent);
+}
+
+.group-jump a.is-active {
+	color: var(--accent);
+	border-color: var(--accent);
+	background: var(--surface);
+}
+
+/* Category blocks across the full width. Deliberately CSS columns and not
+   a grid: categories are wildly uneven (Matematika has a 1-topic block
+   sitting next to a 23-topic one) and a grid row is always as tall as its
+   tallest cell, so the short blocks left half-empty rows behind them.
+   Columns pack by height instead, and the reading order stays
+   top-to-bottom-then-across, the way a printed index reads. */
+.group-grid {
+	columns: 21rem auto;
+	column-gap: 4rem;
+	/* a real rule down each gutter, not just whitespace — three dense
+	   numbered lists side by side otherwise read as one field of text and
+	   the eye loses which column it is in */
+	column-rule: 1px solid var(--border);
+	margin-top: 2.5rem;
+}
+
+.group-block {
+	break-inside: avoid;
+	margin-bottom: 2.75rem;
+	min-width: 0;
+	/* the room the accent bar drops into when this category is the one you
+	   jumped to, reserved up front so nothing shifts sideways on arrival */
+	border-left: 2px solid transparent;
+	padding-left: 0.9rem;
+	margin-left: -0.9rem;
+}
+
+/* The category you picked from the quick-nav stays marked until you pick
+   another, so a jump into the middle of a tall column doesn't leave you
+   guessing which block you landed on. :has() carries the whole block; the
+   heading rule underneath it is the fallback where :has() is missing. */
+.group-block-head:target {
+	border-bottom-color: var(--accent);
+}
+
+.group-block-head:target .group-block-title {
+	color: var(--accent);
+}
+
+.group-block:has(.group-block-head:target) {
+	border-left-color: var(--accent);
+}
+
+/* Long categories flow across column breaks instead of sitting in one
+   column as an unbreakable slab — see SPLIT_AT in the subject page. The
+   heading still refuses to be orphaned at the foot of a column. */
+.group-block--splittable {
+	break-inside: auto;
+}
+
+.group-block-head {
+	break-after: avoid;
+}
+
+.topic-list li {
+	break-inside: avoid;
+}
+
+.group-block-head {
+	display: flex;
+	align-items: baseline;
+	gap: 0.6em;
+	margin: 0 0 0.5rem;
+	padding-bottom: 0.5rem;
+	border-bottom: 1px solid var(--border-strong);
+	scroll-margin-top: 7rem;
+}
+
+.group-block-title {
+	font-family: var(--display);
+	font-size: 1.05rem;
+	font-weight: 700;
+	color: var(--fg);
+}
+
+.group-block-count {
+	margin-left: auto;
+	font-family: var(--sans);
+	font-size: var(--t-xs);
+	font-variant-numeric: tabular-nums;
+	color: var(--muted);
+}
+
+.topic-list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+/* Rules hang off the bottom of every row (plus one on the list itself)
+   rather than between rows: the flat variant below flows through CSS
+   columns, where a between-rows rule would leave the top of columns 2
+   and 3 open while column 1 stayed closed. */
+.topic-list li a {
+	border-bottom: 1px solid var(--border);
+}
+
+.topic-list li a {
+	display: flex;
+	gap: 0.7rem;
+	align-items: baseline;
+	padding: 0.62rem 0.5rem 0.62rem 0;
+	text-decoration: none;
+	color: var(--fg);
+	font-family: var(--sans);
+	font-size: var(--t-ui);
+	line-height: 1.45;
+	transition:
+		color var(--dur-quick) var(--ease),
+		background var(--dur-quick) var(--ease);
+}
+
+.topic-list li a:hover,
+.topic-list li a:focus-visible {
+	color: var(--accent);
+	background: var(--surface);
+	box-shadow:
+		-0.5rem 0 0 var(--surface),
+		0.5rem 0 0 var(--surface);
+}
+
+/* Subjects with no categories are a single run of numbered topics; on a
+   wide screen that is one very tall column beside a lot of nothing, so it
+   flows into balanced columns instead — top-to-bottom then across, the way
+   a printed index reads, which keeps the numbering sequential down each
+   column. */
+.topic-list--flat {
+	border-top: 1px solid var(--border);
+	columns: 22rem auto;
+	column-gap: 4rem;
+	column-rule: 1px solid var(--border);
+	margin-top: 2.5rem;
+}
+
+.topic-list--flat li {
+	break-inside: avoid;
+}
+
+.topic-list .num {
+	color: var(--muted);
+	font-variant-numeric: tabular-nums;
+	/* fixed width + right alignment, not min-width — some groups mix
+	   single- and triple-digit order numbers (e.g. funkce-a-rovnice runs
+	   1–14 then jumps to 100–102), and a min-width left-aligned box grows
+	   with the widest number, knocking every shorter row's title out of
+	   alignment with the rest of the list */
+	width: 2rem;
+	text-align: right;
+	flex: 0 0 auto;
+	font-size: var(--t-sm);
+}
+
+.topic-list .topic-title {
+	flex: 1 1 auto;
+	min-width: 0;
+}
+
+.badge-group {
+	margin-left: auto;
+	display: flex;
+	align-items: center;
+	gap: 0.4rem;
+	flex: 0 0 auto;
+	padding-left: 0.3rem;
+}
+
+.mini-badge {
+	font-family: var(--sans);
+	font-size: var(--t-xs);
+	color: var(--accent);
+	border: 1px solid color-mix(in srgb, var(--accent) 35%, transparent);
+	border-radius: 2px;
+	padding: 0.05rem 0.35rem;
+	white-space: nowrap;
+	line-height: 1.5;
+}
+
+/* Just the glyph in the accent colour — the old version wrapped it in a
+   tinted circle, which is exactly the kind of floating pill the brief
+   rules out. */
+.exercise-badge {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	color: var(--accent);
+	flex: 0 0 auto;
+}

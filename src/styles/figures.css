@@ -1,0 +1,511 @@
+/* ─────────────────────────────────────────────────────────────────────────
+   OBRÁZKY, GRAFY A DIAGRAMY
+   ───────────────────────────────────────────────────────────────────── */
+
+/* CJ literatura author photo (rehype-author-portrait.ts) — a real figure
+   floated beside the section, same treatment as a ```graph plot, not a
+   small inline avatar. */
+.author-photo-img {
+	display: block;
+	width: 100%;
+	max-height: 22rem;
+	object-fit: cover;
+	border-radius: 0;
+	background: var(--surface);
+}
+
+.author-photo--placeholder {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	aspect-ratio: 3 / 4;
+	border: 1px solid var(--border);
+	color: var(--muted);
+	background: var(--surface);
+}
+
+.author-photo-placeholder-icon {
+	width: 30%;
+	height: 30%;
+}
+
+.author-photo-credit {
+	display: block;
+	margin-top: 0.2rem;
+	font-family: var(--sans);
+	font-size: 0.72em;
+	color: var(--muted);
+}
+
+/* Small icon-only link to this site's own book analysis
+   (rehype-rozbor-link.ts) — sits right next to a work's title, which
+   itself links to the full text when one is available. */
+.rozbor-link {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 1.3rem;
+	height: 1.3rem;
+	margin-left: 0.15rem;
+	color: var(--muted);
+	vertical-align: -0.25em;
+}
+
+.rozbor-link:hover {
+	color: var(--accent);
+}
+
+.rozbor-icon {
+	width: 100%;
+	height: 100%;
+}
+
+/* Discord-style "||spoiler||" (rehype-spoiler.ts) — toggled by the delegated
+   click/keydown listener in BaseLayout.astro */
+.spoiler {
+	/* a long unbroken answer ("155·6+160·9+165·20+…") must not push a phone's page sideways */
+	overflow-wrap: anywhere;
+	background: var(--fg);
+	color: transparent;
+	border-radius: 1px;
+	padding: 0 0.15em;
+	cursor: pointer;
+	transition: background var(--dur-quick) var(--ease);
+}
+
+.spoiler:hover {
+	background: var(--muted);
+}
+
+.spoiler.is-revealed {
+	background: var(--surface-raised);
+	color: var(--fg);
+	cursor: text;
+}
+
+/* block-level spoiler for graphs (graph-svg.ts's "spoiler": true) — a blur
+   still let the shape show through and gave the answer away, so this is a
+   fully opaque panel instead (markup: figure + .spoiler-block-overlay,
+   generated together in graph-svg.ts so the label can be a real nested
+   element rather than ::after content, which can't have its own background) */
+.spoiler-block {
+	position: relative;
+	cursor: pointer;
+}
+
+.spoiler-block-overlay {
+	position: absolute;
+	inset: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: var(--surface);
+	border: 1px solid var(--border);
+}
+
+.spoiler-block-label {
+	padding: 0.5rem 1.1rem;
+	border: 1px solid var(--border-strong);
+	border-radius: 2px;
+	background: var(--bg);
+	color: var(--fg);
+	font-family: var(--sans);
+	font-size: var(--t-sm);
+	font-weight: 600;
+}
+
+.spoiler-block.is-revealed {
+	cursor: default;
+}
+
+.spoiler-block.is-revealed .spoiler-block-overlay {
+	display: none;
+}
+
+/* build-time function/curve plots — src/lib/markdown/graph-svg.ts, used both
+   by GraphPlot.astro and the ```graph fenced-block rehype plugin */
+.graph-plot {
+	margin: 1.5rem 0;
+	text-align: center;
+}
+
+.graph-plot svg {
+	display: block;
+	margin: 0 auto;
+	max-width: 100%;
+	height: auto;
+	color: var(--accent);
+}
+
+.graph-plot .grid-line {
+	stroke: var(--border);
+	stroke-width: 1;
+}
+
+.graph-plot .axis-line {
+	stroke: var(--muted);
+	stroke-width: 1.4;
+}
+
+.graph-plot .tick-label,
+.graph-plot .axis-label {
+	fill: var(--muted);
+	font-size: 11px;
+	font-family: var(--sans);
+}
+
+.graph-plot .axis-label {
+	font-style: italic;
+}
+
+.graph-plot .curve {
+	stroke: currentColor;
+	stroke-width: 2.2;
+	stroke-linecap: round;
+	stroke-linejoin: round;
+}
+
+.graph-plot .curve-2 {
+	stroke: var(--muted);
+	stroke-width: 2;
+	stroke-dasharray: 6 4;
+	stroke-linecap: round;
+}
+
+.graph-plot .curve-2-label {
+	fill: var(--muted);
+}
+
+.graph-plot .marker {
+	fill: currentColor;
+	stroke: var(--bg);
+	stroke-width: 1.5;
+}
+
+.graph-plot .marker-label {
+	fill: var(--fg);
+	font-size: 12px;
+	font-family: var(--sans);
+}
+
+.graph-plot figcaption {
+	margin-top: 0.2rem;
+	font-family: var(--sans);
+	color: var(--muted);
+	font-size: var(--t-sm);
+}
+
+/* ```timeline blocks (src/lib/markdown/timeline-html.ts): a vertical axis of numbered nodes,
+   the period (link + dates) on its right, the works and authors on its left. In a narrow column
+   (a container query, so it does not matter how wide the page's rails leave the article) all the
+   text moves to the right of the axis. */
+.timeline {
+	--tl-node: 2.1rem;
+	--tl-gap: 1.1rem;
+	container: timeline / inline-size;
+	margin: 1.75rem 0;
+}
+
+.timeline .timeline-list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.timeline .timeline-item {
+	position: relative;
+	display: grid;
+	grid-template-columns: minmax(0, 1fr) var(--tl-node) minmax(0, 1fr);
+	column-gap: var(--tl-gap);
+	align-items: start;
+	margin: 0;
+	padding-bottom: 1.2rem;
+}
+
+.timeline .timeline-item:last-child {
+	padding-bottom: 0;
+}
+
+/* the axis is drawn per item, from the middle of its node down to the next one */
+.timeline .timeline-item::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: calc(50% - 1px);
+	width: 2px;
+	background: var(--border-strong);
+}
+
+.timeline .timeline-item:first-child::before {
+	top: calc(var(--tl-node) / 2);
+}
+
+.timeline .timeline-item:last-child::before {
+	bottom: calc(100% - var(--tl-node) / 2);
+}
+
+.timeline .timeline-node {
+	grid-column: 2;
+	grid-row: 1;
+	position: relative;
+	z-index: 1;
+	display: grid;
+	place-items: center;
+	width: var(--tl-node);
+	height: var(--tl-node);
+	border: 2px solid var(--accent);
+	border-radius: 50%;
+	background: var(--bg);
+	color: var(--accent);
+	font: 600 var(--t-sm) / 1 var(--sans);
+	font-variant-numeric: tabular-nums;
+}
+
+.timeline .timeline-item:has(a.timeline-name:hover) .timeline-node,
+.timeline .timeline-item:has(a.timeline-name:focus-visible) .timeline-node {
+	background: var(--accent);
+	color: var(--bg);
+}
+
+/* the first line of both texts is centred on the node, whatever follows below it */
+.timeline .timeline-period {
+	grid-column: 3;
+	grid-row: 1;
+	display: flex;
+	flex-direction: column;
+	gap: 0.15rem;
+	padding-top: calc((var(--tl-node) - 1.3rem) / 2);
+}
+
+.timeline .timeline-name {
+	font-size: 1rem;
+	line-height: 1.3rem;
+	font-weight: 600;
+	color: var(--accent);
+}
+
+.timeline a.timeline-name {
+	text-decoration: underline;
+	text-decoration-thickness: 1px;
+	text-underline-offset: 0.2em;
+}
+
+.timeline a.timeline-name:hover {
+	color: var(--accent-deep);
+}
+
+.timeline .timeline-dates {
+	display: flex;
+	flex-direction: column;
+	font-family: var(--sans);
+	font-size: var(--t-xs);
+	line-height: 1.35;
+	color: var(--muted);
+}
+
+.timeline .timeline-works {
+	grid-column: 1;
+	grid-row: 1;
+	padding-top: calc((var(--tl-node) - 1.3rem) / 2);
+	font-size: 0.9rem;
+	line-height: 1.3rem;
+	color: var(--muted);
+	text-align: right;
+}
+
+/* a work or author that has its own heading on the period's page, and the analysis icon after it */
+.timeline .timeline-works a.timeline-work {
+	color: inherit;
+	text-decoration: underline;
+	text-decoration-color: color-mix(in srgb, currentColor 35%, transparent);
+	text-decoration-thickness: 1px;
+	text-underline-offset: 0.2em;
+}
+
+.timeline .timeline-works a.timeline-work:hover,
+.timeline .timeline-works a.timeline-work:focus-visible {
+	color: var(--accent);
+	text-decoration-color: currentColor;
+}
+
+.timeline .timeline-works .rozbor-link {
+	width: 1.1rem;
+	height: 1.1rem;
+	margin: 0 -0.15rem 0 0.1rem; /* the glyph sits inside its box: hug the comma that follows */
+	vertical-align: -0.2em;
+}
+
+.timeline figcaption {
+	margin-top: 0.9rem;
+	text-align: center;
+	font-family: var(--sans);
+	font-size: var(--t-sm);
+	color: var(--muted);
+}
+
+@container timeline (max-width: 32rem) {
+	.timeline .timeline-item {
+		grid-template-columns: var(--tl-node) minmax(0, 1fr);
+	}
+
+	.timeline .timeline-item::before {
+		left: calc(var(--tl-node) / 2 - 1px);
+	}
+
+	.timeline .timeline-node {
+		grid-column: 1;
+	}
+
+	.timeline .timeline-period {
+		grid-column: 2;
+	}
+
+	.timeline .timeline-works {
+		grid-column: 2;
+		grid-row: 2;
+		padding-top: 0.2rem;
+		text-align: left;
+	}
+}
+
+/* 2D geometric figures (geometry-svg.ts, ```geometry blocks) */
+.geometry-plot .geom-segment {
+	stroke: var(--accent);
+	stroke-width: 2;
+	stroke-linecap: round;
+}
+
+.geometry-plot .geom-circle {
+	stroke: var(--accent);
+	stroke-width: 2;
+	fill: none;
+}
+
+.geometry-plot .geom-sector {
+	fill: var(--accent);
+	opacity: 0.18;
+	stroke: none;
+}
+
+.geometry-plot .geom-point {
+	fill: var(--fg);
+}
+
+.geometry-plot .geom-point-label {
+	fill: var(--fg);
+	font-size: 14px;
+	font-weight: 600;
+	font-family: var(--sans);
+}
+
+.geometry-plot .geom-label {
+	fill: var(--muted);
+	font-size: 12px;
+	font-family: var(--sans);
+}
+
+.geometry-plot .geom-angle-arc {
+	stroke: var(--muted);
+	stroke-width: 1.4;
+}
+
+.geometry-plot .geom-right-angle {
+	stroke: var(--muted);
+	stroke-width: 1.4;
+}
+
+/* 3D solids (solid-svg.ts, ```solid blocks): tinted faces, the edges one can see in the accent
+   colour and the ones behind the solid dashed, dimension lines and letters on top */
+.solid-plot .solid-edge {
+	fill: none;
+	stroke: var(--accent);
+	stroke-width: 1.8;
+	stroke-linecap: round;
+	stroke-linejoin: round;
+}
+
+/* an edge behind the solid */
+.solid-plot .solid-edge--hidden {
+	stroke: var(--muted);
+	stroke-width: 1.3;
+	stroke-dasharray: 5 4;
+}
+
+.solid-plot .solid-face {
+	stroke: none;
+}
+
+/* dimension lines: the height along the axis, a radius, a diagonal */
+.solid-plot .solid-dim {
+	fill: none;
+	stroke: var(--fg);
+	stroke-width: 1.2;
+	stroke-linecap: round;
+}
+
+.solid-plot .solid-dim--dashed {
+	stroke-dasharray: 4 3;
+}
+
+/* letters and dimensions: set like the variables of a formula, on a halo of the page colour so
+   that a line running behind them does not cut them */
+.solid-plot .solid-label {
+	fill: var(--fg);
+	font-family: var(--serif);
+	font-style: italic;
+	font-size: 15px;
+	text-anchor: middle;
+	dominant-baseline: central;
+	paint-order: stroke;
+	stroke: var(--bg);
+	stroke-width: 3.5px;
+	stroke-linejoin: round;
+}
+
+/* a solid can be turned by dragging it (solid-viewer.ts) */
+.solid-plot.is-turnable svg {
+	cursor: grab;
+	touch-action: pan-y;
+}
+
+.solid-plot.is-turning svg {
+	cursor: grabbing;
+}
+
+.solid-plot.is-turnable figcaption::after {
+	content: " · tažením otočíš";
+	opacity: 0.6;
+}
+
+/* "float": "right"/"left" (graph-svg.ts) — lets a short "Výsledek:" list
+   right after the ```graph block in the source wrap beside the graph
+   instead of stacking under it. article.topic h2/h3 clear:both above stops
+   this from bleeding into the next section on a short list. Switches back
+   to normal stacked flow on narrow screens, where there's no room to spare
+   beside a graph. */
+.graph-plot--float-right,
+.spoiler-block--float-right {
+	float: right;
+	margin: 0 0 1rem 1.5rem;
+	max-width: min(58%, 440px);
+}
+
+.graph-plot--float-left,
+.spoiler-block--float-left {
+	float: left;
+	margin: 0 1.5rem 1rem 0;
+	max-width: min(58%, 440px);
+}
+
+@media (max-width: 640px) {
+	.graph-plot--float-right,
+	.graph-plot--float-left,
+	.spoiler-block--float-right,
+	.spoiler-block--float-left {
+		float: none;
+		max-width: 100%;
+		margin: 1.5rem 0;
+	}
+}
