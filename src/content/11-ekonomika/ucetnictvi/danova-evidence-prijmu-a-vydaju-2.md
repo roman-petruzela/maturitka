@@ -11,13 +11,13 @@ source: "Účetnictví/20. Daňová evidence příjmů a výdajů.docx"
 - zaznamenávání průběžných položek
 - kniha pohledávek a závazků
 - výpočet základu daně z příjmu
-- Daňová evidence je zjednodušeným nástupcem dřívějšího tzv\. jednoduchého účetnictví
+- Daňová evidence je zjednodušeným nástupcem dřívějšího tzv. jednoduchého účetnictví
 
 __Podnikání fyzických osob, kdo může vést daňovou evidenci__
 
 - Podnikání je soustavná činnost provozovaná samostatně, vlastním jménem, na vlastní odpovědnost a za účel dosažení zisku
 - Základním právním předpisem pro podnikatele je obchodní zákoník, který upravuje postavení podnikatelů, obchodní závazkové vztahy a další vztahy s podnikáním související
-- Podnikatelem mohou být PO \(jsou vždy účetními jednotkami\) i FO
+- Podnikatelem mohou být PO (jsou vždy účetními jednotkami) i FO
     - __Fyzické osoby podnikají nejčastěji na základě živnostenského oprávnění__, které vydává v místě příslušná ŽÚ a to po splnění podmínek například:
 	- Dosažení věku 18 let
 	- Způsobilost k právním úkonům
@@ -29,13 +29,13 @@ __Podnikání fyzických osob, kdo může vést daňovou evidenci__
 2. Ostatní FO, které jsou podnikateli, pokud jejich obrat přesáhl za bezprostředně předcházející kalendářní rok částku 25 000 000 Kč
 3. Ostatní FO, které vedou účetnictví na základě svého rozhodnutí
 	- __Kdo může vést daňovou evidenci?__
-	- FO \(podnikatel\), kteří se nestanou účetními jednotkami, povedou daňovou evidenci   
+	- FO (podnikatel), kteří se nestanou účetními jednotkami, povedou daňovou evidenci   
 
 __Zapisování příjmů a výdajů do deníku__
 
-- Zapisování v deníku příjmů a výdajů v průběhu roku probíhá vždy minimálně „dvoustranně“ tj\. na dvou položkách deníku
+- Zapisování v deníku příjmů a výdajů v průběhu roku probíhá vždy minimálně „dvoustranně“ tj. na dvou položkách deníku
 - Na jedné straně hospodářská operace bude příjmem nebo výdajem peněžních prostředků
-- Na druhé straně se tato hospodářská operace dotkne jednotlivých příjmů a výdajů zahrnovaných nebo nezahrnovaných do základu daně z příjmů \(popř\. průběžných položek\)
+- Na druhé straně se tato hospodářská operace dotkne jednotlivých příjmů a výdajů zahrnovaných nebo nezahrnovaných do základu daně z příjmů (popř. průběžných položek)
 
 __Zapisování příjmů:__
 
@@ -53,8 +53,8 @@ __DPH a její zaznamenávání do deníku příjmů a výdajů__
 
 1. __Zapisování DPH u neplátců__
 
-- se DPH automaticky stává součástí účtované částky bez nutnosti jejího rozlišení v deníku příjmů nebo výdajů \(tzn\. že DPH se stane součástí pořizovací ceny majetku a služeb\)
-- Podnikatel\- neplátce nemá v případě příjmů povinnost evidovat a platit DPH a nemá nárok na vstupu na odpočet daně a její uplatnění vůči FÚ
+- se DPH automaticky stává součástí účtované částky bez nutnosti jejího rozlišení v deníku příjmů nebo výdajů (tzn. že DPH se stane součástí pořizovací ceny majetku a služeb)
+- Podnikatel- neplátce nemá v případě příjmů povinnost evidovat a platit DPH a nemá nárok na vstupu na odpočet daně a její uplatnění vůči FÚ
 
 1. __Zapisování a evidence DPH u plátců__
 	- DPH se v deníku příjmů a výdajů zapisuje až v okamžiku proběhnutí platby, ale z hlediska evidence DPH je rozhodující datum uskutečnění zdanitelného plnění
@@ -84,11 +84,11 @@ __Kniha pohledávek a závazků__
 
 __Kniha faktur vydaných a přijatých:__
 
-- Základem evidence pohledávek a závazků u všech podnikatelů bude kniha přijatých a vydaných faktur, ve které bude soustředěna evidence pohledávek a závazků z běžných dodavatelsko\-odběratelských vztahů mezi podnikateli
+- Základem evidence pohledávek a závazků u všech podnikatelů bude kniha přijatých a vydaných faktur, ve které bude soustředěna evidence pohledávek a závazků z běžných dodavatelsko-odběratelských vztahů mezi podnikateli
 - Na tuto knihu budou kladeny největší nároky, proto tato kniha musí obsahovat přinejmenším tyto informace:
 	- Oddělené sledování jednotlivých pohledávek a závazků podložených účetními doklady
 	- Označení dokladu
-	- Datum vzniku pohledávek, resp\. Závazků
+	- Datum vzniku pohledávek, resp. Závazků
 	- Částku
 	- Datum splatnosti a způsob úhrady
 	- Identifikační údaje pro spárování pohledávky či závazku a platby
@@ -98,7 +98,7 @@ __Ostatní pohledávky a závazky__
 
 - Zvláštní knihu pohledávek a závazků je možné zřídit pro neobchodní pohledávky a závazky jedná se o evidenci:
 - Poskytnutých a přijatých bankovních úvěrů
-- Závazků, popř\. pohledávek k FÚ
+- Závazků, popř. pohledávek k FÚ
 - Pohledávek k zaměstnancům
 
 __Výpočet základu daně – OSVČ__
@@ -134,7 +134,7 @@ __Základ daně__
 
 − odčitatelné položky 	ztráta z minulých let, výdaje na 	podporu výzkumu a vývoje
 
-__Upravený základ daně__	zaokr\. na 100 Kč dolu
+__Upravený základ daně__	zaokr. na 100 Kč dolu
 
 Výpočet daně 15%
 
@@ -150,7 +150,7 @@ __Příklad:__
 
 - Dílčí základ daně:
 
-	§6 – 389 000 \+ 132 260 = 521 260 Kč
+	§6 – 389 000 + 132 260 = 521 260 Kč
 
 	§7 – 320 000 – 122 000 = 198 000 Kč
 
@@ -162,18 +162,18 @@ __Příklad:__
 
 - Celkový základ daně:
 
-§6 \+ §7 \+ §8 \+ §9 \+ §10 = __946 760 Kč__
+§6 + §7 + §8 + §9 + §10 = __946 760 Kč__
 
 - Nezdanitelné a odčitatelné položky:
-- dary \(max\. do výše 15% ze základu daně\) 	  20 000 Kč
-- odborová organizace \(nejvýše do 3 000 Kč\)  	    1 200 Kč
-- hypotéční úvěr \(do 300 000 Kč\)  	  50 000 Kč
-- soukromé pojištění \(do 24 000 Kč\) 	    6 000 Kč
-- ztráta z minulých let \(do 5 let\)	  45 000 Kč
+- dary (max. do výše 15% ze základu daně) 	  20 000 Kč
+- odborová organizace (nejvýše do 3 000 Kč)  	    1 200 Kč
+- hypotéční úvěr (do 300 000 Kč)  	  50 000 Kč
+- soukromé pojištění (do 24 000 Kč) 	    6 000 Kč
+- ztráta z minulých let (do 5 let)	  45 000 Kč
 
 Celkem	__122 200 Kč__
 
-- Základ daně snížený o odčitatelné položky: \(zaokrouhlujeme na celé stovky dolů\)
+- Základ daně snížený o odčitatelné položky: (zaokrouhlujeme na celé stovky dolů)
 
 946 760 – 122 200 = 824 560 = __824 500 Kč__
 

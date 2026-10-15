@@ -3,14 +3,14 @@ title: "ČR doprava"
 order: 29
 source: "Zeměpis/Zeměpis GLP/29. ČR - doprava.docx"
 ---
-## 29\. ČR \- doprava
+## 29. ČR - doprava
 
 historie, rozdělení, splav dřeva, tranzitní koridory, podmínky – přírodní a ekonomické, k čemu se jaká používá
 
 __Historie__
 
-- privatizace se dotkla hlavně silniční, letecké a vodní dopravy \(železniční jen okrajově\)
-- od 90\. let
+- privatizace se dotkla hlavně silniční, letecké a vodní dopravy (železniční jen okrajově)
+- od 90. let
 	- v osobní dopravě dochází k většímu rozvoji automobilové a letecké dopravy
 	- v nákladní dopravě se zvýšila tranzitní přeprava pomocí kamionů a železniční a letecká doprava zaznamenala pokles
 - v současnosti se síť dobudovává a vysokorychlostní železnice jsou ve výhledu
@@ -23,33 +23,33 @@ __Charakteristika__
 - železniční a silniční doprava převáží 98 % nákladu a 99 % cestujících
 - městská doprava téměř v každém městě
 	- klademe na ni důraz
-	- hodnocena jako 4\. nejkvalitnější v Evropě
-	- první koněspřežná tramvaj r\. 1869 v Brně
+	- hodnocena jako 4. nejkvalitnější v Evropě
+	- první koněspřežná tramvaj r. 1869 v Brně
 	- metro jedině v Praze
 - ČR je tranzitní území mezi západem a východem, vedou tudy evropské tahy
 
 __Silniční__
 
 - přemisťování mezi kratšími vzdálenostmi
-- doprava osob \(85 %\) a nákladu \(67 %\)
-- větší počet nehod než Německo, kde mají větší intenzitu silniční dopravy, ale každým rokem se snižuje \(2005 – 1200, 2010 – 800\)
+- doprava osob (85 %) a nákladu (67 %)
+- větší počet nehod než Německo, kde mají větší intenzitu silniční dopravy, ale každým rokem se snižuje (2005 – 1200, 2010 – 800)
 - máme málo dálnic a 4proudových silnic, kvůli pomalé výstavbě
 - chybí nám obchvaty a kvalita povrchu vozovek je nevyhovující
 - nemáme s Evropou společnou žádnou dálniční síť
 - k výstavbě nových dálnic a silnic nemáme dostatek financí a vadí to ochráncům přírody, kvůli znečištění
 - nákladní automobilová doprava navazuje na dopravu železniční a je spíše na kratší vzdálenosti
 	- má velký význam ve stavebnictví
-	- v poslední době silně vzrostl význam dálkové silniční dopravy \(transitní doprava\)
-	- Lovosice\-Drážďany je úsek kde se kamiony převážejí na vagónech lokomotiv – šetří tak životní prostředí
+	- v poslední době silně vzrostl význam dálkové silniční dopravy (transitní doprava)
+	- Lovosice-Drážďany je úsek kde se kamiony převážejí na vagónech lokomotiv – šetří tak životní prostředí
 - síť autobusových linek spojuje střediska osídlení mezi sebou
 	- vzrostl počet autobusových spojů z a do zahraničí
-- dálnice se začaly budovat kolem r\. 1940, k obnovení výstavby došlo v 60\. letech
-	- vybudování celé dálniční sítě je neustále odkládáno a brzdí tak rozvoj některých regionů \(Ostravsko, Pardubicko\)
+- dálnice se začaly budovat kolem r. 1940, k obnovení výstavby došlo v 60. letech
+	- vybudování celé dálniční sítě je neustále odkládáno a brzdí tak rozvoj některých regionů (Ostravsko, Pardubicko)
 	- mimo obec 130 km/h, v obci 80 km/h
 	- 19 dálnic, ale jen 5 je dokončených
-	- dálnice: D2 Brno\-Bratislava, D5 Praha\-Rozvadov, D8 Praha\-Ústí nad Labem, D10 Praha\-Turnov, D46 Vyškov\-Olomouc
+	- dálnice: D2 Brno-Bratislava, D5 Praha-Rozvadov, D8 Praha-Ústí nad Labem, D10 Praha-Turnov, D46 Vyškov-Olomouc
 
-((obrázek vynechán))
+<img src="/images/content/zemepis/cr-doprava/01.webp" alt="" width="605" loading="lazy" decoding="async">
 
 __Železniční__
 
@@ -57,28 +57,28 @@ __Železniční__
 - rovnoměrně rozprostřená síť
 - energeticky méně náročná, nezatěžuje tak životní prostředí jako silniční
 - vysoká hustota železniční sítě
-- většina tratí vybudována v minulosti, a tak dnes nevyhovuje moderní dopravě \(zastaralá ve srovnání s ostatními zeměmi\)
-- 42 % elektrifikováno a modernizováno, chybí lepší časová spolehlivost a vyšší kultury osobní přepravy \(Pendolino\)
-- stát se snaží o zlepšení \(příklad: Eurocity mají vysoký komfort a kvalitu\)
+- většina tratí vybudována v minulosti, a tak dnes nevyhovuje moderní dopravě (zastaralá ve srovnání s ostatními zeměmi)
+- 42 % elektrifikováno a modernizováno, chybí lepší časová spolehlivost a vyšší kultury osobní přepravy (Pendolino)
+- stát se snaží o zlepšení (příklad: Eurocity mají vysoký komfort a kvalitu)
 - 4 hlavní koridory:
-	- Děčín\-Praha\-Brno\-Břeclav
-	- Bohumín\-Ostrava\-Břeclav
-	- Cheb\-Praha\-Pardubice\-Olomouc\-Ostrava\-Bohumín
-	- Děčín\-Praha\-Tábor\-České Budějovice
+	- Děčín-Praha-Brno-Břeclav
+	- Bohumín-Ostrava-Břeclav
+	- Cheb-Praha-Pardubice-Olomouc-Ostrava-Bohumín
+	- Děčín-Praha-Tábor-České Budějovice
 - historicky první trasy vznikly spojením severočeského hnědouhelného revíru a ostravským černouhelným
 
 __Letecká__
 
 - hlavní význam v mezinárodní dopravě
-- mezinárodní letiště: Václava Havla, Brno \- Tuřany, Karlovy Vary, Kunovice, Pardubice, Leoše Janáčka Ostrava
+- mezinárodní letiště: Václava Havla, Brno - Tuřany, Karlovy Vary, Kunovice, Pardubice, Leoše Janáčka Ostrava
 
 __Vodní__
 
 - u nás menší význam, spíše k rekreaci
-- splav dřeva \(Schwarzenberský plavební kanál\)
+- splav dřeva (Schwarzenberský plavební kanál)
 - v ČR má dlouholetou tradici, ale nedostatek splavných toků
 - přeprava těžkých nákladů
-- splavné toky: Labe od Chvaletic, Vltava Praha\-Mělník
+- splavné toky: Labe od Chvaletic, Vltava Praha-Mělník
 
 __Potrubní__
 

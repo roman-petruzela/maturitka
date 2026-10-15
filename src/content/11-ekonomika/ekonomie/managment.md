@@ -5,17 +5,17 @@ source: "Ekonomie/30. managment.docx"
 ---
 __Management, funkce manažera__
 
-Pojem \(to manage\) = vést, řídit, starat se, spravovat 
+Pojem (to manage) = vést, řídit, starat se, spravovat 
 
 **Management má tyto významy:**  
 
-1. Samostatný vědní obor \(ekonom\., sociál\. Věda\) 
-2. Skupina řídících pracovníků \(manager= vedoucí, manageři= management\) 
+1. Samostatný vědní obor (ekonom., sociál. Věda) 
+2. Skupina řídících pracovníků (manager= vedoucí, manageři= management) 
 3. Soubor praktických činností ve firmách 
 
  
 
-__Definice managementu:__ Proces plánování, organizování, vedení a kontroly, zaměření na dosažení stanovených cílů\. 
+__Definice managementu:__ Proces plánování, organizování, vedení a kontroly, zaměření na dosažení stanovených cílů. 
 
 Manager = Každý vedoucí pracovník 
 
@@ -31,42 +31,42 @@ zaměstnanec 
 
 nese podnikatelská rizika 
 
-nenese podnikatelská\. rizika  
+nenese podnikatelská. rizika  
 
-neřídí \(kontroluje\) 
+neřídí (kontroluje) 
 
 řídí 
 
  
 
-__Vývoj historie managementu:__ Teoretická věda vzniká na začátku 20\. století, s cílem zvýšit produktivitu práce\.  
+__Vývoj historie managementu:__ Teoretická věda vzniká na začátku 20. století, s cílem zvýšit produktivitu práce.  
 
  
 
 Rozlišujeme 3 etapy: 
 
-1. Etapa \- Frederick Winslow Taylor \(američan\) 
+1. Etapa - Frederick Winslow Taylor (američan) 
 	- zavádění norem práce  
 
  
 
 -
-	- H\. Fayol – rozdělil podnikové činnosti do 6 skupin
-	- M\. Weber – sociolog, vymyslel byrokratické řízení \(pevná pravidla\)
+	- H. Fayol – rozdělil podnikové činnosti do 6 skupin
+	- M. Weber – sociolog, vymyslel byrokratické řízení (pevná pravidla)
 
-1. Etapa – 40\. – 70\. Léta
+1. Etapa – 40. – 70. Léta
 	- sociální přístup k managementu
-2. Etapa – moderní management \(80\. léta\) = období, kdy se manageři vyrovnávají s třemi problémy:
+2. Etapa – moderní management (80. léta) = období, kdy se manageři vyrovnávají s třemi problémy:
 	1. Japonská výzva – technologický pokrok, neustálá inovace produktů
 	2. Ostré změny ekonomických podmínek – válečný konflikty, teroristické útoky
-	3. Integrační procesy – od 90\. Let využívání počítačů v automatizovaném systému řízení
+	3. Integrační procesy – od 90. Let využívání počítačů v automatizovaném systému řízení
 
  
 
 __MANAGERSKÉ FUNKCE__
 
 -
-	- Manageři na všech úrovních vykonávají zároveň 5 manag\. Funkcí
+	- Manageři na všech úrovních vykonávají zároveň 5 manag. Funkcí
 
 1. PLÁNOVÁNÍ
 2. ORGANIZOVÁNÍ
@@ -82,7 +82,7 @@ __MANAGERSKÉ FUNKCE__
 
  
 
-\- Plánování začíná prognózou\. \(=kvalifikovaný odhad situace na 20 a více let dopředu\) 
+\- Plánování začíná prognózou. (=kvalifikovaný odhad situace na 20 a více let dopředu) 
 
  
 
@@ -90,11 +90,11 @@ Plány jsou: 
 
 1. **Dle času**  
 
-\- DLOUHODOBÉ \-\- 5 a více let 
+\- DLOUHODOBÉ -- 5 a více let 
 
 \- STŘEDNĚDOBÉ 
 
-\- KRÁTKODOBÉ \-\- do 1 roku 
+\- KRÁTKODOBÉ -- do 1 roku 
 
  
 
@@ -102,37 +102,33 @@ Plány jsou: 
 
 1. **Dle cílů**  
 
-\- STRATEGICKÉ \-\- zabývá se TOP management 
+\- STRATEGICKÉ -- zabývá se TOP management 
 
-              \-\- počítají s nejistotou 
+              \-- počítají s nejistotou 
 
-              \-\- týkají se celé firmy 
+              \-- týkají se celé firmy 
 
-              \-\-kromě čísel ukazují i slovní cíle  
+              \--kromě čísel ukazují i slovní cíle  
 
-\(přistavení budovy, stát se součástí řetězce, vylepšení hotelu\) 
-
- 
-
-\-TAKTICKÉ \-\- střednědobé 
-
-     \-\- konkretizují stanovené cíle 
-
-     \-\-odpovídá za ně střední management 
+(přistavení budovy, stát se součástí řetězce, vylepšení hotelu) 
 
  
 
-\-OPERATIVNÍ \-\- upravují běžný provoz firmy 
+\-TAKTICKÉ -- střednědobé 
 
-          \-\- týkají se jednotlivých úseků 
+     \-- konkretizují stanovené cíle 
 
-          \-\-krátkodobý charakter 
-
-          \-\- plán tržeb 
+     \--odpovídá za ně střední management 
 
  
 
- 
+\-OPERATIVNÍ -- upravují běžný provoz firmy 
+
+          \-- týkají se jednotlivých úseků 
+
+          \--krátkodobý charakter 
+
+          \-- plán tržeb 
 
  
 
@@ -152,7 +148,11 @@ Plány jsou: 
 
  
 
-**2\. Organizování** 
+ 
+
+ 
+
+**2. Organizování** 
 
 \- Jde o rozdělení činností ve firmě na základě dělby práce, specializace a kooperace, vymezení vztahů nadřízenosti a podřízenosti a určení kompetencí a odpovědnosti 
 
@@ -164,42 +164,42 @@ Organizační schéma: grafické vyjádření vnitřního uspořádání firmy�
 
  
 
-DĚLENÍ ORGANIZAČNÍ STRUKTURY 
+## DĚLENÍ ORGANIZAČNÍ STRUKTURY
 
 1. **Dle pravomocí** 
-2. LINIOVÁ \- jednoduché uspořádání, dnes pouze v malých firmách, informace jsou předávány po 1 linii a platí zásada, že každý má pouze 1 přímého nadřízeného 
+2. LINIOVÁ - jednoduché uspořádání, dnes pouze v malých firmách, informace jsou předávány po 1 linii a platí zásada, že každý má pouze 1 přímého nadřízeného 
 
  
 
-1. ŠTÁBNÍ \- jak se zvětšovaly firmy rostla náročnost řízení, proto byly managerům vytvářeny podpůrné pomocné štáby\. Ve štábu jsou asistenti a odborníci např\.: právníci, kontroloři, IT odborníci 
+1. ŠTÁBNÍ - jak se zvětšovaly firmy rostla náročnost řízení, proto byly managerům vytvářeny podpůrné pomocné štáby. Ve štábu jsou asistenti a odborníci např.: právníci, kontroloři, IT odborníci 
 
-\- pracovníci štábu neřídí\! 
-
- 
+\- pracovníci štábu neřídí! 
 
  
 
-1. LINIOVĚ\-ŠTÁBNÍ \- na rozdíl od štábní struktury jsou zde pracovníci štábu vybaveni rozhodovací pravomocí a tedy i řídí 
+ 
+
+1. LINIOVĚ-ŠTÁBNÍ - na rozdíl od štábní struktury jsou zde pracovníci štábu vybaveni rozhodovací pravomocí a tedy i řídí 
 
  
 
  
 
 1. **Dle míry soustředění moci** 
-2. CENTRALIZOVANÁ \- moc je soustředěna do rukou velmi úzké skupiny managerů, kteří rozhodují o všem 
-3. DECENTRALIZOVANÁ \- pravomoce jsou přeneseny na úrovně MNG 
+2. CENTRALIZOVANÁ - moc je soustředěna do rukou velmi úzké skupiny managerů, kteří rozhodují o všem 
+3. DECENTRALIZOVANÁ - pravomoce jsou přeneseny na úrovně MNG 
 
  
 
 1. **Dle počtu řízení pracovníků** 
-2. PLOCHÁ \- obtížné předávání informací 
-3. ÚZKÁ \- pomalý tok informací 
+2. PLOCHÁ - obtížné předávání informací 
+3. ÚZKÁ - pomalý tok informací 
 
  
 
 1.  **Dle času trvání** 
 2. TRVALÁ 
-3. DOČASNÁ \- na přechodné období 
+3. DOČASNÁ - na přechodné období 
 
        \- na mimořádnou událost 
 
@@ -208,12 +208,12 @@ DĚLENÍ ORGANIZAČNÍ STRUKTURY 
  
 
 1. **Dle formálnosti** 
-2. FORMÁLNÍ \- někdo něco nařídí 
-3. NEFORMÁLNÍ \- vzniká spontánně 
+2. FORMÁLNÍ - někdo něco nařídí 
+3. NEFORMÁLNÍ - vzniká spontánně 
 
-__3\. Personální řízení \(personalistika\)__
+__3. Personální řízení (personalistika)__
 
-\- Činnost zabývající se HR \(human resources = lidské zdroje\)
+\- Činnost zabývající se HR (human resources = lidské zdroje)
 
 \- Jde o jejich výběr a rozmístění v organizační struktuře a dále i o jejich vedení
 
@@ -239,7 +239,7 @@ __Zásady__
 
 - Zaměstnanci o hodnocení ví předem
 - Znají předem kritéria
-- Hodnocení by mělo mít praktický dopad na zaměstnance \(odměny\), karierní postup
+- Hodnocení by mělo mít praktický dopad na zaměstnance (odměny), karierní postup
 - Musí být spravedlivé a objektivní
 
 __Systém trestů__
@@ -248,10 +248,10 @@ __Systém trestů__
 
 - Ústní napomenutí
 - Písemná důtka
-- Finanční postih \(prémie, bonusy\)
-- Ukončení pracovního poměru \(ze strany zaměstnavatele\)
+- Finanční postih (prémie, bonusy)
+- Ukončení pracovního poměru (ze strany zaměstnavatele)
 
-__4\. Vedení lidí__
+__4. Vedení lidí__
 
 __Motivace =__ Snaha sladit cíle zaměstnanců s cíli firmy
 
@@ -263,30 +263,30 @@ __Motivace =__ Snaha sladit cíle zaměstnanců s cíli firmy
 - Potřeba existenční
 - Potřeba biologická
 
-\- Maslov prokázal, že nejsou\-li uspokojeny potřeby nižší úrovně, nemá cenu motivovat zaměstnance k uspokojení potřeb vyšší kategorie
+\- Maslov prokázal, že nejsou-li uspokojeny potřeby nižší úrovně, nemá cenu motivovat zaměstnance k uspokojení potřeb vyšší kategorie
 
 __Teorie X,Y__= __X__ říká, že průměrný zaměstnanec je líný, práci chápe pouze jako zdroj obživy, vyhýbá se jí a je nutno ho do práce nutit – AUTOKRATICKÝ STYL
 
-= __Y__ říká, že průměrný zaměstnanec se do práce těší, v práci se chce seberealizovat\.  Je pracovitý – DEMOKRATICKÝ AŽ LIBERÁLNÍ STYL
+= __Y__ říká, že průměrný zaměstnanec se do práce těší, v práci se chce seberealizovat.  Je pracovitý – DEMOKRATICKÝ AŽ LIBERÁLNÍ STYL
 
-__\- Závěr__ = protože nikdo nepracuje s průměrným zaměstnancem, je třeba hledat poměr __X__ a __Y__ a podle toho ho řídit a motivovat
+__- Závěr__ = protože nikdo nepracuje s průměrným zaměstnancem, je třeba hledat poměr __X__ a __Y__ a podle toho ho řídit a motivovat
 
 __Odměňování zaměstnanců__
 
 - Odměňování by nemělo být rovnostářské
 - Nelze zapomínat na nehmotné odměny
 
-__odměny:__   __1\) HMOTNÉ__
+__odměny:__   __1) HMOTNÉ__
 
 -
 	-
 		-
-			1. PŘÍMÉ\- jsou součástí mzdy \(prémie, odměny, podíly ze zisku\) = nevýhodné, protože podléhají daním a pojištění
-			2. NEPŘÍMÉ\- benefity, stravenky
+			1. PŘÍMÉ- jsou součástí mzdy (prémie, odměny, podíly ze zisku) = nevýhodné, protože podléhají daním a pojištění
+			2. NEPŘÍMÉ- benefity, stravenky
 
-__2\) NEHMOTNÉ__\- nestojí firmu peníze
+__2) NEHMOTNÉ__- nestojí firmu peníze
 
-\- pochvaly, uznání \(formou diplomu, zaměstnanec měsíce
+\- pochvaly, uznání (formou diplomu, zaměstnanec měsíce
 
 1. __Kontrola__
 	- Proces vyhledávání odchylek od požadovaného stavu a opatření k jejich nápravě
@@ -302,7 +302,7 @@ __DRUHY KONTROLNÍCH PROCESŮ:__
 1. Úplná – Částečná
 2. Plánovaná – Neplánovaná
 3. Pravidelné – Namátkové
-4. Základní – Vrcholové \(TOP management\)
+4. Základní – Vrcholové (TOP management)
 
 __PRACOVNÍ KARIÉRA__
 
@@ -310,8 +310,8 @@ __PRACOVNÍ KARIÉRA__
 
 1. Přípravné období – studium
 2. Zapracování se
-3. Vrchol kariéry \(33\-35 let\)
-4. Pozdní kariéra – vrcholoví manageři \(TOP\) odcházejí buď do menších firem, nebo na jinou funkci \(poradci, více prezident firem, dozorčí\)
+3. Vrchol kariéry (33-35 let)
+4. Pozdní kariéra – vrcholoví manageři (TOP) odcházejí buď do menších firem, nebo na jinou funkci (poradci, více prezident firem, dozorčí)
 
 __OSOBNOST MANAGERA__
 
@@ -327,7 +327,7 @@ __3 ZÁKLADNÍ ÚROVNĚ MANAGERŮ__
 
 \- nesou největší odpovědnost vůči vlastníkům firmy
 
-Generální ředitel, ekonomický ředitel
+## Generální ředitel, ekonomický ředitel
 
 - STŘEDNÍ MANAGEMENT = jeho úlohou je:
 
@@ -335,7 +335,7 @@ Generální ředitel, ekonomický ředitel
 
 \- je vyžadováno odborné i managerské vzdělání
 
-Př\.: FaB manager – manager restaurace
+Př.: FaB manager – manager restaurace
 
 – manager zásob
 
@@ -349,11 +349,11 @@ Př\.: FaB manager – manager restaurace
 
 \- řeší běžné denní problémy
 
-\- řídí přímo výkonné pracovníky\!
+\- řídí přímo výkonné pracovníky!
 
 __STYLY ŘÍZENÍ__
 
-\- V praxi uplatňují manageři různé druhy přístupu ke svým podřízeným\.
+\- V praxi uplatňují manageři různé druhy přístupu ke svým podřízeným.
 
 \- Rozlišujeme 3 základní typy řídících stylů:
 
@@ -369,17 +369,17 @@ Autokrat= manager, který se rozhoduje sám a neradí se se svými podřízeným
 
 \- lze použít tam, kde pracovníci nemají zájem pracovat
 
-\- nevýhoda \- nízká motivace k zaměstnanci
+\- nevýhoda - nízká motivace k zaměstnanci
 
 \- výhody – rychlost rozhodování
 
-– kolektivy dosahují dobré kvantity \(množství\) Př\.: armáda
+– kolektivy dosahují dobré kvantity (množství) Př.: armáda
 
 __DEMOKRATICKÝ STYL__
 
 \- manager vede s podřízenými dialog, radí se s nimi, rozhoduje sám—říká proč se tak rozhodl
 
-\- podřízený o práci přemýšlí, práce je baví \(mají zájem\), dosahují dobré kvality
+\- podřízený o práci přemýšlí, práce je baví (mají zájem), dosahují dobré kvality
 
 \- v kolektivech jsou dobré mezilidské vztahy
 
@@ -393,16 +393,16 @@ __LIBERÁLNÍ STYL__
 
 \- s úspěchem lze použít pouze tam, kde se pracovníci v práci seberealizují
 
-Př\.: vědecké ústavy, nemocnice, dobrý barman
+Př.: vědecké ústavy, nemocnice, dobrý barman
 
-\! Každý manager by měl používat různé styly řízení, protože záleží na tom, koho řídí a jaké úkoly plní\.
+! Každý manager by měl používat různé styly řízení, protože záleží na tom, koho řídí a jaké úkoly plní.
 
 __MANAGERSKÉ ROLE__
 
 \- Manageři vystupují ve 4 základních rolích:
 
 1. __INFORMAČNÍ__ = stálé sledování informací ve firmě
-2. __INTERPERSONÁLNÍ__ \(mezilidské\) = manager svým chováním dává příklad svým podřízeným a může tím ovlivnit vzájemné chování a náladu v kolektivu
+2. __INTERPERSONÁLNÍ__ (mezilidské) = manager svým chováním dává příklad svým podřízeným a může tím ovlivnit vzájemné chování a náladu v kolektivu
 3. __ROZHODOVACÍ__ = vyhledává problémy, snaží se jim předcházet
 
    = hledá řešení a kompromisy

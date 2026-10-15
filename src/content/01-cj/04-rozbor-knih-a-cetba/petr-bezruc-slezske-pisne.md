@@ -9,9 +9,9 @@ Petr Bezruč
 
 __Charakterisitka literárního kontextu:__
 
-Století: 90\.léta19\.století
+Století: 90.léta19.století
 
-Směr: Generace buřičů, Česká moderna \(použití moderních směry, využití symbolů metafor, ale jsou srozumitelné pro společnost\)
+Směr: Generace buřičů, Česká moderna (použití moderních směry, využití symbolů metafor, ale jsou srozumitelné pro společnost)
 
 Další autoři dané doby: Victor Dyk
 
@@ -23,7 +23,7 @@ __Další dílo autora:__ Stužkonoska modrá
 
  
 
-Básně vydávána od 1899 v časopise Čas, sbírka vydávaná časopisem Slezské číslo, v roce 1909 byla vydána knižně Slezské písně \(původně 51 básně, 88 básní\)
+Básně vydávána od 1899 v časopise Čas, sbírka vydávaná časopisem Slezské číslo, v roce 1909 byla vydána knižně Slezské písně (původně 51 básně, 88 básní)
 
  
 
@@ -31,7 +31,7 @@ __Charakteristika literárního díla:__
 
 Literární forma: poezie
 
-Literární druh: lyricko\-epický
+Literární druh: lyricko-epický
 
 Žánr: sociální a národnostní balada
 
@@ -51,11 +51,11 @@ __Náměty:__
 
 __Téma:__
 
-Sociální, \(sociální balady, kritika společnosti\)
+Sociální, (sociální balady, kritika společnosti)
 
-národnostní \(např\. rozdílnost mezi Prahou a Slezkem\)
+národnostní (např. rozdílnost mezi Prahou a Slezkem)
 
-intimní \(subjektivní tulumená, vyjadržení stezku po rodinném krbu, smutek nad ztrátou mile, osamělost, pocit rezignace\)
+intimní (subjektivní tulumená, vyjadržení stezku po rodinném krbu, smutek nad ztrátou mile, osamělost, pocit rezignace)
 
 Sbírka 88 balad
 
@@ -111,9 +111,9 @@ Záměr autora: kritika společnosti, poukázat na nucené změny
 
 Motivy: autor líčí Ondrovi změny ve Slezsku
 
-Charakteristika postav: Ondráš \- slezský zbojník, symbol starého Slezska
+Charakteristika postav: Ondráš - slezský zbojník, symbol starého Slezska
 
-sám autor \- líčitel změn ve Slezsku
+sám autor - líčitel změn ve Slezsku
 
 Prostředí: Beskydy
 
@@ -121,21 +121,21 @@ Prostředí: Beskydy
 
 __Kompoziční složka díla:__
 
-Postoj autora: \-ich i \-er forma, subjektivita
+Postoj autora: -ich i -er forma, subjektivita
 
 Paralely
 
 Kontrasty
 
-Využití symbolů – slezský bard \- \., kovkop \- …\.\., markýz Gero \- ……\.\.
+Využití symbolů – slezský bard - ., kovkop - ….., markýz Gero - ……..
 
   
 
 __Jazyková složka díla:__
 
-Útvar jazyka: nespisovný – nářečí \- ………\.\.
+Útvar jazyka: nespisovný – nářečí - ………..
 
-Lexikální prostředky: eufeismus \- Pod vozem zhasla Magdonova vdova
+Lexikální prostředky: eufeismus - Pod vozem zhasla Magdonova vdova
 
 Slohový postup: vyprávějící, úvahový
 
@@ -149,7 +149,7 @@ Hyperboly
 
  
 
-__Vlastní názor:__ Sbírka se četla velice dobře\. Básně byly velice čtivé a zajímavé i z důvodu, že pojednávaní o mém rodném kraji\. – příliš málo
+__Vlastní názor:__ Sbírka se četla velice dobře. Básně byly velice čtivé a zajímavé i z důvodu, že pojednávaní o mém rodném kraji. – příliš málo
 
  
 
@@ -157,28 +157,28 @@ U jednotlivých básní je třeba vyjádřit jejich jazykovou stránku
 
 Intimní
 
-__Červený květ__ – Symbolizuje život na slezsku x praha, tj\. zde byl život těžky a když rozkvete \(rudý květ\) není opěvován X květ růže je opěvován ale je křehký \(Bezruč X Čelakovský\)
+__Červený květ__ – Symbolizuje život na slezsku x praha, tj. zde byl život těžky a když rozkvete (rudý květ) není opěvován X květ růže je opěvován ale je křehký (Bezruč X Čelakovský)
 
-__Labutinka__ – Nešťastná láska, kdy se básník zamiluje do Labutinky \(krásné ženy\), ale rodiče ho žádají aby počkal, po návratu dovídá se, že s ní může kdokoliv spát\. Mrzí ho zrada, ale nesoudí ji, nemohla za její situaci\. Rezignace\.
+__Labutinka__ – Nešťastná láska, kdy se básník zamiluje do Labutinky (krásné ženy), ale rodiče ho žádají aby počkal, po návratu dovídá se, že s ní může kdokoliv spát. Mrzí ho zrada, ale nesoudí ji, nemohla za její situaci. Rezignace.
 
-//Epizeuxus \(Labutinka, Labutinka, Labutinko černobrvá\!\)
+//Epizeuxus (Labutinka, Labutinka, Labutinko černobrvá!)
 
-__Jen jedenkrát__ – paralela \(Slunce a lidé X básník a láska\) => strach z neznámého, který se rozvine  do promarněné šance, nad kterou je pozdě litovat\. \(vyženou slunce a pak si všimnou krás, co způsobil sluneční svit, básník se uzamknul do sebe, ale ve stáří je pozdě se otevřít lásce\)
+__Jen jedenkrát__ – paralela (Slunce a lidé X básník a láska) => strach z neznámého, který se rozvine  do promarněné šance, nad kterou je pozdě litovat. (vyženou slunce a pak si všimnou krás, co způsobil sluneční svit, básník se uzamknul do sebe, ale ve stáří je pozdě se otevřít lásce)
 
-__Motýl –__ K básníkovi přilétá motýl, ale on ho posílá pryč od sebe, neví co by si s ním počal \(Motýl – Láska štěstí\)
+__Motýl –__ K básníkovi přilétá motýl, ale on ho posílá pryč od sebe, neví co by si s ním počal (Motýl – Láska štěstí)
 
 Sociální
 
-__Ostrava__ – Život horníka, který je znaven prací v dole, volající po revoluci\. Doufá ve spravedlnost a odpaltu\.
+__Ostrava__ – Život horníka, který je znaven prací v dole, volající po revoluci. Doufá ve spravedlnost a odpaltu.
 
-__Maryčka__ __Magdónova__ – Poměry na Slezsku, dívce umřou rodiče, nucena krást, aby uživila sourozence, je však zatčena\. Lepší spáchá sebevraždu, aby ušetřila si trápení\. Pohřbena na okraji hřbitova bez kříže \(způsob pohřbu pro sebevrahy\)
+__Maryčka__ __Magdónova__ – Poměry na Slezsku, dívce umřou rodiče, nucena krást, aby uživila sourozence, je však zatčena. Lepší spáchá sebevraždu, aby ušetřila si trápení. Pohřbena na okraji hřbitova bez kříže (způsob pohřbu pro sebevrahy)
 
-__Žermanice__ – Krásná mladá žena chodí za těžkou prací/robotou a stářím ztrácí krásu\.
+__Žermanice__ – Krásná mladá žena chodí za těžkou prací/robotou a stářím ztrácí krásu.
 
 Národnostní
 
-__70__ __000__ – Poněmčení a popolštění slezských obyvatel, přirovnání k vyhrabání 70 000 hrobů; lid prosí Boha, ale marně\.
+__70__ __000__ – Poněmčení a popolštění slezských obyvatel, přirovnání k vyhrabání 70 000 hrobů; lid prosí Boha, ale marně.
 
-__Kantor__ __Halfar__ – SB\. Popisuje dění na Slezsku, kdy se z českých škol staly polské\. Halfar učí česky, proto má problémy, pořád hledá místo\. Paradoxně ho nalezne \(sebevražda => místo na hřbitově\)
+__Kantor__ __Halfar__ – SB. Popisuje dění na Slezsku, kdy se z českých škol staly polské. Halfar učí česky, proto má problémy, pořád hledá místo. Paradoxně ho nalezne (sebevražda => místo na hřbitově)
 
-__Praga caput regni__ – Kontrast mezi Prahou a Slezskem \(severem\), Pražené oplývají rádoby vlastenectvím, starají se jen o sebe, místo toho, aby pomohli zlepšit situaci na hranicích, kde jsou poněmčovani nebo popolštěni\. Vzkazují praze ať si to vlastenectví nechaj\.
+__Praga caput regni__ – Kontrast mezi Prahou a Slezskem (severem), Pražené oplývají rádoby vlastenectvím, starají se jen o sebe, místo toho, aby pomohli zlepšit situaci na hranicích, kde jsou poněmčovani nebo popolštěni. Vzkazují praze ať si to vlastenectví nechaj.

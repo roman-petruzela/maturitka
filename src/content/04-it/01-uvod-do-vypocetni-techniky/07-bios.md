@@ -11,7 +11,7 @@ Ukázka BIOSu
 
 zapnutí podpory virtualizace na procesoru pro VirtualBox
 
-## **Úkol:**
+## Úkol:
 
 _Najít manuál pro vybranou základní desku (AMD, Intel).ideálně svého PC či notebooku._
 
@@ -25,7 +25,7 @@ EEPROM -
 
 Flash paměť -
 
-### **Flashování BIOSu**
+### Flashování BIOSu
 
 nahrazení stávajícího BIOSu za novější verzi (opravené chyby, nové funkce) prováděno z:
 
@@ -77,7 +77,7 @@ _V předmětu OSY se učíte různé OS zpravidla nainstalovány do programu Vir
 
 _„Wake on LAN“ je jaká funkce?_
 
-## **Citace**
+## Citace
 
 _Wikipedie: Otevřená encyklopedie: BIOS_ [online]. c2020 [citováno 12. 11. 2020]. Dostupný z WWW: <https://cs.wikipedia.org/w/index.php?title=BIOS&oldid=18700696 <u>></u>
 

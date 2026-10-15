@@ -13,9 +13,9 @@ source: "Účetnictví/6. Kapitálové účty (účtová třída 4) - Dokumenty 
 
 - podle  toho,  z  jakých  zdrojů  kapitál  pochází,  rozeznáváme  zdroje  financování  vlastní  a cizí
 
-## **Vlastní  zdroje**
+## Vlastní  zdroje
 
-### **Základní  kapitál  -  411**
+### Základní  kapitál  -  411
 
 -  souhrn  všech  peněžitých  a  penězi  ocenitelných  vkladů  (nepeněžních  vkladů)  vložených společníky  do  podniku  (v  obchodních  společnostech),  členy  do  družstev  nebo  zakladatelem (ve  státním  podniku)
 
@@ -35,7 +35,7 @@ větší  jistota  uspokojení  pohledávek)
 
 - změny:  419  -  musí  schválit  valná  hromada  ➝  potom  411
 
-### **Fondy**
+### Fondy
 
 - jsou  vlastním  zdrojem  účetní  jednotky
 
@@ -43,7 +43,7 @@ větší  jistota  uspokojení  pohledávek)
 
 - po  přídělu  zisku  dozakonného  rezervního  fondu  -  účet  421  vytváří  společnost  podle rozhodnutí  další  fondy  -  statutární,  sociální,  rizikový,  fond  odměn  apod.
 
-### **Kapitálové  fondy  -  412  (emisní  ážio)**
+### Kapitálové  fondy  -  412  (emisní  ážio)
 
 - má  jenom  akciová  společnost
 
@@ -61,13 +61,13 @@ větší  jistota  uspokojení  pohledávek)
 
 - používají  se  na  sociální  potřeby  zaměstnanců  (  příspěvek  na  dovolenou,  lístky  na  kulturní sportovní  akce...)
 
-## **Rozdělení  zisku  a  tvorba  fondů**
+## Rozdělení  zisku  a  tvorba  fondů
 
 -  dosažený  čistý  zisk  za  minulé  účetní  období  se  ve  spol.  s  ručením  omezeným  a  v  akciové společnosti  rozděluje  podle  rozhodnutí  valné  hromady,  v  družstvu  podle  rozhodnutí  členské schůze
 
 -  zisk  přechází  z  účetnictví  minulého  roku  do  příštího  účetního  období  na  účtu  431  na  straně D  v  případě  ztráty  je  zaúčtován  na  straně  MD
 
-## **Hospodářský  výsledek  -  428,431**
+## Hospodářský  výsledek  -  428,431
 
 - 428  ➝  nerozdělený  hospodářský  výsledek  z  minulých  let
 
@@ -85,7 +85,7 @@ větší  jistota  uspokojení  pohledávek)
 
 - nerozdělený  zisk  může  být  převeden  do  nerozděleného  zisku  jako  vlastní  zdroj  účelově neurčený
 
-### **Vypořádání  ztráty**
+### Vypořádání  ztráty
 
 Pokud  účetní  jednotka  hospodařila  se  ztrátou,  účet **431  vykazuje  zůstatek  na  straně  MD.** Ztrátu  je  možno  vypořádat  například:
 
@@ -96,9 +96,9 @@ Pokud  účetní  jednotka  hospodařila  se  ztrátou,  účet **431  vykazuje 
 |4.  v  případě,  že  účetní  jednotka  nemá  dostatek  zdrojů  na  uhrazení  ztráty,<br>neuhrazenou  část  ztráty  převést  do  dalších  let|je  možno<br>429/431|
 |354  -  Pohledávky  za  společníky  při  úhradě  ztráty||
 
-## **Cizí  zdroje**
+## Cizí  zdroje
 
-### **Rezervy**
+### Rezervy
 
 - dlouhodobý  cizí  zdroj  majetku  podniku
 
@@ -116,7 +116,7 @@ Pokud  účetní  jednotka  hospodařila  se  ztrátou,  účet **431  vykazuje 
 
 ### <u>Druhy  rezerv:</u>
 
-### **-  zákonné**
+### Zákonné
 
 - jejich  tvorba  je  stanovená  zákonem  o  rezervách,  slouží  pouze  na  opravu
 
@@ -130,7 +130,7 @@ Pokud  účetní  jednotka  hospodařila  se  ztrátou,  účet **431  vykazuje 
 
 - čerpání  451/552
 
-### **-  ostatní**
+### Ostatní
 
 - tvoří  se  podle  vnitřní  směrnice  účetní  jednotky  a  nejsou  daňově  uznatelným  nákladem
 
@@ -152,7 +152,7 @@ Pokud  účetní  jednotka  hospodařila  se  ztrátou,  účet **431  vykazuje 
 
 - kontrola  z  FÚ  -  firmy  si  tímto  zvyšují  účetní  a  daňové  náklady  během  let  a  platí  státu  nižší daně
 
-### **Dlouhodobé  bankovní  úvěry  -  461**
+### Dlouhodobé  bankovní  úvěry  -  461
 
 - dlouhodobé  bank.  úvěry  s  dobou  splatnosti  víc  než  1  rok  účtujeme  na  účtu  461
 
@@ -162,7 +162,7 @@ Pokud  účetní  jednotka  hospodařila  se  ztrátou,  účet **431  vykazuje 
 
 - z  bankovního  účtu  se  platí  úroky  -  562
 
-### **Dlouhodobé  závazky  -  47**
+### Dlouhodobé  závazky  -  47
 
 - účtová  sk.  47  obsahuje  účty  vyjadřující  dlouhodobé  závazky  účetní  jednotky  k  podnikům  ve skupině,  z  emitovaných  dlouhodobých  dluhopisů,  závazky  z  pronájmu,  z  dlouhodobých přijatých  záloh,  směnek  k  úhradě  a  ostatní  dlouhodobé  závazky
 
@@ -176,7 +176,7 @@ Pokud  účetní  jednotka  hospodařila  se  ztrátou,  účet **431  vykazuje 
 
 - _ostatní  dlouhodobé  závazky_ -  479  ➝  dlouhodobé  půjčky  a  vklady  společníků
 
-## **Individuální  podnikatel**
+## Individuální  podnikatel
 
 - FO,  která  je  účetní  jednotkou
 
@@ -204,7 +204,7 @@ Pokud  účetní  jednotka  hospodařila  se  ztrátou,  účet **431  vykazuje 
 
 - individuální  podnikatel  vede  daňovou  evidenci
 
-### **Kdy  přechází  z  daň.  evidence  do  účetnictví**
+### Kdy  přechází  z  daň.  evidence  do  účetnictví
 
 - překročí-li  obrat  25  mil./rok
 

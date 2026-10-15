@@ -1,5 +1,5 @@
 ---
-title: "RUSKÉ REVOLUCE A VÝVOJ SSSR DO DRUHÉ SVĚTOVÉ VÁLKY"
+title: "Ruské revoluce a vývoj SSSR do druhé světové války"
 order: 26
 source: "Dějepis/26.RUSKÉ REVOLUCE A VÝVOJ SSSR DO DRUHÉ SVĚTOVÉ VÁLKY.docx"
 ---

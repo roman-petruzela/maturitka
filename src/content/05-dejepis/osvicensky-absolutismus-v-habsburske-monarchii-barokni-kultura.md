@@ -1,5 +1,5 @@
 ---
-title: "OSVÍCENSKÝ ABSOLUTISMUS V HABSBURSKÉ MONARCHII, BAROKNÍ KULTURA"
+title: "Osvícenský absolutismus v habsburské monarchii, barokní kultura"
 order: 17
 source: "Dějepis/17.OSVÍCENSKÝ ABSOLUTISMUS V HABSBURSKÉ MONARCHII, BAROKNÍ KULTURA.doc"
 ---

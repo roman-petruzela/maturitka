@@ -24,7 +24,7 @@ source: "Ekonomika/6. Marketing.docx"
 
 - **Cí**l – určit co, komu, za jakou cenu a kde budeme prodávat
 
-*Marketingový mix* \(nelze zaměnit pořadí\)
+*Marketingový mix* (nelze zaměnit pořadí)
 
 1. __Výrobek__
 2. __Cena__
@@ -45,7 +45,7 @@ source: "Ekonomika/6. Marketing.docx"
 2. __Vnější znaky__:
 
 - __Obal__ – funkce estetická nebo ochranná, pokud se vyskytuje, měl by být snadno zapamatovatelný
-- Kvalita \(jakost\) – z hlediska zákazníku, jak jsou s výrobkem spokojeni; z hlediska právníků, zda výrobek splňuje určitou normu
+- Kvalita (jakost) – z hlediska zákazníku, jak jsou s výrobkem spokojeni; z hlediska právníků, zda výrobek splňuje určitou normu
 - __Design__ – estetické vnímání výrobku
 - __Ochranná__ – kombinace písmen, obrázku, číslic; odlišuje výrobek výrobce od ostatních
 - __Výrobní značky__ – Adidas, Škoda
@@ -58,17 +58,17 @@ source: "Ekonomika/6. Marketing.docx"
 
 1. __Výrobce i spotřebitele__ – na trhu doposud neexistoval, a pokud se ujme, výrobce rychle zbohatne
 2. __Výrobce__ – okopíruje se, co úspěšně prodává konkurence
-3. __Spotřebitele__ – původně výrobek určen pro jiný účel \(armáda\)
+3. __Spotřebitele__ – původně výrobek určen pro jiný účel (armáda)
 
 - __Životní cyklus výrobku__ – jak sloho se výrobek udrží bez změny na trhu
 
-__I\.__
+__I.__
 
-__II\.__
+__II.__
 
-__III\.__
+__III.__
 
-__IV\.__
+__IV.__
 
 1. __Zavádění výrobku na trh__; nejsložitější fáze – nikdo nezná náš výrobek; vysoké náklady na výrobu a propagaci; výsledek hospodaření musí být ztráta
 2. __Růst__; výrobek se začíná prodávat; musí se vytvářet nová propagace; VH by měl být zisk
@@ -99,7 +99,7 @@ __IV\.__
 
 1. __Reklama__ – placená forma propagace výrobku, služby, firmy; využívá inzeráty, billboardy, letáky; měla by být pravdivá, efektivní, neustále opakovat, zapamatovatelná
 2. Přímý marketing – zvláštní forma reklamy ⇒ obrací se na konkrétní osobu
-3. Telemarketing – televizní marketing ⇒ bezplatný nákup zboží určitou dobu před tel\. Linku
+3. Telemarketing – televizní marketing ⇒ bezplatný nákup zboží určitou dobu před tel. Linku
 4. __Podpora prodeje__
 5. __Na spotřebitele__ – __kupóny__ – předtištěná sleva na určité zboží, v určitém obchodě, určitou dobu
 

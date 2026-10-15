@@ -28,7 +28,7 @@ Ich forma
 
 Postavy
 
-Muž: hodný člověk, milovník zvířat\. Vezme si domu černého kocoura, ten mu začne být divný – stává se alkoholikem, ztratí práci\. Změní se jeho povaha, vypíchne kocourovi oko a pak jej oběsí na zahradě\. Vezme si podobnou, chce ji zabít , zabije manželku která mu brání\. Kočku nenajde\. Policie dojde vyšetřovat, muž dole zaklepe na stěnu, tak spadne a tam nachází jeho manželku\.
+Muž: hodný člověk, milovník zvířat. Vezme si domu černého kocoura, ten mu začne být divný – stává se alkoholikem, ztratí práci. Změní se jeho povaha, vypíchne kocourovi oko a pak jej oběsí na zahradě. Vezme si podobnou, chce ji zabít , zabije manželku která mu brání. Kočku nenajde. Policie dojde vyšetřovat, muž dole zaklepe na stěnu, tak spadne a tam nachází jeho manželku.
 
 Veršová výstavba
 
@@ -38,19 +38,19 @@ Metafory, personifikace, málo přímé řeči, zastaralé české výrazy, spis
 
 Autor
 
-Edgar Allan Poe – 1809\-1849
+Edgar Allan Poe – 1809-1849
 
-Americky romantický básník, prozaik\. Autor fantastických a mystických příběhu, je zakladatel hororu\.
+Americky romantický básník, prozaik. Autor fantastických a mystických příběhu, je zakladatel hororu.
 
-Měl problémy s alkoholem a drogami \+ hazardem
+Měl problémy s alkoholem a drogami + hazardem
 
-Oženil se se svou 13 letou sestřenicí\. Zemřel 3 po úpadu do kómatu z drog\.
+Oženil se se svou 13 letou sestřenicí. Zemřel 3 po úpadu do kómatu z drog.
 
 Havran a další básně, Maják
 
 Kontext autorovy tvorby
 
-Vždy u něj ženy vystupují jako oběti\. Pocity osamění, ústřední hrdina tak trochu splývá s autorem\.
+Vždy u něj ženy vystupují jako oběti. Pocity osamění, ústřední hrdina tak trochu splývá s autorem.
 
 Literární / obecně kulturní kontext
 

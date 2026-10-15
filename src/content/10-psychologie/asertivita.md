@@ -1,5 +1,5 @@
 ---
-title: "ASERTIVITA"
+title: "Asertivita"
 source: "PSYCHOLOGIE/ASERTIVITA.docx"
 ---
 1. __Asertivita__

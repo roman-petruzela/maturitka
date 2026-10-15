@@ -3,18 +3,18 @@ title: "Správní právo"
 order: 14
 source: "Právo/14. Správní právo/14_spravni_pravo.docx"
 ---
-# __14\. Správní právo__
+# __14. Správní právo__
 
-__SPRÁVNÍ PRÁVO__ je soubor systematicky řazených právních norem sloužící k regulaci vztahů při realizaci výkonu moci ve státě ve sféře veřejné správy\. Je právním řádem veřejné správy\.
+__SPRÁVNÍ PRÁVO__ je soubor systematicky řazených právních norem sloužící k regulaci vztahů při realizaci výkonu moci ve státě ve sféře veřejné správy. Je právním řádem veřejné správy.
 
-Je bezprostředně spojeno s organizací a činností ve veřejné správě\. Prosazuje a chrání veřejný zájem\. Konkrétní obsah jeho realizace je určen úřední mocí\.
+Je bezprostředně spojeno s organizací a činností ve veřejné správě. Prosazuje a chrání veřejný zájem. Konkrétní obsah jeho realizace je určen úřední mocí.
 
 __ČLĚNĚNÍ SPRÁVNÍHO PRÁVA__
 
 - Obecná část
 - Obsahuje především teorii práva a veřejné správy – organizace veřejné správy
 - Zvláštní část
-- Hmotně\-právní úprava jednotlivých oblastí veřejné správy \(správa školství, stavební správa, správa kultury\)
+- Hmotně-právní úprava jednotlivých oblastí veřejné správy (správa školství, stavební správa, správa kultury)
 
 __VNITŘNÍ ČLENĚNÍ SPRÁVNÍHO PRÁVA__
 
@@ -25,7 +25,7 @@ __VNITŘNÍ ČLENĚNÍ SPRÁVNÍHO PRÁVA__
 
 SPRÁVNÍ PRÁVO ORGANIZAČNÍ 
 
-Zakotvuje základní zásady organizace veřejné správy, konkretizuje postavení, organizaci, pravomoc a působnost subjektů veřejné správy\.
+Zakotvuje základní zásady organizace veřejné správy, konkretizuje postavení, organizaci, pravomoc a působnost subjektů veřejné správy.
 
 Předpisy: Zákon o postavení ministerstev a ostatních ústředních orgánů státní správy
 
@@ -35,7 +35,7 @@ Zákon o obcích
 
 SPRÁVNÍ PRÁVO HMOTNÉ 
 
-Představuje hmotně právní úpravu jednotlivých oblastní a úseků veřejné správy\.
+Představuje hmotně právní úpravu jednotlivých oblastní a úseků veřejné správy.
 
 Předpisy: Školský zákon
 
@@ -49,29 +49,29 @@ Zákon o zaměstnanosti
 
 SPRÁVNÍ PRÁVO PROCESNÍ 
 
-Upravuje procesně právní postup při rozhodování o právech, právem chráněných zájmech a povinnostech účastníků správního řízení, konaného před orgány veřejné správy\.
+Upravuje procesně právní postup při rozhodování o právech, právem chráněných zájmech a povinnostech účastníků správního řízení, konaného před orgány veřejné správy.
 
 Předpisy: Správní řád
 
-Stavební zákon \(pro tzv\. stavební řízení\)
+Stavební zákon (pro tzv. stavební řízení)
 
 Zákon o správě daní a poplatků
 
 SPRÁVNÍ PRÁVO TRESTNÍ 
 
-Zahrnuje právní úpravu základů a následků odpovědnosti za správní delikty, s uplatněním správně trestní odpovědnosti\.
+Zahrnuje právní úpravu základů a následků odpovědnosti za správní delikty, s uplatněním správně trestní odpovědnosti.
 
 Předpisy: Zákon o přestupcích
 
-Stavební zákon \(správní delikty na tomto úseku\)
+Stavební zákon (správní delikty na tomto úseku)
 
-Živnostenský zákon \(správní delikty na tomto úseku\)
+Živnostenský zákon (správní delikty na tomto úseku)
 
 __SPRÁVNÍ PRÁVO SUBJEKTIVNÍ A OBJEKTIVNÍ__
 
 SUBJEKTIVNÍ SPRÁVNÍ PRÁVO
 
-- Jde o vyjádření správního práva v konkrétním, obsahovém slova smyslu, při existenci představitelně adresného subjektu práva či práv\.
+- Jde o vyjádření správního práva v konkrétním, obsahovém slova smyslu, při existenci představitelně adresného subjektu práva či práv.
 - Jde vždy o aktuální stav, vyjadřující „to co je“
 
 OBJEKTIVNÍ SPRÁVNÍ PRÁVO
@@ -81,7 +81,7 @@ OBJEKTIVNÍ SPRÁVNÍ PRÁVO
 
 PŘESTUPEK
 
-- Je správním deliktem, jedná se o zaviněné jednání, jež porušuje nebo ohrožuje zájem společnosti, a je za přestupek výslovně označeno v zákoně\.
+- Je správním deliktem, jedná se o zaviněné jednání, jež porušuje nebo ohrožuje zájem společnosti, a je za přestupek výslovně označeno v zákoně.
 
 Druhy přestupků:
 
@@ -98,27 +98,27 @@ Systém donucovacích opatření:
 - Pokuta
 - Zákaz činnosti
 - Propadnutí věci
-- Ochranná opatření \(př\. omezující opatření, zabrání věci\)
+- Ochranná opatření (př. omezující opatření, zabrání věci)
 
 Orgány příslušné k vyřizování přestupků jsou
 
 - Obecní úřady a jejich orgány
 - Orgány policie
-- Jiné správní orgány \(př\. celnice, živnostenské úřady\)
+- Jiné správní orgány (př. celnice, živnostenské úřady)
 
 __NORMATIVNÍ A INDIVIDUÁLNÍ SPRÁVNÍ AKTY__
 
-NORMATIVNÍMI SPRÁVNÍMI AKTY jsou akty vydávané orgánem veřejné správy na základě zákonného zmocnění, jsou v něm obsažena obecně závazná pravidla zákonného chování\.
+NORMATIVNÍMI SPRÁVNÍMI AKTY jsou akty vydávané orgánem veřejné správy na základě zákonného zmocnění, jsou v něm obsažena obecně závazná pravidla zákonného chování.
 
-- Adresátem je každý, koho se toto pravidlo týká, tedy __předem neurčený kruh osob\.__
+- Adresátem je každý, koho se toto pravidlo týká, tedy __předem neurčený kruh osob.__
 
-\(př\. nařízení vlády, vyhlášky, obecně závazné vyhlášky obcí a krajů, nařízení obcí a krajů\)
+(př. nařízení vlády, vyhlášky, obecně závazné vyhlášky obcí a krajů, nařízení obcí a krajů)
 
-INDIVIDUÁLNÍ SPRÁVNÍ AKTY mají konkrétní podobu, řeší individuální věc\.
+INDIVIDUÁLNÍ SPRÁVNÍ AKTY mají konkrétní podobu, řeší individuální věc.
 
-- Jsou formou jednostranné činnosti správního orgánu \-\) spočívají v založení, změně nebo zrušení určitého práva nebo povinnosti\.
-- Adresovány jsou individuálním subjektům \(FO, PO\)\.
+- Jsou formou jednostranné činnosti správního orgánu -) spočívají v založení, změně nebo zrušení určitého práva nebo povinnosti.
+- Adresovány jsou individuálním subjektům (FO, PO).
 
-\(př\. vyměření daně, přijetí ke studiu, vyloučení ze školy, vydání stavebního povolení\)\.
+(př. vyměření daně, přijetí ke studiu, vyloučení ze školy, vydání stavebního povolení).
 
-__VZTAH SPRÁVNÍHO PRÁVA K VEŘEJNÉ SPRÁVĚ –__ správní právo je právním řádem VES\.
+__VZTAH SPRÁVNÍHO PRÁVA K VEŘEJNÉ SPRÁVĚ –__ správní právo je právním řádem VES.

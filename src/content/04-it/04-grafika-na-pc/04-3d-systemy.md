@@ -83,11 +83,11 @@ source: "grafika/VY_32_INOVACE_3224_01.pdf"
 |3D tiskárna|13 000,- - 1 500 000,- Kč|
 |3D brýle|Od 250,- Kč pasivní<br>Od 7 500.- Kč aktivní – virtuální realita|
 
-### **Použité zdroje:**
+### Použité zdroje:
 
 - Veškerý textový a další obrazový materiál je vytvořen a zpracován autorem textu, není-li uvedeno jinak.
 
-### **3D myši:**
+### 3D myši:
 
 - 3dconnexion_family. _3Dconnexion: 3D Motion Controlers_ [online]. 2014 [cit. 2014-03-31]. Dostupné z: http://www.3dconnexion.eu/index.php
 
@@ -117,7 +117,7 @@ source: "grafika/VY_32_INOVACE_3224_01.pdf"
 
 - Tiskárna Prusa Mendel. _Linuxexpres: 3D tiskárny RepRap: Open-source mašinky, které vám usnadní život_ [online]. 2012, 10. září [cit. 2014-03-31]. Dostupné z: http://www.linuxexpres.cz/uploads/gallery/ori ginal/6697.jpg
 
-## **Licence:**
+## Licence:
 
    - Vlastníkem licence pro používání Microsoft Office 2013 je SPŠei Ostrava, Kratochvílova 7
 

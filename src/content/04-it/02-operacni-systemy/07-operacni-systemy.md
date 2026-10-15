@@ -9,11 +9,11 @@ Operační systém je složen z řady programů, které řídí a koordinují ha
 
 Aby operační systém uspokojil požadavky, které na něj uživatel klade, musí plnit řadu funkcí.
 
-## **1.1 Synchronizace**
+## 1.1 Synchronizace
 
 Hardware počítače je složen z řady částí, které spolu musí spolupracovat (procesor, operační paměť, pevný disk, grafická karta, atd.). Aby spolupráci mohly vykonávat efektivně, je nutné je sladit. A to je úkolem OS – musí řící kdo, co a kdy má vykonávat.
 
-## **1.2 Správa procesoru**
+## 1.2 Správa procesoru
 
 Procesor vykonává většinu výpočtů v počítači. O služby procesoru mají zájem všechny programy, které jsou na počítači spuštěny. Operační systém proto musí procesor programům přidělovat.
 
@@ -23,11 +23,11 @@ Když máte zapnutý počítač, tak se vám zdá, že na něm běží více úl
 
 Běhu více úloh na jednom počítači se říká **multitasking** .
 
-#### **Kooperativní multitasking**
+#### Kooperativní multitasking
 
 Používal se například u operačních systémů Windows 3.x, Windows 95, Windows 98. Program obdrží od OS procesor a používá jej tak dlouho, jak potřebuje. Když už procesor nepotřebuje, vrátí jej zpět OS a ten jej přidělí dalšímu programu. Nevýhodou tohoto způsobu je, že pokud program uvázne (zatuhne) v okamžiku, kdy má k dispozici procesor, nemůže jej vrátit OS a zatuhne celý počítač – nutnost restartovat počítač.
 
-#### **Preemptivní multitasking**
+#### Preemptivní multitasking
 
 Používá se u současných operačních systémů. Operační systém nejen přiděluje, ale také odebírá procesor programům. Program dostane procesor pouze na určitou dobu (desítky, nebo stovky milisekund). Výhodo tohoto řešení je v tom, že pokud program uvázne, OS mu po určité době procesor odebere a předá ho dalším programům. Pád jednoho programu nezpůsobí pád celého systému.
 
@@ -45,7 +45,7 @@ Správce procesů (součást OS) musí rozhodnout v jakém pořadí přidělí p
 
 **Rodičovský proces** – základní proces, který spouští další procesy. Je-li naprogramován dobře, tak se spustí jako první a ukončí jako poslední.
 
-## **1.3 Správa paměti**
+## 1.3 Správa paměti
 
 Program, se kterým se pracuje, je nahrán v operační paměti. Velikost operační paměti není nekonečná, a proto tu musí být někdo (OS), kdo dá operační paměť programu k dispozici a kdo mu jí v případě nutnosti odebere. Správce paměti (součást OS) má za úkol:
 
@@ -59,15 +59,15 @@ Program, se kterým se pracuje, je nahrán v operační paměti. Velikost opera�
 
 **Virtuální paměť** – Místo, které si OS vyhradí na harddisku.  V případě, že nemá dostatek místa na spuštěné procesy v operační paměti, odloží OS některá data do virtuální paměti, tedy na pevný disk. Práce s virtuální paměti je značně pomalejší (pevný disk je pomalejší, než operační paměť). Virtuální paměť se také označuje jako **stránkovací soubor** , nebo **swapovací soubor** .
 
-#### **Úkol:**
+#### Úkol:
 
-## **1.4 Správa informací**
+## 1.4 Správa informací
 
 O každém souboru a adresáři musí být vedeny informace (datum a čas vytvoření, změny, typ souboru, atd.). Musí být také naprosto jasné, kde je na pevném disku požadovaný soubor uložen. Data se zároveň mění, kopírují, přesouvají, mažou. O všechny tyto operace a informace se musí postarat operační systém.
 
 O správu dat na harddisku se stará tzv. **souborový systém** (file system). Souborový systém se stará o to, které části souboru patří k sobě, kde jsou uloženy na pevném disku a do které složky významově patří (ve které složce se uživateli zobrazí). Souborový systém také eviduje o souboru řadu informací (název, přípona, datum změny, atd.). Souborových systémů je celá řada, my si popíšeme dva nejpoužívanější v operačních systémech Windows.
 
-#### **1.4.1 FAT32**
+#### 1.4.1 FAT32
 
 - starší
 
@@ -77,7 +77,7 @@ O správu dat na harddisku se stará tzv. **souborový systém** (file system). 
 
 - lze naformátovat pouze diskový oddíl s max. velikostí 32 GB
 
-#### **1.4.2 NTFS**
+#### 1.4.2 NTFS
 
 - novější
 
@@ -93,15 +93,15 @@ O správu dat na harddisku se stará tzv. **souborový systém** (file system). 
 
 - lze naformátovat pouze diskový oddíl s max. velikostí 16 EB
 
-#### **Úkol:**
+#### Úkol:
 
 Na internetu najděte tři další souborové systémy a jejich využití.
 
-## **1.5 Správa periférií**
+## 1.5 Správa periférií
 
 OS přiděluju procesům také ostatní zařízení (disky, tiskárny,...). Podobně jako u přidělování procesoru se musí postarat o to, aby byla tato zařízení efektivně využita.
 
-### **Otázky:**
+### Otázky:
 
 1. Co je to multitasking?
 
@@ -113,6 +113,6 @@ OS přiděluju procesům také ostatní zařízení (disky, tiskárny,...). Podo
 
 5. Popište rozdíl mezi souborovými systémy FAT32 a NTFS.
 
-#### **Úkol:**
+#### Úkol:
 
 Přiřaďte správné tvrzení:

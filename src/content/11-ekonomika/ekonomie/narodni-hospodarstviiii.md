@@ -12,7 +12,7 @@ Subjekty hospodářské politiky:
 - parlament – vydává pravidla
 - ČNB – řídí měnovou politiku
 
-## __Členění NH__\.
+## __Členění NH__.
 
 1. podle sektorů
 	1. primární – těžařský průmysl, lesnictví, rybolov, zemědělství
@@ -27,7 +27,7 @@ Ekonomické systémy
 Zvyková ekonomika
 příkazová ekonomika
 tržní ekonomika
-smíšená \(tržní \+ příkazová\)
+smíšená (tržní + příkazová)
 
 __Subjekty__
 
@@ -39,12 +39,12 @@ __Subjekty__
 
 ### __HDP – hrubý domácí produkt__
 
-- je souhrn všech finálních statků a služeb, které byly vytvořeny na území jednoho státu za jeden rok\.
+- je souhrn všech finálních statků a služeb, které byly vytvořeny na území jednoho státu za jeden rok.
 - Nezáleží, jestli občani nebo cizinci
 
 __HNP – hrubý národní produkt__
 
-- je souhrn všech finálních statků a služeb, které byly vytvořeny občany jednoho státu \(na celém světě\) za jeden rok\.
+- je souhrn všech finálních statků a služeb, které byly vytvořeny občany jednoho státu (na celém světě) za jeden rok.
 - pouze občani jednoho státu
 
 __Výpočet HDP__
@@ -56,11 +56,11 @@ __Výpočet HDP__
 HDP = výdaje všech subjektů = domácnosti
 
 1. příjmová metoda
-HDP = mzdy \+ zisk \+ renta \+ nepřímé daně \+ odpisy
-                         \( DPH, spotřební daň\)
+HDP = mzdy + zisk + renta + nepřímé daně + odpisy
+                         ( DPH, spotřební daň)
 
 - Výpočet HDP dále závisí na cenách zboží a služeb
-- Počítá se jako nominální HDP nebo reálný HDP \(ceny jsou očištěny od inflace\)
+- Počítá se jako nominální HDP nebo reálný HDP (ceny jsou očištěny od inflace)
 
 Druhy cen
 
@@ -69,7 +69,7 @@ Druhy cen
 
 __Hospodářský cyklus__
 
-- vyjadřuje vývoj ekonomiky, nikdy nemá stejný vývoj, každá země má svůj hospodářský cyklus nezávisle na ostatních s výjimkou hospodářské krize ve 30\. letech 20\. století a finanční krize na počátku 21\. století
+- vyjadřuje vývoj ekonomiky, nikdy nemá stejný vývoj, každá země má svůj hospodářský cyklus nezávisle na ostatních s výjimkou hospodářské krize ve 30. letech 20. století a finanční krize na počátku 21. století
 - 4 fáze – expanze, konjunktura, krize, deprese
 
 Expenze
@@ -108,23 +108,23 @@ __Inflace__
 1. přirozená = do 5%
 2. mírná = do 9% = ekonomice nepřispívá ale příliš neuškodí
 3. pádivá = nad 10% = vláda musí řešit, protože lidé přestali důvěřovat své měně, ukládají peníze do CP, realit, zlata a je narušena směna NH
-4. hyperinflace = tříciferné a vyšší čísla = ceny se mění ze dne na den, lidé odmítají vlastní měnu, peníze neplní žádnou svou funkci, klesá výkonost NH a ekonomiky\.
+4. hyperinflace = tříciferné a vyšší čísla = ceny se mění ze dne na den, lidé odmítají vlastní měnu, peníze neplní žádnou svou funkci, klesá výkonost NH a ekonomiky.
 
 __Důsledky inflace:__
 
 - Negativní:	 Lidé/ firmy s úsporami
-                   Lidé s pevnými příjmy \(státní zam\-ci, lidé na sociálních dávkách, důchodci\)
+                   Lidé s pevnými příjmy (státní zam-ci, lidé na sociálních dávkách, důchodci)
                    Věřitelé, podniky
 - Pozitivní: Dlužníci
                  Stát – vyšší výběry spotřební daně
 __Nezaměstnanost__
-- Projevuje se na trhu práce \(nabídka pracovních sil s poptávkou zam\-ců\)
+- Projevuje se na trhu práce (nabídka pracovních sil s poptávkou zam-ců)
 
 VZNIKÁ = nabídkou pracovních sil > poptávka zaměstnavatelů
 
 - Nezaměstnanost je:	 DOBROVOLNÁ
 
-NEDOBROVOLNÁ \(registrována na úřadu práce\)
+NEDOBROVOLNÁ (registrována na úřadu práce)
 
 - Ekonomicky aktivní obyvatelstvo = zahrnuje občany, kteří mohou a chtějí pracovat, od 15 do 65 let
 
@@ -135,7 +135,7 @@ __druhy nezaměstnanosti:__
 - souvisí s přirozeným pohybem obyvatelstva
 -   trvá několik týdnů – krátkodobá
 - Vláda se jí nezabývá
-- Např\. po škole, stěhování
+- Např. po škole, stěhování
 
 1. Cyklická
 
@@ -149,9 +149,9 @@ __druhy nezaměstnanosti:__
 - Souvisí se strukturou NH
 - Postihuje to nezaměstnanost v určitých profesích
 - Může postihovat určité regiony
-- Musí se přizpůsobit školství \(např\. rekvalifikace\)
+- Musí se přizpůsobit školství (např. rekvalifikace)
 - Stát to má na starost
-- Např\. hornická profese
+- Např. hornická profese
 
 MÍRA NEZAMĚSTNANOSTI =
 
@@ -170,8 +170,8 @@ MÍRA NEZAMĚSTNANOSTI =
 
 __Platební bilance__
 
-- Souhrn všech hospodářských transakcí jedné země se zahraničím\.
-- V ČR prochází zahraničním obchodem asi 70 % produktů\.
+- Souhrn všech hospodářských transakcí jedné země se zahraničím.
+- V ČR prochází zahraničním obchodem asi 70 % produktů.
 - Měří se:
 - Zahraniční obchod: dovoz a vývoz
 - __Schéma platební bilance je dáno MMF:__
@@ -200,5 +200,5 @@ __VÝVOZ – DOVOZ = SALDO ZAHRANIČNÍCH OBCHODU__
 __Magický čtyř úhelník__
 
 - Diamant
-- Hodnotí souhrnně všechny 4 nejdůležitější makroekonomické ukazatele ((obrázek vynechán))
-- Čím větší tím lepší\. 
+- Hodnotí souhrnně všechny 4 nejdůležitější makroekonomické ukazatele <img src="/images/content/ekonomika/ekonomie/narodni-hospodarstviiii/01.webp" alt="" width="267" loading="lazy" decoding="async">
+- Čím větší tím lepší. 

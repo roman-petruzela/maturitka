@@ -5,18 +5,18 @@ source: "Ekonomie/16.-obchodní-banky.doc"
 ---
 __= zřízeny za účelem zisku__
 
-1. __Univerzální__ – poskytuje více bankovních služeb \(Komerční banka, Moneta Money Bank\)
-2. __Specializovaná__ – na stavební spoření \(Hypoteční banka, Pyramida\)
+1. __Univerzální__ – poskytuje více bankovních služeb (Komerční banka, Moneta Money Bank)
+2. __Specializovaná__ – na stavební spoření (Hypoteční banka, Pyramida)
 
 __Služby:__
 
-AKTIVNÍ  \-  banka je v roli věřitele, přináší peníze \- ÚVĚRY
+AKTIVNÍ  -  banka je v roli věřitele, přináší peníze - ÚVĚRY
 
-PASIVNÍ  \-  banka je v roli dlužníka – VKLADY
+PASIVNÍ  -  banka je v roli dlužníka – VKLADY
 
-NEUTRÁLNÍ  \-  ostatní bankovní služby \(zakládání a vedení účtu, bezhotovostní plat\. styk\)
+NEUTRÁLNÍ  -  ostatní bankovní služby (zakládání a vedení účtu, bezhotovostní plat. styk)
 
-__ÚVĚROVÁ ČINNOST 	viz\. otázka č\. 19__
+__ÚVĚROVÁ ČINNOST 	viz. otázka č. 19__
 
 Při poskytování úvěru banka sleduje: 	návratnost / výnosnost
 
@@ -37,20 +37,20 @@ Klient může ručit:
 1. Nemovitostí – hypoteční úvěr
 2. Movitou věcí – ručí stroji, cennými papíry, zásobami
 3. Ručitel – ručí PO i FO
-4. Vinkulace vkladů – tzn\. ručí se zůstatkem na BÚ
+4. Vinkulace vkladů – tzn. ručí se zůstatkem na BÚ
 5. Pohledávkou
 
 __Výpočet úroku:__
 
-((obrázek vynechán))
+<img src="/images/content/ekonomika/ekonomie/obchodni-banky/01.webp" alt="" width="450" loading="lazy" decoding="async">
 
 Jistina = *K* = kapitál
 
-Sazba = *p* = úroková míra \- \- \- \- \- \-  \- \- \- \- \- \- \- \-  \- \- \- \- \- \- \-  x% 	p\. a\. – ročně
+Sazba = *p* = úroková míra - - - - - -  - - - - - - - -  - - - - - - -  x% 	p. a. – ročně
 
-Doba úročení = *d* = rozdíl měsíců \* 30 \+ rozdíl dnů 	   		p\. s\. – půlročně
+Doba úročení = *d* = rozdíl měsíců \* 30 + rozdíl dnů 	   		p. s. – půlročně
 
-p\. q\. – čtvrtročně
+p. q. – čtvrtročně
 
 __VKLADOVÁ ČINNOST__
 
@@ -65,19 +65,19 @@ __Další zdroje komerčních bank:__
 
 \- úvěry od ČNB
 
-\- úvěry od ostatních bank – sazba PRIBOR \(za kolik si banky půjčují, okolo 2%\)
+\- úvěry od ostatních bank – sazba PRIBOR (za kolik si banky půjčují, okolo 2%)
 
-\- emise úvěrových cenných papírů \(obligace\)
+\- emise úvěrových cenných papírů (obligace)
 
 \- emise HZL – Hypoteční zástavní list
 
-__NEUTRÁLNÍ BANK\. OPERACE__
+__NEUTRÁLNÍ BANK. OPERACE__
 
-__\-__ jde o další služby, které banky nabízí svým klientům
+__-__ jde o další služby, které banky nabízí svým klientům
 
 1. ZAKLÁDÁNÍ A VEDENÍ ÚČTU
 
-- podnikatel dokládá OP, výpis že živnostenského rejstříku nebo obchodního rej\.
+- podnikatel dokládá OP, výpis že živnostenského rejstříku nebo obchodního rej.
 - Je podepsána smlouva o běžném účtu a uveden podpisový vzor
 
 1. PLATEBNÍ STYK
@@ -97,9 +97,9 @@ __Inkaso__ – z příkazu příjemce
 
 Příkazy:
 
-- Jednorázový příkaz k úhradě \(inkaso\)
+- Jednorázový příkaz k úhradě (inkaso)
 - Hromadný
-- Trvalý \(trvale opakující se částky\)
+- Trvalý (trvale opakující se částky)
 
 *Bezhotovostní platební styk ze zahraničím*
 
@@ -120,11 +120,11 @@ __Druhy:__
 3. SMĚNÁRENSKÁ SLUŽBA
 
 - KB se řídí denním kurzem ČNB
-- Patří sem i devizové operace \(bezhotov\. plat\. styk\. v mezinárodním obchodu\)
+- Patří sem i devizové operace (bezhotov. plat. styk. v mezinárodním obchodu)
 
 1. OBCHODY S CENNÝMI PAPÍRY
 
-- KB za své klienty obchodují na BCP \(burza cenných papírů\) a spravují jim jejich portfolio CP
+- KB za své klienty obchodují na BCP (burza cenných papírů) a spravují jim jejich portfolio CP
 
 1. ŠEKY
 
@@ -149,7 +149,7 @@ __Druhy:__
 
 DEPOZITA
 
-__\-__ vklad, vložená částka, uložená věc nebo peníze
+__-__ vklad, vložená částka, uložená věc nebo peníze
 
 POJIŠŤOVNICTVÍ
 
@@ -161,10 +161,10 @@ POJIŠŤOVNICTVÍ
 	1. Sociální pojištění
 	2. Zdravotní pojištění
 	3. Pojištění za škodu z provozu motorového vozidla = povinné ručení
-	4. Pojištění pracovních úrazů a nemocí z povolání zam\-ců = úrazové pojištění zaměstnanců
+	4. Pojištění pracovních úrazů a nemocí z povolání zam-ců = úrazové pojištění zaměstnanců
 	5. Povinné pojištění cestovní kanceláře
 - DOBROVOLNÉ
 
-  Životní \(obyčejné/ investiční\)
+  Životní (obyčejné/ investiční)
 
-  Neživotní \(důchodové připojištění, havarijní, pojištění podnikatelů…\)
+  Neživotní (důchodové připojištění, havarijní, pojištění podnikatelů…)

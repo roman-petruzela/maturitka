@@ -1,5 +1,5 @@
 ---
-title: "GEOGRAFIE PRŮMYSLU"
+title: "Geografie průmyslu"
 order: 9
 source: "Zeměpis/Zeměpis GLP/9. GEOGRAFIE PRŮMYSLU.docx"
 ---

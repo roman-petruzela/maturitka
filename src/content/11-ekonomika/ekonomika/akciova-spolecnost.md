@@ -4,7 +4,7 @@ order: 14
 source: "Ekonomika/14. Akciová společnost.docx"
 ---
 - Právní úprava: zákon o obchodních korporacích, občanský zákoník, daňové zákony
-- __Obchodní korporace__  = obchodní společnosti \+ družstva
+- __Obchodní korporace__  = obchodní společnosti + družstva
 - __Obchodní společnost__ = PO založená za účelem podnikání
 - __Osobní společnosti__: Veřejná obchodní společnost; komanditní společnost
 - __Kapitálové společnosti__: Společnost s ručením omezeným; akciová společnost
@@ -13,7 +13,7 @@ source: "Ekonomika/14. Akciová společnost.docx"
 __Založení OS__
 
 - společenskou smlouvou ve formě notářského zápisu a přijetím stanov; zakladatel je osoba, která přijala stanovy a podílí se na upisování akcií
-- stanovy obsahují: firmu, předmět podnikání, výši zákl\. Kapitálu, počet akcií, jmenovitou hodnotu akcií, práva spojená s akciemi
+- stanovy obsahují: firmu, předmět podnikání, výši zákl. Kapitálu, počet akcií, jmenovitou hodnotu akcií, práva spojená s akciemi
 
 __Vznik OS__
 
@@ -28,7 +28,7 @@ __Vklady a základní kapitál__
 
 - výše základního kapitálu musí být minimálně 2 mil korun a pokud je učetnictví vedeno v eurech tak EUR 80 000
 - součet peněžitých a nepeněžitých, výši určuje zákon a jsou zapsány v obchodním rejstříku
-- zvýšení i snížení zákl\. Kapitálu – zapisuje do obchodního rejstříku;  musí schválit VH
+- zvýšení i snížení zákl. Kapitálu – zapisuje do obchodního rejstříku;  musí schválit VH
 
 __Podíl__
 
@@ -62,7 +62,7 @@ __Akciová společnost__
 __Práva a povinnosti akcionáře__
 
 - má __vkladovou povinnost__ = splacení emisního kurzu jím upsaných akcií v době určeného ve stanovách
-- __právo na podíl na zisku__ = schválila valná hromada k rozdělení, většinou se dělí podle podílu; vyplácen v Kč; bezhotovostně na účet akcionáře; neplatí pokud je vlastní kapitál nižší než zákl\. Kapitálem
+- __právo na podíl na zisku__ = schválila valná hromada k rozdělení, většinou se dělí podle podílu; vyplácen v Kč; bezhotovostně na účet akcionáře; neplatí pokud je vlastní kapitál nižší než zákl. Kapitálem
 - __hlasovací právo =__ oprávněn účastnit se valné hromady
 - __právo na vysvětlení =__ na valné hromadě může akcionář požadovat a obdržet vysvětlení záležitostí týkající se společnosti
 - __uplatňovat návrhy a protinávrhy =__ k záležitostem, projednávaným na valné hromadě
@@ -73,13 +73,13 @@ __Orgány společnosti__
 - společnost, která má představenstvo a dozorčí radu = dualistický systém
 - monistický systém = společnosti má správní radu a ředitele; společnost si zvolí jeden systém a měnit ho pouze pomocí stanov
 
-1. __valná hromada \(VH\)__ = vykonávání práva na podílení se na řízení společnosti; účastní se buď osobně nebo 	v zastoupení; valnou hromadu svolává představenstvo; členové představenstvo se vždy účastní valné 	hromady; 30 dnů před valnou hromadou je zaslána pozvánka; valná hromada je schopna se usnášet, pokud 	součet hodnot akcií všech akcionářů tvoří alespoň 30% zákl\. Kapitálu; akcionáři se zapisují do listiny 	akcionářů; pro změnu stanov je potřeba nutný souhlas 2/3 akcionářů; volí a odvolává členy dalších orgánů, 	jmenuje likvidátora; představenstvo vyhotovuje zápis z jednání valné hromady
+1. __valná hromada (VH)__ = vykonávání práva na podílení se na řízení společnosti; účastní se buď osobně nebo 	v zastoupení; valnou hromadu svolává představenstvo; členové představenstvo se vždy účastní valné 	hromady; 30 dnů před valnou hromadou je zaslána pozvánka; valná hromada je schopna se usnášet, pokud 	součet hodnot akcií všech akcionářů tvoří alespoň 30% zákl. Kapitálu; akcionáři se zapisují do listiny 	akcionářů; pro změnu stanov je potřeba nutný souhlas 2/3 akcionářů; volí a odvolává členy dalších orgánů, 	jmenuje likvidátora; představenstvo vyhotovuje zápis z jednání valné hromady
 
-2\.	__představenstvo__ = statutární orgán společnosti; právo na obchodní vedení společnosti; zajišťuje řádné 	vedení účetnictví; předkládá VH ke schválení účetní závěrku a návrh na rozdělení zisku; jsou voleni VH; 	musí obsahovat min\. 3 členy a volí si svého předsedu; zpravidla na 5 let; rozhoduje většinou hlasů 	přítomných a mají zákaz konkurence
+2\.	__představenstvo__ = statutární orgán společnosti; právo na obchodní vedení společnosti; zajišťuje řádné 	vedení účetnictví; předkládá VH ke schválení účetní závěrku a návrh na rozdělení zisku; jsou voleni VH; 	musí obsahovat min. 3 členy a volí si svého předsedu; zpravidla na 5 let; rozhoduje většinou hlasů 	přítomných a mají zákaz konkurence
 
-3\.	__dozorčí rada \(DR\) =__ dohlíží na výkon představenstva a činnost společnosti; řídí se zásadami, které 	schválila valná hromada; může nahlížet do všech dokladů a záznamů; přezkoumává účetní závěrku; volí si 	člena, který je bude zastupovat při jednáních u soudu; musí mít alespoň 3 členy a nesmí být členem 	představenstva a naopak; musí se účastnit jednání VH; mají zákaz konkurence
+3\.	__dozorčí rada (DR) =__ dohlíží na výkon představenstva a činnost společnosti; řídí se zásadami, které 	schválila valná hromada; může nahlížet do všech dokladů a záznamů; přezkoumává účetní závěrku; volí si 	člena, který je bude zastupovat při jednáních u soudu; musí mít alespoň 3 členy a nesmí být členem 	představenstva a naopak; musí se účastnit jednání VH; mají zákaz konkurence
 
-4\.	__správní rada =__ má alespoň 3 členy, pravidla pro svolávání upravují stanovy; jednání se vždy účastní ředitel; 	určuje základní zaměření obchodního vedení společnosti a dohlíží na jeho řádný výkon; volí si předsedu 	\(FO\)
+4\.	__správní rada =__ má alespoň 3 členy, pravidla pro svolávání upravují stanovy; jednání se vždy účastní ředitel; 	určuje základní zaměření obchodního vedení společnosti a dohlíží na jeho řádný výkon; volí si předsedu 	(FO)
 
 5\.	__statutární ředitel =__ je statutárním orgánem, jmenován správní radou; může být pouze FO; ředitelem může 	být i předseda správní rady
 
@@ -88,13 +88,13 @@ __Akcie__
 - cenný papír nebo zaknihovaný cenný papír a váže se k ní právo podílet se na řízení společnosti; právo na podíl na zisku a právo na podíl na likvidačním zůstatku
 - ve stanovách může být určena, jestli zaměstnance může nabývat akcie její nebo akcie společnosti s ní propojené za zvýhodněných podmínek
 - musí __obsahovat__: označení; označení společnosti; jmenovitou hodnotu; formu akcie; druh akcie; číselné označení; podpisy členů představenstva
-- __forma akcie__ – může mít podobu CP na řad = akcie na jméno nebo na doručitele \(majitele\); společnost si vede seznam akcionářů; akcionářem je osoba zapsána v seznamu akcionářů
+- __forma akcie__ – může mít podobu CP na řad = akcie na jméno nebo na doručitele (majitele); společnost si vede seznam akcionářů; akcionářem je osoba zapsána v seznamu akcionářů
 - __akcie na jméno__ – může se převádět pouze rubopisem; převoditelnost těchto akcií nemůže být vyloučena
 - __akcie na majitele__ – je neomezeně převoditelná; převádí se fyzickým předložením nebo prokázáním písemného prohlášení schovatele nebo opatrovatele
 - __zaknihované akcie__ – jsou neomezeně převoditelné; pokud neomezí stanovy; práva spojená s touto akcií má osoba, která je uvede v evidenci zaknihovaných cenných papírů
 
 __Druhy akcií__
 
-__1\.	kmenové =__ není s nimi spojeno žádné zvláštní právo
+__1.	kmenové =__ není s nimi spojeno žádné zvláštní právo
 
-__2\.__ 	__zvláštní__ = je s nimi spojeno určité právo, které je uvedené ve stanovách – např\.: prioritní akcie – s nimiž je 	spojeno předností právo na podíl na zisku nebo na jiných zdrojích nebo na likvidačním zůstatku
+__2.__ 	__zvláštní__ = je s nimi spojeno určité právo, které je uvedené ve stanovách – např.: prioritní akcie – s nimiž je 	spojeno předností právo na podíl na zisku nebo na jiných zdrojích nebo na likvidačním zůstatku

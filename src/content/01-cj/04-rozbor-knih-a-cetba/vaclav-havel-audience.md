@@ -22,9 +22,9 @@ Vypravěč lyrický subjekt
 
 Postavy
 
-__Vaněk:__ Inteligentní, intelektuální spisovatel nucen práce v pivovaru\. /alter ego, psychologicky totožná postava s autorem/ sledován tajnou policii
+__Vaněk:__ Inteligentní, intelektuální spisovatel nucen práce v pivovaru. /alter ego, psychologicky totožná postava s autorem/ sledován tajnou policii
 
-__Sládek:__ Nadřízený, rozhoduje u pozici pracovníků, vidím v něm autoritu, ikdyž je jeho podřízený, podléza mu a je často opilý\. Slibuje Vaňkovi výhody, za to aby sám na sebe donášel, a psal za Sládka hlášení\. Pije hodně piva\( jak já hhh\)
+__Sládek:__ Nadřízený, rozhoduje u pozici pracovníků, vidím v něm autoritu, ikdyž je jeho podřízený, podléza mu a je často opilý. Slibuje Vaňkovi výhody, za to aby sám na sebe donášel, a psal za Sládka hlášení. Pije hodně piva( jak já hhh)
 
 Veršová výstavba
 
@@ -36,7 +36,7 @@ Autor
 
 Václav Havel:
 
-Dramatik, spisovatel, kritik komunistického režimu a bývalý prezident \(poslední ČSL\)
+Dramatik, spisovatel, kritik komunistického režimu a bývalý prezident (poslední ČSL)
 
 Od 70‘ nemohl publikovat, znemožněna činnost v divědle
 
@@ -48,7 +48,7 @@ Byl 3x vězněn
 
 Kontext autorovy tvorby
 
-Divadelní hry ovlivněni tradicí absurdního divadla, psal eseje, krytiky a dopisy\.
+Divadelní hry ovlivněni tradicí absurdního divadla, psal eseje, krytiky a dopisy.
 
 Literární / obecně kulturní kontext
 

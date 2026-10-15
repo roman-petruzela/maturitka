@@ -15,11 +15,11 @@ __Marketing__ = Soubor činností ve firmě, jak mít správný produkt ve sprá
 
 __Vývoj MKT__
 
-\- Vzniká v USA na začátku 20\. století
+\- Vzniká v USA na začátku 20. století
 
 1. __Etapa__
 
-- začátek 20\. století
+- začátek 20. století
 - poptávka převyšuje nabídku
 - zboží je stejnorodé
 - podnikatelé se nemusí zajímat o zákazníky, soustřeďují se pouze na růst produkce
@@ -36,7 +36,7 @@ __Vývoj MKT__
 1. __Etapa__
 
 - nabídka převyšuje poptávku
-- říká se mu tzv\. komplexní marketing, což znamená, že se promítá do všech činností firmy
+- říká se mu tzv. komplexní marketing, což znamená, že se promítá do všech činností firmy
 - provádí se výzkum trhu
 
 \- Během historického vývoje se objevuje 5 různých MKT koncepcí, podle kterých podnikatelé podnikají
@@ -51,7 +51,7 @@ __Vývoj MKT__
 
 5\. Sociální
 
-Výrobní
+## Výrobní
 
 - 1900 – 1920
 - Za duchovního otce je považován Henry Ford, který zavedl pásovou výrobu, což umožnilo hromadnou výrobu
@@ -59,7 +59,7 @@ Výrobní
 - Výrobci se tedy snaží o neustálé zvyšování produkce a zabývají se technickou stránkou výroby
 - Uplatňuje se u zboží běžné denní spotřeby
 
-Výrobková
+## Výrobková
 
 - 1920 – 1940
 - Podnikatelé vychází z přesvědčení, že v každé době se najdou zákazníci, kteří jsou ochotni si připlatit za kvalitu zboží
@@ -70,26 +70,26 @@ Výrobková
 - Výrobci se soustřeďují tedy na výrobek a nedbají tolik o potřeby zákazníků
 - I dnes u luxusního zboží
 
-Prodejní
+## Prodejní
 
 - 1940 – 1960
-- Tzv\. krátkozraký MKT
+- Tzv. krátkozraký MKT
 - Výrobci se nezajímají o potřeby zákazníků
 - Nejprve vyrobí a snaží se pomocí reklamy a propagace zboží zákazníkovi „vnutit“
 - Dochází k přeceňování propagace
 
-Marketingová
+## Marketingová
 
 - 1960 – 1980
-- Výrobci \(firma\) nejprve zkoumají trh, a teprve poté reagují výrobou
+- Výrobci (firma) nejprve zkoumají trh, a teprve poté reagují výrobou
 - Investují tedy především do výzkumu trhu a domnívají se, že výše zisku je přímo úměrná stupni uspokojení potřeb zákazníka
 - Jde jim o jeho získání, ale snaží se si zákazníka udržet
 
-Sociální
+## Sociální
 
 - 1980 – dosud
 - Podnikatel odvozuje svůj úspěch od míry uspokojení zákazníků a zároveň dbá o prospěch celé společnosti
-- Jde o tzv\. společensky odpovědné firmy, například šetří životní prostředí, nevyrábějí nevhodné produkty, sponzorují akce
+- Jde o tzv. společensky odpovědné firmy, například šetří životní prostředí, nevyrábějí nevhodné produkty, sponzorují akce
 
 __Zvláštnosti ve službách__
 
@@ -99,18 +99,18 @@ Charakteristika služeb:
 2. __Pomíjivé__ – na rozdíl od zboží mají služby pouze přechodný charakter, nelze je vyrábět na sklad, což znamená obtížnější organizaci práce
 3. __Proměnlivé__ – záleží na tom, komu a kým je služba poskytována => lidský faktor způsobuje i odlišné vnímání kvality služeb
 4. __Podmíněnost nákladů__ – u zboží lze předem přesně spočítat náklady, tedy i cenu a zisk, zatímco u služeb, protože jsou proměnlivé, náklady pouze odhadujeme => nevýhoda pro plánování tržeb, zisku, produktivity práce
-5. __Opačná distribuce__ \(= cesta produktu od výrobce k zákazníkovi\) – narozdíl od zboží, u služeb zákazníci musí dojíždět/docházet za službou
+5. __Opačná distribuce__ (= cesta produktu od výrobce k zákazníkovi) – narozdíl od zboží, u služeb zákazníci musí dojíždět/docházet za službou
 
 Zvláštnosti služeb ve veřejném stravování:
 
-1. __Snadná kopírovatelnost__ – narozdíl od výrobku, právní ochrana služeb \(patent, průmyslový vzor\) je problematická
+1. __Snadná kopírovatelnost__ – narozdíl od výrobku, právní ochrana služeb (patent, průmyslový vzor) je problematická
 2. __Vztah služby a provozovatele__ – osobnost poskytovatele služby může vybudovat vztah zákazníka k firmě => vytváří se tím i image zařízení
-3. __Větší důraz na image zařízení__ – vybavenost restaurace \(čistota, útulnost\) je součástí služby a pro zákazníky je stejně důležitá, jako kvalita jídel
+3. __Větší důraz na image zařízení__ – vybavenost restaurace (čistota, útulnost) je součástí služby a pro zákazníky je stejně důležitá, jako kvalita jídel
 
 - Lidé přicházejí ve svém volném čase za určitým zážitkem
 - Větší význam emocí
 
-1. __Kratší expozitura služby__ – ve veř\. strav\. máme menší čas na získání dobrého dojmu zákazníka a o to intenzivněji na něj musíme působit
+1. __Kratší expozitura služby__ – ve veř. strav. máme menší čas na získání dobrého dojmu zákazníka a o to intenzivněji na něj musíme působit
 2. __Mimosezónní reklama__
 3. __Větší vliv ústní reklamy__ – doporučení
 
@@ -122,8 +122,8 @@ __Marketingový výzkum__
 
 \- Výzkum trhu je:
 
-1. Na straně nabídky => zkoumáme konkurenci \(ceny, produkty, design,…\)
-2. Na straně poptávky => zkoumáme zákazníka \(životní styl, kupní sílu, preference, loajalitu, četnost nákupů,…\)
+1. Na straně nabídky => zkoumáme konkurenci (ceny, produkty, design,…)
+2. Na straně poptávky => zkoumáme zákazníka (životní styl, kupní sílu, preference, loajalitu, četnost nákupů,…)
 
 \- zdroje dat:
 
@@ -139,13 +139,13 @@ __Marketingový výzkum__
 - Využití již existujících informací
 - Dělí se na:
 
-1. Vnější \(= externí\)
+1. Vnější (= externí)
 2. Statistiky
-    - Národní \(ČSÚ, krajské úřady, státní organizace\)
-    - Nadnárodní \(Eurostat, OSN, světová obchodní organizace, OPEK, UNESCO, Mezinárodní měnový fond,…\)
-3. Periodika \(Noviny, časopisy\)
-4. Publikace \(Učebnice, skripta\)
-5. Internet \(Neplacené a placené databáze\)
+    - Národní (ČSÚ, krajské úřady, státní organizace)
+    - Nadnárodní (Eurostat, OSN, světová obchodní organizace, OPEK, UNESCO, Mezinárodní měnový fond,…)
+3. Periodika (Noviny, časopisy)
+4. Publikace (Učebnice, skripta)
+5. Internet (Neplacené a placené databáze)
 6. Výroční zprávy konkurenčních firem
 7. Vnitřní
     - Z účetnictví, evidence, kalkulací, zprávy prodejců
@@ -171,25 +171,25 @@ __T__ = threats = hrozby
 
 \- dělí se na:
 
-- Vnitřní \(SW\)
-- Vnější \(OT\)
+- Vnitřní (SW)
+- Vnější (OT)
 
 \- a také na:
 
-- Kladné \(SO\)
-- Záporné \(WT\)
+- Kladné (SO)
+- Záporné (WT)
 
 \- vnější faktory zahrnují:
 
-- Makroprostředí \(obsahuje faktory politicko\-právní, ekonomické, sociálně\-kulturní, technologické\)
-- Mikroprostředí \(zákazníci, dodavatelé, odběratelé, konkurence, veřejnost\)
+- Makroprostředí (obsahuje faktory politicko-právní, ekonomické, sociálně-kulturní, technologické)
+- Mikroprostředí (zákazníci, dodavatelé, odběratelé, konkurence, veřejnost)
 
 \- Vnitřní faktory obsahují cíle firmy, systémy, organizační strukturu, management, marketing, mezilidské vztahy,…
 
 \- Silné a slabé stránky se určují:
 
-1. jednoduchou SWOT analýzou \(jednotlivé faktory se označí jedním z písmenek a poté jejich sečtením vznikne výsledek\)
-2. složitou SWOT analýzou \(faktory se označují na stupnici, kde 1\. a 5\. sloupec jsou hroty, a podle toho, kolik je kladných výsledků a kolik záporných se určí výsledek\)
+1. jednoduchou SWOT analýzou (jednotlivé faktory se označí jedním z písmenek a poté jejich sečtením vznikne výsledek)
+2. složitou SWOT analýzou (faktory se označují na stupnici, kde 1. a 5. sloupec jsou hroty, a podle toho, kolik je kladných výsledků a kolik záporných se určí výsledek)
 
 Výsledky:
 
@@ -209,19 +209,19 @@ Analýza zákazníka:
 
 \- Významnou úlohu při rozhodování zákazníka hrají tyto faktory:
 
-__1\. Kulturní__
+__1. Kulturní__
 
 \- člověk je nejvíce ovlivněn kulturou, která se zaznamenává hluboko do jeho psychiky
 
-\- může ho ovlivňovat náboženství, tradice, hodnoty => ovlivňují rozsah a strukturu \(strava, bydlení,…\)
+\- může ho ovlivňovat náboženství, tradice, hodnoty => ovlivňují rozsah a strukturu (strava, bydlení,…)
 
-\- kultura je předávána mezi generacemi, ale postupně se mění \(atomizace rodin\)
+\- kultura je předávána mezi generacemi, ale postupně se mění (atomizace rodin)
 
-__2\. Sociální__
+__2. Sociální__
 
 \- každý člověk je příslušníkem mnoha sociálních skupin => členové těchto skupin se navzájem ovlivňují
 
-\- dle míry rozeznáváme tzv\. referenční skupiny
+\- dle míry rozeznáváme tzv. referenční skupiny
 
 1. Primární
 
@@ -232,7 +232,7 @@ __2\. Sociální__
 
 1. Sekundární
 
-- Příslušníci stejné politické strany, profesní sdružení, zájmová sdružení apod\.
+- Příslušníci stejné politické strany, profesní sdružení, zájmová sdružení apod.
 
 1. Disociativní
 
@@ -242,29 +242,29 @@ __2\. Sociální__
 
 - Jedinec může být nepřímo ovlivněn skupinou, do které nepatří, ale v tomto případě by do ní chtěl patřit
 
-__3\. Osobní__
+__3. Osobní__
 
 \- přestože se člověk pro své nákupy rozhoduje individuálně, v průběhu života lidé kupují stejné produkty
 
 \- jde o fáze životního cyklu člověka podle rodinného stavu a příjmů:
 
-__1\.__ Mládenecké období
+__1.__ Mládenecké období
 
-__2\.__ Novomanželské období
+__2.__ Novomanželské období
 
-__3\.__ Plné hnízdo 1
+__3.__ Plné hnízdo 1
 
-__4\.__ Plné hnízdo 2
+__4.__ Plné hnízdo 2
 
-__5\.__ Plné hnízdo 3
+__5.__ Plné hnízdo 3
 
-__6\.__ Prázdné hnízdo 1
+__6.__ Prázdné hnízdo 1
 
-__7\.__ Prázdné hnízdo 2
+__7.__ Prázdné hnízdo 2
 
-__8\.__ Osamělý senior
+__8.__ Osamělý senior
 
-__4\. Psychologické__
+__4. Psychologické__
 
 \- záleží na 4 psychologických činitelích:
 
@@ -275,7 +275,7 @@ __4\. Psychologické__
 
 Bostonská analýza
 
-= jde o rozdělení produktů \(a skupin produktů\) z hlediska budoucí ziskovosti, pro potřeby rozdělení budoucích investic na jejich marketing
+= jde o rozdělení produktů (a skupin produktů) z hlediska budoucí ziskovosti, pro potřeby rozdělení budoucích investic na jejich marketing
 
 \- slouží pro MKT strategické plánování
 
@@ -289,14 +289,14 @@ Bostonská analýza
 __Otazníky:__
 
 - jde o produkty, které mají nízký podíl na trhu, který ale vyhazuje budoucí rychlé tempo růstu tržeb
-- tyto produkty sami nevytvářejí dostatek prostředků pro investice \(jsou vysoké a rizikové\)
+- tyto produkty sami nevytvářejí dostatek prostředků pro investice (jsou vysoké a rizikové)
 - cílem MKT opatření je posílit postavení na trhu
 
 __Dojné krávy:__
 
 - obsahuje takové produkty, jimiž firma ovládá značnou část trhu, ale daný trh již roste pomalu
 - firma dosahuje obvykle nižších nákladů než konkurence
-- jde o tzv\. pozitivní tok financí a peníze, které vydělají, lze investovat do jiných sektorů \(kvadrantů\)
+- jde o tzv. pozitivní tok financí a peníze, které vydělají, lze investovat do jiných sektorů (kvadrantů)
 - udržet stávající podíl na trhu
 
 __Psi:__
@@ -305,7 +305,7 @@ __Psi:__
 - nejslabší kvadrant
 - utlumení výroby, opuštění trhu
 
-((obrázek vynechán))
+<img src="/images/content/ekonomika/ekonomie/marketing-2/01.webp" alt="" width="243" loading="lazy" decoding="async">
 
 Tempo
 
@@ -319,6 +319,6 @@ N
 
 V
 
-N((obrázek vynechán))
+N<img src="/images/content/ekonomika/ekonomie/marketing-2/02.webp" alt="" width="28" loading="lazy" decoding="async">
 
 V

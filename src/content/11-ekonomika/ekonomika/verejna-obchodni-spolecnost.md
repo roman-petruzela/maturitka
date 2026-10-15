@@ -4,7 +4,7 @@ order: 18
 source: "Ekonomika/18. Veřejná obchodní společnost.docx"
 ---
 - Právní úprava: zákon o obchodních korporacích, občanský zákoník, daňové zákony
-- __Obchodní korporace__  = obchodní společnosti \+ družstva
+- __Obchodní korporace__  = obchodní společnosti + družstva
 - __Obchodní společnost__ = PO založená za účelem podnikání
 - __Osobní společnosti__: Veřejná obchodní společnost; komanditní společnost
 - __Kapitálové společnosti__: Společnost s ručením omezeným; akciová společnost
@@ -13,10 +13,10 @@ source: "Ekonomika/18. Veřejná obchodní společnost.docx"
 __Založení OS__
 
 - Sepisuje se společenská smlouva
-- __Společenská smlouva \(SS\) musí obsahovat:__
+- __Společenská smlouva (SS) musí obsahovat:__
 	- Firmu, předmět podnikání, určení společníku
 	- Při změnách společenské smlouvy a rozhodování ve všech věcech společnosti musí souhlasit __všichni společníci__, každý má 1 hlas pokud není uvedeno ve společenské smlouvě jinak
-	- __Vkladová povinnost__ \(není nutná\) – společníci splatí ve lhůtě způsobem daným ve smlouvě
+	- __Vkladová povinnost__ (není nutná) – společníci splatí ve lhůtě způsobem daným ve smlouvě
 	- Při nesplnění vkladové povinnosti – placení úroku z prodlení ve výši 2x dlužná částka; může být vyloučen v případě souhlasu nejvyššího orgánu společnosti, neplatí pokud jsou dva společníci
 	- Lze splatit poskytnutím služby nebo provedením práce pokud není vyloučeno ve SS
 
@@ -54,7 +54,7 @@ __Zánik OS__
 
 - __výmaz__ v obchodním rejstříku, žádost dává likvidátor nebo statutární orgán
 
-__Veřejná__ __obchodní společnost – v\.o\.s\. nebo veř\. obch\. spol\.__
+__Veřejná__ __obchodní společnost – v.o.s. nebo veř. obch. spol.__
 
 - Společnost __alespoň dvou osob__, kteří ručí za dluhy společnosti společně a nerozdílně a společníkem nesmí být osoba na jejíž majetek byl v posledních 3 letech prohlášen konkurz
 - __Právní poměry__ – řídí se společenskou smlouvou; jinak jsou stejné

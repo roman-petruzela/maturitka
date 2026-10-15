@@ -1,5 +1,5 @@
 ---
-title: "GEOGRAFIE OBYVATELSTVA"
+title: "Geografie obyvatelstva"
 order: 7
 source: "Zeměpis/Zeměpis GLP/7. GEOGRAFIE OBYVATELSTVA.docx"
 ---
@@ -25,7 +25,7 @@ source: "Zeměpis/Zeměpis GLP/7. GEOGRAFIE OBYVATELSTVA.docx"
 ### Složení obyvatelstva podle pohlaví
 
 - počet mužů a žen je na světě přibližně stejný
-- v Evropě je mírná převaha žen, převahu mužů mají země, kde je horší sociální postavení žen \- severní Afrika, Asie \- muslimské země((obrázek vynechán))
+- v Evropě je mírná převaha žen, převahu mužů mají země, kde je horší sociální postavení žen \- severní Afrika, Asie \- muslimské země<img src="/images/content/zemepis/geografie-obyvatelstva/01.webp" alt="" width="315" loading="lazy" decoding="async">
 
 ### <a id="_heading=h.gjdgxs"></a>Věkové složení obyvatelstva
 

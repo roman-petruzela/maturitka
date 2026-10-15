@@ -1,5 +1,5 @@
 ---
-title: "2 PEDOSFÉRA"
+title: "Pedosféra"
 order: 6
 source: "Zeměpis/Zeměpis GLP/6.2 PEDOSFÉRA.docx"
 ---

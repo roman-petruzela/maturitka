@@ -46,7 +46,7 @@ Plné znění výstupů je v [přehledu ŠVP](/it/reference/svp-prehled/#491-úv
 
 **Základní deska a procesor**
 
-- [Základní deska (mainboard)](/it/uvod-do-vypocetni-techniky/08-zakladni-deska-mainboard/) a [stručně](/it/uvod-do-vypocetni-techniky/22-zakladni-deska/)
+- [Základní deska (mainboard)](/it/uvod-do-vypocetni-techniky/08-zakladni-deska-mainboard/)
 - [Procesor a chipset](/it/uvod-do-vypocetni-techniky/03-procesor-a-chipset/) – souhrnné zpracování
 - [CPU (procesor)](/it/uvod-do-vypocetni-techniky/23-cpu-procesor/)
 - [Chipset](/it/uvod-do-vypocetni-techniky/09-chipset/)
@@ -73,7 +73,7 @@ Plné znění výstupů je v [přehledu ŠVP](/it/reference/svp-prehled/#491-úv
 - [Tiskárny](/it/uvod-do-vypocetni-techniky/18-tiskarny/)
 - [Zvuková karta a reproduktory](/it/uvod-do-vypocetni-techniky/19-zvukova-karta-a-reproduktory/)
 - [Klávesnice, myš, 3D myš, trackball](/it/uvod-do-vypocetni-techniky/20-klavesnice-mys-3d-mys-trackball/)
-- [Hardware – doplňkové poznámky (grafické karty, displeje a další)](/it/uvod-do-vypocetni-techniky/07-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/)
+- [Hardware – doplňkové poznámky (grafické karty, displeje a další)](/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/)
 
 ## Maturitní okruhy
 

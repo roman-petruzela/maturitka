@@ -5,7 +5,7 @@ source: "uvt/T02_Historie_Vypocetni_techniky.pdf"
 ---
 Počítač je stroj na zpracování informací. Než člověk vyvinul počítače, které používáme dneska, uplynula dlouhá doba. My si projdeme nejdůležitější milníky v tomto dlouhém vývoji.
 
-## **První počítadla**
+## První počítadla
 
 Za prvního prapředka počítačů je považován **abakus** . Je to počítací pomůcka, založená na systému korálků, které na tyčkách či žlábcích kloužou nahoru a dolů. Vznik abakusu je skryt kdesi ve Starověku.
 
@@ -15,7 +15,7 @@ Abakus je na Dálném Východě stále populární, učí se s ním počítat d�
 
 **Obrázek 1 - abakus**
 
-## **První mechanické kalkulačky**
+## První mechanické kalkulačky
 
 **1614** – Anglický matematik **John Napier zveřejňuje logaritmické tabulky** . Tento objev umožňoval převést násobení a dělení, které bylo v té době poměrně komplikované na sčítání a odčítání.
 
@@ -37,7 +37,7 @@ log ( _a∙b_ )=log ( _a_ )+log ( _b_ )
 
 **Obrázek 5 – Aritmometr**
 
-## **Děrné štítky**
+## Děrné štítky
 
 Děrný štítek je médium pro záznam dat pro pozdější zpracování na počítači. Bývají vyrobeny z tenkého kartonu, informace je reprezentována dírkou na určité pozici. Místa pro otvory jsou uspořádána do matice.
 
@@ -51,7 +51,7 @@ V roce **1890** vynalezl **Hermann Hollerith** počítací stroj, který zpracov
 
 **Obrázek 8 – sčítací stroj**
 
-## **Charles Babbage**
+## Charles Babbage
 
 Prvním člověkem, který si uměl představit počítač v dnešním slova smyslu byl Charles Babbage. Tento profesor matematiky z Oxfordu byl udolán nekonečným množstvím chyb ve výpočtech, které prováděl pro Královskou astronomickou společnost. Rozhodl se tedy počítat pomocí automatických strojů poháněných parou. V roce **1833** předvedl návrh stroje na řešení diferenciálních rovnic. Kdyby byl tento stroj skutečně realizován, byla by to parou poháněná obluda velká jako lokomotiva, využívající vymoženosti průmyslové revoluce - mechanických převodů, čepů, ozubených válců, hřídelí apod. Babbage počítal s tím, že by jeho diferenciální stroj měl na ozubeném válci stanoven pevný program, podle kterého by prováděl zadané matematické operace a zároveň by i automaticky tiskl výsledky. Plných deset let života věnoval anglický vědec svému vynálezu. Potom jeho pozornost zcela zaujala myšlenka, vytvořit stroj, který by měl univerzální uplatnění a jehož využití by nebylo omezeno jenom na určitou oblast.
 
@@ -61,7 +61,7 @@ Tento grandiózní analytický stroj nebyl nikdy plně realizován. Kdyby k tomu
 
 **Obrázek 9 – analytický stroj**
 
-## **Generace počítačů**
+## Generace počítačů
 
 |**genera**|**ce**|**období**|**počet operací za**<br>**sekundu**|**součástky**|
 |---|---|---|---|---|
@@ -71,7 +71,7 @@ Tento grandiózní analytický stroj nebyl nikdy plně realizován. Kdyby k tomu
 |4.|generace|1965-1980|10 000–100 000|integrované obvody|
 |5.|generace|1981–doteď|miliony až miliardy|mikroprocesory|
 
-## **Nultá generace**
+## Nultá generace
 
 Za počítače nulté generace jsou považovány elektromechanické počítače využívající většinou **elektromagnetické relé** . Pracovaly obvykle na kmitočtu okolo 100 Hz. Hybnou silou vývoje nulté generace se stala Druhá světová válka kdy došlo paralelně k velkému pokroku v různých částech světa.
 
@@ -91,7 +91,7 @@ Počítače této generace se skládaly z velkého počtu skříní, které byly
 
 **Obrázek 13 – Mark I**
 
-## **První generace**
+## První generace
 
 První generace počítačů je charakteristická použitím **elektronek** a v menší míře též ještě **relé** . Počítače byly poměrně neefektivní, měly velký příkon, velkou poruchovost a byly velmi drahé. Programy byly uchovávány na děrných štítcích a děrných páskách. Počítač obsluhoval tým lidí (konstruktéři, operátoři, technici).
 
@@ -101,7 +101,7 @@ První generace počítačů je charakteristická použitím **elektronek** a v 
 
 **Obrázek 15 - ENIAC**
 
-## **Druhá generace**
+## Druhá generace
 
 Druhá generace nastupuje s vynálezem **tranzistorů** , který dovolil díky svým vlastnostem zmenšení rozměrů celého počítače, zvýšení jeho rychlosti a snížení energetických nároků. V této generaci začínají vznikat první operační systémy a první programovací jazyky (COBOL, ALGOL, FORTRAN) a jazyk symbolických adres Assembler. Počítač druhé generace se již dostávají z armád a univerzit do firem.
 
@@ -115,7 +115,7 @@ Tranzistory jsou v dnešní době miniaturizovány a v procesorech dnes najdeme 
 
 **Obrázek 17 – pdp-8**
 
-## **Třetí generace**
+## Třetí generace
 
 V roce **1958** napadlo **Jacka Kilbyho** sdružit v jednom čipu více tranzistorů, vznikl tak první **integrovaný obvod** , obsahující čtyři tranzistory. Počítače třetí a vyšších generací jsou tedy vybudovány na integrovaných obvodech, které na svých čipech integrují velké množství tranzistorů.
 
@@ -133,7 +133,7 @@ Kromě velkých střediskových počítačů se začínají objevovat **první m
 
 **Obrázek 20 – Altair 8800**
 
-## **Čtvrtá generace**
+## Čtvrtá generace
 
 Čtvrtá generace je charakteristická mikroprocesory a osobními počítači.
 
@@ -147,7 +147,7 @@ Vylepšená technologie tvorby integrovaných obvodů umožňovala miniaturizova
 
 **Obrázek 22 - Macintosh**
 
-## **Budoucnost počítačů**
+## Budoucnost počítačů
 
 V současné době se elektronika nachází ve své vrcholné fázi.
 
@@ -163,7 +163,7 @@ Odhaduje se, že Moorův zákon bude platit přibližně do roku 2020-2030, pak 
 
 <u>https://www.alza.cz/kvantovy-pocitac-na-obzoru-art8391.htm</u>
 
-## **Otázky**
+## Otázky
 
 1. Co je to abakus, soro ban, suan-pana a ščot?
 

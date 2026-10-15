@@ -1,5 +1,5 @@
 ---
-title: "KOMUNIKACE"
+title: "Komunikace"
 source: "PSYCHOLOGIE/KOMUNIKACE.docx"
 ---
 - V širším smyslu __sdílení__ \(communicare, communicatio\)
@@ -20,7 +20,7 @@ __Součásti komunikačního procesu__
 - Komunikační prostředí
 - Zpětná vazba
 
-((obrázek vynechán))
+<img src="/images/content/psychologie/komunikace/01.webp" alt="" width="607" loading="lazy" decoding="async">
 
 __Komunikátor__
 
@@ -71,7 +71,7 @@ __Zpětná vazba \(feedback\)__
 - Příklady zpětné vazby: odpověď, ignorování, položení otázky, přikývnutí, změna výrazu apod\.
 - Neverbální zpětná vazba – projevuje se už v průběhu komunikace \(potlesk, neklid, úmyslné rušení\)
 
-((obrázek vynechán))
+<img src="/images/content/psychologie/komunikace/02.webp" alt="" width="567" loading="lazy" decoding="async">
 
 __Komunikační šum__
 
@@ -79,7 +79,7 @@ __Komunikační šum__
 - Má rušivý vliv na přenos informace, deformuje podobu informace, narušuje dekódování informace
 - Základní typy šumu
 
-((obrázek vynechán))
+<img src="/images/content/psychologie/komunikace/03.webp" alt="" width="605" loading="lazy" decoding="async">
 
 \(Příklady kom\. šumů – zkreslená informace, nadbytečná informace, svítící slunce, nesympatický člověk, vtíravé myšlenky, nesoustředění, únava, …\)
 
@@ -305,7 +305,7 @@ __Druhy neverbální komunikace__
 	- Klid x rozčilení
 - Viz obrázek
 
-((obrázek vynechán))
+<img src="/images/content/psychologie/komunikace/04.webp" alt="" width="356" loading="lazy" decoding="async">
 
 __Mimika – příklady__
 
@@ -322,13 +322,13 @@ __Mimika – příklady__
 - Správný oční kontakt = signalizujeme zájem \(ale nesmíme zírat ☺ \)
 - Prchavý oční kontakt = např\. záměrný odstup, obava, nezájem, špatné svědomí, …
 
-((obrázek vynechán))
+<img src="/images/content/psychologie/komunikace/05.webp" alt="" width="594" loading="lazy" decoding="async">
 
-((obrázek vynechán))
+<img src="/images/content/psychologie/komunikace/06.webp" alt="" width="459" loading="lazy" decoding="async">
 
-((obrázek vynechán))
+<img src="/images/content/psychologie/komunikace/07.webp" alt="" width="457" loading="lazy" decoding="async">
 
-((obrázek vynechán))
+<img src="/images/content/psychologie/komunikace/08.webp" alt="" width="428" loading="lazy" decoding="async">
 
 1. __Gestika__
 
@@ -387,9 +387,9 @@ __Chůze__
 
 - Jistá\-potácivá, noblesní\-odměřená, uvolněná\-křečovitá, pohodlná\-těžká
 
-((obrázek vynechán))
+<img src="/images/content/psychologie/komunikace/09.webp" alt="" width="514" loading="lazy" decoding="async">
 
-((obrázek vynechán))
+<img src="/images/content/psychologie/komunikace/10.webp" alt="" width="514" loading="lazy" decoding="async">
 
 1. __Proxemika__
 
@@ -415,9 +415,9 @@ __Proxemika \- zóny__
 - Signalizuje emoční stav, stupeň zaujetí, postoj k partnerovi a jeho sdělení
 - Příklady viz tabulka
 
-((obrázek vynechán))
+<img src="/images/content/psychologie/komunikace/11.webp" alt="" width="550" loading="lazy" decoding="async">
 
-((obrázek vynechán))
+<img src="/images/content/psychologie/komunikace/12.webp" alt="" width="543" loading="lazy" decoding="async">
 
 1. __Haptika__
 
@@ -429,7 +429,7 @@ __Proxemika \- zóny__
 - __Nejčastěji používaným__ dotekem je __podání ruky__ \(pozdrav, potvrzení uzavření smlouvy, nabídka přátelského vztahu, gratulace\), více viz tabulka
 - První kontakt s klientem – podání ruky a představení \(vede k uvolnění\)
 
-((obrázek vynechán))
+<img src="/images/content/psychologie/komunikace/13.webp" alt="" width="491" loading="lazy" decoding="async">
 
 1. __Úprava zevnějšku__
 

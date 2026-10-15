@@ -3,15 +3,15 @@ title: "Zúčtovací vztahy (účtová třída 3) Dokumenty Google"
 order: 5
 source: "Účetnictví/5. Zúčtovací vztahy (účtová třída 3) - Dokumenty Google.pdf"
 ---
-## **Pohledávky  a  závazky  z  obchodních  vztahů**
+## Pohledávky  a  závazky  z  obchodních  vztahů
 
-### **Odběratelé  a  dodavatelé**
+### Odběratelé  a  dodavatelé
 
 Obchodní  partneři,  kterým  účetní  jednotka  prodává  své  výkony  a  nakupuje  služby  a  materiál, každá  účetní  jednotka  by  měla  hledat  vhodné  obchodní  partnery,  kteří  dodávají  pravidelně kvalitní  zboží,  materiál,  služby  a  hlavně  ty,  kteří  platí.
 
 **Odběratel  (dlužník)** je  zákazník,  který  nakupuje  zboží,  služby  atd.  od  dodavatele. **Dodavatel  (věřitel)** dodává  zboží,  materiál  a  poskytuje  služby  odběrateli. Dodavatel  vystupuje  v  obchodním  vztahu  jako  věřitel  a  odběratel  jako  dlužník.
 
-### **Pohledávky**
+### Pohledávky
 
 Pohledávka  je  nárok  na  zaplacení  peněžité  částky **za  námi  poskytnuté  služby** ,  výrobky, zboží,  případně  materiál  a  další.
 
@@ -25,7 +25,7 @@ Sleva,  kterou  jsme  poskytli  odběrateli  se  účtuje  stejně  jako  reklam
 
 Na  pochybné  a  sporné  pohledávky  vytváříme  opravnou  položku.  Ta  nám  umožňuje  nepřímo snížit  hodnotu  pohledávky.
 
-### **Závazky**
+### Závazky
 
 Na  účtu  321  -  dodavatelé  se  účtují  závazky  splatné  do  jednoho  roku. U  závazků  se  splatností  nad  jeden  rok  479  -  ostatní  dlouhodobé  závazky.
 
@@ -47,7 +47,7 @@ Na  účtu  324  -  přijaté  zálohy  se  provádí  vyúčtování  krátkodo
 
 2.  zahraniční
 
-### **Pohledávky  a  závazky  v  cizí  měně**
+### Pohledávky  a  závazky  v  cizí  měně
 
 -  pohledávky  nebo  závazky  vyplývají  z  obchodního  styku  se  zahraničními  partnery  nebo  s
 
@@ -63,7 +63,7 @@ dodavateli  a  odběrateli  z  EU  jsou  ve  fakturách  vyjádřeny  v  cizí  
 
 - Naše  právní  úprava  z **akazuje  vzájemné  zápočty  pohledávek  a  závazků!** Je  to **dovoleno** pouze  v  případě,  že  jde  o **dva  stejné  subjekty,  v  české  měně** a  týká  se **jednoho  účetního období.**
 
-### **Kurzové  rozdíly**
+### Kurzové  rozdíly
 
 Vznikají  ke  dni  účetní  závěrky,  kdy  je  třeba  přepočítat  hodnotu  pohledávek  a  závazků aktuálním  kurzem  vyhlašovaným  ČNB.  Rozdíl  mezi  kurzem  ke  dni  vzniku  účetního  případu a  kurzem  platným  k  datu  účetní  závěrky  může  být  buď  v  náš  prospěch  nebo  neprospěch. Vyčíslené  kurzové  rozdíly  u  pohledávek  a  závazků  zůstávají  v  konečné  rozvaze,  ale  pro  nové účetní  období  se  zápis  opačným  zaúčtováním  vyruší.
 
@@ -75,7 +75,7 @@ _-  účtujeme_ :
 
 2. při  roční  závěrce  -  u  nezaplacených  faktur
 
-### **Reklamace**
+### Reklamace
 
 - mezi  dodavatelem  a  odběratelem  může  dojít  k  nesrovnalostem  zejména  z  těchto  důvodů:
 
@@ -111,11 +111,11 @@ _-  účtujeme_ :
 
 - po  zaplacení  -  311/604,  221/311;  604/325,  325/221
 
-### **Opravné  položky  k  pohledávkám**
+### Opravné  položky  k  pohledávkám
 
 Vytváří  se  u  pohledávek  po  lhůtě  splatnosti  a  pokud  existuje  předpoklad,  že  nebudou zaplaceny.
 
-### **-  zákonné**
+### Zákonné
 
 - **nezákonné** (nad  limit)
 
@@ -125,7 +125,7 @@ Pokud  uplyne  více  jak  12  měsíců  po  lhůtě  splatnosti,  tvoří  se 
 
 Vyšší  opravné  položky  lze  vytvářet  pouze  v  případě,  jestliže  bylo  zahájeno  soudní  řízení.
 
-### **Odpis  pohledávky  -  546**
+### Odpis  pohledávky  -  546
 
 - pohledávku  lze  odepsat  v  plné  výši  (546/311)  v  těchto  případech:
 
@@ -139,7 +139,7 @@ Vyšší  opravné  položky  lze  vytvářet  pouze  v  případě,  jestliže 
 
 **Postoupení  pohledávek  -  546  -  lze  pohledávku  prodat  ->  výnosy  z  prodaných pohledávek  -  646**
 
-## **Mzdy  a  zaměstnanci**
+## Mzdy  a  zaměstnanci
 
 **Zaměstnanec** je  fyzická  osoba,  která  vykonává  práci  za  určitou  odměnu  na  základě  pracovní smlouvy.  Pracovní  smlouva  určuje  pracovně-právní  vztah  mezi  zaměstnancem  a zaměstnavatelem.
 
@@ -155,7 +155,7 @@ _Náhrada  mzdy_ -  za  neodpracovaný  čas  (mzdy  za  dovolenou,  státem  uz
 
 **Čistá  mzda** -  mzda  po  odečtení  sociálního  a  zdravotního  pojištění  a  úhrady  daně  z  příjmu
 
-### **Základní  druhy  mzdy:**
+### Základní  druhy  mzdy:
 
 - úkolová  -  za  určitý  úkol
 
@@ -163,7 +163,7 @@ _Náhrada  mzdy_ -  za  neodpracovaný  čas  (mzdy  za  dovolenou,  státem  uz
 
 - tarifní  -  u  vedoucích  profesí,  je  to  vlastně  plat  (pevně  stanovená  mzda)
 
-### **Vypočet  mzdy:**
+### Vypočet  mzdy:
 
 **Hrubá  mzda** x  1,338  =  superhrubá  mzda  (zaokrouhlit  na  100  koruny  dolů)  x  0,15=záloha  na daň  z  příjmu  (od  tohoto  se  odčítají  různé  slevy)
 
@@ -199,9 +199,9 @@ _Náhrada  mzdy_ -  za  neodpracovaný  čas  (mzdy  za  dovolenou,  státem  uz
 
 - mzdové  listy  se  vedou  pro  každého  zaměstnance  a  představují  analytickou  evidenci  k  účtu 331  -  Zaměstnanci
 
-### **Základní  druhy  mzdy:**
+### Základní  druhy  mzdy:
 
-### **1.  úkolová**
+### 1.  úkolová
 
 - za  určitý  úkol,  na  počtu  vykonaných  úkolů  (zejména  v  dělnických  profesích)
 
@@ -209,7 +209,7 @@ _Náhrada  mzdy_ -  za  neodpracovaný  čas  (mzdy  za  dovolenou,  státem  uz
 
 - prvotní  evidencí  jsou  doklady  vyhotovené  přímo  na  dílně,  jako  např.  pracovní  listy  v kusové  výrobě,  průvodka  ve  výrobě  sériové  nebo  směnové  plány  v  hromadné  výrobě
 
-### **2.  časová**
+### 2.  časová
 
 - výše  závisí  na  odpracovaných  hodinách  (zejména  v  dělnických  profesích)
 
@@ -219,7 +219,7 @@ _Náhrada  mzdy_ -  za  neodpracovaný  čas  (mzdy  za  dovolenou,  státem  uz
 
 - tato  prvotní  evidence  je  podkladem  pro  zjištění  skutečného  počtu  odpracovaných hodin  v  jednotlivých  pracovních  dnech
 
-### **3.  tarifní**
+### 3.  tarifní
 
 - u  vedoucích  profesí,  pevně  stanovená  mzda  za  měsíc
 
@@ -231,11 +231,11 @@ _Náhrada  mzdy_ -  za  neodpracovaný  čas  (mzdy  za  dovolenou,  státem  uz
 
 - hrubá  mzda  zahrnuje  základní  mzdu,  příplatky,  prémie,  odměny.  náhradu  mzdy
 
-### **Pojistné  na  sociální  zabezpečení  a  zdravotní  pojištění:**
+### Pojistné  na  sociální  zabezpečení  a  zdravotní  pojištění:
 
 - 2  druhy  pojištění:  a)  ZP  (zdravotní)  b)  SP  (sociální)
 
-### **Zdravotní  pojištění**
+### Zdravotní  pojištění
 
 - Je  upraveno  zákonem  o  pojistném  na  všeobecně  zdravotní  pojištění.
 
@@ -245,13 +245,13 @@ _Náhrada  mzdy_ -  za  neodpracovaný  čas  (mzdy  za  dovolenou,  státem  uz
 
 - Poplatníci  -  platí  zdravotní  pojištění  -  každý  občan  ČR  (za  osoby,  které  nemají  vlastní příjem  platí  zdravotní  pojištění  stát)
 
-### **<u>Sazby  zdravotního  pojištění:</u>**
+### <u>Sazby  zdravotního  pojištění:</u>
 
 1.  Zaměstnanec  -  strhává  se  mu  4,5  %  z  hrubé  mzdy
 
 2.  Zaměstnavatel  -  za  svého  zaměstnance  ještě  platí  9  %
 
-### **Sociální  pojištění**
+### Sociální  pojištění
 
 - Je  upraveno  zákonem  o  pojistném  a  sociálním  pojištění  a  příspěvku  na  státní  politiku zaměstnanosti
 
@@ -263,13 +263,13 @@ _Náhrada  mzdy_ -  za  neodpracovaný  čas  (mzdy  za  dovolenou,  státem  uz
 
 - 3)  příspěvek  na  státní  politiku  zaměstnanosti  (na  nezaměstnanost) Spadá  do  působnosti  -  Česká  správa  sociálního  zabezpečení.
 
-### **<u>Sazby  sociálního  pojištění:</u>**
+### <u>Sazby  sociálního  pojištění:</u>
 
 1.  Zaměstnanec  -  9%  z  hrubé  mzdy  na  důchodové  zabezpečení
 
 2.  Zaměstnavatel  za  svého  zaměstnance  -  24,8%
 
-### **Daň  z  příjmu  ze  závislé  činnosti**
+### Daň  z  příjmu  ze  závislé  činnosti
 
 Poplatníkem  daně  z  příjmu  FO  ze  závislé  činnosti  je  konkrétní  zaměstnanec,  plátcem jednotlivých  měsíčních  záloh  a  případného  ročního  vyúčtování  je  zaměstnavatel. Daň  z  příjmu  slouží  jako  příjmy  státu,  které  jsou  pak  rozdělovány  v  rámci  státního  rozpočtu. (daň  z  příjmu  -  331/342,  vyúčtování  daně  ke  konci  roku  -  342/331)
 
@@ -287,13 +287,13 @@ závazcích  -  snižuje  se  závazek  vůči  zaměstnancům  a  vzniká  záv
 
 - daň  z  příjmů  -  331/342,  vyúčtování  daně  ke  konci  roku  -  342/331
 
-### **Účtování  mezd**
+### Účtování  mezd
 
 Hrubá  mzda  -  předpis 521/331 SP  (6.5%)  a  ZP  (4,5%)  hrazené  zaměstnancem 331/336 Daň  z  příjmu 331/342 Nemocenské  dávky  336/331-  od  15dne  dále 524/331  -  do  14  dnů Srážky 331/379 SP  (24,8%)  a  ZP  (9%) 524/336  (předpis) 336/221  (úhrada) Výplata  mzdy 331/221
 
-### **Mzdové  evidence**
+### Mzdové  evidence
 
-### **a)  Zúčtovací  a  výplatní  listina**
+### a)  Zúčtovací  a  výplatní  listina
 
 - vnitřní  (interní)  doklad,  kde  jsou  uvedeny  veškeré  nároky  a srážky
 
@@ -301,7 +301,7 @@ Hrubá  mzda  -  předpis 521/331 SP  (6.5%)  a  ZP  (4,5%)  hrazené  zaměstna
 
 - pro  všechny  zaměstnance  (dostanou  kopii)
 
-### **b)  Mzdový  list**
+### b)  Mzdový  list
 
 - není  to  účetní  doklad,  na  1  rok
 
@@ -313,17 +313,17 @@ Hrubá  mzda  -  předpis 521/331 SP  (6.5%)  a  ZP  (4,5%)  hrazené  zaměstna
 
 **c)  Evidence  docházky**
 
-### **d)  Pracovní  lístek  (úkolový  lístek,  průvodka)**
+### d)  Pracovní  lístek  (úkolový  lístek,  průvodka)
 
 **e)  Soupiska  práce  a  mezd  (vyhotovuje  se  na  konci  měsíce)**
 
 **f)  Evidenční  list  důchodového  zabezpečení  (potvrzuje  se  v  něm  roční  hrubý  příjem**
 
-### **Daň  z  příjmu  ze  závislé  činnosti**
+### Daň  z  příjmu  ze  závislé  činnosti
 
 - poplatníkem  daně  z  příjmu  FO  ze  závislé  činnosti  je  konkrétní  zaměstnanec,  plátcem jednotlivých  měsíčních  záloh  a  případného  ročního  vyúčtování  je  zaměstnavatel -  daň  z  příjmu  slouží  jako  příjmy  státu,  které  jsou  pak  rozdělovány  v  rámci  státního rozpočtu
 
-### **Nemocenská**
+### Nemocenská
 
 - první  3  dny  nedostává  zaměstnanec  nic
 
@@ -333,13 +333,13 @@ Hrubá  mzda  -  předpis 521/331 SP  (6.5%)  a  ZP  (4,5%)  hrazené  zaměstna
 
 - zaměstnavatelé  jsou  povinni  platit  25  %  z  objemu  hrubých  mezd  na  sociální  pojištění a  9  %  na  zdravotní
 
-## **Zúčtování  daní  a  dotací**
+## Zúčtování  daní  a  dotací
 
 Uskutečňuje  se  v  účtové  třídě  34  -  zúčtování  daní  a  dotací,  placení  některých  daní  je povinností  ze  zákona.
 
 **Daň** je  povinná  zákonem  určená  platba  do  veřejného  rozpočtu.  Daně  jsou  placené  pravidelně v  určitých  intervalech  nebo  při  určitých  okolnostech  např.  darování  nebo  dědění. Poplatník-všichni  spotřebitelé,  kteří  si  koupí  výrobek,  zboží  či  službu  Plátce  -  firmy,  které musí  vybranou  daň  odvést  státu
 
-### **Daňová  soustava**
+### Daňová  soustava
 
 - systém,  jehož  účelem  je  zabezpečit  příjmy  státu  vybíráním  daní
 
@@ -347,7 +347,7 @@ Uskutečňuje  se  v  účtové  třídě  34  -  zúčtování  daní  a  dotac
 
 - současná  daňová  ČR  soustava  platí  od  1.  1.  1993
 
-### **Principy  zdanění**
+### Principy  zdanění
 
 **1.  Princip  spravedlivého  zdanění** -  stejné  podmínky  pro  různé  typy  subjektů,  pro tuzemské  i  zahraniční  firmy,  výše  zdanění  nezávisí  na  druhu  podnikatelské  činnosti  apod.
 
@@ -359,7 +359,7 @@ Uskutečňuje  se  v  účtové  třídě  34  -  zúčtování  daní  a  dotac
 
 **5.  Princip  daňové  spravovatelnosti** -  dobré  administrativní  a  organizační  zajištění  správy  daní
 
-### **Přímé  daně**
+### Přímé  daně
 
 ### <u>Daně  z  příjmů:</u>
 
@@ -377,13 +377,13 @@ Uskutečňuje  se  v  účtové  třídě  34  -  zúčtování  daní  a  dotac
 
 - Daň  z  nemovitostí  -  345
 
-### **Nepřímé  daně**
+### Nepřímé  daně
 
 - Daň  z  přidané  hodnoty  -  343
 
 - Spotřební  daně  -  345
 
-### **Základní  pojmy  z  oblastí  daní**
+### Základní  pojmy  z  oblastí  daní
 
 **Daň** -  povinná  nenávratná  platba  FO  a  PO  do  veřejných  rozpočtů.  Je  to  platba  pravidelně  se opakující.
 
@@ -401,7 +401,7 @@ Uskutečňuje  se  v  účtové  třídě  34  -  zúčtování  daní  a  dotac
 
 **Daňové  přiznání** -  dokument,  ve  kterém  musí  plátce  uvést  všechny  skutečnosti  potřebné  pro výpočet  daně.  Přiznání  se  musí  odevzdat  v  termínu  stanoveném  v  daň.  zákonech  FÚ
 
-### **Daň  z  příjmů  -  341**
+### Daň  z  příjmů  -  341
 
 Při  účtování  PO  a  FO  vedoucích  účetnictví.  V  případě,  kdy  je  podnikatel  současně  plátcem  i poplatníkem  daně.  V  průběhu  účetního  období  se  na  stranu  MD  účtují  zálohy  na  daň  a  při účetní  závěrce  se  na  stranu  Dal  vyúčtuje  závazek  podniku  za  zdaňovací  období  podle daňového  přiznání.  Zůstatek  účtu  představuje  buď  nedoplatek  nebo  přeplatek  splatné  daně  za minulý  kalendářní  rok.  Daňová  povinnost  za  uplynulý  kalendářní  rok  je  podle  účetních předpisů  složkou  nákladů.
 
@@ -413,11 +413,11 @@ Při  účtování  PO  a  FO  vedoucích  účetnictví.  V  případě,  kdy  
 |-  zálohy  na  daň  z  příjmu  ->  nad  30  000,-  Kč,  pololetně  nebo  čtvrtletně||
 |-  doměrek|595/341|
 
-### **Ostatní  přímé  daně  -  342**
+### Ostatní  přímé  daně  -  342
 
 Tento  účet  se  používá  při  účtování  se  zaměstnanci.  Mimo  daně  z  příjmů  ze  závislé činnosti  se  používá  i  pro  účely  srážkové  daně  (  z  dividendy  15%).
 
-### **Daň  z  přidané  hodnoty  (DPH)  -  343**
+### Daň  z  přidané  hodnoty  (DPH)  -  343
 
 Nepřímá  daň,  má  neutrální  charakter,  je  zahrnuta  v  ceně  zboží.  Založena  na  průběžném rozdílu  mezi  cenou  nákupu  (vstup)  a  cenou  prodejní  (výstup),  vstup  >  výstup  -  účet  má aktivní  charakter  (pohledávka),  vstup  <  výstup  -  účet  má  pasivní  charakter  (závazek).  Plátci mají  nárok  na  odpočet  (přihlásí-li  se  k  DPH).  Základem  pro  výpočet  je  cena  včetně  cla  a spotřební  daně  (dani  podléhají  lihoviny,  cigarety,  uhlíková  paliva),  veškerý  vývoz  je  od  DPH osvobozen.
 
@@ -437,11 +437,11 @@ Daní  se  pouze  přidaná  hodnota,  která  představuje  rozdíl  mezi  ceno
 
 <u>Osvobozeno  od  DPH  -  poštovní  služby,  rozhlasové  a  televizní  vysílání,  finanční  činnosti,</u> pojišťovnictví,  převod  staveb  a  pozemků,  výchova  a  vzdělávání,  zdravotnictví,  sociální služby,  loterie  (sazka,  sportka,  losy)
 
-### **Ostatní  daně  a  poplatky  -  345**
+### Ostatní  daně  a  poplatky  -  345
 
 Zde  se  účtují  další  přímé  daně.  Spotřební,  darovací,  dědické,  silniční,  z  nemovitostí  a  z převodu  nemovitostí.
 
-### **-  Silniční  daň**
+### Silniční daň
 
 - na  všechna  motorová  vozidla,  která  používáme  k  podnikání
 
@@ -455,7 +455,7 @@ Zde  se  účtují  další  přímé  daně.  Spotřební,  darovací,  dědick
 
 - výše  daně  závisí  na  objemu  motoru
 
-### **-  Daň  z  nemovitostí**
+### Daň z nemovitostí
 
 - při  nákupu  nové  nemovitosti  do  konce  ledna  následujícího  roku  je  třeba  podat  daňové přiznání
 
@@ -467,7 +467,7 @@ Zde  se  účtují  další  přímé  daně.  Spotřební,  darovací,  dědick
 
 - předpis  532/345
 
-### **-  Daň  z  převodu  nemovitostí**
+### Daň z převodu nemovitostí
 
 - je  pouze  při  prodeji
 
@@ -479,7 +479,7 @@ Zde  se  účtují  další  přímé  daně.  Spotřební,  darovací,  dědick
 
 - úhrada  345/221
 
-### **-  Spotřební  daň**
+### Spotřební daň
 
 - je  to  nepřímá  daň,  platí  se  v  ceně
 
@@ -493,7 +493,7 @@ Zde  se  účtují  další  přímé  daně.  Spotřební,  darovací,  dědick
 
 - 345,  účtování  je  stejné  jako  u  DPH,  platí  nadměrný  odpočet  i  daňová  povinnost
 
-### **Dotace  -  346,347**
+### Dotace  -  346,347
 
 Nevratné  prostředky,  které  poskytl  státní  rozpočet  nebo  místní  rozpočet  či  státní  fondy. Dotace  je  příjem  peněžních  financí.  Příspěvky  na  nákup  DM  nebo  na  provoz,  bývají  ze státního  rozpočtu,  jsou  účelově  vázané,  jejich  čerpání  se  musí  dokládat,  kontroluje  to  nejvyšší kontrolní  úřad  (NKÚ),  případně  kontrolní  oddělení  příslušného  úřadu,  každé  zneužití  je trestné,  nevyčerpané  dotace  se  vracejí  zpět  do  SR,  dotace  ze  SR  -  346,  ostatní  dotace,  dotace z  městského  rozpočtu  (od  obce,  úřadů...)  -  347
 
@@ -517,7 +517,7 @@ Tato  dotace  snižuje  pořizovací  cenu  DM
 
 -  připsání  na  BÚ  221/346
 
-## **Časové  rozlišení  nákladů  a  výnosů**
+## Časové  rozlišení  nákladů  a  výnosů
 
 ●  účtovat  náklady  a  výnosy  v  souladu  se  zákonem  o  účetnictví  a  vyhláškou  a  v návaznosti  vykázat  správně  základ  daně  v  souladu  se  zákonem  o  daních  z  příjmů,  se stává  poměrně  složitou  problematikou  účtování
 
@@ -551,7 +551,7 @@ c)  období,  ke  kterému  se  částka  vztahuje,  kdy  příslušná  operace
 
 nastane
 
-### **Účet  381  -  Náklady  příštích  období**
+### Účet  381  -  Náklady  příštích  období
 
 - představují  částky  zaplacené  účetní  jednotkou  v  běžném  účetním  období  (výdaj), které  však  zčástu  nebo  zcela  patří  do  následujícího  účetního  období  a  týkají  se konkrétních  účtů  účtové  třídy  5,  např.  náklady  na  zařazené  většího  rozsahu  drobného majetku  do  používání,  nájemné  placené  předem,  pojistné  placené  předem
 
@@ -561,7 +561,7 @@ nastane
 
 - je  to  aktivní  účet  a  v  rozvaze  bude  zařazený  mezi  aktiva  (zúčtování  nákladů  příštích období  na  příslušný  účet  nákladů  se  provede  v  účetním  období,  s  nímž  časově rozlišené  náklady  věcně  souvisejí,  nejpozději  však  do  4  let  od  zaúčtování
 
-### **Účet  382  –  Komplexní  náklady  příštích  období**
+### Účet  382  –  Komplexní  náklady  příštích  období
 
 - Komplexní  náklady  příštích  období  představují  souhrn  různých  druhů  nákladů,  které se  vztahují  k  určitému  účelu  ,např.  k  přípravě  a  záběhu  výroby  nových  výrobků,
 
@@ -569,7 +569,7 @@ dlouhodobé  propagaci,  k  řešení  úkolů  technického  rozvoje,  náklady
 
 -  Aby  neovlivnily  výsledek  hospodaření  běžného  období,  musí  být  vyloučeny  z  nákladů zúčtováním  ve  prospěch  účtu  555-Zúčtování  komplexních  nákladů  příštích období/nejpozději  do  4  let/  se  souvztažným  zápisem  na  stranu  MD  účtu  382Komplexní  náklady  příštích  období.
 
-### **Účet  383  –  Výdaje  příštích  období**
+### Účet  383  –  Výdaje  příštích  období
 
 - prostřednictvím  tohoto  účtu  se  vyúčtují  náklady,  jež  s  běžným  účetním  obdobím souvisejí,  avšak  výdaj  na  něj  nebyl  dosud  uskutečněn.
 
@@ -581,7 +581,7 @@ dlouhodobé  propagaci,  k  řešení  úkolů  technického  rozvoje,  náklady
 
 -  Účet  383-Výdaje  příštích  období  na  přechodnou  dobu  nahrazuje  stranu  Dal  účtu  221 nebo  211,  kam  zachytíme  úbytek  peněžních  prostředků,  tento  účet  nazýváme přechodným  účtem  pasivním.  Pasivním  proto,  že  představuje  na  přechodnou  dobu zdroj  krytí  majetku  účetní  jednotky  (jedná  se  o  oddálení  platby).
 
-### **Účet  384  -  Výnosy  příštích  období**
+### Účet  384  -  Výnosy  příštích  období
 
 -  Výnosy  příštích  období  představují  částky,  které  jsme  přijali  v  běžném  účetním období,  byly  už  zaplaceny  odběratelem  naší  služby,  ale  my  poskytneme  službu  až  v příštím  účetním  období,např.  odběratel  si  pronajme  garáž  a  nájem  zaplatí  na  rok dopředu,  částky  přijatých  paušálů  předem  na  zajištění  servisních  služeb,  přijaté předplatné.
 
@@ -593,7 +593,7 @@ dlouhodobé  propagaci,  k  řešení  úkolů  technického  rozvoje,  náklady
 
 - Je  pasivním  účtem  a  v  rozvaze  představuje  zdroje  krytí  majetku  účetní  jednotky,  je tedy  přechodný  účet  pasivní.
 
-### **Účet  385  -  Příjmy  příštích  období**
+### Účet  385  -  Příjmy  příštích  období
 
 -  Příjmy  příštích  období  jsou  částky  účetní  jednotkou  nepřijaté,  neinkasované  ke  dni uzavírání  účetních  knih,  které  časově  a  věcně  souvisejí  s  výnosy  běžného  účetního období  a  nejsou  zúčtovány  přímo  na  účtech  pohledávek  vůči  právnickým  a  fyzickým osobám.
 
@@ -609,7 +609,7 @@ dlouhodobé  propagaci,  k  řešení  úkolů  technického  rozvoje,  náklady
 
 -  Na  účet  385  se  účtuje  se  souvztažnými  zápisy  ve  prospěch  příslušných  účtů  v  ú.  třídě  6.
 
-### **Dohadné  účty**
+### Dohadné  účty
 
 -  v  38.  účtové  skupině  účtujeme  mj.  položky,  pomocí  nichž  se  zahrnují  náklady  a výnosy  do  těch  účetních  období,  s  nimiž  věcně  a  časově  souvisejí
 

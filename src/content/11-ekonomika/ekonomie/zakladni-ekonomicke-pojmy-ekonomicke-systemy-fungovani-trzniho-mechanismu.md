@@ -8,30 +8,30 @@ source: "Ekonomie/10. Základní ekonomické pojmy, ekonomické systémy, fungov
 - Ekonomie X ekonomika, makroekonomie X mikroekonomie
 - __ekonomie__ = věda, která studuje způsob, jakým lidé a společnost hospodaří s omezenými zdroji k výrobě užitečných statků a služeb, a jak tyto statky a služby rozdělují ve společnosti
 - __ekonomika__ = ekonomická praxe
-- __makroekonomie__ = zabývá se chováním ekonomiky jako celku \(studuje výkonnost ekonomiky jako státu – inflace, nezaměstnanost, státní rozpočet, množství peněž v oběhu…\)
-- __mikroekonomie__ = zkoumá chování jednotlivých ekonomických subjektů \(domácnost, firmy\)		           \-  studuje také fungování dílčích trhů: trh práce, kapitálu, výrobků a služeb, přírodních zdrojů
+- __makroekonomie__ = zabývá se chováním ekonomiky jako celku (studuje výkonnost ekonomiky jako státu – inflace, nezaměstnanost, státní rozpočet, množství peněž v oběhu…)
+- __mikroekonomie__ = zkoumá chování jednotlivých ekonomických subjektů (domácnost, firmy)		           -  studuje také fungování dílčích trhů: trh práce, kapitálu, výrobků a služeb, přírodních zdrojů
 - Základní ekonomické otázky
 - __Co__ vyrábět – jaké výrobky a služby vyrábět a spotřebovávat, a v jakém množství, kvalitě a sortimentu ze vzácných zdrojů
 - __Jak__ vyrábět – kdo má statky vyrábět, s jakými zdroji a jakými technologickými postupy
 - __Pro koho__ vyrábět – jak účelně rozdělit statky mezi členy společnosti
 - Ekonomické systémy
 - hledání optimálního ekonomického uspořádání
-- pro jejich rozlišení se využívají i základní otázky \(co, jak, pro koho\)
+- pro jejich rozlišení se využívají i základní otázky (co, jak, pro koho)
 
 1. Zvykový systém
 	- založen na předávání informací, zkušeností a dovedností z generace na generaci
 	- existoval převážně dříve
-	- vlastnictví je většinou společné, komunita se podílí společnými silami na ekonomické činnosti \(př\. kmen s náčelníkem\)
+	- vlastnictví je většinou společné, komunita se podílí společnými silami na ekonomické činnosti (př. kmen s náčelníkem)
 2. Příkazový systém
 	- převládá státní vlastnictví
-	- existuje např\.: Severní Korea, Kuba, …
-	- ekonomika je stanovena centrálně \(zpravidla vládou\)
+	- existuje např.: Severní Korea, Kuba, …
+	- ekonomika je stanovena centrálně (zpravidla vládou)
 3. Tržní systém
 	- převládá soukromé vlastnictví, státního je minimálně
 	- cena se stanovuje smluvně v závislosti na poptávce a nabídce
 4.  Smíšený systém
 	- tržní systém doplněný o zásahy státu
-	- nejrozšířenější, převážně se využívá ve vyspělých zemích \(ČR, Německo,…
+	- nejrozšířenější, převážně se využívá ve vyspělých zemích (ČR, Německo,…
 
 - Potřeby
 
@@ -41,25 +41,25 @@ source: "Ekonomie/10. Základní ekonomické pojmy, ekonomické systémy, fungov
 
 __Druhy potřeb__
 
-__Hmotné__ \- potřeba něco vlastnit \(potřeba vlastnit auto\)
+__Hmotné__ - potřeba něco vlastnit (potřeba vlastnit auto)
 
-__Nehmotné__ \- potřeba získat znalosti \(potřeba umět řídit auto\)
+__Nehmotné__ - potřeba získat znalosti (potřeba umět řídit auto)
 
-__Biologická__ \- souvisí s existencí člověka \(potřeba spánku\)
+__Biologická__ - souvisí s existencí člověka (potřeba spánku)
 
-__Kulturní__ \- týkají se sociálních potřeb \(potřeba navštívit kino\)
+__Kulturní__ - týkají se sociálních potřeb (potřeba navštívit kino)
 
-__Individuální__ \- týkají se jednotlivců \(__já__ mám potřebu jíst\)
+__Individuální__ - týkají se jednotlivců (__já__ mám potřebu jíst)
 
-__Společenské__ \- týkají se společnosti lidí \(__celá třída__ chce odmaturovat\)
+__Společenské__ - týkají se společnosti lidí (__celá třída__ chce odmaturovat)
 
-__Zbytné__ \- závisí na finančních možnostech člověka \(potřeba vlastnit auto\)
+__Zbytné__ - závisí na finančních možnostech člověka (potřeba vlastnit auto)
 
-__Nezbytná__ \- souvisí s existencí člověka \(potřeba spánku\)
+__Nezbytná__ - souvisí s existencí člověka (potřeba spánku)
 
-__Současné__ \- vyjadřují naše současné pocity \(jsou závislé na věku, pohlaví,…\)
+__Současné__ - vyjadřují naše současné pocity (jsou závislé na věku, pohlaví,…)
 
-__Budoucí__ \- souvisí s našimi představami o budoucnosti, sny, touhami,…
+__Budoucí__ - souvisí s našimi představami o budoucnosti, sny, touhami,…
 
 - Statky
 
@@ -67,23 +67,23 @@ __Budoucí__ \- souvisí s našimi představami o budoucnosti, sny, touhami,…
 
 - __Statky podle způsobu dosažení__
 
-	Ekonomické 	\- vznikají hospodářskou činností
+	Ekonomické 	- vznikají hospodářskou činností
 
-  \- ke vztahu k potřebám jsou vzácné → omezené \(potraviny, ošacení\)
+  \- ke vztahu k potřebám jsou vzácné → omezené (potraviny, ošacení)
 
-Volné \- vyskytují se volně v přírodě, relativně v dostatečném množství, není nutné rozdělování \(vzduch, voda, léčivé byliny\)
+Volné - vyskytují se volně v přírodě, relativně v dostatečném množství, není nutné rozdělování (vzduch, voda, léčivé byliny)
 
 - __Statky podle jejich podstaty__
 
-	Materiální \- každá věc vyrobená člověkem
+	Materiální - každá věc vyrobená člověkem
 
-	Nemateriální \- každý duševní výtvor člověka \(jeho znalosti, dovednosti\)
+	Nemateriální - každý duševní výtvor člověka (jeho znalosti, dovednosti)
 
 - __Statky podle účelu použití__
 
-Kapitálové \- slouží k další hospodářské činnosti; dělí se na dlouhodobý a oběžný majetek
+Kapitálové - slouží k další hospodářské činnosti; dělí se na dlouhodobý a oběžný majetek
 
-Spotřební \- slouží ke konečné potřebě; člení se na předměty dlouhodobé spotřeby a jednorázové spotřeby
+Spotřební - slouží ke konečné potřebě; člení se na předměty dlouhodobé spotřeby a jednorázové spotřeby
 
 - Služby
 
@@ -91,9 +91,9 @@ Spotřební \- slouží ke konečné potřebě; člení se na předměty dlouhod
 
 - __Služby__
 
-Věcné \(hmotné\) \- cizí činnosti, které obnovují nebo zlepšují hmotné statky \(opravář opravuje televizor
+Věcné (hmotné) - cizí činnosti, které obnovují nebo zlepšují hmotné statky (opravář opravuje televizor
 
-Osobní \(nehmotné\) \- cizí činnosti, které působí přímo na naši osobu \(lékař léčí zápal plic\)
+Osobní (nehmotné) - cizí činnosti, které působí přímo na naši osobu (lékař léčí zápal plic)
 
 - Trh
 - místo, kde se setkává nabídka s poptávkou po zboží, práci a penězích
@@ -130,8 +130,8 @@ __Členění trhu__
 3. __STÁT__
 	- ovlivňuje trh a odstraňuje některé jeho negativní dopady na ekonomiku
 	- aktivně působí na trhu
-	- sociální pomoc \(důchody, přídavky na děti,\.\.\)
-	- poskytuje veřejné statky a služby \(silnice, zdravotnictví, osvícení,\.\.\) → občané za ně "neplatí"
+	- sociální pomoc (důchody, přídavky na děti,..)
+	- poskytuje veřejné statky a služby (silnice, zdravotnictví, osvícení,..) → občané za ně "neplatí"
 
 - Nabídka
 - množství zboží, které jsou prodávající ochotni prodat na trhu za určité ceny
@@ -150,7 +150,7 @@ __Faktory ovlivňující nabídku:__
 
 - Poptávka
 - množství zboží, které jsou kupující ochotni koupit za určité ceny
-- kupující chce koupit za co nejnižší cenu \- poptávka je vyšší
+- kupující chce koupit za co nejnižší cenu - poptávka je vyšší
 - při vysoké ceně poptávka klesá
 
 __Faktory ovlivňující poptávku__
@@ -160,7 +160,7 @@ __Faktory ovlivňující poptávku__
 - změna populace
 - vkus, zvyky a preference lidí
 
-*Zákon poptávky říká \- s rostoucí cenou klesá poptávka po zboží*
+*Zákon poptávky říká - s rostoucí cenou klesá poptávka po zboží*
 
 - Tržní mechanismus
 - reguluje množství zboží tak, aby docházelo k rovnovážnému stavu
@@ -168,12 +168,12 @@ __Faktory ovlivňující poptávku__
 - Přebytek zboží = ceny jsou nad bodem rovnováhy, výrobek nejde na odbyt
 - Nedostatek zboží = ceny jsou pod bodem rovnováhy, výrobci ceny zvyšují
 - Zásahy státu do tržního mechanismu
-- tržní mechanismus je také regulován vhodnými státními zásady → státní orgány \(parlament, vláda, ministerstvo, …\)
+- tržní mechanismus je také regulován vhodnými státními zásady → státní orgány (parlament, vláda, ministerstvo, …)
 
 1. __Zásahy ekonomického charakteru__
 	- daňové úlevy nebo vyšší zdanění, státní zakázky, celní politika, dotace ze státního rozpočtu, pomoc při nezaměstnanosti
 2. __Zásahy mimoekonomického charakteru__
-	- zákony upravující tržní vztahy, zákazy prodeje závadného zboží \(tresty\), postihování dohod omezujících působení trhu \(kartelové dohody\)
+	- zákony upravující tržní vztahy, zákazy prodeje závadného zboží (tresty), postihování dohod omezujících působení trhu (kartelové dohody)
 
 - Výrobní zdroje
 
@@ -181,12 +181,12 @@ __Faktory ovlivňující poptávku__
 
 = cílevědomá lidská činnost, kterou člověk získává statky a služby k uspokojování potřeb
 
-Druhy prací
+### Druhy prací
 
-- Fyzická \(truhlář\) __X__ duševní \(vědec\)
-- Jednoduchá \(pokladní\) __X__ složitá \(dělník\)
-- Tvůrčí \(učitel\) __X__ mechanická \(dělník – u výrobního pásu\)
-- Produktivní \(pekař – houska\) __X__ neproduktivní \(lékař – operace\)
+- Fyzická (truhlář) __X__ duševní (vědec)
+- Jednoduchá (pokladní) __X__ složitá (dělník)
+- Tvůrčí (učitel) __X__ mechanická (dělník – u výrobního pásu)
+- Produktivní (pekař – houska) __X__ neproduktivní (lékař – operace)
 
 __Pracovní__ __síla__ = souhrn fyzických a duševních schopností pracovat
 
@@ -213,11 +213,11 @@ __Řídicí práce__ – kontrola, vedení lidí
 - Může mít hmotný nebo nehmotný charakter
 - Jde o hodnoty, které přenášejí hodnoty další
 
-Formy kapitálu
+## Formy kapitálu
 
 1. __Fyzický__
-	- __fixní__ \(budovy, stavby, stroje, dopravní zařízení\)
-	- __oběžný__ \(zásoby surovin, materiálu, polotovarů\)
+	- __fixní__ (budovy, stavby, stroje, dopravní zařízení)
+	- __oběžný__ (zásoby surovin, materiálu, polotovarů)
 2. __Finanční__ → peníze, cenné papíry, akcie, obligace
 
 Majetek podniku
@@ -233,28 +233,28 @@ Majetek podniku
 	2. finanční majetek
 	3. pohledávky
 
-Zdroje kapitálu
+### Zdroje kapitálu
 
 1. Vlastní – peněžní prostředky či majetkové hodnoty vložené do podnikání
 2. Cizí – různé závazky a dluhy
 
 - Hospodářský proces
 
-__a\) Výroba__
+__a) Výroba__
 
 - činnost, při které člověk přetváří přírodu, její předměty a síly v užitečné věci, tedy ve statky a služby
 - výrobní spotřeba je součástí výroby
 
-__b\) Rozdělování a přerozdělování__
+__b) Rozdělování a přerozdělování__
 
 - vytváření podílů jednotlivců a kolektivů na celospolečenské výrobě
 - rozdělováním získávají svůj podíl na výrobě její účastníci
-- přerozdělování ostatním členům společnosti, kteří se na výrobě nepodílí \(děti, důchodci, nemocní, atd\.\.\)
+- přerozdělování ostatním členům společnosti, kteří se na výrobě nepodílí (děti, důchodci, nemocní, atd..)
 
-__c\) Směna__
+__c) Směna__
 
-- všechny činnosti od ukončení výroby až do předání výrobku spotřebiteli \(doprava, skladování, evidence,\.\.\.\)
+- všechny činnosti od ukončení výroby až do předání výrobku spotřebiteli (doprava, skladování, evidence,...)
 
-__d\) Spotřeba \(konečná\)__
+__d) Spotřeba (konečná)__
 
 - užití výrobků a služeb k uspokojování potřeb

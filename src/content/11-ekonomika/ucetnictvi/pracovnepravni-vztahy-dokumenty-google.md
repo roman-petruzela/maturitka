@@ -3,9 +3,9 @@ title: "Pracovněprávní vztahy Dokumenty Google"
 order: 22
 source: "Účetnictví/22. Pracovněprávní vztahy - Dokumenty Google.pdf"
 ---
-## **Právní  předpisy  upravující  výkon  práce**
+## Právní  předpisy  upravující  výkon  práce
 
-### **Hlavní  prameny**
+### Hlavní  prameny
 
 - Listina  základních  práv  a  svobod
 
@@ -15,7 +15,7 @@ source: "Účetnictví/22. Pracovněprávní vztahy - Dokumenty Google.pdf"
 
 - Zákon  o  kolektivním  vyjednávání
 
-### **Další  prameny**
+### Další  prameny
 
 - mezinárodní  smlouvy
 
@@ -25,7 +25,7 @@ source: "Účetnictví/22. Pracovněprávní vztahy - Dokumenty Google.pdf"
 
 - Jinými  právními  normami  se  řídí  např.  služební  poměr  státních  zaměstnanců,  práce  členů družstev,  učitelů  VŠ  a  činnost  FO,  kteří  samostatně  podnikají.
 
-## **Smluvní  strany  základních  pracovněprávních  vztahů**
+## Smluvní  strany  základních  pracovněprávních  vztahů
 
 - **individuální  pracovní  právo** -  vztahy  jednotlivých  zaměstnanců
 
@@ -33,13 +33,13 @@ source: "Účetnictví/22. Pracovněprávní vztahy - Dokumenty Google.pdf"
 
 - Smluvní  strany  individuálních  pracovněprávních  vztahů  →  zaměstnavatelé  a  zaměstnanci
 
-### **Zaměstnavatelé**
+### Zaměstnavatelé
 
 - FO  (nemusí  být  podnikatel,  aby  mohl  být  zaměstnavatel  →  manželé  mají  chůvu,  uklízečku)
 
 - PO  (jeden  nebo  více  osob)
 
-### **Zaměstnanci**
+### Zaměstnanci
 
 - jen  FO,  ↑  15  let,  den  nástupu  do  práce  nesmí  předcházet  dni  ukončení  povinné  školní docházky
 
@@ -47,7 +47,7 @@ source: "Účetnictví/22. Pracovněprávní vztahy - Dokumenty Google.pdf"
 
 - do  zaměstnání  může  být  přijat  i  zaměstnanec  bez  nebo  s  omezenou  způsobilostí  k  právním úkonům  →  v  jednáních  ho  zastupuje  opatrovník  ustanovený  soudem
 
-## **Vznik  pracovního  poměru**
+## Vznik  pracovního  poměru
 
 - **pracovní  smlouvou** (nejčastěji;  vzniká  dnem  nástupu  do  práce)
 
@@ -57,7 +57,7 @@ source: "Účetnictví/22. Pracovněprávní vztahy - Dokumenty Google.pdf"
 
 -  Při  nástupu  do  práce  musí  být  zaměstnanec  seznámen  s  předpisy  BOZP.
 
-## **Pracovní  smlouva  a  její  obsah**
+## Pracovní  smlouva  a  její  obsah
 
 - musí  být  písemná,  každá  smluvní  strana  musí  obdržet  jedno  vyhotovení
 
@@ -65,7 +65,7 @@ source: "Účetnictví/22. Pracovněprávní vztahy - Dokumenty Google.pdf"
 
 -  povinné  náležitosti:
 
-### **druh  práce místo  výkonu den  nástupu**
+### druh  práce místo  výkonu den  nástupu
 
 ### <u>další  ujednání:</u>
 
@@ -73,7 +73,7 @@ source: "Účetnictví/22. Pracovněprávní vztahy - Dokumenty Google.pdf"
 
 -  zkušební  doba  (není  uvedená  →  žádná  není;  max.  délka  3  měsíce,  u  vedoucích  6  měsíců)
 
-## **Změny  pracovního  poměru,  skončení  pracovního  poměru**
+## Změny  pracovního  poměru,  skončení  pracovního  poměru
 
 - jakékoliv  ujednání  lze  změnit  dohodou  účastníků  smlouvy,  změna  musí  být  provedena písemně
 
@@ -83,9 +83,9 @@ source: "Účetnictví/22. Pracovněprávní vztahy - Dokumenty Google.pdf"
 
 -  musí  →  zaměstnanec  dle  lékaře  dlouhodobě  ztratil  způsobilost  konat  dosavadní práci,  těhotnou  ženu/matku  dítěte  ↓  9  měsíců,  jejíž  práce  ohrožuje  těhotenství/mateřství -  dále  můžeme  zaměstnance  převést  na  jiné  místo  (v  rámci  zaměstnavatele)  nebo  dočasně přidělit  k  jinému  zaměstnavateli  (pro  oba  nutný  souhlas  zaměstnance)
 
-### **Skončení  pracovního  poměru**
+### Skončení  pracovního  poměru
 
-### **Právní  úkony**
+### Právní  úkony
 
 -  dvoustranné  →  dohoda  (nutný  souhlas  obou  stran,  písemně,  požádá  zaměstnanec  → důvody)
 
@@ -109,7 +109,7 @@ source: "Účetnictví/22. Pracovněprávní vztahy - Dokumenty Google.pdf"
 
 **Události** →  uplynutí  dohodnuté  doby,  skončení  dohodnutých  prací,  úmrtí  zaměstnance
 
-## **Práce  konané  mimo  pracovní  poměr**
+## Práce  konané  mimo  pracovní  poměr
 
 - práce  malého  rozsahu,  nepravidelné/příležitostné
 
@@ -117,7 +117,7 @@ source: "Účetnictví/22. Pracovněprávní vztahy - Dokumenty Google.pdf"
 
 - na  tyto  právní  vztahy  se  nevztahují  některá  ustanovení  zákoníku  práce  (např.  o  pracovní době,  o  době  odpočinku)
 
-### **Dohoda  o  provedení  práce**
+### Dohoda  o  provedení  práce
 
 - maximálně  300  hodin  ročně  u  jednoho  zaměstnavatele,  písemná
 
@@ -131,7 +131,7 @@ source: "Účetnictví/22. Pracovněprávní vztahy - Dokumenty Google.pdf"
 
 - povinnost  hradit  daň  z  příjmu
 
-### **Dohoda  o  pracovní  činnosti**
+### Dohoda  o  pracovní  činnosti
 
 - nesmí  svým  rozsahem  převýšit  v  průměru  1/2  stanovené  týdenní  pracovní  doby,  písemná
 
@@ -143,7 +143,7 @@ source: "Účetnictví/22. Pracovněprávní vztahy - Dokumenty Google.pdf"
 
 - nevzniká  povinnost  platit  soc.  a  zdrav.  pojištění,  pokud  odměna  nedosáhne  2  500  Kč měsíčně
 
-## **Odměňování  pracovníků**
+## Odměňování  pracovníků
 
 - za  vykonanou  práci  →  mzda,  plat  nebo  odměna  z  dohody
 
@@ -157,7 +157,7 @@ source: "Účetnictví/22. Pracovněprávní vztahy - Dokumenty Google.pdf"
 
 - alespoň  minimální  mzda  musí  být  vyplacena  v  penězích
 
-### **Minimální**
+### Minimální
 
 - nejnižší  přípustná  výše  odměny  za  práci,  kterou  určuje  vláda  svým  nařízením
 
@@ -175,7 +175,7 @@ source: "Účetnictví/22. Pracovněprávní vztahy - Dokumenty Google.pdf"
 
 - příplatek  za  práci  v  sobotu  a  v  neděli
 
-### **Plat**
+### Plat
 
 <u>pro  zaměstnance  jejichž  zaměstnavatelem  je:</u>
 
@@ -207,19 +207,19 @@ source: "Účetnictví/22. Pracovněprávní vztahy - Dokumenty Google.pdf"
 
 - odměna  za  pracovní  pohotovost
 
-### **Náhrada  mzdy  při  překážky  v  práci**
+### Náhrada  mzdy  při  překážky  v  práci
 
 - výkon  práce  někdy  znemožňují  závažné  překážky,  při  kterých  má  zaměstnanec  nárok  na náhradu  mzdy
 
-### **Překážky  v  práci  na  straně  zaměstnance**
+### Překážky  v  práci  na  straně  zaměstnance
 
 důležité  osobní  překážky  -  např.  dočasná  pracovní  neschopnost,  mateřská  a  rodičovská dovolená,  ale  také  vlastní  svatba,  úmrtí  rodinného  příslušníka,  narození  dítěte  manželce překážky  z  důvodu  obecného  zájmu  -  např.  výkon  veřejné  funkce,  svědectví  u  soudu,  účast na  školení,  darování  krve
 
-### **Překážky  v  práci  na  straně  zaměstnavatele**
+### Překážky  v  práci  na  straně  zaměstnavatele
 
 prostoje  zaviněné  zaměstnavatelem  a  jiné  závažné  provozní  překážky  -  např.  přerušení dodávky  elektrické  energie,  nedodání  surovin,  porucha  stroje,  živelné  pohromy,  částečná nezaměstnanost
 
-### **Společná  ustanovení  o  mzdě  a  platu**
+### Společná  ustanovení  o  mzdě  a  platu
 
 - splatné  po  vykonání  práce,  nejpozději  v  násl.  kalendářním  měsíci
 
@@ -231,7 +231,7 @@ prostoje  zaviněné  zaměstnavatelem  a  jiné  závažné  provozní  překá
 
 - jiné  osobě  než  zaměstnanci  je  možné  vyplatit  mzdu  nebo  plat  na  základě  písemné  plné  moci
 
-## **Pracovní  doba  a  doba  odpočinku,  dovolená**
+## Pracovní  doba  a  doba  odpočinku,  dovolená
 
 - pracovní  doba  =  doba,  v  níž  je  zaměstnanec  povinen  pracovat  pro  zaměstnavatele
 
@@ -247,7 +247,7 @@ Ve  zvlášť  vymezených  případech,  např.  při  přesčasech,  v  zeměd
 
 2.  Nepřetržitý  odpočinek  v  týdnu  na  24  hodin,  jestliže  za  období  2  týdnů  bude  činit  délka tohoto  odpočinku  celkem  alespoň  70  hodin,  za  období  3  týdnů  alespoň  105  hodin  nebo  za období  6  týdnů  při  sezónních  pracích  celkem  alespoň  210  hodin.
 
-### **Dovolená**
+### Dovolená
 
 - doba  poskytovaná  zaměstnavatelem  zaměstnanci  pro  dlouhodobější  odpočinek  a  regeneraci pracovních  sil  a  zároveň  mu  za  ni  poskytuje  náhradu  mzdy
 

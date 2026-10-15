@@ -1,5 +1,5 @@
 ---
-title: "PSYCHOLOGIE OSOBNOSTI"
+title: "Psychologie osobnosti"
 order: 1
 source: "Společenské vědy/1. PSYCHOLOGIE OSOBNOSTI.docx"
 ---

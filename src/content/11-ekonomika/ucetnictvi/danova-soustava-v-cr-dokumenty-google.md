@@ -3,7 +3,7 @@ title: "Daňová soustava v ČR Dokumenty Google"
 order: 11
 source: "Účetnictví/11. Daňová soustava v ČR - Dokumenty Google.pdf"
 ---
-## **Obecná  charakteristika,  podstata  a  principy  zdanění**
+## Obecná  charakteristika,  podstata  a  principy  zdanění
 
 - daňová  soustava  je  systém,  jehož  účelem  je  zabezpečit  příjmy  státu  vybíráním  daní
 
@@ -17,7 +17,7 @@ source: "Účetnictví/11. Daňová soustava v ČR - Dokumenty Google.pdf"
 
 opakuje,  stát  za  ni  neposkytuje  žádnou  přímou  protihodnotu
 
-### **Funkce  daňové  soustavy**
+### Funkce  daňové  soustavy
 
 - Fiskální  (vytvořit,  tak  velký  státní  rozpočet,  který  zabezpečí  plynulé  financování státního  hospodářství  (obrany,  školství)  a  umožní  zásahy  do  hospodářství)
 
@@ -27,7 +27,7 @@ opakuje,  stát  za  ni  neposkytuje  žádnou  přímou  protihodnotu
 
 - **Sociální**
 
-### **Principy  zdanění**
+### Principy  zdanění
 
 - **Spravedlivého  zdanění** (stejné  podmínky  pro  různé  typy  subjektů,  pro  tuzemské  i
 
@@ -45,7 +45,7 @@ opakuje,  stát  za  ni  neposkytuje  žádnou  přímou  protihodnotu
 
 - →  mít  takové  daňové  předpisy,  které  umožní  snadný  výpočet  daní,  kontrolu  správnosti a  platby)
 
-## **Poplatníci  a  plátci  daní**
+## Poplatníci  a  plátci  daní
 
 - **Poplatník  daně** →  FO  nebo  PO,  z  jejíchž  peněz  je  daň  placena  (ten,  z  jehož  kapsy
 
@@ -61,13 +61,13 @@ opakuje,  stát  za  ni  neposkytuje  žádnou  přímou  protihodnotu
 
 - každý  poplatník  podává  přímo  na  finanční  úřad  daňové  přiznání  a  daň  přímo  uhradí
 
-### **Daň  důchodová**
+### Daň  důchodová
 
 - platí  se  podle  výše  příjmu  poplatníka
 
 - daň  z  příjmů  FO,  PO
 
-### **Daň  majetková**
+### Daň  majetková
 
 - platí  se  z  majetku  (pozemky,  stavby,  motorová  vozidla)
 
@@ -77,19 +77,19 @@ opakuje,  stát  za  ni  neposkytuje  žádnou  přímou  protihodnotu
 
 - daň  silniční
 
-### **<u>Daň  nepřímá</u>**
+### <u>Daň  nepřímá</u>
 
 - součástí  ceny  nakupovaného  zboží  a  služeb
 
 - platí  ji  spotřebitelé  prodávajícímu,  který  ji  odvede  státu
 
-### **Daň  univerzální**
+### Daň  univerzální
 
 - platí  se  ze  všech  druhů  zboží  a  služeb
 
 - daň  z  přidané  hodnoty  (  DPH)
 
-### **Daň  selektivní**
+### Daň  selektivní
 
 - platí  se  jen  z  některých  druhů  zboží
 
@@ -97,9 +97,9 @@ opakuje,  stát  za  ni  neposkytuje  žádnou  přímou  protihodnotu
 
 - daně  k  ochraně  životního  prostředí  (ze  zemního  plynu  a  některých  dalších  plynů,  pevných  paliv, elektřiny;  jsou  zavedeny  od  1.  1.  2008)
 
-## **Daň  z  příjmu  FO  a  PO,  daňové  přiznání**
+## Daň  z  příjmu  FO  a  PO,  daňové  přiznání
 
-### **Daň  z  příjmů**
+### Daň  z  příjmů
 
 - z  podnikatelské  činnosti  PO  (19%)  a  FO  (15%)
 
@@ -109,13 +109,13 @@ opakuje,  stát  za  ni  neposkytuje  žádnou  přímou  protihodnotu
 
 - není  daňově  uznatelným  nákladem
 
-### **Daňové  přiznání**
+### Daňové  přiznání
 
 - dokument,  ve  kterém  musí  plátce  uvést  všechny  skutečnosti  potřebné  pro  výpočet daně
 
 - musí  se  odevzdat  v  termínu  stanoveném  v  daň.  zákonech  finančnímu  úřadu
 
-### **DPH**
+### DPH
 
 - nepřímá  daň,  největším  příjmem  do  státního  rozpočtu  naší  země
 
@@ -127,7 +127,7 @@ opakuje,  stát  za  ni  neposkytuje  žádnou  přímou  protihodnotu
 
 - Zákon  č.  235/2004  Sb.  o  dani  z  přidané  hodnoty,  platný  od  1.5.  2004  a  jeho  novely
 
-### **Plátce  daně**
+### Plátce  daně
 
 - plátci  se  registrují  u  příslušného  finančního  úřadu  a  jejich  registrace  může  být:
 
@@ -145,15 +145,15 @@ opakuje,  stát  za  ni  neposkytuje  žádnou  přímou  protihodnotu
 
 - **dobrovolná** (např.  z  důvodu,  že  nakupuje  od  plátců  DPH  a  prodává  plátcům  DPH)
 
-### **Sazby  DPH  –  poznámka**
+### Sazby  DPH  –  poznámka
 
 _2  úrovně  →  základní  21%  (většina  zboží  i  služeb,  nově  i  farmaceutické  výrobky  a_
 
 _zdravotní  potřeby)  a  snížená  15%  (potraviny,  jízdné  MHD,  noviny,  časopisy,  knihy)  10%  kojenecká výživa,  léky  a  očkovací  látky,  knihy_
 
-## **Daň  spotřební  a  ostatní  druhy  daní**
+## Daň  spotřební  a  ostatní  druhy  daní
 
-### **Spotřební  daň**
+### Spotřební  daň
 
 - nepřímá  daň,  poplatníky  jsou  všichni  spotřebitelé  a  plátci  jsou  firmy,  které  do  ČR vybrané  zboží  dovážejí  nebo  ho  zde  vyrábějí
 
@@ -161,7 +161,7 @@ _zdravotní  potřeby)  a  snížená  15%  (potraviny,  jízdné  MHD,  noviny,
 
 - po  skončení  zdaňovacího  období  (měsíc)  firma  zjistí,  zda  je  v  nadměrném  odpočtu (musí  stát  vrátit)  nebo  v  daňové  povinnosti  (musí  státu  zaplatit)
 
-### **Daň  silniční**
+### Daň  silniční
 
 - poplatníkem  je  FO  nebo  PO,  kt.  využívá  auto  k  podnikání
 
@@ -171,7 +171,7 @@ _zdravotní  potřeby)  a  snížená  15%  (potraviny,  jízdné  MHD,  noviny,
 
 - vždy  daňově  uznatelný  náklad
 
-### **Daň  z  nemovitosti**
+### Daň  z  nemovitosti
 
 - poplatníkem  je  majitel  (nájemce)  nemovitosti
 
@@ -179,7 +179,7 @@ _zdravotní  potřeby)  a  snížená  15%  (potraviny,  jízdné  MHD,  noviny,
 
 - vždy  daňově  uznatelným  nákladem
 
-### **Daň  dědická,  darovací  a  z  převodu  nemovitosti**
+### Daň  dědická,  darovací  a  z  převodu  nemovitosti
 
 - u  daně  dědické  a  darovací  závisí  jejich  výše  na  příbuzenském  vztahu  mezi zůstavitelem  (ten  kdo  umřel,  u  daně  dědické)  či  dárcem  (u  darovací)  a  nabyvatelem
 

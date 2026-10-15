@@ -30,7 +30,7 @@ __Postup prací při uzavírání účetních knih lze rozdělit do dvou etap:__
 
 __Přípravné práce před účetní uzávěrkou__
 
-__1\) Inventarizace__
+__1) Inventarizace__
 
 - __porovnání skutečného stavu majetku a závazků se stavem účetním__
 	1. Skutečný stav je nižší než stav účetní
@@ -52,11 +52,11 @@ __1\) Inventarizace__
 			- MD majetek
 			- D 413
 - porovnání účetní hodnoty majetku s hodnotou reálnou a zaúčtování případných rozdílů
-    - pokud je reálná hodnota majetku nižší, účtuje se v případě trvalého snížení hodnoty jako škoda \(549 / majetkový účet\)
-    - u dočasného snížení hodnoty majetku účtujeme nepřímo pomocí opravných položek \(zpravidla 559 / 09, 19, 29, 391\)
-    - pouze u vybraných cenných papírů lze účetní hodnotu i navyšovat na úroveň hodnoty reálné, avšak ne přes opravné položky \(251/564, 664; 253/566,666\)
+    - pokud je reálná hodnota majetku nižší, účtuje se v případě trvalého snížení hodnoty jako škoda (549 / majetkový účet)
+    - u dočasného snížení hodnoty majetku účtujeme nepřímo pomocí opravných položek (zpravidla 559 / 09, 19, 29, 391)
+    - pouze u vybraných cenných papírů lze účetní hodnotu i navyšovat na úroveň hodnoty reálné, avšak ne přes opravné položky (251/564, 664; 253/566,666)
 
-__2\) Zaúčtování účetních operací na konci účetního období__
+__2) Zaúčtování účetních operací na konci účetního období__
 
 1. Závěrečné operace u zásob
 	- proúčtování zásob na cestě
@@ -65,7 +65,7 @@ __2\) Zaúčtování účetních operací na konci účetního období__
 	- u manka jeho porovnání s vnitropodnikovou směrnicí normy přirozených úbytků
 	- posouzení účetní hodnoty zásob na skladě
 2. Časové rozlišení nákladů a výnosů
-    - účty časového rozlišení podléhají dokladové inventarizace, proto se musí u účtů 381 až 385 zkontrolovat \(podle analytické evidence\), zda souhlasí jednotlivé tituly časového rozlišení se skutečností
+    - účty časového rozlišení podléhají dokladové inventarizace, proto se musí u účtů 381 až 385 zkontrolovat (podle analytické evidence), zda souhlasí jednotlivé tituly časového rozlišení se skutečností
 3. Dohadné položky
     - dohadné položky jsou existující, avšak dosud nepotvrzené pohledávky a závazky
     - je znám účel i období, ale není známa přesná částka → není externí účetní doklad
@@ -90,15 +90,15 @@ __Uzávěrka účtů v hlavní knize__
 
 Převod konečných zůstatků:
 
-((obrázek vynechán))
+<img src="/images/content/ekonomika/ucetnictvi/ucetni-uzaverka-a-zaverka/01.webp" alt="" width="623" loading="lazy" decoding="async">
 
-Převod zisku/ztráty k 31\. 12\.:
+Převod zisku/ztráty k 31. 12.:
 
-((obrázek vynechán))
+<img src="/images/content/ekonomika/ucetnictvi/ucetni-uzaverka-a-zaverka/02.webp" alt="" width="616" loading="lazy" decoding="async">
 
-Převod zisku/ztráty k 1\. 1\.:
+Převod zisku/ztráty k 1. 1.:
 
-((obrázek vynechán))
+<img src="/images/content/ekonomika/ucetnictvi/ucetni-uzaverka-a-zaverka/03.webp" alt="" width="613" loading="lazy" decoding="async">
 
 Účetní závěrka
 
@@ -130,7 +130,7 @@ __Obsah a struktura účetních výkazů__
 
 5\. Přehled o změnách vlastního kapitálu  
 
-__1\. Rozvaha__
+__1. Rozvaha__
 
 = základním zdrojem informací o celkovém stavu a struktuře majetku účetní jednotky
 
@@ -142,7 +142,7 @@ __1\. Rozvaha__
 
 • __netto__ – výše aktiv snížená o opravné položky a oprávky
 
-a\) Rozvaha v plném rozsahu
+a) Rozvaha v plném rozsahu
 
 − jednotlivé položky aktiv a pasiv jsou označeny velkými písmeny, římskými a arabskými 	číslicemi
 
@@ -150,7 +150,7 @@ a\) Rozvaha v plném rozsahu
 
 − malé a mikro s povinností auditu
 
-b\) Rozvaha ve zkráceném rozsahu
+b) Rozvaha ve zkráceném rozsahu
 
 − rozšířená – malé bez povinnosti auditu
 
@@ -160,61 +160,61 @@ __Struktura rozvahy ve zkráceném rozsahu – rozšířená verze__
 
 AKTIVA
 
-A\. 	Pohledávky za upsaný základní kapitál
+A. 	Pohledávky za upsaný základní kapitál
 
-B\. 		Dlouhodobý majetek
+B. 		Dlouhodobý majetek
 
-B\. I\.	Dlouhodobý nehmotný majetek
+B. I.	Dlouhodobý nehmotný majetek
 
-B\. II\. 	Dlouhodobý hmotný majetek
+B. II. 	Dlouhodobý hmotný majetek
 
-B\. III\.	Dlouhodobý finanční majetek
+B. III.	Dlouhodobý finanční majetek
 
-C\.	Oběžná aktiva
+C.	Oběžná aktiva
 
-C\. I\. 	Zásoby
+C. I. 	Zásoby
 
-C\. II\.	Pohledávky
+C. II.	Pohledávky
 
-C\.II\.1\.	Dlouhodobé pohledávky
+C.II.1.	Dlouhodobé pohledávky
 
-C\.II\.2\.	Krátkodobé pohledávky
+C.II.2.	Krátkodobé pohledávky
 
-C\. III\.	Krátkodobý finanční majetek
+C. III.	Krátkodobý finanční majetek
 
-C\. IV\.	Peněžní prostředky
+C. IV.	Peněžní prostředky
 
-D\.	Časové rozlišení aktiv
+D.	Časové rozlišení aktiv
 
 PASIVA
 
-A\.	Vlastní kapitál
+A.	Vlastní kapitál
 
-A\. I\.	Základní kapitál
+A. I.	Základní kapitál
 
-A\. II\.	Ážio a kapitálové fondy
+A. II.	Ážio a kapitálové fondy
 
-A\. III\.	Fondy ze zisku
+A. III.	Fondy ze zisku
 
-A\. IV\.	Výsledek hospodaření minulých let \(\+/\-\)
+A. IV.	Výsledek hospodaření minulých let (+/-)
 
-A\. V\.	Výsledek hospodaření běž\. úč\. ob\. \(\+/\-\)
+A. V.	Výsledek hospodaření běž. úč. ob. (+/-)
 
-A\. VI\.	Zálohy na podíly na zisku
+A. VI.	Zálohy na podíly na zisku
 
-B\.\+ C\.	Cizí zdroje
+B.+ C.	Cizí zdroje
 
-B\. 	Rezervy
+B. 	Rezervy
 
-C\. 	Závazky
+C. 	Závazky
 
-C\. I\.	Dlouhodobé závazky
+C. I.	Dlouhodobé závazky
 
-C\. II\.	Krátkodobé závazky
+C. II.	Krátkodobé závazky
 
-D\.	Časové rozlišení pasiv
+D.	Časové rozlišení pasiv
 
-__2\. Výkaz zisku a ztráty__
+__2. Výkaz zisku a ztráty__
 
 = poskytuje informace o nákladech, výnosech a výsledku hospodaření
 
@@ -234,59 +234,59 @@ __2\. Výkaz zisku a ztráty__
 
 __Struktura výkazu zisku a ztráty ve zkráceném rozsahu__
 
-I\.	Tržby z prodeje výrobků a služeb
+I.	Tržby z prodeje výrobků a služeb
 
-II\.	Tržby za prodej zboží
+II.	Tržby za prodej zboží
 
-A\.	Výkonová spotřeba
+A.	Výkonová spotřeba
 
-B\.	Změna stavu zásob vlastní činnosti \(\+/\-\)
+B.	Změna stavu zásob vlastní činnosti (+/-)
 
-C\. 	Aktivace \(\+/\-\)
+C. 	Aktivace (+/-)
 
-D\.	Osobní náklady
+D.	Osobní náklady
 
-E\. 	Úpravy hodnot v provozní oblasti
+E. 	Úpravy hodnot v provozní oblasti
 
-III\.	Ostatní provozní výnosy
+III.	Ostatní provozní výnosy
 
-F\.	Ostatní provozní náklady
+F.	Ostatní provozní náklady
 
-\*	Provozní výsledek hospodaření \(\+/\-\)
+\*	Provozní výsledek hospodaření (+/-)
 
-IV\.	Výnosy z dlouhodobého finančnímu majetku – podíly
+IV.	Výnosy z dlouhodobého finančnímu majetku – podíly
 
-G\.	Náklady vynaložené na prodané podíly
+G.	Náklady vynaložené na prodané podíly
 
-V\.	Výnosy z ostatního dlouhodobého finančního majetku
+V.	Výnosy z ostatního dlouhodobého finančního majetku
 
-H\.	Náklady související s ostatním dlouhodobým finančním majetkem
+H.	Náklady související s ostatním dlouhodobým finančním majetkem
 
-VI\.	Výnosové úroky a podobné výnosy
+VI.	Výnosové úroky a podobné výnosy
 
-I\.	Úpravy hodnot a rezervy ve finanční oblasti
+I.	Úpravy hodnot a rezervy ve finanční oblasti
 
-J\.	Nákladové úroky a podobné náklady
+J.	Nákladové úroky a podobné náklady
 
-VII\.	Ostatní finanční výnosy
+VII.	Ostatní finanční výnosy
 
-K\.	Ostatní finanční náklady
+K.	Ostatní finanční náklady
 
-\*	Finanční výsledek hospodaření \(\+/\-\)
+\*	Finanční výsledek hospodaření (+/-)
 
-\*\*	Výsledek hospodaření před zdaněním \(\+/\-\)
+\*\*	Výsledek hospodaření před zdaněním (+/-)
 
-L\.	Daň z příjmů
+L.	Daň z příjmů
 
-\*\*	Výsledek hospodaření po zdanění \(\+/\-\)
+\*\*	Výsledek hospodaření po zdanění (+/-)
 
-M\.	Převod podílu na výsledku hospodaření společníkům \(\+/\-\)
+M.	Převod podílu na výsledku hospodaření společníkům (+/-)
 
-\*\*\*	Výsledek hospodaření za účetní období \(\+/\-\)
+\*\*\*	Výsledek hospodaření za účetní období (+/-)
 
-\*	Čistý obrat za účetní období = I\. \+ II\. \+ III\. \+ IV\. \+ V\. \+ VI\. \+ VII\.
+\*	Čistý obrat za účetní období = I. + II. + III. + IV. + V. + VI. + VII.
 
-__3\. Příloha__
+__3. Příloha__
 
 - příloha má stanovený pouze obsah
 - má za úkol vysvětlit a doplnit informace obsažené v rozvaze a výkazu zisku a ztráty
@@ -300,11 +300,11 @@ __3\. Příloha__
 	2. informace o účetních metodách a obecných účetních zásadách
 	3. doplňující informace k rozvaze a k výkazu zisku a ztráty
 
-__4\. Přehled o peněžních tocích – Cash Flow__
+__4. Přehled o peněžních tocích – Cash Flow__
 
 = přehled o peněžních tocích ve firmě, který může být stanoven přímou a nepřímou metodou
 
-− sledujeme ve 3 činnostech:	1\. provozní činnost
+− sledujeme ve 3 činnostech:	1. provozní činnost
 
 2\. investiční činnost
 
@@ -332,15 +332,15 @@ __v cash flow__
 
 __Druhy účetní závěrky__
 
-1. __Řádná účetní závěrka –__ sestavuje se k rozvahovému dni \(poslední den účetního období\)
-2. __Mimořádná účetní závěrka –__ sestavuje se v mimořádných situacích \(např\. ke dni zrušení účetní jednotky bez likvidace, ke dni, který předchází vstupu firmy do likvidace nebo do  insolvenčního řízení\)
+1. __Řádná účetní závěrka –__ sestavuje se k rozvahovému dni (poslední den účetního období)
+2. __Mimořádná účetní závěrka –__ sestavuje se v mimořádných situacích (např. ke dni zrušení účetní jednotky bez likvidace, ke dni, který předchází vstupu firmy do likvidace nebo do  insolvenčního řízení)
 3. __Mezitímní účetní závěrka –__ sestavuje se, pokud si to vyžadují zvláštní právní předpisy, i během účetního období
 
 __Rozsah účetní závěrky__
 
 1. __Rozvaha a příloha v plném rozsahu –__ musí sestavovat všechny střední a velké jednotky a dále mikro a malé účetní jednotky, které mají zákonem stanovenou povinnost auditu
 2. __Výkaz zisku a ztráty v plném rozsahu –__ musí sestavovat všechny obchodní společnosti; pro ostatní účetní jednotky pak platí stejná kritéria jako u bodu 1
-3. __Výkazy ve zkráceném rozsahu –__ sestavují všechny ostatní účetní jednotky \(pokud samy dobrovolně nerozhodnou jinak\)
+3. __Výkazy ve zkráceném rozsahu –__ sestavují všechny ostatní účetní jednotky (pokud samy dobrovolně nerozhodnou jinak)
 4. __Rozvaha ve zkráceném rozsahu –__ má od roku 2016 dvě verze – __základní a rozšířenou__
 
 __Ověření účetní závěrky auditorem__
@@ -354,4 +354,4 @@ __Ověření účetní závěrky auditorem__
 	- aktiva celkem překročila 40 000 000 Kč
 	- roční čistý obrat byl vyšší než 80 000 000 Kč
 	- průměrný přepočtený stav zaměstnanců byl vyšší než 50
-3. __ostatní malé účetní jednotky__ \(např\. společnosti s ručením omezeným\), pokud v účetním období za něž se účetní závěrka ověřuje a v účetním období bezprostředně předcházejícím dosáhla __minimálně dvě__ z kritérií v bodu b
+3. __ostatní malé účetní jednotky__ (např. společnosti s ručením omezeným), pokud v účetním období za něž se účetní závěrka ověřuje a v účetním období bezprostředně předcházejícím dosáhla __minimálně dvě__ z kritérií v bodu b

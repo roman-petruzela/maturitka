@@ -3,7 +3,7 @@ title: "Rozhodování, kontrola Dokumenty Google"
 order: 21
 source: "Účetnictví/21. Rozhodování, kontrola - Dokumenty Google.pdf"
 ---
-## **Rozhodování  a  princip  volby**
+## Rozhodování  a  princip  volby
 
 **Rozhodování** -  nejvýznamnější  činnost,  součást  pracovní  náplně  manažerů na  všech  úrovních  řízení
 
@@ -17,17 +17,17 @@ source: "Účetnictví/21. Rozhodování, kontrola - Dokumenty Google.pdf"
 
 - Volba  varianty  určené  k  realizaci  tvoří  klíčovou  fázi  rozhodovacího  procesu.
 
-### **Rozhodovací  proces  a  jeho  etapy**
+### Rozhodovací  proces  a  jeho  etapy
 
 Rozhodovací  proces  lze  rozčlenit  do  určitých  navazujících  činností  v  určitém  časovém  sledu.
 
-### **Identifikace  rozhodovacího  problému**
+### Identifikace  rozhodovacího  problému
 
 - první  etapa,  nejprve  je  potřeba  identifikovat  problém  (co  je  za  problém  a  proč  nastal)
 
 - problémy  mohou  být  již  existující  nebo  potenciální
 
-### **Analýza  a  formulace  problému**
+### Analýza  a  formulace  problému
 
 - jedná  se  o  bližší  poznání  problémové  situace,  která  vyžaduje  řešení
 
@@ -45,13 +45,13 @@ Rozhodovací  proces  lze  rozčlenit  do  určitých  navazujících  činnost�
 
 - součástí  formulace  může  být  vymezení  cíle
 
-### **Tvorba  variant  rozhodování**
+### Tvorba  variant  rozhodování
 
 - etapa  s  vysokými  nároky  na  tvůrčí  schopnosti  řešitelů
 
 - vytvořit  soubor  koncepčně  odlišných  variant,  abychom  mohli  vybírat
 
-### **Stanovení  kritérií  hodnocení**
+### Stanovení  kritérií  hodnocení
 
 - kritéria  (kvantitativní  nebo  kvalitativní)  se  odvozují  od  cílů  řešení  problému
 
@@ -61,7 +61,7 @@ Rozhodovací  proces  lze  rozčlenit  do  určitých  navazujících  činnost�
 
 - kvalitu  stanovení  důsledku  lze  zvýšit  vhodným  výběrem  expertů  a  vhodnou  metodou zpracování  odhadů
 
-### **Hodnocení  variant  a  volba  varianty  určené  k  realizaci**
+### Hodnocení  variant  a  volba  varianty  určené  k  realizaci
 
 - cílem  je  zvolit  takovou  variantu  řešení,  která  nejlépe  splňuje  cíle  řešení
 
@@ -69,21 +69,21 @@ Rozhodovací  proces  lze  rozčlenit  do  určitých  navazujících  činnost�
 
 -  ve  druhé  fázi  probíhá  posuzování  celkové  výhodnosti  přípustných  variant
 
-### **Realizace  zvolené  varianty**
+### Realizace  zvolené  varianty
 
 - jde  o  skutečnou  realizaci  zvolené  varianty
 
 - nekvalitní  realizace  může  znehodnotit  přínosy,  proto  je  nutná  kvalitní  příprava
 
-### **Kontrola  výsledků**
+### Kontrola  výsledků
 
 - nespočívá  ve  stanovení  odchylek  skutečně  dosažených  výsledků  od  stanovených  cílů
 
-## **Základní  typy  rozhodovacích  problémů**
+## Základní  typy  rozhodovacích  problémů
 
 Rozhodovací  situace  se  vyznačují  značkou  proměnlivostí.
 
-### **Dobře  a  špatně  strukturované  problémy**
+### Dobře  a  špatně  strukturované  problémy
 
 • **Dobře** strukturované  rozhodovací  problémy  (jsou  jednoduché,  programované)  –  řeší  se opakovaně  na  operativní  úrovni  řízení  a  existují  pro  ně  rutinní  porstupy  řešení.  (např. vytížení
 
@@ -91,7 +91,7 @@ výrobní  linky,  osazení  jednotlivých  strojů  pracovníky,  velikost  obj
 
 •  Špatně  strukturované  rozhodovací  problémy  (jsou  řešené  na  vyšších  úrovních  řízení)  jsou nové  a  neopakovatelné.  Řešení  vyžaduje  tvůrčí  přístup,  využití  rozsáhlých  znalostí  a zkušeností,  neexistují  standartní  postupy  řešení.
 
-### **Rozhodovací  procesy  za  jistoty,  rizika  a  nejistoty**
+### Rozhodovací  procesy  za  jistoty,  rizika  a  nejistoty
 
 Vychází  z  míry  informací  o  budoucích  hodnotách  faktorů,  ovlivňujících  důsledky  variant hodnocení
 
@@ -109,7 +109,7 @@ Praktické  zkušenosti  ukazují,  že  většina  rozhodovacích  problémů  
 
 na  vyšší  úrovni  jsou  rozhodovány  za  nejistoty  nebo  rizika.
 
-### **Je  nutné  se  vyvarovat  následujících  chyb:**
+### Je  nutné  se  vyvarovat  následujících  chyb:
 
 - určit  rozhodnutí  bez  efektivní  analýzy  (impulzivně)
 
@@ -119,7 +119,7 @@ na  vyšší  úrovni  jsou  rozhodovány  za  nejistoty  nebo  rizika.
 
 - zaměřit  se  na  podružné  problémy  a  neřešit  zásadní
 
-## **Metody  pro  podporu  rozhodování**
+## Metody  pro  podporu  rozhodování
 
 V  jednotlivých  fázích  rozhodovacího  procesu  lze  využít  určité  metody,  které  usnadní  jejich realizaci.
 
@@ -127,13 +127,13 @@ V  jednotlivých  fázích  rozhodovacího  procesu  lze  využít  určité  me
 
 - **Parettova  analýza** (20:80)  –  20%  podstatných  a  80%  nepodstatných  prvků  působí  na zkoumaou  realitu
 
-### **•  Fáze  analýzy  a  formulace  problému**
+### Fáze analýzy a formulace problému
 
 **-  Analýza  silového  pole** –  grafická  technika,  na  jednu  stranu  písmene  T  zapisujeme  činitele pozitivně  působící  na  jev  a  na  druhou  stranu  činitele  negativně  působící  na  jev.  Po zpracovnání  lze  určit,  které  faktory  posílit  při  řešení  problému  a  které  potlačit.
 
 **-  Diagram  příčin  a  důsledků  (rybí  kostry)** –  grafická  metoda  určena  ke  zjištění  příčin problémů
 
-### **•  Fáze  tvorby  variant  rozhodování**
+### Fáze tvorby variant rozhodování
 
 - **Metody  tvůrčího  myšlení** (heuristické,  kreativní)  se  používají  při  řešení  složitých  a jedinečných  problémů
 
@@ -161,7 +161,7 @@ V  jednotlivých  fázích  rozhodovacího  procesu  lze  využít  určité  me
 
 - **Fáze  vyhodnocování  variant**
 
-### **Dvě  skupiny  metod:**
+### Dvě  skupiny  metod:
 
 - **prostorové,  jednokriteriální  metody** (tabulka  výhod  a  nevýhod,  bodová  metoda, diferenciační  přístup)
 
@@ -195,13 +195,13 @@ Rozvoj  výpočetní  techniky  přispívá  k  řešení  rozhodovacích  probl
 
 - **expertní  formu** –  využívají  expertních  znalostí
 
-## **Fáze  kontrolního  procesu,  druhy  kontroly**
+## Fáze  kontrolního  procesu,  druhy  kontroly
 
 Kontrolní  činnost  je  nedílná  součást  manažerských  aktivit  na  všech  stupních  řízení. Smyslem
 
 kontroly  je  získat  přesvědčení,  že  vývoj  reality  jde  žádoucím  směrem  a  cílů  bude  dosaženo. Předmětem  kontroly  jsou  jevy  a  procesy  uskutečněné,  probíhající  nebo  budoucí.  Účelem  je informovanost  řídících  článků  o  stavu  sledované  reality,  zpětná  vazba  a  preventivní  vliv.
 
-### **Fáze  kontrolního  procesu:**
+### Fáze  kontrolního  procesu:
 
 - získávání  a  výběr  informací  pro  kontrolu
 
@@ -213,13 +213,13 @@ kontroly  je  získat  přesvědčení,  že  vývoj  reality  jde  žádoucím 
 
 - zpětná  kontrola
 
-### **Získávání  a  výběr  informací  pro  kontrolu**
+### Získávání  a  výběr  informací  pro  kontrolu
 
 - **primární** –  přímé  sledování  kontrolované  reality
 
 - **sekundární** -  zprostředkované  -  zprávy,  hlášení,  účetnictví
 
-### **Ověřování  správnosti  získaných  informací**
+### Ověřování  správnosti  získaných  informací
 
 - ověření  formální  a  věcné  správnosti  informací  (podpisy,  úplnost,  početní  správnost)
 
@@ -231,7 +231,7 @@ kontroly  je  získat  přesvědčení,  že  vývoj  reality  jde  žádoucím 
 
 - podané  informace  jsou  zkreslené  (např.  z  obavy  z  nadřízených)
 
-### **Hodnocení  kontrolovaných  procesů**
+### Hodnocení  kontrolovaných  procesů
 
 - tato  fáze  je  jádrem  kontrolních  procesů.  Představuje  srovnání  dané  reality  s  určenými kritérii
 
@@ -243,7 +243,7 @@ kontroly  je  získat  přesvědčení,  že  vývoj  reality  jde  žádoucím 
 
 - **srovnání  v  prostoru** –  kritériem  jsou  obdobné  jednotky  (např.  konkurence)
 
-### **Závěry  a  návrhy  opatření  pro  řídící  subjekt**
+### Závěry  a  návrhy  opatření  pro  řídící  subjekt
 
 - **nech  být** –  vývoj  řízené  reality  je  v  žádoucím  stavu,  nepotřebuje  žádná  opatření
 
@@ -253,11 +253,11 @@ kontroly  je  získat  přesvědčení,  že  vývoj  reality  jde  žádoucím 
 
 ### rozhodnutí
 
-### **Zpětná  kontrola**
+### Zpětná  kontrola
 
 - realizuje  se  pouze  v  případě,  že  byla  navržena  nápravná  opatření
 
-### **Druhy  kontroly**
+### Druhy  kontroly
 
 - **kontrolní  procesy  vrcholového  managementu**
 
@@ -275,7 +275,7 @@ kontroly  je  získat  přesvědčení,  že  vývoj  reality  jde  žádoucím 
 
 prevence  chyb  –  pochopit  příčiny  a  zabránit  chybám  nebo  je  omezit
 
-### **Vědomé  chyby  (záměrné,  důvodem  je  vzdor)**
+### Vědomé  chyby  (záměrné,  důvodem  je  vzdor)
 
 - chyby  z  nedbalosti  (pracovník  má  pocit  anonymity,  je  flegmatik)
 
@@ -285,13 +285,13 @@ prevence  chyb  –  pochopit  příčiny  a  zabránit  chybám  nebo  je  omez
 
 - chyby  z  nedostatečného  soustředění,  svědomitosti  a  pozornosti  (vyrušování,  nadměrné zatížení,  přepracování,  časový  tlak)
 
-## **Controlling,  vnitřní  audit**
+## Controlling,  vnitřní  audit
 
 - **Kontrola** –  je  manažerská  funkce,  jejíž  podstatou  je  srovnání  mezi  očekávanými  a skutečnými  hodnotami.  Specifickými  formami  kontroly  jsou  controlling  a  audit.
 
 - **Controlling** –  je  součást  celopodnikového  řídícího  systému,  jeho  úkolem  je  poskytovat managementu  podniku  vhodné  informace  sloužící  k  usměrňování  podnikových  aktivit.
 
-### **Controlling  by  měl  poskytnout**
+### Controlling  by  měl  poskytnout
 
 - obraz  o  současném  stavu  firmy
 
@@ -307,7 +307,7 @@ dodržování  stanovených  postupů  (obecné  předpisy,  podnikové  směrni
 
 firmě  udržuje  disciplína,  od  vedoucího  se  očekává,  že  na  zjištěné  nedostatky  vypracuje nápravná  opatření.
 
-### **Nejznámější  sféry  aplikace  auditu**
+### Nejznámější  sféry  aplikace  auditu
 
 - oblast  účetnictví  a  daní
 

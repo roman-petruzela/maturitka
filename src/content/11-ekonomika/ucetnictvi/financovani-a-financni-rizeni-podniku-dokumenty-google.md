@@ -5,7 +5,7 @@ source: "Účetnictví/15. Financování a finanční řízení podniku - Dokume
 ---
 **financování  podniku** =  činnost,  při  které  dochází  k  tvorbě,  rozdělování  a  užití  finančních zdrojů.
 
-### **Druhy:**
+### Druhy:
 
 <u>1.  financování  běžné  -  zajišťování  a  vynakládání  peněz  na  běžný  provoz  podniku  (nákup</u> materiálu,  paliva,  energie,  výplatu  mezd  a  platů,  placení  nájemného,  přepravného,  splácení kr.  závazků,  placení  daní  a  úhrada  jiných  výdajů)
 
@@ -21,7 +21,7 @@ Podstatou  financování  a  finančního  řízení  je  neustálé  usměrňov
 
 <u>Předmět  finančního  řízení  -  finanční  operace,  které  spočívají  ve  výhodném  získávání</u> finančních  prostředků  a  jejich  účelném  a  hospodárném  investování
 
-### **3  Faktory  ovlivňující  financování  a  finanční  řízení:**
+### 3  Faktory  ovlivňující  financování  a  finanční  řízení:
 
 <u>1)  faktor  času  -  dnešní  rozhodnutí  ovlivní  tok  peněz  v  podniku  v  dalším  období</u>
 
@@ -29,7 +29,7 @@ Podstatou  financování  a  finančního  řízení  je  neustálé  usměrňov
 
 <u>3)  faktor  rizika  -  je  spojen  s  výběrem  možných  variant,  zpravidla  menší  riziko  přináší  menší</u> zisk
 
-### **Příčiny  rizika:**
+### Příčiny  rizika:
 
 <u>a)  vnější  -  např.  přírodní  katastrofy,  hospodářské  krize,  inflace</u>
 
@@ -37,15 +37,15 @@ Podstatou  financování  a  finančního  řízení  je  neustálé  usměrňov
 
 **Riziko** -  možnost  ztráty  vložených  prostředků.  Riziko  ztráty  vynaložených  prostředků  se snižuje  jejich  rozložením  do  více  akcí. **Rozložení  financí** =  PORTFOLIO
 
-## **Zdroje  financování**
+## Zdroje  financování
 
-### **Podle  původu  rozlišujeme  finanční  prostředky  na:**
+### Podle  původu  rozlišujeme  finanční  prostředky  na:
 
 •  vlastní  zdroje
 
 - cizí  zdroje
 
-### **<u>Vlastní  zdroje</u>**
+### <u>Vlastní  zdroje</u>
 
 -  vytvářejí  se  postupným  nahromaděním  - **akumulací** -  finančního  majetku. Patří  zde:
 
@@ -63,13 +63,13 @@ Podstatou  financování  a  finančního  řízení  je  neustálé  usměrňov
 
 <u>d)  kapitálový  fond  -  emisní  ážio  (u  a.s.)</u>
 
-### **<u>Cizí  zdroje</u>**
+### <u>Cizí  zdroje</u>
 
 - jestliže  vlastní  zdroje  nestačí,  podnik  se  snaží  o  získání  cizích  zdrojů
 
 - pořízením  cizích  zdrojů  vzniká  dluh,  který  musí  podnik  v  určené  době  splatit
 
-### **<u>Krátkodobé  cizí  zdroje</u>**
+### <u>Krátkodobé  cizí  zdroje</u>
 
 - poskytovány  na  dobu  do  1  roku,  slouží  ke  krytí  oběžných  aktiv
 
@@ -103,7 +103,7 @@ Podstatou  financování  a  finančního  řízení  je  neustálé  usměrňov
 
 <u>h)  výdaje  příštích  období  -  náklady,  které  budou  zaplaceny  v  budoucnu</u>
 
-### **<u>Dlouhodobé  cizí  zdroje</u>**
+### <u>Dlouhodobé  cizí  zdroje</u>
 
 - poskytování  na  dobu  delší  než  1  rok,  slouží  ke  krytí  stálých  aktiv
 
@@ -131,9 +131,9 @@ Podstatou  financování  a  finančního  řízení  je  neustálé  usměrňov
 
 - tyto  prostředky  neprocházejí  zdaněním  dani  z  příjmů
 
-## **Finanční  analýza  a  finanční  plánování**
+## Finanční  analýza  a  finanční  plánování
 
-### **Finanční  analýza**
+### Finanční  analýza
 
 - analýza  =  rozbor
 
@@ -141,7 +141,7 @@ Podstatou  financování  a  finančního  řízení  je  neustálé  usměrňov
 
 -  předmět  =  komplexní  hodnocení  úspěšnosti  podniku  z  finančně  ekonomického  hlediska Výsledky  finanční  analýzy  slouží  především  pro  tvorbu  koncepce  rozvoje  podniku,  volbu strategie  a  její  realizaci.  Můžeme  analyzovat  příčiny  nepříznivého  vývoje,  naplánovat peněžní  příjmy  a  výdaje  v  různých  časových  horizontech. Kvalifikovaná  a  pravidelně  prováděná  diagnóza  umožňuje  odhalit  případné  poruchy finančního  zdraví  v  době,  kdy  je  ještě  možné  různými  zásahy  tyto  poruchy  napravit
 
-### **Zdroje  dat  pro  finanční  analýzu:**
+### Zdroje  dat  pro  finanční  analýzu:
 
 ### <u>1)  rozvaha  podniku</u>
 
@@ -149,7 +149,7 @@ Podstatou  financování  a  finančního  řízení  je  neustálé  usměrňov
 
 - <u>3)  výkaz  cash  flow  -  přehled  o  peněžních  tocích;  příjmy  a  výdaje  za  určité  období</u>
 
-### **Postup  finanční  analýzy:**
+### Postup  finanční  analýzy:
 
 1.  výpočet  poměrových  ukazatelů  za  daný  podnik
 
@@ -161,7 +161,7 @@ Podstatou  financování  a  finančního  řízení  je  neustálé  usměrňov
 
 5.  návrh  opatření  -  analýza  odhaluje  slabá  a  silná  místa  ekonomiky  podniku  a  slouží  jako podklad  pro  finanční  řízení  a  plánování
 
-### **Základní  poměrové  ukazatele  finanční  analýzy:**
+### Základní  poměrové  ukazatele  finanční  analýzy:
 
 - ukazatelů  se  postupem  čas  vyvinulo  obrovské  množství,  dokonce  existuje  i  několik  různých ukazatelů  pro  hodnocení  stejné  charakteristiky  finanční  situace
 
@@ -177,7 +177,7 @@ Podstatou  financování  a  finančního  řízení  je  neustálé  usměrňov
 
 - **ukazatele  aktivity** -  měří,  jak  efektivně  firma  hospodaří  se  svými  aktivy
 
-## **Význam  a  cíle  finančního  plánování**
+## Význam  a  cíle  finančního  plánování
 
 **Plánování** =  stanovení  cílů,  cest  i  prostředků,  kterými  lze  těchto  cílů  dosáhnout
 
@@ -185,7 +185,7 @@ Podstatou  financování  a  finančního  řízení  je  neustálé  usměrňov
 
 - součástí  plánování  je  i  kontrola  plnění  plánu
 
-### **Finanční  plánování**
+### Finanční  plánování
 
 - výsledek  =  finanční  plán
 
@@ -195,7 +195,7 @@ Podstatou  financování  a  finančního  řízení  je  neustálé  usměrňov
 
 <u>2.  jak  peníze  opatřit  (pravá  strana  rozvahy  -  finanční  rozhodování)</u>
 
-### **<u>Zahrnuje:</u>**
+### <u>Zahrnuje:</u>
 
 - stanovení  finančních  cílů  podniku  (zisk,  tržní  hodnota  firmy)
 
@@ -205,7 +205,7 @@ Podstatou  financování  a  finančního  řízení  je  neustálé  usměrňov
 
 Při  finančním  plánování  se  využívá  výsledků  a  některých  metod  finanční  analýzy
 
-### **<u>Charakteristické  rysy  FP</u>**
+### <u>Charakteristické  rysy  FP</u>
 
 - řeší  vazbu  mezi  investičními  a  provozními  potřebami  a  finančními  možnostmi  podniku
 
@@ -217,7 +217,7 @@ Při  finančním  plánování  se  využívá  výsledků  a  některých  met
 
 - vyjadřuje  budoucí  důsledky  současných  podnikatelských  rozhodnutí
 
-### **<u>Finanční  plán</u>**
+### <u>Finanční  plán</u>
 
 - není  povinný
 
@@ -225,7 +225,7 @@ Při  finančním  plánování  se  využívá  výsledků  a  některých  met
 
 - má  různý  stupeň  podrobnosti  i  dokumentace  (malý  podnik  =  několik  listů  papírů  s poznámkami,  velký  podnik  =  rozsáhlý  dokument)
 
-### **<u>Zaměření  finančního  plánu</u>**
+### <u>Zaměření  finančního  plánu</u>
 
 1.  odbyt  a  tržby
 

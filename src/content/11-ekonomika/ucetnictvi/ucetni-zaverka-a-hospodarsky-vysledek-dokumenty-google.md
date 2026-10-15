@@ -3,7 +3,7 @@ title: "Účetní závěrka a hospodářský výsledek Dokumenty Google"
 order: 9
 source: "Účetnictví/9. Účetní závěrka a hospodářský výsledek - Dokumenty Google.pdf"
 ---
-## **Účetní  závěrka**
+## Účetní  závěrka
 
 Účetní  závěrkou  dochází  k  uzavření  všech  účetních  prací  v  daném  účetním  období.  Ještě  předtím  však musí  firmy  uvést  své  účetnictví  do  takového  stavu,  aby  účetní  závěrka  věrně zobrazovala  stav  majetku  a  zdrojů  jeho  krytí,  dále  pak  i  výsledek  hospodaření  za  účetní období.  Teprve  potom  bude  moci  splnit  svůj  hlavní  cíl  –  poskytnout  komplexní  informace  o účetní  jednotce  majitelům  firmy,  bankovním  ústavům,  státním  úřadům,  věřitelům  a veřejnosti.
 
@@ -25,9 +25,9 @@ Podle  okamžiku  a  situace,  ve  kterých  se  účetní  závěrka  sestavuje
 
 ● **<u>mezitímní  účetní  závěrka</u>** se  sestavuje  během  účetního  období,  pokud  si  to  vyžadují zvláštní  právní  předpisy.  Nedochází  zde  k  uzavírání  účetních  knih  a  inventarizace majetku  se  provádí  pouze  za  účelem  jeho  přecenění.
 
-## **Fáze  účetní  závěrky**
+## Fáze  účetní  závěrky
 
-### **Přípravné  práce  před  účetní  uzávěrkou**
+### Přípravné  práce  před  účetní  uzávěrkou
 
 První  etapa  účetní  závěrky  zahrnuje  celý  souhrn  účetních  prací,  které  je  nutno  vykonat  před uzavřením  všech  účtů  a  účetních  knih.  Patří  zde  zejména  tyto  činnosti:
 
@@ -71,7 +71,7 @@ jednotky,  které  mají  zákonem  stanovenou  povinnost  auditu.
 
 <u>2)  Výkazy  ve  zjednodušeném  rozsahu  –  sestavují  všechny  ostatní  účetní  jednotky,  pokud</u> se  dobrovolně  nerozhodnou  sestavit  účetní  výkazy  v  plném  rozsahu.
 
-### **Kdy  je  povinný  audit?**
+### Kdy  je  povinný  audit?
 
 1.  majetek  nad  40  mil.  Kč
 
@@ -87,7 +87,7 @@ jednotky,  které  mají  zákonem  stanovenou  povinnost  auditu.
 
 -  když  mají  roční  obrat  nad  25  mil.  Kč  -  musí  vést  účetnictví
 
-### **Účetní  uzávěrka**
+### Účetní  uzávěrka
 
 Po  skončení  přípravných  prací  se  provádí  účetní  uzávěrka,  ve  které  dochází  k  převedení konečných  stavů  všech  rozvahových  a  výsledkových  účtů  na  uzávěrkové  účty.  Zůstatky rozvahových  účtů  se  převádějí  na  účet  702  –  Konečný  účet  rozvažný  a  zůstatky  výsledkových účtů  na  účet  710  –  Účet  zisků  a  ztrát.  Oba  tyto  účty  se  stanou  podkladem  pro  sestavení účetních  výkazů  (rozvahy  a  výkazu  zisků  a  ztráty).
 
@@ -95,7 +95,7 @@ Po  převodech  konečných  stavů  na  uzávěrkové  účty  jsou  všechny  
 
 Takto  zaúčtovaná  částka  vyjadřující  čistý  zisk  nebo  ztrátu  účetní  jednotky  se  na  začátku příštího  účetního  období  objeví  na  účtě  431  –  hospodářský  výsledek  ve  schvalovacím  řízení.
 
-### **Účetní  závěrka**
+### Účetní  závěrka
 
 V  rámci  této  poslední  etapy  účetní  závěrky  dochází  k  vyhotovení  důležitých  účetních  výkazů:
 
@@ -135,7 +135,7 @@ Firmy  s  povinným  auditem  sestavují  přílohu  v  plném  rozsahu.  Ta  se
 
 Účetní  jednotky  odevzdávají  účetní  závěrku  společně  s  přiznáním  k  dani  z  příjmů  místně příslušnému  finančnímu  úřadu  do  31.  3.  následujícího  roku  po  uplynutí  zdaňovacího  období. Při  využití  daňového  poradce  nebo  auditora  platí  termín  do  30.  6.  následujícího  roku.  Avšak ani  provedený  audit  nezbavuje  účetní  jednotku  odpovědnosti  za  své  účetnictví.  Firma  s povinným  auditem  musí  ještě  sestavit  výroční  zprávu,  do  které  může  nahlédnout  každý zájemce.  Firmy,  které  se  zapisují  do  obchodního  rejstříku,  mají  navíc  povinnost  účetní závěrku  a  výroční  zprávu  zveřejnit  uložením  do  listin  obchodního  rejstříku.
 
-## **Hospodářský  výsledek**
+## Hospodářský  výsledek
 
 - součástí  vlastního  kapitálu  je  i  hospodářský  výsledek
 
@@ -177,7 +177,7 @@ Firmy  s  povinným  auditem  sestavují  přílohu  v  plném  rozsahu.  Ta  se
 
 - při  rozdělení  zisku  musí  být  podle  zákona  naplňován  zákonný  rezervní  fond
 
-### **Dělení  HV:**
+### Dělení  HV:
 
 **1.  Provozní  HV** =  provozní  V  (60-64)  -  provozní  N  (50-55)
 
@@ -185,7 +185,7 @@ Firmy  s  povinným  auditem  sestavují  přílohu  v  plném  rozsahu.  Ta  se
 
 HV  z  běžné  činnosti
 
-### **Rozdělení  zisku**
+### Rozdělení  zisku
 
 Rozdělení  převedeného  zisku  se  provádí  podle  pravidel  stanovených  obchodním  zákoníkem  a  podle rozhodnutí  valné  hromady  akcionářů  (resp.  společníků).
 
@@ -205,7 +205,7 @@ zákonem  stanovené  výše.  Zbývající  část  lze  použít  na  výplatu
 
 428  –  Nerozdělený  zisk  minulých  let
 
-### **Vypořádání  ztráty**
+### Vypořádání  ztráty
 
 |Pokud  účetní  jednotka  hospodařila  se  ztrátou,  účet  431  vykazuje  zůstatek  na  straně  MD<br>Ztrátu|.|
 |---|---|
@@ -216,7 +216,7 @@ zákonem  stanovené  výše.  Zbývající  část  lze  použít  na  výplatu
 |4.  v  případě,  že  účetní  jednotka  nemá  dostatek  zdrojů  na  uhrazení  ztráty,  je  možno<br>neuhrazenou  část  ztráty  převést  do  dalších  let<br>429  /|431|
 |354  –  Pohledávky  za  společníky  při  úhradě  ztráty||
 
-## **Transformace  účetního  výsledku  hospodaření  na  daňový  základ**
+## Transformace  účetního  výsledku  hospodaření  na  daňový  základ
 
 ●  Výsledek  hospodaření  zjištěný  v  účetnictví  je  potřeba  v  přiznání  k  dani  z  příjmů
 

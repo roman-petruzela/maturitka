@@ -4,9 +4,9 @@ order: 3
 source: "robotika1.pol/cv02_Instalace_vyvojoveho_prostredi+knihovny.pdf"
 ---
 
-# **Instalace vývojového prostředí Arduino IDE a knihoven**
+# Instalace vývojového prostředí Arduino IDE a knihoven
 
-## **Historie:**
+## Historie:
 
 - naprogramováno v jazyce Java
 
@@ -14,7 +14,7 @@ source: "robotika1.pol/cv02_Instalace_vyvojoveho_prostredi+knihovny.pdf"
 
 - podpora jazyja Wiring (odvozeno od jazyka C)
 
-## **Stažení a instalace**
+## Stažení a instalace
 
 Přejděte na web Arduino.cc a v sekci „Software“ nalezněte oddíl „Download“. Stáhněte ZIP soubor (viz. obrázek níže), který následně rozbalte na disk C:\ do podadresáře SW nebo se svým příjmením.
 
@@ -38,7 +38,7 @@ Případně ještě povolte na firewallu Javaw.exe
 
 _Obrázek 5: Povolení Javaw.exe na firewallu_
 
-## **Seznámení se s prostředím Arduino IDE**
+## Seznámení se s prostředím Arduino IDE
 
 ((obrázek vynechán))
 
@@ -47,7 +47,7 @@ _Obrázek 5: Povolení Javaw.exe na firewallu_
 - Pole pro psaní programů
 - Pole s chybovými hláškami a dalšími informacemi
 
-### **Význam ikon**
+### Význam ikon
 
 _Obrázek 6: Význam Ikon Arduino IDE_
 

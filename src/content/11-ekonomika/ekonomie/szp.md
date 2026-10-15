@@ -13,7 +13,7 @@ SOCIÁLNÍ POLITIKA = v ČR stejně jako v ostatních vyspělých zemích stá
 - ZP jde do rozpočtu zdravotních pojišťoven
 - Soc\. výdaje jsou největší položkou SR
 
-SZP sazby
+## SZP sazby
 
 - SP 	zaměstnanec		  6\.5 %			11 % z hrubé mzdy
 
@@ -21,7 +21,7 @@ Zaměstnavatel 	24\.8 %
 
 - ZP 	zam – ec 		4\.5 %			33\.8 % z hrubé mzdy
 
-Zam – tel 		9 %
+## Zam – tel 		9 %
 
 - Pojištěnci:
     - Zaměstnanci

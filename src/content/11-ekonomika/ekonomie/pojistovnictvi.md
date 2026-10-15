@@ -12,21 +12,21 @@ source: "Ekonomie/9. Pojišťovnictví.docx"
 - zákon o pojišťovnictví
 - MFČR provádí státní dozor
 - Činnosti pojišťoven
-a\) pojišťovací – uzavírání pojistných smluv, pojistné plnění, = hlavní činnost
-b\) zajišťovací – sama se zajišťuje u cizí pojišťovny, existuje pro případ, že by v daném okamžiku nebyla schopna plnit závazky, na které by nestačil ani pojistný fond, ani rezervní, nastává např\. v případě povodní \(u zahr\. pojišťoven\)\.
-c\) zábranná – činnost výchovná, propagační
-cílem: aby pojistných událostí vzniklo co nejméně \(méně pojist\. událostí = větší zisk pro pojišťovnu a větší národní bohatství – pro stát\)
-d\) asistenční – pojišťovna svému klientovy nabízí komplexní zabezpečení, např\. při cestě do zahraničí
-e\) poradenská – poskytována fyzickým i právnickým osobám, z nabídky si vybrat optimální druh\.
+a) pojišťovací – uzavírání pojistných smluv, pojistné plnění, = hlavní činnost
+b) zajišťovací – sama se zajišťuje u cizí pojišťovny, existuje pro případ, že by v daném okamžiku nebyla schopna plnit závazky, na které by nestačil ani pojistný fond, ani rezervní, nastává např. v případě povodní (u zahr. pojišťoven).
+c) zábranná – činnost výchovná, propagační
+cílem: aby pojistných událostí vzniklo co nejméně (méně pojist. událostí = větší zisk pro pojišťovnu a větší národní bohatství – pro stát)
+d) asistenční – pojišťovna svému klientovy nabízí komplexní zabezpečení, např. při cestě do zahraničí
+e) poradenská – poskytována fyzickým i právnickým osobám, z nabídky si vybrat optimální druh.
 - Základní pojmy
 
-__Pojistitel =__ subjekt provozující pojišťovací činnost \(povolení od MFČR\)
+__Pojistitel =__ subjekt provozující pojišťovací činnost (povolení od MFČR)
 
 __Pojištění =__ pojištěná osoba; pojištění může sjednat sama nebo jiná osoba
 
-__Pojistník =__ FO nebo PO, která uzavřela s pojistitelem pojistnou smlouvu \(ve prospěch svůj i jiné osoby\); povinnost platit pojistné
+__Pojistník =__ FO nebo PO, která uzavřela s pojistitelem pojistnou smlouvu (ve prospěch svůj i jiné osoby); povinnost platit pojistné
 
-__Oprávněná osoba =__ je ji vyplacena pojistná náhrada \(pojištěný, rodinní příslušníci\)
+__Oprávněná osoba =__ je ji vyplacena pojistná náhrada (pojištěný, rodinní příslušníci)
 
 __Pojistná událost =__ skutečnost, se kterou je spojen vznik povinnosti pojišťovny plnit
 
@@ -77,9 +77,9 @@ __Pojistná událost =__ skutečnost, se kterou je spojen vznik povinnosti poji�
 - Pojištění majetku
 
 1. __Pojištění domácnosti__
-	- hradí škody na věcech, které jsou součástí budovy \(nábytek, elektronika, cennosti\)
+	- hradí škody na věcech, které jsou součástí budovy (nábytek, elektronika, cennosti)
 2. __Pojištění nemovitosti__
-	- hradí škody na samotné nemovitosti \(byt, dům, chalupa, …\)
+	- hradí škody na samotné nemovitosti (byt, dům, chalupa, …)
 	- obvykle kryjí rizika škod – požár, krádež, vichřice, blesk, …
 3. __Havarijní pojištění__
 	- pro případ poškození motorového vozidla živelnou událostí, havárií nebo odcizením

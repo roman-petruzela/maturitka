@@ -3,13 +3,13 @@ title: "Podnikání v České republice Dokumenty Google"
 order: 12
 source: "Účetnictví/12. Podnikání v České republice - Dokumenty Google.pdf"
 ---
-## **1.1  Právní  předpisy  upravující  podnikání  v  České  republice**
+## 1.1  Právní  předpisy  upravující  podnikání  v  České  republice
 
 - ustanovení  o  podnikání  jsou  součástí  nového  občanského  zákoníku
 
 - právní  úprava  obchodních  společností  a  družstev  bude  ve  zcela  novém  zákoně  o  obchodních <u>společnostech  a  družstvech  (o  obchodních  korporacích)</u>
 
-### **Podstatou  podnikání  je  samostatné  rozhodování  určité  osoby  o  tom:**
+### Podstatou  podnikání  je  samostatné  rozhodování  určité  osoby  o  tom:
 
 - co  bude  vyrábět  nebo  jaké  služby  bude  poskytovat  a  kde  bude  provozovat  svou  činnost
 
@@ -19,11 +19,11 @@ source: "Účetnictví/12. Podnikání v České republice - Dokumenty Google.pd
 
 - jakou  právní  formu  pro  svou  činnost  zvolí
 
-## **1.2  Definice  podnikání,  cíle  podnikání**
+## 1.2  Definice  podnikání,  cíle  podnikání
 
 - Podnikání  je  soustavná  činnost  prováděná  samostatně  podnikatelem  vlastním  jménem  a  na vlastní  odpovědnost  za  účelem  dosažení  zisku.  Všechny  znaky  musí  být  naplněny  současně.
 
-### **Podstatou  podnikání  je  samostatné  rozhodování  určité  osoby  o  tom:**
+### Podstatou  podnikání  je  samostatné  rozhodování  určité  osoby  o  tom:
 
 - co  bude  vyrábět  nebo  jaké  služby  bude  poskytovat  a  kde  bude  provozovat  svou  činnost
 
@@ -33,7 +33,7 @@ source: "Účetnictví/12. Podnikání v České republice - Dokumenty Google.pd
 
 - jakou  právní  formu  pro  svou  činnost  zvolí
 
-### **Cíle  podnikání**
+### Cíle  podnikání
 
 - Základním  cílem  podnikání  je  zhodnocení  vloženého  kapitálu ,  tj.  dosažení  zisku.
 
@@ -41,7 +41,7 @@ source: "Účetnictví/12. Podnikání v České republice - Dokumenty Google.pd
 
 - Mezi  další  cíle  podnikání  patří  zajištění  dlouhodobého  rozvoje  podniku,  zajištění dlouhodobé  existence  podniku,  spokojenost  pracovníků,  přežití,  zdokonalování  stávajících výrobků  a  vývoj  nových  výrobků,  dobré  jméno  firmy,  zvýšení  image  firmy
 
-## **1.3  Podnikatelé  a  jejich  členění**
+## 1.3  Podnikatelé  a  jejich  členění
 
 -  Podnikatel  je  osoba,  která  zpravidla  podnik  zakládá  a  provozuje  jeho  činnost  (spojuje  práci, kapitál  a  půdu),  nese  podnikatelské  riziko,  hospodaří  s  majetkem,  provozuje  svou  činnost samostatně,  vede  si  účetnictví
 
@@ -51,7 +51,7 @@ source: "Účetnictví/12. Podnikání v České republice - Dokumenty Google.pd
 
 - podnikatel  je  organizátor,  protože  trvale  organizuje  spojení  výrobních  činitelů  podle  toho, jak  to  vyžaduje  druh  a  rozsah  podnikání
 
-### **Podnikat  mohou  fyzické  osoby  a  právnické  osoby  a  stát**
+### Podnikat  mohou  fyzické  osoby  a  právnické  osoby  a  stát
 
 - Fyzické  osoby  (FO)  jsou  lidé.  Každý  člověk  je  tedy  FO.  Nutným  předpokladem  k  tomu,  aby mohl  člověk  provozovat  podnikatelskou  činnost  je  zletilost,  tj.  dosažení  věku  18  let.
 
@@ -59,9 +59,9 @@ Typickou  formou  podnikání  fyzických  osob  je  živnostenské  podnikání
 
 -  Právnické  osoby  (PO)  jsou  organizované  útvary  vytvořené  lidmi,  o  kterých  zákon  stanoví, že  mají  právní  osobnost  (způsobilost  k  právům  a  povinnostem).  Typické  právnické  osoby, které  se  zabývají  podnikatelskou  činností  jsou  obchodní  společnosti  a  družstva.
 
-## **1.4  Podniky**
+## 1.4  Podniky
 
-### **1.4.1  definice,  znaky,  funkce  a  členění  podniků**
+### 1.4.1  definice,  znaky,  funkce  a  členění  podniků
 
 -  Podnik  je  společenství  lidí  (hospodářská  jednotka),  kteří  se  spojili  k  zabezpečování hmotných  statků  a  různých  činností  pro  jiné  lidi  s  cílem  dosáhnout  vlastního prospěchu
 
@@ -91,13 +91,13 @@ Typickou  formou  podnikání  fyzických  osob  je  živnostenské  podnikání
 
 **c)  velké  podniky** (více  než  500  zam.)
 
-### **2.Hledisko  zisku**
+### 2.Hledisko  zisku
 
 **a)  ziskové  podniky** -  při  provádění  všech  činností  je  nejdůležitější  dosáhnout zisk,  který  se  rozdělí
 
 **b)  neziskové  podniky** -  zaměřují  se  na  uspokojení  veřejných  potřeb;  když  se vytvoří  zisk,  musí  se  vložit  do  rozvoje;  hl.  cílem  je  zlepšovat  celkovou  úroveň společnosti
 
-### **3.Hledisko  vlastnictví**
+### 3.Hledisko  vlastnictví
 
 **a)  státní  podniky** -  hospodaří  s  majetkem  státu
 
@@ -111,7 +111,7 @@ Typickou  formou  podnikání  fyzických  osob  je  živnostenské  podnikání
 
 sloužit  jen  k  podpoře  účelu  nadace.
 
-### **1.4.2  obchodní  firma**
+### 1.4.2  obchodní  firma
 
 - je  jméno,  pod  kterým  je  podnikatel  zapsán  do  obchodního  rejstříku
 
@@ -129,7 +129,7 @@ sloužit  jen  k  podpoře  účelu  nadace.
 
 <u>Firmou  PO  je  název  +  právní  forma  (např.  JITONA,  a.s.).</u>
 
-### **1.4.3  jednání  jménem  podniku,  zastoupení**
+### 1.4.3  jednání  jménem  podniku,  zastoupení
 
 - Fyzické  osoby  jednají  osobně,  nebo  za  ně  jedná  zplnomocněný  zástupce
 
@@ -137,19 +137,19 @@ sloužit  jen  k  podpoře  účelu  nadace.
 
 zástupce
 
-### **Statutární  orgány**
+### Statutární  orgány
 
 <u>a)  jednotlivci  -  ředitel,  jednatel</u>
 
 <u>b)  kolektiv  –  představenstvo,  správní  rada,  výbor</u>
 
-### **Zastoupení**
+### Zastoupení
 
 **<u>a)  plná  moc</u>** -  písemný  projev  vůle,  jímž  podnikatel  prohlašuje  určitou  osobu  za  svého zástupce  (zmocněnce).  Zástupce  jedná  podle  vlastní  vůle,  ale  práva  a  povinnosti  vznikají osobě,  která  plnou  moc  udělila!  Plná  moc  musí  obsahovat  rozsah  zmocnění  (k  čemu  je zmocněnec  oprávněn),  může  být  udělena  jedné  nebo  více  osobám.
 
 **<u>b)  prokura</u>** -  udělením  prokury  zmocňuje  podnikatel  zapsaný  v  obchodním  rejstříku prokuristu  k  právním  jednáním,  ke  kterým  dochází  při  provozu  obchodního  závodu.  Prodávat a  zatěžovat  nemovitosti  je  však  prokurista  oprávněn  pouze  tehdy,  je-li  to  výslovně  v  prokuře uvedeno.  Prokura  je  udělena  dnem  zápisu  do  obchodního  rejstříku.
 
-### **Rozdíly  mezi  prokurou  a  plnou  mocí**
+### Rozdíly  mezi  prokurou  a  plnou  mocí
 
 **1.** prokuru  vždy  uděluje  podnikatel,  plnou  moc  kdokoli
 
@@ -163,9 +163,9 @@ zástupce
 
 **6.** nositel  plné  moci  je  zástupcem  (zmocněncem),  nositel  prokury  má  označení  prokurista
 
-## **1.5  Obchodní  a  živnostenský  rejstřík**
+## 1.5  Obchodní  a  živnostenský  rejstřík
 
-### **Obchodní  rejstřík**
+### Obchodní  rejstřík
 
 - je  veřejný  seznam,  do  kterého  se  zapisují  zákonem  stanovené  údaje  o  podnikatelích
 
@@ -177,7 +177,7 @@ zástupce
 
 - Obchodní  rejstřík  vedou  tzv.  rejstříkové  soudy  (krajské  obchodní  soudy),  které  také podnikatelům  přidělí  identifikační  číslo  (IČ)
 
-### **Do  obchodního  rejstříku  se  zapisují  následující  subjekty:**
+### Do  obchodního  rejstříku  se  zapisují  následující  subjekty:
 
 a)  obchodní  společnosti  a  družstva
 
@@ -189,7 +189,7 @@ d)  podnikatelé  fyzické  osoby,  které  o  zápis  požádají
 
 e)  další  osoby,  stanoví-li  povinnost  jejich  zápisu  zvláštní  právní  předpis
 
-### **Živnostenský  rejstřík**
+### Živnostenský  rejstřík
 
 - je  informační  systém  veřejné  správy,  který  spravuje  Živnostenský  úřad  ČR
 
@@ -199,15 +199,15 @@ e)  další  osoby,  stanoví-li  povinnost  jejich  zápisu  zvláštní  práv
 
 - ŽR  obsahuje  také  předmět  podnikání,  druh  živnosti,  provozovnu,  informace  o živnostenském  oprávnění,  rozhodnutí  o  úpadku,  vstup  do  likvidace,  překážky  v  provozování živnosti  a  další
 
-## **1.6  Přehled  právních  forem  podnikání  v  České  republice**
+## 1.6  Přehled  právních  forem  podnikání  v  České  republice
 
-### **1.  Podniky  jednotlivce  (podnikání  fyzických  osob)**
+### 1.  Podniky  jednotlivce  (podnikání  fyzických  osob)
 
 - živnostenské  podnikání  (na  základě  živnostenského  podnikání  dle  živnostenského  zákona)
 
 - ostatní  podnikání  jednotlivců  (na  základě  jiného  oprávnění  dle  jiných  zákonů;  např.  lékaři, makléři,  daňoví  poradci)
 
-### **2.  Společné  podnikání  několika  osob**
+### 2.  Společné  podnikání  několika  osob
 
 - sdružení  podnikatelů  (starším  názvem  konsorcium)
 

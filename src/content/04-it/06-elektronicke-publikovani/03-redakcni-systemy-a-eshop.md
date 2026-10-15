@@ -29,6 +29,7 @@ tags: ["doplněno"]
   - Flexbox – vhodný pro řazení prvků do řádku nebo sloupce
   - Grid – vhodný pro rozvržení stránky do mřížky řádků a sloupců
 - **Mobile-first přístup** – návrh a styly se tvoří nejdřív pro nejmenší (mobilní) zobrazení a poté se pomocí media queries postupně rozšiřují pro větší obrazovky – web je tak od začátku funkční i na slabších zařízeních
+- Podrobněji v kapitole [Responzivní web, media queries a breakpointy](/it/elektronicke-publikovani/07-responzivni-web-media-queries-a-breakpointy/)
 
 ## Webové aplikace a no-code/low-code nástroje
 

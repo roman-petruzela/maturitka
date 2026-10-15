@@ -8,7 +8,7 @@ source: "Ekonomika/24. Management.docx"
 1. __Usměrňovat__ veškeré činnosti ve firmě a výrobní činitele tak, abychom dosáhli určitého stanoveného cíle zpravidla zisku
 2. __Osoby, které se zabývají řízením__
 
-Znaky
+## Znaky
 
 1. __Řízení__ = řídící složka \(mistr\) dává příkazy řízené složce \(dělník\); řízená složka oznamuje o splnění úkolu \(ideální\)	; vzájemně společně řeší plnění úkolu \(zpětná vazba\)
 2. __Vychází ze společenských a přírodních věd__
@@ -79,7 +79,7 @@ Znaky
 
 1. __Kontrola__ = řídící činnost, zjišťujeme stav skutečný a porovnává se se stavem žádoucím; zjišťují se případné odchylky a hledají se jejich příčiny
 
-Druhy hodnot
+### Druhy hodnot
 
 1. __Z hlediska času__ => __předběžná__ = před zahájením výroby; __průběžná__ = v průběhu výroby; __následná__ = po skončení výroby
 2. __Z hlediska rozsahu__ => __dílčí__ = kontrolujeme určitou část; __komplexní__ = kontrolujeme vše

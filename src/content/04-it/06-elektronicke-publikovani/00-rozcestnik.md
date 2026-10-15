@@ -36,9 +36,23 @@ Plné znění výstupů je v [přehledu ŠVP](/it/reference/svp-prehled/#495-ele
 
 ## Témata kategorie
 
-- [HTML a CSS](/it/elektronicke-publikovani/01-html-a-css/)
+**HTML a CSS**
+
+- [HTML a CSS](/it/elektronicke-publikovani/01-html-a-css/) – struktura stránky a základní tagy
+- [CSS – zápis, selektory a kaskáda](/it/elektronicke-publikovani/04-css-zapis-selektory-a-kaskada/)
+- [CSS – barvy, pozadí, text a jednotky](/it/elektronicke-publikovani/05-css-barvy-pozadi-text-a-jednotky/)
+- [CSS – box model, rozvržení a pozicování](/it/elektronicke-publikovani/06-css-box-model-rozvrzeni-a-pozicovani/)
+
+**Responzivní web a nástroje**
+
+- [Responzivní web, media queries a breakpointy](/it/elektronicke-publikovani/07-responzivni-web-media-queries-a-breakpointy/)
+- [Bootstrap a CSS frameworky](/it/elektronicke-publikovani/08-bootstrap-a-css-frameworky/)
+- [Design webu, redakční systémy a e-shop](/it/elektronicke-publikovani/03-redakcni-systemy-a-eshop/)
+
+**Skripty a zveřejnění**
+
 - [JavaScript – základy](/it/elektronicke-publikovani/02-javascript-zaklady/)
-- [Design webu, redakční systémy a e-shop](/it/elektronicke-publikovani/03-redakcni-systemy-a-eshop/) – návrh designu, responzivní web, no-code nástroje, CMS, e-shop
+- [Publikování webu – doména, hosting, FTP a SEO](/it/elektronicke-publikovani/09-publikovani-webu/)
 
 Navazující látka: serverová strana webu v [dynamických stránkách a serverovém skriptování](/it/webove-programovani/01-dynamicke-stranky-a-serverove-skriptovani/), útoky na webové aplikace (XSS, SQL injection) v [zabezpečení sítí a aplikací](/it/kyberneticka-bezpecnost/02-zabezpeceni-siti-a-aplikaci/).
 

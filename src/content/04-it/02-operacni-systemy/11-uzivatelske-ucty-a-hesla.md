@@ -3,15 +3,15 @@ title: "Uživatelské účty a hesla"
 order: 11
 source: "osy/Uživatelské_účty_a_hesla.pdf"
 ---
-## **Uživatelský účet**
+## Uživatelský účet
 
 Uživatelsý účet slouží k jednoznačné identifikaci uživatele.
 
-## **Uživatelské skupiny**
+## Uživatelské skupiny
 
 Uživatelské skupiny slouží k usnadnění práce s uživateli a jejich účty. Pokud máte 20 uživatelů, kterým máte přidělit stejná práva a oprávnění, je jednodušší přidělit tato práva a oprávnění skupině a uživatele pak do této skupiny přidat.
 
-## **Předdefinované uživatelské skupiny**
+## Předdefinované uživatelské skupiny
 
 Kromě skupin, které si můžeme vytvořit, existují také skupiny předdefinované výrobcem. Tyto skupiny vzniknou při instalaci OS. Nejpoužívanější z nich si vypíšeme:
 
@@ -23,7 +23,7 @@ _Users:_ nemůže provádět nechtěné ani úmyslné změny v systému může s
 
 _Guests:_ Více omezení, než skupina Users
 
-## **Nový uživatel**
+## Nový uživatel
 
 Při vytvoření nového uživatele je nutno nastavit jeho uživatelské jméno a heslo
 
@@ -35,7 +35,7 @@ Při vytvoření nového uživatele je nutno nastavit jeho uživatelské jméno 
 
 - pro vytváření uživatelských jmen si vytvořte pravidla (jaké dát uživatelské jméno dvěma lidem, kteří se jmenují stejně?)
 
-## **Pravidla pro vytváření hesel**
+## Pravidla pro vytváření hesel
 
 Počítač rozpozná, zda se jedná o pravého uživatele podle jeho hesla. Heslo uživatele by mělo být bezpečné. Jak takové bezpečné heslo vypadá?
 
@@ -49,15 +49,15 @@ Počítač rozpozná, zda se jedná o pravého uživatele podle jeho hesla. Hesl
 
 - heslo měňte v pravidelných intervalech
 
-## **Lámání hesel online – hádání hesla**
+## Lámání hesel online – hádání hesla
 
 Online útok probíhá v reálném čase proti autentizační autoritě a může být snadno odhalen, neboť může dojít k uzamčení hesla po x neúspěšných pokusech o přihlášení.
 
-## **Lámání hesel offline – cracking hesla**
+## Lámání hesel offline – cracking hesla
 
 V okamžiku, kdy má útočník k dispozici soubor se zašifrovaným heslem (hash hesla), může provést tzv. off-line útok. Takový útok není možné odhalit, protože probíhá na jiném počítači nebo počítačích a nemůže tak ani dojít k uzamčení účtu, protože útočník s daným systémem vůbec nekomunikuje. K prolomení hesla se používá buď **slovníkový útok** , nebo metoda **brute force** .
 
-## **Trocha matematiky**
+## Trocha matematiky
 
 Předpokládejme, že útočník je schopen vyzkoušet 10 000 000 hesel za sekundu. Za jak dlouho prolomí:
 
@@ -67,7 +67,7 @@ a) 6-ti místné heslo, skládající se z malých písmen abecedy?
 
 c) 10-ti místné heslo, skládající se z malých a velkých písmen abecedy a číslic?
 
-## **Jak donutit uživatele používat bezpečná hesla a zvýšit zabezpečení jejich účtů**
+## Jak donutit uživatele používat bezpečná hesla a zvýšit zabezpečení jejich účtů
 
 V systému lze nastavit zásady hesel a zásady uzamčení účtů.
 

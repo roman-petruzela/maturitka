@@ -1,5 +1,5 @@
 ---
-title: "CLOVEK A PRAVO"
+title: "Člověk a právo"
 order: 4
 source: "Společenské vědy/4. CLOVEK A PRAVO.docx"
 ---
@@ -25,7 +25,7 @@ __PRÁVNÍ ŘÁD__
 
 Řád: zákon shrnující celé odvětví procesního práva se označuje jako řád \(trestní, školní\)
 
-((obrázek vynechán))
+<img src="/images/content/spolecenske-vedy/clovek-a-pravo/01.webp" alt="" width="382" loading="lazy" decoding="async">
 
 Dělení práva
 __1\.__ __Subjektivní x Objektivní právo__

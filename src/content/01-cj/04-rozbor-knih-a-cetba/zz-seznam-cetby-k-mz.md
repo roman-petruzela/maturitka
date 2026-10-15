@@ -51,7 +51,7 @@ source: "cjl/Seznam četby k MZ (1).docx"
 
 24\. ARBES, Jakub: Sivooký démon
 
-25\. JIRÁSEK, Alois: F\. L\. Věk \(1\. díl\)
+25\. JIRÁSEK, Alois: F. L. Věk (1. díl)
 
 26\. MRŠTÍKOVÉ, Alois a Vilém: Maryša [x](/cj/rozbor-knih-a-cetba/alois-a-vilem-mrstik-marysa/ "Rozbor")
 
@@ -67,7 +67,7 @@ source: "cjl/Seznam četby k MZ (1).docx"
 
 32\. STEINBECK, John: O myších a lidech [x](/cj/rozbor-knih-a-cetba/john-steinbeck-o-mysich-a-lidech/ "Rozbor")
 
-33\. SHAW, J\. B\.: Pygmalion [x](/cj/rozbor-knih-a-cetba/g-b-shaw-pygmalion/ "Rozbor")
+33\. SHAW, J. B.: Pygmalion [x](/cj/rozbor-knih-a-cetba/g-b-shaw-pygmalion/ "Rozbor")
 
 34\. ROLLAND, Romain: Petr a Lucie [x](/cj/rozbor-knih-a-cetba/romain-rolland-petr-a-lucie/ "Rozbor")
 
@@ -89,9 +89,9 @@ source: "cjl/Seznam četby k MZ (1).docx"
 
 43\. ECO, Umberto: Jméno růže
 
-44\. SIMMEL, J\. M\.: Láska je jen slovo
+44\. SIMMEL, J. M.: Láska je jen slovo
 
-45\. ROWLINGOVÁ, J\. K\.: Harry Potter a kámen mudrců [x](/cj/rozbor-knih-a-cetba/j-k-rowlingova-harry-potter-a-kamen-mudrcu/ "Rozbor")
+45\. ROWLINGOVÁ, J. K.: Harry Potter a kámen mudrců [x](/cj/rozbor-knih-a-cetba/j-k-rowlingova-harry-potter-a-kamen-mudrcu/ "Rozbor")
 
 46\. GIORDANO, Paolo: Osamělost prvočísel
 
@@ -101,7 +101,7 @@ source: "cjl/Seznam četby k MZ (1).docx"
 
 49\. McEWAN, Ian: Pokání
 
-50\. SULLIVAN, Marc T\.: Pod krvavými nebesy
+50\. SULLIVAN, Marc T.: Pod krvavými nebesy
 
 51\. MAWER, Simon: Skleněný pokoj
 
@@ -123,9 +123,9 @@ source: "cjl/Seznam četby k MZ (1).docx"
 
 60\. SEIFERT, Jaroslav: Maminka [x](/cj/rozbor-knih-a-cetba/jaroslav-seifert-maminka/ "Rozbor")
 
-61\. HAŠEK, Jaroslav: Osudy dobrého vojáka Švejka za světové války \(1\. díl\)
+61\. HAŠEK, Jaroslav: Osudy dobrého vojáka Švejka za světové války (1. díl)
 
-62\. KOPTA, Josef: Hlídač č\. 47
+62\. KOPTA, Josef: Hlídač č. 47
 
 63\. OLBRACHT, Ivan: Nikola Šuhaj loupežník
 
@@ -181,11 +181,11 @@ source: "cjl/Seznam četby k MZ (1).docx"
 
 89\. TUČKOVÁ, Kateřina: Žítkovské bohyně
 
-90\. BOČEK, Evžen: Poslední aristokratka \(1\. díl\)
+90\. BOČEK, Evžen: Poslední aristokratka (1. díl)
 
-91\. LEDNICKÁ, Karin: Šikmý kostel \(1\. díl\)
+91\. LEDNICKÁ, Karin: Šikmý kostel (1. díl)
 
-92\. LEDNICKÁ, KArin: Šikmý kostel \(2\. díl\)
+92\. LEDNICKÁ, KArin: Šikmý kostel (2. díl)
 
 93\. KÖRNEROVÁ, Hana Marie: Heřmánkové údolí
 

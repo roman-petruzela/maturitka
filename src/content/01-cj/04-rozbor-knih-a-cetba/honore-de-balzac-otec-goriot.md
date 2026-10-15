@@ -3,13 +3,13 @@ title: "Honoré de Balzac - Otec Goriot"
 order: 34
 source: "ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Honoré de Balzac - Otec Goriot/5. Otec Goriot.pdf"
 ---
-## **CHARAKTERISTIKA UMĚLECKÉHO TEXTU**
+## CHARAKTERISTIKA UMĚLECKÉHO TEXTU
 
 Protože měl víc než šedesát tisíc důchodů a ani dvanáct set franků neutratil pro sebe, byl Goriot šťasten, mohli-li uspokojovat vrtochy svých dcer. Nejznamenitější učitelé byli pověřeni nadat je svými schopnostmi, které jsou známkou dobrého vychování. Měly svou vychovatelku. Naštěstí pro ně to byla žena duchaplná a vkusná: jezdily na koni, měly svůj kočár, žily si jako nějaké milenky starého bohatého velmože. Stačilo jen, aby vyslovily nejdražší přání, a už viděly, jak je otec spěšně splňuje, oplátkou za své knížecí dary žádal Goriot jen trochu lásky. Ubohý Goriot si povýšil svoje dcery na anděly, rozhodně na něco vyššího, než byl on sám!
 
-### **Analýza uměleckého textu**
+### Analýza uměleckého textu
 
-#### • **zasazení výňatku do kontextu díla**
+#### Zasazení výňatku do kontextu díla
 
 - úryvek je vyňat ze  začátku knihy; čtenář poznává Goriotovu povahu a vztah k dcerám
 
@@ -19,19 +19,19 @@ Rastignac a Goriot se stávají přáteli a Goriot seznamuje Evžena s jednou ze
 
 Poté se zamiluje do druhé dcery Delfíny, která je provdána za bankéře. Evžen zjišťuje, že dcery se s otcem nestýkají, protože se za něj stydí. Postupně ho obraly o všechen majetek a on v naprosté chudobě a opuštěnosti umírá. Jediný Evžen se o něj stará v posledních minutách a také on jediný je ochotný zaplatit Goriotův pohřeb.
 
-#### • **téma a motiv**
+#### Téma a motiv
 
 téma: Goriotova povaha
 
 motivy: peníze, dcery, vychování, otcovská láska
 
-#### • **časoprostor**
+#### Časoprostor
 
 prostor: nelze určit, úryvek nemá prostorové zakotvení; Paříž
 
 čas: nelze určit, retrospektiva (když byly dcery malé); 1. pol. 19. stol.
 
-#### • **kompoziční výstavba**
+#### Kompoziční výstavba
 
 - děj románu je chronologický
 
@@ -41,17 +41,17 @@ prostor: nelze určit, úryvek nemá prostorové zakotvení; Paříž
 
 próza, epika, román
 
-#### • **vypravěč**
+#### Vypravěč
 
 vševědoucí vypravěč v er-formě
 
-#### • **postava**
+#### Postava
 
 Goriot – hodný, šetřivý, rozdávačný, dobrosrdečný dcery Delfína a Anastázie - rozmazlené, zdánlivě šťastné vychovatelka – duchaplná, vkusná
 
 Evžen Rastignac - student práv, který se jako jediný stará o Goriota
 
-#### • **vyprávěcí způsoby**
+#### Vyprávěcí způsoby
 
 úryvek tvoří pouze pásmo vypravěče
 
@@ -69,9 +69,9 @@ pásmo vypravěče v er-formě
 
 _Stačilo jen, aby vyslovily nejdražší přání, a už viděly, jak je otec spěšně splňuje_ nadsázka _knížecí dary_ metafora
 
-### **Literárněhistorický kontext**
+### Literárněhistorický kontext
 
-#### • **kontext autorovy tvorby**
+#### Kontext autorovy tvorby
 
 realismus ve světové literatuře 19. stol.
 
@@ -111,7 +111,7 @@ _Lesk a bída kurtizán_ – čtyřdílný napínavý román. Hlavní postavou j
 
 _Evženie Grandetová_ – román o lakomém Grandetovi, který nepřeje sňatku své dcery jen proto, aby se mu věnem, který by musel dceři dát, nezmenšilo jeho bohatství.
 
-#### • **literární / obecně kulturní kontext**
+#### Literární / obecně kulturní kontext
 
 Realismus
 
@@ -205,7 +205,7 @@ Henryk Sienkiewicz (1846–1916)
 
 _Ohněm a mečem_ – románová trilogie ze 17. stol., boj polských šlechticů proti ukrajinským kozákům _Quo vadis_ – z doby Neronova Říma, pronásledování prvních křesťanů
 
-### **Další údaje o knize:**
+### Další údaje o knize:
 
 - **dominantní slohový postup:**
 

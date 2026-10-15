@@ -3,7 +3,7 @@ title: "Paměti RAM a ROM"
 order: 11
 source: "uvt/cv15-17_RAM_ROM.pdf"
 ---
-## **Typy pamětí:**
+## Typy pamětí:
 
 **RAM** (Random-Access-Memory ) = RWM (Read – write memory)
 
@@ -137,9 +137,9 @@ porovnání pamětí:
 
 - Oboustranné
 
-## **Video – paměti, HDD, DVD – 2H**
+## Video – paměti, HDD, DVD – 2H
 
-## **Praktická na UČ. 23 – 2h**
+## Praktická na UČ. 23 – 2h
 
 BIOS – kde najdu informace o pamětech – a jaké jsou?
 

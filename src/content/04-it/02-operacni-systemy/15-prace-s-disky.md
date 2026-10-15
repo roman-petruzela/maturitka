@@ -39,7 +39,7 @@ mount /dev/dvd /media _připojí dvd do adresáře media (adresář media je pro
 
 blkid /dev/sdb1 _zjistí UUID zařízení sdb1, toto UUID mohu použít pro zápis do souboru fstab_
 
-## **Zápis v souboru fstab:**
+## Zápis v souboru fstab:
 
 |UUID /Slozka1|ext4|defaults<br>0 0|||
 |---|---|---|---|---|

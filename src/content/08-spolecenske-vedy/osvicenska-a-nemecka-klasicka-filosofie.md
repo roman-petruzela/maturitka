@@ -1,5 +1,5 @@
 ---
-title: "OSVICENSKA A NEMECKA KLASICKA FILOSOFIE"
+title: "Osvícenská a německá klasická filosofie"
 order: 20
 source: "Společenské vědy/20. OSVICENSKA A NEMECKA KLASICKA FILOSOFIE.docx"
 ---
@@ -178,7 +178,7 @@ v prostoru a čase\.
 \- Protože nevíme, jak je objektivní realita uspořádána, jsme nuceni spoléhat se na __její popis
 jako jev__, člověk je vlastně zákonodárcem přírody\.
 \- __Koperníkovský obrat__ – přírodu je nutné hledat ne venku, ale v člověku\.
-((obrázek vynechán))
+<img src="/images/content/spolecenske-vedy/osvicenska-a-nemecka-klasicka-filosofie/01.webp" alt="" width="176" loading="lazy" decoding="async">
 
 __f\) K čemu směřuje teoretický rozum a jaké jsou jeho hranice?__
 \- Lidský rozum tíhne k vytváření tří idejí: __duše__, __svět__ a __Bůh__\. Tyto ideje směřují lidský rozum

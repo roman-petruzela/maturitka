@@ -3,7 +3,7 @@ title: "Dlouhodobý majetek (účtová třída 0) Dokumenty Google"
 order: 2
 source: "Účetnictví/2. Dlouhodobý majetek (účtová třída 0) - Dokumenty Google.pdf"
 ---
-## **Dlouhodobý  majetek**
+## Dlouhodobý  majetek
 
 Dlouhodobým  majetkem  podniku  jsou  složky  majetku,  které  slouží  v  podniku  delší  dobu (nad  1  rok),  během  používání  se  nespotřebovávají  najednou,  ale  pouze  se  opotřebovávají. Opotřebení  DM  vyjadřujeme  v  účetnictví  odpisy.
 
@@ -15,13 +15,13 @@ Dlouhodobým  majetkem  podniku  jsou  složky  majetku,  které  slouží  v  p
 
 **3.  Dlouhodobý  finanční  majetek** -  jsou  to  převážně  dlouhodobě  cenné  papíry,  majetkové  podíly, které  vlastníte  v  jiných  firmách.
 
-### **Prodej  dlouhodobého  finančního  majetku**
+### Prodej  dlouhodobého  finančního  majetku
 
 -  při  prodeji  finančního  majetku  nám  vzniknou  tržby  na  účtu  661  -  tržby  z  prodeje  CP  a podílů  ve  skutečné  ceně,  za  kterou  byly  cenné  papíry  prodány.  Úbytek  CP  zaúčtujeme  na vrub  účtu  561  -  prodané  CP  a  podíly  v  pořizovací  ceně  se  souvztažným  zápisem  na  účtech  CP  a  podílů (061,  062,  063)
 
-## **Oceňování  dlouhodobého  majetku**
+## Oceňování  dlouhodobého  majetku
 
-### **Dlouhodobý  majetek  oceňujeme  cenami:**
+### Dlouhodobý  majetek  oceňujeme  cenami:
 
 - **pořizovací  cena** ,  kterou  se  oceňuje  majetek  nakoupený  od  externího  dodavatele,  zahrnuje vlastní  cenu  dlouhodobého  majetku,  včetně  vedlejších  nákladů  souvisejících  s  pořízením, např.  doprava,  montáž,  clo,  projektová  dokumentace  apod.
 
@@ -29,9 +29,9 @@ Dlouhodobým  majetkem  podniku  jsou  složky  majetku,  které  slouží  v  p
 
 - **reprodukční  pořizovací  cena** ,  která  se  používá  při  ocenění  majetku  odborným  odhadem (např.  darováním)
 
-## **Pořízení  dlouhodobého  majetku**
+## Pořízení  dlouhodobého  majetku
 
-### **1.  Dodavatelský**
+### 1.  Dodavatelský
 
 -  pořízení  dlouhodobého  majetku  dodavatelským  způsobem  účtujeme  v  účtové  skupině 04  -  Pořízení  dlouhodobého  nehmotného  a  hmotného  majetku  na  základě dodavatelské  faktury.  Majetek  je  zařazen  do  používání  a  zaúčtován  na  majetkové  čty 01  -  dlouhodobý  nehmotný  majetek,  02  -  dlouhodobý  hmotný  majetek  -  odpisovaný  a 03  -  dlouhodobý  hmotný  majetek  -  neodpisovaný  v  pořizovací  ceně  na  základě dokladu  zařazení  nebo  kolaudací  (zápis  o  převzetí  dlouhodobého  majetku  do používání).
 
@@ -39,23 +39,23 @@ Dlouhodobým  majetkem  podniku  jsou  složky  majetku,  které  slouží  v  p
 
 -  pokud  je  dlouhodobý  majetek  pořízen  ze  zahraničí,  tj.  z  nečlenských  zemí  EU,  je součástí  pořizovacích  výdajů  clo  vyměřené  celním  orgánem.  DPH  je  celnicí  vyměřena z  pořizovací  ceny  dlouhodobého  majetku  zvýšené  o  clo
 
-### **2.  Pořízení  dlouhodobého  majetku  vlastní  činností**
+### 2.  Pořízení  dlouhodobého  majetku  vlastní  činností
 
 - pořízení  dlouhodobého  majetku  vlastní  činností  nazýváme  aktivací  (dochází  ke zvýšení  aktiv)  624  -  aktivace  DHM
 
 -  jsou-li  součástí  pořizovací  ceny  také  vedlejší  pořizovací  náklady,  např.  doprava, montáž,  pořízené  vlastní  činností,  účtujeme  je  ve  prospěch  účtu  622  -  aktivace vnitropodnikových  služeb
 
-### **3.  Darováním**
+### 3.  Darováním
 
-### **4.  Převod  svého  majetku  z  osobního  vlastnictví  do  firmy**
+### 4.  Převod  svého  majetku  z  osobního  vlastnictví  do  firmy
 
-### **5.  Převodem  majetku  mezi  různými  právnickými  osobami**
+### 5.  Převodem  majetku  mezi  různými  právnickými  osobami
 
-## **Technické  zhodnocení**
+## Technické  zhodnocení
 
 Do  dlouhodobého  hmotného  majetku  patří  i  tzv.  technické  zhodnocení  tohoto  majetku,  které vzniká  nástavbou,  přístavbou,  rekonstrukcí  nebo  modernizací,  pokud  cena  převýší  za  1  rok 40  000,-  Kč.  Rekonstrukcí  se  rozumí  takové  zásahy  do  hmotného  majetku,  které  mají  za následek  změnu  účelu  využití  DM  nebo  změnu  technických  parametrů.  Modernizací  se rozumí  rozšíření  vybavenosti  nebo  použitelnosti  DM
 
-## **Evidence  dlouhodobého  majetku**
+## Evidence  dlouhodobého  majetku
 
 Evidence  jednotlivých  složek  dlouhodobého  majetku  se  sleduje  na  inventárních  kartách  nebo v  inventární  knize.  Minimálně  tato  kniha  musí  obsahovat  tyto  údaje:
 
@@ -75,11 +75,11 @@ g)  datum  a  způsob  vyřazení  (prodej,  likvidace,  zničení  apod.)
 
 Kromě  toho  může  obsahovat  údaje  o  roční  odpisové  sazbě,  resp.  koeficientu,  souhrn  oprávek, místo,  kde  je  majetek  umístěn  apod.
 
-## **Odpisování  dlouhodobého  majetku**
+## Odpisování  dlouhodobého  majetku
 
 DHM  =  cena  nad  40  000  Kč,  doba  používání  delší  než  1  rok -rozlišujeme **daňové** a **účetní** odpisy
 
-### **<u>Odpisy  DHM</u>**
+### <u>Odpisy  DHM</u>
 
 - DHM  je  majetkem,  který  se  nespotřebovává  najednou,  ale  postupně  se  opotřebovává
 
@@ -97,11 +97,11 @@ Firmy  si  sestavují  tzv.  odpisové  plány  a  majetek  lze  odepsat  maxim�
 
 **Odpisy** -  peněžní  částce  vyjadřující  opotřebení  DM  říkáme  odpisy
 
-### **Účtování  odpisů**
+### Účtování  odpisů
 
 -  odpisy  účtujeme  na  jeden  nákladový  účet **551** -  odpisy  DNM  a  DHM  se  souvztažným zápisem  na  účtu  oprávek  07.  -  oprávky  k  DNM  a  DHM  nebo  08.-  oprávky  k  DHM.  Na  účtech oprávek  soustředíme  odpisy  za  celou  dobu  živnosti  DM.  PC  majetku  je  oprávkami opravována  -  snižování  na  zůstatkovou  cenu.  Účty  oprávek  jsou  pasivními  účty.  Odpisy  se zahrnují  do  nákladů  měsíčně  jako  jedna  dvanáctina  ročního  odpisu.  Účtují  se  od  prvního  dne měsíce  následujícího  po  měsíci,  v  kterém  byl  majetek  pořízen.  Při  vyřazení  se  účtuje  odpis  i  v měsíci,  v  kterém  byl  majetek  vyřazen.  Odpisy  se  zaokrouhlují  na  celé  koruny  nahoru. Rozlišujeme  odpisy  účetní  a  daňové
 
-### **Účetní  odpisy**
+### Účetní  odpisy
 
 - používají  velké  firmy  a  firmy  s  povinným  auditem  povinně  musí
 
@@ -111,13 +111,13 @@ Firmy  si  sestavují  tzv.  odpisové  plány  a  majetek  lze  odepsat  maxim�
 
 -  stejně  na  konci  roku  musí  tyto  firmy  připočítat  případně  odčítat  rozdílů  mezi  svými účetními  a  daňovými  odpisy  a  upravit  svůj  hospodářský  výsledek  o  tento  rozdíl,  proto  většina všech  podnikatelů  používá  daňové  odpisy
 
-### **Daňové  odpisy**
+### Daňové  odpisy
 
 **Zákon  o  dani  z  příjmu** ukládá  účetním  jednotkám  vypočítávat  odpisy  podle  tohoto  zákona. Takto  vypočítaný  odpis  je  daňově  uznatelným  nákladem  pro  účely  stanovení  daňového základu  a  z  toho  vyplývající  daně  z  příjmů.  DM  je  v  příloze  zákona  rozdělen  do  6  odpisových skupin.  Každé  skupině  odpovídá  určitá  doba  živnosti,  např.  Počítače,  kancelářská  technika, autobusy  jsou  zařazeny  do  1.  odpisové  skupiny,  s  dobou  odepisování  3  roky.  budovy,  byty, panelové  domy  do  5.  odpisové  skupiny  s  dobou  odepisování  30  let.  Do  2.  skupiny  auta, stroje,  motorky.Do  3.  skupiny  turbíny,  lokomotivy,  budovy  ze  dřeva.  4.  skupina  pouliční osvětlení,  mosty,  dálnice.  Do  6.  skupiny  budovy  nákupních  center,  muzeí,  škol  a  hotely
 
 Daňové  odpisy  mohou  být  stanoveny  dvojím  způsobem,  přičemž  se  účetní  jednoka  rozhoduje  sama, který  způsob  použije.  Metodiku  odpisování  potom  musí  dodržovat  po  celou  dobu  živnosti  DM
 
-### **Rovnoměrné  odpisování**
+### Rovnoměrné  odpisování
 
 Při  rovnoměrném  odpisování  jsou  roční  odpisy  po  celou  dobu  odpisování  stejné  (s  výjimkou 1  roku).  Roční  odpisy  se  vypočítají  podle  vzorce  (vstupní  cena  *  roční  odpis.  sazba)/100
 
@@ -125,7 +125,7 @@ Většinou  si  účetní  jednotky  pořzují  stroje,  přístroje  a  zaříz
 
 Zákon  o  dani  z  příjmů  uvádí  dále  zvlášť  navýšené  odpisové  sazby  pro  účetní  jednotky zabývající  se  zemědělskou  a  lesní  výrobou  (o  20  %)  a  účetní  jednotky  se  zařízením  pro čištění  odpadních  vod  (o  15%)
 
-### **Zrychlené  odpisování**
+### Zrychlené  odpisování
 
 -  nedochází  ke  zkrácení  doby  odpisování,  ale  na  začátku  odpisování  zahrnujeme  do  výdajů vyšší  částky,  ke  konci  odpisování  naopak  nižší  částky  ve  srovnání  s  rovnoměrným odpisováním  Základem  pro  výpočet  zrychlených  odpisů  jsou  tzv.  koeficienty,  které  jsou přiřazeny  jednotlivým  odpisovým  skupinám
 
@@ -135,7 +135,7 @@ Při  zrychleném  odpisování  stanovíme  odpisy:
 
 b)  v  dalších  letech  jako  podíl  dvojnásobku  jeho  zůstatkové  ceny  a  rozdílu  mezi přiřazeným  koeficientem  pro  zrychlené  odpisování  a  počtem  let,  po  které  již  byl odpisován.
 
-### **Dlouhodobý  nehmotný  majetek**
+### Dlouhodobý  nehmotný  majetek
 
 - se  také  při  odpisování  řídí  zákonem  o  dani  z  příjmu,  ale  neplatí  žádné  odpisové  skupiny  a žádný  rovnoměrný  nebo  zrychlený  způsob
 
@@ -143,7 +143,7 @@ V  zákoně  je  přímo  uvedeno  jak  dlouho  se  konkrétní  typ  DNM  musí
 
 např.  Software  3  roky,  patenty  a  licence  3  roky,  zřizovací  výdaje  pokud  je  cena  nad  60  000,odepisují  5  let
 
-## **Vyřazení  dlouhodobého  majetku  způsoby  vyřazení**
+## Vyřazení  dlouhodobého  majetku  způsoby  vyřazení
 
 Majetek  může  být  vyřazen  z  důvodu  úplného  opotřebování,  nepotřebnosti,  zničení,  ztráty,  poškození či  krádeže.
 
@@ -165,7 +165,7 @@ a)  nejprve  je  nutné  doúčtovat  tzv.  zůstatkovou  cenu  DM  (pořizovac�
 
 b)  vždy  se  musí  nakonec  vyřadit  DM  i  z  účetní  evidence  (toto  vyřazení  se  dělá  vždy  v pořizovací  ceně  daného  majetku)
 
-### **Vyřazení  DM  likvidací**
+### Vyřazení  DM  likvidací
 
 - rozumíme  tím  demolici  majetku,  jeho  úplné  zničení,  rozebrání  na  součástky
 
@@ -175,7 +175,7 @@ b)  vždy  se  musí  nakonec  vyřadit  DM  i  z  účetní  evidence  (toto  v
 
 - vyřazení  z  majetku  firmy  082/022,  081/021
 
-### **Vyřazení  DM  prodejem**
+### Vyřazení  DM  prodejem
 
 - jestliže  není  prodávaný  DM  zcela  odepsán,  provedeme  dodatečný  odpis  zůstatkové  ceny
 
@@ -183,7 +183,7 @@ b)  vždy  se  musí  nakonec  vyřadit  DM  i  z  účetní  evidence  (toto  v
 
 - tržby  z  prodeje  daného  dlouhodobého  majetku  zaúčtujeme  na  účet  641  10
 
-### **Vyřazení  DM  darováním**
+### Vyřazení  DM  darováním
 
 - zůstatková  cena  darovaného  DM  se  účtuje  na  nákladový  účet  543  –  Dary/082
 
@@ -193,7 +193,7 @@ charitativních  organizací,  sportovních,  vzdělávacích  organizací  či 
 
 •  firmy  musí  vždy  vypočítat  a  odvést  státu  DPH  ze  ZC  darovaného  majetku  (543/343)
 
-### **Vyřazení  DM  v  důsledku  škody  nebo  manka**
+### Vyřazení  DM  v  důsledku  škody  nebo  manka
 
 - škodou  myslíme  krádež,  živelnou  pohromu,  požár,  fyzické  poškození  majetku
 
@@ -201,13 +201,13 @@ charitativních  organizací,  sportovních,  vzdělávacích  organizací  či 
 
 - firemní  majetek  bývá  často  pojištěn,  přiznání  náhrady  škody  majetku  od  pojišťovny účtujeme  na  MD  378  –  jiné  pohledávky  a  na  stranu  Dal  účtu  648  –  ostatní  provozní  výnosy
 
-### **Vyřazení  DM  převodem  do  osobního  vlastnictví**
+### Vyřazení  DM  převodem  do  osobního  vlastnictví
 
 - ZC  takto  vyřazovaného  DM  se  účtuje  MD  491  –  účet  individuálního  podnikatele  a  stranu  D účtu  oprávek  (i  zde  je  nutné  dopočítat  DPH  ze  zůstatkové  ceny  491/343)
 
 - pro  odpis  zůstatkové  ceny  zde  nemůžeme  používat  nákladový  účet,  protože  by  si podnikatel  navýšil  firemní  náklady  a  odváděl  státu  nižší  daň  z  příjmu
 
-### **Zůstatková  cena**
+### Zůstatková  cena
 
 - je  u  majetku  jeho  vstupní  cena  snížená  o  celkovou  hodnotu  odpisů
 

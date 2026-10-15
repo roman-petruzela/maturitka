@@ -25,7 +25,7 @@ opravdu jen pro základní HW největších výrobců. V ostatních případech 
 
 10. Ovladač je program, který je napsán tak, aby uměl pracovat s daným hardwarem a mohl komunikovat s určitým operačním systémem. Všimněte si, že když se podíváte na stránky některého výrobce hardwaru, najdete tam ovladače zařízení pro různé operační systémy. To proto, že každý OS „mluví trochu jiným jazykem“. Ovladač zařízení se na instaluje do OS (případně programu) a ten se tak „naučí“dané zařízení používat.
 
-# **Úkol:**
+# Úkol:
 
 1. Na internetu najdi odkaz pro stažení ovladače k tiskárně **HP Color LaserJet Pro CP1025** , pro operační systém **Windows 7 32-bit** .
 
@@ -33,7 +33,7 @@ opravdu jen pro základní HW největších výrobců. V ostatních případech 
 
 3. Vyzkoušejte, jestli s pomocí operačního systému zjistíte, zda jsou na vašem počítači nainstalovány ovladače ke všem hardwarovým komponentám.
 
-## **1.1 BIOS**
+## 1.1 BIOS
 
 Měli jste někdy počítač bez nainstalovaného operačního systému? Pokud ano jistě víte, že počítač šel zapnout. Jak je možné, že jste mohli i bez operačního systému komunikovat s hardwarem? Toto vše šlo díky BIOSu. Programový kod BIOSu je uložen na základní desce, v dnešní době většinou v paměti Flash ROM.
 
@@ -59,13 +59,13 @@ Stiskem specifické klávesy (např. F2, Delete, atd.) při startu počítače m
 
 5. hardware monitor - zobrazuje informace o teplotě procesoru, napětí zdroje, otáčky ventilátorů
 
-# **Úkol:**
+# Úkol:
 
 1. Na internetu najděte návod na přepsání BIOSu
 
 2. Na svém počítači doma se dostaňte do BIOSu. Z BIOSu se poté dostaňte pomocí volby Exit Without Saving
 
-## **1.2 UEFI**
+## 1.2 UEFI
 
 Vylepšená náhrada firmwarového rozhraní BIOS. Standard UEFI je zaváděn z několika důvodů:
 
@@ -77,7 +77,7 @@ Vylepšená náhrada firmwarového rozhraní BIOS. Standard UEFI je zaváděn z 
 
 Spekuluje se o tom, že byl standard UEFI zaveden kvůli funkci secure boot a následnému omezení alternativních OS.
 
-## **1.3 Základní části operačního systému**
+## 1.3 Základní části operačního systému
 
 1. **Jádro OS (kernel)** Zajišťuje chod operačního systému – jaké programy jsou spuštěny a jaké hardwarové prostředky jsou jim dány k dispozici (určuje např. kterému programu bude půjčen procesor a na jak dlouho)
 
@@ -89,7 +89,7 @@ Spekuluje se o tom, že byl standard UEFI zaveden kvůli funkci secure boot a n�
 
 Stará se o to, jakým způsobem operační systém spravuje data (soubory). Jak jsou pojmenovány, organizovány do adresářů atd.
 
-# **Otázky:**
+# Otázky:
 
 1. Co je účelem operačního systému?
 
@@ -103,7 +103,7 @@ Stará se o to, jakým způsobem operační systém spravuje data (soubory). Jak
 
 6. Je obvyklé, že se ovladač pro jednu hardwarou komponentu vyrábí ve více verzích pro různé operační systémy?
 
-# **Zdroje:**
+# Zdroje:
 
 1. <u>http://distancne.obaka-orlova.cz/PDF/PS1.pdf</u>
 

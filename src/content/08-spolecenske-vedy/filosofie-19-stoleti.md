@@ -1,5 +1,5 @@
 ---
-title: "FILOSOFIE 19.STOLETI"
+title: "Filosofie 19. století"
 order: 21
 source: "Společenské vědy/21. FILOSOFIE 19.STOLETI.docx"
 ---

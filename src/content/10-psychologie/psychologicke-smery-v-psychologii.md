@@ -1,5 +1,5 @@
 ---
-title: "PSYCHOLOGICKÉ SMĚRY V PSYCHOLOGII"
+title: "Psychologické směry v psychologii"
 source: "PSYCHOLOGIE/PSYCHOLOGICKÉ-SMĚRY-V-PSYCHOLOGII.docx"
 ---
 1. __Psychologické směry v psychologii__
@@ -235,7 +235,7 @@ Nízké superego = člověk pociťuje málo viny i po velkých mravních přestu
 
 Velmi vysoké superego = perfekcionisté, kteří poté trpí mravní úzkostí
 
-((obrázek vynechán))
+<img src="/images/content/psychologie/psychologicke-smery-v-psychologii/01.webp" alt="" width="318" loading="lazy" decoding="async">
 
 __Libido\*__
 

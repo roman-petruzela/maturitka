@@ -3,7 +3,7 @@ title: "Trestní právo hmotné"
 order: 22
 source: "Právo/22. Trestní právo hmotné/22_trestni_pravo_hmotne.docx"
 ---
-# __22\. Trestní právo hmotné__
+# __22. Trestní právo hmotné__
 
 __PŮSOBENÍ TRESTNÍHO ZÁKONA__
 
@@ -22,7 +22,7 @@ __=__ působnost zákona se rozumí okruh společenských vztahů, na které se 
 - Patří sem výjimky jako jsou osoby beztrestné nebo pouze z části – prezident, poslanci, senátoři
 - nestíhatelnost
 
-1. __Věcná působnost \(předmětová\)__
+1. __Věcná působnost (předmětová)__
 
 - Vyjadřuje okruh společenských vztahů, trestní zákon působí, protože chrání veřejné a individuální vztahy zájmy a hodnoty bez ohledu na občanství poškozeného
 
@@ -65,7 +65,7 @@ __Pojmové znaky:__
 
 2\. typové znaky trestního činu neboli znaky skutkové podstaty trestného činu, objekt, objektivní stránky, subjekt, subjektivní stránky
 
-3\. obecné znaky vedené v zákone, stanovený věk u FO \(15\), rozumová a mravní vyspělost
+3\. obecné znaky vedené v zákone, stanovený věk u FO (15), rozumová a mravní vyspělost
 
 __KRITÉRIA ŠKODLIVOSTI ČINU PRO SPOLEČNOST__
 
@@ -80,7 +80,7 @@ Povaha a závažnost trestného činu pro společnost je určena zejména:
 1. __Okolnostmi, za kterých byl čin spáchán__
 
 - Oloupení dítěte nebo slepce
-- Za živelné pohromy \(vlakové neštěstí\)
+- Za živelné pohromy (vlakové neštěstí)
 - Hospodářská a politická situace
 - Vyšší výskyt trestní činnosti určitého druhu na určitém místě = kapsářství
 
@@ -101,11 +101,11 @@ Povaha a závažnost trestného činu pro společnost je určena zejména:
 
 __KVALIFIKACE ŠKOD__
 
-1. __Škoda \(10 000 Kč a výše\)__
-2. __Škoda nikoliv malá \(50 000 Kč a výše\)__
-3. __Větší škoda \(100 000 Kč a výše\)__
-4. __Značná škoda \(1 000 000 Kč a výše\)__
-5. __Škoda velkého rozsahu \(10 000 000 a výše\)__
+1. __Škoda (10 000 Kč a výše)__
+2. __Škoda nikoliv malá (50 000 Kč a výše)__
+3. __Větší škoda (100 000 Kč a výše)__
+4. __Značná škoda (1 000 000 Kč a výše)__
+5. __Škoda velkého rozsahu (10 000 000 a výše)__
 
 __OKOLNOSTI VYLUČUJÍCÍ PROTIPRÁVNOST__
 
@@ -120,25 +120,25 @@ __Patří sem:__
 
 - nutná obrana, krajní nouze, oprávněné použití zbraně, svolení poškozeného, přípustné riziko, plnění zákonné povinnosti, výkon práv a povolání, sportovní riziko
 
-__Nutná obrana:__ V případě, že bylo proti mně zaútočené \(skutečně se to stalo\)\. Posuzuje se individuálně a jedná se například o útěk, facku či kop\.
+__Nutná obrana:__ V případě, že bylo proti mně zaútočené (skutečně se to stalo). Posuzuje se individuálně a jedná se například o útěk, facku či kop.
 
-__Krajní nouze:__ porušují zákon tak, abych odvrátila jiné nebezpečí\. U sousedů hoří, takže mám právo vtrhnout do domu a případně začít zachraňovat\.
+__Krajní nouze:__ porušují zákon tak, abych odvrátila jiné nebezpečí. U sousedů hoří, takže mám právo vtrhnout do domu a případně začít zachraňovat.
 
-__Oprávněné použití zbraně:__ Příslušníci PČR mohou držet zbraň, a to do 21 let\. Lze použít po slovním varování a upomenutí\.
+__Oprávněné použití zbraně:__ Příslušníci PČR mohou držet zbraň, a to do 21 let. Lze použít po slovním varování a upomenutí.
 
-__Svolení poškozeného:__ Nemohu dát souhlas k usmrcení, ani k jinému ublížení na zdraví\. Na území našeho státu není povolená eutanázie\. Se svolením poškozeného můžeme například vstoupit na cizí pozemek \(rozbít okno či dveře\)\.
+__Svolení poškozeného:__ Nemohu dát souhlas k usmrcení, ani k jinému ublížení na zdraví. Na území našeho státu není povolená eutanázie. Se svolením poškozeného můžeme například vstoupit na cizí pozemek (rozbít okno či dveře).
 
 __ZNAKY SKUTKOVÉ PODSTATY – SUBJEKT, SUBJEKTIVNÍ STRÁNKA, OBJEKT, OBJEKTIVNÍ STRÁNKA__
 
 - __Objektem__ trestného činu jsou společenské vztahy, zájmy a hodnoty chráněné trestním zákonem, jsou tři typy objektů:
 
-1. Obecný objekt – zájmy společnosti, ústavní zřízení ČR\.\.
+1. Obecný objekt – zájmy společnosti, ústavní zřízení ČR..
 2. Skupinový objekt
 3. Individuální objekt
 
 - __Objektivní stránka__ trestného činu je způsob spáchání trestného činu a jeho následky
 - __Subjektem__ trestného činu je trestně odpovědná osoba, která svým jednáním naplnila všechny znaky skutkové podstaty trestného činu – pachatel
-- __Subjektivní stránka__ trestného činu představuje soubor znaků charakterizujících vnitřní vztah pachatele k trestnému činu \(úmyslné/neúmyslné\)
+- __Subjektivní stránka__ trestného činu představuje soubor znaků charakterizujících vnitřní vztah pachatele k trestnému činu (úmyslné/neúmyslné)
 
 __VÝVOJOVÁ STÁDIA TRESTNÉHO ČINU__
 
@@ -157,15 +157,15 @@ __VÝVOJOVÁ STÁDIA TRESTNÉHO ČINU__
 	- ze způsobu jednání,
 	- z použitého nástroje,
 	- z prudkosti vedené rány,
-	- z umístění rány\.
-- Z dokonání trestného činu nedošlo – zůstalo jen u pokusu, přičemž pokus je charakterizován především nedostatkem následku, př\. úmysl je zřejmý v případě, že pachatel spoutá oběť, aby ji později snadno usmrtil
+	- z umístění rány.
+- Z dokonání trestného činu nedošlo – zůstalo jen u pokusu, přičemž pokus je charakterizován především nedostatkem následku, př. úmysl je zřejmý v případě, že pachatel spoutá oběť, aby ji později snadno usmrtil
 
 1. __Trestnost přípravy a pokusu a její zánik__
 
 - Příprava je trestná
 - Pokus k trestnému činu je trestný
 - Trestnost přípravy pokusu zaniká, jestliže pachatel:
-	- Dobrovolně upustil od dalšího jednání směřující zvlášť závažného zločinu, resp\. Trestného činu a odstranil nebezpečí
+	- Dobrovolně upustil od dalšího jednání směřující zvlášť závažného zločinu, resp. Trestného činu a odstranil nebezpečí
 	- Dobrovolně učinil o přípravě nebo pokusu oznámení státnímu zástupci nebo policejnímu orgánu v době, kdy nebezpečí, které vzniklo zájmu schráněnému trestním zákoníkem z podniknuté přípravy nebo pokusu, mohlo být odstraněno
 	- Dobrovolně odstranil nebezpečí, které vzniklo zájmu chráněnému trestním zákonem z podniknuté přípravy nebo pokusu
 
@@ -176,7 +176,7 @@ __VÝVOJOVÁ STÁDIA TRESTNÉHO ČINU__
 __FORMY TRESTNÉ SOUČINNOSTI__
 
 - __Organizování__ zvlášť závažného zločinu spočívá v tom, že organizátor vymyslí spáchání trestného činu a k jeho spáchání zorganizuje určitou skupinu osob
-- __Opatřování nebo přizpůsobování prostředků nebo nástrojů__ ke spáchání zvlášť závažného zločinu spočívá v zakoupení nezbytných prostředků nebo nástrojů, jejich zapůjčení, případně vyrobení, př\. zakoupení pistole, výbušniny
+- __Opatřování nebo přizpůsobování prostředků nebo nástrojů__ ke spáchání zvlášť závažného zločinu spočívá v zakoupení nezbytných prostředků nebo nástrojů, jejich zapůjčení, případně vyrobení, př. zakoupení pistole, výbušniny
 - __Spolčení__ spočívá v dohodě dvou anebo více osob ke spáchání konkrétního trestného činu, při níž rozdělí úlohy
 - __Srocení__ je faktický shluk alespoň tří osob na určitém místě a určitému jednání, které má bezprostředně následovat a pomáhat tak ke zločinu
 - __Návod__ jsou instrukce, kterými chce návodce úmyslně vzbudit v individualitě určité osobě rozhodnutí spáchat trestný čin
@@ -198,12 +198,12 @@ __=__ trestními sankcemi jsou tresty a ochranná opatření
 
 Druhy:
 
-1. __Odnětí svobody__, se ukládá nejvýše na 20 let, pokud není ustanovený mimořádný trest \(20–30 let\)
-2. __Domácí vězení__ = alternativní trest, ukládá se až na 2 roky \(soud ukládá za spáchaný přečin\), plusy – dál pracuje, stará se o rodinu, odvádí daně, vychovává děti
-3. __Obecně prospěšné práce__ = alternativní trest \(soud ukládá za spáchaný přečin\), spočívá v úklidových činnostech, 50–300 h, pro tyto účely je nedostatek pracovních míst, protože zaměstnavatelé lidem nevěří, za neplnění vězení
+1. __Odnětí svobody__, se ukládá nejvýše na 20 let, pokud není ustanovený mimořádný trest (20–30 let)
+2. __Domácí vězení__ = alternativní trest, ukládá se až na 2 roky (soud ukládá za spáchaný přečin), plusy – dál pracuje, stará se o rodinu, odvádí daně, vychovává děti
+3. __Obecně prospěšné práce__ = alternativní trest (soud ukládá za spáchaný přečin), spočívá v úklidových činnostech, 50–300 h, pro tyto účely je nedostatek pracovních míst, protože zaměstnavatelé lidem nevěří, za neplnění vězení
 4. __Propadnutí majetku__
 5. __Peněžitý trest__ – hospodářské činy a zvláštní zákon to musí připustit
-6. __Zákaz činnosti__ – jedná se o činnost, kde by mohl opakovat trestnou činnost, př\. pedofil nemůže pracovat s dětmi
+6. __Zákaz činnosti__ – jedná se o činnost, kde by mohl opakovat trestnou činnost, př. pedofil nemůže pracovat s dětmi
 7. __Zákaz vstupu__
 
 __ZVLÁŠTNÍ USTANOVENÍ A STÍHÁNÍ MLADISTVÝCH__
@@ -214,21 +214,21 @@ __KRIMINALITA PÁCHÁNA MLADISTVÝMI__
 
 Za trestné činy spáchané mladistvými lze uložit takzvanou ochrannou výchovu, a to:
 
-- __Obligatorně \(povinně\):__ Ochrannou výchovu lze uložit mladistvým mezi 12 a 15 rokem, pokud trestný zákoník ukládá za trestný čin výjimečný trest \(trest odnětí svobody nad 35 let\)
-- __Fakultativně:__ Může být uložena dítěti, kterému nedovršilo v den trestného činu 15 let, to znamená, že je na zvážení soudu, zda uloží ochrannou výchovu či nikoliv\.
+- __Obligatorně (povinně):__ Ochrannou výchovu lze uložit mladistvým mezi 12 a 15 rokem, pokud trestný zákoník ukládá za trestný čin výjimečný trest (trest odnětí svobody nad 35 let)
+- __Fakultativně:__ Může být uložena dítěti, kterému nedovršilo v den trestného činu 15 let, to znamená, že je na zvážení soudu, zda uloží ochrannou výchovu či nikoliv.
 
 __Věk od 15 do 18 let__
 
-Trestněprávní odpovědnost nabýváme od 15 let\. Jedná se o osobu mladistvou, a to od 15 do 18 let\. U mladistvých nazýváme trestný čin „__proviněním__“\. Trestní odpovědnost je vázána na okolnost rozumové a mravní vyspělosti, to znamená, aby mohl rozpoznat jeho protiprávnost nebo ovládat své jednání\.
+Trestněprávní odpovědnost nabýváme od 15 let. Jedná se o osobu mladistvou, a to od 15 do 18 let. U mladistvých nazýváme trestný čin „__proviněním__“. Trestní odpovědnost je vázána na okolnost rozumové a mravní vyspělosti, to znamená, aby mohl rozpoznat jeho protiprávnost nebo ovládat své jednání.
 
 __Věk 19 let__
 
-Do 19 let lze prodloužit takzvanou ochrannou výchovu, a to z důvodu jeho vlastního zájmu, například kvůli studiu\.
+Do 19 let lze prodloužit takzvanou ochrannou výchovu, a to z důvodu jeho vlastního zájmu, například kvůli studiu.
 
 __Věk blízký věku mladistvému__
 
-Jedná se o polehčující okolnosti\. Lze upustit od potrestání \(Osmnáctiletý kluk v autě, který srazil chodce \-> polehčující okolností zde je to, zda se přišel omluvit, věk blízký mladistvému \-> ustanoví se ochranná výchova či kurátor \-> po roce konec\.
+Jedná se o polehčující okolnosti. Lze upustit od potrestání (Osmnáctiletý kluk v autě, který srazil chodce -> polehčující okolností zde je to, zda se přišel omluvit, věk blízký mladistvému -> ustanoví se ochranná výchova či kurátor -> po roce konec.
 
 __Věková hranice až do 20 let__
 
-Soud může vzhledem k okolnostem k případu a osobě mladistvého ponechat podmíněné odsouzení v platnosti, a to i přes to, že zavdal příčinu k nařízení výkonu trestu, ne však více, než o 2 léta\.
+Soud může vzhledem k okolnostem k případu a osobě mladistvého ponechat podmíněné odsouzení v platnosti, a to i přes to, že zavdal příčinu k nařízení výkonu trestu, ne však více, než o 2 léta.

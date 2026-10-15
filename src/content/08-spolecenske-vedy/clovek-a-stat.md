@@ -1,5 +1,5 @@
 ---
-title: "CLOVEK A STAT"
+title: "Člověk a stát"
 order: 11
 source: "Společenské vědy/11. CLOVEK A STAT.docx"
 ---

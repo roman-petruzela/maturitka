@@ -6,10 +6,10 @@ source: "Účetnictví/10. Pohledávky.docx"
 10\. Pohledávky
 
 - pojem pohledávka
-- zúčtovací vztahy podle účtových skupin 3\. účtové třídy
+- zúčtovací vztahy podle účtových skupin 3. účtové třídy
 - tuzemské pohledávky z obchodního styku
 	- pohledávky za odběrateli
-	- pohledávky z poskytnutých provozních záloh \(u plátce a neplátce DPH\)
+	- pohledávky z poskytnutých provozních záloh (u plátce a neplátce DPH)
 	- ostatní pohledávky
 - pohledávky v cizí měně
 - účtování kurzových rozdílů při úhradách zahraničních faktur
@@ -23,19 +23,19 @@ __Pojem pohledávka__
 - Je nutné sledovat, zda to jsou pohledávky na 1 rok anebo nad 1 rok
 - Při změně charakteru pohledávky se neprovádí přeúčtování mezi analytickými účty
 
-__Zúčtovací vztahy podle účtových skupin 3\. účtové třídy__
+__Zúčtovací vztahy podle účtových skupin 3. účtové třídy__
 
 - Ve třetí účtové třídě se soustřeďují účty, na nichž se zaznamenávají vztahy k vnějšímu okolí v podobě:
 
-1. Pohledávek\- krátkodobých i dlouhodobých
-2. Závazků\- jen krátkodobých \(tzn\. neúčtuje se zde o dlouhodobých závazcích\)
+1. Pohledávek- krátkodobých i dlouhodobých
+2. Závazků- jen krátkodobých (tzn. neúčtuje se zde o dlouhodobých závazcích)
 
 - Ve třetí účtově tříd jsou také závazky a pohledávky k:
 
 1. Zaměstnancům
 2. Institucím sociálního zabezpečení a zdravotního pojištění
 3. Společníkům, popřípadě členům družstev
-4. Finančním a jiným orgánům \(FÚ, celnice, pojišťovny, finanční instituce i fyzické osoby\)
+4. Finančním a jiným orgánům (FÚ, celnice, pojišťovny, finanční instituce i fyzické osoby)
 
 __Tuzemské pohledávky z obchodního styku__
 
@@ -44,20 +44,20 @@ __Tuzemské pohledávky z obchodního styku__
 - Vznikají dodáním výrobků, zboží nebo služeb na fakturu
 - Vydaná faktura představuje výnos a vznik pohledávky za odběratelem
 - Plátci DPH musí ještě připočítat DPH a zaúčtovat jako závazek vůči FÚ
-- Účtuje se na účet 311\- Odběratelé
+- Účtuje se na účet 311- Odběratelé
 
-1. __Pohledávky z poskytnutých provozních záloh\- u plátce i neplátce DPH__
+1. __Pohledávky z poskytnutých provozních záloh- u plátce i neplátce DPH__
 2. U neplátce DPH
 
 - Na poskytnuté provozní zálohy se používá účet 314 – poskytnuté provozní zálohy
 - Došlá faktura se zaúčtuje běžným způsobem
 - Rozdíl mezi celkovou částkou faktury a zaplacenou zálohou se uhradí dodavateli
-- Zde se používají ještě další zálohové účty a to v účtové skupině 15\- Poskytnuté zálohy na zásoby a účtová skupina 05 – Poskytnuté zálohy na dlouhodobý majetek
+- Zde se používají ještě další zálohové účty a to v účtové skupině 15- Poskytnuté zálohy na zásoby a účtová skupina 05 – Poskytnuté zálohy na dlouhodobý majetek
 
 1. U plátce DPH
 
 - Účtuje se obdobně jako u neplátce
-- ((obrázek vynechán))Účtování přijatých záloh u plátce DPH\- se bude účtovat na straně toho, kdo má zálohu zaplatit, ale obráceně
+- <img src="/images/content/ekonomika/ucetnictvi/pohledavky/01.webp" alt="" width="494" loading="lazy" decoding="async">Účtování přijatých záloh u plátce DPH- se bude účtovat na straně toho, kdo má zálohu zaplatit, ale obráceně
 
 1. __Ostatní pohledávky__
 
@@ -68,7 +68,7 @@ __Pohledávky v cizí měně a účtování kurzových rozdílů při úhradác
 1. __Pohledávky v cizí měně:__
 
 - Při provádění zahraničně obchodních operací je třeba získat z účetnictví přehled o pohledávkách a závazcích v cizích měnách
-- Pro přepočet cizí měny na českou měnu ke dni uskutečnění účetního případu může účetní jednotka použít buď denní kurz \(vyhlášený ČNB\) anebo pevný kurz stanovený účetní jednotkou
+- Pro přepočet cizí měny na českou měnu ke dni uskutečnění účetního případu může účetní jednotka použít buď denní kurz (vyhlášený ČNB) anebo pevný kurz stanovený účetní jednotkou
 
 1. __Kurzové rozdíly při úhradě zahraničních faktur__
 
@@ -82,7 +82,7 @@ __Pohledávky v cizí měně a účtování rozdílů při uzavírání účetn
 
 - Kurzové rozdíly vznikají také v případě, že zahraniční faktura nebyla uhrazena do dne roční uzávěrky
 - A pohledávky se přepočítají na českou měnu k rozvahovému dni kurzem
-- Zase může vzniknout buď 563\- Kurzové ztráty anebo 663\- Kurzové zisky
+- Zase může vzniknout buď 563- Kurzové ztráty anebo 663- Kurzové zisky
 
 __Opravné položky k pohledávkám a jejich zaúčtování__
 
@@ -97,5 +97,5 @@ __Možnost odpisu pohledávky a zaúčtování__
 - Při 100% odpisu dochází k vyřazení pohledávky majetku
 - __Musí se rozlišovat dvě hlediska__:
 
-1. Účetní \- odepisuje se podle reálné míry nedobytnost
+1. Účetní - odepisuje se podle reálné míry nedobytnost
 2. Daňové – je potřeba vycházet ze ZDP

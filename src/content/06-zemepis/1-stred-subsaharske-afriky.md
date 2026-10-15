@@ -1,5 +1,5 @@
 ---
-title: "1 STŘED SUBSAHARSKÉ AFRIKY"
+title: "Střed subsaharské Afriky"
 order: 18
 source: "Zeměpis/Zeměpis GLP/18.1 STŘED SUBSAHARSKÉ AFRIKY.docx"
 ---

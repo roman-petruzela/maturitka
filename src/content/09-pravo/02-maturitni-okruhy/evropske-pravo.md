@@ -65,7 +65,7 @@ __Institucionální struktura EU:__
 - Evropská komise
 - Evropský soudní dvůr
 
-EVROPSKÝ PARLAMENT
+## EVROPSKÝ PARLAMENT
 
 - Je hlasem občanů, zastupuje občany zemí EU\.
 - 705 poslanců, voleni na 5 let, byly v roce 2019, právo hlasovat od 18 let \(Rakousko, Malta od 16 let, Řecko od 17 let, pasivní právo 21 let\), větší země má více poslanců než malé
@@ -75,7 +75,7 @@ EVROPSKÝ PARLAMENT
 
 __Sídlo:__ Brusel, Předseda: Roberta Metsoalová
 
-EVROPSKÁ RADA
+## EVROPSKÁ RADA
 
 - Evropská rada sdružuje prezidenty nebo předsedy vlád zemí EU\.
 - Scházejí se nejméně čtyřikrát za rok \(jejich zasedání se označují jako „evropské summity“\)
@@ -85,14 +85,14 @@ EVROPSKÁ RADA
 
 __Sídlo:__ Brusel, Předseda: Charles Michael
 
-RADA EVROPSKÉ UNIE
+## RADA EVROPSKÉ UNIE
 
 - Rada Evropské unie zastupuje vlády zemí EU \(scházejí se zde ministři ze všech zemí EU, aby jednali o záležitostech EU a přijímali rozhodnutí o politikách a právních předpisech EU\)
 - To, kteří ministři se sejdou, závisí na projednávaném tématu – znečištění ovzduší => MŽP, nezaměstnanost => MPSV
 
 __Sídlo:__ Brusel \(Belgie\)
 
-EVROPSKÁ KOMISE
+## EVROPSKÁ KOMISE
 
 - Evropská komise se skládá z 27 členů – jednoho předsedy a 26 komisařů \(včetně místopředsedů ze zemí EU\)
 - Předsedu formálně volí na dobu pěti let Evropský parlament na návrh Evropské rady\. Komisaře schvaluje Evropský parlament na návrh jednotlivých vlád a tito komisaři jsou jmenováni také na dobu pěti let\.
@@ -101,7 +101,7 @@ EVROPSKÁ KOMISE
 
 __Sídlo:__ Brusel, Předseda: Ursula von der Leyenová
 
-EVROPSKÝ SOUDNÍ DVŮR
+## EVROPSKÝ SOUDNÍ DVŮR
 
 - Za posledních 60 let země EU společně vytvořily mnoho právních předpisů EU\. Pochopitelně může docházet ke sporům ohledně výkladu těchto předpisů v okamžiku jejich zavádění do praxe v jednotlivých zemích EU\.
 - Pokud má vnitrostátní soud pochybnosti o výkladu určitého právního předpisu EU, může požádat Soudní dvůr o vysvětlení\.

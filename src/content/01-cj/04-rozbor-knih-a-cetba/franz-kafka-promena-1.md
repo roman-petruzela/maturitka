@@ -5,7 +5,7 @@ source: "ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Franz Kaf
 ---
 __Autor__
 
-\-1883\-1924
+\-1883-1924
 
 \-Pražský židovský autor
 
@@ -19,9 +19,9 @@ __Autor__
 
 \-Často pesimistická díla
 
-__\-Další významná díla autora:__ Proces, Zámek, Nezvěstný
+__-Další významná díla autora:__ Proces, Zámek, Nezvěstný
 
-__\-Současníci :__ James Joyce, Marcel Proust
+__-Současníci :__ James Joyce, Marcel Proust
 
 __Čas :__ Čas neudán
 
@@ -31,7 +31,7 @@ __Literární druh :__ Epika
 
 __Literární žánr :__ Novela/povídka
 
-__Literární směr :__ __Existencialismus__ – \(fr\. existence = bytí\)
+__Literární směr :__ __Existencialismus__ – (fr. existence = bytí)
 
 \-Cílem života je smrt
 
@@ -43,7 +43,7 @@ __Literární směr :__ __Existencialismus__ – \(fr\. existence = bytí\)
 
 __Expresionismus__
 
-\-Vznikl jako protiklad impresionismu a naturalismu tzn\. odmítl umění zobrazující skutečnost i umění snažící zprostředkovat skutečnost pomocí dojmů
+\-Vznikl jako protiklad impresionismu a naturalismu tzn. odmítl umění zobrazující skutečnost i umění snažící zprostředkovat skutečnost pomocí dojmů
 
 \-Jeho hlavním cílem je vyjádřit vlastní prožitky a vlastní pocity
 
@@ -51,29 +51,29 @@ __Expresionismus__
 
 __Postavy :__
 
-__\-Markétka__ \- Řehořova sedmnáctiletá sestra, hudebně nadaná, svého bratra má velice ráda\. Jediná z rodiny, která Řehoře lituje a stará se o něj, snaží se před ním překonávat svůj odpor\. Kvůli nedostatku finančních prostředků musí začít pracovat, její charakter se mění, bratrův stav jí začíná být lhostejný a nenávidí ho za to, že je rodině přítěží
-__\-matka__ \- Řehoře lituje, myslí si, že jeho stav je pouze přechodný a čeká, že se jí vrátí zpět "jejich starý Řehoř", při přímé konfrontaci se svým potomkem se však příšerně vyděsí a má z něj hrůzu\. Musí si najít zaměstnání a syn se pro ni, stejně jako pro ostatní, stává jen nenáviděným břemenem
-__\-otec__ \- Vyhýbá se kontaktu se synem, při setkání po něm hází jablka, aby ho odehnal \- Řehoř je mu odporný
+__-Markétka__ - Řehořova sedmnáctiletá sestra, hudebně nadaná, svého bratra má velice ráda. Jediná z rodiny, která Řehoře lituje a stará se o něj, snaží se před ním překonávat svůj odpor. Kvůli nedostatku finančních prostředků musí začít pracovat, její charakter se mění, bratrův stav jí začíná být lhostejný a nenávidí ho za to, že je rodině přítěží
+__-matka__ - Řehoře lituje, myslí si, že jeho stav je pouze přechodný a čeká, že se jí vrátí zpět "jejich starý Řehoř", při přímé konfrontaci se svým potomkem se však příšerně vyděsí a má z něj hrůzu. Musí si najít zaměstnání a syn se pro ni, stejně jako pro ostatní, stává jen nenáviděným břemenem
+__-otec__ - Vyhýbá se kontaktu se synem, při setkání po něm hází jablka, aby ho odehnal - Řehoř je mu odporný
 
-__Jaz\. Prostředky :__
+__Jaz. Prostředky :__
 
 \-Spisovná forma jazyka bez slangových či hovorových výrazů
-\-Vulgarismus → ono to chcíplo\!
+\-Vulgarismus → ono to chcíplo!
 
-\-Eufemismus \(tropy\) → z chřípí mu slabě unikl poslední dech \(jemnější oznámení smrti\)
+\-Eufemismus (tropy) → z chřípí mu slabě unikl poslední dech (jemnější oznámení smrti)
 
-\-Hyperbola \(tropy\) → s největší rychlostí bouch dveřmi \(v takové rychlosti by se dveře nejspíš rozpadly\)
+\-Hyperbola (tropy) → s největší rychlostí bouch dveřmi (v takové rychlosti by se dveře nejspíš rozpadly)
 
-\-Řečnická otázka \(figury\) → “A teď?”
+\-Řečnická otázka (figury) → “A teď?”
 
 __Děj :__
 
-Řehoř Samsa se jednou ráno probudil a zjistil, že se proměnil ve velký hmyz\. Nestihl tedy vlak a nesplnil pracovní úkol\. Učil se používat svoje nové tělo\. Když se rodina dostala do jeho pokoje, zděsila se\. Jediná sestra se o něj nejdříve starala, pomáhala mu, nosila mu jídlo, ale po nějaké době v něm přestala vidět svého bratra a viděla v něm jenom hmyz\. Řehoř myslel a cítil jako člověk, proměna byla pouze tělesná\. Markéta s matkou odklízely nábytek v Řehořově pokoji, Řehoř se nechtěl vzdát svého oblíbeného obrazu\. Když matka viděla Řehoře, ulekla se a omdlela\. Markéta běžela pro esenci, aby matku vzkřísila\. Řehoř běžel za sestrou, aby jí poradil, kterou lahvičku má vzít a přitom byl trošku poraněn střepem z lahvičky, která Markétě spadla\. Když přišel otec, myslel si, že se Řehoř dopustil násilí\. Otec po něm házel jablka a jedno jablko ho velmi zranilo\. Řehoř vyděsil svým vzhledem i uklízečku a muže, kterým rodina z finančních důvodů pronajala byt\. Řehoř pochopil, že všem překáží a nechtěl být na obtíž\. Zemřel\. Z jeho smrti měli všichni radost a zapomněli na něj\.
+Řehoř Samsa se jednou ráno probudil a zjistil, že se proměnil ve velký hmyz. Nestihl tedy vlak a nesplnil pracovní úkol. Učil se používat svoje nové tělo. Když se rodina dostala do jeho pokoje, zděsila se. Jediná sestra se o něj nejdříve starala, pomáhala mu, nosila mu jídlo, ale po nějaké době v něm přestala vidět svého bratra a viděla v něm jenom hmyz. Řehoř myslel a cítil jako člověk, proměna byla pouze tělesná. Markéta s matkou odklízely nábytek v Řehořově pokoji, Řehoř se nechtěl vzdát svého oblíbeného obrazu. Když matka viděla Řehoře, ulekla se a omdlela. Markéta běžela pro esenci, aby matku vzkřísila. Řehoř běžel za sestrou, aby jí poradil, kterou lahvičku má vzít a přitom byl trošku poraněn střepem z lahvičky, která Markétě spadla. Když přišel otec, myslel si, že se Řehoř dopustil násilí. Otec po něm házel jablka a jedno jablko ho velmi zranilo. Řehoř vyděsil svým vzhledem i uklízečku a muže, kterým rodina z finančních důvodů pronajala byt. Řehoř pochopil, že všem překáží a nechtěl být na obtíž. Zemřel. Z jeho smrti měli všichni radost a zapomněli na něj.
 
 __Hlavní myšlenka, podtext :__
 
-Hlavním námětem povídky je přeměna člověka ve hmyz a následující vývoj vztahu rodiny k tomuto stvoření\.
-Podtext knihy autor specificky nedefinuje, každý čtenář ho může vnímat úplně jinak\. Dle mého názoru by tento příběh mohl být narážkou na lidskou nevšímavost, chladnost vzájemných vztahů, odcizení, závislost na penězích a podřizování se svému okolí\. Nevíme, čím se hrdina provinil \- jeho proměna je trest, netušíme však za co\. Za to že ráno zaspal do práce? Nebo za to že rezignoval na vlastní pocit uspokojení ze života kvůli svým blízkým? Každého napadne jiné vysvětlení, pokud vůbec nějaké je, a to se mi na tomto příběhu líbí\.
+Hlavním námětem povídky je přeměna člověka ve hmyz a následující vývoj vztahu rodiny k tomuto stvoření.
+Podtext knihy autor specificky nedefinuje, každý čtenář ho může vnímat úplně jinak. Dle mého názoru by tento příběh mohl být narážkou na lidskou nevšímavost, chladnost vzájemných vztahů, odcizení, závislost na penězích a podřizování se svému okolí. Nevíme, čím se hrdina provinil - jeho proměna je trest, netušíme však za co. Za to že ráno zaspal do práce? Nebo za to že rezignoval na vlastní pocit uspokojení ze života kvůli svým blízkým? Každého napadne jiné vysvětlení, pokud vůbec nějaké je, a to se mi na tomto příběhu líbí.
 
 - Téma, motiv
 - Kompoziční výstavba

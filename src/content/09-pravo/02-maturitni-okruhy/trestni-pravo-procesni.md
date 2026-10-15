@@ -3,9 +3,9 @@ title: "Trestní právo procesní"
 order: 23
 source: "Právo/23. Trestní právo procesní/23_trestni_pravo_procesni.docx"
 ---
-# __23\. Trestní právo procesní__
+# __23. Trestní právo procesní__
 
-__=>__ je odvětvím práva, které upravuje postup orgánů činných v trestním řízení, práva a povinnosti osob, které se na trestním řízení podílejí\.
+__=>__ je odvětvím práva, které upravuje postup orgánů činných v trestním řízení, práva a povinnosti osob, které se na trestním řízení podílejí.
 
 __Orgány činné v trestním řízení__ = soud, státní zástupce, policejní orgán
 
@@ -47,7 +47,7 @@ Zásada legality
 
 Zásada oficiality
 
-=Tato zásada vyjadřuje právo, ale i povinnost orgánů činných v trestním řízení provést určitý procesní úkon, jsou\-li dány zákonné podmínky pro jeho provedení\. \(Bez ohledu na stanovisko a postavení dotčených osob\)
+=Tato zásada vyjadřuje právo, ale i povinnost orgánů činných v trestním řízení provést určitý procesní úkon, jsou-li dány zákonné podmínky pro jeho provedení. (Bez ohledu na stanovisko a postavení dotčených osob)
 
 1. __SUBJEKTY TRESTNÍHO ŘÍZENÍ__
 
@@ -71,28 +71,28 @@ __Zástupce zájmového sdružení občanů__
 
 __Zákonný zástupce obviněného__
 
-__Osoby s tzv\. samostatnými právy obhajovacími__
+__Osoby s tzv. samostatnými právy obhajovacími__
 
 __Zákonný zástupce	Opatrovník	 Příbuzní obviněného v pokolení přímém__
 
 __Sourozenci	Manžel	Osvojenec	Osvojitel	Druh__
 
-__Probační a mediační úředník	OSPOD \(v řízení proti mladistvému\)__
+__Probační a mediační úředník	OSPOD (v řízení proti mladistvému)__
 
 __Další subjekty:__
 
-__\-Svědek__
+__-Svědek__
 
-__\-Znalec__
+__-Znalec__
 
-__\-Tlumočník__
+__-Tlumočník__
 
-__\-Obhájce__
+__-Obhájce__
 
 1. __PROSTŘEDKY K ZAJIŠTĚNÍ OSOB PRO ÚČELY TRESTNÍHO ŘÍZENÍ__
 2. __Předvolání__
 
-=výzva orgánu činného v trestním řízení, písemné \(např: výslech obviněného\)
+=výzva orgánu činného v trestním řízení, písemné (např: výslech obviněného)
 
 1. __Předvedení__
 
@@ -100,7 +100,7 @@ __\-Obhájce__
 
 1. __Pořádková pokuta__
 
-=donucovací prostředek spojený se sankcí, v případě, kdy osoba nerespektuje příkaz orgánu činného v trestním řízení, až do výše 50\.000 Kč, lze uložit opakovaně
+=donucovací prostředek spojený se sankcí, v případě, kdy osoba nerespektuje příkaz orgánu činného v trestním řízení, až do výše 50.000 Kč, lze uložit opakovaně
 
 1. __Zákaz vycestování do zahraničí__
 
@@ -143,33 +143,33 @@ __Ediční povinnost__ = povinnost k předložení nebo vydání věci
 1. __STÁDIA TRESTNÍHO ŘÍZENÍ__
 2. __Přípravné řízení__
 
-= stadium řízení, jehož účelem je připravit podklady pro řízení před soudem \(neveřejné\)
+= stadium řízení, jehož účelem je připravit podklady pro řízení před soudem (neveřejné)
 
 __Má 2 fáze:__
 
-__\- Prověřování =__ před trestním stíháním, objasnění a prověření skutečností, v závěru zahajuje orgán činný v trestním řízení __trestní stíhání__
+__- Prověřování =__ před trestním stíháním, objasnění a prověření skutečností, v závěru zahajuje orgán činný v trestním řízení __trestní stíhání__
 
-__\- Vyšetřování =__ úsek od zahájení trestního řízení do podání obžaloby \(neveřejné\)
+__- Vyšetřování =__ úsek od zahájení trestního řízení do podání obžaloby (neveřejné)
 
 Po skončení __vyšetřování__, dospěje policejní orgán k závěru, že výsledky vyšetřování dostačují k podání __obžaloby__
 
-1. __Předběžné projednání obžaloby \(není povinné\)__
+1. __Předběžné projednání obžaloby (není povinné)__
 
 =soud zkoumá opodstatněnost podané obžaloby, před samosoudcem se neuplatňuje, nařizuje předseda senátu
 
-1. __Hlavní líčení \(řízení před soudem\)__
+1. __Hlavní líčení (řízení před soudem)__
 
 =soud přezkoumává obvinění obsažené v obžalobě, v návrhu na potrestání nebo v dohodě o vině a trestu
 
 __Průběh:__
 
-__1\) Zahájení hl\. líčení__ – veřejné, zahajuje předseda senátu, kontrola přítomnosti osob
+__1) Zahájení hl. líčení__ – veřejné, zahajuje předseda senátu, kontrola přítomnosti osob
 
-__2\) Dokazování –__ zahájeno výslechem obžalovaného, další důkazy
+__2) Dokazování –__ zahájeno výslechem obžalovaného, další důkazy
 
-__3\) Závěr hl\. líčení –__ procesní strany se vyjádří k tomu, jak by měl soud rozhodnout
+__3) Závěr hl. líčení –__ procesní strany se vyjádří k tomu, jak by měl soud rozhodnout
 
-__4\) Rozhodnutí –__ soud může rozhodnout o vrácení věci státnímu zástupci, zastavení trestního stíhání, o podmíněném zastavení trestního stíhání a schválení narovnání, přerušení trestního stíhání nebo rozhodne rozsudkem = rozhodne, zda je obžalovaný vinný nebo nevinný
+__4) Rozhodnutí –__ soud může rozhodnout o vrácení věci státnímu zástupci, zastavení trestního stíhání, o podmíněném zastavení trestního stíhání a schválení narovnání, přerušení trestního stíhání nebo rozhodne rozsudkem = rozhodne, zda je obžalovaný vinný nebo nevinný
 
 1. __Odvolací řízení / Opravné řízení__
 
@@ -191,7 +191,7 @@ __Mimořádné opravné prostředky =__ dovolání, stížnost pro porušení z�
 
 1. __KRIMINALITA PÁCHÁNA NA DĚTECH A MLADISTVÝCH__
 
-\-patří do zvláštního způsobu řízení \(patří sem i řízení proti uprchlému\), odchyluje se od standartního řízení
+\-patří do zvláštního způsobu řízení (patří sem i řízení proti uprchlému), odchyluje se od standartního řízení
 
 \-zákon o odpovědnosti mládeže za protiprávní činy, zákon o soudnictví ve věcech mládeže
 

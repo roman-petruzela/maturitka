@@ -1,5 +1,5 @@
 ---
-title: "EKONOMICKA REFORMA A TRZNI EKONOMIKA"
+title: "Ekonomická reforma a tržní ekonomika"
 order: 24
 source: "Společenské vědy/24. EKONOMICKA REFORMA A TRZNI EKONOMIKA.docx"
 ---
@@ -122,7 +122,7 @@ __Nabídka__
 
 Zákon rostoucí nabídky\- růst ceny vyvolá růst nabídky, pokles Ceny\-> pokles nabídky
 
-__((obrázek vynechán))__	                                            P…\.cena produkce
+__<img src="/images/content/spolecenske-vedy/ekonomicka-reforma-a-trzni-ekonomika/01.webp" alt="https://is.mendelu.cz/eknihovna/opory/download.pl?objekt=24646" width="231" loading="lazy" decoding="async">__	                                            P…\.cena produkce
 
 Q…\.objem produkce
 
@@ -150,7 +150,7 @@ Faktory ovlivňující nabídku
 **Poptávka
 __Zákon klesající poptávky\- S rostoucí cenou klesá množství__**  poptávaného zboží
 
-__((obrázek vynechán))__
+__<img src="/images/content/spolecenske-vedy/ekonomicka-reforma-a-trzni-ekonomika/02.webp" alt="" width="236" loading="lazy" decoding="async">__
 
 Dělení poptávky
 
@@ -171,7 +171,7 @@ Skládá se ze 4 fází
 
 __3\. Kontrakce__ \- RP klesá, roste nezaměstnanost, utlumuje se výroba, klesají mzdy a zisky
 
-__((obrázek vynechán))4\. DNO__ – Ekonomika je pod potenciálním produktem, reálný HDP je nejnižší, výrobní faktory nejsou
+__<img src="/images/content/spolecenske-vedy/ekonomicka-reforma-a-trzni-ekonomika/03.webp" alt="Hospodářský cyklus" width="303" loading="lazy" decoding="async">4\. DNO__ – Ekonomika je pod potenciálním produktem, reálný HDP je nejnižší, výrobní faktory nejsou
                  plně využity
 
 Příčiny hospodářských cyklů

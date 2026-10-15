@@ -4,11 +4,11 @@ order: 5
 source: "robotika1.pol/cv04_LED_tlacitko_prom.pdf"
 ---
 
-# **Proměnné**
+# Proměnné
 
 **`int A = 10;`** `//datový typ, název proměnné a hodnota proměnné` Při změně hodnoty proměnné se projeví tato změna všude, kde je proměnná použita.
 
-## **Práce s proměnnými**
+## Práce s proměnnými
 
 ```
 int x;//deklarace promenne x
@@ -28,9 +28,9 @@ void loop() {
 }
 ```
 
-## **Datové typy**
+## Datové typy
 
-### **Číselné datové typy**
+### Číselné datové typy
 
 - **byte** – má velikost 8 bitů, celých čísel v rozsahu 2<sup>8</sup> hodnot – 0 až 255.
 
@@ -40,17 +40,17 @@ void loop() {
 
 - **float** – čísla s desetinnou čárkou, velikost 32 bitů, hodnoty od -3,402 823 5 · 10<sup>38</sup> do 3,402 823 5 · 10<sup>38</sup> .
 
-### **Logický datový typ**
+### Logický datový typ
 
 - **boolean** – uchovává jednu ze dvou hodnot – **true** / **false**
 
-### **Znakový datový typ**
+### Znakový datový typ
 
 - **char** – jeden znaku textu, znak je zde uchován jako jeho číselná hodnota v ASCII tabulce znaků.
 
 - **string** – pro uchování řetězce znaků, řetězec se zapisuje v uvozovkách
 
-### **Příklad:**
+### Příklad:
 
 ```
 byte a = 12;//byte
@@ -62,11 +62,11 @@ char f = 'A';//char
 char f = 65; //v ASCII tabulce znaku ma A hodnotu 65
 ```
 
-## **Pole**
+## Pole
 
 Je to způsob uložení vícero hodnot do jedné proměnné.
 
-### **Deklarace pole**
+### Deklarace pole
 
 Je podobná jako u běžné proměnné – datový typ, jméno, velikost pole a případně i hodnoty
 
@@ -92,7 +92,7 @@ char jmeno[] = "arduino";
 char jmeno[7] = "arduino";
 ```
 
-### **Přístup k hodnotám v poli**
+### Přístup k hodnotám v poli
 
 indexy v poli jsou číslovány od nuly
 
@@ -102,7 +102,7 @@ a[0]; //prvek s indexem 0 ma hodnotu 1
 a[5]; //prvek s indexem 5 ma hodnotu 11
 ```
 
-## **Digitální vstup a výstup**
+## Digitální vstup a výstup
 
 Vstupy a výstupy nazýváme piny a jsou určené pro další rozšiřování Arduina.
 
@@ -124,7 +124,7 @@ pinMode(cislo, OUTPUT); //nastaveni pinu 13 na vystup
 pinMode(12, INPUT); //a pinu 12 na vstup
 ```
 
-## **Ovládání výstupu**
+## Ovládání výstupu
 
 K ovládání výstupu se používá funkce:
 
@@ -133,7 +133,7 @@ digitalWrite(13, HIGH); //teče proud
 digitalWrite(12, LOW);//neteče proud
 ```
 
-## **Čtení vstupu**
+## Čtení vstupu
 
 K detekci napětí na pinu se používá funkce **digitalRead()** .
 
@@ -147,9 +147,9 @@ cteni = digitalRead(vstup); //pokud proud tece, do promenne cteni
 se ulozi hodnota HIGH, pokud ne, tak LOW
 ```
 
-# **LED a tlačítko**
+# LED a tlačítko
 
-## **Budeme potřebovat**
+## Budeme potřebovat
 
 1. Arduino Uno (nebo jinou desku).
 
@@ -167,13 +167,13 @@ se ulozi hodnota HIGH, pokud ne, tak LOW
 
 8. LED dioda.
 
-## **Zapojení**
+## Zapojení
 
 Dle obrázku:
 
 _Obrázek 1: Zapojení tlačítka a LED diody_
 
-## **Program**
+## Program
 
 Do Arduino IDE vložíme kód programu a nahrajeme jej do Arduina:
 

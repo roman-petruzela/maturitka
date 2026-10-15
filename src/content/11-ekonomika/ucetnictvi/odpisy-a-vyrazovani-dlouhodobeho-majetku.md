@@ -7,12 +7,12 @@ source: "Účetnictví/5. Odpisy a vyřazování dlouhodobého majetku.docx"
 
 __Základní pojmy__
 
-- Odpis \- peněžní částka vyjadřující opotřebení dlouhodobého majetku
-- Oprávky \- je součet dosavadních odpis
-- Zůstatková cena \- když odečteme oprávky od pořizovací ceny DM=> zjistíme zůstatkovou cenu
+- Odpis - peněžní částka vyjadřující opotřebení dlouhodobého majetku
+- Oprávky - je součet dosavadních odpis
+- Zůstatková cena - když odečteme oprávky od pořizovací ceny DM=> zjistíme zůstatkovou cenu
 - Opotřebení
-	1. fyzické \- opotřebovává se používáním
-	2. morální \- z důvodu technického pokroku
+	1. fyzické - opotřebovává se používáním
+	2. morální - z důvodu technického pokroku
 
 Výpočet odpisů a jejich účtování
 
@@ -20,16 +20,16 @@ __Účetní odpisy__
 
 - mají odpovídat skutečnému opotřebení majetku
 
-__a\) Časové__
+__a) Časové__
 
 - tato metoda vychází z doby použitelnosti majetku
     - __příklad:__
 
-*Podnik pořídil v červenci 2015 kopírovací stroj za 80 000 Kč, u kterého stanovil dobu použitelnosti 40 měsíců\. Účetní jednotka se rozhodla, že bude odpisovat od prvého dne následujícího měsíce\.*
+*Podnik pořídil v červenci 2015 kopírovací stroj za 80 000 Kč, u kterého stanovil dobu použitelnosti 40 měsíců. Účetní jednotka se rozhodla, že bude odpisovat od prvého dne následujícího měsíce.*
 
 *Měsíční odpis	  2 000 Kč*
 
-*40 měsíců = 3 roky \+ 4 měsíce*
+*40 měsíců = 3 roky + 4 měsíce*
 
 *80 000/40 = 2 000*
 
@@ -45,12 +45,12 @@ __a\) Časové__
 
 *Účetní odpis 2018	22 000 Kč → 11 \* 2 000* 
 
-__b\) Výkonové__
+__b) Výkonové__
 
-- odpisy se odvozují z množství výkonů, které podnik \(podle předpokladu\) získá prostřednictvím daného majetku
+- odpisy se odvozují z množství výkonů, které podnik (podle předpokladu) získá prostřednictvím daného majetku
 - __příklad:__
 
-*Podnik si pořídil nákladní automobil za 2 500 000 Kč\. Odpisovou základnou je předpokládaný počet ujetých km, kterou stanovil na 500 000 km\. V prvním roce bylo ujeto 50 000 km, v druhém roce 90 000 km, atd\.*
+*Podnik si pořídil nákladní automobil za 2 500 000 Kč. Odpisovou základnou je předpokládaný počet ujetých km, kterou stanovil na 500 000 km. V prvním roce bylo ujeto 50 000 km, v druhém roce 90 000 km, atd.*
 
 *Odpis za 1km	2 500 000 / 500 000 	= 5kč/1km*
 
@@ -58,9 +58,9 @@ __b\) Výkonové__
 
 *Účetní odpis ve druhém roce	90 000 km \* 5 Kč	= 450 000 Kč*
 
-__\!__
+__!__
 
-__\!__
+__!__
 
 __CELKEM LZE ODEPSAT POUZE ČÁSTKU ODPOVÍDAJÍCÍ VSTUPNÍ CENĚ__
 
@@ -70,7 +70,7 @@ __Daňové odpisy__
 - částky vypočtených odpisů zaokrouhlujeme __na celé koruny nahoru__
 - jsou daňové uznatelné → __ovlivňují daňový základ__
 
-__a\) Rovnoměrné odpisování__ \(§ 31 ZDP\)
+__a) Rovnoměrné odpisování__ (§ 31 ZDP)
 
 __odpisová skupina__
 
@@ -130,7 +130,7 @@ __pro zvýšenou vstupní cenu__
 
 __Příklad:__
 
-*Podnik pořídil v roce 2016 kopírovací stroj za 90 000 Kč\. Je zařazen do první odpisové skupiny\. Podnik se rozhodl, že jej bude odpisovat rovnoměrně\.*
+*Podnik pořídil v roce 2016 kopírovací stroj za 90 000 Kč. Je zařazen do první odpisové skupiny. Podnik se rozhodl, že jej bude odpisovat rovnoměrně.*
 
 __*Rok*__
 
@@ -140,19 +140,19 @@ __*Daňový odpis*__
 
 *2016*
 
-*\(90 000 / 100\) \* 20,00*
+*(90 000 / 100) \* 20,00*
 
 *18 000 Kč*
 
 *2017*
 
-*\(90 000 / 100\) \* 40,00*
+*(90 000 / 100) \* 40,00*
 
 *36 000 Kč*
 
 *2018*
 
-*\(90 000 / 100\) \* 40,00*
+*(90 000 / 100) \* 40,00*
 
 *36 000 Kč*
 
@@ -160,7 +160,7 @@ __*Celkem*__
 
 __*90 000 Kč*__
 
-__b\) Zrychlené odpisování__ \(§ 32 ZDP\)
+__b) Zrychlené odpisování__ (§ 32 ZDP)
 
 __odpisová skupina__
 
@@ -220,7 +220,7 @@ __pro zvýšenou vstupní cenu__
 
 __Příklad:__
 
-*Podnik pořídil v roce 2016 kopírovací stroj za 90 000 Kč\. Je zařazen do první odpisové skupiny\. Podnik se rozhodl, že jej bude odpisovat rovnoměrně\.*
+*Podnik pořídil v roce 2016 kopírovací stroj za 90 000 Kč. Je zařazen do první odpisové skupiny. Podnik se rozhodl, že jej bude odpisovat rovnoměrně.*
 
 __*Rok*__
 
@@ -240,7 +240,7 @@ __*Zůstatková cena*__
 
 *2017*
 
-*\(2 \* 60 000\) / \(4 – 1\)*
+*(2 \* 60 000) / (4 – 1)*
 
 *40 000*
 
@@ -248,19 +248,19 @@ __*Zůstatková cena*__
 
 *2018*
 
-*\(2 \* 20 000\) / \(4 – 2\)*
+*(2 \* 20 000) / (4 – 2)*
 
 *20 000*
 
 *0*
 
-__c\) Možnost zvýšení odpisu v prvním roce__ \(§ 31 ZDP\)
+__c) Možnost zvýšení odpisu v prvním roce__ (§ 31 ZDP)
 
-- poplatníci mají možnost u vybraných druhů majetku z odpisových skupin 1, 2 a 3 zvýšit odpis v prvním roce o 10% \(popř\. 15% nebo 20%\) ze vstupní ceny
+- poplatníci mají možnost u vybraných druhů majetku z odpisových skupin 1, 2 a 3 zvýšit odpis v prvním roce o 10% (popř. 15% nebo 20%) ze vstupní ceny
 
-__Příklad \- rovnoměrné:__
+__Příklad - rovnoměrné:__
 
-*Podnik pořídil v roce 2016 kopírovací stroj za 90 000 Kč\. Je zařazen do první odpisové skupiny\. Podnik se rozhodl, že jej bude odpisovat rovnoměrně\. Odpis v prvním roce ovšem navýší o 10%\.* 
+*Podnik pořídil v roce 2016 kopírovací stroj za 90 000 Kč. Je zařazen do první odpisové skupiny. Podnik se rozhodl, že jej bude odpisovat rovnoměrně. Odpis v prvním roce ovšem navýší o 10%.* 
 
 __*Rok*__
 
@@ -270,19 +270,19 @@ __*Daňový odpis*__
 
 *2016*
 
-*\(90 000 / 100\) \* 30,00*
+*(90 000 / 100) \* 30,00*
 
 *27 000 Kč*
 
 *2017*
 
-*\(90 000 / 100\) \* 35,00*
+*(90 000 / 100) \* 35,00*
 
 *31 500 Kč*
 
 *2018*
 
-*\(90 000 / 100\) \* 35,00*
+*(90 000 / 100) \* 35,00*
 
 *31 500 Kč*
 
@@ -290,9 +290,9 @@ __*Celkem*__
 
 __*90 000 Kč*__
 
-__Příklad \- zrychlené:__
+__Příklad - zrychlené:__
 
-*Podnik pořídil v roce 2016 kopírovací stroj za 90 000 Kč\. Je zařazen do první odpisové skupiny\. Podnik se rozhodl, že jej bude odpisovat rovnoměrně\. Odpis v prvním roce ovšem navýší o 10%\.* 
+*Podnik pořídil v roce 2016 kopírovací stroj za 90 000 Kč. Je zařazen do první odpisové skupiny. Podnik se rozhodl, že jej bude odpisovat rovnoměrně. Odpis v prvním roce ovšem navýší o 10%.* 
 
 __*Rok*__
 
@@ -302,19 +302,19 @@ __*Daňový odpis*__
 
 *2016*
 
-*\(90 000 / 3\) \+10% z 90 000*
+*(90 000 / 3) +10% z 90 000*
 
 *39 000 Kč*
 
 *2017*
 
-*\(2 \* 51 000\) / \(4 – 1\)*
+*(2 \* 51 000) / (4 – 1)*
 
 *34 000 Kč*
 
 *2018*
 
-*\(2 \* 17 000\) / \(4 – 2\)*
+*(2 \* 17 000) / (4 – 2)*
 
 *17 000 Kč*
 
@@ -322,15 +322,15 @@ __*Celkem*__
 
 __*90 000 Kč*__
 
-__e\) Technické zhodnocení a jeho vliv na odpisy__ \(§ 33 ZDP\)
+__e) Technické zhodnocení a jeho vliv na odpisy__ (§ 33 ZDP)
 
 - dochází ke zvýšení vstupní i zůstatkové ceny DM
 
 __Příklad:__
 
-*Účetní jednotka pořídila v roce 2015 osobní automobil v pořizovací ceně 600 000 Kč\. V roce 2017 nechala do tohoto automobilu nainstalovat klimatizaci v hodnotě 50 000 Kč\.*
+*Účetní jednotka pořídila v roce 2015 osobní automobil v pořizovací ceně 600 000 Kč. V roce 2017 nechala do tohoto automobilu nainstalovat klimatizaci v hodnotě 50 000 Kč.*
 
-*a\) zrychleným způsobem:*
+*a) zrychleným způsobem:*
 
 __*	*__
 
@@ -348,31 +348,31 @@ __*Daňový odpis*__
 
 *2016*
 
-*\(480 000 \* 2\) / \(6 – 1\)*
+*(480 000 \* 2) / (6 – 1)*
 
 *192 000*
 
 *2017*
 
-*\(288 000 \+ 50 000\) \* 2/5*
+*(288 000 + 50 000) \* 2/5*
 
 *135 200*
 
 *2018*
 
-*\(202 800 \* 2\) / \(5 – 1\)*
+*(202 800 \* 2) / (5 – 1)*
 
 *101 400*
 
 *2019*
 
-*\(101 400 \* 2\) / \(5 – 2\)*
+*(101 400 \* 2) / (5 – 2)*
 
 *67 600*
 
 *2020*
 
-*\(33 800 \* 2\) / \(5 – 3\)*
+*(33 800 \* 2) / (5 – 3)*
 
 *33 800*
 
@@ -380,7 +380,7 @@ __*Celkem*__
 
 __*650 000 Kč*__
 
-*b\) rovnoměrným způsobem:*
+*b) rovnoměrným způsobem:*
 
 __*	*__
 
@@ -422,7 +422,7 @@ __*Daňový odpis*__
 
 *2020*
 
-*650 000 \* 0,2 \(max\. do výše zůstatkové ceny\)*
+*650 000 \* 0,2 (max. do výše zůstatkové ceny)*
 
 *60 500*
 
@@ -440,14 +440,14 @@ Vyřazování dlouhodobého majetku a jeho účtování
 
 __• Dlouhodobý majetek je zcela odepsán__
 
-- \(vstupní cena = oprávky\)
+- (vstupní cena = oprávky)
 - zaúčtuje se pouze úbytek z majetkového účtu souvztažně s příslušným účtem oprávek
 
 __• Dlouhodobý majetek je odepsaný pouze částečně__
 
-- odpisovaný majetek má zůstatkovou cenu \(kterou tvoří rozdíl mezi pořizovací cenou a dosavadními oprávkami\)
+- odpisovaný majetek má zůstatkovou cenu (kterou tvoří rozdíl mezi pořizovací cenou a dosavadními oprávkami)
 - kromě vyřazení z evidence se musí ještě provést:
-	- zaúčtování řádného odpisu DHM za část běžného účetního období \(551/08x\)
+	- zaúčtování řádného odpisu DHM za část běžného účetního období (551/08x)
 	- doúčtování zůstatkové ceny na účet odpovídající účelu vyřazení majetku
 
 __Způsob vyřazení majetku__
@@ -480,13 +480,13 @@ Nepeněžitý vklad do obchodí společnosti nebo družstva
 
 __Daňové aspekty zůstatkové ceny vyřazeného majetku__
 
-Z hlediska ZDP je třeba si uvědomit, __zda zůstatková cena je daňově uznatelným nebo neuznatelným nákladem\.__
+Z hlediska ZDP je třeba si uvědomit, __zda zůstatková cena je daňově uznatelným nebo neuznatelným nákladem.__
 
-1. prodej dlouhodobého majetku – pokud je prodáván dlouhodobý majetek, který lze daňově odpisovat, potom je daňová  ZC tohoto prodaného majetku plně daňově uznatelná\. U právnických osob je daňově uznatelná í případná ztráta z prodeje pozemku\.
-2. likvidace v důsledku opotřebení – ZC takto zlikvidovaného majetku je daňově uznatelným nákladem v plné výši\. Výjimka je při fyzické likvidaci stavebních děl\. V případě, kdy je stavební dílo \(dům, budova, stavba\) likvidováno v souvislosti se stavbou nového stavebního díla, potom ZC zlikvidovaného stavebního díla vstupuje do pořizovací ceny\.
-3. likvidace v důsledku manka a škody – ZC zlikvidovaného majetku v důsledku poškození je daňově uznatelným nákladem do výše náhrady\. Výjimkou je:
+1. prodej dlouhodobého majetku – pokud je prodáván dlouhodobý majetek, který lze daňově odpisovat, potom je daňová  ZC tohoto prodaného majetku plně daňově uznatelná. U právnických osob je daňově uznatelná í případná ztráta z prodeje pozemku.
+2. likvidace v důsledku opotřebení – ZC takto zlikvidovaného majetku je daňově uznatelným nákladem v plné výši. Výjimka je při fyzické likvidaci stavebních děl. V případě, kdy je stavební dílo (dům, budova, stavba) likvidováno v souvislosti se stavbou nového stavebního díla, potom ZC zlikvidovaného stavebního díla vstupuje do pořizovací ceny.
+3. likvidace v důsledku manka a škody – ZC zlikvidovaného majetku v důsledku poškození je daňově uznatelným nákladem do výše náhrady. Výjimkou je:
 
 - škoda na majetku, kdy ZC je daňově uznatelným nákladem v plné výši za předpokladu, že účetní jednotka ma potvrzení od policie, že škoda byla způsobena neznámým pachatelem,
 - vyřazení vzniklé v důsledku živelních pohrom, i v tomto případě je ZC daňově uznatelným nákladem v plné výši
 
-d\)  darování dlouhodobého majetku –ZC není daňově uznatelným nákladem, ale za splnění předepsaných podmínek může být odčitatelnou položkou od základu daňe v daňovém přiznání
+d)  darování dlouhodobého majetku –ZC není daňově uznatelným nákladem, ale za splnění předepsaných podmínek může být odčitatelnou položkou od základu daňe v daňovém přiznání

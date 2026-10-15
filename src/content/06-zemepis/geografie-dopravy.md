@@ -1,5 +1,5 @@
 ---
-title: "GEOGRAFIE DOPRAVY"
+title: "Geografie dopravy"
 order: 10
 source: "Zeměpis/Zeměpis GLP/10. GEOGRAFIE DOPRAVY.doc"
 ---

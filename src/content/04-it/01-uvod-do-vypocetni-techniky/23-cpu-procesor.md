@@ -7,7 +7,7 @@ Video HW – základní deska, sběrnice, procesor
 
 _Jaké firmy vyrábí procesory?_
 
-## **AMD**
+## AMD
 
 _Co znamená AMD?_
 
@@ -113,7 +113,7 @@ Parametry procesoru:
 
 - Průměrné TDP (W): 65
 
-## **Intel**
+## Intel
 
 _Jaké řady procesorů vyrábí / vyráběli?_
 
@@ -127,6 +127,6 @@ DÚ: Vytvořte miniprezentaci na 4-5 slidů o vašem procesoru, dohledejte na st
 
 Na co se nesmí zapomenout, když procesor měníte?
 
-## **Software**
+## Software
 
 CPU-Z <u>https://www.cpuid.com/downloads/cpu-z/cpu-z_1.91-en.zip</u> HWMonitor <u>https://www.cpuid.com/downloads/hwmonitor/hwmonitor_1.41.zip</u> HW Info <u>https://www.hwinfo.com/download/</u> doporučení: stáhnout Portable verzi

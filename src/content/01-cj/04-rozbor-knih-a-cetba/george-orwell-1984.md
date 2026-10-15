@@ -4,7 +4,7 @@ order: 30
 source: "ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/George Orwell - 1984/1984.docx"
 tags: ["mimo-seznam-cetby"]
 ---
-__\(1949\)__
+__(1949)__
 
 __George Orwell__
 
@@ -18,7 +18,7 @@ __Kompozice:__ chronologická
 
 __Literární druh a žánr:__ epika; antiutopistický román
 
-__Vypravěč:__ er\-forma; objektivní
+__Vypravěč:__ er-forma; objektivní
 
 __Postavy:__
 
@@ -32,7 +32,7 @@ __Goldstein__ – nepřítel Strany, člen Bratrstva, neví se, jestli existuje
 
 __Velký Bratr__ – vůdce strany, diktátor, vždy má pravdu, nikdy nemění svá rozhodnutí, neví se, jestli vlastně doopravdy existuje
 
-__Parsons__ – Wistonův soused, věří Straně, obviněn dcerou za ideozločin \(mluvil ze spaní\)
+__Parsons__ – Wistonův soused, věří Straně, obviněn dcerou za ideozločin (mluvil ze spaní)
 
 __Vyprávěcí způsoby:__ er forma; přímá řeč, polopřímá řeč
 
@@ -53,9 +53,9 @@ __George Orwell__
 - Práce pro BBC
 - Dílo: Farma zvířat
 
-__Charakteristika doby:__ světová literatura 20\. století; období po 2\. světové válce; studená válka mezi SSSR a USA
+__Charakteristika doby:__ světová literatura 20. století; období po 2. světové válce; studená válka mezi SSSR a USA
 
-__Charakteristika literárního směru:__ světová literatura 2\. poloviny 20\. století; literatura s prvky sci\-fi; Autoři vymýšlí nové vynálezy v jejich dílech se objevují totalitní vize společnosti; bohatě využívají fantazii; utopie a antiutopie; vize budoucnosti; stinné stránky technické pokroku
+__Charakteristika literárního směru:__ světová literatura 2. poloviny 20. století; literatura s prvky sci-fi; Autoři vymýšlí nové vynálezy v jejich dílech se objevují totalitní vize společnosti; bohatě využívají fantazii; utopie a antiutopie; vize budoucnosti; stinné stránky technické pokroku
 
 <a id="_gjdgxs"></a>
 
@@ -65,4 +65,4 @@ Amerika: Ray __BRADBURY__ – Marťanská kronika; Isaac __ASIMOV__ – Já, rob
 
 Anglie: John Ronald Reuel __TOLKIEN__ – Hobit aneb cesta tak a zase zpátky, Pán prstenů
 
-Česko: Ludvík __SOUČEK__ – Cesta slepých ptáků; Karel __ČAPEK__ – R\.U\.R\., Ze života hmyzu
+Česko: Ludvík __SOUČEK__ – Cesta slepých ptáků; Karel __ČAPEK__ – R.U.R., Ze života hmyzu

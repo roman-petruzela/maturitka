@@ -5,7 +5,7 @@ source: "Ekonomie/5.-Marketingový-mix.docx"
 ---
 __Marketingový mix__
 
-- Pro své podnikatelské strategie mohou firmy využít čtyř základních nástrojů, kterými ovlivňují situaci na trhu, protože tyto nástroje lze různě kombinovat, mluvíme o tzv\. MIXU
+- Pro své podnikatelské strategie mohou firmy využít čtyř základních nástrojů, kterými ovlivňují situaci na trhu, protože tyto nástroje lze různě kombinovat, mluvíme o tzv. MIXU
 - nástroje “4P”:
 
 1. Product
@@ -20,22 +20,22 @@ __Product__
 
 1. zboží
 2. služba
-3. produkty lidského myšlení \(patenty, nahrávky, texty,…\)
+3. produkty lidského myšlení (patenty, nahrávky, texty,…)
 4. osoby a jejich uskupení
 
-Spotřební zboží
+## Spotřební zboží
 
-1. zboží a služby časté spotřeby \(pivo, drogistické potřeby\)
+1. zboží a služby časté spotřeby (pivo, drogistické potřeby)
 2. zboží a služby občasné spotřeby
 3. luxusní zboží a služby
 
 __Životní cyklus zboží__
 
-- každé zboží \(i služby\) má různě dlouhou tržní životnost, během ní má většina produktů stejný vývoj tržeb = životní cyklus produktu, znázorňujeme jej tzv\. “S” křivkou
+- každé zboží (i služby) má různě dlouhou tržní životnost, během ní má většina produktů stejný vývoj tržeb = životní cyklus produktu, znázorňujeme jej tzv. “S” křivkou
 
 __Fáze křivky__
 
-GRAF
+## GRAF
 
 1. zavádění
 2. růst
@@ -44,23 +44,23 @@ GRAF
 
 __Komplexní produkt__
 
-- teorie  vychází z moderních ﬁlosoﬁí podnikání, tzn\.: jde o to uspokojit najednou co nejvíce a nejlépe zákazníkových potřeb
+- teorie  vychází z moderních ﬁlosoﬁí podnikání, tzn.: jde o to uspokojit najednou co nejvíce a nejlépe zákazníkových potřeb
 
-((obrázek vynechán))
+<img src="/images/content/ekonomika/ekonomie/marketingovy-mix/01.webp" alt="" width="605" loading="lazy" decoding="async">
 
 __Další příklad:__
 
-KYTARA
+## KYTARA
 
 - jádro: zvuk, hudba, vytvoření tónů
-- zvěcněný produkt: značka, typ kytary \(el, akustická,…\), druh použitého dřeva, typ strun, barva, kvalita zvuku, styl designu, určení pro určitý věk \(velikost\), cena, recenze
-- rozšiřující produkt: sestavení dle přání, doručení, čištění \(zdarma\), vyzkoušení, výměna a instalace strun, prvotní naladění, instruktáž pro nováčky, oprava při poškození, dárek \(např\.: trsátko, noty,…\), lekce, prodej na splátky, záruka
+- zvěcněný produkt: značka, typ kytary (el, akustická,…), druh použitého dřeva, typ strun, barva, kvalita zvuku, styl designu, určení pro určitý věk (velikost), cena, recenze
+- rozšiřující produkt: sestavení dle přání, doručení, čištění (zdarma), vyzkoušení, výměna a instalace strun, prvotní naladění, instruktáž pro nováčky, oprava při poškození, dárek (např.: trsátko, noty,…), lekce, prodej na splátky, záruka
 
 __Price__
 
 - je důležitá pro zákazníka, protože je cenově orientovaný
 - cena je nejpružnější
-- cena jako jediná \(ze 4\-P\) znamená příliv peněz do ﬁrmy
+- cena jako jediná (ze 4-P) znamená příliv peněz do ﬁrmy
 - druhy cen:
 
 1. podle místa
@@ -70,16 +70,16 @@ __Price__
 
 1. podle závaznosti
 
-- pevné ceny \(stanovené státem\)
+- pevné ceny (stanovené státem)
 - smluvní ceny
 - __využití ceny:__
 
 1. slevy
 2. množstevní slevy
-3. podle zákazníka \(studentské, seniorské, klubová členství,…\)
-4. dle životního cyklu \(zaváděcí nebo doprodejové ceny\)
+3. podle zákazníka (studentské, seniorské, klubová členství,…)
+4. dle životního cyklu (zaváděcí nebo doprodejové ceny)
 5. sezónní
-6. dle místa prodeje \(internet, kamenný obchod\)
+6. dle místa prodeje (internet, kamenný obchod)
 7. dle způsobu platby
 8. dle doby prodeje
 9. psychologické
@@ -97,20 +97,20 @@ __Place__
 
 1. nepřímé
 
-- mezi výrobce a zákazníka vstupují tzv\. marketingoví prostředníci \(velkoobchod, maloobchod, agent \- není vlastníkem zboží\)
+- mezi výrobce a zákazníka vstupují tzv. marketingoví prostředníci (velkoobchod, maloobchod, agent - není vlastníkem zboží)
 
 __Druhy distribucí:__
 
-1. intenzivní \(hromadná\)\.
+1. intenzivní (hromadná).
 
 - pro zboží časté spotřeby, kdy výrobci budují prodejní cesty pro širokou prodejní síť
 
-1. selektivní \(výběrová\)
+1. selektivní (výběrová)
 
 - mezi stupeň mezi ad 1 a ad 3
 - výrobci si vybírají pouze některé obchodníky
 
-1. exkluzivní \(výlučná\)
+1. exkluzivní (výlučná)
 
 - pro luxusní zboží
 - výrobce si musí hlídat počet prodejních míst
@@ -126,7 +126,7 @@ __Promotion__
 3. PUBLICITA
 4. OSOBNÍ PRODEJ
 
-Reklama
+## Reklama
 
 - jakákoliv forma nepřímého představení produktu a je placená
 - cílem reklamy je dlouhodobé působení na preference zákazníka a je společensky přijatelná
@@ -138,7 +138,7 @@ Reklama
 4. samolepky a odznaky
 5. reklamní stánky a poutače
 6. plakátovací plochy
-7. nápisy \(neonové\)
+7. nápisy (neonové)
 8. drobné propagační předměty
 9. markýzy
 
@@ -147,12 +147,12 @@ Reklama
 1. racionálně
 
 - pomocí rozumných nástrojů má přesvědčit
-- např\.: technické parametry
+- např.: technické parametry
 
 1. emocionálně
 
 - působení prostřednictvím pocitů
-- příjemné \(zvířecí mláďata, krásná těla, humor/nepříjemné \( \-> úleva \)
+- příjemné (zvířecí mláďata, krásná těla, humor/nepříjemné ( -> úleva )
 - funkce reklamy
 
 1. informační
@@ -161,7 +161,7 @@ Reklama
 
 1. přesvědčovací
 
-- používá se pro konkurenční boj, kde se zdůrazňují vlastnosti produktu \(například srovnávací reklama\)
+- používá se pro konkurenční boj, kde se zdůrazňují vlastnosti produktu (například srovnávací reklama)
 
 1. připomínací
 
@@ -175,13 +175,13 @@ __Podpora prodeje__
 - patří sem: soutěže, množstevní slevy, výhodná balení, bezplatné vzorky, veletrhy a výstavy, ochutnávky, doprovodné akce, dárky, záruky, úvěru
 - podpora prodeje stojí ﬁrmy více peněz než reklama
 
-Publicita
+## Publicita
 
 - neplacená forma většinou nepřímého představení produktu
 - jde o vyjádření “nezávislých” spotřebitelů a proto je pro zákazníka důvěryhodná
-- patří sem: spotřebitelské testy, hodnocení zákaníků \(viz Mauerovo hodnocení restaurací\), sponzorská činnost, práce oddělení PR, vyjádření známých osobností
+- patří sem: spotřebitelské testy, hodnocení zákaníků (viz Mauerovo hodnocení restaurací), sponzorská činnost, práce oddělení PR, vyjádření známých osobností
 
-Osobní prodej
+## Osobní prodej
 
 - placená forma obvykle přímého představení produktu
 - je založena na osobním kontaktu prodávajícího se zákazníkem
@@ -199,7 +199,7 @@ Osobní prodej
 
 __Rozšířený mkt mix ve službách__
 
-- “8P” \- Product, Price, People, Programming, Place, Promotion, Package, Partnership
+- “8P” - Product, Price, People, Programming, Place, Promotion, Package, Partnership
 
 __People__
 
@@ -220,11 +220,11 @@ __Programming__
 
 - jde o vytváření programové náplně pro určitý balík služeb
 - tyto programy podle druhu zákazníka mouhou odlišit co zatraktivnit v nabídce
-- např\.: program pobytového zájezdu na 4 dny pro seniory
+- např.: program pobytového zájezdu na 4 dny pro seniory
 - ubytování, strava
 
 __Partnership__
 
 - při vytváření programové náplně balíčku se osvšdčilo podnikatelům ve službách navzájem spolupracovat a tím zatraktivnit nabídku
 - tato spolupráce musí být vzájemně výhodná a všichni účastníci musí mít přibližně stejnou úroveň všech služeb
-- např\.: rodinný penzion na horách, průvodce, lanové centrum, taxi, půjčovny, sleva do restaurace, lyžařské školy,…
+- např.: rodinný penzion na horách, průvodce, lanové centrum, taxi, půjčovny, sleva do restaurace, lyžařské školy,…

@@ -15,9 +15,9 @@ __=__ cílevědomá lidská činnost, která vede za přítomnosti půdy a kapit
 
 __Druhy práce__
 
-→ fyzická \(truhlář\)	→ jednoduchá \(pokladní\) 	→ tvůrčí \(učitel\) 	→ produktivní \(pekař\)
+→ fyzická (truhlář)	→ jednoduchá (pokladní) 	→ tvůrčí (učitel) 	→ produktivní (pekař)
 
-→ duševní \(vědec\)	→ složitá \(dělník\)	→ mechanická \(dělník\)	→ neproduktivní \(lékař\)
+→ duševní (vědec)	→ složitá (dělník)	→ mechanická (dělník)	→ neproduktivní (lékař)
 
 __Pracovní síla__
 
@@ -29,7 +29,7 @@ __=__ rozdělení pracovních činností mezi jednotlivce a skupiny lidí
 
 __Specializace__
 
-= zaměření jednotlivců a skupin lidí na určitý druh práce \(cílem je dosažení vysoké technické úrovně\)
+= zaměření jednotlivců a skupin lidí na určitý druh práce (cílem je dosažení vysoké technické úrovně)
 
 __Kooperace__
 
@@ -41,8 +41,8 @@ __Kooperace__
 	1. dělníci
 	2. technickohospodářští pracovníci
 2. Podle začlenění v řídícím procesu
-	1. řídící pracovníci \(management\)
-	2. řízení pracovníci \(výkonní\)
+	1. řídící pracovníci (management)
+	2. řízení pracovníci (výkonní)
 
 - Personalistika
 - vzdělávání a rozvoj zaměstnanců
@@ -53,9 +53,9 @@ __Kooperace__
 - podnik musí stanovit množství práce – to se uvádí v hodinách a v počtu pracovníků
 - podle různých skupin pracovníků – různé metody stanovení
 
-__Výkonová norma =__ udává, kolik času dělník potřebuje na výrobu jednoho výrobku \(→ VN času\) nebo kolik výrobků vyrobí za časovou jednotku \(→ VN množství\)
+__Výkonová norma =__ udává, kolik času dělník potřebuje na výrobu jednoho výrobku (→ VN času) nebo kolik výrobků vyrobí za časovou jednotku (→ VN množství)
 
-__Fond pracovní doby dělníka__ = udává, kolik hodin \(dní práce\) můžeme plánovat na jednoho pracovníka \(obvykle za rok\)
+__Fond pracovní doby dělníka__ = udává, kolik hodin (dní práce) můžeme plánovat na jednoho pracovníka (obvykle za rok)
 
 __Produktivita práce =__ udává objem výkonů připadající na jednoho pracovníka za jednotku času
 
@@ -65,16 +65,16 @@ __Produktivita práce =__ udává objem výkonů připadající na jednoho praco
 	→ stanovení slevy na dani z příjmů při zaměstnání osob se změnou pracovní	schopnosti
 
 - zahrnují se:
-	- všichni zaměstnanci, kteří jsou v pracovním poměru \(i v jejich nepřítomnosti – nemoc, dovolená, …\)
+	- všichni zaměstnanci, kteří jsou v pracovním poměru (i v jejich nepřítomnosti – nemoc, dovolená, …)
 - nezahrnují se:
 	- ženy a muži na mateřské dovolené
 	- učni a studenti na praxi
 	- zaměstnanci na základě dohody o práci
 - Formy získávání zaměstnanců a péče o ně
 - __Výběr zaměstnanců__
-- Základní úroveň – osobní dotazník, přijímací pohovor \(např\. soustružník\)
-- Střední úroveň – osobní dotazník, přijímací pohovor a zdravotní posouzení pro výkon práce \(např\. vedoucí oddělení\)
-- Vyšší úroveň – několik kol výběrového řízení, rozhovor, ověřování různých druhů pracovní způsobilosti − odborná, organizační, psychická, \(např\. vyšší manažerské funkce\)
+- Základní úroveň – osobní dotazník, přijímací pohovor (např. soustružník)
+- Střední úroveň – osobní dotazník, přijímací pohovor a zdravotní posouzení pro výkon práce (např. vedoucí oddělení)
+- Vyšší úroveň – několik kol výběrového řízení, rozhovor, ověřování různých druhů pracovní způsobilosti − odborná, organizační, psychická, (např. vyšší manažerské funkce)
 - __Trh práce__
 - nabídka	→ zastoupena domácnostmi
 
@@ -92,7 +92,7 @@ __Reálná mzda__ = kolik zboží a statků si může příjemce koupit
 
 = člen domácnosti pobírá tak vysokou reálnou mzdu, že další člen domácnosti upřednostní volný čas před nabídkou práce
 
-• __Rovnovážný bod__ \(N=P\)
+• __Rovnovážný bod__ (N=P)
 
 - všichni, kteří za danou mzdu chtějí pracovat, pracují
 - neměla by být nezaměstnanost
@@ -100,7 +100,7 @@ __Reálná mzda__ = kolik zboží a statků si může příjemce koupit
 • __Odbory__
 
 - hájí zájmy zaměstnanců
-- snaží se o zvýšení mezd \(např\. kolektivní smlouva\)
+- snaží se o zvýšení mezd (např. kolektivní smlouva)
 - Nezaměstnanost – N
 
 = projevem poruchy na trhu práce
@@ -120,14 +120,14 @@ __Reálná mzda__ = kolik zboží a statků si může příjemce koupit
 
 __Právní normy__
 
-1. Zákoník práce – poslední novela č\. 286/2017 Sb\.
-2. Nařízení vlády č\. 567/2006 Sb\. o minimální mzdě
+1. Zákoník práce – poslední novela č. 286/2017 Sb.
+2. Nařízení vlády č. 567/2006 Sb. o minimální mzdě
 
 __Kolektivní smlouva__
 
 = smlouva mezi zaměstnavatelem a zaměstnanci, kteří jsou zastupováni odborovou organizací
 
-- prosazují oprávněné zájmy a potřeby zaměstnanců \(zlepšení pracovních, zdravotních, sociálních a kulturních podmínek\)
+- prosazují oprávněné zájmy a potřeby zaměstnanců (zlepšení pracovních, zdravotních, sociálních a kulturních podmínek)
 - obsahuje: mzdový systém, formy mezd, pravidla pro poskytování prémií a odměn, minimální mzdy, systém mzdových zvýhodnění a příplatků – práce přesčas, ve svátek, zdraví škodlivé prostředí, práce v noci; splatnost mzdy a výplatní termíny
 
 __Zaručená mzda__
@@ -195,11 +195,11 @@ __v Kč za měsíc__
 __Základní formy mezd__
 
 1. Časová
-	- závisí na počtu odpracovaných hodin a HMT \(= hodinový mzdový tarif\)
+	- závisí na počtu odpracovaných hodin a HMT (= hodinový mzdový tarif)
 2. Úkolová
 	- závisí na HMT a na počtu operací/výrobků, které splní
 	- výkonová norma – času – VNČ = kolik času je potřeba na zhotovení 1 výrobku		− množství – VNM = kolik výrobků vyrobíme za 1 časovou		jednotku
-	- úkolová sazba = kolik zaměstnanec dostane za 1 kus \(v Kč/operace\)
+	- úkolová sazba = kolik zaměstnanec dostane za 1 kus (v Kč/operace)
 3. Podílová
 	- provize, je závislá na tržbách, obratu, atd…
 	- specifický druh úkolové
@@ -212,7 +212,7 @@ __Hrubá mzda__
 
 __Za neodpracovaný čas__
 
-\(náhrada mzdy\)
+(náhrada mzdy)
 
 1. Dovolená
 2. Státní svátek
@@ -225,11 +225,11 @@ __Za odpracovaný čas__
 	- prémie
 	- odměny
 	- příplatky za práci:
-		- přesčas \(25%\)
-		- v noci \(10%\)
-		- ve ztíženém prac\. prostředí \(10%\)
-		- pracovní pohotovost \(10%\)
-		- ve svátek \(100%\)
-		- o víkendu \(10%\)
+		- přesčas (25%)
+		- v noci (10%)
+		- ve ztíženém prac. prostředí (10%)
+		- pracovní pohotovost (10%)
+		- ve svátek (100%)
+		- o víkendu (10%)
 	- osobní ohodnocení
 	- podíly na hospodářském výsledku

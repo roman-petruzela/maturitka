@@ -107,7 +107,7 @@ source: "uvt/cv24_tiskarny.pdf"
 
 # Laserová tiskárna – princip činnosti
 
-#### **Jednobarevný tisk - černobílý**
+#### Jednobarevný tisk - černobílý
 
 - 1)Tiskový válec - elektricky vodivý válec pokrytý polovodivou selenovou vrstvou.
 

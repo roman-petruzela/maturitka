@@ -1,5 +1,5 @@
 ---
-title: "SOUKROME PRAVO"
+title: "Soukromé právo"
 order: 6
 source: "Společenské vědy/6. SOUKROME PRAVO.docx"
 ---

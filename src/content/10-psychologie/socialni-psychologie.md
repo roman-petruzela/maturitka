@@ -1,5 +1,5 @@
 ---
-title: "SOCIÁLNÍ PSYCHOLOGIE"
+title: "Sociální psychologie"
 source: "PSYCHOLOGIE/SOCIÁLNÍ-PSYCHOLOGIE.docx"
 ---
 1. __Sociální psychologie__
@@ -223,9 +223,9 @@ __Sociometerie__
 
 __Otázky, které se mohou v sociometrii objevit__
 
-((obrázek vynechán))
+<img src="/images/content/psychologie/socialni-psychologie/01.webp" alt="" width="276" loading="lazy" decoding="async">
 
-((obrázek vynechán))
+<img src="/images/content/psychologie/socialni-psychologie/02.webp" alt="" width="407" loading="lazy" decoding="async">
 
 U starších žáků je možné použít složitější otázky
 

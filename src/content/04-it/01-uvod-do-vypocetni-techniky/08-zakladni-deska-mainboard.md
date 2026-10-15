@@ -1,7 +1,7 @@
 ---
 title: "Základní deska (mainboard)"
 order: 8
-source: "uvt/cast1_07_mainboard.pdf"
+source: "uvt/cast1_07_mainboard.pdf; uvt/T03_zakladni_deska.pdf"
 ---
 Hlavním účelem základní desky je propojit jednotlivé součástky počítače do fungujícího celku a integrovaným součástem na základní desce poskytnout elektrické napájení.
 
@@ -56,7 +56,7 @@ Většina současných desek obsahuje tyto důležité součástí:
 
 - Konektory pro připojení spínaného napájecího zdroje
 
-## **Formáty základních desek**
+## Formáty základních desek
 
 - PC/XT - vytvořen firmou IBM. První deska pro domácí počítače, která se stala standardem.
 
@@ -70,7 +70,7 @@ Většina současných desek obsahuje tyto důležité součástí:
 
 - Specifické formáty – neodpovídají popsaným formátům. Většinou jsou vyrobeny pro konkrétní typ počítače. Příkladem jsou desky pro notebooky nebo desky počítačů firmy Compaq, HP, atd.
 
-## **Výběr základní desky**
+## Výběr základní desky
 
 Základní deska je prakticky nejdůležitější komponentou v počítači, stará se o komunikaci s procesorem a propojuje všechny ostatní části počítače (komponenty). Proto je vhodné při jejím výběru dbát na určitá pravidla:
 
@@ -113,3 +113,50 @@ Základní deska je prakticky nejdůležitější komponentou v počítači, sta
 8. **Formát (rozměry) základní desky**
 
 9. **Způsob uchycení chladičů**
+
+## Stručný přehled
+
+### Dělení desek
+
+**Podle procesoru:** AMD, Intel, ARM.
+
+**Podle použití:** PC, servery, pracovní stanice, mikropočítače (Arduino, Raspberry Pi).
+
+**Podle velikosti:**
+
+- AT (Advanced Technology)
+- ATX (Advanced Technology Extended)
+- BTX (Balanced Technology Extended)
+- microATX – o 25 % kratší než ATX
+- mini-ITX
+
+### Z čeho se základní deska skládá
+
+- sloty, sockety (patice), porty, piny
+- sběrnice
+- baterie
+- kondenzátory, cívky, rezistory, tranzistory, LED
+- procesory a mikroprocesory
+- deska plošných spojů
+
+### Konkrétní porty a patice
+
+- procesor (CPU) – socket, např. AM4
+- paměti – sloty DDR4
+- grafická karta – PCIe x16
+- rozšiřující karty – PCIe x4, x2, x1, PCI
+- disky – IDE/PATA, SATA, M.2, U.2
+- chladič (CPU, chipset) a ventilátory (CPU, přídavné)
+- COM / LPT (sériový RS-232, paralelní port) – myš, tiskárna
+- USB (2.0, 3.0, 3.1), gameport
+- VGA, HDMI, DisplayPort – monitor
+- LED a tlačítka předního panelu skříně – zapnutí, Reset, indikace disků a LAN
+- speaker, audio (reproduktory)
+- napájení ze zdroje – základní deska, CPU
+- PS/2 – klávesnice, myš
+
+### Chipset – čipová sada
+
+Nejdůležitější logický obvod – umožňuje komunikaci CPU s ostatními částmi základní desky. Integruje řadiče pro paměti, disky, rozhraní USB a další.
+
+**Úkol:** najít manuál pro vybranou základní desku (AMD, Intel) a vytisknout schéma desky.

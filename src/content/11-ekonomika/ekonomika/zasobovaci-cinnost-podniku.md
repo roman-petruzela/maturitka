@@ -7,13 +7,13 @@ source: "Ekonomika/4. Zásobovací činnost podniku.docx"
 - __Materiál__ – část oběžného majetku; stává se součástí koloběhu výroby
 - Materiálové zásoby:
 - __Základní materiál__ – tvoří podstatu výrobku
-- __Pomocný materiál__ – dotváří finální výrobek \(hřebík, lepidlo, barva\)
+- __Pomocný materiál__ – dotváří finální výrobek (hřebík, lepidlo, barva)
 - __Provozovací látky__ – slouží pro fungování podniku jako celku – úklidové prostředky
 - __Náhradní díly__ – slouží pro opravy DLHM
 - __Obaly__ – balí se konečný výrobek
 - __Oběžný majetek__ – určujeme počet obrátek, kolikrát se koloběh otočí za časový interval
 - __Počet obrátek__ = celková spotřeba/∅ zásoba
-- __Doba obratu__ \(jak dlouho trvá koloběh\) = 360\(dny v roce\)/počet obrátek
+- __Doba obratu__ (jak dlouho trvá koloběh) = 360(dny v roce)/počet obrátek
 - Oběžný majetek:
 - __Peníze__ – všechny hotovostní a bezhotovostní peníze
 - __Zásoby__ – Materiálové; výrobky; zboží – nakoupíme a bez změny prodáme
@@ -29,22 +29,22 @@ source: "Ekonomika/4. Zásobovací činnost podniku.docx"
 
 *Dílčí činnosti*
 
-1. Plánování materiálu \(viz obrázek str\. 2\)
+1. Plánování materiálu (viz obrázek str. 2)
 
 - Nejprve určíme spotřebu materiálu pro příslušný rok
-- Plán výroby \* technicko \- hospodářská norma spotřeby materiálu
+- Plán výroby \* technicko - hospodářská norma spotřeby materiálu
 - Dále potřebná výše zásob materiálu
 - Podoby:
 
-1. __Počáteční zásoby__ – 1\. 1\.
-2. __Konečné zásoby__ – 31\. 12\.
+1. __Počáteční zásoby__ – 1. 1.
+2. __Konečné zásoby__ – 31. 12.
 
-- __Nákup__ – určujeme pomocí tzv\. bilance
-- __Nákup = Konečná zásoba \+ spotřeba – počáteční zásoby__
-- __PZ__ = zásoba dnešního dne \+ veškeré dodávky do konce kalendářního roku – veškerá spotřeba do konce roku
+- __Nákup__ – určujeme pomocí tzv. bilance
+- __Nákup = Konečná zásoba + spotřeba – počáteční zásoby__
+- __PZ__ = zásoba dnešního dne + veškeré dodávky do konce kalendářního roku – veškerá spotřeba do konce roku
 - __SP__ = plán výroby \* technicko hospodářská norma spotřeby
-- __KZ__ = \(=normovaná zásoba, průměrná zásoba\); spočítá se jako časová norma zásob \* ∅ denní spotřeba
-- __Časová norma zásob__ = dodávkový cyklus/2 \+ pojistná zásoba \+ technická zásoba
+- __KZ__ = (=normovaná zásoba, průměrná zásoba); spočítá se jako časová norma zásob \* ∅ denní spotřeba
+- __Časová norma zásob__ = dodávkový cyklus/2 + pojistná zásoba + technická zásoba
 - výsledek ČNZ = den – na kolik dnů nám má vydržet běžná zásoba
 
 1. Pořizování materiálu
@@ -70,7 +70,7 @@ source: "Ekonomika/4. Zásobovací činnost podniku.docx"
 1. __Kvantitativní__ – kontrola množství
 2. __Kvalitativní__ – kontrola kvality – porovnávání s KS
 
-- Nekvalitní materiál se __reklamuje__ – provádí se písemně a uvádí se druh nespokojenosti a způsob náhrady \(výměna, vrácení peněz, bezplatná oprava\)
+- Nekvalitní materiál se __reklamuje__ – provádí se písemně a uvádí se druh nespokojenosti a způsob náhrady (výměna, vrácení peněz, bezplatná oprava)
 
 1. Skladování materiálu
 
@@ -94,7 +94,7 @@ source: "Ekonomika/4. Zásobovací činnost podniku.docx"
 
 1. __A__ – materiál, který se spotřebuje nejvíce; počítá se normovaná zásoba
 2. __B__ – velký počet druhů materiálu – dobře se nakupuje; počítá se minimální zásob
-3. __C__ \- Ostatní materiál – úklidové a čistící prostředky; nakupuje se ve velkém množství; je stanovena určitá peněžní částka
+3. __C__ - Ostatní materiál – úklidové a čistící prostředky; nakupuje se ve velkém množství; je stanovena určitá peněžní částka
 
 - Metoda „právě včas“
 - Firma __nemá__ __sklad ani skladníky__

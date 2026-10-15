@@ -92,6 +92,57 @@ Kompletní seznam je v [maturitních okruzích IT](/it/reference/maturitni-okruh
 
 Síťová témata se objevují i v okruzích kybernetické bezpečnosti (útoky na síť, DNS, protokoly vzdáleného přístupu) – viz [bezpečnost, správa a diagnostika](/it/pocitacove-site/20-bezpecnost-sprava-a-diagnostika-site/).
 
+## Cvičné písemky
+
+Otázky tří písemek k maturitním okruhům (body v závorce). U každé otázky je odkaz na stránku s odpovědí.
+
+**Okruhy 1 a 2 – počítačová síť a síťový model**
+
+1. Definujte počítačovou síť. (1 b) – [definice](/it/pocitacove-site/01-pocitacove-site-definice-pojmy-deleni-topologie-pristupove-metody/#co-je-počítačová-síť)
+2. Rozdělte počítačové sítě. (5 b) – [dělení sítí](/it/pocitacove-site/01-pocitacove-site-definice-pojmy-deleni-topologie-pristupove-metody/#dělení-počítačových-sítí)
+3. Jaké druhy topologií počítačových sítí máme? (2 b) – [topologie](/it/pocitacove-site/01-pocitacove-site-definice-pojmy-deleni-topologie-pristupove-metody/#topologie-sítě)
+4. Zakreslete tři nejčastější fyzické topologie sítí. (3 b)
+5. Jaké výpočtové modely (přístupy k počítači) znáte? (3 b) – [výpočetní model](/it/pocitacove-site/01-pocitacove-site-definice-pojmy-deleni-topologie-pristupove-metody/#výpočetní-model--role-uzlů-v-síti)
+6. Zakreslete schematické značky technické dokumentace sítě (datová zásuvka, kabeláž, průchodka zdí, průchodka stropem / podlahou…). (5 b) – [technická dokumentace](/it/pocitacove-site/19-technicka-dokumentace-site/)
+7. Jaké náležitosti musí mít technická dokumentace? (12 b) – [technická dokumentace](/it/pocitacove-site/19-technicka-dokumentace-site/)
+8. Jaké standardy znáte? (4 b) – [standardizace](/it/pocitacove-site/02-standardizace-model-iso-osi-a-tcp-ip/#standardizace-v-počítačových-sítích)
+9. Zakreslete všechny vrstvy ISO/OSI a porovnejte je s TCP/IP. (11 b) – [ISO/OSI a TCP/IP](/it/pocitacove-site/02-standardizace-model-iso-osi-a-tcp-ip/)
+10. Co je linkový broadcast, na které vrstvě se s ním setkáme a které zařízení s ním pracuje? (3 b) – [Ethernet a LAN](/it/pocitacove-site/08-ethernet-a-lan/)
+11. Který protokol zjistí MAC adresu vzdáleného počítače? (1 b) – [protokoly TCP/IP](/it/pocitacove-site/03-protokoly-tcp-ip/)
+12. Na které vrstvě se směruje a které zařízení to provádí? (2 b) – [směrování](/it/pocitacove-site/16-smerovani-a-routovaci-tabulka/)
+13. Co znamenají zkratky DHCP, DNS a FTP a kde se tyto protokoly používají? (6 b) – [protokoly TCP/IP](/it/pocitacove-site/03-protokoly-tcp-ip/)
+
+**Okruhy 3 a 4 – IP adresace a routování**
+
+1. Jaké jsou třídy IP adres a jejich vlastnosti? (10 b) – [třídy adres](/it/pocitacove-site/12-ipv4-adresovani/#třídy-ip-adres)
+2. K čemu slouží DHCP server, co musí být nastaveno a co znamená zkratka? (5 b) – [DHCP](/it/pocitacove-site/03-protokoly-tcp-ip/#dhcp-dynamic-host-configuration-protocol)
+3. Uveďte rozsahy privátních IP adres ve všech třídách. (3 b) – [privátní adresy](/it/pocitacove-site/12-ipv4-adresovani/#veřejné-a-privátní-adresy)
+4. Co znamená unicast, broadcast a anycast a ve které verzi IP existují? (6 b) – [druhy vysílání](/it/pocitacove-site/12-ipv4-adresovani/#druhy-vysílání), [IPv6](/it/pocitacove-site/15-ipv6-adresovani/)
+5. Co je CIDR? Uveďte příklad IP adresy. (2 b) – [CIDR](/it/pocitacove-site/13-cidr-podsitovani-a-vlsm/)
+6. Uveďte příklad IPv6 adresy. (2 b) – [IPv6](/it/pocitacove-site/15-ipv6-adresovani/)
+7. Spočítejte masku, NetID a broadcast pro adresu 1.2.3.4, má-li síť pojmout 129 počítačů. (3 b) – ||129 zařízení potřebuje 8 bitů pro zařízení ($2^8 - 2 = 254$, sedm bitů by dalo jen 126), maska /24 = 255.255.255.0, NetID 1.2.3.0, broadcast 1.2.3.255||
+8. Jaký aktivní prvek propojuje sítě? Napište jeho vlastnosti. (3 b) – [aktivní prvky](/it/pocitacove-site/07-aktivni-sitove-prvky-a-sitova-karta/#přehled-aktivních-prvků)
+9. Jaké údaje obsahuje routovací tabulka? (7 b) – [routovací tabulka](/it/pocitacove-site/16-smerovani-a-routovaci-tabulka/)
+10. Co znamenají zkratky NAT a PAT, jaké jsou varianty? Uveďte příklad. (4 b) – [NAT](/it/pocitacove-site/14-nat-preklad-adres/)
+11. Co znamená DNS, jak služba pracuje a jaké jsou typy záznamů? Uveďte příklad. (3 b) – [DNS](/it/pocitacove-site/17-dns-system-domenovych-jmen/)
+12. Jak chápete pojem Internet věcí? (bez bodů) – [Internet věcí](/it/pocitacove-site/04-internet/#internet-věcí-iot)
+
+**Okruhy 2, 5 a bezpečnost – protokoly a přenos informace**
+
+1. Vyjmenujte nejdůležitější položky hlavičky IPv4 a jejich význam. (5 b) – [hlavička IPv4](/it/pocitacove-site/11-ip-protokol-a-ipv4-datagram/#hlavička-ipv4-datagramu)
+2. Co znamená TCP a které služby ho používají? (5 b) – [protokoly TCP/IP](/it/pocitacove-site/03-protokoly-tcp-ip/)
+3. Počítač pošle `ping czc.cz` a s cílem ještě nekomunikoval – co se stane, aby odpověď došla zpět? (4 b) – [DNS](/it/pocitacove-site/17-dns-system-domenovych-jmen/), [ARP](/it/pocitacove-site/08-ethernet-a-lan/), [ICMP](/it/pocitacove-site/11-ip-protokol-a-ipv4-datagram/#icmp)
+4. Jaké programy a příkazy použijete k analýze provozu v síti? (4 b) – [diagnostika](/it/pocitacove-site/20-bezpecnost-sprava-a-diagnostika-site/#diagnostika-sítě)
+5. Jaké šifrovací protokoly znáte a které služby je používají? (4 b) – [bezpečnost sítě](/it/pocitacove-site/20-bezpecnost-sprava-a-diagnostika-site/)
+6. Co je asymetrická šifra? (2 b) – [šifrování](/it/kyberneticka-bezpecnost/01-zaklady-a-utoky/#symetrické-a-asymetrické-šifrování)
+7. Co všechno je potřeba na počítačové síti zabezpečit? (8 b) – [bezpečnost sítě](/it/pocitacove-site/20-bezpecnost-sprava-a-diagnostika-site/)
+8. Jaký je rozdíl mezi daty a informacemi? (2 b) – [informace a data](/it/pocitacove-site/05-informace-signaly-a-prenosovy-kanal/#informace-a-data)
+9. Nakreslete a popište analogový a digitální signál. (4 b) – [signál](/it/pocitacove-site/05-informace-signaly-a-prenosovy-kanal/#signál)
+10. Popište nebo zakreslete paralelní a sériový přenos dat. (4 b) – [způsoby přenosu](/it/pocitacove-site/05-informace-signaly-a-prenosovy-kanal/#způsoby-přenosu)
+11. Jaké druhy multiplexingu znáte? (3 b) – [multiplex](/it/pocitacove-site/05-informace-signaly-a-prenosovy-kanal/#multiplex)
+12. Zakreslete frekvenční multiplex. (2 b) – [multiplex](/it/pocitacove-site/05-informace-signaly-a-prenosovy-kanal/#multiplex)
+13. Zakreslete všechny typy modulace. (4 b) – [modulace](/it/pocitacove-site/05-informace-signaly-a-prenosovy-kanal/#modulace)
+
 ## Co je jen okrajové
 
 - **Historické technologie** – koaxiální Ethernet (10BASE5, 10BASE2), Token Ring, FDDI, X.25, Frame Relay, ATM, ISDN: stačí vědět, co byly a čím je nahradily.

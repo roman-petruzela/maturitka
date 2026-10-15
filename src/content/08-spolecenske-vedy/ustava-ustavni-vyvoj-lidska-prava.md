@@ -1,5 +1,5 @@
 ---
-title: "USTAVA, USTAVNI VYVOJ, LIDSKA PRAVA"
+title: "Ústava, ústavní vývoj, lidská práva"
 order: 14
 source: "Společenské vědy/14. USTAVA, USTAVNI VYVOJ, LIDSKA PRAVA.docx"
 ---

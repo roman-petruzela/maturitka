@@ -1,5 +1,5 @@
 ---
-title: "GEOGRAFIE ZEMĚDĚLSTVÍ"
+title: "Geografie zemědělství"
 order: 8
 source: "Zeměpis/Zeměpis GLP/8. GEOGRAFIE ZEMĚDĚLSTVÍ.docx"
 ---

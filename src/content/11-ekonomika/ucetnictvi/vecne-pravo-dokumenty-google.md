@@ -3,7 +3,7 @@ title: "Věcné právo Dokumenty Google"
 order: 26
 source: "Účetnictví/26. Věcné právo - Dokumenty Google.pdf"
 ---
-## **Základní  vymezení  věcí  a  majetku**
+## Základní  vymezení  věcí  a  majetku
 
 - předmětem  majetkových  vztahů  jsou  věci,  práva  nebo  jiné  majetkové  hodnoty
 
@@ -29,7 +29,7 @@ jinou  věcí  staly  součástí  věci  hlavní  (stavební  materiál  zabudo
 
 - jmění  osoby  tvoří  souhrn  jejího  majetku  a  jejích  dluhů
 
-### **Věci  hmotné**
+### Věci  hmotné
 
 –  hmotná  věc  je  ovladatelná  část  vnějšího  světa,  která  má  povahu  samostatného  předmětu
 
@@ -71,27 +71,27 @@ by  se  tím  hlavní  věc  znehodnotila  (kola  auta,  skříň  zabudovaná  
 
 trvale  užívány  společně  s  hlavní  věcí  (autolékárnička,  příslušenstvím  domu  je  osvětlovací těleso  nebo  kotel  ústředního  topení,  úrok  je  příslušenstvím  pohledávky)
 
-### **Věci  nehmotné**
+### Věci  nehmotné
 
 –  jsou  práva,  jejichž  povaha  to  připouští,  a  jiné  věci  bez  hmotné  podstaty  a  zřetelného prostorového  vymezení.  Jsou  to  především  produkty  myšlení,  které  v  prvotní  podobě,  před písemným  nebo  jiným  ztvárněním,  existují  pouze  jako  nápady  ve  vědomí  svých  původců  a jiní  lidé  je  nemohou  svými  smysly  poznat.
 
 –  patří  sem  např.  díla  literární,  vědecká  a  umělecká,  vynálezy,  průmyslové  vzory,  zlepšovací návrhy,  know-how,  ochranné  známky,  pohledávky
 
-## **Pojem  a  členění  věcných  práv**
+## Pojem  a  členění  věcných  práv
 
 –  zajišťují  moc  osoby  nad  věcí,  tato  moc  přechází  spolu  s  věcí  na  každého  jejího  nového nabyvatele
 
 –  cílem  právní  úpravy  je  ochrana  užívání  věcí,  ostatní  osoby  nesmějí  zasahovat  do  výkonu cizího věcného  práva
 
-## **Členění  věcných  práv**
+## Členění  věcných  práv
 
 1.  práva  k  věci  vlastní  –  držba,  vlastnické  právo,  spoluvlastnictví
 
 2.  práva  k  věci  cizí  –  právo  stavby,  věcná  břemena,  právo  zástavní,  právo  zadržovací
 
-### **Práva  k  věci  vlastní**
+### Práva  k  věci  vlastní
 
-### **Dražba**
+### Dražba
 
 - faktické  ovládání  věcí
 
@@ -105,7 +105,7 @@ rozlišujeme  držbu  poctivou  a  držbu  nepoctivou
 
 -  nepoctivý  držitel  =  drží  věc  nepoctivě,  protože  ví  nebo  mu  musí  být  z  okolností  známo,  že k  věci  nemá  žádné  právo  (např.  nálezce  ztracené  věci,  který  nalezenou  věc  nevydá)
 
-### **Právo  vlastnické**
+### Právo  vlastnické
 
 - nejvýznamnější  absolutní  právo
 
@@ -115,7 +115,7 @@ domáhat  vydání  své  věci  na  tom,  kdo  mu  ji  neprávem  zadržuje
 
 -  není  časově  ohraničeno,  má  trvalou  povahu
 
-### **Omezení  vlastnického  práva**
+### Omezení  vlastnického  práva
 
 <u>a)  Omezení  vlastnického  práva  na  základě  vztahů  mezi  souse dy</u>
 
@@ -145,13 +145,13 @@ aby  ze  stavby  nestékala  voda  nebo  nepadal  sníh  nebo  led  na  jeho  po
 
 právo  jiné  osobě  (dání  věci  do  nájmu,  do  zástavy  apod.).
 
-### **Nabývání  vlastnictví**
+### Nabývání  vlastnictví
 
 **1.  smlouvou** -  např.  kupní,  směnnou,  darovací
 
 **2.  rozhodnutím  státního  orgánu** -  např.  soudní  vypořádání  zrušeného  společného  jmění manželů
 
-### **3.  děděním**
+### 3.  děděním
 
 **4.  přírůstkem** -  přirozené  přírůstky  (plodiny,  mláďata),  jiné  výnosy  (např.  úroky,  dividendy apod.)
 
@@ -159,7 +159,7 @@ právo  jiné  osobě  (dání  věci  do  nájmu,  do  zástavy  apod.).
 
 –  nálezem  ztracené  věci  nálezce  nenabývá  vlastnictví.  Je  povinen  vydat  věc  vlastníku,  popř. obci  nebo  provozovateli  dopravního  prostředku,  ve  kterém  byla  věc  nalezena.  Nálezce  má nárok  na  náhradu  nutných  výdajů  a  na  nálezné  ve  výši  10  %  ceny  nalezené  věci.
 
-## **Spoluvlastnictví**
+## Spoluvlastnictví
 
 -  věc  je  ve  vlastnictví  dvou  nebo  více  osob  a  vzhledem  k  věci  jako  celku,  se  spoluvlastníci považují  za  jedinou  osobu  a  nakládají  s  věcí  jako  jediná  osoba  (často  vzniká  děděním,  ale
 
@@ -169,7 +169,7 @@ právo  jiné  osobě  (dání  věci  do  nájmu,  do  zástavy  apod.).
 
 -  přídatné  spoluvlastnictví  →  věc  náležící  společně  několika  vlastníkům  samostatných  věcí určených  k  takovému  užívání,  že  tyto  věci  vytvářejí  místně  i  účelem  vymezený  celek,  a  která slouží  společnému  účelu  tak,  že  bez  ní  není  užívání  samostatných  věcí  možné
 
-## **Právo  duševního  vlastnictví**
+## Právo  duševního  vlastnictví
 
 - právní  vztah  založený  na  vlastnictví  nehmotných  produktů  duševní  práce,  které  mají majetkovou  hodnotu,  nazýváme  právem  duševního  vlastnictví
 
@@ -181,9 +181,9 @@ svého  autorství;  trvá  celý  život  autora  a  pak  70  let  po  jeho  sm
 
 průmyslových  vzorů)
 
-## **Práva  k  věcem  cizím**
+## Práva  k  věcem  cizím
 
-### **Právo  stavby**
+### Právo  stavby
 
 -  věcné  právo  stavebníka  mít  stavbu  na  pozemku  jiného  vlastníka
 
@@ -193,7 +193,7 @@ průmyslových  vzorů)
 
 toto  právo  nabývá  jen  na  dobu  40  let  (soud  může  tuto  dobu  zkrátit  nebo  prodloužit) -  stavebník  má  předkupní  právo  k  pozemku  a  vlastník  pozemku  má  předkupní  právo  ke stavbě
 
-### **Věcná  břemena**
+### Věcná  břemena
 
 -  věc  může  být  zatížena  věcným  břemenem  neboli  služebností,  která  zakládá  povinnost vlastníka
 
@@ -203,7 +203,7 @@ věci  něco  trpět  nebo  něčeho  se  zdržet  ve  prospěch  oprávněné  
 
 (právo  z  ní  vyplývající  patří  určité  osobě  –  např.  původní  majitel  má  právo  doživotního bezplatného  bydlení  v  prodaném  domě)
 
-### **Zástavní  právo**
+### Zástavní  právo
 
 –  zřízením  zástavního  práva  vzniká  věřiteli  oprávnění,  nesplní-li  dlužník  dluh  řádně  a  včas, uspokojit  se  z  výtěžku  zpeněžení  zástavy  (např.  ve  veřejné  dražbě)
 
@@ -211,13 +211,13 @@ věci  něco  trpět  nebo  něčeho  se  zdržet  ve  prospěch  oprávněné  
 
 –  zastavením  pohledávky,  která  je  sama  zajištěna  zástavou,  vzniká  PRÁVO  PODZÁSTAVNÍ
 
-### **Zadržovací  právo**
+### Zadržovací  právo
 
 - toto  právo  umožňuje  věřiteli  zadržet  movitou  věc,  jejímž  vlastníkem  je  dlužník,  za  účelem
 
 zajištění  své  splatné  (až  na  výjimky)  peněžní  pohledávky
 
-## **Dědické  právo**
+## Dědické  právo
 
 - přechod  majetku  zemřelého  na  dědice
 
@@ -229,7 +229,7 @@ zajištění  své  splatné  (až  na  výjimky)  peněžní  pohledávky
 
 - pokud  nedědí  nikdo,  připadá  pozůstalost  státu,  označujeme  ji  jako  odúmrť
 
-### **Dědická  nezpůsobilost**
+### Dědická  nezpůsobilost
 
 - nedědí  ten,  kdo  spáchal  úmyslný  trestný  čin  proti  zůstaviteli,  jeho  předku,  potomku  nebo
 
@@ -247,7 +247,7 @@ vyloučen  jako  zákonný  dědic
 
 -  pokud  byl  rodič  zbaven  odpovědnosti,  kvůli  zneužívání  a  zanedbávání,  je  vyloučen  z dědického  práva po  dítěti
 
-### **Zřeknutí  se  dědického  práva**
+### Zřeknutí  se  dědického  práva
 
 - předem  smlouvou  se  zůstavitelem;  není-li  jinak  ujednáno,  působí  zřeknutí  i  proti  potomkům
 
@@ -257,7 +257,7 @@ díl,  nezříká  se  dědické  posloupnosti
 
 - smlouva  vyžaduje  formu  veřejné  listiny
 
-### **Odmítnutí  dědictví**
+### Odmítnutí  dědictví
 
 - dědic  má  právo  odmítnout;  smluvní  dědic  jen,  pokud  to  není  dědickou  smlouvou  vyloučeno
 
@@ -271,7 +271,7 @@ soud  přiměřeně  odložit)
 
 - odmítnutí  dědictví  s  podmínkami,  výhradami  nebo  jen  zčásti  je  neplatné
 
-### **Způsoby  zdědění  majetku**
+### Způsoby  zdědění  majetku
 
 - závěť
 
@@ -281,7 +281,7 @@ soud  přiměřeně  odložit)
 
 - všechny  3  způsoby  současně  (část  se  dědí  podle  závěti,  část  podle  smlouvy...)
 
-### **Dědění  ze  závěti**
+### Dědění  ze  závěti
 
 - závěť  (poslední  vůle/testament)  –  písemný  dokument,  jednostranný  projev  vůle,  přání občana
 
@@ -289,7 +289,7 @@ soud  přiměřeně  odložit)
 
 - nabývá  účinnosti  po  smrti  zůstavitele,  do  té  doby  může  být  závěť  zrušena:  odvoláním  musí mít  stejné  náležitosti  jako  závěť),  zničením  listiny  (na  které  je  sepsána),  později  napsaná závěť  ruší  závěť  předcházející
 
-### **Obsah  závěti**
+### Obsah  závěti
 
 - den,  měsíc,  rok,  kdy  byla  podepsána
 
@@ -299,7 +299,7 @@ soud  přiměřeně  odložit)
 
 - konkrétní  majetek,  který  má  zdědit
 
-### **Formy  závěti**
+### Formy  závěti
 
 - notářský  zápis
 
@@ -309,7 +309,7 @@ soud  přiměřeně  odložit)
 
 - závěť  pořízená  jiným  zákonným  způsobem
 
-### **Dědická  smlouva**
+### Dědická  smlouva
 
 - forma  veřejné  listiny
 
@@ -323,7 +323,7 @@ soud  přiměřeně  odložit)
 
 chce-li  zůstavitel  zanechat  smluvnímu  dědici  i  1/4,  učiní  tak  závětí
 
-### **Dědění  ze  zákona**
+### Dědění  ze  zákona
 
 - dědí  tak  příbuzní  a  blízké  osoby  podle  dědických  tříd  –  je  jich  6
 
@@ -343,7 +343,7 @@ rok  ve  společné  domácnosti;  manžel  dědí  nejméně  polovinu,  ostatn
 
 zůstavitele  a  potomci  prarodičů  zůstavitele.  Nedědí-li  některý  potomek  prarodičů,  dědí  jeho děti.
 
-### **Neopominutelní  dědicové**
+### Neopominutelní  dědicové
 
 - potomci  zůstavitele,  nedědí-li,  pak  jsou  to  jejich  děti
 
@@ -353,7 +353,7 @@ zůstavitele  a  potomci  prarodičů  zůstavitele.  Nedědí-li  některý  po
 
 - zletilý  musí  dostat  alespoň  1/4  jeho  zákonného  dědického  podílu
 
-### **Vydědění**
+### Vydědění
 
 - nepominutelného  dědice  lze  vyloučit  z  práva  na  podíl  ze  závažných  důvodů:
 

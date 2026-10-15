@@ -11,7 +11,7 @@ source: "Zeměpis/Zeměpis GLP/25. Německo a Alpské země.docx"
 - řeky mají energetický potenciál
 - přechodné klima středoevropského typu
 
-Státy
+## Státy
 
 - Slovinsko – Lublaň
 - Švýcarsko – Bern
@@ -20,26 +20,26 @@ Státy
 - Itálie – Řím
 - Francie – Paříž
 
-Slovinsko
+## Slovinsko
 
 - nejvýznamnější, nejvyspělejší stát oblasti
 - velkou část zabírají hory, z Rakouska, z Itálie zasahují Alpy
 - Julské Alpy – s masivem Triglav
-- řeky: Sáva \(nejdelší\), Dráva, Mura – v místě vytékání ze státu \- nížiny
-- podnebí:severozápad má alpské podnebí\.
+- řeky: Sáva (nejdelší), Dráva, Mura – v místě vytékání ze státu - nížiny
+- podnebí:severozápad má alpské podnebí.
 - pobřeží a západní Slovinsko až na sever středomořské klima
-- východ Slovinska má kontinentální podnebí s horkými léty a studenými zimami\.
-- odtržení a konflikty postihly ekonomiku, klesl cestovní ruch \(znovu narůstá\) – důležitý zdroj příjmů
+- východ Slovinska má kontinentální podnebí s horkými léty a studenými zimami.
+- odtržení a konflikty postihly ekonomiku, klesl cestovní ruch (znovu narůstá) – důležitý zdroj příjmů
 - zvýšila se závislost na průmyslu a zemědělství
 - velké množství termálních pramenů
 - více než polovinu území pokrývají lesy
 - kvalitní průmysl
 - chov: prasata, skot
 - pěstuje se: brambory, pšenice, kukuřice, ovoce, cukrová třtina, vinná réva, pohanka
-- elektrická energie \- jaderná elektrárna, ⅓  tepelné elektrárny, zbytek vodní el\.
-- těžba: hnědé uhlí, lignit, rtuť, olovnato\-zinková ruda
+- elektrická energie - jaderná elektrárna, ⅓  tepelné elektrárny, zbytek vodní el.
+- těžba: hnědé uhlí, lignit, rtuť, olovnato-zinková ruda
 
-Švýcarsko
+## Švýcarsko
 
 - Alpy, Švýcarská plošina, Jura
 - města: Bern, Ženeva, Curych
@@ -55,20 +55,20 @@ Slovinsko
 - finančnictví, bankovnictví
 - malé zdroje NB – obory méně náročné na materiál
 - hodinářství, optické přístroje, výroba nožů, střelných zbraní, syntetických látek, výroba čokolády
-- chov: skot \(maso i mléko\)
+- chov: skot (maso i mléko)
 - pěstuje se: vinná réva, obilniny
 - cestovní ruch
 - horská střediska
 
-Rakousko
+## Rakousko
 
 - hornaté území
 - města: Innsbruck, Salzburg, Vídeň, Linz
 - Vysoké a Nízké Taury, Alpy
-- na SZ \- Vídeňská pánev \- součást Panonské pánve
+- na SZ - Vídeňská pánev - součást Panonské pánve
 - mírné kontinentální klima, místy vysokohorské mikroklima
 - řeky: Dunaj, Inn, Dráva
-- jezera: Neziderské, Atterské, Wolfgangsee,\.\.
+- jezera: Neziderské, Atterské, Wolfgangsee,..
 - 9 spolkových republik: Vídeň, Dolní a Horní Rakousko, Tyrolsko, Salcbursko, Korutany, Štýrsko, Vorarlbersko, Burgenland
 - 85 % Rakušané, menšiny z okolních států
 - úřední jazyk němčina
@@ -78,9 +78,9 @@ Rakousko
 - těžba dřeva
 - 75 % energie z hydroelektráren
 - pěstuje se: obilniny, brambory, ovoce, zelenina, vinná réva
-- chov: skot \(maso i mléko\)
+- chov: skot (maso i mléko)
 
-Lichtenštejnsko
+## Lichtenštejnsko
 
 - Rhétské Alpy
 - města: Vaduz
@@ -93,32 +93,32 @@ Lichtenštejnsko
 - knížectví
 - velký význam – banky – výhodné daně
 
-NĚMECKO
+## NĚMECKO
 
 - spolková republika, nejlidnatější stát EU
-- spolkové republiky \(16\): Sársko, Bavorsko, Bádensko, Porýní – Falc, Hesensko, Severní Porýní – Vestfálsko, Šlesvicko – Holštýnsko, Braniborsko, Meklenbursko, Sasko, Dolní Sasko, Durynsko, Sasko – Anhaltsko, Brémy, Hamburk, Berlín
+- spolkové republiky (16): Sársko, Bavorsko, Bádensko, Porýní – Falc, Hesensko, Severní Porýní – Vestfálsko, Šlesvicko – Holštýnsko, Braniborsko, Meklenbursko, Sasko, Dolní Sasko, Durynsko, Sasko – Anhaltsko, Brémy, Hamburk, Berlín
 - vzniklo spojením dvou zemí
 - města: Berlín, Dortmund, Frankfurt, Mnichov, Norimberk, Stuttgart, Drážďany, Lipsko, Kiel, Rostock, Hamburg, Hannover, Brémy, Kolín
 - sever – Severoněmecká nížina – zarovnána ledovcem ve čtvrtohorách
 - Středoněmecká vysočina – Hercynské vrásnění, pohoří Harz
 - Bavorská plošina – Alpinské vrásnění
 - Alpy, Podhůří Alp – nejvyšší hora Zugspitze
-- souostroví: Severofríské a Východofríské o\. \(Severní moře\)
-- ostrovy: Fehmarn, Poel, Rujana, Usedom \(Baltské moře\)
-- podnebí: sever a západ – oceánské podnebí, jih a východ – subkontinentální p\.
+- souostroví: Severofríské a Východofríské o. (Severní moře)
+- ostrovy: Fehmarn, Poel, Rujana, Usedom (Baltské moře)
+- podnebí: sever a západ – oceánské podnebí, jih a východ – subkontinentální p.
 - řeky: Labe, Odra, Rýn, Mosela, Mohan, Dunaj, Inn
-- mnoho kanálů propojující jednotlivé řeky – např\.: Středoněmecký kanál
-- NB: černé a hnědé uhlí \(1\. místo na světě\), barevné kovy \(zinek, měď, olovo\), ropa, zemní plyn, železná ruda
-- většina obyvatel Němci \(91,5%\), Lužičtí Srbové, Dánové, Frísové \(0,25%\), cizí státní příslušníci \(8,25%\), mnoho přistěhovalců – Turecko, Itálie, Řecko, Polsko
+- mnoho kanálů propojující jednotlivé řeky – např.: Středoněmecký kanál
+- NB: černé a hnědé uhlí (1. místo na světě), barevné kovy (zinek, měď, olovo), ropa, zemní plyn, železná ruda
+- většina obyvatel Němci (91,5%), Lužičtí Srbové, Dánové, Frísové (0,25%), cizí státní příslušníci (8,25%), mnoho přistěhovalců – Turecko, Itálie, Řecko, Polsko
 - silná ekonomika
 - průmysl: hutnický, strojírenský, chemický, textilní, potravinářský, výroba aut, lodí, součástek do letadel, elektronika
-- strojírenství – výroba aut \(Volkswagen, Mercedes, Opel, BMW\)
-- potravinářský – mlékárny, pivovary \(ve výrobě piva na 2\. místě na světě\)
-- chemický, textilní, sklářský, elektrotechnika \(Siemens, Bosh\)
-- pěstuje se: obilniny \(sever\), chmel \(Bavorská plošina\), len, vinná réva, \(Alpy\)
+- strojírenství – výroba aut (Volkswagen, Mercedes, Opel, BMW)
+- potravinářský – mlékárny, pivovary (ve výrobě piva na 2. místě na světě)
+- chemický, textilní, sklářský, elektrotechnika (Siemens, Bosh)
+- pěstuje se: obilniny (sever), chmel (Bavorská plošina), len, vinná réva, (Alpy)
 - chov: skot, drůbež, prasata
 - pivovarnictví
 - přístavy: Brémy, Lübeck, Rostok, Hamburk, Rujana
 - cestovní ruch: Hannover, Frankfurt nad Mohanem, Mnichov, Berlín, Drážďany
-- říční přístav:propojení říční sítě \(Labe – Odra, Dunaj – Mohan\)
+- říční přístav:propojení říční sítě (Labe – Odra, Dunaj – Mohan)
 - člen OSN, EU, G8, NATO

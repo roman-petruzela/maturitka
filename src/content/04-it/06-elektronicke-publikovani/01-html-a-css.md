@@ -12,8 +12,8 @@ source: "IT/14. HTML a CSS.docx"
 - HTML dokument můžeme různými CSS soubory zajistit různé vzhledy, a naopak různým HTML souborům můžeme zajistit pomocí CSS stejný vzhled a jednotvárnost
 - Každý HTML soubor má pevně danou strukturu, která musí být dodržena, musí obsahovat:
 	- Začátek html souboru
-	- Hlavičku \(head\)
-	- Tělo \(body\)
+	- Hlavičku (head)
+	- Tělo (body)
 - HTML – používá se pro formátová textu a objektů, které se zobrazují ve webových prohlížečích
 - Statický jazyk – slouží pouze pro zobrazení
 - Dynamické technologie – JavaScript – dotváří web různými animacemi a interakcemi pro zpříjemnění prohlížení webových stránek
@@ -27,7 +27,7 @@ Div class / id
 
 Zobrazení
 
-- Pro zobrazení HTML dokumentů nám slouží webové prohlížeče\. Mezi nejznámější patří např\. Google Chrome, Mozilla Firefox, Microsoft Internet Explorer a Opera\.
+- Pro zobrazení HTML dokumentů nám slouží webové prohlížeče. Mezi nejznámější patří např. Google Chrome, Mozilla Firefox, Microsoft Internet Explorer a Opera.
 
 Základní HTML tagy
 
@@ -51,15 +51,15 @@ __CSS__
 - Můžeme definovat pro každý tag zvlášť
 - Je důležité propojit css soubor se souborem HTML pomocí tagu `<link>` jinak by CSS styly nefungovali
 - Každá syntaxe musí byt oddělena v rámci závorky střednikem
-- Zápis CSS h1 \{ color: blue; font\-size: 12px;\}
+- Zápis CSS h1 \{ color: blue; font-size: 12px;\}
 
 Nejznámější syntaxe
 
 - Fontsize \{\} = změní velikost písma
 - Color \{\} = změní barvu
-- Backgroung\-color \{\} = změní barvu pozadí celého dokumentu nebo určitého divu
-- Background\-image\{\} = nastaví na pozadí obrázek místo barvy
-- text\-align \{\} = zarovnání textu
+- Backgroung-color \{\} = změní barvu pozadí celého dokumentu nebo určitého divu
+- Background-image\{\} = nastaví na pozadí obrázek místo barvy
+- text-align \{\} = zarovnání textu
 - margin \{\} = velikost vnějšího okraje
 - padding \{\} = velikost vnitřního okraje
 - veškeré barvy jsou zadávány pomocí šestnáctkového značení nebo model RGB

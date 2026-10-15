@@ -1,5 +1,5 @@
 ---
-title: "1 BIOSFÉRA"
+title: "Biosféra"
 order: 6
 source: "Zeměpis/Zeměpis GLP/6.1 BIOSFÉRA.docx"
 ---

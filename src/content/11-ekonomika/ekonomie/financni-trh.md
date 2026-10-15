@@ -7,8 +7,8 @@ source: "Ekonomie/3.-Finanční-trh.docx"
 
 Člení se:
 
-- Peněžní trh \(bankovnictví, pojišťovnictví\)
-- Kapitálový trh \(obchodování s cennými papíry\)
+- Peněžní trh (bankovnictví, pojišťovnictví)
+- Kapitálový trh (obchodování s cennými papíry)
 - Trh drahých kovů
 - Devizový trh
 
@@ -44,56 +44,56 @@ __Nástroje:__
 
 __Cenné papíry__
 
-\-jsou vydávány \(emitovány\) ve velkých objemech
+\-jsou vydávány (emitovány) ve velkých objemech
 
 __Dělíme:__
 
-   1\)MAJETKOVÉ CENNÉ PAPÍRY
+   1)MAJETKOVÉ CENNÉ PAPÍRY
 
-- Představují část hodnoty majetku a přinášejí podíl z výnosů z podnikání \(akcie, podílový list\)
+- Představují část hodnoty majetku a přinášejí podíl z výnosů z podnikání (akcie, podílový list)
 
   X
 
-  ÚVĚROVÉ CENNÉ PAPÍRY
+## ÚVĚROVÉ CENNÉ PAPÍRY
 
 - Emitend se stává dlužníkem kupce cenného papíru
 - Investor je kupec cenného papíru
 - Dlužník prodává cenné papíry
 - Patří sem obligace a HZL
 
- __2\)__ KRÁTKODOBÉ CENNÉ PAPÍRY
+ __2)__ KRÁTKODOBÉ CENNÉ PAPÍRY
 
-- Jsou splatné do 1 roka \(šeky, směnky\)
+- Jsou splatné do 1 roka (šeky, směnky)
 
   X
 
   DLOUHODOBÉ CENNÉ PAPÍRY
 
-3\)LISTINNÉ \(materializované\)
+3)LISTINNÉ (materializované)
 
 X
 
-ZAKNIHOVANÉ
+## ZAKNIHOVANÉ
 
 - Depozitář cenných papírů
 
- __4\)__ NA JMÉNO \(konkrétní majitel\)
+ __4)__ NA JMÉNO (konkrétní majitel)
 
 X
 
-NA MAJITELE \(na doručitele\)
+NA MAJITELE (na doručitele)
 
-5\)VOLNĚ OBCHODOVATELNÉ
+5)VOLNĚ OBCHODOVATELNÉ
 
 - Majitel s nim může volně nakládat
 
   X
 
-  NEOBCHODOVATELNÉ
+## NEOBCHODOVATELNÉ
 
 - Nelze veřejně obchodovat
 
- 6\)STÁTNÍ
+ 6)STÁTNÍ
 
 - Emitentem je stát
 - Vydávány ve velkých objemech
@@ -103,13 +103,13 @@ NA MAJITELE \(na doručitele\)
 
  	X
 
-    SOUKROMÉ
+## SOUKROMÉ
 
 - Jsou emitovány firmami
 
   X
 
-  KOMUNÁLNÍ
+## KOMUNÁLNÍ
 
 - Jsou vydávány městami a obcemi
 - Jejich emise musí být schválena ministerstvem financí ČR
@@ -129,17 +129,17 @@ __Práva akcionáře:__
 __Druhy akcií:__
 
 1. Na jméno x Na majitele
-2. Kmenové \(základní\)
+2. Kmenové (základní)
 
-Speciální
+## Speciální
 
 - Úroková
 - Zaměstnanecká
-- Prioritní \(omezené právo, je první při výplatě dividenty\)
+- Prioritní (omezené právo, je první při výplatě dividenty)
 
 1. Zákonné x Listinné
 
-((obrázek vynechán))
+<img src="/images/content/ekonomika/ekonomie/financni-trh/01.webp" alt="" width="927" loading="lazy" decoding="async">
 
 __Dividenda__
 
@@ -158,8 +158,8 @@ Pro akciovou společnost slouží emise akcií jako zdroj financování investic
 
 __Podílové listy__
 
-- Je emitován podílovým fondem \(podílové fondy vznikly pro hromadné investování osob\)
-- Podíl fond shromáždí peníze od občanů i firem \(investoři\) vydá jim podílové listy a získaný kapitál investuje na kap\. Trhu
+- Je emitován podílovým fondem (podílové fondy vznikly pro hromadné investování osob)
+- Podíl fond shromáždí peníze od občanů i firem (investoři) vydá jim podílové listy a získaný kapitál investuje na kap. Trhu
 
 Cílem: dosažení zisku
 
@@ -172,17 +172,17 @@ Investor:
 
 __Obligace__
 
-- Uvěrový cenný papír \(dluhopis\), který vyjadřuje závazek emitenta k vlastníkovi obligace
-- Vydávány jsou na dobu určitou \(5, 10, 15 a více let\)
+- Uvěrový cenný papír (dluhopis), který vyjadřuje závazek emitenta k vlastníkovi obligace
+- Vydávány jsou na dobu určitou (5, 10, 15 a více let)
 - Jsou emitovány
 
 Vydávány:
 
 - Státní dluhopisy , Podniky
 - Banky
-- Obec \(jsou komunální\)
+- Obec (jsou komunální)
 
-Hypoteční zástavní list \(HZL\)
+## Hypoteční zástavní list (HZL)
 
 - Úvěrový cenný papír
 - Emitovaný „hypoteční bankou“
@@ -195,7 +195,7 @@ Materializované __x__ dematerializované
 Veřejně obchodovatelné __x__ neobchodovatelné
 
 - Potvrzuje přijetí terminovaného vkladu
-- Bývá vydán na 3 měsíce, půl roku max\. 5 let
+- Bývá vydán na 3 měsíce, půl roku max. 5 let
 
 B=banka
 
@@ -226,33 +226,33 @@ __Směnka__
 - Dlužní úpis mezi věřitelem a dlužníkem
 - Dle zákona směrného a šekového
 - Písemný závazek, forma není předepsaná¨
-- Vystavuje vždy dlužník \(FO, PO\)
+- Vystavuje vždy dlužník (FO, PO)
 
 1. Vlastní
 
 směnka
 
-Dlužník \(trasant\)
+Dlužník (trasant)
 
-Věřitel \(remitent\)
+Věřitel (remitent)
 
 __C__
 
-b\)
+b)
 
 __B__
 
 __A__
 
-- Směneční ručitel \(B\) musí směnku akceptovat\-podepsat
+- Směneční ručitel (B) musí směnku akceptovat-podepsat
 
 Splatnost směnky:
 
-- Vitasměnka \(na viděnou\)
+- Vitasměnka (na viděnou)
 - Jsou krátkodobé
-- Na určitou dobu \(poviděné\)
+- Na určitou dobu (poviděné)
 
-Fixní směnky
+## Fixní směnky
 
 - na určitý den
 
@@ -260,13 +260,13 @@ směnkou může věřitel dále:
 
 1. může prodat jiné osobě
 
-nový majitel se stává věřitelem a píše se na rubopis \(indosament\)
+nový majitel se stává věřitelem a píše se na rubopis (indosament)
 
 1. může s ní zaplatit
 2. nabídnout bance jako záruku při poskytnutí eskortního úvěru
 
-- při nesplacení směnky může její majitel vykonat tzv\. REGRES, což je finanční postich
-- při zaplacení směnky se opatří tzv\. „likvidační doložkou“
+- při nesplacení směnky může její majitel vykonat tzv. REGRES, což je finanční postich
+- při zaplacení směnky se opatří tzv. „likvidační doložkou“
 
   \-zaplaceno dne
 
@@ -290,11 +290,11 @@ __Vkladní knížky__
 
 Zbožové cenné papíry
 
-Konosament \(nákladní list\)
+## Konosament (nákladní list)
 
 - přepravce vystaví potvrzení, že zboží bylo naloženo
 
-Warant \(skladní list\)
+## Warant (skladní list)
 
 - právo nakládat s uskladněným zbožím
 
@@ -305,7 +305,7 @@ __Burzy cenných papírů__
  Znaky:
 
 - Obchoduje se s něčím, co není fyzicky přítomné
-- Obchodují pouze určený obchodníci \(makléř\)
+- Obchodují pouze určený obchodníci (makléř)
 - Obchoduje se podle předem stanovených pravidel
 
 Druhy:
@@ -320,14 +320,14 @@ Druhy:
 
 1. Burzy cenných papírů
 2. Devizové
-3. Komoditní \(zbožové\)
+3. Komoditní (zbožové)
 
-Např\. ropa, bavlna, káva, kakao, pomerančová šťáva, kovy
+Např. ropa, bavlna, káva, kakao, pomerančová šťáva, kovy
 
-Burzy v ČR
+## Burzy v ČR
 
-- Burza cenných papíru a\. s\.
-- RM\-systém\-online obchody Brno
+- Burza cenných papíru a. s.
+- RM-systém-online obchody Brno
 - Energetická burza
 - Komunitní burza v Praze
 - 1855 prozatimní burza
@@ -340,14 +340,14 @@ Obchoduje se dle:
 1. Burzovní řád
 2. Burzovní pravidla
 
-Řídící orgány
+## Řídící orgány
 
 - Valná hromada
 - Burzovní komora
 - Dozorčí rada
 - Jednotlivé výbory
 
-Akcionář
+## Akcionář
 
 - Stát ČNB
 - Finanční investice
@@ -364,4 +364,4 @@ Trh se dělí do 3 částí:
 
 Burza má dceřiné společnosti – CDCP
 
-  \(cent\. Depozitář CP\)
+  (cent. Depozitář CP)

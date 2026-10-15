@@ -4,7 +4,7 @@ order: 2
 source: "robotika1.pol/cv01_elektrotechnicke_znacky.pdf"
 ---
 
-# **Elektrotechnické značky**
+# Elektrotechnické značky
 
 ((obrázek vynechán))
 
@@ -16,17 +16,17 @@ spínač, přepínač
 
 tlačítko
 
-## **Logické funkce integrovaných obvodů**
+## Logické funkce integrovaných obvodů
 
-## **Zapojení kontaktního pole**
+## Zapojení kontaktního pole
 
 _Obrázek 1: Vodivé propojení na kontaktním poli_
 
-# **Arduino UNO - seznámení**
+# Arduino UNO - seznámení
 
 ((obrázek vynechán))
 
-## **Úkol:**
+## Úkol:
 
 Nalezněte všechny typy desek Arduino.
 

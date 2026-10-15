@@ -8,11 +8,11 @@ source: "Ekonomika/17. Kapitálový trh.docx"
 __Druhy KT__
 
 1. __Čas__
-	1. __Peněžní__ trh – obchod s penězi a cennými papíry splatné do 1 roku; hlavní úlohu na tomto trhu má ČNB, která provádí tzv\. operace na volném trhu
-	2. __Úvěrový__ trh – od komerčních bank \(úvěry\)
+	1. __Peněžní__ trh – obchod s penězi a cennými papíry splatné do 1 roku; hlavní úlohu na tomto trhu má ČNB, která provádí tzv. operace na volném trhu
+	2. __Úvěrový__ trh – od komerčních bank (úvěry)
 	3. __Kapitálový__ trh – obchody s penězi a cennými papíry nad 1 rok
-2. a\) __Primární__ trh – u nás je velmi malý, cenné papíry, které se poprvé dostávají na finanční trh; b\) __sekundární__ trh – převařuje, obchody s cennými papíry, které prošly primárním trhem
-3. a\) __anonymní__ – nezná se prodávajíc a kupující; b\) __osobní__ – prodávající a kupující se setká a dělí se na => ba\) __organizované__ – účastníkem je komerční banky; bb\) __neorganizované__ – účastníkem není komerční banka
+2. a) __Primární__ trh – u nás je velmi malý, cenné papíry, které se poprvé dostávají na finanční trh; b) __sekundární__ trh – převařuje, obchody s cennými papíry, které prošly primárním trhem
+3. a) __anonymní__ – nezná se prodávajíc a kupující; b) __osobní__ – prodávající a kupující se setká a dělí se na => ba) __organizované__ – účastníkem je komerční banky; bb) __neorganizované__ – účastníkem není komerční banka
 
 __Cenné papíry kapitálového trhu__
 
@@ -21,7 +21,7 @@ __Cenné papíry kapitálového trhu__
 3. __podílové__ __listy__ = vydávají je investiční společnosti; vydávají se pro kolektivní investování do CP
 	- jejich prodejem získává investiční společnosti peníze ze kterých vytváří investiční fond
 	- z těchto nakupují CP
-	- Podle => 1\) __peněžního__ trhu – nakupuje krátkodobé CP peněžního trhu; 2\) __akciové__ – kupuje jenom akcie; 3\) __obligační__ – pouze dluhopisy
+	- Podle => 1) __peněžního__ trhu – nakupuje krátkodobé CP peněžního trhu; 2) __akciové__ – kupuje jenom akcie; 3) __obligační__ – pouze dluhopisy
 	- Majiteli investičních fondů jsou zpravidla komerční banky
 4. __Úvěrové__
 5. __Dluhopis__ = obligace
@@ -42,16 +42,16 @@ __Cenné papíry peněžního trhu__
 __Burza CP__
 
 - Místo, kde se obchoduje v určitou dobu s určitým zbožím podle určitých pravidel
-- Druhy: a\) všeobecné – obchod s čímkoliv; b\) specializované – CP; Lodní prostor; devizové prostředky; komoditní
+- Druhy: a) všeobecné – obchod s čímkoliv; b) specializované – CP; Lodní prostor; devizové prostředky; komoditní
 
-__Burza Praha, a\. s\.__
+__Burza Praha, a. s.__
 
 - Specializace na CP; součást Evropské federace burz; domácí i cizí investoři obchodují
 - Orgány: valná hromada; burzovní komora; dozorčí orgán; komise
 - Právně upraveno zákonem o burzách, burzovním řádem, burzovní pravidla
 - Na činnosti dohlíží burzovní komisař
 
-__RM – systém burza, a\. s\.__
+__RM – systém burza, a. s.__
 
 - Určena pro drobné investory s CP; dceřiná společnost Burzy CP; obchoduje v určitém cenovém pásu
 

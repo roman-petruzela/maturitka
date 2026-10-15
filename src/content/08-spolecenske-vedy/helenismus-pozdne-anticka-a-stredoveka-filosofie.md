@@ -1,5 +1,5 @@
 ---
-title: "HELENISMUS, POZDNE ANTICKA A STREDOVEKA FILOSOFIE"
+title: "Helénismus, pozdně antická a středověká filosofie"
 order: 18
 source: "Společenské vědy/18. HELENISMUS, POZDNE ANTICKA A STREDOVEKA FILOSOFIE.docx"
 ---

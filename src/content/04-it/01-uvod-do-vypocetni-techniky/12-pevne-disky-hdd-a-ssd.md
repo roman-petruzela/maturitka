@@ -5,9 +5,9 @@ source: "uvt/cv18-19_HDD_SSD.pdf"
 ---
 Úvod do výpočetní techniky - UVT  - IT1
 
-# **HDD, SSD, … 2h+ 2h**
+# HDD, SSD, … 2h+ 2h
 
-## **Obsah**
+## Obsah
 
 |HDD, SSD, … 2h+ 2h..........................................................................................................................1|
 |---|
@@ -34,9 +34,9 @@ source: "uvt/cv18-19_HDD_SSD.pdf"
 |Čištění disků (Windows) a registrů Windows....................................................................................16|
 |Citace..................................................................................................................................................17|
 
-## **Dělení disků**
+## Dělení disků
 
-#### **_Dělení dle technologie:_**
+#### Dělení dle technologie:
 
 - HDD (Hard Disk Drive)
 
@@ -44,7 +44,7 @@ source: "uvt/cv18-19_HDD_SSD.pdf"
 
 - SSHD  (Solid State Hard Drive)
 
-#### **_Dělení dle rozhraní:_**
+#### Dělení dle rozhraní:
 
 _Doplňte přenosové rychlosti různých rozhranní a technologií:_
 
@@ -60,11 +60,11 @@ _Doplňte přenosové rychlosti různých rozhranní a technologií:_
 
 - USB
 
-## **úkol:**
+## úkol:
 
 Vytvořte tabulku verzí USB
 
-### **Tabulka srovnání USB technologií**
+### Tabulka srovnání USB technologií
 
 |Verze USB<br>USB 1.1<br>USB 2.0|Přenosová<br>rychlost<br>12 Mbit/s (Full<br>Speed)<br>480 Mbit/s<br>(Hi-Speed)|Konektory<br> <br>A, B<br>A, B|Poznámky<br>Starší verze,<br>dnes již méně<br>používaná<br>Nejrozšířenější<br>verze, zpětně<br>kompatibilní s<br>1.1<br>Znatelně vyšší|
 |---|---|---|---|
@@ -104,7 +104,7 @@ Vytvořte tabulku verzí USB
 
 - SCSI – SRV - zastaralé
 
-#### **_Dělení dle formátu:_**
+#### Dělení dle formátu:
 
 - 2,5“
 
@@ -116,7 +116,7 @@ Vytvořte tabulku verzí USB
 
 - M.2 – 2242, 2260, 2280 a 22110
 
-#### **_Dělení dle kapacity - plotnové:_**
+#### Dělení dle kapacity - plotnové:
 
 - **500 GB** – pro OS a programy
 
@@ -130,13 +130,13 @@ Vytvořte tabulku verzí USB
 
 - 4 TB … 22 TB (Seagate Exos X22 22TB – 9.1.2024)
 
-#### **_Dělení dle kapacity - SSD:_**
+#### Dělení dle kapacity - SSD:
 
 - 500 GB – pro OS
 
 - 1T … 7.68TB - pro data, první záloha (WD UltraStar DC SS300 VRI, 2,5" – 7,68TB – 9.1.2024)
 
-#### **_Dělení dle rychlosti otáčení ploten:_**
+#### Dělení dle rychlosti otáčení ploten:
 
 - 5400 - PC
 
@@ -154,7 +154,7 @@ Vytvořte tabulku verzí USB
 
 **_Otázka:_** Pro jaké zařízení je určen nalezený HDD?
 
-#### **_Dělení dle umístění:_**
+#### Dělení dle umístění:
 
 - PC
 
@@ -164,7 +164,7 @@ Vytvořte tabulku verzí USB
 
 - NAS
 
-## **Další technologie u disků:**
+## Další technologie u disků:
 
 **CHS** - Cylinder-Head-Sector, česky stopa-hlava-sektor nebo válec-povrch-výseč
 
@@ -258,7 +258,7 @@ Zakreslit rozdělení disku podle WIN/ Správa počítače / Správa disků
 
 ((obrázek vynechán))
 
-### **Programy pro práci s oddíly disků (partitions):**
+### Programy pro práci s oddíly disků (partitions):
 
 Acronis disk director
 
@@ -266,7 +266,7 @@ Acronis disk director
 
 Gparted (Linux Knoppix)
 
-##### **Program na převod MBR na GPT a opačně – windows: CMD:**
+##### Program na převod MBR na GPT a opačně – windows: CMD:
 
 - diskpart
 
@@ -286,7 +286,7 @@ Gparted (Linux Knoppix)
 
 - exit
 
-# **RAID (Redundant Array of Inexpensive Disks)**
+# RAID (Redundant Array of Inexpensive Disks)
 
 - vícenásobné diskové pole levných disků
 
@@ -294,9 +294,9 @@ Gparted (Linux Knoppix)
 
 Zabezpečení je realizováno specifickým ukládáním dat na více nezávislých disků, kdy jsou uložená data zachována i při selhání některého z nich. Úroveň zabezpečení se liší podle zvoleného typu RAID, které je označováno čísly – RAID 1.
 
-##### **RAID nenahrazuje zálohování dat!!!**
+##### RAID nenahrazuje zálohování dat!!!
 
-## **Typy diskových polí RAID**
+## Typy diskových polí RAID
 
 - hardwarová, kdy veškeré výpočetní funkce přebírá řadič,
 
@@ -304,7 +304,7 @@ Zabezpečení je realizováno specifickým ukládáním dat na více nezávislý
 
 - a softwarová, kam řadímě typicky linux, dynamické disky, LVM aj.
 
-## **Druhy RAID polí**
+## Druhy RAID polí
 
 Video: https://www.youtube.com/watch?v=11f2G5ryM_g nebo
 
@@ -314,7 +314,7 @@ Video: https://www.youtube.com/watch?v=11f2G5ryM_g nebo
 
 **JBOD a RAID 0 -** nepatří mezi skutečné fyzické zálohování; řetězení disků. Nevýhoda: v případě fyzického výpadku jednoho či více disků jsou data **_částečně nebo úplně ztracena_** .
 
-### **JBOD**
+### JBOD
 
 - Just a Bunch of Disks  - jde jen o spojení více disků do jednoho svazku (minimálně 2 disky). Používá se u malých síťových disků jako snadná forma rozšíření kapacity. Data jsou ukládána na disk první, dokud nedojde kapacita, pak se pokračuje zápisem na další disk.
 
@@ -324,7 +324,7 @@ _Nevýhoda_ : žádný výkonnostní zisk, v případě selhání jednoho z disk
 
 ((obrázek vynechán))
 
-### **RAID 0**
+### RAID 0
 
 - druhý typ neredundantního pole, data mezi dvěma a více disky prokládány bit po bitu (ABAB). (minimálně 2 disky)
 
@@ -334,7 +334,7 @@ _Nevýhoda_ : v případě selhání jednoho z disků jsou veškerá data ztrace
 
 ((obrázek vynechán))
 
-### **RAID 1**
+### RAID 1
 
 - nejčastěji používaný typ, Pole je tvořeno 2 disky, mezi kterými se veškeré data zrcadlí. Co je uloženo na disku A je zároveň uloženo i na disku B. (minimálně 2 disky – identické).
 
@@ -344,7 +344,7 @@ _Nevýhoda_ : nákladnost pořizování pole a nulový nárůst výkonu či kapa
 
 ((obrázek vynechán))
 
-### **RAID 5**
+### RAID 5
 
 **-** (minimálně 3 disky – identické), použití v data centrech. První dva disky jsou propojeny a data jsou prokládány mezi disky, třetí disk obsahuje samoopravovací kód.
 
@@ -356,7 +356,7 @@ RAID 5
 
 ((obrázek vynechán))
 
-### **RAID 6**
+### RAID 6
 
 **-** (minimálně 4 disky – identické) – obdoba RAID 5,  liší se však výpočtem samoopravných kódů. Skládá se minimálně ze čtyř disků. Na dvou discích se zapisují data a na dalších dvou jsou uloženy samoopravné kódy, přičemž každý se vypočítává jiným způsobem. Díky tomu je pole RAID 6 odolné proti selhání dvou disků najednou. Existuje také možnost, že by byly paritní informace rozloženy na všech čtyřech discích, ale tato konfigurace se příliš často nepoužívá.
 
@@ -368,7 +368,7 @@ RAID 6
 
 ((obrázek vynechán))
 
-## **Víceúrovňová pole**
+## Víceúrovňová pole
 
 RAID 10  a 01
 
@@ -382,17 +382,17 @@ RAID 60
 
 ((obrázek vynechán))
 
-### **Méně užívaná RAID pole**
+### Méně užívaná RAID pole
 
 RAID 2, RAID 3, RAID 4, RAID 7
 
 Pro domácnosti je nejlepší možnost využívat dvě malé RAID pole, přičemž jedno je aktivně využíváno a další data jsou uložena na externím disku, který není trvale připojen k počítači a je chráněný před smazáním.
 
-## **Úkol:**
+## Úkol:
 
 Jak se nastavují RAID 0,1 prakticky?
 
-# **Čištění disků (Windows) a registrů Windows**
+# Čištění disků (Windows) a registrů Windows
 
 ||Linux Mint|MS Windows|
 |---|---|---|
@@ -401,7 +401,7 @@ Jak se nastavují RAID 0,1 prakticky?
 ||-|Defraggler / WDC /|
 |Čištění registrů|- konfigurační soubory|Vlastní program Windows**NEMÁ**<br>Wise registry cleaner (WRC)  / CC<br>Cleaner /|
 
-# **Citace**
+# Citace
 
 <u>http://www.servispckupka.cz/jak-opravit-bootloader-mbr-gpt-windows.php http://www.servispckupka.cz/jak_prevest_GPT_disk_na_MBR_disk.php</u>
 

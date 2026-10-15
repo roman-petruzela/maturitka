@@ -14,11 +14,11 @@ source: "Účetnictví/23. Akciová společnost.docx"
 	- zahajovací rozvaha
 - způsoby zvýšení základního kapitálu akciové společnosti a jejich zaúčtování
 	- z vlastních zdrojů akciové společnosti
-	- zvýšení základního kapitálu upsáním nových akcií \(účtování v a\. s\. i u vkladatele\)
+	- zvýšení základního kapitálu upsáním nových akcií (účtování v a. s. i u vkladatele)
 	- emisní ážio
 - způsoby snížení základního kapitálu v akciové společnosti a jejich zaúčtování
 	- snížením nominální hodnoty akcií
-- hospodářský výsledek \(zisk\) v akciové společnosti a jeho rozdělení
+- hospodářský výsledek (zisk) v akciové společnosti a jeho rozdělení
 - vypořádání ztráty v akciové společnosti
 
 __Charakteristika akciové společnosti__
@@ -29,11 +29,11 @@ __Charakteristika akciové společnosti__
 
 − společníci: může mít jednoho či více společníků
 
-− založení společnosti: sepsáním společenské smlouvy \(zakladatelské listiny\)
+− založení společnosti: sepsáním společenské smlouvy (zakladatelské listiny)
 
 − vznik společnosti: dnem zápisu do obchodního rejstříku
 
-− orgány společnosti:	\- nejvyšší orgán – valná hromada
+− orgány společnosti:	- nejvyšší orgán – valná hromada
 
 \- statutární orgán:
 
@@ -55,57 +55,57 @@ __Charakteristika akciové společnosti__
 
 __Zahajovací rozvaha__
 
-((obrázek vynechán))
+<img src="/images/content/ekonomika/ucetnictvi/akciova-spolecnost/01.webp" alt="" width="424" loading="lazy" decoding="async">
 
 __Způsoby zvýšení základního kapitálu v akciové společnosti a jejich účtování__
 
-- Během existence a\.s\. může dojít ke zvýšení, ale i ke snížení ZK
+- Během existence a.s. může dojít ke zvýšení, ale i ke snížení ZK
 - Vždy o tom rozhoduje valná hromada akcionářů
 - Změna musí být zapsána v obchodním rejstříku a účtuje se o změnách prostřednictvím účtu 419, po zápisu 411
 
 1. __Z vlastních zdrojů akciové společnosti__
 
-- Probíhá stejně jako v s\. r\. o\. a je podmíněno:
+- Probíhá stejně jako v s. r. o. a je podmíněno:
 	- Schválením valnou hromadou
 	- Schválením účetní závěrky auditorem, a to bez výhrad
 - Ke zvýšení ZK pouze ty vlastní zdroje, které nejsou účelově vázány
 
 __Účtování:__
 
-1. Zvýšení ZK z vlastních zdrojů, které nebyli vytvořeny ze zisku	412 \(413\) / 419
+1. Zvýšení ZK z vlastních zdrojů, které nebyli vytvořeny ze zisku	412 (413) / 419
 
-\(po zápisu do OR 419 / 411\)
+(po zápisu do OR 419 / 411)
 
 1. Zvýšení ZK z vlastních zdrojů vytvořených ze zisku 	423,427,428,431 / 419
 
 - Výše základního kapitálu se nemění, mění se jen struktura
 
-1. __Zvýšení základního kapitálu upsáním nových akcií \(účtování u a\. s\. i u vkladatele\)__
+1. __Zvýšení základního kapitálu upsáním nových akcií (účtování u a. s. i u vkladatele)__
 
-- Podle obchodního zákoníku může a\. s\. zvýšit ZK takto:
+- Podle obchodního zákoníku může a. s. zvýšit ZK takto:
 
-1. Dalšími vklady \(peněžitými nebo nepeněžitými\)
+1. Dalšími vklady (peněžitými nebo nepeněžitými)
 	- Existují dvě možnosti:
-		- Upsáním nových akcií \(pokud byly splaceny všechny dříve upsané akcie\)
+		- Upsáním nových akcií (pokud byly splaceny všechny dříve upsané akcie)
 		- Vydáním dluhopisů vyměnitelných za akcie
 2. Z vlastních zdrojů
 3. Kombinovaný způsob
 
-((obrázek vynechán))
+<img src="/images/content/ekonomika/ucetnictvi/akciova-spolecnost/02.webp" alt="" width="626" loading="lazy" decoding="async">
 
 __Emisní ážio__
 
-- Emisní kurz je větší než jmenovitá hodnota \+ z toho nám vyplývá emisní ážio ve výši rozdílu
-- Při zvýšení ZK v již existující a\. s\. bývá obvyklé, že od nových akcionářů je požadována vyšší částka než je jmenovitá hodnota akci => jde o emisní ážio, které představuje „příplatek k jmenovité hodnotě“
+- Emisní kurz je větší než jmenovitá hodnota + z toho nám vyplývá emisní ážio ve výši rozdílu
+- Při zvýšení ZK v již existující a. s. bývá obvyklé, že od nových akcionářů je požadována vyšší částka než je jmenovitá hodnota akci => jde o emisní ážio, které představuje „příplatek k jmenovité hodnotě“
 - Emisní kurz nesmí být nikdy menší než jmenovitá hodnota akcie
-- Emisní ážio účtujeme na účtu 412 \(účet vlastních zdrojů\)
+- Emisní ážio účtujeme na účtu 412 (účet vlastních zdrojů)
 
 __Způsoby snížení základního kapitálu v akciové společnosti a jejich účtování__
 
 - Společnost může snižovat základní kapitál na základě rozhodnutí valné hromady
-- Snížení lze provést jen tehdy, jestliže se neklesne pod zákonem stanovenou hranici \(2 000 000 Kč\)
+- Snížení lze provést jen tehdy, jestliže se neklesne pod zákonem stanovenou hranici (2 000 000 Kč)
 - Dochází k němu:
-	- __Dobrovolně__ \- když se snižuje rozsah činnosti
+	- __Dobrovolně__ - když se snižuje rozsah činnosti
 	- __Vynuceně__
         - při dlouhodobější ztrátě
         - při dlouhodobější ztrátě se nejdříve uhrazuje z účtu 421, pokud nestačí ZRF, 		   tak z jiných fondů a nakonec se přistupuje ke snížení ZK
@@ -113,12 +113,12 @@ __Způsoby snížení základního kapitálu v akciové společnosti a jejich �
 
 __Různé povinnosti jak se ZK snižuje:__
 
-- V souladu s obchodní zákoníkem lze snížit ZK v a\. s\. takto:
-	1. Snížením jmenovité \(nominální\) hodnoty akcie
+- V souladu s obchodní zákoníkem lze snížit ZK v a. s. takto:
+	1. Snížením jmenovité (nominální) hodnoty akcie
 	2. Vzetím vlastních akcií z oběhu
 	3. Upuštěním od vydání nových akcií
 
-__a\. snížením nominální hodnoty akcií:__
+__a. snížením nominální hodnoty akcií:__
 
 1\. Snížení nominální hodnoty akcií	4 000 000 Kč	419 / 429
 
@@ -134,8 +134,8 @@ __Hospodářský výsledek a jeho rozdělení__
 
 4\. Podíly na zisku
 
-a\. akcionářům	431	364
+a. akcionářům	431	364
 
-b\. zaměstnanecké akcie	431	333
+b. zaměstnanecké akcie	431	333
 
-c\. tantiémy \(představenstvo, dozorčí rada\)	431	379
+c. tantiémy (představenstvo, dozorčí rada)	431	379

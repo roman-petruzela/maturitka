@@ -8,7 +8,7 @@ Rozcestník kategorie: o čem předmět je, kdy se podle ŠVP učí, co si z ně
 ## O předmětu
 
 - Programování robotického zařízení (LEGO Mindstorms EV3, blokové programování) a jednoduchého mikropočítače (Arduino Uno, jazyk vycházející z C/C++).
-- Na Arduinu se postupuje od blikání LED přes tlačítka, potenciometry a čidla k displejům (LCD po sběrnici I2C, sedmisegmentový displej, LED matice); každé cvičení má seznam součástek, zapojení a program.
+- Na Arduinu se postupuje od blikání LED přes tlačítka, potenciometry a čidla k displejům (LCD po sběrnici I2C, sedmisegmentový displej, LED matice) a dál k akčním členům (relé, krokový motor, servo) a dalším senzorům; každé cvičení má seznam součástek, zapojení a program.
 - Cílem je navrhnout, napsat a předvést vlastní program, který čte vstupy (senzory) a ovládá výstupy (LED, motory, displeje).
 - Navazuje na [programování](/it/#programovani) (proměnné, podmínky, cykly) a na logické funkce z [počítačových sítí](/it/pocitacove-site/23-booleova-algebra-a-logicke-funkce/).
 
@@ -49,12 +49,30 @@ Plné znění výstupů je v [přehledu ŠVP](/it/reference/svp-prehled/#4911-ro
 
 **Sběrnice I2C, čidla a displeje**
 
-- [Skener sběrnice I2C](/it/robotika/10-skener-sbernice-i2c/)
-- [I2C LCD displej](/it/robotika/11-i2c-lcd-displej/)
-- [Teplota na LCD displeji](/it/robotika/12-teplota-na-lcd-displeji/)
-- [Sedmisegmentový displej](/it/robotika/13-sedmisegmentovy-displej/)
-- [4místný segmentový displej](/it/robotika/14-4mistny-segmentovy-displej/)
-- [LED matice 8×8](/it/robotika/15-led-matice-8-8/)
+- [Čidlo teploty a vlhkosti DHT11](/it/robotika/10-cidlo-teploty-a-vlhkosti-dht11/) – instalace knihoven
+- [Skener sběrnice I2C](/it/robotika/11-skener-sbernice-i2c/)
+- [I2C LCD displej](/it/robotika/12-i2c-lcd-displej/)
+- [Teplota na LCD displeji](/it/robotika/13-teplota-na-lcd-displeji/)
+- [Sedmisegmentový displej](/it/robotika/14-sedmisegmentovy-displej/)
+- [4místný segmentový displej](/it/robotika/15-4mistny-segmentovy-displej/)
+- [LED matice 8×8](/it/robotika/16-led-matice-8-8/)
+
+**Akční členy**
+
+- [RGB LED](/it/robotika/17-rgb-led/) – míchání barev pomocí PWM
+- [Relé](/it/robotika/18-rele/)
+- [Krokový motor](/it/robotika/19-krokovy-motor/)
+- [Servo](/it/robotika/20-servo/)
+
+**Další senzory a vstupy**
+
+- [Fotorezistor](/it/robotika/21-fotorezistor/)
+- [Otřesové čidlo](/it/robotika/22-otresove-cidlo/)
+- [Senzor plamene](/it/robotika/23-senzor-plamene/)
+- [Infračervený přijímač](/it/robotika/24-infracerveny-prijimac/)
+- [Joystick PS2](/it/robotika/25-joystick-ps2/)
+- [Teplotní čidlo LM35](/it/robotika/26-teplotni-cidlo-lm35/)
+- [Vstupní systém pomocí hesla](/it/robotika/27-vstupni-system-pomoci-hesla/) – klávesnice, displej a relé dohromady
 
 ## Maturitní okruhy
 

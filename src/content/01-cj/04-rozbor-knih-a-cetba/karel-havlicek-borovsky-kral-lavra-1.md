@@ -4,46 +4,46 @@ order: 52
 source: "ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Karel Havlíček Borovský - Král Lávra (1)/Král Lávra.docx"
 tags: ["mimo-seznam-cetby"]
 ---
-__Autor:__              \-Karel Havlíček Borovský
+__Autor:__              -Karel Havlíček Borovský
 
 - Český básník, publicista a literární kritik, stal se klasikem
 
 české politické satiry
 
-\-Realismus, 2\.generace Národního obrození
+\-Realismus, 2.generace Národního obrození
 
 - Založil vlastní noviny – Národní noviny
 
 \-Psal epigramy – krátké satirické básně
 
-__Současníci :__    \- Božena Němcová, Karel Jaromír Erben
+__Současníci :__    - Božena Němcová, Karel Jaromír Erben
 
-__Díla :__                 \-Obrazy z Rus, Tyrolské elegie
+__Díla :__                 -Obrazy z Rus, Tyrolské elegie
 
-__Žánr :__                \-Alegorická satirická skladba, poezie
+__Žánr :__                -Alegorická satirická skladba, poezie
 
-__Druh :__               \-Lyricko\-epická skladba
+__Druh :__               -Lyricko-epická skladba
 
-__Směr :__               \- Realismus, 2\. generace národního obrození
+__Směr :__               - Realismus, 2. generace národního obrození
 
-__Postavy :__          \-__Král Lávra__ \- Starý dobrý král, lidé ho měli rádi, byl
+__Postavy :__          -__Král Lávra__ - Starý dobrý král, lidé ho měli rádi, byl
 
 moudrý a oblíbený, rovněž přihlouplý
 
-\-__Kukulín__ \- Holič, utrápený s potřebou se svěřit, syn vdovy
+\-__Kukulín__ - Holič, utrápený s potřebou se svěřit, syn vdovy
 
 \-__Poustevníček__
 
-((obrázek vynechán))                         \-__Červíček__ \- Hráč na kontrabas
+<img src="/images/content/cj/rozbor-knih-a-cetba/karel-havlicek-borovsky-kral-lavra-1/01.webp" alt="" width="771" loading="lazy" decoding="async">                         -__Červíček__ - Hráč na kontrabas
 
 - Téma, motiv
 - Kompoziční výstavba
 - Veršová výstavba
 
-__Doba:__                   \- Za rakouské nadvlády
+__Doba:__                   - Za rakouské nadvlády
 
-__Prostředí:__            \- Čechy, avšak v cizím světě
+__Prostředí:__            - Čechy, avšak v cizím světě
 
-__Jazykový styl:__      \-Spisovný, humorný, zastaralý, nepravidelné verše
+__Jazykový styl:__      -Spisovný, humorný, zastaralý, nepravidelné verše
 
 \-Metafory, fabule, metonymie, personifikace, elipsa

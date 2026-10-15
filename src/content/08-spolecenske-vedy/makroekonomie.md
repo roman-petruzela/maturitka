@@ -1,5 +1,5 @@
 ---
-title: "MAKROEKONOMIE"
+title: "Makroekonomie"
 order: 8
 source: "Společenské vědy/8. MAKROEKONOMIE.docx"
 ---
@@ -154,7 +154,7 @@ prodejem státních cenných papírů na kapitálovém trhu
                                                 výdajů na spotřebu\->snížení celkové poptávky\->skutečný HNP\(nižší\)
 2\)Poplatky soc\.pojištění\(nemocenská\)
 
-((obrázek vynechán))
+<img src="/images/content/spolecenske-vedy/makroekonomie/01.webp" alt="" width="156" loading="lazy" decoding="async">
 Lafferova křivka\- zobrazuje závislost celkové sumy vybraných daní na míře zdanění
 
 \- výdaje státního rozpočtu směřují do oblastí: podpory při nezaměstnanosti,
@@ -260,7 +260,7 @@ __HOSPODÁŘSKÝ CYKLUS__
   dlouhodobě udržitelný výstup dané ekonomiky, jehož je možné dosáhnout při plném využití
   dostupných výrobních faktorů\.
 
-((obrázek vynechán))Skládá se ze 4 fází:
+<img src="/images/content/spolecenske-vedy/makroekonomie/02.webp" alt="Hospodářský cyklus" width="303" loading="lazy" decoding="async">Skládá se ze 4 fází:
 __1\. Expanze__ \- ekonomika roste \(roste reálný HDP\), zvyšují se mzdy,výroba,investice,vznikají nové
                        pracovní příležitosti
 __2\. Vrchol__ – reálný produkt dosahuje svého maxima, většina výrobních faktorů je přetěžována, zvyšují

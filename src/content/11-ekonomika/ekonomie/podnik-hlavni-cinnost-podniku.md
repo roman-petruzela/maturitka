@@ -7,7 +7,7 @@ source: "Ekonomie/3. Podnik - hlavní činnost podniku.docx"
 
 - Pojem podnik a podnikání
 
-__Podnik =__ soubor složek hmotných \(stroje, budovy,…\), nehmotných \(software, licence,…\)a osobních \(zaměstnanci\)
+__Podnik =__ soubor složek hmotných (stroje, budovy,…), nehmotných (software, licence,…)a osobních (zaměstnanci)
 
 __Podnikání =__ soustavná činnost provozována samostatně, vlastním jménem, na vlastní odpovědnost a za účelem dosažení zisku
 
@@ -18,7 +18,7 @@ __Podnikání =__ soustavná činnost provozována samostatně, vlastním jméne
 
 - Typy podniků
 
-1. __Podle velikosti \(podle počtu zaměstnanců\)__
+1. __Podle velikosti (podle počtu zaměstnanců)__
 	1. nejmenší
 	2. malé
 	3. střední
@@ -34,7 +34,7 @@ __Podnikání =__ soustavná činnost provozována samostatně, vlastním jméne
 	1. ziskové
 	2. neziskové
 4. __Podle vlastnické formy a právní úpravy__
-	1. státní podniky \(státní podniky, rozpočtové a příspěvkové organizace, státí fondy\)
+	1. státní podniky (státní podniky, rozpočtové a příspěvkové organizace, státí fondy)
 	2. obchodní společnosti
 	3. družstva
 	4. živnosti
@@ -84,7 +84,7 @@ Valná hromada
 
 = hospodářské prostředky, kterými podnik disponuje a využívá pro svou podnikatelskou činnost
 
-__1\. Majetková struktura__
+__1. Majetková struktura__
 
 - podíl aktiv na celkovém majetku
 - ovlivňuje likviditu podniku → schopnost přeměnit aktiva na peníze
@@ -93,10 +93,10 @@ __1\. Majetková struktura__
 
 	oběžný majetek – oběžná aktiva
 
-__2\. Kapitálová struktura__
+__2. Kapitálová struktura__
 
 - struktura zdrojů, ze kterých byl majetek pořízen
-- sledujeme ji v účetních výkazech → rozvaha, výkaz zisků a ztrát a výkaz cashflow \(= tok peněz\)
+- sledujeme ji v účetních výkazech → rozvaha, výkaz zisků a ztrát a výkaz cashflow (= tok peněz)
 
 	vlastní kapitál
 

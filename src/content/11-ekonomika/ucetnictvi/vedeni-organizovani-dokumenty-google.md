@@ -3,7 +3,7 @@ title: "Vedení, organizování Dokumenty Google"
 order: 19
 source: "Účetnictví/19. Vedení, organizování - Dokumenty Google.pdf"
 ---
-## **Motivace**
+## Motivace
 
 - vnitřní  proces  utváření  cílů,  postojů  a  chování  člověka
 
@@ -19,7 +19,7 @@ source: "Účetnictví/19. Vedení, organizování - Dokumenty Google.pdf"
 
 - motiv  je  vnitřní  impuls,  pohnutka  a  podnět,  který  vede  člověka  k  jednání
 
-## **Motivační  nástroje**
+## Motivační  nástroje
 
 - manažeři  je  využívají  k  motivaci
 
@@ -29,7 +29,7 @@ source: "Účetnictví/19. Vedení, organizování - Dokumenty Google.pdf"
 
 - dělí  se  na  přímé  a  nepřímé
 
-### **<u>přímé  nástroje  řízení</u>**
+### <u>přímé  nástroje  řízení</u>
 
 - používá  je  manažer  v  případě,  že  se  opírá  o  direktivní  (příkazové)  příkazy  a  předpokládá kázeň  při  plnění  úkolů
 
@@ -41,7 +41,7 @@ source: "Účetnictví/19. Vedení, organizování - Dokumenty Google.pdf"
 
 - delegování  může  mít  pro  podřízeného  pracovníka  vysokou  motivační  hodnotu
 
-### **<u>nepřímé  nástroje  řízení</u>**
+### <u>nepřímé  nástroje  řízení</u>
 
 - řídící  opatření  mohou  mít  dlouhodobější  platnost
 
@@ -79,13 +79,13 @@ source: "Účetnictví/19. Vedení, organizování - Dokumenty Google.pdf"
 
 - kontrola  se  doporučuje  mezietapově
 
-## **Motivační  koncepce**
+## Motivační  koncepce
 
 - koncepce  motivace  se  během  let  měnila  a  vytvořilo  se  jich  mnoho
 
 - objevují  se  na  začátku  20.  století
 
-### **<u>koncepce  racionálně  ekonomického  chování  člověka:</u>**
+### <u>koncepce  racionálně  ekonomického  chování  člověka:</u>
 
    - vyvinula  se  v  prvních  desetiletích  20.  století
 
@@ -97,7 +97,7 @@ source: "Účetnictví/19. Vedení, organizování - Dokumenty Google.pdf"
 
 - vztah  mezi  nadřízeným  a  podřízeným  založen  pouze  na  příkazech,  ne  na  vzájemné  spolupráci
 
-### **<u>koncepce  sociálního  člověka</u>**
+### <u>koncepce  sociálního  člověka</u>
 
 - vznikla  v  polovině  20.  let  20.  století
 
@@ -109,7 +109,7 @@ source: "Účetnictví/19. Vedení, organizování - Dokumenty Google.pdf"
 
 - koncepce  vychází  z  předpokladu,  že  sociální  síly  uvnitř  skupiny  mohou  být  silnější,  než opatření  vedoucích  pracovníků
 
-### **<u>koncepce  realizujícího  se  člověka</u>**
+### <u>koncepce  realizujícího  se  člověka</u>
 
    - aktivní  role  pracovníka  v  časovém  procesu  a  jeho  touha  po  sebezdokonalování
 
@@ -125,7 +125,7 @@ source: "Účetnictví/19. Vedení, organizování - Dokumenty Google.pdf"
 
    - 5)  je  významné  využívat  intelektuální  schopnosti  pracovníků
 
-### **<u>koncepce  komplexního  člověka</u>**
+### <u>koncepce  komplexního  člověka</u>
 
 - vyvinula  se  v  80.  až  90.  letech  20  století
 
@@ -139,7 +139,7 @@ source: "Účetnictví/19. Vedení, organizování - Dokumenty Google.pdf"
 
 - člověk  je  podle  této  koncepce  mnohostranný,  schopný  přeměny  a  usiluje  o  různé  cíle  za různých  okolností
 
-## **Stimulace**
+## Stimulace
 
 - podnět  nebo  motiv  vycházející  z **okolního  prostředí** vedoucí  k  podnícení  aktivity  člověka
 
@@ -149,7 +149,7 @@ source: "Účetnictví/19. Vedení, organizování - Dokumenty Google.pdf"
 
 - jsou  to  vnější  popudy,  se  kterými  se  pracuje  při  řízení  podniku  (výše  mzdy  nebo  platu, pracovní  prostředí,  zaměstnanecké  benefity,  spoluúčast  na  řízení  a  chodu  organizace, spoluúčast  na  zisku  nebo  vlastnictví)
 
-## **Řízení  lidských  zdrojů**
+## Řízení  lidských  zdrojů
 
 - **předmětem  personálního  managementu  je:**
 
@@ -171,7 +171,7 @@ source: "Účetnictví/19. Vedení, organizování - Dokumenty Google.pdf"
 
 - prostor  pro  řízení  lidských  zdrojů  je  vymezen  dvěma  extrémními  body:  najmout  a  vyhodit  x <u>obrácené  řízení  (zapojením  nižších  pracovníků  do  řešení  a  cílů  firmy)</u>
 
-### **specifikace  požadavku  na  funkční  místo**
+### specifikace  požadavku  na  funkční  místo
 
 - popis  pracovních  míst  (kvalifikační  předpoklady,  odpovědnost,  návaznost  na  organizační  řád)
 
@@ -215,7 +215,7 @@ source: "Účetnictví/19. Vedení, organizování - Dokumenty Google.pdf"
 
 - specifická  pravidla  (motivace  pracovníků  k  loajalitě  s  firmou,  odměny  za  odpracované  roky, dodatková  dovolená)
 
-## **Profil  manažera**
+## Profil  manažera
 
 jeho  formální  autorita  má  korespondovat  s  přirozenou,  kterou  určuje:
 
@@ -239,7 +239,7 @@ jeho  formální  autorita  má  korespondovat  s  přirozenou,  kterou  určuje
 
 - j)  efektivně  a  odpovědně  využívá  moc
 
-## **Obecné  zásady  práce  manažera**
+## Obecné  zásady  práce  manažera
 
 - vždy  je  třeba  určit,  co  je  podstatné,  důležité,  na  co  se  zaměřit
 
@@ -253,7 +253,7 @@ jeho  formální  autorita  má  korespondovat  s  přirozenou,  kterou  určuje
 
 - respektovat  určující  “hlas  zákazníka”
 
-## **Styly  řízení**
+## Styly  řízení
 
    - forma  vztahu  manažera  k  spolupracovníkům
 
@@ -273,15 +273,15 @@ jeho  formální  autorita  má  korespondovat  s  přirozenou,  kterou  určuje
 
 - **b)  typ  kilimandžáro** (stále  upozorňovat  na  důležitost  své  práce,  i  přes  jednoduchost  úkolů)
 
-## **Organizování**
+## Organizování
 
-### **Podstata  a  smysl  organizování**
+### Podstata  a  smysl  organizování
 
 - organizování  je  vymezení  vzájemných  vztahů  lidí  a  prostředků  při  plnění  určitých  záměrů
 
 - s  organizováním  souvisí  vytvoření  struktury  firmy,  která  vyplývá  z  dělby  práce  a  tělesné  i duševní  kapacity  člověka,  která  je  omezena
 
-## **Vytváření  organizačních  struktur**
+## Vytváření  organizačních  struktur
 
 - organizační  struktura  vytváří  potřebné  předpoklady  pro  žádoucí  průběh  řízení
 
@@ -297,7 +297,7 @@ jeho  formální  autorita  má  korespondovat  s  přirozenou,  kterou  určuje
 
 - příliš  se  nerozšířila  (podřízení  dostávali  příkazy  od  různých  vedoucích,  t.j.  křížení  příkazů)
 
-### **liniově  štábní  struktura**
+### liniově  štábní  struktura
 
    - tvořena  výše  uvedenými  složkami
 
@@ -309,7 +309,7 @@ jeho  formální  autorita  má  korespondovat  s  přirozenou,  kterou  určuje
 
    - b)  vyšší  štábní  útvary  metodicky  usměrňují  nižší  štábní  útvary
 
-### **divizní  (divizionální)  organizační  struktura**
+### divizní  (divizionální)  organizační  struktura
 
 - společnost  je  rozdělena  na  samostatné  části  (divize),  jejich  vedoucím  je  přidělena  značná pravomoc,  každá  divize  tvoří  samostatný  ekonomický  celek
 
@@ -327,7 +327,7 @@ jeho  formální  autorita  má  korespondovat  s  přirozenou,  kterou  určuje
 
 - b)  v  pružných  organizačních  strukturách
 
-### **pružné  organizační  struktury**
+### pružné  organizační  struktury
 
 - reagují  na:
 

@@ -3,7 +3,7 @@ title: "Hospodářská politika státu, hodnocení národního hospodářsví Do
 order: 16
 source: "Účetnictví/16. Hospodářská politika státu, hodnocení národního hospodářsví - Dokumenty Google.pdf"
 ---
-## **Hospodářská  politika  státu**
+## Hospodářská  politika  státu
 
 Vláda  každého  státu  přijímá  různá  opatření,  kterými  řídí,  reguluje  nebo  usměrňuje  vývoj hospodářství.  Říkáme,  že  provádí  tzv.  hospodářskou  politiku.
 
@@ -15,7 +15,7 @@ Hospodářská  politika  státu
 
 - hospodářská  politika  je  regulace  a  usměrňování  vývoje  hospodářství  vládou  pomocí  různých opatření.  Je  to  spojení  ekonomiky  a  politiky.
 
-### **Subjekty  hospodářské  politiky**
+### Subjekty  hospodářské  politiky
 
 - **parlament** -  schvaluje  zákony,  které  vytváří  základní  hranice  pro  fungování  společnosti,
 
@@ -37,7 +37,7 @@ Hospodářská  politika  státu
 
 - má  na  starost  udržování  měnové  stability.
 
-### **Cíle  HP**
+### Cíle  HP
 
 **1.** -  zabezpečení  hospodářské  rovnováhy  při  optimálním  hospodářském  růstu
 
@@ -53,7 +53,7 @@ Hospodářská  politika  státu
 
 **Platební  bilance** -  souhrn  všech  peněžních  transakcí  dané  země  ve  styku  se  zahraničím  za určité  období  (zpravidla  1  rok)
 
-### **Nástroje  HP**
+### Nástroje  HP
 
 **1** .  -  státní  rozpočet  a  fiskální  politika  -  stát  mění  strukturu  a  výši  rozpočtových  příjmů  a výdajů  a  tím  působí  na  vývoj  hospodářství
 
@@ -69,7 +69,7 @@ Hospodářská  politika  státu
 
 Vedle  uvedených  nástrojů  působí  řada  vnějších  faktorů,  např.  vliv  počasí,  válečných konfliktů,  zahraniční  konkurence  apod.
 
-## **Hospodářský  cyklus**
+## Hospodářský  cyklus
 
 - ekonomické  dění  ve  společnosti  je  trvalým  pohybem,  trvalou  změnou,  stálým  kolísáním
 
@@ -95,13 +95,13 @@ Vedle  uvedených  nástrojů  působí  řada  vnějších  faktorů,  např.  
 
 - trendová  dráha  je  dráha,  po  níž  by  se  výstup  (HDP)  pohyboval,  kdyby  byly  výrobní  faktory plně  zaměstnány
 
-## **Základní  ukazatele  vývoje  národního  hospodářství**
+## Základní  ukazatele  vývoje  národního  hospodářství
 
-### **Hodnocení  národního  hospodářství**
+### Hodnocení  národního  hospodářství
 
 Existuje  řada  ukazatelů,  pomocí  nichž  můžeme  hodnotit  vývoj  národního  hospodářství každého  státu  a  také  provádět  srovnávání  ekonomik  jednotlivých  států.
 
-### **<u>Při  hodnocení  národního  hospodářství  jako  celku  je  třeba  sledovat:</u>**
+### <u>Při  hodnocení  národního  hospodářství  jako  celku  je  třeba  sledovat:</u>
 
 - velikost  a  tempo  růstu  celkového  produktu
 
@@ -115,13 +115,13 @@ Je  třeba  si  uvědomit,  že  tyto  veličiny  spolu  velmi  úzce  souvisí 
 
 Proto  se  často  označují  jako  tzv.  magický  čtyřúhelník.
 
-### **Celkový  produkt**
+### Celkový  produkt
 
 -  je  množství  statků  a  služeb,  které  ekonomika  vyprodukovala  za  určité  období (za  1  rok)
 
 Existuje  několik  variant  konkrétních  ukazatelů  měření  celkového  produktu.
 
-### **<u>Nejdůležitější  jsou:</u>**
+### <u>Nejdůležitější  jsou:</u>
 
 **•  Hrubý  domácí  produkt  (HDP)** -  souhrn  statků  a  služeb  vyjádřený  v  penězích  vytvořený  za určité  období  výrobními  faktory  na  území  státu,  bez  ohledu  na  to,  zda  jsou  vlastněny  občany státu  nebo  cizinci.  Ukazatel  HDP  je  počítán  na  územním  principu  a  preferují  ho  evropské země.
 
@@ -145,7 +145,7 @@ Dříve  jsme  uměli  sčítat  pouze  statky  a  služby,  které  prošly  le
 
 - **černá  ekonomika** -  příjmy  z  trestné  činnosti,  krádeží,  nelegálních  hazardních  her, prodeje  drog,..
 
-## **Inflace**
+## Inflace
 
 - je  znehodnocení  peněz,  v  praxi  se  projevuje  růstem  cenové  hladiny  (zvyšování  cen  zboží  a služeb)
 
@@ -155,9 +155,9 @@ V  souvislosti  s  inflací  musíme  rozlišovat  další  2  důležité  pojm
 
 **Dezinflace** -  znamená  zpomalení  růstu  cenové  hladiny  (např.  se  inflace  sníží  s  8  %  na  5  %)
 
-## **Příčiny  vzniku  a  existence  inflace**
+## Příčiny  vzniku  a  existence  inflace
 
-### **Příčiny  na  straně  poptávky  (poptávková  inflace)**
+### Příčiny  na  straně  poptávky  (poptávková  inflace)
 
 -  v  ekonomice  je  nadbytečná  poptávka,  do  oběhu  se  dostává  příliš  mnoho  peněz  (více,  než odpovídá  množství  zboží).
 
@@ -169,7 +169,7 @@ V  souvislosti  s  inflací  musíme  rozlišovat  další  2  důležité  pojm
 
 - nadměrné  úvěrování
 
-### **Příčiny  na  straně  nabídky  (nabídková  inflace)**
+### Příčiny  na  straně  nabídky  (nabídková  inflace)
 
 -  inflace  je  způsobená  nabídkou,  která  neodpovídá  poptávce  nebo  růstem  nákladů  na  výrobu  a poskytování  služeb.
 
@@ -179,7 +179,7 @@ Mezi  hlavní  příčiny  takového  stavu  patří:
 
 - zvyšování  cen  produktů  u  výrobků  s  dominantním  postavením  na  trhu  (neodpovídá zvýšení  užitné  hodnoty  statkům  a  služeb)
 
-### **Druhy  inflace**
+### Druhy  inflace
 
 Podle  velikosti  míry  inflace  rozlišujeme:
 
@@ -191,7 +191,7 @@ Podle  velikosti  míry  inflace  rozlišujeme:
 
 Ekonomický  systém  společnosti  se  úplně  rozpadá,  nastává  chaos  a  anarchie.  Tento  stav  je typický  především  pro  období  válečných  konfliktů,  politických  převratů  apod.
 
-### **Negativní  důsledky  inflace**
+### Negativní  důsledky  inflace
 
 - znehodnocuje  vklady  a  úvěry
 
@@ -199,7 +199,7 @@ Ekonomický  systém  společnosti  se  úplně  rozpadá,  nastává  chaos  a 
 
 - postihuje  skupiny  se  stálými  příjmy
 
-## **Platební  bilance**
+## Platební  bilance
 
 - porovnává  příjmy  a  výdaje  státu  vůči  zahraničí
 
@@ -215,7 +215,7 @@ Ekonomové  sledují  rozdíl  mezi  příjmy  a  výdaji  jednotlivých  polož
 
 A  naopak,  přebytek  znamená  zvýšení  našich  příjmů  -  může  se  odrazit  např.  ve  zvýšení devizových  rezerv.
 
-## **Nezaměstnanost**
+## Nezaměstnanost
 
 ### <u>Musíme  rozlišovat:</u>
 
@@ -231,7 +231,7 @@ A  naopak,  přebytek  znamená  zvýšení  našich  příjmů  -  může  se  
 
 - míra  přerozdělování  nezatížila  neúměrně  pracující  část  populace
 
-### **Příčiny  nezaměstnanosti**
+### Příčiny  nezaměstnanosti
 
 **•  frikční  nezaměstnanost** -  lidé  běžně  mění  svou  práci,  v  některé  práci  nejsou  spokojení, ukončí  pracovní  poměr  a  hledají  si  nové  zaměstnání.  Jde  o  přirozený  krátkodobý  jev,  který  je pro  tržní  hospodářství  pozitivní.
 
@@ -249,7 +249,7 @@ V  ČR  měří  nezaměstnanost  dvě  instituce
 
 - **Český  statistický  úřad** -  provádí  výběrová  šetření  v  terénu
 
-### **Negativní  důsledky  nezaměstnanosti**
+### Negativní  důsledky  nezaměstnanosti
 
 - ztráta  statků  a  služeb,  které  by  mohly  být  vytvořeny
 

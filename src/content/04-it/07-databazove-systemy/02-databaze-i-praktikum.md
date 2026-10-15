@@ -5,8 +5,6 @@ source: "IT/DAT_I-praktikum.pdf"
 ---
 ## Praktikum
 
-Střední Průmyslová škola ÚSTÍ NAD LABEM DAT I – Ladislav Kožej
-
 ### Úvod
 
 - Jazyk SQL není case sensitive. Doporučuji však hlavně v postgre sjednotit case v názvech.
@@ -41,7 +39,7 @@ Do rozhraní pro SQL se následně dostaneme ve webovém prohlížeči na adrese
 
 - Pro jiný port: localhost:[port_nr]/phpmyadmin
 
-###### **<u>Vytvoření databáze:</u>**
+###### <u>Vytvoření databáze:</u>
 
 Žlutá: Panel s databázemi a tlačítko pro vytvoření nové databáze. Červená: Porovnávání (collation). Nastavit **uft8_czech_ci** , pro česká data, která v hodinách používáme. **Důležité!**
 
@@ -53,7 +51,7 @@ Označíme tabulku v _Panelu s databázemi_ , klikneme v horním panelu na zálo
 
 _Toto rozhraní bychom používat_ **_neměli._**
 
-###### **<u>Rozhraní pro tvorbu SQL queries: part 2</u>**
+###### <u>Rozhraní pro tvorbu SQL queries: part 2</u>
 
 LADISLAV KOŽEJ 2
 
@@ -77,7 +75,7 @@ Až budete mít databázi vytvořenou, připojíte se k ní dvojklikem. Zpočát
 
 **Důležité:** PgAdmin počítá s business provozem, tudíž automaticky nerefreshuje (neobčerstvuje) při vytváření databázových objektů. Je potřeba po vytvoření kliknout pravým a **Občerstvit** ( **Refresh** ).
 
-###### **<u>Vytvoření databáze pgAdmin III:</u>**
+###### <u>Vytvoření databáze pgAdmin III:</u>
 
 LADISLAV KOŽEJ 3
 
@@ -97,7 +95,7 @@ Na obrázku je vidět anglická verze, jejíž názvy občas možná použiji. *
 
 ### Úkol 1
 
-###### **Pracujte graficky, následně vytvořte tabulku ještě jednou kódem.**
+###### Pracujte graficky, následně vytvořte tabulku ještě jednou kódem.
 
 Všechny sloupce jsou _NOT NULL_ , tabulka má na sloupci **id** _primární klíč_ a sloupec **registered** má _default current_timestamp_ .
 
@@ -193,7 +191,7 @@ LADISLAV KOŽEJ 7
 
 ### Úkol 3
 
-###### **Vytvořte kódem.**
+###### Vytvořte kódem.
 
 #### Řešení
 
@@ -305,9 +303,9 @@ LADISLAV KOŽEJ 9
 
 ### Úkol 4
 
-###### **Vytvořte kódem. Vložte řádky.**
+###### Vytvořte kódem. Vložte řádky.
 
-###### **Vložte cizí klíče.**
+###### Vložte cizí klíče.
 
 **Upravte v tabulce classrooms** **_code_ místnosti, kde má** **_building_ hodnotu 1 tak, že přidáte na začátek znak „S“. Smažte řádky v tabulce classrooms, kde** **_type_ je roven 2.**
 
@@ -374,7 +372,7 @@ first_name varchar(32) NOT NULL,
 last_name varchar(32) NOT NULL);
 ```
 
-`//TODO: Foreign keys` Spolčený insert, update, delete `INSERT INTO teachers (id_t, first_name, last_name) VALUES (1, 'Kamil', 'Balín'), (2, 'Aleš', 'Kučera'), (3, 'Ladislav', 'Kožej'), (4, 'Vratislav', 'Medřický'), (5, 'Josef', 'Mádle'), (6, 'Eva', 'Helešicová'); INSERT INTO classrooms (code, type, building) VALUES ('228', 2, 1), ('325', 2, 1), ('221', 1, 1), ('C24', 1, 1), ('C3', 1, 1), ('318', 1, 1); INSERT INTO classes (code,year,classroom) VALUES ('ITA',1,4), ('ITB',1,5), ('ITC',1,3), ('ITA',2,3), ('ITB',2,2), ('ITC',2,2); INSERT INTO students (first_name,last_name, class) VALUES ('Michal', 'Popčák', 1), ('Tomáš', 'Jedno', 2), ('Prokop', 'Buben', 3), ('Alois', 'Námořník', 4), ('Josef', 'Nesnesl', 5), ('Michal', 'Trouba', 6); UPDATE classrooms SET code = concat('S', code)`
+`//TODO: Foreign keys` Spolčený insert, update, delete `INSERT INTO teachers (id_t, first_name, last_name) VALUES (1, 'Jan', 'Novák'), (2, 'Petr', 'Svoboda'), (3, 'Tomáš', 'Dvořák'), (4, 'Pavel', 'Černý'), (5, 'Josef', 'Procházka'), (6, 'Eva', 'Veselá'); INSERT INTO classrooms (code, type, building) VALUES ('228', 2, 1), ('325', 2, 1), ('221', 1, 1), ('C24', 1, 1), ('C3', 1, 1), ('318', 1, 1); INSERT INTO classes (code,year,classroom) VALUES ('ITA',1,4), ('ITB',1,5), ('ITC',1,3), ('ITA',2,3), ('ITB',2,2), ('ITC',2,2); INSERT INTO students (first_name,last_name, class) VALUES ('Michal', 'Popčák', 1), ('Tomáš', 'Jedno', 2), ('Prokop', 'Buben', 3), ('Alois', 'Námořník', 4), ('Josef', 'Nesnesl', 5), ('Michal', 'Trouba', 6); UPDATE classrooms SET code = concat('S', code)`
 
 LADISLAV KOŽEJ 11
 
@@ -423,7 +421,7 @@ WHERE typ = 5 AND cena < 2000
 
 ### Úkol 6
 
-###### **Importujte dbOrders.**
+###### Importujte dbOrders.
 
 **Vypište všechny řádky a sloupce z tabulky items. Vypište sloupce: jméno | start_date ze zaměstnanců. Vypište řetězec Zam: jméno Nastoupil: (start_date). Vypište řetězec Zam: jméno Roční náklady: Vypište zaměstnance z oddělení 4, který nastoupil po roce 2005. Vypište Název zboží Cena bez daně: S dph: Daň: Vypište z Customers sloupce: id | zip | id name city zip Vypište z items id | price_tax kč | Pro 20 výrobků (cena pro dvacet kusů) po slevě (cena se slevou 60%) Vypište cenu v několika kurzech (co kurz to nový sloupec).**
 

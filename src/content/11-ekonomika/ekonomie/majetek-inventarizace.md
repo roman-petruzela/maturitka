@@ -7,7 +7,7 @@ __Majtek podniku, inventarizace__
 
 __Majetek podniku__ = prostředky, které podnik při své činností užívá
 
-1. __Dlouhodobý majetek__ \(slouží podniku dobu delší jak 1 rok, během používání neztrácí původní formu, pouze se postupně opotřebovává\)
+1. __Dlouhodobý majetek__ (slouží podniku dobu delší jak 1 rok, během používání neztrácí původní formu, pouze se postupně opotřebovává)
 
 → opotřebovává se
 
@@ -16,7 +16,7 @@ __Majetek podniku__ = prostředky, které podnik při své činností užívá
 	- dlouhodobý hmotný
 	- dlouhodobý finanční
 
-1. __Oběžný majetek__ \(slouží především k tomu, aby bylo z čeho vyrábět\)
+1. __Oběžný majetek__ (slouží především k tomu, aby bylo z čeho vyrábět)
 
 → spotřebovává se
 
@@ -76,22 +76,22 @@ __Způsoby pořízení dlouhodobého majetku__
 
 __Opotřebení majetku__
 
-- FYZICKÉ \(používá se\)
-- MORÁLNÍ \(technický pokrok\)
+- FYZICKÉ (používá se)
+- MORÁLNÍ (technický pokrok)
 
-\-roční opotřebení = odpisy \(daňové, účetní\)
+\-roční opotřebení = odpisy (daňové, účetní)
 
 __Oceňování majetku__
 
-- pořizovací cena = cena pořízení \+ ostatní výdaje s tím související
+- pořizovací cena = cena pořízení + ostatní výdaje s tím související
 - cena vlastních nákladů
 - reprodukční pořizovací cena
 
 __Evidence dlouhodobého majetku__
 
-1. Doklad o pořízení \(kdy, druh, osoby\)
-2. Invertární karta \(druh, in\. číslo, PC, datum do užívání, technické parametry, odpisový plán\)
-3. Doklad o vyřazení \(způsob likvidace, důvod, podpis odpisové osoby\)
+1. Doklad o pořízení (kdy, druh, osoby)
+2. Invertární karta (druh, in. číslo, PC, datum do užívání, technické parametry, odpisový plán)
+3. Doklad o vyřazení (způsob likvidace, důvod, podpis odpisové osoby)
 
 __Evidence zásob__
 
@@ -108,7 +108,7 @@ __Evidence peněz__
 
 __Evidence pohledávek__
 
-1. VYFA \(FAO\)
+1. VYFA (FAO)
 
 __Koloběh majetku__
 
@@ -117,29 +117,29 @@ __Koloběh majetku__
 
 __Rozvaha__
 
-A \(Aktiva\)
+A (Aktiva)
 
-P \(Pasiva\)
+P (Pasiva)
 
-\(Dlouhodobý majetek\)
+(Dlouhodobý majetek)
 
-- DNM \(Dlouhodobý nehmotný\)
-- DHM \(Dlouhodobý hmotný\)
-- DFM \(Dlouhodobý finanční\)
+- DNM (Dlouhodobý nehmotný)
+- DHM (Dlouhodobý hmotný)
+- DFM (Dlouhodobý finanční)
 
-\(Oběžný / krátkodobý\) majetek
+(Oběžný / krátkodobý) majetek
 
 - Zásoby
 - Pohledávky
-- KFM \(Krátkodobý finanční\)
+- KFM (Krátkodobý finanční)
 
-Vlastní zdroje
+## Vlastní zdroje
 
-- ZK \(Základní kapitál\)
-- F \(Fondy\)
-- HV \(Výsledek hospodaření\)
+- ZK (Základní kapitál)
+- F (Fondy)
+- HV (Výsledek hospodaření)
 
-Cizí zdroje
+## Cizí zdroje
 
 - Dlouhodobé
 - Krátkodobé
@@ -150,19 +150,19 @@ Součet PASIVA
 
 __Zdroje financování majetku__
 
-a\) Vlastní zdroje \(vlastní kapitál\)
+a) Vlastní zdroje (vlastní kapitál)
 
-b\) Cizí zdroje \(závazky\)
+b) Cizí zdroje (závazky)
 
-Vlastní zdroje
+## Vlastní zdroje
 
 - Vlastní kapitál = Majetek – Závazky
 - Typickým příkladem vlastního kapitálu jsou vklady podnikatele z osobního majetku do firmy a zisk podnikání
 
-Cizí zdroje
+## Cizí zdroje
 
-- Jsou bankovní úvěry, závazky vůči dodavatelům, závazky vůči zaměstnancům apod\.
-- Závazek \(dluh\) vyjadřuje povinnost účetní jednotky uhradit věřiteli určitou částku ve stanovené lhůtě
+- Jsou bankovní úvěry, závazky vůči dodavatelům, závazky vůči zaměstnancům apod.
+- Závazek (dluh) vyjadřuje povinnost účetní jednotky uhradit věřiteli určitou částku ve stanovené lhůtě
 
 __Inventarizace__ = porovnání skutečného stavu zásob na skladě s účetním stavem
 
@@ -174,22 +174,22 @@ __Fáze__
 2. fáze – porovnání skutečného stavu se stavem účetním
 3. fáze – vysvětlení příčin a vypořádání inventarizačních rozdílů
 
-__1\. fáze \(INVENTURA\)__
+__1. fáze (INVENTURA)__
 
-- fyzická \- provádí se u majetku hmotné povahy, přepočítáním, přeměřením a zvážením
-- dokladová \- u pohledávek, závazků, vkladových účtů podniku apod\.
+- fyzická - provádí se u majetku hmotné povahy, přepočítáním, přeměřením a zvážením
+- dokladová - u pohledávek, závazků, vkladových účtů podniku apod.
 
-__2\. fáze__
+__2. fáze__
 
 výsledkem je:
 
 - shoda – stavy se rovnají
 - přebytek – skutečný stav je větší než účetní
-- manko \(schodek – v pokladně a u cenin\) – účetní stav je větší než skutečný
+- manko (schodek – v pokladně a u cenin) – účetní stav je větší než skutečný
 
-__3\. fáze__
+__3. fáze__
 
-- např\. přirozený úbytek, chybné účtování, početní chyby, rozkrádání aj\.
+- např. přirozený úbytek, chybné účtování, početní chyby, rozkrádání aj.
 
 __Druhy inventarizace__
 

@@ -18,7 +18,7 @@ source: "Ekonomika/25. Ekonomie.docx"
 	- Cenová stabilita – každá ekonomika potřebuje určité % inflace
 	- Zahraniční obchod – tendence, aby dovoz byl menší než vývoz
 
-Produkt
+## Produkt
 
 - Měří se podle různých ukazatelů
 
@@ -66,42 +66,42 @@ Dno
 - Recese – velké ekonomické problémy, protože malé firmy krachují, zvyšuje se nezaměstnanost, roste inflace, přežívají nejsilnější firmy
 - Dno – firmy začínají šetřit na svých nákladech, inovují a vylepšují své výrobky, postupně snižuje nezaměstnanost
 
-Zaměstnanost
+## Zaměstnanost
 
 - Nesleduje se zaměstnanost, ale nezaměstnanost \(osoba, která nemá, ale hledá práci\)
 - Nezaměstnanost se měří:
 	- Míra nezaměstnanosti % =
 	- Ekonomicky aktivní obyvatelstvo = zaměstnané a nezaměstnané osoby starší 15 let; musí být ovšem zaevidovány na úřadu práce, takže poměrně nepřesný ukazatel
 
-Druhy nezaměstnanosti
+### Druhy nezaměstnanosti
 
 - Frikční \(dočasná\) = dobrovolná nezaměstnanost, závisí na tom, jak velké jsou sociální dávky nebo kolik financí máme našetřeno; období, kdy sloučíme jeden pracovní poměr a než nastoupíme do dalšího pracovního poměru; dobrovolnost => já si určuji jak dlouho budu domu
 - Sezónní = vyplývá z toho, že některá povolání mají sezónní charakter \(stavby, dělníci, plavčíci\) a po zbytek roku jsou tyto osoby dobrovolně nezaměstnané
 - Strukturální = v určitém místě je nadbytek pracovních sil určité kvalifikace a pokud se tato osoba nechce rekvalifikovat nebo přestěhovat, dobrovolně nezaměstnaný
 - Cyklická = jediná nedobrovolná; lidé by chtěli pracovat, ale práce není; závislá na hospodářském cyklu, největší, kdy je ekonomika na dně
 
-Dopady nezaměstnanosti
+## Dopady nezaměstnanosti
 
 - Pro nezaměstnaného = finanční, existenční problém; snižuje se životní úroveň; ztráta kvalifikace; ztráta kontaktu se svým oborem; různé psychické problémy => zdravotní problémy
 - Pro zaměstnavatele = nevytváří další výrobky
 
-Jak stát řeší problémy nezaměstnanosti
+## Jak stát řeší problémy nezaměstnanosti
 
 - Snižuje dopady nezaměstnanosti = různé druhy sociálních dávek
 - Aktivní politika zaměstnanosti = stát financuje činnost úřadů práce, financuje rekvalifikace, vytváří nová pracovní místa v podobě státních zakázek, tvoří různé právní předpisy
 
-Stabilita cen
+## Stabilita cen
 
 - Inflace – projevuje se postupným znehodnocováním měny v důsledku růstu cen, klesá kupní síla obyvatelstva
 - Míra inflace =
 
-Druhy inflace
+### Druhy inflace
 
 - Z hlediska výpočtu – 1\) ∅ inflace – porovnává ∅ cenové hladiny 2 let; 2\) ∅ roční inflace – porovnává se 12 kalendářních měsíců; 3\) ∅ měsíční inflace – porovnává se měsíc tohoto roku a měsíc z minulého roku
 - Hlediska – 1\) otevřená – projevuje se růstem cen; 2\) skrytá – výrobky se vylepšují, inovují a tím se zdražují; 3\) potlačená – stát různými zásahy brání inflaci a pak se s výrobky obchoduje na černém trhu
 - Z hlediska příčiny – 1\) tažená poptávkou – způsobena tím, že poptávka je větší než nabídka a to buď v důsledku růstu mezd, které rostou rychleji než produktivita práce, nebo státními zakázkami; 2\) tlačená náklady – v důsledku, že ceny surovin a energií; nakupují se nové licence a technologie
 
-Zahraniční obchod
+## Zahraniční obchod
 
 - Výsledek zahraničního obchodu se zobrazuje v platební bilanci, kterou sestavuje ČNB podle pravidel mezinárodního měnového fondu a sleduje veškeré obchody naší země se zahraničím
 - Platební bilance se skládá z

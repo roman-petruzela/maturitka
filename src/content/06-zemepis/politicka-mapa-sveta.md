@@ -1,5 +1,5 @@
 ---
-title: "POLITICKÁ MAPA SVĚTA"
+title: "Politická mapa světa"
 order: 11
 source: "Zeměpis/Zeměpis GLP/11. POLITICKÁ MAPA SVĚTA.docx"
 ---

@@ -14,12 +14,12 @@ source: "Účetnictví/18. Rozpočty a kalkulace.docx"
 - určení v rozpočtu
 - hospodářská střediska
 - rozpočty hospodářských středisek
-	- rozpočtování nákladů \(přímých a nepřímých\)
+	- rozpočtování nákladů (přímých a nepřímých)
 	- rozpočtování výnosů
 - pojem kalkulace a její členění
 - kalkulační vzorec
 - způsob stanovení přímých nákladů na kalkulační jednici
-- způsoby stanovení nepřímých \(režijních\) nákladů na kalkulační jednici
+- způsoby stanovení nepřímých (režijních) nákladů na kalkulační jednici
 - kalkulace
 	- prostým dělením
 	- s poměrovými čísly
@@ -30,7 +30,7 @@ __Členění nákladů podle:__
 
 1. __Struktury účetního hospodářského výsledku__
 
-- Provozní 50 \- 55
+- Provozní 50 - 55
 - Finanční 56 – 57
 
 1. __Podle zákona o daních z příjmů__
@@ -44,15 +44,15 @@ __Členění nákladů podle:__
 
 1. __Podle závislosti na objemu produkce__
 
-- Fixní \(stále\) \- jsou nezávislé na růstu objemu výroby
-- Variabilní \(proměnlivé\) \- mění se při změnách objemu produkce
+- Fixní (stále) - jsou nezávislé na růstu objemu výroby
+- Variabilní (proměnlivé) - mění se při změnách objemu produkce
 
 1. __Podle způsobů stanovení na kalkulační jednici__
-2. Přímé \(jednicové\) \- dají se přímo a přesně stanovit na jednotku výkonu, jde o náklady, jejichž výše se přímo úměrně mění s objemem výroby a účetní jednotky si stanoví normy spotřeby těchto nákladů; nejčastěji se setkáme s tímto členěním: přímý materiál, přímé mzdy, ostatní přímé náklady
-3. Nepřímé \(režijní\) \- jde o společné náklady, které slouží k zajištění a doplnění výrobního procesu \(jedná se např\. o spotřebu režijního materiálu, režijní mzdy, pojistné z režijních mezd, odpisy DM, opravy a udržování, cestovné a nájemné
+2. Přímé (jednicové) - dají se přímo a přesně stanovit na jednotku výkonu, jde o náklady, jejichž výše se přímo úměrně mění s objemem výroby a účetní jednotky si stanoví normy spotřeby těchto nákladů; nejčastěji se setkáme s tímto členěním: přímý materiál, přímé mzdy, ostatní přímé náklady
+3. Nepřímé (režijní) - jde o společné náklady, které slouží k zajištění a doplnění výrobního procesu (jedná se např. o spotřebu režijního materiálu, režijní mzdy, pojistné z režijních mezd, odpisy DM, opravy a udržování, cestovné a nájemné
 4. __Podle určení v rozpočtu__
-5. Prvotní \- spotřeba materiálu, mzdové náklady, odpisy DM
-6. Druhotné \(vnitropodnikové\) \- jsou to náklady vzniklé při dodávkách výkonů mezi jednotlivými středisky podniku \(náklad vznikne v odebírajícím středisku a výnos ve středisku dodávajícím\)
+5. Prvotní - spotřeba materiálu, mzdové náklady, odpisy DM
+6. Druhotné (vnitropodnikové) - jsou to náklady vzniklé při dodávkách výkonů mezi jednotlivými středisky podniku (náklad vznikne v odebírajícím středisku a výnos ve středisku dodávajícím)
 
 __Hospodářská střediska__
 
@@ -66,7 +66,7 @@ __Rozpočty hospodářských středisek__
 1. __Rozpočtování přímých nákladů__
 
 - Týká se výrobních středisek
-- Podklady pro jejich výpočet jsou\- technickohospodářské normy, plánovaný objem výroby
+- Podklady pro jejich výpočet jsou- technickohospodářské normy, plánovaný objem výroby
 
 1. __Rozpočtování nepřímých nákladů__
 
@@ -84,8 +84,8 @@ __Pojem kalkulace a její členění__
 
 __Podle doby, kdy je kalkulace sestavována, rozlišujeme kalkulaci:__
 
-1. __Předběžnou \-__ sestavuje se před zahájením výroby a podkladem jsou technickohospodářské normy, spotřeby přímých nákladů a rozpočty nepřímých nákladů
-2. __Výslednou \-__ sestavuje se po ukončení výroby, popřípadě po skončení sledovaného období a podkladem jsou údaje zjištěné z vnitropodnikového účetnictví
+1. __Předběžnou -__ sestavuje se před zahájením výroby a podkladem jsou technickohospodářské normy, spotřeby přímých nákladů a rozpočty nepřímých nákladů
+2. __Výslednou -__ sestavuje se po ukončení výroby, popřípadě po skončení sledovaného období a podkladem jsou údaje zjištěné z vnitropodnikového účetnictví
 
 __Kalkulační vzorec__
 
@@ -93,11 +93,11 @@ __Kalkulační vzorec__
 
 1\. Přímý materiál	materiál, který je podstatou výrobku
 
-2\. Přímé mzdy	mzdy výrob\. dělníků za skutečný odprac\. čas
+2\. Přímé mzdy	mzdy výrob. dělníků za skutečný odprac. čas
 
-3\. Ostatní přímé náklady	soc\. a zdr\. pojištění hrazené zaměstnavatelem
+3\. Ostatní přímé náklady	soc. a zdr. pojištění hrazené zaměstnavatelem
 
-4\. Výrobní režie	náklady, které vznikají ve výrobě \(energie,…\)
+4\. Výrobní režie	náklady, které vznikají ve výrobě (energie,…)
 
 __Vlastní náklady výroby__
 
@@ -123,7 +123,7 @@ __Způsoby stanovení přímých nákladů na kalkulační jednici__
 
 - Přímé náklady se v předběžných kalkulacích stanoví obvykle podle technickohospodářských norem
 
-__Způsoby stanovení nepřímých \(režijních\) nákladů na kalkulační jednici__
+__Způsoby stanovení nepřímých (režijních) nákladů na kalkulační jednici__
 
 - Postup při stanovení režijních nákladů lze rozdělit na dvě části:
 - nejprve zjistit jejich celkový objem
@@ -139,13 +139,13 @@ __Kalkulace prostým dělením__
 __Kalkulace s poměrovými čísly__
 
 - Pokud se podnik zabývá výrobou několika druhů stejnorodých výrobků
-- Zajistí se rozvržení režijních nákladů pomocí poměrových čísel \(tato čísla vyjadřují poměr mezi náklady na jednotlivé druhy výrobků\)
+- Zajistí se rozvržení režijních nákladů pomocí poměrových čísel (tato čísla vyjadřují poměr mezi náklady na jednotlivé druhy výrobků)
 - Pro výpočet poměrových čísel se zvolí za základ jeden z výrobků, který dostane poměrové číslo 1
 - Náklady na ostatní výrobky se pak k němu přičítají
 
 __Kalkulace přirážková__
 
 - Při výrobě několika nákladově různorodých výrobků už kalkulaci dělení použít nelze, protože jednotlivé druhy výrobků vyvolávají v jednotlivých kalkulačních položkách různou výši nákladů
-- Režijní náklady na kalkulační jednici se potom stanoví pomocí přirážky, vyjadřující poměr těchto nákladů k rozvrhové základně \(tuto základnu si stanový účetní jednotka sama\)
+- Režijní náklady na kalkulační jednici se potom stanoví pomocí přirážky, vyjadřující poměr těchto nákladů k rozvrhové základně (tuto základnu si stanový účetní jednotka sama)
 - Snahou bývá zvolit takovou rozvrhovou základnu, která by byla k rozvrhovým režijním nákladům přímo úměrná
 - Rozvrhová základna může být zadána v peněžních jednotkách, nebo v naturální podobě

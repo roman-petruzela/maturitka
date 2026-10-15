@@ -12,13 +12,13 @@ Nacismus, bezmyšlenkovité poslouchání, válka, psychologícký vývoj
 
 Časoprostor
 
-1913\-1945\. Silně věřící německá rodina, potom 2\.sv\.v\. a KC
+1913-1945. Silně věřící německá rodina, potom 2.sv.v. a KC
 
 Kompoziční výstavba
 
 Chornologická
 
-Občas Retrospektiva \(vzpomínky na dětsví\)
+Občas Retrospektiva (vzpomínky na dětsví)
 
 Druh & Žánr
 
@@ -28,17 +28,17 @@ Druh: Epika
 
 Vypravěč lyrický subjekt
 
-Ich forma – hlavní postava je vypravěč\. Zpověď/deník
+Ich forma – hlavní postava je vypravěč. Zpověď/deník
 
 Postavy
 
-__Rudolf Lang:__ Otec chtěl aby se stal knězem\. Poslouchal pravidla > chtěl do armády\. Vedl Osvětim – pozabíjel miliony lidí\. Zemřel oběšením \(soud\)\. Činů nelitoval, a řekl že by rozkaz klidně splnil znovu
+__Rudolf Lang:__ Otec chtěl aby se stal knězem. Poslouchal pravidla > chtěl do armády. Vedl Osvětim – pozabíjel miliony lidí. Zemřel oběšením (soud). Činů nelitoval, a řekl že by rozkaz klidně splnil znovu
 
-__Elsa:__ Manželka\. Vzali se na rozkaz\. Následně se zamilovala\. Byla velmi pracovitá a skromná\. Měli s Rudolfem děti
+__Elsa:__ Manželka. Vzali se na rozkaz. Následně se zamilovala. Byla velmi pracovitá a skromná. Měli s Rudolfem děti
 
-__Pan Lang:__ Rudolfův otec, náboženský fanatik\. Nutil Rudolfa stát se knězem
+__Pan Lang:__ Rudolfův otec, náboženský fanatik. Nutil Rudolfa stát se knězem
 
-__Němečtí důstojníci \-__
+__Němečtí důstojníci -__
 
 Veršová výstavba
 
@@ -48,7 +48,7 @@ Neutrální spisovný jazyk, německé názvy hodností, vnitřní monology, vyp
 
 Autor
 
-Robert Merle 1908\-2004
+Robert Merle 1908-2004
 
 Syn FR: důstojníka
 
@@ -58,9 +58,9 @@ Syn FR: důstojníka
 
 Kontext autorovy tvorby
 
-Psal romány – historické, válečené, politické, situované do 2SV\.v\.
+Psal romány – historické, válečené, politické, situované do 2SV.v.
 
-Zabýval se hledáním kořenů zla \(války, nesnášenlivosti\)
+Zabýval se hledáním kořenů zla (války, nesnášenlivosti)
 
 Víkend na Zuydcoote, Za sklem, Idol
 

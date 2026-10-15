@@ -78,7 +78,7 @@ __Funkce:__
 
 - Z hlediska měny: korunové
 
-   Divizové
+## Divizové
 
 - Z hlediska času: termínované \- lze vyzvednout po sjednané lhůtě \-je stanovena lhůta
 
@@ -157,7 +157,7 @@ B\) emisní úvěr \- spojen s emisí dlouhodobých CP např\.: podmínkových o
 
 Factoring\- odkup krátkodobých pohledávek
 
-Forfaiting – odkup dlouhodobých pohledávek
+## Forfaiting – odkup dlouhodobých pohledávek
 
 1. __Neutrální \-__ bezhotovostní platební styk
 

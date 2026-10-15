@@ -29,7 +29,7 @@ __=__ souhrn všech právních předpisů ve státě
 
 \- je řazen stupňovitě \(hierarchicky\) dle právní síly – ta je dána názvem normy a orgánem, který ji vydal
 
-((obrázek vynechán))
+<img src="/images/content/ekonomika/ekonomie/zakladni-pravni-predpisy/01.webp" alt="" width="381" loading="lazy" decoding="async">
 
 Zákonné/Základní
 
@@ -101,7 +101,7 @@ Nařízení vlády
 
 Vyhlášky ministerstev
 
-Ostatní vyhlášky			Věstníky
+## Ostatní vyhlášky			Věstníky
 
 - Právní vědomí = znalost vlastního právního řádu občany
 
@@ -151,7 +151,7 @@ Právní odvětví
 - Finanční právo
 - Mezinárodní právo
 
-Právní oblasti
+## Právní oblasti
 
 1. Evropské kontinetální právo
 

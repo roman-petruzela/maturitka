@@ -5,23 +5,23 @@ source: "Ekonomie/18. Hospodářství ČR a jeho okolí.docx"
 ---
 18\. Hospodářství ČR a jeho okolí
 
-- Pojem \- Národní hospodářství
+- Pojem - Národní hospodářství
 
-= souhrn veškerých činností hospodářského charakteru na území určitého státu, uskutečňovaných všemi hospodářskými subjekty \(domácnosti, firmy, stát\)
+= souhrn veškerých činností hospodářského charakteru na území určitého státu, uskutečňovaných všemi hospodářskými subjekty (domácnosti, firmy, stát)
 
 - Struktura národního hospodářství
 
-__1\. Odvětvová:__
+__1. Odvětvová:__
 
 = část národního hospodářství tvořená podniky s podobnou hlavní činnosti
 
-- dříve klasifikace ekonomických činností podle OKEČ, nyní podle __CZ\-NACE__
+- dříve klasifikace ekonomických činností podle OKEČ, nyní podle __CZ-NACE__
 
 __Oblasti hlavní činnosti__
 
 Opravy
 
-Peněžní a pojišťovací služby((obrázek vynechán))
+Peněžní a pojišťovací služby<img src="/images/content/ekonomika/ekonomie/hospodarstvi-cr-a-jeho-okoli/01.webp" alt="" width="143" loading="lazy" decoding="async">
 
 Pošty a telekomunikace
 
@@ -57,7 +57,7 @@ __Obchod__
 
 __Výroba__
 
-__2\. Sektorová:__
+__2. Sektorová:__
 
 = vzniká spojením hospodářských odvětví na základě společných znaků
 
@@ -79,7 +79,7 @@ __2\. Sektorová:__
 
 - Ukazatele národního hospodářství
 - Hrubý domácí produkt – HDP
-- kolik statků a služeb ekonomika státu vyprodukovala za rok \(v penězích\)
+- kolik statků a služeb ekonomika státu vyprodukovala za rok (v penězích)
 - využívá se pro srovnání životní úrovně
 - 3 metody výpočtu HDP:
 	- výrobková
@@ -87,7 +87,7 @@ __2\. Sektorová:__
 	- důchodová
 - výdajová metoda:
 
-1\. spotřeba domácnosti – *potraviny, obuv, aj\.*
+1\. spotřeba domácnosti – *potraviny, obuv, aj.*
 
 \+
 
@@ -95,7 +95,7 @@ __2\. Sektorová:__
 
 \+
 
-3\. spotřeba vlády a neziskových organizací → nezapočítávají se tzv\. transferní platby \(soc\. dávky\)
+3\. spotřeba vlády a neziskových organizací → nezapočítávají se tzv. transferní platby (soc. dávky)
 
 \+
 
@@ -109,9 +109,9 @@ __Hospodářský cyklus:__
 
 = pravidelné kolísání ekonomické aktivity
 
-((obrázek vynechán))
+<img src="/images/content/ekonomika/ekonomie/hospodarstvi-cr-a-jeho-okoli/02.webp" alt="" width="350" loading="lazy" decoding="async">
 
-- HDP roste → dosáhne vrcholu → dojde ke zlomu → HDP klesá → dno \(sedlo\) → cyklus se opakuje
+- HDP roste → dosáhne vrcholu → dojde ke zlomu → HDP klesá → dno (sedlo) → cyklus se opakuje
 - Fáze expanze
 	- HDP roste
 	- roste poptávka
@@ -144,28 +144,28 @@ __Hospodářský cyklus:__
 
 - Inflace
 
-= růst cenové hladiny \(opak deflace\)
+= růst cenové hladiny (opak deflace)
 
 - zjišťuje se porovnáním cen vybraných produktů
 
-  tzv\. __spotřebitelský koš__
+  tzv. __spotřebitelský koš__
 
-	\(potraviny, alkoholické nápoje a tabák, odívání a obuv, bydlení, voda, energie,
+	(potraviny, alkoholické nápoje a tabák, odívání a obuv, bydlení, voda, energie,
 
-	doprava, …\)
+	doprava, …)
 
 - zjišťuje ji ČSÚ → porovnává ceny v několika tisících prodejnách
 - inflace přináší pokles kupní síly peněz
 
 __Vlivy inflace na ekonomiku:__
 
-1. postihuje skupiny se stálými příjmy \(důchodci, státní zaměstnanci\) → snižuje reálné mzdy
+1. postihuje skupiny se stálými příjmy (důchodci, státní zaměstnanci) → snižuje reálné mzdy
 2. znehodnocuje vklady a úvěry
-3. ztěžuje rozhodování o budoucnosti \(nejvíce u kolísavé míře inflace\)
+3. ztěžuje rozhodování o budoucnosti (nejvíce u kolísavé míře inflace)
 
 __Druhy inflace:__
 
-1. __Mírná \(plíživá\)__
+1. __Mírná (plíživá)__
 	- v rozsahu do 10%
 	- nemá negativní důsledky pro funkci peněz
 	- ekonomika funguje
@@ -195,8 +195,8 @@ Zahrnuje:
 __Vertikální struktura platební bilance:__
 
 - má podobu účtu, na kterém jsou zaznamenávány __kreditní__ a __debetní__ položky
-- kreditní – transakce, která vede __k přísunu__ peněžních prostředků do země \(např\.: vývozy, přijaté úroky, cestovní ruch, …\)
-- debetní – transakce, která vede __k odlivu__ peněžních prostředků ze země \(např\.: dovoz, nákup služeb, placené úroky, …\)
+- kreditní – transakce, která vede __k přísunu__ peněžních prostředků do země (např.: vývozy, přijaté úroky, cestovní ruch, …)
+- debetní – transakce, která vede __k odlivu__ peněžních prostředků ze země (např.: dovoz, nákup služeb, placené úroky, …)
 
 __Horizontální struktura platební bilance:__
 
@@ -205,7 +205,7 @@ __Horizontální struktura platební bilance:__
 - Magický čtyřúhelník
 - slouží ke zhodnocení úspěšné hospodářské politiky a výkonnosti ekonomiky
 
-((obrázek vynechán))
+<img src="/images/content/ekonomika/ekonomie/hospodarstvi-cr-a-jeho-okoli/03.webp" alt="" width="381" loading="lazy" decoding="async">
 
 - Integrační procesy v ekonomice
 
@@ -227,27 +227,27 @@ __Nevýhody integrace:__
 - vyšší konkurenční boj a z toho vyplývající dopad na nezaměstnanost → propouštění zaměstnanců
 - Česká republika jako součást EU
 - politická a ekonomická unie
-- založena __1\. 11\. 1993__ na základě Smlouvy o EU \(Maastrichtská smlouva – sepsána 7\. 2\. 1992\) → navazuje na předchozí evropský integrační proces, jehož počátky spadají do 50\. let 20\. století
-- ústřední společnost: Brusel \(Belgie\)
+- založena __1. 11. 1993__ na základě Smlouvy o EU (Maastrichtská smlouva – sepsána 7. 2. 1992) → navazuje na předchozí evropský integrační proces, jehož počátky spadají do 50. let 20. století
+- ústřední společnost: Brusel (Belgie)
 - zakladatelé: Francie, Belgie, Lucembursko, Itálie, Nizozemsko, Německo
-- Nobelova cena za mír \(2012\)
+- Nobelova cena za mír (2012)
 
 __Symboly EU:__
 
 - Motto: Jednotná v rozmanitosti
-- Evropský hymna – Óda na radost \(Ludwig van Beethowen\)
-- Euro \(EUR; €\)
+- Evropský hymna – Óda na radost (Ludwig van Beethowen)
+- Euro (EUR; €)
 - Evropská vlajka – 12 hvězdiček
-- Den Evropy – 9\. května
+- Den Evropy – 9. května
 - Historie EU
 - zabránit opakování tragédie dvou světových válek
-- __Evropské společenství uhlí a oceli \(ESUO\)__
+- __Evropské společenství uhlí a oceli (ESUO)__
 	- pařížská smlouva __1952__
-	- Belgie, Francie, Německo, Itálie, Lucembursko a Nizozemsko → dohoda o propojení uhelného a ocelářského průmyslu \(válka – ocel na výrobu zbraní, energie na továrnu a dopravu\)
-- __Evropské hospodářské společenství \(EHS\)__
+	- Belgie, Francie, Německo, Itálie, Lucembursko a Nizozemsko → dohoda o propojení uhelného a ocelářského průmyslu (válka – ocel na výrobu zbraní, energie na továrnu a dopravu)
+- __Evropské hospodářské společenství (EHS)__
 	- římská smlouva __1957__
 	- další spolupráce zakladatelů ESUO
-	- společný trh s volným pohybem osob, služeb, zboží a kapitálu \(tzv\. čtyři svobody\)
+	- společný trh s volným pohybem osob, služeb, zboží a kapitálu (tzv. čtyři svobody)
 	- rozvoj ekonomického života
 - __Smlouva o EUROATOM__
 	- římská smlouva __1957__
@@ -256,8 +256,8 @@ __Symboly EU:__
 		- podpora atomového výzkumu
 		- zvýšení bezpečnosti jaderných zařízení a především národní kontrola
 - __Evropské společenství__
-	- __1\. 7\. 1967 –__ sloučení tří společenství \(ESUO, EHS a EUROATOM\)
-	- __1\.__ __9\. 1973__ – Velká Británie, Irsko, Dánsko
+	- __1. 7. 1967 –__ sloučení tří společenství (ESUO, EHS a EUROATOM)
+	- __1.__ __9. 1973__ – Velká Británie, Irsko, Dánsko
 	- __1981__ – Řecko
 	- __1986__ – Španělsko a Portugalsko
 - __1985 –__ přijata Schengenská dohoda → postupné odstraňování kontrol na společných hranicích
@@ -268,7 +268,7 @@ __Symboly EU:__
 - __2007 –__ Rumunsko a Bulharsko
 - __2013 –__ Chorvatsko
 
-((obrázek vynechán))
+<img src="/images/content/ekonomika/ekonomie/hospodarstvi-cr-a-jeho-okoli/04.webp" alt="" width="479" loading="lazy" decoding="async">
 
 1957
 
@@ -292,8 +292,8 @@ __Symboly EU:__
 
 __Evropský parlament__
 
-- orgán legislativní \(tvorba a posuzování právních norem\) a rozpočtový \(schvaluje rozpočet EU\)
-- 751 poslanců \(5 let\)
+- orgán legislativní (tvorba a posuzování právních norem) a rozpočtový (schvaluje rozpočet EU)
+- 751 poslanců (5 let)
 - volí ho obyvatelé EU v přímých volbách
 - sídlo: Štrasburk
 
@@ -319,7 +319,7 @@ __Evropská komise__
 
 - 28 politiků = komisařů po jednom z každé země EU
 - sídlo: Brusel
-- výkonný \(administrativní\) orgán EU
+- výkonný (administrativní) orgán EU
 - sleduje zájmy EU jako celku
 - předkládá návrhy nových právních předpisů
 - vypracovává návrh rozpočtu EU
@@ -327,7 +327,7 @@ __Evropská komise__
 
 __Soudní dvůr EU__
 
-- 28 nezávislých soudců \(z každé země jeden\)
+- 28 nezávislých soudců (z každé země jeden)
 - dbá nad jednotným výkladem evropského práva
 - sídlo: Lucembursko
 
@@ -364,7 +364,7 @@ __Evropský účetní dvůr__
 
 - Evropská měnová unie
 - jednotné předpisy pro nakládání s tuzemskou měnou a zahraničními měnami
-- státy, které vstoupily do Evropské měnové unie, přijaly jednotnou měnu euro \(19 států\)
+- státy, které vstoupily do Evropské měnové unie, přijaly jednotnou měnu euro (19 států)
 - euro zavedeno 1999 bezhotovostně
 - 2002 zavedeny eurobankovky a euromince
 - Proč euro?
@@ -377,10 +377,10 @@ __Evropský účetní dvůr__
 __OSN – Organizace spojených národů__
 
 - základní cíl – zachování mezinárodního míru, bezpečnosti a zajištění mezinárodní spolupráce
-- oficiálně vznikla 24\. října 1945
+- oficiálně vznikla 24. října 1945
 - 193 členů
-- ČR členem od 19\. ledna 1993
-- 6 oficiálních jazyků \(angličtina, arabština, čínština, francouzština, ruština, španělština\)
+- ČR členem od 19. ledna 1993
+- 6 oficiálních jazyků (angličtina, arabština, čínština, francouzština, ruština, španělština)
 
 __WTO – Světová obchodní organizace__
 
@@ -407,10 +407,10 @@ __Dopad brexitu na ČR__
 __Negativní vliv na EU__
 
 - my platíme dluhy za Řecko a Španělsko
-- nesmyslná nařízení \(např\. chtějí do vrchních pozic dosadit ženy\)
+- nesmyslná nařízení (např. chtějí do vrchních pozic dosadit ženy)
 - vysoká byrokracie → administrativní zátěž
 
 __Pozitivní vliv na EU__
 
 - využívání strukturálních fondů
-- volný pohyb mezi EU \(statky, služby, osoby…\)
+- volný pohyb mezi EU (statky, služby, osoby…)

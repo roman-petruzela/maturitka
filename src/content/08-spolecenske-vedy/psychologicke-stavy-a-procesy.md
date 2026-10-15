@@ -1,5 +1,5 @@
 ---
-title: "PSYCHOLOGICKE STAVY A PROCESY"
+title: "Psychologické stavy a procesy"
 order: 2
 source: "Společenské vědy/2. PSYCHOLOGICKE STAVY A PROCESY.docx"
 ---

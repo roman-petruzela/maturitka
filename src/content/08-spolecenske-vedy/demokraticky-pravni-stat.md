@@ -1,5 +1,5 @@
 ---
-title: "DEMOKRATICKY PRAVNI STAT"
+title: "Demokratický právní stát"
 order: 12
 source: "Společenské vědy/12. DEMOKRATICKY PRAVNI STAT.docx"
 ---
@@ -130,7 +130,7 @@ __POLITICKÉ STRANY__
 
 Znaky:
 
-((obrázek vynechán))__1\. Vlastní politický program__
+<img src="/images/content/spolecenske-vedy/demokraticky-pravni-stat/01.webp" alt="" width="343" loading="lazy" decoding="async">__1\. Vlastní politický program__
 
 __2\. Účastní se voleb__
 

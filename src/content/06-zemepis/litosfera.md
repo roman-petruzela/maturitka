@@ -13,9 +13,9 @@ source: "Zeměpis/Zeměpis GLP/5. Litosféra.docx"
 
 # 8 velkých desek, 12 menších
 
-# Mohorovičičova plocha nespojitosti \-\) zpomaluje seismické vlny
+# Mohorovičičova plocha nespojitosti -) zpomaluje seismické vlny
 
-((obrázek vynechán))
+<img src="/images/content/zemepis/litosfera/01.webp" alt="" width="365" loading="lazy" decoding="async">
 
 Stavba Země
 
@@ -75,9 +75,9 @@ __Astenosféra:__
 
 # plastický obal Země
 
-# umožňuje pohyb litosférických desek \(konvekční proudy\), \(oceánská a pevninská\) a obnovu zemské kůry
+# umožňuje pohyb litosférických desek (konvekční proudy), (oceánská a pevninská) a obnovu zemské kůry
 
-# nachází se ve svrchním plášti pod litosférou mezi 80\. a 220\. kilometrem, tloušťka mezi 30 a 100 km
+# nachází se ve svrchním plášti pod litosférou mezi 80. a 220. kilometrem, tloušťka mezi 30 a 100 km
 
 # částečně natavené horniny
 
@@ -91,15 +91,15 @@ Litosférické desky
 
 # desková rozhraní = místa, kde se setkávají
 
-# středooceánské hřbety \-\) vznik nových vrstev
+# středooceánské hřbety -) vznik nových vrstev
 
-# subdukční zóna = místo, kde se desky zasouvají pod sebe \-\) vulkanická činnost
+# subdukční zóna = místo, kde se desky zasouvají pod sebe -) vulkanická činnost
 
-# tlačení pevninské desky \-\) zlom na souši, pohoří
+# tlačení pevninské desky -) zlom na souši, pohoří
 
-# pomalu se pohybují \(cm za rok\)
+# pomalu se pohybují (cm za rok)
 
-# tvořeny pevnou horninou, mocnost až 200 km \(mladší klidně 15\)
+# tvořeny pevnou horninou, mocnost až 200 km (mladší klidně 15)
 
 __Vývoj kontinentů:__
 
@@ -107,9 +107,9 @@ __Vývoj kontinentů:__
 
 # vklínilo se moře Tethys
 
-# vznik Laurasie \(Severní Amerika, Eurasie\)
+# vznik Laurasie (Severní Amerika, Eurasie)
 
-# vznik Gondwany \(Jižní Amerika, Afrika, Indie, Austrálie\)
+# vznik Gondwany (Jižní Amerika, Afrika, Indie, Austrálie)
 
 __Teorie deskové tektoniky__
 
@@ -127,7 +127,7 @@ __Řídící síly pohybu litosférických desek__
 
 # plášťová: rozdíl v hustotě a teplotě plášťových hmot
 
-# \(teplejší plášťová hmota vystupuje k povrchu Země → malá
+# (teplejší plášťová hmota vystupuje k povrchu Země → malá
 
 # část magmatu vystoupí na povrch → proudy se stáčí pod
 
@@ -135,7 +135,7 @@ __Řídící síly pohybu litosférických desek__
 
 # teplotní rozdíl v konvekčních proudech i teplota litosféry, což
 
-# vede k nárůstu její mocnosti\)
+# vede k nárůstu její mocnosti)
 
 Pohyby litosférických desek
 
@@ -151,11 +151,11 @@ __Konvergentní__
 
 # k sobě, srážky
 
-# subdukce \-\) oceánská se podsouvá pod pevninskou \(J Amerika, Andy, Island – termální prameny\)
+# subdukce -) oceánská se podsouvá pod pevninskou (J Amerika, Andy, Island – termální prameny)
 
-# subdukce \-\) 2 oceánské, podsouvá se starší, chladnější \-\) vznik řetězců sopek \(řetězec sopek od Indonésie ke Kamčatce\)
+# subdukce -) 2 oceánské, podsouvá se starší, chladnější -) vznik řetězců sopek (řetězec sopek od Indonésie ke Kamčatce)
 
-# orogeneze \-\) 2 pevninské, růst pohoří \(Himaláje, Karakoram\)
+# orogeneze -) 2 pevninské, růst pohoří (Himaláje, Karakoram)
 
 __Transformní__
 
@@ -183,9 +183,9 @@ __Sopečná činnost__
 
 # orogeneze= je horotvorný proces, který vede ke vzniku
 
-# pásemných pohoří \(například Alpy, Himálaj, jihoamerické
+# pásemných pohoří (například Alpy, Himálaj, jihoamerické
 
-# Andy\)
+# Andy)
 
 __Zemětřesení__
 
@@ -197,7 +197,7 @@ __Zemětřesení__
 
 # výbuších, sesuvech půdy, propadech krasových prostorů
 
-# nebo působením člověka \(atomová bomba, důlní otřesy\)
+# nebo působením člověka (atomová bomba, důlní otřesy)
 
 # uvolnění velkého množství energie, šíří se ve formě seismických vln
 
@@ -205,8 +205,8 @@ __Zemětřesení__
 
 # epicentrum – nad hypocentrem, na povrchu
 
-# Richterova stupnice \-\) 10 stupňů
+# Richterova stupnice -) 10 stupňů
 
-# největší = velké chilské, 9\.5 stupně \(22\. 5\. 1960\)
+# největší = velké chilské, 9.5 stupně (22. 5. 1960)
 
-# nejničivější \(na životech\) = Čína, Shaanxi \(23\. 1\. 1556\)
+# nejničivější (na životech) = Čína, Shaanxi (23. 1. 1556)

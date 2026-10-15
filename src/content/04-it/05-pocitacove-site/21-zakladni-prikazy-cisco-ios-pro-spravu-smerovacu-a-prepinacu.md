@@ -36,7 +36,7 @@ Každý zadaný konfigurační příkaz platí **okamžitě**, ale ukládá se j
 
 Příkazy jsou uváděny v základním tvaru, bez kontextu (tj. aktuálního módu), předpokládá se jeho znalost nebo vypěstování Cisco IOS intuice. Například je uveden příkaz pro přiřazení IP adresy rozhraní **ip address {adr} {sm} .** Pro jeho zadání je ale nutno napřed přejít do privilegovaného módu (příkaz **enable** ), pak do globálního konfiguračního módu (příkaz **configure terminal** ) a pak do specifického konfiguračního módu (příkaz **interface** **_{int}_** ).
 
-## **Správa směrovačů**
+## Správa směrovačů
 
 |**Konfigurační módy**||**význam promptu**|
 |---|---|---|
@@ -306,7 +306,7 @@ Příkazy jsou uváděny v základním tvaru, bez kontextu (tj. aktuálního mó
 |Odesílat zprávy jen při vzniku události daného typu|**snmp-server enable traps config**<br>**snmp-server enable traps envmon temperature**|
 
 
-## **Správa přepínačů**
+## Správa přepínačů
 
 (základní úkony jsou stejné jako u směrovačů)
 
@@ -327,7 +327,7 @@ Příkazy jsou uváděny v základním tvaru, bez kontextu (tj. aktuálního mó
 |Smazání uloženého konfiguračního souboru|**erase startup-config**|
 |Restart (v případě výzvy nic neukládat)|**reload**|
 
-### **Základní operace s přepínačem**
+### Základní operace s přepínačem
 
 |Konfigurace IP údajů umožňujících vzdálený přístup k přepínači<br>(přepínač má jedinou IP adresu). Vždy je nutno nejprve zablokovat<br>všechna dosud použitá rozhraní VLAN, pak povolit žádané.|**interface VLAN1**<br>**shutdown**<br>**interface VLAN99**<br>**ip address 192.168.1.2 255.255.255.0**<br>**ip default-gateway 192.168.1.1**<br>**no shutdown**|
 |---|---|

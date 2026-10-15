@@ -69,7 +69,7 @@ Zálohovací programy, také obsahují funkce:
 
 ## Zálohování celých diskových oddílů
 
-Zkopíruje se celý diskový oddíl (např. disk C:\). Je vytvořen přesný obraz disku, nezálohují se jenom soubory ale třeba také nastavení operačního systému a nastavení aplikací.
+Zkopíruje se celý diskový oddíl (např. disk C:). Je vytvořen přesný obraz disku, nezálohují se jenom soubory ale třeba také nastavení operačního systému a nastavení aplikací.
 
 - vytvoření **bitové kopie**
 

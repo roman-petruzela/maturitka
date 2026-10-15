@@ -71,7 +71,7 @@ __Slevy z daně__ = z vypočtené daně jsou možné slevy
 
 __PŘÍMÉ DANĚ__
 
-Plátce i poplatník je jedna osoba
+## Plátce i poplatník je jedna osoba
 
 1. __Důchodové__
 
@@ -220,7 +220,7 @@ __Osvobození od daně:__ orné půdy, školy, novostavby, sportoviště
 
 __NEPŘÍMÉ DANĚ__
 
-Plátce a poplatník je rozdílná osoba
+## Plátce a poplatník je rozdílná osoba
 
 1. __Univerzální__
 
@@ -281,7 +281,7 @@ __Výhody DPH:__
 
 - __UNIVERZÁLNOST__
 
-Zatěžuje veškeré zboží a služby
+## Zatěžuje veškeré zboží a služby
 
 - __ZDANĚNÍ SPOTŘEBY__
 
@@ -289,7 +289,7 @@ Daň je cenotvorná, čím méně nakoupíme, tím méně zaplatíme
 
 - __PŘIDANÁ HODNOTA__
 
-Firma platí pouze za přidanou hodnotu
+## Firma platí pouze za přidanou hodnotu
 
 - __LEHCE SLEDOVATELNÁ DAŇ V RÁMCI EU__
 

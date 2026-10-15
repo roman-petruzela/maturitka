@@ -1,5 +1,5 @@
 ---
-title: "PREDSOKRATOVSKA FILOSOFIE"
+title: "Předsokratovská filosofie"
 order: 16
 source: "Společenské vědy/16. PREDSOKRATOVSKA FILOSOFIE.docx"
 ---

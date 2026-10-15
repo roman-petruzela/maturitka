@@ -13,7 +13,7 @@ source: "osy/firewall.pptx"
 
 # Firewall
 
-## • ověřování IP adres
+## Ověřování IP adres
 
 - kontrola došlých e-mailů s veřejnými seznamy odesílatelů spamu
 

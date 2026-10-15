@@ -1,5 +1,5 @@
 ---
-title: "VEREJNE PRAVO"
+title: "Veřejné právo"
 order: 5
 source: "Společenské vědy/5. VEREJNE PRAVO.docx"
 ---

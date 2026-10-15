@@ -19,15 +19,15 @@ source: "Účetnictví/8. Výnosy (účtová třída 6) - Dokumenty Google.pdf"
 
 - Tím  poskytuje  účetní  evidence  informace  potřebné  k  úspěšnému  rozhodování  a  k řízení  podnikových  činností.
 
-## **Členění  výnosů**
+## Členění  výnosů
 
 Členění  výnosů  může  být  prováděno  z  různých  hledisek  a  podle  různých  kritérií:
 
-## **<u>1.  základním  hlediskem  klasifikace  výnosů  je  jejich  členění  podle  výnosových  druhů,  tj.  podle stejnorodých  skupin  výnosů  (tržby  za  prodej  výrobků,  služeb,  zboží  aj.</u>**
+## <u>1.  základním  hlediskem  klasifikace  výnosů  je  jejich  členění  podle  výnosových  druhů,  tj.  podle stejnorodých  skupin  výnosů  (tržby  za  prodej  výrobků,  služeb,  zboží  aj.</u>
 
-## **<u>2.  v  návaznosti  na  vykazování  výsledku  hospodaření  se  výnosy  člení  na  provozní,</u>**
+## <u>2.  v  návaznosti  na  vykazování  výsledku  hospodaření  se  výnosy  člení  na  provozní,</u>
 
-## **<u>finanční  a  mimořádné</u>**
+## <u>finanční  a  mimořádné</u>
 
 - **provozní** –  zahrnují  běžné  účetní  případy,  které  souvisejí  s  podnikatelskou  činností,  zrcadlí
 
@@ -41,11 +41,11 @@ source: "Účetnictví/8. Výnosy (účtová třída 6) - Dokumenty Google.pdf"
 
 - účtovány  na  účty  68)
 
-## **<u>3.  podle  místa  vzniku  a  odpovědnosti  za  jejich  vznik</u>**
+## <u>3.  podle  místa  vzniku  a  odpovědnosti  za  jejich  vznik</u>
 
 - toto  členění  výnosů  se  uplatňuje  zejména  ve  vnitropodnikovém  účetnictví,  kdy  je  důležité zjistit  výnosovost  jednotlivých  středisek,  výrobních  úseků,  výrobků  apod.
 
-## **Obecné  zásady  pro  účtování  výnosů**
+## Obecné  zásady  pro  účtování  výnosů
 
 - Výnosy  se  v  průběhu  roku  účtují  na  stranu  D,  výjimečně  na  stranu  MD.
 
@@ -57,11 +57,11 @@ source: "Účetnictví/8. Výnosy (účtová třída 6) - Dokumenty Google.pdf"
 
 - Při  účtování  výnosů  je  zákaz  jejich  kompenzace  s  náklady.
 
-## **Účtová  skupina  60  -  Tržby  za  vlastní  výkony  a  zboží**
+## Účtová  skupina  60  -  Tržby  za  vlastní  výkony  a  zboží
 
 Podle  toho,  co  je  předmětem  realizace,  obsahuje  účtová  skupina  účty: 601  –  Tržby  za  vlastní  výrobky 602  -  Tržby  z  prodeje  služeb 604  -  Tržby  za  zboží
 
-## **Účtová  skupina  64  -  Jiné  provozní  výnosy**
+## Účtová  skupina  64  -  Jiné  provozní  výnosy
 
 **641** –  Tržby  z  prodeje  dlouhodobého  nehmotného  a  hmotného  majetku **642** –  Tržby  z  prodeje  materiálu
 
@@ -73,7 +73,7 @@ Oba  účty  jsou  využívány  pro  zaúčtování  tržeb  z  prodeje  DM  ne
 
 **648** –  Ostatní  provozní  výnosy  –  účtujeme  zde  např.  přebytky  majetku  při  inventarizaci, nárok  na  dotace  na  úhradu  provozních  nákladů,  výnosy  z  prodeje  cenin,  náhrady  soudních výloh  od  dlužníků,  předepsané  náhrady  škody  od  pojišťovny  apod.
 
-## **Účtová  skupina  66  -  Finanční  výnosy**
+## Účtová  skupina  66  -  Finanční  výnosy
 
 **661** –  Tržby  z  prodeje  cenných  papírů  a  podílů  –  jde  o  tržby  z  prodeje  dlouhodobých  či krátkodobých  cenných  papírů  (např.  061,062,251,257/661)
 

@@ -131,7 +131,7 @@ __Motivační zásady:__
 
 - Vedení lidí
 
-Teorie X a Y
+## Teorie X a Y
 
 1. __Teorie X__
 	- Vychází z předpokladu, že průměrný vedoucí pracovník nemá své zaměstnance příliš rád
@@ -146,11 +146,11 @@ Teorie X a Y
 - Aktivně se účastní na práci a řízení
 - Předpokládá se demokratický až liberální přístup k vedení lidí \(vedoucího\)
 
-Maslowova teorie
+## Maslowova teorie
 
 - Masllow \- klinický psycholog, který chápal individuální motivaci jako předem ovlivněnou hierarchii potřeb, kterou sestavil do pyramidy:
 
-((obrázek vynechán))
+<img src="/images/content/ekonomika/ekonomie/management/01.webp" alt="" width="392" loading="lazy" decoding="async">
 
 - Kontrolování
 

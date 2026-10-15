@@ -4,7 +4,7 @@ order: 46
 source: "ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Josef Škvorecký - Zbabělci/Josef_Skvorecky_-_Zbabelci.pdf"
 tags: ["mimo-seznam-cetby"]
 ---
-## **CHARAKTERISTIKA UMĚLECKÉHO TEXTU**
+## CHARAKTERISTIKA UMĚLECKÉHO TEXTU
 
 „Jo ten? To se ty blbci nechali víst vod takovýho kolaboranta?“
 
@@ -24,9 +24,9 @@ tags: ["mimo-seznam-cetby"]
 
 Zasmáli jsme se, a nejvíc Jindra. Ten měl nejvíc proč. Moh být rád, že mu ta jeho pilnost celkem dost hladce prošla. Ta ostuda, pracovat čtvrtého května devatenáct set čtyřicet pět v německé letecké továrně v Kostelci.
 
-### **Analýza uměleckého textu**
+### Analýza uměleckého textu
 
-#### • **zasazení výňatku do kontextu díla**
+#### Zasazení výňatku do kontextu díla
 
 Úryvek se nachází v průběhu knihy. Jako jazzová kapela měli kluci hodně zkoušek, při kterých řešili revoluci v jejich maloměstě.
 
@@ -38,27 +38,27 @@ Den poté však potká anglické vojáky a ukáže se v tom nejlepším světle,
 
 Danny potkává svého přítele Přému, který byl zavřený ve sklepě, ale podařilo se mu uniknout. Celý boj dopadne nakonec pro město „docela“ dobře. Hlavní hrdina doufá, že se dočká uznání a lásky od Ireny, ta však čeká na svého Zdeňka. Na konci knihy Danny vzpomíná na všechny, které miloval, a přemýšlí nad tím, jaká bude dívka, kterou potká v Praze.
 
-#### • **téma a motiv**
+#### Téma a motiv
 
 téma: závěr války v Kostelci motivy: hudba, kolaborantství, humor
 
-#### • **časoprostor**
+#### Časoprostor
 
 prostor: není patrný; zkušebna kapely čas: květen 1945
 
-#### • **kompoziční výstavba**
+#### Kompoziční výstavba
 
 Děj je vyprávěn chronologicky, text je rozdělený do kapitol. Úryvek se skládá z 9 odstavců, z nichž pouze poslední netvoří přímá řeč.
 
-#### • **literární forma, druh a žánr**
+#### Literární forma, druh a žánr
 
 próza, epika, román
 
-#### • **vypravěč**
+#### Vypravěč
 
 ich-forma – vypravěčem je Danny Smiřický, autorovo alter-ego
 
-#### • **postava**
+#### Postava
 
 Danny Smiřický: (hodně se podobá autorovi) má rád jazz a často využívá angličtinu, domýšlivý, o svých rodičích mluví jako o služce a o někom, kdo mu dává peníze, podnikavý, bezstarostný, svým způsobem citlivý, často sám sebe prohlíží a chválí svoje tělo
 
@@ -68,15 +68,15 @@ Harýk a Jindra: přátelé Bennyho a Dannyho, o jejich charakteru lze říci je
 
 další postavy: Helena: často umravňuje svého přítele Irena: pohrává si s kluky díky své kráse, hloupá Dannyho rodiče: hodní, pro svého syna by udělali vše, ale ten jim to nijak neoplácí
 
-#### • **vyprávěcí způsoby**
+#### Vyprávěcí způsoby
 
 V úryvku je veden dialog (polylog) více postav – chlapců z jazzové kapely. Menší prostor je věnován pásmu vypravěče.
 
-#### • **typy promluv**
+#### Typy promluv
 
 dialog (polylog) Dannyho, Benna, Harýka a Jindry
 
-#### • **jazykové prostředky a jejich funkce ve výňatku**
+#### Jazykové prostředky a jejich funkce ve výňatku
 
 Autor využívá hovorový jazyk, proto jo kniha mnohem čitelnější a čtenáři bližší. Nevyhýbá se vulgarismům, jednoduchým slovním spojením a nesložitým souvětím. Text je občas proložen angličtinou a němčinou.
 
@@ -88,9 +88,9 @@ přímé řeči kluků nespisovná čeština ( _víst, takovýho, vod něj, voba
 
 personifikace _ticho se rozhostilo_ ironie _„Začínám mít úctu k dělnýmu lidu.“_
 
-### **Literárněhistorický kontext**
+### Literárněhistorický kontext
 
-#### • **kontext autorovy tvorby**
+#### Kontext autorovy tvorby
 
 patří mezi výrazné české autory 2. poloviny 20. století
 
@@ -132,7 +132,7 @@ _Nezoufejte!, Dívka z Chicaga, Blues libeňského plynojemu_ eseje:
 
 _Nápady čtenáře detektivek, O nich – o nás, Samožerbuch_
 
-#### • **literární / obecně kulturní kontext**
+#### Literární / obecně kulturní kontext
 
 2. polovina 20. století, počátek 21. století
 
@@ -186,7 +186,7 @@ Ludvík Vaculík (1926–2015)
 
 - _Jak se dělá chlapec, Morčata, Rušný dům, Sekyra_
 
-### **Další údaje o knize:**
+### Další údaje o knize:
 
 • **dominantní slohový postup:**
 

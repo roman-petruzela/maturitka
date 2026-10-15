@@ -5,7 +5,7 @@ source: "uvt/cv23_chlazeni_PC.pdf"
 ---
 cv23_chlazeni_PC.odt
 
-# **Chlazení PC**
+# Chlazení PC
 
 **Chlazení** je činnost nutná k odvedení přebytečného tepla od součástek počítače
 
@@ -13,7 +13,7 @@ Jednotlivé součástky jsou konstruovány tak, aby vytvářely co nejméně tep
 
 K odvedení tepla slouží takzvané chladiče.
 
-## **Zdroje tepla**
+## Zdroje tepla
 
 - **Procesor** – Nejvíce odpadního tepla zde vzniká při přepínání stavů tranzistorů během provádění jeho početních operací
 
@@ -27,7 +27,7 @@ K odvedení tepla slouží takzvané chladiče.
 
 - **Operační paměť** – Tato součást vyzařuje obvykle o poznání méně tepla než ostatní součásti, přesto díky ploše a umístění obtížně chladí a tak mnohdy díky tomu dosahují teploty 60-70 °C a více.
 
-## **Druhy chlazení počítače**
+## Druhy chlazení počítače
 
 - ✔ **_Pasivní chlazení_** - kovová nepohyblivá součástka, měděné nebo ze slitiny hliníku kvůli pevnosti, lehkosti a hlavně ceně, na které se dají připevnit malé plastové ventilátory
 
@@ -39,7 +39,7 @@ K odvedení tepla slouží takzvané chladiče.
 
 - ✔ **_Extrémní chlazení_**
 
-## **Chladící médium**
+## Chladící médium
 
 - ➢ chladicí médium – tekutina/plyn (vzduch, vodík, dusík) proudící zařízením
 
@@ -49,7 +49,7 @@ K odvedení tepla slouží takzvané chladiče.
 
 - ➢ pasivní – tok vzduchu vyvolaný jinými komponentami protéká přes pasivní chladič a vyhání tak teplý vzduch
 
-## **Pasivní chlazení**
+## Pasivní chlazení
 
 - ➢ Nejlehčí instalace
 
@@ -61,7 +61,7 @@ K odvedení tepla slouží takzvané chladiče.
 
 - ➢ Prachový filtr: Zabraňuje proudění vzduchu
 
-#### **Teplovodivá pasta**
+#### Teplovodivá pasta
 
 Používá se pro zlepšení odvodu tepla z čipu do chladiče.
 
@@ -77,21 +77,21 @@ Je vyrobena
 
 - na uhlíkové bázi
 
-### **Aktivní chlazení**
+### Aktivní chlazení
 
 - Vhání studený vzduch do PC skříně → ke komponentám
 
 - vyhání teplý vzduch z PC skříně ven → od komponent
 
-### **Kombinované chlazení**
+### Kombinované chlazení
 
-#### **Heatpipe**
+#### Heatpipe
 
 - Hermetický uzavřená trubice
 
 - Budeme-li jeden konec ohřívat a na druhý umístíme chladič, začne se pracovní médium odpařovat. V důsledku toho roste tlak. Na chlazeném konci páry kondenzují a předávají tak teplo, které bylo spotřebováno k odpaření. Kondenzát teče, nebo vzlíná zpět a tak to jde stále dokola.
 
-#### **Ložiska větráku**
+#### Ložiska větráku
 
 - Kluzná
 
@@ -101,7 +101,7 @@ Je vyrobena
 
 - Keramická
 
-### **Vodní / olejové chlazení**
+### Vodní / olejové chlazení
 
 Vodní chlazení vzniklo z nedostatku vhodného chlazení pro počítače s nástupem výkonných sestav někdy po roce 2000.
 
@@ -129,9 +129,9 @@ Prodávají se jak kompletní sestavy, tak jednotlivé díly pro vlastní sestav
 
 Vodní chlazení pouze pomáhá přesouvat velká kvanta tepla z uzavřených a pro vzduch těžko dostupných míst. Díky možnosti přesunu tepla na vhodnější místo lze však s pomocí vodního okruhu chladit sestavu mnohem efektivněji.
 
-## **„Akvárko“**
+## „Akvárko“
 
-## **Extrémní chlazení**
+## Extrémní chlazení
 
 Většinou se používá tekutý dusík nebo oxid uhličitý pro extrémní chlazení komponent (CPU, GPU a další..).
 
@@ -139,5 +139,5 @@ Většinou za dosažením co největšího přetaktování a tak vytvoření rek
 
 Nejedná se vůbec o levné chlazení, cena 10 000 Kč za jednu tlakovou lahev
 
-## **Chlazení notebooků**
+## Chlazení notebooků
 

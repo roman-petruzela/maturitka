@@ -1,5 +1,5 @@
 ---
-title: "SOUCASNA A CESKA FILOSOFIE"
+title: "Současná a česká filosofie"
 order: 22
 source: "Společenské vědy/22. SOUCASNA A CESKA FILOSOFIE.docx"
 ---

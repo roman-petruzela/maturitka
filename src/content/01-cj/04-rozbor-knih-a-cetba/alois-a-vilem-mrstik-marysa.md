@@ -7,9 +7,9 @@ source: "ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Alois a V
 Český realismus** 
 
 - __Český realismus__
-	- v 80\. a 90\. letech 19\. století
+	- v 80. a 90. letech 19. století
 	- ztráta důvěry v politickém vedení národa
-	- pozorné studium určitého regionu \(zachycení pouze určitého detailu = drobnokresba\)
+	- pozorné studium určitého regionu (zachycení pouze určitého detailu = drobnokresba)
 	- nedostatečný rozvoj románové prózy
 	- důležité projevy realismu ve vědecké a naukové tvorbě
 	- rozvoj beletrie
@@ -28,7 +28,7 @@ source: "ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Alois a V
 		- dílo: Naši
 - __Historická próza__
 	- __Alois Jirásek__
-		- díla: Staré pověsti české, Mezi proudy, Psohlavci, F\. L\. Věk, Lucerna
+		- díla: Staré pověsti české, Mezi proudy, Psohlavci, F. L. Věk, Lucerna
 	- __Zikmund Winter__
 		- dílo: Rakovnické obrázky
 - __Realistické drama__

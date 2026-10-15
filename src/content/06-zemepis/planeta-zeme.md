@@ -1,5 +1,5 @@
 ---
-title: "PLANETA ZEMĚ"
+title: "Planeta Země"
 order: 1
 source: "Zeměpis/Zeměpis GLP/1. PLANETA ZEMĚ.doc"
 ---

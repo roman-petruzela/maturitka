@@ -22,11 +22,11 @@ __Druhy lázeňských pobytů__
 
 1. __Komplexní__
 
-\- hradí ho zdravotní pojišťovna \(ubytování, stravování, vyšetření, balneo terapie\)
+\- hradí ho zdravotní pojišťovna (ubytování, stravování, vyšetření, balneo terapie)
 
 \- pro osoby s vážnou nemocí, po úraze, operaci
 
-\- délka je minimálně 21\. dní
+\- délka je minimálně 21. dní
 
 \- ošetřující lékař vyhotovuje návrh na lázeňskou péči → posuzuje lékař ZP → správa lázní
 
@@ -52,11 +52,11 @@ __Lázeňské služby__
 
 1. __Léčebné__
 
-a\) Diagnostika
+a) Diagnostika
 
 \- určení aktuálního stavu hosta
 
-b\) Balneoterapie
+b) Balneoterapie
 
 \- všechny léčebné procedury
 
@@ -66,7 +66,7 @@ b\) Balneoterapie
 
 1. __Ubytovací__
 
-a\) Lázeňský dům, hotel
+a) Lázeňský dům, hotel
 
 \- dvojlůžkový pokoj, více úložných prostorů
 
@@ -76,35 +76,35 @@ a\) Lázeňský dům, hotel
 
 \- dodržování domovního a ubytovacího řádu
 
-b\) Lázeňský penzion
+b) Lázeňský penzion
 
 \- při příspěvkovém a samopláteckém pobytu
 
 \- menší rozsah služeb, mimo lázeňská centra
 
-c\) Ubytování v soukromí
+c) Ubytování v soukromí
 
 \- pokoje, apartmány
 
 \- při samopláteckém pobytu
 
-__3__\.   __Stravovací__
+__3__.   __Stravovací__
 
-a\) Režimové
+a) Režimové
 
-\- dietní režim \(dospělí 4 jídla, děti 6 jídel\), určení času jídel
+\- dietní režim (dospělí 4 jídla, děti 6 jídel), určení času jídel
 
-b\) Nerežimové
+b) Nerežimové
 
 \- běžné stravování dle požadované osoby
 
-c\) Doplňkové
+c) Doplňkové
 
 \- cukrárny, kavárny, čajovny
 
 __Lázeňský místopis__
 
-Třeboň \(onemocnění kloubů\), Luhačovice \(dýchací ústrojí\), Jánské lázně \(dětská obrna, pohybové ústrojí\), Poděbrady \(nemoci srdce, cukrovka, pohybové ústrojí\), Jáchymov \(pohybové, oběhové ústrojí, kožní, oběhové nemoci\), Karlova studánka \(dýchací cesty\), Bohdaneč \(pohybové a nervové ústrojí\), Mariánské lázně \(onkologické nemoci\), Karlovy vary \(nadváha, cukrovka, trávicí ústrojí\), Františkovi lázně \(pohybové, dýchací ústrojí, ženské nemoci\- neplodnost\), Jeseníky \(kožní nemoci, duševní poruchy, oběhové ústrojí\)
+Třeboň (onemocnění kloubů), Luhačovice (dýchací ústrojí), Jánské lázně (dětská obrna, pohybové ústrojí), Poděbrady (nemoci srdce, cukrovka, pohybové ústrojí), Jáchymov (pohybové, oběhové ústrojí, kožní, oběhové nemoci), Karlova studánka (dýchací cesty), Bohdaneč (pohybové a nervové ústrojí), Mariánské lázně (onkologické nemoci), Karlovy vary (nadváha, cukrovka, trávicí ústrojí), Františkovi lázně (pohybové, dýchací ústrojí, ženské nemoci- neplodnost), Jeseníky (kožní nemoci, duševní poruchy, oběhové ústrojí)
 
 __Kongresový cestovní ruch__
 
@@ -116,13 +116,13 @@ __Akce__
 
 \- politika, ekonomika, medicína, IT …
 
-\- min\. počet účastníků 300 osob
+\- min. počet účastníků 300 osob
 
-\- min\. 40% zahraničních účastníků
+\- min. 40% zahraničních účastníků
 
-\- min\. 5 států
+\- min. 5 států
 
-\- min\. doba trvání 3 dny
+\- min. doba trvání 3 dny
 
 1. __Konference__
 
@@ -132,11 +132,11 @@ __Akce__
 
 \- na závěr přijímají protokol, který pak musí dodržovat
 
-\- ,,e\-konference“ – elektronická, výhodu je úspora času, ale chybí osobní kontakt
+\- ,,e-konference“ – elektronická, výhodu je úspora času, ale chybí osobní kontakt
 
 1. __Sympózium__
 
-\- odborné/vědecké setkání zaměřené na jedno téma např\. sochařské, divadelní
+\- odborné/vědecké setkání zaměřené na jedno téma např. sochařské, divadelní
 
 1. __Kolokvium__
 
@@ -164,7 +164,7 @@ __Akce__
 
 __Služby__
 
-1. __Související s jednáním__ – zajištění místa konání, příprava a vytištění kongresových materiálů \(pozvánka, program, sborník\), překladatelské a tlumočnické služby, propagace, organizační služby před akcí a během akce, výběr vložného a registrace úč\.
+1. __Související s jednáním__ – zajištění místa konání, příprava a vytištění kongresových materiálů (pozvánka, program, sborník), překladatelské a tlumočnické služby, propagace, organizační služby před akcí a během akce, výběr vložného a registrace úč.
 2. __Související s pobytem –__ ubytování stravování, doprava
 3. __Ostatní –__ recepční, směnárenské, průvodcovské služby, autokarová doprava, činnost hostesek
 
@@ -183,22 +183,22 @@ __–__ nabízejí vhodné jednací prostory a možnost ubytování a stravován
 
 __–__ nabízejí vhodné jednací místnosti, určitou část roku
 
-1. __Specifická místa konání –__ např\. zámky a hrady
+1. __Specifická místa konání –__ např. zámky a hrady
 
 __Kongresový místopis__
 
-- __v ČR__: Praha, Brno, Hradec Králové, Karlovy Vary, Mariánské Lázně, Poděbrady\.
-- __Města první volby__ – 2 500 až 3 tis\. hotelových pokojů 4\* , 5\*, mezinárodní letiště, mají kongresové 1 nebo více center, doprovodné služby
-- __Města druhé volby__ – 1 až 2 tis\. hotelových pokojů 4\*,5\*, mezinárodní letiště do 2 hodin, 1 kongresové centrum, doprovodné služby
-- __Města třetí volby__ \- 500 až 100 hotelových pokojů 4\*,5\*, mezinárodní letiště ve vzdálenosti nad 2 hodiny, doprovodné služby
+- __v ČR__: Praha, Brno, Hradec Králové, Karlovy Vary, Mariánské Lázně, Poděbrady.
+- __Města první volby__ – 2 500 až 3 tis. hotelových pokojů 4\* , 5\*, mezinárodní letiště, mají kongresové 1 nebo více center, doprovodné služby
+- __Města druhé volby__ – 1 až 2 tis. hotelových pokojů 4\*,5\*, mezinárodní letiště do 2 hodin, 1 kongresové centrum, doprovodné služby
+- __Města třetí volby__ - 500 až 100 hotelových pokojů 4\*,5\*, mezinárodní letiště ve vzdálenosti nad 2 hodiny, doprovodné služby
 
 __Venkovský cestovní ruch__
 
 __Agroturistika__
 
 - je způsob trávení volného času
-- jde o [turistiku](https://cs.wikipedia.org/wiki/Turistika), v typických venkovských podmínkách, někdy i spojenou s dobrovolnou, neplacenou prací v [zemědělství](https://cs.wikipedia.org/wiki/Zem%C4%9Bd%C4%9Blstv%C3%AD) na [venkově](https://cs.wikipedia.org/wiki/Venkov) \(která může být spojena s pokrytím části nákladů na pobyt\), nebo napodobováním tradičních \(nebo současných\) venkovských prací a zvyků
-- smyslem je poznání života zemědělců a venkova, blízký kontakt se zvířaty \(např\. jízda na koni\), zemědělskými plodinami, zlepšení vztahu k půdě, posílení [vlasteneckých](https://cs.wikipedia.org/wiki/Vlast) pocitů – sounáležitosti s kořeny českého [národa](https://cs.wikipedia.org/wiki/N%C3%A1rod), obyvateli venkova, poznání jejich každodenní dřiny apod\.
+- jde o [turistiku](https://cs.wikipedia.org/wiki/Turistika), v typických venkovských podmínkách, někdy i spojenou s dobrovolnou, neplacenou prací v [zemědělství](https://cs.wikipedia.org/wiki/Zem%C4%9Bd%C4%9Blstv%C3%AD) na [venkově](https://cs.wikipedia.org/wiki/Venkov) (která může být spojena s pokrytím části nákladů na pobyt), nebo napodobováním tradičních (nebo současných) venkovských prací a zvyků
+- smyslem je poznání života zemědělců a venkova, blízký kontakt se zvířaty (např. jízda na koni), zemědělskými plodinami, zlepšení vztahu k půdě, posílení [vlasteneckých](https://cs.wikipedia.org/wiki/Vlast) pocitů – sounáležitosti s kořeny českého [národa](https://cs.wikipedia.org/wiki/N%C3%A1rod), obyvateli venkova, poznání jejich každodenní dřiny apod.
 - podílí se na udržování a rozšiřování kulturních a sociálních tradic
 
 __Ekoturistika__
@@ -209,8 +209,8 @@ __Ekoturistika__
 
 __Ekoagroturistika__
 
-- je [agroturistika](http://cs.wikipedia.org/wiki/cs:Agroturistika) na [ekologicky hospodařících farmách](https://www.enviwiki.cz/wiki/Ekologick%C3%A1_farma) produkujících bio\-produkty, které jsou umístěny ve zdravotně příznivém životním prostředí
+- je [agroturistika](http://cs.wikipedia.org/wiki/cs:Agroturistika) na [ekologicky hospodařících farmách](https://www.enviwiki.cz/wiki/Ekologick%C3%A1_farma) produkujících bio-produkty, které jsou umístěny ve zdravotně příznivém životním prostředí
 - tyto farmy nepoužívají při výrobě rostlin a chovu zvířat žádné syntetické chemikálie, hnojiva, hormonální přípravky, umělá barviva či konzervační látky
-- zvířata jsou chována přirozeným způsobem a krmena jsou bez užívání masokostních mouček apod\.
+- zvířata jsou chována přirozeným způsobem a krmena jsou bez užívání masokostních mouček apod.
 - Produkty ekologického zemědělství podléhají přísné kontrole a splňují mezinárodní standardy a 2používají ochrannou známku BIO
 - Podstatným znakem ekoagroturistiky je nejen sepjetí turisty s farmářskou rodinou, ale i účast na zemědělských pracích a konzumace produktů jejich ekologického zemědělství

@@ -3,11 +3,11 @@ title: "Marketingový výzkum, výzkum spotřebitele Dokumenty Google"
 order: 24
 source: "Účetnictví/24. Marketingový výzkum, výzkum spotřebitele - Dokumenty Google.pdf"
 ---
-## **Charakteristika  mark.  výzkumu,  subjekty  provádějící  výzkum**
+## Charakteristika  mark.  výzkumu,  subjekty  provádějící  výzkum
 
 Výzkum  je  jednou  z  nejdůležitějších  činností  moderního  marketingu.  Firma  jej  provádí, nemůže-li  jiným  způsobem  získat  potřebné  informace  pro  řízení  a  rozhodování. Marketingový  výzkum  vychází  ze  sociologických  výzkumů  a  je  časově  a  finančně  nákladnou záležitostí.
 
-### **Marketingový  výzkum**
+### Marketingový  výzkum
 
 - získává  informace  pro  marketingové  řízení
 
@@ -15,7 +15,7 @@ Výzkum  je  jednou  z  nejdůležitějších  činností  moderního  marketing
 
 - provádí  se  za  účelem  řešení  konkrétní  marketingové  situace
 
-### **Výzkum  provádí:**
+### Výzkum  provádí:
 
 - různé  marketingové  agentury
 
@@ -23,15 +23,15 @@ Výzkum  je  jednou  z  nejdůležitějších  činností  moderního  marketing
 
 - spolupráce  předchozích  -  je  vhodná,  protože  pracovníci  podniku  vědí  více  o  problému,  na druhé  straně  však  mohou  být  stiženi  tzv.  “profesní  slepotou”  a  mají  menší  odbornou  znalost
 
-## **Metody  marketingového  výzkumu,  jejich  výhody  a  nevýhody**
+## Metody  marketingového  výzkumu,  jejich  výhody  a  nevýhody
 
-### **A)  Kvantitativní  výzkum**
+### A)  Kvantitativní  výzkum
 
 - sleduje  četnost  jevů,  přináší  info  od  velkého  vzorku  nositelů  -  cílem  je  poskytnout dostatečně  velký  a  reprezentativní  vzorek
 
 - zaměřuje  se  např.  na  počet  zájemců  o  zboží  a  nakoupené  množství
 
-### **1.  Pozorování**
+### 1.  Pozorování
 
 - nepřímý  sběr  informací  (smyslové  vnímání)
 
@@ -47,7 +47,7 @@ Výzkum  je  jednou  z  nejdůležitějších  činností  moderního  marketing
 
 - nezúčastněně  (pozorovatel  sleduje  nositele  informací  pomocí  techniky  - průmyslové  kamery,  zákaznické  karty,  webové  stránky)
 
-### **2.  Experiment**
+### 2.  Experiment
 
 - záměrně  se  navodí  nová  situace  s  cílem  zjistit  příčiny  a  reakce  sledované  osoby
 
@@ -55,7 +55,7 @@ Výzkum  je  jednou  z  nejdůležitějších  činností  moderního  marketing
 
 - nevýhody  -  omezenost  v  rozsahu  zkoumaných  jevů,  někdy  je  obtížné  aplikovat výsledky  v  praxi
 
-### **3.  Dotazování**
+### 3.  Dotazování
 
 - nejtypičtější  metoda
 
@@ -83,7 +83,7 @@ Výzkum  je  jednou  z  nejdůležitějších  činností  moderního  marketing
 
 - dále  existují  telefonické  a  elektronické  (obě  rychlé  a  levné)
 
-### **B)  Kvalitativní  výzkum**
+### B)  Kvalitativní  výzkum
 
 - když  potřebujeme  zjistit  info  o  důvodech  chování  kupujících,  motivech  a  příčinách  jednání
 
@@ -103,7 +103,7 @@ Výzkum  je  jednou  z  nejdůležitějších  činností  moderního  marketing
 
 - finančně  náročný
 
-### **2.  Skupinový  rozhovor  (Focus  Group)**
+### 2.  Skupinový  rozhovor  (Focus  Group)
 
 - řízený  rozhovor  skupiny  6-10  vybraných  osob  s  vyškoleným  moderátorem,  dochází ke  konfrontaci  názorů  a  jejich  změnám
 
@@ -113,7 +113,7 @@ Výzkum  je  jednou  z  nejdůležitějších  činností  moderního  marketing
 
 - -nevýhody  -  vysoké  finanční  náklady
 
-### **3.  Brainstorming**
+### 3.  Brainstorming
 
 - skupinová  diskuze,  přesně  dané  pravidla,  cíl  -  vyprodukovat  co  nejvíce  originálních myšlenek,  námětů  a  nápadů
 
@@ -131,7 +131,7 @@ Výzkum  je  jednou  z  nejdůležitějších  činností  moderního  marketing
 
 - př.  volné  dokončování  vět,  příběhů,  obrázků,  přiřazování  barev,  hraní  rolí..
 
-## **Dotazníky**
+## Dotazníky
 
 - ve  všech  svých  podobách  patří  mezi  nejrozšířenější  techniky  mrk.  výzkumu
 
@@ -141,7 +141,7 @@ Výzkum  je  jednou  z  nejdůležitějších  činností  moderního  marketing
 
 - otázek  max.  50,  doba  vyplňování  max.  20  min
 
-### **Zásady**
+### Zásady
 
 - skládá  se  ze  série  otázek,  cílem  je  získat  názory  a  fakta  dotazovaných
 
@@ -173,9 +173,9 @@ Výzkum  je  jednou  z  nejdůležitějších  činností  moderního  marketing
 
    - zdůrazněním  výhod  pro  respondenta  samého
 
-### **Zásady  tvorby**
+### Zásady  tvorby
 
-### **<u>1.  Jednoznačnost</u>**
+### <u>1.  Jednoznačnost</u>
 
 - jednoduché  a  výstižné  otázky
 
@@ -185,7 +185,7 @@ Výzkum  je  jednou  z  nejdůležitějších  činností  moderního  marketing
 
 - otázky  by  neměly  být  dvojsmyslné  a  zavádějící
 
-### **<u>2.  Srozumitelnost</u>**
+### <u>2.  Srozumitelnost</u>
 
 - používat  jazyk  cílové  skupiny  respondentů
 
@@ -193,11 +193,11 @@ Výzkum  je  jednou  z  nejdůležitějších  činností  moderního  marketing
 
 - otázky  by  měly  ctít  etické  normy  a  morální  hodnoty
 
-### **<u>3.  Stručnost</u>**
+### <u>3.  Stručnost</u>
 
 - používat  krátké  a  stručné  otázky
 
-### **<u>4.  Validnost</u>**
+### <u>4.  Validnost</u>
 
 - ptát  se  na  to,  co  je  skutečně  potřeba  zjistit
 
@@ -207,7 +207,7 @@ Výzkum  je  jednou  z  nejdůležitějších  činností  moderního  marketing
 
 - vyvarovat  se  příbuzných  otázek,  kdy  se  jedna  odpověď  přenáší  do  ostatních
 
-### **Struktura**
+### Struktura
 
 ### <u>1.  Úvod</u>
 
@@ -231,7 +231,7 @@ Výzkum  je  jednou  z  nejdůležitějších  činností  moderního  marketing
 
 - je  vhodné  poděkovat  dotazovanému  za  jeho  čas  strávený  vyplňováním  dotazníku
 
-### **Typy  otázek**
+### Typy  otázek
 
 ### <u>1.  Uzavřené  otázky</u>
 
@@ -257,7 +257,7 @@ Výzkum  je  jednou  z  nejdůležitějších  činností  moderního  marketing
 
 - **Sématický  diferenciál  (stupnice  mezi  2  bipolárními  slovy,  dotazovaný vybere  bod,  který  nejlépe  vystihuje  jeho  názor:  zajímavé  x  nudné, výjimečné  x  obvyklé,  čisté  x  špinavé)**
 
-### **-  Výběrové  otázky  (možnost  výběru  jedné  z  nabízených  možností)**
+### Výběrové otázky (možnost výběru jedné z nabízených možností)
 
 - **Výčtové  otázky  (možnost  výběru  několika  z  nabízených  možností)**
 
@@ -283,7 +283,7 @@ Výzkum  je  jednou  z  nejdůležitějších  činností  moderního  marketing
 
 - důležité  pro  zpracování  a  vyhodnocení  dotazníku;  např.  věk,  pohlaví,  vzdělání)
 
-## **Model  spotřebního  chování  zákazníka,  černá  skříňka  zákazníka**
+## Model  spotřebního  chování  zákazníka,  černá  skříňka  zákazníka
 
 - podnikatelé  se  musejí  zajímat  o  nákupní  rozhodování  spotřebitelů,  jinak  své  výkony neprodají
 
@@ -295,7 +295,7 @@ Výzkum  je  jednou  z  nejdůležitějších  činností  moderního  marketing
 
 - zákazník  je  neprůhledný  činitel,  který  se  rozhoduje  ve  vlastním  vnitřním  světě  -  “černá skříňka”
 
-### **Faktory  ovlivňující  chování  zákazníka**
+### Faktory  ovlivňující  chování  zákazníka
 
 1.  Kulturní  -  kulturní  úroveň  společnosti,  společenské  podskupiny,  sociální  vrstvy
 
@@ -309,9 +309,9 @@ Výzkum  je  jednou  z  nejdůležitějších  činností  moderního  marketing
 
 4.  Psychologické  -  motivace,  vnímání,  poznání  (zkušenosti),  postoje  a  důvěra
 
-## **Typy  kupního  rozhodování,  role  spotřebitele  a  fáze  rozhodovacího  procesu**
+## Typy  kupního  rozhodování,  role  spotřebitele  a  fáze  rozhodovacího  procesu
 
-### **Typy  kupního  rozhodnutí  závisí  na  druhu  zboží,  které  je  nabízeno:**
+### Typy  kupního  rozhodnutí  závisí  na  druhu  zboží,  které  je  nabízeno:
 
 **1.  Zvyklostní  rozhodován** í  -  běžné,  široce  dostupné,  známé  zboží  s  nižší  cenou,  uspokojuje základní  potřeby,  nakupuje  se  s  minimálním  úsilím  a  často
 
@@ -319,7 +319,7 @@ Výzkum  je  jednou  z  nejdůležitějších  činností  moderního  marketing
 
 **3.  Impulsivní  rozhodování** -  luxusní  zboží  s  výjimečnými  vlastnostmi  a  vysokou  cenou, uspokojuje  individuální  potřeby
 
-### **Role  spotřebitele  v  rozhodovacím  procesu:**
+### Role  spotřebitele  v  rozhodovacím  procesu:
 
 Zákazník  při  rozhodování  vystupuje  v  několika  rolích  (všechny  1  člověk  nebo  v  každé  jiný)  -
 
@@ -335,7 +335,7 @@ Zákazník  při  rozhodování  vystupuje  v  několika  rolích  (všechny  1 
 
 - **Spotřebitel** -  užívá  (spotřebovává)  výrobek
 
-### **Fáze  rozhodování**
+### Fáze  rozhodování
 
 **1.  Rozpoznání  problému** -  impulsem  je  vnitřní  nebo  vnější  podmět  (potřeba)
 

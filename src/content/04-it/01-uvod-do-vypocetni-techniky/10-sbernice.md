@@ -9,7 +9,7 @@ Zařízení jako jsou procesor, cache paměť, operační paměť a grafický ad
 
 Osobní počítače musí být navrženy tak, aby bylo možné jejich snadné rozšiřování o další zařízení (zvukové karty, síťové karty, modemy, TV karty, měřící karty apod.). Takovéto rozšiřování je velmi často uskutečňováno pomocí tzv. rozšiřující sběrnice počítače (častěji označované pouze jako sběrnice nebo systémová sběrnice), na kterou se jednotlivá zařízení zapojují (např. PCI, PCI Express, ISA, PCMCIA, ExpressCard). Tato rozšiřující sběrnice a zapojované zařízení musí tedy splňovat určitá pravidla (standardy).
 
-### **Parametry sběrnic:**
+### Parametry sběrnic:
 
 - a. _Přenosová rychlost_ - určuje max. počet bitů přenesených za 1 sekundu [b/s]
 
@@ -27,7 +27,7 @@ Firma Intel zavedla pro vyjádření obecné přenosové rychlosti jednotku [GT/
 
 Zjednodušeně lze říci, že během jednoho hodinového taktu se přenese množství informace v bitech, které je rovno počtu datových vodičů (šířka datové sběrnice). Čím větší kmitočet, tím větší rychlost přenosu dat. Existují však technologie, které umožňují během 1 hodinového impulsu provést i více než jeden přenos po sběrnici (např. technologie QPB)
 
-### **Rozdělení sběrnic:**
+### Rozdělení sběrnic:
 
 - _Podle druhu přenášených signálů_
 
@@ -61,7 +61,7 @@ Zjednodušeně lze říci, že během jednoho hodinového taktu se přenese mno�
 
    - _Systémová_ – je napojena na jižní most čipové sady se zakončením normovanými sloty (PCI, PCI-Express x1, x2, x4, AMR, CNR, PCMCIA, ExpressCard). Mezi dnes nepoužívané systémové sběrnice řadíme ISA, EISA, VL-BUS.
 
-## **1. Lokální sběrnice**
+## 1. Lokální sběrnice
 
 _Procesorová_ - nejrychlejší sběrnice na základní desce, slouží k přenášení dat mezi procesorem a čipovou sadou základní desky - propojuje procesor se severním mostem (MCH). Sběrnice pracuje na plné rychlosti základní desky. Rychlost procesorové sběrnice se mění v závislosti na čipové sadě. V současné době je stávající procesorová sběrnice FSB (Front Side Bus) nahrazována procesorovou sběrnicí QPI (Intel procesory) nebo HyperTransport (AMD procesory).
 
@@ -69,11 +69,11 @@ _Paměťová_ - využívá se pro přenos dat mezi procesorem a operační pamě
 
 _Grafická_ - slouží k rychlému přenosu dat mezi grafickou kartou, procesorem a operační pamětí. U starších základních desek se používala grafická sběrnice AGP (Accelerated Graphics Port). Dnes se používá výhradně sběrnice PCI Express x16.
 
-## **2. Sběrnice pro rozšiřující karty**
+## 2. Sběrnice pro rozšiřující karty
 
 Slouží k rozšíření možností počítače pomocí rozšiřujících karet. Tyto sběrnice jsou zakončeny normovanými sloty, do kterých se zasouvají přídavné karty (zvuková, síťová, televizní, atd.).
 
-### **2.1 PCI (Peripheral Component Interconnect), PCI-X (PCI Extended)**
+### 2.1 PCI (Peripheral Component Interconnect), PCI-X (PCI Extended)
 
 Systémová sběrnice pro připojení rozšiřujících karet do základní desky. Používá paralelní přenos dat (šířka 32 nebo 64 bitů). Každý datový vodič slouží pro přenos dat oběma směry, ne však zároveň. Úroveň logických signálů (resp. napětí log. 1) může nabývat hodnoty buď 5 V (starší specifikace PCI sběrnice) nebo 3,3 V. Současný konečný standard sběrnice PCI 3.0 již nepočítá s napětím 5 V.
 
@@ -99,7 +99,7 @@ Přenosovou kapacitu sdílí všechna připojená zařízení. Ukázka karet pro
 
 Přímým nástupcem sběrnice PCI je sběrnice **PCI-X** . Jedná se o 64 bitovou sběrnici s vyššími pracovními kmitočty: 66, 133 MHz (PCI-X 1.0), následně 266, 533 MHz (PCI-X 2.0). Standard PCI-X je zpětně kompatibilní s PCI sběrnicí podporující napětí 3,3 V.
 
-## **2.2 AGP (Accelerated Graphics Port)**
+## 2.2 AGP (Accelerated Graphics Port)
 
 AGP je vysokorychlostní sběrnice, kterou řadíme do kategorie „lokální sběrnice“. Je tedy napojena přímo na severní most (obvod MCH) čipové sady. Pomocí této sběrnice lze připojit k počítači výhradně grafickou kartu.
 
@@ -109,7 +109,7 @@ V současné době je AGP sběrnice vytlačena rychlejší sériovou sběrnici P
 
 Specifikace sběrnice AGP:
 
-### **2.3 PCI Express**
+### 2.3 PCI Express
 
 Sběrnice PCI Express je nová implementace PCI sběrnice. Je založena na mnohem rychlejší sériové komunikaci. Díky tomu je PCI Express kompaktnější než PCI - vyžaduje daleko méně vodičů, čímž se usnadňuje a zlevňuje výroba. Návrhy plošných spojů jsou jednodušší, uvolňuje se prostor pro jiné prvky na základní desce.
 
@@ -155,7 +155,7 @@ PCI Express x1
 
 PCI Express x16
 
-### **2.4 PCMCIA**
+### 2.4 PCMCIA
 
 PCMCIA (Personal Computer Memory Card International Association) je rozšiřující slot, vyskytující se především v noteboocích. Starší specifikace vycházely z architektury sběrnice ISA (16 bitů), dnes se již nepoužívají. Novější specifikace vychází z architektury sběrnice PCI (32 bitová datová sběrnice), označovaná také jako _CardBus_ .
 
@@ -171,7 +171,7 @@ Má 3 verze podle šířky vkládané karty a 1 neoficiální standard:
 
 PCMCIA karty se vyznačují podporou _Plug and Play_ (automatická detekce a instalace vloženého periferního zařízení či rozhraní) a _Hot swap_ (možností vysunout/zasunout kartu za chodu).
 
-## **2.5 ExpressCard**
+## 2.5 ExpressCard
 
 Nový standard pro rozšiřující karty. ExpressCard je nástupcem řešení PCMCIA. Jedná se o hardwarové spojení dvou sběrnic (rozhraní) - _PCI Express_ a _USB_ , přičemž zařízení může používat buď jednu nebo obě sběrnice současně v závislosti na návrhu tohoto zařízení.
 

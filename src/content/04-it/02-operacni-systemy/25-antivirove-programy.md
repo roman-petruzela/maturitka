@@ -3,7 +3,7 @@ title: "Antivirové programy"
 order: 25
 source: "osy/antivirové programy.pdf"
 ---
-## • jednoúčelové antiviry
+## Jednoúčelové antiviry
 
 - internetové online skenery
 
@@ -33,7 +33,7 @@ source: "osy/antivirové programy.pdf"
 
 # Antivirové skenery
 
-## • on-demand
+## On-demand
 
 • on access (rezidentní ochrana)
 

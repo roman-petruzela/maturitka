@@ -1,5 +1,5 @@
 ---
-title: "CLOVEK A PRACE"
+title: "Člověk a práce"
 order: 9
 source: "Společenské vědy/9. CLOVEK A PRACE.docx"
 ---

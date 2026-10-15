@@ -3,17 +3,17 @@ title: "Finanční trhy Dokumenty Google"
 order: 17
 source: "Účetnictví/17. Finanční trhy - Dokumenty Google.pdf"
 ---
-## **Charakteristika  finančních  trhů**
+## Charakteristika  finančních  trhů
 
 Obchodování  s  finančními  prostředky  se  uskutečňuje  na  finančních  trzích  -  umožňují  tok finančních  prostředků  mezi  jednotlivými  subjekty.
 
-## **Na  finanční  trhy  vstupují**
+## Na  finanční  trhy  vstupují
 
 - **subjekty  přebytkové** -  nabízejí  prostředky  (spořitelny,  banky,  pojišťovny,  fondy,  dom.)
 
 - **subjekty  schodkové** -  poptávají  prostředky  (veřejný  sektor  a  podnik.  sféra)
 
-## **Dělení  finančního  trhu**
+## Dělení  finančního  trhu
 
 - **privátní** (tj.  veškeré  akce  tam  jsou  neveřejné  a  probíhají  mezi  oběma  subjekty  přímo)
 
@@ -21,13 +21,13 @@ Obchodování  s  finančními  prostředky  se  uskutečňuje  na  finančních
 
 Na  tento  trh  v  Česku  dohlíží  Česká  národní  banka.  Jeho  účastníkem  je  většina  velkých finančních  ústavů,  jako  například  banky,  pojišťovny,  záložny,  penzijní  fondy,  investiční fondy,  kampeličky,  leasingové  společnosti,  či  makléři. Mezi  další  dělení  patří  například  na  peněžní  a  kapitálový  finanční  trh.
 
-## **Cenné  papíry**
+## Cenné  papíry
 
 - listina,  která  představuje  určitý  právní  nárok  toho,  kdo  ji  vlastní  vůči  tomu,  kdo  je  z  ní zavázán  (emitent)
 
 - je  to  druh  kapitálu,  který  slouží  k  obchodování  na  finančním  trhu
 
-## **Portfolio  CP**
+## Portfolio  CP
 
 - skladba,  soubor  či  struktura
 
@@ -35,15 +35,15 @@ Na  tento  trh  v  Česku  dohlíží  Česká  národní  banka.  Jeho  účast
 
 **Diverzifikace  rizika** -  „rozložení“  investované  částky  do  různých  investic  s  různou  mírou rizika.
 
-## **Členění  CP:**
+## Členění  CP:
 
-### **-  Podle  podoby**
+### Podle podoby
 
 - Listina  –  je  vydán  CP,  na  kterém  jsou  uvedeny  tyto  náležitosti:  nominální  hodnota,  výnos  v  %, množství,  datum  vystavení,  splatnost  a  podpisy  oprávněných  osob
 
 - Zaknihovaná  podoba  –  list  CP  je  uveden  v  CDCP
 
-## **-  Podle  právního  nároku  -  nejdůležitější**
+## Podle právního nároku - nejdůležitější
 
 - **Dlužnické  CP** –  vzniká  zde  nárok  na  splacení  dluhu  a  úvěrový  vztah.  Úvěrový  vztah  vzniká, když  eminent  má  nedostatek  peněz,  proto  vydává  CP,  který  si  koupí  investor  (obligace, dluhopisy,  směnky,  šeky,  vkladové  listy,  vkladní  knížky,  hyp.  zástavní  listy)
 
@@ -55,7 +55,7 @@ Na  tento  trh  v  Česku  dohlíží  Česká  národní  banka.  Jeho  účast
 
 /
 
-## **-  Podle  převoditelnosti**
+## Podle převoditelnosti
 
 - **Na  majitele** –  na  CP  není  uvedeno  jméno  oprávněného,  převádí  se  pouhým  předáním  jiné
 
@@ -69,7 +69,7 @@ Na  tento  trh  v  Česku  dohlíží  Česká  národní  banka.  Jeho  účast
 
 - písemně  na  rubu  CP
 
-## **-  Podle  charakteru  výnosu**
+## Podle charakteru výnosu
 
 - **S  pravidelným  výnosem** –  obligace,  dluhopisy,  vkladové  listy
 
@@ -77,7 +77,7 @@ Na  tento  trh  v  Česku  dohlíží  Česká  národní  banka.  Jeho  účast
 
 - **S  podílem  na  zisku** –  akcie,  podílové  listy
 
-## **-  Podle  emitenta**
+## Podle emitenta
 
 - **Státní** –  státní  dluhopis,  poukázky
 
@@ -85,17 +85,17 @@ Na  tento  trh  v  Česku  dohlíží  Česká  národní  banka.  Jeho  účast
 
 - **Soukromé** –  šeky,  akcie,  směny,  bankovní  obligace,  vkladové  listy
 
-## **-  Podle  obchodovatelnosti**
+## Podle obchodovatelnosti
 
 - **Obchodovatelné** –  na  burze  nebo  RM  –  systému
 
 - **Neobchodovatelné** –  nelze  s  nimi  veřejně  obchodovat
 
-## **Burza  cenných  papírů**
+## Burza  cenných  papírů
 
 Burza  je  místem,  kde  se  podle  stanovených  pravidel  obchoduje  se  zbožím  či  CP.
 
-## **Má  určité  rysy:**
+## Má  určité  rysy:
 
 - funguje  podle  určitých  pravidel
 
@@ -103,13 +103,13 @@ Burza  je  místem,  kde  se  podle  stanovených  pravidel  obchoduje  se  zbo�
 
 - obchodované  zboží  je  zastupitelné  a  není  přímo  přítomno
 
-## **Burzy  se  dělí:**
+## Burzy  se  dělí:
 
 - **peněžní** (s  CP  a  valutami)
 
 - **zbožové** (komoditní)
 
-## **Základní  ekonomická  funkce  burzy**
+## Základní  ekonomická  funkce  burzy
 
 - Zprostředkování  zájmů  vkladatelů  a  věřitelů  umožňuje  využít  volné  finanční  prostředky
 
@@ -117,7 +117,7 @@ Burza  je  místem,  kde  se  podle  stanovených  pravidel  obchoduje  se  zbo�
 
 - Řízení  pohybu  kapitál-řídí  pohyb  do  perspektivních  podniků
 
-## **Účastníci  burzovních  obchodů**
+## Účastníci  burzovních  obchodů
 
 - investoři
 
@@ -129,7 +129,7 @@ Burza  je  místem,  kde  se  podle  stanovených  pravidel  obchoduje  se  zbo�
 
 /
 
-## **Orgány  burzy**
+## Orgány  burzy
 
 - valná  hromada  (má  právo  rozhodovat,  je  nejvyšším  orgánem  burzy)
 
@@ -141,7 +141,7 @@ Burza  je  místem,  kde  se  podle  stanovených  pravidel  obchoduje  se  zbo�
 
 - burzovní  rozhodčí  soud  (rozhoduje  spory  z  burzovních  obchodů)
 
-## **RM  systémy**
+## RM  systémy
 
 - akciová  společnost,  organizuje  trh  s  cennými  papíry,  vykonává  tytéž  činnost  jako  burza
 
@@ -151,11 +151,11 @@ Burza  je  místem,  kde  se  podle  stanovených  pravidel  obchoduje  se  zbo�
 
 - RM  systém  má  centrální  pracoviště  a  vstupní  pracoviště  (jednotlivá  obchodní  místa, pracoviště  a  pracovní  stanice  přímo  u  zákazníka)
 
-## **Průběh  obchodu  v  RMS**
+## Průběh  obchodu  v  RMS
 
 - v  RMS  probíhá  tvz.  průběžná  aukce,  ceny  akcií  se  v  průběhu  dne  mění  podle  nabídky  a poptávky,  tyto  se  párují  a  po  spárování  následuje  finanční  a  majetkové  vyrovnání
 
-## **Další  služby  v  RMS**
+## Další  služby  v  RMS
 
 - kromě  služeb  s  nákupem  a  prodejem  CP  ještě  zajišťuje
 
@@ -169,7 +169,7 @@ Burza  je  místem,  kde  se  podle  stanovených  pravidel  obchoduje  se  zbo�
 
 - informace  z  kapitálových  trhů
 
-## **Centrální  depozitář  cenných  papírů,  a.  s.  (bývalé  Středisko  CP)**
+## Centrální  depozitář  cenných  papírů,  a.  s.  (bývalé  Středisko  CP)
 
 - akcie  neexistují  v  listinné  podobě,  ale  v  podobě  záznamu  v  počítači
 
@@ -179,7 +179,7 @@ Burza  je  místem,  kde  se  podle  stanovených  pravidel  obchoduje  se  zbo�
 
 - emitentům  poskytuje  služby  spojené  s  vedením  emisí  CP
 
-## **Individuální  investování**
+## Individuální  investování
 
 - investor=  ten,  kdo  nespotřebuje  peníze  ihned,  ale  uloží  je  v  zájmu  budoucí  spotřeby
 
@@ -203,7 +203,7 @@ Burza  je  místem,  kde  se  podle  stanovených  pravidel  obchoduje  se  zbo�
 
 - investice  do  cenných  papírů
 
-## **Úschova  peněz  doma**
+## Úschova  peněz  doma
 
 - lze  o  peníze  nejsnadněji  přijít  a  hlavně  nenesou  další  peníze
 
@@ -211,7 +211,7 @@ Burza  je  místem,  kde  se  podle  stanovených  pravidel  obchoduje  se  zbo�
 
 - inflace  je  znehodnocení  peněz  způsobené  růstem  cen
 
-## **Ukládání  peněz  na  vkladní  knížku  nebo  účet**
+## Ukládání  peněz  na  vkladní  knížku  nebo  účet
 
 - pokud  si  uložíte  peníze  na  vkladní  knížku  nebo  na  účet  v  bance,  stanete  se  věřiteli  banky
 
@@ -235,7 +235,7 @@ Burza  je  místem,  kde  se  podle  stanovených  pravidel  obchoduje  se  zbo�
 
 - pojištění  produktu
 
-## **Druhy  bankovních  vkladů**
+## Druhy  bankovních  vkladů
 
 - Běžné  účty
 
@@ -249,11 +249,11 @@ Burza  je  místem,  kde  se  podle  stanovených  pravidel  obchoduje  se  zbo�
 
 - Vkladové  listy
 
-## **Penzijní  připojištění,  stavební  spoření,  životní  spoření**
+## Penzijní  připojištění,  stavební  spoření,  životní  spoření
 
 Stát  přispívá  do  stavebního  a  penzijního,  daňové  úlevy  jsou  u  penzijka  a  v  případě  čerpání úvěru  ze  stavebního  spoření.
 
-## **Penzijní  připojištění**
+## Penzijní  připojištění
 
 - způsob  dlouhodobého  spoření  na  dobu,  kdy  účastník  nebude  výdělečně  činný
 
@@ -271,7 +271,7 @@ Stát  přispívá  do  stavebního  a  penzijního,  daňové  úlevy  jsou  u 
 
 /
 
-## **Stavební  spoření**
+## Stavební  spoření
 
 - další  možnost  investování  peněz,  hlavním  motivem  je  spoření  na  pořízení  bytu,  domu,  jeho rekonstrukci  a  modernizaci
 
@@ -289,7 +289,7 @@ Stát  přispívá  do  stavebního  a  penzijního,  daňové  úlevy  jsou  u 
 
 - to  je  částka,  kterou  může  mít  účastník  spoření  maximálně  k  dispozici
 
-## **Životní  pojištění**
+## Životní  pojištění
 
 - je  ukládáni  prostředků  na  pojistný  fond  (i  jednorázově)  s  výplatou  v  dohodnutý  termín
 
@@ -303,7 +303,7 @@ Stát  přispívá  do  stavebního  a  penzijního,  daňové  úlevy  jsou  u 
 
 - úrazové  pojištění  -  pro  případ  smrti  nebo  trvalých  následků  a  nezbytného  léčení  druhy  lze kombinovat
 
-## **Investice  do  nemovitostí**
+## Investice  do  nemovitostí
 
 - bezpečné  uložení  peněz,  nemovitosti  dlouhodobě  neztrácejí  svou  hodnotu  (  s  výjimkou období  krizí,  jedná  se  o  přechodný  stav)
 
@@ -315,11 +315,11 @@ Investice  do  uměleckých  hodnot  a  starožitností,  zlata
 
 - nepřinášejí  úrok,  jsou  považovány  za  bezpečnou  hodnotu,  horší  likvidita;  prodej  aukčním způsobem
 
-## **Kolektivní  investování**
+## Kolektivní  investování
 
 Drobný  investor  využije  při  investování  do  CP  finančních  institucí  tzv.  investičních  fondů  a investičních  společností,  které  shromažďují  finanční  prostředky,  které  shromažďují  finanční prostředky  od  veřejnosti  a  tyto  dále  investují  do  různých  oborů.
 
-### **Výhody**
+### Výhody
 
 - rozložení  rizika  investováním  do  různých  oborů
 
@@ -337,7 +337,7 @@ Drobný  investor  využije  při  investování  do  CP  finančních  instituc
 
 /
 
-### **Nevýhody**
+### Nevýhody
 
 - za  správu  kapitálu  se  musí  platit  určitý  poplatek
 
@@ -347,7 +347,7 @@ Drobný  investor  využije  při  investování  do  CP  finančních  instituc
 
 - nebezpečí  zapojení  se  do  společnosti,  které  chtějí  investora  poškodit
 
-## **Investiční  společnost**
+## Investiční  společnost
 
 - je  finanční  instituce,  jejímž  posláním  je  zakládat  investiční  a  podílové  fondy  a  zabezpečovat jejich  správu
 
@@ -361,7 +361,7 @@ Drobný  investor  využije  při  investování  do  CP  finančních  instituc
 
 - spolehlivého,  výnosového  a  rizikově  rozloženého  investování  do  cenných  papírů  a  majetku
 
-## **Investiční  fondy**
+## Investiční  fondy
 
 - jsou  založeny  investičními  společnostmi
 
@@ -373,17 +373,17 @@ Drobný  investor  využije  při  investování  do  CP  finančních  instituc
 
 - shromážděné  finanční  prostředky  investují  do  nákupu  CP,  nemovitostí,  movitých  věcí, vklady  u  bank
 
-## **Typy  investičních  fondů**
+## Typy  investičních  fondů
 
 - **výnosové** –  zaměřené  na  dividendy
 
 - **růstové** –  zaměřené  na  zvyšování  majetku
 
-## **Podle  investičního  zaměření**
+## Podle  investičního  zaměření
 
 akciové,  obligační,  peněžní  (krátkodobé  CP),  komoditní  (zlato),  nemovitostí Každý  investiční  fond  má  statut  –  popis  jakým  způsobem  bude  fungovat  investiční  fond.
 
-## **Podílové  fondy**
+## Podílové  fondy
 
 Není  samostatná  PO,  zřizuje  ho  investiční  společnost.  Prostředky  mohou  být  investovány pouze  do  CP  a  na  účty  bank.  Na  základě  přijatých  peněžních  prostředků  od  investorů  vydává společnost  podílové  listy  (CP)
 
@@ -395,7 +395,7 @@ Není  samostatná  PO,  zřizuje  ho  investiční  společnost.  Prostředky  
 
 Pro  dlouhodobé  investování  je  vhodnější  uzavřený  fond,  pro  krátkodobé  otevřený  (má  nižší výnos).
 
-## **Privatizační  fondy**
+## Privatizační  fondy
 
 /
 

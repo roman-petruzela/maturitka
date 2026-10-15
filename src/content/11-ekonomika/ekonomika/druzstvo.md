@@ -7,14 +7,14 @@ source: "Ekonomika/7. Družstvo.docx"
 
 __Založení družstva__
 
-- ustavující členská schůze družstva musí přijmout stanovy, zvolit členy orgánů; způsob a lhůtu pro splacení základního členského popř\. Vstupního vkladu
-- návrh stanov provádí __svolavatel__ \(FO je písemně k tomuto úkolu pověřená; ustavující schůze se účastní osoby, které si podali přihlášku k družstva a všichni ostatní se zapisují do listiny přítomných a o stanovách se musí hlasovat veřejně
+- ustavující členská schůze družstva musí přijmout stanovy, zvolit členy orgánů; způsob a lhůtu pro splacení základního členského popř. Vstupního vkladu
+- návrh stanov provádí __svolavatel__ (FO je písemně k tomuto úkolu pověřená; ustavující schůze se účastní osoby, které si podali přihlášku k družstva a všichni ostatní se zapisují do listiny přítomných a o stanovách se musí hlasovat veřejně
 - po schválení stanov se vyhotoví __seznam zakladatelů__, který je přílohou __veřejné listiny__ a její přílohou je seznam zakladatelů, který se přikládá __k OR__
-- zakladatel splní svou __vkladovou povinnost__ k základnímu \(vstupnímu\) vkladu do 15 dnů ode dne konání ustavující schůze
+- zakladatel splní svou __vkladovou povinnost__ k základnímu (vstupnímu) vkladu do 15 dnů ode dne konání ustavující schůze
 
 __Stanovy__
 
-- jsou __povinné__ a __obsahují__: firmu družstva; předmět podnikání; výši zákl\. Členského vkladu a vstupního vkladu; lhůtu pro splacení; způsob svolávání členské schůze; počet členů představenstva a kontrolní komise
+- jsou __povinné__ a __obsahují__: firmu družstva; předmět podnikání; výši zákl. Členského vkladu a vstupního vkladu; lhůtu pro splacení; způsob svolávání členské schůze; počet členů představenstva a kontrolní komise
 - můžou být pouze měněny členskou schůzí za přítomnosti všech členů
 
 __Informační deska__
@@ -23,7 +23,7 @@ __Informační deska__
 
 __Vklady__
 
-- každý člen se podílí na základním kapitálu družstva \(tzv\. Základním členským vkladem\) a může mít i více vkladů a jejich výše může být různá pokud zapsáno ve stanovách
+- každý člen se podílí na základním kapitálu družstva (tzv. Základním členským vkladem) a může mít i více vkladů a jejich výše může být různá pokud zapsáno ve stanovách
 - __členský vklad__ je tvořen součtem základního členského vkladu a dalších vkladů člena
 - podmínkou vzniku členství je splnění __vkladové povinnosti__ a někdy vznik pracovního poměru
 - vkladová povinnost v rozdílu mezi základním a vstupním členským vkladem musí být splněna ve lhůtě určené ve stanovách a nesmí být delší než 3 roky
@@ -46,7 +46,7 @@ __Vznik a zánik členství__
 __Družstevní a vypořádací podíl__
 
 - __družstevní podíl__ – práva a povinnosti člena plynoucí z členství v družstvu; každý člen může míz pouze jeden podíl
-- __vypořádací podíl__ – určí se poměrem splněné vkladové povinnosti člena\. Kterému v daném účetním období zaniklo členství; je platný uplynutím 3 měsíců ode dne, kdy byla nebo mohla být zjištěna jeho výše; jestliže byl člen z družstva vyloučen, tak je vypořádací podíl vyplacen do 1 roku, kdy mohla být zjištěna jeho výše
+- __vypořádací podíl__ – určí se poměrem splněné vkladové povinnosti člena. Kterému v daném účetním období zaniklo členství; je platný uplynutím 3 měsíců ode dne, kdy byla nebo mohla být zjištěna jeho výše; jestliže byl člen z družstva vyloučen, tak je vypořádací podíl vyplacen do 1 roku, kdy mohla být zjištěna jeho výše
 
 __Orgány družstva__
 

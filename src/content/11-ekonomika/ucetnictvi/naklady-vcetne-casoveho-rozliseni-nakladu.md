@@ -13,8 +13,8 @@ __Zásady pro účtování nákladů a výnosů__
 - Přírůstky nákladů se účtují na straně MD, přírůstky výnosů na straně D
 - Náklady a výnosy se účtují vždy do období, se kterými věcně i časově souvisejí
 - Opravy nákladů a výnosů minulých účetních období
-	- při opravách __nevýznamných částek__ → __metoda výsledková__ \(= zaúčtování částek oprav na příslušné nákladové a výnosové účty, kam měly být správně v předchozím období zaúčtovány\)
-	- při opravách __významných částek__ → __metoda rozvahová__ \(= zaúčtování původního nákladu na příslušný účet vlastního kapitálu, na kterém je vykazován účetní výsledek hospodaření minulých let
+	- při opravách __nevýznamných částek__ → __metoda výsledková__ (= zaúčtování částek oprav na příslušné nákladové a výnosové účty, kam měly být správně v předchozím období zaúčtovány)
+	- při opravách __významných částek__ → __metoda rozvahová__ (= zaúčtování původního nákladu na příslušný účet vlastního kapitálu, na kterém je vykazován účetní výsledek hospodaření minulých let
 - Zákaz vzájemného zúčtování nákladů a výnosů
 - Při účetní uzávěrce se zůstatky z výsledkových účtů převedou na účet 710 – Účet zisků a ztrát
 - Existence párových účtů
@@ -29,19 +29,19 @@ __Zásady pro účtování nákladů a výnosů__
 
 __Členění nákladů__
 
-__1\) Podle nákladových druhů__
+__1) Podle nákladových druhů__
 
 - základní rozdělení podle stejnorodých skupin nákladů, které odráží i směrná účtová osnova
 
-__2\) Podle struktury účetního výsledku hospodaření__
+__2) Podle struktury účetního výsledku hospodaření__
 
-- provozní – náklady vzniklé v souvislosti s běžným provozem podniku \(50, 51, 52, 53, 54, 55, 58, 597\)
+- provozní – náklady vzniklé v souvislosti s běžným provozem podniku (50, 51, 52, 53, 54, 55, 58, 597)
 
-__3\) Podle místa vzniku a odpovědnosti__
+__3) Podle místa vzniku a odpovědnosti__
 
 - podle hospodářských středisek
 
-__4\) Podle zákona o daních z příjmů__
+__4) Podle zákona o daních z příjmů__
 
 - daňově uznatelné – snižují základ daně
 - daňově neuznatelné – ovlivní pouze účetní výsledek hospodaření
@@ -64,10 +64,10 @@ __4\) Podle zákona o daních z příjmů__
 
 *559, 579 – Tvorba a zúčtování opravných položek*
 
-__5\) Podle vztahu ke kalkulační jednici__
+__5) Podle vztahu ke kalkulační jednici__
 
-- Přímé \(jednicové\) – mají vztah přímé úměrnosti k objemu výroby \(př\. přímý materiál, přímé mzdy, spotřeba technologické energie\)
-- Nepřímé \(režijní\) – vztah přímé úměrnosti k objemu výroby postrádají \(př\. náklady na opravy a udržování, cestovné, nájemné, odpisy, …\)
+- Přímé (jednicové) – mají vztah přímé úměrnosti k objemu výroby (př. přímý materiál, přímé mzdy, spotřeba technologické energie)
+- Nepřímé (režijní) – vztah přímé úměrnosti k objemu výroby postrádají (př. náklady na opravy a udržování, cestovné, nájemné, odpisy, …)
 
 __Zásoby vlastní výroby – účtová skupina 58__
 
@@ -83,7 +83,7 @@ __Zásoby vlastní výroby – účtová skupina 58__
 
 Časové rozlišení nákladů
 
-__1\) Časové rozlišení v užším pojetí__
+__1) Časové rozlišení v užším pojetí__
 
 - je pro něj charakteristické, že účetní jednotce jsou známé tři parametry:
 	- __účel –__ na co byl nebo bude vynaložen náklad
@@ -106,7 +106,7 @@ náklad
 
 aktivní
 
-382 – Komplexní nákl\. př\. ob\.
+382 – Komplexní nákl. př. ob.
 
 výdaj
 
@@ -138,36 +138,36 @@ příjem
 
 aktivní
 
-__a\) Náklady příštích období__
+__a) Náklady příštích období__
 
 - předem placené nájemné, náklady na dlouhodobou propagaci, …
 
-((obrázek vynechán))
+<img src="/images/content/ekonomika/ucetnictvi/naklady-vcetne-casoveho-rozliseni-nakladu/01.webp" alt="" width="564" loading="lazy" decoding="async">
 
-__b\) Komplexní náklady příštích období__
+__b) Komplexní náklady příštích období__
 
-((obrázek vynechán))
+<img src="/images/content/ekonomika/ucetnictvi/naklady-vcetne-casoveho-rozliseni-nakladu/02.webp" alt="" width="594" loading="lazy" decoding="async">
 
-__c\) Výdaje příštích období__
+__c) Výdaje příštích období__
 
-((obrázek vynechán))
+<img src="/images/content/ekonomika/ucetnictvi/naklady-vcetne-casoveho-rozliseni-nakladu/03.webp" alt="" width="587" loading="lazy" decoding="async">
 
-__d\) Výnosy příštích období__
+__d) Výnosy příštích období__
 
-((obrázek vynechán))
+<img src="/images/content/ekonomika/ucetnictvi/naklady-vcetne-casoveho-rozliseni-nakladu/04.webp" alt="" width="586" loading="lazy" decoding="async">
 
-__e\) Příjmy příštích období__
+__e) Příjmy příštích období__
 
-((obrázek vynechán))
+<img src="/images/content/ekonomika/ucetnictvi/naklady-vcetne-casoveho-rozliseni-nakladu/05.webp" alt="" width="589" loading="lazy" decoding="async">
 
-__2\) Časové rozlišení v širším pojetí__
+__2) Časové rozlišení v širším pojetí__
 
-- zahrnuje i situace, kdy neznáme přesně všechny tři výše uvedené parametry \(účel, částka, období\)
+- zahrnuje i situace, kdy neznáme přesně všechny tři výše uvedené parametry (účel, částka, období)
 
 __Dohadné položky__
 
 - používají se v případě, pokud má účetní jednotka na konci účetního období pohledávky nebo závazky, jejichž přesná výše není známa
 
-__388 – Dohadné účty aktivní__ slouží pro zaznamenávání pohledávek \(př\. došlo k pojistné události, ale pojišťovna dosud neoznámila přesnou výši náhrady
+__388 – Dohadné účty aktivní__ slouží pro zaznamenávání pohledávek (př. došlo k pojistné události, ale pojišťovna dosud neoznámila přesnou výši náhrady
 
-__389 – Dohadné účty pasivní__ slouží pro zaznamenávání závazků \(př\. nevyfakturované dodávky\)
+__389 – Dohadné účty pasivní__ slouží pro zaznamenávání závazků (př. nevyfakturované dodávky)

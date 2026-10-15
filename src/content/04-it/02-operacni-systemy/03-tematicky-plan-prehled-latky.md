@@ -4,7 +4,7 @@ order: 0
 source: "osy/plán.docx"
 ---
 - základní pojmy
-- práce se soubory a složkami \(ECDL testy\)
+- práce se soubory a složkami (ECDL testy)
 - teorie operačních systémů
 - licence, autorská práva
 - instalace operačního systému W10

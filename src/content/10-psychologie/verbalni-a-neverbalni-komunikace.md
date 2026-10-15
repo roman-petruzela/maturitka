@@ -1,5 +1,5 @@
 ---
-title: "VERBÁLNÍ A NEVERBÁLNÍ KOMUNIKACE"
+title: "Verbální a neverbální komunikace"
 source: "PSYCHOLOGIE/VERBÁLNÍ-A-NEVERBÁLNÍ-KOMUNIKACE.docx"
 ---
 1. __Verbální a neverbální komunikace__
@@ -29,7 +29,7 @@ __Součásti komunikačního procesu__
 - Komunikační prostředí
 - Zpětná vazba
 
-((obrázek vynechán))
+<img src="/images/content/psychologie/verbalni-a-neverbalni-komunikace/01.webp" alt="" width="577" loading="lazy" decoding="async">
 
 __Komunikátor__
 
@@ -86,7 +86,7 @@ __KOMUNIKAČNÍ ŠUM__
 - Má rušivý vliv na přenos informace, deformuje podobu informace, narušuje dekódování informace
 - Základní typy šumu
 
-((obrázek vynechán))
+<img src="/images/content/psychologie/verbalni-a-neverbalni-komunikace/02.webp" alt="" width="605" loading="lazy" decoding="async">
 
 \(Příklady kom\. šumů – zkreslená informace, nadbytečná informace, svítící slunce, nesympatický člověk, vtíravé myšlenky, nesoustředění, únava, …\)
 
@@ -209,7 +209,7 @@ __Druhy neverbální komunikace__
 	- Strach x jistota
 	- Klid x rozčilení, viz obrázek
 
-((obrázek vynechán))
+<img src="/images/content/psychologie/verbalni-a-neverbalni-komunikace/03.webp" alt="" width="303" loading="lazy" decoding="async">
 
 __Mimika – příklady__
 
@@ -226,7 +226,7 @@ __Mimika – příklady__
 - Správný oční kontakt = signalizujeme zájem \(ale nesmíme zírat ☺ \)
 - Prchavý oční kontakt = např\. záměrný odstup, obava, nezájem, špatné svědomí, …
 
-((obrázek vynechán))
+<img src="/images/content/psychologie/verbalni-a-neverbalni-komunikace/04.webp" alt="" width="554" loading="lazy" decoding="async">
 
 1. __GESTIKA__
 

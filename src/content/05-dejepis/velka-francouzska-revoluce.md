@@ -1,5 +1,5 @@
 ---
-title: "VELKÁ FRANCOUZSKÁ REVOLUCE"
+title: "Velká francouzská revoluce"
 order: 18
 source: "Dějepis/18.VELKÁ FRANCOUZSKÁ REVOLUCE.doc"
 ---

@@ -1,5 +1,5 @@
 ---
-title: "KLASICKA RECKA FILOSOFIE"
+title: "Klasická řecká filosofie"
 order: 17
 source: "Společenské vědy/17. KLASICKA RECKA FILOSOFIE.docx"
 ---

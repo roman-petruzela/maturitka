@@ -3,17 +3,17 @@ title: "Moliére - Lakomec"
 order: 68
 source: "ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Moliére - Lakomec/1. Moliére-Lakomec.docx"
 ---
-\-klasicismus 17/18 stol\. vzn\. ve Francii, za vlády Ludvíka XIV\. Navazuje na antiku a renesanci, odklon od závislosti na bohu, literatura vyžadovala přesný řád a pevná pravidla, VFR 1789, touhy jedince ustupují před společenskými normami
+\-klasicismus 17/18 stol. vzn. ve Francii, za vlády Ludvíka XIV. Navazuje na antiku a renesanci, odklon od závislosti na bohu, literatura vyžadovala přesný řád a pevná pravidla, VFR 1789, touhy jedince ustupují před společenskými normami
 
-\-dělí se na vysokou \(óda, epos\) a nízkou \(komedie, fraška, bajka\)
+\-dělí se na vysokou (óda, epos) a nízkou (komedie, fraška, bajka)
 
-__Další autoři:__ Jean de la Fontaine\(COMEDIA DELL´ARTE\), Carlo Goldini \(SLUHA DVOU PÁNŮ\), Piére Corneille \(tragédie, CID\), Daniel Defoe
+__Další autoři:__ Jean de la Fontaine(COMEDIA DELL´ARTE), Carlo Goldini (SLUHA DVOU PÁNŮ), Piére Corneille (tragédie, CID), Daniel Defoe
 
 __Další díla autora:__ Podvodník, Zdravý a nemocný
 
 __Moliére__
 
-Francouz, Jean\-Baptiste Poquelin, měl se stát notářem ale zřekl se otcova úřadu a rozhodl se pro divadlo, vystoupil před králem L\.XIV a později se stává ředitelem královského divadlo v Paříži
+Francouz, Jean-Baptiste Poquelin, měl se stát notářem ale zřekl se otcova úřadu a rozhodl se pro divadlo, vystoupil před králem L.XIV a později se stává ředitelem královského divadlo v Paříži
 
 __Lakomec__
 
@@ -47,4 +47,4 @@ __kompozice__: komediální zápletky, hra psána formou prózy, chronologie, me
 
 __jazykové prostředky:__ spisovný, běžná, historismy, vyprávěcí, Dialog i monolog, Přímá
 
-__((obrázek vynechán))__
+__<img src="/images/content/cj/rozbor-knih-a-cetba/moliere-lakomec/01.webp" alt="" width="821" loading="lazy" decoding="async">__

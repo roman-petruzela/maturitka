@@ -35,10 +35,23 @@ Plné znění výstupů je v [přehledu ŠVP](/it/reference/svp-prehled/#493-gra
 
 ## Témata kategorie
 
+**Teorie**
+
 - [Tematický plán](/it/grafika-na-pc/00-tematicky-plan/)
-- [Počítačová grafika – pojmy a software](/it/grafika-na-pc/01-pocitacova-grafika-a-software/) – rastr a vektor, rozlišení, barevné modely, formáty, přehled programů
+- [Počítačová grafika – pojmy a software](/it/grafika-na-pc/01-pocitacova-grafika-a-software/) – rastr a vektor, přehled programů
+- [Barevné modely, rozlišení a správa barev](/it/grafika-na-pc/06-barevne-modely-rozliseni-a-sprava-barev/) – RGB, CMYK, HSV, DPI, barevná hloubka, datová velikost, gamut a kalibrace
+- [Grafické formáty a komprese](/it/grafika-na-pc/07-graficke-formaty-a-komprese/)
+- [Kompozice a zlatý řez](/it/grafika-na-pc/08-kompozice-a-zlaty-rez/)
+- [Skenování a digitalizace](/it/grafika-na-pc/09-skenovani-a-digitalizace/)
+
+**Práce v editorech**
+
+- [Rastrová grafika – práce v GIMPu](/it/grafika-na-pc/03-rastrova-grafika-gimp/) – výběry, jas a kontrast, korekce barev, maska
+- [Vrstvy, animovaný GIF a kolorování (GIMP)](/it/grafika-na-pc/10-vrstvy-animovany-gif-a-kolorovani/)
 - [Vektorová grafika – práce v editoru (Zoner Callisto)](/it/grafika-na-pc/02-vektorova-grafika/)
-- [Rastrová grafika – práce v GIMPu](/it/grafika-na-pc/03-rastrova-grafika-gimp/)
+
+**3D**
+
 - [3D systémy](/it/grafika-na-pc/04-3d-systemy/) – hardware a software pro 3D
 - [Blender – základy 3D modelování](/it/grafika-na-pc/05-blender-zaklady-3d-modelovani/)
 
@@ -48,9 +61,9 @@ Kompletní seznam je v [maturitních okruzích IT](/it/reference/maturitni-okruh
 
 | Okruh | Stránky |
 | --- | --- |
-| [7) Počítačová grafika](/it/reference/maturitni-okruhy/#7-počítačová-grafika) | [pojmy, rozdělení, barevné modely, formáty, rastr × vektor](/it/grafika-na-pc/01-pocitacova-grafika-a-software/), software: [GIMP](/it/grafika-na-pc/03-rastrova-grafika-gimp/), [Zoner Callisto](/it/grafika-na-pc/02-vektorova-grafika/), [Blender](/it/grafika-na-pc/05-blender-zaklady-3d-modelovani/) |
+| [7) Počítačová grafika](/it/reference/maturitni-okruhy/#7-počítačová-grafika) | [pojmy, rozdělení, rastr × vektor](/it/grafika-na-pc/01-pocitacova-grafika-a-software/), [barevné modely](/it/grafika-na-pc/06-barevne-modely-rozliseni-a-sprava-barev/), [formáty](/it/grafika-na-pc/07-graficke-formaty-a-komprese/), software: [GIMP](/it/grafika-na-pc/03-rastrova-grafika-gimp/), [Zoner Callisto](/it/grafika-na-pc/02-vektorova-grafika/), [Blender](/it/grafika-na-pc/05-blender-zaklady-3d-modelovani/) |
 
-Příklad na výpočet datové velikosti obrázku žádná stránka zatím nerozebírá – postup je výše v [Co si určitě zapamatovat](#co-si-určitě-zapamatovat).
+Výpočet datové velikosti obrázku je v kapitole [barevná hloubka a datová velikost](/it/grafika-na-pc/06-barevne-modely-rozliseni-a-sprava-barev/#barevná-hloubka-a-datová-velikost).
 
 ## Co je jen okrajové
 

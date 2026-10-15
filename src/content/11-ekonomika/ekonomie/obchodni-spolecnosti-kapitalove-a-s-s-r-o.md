@@ -5,7 +5,7 @@ source: "Ekonomie/22. Obchodní společnosti kapitálové - a. s., s. r. o..docx
 ---
 22\. Obchodní společnosti kapitálové
 
-a\. s\., s\. r\. o\.
+a. s., s. r. o.
 
 __Obchodní korporace =__ obchodní společnost a družstvo
 
@@ -13,7 +13,7 @@ __Obchodní korporace =__ obchodní společnost a družstvo
 - PO s cílem podnikání
 - zakládají jak FO, tak i PO
 - Právní norma:
-- Zákon o obchodních korporacích č\. 90/2012 Sb\.
+- Zákon o obchodních korporacích č. 90/2012 Sb.
 - Založení a vznik obchodní společnosti:
 
 společenská smlouva, notářský zápis
@@ -40,8 +40,8 @@ zápis do obchodního rejstříku
 	2. Akciová společnost
 
 - Společnost s ručením omezeným
-- s\. r\. o\.
-- spol\. s r\. o\.
+- s. r. o.
+- spol. s r. o.
 - nejrozšířenější typ společnosti na celém světě
 - možnost __jediného společníka__ → zakladatelská listina
 
@@ -53,7 +53,7 @@ __Ručení__
 
 __Vklad__
 
-- min\. 1 Kč
+- min. 1 Kč
 
 __Řízení__
 
@@ -63,19 +63,19 @@ __Řízení__
 
 __Rozdělení zisku__
 
-- podle výše vkladů, nestanoví\-li společenská smlouva jinak
+- podle výše vkladů, nestanoví-li společenská smlouva jinak
 - Akciová společnost
 - založení pokud je potřeba větší množství kapitálu
 - každý může získat podíl na společnost zakoupením akcie
-- základní kapitál rozdělen na počet akcií \(emise\)
-- společník \(akcionář\) neručí za závazky společnosti
+- základní kapitál rozdělen na počet akcií (emise)
+- společník (akcionář) neručí za závazky společnosti
 
 __Akcie__
 
-= cenný papír, který představuje určitý vložený majetek, nejčast\. peníze
+= cenný papír, který představuje určitý vložený majetek, nejčast. peníze
 
 - práva majitele akcie
-	- podíl na řízení \(valná hromada\)
+	- podíl na řízení (valná hromada)
 	- podíl na zisku
 	- podíl na likvidačním zůstatku
 - podoba akcie
@@ -84,7 +84,7 @@ __Akcie__
 - akcie obsahuje:
 - označení, že jde o akcii
 - jednoznačnou identifikaci společnosti
-- jmenovitou \(nominální\) hodnotu
+- jmenovitou (nominální) hodnotu
 - označení formy akcie
 - u akcie na jméno jednoznačnou identifikaci akcionáře
 - údaje o druhu akcie
@@ -92,10 +92,10 @@ __Akcie__
 	- akcie na majetek volně převoditelné
         - akcie na jména seznam akcionářů
 		- akcie má:
-			- jmenovitou \(nominální\) hodnotu
-			- tržní \(kurzovou\) hodnotu – cena, za kterou se nakupuje a prodává
+			- jmenovitou (nominální) hodnotu
+			- tržní (kurzovou) hodnotu – cena, za kterou se nakupuje a prodává
 
-*Pozn\. rozdílem je ážio*
+*Pozn. rozdílem je ážio*
 
 __Ručení__
 
@@ -107,11 +107,11 @@ __Vklad__
 
 __Řízení__
 
-- nejvyšší orgán − valná hromada všech akcionářů \(hlasovací právo podle počtu akcií\) → schvaluje základní otázky vývoje společnosti na návrh statutárního orgánu
+- nejvyšší orgán − valná hromada všech akcionářů (hlasovací právo podle počtu akcií) → schvaluje základní otázky vývoje společnosti na návrh statutárního orgánu
 - statutární orgán
-	- dualistický systém → Představenstvo \(kont\. dozorčí rada\)
-	- monistický systém → Statutární  ředitel \(kont\. správní rada\)
+	- dualistický systém → Představenstvo (kont. dozorčí rada)
+	- monistický systém → Statutární  ředitel (kont. správní rada)
 
 __Rozdělení zisku__
 
-- každý akcionář podle počtu akcií \(dříve tzv\. dividenda\)
+- každý akcionář podle počtu akcií (dříve tzv. dividenda)

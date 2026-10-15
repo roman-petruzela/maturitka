@@ -22,22 +22,22 @@ source: "Ekonomie/17. Marketing.docx"
 1. __Výrobní koncepce__
 	- __zákazník__ preferuje levné a dostupné výrobky
 	- __výrobce__ → co nižší objem výroby → nízké náklady
-	- __př__\.: neznačkové oblečení, obuv, běžné potraviny
+	- __př__.: neznačkové oblečení, obuv, běžné potraviny
 2. __Výrobková koncepce__
 	- __zákazník__ preferuje vysoce kvalitu, dokonalý a výjimečný výrobek
 	- __výrobce__ zaměřují produkci na špičkové výrobky a služby a na jejich neustálé zdokonalování
-	- __př__\.: značkové oblečení, luxusní automobily
+	- __př__.: značkové oblečení, luxusní automobily
 3. __Prodejní koncepce__
 	- založena na myšlence, že zákazníkovi musíme výrobek „vnutit“
-	- __výrobci__ posilují své prodejní aktivity \(prodejní techniky a triky\)
+	- __výrobci__ posilují své prodejní aktivity (prodejní techniky a triky)
 	- __zákazník__ podléhá necenovým psychologickým faktorům
-	- __př__\.: pojištění, teleshopping
+	- __př__.: pojištění, teleshopping
 4. __Marketingová koncepce__
-	- na trhu jednoznačně __dominuje zákazník__ \(nabídka převyšuje poptávku\)
+	- na trhu jednoznačně __dominuje zákazník__ (nabídka převyšuje poptávku)
 	- __výrobci__ se zaměřují na potřeby zákazníků → podle nich vyrábějí; pevné vazby se zákazníkem
 5. __Sociálně marketingová koncepce__
-	- __výrobce__ \(prodejce\) se snaží skloubit přání zákazníků se zájmy celé společnosti → ekologický, sociální, etický charakter
-	- __př__\.: od užívání kožešin od pravých k umělým, ekologicky šetrný spotřebič, zakoupením výrobku přispěje zákazník na charitativní akci
+	- __výrobce__ (prodejce) se snaží skloubit přání zákazníků se zájmy celé společnosti → ekologický, sociální, etický charakter
+	- __př__.: od užívání kožešin od pravých k umělým, ekologicky šetrný spotřebič, zakoupením výrobku přispěje zákazník na charitativní akci
 
 - Chování zákazníků na trhu
 
@@ -66,7 +66,7 @@ SPOTŘEBITEL
 __Fáze výzkumu:__
 
 1. definice problému – co je předmětem výzkumu a jaké informace má přinést
-2. sběr – metodou kvantitativní \(velké množství informací\) a kvalitativní \(méně informací\)
+2. sběr – metodou kvantitativní (velké množství informací) a kvalitativní (méně informací)
 3. analýza – zpracování získaných informací
 4. interpretace – shrnutí a vyhodnocení, doporučení řešení problému
 
@@ -86,13 +86,13 @@ __4P__ 	→ product – co a komu
 
 - Product – výrobek
 
-= celková nabídka zákazníkovi \(nejen výrobek nebo služba\)
+= celková nabídka zákazníkovi (nejen výrobek nebo služba)
 
 __Úrovně produktu:__
 
-1. __Jádro__ – užitná hodnota produktu \(př\. hodinky měří čas\)
-2. __Reálný produkt__ – vlastní podoba produktu \(včetně obalu, designu\)
-3. __Rozšířený produkt__ – zahrnuje další hodnotu, užitek produktu  služby spojené s produktem \(k parfému vzorek parfému, instalace, prodloužení záruky, …\)
+1. __Jádro__ – užitná hodnota produktu (př. hodinky měří čas)
+2. __Reálný produkt__ – vlastní podoba produktu (včetně obalu, designu)
+3. __Rozšířený produkt__ – zahrnuje další hodnotu, užitek produktu  služby spojené s produktem (k parfému vzorek parfému, instalace, prodloužení záruky, …)
 
 __Značka produktu:__
 
@@ -105,9 +105,9 @@ __Značka produktu:__
 
 __Životní cyklus produktu:__
 
-((obrázek vynechán))
+<img src="/images/content/ekonomika/ekonomie/marketing/01.webp" alt="" width="631" loading="lazy" decoding="async">
 
-((obrázek vynechán))
+<img src="/images/content/ekonomika/ekonomie/marketing/02.webp" alt="" width="239" loading="lazy" decoding="async">
 
 - Price – cena
 
@@ -121,11 +121,11 @@ __Metody stanovení ceny:__
 1. __Nákladová metoda__
 	- nebere v úvahu ani zákazníka, ani konkurenci
 	- stanoví se dolní hranice ceny
-	- fixní náklady = nejsou závislé na objemu výroby \(nájemné, odpisy, úroky, mzdy THP\)
-	- variabilní náklady = rostou s výší objemu výroby \(spotřeba materiálu, přímé mzdy\)
+	- fixní náklady = nejsou závislé na objemu výroby (nájemné, odpisy, úroky, mzdy THP)
+	- variabilní náklady = rostou s výší objemu výroby (spotřeba materiálu, přímé mzdy)
 2. __Marketingová metoda__
 	- průzkum poptávky mezi zákazníky
-	- konkurenčně orientovaná cena \(je potřeba ověřit kalkulací\)
+	- konkurenčně orientovaná cena (je potřeba ověřit kalkulací)
 
 __Cenové triky:__
 
@@ -133,7 +133,7 @@ __Cenové triky:__
 - využívá psychologii prodeje
 - cílem je přesvědčit zákazníka o výhodnosti nákupu
 - Baťovské ceny:
-	- ceny končící číslicí 9 \(499 Kč, 3 999 Kč\)
+	- ceny končící číslicí 9 (499 Kč, 3 999 Kč)
 - Akční ceny:
 	- snížení ceny je vykompenzování velkým objemem prodeje
 - Rozdělení ceny v ceníku:
@@ -167,13 +167,13 @@ Zprostředkovatel
 
 Maloobchod
 
-Zákazník \(domácnosti, firma\)
+Zákazník (domácnosti, firma)
 
 __Maloobchod:__
 
 - __síť prodejen__ → nabízí **zboží konečnému spot**řebiteli
 - __předmětem__ činnosti je __nákup a prodej zboží__
-- tvoří tržby za prodej zboží, vlastních výrobků a služeb \(pohostinství, ubytování, opravy motor\. vozidel a spotřebních předmětů\)
+- tvoří tržby za prodej zboží, vlastních výrobků a služeb (pohostinství, ubytování, opravy motor. vozidel a spotřebních předmětů)
 
 __Velkoobchod:__
 
@@ -186,10 +186,10 @@ __Velkoobchod:__
 1. Reklama
 	- slogany – opakováním se dostávají do podvědomí lidí
 	- racionální působení – rozumové argumenty, spoléhá na logiku zákazníka
-	- emocionální působení – využívání poznatků psychologie, cílí na city zákazníka \(roztomilé děti, zvířátka X bolest, strach\)
+	- emocionální působení – využívání poznatků psychologie, cílí na city zákazníka (roztomilé děti, zvířátka X bolest, strach)
 	- ambient marketing – alternativní forma médií – nákupní vozíky, MHD, …
 	- product placement – zdůraznění užívání produktů určité značky ve filmech
-	- event\. marketing – pořádání sportovních, kulturních a jiných akcích
+	- event. marketing – pořádání sportovních, kulturních a jiných akcích
 	- word of Mouth Marketing – doporučení produktu prostřednictvím známých – odměna za doporučení
 2.  Podpora prodeje
 	- poskytnutí určité výhody spotřebiteli
@@ -201,5 +201,5 @@ __Velkoobchod:__
 4. Publicita
 	- zprávy a hodnocení nezávislých osob a institucí zveřejňované v hromadných sdělovacích prostředcích
 	- vytváří ji veškerá jednání pracovníků firmy – při styku se zákazníky
-	- je možné ji ovlivnit pomoci public relations \(PR = vztahy s veřejností\)
-	- využívá se např\. systematické práce s medií, sponzoring, …
+	- je možné ji ovlivnit pomoci public relations (PR = vztahy s veřejností)
+	- využívá se např. systematické práce s medií, sponzoring, …

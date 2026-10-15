@@ -3,13 +3,13 @@ title: "Jaroslav Havlíček - Petrolejové Lampy"
 order: 39
 source: "ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Jaroslav Havlíček - Petrolejové Lampy/18. Petrolejove_lampy.pdf"
 ---
-## **CHARAKTERISTIKA UMĚLECKÉHO TEXTU**
+## CHARAKTERISTIKA UMĚLECKÉHO TEXTU
 
 Hejtman vyrukoval v zánovním hejtmanském stejnokroji s lesknoucími se knoflíky, s pečlivě vykartáčovanou čákou, břinkal ostruhami, na kostnatých prstech měl navlečeny glazé rukavičky, po boku mu visela šavle se zlatým třepením. Nesl se velmi důstojně ve svém dlouhém plášti se zelenými výložky vedle Štěpky, která vypadala v bílém hedvábí − jakže to o ní řekl kočí Kalaš? − jako jelito v ubrousku. Tam, kde mohutné paže vystupovaly z nabíraných rukávů, bylo vidět krupičkovanou růžovou husí kůži, drsnou jako struhadlo a prozrazující zdraví poněkud upřílišené na takovou unylou bytost z pohádky, jimž se obyčejně podobají křehká stvořeníčka v mušelínovém závoji. Ovšem, ovšem, závoj také musil být a věneček z myrty, jak by ne, kulatý obličej s hustým obočím a odulými rty se pod ním rděl jako zapadající slunce. Marně bylo použito pudru, který tehdy ještě nebyl tuze v oblibě, marně byly ve vlasech té obrovské loutky s očima vyvalenýma štěstím vyrobeny velké vlny. Leskly se, jako by byly čerstvě namazány sádlem, a byly tak hladké a tuhé, že se zdály být špatně udělanou parukou. A bílý divadelní plášť do toho mrholivého deště, bílý plášť roubený kožišinou, který si jen přehodila přes ramena, aby si nepomačkala šaty, opravdu, jako by ten elegantní důstojník vlekl k oltáři ne svou nastávající ženu, ale veliký moučný pytel.
 
-### **Analýza uměleckého textu**
+### Analýza uměleckého textu
 
-#### • **zasazení výňatku do kontextu díla**
+#### Zasazení výňatku do kontextu díla
 
 Část, kdy se Pavel vrátil z vojny a rozhodl se si Štěpánku vzít za ženu kvůli svým dluhům. Jedná se o svatební obřad.
 
@@ -23,51 +23,51 @@ Pavlův zdravotní stav se horší, přestává chodit a začne být na lidi na 
 
 Jestli se dají dohromady ale v knize uvedeno není.
 
-#### • **téma a motiv**
+#### Téma a motiv
 
 téma: svatba motivy: vojenská uniforma, nevěsta, závoj, pudr, déšť atd.
 
-#### • **časoprostor**
+#### Časoprostor
 
 prostor: v úryvku zřejmě kostel, město Jilemnice
 
 čas: přelom 19. a 20. století (kdy se přestávalo svítit petrolejovými lampami a přecházelo se na elektřinu)
 
-#### • **kompoziční výstavba**
+#### Kompoziční výstavba
 
 Děj je vyprávěný chronologicky. Kniha je rozdělena do kapitol.
 
-#### • **literární forma, druh a žánr**
+#### Literární forma, druh a žánr
 
 próza, epika, psychologický román
 
-#### • **vypravěč**
+#### Vypravěč
 
 er-forma – vševědoucí vypravěč
 
-#### • **postavy**
+#### Postavy
 
 Štěpka Kiliánová − obětavá, hodná, pracovitá, snílek, ošklivá, výstřední Pavel Malina – bývalý voják, sobec, lenoch, cynik, zhýralý, vypočítavý Jan Malina – bratr Pavla, pracovitý, málomluvný
 
 stavitel Kilián – Štěpčin otec, vlivný muž, neústupný, Štěpku měl rád, ale neuměl jí svoji lásku projevit
 
-#### • **vyprávěcí způsoby**
+#### Vyprávěcí způsoby
 
 V úryvku je použita pouze řeč nepřímá.
 
-#### • **typy promluv**
+#### Typy promluv
 
 V úryvku je pouze pásmo vypravěče.
 
-#### • **jazykové prostředky a jejich funkce ve výňatku**
+#### Jazykové prostředky a jejich funkce ve výňatku
 
 vojenský slang _hejtman, čáka, ostruhy, šavle, výložky_ zdrobnělina _rukavičky, stvořeníčka_ řečnická otázka _Jakže to o ní řekl kočí Kalaš?_ archaismus _musil, tuze, kožišina_
 
-#### • **tropy a figury a jejich funkce ve výňatku**
+#### Tropy a figury a jejich funkce ve výňatku
 
 metafora _břinkal ostruhami, nesl se, obrovská loutka s očima vyvalenýma štěstím_ epiteton _kostnaté prsty, krupičkovaná růžová husí kůže, unylá bytost, mrholivý déšť_ přirovnání _vypadala jako jelito v ubrousku; kůže drsná jako struhadlo; obličej se rděl jako zapadající slunce; leskly se, jako by byly čerstvě namazány sádlem; jako by ten důstojník vlekl moučný pytel_ epizeuxis _ovšem, ovšem_ personifikace _obličej se pod ním rděl_
 
-### **Literárněhistorický kontext**
+### Literárněhistorický kontext
 
 • **kontext autorovy tvorby**
 
@@ -109,7 +109,7 @@ posmrtně byla z Havlíčkova díla sestavena a vydána řada povídkových soub
 
 _Zázrak flamendrů_ (1964), _Prodavač času_ (196á), _Hodinky pana Balabána_ (1986)
 
-#### • **literární / obecně kulturní kontext**
+#### Literární / obecně kulturní kontext
 
 - představitel psychologické prózy v meziválečném období
 
@@ -149,7 +149,7 @@ Václav Řezáč (1901−1956)
 
 - ředitel nakladatelství Československý spisovatel dílo: _Rozhraní, Kluci, hurá za ním, Poplach v kovářské uličce, Černé světlo Bitva_ − Odehrává se v létě 1947 a líčí boj mezi komunistickými a antikomunistickými silami o pohraničí. Autor vycházel spíše z předem daných představ o osidlování než z faktů na místě poznaných.
 
-### **Další údaje o knize:**
+### Další údaje o knize:
 
 - **dominantní slohový postup:**
 

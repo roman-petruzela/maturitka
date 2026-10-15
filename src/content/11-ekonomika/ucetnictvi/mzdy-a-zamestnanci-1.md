@@ -23,7 +23,7 @@ __Formy mezd__
 
 - Časová − závislá na počtu odpracovaných hodin, používá se na rizikových pracovištích
 - Úkolová − závisí na množství prodaných výkonů
-- Podílová − závislá např\. na tržbách, obratu
+- Podílová − závislá např. na tržbách, obratu
 - Smíšená − kombinace všech typů mezd
 - Pevný měsíční plat − platí pro technickohospodářské pracovníky a státní zaměstnance
 
@@ -45,17 +45,17 @@ odměny
 
 příplatky za práci:
 
-přesčas \(25%\)
+přesčas (25%)
 
-v noci \(10%\)
+v noci (10%)
 
-ve ztíženém prac\. prostředí \(10%\)
+ve ztíženém prac. prostředí (10%)
 
-pracovní pohotovost \(10%\)
+pracovní pohotovost (10%)
 
-ve svátek \(100%\)
+ve svátek (100%)
 
-o víkendu \(10%\)
+o víkendu (10%)
 
 osobní ohodnocení
 
@@ -63,7 +63,7 @@ podíly na hospodářském výsledku
 
 __Za neodpracovaný čas__
 
-\(náhrada mzdy\)
+(náhrada mzdy)
 
 Dovolená
 
@@ -89,54 +89,54 @@ __Popište pojistné na sociální zabezpečení a zdravotní pojištění__
 - Pro výpočet pojistného je potřeba znát jednak pojistné sazby a jednak výši vyměřovacího základu
 - Vyměřovacím základem pro výpočet pojistného je úhrn příjmů zúčtovaných zaměstnavatelem v souvislosti s výkonem zaměstnání, které zakládá účast na nemocenském pojištění
 - U zdravotního pojištění je 4,5% z vyměřovacího základu
-- \(Z toho 6,5 % důchodové pojištění, 0% nemocenské pojištění, 0% státní politiku zaměstnanosti\)
+- (Z toho 6,5 % důchodové pojištění, 0% nemocenské pojištění, 0% státní politiku zaměstnanosti)
 
 __Odvod pojistného__
 
 1. __Odvod sociálního zabezpečení a zdravotního pojištění__
 
-- Zdravotní \- 4,5 %	331/336\.1
-- Sociální \- 6,5 % 	331/336\.2
+- Zdravotní - 4,5 %	331/336.1
+- Sociální - 6,5 % 	331/336.2
 
 1. __Zdravotní pojištění, které hradí zaměstnavatel__
 
-- Zdravotní \- 9,0 %	524/336\.1
-- Sociální \- 23,0 %	524/336\.2
+- Zdravotní - 9,0 %	524/336.1
+- Sociální - 23,0 %	524/336.2
 
 __Daňová uznatelnost u OSVČ__
 
-- OSVČ\- osoba samostatně výdělečně činná
-- OSVČ je například živnostník, samostatný zemědělec, samostatně výdělečný umělec, soudní znalec atd\.
-- OSVČ má nižší zdanění což znamená, že na povinných odvodech \(sociální a zdravotní pojištění\) odvedou méně než zaměstnanci\. Nesou totiž podnikatelské riziko a čerpají minimální státní dávky
+- OSVČ- osoba samostatně výdělečně činná
+- OSVČ je například živnostník, samostatný zemědělec, samostatně výdělečný umělec, soudní znalec atd.
+- OSVČ má nižší zdanění což znamená, že na povinných odvodech (sociální a zdravotní pojištění) odvedou méně než zaměstnanci. Nesou totiž podnikatelské riziko a čerpají minimální státní dávky
 - Nižší zdanění je častým impulsem pro některé občany, proč danou činnost vykonávat jako OSVČ a nikoliv jako zaměstnanec
 
 __Daň z příjmu ze závislé činnosti a prohlášení k dani__
 
 - Pro způsob zdanění mzdy daní z příjmu ze závislé činnosti je rozhodné, zda má zaměstnanec podepsáno prohlášení k dani
 
-1. __Má\-li zaměstnanec podepsané prohlášení k dani__
+1. __Má-li zaměstnanec podepsané prohlášení k dani__
 
 - je daň z příjmu srážena ve formě zálohy na daň, která podléhá ročnímu zúčtování
 
-1. __Nemá\-li zaměstnanec podepsán prohlášení k dani__
+1. __Nemá-li zaměstnanec podepsán prohlášení k dani__
 	- potom je pro způsob zdanění rozhodující výše mzdy
-	- je to například u dalšího zaměstnavatele a pop\.  si nemůže uplatnit slevy na dani
+	- je to například u dalšího zaměstnavatele a pop.  si nemůže uplatnit slevy na dani
 2. __Nepodepsal prohlášení včetně dohod o provedení práce__ __od 10 000 Kč/měsíc__
 	- daň je srážena formou zálohy na daň, která podléhá ročnímu zúčtování, opět se neodečítají slevy ani daňové zvýhodnění
-3. __Zaměstnanec nepodepsal prohlášení k dani vč\. Dohod o provedení práce do 10 000 Kč/měsíc__
-	- daň je srážena formou srážkové daně \(15%\)
+3. __Zaměstnanec nepodepsal prohlášení k dani vč. Dohod o provedení práce do 10 000 Kč/měsíc__
+	- daň je srážena formou srážkové daně (15%)
 	- i příjmy ze závislé činnosti
 
 __Srážková daň__
 
-- Jedná se o tzv\. zvláštní sazbu daně, podle § 36 o daních z příjmu
+- Jedná se o tzv. zvláštní sazbu daně, podle § 36 o daních z příjmu
 - Činní ve většině případů 15 %
 
 __Na jaké příjmy se tato daň uplatňuje:__
 
-1. Příjmy z kapitálového majetku \(např\. podíly na zisku, výnosy z bankovních produktů\)
-2. Příjmy z výher\- pokud nejsou osvobozeny od daně
-3. Příjmy z autorských honorářů do 10 000 Kč \(nemůže zahrnout sraženou daň do přiznání\)
+1. Příjmy z kapitálového majetku (např. podíly na zisku, výnosy z bankovních produktů)
+2. Příjmy z výher- pokud nejsou osvobozeny od daně
+3. Příjmy z autorských honorářů do 10 000 Kč (nemůže zahrnout sraženou daň do přiznání)
 4. Příjmy z dohod o provedení práce do 10 000 Kč
 
 __V jaké případě se mzda bude srážet srážkovou daní a kdy zálohovou:__
@@ -157,7 +157,7 @@ __Rozdíl mezi srážkovou a zálohovou daní:__
 	- Jedná o zálohu, která bude definitivně vyúčtována po skončení roku ze všech příjmů poplatníka
 	- Mzda, ze které je vybírána zálohová daň, se sčítá s ostatními příjmy poplatníka
 
-((obrázek vynechán))__Účtování mezd__
+<img src="/images/content/ekonomika/ucetnictvi/mzdy-a-zamestnanci-1/01.webp" alt="" width="552" loading="lazy" decoding="async">__Účtování mezd__
 
 __Zdravotní a sociální pojištění, které hradí zaměstnavatel__
 
@@ -165,7 +165,7 @@ __Zdravotní a sociální pojištění, které hradí zaměstnavatel__
 	- Kromě sazeb pojistného sražených ze mzdy zaměstnance odvání zaměstnavatel ještě pojistné jako svůj daňově uznatelný náklad:
 
 1. __Sociální zabezpečení__: 25,0 % z vyměřovacího základu
-	- \(z toho 21,5 % důchodové pojištění, 2,3 % nemocenské pojištění, 1,2 % příspěvek na státní politiku zaměstnanosti\)
+	- (z toho 21,5 % důchodové pojištění, 2,3 % nemocenské pojištění, 1,2 % příspěvek na státní politiku zaměstnanosti)
 2. __Zdravotní pojištění__: 9,0 % z vyměřovacího základu
 
 __Zálohy poskytnuté zaměstnancům__

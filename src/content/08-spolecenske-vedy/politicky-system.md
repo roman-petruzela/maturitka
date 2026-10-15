@@ -1,5 +1,5 @@
 ---
-title: "POLITICKY SYSTEM"
+title: "Politický systém"
 order: 13
 source: "Společenské vědy/13. POLITICKY SYSTEM.docx"
 ---

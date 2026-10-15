@@ -4,7 +4,7 @@ order: 16
 source: "Ekonomika/16. Společnost s ručením omezeným.docx"
 ---
 - Právní úprava: zákon o obchodních korporacích, občanský zákoník, daňové zákony
-- __Obchodní korporace__  = obchodní společnosti \+ družstva
+- __Obchodní korporace__  = obchodní společnosti + družstva
 - __Obchodní společnost__ = PO založená za účelem podnikání
 - __Osobní společnosti__: Veřejná obchodní společnost; komanditní společnost
 - __Kapitálové společnosti__: Společnost s ručením omezeným; akciová společnost
@@ -13,7 +13,7 @@ source: "Ekonomika/16. Společnost s ručením omezeným.docx"
 __Založení OS__
 
 - Sepisuje se __společenská smlouva__ – více zakladatelů, ale musí mít podobu veřejné listiny
-- Listina i smlouva musí obsahovat: název společnosti \+ právní forma, předmět a sídlo podnikání, výši základního kapitálu, počet jednatelů, určení společníků
+- Listina i smlouva musí obsahovat: název společnosti + právní forma, předmět a sídlo podnikání, výši základního kapitálu, počet jednatelů, určení společníků
 
 __Vznik OS__
 
@@ -26,8 +26,8 @@ __Vklady a základní kapitál__
 1. __peněžité__ – ukládány na účet u komerční banky
 2. __nepeněžité__ – musí být ocenitelné v korunách a použitelné pro podnikání; v některých případech znalecké posudky
 
-- minimální výše vkladu je 1,\- Kč pokud není určeno jinak; jednotlivé vklady mohou být různé a musí být splaceny do 5 let od vzniku společnosti
-- základní kapitál se zapisuje do obchodního rejstříku a minimální částka je 1,\- Kč
+- minimální výše vkladu je 1,- Kč pokud není určeno jinak; jednotlivé vklady mohou být různé a musí být splaceny do 5 let od vzniku společnosti
+- základní kapitál se zapisuje do obchodního rejstříku a minimální částka je 1,- Kč
 
 __Základní kapitál__
 
@@ -62,9 +62,9 @@ __Zánik OS__
 
 - __výmaz__ v obchodním rejstříku, žádost dává likvidátor nebo statutární orgán
 
-__Společnost s ručením omezeným – s\.r\.o\. nebo spol\. s r\. o\.__
+__Společnost s ručením omezeným – s.r.o. nebo spol. s r. o.__
 
-- společnost, za jejíž dluhy __ručí společníci společně a nerozdílně__ do výše svých vkladů\(kmenový list\) zapsaných v obchodním rejstříku; nejrozšířenější obchodní společnost
+- společnost, za jejíž dluhy __ručí společníci společně a nerozdílně__ do výše svých vkladů(kmenový list) zapsaných v obchodním rejstříku; nejrozšířenější obchodní společnost
 - __seznam společníků__ – společnost vede seznam všech svých společníků – osobní údaje, podíl na zisku, počet hlasů k podílu v případě opuštění společnosti musí být vymazán
 - __společenská smlouva__ – obsahuje: firmu, předmět, činnost podnikání, určení společníků, druh podílu, výše základního kapitálu, počet jednatelů; může být změněna za dohody všech společníků
 
@@ -77,6 +77,6 @@ __Práva a povinnosti společníků__
 
 __Orgány společnosti__
 
-1. __valná hromada –__ hlasování je stanoveno ve společenské smlouvě a musí se účastnit __osobně nebo v zastoupení__ \(plná moc\); společníci se mohou usnášet jestli jsou přítomni společníci, alespoň s polovinou všech hlasů 1hlas = 1,\- Kč; termín se oznamuje písemně 15 dní dopředu; volí se __předseda a zapisovatel__; rozhoduje o změně výše __základního kapitálu__, změně s**polečenské smlouvy,** __jmenování__ a __odvolání jednatelů__, __likvidátorů__; udělení __prokury__; zrušení společnosti a projednává účetní závěrku
+1. __valná hromada –__ hlasování je stanoveno ve společenské smlouvě a musí se účastnit __osobně nebo v zastoupení__ (plná moc); společníci se mohou usnášet jestli jsou přítomni společníci, alespoň s polovinou všech hlasů 1hlas = 1,- Kč; termín se oznamuje písemně 15 dní dopředu; volí se __předseda a zapisovatel__; rozhoduje o změně výše __základního kapitálu__, změně s**polečenské smlouvy,** __jmenování__ a __odvolání jednatelů__, __likvidátorů__; udělení __prokury__; zrušení společnosti a projednává účetní závěrku
 2. __jednatelé –__ jsou __statutárním orgánem;__ provádí obchodní vedení společnosti; zajišťují řádné vedení předepsané evidence a účetnictví; vedou __seznam společníků__; zajišťují nové vypracování SS a uložení do sbírky listin v obchodním rejstříku; pokud jednatel zemře nebo odstoupí tak musí být do __1 měsíce zvolen valnou hromadou nový jednatel__; má __zákaz konkurence__
 3. __dozorčí rada –__ zřizuje se pokud je uvedeno ve SS; tato rada __dohlíží na činnost jednatelů;__ nahlíží do účetních knih a jiných dokladů a účetních závěrek; podává jednou za rok zprávu o své činnosti valné hromadě; členem nemůže být jednatel a má __zákaz konkurence__

@@ -29,7 +29,7 @@ Ukládání dat je realizováno buď softwarově, nebo hardwarově
 
 # RAID
 
-## **RAID není záloha!**
+## RAID není záloha!
 
 • data nejsou uložena na bezpečném místě
 

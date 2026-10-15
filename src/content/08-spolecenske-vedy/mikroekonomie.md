@@ -1,5 +1,5 @@
 ---
-title: "MIKROEKONOMIE"
+title: "Mikroekonomie"
 order: 7
 source: "Společenské vědy/7. MIKROEKONOMIE.docx"
 ---
@@ -45,7 +45,7 @@ __NABÍDKA__
 
  Zákon rostoucí nabídky\- s růstem ceny roste i nabízené množství
 
-((obrázek vynechán))
+<img src="/images/content/spolecenske-vedy/mikroekonomie/01.webp" alt="" width="333" loading="lazy" decoding="async">
 
 P
 
@@ -68,7 +68,7 @@ __3\. agregátní \(celkovou\)__: nabídka všech druhů zboží od všech ekono
 POPTÁVKA
 \- je souhrn všeho zboží, které jsou zákazníci ochotni koupit za příslušnou cenu
 
-((obrázek vynechán))Zákon klesající poptávky\- růst cen vede k poklesu poptávaného zboží
+<img src="/images/content/spolecenske-vedy/mikroekonomie/02.webp" alt="" width="397" loading="lazy" decoding="async">Zákon klesající poptávky\- růst cen vede k poklesu poptávaného zboží
 
 P
 
@@ -91,7 +91,7 @@ P
 
 p
 
-((obrázek vynechán))
+<img src="/images/content/spolecenske-vedy/mikroekonomie/03.webp" alt="" width="465" loading="lazy" decoding="async">
 
 E = rovnovážný stav
 
@@ -114,7 +114,7 @@ Skládá se ze 4 fází
 
 __3\. Kontrakce__ \- RP klesá, roste nezaměstnanost, utlumuje se výroba, klesají mzdy a zisky
 
-__((obrázek vynechán))4\. DNO__ – Ekonomika je pod potenciálním produktem, reálný HDP je nejnižší, výrobní faktory nejsou
+__<img src="/images/content/spolecenske-vedy/mikroekonomie/04.webp" alt="Hospodářský cyklus" width="303" loading="lazy" decoding="async">4\. DNO__ – Ekonomika je pod potenciálním produktem, reálný HDP je nejnižší, výrobní faktory nejsou
                  plně využity
 
 Příčiny hospodářských cyklů

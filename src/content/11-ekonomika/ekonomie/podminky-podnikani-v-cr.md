@@ -7,7 +7,7 @@ source: "Ekonomie/26. Podmínky podnikání v CR.odt"
 
 Právní úprava CER v ČR
 
-- zákon číslo 159/99 sbírka O některých podmínkách podnikání v oblasti CER a o změně občanského zákoníku a zákona o živnostenském podnikání ve znění platných předpisů \(„Zákon o CER“\)
+- zákon číslo 159/99 sbírka O některých podmínkách podnikání v oblasti CER a o změně občanského zákoníku a zákona o živnostenském podnikání ve znění platných předpisů („Zákon o CER“)
 - Občanský zákoník
 - Živnostenský zákoník
 - Daňové zákony
@@ -27,7 +27,7 @@ Služby CER
 
 3\.Jiné služby
 
-\- alespoň 25% z ceny zájezdu \(průvodce, vstupenky\)\- nejsou součástí ubytování ani dopravy
+\- alespoň 25% z ceny zájezdu (průvodce, vstupenky)- nejsou součástí ubytování ani dopravy
 
 druhy zájezdu:
 
@@ -71,7 +71,7 @@ formát – nejčastěji A4
 
 ceník – u informací o zájezdu, souhrnně, na konci, uprostřed, zvláštní příloha
 
-__Smlouva o zájezdu \(potvrzení zájezdu\)__
+__Smlouva o zájezdu (potvrzení zájezdu)__
 
 \- uzavírají CK s účastníkem
 
@@ -95,7 +95,7 @@ uvedené náležitosti:
 __Podmínky pro provozování CK__
 
 - všeobecné podmínky – věk, právní způsobilost, trestní bezúhonnost
-- speciální podmínky \(odborná způsobilost\) – vzdělání v oboru \(např\. SŠ obor CER, nebo minimálně středoškolské vzdělání a stanovený počet roku praxe\)
+- speciální podmínky (odborná způsobilost) – vzdělání v oboru (např. SŠ obor CER, nebo minimálně středoškolské vzdělání a stanovený počet roku praxe)
 - podnikatelský záměr – zaměření CK, poskytované služby, plánované tržby a plánovaný počet účastníku
 - pojištění proti úpadku CK – ochrana účastníku CK nebo bankovní záruka
 - prohlášení o tom, že podnikateli nebylo odebráno živnostenské oprávnění k provozování CK nebo CA z důvodu úpadku nebo pro porušení živnostenského zákona předcházejících pěti letech
@@ -109,7 +109,7 @@ __Činnosti CK__
 - nabízí a prodávají jednotlivé služby CER
 - zprostředkovává prodej zájezdů pro jiné CK za provizi
 - zprostředkovává prodej jednotlivých služeb CER pro jiné CK, CA, případně jiné subjekty za provizi
-- prodává průvodce, mapy, vstupenky, atd\.
+- prodává průvodce, mapy, vstupenky, atd.
 
 __Povinnosti CK__
 
@@ -129,7 +129,7 @@ používá se:
 Zvýšení ceny zájezdu ze zákonných důvodů:
 
 - výrazné zvýšení ceny pohonných hmot
-- výrazné zvýšení vedlejších nákladu spojených s dopravou \(zdražení letištních poplatků\)
+- výrazné zvýšení vedlejších nákladu spojených s dopravou (zdražení letištních poplatků)
 - změna kurzu koruny o víc než 10%
 
 \- povinnost oznámit skutečnost do 21 dnů před termínem
@@ -146,7 +146,7 @@ __Činnosti CA__
 
 - prodává jednotlivé služby CER
 - zprostředkovává prodej zájezdu CK za provizi
-- zprostředkovává prodej jednotlivých služeb pro CK, CA, jiné subjekty \(dopravci\) za provizi
+- zprostředkovává prodej jednotlivých služeb pro CK, CA, jiné subjekty (dopravci) za provizi
 - prodej map, průvodců, jízdních řádů, …
 
 

@@ -1,5 +1,5 @@
 ---
-title: "SOCIOLOGIE"
+title: "Sociologie"
 order: 3
 source: "Společenské vědy/3. SOCIOLOGIE.docx"
 ---

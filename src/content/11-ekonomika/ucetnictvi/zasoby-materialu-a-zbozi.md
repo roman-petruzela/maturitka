@@ -27,18 +27,18 @@ __Materiál__
 __Oceňování zásob__
 
 1. __Při pořízení:__
-2. pořizovací cena = cena pořízení \+ ostatní náklady \(doprava, clo, …\)
+2. pořizovací cena = cena pořízení + ostatní náklady (doprava, clo, …)
 3. vlastní náklady
 4. bezplatně nabyté zásoby – reprodukční pořizovací cena
 
-__2\. Při výdeji do spotřeby:__
+__2. Při výdeji do spotřeby:__
 
 1. __FIFO__ – first in, first out → první do skladu, první ze skladu
 2. __Vážený aritmetický průměr__
 
 1\. proměnlivý – mění se cena po každé nové dodávce
 
-2\. periodický – max\. za 1 měsíc
+2\. periodický – max. za 1 měsíc
 
 __Účtování způsobem A__
 
@@ -79,7 +79,7 @@ __Nákup zásob ze zahraničí__
 
 	denní – aktuální kurz ČNB ke dni uskutečnění účetního případu
 
-__1\. Pořízení zásob z jiného členského státu EU__
+__1. Pořízení zásob z jiného členského státu EU__
 
 cena	MD	D
 
@@ -89,9 +89,9 @@ cena	MD	D
 
 3\. Nárok na odpočet		  27 300	343	349
 
-__2\. Pořízení zásob ze zemí mimo EU__
+__2. Pořízení zásob ze zemí mimo EU__
 
-- __clo__ se stanoví příslušnou sazbou z celního sazebníku vypočítanou z celní hodnoty \(cena z FAP v Kč\)
+- __clo__ se stanoví příslušnou sazbou z celního sazebníku vypočítanou z celní hodnoty (cena z FAP v Kč)
 - __DPH__ si účetní jednotka vypočítá sama
 
 	MD	D
@@ -111,20 +111,20 @@ __Analytická evidence materiálu__
 
 	MD	D
 
-1\. Nákup materiálu v pořizovacích cenách	112\.1	211/321
+1\. Nákup materiálu v pořizovacích cenách	112.1	211/321
 
-2\. Přírůstek vedlejších pořizovacích nákladů	112\.2	211/321
+2\. Přírůstek vedlejších pořizovacích nákladů	112.2	211/321
 
-3\. Úbytek materiálu v pořizovacích cenách	501	112\.1
+3\. Úbytek materiálu v pořizovacích cenách	501	112.1
 
-4\. Úbytek poměrné části VPN	501	112\.2
+4\. Úbytek poměrné části VPN	501	112.2
 
 __Výpočet oceňovacího rozdílu ke zboží__
 
 - Při nákupu zboží nebude s výpočtem oceňovacího rozdílu problém – sama si stanoví prodejní cenu a z rozdílu mezi prodejními a pořizovacími cenami oceňovací rozdíl vypočítá
-- Při prodeji se z tržeb zjistí prodejní cena prodaného zboží a úbytek oceň\. rozdílu se vypočítá takto:
+- Při prodeji se z tržeb zjistí prodejní cena prodaného zboží a úbytek oceň. rozdílu se vypočítá takto:
 
-1\. Průměrné procento oceň\. rozdílu
+1\. Průměrné procento oceň. rozdílu
 
 2\. Podíl oceňovacích rozdílu
 
@@ -132,27 +132,27 @@ __Příklad:__ 	  cena	MD	 D
 
 1\. Dodavatelská faktura:
 
-a\) cena zboží bez DPH	600 000	131	\-\-\-\-	b\) DPH 21%	126 000	343	\-\-\-\-	c\) cena vč\. DPH	726 000	\-\-\-\-	321
+a) cena zboží bez DPH	600 000	131	----	b) DPH 21%	126 000	343	----	c) cena vč. DPH	726 000	----	321
 
 2\. Příjemky na převzetí zboží
 
-a\) pořizovací cena	600 000	\-\-\-\-	131
+a) pořizovací cena	600 000	----	131
 
-b\) prodejní cena	900 000	132\.1	\-\-\-\-	c\) oceňovací rozdíl	300 000	\-\-\-\-	132\.2
+b) prodejní cena	900 000	132.1	----	c) oceňovací rozdíl	300 000	----	132.2
 
 3\. Tržby za zboží v hotovosti
 
-a\) cena vč\. DPH	800 000	211	\-\-\-\-
+a) cena vč. DPH	800 000	211	----
 
-b\) DPH 21%	138 880	\-\-\-\-	343
+b) DPH 21%	138 880	----	343
 
-c\) cena bez DPH	661 120	\-\-\-\-	604
+c) cena bez DPH	661 120	----	604
 
 4\. Úbytek prodaného zboží
 
-a\) prodejní cena	800 000	504	132\.1
+a) prodejní cena	800 000	504	132.1
 
-b\) oceňovací rozdíl	249 040	132\.2	504
+b) oceňovací rozdíl	249 040	132.2	504
 
 *Výpočty:*
 
@@ -169,9 +169,9 @@ __Účtování drobného hmotného majetku__
 
 __Inventarizace zásob__
 
-__1\. Inventura__ = zjištění skutečného stavu
+__1. Inventura__ = zjištění skutečného stavu
 
-__2\. Porovnání__ skutečného stavu se stavem účetním
+__2. Porovnání__ skutečného stavu se stavem účetním
 
 \- zjištění inventarizačních výsledků
 
@@ -181,21 +181,21 @@ SS > ÚS = PŘEBYTEK – špatné zaúčtování
 
 \- jejich zaúčtování ještě do toho roku
 
-__3\. Zjištění viníků__ – náprava, opatření
+__3. Zjištění viníků__ – náprava, opatření
 
 \- inventura zásob se může provádět 4 měsíce do konce roku a nebo 2 měsíce po ukončení roku = řádná inventura
 
 __Manko__
 
-a\) manko do normy __501/112__
+a) manko do normy __501/112__
 
-b\) manko nad normu __549/112__
+b) manko nad normu __549/112__
 
 - Předpis náhrady manka nad normu
 
 1\. Předpis náhrady manka 	335	648
 
-2\. Náhrada \- 	hotově	211	335
+2\. Náhrada - 	hotově	211	335
 
 na účet	221	335
 
@@ -217,7 +217,7 @@ __Škody na zásobách__
 
 - __Daňově uznatelné náklady na škody__
 	- škoda pouze do výše náhrady
-	- škoda, která vznikne živelnou pohromou \(zákonem dané\); např\.: zemětřesení, sesuvy půdy, vichřice, …
+	- škoda, která vznikne živelnou pohromou (zákonem dané); např.: zemětřesení, sesuvy půdy, vichřice, …
 	- loupež → potvrzení od policie, že je pachatel neznámý
 
 __Příklad:__
@@ -237,6 +237,6 @@ __Účtování předání výrobků do vlastní prodejny__
 
 \- výrobky z vlastní výroby do vlastní prodejny
 
-a\) úbytek výrobků __583/123__
+a) úbytek výrobků __583/123__
 
-b\) přírůstek zboží __131/585 	132/131__
+b) přírůstek zboží __131/585 	132/131__

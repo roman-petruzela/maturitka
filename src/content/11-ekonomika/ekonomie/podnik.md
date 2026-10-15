@@ -7,9 +7,9 @@ PODNIK
 
 1. __Podnik__
 
-__\-__ soubor hmotných, nehmotných a osobních složek podnikání
+__-__ soubor hmotných, nehmotných a osobních složek podnikání
 
-__\-__ hmotné → budovy, stroje, auta
+__-__ hmotné → budovy, stroje, auta
 
 \- nehmotné → receptura, soft ware, licence, know how
 
@@ -21,13 +21,13 @@ __\-__ hmotné → budovy, stroje, auta
 
 1. __Znaky podniku__
 
-a\) Právní subjektivita → každý podnik je samostatným subjektem právního řádu a má jedinečný název tzv\. obchodní firmu:
+a) Právní subjektivita → každý podnik je samostatným subjektem právního řádu a má jedinečný název tzv. obchodní firmu:
 
- \- u fyzických osob obsahuje jméno a příjmení → např\. Pavel Novák – popř\. Adresa nebo činnost
+ \- u fyzických osob obsahuje jméno a příjmení → např. Pavel Novák – popř. Adresa nebo činnost
 
-\- u právnických osob obsahuje jméno \+ právní formu → např\. ČEZ, a\.s\., CA Slunce, s\.r\.o\.
+\- u právnických osob obsahuje jméno + právní formu → např. ČEZ, a.s., CA Slunce, s.r.o.
 
-b\) Ekonomická samostatnost → podnikatel si musí na všechny své potřeby vydělat a nikdo mu neurčuje předmět podnikání
+b) Ekonomická samostatnost → podnikatel si musí na všechny své potřeby vydělat a nikdo mu neurčuje předmět podnikání
 
 1. __Druhy podniků__
 
@@ -73,7 +73,7 @@ __Podmínky__
 
 \- minimální věk 18 let
 
-\- trestní bezúhonnost \(čistý trestní rejstřík\)
+\- trestní bezúhonnost (čistý trestní rejstřík)
 
 \- odborná způsobilost
 
@@ -83,7 +83,7 @@ Dle vlastnictví:
 
 \- Soukromé
 
-\- Korporace \(obchodní společnosti, družstva\)
+\- Korporace (obchodní společnosti, družstva)
 
 1. __Organizace__
 
@@ -147,7 +147,7 @@ Skladování
 
 Výroba
 
-\- přeměna výrobních faktorů tzv\. vstupů ve výrobky tzv\. výstupy, cílem výroby je uspokojovat reálné potřeby obyvatelstva
+\- přeměna výrobních faktorů tzv. vstupů ve výrobky tzv. výstupy, cílem výroby je uspokojovat reálné potřeby obyvatelstva
 
 Odbyt
 
@@ -159,51 +159,51 @@ Personalistika
 
 Management
 
-\- **řízení určitou skupinu lidí v podniku, j**ako management se označují řídící pracovníci \(manažeři\), kteří realizují manažerské funkce\.
+\- **řízení určitou skupinu lidí v podniku, j**ako management se označují řídící pracovníci (manažeři), kteří realizují manažerské funkce.
 
 1. __Funkce podniku__
 
 \- Hlavní funkce: pro kterou byl podnik zřízen: výrobní, obchodní, služby
 
-\- Vedlejší: nesouvisí s předmětem podnikání \(bezpečnostní, informační, vzdělávací, sociální, kulturní…\)
+\- Vedlejší: nesouvisí s předmětem podnikání (bezpečnostní, informační, vzdělávací, sociální, kulturní…)
 
-__\-__ Výrobní, obchodní a zásobovací funkce __→__ vyplývají z účelu, za jakým byl podnik založen\. Podnik vyrábí určitý sortiment výrobků a poskytuje specifické služby v souladu s potřebami trhu\. Zabezpečuje pořízení hmotného majetku, surovin a materiálu, jejich skladování a předávání do výroby\. Realizuje prodej hotových výrobků a služeb na základě průzkumu poptávky, stanovuje ceny a platební podmínky, volí odbytové cesty svých výstupů a formy propagace jejich prodeje atd\.
+__-__ Výrobní, obchodní a zásobovací funkce __→__ vyplývají z účelu, za jakým byl podnik založen. Podnik vyrábí určitý sortiment výrobků a poskytuje specifické služby v souladu s potřebami trhu. Zabezpečuje pořízení hmotného majetku, surovin a materiálu, jejich skladování a předávání do výroby. Realizuje prodej hotových výrobků a služeb na základě průzkumu poptávky, stanovuje ceny a platební podmínky, volí odbytové cesty svých výstupů a formy propagace jejich prodeje atd.
 
-__\-__ Organizační funkce __→__ zajišťuje účelnou organizaci výroby, technologických a pracovních procesů a operací tak, aby byl dosahován dynamický rozvoj nejen celého podniku, ale také jeho jednotlivých organizačních složek\.
+__-__ Organizační funkce __→__ zajišťuje účelnou organizaci výroby, technologických a pracovních procesů a operací tak, aby byl dosahován dynamický rozvoj nejen celého podniku, ale také jeho jednotlivých organizačních složek.
 
-__\-__ Personální funkce __→__ jejím úkolem je zajistit rozhodující výrobní faktor, pracovní síly\. Zahrnuje řadu činností jako je přijímání a výběr zaměstnanců, zvyšování jejich kvalifikace, vypracování vhodného systému jejich hodnocení a odměňování, vytváření vhodného pracovního prostředí, péči o jejich bezpečnost, hygienu a ochranu zdraví při práci\.
+__-__ Personální funkce __→__ jejím úkolem je zajistit rozhodující výrobní faktor, pracovní síly. Zahrnuje řadu činností jako je přijímání a výběr zaměstnanců, zvyšování jejich kvalifikace, vypracování vhodného systému jejich hodnocení a odměňování, vytváření vhodného pracovního prostředí, péči o jejich bezpečnost, hygienu a ochranu zdraví při práci.
 
-__\-__ Řídící funkce __→__ její náplní jsou činnosti spojené s řízením podniku\. Jde o vymezení vztahů mezi řízenými jednotkami a vedením podniku, určení rozsahu odpovědnosti a pravomocí managementu podniku, nástrojů řízení a stylu řídící činnosti\. Rozhodnutí týkající se cílů, zájmů a potřeb podniku přijatá ve sféře řízení jsou nadřazena ostatním sférám jeho činnosti včetně sféry ekonomické\. Na druhé straně musí kriteria rozhodování při řízení podniku vycházet z hlubokých znalostí a respektování ekonomických souvislostí\.
+__-__ Řídící funkce __→__ její náplní jsou činnosti spojené s řízením podniku. Jde o vymezení vztahů mezi řízenými jednotkami a vedením podniku, určení rozsahu odpovědnosti a pravomocí managementu podniku, nástrojů řízení a stylu řídící činnosti. Rozhodnutí týkající se cílů, zájmů a potřeb podniku přijatá ve sféře řízení jsou nadřazena ostatním sférám jeho činnosti včetně sféry ekonomické. Na druhé straně musí kriteria rozhodování při řízení podniku vycházet z hlubokých znalostí a respektování ekonomických souvislostí.
 
-__\-__ Správní funkce __→__ zahrnuje činnosti zabezpečující chod celého podniku, převážně administrativní\.
+__-__ Správní funkce __→__ zahrnuje činnosti zabezpečující chod celého podniku, převážně administrativní.
 
-__\-__ Sociální funkce __→__  neméně významné je zapojení podniku do ochrany, udržování a zkvalitňování životního prostředí, do kulturního rozvoje regionu, do oblasti rozvoje vzdělávání a sportu sponzorskou činností apod\.
+__-__ Sociální funkce __→__  neméně významné je zapojení podniku do ochrany, udržování a zkvalitňování životního prostředí, do kulturního rozvoje regionu, do oblasti rozvoje vzdělávání a sportu sponzorskou činností apod.
 
 1. __Založení a vznik podniku__
 
 Založení
 
-\- založení společnosti \(společníci sepíší smlouvu\)
+\- založení společnosti (společníci sepíší smlouvu)
 
-\- společenská smlouva \(u s\.r\.o\.\)
+\- společenská smlouva (u s.r.o.)
 
-\- zakladatelská smlouva \(u a\.s\.\)
+\- zakladatelská smlouva (u a.s.)
 
-\- zakladatelská listina \(u sro i as, když je 1 společník\)
+\- zakladatelská listina (u sro i as, když je 1 společník)
 
 Vznik
 
-\- vznik společnosti \(den, kdy je společnost zapsána do obchodního rejstříku nebo do živnostenského rejstříku\)
+\- vznik společnosti (den, kdy je společnost zapsána do obchodního rejstříku nebo do živnostenského rejstříku)
 
 1. __Zrušení a zánik podniku__
 
 Zrušení bez likvidace
 
-\- Bez likvidace společnost zaniká, přechází\-li její jmění na právního nástupce
+\- Bez likvidace společnost zaniká, přechází-li její jmění na právního nástupce
 
-\- ukončení činnosti \(podnikání\)
+\- ukončení činnosti (podnikání)
 
-Důvody → úmrtí podnikatele, změna právní formy podnikání, vlastním rozhodnutí\.\.\.
+Důvody → úmrtí podnikatele, změna právní formy podnikání, vlastním rozhodnutí...
 
 Zrušení s likvidací
 
@@ -211,16 +211,16 @@ Zrušení s likvidací
 
 Konkurenční řízení
 
-\- Soudní řízení, firma nemá na dluhy na návrch věřitele \(i sám dlužník\)
+\- Soudní řízení, firma nemá na dluhy na návrch věřitele (i sám dlužník)
 
-\- soud určí správce konkurenční podstaty \(věřitelé se přihlásí, prodává se majetek, soud určí pořadí úhrady dluhů
+\- soud určí správce konkurenční podstaty (věřitelé se přihlásí, prodává se majetek, soud určí pořadí úhrady dluhů
 
 Zánik
 
-\- zrušení právní subjektivity \(vymazání z obchodního rejstříku\)
+\- zrušení právní subjektivity (vymazání z obchodního rejstříku)
 
 1. __Účetnictví__
 
 \- jen PO
 
-\- FO → jednoduché účetnictví \(daňová evidence\)
+\- FO → jednoduché účetnictví (daňová evidence)

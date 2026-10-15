@@ -1,5 +1,5 @@
 ---
-title: "FINANCE A PODNIKANI"
+title: "Finance a podnikání"
 order: 10
 source: "Společenské vědy/10. FINANCE A PODNIKANI.docx"
 ---

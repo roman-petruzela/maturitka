@@ -4,7 +4,7 @@ order: 8
 source: "robotika1.pol/cv07a_had_5xLED.pdf"
 ---
 
-# **Složené operátory**
+# Složené operátory
 
 Tyto operátory nám usnadní práci, protože zkracují zápis operací.
 
@@ -17,7 +17,7 @@ x *= 20;   //obdobně to plati i pro nasobeni
 x /= 30;//a deleni
 ```
 
-## **Operátory inkrementace a dekrementace**
+## Operátory inkrementace a dekrementace
 
 Oba dva nejdříve předají svoji hodnotu, a pak dojde k jejich úpravě.
 
@@ -42,11 +42,11 @@ x = 10;
 int a = --x; //a i x maji hodnotu 9
 ```
 
-# **Cykly**
+# Cykly
 
 Pokud potřebujeme v kódu zapsat nějaký příkaz vícekrát jen s nějakou menší obměnou (změna číselného parametru) tak to není takový problém. Ale pokud je těch změn mnoho, tak pak nastupují do praxe cykly.
 
-## **Cyklus while()**
+## Cyklus while()
 
 Cyklus s podmínkou na začátku. Všechny příkazy v cyklus se provádí dokud je podmínka pravdivá.
 
@@ -101,7 +101,7 @@ void loop() {
 }
 ```
 
-## **Cyklus do while()**
+## Cyklus do while()
 
 Cyklus s podmínkou na konci. Prvně se provedou všechny příkazy v těle cyklu a pak se kontroluje podmínka. Cyklus se provede minimálně jednou.
 
@@ -147,7 +147,7 @@ void loop() {
 }
 ```
 
-## **Cyklus for()**
+## Cyklus for()
 
 Cyklus se známým počtem opakování. Před každým opakováním se testuje zadaná podmínka.
 
@@ -176,9 +176,9 @@ void loop() {
  }
 ```
 
-# **Had z LED diod**
+# Had z LED diod
 
-## **Budeme potřebovat**
+## Budeme potřebovat
 
 1. Arduino Uno (nebo jinou desku).
 
@@ -192,11 +192,11 @@ void loop() {
 
 6. 5xLED dioda.
 
-## **Zapojení**
+## Zapojení
 
 Dle obrázku:
 
-## **Program**
+## Program
 
 Do Arduino IDE vložíme kód programu a nahrajeme jej do Arduina:
 
@@ -225,7 +225,7 @@ void loop() {
 }
 ```
 
-## **Úkol:**
+## Úkol:
 
 Doplňte program tak, aby se  diody rozsvěcovaly a zhasínaly i v opačném směru.
 

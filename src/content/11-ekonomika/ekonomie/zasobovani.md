@@ -31,7 +31,7 @@ hlediska pro výběr dodavatele:
 smlouvy s dodavatelem:
 
 - __přípravě dodávek__
-	- smlouva předběžná, která stabilizuje dodavatelsko\-odběratelské vtahy
+	- smlouva předběžná, která stabilizuje dodavatelsko-odběratelské vtahy
 - __kupní smlouva__
 	- obsahuje identifikační údaje obou stran, druh zboží, doprava, jakost, obaly, způsob placení
 - __dohoda o dodávce__
@@ -53,7 +53,7 @@ způsob objednání:
 druhy zásob:
 
 1. __pojistná__ – pro případ zpoždění
-2. __technologická__ – u surovin, které potřebují tzv\. dozrát
+2. __technologická__ – u surovin, které potřebují tzv. dozrát
 3. __obratová__ – zásoba mezi dvěma dodávkami
 4. __spekulační__ – u zboží, kde se očekává zvýšení cen
 
@@ -63,7 +63,7 @@ metody stanovení:
 2. __Procento z tržby__ – používá se u nových provozoven a stanovuje se určitým % z předpokládané tržby
 3. __Časová norma zásob__ – udává čas, po který jsou zásoby na skladě
 
-a\) *ČNZ = Z max\. \+ Z min\. 		*b\)* ČNZ = c \+ p \+ t* 
+a) *ČNZ = Z max. + Z min. 		*b)* ČNZ = c + p + t* 
 
 *2                                             2*
 
@@ -79,13 +79,13 @@ a\) *ČNZ = Z max\. \+ Z min\. 		*b\)* ČNZ = c \+ p \+ t*
 
 *d*
 
-c … dodávkový cyklus \(časová norma zásob\)
+c … dodávkový cyklus (časová norma zásob)
 
-s … celková spotřeba \(normativ zásob
+s … celková spotřeba (normativ zásob
 
-d … počet dní \(30 – měsíc, 90 – čtvrtletí, 360 – rok\), \(normativ zásob\)
+d … počet dní (30 – měsíc, 90 – čtvrtletí, 360 – rok), (normativ zásob)
 
-c … cena \(finanční normativ zásob\)
+c … cena (finanční normativ zásob)
 
 ## Odběr
 
@@ -140,7 +140,7 @@ druhy skladu:
    alko – pivo, víno, lihoviny
 
 - sklady inventáře – sklo, talíře, příbory,…
-- příruční sklad – načatá balení \(cukr, koření,…\)
+- příruční sklad – načatá balení (cukr, koření,…)
 - sklad čisticích prostředků
 
 evidence na skladech:
@@ -148,7 +148,7 @@ evidence na skladech:
 - dodací list
 - faktura
 - výdejka
-- skladová karta → obsahuje – druh zboží, evidence o příjmu a výdeji, měrná jednotka, konečný stav, cena, odpovědná osoba, příhradový štítek \(množství zboží na skladě\)
+- skladová karta → obsahuje – druh zboží, evidence o příjmu a výdeji, měrná jednotka, konečný stav, cena, odpovědná osoba, příhradový štítek (množství zboží na skladě)
 
 zabezpečení skladu proti:
 
@@ -177,24 +177,24 @@ druhy inventarizace:
 
        průběžná – denně kontroluje zboží na skladě
 
-- mimořádná – koná se podle potřeby \(při změně skladníka, krádeži, požáru,…\)
+- mimořádná – koná se podle potřeby (při změně skladníka, krádeži, požáru,…)
 - podle rozsahu
 	- úplná – kontrolujeme veškerý majetek
 	- dílčí – kontrolujeme pouze vybrané druhy
 
 výsledek inventarizace:
 
-a\) shoda \(rovnost\)
+a) shoda (rovnost)
 
-b\) ztráta – fyzická kontrola je menší než dokladová
+b) ztráta – fyzická kontrola je menší než dokladová
 
-1\. přirozený úbytek \(manko do normy\)
+1\. přirozený úbytek (manko do normy)
 
 2\. zaviněné manko – za ztrátu zodpovídá skladník
 
 3\. manka živelné ztráty
 
-c\) přebytek – fyzická inventura je větší než stav podle dokladu
+c) přebytek – fyzická inventura je větší než stav podle dokladu
 
 inventarizační komise:
 
@@ -215,7 +215,7 @@ obsahuje:
 - přijatá opatření
 - všichni se musí podepsat
 
-\- pokud se zjistí zavadá, je stanoven termín odstranění a poté následuje tzv\. následná inventarizace, která je zaměřená na odstranění závad
+\- pokud se zjistí zavadá, je stanoven termín odstranění a poté následuje tzv. následná inventarizace, která je zaměřená na odstranění závad
 
 __Využití zásob__ – zásoby by měli být na skladě co nejkratší dobu, aby rychleji vydělávaly
 

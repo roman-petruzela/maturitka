@@ -15,7 +15,7 @@ source: "Účetnictví/3. Zásoby (účtová třída 1) - Dokumenty Google.pdf"
 
 Do  zásob  patří:
 
-### **-  materiál**
+### Materiál
 
 <u>a)  suroviny  a  základní  materiál  -  vstupují  do  výrobků  a  tvoří  jejich  podstatu  (mouky,</u> dřevo)
 
@@ -45,7 +45,7 @@ Do  zásob  patří:
 
 <u>d)  zvířata  -  z  účetního  hlediska  zařazujeme  do  zásob  mladá  a  chovná  zvířata,  zvířata  ve</u> výkrmu,  ryby,  kožešinová  zvířata,  včelstvo,  hejna  slepic,  krůt,  kachen,  perliček  a  hus na  výkrm.  Jsou  to  zvířata  jak  vlastní  produkce,  tak  nakupována.
 
-## **Oceňování  zásob**
+## Oceňování  zásob
 
 - v  pořizovací  ceně  -  nákupní  cena  +  související  náklady(přepravné,  clo,  pojistné,  provuze, náklady  na  předvýrobní  přípravu)
 
@@ -53,11 +53,11 @@ Do  zásob  patří:
 
 - reprodukční  PC  -  oceněna  znalcem,  používá  se  tam,  kde  původní  cena  není  známa  (např.  u zásob  získaných  darem,  dědictvím,  vložených  do  společnost).
 
-## **Účtování  způsobem  A  a  B**
+## Účtování  způsobem  A  a  B
 
 - záleží  na  účetní  jednotce,  který  si  zvolí
 
-### **A**
+### A
 
 - používají  zásadně  firmy  s  povinným  auditem
 
@@ -67,7 +67,7 @@ Do  zásob  patří:
 
 - náročnější  na  skladovou  evidenci
 
-### **B**
+### B
 
 - menší  firmy,  jednodušší  -  používáme  rovnou  pětkové  účty
 
@@ -77,7 +77,7 @@ Do  zásob  patří:
 
 - firmy  pouze  na  začátku  roku  zaúčtují  počáteční  stavy  a  na  konci  roku  zjišťují  konečné  stavy
 
-## **Zásoby  vlastní  výroby**
+## Zásoby  vlastní  výroby
 
 - pro  účtování  o  zásobách  vlastní  výroby  jsou  vyhrazeny  účty  v  účtové  skupině  12  - Zásoby  vlastní  výroby
 
@@ -89,13 +89,13 @@ Do  zásob  patří:
 
    - Výrobky  (účet  123)  -  jsou  předměty,  které  podnik  vyrábí  s  cílem  prodat  je odběratelům
 
-### **Oceňování  zásob  při  výdeji  do  spotřeby**
+### Oceňování  zásob  při  výdeji  do  spotřeby
 
 při  nákupu  zásob  materiálu  či  zboží  dochází  často  k  tomu,  že  ceny  jednoho  druhu  zásob  jsou různé  jak  od  různých  dodavatelů,  tak  i  od  jednoho  dodavatele  v  různé  době  dodání.  Tím mohou  vznikat  různé  komplikace,  zejména  při  oceňování  vydaného  materiálu,  zboží  ze skladu.  Úbytek  zásob  se  uskutečňuje,  tk.  oceňuje  vždy  v  pořizovacích  cenách,  ve  kterých byly  zásoby  nakoupeny  a  evidovány  na  skladě.  Proto  byly  vytvořeny  různé  oceňovací techniky,  jejichž  použití  je  vždy  dáno  využívaným  účetním  softwarem  v  dané  firmě. K  nejčastěji  používaným  oceňovacím  technikám  patří:
 
 metoda **FIFO  (First  In,  First  Out  –  první  dovnitř,do  skladu,  první  ven,  ze  skladu)** Podstata  této  metody  spočívá  v  postupném  vydávání  zásob  ze  skladu  ve  stejném  pořadí,  v jakém  byly  do  skladu  přijímány,  od  zásob  nejstarších,  k  nejnovějším.  Tuto  metodu  používají  účetní jednotky  spíše  s  menším  sortimentem  zásob,  lze  ji  úspěšně  použít  i  ve  velkých podnicích,  klade  však  větší  nároky  na  organizaci  skladové  evidence.
 
-### **metoda  Ocenění  v  cenách  zjištěných  váženým  aritmetickým  průměrem**
+### metoda  Ocenění  v  cenách  zjištěných  váženým  aritmetickým  průměrem
 
 Vážený  aritmetický  průměr  je  nutné  počítat  nejméně  jednou  za  měsíc.  Podle  této  metody oceňujeme  zásoby  ve  skladové  evidenci  také  skutečnou  pořizovací  cenou,  pro  výdej  pak stanovíme  jednu  průměrnou  cenu  z  těchto  různých  pořizovacích  cen.  Zjišťujeme  vážený aritmetický  průměr  proměnlivý  nebo  periodický.
 
@@ -135,7 +135,7 @@ do  nákladů  jako  provozní  náklad  -  účet  546  odpis  pohledávky
 
 5.  odepsání  pohledávky  v  případě  neuznaného  reklamačního  nároku  -  548/315
 
-### **Škody  na  materiálových  zásobách**
+### Škody  na  materiálových  zásobách
 
 - stejně  jako  zaviněná  manka  účtujeme  škody  na  zásobách,  které  vznikly  např. Neznámý  pachatel,  fyzickým  znehodnocením  -  účet  549  nebo  živelnými  pohromami
 

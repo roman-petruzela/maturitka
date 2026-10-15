@@ -1,5 +1,5 @@
 ---
-title: "RENESANCNI A NOVOVEKA FILOSOFIE"
+title: "Renesanční a novověká filosofie"
 order: 19
 source: "Společenské vědy/19. RENESANCNI A NOVOVEKA FILOSOFIE.docx"
 ---

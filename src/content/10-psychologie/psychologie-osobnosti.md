@@ -1,5 +1,5 @@
 ---
-title: "PSYCHOLOGIE OSOBNOSTI"
+title: "Psychologie osobnosti"
 source: "PSYCHOLOGIE/PSYCHOLOGIE-OSOBNOSTI.docx"
 ---
 __5\. Psychologie osobnosti__
@@ -140,7 +140,7 @@ __Druhy inteligence__
 	- Není závislá na IQ
 	- Ovlivňuje úspěšnost jedince v rodině, na pracovišti, v sociálních vztazích
 
-((obrázek vynechán))
+<img src="/images/content/psychologie/psychologie-osobnosti/01.webp" alt="" width="488" loading="lazy" decoding="async">
 
 1. __MOTIVACE__
 
@@ -390,7 +390,7 @@ __Neuroticismus__
 
 *Extroverze*
 
-__((obrázek vynechán))__
+__<img src="/images/content/psychologie/psychologie-osobnosti/02.webp" alt="" width="331" loading="lazy" decoding="async">__
 
 *Vysoký neuroticismus*
 

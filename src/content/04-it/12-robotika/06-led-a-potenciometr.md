@@ -4,11 +4,11 @@ order: 6
 source: "robotika1.pol/cv05_LED_potenciometr.pdf"
 ---
 
-# **Konstanty**
+# Konstanty
 
 Konstanta je proměnná, která má přednastavenou hodnotu, definovanou tvůrci Arduina. Jsou rozděleny na skupiny:
 
-## **Logické konstanty**
+## Logické konstanty
 
 Jsou jen dvě hodnoty – pravda / nepravda.
 
@@ -16,7 +16,7 @@ Jsou jen dvě hodnoty – pravda / nepravda.
 
 - **true** – jakákoliv nenulová hodnota
 
-## **Typ digitálního pinu**
+## Typ digitálního pinu
 
 - **OUTPUT** : Při použití této konstanty je pin nastaven jako výstup a snese proud do 40 mA při stavu **HIGH** a stavu **LOW** může stejně velký proud přijmout.
 
@@ -24,7 +24,7 @@ Jsou jen dvě hodnoty – pravda / nepravda.
 
 - **INPUT_PULLUP** : Funguje podobně jako **INPUT,** dojde k připojení interního rezistoru. Ten je uvnitř čipu zapojen mezi digitálním vstupem a +5V. Výchozí hodnota funkce **HIGH** . Když chceme hodnotu změnit, musíme vstup připojit na **GND** .
 
-## **Napětí na digitálních pinech**
+## Napětí na digitálních pinech
 
 pouze dva stavy napětí:
 
@@ -40,9 +40,9 @@ pouze dva stavy napětí:
 
    - při čtení mezi GND  a pinem napětí menší než 2V
 
-## **Analogový vstup a výstup**
+## Analogový vstup a výstup
 
-### **Výstup**
+### Výstup
 
 Pro nastavení „analogové“ hodnoty na pinu je použita funkce
 
@@ -60,17 +60,17 @@ PWM v praxi funguje tak, že se rychle střídá 0 V a 5 V.
 
 _Obrázek 1: PWM modulace_
 
-### **Vstup**
+### Vstup
 
 Čtení analogové hodnoty se používá funkce
 
-#### **`promenna = analogRead(pin);`**
+#### `promenna = analogRead(pin);`
 
 čtení analogových hodnot je užitečné u různých senzorů (teplota, vlhkost atd.) Arduino má analogové vstupy s rozlišením 10 bitů. Pětivoltovou stupnici tedy můžeme „rozkouskovatˇ na 2<sup>10</sup> = 1024 hodnot (0 – 1023).
 
-# **LED a potenciometr**
+# LED a potenciometr
 
-## **Budeme potřebovat**
+## Budeme potřebovat
 
 1. Arduino Uno (nebo jinou desku).
 
@@ -86,11 +86,11 @@ _Obrázek 1: PWM modulace_
 
 7. Potenciometr – s lineárním průběhem (B10K)
 
-## **Zapojení**
+## Zapojení
 
 Dle obrázku:
 
-## **Program**
+## Program
 
 Do Arduino IDE vložíme kód programu a nahrajeme jej do Arduina:
 
@@ -106,7 +106,7 @@ void setup() {
  }
 ```
 
-#### **`void loop() {`**
+#### `void loop() {`
 
 ```
  val = analogRead(pot)/4; //cteni hodnoty na A0 a uprava rozsahu

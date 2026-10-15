@@ -1,5 +1,5 @@
 ---
-title: "FINANCOVÁNÍ PODNIKU"
+title: "Financování podniku"
 order: 19
 source: "Ekonomie/19. FINANCOVÁNÍ-PODNIKU.docx"
 ---

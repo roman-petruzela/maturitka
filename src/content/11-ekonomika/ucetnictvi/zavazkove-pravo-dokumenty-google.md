@@ -3,7 +3,7 @@ title: "Závazkové právo Dokumenty Google"
 order: 25
 source: "Účetnictví/25. Závazkové právo - Dokumenty Google.pdf"
 ---
-## **Závazkový  vztah,  závazek,  pohledávka,  věřitel,  dlužník**
+## Závazkový  vztah,  závazek,  pohledávka,  věřitel,  dlužník
 
 **Závazkový  vztah** –  právní  vztah,  věřiteli  vzniká  právo  na  plnění  od  dlužníka,  dlužníkovi vzniká  povinnost  plnit
 
@@ -11,13 +11,13 @@ source: "Účetnictví/25. Závazkové právo - Dokumenty Google.pdf"
 
 **Pohledávka** =  právo  na  plnění,  oprávněná  osoba  =  věřitel
 
-## **Závazky  podle  počtu  účastníků  závazkového  vztahu**
+## Závazky  podle  počtu  účastníků  závazkového  vztahu
 
 - **jednoduché** –  stranu  závazku  tvoří  1  subjekt
 
 - **společné** –  stranu  závazku  tvoří  více  subjektů,  jsou  společně  oprávněny  nebo  povinny.
 
-### **Společné  závazky  mohou  být  solidární,  dílčí  a  nedílné.**
+### Společné  závazky  mohou  být  solidární,  dílčí  a  nedílné.
 
 - **solidární** –  subjekty  jsou  zavázány  společně,  nerozdílně.  Věřitel  může  požadovat plnění  na  kterémkoliv  dlužníkovi,  ten  je  povinen  přijmout  od  kohokoliv.
 
@@ -25,7 +25,7 @@ source: "Účetnictví/25. Závazkové právo - Dokumenty Google.pdf"
 
 - **nedílné** –  závazky  lze  splnit  jen  součinností  spoludlužníků,  jejich  předmětem  je plnění  nedělitelné  (obraz,  kůň)
 
-## **Obchodní  závazkové  vztahy**
+## Obchodní  závazkové  vztahy
 
 - **relativní  obchody** –  řídí  se  obchodním  zákoníkem  nebo  i  občanským  zákoníkem  (obchodní zákoník  obsahuje  jen  výjimky  a  doplnění).  Jde  o  vztah:  mezi  podnikateli,  týká  se  jejich podnikatelské  činnosti;  mezi  podnikatelem  a  státem  (pokud  stát  zabezpečuje  veřejné  potřeby)
 
@@ -35,9 +35,9 @@ source: "Účetnictví/25. Závazkové právo - Dokumenty Google.pdf"
 
 - **absolutní  neobchody** –  řídí  se  občanským  zákoníkem  (smlouva  o  sdružení,  pojistná smlouva,  nájemní  smlouva),  nezáleží  na  subjektech
 
-## **Vznik,  změna,  zajištění  a  zánik  závazků**
+## Vznik,  změna,  zajištění  a  zánik  závazků
 
-### **Vznik  závazků**
+### Vznik  závazků
 
 - uzavření  smlouvy
 
@@ -67,7 +67,7 @@ source: "Účetnictví/25. Závazkové právo - Dokumenty Google.pdf"
 
 - změna  dohodou  stran  –  původní  závazek  nezaniká,  mění  se  vzájemná  práva  a  povinnosti
 
-### **Zajištění  závazků**
+### Zajištění  závazků
 
 Když  je  potřeba  posílit  právní  závaznost  závazků  dalšími  právními  nástroji,  které  by  zajistily vyšší  míru  pravděpodobnosti  splnění  závazku.
 
@@ -89,7 +89,7 @@ Když  je  potřeba  posílit  právní  závaznost  závazků  dalšími  práv
 
 - **zadržovací  právo**
 
-### **Zánik  závazků**
+### Zánik  závazků
 
 - **Splnění  dluhu**
 
@@ -121,13 +121,13 @@ Když  je  potřeba  posílit  právní  závaznost  závazků  dalšími  práv
 
 - závazek  zaniká,  když  věřitel  a  dlužník  splynou  v  jeden  subjekt  (sloučení  PO),  nebo  když jiným  způsobem,  (děděním)  splyne  právo  a  povinnost  v  1  osobě
 
-### **•  Prominutí  dluhu**
+### Prominutí dluhu
 
 - pokud  věřitel  promine,  má  za  to,  že  dlužník  souhlasí,  pokud  neprojevil  nesouhlas  výslovně nebo  plněním  dluhu
 
 - k  prominutí  dojde  i  v  případě,  že  věřitel  vydá  kvintaci  nebo  vrátí  dlužní  úpis  bez  splnění dluhu
 
-### **•  Výpověď**
+### Výpověď
 
 - jednostranný  projev  vůle  ukončit  závazek
 
@@ -153,19 +153,19 @@ Když  je  potřeba  posílit  právní  závaznost  závazků  dalšími  práv
 
 - nemožnost  plnění  prokazuje  dlužník
 
-### **Smrt  dlužníka  nebo  věřitele**
+### Smrt  dlužníka  nebo  věřitele
 
 -  smrtí  dlužníka  povinnost  nezanikne,  ledaže  jejím  obsahem  bylo  plnění,  které  mělo  být provedeno  osobně  dlužníkem
 
 - smrtí  věřitele  právo  zanikne,  bylo-li  plnění  omezeno  jen  na  něj
 
-### **•  Uplynutí  doby**
+### Uplynutí doby
 
 - závazkový  vztah  zanikne,  jestliže  oprávněný  neuplatní  své  právo  v  době,  na  kterou  byl vymezen  →  propadnutí  práva  neboli  prekluze
 
 - prekluzi  se  podobá  promlčení  práva,  promlčením  právo  nezaniká,  jen  se  postavení  věřitele v  právním  vztahu  oslabuje
 
-### **Prekluze**
+### Prekluze
 
 - zaniká  jí  právo
 
@@ -179,7 +179,7 @@ Když  je  potřeba  posílit  právní  závaznost  závazků  dalšími  práv
 
 - prekluzivními  lhůtami  je  omezené  trvání  jen  několik  druhů  závazků
 
-### **Promlčení**
+### Promlčení
 
 - nezaniká  ním  právo
 
@@ -191,7 +191,7 @@ Když  je  potřeba  posílit  právní  závaznost  závazků  dalšími  práv
 
 - promlčují  se  všechna  majetková  práva  kromě  několika  výjimek  (vlastnické  právo)
 
-## **Závazky  z  právních  úkonů**
+## Závazky  z  právních  úkonů
 
 - **Převedení  věci  do  vlastnictví  jiného**
 
@@ -281,7 +281,7 @@ Když  je  potřeba  posílit  právní  závaznost  závazků  dalšími  práv
 
    - Slib  odškodnění
 
-## **Závazky  z  protiprávních  úkonů**
+## Závazky  z  protiprávních  úkonů
 
 - **Náhrada  majetkové  a  nemajetkové  újmy**
 
@@ -293,7 +293,7 @@ Když  je  potřeba  posílit  právní  závaznost  závazků  dalšími  práv
 
 - škoda  je  způsobena  porušením  dobrých  mravů,  zákona,  smluvní  povinnosti
 
-### **•  Zneužití  a  omezení  soutěže**
+### Zneužití a omezení soutěže
 
 - soutěžitel  (účastník  hospodářské  soutěže)  nesmí  účast  zneužívat,  ani  omezovat
 
@@ -301,7 +301,7 @@ Když  je  potřeba  posílit  právní  závaznost  závazků  dalšími  práv
 
 - kdo  se  dostane  v  hosp.  styku  do  rozporu  s  dobrými  mravy,  má  jednání,  které  může  přivodit újmu  jiným  soutěžitelům  nebo  zákazníkům  →  nekalá  soutěž  –  je  zakázána
 
-### **Nekalá  soutěž**
+### Nekalá  soutěž
 
 - **Klamavá  reklama** –  souvisí  s  podnikáním/povoláním,  má  podpořit  odbyt  věcí/služeb, klame  osoby,  jimž  je  určena,  může  ovlivnit  jejich  chování
 
@@ -311,7 +311,7 @@ Když  je  potřeba  posílit  právní  závaznost  závazků  dalšími  práv
 
 - **Vyvolání  nebezpečné  záměny** –  užití  jména  osoby  nebo  zvláštního  označení  po  právu užívaném  jiným  soutěžitelem,  napodobení  cizího  výrobku/obalu/výkonu
 
-## **Závazky  z  jiných  právních  důvodů**
+## Závazky  z  jiných  právních  důvodů
 
 - Bezdůvodné  obohacení
 

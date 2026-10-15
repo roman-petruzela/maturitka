@@ -3,7 +3,7 @@ title: "Podnik a jeho základní činnosti Dokumenty Google"
 order: 14
 source: "Účetnictví/14. Podnik a jeho základní činnosti - Dokumenty Google.pdf"
 ---
-## **Hlavní  činnost  podniku**
+## Hlavní  činnost  podniku
 
 - Ve  své  hlavní  činnosti  podnik  zajišťuje  výkony,  pro  jejichž  tvorbu  byl  založen.  Z  hlavní činnosti  získává  podnik  rozhodující  část  svých  výnosů.
 
@@ -19,7 +19,7 @@ source: "Účetnictví/14. Podnik a jeho základní činnosti - Dokumenty Google
 
 - **Hlavní  činnosti  podniku  může  být:  výroba  –  obchod  –  poskytování  služeb**
 
-## **Výrobní  proces**
+## Výrobní  proces
 
 –  veškeré  činnosti,  které  vedou  k  hotovému  výrobku  označujeme  jako  výrobní  proces
 
@@ -51,7 +51,7 @@ materiálem  či  hotovými  výrobky  (skladování,  doprava,  kontrola)
 
 c)  automatizovaná  výroba  -  práci  vykonává  stroj  bez  zásahu  člověka
 
-## **Typy  výroby**
+## Typy  výroby
 
 –  jak  budou  probíhat  výr.  činnosti  závisí  na  objemu  produkce.  Z  tohoto  hlediska  se  rozlišuje:
 
@@ -61,7 +61,7 @@ c)  automatizovaná  výroba  -  práci  vykonává  stroj  bez  zásahu  člov�
 
 - **hromadná  výroba** -  velké  množství  jednoho  druhu  výrobku
 
-## **Výrobní  kapacita**
+## Výrobní  kapacita
 
 –  výrobní  kapacita  je  maximální  objem  výroby,  který  může  výrobní  jednotka  (podnik,  závod, dílna,  stroj)  vyrobit  za  určitou  dobu  (rok,  den,  hod.)  za  optimálních  podmínek
 
@@ -69,23 +69,23 @@ c)  automatizovaná  výroba  -  práci  vykonává  stroj  bez  zásahu  člov�
 
 - je  závislá  na  mnoha  činitelích,  především  na  technické  úrovni  strojů  a  zařízení,  na  době jejich  činnosti,  organizaci  práce  a  výroby,  kvalifikaci  pracovní  síly,  použitých  surovinách
 
-### **Výpočet  výrobní  kapacity**
+### Výpočet  výrobní  kapacity
 
 Qp  =  Tp  *  Vp
 
 Qp  ...  výrobní  kapacita  v  naturálních  jednotkách Tp  ...  využitelný  časový  fond  v  hodinách Vp  ...  výkon  v  naturálních  jednotkách  za  1  h
 
-### **Využití  výrobní  kapacity**
+### Využití  výrobní  kapacity
 
 kc  =  Qs  /  Qp
 
 kc  ...  koeficient  celkového  využití  výrobní  kapacity  (0  -  1) Qs  ...  skutečný  objem  výroby Qp  ...  výrobní  kapacita
 
-### **Kapacitní  rezerva**
+### Kapacitní  rezerva
 
 - objem  výroby,  který  by  mohl  byt  vyroben  navíc  při  plném  využiti  výrobní  kapacity;  Qp  – Qs
 
-### **Normy  spotřeby  práce**
+### Normy  spotřeby  práce
 
 →  norma  času
 
@@ -105,13 +105,13 @@ norma  spotřeby  práce  →  normy  obsluhy
 
 - **normativ  stavu  pracovníků** –  určuje  počet  a  kvalifikaci  pracovníků,  kteří  mají  v  daném útvaru  konat  práce  nevýrobní  povahy  (manipulační  pracovnici)
 
-## **Obchodní  činnost**
+## Obchodní  činnost
 
 V  rámci  obchodní  činnosti  se  zprostředkovává  přechod  zboží  od  výrobce  ke  spotřebiteli. Výrobní  podnik  může  tuto  činnost  provádět  sám  (přímý  prodej)  nebo  zprostředkovaně  přes obchodní  organizaci.
 
-### **Použití  obchodní  organizace  přináší  řadu  výhod  výrobci  i  spotřebiteli.**
+### Použití  obchodní  organizace  přináší  řadu  výhod  výrobci  i  spotřebiteli.
 
-### **Výhody  pro  výrobce**
+### Výhody  pro  výrobce
 
 - snižuje  se  množství  finančních  prostředků  vázaných  v  zásobách
 
@@ -119,7 +119,7 @@ V  rámci  obchodní  činnosti  se  zprostředkovává  přechod  zboží  od  
 
 - obchodní  organizace  poskytuje  kvalifikované  provádění  marketingových  činností  (zejména reklamy,  distribuce  zboží,  stanovení  prodejní  ceny),  skladování,  balení  a  označení  zboží
 
-### **Výhody  pro  odběratele**
+### Výhody  pro  odběratele
 
 - zkrácení  dodacích  lhůt
 
@@ -127,7 +127,7 @@ V  rámci  obchodní  činnosti  se  zprostředkovává  přechod  zboží  od  
 
 - různá  úprava  dodacích  a  platebních  podmínek
 
-### **Obchodní  činnost  lze  provádět:**
+### Obchodní  činnost  lze  provádět:
 
 **a)  se  zbožím** -  ve  velkoobchodní  nebo  maloobchodní  síti,  případně  na  burze
 
@@ -145,7 +145,7 @@ burza  má  svá  přesně  stanovená  pravidla,  kterými  se  řídí.
 
 říká  zboží).  Zisk  realizují  ve  formě  obchodní  marže  -  rozdíl  mezi  prodejní  a  nákupní  cenou. Poskytování  služeb
 
-## **Základní  rysy  služeb**
+## Základní  rysy  služeb
 
 - jsou  to  jakékoliv  výkony,  po  kterých  je  na  trhu  poptávka  a  které  jsou  ohodnoceny  cenou
 
@@ -163,17 +163,17 @@ věda  a  výzkum  apod.
 
 **3.  služby  ve  státním  sektoru** -  školství,  zdravotnictví,  sociální  služby,  policie,  obrana, soudnictví  apod.
 
-## **Investiční  činnost  podniku**
+## Investiční  činnost  podniku
 
 Investování  =  vynakládání  finančních  prostředků,  kterých  se  dobrovolně  zřekneme,  aby  v budoucnosti  přinesly  požadovaný  výnos.
 
-### **Možnosti  investování**
+### Možnosti  investování
 
 **<u>a)  věcné  investice</u>** -  pořizování  dlouhodobého  majetku,  který  bude  podnik  potřebovat  ke  své činnosti  (budovy,  stroje,  pozemky).  Řadíme  sem  i  různá  vylepšeni  majetku,  jeho  obnovu.
 
 **<u>b)  finanční  investice</u>** -  nakup  dlouhodobých  cenných  papírů  (akcie,  obligace),  uloženi  peněz  v  bance (tzv.  termínované  vklady),  nakup  budov,  pozemků,  uměleckých  předmětů  a  předmětů  z  drahých  kovů, které  podnik  nepotřebuje  pro  svou  činnost,  ale  které  mu  přinesou  v  budoucnu finanční  vynos  (prodej,  pronájem)
 
-### **Kritéria  investování**
+### Kritéria  investování
 
 Když  se  podnik  rozhoduje,  zda  investici  uskuteční  nebo  neuskuteční  a  když  si  vybírá  mezi několika  investičními  variantami,  posuzuje  tři  kritéria,  která  označujeme  jako  tzv **.  „magický trojúhelník.“**
 
@@ -185,19 +185,19 @@ likvidita
 
 „magický“  →  jednotlivá  kritéria  se  navzájem  potlačují,  nelze  současně  dosáhnout maximálního  výnosu  při  maximální  bezpečnosti  s  maximální  likviditou!!!
 
-### **Investiční  riziko**
+### Investiční  riziko
 
 Riziko  je  spojeno  s  jakýmkoliv  investováním.  Riziko  investování  spočívá  v  tom,  že  předem není  výsledek  investování.  Investované  prostředky  mohou  přinést  velký  zisk,  ale  také  mohou byt  zcela  ztraceny.
 
 Obecné  pravidlo:  čim  větší  riziko,  tím  větší  potenciální  výnos  z  investice
 
-### **Investiční  portfolio**
+### Investiční  portfolio
 
 V  podnikání  převládá  neochota  k  riziku,  avšak  vynakladani  kapitalu  je  vždy  riskantni.  Pro snižování  rizika  podnikatele  dávají  své  volné  peněžní  prostředky  do  více  než  jedné  investiční akce.  Vytvářejí  si  tzv.  investiční  portfolio.
 
 Při  rozhodování  o  investicích  je  třeba  vedle  rizika  také  sledovat  vliv  daní,  inflace  a  úroků.
 
-### **Pořízení  investic**
+### Pořízení  investic
 
 **1.  nákup** -  novy  nebo  již  použity  dlouhodobý  majetek
 
@@ -219,7 +219,7 @@ Pořizování  investic  ve  velkém  rozsahu  se  v  praxi  označuje  pojmem  
 
 - **dodavatel** -  uskutečňuje  výstavbu
 
-### **Fáze  investování**
+### Fáze  investování
 
 - předinvestiční  –  podrobné  zpracování  projektu
 
@@ -227,13 +227,13 @@ Pořizování  investic  ve  velkém  rozsahu  se  v  praxi  označuje  pojmem  
 
 - provozní  –  uvedeni  do  provozu
 
-### **Leasing**
+### Leasing
 
 =  pronájem  majetku
 
-## **Druhy  leasingu**
+## Druhy  leasingu
 
-### **1.  Finanční  leasing**
+### 1.  Finanční  leasing
 
 - dlouhodobý  pronájem  majetku  (doba  pronajmu  je  delší  než  3  roky)
 
@@ -255,19 +255,19 @@ Pořizování  investic  ve  velkém  rozsahu  se  v  praxi  označuje  pojmem  
 
 **Prodej  na  splátky** -  uzavře  se  kupní  smlouva  o  prodeji  na  splátky,  majetek  přechází  ihned  do vlastnictví  kupujícího,  který  majetek  postupně  splácí,  nejedna  se  tedy  o  leasing  (!!!)
 
-### **Formy  leasingu**
+### Formy  leasingu
 
 1.  Přímý  leasing  -  do  vztahu  mezi  pronajímatelem  a  nájemcem  nevstupuje  žádný  prostředník
 
 2.  Nepřímý  leasing  -  do  vztahu  mezi  pronajímatelem  a  nájemcem  vstupuje  zprostředkovatel, kterým  je  leasingová  společnost
 
-## **Zásobování**
+## Zásobování
 
-### **Podstata  zásobování**
+### Podstata  zásobování
 
 –  hlavním  úkolem  zásobovací  činnosti  je  zabezpečeni  vstupů  do  výroby  (suroviny,  materiál) –  činnosti  související  se  zásobováním  →  nakup  a  přejímka  zásob,  skladování,  plánování zásob  (kolik  a  kdy  pořizovat),  vydávání  zásob.
 
-### **Zásady  racionálního  zásobování**
+### Zásady  racionálního  zásobování
 
 –  podnik  musí  mít  zásoby  v  potřebném  množství,  druzích  a  kvalitě,  za  výhodné  ceny  a  ve stanovené  době
 
@@ -277,13 +277,13 @@ Pořizování  investic  ve  velkém  rozsahu  se  v  praxi  označuje  pojmem  
 
 **2.  nakupovat  je  tolik,  kolik  podnik  potřebuje**
 
-### **3.  zvažovat  náklady  související  s  pořízením  zásob  (zvažovat  kdy  a  kolik  nakoupit)**
+### 3.  zvažovat  náklady  související  s  pořízením  zásob  (zvažovat  kdy  a  kolik  nakoupit)
 
 –  základním  předpokladem  racionálního  zásobováni  je  co  nejpřesnější  znalost  objemu výroby,  který  je  firma  schopna  na  trhu  prodat.  Tuto  problematiku  řeší  marketing.
 
 –  zásoby  se  musí  nakoupit,  zaplatit  a  skladovat  s  jejich  pořizováním  a  udržováním  jsou  → spojeny  náklady
 
-### **Proto  je  třeba  udržovat  zásoby  na  takové  úrovni,  aby:**
+### Proto  je  třeba  udržovat  zásoby  na  takové  úrovni,  aby:
 
 <u>1.  zabezpečily  plynulou  činnost  podniku</u>
 
@@ -291,7 +291,7 @@ Pořizování  investic  ve  velkém  rozsahu  se  v  praxi  označuje  pojmem  
 
 –  zásoba,  která  splňuje  tyto  požadavky,  se  nazývá  optimální  zásoba
 
-### **Plán  zásobování**
+### Plán  zásobování
 
 - sestavuje  se  na  základě  průzkumu  trhu  materiálů  a  propočtu  potřeb  podniku
 
@@ -305,7 +305,7 @@ Pořizování  investic  ve  velkém  rozsahu  se  v  praxi  označuje  pojmem  
 
 - výpočet  velikosti  nákupu:  nákup  =  spotřeba  +  konečná  zásoba  –  počáteční  zásoba
 
-## **Řízení  zásob**
+## Řízení  zásob
 
 **1.  Metoda  ABC** -  nejčastěji  používaná  metoda,  která  členi  zásoby  do  třech  skupin:
 
@@ -315,7 +315,7 @@ Pořizování  investic  ve  velkém  rozsahu  se  v  praxi  označuje  pojmem  
 
 - skupina  C  -  je  počtem  druhů  zásob  největší,  ale  objemem  spotřeby  ve  finančním  vyjádřeni je  nejméně  významná  (např.  tužky,  hygienické  potřeby  pro  zaměstnance,  čisticí  prostředky). Zásoba  se  plánuje  obvykle  souhrnnou  peněžní  částkou,  která  se  využívá  na  nákup  potřebných druhů  zásob
 
-### **2.  Metoda  JUST-IN-TIME  →  vznikla  v  Japonsku.**
+### 2.  Metoda  JUST-IN-TIME  →  vznikla  v  Japonsku.
 
 - Cílem  teto  metody  je  téměř  úplná  likvidace  zásob
 
@@ -325,7 +325,7 @@ Pořizování  investic  ve  velkém  rozsahu  se  v  praxi  označuje  pojmem  
 
 - Tento  systém  je  velice  náročný,  nelze  jej  aplikovat  vždy,  a  proto  se  používá  spíše  ojediněle.
 
-### **3.  Metoda  Zero  Inventory  (Nulové  zásoby)**
+### 3.  Metoda  Zero  Inventory  (Nulové  zásoby)
 
 **4.  Metoda  SIC  (Statistické  řízení  zásob)**
 

@@ -3,7 +3,7 @@ title: "Komunikace Dokumenty Google"
 order: 20
 source: "Účetnictví/20. Komunikace - Dokumenty Google.pdf"
 ---
-### **Komunikační  proces**
+### Komunikační  proces
 
 - **komunikace  →** základní  spojovací  článek  mezi  lidmi  v  procesu  řízení  podniku
 
@@ -13,7 +13,7 @@ source: "Účetnictví/20. Komunikace - Dokumenty Google.pdf"
 
 - komunikační  procesy  dělíme  na  vnitřní  (uvnitř  podniku)  X  vnější  (propojení  podniku  s okolím)
 
-### **Nedostatky  v  komunikaci**
+### Nedostatky  v  komunikaci
 
 - **sdělovatel**
 
@@ -29,21 +29,21 @@ source: "Účetnictví/20. Komunikace - Dokumenty Google.pdf"
 
 - nevyslechnutí  informace  do  konce
 
-## **Komunikační  systémy**
+## Komunikační  systémy
 
-### **Formy**
+### Formy
 
 - ústní  (osobní  rozhovory,  okamžitá  zpětná  vazba,  rychlost,  účinnost)
 
 - písemná  (úkoly  a  dispozice  co  a  jak  má  být  vykonáno  nebo  zpětně  co  a  jak  bylo  vykonáno)
 
-### **Komunikační  kanály**
+### Komunikační  kanály
 
 - oficiální  (formální)
 
 - neoficiální  (neformální)
 
-### **Formální  komunikační  kanály  (různé  směry)**
+### Formální  komunikační  kanály  (různé  směry)
 
 - komunikace  směrem  dolů  (příkazy,  nařízení)
 
@@ -53,13 +53,13 @@ source: "Účetnictví/20. Komunikace - Dokumenty Google.pdf"
 
 - diagonální  komunikace  (různá  místa,  různé  úrovně)
 
-### **Neformální  komunikační  kanály**
+### Neformální  komunikační  kanály
 
 - vycházejí  z  náhodných  osobních  kontaktů  a  je  nutné  je  sladit  s  potřebami  podniku
 
 - čím  méně  informací  podřízeným  poskytneme,  tím  více  se  rozrůstají  domněnky,  pověsti, narážky
 
-### **Vnější  komunikační  systémy**
+### Vnější  komunikační  systémy
 
 - sdílení  informací  prakticky  v  celosvětovém  měřítku
 
@@ -67,7 +67,7 @@ source: "Účetnictví/20. Komunikace - Dokumenty Google.pdf"
 
 - média  →  prostřednictvím  kterých  jsou  sdělení  posílána
 
-### **Vnitřní  komunikační  systémy**
+### Vnitřní  komunikační  systémy
 
 - jak  komunikujeme  v  rámci  podniku  (např.  Iškola)
 
@@ -79,11 +79,11 @@ source: "Účetnictví/20. Komunikace - Dokumenty Google.pdf"
 
 - propojení  PC  sítí  je  nutná  k  efektivnímu  řízení  firmy
 
-## **Verbální  a  neverbální  komunikace**
+## Verbální  a  neverbální  komunikace
 
 - cílem  komunikace  je  porozumění
 
-### **Metody  přenosu**
+### Metody  přenosu
 
 - verbální/neverbální  komunikace
 
@@ -93,7 +93,7 @@ source: "Účetnictví/20. Komunikace - Dokumenty Google.pdf"
 
 - znaky
 
-### **Verbální  komunikace**
+### Verbální  komunikace
 
 - **smysl  sdělení  pro  mluvčího** -  jak  tomu  rozumí  ten,  kdo  sdělení  říká
 
@@ -105,7 +105,7 @@ source: "Účetnictví/20. Komunikace - Dokumenty Google.pdf"
 
 - projevíte  tím  svou  sílu,  ale  nekřičte)
 
-### **Neverbální  komunikace**
+### Neverbální  komunikace
 
 - vyjadřuje  emoce,  postoje,  temperament
 
@@ -125,9 +125,9 @@ source: "Účetnictví/20. Komunikace - Dokumenty Google.pdf"
 
 - ptát  se
 
-### **Manažerské  komunikační  techniky**
+### Manažerské  komunikační  techniky
 
-### **•  pochvala  (vidět  dobré)**
+### Pochvala (vidět dobré)
 
 - pochválit  konkrétní  výkon
 
@@ -141,7 +141,7 @@ source: "Účetnictví/20. Komunikace - Dokumenty Google.pdf"
 
 - jaké  jsou  následky
 
-### **Kritika  oprávněná  a  neoprávněná**
+### Kritika  oprávněná  a  neoprávněná
 
 - než  zareagujeme  na  kritiku  musíme  si  ujasnit:
 
@@ -149,7 +149,7 @@ source: "Účetnictví/20. Komunikace - Dokumenty Google.pdf"
 
 - zda  není  pouze  konstatovaná  realita
 
-### **Správné  přijetí  kritiky**
+### Správné  přijetí  kritiky
 
 - snažíme  se  ovládnout,  nereagujeme  ihned
 
@@ -159,7 +159,7 @@ source: "Účetnictví/20. Komunikace - Dokumenty Google.pdf"
 
 - rozhodneme,  zda  kritiku  přijmeme
 
-### **Podání  kritiky**
+### Podání  kritiky
 
 - je  nutné  dodržet  několik  zásad
 
@@ -177,13 +177,13 @@ source: "Účetnictví/20. Komunikace - Dokumenty Google.pdf"
 
 - b)  neurážíme  a  doplníme  informaci  o  svých  pocitech
 
-## **Asertivita,  asertivní  techniky**
+## Asertivita,  asertivní  techniky
 
 - umožňuje  sebeprosazení  bez  agrese  a  pasivního  přizpůsobení  se
 
 - asertivní  práva  →  celkem  10,  např.  máme  právo  změnit  názor,  dělat  chyby,  říkat  ne/já nevím/nerozumím  ti/je  mi  to  jedno
 
-### **Asertivní  povinnosti**
+### Asertivní  povinnosti
 
 - vědět,  co  chci
 
@@ -197,35 +197,35 @@ source: "Účetnictví/20. Komunikace - Dokumenty Google.pdf"
 
 - naučit  se  pozorně  naslouchat  a  slyšet
 
-### **Kompliment  (asertivní  pochvala)**
+### Kompliment  (asertivní  pochvala)
 
 - kvalitně  pochválit  je  důležitá  dovednost
 
 - upřímnost,  přiměřenost,  přesná  formulace
 
-### **Konflikty  a  jejich  řešení**
+### Konflikty  a  jejich  řešení
 
 - konfliktem  je  každý  názorový  rozpor,  střet  protichůdných  tendencí
 
-### **Konflikty  na  pracovišti**
+### Konflikty  na  pracovišti
 
-### **•  Mobilizující  konflikty**
+### Mobilizující konflikty
 
 - mají  na  pracoviště  pozitivní  vliv  →  vedou  k  rozvoji  činnosti  a  jejímu  zkvalitnění
 
 - jde  o  prosazování  nových  metod  a  myšlenek
 
-### • **Destruktivní  konflikty**
+### Destruktivní konflikty
 
 - negativním  projevem  jednotlivce  nebo  celého  pracoviště,  důsledkem  osobních  šarvátek
 
 - nevedou  k  řešení  problémů  a  kazí  sociální  klima
 
-### **•  Vnitřní  konflikty**
+### Vnitřní konflikty
 
 - odehrávají  se  v  osobnosti  pracovníka  →  střetávají  se  zde  pozitivní/negativní  pohnutky  a  cíle
 
-### **•  Vnější  konflikty**
+### Vnější konflikty
 
 - jsou  konflikty  mezi  2  osobami
 
@@ -233,7 +233,7 @@ source: "Účetnictví/20. Komunikace - Dokumenty Google.pdf"
 
 - mezi  skupinami
 
-### **Řešení  konfliktů**
+### Řešení  konfliktů
 
 - manažer  musí  mít  dost  odvahy  konflikty  řešit  →  jinak  roste  napětí  a  klesá  produktivita  práce
 
@@ -243,7 +243,7 @@ source: "Účetnictví/20. Komunikace - Dokumenty Google.pdf"
 
 - zaznamenat  dohodnuté  postupy  a  vyzvat  obě  strany,  aby  podle  nich  postupovaly
 
-### **Diagnóza  konfliktu**
+### Diagnóza  konfliktu
 
 - kdo  se  konfliktu  účastní,  jaké  cíle  sleduje  a  jaké  jsou  jeho  charakteristické  rysy
 

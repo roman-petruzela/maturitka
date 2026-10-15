@@ -5,7 +5,7 @@ source: "uvt/cv20_CD_DVD_BR.pdf"
 ---
 UVT IT1
 
-# **CD - compact disc**
+# CD - compact disc
 
 Data uložena ve spirále od středu ke kraji.
 
@@ -17,7 +17,7 @@ Zápis je jen jednostranný.
 
 Běžné CD má průměr **12 cm** , existuje ale i menší varianta o průměru **8 cm** (občas se vyskytují i verze seříznuté na formát vizitky). Disk má **tloušťku 1,2 mm** . Avšak na disk se zapisuje pouze od 23 mm do 58 mm poloměru.
 
-## **Druhy:**
+## Druhy:
 
 Různé formáty CD byly postupně specifikovány ve standardech, označovaných anglicky jako „knihy“ různých barev:
 
@@ -41,7 +41,7 @@ Různé formáty CD byly postupně specifikovány ve standardech, označovaných
 
 Pro data na médiu se obvykle používá souborový systém **ISO 9660** . V případě **CD-RW** medií s přímým zápisem (packet writing) se může použít i novější formát **UDF** .
 
-## **Kapacita (velikost)**
+## Kapacita (velikost)
 
 - 30cm – analogový záznam, cca 60min - **Laserdisc**
 
@@ -53,7 +53,7 @@ Pro data na médiu se obvykle používá souborový systém **ISO 9660** . V př
 
 UVT IT1
 
-# **DVD - Digital Versatile Disc**
+# DVD - Digital Versatile Disc
 
 je formát digitálního optického datového nosiče, který může obsahovat filmy ve vysoké obrazové a zvukové kvalitě nebo jiná data. Při vývoji DVD byl kladen důraz na **zpětnou kompatibilitu s CD** , takže se mu DVD disk velmi podobá.
 
@@ -65,7 +65,7 @@ je formát digitálního optického datového nosiče, který může obsahovat f
 
 **DVD+R(W)** - DVD+RW Alliance - levnější
 
-## **Kapacita (velikost)**
+## Kapacita (velikost)
 
 Médium umožňuje **zápis** na **jednu** nebo **obě dvě strany** , v **jedné nebo dvou vrstvách** na každou stranu. Na počtu stran a vrstev závisí kapacita média.
 
@@ -81,7 +81,7 @@ Médium umožňuje **zápis** na **jednu** nebo **obě dvě strany** , v **jedn�
 
 UVT IT1
 
-## **Druhy:**
+## Druhy:
 
 DVD oproti CD poskytuje:
 
@@ -103,7 +103,7 @@ Uživatel může vytvořit DVD-nosiče těchto typů:
 
 Označení „+“ (plus) a „−“ (mínus) představuje dva různé technické standardy, které jsou do určité míry kompatibilní.
 
-### **_Existují tři typy:_**
+### Existují tři typy:
 
 - **DVD+R/RW** (R = Recordable, jen pro jeden zápis, RW = ReWritable, pro přepisování)
 
@@ -115,7 +115,7 @@ Označení „+“ (plus) a „−“ (mínus) představuje dva různé technick
 
 UVT IT1
 
-# **BR – Blu-ray disk**
+# BR – Blu-ray disk
 
 třetí generaci optických disků,
 
@@ -129,7 +129,7 @@ a tloušťku 1,2 mm
 
 UVT IT1
 
-## **Kapacita (velikost)**
+## Kapacita (velikost)
 
 - 25 GB u jednovrstvého disku
 
@@ -139,7 +139,7 @@ UVT IT1
 
 Maximální (standardní) rozlišení videa na Blu-ray je 3840×2160 bodů, v již standardním poměru 16:9.
 
-## **Druhy:**
+## Druhy:
 
 - **BD-ROM** – disk pouze pro čtení
 
@@ -159,7 +159,7 @@ Označení vrstev:
 
 **DL** - Dual Layer, označuje se dvouvrstvý disk
 
-### **_Typy Blu-ray disků_**
+### Typy Blu-ray disků
 
 Srovnání dle velikosti disku, průměru disku, počtu vrstev a paměťové kapacity. Označení
 

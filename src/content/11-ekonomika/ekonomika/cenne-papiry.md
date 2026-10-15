@@ -9,14 +9,14 @@ source: "Ekonomika/3. Cenné papíry.docx"
 __Druhy CP__
 
 1. __Podoba__
-	1. __Zaknihované__ CP – jsou zaevidovány v centrálním depozitáři \(účty majitelů nebo zákazníků\) CP – převažuje
+	1. __Zaknihované__ CP – jsou zaevidovány v centrálním depozitáři (účty majitelů nebo zákazníků) CP – převažuje
 	2. __Listinné__ CP – mají fyzickou podobu, předávají se z ruky do ruky
 2. __Právní__ __nárok__
-	1. __Úvěrové__ CP – patří sem dluhopisy \(obligace\) a majitel CP má právo na vrácení částky uvedené na CP a určité odměny
-	2. __Majetkové__ CP – akcie a majitel má právo na podíl na zisku; právo na řízení na podíl na likvidačním zůstat\.
-3. __Druhy: akcie; obligace \(dluhopisy\); šeky; směnky; hypoteční zástavní listy; pokladniční poukázky__
+	1. __Úvěrové__ CP – patří sem dluhopisy (obligace) a majitel CP má právo na vrácení částky uvedené na CP a určité odměny
+	2. __Majetkové__ CP – akcie a majitel má právo na podíl na zisku; právo na řízení na podíl na likvidačním zůstat.
+3. __Druhy: akcie; obligace (dluhopisy); šeky; směnky; hypoteční zástavní listy; pokladniční poukázky__
 4. __Převoditelnosti__
-	1. Na __jméno__ – převod tzv\. rubopisem
+	1. Na __jméno__ – převod tzv. rubopisem
 	2. Na __majitele__ – fyzické předání
 5. __Obchodovatelnosti__
 	1. __Obchodovatelné__ – některé akcie, směnky …
@@ -28,7 +28,7 @@ __Druhy CP__
 	1. __Peněžního__ trhu – do 1 roku
 	2. __Kapitálového__ trhu – nad 1 rok
 
-__Kapitálový \(Finanční\) trh__
+__Kapitálový (Finanční) trh__
 
 - Místo, kde se střetává dočasně volná nabídka a poptávky po peněžních a cenných papírech
 
@@ -38,17 +38,17 @@ __Druhy KT__
 - __Primární__ trh – CP, které jsou na trhu poprvé; __sekundární__ trh – už prošli primárním trhem
 - __Anonymní__ – nezná se prodávající a kupující; __osobní__ – prodávající a kupující se setká a dělí se na => __organizované__ – účastníkem je komerční banky; __neorganizované__ – účastníkem není komerční banka
 
-__Cenné papíry kapitálového trhu \(nad 1 rok\)__
+__Cenné papíry kapitálového trhu (nad 1 rok)__
 
 1. __Majetkové__
 
 - __Akcie__, majitel má právo na podíl na zisku, na řízení a na podíl na likvidačním zůstatku
 
-PLÁŠŤ
+## PLÁŠŤ
 
 - Vydávají je akciové společnosti, které mohou omezit jejich obchodovatelnost
 
-TALÓN
+## TALÓN
 
 - Zaknihované a listinné
 - Kmenové  akcie – bez zvláštních dodatečných práv; prioritní akce – majitel má přednostní právo na podíl do 90% základního kapitálu
@@ -84,19 +84,19 @@ K
 3. __Podnikové__ obligace – vydávají podniky na nákup DLHM
 4. __Bankovní__ obligace – používá je pro půjčky a úvěry
 
-__Cenné papíry peněžního trhu \(do 1 roku\)__
+__Cenné papíry peněžního trhu (do 1 roku)__
 
 - __Směnky__ jsou upraveny v šekovém a směnečném zákoně
 - Cenný papír ve kterém je uvedeno, kdy, kde a jaká částka bude zaplacena majiteli směnky
-- náležitosti: slovo směnka v textu, bezpodmínečný příkaz zaplaťte určitou částku, datum a místo vystavení, údaj o splatnosti, jméno hlavního směnečného dlužníka, směnečný věřitel \(komu zaplatit\), místo splatnosti, podpis výstavce
-- a\) __směnka cizí__ – za tuto směnku zaplaťte; b\) __vlastní směnka__ \- za tuto směnku zaplatím
+- náležitosti: slovo směnka v textu, bezpodmínečný příkaz zaplaťte určitou částku, datum a místo vystavení, údaj o splatnosti, jméno hlavního směnečného dlužníka, směnečný věřitel (komu zaplatit), místo splatnosti, podpis výstavce
+- a) __směnka cizí__ – za tuto směnku zaplaťte; b) __vlastní směnka__ - za tuto směnku zaplatím
 
 __Burza cenných papírů__
 
 - místo, kde se obchoduje v určitou dobu s určitým zbožím podle určitých pravidel; už od středověku
-- druhy : a\) __všeobecné__ – obchodujeme s jakýmkoliv zboží; b\) __specializované__ – 1\) __CP__ – Praha; 2\) __lodní__ __prostor__ – Hamburg; 3\) __devizové__ __prostředky__ – Frankfurt nad Mohanem; 4\) __komoditní__ – v Londýně
+- druhy : a) __všeobecné__ – obchodujeme s jakýmkoliv zboží; b) __specializované__ – 1) __CP__ – Praha; 2) __lodní__ __prostor__ – Hamburg; 3) __devizové__ __prostředky__ – Frankfurt nad Mohanem; 4) __komoditní__ – v Londýně
 
-__Burza Praha, a\. s\.__
+__Burza Praha, a. s.__
 
 - specializuje se na CP; součástí Evropské federace burz, takže na ni obchodují jak domácí, tak zahraniční investoři
 - majiteli CP jsou komerční banky a ČNB
@@ -104,14 +104,14 @@ __Burza Praha, a\. s\.__
 - právně je upravena zákonem o burzách, burzovním řádem, burzovní pravidla
 - na činnost burzy dohlíží burzovní komisař, kterého jmenuje MF
 
-__RM – systém burza, a\. s\.__
+__RM – systém burza, a. s.__
 
 - určena pro drobné investory s CP; obchoduje se 5 dní v týdnu; obchoduje velký objem obchodů; __dceřiná společnost Burzy CP Praha__
 - obchoduje v určitém cenovém pásu
 
 __Plodinová burza Brno a komoditní burza Praha__
 
-- obchodují s řepkou olejkou, ječmenem, pšenicí, žitem atd\.
+- obchodují s řepkou olejkou, ječmenem, pšenicí, žitem atd.
 
 __Českomoravská komoditní burza Kladno__
 
