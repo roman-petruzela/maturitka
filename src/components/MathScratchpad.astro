@@ -167,9 +167,33 @@ const PEN_WIDTHS = [
 </section>
 
 <script>
-	import 'mathlive';
 	import { Whiteboard, createFloatingNote } from '../lib/whiteboard';
 	import { findExercises, buildStatement, buildPreview, type Exercise } from '../lib/exercises';
+
+	type MathField = HTMLElement & { value: string; executeCommand?: (cmd: string) => void };
+
+	// MathLive is ~800 kB of script and only the result field needs it, so it is fetched once that
+	// field comes near the viewport or the reader reaches for it — not on every math page load.
+	// Nothing may touch the field's properties before then: a `value` set on the not yet defined
+	// element would shadow MathLive's own accessor once it upgrades.
+	let mathlive: Promise<unknown> | null = null;
+	const loadMathlive = () => (mathlive ??= import('mathlive'));
+	const isMathFieldReady = () => customElements.get('math-field') !== undefined;
+
+	function whenMathFieldNeeded(bar: HTMLElement, ready: () => void): void {
+		const load = () => loadMathlive().then(ready);
+		const io = new IntersectionObserver(
+			(entries) => {
+				if (!entries.some((e) => e.isIntersecting)) return;
+				io.disconnect();
+				load();
+			},
+			{ rootMargin: '600px 0px' }
+		);
+		io.observe(bar);
+		bar.addEventListener('pointerdown', load, { once: true });
+		bar.addEventListener('focusin', load, { once: true });
+	}
 
 	function initScratchpads() {
 		const sections = document.querySelectorAll<HTMLElement>('[data-scratchpad]');
@@ -181,9 +205,7 @@ const PEN_WIDTHS = [
 			const fullscreenBtn = section.querySelector<HTMLButtonElement>('[data-whiteboard-fullscreen]');
 			const eraserBtn = section.querySelector<HTMLButtonElement>('[data-whiteboard-eraser]');
 			const clearToolbarBtn = section.querySelector<HTMLButtonElement>('[data-whiteboard-clear-toolbar]');
-			const resultField = section.querySelector('[data-scratchpad-result]') as
-				| (HTMLElement & { value: string; executeCommand?: (cmd: string) => void })
-				| null;
+			const resultField = section.querySelector<MathField>('[data-scratchpad-result]');
 			const keyboardBtn = section.querySelector('[data-scratchpad-keyboard]') as HTMLButtonElement | null;
 			if (!whiteboardRoot || !canvas || !canvasWrap || !resultField) return;
 
@@ -227,9 +249,10 @@ const PEN_WIDTHS = [
 				if (hint) hint.style.display = 'none';
 			}
 
-			const savedResult = localStorage.getItem(keys.result);
-			if (savedResult) resultField.value = savedResult;
-
+			whenMathFieldNeeded(resultField.closest<HTMLElement>('.scratchpad-result-bar') ?? resultField, () => {
+				const savedResult = localStorage.getItem(keys.result);
+				if (savedResult) resultField.value = savedResult;
+			});
 			resultField.addEventListener('input', () => {
 				if (resultField.value) localStorage.setItem(keys.result, resultField.value);
 				else localStorage.removeItem(keys.result);
@@ -237,7 +260,7 @@ const PEN_WIDTHS = [
 
 			const clearAll = () => {
 				board.clear();
-				resultField.value = '';
+				if (isMathFieldReady()) resultField.value = '';
 				localStorage.removeItem(keys.result);
 			};
 			// lives only inside the whiteboard toolbar (not the scratchpad
@@ -293,9 +316,10 @@ const PEN_WIDTHS = [
 			// virtual-keyboard-policy is "manual" (no auto-popup on every
 			// focus), so give an explicit toggle button for the result field
 			keyboardBtn?.addEventListener('click', () => {
-				resultField.focus();
-				// @ts-ignore - MathLive custom element method
-				resultField.executeCommand?.('toggleVirtualKeyboard');
+				loadMathlive().then(() => {
+					resultField.focus();
+					resultField.executeCommand?.('toggleVirtualKeyboard');
+				});
 			});
 
 			// Tasks in the article get a "⇥ tabule" button next to them, and are
