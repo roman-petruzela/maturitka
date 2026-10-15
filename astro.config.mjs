@@ -1,6 +1,7 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
+import { unified } from '@astrojs/markdown-remark';
 import { rehypeMath } from './src/lib/markdown/rehype-math.ts';
 import { rehypeSpoiler } from './src/lib/markdown/rehype-spoiler.ts';
 import { rehypeReconNote } from './src/lib/markdown/rehype-recon-note.ts';
@@ -19,7 +20,17 @@ export default defineConfig({
 	site: 'https://maturitka.petruze.la',
 	integrations: [sitemap()],
 	markdown: {
-		remarkPlugins: [remarkLineBreaks, remarkProtectMath, remarkGraph, remarkGeometry, remarkSolid, remarkTimeline, remarkFormulas],
-		rehypePlugins: [rehypeMath, rehypeSpoiler, rehypeReconNote, rehypeAuthorPortrait, rehypeRozborLink],
+		processor: unified({
+			remarkPlugins: [
+				remarkLineBreaks,
+				remarkProtectMath,
+				remarkGraph,
+				remarkGeometry,
+				remarkSolid,
+				remarkTimeline,
+				remarkFormulas,
+			],
+			rehypePlugins: [rehypeMath, rehypeSpoiler, rehypeReconNote, rehypeAuthorPortrait, rehypeRozborLink],
+		}),
 	},
 });

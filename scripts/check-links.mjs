@@ -118,7 +118,9 @@ async function main() {
 	}
 
 	if (brokenCount === 0) {
-		console.log(`OK — checked ${checkedCount} internal links across ${files.length} pages, none broken (fragments included).`);
+		console.log(
+			`OK — checked ${checkedCount} internal links across ${files.length} pages, none broken (fragments included).`
+		);
 		return;
 	}
 

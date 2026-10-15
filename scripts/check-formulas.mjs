@@ -69,7 +69,8 @@ for (let i = 0; i < lines.length; i++) {
 		const items = (spec.sections ?? [{ items: spec.items ?? [] }]).flatMap((s) => s.items);
 		for (const item of items) {
 			if (item.tex) check(item.tex, `"${item.label ?? '?'}"`);
-			for (const f of [...dollars(item.label ?? ''), ...dollars(item.note ?? '')]) check(f, `"${item.label ?? '?'}" (label/note)`);
+			for (const f of [...dollars(item.label ?? ''), ...dollars(item.note ?? '')])
+				check(f, `"${item.label ?? '?'}" (label/note)`);
 		}
 		i = end;
 	} else if (lines[i].startsWith('|')) {

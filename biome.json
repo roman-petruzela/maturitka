@@ -1,0 +1,60 @@
+{
+	"$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
+	"files": {
+		"includes": [
+			"src/**",
+			"scripts/**",
+			"tests/**",
+			"*.mjs",
+			"*.ts",
+			"!src/content",
+			"!scripts/manifest",
+			"!scripts/.venv",
+			"!**/*.py"
+		]
+	},
+	"formatter": {
+		"indentStyle": "tab",
+		"lineWidth": 120
+	},
+	"javascript": {
+		"formatter": {
+			"quoteStyle": "single",
+			"trailingCommas": "es5"
+		}
+	},
+	"linter": {
+		"enabled": true,
+		"rules": {
+			"preset": "recommended",
+			"style": {
+				"noNonNullAssertion": "off",
+				"useTemplate": "off",
+				"noDescendingSpecificity": "off",
+				"useExponentiationOperator": "off"
+			},
+			"complexity": {
+				"noImportantStyles": "off"
+			},
+			"suspicious": {
+				"noAssignInExpressions": "off"
+			}
+		}
+	},
+	"assist": {
+		"enabled": false
+	},
+	"overrides": [
+		{
+			"includes": ["**/*.astro"],
+			"linter": {
+				"rules": {
+					"correctness": {
+						"noUnusedVariables": "off",
+						"noUnusedImports": "off"
+					}
+				}
+			}
+		}
+	]
+}

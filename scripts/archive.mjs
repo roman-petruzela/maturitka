@@ -24,7 +24,10 @@ export function toReal(p) {
 
 /** real path (relative to the archive root) → alias path */
 export function toAlias(p) {
-	return swapPrefix(p, Object.entries(aliases).map(([a, r]) => [r, a]));
+	return swapPrefix(
+		p,
+		Object.entries(aliases).map(([a, r]) => [r, a])
+	);
 }
 
 /** what a page shows as its source: the alias path without its "archiv-N/" root */
