@@ -6,10 +6,12 @@
 
 import { readFile, writeFile, mkdir, mkdtemp, rm } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
+import { createHash } from 'node:crypto';
 import path from 'node:path';
 import os from 'node:os';
 import { execFile } from 'node:child_process';
 import { promisify } from 'node:util';
+import JSZip from 'jszip';
 import mammoth from 'mammoth';
 import { displaySource, toReal } from './archive.mjs';
 
@@ -40,28 +42,88 @@ function stripLeadingTitleLine(md) {
 }
 
 function cleanMarkdown(md) {
-	return stripLeadingTitleLine(
-		fixEmphasisWhitespace(
-			md
-				.replace(/\r\n/g, '\n')
-				// drop embedded base64 images (mammoth inlines them as data URIs, which
-				// can blow up a text-only study note to several MB for no benefit here)
-				.replace(/!\[[^\]]*\]\(data:[^)]+\)/g, '*(obrázek vynechán)*')
-		)
-	)
-		.replace(/[ \t]+\n/g, '\n')
-		.replace(/\n{3,}/g, '\n\n')
-		.trim() + '\n';
+	return (
+		stripLeadingTitleLine(fixEmphasisWhitespace(md.replace(/\r\n/g, '\n')))
+			.replace(/[ \t]+\n/g, '\n')
+			.replace(/\n{3,}/g, '\n\n')
+			.trim() + '\n'
+	);
 }
 
 function yamlString(value) {
 	return JSON.stringify(value);
 }
 
+// ── Images ───────────────────────────────────────────────────────────────────
+// The pictures of a document are saved under public/images/content/<dest>/NN.webp and put into the
+// page as <img> with the width the picture had in Word (a 12 pt formula picture must not be blown up
+// to the full column). mammoth gives no sizes, so the sizes are read from the document XML and
+// matched to mammoth's images by the hash of the picture's bytes.
+
+const EMU_PER_PX = 9525;
+const UNIT_PX = { pt: 96 / 72, in: 96, px: 1, cm: 96 / 2.54, mm: 96 / 25.4 };
+
+/** sha1 of each embedded picture → its widths in px, in document order */
+async function pictureWidths(docxPath) {
+	const zip = await JSZip.loadAsync(await readFile(docxPath));
+	const rels = (await zip.file('word/_rels/document.xml.rels')?.async('string')) ?? '';
+	const target = new Map();
+	for (const rel of rels.match(/<Relationship\b[^>]*>/g) ?? []) {
+		const id = /Id="([^"]+)"/.exec(rel)?.[1];
+		const to = /Target="([^"]+)"/.exec(rel)?.[1];
+		if (id && to) target.set(id, path.posix.normalize(path.posix.join('word', to)));
+	}
+	const xml = (await zip.file('word/document.xml')?.async('string')) ?? '';
+	const widths = new Map();
+	for (const [el] of xml.matchAll(
+		/<w:drawing>.*?<\/w:drawing>|<w:pict[ >].*?<\/w:pict>|<w:object[ >].*?<\/w:object>/gs
+	)) {
+		const id = /r:embed="([^"]+)"/.exec(el)?.[1] ?? /<v:imagedata\b[^>]*r:id="([^"]+)"/.exec(el)?.[1];
+		const file = id && target.has(id) ? zip.file(target.get(id)) : null;
+		if (!file) continue;
+		const hash = createHash('sha1')
+			.update(await file.async('nodebuffer'))
+			.digest('hex');
+		let width = null;
+		const extent = /<wp:extent cx="(\d+)"/.exec(el);
+		if (extent) width = Math.round(Number(extent[1]) / EMU_PER_PX);
+		else {
+			const style = /<v:shape\b[^>]*style="([^"]*)"/.exec(el)?.[1] ?? '';
+			const m = /width:([\d.]+)(pt|in|px|cm|mm)?/.exec(style);
+			if (m) width = Math.round(Number(m[1]) * UNIT_PX[m[2] ?? 'px']);
+		}
+		widths.set(hash, [...(widths.get(hash) ?? []), width]);
+	}
+	return widths;
+}
+
+/** Writes one picture as WebP (max 1400 px wide); vector Office pictures are rendered by LibreOffice first. */
+async function savePicture(buf, contentType, outFile, tmpDir) {
+	let ext = (contentType.split('/')[1] ?? 'bin').replace(/^x-/, '');
+	const raw = path.join(tmpDir, `picture.${ext}`);
+	await writeFile(raw, buf);
+	let input = raw;
+	if (ext === 'emf' || ext === 'wmf') {
+		await execFileAsync('soffice', ['--headless', '--convert-to', 'png', '--outdir', tmpDir, raw]);
+		input = path.join(tmpDir, 'picture.png');
+		ext = 'png';
+	}
+	await mkdir(path.dirname(outFile), { recursive: true });
+	await execFileAsync('magick', [input, '-resize', '1400x>', '-quality', '82', '-define', 'webp:method=6', outFile]);
+}
+
+// alt texts that say nothing: search-engine captions, file names, Word's automatic descriptions
+const JUNK_ALT =
+	/^(Výsledek obrázku|Související obrázek|Obsah obrázku|Obrázek, který obsahuje|A picture containing)|\.(png|jpe?g|gif|bmp|tiff?|emf|wmf)$/i;
+
+function escapeAttr(s) {
+	return s.replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;');
+}
+
 function buildFrontmatter({ title, order, tags, source }) {
 	const lines = ['---', `title: ${yamlString(title)}`];
 	if (order != null) lines.push(`order: ${order}`);
-	if (tags && tags.length) lines.push(`tags: [${tags.map(yamlString).join(', ')}]`);
+	if (tags?.length) lines.push(`tags: [${tags.map(yamlString).join(', ')}]`);
 	if (source) lines.push(`source: ${yamlString(source)}`);
 	lines.push('---', '');
 	return lines.join('\n');
@@ -71,14 +133,7 @@ async function toDocx(srcAbsPath, tmpDir) {
 	const ext = path.extname(srcAbsPath).toLowerCase();
 	if (ext === '.docx') return srcAbsPath;
 	// .doc / .odt: use headless LibreOffice to get a .docx mammoth can read
-	await execFileAsync('soffice', [
-		'--headless',
-		'--convert-to',
-		'docx',
-		'--outdir',
-		tmpDir,
-		srcAbsPath,
-	]);
+	await execFileAsync('soffice', ['--headless', '--convert-to', 'docx', '--outdir', tmpDir, srcAbsPath]);
 	const base = path.basename(srcAbsPath, ext);
 	const converted = path.join(tmpDir, `${base}.docx`);
 	if (!existsSync(converted)) {
@@ -92,14 +147,7 @@ async function forceResave(srcAbs, tmpDir) {
 	// files mammoth can't read directly (e.g. a list referencing a numId
 	// with no matching numbering definition, "Cannot read properties of
 	// undefined (reading 'numId')")
-	await execFileAsync('soffice', [
-		'--headless',
-		'--convert-to',
-		'docx:MS Word 2007 XML',
-		'--outdir',
-		tmpDir,
-		srcAbs,
-	]);
+	await execFileAsync('soffice', ['--headless', '--convert-to', 'docx:MS Word 2007 XML', '--outdir', tmpDir, srcAbs]);
 	const base = path.basename(srcAbs, path.extname(srcAbs));
 	const converted = path.join(tmpDir, `${base}.docx`);
 	if (!existsSync(converted)) throw new Error(`LibreOffice re-save did not produce ${converted}`);
@@ -109,16 +157,45 @@ async function forceResave(srcAbs, tmpDir) {
 async function convertOne(item, tmpDir) {
 	const srcAbs = path.join(REPO_ROOT, toReal(item.src));
 	const destAbs = path.join(WEB_ROOT, 'src', 'content', item.dest);
-	const docxPath = await toDocx(srcAbs, tmpDir);
+	let docxPath = await toDocx(srcAbs, tmpDir);
+	const pageDir = item.dest.replace(/\.md$/, '');
+	const pictures = [];
+	const convert = async (input) => {
+		pictures.length = 0;
+		const widths = await pictureWidths(input);
+		const used = new Map();
+		const options = {
+			convertImage: mammoth.images.imgElement(async (image) => {
+				const buf = await image.readAsBuffer();
+				const hash = createHash('sha1').update(buf).digest('hex');
+				const nth = used.get(hash) ?? 0;
+				used.set(hash, nth + 1);
+				const list = widths.get(hash) ?? [];
+				const n = String(pictures.length + 1).padStart(2, '0');
+				const src = `/images/content/${pageDir}/${n}.webp`;
+				await savePicture(buf, image.contentType, path.join(WEB_ROOT, 'public', src), tmpDir);
+				pictures.push({ src, width: list[nth] ?? list.at(-1) ?? null });
+				return { src };
+			}),
+		};
+		return mammoth.convertToMarkdown({ path: input }, options);
+	};
 	let markdown, messages;
 	try {
-		({ value: markdown, messages } = await mammoth.convertToMarkdown({ path: docxPath }));
-	} catch (err) {
+		({ value: markdown, messages } = await convert(docxPath));
+	} catch {
 		// malformed-numbering docx files mammoth can't parse directly — retry
 		// once against a LibreOffice-normalized copy
-		const resaved = await forceResave(srcAbs, tmpDir);
-		({ value: markdown, messages } = await mammoth.convertToMarkdown({ path: resaved }));
+		docxPath = await forceResave(srcAbs, tmpDir);
+		({ value: markdown, messages } = await convert(docxPath));
 	}
+	// a picture becomes an <img> with the width it had in Word
+	const widthOf = new Map(pictures.map((p) => [p.src, p.width]));
+	markdown = markdown.replace(/!\[([^\]]*)\]\((\/images\/content\/[^)]+)\)/g, (_m, alt, src) => {
+		const text = JUNK_ALT.test(alt.trim()) ? '' : alt.replace(/\s+/g, ' ').trim();
+		const width = widthOf.get(src);
+		return `<img src="${src}" alt="${escapeAttr(text)}"${width ? ` width="${width}"` : ''} loading="lazy" decoding="async">`;
+	});
 	const warnings = messages.filter((m) => m.type === 'warning');
 	await mkdir(path.dirname(destAbs), { recursive: true });
 	const frontmatter = buildFrontmatter({
@@ -139,9 +216,7 @@ async function main() {
 	}
 	const fullManifest = JSON.parse(await readFile(manifestPath, 'utf-8'));
 	const supported = new Set(['.docx', '.doc', '.odt']);
-	const manifest = fullManifest.filter((item) =>
-		supported.has(path.extname(item.src).toLowerCase())
-	);
+	const manifest = fullManifest.filter((item) => supported.has(path.extname(item.src).toLowerCase()));
 	const skipped = fullManifest.length - manifest.length;
 	const tmpDir = await mkdtemp(path.join(os.tmpdir(), 'maturitka-docx-'));
 	let ok = 0;

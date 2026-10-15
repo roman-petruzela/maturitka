@@ -14,8 +14,21 @@ const REPO_ROOT = path.resolve(WEB_ROOT, '..');
 const ARCHIVE = path.join(REPO_ROOT, toReal('archiv-1'));
 
 const DIACRITICS_MAP = {
-	á: 'a', č: 'c', ď: 'd', é: 'e', ě: 'e', í: 'i', ň: 'n', ó: 'o', ř: 'r',
-	š: 's', ť: 't', ú: 'u', ů: 'u', ý: 'y', ž: 'z',
+	á: 'a',
+	č: 'c',
+	ď: 'd',
+	é: 'e',
+	ě: 'e',
+	í: 'i',
+	ň: 'n',
+	ó: 'o',
+	ř: 'r',
+	š: 's',
+	ť: 't',
+	ú: 'u',
+	ů: 'u',
+	ý: 'y',
+	ž: 'z',
 };
 
 function slugify(input) {
@@ -124,7 +137,12 @@ async function buildCJ() {
 	// literatura — literární historie a teorie (období, směry, autoři)
 	const literatura = [
 		{
-			src: path.join(ARCHIVE, 'ČESKÝ JAZYK - VŠE', 'Literární skupiny a období', 'lit skupiny, období _pojmyMZ2020.docx'),
+			src: path.join(
+				ARCHIVE,
+				'ČESKÝ JAZYK - VŠE',
+				'Literární skupiny a období',
+				'lit skupiny, období _pojmyMZ2020.docx'
+			),
 			title: 'Literární skupiny a období — přehled pojmů',
 			order: 1,
 		},
@@ -136,12 +154,7 @@ async function buildCJ() {
 	// mluvnice — jazyková a literární teorie potřebná k rozboru textu
 	const mluvnice = [
 		{
-			src: path.join(
-				ARCHIVE,
-				'ČESKÝ JAZYK - VŠE',
-				'Český jazyk - Mluvnice ',
-				'Literární druhy a žánry.docx'
-			),
+			src: path.join(ARCHIVE, 'ČESKÝ JAZYK - VŠE', 'Český jazyk - Mluvnice ', 'Literární druhy a žánry.docx'),
 			title: 'Literární druhy a žánry',
 			order: 1,
 		},
@@ -305,9 +318,7 @@ async function buildMAT() {
 	const IT2M_ORDER = { IT2M_1: 100, IT2M_2: 101, IT2M_3: 102 };
 	let mat1Files;
 	try {
-		mat1Files = (await readdir(mat1Dir)).filter(
-			(f) => /\.(pdf|docx|doc|odt|pptx)$/i.test(f) && !MAT1_SKIP.has(f)
-		);
+		mat1Files = (await readdir(mat1Dir)).filter((f) => /\.(pdf|docx|doc|odt|pptx)$/i.test(f) && !MAT1_SKIP.has(f));
 	} catch {
 		mat1Files = [];
 	}
@@ -327,7 +338,7 @@ async function buildMAT() {
 			});
 			continue;
 		}
-		const title = base.replace(/[_\-]+/g, ' ').replace(/\s+/g, ' ').trim();
+		const title = base.replace(/[_-]+/g, ' ').replace(/\s+/g, ' ').trim();
 		vyrazyGroup.push({ src: relSrc(path.join(mat1Dir, f)), title });
 	}
 	vyrazyGroup.sort((a, b) => a.title.localeCompare(b.title, 'cs'));
@@ -409,7 +420,7 @@ const IT_CATEGORY_BY_PREFIX = {
 	'20. a 25. PowerPoint': 'aplikace-na-pc',
 	'21. - 24. Word': 'aplikace-na-pc',
 	'Datové-sítě': 'pocitacove-site',
-	'Tech': 'uvod-do-vypocetni-techniky',
+	Tech: 'uvod-do-vypocetni-techniky',
 	DAT_I: 'databazove-systemy',
 	'DAT_I-praktikum': 'databazove-systemy',
 	RTR_CMD: 'pocitacove-site',
@@ -462,12 +473,14 @@ const SITE_PDF_FILES = [
 // Generic scanner for a flat folder of source files that should all land in
 // one category, sorted alphabetically (stable, and matches how the files
 // were named by whoever dropped them in) unless a title override is given.
-async function scanPlainFolder(dir, category, { titleOverride = {}, skip = new Set(), startPriority = 100, order = [] } = {}) {
+async function scanPlainFolder(
+	dir,
+	category,
+	{ titleOverride = {}, skip = new Set(), startPriority = 100, order = [] } = {}
+) {
 	let files;
 	try {
-		files = (await readdir(dir)).filter(
-			(f) => /\.(pdf|docx|doc|odt|pptx)$/i.test(f) && !skip.has(f)
-		);
+		files = (await readdir(dir)).filter((f) => /\.(pdf|docx|doc|odt|pptx)$/i.test(f) && !skip.has(f));
 	} catch {
 		return [];
 	}
@@ -485,7 +498,7 @@ async function scanPlainFolder(dir, category, { titleOverride = {}, skip = new S
 	return files.map((f, i) => {
 		const ext = path.extname(f);
 		const base = path.basename(f, ext);
-		const fallback = base.replace(/[_\-]+/g, ' ').replace(/\s+/g, ' ').trim();
+		const fallback = base.replace(/[_-]+/g, ' ').replace(/\s+/g, ' ').trim();
 		const title =
 			titleOverride[f] ??
 			titleOverride[base] ??
@@ -557,7 +570,8 @@ const ROBOTIKA_ORDER = [
 ];
 const UVT_DIR = path.join(REPO_ROOT, 'uvt');
 const UVT_SKIP = new Set([
-	'ZZ_UVT_IT1_2023_2024_Martiník.xlsx',
+	// a one-page handout merged by hand into the mainboard page (08-zakladni-deska-mainboard.md)
+	'T03_zakladni_deska.pdf',
 	// Both badly garbled by PPTX text-box reading order (a floating "časová osa"
 	// timeline decoration interleaves mid-sentence throughout) and redundant —
 	// T02_Historie_Vypocetni_techniky.pdf covers the same history cleanly.
@@ -569,7 +583,6 @@ const UVT_SKIP = new Set([
 // filenames; titles below come from the "Název:"/first-slide text of each.
 const GRAFIKA_DIR = path.join(REPO_ROOT, 'grafika');
 const GRAFIKA_SKIP = new Set([
-	'GRA_IT1_2023_2024_Martinik.xlsx',
 	// duplicate drafts of the same "Pohyb po křivce" deck — keep only the plain one
 	'VY_32_INOVACE_3224_16-1.pdf',
 	'VY_32_INOVACE_3224_16-2.pdf',
@@ -650,11 +663,11 @@ const OSY_SKIP = new Set([
 	'Rozjeď samba server.docx',
 ]);
 const OSY_TITLE = {
-	'plán': 'Tematický plán (přehled látky)',
-	'základní_pojmy': 'Základní pojmy (hardware, software)',
+	plán: 'Tematický plán (přehled látky)',
+	základní_pojmy: 'Základní pojmy (hardware, software)',
 	'Úvod_do _operačních_systémů': 'Úvod do operačních systémů',
 	Historie_OS: 'Historie operačních systémů',
-	'Operační_systémy': 'Operační systémy',
+	Operační_systémy: 'Operační systémy',
 	Licence: 'Licence a autorský zákon',
 	'příkazový řádek': 'Příkazový řádek (cmd)',
 	'práce se sítí': 'Práce se sítí (příkazy)',
@@ -672,8 +685,7 @@ const OSY_TITLE = {
 	práce_s_disky: 'Práce s disky',
 	'pevný_disk_a_nástroje pro údržbu': 'Pevný disk a nástroje pro údržbu',
 	RAID: 'RAID',
-	'použití stínové kopie svazku_pevne odkazy_diskové kvoty':
-		'Stínové kopie svazku, pevné odkazy, diskové kvóty',
+	'použití stínové kopie svazku_pevne odkazy_diskové kvoty': 'Stínové kopie svazku, pevné odkazy, diskové kvóty',
 	shadow_copy: 'Shadow copy (anglický text k procvičení)',
 	'Stínové kopie svazku': 'Stínové kopie svazku — praktické využití',
 	Zálohování_dat: 'Zálohování dat',
@@ -685,8 +697,8 @@ const OSY_TITLE = {
 	Malware: 'Malware',
 	opakování_viry: 'Opakování — viry a malware',
 	firewall: 'Firewall',
-	'Úlohy': 'Úlohy — práce se soubory a složkami 1',
-	'Úlohy2': 'Úlohy — práce se soubory a složkami 2',
+	Úlohy: 'Úlohy — práce se soubory a složkami 1',
+	Úlohy2: 'Úlohy — práce se soubory a složkami 2',
 	zadani: 'Zadání — práce se soubory',
 	úkol1: 'Úkol — uživatelé a skupiny 1',
 	'úkol 2': 'Úkol — uživatelé a skupiny 2',
@@ -697,7 +709,7 @@ const OSY_TITLE = {
 	samostatné_úkoly: 'Samostatné úkoly',
 	Ubuntu_závěrečná_práce: 'Ubuntu — závěrečná práce',
 	'Závěrečné opakování': 'Závěrečné opakování',
-	'opakování': 'Opakování (kvíz)',
+	opakování: 'Opakování (kvíz)',
 };
 // Curated reading order (theory intro → linux/CLI → user & AD management →
 // storage/backup → networking → security → practical exercises at the end),
@@ -763,8 +775,7 @@ async function buildIT() {
 		const base = path.basename(f, ext);
 		const m = base.match(/^(\d+)[.\s]/);
 		const originalOrder = m ? Number(m[1]) : undefined;
-		const title =
-			IT_TITLE_OVERRIDE[base] ?? base.replace(/^[\d.\-\sa]+(?=[A-ZÁ-Ž])/u, '').trim() ?? base;
+		const title = IT_TITLE_OVERRIDE[base] ?? base.replace(/^[\d.\-\sa]+(?=[A-ZÁ-Ž])/u, '').trim() ?? base;
 		raw.push({
 			src: relSrc(path.join(dir, f)),
 			title,
@@ -884,7 +895,11 @@ async function buildSimpleSubject(dir, subjectKey, { skip = new Set(), category 
 		const base = path.basename(f, ext);
 		const m = base.match(/^(\d+)[.\-_]/);
 		const order = m ? Number(m[1]) : undefined;
-		const title = base.replace(/^(\d+)[.\-_]\s*/, '').replace(/[_\-]+/g, ' ').replace(/\s+/g, ' ').trim();
+		const title = base
+			.replace(/^(\d+)[.\-_]\s*/, '')
+			.replace(/[_-]+/g, ' ')
+			.replace(/\s+/g, ' ')
+			.trim();
 		const cased = title ? title[0].toLocaleUpperCase('cs') + title.slice(1) : title;
 		const catPart = category ? `${category}/` : '';
 		let dest = `${subjectKey}/${catPart}${slugify(cased)}.md`;
@@ -990,10 +1005,7 @@ async function main() {
 	};
 	for (const [subject, build] of Object.entries(builders)) {
 		const items = await build();
-		await writeFile(
-			path.join(manifestDir, `${subject}.json`),
-			JSON.stringify(items, null, 2) + '\n'
-		);
+		await writeFile(path.join(manifestDir, `${subject}.json`), JSON.stringify(items, null, 2) + '\n');
 		console.log(`${subject}: ${items.length} položek`);
 	}
 }

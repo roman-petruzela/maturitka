@@ -606,12 +606,6 @@
     "order": 21
   },
   {
-    "src": "uvt/T03_zakladni_deska.pdf",
-    "dest": "it/uvod-do-vypocetni-techniky/22-zakladni-deska.md",
-    "title": "Základní deska",
-    "order": 22
-  },
-  {
     "src": "uvt/T04_CPU.pdf",
     "dest": "it/uvod-do-vypocetni-techniky/23-cpu-procesor.md",
     "title": "CPU (procesor)",
@@ -685,38 +679,38 @@
   },
   {
     "src": "robotika1.pol/cv09a_skener_sbernice_I2C.pdf",
-    "dest": "it/robotika/10-skener-sbernice-i2c.md",
+    "dest": "it/robotika/11-skener-sbernice-i2c.md",
     "title": "Skener sběrnice I2C",
-    "order": 10
-  },
-  {
-    "src": "robotika1.pol/cv09b_I2C_LCD_displej.pdf",
-    "dest": "it/robotika/11-i2c-lcd-displej.md",
-    "title": "I2C LCD displej",
     "order": 11
   },
   {
-    "src": "robotika1.pol/cv10_teplota_LCD_displej.pdf",
-    "dest": "it/robotika/12-teplota-na-lcd-displeji.md",
-    "title": "Teplota na LCD displeji",
+    "src": "robotika1.pol/cv09b_I2C_LCD_displej.pdf",
+    "dest": "it/robotika/12-i2c-lcd-displej.md",
+    "title": "I2C LCD displej",
     "order": 12
   },
   {
-    "src": "robotika1.pol/cv11_Sedmisegmentovy_displej.pdf",
-    "dest": "it/robotika/13-sedmisegmentovy-displej.md",
-    "title": "Sedmisegmentový displej",
+    "src": "robotika1.pol/cv10_teplota_LCD_displej.pdf",
+    "dest": "it/robotika/13-teplota-na-lcd-displeji.md",
+    "title": "Teplota na LCD displeji",
     "order": 13
   },
   {
-    "src": "robotika1.pol/cv12_4mistny_segmentovy_displej.pdf",
-    "dest": "it/robotika/14-4mistny-segmentovy-displej.md",
-    "title": "4místný segmentový displej",
+    "src": "robotika1.pol/cv11_Sedmisegmentovy_displej.pdf",
+    "dest": "it/robotika/14-sedmisegmentovy-displej.md",
+    "title": "Sedmisegmentový displej",
     "order": 14
   },
   {
-    "src": "robotika1.pol/cv13_LEDmatice8x8.pdf",
-    "dest": "it/robotika/15-led-matice-8-8.md",
-    "title": "LED matice 8×8",
+    "src": "robotika1.pol/cv12_4mistny_segmentovy_displej.pdf",
+    "dest": "it/robotika/15-4mistny-segmentovy-displej.md",
+    "title": "4místný segmentový displej",
     "order": 15
+  },
+  {
+    "src": "robotika1.pol/cv13_LEDmatice8x8.pdf",
+    "dest": "it/robotika/16-led-matice-8-8.md",
+    "title": "LED matice 8×8",
+    "order": 16
   }
 ]
