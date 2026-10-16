@@ -30,7 +30,7 @@ Počítačová síť vzniká propojením dvou a více počítačů prostřednict
 
 **Koaxiální („souosý“) kabel** má uprostřed měděný **vnitřní vodič**, kolem něj izolant (**dielektrikum**), pak **vnější vodič** ve tvaru opletení nebo fólie, který slouží zároveň jako stínění, a nakonec ochranný **plášť**. Oba vodiče mají společnou osu – odtud název. Na rozdíl od kroucené dvoulinky je **nesymetrický** (vodiče nejsou rovnocenné).
 
-((obrázek vynechán))
+<img src="/images/content/it/pocitacove-site/pasivni-sitove-prvky-a-kabelaz/01.webp" alt="Řez koaxiálním kabelem" width="560" loading="lazy" decoding="async">
 
 - Varianty podle přenosu: v **základním pásmu** nese jediný kanál (jednu zprávu), v **přeloženém pásmu** několik analogových signálů současně (kabelová televize, přibližně 50–750 MHz, dosah kilometry).
 - **Tlustý koax** (průměr asi 1 cm, žlutý, 10BASE5, segment 500 m) a **tenký koax** (asi 0,5 cm, 10BASE2, segment 185 m, konektory **BNC**, T-odbočky a terminátory 50 Ω).
@@ -100,7 +100,7 @@ Páry jsou barevně rozlišeny: **oranžový, zelený, modrý a hnědý**; v ka�
 - **Křížený kabel** (crossover) má na jednom konci zapojení A a na druhém B. Při 10 a 100 Mb/s vysílá stanice piny 1, 2 a přijímá piny 3, 6, takže křížení prohodí vysílací a přijímací pár. Používal se pro spojení zařízení stejného typu: počítač – počítač, switch – switch. Gigabitový Ethernet využívá všechny čtyři páry, křížený kabel pro něj proto kříží všechny páry.
 - Dnešní síťové karty a switche mají funkci **Auto-MDI-X** – samy rozpoznají typ kabelu a překřížení zajistí elektronicky, takže křížený kabel už většinou není potřeba.
 
-((obrázek vynechán))
+<img src="/images/content/it/pocitacove-site/pasivni-sitove-prvky-a-kabelaz/02.webp" alt="Zapojení T-568A a T-568B na koncích kříženého kabelu" width="414" loading="lazy" decoding="async">
 
 ## Optický kabel
 

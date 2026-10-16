@@ -98,7 +98,7 @@ Základní hlavička je **co nejjednodušší a má pevnou délku 40 bajtů**, t
 | Source Address | 128 | adresa odesílatele |
 | Destination Address | 128 | adresa příjemce |
 
-((obrázek vynechán))
+<img src="/images/content/it/pocitacove-site/ipv6-adresovani/01.webp" alt="Řetězení rozšiřujících hlaviček IPv6" width="530" loading="lazy" decoding="async">
 
 Volitelné údaje se přenášejí v **rozšiřujících hlavičkách** zřetězených za základní hlavičkou pomocí pole Next Header: informace pro routery po cestě (Hop-by-Hop), směrování, **fragmentace**, volby pro cílovou stanici, autentizace a **šifrování** (IPsec AH a ESP).
 
