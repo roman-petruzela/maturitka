@@ -319,6 +319,6 @@ N
 
 V
 
-N<img src="/images/content/ekonomika/ekonomie/marketing-2/02.webp" alt="" width="28" loading="lazy" decoding="async">
+N
 
 V

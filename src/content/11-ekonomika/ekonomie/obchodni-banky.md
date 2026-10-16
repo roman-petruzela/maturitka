@@ -42,7 +42,7 @@ Klient může ručit:
 
 __Výpočet úroku:__
 
-<img src="/images/content/ekonomika/ekonomie/obchodni-banky/01.webp" alt="" width="450" loading="lazy" decoding="async">
+$$\text{úrok} = \frac{\text{jistina} \cdot \text{sazba} \cdot \text{čas}}{100 \cdot 360}$$
 
 Jistina = *K* = kapitál
 

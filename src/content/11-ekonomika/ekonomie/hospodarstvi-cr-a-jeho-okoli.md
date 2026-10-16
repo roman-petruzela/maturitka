@@ -21,7 +21,7 @@ __Oblasti hlavní činnosti__
 
 Opravy
 
-Peněžní a pojišťovací služby<img src="/images/content/ekonomika/ekonomie/hospodarstvi-cr-a-jeho-okoli/01.webp" alt="" width="143" loading="lazy" decoding="async">
+Peněžní a pojišťovací služby
 
 Pošty a telekomunikace
 
