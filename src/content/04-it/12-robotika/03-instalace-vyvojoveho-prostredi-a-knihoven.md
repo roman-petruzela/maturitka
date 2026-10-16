@@ -18,11 +18,17 @@ source: "robotika1.pol/cv02_Instalace_vyvojoveho_prostredi+knihovny.pdf"
 
 Přejděte na web Arduino.cc a v sekci „Software“ nalezněte oddíl „Download“. Stáhněte ZIP soubor (viz. obrázek níže), který následně rozbalte na disk C:\ do podadresáře SW nebo se svým příjmením.
 
+<img src="/images/content/it/robotika/instalace-vyvojoveho-prostredi-a-knihoven/01.webp" alt="Stažení Arduino IDE" width="643" loading="lazy" decoding="async">
+
 _Obrázek 1: Stažení Arduino IDE_
+
+<img src="/images/content/it/robotika/instalace-vyvojoveho-prostredi-a-knihoven/02.webp" alt="Instalace Arduino IDE do C:\SW" width="354" loading="lazy" decoding="async">
 
 _Obrázek 2: Instalace Arduino IDE do C:\SW_
 
 V dalším kroku přejdeme do adresáře „arduino-1.8.16“; nalezneme soubor „arduino.exe“ a vytvoříme si odkaz na ploše (obrázek 3).
+
+<img src="/images/content/it/robotika/instalace-vyvojoveho-prostredi-a-knihoven/03.webp" alt="Vytvoření odkazu na Ploše" width="432" loading="lazy" decoding="async">
 
 _Obrázek 3: Vytvoření odkazu na Ploše_
 
@@ -32,15 +38,19 @@ Než spustíme Adruino IDE, tak domovské složce uživatele např: „ **C:\Use
 
 Nyní můžeme prvně spustit Arduino IDE.
 
+<img src="/images/content/it/robotika/instalace-vyvojoveho-prostredi-a-knihoven/04.webp" alt="První spuštění Arduino IDE" width="200" loading="lazy" decoding="async">
+
 _Obrázek 4: První spuštění Arduino IDE_
 
 Případně ještě povolte na firewallu Javaw.exe
+
+<img src="/images/content/it/robotika/instalace-vyvojoveho-prostredi-a-knihoven/05.webp" alt="Povolení Javaw.exe na firewallu" width="319" loading="lazy" decoding="async">
 
 _Obrázek 5: Povolení Javaw.exe na firewallu_
 
 ## Seznámení se s prostředím Arduino IDE
 
-((obrázek vynechán))
+<img src="/images/content/it/robotika/instalace-vyvojoveho-prostredi-a-knihoven/08.webp" alt="Části prostředí Arduino IDE" width="640" loading="lazy" decoding="async">
 
 - Hlavní menu – práce se soubory a nastavení vývojového prostředí
 - Sada ikon pro rychlou práci s programem
@@ -48,6 +58,8 @@ _Obrázek 5: Povolení Javaw.exe na firewallu_
 - Pole s chybovými hláškami a dalšími informacemi
 
 ### Význam ikon
+
+<img src="/images/content/it/robotika/instalace-vyvojoveho-prostredi-a-knihoven/06.webp" alt="Význam Ikon Arduino IDE" width="332" loading="lazy" decoding="async">
 
 _Obrázek 6: Význam Ikon Arduino IDE_
 

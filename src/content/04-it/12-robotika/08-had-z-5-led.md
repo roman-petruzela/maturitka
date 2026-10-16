@@ -24,9 +24,6 @@ Oba dva nejdříve předají svoji hodnotu, a pak dojde k jejich úpravě.
 ```
 x++  //zvyšuje hodnotu proměnné o 1
 y--//snižuje  hodnotu proměnné o 1
-```
-
-```
 x = 10;
 x++; //x ma nyni hodnotu 11
 x--;
@@ -60,9 +57,6 @@ Příklad 1 – ukázka cyklu
 
 ```
 boolean x = true;
-```
-
-```
 void setup() {
   Serial.begin(9600);
   while(x){
@@ -70,9 +64,6 @@ void setup() {
     x = false; //cyklus se tedy provede jednou
   }
 }
-```
-
-```
 void loop() {
 }
 ```
@@ -81,9 +72,6 @@ Příklad 2 – výpis všech čísel od 0 do 99
 
 ```
 byte x = 0;
-```
-
-```
 void setup() {
  Serial.begin(9600);
    while(x < 100){
@@ -91,13 +79,7 @@ void setup() {
     x++;
    }
 }
-```
-
-```
 void loop() {
-```
-
-```
 }
 ```
 
@@ -107,9 +89,6 @@ Cyklus s podmínkou na konci. Prvně se provedou všechny příkazy v těle cykl
 
 ```
 do{
-```
-
-```
  prikazy...
 }while (podminky); //<""vsimneme si, ze je zde na konci cyklu
 strednik " ten zde musi byt
@@ -119,9 +98,6 @@ Příklad 1 – ukázka cyklu
 
 ```
 boolean x = true;
-```
-
-```
 void setup() {
  Serial.begin(9600);
  do{
@@ -166,13 +142,7 @@ void setup() {
    Serial.println(i);
  }
 }
-```
-
-```
 void loop() {
-```
-
-```
  }
 ```
 
@@ -196,32 +166,36 @@ void loop() {
 
 Dle obrázku:
 
+<img src="/images/content/it/robotika/had-z-5-led/01.webp" alt="Zapojení" width="569" loading="lazy" decoding="async">
+
 ## Program
 
 Do Arduino IDE vložíme kód programu a nahrajeme jej do Arduina:
 
-```
-byte led[] = {2,3,4,5,6}; //piny s LED diodami
-byte pocet = 5; //pocet diod
-int rychlost = 1000; //jakou prodlevu maji jednotliva bliknuti
-```
+```cpp
 
-```
+byte led[] = {2,3,4,5,6,7,8}; //piny s LED diodou
+ 
+
+byte pocet = 7; //pocet diod
+int rychlost = 400; //prodleva bliknuti
+bool zpatky = false;
+
 void setup() {
   for(int i = 0; i < pocet; i++){
-    pinMode(led[i], OUTPUT); //nastaveni pinu
+    pinMode(led[i],OUTPUT);
   }
 }
-void loop() {
- for(int i = 0; i < pocet; i++){
-   digitalWrite(led[i], HIGH);
-   delay(rychlost/2);
-   digitalWrite(led[i], LOW);
-   delay(rychlost/2);
-  }
-```
 
-```
+void loop() {
+ 
+ for(int i = pocet; i >= 0; i--){
+  digitalWrite(led[i], HIGH);
+  delay(rychlost);
+  digitalWrite(led[i], LOW);
+  delay(rychlost);
+  
+  }  
 }
 ```
 

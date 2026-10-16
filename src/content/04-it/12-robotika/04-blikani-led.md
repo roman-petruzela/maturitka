@@ -38,27 +38,29 @@ source: "robotika1.pol/cv03_Blikani_LED.pdf"
 
 Dle obrázku:
 
+<img src="/images/content/it/robotika/blikani-led/01.webp" alt="Zapojení blikající LED" width="257" loading="lazy" decoding="async">
+
 _Obrázek 1: Zapojení blikající LED_
 
 ## Program
 
 Do Arduino IDE vložíme kód programu a nahrajeme jej do Arduina:
 
-```
+```cpp
+const int pinLED = 12;
+
 void setup() {
-```
-
-```
-  pinMode(12,OUTPUT);      //nastav pin 12 jako vystup
+  // put your setup code here, to run once:
+  pinMode(pinLED, OUTPUT); // nastav pin pinLED jako výstup
 }
-void loop() {
-  digitalWrite(12,HIGH);  //na pinu 12 pust proud
-  delay(1000);            //pockej 1000 ms = 1 s
-  digitalWrite(12,LOW);   //na pinu 12 vypni proud
-  delay(1000);
-```
 
-```
+void loop() {
+  // put your main code here, to run repeatedly:
+  digitalWrite(pinLED,HIGH);  //na pin pinLED pust proud
+  delay(500);            // cekej 1000 ms
+
+  digitalWrite(pinLED,LOW);   //na pin pinLED vypni proud
+  delay(1000);
 }
 ```
 

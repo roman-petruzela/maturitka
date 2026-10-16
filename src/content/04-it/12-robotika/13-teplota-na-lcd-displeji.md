@@ -28,6 +28,10 @@ Zobrazte na LCD displeji údaje o teplotě a vlhkosti. Pro připojení čidla m�
 
 ## Zapojení
 
+<img src="/images/content/it/robotika/teplota-na-lcd-displeji/01.webp" alt="Zapojení čidla DHT11 a LCD displeje" width="640" loading="lazy" decoding="async">
+
+<img src="/images/content/it/robotika/teplota-na-lcd-displeji/02.webp" alt="Zapojení" width="276" loading="lazy" decoding="async">
+
 ### <u>LCD panelu na I2C:</u>
 
 |I2C LCD1602|Arduino UNO|
@@ -49,59 +53,54 @@ Zobrazte na LCD displeji údaje o teplotě a vlhkosti. Pro připojení čidla m�
 
 Do Arduino IDE vložíme kód programu a nahrajeme jej do Arduina:
 
-```
+```cpp
+
 #include <DHT.h>
 #include <LiquidCrystal_I2C.h>
-#include <Wire.h>
-```
+#include <Wire.h> 
 
-```
 #define DHTTYPE DHT11   // DHT 11
 #define DHTPIN 4       //pin cteni dat z DHT11
-LiquidCrystal_I2C lcd(0x27,16,2);
-```
 
-```
+LiquidCrystal_I2C lcd(0x27,16,2);  
+
 DHT dht(DHTPIN, DHTTYPE);  //vytvořit objekt třídy dht
-```
 
-```
 void setup() {
-Serial.begin(9600); // spustit sériový monitor na 9600
-bps
-lcd.init();  // inicializace lcd
-lcd.backlight();  // zapnout podsvícení
+	Serial.begin(9600); 	// spustit sériový monitor na 9600 bps
+	lcd.init();  			// inicializace lcd 
+	lcd.backlight();  		// zapnout podsvícení
   dht.begin();
 }
+
 void loop() {
   delay(2000);
-lcd.setCursor(0, 0);
+
+	lcd.setCursor(0, 0);
+	  
   float vlhkost = dht.readHumidity();         //vlhkosti
   float teplota = dht.readTemperature();      //teplota
+
   if (isnan(vlhkost) || isnan(teplota)) {
     Serial.println(F("Chyba pri cteni z DHT senzoru!"));
     return;
   }
-```
-
-```
-delay(500);
-// zobrazit data
-lcd.clear();
-lcd.setCursor(0, 0);
-lcd.print("Teplota:");
-lcd.print(teplota,1); // zobrazit teplotu na displeji
-//  lcd.print(dht.readTemperature(),1);   // zobrazit teplotu na
-displeji
-lcd.print(char(223));// zobrazit znak "°"
-lcd.print("C");
-lcd.setCursor(0, 1);
-lcd.print("Vlhkost:");
-lcd.print(vlhkost,1); //zobrazit vlhkost na displeji
-//  lcd.print(dht.readHumidity(),1);    //zobrazit vlhkost na
-displeji
-lcd.print(" %");
-delay(300);// počkat 300 ms
+  
+	delay(500);
+	// zobrazit data
+	lcd.clear();
+	lcd.setCursor(0, 0);
+	lcd.print("Teplota:");
+	lcd.print(teplota,1); 	// zobrazit teplotu na displeji
+//  lcd.print(dht.readTemperature(),1);   // zobrazit teplotu na displeji
+	lcd.print(char(223));			// zobrazit znak "°"
+	lcd.print("C");	
+	lcd.setCursor(0, 1);
+	lcd.print("Vlhkost:");
+	lcd.print(vlhkost,1); 		//zobrazit vlhkost na displeji
+//  lcd.print(dht.readHumidity(),1);    //zobrazit vlhkost na displeji
+	lcd.print(" %"); 
+	delay(300);						// počkat 300 ms
 }
 ```
 

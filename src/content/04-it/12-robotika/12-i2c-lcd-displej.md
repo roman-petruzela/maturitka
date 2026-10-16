@@ -37,9 +37,15 @@ Dle obrázku:
 |SDA|A4|
 |SCL|A5|
 
+<img src="/images/content/it/robotika/i2c-lcd-displej/01.webp" alt="Zapojení LCD displaye na Arduino na sběrnici I2C" width="356" loading="lazy" decoding="async">
+
 _Obrázek 1: Zapojení LCD displaye na Arduino na sběrnici I2C_
 
+<img src="/images/content/it/robotika/i2c-lcd-displej/02.webp" alt="Připojení Arduina na LCD display – Zadní strana" width="475" loading="lazy" decoding="async">
+
 _Obrázek 2: Připojení Arduina na LCD display – Zadní strana_
+
+<img src="/images/content/it/robotika/i2c-lcd-displej/03.webp" alt="LCD disply - Přední strana" width="403" loading="lazy" decoding="async">
 
 _Obrázek 3: LCD disply - Přední strana_
 
@@ -57,39 +63,50 @@ Staženou knihovnu „ _LiquidCrystal_I2C.zip_ “ rozbalte do adresáře:
 
 Do Arduino IDE vložíme kód programu a nahrajeme jej do Arduina:
 
-```
-#include <Wire.h>
+```cpp
+/*
+ * Progrm LCD panel - tisk textu s posunem
+ */
+
+#include <Wire.h> 
 #include <LiquidCrystal_I2C.h>
-```
 
-```
-char array1[]=" Ahoj Arduino!            ";// první řádek
-displeje (26 znaků!)
-char array2[]=" Ahoj ajtaci!             ";// druhý řádek
-displeje (26 znaků!)
-```
+char array1[]=" Ahoj Arduino!            ";	// první řádek displeje (26 znaků!)
+char array2[]=" Ahoj ajtaci!             ";	// druhý řádek displeje (26 znaků!)
+int tim = 500;                    //délka pauzy 
 
-### `int tim = 500;  //délka pauzy`
+                                   // inicializace knihovny displeje 
+LiquidCrystal_I2C lcd(0x27,16,2);			// nastavit adresu displeje na 0x27 pro 1602 displej 
 
-|**`// inicializace knihovny displeje`**<br>**`LiquidCrystal_I2C lcd(0x27,16,2);`**<br>**`//`**<br>**`displeje na 0x27 pro 1602 displej`**|**`nastavit adresu`**|
-|---|---|
-|**`void setup() {`**<br>**`lcd.init();`**|**`//`**|
-|**`inicializace lcd`**<br>**`lcd.backlight();`**|**`//`**|
-|**`zapnout podsvícení`**<br>**`}`**||
-|**`void loop() {`**<br>**`lcd.setCursor(15,0);`**|**`//`**|
-|**`nastavení kurzoru na sloupec 15, řádek 0`**<br>**`for (int positionCounter1 = 0; positionCou`**|**`nter1 < 26;`**|
-|**`positionCounter1++) {`**<br>||
-|**`lcd.scrollDisplayLeft();`**<br> <br>**`obsah zprávy na displeji zprava do leva.`**<br>**`lcd.print(array1[positionCounter1]);/`**<br>**`displeji.`**<br>**`delay(tim);`**<br>|**`// Protáhnout`**<br>**`/ Zobrazit zprávu na`**<br>**`//`**|
-|**`počkat 500 ms`**<br>**`}`**<br>**`lcd.clear();`**|**`//`**|
-|**`vyčistit displej a přesunout kurzor na začátek.`**<br>**`lcd.setCursor(15,1);`**|<br>**`//`**|
-|**`nastavení kurzoru na sloupec 15, řádek 1`**<br>**`for (int positionCounter = 0; positionCoun`**|**`ter < 26;`**|
-|**`positionCounter++) {`**<br>**`lcd.scrollDisplayLeft();`**<br> <br>**`obsah zprávy na displeji zprava do leva.`**<br>**`lcd.print(array2[positionCounter]);`**<br>**`zprávu na displeji.`**<br>**`delay(tim);`**|**`// protáhnout`**<br>**`// zobrazit`**<br>**`//`**|
-|**`počkat 500 ms`**<br>**`}`**<br>**`lcd.clear();`**|**`//`**|
-|**`vyčistit displej a přesunout kurzor na začátek.`**<br>**`}`**||
+void setup() {
+	lcd.init();								          // inicializace lcd
+	lcd.backlight();						        // zapnout podsvícení 
+}
+
+void loop() {
+    lcd.setCursor(15,0);					      // nastavení kurzoru na sloupec 15, řádek 0
+	for (int positionCounter1 = 0; positionCounter1 < 26; positionCounter1++) {
+		lcd.scrollDisplayLeft();			    // Protáhnout obsah zprávy na displeji zprava do leva.
+		lcd.print(array1[positionCounter1]);// Zobrazit zprávu na displeji.
+		delay(tim);							          // počkat 500 ms
+	}
+    lcd.clear();							          // vyčistit displej a přesunout kurzor na začátek. 
+	lcd.setCursor(15,1);					      // nastavení kurzoru na sloupec 15, řádek 1
+	for (int positionCounter = 0; positionCounter < 26; positionCounter++) {
+		lcd.scrollDisplayLeft();			    // protáhnout obsah zprávy na displeji zprava do leva.
+		lcd.print(array2[positionCounter]);	// zobrazit zprávu na displeji.
+		delay(tim);							          // počkat 500 ms
+	}
+	lcd.clear();							          // vyčistit displej a přesunout kurzor na začátek.
+							          // vyčistit displej a přesunout kurzor na začátek.
+}
+```
 
 Po spuštění programu se na LCD displeji objeví posunující se text.
 
 Pokud nejde na displeji nic vidět, tak je potřeba změnit nastavení odporového trimru (modrý čtverec) na spodní straně displeje.
+
+<img src="/images/content/it/robotika/i2c-lcd-displej/04.webp" alt="Kontrola podsvícení LCD displeje" width="403" loading="lazy" decoding="async">
 
 _Obrázek 4: Kontrola podsvícení LCD displeje_
 

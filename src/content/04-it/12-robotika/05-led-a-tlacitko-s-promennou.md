@@ -73,16 +73,10 @@ Je podobná jako u běžné proměnné – datový typ, jméno, velikost pole a 
 ```
 //pole muzeme deklarovat nekolika zpusoby
 int jmeno[6]; //deklarace pole s sesti bunkami, u takto
-```
-
-```
 //deklarovaneho pole musi byt uvedena velikost
 int jmeno[] = {2, 3, 4, 5}; //prvky v poli oddelujeme carkami
 int jmeno[4] = {2, 3, 4, 5}; //v tomto pripade velikost pole uvest
 muzeme, ale nemusime
-```
-
-```
 //zvlastnim typem pole je pole znaku (nazyvane retezec " string)
 //umoznuje totiz specificky zpusob prirazeni hodnoty
 char jmeno[15]; //deklarace retezce
@@ -106,7 +100,7 @@ a[5]; //prvek s indexem 5 ma hodnotu 11
 
 Vstupy a výstupy nazýváme piny a jsou určené pro další rozšiřování Arduina.
 
-K nastavení pinu slouæí funkce:
+K nastavení pinu slouží funkce:
 
 ```
 pinMode(cislo_pinu, INPUT/OUTPUT);
@@ -140,9 +134,6 @@ K detekci napětí na pinu se používá funkce **digitalRead()** .
 ```
 int cteni;
 byte vstup = 13;
-```
-
-```
 cteni = digitalRead(vstup); //pokud proud tece, do promenne cteni
 se ulozi hodnota HIGH, pokud ne, tak LOW
 ```
@@ -171,23 +162,30 @@ se ulozi hodnota HIGH, pokud ne, tak LOW
 
 Dle obrázku:
 
+<img src="/images/content/it/robotika/led-a-tlacitko-s-promennou/01.webp" alt="Zapojení tlačítka a LED diody" width="296" loading="lazy" decoding="async">
+
 _Obrázek 1: Zapojení tlačítka a LED diody_
 
 ## Program
 
 Do Arduino IDE vložíme kód programu a nahrajeme jej do Arduina:
 
-```
+```cpp
+
 int cteni;
 int led = 6;
 int tlacitko = 12;
+
 void setup() {
- pinMode(led, OUTPUT);
- pinMode(tlacitko, INPUT);
+  // put your setup code here, to run once:
+  pinMode(led, OUTPUT);
+  pinMode(tlacitko, INPUT);
 }
+
 void loop() {
- cteni = digitalRead(tlacitko);
- digitalWrite(led, cteni);
+  // put your main code here, to run repeatedly:
+  cteni = digitalRead(tlacitko);
+  digitalWrite(led, cteni);
 }
 ```
 

@@ -37,7 +37,11 @@ Dle obrázku:
 |SDA|A4|
 |SCL|A5|
 
+<img src="/images/content/it/robotika/skener-sbernice-i2c/01.webp" alt="Zapojení LCD displaye na Arduino na sběrnici I2C" width="531" loading="lazy" decoding="async">
+
 _Obrázek 1: Zapojení LCD displaye na Arduino na sběrnici I2C_
+
+<img src="/images/content/it/robotika/skener-sbernice-i2c/02.webp" alt="Připojení Arduina na LCD display" width="532" loading="lazy" decoding="async">
 
 _Obrázek 2: Připojení Arduina na LCD display_
 
@@ -45,90 +49,57 @@ _Obrázek 2: Připojení Arduina na LCD display_
 
 Do Arduino IDE vložíme kód programu a nahrajeme jej do Arduina:
 
-```
+```cpp
 #include <Wire.h>
-```
-
-```
+ 
 void setup() {
-Wire.begin();
-Serial.begin(9600);
-while (!Serial);               // počkat na sériový monitor
-Serial.println("\nI2C Skener");
-```
-
-```
+	Wire.begin();
+	Serial.begin(9600);
+	while (!Serial);               // Leonardo: počkat na sériový monitor
+	Serial.println("\nI2C Skener");
 }
-```
 
-```
 void loop() {
-byte error, address;
-```
+	byte error, address;
+	int nDevices;
 
-```
-int nDevices;
-```
+	Serial.println("Skenování...");
 
-```
-Serial.println("Skenování...");
-```
-
-```
-nDevices = 0;
-for(address = 1; address < 127; address++ ){
-// i2c_skener používá vrácenou hodnotu
-// Write.endTransmisstion pro zjištění,
-// zda zařízení potvrdilo adresu.
-Wire.beginTransmission(address);
-error = Wire.endTransmission();
-```
-
-```
-if (error == 0){
-```
-
-```
-Serial.print("I2C zařízení nalezeno na adrese 0x");
-if (address<16)
-Serial.print("0");
-Serial.print(address,HEX);
-Serial.println("  !");
-```
-
-```
-nDevices++;
-} else if (error==4) {
-Serial.print("Neznámá chyba na adrese 0x");
-if (address<16)
-Serial.print("0");
-Serial.println(address,HEX);
-```
-
-```
-}
-```
-
-```
-}
-```
-
-```
-if (nDevices == 0)
-Serial.println("Žádné I2C zařízení nenalezeno\n");
-else
-Serial.println("Hotovo\n");
-```
-
-```
-delay(5000);               // počkat 5 vteřin
-```
-
-```
+	nDevices = 0;
+	for(address = 1; address < 127; address++ )	{
+		// i2c_skener používá vrácenou hodnotu
+		// Write.endTransmisstion pro zjištění,
+		// zda zařízení potvrdilo adresu.
+		Wire.beginTransmission(address);
+		error = Wire.endTransmission();
+		
+		if (error == 0)	{
+			Serial.print("I2C zařízení nalezeno na adrese 0x");
+			if (address<16)
+				Serial.print("0");
+			Serial.print(address,HEX);
+			Serial.println("  !");
+		
+			nDevices++;
+		} else if (error==4) {
+			Serial.print("Neznámá chyba na adrese 0x");
+			if (address<16)
+				Serial.print("0");
+			Serial.println(address,HEX);
+		}    
+	}
+	if (nDevices == 0)
+	Serial.println("Žádné I2C zařízení nenalezeno\n");
+	else
+	Serial.println("Hotovo\n");
+	
+	delay(5000);               // počkat 5 vteřin
 }
 ```
 
 PO spuštění programu se na sériovém monitoru objeví nalezené zařízení a jeho adresa.
+
+<img src="/images/content/it/robotika/skener-sbernice-i2c/03.webp" alt="Výstup na sérovém monitoru" width="643" loading="lazy" decoding="async">
 
 _Obrázek 3: Výstup na sérovém monitoru_
 

@@ -58,6 +58,8 @@ Pro skutečnou analogovou hodnotu potřebujeme D/A převodník.
 
 PWM v praxi funguje tak, že se rychle střídá 0 V a 5 V.
 
+<img src="/images/content/it/robotika/led-a-potenciometr/01.webp" alt="PWM modulace" width="233" loading="lazy" decoding="async">
+
 _Obrázek 1: PWM modulace_
 
 ### Vstup
@@ -90,26 +92,24 @@ _Obrázek 1: PWM modulace_
 
 Dle obrázku:
 
+<img src="/images/content/it/robotika/led-a-potenciometr/02.webp" alt="Zapojení LED a potenciometru" width="470" loading="lazy" decoding="async">
+
 ## Program
 
 Do Arduino IDE vložíme kód programu a nahrajeme jej do Arduina:
 
-```
-byte led = 6;  //pin s LED diodou
+```cpp
+
+byte led = 6; //pin s LED diodou
 byte pot = A0; //pin s pripojenym potenciometrem
-int val;       //promenna pripravena k uchovani hodnot
-```
+int val; //promenna pripravena k uchovani hodnot
 
-```
 void setup() {
- //sem nic nepiseme
- }
-```
+//sem nic nepiseme
+}
 
-#### `void loop() {`
-
-```
- val = analogRead(pot)/4; //cteni hodnoty na A0 a uprava rozsahu
+void loop() {
+ val = analogRead(pot)/25; //cteni hodnoty na A0 a uprava rozsahu
  analogWrite(led, val); //generovani PWM
 }
 ```

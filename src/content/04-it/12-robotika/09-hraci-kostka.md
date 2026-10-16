@@ -23,9 +23,6 @@ void setup() {
  Serial.begin(9600);
  randomSeed(analogRead(A0));
 }
-```
-
-```
 void loop() {
  Serial.println(random(256));
  delay(500);
@@ -58,13 +55,66 @@ Pomocí funkce **_random()_** si vytvoříme jednoduchou hrací kostku. Výslede
 
 Dle obrázku:
 
+<img src="/images/content/it/robotika/hraci-kostka/01.webp" alt="Zapojení hrací kostky" width="549" loading="lazy" decoding="async">
+
 nebo s kontaktním polem:
+
+<img src="/images/content/it/robotika/hraci-kostka/02.webp" alt="Zapojení hrací kostky na kontaktním poli" width="640" loading="lazy" decoding="async">
 
 ## Program
 
 Vše zapojíme podle obrázku. Není důležité, na jaký pin připojíme jakou LED diodu. Vše se dá jednoduše upravit v programu.
 
 Před uploadem programu do Arduina musíme upravit pole s informacemi o tom, na jaké piny jsou připojeny LED a tlačítko. Jedná se o pole **leds[]** a proměnnou **tlacitko** . Led diody na kostce jsou očíslovány následovně (číslo LED odpovídá jejímu indexu v poli). Stáhněte zdrojový soubor programu „ **cv07b_hraci_kostka.ino** “. Do Arduino IDE vložíme kód programu a nahrajeme jej do Arduina.
+
+```cpp
+byte leds[7] = {2,3,4,5,6,7,8}; //piny, na ktere jsou pripojeny LED 
+//index odpovida cislu na predchozim obrazku
+
+//logicke stavy LED pouzitych u jednotlivych cisel
+byte cisla[7][7] = {{}, /*prazdne pole - 0 se nezobrazuje*/
+                    {0,0,0,1,0,0,0}, /*1*/
+                    {1,0,0,0,0,0,1}, /*2*/
+                    {1,0,0,1,0,0,1}, /*3*/
+                    {1,0,1,0,1,0,1}, /*4*/
+                    {1,0,1,1,1,0,1}, /*5*/
+                    {1,1,1,0,1,1,1}}; /*6*/
+
+byte tlacitko = 9; //pin s tlacitkem
+
+byte randn; //promenna pro nahodnou hodnotu
+ 
+void setup() {
+  Serial.begin(9600);  
+  randomSeed(analogRead(A0)); //inicializace generatoru
+  for(int i = 0; i <= 6; i++){
+    pinMode(leds[i], OUTPUT);
+    digitalWrite(leds[i], HIGH); //kontrola funkce LED
+  }
+  pinMode(tlacitko, INPUT);
+  delay(1000);
+  for(int i = 0; i <= 7; i++){
+    digitalWrite(leds[i], LOW); //vypnuti vsech LED
+  }
+}
+ 
+void loop() {
+  if(digitalRead(tlacitko) == 1){
+    for(int i = 0; i <= 7; i++){
+      digitalWrite(leds[i], LOW); //vypnuti vsech LED
+    }
+    randn = random(1,7);
+    
+    for(int i = 0; i <= 6; i++){
+      if(cisla[randn][i] == 1){
+        digitalWrite(leds[i],HIGH);  
+      } 
+    }
+    
+    delay(1000);
+  } 
+}
+```
 
 ## Úkol:
 

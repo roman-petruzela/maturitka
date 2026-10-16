@@ -38,7 +38,9 @@ Odpor ve fotorezistoru se mění na základě intenzity dopadajícího světla. 
 
 _Obrázek 3: Schéma zapojení fotorezistoru_
 
-((obrázek vynechán — Obrázek 4: Zapojení fotorezistoru))
+<img src="/images/content/it/robotika/fotorezistor/04.webp" alt="Zapojení fotorezistoru" width="440" loading="lazy" decoding="async">
+
+_Obrázek 4: Zapojení fotorezistoru_
 
 ## Program
 Program „**Fotorezistor.ino**“ vložíme do Arduino IDE a nahrajeme jej do Arduina. Posviťte na fotorezistor a uvidíte několik LED, jak se rozsvítí. Posviťte více a rozsvítí se LED o to víc. Jakmile fotorezistor postavíte do tmy, všechna LED zhasnou.

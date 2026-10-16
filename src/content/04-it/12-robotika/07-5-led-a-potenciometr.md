@@ -46,9 +46,6 @@ Používají se logické operátory pro spojení s jednoduchých podmínek.
 (1 == 2) || (2 == 2) //true
 (2 == 2) || (2 == 3) //true
 (2 == 2) || (3 == 3) //true
-```
-
-```
 !(1 == 1) //false
 !(1 == 2) //true
 !(false) //true
@@ -59,14 +56,8 @@ Používají se logické operátory pro spojení s jednoduchých podmínek.
 ```
 //podminky s jednim prikazem
 if(x > 120) digitalWrite(LEDpin, HIGH);
-```
-
-```
 if(x > 120)
  digitalWrite(LEDpin, HIGH);
-```
-
-```
 if(x > 120){ digitalWrite(LEDpin, HIGH); }
 ```
 
@@ -85,9 +76,6 @@ if(x > 120){
 
 ```
 if (A >= 500){
-```
-
-```
   //prikazy
 }
 else {
@@ -111,15 +99,9 @@ else if ((A < 500) && (A > 200)){
 ```
 switch (promenna){
 case 1:
-```
-
-```
  //pokud je hodnota promenne 1, provede se tato cast kodu
  break; //po provedeni teto casti konstrukce switch konci
 case 2:
-```
-
-```
  //pokud je hodnota promenne 2, provede se tato cast kodu
 case 3:
   //provede se i tato část kódu
@@ -151,69 +133,59 @@ default:
 
 Dle obrázku:
 
+<img src="/images/content/it/robotika/5-led-a-potenciometr/01.webp" alt="Zapojení" width="386" loading="lazy" decoding="async">
+
 ## Program
 
 Do Arduino IDE vložíme kód programu a nahrajeme jej do Arduina:
 
-```
-byte led[] = {0,1,2,3,4}; //pole s piny pripojenych LED diod
+```cpp
+
+//byte led[] = {0,1,2,3,4}; //pole s piny pripojenych LED diod
+byte led[] = {2,3,4,5,6,}; //pole s piny pripojenych LED diod
 byte pot = A0;
 int val;
-```
 
-### `void setup() {`
-
-```
-pinMode(led[0], OUTPUT);
-pinMode(led[1], OUTPUT);
-pinMode(led[2], OUTPUT);
-pinMode(led[3], OUTPUT);
-pinMode(led[4], OUTPUT);
-```
-
-```
+void setup() {
+  pinMode(led[0], OUTPUT);
+  pinMode(led[1], OUTPUT);
+  pinMode(led[2], OUTPUT);
+  pinMode(led[3], OUTPUT);
+  pinMode(led[4], OUTPUT);
+  pinMode(led[5], OUTPUT);
+  
 }
-```
 
-```
 void loop() {
-val = analogRead(pot);
-```
-
-```
-if(val > 800){
-digitalWrite(led[0],HIGH);
-}
-else if(val > 600){
-digitalWrite(led[1],HIGH);
-```
-
-```
-}
-else if(val > 400){
-digitalWrite(led[2],HIGH);
-```
-
-```
-}
-else if(val > 200){
-digitalWrite(led[3],HIGH);
-}
-else{
-digitalWrite(led[4],HIGH);
-}
-```
-
-```
-delay(250);
-digitalWrite(led[0],LOW);
-digitalWrite(led[1],LOW);
-digitalWrite(led[2],LOW);
-digitalWrite(led[3],LOW);
-digitalWrite(led[4],LOW);
-```
-
-```
+  val = analogRead(pot);
+  if(val > 800){
+    digitalWrite(led[0],HIGH);
+  }
+  else if(val > 600){
+   digitalWrite(led[1],HIGH);
+  }
+  else if(val > 450){
+    digitalWrite(led[2],HIGH);
+  }
+  else if(val > 300){
+   digitalWrite(led[3],HIGH);
+  }
+  else if(val > 150){
+   digitalWrite(led[4],HIGH);
+  }
+  else{
+   digitalWrite(led[5],HIGH);
+  }
+ 
+  delay(500);
+  digitalWrite(led[0],LOW);
+  digitalWrite(led[1],LOW);
+  digitalWrite(led[2],LOW);
+  digitalWrite(led[3],LOW);
+  digitalWrite(led[4],LOW);
+  digitalWrite(led[5],LOW);
+  
+  
 }
 ```
 
