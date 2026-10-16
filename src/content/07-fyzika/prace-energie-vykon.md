@@ -25,13 +25,15 @@ W = F · s · cos α
 
   Δ Wi = Fi · Δs
 
-<img src="/images/content/fyzika/prace-energie-vykon/03.webp" alt="" width="288" loading="lazy" decoding="async">
+$$W = \sum_{i=1}^{n} \mathrm{d}W_i = \sum_{i=1}^{n} F_i \cdot \mathrm{d}s = \int_{s_1}^{s_2} F \cdot \mathrm{d}s$$
 
 ## Výkon
 
 - __Výkon__ je skalární fyzikální veličina:
 
-<img src="/images/content/fyzika/prace-energie-vykon/04.webp" alt="" width="342" loading="lazy" decoding="async">
+$$P = \frac{W}{t}$$
+
+Jednotka: [P] = N · m · s⁻¹ = W (watt)
 
  = __průměrný výkon__
 
@@ -42,7 +44,7 @@ W = F · s · cos α
 
  \->  ve W, t v s -> W \* s (wattsekunda)
 
-<img src="/images/content/fyzika/prace-energie-vykon/05.webp" alt="" width="410" loading="lazy" decoding="async">
+1 Ws = 1 J, 1 kWh = 1 kW · 3600 s = 3600 kJ
 
 - __Další jednotky:__ kůň - 1 k = 735,5 W (automobily), Ws (kWh) - elektromotory
 
@@ -53,11 +55,15 @@ W = F · s · cos α
 - je definována jako __podíl užitečné práce W__, tj. práce, kterou stroj skutečně vykoná, a práce , kterou by měl stroj vykonat na základě dodané energie. Platí: η <100%
 - řecké písmeno étha
 
-<img src="/images/content/fyzika/prace-energie-vykon/06.webp" alt="" width="165" loading="lazy" decoding="async">	 …. dodaná práce
+$$\eta = \frac{W}{W_0} \cdot 100\,\%$$
+
+$W_0$ … dodaná práce
 
 - Podíl výkonu a příkonu
 
-<img src="/images/content/fyzika/prace-energie-vykon/07.webp" alt="" width="146" loading="lazy" decoding="async">       …. příkon = dodaná energie
+$$\eta = \frac{P}{P_0} \cdot 100\,\%$$
+
+$P_0$ … příkon = dodaná energie
 
 ## Energie
 
@@ -83,13 +89,13 @@ W = F · s · cos α
 
 	Uvažujeme hmotný bod, který je v dané inerciální vztažné soustavě v klidu. Začne na něj působit konstantní síla __*F*__. Podle druhého pohybového zákona se začne hmotný bod pohybovat se zrychlením __*a*__ = __*F*/m__. Trajektorie pohybu HB je přímka, která má směr síly __*F*__. V čase *t* je velikost rychlosti HB v = a · t a HB urazí dráhu s
 
-<img src="/images/content/fyzika/prace-energie-vykon/09.webp" alt="" width="82" loading="lazy" decoding="async">
+Na dráze *s* vykoná síla __*F*__ práci
 
-Na dráze *s* vykoná síla __*F*__ práci   
+$$W = F \cdot s$$
 
-<img src="/images/content/fyzika/prace-energie-vykon/10.webp" alt="" width="91" loading="lazy" decoding="async"><img src="/images/content/fyzika/prace-energie-vykon/11.webp" alt="" width="107" loading="lazy" decoding="async">Po dosazení               a                je práce:
+Po dosazení $F = m \cdot a$ a $s = \frac{1}{2} a t^2$ je práce:
 
-<img src="/images/content/fyzika/prace-energie-vykon/12.webp" alt="" width="366" loading="lazy" decoding="async">
+$$W = F \cdot s = m \cdot a \cdot \frac{1}{2} a t^2 = \frac{1}{2} m (a t)^2 = \frac{1}{2} m v^2$$
 
 Při __změnách kinetické energie__ rozhoduje práce vykonaná výslednicí sil. Podle toho, zda je práce kladná nebo záporná, se kinetická energie zvětší nebo zmenší.
 
@@ -124,24 +130,29 @@ b) __pružnosti__ – pružně deformované těleso 	(stlačený míč, protaže
 
 - Na začátku pádu je HB ve výšce h1, na konci ve výšce h2. dráha s = h2 – h1. Prací vykonanou __tíhovou silou__ je určen úbytek __tíhové potenciální energie__ HB, který je určen jen hmotností, tíhovým zrychlením a počáteční a konečnou výškou. Tvar trajektorie na něj nemá vliv.
 
-<img src="/images/content/fyzika/prace-energie-vykon/14.webp" alt="" width="469" loading="lazy" decoding="async">
+$$W = E_{p2} - E_{p1} = m g h_2 - m g h_1 = m g (h_2 - h_1)$$
 
 - V praxi je důležitá __tíhová potenciální energie__, kterou má těleso v tíhovém poli Země. Tato energie a její změny souvisí s prací, kterou vykoná tíhová síla při pohybu tělesa nebo HB.
 - Chceme-li určit tíhovou __potenciální energii Ep__, pak musíme zvolit __nulovou hladinu potenciální energie__, kde je Ep = 0. Obvykle se spojuje s rovinou povrchu země.
-- <img src="/images/content/fyzika/prace-energie-vykon/15.webp" alt="" width="204" loading="lazy" decoding="async">Ve výšce h nad zvolenou nulovou hladinou potenciální energie je tíhová potenciální energie HB o hmotnosti m
-- <img src="/images/content/fyzika/prace-energie-vykon/16.webp" alt="" width="181" loading="lazy" decoding="async">__Jednotka:__ \[E\] = 1 J
-- Působíme-li proti tíhové síle větší silou F, pak zvedneme těleso o výšku h a vykonáme práci
+- Ve výšce h nad zvolenou nulovou hladinou potenciální energie je tíhová potenciální energie HB o hmotnosti m:
+
+  $$E_p = m \cdot g \cdot h$$
+- __Jednotka:__ \[E\] = 1 J
+- Působíme-li proti tíhové síle větší silou F, pak zvedneme těleso o výšku h a vykonáme práci $W = m \cdot g \cdot h$
 - Ta je rovna přírůstku tíhové potenciální energie tělesa.
 
 ## Energie pružnosti
 
 - měříme mechanickou prací, kterou vykonají síly pružnosti deformovaného tělesa nebo vnější síly způsobující deformaci
 - při protažení pružiny o délku s vykoná vnější síla F práci
-- <img src="/images/content/fyzika/prace-energie-vykon/17.webp" alt="" width="121" loading="lazy" decoding="async">*k* (=konstanta úměrnosti) vyjadřuje elastické vlastnosti pružiny a nazývá se tedy __tuhost pružiny__ – jednotkou je
+- *k* (=konstanta úměrnosti) vyjadřuje elastické vlastnosti pružiny a nazývá se tedy __tuhost pružiny__ ((jednotka ani vzorec se ve zdroji nedochovaly; jednotka je N · m⁻¹, práce $W = \frac{1}{2} k s^2$))
 
 ## Konzervativní silové pole
 
 - __Práce__ závisí pouze na __počáteční a cílové poloze tělesa__, nikoliv na tvaru trajektorie.
+
+<img src="/images/content/fyzika/prace-energie-vykon/17.webp" alt="" width="121" loading="lazy" decoding="async">
+
 - Příkladem tohoto typu pole je __gravitační pole__.
 
 ## Zákon zachování energie
@@ -152,7 +163,7 @@ E = Ek + Ep = konst.
 
 Vztah mezi změnou kin. energie a prací všech sil na ni působících
 
-<img src="/images/content/fyzika/prace-energie-vykon/18.webp" alt="" width="248" loading="lazy" decoding="async">
+$$W = \Delta E_k = E_{k2} - E_{k1}$$
 
 - ΔEk >0 … Ek2> Ek1 … W >0 → těleso práci koná, __Ek se zvýší__
 - ΔEk <0 … Ek1> Ek2 … W <0 → těleso práci nekoná, práci konají vnější síly nebo síly pole __Ek se sníží__
@@ -172,6 +183,6 @@ W = m · g · h1 – m · g · h2
 
 Vztah mezi celkovou mech. energií soustavy a prací všech vnějších sil a vnitřních nekonzervativních sil
 
-<img src="/images/content/fyzika/prace-energie-vykon/19.webp" alt="" width="465" loading="lazy" decoding="async">
+$$E = E_k + E_p = \frac{1}{2} m v^2 + m g h$$
 
 - __Celková mechanická energie tělesa__, na které při pohybu působí jen tíhová síla je podél celé trajektorie __konstantní__.

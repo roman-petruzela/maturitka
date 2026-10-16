@@ -68,25 +68,29 @@ Optika obecně
 
 - Pro směr lomeného paprsku platí vztah:
 
-  <img src="/images/content/fyzika/38-optika-uvod-a-geom-optika/01.webp" alt="" width="88" loading="lazy" decoding="async">
+  $$\frac{\sin \alpha}{\sin \beta} = \frac{v_1}{v_2}$$
 
 β…úhel lomu
 
 - Podíl rychlostí v1 a v2 je veličina zvaná __index lomu__ *n* pro dané rozhraní
 - Pokud je první prostředí vakuum nebo vzduch platí  v1 = c a pro rychlost světla v druhém prostředí zavedeme *v2 = v*
-- Poté platí:	<img src="/images/content/fyzika/38-optika-uvod-a-geom-optika/02.webp" alt="" width="55" loading="lazy" decoding="async">		… absolutní index lomu optického prostředí
+- Poté platí $n = \frac{c}{v}$ … absolutní index lomu optického prostředí
 
 ## Zákon lomu
 
 - Nazývá se též Snellův zákon
     - Objevil ho v 17. století Holanďan W. Snell
 
-      <img src="/images/content/fyzika/38-optika-uvod-a-geom-optika/03.webp" alt="" width="130" loading="lazy" decoding="async"> nebo   <img src="/images/content/fyzika/38-optika-uvod-a-geom-optika/04.webp" alt="" width="150" loading="lazy" decoding="async">
+$$\frac{\sin \alpha}{\sin \beta} = \frac{n_2}{n_1} = \frac{v_1}{v_2}$$
+
+  nebo
+
+$$n_1 \sin \alpha = n_2 \sin \beta$$
 
 - Zvláštní případ lomu od kolmice nastává, když β = 90°. Úhel dopadu, kterému odpovídá tento úhel lomu, se nazývá __mezní úhel αm.__ Je – li úhel dopadu __α > αm__, lom světla nenastává a vzniká úplný odraz světla.
 - Když dochází k úplnému odrazu světla na rozhraní s vakuem, platí pro mezní úhel vztah:
 
-  <img src="/images/content/fyzika/38-optika-uvod-a-geom-optika/05.webp" alt="" width="92" loading="lazy" decoding="async">
+  $$\sin \alpha_m = \frac{1}{n_1}$$
 
 ## Index lomu světla
 
@@ -95,7 +99,7 @@ Optika obecně
     - Led: n = 1,31 … Voda: n = 1,33 … Běžné sklo: n = 1,5
 - Když se světlo šíří z optického prostředí o indexu *n1*, v němž má rychlost *v1*, do prostředí s indexem lomu *n2*, kde má rychlost *v2*, platí:
 
-  <img src="/images/content/fyzika/38-optika-uvod-a-geom-optika/06.webp" alt="" width="157" loading="lazy" decoding="async">
+  $$\frac{v_1}{v_2} = \frac{c}{n_1} : \frac{c}{n_2} = \frac{n_2}{n_1}$$
 
 - Prostředí opticky hustší – větší index lomu
 - Prostředí opticky řidší – menší index lomu

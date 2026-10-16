@@ -15,7 +15,7 @@ Vlastnosti kapalin a plynů
 
 ## Tlak v kapalinách a plynech
 
-- <img src="/images/content/fyzika/hydrostatika/01.webp" alt="" width="63" loading="lazy" decoding="async">Tlak p je fyzikální veličina, která charakterizuje __stav__ tekutiny v klidu. Tlak určujeme vztahem, kde F je velikost __tlakové síly__, která působí __kolmo__ na rovinnou __plochu__ kapaliny s obsahem S.
+- Tlak p je fyzikální veličina, která charakterizuje __stav__ tekutiny v klidu. Tlak určujeme vztahem $p = \frac{F}{S}$, kde F je velikost __tlakové síly__, která působí __kolmo__ na rovinnou __plochu__ kapaliny s obsahem S.
 
 \[p\] = Pa (pascal) = N ⋅ m–2 = kg ⋅ m–1 ⋅ s–2
 *1 Pa je tlak, který vyvolá síla 1 N rovnoměrně rozložená na ploše o obsahu 1 m2 a působící kolmo na tuto plochu.*
@@ -47,7 +47,7 @@ __Pascalův zákon:__
 
 - Toho se využívá u hydraulických lisů, zvedáků, brzd automobilů.
 
-<img src="/images/content/fyzika/hydrostatika/07.webp" alt="" width="254" loading="lazy" decoding="async">
+$$F_2 = p \cdot S_2 = \frac{F_1}{S_1} \cdot S_2 \;\Rightarrow\; \frac{F_2}{F_1} = \frac{S_2}{S_1}$$
 
 <img src="/images/content/fyzika/hydrostatika/08.webp" alt="" width="161" loading="lazy" decoding="async">Tlak v kapalinách vyvolaný tíhovou silou
 
@@ -58,35 +58,39 @@ __Pascalův zákon:__
 - <img src="/images/content/fyzika/hydrostatika/09.webp" alt="" width="223" loading="lazy" decoding="async">Když nalijeme kapalinu do nádob různého tvaru, ale se dnem stejné plochy S a hladinou ve stejné výšce h, bude na dno nádoby působit __vždy stejná tlaková síla__. Tento jev se nazývá __hydrostatické paradoxon__. Je způsobeno tím, že v nádobách, jejichž stěny nejsou svislé působí kromě tíhy kapaliny také reakce stěn na kolmé tlakové síly.
 - __Tlak v kapalině__ vyvolaný hydrostatickou tlakovou silou se nazývá __hydrostatický tlak *ph*.__ Hydrostatický tlak v hloubce h pod volným povrchem kapaliny o hustotě ρ je:
 
-<img src="/images/content/fyzika/hydrostatika/10.webp" alt="" width="304" loading="lazy" decoding="async">
+$$p_h = \frac{F_h}{S} = \frac{\rho \cdot S \cdot h \cdot g}{S} = \rho \cdot h \cdot g$$
 
 - Hydrostatický tlak __je přímo úměrný__ hustotě kapaliny a hloubce místa pod volným povrchem kapaliny.
 - __Hladina o nulovém hydrostatickém tlaku__ je na volném povrchu kapaliny a nazývá se __volná hladina__.
-- <img src="/images/content/fyzika/hydrostatika/11.webp" alt="" width="298" loading="lazy" decoding="async"><img src="/images/content/fyzika/hydrostatika/12.webp" alt="" width="160" loading="lazy" decoding="async">Na základě hydrostatického tlaku lze vysvětlit podstatu __spojených nádob__. Spojené nádoby jsou nádoby, které jsou __u dna spojeny trubicí__. __Jejich tvar může být jakýkoli__. Nalijeme-li do těchto nádob kapalinu o stejné hustotě, pak se hladina ve všech nádobách __ustálí ve stejné výšce__ h nad společným dnem.
-- Je to způsobeno důsledkem __Pascalova zákona__ – ve všech místech kapaliny je stejný tlak. U dna tedy bude tlak   ρ a g jsou stejné, proto musí být i stejná výška h.
+<img src="/images/content/fyzika/hydrostatika/11.webp" alt="" width="298" loading="lazy" decoding="async">
+
+- Na základě hydrostatického tlaku lze vysvětlit podstatu __spojených nádob__. Spojené nádoby jsou nádoby, které jsou __u dna spojeny trubicí__. __Jejich tvar může být jakýkoli__. Nalijeme-li do těchto nádob kapalinu o stejné hustotě, pak se hladina ve všech nádobách __ustálí ve stejné výšce__ h nad společným dnem.
+- Je to způsobeno důsledkem __Pascalova zákona__ – ve všech místech kapaliny je stejný tlak. U dna tedy bude tlak $p_h = \rho \cdot h \cdot g$; ρ a g jsou stejné, proto musí být i stejná výška h.
 - Z toho, že princip spojených nádob vychází z __Pascalova zákona__, můžeme odvodit i to, že ve spojených nádobách, ve kterých jsou __různé kapaliny__, jsou hustoty kapalin v převráceném poměru k výškám kapalin nad společným rozhraním, protože tam je __hydrostatický tlak stejný__.
 
-<img src="/images/content/fyzika/hydrostatika/13.webp" alt="" width="242" loading="lazy" decoding="async"><img src="/images/content/fyzika/hydrostatika/14.webp" alt="" width="249" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/hydrostatika/13.webp" alt="" width="242" loading="lazy" decoding="async">$$\rho_1 \cdot h_1 \cdot g = \rho_2 \cdot h_2 \cdot g$$
+
+$$\frac{\rho_1}{\rho_2} = \frac{h_2}{h_1}$$
 
 ## Vztlaková síla v kapalinách a plynech
 
 - Tělesa, která ponoříme do kapaliny, jsou __lehčí než ve vzduchu.__ Nadlehčuje je __vztlaková síla *Fvz*__. __Směřuje vzhůru__ a je důsledkem __hydrostatického tlaku__ kapaliny.
-- Ponoříme-li do kapaliny kvádr, působí na každou jeho stěnu __kolmá tlaková síla__. Síly, které působí na __boční stěny se navzájem vyruší__, na horní stěnu působí síly  a na spodní
-
-<img src="/images/content/fyzika/hydrostatika/15.webp" alt="" width="131" loading="lazy" decoding="async"><img src="/images/content/fyzika/hydrostatika/16.webp" alt="" width="131" loading="lazy" decoding="async">
+- Ponoříme-li do kapaliny kvádr, působí na každou jeho stěnu __kolmá tlaková síla__. Síly, které působí na __boční stěny se navzájem vyruší__, na horní stěnu působí síla $F_1 = p_{h1} \cdot S$ a na spodní $F_2 = p_{h2} \cdot S$.
 
 <img src="/images/content/fyzika/hydrostatika/17.webp" alt="" width="254" loading="lazy" decoding="async">
 
 __Jejich výslednice__ je vztlaková síla:
 
-<img src="/images/content/fyzika/hydrostatika/18.webp" alt="" width="475" loading="lazy" decoding="async">
+$$F_{VZ} = F_2 - F_1 = \rho S h_2 g - \rho S h_1 g = \rho S h g = \rho V g$$
 
 __Archimédův zákon:__
 
 - *Těleso ponořené do kapaliny je nadlehčováno vztlakovou silou, jejíž velikost se rovná tíze kapaliny stejného objemu, jako je objem ponořeného tělesa.* 
 - Důsledkem Archimédova zákona je __různé chování těles v kapalině__. Na každé těleso ponořené do kapaliny totiž působí Země tíhovou silou FG ve svislém směru dolů a kapalina vztlakovou silou FVZ. ρt je __průměrná__ hustota ponořeného tělesa, ρ  je hustota kapaliny a V objem ponořeného tělesa.
 
-<img src="/images/content/fyzika/hydrostatika/19.webp" alt="" width="227" loading="lazy" decoding="async"><img src="/images/content/fyzika/hydrostatika/20.webp" alt="" width="227" loading="lazy" decoding="async">
+$$F_{VZ} = \rho \cdot V \cdot g$$
+
+$$F_G = \rho_t \cdot V \cdot g$$
 
 __Mohou nastat tři případy:__
 
@@ -96,11 +100,11 @@ __Mohou nastat tři případy:__
 
 __*3) ρ t < ρ ⇒  FG < Fvz*__    výslednice sil __*F*__ směřuje nahoru a těleso __stoupá k volné hladině__ kapaliny. Jakmile jí dosáhne, částečně se vynoří a ustálí se v takové poloze, že tíhová síla *FG* je v rovnováze se vztlakovou silou, jejíž velikost se rovná tíze *G´* kapaliny stejného objemu *V´,* kterou vytlačuje ponořená část tělesa = __plování těles__. Takto se chová např. dřevěný špalek ve vodě.
 
-- <img src="/images/content/fyzika/hydrostatika/21.webp" alt="" width="78" loading="lazy" decoding="async">Mezi __hustotami tělesa__ a kapaliny a celým a ponořeným objemem tělesa je vztah vyplývající z rovnosti sil:
+- Mezi __hustotami tělesa__ a kapaliny a celým a ponořeným objemem tělesa je vztah vyplývající z rovnosti sil:
 
-V...objem celkové části
+$$\frac{V'}{V} = \frac{\rho_t}{\rho}$$
 
-## V’...objem ponořené části
+  $V$ … objem celého tělesa, $V'$ … objem ponořené části
 
 - Těleso se ponoří do kapaliny __tím větší částí svého objemu, čím je jeho hustota větší__, nebo __čím je hustota kapaliny menší__. Tohoto poznatku využívají __hustoměry (slouží k měření hustoty kapalin)__.
 - Hustoměry slouží pro provozní a orientační měření při zjišťování hustoty nebo koncentrace určitých druhů kapalných látek. Vyrábějí se v různých měřících rozsazích. Označení kapaliny, pro jejíž měření je hustoměr určen, je obvykle uvedeno na zadní straně stupnice.

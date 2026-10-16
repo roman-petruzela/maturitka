@@ -46,11 +46,15 @@ Inerciální a neinerciální vztažná soustava
 - Dilataci času nejlépe demonstruje následující příklad: raketa se pohybuje určitou rychlostí __v__ a v ní se nachází světelné hodiny, pozorovatel A zjistí:
 - Signál urazí vzdálenost l0 za dobu ∆t0 , takže po dosazení do vzorce pro výpočet rychlosti dostaneme:
 
-   čili
+$$c = \frac{l_0}{\Delta t_0}$$
+
+  čili
+
+$$l_0 = c \cdot \Delta t_0$$
 
 <img src="/images/content/fyzika/str/03.webp" alt="raketa" width="154" loading="lazy" decoding="async">
 
-<img src="/images/content/fyzika/str/04.webp" alt="raketa dve" width="172" loading="lazy" decoding="async"><img src="/images/content/fyzika/str/05.webp" alt="" width="76" loading="lazy" decoding="async">              <img src="/images/content/fyzika/str/06.webp" alt="" width="123" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/str/04.webp" alt="raketa dve" width="172" loading="lazy" decoding="async">
 
 - Pozorovatel B však zjistí:
 - Hodiny jsou vzhledem k pozorovateli B v pohybu o rychlosti __v__, signál tedy musí urazit větší vzdálenost l za dobu ∆t, ve vzorci se to projeví:
@@ -63,9 +67,11 @@ Inerciální a neinerciální vztažná soustava
 
 <img src="/images/content/fyzika/str/07.webp" alt="pozorovatel b" width="44" loading="lazy" decoding="async">
 
-<img src="/images/content/fyzika/str/08.webp" alt="" width="54" loading="lazy" decoding="async">                             <img src="/images/content/fyzika/str/09.webp" alt="" width="88" loading="lazy" decoding="async">
+$$c = \frac{l}{\Delta t}$$
 
-<img src="/images/content/fyzika/str/10.webp" alt="" width="145" loading="lazy" decoding="async">
+$$l = c \cdot \Delta t$$
+
+$$\Delta t = \frac{t}{\sqrt{1 - \frac{v^2}{c^2}}}$$
 
 - Z předešlých příkladů tedy vyplývá, že hodiny pohybující se vzhledem k pozorovateli jdou pomaleji než hodiny, které jsou vzhledem k pozorovateli v klidu
 - __Dilatace času:__ Jestliže pozorovatelé, kteří se vzájemně pohybují měří časový interval mezi dvěma událostmi, dojdou obecně k rozdílným výsledkům.
@@ -80,7 +86,7 @@ Inerciální a neinerciální vztažná soustava
 - __Poněvadž měření délky pohybujícího se předmětu vyžaduje současné určení poloh koncových bodů měřeného předmětu a současnost událostí je relativní pojem, je rovněž délka předmětu relativní pojem (vzhledem k volbě vztažné soustavy).__
 - Hodnotu, na jakou se změní délka předmětu v závislosti na rychlosti jeho pohybu vzhledem k určité vztažné soustavě nám udává __vztah pro kontrakci délek:__
 
-<img src="/images/content/fyzika/str/11.webp" alt="" width="650" loading="lazy" decoding="async">
+$$L = L_0 \sqrt{1 - \frac{v^2}{c^2}}$$
 
 - Ve vzorci je L – délka v soustavě, vzhledem k níž se těleso pohybuje
           -                     L0 -  délka v klidové soustavě
@@ -95,6 +101,6 @@ Inerciální a neinerciální vztažná soustava
 - Tento vzorec je však v rozporu s druhým postulátem speciální teorie relativity, podle něhož se světlo ve vakuu šíří vzhledem k libovolné inerciální vztažné soustavě rychlostí c
 - Einstein proto odvodil obecnější relativistický zákon pro skládání rychlostí:
 
-<img src="/images/content/fyzika/str/12.webp" alt="" width="658" loading="lazy" decoding="async">
+$$u = \frac{u' + v}{1 + \frac{u' v}{c^2}}$$
 
 - Po dosazení rychlosti světla c za rychlost částice u´ (tedy bude-li se částice pohybovat rychlostí světla) nedostaneme rychlost vyšší než je rychlost světla, výsledkem bude c; v tomto vzorci tedy c zůstává konstantní a světlo se pohybuje ve všech soustavách konstantní rychlostí c

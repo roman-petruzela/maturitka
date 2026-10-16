@@ -50,9 +50,7 @@ Elektrický náboj
 
 <img src="/images/content/fyzika/elektrostaticke-pole/02.webp" alt="" width="508" loading="lazy" decoding="async">
 
-<img src="/images/content/fyzika/elektrostaticke-pole/03.webp" alt="" width="143" loading="lazy" decoding="async">
-
-__	__
+$$F_e = k \frac{|Q_1 Q_2|}{r^2}$$
 
 __k__ – konstanta úměrnosti – závisí na vlastnostech prostředí, v němž náboje na sebe působí
 
@@ -64,7 +62,7 @@ __εr__ - relativní permitivita prostředí, pro vakuum a vzduch je přibližn�
 
 - __Intenzitu elektrického pole E__ v daném místě pole definujeme jako podíl __síly Fe__, která působí na __kladný bodový náboj Q0__, a hodnoty tohoto náboje __Q0__.
 
-<img src="/images/content/fyzika/elektrostaticke-pole/04.webp" alt="" width="78" loading="lazy" decoding="async">
+$$\vec E = \frac{\vec F_e}{Q_0}$$
 
 - Intenzita el. pole __E__ má __stejný směr__ jako __el. síla Fe__
 
@@ -73,7 +71,7 @@ __εr__ - relativní permitivita prostředí, pro vakuum a vzduch je přibližn�
 - Jednotka je __newton na coulomb (N.C-1)__
 - __Velikost__ intenzity el. pole se zmenšuje s druhou mocninou vzdálenosti od bodového náboje, který pole vytváří.
 
-<img src="/images/content/fyzika/elektrostaticke-pole/06.webp" alt="" width="282" loading="lazy" decoding="async">
+$$E = \frac{F_e}{Q_0} = k \frac{|Q Q_0|}{r^2} \cdot \frac{1}{Q_0} = k \frac{|Q|}{r^2}$$
 
 ## Siločáry
 
@@ -112,7 +110,7 @@ nesouhlasných				souhlasných
 - skalár, značka __φ__, jednotka __volt__ (V), kilovolt (kV) a milivolt (mV), __1V = 1 J.C-1__
 - __*Elektrický potenciál φ*__*A v bodě A elektrického pole v okolí náboje Q definujeme jako podíl*__* práce W,__* kterou vykonají síly elektrického pole při přemísťování kladného bodového náboje Q0 z bodu A na zem, a tohoto náboje **Q0**.
 
-<img src="/images/content/fyzika/elektrostaticke-pole/10.webp" alt="" width="136" loading="lazy" decoding="async">
+$$\varphi = \frac{W}{Q_0} = \frac{k Q}{r}$$
 
 __r__ - poloměr ekvipotenciální plochy
 
@@ -132,14 +130,26 @@ radiálního el. pole	              		  homogenního el. pole
 
 - Elektrické napětí definujeme jako __rozdíl elektrických potenciálů__ mezi dvěma body elektrického pole: __UAB =  φB - φA__
 - může být __kladné__, __záporné__, nebo __nulové__
-- značka __U__, jednotka __V__, kV, mV<img src="/images/content/fyzika/elektrostaticke-pole/12.webp" alt="" width="246" loading="lazy" decoding="async">
+- značka __U__, jednotka __V__, kV, mV
+- V homogenním poli:
+
+$$U = \varphi_A - \varphi_B = \frac{W}{Q_0} = E d$$
+
 - __Voltmetr__
-	- přístroj k měření el. napětí<img src="/images/content/fyzika/elektrostaticke-pole/13.webp" alt="" width="56" loading="lazy" decoding="async">
-	- značka
-	- do obvodu se zapojuje __paralelně__<img src="/images/content/fyzika/elektrostaticke-pole/14.webp" alt="" width="254" loading="lazy" decoding="async">
+	- přístroj k měření el. napětí
+	- značka:
+
+  <img src="/images/content/fyzika/elektrostaticke-pole/13.webp" alt="" width="56" loading="lazy" decoding="async">
+
+	- do obvodu se zapojuje __paralelně__
+
+  <img src="/images/content/fyzika/elektrostaticke-pole/12.webp" alt="" width="246" loading="lazy" decoding="async">
+
 - __Práce síly__, kterou působí na bodový náboj elektrostatické pole:
 
-	__d__ - vzdálenost v metrech mezi deskami<img src="/images/content/fyzika/elektrostaticke-pole/15.webp" alt="" width="180" loading="lazy" decoding="async">
+$$W = F_e d = Q_0 E d$$
+
+  __d__ - vzdálenost v metrech mezi deskami
 
 ## Vodič v elektrostatickém poli
 
@@ -175,7 +185,9 @@ radiálního el. pole	              		  homogenního el. pole
 
 <img src="/images/content/fyzika/elektrostaticke-pole/19.webp" alt="" width="247" loading="lazy" decoding="async">
 
-- __Relativní permitivita prostředí__ (εr)– udává, kolikrát je velikost intenzity výsledného menší než velikost intenzity pole vnějšího<img src="/images/content/fyzika/elektrostaticke-pole/20.webp" alt="" width="126" loading="lazy" decoding="async">
+- __Relativní permitivita prostředí__ (εr)– udává, kolikrát je velikost intenzity výsledného menší než velikost intenzity pole vnějšího
+
+$$\varepsilon_r = \frac{E}{E_v}$$
 
 	 __εr vakua ≈ εr vzduchu ≈ 1__
 

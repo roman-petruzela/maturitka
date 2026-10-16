@@ -15,13 +15,15 @@ Kapacita vodiče
 - vodič má kapacitu __1 F,__ jestliže se nábojem __1 C__ nabije na elektrický potenciál __1 V__	      - __hodně velké__
 - Pro __osamělý kulový vodič__ o __poloměru R__ ve vakuu (a přibližně také ve vzduchu) platí:
 
-<img src="/images/content/fyzika/kapacita-kondenzator-elektricky-proud/01.webp" alt="" width="235" loading="lazy" decoding="async"><img src="/images/content/fyzika/kapacita-kondenzator-elektricky-proud/02.webp" alt="" width="278" loading="lazy" decoding="async">
+$$\varphi = \frac{1}{4 \pi \varepsilon_0} \cdot \frac{Q}{R}$$
+
+$$Q = 4 \pi \varepsilon_0 R \varphi$$
 
 - Kapacita kulového vodiče je tedy:
 
-<img src="/images/content/fyzika/kapacita-kondenzator-elektricky-proud/03.webp" alt="" width="263" loading="lazy" decoding="async">
+$$C = 4 \pi \varepsilon_0 R$$
 
-= permitivita vakua<img src="/images/content/fyzika/kapacita-kondenzator-elektricky-proud/04.webp" alt="" width="384" loading="lazy" decoding="async">
+$\varepsilon_0 = 8{,}85 \cdot 10^{-12}\ \mathrm{C^2 \cdot N^{-1} \cdot m^{-2}}$ … permitivita vakua
 
 ## Kondenzátor, kapacita kondenzátoru
 
@@ -36,11 +38,11 @@ __Kondenzátor bez dielektrika__
 - Připojíme-li deskový kondenzátor ke svorkám zdroje, vznikne na desce s __vyšším potenciálem φ1 kladný náboj +Q__ a na desce s __nižším potenciálem φ2 stejně velký záporný náboj –Q__.
 - Rovnost absolutních hodnot obou nábojů je důsledkem jejich __vzájemného silového působení__. Mezi deskami vznikne __homogenní el. pole s intenzitou E__, vně kondenzátoru se pole obou desek vzájemně __ruší__.
 
-<img src="/images/content/fyzika/kapacita-kondenzator-elektricky-proud/06.webp" alt="" width="285" loading="lazy" decoding="async">
+$$E = \frac{\varphi_1 - \varphi_2}{d} = \frac{U}{d}$$
 
 - Náboje na deskách kondenzátoru jsou přímo úměrné napětí mezi deskami. Konstanta úměrnosti __C0 je kapacita  deskového kondenzátoru bez dielektrika__.
 
-<img src="/images/content/fyzika/kapacita-kondenzator-elektricky-proud/07.webp" alt="" width="309" loading="lazy" decoding="async">
+$$C_0 = \frac{Q}{U} = \frac{\varepsilon_0 S}{d}$$
 
 - Kondenzátor má kapacitu __1 F,__ jestliže při napětí __1 V__ jsou na jeho deskách náboje o absolutní hodnotě __1 C__.
 
@@ -48,16 +50,16 @@ __Kondenzátor s dielektrikem__
 
 - Vyplníme-li prostor mezi deskami kondenzátoru __dielektrikem__, jeho __kapacita se zvětší__. Po připojení ke zdroji vznikne mezi deskami opět __homogenní el. pole__ s intenzitou:
 
-<img src="/images/content/fyzika/kapacita-kondenzator-elektricky-proud/08.webp" alt="" width="151" loading="lazy" decoding="async">
+$$E = \frac{U}{d}$$
 
 - K tomu je však nutno přivést na desky __větší náboj__ než u kondenzátru __bez dielektrika__, aby se překonal účinek vázaných nábojů vzniklých __polarizací dielektrika.__ Deskový kondenzátor s dielektrikem má tedy __větší kapacitu C__, než je kapacita stejně velkého kondenzátoru __bez dielektrika__
 - __Relativní permitivita dielektrika__ se dá zjistit jako poměr obou kapacit
 
-<img src="/images/content/fyzika/kapacita-kondenzator-elektricky-proud/09.webp" alt="" width="166" loading="lazy" decoding="async">
+$$\varepsilon_r = \frac{C}{C_0}$$
 
 - __Kapacita deskového kondenzátoru s dielektrikem__ je
 
-<img src="/images/content/fyzika/kapacita-kondenzator-elektricky-proud/10.webp" alt="" width="287" loading="lazy" decoding="async">
+$$C = \frac{Q}{U} = \frac{\varepsilon_0 \varepsilon_r S}{d}$$
 
 - Kondenzátory mohou být buď se __stálou__ nebo s __měnitelnou kapacitou__ (využití v radiotechnice)
 
@@ -70,27 +72,35 @@ __Druhy kondenzátorů podle použitého dielektrika__
 - Keramické
 - Elektrolytické
 
-__Zapojení kondenzátorů__<img src="/images/content/fyzika/kapacita-kondenzator-elektricky-proud/13.webp" alt="" width="287" loading="lazy" decoding="async">
-
-<img src="/images/content/fyzika/kapacita-kondenzator-elektricky-proud/14.webp" alt="" width="97" loading="lazy" decoding="async">
+__Zapojení kondenzátorů__
 
 - Paralelně (vedle sebe)
+
+  <img src="/images/content/fyzika/kapacita-kondenzator-elektricky-proud/13.webp" alt="" width="287" loading="lazy" decoding="async">
+
+$$C_P = \sum_{i=1}^{n} C_i$$
 	- __U1=U2=U__
 	- __C=C1+C2__
 	- __Q=C·U__
 	- větší kapacita než u sériového zapojení
 - Sériově (za sebe)
-	- __U=U1+U2__                 <img src="/images/content/fyzika/kapacita-kondenzator-elektricky-proud/15.webp" alt="" width="127" loading="lazy" decoding="async">
-	- __Q=Q1=Q2__<img src="/images/content/fyzika/kapacita-kondenzator-elektricky-proud/16.webp" alt="" width="295" loading="lazy" decoding="async">
+	- __U=U1+U2__
+	- __Q=Q1=Q2__
 
-	<img src="/images/content/fyzika/kapacita-kondenzator-elektricky-proud/17.webp" alt="" width="93" loading="lazy" decoding="async"><img src="/images/content/fyzika/kapacita-kondenzator-elektricky-proud/18.webp" alt="" width="127" loading="lazy" decoding="async">
+  <img src="/images/content/fyzika/kapacita-kondenzator-elektricky-proud/16.webp" alt="" width="295" loading="lazy" decoding="async">
+
+$$\frac{1}{C_S} = \sum_{i=1}^{n} \frac{1}{C_i}$$
+
+  Pro dva kondenzátory ($U = \frac{Q}{C}$):
+
+$$\frac{1}{C} = \frac{1}{C_1} + \frac{1}{C_2}$$
 
 __Energie nabitého kondenzátoru__
 
 - Při __nabíjení__ a __vybíjení__ kondenzátoru dochází k pohybu náboje v elektrickém poli, při kterém elektrostatické síly konají práci. Kondenzátor při __nabíjení získává elektrickou energii__ a při __vybíjení ji ztrácí.__ Během __vybíjení__ se __napětí__ na kondenzátoru postupně __zmenšuje__ přímo úměrně se __zmenšováním náboje__ na __deskách__
 - Celková el. práce při vybití kondenzátoru a také počáteční el. energie kondenzátoru je tedy
 
-<img src="/images/content/fyzika/kapacita-kondenzator-elektricky-proud/19.webp" alt="" width="544" loading="lazy" decoding="async">
+$$W = E_C = \frac{1}{2} U Q = \frac{1}{2} \cdot \frac{Q^2}{C} = \frac{1}{2} C U^2$$
 
 ## Elektrický proud
 
@@ -98,7 +108,7 @@ __Energie nabitého kondenzátoru__
 - Jednotka: __A (ampér)__
 - __Přenesou__-li nosiče náboje průřezem vodiče náboj __ΔQ__ za dobu __Δt__ vyvolají __el. proud I__
 
-<img src="/images/content/fyzika/kapacita-kondenzator-elektricky-proud/20.webp" alt="" width="152" loading="lazy" decoding="async">
+$$I = \frac{\Delta Q}{\Delta t}$$
 
 - Dva druhy proudů:
 	- __Stejnosměrný__ => __=, I__
@@ -115,7 +125,10 @@ __Měření elektrického proudu a napětí__
 
 - __Elektrický proud__
 	- Měříme ampérmetrem
-	- Zapojení vždy __sériově__<img src="/images/content/fyzika/kapacita-kondenzator-elektricky-proud/21.webp" alt="" width="371" loading="lazy" decoding="async">
+	- Zapojení vždy __sériově__
+
+  <img src="/images/content/fyzika/kapacita-kondenzator-elektricky-proud/21.webp" alt="" width="371" loading="lazy" decoding="async">
+
 	- Schématická značka:
 
 <img src="/images/content/fyzika/kapacita-kondenzator-elektricky-proud/22.webp" alt="" width="160" loading="lazy" decoding="async">

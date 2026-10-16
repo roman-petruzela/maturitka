@@ -10,7 +10,7 @@ Matematické kyvadlo
 - Ve skutečnosti se matematickému kyvadlu blíží závaží zavěšené na tenkém provázku.
 - <img src="/images/content/fyzika/kmitavy-pohyb-ii/01.webp" alt="" width="243" loading="lazy" decoding="async">Když kyvadlo necháme kmitat tak, aby výchylka nepřekročila __5°__, můžeme pohyb hmotného bodu __považovat__ za __pohyb přímočarý__. Na hmotný bod působí __tíhová síla FG__, která se při vychýlení z rovnovážné polohy rozkládá na sílu __F’__, která __napíná lanko__ a na sílu __F__, která způsobuje, že se hmotný bod __snaží vrátit__ do __rovnovážné polohy__
 
-<img src="/images/content/fyzika/kmitavy-pohyb-ii/02.webp" alt="" width="333" loading="lazy" decoding="async">
+$$\sin \alpha = \frac{F}{F_G} = -\frac{y'}{l} \approx -\frac{y}{l}$$
 
 __α ≐ sinα ≐ tgα__
 
@@ -18,16 +18,18 @@ __α ≐ sinα ≐ tgα__
 - __y__ je velikost výchylky hmotného bodu tzn. __velikost oblouku kružnice__, o který se hmotný bod vychýlí z rovnovážné polohy.
 - __Kyvadlo__ má vlastnosti mechanického oscilátoru, pro který platí:
 
-<img src="/images/content/fyzika/kmitavy-pohyb-ii/03.webp" alt="" width="313" loading="lazy" decoding="async"><img src="/images/content/fyzika/kmitavy-pohyb-ii/04.webp" alt="" width="136" loading="lazy" decoding="async">
+$$F \approx -\frac{F_G}{l} \cdot y = -\frac{m \cdot g}{l} \cdot y$$
+
+$$F = -k \cdot y$$
 
 - Po dosazení do vztahu pro __periodu__ a __frekvenci vlastního kmitání__ kyvadla:
 
-<img src="/images/content/fyzika/kmitavy-pohyb-ii/05.webp" alt="" width="275" loading="lazy" decoding="async">
+$$T_0 = 2\pi \sqrt{\frac{m}{\frac{m g}{l}}} = 2\pi \sqrt{\frac{l}{g}}$$
 
 - __Perioda__ matematického kyvadla závisí jen na __délce závěsu__ a na __tíhovém zrychlení.__ Tak lze periodu pohybu kyvadla určit délkou závěsu nebo pomocí kyvadla určit tíhové zrychlení v daném místě.
 - Důležitý pojem v souvislosti s měřením času je i __kyv t__, který je roven __polovině periody.__ __Kyv__ je doba za kterou kyvadlo projde z jednoho maxima do druhého. Sekundové kyvadlo má kyv __1 sekundu.__
 
-<img src="/images/content/fyzika/kmitavy-pohyb-ii/06.webp" alt="" width="54" loading="lazy" decoding="async">
+$$t = \frac{T}{2}$$
 
 ## Fyzické kyvadlo
 
@@ -41,11 +43,11 @@ __α ≐ sinα ≐ tgα__
 
 - __Úhlová frekvence__ kmitání:
 
-<img src="/images/content/fyzika/kmitavy-pohyb-ii/08.webp" alt="" width="123" loading="lazy" decoding="async">
+$$\omega_0 = \sqrt{\frac{g}{l}}$$
 
 - __Perioda__ kmitání:
 
-<img src="/images/content/fyzika/kmitavy-pohyb-ii/09.webp" alt="" width="204" loading="lazy" decoding="async">
+$$T_0 = 2\pi \sqrt{\frac{l}{g}}$$
 
 ## Tlumené kmitání
 
@@ -105,23 +107,27 @@ __α ≐ sinα ≐ tgα__
 
 - __Kinetická energie__ je
 
-<img src="/images/content/fyzika/kmitavy-pohyb-ii/18.webp" alt="" width="152" loading="lazy" decoding="async">
+$$E_k = \frac{1}{2} m v^2$$
 
 - __Tíhová potenciální energie__ je
 
-<img src="/images/content/fyzika/kmitavy-pohyb-ii/19.webp" alt="" width="169" loading="lazy" decoding="async">
+$$E_{pt} = m g h$$
 
 - __Potenciální energie pružnosti__ je
 
-<img src="/images/content/fyzika/kmitavy-pohyb-ii/20.webp" alt="" width="210" loading="lazy" decoding="async"> 		△l = y
+$$E_{pr} = \frac{1}{2} k (\Delta l)^2$$
+
+  $\Delta l = y$
 
 - __Klidová energie__ oscilátoru je
 
-<img src="/images/content/fyzika/kmitavy-pohyb-ii/21.webp" alt="" width="314" loading="lazy" decoding="async">
+$$E_0 = m g h + \frac{1}{2} k (\Delta l)^2$$
 
 - Když __celkovou energii__ rozdělíme na __klidovou energii__ a __energii kmitání__, bude energie kmitání:
 
-<img src="/images/content/fyzika/kmitavy-pohyb-ii/22.webp" alt="" width="284" loading="lazy" decoding="async"><img src="/images/content/fyzika/kmitavy-pohyb-ii/23.webp" alt="" width="196" loading="lazy" decoding="async">
+$$E = \frac{1}{2} k y^2 + \frac{1}{2} m v^2$$
+
+$$E = E_0 + E_{km}$$
 
 ## Elektromagnetický oscilátor
 
@@ -139,6 +145,8 @@ __Průběh jedné periody:__
 - __Kmitání__ oscilátoru je __harmonické__, mezi napětím a proudem je fázový rozdíl.
 
 <img src="/images/content/fyzika/kmitavy-pohyb-ii/26.webp" alt="" width="602" loading="lazy" decoding="async">
+
+$$T_0 = 2\pi \sqrt{L C}$$
 
 = Thomsonův vztah
 

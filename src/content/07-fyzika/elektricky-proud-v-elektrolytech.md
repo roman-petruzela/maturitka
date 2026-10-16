@@ -31,13 +31,15 @@ Elektrolyt
 
 1. __Faradayův zákon:__
 
-- __Hmotnost m *__*vyloučené látky je přímo úměrná součinu stálého proudu I*__* a *__*doby t, po kterou proud elektrolytem procházel.*                                                                                          				__m = A. Q__
+- *Hmotnost m vyloučené látky je přímo úměrná součinu stálého proudu I a doby t, po kterou proud elektrolytem procházel.*
 
-__m = A.I.t__
+$$m = A \cdot Q = A \cdot I \cdot t$$
 
 __2.   Faradayův zákon:__
 
-- __*Elektrochemický ekvivalent*__* látky vypočteme, jestliže její molární hmotnost vydělíme **Faradayovou konstantou** a **počtem elektronů** potřebných k vyloučení jedné molekuly:   *   <img src="/images/content/fyzika/elektricky-proud-v-elektrolytech/02.webp" alt="" width="143" loading="lazy" decoding="async">
+- *Elektrochemický ekvivalent látky vypočteme, jestliže její molární hmotnost vydělíme Faradayovou konstantou a počtem elektronů potřebných k vyloučení jedné molekuly:*
+
+$$A = \frac{M_m}{F \cdot z}$$
 
 - Kde __F je Faradayova konstanta F = 9,6481×104 C.mol-1__ a __z__ je __počet (mocenství) elektronů__, které jsou potřeba při vyloučení jedné molekuly (např. pro Cu2+  →  Cu je __z = 2__, pro Ag+ → Ag je __z = 1__)
 - __Látková množství__ různých látek vyloučených při elektrolýze týmž nábojem jsou __chemicky ekvivalentní__. (Mohou se navzájem nahradit v chemické sloučenině nebo se mohou bezezbytku sloučit.)
@@ -51,10 +53,13 @@ Konstanta úměrnosti __A__, která je pro danou látku charakteristická, se na
 - Při postupném __zvyšování napětí__ se tento jev __opakuje__ tak dlouho, dokud není __překročeno tzv. rozkladné napětí__
 - __Rozkladné napětí Ur__ elektrolytu je napětí, od kterého se proud s napětím v elektrolytu __lineárně zvyšuje__, tedy platí vztah:
 
-<img src="/images/content/fyzika/elektricky-proud-v-elektrolytech/03.webp" alt="" width="153" loading="lazy" decoding="async">
+$$I = \frac{U - U_r}{R}$$
 
-- <img src="/images/content/fyzika/elektricky-proud-v-elektrolytech/04.webp" alt="" width="312" loading="lazy" decoding="async">__R__ je odpor elektrolytu
+- __R__ je odpor elektrolytu
 - Graficky se tato závislost nazývá __voltampérová charakteristika chemického zdroje__ a vypadá takto:
+
+  <img src="/images/content/fyzika/elektricky-proud-v-elektrolytech/04.webp" alt="" width="312" loading="lazy" decoding="async">
+
 
 ## Galvanické články
 
@@ -72,7 +77,10 @@ Konstanta úměrnosti __A__, která je pro danou látku charakteristická, se na
 
 <img src="/images/content/fyzika/elektricky-proud-v-elektrolytech/06.webp" alt="" width="272" loading="lazy" decoding="async">
 
-- <img src="/images/content/fyzika/elektricky-proud-v-elektrolytech/07.webp" alt="" width="175" loading="lazy" decoding="async">__Suchý článek__ – je druh __galvanických článků__, elektromotorické napětí je asi __1,5V__, uvnitř probíhá elektrolýza, při ní se __zinková elektroda rozpouští__ a na __uhlíkové katodě se vylučuje vodík__, který reaguje s burelem za vzniku vody, článek se postupně znehodnocuje
+- __Suchý článek__ – je druh __galvanických článků__, elektromotorické napětí je asi __1,5V__, uvnitř probíhá elektrolýza, při ní se __zinková elektroda rozpouští__ a na __uhlíkové katodě se vylučuje vodík__, který reaguje s burelem za vzniku vody, článek se postupně znehodnocuje
+
+  <img src="/images/content/fyzika/elektricky-proud-v-elektrolytech/07.webp" alt="" width="175" loading="lazy" decoding="async">
+
 - Prototypem suchého článku byl __Leclancheův článek__
 	- tvoří jej anoda z čistého uhlíku, katoda ze zinku a elektrolyt, kterým je směs __burelu__ (__MnO2__ a salmiaku (__NH4Cl__)). Směs je ještě zahuštěná pilinami nebo pískem, odtud pochází označení „suchý článek“
 - __Tři suché články__ za sebou tvoří plochou baterii s elektromotorickým napětím __4,5V__
@@ -83,8 +91,13 @@ Konstanta úměrnosti __A__, která je pro danou látku charakteristická, se na
 - Akumulátor je tzv. __sekundární zdroj stejnosměrného napětí__, který je založen na vzniku __elektrolytických potenciálů__ elektrod po proběhnutí vratných chemických dějů
 - Můžeme jej __nabíjet a vybíjet__
 - Skládá se z __jednotlivých článků__, které se spojují za sebou do __akumulátorových baterií__ 6V, 12V nebo 24V
-- <img src="/images/content/fyzika/elektricky-proud-v-elektrolytech/08.webp" alt="" width="381" loading="lazy" decoding="async">Schopnost akumulátoru akumulovat náboj vyjadřuje __kapacita akumulátoru__, udává se v __ampérhodinách__ (A·h)
-- <img src="/images/content/fyzika/elektricky-proud-v-elektrolytech/09.webp" alt="" width="278" loading="lazy" decoding="async">Např. olověný, gelový
+- Schopnost akumulátoru akumulovat náboj vyjadřuje __kapacita akumulátoru__, udává se v __ampérhodinách__ (A·h)
+- Např. olověný, gelový
+
+  <img src="/images/content/fyzika/elektricky-proud-v-elektrolytech/08.webp" alt="" width="381" loading="lazy" decoding="async">
+
+  <img src="/images/content/fyzika/elektricky-proud-v-elektrolytech/09.webp" alt="" width="278" loading="lazy" decoding="async">
+
 
 ## Technické využití elektrolýzy
 

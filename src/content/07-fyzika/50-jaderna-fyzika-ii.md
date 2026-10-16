@@ -36,7 +36,7 @@ Takováto jádra v přírodě běžně neexistují, ale byla vytvořena uměle. 
 
 Umělá radioaktivita byla objevena v r. 1934 (Frederic a Irene Joliot-Curie, NC za Ch 1935) při ostřelování hliníku částicemi α:
 
-<img src="/images/content/fyzika/50-jaderna-fyzika-ii/01.webp" alt="" width="187" loading="lazy" decoding="async">
+$${}^{4}_{2}\mathrm{He} + {}^{27}_{13}\mathrm{Al} \to {}^{30}_{15}\mathrm{P} + {}^{1}_{0}n$$
 
 Druhy jaderného záření I.
 
@@ -48,9 +48,17 @@ __*β-*__ proud elektronů o energii až 10 MeV emitovaných z jádra. Pohybují
 
 Některé radionuklidy vyzařují místo elektronů pozitrony a potom hovoříme o β+ rozpadu
 
-<img src="/images/content/fyzika/50-jaderna-fyzika-ii/02.webp" alt="" width="159" loading="lazy" decoding="async">
+**Přeměna α:**
 
-<img src="/images/content/fyzika/50-jaderna-fyzika-ii/03.webp" alt="" width="158" loading="lazy" decoding="async">      <img src="/images/content/fyzika/50-jaderna-fyzika-ii/04.webp" alt="" width="170" loading="lazy" decoding="async">
+$${}^{A}_{Z}X \to {}^{A-4}_{Z-2}Y + {}^{4}_{2}\mathrm{He}$$
+
+**Přeměna β⁻:**
+
+$${}^{A}_{Z}X \to {}^{A}_{Z+1}Y + {}^{0}_{-1}e$$
+
+**Přeměna β⁺:**
+
+$${}^{A}_{Z}X \to {}^{A}_{Z-1}Y + {}^{0}_{+1}e$$
 
 __*γ*__ – nejpronikavější, lze jej zeslabit olověnou deskou nebo silnou vrstvou železobetonu. Ani v el. ani v mg. poli se neodchyluje – jedná se o elmg vlnění. Má silné ionizační účinky a v důsledku fotoefektu uvolňuje z látek nabité částice. Radioaktivní záření γ samostatně neexistuje, ale doprovází záření α nebo β.
 
@@ -72,9 +80,9 @@ N0 … počet jader v t=0 s
 
 *Poločas přeměny (rozpadu)* *T* je doba, za kterou se rozpadne polovina původního počtu jader
 
-<img src="/images/content/fyzika/50-jaderna-fyzika-ii/05.webp" alt="" width="201" loading="lazy" decoding="async">
+$$N = N_0 \cdot \mathrm{e}^{-\lambda t} = N_0 \cdot \mathrm{e}^{-\frac{\ln 2}{T} t}$$
 
-<img src="/images/content/fyzika/50-jaderna-fyzika-ii/06.webp" alt="" width="82" loading="lazy" decoding="async">
+$$T = \frac{\ln 2}{\lambda}$$
 
 Aktivita zářiče
 

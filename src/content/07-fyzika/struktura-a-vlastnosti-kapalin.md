@@ -30,9 +30,9 @@ Struktura kapalin
 - __Skalární veličina__, vyjadřuje __pružnou__ vlastnost __povrchové vrstvy__
 - __Povrchové napětí σ__ se rovná podílu velikosti __povrchové síly__ __F__ a délky __l__ __okraje povrchové blány__, na který povrchová síla působí __kolmo__ v povrchu kapaliny
 
-  <img src="/images/content/fyzika/struktura-a-vlastnosti-kapalin/02.webp" alt="" width="152" loading="lazy" decoding="async">
+$$\sigma = \frac{F}{l}$$
 
-## N.m-1
+Jednotka: N · m⁻¹
 
 - Závisí na __druhu__ kapaliny, na __prostředí__ nad povrchem kapaliny, s __rostoucí teplotou__ povrchové __napětí klesá__
 - Přidáním __saponátu__ či __mýdla__ se __povrchové napětí snižuje__ – voda __lépe smáčí__ (snáze pronikne do skulin mezi nečistotami)
@@ -51,11 +51,17 @@ Struktura kapalin
 - __F1__ – přitažlivá síla částic stěny nádoby
 - __F2__ – přitažlivá síla molekul kapaliny (směřuje dovnitř kapaliny)
 - __F = F1 + F2__
-	- jestliže __výslednice__ směřuje __ven__ z kapaliny, pak povrch kapaliny je __dutý__ (např. voda ve sklenici) - __kapalina smáčí stěnu__<img src="/images/content/fyzika/struktura-a-vlastnosti-kapalin/04.webp" alt="" width="272" loading="lazy" decoding="async"><img src="/images/content/fyzika/struktura-a-vlastnosti-kapalin/05.webp" alt="" width="319" loading="lazy" decoding="async"><img src="/images/content/fyzika/struktura-a-vlastnosti-kapalin/06.webp" alt="" width="300" loading="lazy" decoding="async">
+	- jestliže __výslednice__ směřuje __ven__ z kapaliny, pak povrch kapaliny je __dutý__ (např. voda ve sklenici) - __kapalina smáčí stěnu__
+
+  <img src="/images/content/fyzika/struktura-a-vlastnosti-kapalin/04.webp" alt="" width="272" loading="lazy" decoding="async">
+
+  <img src="/images/content/fyzika/struktura-a-vlastnosti-kapalin/05.webp" alt="" width="319" loading="lazy" decoding="async">
+
+  <img src="/images/content/fyzika/struktura-a-vlastnosti-kapalin/06.webp" alt="" width="300" loading="lazy" decoding="async">
 
 <img src="/images/content/fyzika/struktura-a-vlastnosti-kapalin/07.webp" alt="" width="280" loading="lazy" decoding="async">
 
-- <img src="/images/content/fyzika/struktura-a-vlastnosti-kapalin/08.webp" alt="" width="156" loading="lazy" decoding="async">Jestliže __výslednice__ směřuje __dovnitř__ kapaliny, je povrch __vypuklý__ (např. rtuť v mědi) __- kapalina nesmáčí stěnu__
+- Jestliže __výslednice__ směřuje __dovnitř__ kapaliny, je povrch __vypuklý__ (např. rtuť v mědi) __- kapalina nesmáčí stěnu__
 - Pokud výslednice leží na __povrchu__ nádoby, je povrch __rovný__
 - Úhel __v = stykový úhel__
 - __ν=0°__→dokonale __smáčí__; __ν= π__ → dokonale __nesmáčí__
@@ -65,15 +71,21 @@ Struktura kapalin
 
 - Nastává u trubic s velmi __malým vnitřním průměrem__
 - Jevy způsobeny __kapilárním tlakem__
-- <img src="/images/content/fyzika/struktura-a-vlastnosti-kapalin/09.webp" alt="" width="210" loading="lazy" decoding="async">__kapilární elevace__ (jestliže kapalina __smáčí__ vnitřní povrch kapiláry)
+- __kapilární elevace__ (jestliže kapalina __smáčí__ vnitřní povrch kapiláry)
+
+  <img src="/images/content/fyzika/struktura-a-vlastnosti-kapalin/08.webp" alt="" width="156" loading="lazy" decoding="async">
+
 - __kapilární deprese__ (kapalina __nesmáčí__ vnitřní povrch kapiláry)
+
+  <img src="/images/content/fyzika/struktura-a-vlastnosti-kapalin/09.webp" alt="" width="210" loading="lazy" decoding="async">
+
 - depresi a elevaci souhrnně nazýváme __kapilarita__
 - __např__. vystupování vody z hloubky kapilárami do povrchových vrstev půdy, kde se vypařuje – __vzlínavost__
 - Pro __výšku h__ při kapilární elevaci/depresi platí vztah:
 
-  <img src="/images/content/fyzika/struktura-a-vlastnosti-kapalin/10.webp" alt="" width="143" loading="lazy" decoding="async">
+$$h = \frac{2 \sigma}{\rho g R}$$
 
-__ς__ – hustota kapaliny; __σ__ – povrchové napětí
+__ρ__ – hustota kapaliny; __σ__ – povrchové napětí
 
 __R__ – vnitřní poloměr kapiláry; __g__ – grav. zrychlení
 
@@ -92,23 +104,26 @@ __R__ – vnitřní poloměr kapiláry; __g__ – grav. zrychlení
 - Nastává při __změně teploty__
 - Pro __nepříliš velké teplotní__ rozdíly a za __stálého__ vnějšího __tlaku__ platí:
 
-<img src="/images/content/fyzika/struktura-a-vlastnosti-kapalin/12.webp" alt="" width="264" loading="lazy" decoding="async">
+$$V = V_1 (1 + \beta \Delta t)$$
 
 __β__ = teplotní součinitel objemové roztažnosti 	kapaliny (viz MFCHT)
 
 - Pro __větší__ teplotní __rozdíly__:
 
-<img src="/images/content/fyzika/struktura-a-vlastnosti-kapalin/13.webp" alt="" width="467" loading="lazy" decoding="async">
+$$V = V_1 \left[1 + \beta_1 \Delta t + \beta_2 (\Delta t)^2\right]$$
 
 - Využívá se u __kapalinových teploměrů__
 - Se změnou teploty kapaliny se mění také její __hustota__:
 
-  ς = ς1 (1 – βΔt)
+$$\rho = \rho_1 (1 - \beta \Delta t)$$
 
 ## Anomálie vody
 
 - __Hustota__ vody v intervalu __0°C__ až __4°C__ __roste__ (a __zmenšuje__ se její __objem__), při teplotě __4°C__ dosahuje __maxima__ a pak __klesá__ (__objem__ se __zvětšuje__)
-- Tento jev se nazývá __anomálie vody__<img src="/images/content/fyzika/struktura-a-vlastnosti-kapalin/14.webp" alt="" width="334" loading="lazy" decoding="async">
+- Tento jev se nazývá __anomálie vody__
+
+  <img src="/images/content/fyzika/struktura-a-vlastnosti-kapalin/14.webp" alt="" width="334" loading="lazy" decoding="async">
+
 - Led při teplotě __0 °C__ úplně __neroztaje__, takže ve vodě zůstávají drobné krystalky ledu    - v nichž jsou molekuly vzdálenější než ve vodě
 - Při __zvětšování__ teploty od __0 °C__ do __4 °C__ zbytky ledu mizí, tím se __zmenšují vzdálenosti__ mezi molekulami vody a celkový __objem klesá__, __hustota roste__.
 - Od __4 °C__ se při ohřívání střední __vzdálenosti__ molekul __zvětšují__, __objem roste__ a __hustota klesá__.

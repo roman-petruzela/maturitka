@@ -99,7 +99,7 @@ Vazebná energie jader jednotlivých nuklidů se navzájem liší a proto zavád
 
 <img src="/images/content/fyzika/49-jaderna-fyzika-i/08.webp" alt="" width="256" loading="lazy" decoding="async">
 
-<img src="/images/content/fyzika/49-jaderna-fyzika-i/09.webp" alt="" width="68" loading="lazy" decoding="async">
+$$\varepsilon_j = \frac{E_j}{A}$$
 
 Vazebné energii odpovídá podle vztahu ΔE = Δm.c2 úbytek klidové hmotnosti, který nazýváme __hmotnostní úbytek *B.*__
 
@@ -115,9 +115,9 @@ Jaderné reakce jsou přeměny jader atomů vyvolané vnějším zásahem (srá�
 
 Další jaderná reakce již vedla k objevení neutronu (experimentálně i teoreticky vysvětlen tento jev až J. Chadwickem 1932, NC 1935)
 
-<img src="/images/content/fyzika/49-jaderna-fyzika-i/10.webp" alt="" width="190" loading="lazy" decoding="async">
+$${}^{4}_{2}\mathrm{He} + {}^{14}_{7}\mathrm{N} \to {}^{17}_{8}\mathrm{O} + {}^{1}_{1}\mathrm{H}$$
 
-<img src="/images/content/fyzika/49-jaderna-fyzika-i/11.webp" alt="" width="217" loading="lazy" decoding="async">
+$${}^{9}_{4}\mathrm{Be} + {}^{4}_{2}\mathrm{He} \to {}^{12}_{6}\mathrm{C} + {}^{1}_{0}\mathrm{n}$$
 
 Fúze a štěpení I
 
@@ -129,7 +129,9 @@ __Jaderná syntéza (fúze)__ – složením dvou lehčích jader (s menší ho
 
 *2) Řízená termonukleární reakce je stále ve stádiu výzkumu a experimentů*
 
-<img src="/images/content/fyzika/49-jaderna-fyzika-i/12.webp" alt="" width="160" loading="lazy" decoding="async"> <img src="/images/content/fyzika/49-jaderna-fyzika-i/13.webp" alt="" width="142" loading="lazy" decoding="async">
+- ${}^{2}_{1}\mathrm{H} + {}^{2}_{1}\mathrm{H} \to {}^{3}_{1}\mathrm{H} + {}^{1}_{1}\mathrm{H}$, $E_r = 4{,}03\ \mathrm{MeV}$
+- ${}^{2}_{1}\mathrm{H} + {}^{3}_{1}\mathrm{H} \to {}^{4}_{2}\mathrm{He} + {}^{1}_{0}\mathrm{n}$, $E_r = 17{,}6\ \mathrm{MeV}$
+- ${}^{2}_{1}\mathrm{H} + {}^{2}_{1}\mathrm{H} \to {}^{3}_{2}\mathrm{He} + {}^{1}_{0}\mathrm{n}$, $E_r = 3{,}25\ \mathrm{MeV}$
 
 Fúze a štěpení II
 
@@ -141,7 +143,9 @@ Vzniklá jádra jsou v excitovaném stavu a uvolňuje se kolem 200 MeV energie. 
 
 *Pozn.: Jaderná štěpná reakce se využívá v jaderných elektrárnách (řízená reakce – 1942 E. Fermi), zneužívá se v jaderných bombách (neřízená reakce – Hirošima a Nagasaki 1945).*
 
-<img src="/images/content/fyzika/49-jaderna-fyzika-i/14.webp" alt="" width="272" loading="lazy" decoding="async">
+$${}^{235}_{92}\mathrm{U} + {}^{1}_{0}\mathrm{n} \to {}^{144}_{56}\mathrm{Ba} + {}^{89}_{36}\mathrm{Kr} + 3 {}^{1}_{0}\mathrm{n}$$
+
+$${}^{235}_{92}\mathrm{U} + {}^{1}_{0}\mathrm{n} \to {}^{91}_{38}\mathrm{Sr} + {}^{140}_{54}\mathrm{Xe} + 5 {}^{1}_{0}\mathrm{n}$$
 
 <img src="/images/content/fyzika/49-jaderna-fyzika-i/15.webp" alt="" width="208" loading="lazy" decoding="async">Jaderný reaktor
 

@@ -24,7 +24,11 @@ Gravitace
 
 - Jeden z nejdůležitějších zákonů fyziky, Newton na něj přišel na základě pozorování pohybu Měsíce kolem Země a pohybu planet kolem Slunce
 - *Dva hmotné body se navzájem přitahují stejně velkými gravitačními silami Fg, -Fg navzájem opačného směru. Velikost gravitační síly Fg je přímo úměrná součinu hmotností m1, m2 hmotných bodů a nepřímo úměrná druhé mocnině jejich vzdáleností r.*
-- Kde ϰ je __Newtonova gravitační konstanta__. (někdy označovaná G)<img src="/images/content/fyzika/gravitacni-pole/01.webp" alt="" width="261" loading="lazy" decoding="async"><img src="/images/content/fyzika/gravitacni-pole/02.webp" alt="" width="212" loading="lazy" decoding="async">
+- Kde ϰ je __Newtonova gravitační konstanta__. (někdy označovaná G)
+
+  <img src="/images/content/fyzika/gravitacni-pole/01.webp" alt="" width="261" loading="lazy" decoding="async">
+
+$$F_g = \varkappa \frac{m_1 m_2}{r^2}$$
 
 	ϰ = 6,672 ·10-11
 
@@ -44,11 +48,10 @@ Gravitace
 
 - Je vektorová fyzikální veličina __charakterizující účinky gravitačního pole na těleso nebo HB__. Intenzita v bodě P je definována vztahem:
 
-<img src="/images/content/fyzika/gravitacni-pole/03.webp" alt="" width="101" loading="lazy" decoding="async">	 => =>
+$$\vec K = \frac{\vec F_g}{m}$$
 
-...pro těleso ve vzdálenosti r od Země
-
-...pro těleso na povrchu Země
+- $K = \varkappa \frac{M_Z}{r^2}$ … pro těleso ve vzdálenosti r od středu Země
+- $K = \varkappa \frac{M_Z}{R_Z^2}$ … pro těleso na povrchu Země
 
 Mz – hmotnost Země = 5,98 \* 10^24 kg
 
@@ -87,7 +90,9 @@ m – hmotnost tělesa, ω – úhlová rychlost otáčení Země, r – vzdále
 
 - V laboratorní soustavě na každé těleso působí výslednice gravitační a odstředivé síly. Jde o sílu tíhovou, označuje se
 
-  **F**G=**F**g+**F**o<img src="/images/content/fyzika/gravitacni-pole/05.webp" alt="" width="271" loading="lazy" decoding="async">
+  **F**G=**F**g+**F**o
+
+<img src="/images/content/fyzika/gravitacni-pole/05.webp" alt="" width="271" loading="lazy" decoding="async">
 
 - Její směr se označuje jako __svislý__. Udává jej např. __klidná olovnice__
 - Nepůsobí-li na HB jiná síla než tíhová, pohybuje se HB v lab. soustavě se zrychlením __g__.

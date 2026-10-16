@@ -21,18 +21,22 @@ Hydrodynamika
 - Vzhledem k tomu, že je ideální kapalina __nestlačitelná__, __nemůže__ se při proudění v žádném místě trubice __hromadit__. Proto je objemový průtok v každém průřezu trubice v určitém okamžiku __stejný__. Tedy   __Qv = konst.__   neboli	__S\*v = konst.__
 - Ve vodorovné trubici o __nestejném průřezu__ se ideální kapalina __nemůže hromadit__ a objemový průtok je v každém průřezu __stejný__.
 
-Platí 	  __Qv = konst.__   a proto   __= konst.__
+Platí 	  __Qv = konst.__   a proto $S_1 v_1 = S_2 v_2 = \text{konst.}$
 
 <img src="/images/content/fyzika/hydrodynamika/02.webp" alt="" width="218" loading="lazy" decoding="async">
 
-- Ze vztahu vidíme, že pokud je , pak  . __Proto v užším průřezu trubice proudí kapalina větší rychlostí než v průřezu širším__.
+- Ze vztahu vidíme, že pokud je $S_1 > S_2$, pak $v_1 < v_2$. __Proto v užším průřezu trubice proudí kapalina větší rychlostí než v průřezu širším__.
 - <img src="/images/content/fyzika/hydrodynamika/03.webp" alt="" width="291" loading="lazy" decoding="async">__Využití__ – zahradnické hadice (větší rychlosti tryskající vody dosáhneme, zúžíme-li její konec), vodní vývěva
 
 ## Bernoulliho rovnice
 
-- <img src="/images/content/fyzika/hydrodynamika/04.webp" alt="" width="202" loading="lazy" decoding="async">*Proudí-li ideální kapalina vodorovnou trubicí s různým obsahem příčného řezu, je součet kinetické a tlakové energie kapaliny o objemu V v každém místě trubice stejný.*
+- *Proudí-li ideální kapalina vodorovnou trubicí s různým obsahem příčného řezu, je součet kinetické a tlakové energie kapaliny o objemu V v každém místě trubice stejný.*
 - __Zákon zachování mechanické energie__ pro proudění ideální kapaliny ve vodorovném potrubí = __Bernoulliho rovnice:__
-- <img src="/images/content/fyzika/hydrodynamika/05.webp" alt="" width="336" loading="lazy" decoding="async">Pro vodorovnou trubici se __dvěma různými průřezy__ zapisujeme Bernoulliho rovnici ve tvaru:
+
+$$\frac{1}{2} \rho v^2 + p = \text{konst.}$$
+- Pro vodorovnou trubici se __dvěma různými průřezy__ zapisujeme Bernoulliho rovnici ve tvaru:
+
+$$\frac{1}{2} \rho v_1^2 + p_1 = \frac{1}{2} \rho v_2^2 + p_2$$
 
 <img src="/images/content/fyzika/hydrodynamika/06.webp" alt="" width="332" loading="lazy" decoding="async">
 
@@ -48,9 +52,9 @@ Platí 	  __Qv = konst.__   a proto   __= konst.__
 
 rozprašovač=
 
-<img src="/images/content/fyzika/hydrodynamika/10.webp" alt="" width="455" loading="lazy" decoding="async">
-
 - V případě, že je trubice v obecné poloze, platí rovnice:
+
+$$p_1 + h_1 \rho g + \frac{1}{2} \rho v_1^2 = p_2 + h_2 \rho g + \frac{1}{2} \rho v_2^2$$
 
 kde první člen vyjadřuje tlakovou potenciální energii, druhý člen hydrostatický tlak a poslední člen představuje kinetickou energii kapaliny.
 
@@ -75,7 +79,9 @@ kde první člen vyjadřuje tlakovou potenciální energii, druhý člen hydrost
 
 ## Newtonův vztah pro odporovou sílu
 
-- Pro velikost __aerodynamické odporové síly__ působící na tělesa __libovolného tvaru__ odvodil __Newton__ vztah:<img src="/images/content/fyzika/hydrodynamika/15.webp" alt="" width="219" loading="lazy" decoding="async">
+- Pro velikost __aerodynamické odporové síly__ působící na tělesa __libovolného tvaru__ odvodil __Newton__ vztah:
+
+$$F = \frac{1}{2} C \rho S v^2$$
 
 kde C je součinitel odporu, ρ hustota vzduchu, S obsah průřezu tělesa kolmého ke směru pohybu a v velikost rychlosti.
 
@@ -83,7 +89,7 @@ kde C je součinitel odporu, ρ hustota vzduchu, S obsah průřezu tělesa kolm�
 
 <img src="/images/content/fyzika/hydrodynamika/16.webp" alt="" width="465" loading="lazy" decoding="async">
 
-## PRVNÍ OBRÁZEK...MUSÍ BÝT DUTÝ
+První tvar na obrázku je dutá polokoule.
 
 - Přibližně proudnicový tvar mají těla ryb, těla letících ptáků a padající vodní kapky.
 - Aerodynamický tvar má rovněž profil nosné plochy letadel dosahujících menších nebo středních rychlostí.

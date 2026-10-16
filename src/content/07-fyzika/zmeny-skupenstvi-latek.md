@@ -65,7 +65,7 @@ __Tuhnutí__
 
 - Měrné skupenské teplo tuhnutí je __teplo__, které odevzdá __1 kilogram kapaliny__, jestliže se za __teploty tuhnutí__ celý přemění na __pevnou__ látku téže __teploty__
 
-<img src="/images/content/fyzika/zmeny-skupenstvi-latek/03.webp" alt="" width="128" loading="lazy" decoding="async">
+$$l_t = \frac{L_t}{m}$$
 
 - Hodnota __měrného skupenského tepla tuhnutí__ je u __krystalických__ látek pro danou látku stejná jako hodnota __měrného skupenského tepla tání__
 -  __lt =\[J·kg-1\]__, __m__ – hmotnost, __Lt__ – skupenské teplo tání
@@ -93,7 +93,7 @@ __a) olovo							b) led__
 
 - __Měrné skupenské teplo sublimace__ je teplo, které přijme __1 kilogram pevné__ látky při __sublimaci__
 
-  <img src="/images/content/fyzika/zmeny-skupenstvi-latek/06.webp" alt="" width="127" loading="lazy" decoding="async">
+$$l_s = \frac{L_s}{m}$$
 
 - __m__ – hmotnost, __Ls__  – skupenské teplo sublimace
 - __ls__ =\[J·kg-1\], __Ls__=\[J\]
@@ -135,7 +135,7 @@ __Var__
 
 - __Měrné skupenské teplo vypařování__ je třeba určit ke každé teplotě zvlášť (vypařování může probíhat za libovolné teploty), zatímco měrné skupenské teplo varu se určuje k __teplotě varu__
 
-<img src="/images/content/fyzika/zmeny-skupenstvi-latek/08.webp" alt="" width="148" loading="lazy" decoding="async">
+$$l_v = \frac{L_v}{m}$$
 
 - Měrné skupenské teplo varu je __teplo__, které přijme __1 kilogram__ kapaliny, jestliže se za __teploty varu__ celý přemění na __plyn__ téže teploty
 - __lv__ =\[J·kg-1\], __m__ – hmotnost, __Lv__ – skupenské teplo varu
@@ -209,7 +209,11 @@ __Relativní vlhkost vzduchu__
 
 - Udává poměr mezi __okamžitým množstvím vodních par__ ve vzduchu a __množstvím par__, které by __měl__ vzduch o __stejném tlaku__ a __teplotě__ při plném __nasycení__. Udává se v procentech __(%)__
 
-  <img src="/images/content/fyzika/zmeny-skupenstvi-latek/13.webp" alt="" width="170" loading="lazy" decoding="async">         <img src="/images/content/fyzika/zmeny-skupenstvi-latek/14.webp" alt="" width="151" loading="lazy" decoding="async">           <img src="/images/content/fyzika/zmeny-skupenstvi-latek/15.webp" alt="" width="120" loading="lazy" decoding="async">
+$$\varphi = 100 \cdot \frac{m}{M}\ \%$$
+
+$$\varphi = 100 \cdot \frac{\Phi}{\Phi_n}\ \%$$
+
+$$\Phi = \frac{m}{V}$$
 
 __Φn__ – absolutní vlhkost vzduchu, __m__ – hmotnost vodní páry, která je ve vzduchu obsažena,
 

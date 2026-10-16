@@ -122,9 +122,11 @@ __3. Propustný směr:__
 
 - Tranzistor – polovodičová součástka se třemi elektrodami - __emitorem__ E, __bází__ B a __kolektorem__ C.
 - Základní vlastností tranzistoru je __schopnost zesilovat__ – __malé změny napětí__ nebo __proudu__ na vstupu mohou vyvolat __velké změny napětí__ nebo __proudu__ na výstupu.
-- Tranzistor se vyrábí ve __dvou modifikacích:__<img src="/images/content/fyzika/elektricky-proud-v-polovodicich/11.webp" alt="" width="118" loading="lazy" decoding="async">
+- Tranzistor se vyrábí ve __dvou modifikacích:__
 
 __NPN__
+
+<img src="/images/content/fyzika/elektricky-proud-v-polovodicich/11.webp" alt="" width="70" loading="lazy" decoding="async">
 
 -
 	- (E – polovodič typu N; B - vrstva polovodiče P;  C – polovodič N)
@@ -132,10 +134,16 @@ __NPN__
 
 __PNP__
 
--
-	- (E - polovodič typu P; B - vrstva polovodiče N;  C - polovodič P <img src="/images/content/fyzika/elektricky-proud-v-polovodicich/12.webp" alt="" width="137" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/elektricky-proud-v-polovodicich/12.webp" alt="" width="70" loading="lazy" decoding="async">
 
-Polovodičová technika<img src="/images/content/fyzika/elektricky-proud-v-polovodicich/13.webp" alt="" width="142" loading="lazy" decoding="async"><img src="/images/content/fyzika/elektricky-proud-v-polovodicich/14.webp" alt="" width="109" loading="lazy" decoding="async">
+-
+	- (E - polovodič typu P; B - vrstva polovodiče N;  C – polovodič P)
+
+Polovodičová technika
+
+<img src="/images/content/fyzika/elektricky-proud-v-polovodicich/13.webp" alt="" width="142" loading="lazy" decoding="async">
+
+<img src="/images/content/fyzika/elektricky-proud-v-polovodicich/14.webp" alt="" width="109" loading="lazy" decoding="async">
 
 - __Analogová__
 	- Usměrňovač

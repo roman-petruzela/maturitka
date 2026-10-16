@@ -9,7 +9,7 @@ Světlo jako elektromagnetické vlnění
 - Jedná se o maximální možnou rychlost, kterou se může fyzikální objekt pohybovat. V látkovém prostředí je velikost rychlosti světla vždy menší a je ovlivněna nejen prostředím, ale také frekvencí světla.
 - Stejně jako jiné druhy vlnění, charakterizuje i světlo __vlnová délka λ__:
 
-<img src="/images/content/fyzika/vlnova-optika-1/01.webp" alt="" width="662" loading="lazy" decoding="async">
+$$\lambda = \frac{c}{f}$$
 
 kde __*f*__ je __frekvence světla__. Jako světlo se označuje elektromagnetického vlnění, na které je citlivý lidský zrakový orgán – oko: Fyziologický vjem zvaný vidění vyvolává elektromagnetické vlnění o vlnových délkách 390 nm až 790 nm.
 
@@ -18,7 +18,7 @@ kde __*f*__ je __frekvence světla__. Jako světlo se označuje elektromagnetick
 - Dopadá-li na optické rozhraní dvou prostředí bílé světlo, lomené světlo již není bílé, ale jeho okraje jsou zbarvené (jeden červeně, druhý fialově – viz obr.). Bílé světlo se tedy při lomu rozkládá na barevné složky. Tento jev se nazývá __disperze__ a je důsledkem závislosti velikosti rychlosti světla na jeho frekvenci (resp. na vlnové délce). __Velikost rychlosti světla se zpravidla s rostoucí frekvencí zmenšuje__ a nastává tzv. __normální disperze__.
 - Vzhledem k tomu, že platí:
 
-<img src="/images/content/fyzika/vlnova-optika-1/03.webp" alt="" width="386" loading="lazy" decoding="async">
+$$n = \frac{c}{v}$$
 
 projevuje se disperze světla různými hodnotami indexu lomu optického prostředí pro světla různých frekvencí: __Index lomu optického prostředí se při normální disperzi s rostoucí frekvencí zvětšuje.__
 
@@ -55,13 +55,13 @@ Obr.1
 
 1. Světlý proužek odpovídá __interferenčnímu maximu –__ vzniká v místech, kde se koherentní světelná vlnění setkávají se stejnou fází (viz obrázek). Platí podmínka:
 
-<img src="/images/content/fyzika/vlnova-optika-1/09.webp" alt="" width="356" loading="lazy" decoding="async">
+$$\Delta l = 2k \cdot \frac{\lambda}{2} = k \lambda \qquad (k = 0, 1, 2, \ldots)$$
 
 <img src="/images/content/fyzika/vlnova-optika-1/10.webp" alt="" width="293" loading="lazy" decoding="async">
 
 2\. Tmavý proužek odpovídá __interferenčnímu minimu__ – v místech, v nichž mají vlnění fázi opačnou (viz obrázek). Platí podmínka:
 
-<img src="/images/content/fyzika/vlnova-optika-1/11.webp" alt="" width="346" loading="lazy" decoding="async">
+$$\Delta l = (2k + 1) \cdot \frac{\lambda}{2} \qquad (k = 0, 1, 2, \ldots)$$
 
 - λ je vlnová délka koherentního světelného vlnění a *k* udává __řád interferenčního maxima (minima)__.
 
@@ -86,27 +86,28 @@ Obr.1
 <img src="/images/content/fyzika/vlnova-optika-1/13.webp" alt="" width="265" loading="lazy" decoding="async">
 
 - Na obr. 3a je znázorněna situace pro vznik interferenčních minim v odraženém světle.
-- V případě vzniku interferenčních maxim v odraženém světle, je nutno si pomoci stavem vlnění nikoliv v čase t0 dopadu vlnění na dolní rozhraní tenké vrstvy, ale stavem v čase
+- V případě vzniku interferenčních maxim v odraženém světle, je nutno si pomoci stavem vlnění nikoliv v čase t0 dopadu vlnění na dolní rozhraní tenké vrstvy, ale stavem v čase $t_0 + \frac{T}{4}$ (kde *T* je perioda vlnění), abychom mohli zkonstruovat odraženou vlnu (viz obr. 3b).
 
-  <img src="/images/content/fyzika/vlnova-optika-1/14.webp" alt="" width="426" loading="lazy" decoding="async">
+- Při dopadu světelné vlny na horní rozhraní se při odrazu vlny mění její fáze na opačnou, zatímco při odrazu na dolním rozhraní se fáze vlnění nemění. Změnou fáze se tedy dráhový rozdíl vln zvětší o $\frac{\lambda}{2}$, kde λ je vlnová délka uvažovaného vlnění.
 
-	(kde *T* je perioda vlnění), abychom mohli zkonstruovat odraženou vlnu (viz obr. 3b).
-
-- Při dopadu světelné vlny na horní rozhraní se při odrazu vlny mění její fáze na opačnou, zatímco při odrazu na dolním rozhraní se fáze vlnění nemění. Změnou fáze se
-
-	tedy dráhový rozdíl vln zvětší o     , kde λ je vlnová délka uvažovaného vlnění.
-
-  <img src="/images/content/fyzika/vlnova-optika-1/15.webp" alt="" width="19" loading="lazy" decoding="async">
 
 ## Podmínky interference na tenké vrstvě
 
 - Podmínky pro interferenční maximum:
 
-  <img src="/images/content/fyzika/vlnova-optika-1/16.webp" alt="" width="556" loading="lazy" decoding="async">                 <img src="/images/content/fyzika/vlnova-optika-1/17.webp" alt="" width="123" loading="lazy" decoding="async">                   <img src="/images/content/fyzika/vlnova-optika-1/18.webp" alt="" width="118" loading="lazy" decoding="async">
+$$\Delta l = 2k \cdot \frac{\lambda}{2}$$
+
+$$2nd + \frac{\lambda}{2} = 2k \cdot \frac{\lambda}{2}$$
+
+$$2nd = (2k - 1) \cdot \frac{\lambda}{2}$$
 
 - Podmínky pro interferenční minimum:
 
-<img src="/images/content/fyzika/vlnova-optika-1/19.webp" alt="" width="153" loading="lazy" decoding="async">         <img src="/images/content/fyzika/vlnova-optika-1/20.webp" alt="" width="130" loading="lazy" decoding="async">                 <img src="/images/content/fyzika/vlnova-optika-1/21.webp" alt="" width="78" loading="lazy" decoding="async">
+$$\Delta l = (2k + 1) \cdot \frac{\lambda}{2}$$
+
+$$2nd + \frac{\lambda}{2} = (2k + 1) \cdot \frac{\lambda}{2}$$
+
+$$2nd = 2k \cdot \frac{\lambda}{2}$$
 
 n… index lomu tenké vrstvy
 

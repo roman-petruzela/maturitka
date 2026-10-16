@@ -68,13 +68,19 @@ je-li b velmi malé => paprsky jsou rovnoběžné
 
 Δ s … dráhový rozdíl dvou paprsků
 
+$$\sin \alpha = \frac{\Delta s}{b}$$
+
+$$\Delta s = b \sin \alpha$$
+
 Podmínka pro interferenční maxima:
+
+$$b \sin \alpha = 2k \cdot \frac{\lambda}{2}$$
+
+$$b \sin \alpha = k \lambda \qquad (k = 0, 1, 2, \ldots)$$
 
 Při zvětšení počtu štěrbin se interferenční maxima zužují a intenzita osvětlení v nich roste.
 
 Současně vznikají vedlejší maxima s malou intenzitou osvětlení.
-
-<img src="/images/content/fyzika/vlnova-optika-2/07.webp" alt="" width="194" loading="lazy" decoding="async">
 
 b … vzdálenost štěrbin
 
@@ -84,8 +90,6 @@ k … řád interference
 
 λ … vlnová délka dopadajícího světla
 
-<img src="/images/content/fyzika/vlnova-optika-2/08.webp" alt="" width="217" loading="lazy" decoding="async">
-
 <img src="/images/content/fyzika/vlnova-optika-2/09.webp" alt="" width="200" loading="lazy" decoding="async">
 
 *b) ohyb světla na optické mřížce*
@@ -94,7 +98,7 @@ OPTICKÁ MŘÍŽKA = soustava složená z velkého počtu stejně širokých š
 
 Platí podmínka:
 
-<img src="/images/content/fyzika/vlnova-optika-2/10.webp" alt="" width="542" loading="lazy" decoding="async">
+$$b \sin \alpha = k \lambda \qquad (k = 0, 1, 2, \ldots)$$
 
 b … mřížková konstanta (perioda mřížky)
 
@@ -190,8 +194,6 @@ Islandský vápenec
 - __4. Polarizační filtry__ – potlačují vyfocení odlesku od brýlí
 - __6. Polarizační brýle pro rybáře__ – zamezují odrazům světla od hladiny
 - __7. Orientace včely__ – pomocí polarizovaného světla ze Slunce
-
-	__<img src="/images/content/fyzika/vlnova-optika-2/15.webp" alt="" width="549" loading="lazy" decoding="async">__
 
 - __8. Zobrazovací LCD jednotky__ (displej s tekutými krystaly)
 

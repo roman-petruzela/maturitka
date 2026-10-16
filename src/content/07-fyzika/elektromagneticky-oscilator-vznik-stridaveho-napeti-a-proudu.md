@@ -25,11 +25,15 @@ LC oscilační obvod
 - __Zdrojem__ je nejčastěji __alternátor__ složený ze
 	- __Statoru__ – nepohyblivá část, která vytváří homogenní mg. pole
 	- __Rotoru__ – pohyblivá část, otáčivý pohyb cívky v mg. poli
-- <img src="/images/content/fyzika/elektromagneticky-oscilator-vznik-stridaveho-napeti-a-proudu/03.webp" alt="" width="131" loading="lazy" decoding="async">Pro __okamžité napětí u__ platí vztah:
+- Pro __okamžité napětí u__ platí vztah:
 
-<img src="/images/content/fyzika/elektromagneticky-oscilator-vznik-stridaveho-napeti-a-proudu/04.webp" alt="" width="144" loading="lazy" decoding="async">
+$$u = U_m \sin \omega t$$
+
+  kde $U_m$ … amplituda střídavého napětí, $\omega = \frac{2\pi}{T} = 2\pi f$ … úhlová rychlost, $T$ … perioda, $f$ … frekvence
 
 - Pro __okamžitý proud i__ platí vztah:
+
+$$i = I_m \sin \omega t$$
 - Grafem střídavého napětí a proudu je __sinusoida__
 - Fáze kmitavého pohybu
 
@@ -48,23 +52,36 @@ LC oscilační obvod
 
 - Napětí na kondenzátoru je stejně veliké jako napětí na cívce, z toho plyne:
 
-<img src="/images/content/fyzika/elektromagneticky-oscilator-vznik-stridaveho-napeti-a-proudu/06.webp" alt="" width="162" loading="lazy" decoding="async">
+$$X_L = X_C$$
 
-- XL = induktance \[ω\],XC  =kapacitance \[ω\]
+- $X_L$ … induktance, $X_C$ … kapacitance (obě v ohmech, Ω)
 
-<img src="/images/content/fyzika/elektromagneticky-oscilator-vznik-stridaveho-napeti-a-proudu/07.webp" alt="" width="174" loading="lazy" decoding="async">
+**Kapacitance kondenzátoru** – je definována podílem veličin $U_m$ a $I_m$:
 
-<img src="/images/content/fyzika/elektromagneticky-oscilator-vznik-stridaveho-napeti-a-proudu/08.webp" alt="" width="154" loading="lazy" decoding="async">
+$$X_C = \frac{U_m}{I_m} = \frac{1}{\omega C}$$
 
-<img src="/images/content/fyzika/elektromagneticky-oscilator-vznik-stridaveho-napeti-a-proudu/09.webp" alt="" width="146" loading="lazy" decoding="async"><img src="/images/content/fyzika/elektromagneticky-oscilator-vznik-stridaveho-napeti-a-proudu/10.webp" alt="" width="140" loading="lazy" decoding="async">
+- jednotka kapacitance je stejná jako jednotka odporu: $[X_C] = \Omega$
+- kapacitance se zmenšuje s rostoucí frekvencí střídavého proudu a s rostoucí kapacitou kondenzátoru
+
+**Induktance cívky** – na střídavý proud v obvodu s cívkou má vliv frekvence proudu $f$ a indukčnost cívky $L$:
+
+$$X_L = \frac{U_m}{I_m} = \omega L$$
+
+- jednotka induktance je stejná jako jednotka odporu: $[X_L] = \Omega$
+
+Z rovnosti $X_L = X_C$ plyne:
+
+$$\omega_0 L = \frac{1}{\omega_0 C}$$
+
+$$\omega_0 = \frac{1}{\sqrt{L C}}$$
 
 - Po rozložení získáme __Thomsonův vztah__ pro __periodu vlastního kmitání elmg.  oscilátoru:__
 
-<img src="/images/content/fyzika/elektromagneticky-oscilator-vznik-stridaveho-napeti-a-proudu/11.webp" alt="" width="283" loading="lazy" decoding="async">
+$$T_0 = \frac{2\pi}{\omega_0} = 2\pi \sqrt{L C}$$
 
 - Dále také získáme vztah pro __frekvenci vlastního kmitání:__
 
-<img src="/images/content/fyzika/elektromagneticky-oscilator-vznik-stridaveho-napeti-a-proudu/12.webp" alt="" width="217" loading="lazy" decoding="async">
+$$f_0 = \frac{1}{2\pi \sqrt{L C}}$$
 
 ## Tlumené kmitání
 

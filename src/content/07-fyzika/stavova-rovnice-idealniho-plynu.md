@@ -31,7 +31,7 @@ Ideální plyn
 
 __2.    Histogramem__
 
-__<img src="/images/content/fyzika/stavova-rovnice-idealniho-plynu/02.webp" alt="" width="585" loading="lazy" decoding="async">__
+<img src="/images/content/fyzika/stavova-rovnice-idealniho-plynu/02.webp" alt="" width="585" loading="lazy" decoding="async">
 
 - Nahodilými srážkami mohou molekuly plynů vzduchu získat i __větší rychlost__, než je __úniková rychlost v gravitačním poli Země__ a uniknou tak ze zemské atmosféry, jejich počet je ale tak malý, že __Země__ svoji __atmosféru__ prakticky __neztrácí__
 
@@ -42,7 +42,7 @@ __<img src="/images/content/fyzika/stavova-rovnice-idealniho-plynu/02.webp" alt=
 - Na každou molekulu plynu připadá __střední kinetická energie__ Ek/N, kde __N__ je __počet molekul__
 - Zavádíme pojem __střední kvadratická rychlost__, značíme ji __vk__ a je to statistická veličina, která vyjadřuje __rychlost__, jíž by se __měly__ pohybovat všechny molekuly při __nezměněné__ celkové vnitřní kinetické energii soustavy, vypočítáme ji ze vzorce:
 
-<img src="/images/content/fyzika/stavova-rovnice-idealniho-plynu/03.webp" alt="" width="172" loading="lazy" decoding="async">
+$$v_k = \sqrt{\frac{3kT}{m_0}}$$
 
 - __Boltzmannova konstanta k__≈ 1,38·10-23 J·K-1·mol-1, __T termodynamická teplota__ plynu a __m0 hmotnost__ jedné molekuly
 
@@ -55,15 +55,20 @@ __<img src="/images/content/fyzika/stavova-rovnice-idealniho-plynu/02.webp" alt=
 - Každá molekula ideálního plynu má v důsledku neuspořádaného posuvného pohybu __střední kinetickou energii__, která je přímo úměrná __termodynamické teplotě__ plynu
 - Vztah pro __Ek__ umožňuje vyjádřit __vnitřní energii U__ ideálního plynu s __N jednoatomovými molekulami__, platí tedy:
 
-<img src="/images/content/fyzika/stavova-rovnice-idealniho-plynu/04.webp" alt="" width="227" loading="lazy" decoding="async">
+$$U = \frac{3}{2} N k T = \frac{3}{2} n R T$$
 
 - Dosadíme-li do tohoto vztahu __N = nNA__ a součin __kNA__ označíme __R__, kde __n__ je __látkové množství plynu__, __R molární plynová konstanta__ a __T termodynamická teplota__ plynu
 
 ## Tlak plynu
 
 - __Tepelný pohyb__ molekul plynu uzavřeného v nádobě má za __následek__ srážky těchto molekul s částicemi vnitřních stěn nádoby, což se projevuje jako __střední tlaková síla F__ plynu na určitou plochu __S__
-- Vztah __p = F/S__ vyjadřuje __střední hodnotu tlaku plynu__, který můžeme změřit manometrem, např. __kapalinovým__<img src="/images/content/fyzika/stavova-rovnice-idealniho-plynu/05.webp" alt="" width="256" loading="lazy" decoding="async">
-- <img src="/images/content/fyzika/stavova-rovnice-idealniho-plynu/06.webp" alt="" width="162" loading="lazy" decoding="async">__Tlak ideálního plynu__ je přímo úměrný __hustotě molekul NV = N/V__, __hmotnosti m0__ jedné molekuly a druhé mocnině __střední kvadratické rychlosti vk__, matematicky tuto závislost vyjadřuje základní rovnice pro tlak ideálního plynu
+- Vztah __p = F/S__ vyjadřuje __střední hodnotu tlaku plynu__, který můžeme změřit manometrem, např. __kapalinovým__
+
+  <img src="/images/content/fyzika/stavova-rovnice-idealniho-plynu/05.webp" alt="" width="256" loading="lazy" decoding="async">
+
+- __Tlak ideálního plynu__ je přímo úměrný __hustotě molekul NV = N/V__, __hmotnosti m0__ jedné molekuly a druhé mocnině __střední kvadratické rychlosti vk__, matematicky tuto závislost vyjadřuje základní rovnice pro tlak ideálního plynu
+
+$$p = \frac{1}{3} \cdot \frac{N}{V} \cdot m_0 v_k^2$$
 
 ## Stavová rovnice pro ideální plyn
 
@@ -131,7 +136,7 @@ pV diagram
 - Děj, při němž je __objem plynu stálý__, se nazývá __izochorický děj__, ze stavové rovnice pro ideální plyn vyplývá:
 	- Při izochorickém ději s ideálním plynem __stálé hmotnosti__ je tlak plynu přímo úměrný jeho termodynamické teplotě (zákon Charlesův):
 
-<img src="/images/content/fyzika/stavova-rovnice-idealniho-plynu/08.webp" alt="" width="159" loading="lazy" decoding="async">
+$$\frac{p}{T} = \text{konst.}$$
 
 - Graf vyjadřující tlak plynu __stálé hmotnosti__ jako funkci jeho __termodynamické teploty__ nebo jeho __objemu__ při izochorickém ději se nazývá __izochora__
 - <img src="/images/content/fyzika/stavova-rovnice-idealniho-plynu/09.webp" alt="" width="264" loading="lazy" decoding="async">Při izochorickém ději __plyn nekoná práci__ a z __prvního termodynamického zákona__ vyplývá:
@@ -142,7 +147,7 @@ pV diagram
 - Děj, při kterém je __tlak plynu stálý__, se nazývá __izobarický děj__, ze stavové rovnice pro ideální plyn vyplývá:
 	- Při izobarickém ději s ideálním plynem __stálé hmotnosti__ je objem plynu přímo úměrný jeho termodynamické teplotě (zákon Gay-Lussacův):
 
-      <img src="/images/content/fyzika/stavova-rovnice-idealniho-plynu/10.webp" alt="" width="113" loading="lazy" decoding="async">
+      $$\frac{V}{T} = \text{konst.}$$
 
 - <img src="/images/content/fyzika/stavova-rovnice-idealniho-plynu/11.webp" alt="" width="216" loading="lazy" decoding="async">Graf vyjadřující objem plynu __stálé hmotnosti__ jako funkci jeho termodynamické teploty, resp. tlak plynu jako funkci jeho objemu, při __izobarickém ději__ se nazývá __izobara__
 - __Mění se vnitřní energie__ __plynu__ a plyn __koná práci__, tedy dostáváme z __prvního termodynamického zákona:__

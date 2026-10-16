@@ -17,7 +17,7 @@ II. postulát - Při pohybu po stabilní dráze elektron samovolně nemění svo
 
 III. postulát - Při přechodu elektronu na jinou stabilní dráhu dochází k vyzáření nebo pohlcení fotonu o frekvenci určené vztahem
 
-<img src="/images/content/fyzika/elektronovy-obal-atomu/01.webp" alt="" width="88" loading="lazy" decoding="async">
+$$f = \frac{E_i - E_j}{h}$$
 
 - Bohrův model si zachoval dobré vlastnosti z planetárního modelu a podařilo se mu stabilizovat pohyb elektronů kolem atomového jádra.
 - Jeho velkým úspěchem bylo objasnění původu spektrálních čar atomu vodíku.
@@ -35,31 +35,31 @@ Moderní kvantově mechanický model atomu vznikl na základě de Broglieho teo
 
 vlnová funkce  Ψ(x, y, z, t),
 
-podle které elektron (stejně jako všechny ostatní částice) není popisován jako hmotný bod, ale jako vlnová funkce definující pravděpodobnosti výskytu elektronu v různých místech prostoru. Spolu s Heisenbergovými relacemi neurčitosti
+podle které elektron (stejně jako všechny ostatní částice) není popisován jako hmotný bod, ale jako vlnová funkce definující pravděpodobnosti výskytu elektronu v různých místech prostoru. Spolu s Heisenbergovými relacemi neurčitosti $\Delta x \cdot \Delta p \geq h$
 
 to znamená, že elegantní pravidelné eliptické dráhy Bohrova modelu byly opuštěny a nahrazeny neostře definovanými oblastmi, ve kterých se elektron s určitou pravděpodobností nalézá, tzv. orbitaly. Tento model je sice hůře pochopitelný a jeho pravděpodobnostní povaha zejména zpočátku přitahovala značnou kritiku, dokáže však vysvětlit mnoho atomových vlastností, které byly dřívějšími teoriemi nepředpověditelné.
 
 Kvantově mechanický model je již zcela založen na principech kvantové fyziky.
 
-<img src="/images/content/fyzika/elektronovy-obal-atomu/02.webp" alt="" width="75" loading="lazy" decoding="async">
+Energie elektronu je kvantovaná ($n = 1, 2, 3, \ldots$ … kvantové číslo):
 
-<img src="/images/content/fyzika/elektronovy-obal-atomu/03.webp" alt="" width="105" loading="lazy" decoding="async">
+$$E_n = \frac{h^2}{8 m L^2} \cdot n^2$$
 
-Energie elektronu je kvantovaná				n=1,2,3 .. kvantové číslo
+a v základním stavu ($n = 1$) je
 
- a v základním stavu je					n=1 … základní stav
+$$E_1 = \frac{h^2}{8 m L^2}$$
 
 (a je nejnižší možnou hodnotou)
 
 Energie excitovaných stavů je potom
 
+$$E_n = n^2 \cdot E_1$$
+
 Trojrozměrnost elektronových stojatých vln se projevuje v tom, že k popisu každé vlny potřebujeme tři kvantová čísla – *n, l, m*
 
 Oblast atomu, ve které je hustota pravděpodobnosti (|Ψ|2) výskytu elektronu největší, se nazývá atomový orbital
 
-<img src="/images/content/fyzika/elektronovy-obal-atomu/04.webp" alt="" width="84" loading="lazy" decoding="async">
 
-<img src="/images/content/fyzika/elektronovy-obal-atomu/05.webp" alt="" width="68" loading="lazy" decoding="async">
 
 __Kvantové číslo__
 

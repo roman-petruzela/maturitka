@@ -63,7 +63,10 @@ __Pozn.__
 
 - Charakterizuje __stav napjatosti__ uvnitř tělesa
 - V libovolném __příčném řezu__ vzniká stav napjatosti charakterizovaný veličinou __normálového napětí σn__ , kde __Fp__ je velikost __síly pružnosti__ působící kolmo na plochu příčného řezu o __obsahu S__
-- <img src="/images/content/fyzika/deformace-pevneho-telesa/06.webp" alt="" width="151" loading="lazy" decoding="async">Hlavní jednotkou __normálového napětí__ je __Pa__. V praxi se využívá násobných jednotek MPa nebo GPa
+
+$$\sigma_n = \frac{F_p}{S}$$
+
+- Hlavní jednotkou __normálového napětí__ je __Pa__. V praxi se využívá násobných jednotek MPa nebo GPa
 - Pomocí __σn__ můžeme určit, kdy je ještě __deformace pružná__
 - Měříme veličinou __mez pružnosti σE__ , což je __experimentálně__ určená n**ejvětší hodnota σn** , při kterém je ještě __deformace pružná__, při vyšším __σn__ je těleso __trvale deformováno__
 - Překročí-li normálové napětí tzv. __mez pevnosti σp__, poruší se __soudržnost materiálu__ (drát se přetrhne, cihla se rozpadne).
@@ -72,21 +75,17 @@ __Pozn.__
 
 - Při __pružné__ deformaci __tahem__ je __normálové napětí__ přímo úměrné __relativnímu prodloužení__
 
-<img src="/images/content/fyzika/deformace-pevneho-telesa/07.webp" alt="" width="133" loading="lazy" decoding="async">
+$$\sigma_n = E \cdot \varepsilon$$
 
-<img src="/images/content/fyzika/deformace-pevneho-telesa/08.webp" alt="" width="223" loading="lazy" decoding="async">
+$$\varepsilon = \frac{\Delta l}{l_1}$$
 
-<img src="/images/content/fyzika/deformace-pevneho-telesa/09.webp" alt="" width="27" loading="lazy" decoding="async">
+$\sigma_n$ … normálové napětí
 
-… normálové napětí
-
-<img src="/images/content/fyzika/deformace-pevneho-telesa/10.webp" alt="" width="27" loading="lazy" decoding="async">
-
-… relativní prodloužení
+$\varepsilon$ … relativní prodloužení
 
 __E__   … látková konstanta, __Youngův modul pružnosti__ v tahu, \[E\] = Pa, (MPa, GPa)
 
-<img src="/images/content/fyzika/deformace-pevneho-telesa/11.webp" alt="" width="32" loading="lazy" decoding="async">… rozdíl původní délky __l1__ a koncové délky __l__
+$\Delta l$ … rozdíl původní délky __l1__ a koncové délky __l__
 
 <img src="/images/content/fyzika/deformace-pevneho-telesa/12.webp" alt="" width="450" loading="lazy" decoding="async"><img src="/images/content/fyzika/deformace-pevneho-telesa/13.webp" alt="" width="483" loading="lazy" decoding="async">
 
@@ -102,7 +101,9 @@ __E__   … látková konstanta, __Youngův modul pružnosti__ v tahu, \[E\] = P
 - zkoumáme – li u pevného tělesa změnu __jednoho__ jeho __rozměru__ např. délku drátu, mluvíme o __teplotní délkové roztažnosti__
 - prodloužení tyče je přímo úměrné počáteční délce tyče a přírůstku její teploty
 
-<img src="/images/content/fyzika/deformace-pevneho-telesa/14.webp" alt="" width="257" loading="lazy" decoding="async"><img src="/images/content/fyzika/deformace-pevneho-telesa/15.webp" alt="" width="284" loading="lazy" decoding="async">
+$$\Delta l = \alpha \cdot l_1 \cdot \Delta t$$
+
+$$l = l_1 \left[1 + \alpha (t - t_1)\right]$$
 
 <img src="/images/content/fyzika/deformace-pevneho-telesa/16.webp" alt="" width="390" loading="lazy" decoding="async">
 
@@ -113,9 +114,9 @@ __α__ – __konstanta úměrnosti α__ je pro každou látku materiálovou kons
 - zkoumáme-li závislost __objemu__ pevného tělesa na __teplotě__, jde o __teplotní objemovou roztažnost__
 - pro objemovou teplotní roztažnost z měření vyplývá, že při změně teploty z __t1__ na __t__ se změní objem __V1__ na takovou hodnotu __V,__ pro kterou platí vztah:
 
-<img src="/images/content/fyzika/deformace-pevneho-telesa/17.webp" alt="" width="353" loading="lazy" decoding="async">
+$$V = V_1 \left[1 + \beta (t - t_1)\right]$$
 
-<img src="/images/content/fyzika/deformace-pevneho-telesa/18.webp" alt="" width="22" loading="lazy" decoding="async">- veličina __β__ se nazývá __teplotní součinitel objemové roztažnosti__. Závisí na __druhu__ látky, z níž je pevné těleso. Jednotkou součinitele objemové roztažnosti je __K-1__
+- veličina __β__ se nazývá __teplotní součinitel objemové roztažnosti__. Závisí na __druhu__ látky, z níž je pevné těleso. Jednotkou součinitele objemové roztažnosti je __K-1__
 
 - v MFChT tabulkách jsou uvedeny pouze hodnoty teplotního __součinitel délkové roztažnosti α__, protože u pevného tělesa z izotropní látky platí: __β ≈ 3α__
 

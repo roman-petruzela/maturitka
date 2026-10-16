@@ -54,9 +54,17 @@ __Gama záření__
 - Jestliže pro okamžité napětí zdroje platí vztah __u = Umsinωt__, pak v __bodě M__ ve __vzdálenosti x__ od zdroje bude určité okamžité napětí později o dobu __τ = x/c__
 - Pro napětí mezi vodiči v bodě M tedy platí:
 
-<img src="/images/content/fyzika/elektromagneticke-vlny/03.webp" alt="" width="333" loading="lazy" decoding="async"><img src="/images/content/fyzika/elektromagneticke-vlny/04.webp" alt="" width="199" loading="lazy" decoding="async">
+$$u = U_m \sin 2\pi \left(\frac{t}{T} - \frac{x}{cT}\right)$$
 
-- <img src="/images/content/fyzika/elektromagneticke-vlny/05.webp" alt="" width="368" loading="lazy" decoding="async"><img src="/images/content/fyzika/elektromagneticke-vlny/06.webp" alt="" width="359" loading="lazy" decoding="async">Dvouvodičovým vedením se šíří __postupné elektromagnetické vlnění__ popsané rovnicí:
+<img src="/images/content/fyzika/elektromagneticke-vlny/05.webp" alt="" width="368" loading="lazy" decoding="async">
+
+- Protože
+
+$$\lambda = c T = \frac{c}{f}$$
+
+- Dvouvodičovým vedením se šíří __postupné elektromagnetické vlnění__ popsané rovnicí:
+
+$$u = U_m \sin 2\pi \left(\frac{t}{T} - \frac{x}{\lambda}\right)$$
 
 ## Stojaté elmag. vlnění
 
@@ -93,7 +101,9 @@ __Gama záření__
 - Ve směru osy se energie __nevyzařuje__
 - Elektromagnetický dipól se používá jako __anténa__ (parabola) u vysílačů a přijímačů ve sdělovací technice
 
-Elektromagnetické pole dipólu        <img src="/images/content/fyzika/elektromagneticke-vlny/11.webp" alt="" width="320" loading="lazy" decoding="async">
+Elektromagnetické pole dipólu
+
+<img src="/images/content/fyzika/elektromagneticke-vlny/11.webp" alt="" width="320" loading="lazy" decoding="async">
 
 Dipól
 
@@ -149,7 +159,7 @@ __Rychlost elmag. vlnění__
 - Vlnový charakter elektromagnetického vlnění charakterizuje __rychlost šíření__, tedy fázová rychlost, která je ve vakuu rovna rychlosti světla ve vakuu
 - Elektromagnetické vlnění se šíří rychlostí:
 
-<img src="/images/content/fyzika/elektromagneticke-vlny/19.webp" alt="" width="158" loading="lazy" decoding="async">
+$$v = \frac{c}{\sqrt{\varepsilon_r \mu_r}}$$
 
 - Kde __c__ je __rychlost světla__ ve vakuu
 - __εr__ – relativní permitivita prostředí - charakterizuje elektrické vlastnosti

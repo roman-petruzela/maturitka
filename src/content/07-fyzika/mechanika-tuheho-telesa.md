@@ -57,27 +57,37 @@ __Skládání dvou sil se společným působištěm__
 
 <img src="/images/content/fyzika/mechanika-tuheho-telesa/04.webp" alt="" width="250" loading="lazy" decoding="async"><img src="/images/content/fyzika/mechanika-tuheho-telesa/05.webp" alt="vzorec" width="190" loading="lazy" decoding="async">
 
-<img src="/images/content/fyzika/mechanika-tuheho-telesa/06.webp" alt="vzorec" width="121" loading="lazy" decoding="async">				<img src="/images/content/fyzika/mechanika-tuheho-telesa/07.webp" alt="vzorec" width="113" loading="lazy" decoding="async">
+Síly stejného směru:
+
+$$F = F_1 + F_2$$
+
+Síly opačného směru:
+
+$$F = |F_1 - F_2|$$
 
 <img src="/images/content/fyzika/mechanika-tuheho-telesa/08.webp" alt="" width="280" loading="lazy" decoding="async"><img src="/images/content/fyzika/mechanika-tuheho-telesa/09.webp" alt="" width="302" loading="lazy" decoding="async">
 
-<img src="/images/content/fyzika/mechanika-tuheho-telesa/10.webp" alt="" width="136" loading="lazy" decoding="async">
+Pro dvě navzájem kolmé síly:
+
+$$F = \sqrt{F_1^2 + F_2^2}$$
 
 <img src="/images/content/fyzika/mechanika-tuheho-telesa/11.webp" alt="" width="461" loading="lazy" decoding="async">__Skládání více sil se společným působištěm__
 
-  = vektorový součet
+  $\vec F = \vec F_1 + \vec F_2 + \cdots + \vec F_n$ = vektorový součet
 
-<img src="/images/content/fyzika/mechanika-tuheho-telesa/12.webp" alt="vzorec" width="212" loading="lazy" decoding="async">__<img src="/images/content/fyzika/mechanika-tuheho-telesa/13.webp" alt="" width="368" loading="lazy" decoding="async">__
+<img src="/images/content/fyzika/mechanika-tuheho-telesa/13.webp" alt="" width="368" loading="lazy" decoding="async">
 
 __Skládání dvou různoběžných sil působících v různých bodech na těleso__
 
 <img src="/images/content/fyzika/mechanika-tuheho-telesa/14.webp" alt="" width="456" loading="lazy" decoding="async">
 
-__<img src="/images/content/fyzika/mechanika-tuheho-telesa/15.webp" alt="" width="550" loading="lazy" decoding="async">__
+<img src="/images/content/fyzika/mechanika-tuheho-telesa/15.webp" alt="" width="550" loading="lazy" decoding="async">
 
-<img src="/images/content/fyzika/mechanika-tuheho-telesa/16.webp" alt="" width="83" loading="lazy" decoding="async">__<img src="/images/content/fyzika/mechanika-tuheho-telesa/17.webp" alt="" width="542" loading="lazy" decoding="async">__
+$$\frac{F_1}{F_2} = \frac{d_2}{d_1}$$
 
-__<img src="/images/content/fyzika/mechanika-tuheho-telesa/18.webp" alt="" width="602" loading="lazy" decoding="async">__
+<img src="/images/content/fyzika/mechanika-tuheho-telesa/17.webp" alt="" width="542" loading="lazy" decoding="async">
+
+<img src="/images/content/fyzika/mechanika-tuheho-telesa/18.webp" alt="" width="602" loading="lazy" decoding="async">
 
 __Rozklad síly na dvě různoběžné složky__
 

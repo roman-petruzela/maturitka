@@ -39,7 +39,7 @@ __Φ = B ⋅ S ⋅ cos α__
 - Určuje __velikost indukovaného napětí__ ve vodiči
 - Změní-li se __magnetický indukční tok__ uzavřeným vodičem za dobu __Δt__ o __ΔΦ__, indukuje se ve vodiči __elektromotorické napětí__, jehož střední hodnota je:
 
-<img src="/images/content/fyzika/elektromagneticka-indukce/02.webp" alt="" width="151" loading="lazy" decoding="async">
+$$U_i = -\frac{\Delta \Phi}{\Delta t}$$
 
 - Indukované elektromotorické napětí **Ui* je rovno záporně vzaté časové změně magnetického indukčního toku. *
 
@@ -61,7 +61,10 @@ __Φ = B ⋅ S ⋅ cos α__
 ## Vlastní indukce
 
 - Připojíme-li cívku do el. obvodu, začne __proud__, který jí prochází, __vytvářet mag. pole__. Proud při zapojení __nemá hodnotu__ (kterou udává odpor cívky) okamžitě, ale roste až na tuto hodnotu udávanou __odporem cívky__. Když cívku zapojíme, __mění se proud__ (roste), tím __se mění mag. indukce cívky__ a mění se i __mag. indukční tok__. Podle __Lenzova zákona__ se začne __indukovat napětí,__ které působí __proti změně__, která ho vyvolala, tzn. působí __proti připojenému zdroji__. Když dosáhne proud hodnoty, kterou udává odpor, __přestane se měnit__. Tím se už nemění ani mag. indukční tok, takže __indukované el. pole zaniká__.
-- <img src="/images/content/fyzika/elektromagneticka-indukce/03.webp" alt="" width="272" loading="lazy" decoding="async">Indukované elektrické pole __vzniká ve vodiči i při změnách mag. pole__, které vytváří proud procházející vlastním vodičem. Tento jev se nazývá __vlastní indukce__.
+- Indukované elektrické pole __vzniká ve vodiči i při změnách mag. pole__, které vytváří proud procházející vlastním vodičem. Tento jev se nazývá __vlastní indukce__.
+
+  <img src="/images/content/fyzika/elektromagneticka-indukce/03.webp" alt="" width="272" loading="lazy" decoding="async">
+
 
 ## Indukčnost cívky  L
 
@@ -70,15 +73,17 @@ __Φ = B ⋅ S ⋅ cos α__
 - Indukčnost je __důležitý parametr el. obvodu__ (spolu s odporem R a kapacitou C).
 -  \[L\] = __H (henry)__
 
-<img src="/images/content/fyzika/elektromagneticka-indukce/04.webp" alt="" width="544" loading="lazy" decoding="async">
+$$\mathrm{H} = \mathrm{V \cdot s \cdot A^{-1}} = \mathrm{Wb \cdot A^{-1}} = \mathrm{m^2 \cdot kg \cdot s^{-2} \cdot A^{-2}}$$
 
-- Pro cívku platí:<img src="/images/content/fyzika/elektromagneticka-indukce/05.webp" alt="" width="246" loading="lazy" decoding="async">
+- Pro cívku platí:
 
-<img src="/images/content/fyzika/elektromagneticka-indukce/06.webp" alt="" width="250" loading="lazy" decoding="async">
+$$L = \mu N^2 \frac{S}{l}$$
+
+$$U_i = -\frac{\Delta \Phi}{\Delta t} = -L \cdot \frac{\Delta I}{\Delta t}$$
 
 ## Energie magnetického pole cívky
 
 - Má-li v cívce o __indukčnosti L__ vzniknout __proud I__, je třeba __vykonat práci__ k překonání __elektromotorického napětí__ indukovaného vlivem __vlastní indukce__. Současně vzniká __magnetické pole cívky__. Jeho __energie__ je rovna __vykonané práci__.
 	- nemá-li cívka feromagnetické jádro:
 
-<img src="/images/content/fyzika/elektromagneticka-indukce/07.webp" alt="" width="169" loading="lazy" decoding="async">
+$$E_m = \frac{1}{2} L I^2$$

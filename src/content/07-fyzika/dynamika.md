@@ -15,40 +15,36 @@ __Galileiho princip relativity__ – Zákony mechaniky jsou ve všech IVS stejn�
 
 __Neinerciální vztažná soustava__ – soustava, která se vhledem k IVS pohybuje jinak než rovnoměrně přímočaře. V NVS neplatí Newtonovy pohybové zákony
 
-Základní veličiny<img src="/images/content/fyzika/dynamika/01.webp" alt="" width="118" loading="lazy" decoding="async">
+Základní veličiny
 
-__Síla__ (značka F, jednotka N              )
+__Síla__ (značka F, jednotka N = kg · m · s⁻²)
 
 - Vektorová fyzikální veličina, která je určená velikostí, směrem a polohou svého působiště
 - Zprostředkovává vzájemné působení těles (přímým kontaktem nebo silovým polem)
 - Silové působení se projevuje deformací tělesa nebo změnou pohybového stavu tělesa (zrychlení)
-- Z 2.NPZ =>  <img src="/images/content/fyzika/dynamika/02.webp" alt="" width="73" loading="lazy" decoding="async">, <img src="/images/content/fyzika/dynamika/03.webp" alt="" width="92" loading="lazy" decoding="async">   (v klasické fyzice)
+- Z 2.NPZ => $\vec F = \frac{\Delta \vec p}{\Delta t}$, v klasické fyzice $\vec F = m \cdot \vec a$
 
 Skládání sil – viz. otázka č.2 počítání s vektory
 
-<img src="/images/content/fyzika/dynamika/04.webp" alt="" width="107" loading="lazy" decoding="async">
-
-__Hybnost__ (značka p, jednotka			    )
+__Hybnost__ (značka p, jednotka kg · m · s⁻¹)
 
 - Vektorová veličina, charakterizující pohybový stav tělesa
 - stejný směr jako vektor okamžité rychlosti
 
-<img src="/images/content/fyzika/dynamika/05.webp" alt="" width="122" loading="lazy" decoding="async">
+$$\vec p = m \cdot \vec v$$
 
 __Zákon zachování hybnosti__
 
 - Celková hybnost izolované soustavy těles se vzájemným silovým působením nemění
 - Význam např. pro teorii dokonale pružných rázů a reaktivních motorů
 
-<img src="/images/content/fyzika/dynamika/06.webp" alt="" width="51" loading="lazy" decoding="async">
-
-__Impuls síly__ (značka I, jednotka	      )
+__Impuls síly__ (značka I, jednotka N · s)
 
 - Vektorová veličina, vyjadřující časový účinek síly
 - Je roven změně hybnosti
 -  Závisí na něm změna hybnosti tělesa
 
-<img src="/images/content/fyzika/dynamika/07.webp" alt="" width="140" loading="lazy" decoding="async">
+$$\vec I = \vec F \cdot \Delta t = \Delta \vec p$$
 
 __Hmotnost__ (značka m, jednotka kg)
 
@@ -66,12 +62,12 @@ __2.NPZ – Zákon síly__
 - Velikost zrychlení __a__ tělesa je přímo úměrná velikosti výslednice sil __F__ působících na těleso a nepřímo úměrná hmotnosti tělesa m
 - Síla je určena poměrem hybnosti a času, za který tato změna proběhla.
 
-  <img src="/images/content/fyzika/dynamika/08.webp" alt="" width="318" loading="lazy" decoding="async">
+$$\vec F = \frac{\Delta \vec p}{\Delta t} = \frac{m \cdot \Delta \vec v}{\Delta t} = m \cdot \vec a$$
 
 __3.NPZ – Zákon akce a reakce (vzájemného působení těles)__
 
-- Každá síla  (akce), kterou jedno těleso působí na druhé, vyvolá sílu  (reakci) opačného směru, kterou druhé těleso působí na první.
-- Síly  a  jsou stejně velké, opačného směru, současně vznikají a zanikají, a protože každá působí na jiné těleso, neruší se ve svých účincích.
+- Každá síla $\vec F_{12}$ (akce), kterou jedno těleso působí na druhé, vyvolá sílu $\vec F_{21}$ (reakci) opačného směru, kterou druhé těleso působí na první.
+- Síly $\vec F_{12}$ a $\vec F_{21}$ jsou stejně velké, opačného směru, současně vznikají a zanikají, a protože každá působí na jiné těleso, neruší se ve svých účincích.
 
 <img src="/images/content/fyzika/dynamika/09.webp" alt="" width="302" loading="lazy" decoding="async">
 
@@ -93,7 +89,7 @@ __Setrvačné síly__
 - Kolmá ke směru okamžité rychlosti => směřuje do středu kružnice
 - Existuje z pohledu pozorovatele v IVS
 
-<img src="/images/content/fyzika/dynamika/12.webp" alt="" width="392" loading="lazy" decoding="async">
+$$F_d = m \cdot a_d = \frac{m \cdot v^2}{r} = m \cdot \omega^2 \cdot r$$
 
 __Odstředivá síla__
 
@@ -110,10 +106,15 @@ __Smykové tření a valivý odpor__
 - Nezávisí na obsahu styčných ploch
 - Za stejných podmínek je valivý odpor mnohem menší než třecí síla při smykovém tření
 
-<img src="/images/content/fyzika/dynamika/13.webp" alt="" width="127" loading="lazy" decoding="async"><img src="/images/content/fyzika/dynamika/14.webp" alt="" width="37" loading="lazy" decoding="async">… kolmá tlaková síla
+**Třecí síla:**
 
-<img src="/images/content/fyzika/dynamika/15.webp" alt="" width="113" loading="lazy" decoding="async">                                                    		<img src="/images/content/fyzika/dynamika/16.webp" alt="" width="25" loading="lazy" decoding="async">… součinitel smykového tření
+$$F_t = f \cdot F_N$$
 
-<img src="/images/content/fyzika/dynamika/17.webp" alt="" width="22" loading="lazy" decoding="async"> … rameno valivého odporu (řecké ksí)
+**Valivý odpor:**
 
-<img src="/images/content/fyzika/dynamika/18.webp" alt="" width="25" loading="lazy" decoding="async">  … poloměr valícího se tělesa
+$$F_v = \xi \cdot \frac{F_N}{R}$$
+
+- $F_N$ … kolmá tlaková síla
+- $f$ … součinitel smykového tření
+- $\xi$ … rameno valivého odporu (řecké ksí)
+- $R$ … poloměr valícího se tělesa

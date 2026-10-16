@@ -50,15 +50,27 @@ A)  Základní jednotky
 
 B)  Doplňkové jednotky
 
-<img src="/images/content/fyzika/fyzikalni-veliciny-a-jednotky/01.webp" alt="" width="428" loading="lazy" decoding="async">C)  Odvozené jednotky
+C)  Odvozené jednotky
 
 D)  Násobky a díly jednotek
 
 ## E)  Vedlejší jednotky
 
-1. __Základní jednotky ----->__
+1. __Základní jednotky__
 
-<img src="/images/content/fyzika/fyzikalni-veliciny-a-jednotky/02.webp" alt="" width="202" loading="lazy" decoding="async">__B) Doplňkové jednotky__
+| Základní veličina | Značka | Základní jednotka | Značka |
+|---|---|---|---|
+| Délka | l | metr | m |
+| Hmotnost | m | kilogram | kg |
+| Čas | t | sekunda | s |
+| Elektrický proud | I | ampér | A |
+| Termodynamická teplota | T | kelvin | K |
+| Látkové množství | n | mol | mol |
+| Svítivost | I | kandela | cd |
+
+__B) Doplňkové jednotky__
+
+<img src="/images/content/fyzika/fyzikalni-veliciny-a-jednotky/02.webp" alt="" width="202" loading="lazy" decoding="async">
 
 - Radián (rovinný úhel), steradián (prostorový úhel)
 - bezrozměrné jednotky
@@ -67,15 +79,14 @@ __C) Odvozené jednotky__
 
 - Ze základních jednotek pomocí definičních rovnic
 
-Př.:   v = rychlost    s = dráha     t = čas<img src="/images/content/fyzika/fyzikalni-veliciny-a-jednotky/03.webp" alt="" width="53" loading="lazy" decoding="async"><img src="/images/content/fyzika/fyzikalni-veliciny-a-jednotky/04.webp" alt="" width="119" loading="lazy" decoding="async">
+Př.: $v = \frac{s}{t}$ (v … rychlost, s … dráha, t … čas)
 
-dosazení jednotek:
+dosazení jednotek: $[v] = \frac{\mathrm{m}}{\mathrm{s}} = \mathrm{m \cdot s^{-1}}$
 
 Některé jednotky mají vlastní názvy a značky:
 
-<img src="/images/content/fyzika/fyzikalni-veliciny-a-jednotky/05.webp" alt="" width="64" loading="lazy" decoding="async"><img src="/images/content/fyzika/fyzikalni-veliciny-a-jednotky/06.webp" alt="" width="84" loading="lazy" decoding="async">
-
-Síla =           newton (N)		tlak =              pascal (Pa)
+- síla: newton (N) = kg · m · s⁻²
+- tlak: pascal (Pa) = N · m⁻²
 
 __D) Násobky a díly základních jednotek__
 
@@ -90,7 +101,7 @@ p … piko		m … mili	G … giga	E … exa		da … deka
 - ze základních a odvozených jednotek násobením nebo dělením mocninou 10
 - normalizovaná předpona + hlavní jednotka
 
-Kilonewton (kN)<img src="/images/content/fyzika/fyzikalni-veliciny-a-jednotky/08.webp" alt="" width="58" loading="lazy" decoding="async">
+Kilonewton (kN) = 10³ N
 
 __E) Vedlejší jednotky__
 
@@ -151,23 +162,25 @@ Součet vektorů: __a__ + __b__ = __c__			Rozdíl vektorů: __a__ - __b__ = __c_
 
 Skalární součin dvou vektorů:
 
-<img src="/images/content/fyzika/fyzikalni-veliciny-a-jednotky/11.webp" alt="" width="210" loading="lazy" decoding="async">        <img src="/images/content/fyzika/fyzikalni-veliciny-a-jednotky/12.webp" alt="" width="195" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/fyzikalni-veliciny-a-jednotky/11.webp" alt="" width="210" loading="lazy" decoding="async">
+
+$$\vec a \cdot \vec b = |\vec a| \cdot |\vec b| \cdot \cos \alpha$$
 
 - výsledkem je skalár
 
 Vektorový součin: __a__ X __b__ =
 
-- Má velikost danou vztahem:  <img src="/images/content/fyzika/fyzikalni-veliciny-a-jednotky/13.webp" alt="" width="127" loading="lazy" decoding="async">
+- Má velikost danou vztahem $|\vec a \times \vec b| = |\vec a| \cdot |\vec b| \cdot \sin \alpha$
 - Je kolmý k rovině určené oběma vektory
-- Je orientován tak, že vektory  __<img src="/images/content/fyzika/fyzikalni-veliciny-a-jednotky/14.webp" alt="" width="71" loading="lazy" decoding="async">__ tvoří pravotočivý trojhran
+- Je orientován tak, že vektory $\vec a, \vec b, \vec a \times \vec b$ tvoří pravotočivý trojhran
 
 <img src="/images/content/fyzika/fyzikalni-veliciny-a-jednotky/15.webp" alt="" width="348" loading="lazy" decoding="async">
 
 Součin vektoru a skaláru:
 
-- <img src="/images/content/fyzika/fyzikalni-veliciny-a-jednotky/16.webp" alt="" width="62" loading="lazy" decoding="async">Součin vektoru __a__ a skáláru k je vektor __b__ s vlastnostmi:
-- Pro velikost vektoru platí:
-- <img src="/images/content/fyzika/fyzikalni-veliciny-a-jednotky/17.webp" alt="" width="88" loading="lazy" decoding="async"> pro jednotky:
+- Součin vektoru __a__ a skáláru k je vektor __b__ s vlastnostmi:
+- Pro velikost vektoru platí: $|\vec b| = |k| \cdot |\vec a|$
+- pro jednotky: $[b] = [k][a]$
 - k >0 – vektory __a__, __b__ mají stejný směr a jsou rovnoběžné
 - k <0 – vektory __a__, __b__ mají opačné směry, jsou nesouhlasně rovnoběžné
 - k = 0   je   __b__ = __0__    vektor __0__   je nulový vektor

@@ -13,45 +13,53 @@ source: "FYZIKA-maturitní otázky/6-Kinematika-a-dynamika-rovnoměrného-pohybu
 - Velikost úhlu je určena poměrem délky oblouku kružnice Δs od daného nulového bodu a poloměru kružnice r\.
 - __Jednotkou__ úhlové míry je radián\.
 
-Jeden radián je přibližně 57 °<img src="/images/content/fyzika/kinematika-a-dynamika-rovnomerneho-pohybu-hmotneho-bodu-po-kruznici/01.webp" alt="" width="139" loading="lazy" decoding="async">
+$$\Delta \varphi = \frac{\Delta s}{r}$$
+
+$[\varphi] = \mathrm{rad}$; Jeden radián je přibližně 57 °
 
 <img src="/images/content/fyzika/kinematika-a-dynamika-rovnomerneho-pohybu-hmotneho-bodu-po-kruznici/02.webp" alt="" width="188" loading="lazy" decoding="async">
 
 - Velikost úhlu, který opíše HB při oběhnutí celé kružnice je:
 
-<img src="/images/content/fyzika/kinematika-a-dynamika-rovnomerneho-pohybu-hmotneho-bodu-po-kruznici/03.webp" alt="" width="334" loading="lazy" decoding="async">
+$$\varphi = \frac{o}{r} = \frac{2 \pi r}{r} = 2 \pi\ \mathrm{rad}$$
 
 ## Perioda T
 
 - K popisu pohybu HB po kružnici se používá perioda T
 - udává dobu trvání jednoho opakování periodického děje
 - Perioda tedy znamená dobu potřebnou k tomu, aby se systém dostal zpět do výchozího stavu\.
-- __Jednotka__ tedy *\[T\] = s*<img src="/images/content/fyzika/kinematika-a-dynamika-rovnomerneho-pohybu-hmotneho-bodu-po-kruznici/04.webp" alt="" width="124" loading="lazy" decoding="async"><img src="/images/content/fyzika/kinematika-a-dynamika-rovnomerneho-pohybu-hmotneho-bodu-po-kruznici/05.webp" alt="" width="108" loading="lazy" decoding="async">
+- __Jednotka__ tedy *\[T\] = s*
+
+$$T = \frac{2 \pi r}{v}$$
+
+$$T = \frac{2 \pi}{\omega}$$
 
 r \.\.\. __poloměr kružnice__
 
 v \.\.\. __obvodová rychlost__
 
-__Okamžitá obvodová rychlost:__<img src="/images/content/fyzika/kinematika-a-dynamika-rovnomerneho-pohybu-hmotneho-bodu-po-kruznici/06.webp" alt="" width="188" loading="lazy" decoding="async">
+__Okamžitá obvodová rychlost:__
 
-<img src="/images/content/fyzika/kinematika-a-dynamika-rovnomerneho-pohybu-hmotneho-bodu-po-kruznici/07.webp" alt="" width="175" loading="lazy" decoding="async">
+$$v = \frac{\Delta s}{\Delta t} = \frac{\Delta \varphi \cdot r}{\Delta t} = r \cdot \omega$$
 
-<img src="/images/content/fyzika/kinematika-a-dynamika-rovnomerneho-pohybu-hmotneho-bodu-po-kruznici/08.webp" alt="" width="175" loading="lazy" decoding="async">
+$$v = \frac{s}{t} = \frac{\varphi \cdot r}{t}$$
 
 __Průměrná obvodová rychlost:__
 
 __Úhlová rychlost__
 
 - je to úhel opsaný průvodičem za jednotku času
-- Úhlovou rychlost udáváme v __jednotkách__ , nebo v \(= reciproká sekunda\)
+- Úhlovou rychlost udáváme v __jednotkách__ rad · s⁻¹, nebo v s⁻¹ \(= reciproká sekunda\)
 
-<img src="/images/content/fyzika/kinematika-a-dynamika-rovnomerneho-pohybu-hmotneho-bodu-po-kruznici/09.webp" alt="" width="72" loading="lazy" decoding="async">
+$$\omega = \frac{\Delta \varphi}{\Delta t}$$
 
 __Frekvence__
 
 -  Kromě periody T zavádíme také frekvenci pohybu f\. Vyjadřuje počet oběhů HB za jednotku času\.
 
-<img src="/images/content/fyzika/kinematika-a-dynamika-rovnomerneho-pohybu-hmotneho-bodu-po-kruznici/10.webp" alt="" width="186" loading="lazy" decoding="async"><img src="/images/content/fyzika/kinematika-a-dynamika-rovnomerneho-pohybu-hmotneho-bodu-po-kruznici/11.webp" alt="" width="61" loading="lazy" decoding="async">
+$$f = \frac{1}{T}$$
+
+$[f] = \mathrm{s^{-1}} = \mathrm{Hz}$ (hertz)
 
 ## Kruhový pohyb
 
@@ -63,7 +71,9 @@ __Frekvence__
 - při rovnoměrném pohybu po kružnici je však =0 \(rovn\. pohyb\) a proto je pohyb charakterizován normálovým zrychlením neboli dostředivým zrychlením  a toto zrychlení je vždy kolmé k vektoru okamžité rychlosti, v případě kružnice do středu
 - Př: kolo automobilu, ventilátory, hodinové ručičky, měření rychlosti proudění vzduchu, rotační generátory
 
-<img src="/images/content/fyzika/kinematika-a-dynamika-rovnomerneho-pohybu-hmotneho-bodu-po-kruznici/12.webp" alt="" width="315" loading="lazy" decoding="async"><img src="/images/content/fyzika/kinematika-a-dynamika-rovnomerneho-pohybu-hmotneho-bodu-po-kruznici/13.webp" alt="" width="226" loading="lazy" decoding="async">
+$$a_d = \frac{v^2}{r} = \omega^2 r = \frac{4 \pi^2 r}{T^2} = 4 \pi^2 f^2 r$$
+
+<img src="/images/content/fyzika/kinematika-a-dynamika-rovnomerneho-pohybu-hmotneho-bodu-po-kruznici/13.webp" alt="" width="226" loading="lazy" decoding="async">
 
 Na obrázku jsou vyznačeny okamžité rychlosti a okamžitá zrychlení v daných bodech\.
 
@@ -74,9 +84,9 @@ Na obrázku jsou vyznačeny okamžité rychlosti a okamžitá zrychlení v dan�
 - Dostředivá síla způsobuje změnu směru __vektoru rychlosti__ \(dostředivé zrychlení\) a tím zakřivení trajektorie, velikost vektoru rychlosti však nemění\!
 - Vztah velikosti dostředivé síly, hmotnosti tělesa m, velikosti rychlosti tělesa v \(popř\. úhlové rychlosti ω\) a poloměru křivosti r je:
 
-  <img src="/images/content/fyzika/kinematika-a-dynamika-rovnomerneho-pohybu-hmotneho-bodu-po-kruznici/14.webp" alt="" width="127" loading="lazy" decoding="async">
+$$F_d = \frac{m v^2}{r} = m \omega^2 r$$
 
-<img src="/images/content/fyzika/kinematika-a-dynamika-rovnomerneho-pohybu-hmotneho-bodu-po-kruznici/15.webp" alt="" width="223" loading="lazy" decoding="async">- praxe: řetízkový kolotoč, hod diskem
+- praxe: řetízkový kolotoč, hod diskem
 
 ## Odstředivá síla
 
@@ -89,7 +99,9 @@ __Poznámka__
 - Někdy se však odstředivou silou nazývá __reakce__ \(reakční síla podle Třetího Newtonova zákona\) vznikající při působení dostředivé síly v __inerciální vztažné soustavě\.__
 - <a id="_heading=h.gjdgxs"></a>V tomto případě je __velikost odstředivé síly__ stejná jako velikost __dostředivé síly__\. Směr odstředivé síly je od středu křivosti trajektorie tělesa \(od středu kružnice\)\. Tato síla ovšem nepůsobí na těleso, na které působí __dostředivá síla,__ jak se často chybně uvádí\. Kdyby tomu tak bylo, součet odstředivé a dostředivé síly by byl __nulový__ a těleso by se pohybovalo podle Prvního Newtonova zákona __rovnoměrně přímočaře__, což je však spor s předpokladem, že se těleso pohybuje křivočaře\.
 
-Náklon v zatáčce<img src="/images/content/fyzika/kinematika-a-dynamika-rovnomerneho-pohybu-hmotneho-bodu-po-kruznici/16.webp" alt="" width="184" loading="lazy" decoding="async">
+Náklon v zatáčce
+
+<img src="/images/content/fyzika/kinematika-a-dynamika-rovnomerneho-pohybu-hmotneho-bodu-po-kruznici/16.webp" alt="" width="184" loading="lazy" decoding="async">
 
 - Na těleso pohybující se v gravitačním poli v NVS působí kromě odstředivé \(na obrázku Fs\) také tíhová síla \(FG\)\. Při vhodném úhlu náklonu α se vyrovná odstředivá síla částí tíhové síly \(F2\)\.
 -  Těleso tak při pohybu zůstává nakloněné, ale nespadne\.

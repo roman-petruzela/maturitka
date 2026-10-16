@@ -39,15 +39,17 @@ Vysvětlení podal A. Einstein v r. 1905 s využitím Planckovy kvantové teorie
 
 Einstein předpokládal, že elmg. Vlna o frekvenci *f* a vlnové délce λ je soubor částic, světelných kvant o určité energii a hybnosti. Pro tato kvanta pak platí
 
-E = h.f ;		p =
+$E = h \cdot f$; $p = \frac{E}{c} = \frac{h \cdot f}{c} = \frac{h}{\lambda}$
 
 Při FJ každé kvantum záření předá energii pouze jednomu elektronu, který ji využije na uvolnění z kovu (výstupní práce WV) a na zvýšení své kinetické energie. Einsteinova rovnice FJ má potom tvar
 
-   <img src="/images/content/fyzika/zakladni-pojmy-kvantove-fyziky/01.webp" alt="" width="86" loading="lazy" decoding="async">
-
-<img src="/images/content/fyzika/zakladni-pojmy-kvantove-fyziky/02.webp" alt="" width="157" loading="lazy" decoding="async">
+$$h \cdot f = W_V + \frac{1}{2} m_e v^2$$
 
 Energie odpovídající mezní frekvenci fm způsobí pouze uvolnění elektronu s nulovou kinetickou energií a platí:
+
+$$f_m = \frac{W_V}{h}$$
+
+$$\lambda_m = \frac{h \cdot c}{W_V}$$
 
 Je-li f < fm, nemá kvantum dostatečnou energii na uvolnění elektronu z kovu
 
@@ -57,7 +59,6 @@ Je-li f > fm, elektrony se ihned uvolňují a jejich počet (velikost fotoproudu
 
 Nejčastěji se využívá v polovodičových součástkách fotorezistor a fotodioda
 
-<img src="/images/content/fyzika/zakladni-pojmy-kvantove-fyziky/03.webp" alt="" width="127" loading="lazy" decoding="async">
 
 __Comptonův jev (A. H. Compton, NC za F 1927)__
 
@@ -109,13 +110,12 @@ Rutherfordův předpoklad, že v jádře existují i elektricky neutrální čá
 
 Rozptyl α částic v Rutherfordově modelu
 
-Počet protonů udává *protonové číslo Z*, počet neutronů *neutronové číslo N* a celkový počet nukleonů *nukleonové číslo A* (A = Z + N). Každý prvek tedy můžeme zapsat schematicky
+Počet protonů udává *protonové číslo Z*, počet neutronů *neutronové číslo N* a celkový počet nukleonů *nukleonové číslo A* (A = Z + N). Každý prvek tedy můžeme zapsat schematicky $^{A}_{Z}X$.
 
 Rutherfordův model atomu však byl v rozporu s KF. Pohybující se elektron by vysílal elmg. záření na úkor své kinetické energie a přibližoval by se k jádru, nakonec by s ním splynul a atom by zanikl.
 
 *Tento zásadní nedostatek se pokusil odstranit v r. 1913 N. Bohr (viz MT 48)*
 
-<img src="/images/content/fyzika/zakladni-pojmy-kvantove-fyziky/08.webp" alt="" width="45" loading="lazy" decoding="async">
 
 Atomová spektra
 
@@ -141,15 +141,20 @@ Vlnové délky v atomových spektrech se řadí do určitých skupin, kterým ř
 
 Pro frekvenci čar v jednotlivých sériích platí
 
+$$f = R \cdot \left(\frac{1}{m^2} - \frac{1}{n^2}\right)$$
+
 kde n, m = 1,2,3 … jsou stavy hladin (n – cílová, m – počáteční)
 
 R = 3,29 . 1015 Hz … je Rydbergova frekvence
 
-<img src="/images/content/fyzika/zakladni-pojmy-kvantove-fyziky/09.webp" alt="" width="165" loading="lazy" decoding="async">
 
 Vysvětlit vznik spektrálních sérií lze za předpokladu, že atom vodíku se může nacházet jen na zcela určitých energiových hladinách a při přechodu z vyšší hladiny En na nižší Em vysílá elmg. záření o frekvenci *fnm*  a platí
 
-Při  se energie blíží nule a elektron opouští atom – dochází k ionizaci atomu
+$$h \cdot f_{mn} = h \cdot R \cdot \left(\frac{1}{m^2} - \frac{1}{n^2}\right) = E_n - E_m$$
+
+$$E_n = -\frac{h \cdot R}{n^2}$$
+
+Při $n \to \infty$ se energie blíží nule a elektron opouští atom – dochází k ionizaci atomu
 
 Je-li   n = 1, je atom v základním stavu s nejmenší hodnotou energie:
 
@@ -157,7 +162,6 @@ E1 = - h.R = -13,6 eV. K ionizaci atomu vodíku musíme tedy dodat energii 13,6 
 
 Stavy s vyššími hodnotami energie, než odpovídá základnímu stavu, nazýváme excitované stavy
 
-<img src="/images/content/fyzika/zakladni-pojmy-kvantove-fyziky/10.webp" alt="" width="374" loading="lazy" decoding="async">
 
 __<img src="/images/content/fyzika/zakladni-pojmy-kvantove-fyziky/11.webp" alt="" width="275" loading="lazy" decoding="async">Kvantování energie atomů (Franckův-Hertzův pokus; NC za F 1925)__
 
@@ -185,9 +189,10 @@ __<img src="/images/content/fyzika/zakladni-pojmy-kvantove-fyziky/13.webp" alt="
 
 Vlnové vlastnosti vykazují (v určitých situacích) všechny částice. Tato skutečnost je jedním z důležitých objevů kvantové fyziky. Takovou hypotézu vyslovil poprvé roku 1924 Louis-Victor de Broglie jenž vyslovil domněnku, že i částice lze popsat vlnovou délkou o velikosti:
 
+$$\lambda = \frac{h}{p}$$
+
 kde *h* je Planckova konstanta a *p* je hybnost částice. Ve svých důsledcích to znamená, že každému vlnění lze přiřadit určité částicové vlastnosti, a naopak, každá částice se může projevovat jako vlnění.
 
-<img src="/images/content/fyzika/zakladni-pojmy-kvantove-fyziky/14.webp" alt="\lambda = \frac{h}{p}" width="52" loading="lazy" decoding="async">
 
 __Vlnová funkce, relace neurčitosti__
 
@@ -195,8 +200,9 @@ Pohyb částic v mikrosvětě má náhodný, pravděpodobnostní charakter a lze
 
 V mikrosvětě je tedy popis pohybu částice omezený. Tato omezení formuloval v r. 1927 W. Heisenberg (NC za F 1932) a dnes je nazýváme Heisenbergovy relace neurčitosti
 
+$$\Delta x \cdot \Delta p \geq h$$
+
 Čím přesněji určíme polohu částice, tím větší bude neurčitost (nepřesnost) při určení její hybnosti.
 
 Nemá proto význam mluvit o tom, že se částice pohybuje po dané trajektorii s určitou rychlostí. Tyto neurčitosti existují objektivně, nelze je zdůvodnit vlivy nepřesností přístrojů nebo měřicích metod.			*
 
-<img src="/images/content/fyzika/zakladni-pojmy-kvantove-fyziky/15.webp" alt="" width="85" loading="lazy" decoding="async">

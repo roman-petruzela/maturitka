@@ -202,7 +202,9 @@ f … frekvence záření
 
 *b* - Wienova konstanta; b = 2,898 mm . K
 
-<img src="/images/content/fyzika/43-elektromagneticke-zareni/08.webp" alt="P1010014" width="281" loading="lazy" decoding="async"><img src="/images/content/fyzika/43-elektromagneticke-zareni/09.webp" alt="" width="76" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/43-elektromagneticke-zareni/08.webp" alt="P1010014" width="281" loading="lazy" decoding="async">
+
+$$\lambda_{max} = \frac{b}{T}$$
 
 Některé fotometrické veličiny
 
@@ -241,4 +243,8 @@ Pro čtení
 
       ΔΩ – velikost prostorového úhlu
 
-      <img src="/images/content/fyzika/43-elektromagneticke-zareni/10.webp" alt="" width="61" loading="lazy" decoding="async">    <img src="/images/content/fyzika/43-elektromagneticke-zareni/11.webp" alt="" width="71" loading="lazy" decoding="async">   <img src="/images/content/fyzika/43-elektromagneticke-zareni/12.webp" alt="" width="74" loading="lazy" decoding="async">
+$$I = \frac{\Delta \Phi}{\Delta \Omega}$$
+
+$$\Phi = \frac{\Delta E}{\Delta t}$$
+
+$$E = \frac{\Delta \Phi}{\Delta S}$$

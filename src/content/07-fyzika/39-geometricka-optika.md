@@ -22,7 +22,10 @@ Pojmy
 
 ZOBRAZENÍ ROVINNÝM ZRCADLEM
 
-- <img src="/images/content/fyzika/39-geometricka-optika/01.webp" alt="" width="290" loading="lazy" decoding="async">opticky hladká rovinná plocha
+<img src="/images/content/fyzika/39-geometricka-optika/01.webp" alt="" width="290" loading="lazy" decoding="async">
+
+
+- opticky hladká rovinná plocha
 -  vzniká zdánlivý, vzpřímený, stejně velký a stranově převrácený obraz
 - Při zobrazování využíváme zákonu odrazu světla
 
@@ -34,9 +37,11 @@ ZOBRAZENÍ KULOVÝM ZRCADLEM
 
 1. Rovnoběžný s opt. osou (odráží se od ohniska)
 2. Procházející ohniskem (rovnoběžný s osou)
-3. <img src="/images/content/fyzika/39-geometricka-optika/02.webp" alt="" width="165" loading="lazy" decoding="async">Jdoucí středem opt. plochy (odráží se do opačného směru)
+3. Jdoucí středem opt. plochy (odráží se do opačného směru)
 
 	__Zobrazovací rovnice kulového zrcadla__
+
+$$\frac{1}{a} + \frac{1}{a'} = \frac{1}{f}$$
 
 PŘÍČNÉ ZVĚTŠENÍ ZRCADLA (i čočky)
 
@@ -46,7 +51,7 @@ y‘… výška obrazu
 
 Z… měřítko optického zobrazení
 
-<img src="/images/content/fyzika/39-geometricka-optika/03.webp" alt="" width="201" loading="lazy" decoding="async">
+$$Z = \frac{y'}{y} = -\frac{a'}{a}$$
 
 <img src="/images/content/fyzika/39-geometricka-optika/04.webp" alt="" width="280" loading="lazy" decoding="async">ZOBRAZENÍ DUTÝM ZRCADLEM
 
@@ -70,14 +75,20 @@ Z… měřítko optického zobrazení
 
 Druhy čoček
 
-<img src="/images/content/fyzika/39-geometricka-optika/06.webp" alt="" width="42" loading="lazy" decoding="async"><img src="/images/content/fyzika/39-geometricka-optika/07.webp" alt="" width="299" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/39-geometricka-optika/07.webp" alt="" width="299" loading="lazy" decoding="async">
 
 __Rozptylky__:
+
+<img src="/images/content/fyzika/39-geometricka-optika/08.webp" alt="" width="52" loading="lazy" decoding="async">
+
  4 — dvojdutá
  5 — ploskodutá
  6 — vypuklodutá
 
-<img src="/images/content/fyzika/39-geometricka-optika/08.webp" alt="" width="52" loading="lazy" decoding="async">__Spojky__:
+__Spojky__:
+
+<img src="/images/content/fyzika/39-geometricka-optika/06.webp" alt="" width="42" loading="lazy" decoding="async">
+
  1 — dvojvypuklá
  2 — ploskovypuklá
  3 — dutovypuklá
@@ -104,18 +115,23 @@ __Tenké čočky__
 
 Zobrazovací rovnice čočky
 
-<img src="/images/content/fyzika/39-geometricka-optika/11.webp" alt="" width="177" loading="lazy" decoding="async">
+$$\frac{1}{f} = \left(\frac{n_2}{n_1} - 1\right)\left(\frac{1}{r_1} + \frac{1}{r_2}\right)$$
 
 n1… index lomu prostředí
 
 n2… index lomu látky, z níž je čočka vyrobena
 
 - Je-li a‘>0  pak je obraz v obrazovém prostoru
-- <img src="/images/content/fyzika/39-geometricka-optika/12.webp" alt="" width="138" loading="lazy" decoding="async">Je-li a‘<0  pak je obraz zdánlivý
+- Je-li a‘<0  pak je obraz zdánlivý
 - v případě tenké čočky:
+
+$$\frac{1}{a} + \frac{1}{a'} = \frac{1}{f}$$
 
 Optická mohutnost
 
-- <img src="/images/content/fyzika/39-geometricka-optika/13.webp" alt="" width="92" loading="lazy" decoding="async">vyjadřuje zakřivenost čočky
+- vyjadřuje zakřivenost čočky
+
+$$\varphi = \frac{1}{f}$$
+
 - Jednotka \[m-1\], \[D\]
 - 1 m-1 = 1 D
