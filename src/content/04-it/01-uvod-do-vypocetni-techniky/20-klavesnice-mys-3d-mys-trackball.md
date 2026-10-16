@@ -15,16 +15,15 @@ Klávesnice, myš, 3D myš, Trackball a grafický tablet
 
 - V ČR se používá rozložení kláves QWERTZ dle ČSN 36 9050 z roku 1994.
 
-●
 
 # Rozložení americké klávesnice
 
-((obrázek vynechán))
+<img src="/images/content/it/uvod-do-vypocetni-techniky/klavesnice-mys-3d-mys-trackball/01.webp" alt="Rozložení americké klávesnice" width="575" loading="lazy" decoding="async">
 
 
 # Rozložení klávesnice QWERTZ
 
-((obrázek vynechán))
+<img src="/images/content/it/uvod-do-vypocetni-techniky/klavesnice-mys-3d-mys-trackball/02.webp" alt="Rozložení české klávesnice QWERTZ" width="575" loading="lazy" decoding="async">
 
 
 # Význam jednotlivých kláves
@@ -33,7 +32,6 @@ Klávesnice, myš, 3D myš, Trackball a grafický tablet
 
 - anebo na: https://cs.wikipedia.org/wiki/Po%C4%8D%C3%ADta%C4 %8Dov%C3%A1_kl%C3%A1vesnice
 
-●
 
 # Dělení klávesnic
 
@@ -67,6 +65,8 @@ Klávesnice, myš, 3D myš, Trackball a grafický tablet
 
 # Počítačová myš a Trackball
 
+<img src="/images/content/it/uvod-do-vypocetni-techniky/klavesnice-mys-3d-mys-trackball/05.webp" alt="Počítačová myš a trackball" width="395" loading="lazy" decoding="async">
+
 # Počítačová myš
 
 - je malé polohovací zařízení používané pro ovládání grafického uživatelského rozhraní
@@ -77,12 +77,10 @@ Klávesnice, myš, 3D myš, Trackball a grafický tablet
 
 - Na spodní straně myši je umístěn snímač pohybu, který je buď mechanický, optický nebo laserový
 
-((obrázek vynechán))
+<img src="/images/content/it/uvod-do-vypocetni-techniky/klavesnice-mys-3d-mys-trackball/03.webp" alt="Herní, CAD a kuličková myš" width="555" loading="lazy" decoding="async">
 
 
 # Dělení počítačových myší
-
-# Trackball
 
 - Dělení  máme podle:
 
@@ -114,10 +112,10 @@ Klávesnice, myš, 3D myš, Trackball a grafický tablet
 
       - BlueEye / BlueTrack
 
-((obrázek vynechán))
+# Trackball
 
+<img src="/images/content/it/uvod-do-vypocetni-techniky/klavesnice-mys-3d-mys-trackball/04.webp" alt="Trackball" width="262" loading="lazy" decoding="async">
 
-# Grafický tablet
 
 # 3D myš
 
@@ -125,7 +123,6 @@ Klávesnice, myš, 3D myš, Trackball a grafický tablet
 
 - Je určená pro práci v 3D modelovacích programech
 
-●
 
 # Grafický tablet
 

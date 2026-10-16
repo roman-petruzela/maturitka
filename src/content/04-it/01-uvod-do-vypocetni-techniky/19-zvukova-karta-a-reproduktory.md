@@ -57,7 +57,7 @@ Zvuková karta, Reproduktory a mikrofony
 
 # Druhy zvukových karet
 
-((obrázek vynechán))
+<img src="/images/content/it/uvod-do-vypocetni-techniky/zvukova-karta-a-reproduktory/01.webp" alt="Interní, externí a integrovaná zvuková karta" width="545" loading="lazy" decoding="async">
 
 
 # Barevné označení vstupů a výstupů zvukové karty
@@ -162,7 +162,7 @@ Zvuková karta, Reproduktory a mikrofony
 
 # Vlastnosti mikrofonů
 
-((obrázek vynechán))
+<img src="/images/content/it/uvod-do-vypocetni-techniky/zvukova-karta-a-reproduktory/02.webp" alt="Ukázky směrových charakteristik mikrofonů" width="300" loading="lazy" decoding="async">
 
 
 - Frekvenční charakteristiky

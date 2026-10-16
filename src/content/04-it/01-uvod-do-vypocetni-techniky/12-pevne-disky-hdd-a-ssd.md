@@ -176,7 +176,7 @@ Vytvořte tabulku verzí USB
 
 - CD/DVD/BR 2048 bajtů
 
-((obrázek vynechán))
+<img src="/images/content/it/uvod-do-vypocetni-techniky/pevne-disky-hdd-a-ssd/01.webp" alt="Plotny, hlavy, stopa, blok a sektor pevného disku" width="201" loading="lazy" decoding="async">
 
 A – plotny disků
 
@@ -198,7 +198,7 @@ U standardu ATA (konkrétně ATAPI-6, resp. ATA 100), který zavádí **48bitovo
 
 **NCQ** - Native Command Queuing, česky přirozené řazení příkazů.
 
-((obrázek vynechán))
+<img src="/images/content/it/uvod-do-vypocetni-techniky/pevne-disky-hdd-a-ssd/02.webp" alt="Pořadí čtení bez NCQ a s NCQ" width="351" loading="lazy" decoding="async">
 
 ##### _Najděte význam:_
 
@@ -256,7 +256,7 @@ Zakreslit rozdělení disku podle WIN/ Správa počítače / Správa disků
 
 ##### Rozdělení pro jeden OS (např. WIN 10)
 
-((obrázek vynechán))
+<img src="/images/content/it/uvod-do-vypocetni-techniky/pevne-disky-hdd-a-ssd/03.webp" alt="Rozdělení disku pro jeden OS, pro více OS a s LVM" width="746" loading="lazy" decoding="async">
 
 ### Programy pro práci s oddíly disků (partitions):
 
@@ -322,7 +322,7 @@ _Výhoda_ : snadné vytvoření pole, rozšíření,
 
 _Nevýhoda_ : žádný výkonnostní zisk, v případě selhání jednoho z disků, lze obnovit data jen z toho nepoškozeného.
 
-((obrázek vynechán))
+<img src="/images/content/it/uvod-do-vypocetni-techniky/pevne-disky-hdd-a-ssd/04.webp" alt="Schéma JBOD" width="173" loading="lazy" decoding="async">
 
 ### RAID 0
 
@@ -332,7 +332,7 @@ _Výhoda_ : zisk ve čtení i zápisu, při dvou discích je čas redukován na 
 
 _Nevýhoda_ : v případě selhání jednoho z disků jsou veškerá data ztracena
 
-((obrázek vynechán))
+<img src="/images/content/it/uvod-do-vypocetni-techniky/pevne-disky-hdd-a-ssd/05.webp" alt="Schéma RAID 0" width="114" loading="lazy" decoding="async">
 
 ### RAID 1
 
@@ -342,7 +342,7 @@ Slouží jen jako **záloha proti fyzickému výpadku disku** , nikoliv proti n�
 
 _Nevýhoda_ : nákladnost pořizování pole a nulový nárůst výkonu či kapacity.
 
-((obrázek vynechán))
+<img src="/images/content/it/uvod-do-vypocetni-techniky/pevne-disky-hdd-a-ssd/06.webp" alt="Schéma RAID 1" width="114" loading="lazy" decoding="async">
 
 ### RAID 5
 
@@ -352,9 +352,7 @@ _Výhoda_ : dvojnásobná rychlost čtení, při výpadku jednoho z disků a jeh
 
 _Nevýhoda_ : nižší rychlost zápisu, redukovaná kapacita disků na 2/3.
 
-RAID 5
-
-((obrázek vynechán))
+<img src="/images/content/it/uvod-do-vypocetni-techniky/pevne-disky-hdd-a-ssd/07.webp" alt="Schéma RAID 5" width="231" loading="lazy" decoding="async">
 
 ### RAID 6
 
@@ -364,23 +362,21 @@ _Výhoda_ : odolnost proti selhání 2 disků ze 4, nejvíce vyplatí použít s
 
 _Nevýhoda_ : pomalejší zápis, horší poměr ceny a kapacity
 
-RAID 6
-
-((obrázek vynechán))
+<img src="/images/content/it/uvod-do-vypocetni-techniky/pevne-disky-hdd-a-ssd/08.webp" alt="Schéma RAID 6" width="289" loading="lazy" decoding="async">
 
 ## Víceúrovňová pole
 
 RAID 10  a 01
 
-((obrázek vynechán))
+<img src="/images/content/it/uvod-do-vypocetni-techniky/pevne-disky-hdd-a-ssd/09.webp" alt="Schémata RAID 0+1 a RAID 1+0" width="402" loading="lazy" decoding="async">
 
 RAID 50
 
-((obrázek vynechán))
+<img src="/images/content/it/uvod-do-vypocetni-techniky/pevne-disky-hdd-a-ssd/10.webp" alt="Schéma RAID 5+0" width="263" loading="lazy" decoding="async">
 
 RAID 60
 
-((obrázek vynechán))
+<img src="/images/content/it/uvod-do-vypocetni-techniky/pevne-disky-hdd-a-ssd/11.webp" alt="Schéma RAID 6+0" width="500" loading="lazy" decoding="async">
 
 ### Méně užívaná RAID pole
 

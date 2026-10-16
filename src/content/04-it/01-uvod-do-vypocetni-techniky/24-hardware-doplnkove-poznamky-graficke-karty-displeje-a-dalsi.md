@@ -3397,18 +3397,35 @@ FROM  Products 
 - 4 typy spojení tabulek 
 	- INNER JOIN \-   zobrazí položky, které jsou celé tzv\. nechybí u nich nějaká klíčová data, Pokud by v našem případě neexistoval uživatel s id, které je u článku uvedeno, článek bez uživatele by vůbec nebyl ve výsledcích obsažen 
 
-<img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/40.webp" alt="" width="214" loading="lazy" decoding="async">
+| článek | autor |
+|---|---|
+| Pacman | Autor A |
+| Bakterie | Autor A |
+| Cheese Mouse | Autor B |
+| Algoritmus | Autor C |
 
 -
 	- OUTER JOIN \- Vnější JOINy umožňují vybírat i ty výsledky, které se nepodařilo spojit z důvodu chybějících položek\. 
 	- RIGHT OUTER JOIN \-  \(Pokud existuje hodnota na pravé straně \- chybějící hodnota je NULL\) 
 
-<img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/41.webp" alt="" width="197" loading="lazy" decoding="async">
+| článek | autor |
+|---|---|
+| Pacman | Autor A |
+| Bakterie | Autor A |
+| Cheese Mouse | Autor B |
+| NULL | Autor D |
+| Algoritmus | Autor C |
 
 -
 	- LEFT OUTER JOIN \-  \(Pokud existuje hodnota na levé straně \- chybějící hodnota je NULL\) \- levá část vazby \(zde článek\) a pravá \(ta připojovaná, zde uživatel\) neexistuje\. Do hodnot sloupců z připojované části se vloží NULL\. 
 
-<img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/42.webp" alt="" width="274" loading="lazy" decoding="async">
+| článek | autor |
+|---|---|
+| Článek bez autora | NULL |
+| Pacman | Autor A |
+| Bakterie | Autor A |
+| Cheese Mouse | Autor B |
+| Algoritmus | Autor C |
 
 - Pokud napíšeme __pouze JOIN poikládá ho DB za INNER JOIN__ 
 

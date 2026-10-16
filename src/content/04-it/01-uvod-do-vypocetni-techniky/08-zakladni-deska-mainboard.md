@@ -11,7 +11,7 @@ Typická základní deska umožňuje zapojení procesoru a operační paměti, d
 
 Nejdůležitějším logickým obvodem základní desky je **čipová sada** , neboli chipset, která umožňuje procesoru komunikovat s ostatními částmi počítače. V obvodech čipové sady jsou integrovány řadiče, které na základě zpracování instrukcí (programu) generují řídící signály pro tato zařízení. Je zde umístěn např. řadič operační paměti, řadiče disků, řadiče rozhraní (např. USB), řadiče sběrnice, atd.
 
-((obrázek vynechán))
+<img src="/images/content/it/uvod-do-vypocetni-techniky/zakladni-deska-mainboard/01.webp" alt="Popis částí základní desky" width="640" loading="lazy" decoding="async">
 
 
 Na základní desce je dále umístěna polovodičová paměť FlashROM, ve které je uložen **BIOS** . BIOS (Basic Input Output System) je základní program počítače, který zprostředkovává komunikaci mezi technickým a programovým vybavením počítače (mezi hardwarem a operačním systémem). Ke konfiguraci BIOSu slouží program SETUP. V něm lze nastavit několik základních parametrů hardwaru počítače.

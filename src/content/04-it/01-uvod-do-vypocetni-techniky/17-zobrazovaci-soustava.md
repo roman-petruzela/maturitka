@@ -327,7 +327,7 @@ Karta kreslí obraz – je tak jádrem celé soustavy
 
 - DVI-D (digital only)
 
-((obrázek vynechán))
+<img src="/images/content/it/uvod-do-vypocetni-techniky/zobrazovaci-soustava/01.webp" alt="Typy konektorů DVI" width="220" loading="lazy" decoding="async">
 
 
 - Založen na sériovém formátu používá Transition Minimized Differential Signaling (TMDS)
@@ -372,7 +372,7 @@ Karta kreslí obraz – je tak jádrem celé soustavy
 
 - Verze HDMI 1.0 až 2.1
 
-((obrázek vynechán))
+<img src="/images/content/it/uvod-do-vypocetni-techniky/zobrazovaci-soustava/02.webp" alt="Kabel HDMI" width="302" loading="lazy" decoding="async">
 
 
 - Digitální konektor sloužící k přenosu nekomprimovaného digitálního obsahu s podporou až 8kanálového zvuku a ochrany DPCP (DisplayPort Content Protection)
@@ -550,7 +550,7 @@ Karta kreslí obraz – je tak jádrem celé soustavy
 
 - technologie se pak označuje jako TN+F
 
-((obrázek vynechán))
+<img src="/images/content/it/uvod-do-vypocetni-techniky/zobrazovaci-soustava/03.webp" alt="Vrstvy TN panelu" width="320" loading="lazy" decoding="async">
 
 1. Zdroj bílého světla
 2. Polarizační desky
