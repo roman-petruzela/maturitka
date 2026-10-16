@@ -103,13 +103,27 @@ async function savePicture(buf, contentType, outFile, tmpDir) {
 	const raw = path.join(tmpDir, `picture.${ext}`);
 	await writeFile(raw, buf);
 	let input = raw;
+	// LibreOffice draws a vector picture in the middle of a whole blank page; the margins are cut off
+	// again, or a formula shown 90 px wide would be a speck in the middle of a scaled-down page
+	let crop = [];
 	if (ext === 'emf' || ext === 'wmf') {
 		await execFileAsync('soffice', ['--headless', '--convert-to', 'png', '--outdir', tmpDir, raw]);
 		input = path.join(tmpDir, 'picture.png');
 		ext = 'png';
+		crop = ['-fuzz', '3%', '-trim', '+repage', '-bordercolor', 'white', '-border', '4'];
 	}
 	await mkdir(path.dirname(outFile), { recursive: true });
-	await execFileAsync('magick', [input, '-resize', '1400x>', '-quality', '82', '-define', 'webp:method=6', outFile]);
+	await execFileAsync('magick', [
+		input,
+		...crop,
+		'-resize',
+		'1400x>',
+		'-quality',
+		'82',
+		'-define',
+		'webp:method=6',
+		outFile,
+	]);
 }
 
 // alt texts that say nothing: search-engine captions, file names, Word's automatic descriptions
