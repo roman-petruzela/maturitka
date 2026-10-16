@@ -6,6 +6,7 @@ import ArticleAside from '../../components/ArticleAside.astro';
 import { SUBJECTS, SUBJECT_KEYS, type SubjectKey } from '../../lib/subjects';
 import { cleanId, groupLabel, groupOfId, sortEntriesByOrder, sortGroupKeys } from '../../lib/groups';
 import { getCollection, render } from 'astro:content';
+import { outline } from '../../lib/search-outline';
 
 type Entry = Awaited<ReturnType<typeof getCollection<SubjectKey>>>[number];
 export type TopicItem = {
@@ -108,11 +109,28 @@ const nextOtherGroup = otherGroupLabel(next);
 // redundant first row, so it's dropped.
 const normalized = (s: string) => s.trim().toLowerCase().replace(/\s+/g, ' ');
 const tocHeadings = headings.filter((h, i) => !(i === 0 && normalized(h.text) === normalized(entry.data.title)));
+
+// The page's own opening sentence describes it better (in search results, link previews) than a
+// generic line; cut at a word boundary to the length search engines show.
+function describe(text: string, fallback: string): string {
+	if (text.length < 40) return fallback;
+	if (text.length <= 160) return text;
+	const cut = text.slice(0, 157);
+	return `${cut.slice(0, cut.lastIndexOf(' '))}…`;
+}
+const description = describe(
+	outline(entry.body ?? '').excerpt,
+	`${entry.data.title} — ${SUBJECTS[subject].label}, učební materiál k maturitě.`
+);
+
+// English and German pages are marked as such: screen readers switch pronunciation, browsers hyphenate
+// and spell-check in the right language. The exam pages of English are written in Czech.
+const contentLang = subject === 'aj' && group !== 'maturitni-zkouska' ? 'en' : subject === 'nemcina' ? 'de' : undefined;
 ---
 
 <BaseLayout
 	title={entry.data.title}
-	description={`${entry.data.title} — ${SUBJECTS[subject].label}, učební materiál k maturitě.`}
+	description={description}
 	activeSubject={subject}
 	layout="reading"
 >
@@ -145,7 +163,7 @@ const tocHeadings = headings.filter((h, i) => !(i === 0 && normalized(h.text) ==
 					</p>
 				)
 			}
-			<article class="topic">
+			<article class="topic" lang={contentLang}>
 				<Content />
 			</article>
 			{subject === 'mat' && <MathScratchpad />}
