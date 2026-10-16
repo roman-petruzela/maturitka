@@ -261,6 +261,12 @@ table (English | Česky), **Useful phrases** and practice questions whose hints 
 (`\|\|hint\|\|` inside a table cell). Facts that date (heads of state, population figures) are written
 as of the time of writing — re-check them when you touch a page.
 
+`01-maturitni-temata/00-prehled-temat.md` (order −1) is the table of the 20 topics with their specific
+parts — keep it in step when a pairing changes. `04-maturitni-zkouska/` is written in Czech with English
+examples (it is about the exam, not a topic): the oral exam and its phrases, the written work (e-mail,
+letter and other text types with model texts), the Cermat didactic test, and a grammar overview. The
+exam level is B1 (ŠVP); the topic texts are deliberately one level higher (B2).
+
 ## No names of teachers or students
 
 Nothing in this repo may name a teacher or a student — not page text, not a `source:` (it is shown
@@ -281,6 +287,14 @@ Pictures of Word sources are kept: `convert-docx.mjs` saves them as `public/imag
 mammoth's images by the hash of their bytes. On the dark page they sit on a paper-coloured card
 (`article.topic img:not([class])`). The ~900 pictures the first conversion had dropped were restored the
 same way; `((obrázek vynechán))` is left only where the source was a PDF.
+
+LibreOffice draws an EMF/WMF picture in the middle of a whole blank page, so the converter trims the
+margins off again (otherwise a formula shown 90 px wide is a speck on a scaled-down page). Most of those
+pictures were Equation Editor formulas, and these render badly (glyphs stacked on top of each other, empty
+boxes): in `07-fyzika` they were replaced by real `$…$` / `$$…$$` formulas, transcribed from the
+picture, and the files were deleted. When a new Word import brings EMF formulas, do the same instead of
+keeping the pictures. Pictures with a person's name in them (e.g. sample query results) are retyped
+as text with neutral values.
 
 Sources were converted from Word/PDF/PPTX; these artefacts were found and fixed and are worth
 grepping for after every new import:
