@@ -4,7 +4,7 @@ order: 2
 source: "IT4_-_OB-ANSK-_NAUKA.pdf, OBN_test_vytah.md"
 ---
 
-Oddíly A–E z učebnice IT4 na jednom místě. U každého oddílu jsou nejdřív pojmy, pak srovnání v tabulkách. Na konci najdeš přehled kauz z IT a otázky na procvičení.
+Oddíly A–E z učebnice na jednom místě. U každého oddílu jsou nejdřív pojmy, pak srovnání v tabulkách. Na konci najdeš přehled kauz z IT a otázky na procvičení.
 
 ## A) Politologie a správa věcí veřejných
 

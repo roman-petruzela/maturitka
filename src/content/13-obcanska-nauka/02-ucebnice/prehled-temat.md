@@ -8,7 +8,7 @@ Osnova učebnice občanské nauky pro 4. ročník IT. Učivo ke každému témat
 
 ## Oddíly A–Z
 
-### [A) Úvod do politologie a správa věcí veřejných](/obcanska-nauka/ucebnice-it4/uvod-do-politologie-a-sprava-veci-verejnych/)
+### [A) Úvod do politologie a správa věcí veřejných](/obcanska-nauka/ucebnice/uvod-do-politologie-a-sprava-veci-verejnych/)
 
 1. **Politologie jako věda a její metody** – Politologie, předmět politologie, společenské vědy, deskripce, komparativní analýza.
 2. **Pojem politiky a správa věcí veřejných** – Politika (polis), správa věcí veřejných, veřejný zájem, soukromý zájem, politická participace.
@@ -18,7 +18,7 @@ Osnova učebnice občanské nauky pro 4. ročník IT. Učivo ke každému témat
 6. **Algoritmické vládnutí (Algocracy)** – Algoritmické vládnutí (algocracy), Big Data ve správě, automatizované rozhodování, politická moc algoritmů, transparentnost.
 7. **Zamlčené hlasy: Informační asymetrie a přístup k moci** – Informační asymetrie, digitální propast (digital divide), exkluze z rozhodování, transparentnost státní správy, rovný přístup k informacím.
 
-### [B) Hodnoty, principy a formy demokracie](/obcanska-nauka/ucebnice-it4/hodnoty-principy-a-formy-demokracie/)
+### [B) Hodnoty, principy a formy demokracie](/obcanska-nauka/ucebnice/hodnoty-principy-a-formy-demokracie/)
 
 1. **Svoboda a rovnost jako základy demokracie** – Svoboda, rovnost před zákonem, lidská důstojnost, tolerance, individuální autonomie.
 2. **Princip suverenity lidu a dělby moci** – Suverenita lidu, dělba moci, moc zákonodárná, výkonná a soudní, systém brzd a rovnováh.
@@ -28,7 +28,7 @@ Osnova učebnice občanské nauky pro 4. ročník IT. Učivo ke každému témat
 6. **Tekutá demokracie a blockchain** – Tekutá demokracie (liquid democracy), delegování hlasu, blockchain, kryptografická bezpečnost, e-participace.
 7. **Zamlčené hlasy: Digitální exkluze v e-demokracii** – Digitální propast (digital divide), digitální exkluze, inkluzivní participace, rovný přístup k rozhodování, dostupnost e-služeb.
 
-### [C) Politické ideologie a pravolevé spektrum](/obcanska-nauka/ucebnice-it4/politicke-ideologie-a-pravoleve-spektrum/)
+### [C) Politické ideologie a pravolevé spektrum](/obcanska-nauka/ucebnice/politicke-ideologie-a-pravoleve-spektrum/)
 
 1. **Pojem politické ideologie a její společenská role** – Politická ideologie, hodnotový systém, politické jednání, světonázor, společenská integrace.
 2. **Pravolevé politické spektrum** – Politické spektrum, pravice, levice, role státu v ekonomice, individuální odpovědnost, sociální rovnost.
@@ -36,9 +36,9 @@ Osnova učebnice občanské nauky pro 4. ročník IT. Učivo ke každému témat
 4. **Konzervatismus a respekt k tradicím** – Konzervatismus, společenský řád, tradice, stabilita, morální hodnoty, evoluční vývoj.
 5. **Socialismus, solidarita a sociální stát** – Socialismus, sociální demokracie, lidská solidarita, sociální spravedlnost, sociální stát, redistribuce.
 6. **Síťová neutralita a digitální ideologie** – Síťová neutralita (net neutrality), digitální libertarianismus, techno-optimismus, regulace internetu, kyber-kolektivismus.
-7. **Zamlčené hlasy: Open-source hnutí a autorská práva – IT4 přesah** – Open-source, svobodný software (FOSS), autorské právo, copyleft, intelektuální vlastnictví, demokratická transparentnost.
+7. **Zamlčené hlasy: Open-source hnutí a autorská práva – přesah do IT** – Open-source, svobodný software (FOSS), autorské právo, copyleft, intelektuální vlastnictví, demokratická transparentnost.
 
-### [D) Politický radikalismus, extremismus a online radikalizace](/obcanska-nauka/ucebnice-it4/politicky-radikalismus-extremismus-a-online-radikalizace/)
+### [D) Politický radikalismus, extremismus a online radikalizace](/obcanska-nauka/ucebnice/politicky-radikalismus-extremismus-a-online-radikalizace/)
 
 1. **Politický radikalismus a ústavní meze** – Politický radikalismus, ústavní systém, reformní snahy, legitimní protest, svoboda projevu.
 2. **Politický extremismus a útok na demokracii** – Politický extremismus, ústavní pořádek, potlačení práv a svobod, odmítnutí demokracie, neústavní metody.
@@ -48,7 +48,7 @@ Osnova učebnice občanské nauky pro 4. ročník IT. Učivo ke každému témat
 6. **Mládež a algoritmy radikalizace** – Mládež a extremismus, doporučovací algoritmy, názorové bubliny (echo chambers), online radikalizace, králičí nora (rabbit hole effect).
 7. **Zamlčené hlasy: Moderování obsahu vs. digitální cenzura** – Moderování obsahu, digitální cenzura, hate speech, svoboda projevu online, odpovědnost platforem, blokování účtů.
 
-### [E) Terorismus v současném světě](/obcanska-nauka/ucebnice-it4/terorismus-v-soucasnem-svete/)
+### [E) Terorismus v současném světě](/obcanska-nauka/ucebnice/terorismus-v-soucasnem-svete/)
 
 1. **Definice a podstata terorismu** – Terorismus, asymetrický konflikt, politické motivy, vyvolání strachu, civilní cíle, psychologický efekt.
 2. **Historické formy a vývoj terorismu** – Historické formy teroru, anarchistické atentáty, státní teror, ultralevicový a ultrapravicový teror, moderní globální sítě, 11. září 2001.
@@ -115,7 +115,7 @@ Osnova učebnice občanské nauky pro 4. ročník IT. Učivo ke každému témat
 3. **Mandát poslance a senátora** – Poslanecký mandát, senátorský mandát, volný mandát, neslučitelnost funkcí (inkompatibilita), poslanecká imunita.
 4. **Funkce a pravomoci Parlamentu ČR** – Tvorba zákonů (legislativní proces), schvalování státního rozpočtu, kontrolní funkce, kreační funkce, vyhlášení válečného stavu.
 5. **Kontrolní pravomoci a interpelace** – Interpelace, kontrola vlády, vyslovení nedůvěry vládě, vyšetřovací komise, politická odpovědnost.
-6. **e-Sbírka a e-Legislativa – IT4 přesah** – e-Sbírka, e-Legislativa, digitalizace legislativního procesu, transparentnost, právní jistota, digitální přístup k zákonům.
+6. **e-Sbírka a e-Legislativa – přesah do IT** – e-Sbírka, e-Legislativa, digitalizace legislativního procesu, transparentnost, právní jistota, digitální přístup k zákonům.
 7. **Otevřená legislativní data a API** – Otevřená data (Open Data), API rozhraní, legislativní data, vizualizace dat, občanský dohled (Civic Tech).
 
 ### L) Výkonná moc v ČR (Exekutiva)

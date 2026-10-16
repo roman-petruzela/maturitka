@@ -90,7 +90,7 @@ Rovný přístup k informacím je zásadní pro ochranu svobody slova, soukromí
 
 > **K zamyšlení:** Měl by internet zůstat zcela neregulovaným územím bez jakýchkoliv zásahů státu, nebo podporuješ snahu vlád regulovat technologické giganty, chránit data uživatelů a bojovat proti kyberkriminalitě, i kdyby to znamenalo částečné omezení digitální svobody?
 
-## 7. Zamlčené hlasy: Open-source hnutí a autorská práva – IT4 přesah
+## 7. Zamlčené hlasy: Open-source hnutí a autorská práva – přesah do IT
 
 **Klíčové pojmy:** Open-source, svobodný software (FOSS), autorské právo, copyleft, intelektuální vlastnictví, demokratická transparentnost.
 
