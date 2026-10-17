@@ -196,15 +196,35 @@ keeps the three buttons' `disabled` state in step.
 
 ## Whiteboard tasks (`src/lib/exercises.ts`, `MathScratchpad.astro`)
 
-The math whiteboard offers a "⇥ tabule" button next to each task and a "Zadání" dropdown.
-`findExercises()` recognises the styles the content is actually written in: an `<ol>` item, a
-numbered/lettered paragraph (`**3.**`, `**a)**`, didactic-test `**13p)**`), a labelled one
-(`**Příklad 2:**`, `**Př. 1:**`), a task heading (`## Úkol 10`, `### Ukázkový příklad`) and
-bullets under a "Úkoly / Procvičování" heading. The statement ends at `Řešení:` / `Výsledek:` …
-(`SOLUTION_RE`), a heading, table or graph; parts (`a) …`, options `A) …`) belong to it. A note
-gets a **copy of the DOM** (typeset formulas survive; spoilers, buttons and ids are stripped).
-`findExercises()` deliberately uses only sibling/text access so it can be run from Node against
-`dist/` with a parse5-backed shim to check coverage after content changes.
+The math whiteboard offers a "⇥ na tabuli" button next to each task and a "Zadání" dropdown
+(grouped by the article's `h2` chapters). `findExercises()` recognises the styles the content is
+actually written in: an `<ol>` item, a numbered/lettered paragraph (`**3.**`, `**a)**`,
+didactic-test `**13p)**`), a labelled one (`**Příklad 2:**`, `**Př. 1:**`), a task heading
+(`## Úkol 10`, `### Ukázkový příklad`) and bullets under a "Úkoly / Procvičování" heading. The
+statement ends at `Řešení:` / `Výsledek:` … (`SOLUTION_RE`), a heading or a graph; parts (`a) …`,
+options `A) …`) belong to it, and so does a **data table** right below a statement that ends with a
+colon or mentions "tabulka" (plus the question asked under the table). A note gets a **copy of the
+DOM** (typeset formulas survive; spoilers, buttons and ids are stripped).
+
+Not every numbered or lettered line is a task. A lettered paragraph or a list item counts only if it
+**asks something** (`asksSomething()`: an instruction such as "Určete", "Načrtni", a question, or
+nothing but a formula) or hangs from a line / heading that does ("**5.** Zjednodušte:" + parts); a
+lettered line below the "Řešení:" of a task is a solution step, a line already shown inside the
+statement above is not offered twice. That keeps theory ("a) pomocí vzorce:"), topic outlines and
+method steps ("Nerovnici převedeme na rovnici …") without a button. Digit-numbered tasks are taken
+as they are. In content, write an illustration that already shows its result as "**Například:** …",
+never "**Příklad:** …" — "Příklad" means a task and gets a button; answers go in spoilers
+(`Řešení: ||…||`), never as plain text right after the statement.
+
+`node scripts/list-exercises.mjs` runs the real `findExercises()` against `dist/mat` through a
+parse5-backed DOM shim (`--summary` for counts per page, a path filter as argument): compare its
+output before and after touching the rules or the content.
+
+The notes on the board are linked back: "↑ v textu" scrolls to the task (leaving fullscreen) and
+lights it up; a task already on the board shows "✓ na tabuli" and sending it again flashes its note
+instead of adding a copy. Notes are saved with the drawing (`…:notes` in localStorage: task index,
+position, scale) and restored on the next visit. The paper is squared by default (a maths exercise
+book), ruled or blank — one choice for all pages; Shift while drawing makes a straight line.
 
 ## Math reference (`02-mat/01-reference/`)
 
