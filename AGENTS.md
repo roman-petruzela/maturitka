@@ -160,6 +160,24 @@ Plugins run in this order (`astro.config.mjs`): `remarkLineBreaks` → `remarkPr
   (words as plain text, the maths between them in a MathLive wrapper) — never flattened with
   `textContent`. Formulas hidden in a spoiler never appear. A formula a little wider than the rail is
   shrunk to fit.
+- The rail is for formulas to look up, so it leaves out what is only a computation: a display under a
+  task / worked-example heading ("Ukázkový příklad", "Příklady na procvičení", "Úkol") or right after a
+  paragraph starting "Řešení:", "Výsledek:", "**Příklad …:**", "**Například:**" (`WORKED_RE`,
+  `inWorkedExample` in `rail-formulas.ts`), and a display that is only a list of numbers ("1, 1, 2, 3,
+  5, …", `isListNotFormula`) or a computation with numbers only ("2275 : 7 = 325", `isNumbersOnly`). Every
+  heading the formula lies under counts, not only the nearest one. A closing "Shrnutí" that repeats
+  formulas already listed is skipped, and a repeat written with `⋅` / `⟺` instead of nothing / `=` is
+  recognised as the same formula. A page made only of worked problems sets `formulaRail: false` in its
+  frontmatter (all of `10-resene-ulohy-dt`, `kombinatorika-v-praxi`) and gets no rail. In content, an
+  illustration of a method is "Například: $…$" inline under a general formula, not a display of its own.
+- Captions: a heading too general to name a formula ("Vzorce", "Výpočet", "Shrnutí", "Odvození",
+  `GENERIC_CAPTION`) hands over to the heading above it and in the end to the page title; "Další
+  vlastnosti — diagonály" is captioned by its part after the dash. Besides a lead-in right before the
+  formula, a bold phrase opening a paragraph up to six blocks above it within the same section counts
+  ("**Hybnost** (značka p, …)" + a list + the formula) — so physics notes, whose headings were often
+  plain lines, need real headings or such bold phrases. `/tmp`-free check: load the formula pages in the
+  headless browser and read `[data-formulas] > li` (heading `li.rail-formula-heading`, formula
+  `.math-display`) to review every caption after changing these rules.
 - A figure caption (`"title"` of a graph / geometry / solid block) may use the same subscript
   shorthand as the labels inside the drawing: `v_c`, `log_{1/4} x`.
 
@@ -384,6 +402,25 @@ diacritics stripped), else a silhouette placeholder. Headings that name a period
 add a new one there when you write such a heading.
 CC-licensed photos must show their credit: `public/images/authors/credits.json` (`{ "<slug>": "<author>,
 <licence>" }`); sources go to `CREDITS.md`.
+
+## Phone layout
+
+Below 1024px the article is one column. Above the text only the category / badges and the folded
+"Obsah" (with the formula rail inside); Předchozí / Další and the subject index ("Navigace") come
+after the article. `.rail-aside` is dissolved there (`display: contents` in `article-layout.css`) so
+its parts take separate rows of the page grid (`meta` `toggle` `body` `main` `adjacent` `nav`) — the
+folding still works through the aside's own `.is-open`. Before, ~450px of navigation pushed the title
+below the first screen of a phone.
+
+## Content headings
+
+Converted sources often lost their heading styles. They were repaired in bulk and the same artefacts
+are worth checking after a new import: a heading written as a plain short line (now `##`/`###` at the
+level of the nearest real heading), `# …` inside the content (the page already has its title as h1 —
+all headings of such a file were moved one level down, a first heading that only repeats the title and
+headings that are just a number ("18.") were dropped), runs of `1. **Question?**` that all restart at
+1 (now numbered headings, so the table of contents lists the questions), `\- text` paragraphs that are
+really bullets (now real lists), and `->` / `=>` in prose (now → / ⇒; not in IT, where they can be code).
 
 ## Styles
 
