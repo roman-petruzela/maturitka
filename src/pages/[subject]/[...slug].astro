@@ -90,7 +90,7 @@ const { Content, headings } = await render(entry);
 const group = groupOfId(entry.id);
 const categoryLabel = group ? groupLabel(subject, group) : undefined;
 const currentId = cleanId(entry.id);
-const hasFormulas = /\$\$[\s\S]*?\$\$/.test(entry.body ?? '');
+const hasFormulas = entry.data.formulaRail !== false && /\$\$[\s\S]*?\$\$/.test(entry.body ?? '');
 
 // prev/next now walk the whole subject (see getStaticPaths above), so the
 // boundary topic of a category points into the neighbouring one — flagged

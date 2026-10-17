@@ -12,6 +12,9 @@ const topicSchema = z.object({
 	// marks topics with concrete calculation problems (not just theory) —
 	// shown as a badge in topic lists so it's clear before clicking in
 	hasExercises: z.boolean().optional(),
+	// false on a page made only of worked problems: its display formulas are computations, not
+	// formulas to look up, so the "Klíčové vzorce" rail is left out
+	formulaRail: z.boolean().optional(),
 });
 
 // Subjects are discovered from `src/content/*` directories rather than a

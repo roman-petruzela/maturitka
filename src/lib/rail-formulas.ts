@@ -19,10 +19,50 @@ export function cleanLabel(s: string | null | undefined): string {
 		.trim();
 	const dash = /\s+[—–-]\s+/.exec(t);
 	if (dash) {
+		const head = t.slice(0, dash.index);
 		const tail = t.slice(dash.index + dash[0].length);
-		t = /^\p{Lu}/u.test(tail) ? tail : t.slice(0, dash.index);
+		if (/^\p{Lu}/u.test(tail)) t = tail;
+		// "Další vlastnosti — diagonály": the front says nothing, the tail is the name
+		else if (GENERIC_HEAD.test(head) || GENERIC_CAPTION.test(head)) t = tail.charAt(0).toUpperCase() + tail.slice(1);
+		else t = head;
 	}
 	return t.replace(/[:.\s]+$/, '').trim();
+}
+
+/** Section titles too general to caption a formula on their own ("Další vlastnosti — …"). */
+const GENERIC_HEAD =
+	/^(?:další\s+|ostatní\s+)?(?:vlastnost(?:i)?|poznámk[ay]|shrnutí|pokračování|doplnění|souvislosti)$/iu;
+
+/**
+ * Section titles that structure the text but name no formula ("Vzorce", "Shrnutí", "Odvození") —
+ * a formula under one is captioned by the heading above it, or by the page's title.
+ */
+export const GENERIC_CAPTION =
+	/^(?:vzorec|vzorce|výpočet|výpočty|shrnutí|shrnutí vzorců|odvození|základní znalosti|znalosti potřebné k řešení|základní vlastnosti|přehled|teorie|úvod)$/iu;
+
+/**
+ * Where a formula belongs to a task or a worked example rather than to the theory: a heading
+ * ("Příklady na procvičení", "Ukázkový příklad", "Úkol") or the paragraph that leads to it
+ * ("Řešení: …", "**Příklad 2:** …", "**Například:** …"). Its formulas are a computation — "C(3,8) =
+ * … = 56", a list of numbers — not something to look up later, so the rail leaves them out.
+ */
+export const WORKED_RE =
+	/^(?:\d+[.)]\s*)?(?:ukázkov|příklad|př\.|úkol|úloh|cvičení|procvičení|procvičování|řešen|výsledek|výsledky|například|zkouška|ověření|motivac|úvodní příklad)/iu;
+
+/**
+ * A display that is only a list of numbers or terms ("1, 1, 2, 3, 5, 8, …"), not a formula —
+ * there is no relation in it and it is a run of comma / semicolon separated items.
+ */
+export function isListNotFormula(text: string): boolean {
+	const t = text.replace(/\s+/g, '');
+	// "1, 3, 5, 7, … ∈ ℝ" is still a list: membership after it does not make it a formula
+	if (/[=<>≤≥≈≠⇒⇔⊂⊆≐∼≡→⟹⟺∥⊥]/u.test(t)) return false;
+	return (t.match(/[,;]/g) ?? []).length >= 2;
+}
+
+/** A computation with numbers only ("2275 : 7 = 325") — no variable, nothing to look up. */
+export function isNumbersOnly(text: string): boolean {
+	return !/[\p{L}]/u.test(text) && /=/.test(text);
 }
 
 /**
@@ -79,7 +119,7 @@ function leadIn(p: Element, stop: Node | null): string {
 	}
 	const bold = (first.textContent ?? '').trim();
 	const label = cleanLabel(bold);
-	if (!label || GENERIC_LEAD_IN.test(label) || !/^\p{Lu}/u.test(label)) return '';
+	if (!label || GENERIC_LEAD_IN.test(label) || GENERIC_CAPTION.test(label) || !/^\p{Lu}/u.test(label)) return '';
 	let text = '';
 	for (let c = p.firstChild; c && c !== stop; c = c.nextSibling) text += c.textContent ?? '';
 	text = text.trim();
@@ -104,12 +144,38 @@ function labelFor(node: HTMLElement, headings: Element[]): string {
 			if (lead) return lead;
 		}
 	}
-	let heading: Element | null = null;
-	for (const h of headings) {
-		if (h.compareDocumentPosition(node) & Node.DOCUMENT_POSITION_FOLLOWING) heading = h;
-		else break;
+	// a bold phrase opening a paragraph a little above — physics notes use those as headings
+	// ("**Hybnost** (značka p, jednotka …)" + a list + the formula) — within the same section
+	let back = 0;
+	for (
+		let prev = (para ?? node).previousElementSibling;
+		prev && back < 6 && !/^H[1-6]$/.test(prev.tagName);
+		prev = prev.previousElementSibling
+	) {
+		back++;
+		const bold = prev.tagName === 'P' ? prev.firstElementChild : null;
+		if (bold?.tagName !== 'STRONG' || bold.querySelector('.math-inline, .math-display')) continue;
+		const text = (prev.textContent ?? '').trimStart();
+		if (!text.startsWith((bold.textContent ?? '').trim())) continue;
+		const label = cleanLabel(bold.textContent);
+		if (label && /^\p{Lu}/u.test(label) && !GENERIC_LEAD_IN.test(label) && !GENERIC_CAPTION.test(label)) {
+			if (!WORKED_RE.test(label) && label.length <= 60) return label;
+		}
 	}
-	return heading ? cleanLabel(heading.textContent) : '';
+	// the nearest heading above that names something — a general one ("Vzorce", "Shrnutí") hands
+	// over to the heading of a higher level, and in the end to the page's title
+	const above = headings.filter((h) => h.compareDocumentPosition(node) & Node.DOCUMENT_POSITION_FOLLOWING);
+	let level = 7;
+	for (let i = above.length - 1; i >= 0; i--) {
+		const n = Number(above[i].tagName.slice(1));
+		if (n >= level) continue;
+		level = n;
+		const label = cleanLabel(above[i].textContent);
+		if (label && !GENERIC_CAPTION.test(label)) return label;
+	}
+	// the page's title, without the number some physics topics carry ("39 Geometrická optika")
+	const title = cleanLabel(document.querySelector('h1')?.textContent).replace(/^\d+\s+/, '');
+	return title.charAt(0).toUpperCase() + title.slice(1);
 }
 
 // ── Splitting off an explanatory tail ───────────────────────────────────────
@@ -159,6 +225,48 @@ function splitNote(clone: HTMLElement): Node[] {
 	return noteNodes;
 }
 
+// ── Worked examples ──────────────────────────────────────────────────────────
+
+/** Does the formula belong to a task, its solution or a worked example (see WORKED_RE)? */
+function inWorkedExample(node: HTMLElement): boolean {
+	// the top-level block of the article the formula sits in
+	let block: Element = node;
+	while (block.parentElement && !block.parentElement.matches('article')) block = block.parentElement;
+	if (block !== node && WORKED_RE.test((block.textContent ?? '').trim())) return true;
+	// every heading the formula lies under — not just the nearest one: "## Ukázkové příklady" with
+	// "### a) Číslo lze napsat jako mocninu …" under it is still a worked example
+	let level = 7;
+	for (let prev = block.previousElementSibling; prev && level > 2; prev = prev.previousElementSibling) {
+		const m = /^H([2-4])$/.exec(prev.tagName);
+		if (!m || Number(m[1]) >= level) continue;
+		level = Number(m[1]);
+		if (WORKED_RE.test(cleanLabel(prev.textContent))) return true;
+	}
+	// then the few paragraphs just above it, up to the section's heading or a new named item
+	let steps = 0;
+	for (let prev = block.previousElementSibling; prev && steps < 4; prev = prev.previousElementSibling) {
+		if (/^H[2-4]$/.test(prev.tagName)) break;
+		if (prev.tagName !== 'P' || isFormulaOnly(prev)) continue;
+		const text = (prev.textContent ?? '').trim();
+		if (WORKED_RE.test(text)) return true;
+		// a new named item of theory ("**Euklidova věta o výšce:** …") — the formula is its
+		const bold = prev.firstElementChild;
+		if (bold?.tagName === 'STRONG' && text.startsWith((bold.textContent ?? '').trim())) break;
+		steps++;
+	}
+	return false;
+}
+
+/** Is the formula in a closing summary section ("## Shrnutí", "## Shrnutí vzorců")? */
+function inSummary(node: HTMLElement): boolean {
+	let block: Element = node;
+	while (block.parentElement && !block.parentElement.matches('article')) block = block.parentElement;
+	for (let prev = block.previousElementSibling; prev; prev = prev.previousElementSibling) {
+		if (/^H[2-4]$/.test(prev.tagName)) return /^shrnutí/iu.test(cleanLabel(prev.textContent));
+	}
+	return false;
+}
+
 // ── The rail ─────────────────────────────────────────────────────────────────
 
 /** Fills `[data-formulas]` with the article's display formulas, or removes the empty section. */
@@ -173,7 +281,13 @@ export function buildFormulaRail(article: HTMLElement): void {
 	const picked: HTMLElement[] = [];
 	article.querySelectorAll<HTMLElement>('.math-display').forEach((node, i) => {
 		if (node.closest('.spoiler, .spoiler-block, .formula-sheet')) return;
-		const key = (node.textContent ?? '').replace(/\s+/g, '');
+		const text = node.textContent ?? '';
+		if (isListNotFormula(text) || isNumbersOnly(text) || inWorkedExample(node)) return;
+		// a "Shrnutí" at the end repeats what the rail already lists, often written slightly differently
+		if (picked.length && inSummary(node)) return;
+		// "a_n = a_1 + (n−1)·d" again in the summary as "a_n = a_1 + (n−1)d" is the same formula
+		// \iff in the theory and = in the summary are the same equivalence too
+		const key = text.replace(/[\s⋅·​]+/g, '').replace(/⟺|⇔/g, '=');
 		if (!key || seen.has(key)) return;
 		seen.add(key);
 		if (!node.id) node.id = 'vzorec-' + (i + 1);
