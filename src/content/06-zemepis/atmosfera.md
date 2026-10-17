@@ -113,7 +113,9 @@ Směr a rychlost větru: - anemometr (rychlost)
 
 Coriolisova síla – setrvačná síla, vítr na S polokouli se stáčí vpravo, na J vlevo
 
-<img src="/images/content/zemepis/atmosfera/03.webp" alt="" width="402" loading="lazy" decoding="async">Větry
+## Větry
+
+<img src="/images/content/zemepis/atmosfera/03.webp" alt="" width="402" loading="lazy" decoding="async">
 
 \- sezónní = monzunové
 

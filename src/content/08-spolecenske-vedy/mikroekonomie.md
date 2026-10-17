@@ -68,7 +68,9 @@ __3\. agregátní \(celkovou\)__: nabídka všech druhů zboží od všech ekono
 POPTÁVKA
 \- je souhrn všeho zboží, které jsou zákazníci ochotni koupit za příslušnou cenu
 
-<img src="/images/content/spolecenske-vedy/mikroekonomie/02.webp" alt="" width="397" loading="lazy" decoding="async">Zákon klesající poptávky\- růst cen vede k poklesu poptávaného zboží
+<img src="/images/content/spolecenske-vedy/mikroekonomie/02.webp" alt="" width="397" loading="lazy" decoding="async">
+
+**Zákon klesající poptávky** – růst cen vede k poklesu poptávaného zboží
 
 P
 
