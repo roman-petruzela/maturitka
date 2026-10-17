@@ -560,3 +560,50 @@
 	margin: 0;
 	color: var(--muted);
 }
+
+/* ── Telefon a úzký tablet: co je nad textem a co pod ním ────────────────
+   Above the text only what helps to start reading: the category and badges
+   (one compact block) and the folded table of contents. Where to go next
+   (Předchozí / Další) and the subject index belong after the article — on a
+   phone they used to push the title ~450px down, below the first screen.
+   The aside is dissolved (display: contents) so its parts can sit in
+   different rows of the page grid; its own .is-open state still drives the
+   folding, the selectors only look at the DOM. */
+@media (max-width: 1023.98px) {
+	.reading-shell {
+		grid-template-areas: "meta" "toggle" "body" "main" "adjacent" "nav";
+		gap: 0;
+	}
+
+	.reading-shell > .rail-aside {
+		display: contents;
+	}
+
+	.rail-aside > .rail-meta {
+		grid-area: meta;
+		margin-bottom: 0.4rem;
+	}
+
+	.rail-aside > .rail-toggle {
+		grid-area: toggle;
+	}
+
+	.rail-aside > .rail-body {
+		grid-area: body;
+	}
+
+	.reading-shell > .reading-column {
+		margin-top: 1.25rem;
+	}
+
+	.rail-aside > .rail-adjacent {
+		grid-area: adjacent;
+		width: 100%;
+		max-width: var(--measure);
+		margin: 2.5rem auto 0;
+	}
+
+	.reading-shell > .rail-nav {
+		margin-top: 1.5rem;
+	}
+}
