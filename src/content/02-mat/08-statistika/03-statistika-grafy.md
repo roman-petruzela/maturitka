@@ -39,7 +39,7 @@ K zamyšlení: Jak by se řešil případ intervalů s různou šířkou (histog
 
 Nazývá se také kruhový diagram nebo koláčový graf. Zobrazuje rozdělení četností **kvalitativního** znaku a hodí se pro menší počet hodnot sledovaného znaku — různým hodnotám znaku odpovídají kruhové výseče, jejichž plošné obsahy jsou přímo úměrné četnostem.
 
-**Příklad:** Soubor 320 žáků školy, znak: volitelný cizí jazyk.
+**Například:** soubor 320 žáků školy, znak: volitelný cizí jazyk.
 
 | jazyk | španělština | němčina | ruština |
 |---|---|---|---|
@@ -55,7 +55,17 @@ Vzniká spojením bodů odpovídajících četnosti hodnot sledovaného znaku. H
 
 ## Úkoly
 
-V souboru *tabulky.xlsx* zpracujte podle pokynů jednotlivé úkoly. Na každém listu vytvořte jeden nebo i více vhodných grafů, které budou příklady vhodně ilustrovat.
+**1.** Pro data o volitelném jazyce (320 žáků: španělština 105, němčina 176, ruština 39) vypočítejte relativní četnosti v procentech a středové úhly výsečí výsečového grafu.
+
+Výsledek: ||španělština $\frac{105}{320}\approx32{,}8\,\%$ → $0{,}328\cdot360°\approx118°$; němčina $\frac{176}{320}=55\,\%$ → $198°$; ruština $\frac{39}{320}\approx12{,}2\,\%$ → $\approx44°$ (úhly dávají dohromady $360°$)||
+
+**2.** Jaký typ grafu zvolíte pro: a) vývoj kurzu eura během jednoho měsíce, b) rozdělení hlasů mezi strany ve volbách, c) tělesné výšky 100 žáků rozdělené do intervalů po 5 cm?
+
+Výsledek: ||a) spojnicový diagram (změna v čase), b) výsečový nebo sloupcový diagram (části celku), c) histogram (spojitý znak rozdělený do intervalů)||
+
+**3.** Vytvořte v tabulkovém procesoru (Excel, Calc) z dat úlohy 1 výsečový i sloupcový graf. Který z nich lépe ukazuje, že němčinu volí víc než polovina žáků?
+
+Výsledek: ||výsečový — polovina kruhu je na první pohled vidět, u sloupcového grafu musíme porovnávat výšku s celkem||
 
 ## Zdroje
 

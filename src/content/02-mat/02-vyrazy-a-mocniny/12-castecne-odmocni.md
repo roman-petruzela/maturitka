@@ -25,7 +25,7 @@ $$\sqrt{50} = \sqrt{25\cdot2} = \sqrt{25}\cdot\sqrt2 = 5\sqrt2$$
 
 ## Příklady
 
-Částečně odmocněte:
+**1.** Částečně odmocněte:
 
 a) $\sqrt{18}$
 b) $\sqrt{72}$
@@ -46,6 +46,18 @@ Výsledek:
 - **f)** ||√52=√(4·13)=2√13||
 - **g)** ||√108=√(36·3)=6√3||
 - **h)** ||√245=√(49·5)=7√5||
+
+**2.** Částečným odmocněním zjednodušte součty:
+
+a) $\sqrt8+\sqrt{18}-\sqrt{50}$
+b) $3\sqrt{12}-\sqrt{27}$
+c) $\sqrt{20}+\sqrt{45}$
+
+Výsledek: ||a) $2\sqrt2+3\sqrt2-5\sqrt2=0$, b) $6\sqrt3-3\sqrt3=3\sqrt3$, c) $2\sqrt5+3\sqrt5=5\sqrt5$||
+
+**3.** Vypočítejte $\sqrt{3}\cdot\sqrt{27}$ a $\sqrt{2}\cdot\sqrt{6}$ (výsledek částečně odmocněte).
+
+Výsledek: ||$\sqrt{81}=9$; $\sqrt{12}=2\sqrt3$||
 
 ## Zdroje
 

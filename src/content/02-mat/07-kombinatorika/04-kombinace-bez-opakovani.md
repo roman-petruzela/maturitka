@@ -38,25 +38,51 @@ $$C(k,n) = \binom{n}{k} = \frac{n!}{k!\,(n-k)!}$$
 
 Pro náš příklad: $C(3,4) = \dfrac{4!}{3!\cdot1!} = \dfrac{24}{6} = 4$ — souhlasí s počtem sloupců výše.
 
-## Příklad
+## Ukázkový příklad 1
 
 Kolik zápasů se odehraje v turnaji s 10 družstvy, hraje-li každé družstvo s každým jiným právě jednou?
 
-Nezáleží na pořadí (zápas „A vs. B" je totéž utkání jako „B vs. A"), vybíráme tedy dvojice bez opakování z 10 družstev:
+**Řešení:** Nezáleží na pořadí (zápas „A vs. B" je totéž utkání jako „B vs. A"), vybíráme tedy dvojice bez opakování z 10 družstev:
 
 $$C(2,10) = \binom{10}{2} = \frac{10!}{2!\cdot8!} = \frac{10\cdot9}{2} = 45$$
 
 **Výsledek:** 45 zápasů.
 
-## Příklad
+## Ukázkový příklad 2
 
 Kolika způsoby lze vybrat tříčlennou komisi z 8 lidí?
 
-Na pořadí členů komise nezáleží, jde tedy o kombinaci:
+**Řešení:** Na pořadí členů komise nezáleží, jde tedy o kombinaci:
 
 $$C(3,8) = \binom{8}{3} = \frac{8!}{3!\cdot5!} = \frac{8\cdot7\cdot6}{6} = 56$$
 
 **Výsledek:** 56 způsobů.
+
+## Příklady na procvičení
+
+**1.** Vypočítejte $\binom{7}{3}$ a $\binom{7}{4}$. Čeho si všímáte?
+
+Výsledek: ||obě čísla jsou rovna $35$ — platí $\binom{n}{k}=\binom{n}{n-k}$ (vybrat 3 prvky je totéž jako vybrat 4, které zůstanou)||
+
+**2.** Kolika způsoby lze z 30 žáků vybrat 3 zástupce do školního parlamentu?
+
+Výsledek: ||$\binom{30}{3}=\frac{30\cdot29\cdot28}{6}=4060$||
+
+**3.** Kolik přímek je určeno 7 body, z nichž žádné tři neleží v jedné přímce?
+
+Výsledek: ||každá přímka je dána dvojicí bodů: $\binom{7}{2}=21$||
+
+**4.** Kolik úhlopříček má konvexní desetiúhelník?
+
+Výsledek: ||všech spojnic dvou vrcholů je $\binom{10}{2}=45$, z toho 10 jsou strany, úhlopříček je $45-10=35$||
+
+**5.** Ve třídě je 12 dívek a 10 chlapců. Kolika způsoby lze vybrat čtyřčlennou skupinu, ve které budou 2 dívky a 2 chlapci?
+
+Výsledek: ||$\binom{12}{2}\cdot\binom{10}{2}=66\cdot45=2970$ (výběr dívek a chlapců na sobě nezávisí, proto násobíme)||
+
+**6.** Ve Sportce se losuje 6 čísel ze 49. Kolik různých tipů (šestic) existuje?
+
+Výsledek: ||$\binom{49}{6}=13\,983\,816$||
 
 ## Zdroje
 

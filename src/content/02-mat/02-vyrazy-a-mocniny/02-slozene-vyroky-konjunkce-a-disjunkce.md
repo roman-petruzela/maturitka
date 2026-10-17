@@ -29,7 +29,7 @@ Konjunkce výroků $a$, $b$ je **pravdivá** právě tehdy, když jsou pravdivé
 
 **Disjunkce** libovolných výroků $a$, $b$ je výrok, který vznikne jejich spojením spojkou *nebo*. Zapisujeme $a\lor b$, čteme "$a$ nebo $b$".
 
-**Příklad:** (stejné výroky $a,b,c,d$ jako výše) $a\lor d$: "Číslo 5 je prvočíslo nebo je záporné."
+**Například:** (stejné výroky $a,b,c,d$ jako výše) $a\lor d$: "Číslo 5 je prvočíslo nebo je záporné."
 
 Určete pravdivost výroků $a\lor c$, $b\lor c$, $b\lor d$.
 

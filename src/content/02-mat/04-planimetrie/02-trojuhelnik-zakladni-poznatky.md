@@ -118,7 +118,7 @@ $$\frac{a}{a'} = \frac{b}{b'} = \frac{c}{c'} = k$$
 
 Zapisujeme $ABC \sim A'B'C'$.
 
-**Příklad:** trojúhelník se stranami $8{,}00,\ 6{,}00,\ 11{,}20$ a trojúhelník se stranami $4{,}00,\ 3{,}00,\ 5{,}60$:
+**Například:** trojúhelník se stranami $8{,}00,\ 6{,}00,\ 11{,}20$ a trojúhelník se stranami $4{,}00,\ 3{,}00,\ 5{,}60$:
 
 $$\frac{8{,}00}{4{,}00} = \frac{6{,}00}{3{,}00} = \frac{11{,}20}{5{,}60} = 2$$
 

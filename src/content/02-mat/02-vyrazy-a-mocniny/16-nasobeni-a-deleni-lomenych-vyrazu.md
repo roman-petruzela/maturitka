@@ -35,7 +35,7 @@ Opět analogie se zlomky — umocňujeme zvlášť čitatele i jmenovatele:
 
 $$\left(\frac{a}{b}\right)^n = \frac{a^n}{b^n} \qquad (b\neq0)$$
 
-**Příklad:** $\left(\dfrac{2x}{y-1}\right)^2 = \dfrac{4x^2}{(y-1)^2} \qquad (y\neq1)$
+**Například:** $\left(\dfrac{2x}{y-1}\right)^2 = \dfrac{4x^2}{(y-1)^2} \qquad (y\neq1)$
 
 ## Příklady k procvičení
 

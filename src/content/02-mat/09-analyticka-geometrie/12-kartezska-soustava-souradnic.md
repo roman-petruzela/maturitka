@@ -26,6 +26,8 @@ Analytická geometrie řeší geometrické úlohy **početně**, ne graficky —
 
 V rovině má soustava dvě osy: vodorovnou **osu $x$** a svislou **osu $y$**. Bod $A$ zapisujeme jako uspořádanou dvojici $A=[x_A;y_A]$, kde $x_A$ je jeho kolmý průmět na osu $x$ a $y_A$ kolmý průmět na osu $y$.
 
+**Úkol:** Odečtěte z obrázku souřadnice bodů $A$ až $F$.
+
 ```graph
 { "points": [{"x":3,"y":4,"label":"A"},{"x":-2,"y":3,"label":"B"},{"x":-4,"y":-1,"label":"C"},{"x":0,"y":-3,"label":"D"},{"x":4,"y":-2,"label":"E"},{"x":-1,"y":2,"label":"F"}], "domain": [-5,5], "yDomain": [-5,5], "title": "Zapište souřadnice bodů A–F" }
 ```
@@ -47,6 +49,14 @@ Výsledek: ||[-3;5]: druhý kvadrant (x<0, y>0); [2;-7]: čtvrtý kvadrant (x>0,
 **2.** Bod $A=[2;-3]$ ležel v rovině $xy$. Jaké budou jeho souřadnice, pokud ho chápeme jako bod v prostoru ležící přímo v rovině $xy$ (tedy s nulovou výškou nad/pod ní)?
 
 Výsledek: ||A=[2;-3;0] — třetí souřadnice (z) je nulová právě tehdy, když bod leží v rovině xy||
+
+**3.** Zakreslete do soustavy souřadnic body $K=[-3;0]$, $L=[0;2]$ a $M=[2;-1]$. Které z nich leží na některé ze souřadných os?
+
+Výsledek: ||$K$ leží na ose $x$ (má $y=0$), $L$ leží na ose $y$ (má $x=0$), $M$ leží ve čtvrtém kvadrantu||
+
+**4.** Bod $P=[4;-1]$ zobrazte souměrně podle osy $x$, podle osy $y$ a podle počátku. Napište souřadnice obrazů.
+
+Výsledek: ||podle osy $x$: $[4;1]$ (mění se znaménko $y$), podle osy $y$: $[-4;-1]$ (mění se znaménko $x$), podle počátku: $[-4;1]$ (mění se obě)||
 
 ## Zdroje
 

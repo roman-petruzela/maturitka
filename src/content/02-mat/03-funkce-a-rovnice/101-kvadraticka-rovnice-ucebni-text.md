@@ -55,13 +55,13 @@ Pokud bychom nepoužívali normovaný tvar, lze provést rozklad kvadratického 
 
 ### Slovní úlohy
 
-1. Obsah pozemku je 420 m² a obvod 94 m. Jaké jsou délky stran pozemku? *Řešení: 12 a 35.*
-2. Praktická úloha o opicích (viz výše). *Řešení: 16 nebo 48.*
-3. Tiger Woods odpálí golfový míček rychlostí 200 m/s pod úhlem 8°. Za jak dlouhý čas se míček ocitne opět na zemi? Pro zjednodušení budeme uvažovat gravitační zrychlení 10 m/s² a ze známého fyzikálního vzorce pak dostaneme rovnici −5x² + 200·sin(8°)·x = 0. *Řešení: 5,5 s.*
-4. Podle jedné historky si takhle Isaac Newton leží pod stromem a přemýšlí. Na hlavu mu spadne jablko a v té chvíli pochopí princip gravitace. Jak dlouho trvalo jablku spadnout ze stromu na Newtonovu hlavu, pokud viselo na stromě 3 metry nad jeho hlavou? *Řešení: 0,77 s.*
-5. Najdi dvojciferné číslo, pro které platí: Číslice na místě jednotek je o 1 větší než číslice na místě desítek. Součin čísla a jeho ciferného součtu je 405. *Řešení: 45.*
-6. Cena časopisu byla snížena o tolik procent, kolik korun stál před snížením ceny. Urči jeho původní cenu, jestliže po zlevnění stál 16 Kč. *Řešení: 20 nebo 80.*
-7. Turnaj ve fotbale se hrál systémem „každý s každým jeden zápas". Kolik týmů se turnaje zúčastnilo, pokud bylo odehráno celkem 36 utkání? *Řešení: 9.*
+1. Obsah pozemku je 420 m² a obvod 94 m. Jaké jsou délky stran pozemku? Řešení: ||12 a 35.||
+2. Praktická úloha o opicích (viz výše). Řešení: ||16 nebo 48.||
+3. Tiger Woods odpálí golfový míček rychlostí 200 m/s pod úhlem 8°. Za jak dlouhý čas se míček ocitne opět na zemi? Pro zjednodušení budeme uvažovat gravitační zrychlení 10 m/s² a ze známého fyzikálního vzorce pak dostaneme rovnici −5x² + 200·sin(8°)·x = 0. Řešení: ||5,5 s.||
+4. Podle jedné historky si takhle Isaac Newton leží pod stromem a přemýšlí. Na hlavu mu spadne jablko a v té chvíli pochopí princip gravitace. Jak dlouho trvalo jablku spadnout ze stromu na Newtonovu hlavu, pokud viselo na stromě 3 metry nad jeho hlavou? Řešení: ||0,77 s.||
+5. Najdi dvojciferné číslo, pro které platí: Číslice na místě jednotek je o 1 větší než číslice na místě desítek. Součin čísla a jeho ciferného součtu je 405. Řešení: ||45.||
+6. Cena časopisu byla snížena o tolik procent, kolik korun stál před snížením ceny. Urči jeho původní cenu, jestliže po zlevnění stál 16 Kč. Řešení: ||20 nebo 80.||
+7. Turnaj ve fotbale se hrál systémem „každý s každým jeden zápas". Kolik týmů se turnaje zúčastnilo, pokud bylo odehráno celkem 36 utkání? Řešení: ||9.||
 
 ## 11. Grafické řešení kvadratické rovnice
 

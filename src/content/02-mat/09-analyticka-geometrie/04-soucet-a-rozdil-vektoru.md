@@ -19,7 +19,7 @@ Graficky součet vektorů odpovídá **úhlopříčce rovnoběžníku** sestroje
 { "points": [{"x":0,"y":0,"label":"O"},{"x":3,"y":1,"label":"u"},{"x":1,"y":3,"label":"v"},{"x":4,"y":4,"label":"u+v"}], "domain": [-0.5,4.5], "yDomain": [-0.5,4.5], "title": "u=(3;1), v=(1;3), u+v=(4;4)" }
 ```
 
-**Příklad:** Pro $\vec u=(3;1)$ a $\vec v=(1;3)$ je:
+**Například:** Pro $\vec u=(3;1)$ a $\vec v=(1;3)$ je:
 
 $$\vec u+\vec v = (3+1;\ 1+3) = (4;4)$$
 
@@ -31,7 +31,7 @@ $$\vec u - \vec v = (u_1-v_1;\ u_2-v_2)$$
 
 Graficky $\vec u-\vec v$ odpovídá druhé úhlopříčce téhož rovnoběžníku — vektoru vedoucímu z konce $\vec v$ do konce $\vec u$ (jsou-li oba vektory přiloženy do společného počátku).
 
-**Příklad:** Pro $\vec u=(3;1)$ a $\vec v=(1;3)$ je:
+**Například:** Pro $\vec u=(3;1)$ a $\vec v=(1;3)$ je:
 
 $$\vec u-\vec v = (3-1;\ 1-3) = (2;-2)$$
 

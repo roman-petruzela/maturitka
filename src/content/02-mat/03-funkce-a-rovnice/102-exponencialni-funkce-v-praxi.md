@@ -63,8 +63,8 @@ Přirozená exponenciální funkce je zvláštní typ exponenciální funkce, pr
 
 1. Načrtněte grafy: a) y = 0,3ˣ, b) y = −0,3ˣ, c) y = −0,3ˣ + 2, d) y = 3ˣ + 3, e) y = 3^(x−1), f) y = 3^(x+1)
 2. Porovnejte grafy a vlastnosti funkcí: a) y = x², y = 2ˣ; b) y = x³, y = 3ˣ
-3. Dokažte, že 3^(−0,5) je menší než jedna. *Řešení:* Základ exponenciální funkce je větší než 1, jedná se tedy o funkci rostoucí. Pro rostoucí funkci platí: pokud x1 < x2, pak i f(x1) < f(x2). Hodnotu 1 získáme, pokud umocníme základ na nultou. Protože −0,5 je menší než 0, pak 3^(−0,5) musí být menší než 1.
-4. Platí výrok 1,6^1,5 > 1,8^1,5? *Řešení:* zde je základ proměnný, ne exponent — porovnáváme dvě různé mocninné funkce se stejným (kladným) exponentem, takže větší základ dává větší hodnotu; protože 1,6 < 1,8, výrok je nepravdivý.
+3. Dokažte, že 3^(−0,5) je menší než jedna. Řešení: ||Základ exponenciální funkce je větší než 1, jedná se tedy o funkci rostoucí. Pro rostoucí funkci platí: pokud x1 < x2, pak i f(x1) < f(x2). Hodnotu 1 získáme, pokud umocníme základ na nultou. Protože −0,5 je menší než 0, pak 3^(−0,5) musí být menší než 1.||
+4. Platí výrok 1,6^1,5 > 1,8^1,5? Řešení: ||zde je základ proměnný, ne exponent — porovnáváme dvě různé mocninné funkce se stejným (kladným) exponentem, takže větší základ dává větší hodnotu; protože 1,6 < 1,8, výrok je nepravdivý.||
 5. Rozhodněte, jaký je vztah mezi čísly p, r v úlohách typu p = aˣ¹, r = aˣ² pro daný základ a a dané exponenty: je-li základ menší než 1, funkce je klesající a platí opačné pořadí, než u exponentů; je-li základ větší než 1, funkce je rostoucí a pořadí odpovídá pořadí exponentů.
 
 *Cvičení TechAmbition*
@@ -134,11 +134,11 @@ Graf výše zároveň dobře ukazuje, že logaritmická funkce je vždy inverzn�
 
 ## 28.–29. Logaritmická funkce, parametry a grafy
 
-1. Který z výroků je pravdivý: log4(7) < log4(9)? log10(12) > log0,3(12)? *Řešení:* Základ logaritmické funkce log4 je 4 (>1) — funkce je rostoucí, proto ze 7<9 plyne log4(7) < log4(9): výrok platí. Oba logaritmy se základem 10 a 0,3 protínají osu x v bodě 1 s hodnotou y=0; základ 10 vede k rostoucímu průběhu, základ 0,3 ke klesajícímu, tedy log10(12) > 0, ale log0,3(12) < 0 — výrok log10(12) < log0,3(12) neplatí.
-2. Rozhodněte, která z uvedených čísel jsou kladná: log0,5(6), −log14(11), log7(8). *Řešení:* log0,5(6) je záporné (základ < 1, argument > 1), −log14(11) je záporné, log7(8) je kladné (základ > 1, argument > 1).
-3. Najděte všechna reálná čísla, pro které platí: log2(x) > log2(4); logₓ(3) < logₓ(11). *Řešení:* Základ 2 vede logaritmus k rostoucí funkci, proto podmínku splňuje x > 4. Aby platila druhá nerovnost (3 < 11 zachovává směr), musí být funkce rostoucí, tedy x > 1.
+1. Který z výroků je pravdivý: log4(7) < log4(9)? log10(12) > log0,3(12)? Řešení: ||Základ logaritmické funkce log4 je 4 (>1) — funkce je rostoucí, proto ze 7<9 plyne log4(7) < log4(9): výrok platí. Oba logaritmy se základem 10 a 0,3 protínají osu x v bodě 1 s hodnotou y=0; základ 10 vede k rostoucímu průběhu, základ 0,3 ke klesajícímu, tedy log10(12) > 0, ale log0,3(12) < 0 — výrok log10(12) < log0,3(12) neplatí.||
+2. Rozhodněte, která z uvedených čísel jsou kladná: log0,5(6), −log14(11), log7(8). Řešení: ||log0,5(6) je záporné (základ < 1, argument > 1), −log14(11) je záporné, log7(8) je kladné (základ > 1, argument > 1).||
+3. Najděte všechna reálná čísla, pro které platí: log2(x) > log2(4); logₓ(3) < logₓ(11). Řešení: ||Základ 2 vede logaritmus k rostoucí funkci, proto podmínku splňuje x > 4. Aby platila druhá nerovnost (3 < 11 zachovává směr), musí být funkce rostoucí, tedy x > 1.||
 4. Zjistěte definiční obory funkcí y = log10(x+3) a podobných výrazů se zlomkem uvnitř logaritmu — podmínkou je vždy kladnost argumentu.
-5. Určete hodnotu funkce y = log2(x) v bodě 8. *Řešení:* log2(8) = 3, protože 2³ = 8.
+5. Určete hodnotu funkce y = log2(x) v bodě 8. Řešení: ||log2(8) = 3, protože 2³ = 8.||
 6. Určete hodnotu funkce y = log10(x) v bodě 0,01.
 7. Určete všechna reálná t, pro která platí log8(t) = 3.
 
@@ -182,16 +182,16 @@ Postup: log2((x+14)(x+2)) = 6, tedy (x+14)(x+2) = 2⁶ = 64, čili x² + 16x + 2
 
 Postup vede k rovnosti log10(x−1) = log10(x), tedy x−1 = x, což dává −1 = 0 — rovnice nemá řešení.
 
-**Cvičení (kniha):**
+**Cvičení (kniha):** Řešte rovnice a nerovnice:
 
-- log3(x + 5) = log3(2x − 1) → x = 6
-- log5(x² − 17) = log5((x² − 9)/(x − 3)) → x1 = 5 (x2 = −4 nelze, argument by byl záporný)
-- (log3 x)² − 3·log3(x) − 10 = 0 → x1 = 3⁻², x2 = 3⁵
-- log5(x) + 1/log5(x) = 2 → x = 5 (x = −4/3 nevyhovuje, argument záporný)
+- log3(x + 5) = log3(2x − 1) Řešení: ||x = 6||
+- log5(x² − 17) = log5((x² − 9)/(x − 3)) Řešení: ||x1 = 5 (x2 = −4 nelze, argument by byl záporný)||
+- (log3 x)² − 3·log3(x) − 10 = 0 Řešení: ||x1 = 3⁻², x2 = 3⁵||
+- log5(x) + 1/log5(x) = 2 Řešení: ||x = 5 (substituce u = log5(x): u² − 2u + 1 = 0, tedy u = 1)||
 - log3(x−1) > log3(3)
 - log5(2x + 3) ≤ 1
 - pozor! log(x−3) + log(2x−1) < 0
-- 3^(2t−1) = 5^(3−t) → x ≈ 1,557
-- 2^(t−1) · 3^(3t) = 0,5 · 4^(t−1) → x ≈ −0,533
+- 3^(2t−1) = 5^(3−t) Řešení: ||t ≈ 1,557||
+- 2^(t−1) · 3^(3t) = 0,5 · 4^(t−1) Řešení: ||t ≈ −0,533||
 
 *Cvičení TechAmbition*

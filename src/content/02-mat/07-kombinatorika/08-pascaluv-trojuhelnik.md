@@ -37,7 +37,7 @@ Každý řádek je symetrický ($\binom{n}{k}=\binom{n}{n-k}$, viz opět vlastno
 
 $$1,\ 11,\ 55,\ 165,\ 330,\ 462,\ \ldots$$
 
-Výsledek: ||díky symetrii se druhá polovina zrcadlí: 1, 11, 55, 165, 330, 462, 462, 330, 165, 55, 11, 1 (prostředních 12 čísel řádku, dvě prostřední hodnoty 462 jsou stejné)||
+Výsledek: ||díky symetrii se druhá polovina zrcadlí: 1, 11, 55, 165, 330, 462, 462, 330, 165, 55, 11, 1 (řádek $n=11$ má 12 čísel, obě prostřední jsou 462)||
 
 ## Další vlastnosti — diagonály (Fibonacciho posloupnost)
 
@@ -64,6 +64,24 @@ Nahradíme-li v Pascalově trojúhelníku všechna sudá čísla nulami a lichá
 ```
 
 Čím víc řádků takto vykreslíme, tím zřetelněji se objevuje fraktální vzor — trojúhelníky uvnitř trojúhelníků. Pro srovnání: úplně stejný vzor (nekonečně opakované trojúhelníky) tvoří i **Sierpinského trojúhelník**, kterým se dostáváme k tématu fraktálů.
+
+## Příklady na procvičení
+
+**1.** Dopište 5. a 6. řádek Pascalova trojúhelníku (číslováno od 0).
+
+Výsledek: ||řádek 5: 1, 5, 10, 10, 5, 1; řádek 6: 1, 6, 15, 20, 15, 6, 1||
+
+**2.** Sečtěte čísla v řádcích 0 až 5. Jaké pravidlo platí pro součet čísel v $n$-tém řádku?
+
+Výsledek: ||součty jsou 1, 2, 4, 8, 16, 32 — součet čísel v $n$-tém řádku je $2^n$ (počet všech podmnožin $n$-prvkové množiny)||
+
+**3.** Pomocí 4. řádku Pascalova trojúhelníku rozepište $(a+b)^4$.
+
+Výsledek: ||koeficienty 1, 4, 6, 4, 1: $(a+b)^4=a^4+4a^3b+6a^2b^2+4ab^3+b^4$||
+
+**4.** Rozepište $(x-1)^3$.
+
+Výsledek: ||koeficienty 1, 3, 3, 1 se střídajícími se znaménky: $x^3-3x^2+3x-1$||
 
 ## Zdroje
 

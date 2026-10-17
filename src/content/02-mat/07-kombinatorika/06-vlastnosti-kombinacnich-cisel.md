@@ -24,7 +24,7 @@ $$\binom{n}{k} = \binom{n}{n-k}$$
 
 Vybrat $k$ prvků, které DO skupiny patří, je stejně možností jako vybrat $n-k$ prvků, které do skupiny **nepatří** — jde jen o dva pohledy na tentýž výběr.
 
-**Příklad:** $\binom{8}{3} = \binom{8}{5}$, protože obojí se rovná $\dfrac{8!}{3!\cdot5!}$.
+**Například:** $\binom{8}{3} = \binom{8}{5}$, protože obojí se rovná $\dfrac{8!}{3!\cdot5!}$.
 
 ## Pascalovo pravidlo (součtový vzorec)
 

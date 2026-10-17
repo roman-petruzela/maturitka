@@ -13,7 +13,7 @@ Mnohočleny lze dělit dvěma způsoby, podle toho, čím dělíme.
 
 Jednoduché — dělíme každý člen zvlášť (dělit znamená dát mnohočleny do zlomku a ten rozdělit na jednotlivé členy). Výsledkem je často opět mnohočlen.
 
-**Příklad:** $(6x^3-9x^2+3x):(3x) = 2x^2-3x+1$
+**Například:** $(6x^3-9x^2+3x):(3x) = 2x^2-3x+1$
 
 ## 2. Dělení mnohočlenu mnohočlenem
 

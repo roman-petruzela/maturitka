@@ -23,9 +23,9 @@ Kvadratickou rovnicí s neznámou $x$ nazýváme každou rovnici v obecném tvar
 
 **Pozn.:** rovnice se stává (ne)kvadratickou až po matematických úpravách — nelze to tedy poznat hned ze zadání.
 
-Př.: $(2x-5)(x+4)=0$ — roznásobíme závorky: $2x^2+8x-5x-20=0$, sečteme: $2x^2+3x-20=0$ → **dostali jsme kvadratickou rovnici**.
+Například: $(2x-5)(x+4)=0$ — roznásobíme závorky: $2x^2+8x-5x-20=0$, sečteme: $2x^2+3x-20=0$ → **dostali jsme kvadratickou rovnici**.
 
-Ale pozor — Př.: $(2x-5)(x+4)=2x^2-4$ — roznásobíme: $2x^2+8x-5x-20=2x^2-4$, členy s $x^2$ se na obou stranách odečtou: $8x-5x=20-4$, tedy $3x=16$ → **nejde o kvadratickou rovnici**, ale o lineární!
+Ale pozor — například $(2x-5)(x+4)=2x^2-4$ — roznásobíme: $2x^2+8x-5x-20=2x^2-4$, členy s $x^2$ se na obou stranách odečtou: $8x-5x=20-4$, tedy $3x=16$ → **nejde o kvadratickou rovnici**, ale o lineární!
 
 ## Typy kvadratické rovnice
 
@@ -61,9 +61,19 @@ Hledáme dvě čísla, jejichž součin je $c/a$ a součet $-b/a$.
 
 ### Ukázkový příklad (diskriminant)
 
-$(2x-5)(x+4)=0$ → $2x^2+8x-5x-20=0$ → $2x^2+3x-20=0$
+Řešte rovnici $(2x-5)(x+4)=0$ pomocí diskriminantu.
+
+Roznásobíme a upravíme na základní tvar: $2x^2+8x-5x-20=0$ → $2x^2+3x-20=0$.
 
 Vypíšeme koeficienty: $a=2,\ b=3,\ c=-20$ (Vietovy vzorce nepoužijeme, protože $a \neq 1$).
+
+$$D = b^2 - 4ac = 3^2 - 4\cdot2\cdot(-20) = 9 + 160 = 169$$
+
+$$x_{1,2} = \frac{-b \pm \sqrt{D}}{2a} = \frac{-3 \pm 13}{4}$$
+
+$$x_1 = \frac{10}{4} = \frac{5}{2}, \qquad x_2 = \frac{-16}{4} = -4$$
+
+Zkouška: rovnice $(2x-5)(x+4)=0$ platí právě tehdy, když je jeden z činitelů nulový, tedy pro $x=\frac52$ nebo $x=-4$ ✓ — ze součinového tvaru jde výsledek vyčíst i bez diskriminantu.
 
 ### Ukázkový příklad (Vietovy vzorce)
 
@@ -113,13 +123,13 @@ Výsledek: po úpravě ||x² + 2x − 15 = 0||, hledáme součin ||−15|| a sou
 
 **b) vytýkání** — chybí-li absolutní člen ($ax^2+bx=0$), vytkneme $x$:
 
-Př.: $x^2 + 3x = 0$ → $x(x+3)=0$ → $x_1 = 0$ nebo $x + 3 = 0 \Rightarrow x_2 = -3$
+Například: $x^2 + 3x = 0$ → $x(x+3)=0$ → $x_1 = 0$ nebo $x + 3 = 0 \Rightarrow x_2 = -3$
 
-Př.: $4x^2 - 11x = x(4-x)$ — roznásobíme a převedeme vše na levou stranu: $4x^2-11x-4x+x^2=0$ → $5x^2-15x=0$, vydělíme 5: $x^2-3x=0$ → $x(x-3)=0$ → $x_1=0,\ x_2=3$
+Například: $4x^2 - 11x = x(4-x)$ — roznásobíme a převedeme vše na levou stranu: $4x^2-11x-4x+x^2=0$ → $5x^2-15x=0$, vydělíme 5: $x^2-3x=0$ → $x(x-3)=0$ → $x_1=0,\ x_2=3$
 
 **c) odmocnění** — chybí-li lineární člen ($ax^2+c=0$), osamostatníme $x^2$ a odmocníme:
 
-Př.: $(x-2)^2 = 8-4x$ → $x^2-4x+4=8-4x$ → $x^2-4x+4-8+4x=0$ → $x^2-4=0$ → $x^2=4$ → $|x|=2$ → $x_1=2,\ x_2=-2$
+Například: $(x-2)^2 = 8-4x$ → $x^2-4x+4=8-4x$ → $x^2-4x+4-8+4x=0$ → $x^2-4=0$ → $x^2=4$ → $|x|=2$ → $x_1=2,\ x_2=-2$
 
 **Pozn.:** u rovnic typu $x^2 + c = 0$ s $c > 0$ lze rovnou říct, že nemá řešení v $\mathbb{R}$ (součet dvou nezáporných čísel nemůže být nula, pokud $c>0$).
 

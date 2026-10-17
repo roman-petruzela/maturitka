@@ -29,7 +29,7 @@ Výsledek: ||a=T, b=F, c=T, d=F; a⇒d: T⇒F = NEPRAVDIVÝ; a⇒c: T⇒T = PRAV
 
 U konjunkce $a\land b$ i disjunkce $a\lor b$ lze pořadí výroků zaměnit beze změny pravdivosti. **U implikace tomu tak není!** Implikace $b\Rightarrow a$ se nazývá **obrácená implikace**.
 
-**Příklad:** Implikace "Je-li trojúhelník rovnostranný, pak je rovnoramenný" je pravdivá, ale obrácená implikace "Je-li trojúhelník rovnoramenný, pak je rovnostranný" je nepravdivá (existuje rovnoramenný trojúhelník, který rovnostranný není).
+**Například:** Implikace "Je-li trojúhelník rovnostranný, pak je rovnoramenný" je pravdivá, ale obrácená implikace "Je-li trojúhelník rovnoramenný, pak je rovnostranný" je nepravdivá (existuje rovnoramenný trojúhelník, který rovnostranný není).
 
 **Příklad:** Vyšetřete pravdivost implikací (pro libovolné výroky $a$, $b$):
 

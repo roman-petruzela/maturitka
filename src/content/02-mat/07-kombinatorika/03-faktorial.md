@@ -15,7 +15,7 @@ $$n! = 1 \cdot 2 \cdot 3 \cdots (n-1) \cdot n$$
 
 Speciálně definujeme $0! = 1$ (pro potřeby vzorců, aby fungovaly i pro okrajové případy).
 
-**Příklad:** $5! = 1\cdot2\cdot3\cdot4\cdot5 = 120$
+**Například:** $5! = 1\cdot2\cdot3\cdot4\cdot5 = 120$
 
 Užitečná vlastnost pro úpravy výrazů: $n! = n\cdot(n-1)!$ (a obecněji lze „vytknout" libovolný počet posledních členů).
 

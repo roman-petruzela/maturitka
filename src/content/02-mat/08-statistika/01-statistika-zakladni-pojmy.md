@@ -31,9 +31,9 @@ Znaky dělíme na:
 - **kvalitativní** — jejich hodnoty nejsou vyjádřeny číslem, ale slovně (povolání, barva očí, nemoc)
 - **alternativní** — nejjednodušší kvalitativní znak, nabývá pouze dvou hodnot (jev a jeho opak): žena/muž, ano/ne, prospěl/neprospěl
 
-**Příklad:** Při sčítání lidu sledujeme osoby (statistické jednotky). Jejich charakteristikami, čili statistickými znaky, jsou například věk, národnost, pohlaví, výška, druh zaměstnání atd.
+**Například:** Při sčítání lidu sledujeme osoby (statistické jednotky). Jejich charakteristikami, čili statistickými znaky, jsou například věk, národnost, pohlaví, výška, druh zaměstnání atd.
 
-**Příklad:** Statistickými znaky podniku mohou být počet zaměstnanců, odvětví ekonomické činnosti, roční obrat, příjmy či náklady, průměrná mzda atd.
+**Například:** Statistickými znaky podniku mohou být počet zaměstnanců, odvětví ekonomické činnosti, roční obrat, příjmy či náklady, průměrná mzda atd.
 
 ## K zamyšlení
 

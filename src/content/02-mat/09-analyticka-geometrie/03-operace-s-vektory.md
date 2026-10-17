@@ -25,7 +25,7 @@ $$\vec{u} = \overrightarrow{AB} = B - A = (x_B - x_A;\ y_B - y_A)$$
 { "parametric": "1 + t*4, 1 + t*2", "tDomain": [0, 1], "points": [{"x":1,"y":1,"label":"A"},{"x":5,"y":3,"label":"B"}], "title": "Vektor u = AB, A=[1;1], B=[5;3] → u = (4;2)" }
 ```
 
-**Příklad:** Pro $A=[1;1]$, $B=[5;3]$ je $\vec{u}=\overrightarrow{AB}=(5-1;\ 3-1)=(4;2)$.
+**Například:** Pro $A=[1;1]$, $B=[5;3]$ je $\vec{u}=\overrightarrow{AB}=(5-1;\ 3-1)=(4;2)$.
 
 Souřadnice vektoru jsou nezávislé na tom, kterou konkrétní úsečku (reprezentanta) použijeme — vektor $\overrightarrow{CD}$ pro $C=[0;0]$, $D=[4;2]$ má stejné souřadnice $(4;2)$, i když leží jinde v rovině.
 
@@ -35,7 +35,7 @@ Velikost (délka) vektoru $\vec u=(u_1;u_2)$ se počítá stejně jako vzdáleno
 
 $$|\vec u| = \sqrt{u_1^2+u_2^2}$$
 
-**Příklad:** $|\vec u| = |(4;2)| = \sqrt{16+4} = \sqrt{20} = 2\sqrt5 \approx 4{,}47$
+**Například:** $|\vec u| = |(4;2)| = \sqrt{16+4} = \sqrt{20} = 2\sqrt5 \approx 4{,}47$
 
 ## Násobení vektoru číslem
 
