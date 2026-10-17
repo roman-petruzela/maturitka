@@ -78,6 +78,12 @@
 	background: var(--muted);
 }
 
+/* a formula inside sets its own colour, and a tall one (a fraction, \binom) sticks out above and
+   below the dark bar — until revealed, every element inside is hidden, not just the text colour */
+.spoiler:not(.is-revealed) * {
+	visibility: hidden;
+}
+
 .spoiler.is-revealed {
 	background: var(--surface-raised);
 	color: var(--fg);
