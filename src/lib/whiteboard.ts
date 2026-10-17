@@ -321,7 +321,10 @@ export class Whiteboard {
 		}
 		this.updateCursorIndicator(e);
 		if (!this.current) return;
-		this.current.points.push(this.toPaper(e.clientX, e.clientY));
+		const p = this.toPaper(e.clientX, e.clientY);
+		// Shift: a straight line from where the stroke began (axes, fraction bars, underlining)
+		if (e.shiftKey) this.current.points = [this.current.points[0], p];
+		else this.current.points.push(p);
 		this.redraw();
 	};
 
@@ -461,14 +464,34 @@ const NOTE_MAX_K = 3;
 // for when the statement covers the part of the paper one wants to work on. The factor is the
 // `--note-k` custom property (global.css multiplies it into the note's scale); a double click
 // on the grip puts the note back to its own size.
-export function createFloatingNote(container: HTMLElement, content: string | Node) {
+export interface NoteOptions {
+	/** where the note lies on the paper and how it is scaled — a restored note keeps them */
+	x?: number;
+	y?: number;
+	k?: number;
+	/** shown above the statement, next to the close button (e.g. a link back to the task) */
+	head?: Node;
+	/** after the note was moved or scaled */
+	onChange?: () => void;
+	/** after the note was closed */
+	onClose?: () => void;
+}
+
+/** where a note lies and how big it is, in the units --wx / --wy / --note-k use */
+export function notePlacement(note: HTMLElement) {
+	const num = (name: string, fallback: number) => parseFloat(note.style.getPropertyValue(name)) || fallback;
+	return { x: num('--wx', 12), y: num('--wy', 12), k: num('--note-k', 1) };
+}
+
+export function createFloatingNote(container: HTMLElement, content: string | Node, options: NoteOptions = {}) {
 	const existingCount = container.querySelectorAll('.whiteboard-note').length;
 	const boardScale = () => parseFloat(container.style.getPropertyValue('--wb-s')) || 1;
 
 	const note = document.createElement('div');
 	note.className = 'whiteboard-note';
-	note.style.setProperty('--wx', String(12 + (existingCount % 6) * 20));
-	note.style.setProperty('--wy', String(12 + (existingCount % 6) * 20));
+	note.style.setProperty('--wx', String(options.x ?? 12 + (existingCount % 6) * 20));
+	note.style.setProperty('--wy', String(options.y ?? 12 + (existingCount % 6) * 20));
+	if (options.k && options.k !== 1) note.style.setProperty('--note-k', String(options.k));
 
 	const closeBtn = document.createElement('button');
 	closeBtn.type = 'button';
@@ -490,10 +513,20 @@ export function createFloatingNote(container: HTMLElement, content: string | Nod
 	grip.innerHTML = NOTE_GRIP;
 	grip.title = 'Táhni pro změnu velikosti zadání (dvojklik = původní velikost)';
 
-	note.append(closeBtn, body, grip);
+	if (options.head) {
+		const head = document.createElement('div');
+		head.className = 'whiteboard-note-head';
+		head.append(options.head);
+		note.append(closeBtn, head, body, grip);
+	} else {
+		note.append(closeBtn, body, grip);
+	}
 	container.appendChild(note);
 
-	closeBtn.addEventListener('click', () => note.remove());
+	closeBtn.addEventListener('click', () => {
+		note.remove();
+		options.onClose?.();
+	});
 
 	// resizing: the corner follows the pointer along the diagonal from the note's top-left
 	let resizing = false;
@@ -520,12 +553,16 @@ export function createFloatingNote(container: HTMLElement, content: string | Nod
 		note.style.setProperty('--note-k', String(Math.min(NOTE_MAX_K, Math.max(NOTE_MIN_K, k))));
 	});
 	const endResize = () => {
+		if (resizing) options.onChange?.();
 		resizing = false;
 		note.classList.remove('is-resizing');
 	};
 	grip.addEventListener('pointerup', endResize);
 	grip.addEventListener('pointercancel', endResize);
-	grip.addEventListener('dblclick', () => note.style.removeProperty('--note-k'));
+	grip.addEventListener('dblclick', () => {
+		note.style.removeProperty('--note-k');
+		options.onChange?.();
+	});
 
 	let dragging = false;
 	let startX = 0;
@@ -534,8 +571,8 @@ export function createFloatingNote(container: HTMLElement, content: string | Nod
 	let startWy = 0;
 
 	note.addEventListener('pointerdown', (e) => {
-		// a press on one of the note's buttons is a click, not the start of a drag
-		if ((e.target as Element).closest('button')) return;
+		// a press on one of the note's buttons or links is a click, not the start of a drag
+		if ((e.target as Element).closest('button, a')) return;
 		dragging = true;
 		note.setPointerCapture(e.pointerId);
 		startX = e.clientX;
@@ -551,6 +588,7 @@ export function createFloatingNote(container: HTMLElement, content: string | Nod
 		note.style.setProperty('--wy', String(startWy + (e.clientY - startY) / s));
 	});
 	const endDrag = () => {
+		if (dragging) options.onChange?.();
 		dragging = false;
 		note.classList.remove('is-dragging');
 	};

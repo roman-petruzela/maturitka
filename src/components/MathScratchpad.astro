@@ -130,6 +130,15 @@ const PEN_WIDTHS = [
 			<span class="whiteboard-sep" aria-hidden="true"></span>
 			<button
 				type="button"
+				class="whiteboard-paper"
+				data-whiteboard-paper
+				title="Papír: čtverečky (klikni pro linky)"
+				aria-label="Změnit papír"
+			>
+				<Icon name="paper" size={17} />
+			</button>
+			<button
+				type="button"
 				class="whiteboard-fullscreen"
 				data-whiteboard-fullscreen
 				title="Tabule na celou obrazovku"
@@ -140,7 +149,7 @@ const PEN_WIDTHS = [
 		</div>
 		<div class="whiteboard-canvas-wrap">
 			<canvas class="whiteboard-canvas" data-whiteboard-canvas></canvas>
-			<p class="whiteboard-hint" data-whiteboard-hint>Piš sem myší, prstem nebo perem…</p>
+			<p class="whiteboard-hint" data-whiteboard-hint>Piš sem myší, prstem nebo perem… (Shift = rovná čára)</p>
 		</div>
 	</div>
 
@@ -167,7 +176,7 @@ const PEN_WIDTHS = [
 </section>
 
 <script>
-	import { Whiteboard, createFloatingNote } from '../lib/whiteboard';
+	import { Whiteboard, createFloatingNote, notePlacement } from '../lib/whiteboard';
 	import { findExercises, buildStatement, buildPreview, type Exercise } from '../lib/exercises';
 
 	type MathField = HTMLElement & { value: string; executeCommand?: (cmd: string) => void };
@@ -195,6 +204,16 @@ const PEN_WIDTHS = [
 		bar.addEventListener('focusin', load, { once: true });
 	}
 
+	/** the chapter (the nearest h2 above) a task belongs to, for the dropdown's groups */
+	function sectionOf(el: Element): string | null {
+		let node: Element | null = el;
+		while (node?.parentElement && !node.parentElement.matches('article.topic')) node = node.parentElement;
+		for (let prev = node?.previousElementSibling; prev; prev = prev.previousElementSibling) {
+			if (prev.tagName === 'H2') return (prev.textContent ?? '').trim() || null;
+		}
+		return null;
+	}
+
 	function initScratchpads() {
 		const sections = document.querySelectorAll<HTMLElement>('[data-scratchpad]');
 		sections.forEach((section) => {
@@ -210,7 +229,7 @@ const PEN_WIDTHS = [
 			if (!whiteboardRoot || !canvas || !canvasWrap || !resultField) return;
 
 			const base = `maturitka-scratchpad:${location.pathname}`;
-			const keys = { board: `${base}:board`, result: `${base}:result` };
+			const keys = { board: `${base}:board`, result: `${base}:result`, notes: `${base}:notes` };
 
 			const undoBtn = section.querySelector<HTMLButtonElement>('[data-whiteboard-undo]');
 			const redoBtn = section.querySelector<HTMLButtonElement>('[data-whiteboard-redo]');
@@ -268,6 +287,29 @@ const PEN_WIDTHS = [
 			// fullscreen element — a button living outside whiteboardRoot would
 			// become unreachable once the board is fullscreen
 			clearToolbarBtn?.addEventListener('click', clearAll);
+
+			// the paper: squared like a maths exercise book by default, or ruled, or blank —
+			// one choice for all pages, it is a matter of taste rather than of the task
+			const PAPERS = [
+				{ id: 'grid', label: 'čtverečky' },
+				{ id: 'lines', label: 'linky' },
+				{ id: 'blank', label: 'čistý' },
+			];
+			const paperKey = 'maturitka-scratchpad:paper';
+			const paperBtn = section.querySelector<HTMLButtonElement>('[data-whiteboard-paper]');
+			const setPaper = (id: string) => {
+				const i = Math.max(0, PAPERS.findIndex((p) => p.id === id));
+				canvasWrap.dataset.paper = PAPERS[i].id;
+				const next = PAPERS[(i + 1) % PAPERS.length];
+				if (paperBtn) paperBtn.title = `Papír: ${PAPERS[i].label} (klikni pro ${next.label})`;
+			};
+			setPaper(localStorage.getItem(paperKey) ?? 'grid');
+			paperBtn?.addEventListener('click', () => {
+				const i = PAPERS.findIndex((p) => p.id === canvasWrap.dataset.paper);
+				const id = PAPERS[(i + 1) % PAPERS.length].id;
+				setPaper(id);
+				localStorage.setItem(paperKey, id);
+			});
 
 			// pen color/width toolbar
 			const colorButtons = section.querySelectorAll<HTMLButtonElement>('[data-whiteboard-color]');
@@ -330,51 +372,146 @@ const PEN_WIDTHS = [
 			// What counts as a task, and what its statement is, lives in
 			// ../lib/exercises.ts; the note gets a copy of the statement's markup,
 			// so typeset formulas stay formulas.
-			const addNote = (exercise: Exercise) => {
-				createFloatingNote(canvasWrap, buildStatement(exercise));
-				whiteboardRoot.scrollIntoView({ behavior: 'smooth', block: 'center' });
-			};
-
 			const exercisesToggle = section.querySelector<HTMLButtonElement>('[data-whiteboard-exercises-toggle]');
 			const exercisesMenu = section.querySelector<HTMLElement>('[data-whiteboard-exercises-menu]');
 			const exercisesEmpty = section.querySelector<HTMLElement>('[data-whiteboard-exercises-empty]');
 			const exercisesRoot = section.querySelector<HTMLElement>('[data-whiteboard-exercises]');
 
 			const article = document.querySelector('article.topic');
-			if (article) {
-				const exercises = findExercises(article);
-				const hostsWithButton = new Set<HTMLElement>();
+			const exercises = article ? findExercises(article) : [];
+			// the note of each task that is on the board, by the task's index on the page
+			const notes = new Map<number, HTMLElement>();
+			const sendButtons = new Map<number, HTMLButtonElement>();
 
-				exercises.forEach((exercise) => {
-					// two tasks can share a host (a heading's statement paragraph that is
-					// itself numbered) — one button per place is enough
-					if (!hostsWithButton.has(exercise.host)) {
-						hostsWithButton.add(exercise.host);
-						const btn = document.createElement('button');
-						btn.type = 'button';
-						btn.className = 'exercise-send-btn';
-						btn.title = 'Poslat na tabuli';
-						btn.setAttribute('aria-label', 'Poslat úlohu na tabuli');
-						btn.textContent = '⇥ tabule';
-						btn.addEventListener('click', () => addNote(exercise));
-						exercise.host.append(document.createTextNode(' '), btn);
-					}
+			// notes are kept like the drawing: which task, where, how big — so a refresh
+			// brings back the board as it was, statement included
+			const saveNotes = () => {
+				const list = [...notes].map(([i, note]) => ({ i, ...notePlacement(note) }));
+				if (list.length) localStorage.setItem(keys.notes, JSON.stringify(list));
+				else localStorage.removeItem(keys.notes);
+			};
 
-					if (exercisesMenu) {
-						const item = document.createElement('button');
-						item.type = 'button';
-						item.className = 'whiteboard-exercises-item';
-						item.append(buildPreview(exercise));
-						item.addEventListener('click', () => {
-							addNote(exercise);
-							exercisesMenu.hidden = true;
-							exercisesToggle?.setAttribute('aria-expanded', 'false');
-						});
-						exercisesMenu.appendChild(item);
+			const markSent = (i: number, sent: boolean) => {
+				const btn = sendButtons.get(i);
+				if (!btn) return;
+				btn.classList.toggle('is-on-board', sent);
+				btn.textContent = sent ? '✓ na tabuli' : '⇥ na tabuli';
+				btn.title = sent ? 'Zadání už je na tabuli — přejít k němu' : 'Přenést zadání na tabuli';
+			};
+
+			// back from the board to the task in the text: leave fullscreen (the article is not
+			// rendered there), scroll to the task and light it up for a moment
+			const showInText = (exercise: Exercise) => {
+				const go = () => {
+					exercise.anchor.scrollIntoView({ behavior: 'smooth', block: 'center' });
+					for (const node of exercise.nodes) {
+						node.classList.remove('is-task-highlight');
+						void node.offsetWidth; // restart the animation
+						node.classList.add('is-task-highlight');
 					}
+				};
+				if (document.fullscreenElement) document.exitFullscreen().then(go, go);
+				else go();
+			};
+
+			const flash = (note: HTMLElement) => {
+				note.classList.remove('is-flash');
+				void note.offsetWidth;
+				note.classList.add('is-flash');
+				// on top of the other notes
+				canvasWrap.append(note);
+			};
+
+			const placeNote = (i: number, placement?: { x: number; y: number; k: number }) => {
+				const exercise = exercises[i];
+				const back = document.createElement('a');
+				back.href = `#`;
+				back.className = 'whiteboard-note-back';
+				back.textContent = '↑ v textu';
+				back.title = 'Ukázat zadání v textu';
+				back.addEventListener('click', (e) => {
+					e.preventDefault();
+					showInText(exercise);
 				});
+				const note = createFloatingNote(canvasWrap, buildStatement(exercise), {
+					...placement,
+					head: back,
+					onChange: saveNotes,
+					onClose: () => {
+						notes.delete(i);
+						markSent(i, false);
+						saveNotes();
+					},
+				});
+				notes.set(i, note);
+				markSent(i, true);
+				return note;
+			};
 
-				if (exercises.length > 0) exercisesEmpty?.remove();
+			const addNote = (i: number) => {
+				const existing = notes.get(i);
+				if (existing) flash(existing);
+				else {
+					placeNote(i);
+					saveNotes();
+				}
+				if (!document.fullscreenElement) whiteboardRoot.scrollIntoView({ behavior: 'smooth', block: 'center' });
+			};
+
+			let group: string | null = null;
+			exercises.forEach((exercise, i) => {
+				// two tasks can share a host (a heading's statement paragraph that is
+				// itself numbered) — one button per place is enough
+				if (!exercise.host.querySelector(':scope > .exercise-send-btn')) {
+					const btn = document.createElement('button');
+					btn.type = 'button';
+					btn.className = 'exercise-send-btn';
+					btn.setAttribute('aria-label', 'Přenést úlohu na tabuli');
+					btn.addEventListener('click', () => addNote(i));
+					exercise.host.append(document.createTextNode(' '), btn);
+					sendButtons.set(i, btn);
+					markSent(i, false);
+				}
+
+				if (exercisesMenu) {
+					// the dropdown follows the article's chapters, so a long page stays navigable
+					const heading = sectionOf(exercise.anchor);
+					if (heading && heading !== group) {
+						group = heading;
+						const label = document.createElement('p');
+						label.className = 'whiteboard-exercises-group';
+						label.textContent = heading;
+						exercisesMenu.appendChild(label);
+					}
+					const item = document.createElement('button');
+					item.type = 'button';
+					item.className = 'whiteboard-exercises-item';
+					item.append(buildPreview(exercise));
+					item.addEventListener('click', () => {
+						addNote(i);
+						exercisesMenu.hidden = true;
+						exercisesToggle?.setAttribute('aria-expanded', 'false');
+					});
+					exercisesMenu.appendChild(item);
+				}
+			});
+
+			if (exercises.length > 0) {
+				exercisesEmpty?.remove();
+				exercisesToggle?.setAttribute('title', `Přidat zadání na tabuli (${exercises.length} na stránce)`);
+			}
+
+			// restore the notes left on the board last time (tasks that still exist on the page)
+			try {
+				const saved = JSON.parse(localStorage.getItem(keys.notes) ?? '[]') as {
+					i: number;
+					x: number;
+					y: number;
+					k: number;
+				}[];
+				for (const n of saved) if (exercises[n.i] && !notes.has(n.i)) placeNote(n.i, n);
+			} catch {
+				localStorage.removeItem(keys.notes);
 			}
 
 			exercisesToggle?.addEventListener('click', () => {
@@ -440,8 +577,9 @@ const PEN_WIDTHS = [
 		display: flex;
 		align-items: center;
 		flex-wrap: wrap;
-		gap: 0.5rem 0.9rem;
-		padding: 0.5rem 0.7rem;
+		/* tight enough that the whole toolbar fits on one line of a normal article column */
+		gap: 0.45rem 0.5rem;
+		padding: 0.45rem 0.6rem;
 		background: var(--surface);
 		border-bottom: 1px solid var(--border);
 	}
@@ -449,7 +587,7 @@ const PEN_WIDTHS = [
 	.whiteboard-group {
 		display: flex;
 		align-items: center;
-		gap: 0.4rem;
+		gap: 0.3rem;
 	}
 
 	.whiteboard-swatch {
@@ -502,9 +640,10 @@ const PEN_WIDTHS = [
 	.whiteboard-recenter,
 	.whiteboard-eraser,
 	.whiteboard-clear-toolbar,
+	.whiteboard-paper,
 	.whiteboard-fullscreen {
-		width: 2rem;
-		height: 2rem;
+		width: 1.85rem;
+		height: 1.85rem;
 		display: flex;
 		align-items: center;
 		justify-content: center;
@@ -525,11 +664,11 @@ const PEN_WIDTHS = [
 	.whiteboard-exercises-toggle {
 		font-family: var(--sans);
 		font-size: 0.82rem;
-		height: 2rem;
+		height: 1.85rem;
 		display: flex;
 		align-items: center;
 		gap: 0.3rem;
-		padding: 0 0.6rem;
+		padding: 0 0.45rem;
 		border-radius: 2px;
 		border: 1px solid var(--border);
 		background: none;
@@ -590,6 +729,7 @@ const PEN_WIDTHS = [
 	.whiteboard-eraser:hover,
 	.whiteboard-eraser.is-active,
 	.whiteboard-clear-toolbar:hover,
+	.whiteboard-paper:hover,
 	.whiteboard-fullscreen:hover,
 	.whiteboard-fullscreen.is-active {
 		color: var(--accent);
@@ -609,12 +749,25 @@ const PEN_WIDTHS = [
 		aspect-ratio: 16 / 9;
 		min-height: 16rem;
 		overflow: hidden;
-		/* ruled paper: the lines are part of the picture, so their spacing follows the
-		   board's scale (--wb-s, see whiteboard.ts) — only the line itself stays 1px */
+		/* the paper's lines are part of the picture, so their spacing follows the board's
+		   scale (--wb-s, see whiteboard.ts) — only the line itself stays 1px. Squared
+		   (the default, as in a maths exercise book), ruled or blank: data-paper. */
+		--wb-line: color-mix(in srgb, var(--muted) 14%, transparent);
+		--wb-cell: calc(20px * var(--wb-s, 1));
+		background-color: #fdfdfb;
+	}
+
+	.whiteboard-canvas-wrap[data-paper='grid'] {
+		background-image:
+			linear-gradient(var(--wb-line) 1px, transparent 1px),
+			linear-gradient(90deg, var(--wb-line) 1px, transparent 1px);
+		background-size: var(--wb-cell) var(--wb-cell);
+	}
+
+	.whiteboard-canvas-wrap[data-paper='lines'] {
 		background-image: repeating-linear-gradient(
 			#fdfdfb 0 calc(28px * var(--wb-s, 1) - 1px),
-			color-mix(in srgb, var(--muted) 14%, transparent) calc(28px * var(--wb-s, 1) - 1px)
-				calc(28px * var(--wb-s, 1))
+			var(--wb-line) calc(28px * var(--wb-s, 1) - 1px) calc(28px * var(--wb-s, 1))
 		);
 	}
 

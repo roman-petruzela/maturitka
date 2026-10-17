@@ -13,7 +13,8 @@ export type IconName =
 	| 'close'
 	| 'undo'
 	| 'redo'
-	| 'recenter';
+	| 'recenter'
+	| 'paper';
 
 interface Props {
 	name: IconName;
@@ -138,6 +139,17 @@ const { name, size = 18 } = Astro.props;
 				<path d="M12 17.5 V21" />
 				<path d="M3 12 H6.5" />
 				<path d="M17.5 12 H21" />
+			</>
+		)
+	}
+	{
+		name === 'paper' && (
+			<>
+				<rect x="4" y="4" width="16" height="16" rx="1" />
+				<path d="M4 9.3 H20" />
+				<path d="M4 14.7 H20" />
+				<path d="M9.3 4 V20" />
+				<path d="M14.7 4 V20" />
 			</>
 		)
 	}
