@@ -62,6 +62,88 @@ const ILLUSTRATIVE_INTRO_RE = /^Příklady(?:\s+\S+){0,8}\s*:$/i;
 // likewise a list of universally true facts ("Pro všechna reálná čísla a platí…")
 const UNIVERSAL_STATEMENT_RE = /^Pro (?:všechna|každé|libovolné)(?!\p{L})/iu;
 
+// A numbered paragraph or list item is a task only if it *asks* for something: it holds an
+// instruction ("Určete", "Řešte", "Načrtni" …) or a question — or it is nothing but a formula
+// ("13p) √50", "Příklad 2: 9ˣ = 27"). Without this, every lettered line of theory ("a) pomocí
+// vzorce:", "a) n je kladné liché číslo — např. …"), a topic outline ("a) pojem kvadratická funkce,
+// b) …") and the steps of a method ("Nerovnici převedeme na rovnici …") got a "⇥ tabule" button.
+const TASK_VERB_RE = new RegExp(
+	'(?<!\\p{L})(?:' +
+		[
+			// formal imperative (-te) and the informal one used in some exercise sheets
+			'Urč(?:i|ete)',
+			'Vypočít(?:ej|ejte)',
+			'Vypočt(?:i|ěte)',
+			'Spočít(?:ej|ejte)',
+			'Řeš(?:te)?',
+			'Vyřeš(?:te)?',
+			'Najd(?:i|ěte)',
+			'Napiš(?:te)?',
+			'Zapiš(?:te)?',
+			'Sestroj(?:te)?',
+			'Načrtn(?:i|ěte)',
+			'Narýsuj(?:te)?',
+			'Nakresl(?:i|ete)',
+			'Dokaž(?:te)?',
+			'Ověř(?:te)?',
+			'Zjist(?:i|ěte)',
+			'Rozhodn(?:i|ěte)',
+			'Rozlož(?:te)?',
+			'Zjednoduš(?:te)?',
+			'Uprav(?:te)?',
+			'Převeď(?:te)?',
+			'Porovn(?:ej|ejte)',
+			'Doplň(?:te)?',
+			'Dopiš(?:te)?',
+			'Vyjádř(?:i|ete)',
+			'Zneguj(?:te)?',
+			'Utvoř(?:te)?',
+			'Posuď(?:te)?',
+			'Uveď(?:te)?',
+			'Usměrn(?:i|ěte)',
+			'Odmocn(?:i|ěte)',
+			'Vyšetř(?:i|ete)',
+			'Vyber(?:te)?',
+			'Přiřaď(?:te)?',
+			'Seřaď(?:te)?',
+			'Vyznač(?:te)?',
+			'Znázorn(?:i|ěte)',
+			'Odhadn(?:i|ěte)',
+			'Vysvětl(?:i|ete)',
+			'Popiš(?:te)?',
+			'Vypiš(?:te)?',
+			'Dopočt(?:i|ěte)',
+			'Proveď(?:te)?',
+			'Vyhodnoť(?:te)?',
+			'Pojmenuj(?:te)?',
+			'Vynásob(?:te)?',
+			'Vyděl(?:te)?',
+			'Sečt(?:i|ěte)',
+			'Odečt(?:i|ěte)',
+			'Roznásob(?:te)?',
+			'Vytkn(?:i|ěte)',
+			'Zaokrouhl(?:i|ete)',
+			'Zakresl(?:i|ete)',
+			'Zobraz(?:te)?',
+		].join('|') +
+		')(?!\\p{L})',
+	'iu'
+);
+// question words only with a capital: "jak", "kde" also occur inside explanations
+const QUESTION_RE =
+	/(?<!\p{L})(?:Kolik(?:a|rát|átý|átá|áté)?|Jak(?:ý|á|é|ou|ého|ých|ém|ým)?|Kter(?:ý|á|é|ou|ých|ým)|Kdy|Kde|Čemu|Proč)(?!\p{L})/u;
+const WORD_RE = /\p{L}{2,}/gu;
+/** does the text ask for something, or is it (almost) only mathematics? */
+export function asksSomething(t: string): boolean {
+	if (TASK_VERB_RE.test(t) || QUESTION_RE.test(t) || t.includes('?')) return true;
+	// "pomocí vzorce:" introduces theory; a task never ends with a colon without asking anything
+	if (t.endsWith(':')) return false;
+	const words = (t.replace(/^(?:\d{1,2}[a-z]{0,2}|[a-z])[.)]\s*/, '').match(WORD_RE) ?? []).filter(
+		(w) => !/^(?:sin|cos|tg|cotg|log|ln|lim|max|min|mod)$/i.test(w)
+	);
+	return words.length <= 3;
+}
+
 const text = (el: Element | null): string => (el?.textContent ?? '').trim();
 const isHeading = (el: Element) => /^H[1-6]$/.test(el.tagName);
 
@@ -77,6 +159,55 @@ function precedingIntro(el: Element): Element | null {
 	let prev = el.previousElementSibling;
 	while (prev && paragraphKind(prev) === 'numbered') prev = prev.previousElementSibling;
 	return prev;
+}
+
+/** is this line below the "Řešení:" of a task (and not below a new task or heading since)? */
+function inSolution(el: Element): boolean {
+	for (let prev = el.previousElementSibling; prev; prev = prev.previousElementSibling) {
+		if (isHeading(prev)) return false;
+		if (prev.tagName !== 'P') continue;
+		const t = text(prev);
+		if (/^\d{1,2}[.)]\s*\S/.test(t) || TEST_TASK_RE.test(t) || LABELLED_RE.test(t)) return false;
+		if (SOLUTION_RE.test(t)) {
+			const before = prev.previousElementSibling;
+			// the answer of a single part ("b) …" + "Výsledek: ||…||") does not open a solution
+			if (!(before?.tagName === 'P' && /^[a-zA-Z][.)]\s*\S/.test(text(before)))) return true;
+		}
+	}
+	return false;
+}
+
+/** what a lettered line ("b) …") hangs from: the first element above the run of lettered lines */
+function letteredIntro(el: Element): Element | null {
+	// skip the earlier parts, their answers ("Výsledek: ||…||") and figures between them
+	let prev = el.previousElementSibling;
+	while (prev) {
+		const t = text(prev);
+		// "Řešení: …" that opens the solution of the whole task: the lettered lines below it are its
+		// steps. Only the answer of a single part ("b) …" + "Výsledek: ||…||") is stepped over.
+		if (prev.tagName === 'P' && SOLUTION_RE.test(t)) {
+			const before = prev.previousElementSibling;
+			if (!(before?.tagName === 'P' && /^[a-zA-Z][.)]\s*\S/.test(text(before)))) return prev;
+		}
+		const part = prev.tagName === 'P' && (/^[a-zA-Z][.)]\s*\S/.test(t) || SOLUTION_RE.test(t));
+		const figure = !isHeading(prev) && !['P', 'UL', 'OL', 'TABLE'].includes(prev.tagName);
+		if (!part && !figure) break;
+		prev = prev.previousElementSibling;
+	}
+	return prev;
+}
+
+/** the statement asks for something — by itself, or through the "…:" line that introduces it */
+function isRealTask(statement: string, intro: Element | null): boolean {
+	if (asksSomething(statement)) return true;
+	const t = text(intro);
+	if (!t || SOLUTION_RE.test(t)) return false;
+	// the parts of a numbered task ("4) Rozhodněte o každém tvrzení:" + "a) … b) …")
+	if (intro?.tagName === 'P' && (/^\d{1,2}[.)]\s*\S/.test(t) || TEST_TASK_RE.test(t) || LABELLED_RE.test(t)))
+		return true;
+	// a heading that sets the task ("## 5. Zjednodušte", "### Úlohy")
+	if (intro && isHeading(intro)) return TASK_VERB_RE.test(t) || TASK_HEADING_RE.test(t) || TASK_SECTION_RE.test(t);
+	return t.endsWith(':') && (TASK_VERB_RE.test(t) || QUESTION_RE.test(t) || TASK_SECTION_RE.test(t));
 }
 
 function isIllustrativeIntro(el: Element | null): boolean {
@@ -128,6 +259,12 @@ function attachedTo(anchor: HTMLElement, first: HTMLElement | null): HTMLElement
 		const tag = next.tagName;
 		if (tag === 'UL' || tag === 'OL') {
 			if (!introducesParts) break;
+		} else if (tag === 'TABLE') {
+			// the data of the task ("Souborem je 20 členů družstva …:" + a table) — without it
+			// the note on the whiteboard would be a question about numbers it does not show
+			if (!introducesParts && !/(?<!\p{L})tabul/iu.test(text(anchor))) break;
+		} else if (tag === 'P' && prev.tagName === 'TABLE' && !paragraphKind(next)) {
+			// the question asked about the table right below it
 		} else if (tag === 'P') {
 			const isPart = PART_RE.test(t);
 			// options / parts right below the statement, whether or not it ends with a colon
@@ -145,6 +282,8 @@ function attachedTo(anchor: HTMLElement, first: HTMLElement | null): HTMLElement
 
 export function findExercises(article: ParentNode): Exercise[] {
 	const found: Exercise[] = [];
+	// parts already shown as part of the statement above them
+	const covered = new Set<Element>();
 	const olVerdict = new Map<Element, boolean>();
 	const okList = (ol: Element) => {
 		let ok = olVerdict.get(ol);
@@ -171,6 +310,7 @@ export function findExercises(article: ParentNode): Exercise[] {
 			} else {
 				continue;
 			}
+			if (!isRealTask(text(el), list.previousElementSibling) && !inTaskSection(list)) continue;
 			found.push({ kind: 'item', anchor: el, host: el, nodes: [el] });
 			continue;
 		}
@@ -182,12 +322,19 @@ export function findExercises(article: ParentNode): Exercise[] {
 			const li = el.parentElement;
 			if (li?.tagName === 'LI' && li.parentElement?.tagName === 'OL') continue;
 			if (kind === 'numbered' && isIllustrativeIntro(precedingIntro(el))) continue;
-			found.push({
-				kind,
-				anchor: el,
-				host: el,
-				nodes: [el, ...attachedTo(el, el.nextElementSibling as HTMLElement | null)],
-			});
+			const nodes = [el, ...attachedTo(el, el.nextElementSibling as HTMLElement | null)];
+			// a numbered task ("3.", "13p)") stands as it is; a lettered line must ask something
+			// itself or belong to a task above it — otherwise it is theory or a solution step
+			if (/^[a-z][.)]/.test(text(el))) {
+				// already in the statement above, and asking nothing of its own ("a) A∩B=… b) A∪B=…")
+				if (covered.has(el) && !TASK_VERB_RE.test(text(el)) && !QUESTION_RE.test(text(el))) continue;
+				const intro = letteredIntro(el);
+				// a step of a solution, however much it looks like a formula
+				if (inSolution(el)) continue;
+				if (!isRealTask(nodes.map((n) => text(n)).join(' '), intro)) continue;
+			}
+			for (const n of nodes.slice(1)) covered.add(n);
+			found.push({ kind, anchor: el, host: el, nodes });
 			continue;
 		}
 
