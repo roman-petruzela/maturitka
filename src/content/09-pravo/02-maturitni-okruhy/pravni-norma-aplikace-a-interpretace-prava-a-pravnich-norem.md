@@ -3,7 +3,7 @@ title: "Právní norma, aplikace a interpretace práva a právních norem"
 order: 3
 source: "Právo/3. Právní norma, aplikace a interpretace práva a právních norem/spolecnost_a_socialni_normy.docx"
 ---
-# Společnost a sociální normy
+## Společnost a sociální normy
 
 Sdružování se ať již v podobě rodiny, rodu, kmenu, státu, se stalo prostředkem a podmínkou k uspokojení potřeb člověka. Lidské vlastnosti se mohou rozvinout jen mezi lidmi, tedy ve společnosti.
 

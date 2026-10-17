@@ -2,6 +2,7 @@
 title: "Funkce obecně"
 order: 28
 source: "Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/28) Funkce obecně.pdf"
+formulaRail: false
 hasExercises: true
 ---
 

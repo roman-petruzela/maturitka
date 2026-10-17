@@ -2,6 +2,7 @@
 title: "Pravděpodobnost"
 order: 32
 source: "Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/32) Pravděpodobnost.pdf"
+formulaRail: false
 hasExercises: true
 ---
 

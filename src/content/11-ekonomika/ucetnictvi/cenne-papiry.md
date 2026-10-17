@@ -45,18 +45,18 @@ __Oceňování cenných papírů k okamžiku pořízení__
 
 __Oceňování úbytku cenných papírů, které byly pořízeny z různé ceny__
 
-1. __Oceňování CP k okamžiku pořízení__
+## 1. Oceňování CP k okamžiku pořízení
 
 - Cenný papír se k okamžiku pořízení oceňuje pořizovací cenou (poplatky a proviny)
 - Při oceňování úbytku se používají metody průměrných cen nebo FIFO
 
-1. __Oceňování CP k rozvahovému dni__
+## 2. Oceňování CP k rozvahovému dni
 
 - CP ze skupiny cenných papírů k obchodování a realizovatelné CP se k poslednímu dni účetního období přeceňují reálnou hodnotou
 
 __Účtování o majetkových cenných papírech__
 
-1. __Pořízení majetkových cenných papírů__
+## 3. Pořízení majetkových cenných papírů
 
 - Nákup CP včetně poplatků a provizí makléřů (379, 221) a rovnou na příslušný majetkový účet
 - Zařazení CP o majetku účetní jednoty v pořizovacích cenách (251,061,062,063 / 259, 043)
@@ -68,12 +68,12 @@ __Účtování o majetkových cenných papírech__
 4. Zaúčtování- 367 / 378
 5. Případné další splácení vkladů- 367 / 221
 
-1. __Výnosy z držby majetkových cenných papírů__
+## 4. Výnosy z držby majetkových cenných papírů
 
 - Mají podobu zisku, jsou zdaňovány srážkovou daní
 - 221, 211 / 665, 666
 
-1. __Prodej majetkových cenných papírů__
+## 5. Prodej majetkových cenných papírů
 
 - Prodejní cena: 221, 211, 378 / 661
 - Účetní hodnota: 561 / 251, 061, 062, 063
@@ -116,7 +116,7 @@ __Podle způsobu vystavení__
 
 __Účtování směnky z pohledu majitele/věřitele/dlužníka__
 
-1. __Majitele (eskont směnky – postoupení)__
+## 6. Majitele (eskont směnky – postoupení)
 
 - Provádí se v případě, kdy majitel směnky potřebuje získat peněžní prostředky dříve, než je datum splatnosti
 - Banka uzavírá s klientem smlouvu o eskontu směnky, jejíchž součástí je i cena, za kterou směnku banka kupuje
@@ -124,15 +124,15 @@ __Účtování směnky z pohledu majitele/věřitele/dlužníka__
 	- Poskytnutí eskontního úvěru bankou na MD- 221 a 562 / 232 (461)
 	- Avízo banky o úhradě směnky směnečným dlužníkem – 232 /313
 
-1. __Věřitele (směnky k inkasu)__
+## 7. Věřitele (směnky k inkasu)
 
 - Jedná se o pohledávku dodavatele (věřitele) vůči odběrateli (dlužníkovi)
 - Dlužník uhradí svůj závazek, tak, že předá věřiteli směnku, v níž se zavazuje, že jí ve stanoveném termínu uhradí
 - K rozvahovému dni se ještě přiúčtuje alikvotní úrokový výnos Z pohledu dlužníka
 
-<img src="/images/content/ekonomika/ucetnictvi/cenne-papiry/01.webp" alt="" width="604" loading="lazy" decoding="async">
+<img src="/images/content/ekonomika/ucetnictvi/cenne-papiry/01.webp" alt="Ilustrace: Věřitele (směnky k inkasu)" width="604" loading="lazy" decoding="async">
 
-1. __Dlužníka__
+## 8. Dlužníka
 
 - Se z hlediska dlužníka účtují na krátkodobé směnky (účet 322 – Směnky k úhradě)
 - Dlouhodobé směnky (nad 1 rok) se účtují na účtu 478- Dlouhodobé směnky k úhradě

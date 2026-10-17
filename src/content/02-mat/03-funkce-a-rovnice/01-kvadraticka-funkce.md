@@ -11,8 +11,6 @@ hasExercises: true
 
 a) pojem kvadratická funkce, b) graf a vlastnosti, c) vrchol grafu kvadratické funkce a jeho určení, d) působení koeficientů kvadratické funkce na graf, e) ukázkové příklady, f) příklady na procvičení včetně řešení.
 
-## Kvadratická funkce
-
 Předpis kvadratické funkce: $f: y = ax^2 + bx + c$, kde koeficienty $a, b, c \in \mathbb{R}$ a $a \neq 0$.
 
 - $ax^2$ — kvadratický člen

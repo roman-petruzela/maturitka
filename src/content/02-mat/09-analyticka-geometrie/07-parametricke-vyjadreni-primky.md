@@ -9,8 +9,6 @@ hasExercises: true
 
 Přímka je jednoznačně určena dvěma body. Dvojic bodů, které danou přímku určují, je nekonečně mnoho — každá taková dvojice ale určuje směrový vektor, který je (až na násobek) stejný. Přímka má tedy nekonečně mnoho směrových vektorů, všechny navzájem rovnoběžné (viz [Směrový a normálový vektor](/mat/analyticka-geometrie/06-smerovy-a-normalovy-vektor/)).
 
-## Parametrické vyjádření přímky
-
 Přímku $p$ procházející bodem $A=[x_A;y_A]$ se směrovým vektorem $\vec s=(s_1;s_2)$ popisuje **parametrická rovnice**:
 
 $$p:\ X = A + t\cdot\vec s,\qquad t\in\mathbb{R}$$

@@ -150,7 +150,7 @@ __Motivační zásady:__
 
 - Masllow \- klinický psycholog, který chápal individuální motivaci jako předem ovlivněnou hierarchii potřeb, kterou sestavil do pyramidy:
 
-<img src="/images/content/ekonomika/ekonomie/management/01.webp" alt="" width="392" loading="lazy" decoding="async">
+<img src="/images/content/ekonomika/ekonomie/management/01.webp" alt="Ilustrace: Maslowova teorie" width="392" loading="lazy" decoding="async">
 
 - Kontrolování
 

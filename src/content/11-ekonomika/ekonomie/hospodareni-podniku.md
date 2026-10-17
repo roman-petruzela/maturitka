@@ -5,23 +5,18 @@ source: "Ekonomie/24-Hospodaření-podniku.docx"
 ---
 24\. Hospodaření podniku
 
-## Náklady
+### Náklady
 
-\- oceněné vstupy do výroby
-
-\- účtová třída 5
-
-\- účtují se pouze na Má Dáti
-
-\- nemají zůstatky, obraty se převádějí na účet 710 ZZ
-
-\- peněžní vyjádření spotřeby výrobních faktorů (práce, půda, kapitál)
-
-\- spotřeba výrobních faktorů, vyjádřená v peněžních jednotkách, která je zaměřená na určitý výsledek (produkt = výkon)
+- oceněné vstupy do výroby
+- účtová třída 5
+- účtují se pouze na Má Dáti
+- nemají zůstatky, obraty se převádějí na účet 710 ZZ
+- peněžní vyjádření spotřeby výrobních faktorů (práce, půda, kapitál)
+- spotřeba výrobních faktorů, vyjádřená v peněžních jednotkách, která je zaměřená na určitý výsledek (produkt = výkon)
 
 Náklad není peněžní výdaj = úbytek peněžních prostředků
 
-\- pořízení DM je peněžní výdaj a nákladem jsou odpisy
+- pořízení DM je peněžní výdaj a nákladem jsou odpisy
 
 dělení:
 
@@ -45,17 +40,13 @@ zásady účtování:
 3. zásada věcné a časové souvislosti – účtujeme je v tom období, ve kterém vznikli, a se kterými souvisí
 4. zásada uzavřenosti – účtujeme Náklady a Výnosy, které se týkají účetní jednotky
 
-## Výnosy
+### Výnosy
 
-\- oceněné výstupy z výroby
-
-\- účtová třída 6
-
-\- na straně Dal
-
-\- nemají zůstatky a obraty se převádí na 710 Z +Z
-
-\- peněžní částky, které podnik získal z veškerých svých činností za určité účetní období, bez ohledu na to, zda došlo v tomhle období k přijetí platby
+- oceněné výstupy z výroby
+- účtová třída 6
+- na straně Dal
+- nemají zůstatky a obraty se převádí na 710 Z +Z
+- peněžní částky, které podnik získal z veškerých svých činností za určité účetní období, bez ohledu na to, zda došlo v tomhle období k přijetí platby
 
 dělení:
 
@@ -65,27 +56,23 @@ dělení:
 
 zásady účtování:
 
-\- stejné jako u nákladu
+- stejné jako u nákladu
 
-# Hospodářský výsledek
+## Hospodářský výsledek
 
-\- porovnáním nákladu a výnosu získáme hospodářský výsledek
-
-\- zisk je cílem každého podnikání
-
-\- zisk je vyjádřením toho co podnik svojí vlastní činností dokázal vytěžit z výrobních faktorů
-
-\- zisk je vlastním zdrojem podniku a ukazuje jeho efektivnost
+- porovnáním nákladu a výnosu získáme hospodářský výsledek
+- zisk je cílem každého podnikání
+- zisk je vyjádřením toho co podnik svojí vlastní činností dokázal vytěžit z výrobních faktorů
+- zisk je vlastním zdrojem podniku a ukazuje jeho efektivnost
 
 1. rovnost	__N = V__
 2. zisk		__N < V__
 3. ztráta		__N > V__
 
-## Zisk
+### Zisk
 
-\- kladný výsledek hospodaření
-
-\- znamená to, že jsme prodejem získali více peněz, než jsme do něj vložili
+- kladný výsledek hospodaření
+- znamená to, že jsme prodejem získali více peněz, než jsme do něj vložili
 
 1. ukazatel hospodaření a zdroj financování – a) pro firmu :
 2. zdroj příjmů státního rozpočtu – b) pro NH: ve formě daně z příjmu FO,PO
@@ -134,11 +121,10 @@ zisk po zdanění se rozděluje takto:
 4. výplata podílu na zisku
 5. nerozdělený zisk
 
-## Ztráta
+### Ztráta
 
-\- záporný hospodářský výsledek
-
-\- může vést až k neschopnosti splácet dluhy
+- záporný hospodářský výsledek
+- může vést až k neschopnosti splácet dluhy
 
 úhrada ztráty:
 

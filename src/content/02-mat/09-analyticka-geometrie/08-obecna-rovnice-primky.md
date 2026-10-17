@@ -11,9 +11,13 @@ hasExercises: true
 
 Přímka $p$ procházející bodem $A=[x_A;y_A]$ s normálovým vektorem $\vec n=(a;b)$ je množina všech bodů $X=[x;y]$, pro které je vektor $\overrightarrow{AX}$ kolmý na $\vec n$ — tedy $\vec n\cdot\overrightarrow{AX}=0$:
 
+**Rovnice přímky dané bodem a normálovým vektorem:**
+
 $$a(x-x_A) + b(y-y_A) = 0$$
 
-Po roznásobení a označení $c=-ax_A-by_A$ dostaneme **obecnou rovnici přímky**:
+Po roznásobení a označení $c=-ax_A-by_A$ dostaneme **obecnou rovnici přímky**.
+
+**Obecná rovnice přímky:**
 
 $$ax+by+c=0$$
 

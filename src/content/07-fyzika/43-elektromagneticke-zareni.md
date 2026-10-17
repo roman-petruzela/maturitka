@@ -69,7 +69,7 @@ Ultafialové záření
 - Objeveno německým fyzikem W. C. Röntgenem (1895)
 - Jako zdroj se v praxi používá Rentgenka
 
-  \- skládá se z katody, která emituje
+  - skládá se z katody, která emituje
 
   elektrony a anody z wolframu,
 
@@ -81,7 +81,7 @@ Ultafialové záření
 
   (viz. schéma)
 
-<img src="/images/content/fyzika/43-elektromagneticke-zareni/01.webp" alt="" width="241" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/43-elektromagneticke-zareni/01.webp" alt="Ilustrace: Rentgenové záření" width="241" loading="lazy" decoding="async">
 
 - Vlastnosti – proniká látkami (látky s vyšším protonovým číslem jej pohlcují více)
 
@@ -93,11 +93,9 @@ Ultafialové záření
 
 - Praktické využití 	- rentgenová diagnostika
 
-  \- rentgenová strukturní analýza
-
-  \- rentgenová spektroskopie
-
-  \- rentgenová astronomie
+  - rentgenová strukturní analýza
+  - rentgenová spektroskopie
+  - rentgenová astronomie
 
 <img src="/images/content/fyzika/43-elektromagneticke-zareni/02.webp" alt="P1010012" width="163" loading="lazy" decoding="async">
 
@@ -130,7 +128,9 @@ Ultafialové záření
 
   tělesy
 
-<img src="/images/content/fyzika/43-elektromagneticke-zareni/03.webp" alt="180px-Spektrum_spojite_carove" width="199" loading="lazy" decoding="async">Příklady spekter
+<img src="/images/content/fyzika/43-elektromagneticke-zareni/03.webp" alt="180px-Spektrum_spojite_carove" width="199" loading="lazy" decoding="async">
+
+*Příklady spekter*
 
 a) Spojité spektrum
 
@@ -152,7 +152,7 @@ sluneční spektrum
 
 <img src="/images/content/fyzika/43-elektromagneticke-zareni/06.webp" alt="solspecth" width="234" loading="lazy" decoding="async">
 
-Tepelné záření
+### Tepelné záření
 
 S rostoucí teplotou tělesa se vyzařování tepelného záření přesouvá ke kratším vlnovým délkám (vyšším frekvencím)
 
@@ -206,23 +206,13 @@ f … frekvence záření
 
 $$\lambda_{max} = \frac{b}{T}$$
 
-Některé fotometrické veličiny
+## Některé fotometrické veličiny
 
-__Osvětlení__
-
-__Doporučeno pro:__
-
-20lx
-
-Osvětlení chodeb
-
-100lx
-
-Pro čtení
-
-200lx
-
-## Jemná mechanická práce, rýsování
+| Osvětlení | Doporučeno pro |
+|---|---|
+| 20 lx | osvětlení chodeb |
+| 100 lx | čtení |
+| 200 lx | jemnou mechanickou práci, rýsování |
 
 - Veličiny, které určují velikost působení světla na lidské oko.
 - Svítivost

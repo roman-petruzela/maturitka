@@ -49,7 +49,7 @@ __Silniční__
 	- 19 dálnic, ale jen 5 je dokončených
 	- dálnice: D2 Brno-Bratislava, D5 Praha-Rozvadov, D8 Praha-Ústí nad Labem, D10 Praha-Turnov, D46 Vyškov-Olomouc
 
-<img src="/images/content/zemepis/cr-doprava/01.webp" alt="" width="605" loading="lazy" decoding="async">
+<img src="/images/content/zemepis/cr-doprava/01.webp" alt="Ilustrace: ČR - doprava" width="605" loading="lazy" decoding="async">
 
 __Železniční__
 

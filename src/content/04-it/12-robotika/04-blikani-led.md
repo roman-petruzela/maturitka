@@ -4,9 +4,9 @@ order: 4
 source: "robotika1.pol/cv03_Blikani_LED.pdf"
 ---
 
-# Blikáme LED
+## Blikáme LED
 
-## Budeme potřebovat
+### Budeme potřebovat
 
 1. Arduino Uno (nebo jinou desku).
 
@@ -20,7 +20,7 @@ source: "robotika1.pol/cv03_Blikani_LED.pdf"
 
 6. 330 Ω rezistor – zapojení sice bude fungovat i bez něj, ale je nutné ho použít.
 
-## Připojení Arduina a PC
+### Připojení Arduina a PC
 
 - Arduino Uno připojíme pomocí USB k počítači
 
@@ -34,7 +34,7 @@ source: "robotika1.pol/cv03_Blikani_LED.pdf"
 
 - Pak Tools → Serial Port vyberte sériový port, na který je Arduino připojeno
 
-## Zapojení
+### Zapojení
 
 Dle obrázku:
 
@@ -42,7 +42,7 @@ Dle obrázku:
 
 _Obrázek 1: Zapojení blikající LED_
 
-## Program
+### Program
 
 Do Arduino IDE vložíme kód programu a nahrajeme jej do Arduina:
 

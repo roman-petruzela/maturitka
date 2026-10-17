@@ -36,11 +36,11 @@ __Druhy KT__
 
 - __Čas__: __peněžní__ trh – splatné do 1 roku; __úvěrový__ – od komerčních bank; __kapitálový__ trh – splatné nad 1 rok
 - __Primární__ trh – CP, které jsou na trhu poprvé; __sekundární__ trh – už prošli primárním trhem
-- __Anonymní__ – nezná se prodávající a kupující; __osobní__ – prodávající a kupující se setká a dělí se na => __organizované__ – účastníkem je komerční banky; __neorganizované__ – účastníkem není komerční banka
+- __Anonymní__ – nezná se prodávající a kupující; __osobní__ – prodávající a kupující se setká a dělí se na ⇒ __organizované__ – účastníkem je komerční banky; __neorganizované__ – účastníkem není komerční banka
 
 __Cenné papíry kapitálového trhu (nad 1 rok)__
 
-1. __Majetkové__
+## 1. Majetkové
 
 - __Akcie__, majitel má právo na podíl na zisku, na řízení a na podíl na likvidačním zůstatku
 
@@ -73,7 +73,7 @@ K
 - Talón – k vydání nového kuponového archu
 - Kupóny – pro výplatu podílu na zisku
 
-1. __Úvěrové__
+### 2. Úvěrové
 
 - __Dluhopis__ = obligace
 - Listinné a zaknihované; obchodovatelné a neobchodovatelné

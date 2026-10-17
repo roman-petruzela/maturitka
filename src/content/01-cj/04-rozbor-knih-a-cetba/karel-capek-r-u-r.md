@@ -66,7 +66,7 @@ __Kontext autorovy tvorby__
 
 __Karel Čapek__
 
-__-__ představitel humanistické demokratické literatury = demokratický proud
+- představitel humanistické demokratické literatury = demokratický proud
 
 - narodil se roku 1890 ve Svatoňovicích
 

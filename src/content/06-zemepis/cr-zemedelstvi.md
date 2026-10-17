@@ -30,7 +30,7 @@ Po roce 1990
 - prudký pokles zaměstnanosti v zemědělství (dnes 3 %)
 - úbytek zemědělské půdy, výměra lesů roste
 
-Po vstupu do Evropské Unie
+## Po vstupu do Evropské Unie
 
 - přistoupení k Společné Zemědělské Politice EU
 - vyšší dotace a otevření evropských trhů

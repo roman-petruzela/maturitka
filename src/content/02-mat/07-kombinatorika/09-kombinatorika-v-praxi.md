@@ -3,6 +3,7 @@ title: "Kombinatorika v praxi"
 order: 9
 source: "matematika/TY01_0232_Kombinatorika_v_praxi.pptx"
 hasExercises: true
+formulaRail: false
 ---
 
 > Pozn. k obsahu: Zdrojová prezentace byla ve velké míře čitelná, jen sekce o heslech na konci ztratila konkrétní vypočítané výsledky (zůstala jen zadání) — doplněno a nezávisle přepočítáno. Zbytek je zachovaný a ověřený (mj. netriviální výpočet přes 69 trojciferných čísel se součtem číslic 13 vyšel při přepočítání přesně stejně jako v podkladu).

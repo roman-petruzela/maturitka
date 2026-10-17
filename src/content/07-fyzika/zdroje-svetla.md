@@ -80,7 +80,7 @@ Ne
 
 *He – Ne laser*
 
-<img src="/images/content/fyzika/zdroje-svetla/01.webp" alt="" width="194" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/zdroje-svetla/01.webp" alt="Ilustrace: Princip činnosti laseru" width="194" loading="lazy" decoding="async">
 
 - Světlo je z laseru vyzařováno ve formě úzkého svazku
 - Princip laseru využívá zákonů kvantové mechaniky a termodynamiky

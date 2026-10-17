@@ -2,6 +2,7 @@
 title: "Statistika"
 order: 33
 source: "Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/33) Statistika.pdf"
+formulaRail: false
 hasExercises: true
 ---
 

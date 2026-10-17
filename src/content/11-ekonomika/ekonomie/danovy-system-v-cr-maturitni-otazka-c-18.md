@@ -28,7 +28,7 @@ __Rozdělení daňového systému:__
 - Daň z příjmů fyzických osob
 - Daň z příjmů právnických osob
 
-1. __Majetkové__
+## 1. Majetkové
 
 - Daň z nemovitých věcí
 - Daň z nabytí nemovitých věcí
@@ -39,7 +39,7 @@ __Rozdělení daňového systému:__
 
 - Daň z přidané hodnoty
 
-1. __Selektivní__
+## 2. Selektivní
 
 - Daň z uhlovodíkových paliv a maziv
 - Daň z lihu a destilátů
@@ -73,7 +73,7 @@ __PŘÍMÉ DANĚ__
 
 ## Plátce i poplatník je jedna osoba
 
-1. __Důchodové__
+### 3. Důchodové
 
 __DAŇ Z PŘÍJMŮ FYZICKÝCH OSOB:__
 
@@ -157,7 +157,7 @@ __Sazba daně:__
 
 Pokud si společníci chtějí rozdělit čistý zisk \(dividenda, podíl…\) musí ho znovu zdanit daní z příjmů fyzických osob
 
-1. __Majetkové__
+### 4. Majetkové
 
 __SILNIČNÍ DAŇ__
 
@@ -222,7 +222,7 @@ __NEPŘÍMÉ DANĚ__
 
 ## Plátce a poplatník je rozdílná osoba
 
-1. __Univerzální__
+### 5. Univerzální
 
 __DAŇ Z PŘIDANÉ HODNOTY \(DPH\)__
 
@@ -302,7 +302,7 @@ __Výběr DPH:__
 - Finanční úřad
 - Celní správa
 
-1. __Selektivní__
+### 6. Selektivní
 
 __SPOTŘEBNÍ DAŇĚ__
 

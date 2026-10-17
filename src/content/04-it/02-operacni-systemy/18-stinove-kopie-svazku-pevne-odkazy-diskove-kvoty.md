@@ -11,7 +11,7 @@ Použití stínové kopie svazku **Stínové kopírování souborů ve sdílený
 
 - • pomocí těchto starších verzí lze obnovit odstraněné, nesprávně upravené nebo přepsané soubory
 
-# Použití stínové kopie svazku **Stínové kopírování otevřených nebo uzamčených souborů kvůli zálohování**
+## Použití stínové kopie svazku **Stínové kopírování otevřených nebo uzamčených souborů kvůli zálohování**
 
 • umožňuje pomocí zálohovacích programů (Zálohování systému Windows), zálohovat soubory, které jsou otevřeny nebo uzamčeny • je možné zálohovat soubory, které se používají v příslušné aplikaci
 
@@ -21,7 +21,7 @@ Použití stínové kopie svazku **Stínové kopírování souborů ve sdílený
 
 • při použití stínových kopií vytváří server, v předem definovaných intervalech “snímky“ sdílených složek a ukládá tyto bitové kopie do uložiště stínových kopií tak, aby k nim mohli uživatelé snadno přistupovat → po implementaci stínových kopií zvládnou uživatelé obnovení souborů sami
 
-## Implementace stínových kopiíí sdílených složek
+### Implementace stínových kopiíí sdílených složek
 
 Před implementací je vhodné zvážit následující hlediska:
 
@@ -29,17 +29,17 @@ Před implementací je vhodné zvážit následující hlediska:
 
 • **Plán spuštění** : jak často se budou stínové kopie vytvářet?
 
-## Implementace stínových kopiíí sdílených složek
+### Implementace stínových kopiíí sdílených složek
 
 • jakmile nastavíme funkci stínové kopírování svazků, začnou se vytvářet stínové kopie souborů ve sdílených složkách na těchto svazcích
 
 • ukládá se až 64 verzí každého souboru a ve výchozím nastavení nakonfiguruje svou max. spotřebu na 10 % kapacity svazku, po tomto nastavení je maximální hodnota pevná, dokud jí nezměníme → může docházet k chybám v důsledku nedostatku místa !
 
-## Implementace stínových kopiíí sdílených složek
+### Implementace stínových kopiíí sdílených složek
 
 • ve výchozím nastavení jsou kopie vytvářeny 2-krát denně (7:00, 12:00) • neplánujte vytváření stínových kopií a zálohování serveru ve stejný čas → bude docházet k chybám !
 
-## Správa stínových kopií pomocí konzoly Správa počítače
+### Správa stínových kopií pomocí konzoly Správa počítače
 
 1. Spusťte konzolu Správa počítače, rozbalte uzel Úložiště a vyberte položku Správa disků, pravým tlačítkem klikněte na libovolný svazek a vyberte příkaz Vlastnosti.
 
@@ -47,7 +47,7 @@ Před implementací je vhodné zvážit následující hlediska:
 
 3. Vyberte svazek, pro který chcete nakonfigurovat stínové kopie a poté klikněte na tlačítko nastavení
 
-## Správa stínových kopií pomocí konzoly Správa počítače
+### Správa stínových kopií pomocí konzoly Správa počítače
 
 4. V seznamu Obsah tohoto svazku určete , kde mají být stínové kopie vytvořeny (vyberte svazek)
 
@@ -55,11 +55,11 @@ Před implementací je vhodné zvážit následující hlediska:
 
 6. Po kliknutí na tlačítko plán můžete nastavit plánování vytváření stínových kopií
 
-## Správa stínových kopií pomocí konzoly Správa počítače
+### Správa stínových kopií pomocí konzoly Správa počítače
 
-## Správa stínových kopií pomocí konzoly Správa počítače
+### Správa stínových kopií pomocí konzoly Správa počítače
 
-# Vracení celého svazku
+## Vracení celého svazku
 
 Tento postup funguje pouze pokud svazek neobsahuje soubory operačního systému a není na disku sdíleném v clusteru.
 
@@ -67,13 +67,13 @@ Tento postup funguje pouze pokud svazek neobsahuje soubory operačního systému
 
 2. Vyberte svazek, který chcete vrátit do původního stavu, podle data vyberte stínovou kopii a klepněte na tlačítko Vrácení změn.
 
-# Použití síťových kopií na klientech
+## Použití síťových kopií na klientech
 
 1. Uživatel klikne pravým tlačítkem na sdílenou síťovou složku, zvolí **Vlastnosti** a záložku **Předchozí verze** , poté si vybere verzi kterou chce obnovit a klikne na tlačítko **Obnovit.**
 
 Použití síťových kopií na klientech
 
-# Pevné odkazy
+## Pevné odkazy
 
 - pevný odkaz je položka složky pro soubor a OS může pomocí něj najít soubory ve složkách
 
@@ -85,19 +85,19 @@ Použití síťových kopií na klientech
 
 - zabezpečení se nastavují pro zdrojový soubor, pevné odkazy toto zabezpečení přebírají
 
-# Pevné odkazy
+## Pevné odkazy
 
 **Použití:** chci mít soubor v síťové sdílené složce, ale zároveň jej používá aplikace, která vyžaduje načítání z jiné složky **Nevýhody:** soubor může souběžně otevřít a používat více uživatelů → problém s ukládáním **Výhody:** soubor není ze svazku (oddílu) odstraněn, dokud nejsou odstraněny všechny pevné odkazy
 
-# Pevné odkazy
+## Pevné odkazy
 
 Pevné odkazy lze vytvořit v příkazovém řádku: fsutil hardlink create _NováCesta souboru AktuálníCestaSouboru_
 
-# Diskové kvóty
+## Diskové kvóty
 
 Diskové kvóty jsou integrovanou funkcí souborového systému NTFS, která pomáhá spravovat a omezovat spotřebu místa na disku.
 
-# Diskové kvóty
+## Diskové kvóty
 
 - **tři možnosti konfigurace diskových kvót:** • pouze sledovat využití místa na disku, správci musí kontrolovat využití místa na disku ručně
 

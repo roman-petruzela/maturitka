@@ -3,7 +3,7 @@ title: "Vlnová optika 1"
 order: 41
 source: "FYZIKA-maturitní otázky/41-Vlnová optika-1.docx"
 ---
-Světlo jako elektromagnetické vlnění
+## Světlo jako elektromagnetické vlnění
 
 - Světlo je příčné elektromagnetické vlnění, které ke svému šíření nepotřebuje látkové prostředí (šíří se tedy např. i vakuem). Velikost __rychlosti světla__ ve vakuu je c = 299792458 m.s-1.
 - Jedná se o maximální možnou rychlost, kterou se může fyzikální objekt pohybovat. V látkovém prostředí je velikost rychlosti světla vždy menší a je ovlivněna nejen prostředím, ale také frekvencí světla.
@@ -13,7 +13,9 @@ $$\lambda = \frac{c}{f}$$
 
 kde __*f*__ je __frekvence světla__. Jako světlo se označuje elektromagnetického vlnění, na které je citlivý lidský zrakový orgán – oko: Fyziologický vjem zvaný vidění vyvolává elektromagnetické vlnění o vlnových délkách 390 nm až 790 nm.
 
-<img src="/images/content/fyzika/vlnova-optika-1/02.webp" alt="" width="153" loading="lazy" decoding="async">Disperze světla
+## Disperze světla
+
+<img src="/images/content/fyzika/vlnova-optika-1/02.webp" alt="Ilustrace: Disperze světla" width="153" loading="lazy" decoding="async">
 
 - Dopadá-li na optické rozhraní dvou prostředí bílé světlo, lomené světlo již není bílé, ale jeho okraje jsou zbarvené (jeden červeně, druhý fialově – viz obr.). Bílé světlo se tedy při lomu rozkládá na barevné složky. Tento jev se nazývá __disperze__ a je důsledkem závislosti velikosti rychlosti světla na jeho frekvenci (resp. na vlnové délce). __Velikost rychlosti světla se zpravidla s rostoucí frekvencí zmenšuje__ a nastává tzv. __normální disperze__.
 - Vzhledem k tomu, že platí:
@@ -24,7 +26,7 @@ projevuje se disperze světla různými hodnotami indexu lomu optického prostř
 
 Přechod z prostředí opticky řidšího do prostředí opticky hustšího.
 
-<img src="/images/content/fyzika/vlnova-optika-1/04.webp" alt="" width="616" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/vlnova-optika-1/04.webp" alt="Ilustrace: Disperze světla" width="616" loading="lazy" decoding="async">
 
 Schématické znázornění disperze.
 
@@ -36,7 +38,7 @@ Schématické znázornění disperze.
 - O objasnění interference světla se zasloužil hlavně anglický fyzik __Thomas Young__ (1773-1829), který důsledně vycházel z představy, že světlo je vlnění.
 - Interferenční maxima a minima vznikají na velmi krátkou dobu, takže jejich rozložení se velmi rychle mění – oko proto vnímá jen průměrné osvětlení všech míst. Aby byla interference pozorovatelná, musí být rozložení maxim a minim stálé, tj. světelné vlny musí být __koherentní__.
 
-<img src="/images/content/fyzika/vlnova-optika-1/05.webp" alt="" width="406" loading="lazy" decoding="async"><img src="/images/content/fyzika/vlnova-optika-1/06.webp" alt="" width="406" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/vlnova-optika-1/05.webp" alt="Ilustrace: Skládání světelného vlnění (Interference světla)" width="406" loading="lazy" decoding="async"><img src="/images/content/fyzika/vlnova-optika-1/06.webp" alt="Ilustrace: Skládání světelného vlnění (Interference světla)" width="406" loading="lazy" decoding="async">
 
 Obr.2
 
@@ -49,7 +51,7 @@ Obr.1
 
 <img src="/images/content/fyzika/vlnova-optika-1/07.webp" alt="youngův pokus" width="315" loading="lazy" decoding="async">
 
-<img src="/images/content/fyzika/vlnova-optika-1/08.webp" alt="" width="277" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/vlnova-optika-1/08.webp" alt="Ilustrace: Youngův pokus" width="277" loading="lazy" decoding="async">
 
 - Interferenční obrazec v podobě světlých a tmavých proužků vzniká vzájemným skládáním světelných vlnění z obou štěrbin:
 
@@ -57,7 +59,7 @@ Obr.1
 
 $$\Delta l = 2k \cdot \frac{\lambda}{2} = k \lambda \qquad (k = 0, 1, 2, \ldots)$$
 
-<img src="/images/content/fyzika/vlnova-optika-1/10.webp" alt="" width="293" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/vlnova-optika-1/10.webp" alt="Ilustrace: Youngův pokus" width="293" loading="lazy" decoding="async">
 
 2\. Tmavý proužek odpovídá __interferenčnímu minimu__ – v místech, v nichž mají vlnění fázi opačnou (viz obrázek). Platí podmínka:
 
@@ -83,7 +85,7 @@ $$\Delta l = (2k + 1) \cdot \frac{\lambda}{2} \qquad (k = 0, 1, 2, \ldots)$$
 
 2\. Při odrazu světla na rozhraní opticky hustšího a řidšího prostředí se fáze nemění.
 
-<img src="/images/content/fyzika/vlnova-optika-1/13.webp" alt="" width="265" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/vlnova-optika-1/13.webp" alt="Ilustrace: Praktické využití interference" width="265" loading="lazy" decoding="async">
 
 - Na obr. 3a je znázorněna situace pro vznik interferenčních minim v odraženém světle.
 - V případě vzniku interferenčních maxim v odraženém světle, je nutno si pomoci stavem vlnění nikoliv v čase t0 dopadu vlnění na dolní rozhraní tenké vrstvy, ale stavem v čase $t_0 + \frac{T}{4}$ (kde *T* je perioda vlnění), abychom mohli zkonstruovat odraženou vlnu (viz obr. 3b).
@@ -121,10 +123,10 @@ d… šířka vrstvy
 - Interferenční obrazec má podobu soustavy duhově zabarvených proužků – tzv. *Newtonovy proužky.*
 - Využití: zjišťování kvality rovinných a kulových ploch
 
-<img src="/images/content/fyzika/vlnova-optika-1/22.webp" alt="" width="194" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/vlnova-optika-1/22.webp" alt="Ilustrace: Newtonova skla" width="194" loading="lazy" decoding="async">
 
-<img src="/images/content/fyzika/vlnova-optika-1/23.webp" alt="" width="126" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/vlnova-optika-1/23.webp" alt="Ilustrace: Newtonova skla" width="126" loading="lazy" decoding="async">
 
-Newtonovy proužky    ->
+Newtonovy proužky    →
 
 <- schéma Newtonových skel

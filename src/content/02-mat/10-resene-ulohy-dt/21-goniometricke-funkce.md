@@ -2,6 +2,7 @@
 title: "Goniometrické funkce"
 order: 21
 source: "Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/21) Goniometrické funkce.pdf"
+formulaRail: false
 hasExercises: true
 ---
 

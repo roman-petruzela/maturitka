@@ -10,15 +10,15 @@ Kmitavý pohyb
 - Jestliže těleso __pravidelně__ prochází __rovnovážnou polohou__, koná __periodický kmitavý pohyb__
 - __Kmitání__ – těleso kmitá kolem __rovnovážné polohy__ (nemusí se opakovat)
 
-<img src="/images/content/fyzika/kmitavy-pohyb-i/01.webp" alt="" width="340" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/kmitavy-pohyb-i/01.webp" alt="Ilustrace: Kmitavý pohyb I" width="340" loading="lazy" decoding="async">
 
 - __Periodický pohyb__ – těleso kmitá kolem rovnovážné polohy __opakovaně__
 
-<img src="/images/content/fyzika/kmitavy-pohyb-i/02.webp" alt="" width="379" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/kmitavy-pohyb-i/02.webp" alt="Ilustrace: Kmitavý pohyb I" width="379" loading="lazy" decoding="async">
 
 - __Harmonický pohyb__ – časový diagram je __sinusoida__ nebo __kosinusoida__
 
-__<img src="/images/content/fyzika/kmitavy-pohyb-i/03.webp" alt="" width="362" loading="lazy" decoding="async">__
+__<img src="/images/content/fyzika/kmitavy-pohyb-i/03.webp" alt="Ilustrace: Kmitavý pohyb I" width="362" loading="lazy" decoding="async">__
 
 ## Frekvence, perioda
 
@@ -43,20 +43,20 @@ __Frekvence (kmitočet)__
 - Zařízení, které __volně__ (bez vnějšího působení) __kmitá__, je __mechanický oscilátor__
 - např. kyvadlo, pružinový oscilátor, struna, srdce, …
 
-<img src="/images/content/fyzika/kmitavy-pohyb-i/04.webp" alt="" width="484" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/kmitavy-pohyb-i/04.webp" alt="Ilustrace: Oscilátory" width="484" loading="lazy" decoding="async">
 
 ## Harmonický kmitavý pohyb
 
 - pohyb __přímočarý__, časovým diagramem __sinusoida__
 - Při pohybu mechanického oscilátoru se __okamžitá výchylka y__ periodicky mění a __vzhledem__ k __rovnovážné poloze__ nabývá kladných i záporných hodnot
 - V určitém čase dosahuje __y__ __největší__ kladné nebo záporné __hodnoty__, __absolutní hodnota__ největší výchylky je __amplituda výchylky ym__
-- <img src="/images/content/fyzika/kmitavy-pohyb-i/05.webp" alt="" width="416" loading="lazy" decoding="async">Harmonickému kmitavému pohybu odpovídá __průmět__ pohybu __rovnoměrného po kružnici__ do __svislé polohy__.
+- <img src="/images/content/fyzika/kmitavy-pohyb-i/05.webp" alt="Ilustrace: Harmonický kmitavý pohyb" width="416" loading="lazy" decoding="async">Harmonickému kmitavému pohybu odpovídá __průmět__ pohybu __rovnoměrného po kružnici__ do __svislé polohy__.
 
-<img src="/images/content/fyzika/kmitavy-pohyb-i/06.webp" alt="" width="219" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/kmitavy-pohyb-i/06.webp" alt="Ilustrace: Harmonický kmitavý pohyb" width="219" loading="lazy" decoding="async">
 
 - Pro výchylku harmonického pohybu tělesa, které se v počátečním okamžiku nachází v rovnovážné poloze, platí vztah:
 
-<img src="/images/content/fyzika/kmitavy-pohyb-i/07.webp" alt="" width="288" loading="lazy" decoding="async">	__y = ym ∙ sinωt          y = r ∙ sinωt__
+<img src="/images/content/fyzika/kmitavy-pohyb-i/07.webp" alt="Ilustrace: Harmonický kmitavý pohyb" width="288" loading="lazy" decoding="async">	__y = ym ∙ sinωt          y = r ∙ sinωt__
 
 __y = r ∙ sinφ	         x = r ∙ cosωt__
 
@@ -72,9 +72,9 @@ __t__…čas __\[s\]__
 
 __φ = ωt__ … fáze kmitavého pohybu __\[rad\]__
 
-Kinematika harmonického pohybu
+## Kinematika harmonického pohybu
 
-<img src="/images/content/fyzika/kmitavy-pohyb-i/08.webp" alt="" width="527" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/kmitavy-pohyb-i/08.webp" alt="Ilustrace: Kinematika harmonického pohybu" width="527" loading="lazy" decoding="async">
 
 - vztah pro __v__ a __a__ lze odvodit první a druhou derivací __y__ (podle __t__)
 
@@ -85,14 +85,14 @@ Kinematika harmonického pohybu
 
   __φ = ωt__
 
-- <img src="/images/content/fyzika/kmitavy-pohyb-i/09.webp" alt="" width="216" loading="lazy" decoding="async">Veličina __φ0__ je __počáteční fáze__ kmitavého pohybu. Určuje výchylku, popř. jinou veličinu harm. kmitání v __počátečním okamžiku t0__. Obvykle vyjadřuje fázový rozdíl těchto veličin.
+- <img src="/images/content/fyzika/kmitavy-pohyb-i/09.webp" alt="Ilustrace: Fáze kmitavého pohybu" width="216" loading="lazy" decoding="async">Veličina __φ0__ je __počáteční fáze__ kmitavého pohybu. Určuje výchylku, popř. jinou veličinu harm. kmitání v __počátečním okamžiku t0__. Obvykle vyjadřuje fázový rozdíl těchto veličin.
 - Pro __okamžitou výchylku__ platí vztah:
 
   __y = ym ∙ sin(ωt + φ0)__
 
   __φ0 = ωt0__
 
-<img src="/images/content/fyzika/kmitavy-pohyb-i/10.webp" alt="" width="552" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/kmitavy-pohyb-i/10.webp" alt="Ilustrace: Fáze kmitavého pohybu" width="552" loading="lazy" decoding="async">
 
 - __Fázový rozdíl__ __dvou harmonických__ veličin o __stejné frekvenci__ je určen rozdílem jejich počátečních fází.
 - __Δφ__ = (ωt + φ02) – (ωt + φ01) = __φ02 - φ01__
@@ -123,7 +123,7 @@ __Δφ__ = (ωt - π/6) – (ωt + π/6) = - π/3
 - __Tuhost pružiny:      k = FP/ Δl__
 - __Nezatížená pružina__ má délku __l0__. Po zavěšení tělesa o __hmotnosti m__ a jeho ustálení se pružina prodlouží působením __tíhové síly FG__ na délku __l = l0 + Δl__. V rovnovážné poloze působí na těleso oscilátoru __síla pružnosti FP__, která má __stejnou velikost__ jako __tíhová síla FG = mg__, ale __opačný směr__. Je tedy __kΔl – mg = 0.__
 
-<img src="/images/content/fyzika/kmitavy-pohyb-i/11.webp" alt="" width="412" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/kmitavy-pohyb-i/11.webp" alt="Ilustrace: Dynamika kmitavého pohybu" width="412" loading="lazy" decoding="async">
 
 - Když oscilátor __uvedeme__ do __kmitavého pohybu__, síla pružnosti se mění, zatím co tíhová síla zůstává stálá. Na oscilátor působí __výsledná síla__:
 
@@ -142,4 +142,4 @@ F = - myω2             →   - ky = - myω2	→  __ω2 = k/m__
 - Souvislost kmitavého pohybu s __pohybem rovnoměrným po kružnici__ se využívá k symbolickému znázornění veličin kmitavého pohybu, popř. i jiných periodických dějů (např. elektrických). Veličina je symbolicky znázorněna vektorem __Y__, jehož délka je úměrná __amplitudě veličiny ym__ a poloha vektoru v __pravoúhlé souřadnicové soustavě__ (Kartézská - Oxy) je určena __počáteční fází veličiny φ0__ . Na rozdíl od skutečných vektorů používáme pro toto symbolické znázornění veličin kmitavých dějů termín __fázor__ (=myšlený vektor). __Grafické znázornění__ veličin kmitavého pohybu pomocí fázorů označujeme jako __fázorový diagram.__
 - zkrátka soustava s osami __x__ a __y__
 
-<img src="/images/content/fyzika/kmitavy-pohyb-i/12.webp" alt="" width="388" loading="lazy" decoding="async"><img src="/images/content/fyzika/kmitavy-pohyb-i/13.webp" alt="" width="195" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/kmitavy-pohyb-i/12.webp" alt="Ilustrace: Fázorový diagram" width="388" loading="lazy" decoding="async"><img src="/images/content/fyzika/kmitavy-pohyb-i/13.webp" alt="Ilustrace: Fázorový diagram" width="195" loading="lazy" decoding="async">

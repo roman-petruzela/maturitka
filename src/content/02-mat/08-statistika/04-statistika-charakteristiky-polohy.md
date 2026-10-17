@@ -43,7 +43,7 @@ Výsledek: ||n=20; x̄ = (200·1+240·7+260·6+280·4+350·1+950·1)/20 = 5860/2
 
 **Medián** je prostřední hodnota seřazeného souboru. Je-li počet jednotek souboru lichý, je mediánem přímo prostřední hodnota; je-li sudý, je mediánem aritmetický průměr dvou prostředních hodnot.
 
-Pro soubor ročních příjmů výše (20 hodnot, sudý počet) jsou desátá i jedenáctá hodnota v seřazené posloupnosti rovny 260 (obě padnou do bloku šesti hodnot 260):
+Například pro soubor ročních příjmů výše (20 hodnot, sudý počet) jsou desátá i jedenáctá hodnota v seřazené posloupnosti rovny 260 (obě padnou do bloku šesti hodnot 260):
 
 $$\mathrm{Med}(x) = \frac{260+260}{2} = 260 \text{ tis. Kč}$$
 
@@ -51,7 +51,9 @@ Na rozdíl od aritmetického průměru (293 tis. Kč) není medián ovlivněn ex
 
 ## Modus
 
-**Modus** je hodnota znaku s největší četností. Pro soubor ročních příjmů výše se sedmkrát vyskytuje hodnota 240 tis. Kč:
+**Modus** je hodnota znaku s největší četností.
+
+Například pro soubor ročních příjmů výše se sedmkrát vyskytuje hodnota 240 tis. Kč:
 
 $$\mathrm{Mod}(x) = 240 \text{ tis. Kč}$$
 

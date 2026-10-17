@@ -79,12 +79,12 @@ __Popište pojistné na sociální zabezpečení a zdravotní pojištění__
 
 - Ze mzdy zaměstnance se odvádí pojistné, a to:
 
-1. __Sociální zabezpečení__
+## 1. Sociální zabezpečení
 
 - Pojistné na sociální zabezpečení zahrnuje pojistné na důchodové pojištění, pojistné na nemocenské dávky a příspěvek na státní politiku zaměstnanosti, jeho výše se u jednotlivých poplatníků stanoví % sazbou z vyměřovacího základu
 - U sociálního zabezpečení je 6,5 % z vyměřovacího základu
 
-1. __Zdravotní pojištění__
+## 2. Zdravotní pojištění
 
 - Pro výpočet pojistného je potřeba znát jednak pojistné sazby a jednak výši vyměřovacího základu
 - Vyměřovacím základem pro výpočet pojistného je úhrn příjmů zúčtovaných zaměstnavatelem v souvislosti s výkonem zaměstnání, které zakládá účast na nemocenském pojištění
@@ -93,12 +93,12 @@ __Popište pojistné na sociální zabezpečení a zdravotní pojištění__
 
 __Odvod pojistného__
 
-1. __Odvod sociálního zabezpečení a zdravotního pojištění__
+## 3. Odvod sociálního zabezpečení a zdravotního pojištění
 
 - Zdravotní - 4,5 %	331/336.1
 - Sociální - 6,5 % 	331/336.2
 
-1. __Zdravotní pojištění, které hradí zaměstnavatel__
+## 4. Zdravotní pojištění, které hradí zaměstnavatel
 
 - Zdravotní - 9,0 %	524/336.1
 - Sociální - 23,0 %	524/336.2
@@ -114,7 +114,7 @@ __Daň z příjmu ze závislé činnosti a prohlášení k dani__
 
 - Pro způsob zdanění mzdy daní z příjmu ze závislé činnosti je rozhodné, zda má zaměstnanec podepsáno prohlášení k dani
 
-1. __Má-li zaměstnanec podepsané prohlášení k dani__
+## 5. Má-li zaměstnanec podepsané prohlášení k dani
 
 - je daň z příjmu srážena ve formě zálohy na daň, která podléhá ročnímu zúčtování
 
@@ -157,7 +157,7 @@ __Rozdíl mezi srážkovou a zálohovou daní:__
 	- Jedná o zálohu, která bude definitivně vyúčtována po skončení roku ze všech příjmů poplatníka
 	- Mzda, ze které je vybírána zálohová daň, se sčítá s ostatními příjmy poplatníka
 
-<img src="/images/content/ekonomika/ucetnictvi/mzdy-a-zamestnanci-1/01.webp" alt="" width="552" loading="lazy" decoding="async">__Účtování mezd__
+<img src="/images/content/ekonomika/ucetnictvi/mzdy-a-zamestnanci-1/01.webp" alt="Ilustrace: Má-li zaměstnanec podepsané prohlášení k dani" width="552" loading="lazy" decoding="async">__Účtování mezd__
 
 __Zdravotní a sociální pojištění, které hradí zaměstnavatel__
 

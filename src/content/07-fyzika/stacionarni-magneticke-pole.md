@@ -28,9 +28,9 @@ __Magnetické pole__
 - Zjistil, že __magnetka__ umístěná v blízkosti vodiče __se vychýlí__, začne-li vodičem __protékat proud.__ S výsledky jeho bádání se seznámil francouzský fyzik __André Marie Ampére__ (1775 - 1836), který poté zjistil, že na sebe __vzájemně působí silami i vodiče__, kterými prochází __elektrický proud__
 - Těmito pokusy byla prokázána přítomnost __magnetického pole v okolí vodičů s proudem.__ Jeho příčinou je __pohyb nositelů elektrického náboje__ (__elektronů__) ve vodiči.
 - *Magnetické pole působí jen na pohybující se částice,popř. tělesa s elektrickým nábojem.*
-- <img src="/images/content/fyzika/stacionarni-magneticke-pole/01.webp" alt="" width="215" loading="lazy" decoding="async">Na zmagnetovaná tělesa působí bez ohledu na jejich pohyb.
+- <img src="/images/content/fyzika/stacionarni-magneticke-pole/01.webp" alt="Ilustrace: Magnetické pole vodiče s proudem" width="215" loading="lazy" decoding="async">Na zmagnetovaná tělesa působí bez ohledu na jejich pohyb.
 
-<img src="/images/content/fyzika/stacionarni-magneticke-pole/02.webp" alt="" width="348" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/stacionarni-magneticke-pole/02.webp" alt="Ilustrace: Magnetické pole vodiče s proudem" width="348" loading="lazy" decoding="async">
 
 Velikost síly je:
 
@@ -45,7 +45,7 @@ __l__...délka té části vodiče, kt. zasahuje do mag. pole
 - __Jednotkou__ je __T__, tesla
 - __homogenní pole__:
 	- Pole, které je možné modelovat pomocí dvou nesouhlasných rozlehlých pólů magnetu v malé vzdálenosti od sebe. Vektory magnetické indukce jsou navzájem rovnoběžné
-	- Lze znázornit přímými, rovnoběžnými, stejně od sebe vzdálenými indukčními čarami<img src="/images/content/fyzika/stacionarni-magneticke-pole/03.webp" alt="" width="489" loading="lazy" decoding="async">
+	- Lze znázornit přímými, rovnoběžnými, stejně od sebe vzdálenými indukčními čarami<img src="/images/content/fyzika/stacionarni-magneticke-pole/03.webp" alt="Ilustrace: Magnetická indukce" width="489" loading="lazy" decoding="async">
 
 ## Magnetické indukční čáry
 
@@ -54,7 +54,7 @@ __l__...délka té části vodiče, kt. zasahuje do mag. pole
 - Magnetické indukční čáry __přímého vodiče__ s proudem mají tvar __soustředných kružnic__ rozložených v rovinách kolmých k vodiči
 - Orientaci mag. indukčních čas určujeme pomocí __Ampérova pravidla pravé ruky__
 
-<img src="/images/content/fyzika/stacionarni-magneticke-pole/04.webp" alt="" width="291" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/stacionarni-magneticke-pole/04.webp" alt="Ilustrace: Magnetické indukční čáry" width="291" loading="lazy" decoding="async">
 
 Tyčový magnet a jeho magnetické pole (magnet, siločáry vytvořené pomocí železných pilin a náčrt siločar)
 
@@ -66,37 +66,37 @@ Tyčový magnet a jeho magnetické pole (magnet, siločáry vytvořené pomocí 
 - Pomocí pokusu s __pilinami__ je možné zjistit, že uvnitř __solenoidu__ (v jeho střední části) jsou __magnetické indukční čáry__ __rovnoběžné__ s jeho __osou__ - jedná se tedy o __homogenní magnetické pole__.
 - Orientaci mag. indukčních čar určíme pomocí __Ampérova pravidla pravé ruky__
 - Pro __velikost magnetické indukce__ uvnitř velmi dlouhého __solenoidu__ navinutého hustě tenkým vodičem umístěného v prostředí s __permeabilitou μ__ platí vztah:
-- kde __I je proud__ v cívce a __N počet závitů__ části cívky o __délce l__. Podíl počtu závitů a délky udává počet závitů na jednotku délky a označuje se jako __hustota závitů__. <img src="/images/content/fyzika/stacionarni-magneticke-pole/05.webp" alt="" width="268" loading="lazy" decoding="async">
+- kde __I je proud__ v cívce a __N počet závitů__ části cívky o __délce l__. Podíl počtu závitů a délky udává počet závitů na jednotku délky a označuje se jako __hustota závitů__. <img src="/images/content/fyzika/stacionarni-magneticke-pole/05.webp" alt="Ilustrace: Magnetické pole cívky" width="268" loading="lazy" decoding="async">
 
 __Ampérovo pravidlo pravé ruky__
 
 - *Naznačíme-li uchopení vodiče do pravé ruky*__* tak, aby *__*palec ukazoval dohodnutý směr proudu* ve vodiči, prsty pak ukazují orientaci magnetických indukčních čar. *
 
-*<img src="/images/content/fyzika/stacionarni-magneticke-pole/06.webp" alt="" width="552" loading="lazy" decoding="async">*
+*<img src="/images/content/fyzika/stacionarni-magneticke-pole/06.webp" alt="Ilustrace: Magnetické pole cívky" width="552" loading="lazy" decoding="async">*
 
 __Flemingovo pravidlo__
 
 - V homogenním magnetickém poli působí na přímý vodič o __aktivní délce l__, svírající s indukčními čarami __úhel α__, kterým prochází __proud I__, síla o velikosti
 
-<img src="/images/content/fyzika/stacionarni-magneticke-pole/07.webp" alt="" width="375" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/stacionarni-magneticke-pole/07.webp" alt="Ilustrace: Magnetické pole cívky" width="375" loading="lazy" decoding="async">
 
 - __Směr síly__ __Fm__ určíme __Flemingovým pravidlem levé ruky__:
 - *Položíme-li levou ruku*__* k vodiči tak, aby *__*prsty ukazovaly směr proudu*__* a *__*indukční čáry vstupovaly do dlaně*__, ukazuje *__*odtažený palec směr síly Fm  působící na vodič.*
 
-<img src="/images/content/fyzika/stacionarni-magneticke-pole/08.webp" alt="" width="346" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/stacionarni-magneticke-pole/08.webp" alt="Ilustrace: Magnetické pole cívky" width="346" loading="lazy" decoding="async">
 
 ## Vzájemné působení dvou přímých rovnoběžných vodičů
 
 - Působí na sebe __magnetickými silami__
 - Při __souhlasných__ směrech proudů se vodiče __přitahují__, při __nesouhlasných__ se __odpuzují__
 - Při __souhlasném směru__ jsou v prostoru mezi vodiči vektory __magnetické indukce__ __opačné__ a mag. indukce výsledného pole je __menší__ (|B|=|B1-B2|), při __nesouhlasném směru__ proudy mají naopak vektory obou mag. indukcí směr __souhlasný__ a __indukce__ výsledného pole se __zvětší__ (|B|=|B1+B2|)
-- <img src="/images/content/fyzika/stacionarni-magneticke-pole/09.webp" alt="" width="298" loading="lazy" decoding="async">__APPR__ si určíme indukční čáry jednoho vodiče
+- <img src="/images/content/fyzika/stacionarni-magneticke-pole/09.webp" alt="Ilustrace: Vzájemné působení dvou přímých rovnoběžných vodičů" width="298" loading="lazy" decoding="async">__APPR__ si určíme indukční čáry jednoho vodiče
 - V bodě ,,dotyku’’ s druhým vodičem uděláme tečnu ve směru indukčních čar
 - Podle __FPLR__ pak určíme __Fm__ u toho vodiče, u kterého jsme určili tuto ,,tečnu”
 - Ampérův zákon je obdobou Newtonova zákona pro gravitační pole (závisí na hmotnosti) a Coulombova zákona pro el. pole (závisí na náboji).
 - Vyjadřuje __velikost síly__ mezi dvěma vodiči s proudem. Pro __dva rovnoběžné vodiče__ s proudy __I1__ a __I2__ ve __vzdálenosti d__ a __délce l__ odvodil Ampére pro magnetickou sílu tento vzorec:
 
-<img src="/images/content/fyzika/stacionarni-magneticke-pole/10.webp" alt="" width="355" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/stacionarni-magneticke-pole/10.webp" alt="Ilustrace: Vzájemné působení dvou přímých rovnoběžných vodičů" width="355" loading="lazy" decoding="async">
 
 ## Definice Ampéru
 
@@ -108,16 +108,16 @@ __Flemingovo pravidlo__
 - __Lorentzova síla__ způsobená __magnetickým polem__ mění __směr__ náboje, bez toho, aby působila __změnu jeho rychlosti__
 - Jestliže se __částice s nábojem__ pohybuje současně v __elektrickém a magnetickém poli,__ působí na ni jak __síla elektrická Fe,__ tak __síla magnetická Fm__. Výslednice obou sil je __Lorentzova síla__
 
-<img src="/images/content/fyzika/stacionarni-magneticke-pole/11.webp" alt="" width="242" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/stacionarni-magneticke-pole/11.webp" alt="Ilustrace: Lorentzova síla" width="242" loading="lazy" decoding="async">
 
 - kde __q__ - elektrický náboj; __v__ - rychlost částice; __E__ - intenzita elektrického pole;
 
 __B__ - magnetická indukce
 
-<img src="/images/content/fyzika/stacionarni-magneticke-pole/12.webp" alt="" width="266" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/stacionarni-magneticke-pole/12.webp" alt="Ilustrace: Lorentzova síla" width="266" loading="lazy" decoding="async">
 
 - Výslednicí je __vektorový součin__ __v__ a __B__
 
-<img src="/images/content/fyzika/stacionarni-magneticke-pole/13.webp" alt="" width="306" loading="lazy" decoding="async">__Q__ – náboj; __v__ - rychlost pohybu částice; __B__ – magnet. indukce; __α__ - úhel, který svírá směr __v__ a __B__
+<img src="/images/content/fyzika/stacionarni-magneticke-pole/13.webp" alt="Ilustrace: Lorentzova síla" width="306" loading="lazy" decoding="async">__Q__ – náboj; __v__ - rychlost pohybu částice; __B__ – magnet. indukce; __α__ - úhel, který svírá směr __v__ a __B__
 
-<img src="/images/content/fyzika/stacionarni-magneticke-pole/14.webp" alt="" width="345" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/stacionarni-magneticke-pole/14.webp" alt="Ilustrace: Lorentzova síla" width="345" loading="lazy" decoding="async">

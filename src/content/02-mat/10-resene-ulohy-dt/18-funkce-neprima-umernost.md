@@ -2,6 +2,7 @@
 title: "Funkce nepřímá úměrnost"
 order: 18
 source: "Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/18) Funkce nepřímá úměrnost.pdf"
+formulaRail: false
 hasExercises: true
 ---
 

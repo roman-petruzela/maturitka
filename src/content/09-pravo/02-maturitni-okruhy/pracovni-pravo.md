@@ -3,9 +3,9 @@ title: "Pracovní právo"
 order: 20
 source: "Právo/20. Pracovní právo/20_pracovni_pravo.docx"
 ---
-# __20. Pracovní právo__
+## __20. Pracovní právo__
 
-=> soubor právních norem, které upravují pracovně-právní vztahy mezi subjekty pracovního práva (zaměstnancem, zaměstnavatelem a odborovými organizacemi).
+⇒ soubor právních norem, které upravují pracovně-právní vztahy mezi subjekty pracovního práva (zaměstnancem, zaměstnavatelem a odborovými organizacemi).
 Řadí se mezi právo soukromé.
 
 Funkce pracovního práva se rozlišuje na organizační, ochrannou a výchovnou
@@ -14,7 +14,7 @@ __PRÁVNÍ ÚPRAVA, ČLENĚNÍ__
 
 __PRAMENY__
 
-## Mezinárodní
+### Mezinárodní
 
 - Všeobecná deklarace lidských práv
 - Mezinárodní pakt o hospodářských, sociálních a kulturních právech
@@ -22,7 +22,7 @@ __PRAMENY__
 - Evropská sociální charta
 - Úmluvy a doporučení Mezinárodní organizace práce (ILO)
 
-## České
+### České
 
 - Zákoník práce
 - Zákoník o státním odborném dozoru nad bezpečností práce
@@ -78,7 +78,7 @@ __PRACOVNĚPRÁVNÍ POMĚR__
 
 __Vznik__
 
-=> výběr osob je v působnosti zaměstnavatele (zda s danou osobou chce uzavřít pracovní poměr či nikoliv), vznikne na základě souhlasného projevu vůle obou strany
+⇒ výběr osob je v působnosti zaměstnavatele (zda s danou osobou chce uzavřít pracovní poměr či nikoliv), vznikne na základě souhlasného projevu vůle obou strany
 
 __Způsoby:__
 
@@ -114,7 +114,7 @@ __Druhy:__
 
 __Pracovní doba__
 
-=> pracovní doba je přítomnost zaměstnance na pracovišti na základě pokynu zaměstnavatele s výjimkou přestávek v práci na jídlo a oddech
+⇒ pracovní doba je přítomnost zaměstnance na pracovišti na základě pokynu zaměstnavatele s výjimkou přestávek v práci na jídlo a oddech
 
 - délka pracovní doby nesmí překročit 40 h/týden a 12 h/denně rovnoměrně či nerovnoměrně
 - musí být minimální pauza 12 hodin mezi směnou, přestávka maximálně po 6 hodinách
@@ -123,7 +123,7 @@ __Pracovní doba__
 
 __Odměňování__
 
-=> mzda (soukromé), plat (veřejné, z rozpočtu) nebo odměna z dohody
+⇒ mzda (soukromé), plat (veřejné, z rozpočtu) nebo odměna z dohody
 
 - minimální mzda: 18.900 Kč
 - srážky z příjmů: daň z příjmu, pojistné na soc. zab., zdrav. poj., …
@@ -132,7 +132,7 @@ __Odměňování__
 
 __Dovolená__
 
-=> volný čas, naplněný podle přestav zaměstnance, má sloužit k obnově pracovní síly po celoroční práci
+⇒ volný čas, naplněný podle přestav zaměstnance, má sloužit k obnově pracovní síly po celoroční práci
 
 - vzniká, jestliže zaměstnanec odpracuje v kalendářním roce alespoň 60 dnů
 - základní výměra 4 týdny, 5 pokud se jedná o zaměstnavatele stát, obec, kraj…

@@ -18,8 +18,8 @@ __POVRCH__
 - členité pobřeží, modelovány ledovcem – jezera, morény, fjordy
 - Jutský poloostrov – zarovnán ledovcem, nížinatý, nejvyšší bod má jen něco málo přes 100 m.n.m.
 - Island – mladý ostrov, vznikl na Středoatlantském hřbetu
-\- uprostřed ostrova je riftové údolí a dvě poloviny Islandu se od sebe oddělují
-\- vulkanicky aktivní, činné sopky
+- uprostřed ostrova je riftové údolí a dvě poloviny Islandu se od sebe oddělují
+- vulkanicky aktivní, činné sopky
 - Skandinávský poloostrov je hodně zalesněný
 - Island je úplně bez stromů
 - zachovalá příroda – cestovní ruch
@@ -61,14 +61,14 @@ __OBYVATELSTVO__
 - převládají luteráni (protestantské náboženství), poměrně hodně ateistů, tolerance k menšinám
 - rovnoprávné postavení žen (např. premiérka), vyspělé ekonomiky, bohaté státy, většinou levicová politika
 
-# ISLAND
+## ISLAND
 
 - hl. město Reykjavík, republika, islandština
 - ostrov v Atlantiku, geologicky mladý (čtvrtohory)
 - hornatý povrch, nížiny jen při pobřeží
 - díky umístění na rozhraní dvou tektonických desek, je ostrov vulkanicky aktivní oblastí (na Islandu najdeme 26 aktivních sopek, např. Hekla)
-\- sopky jsou i v okolí na mořském dně – vznikají zde malé ostrůvky
-\- nejaktivnější sopkou na Islandu je Grímsvötn
+- sopky jsou i v okolí na mořském dně – vznikají zde malé ostrůvky
+- nejaktivnější sopkou na Islandu je Grímsvötn
 - zisk geotermální energie pro vytápění
 - vznik velkého množství geotermálních pramenů
 - největší pevninský ledovec Vatnajökull
@@ -78,7 +78,7 @@ __OBYVATELSTVO__
 - nízká hustota zalidnění – většina obyvatel žije v hlavním městě nebo při pobřeží
 - odmítají vstoupit do EU, která by omezila lov ryb (asi 80% průmyslu tvoří lov a zpracování ryb)
 
-# NORSKO
+## NORSKO
 
 - hl. město Oslo, království, norština
 - Skandinávský poloostrov
@@ -97,14 +97,14 @@ __OBYVATELSTVO__
 - není členem EU – nechce omezení rybolovu
 - města: Oslo, Bergen, Trondheim
 
-# ŠVÉDSKO
+## ŠVÉDSKO
 
 - hl. město Stockholm, konstituční monarchie, švédština
 - Skandinávský poloostrov
 - území se dá rozdělit na 3 oblasti:
-\- sever – hornatý
-\- střed – pahorkatiny, kolem 90 000 jezer
-\- jih – nížina Smäland
+- sever – hornatý
+- střed – pahorkatiny, kolem 90 000 jezer
+- jih – nížina Smäland
 - ostrovy: Gotland, Öland
 - mírné oceánské klima ovlivněné Baltským mořem a Botnickým zálivem
 - podnebí oteplováno Golfským proudem
@@ -120,7 +120,7 @@ __OBYVATELSTVO__
 - většina obyvatel žije na jihu
 - města: Stockholm, Göteborg, Malmö, Uppsala
 
-# FINSKO
+## FINSKO
 
 - hl. město Helsinky, republika, finština a švédština
 - částečně Skandinávský poloostrov
@@ -135,7 +135,7 @@ __OBYVATELSTVO__
 - ugrofinské obyvatelstvo, uralské jazyky – Finové, Laponci
 - města: Helsinky, Tampera, Turku, Espoo
 
-# DÁNSKO
+## DÁNSKO
 
 - hl. město Kodaň, konstituční monarchie, dánština
 - Jutský poloostrov
@@ -152,7 +152,7 @@ __OBYVATELSTVO__
 - vysoká životní úroveň
 - města: Kodaň, Arhus
 
-POBALTÍ
+### POBALTÍ
 
 __STÁTY:__ Estonsko (Talinn), Litva (Vilnius), Lotyšsko (Riga)
 
@@ -195,7 +195,7 @@ __OBYVATELSTVO__
 - ugrofinské národy: Estonci + baltské národy: Lotyši, Litevci
 - 1991 vyhlášení samostatnosti na Sovětském svazu
 
-# LITVA
+## LITVA
 
 - hl. město Vilnius, republika, litevština
 - nedostatek NB, těžba dřeva a rašeliny
@@ -204,14 +204,14 @@ __OBYVATELSTVO__
 - 80% Litevců + Rusové
 - Moskva, aby zamezila aktivitám proti Sovětskému svazu, stěhovala Litevce za Ural
 
-# LOTYŠSKO
+## LOTYŠSKO
 
 - hl. město Riga, republika, lotyština
 - více zalesněno
 - baltské národy
 - rusifikace – obyvatelstvo: 60% Lotyši a 40% Rusové
 
-# ESTONSKO
+## ESTONSKO
 
 - hl. město Talinn, republika, estonština
 - nížiny, reliéf modelován ledovcem

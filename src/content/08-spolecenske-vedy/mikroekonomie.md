@@ -3,7 +3,7 @@ title: "Mikroekonomie"
 order: 7
 source: "Společenské vědy/7. MIKROEKONOMIE.docx"
 ---
-\- věda, která zkoumá dílčí ekonomické __subjekty__, které se setkávají na __trhu__:
+- věda, která zkoumá dílčí ekonomické __subjekty__, které se setkávají na __trhu__:
 
 __1\. Domácnosti__ \- vstupují na trh za uspokojením potřeby, kupujeme výrobky a služby
 
@@ -24,28 +24,28 @@ Faktory ovlivňující trh práce
 
 Členění trhu
 __1\. podle velikosti trhu__ \- __trh místní__ – trh malé geografické oblasti \(města, okres\)
-                                         \- __trh národní__ – trh na úrovni jednoho státního celku
-                                         \- __trh světový \(globální\)__ – trh vznikající propojením všech národních trhů
+                                         - __trh národní__ – trh na úrovni jednoho státního celku
+                                         - __trh světový \(globální\)__ – trh vznikající propojením všech národních trhů
 __2\. podle množství směnovaného zboží \- trh dílčí__ – obchoduje se na něm pouze s jedním druhem zboží
-                                                                       \- trh agregátní – je trhem veškerých druhů zboží
+                                                                       - trh agregátní – je trhem veškerých druhů zboží
 __3\. podle předmětu směny__ \- trhy __výrobních faktorů__ \(práce, půdy, kapitálu\)
-                                                \- trh __peněz__ \(finanční\)
-                                                \- trh __výrobků a služeb__ \(produktů\)
+                                                - trh __peněz__ \(finanční\)
+                                                - trh __výrobků a služeb__ \(produktů\)
 
 __SMĚNA__
-\- je to výměna __zboží__
+- je to výměna __zboží__
 __\- zboží__ = produkty \(statky a služby\) určené ke __směně__
-\- prostředníkem směny je __cena__
-\- __cena__ vyjadřuje __hodnotu__ zboží  pomocí __peněz__
+- prostředníkem směny je __cena__
+- __cena__ vyjadřuje __hodnotu__ zboží  pomocí __peněz__
 
 __NABÍDKA__
-\- je souhrn všech zamýšlených prodejů, se kterými přichází subjekty na trh při různých cenách
-\- tvoří ji hlavně výrobce, který přichází na trh své zboží nebo službu prodat za nějakou cenu, za
+- je souhrn všech zamýšlených prodejů, se kterými přichází subjekty na trh při různých cenách
+- tvoří ji hlavně výrobce, který přichází na trh své zboží nebo službu prodat za nějakou cenu, za
   účelem maximalizace svého zisku
 
  Zákon rostoucí nabídky\- s růstem ceny roste i nabízené množství
 
-<img src="/images/content/spolecenske-vedy/mikroekonomie/01.webp" alt="" width="333" loading="lazy" decoding="async">
+<img src="/images/content/spolecenske-vedy/mikroekonomie/01.webp" alt="Ilustrace: Mikroekonomie" width="333" loading="lazy" decoding="async">
 
 P
 
@@ -66,9 +66,9 @@ __2\. dílčí \(tržní\)__: nabídka jednoho zboží všemi ekonomickými subj
 __3\. agregátní \(celkovou\)__: nabídka všech druhů zboží od všech ekonomických subjektů
 
 POPTÁVKA
-\- je souhrn všeho zboží, které jsou zákazníci ochotni koupit za příslušnou cenu
+- je souhrn všeho zboží, které jsou zákazníci ochotni koupit za příslušnou cenu
 
-<img src="/images/content/spolecenske-vedy/mikroekonomie/02.webp" alt="" width="397" loading="lazy" decoding="async">
+<img src="/images/content/spolecenske-vedy/mikroekonomie/02.webp" alt="Ilustrace: Mikroekonomie" width="397" loading="lazy" decoding="async">
 
 **Zákon klesající poptávky** – růst cen vede k poklesu poptávaného zboží
 
@@ -87,13 +87,13 @@ __2\. dílčí__: poptávka po jenom druhu zboží všemi kupujícími
 __3\. agregátní__: poptávka po všech druzích zboží všemi kupujícími
 
 __ROVNOVÁŽNÝ STAV__
-\- prodá se vše, co se na trhu nabízí
+- prodá se vše, co se na trhu nabízí
 
 P
 
 p
 
-<img src="/images/content/spolecenske-vedy/mikroekonomie/03.webp" alt="" width="465" loading="lazy" decoding="async">
+<img src="/images/content/spolecenske-vedy/mikroekonomie/03.webp" alt="Ilustrace: Mikroekonomie" width="465" loading="lazy" decoding="async">
 
 E = rovnovážný stav
 
@@ -124,7 +124,7 @@ __\- externí__ – změna počtu obyvatel, válka, vynálezy
 **\- interní** – finanční politika státu
 
 STATKY
-\- veškeré předměty, které slouží k uspokojování potřeb\.
+- veškeré předměty, které slouží k uspokojování potřeb\.
 
 __Členění statků
 __Podle vzácnosti__
@@ -139,7 +139,7 @@ __3\.__ [__lhostejný__](https://cs.wikipedia.org/wiki/Lhostejn%C3%BD_statek) �
 SLUŽBY
 Je zvláštní druh statku, který nemá materializovanou podobu\. Služby se obvykle charakterizují jako nehmotné, neskladovatelné a nezkazitelné ekonomické statky\.
 
-Dělení
+## Dělení
 
 __1\. Věcné__ – zaměřené na obnovu statků – opravny, čistírny, …
 

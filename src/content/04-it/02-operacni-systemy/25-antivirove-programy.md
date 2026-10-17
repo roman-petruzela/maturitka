@@ -3,7 +3,7 @@ title: "Antivirové programy"
 order: 25
 source: "osy/antivirové programy.pdf"
 ---
-## Jednoúčelové antiviry
+### Jednoúčelové antiviry
 
 - internetové online skenery
 
@@ -13,7 +13,7 @@ source: "osy/antivirové programy.pdf"
 
 - kontrola integrity
 
-# Jednoúčelové antiviry
+## Jednoúčelové antiviry
 
 - programy na detekci, popřípadě odstranění  jednoho konkrétního viru, nebo malé skupiny virů
 
@@ -31,13 +31,13 @@ source: "osy/antivirové programy.pdf"
 
 - • <u>https://cs.safetydetectives.com/blog/nejlepsichonline-antivirovych-scanneru/</u>
 
-# Antivirové skenery
+## Antivirové skenery
 
-## On-demand
+### On-demand
 
 • on access (rezidentní ochrana)
 
-# On-demand skener
+## On-demand skener
 
 - skenuje (vyhledává) viry až po vydání požadavku uživatelem
 
@@ -45,7 +45,7 @@ source: "osy/antivirové programy.pdf"
 
 - lze spouštět i s pomocí plánovače (v určitém čase, po určité události)
 
-# On-access skener
+## On-access skener
 
 - neustále a automaticky vyhledává viry v datech (nejčastěji souborech), se kterými přijde uživatel do styku (rezidentní štít)
 
@@ -61,13 +61,13 @@ source: "osy/antivirové programy.pdf"
 
 - on-access skener ohlídá infikovaný soubor ještě před spuštěním (uložením), uživatel poté rozhodne jak s tímto souborem naloží
 
-# On-access skener
+## On-access skener
 
 - není doporučeno kombinovat on-access skenery více antivirových programů na jednom PC !!!
 
 - více on-access skenerů může způsobit pád systému, nebo neschopnost detekovat virus
 
-# Heuristická analýza
+## Heuristická analýza
 
 • rozbor kódu hledající postupy pro činnost virů typické, nebo podezřelé
 
@@ -75,7 +75,7 @@ source: "osy/antivirové programy.pdf"
 
 - • může způsobit i falešný poplach
 
-# Kontrola integrity
+## Kontrola integrity
 
 - je založena na porovnávání aktuálního stavu souborů a oblastí na disku s informacemi, které si kontrolní program uschoval při posledním spuštění
 

@@ -14,7 +14,7 @@ tags: ["mimo-seznam-cetby"]
 - Edgar se dostal do sirotčince odkud si ho vzala rodina Allanů (obchodníci s tabákem)
 - nějaký čas žili v Liverpoolu (Anglie se mu stala inspirací)
 - Edgar studoval literaturu na University of Virginia, kde však začal mít potíže s alkoholem a s hráčskými dluhy
-- Poe se ve finanční krizi zapsal na vojenskou akademii ve West Pointu -> propuštěn za nedisciplínu
+- Poe se ve finanční krizi zapsal na vojenskou akademii ve West Pointu → propuštěn za nedisciplínu
 - v r. 1833 první úspěch na literární soutěži
 - v r. 1835 se stal šéfredaktorem *Southern Literary Messenger*
 - Alkohol a drogy způsobovaly Poeovi intenzivní stavy [deprese](http://cs.wikipedia.org/wiki/Deprese_%28psychologie%29) a později i ztrátu zaměstnání. Roku 1845 uveřejnil rozsáhlou báseň Havran, který doslova ohromil tehdejší veřejnost

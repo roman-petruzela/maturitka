@@ -15,7 +15,7 @@ Literární druh a žánr: 	protiválečné drama – psychologická divadelní 
 
 Vypravěč:		forma scénáře, monology, dialogy, replika
 
-Postavy:	__Matka Dolores__ – silná a citlivá žena, je matka 5 synů, které miluje nadevše, 4 postupně zemřeli během války -> posledního syna úzkostlivě brání
+Postavy:	__Matka Dolores__ – silná a citlivá žena, je matka 5 synů, které miluje nadevše, 4 postupně zemřeli během války → posledního syna úzkostlivě brání
 
 __Otec Richard__ – manžel, umřel ve válce v Africe
 
@@ -49,9 +49,9 @@ O autorovi:
 - žurnalista, prozaik, dramatik, překladatel, kritik, esejista, cestovatel, psal knihy pro děti
 - znal se Masarykem (Hovory s TGM), oficiální autor; mluvčí Hradu
 - studoval gymnázium v Hradci Králové, po odhalení jím organizovaného protirakouského spolku
-- přešel do Brna => maturoval v Praze, potom FF UK (studoval – filozofii, estetiku, dějiny výtvarného
+- přešel do Brna ⇒ maturoval v Praze, potom FF UK (studoval – filozofii, estetiku, dějiny výtvarného
 - umění, germanistiku, anglistiku a bohemistiku)
-- po škole vychovatel => knihovník Národního muzea => do r. 1938 redaktor Národních listů a
+- po škole vychovatel ⇒ knihovník Národního muzea ⇒ do r. 1938 redaktor Národních listů a
 - Lidových novin, ve Vinohradském divadle 1921-23 jako dramaturg a režisér
 - zvolen prvním předsedou československého PEN klubu (celosvětové sdružení spisovatelů)
 - nenarukoval do 1. sv. v. z důvodu onemocnění vysychání míchy

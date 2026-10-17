@@ -4,9 +4,9 @@ order: 7
 source: "robotika1.pol/cv06_5xLED_potenciometr.pdf"
 ---
 
-# Podmínky
+## Podmínky
 
-## Porovnávací operátory
+### Porovnávací operátory
 
 - **A == B** : A je rovno B. Vrátí hodnotu **true** , pokud A má stejnou hodnotu jako B. Opravdu je nutné použít **==** (Zápis = slouží k přiřazení hodnoty do proměnné).
 
@@ -29,7 +29,7 @@ source: "robotika1.pol/cv06_5xLED_potenciometr.pdf"
 10 >= 5 //je pravda
 ```
 
-## Složené podmínky
+### Složené podmínky
 
 Používají se logické operátory pro spojení s jednoduchých podmínek.
 
@@ -51,7 +51,7 @@ Používají se logické operátory pro spojení s jednoduchých podmínek.
 !(false) //true
 ```
 
-## Jednoduchá podmínka
+### Jednoduchá podmínka
 
 ```
 //podminky s jednim prikazem
@@ -72,7 +72,7 @@ if(x > 120){
 }
 ```
 
-## Úplný podmínkový příkaz
+### Úplný podmínkový příkaz
 
 ```
 if (A >= 500){
@@ -83,7 +83,7 @@ else {
 }
 ```
 
-## Podmínka s více možnostmi
+### Podmínka s více možnostmi
 
 ```
 if (A >= 500){
@@ -94,7 +94,7 @@ else if ((A < 500) && (A > 200)){
 }
 ```
 
-## Přepínač
+### Přepínač
 
 ```
 switch (promenna){
@@ -111,9 +111,9 @@ default:
 
 **`/ pokud se hodnota promenne nerovna zadne z nabizenych moznosti,`** ∗ **`provede se tato cast /`** ∗ **`}`**
 
-# 2xLED a potenciometr
+## 2xLED a potenciometr
 
-## Budeme potřebovat
+### Budeme potřebovat
 
 1. Arduino Uno (nebo jinou desku).
 
@@ -129,13 +129,13 @@ default:
 
 7. Potenciometr – s lineárním průběhem (B10K)
 
-## Zapojení
+### Zapojení
 
 Dle obrázku:
 
 <img src="/images/content/it/robotika/5-led-a-potenciometr/01.webp" alt="Zapojení" width="386" loading="lazy" decoding="async">
 
-## Program
+### Program
 
 Do Arduino IDE vložíme kód programu a nahrajeme jej do Arduina:
 

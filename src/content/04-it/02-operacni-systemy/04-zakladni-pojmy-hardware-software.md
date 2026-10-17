@@ -3,19 +3,19 @@ title: "Základní pojmy (hardware, software)"
 order: 4
 source: "osy/základní_pojmy.docx"
 ---
-## Hardware
+### Hardware
 
 hmotné vybavení počítače
 
-## Software
+### Software
 
 programové vybavení počítače
 
-### Systémový software
+#### Systémový software
 
 umožňuje efektivní využívání počítače – operační systémy, firmware, pomocné programy (utility), ovladače (drivery)
 
-### Aplikační software
+#### Aplikační software
 
 umožňuje vykonávat nějakou užitečnou činnost
 
@@ -33,15 +33,15 @@ umožňuje vykonávat nějakou užitečnou činnost
 - programy pro 3D modelování
 - komprimační programy (ztrátová a bezztrátová komprese)
 
-## Adresář (složka)
+### Adresář (složka)
 
 organizační jednotka, která slouží ke sdružování souborů a dalších adresářů (podsložek) tak, aby si je uživatel mohl logicky uspořádat
 
-## Soubor
+### Soubor
 
 pojmenovaná sada dat, se kterou lze pracovat jako s jedním celkem
 
-## Atributy souborů
+### Atributy souborů
 
 - jméno
 - velikost
@@ -49,7 +49,7 @@ pojmenovaná sada dat, se kterou lze pracovat jako s jedním celkem
 - časové informace
 - přístupová oprávnění
 
-## Základní jednotky pro uložení dat v počítači
+### Základní jednotky pro uložení dat v počítači
 
 Základní jednotkou pro uložení dat v počítači je 1 bit (značíme 1 b).
 
@@ -65,7 +65,7 @@ Základní jednotkou pro uložení dat v počítači je 1 bit (značíme 1 b).
 
 Další jednotkou je 1 bajt (značíme 1 B). 1 B = 8 b!
 
-## Přehled násobných jednotek
+### Přehled násobných jednotek
 
 Rozlišujeme dvě soustavy násobných jednotek — desítkovou (SI, používanou např. pro přenosovou rychlost) a dvojkovou (binární, používanou pro skutečnou kapacitu paměti, protože ta je fyzicky organizovaná v mocninách dvou):
 
@@ -78,7 +78,7 @@ Rozlišujeme dvě soustavy násobných jednotek — desítkovou (SI, používano
 
 Rozdíl mezi kB a KiB je malý, ale s rostoucí velikostí se kumuluje — 1 TB (10¹² B) je asi o 10 % méně dat než 1 TiB (2⁴⁰ B), což je i důvod, proč výrobci pevných disků (počítající v kB, MB, GB) a operační systémy (počítající v KiB, MiB, GiB) uvádí u téhož disku různou kapacitu.
 
-# Úkoly
+## Úkoly
 
 1. Vyjmenujte alespoň 5 operačních systémů.
 2. Jaký je rozdíl mezi operačním systémem a firmwarem?

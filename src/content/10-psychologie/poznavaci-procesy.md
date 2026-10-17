@@ -2,7 +2,7 @@
 title: "Poznávací procesy"
 source: "PSYCHOLOGIE/POZNÁVACÍ-PROCESY.docx"
 ---
-1. __Poznávací procesy__
+#### 1. Poznávací procesy
 
 - Čití a vnímání
 - Myšlení a řeč, myšlenkové operace
@@ -94,13 +94,13 @@ __MYŠLENÍ__
 
 __Druhy myšlení__
 
-1. __Konvergentní myšlení__
+#### 2. Konvergentní myšlení
 
 - Sbíhavé myšlení
 - Uplatňuje se při úkolech, které mají jediné možné řešení
 - Př. Matematická úloha
 
-1. __Divergentní myšlení__
+#### 3. Divergentní myšlení
 
 - Rozbíhaví myšlení
 - Uplatňuje se při úkolech, které mohou mít několik řešení
@@ -237,13 +237,13 @@ __Náhodné a řízené učení__
 
 - Rozlišujeme podle toho, zda je učení __naplánované__ (chci se něco naučit, protože musím, protože chci) nebo __bezděčné__ (něco se naučím, aniž bych tomu věnoval úsilí)
 
-1. __Náhodné učení__
+### 4. Náhodné učení
 
 - Je neúmyslné, neplánované, bezděčné
 - Může se jednat o informaci, která je emočně významná
 - Může se jednat o informaci, která je netradiční, hodně zajímavá, jedinečná (např. „drby“ a zajímavosti o lidech z historie – dějepis / o autorech literárních děl nebo jejich životě – ČJ)
 
-1. __Řízené učení__
+### 5. Řízené učení
 
 - Typické pro vyučování ve škole
 - Někdo řídí, plánuje, určuje metody, formy, tempo učení
@@ -252,7 +252,7 @@ __Náhodné a řízené učení__
 
 __Mechanické a logické učení__
 
-1. __Mechanické učení__
+### 6. Mechanické učení
 
 - Memorování, učení nazpaměť
 - Nemůžeme využit logické souvislosti
@@ -260,7 +260,7 @@ __Mechanické a logické učení__
 - Učíme se takto např. násobilku, vyjmenovaná slova, chemické značky, historická data, slovíčka
 - Uplatnit zde můžeme mnemotechnické pomůcky (Např.: ŠE/TŘI/SE/OSLE – poloměr země 6378km)
 
-1. __Logické učení__
+### 7. Logické učení
 
 - Učení se logickým souvislostem (__nejde__ o pouhé učení nazpaměť)
 - Důležité je pochopení učební látky, vysvětlení látky vlastními slovy
@@ -287,14 +287,14 @@ __Fáze paměti__
 - Může být __záměrné__ (volní) – informaci, jev, situaci si __chceme__ zapamatovat, vynaložíme úsilí (např. učební látka),
 - __Kvalita osvojení –__ informaci je potřeba __několikrát zopakovat__, je potřeba vnímat souvislosti, nelze se jen memorovat zpaměti
 
-1. __Uchování (retence)__
+### 8. Uchování (retence)
 
 - Proces podržení nebo uchování zakódované informace v paměti po různě dlouhé časové údobí
 - Některé vjemy zaznamenáme a po krátké chvíli je „vypouštíme“ (prošel kolem mě pán se psem)
 - Některé vjemy uchováváme v paměti po celý život (prošel kolem mě pás se psem, psem mě pokousal a já mám jizvu na pravé ruce)
 - Pro tuto fázi je typické __zapomínání__– dochází ke změnám zapamatovaného, změny se týkají kvality, struktury, pohotovosti
 
-1. __Vybavení (reprodukce)__
+### 9. Vybavení (reprodukce)
 
 - Vyhledání informace v dlouhodobé paměti a její vyvolání zpět do vědomí
 - Může být bezděčné (spontánní) nebo záměrné (volní)

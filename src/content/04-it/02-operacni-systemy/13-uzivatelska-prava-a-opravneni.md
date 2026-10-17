@@ -7,7 +7,7 @@ Pod souhrnným označením oprávnění si většina uživatelů představí sad
 
 Naproti tomu **právo** ( **right** ) dovoluje provést některou systémovou akci – přidat nového uživatele, změnit nastavení plochy, určit systémové datum apod. V českých Windows nemusí být rozdíl při různých výstrahách nebo upozorněních natolik markantní, pokud byste však používali anglickou verzi, zjistíte, že právě termíny **permission** a **right** nejsou používány jen tak náhodně, je mezi nimi rozlišováno. My budeme **práva (right** ) a **oprávnění (permission)** také rozlišovat.
 
-# Uživatelská práva ve Windows 10
+## Uživatelská práva ve Windows 10
 
 Uživatelská práva najdeme _Ovládací Panely – Nástroje pro správu – Místní zásady Zabezpečení – Místní Zásady – Přiřazení uživatelských práv_
 
@@ -15,7 +15,7 @@ Zde vidíme, jaká práva jsou přidělena jednotlivým uživatelským skupinám
 
 S přidělováním uživatelských práv a jejich odebíráním budeme postupovat opatrně.
 
-# Vestavěné systémové skupiny
+## Vestavěné systémové skupiny
 
 Vestavěné systémové skupiny nemůžeme nijak upravovat, existují automaticky a uživatelé se do nich zařazují podle daných pravidel. Mezi důležité systémové skupiny patří:
 
@@ -33,7 +33,7 @@ V zeleném rámečku vidím, že můj účet není jen ve skupině Administrator
 
 V červeném rámečku je jen pro zajímavost SID (Security Identifier), což je hodnota pod kterou má operační systém uložený můj uživatelský účet. Operační systém mě tedy nemá uloženého jako spravce, ale pod mým SID.
 
-# Oprávnění pro přístup k souborům a složkám
+## Oprávnění pro přístup k souborům a složkám
 
 Oprávnění pro přístup k souborům a složkám nefunguje v souborovém systému FAT32! Pokud je chceme využívat musíme použít souborový systém NTFS (ten v dnešní době najdeme na drtivé většině diskových svazků používaných v operačních systémech Windows).
 

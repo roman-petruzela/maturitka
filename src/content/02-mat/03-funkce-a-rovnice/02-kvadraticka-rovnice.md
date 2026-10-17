@@ -11,8 +11,6 @@ hasExercises: true
 
 a) pojem kvadratická rovnice, b) rozdělení kvadratických rovnic, c) způsoby řešení, d) ukázkové příklady, e) příklady na procvičení včetně řešení.
 
-## Kvadratická rovnice
-
 Kvadratickou rovnicí s neznámou $x$ nazýváme každou rovnici v obecném tvaru $ax^2 + bx + c = 0$, kde koeficienty $a, b, c \in \mathbb{R}$ a $a \neq 0$.
 
 - $ax^2$ — kvadratický člen

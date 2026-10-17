@@ -46,7 +46,7 @@ __Komplexní produkt__
 
 - teorie  vychází z moderních ﬁlosoﬁí podnikání, tzn.: jde o to uspokojit najednou co nejvíce a nejlépe zákazníkových potřeb
 
-<img src="/images/content/ekonomika/ekonomie/marketingovy-mix/01.webp" alt="" width="605" loading="lazy" decoding="async">
+<img src="/images/content/ekonomika/ekonomie/marketingovy-mix/01.webp" alt="Ilustrace: GRAF" width="605" loading="lazy" decoding="async">
 
 __Další příklad:__
 
@@ -152,7 +152,7 @@ __Promotion__
 1. emocionálně
 
 - působení prostřednictvím pocitů
-- příjemné (zvířecí mláďata, krásná těla, humor/nepříjemné ( -> úleva )
+- příjemné (zvířecí mláďata, krásná těla, humor/nepříjemné ( → úleva )
 - funkce reklamy
 
 1. informační

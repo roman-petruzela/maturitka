@@ -2,7 +2,7 @@
 title: "Asertivita"
 source: "PSYCHOLOGIE/ASERTIVITA.docx"
 ---
-1. __Asertivita__
+## 1. Asertivita
 
 - Znaky asertivity, asertivní práce, agresivita, pasivita, manipulace
 - Konflikt a jeho řešení, druhy konfliktů
@@ -76,7 +76,7 @@ __Co je potřeba umět__
 
 __ASERTIVNÍ TECHNIKY__
 
-1. __Ohraná / poškrábaná gramofonová deska__
+## 2. Ohraná / poškrábaná gramofonová deska
 
 - Mechanické, trvalé opakování požadavků bez útoku na druhou osobu, bez rozrušení úzkosti, agresivity, ale __bez ústupků__
 - Lze ji uplatnit např\. při snaze nenechat se zmanipulovat, prosadit oprávněný nárok, odmítnutí neoprávněných požadavků
@@ -88,7 +88,7 @@ __ASERTIVNÍ TECHNIKY__
 - Odpovědi bývají stručné, útoky se přehlížejí, vyhýbáme se neklidu, ironii, sarkasmu
 - Uplatňuje se při neoprávněné kritice
 
-1. __Souhlas s oprávněnou kritikou__
+## 3. Souhlas s oprávněnou kritikou
 
 - Kritiku přijímáme bez depresivních pocitů
 - Doporučuje se zaměření na nápravu nebo zlepšení toho co je kritizováno
@@ -108,13 +108,13 @@ __ASERTIVNÍ TECHNIKY__
 - V závěru jsou uspokojeny obě strany, obě strany souhlasí s navrženým řešením
 - Vyžaduje: umění naslouchat, respektovat
 
-1. __Sebeotevření__
+## 4. Sebeotevření
 
 - Technika, která nás učí se zbavit studu, ozvat, mluvit za sebe i o sobě, vyjádřit nesouhlas, zvládnout trému
 - Učíme se říct „To se mi nelíbí“ / „Ne“ , učíme se více používat slovo „Já“ \(neschovávat se za „My“\)
 - Učíme se jednat spontánně, improvizovat
 
-1. __Zvládnutí negativní asertivity__
+## 5. Zvládnutí negativní asertivity
 
 - Technika zaměřená na to, jak zvládat vlastní omyly, chyby a nedostatky
 - Za nedostatky se nemusíme stydět – nikdo není dokonalý

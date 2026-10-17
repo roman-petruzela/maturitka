@@ -4,12 +4,11 @@ order: 10
 source: "Společenské vědy/10. FINANCE A PODNIKANI.docx"
 ---
 __FISKÁLNÍ POLITIKA__
-\- rozpočtová politika
-
-\- součást hospodářské politiky státu, která se snaží ovlivnit vývoj [ekonomiky](https://cs.wikipedia.org/wiki/Ekonomika) změnami výše
+- rozpočtová politika
+- součást hospodářské politiky státu, která se snaží ovlivnit vývoj [ekonomiky](https://cs.wikipedia.org/wiki/Ekonomika) změnami výše
   a [struktury](https://cs.wikipedia.org/wiki/Struktura) [veřejných výdajů](https://cs.wikipedia.org/wiki/Ve%C5%99ejn%C3%A9_v%C3%BDdaje) a [daní](https://cs.wikipedia.org/wiki/Dan%C4%9B)
 
-Dělíme
+## Dělíme
 
 __1\. Expanzivní fiskální__ \- Veřejné výdaje jsou větší než vybrané daně, takže vzniká schodek \(deficit\)
                                          státního rozpočtu, čímž roste státní dluh\.
@@ -45,10 +44,10 @@ __5\.__ [**Vládní výdaje**](https://cs.wikipedia.org/wiki/Vl%C3%A1dn%C3%AD_v%
 
 __DANĚ__
 
-\- Tvoří významnou část příjmu státního rozpočtu a jsou tedy významným nástrojem ovlivňování
+- Tvoří významnou část příjmu státního rozpočtu a jsou tedy významným nástrojem ovlivňování
   ekonomiky státem\.
 
-\- Zákonem stanovená platba vybírána od občanů a firem ve prospěch veřejného rozpočtu\. Je povinná,
+- Zákonem stanovená platba vybírána od občanů a firem ve prospěch veřejného rozpočtu\. Je povinná,
   neúčelová a neekvivalentní
 
 Daňová soustava
@@ -56,7 +55,7 @@ Daňová soustava
 __1\. Daň z příjmů FO a PO__ \- platí se z platu/mzdy \(fyz\. 15%, právnické os\. 19%\)
 
 __2\. DPH__ \- daň z marže\(přirážky\)
-             \- 21% základní DPH, 15% 1\.snížená \(Knihy, zdravotnické potřeby, určitá farmaka\), 10%
+             - 21% základní DPH, 15% 1\.snížená \(Knihy, zdravotnické potřeby, určitá farmaka\), 10%
                2\.snížená\(kojenecká výživa, určitá farmaka, i určité pečivo\)
 
 __3\. Daně spotřební__ – Z lihu, vína, piva, min\. olejů, tabáků\. Platí spotřebitelé
@@ -68,7 +67,7 @@ __5\. Daň z nemovitosti__ – vlastníci pozemků, staveb
 
 __6\. Daň z nabytí nemovitých věcí__ – při prodeji nebo jiném úplatném převodu nemovitostí\.
 
-Dělíme
+## Dělíme
 
 __1\. Přímé__ – placené přímo FO a PO\. Osoby poplatníka \(toho, jehož příjmy či majetek jsou daní
                     zatíženy\) a plátce \(ten, kdo daň skutečně odvádí\) jsou stejné\.
@@ -90,16 +89,15 @@ __OBCHODNÍ PRÁVO__
 __=__ je souhrn právních norem upravujících postavení podnikatelů, obchodní závazkové vztahy a další vztahy
    související s podnikáním
 
-\- __Obchodní zákoník__ \- obsahuje ustanovení o podnikatelích a jejich podnikání, o obchodních společnostech,
+- __Obchodní zákoník__ \- obsahuje ustanovení o podnikatelích a jejich podnikání, o obchodních společnostech,
                                        o družstvu a obchodních závazkových vztazích\. Obchodní právo patří do soukromého
                                        práva, kde vzniklo vyčleněním z občanského práva\.
 
-\- Podnikání je soustavná činnost provozovaná samostatně podnikatelem a na vlastní odpovědnost\.
-
-\- Oprávněnými podnikateli v ČR jsou osoby tuzemské i zahraniční, fyzické i právnické, které jsou zapsány
+- Podnikání je soustavná činnost provozovaná samostatně podnikatelem a na vlastní odpovědnost\.
+- Oprávněnými podnikateli v ČR jsou osoby tuzemské i zahraniční, fyzické i právnické, které jsou zapsány
   buď v obchodním rejstříku nebo živnostenském rejstříku nebo v jiné evidenci
 
-Subjekty obchodního práva
+## Subjekty obchodního práva
 
 __1\. Podnikatelé__
 
@@ -110,22 +108,22 @@ __3\. Občané \(nepodnikatelé\)__ – výjimečně, např\. při nekalé sout�
                                                       stejná práva jako podnikatel
 
 __OBCHODNÍ REJSTŘÍK__
-\- vedou pověřené soudy a zapisují do něj obchodní společnosti, družstva, jiné právnické osoby, o nichž to
+- vedou pověřené soudy a zapisují do něj obchodní společnosti, družstva, jiné právnické osoby, o nichž to
    stanoví zákon \(st\. podniky\) a zahraniční podnikatele
 
 Každý zapsaný podnikatel má v obchodním rejstříku
 
 __Obchodní jméno__ \- u fyzické osoby  – jméno a příjmení, př\. Jan Novák, švec
-                              \- u právnické osoby název, pod kterým jsou zapsány v obchodním rejstříku, př\. ADRIA, s\.r\.o\.
+                              - u právnické osoby název, pod kterým jsou zapsány v obchodním rejstříku, př\. ADRIA, s\.r\.o\.
 
 __Sídlo, IČ, Předmět podnikání__
 
 __FYZICKÁ OSOBA__
-\- jedná osobně nebo prostřednictvím zplnomocněného zástupce
+- jedná osobně nebo prostřednictvím zplnomocněného zástupce
 
 __PRÁVNICKÁ OSOBA__
-\- za ní jedná její statutární orgán nebo zástupce
-\- zástupcem s nejrozsáhlejší plnou mocí je __prokurista\.__
+- za ní jedná její statutární orgán nebo zástupce
+- zástupcem s nejrozsáhlejší plnou mocí je __prokurista\.__
 
 PODNIK
 = soubor všech hmotných i nehmotných složek podnikání patřících podnikateli a určených k jeho
@@ -134,13 +132,13 @@ PODNIK
 
 __OBCHODNÍ TAJEMSTVÍ__
 
-\- veškeré skutečnosti obchodní, výrobní či technické povahy související s podnikem, které mají skutečnou
+- veškeré skutečnosti obchodní, výrobní či technické povahy související s podnikem, které mají skutečnou
   nebo alespoň potenciální materiální či nemateriální hodnou\. Jde o skutečnosti, které nesmí být
   v obchodních kruzích běžně dostupné\.
 
 __SOUTĚŽNÍ PRÁVO__
 
-\- norem, které mají zajistit, aby všichni podnikatelé měli pro svoje podnikání stejné podmínky
+- norem, které mají zajistit, aby všichni podnikatelé měli pro svoje podnikání stejné podmínky
 
 __1\. Protimonopolní právo__
 
@@ -152,7 +150,7 @@ Protiprávní formy omezující hospodářskou soutěž
 2. Spojování podniků \(fúze\)\.
 3. Nabytí monopolního nebo dominantního postavení na trhu\.
 
-Nekalá soutěž
+## Nekalá soutěž
 
 Jednání v hospodářské soutěži, které odporuje dobrým mravům soutěže a je způsobilé přivodit újmu jiným účastníkům soutěže nebo spotřebitelům\.
 
@@ -167,20 +165,16 @@ Jednání v hospodářské soutěži, které odporuje dobrým mravům soutěže
 
 __OBCHODNÍ SPOLEČNOSTI, JEJICH ZALOŽENÍ A VZNIK__
 
-\- Obchodní společnosti jsou právnickými osobami založenými za účelem podnikání\.
+- Obchodní společnosti jsou právnickými osobami založenými za účelem podnikání\.
 
 
 Společnosti osobní
 
-\- společník je povinen pro společnost osobně pracovat\.
-
-\- ke zřízení společnosti není nutný žádný majetkový vklad, není předepsáno základní jmění\.
-
-\- ručení společníků za závazky společnosti je neomezené\.
-
-\- společnost nezřizuje žádné orgány, k jejímu řízení jsou oprávněni všichni společníci
-
-\- společník může dát jednostranně výpověď ze společnosti, vede to však ke zrušení celé společnosti
+- společník je povinen pro společnost osobně pracovat\.
+- ke zřízení společnosti není nutný žádný majetkový vklad, není předepsáno základní jmění\.
+- ručení společníků za závazky společnosti je neomezené\.
+- společnost nezřizuje žádné orgány, k jejímu řízení jsou oprávněni všichni společníci
+- společník může dát jednostranně výpověď ze společnosti, vede to však ke zrušení celé společnosti
   \(obdobně i smrt společníka\)\.
 
 __1\. Veřejná obchodní společnost__
@@ -190,7 +184,7 @@ __2\. Komanditní společnost__
 
 Společnosti kapitálové
 
-\- nutno složit určité základní jmění, jehož minimální výši předepisuje zákon\. Společnost je povinna zřídit
+- nutno složit určité základní jmění, jehož minimální výši předepisuje zákon\. Společnost je povinna zřídit
   zákonem předepsané orgány\. Ukončení účasti prodejem svého podílu
 
 __1\. Společnost s ručením omezeným__
@@ -199,19 +193,19 @@ __2\. Akciová společnost__
 
 Družstvo
 
-\- společenství neuzavřeného počtu osob založené za účelem podnikání nebo zajišťování hospod\., sociálních
+- společenství neuzavřeného počtu osob založené za účelem podnikání nebo zajišťování hospod\., sociálních
   či jiných potřeb členů\. Min\. 5členů nebo alespoň dvě právnické osoby\.
 
 __ŽIVNOSTENSKÉ PRÁVO
 = __je__ soubor právních předpisů o živnostenském podnikání__ \(objektivní právo\)a oprávnění k provozování
    živnosti, náležející osobě, která splňuje zákonem stanovené podmínky \(subjektivní právo\)\.
 
-\- objektivní živnostenské právo jsou __normy patřící do oblasti veřejného práva__\. Pokud živnostenské právo
+- objektivní živnostenské právo jsou __normy patřící do oblasti veřejného práva__\. Pokud živnostenské právo
   není považováno za samostatné právní odvětví, je __součástí správního práva__\.
 
 __ŽIVNOSTI__
 
-\- __živnost__ je __soustavná činnost__, kterou na základě živnostenského oprávnění __provozuje fyzická nebo
+- __živnost__ je __soustavná činnost__, kterou na základě živnostenského oprávnění __provozuje fyzická nebo
   právnická osoba __na vlastní odpovědnost__ za účelem dosažení zisku__\.
 
 Z hlediska předmětu podnikání se živnosti rozlišují na:
@@ -222,12 +216,12 @@ __b\) výrobní__ \(výrobce je oprávněn výrobky i prodávat a opravovat\)
 
 __c\) poskytující služby__ \(opravy a úpravy věcí, přeprava osob a zboží\)
 
-\- Podle forem živnostenského oprávnění se rozlišují __živnosti ohlašovací__ a __koncesované__\. Ohlašovací živnosti
+- Podle forem živnostenského oprávnění se rozlišují __živnosti ohlašovací__ a __koncesované__\. Ohlašovací živnosti
   jsou rozděleny podle podmínek provozování na __řemeslné__, vázané a __volné__\.
 
-Ohlašovací živnosti
+## Ohlašovací živnosti
 
-\- mohou provozovat osoby, které na základě ohlášení obdrží __živnostenský list__
+- mohou provozovat osoby, které na základě ohlášení obdrží __živnostenský list__
 
 __a\) řemeslné__ – podmínkou provozování je odborná způsobilost, získaná vyučením v oboru a praxí
 
@@ -237,9 +231,9 @@ __c\) volné__ – odborná způsobilost není podmínkou provozování
 
 Koncesované živnosti *
 
-\- mohou provozovat osoby, které na základě žádosti obdrží __koncesní listinu__
+- mohou provozovat osoby, které na základě žádosti obdrží __koncesní listinu__
 
-Podmínky provozování živností
+## Podmínky provozování živností
 
 __1\.__ __Všeobecné__ \(musí je splňovat každý podnikatel\) – dosažení 18 let, způsobilost k právním úkonům,
                           bezúhonnost, předložení dokladu o tom, že nemá daňové nedoplatky
@@ -247,10 +241,10 @@ __1\.__ __Všeobecné__ \(musí je splňovat každý podnikatel\) – dosažení
 __2\.__ __Zvláštní__ – odborná nebo jiná způsobilost a další požadavky týkající se provozování živností\. Zvláštní
                        podmínky a požadavky se u jednotlivých druhů živností liší\.
 
-\- jestliže provozuje živnost právnická osoba, její odpovědný zástupce musí splňovat všeobecné i zvláštní
+- jestliže provozuje živnost právnická osoba, její odpovědný zástupce musí splňovat všeobecné i zvláštní
   podmínky\.
 
-\- jeden podnikatel může provozovat více živností, má\-li pro každou živnostenské oprávnění\.
+- jeden podnikatel může provozovat více živností, má\-li pro každou živnostenské oprávnění\.
 
 Kdy podnikatel nemůže provozovat živnost?
 
@@ -271,32 +265,32 @@ __\-__ Jestliže tomu brání překážka uvedená v zákoně\. Př\. soudem ul
     nebo nedodržuje podmínky provozování živnosti\.
 
 __FINANČNÍ PRÁVO__
-\- normy, které upravují finančně právní vztahy, tj\. vztahy získávání, shromažďování a upotřebení
+- normy, které upravují finančně právní vztahy, tj\. vztahy získávání, shromažďování a upotřebení
   finančních prostředků, pokud se jich účastní stát \(daňové, rozpočtové, burzovní, bankovní\)
 
-\- neexistuje soubor norem
-\- finanční právo je zastupováno finančním úřadem
-\- Finanční úřad \- zabývá se daněmi a poplatky \( za psy, odpadky\)
-                            \- řeší příjmovou část státního rozpočtu, ale i výdajové přerozdělení a užívání
+- neexistuje soubor norem
+- finanční právo je zastupováno finančním úřadem
+- Finanční úřad \- zabývá se daněmi a poplatky \( za psy, odpadky\)
+                            - řeší příjmovou část státního rozpočtu, ale i výdajové přerozdělení a užívání
                               finančních prostředků
-                            \- řeší finanční hospodaření podnikatelských subjektů
-\- obsahuje normy \- daňová soustava, soustava cel, peněžní oběh, burza, pojistné vztahy v CNB
+                            - řeší finanční hospodaření podnikatelských subjektů
+- obsahuje normy \- daňová soustava, soustava cel, peněžní oběh, burza, pojistné vztahy v CNB
 
 DAŇOVÁ SOUSTAVA
 = nástroj, který ovlivňuje ekonomiku\. Je součástí fiskální ek\. státu\.
 
 Daně
 = jediné jisté příjmy do státního rozpočtu
-\- Funkce daní: __1\. motivující__ \- daňové prázdniny, menší daně
+- Funkce daní: __1\. motivující__ \- daňové prázdniny, menší daně
 	            __2\. demotivující__ \- zvýšení daní
 = povinné a v některých případech nenávratné platby, které platí občan nebo podnik do státního
    rozpočtu ve stanovené výši
-\- __Plátce daně__ \- každý, který odvádí daň státu
-\- __Poplatník daně__ \- ten, který je daní zatížen – při koupi nějakého zboží
-\- Dělení: __1\. Přímá__ \- jsou daně placené přímo fyzickými a právnickými osobami\. Jedná se zejména o
+- __Plátce daně__ \- každý, který odvádí daň státu
+- __Poplatník daně__ \- ten, který je daní zatížen – při koupi nějakého zboží
+- Dělení: __1\. Přímá__ \- jsou daně placené přímo fyzickými a právnickými osobami\. Jedná se zejména o
                                   daně z příjmu \(důchodové\), jež mají větší význam, daně z majetku a dědické daně   	  __2\. nepřímá__ \- jsou daně připočítané k cenám zboží a služeb\. Do státního rozpočtu je odvádějí
                                        prodávající\. Jde o daň z přidané hodnoty \(DPH\) a spotřební daně\.
-\- __Druhy daní__ \- daň z přidané hodnoty, daň z příjmu, spotřební daň, daň z nemovitostí, silniční daň,
+- __Druhy daní__ \- daň z přidané hodnoty, daň z příjmu, spotřební daň, daň z nemovitostí, silniční daň,
                           dědická daň, darovací daň …\.viz MO 4
 
 __PENĚŽNÍ OBĚH__ = je pohyb [peněz](http://cs.wikipedia.org/wiki/Pen%C3%ADze) ve funkci oběživa a platidla \(koloběh peněž ve formě [bankovek](http://cs.wikipedia.org/wiki/Bankovka) a
@@ -320,7 +314,7 @@ __1\. Komerční__\(Obchodní\) – Komerční banka, ČSOB, AirBank,\.\.
 \-operuje na trhu, vede účty veřejných institucí, NEZÁVISLÁ INSTITUCE
 
 CENNÉ PAPÍRY
-\- Jako záznam finančního vztahu plní mnoho funkcí, některé jsou schopny nahrazovat peníze\. Na
+- Jako záznam finančního vztahu plní mnoho funkcí, některé jsou schopny nahrazovat peníze\. Na
   základě práva ztělesněného v cenném papíru rozlišujeme:
 __1\. Zbožové cenné papíry__ – udávají, komu patří určité zboží a kdo má právo s ním disponovat,
                                                  dokládají tedy právo na majetek – lodní či skladní listy
@@ -328,25 +322,25 @@ __2\.__ Cenné papíry peněžního trhu \- krátkodobé pohledávky \(splatnost
                                                              pokladniční poukázky ČNB, státní pokladniční poukázky vydávané
                                                              Ministerstvem financí a depozitní certifikáty vydávané komerčními
                                                              bankami
-                                                            \- Směnka \- potvrzení závazku
-                                                                              \- Rozdělujeme: 1\. Vlastní – výstavce se v nich zavazuje, že
+                                                            - Směnka \- potvrzení závazku
+                                                                              - Rozdělujeme: 1\. Vlastní – výstavce se v nich zavazuje, že
                                                                                                                                sám zaplatí uvedenou částku	                                                                                            2\. Cizí – výstavce v nich přikazuje, aby
                                                                                                                          3\. osoba zaplatila místo něho
-                                                            \- Šek – výstavce dává šekem příkaz své bance\(příp\.někomu jinému\),
+                                                            - Šek – výstavce dává šekem příkaz své bance\(příp\.někomu jinému\),
                                                                          aby zaplatila osobě, která šek předkládá, finanční částku na
                                                                           něm uvedenou
 3\. Cenné papíry kapitálového trhu – mají platnost delší než jeden rok a buď představují právo na část
                                                                    majetku vystavovatele \(CP majetkové – akcie, podílové listy\)
                                                                    nebo finanční dluh \(CP úvěrové – dluhopisy, hypoteční listy\)
-                                                                 \- Dluhopisy – potvrzují závazek dlužníka vůči věriteli \(příslib, že
+                                                                 - Dluhopisy – potvrzují závazek dlužníka vůči věriteli \(příslib, že
                                                                                           dluh bude ve stanoveném termíno splacen včetně
                                                                                           výnosu, který je určen tzv\. kuponem\)
-                                                                                        \- Dělíme: Státní, komunální, bankovní, podnikové
-                                                                 \- Akcie – opravňuje jejího vlastníka \(akcionáře\) vykonávat práva
+                                                                                        - Dělíme: Státní, komunální, bankovní, podnikové
+                                                                 - Akcie – opravňuje jejího vlastníka \(akcionáře\) vykonávat práva
                                                                                  společníka akciové společnosti \(hlasovat\) a podílet se na
                                                                                  majetkových právech \(mít podíl na zisku v podobě tzv\.
                                                                                  dividendy nebo podíl na likvidační zůstatku společnosti\)
-                                                                               \- Dělíme: kmenové – nejsou s nimi spojena zvláštní práva
+                                                                               - Dělíme: kmenové – nejsou s nimi spojena zvláštní práva
                                                                                                 Prioritní – s přednostními právy týkajícími se
                                                                                                                    podílu na zisku
 
@@ -354,17 +348,16 @@ CP se na finančním trhu vyskytují ve dvou formách:
 1\. Listinné – mají fyzickou podobu
 2\. Zaknihované – jen v elektronické podobě, jsou vedeny na účtech v Centrálním depozitáři CP
 
-PENÍZE A JEJICH FUNKCE
+## PENÍZE A JEJICH FUNKCE
 
-\- Jsou zvláštním druhem ekonomického statku, který je všeobecně přijímán např\. pro placení zboží
+- Jsou zvláštním druhem ekonomického statku, který je všeobecně přijímán např\. pro placení zboží
   služeb, mzdy nebo při úhradě dluhu
 
-\- Vznik peněz vytvořil podmínky nahrazení barteru \(směny jednoho statku za druhý\)
-
-\- Historický vývoj – od komodit \(mušle,plátno,dobytek\) přes drahé kovy až k papírovým a depozitním
+- Vznik peněz vytvořil podmínky nahrazení barteru \(směny jednoho statku za druhý\)
+- Historický vývoj – od komodit \(mušle,plátno,dobytek\) přes drahé kovy až k papírovým a depozitním
                                    penězům, které představuji hlavně vklady na účtech bank
 
-Rozlišujeme hodnotu
+## Rozlišujeme hodnotu
 
 1\. nominální – mají na sobě vytištěnou – 1kč je 1
 
@@ -405,15 +398,14 @@ Hotovostní – bankovky, mince tzv\. běživo
 
 Bezhotovostní – zápisy na bankovních účtech, tzv\. depozita
 
-ÚVĚR
+## ÚVĚR
 
-\- Dočasné poskytnutí peněžních prostředků dlužníkovi \(úvěrovanému\), který se zavazuje příslušný
+- Dočasné poskytnutí peněžních prostředků dlužníkovi \(úvěrovanému\), který se zavazuje příslušný
   obnos ve sjednané době vrátit a zaplatit věřiteli \(úvěrujícímu\) úroky\.
-\- Úvěry poskytují jak komerční banky tak nebankovní finanční institutce\.
+- Úvěry poskytují jak komerční banky tak nebankovní finanční institutce\.
+- Banky jsou výhodnější – nižší úrokové sazby a důkladně prověřují bonitu dlužníků
 
-\- Banky jsou výhodnější – nižší úrokové sazby a důkladně prověřují bonitu dlužníků
-
-Členění
+## Členění
 
 1\. Úvěry účelové – hypoteční, ze stavebního spoření, spotřebitelský, finanční leasing, splátkový
                                    prodej
@@ -427,10 +419,9 @@ Zajištění úvěru
 2\. Ručení
 
 NESCHOPNOST SPLÁCET ÚVĚR
-\- Nesplácí\-li dlužník úvěr v dané výši a včas, dochází k předlužení\.
-\- Řeší\-li to dalším půjčováním peněz, dostává se do tzv\. Dluhové pasti
-
-\- V případě nesplácení úvěrů může dlužníkovi hrozit exekuce – forma vymáhání dluhů – vzatí
+- Nesplácí\-li dlužník úvěr v dané výši a včas, dochází k předlužení\.
+- Řeší\-li to dalším půjčováním peněz, dostává se do tzv\. Dluhové pasti
+- V případě nesplácení úvěrů může dlužníkovi hrozit exekuce – forma vymáhání dluhů – vzatí
   dlužníkova majetku, který se použije na splacení dluhu\. Může probíhat formou srážek ze mzdy,
 
   zabavením a prodejem majetku dlužníka, prodejem zástavy atd\.

@@ -2,7 +2,7 @@
 title: "Sociální psychologie"
 source: "PSYCHOLOGIE/SOCIÁLNÍ-PSYCHOLOGIE.docx"
 ---
-1. __Sociální psychologie__
+## 1. Sociální psychologie
 
 - Socializace, neadekvátní socializace, činitelé socializace, sociální role
 - Malá sociální skupina, druhy sociálních skupin, normy, sankce, pozice
@@ -59,7 +59,7 @@ __Neadekvátní socializace__
 
 __Činitelé socializace__
 
-1. __Rodina__
+## 2. Rodina
 
 - Má nejvýznamnější roli
 - Po narození je dítě dlouhou dobu závislé na péči rodičů – nedokáže samo přežít
@@ -67,13 +67,13 @@ __Činitelé socializace__
 - Rodiče dítěti pomáhají, vedou a učí základním rysům naší kultury
 - Při nedostatku láskyplné péče od narození dochází k závažným obtížím ve vývoji dítěte
 
-1. __Vrstevnická skupina__
+## 3. Vrstevnická skupina
 
 - V současné společnosti považována za konkurenta rodiny v procesu socializace
 - Jedná se o skupinu kamarádů, kteří mohou vyznávat odlišné hodnoty a mohou jednat podle odlišných norem, než jaké si dítě osvojilo v rodině
 - Dítě stojí na „křižovatce“ – rozhoduje, které z hodnot zvolit \(rodinné nebo od kamarádů?\) buď si zachovají to, co jim vštípili rodiče a budou vystavení sankcím vrstevnické skupiny popř\. naopak
 
-1. __Masmédia__
+## 4. Masmédia
 
 - Masová média – oslovuje velké množství lidí \(TV, radio, internet, noviny, časopisy, knihy …\)
 - Ovlivňují názory, postoje, hodnoty člověka
@@ -83,11 +83,11 @@ __Činitelé socializace__
 - Dostupnost informací na internetu?
 - PC hry – s agresivní tématikou \(„střílečky“\)
 
-1. __Instituce__
+## 5. Instituce
 
 - MŠ, ZŠ, SŠ, VŠ, zájmové útvary a kroužky, spolky, kluby, …
 
-1. __Kultura__
+## 6. Kultura
 
 - Produkt lidské společnosti
 - Kultura prezentuje modely chování, které jsou pak individuálně realizovány
@@ -122,7 +122,7 @@ __Znaky sociální skupiny__
 
 __Typy sociálních skupin__
 
-1. __Malé__
+## 7. Malé
 
 - Zpravidla neformální vztahy, bezprostřední a osobní styky \(lidé se navzájem znají a komunikují spolu\)
 - Nejmenší sociální skupina 2lidé / jiní autoři uvádí 3osoby
@@ -132,18 +132,18 @@ __Typy sociálních skupin__
 - Bývají zde i neformální vztahy \(vznikají spontánně a dobrovolně – dva kolegové v práci se stanou přáteli\)
 - Např\.: rodina, školní třída, zájmový krouže, parta
 
-1. __Velké__
+## 8. Velké
 
 - Větší množství lidí, nemusí se vzájemně znát a stýkat
 - Členové mají společné normy \(vegetariáni\), názory \(křesťané\), podobné zájmy \(horolezci\), místo pobytu \(občané bydlící v ČR\)
 
-1. __Formální__
+## 9. Formální
 
 - Vznikají za účelem splnění nějakého cíle
 - Předem dána pravidla jednání, rozdělení pravomocí, objevuje se vztah nadřízený\-podřízený\)
 - Zpravidla mají dopředu stanovenou organizační strukturu \(třída, vojenský oddíl, pracovní skupina\)
 
-1. __Neformální__
+## 10. Neformální
 
 - Vznikají spontánně, z iniciativy svých členů
 - Nemívá striktní organizační strukturu
@@ -152,22 +152,22 @@ __Typy sociálních skupin__
 - Specifická komunikace
 - Skupina přátel, členové klubů, členové zájmových činností
 
-1. __Primární__
+## 11. Primární
 
 - Začíná v nich socializace, malé skupiny s intimními vztahy, osobním kontaktem
 - Rodina, skupina přátel
 
-1. __Sekundární__
+## 12. Sekundární
 
 - Všechny další skupiny, kterými projedeme po primárních skupinách
 - Méně osobní vztahy, vznikají za účelem splnění určitého cíle \(školní třída – vzdělání\)
 
-1. __Členské__
+## 13. Členské
 
 - Skupiny, ve kterých je jedinec členem
 - Vstupuje do nich automaticky \(rodina\) nebo na základě vlastního rozhodnutí \(taneční kroužek\)
 
-1. __Referenční__
+## 14. Referenční
 
 - Skupiny, do kterých se chceme zařadit
 - Vnitřně se identifikujeme s jejich cíli a normami \(maturanti, sociální pracovníci, učitelé, vyznavači punku\)
@@ -223,9 +223,9 @@ __Sociometerie__
 
 __Otázky, které se mohou v sociometrii objevit__
 
-<img src="/images/content/psychologie/socialni-psychologie/01.webp" alt="" width="276" loading="lazy" decoding="async">
+<img src="/images/content/psychologie/socialni-psychologie/01.webp" alt="Ilustrace: Referenční" width="276" loading="lazy" decoding="async">
 
-<img src="/images/content/psychologie/socialni-psychologie/02.webp" alt="" width="407" loading="lazy" decoding="async">
+<img src="/images/content/psychologie/socialni-psychologie/02.webp" alt="Ilustrace: Referenční" width="407" loading="lazy" decoding="async">
 
 U starších žáků je možné použít složitější otázky
 

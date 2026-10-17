@@ -117,7 +117,7 @@ b) Dobrovolně
 - správce daně přidělí __daňové identifikační číslo – DIČ__
 - Předmět daně
 
-\- předmětem daně jsou tato plnění:
+- předmětem daně jsou tato plnění:
 
 1. dodání zboží a převod nemovitostí
 2. poskytování služeb → pokud tato plnění uskutečňuje osoba povinná k dani za úplatu a místem plnění je tuzemsko
@@ -129,11 +129,11 @@ b) Dobrovolně
 
    326 000 Kč
 
-   \- pořídil ho podnikatel neplátce DPH, soukromá osoba,
+   - pořídil ho podnikatel neplátce DPH, soukromá osoba,
 
    nebo PO, která nebyla založena za účelem podnikání
 
-\- __plnění, která nejsou předmětem daně:__
+- __plnění, která nejsou předmětem daně:__
 
 - bezplatné poskytnutí reklamních předmětů (cena beez daně do 500 Kč)
 - manka a škody na majetku (náhrada škody)
@@ -142,7 +142,7 @@ b) Dobrovolně
 
 = taková plnění, ze kterého plátci DPH vzniká povinnost přiznat daň
 
-\- musí být zdaněna a daň na výstupu odvedena FÚ
+- musí být zdaněna a daň na výstupu odvedena FÚ
 
 1. __Tuzemská plnění__
 
@@ -252,23 +252,21 @@ finanční úřad 										celní úřad
 1. měsíc – v prvních dvou letech bez ohledu na výši obratu
 2. čtvrtletí – pokud:	- obrat nepřesáhl 10 mil. Kč
 
-	\- není spolehlivým plátcem
-
-	\- není skupinou podniků
+	- není spolehlivým plátcem
+	- není skupinou podniků
 
 - Daňové přiznání
 
-\- plátce je povinen podat do 25 dnů po skončení zdaňovacího období (i když nevznikne daňová povinnost)
+- plátce je povinen podat do 25 dnů po skončení zdaňovacího období (i když nevznikne daňová povinnost)
 
 - Kontrolní hlášení
 
-\- účelem je informovat správce daně o transakcích, které probíhají mezi jednotlivými plátci a usnadnění odhalování daňových podvodů
+- účelem je informovat správce daně o transakcích, které probíhají mezi jednotlivými plátci a usnadnění odhalování daňových podvodů
 
 - Spotřební daně
 
- \- Důvod stanovení daně → ochrana životního prostředí a zdraví občanů – omezení kouření a požívání alkoholu  →  __regulační funkce__
-
-\- správce  __→ celní orgán__
+ - Důvod stanovení daně → ochrana životního prostředí a zdraví občanů – omezení kouření a požívání alkoholu  →  __regulační funkce__
+- správce  __→ celní orgán__
 
 1. daň z minerálních olejů – benzín, nafta, topné oleje
 2. daň z lihu – líh, lihoviny, destiláty
@@ -282,27 +280,23 @@ __Poplatník =__ všichni, kteří tyto výrobky kupují  → daň je obsažena 
 
 - Předmět daně
 
-\- vybrané výrobky vyrobené v tuzemsku a výroby do tuzemska dovezené
+- vybrané výrobky vyrobené v tuzemsku a výroby do tuzemska dovezené
 
 - Zdaňovací období
 
-\- kalendářní měsíc
-
-\- daňové přiznání  → do 25. dne po skončení zdaňovacího období (za každou daň samostatně)
-
-\- splatná  → do 40. dne po skončení zdaňovacího období (u lihu di 55 dnů)
+- kalendářní měsíc
+- daňové přiznání  → do 25. dne po skončení zdaňovacího období (za každou daň samostatně)
+- splatná  → do 40. dne po skončení zdaňovacího období (u lihu di 55 dnů)
 
 - Energetické daně
 
-\- správce  → __celní úřad__
+- správce  → __celní úřad__
 
 - Předmět daně
 
-\- zemní a další plyny
-
-\- pevná paliva
-
-\- elektřina
+- zemní a další plyny
+- pevná paliva
+- elektřina
 
 __Plátce =__ osoba dodávající vybrané výrobky spotřebiteli
 

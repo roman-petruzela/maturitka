@@ -4,7 +4,7 @@ order: 16
 source: "robotika1.pol/cv13_LEDmatice8x8.pdf"
 ---
 
-# LED matice 8x8
+## LED matice 8x8
 
 Díky low-voltage scanning metodě mají maticové LED displeje své výhody, kterými jsou: úspora energie, dlouhá životnost, nízké náklady, vysoký jas, dlouhý vizuální dosah, nepromokavost, aj. Maticové LED displeje mohou uspokojit potřeby různých aplikací. I díky tomu mají širokou perspektivu rozvoje.
 
@@ -26,7 +26,7 @@ C1 – C8 – sloupce R1 – R8 – řádky
 |Řádek(ROW)|1|2|3|4|5|6|7|8|
 |č.pinu matice|9|14|8|12|1|7|2|5|
 
-## Princip 8x8 maticového§ LED displeje:
+### Princip 8x8 maticového§ LED displeje:
 
 8x8 LED matice se skládá z 64 LED a každá LEDka je umístěna na průsečíku řádku a sloupce. Když je elektrická úroveň určité řady vysoká a elektrická úroveň určitého sloupce nízká, pak se odpovídající LED rozsvítí. Chceš-li rozsvítit LED na první pokus, měl bys nastavit řádek 1 na vysokou úroveň (log. 1) a sloupec 1 na nízkou úroveň (log. 0). Pak se LED na prvním bodě rozsvítí. Chceš-li rozsvítit světlo LED na prvním řádku, měl bys nastavit řádek 1 na log. 1 a sloupce (1, 2, 3, 4, 5, 6, 7, 8) na log. 0. Pak se všechny LED diody na prvním řádku rozsvítí.
 
@@ -36,7 +36,7 @@ Neustálé vysvěcování snímků je poměrně náročná záležitost, jejíž
 
 Přirozeným řešením tohoto problému je využití jednočipového mikropočítače (například Arduino) s dostatečnou kapacitou vstupních a výstupních pinů a výpočetním výkonem.
 
-## Budeme potřebovat
+### Budeme potřebovat
 
 1. Arduino Uno (nebo jinou desku).
 
@@ -50,13 +50,13 @@ Přirozeným řešením tohoto problému je využití jednočipového mikropoč�
 
 6. 8x Odpor 220Ω
 
-## Zapojení
+### Zapojení
 
 <img src="/images/content/it/robotika/led-matice-8-8/03.webp" alt="Schéma zapojení LED matice 8x8" width="640" loading="lazy" decoding="async">
 
 _Obrázek 3: Schéma zapojení LED matice 8x8_
 
-### <u>Zapojení tabulkově</u>
+#### <u>Zapojení tabulkově</u>
 
 |Arduino|Barva – dle obrázku|Rezistor|Pin LED<br>matice|
 |---|---|---|---|
@@ -77,7 +77,7 @@ _Obrázek 3: Schéma zapojení LED matice 8x8_
 |12|žlutá|ano|11|
 |13|červená|-|12|
 
-## Program 1
+### Program 1
 
 Stáhněte zdrojový soubor programu „ **maticeLED-8x8-test.ino** “.
 
@@ -140,7 +140,7 @@ void loop(){
 }//loop
 ```
 
-## Program 2
+### Program 2
 
 Stáhněte zdrojový soubor programu „ **arduino_LED_Matrix_8x8.ino** “. Do Arduino IDE vložíme kód programu a nahrajeme jej do Arduina.
 
@@ -285,11 +285,11 @@ void setColumns(byte b) {
 }
 ```
 
-## Úkol:
+### Úkol:
 
 Upravte kód programu 2 tak, aby zobrazil vaše jméno. Použijte znaky bez diakritiky. Můžete využít: <u>https://embed.plnkr.co/3VUsekP3jC5xwSIQDVHx/preview</u> nebo <u>https://github.com/dhepper/font8x8</u>
 
-## Citace:
+### Citace:
 
 Arduino MAXI Starter kit OD BASTLÍŘŮ BASTLÍŘŮM - Lekce 20 8x8 LED matice
 

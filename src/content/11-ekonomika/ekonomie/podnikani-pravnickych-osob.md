@@ -25,19 +25,19 @@ __Podnikatel =__ právně samostatný, vlastnicky oddělený právní subjekt, k
 - zvýšení vlivu v regionu
 - Kdo může podnikat
 
-Fyzická osoba
+## Fyzická osoba
 
 - občan
 - má právní osobnost (může nabývat práv a povinností)
 - při získání živnostenského oprávnění se stává OSVČ
 
-Právnická osoba
+## Právnická osoba
 
 - organizovaný útvar
 - má právní osobnost
 - může ji založit FO, již existující PO, stát
 
-FO se narodí    X    PO vznikne
+## FO se narodí X PO vznikne
 
 - Výhody a nevýhody samostatného podnikání a podnikání více osob
 

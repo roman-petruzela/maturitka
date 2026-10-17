@@ -38,37 +38,29 @@ __3. reexport (vývoz dovozu__): nákup zboží v cizině a prodej do třetí ze
 1. __přímý__ – př. nakoupíme v Německu zboží a dovezeme ho na Slovensko, bez vyložení v ČR
 2. __nepřímý__ – př. nakoupíme v Německu zboží, přivezeme ho do ČR (možnost úpravy) a odvezeme na Slovensko
 
-\- do ČR se dováží: osobní automobily, mobilní telefony, domácí elektrospotřebiče, ropa, železo a další suroviny, léčiva, plastické hmoty, bavlna, čaj, káva, tabák, rýže, ovoce, zelenina, maso …
-
-\- z ČR se vyváží: [__osobní automobily__](http://www.vitejtenazemi.cz/cenia/index.php?p=automobilovy_prumysl&site=doprava), televizory, [__elektrická energie__](http://www.vitejtenazemi.cz/cenia/index.php?p=vyroba,_dovoz_a_zpracovani_energie&site=energie) a uhlí, cement, trubky, dřevo, pšenice, mléko a mléčné výrobky, dobytek, maso, české pivo …..
-
-\- polovinu našeho exportu a více než dvě pětiny dovozu realizuje ČR se sousedními státy (Německo, Slovensko, Rakousko, Polsko). Ze zemí mimo Evropskou unii vyváží nejvíce do Ruska a největší část dovozu pochází z Číny
+- do ČR se dováží: osobní automobily, mobilní telefony, domácí elektrospotřebiče, ropa, železo a další suroviny, léčiva, plastické hmoty, bavlna, čaj, káva, tabák, rýže, ovoce, zelenina, maso …
+- z ČR se vyváží: [__osobní automobily__](http://www.vitejtenazemi.cz/cenia/index.php?p=automobilovy_prumysl&site=doprava), televizory, [__elektrická energie__](http://www.vitejtenazemi.cz/cenia/index.php?p=vyroba,_dovoz_a_zpracovani_energie&site=energie) a uhlí, cement, trubky, dřevo, pšenice, mléko a mléčné výrobky, dobytek, maso, české pivo …..
+- polovinu našeho exportu a více než dvě pětiny dovozu realizuje ČR se sousedními státy (Německo, Slovensko, Rakousko, Polsko). Ze zemí mimo Evropskou unii vyváží nejvíce do Ruska a největší část dovozu pochází z Číny
 
 - Členění zahraničního obchodu
 
 __1. vnitro-unijní:__
 
-\- obchod mezi členskými státy EU
-
-\- nejedná se o vývoz a dovoz - funguje jednotný vnitřní trh = volný pohyb zboží
-
-\- probíhá bez celního řízení
+- obchod mezi členskými státy EU
+- nejedná se o vývoz a dovoz - funguje jednotný vnitřní trh = volný pohyb zboží
+- probíhá bez celního řízení
 
 __2. mimo-unijní:__
 
-\- obchod členských zemí EU s třetími zeměmi (např. ČR – USA)
-
-\- jedná se o vývoz a dovoz
-
-\- fungují zde všechna opatření obchodní politiky (cla, množstevní kvóty, překážky, normy)
-
-\- při dovozu se vybírá clo, poplatky, DPH a spotřební daň
-
-\- vývoz je osvobozen od DPH
+- obchod členských zemí EU s třetími zeměmi (např. ČR – USA)
+- jedná se o vývoz a dovoz
+- fungují zde všechna opatření obchodní politiky (cla, množstevní kvóty, překážky, normy)
+- při dovozu se vybírá clo, poplatky, DPH a spotřební daň
+- vývoz je osvobozen od DPH
 
 - Rizika při prodeji v zahraničí
 
-\- rizika obchodování v zahraničí jsou vyšší – větší vzdálenost, jazykové bariéry
+- rizika obchodování v zahraničí jsou vyšší – větší vzdálenost, jazykové bariéry
 
 a) __kurzová rizika__ – vznikají pohybem kurzu měny v níž je placeno
 
@@ -83,9 +75,8 @@ b) __politická rizika__ – nepokoje stávky, zákazy dovozu do dané země, po
 
 = hodnota vývozu a dovozu služeb a zboží
 
-\- nezachycuje ale platby
-
-\- podkladem je hlášení celnic o přechodu zboží a služeb přes hranice
+- nezachycuje ale platby
+- podkladem je hlášení celnic o přechodu zboží a služeb přes hranice
 
 a) aktivní saldo = ZO + (vývoz je větší než dovoz)
 
@@ -97,9 +88,8 @@ c) vyrovnaná = saldo ZO 0
 
 = vztah mezi peněžními příjmy ze zahraničí a peněžními výdaji do zahraničí
 
-\- sestavuje ČNB podle systému MMF (Mezinárodního měnového fondu)
-
-\- skládá se z:
+- sestavuje ČNB podle systému MMF (Mezinárodního měnového fondu)
+- skládá se z:
 
 a) běžný účet - platby za nákup a prodej zboží a služeb, důchody ze zahraničí a do zahraničí a jednostranné převody peněz
 
@@ -109,7 +99,7 @@ c) změna devizových rezerv
 
 - Organizace zahraničního obchodu
 
-\- činnost zahraničního obchodu je usměrňována pomocí:
+- činnost zahraničního obchodu je usměrňována pomocí:
 
 a) __právních norem ČR__ - jsou vydávány příslušnými orgány v rámci jejich působnosti (parlament ČR, vláda, ministerstva, ČNB)
 
@@ -117,9 +107,8 @@ b) __právních norem mezinárodních__ – nejčastěji INCOTERMS – určují 
 
 __dodací podmínky__:
 
-\- určují práva a povinnosti prodávajícího a kupujícího
-
-\- upravuje se:
+- určují práva a povinnosti prodávajícího a kupujícího
+- upravuje se:
 
 a) způsob, místo a okamžik předání zboží kupujícímu
 
@@ -146,9 +135,8 @@ d) způsob placení – platební nástroje
 
 __clo__ = dávka vybíraná státek při přechodu zboží přes celní hranici
 
-\- kontroluje celní správa (celní úřad) té dané země a upravuje ho celní zákon
-
-\- funkce cla:
+- kontroluje celní správa (celní úřad) té dané země a upravuje ho celní zákon
+- funkce cla:
 
 a) __fiskální__ – je příjmem rozpočtu unie (čtvrtina je příjmem rozpočtu státu, ve kterém zboží bylo placeno)
 
@@ -156,7 +144,7 @@ b) __obchodně politická__ – prostředek obchodní politiky státu (usnadní 
 
 c) __cenotvorná__ – stává se součástí prodejní ceny
 
-\- dělení z hlediska pohybu zboží:
+- dělení z hlediska pohybu zboží:
 
 a) __vývozní__ – za vyvezené zboží do nečlenských zemí, není běžné, např. při vývozu strategických komodit
 
@@ -164,7 +152,7 @@ b) __dovozní__ – za dovážené zboží z nečlenských státu, zvyšuje cen
 
 c) __tranzitní__ – za zboží procházející územím státu
 
-\- dělení podle způsobu výpočtu:
+- dělení podle způsobu výpočtu:
 
 a) __hodnotové__ – stanovena procentní sazba z tzv. celních hodnot zboží
 
@@ -172,33 +160,28 @@ b) __specifické__ – stanovena pevná sazba za jednotku množství (míra, hmo
 
 c) __preferenční__ – zboží tzv. preferenčního původu (ze zemí, které jsou zvýhodněné)
 
-\- dělení podle obchodně-politického hlediska:
+- dělení podle obchodně-politického hlediska:
 
 a) __autonomní__ – určované nezávisle rozhodnutím určitého státu
 
 b) __smluvní__ – určované z dohod uzavřených v rámci WTO (světová obchodní organizace), mezi státy EU a seskupeními jejich států
 
-\- EU chrání svůj trh nejen cly, ale také dalšími prostředky obchodní politiky:
-
-\- množstvím omezení, dovozní licence (povolení), celní kvóty (dovoz pouze určitého množství zboží), zákazy dovozů nebo vývozů (tzv. embargo), doporučené minimální ceny…
-
-\- právní norma:
-
-\- zákon o celní správě – určuje organizaci a působnost celních orgánů v ČR
-
-\- celní zákon
-
-\- celní sazebník – obsahuje druhy dováženého zboží a jejich celní sazby (% cla z celní hodnoty)
+- EU chrání svůj trh nejen cly, ale také dalšími prostředky obchodní politiky:
+- množstvím omezení, dovozní licence (povolení), celní kvóty (dovoz pouze určitého množství zboží), zákazy dovozů nebo vývozů (tzv. embargo), doporučené minimální ceny…
+- právní norma:
+- zákon o celní správě – určuje organizaci a působnost celních orgánů v ČR
+- celní zákon
+- celní sazebník – obsahuje druhy dováženého zboží a jejich celní sazby (% cla z celní hodnoty)
 
 - Výpočet celní hodnoty a DPH při dovozu:
 
-\- do celní hodnoty dováženého zboží, tedy do základu pro výpočet cla, se započítává:
+- do celní hodnoty dováženého zboží, tedy do základu pro výpočet cla, se započítává:
 
 - vlastní hodnota zboží
 - zahraniční náklady na dopravné
 - případné pojištění, apod.
 
-\- do základu pro výpočet DPH se započítává:
+- do základu pro výpočet DPH se započítává:
 
 - vlastní hodnota zboží
 - clo (pokud je vyměřeno)

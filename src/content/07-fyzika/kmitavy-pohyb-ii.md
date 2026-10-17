@@ -3,12 +3,12 @@ title: "Kmitavý pohyb II"
 order: 22
 source: "FYZIKA-maturitní otázky/22-Kmitavý-pohyb-II.docx"
 ---
-Matematické kyvadlo
+## Matematické kyvadlo
 
 - Je __myšlenkový model__
 - Je to __hmotný bod__ zavěšený na __tenkém vlákně__ se __zanedbatelnou hmotností__ a __zanedbává__ se i __odpor__ prostředí a __deformace vlákna__
 - Ve skutečnosti se matematickému kyvadlu blíží závaží zavěšené na tenkém provázku.
-- <img src="/images/content/fyzika/kmitavy-pohyb-ii/01.webp" alt="" width="243" loading="lazy" decoding="async">Když kyvadlo necháme kmitat tak, aby výchylka nepřekročila __5°__, můžeme pohyb hmotného bodu __považovat__ za __pohyb přímočarý__. Na hmotný bod působí __tíhová síla FG__, která se při vychýlení z rovnovážné polohy rozkládá na sílu __F’__, která __napíná lanko__ a na sílu __F__, která způsobuje, že se hmotný bod __snaží vrátit__ do __rovnovážné polohy__
+- <img src="/images/content/fyzika/kmitavy-pohyb-ii/01.webp" alt="Ilustrace: Matematické kyvadlo" width="243" loading="lazy" decoding="async">Když kyvadlo necháme kmitat tak, aby výchylka nepřekročila __5°__, můžeme pohyb hmotného bodu __považovat__ za __pohyb přímočarý__. Na hmotný bod působí __tíhová síla FG__, která se při vychýlení z rovnovážné polohy rozkládá na sílu __F’__, která __napíná lanko__ a na sílu __F__, která způsobuje, že se hmotný bod __snaží vrátit__ do __rovnovážné polohy__
 
 $$\sin \alpha = \frac{F}{F_G} = -\frac{y'}{l} \approx -\frac{y}{l}$$
 
@@ -39,7 +39,7 @@ $$t = \frac{T}{2}$$
 - Čím větší je __délka závěsu l__, tím větší je __perioda kmitu T0__
 - __Pohybová rovnice__ kyvadla:
 
-<img src="/images/content/fyzika/kmitavy-pohyb-ii/07.webp" alt="" width="258" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/kmitavy-pohyb-ii/07.webp" alt="Ilustrace: Fyzické kyvadlo" width="258" loading="lazy" decoding="async">
 
 - __Úhlová frekvence__ kmitání:
 
@@ -56,7 +56,7 @@ $$T_0 = 2\pi \sqrt{\frac{l}{g}}$$
 - __Energie__ se __mění__ na __jiné formy__ než na __mechanickou__ – většinou na __vnitřní energii__
 - Při kmitání ve vzduchu se amplituda výchylky zmenšuje velmi pomalu, ve vodě rychleji – závisí ____na__ odporu prostředí__
 
-<img src="/images/content/fyzika/kmitavy-pohyb-ii/10.webp" alt="" width="185" loading="lazy" decoding="async"><img src="/images/content/fyzika/kmitavy-pohyb-ii/11.webp" alt="" width="162" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/kmitavy-pohyb-ii/10.webp" alt="Ilustrace: Tlumené kmitání" width="185" loading="lazy" decoding="async"><img src="/images/content/fyzika/kmitavy-pohyb-ii/11.webp" alt="Ilustrace: Tlumené kmitání" width="162" loading="lazy" decoding="async">
 
 ## Nucené kmitání
 
@@ -76,18 +76,18 @@ $$T_0 = 2\pi \sqrt{\frac{l}{g}}$$
 - __Graf__ závislosti amplitudy __nucených kmitů__ na __frekvenci nutících kmitů__ je __rezonanční křivka.__
 - __Rezonanční frekvence__ se poněkud zmenšuje s rostoucím tlumením.
 - Význam rezonance spočívá v tom, že umožňuje rezonanční zesílení kmitů.
-- <img src="/images/content/fyzika/kmitavy-pohyb-ii/12.webp" alt="" width="219" loading="lazy" decoding="async">__Malou__, __periodicky__ působící __sílou__ lze v oscilátoru vzbudit kmitání o značné amplitudě výchylky, pokud je __perioda vnějšího__ působení __shodná__ s __periodou vlastního kmitání__ oscilátoru.
+- <img src="/images/content/fyzika/kmitavy-pohyb-ii/12.webp" alt="Ilustrace: Rezonance" width="219" loading="lazy" decoding="async">__Malou__, __periodicky__ působící __sílou__ lze v oscilátoru vzbudit kmitání o značné amplitudě výchylky, pokud je __perioda vnějšího__ působení __shodná__ s __periodou vlastního kmitání__ oscilátoru.
 
 ## Složené kmitání
 
-- <img src="/images/content/fyzika/kmitavy-pohyb-ii/13.webp" alt="" width="321" loading="lazy" decoding="async">Když spojíme dva oscilátory __vláknem__, jehož střed zvýrazníme, a rozkmitáme oscilátory, uvidíme, že i střed vlákna kmitá. Jeho kmity odpovídají pohybu vzniklému __složením__ kmitů obou oscilátorů.
+- <img src="/images/content/fyzika/kmitavy-pohyb-ii/13.webp" alt="Ilustrace: Složené kmitání" width="321" loading="lazy" decoding="async">Když spojíme dva oscilátory __vláknem__, jehož střed zvýrazníme, a rozkmitáme oscilátory, uvidíme, že i střed vlákna kmitá. Jeho kmity odpovídají pohybu vzniklému __složením__ kmitů obou oscilátorů.
 - Skládají-li se harmonické pohyby se **stejnou frekvenc**í, vznikne __harmonický pohyb se stejnou frekvencí.__
 - U takového skládání se musí uvažovat jen s __amplitudou__ a __počáteční fází.__ Tyto veličiny se zobrazují jako __fázory__, proto je výhodné pro skládání kmitů používat __fázorový diagram__, kde jednotlivým harmonickým pohybům přísluší fázory.
 - Výsledný pohyb, jeho __amplituda__ a __počáteční fáze__ se určí __vektorovým součtem__
 - Pokud mají jednotlivé kmity různou frekvenci, vzniknou poměrně složité kmity s neharmonickým průběhem.
 - Zvláštní případ nastane, když obě frekvence jsou přibližně stejně velké (w1 → w2).
 
-<img src="/images/content/fyzika/kmitavy-pohyb-ii/14.webp" alt="" width="325" loading="lazy" decoding="async"><img src="/images/content/fyzika/kmitavy-pohyb-ii/15.webp" alt="" width="264" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/kmitavy-pohyb-ii/14.webp" alt="Ilustrace: Složené kmitání" width="325" loading="lazy" decoding="async"><img src="/images/content/fyzika/kmitavy-pohyb-ii/15.webp" alt="Ilustrace: Složené kmitání" width="264" loading="lazy" decoding="async">
 - __Amplituda__ výchylky __výsledného pohybu__ se periodicky __zvětšuje__ a __zmenšuje__.
 - Vzniká __složené kmitání__, které nazýváme __rázy__.
 - Amplituda rázů se mění s frekvencí __f = f2 – f1__.
@@ -97,13 +97,13 @@ $$T_0 = 2\pi \sqrt{\frac{l}{g}}$$
 
 - Koná-li hmotný bod __současně__ dva nebo více harmonických pohybů v jedné přímce s okamžitými výchylkami __y1, y2, ..., yn__, je __okamžitá výchylka__ výsledného kmitání rovna jejich součtu __y = y1 + y2 + ... + yn.__
 
-<img src="/images/content/fyzika/kmitavy-pohyb-ii/16.webp" alt="" width="522" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/kmitavy-pohyb-ii/16.webp" alt="Ilustrace: Princip superpozice" width="522" loading="lazy" decoding="async">
 
 ## Energiový popis
 
 - __Celková__ energie mechanického oscilátoru se skládá z __kinetické energie Ek__, z __tíhové potenciální energie Ept__ a potenciální energie pružnosti Epr
 
-<img src="/images/content/fyzika/kmitavy-pohyb-ii/17.webp" alt="" width="408" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/kmitavy-pohyb-ii/17.webp" alt="Ilustrace: Energiový popis" width="408" loading="lazy" decoding="async">
 
 - __Kinetická energie__ je
 
@@ -135,20 +135,20 @@ $$E = E_0 + E_{km}$$
 - Kondenzátor __nabijeme__ ze zdroje __stejnosměrného napětí__ a pak ho připojíme k cívce.
 - V oscilačním obvodu vznikne __elektromagnetické kmitání__
 
-<img src="/images/content/fyzika/kmitavy-pohyb-ii/24.webp" alt="" width="310" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/kmitavy-pohyb-ii/24.webp" alt="Ilustrace: Elektromagnetický oscilátor" width="310" loading="lazy" decoding="async">
 
 __Průběh jedné periody:__
 
 - __Kondenzátor__ je __nabit__, je na něm náboj __Qm__. K nabití byla kondenzátoru dodána energie __Ee__. Napětí kondenzátoru je __Um__.
 - __Kondenzátor__ se __vybíjí__ přes __cívku__. Vlivem vlastní indukce proud postupně narůstá, v čase dosáhne hodnoty __Im__. Náboj i napětí na kondenzátoru jsou nulové. Magnetické pole cívky má energii __Em__.
-- <img src="/images/content/fyzika/kmitavy-pohyb-ii/25.webp" alt="" width="482" loading="lazy" decoding="async">__Proud__ v obvodu __postupně klesá__ při zachování původního směru až v čase          zaniká. __Kondenzátor__ je však __znovu nabit__, ale opačně než v čase.
+- <img src="/images/content/fyzika/kmitavy-pohyb-ii/25.webp" alt="Ilustrace: Elektromagnetický oscilátor" width="482" loading="lazy" decoding="async">__Proud__ v obvodu __postupně klesá__ při zachování původního směru až v čase          zaniká. __Kondenzátor__ je však __znovu nabit__, ale opačně než v čase.
 - __Kmitání__ oscilátoru je __harmonické__, mezi napětím a proudem je fázový rozdíl.
 
-<img src="/images/content/fyzika/kmitavy-pohyb-ii/26.webp" alt="" width="602" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/kmitavy-pohyb-ii/26.webp" alt="Ilustrace: Elektromagnetický oscilátor" width="602" loading="lazy" decoding="async">
+
+**Thomsonův vztah:**
 
 $$T_0 = 2\pi \sqrt{L C}$$
-
-= Thomsonův vztah
 
 ## Vázané oscilátory
 
@@ -158,7 +158,7 @@ $$T_0 = 2\pi \sqrt{L C}$$
 - __Energie__ se při kmitání __přenáší__ z __jednoho__ oscilátoru na __druhý__ a (v důsledku zákona zachování energie) opět __zpátky__
 - Spřažená kyvadla jsou příkladem __výměny energie__ mezi __oscilátorem__ a __rezonátorem__ působením vzájemné __vazby__.
 
-<img src="/images/content/fyzika/kmitavy-pohyb-ii/27.webp" alt="" width="273" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/kmitavy-pohyb-ii/27.webp" alt="Ilustrace: Vázané oscilátory" width="273" loading="lazy" decoding="async">
 
 - __Vazba volná__ - vazbou vzniká jen __malé__ vzájemné působení, __energie__ z oscilátoru do rezonátoru přechází __déle__.
 - __Vazba těsná__ - vzájemné působení je __silné__, __energie__ přejde do rezonátoru v __krátké době__.

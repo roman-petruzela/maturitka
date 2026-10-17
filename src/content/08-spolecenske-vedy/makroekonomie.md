@@ -7,31 +7,30 @@ __Lidské potřeby a ekonomika__
 *Abraham Maslow\-pyramida potřeb*
 
 EKONOMIE
-\- úřední disciplína zkoumající souvislosti ekonomického života společnosti
-\- zkoumá využívání vzácných vstupů k výrobě ekonomických statků mezi ekonomické subjekty s cílem
+- úřední disciplína zkoumající souvislosti ekonomického života společnosti
+- zkoumá využívání vzácných vstupů k výrobě ekonomických statků mezi ekonomické subjekty s cílem
   uspokojování jejích potřeb
-\- věda, která zkoumá co lidé vyrábějí, spotřebovávají, snaží se vysvětlit jak se chovají podniky, domácnosti,
+- věda, která zkoumá co lidé vyrábějí, spotřebovávají, snaží se vysvětlit jak se chovají podniky, domácnosti,
    vláda\.\.
 
-\- chce najít řešení, které by umožnilo zvýšit efektivnost výrob a rozdělování
-
-\- lidé v ekonomickém životě vystupují jako fyzické osoby nebo jako právnické
+- chce najít řešení, které by umožnilo zvýšit efektivnost výrob a rozdělování
+- lidé v ekonomickém životě vystupují jako fyzické osoby nebo jako právnické
 Ekonomický statek
-\- cokoliv, co je užitečné a schopné uspokojit potřebu, co je vzácné
-\- dělí se na \- volný \(vzduch,voda\)
-                     \- vzácný\(pro získaní musíme něco vykonat\)
+- cokoliv, co je užitečné a schopné uspokojit potřebu, co je vzácné
+- dělí se na \- volný \(vzduch,voda\)
+                     - vzácný\(pro získaní musíme něco vykonat\)
 
 EKONOMIKA \(hospodářství\)
-\- souhrn hosp\. činností určitého subjektu \(např\.stát, firmy, domácnost, lidé\)
-\- služba\->zvláštní druh statku, zpravidla nehmotné, neskladovatelné, nezkazitelné
+- souhrn hosp\. činností určitého subjektu \(např\.stát, firmy, domácnost, lidé\)
+- služba\->zvláštní druh statku, zpravidla nehmotné, neskladovatelné, nezkazitelné
              \->dělí se na \- věcné\(např\.oprava auta\-obnova hm\.statků\)
-                                  \- osobní\(zaměřeno na člověka\-kadeřnictví\)
+                                  - osobní\(zaměřeno na člověka\-kadeřnictví\)
 
 __ADAM SMITH
-__\- kniha__ Bohatství národů__ \(1776\) \- proklamoval princip „*neviditelné ruky*“ trhu \-> každý jednotlivec, který
+__\- kniha__ Bohatství národů__ \(1776\) \- proklamoval princip „*neviditelné ruky*“ trhu → každý jednotlivec, který
   sobecky sleduje svůj vlastní prospěch je veden jakoby neviditelnou rukou, aby co nejlépe napomáhal
   všeobecnému prospěchu
-\- byl přesvědčen, že jakékoliv vměšování státu do volné koncentrace je škodlivé
+- byl přesvědčen, že jakékoliv vměšování státu do volné koncentrace je škodlivé
 
 __KAREL MARX
 __\- napsal__ Kapitál__ \( 1867\) \- vyhlásil v něm, že kapitalismus je odsouzen k zániku, a že brzy bude následovat
@@ -56,7 +55,7 @@ __3 ekonomické subjekty:__ domácnosti\(spotřebitelé\), firmy, stát
                                        kvaterální\(věda, výzkum\)
 
 __MAKROEKONOMIE__
-\- studuje chování ekonomie jako celku
+- studuje chování ekonomie jako celku
 
 
 **Subjekty makroekonomie:** 1\. podniky jako celek \- firmy
@@ -68,10 +67,10 @@ __MAKROEKONOMIE__
 __Cíle:__ úroveň produktu\(HNP\), zaměstnanost, stabilita cenové úrovně, bilance zahraničního obchodu
 
 HRUBÝ NÁRODNÍ PRODUKT\(HNP\)
-\- používá se k měření celkové výkonnosti ekonomiky
-\- tvoří ho všechny finální výrobky a služby, které byly za určité období vyrobeny za použití národních
+- používá se k měření celkové výkonnosti ekonomiky
+- tvoří ho všechny finální výrobky a služby, které byly za určité období vyrobeny za použití národních
   výrobních faktorů
-\- obsahuje jenom finální výrobky a služby= produkty, které lidé kupují pro spotřebu, nezahrnuje
+- obsahuje jenom finální výrobky a služby= produkty, které lidé kupují pro spotřebu, nezahrnuje
   meziprodukty
 
 VÝDAJOVÁ METODA:
@@ -86,24 +85,22 @@ __Ig \-__ výdaje firem na obnovu a rozšíření kapitálu\(modernizace strojů
 
 __G \-__ vládní nákupy statků i služeb, souhrn výdajů na státní spotřebu a státní investice
 
-\- nejsou v ní zahrnuty státní transportní platby\(dávky, důchod\.\.\)
+- nejsou v ní zahrnuty státní transportní platby\(dávky, důchod\.\.\)
 
 __Export\-**I**mport__\- čistý export\- saldo zahraničního obchodu
 
 HRUBÝ DOMÁCÍ PRODUKT\(HDP\)
-\- určuje výkonnost ekonomiky
-
-\- objem finální produkce, vtvořený za určitého období výrobními faktory, které působily na území
+- určuje výkonnost ekonomiky
+- objem finální produkce, vtvořený za určitého období výrobními faktory, které působily na území
    některého státu
-\- nepřihlížíme, který národ finální výrobní faktor vlastní
-
-\- zisk švédské firmy působící v USA se započítává do HDP USA a do HNP Švédska
+- nepřihlížíme, který národ finální výrobní faktor vlastní
+- zisk švédské firmy působící v USA se započítává do HDP USA a do HNP Švédska
 
 __Hrubý \-__ znamená to, že z investice\(I\) nebylo odečteno znehodnocení kapitálu\(toho kapitálu, který byl
               opotřebován nebo spotřebován\)
-            \- jestliže odečteme opotřebení od hrubých investic, dostaneme čisté investice
+            - jestliže odečteme opotřebení od hrubých investic, dostaneme čisté investice
 *
-- __I – a = In__ *a= amortizace* \-> opotřebení, znehodnocení
+- __I – a = In__ *a= amortizace* → opotřebení, znehodnocení
 
 __REÁLNÝ HNP__ \- slouží k porovnání výkonnosti co si za 100Kč můžu koupit teď a co před 20ti lety
 
@@ -114,39 +111,38 @@ reálná mzda \- co si za to můžu koupit
 __Co HDP a HNP nezahrnuje:__
 1\.Netrží produkce \- činnost vykonána pro rodinu, přátele, sebe
 2\.Stínová ekonomika \- zboží a služby ve většině zemí ilegální
-                                       \- *šedá\-* nezdaněné příjmy, úplatky
-                                       \- *černá*\- hospodářská kriminalita\(padělání, drogy, prostituce,mafie\.\.\)
+                                       - *šedá\-* nezdaněné příjmy, úplatky
+                                       - *černá*\- hospodářská kriminalita\(padělání, drogy, prostituce,mafie\.\.\)
 3\.Produkce škodlivin\- při výrobě zboží a služeb dochází k výrobě škodlivin
 4\.Volný čas
 5\.Tržní cena, kterou zaplatíme např\. za brambory je v HNP a HDP, ale práci, kterou vynaložíme na přípravu
     brambor se nezapočítává
 
 NÁSTROJE MAKROEKONOMICKÉ POLITIKY
-\- stát nebo vláda má k dispozici nástroje hosp\.politiky, které mohou být použity k prosazování makroek\.cílů
+- stát nebo vláda má k dispozici nástroje hosp\.politiky, které mohou být použity k prosazování makroek\.cílů
 
 __1\.FISKÁLNÍ POLITIKA
 \-__ rozpočtová, politika st\. rozpočtu
-\- skládá se ze dvou částí \- úroveň zdanění a výdaje
+- skládá se ze dvou částí \- úroveň zdanění a výdaje
 
 \-Vlády\- aby kontrolovaly fiskální záležitosti a vedly si o ní záznamy, používají státní rozpočty
 
-\- státní rozpočet pro daný rok ukazuje plánované výdaje a očekávané příjmy
-
-\- Plánované výdaje: __a\)přebytkové__ \- příjmy jsou vyšší než výdaje
+- státní rozpočet pro daný rok ukazuje plánované výdaje a očekávané příjmy
+- Plánované výdaje: __a\)přebytkové__ \- příjmy jsou vyšší než výdaje
 
 __b\)vyrovnaný__ \- příjmy = výdaje
 
 __c\)deficitní__ \- výdaje vyšší než příjmy, záporné saldo st\.rozpočtu
 
-\- má\-li vláda rozpočtový deficit, musí buď tisknout peníze, tím ale podporuje inflační tlaky nebo ho může
-krýt půjčkami od jiných subjektů\(podniky, domácnosti, banky, jednotlivci…\) \-> tyto půjčky se realizují
+- má\-li vláda rozpočtový deficit, musí buď tisknout peníze, tím ale podporuje inflační tlaky nebo ho může
+krýt půjčkami od jiných subjektů\(podniky, domácnosti, banky, jednotlivci…\) → tyto půjčky se realizují
 prodejem státních cenných papírů na kapitálovém trhu
 
-\- opakovanými deficity státními rozpočty vzniká a narůstá státní dluh \(veřejný vládní dluh\) 1 630 000 000
+- opakovanými deficity státními rozpočty vzniká a narůstá státní dluh \(veřejný vládní dluh\) 1 630 000 000
 \*ideální inflace jsou 2%
 
-\- státní deficit \- veličina za daný rok
-\- dluh \- veličina stavu v daném okamžiku
+- státní deficit \- veličina za daný rok
+- dluh \- veličina stavu v daném okamžiku
 
 
 **Zdroje státního rozpočtu**:
@@ -154,30 +150,30 @@ prodejem státních cenných papírů na kapitálovém trhu
                                                 výdajů na spotřebu\->snížení celkové poptávky\->skutečný HNP\(nižší\)
 2\)Poplatky soc\.pojištění\(nemocenská\)
 
-<img src="/images/content/spolecenske-vedy/makroekonomie/01.webp" alt="" width="156" loading="lazy" decoding="async">
+<img src="/images/content/spolecenske-vedy/makroekonomie/01.webp" alt="Ilustrace: Makroekonomie" width="156" loading="lazy" decoding="async">
 Lafferova křivka\- zobrazuje závislost celkové sumy vybraných daní na míře zdanění
 
-\- výdaje státního rozpočtu směřují do oblastí: podpory při nezaměstnanosti,
+- výdaje státního rozpočtu směřují do oblastí: podpory při nezaměstnanosti,
   zdravotnictví, školství,národní hospodářství, státní správa\-policie…
 
 2\.MONETÁRNÍ POLITIKA
-\- peněžní
-\- uskutečňuje se prostřednictvím centrální banky dané země a svými nástroji může ovlivňovat nabídku
+- peněžní
+- uskutečňuje se prostřednictvím centrální banky dané země a svými nástroji může ovlivňovat nabídku
   peněz
-\- zrychlováním nebo zpomalováním růstu nabídky peněz povzbuzuje nebo omezuje hosp\. aktivitu
-\- centrální banka se stará o stabilitu měny \(inflaci\)
+- zrychlováním nebo zpomalováním růstu nabídky peněz povzbuzuje nebo omezuje hosp\. aktivitu
+- centrální banka se stará o stabilitu měny \(inflaci\)
 
 3\.DŮCHODOVÁ POLITIKA
 __\- mzdová a cenová__
-\- stát může zavést přímou administrativní kontrolu mzdy a ceny \(např\. max\. možné přírůstky mezd a cen\),
+- stát může zavést přímou administrativní kontrolu mzdy a ceny \(např\. max\. možné přírůstky mezd a cen\),
   cenová regulace \- min\.mzda 8500Kč
 
-\- je souhrnem opatření vlády, která usiluje o zmírnění inflace pomocí přímých kroků
+- je souhrnem opatření vlády, která usiluje o zmírnění inflace pomocí přímých kroků
 
 4\.VNĚJŠÍ MĚNOVÁ A OBCHODNÍ POLITIKA
-\- zabývá se exportem a importem
-\- stát reguluje tok výrobků a služeb, které plynou za hranice země\(celní politika\.\.\)
-\- reguluje měnové kurzy\-to působí na příliv a odliv kapitálu
+- zabývá se exportem a importem
+- stát reguluje tok výrobků a služeb, které plynou za hranice země\(celní politika\.\.\)
+- reguluje měnové kurzy\-to působí na příliv a odliv kapitálu
 
 __NEZAMĚSTNANOST__
 
@@ -195,21 +191,21 @@ __Nedobrovolná nezaměstnanost__ \- zahrnuje nezaměstnané, kteří o získán
 
 Dělení
 __1\.Frikční nezaměstnanost__
-\- krátkodobá nezaměstnanost spojená s plynulým přecházením z jednoho zaměstnání do druhého, je
+- krátkodobá nezaměstnanost spojená s plynulým přecházením z jednoho zaměstnání do druhého, je
   způsobena nedokonalou mobilitou pracovních sil, nedostatečnými informacemi o pracovních
   příležitostech apod\.
 
 __2\.Strukturální nezaměstnanost__
-\- je způsobena změnami v národním hospodářství souvisejícími zejména s technickým pokrokem a
+- je způsobena změnami v národním hospodářství souvisejícími zejména s technickým pokrokem a
   změnami v rámci odvětví ekonomiky \(jejich důsledkem je nesouladu mezi kvalifikací uchazečů o
   práci a požadavky zaměstnavatelů\) nebo přesunem výroby z jedné země do jiné\.
 
 __3\.Cyklická nezaměstnanost__
-\- jedná se o nezaměstnanost, která vzniká v důsledku výkyvů v hospodářství, tj\. roste v období
+- jedná se o nezaměstnanost, která vzniká v důsledku výkyvů v hospodářství, tj\. roste v období
   hospodářského poklesu, v období růstu pak klesá\.
 
 __4\.Sezónní nezaměstnanost__ ‚
-\- vzniká v důsledku sezónní povahy některých hospodářských činností \(zemědělství, stavebnictví\)
+- vzniká v důsledku sezónní povahy některých hospodářských činností \(zemědělství, stavebnictví\)
 
 __INFLACE__
 
@@ -217,10 +213,10 @@ __INFLACE__
 
    hladiny\.
 
-\- Inflace způsobuje pokles kupní síly peněz\. Změny v cenové hladině určuje míra inflace, která udává
+- Inflace způsobuje pokles kupní síly peněz\. Změny v cenové hladině určuje míra inflace, která udává
   procentní změnu cenové hladiny v čase\.
 
-\- Vývoj inflace se měří pomocí cenových indexů, kterými je sledován pohyb cen vybraných statků\.
+- Vývoj inflace se měří pomocí cenových indexů, kterými je sledován pohyb cen vybraných statků\.
    Patří mezi ně \- __1\. Index spotřebitelských cen__ – vyjadřuje velikost změny výdajů na nákup
                                                                                        tzv\. spotřebního koše oproti výchozímu období
 
@@ -231,15 +227,15 @@ __Formy inflace__
 Rozlišujeme podle závažnosti negativních důsledků\.
 
 __1\. Mírná__
-\- růst cenové hladiny do 10% ročně\. Výrazněji nenarušuje ekonomický život, negativní důsledky pro
+- růst cenové hladiny do 10% ročně\. Výrazněji nenarušuje ekonomický život, negativní důsledky pro
   funkce peněz jako míry a uchovatele hodnot jsou minimální
 
 __2\. Pádivá__
-\- růst cenové hladiny o desítky procent ročně\. Zhoršuje ekonomickou výkonnost země a způsobuje
+- růst cenové hladiny o desítky procent ročně\. Zhoršuje ekonomickou výkonnost země a způsobuje
   významné změny v přerozdělování důchodu ve společnosti\. Příznak nezdravého ekon\.vývoje
 
 __3\. Hyperinflace__
-\- růst cenové hladiny v řádech stovek až tisíců procent ročně\. Vyvolává závažnou dezorganizaci
+- růst cenové hladiny v řádech stovek až tisíců procent ročně\. Vyvolává závažnou dezorganizaci
   hospodářského života, protože peníze přestávají být schopny plnit své funkce, ekonomické subjekty
   je přestávají využívat a snaží se je nahrazovat jinými statky, které si udržují hodnotu v čase \(zlato,
 
@@ -255,7 +251,7 @@ __2\. Neanticipovanou \(neočekávanou\)__ – nelze s ní dopředu počítat a
 
 __HOSPODÁŘSKÝ CYKLUS__
 
-\- Ekonomika a její produkt se vyvíjejí cyklicky – fáze růstu se střídají s fázemi poklesu\. Cyklický vývoj
+- Ekonomika a její produkt se vyvíjejí cyklicky – fáze růstu se střídají s fázemi poklesu\. Cyklický vývoj
   reálného produktu v rámci hospodářského cyklu probíhá kolem potenciálního produktu – vyjadřuje
   dlouhodobě udržitelný výstup dané ekonomiky, jehož je možné dosáhnout při plném využití
   dostupných výrobních faktorů\.

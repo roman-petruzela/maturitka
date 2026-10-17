@@ -2,6 +2,7 @@
 title: "Soustava 3 lineárních rovnic o 3 neznámých"
 order: 11
 source: "Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/11) Soustava 3 lineárních rovnic o 3 neznámých.pdf"
+formulaRail: false
 hasExercises: true
 ---
 

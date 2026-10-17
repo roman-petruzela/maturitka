@@ -17,7 +17,7 @@ $$\Delta \varphi = \frac{\Delta s}{r}$$
 
 $[\varphi] = \mathrm{rad}$; Jeden radián je přibližně 57 °
 
-<img src="/images/content/fyzika/kinematika-a-dynamika-rovnomerneho-pohybu-hmotneho-bodu-po-kruznici/02.webp" alt="" width="188" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/kinematika-a-dynamika-rovnomerneho-pohybu-hmotneho-bodu-po-kruznici/02.webp" alt="Ilustrace: Rovnoměrný pohyb po kružnici" width="188" loading="lazy" decoding="async">
 
 - Velikost úhlu, který opíše HB při oběhnutí celé kružnice je:
 
@@ -73,7 +73,7 @@ $[f] = \mathrm{s^{-1}} = \mathrm{Hz}$ (hertz)
 
 $$a_d = \frac{v^2}{r} = \omega^2 r = \frac{4 \pi^2 r}{T^2} = 4 \pi^2 f^2 r$$
 
-<img src="/images/content/fyzika/kinematika-a-dynamika-rovnomerneho-pohybu-hmotneho-bodu-po-kruznici/13.webp" alt="" width="226" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/kinematika-a-dynamika-rovnomerneho-pohybu-hmotneho-bodu-po-kruznici/13.webp" alt="Ilustrace: Kruhový pohyb" width="226" loading="lazy" decoding="async">
 
 Na obrázku jsou vyznačeny okamžité rychlosti a okamžitá zrychlení v daných bodech\.
 
@@ -99,9 +99,9 @@ __Poznámka__
 - Někdy se však odstředivou silou nazývá __reakce__ \(reakční síla podle Třetího Newtonova zákona\) vznikající při působení dostředivé síly v __inerciální vztažné soustavě\.__
 - <a id="_heading=h.gjdgxs"></a>V tomto případě je __velikost odstředivé síly__ stejná jako velikost __dostředivé síly__\. Směr odstředivé síly je od středu křivosti trajektorie tělesa \(od středu kružnice\)\. Tato síla ovšem nepůsobí na těleso, na které působí __dostředivá síla,__ jak se často chybně uvádí\. Kdyby tomu tak bylo, součet odstředivé a dostředivé síly by byl __nulový__ a těleso by se pohybovalo podle Prvního Newtonova zákona __rovnoměrně přímočaře__, což je však spor s předpokladem, že se těleso pohybuje křivočaře\.
 
-Náklon v zatáčce
+## Náklon v zatáčce
 
-<img src="/images/content/fyzika/kinematika-a-dynamika-rovnomerneho-pohybu-hmotneho-bodu-po-kruznici/16.webp" alt="" width="184" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/kinematika-a-dynamika-rovnomerneho-pohybu-hmotneho-bodu-po-kruznici/16.webp" alt="Ilustrace: Náklon v zatáčce" width="184" loading="lazy" decoding="async">
 
 - Na těleso pohybující se v gravitačním poli v NVS působí kromě odstředivé \(na obrázku Fs\) také tíhová síla \(FG\)\. Při vhodném úhlu náklonu α se vyrovná odstředivá síla částí tíhové síly \(F2\)\.
 -  Těleso tak při pohybu zůstává nakloněné, ale nespadne\.

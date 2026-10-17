@@ -3,7 +3,7 @@ title: "Vlastnické právo"
 order: 8
 source: "Právo/8. Vlastnické právo/8_vlastnicke_pravo.docx"
 ---
-# __8. Vlastnické právo__
+## __8. Vlastnické právo__
 
 VĚCNÁ PRÁVA jsou práva zajišťující moc osoby nad věcí, která působí vůči všem ostatním subjektům tak, že jim přikazuje nerušit vlastníka ve výkonu jeho práv.
 
@@ -59,7 +59,7 @@ Nelze proto volně nabývat vlastnictví k věcem:
 
 __DRŽBA__
 
-=> stav faktického ovládání určité věci, přičemž držitel s ní nakládá jako s vlastní (neznamená to, že k dané věci má právo)
+⇒ stav faktického ovládání určité věci, přičemž držitel s ní nakládá jako s vlastní (neznamená to, že k dané věci má právo)
 
 Vlastnické právo drží ten, kdo se věci ujal, aby ji měl jako vlastník.
 

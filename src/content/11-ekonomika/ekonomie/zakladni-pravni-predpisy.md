@@ -13,23 +13,21 @@ __Pojem právo__ chápeme:
 
 a\) Ve smyslu subjektivním
 
-\- právo jedince \(právo určitého subjektu na něco\)
-
-\- často spojeno s povinností
-
-\- *např\. právo vlastnit dům > povinnost platit daň z nemovitosti*
+- právo jedince \(právo určitého subjektu na něco\)
+- často spojeno s povinností
+- *např\. právo vlastnit dům > povinnost platit daň z nemovitosti*
 
 b\) Ve smyslu objektivním
 
-\- veškeré právní normy, které upravují společenské vztahy
+- veškeré právní normy, které upravují společenské vztahy
 
 __Právní řád__
 
 __=__ souhrn všech právních předpisů ve státě
 
-\- je řazen stupňovitě \(hierarchicky\) dle právní síly – ta je dána názvem normy a orgánem, který ji vydal
+- je řazen stupňovitě \(hierarchicky\) dle právní síly – ta je dána názvem normy a orgánem, který ji vydal
 
-<img src="/images/content/ekonomika/ekonomie/zakladni-pravni-predpisy/01.webp" alt="" width="381" loading="lazy" decoding="async">
+<img src="/images/content/ekonomika/ekonomie/zakladni-pravni-predpisy/01.webp" alt="Ilustrace: Základní právní předpisy" width="381" loading="lazy" decoding="async">
 
 Zákonné/Základní
 
@@ -39,15 +37,15 @@ __Charakteristika právního řádu__
 
 1. Tvoří jednotný logický a myšlenkový celek
 
-\- normy si nesmí odporovat \(dohlíží na to Ústavní soud\)
+- normy si nesmí odporovat \(dohlíží na to Ústavní soud\)
 
 1. Je jedinečný
 
-\- liší se od ostatních států
+- liší se od ostatních států
 
 1. Neustále se vyvíjí/mění
 
-\- legislativa/novelizace
+- legislativa/novelizace
 
 Právní dogmatika = výklad právních norem
 
@@ -123,15 +121,12 @@ __Právní skutečnost__
 
 __=__ každá skutečnost, s níž právní norma spojuje vznik, změnu nebo zánik právního vztahu
 
-Objektivní událost				Právní jednání
+## Objektivní událost Právní jednání
 
-\- narození *\(nová FO\)*				        \- jednostranné *\(závěť\)*
-
-\- úmrtí					                    \- dvoustranné *\(smlouvy\)*
-
-\- uplynutí času *\(dítě dospěje\)*		                    \- mnohostranné *\(valná hromada\)*
-
-\- přírodní událost *\(pojistná událost\)*
+- narození *\(nová FO\)*				        \- jednostranné *\(závěť\)*
+- úmrtí					                    \- dvoustranné *\(smlouvy\)*
+- uplynutí času *\(dítě dospěje\)*		                    \- mnohostranné *\(valná hromada\)*
+- přírodní událost *\(pojistná událost\)*
 
 PRÁVO VEŘEJNÉ = stát je nadřazen ostatním účastníkům právních vztahů
 
@@ -141,7 +136,7 @@ __Systém práva__
 
 Právní odvětví
 
-\- zahrnuje právní normy, které spolu věcně souvisí
+- zahrnuje právní normy, které spolu věcně souvisí
 
 - Ústavní právo		\- fungování státu, práva občanů, rozdělení moci
 - Správní právo		\- úprava norem, činnost státních institucí
@@ -155,15 +150,15 @@ Právní odvětví
 
 1. Evropské kontinetální právo
 
-\- vychází z římského práva – psaná pravidla
+- vychází z římského práva – psaná pravidla
 
 1. Anglosasské / angloamerické právo
 
-\- vychází se z precedentů
+- vychází se z precedentů
 
 1. Právo šária
 
-\- vychází z koránu – náboženská pravidla, která určují běžný život
+- vychází z koránu – náboženská pravidla, která určují běžný život
 
 __Ústava__
 
@@ -212,9 +207,8 @@ __B\) Výkonná moc__
 
 __Prezident__
 
-\- volen přímou volbou na 5 let, maximálně 2x po sobě
-
-\- může udělit amnestii a milost
+- volen přímou volbou na 5 let, maximálně 2x po sobě
+- může udělit amnestii a milost
 
 __Vláda__
 
@@ -222,9 +216,8 @@ __Vláda__
 
 Funkce:
 
-\- navrhování zákonů
-
-\- podání demise = předčasné volby do PS
+- navrhování zákonů
+- podání demise = předčasné volby do PS
 
 __C\) Soudní moc__
 

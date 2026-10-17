@@ -2,6 +2,7 @@
 title: "Nerovnice v součinovém tvaru"
 order: 16
 source: "Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/16) Nerovnice v součinovém tvaru.pdf"
+formulaRail: false
 hasExercises: true
 ---
 

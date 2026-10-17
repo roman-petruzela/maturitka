@@ -20,87 +20,73 @@ __Přírodní léčivé zdroje__
 
 __Druhy lázeňských pobytů__
 
-1. __Komplexní__
+## 1. Komplexní
 
-\- hradí ho zdravotní pojišťovna (ubytování, stravování, vyšetření, balneo terapie)
+- hradí ho zdravotní pojišťovna (ubytování, stravování, vyšetření, balneo terapie)
+- pro osoby s vážnou nemocí, po úraze, operaci
+- délka je minimálně 21. dní
+- ošetřující lékař vyhotovuje návrh na lázeňskou péči → posuzuje lékař ZP → správa lázní
+- je v pracovní neschopnosti = dodržuje lázeňský režim
 
-\- pro osoby s vážnou nemocí, po úraze, operaci
+## 2. Příspěvkový
 
-\- délka je minimálně 21. dní
+- ZP přispívá = hradí vyšetření a balneoterapie
+- pro chronicky nemocné osoby
+- 14 až 21 dní
+- osoba čerpá dovolenou
 
-\- ošetřující lékař vyhotovuje návrh na lázeňskou péči → posuzuje lékař ZP → správa lázní
+## 3. Samoplátecký
 
-\- je v pracovní neschopnosti = dodržuje lázeňský režim
-
-1. __Příspěvkový__
-
-\- ZP přispívá = hradí vyšetření a balneoterapie
-
-\- pro chronicky nemocné osoby
-
-\- 14 až 21 dní
-
-\- osoba čerpá dovolenou
-
-1. __Samoplátecký__
-
-\- účastník si hradí celý pobyt sám, 2 až 7 dní
-
-\- volí si lázně, stravu, ubytování
+- účastník si hradí celý pobyt sám, 2 až 7 dní
+- volí si lázně, stravu, ubytování
 
 __Lázeňské služby__
 
-1. __Léčebné__
+## 4. Léčebné
 
 a) Diagnostika
 
-\- určení aktuálního stavu hosta
+- určení aktuálního stavu hosta
 
 b) Balneoterapie
 
-\- všechny léčebné procedury
-
-\- pitná kúra, suchá uhličitá koupel, léčebné inhalace, vodoléčba, rehabilitace, magnetoterapie, elektroterapie, dietoterapie, parafínoterapie, klimatoterapie,
+- všechny léčebné procedury
+- pitná kúra, suchá uhličitá koupel, léčebné inhalace, vodoléčba, rehabilitace, magnetoterapie, elektroterapie, dietoterapie, parafínoterapie, klimatoterapie,
 
  speleoterapie, peloidoterapie, aromaterapie, akupunktura, kryoterapie, oxigenoteapie
 
-1. __Ubytovací__
+## 5. Ubytovací
 
 a) Lázeňský dům, hotel
 
-\- dvojlůžkový pokoj, více úložných prostorů
-
-\- prostory pro využití volného času
-
-\- při komplexním i příspěvkovém pobytu
-
-\- dodržování domovního a ubytovacího řádu
+- dvojlůžkový pokoj, více úložných prostorů
+- prostory pro využití volného času
+- při komplexním i příspěvkovém pobytu
+- dodržování domovního a ubytovacího řádu
 
 b) Lázeňský penzion
 
-\- při příspěvkovém a samopláteckém pobytu
-
-\- menší rozsah služeb, mimo lázeňská centra
+- při příspěvkovém a samopláteckém pobytu
+- menší rozsah služeb, mimo lázeňská centra
 
 c) Ubytování v soukromí
 
-\- pokoje, apartmány
-
-\- při samopláteckém pobytu
+- pokoje, apartmány
+- při samopláteckém pobytu
 
 __3__.   __Stravovací__
 
 a) Režimové
 
-\- dietní režim (dospělí 4 jídla, děti 6 jídel), určení času jídel
+- dietní režim (dospělí 4 jídla, děti 6 jídel), určení času jídel
 
 b) Nerežimové
 
-\- běžné stravování dle požadované osoby
+- běžné stravování dle požadované osoby
 
 c) Doplňkové
 
-\- cukrárny, kavárny, čajovny
+- cukrárny, kavárny, čajovny
 
 __Lázeňský místopis__
 
@@ -112,55 +98,47 @@ __Kongresový cestovní ruch__
 
 __Akce__
 
-1. __Kongres__
+## 6. Kongres
 
-\- politika, ekonomika, medicína, IT …
+- politika, ekonomika, medicína, IT …
+- min. počet účastníků 300 osob
+- min. 40% zahraničních účastníků
+- min. 5 států
+- min. doba trvání 3 dny
 
-\- min. počet účastníků 300 osob
+## 7. Konference
 
-\- min. 40% zahraničních účastníků
+- do 300 osob, nemusí mít zahraniční účastníky, opakuje se
+- jednají v plénu pouze na úvod a závěr, jinak jednají v sekcích
+- na závěr přijímají protokol, který pak musí dodržovat
+- ,,e-konference“ – elektronická, výhodu je úspora času, ale chybí osobní kontakt
 
-\- min. 5 států
+## 8. Sympózium
 
-\- min. doba trvání 3 dny
+- odborné/vědecké setkání zaměřené na jedno téma např. sochařské, divadelní
 
-1. __Konference__
+## 9. Kolokvium
 
-\- do 300 osob, nemusí mít zahraniční účastníky, opakuje se
+- odborná akce většinou v akademickém prostoru
+- téma je předem známé a účastníci se na něj připraví
 
-\- jednají v plénu pouze na úvod a závěr, jinak jednají v sekcích
+## 10. Seminář
 
-\- na závěr přijímají protokol, který pak musí dodržovat
+- do 50 osob, probírají se pracovní problémy
 
-\- ,,e-konference“ – elektronická, výhodu je úspora času, ale chybí osobní kontakt
+## 11. Meeting
 
-1. __Sympózium__
+- akce na jednom místě zaměřená na pracovní problémy
 
-\- odborné/vědecké setkání zaměřené na jedno téma např. sochařské, divadelní
+## 12. Výstavy
 
-1. __Kolokvium__
+- představují se na ní exponáty, zpravidla nemají prodejní charakter
 
-\- odborná akce většinou v akademickém prostoru
+## 13. Veletrh
 
-\- téma je předem známé a účastníci se na něj připraví
+- má prodejní charakter
 
-1. __Seminář__
-
-\- do 50 osob, probírají se pracovní problémy
-
-1. __Meeting__
-
-\- akce na jednom místě zaměřená na pracovní problémy
-
-1. __Výstavy__
-
-\- představují se na ní exponáty, zpravidla nemají prodejní charakter
-
-1. __Veletrh__
-
-\- má prodejní charakter
-
-1. __Workshop__
+## 14. Workshop
 
 __Služby__
 
@@ -170,7 +148,7 @@ __Služby__
 
 __Místa konání__
 
-1. __Kongresové centrum__
+## 15. Kongresové centrum
 
 __–__ specializované zařízení, jednací prostory pro gastroakce, pro parkování, technické prostory
 
@@ -179,7 +157,7 @@ __–__ specializované zařízení, jednací prostory pro gastroakce, pro parko
 
 __–__ nabízejí vhodné jednací prostory a možnost ubytování a stravování
 
-1. __Vysoké školy a univerzity__
+## 16. Vysoké školy a univerzity
 
 __–__ nabízejí vhodné jednací místnosti, určitou část roku
 

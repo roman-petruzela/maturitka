@@ -67,9 +67,8 @@ __Dělení map podle měřítka__
 
 - do 1:200 000
 
-\-  mapy malého měřítka zobrazují velké plochy s malou přesností
-
-\- mapy velkého měřítka zobrazují malé plochy s velkou přesností > plány \(ulice, parky, kina\)
+-  mapy malého měřítka zobrazují velké plochy s malou přesností
+- mapy velkého měřítka zobrazují malé plochy s velkou přesností > plány \(ulice, parky, kina\)
 
 __Vznik mapy \(práce\)__
 

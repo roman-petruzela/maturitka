@@ -105,9 +105,9 @@ __Značka produktu:__
 
 __Životní cyklus produktu:__
 
-<img src="/images/content/ekonomika/ekonomie/marketing/01.webp" alt="" width="631" loading="lazy" decoding="async">
+<img src="/images/content/ekonomika/ekonomie/marketing/01.webp" alt="Ilustrace: Marketing" width="631" loading="lazy" decoding="async">
 
-<img src="/images/content/ekonomika/ekonomie/marketing/02.webp" alt="" width="239" loading="lazy" decoding="async">
+<img src="/images/content/ekonomika/ekonomie/marketing/02.webp" alt="Ilustrace: Marketing" width="239" loading="lazy" decoding="async">
 
 - Price – cena
 

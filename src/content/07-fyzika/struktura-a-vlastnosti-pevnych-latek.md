@@ -79,9 +79,9 @@ c) __prostorově centrovaná__ – Li, Na, K, Cr, W, …
 
 a) a = 0, 334 nm 		b) a = 0, 405 nm			c) a = 0, 287 nm
 
-<img src="/images/content/fyzika/struktura-a-vlastnosti-pevnych-latek/01.webp" alt="" width="159" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/struktura-a-vlastnosti-pevnych-latek/01.webp" alt="Ilustrace: Ideální krystalová mřížka" width="159" loading="lazy" decoding="async">
 
-<img src="/images/content/fyzika/struktura-a-vlastnosti-pevnych-latek/02.webp" alt="" width="169" loading="lazy" decoding="async"><img src="/images/content/fyzika/struktura-a-vlastnosti-pevnych-latek/03.webp" alt="" width="169" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/struktura-a-vlastnosti-pevnych-latek/02.webp" alt="Ilustrace: Ideální krystalová mřížka" width="169" loading="lazy" decoding="async"><img src="/images/content/fyzika/struktura-a-vlastnosti-pevnych-latek/03.webp" alt="Ilustrace: Ideální krystalová mřížka" width="169" loading="lazy" decoding="async">
 
 - __Příklad:__
 
@@ -148,7 +148,7 @@ __Pozn.:__ V reálných krystalech se nejčastěji uplatňuje __více než jeden
 
 - Každý reálný krystal má ve své struktuře __poruchy (defekty)__, které dělíme na __bodové__ a __čárové__
 
-Bodové poruchy
+## Bodové poruchy
 
 __a) Vakance__
 
@@ -158,26 +158,26 @@ __a) Vakance__
 	- ozáření krystalu neutrony v jaderném reaktoru
 	- vakance vznikají také při vzniku některých kovových slitin
 
-<img src="/images/content/fyzika/struktura-a-vlastnosti-pevnych-latek/04.webp" alt="" width="180" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/struktura-a-vlastnosti-pevnych-latek/04.webp" alt="Ilustrace: Bodové poruchy" width="180" loading="lazy" decoding="async">
 
 __b) Intersticiální poloha částice__
 
 - Projevuje se tím, že částice je v místě __mimo__ pravidelný bod mřížky
 - Je-li touto částicí __iont__, přenáší při svém pohybu __náboj__ a způsobuje tak __elektrickou vodivost iontových krystalů__
 
-__c) Příměs (nečistota)__<img src="/images/content/fyzika/struktura-a-vlastnosti-pevnych-latek/05.webp" alt="" width="216" loading="lazy" decoding="async">
+__c) Příměs (nečistota)__<img src="/images/content/fyzika/struktura-a-vlastnosti-pevnych-latek/05.webp" alt="Ilustrace: Bodové poruchy" width="216" loading="lazy" decoding="async">
 
 - __Cizí__ částice, které se vyskytují v krystalu daného chemického složení
 - Může se vyskytovat:
 	- __v intersticiální poloze__ (např.: snadná absorpce atomů C, jejichž počet a uspořádání může ovlivnit v mřížce Fe vlastnosti různých druhů oceli)
 	- __nahrazovat vlastní částici mřížky__ – tzv. __substituční atom__ (např.: atomy různých prvků (B, P), které se zpravují do čistého krystalu křemíku nebo germania, a tím ovlivňují elektrickou vodivost látky)
 
-<img src="/images/content/fyzika/struktura-a-vlastnosti-pevnych-latek/06.webp" alt="" width="196" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/struktura-a-vlastnosti-pevnych-latek/06.webp" alt="Ilustrace: Bodové poruchy" width="196" loading="lazy" decoding="async">
 
 ## Čárové poruchy (dislokace)
 
 - Jedná se o __přerušení__ pravidelného __uspořádání podél__ určité __čáry__ (tzv. __dislokační čáry__)
-- Posunutí vrstvy hranovou dislokací:<img src="/images/content/fyzika/struktura-a-vlastnosti-pevnych-latek/07.webp" alt="" width="470" loading="lazy" decoding="async">
+- Posunutí vrstvy hranovou dislokací:<img src="/images/content/fyzika/struktura-a-vlastnosti-pevnych-latek/07.webp" alt="Ilustrace: Čárové poruchy (dislokace)" width="470" loading="lazy" decoding="async">
 - Látky s touto poruchou __nejsou příliš pevné__
 - Dislokace se dělí:
 	- __hranové dislokace__

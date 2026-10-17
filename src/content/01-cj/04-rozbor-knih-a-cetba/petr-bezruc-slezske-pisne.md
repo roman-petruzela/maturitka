@@ -163,7 +163,7 @@ __Labutinka__ – Nešťastná láska, kdy se básník zamiluje do Labutinky (kr
 
 //Epizeuxus (Labutinka, Labutinka, Labutinko černobrvá!)
 
-__Jen jedenkrát__ – paralela (Slunce a lidé X básník a láska) => strach z neznámého, který se rozvine  do promarněné šance, nad kterou je pozdě litovat. (vyženou slunce a pak si všimnou krás, co způsobil sluneční svit, básník se uzamknul do sebe, ale ve stáří je pozdě se otevřít lásce)
+__Jen jedenkrát__ – paralela (Slunce a lidé X básník a láska) ⇒ strach z neznámého, který se rozvine  do promarněné šance, nad kterou je pozdě litovat. (vyženou slunce a pak si všimnou krás, co způsobil sluneční svit, básník se uzamknul do sebe, ale ve stáří je pozdě se otevřít lásce)
 
 __Motýl –__ K básníkovi přilétá motýl, ale on ho posílá pryč od sebe, neví co by si s ním počal (Motýl – Láska štěstí)
 
@@ -179,6 +179,6 @@ Národnostní
 
 __70__ __000__ – Poněmčení a popolštění slezských obyvatel, přirovnání k vyhrabání 70 000 hrobů; lid prosí Boha, ale marně.
 
-__Kantor__ __Halfar__ – SB. Popisuje dění na Slezsku, kdy se z českých škol staly polské. Halfar učí česky, proto má problémy, pořád hledá místo. Paradoxně ho nalezne (sebevražda => místo na hřbitově)
+__Kantor__ __Halfar__ – SB. Popisuje dění na Slezsku, kdy se z českých škol staly polské. Halfar učí česky, proto má problémy, pořád hledá místo. Paradoxně ho nalezne (sebevražda ⇒ místo na hřbitově)
 
 __Praga caput regni__ – Kontrast mezi Prahou a Slezskem (severem), Pražené oplývají rádoby vlastenectvím, starají se jen o sebe, místo toho, aby pomohli zlepšit situaci na hranicích, kde jsou poněmčovani nebo popolštěni. Vzkazují praze ať si to vlastenectví nechaj.

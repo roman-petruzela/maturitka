@@ -2,6 +2,7 @@
 title: "Nerovnice v podílovém tvaru"
 order: 17
 source: "Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/17) Nerovnice v podílovém tvaru.pdf"
+formulaRail: false
 hasExercises: true
 ---
 

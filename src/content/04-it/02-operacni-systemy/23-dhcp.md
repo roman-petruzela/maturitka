@@ -15,7 +15,7 @@ Existují dva způsoby, kterými můžeme počítačům přidělit IP adresu a d
 
 - **Dynamické přidělování IP adres:** Protokol DHCP umožňuje, aby klientské počítače po spuštění automaticky získaly adresu IP a další souvisejíc nastavení protokolu TCP/IP. V systému Windows server 2008 mohou servery DHCP přiřadit dynamickou adresu IP verze 4 (IPv4), IP verze 6 (IPv6), nebo obě tyto adresy libovolné síťové kartě v počítači.
 
-# Základy protokolu DHCP
+## Základy protokolu DHCP
 
 Všechna vydání operačního systému Windows 2008 server obsahují službu **DHCP Server** , která může po instalaci zajistit podporu protokolu DHCP. Všechny stávající verze operačního systému Windows také automaticky instalují službu DHCP Client v rámci protokolu TCP/IP. Službu DHCP Client obsahují také Linuxové distribuce a OS Mac.
 
@@ -27,7 +27,7 @@ Obor (Scope) je seznam adres IPv4 nebo IPv6 a souvisejících možností konfigu
 
 Systém Windows Server 2008 podporuje integraci protokolu DHCP a dynamickou službou DNS. Při konfiguraci je tím zajištěno, že dojde k aktualizaci záznamu DNS klienta, který přijme novou adresu IP. Pokud chcete zajistit, že bude možné přeložit názvy klientů na adresy IP, měli byste nakonfigurovat integraci protokolu DHCP a systému DNS.
 
-# Zabezpečení DHCP
+## Zabezpečení DHCP
 
 Služba DHCP ze své podstaty není bezpečná. Libovolný uživatel s přístupem k síti může provést akce, které potenciálně způsobí problémy jiným klientům, kteří se pokoušejí získat adresu IP. Uživatel může provést následující škodlivé akce:
 
@@ -37,7 +37,7 @@ Služba DHCP ze své podstaty není bezpečná. Libovolný uživatel s přístup
 
 Chcete-li snížit riziko útoků, měli byste omezit fyzický přístup k síti. Neusnadňujte neautorizovaným uživatelům připojení k síti. Pokud používáte bezdrátové technologie, použijte šifrování WEP, WPA, nebo WPA2.
 
-# Zprávy DHCPv4
+## Zprávy DHCPv4
 
 Po spuštění klient DHCP pomocí všesměrového vysílání odešle zprávu **DHCP Discover** . Všechny servery DHCP v síti odpoví na všesměrové vysílání zprávou **DHCP Offer** , která klientovi nabídne zapůjčení IP adresy. Klient přijme první přijatou nabídku tak, že odešle zpět serveru zprávu **DHCP Request** . Server přijme požadavek odesláním zprávy **DHCP Acknowledgment** klientovi.
 

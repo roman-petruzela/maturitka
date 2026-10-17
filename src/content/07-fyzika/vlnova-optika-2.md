@@ -3,7 +3,7 @@ title: "Vlnová optika 2"
 order: 42
 source: "FYZIKA-maturitní otázky/42-Vlnová-optika-2.docx"
 ---
-Difrakce (ohyb) světla
+## Difrakce (ohyb) světla
 
 - Další jev, který potvrzuje vlnovou povahu světla
 - Odklon paprsků od směru určených zákonem přímočarého šíření
@@ -18,35 +18,32 @@ Ohyb světla na hraně
 
 a) v geometrické optice
 
-\- na stínítku vzniká ostré rozraní mezi světlem a tmou
+- na stínítku vzniká ostré rozraní mezi světlem a tmou
 
 b) ve vlnové optice
 
-\- při dopadu na okraj překážky se světlo šíří i za ni, do oblasti geometrického stínu
-
-\- na stínítku uvidíme neostré rozhraní (bílé a tmavé proužky)
-
-\- každý bod světelného vlnění se stává zdrojem dalšího vlnění
-
-\- paprsky vycházející z jednotlivých bodů se skládají a vzniká mnohonásobná interference
+- při dopadu na okraj překážky se světlo šíří i za ni, do oblasti geometrického stínu
+- na stínítku uvidíme neostré rozhraní (bílé a tmavé proužky)
+- každý bod světelného vlnění se stává zdrojem dalšího vlnění
+- paprsky vycházející z jednotlivých bodů se skládají a vzniká mnohonásobná interference
 
 Ohybové jevy jsou výrazné, má-li překážka malé rozměry
 
 (tenké dráty, ostré hrany, úzké štěrbiny, …)
 
-<img src="/images/content/fyzika/vlnova-optika-2/01.webp" alt="" width="179" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/vlnova-optika-2/01.webp" alt="Ilustrace: Difrakce (ohyb) světla" width="179" loading="lazy" decoding="async">
 
-<img src="/images/content/fyzika/vlnova-optika-2/02.webp" alt="" width="236" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/vlnova-optika-2/02.webp" alt="Ilustrace: Difrakce (ohyb) světla" width="236" loading="lazy" decoding="async">
 
 Ohyb světla na hraně 🡪
 
 Ohyb světla na štěrbině
 
-<img src="/images/content/fyzika/vlnova-optika-2/03.webp" alt="" width="317" loading="lazy" decoding="async"><img src="/images/content/fyzika/vlnova-optika-2/04.webp" alt="" width="285" loading="lazy" decoding="async">Na stínítku pozorujeme interferenční maxima (nultého řádu a vedlejší) a interfer. minima.
+<img src="/images/content/fyzika/vlnova-optika-2/03.webp" alt="Ilustrace: Difrakce (ohyb) světla" width="317" loading="lazy" decoding="async"><img src="/images/content/fyzika/vlnova-optika-2/04.webp" alt="Ilustrace: Difrakce (ohyb) světla" width="285" loading="lazy" decoding="async">Na stínítku pozorujeme interferenční maxima (nultého řádu a vedlejší) a interfer. minima.
 
    *Rozložení maxima a minim záleží:*
 
-a) na šířce štěrbiny (užší štěrbina => výraznější ohyb)
+a) na šířce štěrbiny (užší štěrbina ⇒ výraznější ohyb)
 
 b) na vlnové délce světla (frekvenci): ↑ λ ~ ↑ ohyb
 
@@ -54,17 +51,17 @@ Např.: ohyb s červenou barvou je výraznější než s fialovou
 
 Pozn.: při osvětlení bílým světlem nulté maximum vidíme jako bílé, vedlejší vidíme v různých barvách (maxima různých barev jsou na různých místech)
 
-Ohyb světla na optické mřížce
+## Ohyb světla na optické mřížce
 
 1. *ohyb světla na dvou štěrbinách a na řadě rovnoběžných štěrbin*
 
-	Každá ze štěrbin vytváří ohybový obrazec => obrazce se překrývají a dochází k interferenci.
+	Každá ze štěrbin vytváří ohybový obrazec ⇒ obrazce se překrývají a dochází k interferenci.
 
-<img src="/images/content/fyzika/vlnova-optika-2/05.webp" alt="" width="247" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/vlnova-optika-2/05.webp" alt="Ilustrace: Ohyb světla na optické mřížce" width="247" loading="lazy" decoding="async">
 
-<img src="/images/content/fyzika/vlnova-optika-2/06.webp" alt="" width="245" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/vlnova-optika-2/06.webp" alt="Ilustrace: Ohyb světla na optické mřížce" width="245" loading="lazy" decoding="async">
 
-je-li b velmi malé => paprsky jsou rovnoběžné
+je-li b velmi malé ⇒ paprsky jsou rovnoběžné
 
 Δ s … dráhový rozdíl dvou paprsků
 
@@ -90,7 +87,7 @@ k … řád interference
 
 λ … vlnová délka dopadajícího světla
 
-<img src="/images/content/fyzika/vlnova-optika-2/09.webp" alt="" width="200" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/vlnova-optika-2/09.webp" alt="ohyb světla na optické mřížce" width="200" loading="lazy" decoding="async">
 
 *b) ohyb světla na optické mřížce*
 
@@ -116,9 +113,9 @@ na dvou štěrbinách (b)
 
  a na pěti štěrbinách (c)
 
-<img src="/images/content/fyzika/vlnova-optika-2/11.webp" alt="" width="415" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/vlnova-optika-2/11.webp" alt="Ilustrace: Ohyb světla na optické mřížce" width="415" loading="lazy" decoding="async">
 
-Holografie
+## Holografie
 
 = metoda založená na záznamu a rekonstrukci trojrozměrného obrazu
 
@@ -132,7 +129,7 @@ __Využití__
 
 - zabezpečovací prvky na různých dokumentech, výrobcích, bankovkách, … (mají chránit před paděláním)
 
-Polarizace světla
+## Polarizace světla
 
 = přeměna nepolarizovaného světla ve světlo lineárně polarizované
 
@@ -140,7 +137,7 @@ Lineárně polarizované světlo (obr. b) – světelné vlnění, jehož vektor
 
 __Nepolarizované světlo (obr. a) – světelné vlnění, jehož vektor__ E nekmitá v jediné rovině, ale nahodile se mění (běžné zdroje světla – zářivka, Slunce, …)
 
-<img src="/images/content/fyzika/vlnova-optika-2/12.webp" alt="" width="362" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/vlnova-optika-2/12.webp" alt="Ilustrace: Polarizace světla" width="362" loading="lazy" decoding="async">
 
 1. Polarizace odrazem
 
@@ -150,7 +147,7 @@ __Nepolarizované světlo (obr. a) – světelné vlnění, jehož vektor__ E ne
 
   – tzv. Brewsterův úhel
 
-<img src="/images/content/fyzika/vlnova-optika-2/13.webp" alt="" width="178" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/vlnova-optika-2/13.webp" alt="Ilustrace: Polarizace světla" width="178" loading="lazy" decoding="async">
 
 1. Polarizace lomem
 
@@ -162,9 +159,8 @@ __Izotropní__ __prostředí__ – světlo se šíří ve všech směrech stejno
 
 __Anizotropní prostředí__
 
-\- rychlost světla se v různých směrech liší (krystaly některých látek)
-
-\- při průchodu světla nastává dvojlom světla
+- rychlost světla se v různých směrech liší (krystaly některých látek)
+- při průchodu světla nastává dvojlom světla
 
 – paprsek se rozdělí na dva:
 
@@ -172,9 +168,9 @@ __Anizotropní prostředí__
 
 → *mimořádný paprsek* – neřídí se zákonem lomu
 
-Islandský vápenec
+## Islandský vápenec
 
-<img src="/images/content/fyzika/vlnova-optika-2/14.webp" alt="" width="122" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/vlnova-optika-2/14.webp" alt="Ilustrace: Islandský vápenec" width="122" loading="lazy" decoding="async">
 
 1. Polarizace absorpcí (pohlcením)
 
@@ -203,8 +199,8 @@ Islandský vápenec
 
 	→ *zobrazovací v propustném světle* (prosvětlené - LCD monitory, mobily, …)
 
-	\- TK světlo polarizují, kmitová rovina je orientována podle přítomnosti el. pole v daném místě tekutých krystalů
+	- TK světlo polarizují, kmitová rovina je orientována podle přítomnosti el. pole v daném místě tekutých krystalů
 
 	→ zobrazovací v odraženém světle (neprosvětlené kalkulačky, hodinky, …)
 
-	\- displej nemá vlastní zdroj světla a je možno ho pozorovat pouze při vnějším osvětlení displeje
+	- displej nemá vlastní zdroj světla a je možno ho pozorovat pouze při vnějším osvětlení displeje

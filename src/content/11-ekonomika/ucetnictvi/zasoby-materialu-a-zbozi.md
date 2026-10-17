@@ -173,17 +173,17 @@ __1. Inventura__ = zjištění skutečného stavu
 
 __2. Porovnání__ skutečného stavu se stavem účetním
 
-\- zjištění inventarizačních výsledků
+- zjištění inventarizačních výsledků
 
 SS < ÚS = MANKO – k úhradě
 
 SS > ÚS = PŘEBYTEK – špatné zaúčtování
 
-\- jejich zaúčtování ještě do toho roku
+- jejich zaúčtování ještě do toho roku
 
 __3. Zjištění viníků__ – náprava, opatření
 
-\- inventura zásob se může provádět 4 měsíce do konce roku a nebo 2 měsíce po ukončení roku = řádná inventura
+- inventura zásob se může provádět 4 měsíce do konce roku a nebo 2 měsíce po ukončení roku = řádná inventura
 
 __Manko__
 
@@ -235,7 +235,7 @@ __Oceňování zásob při inventarizaci__
 
 __Účtování předání výrobků do vlastní prodejny__
 
-\- výrobky z vlastní výroby do vlastní prodejny
+- výrobky z vlastní výroby do vlastní prodejny
 
 a) úbytek výrobků __583/123__
 

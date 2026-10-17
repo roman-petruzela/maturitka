@@ -46,24 +46,24 @@ __ÚSTAVNÍ VÝVOJ NA NAŠEM ÚZEMÍ V OBDOBÍ 1848 – DOPOSUD__
 
 __ÚSTAVNÍ POŘÁDEK__
 
-=> ústavní uspořádání zákonů, které mají v naší právní kultuře tu nejvyšší právní sílu\.
+⇒ ústavní uspořádání zákonů, které mají v naší právní kultuře tu nejvyšší právní sílu\.
 
 Hovoří se o nich v článku 3 a článku 112, kde jsou taxativně vymezeny\.
 
 - Ústava ČR, LZPS
-- Ústavní zákony přijaté podle této ústavy a ústavní zákony národního shromáždění ČSR, ČSSR a České národní rady upravující státní hranice a jejich ústavní zákony přijaté po červnu 1992 \-> ostatní ústavní zákony mají sílu zákona\.
+- Ústavní zákony přijaté podle této ústavy a ústavní zákony národního shromáždění ČSR, ČSSR a České národní rady upravující státní hranice a jejich ústavní zákony přijaté po červnu 1992 → ostatní ústavní zákony mají sílu zákona\.
 
 __ÚSTAVY NA NAŠEM ÚZEMÍ OD VZNIKU ČESKOSLOVENSKA__
 
-ÚSTAVA ČESKOSLOVENSKÁ
+## ÚSTAVA ČESKOSLOVENSKÁ
 
 Ústava z roku __1920__; obsahovala moc zákonodárnou \(Národní shromáždění – dvoukomorové\), moc vládní a výkonnou, moc soudcovská \(práva a svobody, jakož i povinnosti občanské, ochrana menšin, náboženských a rasových\)
 
-KVĚTNOVÁ ÚSTAVA
+## KVĚTNOVÁ ÚSTAVA
 
 Ústava __9\. května 1948__; novými institucemi byly slovenské orgány \(SNR a sbor pověřenců\) a národní výbory
 
-SOCIÁLNÍ ÚSTAVA
+## SOCIÁLNÍ ÚSTAVA
 
 Nahradila předešlou ústavu v roce __1960__; k přijetí vedly politické a ideologické důvody
 
@@ -77,7 +77,7 @@ Nejvyšší zákon ČR, k její změně nebo doplnění může dojít jen ústa
 
 Zákony, vyhlášky apod\. nesmí být s ústavou v rozporu\.                                                  8 hlav a 113 článků
 
-PREAMBULE
+## PREAMBULE
 
 Slavnostní prohlášení občanů ČR\. Hlavní autor byl Václav Havel\. Lze vysledovat dvě části: rekapitulační \(historické tradice\) a programově\-manifestační \(deklarace základních cílů a hodnot\)\.
 

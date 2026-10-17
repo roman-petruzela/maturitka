@@ -40,13 +40,13 @@ source: "FYZIKA-maturitní otázky/24-Akustika.docx"
 
 - Zdroj zvukového vlnění se stručně nazývá __zdroj zvuku__ a __hmotné prostředí__, v kterém se toto vlnění šíří, jeho __vodič__. Vodič zvuku, obyčejně vzduch, zprostředkuje spojení mezi __zdrojem zvuku__ a jeho __přijímačem (detektorem)__, kterým bývá v praxi __ucho__ nebo __mikrofon__
 
-<img src="/images/content/fyzika/akustika/01.webp" alt="" width="423" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/akustika/01.webp" alt="Ilustrace: Základní pojmy akustiky" width="423" loading="lazy" decoding="async">
 
 __Rychlost zvuku__
 
 - Ze zdroje se zvuk šíří jen pružným __látkovým prostředím__ libovolného skupenství. Nejčastěji je to __vzduch__, v němž se zvuk šíří jako __podélné postupné vlnění__. Nejdůležitější charakteristikou prostředí z hlediska šíření zvuku je __rychlost zvuku__ v daném prostředí. Rychlost zvuku ve vzduchu závisí na __složení vzduchu__ (nečistoty, vlhkost), ale nejvíce na jeho __teplotě__. Ve vzduchu o __teplotě t__ v Celsiových stupních má zvuk rychlost:
 
-  \[m.s-1\]<img src="/images/content/fyzika/akustika/02.webp" alt="" width="238" loading="lazy" decoding="async">
+  \[m.s-1\]<img src="/images/content/fyzika/akustika/02.webp" alt="Ilustrace: Základní pojmy akustiky" width="238" loading="lazy" decoding="async">
 
 - Rychlost zvuku __není__ ovlivněna __tlakem vzduchu__ a je stejná pro zvuková vlnění všech __frekvencí__. V kapalinách a pevných látkách je rychlost zvuku větší než ve vzduchu (popř. jiných plynech).
 	- vzduch (13,4°C) 340 m/s
@@ -68,7 +68,7 @@ __Rychlost zvuku__
 
 __Hladina akustického tlaku__
 
-<img src="/images/content/fyzika/akustika/03.webp" alt="" width="198" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/akustika/03.webp" alt="Ilustrace: Vlastnosti zvuku" width="198" loading="lazy" decoding="async">
 
 - __p__ je __akustický tlak__, který srovnáváme se základní hodnotou __p0 = 2.10-5 Pa__ – nejnižší hodnota akustického tlaku působícího na ušní bubínek, při kterém je referenční tón ještě slyšitelný
 - Jednotkou je __bel B__, v praxi se používá __decibel dB__ (práh bolesti - 12 B)
@@ -94,7 +94,7 @@ __Hlasitost zvuku__
 - Ucho není citlivé na zvuky různých frekvencí stejně (nejcitlivější při frekvencích 700 Hz až 6 kHz)
 - Jednotkou je __fon__, což je __hlasitost__, kterou člověk vnímá při poslouchání __referenčního tónu__ __1 kHz__ s __hladinou tlaku__ __40 dB__.
 
-<img src="/images/content/fyzika/akustika/04.webp" alt="" width="432" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/akustika/04.webp" alt="Ilustrace: Vlastnosti zvuku" width="432" loading="lazy" decoding="async">
 
 ## Charakteristiky tónu
 
@@ -127,7 +127,7 @@ __Využití:__
 - *Při relativním pohybu zdroje zvuku nebo pozorovatele vnímá pozorovatel zvuk jiné frekvence, než je frekvence zdroje.*
 - *Dopplerův jev popisuje změnu frekvence a vlnové délky přijímaného oproti vysílanému signálu, způsobenou nenulovou vzájemnou rychlostí vysílače a přijímače.*
 
-<img src="/images/content/fyzika/akustika/05.webp" alt="" width="397" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/akustika/05.webp" alt="Ilustrace: Dopplerův jev" width="397" loading="lazy" decoding="async">
 
 - Mohou nastat __dva případy__:
 	- zdroj je v klidu, pohybuje se přijímač
@@ -135,7 +135,7 @@ __Využití:__
 - Zvláštní případ nastává, když se rychlost pohybu zdroje __přiblíží rychlosti zvuku__ nebo ji __překročí__, pojem zvuková vlna tedy ztrácí smysl
 - Rozložení vlnoploch vytvářených zvukem letadla, které mají nadzvukovou rychlost:
 
-<img src="/images/content/fyzika/akustika/06.webp" alt="" width="460" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/akustika/06.webp" alt="Ilustrace: Dopplerův jev" width="460" loading="lazy" decoding="async">
 
 - Obalová plocha těchto vlnoploch tvoří tzv. __rázovou vlnu,__ dochází zde k prudkému __stlačení vzduchu__
 - Dochází k tomu např. u modernějších letadel, která se dokáží pohybovat až __nadzvukovou rychlostí__

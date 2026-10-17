@@ -34,7 +34,7 @@ Dělíme na:
 
    \-s dříve vydanými cennými papíry
 
-Předmětem obchodu je dlouhodobý finanční kapitál
+## Předmětem obchodu je dlouhodobý finanční kapitál
 
 __Nástroje:__
 
@@ -139,7 +139,7 @@ __Druhy akcií:__
 
 1. Zákonné x Listinné
 
-<img src="/images/content/ekonomika/ekonomie/financni-trh/01.webp" alt="" width="927" loading="lazy" decoding="async">
+<img src="/images/content/ekonomika/ekonomie/financni-trh/01.webp" alt="Ilustrace: Speciální" width="927" loading="lazy" decoding="async">
 
 __Dividenda__
 
@@ -312,7 +312,7 @@ Druhy:
 
 1. Všeobecné
 
-\- obchoduje se s různým zbožím i s cennými papíry
+- obchoduje se s různým zbožím i s cennými papíry
 
 1. Specializované
 

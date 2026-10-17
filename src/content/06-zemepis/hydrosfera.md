@@ -3,7 +3,7 @@ title: "Hydrosféra"
 order: 4
 source: "Zeměpis/Zeměpis GLP/4. Hydrosféra.docx"
 ---
-# 4. Hydrosféra
+## 4. Hydrosféra
 
 = vodní obal Země
 
@@ -19,7 +19,7 @@ source: "Zeměpis/Zeměpis GLP/4. Hydrosféra.docx"
 	- voda v atmosféře (vodní pára, dešťové srážky, sněhové srážky, kroupy)
 	- voda v živých organismech
 
-## Koloběh vody
+### Koloběh vody
 
 - hlavní příčinnou je sluneční záření
 
@@ -43,7 +43,7 @@ oceánem, pevninou a atmosférou
 
 pevniny padá zase na pevninu, z oceánu do oceánu
 
-## Světový oceán
+### Světový oceán
 
 - souvislá plocha tvořená pěti oceány (Tichý, Atlantský, Indický, Jižní (ledový), Severní ledový)
 - dělí se na oceány, moře, zálivy, průlivy….
@@ -70,7 +70,7 @@ průlivy:
 
 - zúžené části moří nebo oceánů mezi pevninou (Bospor, Gibraltar)
 
-### Mořská voda
+#### Mořská voda
 
 chemické složení
 
@@ -96,12 +96,12 @@ fyzikální vlastnosti
     - průměrná teplota 17 °C, nejteplejší je Tichý oceán
     - maximální teploty v uzavřených mělčinách tropických moří (Perský záliv, Rudé moře) klidně až 40 °C
 
-### Led na oceánské hladině
+#### Led na oceánské hladině
 
 - nejvíce oceánského ledu se vyskytuje v polárních oblastech
 - hladina oceánu je přibližně z 9% pokryta ledem
 
-### Pohyby oceánské vody
+#### Pohyby oceánské vody
 
 - vlnění – děje se po uzavřených dráhách
     - eolické – působení větru na hladinu
@@ -116,7 +116,7 @@ fyzikální vlastnosti
     - perioda vlny – doba mezi dvěma průchody hřbetů
     - průměrná výška vln je 15 m
 
-### Oceánské proudy
+#### Oceánské proudy
 
 - významný klimatotvorný faktor – dopravuje značné množství tepelné energie
 - přemisťování obrovských mas vody na velké vzdálenosti
@@ -126,11 +126,11 @@ fyzikální vlastnosti
 - studené proudy (16°C a míň) – z vyšších zem. šířek do nižších
 - Florida – oblast střetu studeného a teplého proudu, nedokáže se vyrovnat tlak, vznik tornád a hurikánů
 
-### Význam oceánu
+#### Význam oceánu
 
 - zdroj výživy a surovin, doprava, energie, rekreace
 
-## Vodstvo pevnin
+### Vodstvo pevnin
 
 \-podpovrchová - 1,7% (podzemní a půdní)
 \-led - 4,3%
@@ -139,7 +139,7 @@ fyzikální vlastnosti
 \-atmosférická - 0,001%
 \-řeky - 0,00015%
 
-### Povrchová voda
+#### Povrchová voda
 
 - pocházejí z atmosférických srážek, tání ledu a sněhu, podzemních vody vytékajících na povrch
 - řeky, jezera, přehrady, rybníky
@@ -178,13 +178,13 @@ fyzikální vlastnosti
     - rašeliniště – vznik v horských oblastech při vývěrech vod, vznik tlustých vrstev rašeliny, mohou na ní růst i keře
     - slatiniště – v nižších nadmořských výškách na kyselých a chudých půdách
 
-### Voda ve sněhu a ledu
+#### Voda ve sněhu a ledu
 
 - převážná část veškeré vody na pevnině (přibližně 65% sladké vody)
 - ledovce – pevninské (větší) a horské (menší)
     - globální oteplování způsobuje tání ledovců a zvyšování hladiny oceánu
 
-### Podpovrchová voda
+#### Podpovrchová voda
 
 - pod povrch se dostává vsakováním atmosférických srážek
 - půdní voda – obsažena v půdních pórech
@@ -197,12 +197,12 @@ fyzikální vlastnosti
     - hladina podzemní vody je různá, záleží na propustnosti půdy
 - význam – lázeňství, zdroje pitné vody, geotermální energie
 
-### Minerální voda
+#### Minerální voda
 
 - více než 1 mg v 1 l vody
 - dělení: kyselky, zemité, alkalické, sirné, železité, muriatické, uhličité, radioaktivní
 
-## Kryosféra
+### Kryosféra
 
 - část krajinné sféry, která je více než 2 roky pod bodem mrazu
 - voda v pevném skupenství – sníh, podpovrchový a podzemní led

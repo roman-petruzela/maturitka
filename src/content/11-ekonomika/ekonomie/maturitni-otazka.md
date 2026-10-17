@@ -217,11 +217,11 @@ Druhy mezd
 - Náhrady mezd
 - Podíly z HV
 
-Časová mzda
+## Časová mzda
 
 = hodinový mzdový tarif x počet odpracovaných hodin
 
-Výkonová mzda
+## Výkonová mzda
 
 = tarif výkonu x počet výkonu
 

@@ -3,32 +3,32 @@ title: "Trestní právo hmotné"
 order: 22
 source: "Právo/22. Trestní právo hmotné/22_trestni_pravo_hmotne.docx"
 ---
-# __22. Trestní právo hmotné__
+## __22. Trestní právo hmotné__
 
 __PŮSOBENÍ TRESTNÍHO ZÁKONA__
 
 __=__ působnost zákona se rozumí okruh společenských vztahů, na které se konkrétní právní norma vztahuje, a podmínky, za jakých se uplatňuje
 
-1. __Časová působnost__
+### 1. Časová působnost
 
 - Trestnost činu se posuzuje podle zákona účinného v době, kdy byl čin spáchán; podle pozdějšího zákona se posuje jen tehdy, jestliže to je pro pachatele příznivější
 
-1. __Místní působnost__
+### 2. Místní působnost
 
 - Vymezuje území, na kterém trestní zákon působí svými účinky
 
-1. __Osobní působnost__
+### 3. Osobní působnost
 
 - Patří sem výjimky jako jsou osoby beztrestné nebo pouze z části – prezident, poslanci, senátoři
 - nestíhatelnost
 
-1. __Věcná působnost (předmětová)__
+### 4. Věcná působnost (předmětová)
 
 - Vyjadřuje okruh společenských vztahů, trestní zákon působí, protože chrání veřejné a individuální vztahy zájmy a hodnoty bez ohledu na občanství poškozeného
 
 __ZÁSADY__
 
-1. __Zásada subsidiarity__
+### 5. Zásada subsidiarity
 
 - Trestní právo, jako nejpřísnější prostředek ochrany vymezených zájmu a hodnot, se uplatní jako poslední, kdy se ostatní prostředky ukáží jako neúčinné
 
@@ -38,7 +38,7 @@ __ZÁSADY__
 
 - Jak se k lidem máme lépe chovat; k lidem kteří jsou ve vězení
 
-1. __Zásada individuální odpovědnosti fyzické osoby za trestný čin__
+### 6. Zásada individuální odpovědnosti fyzické osoby za trestný čin
 
 - Kolektivní vina neexistuje
 - Pokud je jakákoli pochybnost o člověku, zda udělal/neudělal nelze ho stíhat
@@ -77,14 +77,14 @@ Povaha a závažnost trestného činu pro společnost je určena zejména:
 
 - zvlášť těžký následek, výše škody
 
-1. __Okolnostmi, za kterých byl čin spáchán__
+### 7. Okolnostmi, za kterých byl čin spáchán
 
 - Oloupení dítěte nebo slepce
 - Za živelné pohromy (vlakové neštěstí)
 - Hospodářská a politická situace
 - Vyšší výskyt trestní činnosti určitého druhu na určitém místě = kapsářství
 
-1. __Osobnost pachatele__
+### 8. Osobnost pachatele
 
 - Mladiství – polehčující okolnost
 - Osoba dosud netrestaná – polehčující okolnost
@@ -92,12 +92,12 @@ Povaha a závažnost trestného činu pro společnost je určena zejména:
 - § 41 polehčující okolnosti
 - § 42 přitěžující okolnosti
 
-1. __Mírou zavinění, záměrem nebo cílem__
+### 9. Mírou zavinění, záměrem nebo cílem
 
 - Úmyslné zavinění je nebezpečnějším než nedbalostí
 - Důsledná příprava a promyšlenost
 
-1. __Pohnutka__
+### 10. Pohnutka
 
 __KVALIFIKACE ŠKOD__
 
@@ -142,14 +142,14 @@ __ZNAKY SKUTKOVÉ PODSTATY – SUBJEKT, SUBJEKTIVNÍ STRÁNKA, OBJEKT, OBJEKTIVN
 
 __VÝVOJOVÁ STÁDIA TRESTNÉHO ČINU__
 
-1. __Příprava k trestnému činu__
+### 11. Příprava k trestnému činu
 
 = je jednání, které spočívá v úmyslném vytváření podmínek pro spáchání zvlášť závažného zločinu
 
 - O přípravu jde jen tehdy, jestliže to trestní zákoník u příslušného trestného činu výslovně stanoví a pokud nedošlo k pokusu ani dokonání zvlášť závažného zločinu
 - Příprava směřuje k trestnému činu, který má konkrétní rysy a pachatel má úmysl takový určitý trestný čin spáchat
 
-1. __Pokus trestného činu__
+### 12. Pokus trestného činu
 
 = je jednání, které bezprostředně směřuje k dokonání trestného činu a jehož se pachatel dopustil v úmyslu trestný čin spáchat, jestliže k dokonání trestního činu nedošlo
 
@@ -160,7 +160,7 @@ __VÝVOJOVÁ STÁDIA TRESTNÉHO ČINU__
 	- z umístění rány.
 - Z dokonání trestného činu nedošlo – zůstalo jen u pokusu, přičemž pokus je charakterizován především nedostatkem následku, př. úmysl je zřejmý v případě, že pachatel spoutá oběť, aby ji později snadno usmrtil
 
-1. __Trestnost přípravy a pokusu a její zánik__
+### 13. Trestnost přípravy a pokusu a její zánik
 
 - Příprava je trestná
 - Pokus k trestnému činu je trestný
@@ -169,7 +169,7 @@ __VÝVOJOVÁ STÁDIA TRESTNÉHO ČINU__
 	- Dobrovolně učinil o přípravě nebo pokusu oznámení státnímu zástupci nebo policejnímu orgánu v době, kdy nebezpečí, které vzniklo zájmu schráněnému trestním zákoníkem z podniknuté přípravy nebo pokusu, mohlo být odstraněno
 	- Dobrovolně odstranil nebezpečí, které vzniklo zájmu chráněnému trestním zákonem z podniknuté přípravy nebo pokusu
 
-1. __Dokonaný trestný čin__
+### 14. Dokonaný trestný čin
 
 - Dokonaná trestný čin je nejzávažnějším vývojovým stadiem trestného činu, které se vyznačuje jeho společenskou škodlivostí a naplněním všech znaků skutkové podstaty trestného činu
 
@@ -227,7 +227,7 @@ Do 19 let lze prodloužit takzvanou ochrannou výchovu, a to z důvodu jeho vla
 
 __Věk blízký věku mladistvému__
 
-Jedná se o polehčující okolnosti. Lze upustit od potrestání (Osmnáctiletý kluk v autě, který srazil chodce -> polehčující okolností zde je to, zda se přišel omluvit, věk blízký mladistvému -> ustanoví se ochranná výchova či kurátor -> po roce konec.
+Jedná se o polehčující okolnosti. Lze upustit od potrestání (Osmnáctiletý kluk v autě, který srazil chodce → polehčující okolností zde je to, zda se přišel omluvit, věk blízký mladistvému → ustanoví se ochranná výchova či kurátor → po roce konec.
 
 __Věková hranice až do 20 let__
 

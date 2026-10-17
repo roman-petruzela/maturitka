@@ -44,9 +44,9 @@ __Gama záření__
 - Často vzniká spolu s alfa či beta zářením při radioaktivním rozpadu jader
 - Má vlnové délky kratší než 124 pm, což odpovídá frekvencím nad 2,42 EHz (1018)‏
 
-<img src="/images/content/fyzika/elektromagneticke-vlny/01.webp" alt="" width="348" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/elektromagneticke-vlny/01.webp" alt="Ilustrace: Elektromagnetické vlny" width="348" loading="lazy" decoding="async">
 
-<img src="/images/content/fyzika/elektromagneticke-vlny/02.webp" alt="" width="713" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/elektromagneticke-vlny/02.webp" alt="Ilustrace: Elektromagnetické vlny" width="713" loading="lazy" decoding="async">
 
 ## Rovnice postupné rovinné elmag. vlny
 
@@ -56,7 +56,7 @@ __Gama záření__
 
 $$u = U_m \sin 2\pi \left(\frac{t}{T} - \frac{x}{cT}\right)$$
 
-<img src="/images/content/fyzika/elektromagneticke-vlny/05.webp" alt="" width="368" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/elektromagneticke-vlny/05.webp" alt="Ilustrace: Rovnice postupné rovinné elmag. vlny" width="368" loading="lazy" decoding="async">
 
 - Protože
 
@@ -74,22 +74,22 @@ $$u = U_m \sin 2\pi \left(\frac{t}{T} - \frac{x}{\lambda}\right)$$
 - Vznikají:
 	- Místa, kde je mezi __vodiči maximální napětí__
 
-<img src="/images/content/fyzika/elektromagneticke-vlny/07.webp" alt="" width="336" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/elektromagneticke-vlny/07.webp" alt="Ilustrace: Stojaté elmag. vlnění" width="336" loading="lazy" decoding="async">
 
 -
 	-
 		- Náboj ve vodičích je velmi rozdílny, mezi vodiči vzniká silné el. pole
 	- Místa, kde je mezi __vodiči nulové napětí__
 
-<img src="/images/content/fyzika/elektromagneticke-vlny/08.webp" alt="" width="216" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/elektromagneticke-vlny/08.webp" alt="Ilustrace: Stojaté elmag. vlnění" width="216" loading="lazy" decoding="async">
 
 -
 	-
 		- Náboj je v těchto místech stejný, mezi vodiči nevzniká el. pole
 
-<img src="/images/content/fyzika/elektromagneticke-vlny/09.webp" alt="" width="387" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/elektromagneticke-vlny/09.webp" alt="Ilustrace: Stojaté elmag. vlnění" width="387" loading="lazy" decoding="async">
 
-<img src="/images/content/fyzika/elektromagneticke-vlny/10.webp" alt="" width="528" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/elektromagneticke-vlny/10.webp" alt="Ilustrace: Stojaté elmag. vlnění" width="528" loading="lazy" decoding="async">
 
 ## Elektromagnetický dipól
 
@@ -101,13 +101,13 @@ $$u = U_m \sin 2\pi \left(\frac{t}{T} - \frac{x}{\lambda}\right)$$
 - Ve směru osy se energie __nevyzařuje__
 - Elektromagnetický dipól se používá jako __anténa__ (parabola) u vysílačů a přijímačů ve sdělovací technice
 
-Elektromagnetické pole dipólu
+## Elektromagnetické pole dipólu
 
-<img src="/images/content/fyzika/elektromagneticke-vlny/11.webp" alt="" width="320" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/elektromagneticke-vlny/11.webp" alt="Ilustrace: Elektromagnetické pole dipólu" width="320" loading="lazy" decoding="async">
 
 Dipól
 
-<img src="/images/content/fyzika/elektromagneticke-vlny/12.webp" alt="" width="348" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/elektromagneticke-vlny/12.webp" alt="Ilustrace: Elektromagnetické pole dipólu" width="348" loading="lazy" decoding="async">
 
 ### Vlastnosti elmag. vlnění
 
@@ -127,14 +127,14 @@ __Zákon odrazu__
 - *Úhel odrazu je roven úhlu dopadu, přičemž odražené paprsky zůstávají v rovině dopadu.*
 - Vlnění dopadá na rozhraní pod __úhlem α__, dospěje do bodu A a postupně až do bodu C. Tyto body se stávají zdroji elementárního vlnění, které se šíří zpět do prostředí, dochází k odrazu vlnění
 
-<img src="/images/content/fyzika/elektromagneticke-vlny/13.webp" alt="" width="489" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/elektromagneticke-vlny/13.webp" alt="Ilustrace: Vlastnosti elmag. vlnění" width="489" loading="lazy" decoding="async">
 
 __Difrakce (ohyb) vlnění__
 
 - Označuje jevy, které vznikají při __průchodu__ vlnění __otvorem__ nebo __kolem překážky__ způsobující narušení vlnění. Obecně platí, že ohyb je při určitém rozměru překážky  tím výraznější, čím větší je vlnová délka vlnění. Ohyb je vždy spojen s __interferencí__.
 - Ohyb je charakteristickou vlastností vlnění a je vysvětlován pomocí __Huygensova principu.__
 
-<img src="/images/content/fyzika/elektromagneticke-vlny/14.webp" alt="" width="243" loading="lazy" decoding="async"><img src="/images/content/fyzika/elektromagneticke-vlny/15.webp" alt="" width="209" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/elektromagneticke-vlny/14.webp" alt="Ilustrace: Vlastnosti elmag. vlnění" width="243" loading="lazy" decoding="async"><img src="/images/content/fyzika/elektromagneticke-vlny/15.webp" alt="Ilustrace: Vlastnosti elmag. vlnění" width="209" loading="lazy" decoding="async">
 
 __Interference__
 
@@ -143,7 +143,7 @@ __Interference__
 - Výsledkem skládání vln je __složené vlnění.__ Výsledný kmitavý pohyb v daném místě je dán __principem superpozice__ kmitání jednotlivých vlnění. V důsledku interference vlnění tedy dochází v některých místech ke __zvýšení (zesílení) amplitudy__ a v některých místech k jejímu __snížení (zeslabení)__
 - __Příklad:__ interference rovinných vln
 
-<img src="/images/content/fyzika/elektromagneticke-vlny/16.webp" alt="" width="526" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/elektromagneticke-vlny/16.webp" alt="Ilustrace: Vlastnosti elmag. vlnění" width="526" loading="lazy" decoding="async">
 
 __Polarizace__
 
@@ -152,7 +152,7 @@ __Polarizace__
 - Vybereme-li pouze kmity __určitého směru__, bude mít vlnění v různých směrech kolmých ke směru šíření různé vlastnosti. Taková vlna se označuje jako __polarizovaná__
 - Proces vytvoření polarizovaného vlnění z nepolarizovaného se označuje jako __polarizace vlnění__ a provádí se pomocí polarizátoru
 
-<img src="/images/content/fyzika/elektromagneticke-vlny/17.webp" alt="" width="352" loading="lazy" decoding="async"><img src="/images/content/fyzika/elektromagneticke-vlny/18.webp" alt="" width="351" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/elektromagneticke-vlny/17.webp" alt="Ilustrace: Vlastnosti elmag. vlnění" width="352" loading="lazy" decoding="async"><img src="/images/content/fyzika/elektromagneticke-vlny/18.webp" alt="Ilustrace: Vlastnosti elmag. vlnění" width="351" loading="lazy" decoding="async">
 
 __Rychlost elmag. vlnění__
 

@@ -2,6 +2,7 @@
 title: "Kvadratická funkce"
 order: 20
 source: "Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/20) Kvadratická funkce.pdf"
+formulaRail: false
 hasExercises: true
 ---
 

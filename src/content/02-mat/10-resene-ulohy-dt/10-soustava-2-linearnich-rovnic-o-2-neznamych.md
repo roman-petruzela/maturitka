@@ -2,6 +2,7 @@
 title: "Soustava 2 lineárních rovnic o 2 neznámých"
 order: 10
 source: "Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/10) Soustava 2 lineárních rovnic o 2 neznámých.pdf"
+formulaRail: false
 hasExercises: true
 ---
 

@@ -134,9 +134,9 @@ b\)	__příkaz k inkasu__
 
 __Druhy__
 
-- __podle výstavce__ => a\) __osobní__ – vystavuje ho osoba z vlastní šekové knížky – je nekrytý; b\) __bankovní__ – nejkvalitnější šeky, protože banka je vyhotoví až když zjistí jaký je zůstatek na BÚ
-- __podle osob__ => a\) __na__ __jméno__ – uvede se konkrétní osoba; b\) __„na majitele“__ \- majitelem je kdokoliv, kdo drží šek
-- __podle placení__ => a\) __pokladní__ – hotovostní způsob; b\) „__k__ __zúčtování__“ \- přepsání bezhotovostně
+- __podle výstavce__ ⇒ a\) __osobní__ – vystavuje ho osoba z vlastní šekové knížky – je nekrytý; b\) __bankovní__ – nejkvalitnější šeky, protože banka je vyhotoví až když zjistí jaký je zůstatek na BÚ
+- __podle osob__ ⇒ a\) __na__ __jméno__ – uvede se konkrétní osoba; b\) __„na majitele“__ \- majitelem je kdokoliv, kdo drží šek
+- __podle placení__ ⇒ a\) __pokladní__ – hotovostní způsob; b\) „__k__ __zúčtování__“ \- přepsání bezhotovostně
 - __náležitosti šeku__: bezpodmínečný příkaz zaplatit; slovo šek v souvislém textu; jméno toho kdo má platit; místo, kde má být zaplaceno; datum a místo vystavení\+ částka; podpis výstavce
 - v ČR __splatné__ do 8 dnů; EU 20 dnů; svět 70 dnů
 - __INDOSAMENT__ = rubopis =používá se pro převod šeku na jinou osobu a má podoby a\) BLANKOINDOSAMENT – majitel se podepíše 	na rub a kdokoliv s ním může přijít do banky b\) vyplněný indosament – napíše se konkrétní osoba

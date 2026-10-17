@@ -3,86 +3,84 @@ title: "Ekonomická reforma a tržní ekonomika"
 order: 24
 source: "Společenské vědy/24. EKONOMICKA REFORMA A TRZNI EKONOMIKA.docx"
 ---
-\- smyslem ekonomické reformy je přechod od __centrálně plánované ekonomiky \(CPE\)__ k __ekonomice
+- smyslem ekonomické reformy je přechod od __centrálně plánované ekonomiky \(CPE\)__ k __ekonomice
   trhu__
 
-\- vytvoření CPE vedlo ke vzniku umělého, nepřirozeného ekonomického systému, jenž bylo možno
+- vytvoření CPE vedlo ke vzniku umělého, nepřirozeného ekonomického systému, jenž bylo možno
   udržet při životě pouze pomocí politického násilí a státní moci \(totalitní diktatura\)
 
-\- ekonomickým základem CPE __je státní vlastnictví__ – představuje obvykle téměř 100% veškerých
+- ekonomickým základem CPE __je státní vlastnictví__ – představuje obvykle téměř 100% veškerých
   kapitálových statků a půdy v zemi nebo alespoň množství, které je jednoznačně dominantní
 
-\- trh je v CPE nahrazen __centrálním plánem__ – jeho obsahem jsou direktivní příkazy podnikům, co a
+- trh je v CPE nahrazen __centrálním plánem__ – jeho obsahem jsou direktivní příkazy podnikům, co a
   v jakém množství mají vyrábět a jakému podniku mají svou produkci dodat
-\- __ceny jsou administrativně stanovovány – cena není výsledkem vztahu nabídka – poptávka__
-
-\- fungování CPE vede k celkové a __úplné ekonomické devastaci__, na níž bezprostředně navazuje
+- __ceny jsou administrativně stanovovány – cena není výsledkem vztahu nabídka – poptávka__
+- fungování CPE vede k celkové a __úplné ekonomické devastaci__, na níž bezprostředně navazuje
   devastace ekologická, sociální, kulturní a mravní
 
-\- přechodu od tohoto systému k tržní ekonomice však nešlo ponechat živelný, spontánní průběh – to
+- přechodu od tohoto systému k tržní ekonomice však nešlo ponechat živelný, spontánní průběh – to
   by mělo katastrofální následky \!
 
-\- podle scénáře ekonomické reformy __ČSFR \(zahájené 1\.1\.1991\)__, na navázala ČR bylo v procesu
+- podle scénáře ekonomické reformy __ČSFR \(zahájené 1\.1\.1991\)__, na navázala ČR bylo v procesu
   transformace makroekonomickou prioritou __blokování inflačního procesu__ a této prioritě musely být
   v rozumném rozsahu podřízeny všechny další základní __makroekonomické cíle – ekonomický růst,
   zaměstnanost a vyrovnanost platební bilance__
 
-\- důležitým krokem reformy je __deetatizace__ \(odstátnění\) __ekonomiky__, to se uskutečňovalo
+- důležitým krokem reformy je __deetatizace__ \(odstátnění\) __ekonomiky__, to se uskutečňovalo
   prostřednictvím __malé a velké privatizace \!__ – v rámci __malé privatizace__ byl majetek nabízen
   __tuzemským fyzickým osobám formou aukcí za hotové peníze__
 
-\- současně s malou privatizací byla prováděna __restituce__ – navrácení majetku původním majitelům,
+- současně s malou privatizací byla prováděna __restituce__ – navrácení majetku původním majitelům,
   popř\. jejich přímým dědicům – __jde o majetky, které byly odňaty bez náhrady původním majitelům
   po únoru 1948__
-\- malá privatizace otevřela prostor pro soukromé podnikání, umožnila vznikání tradičních řemeslníku,
+- malá privatizace otevřela prostor pro soukromé podnikání, umožnila vznikání tradičních řemeslníku,
   jednotlivých řemeslnických oborů, obchodů a tím vytvořila konkurenční prostředí
-\- __velká privatizace__ – prodej účastí na státních podnicích v rámci velké privatizace byl mimo existující
+- __velká privatizace__ – prodej účastí na státních podnicích v rámci velké privatizace byl mimo existující
   možnosti domácího obyvatelstva – úspory obyvatelstva byly velice malé, a jednak byly zjevně
   pořizovány za účelem běžné spotřeby – __plné použití těchto úspor na privatizační účely by navíc
   ohrozilo životaschopnost bank a spořitelen__
-\- jedinou možností jak do procesu velké privatizace zapojit v širší míře a relativně v krátkém čase
+- jedinou možností jak do procesu velké privatizace zapojit v širší míře a relativně v krátkém čase
   domácí obyvatelstvo, bylo majetkové účasti \(akcie\) tomuto obyvatelstvu nabídnout „pod cenou“ –
   technickou stránku této operace řešila __metoda tzv\. investičních kupónů \(kupónová privatizace\)__
 
-\- dále byly uplatňovány standartní metody privatizace, např\. __prodej majetkových podílů nebo celé
+- dále byly uplatňovány standartní metody privatizace, např\. __prodej majetkových podílů nebo celé
   hodnoty privatizovaných podniků tuzemským i zahraničním investorům za tržní ceny, vytváření
   společných podniků se zahraniční kapitálovou účastí__
 
-\- __Liberalizace cen \(1\.1\.1991\)__ \- liberalizace cen mířila k odstranění překážek, které bránily tvorbě cen
+- __Liberalizace cen \(1\.1\.1991\)__ \- liberalizace cen mířila k odstranění překážek, které bránily tvorbě cen
   na základě pohybů nabídky a poptávky \- v počáteční fázi ekonomické reformy nebyly plně
   liberalizovány všechny ceny \- byly vymezeny určité výrobky a služby, které podléhaly nebo ještě
   podléhají cenové regulaci \(nájemné za byty, energie\)
 
-\- současně dochází k __devalvaci měny__ vůči volně směnitelným měnám z kurzu 1 USD / 17 Kč
+- současně dochází k __devalvaci měny__ vůči volně směnitelným měnám z kurzu 1 USD / 17 Kč
   na 1 USD /28 Kč a zavedení vnitřní konvertibility \(směnitelnosti\) koruny\!
 __\-__ devalvace = znehodnocení \(měny\) – oslabení domácí měny vůči zahraničním měnám v systému
                          fixních \(úředně stanovených\) kurzů
-                       \- protože měnový kurz určité změny znamená její cenu v jednotkách domácí měny,
+                       - protože měnový kurz určité změny znamená její cenu v jednotkách domácí měny,
                          znamená devalvace úřední zvýšení kurzu cizích měn
-                       \- devalvací se zlevňuje vyvážené zboží na zahraničních trzích a naopak zdražuje dovážené
+                       - devalvací se zlevňuje vyvážené zboží na zahraničních trzích a naopak zdražuje dovážené
                          zboží – proto se devalvace používala pro podporu exportu a zlepšení bilance
                          zahraničního obchodu, v zemích závislých např\. na dovozu energií může však také
                          vyvolat tzv\. „dováženou inflaci“
-                       \- opakem je revalvace
-                       \- v systému plovoucích směnných kurzů \(floating\) nemluvíme o devalvaci, ale o růstu
+                       - opakem je revalvace
+                       - v systému plovoucích směnných kurzů \(floating\) nemluvíme o devalvaci, ale o růstu
                          kurzu zahraniční měny čili o depreciaci
-                       \- původně snížení zlatého obsahu \(krytí\) měnové jednotky
-
-\- dále dochází k __liberalizaci zahraničního obchodu__, který otevírá naši ekonomiku efektivním tlakům
+                       - původně snížení zlatého obsahu \(krytí\) měnové jednotky
+- dále dochází k __liberalizaci zahraničního obchodu__, který otevírá naši ekonomiku efektivním tlakům
   ze strany vnějšího světa\!
 
-\- součástí ekonomické reformy bylo zavedení nové __daňové soustavy \(1\.1\.1993\)__, jde o sblížení našeho
+- součástí ekonomické reformy bylo zavedení nové __daňové soustavy \(1\.1\.1993\)__, jde o sblížení našeho
   daňového systému se systémem EU
-\- některé z daní, které tvoří daňovou soustavu:
-                              \- daň z přidané hodnoty \(nahradila tzv\. daň z obratu\)
-                              \- spotřební daň
-                              \- dovozní daň
-                              \- daň z příjmů
-                              \- daň podniků a společenství
-                              \- daň silniční
-                              \- daň z nemovitostí
-                              \- daň dědická a darovací
-                              \- poplatky soudní, správní a místní
+- některé z daní, které tvoří daňovou soustavu:
+                              - daň z přidané hodnoty \(nahradila tzv\. daň z obratu\)
+                              - spotřební daň
+                              - dovozní daň
+                              - daň z příjmů
+                              - daň podniků a společenství
+                              - daň silniční
+                              - daň z nemovitostí
+                              - daň dědická a darovací
+                              - poplatky soudní, správní a místní
 
 __¨__
 
@@ -95,23 +93,21 @@ __TRŽNÍ EKONOMIKA__
 
 \-specifická forma směnné hodnoty je cena \(v penězích\)
 
-Členění trhu
+## Členění trhu
 
 __1\. Podle územní působnosti__ \- trh místní\-jarmark, první forma trhu
 
-\- trh národní
-
-\- trh světový\-obchoduje se po celém světě
+- trh národní
+- trh světový\-obchoduje se po celém světě
 
 __2\. Podle počtu zboží__ \- trh dílčí\- jeden určitý výrobek
 
-\- Agregátní trh\- trh veškerého zboží
+- Agregátní trh\- trh veškerého zboží
 
 __3\. Podle předmětu koupě a prodeje \-__ trh práce, půdy, kapitálu
 
-\- trh peněz
-
-\- trh výrobků a služeb
+- trh peněz
+- trh výrobků a služeb
 Faktory ovlivňující trh práce
 __1\. demografický vývoj__ \(porodnost, úmrtnost\)
 __2\. vzdělanostní struktura obyvatel__ \(výuční list, maturitní zkouška, státní závěrečná zkouška,
@@ -150,9 +146,9 @@ Faktory ovlivňující nabídku
 **Poptávka
 __Zákon klesající poptávky\- S rostoucí cenou klesá množství__**  poptávaného zboží
 
-__<img src="/images/content/spolecenske-vedy/ekonomicka-reforma-a-trzni-ekonomika/02.webp" alt="" width="236" loading="lazy" decoding="async">__
+__<img src="/images/content/spolecenske-vedy/ekonomicka-reforma-a-trzni-ekonomika/02.webp" alt="Ilustrace: Členění trhu" width="236" loading="lazy" decoding="async">__
 
-Dělení poptávky
+## Dělení poptávky
 
 __1\. Celková \(agregátní\)__ \- poptávka všech kupujících po všech druzích výrobků\.
 
@@ -214,7 +210,7 @@ Podle přítomnosti [tržní ceny](https://cs.wikipedia.org/wiki/Tr%C5%BEn%C3%A
 Služby
 Je zvláštní druh statku, který nemá materializovanou podobu\. Služby se obvykle charakterizují jako nehmotné, neskladovatelné a nezkazitelné ekonomické statky\.
 
-Dělení
+## Dělení
 
 __1\. Věcné__ – zaměřené na obnovu statků – opravny, čistírny, …
 

@@ -3,9 +3,9 @@ title: "Marketingové řízení a marketingový mix Dokumenty Google"
 order: 23
 source: "Účetnictví/23. Marketingové řízení a marketingový mix - Dokumenty Google.pdf"
 ---
-# Marketingové  řízení
+## Marketingové  řízení
 
-## Definice  a  vznik  marketingu
+### Definice  a  vznik  marketingu
 
 Marketing=  “práce  s  trhem”
 
@@ -15,7 +15,7 @@ Marketing=  “práce  s  trhem”
 
 -  příčinou  vzniku  marketingu  byl  růst  produkční  schopnosti  společnosti  a  s  tím související  odbytové  potíže  podniků.
 
-### Podnikatelská  koncepce
+#### Podnikatelská  koncepce
 
 - je  to  názor  na  to  jak  podnikat  tzn.  jaké  cíle,  metody  a  nástroje  podnikání  použít  v daném  místě  a  čase
 
@@ -77,7 +77,7 @@ Nástup  marketingu  začíná  prvními  problémy  v  umístění  přebytků 
 
 -  tato  koncepce  je  v  současnosti  typická  např.  u  společnosti,  vyrábějících  ekologické prací  prášky  či  ekologické  motory  automobilů
 
-## Cíle  marketingu
+### Cíle  marketingu
 
 MK  cíle  jsou  určovány  tak,  aby  napomáhaly  dosažení  strategických  cílů  firmy.  Podkladem pro  stanovení  MK  cílů  jsou  cíle  podniku  jako  celku,  výsledky  situační  analýzy  intuice. =  dlouhodobý  odbyt  výrobků  a  služeb
 
@@ -91,7 +91,7 @@ MK  cíle  jsou  určovány  tak,  aby  napomáhaly  dosažení  strategických 
 
 - Cíl  by  měl  být  měřitelný  a  kontrolovatelný  a  měli  by  jsem  učit  přesný  čas  jeho dosažení
 
-### Ekonomické cíle
+#### Ekonomické cíle
 
 - −  tržní  podíl
 
@@ -101,7 +101,7 @@ MK  cíle  jsou  určovány  tak,  aby  napomáhaly  dosažení  strategických 
 
 - −  růst  tržní  penetrace
 
-### Psychografické cíle
+#### Psychografické cíle
 
 - −  seznámit  s  produktem  nebo  jeho  vlastnostmi
 
@@ -113,7 +113,7 @@ MK  cíle  jsou  určovány  tak,  aby  napomáhaly  dosažení  strategických 
 
 - −  posílit  nákupní  úmysl
 
-### Formulace  marketingových  cílů
+#### Formulace  marketingových  cílů
 
 MK  cíle  je  třeba  formulovat  tak,  abychom  později  mohli  kontrolovat,  zda  byly  skutečně dosaženy.
 
@@ -127,7 +127,7 @@ Cíle  mají  být  realistické  a  neměly  by  si  odporovat.
 
 Dojde-li  ke  konfliktu  cílů,  musíme  si  určit  priority.  Formulujeme-li  své,  měli  bychom věnovat  zvýšenou  pozornost  vazbám  účinků  cílových  ukazatelů.  Hierarchie  cílů  nám  umožní určit  těžiště  problému.
 
-### Strategie
+#### Strategie
 
 -  slovo  strategie  znamená  dlouhodobý  záměr  k  dosažení  cílů Strategická  marketingová  rozhodnutí
 
@@ -139,7 +139,7 @@ Dojde-li  ke  konfliktu  cílů,  musíme  si  určit  priority.  Formulujeme-li
 
 - •  rozhodnutí  o  případném  spojení  s  konkurencí  (např.  při  náročném  výzkumu  a  vývoji nových  výrobků)
 
-### Strategie  zaměřené  na  stimulaci  trhu
+#### Strategie  zaměřené  na  stimulaci  trhu
 
 Podnik  si  zpravidla  zvolí  jednu  z  těchto  dvou  orientací:
 
@@ -163,7 +163,7 @@ Výhody:  větší  šance  na  úspěch  na  trhu Nevýhody:  větší  riziko 
 
 - **nalézt  tzv.  tržní  mezeru** –  tržní  mezera  je  oblast,  které  konkurenti  nevěnují  pozornost; dobré  zvládnutí  této  strategie  může  přinést  vysoké  efekty  a  tržní  pozice
 
-## SWOT  analýza
+### SWOT  analýza
 
 - Analýza  kdy  si  podnik  stanoví  postavení  na  trhu
 
@@ -183,7 +183,7 @@ Výhody:  větší  šance  na  úspěch  na  trhu Nevýhody:  větší  riziko 
 
 - **T** -  hrozby  (ohrožení)
 
-## BCG  analýza  -  portfolio  analýza
+### BCG  analýza  -  portfolio  analýza
 
 - název  odvozen  od  americké  společnosti
 
@@ -193,7 +193,7 @@ Výhody:  větší  šance  na  úspěch  na  trhu Nevýhody:  větší  riziko 
 
 b)  tempo  růstu  trhu
 
-### 1.Otazníky:
+#### 1.Otazníky:
 
 - mají  malý  podíl  na  trhu  ale  s  malou  tendencí  (  rychlý  nárůst  prodeje  nového  výrobku  ale  za malý  tržní  podíl)
 
@@ -203,13 +203,13 @@ b)  tempo  růstu  trhu
 
 - firma  musí  zvážit,  zda  výrobek  dál  financovat,  nebo  jej  přestat  vyrábět
 
-### 2.Hvězdy:
+#### 2.Hvězdy:
 
 -výrobky  s  vysokým  tempem  růstu  a  s  velkým  podílem  (je  pro  firmu  nadějí  na  zisk  zároveň vyžaduje  malé  finanční  náklady)
 
 - pro  firmu  jsou  nadějným  zdrojem  budoucích  zisků,  zároveň  však  vyžadují  nemalé  finanční prostředky  na  podporu  prodeje,  reklamu  apod.
 
-### 3.Dojné  krávy:
+#### 3.Dojné  krávy:
 
 - výrobky  vykazují  vysoký  podíl  na  trhu  ale  malý  růst
 
@@ -217,17 +217,17 @@ b)  tempo  růstu  trhu
 
 - jejich  výroba  a  prodej  zajišťují  finanční  prostředky  pro  ostatní  v  portfoliu
 
-### 4.Bídní  psi:
+#### 4.Bídní  psi:
 
 - výrobky  vykazující  nízké  tempo  růstu  na  trhu  a  nízký  zisk
 
 - tyto  výrobky  se  nevyvíjejí,  jsou  pro  firmu  neperspektivní,  ztrátové  a  vedení  podniku  musí zvážit  jejich  setrvání  v  portfoliu  firmy
 
-# Marketingový  mix
+## Marketingový  mix
 
 **Marketingový  mix** je  soubor  marketingových  nástrojů,  které  firma  používá  k  ovlivnění poptávky  po  svém  výrobku.
 
-## Nastroje  marketingu
+### Nastroje  marketingu
 
 Aby  mohl  podnik  co  nejlépe  uspokojovat  požadavky  zákazníků,  musí  k  tomu  mít  příslušné nástroje.  Postupně  se  vytvořil  tzv.  MARKETINGOVÝ  MIX,  které  obsahuje  čtyři  nástroje. Podle  počátečních  písmen  jejich  anglických  názvů  je  označujeme  také  jako  4P
 
@@ -239,21 +239,21 @@ Aby  mohl  podnik  co  nejlépe  uspokojovat  požadavky  zákazníků,  musí  
 
 - marketingová  komunikace  neboli  propagace  (promotion)
 
-## Definice  a  klasifikace  produktu
+### Definice  a  klasifikace  produktu
 
-### Klasifikace  produktu
+#### Klasifikace  produktu
 
 Z  hlediska  marketingu  je  výrobkem  vše,  co  může  být  na  trhu  nabízeno  a  směňováno  a  co  je určeno  k  uspokojení  lidské  potřeby  nebo  přání.  Může  jít  nejen  o  fyzické  předměty,  ale  i  o služby,  osoby,  organizace  a  myšlenky.
 
-### Mezinárodní  třídění  obchodního  sortimentu
+#### Mezinárodní  třídění  obchodního  sortimentu
 
-### <u>A)Potraviny</u>
+#### <u>A)Potraviny</u>
 
 - suchý  sortiment  (mouka,  těstoviny,  koření,  cukr,  většina  cukrovinek)
 
 - rychle  se  kazící  sortiment  (mléčné  výrobky,  pečivo)
 
-### <u>B)Nepotraviny</u>
+#### <u>B)Nepotraviny</u>
 
 - měkký  sortiment  (oděvy,  obuv,  drogistické  zboží  a  kosmetika)
 
@@ -261,7 +261,7 @@ Z  hlediska  marketingu  je  výrobkem  vše,  co  může  být  na  trhu  nabí
 
    - hnědý  sortiment  (audio,  video,  TV,  zboží  elektro,  jízdní  kola)
 
-## Životní  cyklus  výrobku,  odchylky  od  životního  cyklu  výrobku
+### Životní  cyklus  výrobku,  odchylky  od  životního  cyklu  výrobku
 
 - doba,  po  kterou  se  nabízí  výrobek  zákazníkům  a  ti  jej  kupují
 
@@ -283,13 +283,13 @@ K  nejčastějším  opatřením  paří  intenzivnější  podpora  prodeje,  s
 
 **4)  ÚTLUM** -  výrazný  a  trvalý  pokles  prodeje  a  zavedení  stojí  před  rozhodnutím,  zda  ukončí výrobu  nebo  ještě  zůstanou  na  trhu
 
-### Odchylky  od  obecného  průběhu  životního  cyklu  výrobku
+#### Odchylky  od  obecného  průběhu  životního  cyklu  výrobku
 
 Výše  uvedený  průběh  životního  cyklu  výrobku  má  pouze  obecnou  platnost.  Délka  životního cyklu  konkrétních  výrobků  se  může  značně  lišit.  Některým  výrobkům  se  podařilo  stát  se součástí  každodenního  života  (např.  Coca-Cola,  chleba,  pečivo),  jiné  byly  nuceny  vlivem technického  pokroku  trh  opustit  a  byly  nahrazeny  jinými  (např.  páskový  magnetofon, gramodeska  či  telegraf).
 
 Některé  odlišnosti  se  dají  sdružit  do  několika  skupin  s  charakteristickým  průběhem:
 
-### <u>1.  Móda</u>
+#### <u>1.  Móda</u>
 
 - působí  krátkodobě  a  poměrně  rychle  se  mění
 
@@ -307,7 +307,7 @@ Některé  odlišnosti  se  dají  sdružit  do  několika  skupin  s  charakter
 
 - znázorňuje  prudký  růst,  minimálně  krátkou  dobu  zralosti  a  rychlý  úpadek
 
-### <u>3.  Styl</u>
+#### <u>3.  Styl</u>
 
 - dá  se  chápat  také  v  širším  pojetí,  jako  charakteristický  způsob  vyjádření,  zejména  u oblečení,  muziky,  automobilů
 
@@ -323,13 +323,13 @@ Některé  odlišnosti  se  dají  sdružit  do  několika  skupin  s  charakter
 
 - křivka  má  podobu  dvouhrbého  velblouda
 
-### Cena  -  kategorie,  stanovení  ceny,  tvorba  cen
+#### Cena  -  kategorie,  stanovení  ceny,  tvorba  cen
 
 Cena  je  peněžní  částka  účtovaná  za  výrobek  nebo  službu,  případně  souhrn  všech  hodnot, které  zákazníci  vymění  za  užitek  z  vlastnictví  nebo  užívání  výrobku  nebo  služby.
 
-### Typy  cen
+#### Typy  cen
 
-### a)  cena  pevná
+#### a)  cena  pevná
 
 - je  typická  pro  centrálně  řízenou  ekonomiku
 
@@ -339,13 +339,13 @@ Cena  je  peněžní  částka  účtovaná  za  výrobek  nebo  službu,  pří
 
 - neexistence  konkurence  nenutí  k  šetření  nákladů
 
-### b)  cena  pohyblivá
+#### b)  cena  pohyblivá
 
 - je  typická  pro  tržní  ekonomiku
 
 - je  určována  nabídkou  a  poptávkou
 
-### Metody  stanovování  ceny
+#### Metody  stanovování  ceny
 
 Neexistuje  jednoznačné  měřítko,  podle  kterého  by  měla  být  cena  hodnocena.  V  tržních podmínkách  existují  pouze  dva  typy  cen  →  dobrá  a  špatná.  Správným  hlediskem  je  cenu posuzovat  podle  přání  spotřebitele.
 
@@ -353,7 +353,7 @@ Proto  byla  formulována  zásada:
 
 "Máte-li  dobrý  výrobek,  neničte  ho  tím,  že  ho  budete  prodávat  příliš  levně.  Dejte  spotřebiteli přesně  tu  cenu,  kterou  vyžaduje.  A  není  to  vždy  cena  nejnižší."
 
-### <u>1)  Cena  orientovaná  na  náklady</u>
+#### <u>1)  Cena  orientovaná  na  náklady</u>
 
 - patří  mezi  nejčastější  a  nejjednodušší  způsoby  stanovování  ceny
 
@@ -361,7 +361,7 @@ Proto  byla  formulována  zásada:
 
 - nevýhodou  je,  že  tato  metoda  vůbec  nebere  ohled  na  situaci  na  trhu
 
-### <u>2)  Cena  orientovaná  na  poptávku</u>
+#### <u>2)  Cena  orientovaná  na  poptávku</u>
 
 - cena  se  stanovuje  na  základě  odhadu  prodeje  a  vychází  z  elasticity  poptávky
 
@@ -385,7 +385,7 @@ _Cenová_ **_elasticita_** _(pružnost)  poptávk_ y
 
 - existence  substitutů  (možnost  náhrady)
 
-### <u>3)  Cena  orientovaná  na  konkurenci</u>
+#### <u>3)  Cena  orientovaná  na  konkurenci</u>
 
 - nejjednodušší  metoda  stanovení  ceny
 
@@ -409,13 +409,13 @@ _Cenová_ **_elasticita_** _(pružnost)  poptávk_ y
 
 Podniky  musí  vždy  pružně  reagovat  na  změny  v  cenách  konkurence  (cenové  války,  teorie her).
 
-### <u>4)  Cena  orientovaná  na  zákazníka</u>
+#### <u>4)  Cena  orientovaná  na  zákazníka</u>
 
 - cena  se  určuje  na  základě  hodnoty  vnímané  zákazníkem
 
 - důležitou  roli  zde  má  prestiž,  kvalita,  exkluzivnost  či  módnost
 
-## Distribuční  systém,  distribuční  strategie
+### Distribuční  systém,  distribuční  strategie
 
 Distribuce  je  proces,  kterým  se  zboží  nebo  služba  dostává  ke  správnému  zákazníkovi,  na správné  místo,  ve  správném  množství,  stavu  a  čase.  Zahrnuje  všechny  činnosti  podniku,  které  činí výrobek  dostupný  zákazníkovi.
 
@@ -425,13 +425,13 @@ Distribuce  je  proces,  kterým  se  zboží  nebo  služba  dostává  ke  spr
 
 •rozlišuje  se  podle  počtu  mezičlánků  na  přímou  a  nepřímou
 
-### Formy  distribuce
+#### Formy  distribuce
 
 a)  přímá  -  mezi  výrobcem  a  spotřebitelem  není  žádný  distribuční  mezičlánek
 
 b)  nepřímá  -  mezi  výrobcem  a  spotřebitelem  je  jeden  nebo  více  distribučních  mezičlánků (velkoobchody,  maloobchody,  různí  zprostředkovatelé,  dovozci  atd.)
 
-### Distribuční  strategie
+#### Distribuční  strategie
 
 a)  intenzivní  prodej  –  prodej  prostřednictvím  husté  sítě  prodejen  zcela  pokrývajících  určitý trh.  Vhodné  pro  zavedené  výrobky  s  nízkou  cenou  a  vysokou  frekvencí  nákupu  (běžné potraviny,  noviny,  cigarety,  benzín)
 
@@ -439,7 +439,7 @@ b)  selektivní  prodej  –  zboží  je  nabízeno  ve  specializovaných  pro
 
 c) **výhradní  prode** j  –  firma  nabízí  zboží  ve  velmi  omezeném  počtu  prodejen,  vysoké  nároky jsou  kladeny  na  umístění  prodejny,  vzhled  prodejny  a  prodejní  personál.  Vhodné  pro  luxusní a  značkové  zboží  s  výraznou  image,  módní  a  velmi  drahé  (automobily,  šperky,  oblečení a  kosmetika  světových  značek)
 
-## Propagace  a  její  nástroje
+### Propagace  a  její  nástroje
 
 Propagace  je  úmyslné  a  nenásilné  působení  na  člověka  pomocí  speciálních  komunikačních prostředků  s  cílem  informovat,  ovlivňovat  a  přesvědčovat  zákazníky  o  nákupu.
 
@@ -449,7 +449,7 @@ Propagace  je  úmyslné  a  nenásilné  působení  na  člověka  pomocí  sp
 
 - informuje,  přesvědčuje  nebo  připomíná  zákazníkům  vlastnosti  a  dostupnost  výrobků
 
-### Propagační  (komunikační)  mix
+#### Propagační  (komunikační)  mix
 
 K  realizaci  cílů  marketingové  komunikace  se  zákazníky  může  firma  využít  některý  z následujících
 
@@ -469,7 +469,7 @@ nástrojů:
 
 - kosmetika,  drogerie,  elektrospotřebiče,  peněžní  a  pojišŤovací  služby
 
-## Cíle  marketingové  komunikace
+### Cíle  marketingové  komunikace
 
 **1.  informovat** -  vytvořit,  zvýšit  nebo  udržet  stupeň  známosti
 

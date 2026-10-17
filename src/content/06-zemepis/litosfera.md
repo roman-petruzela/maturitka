@@ -7,206 +7,206 @@ source: "Zeměpis/Zeměpis GLP/5. Litosféra.docx"
 
 = pevný obal Země
 
-# tvořený zemskou kůrou a nejsvrchnějšími vrstvami zemského pláště nad astenosférou
+## tvořený zemskou kůrou a nejsvrchnějšími vrstvami zemského pláště nad astenosférou
 
-# tloušťka 70 – 100 km
+## tloušťka 70 – 100 km
 
-# 8 velkých desek, 12 menších
+## 8 velkých desek, 12 menších
 
-# Mohorovičičova plocha nespojitosti -) zpomaluje seismické vlny
+## Mohorovičičova plocha nespojitosti -) zpomaluje seismické vlny
 
-<img src="/images/content/zemepis/litosfera/01.webp" alt="" width="365" loading="lazy" decoding="async">
+<img src="/images/content/zemepis/litosfera/01.webp" alt="Ilustrace: Mohorovičičova plocha nespojitosti -) zpomaluje seismické vlny" width="365" loading="lazy" decoding="async">
 
 Stavba Země
 
 Zemská kůra
 
-# velmi slabá, nejsvrchnější část Země
+## velmi slabá, nejsvrchnější část Země
 
 __Pevninská:__
 
-# 20 – 80 km
+## 20 – 80 km
 
-# složitá geologická stavba, dlouhý geologický vývoj
+## složitá geologická stavba, dlouhý geologický vývoj
 
-# leží na oceánské
+## leží na oceánské
 
-# mohutnější a stabilnější
+## mohutnější a stabilnější
 
-# žulová, čedičová a sedimentární vrstva
+## žulová, čedičová a sedimentární vrstva
 
-# starší
+## starší
 
 __Oceánská:__
 
-# 6 – 15 km
+## 6 – 15 km
 
-# jednodušší stavba, geologicky mladší
+## jednodušší stavba, geologicky mladší
 
-# větší hustota
+## větší hustota
 
-# sedimentární a čedičová vrstva
+## sedimentární a čedičová vrstva
 
-# tvoří dna oceánů a moří
+## tvoří dna oceánů a moří
 
-# nové části vznikají sopečnou činností v riftových zónách
+## nové části vznikají sopečnou činností v riftových zónách
 
 __Přechodná:__
 
-# kombinace obou
+## kombinace obou
 
-# může mít 2 nebo 3 vrstvy
+## může mít 2 nebo 3 vrstvy
 
-# dno černého moře
+## dno černého moře
 
 Zemský plášť
 
-# svrchní, spodní
+## svrchní, spodní
 
-# magma
+## magma
 
 __Svrchní:__
 
-# do hloubky 300 – 400 km
+## do hloubky 300 – 400 km
 
-# žhavá tekutá část pláště
+## žhavá tekutá část pláště
 
 __Astenosféra:__
 
-# plastický obal Země
+## plastický obal Země
 
-# umožňuje pohyb litosférických desek (konvekční proudy), (oceánská a pevninská) a obnovu zemské kůry
+## umožňuje pohyb litosférických desek (konvekční proudy), (oceánská a pevninská) a obnovu zemské kůry
 
-# nachází se ve svrchním plášti pod litosférou mezi 80. a 220. kilometrem, tloušťka mezi 30 a 100 km
+## nachází se ve svrchním plášti pod litosférou mezi 80. a 220. kilometrem, tloušťka mezi 30 a 100 km
 
-# částečně natavené horniny
+## částečně natavené horniny
 
-# větší hustota než litosférické desky, menší viskozita
+## větší hustota než litosférické desky, menší viskozita
 
-# až 1400°C
+## až 1400°C
 
 Litosférické desky
 
-# litosféra je nesouvislá, dělí se na velké bloky
+## litosféra je nesouvislá, dělí se na velké bloky
 
-# desková rozhraní = místa, kde se setkávají
+## desková rozhraní = místa, kde se setkávají
 
-# středooceánské hřbety -) vznik nových vrstev
+## středooceánské hřbety -) vznik nových vrstev
 
-# subdukční zóna = místo, kde se desky zasouvají pod sebe -) vulkanická činnost
+## subdukční zóna = místo, kde se desky zasouvají pod sebe -) vulkanická činnost
 
-# tlačení pevninské desky -) zlom na souši, pohoří
+## tlačení pevninské desky -) zlom na souši, pohoří
 
-# pomalu se pohybují (cm za rok)
+## pomalu se pohybují (cm za rok)
 
-# tvořeny pevnou horninou, mocnost až 200 km (mladší klidně 15)
+## tvořeny pevnou horninou, mocnost až 200 km (mladší klidně 15)
 
 __Vývoj kontinentů:__
 
-# Pangea – kolem moře Panthalassa
+## Pangea – kolem moře Panthalassa
 
-# vklínilo se moře Tethys
+## vklínilo se moře Tethys
 
-# vznik Laurasie (Severní Amerika, Eurasie)
+## vznik Laurasie (Severní Amerika, Eurasie)
 
-# vznik Gondwany (Jižní Amerika, Afrika, Indie, Austrálie)
+## vznik Gondwany (Jižní Amerika, Afrika, Indie, Austrálie)
 
 __Teorie deskové tektoniky__
 
-# Alfred Wegener, 1915
+## Alfred Wegener, 1915
 
-# Afrika a Jižní Amerika do sebe zapadaly
+## Afrika a Jižní Amerika do sebe zapadaly
 
-# nedokázal přesně popsat
+## nedokázal přesně popsat
 
 __Řídící síly pohybu litosférických desek__
 
-# nejednotné názory
+## nejednotné názory
 
-#  konvekční proudy – nejdůležitější
+##  konvekční proudy – nejdůležitější
 
-# plášťová: rozdíl v hustotě a teplotě plášťových hmot
+## plášťová: rozdíl v hustotě a teplotě plášťových hmot
 
-# (teplejší plášťová hmota vystupuje k povrchu Země → malá
+## (teplejší plášťová hmota vystupuje k povrchu Země → malá
 
-# část magmatu vystoupí na povrch → proudy se stáčí pod
+## část magmatu vystoupí na povrch → proudy se stáčí pod
 
-# litosférické desky → směrem k subdukčním zónám klesá
+## litosférické desky → směrem k subdukčním zónám klesá
 
-# teplotní rozdíl v konvekčních proudech i teplota litosféry, což
+## teplotní rozdíl v konvekčních proudech i teplota litosféry, což
 
-# vede k nárůstu její mocnosti)
+## vede k nárůstu její mocnosti)
 
 Pohyby litosférických desek
 
 __Divergentní:__
 
-# od sebe
+## od sebe
 
-# kontinentální raft, oceánské hřbety
+## kontinentální raft, oceánské hřbety
 
-# vznik nové zemské kůry, dochází k sopečné činnosti
+## vznik nové zemské kůry, dochází k sopečné činnosti
 
 __Konvergentní__
 
-# k sobě, srážky
+## k sobě, srážky
 
-# subdukce -) oceánská se podsouvá pod pevninskou (J Amerika, Andy, Island – termální prameny)
+## subdukce -) oceánská se podsouvá pod pevninskou (J Amerika, Andy, Island – termální prameny)
 
-# subdukce -) 2 oceánské, podsouvá se starší, chladnější -) vznik řetězců sopek (řetězec sopek od Indonésie ke Kamčatce)
+## subdukce -) 2 oceánské, podsouvá se starší, chladnější -) vznik řetězců sopek (řetězec sopek od Indonésie ke Kamčatce)
 
-# orogeneze -) 2 pevninské, růst pohoří (Himaláje, Karakoram)
+## orogeneze -) 2 pevninské, růst pohoří (Himaláje, Karakoram)
 
 __Transformní__
 
-# podél sebe
+## podél sebe
 
-# otírají se, vznik zemětřesení
+## otírají se, vznik zemětřesení
 
-# zlom San Andreas v Kalifornii
+## zlom San Andreas v Kalifornii
 
-# velmi pomalu
+## velmi pomalu
 
 __Sopečná činnost__
 
-# ohnivý oblouk
+## ohnivý oblouk
 
-# Krakatoa – Indonésie, nejhlasitější výbuch
+## Krakatoa – Indonésie, nejhlasitější výbuch
 
-# Tambora – Indonésie, největší výbuch
+## Tambora – Indonésie, největší výbuch
 
-# horná skvrna= místo nad kterým vzniká sopka
+## horná skvrna= místo nad kterým vzniká sopka
 
-# kaldera= vzniká zhroucením sopky při snížení tlaku→ sopečné jezero
+## kaldera= vzniká zhroucením sopky při snížení tlaku→ sopečné jezero
 
-# lávová kupa= ztuhlé magma pod povrchem
+## lávová kupa= ztuhlé magma pod povrchem
 
-# orogeneze= je horotvorný proces, který vede ke vzniku
+## orogeneze= je horotvorný proces, který vede ke vzniku
 
-# pásemných pohoří (například Alpy, Himálaj, jihoamerické
+## pásemných pohoří (například Alpy, Himálaj, jihoamerické
 
-# Andy)
+## Andy)
 
 __Zemětřesení__
 
-# v místě styku litosférických desek
+## v místě styku litosférických desek
 
-# vznik v zemské kůře i plášti
+## vznik v zemské kůře i plášti
 
-# menší zemětřesení mohou vzniknout i při sopečných
+## menší zemětřesení mohou vzniknout i při sopečných
 
-# výbuších, sesuvech půdy, propadech krasových prostorů
+## výbuších, sesuvech půdy, propadech krasových prostorů
 
-# nebo působením člověka (atomová bomba, důlní otřesy)
+## nebo působením člověka (atomová bomba, důlní otřesy)
 
-# uvolnění velkého množství energie, šíří se ve formě seismických vln
+## uvolnění velkého množství energie, šíří se ve formě seismických vln
 
-# hypocentrum – pod zemí
+## hypocentrum – pod zemí
 
-# epicentrum – nad hypocentrem, na povrchu
+## epicentrum – nad hypocentrem, na povrchu
 
-# Richterova stupnice -) 10 stupňů
+## Richterova stupnice -) 10 stupňů
 
-# největší = velké chilské, 9.5 stupně (22. 5. 1960)
+## největší = velké chilské, 9.5 stupně (22. 5. 1960)
 
-# nejničivější (na životech) = Čína, Shaanxi (23. 1. 1556)
+## nejničivější (na životech) = Čína, Shaanxi (23. 1. 1556)

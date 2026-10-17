@@ -55,7 +55,7 @@ __Skládání dvou sil se společným působištěm__
 
 - __Výslednice__ – síla stejně velká, ale opačného směru jako síla, která skládané síly drží v rovnováze
 
-<img src="/images/content/fyzika/mechanika-tuheho-telesa/04.webp" alt="" width="250" loading="lazy" decoding="async"><img src="/images/content/fyzika/mechanika-tuheho-telesa/05.webp" alt="vzorec" width="190" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/mechanika-tuheho-telesa/04.webp" alt="Ilustrace: Momentová věta" width="250" loading="lazy" decoding="async"><img src="/images/content/fyzika/mechanika-tuheho-telesa/05.webp" alt="vzorec" width="190" loading="lazy" decoding="async">
 
 Síly stejného směru:
 
@@ -65,37 +65,37 @@ Síly opačného směru:
 
 $$F = |F_1 - F_2|$$
 
-<img src="/images/content/fyzika/mechanika-tuheho-telesa/08.webp" alt="" width="280" loading="lazy" decoding="async"><img src="/images/content/fyzika/mechanika-tuheho-telesa/09.webp" alt="" width="302" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/mechanika-tuheho-telesa/08.webp" alt="Ilustrace: Momentová věta" width="280" loading="lazy" decoding="async"><img src="/images/content/fyzika/mechanika-tuheho-telesa/09.webp" alt="Ilustrace: Momentová věta" width="302" loading="lazy" decoding="async">
 
-Pro dvě navzájem kolmé síly:
+**Dvě navzájem kolmé síly:**
 
 $$F = \sqrt{F_1^2 + F_2^2}$$
 
-<img src="/images/content/fyzika/mechanika-tuheho-telesa/11.webp" alt="" width="461" loading="lazy" decoding="async">__Skládání více sil se společným působištěm__
+<img src="/images/content/fyzika/mechanika-tuheho-telesa/11.webp" alt="Ilustrace: Momentová věta" width="461" loading="lazy" decoding="async">__Skládání více sil se společným působištěm__
 
   $\vec F = \vec F_1 + \vec F_2 + \cdots + \vec F_n$ = vektorový součet
 
-<img src="/images/content/fyzika/mechanika-tuheho-telesa/13.webp" alt="" width="368" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/mechanika-tuheho-telesa/13.webp" alt="Ilustrace: Momentová věta" width="368" loading="lazy" decoding="async">
 
 __Skládání dvou různoběžných sil působících v různých bodech na těleso__
 
-<img src="/images/content/fyzika/mechanika-tuheho-telesa/14.webp" alt="" width="456" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/mechanika-tuheho-telesa/14.webp" alt="Ilustrace: Momentová věta" width="456" loading="lazy" decoding="async">
 
-<img src="/images/content/fyzika/mechanika-tuheho-telesa/15.webp" alt="" width="550" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/mechanika-tuheho-telesa/15.webp" alt="Ilustrace: Momentová věta" width="550" loading="lazy" decoding="async">
 
 $$\frac{F_1}{F_2} = \frac{d_2}{d_1}$$
 
-<img src="/images/content/fyzika/mechanika-tuheho-telesa/17.webp" alt="" width="542" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/mechanika-tuheho-telesa/17.webp" alt="Ilustrace: Momentová věta" width="542" loading="lazy" decoding="async">
 
-<img src="/images/content/fyzika/mechanika-tuheho-telesa/18.webp" alt="" width="602" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/mechanika-tuheho-telesa/18.webp" alt="Ilustrace: Momentová věta" width="602" loading="lazy" decoding="async">
 
 __Rozklad síly na dvě různoběžné složky__
 
-<img src="/images/content/fyzika/mechanika-tuheho-telesa/19.webp" alt="" width="434" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/mechanika-tuheho-telesa/19.webp" alt="Ilustrace: Momentová věta" width="434" loading="lazy" decoding="async">
 
 __FG__ = __F1__ + __F2                                                                                  FG__ / 2 = **F1**sinα                                                                       __F1__ = __F2__
 
-<img src="/images/content/fyzika/mechanika-tuheho-telesa/20.webp" alt="" width="431" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/mechanika-tuheho-telesa/20.webp" alt="Ilustrace: Momentová věta" width="431" loading="lazy" decoding="async">
 
 __F1__ = d2/d · __FG__                                                                                                        __F2__ = d1/d · __FG__                                                                                                               **F1**d1 = **F2**d2
 
@@ -117,7 +117,7 @@ D = F · d
 - Tuhé těleso je __složeno z velkého počtu hmotných bodů__, jejichž vzájemná poloha __se nemění__. Na jednotlivé body působí tíhové síly __FG1__, __FG2__, …, __FGn__, které jsou navzájem __rovnoběžné__. Jejich složením dostaneme výslednou tíhovou sílu __FG__, která má působiště v bodě T, který nazýváme __těžiště tělesa__
 - Těžiště tuhého tělesa je __působiště tíhové síly__ působící na těleso v __homogenním tíhovém poli__
 
-<img src="/images/content/fyzika/mechanika-tuheho-telesa/22.webp" alt="" width="224" loading="lazy" decoding="async"><img src="/images/content/fyzika/mechanika-tuheho-telesa/23.webp" alt="" width="198" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/mechanika-tuheho-telesa/22.webp" alt="Ilustrace: Těžiště tělesa" width="224" loading="lazy" decoding="async"><img src="/images/content/fyzika/mechanika-tuheho-telesa/23.webp" alt="Ilustrace: Těžiště tělesa" width="198" loading="lazy" decoding="async">
 
 ## Podmínky rovnovážné polohy tuhého tělesa
 
@@ -136,19 +136,19 @@ __Stálá = stabilní__
 
 -  má těleso, které se po vychýlení z této polohy opět do ní vrací
 
-<img src="/images/content/fyzika/mechanika-tuheho-telesa/24.webp" alt="" width="355" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/mechanika-tuheho-telesa/24.webp" alt="Ilustrace: Podmínky rovnovážné polohy tuhého tělesa" width="355" loading="lazy" decoding="async">
 
 __Vratká = labilní__
 
 -  má těleso, které se po vychýlení z této polohy do ní nevrací, ale přechází do nové stálé polohy
 
-<img src="/images/content/fyzika/mechanika-tuheho-telesa/25.webp" alt="" width="355" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/mechanika-tuheho-telesa/25.webp" alt="Ilustrace: Podmínky rovnovážné polohy tuhého tělesa" width="355" loading="lazy" decoding="async">
 
 __Volná = indiferentní__
 
 - má těleso, které zůstává po vychýlení v jakékoli nové poloze
 
-<img src="/images/content/fyzika/mechanika-tuheho-telesa/26.webp" alt="" width="355" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/mechanika-tuheho-telesa/26.webp" alt="Ilustrace: Podmínky rovnovážné polohy tuhého tělesa" width="355" loading="lazy" decoding="async">
 
 ## Jednoduché stroje
 
@@ -159,7 +159,7 @@ pevná                        páka jednozvratná
 
 volná kladka                  dvojzvratná               nakloněná rovina           		šroub
 
-<img src="/images/content/fyzika/mechanika-tuheho-telesa/27.webp" alt="" width="179" loading="lazy" decoding="async"><img src="/images/content/fyzika/mechanika-tuheho-telesa/28.webp" alt="" width="163" loading="lazy" decoding="async"><img src="/images/content/fyzika/mechanika-tuheho-telesa/29.webp" alt="" width="175" loading="lazy" decoding="async"><img src="/images/content/fyzika/mechanika-tuheho-telesa/30.webp" alt="" width="175" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/mechanika-tuheho-telesa/27.webp" alt="Ilustrace: Jednoduché stroje" width="179" loading="lazy" decoding="async"><img src="/images/content/fyzika/mechanika-tuheho-telesa/28.webp" alt="Ilustrace: Jednoduché stroje" width="163" loading="lazy" decoding="async"><img src="/images/content/fyzika/mechanika-tuheho-telesa/29.webp" alt="Ilustrace: Jednoduché stroje" width="175" loading="lazy" decoding="async"><img src="/images/content/fyzika/mechanika-tuheho-telesa/30.webp" alt="Ilustrace: Jednoduché stroje" width="175" loading="lazy" decoding="async">
 
 ## Kinetická energie tuhého tělesa
 

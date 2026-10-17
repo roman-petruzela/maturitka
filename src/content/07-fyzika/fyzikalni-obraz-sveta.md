@@ -9,7 +9,7 @@ source: "FYZIKA-maturitní otázky/1-Fyzikální-obraz-světa.docx"
 - Galileo Galilei – zákon setrvačnosti a síly \(využívá, ale nespecifikuje – to až Newton\); vylepšení dalekohledu, spory s církví
 - Isaac Newton – Pohybové zákony, světlo je pohybující se proud částic
 - Christiaan Huygens – světlo je vlnění \(Huygensův princip\), vysvětlil povahu prstenců kolem Saturnu, zkoumal optiku
-- James Clark Maxwell – Teorie elektromagnetického pole \(zjistil, že spolu souvisí\), 26 rovnic pro elmg\. pole \-> Maxwellovy rovnice, první barevná fotografie \(aditivní míchání barev\)
+- James Clark Maxwell – Teorie elektromagnetického pole \(zjistil, že spolu souvisí\), 26 rovnic pro elmg\. pole → Maxwellovy rovnice, první barevná fotografie \(aditivní míchání barev\)
 - Albert Einstein – Speciální teorie relativity, 1921 \- NC, kvantování elmg pole, OTR
 - Max Planck – jeden ze zakladatelů kvantové teorie, zkoumal záření černého tělesa, Planckova konstanta
 - Niels Bohr \- 1922 NC, Bohrův model atomu \(první kvantový model atomu\), zkoumal štěpení jádra uranu
@@ -37,21 +37,16 @@ Experiment
 - Podle metody zkoumání \- \(experimentální, teoretická\)
 - Podle předmětu zkoumání
 
-	\- mechanika
+	- mechanika
+	- molekulová fyzika a termika
 
-	\- molekulová fyzika a termika
+## Teorie
 
-Teorie
-
-\- mechanické kmitání a vlnění
-
-\- elektřina a magnetismus
-
-\- optika
-
-\- atomová fyzika
-
-\- jaderná fyzika, astronomie a astrofyzika
+- mechanické kmitání a vlnění
+- elektřina a magnetismus
+- optika
+- atomová fyzika
+- jaderná fyzika, astronomie a astrofyzika
 
 __Význam experimentu__
 
@@ -69,21 +64,16 @@ Při fyzikálním experimentu provádíme měření nejrůznějších fyzikáln�
 
 Tyto chyby jsou způsobené:
 
-\- nedokonalostí našich smyslů
-
-\- nedokonalostí měřicích přístrojů a použitých měřidel
-
-\- nedokonalostí měřicích metod
-
-\- vlivem kolísajících vnějších podmínek
+- nedokonalostí našich smyslů
+- nedokonalostí měřicích přístrojů a použitých měřidel
+- nedokonalostí měřicích metod
+- vlivem kolísajících vnějších podmínek
 
 Chyby měření můžeme rozdělit na:
 
-\- systematické \(viz výše\)
-
-\- hrubé \(nepozornost, omyl nebo únava pozorovatele, …\)
-
-\- náhodné \(kolísající rušivé vlivy, …\)
+- systematické \(viz výše\)
+- hrubé \(nepozornost, omyl nebo únava pozorovatele, …\)
+- náhodné \(kolísající rušivé vlivy, …\)
 
 __Fyzika a matematika__
 
@@ -165,13 +155,12 @@ kvantový
 
 M\. Planck, A\. Einstein, N\. Bohr, L\. de Broglie, E\. Schrödiger
 
-Kvantová teorie
+## Kvantová teorie
 
 __Základní pojmy__ – mechanický – Hmota jako látka \(těleso\) s diskrétní strukturou; pohyb jako mechanické přemisťování těles; absolutní prostor a čas navzájem nezávislé; gravitační interakce; působení na dálku; éter; invariantnost Newtonových zákonů vzhledem ke Galileiho transformaci
 
-\- elektrodynamický – Hmota jako spojitě vyplňující prostor; materiálnost pole; spojitost hmoty a pohybu; elektromagnetický pohyb \(vlnění\); relativnost prostoru a času; elektromagnetická interakce; působení nablízko; invariantnost fyzikálních zákonů vzhledem k Lorentzově transformaci
-
-\- kvantový – Hmota jako jednota látky a pole \(jednota diskrétnosti a spojitosti – kvanta\); fyzikální pole jako množina kvant; pohyb částic popsaný vlnovou rovnicí; čtyři základní interakce; výměnný charakter interakce; vzájemná přeměnitelnost druhů hmoty; čtyřrozměrná symetrie času a prostoru
+- elektrodynamický – Hmota jako spojitě vyplňující prostor; materiálnost pole; spojitost hmoty a pohybu; elektromagnetický pohyb \(vlnění\); relativnost prostoru a času; elektromagnetická interakce; působení nablízko; invariantnost fyzikálních zákonů vzhledem k Lorentzově transformaci
+- kvantový – Hmota jako jednota látky a pole \(jednota diskrétnosti a spojitosti – kvanta\); fyzikální pole jako množina kvant; pohyb částic popsaný vlnovou rovnicí; čtyři základní interakce; výměnný charakter interakce; vzájemná přeměnitelnost druhů hmoty; čtyřrozměrná symetrie času a prostoru
 
 __Hl\. principy__ – mechanický – Galileův princip relativity, Newtonovy zákony, Princip působení na dálku
 

@@ -5,40 +5,38 @@ source: "Společenské vědy/5. VEREJNE PRAVO.docx"
 ---
 __SPRÁVNÍ PRÁVO__
 
-\- je odvětví veřejného práva
-\- je souborem veřejnoprávních norem, které upravují organizaci a činnost veřejné správy
-\- vydávání dokladů, povolení, zápisy do matriky, ukládání pokut za přestupky
-\- státní správa \- vláda, ministerstva, policie, soudy,\.\.\.
-\- samospráva \- kraje\(13\+Praha, Hejtman našeho kraje je Ivo Vondrák, ANO\), obce \(Primátor \-> J\.Wolf\)
-
-\- veřejná správa \- správa veřejných záležitostí a veřejného zájmu \(součást výkonné moci\)
-\- přesně charakterizuje výkon moci, uvádění zákonů do praxe \(jaké právo má starosta, kolik členů má
+- je odvětví veřejného práva
+- je souborem veřejnoprávních norem, které upravují organizaci a činnost veřejné správy
+- vydávání dokladů, povolení, zápisy do matriky, ukládání pokut za přestupky
+- státní správa \- vláda, ministerstva, policie, soudy,\.\.\.
+- samospráva \- kraje\(13\+Praha, Hejtman našeho kraje je Ivo Vondrák, ANO\), obce \(Primátor → J\.Wolf\)
+- veřejná správa \- správa veřejných záležitostí a veřejného zájmu \(součást výkonné moci\)
+- přesně charakterizuje výkon moci, uvádění zákonů do praxe \(jaké právo má starosta, kolik členů má
   zastupitelstvo, co je správní řízení, práva občanů a obcí…\), vymezuje základní pravomoci orgánů
-\- řeší přestupky do 5000 Kč
-
-\- prameny: ústava, zákon o obcích, zákon o krajských úřadech, správní řád, zákon o policii ČR
+- řeší přestupky do 5000 Kč
+- prameny: ústava, zákon o obcích, zákon o krajských úřadech, správní řád, zákon o policii ČR
 
 Dělí se
 __1\) Hmotné__
-\- nese v sobě [normy](http://cs.wikipedia.org/wiki/Norma), které upravují jednotlivé společenské situace, které jsou regulovány správním
+- nese v sobě [normy](http://cs.wikipedia.org/wiki/Norma), které upravují jednotlivé společenské situace, které jsou regulovány správním
   právem, např\. zákon o matrikách, zákon a ochraně průmyslových vzorů, stavební řád apod\.
 
-\- samostatné právní normy
+- samostatné právní normy
 
 __2\)__ Procesní
-\- reguluje aplikační činnost správních orgánů, tzn\. procesní postup \- jak se mají správní orgány chovat
+- reguluje aplikační činnost správních orgánů, tzn\. procesní postup \- jak se mají správní orgány chovat
   při prosazování práva a jaká práva a povinnosti má účastník správního řízení\. Stěžejní procesní
   normou je v tomto případě [správní řád](http://cs.wikipedia.org/wiki/Spr%C3%A1vn%C3%AD_%C5%99%C3%A1d)\. V širším smyslu se patří i právní úprava organizace a
   působnosti [správních orgánů](http://cs.wikipedia.org/wiki/Spr%C3%A1vn%C3%AD_org%C3%A1n)\.
 
-\- postup při správním procesu
+- postup při správním procesu
 
 __PŘESTUPEK__
 
 = je zaviněné jednání, které porušuje nebo ohrožuje zájem společnosti je označen za přestupek podle
    zákona o přestupcích \(č\. 290 /1990 sb\.\)
 
-\- možno vést přestupkové řízení \(obec, policie\)
+- možno vést přestupkové řízení \(obec, policie\)
 
 __1\.__ proti pořádku ve veřejné správě – nedostavení se k odvodu \(armáda, škola,\.\.\.\)
 
@@ -48,7 +46,7 @@ __3\.__ proti občanskému soužití – rušení nočního klidu
 
 __4\.__ proti majetku \(do 5000 Kč\) – odcizení, poškození
 
-\- sankce: pokuta, zákaz činnosti, propadnutí věci, zákaz činnosti
+- sankce: pokuta, zákaz činnosti, propadnutí věci, zákaz činnosti
 
 __SPRÁVNÍ ŘÁD__
 = je základním [procesním](http://cs.wikipedia.org/wiki/Hmotn%C3%A9_a_procesn%C3%AD_pr%C3%A1vo) [předpisem](http://cs.wikipedia.org/wiki/Pr%C3%A1vn%C3%AD_p%C5%99edpis) upravujícím [řízení](http://cs.wikipedia.org/wiki/%C5%98%C3%ADzen%C3%AD) před [správním úřadem](http://cs.wikipedia.org/wiki/Spr%C3%A1vn%C3%AD_%C3%BA%C5%99ad) \([správní řízení](http://cs.wikipedia.org/wiki/Spr%C3%A1vn%C3%AD_%C5%99%C3%ADzen%C3%AD)\)
@@ -56,24 +54,20 @@ __SPRÁVNÍ ŘÁD__
 __SPRÁVNÍ AKTY__
 = vydání, když správní orgán něco nařídí
 
-\- normativní \- tvorba nové normy 🡪 závazné pro všechny
-
-\- individuální \- zaměřeno jen na někoho; povolení ke stavbě, vydání pasu,\.\.\.
+- normativní \- tvorba nové normy 🡪 závazné pro všechny
+- individuální \- zaměřeno jen na někoho; povolení ke stavbě, vydání pasu,\.\.\.
 
 __SPRÁVNÍ ŘÍZENÍ__
 = je proces, v němž státní orgány rozhodují o právech, právem chráněných zájmech nebo
    povinnostech občanů organizací
 
-\- správní řízení vedou orgány státní správy, kterým daná věc a oblast přísluší \(stavební povolení –
+- správní řízení vedou orgány státní správy, kterým daná věc a oblast přísluší \(stavební povolení –
    stavební úřad, daně – finanční úřad\)
 
-\- můžou se účastnit právnické i fyzické osoby
-
-\- jednání je ústní a neveřejné
-
-\- zákon ukládá správním orgánům vyřídit věc bez zbytečných průtahů
-
-\- možno podat stížnost \(petice, ombudsman\)
+- můžou se účastnit právnické i fyzické osoby
+- jednání je ústní a neveřejné
+- zákon ukládá správním orgánům vyřídit věc bez zbytečných průtahů
+- možno podat stížnost \(petice, ombudsman\)
 
 Fáze správního řízení
 __1\.__ __Zahájení__ \- na návrh účastníka nebo podnět správního úřadu
@@ -88,21 +82,17 @@ __4\.__ __odvolání a přezkum__
 __5\.__ __výkon správního rozsudku/exekuce__
 
 __FINANČNÍ PRÁVO__
-\- normy, které upravují finančně právní vztahy, tj\. vztahy získávání, shromažďování a upotřebení
+- normy, které upravují finančně právní vztahy, tj\. vztahy získávání, shromažďování a upotřebení
   finančních prostředků, pokud se jich účastní stát \(daňové, rozpočtové, burzovní, bankovní\)
 
-\- neexistuje soubor norem
-
-\- finanční právo je zastupováno finančním úřadem
-
-\- Finanční úřad \- zabývá se daněmi a poplatky \( za psy, odpadky\)
-
-\- řeší příjmovou část státního rozpočtu, ale i výdajové přerozdělení a užívání
+- neexistuje soubor norem
+- finanční právo je zastupováno finančním úřadem
+- Finanční úřad \- zabývá se daněmi a poplatky \( za psy, odpadky\)
+- řeší příjmovou část státního rozpočtu, ale i výdajové přerozdělení a užívání
 finančních prostředků
 
-\- řeší finanční hospodaření podnikatelských subjektů
-
-\- obsahuje normy \- daňová soustava, soustava cel, peněžní oběh, burza, pojistné vztahy v CNB
+- řeší finanční hospodaření podnikatelských subjektů
+- obsahuje normy \- daňová soustava, soustava cel, peněžní oběh, burza, pojistné vztahy v CNB
 
 DAŇOVÁ SOUSTAVA
 = nástroj, který ovlivňuje ekonomiku\. Je součástí fiskální ek\. státu\.
@@ -110,24 +100,22 @@ DAŇOVÁ SOUSTAVA
 Daně
 = jediné jisté příjmy do státního rozpočtu
 
-\- Funkce daní: __1\. motivující__ \- daňové prázdniny, menší daně
+- Funkce daní: __1\. motivující__ \- daňové prázdniny, menší daně
 
 __2\. demotivující__ \- zvýšení daní
 
 = povinné a v některých případech nenávratné platby, které platí občan nebo podnik do státního
    rozpočtu ve stanovené výši
 
-\- __Plátce daně__ \- každý, který odvádí daň státu
-
-\- __Poplatník daně__ \- ten, který je daní zatížen – při koupi nějakého zboží
-
-\- Dělení: __1\. Přímá__ \- jsou daně placené přímo fyzickými a právnickými osobami\. Jedná se zejména o
+- __Plátce daně__ \- každý, který odvádí daň státu
+- __Poplatník daně__ \- ten, který je daní zatížen – při koupi nějakého zboží
+- Dělení: __1\. Přímá__ \- jsou daně placené přímo fyzickými a právnickými osobami\. Jedná se zejména o
                                   daně z příjmu \(důchodové\), jež mají větší význam, daně z majetku a dědické daně
 
 __2\. nepřímá__ \- jsou daně připočítané k cenám zboží a služeb\. Do státního rozpočtu je odvádějí
 prodávající\. Jde o daň z přidané hodnoty \(DPH\) a spotřební daně\.
 
-\- __Druhy daní__ \- daň z přidané hodnoty, daň z příjmu, spotřební daň, daň z nemovitostí, silniční daň,
+- __Druhy daní__ \- daň z přidané hodnoty, daň z příjmu, spotřební daň, daň z nemovitostí, silniční daň,
                           dědická daň, darovací daň …\.viz MO 4
 
 __PENĚŽNÍ OBĚH__ = je pohyb [peněz](http://cs.wikipedia.org/wiki/Pen%C3%ADze) ve funkci oběživa a platidla \(koloběh peněž ve formě [bankovek](http://cs.wikipedia.org/wiki/Bankovka) a
@@ -139,17 +127,12 @@ __BURZA =__ je instituce, která organizuje [trh](http://cs.wikipedia.org/wiki/T
 
 __TRESTNÍ PRÁVO__
 
-\- je souhrnem právních norem, které chrání společnost, stát a občany před nežádoucím jednáním
-
-\- vymezuje jednotlivé trestné činy a tresty, které za ně ukládá
-
-\- neřeší přestupky \(=do 5000Kč, to řeší správní právo\), jen trestné činy
-
-\- trestní zákon 140/1961 sb\.; novelizován 65/ 1994 sb\.
-
-\- Trest smrti zrušen 1990; v Bělorusku pořád platí
-
-\- Řídí se tresntým řádem
+- je souhrnem právních norem, které chrání společnost, stát a občany před nežádoucím jednáním
+- vymezuje jednotlivé trestné činy a tresty, které za ně ukládá
+- neřeší přestupky \(=do 5000Kč, to řeší správní právo\), jen trestné činy
+- trestní zákon 140/1961 sb\.; novelizován 65/ 1994 sb\.
+- Trest smrti zrušen 1990; v Bělorusku pořád platí
+- Řídí se tresntým řádem
 
 Dělení
 __1\. Hmotné__ \- __materiální__ – vymezuje, co jsou trestné činy a jek= tresty za ně ukládají\. Jeho hlavním
@@ -161,17 +144,12 @@ __2\.__ __Procesní \- formální__ – upravuje postup při zjišťování tres
 __TRESTNÝ ČIN__
 = je čin nebezpečný pro společnost, jehož znaky jsou uvedeny v trestním zákoně
 
-\- trestnost se vztahuje taky na pokus o trestný čin
-
-\- pachatelem trestného činu může být jen fyzická osoba, která spáchala daný čin
-
-\- účastník trestného činu může být i organizátor
-
-\- __spolupachatel__ \- podílí se na trestném činu
-
-\- __návodce__ \- navádí k trestnému činu
-
-\- __pomocník__ \- odstraňuje překážky
+- trestnost se vztahuje taky na pokus o trestný čin
+- pachatelem trestného činu může být jen fyzická osoba, která spáchala daný čin
+- účastník trestného činu může být i organizátor
+- __spolupachatel__ \- podílí se na trestném činu
+- __návodce__ \- navádí k trestnému činu
+- __pomocník__ \- odstraňuje překážky
 
 Dělení
 __1\. Proti republice__ \- vlastizrada, teror, vyzrazení státního tajemství
@@ -189,11 +167,9 @@ __7\. hospodářské__ \- neoprávněné podnikání, padělání peněz
 __8\. Proti svobodě a lidské důstojnosti__ \- znásilnění, vydírání, omezování osob\. Svobody
 
 __TRESTÍ ODPOVĚDNOST__
-\-  je založena na spáchání trestného činu
-
-\- pachatel trestného činu může být jen fyzická osoba, která dosáhla určitého věku a která je příčetná
-
-\- pachatel ve věku 15 \-18 let = mladiství
+-  je založena na spáchání trestného činu
+- pachatel trestného činu může být jen fyzická osoba, která dosáhla určitého věku a která je příčetná
+- pachatel ve věku 15 \-18 let = mladiství
 
 NEPŘÍČETNOST
 = je schopnost pachatele rozpoznat nebezpečnost činu a ovládat své jednání, bývá způsobena
@@ -216,7 +192,7 @@ __TRESTNÍ ŘÍZENÍ__
 = postup, kterým jsou zjišťovány trestné činy a jejich pachatelé a zaručeno jejich spravedlivé
    potrestání
 
-\- Orgány \- __Soud__ – rozhoduje senát nebo samosoudce
+- Orgány \- __Soud__ – rozhoduje senát nebo samosoudce
 
 __Státní zastupitelství__ – podává žalobu
 
@@ -311,28 +287,27 @@ __9\.__ __vyhoštění__ \- soud vyhostí pachatele, který není občanem ČR n
 
 __10\.__ __zákaz pobytu__ \- pachatel se nesmí  1\-5 let zdržovat na určitém místě
 
-\- po uplynutí poloviny trestu – podmíněné propuštění \-> mají pocit, že se ten zmrd napravil
-
-\- když jsme byli odsouzeni, máme zápis v trestním rejstříku – po nějaké době můžeme žádat o výmaz
+- po uplynutí poloviny trestu – podmíněné propuštění → mají pocit, že se ten zmrd napravil
+- když jsme byli odsouzeni, máme zápis v trestním rejstříku – po nějaké době můžeme žádat o výmaz
 
 Dělení
 __a\) podmíněně__
-\- soud může odložit výkon trestu odnětí svobody – v tomto případě zůstává pachatel na svobodě, ale
+- soud může odložit výkon trestu odnětí svobody – v tomto případě zůstává pachatel na svobodě, ale
   soud pravidelně sleduje jeho chování, zda dodržuje soudem stanovené podmínky
 
 __b\) nepodmíněně__
-\- když má podmíněný trest a poruší soudem stanovené podmínky, soud rozhodne, že trest vykoná
+- když má podmíněný trest a poruší soudem stanovené podmínky, soud rozhodne, že trest vykoná
 
 __ROZHODNUTÍ SOUDU__
 
-\- __Rozsudek__ – veřejně, ve stoje; ve jménu republiky \(shledán vinným; zproštěn obžaloby; trestní příkaz
+- __Rozsudek__ – veřejně, ve stoje; ve jménu republiky \(shledán vinným; zproštěn obžaloby; trestní příkaz
                         \-pokud nedošlo k usnesení; může být z důvodu zastavení stíhání, odložení; podání
                         stížnosti \(státní zástupce nebo obžalovaný\); rozhodnutí svého druhu – zatčení\)
 
-\- můžeme se odovlat k soudu 2\. stupně, soud ho může zamítnout, ale pokud příjme \-> vezme si
+- můžeme se odovlat k soudu 2\. stupně, soud ho může zamítnout, ale pokud příjme → vezme si
    případ nebo vrátí k soudu 1\. stupně
 
-\- odvolat se můžeme až k nejvyššímu soudu \(Brno\)
+- odvolat se můžeme až k nejvyššímu soudu \(Brno\)
 
 __TYPY VĚZNIC__
 __1\. s dohledem__ – za čin z nedbalosti, pachatelé dosud netrestaní
@@ -354,19 +329,16 @@ __RECIDIVISTA__ = osoba dopouštějící se opětovného spáchání trestného 
 
 __PRACOVNÍ PRÁVO__
 
-\- upravuje vztahy mezi zaměstnanci a zaměstnavateli, podmínky vzniku, trvání a zániku pracovního
+- upravuje vztahy mezi zaměstnanci a zaměstnavateli, podmínky vzniku, trvání a zániku pracovního
   poměru
 
-\- řeší pracovní vztahy a vztahy, které souvisí s výkonem práce
-
-\- je zakotveno v zákoníku práce
-
-\- prameny \- listina základních práv a svobod, zákoník práce
+- řeší pracovní vztahy a vztahy, které souvisí s výkonem práce
+- je zakotveno v zákoníku práce
+- prameny \- listina základních práv a svobod, zákoník práce
 
 __PRACOVNĚ\-PRÁVNÍ VZTAH__
-\- účastní se ho zaměstnance a zaměstnavatel
-
-\- __Zaměstnavatel__ – každá osoba, která má právní subjektivitu
+- účastní se ho zaměstnance a zaměstnavatel
+- __Zaměstnavatel__ – každá osoba, která má právní subjektivitu
 __\- Zaměstnanec__ – fyzická osoba, která je k práci způsobilá \(věkem, nezávisí na svéprávnosti, cizinci =
                                                                                                        prac\. Povolení, trvalý pobyt\)
 
@@ -374,8 +346,8 @@ __PRACOVNÍ POMĚR__
 = je právní vztah mezi zaměstnavatelem a zaměstnancem, kdy je zaměstnanec povinen vykonávat
    práci osobně v souladu s pokyny a právními předpisy
 
-\- __pracovní smlouva__ \- podepisována osobně, nutné prostudování před podpisem
-                                    \- Obsah:  a\) den nástupu do prac\. poměru
+- __pracovní smlouva__ \- podepisována osobně, nutné prostudování před podpisem
+                                    - Obsah:  a\) den nástupu do prac\. poměru
 
 b\) místo výkonu práce, adresa a název zaměstnavatele
 
@@ -393,9 +365,8 @@ h\) podpis zaměstnavatele a zaměstnance
 
 Zánik pracovního poměru:
 
-\- __Událostí__ \- uplynutím doby, na kterou byl sjednán, skončením prací, úmrtím
-
-\- __Rozvázáním__ \- __a\) dohodou__ – dvoustranný prac\. úkon zaměstnanec a zaměstnavatel se písemně
+- __Událostí__ \- uplynutím doby, na kterou byl sjednán, skončením prací, úmrtím
+- __Rozvázáním__ \- __a\) dohodou__ – dvoustranný prac\. úkon zaměstnanec a zaměstnavatel se písemně
                                                      dohodnou, kterým dnem ukončí prac, poměr
 
 __b\) výpovědí__ – zaměstnanec či zaměstnavatel \(musí doložit zákonem připuštěný
@@ -412,34 +383,32 @@ __d\) zrušením ve zkušební době__ – zaměstnavatel i zaměstnanec mohou z
 poměr kdykoli a bez udání důvodu
 
 PRÁVO NA ZAMĚSTNÁNÍ
-\- Zákon o zaměstnanosti deklaruje každému občanovi právo na zaměstnání, jímž se rozumí právo
+- Zákon o zaměstnanosti deklaruje každému občanovi právo na zaměstnání, jímž se rozumí právo
    občana, který chce a může pracovat a o práci se skutečně uchází, na
 
-\- zprostředkování pracovního uplatnění ve vhodném zaměstnání,
-\- na rekvalifikaci nezbytnou k pracovnímu uplatnění,
-
-\- na hmotné zabezpečení před nástupem do zaměstnání a v případě ztráty zaměstnání\.
+- zprostředkování pracovního uplatnění ve vhodném zaměstnání,
+- na rekvalifikaci nezbytnou k pracovnímu uplatnění,
+- na hmotné zabezpečení před nástupem do zaměstnání a v případě ztráty zaměstnání\.
 
 __ZÁKON O KOLEKTIVNÍM VYJEDNÁVÁNÍ__
-\- upravuje kolektivní vyjednávání mezi [odborovými organizacemi](http://cs.wikipedia.org/wiki/Odbory) a [zaměstnavateli](http://cs.wikipedia.org/wiki/Zam%C4%9Bstnavatel) nebo jejich
+- upravuje kolektivní vyjednávání mezi [odborovými organizacemi](http://cs.wikipedia.org/wiki/Odbory) a [zaměstnavateli](http://cs.wikipedia.org/wiki/Zam%C4%9Bstnavatel) nebo jejich
   organizacemi, za případné součinnosti [státu](http://cs.wikipedia.org/wiki/St%C3%A1t), jehož cílem je uzavření [kolektivní smlouvy](http://cs.wikipedia.org/wiki/Kolektivn%C3%AD_smlouva)\.
 
 __ÚSTAVA ČR__
 
-\- základní právní dokument ČR \(parlamentní republika\), součást ústavního pořádku, jak by měl stát
+- základní právní dokument ČR \(parlamentní republika\), součást ústavního pořádku, jak by měl stát
   fungovat
 
-\- vyvíjí se na __preambuli__ – předmluva, má 8 hlav, ty jsou rozděleny do 113 článků \(paragrafů\)
-
-\- několikrát od přijetí změněna – jde pouze ústavním zákonem \(přímá volba prezidenta\)
+- vyvíjí se na __preambuli__ – předmluva, má 8 hlav, ty jsou rozděleny do 113 článků \(paragrafů\)
+- několikrát od přijetí změněna – jde pouze ústavním zákonem \(přímá volba prezidenta\)
 
 __1\. HLAVA__
 
-\- základní vymezení – práva \(můžeme dělat, co chceme, když to není v zákoně x nesmíme být nuceni\),
+- základní vymezení – práva \(můžeme dělat, co chceme, když to není v zákoně x nesmíme být nuceni\),
   nesmí být pošlapána práva menšiny, území ČR se mění pouze ústavním zákonem, nikdo proti své
   vůli nesmí být zbaven občanství, hl\. město ČR = Praha…
 
-\- státní symboly:
+- státní symboly:
 
 1\. velký státní znak
 
@@ -455,46 +424,41 @@ __1\. HLAVA__
 
 7\. státní vlajka \(2:3\)
 
-\- neoficiální symboly: lípa srdčitá, korunovační klenoty
+- neoficiální symboly: lípa srdčitá, korunovační klenoty
 
 __2\. HLAVA__
 
-\- zákonodárná moc \(parlament ČR = poslanecká sněmovna a senát\)  
+- zákonodárná moc \(parlament ČR = poslanecká sněmovna a senát\)  
 
 __\- PS –__ dolní komora, 200 poslanců, na 4 roky, min 21 let, občan ČR, poměrný systém \(volba stran, zisk
           křesel v parlamentu v %\), předseda: Jan Hamáček \(ČSSD\)
 
-\- __Senát__ – horní komora, 81 senátorů, na 6 let \(po 2 letech obměna 1/3\), 40 let, občan ČR, většinový
-                 systém \(volí se přímo lidé, pokud nikdo nad 50% \-> 2\. kolo \(tam dva s nejvíce hlasy\), vítězí
+- __Senát__ – horní komora, 81 senátorů, na 6 let \(po 2 letech obměna 1/3\), 40 let, občan ČR, většinový
+                 systém \(volí se přímo lidé, pokud nikdo nad 50% → 2\. kolo \(tam dva s nejvíce hlasy\), vítězí
                  kandidát s větším počtem hlasů = bere celý obvod\)
 
-\- nemůže být jeden člověk senátor i poslanec, ale může být poslanec a člen vlády
-
-\- volební právo = __rovné__ \(každý hlas má stejnou váhu\), __všeobecné__ \(právo má každý nad 18 let\), __přímé__
+- nemůže být jeden člověk senátor i poslanec, ale může být poslanec a člen vlády
+- volební právo = __rovné__ \(každý hlas má stejnou váhu\), __všeobecné__ \(právo má každý nad 18 let\), __přímé__
                                \(každý volí sám za sebe\)
 
-\- schůze parlamentu jsou veřejné
+- schůze parlamentu jsou veřejné
 
 __3\. HLAVA__
 
-\- výkonná moc \(prezident a vláda\)
-
-\- __prezident__ \- hlava státu, přímá volba \(na 5 \- 10 let\), Václav Klaus \(2003\-2013\), __Miloš__ __Zeman__ \(8\.3\.
+- výkonná moc \(prezident a vláda\)
+- __prezident__ \- hlava státu, přímá volba \(na 5 \- 10 let\), Václav Klaus \(2003\-2013\), __Miloš__ __Zeman__ \(8\.3\.
                                                                                                                                                         2013\-dosud\)
 
-\- většinový systém, občan ČR, nad 40 let,
-
-\- návrh prezidenta – podpora 20 poslanců, 10 senátorů nebo 50 tisíc podpisů
-
-\- když je zvolen, složí slib do rukou předsedy senátu
-
-\- pravomoci: reprezentace, podepisování zákonů, amnestie, velitel vojsk, jmenuje a
+- většinový systém, občan ČR, nad 40 let,
+- návrh prezidenta – podpora 20 poslanců, 10 senátorů nebo 50 tisíc podpisů
+- když je zvolen, složí slib do rukou předsedy senátu
+- pravomoci: reprezentace, podepisování zákonů, amnestie, velitel vojsk, jmenuje a
 odvolává předsedu vlády a další členy vlády, uděluje vyznamenání, rozpouští
 PS, jmenuje soudce, prezidenta viceprezidenta kontrolního úřadu, členy
 bankovní rady ČNB, sjednává a ratifikuje mezinárodní smlouvy, vyhlašuje
 volby do parlamentu
 
-\- nelze ho zadržet, stíhat \(ani, když už není prezident\), soudit \(pouze velezrada –př\.
+- nelze ho zadržet, stíhat \(ani, když už není prezident\), soudit \(pouze velezrada –př\.
 narušení obranyschopnosti země\)
 
 __\- vláda__ – skládá se z ministrů, předseda: __B\. Sobotka__, místopředsedové: Babiš, Bělobrádek, vládní
@@ -505,31 +469,30 @@ __4\. HLAVA__
 
 __\-__ soudní moc – převedena na soustavy soudů
 
-\- __okresní soud__ \(v Praze obvodní\) \-> __krajský soud__ \(8\) \-> __vrchní soud__ \(Praha, Olomouc\) \-> __nejvyšší soud__
-  \(Brno\) \-> __nejvyšší správní soud__ \(Brno\)
+- __okresní soud__ \(v Praze obvodní\) → __krajský soud__ \(8\) → __vrchní soud__ \(Praha, Olomouc\) → __nejvyšší soud__
+  \(Brno\) → __nejvyšší správní soud__ \(Brno\)
 
-\- mimo stojí __ústavní soud__ \- zkoumá, zda jsou zákony v souladu s ústavou, reaguje na stížnosti
+- mimo stojí __ústavní soud__ \- zkoumá, zda jsou zákony v souladu s ústavou, reaguje na stížnosti
                                                  ohledně práv v LZPS
 
-\- ústavní soudci \- 15 soudců, voleni na 10 let, od 40 let, právníci, praxe 10 let
-
-\- soudce – jmenován prezidentem na neurčito, nezávislí, nemůžou mít víc
+- ústavní soudci \- 15 soudců, voleni na 10 let, od 40 let, právníci, praxe 10 let
+- soudce – jmenován prezidentem na neurčito, nezávislí, nemůžou mít víc
 fcí, právníci, bezúhonní
 
-\- rozsudek se vyhlašuje veřejně
+- rozsudek se vyhlašuje veřejně
 
 __5\. HLAVA__
 
-\- NKÚ \(nejvyšší kontrolní úřad\) – kontroluje hospodaření státu, prezidenta a viceprezidenta jmenuje
+- NKÚ \(nejvyšší kontrolní úřad\) – kontroluje hospodaření státu, prezidenta a viceprezidenta jmenuje
   prezident
 
 __6\. HLAVA__
 
-\- ČNB \(Česká národní banka\) – stará se o stabilitu měny, cen, nedají se zde uložit peníze
+- ČNB \(Česká národní banka\) – stará se o stabilitu měny, cen, nedají se zde uložit peníze
 
 __7\. HLAVA__
 
-\- územní samospráva – kraje \(13\+Praha\) – nejlidnatější je Moravskoslezský, obce \(okresy zrušeny\)
+- územní samospráva – kraje \(13\+Praha\) – nejlidnatější je Moravskoslezský, obce \(okresy zrušeny\)
 
 __8\. HLAVA__
 

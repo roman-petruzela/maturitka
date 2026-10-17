@@ -2,6 +2,7 @@
 title: "Logaritmická funkce"
 order: 25
 source: "Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/25) Logaritmická funkce.pdf"
+formulaRail: false
 hasExercises: true
 ---
 

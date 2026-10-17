@@ -7,7 +7,7 @@ source: "FYZIKA-maturitní otázky/20-Změny-skupenství-látek.docx"
 - Pro označení skupenství se používá pojem __fáze__, který je však __obecnější__ než __skupenství__
 - Látka může existovat za různých __tlaků__ a __teplot__ v jednom __skupenství__, ale různých __fázích__, lišících se __např__. krystalovou stavbou
 
-Fáze
+## Fáze
 
 __Pevná látka__
 
@@ -37,7 +37,7 @@ __Plazma__
 - __např__. oheň, blesk, plazma hvězd
 - __další skupenství__ můžou být __např__. Kvark gluonové plazma, Bose-Einsteinův kondenzát, Supratekutá látka, Fermiho plyn
 
-Tání a tuhnutí
+## Tání a tuhnutí
 
 __Tání__
 
@@ -55,11 +55,11 @@ __Tuhnutí__
 - __Pokus:__
 	- __Regelace ledu__ – (znovuzmrznutí) označuje tání ledu v důsledku působení vnějšího tlaku a nové zmrazení vzniklé vody po odstranění tlaku. Regelační jev objevil M. Faraday v roce 1850.
 
-<img src="/images/content/fyzika/zmeny-skupenstvi-latek/01.webp" alt="" width="245" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/zmeny-skupenstvi-latek/01.webp" alt="Ilustrace: Tání a tuhnutí" width="245" loading="lazy" decoding="async">
 
 - __Průběh__ tání __krystalických__ látek
 
-<img src="/images/content/fyzika/zmeny-skupenstvi-latek/02.webp" alt="" width="331" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/zmeny-skupenstvi-latek/02.webp" alt="Ilustrace: Tání a tuhnutí" width="331" loading="lazy" decoding="async">
 
 ## Měrné skupenské teplo tání a tuhnutí
 
@@ -76,9 +76,9 @@ $$l_t = \frac{L_t}{m}$$
 
 __a) olovo							b) led__
 
-<img src="/images/content/fyzika/zmeny-skupenstvi-latek/04.webp" alt="" width="264" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/zmeny-skupenstvi-latek/04.webp" alt="Ilustrace: Křivka tání" width="264" loading="lazy" decoding="async">
 
-<img src="/images/content/fyzika/zmeny-skupenstvi-latek/05.webp" alt="" width="264" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/zmeny-skupenstvi-latek/05.webp" alt="Ilustrace: Křivka tání" width="264" loading="lazy" decoding="async">
 
 - __A__ – __trojný bod__ – rovnovážný stav __pevné__ látky, __kapaliny__ a __syté páry__ (např. voda __TA__=273,16K, __pA__=0,61kPa)‏
 
@@ -102,11 +102,11 @@ $$l_s = \frac{L_s}{m}$$
 
 - __Sublimační křivka__ – závislost __teploty tání__ na vnějším __tlaku__
 
-<img src="/images/content/fyzika/zmeny-skupenstvi-latek/07.webp" alt="" width="292" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/zmeny-skupenstvi-latek/07.webp" alt="Ilustrace: Sublimační křivka" width="292" loading="lazy" decoding="async">
 
 -  __A__ - trojný bod
 
-Vypařování a var
+## Vypařování a var
 
 __Vypařování__
 
@@ -145,7 +145,7 @@ $$l_v = \frac{L_v}{m}$$
 - __Kapalnění__ neboli kondenzace páry je děj obrácený k vypařování
 - Měrné skupenské teplo kondenzace má stejnou hodnotu jako lv a stejně se i označuje.
 
-Sytá a přehřátá pára
+## Sytá a přehřátá pára
 
 __Sytá pára__
 
@@ -153,7 +153,7 @@ __Sytá pára__
 - Při této rovnováze je vypařená látka nahrazena __zkondenzovanou__
 - Vypařuje-li se __kapalina__ (dostatečného objemu) v __uzavřené nádobě__, __přestane__ se po určité __době objem__ kapaliny __zmenšovat__ a __objem__ páry __zvětšovat__, počet molekul opouštějících hladinu je roven počtu molekul, které se do kapaliny vrací
 
-<img src="/images/content/fyzika/zmeny-skupenstvi-latek/09.webp" alt="" width="375" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/zmeny-skupenstvi-latek/09.webp" alt="Ilustrace: Sytá a přehřátá pára" width="375" loading="lazy" decoding="async">
 
 __Přehřátá pára__
 
@@ -167,7 +167,7 @@ __Přehřátá pára__
 
 ## Křivka syté páry
 
-- <img src="/images/content/fyzika/zmeny-skupenstvi-latek/10.webp" alt="" width="299" loading="lazy" decoding="async">__Křivka syté páry__ – závislost __teploty__ vypařování na vnějším __tlaku__
+- <img src="/images/content/fyzika/zmeny-skupenstvi-latek/10.webp" alt="Ilustrace: Křivka syté páry" width="299" loading="lazy" decoding="async">__Křivka syté páry__ – závislost __teploty__ vypařování na vnějším __tlaku__
 
 __K – kritický bod__ (zmizí rozhraní mezi kapalinou a párou)
 
@@ -180,9 +180,9 @@ __A – trojný bod__
 - V kritickém stavu __mizí rozdíl__ mezi __kapalinou__ a její __párou__, při __teplotě vyšší__ než __kritická teplota Tk__ __nemůže__ látka __existovat__ v __kapalném__ skupenství
 - Plyn, který má __teplotu vyšší__ než je __kritická teplota__, __nelze__ žádným __stlačováním zkapalnit__
 - V oblasti sycení dochází k __vypařování kapaliny__ (popř. kapalnění par). Nad __kritickým bodem K__ však již oblast __sycení neexistuje__ a k __fázové změně__ tam tedy __nemůže dojít__
-- <img src="/images/content/fyzika/zmeny-skupenstvi-latek/11.webp" alt="" width="397" loading="lazy" decoding="async">Zobrazením __izoterm__ v __p-V diagramu__ (viz obrázek) je vidět, že v __oblasti sycení__ (označeno barevně) dochází k __vypařování kapaliny__ (popř. kapalnění par). Nad kritickým bodem __K__ však již oblast sycení neexistuje a k __fázové změně__ tam tedy nemůže dojít. __Izoterma k__, která prochází kritickým bodem __K__, je __kritickou izotermou.__ Při __vyšších teplotách__, tzv. __nadkritických__, již __izotermy__ neprochází oblastí sycení a __nelze__ provést __zkapalnění__ a látka existuje pouze v __plynné__ fázi.
+- <img src="/images/content/fyzika/zmeny-skupenstvi-latek/11.webp" alt="Ilustrace: Kritický bod látky" width="397" loading="lazy" decoding="async">Zobrazením __izoterm__ v __p-V diagramu__ (viz obrázek) je vidět, že v __oblasti sycení__ (označeno barevně) dochází k __vypařování kapaliny__ (popř. kapalnění par). Nad kritickým bodem __K__ však již oblast sycení neexistuje a k __fázové změně__ tam tedy nemůže dojít. __Izoterma k__, která prochází kritickým bodem __K__, je __kritickou izotermou.__ Při __vyšších teplotách__, tzv. __nadkritických__, již __izotermy__ neprochází oblastí sycení a __nelze__ provést __zkapalnění__ a látka existuje pouze v __plynné__ fázi.
 
-<img src="/images/content/fyzika/zmeny-skupenstvi-latek/12.webp" alt="" width="299" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/zmeny-skupenstvi-latek/12.webp" alt="Ilustrace: Kritický bod látky" width="299" loading="lazy" decoding="async">
 
 ## Fázový diagram
 
@@ -223,4 +223,4 @@ __Vlhkoměr__
 
 - měřicí přístroj ukazující __relativní vlhkost vzduchu__ nebo jiné látky. Klasická konstrukce vlhkoměru je založena na __hygroskopických__ vlastnostech __lidských vlasů.__
 
-<img src="/images/content/fyzika/zmeny-skupenstvi-latek/16.webp" alt="" width="284" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/zmeny-skupenstvi-latek/16.webp" alt="Ilustrace: Vlhkost vzduchu" width="284" loading="lazy" decoding="async">

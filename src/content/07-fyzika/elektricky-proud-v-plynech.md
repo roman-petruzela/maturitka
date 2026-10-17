@@ -43,7 +43,7 @@ __Ionizovaný plyn__
 
 - Komorou prochází __nasycený proud__, pro který __neplatí__ Ohmův zákon
 
-<img src="/images/content/fyzika/elektricky-proud-v-plynech/01.webp" alt="" width="299" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/elektricky-proud-v-plynech/01.webp" alt="Ilustrace: Nesamostatný elektrický výboj" width="299" loading="lazy" decoding="async">
 
 = Voltampérová charakteristika výboje
 
@@ -76,7 +76,7 @@ __Obloukový výboj__
 - Mezi elektrodami vzniká __plazma__ - ↑ teplota a intenzivní světlo
 - __Využití__: svařování kovů, tavení kovů, zdroj světla - vysokotlaké výbojky (pouliční osvětlení), do výbojek se ještě přidává sodík, barva se změní na žlutou a intenzita je 5x větší než běžné žárovky
 
-<img src="/images/content/fyzika/elektricky-proud-v-plynech/02.webp" alt="" width="299" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/elektricky-proud-v-plynech/02.webp" alt="Ilustrace: Samostatný výboj za atmosferického tlaku" width="299" loading="lazy" decoding="async">
 
 __Jiskrový výboj__
 
@@ -110,7 +110,7 @@ __Doutnavý (tichý) výboj__
 	- šíří se přímočaře (není-li pod vlivem el. nebo mag. pole), vychyluje se v el. a mag. poli, proniká velmi tenkými materiály a rozptyluje se, tepelné a chemické účinky
 - __Využití:__ obrazovka, osciloskop - obrazovky s elektrostatickým vychylováním el. paprsku
 
-<img src="/images/content/fyzika/elektricky-proud-v-plynech/03.webp" alt="" width="477" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/elektricky-proud-v-plynech/03.webp" alt="Ilustrace: Termoemise" width="477" loading="lazy" decoding="async">
 
 ## Katodové záření
 
@@ -131,4 +131,4 @@ __Doutnavý (tichý) výboj__
 - Potom jsou soustavou anod __A1, A2 urychlovány__ a __soustřeďovány__ do elektronového paprsku, který prochází dvěma páry __vychylovacích destiček D1, D2__ a dopadá na __stínítko__ S, pokryté vrstvou sulfidu zinečnatého ZnS.
 - V místě dopadu vznikne __svítící stopa.__
 
-<img src="/images/content/fyzika/elektricky-proud-v-plynech/04.webp" alt="" width="549" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/elektricky-proud-v-plynech/04.webp" alt="Ilustrace: Obrazovka" width="549" loading="lazy" decoding="async">

@@ -5,7 +5,7 @@ source: "FYZIKA-maturitní otázky/27-Ohmův-zákon-Kirchhoffovy-zákony-a-jejic
 ---
 Ohmův zákon pro část elektrického obvodu
 
-- <img src="/images/content/fyzika/ohmuv-zakon-kirchhoffovy-zakony-a-jejich-prakticke-aplikace/01.webp" alt="" width="375" loading="lazy" decoding="async">__Vysvětlení__: Ke svorkám zdroje napětí, jehož __elektromotorické napětí Ue__ můžeme měnit, je přes spínač připojen kovový vodič a ampérmetr\. Napětí na vodiči mezi body __A__ a __B__ měříme voltmetrem\. Měníme\-li __Ue__, mění se __napětí U__ mezi dvěma body vodiče a proud jím procházející\.
+- <img src="/images/content/fyzika/ohmuv-zakon-kirchhoffovy-zakony-a-jejich-prakticke-aplikace/01.webp" alt="Ilustrace: Ohmův zákon Kirchhoffovy zákony a jejich praktické aplikace" width="375" loading="lazy" decoding="async">__Vysvětlení__: Ke svorkám zdroje napětí, jehož __elektromotorické napětí Ue__ můžeme měnit, je přes spínač připojen kovový vodič a ampérmetr\. Napětí na vodiči mezi body __A__ a __B__ měříme voltmetrem\. Měníme\-li __Ue__, mění se __napětí U__ mezi dvěma body vodiče a proud jím procházející\.
 - Z pokusu vyplývá:
 - *Elektrické napětí U*__* mezi konci kovového vodiče je přímo úměrné *__*elektrickému proudu*__* tímto vodičem procházejícím\. \(__*R* konstantní\)
 - Tento poznatek byl objeven v r\. __1826__ německým fyzikem __G\. S\. Ohmem__ a nazývá se __Ohmův zákon pro část elektrického obvodu__\.
@@ -18,14 +18,14 @@ Ohmův zákon pro část elektrického obvodu
 - Je to konstanta úměrnosti mezi __proudem__ a __napětím__
 - U různých vodičů je odpor různý\.
 
-<img src="/images/content/fyzika/ohmuv-zakon-kirchhoffovy-zakony-a-jejich-prakticke-aplikace/02.webp" alt="" width="91" loading="lazy" decoding="async"><img src="/images/content/fyzika/ohmuv-zakon-kirchhoffovy-zakony-a-jejich-prakticke-aplikace/03.webp" alt="" width="81" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/ohmuv-zakon-kirchhoffovy-zakony-a-jejich-prakticke-aplikace/02.webp" alt="Ilustrace: Elektrický odpor" width="91" loading="lazy" decoding="async"><img src="/images/content/fyzika/ohmuv-zakon-kirchhoffovy-zakony-a-jejich-prakticke-aplikace/03.webp" alt="Ilustrace: Elektrický odpor" width="81" loading="lazy" decoding="async">
 
 - __U__ je přímo úměrné __I__, __R__ je nepřímo úměrné
 - Platí pro vodiče se __stálou teplotou__
 - Jednotkou odporu je __ohm Ώ__
 - Vodič má odpor __1 Ώ__ pokud jím při napětí __1V__ prochází proud __1A__
 
-<img src="/images/content/fyzika/ohmuv-zakon-kirchhoffovy-zakony-a-jejich-prakticke-aplikace/04.webp" alt="" width="197" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/ohmuv-zakon-kirchhoffovy-zakony-a-jejich-prakticke-aplikace/04.webp" alt="Ilustrace: Elektrický odpor" width="197" loading="lazy" decoding="async">
 
 __Elektrická vodivost__
 
@@ -34,9 +34,9 @@ __Elektrická vodivost__
 - Jednotkou je __Siemens  \[S\]__
 - Ohmův zákon pomocí vodivosti vyjadřujeme:
 
-<img src="/images/content/fyzika/ohmuv-zakon-kirchhoffovy-zakony-a-jejich-prakticke-aplikace/05.webp" alt="" width="116" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/ohmuv-zakon-kirchhoffovy-zakony-a-jejich-prakticke-aplikace/05.webp" alt="Ilustrace: Elektrický odpor" width="116" loading="lazy" decoding="async">
 
-<img src="/images/content/fyzika/ohmuv-zakon-kirchhoffovy-zakony-a-jejich-prakticke-aplikace/06.webp" alt="" width="109" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/ohmuv-zakon-kirchhoffovy-zakony-a-jejich-prakticke-aplikace/06.webp" alt="Ilustrace: Elektrický odpor" width="109" loading="lazy" decoding="async">
 
 ## Vodiče
 
@@ -50,7 +50,7 @@ __Elektrická vodivost__
 
 __Závislost odporu na geometrických rozměrech vodiče a na látce:__
 
-<img src="/images/content/fyzika/ohmuv-zakon-kirchhoffovy-zakony-a-jejich-prakticke-aplikace/07.webp" alt="" width="152" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/ohmuv-zakon-kirchhoffovy-zakony-a-jejich-prakticke-aplikace/07.webp" alt="Ilustrace: Rezistory" width="152" loading="lazy" decoding="async">
 
 __l__ … délka vodiče
 
@@ -76,7 +76,7 @@ __α__ … teplotní součinitel elektrického odporu jednotkou je __K\-1__
 	- __Vnější__ – odpor vodičů, rezistorů, spotřebičů…
 - Proud v uzavřeném obvodu se rovná podílu __elektromotorického napětí__ __zdroje__ a __součtu odporů__ __vnější__ a __vnitřní__ části obvodu\.
 
-<img src="/images/content/fyzika/ohmuv-zakon-kirchhoffovy-zakony-a-jejich-prakticke-aplikace/08.webp" alt="" width="211" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/ohmuv-zakon-kirchhoffovy-zakony-a-jejich-prakticke-aplikace/08.webp" alt="Ilustrace: Ohmův zákon pro uzavřený obvod" width="211" loading="lazy" decoding="async">
 
 __R \+ Ri__\.\.\.celkový odpor obvodu
 
@@ -93,7 +93,7 @@ __R__\.\.\.vnější napětí obvodu
 - Pro svorkové napětí platí:  __U= Ue – RiI__
 - Tím je objasněno, proč svorkové napětí je vždy menší než elektromotorické – příčinou je existence vnitřního napětí\.
 
-Kirchhoffovy zákony
+## Kirchhoffovy zákony
 
 __1\. Kirchhoffův zákon__
 
@@ -104,7 +104,7 @@ __1\. Kirchhoffův zákon__
 
 - Jestliže se v uzlu stýká __n větví__, platí:
 
-<img src="/images/content/fyzika/ohmuv-zakon-kirchhoffovy-zakony-a-jejich-prakticke-aplikace/09.webp" alt="" width="200" loading="lazy" decoding="async"><img src="/images/content/fyzika/ohmuv-zakon-kirchhoffovy-zakony-a-jejich-prakticke-aplikace/10.webp" alt="" width="200" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/ohmuv-zakon-kirchhoffovy-zakony-a-jejich-prakticke-aplikace/09.webp" alt="Ilustrace: Kirchhoffovy zákony" width="200" loading="lazy" decoding="async"><img src="/images/content/fyzika/ohmuv-zakon-kirchhoffovy-zakony-a-jejich-prakticke-aplikace/10.webp" alt="Ilustrace: Kirchhoffovy zákony" width="200" loading="lazy" decoding="async">
 
 = součet proudů do uzlu vcházejících se rovná součtu proudů z uzlu vycházejících
 
@@ -115,7 +115,7 @@ __2\. Kirchhoffův zákon__
 - *Součet napětí na rezistorech je v uzavřené smyčce roven součtu elektromotorických napětí zdrojů zapojených ve smyčce\.*
 - Jestliže se ve smyčce nachází __n rezistorů__ a __m zdrojů__, platí:
 
-<img src="/images/content/fyzika/ohmuv-zakon-kirchhoffovy-zakony-a-jejich-prakticke-aplikace/11.webp" alt="" width="297" loading="lazy" decoding="async"><img src="/images/content/fyzika/ohmuv-zakon-kirchhoffovy-zakony-a-jejich-prakticke-aplikace/12.webp" alt="" width="240" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/ohmuv-zakon-kirchhoffovy-zakony-a-jejich-prakticke-aplikace/11.webp" alt="Ilustrace: Kirchhoffovy zákony" width="297" loading="lazy" decoding="async"><img src="/images/content/fyzika/ohmuv-zakon-kirchhoffovy-zakony-a-jejich-prakticke-aplikace/12.webp" alt="Ilustrace: Kirchhoffovy zákony" width="240" loading="lazy" decoding="async">
 
 __Použití Kirchhoffových zákonů__
 
@@ -130,7 +130,7 @@ __Použití Kirchhoffových zákonů__
 
 U:U1:U2:U3:…:Un = R:R1:R2:R3:…:R4
 
-<img src="/images/content/fyzika/ohmuv-zakon-kirchhoffovy-zakony-a-jejich-prakticke-aplikace/13.webp" alt="" width="159" loading="lazy" decoding="async"><img src="/images/content/fyzika/ohmuv-zakon-kirchhoffovy-zakony-a-jejich-prakticke-aplikace/14.webp" alt="" width="378" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/ohmuv-zakon-kirchhoffovy-zakony-a-jejich-prakticke-aplikace/13.webp" alt="Ilustrace: Sériové zapojení rezistorů" width="159" loading="lazy" decoding="async"><img src="/images/content/fyzika/ohmuv-zakon-kirchhoffovy-zakony-a-jejich-prakticke-aplikace/14.webp" alt="Ilustrace: Sériové zapojení rezistorů" width="378" loading="lazy" decoding="async">
 
 ## Paralelní zapojení rezistorů
 
@@ -138,9 +138,9 @@ U:U1:U2:U3:…:Un = R:R1:R2:R3:…:R4
 - __Výsledný odpor__ je vždy __menší__ než odpor libovolného zapojeného rezistoru\.
 - Proudy se ve větvích rozdělí v __obráceném poměru__ k jejich odporům:
 
-<img src="/images/content/fyzika/ohmuv-zakon-kirchhoffovy-zakony-a-jejich-prakticke-aplikace/15.webp" alt="" width="506" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/ohmuv-zakon-kirchhoffovy-zakony-a-jejich-prakticke-aplikace/15.webp" alt="Ilustrace: Paralelní zapojení rezistorů" width="506" loading="lazy" decoding="async">
 
-<img src="/images/content/fyzika/ohmuv-zakon-kirchhoffovy-zakony-a-jejich-prakticke-aplikace/16.webp" alt="" width="158" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/ohmuv-zakon-kirchhoffovy-zakony-a-jejich-prakticke-aplikace/16.webp" alt="Ilustrace: Paralelní zapojení rezistorů" width="158" loading="lazy" decoding="async">
 
 ## Sériově paralelní zapojení rezistorů
 
@@ -152,7 +152,7 @@ U:U1:U2:U3:…:Un = R:R1:R2:R3:…:R4
 - Prochází\-li spotřebičem __el\. proud__, __mění__ se v něm __elektrická energie__ v __jiné formy energie\.__
 - Pokud prochází spotřebičem o __odporu R__ __konstantní proud I__, platí __Q=It__, __U=RI__ a pro __práci elektrického proudu__ dostáváme vztah:
 
-<img src="/images/content/fyzika/ohmuv-zakon-kirchhoffovy-zakony-a-jejich-prakticke-aplikace/17.webp" alt="" width="353" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/ohmuv-zakon-kirchhoffovy-zakony-a-jejich-prakticke-aplikace/17.webp" alt="Ilustrace: Elektrická práce" width="353" loading="lazy" decoding="async">
 
 ## Joulovo teplo
 
@@ -160,7 +160,7 @@ U:U1:U2:U3:…:Un = R:R1:R2:R3:…:R4
 - __Mírou změny vnitřní energie__ je právě __Joulovo teplo Qj__
 - Nedochází\-li k přeměnám na jiné druhy energie \(mechanickou, chemickou, …\) je __Joulovo teplo rovno práci elektrického proudu__:
 
-<img src="/images/content/fyzika/ohmuv-zakon-kirchhoffovy-zakony-a-jejich-prakticke-aplikace/18.webp" alt="" width="370" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/ohmuv-zakon-kirchhoffovy-zakony-a-jejich-prakticke-aplikace/18.webp" alt="Ilustrace: Joulovo teplo" width="370" loading="lazy" decoding="async">
 
 - Tento vztah se nazývá __Joulův\-Lenzův zákon__
 
@@ -168,7 +168,7 @@ U:U1:U2:U3:…:Un = R:R1:R2:R3:…:R4
 
 - __Výkon elektrického proudu__ ve spotřebiči o __odporu R__ vypočítáme ze vztahů:
 
-<img src="/images/content/fyzika/ohmuv-zakon-kirchhoffovy-zakony-a-jejich-prakticke-aplikace/19.webp" alt="" width="323" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/ohmuv-zakon-kirchhoffovy-zakony-a-jejich-prakticke-aplikace/19.webp" alt="Ilustrace: Výkon elektrického proudu" width="323" loading="lazy" decoding="async">
 
 - Uvedené vztahy vyjadřují __příkon spotřebiče__, tj\. míru elektrické energie odebrané spotřebičem ze zdroje napětí za __1 s\.__
 
@@ -177,6 +177,6 @@ __Účinnost__
 - __Výkon spotřebiče P´__ je mírou práce, kterou spotřebič vykoná za __1s__ \(elektromotor\), popř\. mírou energie odevzdané uvažovanému tělesu \(topná spirála tep\. výměnou ohřeje vodu\)\.
 - __Podíl výkonu__ a __příkonu__ udává __účinnost__ spotřebiče:
 
-<img src="/images/content/fyzika/ohmuv-zakon-kirchhoffovy-zakony-a-jejich-prakticke-aplikace/20.webp" alt="" width="106" loading="lazy" decoding="async"><img src="/images/content/fyzika/ohmuv-zakon-kirchhoffovy-zakony-a-jejich-prakticke-aplikace/21.webp" alt="" width="202" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/ohmuv-zakon-kirchhoffovy-zakony-a-jejich-prakticke-aplikace/20.webp" alt="Ilustrace: Výkon elektrického proudu" width="106" loading="lazy" decoding="async"><img src="/images/content/fyzika/ohmuv-zakon-kirchhoffovy-zakony-a-jejich-prakticke-aplikace/21.webp" alt="Ilustrace: Výkon elektrického proudu" width="202" loading="lazy" decoding="async">
 
 - Hlavní jednotkou výkonu je __watt \[W\]__

@@ -3,7 +3,7 @@ title: "Spoluvlastnictví"
 order: 9
 source: "Právo/9. Spoluvlastnictví/9_spoluvlastnictvi.docx"
 ---
-# __9. Spoluvlastnictví, práva k cizí věci__
+## __9. Spoluvlastnictví, práva k cizí věci__
 
 VĚCNÁ PRÁVA jsou práva zajišťující moc osoby nad věcí, která působí vůči všem ostatním subjektům tak, že jim přikazuje nerušit vlastníka ve výkonu jeho práv.
 
@@ -109,7 +109,7 @@ __REÁLNÁ BŘEMENA__
 
 Je-li věc zapsána ve veřejném seznamu, může být zatížena reálným břemenem, tak že dočasný vlastník je jako dlužník vázán vůči oprávněné osobě něco jí dát nebo něco konat (babička má sjednané věcné právo v domě, musíme se o někoho starat, něco konat)
 
-SPRÁVA CIZÍHO MAJETKU
+### SPRÁVA CIZÍHO MAJETKU
 
 Každý, komu je svěřena správa majetku, který mu nepatří, ve prospěch někoho jiného je správcem cizího majetku. Má se za to, že správně právně jedná jako zástupce vlastníka, náleží mu za to obvyklá odměna.
 

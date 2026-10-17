@@ -9,7 +9,7 @@ Fyzikální veličiny vyjadřují měřitelné vlastnosti, změny či stavy fyzi
 
 Fyzikální rozměr veličiny – formální vyjádření závislosti měřené fyzikální veličiny na jednotkách, které odpovídají základním jednotkám
 
-Skalární a vektorové fyzikální veličiny
+## Skalární a vektorové fyzikální veličiny
 
 __Skalární veličiny__
 
@@ -38,9 +38,8 @@ matematická pravidla (Pythagorova věta, ...)
 
 - Hodnotu fyzikální veličiny A vyjadřujeme:
 
-   	 \- číselnou hodnotou\{A\}		A = \{A\}\[A\]
-
-  \- jednotkou \[A\]			l = 41 mm
+   	 - číselnou hodnotou\{A\}		A = \{A\}\[A\]
+  - jednotkou \[A\]			l = 41 mm
 
 Ke vzájemnému srovnávání veličin byly vytvořeny zákonné jednotky vycházející z Mezinárodní soustavy jednotek (SI).
 
@@ -70,7 +69,7 @@ D)  Násobky a díly jednotek
 
 __B) Doplňkové jednotky__
 
-<img src="/images/content/fyzika/fyzikalni-veliciny-a-jednotky/02.webp" alt="" width="202" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/fyzikalni-veliciny-a-jednotky/02.webp" alt="Ilustrace: E) Vedlejší jednotky" width="202" loading="lazy" decoding="async">
 
 - Radián (rovinný úhel), steradián (prostorový úhel)
 - bezrozměrné jednotky
@@ -90,7 +89,7 @@ Některé jednotky mají vlastní názvy a značky:
 
 __D) Násobky a díly základních jednotek__
 
-<img src="/images/content/fyzika/fyzikalni-veliciny-a-jednotky/07.webp" alt="" width="563" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/fyzikalni-veliciny-a-jednotky/07.webp" alt="Ilustrace: E) Vedlejší jednotky" width="563" loading="lazy" decoding="async">
 
 a … atto		n … nano	k … kilo		T … tera	c … centi	h … hekto
 
@@ -158,11 +157,11 @@ __Operace s vektory__
 
 Součet vektorů: __a__ + __b__ = __c__			Rozdíl vektorů: __a__ - __b__ = __c__
 
-<img src="/images/content/fyzika/fyzikalni-veliciny-a-jednotky/09.webp" alt="" width="235" loading="lazy" decoding="async"><img src="/images/content/fyzika/fyzikalni-veliciny-a-jednotky/10.webp" alt="" width="155" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/fyzikalni-veliciny-a-jednotky/09.webp" alt="Ilustrace: Vektor X skalár" width="235" loading="lazy" decoding="async"><img src="/images/content/fyzika/fyzikalni-veliciny-a-jednotky/10.webp" alt="Ilustrace: Vektor X skalár" width="155" loading="lazy" decoding="async">
 
 Skalární součin dvou vektorů:
 
-<img src="/images/content/fyzika/fyzikalni-veliciny-a-jednotky/11.webp" alt="" width="210" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/fyzikalni-veliciny-a-jednotky/11.webp" alt="Ilustrace: Vektor X skalár" width="210" loading="lazy" decoding="async">
 
 $$\vec a \cdot \vec b = |\vec a| \cdot |\vec b| \cdot \cos \alpha$$
 
@@ -174,7 +173,7 @@ Vektorový součin: __a__ X __b__ =
 - Je kolmý k rovině určené oběma vektory
 - Je orientován tak, že vektory $\vec a, \vec b, \vec a \times \vec b$ tvoří pravotočivý trojhran
 
-<img src="/images/content/fyzika/fyzikalni-veliciny-a-jednotky/15.webp" alt="" width="348" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/fyzikalni-veliciny-a-jednotky/15.webp" alt="Ilustrace: Vektor X skalár" width="348" loading="lazy" decoding="async">
 
 Součin vektoru a skaláru:
 
@@ -185,7 +184,7 @@ Součin vektoru a skaláru:
 - k <0 – vektory __a__, __b__ mají opačné směry, jsou nesouhlasně rovnoběžné
 - k = 0   je   __b__ = __0__    vektor __0__   je nulový vektor
 
-Souřadnice vektorů
+## Souřadnice vektorů
 
  __a__ = ____B-A =__ AB__
 

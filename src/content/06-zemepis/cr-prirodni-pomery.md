@@ -49,13 +49,13 @@ __Český masiv__
 
 - vývoj od Prahor, kdy docházelo ke střídání ročních období, vrásnění a usazování mořských sedimentů
 
-Starohory
+### Starohory
 
 - Před kadomské vrásnění
 - objevilo se moře, kde se usazovala břidlice
 - Barrandie (mezi Plzní a Prahou), objev nejstarší mořské usazeniny, trilobiti
 
-Prvohory
+### Prvohory
 
 - nejmohutnější vrásnění
 - Kaledonské vrásnění
@@ -68,21 +68,21 @@ Prvohory
 	- tvoření ložisek černého uhlí, žulové masivy
 	- Českomoravská vysočina, Šumava, Středočeská pahorkatina, Krkonoše
 
-Druhohory
+### Druhohory
 
 - většina Českého masivu je souš, moře jen na severu
 - zarovnání masivu
 - ukládal se vápenec (Koněprusy, Moravský kras – původ z Devonu), pískovec, slepenec, jílovec (kaolín – sklářské písky)
 - vznik pískovcových skalních měst
 
-Třetihory
+### Třetihory
 
 - Alpinské vrásnění
 - vyklenutí masivu, vznik zlomů a příkopových propadlin, rozlámání povrchu na kry
 - vulkanismus (Doupovské hory, Říp, Bezděz, Trosky, Ralsko, Kunětická hora)
 - od poloviny třetihor se utváří říční sítě
 
-Čtvrtohory
+### Čtvrtohory
 
 - kolísání klimatu
 - doba ledová (glaciál) se střídá s dobou meziledovou (interglaciál)
@@ -104,26 +104,26 @@ __Reliéf__
 
 __Horninové složení__ – dominuje žula, vulkanické horniny, pískovec, vápenec
 
-Žulová tělesa
+### Žulová tělesa
 
 - deskovitá až kvádrovitá odlučnost
 - hlubinná vyvřelá hornina, zvětrávání
 - Krkonoše, Českomoravská vrchovina, Středočeská pahorkatina, Vnější Karpaty (flyšové pásmo – soubor sedimentárních vrstev břidlice, jílovitá břidlice)
 
-Sopečný reliéf
+### Sopečný reliéf
 
 - doprovodný jev vrásnění prvohor a třetihor
 - vulkanické oblasti tvořené čedičem: České středohoří, Doupovské hory
 - v třetihorách mnoho izolovaných vulkanických těles: Kozákov, Říp, Ralsko, Trosky, Bezděz, Kunětická hora
 - Milešovka, Velký a Malý Roudný, Panská skála
 
-Krasový reliéf
+### Krasový reliéf
 
 - vápenec, dolomit: rozpustný vodou
 - krasové tvary na povrchu (závrty, škarpy) i pod zemí (jeskyně)
 - Koněpruské jeskyně, Pavlovské vrchy, Rychlebské hory, propast Macocha a Punkevní jeskyně
 
-Glaciální reliéf
+### Glaciální reliéf
 
 - čtvrtohory
 - pevninský ledovec – Moravská brána
@@ -135,17 +135,17 @@ Eolický reliéf (větrný)
 - váté písky, písečné přesypy, spraše
 - Polabí, Třeboňsko, Hodonínsko, písečný přesyp u Vlkova (Česká Sahara)
 
-Reliéf vytvořený činností vody
+### Reliéf vytvořený činností vody
 
 - voda je hlavní exogenní činitel, odnos a ukládání materiálu
 - říční údolí, říční terasy, náplavové nížiny, soutěsky
 
-Reliéf tvořený vodou a větrem
+### Reliéf tvořený vodou a větrem
 
 - pískovcová skalní města z druhohorních usazených hornin – Česká tabule
 - Labské pískovce, Prachovské skály, Adršpachy, Broumovské stěny, Kokořínské poličky, Pravčická brána
 
-Antropogenní reliéf
+### Antropogenní reliéf
 
 - těžební činnost, budování sídel, dopravní síť, zemědělské oblasti
 - zatopený lom Velká Amerika, jezírko Košutka
@@ -237,13 +237,13 @@ __Typy říční sítě__
 
 významné řeky: Labe, Vltava, Berounka, Odra, Morava
 
-Labe
+### Labe
 
 - „hlavní řeka“
 - nejvodnatější řeka (308 m3/s)
 - pramení na Labské budce v Krkonoších
 
-Vltava
+### Vltava
 
 - nejdelší česká řeka (433 km)
 - pramení na Šumavě pod Černou horou

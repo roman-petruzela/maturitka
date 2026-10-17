@@ -40,7 +40,9 @@ Inerciální a neinerciální vztažná soustava
 - Z toho plyne: __Dvě nesoumístné události, které jsou současné vzhledem k soustavě K´, nejsou současné vzhledem k soustavě K.__
 - To znamená, že __současnost dvou nesoumístných událostí je relativní pojem__
 
-<img src="/images/content/fyzika/str/02.webp" alt="světelné hodiny" width="51" loading="lazy" decoding="async">Dilatace času
+## Dilatace času
+
+<img src="/images/content/fyzika/str/02.webp" alt="světelné hodiny" width="51" loading="lazy" decoding="async">
 
 - Pro přesné hodnoty využíváme světelných hodin – světelný paprsek kmitá mezi dvěma zrcadly, což odpovídá tikotu hodin
 - Dilataci času nejlépe demonstruje následující příklad: raketa se pohybuje určitou rychlostí __v__ a v ní se nachází světelné hodiny, pozorovatel A zjistí:

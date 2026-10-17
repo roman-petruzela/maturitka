@@ -3,7 +3,7 @@ title: "STR"
 order: 46
 source: "FYZIKA-maturitní otázky/46-STR.docx"
 ---
-Relativistická hmotnost
+## Relativistická hmotnost
 
 - Na rozdíl od klasické mechaniky, kde je hmotnost neměnná, Einstein dokázal, že při rychlostech blízkých rychlosti světla se hmotnost tělesa s jeho rostoucí rychlostí zvyšuje, a to podle vztahu:
 
@@ -18,7 +18,7 @@ Relativistická hmotnost
 
 - Závislost relativistické hmotnosti tělesa na jeho rychlosti vzhledem k dané inerciální vztažné soustavě
 
-Relativistická hybnost
+## Relativistická hybnost
 
 - V klasické mechanice: $\vec p = m_0 \vec v$
 
@@ -27,7 +27,7 @@ Relativistická hybnost
 
   $$\vec p = m \vec v = \frac{m_0 \vec v}{\sqrt{1 - \frac{v^2}{c^2}}}$$
 
-Vztah mezi energií a hmotností
+## Vztah mezi energií a hmotností
 
 - Podle klasické mechaniky není mezi energií tělesa E a jeho setrvačnou hmotností m0 žádný vztah.
 - Einstein však dokázal, že __se při každé změně celkové energie soustavy změní také její hmotnost__, a to podle vztahu:
@@ -43,20 +43,20 @@ __Einsteinův vztah mezi energií a hmotností__
 - Vztah $E = m c^2$ je nejvýznamnější výsledek speciální teorie relativity. Je využíván při jaderných reakcích, a to jak v reaktorech elektráren, tak při vývoji atomových a termonukleárních bomb a při jejich testech i experimentálně ověřen.
 - Pro celkovou energii soustavy platí __zákon zachování energie__: __Celková energie izolované soustavy zůstává při všech dějích probíhajících uvnitř soustavy konstantní__.
 
-Hmotnostní úbytek
+## Hmotnostní úbytek
 
 - Hmotnostní defekt – rozdíl mezi součtem klidových hmotností volných nukleonů a z nich složeného atomového jádra. Hmotnostní úbytek $\Delta m$ odpovídá vazebné energii jádra $E = \Delta m \cdot c^2$.
 
 - Největší hmotnostní úbytek na 1 nukleon mají jádra s nukleonovým číslem okolo 60. Z toho vyplývá možnost uvolnění jaderné energie buď při štěpení těžkých jader, nebo při slučování lehkých jader.
 
 
-Vazebná energie
+## Vazebná energie
 
 - přesná měření hmotnosti jader (na hmotnostních spektrografech)
 - nesrovnalosti s vypočtenou hmotností dle počtu nukleonů
 - rozdíl těchto hodnot určuje __hmotnostní schodek (defekt) jádra__
 
-Hmotnostní schodek
+## Hmotnostní schodek
 
 $$B = Z \cdot m_p + (A - Z) \cdot m_n - m_j$$
 
@@ -88,10 +88,10 @@ $$u = 1{,}66 \cdot 10^{-27}\ \mathrm{kg}$$
 
   $$B_j = \frac{E_j}{c^2}$$
 
-<img src="/images/content/fyzika/str-2/23.webp" alt="" width="246" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/str-2/23.webp" alt="Závislost průměrné vazební energie na počtu nukleonů" width="246" loading="lazy" decoding="async">
 
 *Závislost průměrné vazební energie na počtu nukleonů*
 
-*<img src="/images/content/fyzika/str-2/24.webp" alt="" width="255" loading="lazy" decoding="async">*
+*<img src="/images/content/fyzika/str-2/24.webp" alt="Závislost hmotnostního schodku na počtu nukleonů" width="255" loading="lazy" decoding="async">*
 
 *Závislost hmotnostního schodku na počtu nukleonů*

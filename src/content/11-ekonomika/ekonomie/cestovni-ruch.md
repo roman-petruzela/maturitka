@@ -71,25 +71,24 @@ __3\. Kulturně historický__
 
 __4\. Materiálně technické__
 
-\- úroveň technických zařízení využívaných v CR
+- úroveň technických zařízení využívaných v CR
 
 \-všechna zařízení využívaná v CR\- ubytovací, stravovací a dopravní
 
 __5\. Personální \(zaměstnanci\)__
 
-\- zabývají se úrovní všech zaměstnanců působících v oblasti CR
+- zabývají se úrovní všech zaměstnanců působících v oblasti CR
 
 __6\. Sociálně ekonomické__
 
-\- příjmy obyvatelstva
-
-\- fond volného času
+- příjmy obyvatelstva
+- fond volného času
 
 \-úroveň ekonomiky státu, vyjádřená HDP
 
 __7\. Administrativní__
 
-\- zahraniční cestovní ruch
+- zahraniční cestovní ruch
 
 Cestovní doklady, víza , směnárenská činnost \(problematika\)
 

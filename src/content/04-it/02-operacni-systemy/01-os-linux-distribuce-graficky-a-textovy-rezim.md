@@ -59,7 +59,7 @@ __Linux__
 	- Příkazový řádek = terminál, bash
 	- Verze OS = distribuce
 
-Distribuce
+## Distribuce
 
 - Windows mají několik druhů operačních systémů, které se liší určitým vybavením a schopnosti, ale jejich jádro zůstává stejné
 - Distribuce Linuxu je stejná myšlenka dohnána do určitého extrému; jádro každé distribuce je stejné, ale zbytek se může velmi podstatně lišit

@@ -17,7 +17,7 @@ Zvuková karta, Reproduktory a mikrofony
 
 - **IBM PC Junior** – Intel 8088, 64kB RAM, zvukový čip -Texas Instruments – modelu SN76489, generátor bílého šumu,
 
-# Něco málo z historie
+## Něco málo z historie
 
 - Creative Labs
 
@@ -39,7 +39,7 @@ Zvuková karta, Reproduktory a mikrofony
 
 - **Sound Blaster 16** - 16-bitové digitální zpracování zvuků,
 
-# Firmy vyrábějící zvukové karty
+## Firmy vyrábějící zvukové karty
 
 - Creative Labs
 
@@ -55,12 +55,12 @@ Zvuková karta, Reproduktory a mikrofony
 
 - ...
 
-# Druhy zvukových karet
+## Druhy zvukových karet
 
 <img src="/images/content/it/uvod-do-vypocetni-techniky/zvukova-karta-a-reproduktory/01.webp" alt="Interní, externí a integrovaná zvuková karta" width="545" loading="lazy" decoding="async">
 
 
-# Barevné označení vstupů a výstupů zvukové karty
+## Barevné označení vstupů a výstupů zvukové karty
 
 |Barva|Funkce|
 |---|---|
@@ -72,11 +72,11 @@ Zvuková karta, Reproduktory a mikrofony
 |Oranžová|S/PDIF digitální výstup.|
 
 
-# Reproduktor
+## Reproduktor
 
 - Přeměňuje elektrickou energii na mechanickou energii (zvuk)
 
-# Parametry zvukových karet
+## Parametry zvukových karet
 
 - Obsahuje zvukový čip a AD/DA převodník
 
@@ -86,9 +86,9 @@ Zvuková karta, Reproduktory a mikrofony
 
 ●
 
-# Reproduktory
+## Reproduktory
 
-# Dělení reproduktorů
+## Dělení reproduktorů
 
 - Dle způsobu vyzařování
 
@@ -110,7 +110,7 @@ Zvuková karta, Reproduktory a mikrofony
 
 - pneumatické
 
-# Dělení reproduktorů
+## Dělení reproduktorů
 
 - Dle účelu
 
@@ -118,7 +118,7 @@ Zvuková karta, Reproduktory a mikrofony
 
 - vysoce kvalitní měniče pro studiové monitory, HiEnd audio apod.
 
-# Mikrofony
+## Mikrofony
 
    - je zařízení pro přeměnu akustického (zvukového) signálu na signál elektrický (Emile Berliner 4. března 1877).
 
@@ -146,7 +146,7 @@ Zvuková karta, Reproduktory a mikrofony
 
 - Vysokotónové (výškové) reproduktory - od 2 000 do 20 000 Hz
 
-# Dělení mikrofonů
+## Dělení mikrofonů
 
 - Kondenzátorový mikrofon – nejkvalitnější, profesionální
 
@@ -160,14 +160,14 @@ Zvuková karta, Reproduktory a mikrofony
 
 - Piezoelektrický mikrofon
 
-# Vlastnosti mikrofonů
+## Vlastnosti mikrofonů
 
 <img src="/images/content/it/uvod-do-vypocetni-techniky/zvukova-karta-a-reproduktory/02.webp" alt="Ukázky směrových charakteristik mikrofonů" width="300" loading="lazy" decoding="async">
 
 
 - Frekvenční charakteristiky
 
-# Příslušenství mikrofonů
+## Příslušenství mikrofonů
 
 - Stojan
 
@@ -183,7 +183,7 @@ Zvuková karta, Reproduktory a mikrofony
 
 - Ochrana proti větru
 
-# Napájení mokrofonů
+## Napájení mokrofonů
 
    - **Tonaderspeisung** – také AB napájení, T-power nebo paralelní napájení, napájení 12 V je vedeno přímo
 
@@ -193,7 +193,7 @@ Zvuková karta, Reproduktory a mikrofony
 
 - Pop filtr (více druhů)
 
-# Citace
+## Citace
 
 - https://www.svethardware.cz/zvukove-karty-a-jejich-vyvoj-1-cast/15816
 

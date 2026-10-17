@@ -225,7 +225,7 @@ __Ekonomika__
 - pěstují bavlnu, obilniny, tabák, ořechy, citrusy, vinná réva, luštěniny, chov skotu, jaci, drůbež
 - hlavně využívají hydroenergetické zdroje
 
-Rusko
+### Rusko
 
 - Moskva, 17 milionů km2, 145 milionů ob.
 

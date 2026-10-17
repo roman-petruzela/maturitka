@@ -66,13 +66,13 @@ __Účetní výsledek hospodaření__		Účetní výsledek hospodaření
 
 \+ náklady daňově neuznatelné
 
-\- výnosy nezahrnované do ZD
+- výnosy nezahrnované do ZD
 
 ± rozdíl mezi účetními a daňovými	odpisy
 
 Základ daně
 
-\- odčitatelné položky (§20 a 34 ZDP)
+- odčitatelné položky (§20 a 34 ZDP)
 
 Základ daně snížený o odčitatelné	položky
 
@@ -80,9 +80,8 @@ x sazba daně (19%)
 
 Daň z příjmů splatná
 
-\- slevy na dani (§35 ZDP)
-
-\- Daň z příjmů splatná po slevách	Daň z příjmů splatná po slevách
+- slevy na dani (§35 ZDP)
+- Daň z příjmů splatná po slevách	Daň z příjmů splatná po slevách
 
 ± Daň z příjmů odložená
 
@@ -130,7 +129,7 @@ __• odčitatelné položky dle §34:__
 
 ZÁKLAD DANĚ PO ODEČTENÍ ODČITATELNÝCH POLOŽEK DLE §34
 
-\- dary dle §20 (min. 2 000 Kč / max. 10% z
+- dary dle §20 (min. 2 000 Kč / max. 10% z
 
 ZÁKLAD DANĚ SNÍŽENÝ → *zaokrouhlený na tisíce dolu*
 

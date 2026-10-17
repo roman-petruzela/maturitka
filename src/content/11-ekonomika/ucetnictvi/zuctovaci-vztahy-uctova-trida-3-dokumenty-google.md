@@ -137,7 +137,7 @@ Vyšší  opravné  položky  lze  vytvářet  pouze  v  případě,  jestliže 
 
 - doklad  od  policie,  že  dlužník  je  neznámého  pobytu
 
-**Postoupení  pohledávek  -  546  -  lze  pohledávku  prodat  ->  výnosy  z  prodaných pohledávek  -  646**
+**Postoupení  pohledávek  -  546  -  lze  pohledávku  prodat  →  výnosy  z  prodaných pohledávek  -  646**
 
 ## Mzdy  a  zaměstnanci
 
@@ -410,7 +410,7 @@ Při  účtování  PO  a  FO  vedoucích  účetnictví.  V  případě,  kdy  
 |-  předpis|591/341|
 |---|---|
 |-  úhrada|341/221|
-|-  zálohy  na  daň  z  příjmu  ->  nad  30  000,-  Kč,  pololetně  nebo  čtvrtletně||
+|-  zálohy  na  daň  z  příjmu  →  nad  30  000,-  Kč,  pololetně  nebo  čtvrtletně||
 |-  doměrek|595/341|
 
 ### Ostatní  přímé  daně  -  342
@@ -511,7 +511,7 @@ Dotace  z  úřadu  práce,  když  zaměstnáme  nezaměstnaného,  který  je 
 
 Vztahují  se  na  nákup  DM  (převážně  investice  ekologického  charakteru),  čističky,  filtry, zemědělství,  kapitálové  dovybavení  (podmínka),  nepodléhá  odpisům,  musí  být  v  evidenci  na příslušném  majetkovém  účtu.
 
-Tato  dotace  snižuje  pořizovací  cenu  DM
+### Tato dotace snižuje pořizovací cenu DM
 
 - předpis  dotace  346/042
 

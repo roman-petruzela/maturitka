@@ -11,13 +11,13 @@ __Marketing__ = Soubor činností ve firmě, jak mít správný produkt ve sprá
 
 = Podnikatelská metoda, která umožňuje podniku hledat odbytový trh pro své výkony a systematicky o něj pečovat
 
-\- cíle podniku závisí na úrovni poznání zákazníkových potřeb
+- cíle podniku závisí na úrovni poznání zákazníkových potřeb
 
 __Vývoj MKT__
 
-\- Vzniká v USA na začátku 20. století
+- Vzniká v USA na začátku 20. století
 
-1. __Etapa__
+## 1. Etapa
 
 - začátek 20. století
 - poptávka převyšuje nabídku
@@ -25,7 +25,7 @@ __Vývoj MKT__
 - podnikatelé se nemusí zajímat o zákazníky, soustřeďují se pouze na růst produkce
 - zavádějí nové technologie – z marketingu používají jednoduchou reklamu a řeší cenu a distribuci
 
-1. __Etapa__
+## 2. Etapa
 
 - poptávka se rovná nabídce
 - technický pokrok umožnil vyšší produkci
@@ -33,13 +33,13 @@ __Vývoj MKT__
 - podnikatelé již chtějí znát i potřeby zákazníků a teprve pak reagují výrobou
 - dochází k přeceňování reklamy
 
-1. __Etapa__
+## 3. Etapa
 
 - nabídka převyšuje poptávku
 - říká se mu tzv. komplexní marketing, což znamená, že se promítá do všech činností firmy
 - provádí se výzkum trhu
 
-\- Během historického vývoje se objevuje 5 různých MKT koncepcí, podle kterých podnikatelé podnikají
+- Během historického vývoje se objevuje 5 různých MKT koncepcí, podle kterých podnikatelé podnikají
 
 1\. Výrobní
 
@@ -95,16 +95,16 @@ __Zvláštnosti ve službách__
 
 Charakteristika služeb:
 
-1. __Nehmotné__ – protože zákazník službu dopředu nevidí, je potřeba mu předem službu dovysvětlit, a tím upravit jeho očekávání => potom může chápat službu jako kvalitní
+1. __Nehmotné__ – protože zákazník službu dopředu nevidí, je potřeba mu předem službu dovysvětlit, a tím upravit jeho očekávání ⇒ potom může chápat službu jako kvalitní
 2. __Pomíjivé__ – na rozdíl od zboží mají služby pouze přechodný charakter, nelze je vyrábět na sklad, což znamená obtížnější organizaci práce
-3. __Proměnlivé__ – záleží na tom, komu a kým je služba poskytována => lidský faktor způsobuje i odlišné vnímání kvality služeb
-4. __Podmíněnost nákladů__ – u zboží lze předem přesně spočítat náklady, tedy i cenu a zisk, zatímco u služeb, protože jsou proměnlivé, náklady pouze odhadujeme => nevýhoda pro plánování tržeb, zisku, produktivity práce
+3. __Proměnlivé__ – záleží na tom, komu a kým je služba poskytována ⇒ lidský faktor způsobuje i odlišné vnímání kvality služeb
+4. __Podmíněnost nákladů__ – u zboží lze předem přesně spočítat náklady, tedy i cenu a zisk, zatímco u služeb, protože jsou proměnlivé, náklady pouze odhadujeme ⇒ nevýhoda pro plánování tržeb, zisku, produktivity práce
 5. __Opačná distribuce__ (= cesta produktu od výrobce k zákazníkovi) – narozdíl od zboží, u služeb zákazníci musí dojíždět/docházet za službou
 
 Zvláštnosti služeb ve veřejném stravování:
 
 1. __Snadná kopírovatelnost__ – narozdíl od výrobku, právní ochrana služeb (patent, průmyslový vzor) je problematická
-2. __Vztah služby a provozovatele__ – osobnost poskytovatele služby může vybudovat vztah zákazníka k firmě => vytváří se tím i image zařízení
+2. __Vztah služby a provozovatele__ – osobnost poskytovatele služby může vybudovat vztah zákazníka k firmě ⇒ vytváří se tím i image zařízení
 3. __Větší důraz na image zařízení__ – vybavenost restaurace (čistota, útulnost) je součástí služby a pro zákazníky je stejně důležitá, jako kvalita jídel
 
 - Lidé přicházejí ve svém volném čase za určitým zážitkem
@@ -116,25 +116,23 @@ Zvláštnosti služeb ve veřejném stravování:
 
 __Marketingový výzkum__
 
-\- S rostoucí konkurencí roste i význam výzkumu trhu
+- S rostoucí konkurencí roste i význam výzkumu trhu
+- Informace je součástí konkurenčního boje
+- Výzkum trhu je:
 
-\- Informace je součástí konkurenčního boje
+1. Na straně nabídky ⇒ zkoumáme konkurenci (ceny, produkty, design,…)
+2. Na straně poptávky ⇒ zkoumáme zákazníka (životní styl, kupní sílu, preference, loajalitu, četnost nákupů,…)
 
-\- Výzkum trhu je:
+- zdroje dat:
 
-1. Na straně nabídky => zkoumáme konkurenci (ceny, produkty, design,…)
-2. Na straně poptávky => zkoumáme zákazníka (životní styl, kupní sílu, preference, loajalitu, četnost nákupů,…)
-
-\- zdroje dat:
-
-1. __Primární__
+### 4. Primární
 
 - Shromažďování informací pro řešení aktuálního problému
 - Firma si je zajišťuje sama
 - __Výhody__ – Informace jsou aktuální, spolehlivé, přesné
 - __Nevýhody__ – Finančně a časově náročné
 
-1. __Sekundární__
+### 5. Sekundární
 
 - Využití již existujících informací
 - Dělí se na:
@@ -159,7 +157,7 @@ SWOT analýza:
 
 = analýza silných a slabých stránek
 
-\- cílem SWOT analýzy je zjistit současnou strategii firmy, její silné a slabé stránky a jak je případně řešit
+- cílem SWOT analýzy je zjistit současnou strategii firmy, její silné a slabé stránky a jak je případně řešit
 
 __S__ = strengths = silné stránky
 
@@ -169,24 +167,23 @@ __O__ = opportunities = příležitosti
 
 __T__ = threats = hrozby
 
-\- dělí se na:
+- dělí se na:
 
 - Vnitřní (SW)
 - Vnější (OT)
 
-\- a také na:
+- a také na:
 
 - Kladné (SO)
 - Záporné (WT)
 
-\- vnější faktory zahrnují:
+- vnější faktory zahrnují:
 
 - Makroprostředí (obsahuje faktory politicko-právní, ekonomické, sociálně-kulturní, technologické)
 - Mikroprostředí (zákazníci, dodavatelé, odběratelé, konkurence, veřejnost)
 
-\- Vnitřní faktory obsahují cíle firmy, systémy, organizační strukturu, management, marketing, mezilidské vztahy,…
-
-\- Silné a slabé stránky se určují:
+- Vnitřní faktory obsahují cíle firmy, systémy, organizační strukturu, management, marketing, mezilidské vztahy,…
+- Silné a slabé stránky se určují:
 
 1. jednoduchou SWOT analýzou (jednotlivé faktory se označí jedním z písmenek a poté jejich sečtením vznikne výsledek)
 2. složitou SWOT analýzou (faktory se označují na stupnici, kde 1. a 5. sloupec jsou hroty, a podle toho, kolik je kladných výsledků a kolik záporných se určí výsledek)
@@ -203,25 +200,20 @@ __WT__ – minimalizovat náklady a čelit hrozbám
 
 Analýza zákazníka:
 
-\- Firmy se zajímají o nákupní chování zákazníků na spotřebitelském trhu
-
-\- Investují do výzkumu procesu rozhodování o koupi
-
-\- Významnou úlohu při rozhodování zákazníka hrají tyto faktory:
+- Firmy se zajímají o nákupní chování zákazníků na spotřebitelském trhu
+- Investují do výzkumu procesu rozhodování o koupi
+- Významnou úlohu při rozhodování zákazníka hrají tyto faktory:
 
 __1. Kulturní__
 
-\- člověk je nejvíce ovlivněn kulturou, která se zaznamenává hluboko do jeho psychiky
-
-\- může ho ovlivňovat náboženství, tradice, hodnoty => ovlivňují rozsah a strukturu (strava, bydlení,…)
-
-\- kultura je předávána mezi generacemi, ale postupně se mění (atomizace rodin)
+- člověk je nejvíce ovlivněn kulturou, která se zaznamenává hluboko do jeho psychiky
+- může ho ovlivňovat náboženství, tradice, hodnoty ⇒ ovlivňují rozsah a strukturu (strava, bydlení,…)
+- kultura je předávána mezi generacemi, ale postupně se mění (atomizace rodin)
 
 __2. Sociální__
 
-\- každý člověk je příslušníkem mnoha sociálních skupin => členové těchto skupin se navzájem ovlivňují
-
-\- dle míry rozeznáváme tzv. referenční skupiny
+- každý člověk je příslušníkem mnoha sociálních skupin ⇒ členové těchto skupin se navzájem ovlivňují
+- dle míry rozeznáváme tzv. referenční skupiny
 
 1. Primární
 
@@ -244,9 +236,8 @@ __2. Sociální__
 
 __3. Osobní__
 
-\- přestože se člověk pro své nákupy rozhoduje individuálně, v průběhu života lidé kupují stejné produkty
-
-\- jde o fáze životního cyklu člověka podle rodinného stavu a příjmů:
+- přestože se člověk pro své nákupy rozhoduje individuálně, v průběhu života lidé kupují stejné produkty
+- jde o fáze životního cyklu člověka podle rodinného stavu a příjmů:
 
 __1.__ Mládenecké období
 
@@ -266,25 +257,25 @@ __8.__ Osamělý senior
 
 __4. Psychologické__
 
-\- záleží na 4 psychologických činitelích:
+- záleží na 4 psychologických činitelích:
 
 1. Motivace – dle Maslowovy teorie potřeb
 2. Vnímání – selektivní vnímání závisí na momentální potřebě
 3. Učení – dáno vnějšími podněty, které jsou impulzem pro nákup
 4. Názory a postoje – obchodníci firmy vynakládají velké úsilí na získání kladného postoje
 
-Bostonská analýza
+## Bostonská analýza
 
 = jde o rozdělení produktů (a skupin produktů) z hlediska budoucí ziskovosti, pro potřeby rozdělení budoucích investic na jejich marketing
 
-\- slouží pro MKT strategické plánování
+- slouží pro MKT strategické plánování
 
  __Hvězdy:__
 
 - jsou to produkty s velkým podílem na trhu a vysokým tempem růstu
 - nejsilnější
 
-\- 	 dobré investovat do reklamy, dále se rozšiřovat
+- 	 dobré investovat do reklamy, dále se rozšiřovat
 
 __Otazníky:__
 
@@ -305,7 +296,7 @@ __Psi:__
 - nejslabší kvadrant
 - utlumení výroby, opuštění trhu
 
-<img src="/images/content/ekonomika/ekonomie/marketing-2/01.webp" alt="" width="243" loading="lazy" decoding="async">
+<img src="/images/content/ekonomika/ekonomie/marketing-2/01.webp" alt="Ilustrace: Bostonská analýza" width="243" loading="lazy" decoding="async">
 
 Tempo
 

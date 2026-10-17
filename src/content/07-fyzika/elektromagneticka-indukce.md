@@ -21,11 +21,9 @@ Nestacionární magnetické pole
 - Úhel __α__ svírá vektor __mag. indukce__ s __normálovým vektorem plochy S__. V případě, že indukční čáry jsou s plochou __rovnoběžné__, pak je indukční tok __nulový__, protože         __α = π/2 rad ⇒ cos α = 0__
 - Pro děje v __nestacionárním magnetickém poli__ jsou charakteristické __změny indukčního toku.__ Ty mohou být způsobeny změnou __B__ (změna velikosti proudu vodiče nebo změnou polohy vodiče či magnetu), __S__ nebo __α__ (rotace cívky nebo magnetu). Kvantitativně se uvažuje se změnou indukčního toku __ΔΦ__ za čas __Δt__
 
-<img src="/images/content/fyzika/elektromagneticka-indukce/01.webp" alt="" width="272" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/elektromagneticka-indukce/01.webp" alt="Ilustrace: Magnetický indukční tok" width="272" loading="lazy" decoding="async">
 
 __Φ = B ⋅ S ⋅ cos α__
-
-## Elektromagnetická indukce
 
 - Jev, ke kterému dochází v nestacionárním (nestálém, měnícím se) magnetickém poli
 - Toto magnetické pole v cívce vytváří __indukované elektrické pole__, které charakterizuje __indukované elektromotorické napětí Ui__
@@ -63,7 +61,7 @@ $$U_i = -\frac{\Delta \Phi}{\Delta t}$$
 - Připojíme-li cívku do el. obvodu, začne __proud__, který jí prochází, __vytvářet mag. pole__. Proud při zapojení __nemá hodnotu__ (kterou udává odpor cívky) okamžitě, ale roste až na tuto hodnotu udávanou __odporem cívky__. Když cívku zapojíme, __mění se proud__ (roste), tím __se mění mag. indukce cívky__ a mění se i __mag. indukční tok__. Podle __Lenzova zákona__ se začne __indukovat napětí,__ které působí __proti změně__, která ho vyvolala, tzn. působí __proti připojenému zdroji__. Když dosáhne proud hodnoty, kterou udává odpor, __přestane se měnit__. Tím se už nemění ani mag. indukční tok, takže __indukované el. pole zaniká__.
 - Indukované elektrické pole __vzniká ve vodiči i při změnách mag. pole__, které vytváří proud procházející vlastním vodičem. Tento jev se nazývá __vlastní indukce__.
 
-  <img src="/images/content/fyzika/elektromagneticka-indukce/03.webp" alt="" width="272" loading="lazy" decoding="async">
+  <img src="/images/content/fyzika/elektromagneticka-indukce/03.webp" alt="Ilustrace: Vlastní indukce" width="272" loading="lazy" decoding="async">
 
 
 ## Indukčnost cívky  L

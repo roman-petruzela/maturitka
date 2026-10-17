@@ -17,13 +17,13 @@ V širším smyslu – závazek mezi věřitelem a dlužníkem a jejich vzájem
 
 V užším smyslu – povinnost, která z toho právního vztahu pro někoho vyplývá
 
-POHLEDÁVKA => právo požadovat po druhém účastníkovi vztahu nějaké plnění (*aby něco konal nebo dal*), stane-li se splatnou, stává se nárokem *(jejího splnění se lze domoci soudně)*
+POHLEDÁVKA ⇒ právo požadovat po druhém účastníkovi vztahu nějaké plnění (*aby něco konal nebo dal*), stane-li se splatnou, stává se nárokem *(jejího splnění se lze domoci soudně)*
 
-DLUH => povinnost poskytnout druhému účastníkovi nějaké plnění, tedy něco vykonat, dát, strpět, opomenout, zdržet se něčeho
+DLUH ⇒ povinnost poskytnout druhému účastníkovi nějaké plnění, tedy něco vykonat, dát, strpět, opomenout, zdržet se něčeho
 
-VĚŘITEL => ten, kdo má pohledávku
+VĚŘITEL ⇒ ten, kdo má pohledávku
 
-DLUŽNÍK => ten, kdo má dluh
+DLUŽNÍK ⇒ ten, kdo má dluh
 
 __VZNIK ZÁVAZKŮ__
 
@@ -63,7 +63,7 @@ __ZAJIŠTĚNÍ ZÁVAZKŮ__
 
 __Ručení__
 
-- třetí osoba zajišťuje splnění dluhu prohlášením věřiteli, že ho uspokojí, pokud dlužník dluh nesplní => písemné
+- třetí osoba zajišťuje splnění dluhu prohlášením věřiteli, že ho uspokojí, pokud dlužník dluh nesplní ⇒ písemné
 
 __Dohoda o srážce ze mzdy__
 
@@ -111,7 +111,7 @@ __Uspokojení věřitele__
 	- Pokud tak nekoná, nebo koná jinak, může věřitel mít právo z vadného plnění (oprava, doplnění toho, co chybí, na přiměřenou slevu z ceny, odstoupení od smlouvy)
 - Dohoda
 	- o nahrazení závazku jiným závazkem, narovnáním – dohodou o sporných právech
-	- o zrušení závazku či pohledávky => čehokoliv
+	- o zrušení závazku či pohledávky ⇒ čehokoliv
 - Započtení
 	- Zrušení vzájemných pohledávek, plnění stejného druhu
 

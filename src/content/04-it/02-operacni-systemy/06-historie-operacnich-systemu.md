@@ -83,7 +83,7 @@ Zde jsou některé populární linuxové distribuce:
 
 **Umělá inteligence:** Umělá inteligence je stále více populární. Operační systémy stále více podporují umělou inteligenci (vyhledávání, překlad, asistenti, optimalizace výkonu) Operační systémy pro superpočítače <u>https://top500.org/</u>
 
-Závěr
+## Závěr
 
 Operační systémy jsou základním softwarem, který umožňuje počítačům správně fungovat. V průběhu historie se operační systémy vyvíjely a rozšiřovaly se. V současné době jsou operační systémy přizpůsobívány novým technologiím, jako jsou mobilní zařízení, cloud computing a umělá inteligence.
 

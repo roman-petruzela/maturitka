@@ -2,6 +2,7 @@
 title: "Geometrická posloupnost"
 order: 36
 source: "Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/36) Geometrická posloupnost.pdf"
+formulaRail: false
 hasExercises: true
 ---
 

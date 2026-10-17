@@ -25,7 +25,7 @@ Termodynamické soustavy
 - __Pokus:__ Do termosky s vlažnou vodou nasypeme led. Teplota obou složek se změní a ustálí při neměnných vnějších podmínkách na konstantní teplotě.
 - Je stavem s největší pravděpodobností výskytu
 
-<img src="/images/content/fyzika/rovnovazna-stav-vratny-dej-tepelna-rovnovaha-teplota-a-jeji-mereni/01.webp" alt="" width="81" loading="lazy" decoding="async">     			p – pravděpodobnost výskytu
+<img src="/images/content/fyzika/rovnovazna-stav-vratny-dej-tepelna-rovnovaha-teplota-a-jeji-mereni/01.webp" alt="Ilustrace: Rovnovážný stav" width="81" loading="lazy" decoding="async">     			p – pravděpodobnost výskytu
 
 m – počet příznivých výsledků
 
@@ -112,7 +112,7 @@ __Relaxační doba__
 
 - Dříve byla velmi rozšířena, ale přestala se používat.
 
-<img src="/images/content/fyzika/rovnovazna-stav-vratny-dej-tepelna-rovnovaha-teplota-a-jeji-mereni/02.webp" alt="" width="196" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/rovnovazna-stav-vratny-dej-tepelna-rovnovaha-teplota-a-jeji-mereni/02.webp" alt="Ilustrace: Réaumurova stupnice" width="196" loading="lazy" decoding="async">
 
 C je teplota ve stupních __Celsia__
 
@@ -120,17 +120,17 @@ F je teplota ve stupních __Fahrenheita__
 
  R je teplota ve stupních __Réaumura__
 
-<img src="/images/content/fyzika/rovnovazna-stav-vratny-dej-tepelna-rovnovaha-teplota-a-jeji-mereni/03.webp" alt="" width="118" loading="lazy" decoding="async"><img src="/images/content/fyzika/rovnovazna-stav-vratny-dej-tepelna-rovnovaha-teplota-a-jeji-mereni/04.webp" alt="" width="152" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/rovnovazna-stav-vratny-dej-tepelna-rovnovaha-teplota-a-jeji-mereni/03.webp" alt="Ilustrace: Réaumurova stupnice" width="118" loading="lazy" decoding="async"><img src="/images/content/fyzika/rovnovazna-stav-vratny-dej-tepelna-rovnovaha-teplota-a-jeji-mereni/04.webp" alt="Ilustrace: Réaumurova stupnice" width="152" loading="lazy" decoding="async">
 
-<img src="/images/content/fyzika/rovnovazna-stav-vratny-dej-tepelna-rovnovaha-teplota-a-jeji-mereni/05.webp" alt="" width="150" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/rovnovazna-stav-vratny-dej-tepelna-rovnovaha-teplota-a-jeji-mereni/05.webp" alt="Ilustrace: Réaumurova stupnice" width="150" loading="lazy" decoding="async">
 
 ### Druhy teploměrů
 
 - __Kapalinový__ – teploměr, ve kterém se k měření teploty využívá teplotní roztažnosti teploměrné kapaliny (rtuť, líh)
 
-<img src="/images/content/fyzika/rovnovazna-stav-vratny-dej-tepelna-rovnovaha-teplota-a-jeji-mereni/06.webp" alt="" width="257" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/rovnovazna-stav-vratny-dej-tepelna-rovnovaha-teplota-a-jeji-mereni/06.webp" alt="Ilustrace: Druhy teploměrů" width="257" loading="lazy" decoding="async">
 
-- <img src="/images/content/fyzika/rovnovazna-stav-vratny-dej-tepelna-rovnovaha-teplota-a-jeji-mereni/07.webp" alt="" width="130" loading="lazy" decoding="async">__Bimetalový__ – teploměr, ve kterém se k měření teploty využívá bimetalový (dvojkový) pásek složený ze __dvou kovů s různými teplotními součiniteli__ __délkové roztažnosti__. Při změně teploty se pásek ohýbá a tento pohyb se přenáší na ručku přístroje.
+- <img src="/images/content/fyzika/rovnovazna-stav-vratny-dej-tepelna-rovnovaha-teplota-a-jeji-mereni/07.webp" alt="Ilustrace: Druhy teploměrů" width="130" loading="lazy" decoding="async">__Bimetalový__ – teploměr, ve kterém se k měření teploty využívá bimetalový (dvojkový) pásek složený ze __dvou kovů s různými teplotními součiniteli__ __délkové roztažnosti__. Při změně teploty se pásek ohýbá a tento pohyb se přenáší na ručku přístroje.
 - __Plynový__ – teploměr, ve kterém se k měření teploty využívá závislost tlaku plynu na teplotě při __stálém objemu plynu__, popř. závislost objemu plynu na teplotě při stálém tlaku
 - __Odporový__ – teploměr, ve kterém se k měření teploty využívá závislost __elektrického odporu__ vodiče nebo polovodiče na teplotě
 - __Termoelektrický__ – Teploměr, ve kterém se k měření teploty využívá __termoelektrický jev__, změnou teploty spoje dvou různých kovů se mění vzniklé __termoelektrické napětí__.

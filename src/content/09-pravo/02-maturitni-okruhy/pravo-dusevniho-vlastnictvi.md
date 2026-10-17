@@ -7,7 +7,7 @@ Právo duševního vlastnictví – maturitní otázka č. 16
 
 __Právo soukromé__
 
-1. __Charakteristika práva duševního vlastnictví.__
+## 1. Charakteristika práva duševního vlastnictví.
 
 Právo duševního vlastnictví je právní vztah k nehmotným výsledkům tvůrčí lidské činnosti, které mají majetkovou hodnotu. Do práv duševního vlastnictví spadají práva průmyslového vlastnictví a práva neprůmyslového vlastnictví. V užším smyslu to jsou práva neprůmyslového vlastnictví, do kterých patří autorské právo, právo k databázi a práva související s právem autorským.
 
@@ -20,7 +20,7 @@ __Státní správa a samospráva na úseku duševního vlastnictví__:
 Státní správa průmyslového vlastnictví je vykonávaná Úřadem průmyslového vlastnictví se sídlem v Praze, který je národním zápisným úřadem.  Ústřední kontrolní a zkušební ústav zemědělský se sídlem v Brně se zabývá právy k odrůdám rostlin. Ústřední kontrolní
 a zkušební ústav zemědělský je správním úřadem podřízeným ministerstvu zemědělství. Samosprávu na úseku duševního vlastnictví vykonává komora patentových zástupců se sídlem v Brně. Patentoví zástupci vykonávají činnost zastupování před civilními soudy ve všech věcech s výjimkou těch, kde je ze zákona povinné zastoupení advokátem.
 
-1. __Ochrana duševního vlastnictví v ČR.__
+## 2. Ochrana duševního vlastnictví v ČR.
 
 Ochrana duševního vlastnictví se řídí zásadou teritoriality. Právní úpravy jednotlivých států se slaďují mezinárodními smlouvami. Harmonizace Právních úprav jednotlivých států zaštiťuje __Světová organizace duševního vlastnictví (WIPO) se sídlem v Ženevě.__
 
@@ -42,7 +42,7 @@ __Ochrana duševního vlastnictví prostřednictvím spotřebitelského práva__
 
 __Nekalá soutěž__
 
-1. __Autorské právo.__
+## 3. Autorské právo.
 
 __Autorské právo objektivní__ je souhrn právních norem, které upravují vztahy, jejichž předmětem jsou autorská díla.
 
@@ -50,7 +50,7 @@ __Autorské právo subjektivní__ je oprávnění, které vzniká autorovi či j
 
 Autorská práva jsou upravena zákon č. 121/2000 Sb., o právu autorském a právech souvisejících s právem autorským (autorský zákon).
 
-1. __Druhy autorských děl__
+## 4. Druhy autorských děl
 
 Autorské dílo je literární, jiné umělecké a vědecké dílo, které je jedinečným výsledkem tvůrčí činnosti autora a je vyjádřeno v jakékoli objektivně vnímatelné podobě včetně podoby elektronické, trvale i dočasně, bez ohledu na jeho rozsah, účel nebo význam.
 
@@ -79,14 +79,14 @@ __Díla:__
 - Užitečného umění – keramika, sklo, textilie, jedinečný umělecký design (batika, kovářské výrobky, Ateliér zvonaře a hrnčířky – Šedovi)
 - Kartografická (Mapy – Dobruška)
 
-1. __Autor, spoluautoři, anonym, pseudonym__
+## 5. Autor, spoluautoři, anonym, pseudonym
 
 - __AUTOR:__ Autor je ten, kdo dílo vytvořil vlastní tvůrčí činností. Může to být jen osoba fyzická. Pokud je dílo vytvořeno za pomoci počítačového programu, je autorem uživatel programu, a nikoliv autor programu. O tom, že je autorem, nemusí autor dávat předem důkaz, protože mu svědčí zákonná domněnka občanství.  Jedná ovšem o domněnku vyvratitelnou, důkaz opaku by byl veden skutečným autorem či jinými osobami především na to, že je na díle či v rejstříku uvedeno nesprávné jméno (plagiát) a autorem je někdo jiný.
 - __SPOLUAUTOŘI:__ Spoluautoři existují tam, kde dílo vznikne společnou tvůrčí činností dvou nebo více autorů. Spoluautoři rozhodují o nakládání s dílem jednomyslně, ale ochrany se může domáhat každý samostatně. Oprávněni a povinni jsou solidárně, ale podíl jednotlivého spoluautora na výnosech z díla se řídí dle poměru jeho tvůrčího přínosu a nelze-li jej rozeznat, jsou podíly stejné. – Bratři Čapkovi, Dášeňka.
 - __ANONYM:__ Anonymní dílo je tehdy, když autor rozhodne, že jeho dílo bude zveřejněno bez udání jeho jména.
 - __PSEUDONYM:__ Pseudonymní dílo je tehdy, když autor používá krycí jméno nebo uměleckou značku (Neruda trojúhelník), bez jeho souhlasu nesmí být pravé jméno prozrazeno. Pseudonym na dědice nepřechází.  (Božena Němcová – Barbora Panklová, Rytmus – Patrik Vrbovský)
 
-1. __Subjektivní a majetková práva__
+## 6. Subjektivní a majetková práva
 
 __SUBJEKTIVNÍ:__ Subjektivní autorské právo je oprávnění, které vzniká autorovi či jinému subjektu k autorskému dílu v rámci právního vztahu s jinými subjekty. Je právo absolutní, výlučné a vzniká v okamžiku vytvoření díla v objektivně seznatelné podobě.
 
@@ -98,13 +98,13 @@ Osobnostní majetková práva zanikají již smrtí autora (ale transformují se
 
 __MAJETKOVÁ:__ Majetková práva umožňují autorovi majetkově zhodnotit své dílo. Tato práva jsou předmětem dědění, v případě, že nejsou dědicové, autorská práva připadnou státu. Zásadně trvají po dobu života a dalších 70 let po jeho smrti. Mezi majetková práva patří __dílo užít, poskytnout smlouvou oprávnění k výkonu majetkového práva, licenci, dostat odměnu za případy rozmnožování díla.__
 
-Majetková práva zásadně trvají po dobu života autora a 70 let po jeho smrti -> zanikají 70 let po smrti autora.
+Majetková práva zásadně trvají po dobu života autora a 70 let po jeho smrti → zanikají 70 let po smrti autora.
 
 Ke vzniku ochrany je není třeba jakkoli registrovat. Jedná se o práva výlučná, ale jejich režim je odlišný a mají i jiný obsah.
 
 Osobní i majetková práva vznikají společně – neformálně, již jejich vytvořením.
 
-1. __Kolektivní správa práv__
+## 7. Kolektivní správa práv
 
 Kolektivní správa práv je potřebná pro autory i uživatele, a to zejména ve věku masových médií a informační schopnosti a usnadňuje a v řadě případů vůbec neumožňuje legální fungování autorského práva v praxi. Kolektivní správa práv je pozitivně vymezena jako zastupování většího počtu nositelů zmíněných práv k jejich společnému prospěchu, a to při výkonu jejich majetkových práv ke zveřejněným nebo ke zveřejnění nabídnutých dílům či jiným předmětům ochrany, pokud je jiný než kolektivní výkon těchto práv nedovolený nebo neúčelný.
 
@@ -119,7 +119,7 @@ Na našem území působí 5 kolektivních správců práv:
 
 K činnosti kolektivního správce český autorský zákon vyžaduje státní licenci, oprávnění uděluje ministerstvo kultury)
 
-1. __Průmyslová práva.__
+## 8. Průmyslová práva.
 
 - __Patent__ je výhradní právo užít vynález. Uděluje se na vynález, který je nový, je výsledkem vynálezecké činnosti a je průmyslově využitelný.  Ochranná doba patentu je 20 let od podání přihlášky vynálezu. Vynálezy dělíme na vynálezy věcí (roztoky), vynálezy způsobů (výrobní způsoby). Pokud je patent vydán, majiteli se předloží patentová listina a je vyvěšena ve věstníku ÚPV.
 - __Užitný vzor__ je technické řešení věci. Délka ochrany užitného vzoru je maximálně 10 let.

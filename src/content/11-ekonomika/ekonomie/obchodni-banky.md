@@ -24,7 +24,7 @@ __Návratnost –__ sleduje se, zda je klient schopen peníze vrátit do určit�
 
 __Výnosnost__ – za kolik % peníze půjčit, aby banka vydělala
 
-\- úrok je pevný nebo pohyblivý
+- úrok je pevný nebo pohyblivý
 
 Při poskytování úvěru banka prověřuje:
 
@@ -63,17 +63,14 @@ __VKLADOVÁ ČINNOST__
 
 __Další zdroje komerčních bank:__
 
-\- úvěry od ČNB
-
-\- úvěry od ostatních bank – sazba PRIBOR (za kolik si banky půjčují, okolo 2%)
-
-\- emise úvěrových cenných papírů (obligace)
-
-\- emise HZL – Hypoteční zástavní list
+- úvěry od ČNB
+- úvěry od ostatních bank – sazba PRIBOR (za kolik si banky půjčují, okolo 2%)
+- emise úvěrových cenných papírů (obligace)
+- emise HZL – Hypoteční zástavní list
 
 __NEUTRÁLNÍ BANK. OPERACE__
 
-__-__ jde o další služby, které banky nabízí svým klientům
+- jde o další služby, které banky nabízí svým klientům
 
 1. ZAKLÁDÁNÍ A VEDENÍ ÚČTU
 
@@ -111,7 +108,7 @@ __Dokumentární akreditiv__ = písemný závazek banky odběratele, že bude za
 
 1. PLATERBNÍ KARTY
 
-\- společnosti, které vydávají platební karty – VISA, MasterCard
+- společnosti, které vydávají platební karty – VISA, MasterCard
 
 __Druhy:__
 
@@ -147,11 +144,11 @@ __Druhy:__
 
 - Klient prostřednictvím modemu je přes počítač napojen na své účty
 
-DEPOZITA
+## DEPOZITA
 
-__-__ vklad, vložená částka, uložená věc nebo peníze
+- vklad, vložená částka, uložená věc nebo peníze
 
-POJIŠŤOVNICTVÍ
+## POJIŠŤOVNICTVÍ
 
 - Kryjí rizika svým klientům
 

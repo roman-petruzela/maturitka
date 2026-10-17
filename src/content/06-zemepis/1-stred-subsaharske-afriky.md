@@ -61,7 +61,7 @@ __OBYVATELSTVO__
 - Velmi nízká hustota zalidnění
 - Ve všech státech velké množství etnických skupin
 
-# ČAD
+## ČAD
 
 __OBECNÉ INFORMACE__
 
@@ -103,7 +103,7 @@ __OBYVATELSTVO A POLITIKA__
 - Správní členění : 23 regionů
 - Státní zřízení: prezidentská republika \(prezident Idriss Déby\)
 
-# KAMERUN
+## KAMERUN
 
 __OBECNÉ INFORMACE__
 
@@ -139,7 +139,7 @@ __OBYVATELSTVO A POLITIKA__
 - Správní členění: 10 provincií
 - Státním zřízením je to prezidentská republika \(Paul Biya\)
 
-# DEMOKRATICKÁ REPUBLIKA KONGO
+## DEMOKRATICKÁ REPUBLIKA KONGO
 
 __OBECNÉ INFORMACE__
 

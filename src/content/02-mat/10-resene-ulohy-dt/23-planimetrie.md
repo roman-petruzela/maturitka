@@ -2,6 +2,7 @@
 title: "Planimetrie"
 order: 23
 source: "Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/23) Planimetrie.pdf"
+formulaRail: false
 hasExercises: true
 ---
 

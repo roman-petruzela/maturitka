@@ -72,11 +72,11 @@ __OSOBY__
 
 PRÁVNÍ OSOBNOST je způsobilost mít v mezích právního řádu práva a povinnosti od nar. do smrti
 
-SVÉPRÁVNOST je způsobilost nabývat pro sebe vlastním právním jednáním práva a zavazovat se k povinnostem (právně jednat) => nelze se jich svévolně vzdát
+SVÉPRÁVNOST je způsobilost nabývat pro sebe vlastním právním jednáním práva a zavazovat se k povinnostem (právně jednat) ⇒ nelze se jich svévolně vzdát
 
 __FYZICKÁ OSOBA__
 
-=> je právní pojem odlišující člověka od jiných právních subjektů, které mají právní subjektivitu (právnická osoba, stát)
+⇒ je právní pojem odlišující člověka od jiných právních subjektů, které mají právní subjektivitu (právnická osoba, stát)
 
 - Každý člověk má vrozená, již samotným rozumem a citem poznatelná __přirozená práva,__ a tudíž se považuje za osobu. Přirozená práva nelze zcizit a nelze se jich vzdát
 - Na počaté dítě, __nasciturus,__ se hledí jako na již narozené, pokud to vyhovuje jeho zájmům. Nenarodí-li se živé, hledí se na něj jako by nikdy nebylo
@@ -86,28 +86,28 @@ __FYZICKÁ OSOBA__
 - Omezit svéprávnost člověka může pouze soud
 - Omezit člověka lze jen tehdy, hrozila by mu jinak závažná újma a nestačí-li omezující opatření.
 
-NEZVĚSTNOST
+## NEZVĚSTNOST
 
 Nezvěstnost je stav člověka, který opustil své bydliště, nepodal o sobě žádných zpráv a není o něm známo, kde se zdržuje. Jestliže je pohřešovaný oficiálně prohlášen za nezvěstného soudem, má to jisté dopady do jeho právní sféry, kromě toho takové prohlášení může předcházet pozdějšímu prohlášení za mrtvého.
 
-DŮKAZ A DOMNĚNKA SMRTI
+## DŮKAZ A DOMNĚNKA SMRTI
 
 Důkaz smrti člověka se prokazuje __veřejnou listinou__, po prohlédnutí těla mrtvého lékařem, namísto
 u domněnky může soud na návrh osoby určit den smrti, pokud jsou jisté okolnosti, které by byli neslučitelné s přežitím. Na člověka, který byl prohlášen za zemřelého se hledí jako by zemřel. Manželství a partnerství zaniká dnem smrti.
 
-JMÉNO A BYDLIŠTĚ
+## JMÉNO A BYDLIŠTĚ
 
 Vybírá rodič (dá se později za určitých podmínek změnit), bydliště je místo trvalého pobytu
 
-OSOBNOST ČLOVĚKA
+## OSOBNOST ČLOVĚKA
 
 Chráněna je osobnost člověka včetně jeho přirozených práv. Nikdo nesmí zasáhnout do soukromí jiného, nemá-li k tomu zákonný důvod (stalking, špehování, natáčení). Chráněny jsou též i soukromé písemnosti osobní povahy.
 
-PŘEDBĚŽNÁ PROHLÁŠENÍ
+## PŘEDBĚŽNÁ PROHLÁŠENÍ
 
 V předběžném prohlášení člověk projevuje vůli, jak mají být spravovány jeho záležitosti v případě, kdy dojde ke ztrátě jeho schopnosti právně jednat – blížící se Alzheimerova choroba, očekávané ochrnutí
 
-NÁPOMOC PŘI ROZHODOVÁNÍ
+## NÁPOMOC PŘI ROZHODOVÁNÍ
 
 Nápomoc při rozhodování je jedním z podpůrných opatření při narušení schopnosti zletilého právně jednat. Jeho účelem je zajistit člověku s duševní poruchou dostatečnou míru možnosti svobodně jednat na základě jeho vůle a v rámci jeho možností, aniž by byly ohroženy jeho zájmy. Podpůrce je ten, kdo se o něj stará.
 
@@ -118,7 +118,7 @@ Nápomoc při rozhodování je jedním z podpůrných opatření při narušen�
 
 __PRÁVNICKÁ OSOBA__
 
-=> je to organizovaný útvar, o kterém zákon stanoví, že má právní osobnost, nebo jehož právní osobnost zákon uzná
+⇒ je to organizovaný útvar, o kterém zákon stanoví, že má právní osobnost, nebo jehož právní osobnost zákon uzná
 
 - Má právní osobnost od svého vzniku do svého zániku. Tyto osoby spolehlivě vedou záznamy
 o svých majetkových poměrech, i když nejsou povinny vést účetnictví.
@@ -144,13 +144,13 @@ __Formy právnických osob:__
 
 __1) KORPORACI__
 
-=> vytváří jako PO společenství osob.
+⇒ vytváří jako PO společenství osob.
 
 SPOLEK jsou alespoň 3 osoby se společným zájmem, který mohou založit k jeho naplňování a spolčovat se v něm.
 
 __2) FUNDACE__
 
-=> je PO vytvořená majetkem vyčleněným k určitému účelu.
+⇒ je PO vytvořená majetkem vyčleněným k určitému účelu.
 
 NADACE – slouží k trvalé službě společensky nebo hospodářsky užitečnému účelu.
 
@@ -167,7 +167,7 @@ __Statutární orgán__: Statutární orgán tvoří osoby oprávněné jednat z
 
 __3) ÚSTAV__
 
-=> veřejná instituce
+⇒ veřejná instituce
 
 - Nemá členy, ale zaměstnance
 - Je zde majetková a osobní složka propojena

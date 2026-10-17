@@ -111,7 +111,7 @@ Rozdíl příjmů a výdajů souvisejících s pohybem peněz
 
 odpisy dlouhodobého majetku
 
-\-  120 000,-
+-  120 000,-
 
 __základ daně z podnikatelské činnosti__
 
@@ -183,7 +183,7 @@ Fyzické osoby mohou své výdaje uplatnit buď ve skutečné výši /podle daň
 
 *30%*
 
-\- z jiných příjmů ze samostatné činnosti (autorská tvorba, svobodná povolání); nejvýše lze však
+- z jiných příjmů ze samostatné činnosti (autorská tvorba, svobodná povolání); nejvýše lze však
 
 *uplatnit výdaje do částky*
 
@@ -199,7 +199,7 @@ Uplatní-li poplatník daně z příjmů výdaje tímto paušálním způsobem, 
 
 <a id="page5"></a>*z příjmů, v případě uplatnění nároku na odpočet DPH u fyzické osoby plátce DPH je nadále nutno tuto evidence vést.//*
 
-Daň stanovená paušální částkou
+## Daň stanovená paušální částkou
 
 Paušální daň má přispět ke zjednodušení administrativy u drobných podnikatelů – poplatníci se zbaví povinnosti vést daňovou evidenci a dohodnou si výši své daňové povinnosti s finan-
 
@@ -215,7 +215,7 @@ poplatník nemá žádné spolupracující osoby
 
 poplatník není účastníkem sdružení bez právní subjektivity
 
-Postup při stanovení paušální daně
+## Postup při stanovení paušální daně
 
 Daňový poplatník musí nejpozději do 31.1. podat na finanční úřad žádost o stanovení paušální
 
@@ -291,33 +291,33 @@ Daň z příjmů fyzických osob se vypočte ze základu daně (součtu dílčí
 
 Od takto zjištěné daňové povinnosti se ještě odečítají __slevy na dani:__
 
-__<img src="/images/content/ekonomika/ucetnictvi/danova-evidence-prijmu-a-vydaju/01.webp" alt="" width="489" loading="lazy" decoding="async">__
+__<img src="/images/content/ekonomika/ucetnictvi/danova-evidence-prijmu-a-vydaju/01.webp" alt="Ilustrace: Postup při stanovení paušální daně" width="489" loading="lazy" decoding="async">__
 
 __SLEVA NA__
 
 __r. 2020__
 
-\- poplatníka
+- poplatníka
 
 24 840 Kč
 
-\- druhého z manželů bez příjmů
+- druhého z manželů bez příjmů
 
 24 840 Kč
 
-\- poživatele částečného invalid. důchodu
+- poživatele částečného invalid. důchodu
 
 2 520 Kč
 
-\- poživatele plného invalid. důchodu
+- poživatele plného invalid. důchodu
 
 5 040 Kč
 
-\- držitele průkazu ZTP/P
+- držitele průkazu ZTP/P
 
 16 140 Kč
 
-\- studujícího
+- studujícího
 
 4 020 Kč
 
@@ -343,11 +343,11 @@ Sleva na pracující důchodce
 
 24 840 Kč
 
-<img src="/images/content/ekonomika/ucetnictvi/danova-evidence-prijmu-a-vydaju/02.webp" alt="" width="489" loading="lazy" decoding="async">
+<img src="/images/content/ekonomika/ucetnictvi/danova-evidence-prijmu-a-vydaju/02.webp" alt="Ilustrace: Postup při stanovení paušální daně" width="489" loading="lazy" decoding="async">
 
 //Mezi další slevy, které mohou FO uplatnit ve svém daňovém přiznání patří:
 
-\- odběr krve a kostní dřeně	3 000,- (muži mohou darovat 4 x rok, ženy 3 x rok)
+- odběr krve a kostní dřeně	3 000,- (muži mohou darovat 4 x rok, ženy 3 x rok)
 
 - vstup do Národního registru dárců kostní dřeně nebo krve 8 000,- (zcela nové, ale pouze 1x za život)
 - jeden odběr krvetvorných buněk 20 000,-
@@ -360,23 +360,23 @@ Přiznání k dani z příjmů musí fyzické osoby podat nejpozději do 31. 3. 
 
 Výnosy (6. účtová třída)
 
-\- Náklady (5. účtová třída)
+- Náklady (5. účtová třída)
 
 __Účetní výsledek hospodaření__
 
-<img src="/images/content/ekonomika/ucetnictvi/danova-evidence-prijmu-a-vydaju/03.webp" alt="" width="158" loading="lazy" decoding="async">
+<img src="/images/content/ekonomika/ucetnictvi/danova-evidence-prijmu-a-vydaju/03.webp" alt="Ilustrace: Postup při stanovení paušální daně" width="158" loading="lazy" decoding="async">
 
 __Účetní výsledek hospodaření__
 
 \+ náklady daňově neuznatelné
 
-\- výnosy nezahrnované do základu daně
+- výnosy nezahrnované do základu daně
 
 ± rozdíl mezi účetními a daňovými odpisy
 
 __=Základ daně__
 
-\- odčitatelné položky
+- odčitatelné položky
 
 __Základ daně snížený o odčitatelné položky__
 
@@ -384,9 +384,9 @@ x sazba daně z příjmů (2018 – 19%)
 
 Daň z příjmů splatná
 
-\- slevy na dani
+- slevy na dani
 
-Daň z příjmů splatná po slevách
+## Daň z příjmů splatná po slevách
 
 \-Daň z příjmů splatná po slevách
 

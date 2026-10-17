@@ -12,15 +12,13 @@ hasExercises: true
 
 a) pojem iracionální rovnice, b) znalosti potřebné k řešení, c) ukázkové příklady, d) příklady na procvičení včetně řešení.
 
-## Iracionální rovnice
-
 Iracionální rovnice jsou rovnice, ve kterých se neznámá $x$ vyskytuje pod odmocninou (v odmocněnci) — tedy rovnice obsahující jednu nebo víc odmocnin s neznámou.
 
 **Pozn.:** u iracionálních rovnic je nutné vždy provést zkoušku — umocnění obou stran rovnice není ekvivalentní úprava a může přidat tzv. **cizí kořen**, který zadání ve skutečnosti nesplňuje.
 
 ## Znalosti potřebné k řešení
 
-Při řešení se často pracuje s těmito vzorci (umocnění dvojčlenu):
+**Druhá mocnina dvojčlenu:** při řešení se často pracuje s těmito vzorci:
 
 $$(a+b)^2 = a^2 + 2ab + b^2$$
 

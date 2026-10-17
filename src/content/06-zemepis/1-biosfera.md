@@ -70,7 +70,7 @@ __Společenstva__
 - vegetační stupně vertikálně \(nížiny \- velehory\)
 - mění se intenzita slunečního záření, teplota, množství srážek, vlhkost vzduchu, intenzita větru,\.\.
 
-Polární pustina
+## Polární pustina
 
 - trvale pokryta ledem
 - ostrovy Severního ledového oceánu a Antarktida

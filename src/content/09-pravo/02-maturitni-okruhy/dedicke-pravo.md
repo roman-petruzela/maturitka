@@ -3,9 +3,9 @@ title: "Dědické právo"
 order: 10
 source: "Právo/10. Dědické právo/10_dedicke_pravo.odt"
 ---
-1. __10. Dědické právo, notářství__
+### 1. 10. Dědické právo, notářství
 
-=> souhrn pravidel, jimiž se řídí přechod práv a povinností zemřelého (zůstavitele) na jeho právního nástupce. Smrtí člověka zaniknou jenom ta práva, ze kterých nemůže mít prospěch někdo jiný než on, a jenom ty povinnosti, které nikdo jiný nemůže plnit -> přetrvají majetková práva a povinnosti.
+⇒ souhrn pravidel, jimiž se řídí přechod práv a povinností zemřelého (zůstavitele) na jeho právního nástupce. Smrtí člověka zaniknou jenom ta práva, ze kterých nemůže mít prospěch někdo jiný než on, a jenom ty povinnosti, které nikdo jiný nemůže plnit → přetrvají majetková práva a povinnosti.
 
 Dědickou sukcesí označujeme to, když smrtí občana přechází většina práv a povinností na další subjekty, které jsou jeho právními nástupci
 
@@ -46,14 +46,14 @@ Zemře-li FO, zaniká tím její právní osobnost. Dědické právo vzniká smr
 
 ## Smrt prokazujeme u FO
 
-- úředním zjištěním smrti – ohledání lékařem -> vydání úmrtního listu
+- úředním zjištěním smrti – ohledání lékařem → vydání úmrtního listu
 - rozhodnutím soudu o prohlášení člověka za mrtvého
 
 ## Zánik prokazujeme u PO
 
 - výmazem z obchodního rejstříku
 
-1. __EXISTENCE DĚDICTVÍ__
+### 2. EXISTENCE DĚDICTVÍ
 
 Dalším předpokladem realizace dědického práva je existence práv, zejména vlastnických práv, která mají na dědice přejít, tedy existence dědictví.
 
@@ -66,7 +66,7 @@ Do dědictví patří zejména:
 - práva autorská, práva z vynálezů a objevů
 - cenné papíry, cenné sbírky, šperky
 
-1. __PRÁVNÍ DŮVOD DĚDĚNÍ (DĚDICKÝ TITUL)__
+### 3. PRÁVNÍ DŮVOD DĚDĚNÍ (DĚDICKÝ TITUL)
 
 Přechod majetku ze zůstavitele na právního nástupce se děje na základě dědického titulu.
 
@@ -84,7 +84,7 @@ __Negativní__
 
 __DĚDICKÁ SMLOUVA__
 
-=> dědická smlouva umožňuje pořídit poslední pořízení smlouvou mezi živými pro případ smrti (větší jistota pro dědice, že majetek opravdu nabude a že zůstavitel nepovolá jiného dědice)
+⇒ dědická smlouva umožňuje pořídit poslední pořízení smlouvou mezi živými pro případ smrti (větší jistota pro dědice, že majetek opravdu nabude a že zůstavitel nepovolá jiného dědice)
 
 - Vyžaduje formu veřejné listiny (notářský zápis), lze pořídit pouze do 3/4 pozůstalosti
 - Nelze ji zrušit tak snadno jako závěť, ale jen podle pravidel závazkového práva
@@ -92,7 +92,7 @@ __DĚDICKÁ SMLOUVA__
 
 __DĚDĚNÍ ZE ZÁVĚTI – TESTAMENT, POSLEDNÍ POŘÍZENÁ VŮLE__
 
-=> závětí pořizuje zůstavitel rozhodnutí o svém majetku pro případ smrti, povolává jednoho či více dědiců a zůstavuje ideální podíl na pozůstalosti.
+⇒ závětí pořizuje zůstavitel rozhodnutí o svém majetku pro případ smrti, povolává jednoho či více dědiců a zůstavuje ideální podíl na pozůstalosti.
 
 - Osoba ve věku 15 až 18 let pořizuje závěť formou veřejné listiny – notářským zápisem
 - Závěť musí být písemná, lze formou veřejné listiny u notáře
@@ -140,7 +140,7 @@ __ODÚMRŤ__ = přechod majetku na stát, když majetek zůstavitele nenáleží
 
 __NOTÁŘSTVÍ__
 
-=> notářská komora je právnická osoba, která má 8 regionálních notářských komor a která existuje od roku 1993.
+⇒ notářská komora je právnická osoba, která má 8 regionálních notářských komor a která existuje od roku 1993.
 
 - Patron notářů je sv. Lukáš
 - Ministerstvo spravedlnosti zřizuje notářské úřady a ustanovuje do nich notáře
@@ -159,11 +159,11 @@ __Orgány:__
 
 __NOTÁŘ__
 
-=> notář je upraven zákonem č. 358/1992 Sb., o notářích a jejich činnosti
+⇒ notář je upraven zákonem č. 358/1992 Sb., o notářích a jejich činnosti
 
 - Úkony notáře jako soudního komisaře se považují za úkony soudu. Notář provede řízení o dědictví a vydá rozhodnutí, kterým se řízení končí.
 - Notářská služba:
-	- v případě řízení o dědictví (notáři v obvodu okresního osudu jsou pověřováni dle předem stanoveného rozvrhu -> zajištěna nestrannost jejich rozhodování)
+	- v případě řízení o dědictví (notáři v obvodu okresního osudu jsou pověřováni dle předem stanoveného rozvrhu → zajištěna nestrannost jejich rozhodování)
 - Notář je soukromá fyzická osoba, která je povinna mít členství v notářské komoře.
 - Notáře jmenuje MS na návrh notářské komory, nepobírá plat od státu
 - Předpoklady notáře:

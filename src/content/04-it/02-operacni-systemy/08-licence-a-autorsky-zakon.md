@@ -15,7 +15,7 @@ source: "osy/Licence.pptx"
 
 - v případě pořizování softwarového vybavení nejde o koupi softwaru – jde jen o získání LICENCE.
 
-# Licence
+## Licence
 
 >  Cena za software je tedy de facto poplatkem za poskytnutou licenci - právo k užívání softwarového produktu.
 
@@ -23,7 +23,7 @@ source: "osy/Licence.pptx"
 
 - typy softwaru podle licencí (dále)
 
-## Druhy softwarů podle licencí
+### Druhy softwarů podle licencí
 
 - Proprietární software (closed source): nelze upravovat
 
@@ -39,7 +39,7 @@ source: "osy/Licence.pptx"
 
    - GNU/GPL
 
-# Komerční software
+## Komerční software
 
 >  majitelé komerčních programů poskytují uživatelům za úhradu licenci k užívání těchto programů
 
@@ -49,19 +49,19 @@ source: "osy/Licence.pptx"
 
 - OS Windows, Adobe Ilustrator, AutoCad,…
 
-# Demoverze
+## Demoverze
 
 - Programy na vyzkoušení, které zpravidla mívají zablokované některé funkce (ukládání souboru na disk, tisk)
 
 - dodávají se zdarma nebo za malý poplatek
 
-# Zkušební (trial) verze programů
+## Zkušební (trial) verze programů
 
 >  umožňují plnohodnotnou práci včetně ukládání i tisku po určitou dobu (např. 1 měsíc, spustí se 30 krát, …)
 
 >  po uplynutí doby program nelze spustit ani znovu nainstalovat
 
-# OEM software
+## OEM software
 
 - nové verze programů, které jsou nabízené pouze s novým hardwarem za sníženou cenu (někdy i za 1/3 běžné ceny)
 
@@ -71,7 +71,7 @@ source: "osy/Licence.pptx"
 
 - nedá se upgradovat na vyšší verzi programu
 
-# Freeware
+## Freeware
 
 >  volné zboží
 
@@ -91,7 +91,7 @@ source: "osy/Licence.pptx"
 
 ◦ později se z něho může stát komerčně šířený program
 
-# Public domain
+## Public domain
 
 - skupina programů k volnému užití
 
@@ -101,7 +101,7 @@ source: "osy/Licence.pptx"
 
 - může být případným koncovým uživatelům k dispozici pouze ve formě spustitelného souboru
 
-# Open Source
+## Open Source
 
 - svobodný software
 
@@ -111,11 +111,11 @@ source: "osy/Licence.pptx"
 
 - GPL licence (stanovuje, že nikdo nesmí bránit ve volném nakládání s takto licencovaným programem a každý, kdo k němu něco přidá, musí všem opět své úpravy poskytnout pod stejnou licencí)
 
-# Multilicence
+## Multilicence
 
 >  jedná se o hromadnou licenci, tj. oprávnění instalovat konkrétní software na určený počet počítačů
 
-# Ochrana softwaru
+## Ochrana softwaru
 
 - **licenční** (sériové) **číslo** – je na osobu (po registraci)
 
@@ -125,7 +125,7 @@ source: "osy/Licence.pptx"
 
 - **CD, DVD s programem** – nelze kopírovat, např. speciálně upravená chybová místa
 
-# Nelegální překonávání ochrany softwaru
+## Nelegální překonávání ochrany softwaru
 
 - umožňují různá warez fóra s licenčními klíči: ◦ Cracky – programy odstraňující ochranu softwaru
 

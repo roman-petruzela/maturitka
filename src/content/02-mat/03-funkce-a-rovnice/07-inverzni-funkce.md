@@ -11,8 +11,6 @@ hasExercises: true
 
 a) pojem inverzní funkce, b) ukázkové příklady, c) příklady na procvičení včetně řešení.
 
-## Inverzní funkce
-
 „Inverzní" znamená „převrácená". Značení: původní funkce $f$, inverzní funkce $f^{-1}$ (případně $f'$).
 
 Nechť je funkce $f$ **prostá** (tj. buď jen rostoucí, nebo jen klesající na celém svém definičním oboru). Pak k ní existuje inverzní funkce $f^{-1}$, pro kterou platí:

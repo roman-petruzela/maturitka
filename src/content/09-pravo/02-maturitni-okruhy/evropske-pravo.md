@@ -3,7 +3,7 @@ title: "Evropské právo"
 order: 25
 source: "Právo/25. Evropské právo/25_evropske_pravo.odt"
 ---
-1. __25\. Evropské právo__
+### 1. 25\. Evropské právo
 
 __Evropská unie__ je jednou z nejvýznamnějších mezinárodních organizací regionální povahy\. Zásadním způsobem určuje dění na mezinárodní scéně i na úrovni samotných členských států EU\. Členské státy se vzdaly části svých rozhodovacích pravomocí a převedly je na EU, která je za ně vykonává a přijímá rozhodnutí, jež jsou závazná nejen pro EU jako mezinárodní organizaci, ale i pro členské státy a jejich občany\.
 
@@ -88,7 +88,7 @@ __Sídlo:__ Brusel, Předseda: Charles Michael
 ## RADA EVROPSKÉ UNIE
 
 - Rada Evropské unie zastupuje vlády zemí EU \(scházejí se zde ministři ze všech zemí EU, aby jednali o záležitostech EU a přijímali rozhodnutí o politikách a právních předpisech EU\)
-- To, kteří ministři se sejdou, závisí na projednávaném tématu – znečištění ovzduší => MŽP, nezaměstnanost => MPSV
+- To, kteří ministři se sejdou, závisí na projednávaném tématu – znečištění ovzduší ⇒ MŽP, nezaměstnanost ⇒ MPSV
 
 __Sídlo:__ Brusel \(Belgie\)
 
@@ -118,7 +118,7 @@ Nejtradičnější členění pramenů práva EU vychází z hlediska hierarchic
 
 hlediska vztahů nadřízenosti a podřízenosti mezi jednotlivými kategoriemi pramenů práva\.
 
-PRIMÁRNÍ PRÁVO A SEKUNDÁRNÍ PRÁVO
+## PRIMÁRNÍ PRÁVO A SEKUNDÁRNÍ PRÁVO
 
 __Primární právo__ – vrchol hierarchie pramenů práva\. Je považováno za ústavní právo EU a má nejvyšší sílu\.
 
@@ -133,13 +133,13 @@ __Sekundární právo__ EU znamená právní akty, které mají instituce EU př
 
 __VZTAH PRÁVA EU A PRÁVNÍCH ŘÁDŮ ČLENSKÝCH STÁTŮ__
 
-PRINCIP PŘEDNOSTI PRÁVA EVROPSKÉ UNIE
+## PRINCIP PŘEDNOSTI PRÁVA EVROPSKÉ UNIE
 
 Představuje jednu z nejdůležitějších zásad, na které je fungování práva EU a EU jako také založeno\. Určuje způsob postupu vnitrostátního soudu či jiného vnitrostátního orgánu aplikující právo EU v případě, kdy řešení konkrétního případu s evropským prvkem zjistí, že příslušná právní úprava, kterou má v daném případě použít, je v rozporu s vnitrostátní úpravou\.
 
 V tomto případě platí, že vnitrostátní soud či jiný orgán je povinen použít právní úpravy EU a k vnitrostátní úpravě přistupovat, jako by neexistovala\.
 
-PRINCIP PŘÍMÉHO ÚČINKU PRÁVA EVROPSKÉ UNIE
+## PRINCIP PŘÍMÉHO ÚČINKU PRÁVA EVROPSKÉ UNIE
 
 Je nástrojem pro zajištění efektivní aplikace práva EU na území členských států\. Znamená, že právní akty práva EU se stávají ve stejném okamžiku součástí právního řádu EU, jakož i právních řádů členských států a subjektů vnitrostátního práva okamžitě vznikají z právních aktů práva a povinnosti\.
 
@@ -149,27 +149,27 @@ __VYBRANÉ POLITIKY EVROPSKÉ UNIE__
 
 Vybrané politiky EU lze obecně chápat jako oblasti lidského konání, které byly členskými státy svěřeny EU, aby je za ně vykonávala, popř\. aby činnost členských států v dané oblasti doplňovala\. Jsou hlavním nástrojem k dosažení cílů EU\.
 
-1. __Vnitřní trh Evropské unie__
+### 2. Vnitřní trh Evropské unie
 
-=> prostor bez vnitřních hranic, v němž jsou 4 základní svobody
+⇒ prostor bez vnitřních hranic, v němž jsou 4 základní svobody
 
-1. __Volný pohyb zboží__
+### 3. Volný pohyb zboží
 
-=> umožňuje, aby zboží \(výrobky\) původem z členských států, se mohlo v EU volně pohybovat bez jakýchkoliv překážek a bez ohledu na její vnitrostátní hranice
+⇒ umožňuje, aby zboží \(výrobky\) původem z členských států, se mohlo v EU volně pohybovat bez jakýchkoliv překážek a bez ohledu na její vnitrostátní hranice
 
-1. __Volný pohyb osob__
+### 4. Volný pohyb osob
 
-=> umožňuje státním příslušníkům členských států se svobodně pohybovat a pobývat na území všech členských států EU, aniž by jim v tom jednotlivé členské státy mohly bránit
+⇒ umožňuje státním příslušníkům členských států se svobodně pohybovat a pobývat na území všech členských států EU, aniž by jim v tom jednotlivé členské státy mohly bránit
 
-1. __Volný pohyb služeb__
+### 5. Volný pohyb služeb
 
-=> umožňuje dočasně a příležitostně poskytovat služby na území jiného členského státu, aniž by docházelo k usazení jejich poskytovatelů na území jiného členského státu
+⇒ umožňuje dočasně a příležitostně poskytovat služby na území jiného členského státu, aniž by docházelo k usazení jejich poskytovatelů na území jiného členského státu
 
-1. __Volný pohyb kapitálu a plateb__
+### 6. Volný pohyb kapitálu a plateb
 
-=> znamená zákaz omezení pohybu kapitálu a plateb mezi členskými státy a mezi členskými státy a třetími zeměmi
+⇒ znamená zákaz omezení pohybu kapitálu a plateb mezi členskými státy a mezi členskými státy a třetími zeměmi
 
-1. __Další významné politiky Evropské unie__
+### 7. Další významné politiky Evropské unie
 
 = k významným politikám EU patří zemědělská, rybářská, dopravní, hospodářská politika
 a politika ochrany životního prostředí\.

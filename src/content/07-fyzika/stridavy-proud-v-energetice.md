@@ -3,7 +3,7 @@ title: "Střídavý proud v energetice"
 order: 36
 source: "FYZIKA-maturitní otázky/36-Střídavý-proud-v-energetice.docx"
 ---
-Princip generátoru střídavého napětí
+## Princip generátoru střídavého napětí
 
 - Generátor střídavého proudu = __alternátor__
 - Princip generátoru střídavého proudu spočívá v __otáčení vodivé smyčky v magnetickém poli__
@@ -14,12 +14,12 @@ Princip generátoru střídavého napětí
 - V elektrárnách se používá __trojfázový alternátor__, jehož princip je na obr.
 - Stator je tvořen __třemi cívkami__, jejichž osy svírají vzájemně úhel 120°. Mezi cívkami se __otáčí magnet__ a v cívkách se __indukují__ střídavá napětí
 
-<img src="/images/content/fyzika/stridavy-proud-v-energetice/01.webp" alt="" width="275" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/stridavy-proud-v-energetice/01.webp" alt="Ilustrace: Princip generátoru střídavého napětí" width="275" loading="lazy" decoding="async">
 
 - Cívky se nachází v __nestacionárním mag. poli,__ které vytváří otáčivý magnet
 - V cívkách se indukuje střídavé napětí __u1, u2, u3__, mají stejnou __amplitudu__ a __frekvenci__ a jsou __fázově posunuta o ⅔ π__
 
-<img src="/images/content/fyzika/stridavy-proud-v-energetice/02.webp" alt="" width="453" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/stridavy-proud-v-energetice/02.webp" alt="Ilustrace: Princip generátoru střídavého napětí" width="453" loading="lazy" decoding="async">
 
 $$u_1 = U_1 \sin \omega t$$
 
@@ -42,9 +42,9 @@ $$u_1 + u_2 + u_3 = 0$$
 	- __fázové napětí__ je mezi daným fázovým vodičem a nulovacím vodičem v ČR 230 V
 - __Sdružené napětí__ je napětí mezi jednotlivými fázemi u12, u13, u23 - v ČR 400 V
 
-<img src="/images/content/fyzika/stridavy-proud-v-energetice/08.webp" alt="" width="523" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/stridavy-proud-v-energetice/08.webp" alt="Ilustrace: Trojfázová soustava střídavých napětí" width="523" loading="lazy" decoding="async">
 
-<img src="/images/content/fyzika/stridavy-proud-v-energetice/09.webp" alt="" width="198" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/stridavy-proud-v-energetice/09.webp" alt="Ilustrace: Trojfázová soustava střídavých napětí" width="198" loading="lazy" decoding="async">
 
 fázový - hnědý, černý
 
@@ -60,9 +60,9 @@ nulový - modrý
 	1. do __hvězdy__ (na napětí 220 V, není nutný tak velký výkon)
 	2. do __trojúhelníku__ (380 V, výkonnější)
 
-<img src="/images/content/fyzika/stridavy-proud-v-energetice/10.webp" alt="" width="499" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/stridavy-proud-v-energetice/10.webp" alt="Ilustrace: Trojfázový alternátor" width="499" loading="lazy" decoding="async">
 
-<img src="/images/content/fyzika/stridavy-proud-v-energetice/11.webp" alt="" width="228" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/stridavy-proud-v-energetice/11.webp" alt="Ilustrace: Trojfázový alternátor" width="228" loading="lazy" decoding="async">
 
 ## Elektromotor
 
@@ -82,7 +82,7 @@ __Synchronní elektromotor__
 - Synchronní motory mají řadu __nevýhod__ - je třeba je roztočit na pracovní otáčky jiným strojem nebo pomocným asynchronním rozběhovým vinutím, pokud pod zátěží ztratí synchronizaci s rotujícím polem, skokově __klesne jejich výkon__ a zastaví se
 - Využívají se např. jako pohon __gramofonu__, kdy jsou nevýhody vyváženy požadavkem na pravidelnost otáček o celočíselném násobku frekvence elektrické sítě.
 - Střídavé napětí spotřebitelské sítě má frekvenci __f = 50 Hz__
-- Točivé mag. pole, f = 50 Hz -> rotor se otáčí s f = 50 Hz
+- Točivé mag. pole, f = 50 Hz → rotor se otáčí s f = 50 Hz
 
 __Asynchronní elektromotor__
 
@@ -133,7 +133,7 @@ $$u_1 = -N_1 \cdot \frac{\Delta \Phi}{\Delta t}$$
 
 $$u_2 = -N_2 \cdot \frac{\Delta \Phi}{\Delta t}$$
 
-<img src="/images/content/fyzika/stridavy-proud-v-energetice/15.webp" alt="" width="520" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/stridavy-proud-v-energetice/15.webp" alt="Ilustrace: Transformátor" width="520" loading="lazy" decoding="async">
 
 - Poměr efektivních hodnot proudu vyplývá z rovnosti výkonů v __primární__ a __sekundární__ cívce
 - Pro poměr efektivních hodnot indukovaných napětí pak vyplývá __rovnice transformátoru:__
@@ -152,9 +152,9 @@ $$\frac{U_2}{U_1} = \frac{N_2}{N_1} = \frac{I_1}{I_2} = k$$
 - Ve skutečnosti se transformované napětí zmenší o 2 -10 %, účinnost je 90 - 98 %, z důvodu zahřívání vodiče a spotřebiče
 - Pokud nezvažujeme ztráty energie:
 	- Příkon P1 se rovná výkonu P2 (platí __zákon zachování energie__)
-	- __P = U . I__ -> P1 =  U1 . I1 -> __U1 . I1 = U2 . I2__
+	- __P = U . I__ → P1 =  U1 . I1 → __U1 . I1 = U2 . I2__
 
-<img src="/images/content/fyzika/stridavy-proud-v-energetice/17.webp" alt="" width="602" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/stridavy-proud-v-energetice/17.webp" alt="Ilustrace: Transformátor" width="602" loading="lazy" decoding="async">
 
 - __Použití__: nabíječka mobilních telefonů, rádia, televize, transformátorová pájka __↑__
 - Napětí střídavého proudu se __zvyšuje__, aby se __zamezilo ztrátám__ způsobeným odporem vodičů

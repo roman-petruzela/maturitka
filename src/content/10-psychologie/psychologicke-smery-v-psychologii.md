@@ -2,7 +2,7 @@
 title: "Psychologické směry v psychologii"
 source: "PSYCHOLOGIE/PSYCHOLOGICKÉ-SMĚRY-V-PSYCHOLOGII.docx"
 ---
-1. __Psychologické směry v psychologii__
+## 1. Psychologické směry v psychologii
 
 - Předvědecká etapa psychologie
 - Vědecká psychologie
@@ -14,7 +14,7 @@ __Vývoj disciplíny__
 - Jako věda je ale relativně mladá
 - Než se stala vědní disciplínou, v takové podobě, jako ji známe dnes, byla součástí __filozofického myšlení__
 
-1. __PŘEDVĚDECKÉ OBDOBÍ__
+## 2. PŘEDVĚDECKÉ OBDOBÍ
 
 - V tomto období se rozvíjela jako součást filozofie __filozofická psychologie__ → spekulace o zkušenostech člověka jako o pramenech poznání \(„zkušenosti člověka rozvíjí“\)
 - Dějiny filozofické psychologie jsou v podstatě dějinami __pojmu a problému duše \(„psyché“\)__
@@ -98,7 +98,7 @@ __Lockovy myšlenky__
 
 __ __
 
-1. __VĚDECKÉ OBDOBÍ__
+## 3. VĚDECKÉ OBDOBÍ
 
 - Na počátku měla psychologie empirický a experimentální charakter \(měla vycházet ze zkušeností a z výsledků experimentů\)
 - Ve 2\. pol\. 19\. st\. Vznikly podmínky pro ustanovení psychologie jako samostatného oboru
@@ -110,7 +110,7 @@ __W\. M\. Wundt__
 
 Vystudoval medicínu, později se zabýval fyziologickou psychologií, přednášel na univerzitě v Lipsku
 
-Přispěl k vydělení psychologie z filozofie
+## Přispěl k vydělení psychologie z filozofie
 
 Aktivizoval další psychology k zakládání psychologických laboratoří a časopisů
 
@@ -134,7 +134,7 @@ __Počitky__
 
 __VYBRANÉ PSYCHOLOGICKÉ SMĚRY__
 
-1. __BIOLOGICKÝ PŘÍSTUP__
+### 4. BIOLOGICKÝ PŘÍSTUP
 
 - Z biologického hlediska jsou předmětem studia biologické psychologie __neurofyziologické procesy__ \(jsou základem chování a prožívání\),
 - Tělo a mysl jsou zde považováno za neoddělitelný celek
@@ -143,7 +143,7 @@ __VYBRANÉ PSYCHOLOGICKÉ SMĚRY__
 	- Roger W\. Sperry – experiment s přerušením spojení mezi oběma hemisférami ⇨ snažil se stanovit, jaké typy myšlení v nich probíhají
 	- Současnost – využívání nové techniky, zjišťuje se např\., které části mozku jsou namáhány při poslechu hudby, řešení matematických problémů, ukládání údajů do paměti apod\.
 
-1. __BEHAVIORISMUS__
+### 5. BEHAVIORISMUS
 
 - Behaviorismus ⇨ směr americké psychologie, dominoval zejména v 1\. pol\. 20\. st\., zakladatel __John B\. Watson__
 - __Předmět__ studia psychologie = objektivně pozorovatelná fakta, především studium __chování__\(psychologie se zaměřuje na zkoumání lidského chování\)
@@ -161,13 +161,13 @@ __Neobehaviorismus__
 - Behaviorismus zaměřen pouze na vnější podněty, které vyvolávají reakci jedince u neobehaviorismu tomu tak již není
 - Neobehaivoristé předpokládají, že je __chování__ ovlivněno __i__ řadou __vnitřních proměnných__ – k těm patří dědičnost, dřívější učení, momentální fyziologické stavy
 
-1. __PSYCHODYNAMICKÁ PSYCHOLOGIE__
+### 6. PSYCHODYNAMICKÁ PSYCHOLOGIE
 
 - Řadíme sem psychologické směry, které jsou pod povrch vědomí
 - Směry, které se snaží analyzovat podvědomé nebo nevědomé aktivity psychického života
 - Patří sem např\.: __psychoanalýza__ \(Freud\), __analytická psychologie__ \(Jung\), __individuální psychologie__ \(Adler\), aj\.
 
-1. __S\. Freud – PSYCHOANALÝZA__
+### 7. S\. Freud – PSYCHOANALÝZA
 
 __S\. Freud__
 
@@ -235,7 +235,7 @@ Nízké superego = člověk pociťuje málo viny i po velkých mravních přestu
 
 Velmi vysoké superego = perfekcionisté, kteří poté trpí mravní úzkostí
 
-<img src="/images/content/psychologie/psychologicke-smery-v-psychologii/01.webp" alt="" width="318" loading="lazy" decoding="async">
+<img src="/images/content/psychologie/psychologicke-smery-v-psychologii/01.webp" alt="Ilustrace: SUPEREGO „NADJÁ“" width="318" loading="lazy" decoding="async">
 
 __Libido\*__
 
@@ -243,7 +243,7 @@ __Libido\*__
 	- Libido a požadavky nebo přání, které vyplývají ze sexuálního pudu, se dostávají do konfliktu se společenskými, estetickými, mravními a náboženskými normami
 	- __Vědomé já__ je musí pomoci své funkce zvané cenzura ovládnout a vytěsnit zpět do nevědomí
 
-1. __C\. G\. JUNG – ANALYTICKÁ PSYCHOLOGIE__
+### 8. C\. G\. JUNG – ANALYTICKÁ PSYCHOLOGIE
 
 __Představitel: C\. G\. Jung__
 

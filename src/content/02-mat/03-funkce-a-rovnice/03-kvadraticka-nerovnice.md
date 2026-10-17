@@ -11,8 +11,6 @@ hasExercises: true
 
 a) pojem kvadratická nerovnice, b) způsoby řešení, c) ukázkové příklady, d) příklady na procvičení včetně řešení.
 
-## Kvadratická nerovnice
-
 Kvadratickou nerovnicí nazýváme nerovnici v obecném tvaru $ax^2 + bx + c > 0$, kde koeficienty $a, b, c \in \mathbb{R}$ a $a \neq 0$.
 
 **Pozn.:** znakem nerovnosti může být $>,\ <,\ \geq,\ \leq$.

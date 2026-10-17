@@ -3,36 +3,36 @@ title: "Člověk a práce"
 order: 9
 source: "Společenské vědy/9. CLOVEK A PRACE.docx"
 ---
-\- kdo může pracovat
-\- pracovní podmínky
-\- rozdíl mezi DPČ a DPP
-\- hrubý/čistý
-\- co chci vědět, když jdu žádat o práci?
-\- pevná/pružná pracovní doba
-\- smlouva na dobu určitou/neurčitou
-\- zkušební doba
-\- když jsem podnikatel – co musím,\.\.
-\- společnosti
-\- peníze
+- kdo může pracovat
+- pracovní podmínky
+- rozdíl mezi DPČ a DPP
+- hrubý/čistý
+- co chci vědět, když jdu žádat o práci?
+- pevná/pružná pracovní doba
+- smlouva na dobu určitou/neurčitou
+- zkušební doba
+- když jsem podnikatel – co musím,\.\.
+- společnosti
+- peníze
 \-
 
 __PRACOVNÍ PRÁVO__
-\- upravuje vztahy mezi zaměstnanci a zaměstnavateli, podmínky vzniku, trvání a zániku pracovního
+- upravuje vztahy mezi zaměstnanci a zaměstnavateli, podmínky vzniku, trvání a zániku pracovního
   poměru
-\- řeší pracovní vztahy a vztahy, které souvisí s výkonem práce
-\- je zakotveno v zákoníku práce
-\- prameny \- listina základních práv a svobod, zákoník práce
+- řeší pracovní vztahy a vztahy, které souvisí s výkonem práce
+- je zakotveno v zákoníku práce
+- prameny \- listina základních práv a svobod, zákoník práce
 
 __PRACOVNĚ\-PRÁVNÍ VZTAH__
-\- účastní se ho zaměstnance a zaměstnavatel
-\- __Zaměstnavatel__ – každá osoba, která má právní subjektivitu
+- účastní se ho zaměstnance a zaměstnavatel
+- __Zaměstnavatel__ – každá osoba, která má právní subjektivitu
 __\- Zaměstnanec__ – fyzická osoba, která je k práci způsobilá \(věkem, nezávisí na svéprávnosti, cizinci =
                                                                                                        prac\. Povolení, trvalý pobyt\)
 __PRACOVNÍ POMĚR__
 = je právní vztah mezi zaměstnavatelem a zaměstnancem, kdy je zaměstnanec povinen vykonávat
    práci osobně v souladu s pokyny a právními předpisy
-\- __pracovní smlouva__ \- podepisována osobně, nutné prostudování před podpisem
-                                    \- Obsah:  a\) den nástupu do prac\. Poměru
+- __pracovní smlouva__ \- podepisována osobně, nutné prostudování před podpisem
+                                    - Obsah:  a\) den nástupu do prac\. Poměru
                                                      b\) místo výkonu práce, adresa a název zaměstnavatele
                                                      c\) druh práce \(funkce\)
                                                      d\) délka dovolené \(4 týdny\)
@@ -43,7 +43,7 @@ __PRACOVNÍ POMĚR__
 
 Změna pracovního poměru
 
-\- Jen v zákonem vymezených případech\.
+- Jen v zákonem vymezených případech\.
 
 __1\. Převedení na jinou práci__
 
@@ -54,8 +54,8 @@ __3\. Dlouhodobé přeložení__
 __4\. Dočasné přidělení__
 
 Zánik pracovního poměru:
-\- __Událostí__ \- uplynutím doby, na kterou byl sjednán, skončením prací, úmrtím
-\- __Rozvázáním__ \- __a\) dohodou__ – dvoustranný prac\. úkon zaměstnanec a zaměstnavatel se písemně
+- __Událostí__ \- uplynutím doby, na kterou byl sjednán, skončením prací, úmrtím
+- __Rozvázáním__ \- __a\) dohodou__ – dvoustranný prac\. úkon zaměstnanec a zaměstnavatel se písemně
                                                      dohodnou, kterým dnem ukončí prac, poměr
                             __b\) výpovědí__ – zaměstnanec či zaměstnavatel \(musí doložit zákonem připuštěný
                                                      důvod\) dá tomu druhému písemnou výpověď, prac\. poměr skončí
@@ -68,48 +68,42 @@ Zánik pracovního poměru:
                                                                                       poměr kdykoli a bez udání důvodu
 
 PRÁVO NA ZAMĚSTNÁNÍ
-\- Zákon o zaměstnanosti deklaruje každému občanovi právo na zaměstnání, jímž se rozumí právo
+- Zákon o zaměstnanosti deklaruje každému občanovi právo na zaměstnání, jímž se rozumí právo
    občana, který chce a může pracovat a o práci se skutečně uchází, na
-                       \- zprostředkování pracovního uplatnění ve vhodném zaměstnání,
-                       \- na rekvalifikaci nezbytnou k pracovnímu uplatnění,
-                       \- na hmotné zabezpečení před nástupem do zaměstnání a v případě ztráty zaměstnání\.
+                       - zprostředkování pracovního uplatnění ve vhodném zaměstnání,
+                       - na rekvalifikaci nezbytnou k pracovnímu uplatnění,
+                       - na hmotné zabezpečení před nástupem do zaměstnání a v případě ztráty zaměstnání\.
 
 __ZÁKON O KOLEKTIVNÍM VYJEDNÁVÁNÍ__
-\- upravuje kolektivní vyjednávání mezi [odborovými organizacemi](http://cs.wikipedia.org/wiki/Odbory) a [zaměstnavateli](http://cs.wikipedia.org/wiki/Zam%C4%9Bstnavatel) nebo jejich
+- upravuje kolektivní vyjednávání mezi [odborovými organizacemi](http://cs.wikipedia.org/wiki/Odbory) a [zaměstnavateli](http://cs.wikipedia.org/wiki/Zam%C4%9Bstnavatel) nebo jejich
   organizacemi, za případné součinnosti [státu](http://cs.wikipedia.org/wiki/St%C3%A1t), jehož cílem je uzavření [kolektivní smlouvy](http://cs.wikipedia.org/wiki/Kolektivn%C3%AD_smlouva)\.
 
 __PRÁVA A POVINNOSTI ZAMĚSTANAVATELŮ__
 
-\- Přidělovat práci
-
-\- Platit mu
-
-\- Vytvářet podmínky
-
-\- Dodržovat podmínky
+- Přidělovat práci
+- Platit mu
+- Vytvářet podmínky
+- Dodržovat podmínky
 
 __PRÁVA A POVINNOSTI ZAMĚSTNANCŮ__
 
-\- Konat práci
-
-\- Dodržovat povinnosti
-
-\- Plnit pokyny
+- Konat práci
+- Dodržovat povinnosti
+- Plnit pokyny
 
 __OBCHODNÍ PRÁVO__
 __=__ je souhrn právních norem upravujících postavení podnikatelů, obchodní závazkové vztahy a další vztahy
    související s podnikáním
 
-\- __Obchodní zákoník__ \- obsahuje ustanovení o podnikatelích a jejich podnikání, o obchodních společnostech,
+- __Obchodní zákoník__ \- obsahuje ustanovení o podnikatelích a jejich podnikání, o obchodních společnostech,
                                        o družstvu a obchodních závazkových vztazích\. Obchodní právo patří do soukromého
                                        práva, kde vzniklo vyčleněním z občanského práva\.
 
-\- Podnikání je soustavná činnost provozovaná samostatně podnikatelem a na vlastní odpovědnost\.
-
-\- Oprávněnými podnikateli v ČR jsou osoby tuzemské i zahraniční, fyzické i právnické, které jsou zapsány
+- Podnikání je soustavná činnost provozovaná samostatně podnikatelem a na vlastní odpovědnost\.
+- Oprávněnými podnikateli v ČR jsou osoby tuzemské i zahraniční, fyzické i právnické, které jsou zapsány
   buď v obchodním rejstříku nebo živnostenském rejstříku nebo v jiné evidenci
 
-Subjekty obchodního práva
+## Subjekty obchodního práva
 
 __1\. Podnikatelé__
 
@@ -120,22 +114,22 @@ __3\. Občané \(nepodnikatelé\)__ – výjimečně, např\. při nekalé sout�
                                                       stejná práva jako podnikatel
 
 __OBCHODNÍ REJSTŘÍK__
-\- vedou pověřené soudy a zapisují do něj obchodní společnosti, družstva, jiné právnické osoby, o nichž to
+- vedou pověřené soudy a zapisují do něj obchodní společnosti, družstva, jiné právnické osoby, o nichž to
    stanoví zákon \(st\. podniky\) a zahraniční podnikatele
 
 Každý zapsaný podnikatel má v obchodním rejstříku
 
 __Obchodní jméno__ \- u fyzické osoby  – jméno a příjmení, př\. Jan Novák, švec
-                              \- u právnické osoby název, pod kterým jsou zapsány v obchodním rejstříku, př\. ADRIA, s\.r\.o\.
+                              - u právnické osoby název, pod kterým jsou zapsány v obchodním rejstříku, př\. ADRIA, s\.r\.o\.
 
 __Sídlo, IČ, Předmět podnikání__
 
 __FYZICKÁ OSOBA__
-\- jedná osobně nebo prostřednictvím zplnomocněného zástupce
+- jedná osobně nebo prostřednictvím zplnomocněného zástupce
 
 __PRÁVNICKÁ OSOBA__
-\- za ní jedná její statutární orgán nebo zástupce
-\- zástupcem s nejrozsáhlejší plnou mocí je __prokurista\.__
+- za ní jedná její statutární orgán nebo zástupce
+- zástupcem s nejrozsáhlejší plnou mocí je __prokurista\.__
 
 PODNIK
 = soubor všech hmotných i nehmotných složek podnikání patřících podnikateli a určených k jeho
@@ -144,13 +138,13 @@ PODNIK
 
 __OBCHODNÍ TAJEMSTVÍ__
 
-\- veškeré skutečnosti obchodní, výrobní či technické povahy související s podnikem, které mají skutečnou
+- veškeré skutečnosti obchodní, výrobní či technické povahy související s podnikem, které mají skutečnou
   nebo alespoň potenciální materiální či nemateriální hodnou\. Jde o skutečnosti, které nesmí být
   v obchodních kruzích běžně dostupné\.
 
 __SOUTĚŽNÍ PRÁVO__
 
-\- norem, které mají zajistit, aby všichni podnikatelé měli pro svoje podnikání stejné podmínky
+- norem, které mají zajistit, aby všichni podnikatelé měli pro svoje podnikání stejné podmínky
 
 __1\. Protimonopolní právo__
 
@@ -162,7 +156,7 @@ Protiprávní formy omezující hospodářskou soutěž
 2. Spojování podniků \(fúze\)\.
 3. Nabytí monopolního nebo dominantního postavení na trhu\.
 
-Nekalá soutěž
+## Nekalá soutěž
 
 Jednání v hospodářské soutěži, které odporuje dobrým mravům soutěže a je způsobilé přivodit újmu jiným účastníkům soutěže nebo spotřebitelům\.
 
@@ -177,20 +171,16 @@ Jednání v hospodářské soutěži, které odporuje dobrým mravům soutěže
 
 __OBCHODNÍ SPOLEČNOSTI, JEJICH ZALOŽENÍ A VZNIK__
 
-\- Obchodní společnosti jsou právnickými osobami založenými za účelem podnikání\.
+- Obchodní společnosti jsou právnickými osobami založenými za účelem podnikání\.
 
 
 Společnosti osobní
 
-\- společník je povinen pro společnost osobně pracovat\.
-
-\- ke zřízení společnosti není nutný žádný majetkový vklad, není předepsáno základní jmění\.
-
-\- ručení společníků za závazky společnosti je neomezené\.
-
-\- společnost nezřizuje žádné orgány, k jejímu řízení jsou oprávněni všichni společníci
-
-\- společník může dát jednostranně výpověď ze společnosti, vede to však ke zrušení celé společnosti
+- společník je povinen pro společnost osobně pracovat\.
+- ke zřízení společnosti není nutný žádný majetkový vklad, není předepsáno základní jmění\.
+- ručení společníků za závazky společnosti je neomezené\.
+- společnost nezřizuje žádné orgány, k jejímu řízení jsou oprávněni všichni společníci
+- společník může dát jednostranně výpověď ze společnosti, vede to však ke zrušení celé společnosti
   \(obdobně i smrt společníka\)\.
 
 __1\. Veřejná obchodní společnost__
@@ -199,7 +189,7 @@ __2\. Komanditní společnost__
 
 Společnosti kapitálové
 
-\- nutno složit určité základní jmění, jehož minimální výši předepisuje zákon\. Společnost je povinna zřídit
+- nutno složit určité základní jmění, jehož minimální výši předepisuje zákon\. Společnost je povinna zřídit
   zákonem předepsané orgány\. Ukončení účasti prodejem svého podílu
 
 __1\. Společnost s ručením omezeným__
@@ -208,19 +198,19 @@ __2\. Akciová společnost__
 
 Družstvo
 
-\- společenství neuzavřeného počtu osob založené za účelem podnikání nebo zajišťování hospod\., sociálních
+- společenství neuzavřeného počtu osob založené za účelem podnikání nebo zajišťování hospod\., sociálních
   či jiných potřeb členů\. Min\. 5členů nebo alespoň dvě právnické osoby\.
 
 __ŽIVNOSTENSKÉ PRÁVO
 = __je__ soubor právních předpisů o živnostenském podnikání__ \(objektivní právo\)a oprávnění k provozování
    živnosti, náležející osobě, která splňuje zákonem stanovené podmínky \(subjektivní právo\)\.
 
-\- objektivní živnostenské právo jsou __normy patřící do oblasti veřejného práva__\. Pokud živnostenské právo
+- objektivní živnostenské právo jsou __normy patřící do oblasti veřejného práva__\. Pokud živnostenské právo
   není považováno za samostatné právní odvětví, je __součástí správního práva__\.
 
 __ŽIVNOSTI__
 
-\- __živnost__ je __soustavná činnost__, kterou na základě živnostenského oprávnění __provozuje fyzická nebo
+- __živnost__ je __soustavná činnost__, kterou na základě živnostenského oprávnění __provozuje fyzická nebo
   právnická osoba __na vlastní odpovědnost__ za účelem dosažení zisku__\.
 
 Z hlediska předmětu podnikání se živnosti rozlišují na:
@@ -231,12 +221,12 @@ __b\) výrobní__ \(výrobce je oprávněn výrobky i prodávat a opravovat\)
 
 __c\) poskytující služby__ \(opravy a úpravy věcí, přeprava osob a zboží\)
 
-\- Podle forem živnostenského oprávnění se rozlišují __živnosti ohlašovací__ a __koncesované__\. Ohlašovací živnosti
+- Podle forem živnostenského oprávnění se rozlišují __živnosti ohlašovací__ a __koncesované__\. Ohlašovací živnosti
   jsou rozděleny podle podmínek provozování na __řemeslné__, vázané a __volné__\.
 
-Ohlašovací živnosti
+## Ohlašovací živnosti
 
-\- mohou provozovat osoby, které na základě ohlášení obdrží __živnostenský list__
+- mohou provozovat osoby, které na základě ohlášení obdrží __živnostenský list__
 
 __a\) řemeslné__ – podmínkou provozování je odborná způsobilost, získaná vyučením v oboru a praxí
 
@@ -246,9 +236,9 @@ __c\) volné__ – odborná způsobilost není podmínkou provozování
 
 Koncesované živnosti *
 
-\- mohou provozovat osoby, které na základě žádosti obdrží __koncesní listinu__
+- mohou provozovat osoby, které na základě žádosti obdrží __koncesní listinu__
 
-Podmínky provozování živností
+## Podmínky provozování živností
 
 __1\.__ __Všeobecné__ \(musí je splňovat každý podnikatel\) – dosažení 18 let, způsobilost k právním úkonům,
                           bezúhonnost, předložení dokladu o tom, že nemá daňové nedoplatky
@@ -256,10 +246,10 @@ __1\.__ __Všeobecné__ \(musí je splňovat každý podnikatel\) – dosažení
 __2\.__ __Zvláštní__ – odborná nebo jiná způsobilost a další požadavky týkající se provozování živností\. Zvláštní
                        podmínky a požadavky se u jednotlivých druhů živností liší\.
 
-\- jestliže provozuje živnost právnická osoba, její odpovědný zástupce musí splňovat všeobecné i zvláštní
+- jestliže provozuje živnost právnická osoba, její odpovědný zástupce musí splňovat všeobecné i zvláštní
   podmínky\.
 
-\- jeden podnikatel může provozovat více živností, má\-li pro každou živnostenské oprávnění\.
+- jeden podnikatel může provozovat více živností, má\-li pro každou živnostenské oprávnění\.
 
 Kdy podnikatel nemůže provozovat živnost?
 
@@ -281,7 +271,7 @@ __\-__ Jestliže tomu brání překážka uvedená v zákoně\. Př\. soudem ul
 
 __SMLOUVY__
 
-\- __Smlouva__ \( __kontrakt__, __dohoda__, __konvence__ aj\.\) je dvoustranné či vícestranné právní jednání spočívající
+- __Smlouva__ \( __kontrakt__, __dohoda__, __konvence__ aj\.\) je dvoustranné či vícestranné právní jednání spočívající
   ve vzájemných a obsahově shodných projevech vůle smluvních stran, směřujících ke vzniku, změně
   či zániku práv a povinností, které právní předpisy s takovými projevy vůle spojují\. Smlouva je jeden
   ze základních pilířů soukromého práva, obzvláště práva civilního \(občanského\)\.
@@ -308,16 +298,16 @@ Další typy smluv
 [Příkazní smlouva](https://cs.wikipedia.org/wiki/P%C5%99%C3%ADkazn%C3%AD_smlouva), [zprostředkovatelská smlouva](https://cs.wikipedia.org/w/index.php?title=Zprost%C5%99edkovatelsk%C3%A1_smlouva&action=edit&redlink=1), [smlouva o dílo](https://cs.wikipedia.org/wiki/Smlouva_o_d%C3%ADlo), [smlouva o úschově](https://cs.wikipedia.org/wiki/Smlouva_o_%C3%BAschov%C4%9B), [smlouva o ubytování](https://cs.wikipedia.org/w/index.php?title=Smlouva_o_ubytov%C3%A1n%C3%AD&action=edit&redlink=1), [cestovní smlouva](https://cs.wikipedia.org/w/index.php?title=Cestovn%C3%AD_smlouva&action=edit&redlink=1), [smlouva o důchodu](https://cs.wikipedia.org/w/index.php?title=Smlouva_o_d%C5%AFchodu&action=edit&redlink=1)
 
 __SOCIÁLNÍ STÁT__
-\- měl by zajistit každému svému občanovi základní sociální minimum
-\- vede sociální politiku \- přerozděluje peníze potřebným
+- měl by zajistit každému svému občanovi základní sociální minimum
+- vede sociální politiku \- přerozděluje peníze potřebným
 __\- přímé výdaje__ \- podpory, přídavky, důchody
-\- __nepřímé výdaje__ \-"umělá"zaměstnanost
+- __nepřímé výdaje__ \-"umělá"zaměstnanost
 
 Argumenty vzniku:
 1\. Solidarita \- pomoc občanovi\(vyplácení dávek\)
 2\. Pragmatismus \- co je pro člověka \(stát\) užitečné a potřebné, to dělá
 3\. Pokrok \- motivace
-                  \- současné době dochází ke zneužívání sociálního státu = krize státu \(výdaje jsou větší jak
+                  - současné době dochází ke zneužívání sociálního státu = krize státu \(výdaje jsou větší jak
                                                                                                                                               příjmy\)
 Problémy \- 1\. výdaje vyšší jak příjmy
                     2\. generace stárne
@@ -339,18 +329,18 @@ __Nedobrovolná nezaměstnanost__ \- zahrnuje nezaměstnané, kteří o získán
 
 Dělení
 __1\.Frikční nezaměstnanost__
-\- krátkodobá nezaměstnanost spojená s plynulým přecházením z jednoho zaměstnání do druhého, je
+- krátkodobá nezaměstnanost spojená s plynulým přecházením z jednoho zaměstnání do druhého, je
   způsobena nedokonalou mobilitou pracovních sil, nedostatečnými informacemi o pracovních
   příležitostech apod\.
 
 __2\.Strukturální nezaměstnanost__
-\- je způsobena změnami v národním hospodářství souvisejícími zejména s technickým pokrokem a
+- je způsobena změnami v národním hospodářství souvisejícími zejména s technickým pokrokem a
   změnami v rámci odvětví ekonomiky \(jejich důsledkem je nesouladu mezi kvalifikací uchazečů o
   práci a požadavky zaměstnavatelů\) nebo přesunem výroby z jedné země do jiné\.
 
 __3\.Cyklická nezaměstnanost__
-\- jedná se o nezaměstnanost, která vzniká v důsledku výkyvů v hospodářství, tj\. roste v období
+- jedná se o nezaměstnanost, která vzniká v důsledku výkyvů v hospodářství, tj\. roste v období
   hospodářského poklesu, v období růstu pak klesá\.
 
 __4\.Sezónní nezaměstnanost__ ‚
-\- vzniká v důsledku sezónní povahy některých hospodářských činností \(zemědělství, stavebnictví\)
+- vzniká v důsledku sezónní povahy některých hospodářských činností \(zemědělství, stavebnictví\)

@@ -2,7 +2,7 @@
 title: "Metody zkoumání v psychologii"
 source: "PSYCHOLOGIE/METODY-ZKOUMÁNÍ-V-PSYCHOLOGII.docx"
 ---
-1. __Metody zkoumání v pedagogice a psychologie; omyly v percepci osob__
+## 1. Metody zkoumání v pedagogice a psychologie; omyly v percepci osob
 
 - Charakteristika jednotlivých diagnostických metod
 - Srovnání rozhovoru a dotazníku
@@ -30,7 +30,7 @@ __Testové metody__
 
 - Jsou objektivní
 
-1. __POZOROVÁNÍ__
+## 2. POZOROVÁNÍ
 
 - Záměrné, cílevědomé a plánovité sledování určitého jevu
 - Bývá součástí jiných diagnostických metod (např. rozhovor)
@@ -39,11 +39,11 @@ __Testové metody__
 
 __Co pozorujeme__
 
-1. __Vzhled__
+## 3. Vzhled
 
 - Typ postavy, věk, upravenost, čistota, styl oblékání, styl účesu, líčení, …
 
-1. __Chování__
+## 4. Chování
 
 ## Neverbální projevy
 
@@ -145,7 +145,7 @@ __Poznámka:__
 - Lze využít „nepozorovaného pozorování“ za pomoci technických zařízení (např. pozorování v laboratoři přes poloprospustné sklo)
 - Např. u dětí lze využít i toho, že pozorovatel dochází do skupiny pravidelně a děti si na něj zvyknou
 
-1. __ROZHOVOR (INTERVIEW)__
+### 5. ROZHOVOR (INTERVIEW)
 
 - Metoda založená na přímé ústní (verbální) komunikaci mezi psychologem (výzkumný pracovníkem) a klientem (respondentem)
 
@@ -288,7 +288,7 @@ __Stavba rozhovoru__
 
 - Potvrzení dobrého vztahu mezi diagnostikem (psychologem) a zkoumanou osobou (klientem)
 
-1. __DOTAZNÍK__
+### 6. DOTAZNÍK
 
 - Metoda, při které klademe otázky písemnou formou a získáváme písemné odpovědi
 - Soubor předem připravených a vhodně formulovaných otázek
@@ -359,7 +359,7 @@ __Druhy otázek__
 
 - Otázky dělíme podle toho, jakým způsobem se na ně odpovídá – uzavřené, otevřené, polouzavřené, škálovací
 
-1. __Uzavřené__
+### 7. Uzavřené
 
 - Respondent má na výběr z daného výčtu odpovědí
 - N**emá** prostor k bližšímu vyjádření se k otázce, tyto otázky nejdou příliš do hloubky problému
@@ -386,7 +386,7 @@ __Druhy otázek__
 
 *Jaký je váš názor na kyberšikanu?*
 
-1. __Polouzavřené / polootevřené otázky__
+### 8. Polouzavřené / polootevřené otázky
 
 - Respondent může odpověď zvolit z nabídky + je zde prostor pro vlastní vyjádření, př.:
 
@@ -434,7 +434,7 @@ __*5*__
 
 *Jak se ti líbí ve třídě?*
 
-<img src="/images/content/psychologie/metody-zkoumani-v-psychologii/01.webp" alt="" width="100" loading="lazy" decoding="async"><img src="/images/content/psychologie/metody-zkoumani-v-psychologii/02.webp" alt="" width="137" loading="lazy" decoding="async"><img src="/images/content/psychologie/metody-zkoumani-v-psychologii/03.webp" alt="" width="106" loading="lazy" decoding="async"><img src="/images/content/psychologie/metody-zkoumani-v-psychologii/04.webp" alt="" width="106" loading="lazy" decoding="async"><img src="/images/content/psychologie/metody-zkoumani-v-psychologii/05.webp" alt="" width="77" loading="lazy" decoding="async">
+<img src="/images/content/psychologie/metody-zkoumani-v-psychologii/01.webp" alt="Ilustrace: Polouzavřené / polootevřené otázky" width="100" loading="lazy" decoding="async"><img src="/images/content/psychologie/metody-zkoumani-v-psychologii/02.webp" alt="Ilustrace: Polouzavřené / polootevřené otázky" width="137" loading="lazy" decoding="async"><img src="/images/content/psychologie/metody-zkoumani-v-psychologii/03.webp" alt="Ilustrace: Polouzavřené / polootevřené otázky" width="106" loading="lazy" decoding="async"><img src="/images/content/psychologie/metody-zkoumani-v-psychologii/04.webp" alt="Ilustrace: Polouzavřené / polootevřené otázky" width="106" loading="lazy" decoding="async"><img src="/images/content/psychologie/metody-zkoumani-v-psychologii/05.webp" alt="Ilustrace: Polouzavřené / polootevřené otázky" width="77" loading="lazy" decoding="async">
 
 Dobře
 
@@ -446,7 +446,7 @@ Dobře
 
 Velmi špatně
 
-<img src="/images/content/psychologie/metody-zkoumani-v-psychologii/06.webp" alt="" width="111" loading="lazy" decoding="async"><img src="/images/content/psychologie/metody-zkoumani-v-psychologii/07.webp" alt="" width="114" loading="lazy" decoding="async"><img src="/images/content/psychologie/metody-zkoumani-v-psychologii/08.webp" alt="" width="106" loading="lazy" decoding="async"><img src="/images/content/psychologie/metody-zkoumani-v-psychologii/09.webp" alt="" width="89" loading="lazy" decoding="async"><img src="/images/content/psychologie/metody-zkoumani-v-psychologii/10.webp" alt="" width="102" loading="lazy" decoding="async">
+<img src="/images/content/psychologie/metody-zkoumani-v-psychologii/06.webp" alt="Ilustrace: Polouzavřené / polootevřené otázky" width="111" loading="lazy" decoding="async"><img src="/images/content/psychologie/metody-zkoumani-v-psychologii/07.webp" alt="Ilustrace: Polouzavřené / polootevřené otázky" width="114" loading="lazy" decoding="async"><img src="/images/content/psychologie/metody-zkoumani-v-psychologii/08.webp" alt="Ilustrace: Polouzavřené / polootevřené otázky" width="106" loading="lazy" decoding="async"><img src="/images/content/psychologie/metody-zkoumani-v-psychologii/09.webp" alt="Ilustrace: Polouzavřené / polootevřené otázky" width="89" loading="lazy" decoding="async"><img src="/images/content/psychologie/metody-zkoumani-v-psychologii/10.webp" alt="Ilustrace: Polouzavřené / polootevřené otázky" width="102" loading="lazy" decoding="async">
 
 Výborně
 

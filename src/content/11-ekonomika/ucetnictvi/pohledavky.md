@@ -39,7 +39,7 @@ __Zúčtovací vztahy podle účtových skupin 3. účtové třídy__
 
 __Tuzemské pohledávky z obchodního styku__
 
-1. __Pohledávky za odběrateli__
+## 1. Pohledávky za odběrateli
 
 - Vznikají dodáním výrobků, zboží nebo služeb na fakturu
 - Vydaná faktura představuje výnos a vznik pohledávky za odběratelem
@@ -57,20 +57,20 @@ __Tuzemské pohledávky z obchodního styku__
 1. U plátce DPH
 
 - Účtuje se obdobně jako u neplátce
-- <img src="/images/content/ekonomika/ucetnictvi/pohledavky/01.webp" alt="" width="494" loading="lazy" decoding="async">Účtování přijatých záloh u plátce DPH- se bude účtovat na straně toho, kdo má zálohu zaplatit, ale obráceně
+- <img src="/images/content/ekonomika/ucetnictvi/pohledavky/01.webp" alt="Ilustrace: Pohledávky za odběrateli" width="494" loading="lazy" decoding="async">Účtování přijatých záloh u plátce DPH- se bude účtovat na straně toho, kdo má zálohu zaplatit, ale obráceně
 
-1. __Ostatní pohledávky__
+## 2. Ostatní pohledávky
 
 - Účtují se v účtové skupině 37 a 38
 
 __Pohledávky v cizí měně a účtování kurzových rozdílů při úhradách zahraničních faktur__
 
-1. __Pohledávky v cizí měně:__
+## 3. Pohledávky v cizí měně:
 
 - Při provádění zahraničně obchodních operací je třeba získat z účetnictví přehled o pohledávkách a závazcích v cizích měnách
 - Pro přepočet cizí měny na českou měnu ke dni uskutečnění účetního případu může účetní jednotka použít buď denní kurz (vyhlášený ČNB) anebo pevný kurz stanovený účetní jednotkou
 
-1. __Kurzové rozdíly při úhradě zahraničních faktur__
+## 4. Kurzové rozdíly při úhradě zahraničních faktur
 
 - Vzhledem k časovému nesouladu mezi okamžikem vzniku a okamžikem úhrady dochází ke vzniku kurzových rozdílů, a to díky kolísání kurzů
 - Vzniklý rozdíl se podle jeho povahy buď do:

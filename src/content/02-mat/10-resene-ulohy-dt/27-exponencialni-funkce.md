@@ -2,6 +2,7 @@
 title: "Exponenciální funkce"
 order: 27
 source: "Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/27) Exponenciální funkce.pdf"
+formulaRail: false
 hasExercises: true
 ---
 

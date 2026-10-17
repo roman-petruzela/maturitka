@@ -50,7 +50,7 @@ __Tlak plynu__
 
 - částice narážejí na stěny nádoby, což v nádobě vyvolává tlak
 
-<img src="/images/content/fyzika/zakladni-poznatky-molekulove-fyziky-a-termodynamiky/01.webp" alt="" width="150" loading="lazy" decoding="async"><img src="/images/content/fyzika/zakladni-poznatky-molekulove-fyziky-a-termodynamiky/02.webp" alt="" width="179" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/zakladni-poznatky-molekulove-fyziky-a-termodynamiky/01.webp" alt="Ilustrace: Statistická metoda" width="150" loading="lazy" decoding="async"><img src="/images/content/fyzika/zakladni-poznatky-molekulove-fyziky-a-termodynamiky/02.webp" alt="Ilustrace: Statistická metoda" width="179" loading="lazy" decoding="async">
 
    tlak plynu v nádobě
 
@@ -64,7 +64,7 @@ __Brownův pohyb__
 - příčinou pohybu je narážení částic vody na zrnko,
 - *tyto jevy a také tlak plynu a osmóza dokazují, že se částice v látkách neustále neuspořádaně pohybují*
 
-*<img src="/images/content/fyzika/zakladni-poznatky-molekulove-fyziky-a-termodynamiky/03.webp" alt="" width="602" loading="lazy" decoding="async">*
+*<img src="/images/content/fyzika/zakladni-poznatky-molekulove-fyziky-a-termodynamiky/03.webp" alt="Ilustrace: Statistická metoda" width="602" loading="lazy" decoding="async">*
 
 __Osmóza__
 
@@ -91,7 +91,7 @@ __Vzájemné působení částic. Potenciální energie částic.__
 - Z existence vzájemného působení mezi částicemi také vyplývá, že soustava částic má __potenciální energii__.
 - __vazebná energie__ je rovna práci, která by se musela vykonat k rozbití vazby
 
-<img src="/images/content/fyzika/zakladni-poznatky-molekulove-fyziky-a-termodynamiky/04.webp" alt="" width="602" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/zakladni-poznatky-molekulove-fyziky-a-termodynamiky/04.webp" alt="Ilustrace: Statistická metoda" width="602" loading="lazy" decoding="async">
 
 ## Modely struktur látek různých skupenství
 
@@ -127,7 +127,7 @@ __Pevná látka__
 - __výchylky__ od rovnovážných stavů částic se __zvětšují__ s __teplotou__ a jsou __největší__ těsně __před teplotou tání__
 - Ep > Ek
 
-Pojmy a veličiny popisující soustavu částic
+## Pojmy a veličiny popisující soustavu částic
 
 __Atom__
 
@@ -151,33 +151,33 @@ __Nuklid__
 
 - __relativní atomová hmotnost atomu prvku__ udává kolikrát je hmotnost atomu prvku X větší než atomová hmotnostní konstanta (1/12 hmotnosti atomu nuklidu 126C, 1,661 x 10-27 kg)
 
-<img src="/images/content/fyzika/zakladni-poznatky-molekulove-fyziky-a-termodynamiky/05.webp" alt="" width="368" loading="lazy" decoding="async"><img src="/images/content/fyzika/zakladni-poznatky-molekulove-fyziky-a-termodynamiky/06.webp" alt="" width="121" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/zakladni-poznatky-molekulove-fyziky-a-termodynamiky/05.webp" alt="Ilustrace: Pojmy a veličiny popisující soustavu částic" width="368" loading="lazy" decoding="async"><img src="/images/content/fyzika/zakladni-poznatky-molekulove-fyziky-a-termodynamiky/06.webp" alt="Ilustrace: Pojmy a veličiny popisující soustavu částic" width="121" loading="lazy" decoding="async">
 
 __Mm__
 
 - __molární hmotnost__ je hmotnost jednoho molu látky
 - je dána podílem hmotnosti látky m a látkového množství n
 
-<img src="/images/content/fyzika/zakladni-poznatky-molekulove-fyziky-a-termodynamiky/07.webp" alt="" width="309" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/zakladni-poznatky-molekulove-fyziky-a-termodynamiky/07.webp" alt="Ilustrace: Pojmy a veličiny popisující soustavu částic" width="309" loading="lazy" decoding="async">
 
 __Mr__
 
 - __Relativní molekulová hmotnost__ (též poměrná molekulová hmotnost)
 - je podíl klidové hmotnosti molekuly a atomové hmotnostní konstanty. Číselně je blízká nukleonovému číslu.
 
-<img src="/images/content/fyzika/zakladni-poznatky-molekulove-fyziky-a-termodynamiky/08.webp" alt="" width="270" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/zakladni-poznatky-molekulove-fyziky-a-termodynamiky/08.webp" alt="Ilustrace: Pojmy a veličiny popisující soustavu částic" width="270" loading="lazy" decoding="async">
 
 __n__
 
 - __látkové množství__, charakterizuje množství částic v látce
 - základní jednotkou látkového množství je __mol__ (v SI soustavě)
-- <img src="/images/content/fyzika/zakladni-poznatky-molekulove-fyziky-a-termodynamiky/09.webp" alt="" width="111" loading="lazy" decoding="async">vzorec látky má látkové množství 1 mol, obsahuje-li právě tolik částic, kolik je atomů ve 12 g čistého atomu nuklidu 126C
+- <img src="/images/content/fyzika/zakladni-poznatky-molekulove-fyziky-a-termodynamiky/09.webp" alt="Ilustrace: Pojmy a veličiny popisující soustavu částic" width="111" loading="lazy" decoding="async">vzorec látky má látkové množství 1 mol, obsahuje-li právě tolik částic, kolik je atomů ve 12 g čistého atomu nuklidu 126C
 
 	__NA__
 
 - __Avogadrova konstanta__ udává __počet částic__ odpovídající látkovému množství 1 mol = 6,023 x1023 mol-1
 
-<img src="/images/content/fyzika/zakladni-poznatky-molekulove-fyziky-a-termodynamiky/10.webp" alt="" width="102" loading="lazy" decoding="async">	__Vm__
+<img src="/images/content/fyzika/zakladni-poznatky-molekulove-fyziky-a-termodynamiky/10.webp" alt="Ilustrace: Pojmy a veličiny popisující soustavu částic" width="102" loading="lazy" decoding="async">	__Vm__
 
 - __molární objem__ je objem 1 molu látky
 - __jednotka__: m3/mol

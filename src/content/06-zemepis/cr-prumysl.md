@@ -43,14 +43,14 @@ __Hutnický průmysl__
 - znečišťování životního prostředí
 - v místě s dostatkem kvalifikované pracovní síly, dobrá dopravní poloha
 
-Železo
+## Železo
 
 - Ostravsko: dominantní oblast, tvoří ¾ celkové výroby
 - střední a jihozápadní Čechy (Plzeň, Kladno, Beroun, Chomutov)
 - jižní Morava (Veselí nad Moravou)
 - ISPAT Nová Huť, Třinecké železárny a.c., Vítkovice a.s.
 
-Barevné kovy
+## Barevné kovy
 
 - podniky rozmístěny po celé ČR
 - ALCAN Děčín, Kovohutě Mníšek pod Brdy, Kovohutě Rokycany a.s.

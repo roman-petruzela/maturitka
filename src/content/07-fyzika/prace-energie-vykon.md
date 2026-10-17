@@ -3,25 +3,25 @@ title: "Práce energie výkon"
 order: 5
 source: "FYZIKA-maturitní otázky/5-Práce-energie-výkon.docx"
 ---
-Mechanická práce
+## Mechanická práce
 
 - __Těleso koná mechanickou práci__, jestliže působí silou na jiné těleso, které se jejím vlivem pohybuje.
 - __Mechanická práce W,__ kterou vykoná síla při přemístění jiného tělesa, závisí na velikosti síly F, která na těleso působí, na dráze s, o kterou se těleso přemístí, a na úhlu α, který svírá síla s trajektorií tělesa.
 
 W = F · s · cos α
 
-- Působí-li síla ve směru pohybu, pak => cos α = cos 0° = 1 → W = F · s · 1
+- Působí-li síla ve směru pohybu, pak ⇒ cos α = cos 0° = 1 → W = F · s · 1
 - Působí-li síla kolmo na směr pohybu, pak práci __nekoná__ (cos 90° = 0)
-- Působí-li síla proti směru pohybu, pak => cosα <0 ... W = - F \* s => __práce se spotřebovává__
+- Působí-li síla proti směru pohybu, pak ⇒ cosα <0 ... W = - F \* s => __práce se spotřebovává__
 - __JEDNOTKA:__
 
   \[W\] = J (joule) = N · m =
 
   =
 
-<img src="/images/content/fyzika/prace-energie-vykon/01.webp" alt="" width="312" loading="lazy" decoding="async">Na obrázku je znázorněno __působení síly__ F. Ta se rozkládá na složku k trajektorii kolmou (F2) – ta práci nekoná – a na složku rovnoběžnou s trajektorií (F1) – ta koná všechnu práci.
+<img src="/images/content/fyzika/prace-energie-vykon/01.webp" alt="Ilustrace: Mechanická práce" width="312" loading="lazy" decoding="async">Na obrázku je znázorněno __působení síly__ F. Ta se rozkládá na složku k trajektorii kolmou (F2) – ta práci nekoná – a na složku rovnoběžnou s trajektorií (F1) – ta koná všechnu práci.
 
-- __Mechanickou práci__ lze určit i graficky. Zobrazíme-li závislost velikosti síly *F1* (rovnoběžné složky) na dráze *s*, pak získáme pracovní diagram. Velikost práce *W* je plocha, kterou ohraničuje graf velikosti síly, počáteční a konečná hodnota dráhy. Mění-li se působící síla v závislosti na dráze, pak lze dráhu s rozdělit na nekonečně mnoho velmi malých drah Δ*s*. Pro práci Δ*Wi*, kterou vykoná síla *Fi* na daném úseku Δ*s* platí<img src="/images/content/fyzika/prace-energie-vykon/02.webp" alt="" width="453" loading="lazy" decoding="async">
+- __Mechanickou práci__ lze určit i graficky. Zobrazíme-li závislost velikosti síly *F1* (rovnoběžné složky) na dráze *s*, pak získáme pracovní diagram. Velikost práce *W* je plocha, kterou ohraničuje graf velikosti síly, počáteční a konečná hodnota dráhy. Mění-li se působící síla v závislosti na dráze, pak lze dráhu s rozdělit na nekonečně mnoho velmi malých drah Δ*s*. Pro práci Δ*Wi*, kterou vykoná síla *Fi* na daném úseku Δ*s* platí<img src="/images/content/fyzika/prace-energie-vykon/02.webp" alt="Ilustrace: Mechanická práce" width="453" loading="lazy" decoding="async">
 
   Δ Wi = Fi · Δs
 
@@ -37,12 +37,12 @@ Jednotka: [P] = N · m · s⁻¹ = W (watt)
 
  = __průměrný výkon__
 
-=> __P = F \* v__
+⇒ __P = F \* v__
 
 - Je definován jako podíl práce W a doby t, za kterou byla práce vykonána.
 - zařízení vykonává práci o výkonu a o době *t*, mechanickou práci určíme vztahem:
 
- \->  ve W, t v s -> W \* s (wattsekunda)
+ →  ve W, t v s → W \* s (wattsekunda)
 
 1 Ws = 1 J, 1 kWh = 1 kW · 3600 s = 3600 kJ
 
@@ -78,7 +78,7 @@ $P_0$ … příkon = dodaná energie
 
   E = Ek + Ep
 
-<img src="/images/content/fyzika/prace-energie-vykon/08.webp" alt="" width="280" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/prace-energie-vykon/08.webp" alt="Ilustrace: Energie" width="280" loading="lazy" decoding="async">
 
 …těsně nad zemí
 
@@ -124,7 +124,7 @@ b) __pružnosti__ – pružně deformované těleso 	(stlačený míč, protaže
 
 - __ekvipotenciální plocha__ – je ve všech svých bodech kolmá k siločárám elektrostatického pole, má všude stejný potenciál a nazývá se hladina stejného potenciálu
 
-<img src="/images/content/fyzika/prace-energie-vykon/13.webp" alt="" width="253" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/prace-energie-vykon/13.webp" alt="Ilustrace: Potenciální (polohová) energie" width="253" loading="lazy" decoding="async">
 
 - Když padá HB volným pádem, urazí po svislé přímce dráhu s a tíhová síla FG při tom vykoná práci:
 
@@ -151,7 +151,7 @@ $$W = E_{p2} - E_{p1} = m g h_2 - m g h_1 = m g (h_2 - h_1)$$
 
 - __Práce__ závisí pouze na __počáteční a cílové poloze tělesa__, nikoliv na tvaru trajektorie.
 
-<img src="/images/content/fyzika/prace-energie-vykon/17.webp" alt="" width="121" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/prace-energie-vykon/17.webp" alt="Ilustrace: Konzervativní silové pole" width="121" loading="lazy" decoding="async">
 
 - Příkladem tohoto typu pole je __gravitační pole__.
 

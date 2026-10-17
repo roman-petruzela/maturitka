@@ -15,8 +15,6 @@ Francouzský filozof a matematik, zakladatel **analytické geometrie** — oboru
 
 Analytická geometrie řeší geometrické úlohy **početně**, ne graficky — např. úloha najít průsečík dvou přímek se neřeší rýsováním, ale jako řešení soustavy dvou lineárních rovnic. Tento přístup umožňuje zkoumat i mnohem složitější křivky než jen přímky a kružnice, řešení jsou libovolně přesná (na rozdíl od odečítání z obrázku) a metodu lze zobecnit i do prostorů o více než dvou dimenzích.
 
-## Kartézská soustava souřadnic
-
 - Souřadné osy jsou vzájemně **kolmé**.
 - Protínají se v jednom bodě — **počátku** soustavy souřadnic, značeném $O = [0;0]$.
 - Jednotka se obvykle volí na všech osách stejně velká.

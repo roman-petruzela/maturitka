@@ -7,7 +7,7 @@ df –h _informace o oddílech (velikost, volné místo, užité místo, k jaké
 
 fdisk –l _informace o pevných discích (počet sektorů, počet sektorů na stopě, velikost sektorů, kapacita, oddíly na daném disku). Obecně vypíše tabulku rodělení disků._
 
-# Konzole fdisk
+## Konzole fdisk
 
 fdisk /dev/sdb _spustí konzoli fdisk pro konkrétní pevný disk_
 
@@ -25,7 +25,7 @@ V konzoli fdisk pro nás budou nejdůležitější následující příkazy
 
 - w – uloží tabulku rozdělení disku a ukončí program
 
-# Práce s diskovými oddíly
+## Práce s diskovými oddíly
 
 mkfs –t _ext4 /dev/sdb1 zformátuje oddíl sdb1 souborovým systémem ext4_
 
@@ -39,7 +39,7 @@ mount /dev/dvd /media _připojí dvd do adresáře media (adresář media je pro
 
 blkid /dev/sdb1 _zjistí UUID zařízení sdb1, toto UUID mohu použít pro zápis do souboru fstab_
 
-## Zápis v souboru fstab:
+### Zápis v souboru fstab:
 
 |UUID /Slozka1|ext4|defaults<br>0 0|||
 |---|---|---|---|---|

@@ -5,7 +5,7 @@ source: "Ekonomie/27. Živnostenské oprávnění.docx"
 ---
 __Živnostenské podnikání__
 
-# Živnostenské podnikání upravuje zákon č. 455/1991 Sb.=Zákon o živnostenském podnikání (živnostenský zákon).
+## Živnostenské podnikání upravuje zákon č. 455/1991 Sb.=Zákon o živnostenském podnikání (živnostenský zákon).
 
 __Živnost__
 
@@ -60,7 +60,7 @@ __Živnostenský rejstřík__-živnostenské úřady vydávají výpisy z živno
 
 __Odpovědný zástupce__
 
-\- FO ustanovená podnikatelem, která odpovídá za řádný provoz živnosti a za dodržování živnostensko-právních předpisů. Odpovědný zástupce musí splňovat všeobecné podmínky provozování živnosti, popřípadě i zvláštní podmínky. Musí být v pracovně právním vztahu k podnikateli. Odpovědný zástupce se musí zúčastňovat provozování živnosti v potřebném rozsahu. Vykonávat odpovědného zástupce lze pouze pro max. 4 podnikatele. Musí mít bydliště v ČR. Odpovědného zástupce je povinen tedy ustanovit:
+- FO ustanovená podnikatelem, která odpovídá za řádný provoz živnosti a za dodržování živnostensko-právních předpisů. Odpovědný zástupce musí splňovat všeobecné podmínky provozování živnosti, popřípadě i zvláštní podmínky. Musí být v pracovně právním vztahu k podnikateli. Odpovědný zástupce se musí zúčastňovat provozování živnosti v potřebném rozsahu. Vykonávat odpovědného zástupce lze pouze pro max. 4 podnikatele. Musí mít bydliště v ČR. Odpovědného zástupce je povinen tedy ustanovit:
 
 1. podnikatel, který je fyzickou osobou a nesplňuje zvláštní podmínky provozování živnosti
 2. podnikatel, který je PO, pro živnosti vyžadující splnění zvláštních podmínek provozování živnosti. Do funkce odpovědného zástupce ustanoví česká právnická osoba osobu, která je členem jejího statutárního orgánu a která splňuje podmínky pro výkon funkce odpovědného zástupce podle tákona. Zahraniční PO ustanoví do funkce odpovědného zástupce vedoucího odštěpného závodu umístěného na území České republiky, který splňuje podmínky pro výkon funkce odpovědného zástupce podle zákona.
@@ -69,9 +69,9 @@ Přestane-li odpovědný zástupce vykonávat funkci nebo nesplňuje-li podmínk
 
 __JFR-Jednotný registrační formulář__
 
-## __-__ Jednotný registrační formulář slouží podnikatelům ke splnění jejich oznamovacích povinností při zahájení a v průběhu živnostenského podnikání. A to na živnostenském úřadě, příslušné správě sociálního pojištění a zdravotní pojišťovně. Pomocí JRF jsou možné tyto registrace resp. přihlášky do evidencí:
+### __-__ Jednotný registrační formulář slouží podnikatelům ke splnění jejich oznamovacích povinností při zahájení a v průběhu živnostenského podnikání. A to na živnostenském úřadě, příslušné správě sociálního pojištění a zdravotní pojišťovně. Pomocí JRF jsou možné tyto registrace resp. přihlášky do evidencí:
 
-### Ve vztahu k živnostenskému úřadu:
+#### Ve vztahu k živnostenskému úřadu:
 
 - Ohlášení živnosti
 - Žádost o koncesi
@@ -81,17 +81,16 @@ __JFR-Jednotný registrační formulář__
 - Oznámení o přerušení provozování živnosti
 - Oznámení o pokračování v provozování živnosti před uplynutím doby, na kterou bylo provozování živnosti přerušeno
 
-### Ve vztahu k finančnímu úřadu:
+#### Ve vztahu k finančnímu úřadu:
 
-### Ve vztahu k České správě sociálního zabezpečení:
+#### Ve vztahu k České správě sociálního zabezpečení:
 
-### Ve vztahu k úřadu práce.
+#### Ve vztahu k úřadu práce.
 
 __Živnostenský rejstřík__
 
-\- Je informačním systémem veřejné správy vedeným v elektronické podobě, ve kterém jsou evidovány údaje o provozování živnosti a údaje statistického a evidenčního charakteru související s provozováním živnosti.
-
-\- Správcem živnostenského rejstříku je Živnostenský úřad České republiky
+- Je informačním systémem veřejné správy vedeným v elektronické podobě, ve kterém jsou evidovány údaje o provozování živnosti a údaje statistického a evidenčního charakteru související s provozováním živnosti.
+- Správcem živnostenského rejstříku je Živnostenský úřad České republiky
 
 __Povinnosti živnostníka__
 
@@ -107,9 +106,9 @@ __Provozovna__
 
 \-Provozovnou se pro účely tohoto zákona rozumí prostor, v němž je živnost provozována. Za provozovnu se považuje i automat nebo obdobné zařízení sloužící k prodeji zboží nebo poskytování služeb a mobilní provozovna.
 
-# __CRM-Centrální registrační místo__
+## __CRM-Centrální registrační místo__
 
-## -Funkce CRM
+### -Funkce CRM
 
 Registrační povinnosti FO, která zahajuje podnikatelskou činnost v režimu živnostenského zákona, je možno splnit na kterémkoliv obecním živnostenském úřadě, jímž jsou určené odbory v 227 obcích na území ČR. Na CRM je možné prostřednictvím Jednotného registračního formuláře (JRF) učinit tyto registrace, resp. přihlášky a hlášení do následujících evidencí:
 
@@ -139,13 +138,13 @@ Ve vztahu k finančnímu úřadu je možno na CRM podat přihlášku nebo učini
 - přihláška k dani z příjmů jako plátci: daně z příjmů ze závislé činnosti; daně z příjmů vybírané srážkou podle zvláštní sazby daně; zajišťující daň z příjmů
 - přihláška k registraci pro plátcovy pokladny
 
-__Czech point__<img src="/images/content/ekonomika/ekonomie/zivnostenske-opravneni/01.webp" alt="" width="184" loading="lazy" decoding="async">
+__Czech point__<img src="/images/content/ekonomika/ekonomie/zivnostenske-opravneni/01.webp" alt="Ilustrace: -Funkce CRM" width="184" loading="lazy" decoding="async">
 
-__-__ Zkratkou českého národního informačního ověřovacího spisu
+- Zkratkou českého národního informačního ověřovacího spisu
 
 \-Je platformou pro asistovaný přístup do systému veřejné správy.
 
-\- Na téměř 1 000 poštách označených logem Czech POINT.
+- Na téměř 1 000 poštách označených logem Czech POINT.
 
 \-K získání ověřené výpisy z řady informačních systémů veřejné správy, jako je trestní rejstřík, katastr nemovitostí
 
@@ -160,7 +159,7 @@ Služby Czech POINT pro veřejnost lze obecně rozdělit do těchto kategorií:
 
  __Zánik živnosti__
 
-\-Živnostenský úřad vydá rozhodnutí o zrušení živnostenského oprávnění -> výmaz z živnostenského rejstříku.
+\-Živnostenský úřad vydá rozhodnutí o zrušení živnostenského oprávnění → výmaz z živnostenského rejstříku.
 
 __Zrušení__
 

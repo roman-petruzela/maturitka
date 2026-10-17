@@ -3,7 +3,7 @@ title: "Napájecí zdroj a UPS"
 order: 14
 source: "uvt/cv21_zdroj_UPS.pdf"
 ---
-# 2h
+## 2h
 
 Nejčastější zdroje jsou typu ATX
 
@@ -13,7 +13,7 @@ Některé napájecí vodiče s konektory jsou vyvedené ze zdroje
 
 Žádný napájecí vodič s konektory není vyveden ze zdroje
 
-## Druhy konektorů:
+### Druhy konektorů:
 
 - přívodní strana:
 
@@ -43,9 +43,9 @@ Některé napájecí vodiče s konektory jsou vyvedené ze zdroje
 
    -
 
-# Dělení napájecích zdrojů
+## Dělení napájecích zdrojů
 
-### Dle výkonu zdroje
+#### Dle výkonu zdroje
 
 - 180 W …
 
@@ -57,7 +57,7 @@ Některé napájecí vodiče s konektory jsou vyvedené ze zdroje
 
 - 1200 – 1600W (a více) – pracovní stanice (Vitruální realita)
 
-### Dle typu zdroje
+#### Dle typu zdroje
 
 - 1U – servery
 
@@ -71,7 +71,7 @@ Některé napájecí vodiče s konektory jsou vyvedené ze zdroje
 
 - speciální
 
-### Dle účinnosti
+#### Dle účinnosti
 
 - 80%
 
@@ -81,7 +81,7 @@ Některé napájecí vodiče s konektory jsou vyvedené ze zdroje
 
 - 90+
 
-### Dle velikosti ventilátoru – čím větší tím tišší (pomalejší otáčky)
+#### Dle velikosti ventilátoru – čím větší tím tišší (pomalejší otáčky)
 
 - 40 mm
 
@@ -95,21 +95,21 @@ Některé napájecí vodiče s konektory jsou vyvedené ze zdroje
 
 - **140 mm**
 
-### Dle podsvícení
+#### Dle podsvícení
 
 - ano
 
 - ne
 
-### Dle certifikace
+#### Dle certifikace
 
 - SLI certifikace
 
 - CrossFire certifikace
 
-## UPS Záložní zdroje napájení (230V)
+### UPS Záložní zdroje napájení (230V)
 
-## Použití:
+### Použití:
 
 - osobní počítač – desktop
 
@@ -129,7 +129,7 @@ Některé napájecí vodiče s konektory jsou vyvedené ze zdroje
 
 - atd.
 
-#### Zajišťuje
+##### Zajišťuje
 
 - napájení při výpadku proudu
 
@@ -141,17 +141,17 @@ Některé napájecí vodiče s konektory jsou vyvedené ze zdroje
 
 - automatická regulace napětí
 
-# Dělení UPS
+## Dělení UPS
 
-### Dle výkonu zdroje (VA)
+#### Dle výkonu zdroje (VA)
 
 - 300 - 22000
 
-### Dle výkonu zdroje (W)
+#### Dle výkonu zdroje (W)
 
 - 200 - 20000
 
-### Dle provedení
+#### Dle provedení
 
 - Kompaktní
 
@@ -161,7 +161,7 @@ Některé napájecí vodiče s konektory jsou vyvedené ze zdroje
 
 - rack 1U / 2U
 
-### Dle komunikačního rozhraní
+#### Dle komunikačního rozhraní
 
 - **LAN / RJ-45**
 
@@ -175,7 +175,7 @@ Některé napájecí vodiče s konektory jsou vyvedené ze zdroje
 
 - **USB**
 
-#### Technologie
+##### Technologie
 
 - **Off-line** – nejjednodušší, nejmenší výkony, napájecí napětí prochází **přímo** ze vstupu na výstup
 

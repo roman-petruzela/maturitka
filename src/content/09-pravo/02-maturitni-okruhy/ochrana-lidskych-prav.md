@@ -9,7 +9,7 @@ __OCHRANA LIDSKÝCH PRÁV__
 
 __ZÁKLADNÍ LIDSKÁ PRÁVA__
 
-=> základní lidská práva, která mají svůj základ v přirozených právech člověka (existují bez závislosti na vůli stát). __Státy tyto práva mohou pouze uznat__.
+⇒ základní lidská práva, která mají svůj základ v přirozených právech člověka (existují bez závislosti na vůli stát). __Státy tyto práva mohou pouze uznat__.
 
 Nejvíce přirozenoprávní je právo na život, formální rovnost, osobní svoboda, vlastnictví. Všichni lidé jsou svobodni a rovni od narození, nikdo nemá právo jim přirozená práva upřít, svoboda ale není absolutní, je omezená svobodou jiných.
 
@@ -36,7 +36,7 @@ __PRAMENY ZÁKLADNÍCH LIDSKÝCH PRÁV__
 
 __TŘÍDĚNÍ LIDSKÝCH PRÁV__
 
-=> můžeme je třídit podle různých hledisek
+⇒ můžeme je třídit podle různých hledisek
 
 Podle typového dělení lze třídit práva na:
 
@@ -64,7 +64,7 @@ Práva lze řadit i podle toho, kdo je jejich nositelem:
 
 __LISTINA ZÁKLADNÍCH PRÁV A SVOBOD__
 
-=> dokument se silou ústavního zákona, zaručující lidská práva a základní svobody, hospodářské, sociální a kulturní práva národnostních a etnických menšin.
+⇒ dokument se silou ústavního zákona, zaručující lidská práva a základní svobody, hospodářské, sociální a kulturní práva národnostních a etnických menšin.
 
 - Listina základních lidských práv a svobod ideově vychází z Evropské úmluvy o lidských právech.
 - Materiálně jde o ústavní zákon a je součástí ústavního pořádku od 9. ledna 1991 (přijato Federálním shromážděním).
@@ -96,7 +96,7 @@ __ZPRACOVATEL –__ subjekt, který provádí zpracování osobních údajů, na
 
 __a) GDPR (GENERAL DATA PROTECTION REGULATION)__
 
-=> nařízení Evropského parlamentu a Rady EU o ochraně fyzických osob v souvislosti se zpracováním údajů a o volném pohybu těchto údajů.
+⇒ nařízení Evropského parlamentu a Rady EU o ochraně fyzických osob v souvislosti se zpracováním údajů a o volném pohybu těchto údajů.
 
 - GDPR vstoupilo v účinnost v roce 2018.
 - Týká se všech institucí, firem, podniků, živnostníků, a i neziskových organizací, pokud pracují s osobními údaji v členských zemích EU. Musí členy informovat o tom, že jsou u nich shromažďovány jejich osobní údaje.
@@ -104,7 +104,7 @@ __a) GDPR (GENERAL DATA PROTECTION REGULATION)__
 
 __b) ÚŘAD NA OCHRANU OSOBNÍCH ÚDAJŮ__
 
-=> Úřad na ochranu osobních údajů dohlíží na ochranu soukromí a osobních údajů, dozoruje nad dodržením povinností při zpracování osobních údajů.
+⇒ Úřad na ochranu osobních údajů dohlíží na ochranu soukromí a osobních údajů, dozoruje nad dodržením povinností při zpracování osobních údajů.
 
 - Úřad na ochranu osobních údajů je nezávislý státní orgán pro dohled nad dodržováním právních předpisů na ochranu osobních údajů.
 - V čele stojí předseda, kterého jmenuje na dobu 5 let prezident ČR na návrh Senátu ČR.

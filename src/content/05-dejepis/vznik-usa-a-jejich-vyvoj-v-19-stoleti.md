@@ -3,9 +3,6 @@ title: "Vznik USA a jejich vývoj v 19.století"
 order: 19
 source: "Dějepis/19.Vznik USA a jejich vývoj v 19.století.doc"
 ---
-# 		19.
-
-# Vznik USA	a jejich vývoj v 19.století
 
 \-americký kontinent __neměl prapůvodní obyvatelstvo__, nejstarší obyvatelé přišli před 30000 lety z Asie
 
@@ -15,9 +12,8 @@ source: "Dějepis/19.Vznik USA a jejich vývoj v 19.století.doc"
 
 Více se tedy zkoumala Jižní a Střední Amerika ( např. 1513 – Vasco de Balboa přešel se skupinou indiánů středoamerickou pevninu a objevil tak Tichý oceán)
 
-\- kolonizaci východního pobřeží Sev.Ameriky nejdříve prováděli Francouzi( 1718 - New Orleans, Lousiana )
-
-\- Holanďani – oblast New Yorku
+- kolonizaci východního pobřeží Sev.Ameriky nejdříve prováděli Francouzi( 1718 - New Orleans, Lousiana )
+- Holanďani – oblast New Yorku
 
 __1562 – John Hawkins__ dovezl na Haiti první skupinu černochů, kterou prodal španělským plantážníkům a zahájil tak __výnosný trh s otroky__.
 
@@ -29,7 +25,7 @@ __Kolonie__ : - zdroj surovin, odbytiště pro výrobky. V čele kolonií guver
 
 __3 skupiny kolonií__ ( podle hosp., sociální a nár. struktury, podle vztahu k mateřské zemi atd.)
 
-a) severní kolonie – průmysl a kapitalistické farmy, anglosaský a puritánský ráz =>
+a) severní kolonie – průmysl a kapitalistické farmy, anglosaský a puritánský ráz ⇒
 
  dostala název Nová Anglie
 
@@ -41,7 +37,7 @@ __1603 – nástup Stuartovců__ na anglický trůn  - zakládání akciových s
 
 \->nejúspěšnější __Londýnská společnost – 1607 založení Jamestownu__ – nejstaršího angl.města v Americe.
 
-Velcí vlastníci půdy se snažili kolonisty upoutat k půdě feudálními povinnostmi -> kolonisti utíkali na západ, kde měli možnost stát se svobodnými zemědělci -> vznik sociálního procesu __squaterství__ – zabírání dosud neobdělávané půdy bez úředního povolení.
+Velcí vlastníci půdy se snažili kolonisty upoutat k půdě feudálními povinnostmi → kolonisti utíkali na západ, kde měli možnost stát se svobodnými zemědělci → vznik sociálního procesu __squaterství__ – zabírání dosud neobdělávané půdy bez úředního povolení.
 
 Kolonie dodávali mateřské zemi nejprve __suroviny, plodiny__, ale postupně začínal růst domácí průmysl, který konkuroval anglickému zboží a narušoval tak merkantilistickou politiku země.
 
@@ -51,7 +47,7 @@ __Konflikty s Indiány__ – 1675 – vytlačení Indiánů z Nové Anglie.
 
 __Sedmiletá válka ( 1756 – 1763 ):__ - Anglie vs. Francie – boj o nadvládu v zámořských územích.
 
-__1763 – porážka Francie__ , která ztrácí Kanadu -> souvislé angl. osídlení od Kanady na Floridu.Anglie získává Kanadu a Lousianu.
+__1763 – porážka Francie__ , která ztrácí Kanadu → souvislé angl. osídlení od Kanady na Floridu.Anglie získává Kanadu a Lousianu.
 
  Anglie v té době měla kolonie v Africe, Indii a Karibiku a v Americe.
 
@@ -63,7 +59,7 @@ Rozvoj buržoazní společnosti v severoamerických kolonií narazil na odpor v
 
 1767- __nové dovozní daně a cla__  - na kovy , papír, cukr, melasu atd.
 
-\- ubytovávání angl. vojáků v domech civilního obyvatelstva.
+- ubytovávání angl. vojáků v domech civilního obyvatelstva.
 
 Po řadě krvavě potlačených demonstrací začali rebelové zakládat tajné výbory, svolávat noční cvičení ozbrojené milice a ničit majetek privilegovaných obchodních společností.
 
@@ -71,11 +67,11 @@ Daně a cla však určoval anglický parlament, kde __kolonie neměly zastoupen�
 
 V té době vládl v Anglii __Jiří III. Hannoverský__
 
-__1773-__ angl. parlament schválil __nový zákon o čaji__ ( na podporu Východoindické společnosti) =>zvýšení cla na cukr -> na protest zorganizovali bostonští obchodníci ( převlečeni za indiány ) přepadení 3 anglických lodí s čajem a náklad vysypali do moře ->
+__1773-__ angl. parlament schválil __nový zákon o čaji__ ( na podporu Východoindické společnosti) =>zvýšení cla na cukr → na protest zorganizovali bostonští obchodníci ( převlečeni za indiány ) přepadení 3 anglických lodí s čajem a náklad vysypali do moře →
 
 __1773 - Boston Tea party__
 
- => vyhrocení situace mezi koloniemi a Anglií ( represe ) -> odpor proti parlamentu =>
+ ⇒ vyhrocení situace mezi koloniemi a Anglií ( represe ) → odpor proti parlamentu ⇒
 
 __1774 I. Kontinentální kongres do Filadelfie__ : sjelo se zde 13 kolonií ( Georgie se neúčastnila ) a dohodli se na bojkotu anglického zboží a požadovali zastoupení v britském parlamentu.Sjednotili se a dohodli se na společném postupu proti Anglii.
 
@@ -83,7 +79,7 @@ Do čela  koloniálního vojska se postavil generál __George Washington__ ( z 
 
 Válka za nezávislost  ( 1775 – 1783 ) :
 
-\- Britové skvělé loďstvo, organizace
+- Britové skvělé loďstvo, organizace
 
 Roku __1775__ __Anglie vyhlásila Severní Americe válku__, k prvnímu ozbrojenému __střetnutí milic s britským vojskem__ došlo __u Lexingtonu__
 
@@ -115,7 +111,7 @@ __Situace po válce za nezávislost :__
 
 1785 – obchodní smluva s Pruskem
 
-V roce __1787 byla přijata americká ústava__ a __1789 vyhlášena__ ( vešla v platnost ) => __FEDERACE__ ( silná ústřední vláda, prezident). ( nadále otroctví, majetkový cenzus, ignorovalo vyhlazování Indiánů)
+V roce __1787 byla přijata americká ústava__ a __1789 vyhlášena__ ( vešla v platnost ) ⇒ __FEDERACE__ ( silná ústřední vláda, prezident). ( nadále otroctví, majetkový cenzus, ignorovalo vyhlazování Indiánů)
 
 __30.4.1789__ – Geroge Washington zvolen 1.prezidentem USA.
 
@@ -123,7 +119,7 @@ __30.4.1789__ – Geroge Washington zvolen 1.prezidentem USA.
 
 1792 – dolar platidlem v USA.
 
-__1811__ – __definitivně poraženy indiánské kmeny na severozápadě__, museli se vysídlit na západ od Missisipi -> indiánská teritoria
+__1811__ – __definitivně poraženy indiánské kmeny na severozápadě__, museli se vysídlit na západ od Missisipi → indiánská teritoria
 
 1801 – T. Jefferson americkým prezidentem.
 
@@ -135,27 +131,26 @@ __Válka s Mexikem ( 1846-8)__ : Texas – anektován v r. 1845
 
 Kalifornie – dobyta na Mexiku v r. 1848 ( dále Arizona, Nové Mexiko )
 
-V Kalifornii -> zlatá horečka.
+V Kalifornii → zlatá horečka.
 
 Aljaška – 1867 koupena od Ruska za 8 mil. USD , v Rusku byl hladomor, tak potřebovalo peníze.
 
 __OBČANSKÁ VÁLKA ( 1861 – 1865 )__
 
-Postupně tedy vznikaly a připojovaly se nové státy a __vzrůstaly rozdíly mezi státy na severu a jihu.__ => vyhrocení hospodářských a sociálních rozdílů.
+Postupně tedy vznikaly a připojovaly se nové státy a __vzrůstaly rozdíly mezi státy na severu a jihu.__ ⇒ vyhrocení hospodářských a sociálních rozdílů.
 
 Rozdíly : __SEVER :__ - lidnatější, síť železnic
 
 Ekonomika  – industrializace , těžba : černé uhlí, FeRuda ; práce dělníků za plat .
 
-Politika : seveřani chtěli, aby nově vznikající státy nebyly otrokářské -> rostoucí vliv neotrokářů v senátu.
+Politika : seveřani chtěli, aby nově vznikající státy nebyly otrokářské → rostoucí vliv neotrokářů v senátu.
 
 Průmyslová buržoazie byla proti otroctví, protože otrokářský jih měl malou spotřebu průmyslových výrobků.
 
 __JIH__ – plantážnický systém , bavlna, tabák, indigo, rýže, cukrová třtina
 
-\- jednoznačné využívání otroků na plantážích
-
-\- Indiáni byli nevyhovující => dovoz otroků z Afriky ( hony na černochy ) -> prodej otroků na trzích
+- jednoznačné využívání otroků na plantážích
+- Indiáni byli nevyhovující ⇒ dovoz otroků z Afriky ( hony na černochy ) → prodej otroků na trzích
 
 1790 – v USA bylo 700 tisíc otroků a v roce 1860 už jich byly 4 miliony.
 
@@ -163,19 +158,19 @@ __Politické síly : 	Demokratická strana__ : - strana jihu ( plantážníci, f
 
 1856 – __James Buchanan__ – prezident.
 
-__Republikánská strana__ -> zájmy severu ( zrušení otroctví, bezplatný příděl půdy na západě )
+__Republikánská strana__ → zájmy severu ( zrušení otroctví, bezplatný příděl půdy na západě )
 
-# Abraham Lincoln
+## Abraham Lincoln
 
-__Abolicionisté__ – radikální, až fanatičtí odpůrci otroctví -> vzpoury otroků
+__Abolicionisté__ – radikální, až fanatičtí odpůrci otroctví → vzpoury otroků
 
-1859 – __povstání Johna Browna__ – plantážník, přepadl s otroky zbrojní sklad -> vzpoura -> zajat a popraven.
+1859 – __povstání Johna Browna__ – plantážník, přepadl s otroky zbrojní sklad → vzpoura → zajat a popraven.
 
-__1860 – prezidentské volby__ -> demokraté se nedohodli na jednotném kandidátovi, nakonec za ně kandidoval Jefferson Davis. neuspěl.Zvítězil republikán __Abraham Lincoln__ ( umírněný, proti otroctví ).
+__1860 – prezidentské volby__ → demokraté se nedohodli na jednotném kandidátovi, nakonec za ně kandidoval Jefferson Davis. neuspěl.Zvítězil republikán __Abraham Lincoln__ ( umírněný, proti otroctví ).
 
 __1861__ – 11 jižanských  států  se odtrhlo od USA ( jako první se odtrhla Jižní Karolína ) a vytvořily nový celek : __Konfederované státy americké__.
 
- \- hl.město Richmond. - Prezident Jefferson Davis.
+ - hl.město Richmond. - Prezident Jefferson Davis.
 
 __Rozložení sil__ : Sever – 23 států, 22 mil. Obyvatel, 3 mil. vojáků.
 
@@ -189,7 +184,7 @@ __1.bitva u Manassasu__ 21.7.1861– vojska Unie těžce poražena ( generál Mc
 
 __Z počátku převaha jihu__ ( generál Robert  Lee ) a jižani dokonce dvakrát ohrožovali Washington.Velení seveřanů bylo nerozhodné a málo útočné a navíc bohatá buržoazie pašovala z jihu bavlnu a za ni prodávala jižanům zbraně.Pak ale převaha severu ( generál Grant ),
 
-1862 – Lincoln prosadil dva důležité zákony : zákon o bezplatném přídělu půdy na západě ( Homestead act ) -> osidlování severozápadu ( problémy s indiány )->cílem zákona bylo, aby na novejch územích vznikly státy, které by se připojily k severu ( protiotrokářské) a zrušení otroctví v severních státech –> útěky otroků na sever ->černošské vojenské oddíly.
+1862 – Lincoln prosadil dva důležité zákony : zákon o bezplatném přídělu půdy na západě ( Homestead act ) → osidlování severozápadu ( problémy s indiány )->cílem zákona bylo, aby na novejch územích vznikly státy, které by se připojily k severu ( protiotrokářské) a zrušení otroctví v severních státech –> útěky otroků na sever ->černošské vojenské oddíly.
 
 __1.7.-3.7.1863 – bitva u Gettysburgu – jižani poraženi__
 
@@ -211,13 +206,12 @@ __14.4.  zavražděn Lincoln__
 
 __Výsledky občanské války__ : - nejkrvavější konflikt v USA 750 tisíc mrtvých
 
-\- byla to buržoazně demokratická revoluce.Vůdcem byla průmyslová buržoazie, ale rozhodující silou se staly široké lidové vrstvy .
-
-\- zákony z roku 1862 nabyly platnost pro celou zemi ( __zrušeno otroctví na celém území USA__ ( postavení černochů na jihu se ale moc nezlepšilo, byly odhlasovány na jihu protičernošské zákony, založen Ku-klux-klan atd..) a postupně probíhal __přechod k industriální společnosti__.
+- byla to buržoazně demokratická revoluce.Vůdcem byla průmyslová buržoazie, ale rozhodující silou se staly široké lidové vrstvy .
+- zákony z roku 1862 nabyly platnost pro celou zemi ( __zrušeno otroctví na celém území USA__ ( postavení černochů na jihu se ale moc nezlepšilo, byly odhlasovány na jihu protičernošské zákony, založen Ku-klux-klan atd..) a postupně probíhal __přechod k industriální společnosti__.
 
 __1865-77 – tzv. období rekonstrukce__ – hospodářské vyrovnávání mezi severem a jihem a vytváření vnitřního amerického trhu.
 
-\- rozvoj kapitalismu a zemědělství
+- rozvoj kapitalismu a zemědělství
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 

@@ -15,7 +15,7 @@ Tato zařízení nazýváme detektory částic – např.
 - Hmotnostní spektrografy
 - …
 
-Detektory záření – rozdělení
+## Detektory záření – rozdělení
 
 lze je dělit podle typu média:
 
@@ -25,7 +25,9 @@ lze je dělit podle typu média:
 - __scintilační__ – založeny na principu excitace elektronu do vyššího energetického stavu zářením, přičemž návrat elektronu do základního stavu se projeví jako světelný záblesk
 - __polovodičové__ – opět funguje na principu exitace elektronu tentokrát do tzv. vodivého pásma polovodiče, působí-li na polovodič elektrické pole, projeví se tento přeskok jako zvýšení vodivosti
 
-<img src="/images/content/fyzika/49-jaderna-fyzika-i/01.webp" alt="D623CB71" width="232" loading="lazy" decoding="async">Detektory
+## Detektory
+
+<img src="/images/content/fyzika/49-jaderna-fyzika-i/01.webp" alt="D623CB71" width="232" loading="lazy" decoding="async">
 
 __GM čítač (1928)__
 
@@ -43,7 +45,7 @@ __Wilsonova mlžná komora__ – je naplněná parami alkoholu nebo vody. Páry 
 
 <img src="/images/content/fyzika/49-jaderna-fyzika-i/05.webp" alt="p5_stopy1-small" width="266" loading="lazy" decoding="async">
 
-Detektory II
+## Detektory II
 
 __Bublinové komory__ – jsou naplněné přehřátou tekutinou (tekutý H nebo He) pod zvýšeným tlakem. Při náhlém snížení tlaku se v místech průchodu částice vytváří bublinková stopa, která se fotografuje
 
@@ -55,7 +57,7 @@ __Polovodičové detektory__ (ATLAS)
 
 <img src="/images/content/fyzika/49-jaderna-fyzika-i/06.webp" alt="SideA" width="401" loading="lazy" decoding="async">
 
-<img src="/images/content/fyzika/49-jaderna-fyzika-i/07.webp" alt="" width="442" loading="lazy" decoding="async">Ženevské jezero
+<img src="/images/content/fyzika/49-jaderna-fyzika-i/07.webp" alt="Ilustrace: Detektory II" width="442" loading="lazy" decoding="async">Ženevské jezero
 
 Large Hadron Collider
 
@@ -69,7 +71,7 @@ LHCb
 
 ALICE
 
-Atomové jádro
+## Atomové jádro
 
 __Atomové jádro__ tvoří centrální oblast atomu a představuje prakticky celou jeho hmotnost (r = 10-15 m). Skládá se z protonů a neutronů. V jádře působí jaderné síly, které jsou pouze přitažlivé, krátkodosahové a působí mezi nukleony bez ohledu na jejich náboj.
 
@@ -97,7 +99,7 @@ a 	B … hmotnostní úbytek (defekt)
 
 Vazebná energie jader jednotlivých nuklidů se navzájem liší a proto zavádíme vazebnou energii připadající na jeden nukleon
 
-<img src="/images/content/fyzika/49-jaderna-fyzika-i/08.webp" alt="" width="256" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/49-jaderna-fyzika-i/08.webp" alt="Ilustrace: Atomové jádro" width="256" loading="lazy" decoding="async">
 
 $$\varepsilon_j = \frac{E_j}{A}$$
 
@@ -109,7 +111,7 @@ kde součet v závorce je součet klidových hmotností jednotlivých částí (
 
 Při chemických reakcích je *B* velmi malé, ale vazebná energie atomových jader je cca 102 krát větší než energie chemická. Proto syntézou (fúzí) lehkých jader nebo jaderným štěpením těžkých jader lze získat značnou energii
 
-Jaderné reakce
+## Jaderné reakce
 
 Jaderné reakce jsou přeměny jader atomů vyvolané vnějším zásahem (srážka atomového jádra s jinými jádry nebo částicemi). První umělá jaderná reakce byla provedena 1919 E. Rutherfordem
 
@@ -119,7 +121,7 @@ $${}^{4}_{2}\mathrm{He} + {}^{14}_{7}\mathrm{N} \to {}^{17}_{8}\mathrm{O} + {}^{
 
 $${}^{9}_{4}\mathrm{Be} + {}^{4}_{2}\mathrm{He} \to {}^{12}_{6}\mathrm{C} + {}^{1}_{0}\mathrm{n}$$
 
-Fúze a štěpení I
+## Fúze a štěpení I
 
 Rozlišujeme dva druhy jaderných reakcí:
 
@@ -133,7 +135,7 @@ __Jaderná syntéza (fúze)__ – složením dvou lehčích jader (s menší ho
 - ${}^{2}_{1}\mathrm{H} + {}^{3}_{1}\mathrm{H} \to {}^{4}_{2}\mathrm{He} + {}^{1}_{0}\mathrm{n}$, $E_r = 17{,}6\ \mathrm{MeV}$
 - ${}^{2}_{1}\mathrm{H} + {}^{2}_{1}\mathrm{H} \to {}^{3}_{2}\mathrm{He} + {}^{1}_{0}\mathrm{n}$, $E_r = 3{,}25\ \mathrm{MeV}$
 
-Fúze a štěpení II
+## Fúze a štěpení II
 
 __Štěpení těžkých jader neutrony__
 
@@ -147,7 +149,9 @@ $${}^{235}_{92}\mathrm{U} + {}^{1}_{0}\mathrm{n} \to {}^{144}_{56}\mathrm{Ba} + 
 
 $${}^{235}_{92}\mathrm{U} + {}^{1}_{0}\mathrm{n} \to {}^{91}_{38}\mathrm{Sr} + {}^{140}_{54}\mathrm{Xe} + 5 {}^{1}_{0}\mathrm{n}$$
 
-<img src="/images/content/fyzika/49-jaderna-fyzika-i/15.webp" alt="" width="208" loading="lazy" decoding="async">Jaderný reaktor
+## Jaderný reaktor
+
+<img src="/images/content/fyzika/49-jaderna-fyzika-i/15.webp" alt="Ilustrace: Jaderný reaktor" width="208" loading="lazy" decoding="async">
 
 V jaderném reaktoru probíhá řetězová reakce za účasti jen určitého počtu účinných neutronů (k – multiplikační faktor)
 
@@ -155,4 +159,6 @@ Je-li k<1, reakce vyhasíná, je-li k=1, je reakce činná a plně pod kontrolou
 
 První řízenou jadernou reakci provedl v r.1942 E. Fermi pod stadionem Chicagské univerzity
 
-<img src="/images/content/fyzika/49-jaderna-fyzika-i/16.webp" alt="" width="349" loading="lazy" decoding="async">Jaderná elektrárna
+<img src="/images/content/fyzika/49-jaderna-fyzika-i/16.webp" alt="Jaderná elektrárna" width="349" loading="lazy" decoding="async">
+
+*Jaderná elektrárna*

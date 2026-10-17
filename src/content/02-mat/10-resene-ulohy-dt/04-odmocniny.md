@@ -2,6 +2,7 @@
 title: "Odmocniny"
 order: 4
 source: "Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/4) Odmocniny.pdf"
+formulaRail: false
 hasExercises: true
 ---
 

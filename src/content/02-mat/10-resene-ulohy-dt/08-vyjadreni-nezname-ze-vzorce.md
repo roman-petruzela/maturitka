@@ -2,6 +2,7 @@
 title: "Vyjádření neznámé ze vzorce"
 order: 8
 source: "Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/8) Vyjádření neznámé ze vzorce.pdf"
+formulaRail: false
 hasExercises: true
 ---
 

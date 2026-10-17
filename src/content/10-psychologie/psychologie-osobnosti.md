@@ -140,9 +140,9 @@ __Druhy inteligence__
 	- Není závislá na IQ
 	- Ovlivňuje úspěšnost jedince v rodině, na pracovišti, v sociálních vztazích
 
-<img src="/images/content/psychologie/psychologie-osobnosti/01.webp" alt="" width="488" loading="lazy" decoding="async">
+<img src="/images/content/psychologie/psychologie-osobnosti/01.webp" alt="Ilustrace: Psychologie osobnosti" width="488" loading="lazy" decoding="async">
 
-1. __MOTIVACE__
+## 1. MOTIVACE
 
 - Motivace – z latinského slova *movere* – hýbat, pohybovat se
 - Souhrn všech skutečností, které __podporují__ nebo __tlumí__ jedince, aby něco dělal nebo naopak nedělal
@@ -153,7 +153,7 @@ __Druhy inteligence__
 
 __Motivace zahrnuje__
 
-1. __Vnější činitele__
+## 2. Vnější činitele
 
 - Odměny \(pochvala, pohlazení, peníze, ocenění,…\)
 - Tresty \(napomenutí, pokuty, zákazy činností, …\)
@@ -162,7 +162,7 @@ __Motivace zahrnuje__
 - Nabídky
 - Vzory \(antivzory\)
 
-1. __Vnitřní činitele__
+## 3. Vnitřní činitele
 
 - Potřeby, pudy, instinkty
 - Zájmy
@@ -196,7 +196,7 @@ __MOTIV__
 
 - Vysvětluje vnitřní, psychologické důvody určitého chování, jeho cíl, důležitost chování i volbu způsobů jednání
 
-1. __VŮLE__
+## 4. VŮLE
 
 - __Cílevědomé__ a __záměrné__ sebeovládání a sebeřízení, které vede k dosažení určitého cíle
 - Způsobilost člověka __cílevědomě řídit__ svou duševní činnost a jejím prostřednictvím __regulovat__ průběh vlastní interakce s vnějším i vnitřním prostředím
@@ -232,7 +232,7 @@ __Volní vlastnosti__
 
 __Temperamentové teorie__
 
-1. __Humorální teorie:__
+## 5. Humorální teorie:
 
 - Původně souvisela se šťávami v lidském těle \(žluč, černá žluč, hled, krev\), vznik již ve starověku
 - Zakladatelem je Hippokrates, teorii doplnil Galen, dovršil I\. Kant
@@ -267,7 +267,7 @@ __Sangvinik__
 
 \-
 
-Krev
+## Krev
 
 __Melancholik__
 
@@ -287,7 +287,7 @@ __Flagmatik__
 
 \-
 
-Hlen
+## Hlen
 
 __Cholerik__
 
@@ -314,7 +314,7 @@ __Flegmatik__
 - Nemá dostatek nadšení, neumí se rozčílit, nemá rád změny, nedává najevo své city, nerad se rozhoduje
 - Emoce – vznikají pomalu, jsou slabé a krátkodobé
 
-1. __Konstituční typologie – E\. Kretschmer__
+### 6. Konstituční typologie – E\. Kretschmer
 
 - Kretschmer hledal souvislosti mezi určitým typem stavby těla a typem temperamentu 🡪 psychofyzické typy \(experimentálně a statisticky to prověřoval\)
 - Rozlišil:
@@ -339,7 +339,7 @@ Otevřený,
 
 Společenský, pohodlný, požitkář, žije přítomností
 
-Maniodeprese
+## Maniodeprese
 
 __ASTENIK__
 
@@ -351,7 +351,7 @@ __Schizotymní__
 
 Uzavřený, nepřístupný, plachý, ostýchavý, nespolečenský, „záhadná povaha“
 
-Schizofrenie
+## Schizofrenie
 
 __ATLETIK__
 
@@ -361,13 +361,13 @@ __Viskózní__
 
 Sociálně neobraný, s malou fantazií, poměrně jednoduchý, rozvážný způsob myšlení, slabá vůle
 
-Epilepsie
+## Epilepsie
 
 __Dysplastik__
 
 - Neurčitý typ – člověk, který nemá vyhraněnou somatickou konstituci, jedná se o "mezityp“
 
-1. __Teorie H\.J\.Eysencka__
+### 7. Teorie H\.J\.Eysencka
 
 - Struktura osobnosti je tvořena 2 dimenzemi:
 
@@ -390,7 +390,7 @@ __Neuroticismus__
 
 *Extroverze*
 
-__<img src="/images/content/psychologie/psychologie-osobnosti/02.webp" alt="" width="331" loading="lazy" decoding="async">__
+__<img src="/images/content/psychologie/psychologie-osobnosti/02.webp" alt="Vysoký neuroticismus" width="331" loading="lazy" decoding="async">__
 
 *Vysoký neuroticismus*
 

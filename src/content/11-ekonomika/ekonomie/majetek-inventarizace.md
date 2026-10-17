@@ -26,33 +26,24 @@ __Majetek podniku__ = prostředky, které podnik při své činností užívá
 	- pohledávky
 - Dlouhodobý majetek nehmotný
 
-\- PC > 60 000
-
-\- doba použití > 1 rok
-
-\- odepisuje se
-
-\- software
+- PC > 60 000
+- doba použití > 1 rok
+- odepisuje se
+- software
 
 - Dlouhodobý majetek hmotný
 
-\- PC > 40 000
-
-\- doba použití > 1 rok
-
-\- stavby, SMV = odepisuje se
-
-\- pozemky, umělěcká díla = neodepisuje se
+- PC > 40 000
+- doba použití > 1 rok
+- stavby, SMV = odepisuje se
+- pozemky, umělěcká díla = neodepisuje se
 
 - Dlouhodobý majetek finanční
 
-\- doba použití > 1 rok
-
-\- cenné papíry
-
-\- termínované vklady
-
-\- neodepisuje se
+- doba použití > 1 rok
+- cenné papíry
+- termínované vklady
+- neodepisuje se
 
 - Krátkodobý majetek
 
@@ -166,7 +157,7 @@ b) Cizí zdroje (závazky)
 
 __Inventarizace__ = porovnání skutečného stavu zásob na skladě s účetním stavem
 
-\- tato povinnost vyplývá ze zákona o účetnictví
+- tato povinnost vyplývá ze zákona o účetnictví
 
 __Fáze__
 

@@ -6,7 +6,7 @@ source: "Zeměpis/Zeměpis GLP/30. administrativní členění čr.docx"
 30\. ADMINISTRATIVNÍ ČLENĚNÍ ČR
 (adm. členění, ochrana živ. prostředí, Plzeňský kraj)
 
-# ROZDĚLENÍ NUTS
+## ROZDĚLENÍ NUTS
 
 = Nomenklatura územních statistických jednotek
 
@@ -88,10 +88,10 @@ Moravskoslezsko
 
 Moravskoslezský kraj
 
-# ÚZEMNÍ KRAJE ČR
+## ÚZEMNÍ KRAJE ČR
 
 = regiony soudržnosti 🡪 NUTS 2
-\- neadministrativní jednotky
+- neadministrativní jednotky
 
 1. Praha
 2. Středočeský kraj se sídlem v Praze
@@ -102,10 +102,10 @@ Moravskoslezský kraj
 7. Jihomoravský kraj se sídlem v Brně
 8. Severomoravský kraj se sídlem v Ostravě
 
-# SAMOSPRÁVNÉ KRAJE
+## SAMOSPRÁVNÉ KRAJE
 
 = vyšší územní samosprávné celky (kraje) 🡪 NUTS 3
-\- administrativní jednotky
+- administrativní jednotky
 
 1. Hlavní město Praha (krajským městem je Praha)
 2. Středočeský kraj (Praha)
@@ -125,7 +125,7 @@ Moravskoslezský kraj
 - Nejvíce obyvatel má Středočeský kraj, nejméně Karlovarský
 - Největším krajem je také Středočeský kraj, nejmenším je Hlavní město Praha
 
-## Plzeňský kraj
+### Plzeňský kraj
 
 - Sousedí s Karlovarským krajem, krátkým úsekem s Ústeckým krajem, se Středočeským krajem, Jihočeským krajem
 - Nejdelší úsek společné hranice má s německou spolkovou zemí Bavorsko
@@ -171,7 +171,7 @@ __HISTORICKÉ PAMÁTKY__
 - V kraji se nachází velké množství historických památek, jako např. Horšovský Týn, Kozel, Manětín, Nebílovy, Zbiroh a hrady Rabí, Radyně, Švihov nebo Velhartice a Domažlice, dále Klášter Plasy nebo Kladrubský klášter
 - V Plzni také sídlí dvě vysoké školy: Lékařská fakulta Univerzity Karlovy v Plzni (1945) a Západočeská univerzita v Plzni
 
-# OCHRANA ŽIVOTNÍHO PROSTŘEDÍ
+## OCHRANA ŽIVOTNÍHO PROSTŘEDÍ
 
 __ORGANIZACE ZABÝVAJÍCÍ SE OCHRANOU ŽIV. PROSTŘEDÍ__
 
@@ -187,7 +187,7 @@ __CO MÁ NEGATIVNÍ VLIV NA ŽIV. PROSTŘEDÍ__
 - Na živ. prostředí v ČR má negativní vliv mnoho faktorů, např. osídlení a pohyb obyvatelstva, výroba a spotřeba, odpadové hospodářství, staré ekologické zátěže z dob socialismu a změna klimatu
 - V rámci živ. prostředí se posuzuje hlavně stav ovzduší (znečištění, ozónová vrstva), vodní poměry (znečištění vody, její spotřeba a nakládání s ní), znečištění a celkový stav půd, či například hluk, světelné znečištění a radioaktivita
 
-# CHRÁNĚNNÁ ÚZEMÍ V ČR
+## CHRÁNĚNNÁ ÚZEMÍ V ČR
 
 __NÁRODNÍ PARKY__
 

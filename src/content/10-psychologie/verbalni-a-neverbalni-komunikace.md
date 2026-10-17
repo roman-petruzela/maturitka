@@ -2,7 +2,7 @@
 title: "Verbální a neverbální komunikace"
 source: "PSYCHOLOGIE/VERBÁLNÍ-A-NEVERBÁLNÍ-KOMUNIKACE.docx"
 ---
-1. __Verbální a neverbální komunikace__
+## 1. Verbální a neverbální komunikace
 
 - Pojem komunikace, zpětná vazba, komunikační šum, komunikační bariéra
 - Jednosměrná, dvojsměrná, vícesměrná komunikace
@@ -29,7 +29,7 @@ __Součásti komunikačního procesu__
 - Komunikační prostředí
 - Zpětná vazba
 
-<img src="/images/content/psychologie/verbalni-a-neverbalni-komunikace/01.webp" alt="" width="577" loading="lazy" decoding="async">
+<img src="/images/content/psychologie/verbalni-a-neverbalni-komunikace/01.webp" alt="Ilustrace: Verbální a neverbální komunikace" width="577" loading="lazy" decoding="async">
 
 __Komunikátor__
 
@@ -86,7 +86,7 @@ __KOMUNIKAČNÍ ŠUM__
 - Má rušivý vliv na přenos informace, deformuje podobu informace, narušuje dekódování informace
 - Základní typy šumu
 
-<img src="/images/content/psychologie/verbalni-a-neverbalni-komunikace/02.webp" alt="" width="605" loading="lazy" decoding="async">
+<img src="/images/content/psychologie/verbalni-a-neverbalni-komunikace/02.webp" alt="Ilustrace: Verbální a neverbální komunikace" width="605" loading="lazy" decoding="async">
 
 \(Příklady kom\. šumů – zkreslená informace, nadbytečná informace, svítící slunce, nesympatický člověk, vtíravé myšlenky, nesoustředění, únava, …\)
 
@@ -209,7 +209,7 @@ __Druhy neverbální komunikace__
 	- Strach x jistota
 	- Klid x rozčilení, viz obrázek
 
-<img src="/images/content/psychologie/verbalni-a-neverbalni-komunikace/03.webp" alt="" width="303" loading="lazy" decoding="async">
+<img src="/images/content/psychologie/verbalni-a-neverbalni-komunikace/03.webp" alt="Ilustrace: Verbální a neverbální komunikace" width="303" loading="lazy" decoding="async">
 
 __Mimika – příklady__
 
@@ -226,9 +226,9 @@ __Mimika – příklady__
 - Správný oční kontakt = signalizujeme zájem \(ale nesmíme zírat ☺ \)
 - Prchavý oční kontakt = např\. záměrný odstup, obava, nezájem, špatné svědomí, …
 
-<img src="/images/content/psychologie/verbalni-a-neverbalni-komunikace/04.webp" alt="" width="554" loading="lazy" decoding="async">
+<img src="/images/content/psychologie/verbalni-a-neverbalni-komunikace/04.webp" alt="Ilustrace: Verbální a neverbální komunikace" width="554" loading="lazy" decoding="async">
 
-1. __GESTIKA__
+## 2. GESTIKA
 
 - Zpravidla pohyby rukou \(popř\. hlavy, nohou\), které mohou doplnit / dokreslit verbální sdělení __⇨__ doprovázejí řeč
 - Mají kulturní závislost
@@ -259,7 +259,7 @@ __Použití gest__
 - Je potřeba používat gesta, která podpoří obsah toho, co sdělujeme
 - Gesta by měla působit autenticky, neměla by být strojená
 
-1. __KINEZIKA__
+## 3. KINEZIKA
 
 - Pohybová stránka komunikace \(spontánní pohyby\)
 - Každý člověk má své charakteristické pohyby \(např\. kamaráda poznáme již zdálky podle jeho chůze\)
@@ -283,7 +283,7 @@ __Chůze__
 
 - Jistá \- potácivá, noblesní \- odměřená, uvolněná \- křečovitá, pohodlná \- těžká
 
-1. __PROXEMIKA__
+## 4. PROXEMIKA
 
 - Komunikace založená na posuzování vzdálenosti mezi komunikujícími osobami
 - Čím více sympatií k druhému člověku tím kratší vzdálenost při komunikaci udržujeme
@@ -299,13 +299,13 @@ Proxemika \- zóny
 - __Společenská, sociální, skupinová zóna \(1,2m\-3,6/10m\)__ – služební styk, obchodní jednání, praktické cvičení na VŠ v dané místnosti \(kancelář, posluchárna, pracovní hala\)\.
 - __Veřejná zóna \(nad 3,6m\) –__ lidé se obvykle neznají, mohou si zůstat cizí a nepoznaní, např\. projev politika, výstup herce na jevišti, kněze v kostele, přednášejícího na konferenci apod\.
 
-1. __POSTUROLOGIE__
+## 5. POSTUROLOGIE
 
 - Zabývá se komplexním držením těla, napětím nebo uvolněním, nakloněním, polohami rukou, nohou, hlavy, směrem natočení těla
 - Signalizuje emoční stav, stupeň zaujetí, postoj k partnerovi a jeho sdělení
 - Příklady viz tabulka
 
-1. __HAPTIKA__
+## 6. HAPTIKA
 
 - Komunikace prostřednictvím __doteků,__ hmatů
 - Doteky mají různé významy – formální, neformální, přátelské, intimní, …

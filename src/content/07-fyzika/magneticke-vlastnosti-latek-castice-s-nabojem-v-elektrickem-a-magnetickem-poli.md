@@ -13,7 +13,7 @@ __Paramagnetické__
 
 - Elementární magnetická pole v atomu se ruší jen částečně.
 
-Rozdělení magnetických těles
+## Rozdělení magnetických těles
 
 __Diamagnetické látky__
 
@@ -33,14 +33,14 @@ __Feromagnetické látky__
 - Jejich __relativní permeabilita má velkou hodnotu__ (__μr__ = 102 – 105) např. ocel
 - Dochází k __magnetování láky__ – __mag. pole__ v ní __zůstává__ i když __vnější působení zanikne__
 
-Magnetické domény
+## Magnetické domény
 
 - Příčinnou magnetizace látky je působení tzv. __výměnných sil__ mezi sousedními atomy
 - Vlivem těchto sil nastává i bez vnějšího působení souhlasné uspořádání magnetických polí atomů v malé oblasti látky - __vznik domén__
 - Mikroskopické oblasti o objemu 10-3 mm3 až 10 mm3 vznikající při __spontánní samovolné magnetizaci feromagnetického tělesa__
 - Jednotlivé __domény__ v tělese jsou __orientovány nahodile,__ působením __vnějšího magnetického pole__ se tyto domény __orientují souhlasně__ a látka získává __vlastnosti magnetu__
 
-Magnetické materiály v technické praxi
+## Magnetické materiály v technické praxi
 
 __Elektromagnet__
 
@@ -55,18 +55,18 @@ __Elektromagnet__
 	- Elektromagnetický jistič
 	- Elektromagnetický přerušovač proudu
 
-<img src="/images/content/fyzika/magneticke-vlastnosti-latek-castice-s-nabojem-v-elektrickem-a-magnetickem-poli/01.webp" alt="" width="190" loading="lazy" decoding="async"><img src="/images/content/fyzika/magneticke-vlastnosti-latek-castice-s-nabojem-v-elektrickem-a-magnetickem-poli/02.webp" alt="" width="190" loading="lazy" decoding="async"><img src="/images/content/fyzika/magneticke-vlastnosti-latek-castice-s-nabojem-v-elektrickem-a-magnetickem-poli/03.webp" alt="" width="143" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/magneticke-vlastnosti-latek-castice-s-nabojem-v-elektrickem-a-magnetickem-poli/01.webp" alt="Ilustrace: Magnetické materiály v technické praxi" width="190" loading="lazy" decoding="async"><img src="/images/content/fyzika/magneticke-vlastnosti-latek-castice-s-nabojem-v-elektrickem-a-magnetickem-poli/02.webp" alt="Ilustrace: Magnetické materiály v technické praxi" width="190" loading="lazy" decoding="async"><img src="/images/content/fyzika/magneticke-vlastnosti-latek-castice-s-nabojem-v-elektrickem-a-magnetickem-poli/03.webp" alt="Ilustrace: Magnetické materiály v technické praxi" width="143" loading="lazy" decoding="async">
 
 __Wehneltova trubice__
 
 - = vyčerpaná trubice na tlak 1 Pa naplněná vodíkem
 - Slouží ke znázornění zakřivení trajektorie částice(elektronu) v homogenním magnetickém poli
 
-<img src="/images/content/fyzika/magneticke-vlastnosti-latek-castice-s-nabojem-v-elektrickem-a-magnetickem-poli/04.webp" alt="" width="254" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/magneticke-vlastnosti-latek-castice-s-nabojem-v-elektrickem-a-magnetickem-poli/04.webp" alt="Ilustrace: Magnetické materiály v technické praxi" width="254" loading="lazy" decoding="async">
 
 Televizní obrazovka
 
-<img src="/images/content/fyzika/magneticke-vlastnosti-latek-castice-s-nabojem-v-elektrickem-a-magnetickem-poli/05.webp" alt="" width="602" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/magneticke-vlastnosti-latek-castice-s-nabojem-v-elektrickem-a-magnetickem-poli/05.webp" alt="Ilustrace: Magnetické materiály v technické praxi" width="602" loading="lazy" decoding="async">
 
 Vztah pro sílu, kterou působí na pohybující se nabitou částici elektrické pole o intenzitě E a magnetické pole o magnetické indukci B
 
@@ -76,17 +76,17 @@ __Lorentzova síla__
 - Lorentzova síla způsobená magnetickým polem mění směr náboje, bez toho, aby působila změnu jeho rychlosti
 - Jestliže se částice s nábojem pohybuje současně v elektrickém a magnetickém poli, působí na ni jak síla elektrická __Fe__, tak síla magnetická __Fm__. Výslednice obou sil je Lorentzova síla
 
-<img src="/images/content/fyzika/magneticke-vlastnosti-latek-castice-s-nabojem-v-elektrickem-a-magnetickem-poli/06.webp" alt="" width="306" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/magneticke-vlastnosti-latek-castice-s-nabojem-v-elektrickem-a-magnetickem-poli/06.webp" alt="Ilustrace: Magnetické materiály v technické praxi" width="306" loading="lazy" decoding="async">
 
 - __q__ - elektrický náboj; __v__ - rychlost částice; __E__ - intenzita elektrického pole; __B__ - magnetická indukce
 
-  <img src="/images/content/fyzika/magneticke-vlastnosti-latek-castice-s-nabojem-v-elektrickem-a-magnetickem-poli/07.webp" alt="" width="345" loading="lazy" decoding="async">
+  <img src="/images/content/fyzika/magneticke-vlastnosti-latek-castice-s-nabojem-v-elektrickem-a-magnetickem-poli/07.webp" alt="Ilustrace: Magnetické materiály v technické praxi" width="345" loading="lazy" decoding="async">
 
 - Výslednicí je __vektorový součin v__ a __B__
 - __Q__ – náboj; v - rychlost pohybu částice; __B__ – magnet. indukce; __α__ - úhel, který svírá směr __v__ a __B__
 
-<img src="/images/content/fyzika/magneticke-vlastnosti-latek-castice-s-nabojem-v-elektrickem-a-magnetickem-poli/08.webp" alt="" width="267" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/magneticke-vlastnosti-latek-castice-s-nabojem-v-elektrickem-a-magnetickem-poli/08.webp" alt="Ilustrace: Magnetické materiály v technické praxi" width="267" loading="lazy" decoding="async">
 
 Částice s nábojem v homogenním magnetickém poli
 
-<img src="/images/content/fyzika/magneticke-vlastnosti-latek-castice-s-nabojem-v-elektrickem-a-magnetickem-poli/09.webp" alt="" width="602" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/magneticke-vlastnosti-latek-castice-s-nabojem-v-elektrickem-a-magnetickem-poli/09.webp" alt="Ilustrace: Magnetické materiály v technické praxi" width="602" loading="lazy" decoding="async">

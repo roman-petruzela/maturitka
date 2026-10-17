@@ -52,7 +52,7 @@ __b\) Aktivní úvěrové obchody__
 
 __Krátkodobé a střednědobé úvěry__
 
-1\) __kontokorentní úvěr__ = jeden z nejoblíbenějších úvěrů a je založen na tzv\. kontokorentním účtu => smíšený účet na 	kterém lze čerpat peníze do mínusu jehož výše je určena ve smlouvě o zřízení kontokorentního účtu
+1\) __kontokorentní úvěr__ = jeden z nejoblíbenějších úvěrů a je založen na tzv\. kontokorentním účtu ⇒ smíšený účet na 	kterém lze čerpat peníze do mínusu jehož výše je určena ve smlouvě o zřízení kontokorentního účtu
 
 2\) __směnečné úvěry__
 
@@ -60,7 +60,7 @@ __Krátkodobé a střednědobé úvěry__
 - náležitosti: slovo směnka v textu, bezpodmínečný příkaz zaplaťte určitou částku, datum a místo vystavení, údaj o splatnosti, jméno hlavního směnečného dlužníka, směnečný věřitel \(komu zaplatit\), místo splatnosti, podpis výstavce
 - a\) __směnka cizí__ – za tuto směnku zaplaťte; b\) __vlastní směnka__ \-  za tuto směnku zaplatím
 - __a\) eskontní úvěr__ – jeho podstatou je odkoupení směnky bankou před lhůtou splatnosti
-- dohoda o placení směnkou => dodání zboží s doklady=> odběratel předá vlastní směnku dodavateli => dodavatel žádá banku o eskont => banka zjistí fin\. situaci dodavatele a odběratele a sepíše smlouvu o eskont => banka převede peníze na účet dodavatele \(eskontní provize 5000,\- \) => banka se stává majitelem směnky a předloží ji k proplacení odběrateli
+- dohoda o placení směnkou ⇒ dodání zboží s doklady=> odběratel předá vlastní směnku dodavateli ⇒ dodavatel žádá banku o eskont ⇒ banka zjistí fin\. situaci dodavatele a odběratele a sepíše smlouvu o eskont ⇒ banka převede peníze na účet dodavatele \(eskontní provize 5000,\- \) ⇒ banka se stává majitelem směnky a předloží ji k proplacení odběrateli
 - __b\) akceptační úvěr__ – založen na tom, že odběratel požádá svou banku o akcept banky a touto směnkou platí dodavateli za zboží; v okamžiku akceptu banka disponuje penězi na účtu odběratele
 
 __Střednědobé a dlouhodobé úvěry__
@@ -73,6 +73,6 @@ a\) __pořizovací__ __půjčka__ – banka nám půjčí na celou věc potřebn
 
 b\) __doplňková__ __půjčka__ – část peněz mám, zbytek si půjčím
 
-c\) __osobní__ __půjčka__ – neřeknu bance na co si půjčuji, vysoký úvěr => neuvedení důvodu
+c\) __osobní__ __půjčka__ – neřeknu bance na co si půjčuji, vysoký úvěr ⇒ neuvedení důvodu
 
 __5\) americká hypotéka__ = můžeme si ji vzít na cokoliv, vysoké částky \(můžou\), ručí se nemovitostí, splácí se cca do 20 let; úroky jsou větší než u hypotečního úvěru, ale menší než u ostatních úvěrů

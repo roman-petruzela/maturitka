@@ -2,6 +2,7 @@
 title: "Kombinatorika"
 order: 31
 source: "Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/31) Kombinatorika.pdf"
+formulaRail: false
 hasExercises: true
 ---
 

@@ -14,8 +14,6 @@ hasExercises: true
 - $x+4=5$ — to není výraz, ale **rovnice**.
 - $a-4>b+6$ — to není výraz, ale **nerovnice**.
 
-## Definiční obor výrazu
-
 **Definičním oborem** výrazu rozumíme množinu všech čísel, pro která dokážeme výraz spočítat (určit jeho hodnotu). Musíme dát pozor na operace, které nejdou provést se všemi čísly — nelze dělit nulou, nelze odmocnit záporné číslo (v oboru reálných čísel) apod.
 
 **Příklad 1:** Určete definiční obor výrazu $\dfrac{x}{x+3}$ a určete jeho hodnotu pro $x=-4;-3;-2;0;1$.

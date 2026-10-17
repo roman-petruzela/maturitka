@@ -5,7 +5,7 @@ source: "uvt/cv26_klavesnice_mys_3Dmys_trackball.pdf"
 ---
 Klávesnice, myš, 3D myš, Trackball a grafický tablet
 
-# Počítačová klávesnice
+## Počítačová klávesnice
 
 - vstupní periferní zařízení určené pro vkládání znaků do počítače a k jeho ovládání
 
@@ -16,24 +16,24 @@ Klávesnice, myš, 3D myš, Trackball a grafický tablet
 - V ČR se používá rozložení kláves QWERTZ dle ČSN 36 9050 z roku 1994.
 
 
-# Rozložení americké klávesnice
+## Rozložení americké klávesnice
 
 <img src="/images/content/it/uvod-do-vypocetni-techniky/klavesnice-mys-3d-mys-trackball/01.webp" alt="Rozložení americké klávesnice" width="575" loading="lazy" decoding="async">
 
 
-# Rozložení klávesnice QWERTZ
+## Rozložení klávesnice QWERTZ
 
 <img src="/images/content/it/uvod-do-vypocetni-techniky/klavesnice-mys-3d-mys-trackball/02.webp" alt="Rozložení české klávesnice QWERTZ" width="575" loading="lazy" decoding="async">
 
 
-# Význam jednotlivých kláves
+## Význam jednotlivých kláves
 
 - viz. ZŠ
 
 - anebo na: https://cs.wikipedia.org/wiki/Po%C4%8D%C3%ADta%C4 %8Dov%C3%A1_kl%C3%A1vesnice
 
 
-# Dělení klávesnic
+## Dělení klávesnic
 
 - Dělení  máme podle:
 
@@ -63,11 +63,11 @@ Klávesnice, myš, 3D myš, Trackball a grafický tablet
 
    - Klasické / ergonomické
 
-# Počítačová myš a Trackball
+## Počítačová myš a Trackball
 
 <img src="/images/content/it/uvod-do-vypocetni-techniky/klavesnice-mys-3d-mys-trackball/05.webp" alt="Počítačová myš a trackball" width="395" loading="lazy" decoding="async">
 
-# Počítačová myš
+## Počítačová myš
 
 - je malé polohovací zařízení používané pro ovládání grafického uživatelského rozhraní
 
@@ -80,7 +80,7 @@ Klávesnice, myš, 3D myš, Trackball a grafický tablet
 <img src="/images/content/it/uvod-do-vypocetni-techniky/klavesnice-mys-3d-mys-trackball/03.webp" alt="Herní, CAD a kuličková myš" width="555" loading="lazy" decoding="async">
 
 
-# Dělení počítačových myší
+## Dělení počítačových myší
 
 - Dělení  máme podle:
 
@@ -112,19 +112,19 @@ Klávesnice, myš, 3D myš, Trackball a grafický tablet
 
       - BlueEye / BlueTrack
 
-# Trackball
+## Trackball
 
 <img src="/images/content/it/uvod-do-vypocetni-techniky/klavesnice-mys-3d-mys-trackball/04.webp" alt="Trackball" width="262" loading="lazy" decoding="async">
 
 
-# 3D myš
+## 3D myš
 
 - Zatím jediní dva výrobci jsou 3Dconnexion a SpaceControl
 
 - Je určená pro práci v 3D modelovacích programech
 
 
-# Grafický tablet
+## Grafický tablet
 
 - je polohovací zařízení skládající se z pevné podložky s aktivní, zpravidla obdélníkovou plochou a z pohyblivého snímacího zařízení v podobě bezdrátového pera nebo takzvaného puku (obdoba myši s nitkovým křížem a tlačítky).
 
@@ -132,7 +132,7 @@ Klávesnice, myš, 3D myš, Trackball a grafický tablet
 
 - Používá se zejména v CADu či grafických programech. Moderní tablety jsou citlivé i na tlak a je možné měnit tloušťku a charakter čáry v závislosti na tlaku na hrot pera.
 
-# Dělení grafických tabletů
+## Dělení grafických tabletů
 
 - **Pasivní** tablety - využívají technologii elektromagnetické indukce, kde horizontální a vertikální vodiče tabletu působí jako vysílací i přijímací cívky. Tablet generuje elektromagnetický signál, který je přijat do LC obvodu ve stylusu. Vodiče v tabletu pak přepnou na přijímací režim a přečte se signál generovaný perem. Moderní úpravy také zajišťují citlivost na tlak a jeden nebo více spínačů (podobně jako tlačítka na myši), s elektronikou ve stylusu samotném, ne na tabletu.
 
@@ -144,7 +144,7 @@ Klávesnice, myš, 3D myš, Trackball a grafický tablet
 
 - **Elektromagnetické** tablety - Wacom je jedním z příkladů grafických tabletů, které fungují tak, že generují a detekují elektromagnetický signál: v designu Wacom, je signál generovaný perem a detekován mřížkou vodičů v tabletu. V jiných designech jako například Pencept generují signál v mřížce vodičů a detekují ho v peru.
 
-# Citace
+## Citace
 
 - https://cs.wikipedia.org/wiki/Po%C4%8D%C3%ADta%C4
 

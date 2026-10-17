@@ -22,7 +22,7 @@ Vlastnosti kapalin a plynů
 - Tlak v ideální kapalině je jednoznačně určen svou hodnotou, je to __skalární veličina__. Je-li v určitém místě kapaliny tlak p, pak na rovinnou plochu o obsahu S v tomto místě působí tlaková síla o velikosti __F = p ⋅ S__
 - K měření tlaku se používají __manometry__ (kapalinové – tlak se odečítá z rozdílu hladin vyvolaných tlakem, kovové – tlak pružně deformuje určité části přístroje)
 
-<img src="/images/content/fyzika/hydrostatika/02.webp" alt="" width="326" loading="lazy" decoding="async"><img src="/images/content/fyzika/hydrostatika/03.webp" alt="" width="260" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/hydrostatika/02.webp" alt="Ilustrace: Tlak v kapalinách a plynech" width="326" loading="lazy" decoding="async"><img src="/images/content/fyzika/hydrostatika/03.webp" alt="Ilustrace: Tlak v kapalinách a plynech" width="260" loading="lazy" decoding="async">
 
 - __Tlak v tekutinách může být vyvolán:__
 
@@ -31,9 +31,9 @@ Vlastnosti kapalin a plynů
 
 ## Tlak vyvolaný vnější silou
 
-- <img src="/images/content/fyzika/hydrostatika/04.webp" alt="" width="124" loading="lazy" decoding="async">Působíme-li na pevné těleso tlakovou silou F, přenáší se tato síla ve směru, kterým působí.
+- <img src="/images/content/fyzika/hydrostatika/04.webp" alt="Ilustrace: Tlak vyvolaný vnější silou" width="124" loading="lazy" decoding="async">Působíme-li na pevné těleso tlakovou silou F, přenáší se tato síla ve směru, kterým působí.
 
-<img src="/images/content/fyzika/hydrostatika/05.webp" alt="" width="113" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/hydrostatika/05.webp" alt="Ilustrace: Tlak vyvolaný vnější silou" width="113" loading="lazy" decoding="async">
 
 - Naproti tomu v kapalinách se přenáší tlaková síla do všech směrů a síla působí vždy kolmo na určitou plochu kapalného tělesa, kterou můžeme jakkoli zvolit.
 
@@ -43,32 +43,34 @@ __Pascalův zákon:__
 - __Pascalův zákon platí i pro plyny__. Nahuštěná pneumatika má ve všech místech stejný tlak. Její stěny se napínají ve všech místech stejně. Tlaková síla působí vždy kolmo na stěny pneumatiky.
 - Důsledky Pascalova zákona se uplatňují v __hydraulických a pneumatických zařízeních__. Hlavní částí hydraulického zařízení jsou dvě __válcové nádoby__ s různým průřezem u dna spojené trubicí. Oba válce i trubice jsou __vyplněny kapalinou__, která je uzavřena __pohyblivými písty__. Působíme-li na menší píst o obsahu průřezu S1 tlakovou silou F1, vyvolá tato síla v kapalině tlak, který je ve všech místech kapaliny stejný. Na širší píst bude kapalina působit silou F2 o velikosti:
 
-<img src="/images/content/fyzika/hydrostatika/06.webp" alt="" width="226" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/hydrostatika/06.webp" alt="Ilustrace: Tlak vyvolaný vnější silou" width="226" loading="lazy" decoding="async">
 
 - Toho se využívá u hydraulických lisů, zvedáků, brzd automobilů.
 
 $$F_2 = p \cdot S_2 = \frac{F_1}{S_1} \cdot S_2 \;\Rightarrow\; \frac{F_2}{F_1} = \frac{S_2}{S_1}$$
 
-<img src="/images/content/fyzika/hydrostatika/08.webp" alt="" width="161" loading="lazy" decoding="async">Tlak v kapalinách vyvolaný tíhovou silou
+## Tlak v kapalinách vyvolaný tíhovou silou
+
+<img src="/images/content/fyzika/hydrostatika/08.webp" alt="Ilustrace: Tlak v kapalinách vyvolaný tíhovou silou" width="161" loading="lazy" decoding="async">
 
 - V tíhovém poli Země působí na __všechny částice kapalného tělesa tíhová síla__. Výsledkem tohoto působení je __hydrostatická tlaková síla *F*h__.  Touto silou působí kapalina na dno a stěny nádoby nebo na potápěče či ponorku pod hladinou.
 - __Velikost hydrostatické tlakové síly *F*h,__ kterou působí kapalina v hloubce *h* na dno nádoby o plošném obsahu *S*, je dána v případě nádoby se svislými stěnami tíhou __*FG*__ kapaliny v nádobě.
 - Je-li __m = ρ ⋅ V__ (*ρ* je hustota a *V* objem kapaliny) a __V = S ⋅ h__, pak platí:		__* Fh = FG = m ⋅ g = S ⋅ h ⋅ ρ ⋅ g__
 - __Velikost hydrostatické tlakové síly__ závisí na hustotě kapaliny, na obsahu dna a na hloubce pod volným povrchem kapaliny. __Nezávisí__ na tvaru a celkovém objemu kapalného tělesa.
-- <img src="/images/content/fyzika/hydrostatika/09.webp" alt="" width="223" loading="lazy" decoding="async">Když nalijeme kapalinu do nádob různého tvaru, ale se dnem stejné plochy S a hladinou ve stejné výšce h, bude na dno nádoby působit __vždy stejná tlaková síla__. Tento jev se nazývá __hydrostatické paradoxon__. Je způsobeno tím, že v nádobách, jejichž stěny nejsou svislé působí kromě tíhy kapaliny také reakce stěn na kolmé tlakové síly.
+- <img src="/images/content/fyzika/hydrostatika/09.webp" alt="Ilustrace: Tlak v kapalinách vyvolaný tíhovou silou" width="223" loading="lazy" decoding="async">Když nalijeme kapalinu do nádob různého tvaru, ale se dnem stejné plochy S a hladinou ve stejné výšce h, bude na dno nádoby působit __vždy stejná tlaková síla__. Tento jev se nazývá __hydrostatické paradoxon__. Je způsobeno tím, že v nádobách, jejichž stěny nejsou svislé působí kromě tíhy kapaliny také reakce stěn na kolmé tlakové síly.
 - __Tlak v kapalině__ vyvolaný hydrostatickou tlakovou silou se nazývá __hydrostatický tlak *ph*.__ Hydrostatický tlak v hloubce h pod volným povrchem kapaliny o hustotě ρ je:
 
 $$p_h = \frac{F_h}{S} = \frac{\rho \cdot S \cdot h \cdot g}{S} = \rho \cdot h \cdot g$$
 
 - Hydrostatický tlak __je přímo úměrný__ hustotě kapaliny a hloubce místa pod volným povrchem kapaliny.
 - __Hladina o nulovém hydrostatickém tlaku__ je na volném povrchu kapaliny a nazývá se __volná hladina__.
-<img src="/images/content/fyzika/hydrostatika/11.webp" alt="" width="298" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/hydrostatika/11.webp" alt="Ilustrace: Tlak v kapalinách vyvolaný tíhovou silou" width="298" loading="lazy" decoding="async">
 
 - Na základě hydrostatického tlaku lze vysvětlit podstatu __spojených nádob__. Spojené nádoby jsou nádoby, které jsou __u dna spojeny trubicí__. __Jejich tvar může být jakýkoli__. Nalijeme-li do těchto nádob kapalinu o stejné hustotě, pak se hladina ve všech nádobách __ustálí ve stejné výšce__ h nad společným dnem.
 - Je to způsobeno důsledkem __Pascalova zákona__ – ve všech místech kapaliny je stejný tlak. U dna tedy bude tlak $p_h = \rho \cdot h \cdot g$; ρ a g jsou stejné, proto musí být i stejná výška h.
 - Z toho, že princip spojených nádob vychází z __Pascalova zákona__, můžeme odvodit i to, že ve spojených nádobách, ve kterých jsou __různé kapaliny__, jsou hustoty kapalin v převráceném poměru k výškám kapalin nad společným rozhraním, protože tam je __hydrostatický tlak stejný__.
 
-<img src="/images/content/fyzika/hydrostatika/13.webp" alt="" width="242" loading="lazy" decoding="async">$$\rho_1 \cdot h_1 \cdot g = \rho_2 \cdot h_2 \cdot g$$
+<img src="/images/content/fyzika/hydrostatika/13.webp" alt="Ilustrace: Tlak v kapalinách vyvolaný tíhovou silou" width="242" loading="lazy" decoding="async">$$\rho_1 \cdot h_1 \cdot g = \rho_2 \cdot h_2 \cdot g$$
 
 $$\frac{\rho_1}{\rho_2} = \frac{h_2}{h_1}$$
 
@@ -77,9 +79,9 @@ $$\frac{\rho_1}{\rho_2} = \frac{h_2}{h_1}$$
 - Tělesa, která ponoříme do kapaliny, jsou __lehčí než ve vzduchu.__ Nadlehčuje je __vztlaková síla *Fvz*__. __Směřuje vzhůru__ a je důsledkem __hydrostatického tlaku__ kapaliny.
 - Ponoříme-li do kapaliny kvádr, působí na každou jeho stěnu __kolmá tlaková síla__. Síly, které působí na __boční stěny se navzájem vyruší__, na horní stěnu působí síla $F_1 = p_{h1} \cdot S$ a na spodní $F_2 = p_{h2} \cdot S$.
 
-<img src="/images/content/fyzika/hydrostatika/17.webp" alt="" width="254" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/hydrostatika/17.webp" alt="Ilustrace: Vztlaková síla v kapalinách a plynech" width="254" loading="lazy" decoding="async">
 
-__Jejich výslednice__ je vztlaková síla:
+Jejich výslednice je __vztlaková síla__:
 
 $$F_{VZ} = F_2 - F_1 = \rho S h_2 g - \rho S h_1 g = \rho S h g = \rho V g$$
 
@@ -100,11 +102,11 @@ __Mohou nastat tři případy:__
 
 __*3) ρ t < ρ ⇒  FG < Fvz*__    výslednice sil __*F*__ směřuje nahoru a těleso __stoupá k volné hladině__ kapaliny. Jakmile jí dosáhne, částečně se vynoří a ustálí se v takové poloze, že tíhová síla *FG* je v rovnováze se vztlakovou silou, jejíž velikost se rovná tíze *G´* kapaliny stejného objemu *V´,* kterou vytlačuje ponořená část tělesa = __plování těles__. Takto se chová např. dřevěný špalek ve vodě.
 
-- Mezi __hustotami tělesa__ a kapaliny a celým a ponořeným objemem tělesa je vztah vyplývající z rovnosti sil:
+**Ponořená část tělesa:** mezi __hustotami tělesa__ a kapaliny a celým a ponořeným objemem tělesa je vztah vyplývající z rovnosti sil:
 
 $$\frac{V'}{V} = \frac{\rho_t}{\rho}$$
 
-  $V$ … objem celého tělesa, $V'$ … objem ponořené části
+$V$ … objem celého tělesa, $V'$ … objem ponořené části
 
 - Těleso se ponoří do kapaliny __tím větší částí svého objemu, čím je jeho hustota větší__, nebo __čím je hustota kapaliny menší__. Tohoto poznatku využívají __hustoměry (slouží k měření hustoty kapalin)__.
 - Hustoměry slouží pro provozní a orientační měření při zjišťování hustoty nebo koncentrace určitých druhů kapalných látek. Vyrábějí se v různých měřících rozsazích. Označení kapaliny, pro jejíž měření je hustoměr určen, je obvykle uvedeno na zadní straně stupnice.

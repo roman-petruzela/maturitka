@@ -25,11 +25,11 @@ Div class / id
 - V případě, že bychom chtěli uvnitř divu použít další div, využijeme div id, na který můžeme nastavit jiný styl i když je uvnitř divu jiného a změní se pouze vzhled divu id
 - Párový tag což znamená, že musí být na konci ukončen tagem s lomítkem
 
-Zobrazení
+## Zobrazení
 
 - Pro zobrazení HTML dokumentů nám slouží webové prohlížeče. Mezi nejznámější patří např. Google Chrome, Mozilla Firefox, Microsoft Internet Explorer a Opera.
 
-Základní HTML tagy
+## Základní HTML tagy
 
 - `<p>` = základní tag pro úpravu textu, slouží pro vytvoření odstavce
 - `<br>` = tag, který slouží pro nucené zalomení textového řetězce avšak bez mezery za odstavcem
@@ -53,7 +53,7 @@ __CSS__
 - Každá syntaxe musí byt oddělena v rámci závorky střednikem
 - Zápis CSS h1 \{ color: blue; font-size: 12px;\}
 
-Nejznámější syntaxe
+## Nejznámější syntaxe
 
 - Fontsize \{\} = změní velikost písma
 - Color \{\} = změní barvu

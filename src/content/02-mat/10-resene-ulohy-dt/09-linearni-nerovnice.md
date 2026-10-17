@@ -2,6 +2,7 @@
 title: "Lineární nerovnice"
 order: 9
 source: "Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/9) Lineární nerovnice.pdf"
+formulaRail: false
 hasExercises: true
 ---
 

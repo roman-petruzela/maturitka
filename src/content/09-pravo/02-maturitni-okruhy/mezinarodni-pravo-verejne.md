@@ -5,7 +5,7 @@ source: "Právo/24. Mezinárodní právo veřejné/24_mezinarodni_pravo_verejne.
 ---
 1. __24. Mezinárodní právo veřejné__
 
-=> __Mezinárodní právo veřejné__ je souhrn právních pravidel, jež upravují vzájemné vztahy rovných subjektů, zpravidla států. Pojem mezinárodní právo je třeba odlišit od mezinárodních vztahů.
+⇒ __Mezinárodní právo veřejné__ je souhrn právních pravidel, jež upravují vzájemné vztahy rovných subjektů, zpravidla států. Pojem mezinárodní právo je třeba odlišit od mezinárodních vztahů.
 
 - Zvláštnosti v mezinárodním právu veřejném:
 	- V mezinárodním právu nestojí nikdo nad státy (státy jsou si rovny), kdo by přijímal normy veřejného práva.
@@ -14,7 +14,7 @@ source: "Právo/24. Mezinárodní právo veřejné/24_mezinarodni_pravo_verejne.
 
 __PRAMENY MEZINÁRODNÍHO PRÁVA VEŘEJNÉHO__
 
-=> můžeme členit na materiální (proč ji přijímáme) a formální (psaná smlouva)
+⇒ můžeme členit na materiální (proč ji přijímáme) a formální (psaná smlouva)
 
 __MEZINÁRODNÍ SMLOUVA__
 
@@ -153,9 +153,9 @@ Svrchované státy jakožto nositelé suverénní moci jsou hlavními subjekty m
 		- Občanství je řešeno vnitrostátním zákonem
 		- Mezinárodní právo nezasahuje do tohoto vztahu
 
-ÚZEMÍ
+## ÚZEMÍ
 
-=> prostor, ve kterém stát vykonává státní suverenitu a uplatňuje svůj právní řád
+⇒ prostor, ve kterém stát vykonává státní suverenitu a uplatňuje svůj právní řád
 
 - Zahrnuje do ní část zemského povrchu, vzdušného prostoru a případně část moře
 - Není stanovena minimální velikost státního území
@@ -186,8 +186,8 @@ __Vzdušný prostor__
 
 - Cca 100 km nad i pod povrchem země
 - Civilní letectví = všechny vlety musí koordinovat stát (řízení letového provozu)
-	- Komerční lety -> všechny nahlášeny
-	- Nekomerční lety -> princip volného přeletu a přistání (soukromá, bezmotorová)
+	- Komerční lety → všechny nahlášeny
+	- Nekomerční lety → princip volného přeletu a přistání (soukromá, bezmotorová)
 
 __Kosmický prostor__
 
@@ -202,7 +202,7 @@ __Antarktida__
 
 VLÁDA (veřejná moc)
 
-=> faktický výkon státní moci nad určitým územím a obyvatelstvem
+⇒ faktický výkon státní moci nad určitým územím a obyvatelstvem
 
 - Musí jít o suverénní stát s právním pořádkem (není podřízen vyšší moci)
 - Podle MPV není suverenita neomezená
@@ -210,7 +210,7 @@ VLÁDA (veřejná moc)
 
 __POVSTALCI A NÁRODNĚ OSVOBOZENECKÁ HNUTÍ__
 
-=> právo národa na sebeurčení
+⇒ právo národa na sebeurčení
 
 - Národ není subjektem mezinárodního práva, pokud na něj hledíme jako na organizaci
 - Pokud se však organizovanost národa projevuje též výkonem veřejné moci vůči obyvatelstvu na určitém území, jde o nově se utvářející politickou jednotku
@@ -255,7 +255,7 @@ __Výbor pro lidská práva__ = zřízený na základě mezinárodního paktu o 
 
 Řízení končí sdělením názoru stěžovateli a státu, proti němuž stížnost směřovala. Tento názor není právně závazný, má povahu doporučení.
 
-Výbor pro odstranění rasové diskriminace
+## Výbor pro odstranění rasové diskriminace
 
 __Např. OSN, NATO__
 

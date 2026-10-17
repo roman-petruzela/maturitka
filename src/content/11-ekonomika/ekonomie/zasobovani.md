@@ -5,8 +5,6 @@ source: "Ekonomie/8-Zasobovani.docx"
 ---
 8\. Zásobování a skladování ve VS
 
-# Zásobování
-
 = zajišťuje bezporuchový provoz surovin a zboží určené jakosti, množství ve stanoveném čase na určeném místě
 
 → nadbytek zásob způsobuje zhodnocení zboží, větší skladovou plochu, více zaměstnanců a váže finanční prostředky
@@ -15,7 +13,7 @@ source: "Ekonomie/8-Zasobovani.docx"
 
 →  optimální zásoba = takové množství, které nezpůsobuje žádné problémy
 
-\- o zásoby se stará ve velkých hotelech zásobovací oddělení, jinak majitel, skladník nebo kuchař
+- o zásoby se stará ve velkých hotelech zásobovací oddělení, jinak majitel, skladník nebo kuchař
 
 hlediska pro výběr dodavatele:
 
@@ -46,7 +44,7 @@ způsob objednání:
 - obchodní zástupce
 - výběr podle vzorků
 
-## Optimalizace zásob
+### Optimalizace zásob
 
 = kdy a kolik objednat
 
@@ -87,40 +85,32 @@ d … počet dní (30 – měsíc, 90 – čtvrtletí, 360 – rok), (normativ z
 
 c … cena (finanční normativ zásob)
 
-## Odběr
+### Odběr
 
-\- provádí pověřena osoba společně s dodavatelem a kontroluje se pouze počet kusu a neporušenost obalu
+- provádí pověřena osoba společně s dodavatelem a kontroluje se pouze počet kusu a neporušenost obalu
+- pokud to odpovídá, podepíše se dodací list, pokud ne zboží se nesmí převzít a sepisuje se zápis o vadách
 
-\- pokud to odpovídá, podepíše se dodací list, pokud ne zboží se nesmí převzít a sepisuje se zápis o vadách
+### Přejímka
 
-## Přejímka
-
-\- následuje po odběru a provádí ji skladník
-
-\- kontroluje počet, objem, hmotnost, vzhled, vůni, barvu, chuť a záruční lhůtu
-
-\- pokud zboží neodpovídá, nesmí ho převzít
-
-\- pokud je zboží v pořádku, vystaví přejímku a zboží uskladní
-
-\- pokud se objeví závady, přejímka se přeruší, sepíše se protokol o vadách a se vzorem se odešle dodavateli
-
-\- ten se musí ve stanovené lhůtě vyjádřit, a buď zboží vymění, nebo poskytne slevu nebo vrátí peníze
-
-\- pokud závadu neodsouhlasí, musí se odběratel obrátit na soud
-
-\- skryté vady, které se objeví v záruční době, se musí reklamovat ihned po zjištění, pokud se právo neuplatní tak zaniká
+- následuje po odběru a provádí ji skladník
+- kontroluje počet, objem, hmotnost, vzhled, vůni, barvu, chuť a záruční lhůtu
+- pokud zboží neodpovídá, nesmí ho převzít
+- pokud je zboží v pořádku, vystaví přejímku a zboží uskladní
+- pokud se objeví závady, přejímka se přeruší, sepíše se protokol o vadách a se vzorem se odešle dodavateli
+- ten se musí ve stanovené lhůtě vyjádřit, a buď zboží vymění, nebo poskytne slevu nebo vrátí peníze
+- pokud závadu neodsouhlasí, musí se odběratel obrátit na soud
+- skryté vady, které se objeví v záruční době, se musí reklamovat ihned po zjištění, pokud se právo neuplatní tak zaniká
 
 druhy přejímky:
 
 1. __stoprocentní__ – úplná
 2. __namátková__ – výběrová = jen určité druhy
 
-# Skladování
+## Skladování
 
 = péče o zásoby od jejich nákupu až po jejich spotřebu
 
-\- ve velkých provozovnách mají skladníka, v menších pověřenou osobu
+- ve velkých provozovnách mají skladníka, v menších pověřenou osobu
 
 zásady skladování:
 
@@ -159,7 +149,7 @@ zabezpečení skladu proti:
 5. proti požárů → požární hlásiče
 6. proti povodním
 
-# Inventarizace
+## Inventarizace
 
 = neustálá kontrola stavu majetku ve firmě
 
@@ -198,15 +188,11 @@ c) přebytek – fyzická inventura je větší než stav podle dokladu
 
 inventarizační komise:
 
-\- má minimálně 3 členy nebo lichý počet
-
-\- jeden člen je hmotně odpovědná osoba
-
-\- druha je nadřízený orgánu
-
-\- třetí je osoba nestranná
-
-\- všechno se zapisuje na inventární soupisky a na konci se sepíše inventarizační protokol
+- má minimálně 3 členy nebo lichý počet
+- jeden člen je hmotně odpovědná osoba
+- druha je nadřízený orgánu
+- třetí je osoba nestranná
+- všechno se zapisuje na inventární soupisky a na konci se sepíše inventarizační protokol
 
 obsahuje:
 
@@ -215,7 +201,7 @@ obsahuje:
 - přijatá opatření
 - všichni se musí podepsat
 
-\- pokud se zjistí zavadá, je stanoven termín odstranění a poté následuje tzv. následná inventarizace, která je zaměřená na odstranění závad
+- pokud se zjistí zavadá, je stanoven termín odstranění a poté následuje tzv. následná inventarizace, která je zaměřená na odstranění závad
 
 __Využití zásob__ – zásoby by měli být na skladě co nejkratší dobu, aby rychleji vydělávaly
 
@@ -223,7 +209,7 @@ ukazatele:
 
 1\. Doba obratu – D
 
-\- udává kolik dnů uplyne od nákupu k prodeji zboží → za kolik dní se zásoby vymění
+- udává kolik dnů uplyne od nákupu k prodeji zboží → za kolik dní se zásoby vymění
 
 *D = z x d*					
 
@@ -231,7 +217,7 @@ ukazatele:
 
 2\. Rychlost obratu – o
 
-\- udává kolikrát za období se nám zásoby vymění
+- udává kolikrát za období se nám zásoby vymění
 
 *o = O*
 

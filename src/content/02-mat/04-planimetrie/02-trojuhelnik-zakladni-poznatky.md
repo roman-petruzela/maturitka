@@ -17,7 +17,7 @@ hasExercises: true
 
 $$\alpha+\beta+\gamma = 180°$$
 
-**2) Trojúhelníková nerovnost** (rozhoduje, zda lze trojúhelník vůbec sestrojit): musí platit současně
+**2) Trojúhelníková nerovnost** (rozhoduje, zda lze trojúhelník vůbec sestrojit) — musí platit současně:
 
 $$a+b>c$$
 

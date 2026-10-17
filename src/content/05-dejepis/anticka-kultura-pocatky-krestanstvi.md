@@ -5,29 +5,29 @@ source: "Dějepis/04.antická kultura, počátky křesťanství.doc"
 ---
 4\.
 
-# Antická kultura, historické kořeny křesťanství
+## Antická kultura, historické kořeny křesťanství
 
-## Antiquus – starobylý
+### Antiquus – starobylý
 
-\- tento pojem vznikl ve Francii
+- tento pojem vznikl ve Francii
 
 __Antika__ : Časový úsek starověku, ve kterém vznikly a rozvinuly se ve výtvarných uměních, literatuře, vědě, filozofii, politické teorii kulturní hodnoty\.
 
-\- je to základ světové a evropské vzdělanosti\.
+- je to základ světové a evropské vzdělanosti\.
 
 __Výraz antika__ : v 16\.\-17\.stol\. se tímto pojmem označovaly umělecké předměty, starožitnosti, které byly v protikladu k středověkému a modernímu umění\.
 
 18\.stol\. – J\.Winckelmann \( 1717 – 1768 \) – německý historik
 
-\- antika : soubor památek a kulturní ideál, který vytváří uměleckou normu, měřítko\.
+- antika : soubor památek a kulturní ideál, který vytváří uměleckou normu, měřítko\.
 
 Pol\.19\.stol\. – nové, širší pojetí antiky\.
 
 Po vítězství historismu ve 20\.stol\. se ujalo toto označení nadobro\.
 
-__Trvání antiky__ : __počátek__ : 14\.stol\.př\.Kr\. \-> Krétsko\-mykénská písma, kultura; nebo někteří historikové za počátek označují Homérské básně \( 9\.st\.př\.Kr\.\)
+__Trvání antiky__ : __počátek__ : 14\.stol\.př\.Kr\. → Krétsko\-mykénská písma, kultura; nebo někteří historikové za počátek označují Homérské básně \( 9\.st\.př\.Kr\.\)
 
-__Konec antiky__ : 325 n\.l\. – koncil v Nikaji \-> křesťanství
+__Konec antiky__ : 325 n\.l\. – koncil v Nikaji → křesťanství
 
 476 n\.l\. zánik Západořímské říše
 
@@ -37,27 +37,21 @@ Kultura starověkého Řecka :
 
 __MYTOLOGIE__ : \- bájesloví
 
-\- představa Řeků o vzniku světa a člověka, představy o řeckých bozích a héroích
-
-\- víra v posmrtný život
+- představa Řeků o vzniku světa a člověka, představy o řeckých bozích a héroích
+- víra v posmrtný život
 
 __Náboženství :__ \- polyteistické, bylo to pojítko mezi jednotlivými kmeny a později státy
 
-\- nejdříve uctívali přírodní síly, které později získávaly lidskou podobu
-
-\- úloha kněží byla nepatrná, pouze dohlíželi nad obětmi a vykládali boží znamení \( např\. Delfy \)
-
-\- bohové byli uctíváni krvavými i nekrvavými obětmi
+- nejdříve uctívali přírodní síly, které později získávaly lidskou podobu
+- úloha kněží byla nepatrná, pouze dohlíželi nad obětmi a vykládali boží znamení \( např\. Delfy \)
+- bohové byli uctíváni krvavými i nekrvavými obětmi
 
 __Bohové__ : \- krásní, dokonalí lidé \( __antropomorfismus__ \)
 
-\- měli i lidské neřesti \( intriky, závist \)
-
-\- nesmrtelní, věčně mladí
-
-\- popíjeli ambrózii \( nektar věčného mládí \)
-
-\- sídlili na Olympu\.
+- měli i lidské neřesti \( intriky, závist \)
+- nesmrtelní, věčně mladí
+- popíjeli ambrózii \( nektar věčného mládí \)
+- sídlili na Olympu\.
 
 panteón – přeneseně se tímto názvem označují všichni bohové příslušného národa
 
@@ -101,7 +95,7 @@ __Demeter \( Ceres \)__ – bohyně zemědělství, plodnosti
 
 __Architektura__ – chrámy \( zasvěceny bohům \)
 
-\- občas dochovány silnice, mosty, hradby
+- občas dochovány silnice, mosty, hradby
 
 __\-__ základní stavební prvek byl __sloup\.__ \( sloupy nebyly z jednoho kusu kvůli zemětřesením \)
 
@@ -131,19 +125,17 @@ __Literatura__ :  __\- eposy :__ \- nejstarší literární památky\.Byly před
 
 __\- lyrika__ : \- přednášena za doprovodu lyry \( odtud název \), nebyla dějová
 
-\- básníci Pindaros a Alkaios
+- básníci Pindaros a Alkaios
 
 __Drama :__ \- __tragédie__ \( témata z mytologie \) – Sofokles, Euripides, Aischylos
 
-\- __komedie__ : __Aristofanes__ \. Nejdříve se komedie vztahovaly na politický život, ale v helénismu za Aristofana se již týkaly všedního života\.
+- __komedie__ : __Aristofanes__ \. Nejdříve se komedie vztahovaly na politický život, ale v helénismu za Aristofana se již týkaly všedního života\.
 
 __DIVADLO__ : \- největší divadlo bylo \( je \) ve městě Epidauros
 
-\- __skvělá akustika__ divadel
-
-\- __herci__ : profesionálové, __v maskách__ \( speciální ústní otvory v nich, zesilovaly hercův hlas \) , vždy muži \( i ženské role \)
-
-\- vyvinulo se z kultu spjatého s bohem __Dionýsem__
+- __skvělá akustika__ divadel
+- __herci__ : profesionálové, __v maskách__ \( speciální ústní otvory v nich, zesilovaly hercův hlas \) , vždy muži \( i ženské role \)
+- vyvinulo se z kultu spjatého s bohem __Dionýsem__
 
 __ __
 
@@ -151,15 +143,12 @@ Obrázek divadla :
 
 __Sochařství__ :
 
-\- úzce spjato s řemeslem – Řekové je od sebe neodlišovali\.
+- úzce spjato s řemeslem – Řekové je od sebe neodlišovali\.
+- materiál : bronz, bílý mramor \( mramorové sochy byly malovány – oči a roucho \)
+- většinou se dochovaly pouze kopie z doby římské
+- hlavní náměty : bohové, héroiové, olympijští vítězové \( dochována jediná socha olympijského vítěze ……?????…………………\. \)  ⇒ sochy dokonalých, ideálních lidí\.
 
-\- materiál : bronz, bílý mramor \( mramorové sochy byly malovány – oči a roucho \)
-
-\- většinou se dochovaly pouze kopie z doby římské
-
-\- hlavní náměty : bohové, héroiové, olympijští vítězové \( dochována jediná socha olympijského vítěze ……?????…………………\. \)  => sochy dokonalých, ideálních lidí\.
-
-Kúros – socha jinocha; koré – socha dívky \-> typické sochy \( strnulý postoj \)
+Kúros – socha jinocha; koré – socha dívky → typické sochy \( strnulý postoj \)
 
 __Feidiás__ – sochař, vytvořil sochu Dia v Olympii, socha Athény pro Parthenón v Athénách
 
@@ -172,17 +161,17 @@ Praxitetés – socha Afrodíté
 V helénismu už to sochařství nebylo tak vznosné umění \( i sochy hrajících si dětí atd\. \)
 
 __Malířství__ : –  \-  malované vázy, keramika
-\- neznalost perspektivy
+- neznalost perspektivy
 
 \-nejdříve geometrický styl \( nádoby zdobeny ornamenty, tenkými liniemi \)
 
-Později \( v 6\.st\.př\.Kr\. \) se ujal nový styl \->  červené figury na černém pozadí \( nejdříve  černé na hnědém pozadí \) \-> vývozní produkt do Středomoří, Černomoří
+Později \( v 6\.st\.př\.Kr\. \) se ujal nový styl →  červené figury na černém pozadí \( nejdříve  černé na hnědém pozadí \) → vývozní produkt do Středomoří, Černomoří
 
 __Způsob života__ :
 
 __Řecká vzdělanost__ : \- školy často soukromé
 
-\- čtení, psaní, počítání, tělesná zdatnost, hudba, řečnictví
+- čtení, psaní, počítání, tělesná zdatnost, hudba, řečnictví
 
 __IDEÁL KRÁSY : KALOKAGATHIA__ \( *kalos = krásný , agathos = mravný* \)
 
@@ -190,13 +179,12 @@ Gymnasion : \- škola poskytující vyšší vzdělání \+ gymnická cvičení 
 
 __Věda :__
 
-\- nejdříve součástí filozofie, vyčleňuje se za Aristotela \( Lyceum \)
+- nejdříve součástí filozofie, vyčleňuje se za Aristotela \( Lyceum \)
 
 __Dějepisectví__ :
 
-\- větší důraz na literární kvality než na historickou přesnost
-
- \- původně spíše cestopisy \( autor si zde všímal nejen geografie ale i místních zajímavostí a pověstí \)
+- větší důraz na literární kvality než na historickou přesnost
+ - původně spíše cestopisy \( autor si zde všímal nejen geografie ale i místních zajímavostí a pověstí \)
 
 Skutečná dějepisná díla vznikají nejdříve až v 5\.stol\.př\.Kr\.  – __Herodotos__ –> řecko\-perské války; tzv\. otec dějepisu \( pocházel z Halikarnasu, procestoval celé Řecko, Babylonii, Egypt\.Sepsal dějiny východních národů do roku 500 př\.n\.l\. a dějiny řecko\-perských válek\. \)
 
@@ -210,17 +198,16 @@ __Matematika__ : Pythágoras \( jeho poučka o pavoúhlém trojúhelníku známa
 
 __Fyzika : Archimédés__ \( v lázních se koupal a najednou : Heuréka\! , další hláška : při objevu zákonů páky : Dejte mi pevný bod a pohnu zeměkoulí\.
 
-__Lékařství__ : – dlouhá tradice, používání narkotik ; __Hippokratés__ – prosazoval pozorování pacienta, byl proti nadpřirozeným silám v lékařství\. Formuloval zásady lékařské etiky \-> __Hippokratova přísaha__
+__Lékařství__ : – dlouhá tradice, používání narkotik ; __Hippokratés__ – prosazoval pozorování pacienta, byl proti nadpřirozeným silám v lékařství\. Formuloval zásady lékařské etiky → __Hippokratova přísaha__
 
 Učení o temperamentech a tělních tekutinách \( krev, žluč, sliz, černá žluč \)
 
 __Rétorika__ : \- nezbytná pro každého občana, který se chtěl uplatnit v politice\.
 
-\- vznikaly řečnické školy a směry
+- vznikaly řečnické školy a směry
+- __Demosthenes__ → filipiky\.
 
-\- __Demosthenes__ \-> filipiky\.
-
-__Olympijské hry :__ První oficiální, započítané olympijské hry se konaly v roce __776 př\.Kr\.__ a vycházel z nich řecký letopočet\.Zde začíná seznam __olympioniků__ \-> olympijských vítězů\.
+__Olympijské hry :__ První oficiální, započítané olympijské hry se konaly v roce __776 př\.Kr\.__ a vycházel z nich řecký letopočet\.Zde začíná seznam __olympioniků__ → olympijských vítězů\.
 
 Olympiáda znamenala též čtyřleté období mezi hrami – byla to jednotka datování \( uvádělo se pořadové číslo her, jméno vítěze v běhu na jedno stadion a příslušného roku konání her\)\.
 
@@ -230,9 +217,9 @@ vznik –> legendy \( Héraklés, Pelop, Argonauti atd\. \)
 
 Pojmy  : __Ekecheiria__ – posvátný mír
 
-### Kalokagathia, hellanodikové , Kallistefanos – posvátný strom, athlothétés – nejstarší z hellanodiků, který ověnčoval vítěze
+#### Kalokagathia, hellanodikové , Kallistefanos – posvátný strom, athlothétés – nejstarší z hellanodiků, který ověnčoval vítěze
 
-### Hipodrom, stadion, Diův chrám
+#### Hipodrom, stadion, Diův chrám
 
 Disciplíny, vítězství, příběh Diagora \( boxer \)
 
@@ -260,33 +247,26 @@ __Antické divy světa__ :
 
 __Římská kultura :__
 
-\- nebyla původní, převzali a přizpůsobili si kulturu řeckou \( \+ etruské zbytky \)
+- nebyla původní, převzali a přizpůsobili si kulturu řeckou \( \+ etruské zbytky \)
 
-__Náboženství__ – vliv Etrusků \-> mnoho bůžků \-> s příchodem Řeků převzali Římané i řecké bohy a dali jim jména podle těch bůžků\.
+__Náboženství__ – vliv Etrusků → mnoho bůžků → s příchodem Řeků převzali Římané i řecké bohy a dali jim jména podle těch bůžků\.
 
 Jak se říše rozšiřovala, tak přejímali i jiná božstva\.
 
-\- __kněží – pontifikové__, __velekněz – pontifex maximus__
-
-\- organizace, správa, věštění \( často z útrob obětních zvířat \)
-
-\- starali se o kalendář, zápis významných událostí
-
-\- názvy bohů – viz výš
-
-\- tolerantní \( v dobytých územích nechávali původní náboženství \)
-
-\- populární byl tehdy  __kult egyptské bohyně Isis__
+- __kněží – pontifikové__, __velekněz – pontifex maximus__
+- organizace, správa, věštění \( často z útrob obětních zvířat \)
+- starali se o kalendář, zápis významných událostí
+- názvy bohů – viz výš
+- tolerantní \( v dobytých územích nechávali původní náboženství \)
+- populární byl tehdy  __kult egyptské bohyně Isis__
 
 __Architektura__ :
 
 – základ od Řeků
 
-\- klenba a oblouk od Etrusků
-
-\- masivnější, mohutnější, více zdobné stavby než u Řeků
-
-\- vodovody, mosty, kanály, paláce, divadla, amfiteátry, lázně
+- klenba a oblouk od Etrusků
+- masivnější, mohutnější, více zdobné stavby než u Řeků
+- vodovody, mosty, kanály, paláce, divadla, amfiteátry, lázně
 
 __Významné stavby__ : Coloseum v Římě, Konstantinův oblouk v Římě, Fórum Romanum
 
@@ -296,19 +276,19 @@ __Trojlodní chrám na Kapitolu__ – zasvěcený Iovovi, Minervě a Iunoně\.
 
 Divadla na rozdíl od Řeků nezastavovali do přírody, ale jako samostatné budovy ve městech\.\)
 
-Pro zápasy a gladiátorské hry – __amfiteátr__, uprostřed prostor vysypaný pískem \-> __aréna__ *\( arena = latinsky písek \)\.* Největším amfiteátrem je __Colosseum__ – postavené za Flaviovců \( 50 tis\.diváků \)\.Nejstarší je __amfiteátr pompejský__\.
+Pro zápasy a gladiátorské hry – __amfiteátr__, uprostřed prostor vysypaný pískem → __aréna__ *\( arena = latinsky písek \)\.* Největším amfiteátrem je __Colosseum__ – postavené za Flaviovců \( 50 tis\.diváků \)\.Nejstarší je __amfiteátr pompejský__\.
 
-### Triumfální oblouky – budovány na oslavu vítězstvínejznámnější je Constantinův \( poblíž Colossea \)
+#### Triumfální oblouky – budovány na oslavu vítězstvínejznámnější je Constantinův \( poblíž Colossea \)
 
 __Veřejné lázně__ – nezbytná součást života Římanů\.Velmi oblíbené\.
 
 __Vodovody__ \( akvadukty \) – i několikapatrové,
 
-### Silnice – budovány velmi precizně, co nejpříměji \( i tunely atd\. \) \-> rychlý přesun vojska\. \( např\. via appia \( z Říma na jih \)
+#### Silnice – budovány velmi precizně, co nejpříměji \( i tunely atd\. \) → rychlý přesun vojska\. \( např\. via appia \( z Říma na jih \)
 
 __Domy__  : \- činžovní \( víc pater, čim vejš tim skromnější byt\)
 
-\- atriové \-> rodinný dům, uprostřed atrium s otvorem ve střeše, obklopeno obytnými místnostmi\.
+- atriové → rodinný dům, uprostřed atrium s otvorem ve střeše, obklopeno obytnými místnostmi\.
 
 Vily – na venkově
 
@@ -318,25 +298,24 @@ __Kloaky –__ odvodňovací stoky \( např\. Cloaka maxima v Římě\)
 
 __Literatura__ – hodně vycházela z řecké literatury
 
-Významní spisovatelé : T\. Lucretius Carus \( 98 – 55 př\.Kr\. \) \-> básně : O podstatě světa
+Významní spisovatelé : T\. Lucretius Carus \( 98 – 55 př\.Kr\. \) → básně : O podstatě světa
 
 Největší římský řečník, klasik římské prózy : M\.Tullius Cicero \( 106 – 43 př\.Kr\. \)
 
 Jeho díla : Řeči proti Catilinovi a Verrovi
 
-\- O řečníkovi; Brutus
-
-\- psal také filozofická díla
+- O řečníkovi; Brutus
+- psal také filozofická díla
 
 Lyrika : C\. Valerius Catullus \( 87 – 54 př\.Kr\. \)
 
-\- poezie určená pro bohaté, privilegované vrstvy
+- poezie určená pro bohaté, privilegované vrstvy
 
-P\.Vergilius Maro \( 70 – 19 př\.Kr\. \) – Aeneis \-> podobné Odyseje
+P\.Vergilius Maro \( 70 – 19 př\.Kr\. \) – Aeneis → podobné Odyseje
 
 P\.Ovidius Naso – Proměny \( 250 mýtů \)
 
-\-> vrchol římské poezie
+→ vrchol římské poezie
 
 __historiografie__ : Cato \( 234 – 149 př\.Kr\. \), G\.I\.Caesar – Zápisky o válce galské, Zápisky o válce občanské , C\.S\.Crispus, Titus Livius
 
@@ -346,55 +325,44 @@ __Divadlo :__
 
 Maccius Platus \( 251 – 184 př\.Kr\. \) – 21 komedií \( inspirace pro Shakespeara : Komedie plná omylů \)
 
-Terentius Afer
+#### Terentius Afer
 
-=> napodobování Řeků
+⇒ napodobování Řeků
 
 __Římská filozofie__ : \- stoicismus \( M\.A\.; Seneca 4 př\.Kr\. – 65 n\.l\.\)
 
-\- novoplatonismus
-
-\- __etika__
+- novoplatonismus
+- __etika__
 
 Římské právo :
 
-### Malířství : \- na rozdíl od řeckých amfor \-> nástěnné malby, mozaiky
+#### Malířství : \- na rozdíl od řeckých amfor → nástěnné malby, mozaiky
 
 __Sochařství__ : \- velmi podobné řeckému \( v Římě působilo mnoho řeckých sochařů \)
 
-\- kopie řeckých soch
-
-\- portréty – na rozdíl od Řeků je neidealizovali, ale co nejvíc přibližovali realitě\.
-
-\- posmrtné masky \( u patricijů se po smrti sejmul obtisk hlavy \-> pak se dal skvěle vytvořit portrét \)
-
-\- historický reliéf \-> plastiky na vítězných obloucích, na sloupech \( např\. Traiánův sloup – scény z bojů s Parthy a Dáky \) atd\.
+- kopie řeckých soch
+- portréty – na rozdíl od Řeků je neidealizovali, ale co nejvíc přibližovali realitě\.
+- posmrtné masky \( u patricijů se po smrti sejmul obtisk hlavy → pak se dal skvěle vytvořit portrét \)
+- historický reliéf → plastiky na vítězných obloucích, na sloupech \( např\. Traiánův sloup – scény z bojů s Parthy a Dáky \) atd\.
 
 __Lékařství__ – hlavně řečtí otroci
 
-\- hodně dbali na hygienu \( lázně atd\. \)
+- hodně dbali na hygienu \( lázně atd\. \)
 
-__Vzdělání__ : \-převzali od Řeků písmo \-> přizpůsobeno latinskému jazyku \-> latinka\.
+__Vzdělání__ : \-převzali od Řeků písmo → přizpůsobeno latinskému jazyku → latinka\.
 
-\- vlastní soustava číslic
-
-\- vzdělávání podobné jako v Řecku – vyučovali vzdělaní Řekové, otroci
-
-\- docházka nebyla povinná,
-
-\- čtení, psaní, počítání, výklady básní,
-
-\- rétorské školy
-
-\- centra vzdělanosti : Řím, Athény, Alexandrie\.
-
-\- vznikaly soukromé i veřejné knihovny\.
+- vlastní soustava číslic
+- vzdělávání podobné jako v Řecku – vyučovali vzdělaní Řekové, otroci
+- docházka nebyla povinná,
+- čtení, psaní, počítání, výklady básní,
+- rétorské školy
+- centra vzdělanosti : Řím, Athény, Alexandrie\.
+- vznikaly soukromé i veřejné knihovny\.
 
 __Právo__ : 3 kulturní zdroje : \- ustanovení o rodinném systému \( odraz kmenových zvyků, vztahy rodinné a rodové \)
 
-\- městské a obchodní právo \( vztahy majetkové , vztahy mezi jedincem a státem \) \-> z období republiky
-
-\- výsady vladaře \( z období císařství \)
+- městské a obchodní právo \( vztahy majetkové , vztahy mezi jedincem a státem \) → z období republiky
+- výsady vladaře \( z období císařství \)
 
 \-Zákony 12 desek
 
@@ -404,80 +372,73 @@ __Gladiátorské hry :__
 
 __\-__ od slova __latinsky__ *gladius \- meč*
 
-__\-__ převzato od Etrusků \-> při pohřbech, na počest zemřelého
+__\-__ převzato od Etrusků → při pohřbech, na počest zemřelého
 
 __\-__ vstup zdarma, platili to císaři nebo bohatí občané, kteří si chtěli naklonit veřejné mínění\.
 
-\- bojovali otroci \( někteří se díky hrám dostali na svobodu \) ale i dobrovolní gladiátoři \( peníze \)
+- bojovali otroci \( někteří se díky hrám dostali na svobodu \) ale i dobrovolní gladiátoři \( peníze \)
 
 __\- gladiátorské školy__
 
 __\-__ největší hry se konaly za Traiana \( 123 dnů v kuse, 10tis\. gladiátorů; 98\-117 n\.l\.\)\), za Tita \( 79\-81 n\.l\. \)se otevřelo stodenními hrami Colosseum
 
-\- __naumachie__ – napodobení námořní bitvy
-
-\- „stans missus“ – propuštěn stoje vzpříma \-> když byl boj nerozhodný, tak byl boj ukončen a oba bojovníci přežili \)
-
-\- různé typy gladiátorů \( podle původu gladiátora byl gladiátor vyzbrojen \)
-
-\- __konec__ : začátek 5\.stol\. \-> __křesťanství__ \( císař Honorius \)
+- __naumachie__ – napodobení námořní bitvy
+- „stans missus“ – propuštěn stoje vzpříma → když byl boj nerozhodný, tak byl boj ukončen a oba bojovníci přežili \)
+- různé typy gladiátorů \( podle původu gladiátora byl gladiátor vyzbrojen \)
+- __konec__ : začátek 5\.stol\. → __křesťanství__ \( císař Honorius \)
 
 __KŘESŤANASTVÍ :__
 
-\- vznik v Palestině, konec 1\. a začátek 2\.stol\.n\.l\.
+- vznik v Palestině, konec 1\. a začátek 2\.stol\.n\.l\.
 
 __Počátky křesťanství :__
 
-\- monotheismus, mesianismus \( víra v příchod mesiáše \)
+- monotheismus, mesianismus \( víra v příchod mesiáše \)
 
 __JEŽÍŠ KRISTUS :__
 
-\- *christos = pomazaný*
+- *christos = pomazaný*
 
 \-ukřižován za buřičství
 
-\- prokurátor Judeje Pontius Pilatus \( za císaře Tiberia \)
+- prokurátor Judeje Pontius Pilatus \( za císaře Tiberia \)
+- jeho učedníci = apoštolové \( apostolos = vyslanci \)
 
-\- jeho učedníci = apoštolové \( apostolos = vyslanci \)
+##### I\.N\.R\.I\. – Jesus Nazaretský , král židovský
 
-#### I\.N\.R\.I\. – Jesus Nazaretský , král židovský
+- po 40 dnech vstoupil na nebesa
 
-\- po 40 dnech vstoupil na nebesa
-
-\-> základ křesťanství = víra v božský původ mesiáše Ježíše Krista\.
+→ základ křesťanství = víra v božský původ mesiáše Ježíše Krista\.
 
 __evangelia – Marek, Matouš, Lukáš, Jan__
 
 \( *evangelion = dobrá zpráva* \)
 
-\- skutky apoštolské, zjevení sv\. Jana
+- skutky apoštolské, zjevení sv\. Jana
 
-### BIBLE – Starý a Nový zákon \( 4 evangelia, Skutky apoštolské \( počátky šíření víry \), Zjevení sv\.Jana \( Apokalypsa \), epištoly\( dopisy atd\. \), psaný řecky\.
+#### BIBLE – Starý a Nový zákon \( 4 evangelia, Skutky apoštolské \( počátky šíření víry \), Zjevení sv\.Jana \( Apokalypsa \), epištoly\( dopisy atd\. \), psaný řecky\.
 
-\- postupně začaly vznikat křesťanské obce , v jejichž čele stáli biskupové
+- postupně začaly vznikat křesťanské obce , v jejichž čele stáli biskupové
 
-\-> politické hnutí \( odmítání pohanských bohů, odmítání uctívání císaře, služby ve vojsku \)\-> __pronásledování křesťanů__ \( nejvíc od pol\.3\.stol\. – systematické pronásledování , nejvíc za Diocletiána \) – pronásledováni z politických, nikoli náboženských důvodů\.
+→ politické hnutí \( odmítání pohanských bohů, odmítání uctívání císaře, služby ve vojsku \)\-> __pronásledování křesťanů__ \( nejvíc od pol\.3\.stol\. – systematické pronásledování , nejvíc za Diocletiána \) – pronásledováni z politických, nikoli náboženských důvodů\.
 
 \( *episkopos = dohližitel* \)
 
 __Sv\.Petr__ – měl za úkol vybudovat křesťanskou církev
 
-\- považován za prvního papeže
-
-\- křesťanství se nejdříve šířilo hlavně mezi chudými\.
+- považován za prvního papeže
+- křesťanství se nejdříve šířilo hlavně mezi chudými\.
 
 __Pavel z Tarsu__ – vůdčí osobnost raného křesťanství, neznal osobně Ježíše, ale od roku 50 podnikal misijní cesty a šířil křesťanství\.
 
-\- křest\.
+- křest\.
 
 __313 n\.l\. – Konstantin – edikt milánský__
 
-\-> svobodné vyznání křesťanství
+→ svobodné vyznání křesťanství
 
 třistanevimkolik koncil v Nikaji; dále kdy se nechal Konstantin pokřtít?:
 
-\- __láska k bližnímu__
-
-\- propustili Barabáše
-
-\- slovo křesťan pochází z __*řeckého Christos*__\.
+- __láska k bližnímu__
+- propustili Barabáše
+- slovo křesťan pochází z __*řeckého Christos*__\.

@@ -3,11 +3,11 @@ title: "Elektronový obal atomu"
 order: 48
 source: "FYZIKA-maturitní otázky/48. Elektronový obal atomu.docx"
 ---
-Kvantově mechanický model atomu vodíku
+## Kvantově mechanický model atomu vodíku
 
 Bohrův model atomu (N. Bohr, NC za F 1922)
 
-\- vychází z planetárního modelu, pokouší se však na chování elektronů v elektronovém obalu aplikovat výsledky kvantové mechaniky.
+- vychází z planetárního modelu, pokouší se však na chování elektronů v elektronovém obalu aplikovat výsledky kvantové mechaniky.
 
 1913 formuluje 3 postuláty:
 
@@ -15,8 +15,7 @@ I. postulát - Elektron může kolem atomového jádra obíhat pouze po někter�
 
 II. postulát - Při pohybu po stabilní dráze elektron samovolně nemění svoji energii, tzn. nepřijímá ji ani nevydává.
 
-III. postulát - Při přechodu elektronu na jinou stabilní dráhu dochází k vyzáření nebo pohlcení fotonu o frekvenci určené vztahem
-
+**Třetí Bohrův postulát** – při přechodu elektronu na jinou stabilní dráhu dochází k vyzáření nebo pohlcení fotonu o frekvenci určené vztahem:
 $$f = \frac{E_i - E_j}{h}$$
 
 - Bohrův model si zachoval dobré vlastnosti z planetárního modelu a podařilo se mu stabilizovat pohyb elektronů kolem atomového jádra.
@@ -27,7 +26,7 @@ $$f = \frac{E_i - E_j}{h}$$
 - Potíže Bohrova modelu, které vyplývaly z kombinace klasické a kvantové fyziky, umožnily jeho aplikaci pouze na atom vodíku.
 - Spektra složitějších atomů však byla prostřednictvím tohoto modelu neřešitelná. Tyto problémy se podařilo odstranit až v plně kvantovém modelu atomu.
 
-Bohrův model atomu
+## Bohrův model atomu
 
 Bohrův model atomu vycházel ze zákonů KF (elektron – částice), přitom však formuloval kvantové omezující podmínky.
 
@@ -51,7 +50,7 @@ $$E_1 = \frac{h^2}{8 m L^2}$$
 
 (a je nejnižší možnou hodnotou)
 
-Energie excitovaných stavů je potom
+Energie excitovaných stavů je potom:
 
 $$E_n = n^2 \cdot E_1$$
 
@@ -103,7 +102,7 @@ Spinové
 
 určuje moment hybnosti elektronu
 
-Kvantová čísla
+## Kvantová čísla
 
 *l*
 
@@ -137,7 +136,7 @@ Pomocí čtyř kvantových čísel lze jednoznačně popsat elektrony v atomu, p
 
 Tento princip platí pro *fermiony* (např. elektron, proton …). Částice, pro které Pauliho princip neplatí nazýváme *bosony* (foton …)
 
-ATOMY S VĚTŠÍM POČTEM ELEKTRONŮ
+## Atomy s větším počtem elektronů
 
 V obalu každého atomu obíhá Z elektronů a jejich náboj je kompenzovaný nábojem jádra
 
@@ -149,7 +148,7 @@ Slupka el. obalu – systém elektronů se stejným kvant. č. *n*
 
 *Valenční (optické) elektrony* – elektrony ve stavu *s* a *p* ve slupce s nejvyšší hodnotou *n*. Určují chemické a spektrální vlastnosti atomů. Maximální počet těchto elektronů je 8 (elektronový oktet)
 
-Periodická soustava prvků
+## Periodická soustava prvků
 
 Všechny prvky byly po řadě pokusů seřazené podle rostoucího protonového čísla do tabulky – periodické tabulky prvků (D.I.Mendělejev, 1869)
 
@@ -160,7 +159,7 @@ Tabulka splňuje tyto podmínky:
 3. Musí být splněný Pauliho vylučovací princip
 4. Energetické hladiny atomu v základním stavu se obsazují postupně, každý další elektron obsadí dosud volnou hladinu s nejmenší energií (navíc platí *Hundovo pravidlo*)
 
-Chemické vazby
+## Chemické vazby
 
 __Parametry chemické vazby__
 

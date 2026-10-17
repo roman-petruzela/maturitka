@@ -44,7 +44,7 @@ __Účetní jednotky a povinnost vést účetnictví__
 __Fyzická osoba__
 
 1. Které přesáhla obratu (příjmu) více než 25 mil. Kč za uplynulý rok
-2. Která se zapíše do obchodního rejstříku => musí účtovat ode dne zápisu
+2. Která se zapíše do obchodního rejstříku ⇒ musí účtovat ode dne zápisu
 3. Rozhodne se dobrovolně
 
 __Vedení zjednodušeného rozsahu účetnictví__

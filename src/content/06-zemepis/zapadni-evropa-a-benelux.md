@@ -49,7 +49,7 @@ __OBYVATELSTVO__
 - románské, keltské, germánské obyvatelstvo
 - dnešní problémy. nezaměstnanost, přistěhovalectví
 
-# FRANCIE
+## FRANCIE
 
 - hl. m. Paříž, republika, francouzština
 - patří jí velké množství ostrovů: Korsika, Martinik, Reunion, Francouzská Guyana, Guadeloupe…
@@ -65,7 +65,7 @@ __OBYVATELSTVO__
 - zemědělství se věnuje jen 3 % obyvatel, významný je cestovní ruch
 - města: Paříž, Le Havre, Marseille, Lyon, Brest
 
-# IRSKO (Zelený/Smaragdový ostrov)
+## IRSKO (Zelený/Smaragdový ostrov)
 
 - hl. m. Dublin, republika, irština a angličtina
 - ostrovní stát, zabírá asi 85% Irského ostrova
@@ -79,7 +79,7 @@ __OBYVATELSTVO__
 - 60 % lidí žije ve městech
 - převažuje katolická církev
 
-# SPOJENÉ KRÁLOVSTVÍ VELKÉ BRITÁNIE A SEVERNÍHO IRSKA
+## SPOJENÉ KRÁLOVSTVÍ VELKÉ BRITÁNIE A SEVERNÍHO IRSKA
 
 - hl. m. Londýn, konstituční monarchie, angličtina
 - skládá se z Anglie (Londýn), Skotska (Edinburgh), Walesu (Cardiff) a Severního Irska (Belfast)
@@ -105,21 +105,21 @@ __BELGIE__
 
 - hl. m. Brusel, federativní konstituční monarchie, nizozemština, němčina, francouzština
 - 3 oblasti:
-\- sever – nížiny u moře, velké množství bažin
-\- střed – pahorkatiny (Brabanská pahorkatina)
-\- jih – hornatý (Ardeny)
+- sever – nížiny u moře, velké množství bažin
+- střed – pahorkatiny (Brabanská pahorkatina)
+- jih – hornatý (Ardeny)
 - vlivem odbočky Golfského proudu vyvážené množství srážek
 - velké množství pastvin, asi pětinu území tvoří lesy
 - románské a germánské obyvatelstvo
 - dvounárodnostní federace, mezi nimi spory:
-\- na severu žijí Vlámové – vlámština – nizozemský dialekt
-\- na jihu žijí Valoni – francouzština
+- na severu žijí Vlámové – vlámština – nizozemský dialekt
+- na jihu žijí Valoni – francouzština
 - při hranicích s Německem se mluví německy
 - NB: černé uhlí (postupně se těžba omezuje), NB dováží z bývalé kolonie Kongo (Zn, Pb, Cu…)
 - velká produkce syntetických barev (většina jde na vývoz), výroba čokolády (dovoz kakaa z Konga)
 - dovoz ropy
 
-# NIZOZEMÍ
+## NIZOZEMÍ
 
 - hl. m. Amsterdam, konstituční monarchie, nizozemština
 - nížinatý stát – střední výška je 10 m.n.m., neúrodné půdy
@@ -136,7 +136,7 @@ __BELGIE__
 - firma Philips
 - města: Amsterdam, Rotterdam (převoz ropy)
 
-# LUCEMBURSKO
+## LUCEMBURSKO
 
 - hl. m. Lucemburk, velkovévodství, lucemburština, němčina, francouzština
 - na jihu jsou pahorkatiny, na severu Ardeny zarovnané v plošinu

@@ -26,7 +26,7 @@ __Typy států__ :
 
 __Mezopotámie__
 
-\( z řeckého mesos = uprostřed, potamos = řeka => meziříčí \)
+\( z řeckého mesos = uprostřed, potamos = řeka ⇒ meziříčí \)
 
 - počátky osídlení asi v 6\.tis\.př\.Kr\. – střední a dolní tok řek __Eufrat a Tigris__
 
@@ -68,7 +68,7 @@ __města__ :
 - Nippur \- náboženské centrum
 - Eridu – podle babylonské tradice nejstarší město
 
-Zikkurat
+## Zikkurat
 
 - poschoďovitá stavba/svatyně/chrám na vrcholu
 - náboženské účely
@@ -97,17 +97,17 @@ __Starobabylonská říše : \( 18\. – 17\.st\.př\.Kr\. \)__
 
 - rozvoj dálkového obchodu, platilo se stříbrem
 - různá božstva
-- dobyta __Chetity__ \(hl\. město Chatušaš, jejich písmo rozluštil Bedřich Hrozný\) \( ti pak zdejší oblast ovládají až do 12\.st\.př\.Kr\. \-> viz níže
+- dobyta __Chetity__ \(hl\. město Chatušaš, jejich písmo rozluštil Bedřich Hrozný\) \( ti pak zdejší oblast ovládají až do 12\.st\.př\.Kr\. → viz níže
 
 __Asyrská říše \( 10\.\-7\.stol\.př\.Kr\. \)__
 
-Staroasyrská říše
+## Staroasyrská říše
 
 - vládci z města Aššuru \(Asyřané – semitská jaz\. skup\.\) → název říše \( 20\.\-18\. stol\. př\.Kr\.\)
 - S tok řeky Tigrid, mocná hospodářská říše
 - zánik: Churrité – nesemitský kmen, tvorba říše Mitrami \(1750 př\. n\. l\.\)
 
-Středoasyrská říše
+## Středoasyrská říše
 
 - panovník Tiglatpilesar, ovládnutí Sýrie \(obchodní centrum\)
 
@@ -116,7 +116,7 @@ Novoasyrská říše \(911 – 612 př\. n\. l\.\)
 - jedna z nejmocnějších říší, která v Mez\. vznikla
 - panovník Sargon II\. – zavedl přesnou hierarchii úředníků, posunul hranice \(v obd\. vrcholného vývoje: celá Mezopotámie, Sýrie, S část Izraelského království, Fénická města, dočasně i část Nilské delty\)
 - vznik největších měst: pevnost Ninive \( jedno z nejv\. měst starověku: půl km dlouhá, dokonce tam byla ZOO \) , v ní postavena knihovna
-- dobrá armáda \( pěchota, jezdci, lučištníci, vozy \) \-> ovládli Babylon \( právě z toho peníze na rozvoj Ninive \) – později říše dobyla Egypt  a Blízký východ  \+ samozřejmě celou Mezopotámii\.
+- dobrá armáda \( pěchota, jezdci, lučištníci, vozy \) → ovládli Babylon \( právě z toho peníze na rozvoj Ninive \) – později říše dobyla Egypt  a Blízký východ  \+ samozřejmě celou Mezopotámii\.
 - 612 př\.Kr\. dobyto Ninive a zpustošeno \(Médové a Babylóňané je dobyli\) → počátek pádu Novoas\. říše
 
 __Novobabylonská říše \( 7\.\-6\.stol\.př\.Kr\. \)__
@@ -128,13 +128,10 @@ __Novobabylonská říše \( 7\.\-6\.stol\.př\.Kr\. \)__
 
 __Kultura Mezopotámie__ : 	\- stovky různých božstev
 
-\- zikuraty \( např\. Babylonská věž \)
-
-\- klínové písmo
-
-\- rozvoj astronomie
-
-\- 60ková soustava
+- zikuraty \( např\. Babylonská věž \)
+- klínové písmo
+- rozvoj astronomie
+- 60ková soustava
 
 __Starověké národy v Malé Asii a na Blízkém východě__
 
@@ -183,7 +180,7 @@ __Fénície \(Foiníkie\)__
 - původní název této oblasti: Kanaán
 - pás od Středozemního moře – V Mrtvého moře
 - osídlení: 14\. – 13\. stol\. př\. n\. l\., v postupných vlnách \(od konce 4\.tis\.př\.Kr\. \- semitské obyvatelstvo\)
-- po roce 1200 př\. Kr\. se zde usazuje jeden z mořských národů \- Pelištejci => odtud název Palestina
+- po roce 1200 př\. Kr\. se zde usazuje jeden z mořských národů \- Pelištejci ⇒ odtud název Palestina
 - ve 13\.stol\. př\. Kr\. sem začaly pronikat hebrejsko\-izraelské kmeny a vytvořili zde kmenový svaz
 - hebrejské kmeny \- pastevectví, obchod , řemesla, kmenové zřízení
 - odchod Židů z Egypta – obd\. vlády Ramesse II\. \(Izrael = Bůh bojuje; Kniha soudců – část Bible, vyprávějící o dobývání Kanaanu\)
@@ -193,7 +190,7 @@ __Fénície \(Foiníkie\)__
 David \( 1010 – 970 př\.Kr\.\)
 
 - Saulův adoptivní syn, \( z kmene Juda \)
-- 1\. izraelský král, zakladatel dynastie, která zde vládla až do Nabukadnezara II, dobyl město Jeruzalém => hlavní město hebrejského království
+- 1\. izraelský král, zakladatel dynastie, která zde vládla až do Nabukadnezara II, dobyl město Jeruzalém ⇒ hlavní město hebrejského království
 - rozšířil hranice na V od Mrtvého moře
 - sjednotitel iz\. kmenů
 
@@ -223,7 +220,7 @@ __Judaismus__
 - Desatero \(Mojžíš\) – etické normy
 - Starý zákon:	Tóra \(pět knih Mojžíšových\)
 
-Proroci
+## Proroci
 
 Spisy \(Žalmy, Písně – např\. Šalamounova Píseň písní\)
 
@@ -288,7 +285,7 @@ __Věda__
 - papír, tisk
 - hedvábí
 
-Velká čínská zeď
+### Velká čínská zeď
 
 - délka 5 tis\. km, výška 7\-10 m, 7m široká
 - 2 miliony řemeslníků se na ní podílely
@@ -306,12 +303,12 @@ __Taoismus__
 
 - návrat k životu v harmonii, návrat k přírodě
 
-Starověká Indie
+### Starověká Indie
 
 - poměrně izolovaný vývoj
 - kastovní rozdělení společnosti \(4 varny  \- soc\. skupiny – předchůdci kast \)
 
-Náboženství
+### Náboženství
 
 __Buddhismus__
 
@@ -331,7 +328,7 @@ __Kulturní přínos__
 - epos Mahambaráta
 - sochy Buddhy , chrámy
 
-STAROVĚKÝ EGYPT
+### STAROVĚKÝ EGYPT
 
 __Řeka Nil__
 
@@ -349,7 +346,7 @@ Egypt:	Horní – Veset \( Théby\), J část \(v místě pramenu Nilu – horn�
 
 Dolní – Menofer \(řecky Memfis\), S část \(oblast delty Nilu\), předurčen k zemědělství → červená koruna
 
-Charakteristika společnosti
+### Charakteristika společnosti
 
 __vládnoucí vrstva__
 

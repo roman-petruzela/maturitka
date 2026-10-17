@@ -3,9 +3,9 @@ title: "Kapacita kondenzátor elektrický proud"
 order: 26
 source: "FYZIKA-maturitní otázky/26-Kapacita-kondenzátor-elektrický-proud.docx"
 ---
-Kapacita vodiče
+## Kapacita vodiče
 
-- Nábojem __Q__ získá vodič potenciál __φ => ↑Q~↑φ__
+- Nábojem __Q__ získá vodič potenciál __φ ⇒ ↑Q~↑φ__
 - Lze zapsat __Q=C·φ__
 - __Kapacita vodiče - C__
 - konstanta úměrnosti
@@ -31,7 +31,7 @@ $\varepsilon_0 = 8{,}85 \cdot 10^{-12}\ \mathrm{C^2 \cdot N^{-1} \cdot m^{-2}}$ 
 - Nejjednodušší je deskový kondenzátor __bez dielektrika__, který je tvořen dvěma __rovnoběžnými deskami__ o plošném __obsahu S__ a __vzdálenosti d__. __Mezi__ deskami předpokládáme __vakuum__.
 - __Schématická značka__ kondenzátoru:
 
-<img src="/images/content/fyzika/kapacita-kondenzator-elektricky-proud/05.webp" alt="" width="280" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/kapacita-kondenzator-elektricky-proud/05.webp" alt="Ilustrace: Kondenzátor, kapacita kondenzátoru" width="280" loading="lazy" decoding="async">
 
 __Kondenzátor bez dielektrika__
 
@@ -65,8 +65,8 @@ $$C = \frac{Q}{U} = \frac{\varepsilon_0 \varepsilon_r S}{d}$$
 
 __Druhy kondenzátorů podle použitého dielektrika__
 
-- S papírovým dielektrikem<img src="/images/content/fyzika/kapacita-kondenzator-elektricky-proud/11.webp" alt="" width="212" loading="lazy" decoding="async">
-- S plastickou fólií<img src="/images/content/fyzika/kapacita-kondenzator-elektricky-proud/12.webp" alt="" width="170" loading="lazy" decoding="async">
+- S papírovým dielektrikem<img src="/images/content/fyzika/kapacita-kondenzator-elektricky-proud/11.webp" alt="Ilustrace: Kondenzátor, kapacita kondenzátoru" width="212" loading="lazy" decoding="async">
+- S plastickou fólií<img src="/images/content/fyzika/kapacita-kondenzator-elektricky-proud/12.webp" alt="Ilustrace: Kondenzátor, kapacita kondenzátoru" width="170" loading="lazy" decoding="async">
 - Skleněné
 - Slídové
 - Keramické
@@ -76,7 +76,7 @@ __Zapojení kondenzátorů__
 
 - Paralelně (vedle sebe)
 
-  <img src="/images/content/fyzika/kapacita-kondenzator-elektricky-proud/13.webp" alt="" width="287" loading="lazy" decoding="async">
+  <img src="/images/content/fyzika/kapacita-kondenzator-elektricky-proud/13.webp" alt="Ilustrace: Kondenzátor, kapacita kondenzátoru" width="287" loading="lazy" decoding="async">
 
 $$C_P = \sum_{i=1}^{n} C_i$$
 	- __U1=U2=U__
@@ -87,7 +87,7 @@ $$C_P = \sum_{i=1}^{n} C_i$$
 	- __U=U1+U2__
 	- __Q=Q1=Q2__
 
-  <img src="/images/content/fyzika/kapacita-kondenzator-elektricky-proud/16.webp" alt="" width="295" loading="lazy" decoding="async">
+  <img src="/images/content/fyzika/kapacita-kondenzator-elektricky-proud/16.webp" alt="Ilustrace: Kondenzátor, kapacita kondenzátoru" width="295" loading="lazy" decoding="async">
 
 $$\frac{1}{C_S} = \sum_{i=1}^{n} \frac{1}{C_i}$$
 
@@ -111,8 +111,8 @@ $$W = E_C = \frac{1}{2} U Q = \frac{1}{2} \cdot \frac{Q^2}{C} = \frac{1}{2} C U^
 $$I = \frac{\Delta Q}{\Delta t}$$
 
 - Dva druhy proudů:
-	- __Stejnosměrný__ => __=, I__
-	- __Střídavý__ => __~, i__
+	- __Stejnosměrný__ ⇒ __=, I__
+	- __Střídavý__ ⇒ __~, i__
 - Elektrický proud je __uspořádaný pohyb volných částic__ s elektrickým __nábojem__
 - __Kladně__ nabité __částice__ se pohybují ve __směru intenzity el. pole__ (od kladného pólu k zápornému), __záporně__ nabité částice ve __směru opačném__
 - Za směr proudu se podle dohody pokládá směr __pohybu kladně nabitých částic__, tzn. __od plusu k mínusu__
@@ -127,18 +127,18 @@ __Měření elektrického proudu a napětí__
 	- Měříme ampérmetrem
 	- Zapojení vždy __sériově__
 
-  <img src="/images/content/fyzika/kapacita-kondenzator-elektricky-proud/21.webp" alt="" width="371" loading="lazy" decoding="async">
+  <img src="/images/content/fyzika/kapacita-kondenzator-elektricky-proud/21.webp" alt="Ilustrace: Elektrický proud" width="371" loading="lazy" decoding="async">
 
 	- Schématická značka:
 
-<img src="/images/content/fyzika/kapacita-kondenzator-elektricky-proud/22.webp" alt="" width="160" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/kapacita-kondenzator-elektricky-proud/22.webp" alt="Ilustrace: Elektrický proud" width="160" loading="lazy" decoding="async">
 
 - __Elektrické napětí__
 	- Měříme voltmetrem
 	- Zapojení vždy __paralelně__
 	- Schématická značka:
 
-<img src="/images/content/fyzika/kapacita-kondenzator-elektricky-proud/23.webp" alt="" width="109" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/kapacita-kondenzator-elektricky-proud/23.webp" alt="Ilustrace: Elektrický proud" width="109" loading="lazy" decoding="async">
 
 ## Zdroj elektrického napětí a proudu
 
@@ -156,4 +156,4 @@ __Zdroje elektrického napětí a proudu:__
 __Elektrický proud v kovech__
 
 - __Valenční elektrony__ atomů v kovu jsou k atomovým jádrům vázány jen __slabými silami__ => volně a chaoticky se pohybují
-- Připojíme-li vodič ke svorkám stejnosměrného zdroje, vznikne v celém vodiči __el. pole__ => __elektrony__ se začnou pohybovat unášivým pohybem __proti směru intenzity pole__ (což je podstata el. proudu v kovech)
+- Připojíme-li vodič ke svorkám stejnosměrného zdroje, vznikne v celém vodiči __el. pole__ ⇒ __elektrony__ se začnou pohybovat unášivým pohybem __proti směru intenzity pole__ (což je podstata el. proudu v kovech)

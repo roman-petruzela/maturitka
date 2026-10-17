@@ -64,11 +64,9 @@ __Možnosti zrychlení obratu__
 - PLÁNOVÁNÍ ZÁSOB
 - úkoly plánovacího oddělení: 	- výpočet budoucí spotřeby
 
-\- bilance materiálu
-
-\- stanovení počtu dodávek a jejich výše
-
-\- výpočet velikosti zásob
+- bilance materiálu
+- stanovení počtu dodávek a jejich výše
+- výpočet velikosti zásob
 
 - Výpočet budoucí spotřeby
 
@@ -115,9 +113,8 @@ KZ = konečná zásoba na konci plánovaného období
 - ORGANIZACE A ŘÍZENÍ NÁKUPU
 - úkoly nákupního oddělení: 	- výběr vhodného dodavatele
 
-\- uskutečnění dodávky
-
-\- převzetí a zaplacení dodávky
+- uskutečnění dodávky
+- převzetí a zaplacení dodávky
 
 - Výběr vhodného dodavatele
 - kritéria: cena a kvalita materiálu, spolehlivost, stimulování prodeje, cenové zvýhodnění, přeprava zdarma, delší doba splatnosti faktury, …
@@ -171,9 +168,8 @@ __kombinovaná –__ jeden velký sklad a několik 				menších skladů
 
 - činnosti skladů: 	- příjem zásob
 
-  \- uložení a péče o zásoby
-
-  \- výdej zásob
+  - uložení a péče o zásoby
+  - výdej zásob
 
 - Evidence
 - pomocí dokladů:

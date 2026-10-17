@@ -208,7 +208,7 @@ Pokud  účetní  jednotka  hospodařila  se  ztrátou,  účet **431  vykazuje 
 
 - překročí-li  obrat  25  mil./rok
 
-- když  se  spojí  více  firem  =>  společnost  bez  právní  subjektivity  (když  se  spojí  2  FO  v  rámci nějakého  účelu,  ne  PO)
+- když  se  spojí  více  firem  ⇒  společnost  bez  právní  subjektivity  (když  se  spojí  2  FO  v  rámci nějakého  účelu,  ne  PO)
 
 **491** -  Pasivní  účet
 

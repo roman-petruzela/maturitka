@@ -11,8 +11,6 @@ hasExercises: true
 
 a) pojem goniometrické rovnice, b) ukázkové příklady, c) příklady na procvičení včetně řešení.
 
-## Goniometrické rovnice
-
 **Rovnice** je matematický zápis se dvěma stranami oddělenými znaménkem rovná se (např. $2x+3=19$), jehož řešením je vyjádřit, čemu se rovná neznámá (např. $x=8$).
 
 **Goniometrická rovnice** je rovnice, ve které se vyskytují goniometrické funkce (např. $\cos x = 0{,}5$). Výsledkem je vyjádření velikosti úhlu (nebo úhlů), pro které má rovnice smysl — typicky dvou úhlů v rozmezí $\langle0°;360°)$, plus **perioda**, protože goniometrické funkce se opakují.

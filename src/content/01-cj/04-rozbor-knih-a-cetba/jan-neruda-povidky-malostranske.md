@@ -3,7 +3,7 @@ title: "Jan Neruda - Povídky Malostránské"
 order: 36
 source: "ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Jan Neruda - Povídky Malostránské/7. Povídky malostranské .docx"
 ---
-# POVÍDKY MALOSTRANSKÉ
+## POVÍDKY MALOSTRANSKÉ
 
 __Literární druh:__ epika
 
@@ -156,7 +156,7 @@ __Jak to přišlo, že dne 20. srpna roku 1849, o půl jedné s poledne, Rakousk
 
 __Děj__
 
-<img src="/images/content/cj/rozbor-knih-a-cetba/jan-neruda-povidky-malostranske/01.webp" alt="" width="633" loading="lazy" decoding="async">__Psáno o letošních Dušičkách__
+<img src="/images/content/cj/rozbor-knih-a-cetba/jan-neruda-povidky-malostranske/01.webp" alt="Ilustrace: POVÍDKY MALOSTRANSKÉ" width="633" loading="lazy" decoding="async">__Psáno o letošních Dušičkách__
 
 __Téma:__ nerozhodnost
 
@@ -172,7 +172,7 @@ __Vilém Cibulka__ – kupec, přítel Rechnera
 
 __Děj__
 
-<img src="/images/content/cj/rozbor-knih-a-cetba/jan-neruda-povidky-malostranske/02.webp" alt="" width="653" loading="lazy" decoding="async">__Figurky__
+<img src="/images/content/cj/rozbor-knih-a-cetba/jan-neruda-povidky-malostranske/02.webp" alt="Ilustrace: POVÍDKY MALOSTRANSKÉ" width="653" loading="lazy" decoding="async">__Figurky__
 
 __Téma:__ snaha najít klid na neklidné Malé Straně
 
@@ -180,17 +180,17 @@ __Motivy:__ hluční sousedé, nedobrovolné zapojení do malostranského život
 
 __Postavy:__ koncipient Krumlovský, bytná konduktorka, obyvatelé domu (malíř, Otýlie atd.)
 
-<img src="/images/content/cj/rozbor-knih-a-cetba/jan-neruda-povidky-malostranske/03.webp" alt="" width="641" loading="lazy" decoding="async">__Děj__
+<img src="/images/content/cj/rozbor-knih-a-cetba/jan-neruda-povidky-malostranske/03.webp" alt="Ilustrace: POVÍDKY MALOSTRANSKÉ" width="641" loading="lazy" decoding="async">__Děj__
 
 __Jazykové prostředky__
 
 - dílo psáno velmi spisovně, ale ne výhradně knižní mluvou
 - obsahuje hodně archaismů (*dvéře*..), velmi časté jsou inverze slovosledů (*o hodině osmé, příznak svůj zvláštní*..)
-- vypravěčem je sám autor – v některých povídkách se stylizuje do hlavní postavy -> ich-forma, jinak er-forma
+- vypravěčem je sám autor – v některých povídkách se stylizuje do hlavní postavy → ich-forma, jinak er-forma
 - popisné části jsou bohaté na přirovnání, najdeme zde i personifikace
 - ve většině povídek je přímá řeč použita zřídka; postavy promlouvají hovorovou češtinou, zástupci vyšších společenských vrstev užívají germanismy nebo přímo němčinu
 
-# JAN NERUDA
+## JAN NERUDA
 
 - 1834 – 1891
 - významný český básník, prozaik, umělecký kritik a novinář; členem skupiny Májovců

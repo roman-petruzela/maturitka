@@ -15,14 +15,14 @@ __Galileiho princip relativity__ – Zákony mechaniky jsou ve všech IVS stejn�
 
 __Neinerciální vztažná soustava__ – soustava, která se vhledem k IVS pohybuje jinak než rovnoměrně přímočaře. V NVS neplatí Newtonovy pohybové zákony
 
-Základní veličiny
+## Základní veličiny
 
 __Síla__ (značka F, jednotka N = kg · m · s⁻²)
 
 - Vektorová fyzikální veličina, která je určená velikostí, směrem a polohou svého působiště
 - Zprostředkovává vzájemné působení těles (přímým kontaktem nebo silovým polem)
 - Silové působení se projevuje deformací tělesa nebo změnou pohybového stavu tělesa (zrychlení)
-- Z 2.NPZ => $\vec F = \frac{\Delta \vec p}{\Delta t}$, v klasické fyzice $\vec F = m \cdot \vec a$
+- Z 2.NPZ ⇒ $\vec F = \frac{\Delta \vec p}{\Delta t}$, v klasické fyzice $\vec F = m \cdot \vec a$
 
 Skládání sil – viz. otázka č.2 počítání s vektory
 
@@ -69,24 +69,26 @@ __3.NPZ – Zákon akce a reakce (vzájemného působení těles)__
 - Každá síla $\vec F_{12}$ (akce), kterou jedno těleso působí na druhé, vyvolá sílu $\vec F_{21}$ (reakci) opačného směru, kterou druhé těleso působí na první.
 - Síly $\vec F_{12}$ a $\vec F_{21}$ jsou stejně velké, opačného směru, současně vznikají a zanikají, a protože každá působí na jiné těleso, neruší se ve svých účincích.
 
-<img src="/images/content/fyzika/dynamika/09.webp" alt="" width="302" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/dynamika/09.webp" alt="Ilustrace: Základní veličiny" width="302" loading="lazy" decoding="async">
 
-- __Izolovaná soustava těles__ jsou tělesa, která na sebe navzájem působí silami a při tom na ně nepůsobí silami jiná tělesa. Na tělesa působí jen vnitřní síly této soustavy, ale ne vnější síly -> síly od jiných těles
+- __Izolovaná soustava těles__ jsou tělesa, která na sebe navzájem působí silami a při tom na ně nepůsobí silami jiná tělesa. Na tělesa působí jen vnitřní síly této soustavy, ale ne vnější síly → síly od jiných těles
 
-Další síly
+## Další síly
 
 __Setrvačné síly__
 
 - Příklad: kuličky na dně vozíku, který se rozjíždí
-- <img src="/images/content/fyzika/dynamika/10.webp" alt="" width="143" loading="lazy" decoding="async">Vnější pozorovatel (z IVS) – kulička se nepohybuje a vozík se pohybuje se zrychlením
-- Pozorovatel uvnitř vozíku (v NVS) – kulička se pohybuje se zrychlením směrem k zadní straně vozíku => na kuličku působí setrvačné síly -> má opačný směr než zrychlení
+- <img src="/images/content/fyzika/dynamika/10.webp" alt="Ilustrace: Další síly" width="143" loading="lazy" decoding="async">Vnější pozorovatel (z IVS) – kulička se nepohybuje a vozík se pohybuje se zrychlením
+- Pozorovatel uvnitř vozíku (v NVS) – kulička se pohybuje se zrychlením směrem k zadní straně vozíku ⇒ na kuličku působí setrvačné síly → má opačný směr než zrychlení
 - Zavedení setrvačných sil umožňuje použití 2.NPZ v NVS
 - Nemají původce – „nepravé síly“ – způsobeny neinercialitou soustavy
 
-<img src="/images/content/fyzika/dynamika/11.webp" alt="" width="206" loading="lazy" decoding="async">__Dostředivá síla__
+__Dostředivá síla__
 
-- Při pohybu HB po kružnici se mění směr vektoru rychlosti => Musí existovat síla udržující HB na kruhové dráze = dostředivá síla
-- Kolmá ke směru okamžité rychlosti => směřuje do středu kružnice
+<img src="/images/content/fyzika/dynamika/11.webp" alt="Ilustrace: Další síly" width="206" loading="lazy" decoding="async">
+
+- Při pohybu HB po kružnici se mění směr vektoru rychlosti ⇒ Musí existovat síla udržující HB na kruhové dráze = dostředivá síla
+- Kolmá ke směru okamžité rychlosti ⇒ směřuje do středu kružnice
 - Existuje z pohledu pozorovatele v IVS
 
 $$F_d = m \cdot a_d = \frac{m \cdot v^2}{r} = m \cdot \omega^2 \cdot r$$

@@ -52,7 +52,7 @@ Značky grafických čipů \(Jader\) 
 
  
 
-<img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/01.webp" alt="" width="320" loading="lazy" decoding="async">
+<img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/01.webp" alt="Ilustrace: Výběr grafické karty" width="320" loading="lazy" decoding="async">
 
  
 
@@ -97,7 +97,7 @@ __Pipeline__ 
 
 Hardware grafické karty 
 
-<img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/02.webp" alt="" width="605" loading="lazy" decoding="async">
+<img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/02.webp" alt="Ilustrace: Výběr grafické karty" width="605" loading="lazy" decoding="async">
 
  
 
@@ -167,7 +167,7 @@ __Základní parametry monitorů__ 
 - __Obnovovací frekvence__ – Udává se v Hertz, počet obnovení obrazu na monitoru – čím je vyšší, tím je obraz monitoru vnímán jako stabilnější 
 - __Vstupy__ – __DVI, HDMI, VGA__ 
 
-<img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/03.webp" alt="" width="159" loading="lazy" decoding="async">
+<img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/03.webp" alt="Ilustrace: Monitory" width="159" loading="lazy" decoding="async">
 
  
 
@@ -202,9 +202,9 @@ __*Popis funkce CRT*__ 
 	3. Paprsky dopadají na stínítko potažené fosforem 
 	4. Elektrony díky usměrňování dopadají přesně na určité místo, které se na chvíli rozzáří  
 
-<img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/04.webp" alt="" width="534" loading="lazy" decoding="async">
+<img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/04.webp" alt="Ilustrace: CRT" width="534" loading="lazy" decoding="async">
 
-<img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/05.webp" alt="" width="437" loading="lazy" decoding="async">
+<img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/05.webp" alt="Ilustrace: CRT" width="437" loading="lazy" decoding="async">
 
  
 
@@ -277,7 +277,7 @@ __*Popis funkce LCD*__ 
 
  
 
-<img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/06.webp" alt="" width="360" loading="lazy" decoding="async">
+<img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/06.webp" alt="Ilustrace: CRT" width="360" loading="lazy" decoding="async">
 
  
 
@@ -303,7 +303,7 @@ __Charakteristika a možnosti tiskáren__ 
 - Rychlost se udává ve „__stránkách za minutu“__ \(PPM\) rychlost je ovlivněna složitostí obrazu a kvality požadované uživatelem\. __Inkoustové__ tiskárny jsou  pomalejší, ale pro domácnost či kancelář dostačující\. 
 - ***Barevná nebo černobílá:***  
 - Tiskárna tvoří barvy používáním subtraktivního míchaní, v tiskárnách se používá model __CMYK\.__ Volba barevné nebo černobílé tiskárny závisí na potřebách zákazníka\.  
-- <img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/07.webp" alt="" width="186" loading="lazy" decoding="async">
+- <img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/07.webp" alt="Ilustrace: CRT" width="186" loading="lazy" decoding="async">
 - __*Kvalita:*__ 
 - Kvalita tisku se měří v __„DOTS PER INCH“__ \(DPI\)\. Čím větší DPI tím lepší rozlišení obrázku, čím větší rozlišení tím lepší kvalita, čistota textu a obrázku\. Pro nejlepší kvalitu používejte kvalitní inkoust či toner a papír\. 
 - __*Spolehlivost:*__ 
@@ -348,9 +348,9 @@ __*Typy tiskáren*__ 
 	- Náplně jsou relativně drahé 
 	- Vlhký inkoust po dokončení tisku 
 
-<img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/08.webp" alt="" width="418" loading="lazy" decoding="async">
+<img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/08.webp" alt="Ilustrace: CRT" width="418" loading="lazy" decoding="async">
 
-  <img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/09.webp" alt="" width="463" loading="lazy" decoding="async">
+  <img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/09.webp" alt="Ilustrace: CRT" width="463" loading="lazy" decoding="async">
 
 ***Laserová tiskárny***  
 
@@ -377,7 +377,7 @@ __*Typy tiskáren*__ 
 
   
 
-<img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/10.webp" alt="" width="440" loading="lazy" decoding="async">
+<img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/10.webp" alt="Ilustrace: CRT" width="440" loading="lazy" decoding="async">
 
   
 
@@ -411,7 +411,7 @@ __*Jehličkové tiskárny*__ 
 	- Kvalita 
 	- Omezení barevné možnosti 
 
-<img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/11.webp" alt="" width="323" loading="lazy" decoding="async">
+<img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/11.webp" alt="Ilustrace: CRT" width="323" loading="lazy" decoding="async">
 
   
 
@@ -447,7 +447,7 @@ __*Druhy Scannerů*__ 
 
   
 
-<img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/12.webp" alt="" width="90" loading="lazy" decoding="async">
+<img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/12.webp" alt="Ilustrace: CRT" width="90" loading="lazy" decoding="async">
 
 1957 
 
@@ -471,11 +471,11 @@ __*Parametry scannerů*__ 
 - __*Rozpoznání textu*__ 
 - Metoda, která umožňuje digitalizaci tištěných textů, s nímž lze pak pracovat jako s normálním PC textem\. 
 
-<img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/13.webp" alt="" width="325" loading="lazy" decoding="async">
+<img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/13.webp" alt="Ilustrace: CRT" width="325" loading="lazy" decoding="async">
 
   
 
-<img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/14.webp" alt="" width="342" loading="lazy" decoding="async">
+<img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/14.webp" alt="Ilustrace: CRT" width="342" loading="lazy" decoding="async">
 
   
 
@@ -548,7 +548,7 @@ __*Paměti typu ROM*__ 
 
 __*ROM*__ 
 
-<img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/15.webp" alt="" width="238" loading="lazy" decoding="async">
+<img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/15.webp" alt="Ilustrace: CRT" width="238" loading="lazy" decoding="async">
 
  
 
@@ -561,7 +561,7 @@ __*PROM*__ 
 - PROM zápis nejde opakovat, je trvalý, neměnný  
 - Buňku paměti je možné realizovat podobně jako u paměti ROM\. Při výrobě je vyrobena matice obsahující spojené adresové vodiče s datovými vodiči přes polovodičovou diodu a tavnou pojistku z niklu a chromu  Takto vyrobená paměť obsahuje na začátku samé hodnoty 1\. A při zápisu je vyšším proudem tato pojistka přepálena a zapsána hodnota 0 
 
-<img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/16.webp" alt="" width="176" loading="lazy" decoding="async">
+<img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/16.webp" alt="Ilustrace: CRT" width="176" loading="lazy" decoding="async">
 
   
 
@@ -629,7 +629,7 @@ __*DDR \(double date rate\)*__ 
 
 - Přenáší data na obou hranách \(náběžné i sestupné\) řídicího impulsu\. 
 
-<img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/17.webp" alt="" width="299" loading="lazy" decoding="async">
+<img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/17.webp" alt="Ilustrace: CRT" width="299" loading="lazy" decoding="async">
 
 řídicí impulsy 
 
@@ -781,7 +781,7 @@ Hard disk \(HDD\) 
 - Zpomalí se přesun dat mezi různými diskovými oddíly jednoho pevného disku\. OS musí zkopírovat celý obsah přesouvaných dat i přesto, že data zůstávají na stejném disku 
 - U jednoho diskového oddílu, stačí pozměnit administrační část, data na disku se nepřesunou 
 
-<img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/18.webp" alt="" width="215" loading="lazy" decoding="async">
+<img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/18.webp" alt="Ilustrace: Nevýhody logických disků" width="215" loading="lazy" decoding="async">
 
  
 
@@ -838,7 +838,7 @@ Hard disk \(HDD\) 
 - Mezi dvěma zmagnetizovanými místy vznikají tzv\. magnetické rezervace 
 - __JEDNODUŠE:__ Disk je zmagnetizován v jednom směru, a když cívka začne produkovat elektřinu \(vytvoří se magnetické pole\), to začne měnit směr magnetického pole na daném místě na disku \(\-\) 0 a \(\+\) 1 \- záleží jaký směr bude produkovat elektromagnet \. Čtecí hlava následně data dokáže číst \(magnetické rezervace a ty následně vyvolají magnetický tok, který je zpracováván na elektrický impuls \(1,0\) 
 
-<img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/19.webp" alt="" width="285" loading="lazy" decoding="async">
+<img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/19.webp" alt="Ilustrace: Princip zápisu dat" width="285" loading="lazy" decoding="async">
 
 ### Princip čtení dat
 
@@ -869,7 +869,7 @@ Hard disk \(HDD\) 
 - První optické disky se objevily v 60\. letech 
 - Na rozdíl od HDD plotny nemá soustředěné do kruhové stopy o různých délkách, ale má jedinou spirálovou stopu začínající u středu disku, na které jsou stejně dlouhé sektory 
 
-<img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/20.webp" alt="" width="274" loading="lazy" decoding="async">
+<img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/20.webp" alt="Ilustrace: Optická média" width="274" loading="lazy" decoding="async">
 
 ### Vlastnosti
 
@@ -909,7 +909,7 @@ Zápis CD\-R 
 - Laserový impuls způsobí narušení vrstvy organického barviva 
 - Tím vznikne obdoba prohlubně, od které se čtecí laserový paprsek neodrazí 
 
-<img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/21.webp" alt="" width="315" loading="lazy" decoding="async">  
+<img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/21.webp" alt="Ilustrace: Čtení z optického disku" width="315" loading="lazy" decoding="async">  
 
 Zápis CD\-RW 
 
@@ -918,7 +918,7 @@ Zápis CD\-RW 
 - Slitina se tak velmi rychle začne tavit a při následném ochlazení dojde k fázové přeměně do amorfního stavu 
 - Mazání média se provádí zahřátím slitiny pod teplotu tání, avšak nad krystalizační teplotu \(200 stupňů Celsia\) po dostatečně dlouhou dobu\. Po ochlazení se fáze slitiny navrátí zpět z amorfního stavu do základního krystalického, a médium se chová jako prázdné 
 
-<img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/22.webp" alt="" width="409" loading="lazy" decoding="async">
+<img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/22.webp" alt="Ilustrace: Čtení z optického disku" width="409" loading="lazy" decoding="async">
 
 5\) Napájecí zdroj a počítačová skříň  
 
@@ -988,7 +988,7 @@ Počítačová skříň \(PC case\) 
 
 Tower 
 
-<img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/23.webp" alt="" width="281" loading="lazy" decoding="async">
+<img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/23.webp" alt="Ilustrace: Nevýhody" width="281" loading="lazy" decoding="async">
 
  
 
@@ -1039,7 +1039,7 @@ Tower 
 - Nemá externí case, ale vše je obsaženo v jednom 
 - Tento typ využívá například Apple produkt Mac 
 
-<img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/24.webp" alt="" width="236" loading="lazy" decoding="async">
+<img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/24.webp" alt="Ilustrace: All in one PC" width="236" loading="lazy" decoding="async">
 
 ### Výhody
 
@@ -1310,9 +1310,9 @@ Chipset \(čipová sada\) 
 
   
 
-<img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/25.webp" alt="" width="382" loading="lazy" decoding="async">
+<img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/25.webp" alt="Ilustrace: I/O porty" width="382" loading="lazy" decoding="async">
 
- <img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/26.webp" alt="" width="434" loading="lazy" decoding="async"><img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/27.webp" alt="" width="336" loading="lazy" decoding="async"><img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/28.webp" alt="" width="377" loading="lazy" decoding="async">
+ <img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/26.webp" alt="Ilustrace: I/O porty" width="434" loading="lazy" decoding="async"><img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/27.webp" alt="Ilustrace: I/O porty" width="336" loading="lazy" decoding="async"><img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/28.webp" alt="Ilustrace: I/O porty" width="377" loading="lazy" decoding="async">
 
 7\) Mikroprocesory a komunikace s okolím
 
@@ -1555,12 +1555,12 @@ __Pojmenování PC virů__ 
 
 __Speciální případy Infiltrace__ 
 
-1. __Spyware__ 
+### 1. Spyware
 
 - Využívá internetu k odesílání dat z počítače bez vědomí uživatele\. 
 - Odcizována pouze statistická data\. Šíří se hlavně ve sharewaru\. 
 
-1. __Adware__ 
+### 2. Adware
 
 - Pop\-up okna, reklamy, zahlcují ostatní programy\. Znepříjemňuje práci 
 
@@ -1845,7 +1845,7 @@ Druhy architektur 
 
   
 
-<img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/29.webp" alt="" width="479" loading="lazy" decoding="async">
+<img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/29.webp" alt="Ilustrace: Dělení dle úrovně spolupráce rutin" width="479" loading="lazy" decoding="async">
 
   
 
@@ -1868,7 +1868,7 @@ Druhy architektur 
 - Systém vyžaduje, aby rutiny každé vrstvy přímo volali pouze vrstvy bezprostředně nižší  
 - Nelze z cela dodržet \-> setkáváme se i s přímým voláním hlouběji zanořených rutin  
 
-<img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/30.webp" alt="" width="355" loading="lazy" decoding="async">
+<img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/30.webp" alt="Ilustrace: Rozhraní jádra" width="355" loading="lazy" decoding="async">
 
 ## Pojmy
 
@@ -1896,7 +1896,7 @@ Klient\-server vs hierarchická 
 - Klient\-server je osekaná verze hierarchické  
 - Potřebné věci zůstávají v mikrojádře a vše ostatní jde na server 
 
-<img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/31.webp" alt="" width="432" loading="lazy" decoding="async">
+<img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/31.webp" alt="Ilustrace: Pojmy" width="432" loading="lazy" decoding="async">
 
 10\) Správa operační paměti 
 
@@ -2086,7 +2086,7 @@ Stránkování \(Paging\) 
 
   
 
-<img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/32.webp" alt="" width="266" loading="lazy" decoding="async">
+<img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/32.webp" alt="Ilustrace: Pojmy" width="266" loading="lazy" decoding="async">
 
  
 
@@ -2108,7 +2108,7 @@ Stránkování \(Paging\) 
 
   
 
-<img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/33.webp" alt="" width="310" loading="lazy" decoding="async">
+<img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/33.webp" alt="Ilustrace: Překlad adres" width="310" loading="lazy" decoding="async">
 
  
 
@@ -2167,7 +2167,7 @@ Stránkování \(Paging\) 
 - __Strážce zásobníku__ – může zvětšovat datový a zásobníkový region 
 - V oblasti paměti jádra jsou za běhu panenské stránky spíše výjimkou, většina je využita ve fázi bootování\. Nebo jsou pevně vázány na rámec \(nemohou být ukradeny\) 
 
-<img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/34.webp" alt="" width="307" loading="lazy" decoding="async">
+<img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/34.webp" alt="Ilustrace: Zásobníkový region" width="307" loading="lazy" decoding="async">
 
   
 
@@ -2196,7 +2196,7 @@ Stránkování \(Paging\) 
 
   
 
-<img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/35.webp" alt="" width="289" loading="lazy" decoding="async">
+<img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/35.webp" alt="Ilustrace: Fáze kradení stránek" width="289" loading="lazy" decoding="async">
 
   
 
@@ -2259,7 +2259,7 @@ Dočasně sdílená paměť \(Copy On Write\) 
 - První proces je bootovací 
 - Proces vzniká vždy na popud jiného procesu, výjimkou je bootovací 
 
-<img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/36.webp" alt="" width="234" loading="lazy" decoding="async">
+<img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/36.webp" alt="Ilustrace: Vlastnosti procesu" width="234" loading="lazy" decoding="async">
 
 Tři základní pohledy na proces 
 
@@ -2494,7 +2494,7 @@ Příčiny stavu Zombie \[Z\] 
 
   
 
-  <img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/37.webp" alt="" width="605" loading="lazy" decoding="async">
+  <img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/37.webp" alt="Ilustrace: Smrtelný úraz" width="605" loading="lazy" decoding="async">
 
 ## Vlákna
 
@@ -2766,7 +2766,7 @@ Soket \(schránka\) 
 		2. druhá strana si uloží číslo sekvence \(x\) a odpoví SYN\-ACK, jako číslo sekvence nastaví svoje číslo \(y\) a do čísla odpovědi vloží \(x\+1\) \- další očekávanou hodnotu 
 		3. klient odpoví ACK, číslo sekvence \(x\+1\), číslo odpovědi \(y\+1\) 
 
- <img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/38.webp" alt="" width="111" loading="lazy" decoding="async">
+ <img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/38.webp" alt="Ilustrace: Pojmenovaná roura" width="111" loading="lazy" decoding="async">
 
  
 
@@ -3207,7 +3207,7 @@ WHERE *condition*; 
 	- Pokud bude zaměstnanec, vyplníme jeho atribut nadřízený 
 	- Pokud bude manager necháme místo NULL, pokud nemá jiného nadřízeného 
 
-<img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/39.webp" alt="" width="324" loading="lazy" decoding="async">
+<img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/39.webp" alt="Ilustrace: Rekurzivní model" width="324" loading="lazy" decoding="async">
 
  
 
@@ -3437,7 +3437,7 @@ JOIN zamestnanci ON zamestnani\.zam\_id = zamestnanec\.zam\_id 
 
  
 
-<img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/43.webp" alt="" width="378" loading="lazy" decoding="async">
+<img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/43.webp" alt="Ilustrace: Propojování tabulek" width="378" loading="lazy" decoding="async">
 
   
 
@@ -4370,7 +4370,7 @@ DELIMITER ; 
 
  
 
-<img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/44.webp" alt="" width="348" loading="lazy" decoding="async">
+<img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/44.webp" alt="Ilustrace: Triggery" width="348" loading="lazy" decoding="async">
 
  
 
@@ -4475,7 +4475,7 @@ Objektově orientované techniky 
 - Slouží jako předpis pro jiné třídy 
 - Mohou obsahovat i abstraktní \(__abstract__\) metody, které nemají tělo, potomek si je pak přepisuje a určuje jejich funkcionalitu  
 
-  <img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/45.webp" alt="" width="481" loading="lazy" decoding="async">
+  <img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/45.webp" alt="Ilustrace: Abstraktní třída" width="481" loading="lazy" decoding="async">
 
  
 
@@ -4484,14 +4484,14 @@ Rozhraní \(interface\) 
 - Nemá žádné metody s tělem 
 - Jedná se o předpis třídy, určuje jen jaké metody musí potomek mít  
 
-<img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/46.webp" alt="" width="233" loading="lazy" decoding="async">
+<img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/46.webp" alt="Ilustrace: Abstraktní třída" width="233" loading="lazy" decoding="async">
 
 Výčtový typ \(enum\) 
 
 - Datový typ, který může nabývat více hodnot 
 - Například dny v týdnu, barvy atd\.  
 
-<img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/47.webp" alt="" width="262" loading="lazy" decoding="async">
+<img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/47.webp" alt="Ilustrace: Abstraktní třída" width="262" loading="lazy" decoding="async">
 
 ## Polymorfismus
 
@@ -4502,7 +4502,7 @@ Výčtový typ \(enum\) 
 
 - Existuje více stejnojmenných funkcí, pouze se liší parametry 
 
-<img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/48.webp" alt="" width="328" loading="lazy" decoding="async">
+<img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/48.webp" alt="Ilustrace: Přetížení metod a funkcí" width="328" loading="lazy" decoding="async">
 
 ## Modifikátory přístupu
 
@@ -4514,14 +4514,14 @@ Výčtový typ \(enum\) 
 
 - Třída, která nemá jméno a může být tak použita vícekrát 
 
-<img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/49.webp" alt="" width="486" loading="lazy" decoding="async">
+<img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/49.webp" alt="Ilustrace: Anonymní třída" width="486" loading="lazy" decoding="async">
 
 ## Výjimky
 
 - Neboli try catch  
 - Pokud dojde během běhu kódu k chybě v try, catch vyvolá patřičnou výjimku 
 
-<img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/50.webp" alt="" width="262" loading="lazy" decoding="async">
+<img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/50.webp" alt="Ilustrace: Výjimky" width="262" loading="lazy" decoding="async">
 
 ## Singleton
 
@@ -4536,7 +4536,7 @@ Výčtový typ \(enum\) 
 
   
 
-<img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/51.webp" alt="" width="388" loading="lazy" decoding="async">
+<img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/51.webp" alt="Ilustrace: Factory method" width="388" loading="lazy" decoding="async">
 
    
 
@@ -4548,7 +4548,7 @@ Listener 
 
 Něco jako EVENT, čeká a naslouchá na nějakou událost a pak zareaguje 
 
-<img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/52.webp" alt="" width="190" loading="lazy" decoding="async">
+<img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/52.webp" alt="Ilustrace: Mediátor" width="190" loading="lazy" decoding="async">
 
 23\) Logické funkce 
 
@@ -5253,7 +5253,7 @@ Pasivní prvek je prvek, jež se v obvodu nechová jako zdroj\. 
 
  
 
-<img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/53.webp" alt="" width="217" loading="lazy" decoding="async">
+<img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/53.webp" alt="Ilustrace: Pasivní součástky" width="217" loading="lazy" decoding="async">
 
  
 
@@ -5273,7 +5273,7 @@ kontaktu a tím došlo k neutralizaci \(vybití elektrických nábojů\)\. 
 
  
 
-<img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/54.webp" alt="" width="75" loading="lazy" decoding="async">
+<img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/54.webp" alt="Ilustrace: Pasivní součástky" width="75" loading="lazy" decoding="async">
 
  
 
@@ -5345,7 +5345,7 @@ Pokud je jezdec v krajní poloze všechno napětí je na žárovce a žárovka t
 
  
 
- <img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/55.webp" alt="" width="350" loading="lazy" decoding="async">
+ <img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/55.webp" alt="Ilustrace: Pasivní součástky" width="350" loading="lazy" decoding="async">
 
   
 
@@ -5369,13 +5369,13 @@ Polovodičový prvek prvek je součástka jež pro svou funkci využívá někte
 
  
 
- <img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/56.webp" alt="" width="155" loading="lazy" decoding="async">
+ <img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/56.webp" alt="Ilustrace: Pasivní součástky" width="155" loading="lazy" decoding="async">
 
 - __Bipolární tranzistor \-__ Součástka jež je tvořená třemi oblastmi polovodiče s různým typem vodivosti v uspořádání NPN nebo PNP, které vytvářejí dvojici přechodu PN\. Prostřeni oblast se nazývá __báze \(B\),__ krajní __emitor \(E\) a kolektor \(C,__ někdy __K\)\.__ Ke každé z oblasti je zapojen vývod\. Při vhodném zapojeni je velikost elektrického proudu tekoucího mezi emitorem a kolektorem řízena malými změnami proudu tekoucího mezi bázi a emitorem\. Bipolární tranzistory se používají jako zesilovače, spínače a invertory\. 
 
  
 
-<img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/57.webp" alt="" width="174" loading="lazy" decoding="async">
+<img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/57.webp" alt="Ilustrace: Pasivní součástky" width="174" loading="lazy" decoding="async">
 
   
 
@@ -5399,7 +5399,7 @@ Nezatížený odporový dělič je obvod který umožňuje získat menši napět
 
  
 
-  <img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/58.webp" alt="" width="337" loading="lazy" decoding="async">
+  <img src="/images/content/it/uvod-do-vypocetni-techniky/24-hardware-doplnkove-poznamky-graficke-karty-displeje-a-dalsi/58.webp" alt="Ilustrace: Pasivní součástky" width="337" loading="lazy" decoding="async">
 
   
 

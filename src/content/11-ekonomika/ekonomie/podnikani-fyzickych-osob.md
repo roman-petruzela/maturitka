@@ -174,7 +174,7 @@ ZÁKLAD DANĚ = PŘÍJMY – VÝDAJE NA DOSAŽENÍ, ZAJIŠTĚNÍ A UDRŽENÍ PŘ
 1. u poplatníků, kteří vedou daňovou evidenci → příjmy – výdaje
 2. u poplatníků, kteří vedou účetnictví → výnosy – výdaje
 
-SCHÉMA VÝPOČTU DANĚ
+## SCHÉMA VÝPOČTU DANĚ
 
 __Příjmy – výdaje__
 
@@ -226,7 +226,7 @@ do 1. července (s daňovým poradcem)
 - počítá se měsíční záloha na daň z příjmů, která se sráží z hrubé mzdy zaměstnance
 - po skončení kalendářního roku se provede roční zúčtování → porovnají se zálohy na daň a celková daňová povinnost za zdaňovací období
 
-SCHÉMA VÝPOČTU DANĚ
+## SCHÉMA VÝPOČTU DANĚ
 
 __Souhrn příjmů ze závislé činnosti a funkčních požitků__
 

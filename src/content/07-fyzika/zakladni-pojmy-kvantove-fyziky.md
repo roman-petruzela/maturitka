@@ -45,7 +45,7 @@ Při FJ každé kvantum záření předá energii pouze jednomu elektronu, kter�
 
 $$h \cdot f = W_V + \frac{1}{2} m_e v^2$$
 
-Energie odpovídající mezní frekvenci fm způsobí pouze uvolnění elektronu s nulovou kinetickou energií a platí:
+**Mezní frekvence a mezní vlnová délka:** energie odpovídající mezní frekvenci $f_m$ způsobí pouze uvolnění elektronu s nulovou kinetickou energií a platí:
 
 $$f_m = \frac{W_V}{h}$$
 
@@ -66,7 +66,7 @@ Jako Comptonův __jev (někdy také Comptonův__ rozptyl) označujeme fyzikáln�
 
 Compton při svých pokusech nechal dopadat rentgenové záření o energii 17,8 keV na uhlíkovou destičku a měřil energii odražených fotonů v závislosti na úhlu odrazu. Změřená spektra vykazovala přitom podobný tvar jako původní záření, ale byla energeticky posunuta k větším vlnovým délkám – měla tedy nižší energii než původní budící rentgenové záření.
 
-<img src="/images/content/fyzika/zakladni-pojmy-kvantove-fyziky/04.webp" alt="" width="238" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/zakladni-pojmy-kvantove-fyziky/04.webp" alt="Ilustrace: Základní pojmy kvantové fyziky" width="238" loading="lazy" decoding="async">
 
 V rozptýleném záření nalezl Compton nejen záření s původní frekvencí, ale i s frekvencí nižší, což odporovalo předpokladu KF, že frekvence a vlnová délka se při rozptylu nemění.
 
@@ -76,23 +76,25 @@ Při předání menší části energie je tomu naopak: odchýlení dráhy elekt
 
 Při Comptonově jevu se tedy počet fotonů nemění, fotony se pouze odchylují z původního směru, ztrácejí část své energie a zvětšují svoji vlnovou délku.
 
-Stavba atomu
+## Stavba atomu
 
 Z hlediska současného poznání mají atomy vnitřní strukturu a jsou dělitelné.
 
-Thomsonův model atomu
+## Thomsonův model atomu
 
 Tento model předpokládá, že atom si lze představit jako kouli, ve které je rovnoměrně rozložen kladný elektrický náboj, a v níž se nachází elektrony. Náboj kladný i záporný náboj elektronů byly vyrovnány, takže celkový elektrický náboj atomu byl nulový.
 
 Elektrony mohly být v atomu umístěny různě. Předpokládalo se, že elektrony se pohybují po určitých orbitech, přičemž jsou stabilizovány přitažlivým působením oblaku kladného elektrického náboje a odpudivým působením ostatních elektronů v atomu.
 
-<img src="/images/content/fyzika/zakladni-pojmy-kvantove-fyziky/05.webp" alt="" width="121" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/zakladni-pojmy-kvantove-fyziky/05.webp" alt="Ilustrace: Thomsonův model atomu" width="121" loading="lazy" decoding="async">
 
 Thomson se (neúspěšně) pokusil spojit jednotlivé orbity se spektrálními čarami různých prvků.
 
 Tento model nebyl potvrzen, neboť byly při experimentech s rozptylem α částic byly získány jiné výsledky než předpovídal tento model. Tyto experimenty vedly následně ke vzniku planetárního modelu atomu, který Thomsonův model nahradil.
 
-<img src="/images/content/fyzika/zakladni-pojmy-kvantove-fyziky/06.webp" alt="" width="207" loading="lazy" decoding="async">Rutherfordův model atomu
+## Rutherfordův model atomu
+
+<img src="/images/content/fyzika/zakladni-pojmy-kvantove-fyziky/06.webp" alt="Ilustrace: Rutherfordův model atomu" width="207" loading="lazy" decoding="async">
 
 Na základě výsledků experimentu s rozptylem částic α na tenké zlaté fólii vytvořil Rutherford tzv. planetární model atomu.
 
@@ -102,13 +104,13 @@ Vrstva, v níž se pohybují elektrony je označována jako elektronový obal. E
 
 Elektrony se kolem atomového jádra pohybují po eliptických drahách podobným způsobem jako planety kolem Slunce, což také dalo tomuto modelu jméno.
 
-Rozptyl α částic v Thomsonově modelu
+## Rozptyl α částic v Thomsonově modelu
 
-<img src="/images/content/fyzika/zakladni-pojmy-kvantove-fyziky/07.webp" alt="" width="203" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/zakladni-pojmy-kvantove-fyziky/07.webp" alt="Ilustrace: Rozptyl α částic v Thomsonově modelu" width="203" loading="lazy" decoding="async">
 
 Rutherfordův předpoklad, že v jádře existují i elektricky neutrální částice s hmotností přibližně rovnou hmotnosti protonu, potvrdil v r. 1932 J. Chadwick objevem neutronů. Atomové jádro se tedy skládá z protonů a neutronů (nukleonů).
 
-Rozptyl α částic v Rutherfordově modelu
+## Rozptyl α částic v Rutherfordově modelu
 
 Počet protonů udává *protonové číslo Z*, počet neutronů *neutronové číslo N* a celkový počet nukleonů *nukleonové číslo A* (A = Z + N). Každý prvek tedy můžeme zapsat schematicky $^{A}_{Z}X$.
 
@@ -117,7 +119,7 @@ Rutherfordův model atomu však byl v rozporu s KF. Pohybující se elektron by 
 *Tento zásadní nedostatek se pokusil odstranit v r. 1913 N. Bohr (viz MT 48)*
 
 
-Atomová spektra
+## Atomová spektra
 
 Jak potvrdilo velké množství experimentů, energie atomů je kvantována. Velké množství informací o atomech poskytují jejich spektra.
 
@@ -129,17 +131,15 @@ I) Emisní spektrum – atomy a látky vyzařují elmg. záření
 
 II) Absorpční spektrum – atomy elmg. záření pohlcují a to na stejné λ, jako by samy vyzařovaly. Ve spojitém spektru se objeví tmavé čáry – příslušná λ chybí.
 
-Spektrální série
+## Spektrální série
 
 Vlnové délky v atomových spektrech se řadí do určitých skupin, kterým říkáme *spektrální série*. Byly nazvány podle svých objevitelů
 
-\- Lymanova
+- Lymanova
+- Balmerova
+- Paschenova
 
-\- Balmerova
-
-\- Paschenova
-
-Pro frekvenci čar v jednotlivých sériích platí
+Pro frekvenci čar v jednotlivých sériích platí:
 
 $$f = R \cdot \left(\frac{1}{m^2} - \frac{1}{n^2}\right)$$
 
@@ -163,17 +163,17 @@ E1 = - h.R = -13,6 eV. K ionizaci atomu vodíku musíme tedy dodat energii 13,6 
 Stavy s vyššími hodnotami energie, než odpovídá základnímu stavu, nazýváme excitované stavy
 
 
-__<img src="/images/content/fyzika/zakladni-pojmy-kvantove-fyziky/11.webp" alt="" width="275" loading="lazy" decoding="async">Kvantování energie atomů (Franckův-Hertzův pokus; NC za F 1925)__
+__<img src="/images/content/fyzika/zakladni-pojmy-kvantove-fyziky/11.webp" alt="Ilustrace: Spektrální série" width="275" loading="lazy" decoding="async">Kvantování energie atomů (Franckův-Hertzův pokus; NC za F 1925)__
 
 Elektrony emitované z katody jsou urychlované mezi katodou K a mřížkou G. Napětí Ug naopak elektrony brzdí. K poklesům anodového proudu dochází při celočíselných násobcích napětí 4,89 V. Atom rtuti má v excitovaném stavu energii o 4,89 eV vyšší než v základním stavu.
 
 Atomy rtuti přijímají pouze určitá kvanta energie – *energie atomů je kvantovaná*
 
-Uspořádání Franckova-Hertzova pokusu
+## Uspořádání Franckova-Hertzova pokusu
 
 <img src="/images/content/fyzika/zakladni-pojmy-kvantove-fyziky/12.webp" alt="85F0DFED" width="282" loading="lazy" decoding="async">
 
-Závislost anodového proudu na napětí
+## Závislost anodového proudu na napětí
 
 __Dualita částice a vlnění__
 
@@ -185,9 +185,11 @@ Z tohoto hlediska lze tedy tvrdit, že obě teorie se vzájemně doplňují, a 
 
 Částicová povaha elektromagnetického záření se projevuje především v krátkovlnných oblastech (tzn. při vysokých energiích fotonů), vlnová povaha v oblasti dlouhovlnné.
 
-__<img src="/images/content/fyzika/zakladni-pojmy-kvantove-fyziky/13.webp" alt="" width="223" loading="lazy" decoding="async">Interference světla procházejícího dvěma štěrbinami__
+__<img src="/images/content/fyzika/zakladni-pojmy-kvantove-fyziky/13.webp" alt="Ilustrace: Závislost anodového proudu na napětí" width="223" loading="lazy" decoding="async">Interference světla procházejícího dvěma štěrbinami__
 
 Vlnové vlastnosti vykazují (v určitých situacích) všechny částice. Tato skutečnost je jedním z důležitých objevů kvantové fyziky. Takovou hypotézu vyslovil poprvé roku 1924 Louis-Victor de Broglie jenž vyslovil domněnku, že i částice lze popsat vlnovou délkou o velikosti:
+
+**De Broglieho vlnová délka:**
 
 $$\lambda = \frac{h}{p}$$
 

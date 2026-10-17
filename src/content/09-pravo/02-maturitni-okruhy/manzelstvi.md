@@ -46,11 +46,11 @@ __MANŽELSTVÍ (§655)__
 	4. Ohrožení života (§ 667)
 2. Církevní sňatek – orgánem je pověřená osoba oprávněné církve
 	1. Evidence církve (rejstřík církví vedený Ministerstvem kultury)
-	2. Matrika -> církev -> do 5 dní na matriku
+	2. Matrika → církev → do 5 dní na matriku
 
 ## OKOLNOSTI VYLUČUJÍCÍ UZAVŘENÍ PLATNÉHO MANŽELSTVÍ
 
-- Omezená svéprávnost (duševní choroba => soud rozhodne)
+- Omezená svéprávnost (duševní choroba ⇒ soud rozhodne)
 - Překážka nezletilosti (plná svéprávnost – od 16 let soudem, v případě těhotenství)
 - Bigamie (osoba již uzavřela manželství x vstoupila do registrovaného partnerství)
 - Překážka příbuzenství (sourozenci, předky, potomky + osoby osvojené)

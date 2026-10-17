@@ -12,8 +12,6 @@ hasExercises: true
 
 a) pojem exponenciální rovnice, b) základní znalosti, c) postup řešení, d) ukázkové příklady, e) příklady na procvičení včetně řešení.
 
-## Exponenciální rovnice
-
 Exponenciální rovnice je rovnice ve tvaru $a^v = b$, kde $a \in \mathbb{R}^+ \setminus \{1\}$ (číslo $a$ se nazývá **základ**) a $v$ je výraz s neznámou v exponentu.
 
 **Pozn.:** u exponenciálních rovnic zpravidla není nutné provádět zkoušku — výjimkou jsou úlohy, ve kterých se pracuje s odmocninami nebo se substitucí.
@@ -22,7 +20,7 @@ Exponenciální rovnice je rovnice ve tvaru $a^v = b$, kde $a \in \mathbb{R}^+ \
 
 **a) Znalost mocnin**, např. $8=2^3$, $27=3^3$, $16=4^2=2^4$, $125=5^3$.
 
-**b) Vzorce pro práci s mocninami:**
+**b) Pravidla pro počítání s mocninami:**
 
 $$a^r \cdot a^s = a^{r+s}$$
 
@@ -36,11 +34,15 @@ $$(a^r \cdot b^s)^v = a^{r \cdot v} \cdot b^{s \cdot v}$$
 
 **Obě strany rovnice lze převést na stejný základ** — pak jednoduše porovnáme exponenty (protože exponenciální funkce je prostá, rovnají-li se mocniny se stejným základem, musí se rovnat i exponenty):
 
-$$1000 = 10^x \ \Rightarrow\ 10^3 = 10^x \ \Rightarrow\ x = 3$$
+$$a^{f(x)} = a^{g(x)} \iff f(x) = g(x)$$
+
+Například: $1000 = 10^x \Rightarrow 10^3 = 10^x \Rightarrow x = 3$.
 
 **Obě strany rovnice nelze převést na stejný základ** — pak použijeme logaritmus:
 
-$$8 = 3^x \ \Rightarrow\ \log 8 = \log 3^x \ \Rightarrow\ \log 8 = x \cdot \log 3 \ \Rightarrow\ x = \frac{\log 8}{\log 3}$$
+$$a^x = b \iff x = \frac{\log b}{\log a} \qquad (a > 0,\ a \neq 1,\ b > 0)$$
+
+Například: $8 = 3^x \Rightarrow \log 8 = x \cdot \log 3 \Rightarrow x = \frac{\log 8}{\log 3}$.
 
 ## Ukázkové příklady (společný základ)
 

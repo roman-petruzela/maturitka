@@ -3,7 +3,6 @@ title: "Severní Amerika"
 order: 12
 source: "Zeměpis/Zeměpis GLP/12. Severní Amerika.docx"
 ---
-# Severní Amerika
 
 - omývána – ze západu Tichým oceánem, východu Atlantským oceánem a severu Severním ledovým
 - s Jižní Amerikou spojena Panamskou šíjí \(Panamský průplav\)
@@ -78,7 +77,7 @@ __Oblast Střední Ameriky__
 - 20 států – Bahamy, Barbados, Haiti, Dominikánská republika, Haiti, Jamajka, Kostarika, Honduras, Kuba, Nikaragua, Panama, Salvádor
 - 9 závislých území – Americké panenské ostrovy, Kajmanské ostrovy, Portoriko
 
-## USA
+### USA
 
 - hl\.město – Washington
 - 50 států – 48 \+ Hawai a Aljaška
@@ -87,7 +86,7 @@ __Oblast Střední Ameriky__
 - prezidentská republika
 - všechny podnebné pásy: centrální část – mírný a jih subtropický pás, Aljaška – polární a subpolární, Havaj – tropický pás
 
-Sever
+### Sever
 
 - největší region
 - vysoká hustota zalidnění, nejvíce obyvatel
@@ -109,7 +108,7 @@ Sever
 - Rybolov
 - Významná finanční centra, bankovnictví
 
-Jih
+### Jih
 
 - Nejmenší region
 - Druhý v počtu obyvatel a hustoty zalidnění
@@ -132,7 +131,7 @@ Jih
 - Leží zde okrsek District of Columbia – Washington D\. C\.
 - Města: Atlanta, Houston, Dallas, Miami, New Orleans
 
-Západ
+### Západ
 
 - Osidlován nejpozději
 - Nejméně států, ale největší rozloha – hranice států většinou určovány podle rovnoběžek a poledníků
@@ -164,7 +163,7 @@ námořní doprava: zabezpečuje dovoz a vývoz surovin a výrobků
 
 nejnavštěvovanější oblasti: Kalifornie, Florida, Havaj, NY
 
-## Kanada
+### Kanada
 
 - Parlamentní monarchie, federální stát – formální hlavou je britský panovník zastoupen voleným generálním guvernérem
 - 10 provincií a 3 teritoria
@@ -206,7 +205,7 @@ nejnavštěvovanější oblasti: Kalifornie, Florida, Havaj, NY
 - elektřinu získávají z 15% v jaderných elektrárnách a většinu pak z elektráren vodních
 - turistický ruch: přírodní památky, národní parky a rezervace
 
-## Grónsko
+### Grónsko
 
 - Oficiální název: Grónsko
 - Hlavní město: Nuuk

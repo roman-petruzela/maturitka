@@ -28,21 +28,21 @@ source: "Účetnictví/18. Rozpočty a kalkulace.docx"
 
 __Členění nákladů podle:__
 
-1. __Struktury účetního hospodářského výsledku__
+## 1. Struktury účetního hospodářského výsledku
 
 - Provozní 50 - 55
 - Finanční 56 – 57
 
-1. __Podle zákona o daních z příjmů__
+## 2. Podle zákona o daních z příjmů
 
 - Daňově uznatelné
 - Daňově neuznatelné
 
-1. __Podle místa jejich vzniku a odpovědnosti za jejich vnik__
+## 3. Podle místa jejich vzniku a odpovědnosti za jejich vnik
 
 - Člení se náklady podle jednotlivých hospodářských středisek
 
-1. __Podle závislosti na objemu produkce__
+## 4. Podle závislosti na objemu produkce
 
 - Fixní (stále) - jsou nezávislé na růstu objemu výroby
 - Variabilní (proměnlivé) - mění se při změnách objemu produkce
@@ -63,17 +63,17 @@ __Rozpočty hospodářských středisek__
 
 - Každé hospodářské středisko sestavuje na určité období rozpočet svých nákladů a výnosů, jehož údaje se po skončení tohoto období budou porovnávat s údaji z vnitropodnikového účetnictví
 
-1. __Rozpočtování přímých nákladů__
+## 5. Rozpočtování přímých nákladů
 
 - Týká se výrobních středisek
 - Podklady pro jejich výpočet jsou- technickohospodářské normy, plánovaný objem výroby
 
-1. __Rozpočtování nepřímých nákladů__
+## 6. Rozpočtování nepřímých nákladů
 
 - Je obtížnější, snáze se rozpočítávají náklady, které závisejí na délce období
 - Je nutné vycházet z údajů minulých let s přihlédnutím k očekávaným změnám v objemu plánovaných výkonů a cenových či tarifních změnách
 
-1. __Rozpočtování výnosů__
+## 7. Rozpočtování výnosů
 
 - Střediska bude mít dva podklady: plánovaná objem výroby, vnitropodnikové ceny jednotlivých výkonů, které si stanoví na úrovni vlastních nákladů
 

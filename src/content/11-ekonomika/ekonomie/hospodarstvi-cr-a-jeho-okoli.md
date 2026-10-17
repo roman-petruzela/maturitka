@@ -109,7 +109,7 @@ __Hospodářský cyklus:__
 
 = pravidelné kolísání ekonomické aktivity
 
-<img src="/images/content/ekonomika/ekonomie/hospodarstvi-cr-a-jeho-okoli/02.webp" alt="" width="350" loading="lazy" decoding="async">
+<img src="/images/content/ekonomika/ekonomie/hospodarstvi-cr-a-jeho-okoli/02.webp" alt="Ilustrace: Hospodářství ČR a jeho okolí" width="350" loading="lazy" decoding="async">
 
 - HDP roste → dosáhne vrcholu → dojde ke zlomu → HDP klesá → dno (sedlo) → cyklus se opakuje
 - Fáze expanze
@@ -205,7 +205,7 @@ __Horizontální struktura platební bilance:__
 - Magický čtyřúhelník
 - slouží ke zhodnocení úspěšné hospodářské politiky a výkonnosti ekonomiky
 
-<img src="/images/content/ekonomika/ekonomie/hospodarstvi-cr-a-jeho-okoli/03.webp" alt="" width="381" loading="lazy" decoding="async">
+<img src="/images/content/ekonomika/ekonomie/hospodarstvi-cr-a-jeho-okoli/03.webp" alt="Ilustrace: Hospodářství ČR a jeho okolí" width="381" loading="lazy" decoding="async">
 
 - Integrační procesy v ekonomice
 
@@ -268,7 +268,7 @@ __Symboly EU:__
 - __2007 –__ Rumunsko a Bulharsko
 - __2013 –__ Chorvatsko
 
-<img src="/images/content/ekonomika/ekonomie/hospodarstvi-cr-a-jeho-okoli/04.webp" alt="" width="479" loading="lazy" decoding="async">
+<img src="/images/content/ekonomika/ekonomie/hospodarstvi-cr-a-jeho-okoli/04.webp" alt="Ilustrace: Hospodářství ČR a jeho okolí" width="479" loading="lazy" decoding="async">
 
 1957
 

@@ -27,7 +27,7 @@ __Hrabě Hubert de Bréville__ - svým účesem podoba s francouzským králem J
 
 __Hraběnka de Bréville__ - výtečné vystupování, skvělá hostitelka - její salón první v kraji, jediný s uzavřeným okruhem vybrané společnosti; společenská, bohatá
 
-__2 jeptišky__ - stará -> s jizvami na tváři od neštovic, mladá -> hezká, křehká, mají strach se angažovat a někomu stranit. Kuličce neoplatí její službu a nenabídnou jí jídlo.
+__2 jeptišky__ - stará → s jizvami na tváři od neštovic, mladá → hezká, křehká, mají strach se angažovat a někomu stranit. Kuličce neoplatí její službu a nenabídnou jí jídlo.
 
 __Cornudet__ - demokrat, hodný, ochotný, alkoholik, zrzavý plnovous, nejraději pil pivo, velký vlastenec a bojovník za republiku, tvrdohlavý snílek a idealista,
 

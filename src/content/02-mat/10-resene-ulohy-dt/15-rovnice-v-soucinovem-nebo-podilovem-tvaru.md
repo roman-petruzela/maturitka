@@ -2,6 +2,7 @@
 title: "Rovnice v součinovém nebo podílovém tvaru"
 order: 15
 source: "Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/15) Rovnice v součinovém nebo podílovém tvaru.pdf"
+formulaRail: false
 hasExercises: true
 ---
 

@@ -27,7 +27,7 @@ source: "Ekonomika/24. Management.docx"
 
 - Čím jdeme blíže k základně, tím jsou úkoly konkrétnější a obrácené jsou obecnější
 - Každá pracovní skupina musí mít formálního vedoucího, kterého jmenuje ředitel, majitel…
-- => rozděluje a kontroluje pracovní úkoly, řeší spory podřízených
+- ⇒ rozděluje a kontroluje pracovní úkoly, řeší spory podřízených
 - __Činnosti__ = plánování, organizování, vedení a motivace lidí, kontrola
 	- __Sekvenční činnosti__ = jdou logicky za sebou
 	- __Průběžné činnosti__ = prostupují celým managementem
@@ -58,7 +58,7 @@ source: "Ekonomika/24. Management.docx"
 - Určí se činnosti, které se budou provádět v podniku z určitého hlediska se uspořádají činnosti a přiřadí se lidi k těmto činnostem
 - __Výsledek__:
 
-1\) __organizační__ __řád__ => vymezuje působnost jednotlivých vnitropodnikových útvarů a jejich vedoucích; jeho součásti je organizační schéma = zobrazuje graficky strukturu podniku, založení nadřízenosti, podřízenosti a odborné spolupráce
+1\) __organizační__ __řád__ ⇒ vymezuje působnost jednotlivých vnitropodnikových útvarů a jejich vedoucích; jeho součásti je organizační schéma = zobrazuje graficky strukturu podniku, založení nadřízenosti, podřízenosti a odborné spolupráce
 
 2\) __pracovní__ __řád__ = vymezuje práva a povinnosti zaměstnanců a zaměstnavatelů
 
@@ -66,9 +66,9 @@ source: "Ekonomika/24. Management.docx"
 
 1. __Vedení a motivace lidí__ = řídící činnosti, snaha co nejdéle udržet zaměstnance ve firmě
 
-3\.1\) __motivace__ = proč právě chceme pracovat v určité firmě; základem motivace jsou motivy => __přímé__ =       vyhlášky, nařízení, zákony, které musíme dodržovat; __nepřímé__ = místo pro seberealizaci = zlepšovací návrhy
+3\.1\) __motivace__ = proč právě chceme pracovat v určité firmě; základem motivace jsou motivy ⇒ __přímé__ =       vyhlášky, nařízení, zákony, které musíme dodržovat; __nepřímé__ = místo pro seberealizaci = zlepšovací návrhy
 
-- __Motivace__ \(motivy\) => __hmotné__ = odměny, prémie, penále, pokuty; __nehmotné__ = vytýkací dopisy, diplomy, pochvaly
+- __Motivace__ \(motivy\) ⇒ __hmotné__ = odměny, prémie, penále, pokuty; __nehmotné__ = vytýkací dopisy, diplomy, pochvaly
 
 3\.2\) __vedení__ = různé rady, připomínky nadřízených, podřízených, jak vykonávat určitou činnosti
 
@@ -81,15 +81,15 @@ source: "Ekonomika/24. Management.docx"
 
 ### Druhy hodnot
 
-1. __Z hlediska času__ => __předběžná__ = před zahájením výroby; __průběžná__ = v průběhu výroby; __následná__ = po skončení výroby
-2. __Z hlediska rozsahu__ => __dílčí__ = kontrolujeme určitou část; __komplexní__ = kontrolujeme vše
-3. __Z hlediska místa__ => __přímá__ = přímo na pracovišti; __nepřímá__ = na základě statistiky, účetních výkazů
+1. __Z hlediska času__ ⇒ __předběžná__ = před zahájením výroby; __průběžná__ = v průběhu výroby; __následná__ = po skončení výroby
+2. __Z hlediska rozsahu__ ⇒ __dílčí__ = kontrolujeme určitou část; __komplexní__ = kontrolujeme vše
+3. __Z hlediska místa__ ⇒ __přímá__ = přímo na pracovišti; __nepřímá__ = na základě statistiky, účetních výkazů
 
 5\) 	__Manažeři__
 
 - Jedna z nejmladších profesí; musí mít určité vlastnosti a dovednosti
-- __Vlastnosti__ => a\) __vrozené__ = inteligence, temperament; b\) __získané__ = vzdělání, praxe, zkoušky
-- __Dovednosti__ => a\) __technické__ = řidičský průkaz, práce na PC; b\) __osobní__ __dovednosti__ = umění jednat s lidmi, řešit konflikty; c\) __koncepční__ = co je podstatné, nepodstatné, co teď, co později
+- __Vlastnosti__ ⇒ a\) __vrozené__ = inteligence, temperament; b\) __získané__ = vzdělání, praxe, zkoušky
+- __Dovednosti__ ⇒ a\) __technické__ = řidičský průkaz, práce na PC; b\) __osobní__ __dovednosti__ = umění jednat s lidmi, řešit konflikty; c\) __koncepční__ = co je podstatné, nepodstatné, co teď, co později
 - __Vedení__:
 
 a\) autokratický styl = sám rozhoduje, přiděluje úkoly, vše řeší, podřízení nemají žádnou odpovědnost;
@@ -98,7 +98,7 @@ b\) __demokratický styl__ = manažer rozhoduje společně s podřízenými, di
 
 c\) __liberální styl__ = manažer pouze určí úkoly, termíny, prostředky a je na podřízených, jak je splní
 
-- Manažer je odměňován na základě manažerské smlouvy, která nesmí nahrazovat pracovní smlouvu a není nijak právně upravena \-> upravuje mzdu manažera, která má 3 části
+- Manažer je odměňován na základě manažerské smlouvy, která nesmí nahrazovat pracovní smlouvu a není nijak právně upravena → upravuje mzdu manažera, která má 3 části
 	- __Základní mzda__ = 25% \- 65% jejich mzdy
 	- __Provize__ = za motivování, zásluhy
 	- __Ostatní složky__ = např\.: počet let odpracovaných ve firmě

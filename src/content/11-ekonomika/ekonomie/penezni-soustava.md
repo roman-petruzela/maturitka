@@ -38,7 +38,7 @@ __A\) diskontní sazba__  – jde o sazbu, za kterou mohou komerční banky ukl�
 
 __B\) reposazba__ \- nejduležitější
 
-   \-  sazba za kterou ČNB půjčuje komerční banka:
+   -  sazba za kterou ČNB půjčuje komerční banka:
 
 \-roste\-li reposazba – stahuje peníze z oběhu
 
@@ -82,7 +82,7 @@ __Funkce:__
 
 - Z hlediska času: termínované \- lze vyzvednout po sjednané lhůtě \-je stanovena lhůta
 
-   \- je stanovena lhůta po výpovědi
+   - je stanovena lhůta po výpovědi
 
 Netermínované \(,,na viděnou”\)
 
@@ -127,7 +127,7 @@ __Dělení:__
 
 4\) Dle úročení \- s pevným úročením \- krátkodobý
 
-\- s pohyblivým úročením \- dlouhodobý
+- s pohyblivým úročením \- dlouhodobý
 
 5\) Dle času
 
@@ -137,7 +137,7 @@ A\) kontokorentní úvěr \- bývá spojen s vkladovým účtem
 
 \+  umožňuje klientovi čerpat s účtů do mínusu do stanoveného limitu
 
-\-  při pozdním splacení úvěru jsou vysoké úroky
+-  při pozdním splacení úvěru jsou vysoké úroky
 
 B\) Eskontní úvěr \- souvisí s odkoupením \(eskont\) směnky od klienta před dobou její splatnosti
 
@@ -151,7 +151,7 @@ D\) Lombardní \- se zástavou movité věci
 
 A\) hypoteční úvěr \- zástavba nemovitostí
 
-\- hypoteční zástavní listy
+- hypoteční zástavní listy
 
 B\) emisní úvěr \- spojen s emisí dlouhodobých CP např\.: podmínkových obligací
 
@@ -205,7 +205,7 @@ B\) Sociální \- platí ho zaměstnanci, zaměstnavatelé, OSVČ, vybrané pros
 4. Pojištění pracovních úrazů a nemocí z povolání
 5. Dobrovolné \- životní \- investiční, životní
 
-   \- neživotní \- osob, majetku, autopojištění, cestovní pojištění, podnikatelů
+   - neživotní \- osob, majetku, autopojištění, cestovní pojištění, podnikatelů
 
 __Podílové fondy__
 
@@ -242,7 +242,7 @@ Funkce peněz:
 3. Zúčtovací jednotka \- pomocí nich umíme vyjádřit hodnotu jakékoliv produktu
 4. Tezaurace \- ,,jako poklad”
 
-     \- slouží k hromadění je možné je použít i v budoucnu
+     - slouží k hromadění je možné je použít i v budoucnu
 
 Vývoj peněz:
 

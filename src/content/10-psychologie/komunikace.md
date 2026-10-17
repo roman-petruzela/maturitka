@@ -20,7 +20,7 @@ __Součásti komunikačního procesu__
 - Komunikační prostředí
 - Zpětná vazba
 
-<img src="/images/content/psychologie/komunikace/01.webp" alt="" width="607" loading="lazy" decoding="async">
+<img src="/images/content/psychologie/komunikace/01.webp" alt="Ilustrace: Komunikace" width="607" loading="lazy" decoding="async">
 
 __Komunikátor__
 
@@ -71,7 +71,7 @@ __Zpětná vazba \(feedback\)__
 - Příklady zpětné vazby: odpověď, ignorování, položení otázky, přikývnutí, změna výrazu apod\.
 - Neverbální zpětná vazba – projevuje se už v průběhu komunikace \(potlesk, neklid, úmyslné rušení\)
 
-<img src="/images/content/psychologie/komunikace/02.webp" alt="" width="567" loading="lazy" decoding="async">
+<img src="/images/content/psychologie/komunikace/02.webp" alt="Ilustrace: Komunikace" width="567" loading="lazy" decoding="async">
 
 __Komunikační šum__
 
@@ -79,7 +79,7 @@ __Komunikační šum__
 - Má rušivý vliv na přenos informace, deformuje podobu informace, narušuje dekódování informace
 - Základní typy šumu
 
-<img src="/images/content/psychologie/komunikace/03.webp" alt="" width="605" loading="lazy" decoding="async">
+<img src="/images/content/psychologie/komunikace/03.webp" alt="Ilustrace: Komunikace" width="605" loading="lazy" decoding="async">
 
 \(Příklady kom\. šumů – zkreslená informace, nadbytečná informace, svítící slunce, nesympatický člověk, vtíravé myšlenky, nesoustředění, únava, …\)
 
@@ -203,11 +203,11 @@ __Zlozvyky při naslouchání__
 
 __Verbální komunikaci doplňuje__
 
-1. __Neverbální komunikace__
+## 1. Neverbální komunikace
 
 \(nepovídat o ní, jen zmínist, že doplňuje verbální – jde o samostatný maturitní okruh\)
 
-1. __Paraverbální komunikace__
+## 2. Paraverbální komunikace
 
 - Tvoří přechod mezi komunikací verbální a neverbální
 - Je vázána na slova a řeč
@@ -228,7 +228,7 @@ Paralingvistika – prostředky
 - Chyby v řeči
 - Členění řeči \(dělá pauzy x mluví bez pauz „jako stroj“\)
 
-1. __Komunikace činem__
+## 3. Komunikace činem
 
 - Činem můžeme vyjádřit své postoje, názory, ovlivňování, pomoc, …
 - Např\. ukážeme zaměstnanci postup práce \(sami ho musíme dobře zvládat\), lze sem zařadit i zjevnou nebo skrytou pomoc, nakreslení schématu, žádost o ruku, aj\.
@@ -305,7 +305,7 @@ __Druhy neverbální komunikace__
 	- Klid x rozčilení
 - Viz obrázek
 
-<img src="/images/content/psychologie/komunikace/04.webp" alt="" width="356" loading="lazy" decoding="async">
+<img src="/images/content/psychologie/komunikace/04.webp" alt="Ilustrace: Komunikace činem" width="356" loading="lazy" decoding="async">
 
 __Mimika – příklady__
 
@@ -322,15 +322,15 @@ __Mimika – příklady__
 - Správný oční kontakt = signalizujeme zájem \(ale nesmíme zírat ☺ \)
 - Prchavý oční kontakt = např\. záměrný odstup, obava, nezájem, špatné svědomí, …
 
-<img src="/images/content/psychologie/komunikace/05.webp" alt="" width="594" loading="lazy" decoding="async">
+<img src="/images/content/psychologie/komunikace/05.webp" alt="Ilustrace: Komunikace činem" width="594" loading="lazy" decoding="async">
 
-<img src="/images/content/psychologie/komunikace/06.webp" alt="" width="459" loading="lazy" decoding="async">
+<img src="/images/content/psychologie/komunikace/06.webp" alt="Ilustrace: Komunikace činem" width="459" loading="lazy" decoding="async">
 
-<img src="/images/content/psychologie/komunikace/07.webp" alt="" width="457" loading="lazy" decoding="async">
+<img src="/images/content/psychologie/komunikace/07.webp" alt="Ilustrace: Komunikace činem" width="457" loading="lazy" decoding="async">
 
-<img src="/images/content/psychologie/komunikace/08.webp" alt="" width="428" loading="lazy" decoding="async">
+<img src="/images/content/psychologie/komunikace/08.webp" alt="Ilustrace: Komunikace činem" width="428" loading="lazy" decoding="async">
 
-1. __Gestika__
+## 4. Gestika
 
 - Zpravidla pohyby rukou \(popř\. hlavy, nohou\), které mohou doplnit / dokreslit verbální sdělení ⇨ doprovázejí řeč
 - Mají kulturní závislost
@@ -363,7 +363,7 @@ __Použití gest__
 - Je potřeba používat gesta, která podpoří obsah toho, co sdělujeme
 - Gesta by měla působit autenticky, neměla by být strojená
 
-1. __Kinezika__
+## 5. Kinezika
 
 - Pohybová stránka komunikace \(spontánní pohyby\)
 - Každý člověk má své charakteristické pohyby \(např\. kamaráda poznáme již zdálky podle jeho chůze\)
@@ -387,11 +387,11 @@ __Chůze__
 
 - Jistá\-potácivá, noblesní\-odměřená, uvolněná\-křečovitá, pohodlná\-těžká
 
-<img src="/images/content/psychologie/komunikace/09.webp" alt="" width="514" loading="lazy" decoding="async">
+<img src="/images/content/psychologie/komunikace/09.webp" alt="Ilustrace: Kinezika" width="514" loading="lazy" decoding="async">
 
-<img src="/images/content/psychologie/komunikace/10.webp" alt="" width="514" loading="lazy" decoding="async">
+<img src="/images/content/psychologie/komunikace/10.webp" alt="Ilustrace: Kinezika" width="514" loading="lazy" decoding="async">
 
-1. __Proxemika__
+## 6. Proxemika
 
 - Komunikace založená na posuzování vzdálenosti mezi komunikujícími osobami
 - Čím více sympatií k druhému člověku tím kratší vzdálenost při komunikaci udržujeme
@@ -407,7 +407,7 @@ __Proxemika \- zóny__
 - __Společenská, sociální, skupinová zóna \(1,2m\-3,6/10m\)__ – služební styk, obchodní jednání, praktické cvičení na VŠ v dané místnosti \(kancelář, posluchárna, pracovní hala\)\.
 - __Veřejná zóna \(nad 3,6m\) –__ lidé se obvykle neznají, mohou si zůstat cizí a nepoznaní, např\. projev politika, výstup herce na jevišti, kněze v kostele, přednášejícího na konferenci apod\.
 
-1. __Posturologie__
+## 7. Posturologie
 
 - Postoj a držení těla
 - Lidé sdělují aktuální prožívání \(jak jim je, co cítí\)
@@ -415,11 +415,11 @@ __Proxemika \- zóny__
 - Signalizuje emoční stav, stupeň zaujetí, postoj k partnerovi a jeho sdělení
 - Příklady viz tabulka
 
-<img src="/images/content/psychologie/komunikace/11.webp" alt="" width="550" loading="lazy" decoding="async">
+<img src="/images/content/psychologie/komunikace/11.webp" alt="Ilustrace: Posturologie" width="550" loading="lazy" decoding="async">
 
-<img src="/images/content/psychologie/komunikace/12.webp" alt="" width="543" loading="lazy" decoding="async">
+<img src="/images/content/psychologie/komunikace/12.webp" alt="Ilustrace: Posturologie" width="543" loading="lazy" decoding="async">
 
-1. __Haptika__
+## 8. Haptika
 
 - Komunikace prostřednictvím __doteků,__ hmatů
 - Doteky mají různé významy – formální, neformální, přátelské, intimní, …
@@ -429,9 +429,9 @@ __Proxemika \- zóny__
 - __Nejčastěji používaným__ dotekem je __podání ruky__ \(pozdrav, potvrzení uzavření smlouvy, nabídka přátelského vztahu, gratulace\), více viz tabulka
 - První kontakt s klientem – podání ruky a představení \(vede k uvolnění\)
 
-<img src="/images/content/psychologie/komunikace/13.webp" alt="" width="491" loading="lazy" decoding="async">
+<img src="/images/content/psychologie/komunikace/13.webp" alt="Ilustrace: Haptika" width="491" loading="lazy" decoding="async">
 
-1. __Úprava zevnějšku__
+## 9. Úprava zevnějšku
 
 - Oblečení, líčení, kultura bydlení, …
 - Vypovídá o tom, nakolik se člověk identifikuje nebo na kolik se chce identifikovat se skupinou

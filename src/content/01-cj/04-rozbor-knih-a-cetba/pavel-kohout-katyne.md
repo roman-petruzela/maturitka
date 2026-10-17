@@ -18,13 +18,13 @@ tags: ["mimo-seznam-cetby"]
 
 - ze začátku přesvědčený komunista (Kulturní kádr)
 
-\-Podporoval Pražské jaro -> 1969 vyloučen s KSČ
+\-Podporoval Pražské jaro → 1969 vyloučen s KSČ
 
-\-Ocitl se na indexu -> Jeho díla cenzurována
+\-Ocitl se na indexu → Jeho díla cenzurována
 
-\-Stál u zrodu charty 77 -> Šikanován StB
+\-Stál u zrodu charty 77 → Šikanován StB
 
-\-1978 vyjel do Rakouska -> poté se mu nebyl povolen návrat
+\-1978 vyjel do Rakouska → poté se mu nebyl povolen návrat
 
 \-usadil se v Rakousku a 1980 mu bylo uděleno občanství
 

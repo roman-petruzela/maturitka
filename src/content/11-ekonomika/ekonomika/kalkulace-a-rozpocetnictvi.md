@@ -24,7 +24,7 @@ __Kalkulační vzorec__
 
 - náklady v kalkulaci se člení do kalkulačních položek přímých a nepřímých nákladů = tvoří kalkulační vzorec
 - skladba kalkulačního vzorce je závislá na druhu činnosti podniku; podnik si volí kalkulační vzorec, který nejlépe vyhovuje podmínkám; je uveden ve vnitřním předpise
-- __1.přímý materiál + 2.přímé mzdy + 3.ostatní přímé náklady + 4. výrobní režie => *Vlastní náklady výroby* + 5.zásobovací režie + 6.správní režie => *Vlastní náklady výkonu* + 7.odbytové náklady => *Úplné vlastní náklady výkonu* + 8.zisk => *Prodejní cena bez DPH*__
+- __1.přímý materiál + 2.přímé mzdy + 3.ostatní přímé náklady + 4. výrobní režie ⇒ *Vlastní náklady výroby* + 5.zásobovací režie + 6.správní režie ⇒ *Vlastní náklady výkonu* + 7.odbytové náklady ⇒ *Úplné vlastní náklady výkonu* + 8.zisk ⇒ *Prodejní cena bez DPH*__
 
 1. __přímý materiál__ = základní materiál, který tvoří podstatu výrobku, podklady THN spotřeby jednotlivých druhů přímého materiálu; pořizovací cena jednotlivých druhů přímého materiálu
 2. __přímé mzdy__ = mzdy výrobních dělníků, podklady THN (výkonové normy – času a množství) příslušné operace; hodinový mzdový tarif příslušné operace
@@ -55,7 +55,7 @@ __2. kalkulace přirážková__
 - rozvrhovou základnou by měly být takové veličiny, které jsou přímo úměrné nepřímým nákladům
 - rozvrhové základy např.: celkové přímé mzdy – nejčastější rozvrhová základna; celkový přímý materiál; celkové přímé náklady = součet přímého materiálu a přímých mezd
 - podíl mezi nepřímými náklady a rozvrhovou základnou je režijní přirážka
-- režijní přirážka se počítá, že je rozvrhová základna vyjádřená v Kč => vyjadřuje, kolik% činí nepřímé náklady z rozvrhové základy; pomocí vypočtené režijní přirážka se stanoví příslušné režijní náklady VR, ZR, SR, ON
+- režijní přirážka se počítá, že je rozvrhová základna vyjádřená v Kč ⇒ vyjadřuje, kolik% činí nepřímé náklady z rozvrhové základy; pomocí vypočtené režijní přirážka se stanoví příslušné režijní náklady VR, ZR, SR, ON
 
 __Rozpočetnictví__
 
@@ -74,7 +74,7 @@ __Rozpočetnictví__
 1\. Přímé náklady
 
 - přímé náklady z předběžné kalkulace (PK)
-- THN + cena (materiál) a HMT => PK \* plánovaný objem výkonů => rozpočet
+- THN + cena (materiál) a HMT ⇒ PK \* plánovaný objem výkonů ⇒ rozpočet
 
 2\. Nepřímé náklady
 

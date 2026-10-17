@@ -41,7 +41,7 @@ __Železniční doprava__
 - rozdělení vlaků: osobní, rychlíky, expres \(EC\) \- expresivní
 - pohon vlaků \- parní, motorový, elektrický
 - rychlovlaky: TGV ve Francii, Hikari v Japonsku, ICE v Německu
-- __Ro\-La__\-propojení železnice a silniční dopravy \(Rakousko, Švýcarsko => kvůli Alpám\)
+- __Ro\-La__\-propojení železnice a silniční dopravy \(Rakousko, Švýcarsko ⇒ kvůli Alpám\)
 
 __Letecká doprava__
 
@@ -132,7 +132,7 @@ __Předpoklady__
 __CESTOVNÍ RUCH__
 
 - volnočasové aktivity \- cestování a obecně turismus
-- v posledních letech se obor služeb zaměřených na CR stal hodně významným \-> samostatná část služeb \(cestovní kanceláře \- CK, dopravní společnosti, ubytovací a stravovací zařízení, průvodcovství, prohlídka památek, rekreační sportovní zařízení…\)
+- v posledních letech se obor služeb zaměřených na CR stal hodně významným → samostatná část služeb \(cestovní kanceláře \- CK, dopravní společnosti, ubytovací a stravovací zařízení, průvodcovství, prohlídka památek, rekreační sportovní zařízení…\)
 - počet turistů \- 1\. Francie, 2\. Španělsko, 3\. USA
 - příjmy \- 1\. USA, 2\. Španělsko, 3\. Francie
 - trh CR se skládá z nabídky a poptávky služeb, turistických atraktivit, reálných příjmů obyvatel, cen…

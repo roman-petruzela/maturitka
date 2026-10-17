@@ -25,8 +25,8 @@ Podnikáním lze považovat činnost určitého subjektu, která je dovolená, j
 
 1. SAMOSTATNOST
 
-- MATERIÁLNÍ => činnost, kdy určitý formálně samostatný subjekt poskytuje výkony pouze jedinému nebo několika málo jiným subjektům a při výkonu této činnosti se v zásadě řídí pouze jeho (jejich) pokyny (Podnikatelský vztah má maskovat vztah zaměstnanecký, vždy posuzujeme konkrétní okolnosti případu, materiální samostatnost značí nezávislost)
-- FORMÁLNÍ => projevuje se v tom, že činnost je provozována vlastním jménem a na vlastní odpovědnost
+- MATERIÁLNÍ ⇒ činnost, kdy určitý formálně samostatný subjekt poskytuje výkony pouze jedinému nebo několika málo jiným subjektům a při výkonu této činnosti se v zásadě řídí pouze jeho (jejich) pokyny (Podnikatelský vztah má maskovat vztah zaměstnanecký, vždy posuzujeme konkrétní okolnosti případu, materiální samostatnost značí nezávislost)
+- FORMÁLNÍ ⇒ projevuje se v tom, že činnost je provozována vlastním jménem a na vlastní odpovědnost
 
 1. DOSAŽENÍ VLASTNÍHO HOSPODÁŘSKÉHO PROSPĚCHU
 
@@ -58,7 +58,7 @@ __PODNIKÁNÍ A INFORMACE__
 
 1. VEDENÍ ÚČETNICTVÍ
 
-=> zachycuje informace o stavu a pohybu majetku a jiných aktiv, závazků včetně dluhů a jiných pasiv, dále o nákladech a výnosech a o výsledku hospodaření.
+⇒ zachycuje informace o stavu a pohybu majetku a jiných aktiv, závazků včetně dluhů a jiných pasiv, dále o nákladech a výnosech a o výsledku hospodaření.
 
 - Účetnictví podnikatele je upraveno OZ, z. o účetnictví, z. o dani z příjmu
 - Musejí vést účetnictví povinně, pokud:
@@ -114,10 +114,10 @@ __VEŘEJNÁ SPRÁVA A PODNIKÁNÍ__
 
 Veřejná správa stojí na obou stranách, to znamená, že říká, kdo a jak bude podnikat a zároveň i může sama podnikat (obce podniká například se sběrnými dvory)
 
-STÁTNÍ SPRÁVA A PODNIKÁNÍ
+## STÁTNÍ SPRÁVA A PODNIKÁNÍ
 
 Plní celou řadu správních činností. Prostřednictvím správní normotvorby konkretizuje některá ustanovení zákonů. Důležité je primární rozhodování o právních poměrech uchazečů o podnikatelské oprávnění nebo podnikatelů – jeho výsledkem jsou správní akty typu povolení, popřípadě koncese. Ve vztahu k oblasti podnikání vyvíjí rozsáhlou evidenční činnost (živnostenský rejstřík).
 
-ÚZEMNÍ SAMOSPRÁVA
+## ÚZEMNÍ SAMOSPRÁVA
 
 Nástroje používané vůči podnikatelské sféře územními samosprávnými celky, resp. Jejich orgány jsou výrazem jejich přenesené působnosti (obecně závazné vyhlášky – samostatná působnost, nařízení – přenesená působnost).

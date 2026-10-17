@@ -4,7 +4,7 @@ order: 13
 source: "robotika1.pol/cv10_teplota_LCD_displej.pdf"
 ---
 
-# Zobrazení teploty a vlhkosti na LCD displeji
+## Zobrazení teploty a vlhkosti na LCD displeji
 
 Zobrazte na LCD displeji údaje o teplotě a vlhkosti. Pro připojení čidla můžete využít materiálů:
 
@@ -12,7 +12,7 @@ Zobrazte na LCD displeji údaje o teplotě a vlhkosti. Pro připojení čidla m�
 
 - cv09b_I2C_LCD_displej.pdf
 
-## Budeme potřebovat
+### Budeme potřebovat
 
 1. Arduino Uno (nebo jinou desku).
 
@@ -26,13 +26,13 @@ Zobrazte na LCD displeji údaje o teplotě a vlhkosti. Pro připojení čidla m�
 
 6. čidlo DHT11
 
-## Zapojení
+### Zapojení
 
 <img src="/images/content/it/robotika/teplota-na-lcd-displeji/01.webp" alt="Zapojení čidla DHT11 a LCD displeje" width="640" loading="lazy" decoding="async">
 
 <img src="/images/content/it/robotika/teplota-na-lcd-displeji/02.webp" alt="Zapojení" width="276" loading="lazy" decoding="async">
 
-### <u>LCD panelu na I2C:</u>
+#### <u>LCD panelu na I2C:</u>
 
 |I2C LCD1602|Arduino UNO|
 |---|---|
@@ -41,7 +41,7 @@ Zobrazte na LCD displeji údaje o teplotě a vlhkosti. Pro připojení čidla m�
 |SDA|A4|
 |SCL|A5|
 
-### <u>Čidlo teploty:</u>
+#### <u>Čidlo teploty:</u>
 
 |DHT11|Arduino UNO|
 |---|---|
@@ -49,7 +49,7 @@ Zobrazte na LCD displeji údaje o teplotě a vlhkosti. Pro připojení čidla m�
 |„+“|5V|
 |out|pin 4|
 
-## Program
+### Program
 
 Do Arduino IDE vložíme kód programu a nahrajeme jej do Arduina:
 
@@ -104,7 +104,7 @@ void loop() {
 }
 ```
 
-## Citace:
+### Citace:
 
 Arduino MAXI Starter kit OD BASTLÍŘŮ BASTLÍŘŮM - Lekce 24 Senzor teploty a vlhkosti vzduchu DHT11
 

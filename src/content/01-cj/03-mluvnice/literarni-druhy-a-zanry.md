@@ -5,7 +5,7 @@ source: "ČESKÝ JAZYK - VŠE/Český jazyk - Mluvnice /Literární druhy a žá
 ---
 __Literární druhy Lyrika__ vznikla z řeckého „lyrika melé“ – lyrou doprovázené verše, - typická pro poezii, - vyjadřuje dojmy, city, (příroda i člověk) - snaží se zachytit skutečnost v jedinečném okamžiku, - tato díla mohou obsahovat epické prvky – náznak děje, postavy. __Epika__ – z řeckého „epikos“ – výpravný, dějový, - vychází z děje, - vypráví příběh s postavami, prostředím,
 
-\- KOMPOZICE: expozice (výklad), kolize (srážka, v ní dochází k zápletce = zauzlení děje), krize (
+- KOMPOZICE: expozice (výklad), kolize (srážka, v ní dochází k zápletce = zauzlení děje), krize (
 
 rozhodná chvíle, vrchol dějového napětí), peripetie ( dějový obrat, rozhodující změna v ději), rozuzlení ( vyřešení konfliktu) - DVĚ PÁSMA PROMLUV:
 
@@ -15,7 +15,7 @@ Literární druhy se nemění, měnit se mohou literární žánry. Stejná lát
 
 __Druhové formy Lyrika__ – přírodní, milostná, duchovní. __Epika__
 
-\- __velká__ – román, epos, - __střední__ – pohádka, pověst, povídka, novela, legenda, někdy bajka, - __malá__ –bajka, anekdota, __Drama__ – historické, absurdní.
+- __velká__ – román, epos, - __střední__ – pohádka, pověst, povídka, novela, legenda, někdy bajka, - __malá__ –bajka, anekdota, __Drama__ – historické, absurdní.
 
 __Literární žánry__
 

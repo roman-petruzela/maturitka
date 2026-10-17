@@ -81,7 +81,7 @@ __Zásoby vlastní výroby – účtová skupina 58__
 	- většinou vedlejší pořizovací náklady
 	- __111, 042/585__
 
-Časové rozlišení nákladů
+## Časové rozlišení nákladů
 
 __1) Časové rozlišení v užším pojetí__
 
@@ -142,23 +142,23 @@ __a) Náklady příštích období__
 
 - předem placené nájemné, náklady na dlouhodobou propagaci, …
 
-<img src="/images/content/ekonomika/ucetnictvi/naklady-vcetne-casoveho-rozliseni-nakladu/01.webp" alt="" width="564" loading="lazy" decoding="async">
+<img src="/images/content/ekonomika/ucetnictvi/naklady-vcetne-casoveho-rozliseni-nakladu/01.webp" alt="Ilustrace: Časové rozlišení nákladů" width="564" loading="lazy" decoding="async">
 
 __b) Komplexní náklady příštích období__
 
-<img src="/images/content/ekonomika/ucetnictvi/naklady-vcetne-casoveho-rozliseni-nakladu/02.webp" alt="" width="594" loading="lazy" decoding="async">
+<img src="/images/content/ekonomika/ucetnictvi/naklady-vcetne-casoveho-rozliseni-nakladu/02.webp" alt="Ilustrace: Časové rozlišení nákladů" width="594" loading="lazy" decoding="async">
 
 __c) Výdaje příštích období__
 
-<img src="/images/content/ekonomika/ucetnictvi/naklady-vcetne-casoveho-rozliseni-nakladu/03.webp" alt="" width="587" loading="lazy" decoding="async">
+<img src="/images/content/ekonomika/ucetnictvi/naklady-vcetne-casoveho-rozliseni-nakladu/03.webp" alt="Ilustrace: Časové rozlišení nákladů" width="587" loading="lazy" decoding="async">
 
 __d) Výnosy příštích období__
 
-<img src="/images/content/ekonomika/ucetnictvi/naklady-vcetne-casoveho-rozliseni-nakladu/04.webp" alt="" width="586" loading="lazy" decoding="async">
+<img src="/images/content/ekonomika/ucetnictvi/naklady-vcetne-casoveho-rozliseni-nakladu/04.webp" alt="Ilustrace: Časové rozlišení nákladů" width="586" loading="lazy" decoding="async">
 
 __e) Příjmy příštích období__
 
-<img src="/images/content/ekonomika/ucetnictvi/naklady-vcetne-casoveho-rozliseni-nakladu/05.webp" alt="" width="589" loading="lazy" decoding="async">
+<img src="/images/content/ekonomika/ucetnictvi/naklady-vcetne-casoveho-rozliseni-nakladu/05.webp" alt="Ilustrace: Časové rozlišení nákladů" width="589" loading="lazy" decoding="async">
 
 __2) Časové rozlišení v širším pojetí__
 

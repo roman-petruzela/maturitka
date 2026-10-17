@@ -125,9 +125,9 @@ Náležitosti:
 
 Zásady: kalkuluje se  - na 3 desetinná místa
 
-\- z hrubé hmotnosti
+- z hrubé hmotnosti
 
-HYGIENA PROVOZU
+### HYGIENA PROVOZU
 
 = HACCP = Hazard Analysis Control Critical Point
 
@@ -175,7 +175,7 @@ HYGIENA PROVOZU
 
 Funkce:
 
-- přispívá k regeneraci prac.sil -> menší nemocnost, úraznost
+- přispívá k regeneraci prac.sil → menší nemocnost, úraznost
 - Umožňuje energet. Příjem dle druhu vykonávané práce
 - Podporuje dobré pracov.vztahy
 
@@ -188,7 +188,7 @@ Formy:
 - Specializovanou firmou (catering)
 - Současně s jidelnou bývají ve firmách I zařízení pro doplňkové stravování (kantýny, bufety...)
 - Příspěvek na stravování bývá v kolektivních smlouvách
-- Nárok v každé směně (alespon 3 hodiny) je-li delší než 11 hodin -> 2x příspěvek
+- Nárok v každé směně (alespon 3 hodiny) je-li delší než 11 hodin → 2x příspěvek
 - Pokrmy jsou připravována dle receptur pro závodní stravování (doporučené) a rozeznáváme 3 druhy nákladů :
 
 1. Na suroviny

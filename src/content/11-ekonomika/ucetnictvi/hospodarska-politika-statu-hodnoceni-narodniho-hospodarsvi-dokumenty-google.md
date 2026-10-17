@@ -7,7 +7,7 @@ source: "Účetnictví/16. Hospodářská politika státu, hodnocení národníh
 
 Vláda  každého  státu  přijímá  různá  opatření,  kterými  řídí,  reguluje  nebo  usměrňuje  vývoj hospodářství.  Říkáme,  že  provádí  tzv.  hospodářskou  politiku.
 
-Hospodářská  politika  státu
+## Hospodářská politika státu
 
 - zásahy  státu  a  jeho  orgánů  do  ekonomiky  pro  dosažení  určitých  cílů.
 
@@ -243,7 +243,7 @@ A  naopak,  přebytek  znamená  zvýšení  našich  příjmů  -  může  se  
 
 _V  praxi  může  docházet  ke  kombinaci  těchto  příčin,  která  může  výsledné  účinky  násobit._
 
-V  ČR  měří  nezaměstnanost  dvě  instituce
+### V ČR měří nezaměstnanost dvě instituce
 
 - **Ministerstvo  práce  a  sociálních  věcí  ČR** -  sleduje  tzv.  registrovanou  nezaměstnanost  dle evidence  úřadů  práce
 

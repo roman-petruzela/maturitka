@@ -4,8 +4,6 @@ order: 12
 source: "robotika1.pol/cv09b_I2C_LCD_displej.pdf"
 ---
 
-# I2C LCD displej
-
 LCD displej je vhodný pro zobrazování údajů a zlepšují tím pádem naši interakci s přístroji. LCD panely se běžně připojují na kontroler, na kterém obsadí několik I/O portů, kterých je omezený počet. Proto byl vyvinut převodník se I2C sběrnicí pro 1602 a 2004 LCD displej, který daný problém vyřešil.
 
 I²C (anglicky Inter-Integrated Circuit, čteme I-squared-C, nesprávně I-two-C) je multi-masterová počítačová sériová sběrnice vyvinutá firmou Philips, která je používána k připojování nízkorychlostních periferií k základní desce, mikrokontroléru, aj.
@@ -14,7 +12,7 @@ Praktická identická sběrnice se skrývá i pod zkratkou TWI (Two Wire Interfa
 
 Modrý potenciometr na převodníky se používá k nastavení podsvícení. I²C používá pouze dva obousměrné kanály - datový kanál SDA a hodinový signál SCL s pull-up rezistory. Používá se napětí +5 V nebo +3,3 V, povoleny jsou však i systémy s jiným napětím.
 
-## Budeme potřebovat
+### Budeme potřebovat
 
 1. Arduino Uno (nebo jinou desku).
 
@@ -26,7 +24,7 @@ Modrý potenciometr na převodníky se používá k nastavení podsvícení. I²
 
 5. I²C zařízení např. I2C LCD displej
 
-## Zapojení
+### Zapojení
 
 Dle obrázku:
 
@@ -53,13 +51,13 @@ Program bude vycházet z předchozího programu na skenování adresy zařízen�
 
 Tentokráte necháme zobrazit text na LCD displeji pomocí programování.
 
-## Instalace knihoven
+### Instalace knihoven
 
 Staženou knihovnu „ _LiquidCrystal_I2C.zip_ “ rozbalte do adresáře:
 
 „ **C:\Users\uživatelské_jméno\Documents\Arduino\Libraries** “ ještě před kompilací programu.
 
-## Program
+### Program
 
 Do Arduino IDE vložíme kód programu a nahrajeme jej do Arduina:
 
@@ -110,11 +108,11 @@ Pokud nejde na displeji nic vidět, tak je potřeba změnit nastavení odporové
 
 _Obrázek 4: Kontrola podsvícení LCD displeje_
 
-## Úkol:
+### Úkol:
 
 Upravte program tak, aby text zobrazovaném na druhém řádku probíhal zleva doprava.
 
-## Citace:
+### Citace:
 
 Arduino MAXI Starter kit OD BASTLÍŘŮ BASTLÍŘŮM - Lekce 6 Lekce 6 I2C LCD displej
 

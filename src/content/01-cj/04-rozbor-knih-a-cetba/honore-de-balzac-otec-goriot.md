@@ -137,7 +137,7 @@ Francie:
 
 Gustav Flaubert (1821–1880)
 
-_Paní Bovaryová_ – hlavní hrdinka Ema Bovaryová -> literární typ, žena utíkající od skutečnosti k iluzím = bovarismus
+_Paní Bovaryová_ – hlavní hrdinka Ema Bovaryová → literární typ, žena utíkající od skutečnosti k iluzím = bovarismus
 
 _Citová výchova_ – podtitul Historie mladého muže, osudy romantika _Bouvard a Pécuchet_ – nedokončený román, podle něj seriál Byli jednou dva písaři
 

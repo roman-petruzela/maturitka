@@ -2,6 +2,7 @@
 title: "Obecná posloupnost"
 order: 34
 source: "Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/34) Obecná posloupnost.pdf"
+formulaRail: false
 hasExercises: true
 ---
 

@@ -13,7 +13,7 @@ Základy kinematiky položil italský učenec Galileo Galilei (1564–1642)
 ## Hmotný bod HB
 
 - myšlený model
-- zanedbáváme jeho rozměry -> počítáme jen s jeho m
+- zanedbáváme jeho rozměry → počítáme jen s jeho m
 - umisťujeme ho do těžiště tělesa
 
 ## Vztažná soustava
@@ -28,18 +28,18 @@ __Vztažný bod__ = bod na vztažném tělese pro přesnější popis polohy HB
 
 __Vztažná soustava__ = soustava těles, ke kterým vztahujeme pohyb (klid) sledovaného tělesa (nejčastěji volíme povrch Země nebo tělesa pevně spojená s povrchem Země)
 
-Poloha HB
+## Poloha HB
 
 __a) Kartézská soustava souřadnic            b) Polohový vektor r__
 
-- <img src="/images/content/fyzika/kinematika/01.webp" alt="" width="235" loading="lazy" decoding="async">Znázorňujeme orientovanou úsečkou
+- <img src="/images/content/fyzika/kinematika/01.webp" alt="Ilustrace: Poloha HB" width="235" loading="lazy" decoding="async">Znázorňujeme orientovanou úsečkou
 - Počáteční bod se umisťuje do počátku souřadnicového systému a koncový bod do uvažovaného HB
-- Jeho souřadnice jsou totožné se souřadnicemi HB<img src="/images/content/fyzika/kinematika/02.webp" alt="" width="146" loading="lazy" decoding="async">
+- Jeho souřadnice jsou totožné se souřadnicemi HB<img src="/images/content/fyzika/kinematika/02.webp" alt="Ilustrace: Poloha HB" width="146" loading="lazy" decoding="async">
 - Velikost polohového vektoru |r|:
 
-<img src="/images/content/fyzika/kinematika/03.webp" alt="" width="196" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/kinematika/03.webp" alt="Ilustrace: Poloha HB" width="196" loading="lazy" decoding="async">
 
-Trajektorie a dráha HB
+## Trajektorie a dráha HB
 
 __Trajektorie HB__
 
@@ -52,13 +52,13 @@ __Dráha HB__
 - Délka trajektorie, kterou HB opíše za určitou dobu
 - Je to skalární veličina, kterou označujeme s a základní jednotkou je 1 m
 
-Průměrná rychlost vp <img src="/images/content/fyzika/kinematika/04.webp" alt="" width="78" loading="lazy" decoding="async">
+Průměrná rychlost vp <img src="/images/content/fyzika/kinematika/04.webp" alt="Ilustrace: Trajektorie a dráha HB" width="78" loading="lazy" decoding="async">
 
 Je __skalár__, který je definován jako podíl dráhy s a doby t, za kterou HB tuto dráhu urazí:
 
 __Hlavní jednotka:__ m.s-1
 
-(u dopravních prostředků: km.h-1)<img src="/images/content/fyzika/kinematika/05.webp" alt="" width="293" loading="lazy" decoding="async">
+(u dopravních prostředků: km.h-1)<img src="/images/content/fyzika/kinematika/05.webp" alt="Ilustrace: Trajektorie a dráha HB" width="293" loading="lazy" decoding="async">
 
 1 m.s-1 = 3,6 km.h-1
 
@@ -73,11 +73,11 @@ __Změna polohového vektoru Δr__ (k níž dojde při pohybu HB za dobu Δt, je
 
 rozdílem obou polohových vektorů: Δ**r** = __r´__ – __r__
 
-<img src="/images/content/fyzika/kinematika/06.webp" alt="" width="61" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/kinematika/06.webp" alt="Ilustrace: Okamžitá rychlost v" width="61" loading="lazy" decoding="async">
 
 __Okamžitou rychlost__ HB definujeme vztahem:
 
-<img src="/images/content/fyzika/kinematika/07.webp" alt="" width="83" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/kinematika/07.webp" alt="Ilustrace: Okamžitá rychlost v" width="83" loading="lazy" decoding="async">
 
 __Velikost okamžité rychlosti__ definujeme vztahem:
 
@@ -87,19 +87,19 @@ změny polohového vektoru během ↓ Δt)
 
 ## Zrychlení HB
 
-- Zrychlení __a__ je vektor, který se týká časové změny vektoru rychlosti, tj. změny velikosti i směru vektoru rychlosti<img src="/images/content/fyzika/kinematika/08.webp" alt="" width="61" loading="lazy" decoding="async">
+- Zrychlení __a__ je vektor, který se týká časové změny vektoru rychlosti, tj. změny velikosti i směru vektoru rychlosti<img src="/images/content/fyzika/kinematika/08.webp" alt="Ilustrace: Zrychlení HB" width="61" loading="lazy" decoding="async">
 
   __Zrychlení__ a v čase Δt definujeme vztahem:
 
-(kde Δt je velmi malé)<img src="/images/content/fyzika/kinematika/09.webp" alt="" width="78" loading="lazy" decoding="async">
+(kde Δt je velmi malé)<img src="/images/content/fyzika/kinematika/09.webp" alt="Ilustrace: Zrychlení HB" width="78" loading="lazy" decoding="async">
 
 __Velikost zrychlení__ v čase Δt definujeme vztahem:
 
 __Jednotka zrychlení:__ m.s-2
 
-__Pohyb zrychlený__ – vektor zrychlení má stejný směr jako vektor rychlosti => kladné a
+__Pohyb zrychlený__ – vektor zrychlení má stejný směr jako vektor rychlosti ⇒ kladné a
 
-__Pohyb zpomalený__ – vektor zrychlení má opačný směr => záporné a
+__Pohyb zpomalený__ – vektor zrychlení má opačný směr ⇒ záporné a
 
 __Tečné a normálové zrychlení__ – u křivočarého pohybu je vhodné rozložit vektor okamžitého zrychlení do dvou navzájem kolmých směrů (směr tečny a normály):
 
@@ -123,9 +123,9 @@ __Tečné a normálové zrychlení__ – u křivočarého pohybu je vhodné rozl
 - Nejjednodušší přímočarý pohyb – na celé trajektorii se velikost ani směr rychlosti nemění (v = konst)
 - V libovolném bodě trajektorie je okamžitá rychlost rovna rychlosti průměrné
 
-<img src="/images/content/fyzika/kinematika/10.webp" alt="" width="141" loading="lazy" decoding="async"><img src="/images/content/fyzika/kinematika/11.webp" alt="" width="129" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/kinematika/10.webp" alt="Ilustrace: Pohyb rovnoměrný přímočarý" width="141" loading="lazy" decoding="async"><img src="/images/content/fyzika/kinematika/11.webp" alt="Ilustrace: Pohyb rovnoměrný přímočarý" width="129" loading="lazy" decoding="async">
 
-<img src="/images/content/fyzika/kinematika/12.webp" alt="" width="283" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/kinematika/12.webp" alt="Ilustrace: Pohyb rovnoměrný přímočarý" width="283" loading="lazy" decoding="async">
 
 ## Rovnoměrně zrychlený (zpomalený) přímočarý pohyb
 
@@ -133,23 +133,23 @@ __Tečné a normálové zrychlení__ – u křivočarého pohybu je vhodné rozl
 
 __Δv = konst__, __a = konst__
 
-- <img src="/images/content/fyzika/kinematika/13.webp" alt="" width="210" loading="lazy" decoding="async">Směr okamžité rychlosti se nemění
-- Má-li a stejný směr jako v => __pohyb zrychlený__
-- Má-li a opačný směr než v => __pohyb zpomalený__
+- <img src="/images/content/fyzika/kinematika/13.webp" alt="Ilustrace: Rovnoměrně zrychlený (zpomalený) přímočarý pohyb" width="210" loading="lazy" decoding="async">Směr okamžité rychlosti se nemění
+- Má-li a stejný směr jako v ⇒ __pohyb zrychlený__
+- Má-li a opačný směr než v ⇒ __pohyb zpomalený__
 
 Pohyb zrychlený
 
 v =  + a\*t 						s = v0.t + ½ a.t2
 
-<img src="/images/content/fyzika/kinematika/14.webp" alt="" width="274" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/kinematika/14.webp" alt="Ilustrace: Rovnoměrně zrychlený (zpomalený) přímočarý pohyb" width="274" loading="lazy" decoding="async">
 
 Pohyb zpomalený
 
 v = v0 – a.t 						s = v0.t – ½ a.t2
 
-<img src="/images/content/fyzika/kinematika/15.webp" alt="" width="205" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/kinematika/15.webp" alt="Ilustrace: Rovnoměrně zrychlený (zpomalený) přímočarý pohyb" width="205" loading="lazy" decoding="async">
 
-<img src="/images/content/fyzika/kinematika/16.webp" alt="" width="272" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/kinematika/16.webp" alt="Ilustrace: Rovnoměrně zrychlený (zpomalený) přímočarý pohyb" width="272" loading="lazy" decoding="async">
 
 ## Volný pád
 

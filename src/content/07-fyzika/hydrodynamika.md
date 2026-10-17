@@ -8,7 +8,7 @@ Hydrodynamika
 - zabývá se __mechanickým pohybem__ (prouděním) tekutin
 - V proudící tekutině má každá částice určitou rychlost v, jejíž velikost a směr se __může měnit v závislosti na místě a na čase__. Je-li rychlost v částic __stálá__, tj. nemění se s časem, jde o __ustálené (stacionární) proudění__. Pokud se rychlost v částic __mění s časem__ jde o __neustálené proudění.__
 - Trajektorie jednotlivých částic proudící tekutiny při ustáleném proudění znázorňujeme proudnicemi.
-- __Proudnice__ – myšlená čára, jejíž tečna v libovolném bodě má směr rychlosti v pohybující se částice.<img src="/images/content/fyzika/hydrodynamika/01.webp" alt="" width="284" loading="lazy" decoding="async">
+- __Proudnice__ – myšlená čára, jejíž tečna v libovolném bodě má směr rychlosti v pohybující se částice.<img src="/images/content/fyzika/hydrodynamika/01.webp" alt="Ilustrace: Hydrodynamika" width="284" loading="lazy" decoding="async">
 
 ## Ustálené proudění ideální kapaliny
 
@@ -23,10 +23,10 @@ Hydrodynamika
 
 Platí 	  __Qv = konst.__   a proto $S_1 v_1 = S_2 v_2 = \text{konst.}$
 
-<img src="/images/content/fyzika/hydrodynamika/02.webp" alt="" width="218" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/hydrodynamika/02.webp" alt="Ilustrace: Rovnice kontinuity (rovnice spojitosti toku)" width="218" loading="lazy" decoding="async">
 
 - Ze vztahu vidíme, že pokud je $S_1 > S_2$, pak $v_1 < v_2$. __Proto v užším průřezu trubice proudí kapalina větší rychlostí než v průřezu širším__.
-- <img src="/images/content/fyzika/hydrodynamika/03.webp" alt="" width="291" loading="lazy" decoding="async">__Využití__ – zahradnické hadice (větší rychlosti tryskající vody dosáhneme, zúžíme-li její konec), vodní vývěva
+- <img src="/images/content/fyzika/hydrodynamika/03.webp" alt="Ilustrace: Rovnice kontinuity (rovnice spojitosti toku)" width="291" loading="lazy" decoding="async">__Využití__ – zahradnické hadice (větší rychlosti tryskající vody dosáhneme, zúžíme-li její konec), vodní vývěva
 
 ## Bernoulliho rovnice
 
@@ -38,15 +38,15 @@ $$\frac{1}{2} \rho v^2 + p = \text{konst.}$$
 
 $$\frac{1}{2} \rho v_1^2 + p_1 = \frac{1}{2} \rho v_2^2 + p_2$$
 
-<img src="/images/content/fyzika/hydrodynamika/06.webp" alt="" width="332" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/hydrodynamika/06.webp" alt="Ilustrace: Bernoulliho rovnice" width="332" loading="lazy" decoding="async">
 
 - Kde první člen rovnice představuje kinetickou energii kapaliny a druhý člen tlakovou potenciální energii.
 - V zúžené části potrubí má kapalina __větší rychlost a větší kinetickou energii__, ale __menší tlak.__
-- <img src="/images/content/fyzika/hydrodynamika/07.webp" alt="" width="238" loading="lazy" decoding="async">Při značném zúžení trubice, kdy __rychlost__ proudící kapaliny __nabývá velkých hodnot__ může tlak klesnout až __pod hodnotu tlaku atmosférického__. V zúženém místě trubice __vzniká podtlak__ a do manometrické trubice se nasává vzduch. Tento jev se nazývá __hydrodynamický paradoxon.__
+- <img src="/images/content/fyzika/hydrodynamika/07.webp" alt="Ilustrace: Bernoulliho rovnice" width="238" loading="lazy" decoding="async">Při značném zúžení trubice, kdy __rychlost__ proudící kapaliny __nabývá velkých hodnot__ může tlak klesnout až __pod hodnotu tlaku atmosférického__. V zúženém místě trubice __vzniká podtlak__ a do manometrické trubice se nasává vzduch. Tento jev se nazývá __hydrodynamický paradoxon.__
 - Podtlak také vzniká u proudících plynů, u proudícího vzduchu se využívá podtlaku rozprašovače, stříkací pistole, karburátorech spalovacích motorů.
 - Foukáme-li mezi dva svisle zavěšené listy papíru, __vzniká mezi nimi podtlak__ a působením atmosférické tlakové síly se listy přitahují, tomuto jevu se říká __aerodynamické paradoxon__
 
-<img src="/images/content/fyzika/hydrodynamika/08.webp" alt="" width="375" loading="lazy" decoding="async"><img src="/images/content/fyzika/hydrodynamika/09.webp" alt="" width="190" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/hydrodynamika/08.webp" alt="Ilustrace: Bernoulliho rovnice" width="375" loading="lazy" decoding="async"><img src="/images/content/fyzika/hydrodynamika/09.webp" alt="Ilustrace: Bernoulliho rovnice" width="190" loading="lazy" decoding="async">
 
 = vývěva
 
@@ -60,16 +60,16 @@ kde první člen vyjadřuje tlakovou potenciální energii, druhý člen hydrost
 
 - __Výtoková rychlost__ – velikost rychlosti kapaliny vytékající otvorem v nádobě, hloubce h pod povrchem kapaliny, je větší u otvoru, který je ve větší hloubce. Stejný vztah platí pro velikost rychlosti, kterou dopadá na zem těleso při volném pádu z výšky h. *Kapalina vytéká z otvoru v hloubce h stejně velkou rychlostí, jakou by dopadla z výšky h*.
 
-<img src="/images/content/fyzika/hydrodynamika/11.webp" alt="" width="236" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/hydrodynamika/11.webp" alt="Ilustrace: Bernoulliho rovnice" width="236" loading="lazy" decoding="async">
 
 ## Proudění skutečné kapaliny
 
 - __Skutečná (reálná) kapalina__ – není dokonale tekutá a zcela nestlačitelná
 - Při proudění působí vždy __odporové síly__ zvané __síly vnitřního tření__
-- __Rychlost__ kapaliny __není__ ve všech místech průřezu __stejná__. Vrstva kapaliny, která se bezprostředně __stýká__ se __stěnami trubice__, se pohybuje v důsledku tření __pomaleji__.<img src="/images/content/fyzika/hydrodynamika/12.webp" alt="" width="360" loading="lazy" decoding="async">
-- => největší rychlost mají částice, které procházejí středem průřezu trubice
-- __Laminární proudění__ – vzniká při malých rychlostech proudění kapaliny, kde jsou proudnice __rovnoběžné__. Odporová síla F je poměrně malá a její velikost F je přímo úměrná rychlosti v.<img src="/images/content/fyzika/hydrodynamika/13.webp" alt="" width="288" loading="lazy" decoding="async">
-- __Turbulentní proudění__ – vzniká při vyšších rychlostech tzn. dochází ke tvorbě vírů a zobrazovaní pomocí proudnic ztrácí svůj význam. Měřením bylo zjištěno, že velikost odporové síly F se zvětšuje s druhou mocninou rychlosti v.<img src="/images/content/fyzika/hydrodynamika/14.webp" alt="" width="328" loading="lazy" decoding="async">
+- __Rychlost__ kapaliny __není__ ve všech místech průřezu __stejná__. Vrstva kapaliny, která se bezprostředně __stýká__ se __stěnami trubice__, se pohybuje v důsledku tření __pomaleji__.<img src="/images/content/fyzika/hydrodynamika/12.webp" alt="Ilustrace: Proudění skutečné kapaliny" width="360" loading="lazy" decoding="async">
+- ⇒ největší rychlost mají částice, které procházejí středem průřezu trubice
+- __Laminární proudění__ – vzniká při malých rychlostech proudění kapaliny, kde jsou proudnice __rovnoběžné__. Odporová síla F je poměrně malá a její velikost F je přímo úměrná rychlosti v.<img src="/images/content/fyzika/hydrodynamika/13.webp" alt="Ilustrace: Proudění skutečné kapaliny" width="288" loading="lazy" decoding="async">
+- __Turbulentní proudění__ – vzniká při vyšších rychlostech tzn. dochází ke tvorbě vírů a zobrazovaní pomocí proudnic ztrácí svůj význam. Měřením bylo zjištěno, že velikost odporové síly F se zvětšuje s druhou mocninou rychlosti v.<img src="/images/content/fyzika/hydrodynamika/14.webp" alt="Ilustrace: Proudění skutečné kapaliny" width="328" loading="lazy" decoding="async">
 
 ## Obtékání těles
 
@@ -87,14 +87,14 @@ kde C je součinitel odporu, ρ hustota vzduchu, S obsah průřezu tělesa kolm�
 
 - __Součinitel odporu__ C závisí na __tvaru__ tělesa. Pokusy v aerodynamickém tunelu, do něhož byla vkládána tělesa různých tvarů, se zjistilo, že největší hodnotu součinitele C = 1,33 má __dutá polokoule__, jejíž dutina je obrácena proti směru proudění. Naopak nejmenší hodnotu součinitele C = 0,03 má těleso __proudnicového__ neboli __aerodynamického tvaru__
 
-<img src="/images/content/fyzika/hydrodynamika/16.webp" alt="" width="465" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/hydrodynamika/16.webp" alt="Ilustrace: Newtonův vztah pro odporovou sílu" width="465" loading="lazy" decoding="async">
 
 První tvar na obrázku je dutá polokoule.
 
 - Přibližně proudnicový tvar mají těla ryb, těla letících ptáků a padající vodní kapky.
 - Aerodynamický tvar má rovněž profil nosné plochy letadel dosahujících menších nebo středních rychlostí.
 
-<img src="/images/content/fyzika/hydrodynamika/17.webp" alt="" width="375" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/hydrodynamika/17.webp" alt="Ilustrace: Newtonův vztah pro odporovou sílu" width="375" loading="lazy" decoding="async">
 
 - Nesouměrný profil nosné plochy způsobuje, že vzduch obtéká její horní stěnu větší rychlostí než stěnu spodní. Podle __Bernoulliho rovnice__ je tlak na horní stěnu nosné plochy menší než na spodní stěnu a na celou nosnou plochu působí __vztlaková aerodynamická síla Fy__. Na nosnou plochu letadla působí tedy dvě síly: __aerodynamická vztlaková síla Fy,__ která působí proti tíhové síle a udržuje letadlo ve vzduchu, a __odporová síla Fx__, kterou překonává tažná síla motorů. Výslednicí obou sil je výsledná __aerodynamická síla__
 

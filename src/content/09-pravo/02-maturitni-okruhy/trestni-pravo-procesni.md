@@ -3,7 +3,7 @@ title: "Trestní právo procesní"
 order: 23
 source: "Právo/23. Trestní právo procesní/23_trestni_pravo_procesni.docx"
 ---
-# __23. Trestní právo procesní__
+## __23. Trestní právo procesní__
 
 __=>__ je odvětvím práva, které upravuje postup orgánů činných v trestním řízení, práva a povinnosti osob, které se na trestním řízení podílejí.
 
@@ -27,29 +27,29 @@ __Související právní předpisy:__
 
 \-zákon o obětech trestných činů
 
-1. __ZÁKLADNÍ ZÁSADY TRESTNÍHO ŘÍZENÍ__
+### 1. ZÁKLADNÍ ZÁSADY TRESTNÍHO ŘÍZENÍ
 
-Zásada presumpce neviny
+### Zásada presumpce neviny
 
 __presumpce neviny__ = prvek práva na spravedlivý proces, zaručuje osobám, aby s nimi bylo jednáno až do momentu, kdy soud pravomocně rozhodne, jako s každou jinou osobou
 
 \-z hlediska dokazování musí být vina obviněnému prokázána zákonnými prostředky, obviněný není povinen dokazovat svoji nevinu
 
-Zásada stíhání jen ze zákonných důvodů
+### Zásada stíhání jen ze zákonných důvodů
 
 \-nejdůležitější zásada trestního procesu
 
 =vylučuje bezdůvodné stíhání fyzických a právnických osob, zároveň zaručuje, že v případě důvodného stíhání, nebude do jejich práv zasahováno více než je nezbytně nutné
 
-Zásada legality
+### Zásada legality
 
 =státní zástupce dbá na to, aby byl řádně a včas stíhán každý pachatel v případě, kdy jsou pro to zákonné důvody
 
-Zásada oficiality
+### Zásada oficiality
 
 =Tato zásada vyjadřuje právo, ale i povinnost orgánů činných v trestním řízení provést určitý procesní úkon, jsou-li dány zákonné podmínky pro jeho provedení. (Bez ohledu na stanovisko a postavení dotčených osob)
 
-1. __SUBJEKTY TRESTNÍHO ŘÍZENÍ__
+#### 2. SUBJEKTY TRESTNÍHO ŘÍZENÍ
 
 =činitelé, kteří mají vliv na průběh trestního řízení
 
@@ -94,45 +94,45 @@ __-Obhájce__
 
 =výzva orgánu činného v trestním řízení, písemné (např: výslech obviněného)
 
-1. __Předvedení__
+#### 3. Předvedení
 
 =provádí policejní orgán na žádost orgánů činných v trestním řízení, v případě, kdy se na předvolání nedostavil= je to důraznější způsob zajištění přítomnosti obviněného
 
-1. __Pořádková pokuta__
+#### 4. Pořádková pokuta
 
 =donucovací prostředek spojený se sankcí, v případě, kdy osoba nerespektuje příkaz orgánu činného v trestním řízení, až do výše 50.000 Kč, lze uložit opakovaně
 
-1. __Zákaz vycestování do zahraničí__
+#### 5. Zákaz vycestování do zahraničí
 
 =spočívá ve vyslovení nepřípustnosti vycestovat za hranice, rozhoduje soud
 
-1. __Zadržení__
+#### 6. Zadržení
 
 =úkon, který lze v naléhavých a neodkladných případech použít ke krátkodobému omezení osobní svobody obviněného nebo podezřelého ze spáchání trestného činu
 
-1. __Zatčení__
+#### 7. Zatčení
 
 =úkon, při němž policejní orgán zjistí pobyt obviněného, zadrží ho, krátkodobě omezí jeho osobní svobodu a předá ho orgánu, který příkaz k zatčení vydal, lhůta předání soudu je 24 hodin od převzetí, poté se rozhoduje, zda propustit na svobodu nebo do vazby
 
-1. __Vazba__
+#### 8. Vazba
 
 =zajištění obviněného pro účely trestního řízení a výkonu trestu
 
 \-dočasné omezení osobní svobody ve vazební věznici
 
-Útěková vazba
+### Útěková vazba
 
 \-při obavě, že obviněný uprchne nebo se bude skrývat, aby se stíhání/trestu vyhnul
 
-Vazba Koluzní
+### Vazba Koluzní
 
 \-při obavě, kdy by obvinění mohl na svobodě obviňovat nevyslechnuté svědky nebo spoluobviněné
 
-Vazba předstižná
+### Vazba předstižná
 
 \-při obavě, že obviněný bude trestnou činnost opakovat nebo vykoná trestný čin, který připravoval nebo kterým hrozil
 
-1. __PROSTŘEDKY K ZAJIŠTĚNÍ VĚCI__
+#### 9. PROSTŘEDKY K ZAJIŠTĚNÍ VĚCI
 
 __Zajištění věci pro důkazní účely__
 
@@ -153,11 +153,11 @@ __- Vyšetřování =__ úsek od zahájení trestního řízení do podání ob�
 
 Po skončení __vyšetřování__, dospěje policejní orgán k závěru, že výsledky vyšetřování dostačují k podání __obžaloby__
 
-1. __Předběžné projednání obžaloby (není povinné)__
+#### 10. Předběžné projednání obžaloby (není povinné)
 
 =soud zkoumá opodstatněnost podané obžaloby, před samosoudcem se neuplatňuje, nařizuje předseda senátu
 
-1. __Hlavní líčení (řízení před soudem)__
+#### 11. Hlavní líčení (řízení před soudem)
 
 =soud přezkoumává obvinění obsažené v obžalobě, v návrhu na potrestání nebo v dohodě o vině a trestu
 
@@ -171,7 +171,7 @@ __3) Závěr hl. líčení –__ procesní strany se vyjádří k tomu, jak by 
 
 __4) Rozhodnutí –__ soud může rozhodnout o vrácení věci státnímu zástupci, zastavení trestního stíhání, o podmíněném zastavení trestního stíhání a schválení narovnání, přerušení trestního stíhání nebo rozhodne rozsudkem = rozhodne, zda je obžalovaný vinný nebo nevinný
 
-1. __Odvolací řízení / Opravné řízení__
+#### 12. Odvolací řízení / Opravné řízení
 
 = řízení o opravných prostředcích, dochází k přezkoumání předcházejícího řízení i samostatného rozhodnutí
 
@@ -183,13 +183,13 @@ __Řádné opravné prostředky =__ stížnost, odvolání, odpor
 
 __Mimořádné opravné prostředky =__ dovolání, stížnost pro porušení zákona, obnova řízení
 
-1. __Vykonávací řízení__
+#### 13. Vykonávací řízení
 
 = jeho účelem je uskutečnit obsah rozhodnutí vydaného orgány činnými v trestním řízení
 
 - obecným předpokladem je pravomocné a vykonatelné rozhodnutí
 
-1. __KRIMINALITA PÁCHÁNA NA DĚTECH A MLADISTVÝCH__
+#### 14. KRIMINALITA PÁCHÁNA NA DĚTECH A MLADISTVÝCH
 
 \-patří do zvláštního způsobu řízení (patří sem i řízení proti uprchlému), odchyluje se od standartního řízení
 

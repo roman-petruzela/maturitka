@@ -2,6 +2,7 @@
 title: "Soustava 2 lineárních nerovnic o 1 neznámé"
 order: 12
 source: "Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/12) Soustava 2 lineárních nerovnic o 1 neznámé.pdf"
+formulaRail: false
 hasExercises: true
 ---
 

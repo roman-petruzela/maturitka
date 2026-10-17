@@ -5,15 +5,11 @@ source: "osy/RAID.pdf"
 ---
 RAID
 
-# RAID
-
 - metoda zabezpečení dat proti selhání pevného disku
 
 - zabezpečení je realizováno ukládáním dat na více nezávislých disků
 
 - data jsou zachována i při selhání některého z HDD
-
-# RAID
 
 Ukládání dat je realizováno buď softwarově, nebo hardwarově
 
@@ -21,31 +17,29 @@ Ukládání dat je realizováno buď softwarově, nebo hardwarově
 
 - **hardwarové řešení** : speciální zařízení (řadič) obstarává obsluhu RAID sám a hlavní procesor není zatěžován
 
-# RAID
-
 - pokud dojde při provozu RAID pole k výpadku některého disku (členu pole), správce PC vymění havarovaný disk za nový a ten začlení zpět do pole
 
 - po výměně disku začne tzv. rekonstrukce pole, při které jsou dopočítány chybějící údaje a zapsány na pevný disk
 
-# RAID
+## RAID
 
-## RAID není záloha!
+### RAID není záloha!
 
 • data nejsou uložena na bezpečném místě
 
 • není možnost návratu ke starší verzi
 
-# RAID 0
+## RAID 0
 
 • nejedná se o skutečný RAID, protože neobsahuje redundantní informace
 
 • je realizován **zřetězením** , nebo **prokládáním**
 
-# RAID 0 zřetězení
+## RAID 0 zřetězení
 
 • data jsou postupně ukládána na několik disků • výhodou je zvýšení kapacity disku
 
-# RAID 0 prokládání
+## RAID 0 prokládání
 
 - při prokládání jsou data na disky ukládána střídavě
 
@@ -55,13 +49,13 @@ Ukládání dat je realizováno buď softwarově, nebo hardwarově
 
 RAID 0 prokládání
 
-# RAID 1
+## RAID 1
 
 • nejjednoduší ochrana dat • obsah se současně zaznamenává na dva disky • v případě výpadku jednoho disku se pracuje s kopií, která je ihned k dispozici
 
 RAID 1
 
-# RAID 3
+## RAID 3
 
 • je použito N+1 disků
 
@@ -77,7 +71,7 @@ RAID 1
 
 RAID 3
 
-# RAID 5
+## RAID 5
 
 • paritní bity (samoopravné kody) jsou umístěny na členech střídavě
 
@@ -89,7 +83,7 @@ RAID 3
 
 RAID 5
 
-# RAID 10 (1+0)
+## RAID 10 (1+0)
 
 • data nejdříve v diskových polích zrcadlí a pak se tato pole vloží do dalšího diskového pole typu RAID 0 pro větší zrychlení přenosových rychlostí • nemusí se totiž počítat paritní data, čímž se vše zrychluje
 
@@ -97,7 +91,7 @@ RAID 5
 
 RAID 10 (1+0)
 
-# JBOD
+## JBOD
 
 - Just a Bunch Of Disks neboli „jen hromada disků“
 

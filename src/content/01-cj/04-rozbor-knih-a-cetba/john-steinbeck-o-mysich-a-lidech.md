@@ -3,11 +3,10 @@ title: "John Steinbeck - O Myších a Lidech"
 order: 44
 source: "ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/John Steinbeck - O Myších a Lidech/John Steinbeck - O myších a lidech - pracovní list dle struktury zkoušky.docx"
 ---
-# John Steinbeck – O Myších a lidech
 
-## Umělěcký text
+### Umělěcký text
 
-### Analýza uměleckého textu
+#### Analýza uměleckého textu
 
 __I. část__
 
@@ -36,13 +35,13 @@ __III. část__
 
 Jazykové prostředky:		příběh je psán nespisovným hovorovým jazykem.
 
-### Literárněhistorický kontext
+#### Literárněhistorický kontext
 
 Kontext autorovy tvorby, literární kontext:	1. polovina 20. století, americký realismus, Steinbeck je spisovatel ztracené generace
 
 Soudobí autoři: Francis Scott Fitgerald, Ernest Hemingway, William Faulkner
 
-## Neumělecký text
+### Neumělecký text
 
 __I. část__
 

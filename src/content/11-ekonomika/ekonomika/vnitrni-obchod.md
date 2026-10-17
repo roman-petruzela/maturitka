@@ -53,7 +53,7 @@ b\) __širokosortimentní__ – převažují a obsahují různé druhy zboží
 
 2\)	__forem__
 
-a\) __dodávkový__ \(tradiční\) VO – nejrozšířenější a nejstarší druh VO; vlastní sklad a dopravní prostředky; pracuje na 		systému objednávek => maloobchodník si objedná zboží, které mu VO zabalí a doveze; poskytuje řeadu 			služeb – doprava, obchodní úvěr, leták
+a\) __dodávkový__ \(tradiční\) VO – nejrozšířenější a nejstarší druh VO; vlastní sklad a dopravní prostředky; pracuje na 		systému objednávek ⇒ maloobchodník si objedná zboží, které mu VO zabalí a doveze; poskytuje řeadu 			služeb – doprava, obchodní úvěr, leták
 
 b\) __zprostředkovatelské__ VO – nevlastní budovy, ale má pouze dopravní prostředky; nakupuje zboží přímo od 		výrobců a rozváží ho konečným spotřebitelům na základě jejich požadavků; u objemného zboží – písek, uhlí, 		stavební materiál; většinou nenabízí služby
 
@@ -103,7 +103,7 @@ e\) __obchodní domy__ – v centrech velkých měst; malé parkovací plochy; s
 
 f\) __obchodní centrum__ – dražší způsob prodeje; zpravidla na okrajích měst; velké parkovací prostory; je v ních 		velký počet značkových obchodů; musí obsahovat super/hypermarket a nějaké služby
 
-g\) __prodejny se zbožím denní spotřeby__ – pekařství, zelenina …; poměrně drahé => malý počet
+g\) __prodejny se zbožím denní spotřeby__ – pekařství, zelenina …; poměrně drahé ⇒ malý počet
 
 h\) __specializované__ __obchody__ – nejdražší prodejny
 

@@ -15,7 +15,7 @@ source: "Účetnictví/19. Vnitropodnikové účetnictví.docx"
 
 Účetnictví podniku lze rozdělit na:
 
-1. __Finanční účetnictví (je povinné)__
+## 1. Finanční účetnictví (je povinné)
 
 - Vede se za podniku jako celku a odehrává se v účtové třídě 0 až 7
 - Forma finančního účetnictví je závazně upravena zákonem o účetnictví a jinými účetními předpisy
@@ -23,7 +23,7 @@ source: "Účetnictví/19. Vnitropodnikové účetnictví.docx"
 - Poskytuje informace pro široký okruh uživatelů
 - Řídí se zákonem o účetnictví, vyhláškami a českými účetními standardy
 
-1. __Vnitropodnikové účetnictví (je nepovinné)__
+## 2. Vnitropodnikové účetnictví (je nepovinné)
 
 - Nepovinné, ale přesto je vhodné, aby ho středně velké a zejména velké podniky vedly.
 - Podstata vnitropodnikového účetnictví spočívá v tom, že jednotlivé vnitropodnikové útvary (hospodářská střediska) si evidují své náklady, výnosy a zjišťují svůj hospodářský výsledek
@@ -49,12 +49,12 @@ __Formy vnitropodnikového účetnictví__
 
 __Hlavní úkoly vnitropodnikového účetnictví__
 
-1. __Poskytuje údaje a podklady pro finanční účetnictví__
+## 3. Poskytuje údaje a podklady pro finanční účetnictví
 
 - Údaje o změně stavu zásob vlastní výroby
 - Údaje o aktivaci
 
-1. __Eviduje náklady a výnosy__
+## 4. Eviduje náklady a výnosy
 
 - Podle hospodářských středisek
 - V rámci hospodářských středisek podle jednotlivých výkonů, podle kalkulačního vzorce

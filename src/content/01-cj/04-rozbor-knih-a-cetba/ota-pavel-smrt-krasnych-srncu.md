@@ -35,9 +35,9 @@ Pavel Kohout – Katyně, Ladislav Mňačko – Jak chutná moc, Josef Škvoreck
 
 __poválečná literatura:__
 začátek – demokratické myšlenky 1\. republiky, reakce na válku, euforie z osvobození – pouze krátká
-1948 – přelom neobecně, komunistický puč, znárodnění kultury \-> **vznik budovatelského románu**
+1948 – přelom neobecně, komunistický puč, znárodnění kultury → **vznik budovatelského románu**
 50\. léta – doba temna – falešné procesy, popravy
-Syndikát českých spisovatelů \-> Svaz českých spisovatelů
+Syndikát českých spisovatelů → Svaz českých spisovatelů
 řada emigrací
 1952 – zákaz Lidových novin
 

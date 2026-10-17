@@ -3,7 +3,7 @@ title: "Finanční právo"
 order: 21
 source: "Právo/21. Finanční právo/21_financni_pravo.docx"
 ---
-# __21. Finanční právo__
+## __21. Finanční právo__
 
 Finanční právo je souhrn právních norem, jehož obsahem jsou finanční vztahy.
 
@@ -46,14 +46,14 @@ Stát reguluje vznik a podmínky činnosti těchto institucí, dozoruje jejich c
 
 Státní dozor se týká činnosti bank a dalších subjektů peněžního trhu, stavebních spořitelen, družstevních záložen, subjektů kapitálového trhu, subjektů podnikajících v pojišťovnictví.
 
-## Ústřední orgány
+### Ústřední orgány
 
 1. Ministerstvo financí (Zbyněk Stanjura)
 2. ČNB (Aleš Michl)
 3. Generální ředitelství cel
 4. Generální finanční ředitelství
 
-## Hlavní úkoly ČNB
+### Hlavní úkoly ČNB
 
 - udržovat cenovou stabilitu
 - dohled nad finančním trhem
@@ -62,7 +62,7 @@ Státní dozor se týká činnosti bank a dalších subjektů peněžního trhu,
 - devizová činnost (kurzovní lístek pro cizí měny)
 - banka státu (jsou u ní státní účty)
 
-## Složení bankovní rady
+### Složení bankovní rady
 
 - Guvernér (Aleš Michl)
 - 2 viceguvernéři
@@ -83,7 +83,7 @@ __ROZPOČTOVÉ PRÁVO__
 
 Souhrn právních norem, které upravují vztahy subjektů finančněprávních vztahů k veřejným rozpočtům, ale také souhrn právních norem upravujících rozpočtovou soustavu a rozpočtový proces.
 
-## STÁTNÍ ROZPOČET
+### STÁTNÍ ROZPOČET
 
 - Podstata státního rozpočtu spočívá v rozdělování a přerozdělování důchodů a představuje tedy souhrn peněžních vztahů fungujících v oblasti tvorby, rozdělování a užití centralizovaného peněžního fondu
 - Má formu zákona, schvaluje ho prezident ČR
@@ -99,7 +99,7 @@ Rozpočtová soustava:
 - rozpočty dobrovolných svazků obcí
 - rozpočty státních fondů
 
-## Fáze rozpočtového procesu
+### Fáze rozpočtového procesu
 
 - sestavování
 - schvalování
@@ -110,7 +110,7 @@ Rozpočtová soustava:
 
 __MĚNOVÉ PRÁVO__
 
-=> souhrn právních norem upravující peněžní systém daného státu (měnu) = konkrétní soustava peněz, zavedená v určitém státě a systematicky upravená právním řádem tohoto státu.
+⇒ souhrn právních norem upravující peněžní systém daného státu (měnu) = konkrétní soustava peněz, zavedená v určitém státě a systematicky upravená právním řádem tohoto státu.
 
 - koruna česká (Kč) dělená na 100 haléřů
 - platidla = bankovky, mince, pamětní mince, vydává ČNB
@@ -120,7 +120,7 @@ __MĚNOVÉ PRÁVO__
 
 __BANKOVNÍ PRÁVO__
 
-=> souhrn všech bank a jejich právních norem v daném státě – zákon o bankách, zákon o ČNB
+⇒ souhrn všech bank a jejich právních norem v daném státě – zákon o bankách, zákon o ČNB
 
 Dvoustupňová bankovní soustava:
 
@@ -140,7 +140,7 @@ __Platební styk__= způsob placení a zúčtování peněžních prostředků
 
 __DEVIZOVÉ PRÁVO__
 
-=> souhrn norem, které upravují společenské vztahy, které vznikají, realizují se a zanikají v rámci nakládání s devizovými hodnotami (peněžní prostředky v cizí měně)
+⇒ souhrn norem, které upravují společenské vztahy, které vznikají, realizují se a zanikají v rámci nakládání s devizovými hodnotami (peněžní prostředky v cizí měně)
 
 - Cílem je vnější ochrana vlastní měny, ochrana devizových zájmů státu a ochrana spotřebitele
 - Upravuje devizověprávní vztahy, jejichž subjekty jsou devizová místa a účastníci devizových obchodů:

@@ -5,9 +5,9 @@ source: "uvt/cv18-19_HDD_SSD.pdf"
 ---
 Úvod do výpočetní techniky - UVT  - IT1
 
-# HDD, SSD, … 2h+ 2h
+## HDD, SSD, … 2h+ 2h
 
-## Obsah
+### Obsah
 
 |HDD, SSD, … 2h+ 2h..........................................................................................................................1|
 |---|
@@ -34,9 +34,9 @@ source: "uvt/cv18-19_HDD_SSD.pdf"
 |Čištění disků (Windows) a registrů Windows....................................................................................16|
 |Citace..................................................................................................................................................17|
 
-## Dělení disků
+### Dělení disků
 
-#### Dělení dle technologie:
+##### Dělení dle technologie:
 
 - HDD (Hard Disk Drive)
 
@@ -44,7 +44,7 @@ source: "uvt/cv18-19_HDD_SSD.pdf"
 
 - SSHD  (Solid State Hard Drive)
 
-#### Dělení dle rozhraní:
+##### Dělení dle rozhraní:
 
 _Doplňte přenosové rychlosti různých rozhranní a technologií:_
 
@@ -60,11 +60,11 @@ _Doplňte přenosové rychlosti různých rozhranní a technologií:_
 
 - USB
 
-## úkol:
+### úkol:
 
 Vytvořte tabulku verzí USB
 
-### Tabulka srovnání USB technologií
+#### Tabulka srovnání USB technologií
 
 |Verze USB<br>USB 1.1<br>USB 2.0|Přenosová<br>rychlost<br>12 Mbit/s (Full<br>Speed)<br>480 Mbit/s<br>(Hi-Speed)|Konektory<br> <br>A, B<br>A, B|Poznámky<br>Starší verze,<br>dnes již méně<br>používaná<br>Nejrozšířenější<br>verze, zpětně<br>kompatibilní s<br>1.1<br>Znatelně vyšší|
 |---|---|---|---|
@@ -104,7 +104,7 @@ Vytvořte tabulku verzí USB
 
 - SCSI – SRV - zastaralé
 
-#### Dělení dle formátu:
+##### Dělení dle formátu:
 
 - 2,5“
 
@@ -116,7 +116,7 @@ Vytvořte tabulku verzí USB
 
 - M.2 – 2242, 2260, 2280 a 22110
 
-#### Dělení dle kapacity - plotnové:
+##### Dělení dle kapacity - plotnové:
 
 - **500 GB** – pro OS a programy
 
@@ -130,13 +130,13 @@ Vytvořte tabulku verzí USB
 
 - 4 TB … 22 TB (Seagate Exos X22 22TB – 9.1.2024)
 
-#### Dělení dle kapacity - SSD:
+##### Dělení dle kapacity - SSD:
 
 - 500 GB – pro OS
 
 - 1T … 7.68TB - pro data, první záloha (WD UltraStar DC SS300 VRI, 2,5" – 7,68TB – 9.1.2024)
 
-#### Dělení dle rychlosti otáčení ploten:
+##### Dělení dle rychlosti otáčení ploten:
 
 - 5400 - PC
 
@@ -154,7 +154,7 @@ Vytvořte tabulku verzí USB
 
 **_Otázka:_** Pro jaké zařízení je určen nalezený HDD?
 
-#### Dělení dle umístění:
+##### Dělení dle umístění:
 
 - PC
 
@@ -164,7 +164,7 @@ Vytvořte tabulku verzí USB
 
 - NAS
 
-## Další technologie u disků:
+### Další technologie u disků:
 
 **CHS** - Cylinder-Head-Sector, česky stopa-hlava-sektor nebo válec-povrch-výseč
 
@@ -188,11 +188,11 @@ E - blok
 
 F – sektor
 
-##### Příklad 1:
+###### Příklad 1:
 
 U LBA je délka adresy **28 bitů** , je tedy možné adresovat až **2**<sup>**28**</sup> **sektorů** , což při velikosti logického bloku **512 bajtů** znamená maximální kapacitu disku **128 GiB** .
 
-##### Příklad 2:
+###### Příklad 2:
 
 U standardu ATA (konkrétně ATAPI-6, resp. ATA 100), který zavádí **48bitovou** LBA adresu, takže je možné adresovat až **128 PiB** (128 miliónů GB pro logické bloky velikosti 512 bajtů).
 
@@ -200,7 +200,7 @@ U standardu ATA (konkrétně ATAPI-6, resp. ATA 100), který zavádí **48bitovo
 
 <img src="/images/content/it/uvod-do-vypocetni-techniky/pevne-disky-hdd-a-ssd/02.webp" alt="Pořadí čtení bez NCQ a s NCQ" width="351" loading="lazy" decoding="async">
 
-##### _Najděte význam:_
+###### _Najděte význam:_
 
 **MBR** – Master Boot Record - hlavní spouštěcí záznam, obsahuje zavaděč, tabulku rozdělení disku, číselný identifikátor disku,  je vždy uložen na samém počátku disku (podle Cylindr-Hlava-Sektor = 0-0-1, podle LBA v sektoru 0) a skládá se ze 2 hlavních částí
 
@@ -232,7 +232,7 @@ Rozdíl mezi BIOS a UEFI např. na http://www.servispckupka.cz/rozdil-mezi-bios-
 
 **LVM** - Logical Volume Management - správa logických disků, metoda správy diskového prostoru, která poskytuje mnohem větší variabilitu než konvenční způsob dělení pevných disků na diskové oddíly. Umožňuje spojovat více pevných disků nebo diskových oddílů do větších logických celků a s nimi dále pracovat, tj. vytvářet na nich oddíly se souborovými systémy a využívat jejich organizace k získání dalších vlastností (přesuny dat mezi fyzickými zařízeními bez narušení jejich dostupnosti nebo podobné vlastnosti, jako mají pole RAID).
 
-##### _Nevýhody LVM_
+###### _Nevýhody LVM_
 
 1. Díky míře abstrakce, kterou sebou přináší řízení logických disků, mohou při použití LVM nastat komplikace buď při najíždění systému, nebo v případě poškození dat. Řešení takové
 
@@ -254,19 +254,19 @@ situace pak může být ještě komplikovanější, pokud je základní operačn
 
 Zakreslit rozdělení disku podle WIN/ Správa počítače / Správa disků
 
-##### Rozdělení pro jeden OS (např. WIN 10)
+###### Rozdělení pro jeden OS (např. WIN 10)
 
 <img src="/images/content/it/uvod-do-vypocetni-techniky/pevne-disky-hdd-a-ssd/03.webp" alt="Rozdělení disku pro jeden OS, pro více OS a s LVM" width="746" loading="lazy" decoding="async">
 
-### Programy pro práci s oddíly disků (partitions):
+#### Programy pro práci s oddíly disků (partitions):
 
 Acronis disk director
 
-##### Fdisk
+###### Fdisk
 
 Gparted (Linux Knoppix)
 
-##### Program na převod MBR na GPT a opačně – windows: CMD:
+###### Program na převod MBR na GPT a opačně – windows: CMD:
 
 - diskpart
 
@@ -286,7 +286,7 @@ Gparted (Linux Knoppix)
 
 - exit
 
-# RAID (Redundant Array of Inexpensive Disks)
+## RAID (Redundant Array of Inexpensive Disks)
 
 - vícenásobné diskové pole levných disků
 
@@ -294,9 +294,9 @@ Gparted (Linux Knoppix)
 
 Zabezpečení je realizováno specifickým ukládáním dat na více nezávislých disků, kdy jsou uložená data zachována i při selhání některého z nich. Úroveň zabezpečení se liší podle zvoleného typu RAID, které je označováno čísly – RAID 1.
 
-##### RAID nenahrazuje zálohování dat!!!
+###### RAID nenahrazuje zálohování dat!!!
 
-## Typy diskových polí RAID
+### Typy diskových polí RAID
 
 - hardwarová, kdy veškeré výpočetní funkce přebírá řadič,
 
@@ -304,7 +304,7 @@ Zabezpečení je realizováno specifickým ukládáním dat na více nezávislý
 
 - a softwarová, kam řadímě typicky linux, dynamické disky, LVM aj.
 
-## Druhy RAID polí
+### Druhy RAID polí
 
 Video: https://www.youtube.com/watch?v=11f2G5ryM_g nebo
 
@@ -314,7 +314,7 @@ Video: https://www.youtube.com/watch?v=11f2G5ryM_g nebo
 
 **JBOD a RAID 0 -** nepatří mezi skutečné fyzické zálohování; řetězení disků. Nevýhoda: v případě fyzického výpadku jednoho či více disků jsou data **_částečně nebo úplně ztracena_** .
 
-### JBOD
+#### JBOD
 
 - Just a Bunch of Disks  - jde jen o spojení více disků do jednoho svazku (minimálně 2 disky). Používá se u malých síťových disků jako snadná forma rozšíření kapacity. Data jsou ukládána na disk první, dokud nedojde kapacita, pak se pokračuje zápisem na další disk.
 
@@ -324,7 +324,7 @@ _Nevýhoda_ : žádný výkonnostní zisk, v případě selhání jednoho z disk
 
 <img src="/images/content/it/uvod-do-vypocetni-techniky/pevne-disky-hdd-a-ssd/04.webp" alt="Schéma JBOD" width="173" loading="lazy" decoding="async">
 
-### RAID 0
+#### RAID 0
 
 - druhý typ neredundantního pole, data mezi dvěma a více disky prokládány bit po bitu (ABAB). (minimálně 2 disky)
 
@@ -334,7 +334,7 @@ _Nevýhoda_ : v případě selhání jednoho z disků jsou veškerá data ztrace
 
 <img src="/images/content/it/uvod-do-vypocetni-techniky/pevne-disky-hdd-a-ssd/05.webp" alt="Schéma RAID 0" width="114" loading="lazy" decoding="async">
 
-### RAID 1
+#### RAID 1
 
 - nejčastěji používaný typ, Pole je tvořeno 2 disky, mezi kterými se veškeré data zrcadlí. Co je uloženo na disku A je zároveň uloženo i na disku B. (minimálně 2 disky – identické).
 
@@ -344,9 +344,9 @@ _Nevýhoda_ : nákladnost pořizování pole a nulový nárůst výkonu či kapa
 
 <img src="/images/content/it/uvod-do-vypocetni-techniky/pevne-disky-hdd-a-ssd/06.webp" alt="Schéma RAID 1" width="114" loading="lazy" decoding="async">
 
-### RAID 5
+#### RAID 5
 
-**-** (minimálně 3 disky – identické), použití v data centrech. První dva disky jsou propojeny a data jsou prokládány mezi disky, třetí disk obsahuje samoopravovací kód.
+- (minimálně 3 disky – identické), použití v data centrech. První dva disky jsou propojeny a data jsou prokládány mezi disky, třetí disk obsahuje samoopravovací kód.
 
 _Výhoda_ : dvojnásobná rychlost čtení, při výpadku jednoho z disků a jeho výměně, se data automaticky na něj nahrají
 
@@ -354,9 +354,9 @@ _Nevýhoda_ : nižší rychlost zápisu, redukovaná kapacita disků na 2/3.
 
 <img src="/images/content/it/uvod-do-vypocetni-techniky/pevne-disky-hdd-a-ssd/07.webp" alt="Schéma RAID 5" width="231" loading="lazy" decoding="async">
 
-### RAID 6
+#### RAID 6
 
-**-** (minimálně 4 disky – identické) – obdoba RAID 5,  liší se však výpočtem samoopravných kódů. Skládá se minimálně ze čtyř disků. Na dvou discích se zapisují data a na dalších dvou jsou uloženy samoopravné kódy, přičemž každý se vypočítává jiným způsobem. Díky tomu je pole RAID 6 odolné proti selhání dvou disků najednou. Existuje také možnost, že by byly paritní informace rozloženy na všech čtyřech discích, ale tato konfigurace se příliš často nepoužívá.
+- (minimálně 4 disky – identické) – obdoba RAID 5,  liší se však výpočtem samoopravných kódů. Skládá se minimálně ze čtyř disků. Na dvou discích se zapisují data a na dalších dvou jsou uloženy samoopravné kódy, přičemž každý se vypočítává jiným způsobem. Díky tomu je pole RAID 6 odolné proti selhání dvou disků najednou. Existuje také možnost, že by byly paritní informace rozloženy na všech čtyřech discích, ale tato konfigurace se příliš často nepoužívá.
 
 _Výhoda_ : odolnost proti selhání 2 disků ze 4, nejvíce vyplatí použít s pěti disky a více
 
@@ -364,7 +364,7 @@ _Nevýhoda_ : pomalejší zápis, horší poměr ceny a kapacity
 
 <img src="/images/content/it/uvod-do-vypocetni-techniky/pevne-disky-hdd-a-ssd/08.webp" alt="Schéma RAID 6" width="289" loading="lazy" decoding="async">
 
-## Víceúrovňová pole
+### Víceúrovňová pole
 
 RAID 10  a 01
 
@@ -378,17 +378,17 @@ RAID 60
 
 <img src="/images/content/it/uvod-do-vypocetni-techniky/pevne-disky-hdd-a-ssd/11.webp" alt="Schéma RAID 6+0" width="500" loading="lazy" decoding="async">
 
-### Méně užívaná RAID pole
+#### Méně užívaná RAID pole
 
 RAID 2, RAID 3, RAID 4, RAID 7
 
 Pro domácnosti je nejlepší možnost využívat dvě malé RAID pole, přičemž jedno je aktivně využíváno a další data jsou uložena na externím disku, který není trvale připojen k počítači a je chráněný před smazáním.
 
-## Úkol:
+### Úkol:
 
 Jak se nastavují RAID 0,1 prakticky?
 
-# Čištění disků (Windows) a registrů Windows
+## Čištění disků (Windows) a registrů Windows
 
 ||Linux Mint|MS Windows|
 |---|---|---|
@@ -397,7 +397,7 @@ Jak se nastavují RAID 0,1 prakticky?
 ||-|Defraggler / WDC /|
 |Čištění registrů|- konfigurační soubory|Vlastní program Windows**NEMÁ**<br>Wise registry cleaner (WRC)  / CC<br>Cleaner /|
 
-# Citace
+## Citace
 
 <u>http://www.servispckupka.cz/jak-opravit-bootloader-mbr-gpt-windows.php http://www.servispckupka.cz/jak_prevest_GPT_disk_na_MBR_disk.php</u>
 

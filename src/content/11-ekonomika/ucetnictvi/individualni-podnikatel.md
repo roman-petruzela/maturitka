@@ -60,13 +60,10 @@ Vypočtená daň se dále snižuje o slevy na daní:
 
 a) dle §35ba ZDP 	- na poplatníka
 
-\- na manželku (manžela) s vlastními příjmy do 68 000 Kč
-
-\- na vlastní invaliditu
-
-\- na studenta
-
-\- na umístění dítěte (tzv. školkovné)
+- na manželku (manžela) s vlastními příjmy do 68 000 Kč
+- na vlastní invaliditu
+- na studenta
+- na umístění dítěte (tzv. školkovné)
 
 b) dle §35c ZDP	- na vyživované dítě
 
@@ -88,11 +85,9 @@ __Účet individuálního podnikatele__
 
 − účtují se na něm zejména:
 
-\- osobní vklady	221 / 491
-
-\- výběry pro osobní spotřebu	491 / 221
-
-\- výsledek hospodaření účetní jednotky soukromého podnikatele
+- osobní vklady	221 / 491
+- výběry pro osobní spotřebu	491 / 221
+- výsledek hospodaření účetní jednotky soukromého podnikatele
 
 − vykazuje zpravidla pasivní zůstatek, ale za určitých podmínek (např. ztrátové hospodaření, velké zadlužení) může mít zůstatek i aktivní
 
@@ -102,7 +97,7 @@ __Vznik firmy a zahajovací rozvaha__
 
 Zahajovací rozvaha:
 
-<img src="/images/content/ekonomika/ucetnictvi/individualni-podnikatel/01.webp" alt="" width="335" loading="lazy" decoding="async">
+<img src="/images/content/ekonomika/ucetnictvi/individualni-podnikatel/01.webp" alt="Ilustrace: Individuální podnikatel" width="335" loading="lazy" decoding="async">
 
 Otevření účtů:
 

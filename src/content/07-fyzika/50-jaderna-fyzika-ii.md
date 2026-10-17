@@ -10,13 +10,10 @@ U jaderných reakcí musí být splněny zákony zachování. Jsou to experiment
 
 Jsou to:
 
-\- zákon zachování *energie*
-
-\- zákon zachování *hybnosti*
-
-\- zákon zachování *elektrického náboje*
-
-\- zákon zachování *počtu nukleonů*
+- zákon zachování *energie*
+- zákon zachování *hybnosti*
+- zákon zachování *elektrického náboje*
+- zákon zachování *počtu nukleonů*
 
 Jaderné reakce rozlišujeme *endoenergetické* (energii zvnějšku dodáváme) a *exoenergetické* (energie se uvolňuje)
 
@@ -34,7 +31,7 @@ Umělou radioaktivitu získají prvky transmutací, vlivem řetězové reakce ne
 
 Takováto jádra v přírodě běžně neexistují, ale byla vytvořena uměle. Zákonitosti rozpadu těchto uměle vytvořených jader jsou shodné se zákony popisujícími rozpad přirozeně radioaktivních jader.
 
-Umělá radioaktivita byla objevena v r. 1934 (Frederic a Irene Joliot-Curie, NC za Ch 1935) při ostřelování hliníku částicemi α:
+**Umělá radioaktivita** byla objevena v r. 1934 (Frederic a Irene Joliot-Curie, NC za Ch 1935) při ostřelování hliníku částicemi α:
 
 $${}^{4}_{2}\mathrm{He} + {}^{27}_{13}\mathrm{Al} \to {}^{30}_{15}\mathrm{P} + {}^{1}_{0}n$$
 
@@ -68,7 +65,7 @@ __*Neutronové záření*__ – vzniká např. v jaderných reaktorech nebo při
 
 Reaguje pouze s atomovými jádry, a to pružnými nebo nepružnými srážkami. K ochraně před tímto zářením je třeba použít materiály obsahující jádra vodíku a lehkých prvků – voda, těžká voda, parafín, beton …)
 
-Radioaktivní přeměna
+## Radioaktivní přeměna
 
 Radionuklidy vysílají radioaktivní záření a přeměňují se na stabilní nuklidy. Počet radioaktivních přeměn za 1 s udává *aktivitu* zářiče (jednotka *Bq* – becquerel)
 
@@ -84,9 +81,9 @@ $$N = N_0 \cdot \mathrm{e}^{-\lambda t} = N_0 \cdot \mathrm{e}^{-\frac{\ln 2}{T}
 
 $$T = \frac{\ln 2}{\lambda}$$
 
-Aktivita zářiče
+## Aktivita zářiče
 
-Pro aktivitu vzorku můžeme psát
+Pro aktivitu vzorku můžeme psát:
 
 __A = A0 . e – λ.t__
 
@@ -102,9 +99,9 @@ __A = λ . *N*__
 
 Zákon radioaktivní přeměny –
 
-\- časová závislost
+- časová závislost
 
-Přeměnové řady
+## Přeměnové řady
 
 *Rozpadová řada* (*přeměnová řada* nebo *radioaktivní řada*) popisuje postupný radioaktivní rozpad nestabilních jader těžkých prvků. Rozpad v těchto řadách probíhá vždy vyzařováním částic alfa (jader helia) nebo beta (elektronů). S výjimkou neptuniové řady začínají všechny základní řady relativně stabilním, v přírodě se běžně vyskytujícím izotopem (ze skupiny aktinoidů), s poločasem rozpadu nad půl miliardy let. Na konci každé rozpadové řady je stabilní izotop.
 
@@ -120,7 +117,7 @@ Známé jsou čtyři základní rozpadové řady:
 
 *Poznatky o radioaktivních rozpadech a poločasu rozpadu se využívají např. v archeologii → radiouhlíková metoda. Tělo je tvořeno především C (uhlíkem): 12C 13C 14C - z čehož poslední uhlík je radioaktivní, pokud je organismus "naživu", poměr mezi izotopy je stálý, když organismus uhyne, 14C se začne rozpadat a poměr se začne měnit.*
 
-Využití radionuklidů
+## Využití radionuklidů
 
 - Radiouhlíková metoda
 - Kontrola tloušťky válcovaného materiálu

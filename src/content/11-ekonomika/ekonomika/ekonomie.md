@@ -75,14 +75,14 @@ Dno
 
 ### Druhy nezaměstnanosti
 
-- Frikční \(dočasná\) = dobrovolná nezaměstnanost, závisí na tom, jak velké jsou sociální dávky nebo kolik financí máme našetřeno; období, kdy sloučíme jeden pracovní poměr a než nastoupíme do dalšího pracovního poměru; dobrovolnost => já si určuji jak dlouho budu domu
+- Frikční \(dočasná\) = dobrovolná nezaměstnanost, závisí na tom, jak velké jsou sociální dávky nebo kolik financí máme našetřeno; období, kdy sloučíme jeden pracovní poměr a než nastoupíme do dalšího pracovního poměru; dobrovolnost ⇒ já si určuji jak dlouho budu domu
 - Sezónní = vyplývá z toho, že některá povolání mají sezónní charakter \(stavby, dělníci, plavčíci\) a po zbytek roku jsou tyto osoby dobrovolně nezaměstnané
 - Strukturální = v určitém místě je nadbytek pracovních sil určité kvalifikace a pokud se tato osoba nechce rekvalifikovat nebo přestěhovat, dobrovolně nezaměstnaný
 - Cyklická = jediná nedobrovolná; lidé by chtěli pracovat, ale práce není; závislá na hospodářském cyklu, největší, kdy je ekonomika na dně
 
 ## Dopady nezaměstnanosti
 
-- Pro nezaměstnaného = finanční, existenční problém; snižuje se životní úroveň; ztráta kvalifikace; ztráta kontaktu se svým oborem; různé psychické problémy => zdravotní problémy
+- Pro nezaměstnaného = finanční, existenční problém; snižuje se životní úroveň; ztráta kvalifikace; ztráta kontaktu se svým oborem; různé psychické problémy ⇒ zdravotní problémy
 - Pro zaměstnavatele = nevytváří další výrobky
 
 ## Jak stát řeší problémy nezaměstnanosti

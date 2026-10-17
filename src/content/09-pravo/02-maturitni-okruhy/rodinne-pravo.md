@@ -39,7 +39,7 @@ Osvojitelem může být zletilá plně svéprávná osoba, u dítěte nad 12 let
 
 Osvojením zaniká původní příbuzenský vztah osvojence. Osvojení lze zrušit pouze do 3 let od osvojení.
 
-PORUČENSTVÍ
+## PORUČENSTVÍ
 
 Není-li žádný z rodičů, který by vykonával rodičovskou povinnost v plném rozsahu, soud jmenuje dítěti poručníka, ten má vůči dítěti všechny práva a povinnosti jako rodič, nemá vyživovací povinnost. Poručenství nesmí být v rozporu se zájmy dítěte.
 
@@ -47,19 +47,19 @@ Vzniká jmenováním, zaniká smrtí, odvoláním, rozhodnutím soudu o zprošt�
 
 Veřejným poručníkem je orgán sociálně-právní ochraně dětí.
 
-OPATROVNICTVÍ
+## OPATROVNICTVÍ
 
 Soud jmenuje dítěti opatrovníka, hrozí-li střet či nedostatečné hájení zájmů dítěte a zákonného zástupce. Má právo na odměnu, pokud o dítě pečuje
 
 V rozhodnutí o jmenování opatrovníka se vymezí rozsah správy jmění, opatrovník řádně pečuje o jmění a nepodstupuje nepřiměřená rizika, podléhá dozoru soudu.
 
-SVĚŘENÍ DÍTĚTE DO PÉČE JINÉ OSOBY
+## SVĚŘENÍ DÍTĚTE DO PÉČE JINÉ OSOBY
 
 Když nemůže pečovat žádný z rodičů ani poručík, soud svěří i bez návrhu dítě do péče jiné osoby.
 
 Povinnosti pečující osoby stanoví soud (povinnost bydliště na území ČR), má však právo vymáhat výživné stanovené rodičům na dítě. Rodiče mají nadále vyživovací povinnost.
 
-PĚSTOUNSTVÍ
+## PĚSTOUNSTVÍ
 
 Nemůže-li pečovat rodič ani poručník, může soud svěřit dítě do pěstounské péče (náhradní rodinná péče). Pěstounství má zákonnou přednost před nařízením ústavní výchovy.
 
@@ -67,7 +67,7 @@ Rodiče mají vůči dítěti povinnosti a práva vyplívající z rodičovské
 
 Pěstoun je povinen a oprávněn o dítě pečovat osobně, zaniká plnou svéprávností, zletilostí. Mají právo na hmotné zabezpečení ze strany státu a nárok na podporu.
 
-ÚSTAVNÍ VÝCHOVA
+## ÚSTAVNÍ VÝCHOVA
 
 Je-li výchova dítěte nebo jeho tělesný, rozumový či duševní stav ohrožen, narušen, může soud nařídit ústavní výchovu (nařízená ústavní výchova maximálně 3 roky, lze prodloužit soudně)
 
@@ -83,7 +83,7 @@ Rodiče mají vyživovací povinnost ke svým dětem, dokud nejsou schopny se ž
 
 Výživným se rozumí uspokojování všech životních potřeb dítěte. Tato vyživovací povinnost platí i naopak, tedy vyživovací povinnost dětí vůči rodičům.
 
-VYŽIVOVACÍ POVINNOST MEZI OSTATNÍMI PŘÍBUZNÝMI
+## VYŽIVOVACÍ POVINNOST MEZI OSTATNÍMI PŘÍBUZNÝMI
 
 Předci i potomci mají vzájemnou vyživovací povinnost, podmínkou je zajištění nutné výživy.
 
@@ -93,7 +93,7 @@ VYŽIVOVACÍ POVINNOST MEZI MANŽELI (I MEZI ROZVEDENÝMI)
 
 Manželé mají vzájemnou povinnost, této povinnosti předchází vyživovací povinnost dětem. Na výživu rozvedeného manžela, který není schopen se sám živit, je povinen se druhý podle svých možností a v přiměřeném rozsahu přispívat.
 
-VYŽIVOVACÍ POVINNOST NEPROVDANÉ MATCE
+## VYŽIVOVACÍ POVINNOST NEPROVDANÉ MATCE
 
 Otec dítěte, ze něhož není matka provdána, je povinen ji poskytovat výživné do doby dvou let od narození dítěte a přiměřeně přispět na úhradu nákladů spojených s těhotenstvím a porodem (soud může uložit, aby otec tyto částky poskytl předem).
 
@@ -107,7 +107,7 @@ Orgány působící na úseku sociálně právní ochrany dětí jsou obecní a 
 
 Jedná se především o preventivní a poradenskou činnost, zřizování zařízení sociálně právní ochrany. (výchovné ústavy, odborné poradentství).
 
-ÚŘAD PRO MEZINÁRODNÍ OCHRANU DĚTÍ
+## ÚŘAD PRO MEZINÁRODNÍ OCHRANU DĚTÍ
 
 Jeho činnost spočívá v zastupování ČR navenek v rámci mezinárodních úmluv. Specifická činnost úřadu zahrnuje vymáhání výživného do a z ciziny, zajišťování aktivit spojených s mezinárodním osvojením a občanskoprávními aspekty mezinárodních únosů.
 

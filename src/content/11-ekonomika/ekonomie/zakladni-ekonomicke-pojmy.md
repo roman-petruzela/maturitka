@@ -3,7 +3,6 @@ title: "Základní ekonomické pojmy"
 order: 1
 source: "Ekonomie/1. Základní-ekonomické-pojmy.docx"
 ---
-# Základní ekonomické pojmy
 
 __Ekonomika__ – společenská věda, která se zabývá se hospodářskou praxí
 
@@ -15,17 +14,14 @@ __Makroekonomie__ – zabývá se hospodářskými vztahy na úrovni národního
 
 __Mikroekonomie__ – zabývá se hospodářskými vztahy jednotlivých subjektů v národním hospodářství (stát, firmy, domácnosti)
 
-## __Potřeby__
+### __Potřeby__
 
-\- vrozený či získaný pocit nedostatku nebo nadbytku, který se snažíme odstranit
+- vrozený či získaný pocit nedostatku nebo nadbytku, který se snažíme odstranit
+- neustále se vyvíjí, nelze je zcela nikdy uspokojit
+- individuálně se liší podle: věku, pohlaví, vzdělání, zájmů…
+- nikdy je nelze zcela uspokojit
 
-\- neustále se vyvíjí, nelze je zcela nikdy uspokojit
-
-\- individuálně se liší podle: věku, pohlaví, vzdělání, zájmů…
-
-\- nikdy je nelze zcela uspokojit
-
-### Členění potřeb:
+#### Členění potřeb:
 
 1. __Biologické__ – důležité pro život člověka, např.: spát, jíst, dýchat
 
@@ -47,13 +43,13 @@ __Budoucí__ – potřeby do budoucna
 
 __Nezbytné__ – jsou důležité pro uchování kvality života, např.: mít auto pro taxikáře
 
-# Uspokojování potřeb
+## Uspokojování potřeb
 
-## Statky
+### Statky
 
- \- produkt lidské činnosti, který uspokojuje potřeby
+ - produkt lidské činnosti, který uspokojuje potřeby
 
-### Druhy statků:
+#### Druhy statků:
 
 1. __Volné__ – jsou v přírodě dostupné
 
@@ -72,13 +68,12 @@ __Kapitálové__ – spotřebovávají se ve firmách
 1. __Krátkodobý__ __majetek__ – jednorázová, např.: křídy
 2. __Dlouhodobý__ __majetek__ – pouze se opotřebovává
 
-## Služby
+### Služby
 
-\- průběh lidské činnosti, při které dochází k uspokojování potřeb
+- průběh lidské činnosti, při které dochází k uspokojování potřeb
+- jde o cizí lidskou činnost
 
-\- jde o cizí lidskou činnost
-
-### Rozdělení:
+#### Rozdělení:
 
 1. __Osobní__ – týkají se přímo člověka, např.: ubytovací, stravovací, vzdělávací
 
@@ -88,9 +83,9 @@ __Věcné__ – týkají se hmotných statků člověka, např.: autoopravy, pr�
 
 ,,__Neplacené__“ __služby__ – jsou hrazené tzv. veřejnými rozpočty obcí, měst či státními rozpočty, např.: čistota chodníku, bezpečnost (police), osvětlení
 
-# Národní hospodářství
+## Národní hospodářství
 
-\- je souhrn hospodářských činností na území daného státu, kterých se účastní tři ekonomické subjekty:
+- je souhrn hospodářských činností na území daného státu, kterých se účastní tři ekonomické subjekty:
 
 - __Domácnosti__ = chtějí na trhu uspokojit své potřeby
 
@@ -106,17 +101,15 @@ __Prac. síla__ = souhrn znalostí, dovedností a schopností konat práci
 
   = vstupuje na trh jako kupující (výrobní faktory, energie)
 
-## Zboží
+### Zboží
 
-\- vše co je určeno pro trh
+- vše co je určeno pro trh
+- má užitnou hodnotu (hlavní vlastnost), např.: auto ´můžeme se dopravit z bodu A do bodu B
+- hodnotu zboží vyjadřujeme penězi
 
-\- má užitnou hodnotu (hlavní vlastnost), např.: auto ´můžeme se dopravit z bodu A do bodu B
+## Hospodářský proces
 
-\- hodnotu zboží vyjadřujeme penězi
-
-# Hospodářský proces
-
-\- jde o neustále se opakující a probíhající 4 fáze:
+- jde o neustále se opakující a probíhající 4 fáze:
 
 __1. Výroba__
 
@@ -126,25 +119,23 @@ __3. Směna__
 
 __4. Spotřeba__
 
-## 1. Výroba, výrobní činitele
+### 1. Výroba, výrobní činitele
 
-\- proces přetváření přírody na statky a služeb
-
-\- výroba je závislá na spotřebě a naopak
-
-\- k výrobě jsou potřebné tzv. výrobní činitele (zdroje):	__1) Práce__
+- proces přetváření přírody na statky a služeb
+- výroba je závislá na spotřebě a naopak
+- k výrobě jsou potřebné tzv. výrobní činitele (zdroje):	__1) Práce__
 
 __2) Půda a přírodní zdroje__
 
 __3) Kapitál__
 
-### 1) Práce
+#### 1) Práce
 
 – cílevědomá lidská činnost, která slouží k uspokojení potřeb
 
-\- cena práce je = MZDA
+- cena práce je = MZDA
 
-#### Druhy práce:
+##### Druhy práce:
 
 1. A) __Duševní__ – převládá činnost mozku CNS, např.: učitel, vědec
 
@@ -170,54 +161,47 @@ B) __Tvůrčí__ – nestereotypní, proměnlivá, např.: sochař, lékař
 
 B) __Zvěcnělá__ – práce obsažená již v hotových věcech
 
-#### Při vzniku statků a služeb dochází:
+##### Při vzniku statků a služeb dochází:
 
 - __k dělbě práce__ – je rozdělení pracovních činností mezi skupinu lidí
 - __ke specializaci__ – zaměření skupiny a jednotlivců na určitý druh práce
 - __ke kooperaci__ – spolupráce při vytváření statků a služeb
 
-### 2) Půda a přírodní zdroje
+#### 2) Půda a přírodní zdroje
 
-### __Přírodní zdroje__
+#### __Přírodní zdroje__
 
-\- stát s nimi musí hospodařit
-
-\- dělíme je na: 1. __Vzácné__ (omezené)
+- stát s nimi musí hospodařit
+- dělíme je na: 1. __Vzácné__ (omezené)
 
 2\. __Nenahraditelné__
 
-\- tvoří je: __a) Přírodní síly__
+- tvoří je: __a) Přírodní síly__
 
 __b) Půda__
 
 __c) Nerostné suroviny__
 
-### __Půda__
+#### __Půda__
 
- \- je orná a je to rozhodující výrobní činitel v zemědělství
+ - je orná a je to rozhodující výrobní činitel v zemědělství
+ - vlastník půdy může půdu užívat, pronajímat nebo pronajmout
+ - peněžní výnos plynoucí z půdy se jmenuje = RENTA
+ - kvalita orné půdy = BONITA, která je dána např.: úrodností, svažitostí nebo vzdáleností půdy
 
- \- vlastník půdy může půdu užívat, pronajímat nebo pronajmout
-
- \- peněžní výnos plynoucí z půdy se jmenuje = RENTA
-
- \- kvalita orné půdy = BONITA, která je dána např.: úrodností, svažitostí nebo vzdáleností půdy
-
-#### Druhy půd:
+##### Druhy půd:
 
 - __orací půda__
 - __stavební půda__
 - __pastviny__
 - __zahrady__
 
-### 3) Kapitál
+#### 3) Kapitál
 
-\- odvozený výrobní faktory
-
-\- jde o prostředky vložené do podnikání za účelem zhodnocení
-
-\- nese ZISK a ÚROK
-
-\- lze akumulovat (=hromadit), tzv. majitel firmy odkládá svojí spotřebu ve prospěch firmy
+- odvozený výrobní faktory
+- jde o prostředky vložené do podnikání za účelem zhodnocení
+- nese ZISK a ÚROK
+- lze akumulovat (=hromadit), tzv. majitel firmy odkládá svojí spotřebu ve prospěch firmy
 
 Formy kapitálu:
 
@@ -225,35 +209,34 @@ a) __Peněžní__ – peníze, cenné papíry
 
 b) __Reálný__ – hmotné a nehmotné věci
 
-#### Dle vlastníka:
+##### Dle vlastníka:
 
 a) __Vlastní__ – vklady majitelů
 
 b) __Cizí__ – dlužné peníze (úvěry)
 
-## 2. Rozdělování a přerozdělování
+### 2. Rozdělování a přerozdělování
 
-\- účastnící výroby musí část svých peněz odvést do státního rozpočtu odkud jsou přerozděleny všem, kteří se neúčastnili výroby (= lékařům, vojákům, učitelům)
+- účastnící výroby musí část svých peněz odvést do státního rozpočtu odkud jsou přerozděleny všem, kteří se neúčastnili výroby (= lékařům, vojákům, učitelům)
 
-## 3. Směna
+### 3. Směna
 
-\- odehrává se na trhu
+- odehrává se na trhu
+- firmy nabízejí výsledky své výroby (statky a služby) a domácnosti je poptávají (chtějí je směnit za peníze získané rozdělováním a přerozdělováním)
 
-\- firmy nabízejí výsledky své výroby (statky a služby) a domácnosti je poptávají (chtějí je směnit za peníze získané rozdělováním a přerozdělováním)
+### 4. Spotřeba
 
-## 4. Spotřeba
-
-\- při spotřebě dochází k užití nakoupených statků a služeb:
+- při spotřebě dochází k užití nakoupených statků a služeb:
 
 A) __Ve__ __výrobě__ – VÝROBNÍ SPOTŘEBA
 
 B) __V__ __domácnosti__ – KONEČNÁ SPOTŘEBA
 
-# Životní úroveň
+## Životní úroveň
 
-\- stupeň uspokojování potřeb a podmínky, za kterých jsou uspokojovány
+- stupeň uspokojování potřeb a podmínky, za kterých jsou uspokojovány
 
-#### Součástí ŽÚ:
+##### Součástí ŽÚ:
 
 1. __Osobní__ __spotřeba__ – dle reálných mezd = množství statků a služeb, které lze za mzdu koupit
 2. __Spotřeba__ __firem__
@@ -262,15 +245,13 @@ B) __V__ __domácnosti__ – KONEČNÁ SPOTŘEBA
 5. __Úroveň bydlení__
 6. __Množství volného času__
 
-#  Životní prostředí
+##  Životní prostředí
 
-\- věda o vzájemných vztazích a o vzájemném působení organismů a prostředí se nazývá = EKOLOGIE
+- věda o vzájemných vztazích a o vzájemném působení organismů a prostředí se nazývá = EKOLOGIE
+- ovlivňuje ŽÚ
+- ŽP je souhrn všech vnějších vlivů (přírodních i kulturních), které jedince obklopují a umožnují mu podmínky k životu
 
-\- ovlivňuje ŽÚ
-
-\- ŽP je souhrn všech vnějších vlivů (přírodních i kulturních), které jedince obklopují a umožnují mu podmínky k životu
-
-#### Základní složky ŽP:
+##### Základní složky ŽP:
 
 - __Ovzduší__
 - __Půda__
@@ -279,11 +260,11 @@ B) __V__ __domácnosti__ – KONEČNÁ SPOTŘEBA
 - __Horninové prostředí__
 - __Produkty lidské činnosti__
 
-# Peníze
+## Peníze
 
-\- zvláštní druh zboží, všeobecný ekvivalent
+- zvláštní druh zboží, všeobecný ekvivalent
 
-#### Vlastnosti peněz:
+##### Vlastnosti peněz:
 
 1\. __Snadno dělitelné__ – peníze jsou různých hodnot s jednoduchým přepočtem
 
@@ -291,18 +272,18 @@ B) __V__ __domácnosti__ – KONEČNÁ SPOTŘEBA
 
 3\. __Snadno__ __rozpoznatelné__ – velikost, barva
 
-4\. __Trvanlivost__ – bankovky vyrábí státní tiskárna cenin v Praze, jejich autorem je -> Oldřich Kulhánek
+4\. __Trvanlivost__ – bankovky vyrábí státní tiskárna cenin v Praze, jejich autorem je → Oldřich Kulhánek
 
-\- mince se razí v Jablonci
+- mince se razí v Jablonci
 
-#### Funkce peněz:
+##### Funkce peněz:
 
 1. __Prostředek__ __směny__ = usnadňují směnu služeb a zboží
 2. __Oběživo__ = obíhají mezi subjekty trhu
 3. __Slouží jako zúčtovací jednotka__ = pomocí nich umíme vyjádřit hodnotu jakéhokoli produk**tu**
 4. __Tezaurace__ = slouží k hromadění a je možné je použít i v budoucnu (INFLACE)
 
-#### Ochranné prvky bankovek:
+##### Ochranné prvky bankovek:
 
 1. __Vodoznak__
 2. __Okénkový proužek s mikrotextem__

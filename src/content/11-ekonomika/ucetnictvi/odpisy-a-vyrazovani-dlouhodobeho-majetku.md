@@ -14,7 +14,7 @@ __Základní pojmy__
 	1. fyzické - opotřebovává se používáním
 	2. morální - z důvodu technického pokroku
 
-Výpočet odpisů a jejich účtování
+## Výpočet odpisů a jejich účtování
 
 __Účetní odpisy__
 

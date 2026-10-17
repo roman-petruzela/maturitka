@@ -70,7 +70,7 @@ __Účtování cenin__
 
 __Inventarizační rozdíly__
 
-<img src="/images/content/ekonomika/ucetnictvi/kratkodoby-financni-majetek-a-kratkodobe-bankovni-uvery/01.webp" alt="" width="605" loading="lazy" decoding="async">
+<img src="/images/content/ekonomika/ucetnictvi/kratkodoby-financni-majetek-a-kratkodobe-bankovni-uvery/01.webp" alt="Ilustrace: Krátkodobý finanční majetek a krátkodobé bankovní úvěry" width="605" loading="lazy" decoding="async">
 
 __Bankovní účet, kontokorentní účet, devizový účet a jejich zařazení do rozvahy__
 
@@ -98,28 +98,28 @@ __Krátkodobé bankovní úvěry jejich účtování__
 
 __Členění krátkodobého finančního majetku__
 
-1. __Majetkové CP k obchodování (na účet 251)__
+## 1. Majetkové CP k obchodování (na účet 251)
 
 - Které jsou pořizovány se záměrem jejich prodeje na veřejných trzích s úmyslem dosáhnout zisku
 - Majetkové cenné papíry k obchodování se přeceňují k rozvahovému dni reálnou hodnotou
 
-1. __Dlužné CP k obchodování (na účet 253)__
+## 2. Dlužné CP k obchodování (na účet 253)
 
 - Slouží k tomu, aby si emitent opatřil finanční prostředky
 - Dlužník se zavazuje zapůjčenou částku včetně úroku splatit v určité době
 - Účetní jednotka je nemá v úmyslu držet do splatnosti, která je na nich uvedena, ale hodlá je v období na delším než 1 rok prodat
 
-1. __Dlužné CP držené do splatnosti (na účet 256)__
+## 3. Dlužné CP držené do splatnosti (na účet 256)
 
 - Má stanovenou splatnost a účetní jednotka má úmysl držet jej do splatnosti
 - Je-li splatnost jeden rok a kratší, jedná se o krátkodobý dluhopis držený do splatnosti
 
-1. __Vlastní akcie, vlastní obchodní podíly (na účet 252), vlastní dluhopisy (na účet 255)__
+## 4. Vlastní akcie, vlastní obchodní podíly (na účet 252), vlastní dluhopisy (na účet 255)
 
 - Jedná se o CP, jejichž emitentem je samotná společnost
 - Vlastní akcie a vlastní obchodní podíly se účtují v okamžiku pořízení v pořizovacích cenách
 
-1. __Realizované CP a obchodní podíly__
+## 5. Realizované CP a obchodní podíly
 
 - Nejsou z hlediska záměru určeny k obchodování na veřejném trhu
 - Jsou to majetkové CP, které nejsou registrovaným cenným papírem (tzn. že o nich není účtováno na veřejném kapitálovém trhu)
@@ -132,4 +132,4 @@ __Ocenění krátkodobého finančního majetku v průběhu pořizování__
 
 __Účtování prodeje krátkodobého finančního majetku__
 
-<img src="/images/content/ekonomika/ucetnictvi/kratkodoby-financni-majetek-a-kratkodobe-bankovni-uvery/02.webp" alt="" width="612" loading="lazy" decoding="async">
+<img src="/images/content/ekonomika/ucetnictvi/kratkodoby-financni-majetek-a-kratkodobe-bankovni-uvery/02.webp" alt="Ilustrace: Realizované CP a obchodní podíly" width="612" loading="lazy" decoding="async">

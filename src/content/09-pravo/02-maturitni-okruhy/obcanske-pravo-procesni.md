@@ -78,17 +78,17 @@ __ÚČASTNÍCI ŘÍZENÍ__
 
 Osobou zúčastněnou na řízení je každý, kdo se jakkoliv činně účastní řízení (soudci, zapisovatelka, svědci, znalci), nepatří mezi ně však diváci a posluchači.
 
-1. __Sporné řízení__
+## 1. Sporné řízení
 
 - Účastníky jsou __žalobce__ a __žalovaný__.
 - Jako vedlejší účastník se může vedle žalobce a žalovaného zúčastnit řízení ten, kdo __má právní zájem na jeho výsledku__.
 
-1. __Nesporné řízení__
+## 2. Nesporné řízení
 
 - V řízení, která mohou být zahájena i bez návrhu, je účastníkem řízení __navrhovatel__ a ten, __o jehož právech a povinnostech má být v řízení jednáno__.
 - Účastníkem je __také navrhovatel__ a ten, __kterého zákon za účastníka označuje__. (odpůrce)
 
-Způsobilost být účastníkem řízení
+## Způsobilost být účastníkem řízení
 
 Aby se někdo mohl stát účastníkem řízení, musí k tomu být způsobilý.
 
@@ -96,19 +96,19 @@ Způsobilostí být účastníkem řízení rozumíme způsobilost mít procesn�
 
 Způsobilost být účastníkem řízení má ten, kdo má právní osobnost, jinak ten, komu ji zákon přiznává.
 
-Procesní způsobilost účastníků
+## Procesní způsobilost účastníků
 
 Procesní způsobilostí účastníků rozumíme, že každý může před soudem jako účastník samostatně právně jednat v tom rozsahu, v jakém je svéprávný.
 
 __PRŮBĚH ŘÍZENÍ.__
 
-1. __Zahájení řízení__
+### 3. Zahájení řízení
 
 Každé řízení musí být zahájeno. U občanského soudního řízení může být zahájeno na __návrh i bez návrhu__. Návrhem ve sporném řízení bude __žaloba__ (statusová, na plnění, určovací).
 
 Civilní řízení je zahájeno dnem, kdy došel návrh na jeho zahájení (žaloba) k soudu nebo usnesením soudu o zahájení řízení bez návrhu.
 
-1. __Dokazování__
+### 4. Dokazování
 
 Sporné řízení: jednotlivé strany předkládají důkazy při hlavním jednání
 
@@ -130,7 +130,7 @@ Nesporné: například OSPOD překládá nějaké dokumenty například v rámc
 
 Mezi důkazní prostředky patří například svědecká výpověď, znalecký posudek, ohledání, výslech účastníků, fotografie, zvuková záznam.
 
-1. __Vydání rozhodnutí__
+### 5. Vydání rozhodnutí
 
 Soud vydává rozsudek. Rozsudek má 3 části, kterými jsou __VÝROK__ (stručně vyjádřen názor na konečné řešení věci), __ODŮVODNĚNÍ__ (důvod rozhodnutí, slouží pro stranu, která prohrála, a to k odvolání) A __POUČENÍ
 O ODVOLÁNÍ __(uvedena lhůta a místo, kam se odvolat). Má také své__ formální náležitosti__, mezi které patří označení soudu, označení sporných stran, kulaté razítko, podpisy…
@@ -151,11 +151,11 @@ Samosoudce: rozhoduje v 1. stupni soudní soustavy
 
 - __Konstitutivní a deklaratorní__
 
-Konstitutivní: rozvod manželů -> ruší, zakládá nebo mění právní vztahy
+Konstitutivní: rozvod manželů → ruší, zakládá nebo mění právní vztahy
 
 Deklaratorní: konstatuje, že tam právní vztah je a pořád trvá
 
-1. __Opravné řízení__
+### 6. Opravné řízení
 
 V opravném řízení existují dva typy opravných prostředků, a to řádné a mimořádné.
 
@@ -163,7 +163,7 @@ V opravném řízení existují dva typy opravných prostředků, a to řádné
 
 Mimořádné: jsou využity v případě, kdy rozhodnutí již nabylo právní moci (dovolání)
 
-1. __Vykonávací řízení (exekuce)__
+### 7. Vykonávací řízení (exekuce)
 
 Při vykonávacím řízení dochází k právnímu naplnění rozsudku (zaplacení dlužné částky, rozvod manželů).
 

@@ -104,12 +104,14 @@ $$n_1 \sin \alpha = n_2 \sin \beta$$
 - Prostředí opticky hustší – větší index lomu
 - Prostředí opticky řidší – menší index lomu
 
-<img src="/images/content/fyzika/38-optika-uvod-a-geom-optika/07.webp" alt="" width="169" loading="lazy" decoding="async">Lom světla ke kolmici a od kolmice
+## Lom světla ke kolmici a od kolmice
+
+<img src="/images/content/fyzika/38-optika-uvod-a-geom-optika/07.webp" alt="Ilustrace: Lom světla ke kolmici a od kolmice" width="169" loading="lazy" decoding="async">
 
 - Lom světla při přechodu z prostředí:
 	1. z prostředí opticky řidšího do prostředí opticky hustšího nastává lom světla __ke kolmici ( β<α)__
 
-<img src="/images/content/fyzika/38-optika-uvod-a-geom-optika/08.webp" alt="" width="179" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/38-optika-uvod-a-geom-optika/08.webp" alt="Ilustrace: Lom světla ke kolmici a od kolmice" width="179" loading="lazy" decoding="async">
 
 1.  při přechodu světla z opticky hustšího prostředí do prostředí opticky řidšího nastává lom světla **od kolmice ( α<β).** 
 
@@ -120,4 +122,4 @@ $$n_1 \sin \alpha = n_2 \sin \beta$$
 - Úplný odraz se využívá ke konstrukci odrazných hranolů
 - Na úplném odrazu jsou založena důležitá moderní zařízení pro přenos signálů ve sdělovací technice –__optické kabely__. Základní částí optického kabelu je skleněné vlákno (optický vlnovod). Sklo v jeho střední části má větší index lomu než obvodová vrstva. Signály    v optickém kabelu mají digitální podobu.
 
-<img src="/images/content/fyzika/38-optika-uvod-a-geom-optika/09.webp" alt="" width="173" loading="lazy" decoding="async"><img src="/images/content/fyzika/38-optika-uvod-a-geom-optika/10.webp" alt="" width="426" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/38-optika-uvod-a-geom-optika/09.webp" alt="Ilustrace: Refraktometry a optické kabely" width="173" loading="lazy" decoding="async"><img src="/images/content/fyzika/38-optika-uvod-a-geom-optika/10.webp" alt="Ilustrace: Refraktometry a optické kabely" width="426" loading="lazy" decoding="async">

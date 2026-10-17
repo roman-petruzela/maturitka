@@ -2,7 +2,7 @@
 title: "Psychologie pro sociálního pracovníka"
 source: "PSYCHOLOGIE/PSYCHOLOGIE-PRO-SOCIÁLNÍHO-PRACOVNÍKA.docx"
 ---
-1. __Pedagogika a psychologie__
+#### 1. Pedagogika a psychologie
 
 - __Psychologie jako vědní disciplína – definice, název, význam, vznik psychologie; obory psychologie; základní pojmy – *prožívání, chování, psychické procesy, stavy a vlastnosti*__
 - Pedagogika jako vědní disciplína – definice, název, význam a vznik pedagogika, základní pojmy – *výchova, interakce, vzdělávání, vzdělání*
@@ -154,7 +154,7 @@ __ČLENĚNÍ PSYCHOLOGIE – PSYCHOLOGICKÉ DISCIPLÍNY__
 
 - Psychologie zahrnuje širokou škálu témat,🡪 proto se rozděluje do několika disciplín
 
-1. __Základní (teoretické) disciplíny__
+#### 2. Základní (teoretické) disciplíny
 
 __Obecná psychologie__
 
@@ -260,7 +260,7 @@ __Psychologie sportu__
 - Zaměření na zlepšení výkonu vrcholových sportovců
 - Zkoumá jak udržet vysokou morálku týmu, jak poznat talentovaného trenéra
 
-1. __Speciální obory__
+#### 3. Speciální obory
 
 __Zoopsychologie__
 

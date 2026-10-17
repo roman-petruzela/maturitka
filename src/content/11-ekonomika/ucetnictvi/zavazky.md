@@ -27,31 +27,31 @@ __Pojem závazek__
 
 __Tuzemské závazky z obchodního styku__
 
-1. __Závazky vůči dodavatelům__
+## 1. Závazky vůči dodavatelům
 
 - Patří do účtové skupiny 32 \- Závazky
 - V této účtové skupině jsou především krátkodobé závazky vůči dodavatelům
 - Nejčastěji se používá účet 321 – Dodavatelé
 - O závazcích dlouhodobých \(tzn\., že doba splatnosti je delší než 1 rok\) se účtuje ve 4\. účtové třídě
 
-1. __Přijeté provozní zálohy od odběratelů__
+## 2. Přijeté provozní zálohy od odběratelů
 
 - V účetnictví nelze kompenzovat pohledávky a závazky proto je nutné jako závazky účtovat i přijaté zálohy od odběratelů
 - Účetní jednotky mají v řadě případů povinnost odvádět z přijatých záloh daň z přidané hodnoty
 
-1. __Účtování přijatých záloh od neplátce DPH__
+## 3. Účtování přijatých záloh od neplátce DPH
 
 - Přijatá platba se zaúčtuje na účtu 324 – přijaté zálohy \(na dal jako závazek vůči budoucímu odběrateli\)
 - Vydaná faktura je zaúčtována obvyklým způsobem
 - Rozdíl mezi přijatou zálohou a částkou faktury bude uhrazen odběratelem
 
-1. __Účtování přijatých záloh od plátce DPH__
+## 4. Účtování přijatých záloh od plátce DPH
 
 - Podle zákona o DPH je plátce povinen přiznat daň ke dni uskutečnění zdanitelného plnění nebo ke dni přijetí platby, a to ke dni, který nastane dříve
 - Plátci DPH mají povinnost odvádět DPH i z přijatých záloh, i přesto, že ještě nedošlo k uskutečnění zdanitelného plnění
 - Do 15 dnů od přijetí platby se musí vystavit daňový doklad, na základně kterého si druhá strana odečte DPH
 
-1. __Ve stejném měsíci__
+## 5. Ve stejném měsíci
 
 - Plátce DPH má možnost nevystavovat daňový doklad na přijatou platbu, pokud zdanitelné plnění bude uskutečněno ve stejném kalendářním měsíci jako přijatá platba
 
@@ -64,12 +64,12 @@ __Tuzemské závazky z obchodního styku__
 
 4\) Odečet DPH ze zálohy			321/324
 
-1. __V jiném měsíci__
+## 6. V jiném měsíci
 
 - Povinnost vystavit daňový doklad již na zaplacenou zálohu
 - Účtování je stejné, jen u daňového dokladu se neúčtuje cena bez daně
 
-<img src="/images/content/ekonomika/ucetnictvi/zavazky/01.webp" alt="" width="573" loading="lazy" decoding="async">
+<img src="/images/content/ekonomika/ucetnictvi/zavazky/01.webp" alt="Ilustrace: V jiném měsíci" width="573" loading="lazy" decoding="async">
 
 __Závazky v cizí měně a kurzové rozdíly__
 

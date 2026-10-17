@@ -69,7 +69,7 @@ __Budoucí__ - souvisí s našimi představami o budoucnosti, sny, touhami,…
 
 	Ekonomické 	- vznikají hospodářskou činností
 
-  \- ke vztahu k potřebám jsou vzácné → omezené (potraviny, ošacení)
+  - ke vztahu k potřebám jsou vzácné → omezené (potraviny, ošacení)
 
 Volné - vyskytují se volně v přírodě, relativně v dostatečném množství, není nutné rozdělování (vzduch, voda, léčivé byliny)
 
@@ -220,7 +220,7 @@ __Řídicí práce__ – kontrola, vedení lidí
 	- __oběžný__ (zásoby surovin, materiálu, polotovarů)
 2. __Finanční__ → peníze, cenné papíry, akcie, obligace
 
-Majetek podniku
+## Majetek podniku
 
 = prostředky, které podnik ke své činnosti užívá
 

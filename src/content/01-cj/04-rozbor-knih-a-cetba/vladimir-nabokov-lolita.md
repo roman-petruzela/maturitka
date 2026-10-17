@@ -152,7 +152,7 @@ poezie: _Člověk zahrada širá, Poslední máj, Monology_ drama: _Majitelé kl
 
 _Mášenka, Smích ve tmě, Lužinova obrana, Pozvání na popravu, Hrdinský čin, Dar, Ve znamení levobočka, Nezvratný důkaz, Jiné břehy, Bledý oheň, Ada or Ardor, Průzračné věci, Koukej na harlekýny Pnin_ – román, příběh exulanta Timofeje Pavloviče Pnina _Promluv, paměti_ – autorovy vzpomínky drama: _Událost, Vynález valčíku_ monografie: _Nikolaj Gogol, Evžen Oněgin_
 
-# Charakteristika uměleckého textu jako celku:
+## Charakteristika uměleckého textu jako celku:
 
 • **literární druh**
 
@@ -226,11 +226,11 @@ vzpomínkové zápisky muže: Henri Barbusse – Oheň muž trpící duševní v
 
 - o něco lepší hodnocení má starší zpracování
 
-# Charakteristika úryvku z uměleckého textu:
+## Charakteristika úryvku z uměleckého textu:
 
 Ctihodné porotkyně! Mějte se mnou strpení. Věnujte mi alespoň zlomeček svého vzácného času! Teď tedy nastal _le grand moment_ . Opustil jsem svoji Lolitu, která ještě stále seděla na pelesti té propastné postele, ospale zvedala nohu, šátrala po tkaničkách a odhalovala přitom vnitřní část stehna až k rozkroku kalhotek – vždycky bývala podivně roztržitá nebo nestydatá nebo obojí, když mohla někde ukazovat nohy. To tedy byla neprodyšně uzavřená představa o ní, kterou jsem uzamkl, když jsem se nejprve s uspokojením přesvědčil, že dveře nemají zevnitř zástrčku. Klíč s očíslovaným přívěskem z vyřezávaného dřeva se stal okamžitě nadmíru nepostradatelným sezamem k úchvatné i úděsné budoucnosti. Patřil mně, byl součástí mé horké, chlupaté pěsti. Za pár minut, řekněme za dvacet, řekněme ze třicet, _sicher ist sicher_ , jak říkával můj strýček Gustav, odemknu dveře s číslem 342 a najdu svou nymfičku, svou krásku a nevěstu, v zajetí křišťálového spánku. Porotci! Kdyby mé štěstí mohlo mluvit, naplnilo by ten nóbl hotel ohlušujícím řevem. A dnes jenom lituji, že jsem ve vší tichosti neuložil klíč 342 v recepci a ještě téže noci neopustil město, zemi, kontinent, polokouli, vlastně celou zeměkouli.
 
-# Atmosféra úryvku:
+## Atmosféra úryvku:
 
 vilná – Humbert se těší na omámenou Dolores, chce se na ní uspokojit, aniž by se mu bránila
 
@@ -256,7 +256,7 @@ Annabel – Humbertova dětská láska, prapůvod jeho touhy po nymfičkách, p�
 
 - závěr první části, když začalo putování Humberta a Lolity po USA
 
-# Použité jazykové prostředky: v celé knize:
+## Použité jazykové prostředky: v celé knize:
 
 - slovní hříčky, dvojsmysly, přesmyčky, neologismy, metafory - ironizující kritika amerického způsobu života
 

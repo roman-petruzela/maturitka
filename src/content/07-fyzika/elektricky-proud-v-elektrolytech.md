@@ -14,9 +14,9 @@ Elektrolyt
 
 - Elektrolytická disociace je děj, při kterém nastává __rozpad látky__ na __ionty__ způsobený __rozpouštědlem__
 - Je to __samovolný proces__, který končí dosažením __rovnovážného stavu__, při němž jsou přítomny vždy dva druhy iontů – __kationty ( + )__ __a anionty ( - )__
-- Např.                KCl      ->	K+   +   Cl-  ;	KOH -> K+ + OH-
+- Např.                KCl      →	K+   +   Cl-  ;	KOH → K+ + OH-
 
-  CaCl2   ->   	Ca2+   +   2Cl- ;    H2SO4 -> 2H+ + SO42-
+  CaCl2   →   	Ca2+   +   2Cl- ;    H2SO4 → 2H+ + SO42-
 
 ## Elektrolýza
 
@@ -25,17 +25,17 @@ Elektrolyt
 - Elektroda spojená s __kladnou svorkou je anoda__, elektroda spojená se __zápornou svorkou je katoda__
 - S přenosem __elektrického náboje__ nastává i __přenos látky__, děj se nazývá __elektrolýza__
 
-<img src="/images/content/fyzika/elektricky-proud-v-elektrolytech/01.webp" alt="" width="202" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/elektricky-proud-v-elektrolytech/01.webp" alt="Ilustrace: Elektrolýza" width="202" loading="lazy" decoding="async">
 
 ## Faradayovy zákony pro elektrolýzu
 
-1. __Faradayův zákon:__
+__První Faradayův zákon:__
 
 - *Hmotnost m vyloučené látky je přímo úměrná součinu stálého proudu I a doby t, po kterou proud elektrolytem procházel.*
 
 $$m = A \cdot Q = A \cdot I \cdot t$$
 
-__2.   Faradayův zákon:__
+__Druhý Faradayův zákon:__
 
 - *Elektrochemický ekvivalent látky vypočteme, jestliže její molární hmotnost vydělíme Faradayovou konstantou a počtem elektronů potřebných k vyloučení jedné molekuly:*
 
@@ -58,7 +58,7 @@ $$I = \frac{U - U_r}{R}$$
 - __R__ je odpor elektrolytu
 - Graficky se tato závislost nazývá __voltampérová charakteristika chemického zdroje__ a vypadá takto:
 
-  <img src="/images/content/fyzika/elektricky-proud-v-elektrolytech/04.webp" alt="" width="312" loading="lazy" decoding="async">
+  <img src="/images/content/fyzika/elektricky-proud-v-elektrolytech/04.webp" alt="Ilustrace: Voltampérová charakteristika vodiče" width="312" loading="lazy" decoding="async">
 
 
 ## Galvanické články
@@ -66,7 +66,7 @@ $$I = \frac{U - U_r}{R}$$
 - Různou kombinací elektrod a elektrolytů vznikne zdroj stejnosměrného napětí, který nazýváme galvanický článek (primární článek)
 - Nejjednodušší a historicky nejstarší je Voltův článek, který tvoří zinková a měděná elektroda ponořená do zředěné kyseliny sírové
 
-<img src="/images/content/fyzika/elektricky-proud-v-elektrolytech/05.webp" alt="" width="602" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/elektricky-proud-v-elektrolytech/05.webp" alt="Ilustrace: Galvanické články" width="602" loading="lazy" decoding="async">
 
 - Jestliže k tomuto článku připojíme __spotřebič__, obvodem prochází __elektrický proud__
 - Napětí na svorkách zatíženého článku klesne na svorkové napětí
@@ -75,11 +75,11 @@ $$I = \frac{U - U_r}{R}$$
 - V zapojeném Voltově článku se tedy z katody uvolňují do roztoku __ionty Zn2+__ a vzniká __síran zinečnatý__, článek se postupně znehodnocuje
 - __Daniellův článek__ – se skládá ze __zinkové elektrody__ ponořené do vodného roztoku __ZnSO4__ a __měděné elektrody__ ponořené do vodného roztoku __CuSO4__, oba elektrolyty jsou od sebe odděleny __pórovitou stěnou__, která zabraňuje smíchání, ale umožňuje přechod iontů; elektromotorické napětí tohoto článku je __1,1V__
 
-<img src="/images/content/fyzika/elektricky-proud-v-elektrolytech/06.webp" alt="" width="272" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/elektricky-proud-v-elektrolytech/06.webp" alt="Ilustrace: Galvanické články" width="272" loading="lazy" decoding="async">
 
 - __Suchý článek__ – je druh __galvanických článků__, elektromotorické napětí je asi __1,5V__, uvnitř probíhá elektrolýza, při ní se __zinková elektroda rozpouští__ a na __uhlíkové katodě se vylučuje vodík__, který reaguje s burelem za vzniku vody, článek se postupně znehodnocuje
 
-  <img src="/images/content/fyzika/elektricky-proud-v-elektrolytech/07.webp" alt="" width="175" loading="lazy" decoding="async">
+  <img src="/images/content/fyzika/elektricky-proud-v-elektrolytech/07.webp" alt="Ilustrace: Galvanické články" width="175" loading="lazy" decoding="async">
 
 - Prototypem suchého článku byl __Leclancheův článek__
 	- tvoří jej anoda z čistého uhlíku, katoda ze zinku a elektrolyt, kterým je směs __burelu__ (__MnO2__ a salmiaku (__NH4Cl__)). Směs je ještě zahuštěná pilinami nebo pískem, odtud pochází označení „suchý článek“
@@ -94,9 +94,9 @@ $$I = \frac{U - U_r}{R}$$
 - Schopnost akumulátoru akumulovat náboj vyjadřuje __kapacita akumulátoru__, udává se v __ampérhodinách__ (A·h)
 - Např. olověný, gelový
 
-  <img src="/images/content/fyzika/elektricky-proud-v-elektrolytech/08.webp" alt="" width="381" loading="lazy" decoding="async">
+  <img src="/images/content/fyzika/elektricky-proud-v-elektrolytech/08.webp" alt="Ilustrace: Akumulátor" width="381" loading="lazy" decoding="async">
 
-  <img src="/images/content/fyzika/elektricky-proud-v-elektrolytech/09.webp" alt="" width="278" loading="lazy" decoding="async">
+  <img src="/images/content/fyzika/elektricky-proud-v-elektrolytech/09.webp" alt="Ilustrace: Akumulátor" width="278" loading="lazy" decoding="async">
 
 
 ## Technické využití elektrolýzy

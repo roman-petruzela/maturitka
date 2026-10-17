@@ -9,7 +9,7 @@ Obecné
 - Sbíhavý paprsek tvoří skutečný obraz, rozbíhavý paprsek tvoří zdánlivý obraz
 - Nejjednodušší popis šíření paprsků čočkou poskytuje geometrická optika
 
-Pojmy
+## Pojmy
 
 - C…střed optické plochy
 - o…optická osa zrcadla / čočky
@@ -20,16 +20,16 @@ Pojmy
 - a… předmětová vzdálenost od V
 - a‘… obrazová vzdálenost od V
 
-ZOBRAZENÍ ROVINNÝM ZRCADLEM
+## Zobrazení rovinným zrcadlem
 
-<img src="/images/content/fyzika/39-geometricka-optika/01.webp" alt="" width="290" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/39-geometricka-optika/01.webp" alt="Ilustrace: Zobrazení rovinným zrcadlem" width="290" loading="lazy" decoding="async">
 
 
 - opticky hladká rovinná plocha
 -  vzniká zdánlivý, vzpřímený, stejně velký a stranově převrácený obraz
 - Při zobrazování využíváme zákonu odrazu světla
 
-ZOBRAZENÍ KULOVÝM ZRCADLEM
+## Zobrazení kulovým zrcadlem
 
 - Využíváme alespoň dva ze tří význačných paraxiálních paprsků (= paprsek poblíž
 
@@ -39,11 +39,11 @@ ZOBRAZENÍ KULOVÝM ZRCADLEM
 2. Procházející ohniskem (rovnoběžný s osou)
 3. Jdoucí středem opt. plochy (odráží se do opačného směru)
 
-	__Zobrazovací rovnice kulového zrcadla__
+**Zobrazovací rovnice kulového zrcadla:**
 
 $$\frac{1}{a} + \frac{1}{a'} = \frac{1}{f}$$
 
-PŘÍČNÉ ZVĚTŠENÍ ZRCADLA (i čočky)
+## Příčné zvětšení zrcadla (i čočky)
 
 y… výška předmětu
 
@@ -53,7 +53,9 @@ Z… měřítko optického zobrazení
 
 $$Z = \frac{y'}{y} = -\frac{a'}{a}$$
 
-<img src="/images/content/fyzika/39-geometricka-optika/04.webp" alt="" width="280" loading="lazy" decoding="async">ZOBRAZENÍ DUTÝM ZRCADLEM
+## Zobrazení dutým zrcadlem
+
+<img src="/images/content/fyzika/39-geometricka-optika/04.webp" alt="Ilustrace: Zobrazení dutým zrcadlem" width="280" loading="lazy" decoding="async">
 
 - vlastnosti obrazu:
 
@@ -65,7 +67,9 @@ $$Z = \frac{y'}{y} = -\frac{a'}{a}$$
 
 	a < f → -∞ < -a‘ < 0… neskutečný, vzpřímený, zvětšený obraz
 
-<img src="/images/content/fyzika/39-geometricka-optika/05.webp" alt="" width="306" loading="lazy" decoding="async">Zobrazení vypuklým zrcadlem
+## Zobrazení vypuklým zrcadlem
+
+<img src="/images/content/fyzika/39-geometricka-optika/05.webp" alt="Ilustrace: Zobrazení vypuklým zrcadlem" width="306" loading="lazy" decoding="async">
 
 - vlastnosti obrazu:
 
@@ -73,13 +77,13 @@ $$Z = \frac{y'}{y} = -\frac{a'}{a}$$
 
 … neskutečný, vzpřímený, zvětšený obraz
 
-Druhy čoček
+## Druhy čoček
 
-<img src="/images/content/fyzika/39-geometricka-optika/07.webp" alt="" width="299" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/39-geometricka-optika/07.webp" alt="Ilustrace: Druhy čoček" width="299" loading="lazy" decoding="async">
 
 __Rozptylky__:
 
-<img src="/images/content/fyzika/39-geometricka-optika/08.webp" alt="" width="52" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/39-geometricka-optika/08.webp" alt="Ilustrace: Druhy čoček" width="52" loading="lazy" decoding="async">
 
  4 — dvojdutá
  5 — ploskodutá
@@ -87,7 +91,7 @@ __Rozptylky__:
 
 __Spojky__:
 
-<img src="/images/content/fyzika/39-geometricka-optika/06.webp" alt="" width="42" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/39-geometricka-optika/06.webp" alt="Ilustrace: Druhy čoček" width="42" loading="lazy" decoding="async">
 
  1 — dvojvypuklá
  2 — ploskovypuklá
@@ -95,7 +99,7 @@ __Spojky__:
 
 __Tenké čočky__
 
-<img src="/images/content/fyzika/39-geometricka-optika/09.webp" alt="" width="373" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/39-geometricka-optika/09.webp" alt="Ilustrace: Druhy čoček" width="373" loading="lazy" decoding="async">
 
 - vlastnosti obrazu:
 
@@ -107,13 +111,13 @@ __Tenké čočky__
 
 	a < f → -∞ < a‘ < 0… neskutečný, vzpřímený, zvětšený obraz
 
-<img src="/images/content/fyzika/39-geometricka-optika/10.webp" alt="" width="349" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/39-geometricka-optika/10.webp" alt="Ilustrace: Druhy čoček" width="349" loading="lazy" decoding="async">
 
 - vlastnosti obrazu:
 
 	a > 0 → f < a‘ < 0… neskutečný, vzpřímený, zmenšený obraz
 
-Zobrazovací rovnice čočky
+## Zobrazovací rovnice čočky
 
 $$\frac{1}{f} = \left(\frac{n_2}{n_1} - 1\right)\left(\frac{1}{r_1} + \frac{1}{r_2}\right)$$
 
@@ -127,7 +131,7 @@ n2… index lomu látky, z níž je čočka vyrobena
 
 $$\frac{1}{a} + \frac{1}{a'} = \frac{1}{f}$$
 
-Optická mohutnost
+## Optická mohutnost
 
 - vyjadřuje zakřivenost čočky
 

@@ -5,24 +5,24 @@ source: "FYZIKA-maturitní otázky/16-Kruhový-děj-s-ideálním-plynem-2.-TD-z.
 ---
 Práce plynu
 
-- Práce vykonaná plynem při izobarickém ději je rovna součinu __tlaku__ plynu a __přírůstku__ jeho __objemu__<img src="/images/content/fyzika/kruhovy-dej-s-idealnim-plynem-2-td-z/01.webp" alt="" width="211" loading="lazy" decoding="async">
+- Práce vykonaná plynem při izobarickém ději je rovna součinu __tlaku__ plynu a __přírůstku__ jeho __objemu__<img src="/images/content/fyzika/kruhovy-dej-s-idealnim-plynem-2-td-z/01.webp" alt="Ilustrace: Kruhový děj s ideálním plynem 2. TD z." width="211" loading="lazy" decoding="async">
 
-<img src="/images/content/fyzika/kruhovy-dej-s-idealnim-plynem-2-td-z/02.webp" alt="" width="192" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/kruhovy-dej-s-idealnim-plynem-2-td-z/02.webp" alt="Ilustrace: Kruhový děj s ideálním plynem 2. TD z." width="192" loading="lazy" decoding="async">
 
 W’ = Fs = pSΔs = pΔV 
 
-- Práce vykonaná při __izobarickém ději__, při němž plyn přejde ze stavu __A__ do stavu __B__, je znázorněna __obsahem__ obdélníku ležícího v __p-V diagramu__ pod __izobarou__ AB. Diagram p-V se nazývá __pracovní diagram__<img src="/images/content/fyzika/kruhovy-dej-s-idealnim-plynem-2-td-z/03.webp" alt="" width="327" loading="lazy" decoding="async">
+- Práce vykonaná při __izobarickém ději__, při němž plyn přejde ze stavu __A__ do stavu __B__, je znázorněna __obsahem__ obdélníku ležícího v __p-V diagramu__ pod __izobarou__ AB. Diagram p-V se nazývá __pracovní diagram__<img src="/images/content/fyzika/kruhovy-dej-s-idealnim-plynem-2-td-z/03.webp" alt="Ilustrace: Kruhový děj s ideálním plynem 2. TD z." width="327" loading="lazy" decoding="async">
 - Při __proměnném tlaku:__
 - Práce vykonaná plynem při __zvětšení__ jeho __objemu__ je v prac. diagramu znázorněna obsahem plochy, která leží pod příslušným úsekem křivky __p=f(V)__
 - Tlaková síla působící na píst není stálá:
 
 W’ = p1ΔV + p2ΔV + … + pnΔV
 
-<img src="/images/content/fyzika/kruhovy-dej-s-idealnim-plynem-2-td-z/04.webp" alt="" width="541" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/kruhovy-dej-s-idealnim-plynem-2-td-z/04.webp" alt="Ilustrace: Kruhový děj s ideálním plynem 2. TD z." width="541" loading="lazy" decoding="async">
 
 ## Kruhový děj
 
-- <img src="/images/content/fyzika/kruhovy-dej-s-idealnim-plynem-2-td-z/05.webp" alt="" width="263" loading="lazy" decoding="async">Děj při kterém je __konečný stav__ soustavy __totožný__ s __počátečním stavem__, se nazývá __kruhový (cyklický) děj__
+- <img src="/images/content/fyzika/kruhovy-dej-s-idealnim-plynem-2-td-z/05.webp" alt="Ilustrace: Kruhový děj" width="263" loading="lazy" decoding="async">Děj při kterém je __konečný stav__ soustavy __totožný__ s __počátečním stavem__, se nazývá __kruhový (cyklický) děj__
 - Protože při kruhovém ději je počáteční stav látky totožný s konečným stavem, je __celková změna vnitřní energie__ pracovní látky po ukončení cyklu __nulová__
 - Těleso, od kterého pracovní látka přijme teplo __Q1__ je __ohříváč__
 - Těleso, kterému pracovní látka teplo __Q’2__ (< Q1) předá je __chladič__
@@ -30,7 +30,9 @@ W’ = p1ΔV + p2ΔV + … + pnΔV
 - Celková práce __W’__, kterou vykoná pracovní látka během jednoho cyklu kruhového děje, se rovná __celkovému teplu Q = Q1 + Q’2 přijatému__ během tohoto cyklu od okolí
 -  Použitím __prvního termodynamického zákona__ pro tento děj pak dostaneme __W’ = Q__
 
-<img src="/images/content/fyzika/kruhovy-dej-s-idealnim-plynem-2-td-z/06.webp" alt="" width="488" loading="lazy" decoding="async">Účinnost kruhového děje
+## Účinnost kruhového děje
+
+<img src="/images/content/fyzika/kruhovy-dej-s-idealnim-plynem-2-td-z/06.webp" alt="Ilustrace: Účinnost kruhového děje" width="488" loading="lazy" decoding="async">
 
 - Účinnost __ŋ (étha)__ libovolného kruhového děje je určena vztahem a je vždy < 1:
 
@@ -41,15 +43,15 @@ W’ = p1ΔV + p2ΔV + … + pnΔV
 
 __Cyklicky pracující tepelný stroj			Perpetum mobile druhého druhu__
 
-<img src="/images/content/fyzika/kruhovy-dej-s-idealnim-plynem-2-td-z/07.webp" alt="" width="292" loading="lazy" decoding="async"><img src="/images/content/fyzika/kruhovy-dej-s-idealnim-plynem-2-td-z/08.webp" alt="" width="234" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/kruhovy-dej-s-idealnim-plynem-2-td-z/07.webp" alt="Ilustrace: Druhý termodynamický zákon" width="292" loading="lazy" decoding="async"><img src="/images/content/fyzika/kruhovy-dej-s-idealnim-plynem-2-td-z/08.webp" alt="Ilustrace: Druhý termodynamický zákon" width="234" loading="lazy" decoding="async">
 
-<img src="/images/content/fyzika/kruhovy-dej-s-idealnim-plynem-2-td-z/09.webp" alt="" width="232" loading="lazy" decoding="async"><img src="/images/content/fyzika/kruhovy-dej-s-idealnim-plynem-2-td-z/10.webp" alt="" width="163" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/kruhovy-dej-s-idealnim-plynem-2-td-z/09.webp" alt="Ilustrace: Druhý termodynamický zákon" width="232" loading="lazy" decoding="async"><img src="/images/content/fyzika/kruhovy-dej-s-idealnim-plynem-2-td-z/10.webp" alt="Ilustrace: Druhý termodynamický zákon" width="163" loading="lazy" decoding="async">
 
 ## Carnotův cyklus
 
 - __Carnotův cyklus__ označuje __vratný kruhový děj__ ideálního tepelného stroje, který se skládá ze __dvou izotermických a dvou adiabatických dějů__.
 
-<img src="/images/content/fyzika/kruhovy-dej-s-idealnim-plynem-2-td-z/11.webp" alt="" width="389" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/kruhovy-dej-s-idealnim-plynem-2-td-z/11.webp" alt="Ilustrace: Carnotův cyklus" width="389" loading="lazy" decoding="async">
 
 1. Izotermická expanze
 2. Adibatická expanze
@@ -69,7 +71,7 @@ __Princip__
 - Reálné tepelné motory ale pracují tak, že po expanzi se pracovní látka z motoru vypouští (např. shořelá pohonná směs u vznětového motoru) a stlačuje se nová dávka pracovní látky
 - Pro __účinnost__ tepelného motoru, který pracuje s __ohřívačem__ o teplotě __T1__ a __chladičem__ o teplotě __T2__, platí:
 
-<img src="/images/content/fyzika/kruhovy-dej-s-idealnim-plynem-2-td-z/12.webp" alt="" width="440" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/kruhovy-dej-s-idealnim-plynem-2-td-z/12.webp" alt="Ilustrace: Tepelné motory" width="440" loading="lazy" decoding="async">
 
 - Tepelné motory můžeme rozdělit na:
 	- __Parní__
@@ -92,7 +94,7 @@ __Zážehový motor čtyřdobý__
 	- __Výfuk__ - sací ventil je uzavřen, výfukový se otevírá, píst při pohybu nahoru vytlačuje spálené plyny mimo válec do výfuku
 - __Účinnost__ motoru je 20 % až 33 %
 
-<img src="/images/content/fyzika/kruhovy-dej-s-idealnim-plynem-2-td-z/13.webp" alt="" width="254" loading="lazy" decoding="async"><img src="/images/content/fyzika/kruhovy-dej-s-idealnim-plynem-2-td-z/14.webp" alt="" width="414" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/kruhovy-dej-s-idealnim-plynem-2-td-z/13.webp" alt="Ilustrace: Tepelné motory" width="254" loading="lazy" decoding="async"><img src="/images/content/fyzika/kruhovy-dej-s-idealnim-plynem-2-td-z/14.webp" alt="Ilustrace: Tepelné motory" width="414" loading="lazy" decoding="async">
 
 ## Entropie
 
@@ -100,4 +102,4 @@ __Zážehový motor čtyřdobý__
 - __Entropie__ vyjadřuje tendenci systému přecházet z __méně pravděpodobných__ (__uspořádanějších__) stavů do stavů __pravděpodobněji realizovatelných__ (__méně__ __uspořádaných__).
 - __Entropie S__ je mírou __neuspořádanosti__ (poloh a rychlostí částic) systému.
 - Pro __dokonale uspořádaný systém__ (krystalická mřížka při 0 K) je __S = 0__. Se vzrůstající __teplotou__ a klesajícím __tlakem__ roste.
-- Entropie je __termodynamická stavová veličina.__ <img src="/images/content/fyzika/kruhovy-dej-s-idealnim-plynem-2-td-z/15.webp" alt="" width="306" loading="lazy" decoding="async">
+- Entropie je __termodynamická stavová veličina.__ <img src="/images/content/fyzika/kruhovy-dej-s-idealnim-plynem-2-td-z/15.webp" alt="Ilustrace: Entropie" width="306" loading="lazy" decoding="async">

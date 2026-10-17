@@ -19,7 +19,7 @@ __složky__:
 
 3\) __příspěvek na státní politiku zaměstnanosti__ \- hradí se náklady na rekvalifikaci; náklady na tvorbu nových pracovních míst; podpory v nezaměstnanosti
 
-\- __plátci sociálního zabezpečení__
+- __plátci sociálního zabezpečení__
 
 1. __zaměstnanci__ – 6,5% z hrubé mzdy; 3 podmínky\- pracuje v ČR, rozsah práce min\. 15 kalendář\. dní, peněžní odměna musí přesáhnout stanovenou částku
 2. __zaměstnavatel__ \- procento ze součtu hrubých mezd všech zaměstnanců; z těchto peněz vyplácí zaměstnavatel nemocenskou; u každého zaměstnance veden evidenční list důchodového pojištění \(platí OSSZ do 20\. dne následujícího měsíce\); zaměstnavatel platí pojištění za zaměstnance ale i sražené pojistné od zaměstnanců;

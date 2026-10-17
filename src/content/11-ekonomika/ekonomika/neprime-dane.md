@@ -43,7 +43,7 @@ __1. Daň z přidané hodnoty DPH__
 
 - Nepřímá univerzální daň; je součástí ceny výrobků prodávaných nebo poskytovaných služeb; do státního rozpočtu se dostává zprostředkovaně
 - __Registrace k DPH__ – při obou registracích FÚ přiděluje DIČ – CZ + identifikátor (FO – rodné číslo; PO – IČ)
-	- __Povinná__ – vyplívá ze zákona o DPH; pokud osob povinná k dani překročí za 12 po sobě jdoucích měsíců __obrat 1 milion korun__ => do __15 dnů následujícího měsíce, který následuje po měsíci, kdy byl překročen obrat__; plátce se stává od prvního dne druhého měsíce, kdy byl překročen obrat
+	- __Povinná__ – vyplívá ze zákona o DPH; pokud osob povinná k dani překročí za 12 po sobě jdoucích měsíců __obrat 1 milion korun__ ⇒ do __15 dnů následujícího měsíce, který následuje po měsíci, kdy byl překročen obrat__; plátce se stává od prvního dne druhého měsíce, kdy byl překročen obrat
 	- __Dobrovolná__ – na základě vlastního rozhodnutí, kdy se na FÚ podá písemná přihláška; stává se plátcem ode dne uvedeného na rozhodnutí FÚ
 - __Daňové doklady__ – písemnosti, které mají náležitosti podle zákona o DPH, mohou mít listinnou nebo elektronickou podobu a za jejich správnost vždy odpovídá osoba, která provedla zdanitelné plnění; všechny doklady se musí uchovávat 10 let po skončení období, kdy bylo provedeno zdanitelné plnění
 	- __Daňový doklad__ – nejčastěji má podobu __faktury__ vyhotovuje se do 15 dnů od provedení zdanitelného plnění; náležitosti: označení osoby, která provedla zdanitelné plnění, označení osoby pro kterou bylo provedeno zdanitelné plnění, rozsah a předmět zdanitelného plnění, den provedení zdanitelného plnění, číslo dokladu, cen DPH, sazba

@@ -88,7 +88,7 @@ __1\)__ Lineární metoda = rovnoměrná \(vychází při výpočtu odpisů ze s
 
 __2\)__ Degresivní metoda = zrychlená \(vychází se z tabulky koeficientů pro 1\. a ostatní roky\)
 
-\- vybraná metoda se nesmí měnit
+- vybraná metoda se nesmí měnit
 
 __Odpisové skupiny:__
 
@@ -154,13 +154,10 @@ __Leasing__
 
 __\+__ \- firma si může pořídit majetek, na který nemá a jeho používáním si vydělat na splátky
 
-   \- daňová výhoda: splátky lze zahrnout do nákladů rychleji než odpisy
-
-\-  \- firma zaplatí víc, než kdyby si předmět zakoupila
-
-   \- nesplácí – li firma řádně, včas, majetek se vrací leasingové společnosti a dosavadní splátky propadají
-
-   \- v případě pojistné události je partnerem pojišťovny l\. spol\. \(firma nezíská nic\)
+   - daňová výhoda: splátky lze zahrnout do nákladů rychleji než odpisy
+-  \- firma zaplatí víc, než kdyby si předmět zakoupila
+   - nesplácí – li firma řádně, včas, majetek se vrací leasingové společnosti a dosavadní splátky propadají
+   - v případě pojistné události je partnerem pojišťovny l\. spol\. \(firma nezíská nic\)
 
 __Druhy leasingu:__
 

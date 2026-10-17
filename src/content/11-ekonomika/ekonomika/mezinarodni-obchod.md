@@ -84,12 +84,12 @@ __Platební podmínky__
 
 __Platba dokumentárním inkasem (DI)__
 
-- dohoda mezi odběratelem a dodavatel o platbě DI => dodání zboží bez dokladů => dodavatel dá doklady své bance => banka kontroluje veškeré doklady => banka dod. zasílá doklady bance odběratele => banka odběratele kontroluje znova doklady => oznámení inkasní podmínky (musí se splnit, aby se odběratel stal vlastníkem dokladů) odběrateli bankou => splnění podmínek odběratelem => převod peněz
+- dohoda mezi odběratelem a dodavatel o platbě DI ⇒ dodání zboží bez dokladů ⇒ dodavatel dá doklady své bance ⇒ banka kontroluje veškeré doklady ⇒ banka dod. zasílá doklady bance odběratele ⇒ banka odběratele kontroluje znova doklady ⇒ oznámení inkasní podmínky (musí se splnit, aby se odběratel stal vlastníkem dokladů) odběrateli bankou ⇒ splnění podmínek odběratelem ⇒ převod peněz
 - výhody – dodavatel má jistotu zaplacení; nevýhody – drahé služby banek, technicky náročné, zdlouhavé
 
 __Platba dokumentárním akreditivem (DA)__
 
-- dohoda mezi odběratelem a dodavatel o platbě DA => dodavatel oznámí, že je dodávka připravena => odběratel žádá svoji banku o otevření akreditivu (uzavírá se pro konkrétního dodavatele) => banka odbr. oznámí bance dod. o otevření akreditivu => oznámení o otevření akreditivu dodavateli => dodávka zboží i s doklady=> převod peněz od odběratele
+- dohoda mezi odběratelem a dodavatel o platbě DA ⇒ dodavatel oznámí, že je dodávka připravena ⇒ odběratel žádá svoji banku o otevření akreditivu (uzavírá se pro konkrétního dodavatele) ⇒ banka odbr. oznámí bance dod. o otevření akreditivu ⇒ oznámení o otevření akreditivu dodavateli ⇒ dodávka zboží i s doklady=> převod peněz od odběratele
 - výhody – dodavatel má jistotu platby; nevýhody – zdlouhavé, neekonomické
 
 __B) Dovozní obchodní operace__

@@ -39,7 +39,7 @@ Elektrický náboj
 	- 2 tělesa s __nesouhlasnými__ náboji se __přitahují__
 	- navzájem se __přitahuje__ těleso __zelektrované__ a __neelektrické__
 
-<img src="/images/content/fyzika/elektrostaticke-pole/01.webp" alt="" width="455" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/elektrostaticke-pole/01.webp" alt="Ilustrace: Vlastnosti elektrického náboje" width="455" loading="lazy" decoding="async">
 
 ## Coulombův zákon
 
@@ -48,7 +48,7 @@ Elektrický náboj
 
 *Dva bodové elektrické náboje v klidu se navzájem přitahují nebo odpuzují stejně velkými*__* elektrickými silami Fe__*, -Fe opačného směru. Velikost elektrické síly Fe*__* je přímo úměrná absolutní hodnotě součinu__* nábojů Q1, Q1 a nepřímo úměrná druhé mocnině jejich vzdáleností r.
 
-<img src="/images/content/fyzika/elektrostaticke-pole/02.webp" alt="" width="508" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/elektrostaticke-pole/02.webp" alt="Ilustrace: Coulombův zákon" width="508" loading="lazy" decoding="async">
 
 $$F_e = k \frac{|Q_1 Q_2|}{r^2}$$
 
@@ -66,7 +66,7 @@ $$\vec E = \frac{\vec F_e}{Q_0}$$
 
 - Intenzita el. pole __E__ má __stejný směr__ jako __el. síla Fe__
 
-<img src="/images/content/fyzika/elektrostaticke-pole/05.webp" alt="" width="265" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/elektrostaticke-pole/05.webp" alt="Ilustrace: Intenzita elektrického pole" width="265" loading="lazy" decoding="async">
 
 - Jednotka je __newton na coulomb (N.C-1)__
 - __Velikost__ intenzity el. pole se zmenšuje s druhou mocninou vzdálenosti od bodového náboje, který pole vytváří.
@@ -90,20 +90,20 @@ $$E = \frac{F_e}{Q_0} = k \frac{|Q Q_0|}{r^2} \cdot \frac{1}{Q_0} = k \frac{|Q|}
 
 nesouhlasných				souhlasných
 
-<img src="/images/content/fyzika/elektrostaticke-pole/07.webp" alt="" width="497" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/elektrostaticke-pole/07.webp" alt="Ilustrace: Siločáry" width="497" loading="lazy" decoding="async">
 
  __Podle tvaru siločar rozlišujeme:__
 
 - __Homogenní__ (stejnorodé) __elektrické pole__
 	- vektor __intenzity E__ ve všech místech el. pole stejný __směr__ i __velikost__
 
-<img src="/images/content/fyzika/elektrostaticke-pole/08.webp" alt="" width="231" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/elektrostaticke-pole/08.webp" alt="Ilustrace: Siločáry" width="231" loading="lazy" decoding="async">
 
 - __Radiální elektrické pole__
 	- v okolí __bodového__ el. __náboje__
 	- __intenzita E__ má směr paprsků z náboje vystupujících (u kladného náboje – a)   nebo do něho vstupujících (u záporného náboje – b)
 
-<img src="/images/content/fyzika/elektrostaticke-pole/09.webp" alt="" width="360" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/elektrostaticke-pole/09.webp" alt="Ilustrace: Siločáry" width="360" loading="lazy" decoding="async">
 
 ## Elektrický potenciál
 
@@ -122,7 +122,7 @@ __r__ - poloměr ekvipotenciální plochy
 
 radiálního el. pole	              		  homogenního el. pole
 
-<img src="/images/content/fyzika/elektrostaticke-pole/11.webp" alt="" width="602" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/elektrostaticke-pole/11.webp" alt="Ilustrace: Elektrický potenciál" width="602" loading="lazy" decoding="async">
 
 - Je-li jedna __deska__ nabita __kladně__ a __druhá__ je __uzeměná__, je hladina __nejvyššího potenciálu φ__ na kladné desce a __hladina nulového potenciálu φ0__ na desce __uzeměné__.
 
@@ -139,11 +139,11 @@ $$U = \varphi_A - \varphi_B = \frac{W}{Q_0} = E d$$
 	- přístroj k měření el. napětí
 	- značka:
 
-  <img src="/images/content/fyzika/elektrostaticke-pole/13.webp" alt="" width="56" loading="lazy" decoding="async">
+  <img src="/images/content/fyzika/elektrostaticke-pole/13.webp" alt="Ilustrace: Elektrické napětí" width="56" loading="lazy" decoding="async">
 
 	- do obvodu se zapojuje __paralelně__
 
-  <img src="/images/content/fyzika/elektrostaticke-pole/12.webp" alt="" width="246" loading="lazy" decoding="async">
+  <img src="/images/content/fyzika/elektrostaticke-pole/12.webp" alt="Ilustrace: Elektrické napětí" width="246" loading="lazy" decoding="async">
 
 - __Práce síly__, kterou působí na bodový náboj elektrostatické pole:
 
@@ -156,7 +156,7 @@ $$W = F_e d = Q_0 E d$$
 - Vložíme-li do __el. pole zelektrovaného tělesa__ (např. kladně) izolovaný kovový __vodič__, dochází v něm působením el. sil pole k __pohybu volných elektronů__ (elektrony se záporným nábojem na __jednu stranu__ – nabije se __záporně__; __nedostatek elektronů__ na druhé straně – __kladný náboj__)
 - rozmístění el. náboje __dočasné__, po oddálení zelektrovaného tělesa __zaniká__
 
-<img src="/images/content/fyzika/elektrostaticke-pole/16.webp" alt="" width="266" loading="lazy" decoding="async"><img src="/images/content/fyzika/elektrostaticke-pole/17.webp" alt="" width="305" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/elektrostaticke-pole/16.webp" alt="Ilustrace: Vodič v elektrostatickém poli" width="266" loading="lazy" decoding="async"><img src="/images/content/fyzika/elektrostaticke-pole/17.webp" alt="Ilustrace: Vodič v elektrostatickém poli" width="305" loading="lazy" decoding="async">
 
 - __Elektrostatická indukce__
 	- jev, kdy vodič v el. poli má __nerovnoměrně rozložený náboj__, na který působí __síla__
@@ -168,9 +168,9 @@ $$W = F_e d = Q_0 E d$$
 ## Dielektrikum v elektrostatickém poli
 
 - Vložíme-li do el. pole __izolant__ (dielektrikum), dochází v něm k __posunutí elementárních nábojů uvnitř atomů__ a molekul
-- V atomu (molekule) vyvolává vnější el. pole __vzájemné posunutí jádra a obalu__ ve směru __intenzity__ pole => z atomu se vytvoří __elektrický dipól__ – částice s __dvěma opačnými el. póly__
+- V atomu (molekule) vyvolává vnější el. pole __vzájemné posunutí jádra a obalu__ ve směru __intenzity__ pole ⇒ z atomu se vytvoří __elektrický dipól__ – částice s __dvěma opačnými el. póly__
 
-<img src="/images/content/fyzika/elektrostaticke-pole/18.webp" alt="" width="287" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/elektrostaticke-pole/18.webp" alt="Ilustrace: Dielektrikum v elektrostatickém poli" width="287" loading="lazy" decoding="async">
 
 - __polarizace dielektrika__ – při vložení izolantu do el. pole se vytvoří na __protilehlých koncích__ izolantu navzájem opačné el. náboje
 - __polární dielektrika__ – molekuly tvoří dipóly samovolně, bez vnějšího el. pole
@@ -183,7 +183,7 @@ $$W = F_e d = Q_0 E d$$
 - __Výsledná intenzita Ev__ má směr intenzity __E__ vnějšího pole a velikost __Ev = E - Ei__
 	- polarizací se intenzita vnějšího pole __zeslabuje__
 
-<img src="/images/content/fyzika/elektrostaticke-pole/19.webp" alt="" width="247" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/elektrostaticke-pole/19.webp" alt="Ilustrace: Dielektrikum v elektrostatickém poli" width="247" loading="lazy" decoding="async">
 
 - __Relativní permitivita prostředí__ (εr)– udává, kolikrát je velikost intenzity výsledného menší než velikost intenzity pole vnějšího
 

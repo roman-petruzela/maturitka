@@ -17,7 +17,7 @@ Struktura kapalin
 - __Vysvětlení__: kolem každé molekuly kapaliny existuje tzv. __sféra molekulového působení__ (s poloměrem __rm__), kde na molekuly výrazně působí __přitažlivé síly__ (za hranicí sféry je tomu naopak)
 - Povrchová vrstva se skládá z molekul, jejichž vzdálenost od volného povrchu kapaliny je __menší__ než poloměr __rm__ a na které působí výsledné __přitažlivá síla__ směřující __do kapaliny__
 
-<img src="/images/content/fyzika/struktura-a-vlastnosti-kapalin/01.webp" alt="" width="393" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/struktura-a-vlastnosti-kapalin/01.webp" alt="Ilustrace: Povrchová vrstva kapalin" width="393" loading="lazy" decoding="async">
 
 ## Povrchová energie
 
@@ -43,7 +43,7 @@ Jednotka: N · m⁻¹
 - Na __okraj__ povrchové blány působí molekuly kapaliny __povrchovou silou__, která je kolmá na tento okraj a jejíž směr leží v povrchu kapaliny
 - Ponoříme-li drátěný rámeček s lehce __pohyblivou__ příčkou __AB__ do mýdlového __roztoku__, vytáhneme ho a příčku posuneme, vytvoří se na něm tenká __kapalinová blána__ s povrchovými vrstvami na obou stranách. Když příčku uvolníme, tak pozorujeme, že se blána __stahuje__ a táhne za sebou i __příčku AB.__ Je tomu tak proto, že na příčku AB působí v každém povrchu (blána má dva povrchy) __kolmá síla F__, síla leží v povrchu kapaliny.
 
-<img src="/images/content/fyzika/struktura-a-vlastnosti-kapalin/03.webp" alt="" width="259" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/struktura-a-vlastnosti-kapalin/03.webp" alt="Ilustrace: Povrchová síla" width="259" loading="lazy" decoding="async">
 
 ## Jevy na rozhraní pevného tělesa a kapaliny
 
@@ -53,13 +53,13 @@ Jednotka: N · m⁻¹
 - __F = F1 + F2__
 	- jestliže __výslednice__ směřuje __ven__ z kapaliny, pak povrch kapaliny je __dutý__ (např. voda ve sklenici) - __kapalina smáčí stěnu__
 
-  <img src="/images/content/fyzika/struktura-a-vlastnosti-kapalin/04.webp" alt="" width="272" loading="lazy" decoding="async">
+  <img src="/images/content/fyzika/struktura-a-vlastnosti-kapalin/04.webp" alt="Ilustrace: Jevy na rozhraní pevného tělesa a kapaliny" width="272" loading="lazy" decoding="async">
 
-  <img src="/images/content/fyzika/struktura-a-vlastnosti-kapalin/05.webp" alt="" width="319" loading="lazy" decoding="async">
+  <img src="/images/content/fyzika/struktura-a-vlastnosti-kapalin/05.webp" alt="Ilustrace: Jevy na rozhraní pevného tělesa a kapaliny" width="319" loading="lazy" decoding="async">
 
-  <img src="/images/content/fyzika/struktura-a-vlastnosti-kapalin/06.webp" alt="" width="300" loading="lazy" decoding="async">
+  <img src="/images/content/fyzika/struktura-a-vlastnosti-kapalin/06.webp" alt="Ilustrace: Jevy na rozhraní pevného tělesa a kapaliny" width="300" loading="lazy" decoding="async">
 
-<img src="/images/content/fyzika/struktura-a-vlastnosti-kapalin/07.webp" alt="" width="280" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/struktura-a-vlastnosti-kapalin/07.webp" alt="Ilustrace: Jevy na rozhraní pevného tělesa a kapaliny" width="280" loading="lazy" decoding="async">
 
 - Jestliže __výslednice__ směřuje __dovnitř__ kapaliny, je povrch __vypuklý__ (např. rtuť v mědi) __- kapalina nesmáčí stěnu__
 - Pokud výslednice leží na __povrchu__ nádoby, je povrch __rovný__
@@ -73,11 +73,11 @@ Jednotka: N · m⁻¹
 - Jevy způsobeny __kapilárním tlakem__
 - __kapilární elevace__ (jestliže kapalina __smáčí__ vnitřní povrch kapiláry)
 
-  <img src="/images/content/fyzika/struktura-a-vlastnosti-kapalin/08.webp" alt="" width="156" loading="lazy" decoding="async">
+  <img src="/images/content/fyzika/struktura-a-vlastnosti-kapalin/08.webp" alt="Ilustrace: Kapilární jevy" width="156" loading="lazy" decoding="async">
 
 - __kapilární deprese__ (kapalina __nesmáčí__ vnitřní povrch kapiláry)
 
-  <img src="/images/content/fyzika/struktura-a-vlastnosti-kapalin/09.webp" alt="" width="210" loading="lazy" decoding="async">
+  <img src="/images/content/fyzika/struktura-a-vlastnosti-kapalin/09.webp" alt="Ilustrace: Kapilární jevy" width="210" loading="lazy" decoding="async">
 
 - depresi a elevaci souhrnně nazýváme __kapilarita__
 - __např__. vystupování vody z hloubky kapilárami do povrchových vrstev půdy, kde se vypařuje – __vzlínavost__
@@ -94,7 +94,7 @@ __R__ – vnitřní poloměr kapiláry; __g__ – grav. zrychlení
 - Kapilární jevy vysvětlují schopnost řady látek __vstřebávat__ (nasávat) __vlhkost__
 - __Kapilární tlak:__
 
-<img src="/images/content/fyzika/struktura-a-vlastnosti-kapalin/11.webp" alt="" width="341" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/struktura-a-vlastnosti-kapalin/11.webp" alt="Ilustrace: Kapilární jevy" width="341" loading="lazy" decoding="async">
 
 - Bublina s __větším__ poloměrem __roste__ a __menší__ se __smrskává__, až nakonec zanikne
 - Svědčí to o tom, že na počátku děje je __větší kapilární tlak__ v __menší__ bublině a tím také __větší tlak vzduchu__ v bublině
@@ -122,7 +122,7 @@ $$\rho = \rho_1 (1 - \beta \Delta t)$$
 - __Hustota__ vody v intervalu __0°C__ až __4°C__ __roste__ (a __zmenšuje__ se její __objem__), při teplotě __4°C__ dosahuje __maxima__ a pak __klesá__ (__objem__ se __zvětšuje__)
 - Tento jev se nazývá __anomálie vody__
 
-  <img src="/images/content/fyzika/struktura-a-vlastnosti-kapalin/14.webp" alt="" width="334" loading="lazy" decoding="async">
+  <img src="/images/content/fyzika/struktura-a-vlastnosti-kapalin/14.webp" alt="Ilustrace: Anomálie vody" width="334" loading="lazy" decoding="async">
 
 - Led při teplotě __0 °C__ úplně __neroztaje__, takže ve vodě zůstávají drobné krystalky ledu    - v nichž jsou molekuly vzdálenější než ve vodě
 - Při __zvětšování__ teploty od __0 °C__ do __4 °C__ zbytky ledu mizí, tím se __zmenšují vzdálenosti__ mezi molekulami vody a celkový __objem klesá__, __hustota roste__.

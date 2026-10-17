@@ -43,9 +43,9 @@ __VODSTVO__
 - kromě Makedonie a Srbska mají všechny státy přístup k moři – k Jaderskému, Egejskému nebo Černému
 - je to spíše sušší část Evropy
 - ŘEKY:
-\- úmoří Černého moře: Dunaj \(„osa“ regionu\), přítoky Dráva a Sáva, Tisa, Maruše
-\- Egejské: Marica, Vardar
-\- Jaderské – prudké řeky horského typu, nemají velký význam
+- úmoří Černého moře: Dunaj \(„osa“ regionu\), přítoky Dráva a Sáva, Tisa, Maruše
+- Egejské: Marica, Vardar
+- Jaderské – prudké řeky horského typu, nemají velký význam
 - většina jezer je v horách a ledovcového původu – Skadarské j\. \(hranice Albánie a Černé hory\), Ochridské \(hranice Albánie a Makedonie\)
 - vodní nádrž Železná vrata na Dunaji je jednou z největších v Evropě
 
@@ -67,7 +67,7 @@ __OBYVATELSTVO__
 - dominuje křesťanství, v některých zemích i islám
 - nejchudší země jsou Albánie a Kosovo
 
-# ALBÁNIE
+## ALBÁNIE
 
 - hl\. m\. Tirana, albánština
 - jedna z nejméně rozvinutých zemí Evropy
@@ -87,7 +87,7 @@ __OBYVATELSTVO__
 - homogenní stát \(95 % obyvatel tvoří Albánci\)
 - islám
 
-## BULHARSKO A RUMUNSKO
+### BULHARSKO A RUMUNSKO
 
 - nejvyspělejší státy, v roce 2004 se staly členy NATO a 2007 byly přijaté do EU
 
@@ -101,7 +101,7 @@ __ZEMĚDĚLSTVÍ__
 - pěstuje se: bavlna, tabák, slunečnice, ovoce, zelenina, obilniny, vinná réva
 - chov ovcí, koz
 
-# BULHARSKO
+## BULHARSKO
 
 - hl\. m\. Sofie, bulharština
 - vzrůstající cestovní ruch \(letní i zimní sezóna\), důležité jsou služby
@@ -109,14 +109,14 @@ __ZEMĚDĚLSTVÍ__
 - výroba vonný silic \(1\. v produkci na světě\) – máta, levandule, růže
 - města: Sofia, Burgas, Varna
 
-# RUMUNSKO
+## RUMUNSKO
 
 - hl\. m\. Bukurešť, rumunština
 - hl\. částí hospodářství je zemědělství
 - dříve komunismus a diktatura, dnes demokracie \(2004 první demokratický prezident\), v zemi ale nadále korupce
 - firma Dacia
 
-## STÁTY BÝVALÉ JUGOSLÁVIE
+### STÁTY BÝVALÉ JUGOSLÁVIE
 
 __PRŮMYSL__
 
@@ -126,7 +126,7 @@ __ZEMĚDĚLSTVÍ__
 
 - chov ovcí, skotu a koz
 
-# SLOVINSKO
+## SLOVINSKO
 
 - hl\. m\. Lublaň, slovinština
 - člen EU a NATO
@@ -140,7 +140,7 @@ __ZEMĚDĚLSTVÍ__
 - cestovní ruch – lázeňství, zimní turistika, krasové oblasti
 - města: Lublaň, Lipice \(místo původu bílých koní vhodných pro drezuru\)
 
-# CHORVATSKO
+## CHORVATSKO
 
 - hl\. m\. Záhřeb, chorvatština
 - 2013 se jim podařilo vstoupit do EU
@@ -152,7 +152,7 @@ __ZEMĚDĚLSTVÍ__
 - pěstuje se: olivy, fíky, ovoce, zelenina, mandarinky \(díky zvláštnímu mikroklimatu v okolí řeky Neretvy\)
 - cestovní ruch – historická města, pobřeží, národní parky \(např\. Krk\)
 
-# BOSNA A HERCEGOVINA
+## BOSNA A HERCEGOVINA
 
 - hl\. m\. Sarajevo, bosenština, srbština, chorvatština; není členem EU
 - Dinárské hory, na severu nížiny
@@ -164,7 +164,7 @@ __ZEMĚDĚLSTVÍ__
 - poměrně chudý stát
 - 45 % Bosňáci \(muslimové\), cca 30 % Srbové, cca 17 % Chorvaté
 
-# SRBSKO
+## SRBSKO
 
 - hl\. m\. Bělehrad, srbština, není členem EU
 - největší státní celek bývalé Jugoslávie
@@ -177,7 +177,7 @@ __ZEMĚDĚLSTVÍ__
 - pravoslavní i muslimové
 - města: Bělehrad, Novy Sad, Priština
 
-# ČERNÁ HORA
+## ČERNÁ HORA
 
 - hl\. m\. Podgorica, srbština
 - není členem EU, ale platí se zde eurem
@@ -191,7 +191,7 @@ __ZEMĚDĚLSTVÍ__
 - rybolov a cestovní ruch
 - obyvatelstvo: méně než 50 % Černohorci, Srbové, Bosňáci, Albánci 🡪 většina lidí jsou pravoslavní
 
-# MAKEDONIE
+## MAKEDONIE
 
 - hl\. m\. Skopje, makedonština \(slovanský jazyk\), není členem EU
 - vnitrozemský stát, hornatý povrch, jedna třetina území zalesněna

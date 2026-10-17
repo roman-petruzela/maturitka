@@ -16,7 +16,7 @@ source: "Účetnictví/17. Účetní uzávěrka a závěrka.docx"
 - povinnosti související s účetní závěrkou
 - ověření účetní závěrky auditorem
 
-Účetní uzávěrka
+## Účetní uzávěrka
 
 __Postup prací při uzavírání účetních knih lze rozdělit do dvou etap:__
 
@@ -90,17 +90,17 @@ __Uzávěrka účtů v hlavní knize__
 
 Převod konečných zůstatků:
 
-<img src="/images/content/ekonomika/ucetnictvi/ucetni-uzaverka-a-zaverka/01.webp" alt="" width="623" loading="lazy" decoding="async">
+<img src="/images/content/ekonomika/ucetnictvi/ucetni-uzaverka-a-zaverka/01.webp" alt="Ilustrace: Účetní uzávěrka" width="623" loading="lazy" decoding="async">
 
 Převod zisku/ztráty k 31. 12.:
 
-<img src="/images/content/ekonomika/ucetnictvi/ucetni-uzaverka-a-zaverka/02.webp" alt="" width="616" loading="lazy" decoding="async">
+<img src="/images/content/ekonomika/ucetnictvi/ucetni-uzaverka-a-zaverka/02.webp" alt="Ilustrace: Účetní uzávěrka" width="616" loading="lazy" decoding="async">
 
 Převod zisku/ztráty k 1. 1.:
 
-<img src="/images/content/ekonomika/ucetnictvi/ucetni-uzaverka-a-zaverka/03.webp" alt="" width="613" loading="lazy" decoding="async">
+<img src="/images/content/ekonomika/ucetnictvi/ucetni-uzaverka-a-zaverka/03.webp" alt="Ilustrace: Účetní uzávěrka" width="613" loading="lazy" decoding="async">
 
-Účetní závěrka
+## Účetní závěrka
 
 = nejdůležitější část procesu účetnictví
 

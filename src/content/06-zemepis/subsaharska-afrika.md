@@ -3,7 +3,7 @@ title: "Subsaharská afrika"
 order: 18
 source: "Zeměpis/Zeměpis GLP/18. subsaharská afrika.docx"
 ---
-# 18\. GEOGRAFICKÁ CHARAKTERISTIKA SUBSAHARSKÉ AFRIKY
+## 18\. GEOGRAFICKÁ CHARAKTERISTIKA SUBSAHARSKÉ AFRIKY
 
 - vymezení: oblast severně od Sahary, převládá černošské obyvatelstvo
 - nejchudší mikroregion světa
@@ -18,7 +18,7 @@ source: "Zeměpis/Zeměpis GLP/18. subsaharská afrika.docx"
 - nízká životní úroveň
 - náboženství: křesťanství, islám, přírodní náboženství
 
-## Povrch
+### Povrch
 
 - Africký štít
 - Etiopská vysočina – V část, suchá
@@ -31,13 +31,13 @@ source: "Zeměpis/Zeměpis GLP/18. subsaharská afrika.docx"
 - Východoafrická vysočina – Tanganika, Ukerewe, rozsáhlé savany
 - pouště: Sahara, Kalahary, Namib \(nejstarší\)
 
-## Klima
+### Klima
 
 - většina území tropy – kolem rovníku vlhko, kolem obratníků sucho
 - od V k Z ubývá srážek
 - nejméně srážek na JZ – poušť Namib – S kamenitá, J písčitá
 
-## Vodstvo
+### Vodstvo
 
 - nerovnoměrné rozložení
 - Kongo – hustá říční síť
@@ -49,7 +49,7 @@ source: "Zeměpis/Zeměpis GLP/18. subsaharská afrika.docx"
 - Čadské jezero – dříve významný zdroj vody
 - na řekách časté vodopády
 
-## Rostlinstvo a živočišstvo
+### Rostlinstvo a živočišstvo
 
 - tropické deštné lesy \(charakteristické stromy\)
 - savany \(baobaby\)
@@ -58,7 +58,7 @@ source: "Zeměpis/Zeměpis GLP/18. subsaharská afrika.docx"
 - endemité \(hmyzožravci\), nosorožci, hroši, krokodýli, pštrosy
 - národní parky – nejvíce v Keni a Tanzánii
 
-## Nerostné suroviny
+### Nerostné suroviny
 
 - velké zásoby
 - J Afrika – vzácné a drahé kovy, železná ruda
@@ -67,14 +67,14 @@ source: "Zeměpis/Zeměpis GLP/18. subsaharská afrika.docx"
 - měděný pás – Kongo, Zambie, Zimbabwe
 - Guinejský záliv – ropa
 
-## Hospodářství
+### Hospodářství
 
 - ekonomicky nejméně rozvinutý světadíl
 - JAR – jediný hospodářsky rozvinutý stát
 - 52 států patří mezi rozvojové země, 32 se řadí k nejméně rozvinutým na světě
 - Mosambik, Somálsko, Etiopie, Eritrea – nejchudší
 
-## Zemědělství
+### Zemědělství
 
 - nejdůležitější
 - nízká mechanizace
@@ -83,7 +83,7 @@ source: "Zeměpis/Zeměpis GLP/18. subsaharská afrika.docx"
 - samozásobitelské – v odlehlých oblastech, zisk půdy vypalováním lesů, rychlé vyčerpání \(obiloviny, luštěniny, hlíznaté okopaniny\)
 - plantážní hospodářství – v přístupnějších oblastech, modernější stroje, monokulturní plodiny \(káva, kakao, podzemnice olejná, koření\)
 
-## Průmysl
+### Průmysl
 
 - pouze 2% světové produkce
 - 40% v JAR
@@ -95,7 +95,7 @@ source: "Zeměpis/Zeměpis GLP/18. subsaharská afrika.docx"
 - rozvinutá řemeslná výroba – kožené, tkané a dřevěné výrobky
 - energetika slabá \(kromě JAR\) – hydroenergetice zdroje, ale mírné využití – největší elektrárny na Nilu, Zambezi, Voltě
 
-## Obyvatelstvo
+### Obyvatelstvo
 
 - řídce osídlený – 31 ob/km2
 - regionální a lokální kontrasty \(bohaté i chudinské čtvrti rychle rostoucích měst\)
@@ -108,27 +108,27 @@ source: "Zeměpis/Zeměpis GLP/18. subsaharská afrika.docx"
 - Madagaskar – mongoloidní rasa
 - národnostní problémy – většina hranic vznikla uměle
 
-## Ekonomika
+### Ekonomika
 
 - nejchudší region na světě
 - ekonomika zaostalá a nerozvinutá
 - vysoce závislá na světovém trhu
 
-## Západ
+### Západ
 
-### Nigérie
+#### Nigérie
 
 - nejlidnatější stát Afriky
 
-## Střed
+### Střed
 
-### Demokratická republika Kongo
+#### Demokratická republika Kongo
 
 - 3\. největší země Afriky \(největší v subsaharské Africe\)
 
-## Jih
+### Jih
 
-### JAR
+#### JAR
 
 - vybočuje ze všeobecné charakteristiky Afriky
 - ekonomicky rozvinutá \(vyspělý průmyslově\-zemědělský stát\)
@@ -136,8 +136,8 @@ source: "Zeměpis/Zeměpis GLP/18. subsaharská afrika.docx"
 - 11 úředních jazyků
 - největší vývozce zlata na světě
 
-## Východ
+### Východ
 
-### Etiopie
+#### Etiopie
 
 - patří mezi nejlidnatější státy Afriky

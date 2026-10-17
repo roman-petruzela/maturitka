@@ -3,7 +3,6 @@ title: "Die Schweiz"
 order: 4
 source: "Němčina/4) Schweiz.pdf"
 ---
-## Die Schweiz
 
 Die Schweizerische Eidgenossenschaft ist ein Bundesstaat, der in Mitteleuropa liegt. Seit dem 16. Jahrhundert besteht ihre **Neutralität**. Die Schweiz wurde in den ersten Tagen des Augusts **1291** von den Berglern aus drei Ländern (**Uri, Schwyz und Unterwalden**) geschaffen. Sie leisteten den feierlichen Eid, dass sie zusammenhalten werden und die Herrschaft der Österreicher nicht anerkennen werden. Die Schweiz ist das Ursprungsland des **Roten Kreuzes**, dessen Sitz in **Genf** ist. In Genf haben mehr als 200 internationale Organisationen ihren Sitz.
 

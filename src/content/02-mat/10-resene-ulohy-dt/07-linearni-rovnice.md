@@ -2,6 +2,7 @@
 title: "Lineární rovnice"
 order: 7
 source: "Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/7) Lineární rovnice.pdf"
+formulaRail: false
 hasExercises: true
 ---
 

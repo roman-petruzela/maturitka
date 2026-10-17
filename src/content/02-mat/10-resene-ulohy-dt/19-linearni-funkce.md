@@ -2,6 +2,7 @@
 title: "Lineární funkce"
 order: 19
 source: "Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/19) Lineární funkce.pdf"
+formulaRail: false
 hasExercises: true
 ---
 

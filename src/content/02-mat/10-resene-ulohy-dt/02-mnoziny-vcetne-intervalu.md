@@ -2,6 +2,7 @@
 title: "Množiny (včetně intervalů)"
 order: 2
 source: "Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/2) Množiny ( včetně intervalů ).pdf"
+formulaRail: false
 hasExercises: true
 ---
 

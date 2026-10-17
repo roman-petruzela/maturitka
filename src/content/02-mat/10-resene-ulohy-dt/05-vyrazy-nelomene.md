@@ -2,6 +2,7 @@
 title: "Výrazy (nelomené)"
 order: 5
 source: "Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/5) Výrazy ( nelomené ).pdf"
+formulaRail: false
 hasExercises: true
 ---
 

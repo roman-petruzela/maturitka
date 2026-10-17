@@ -15,9 +15,8 @@ Právní úprava CER v ČR
 
 charakteristika zájezdu:
 
-\- kombinace alespoň dvou služeb CER, která trvá dobu delší než 24 hodin a je prodávaná za souhrnnou cenu
-
-\- nocleh a další služby CER
+- kombinace alespoň dvou služeb CER, která trvá dobu delší než 24 hodin a je prodávaná za souhrnnou cenu
+- nocleh a další služby CER
 
 Služby CER
 
@@ -27,7 +26,7 @@ Služby CER
 
 3\.Jiné služby
 
-\- alespoň 25% z ceny zájezdu (průvodce, vstupenky)- nejsou součástí ubytování ani dopravy
+- alespoň 25% z ceny zájezdu (průvodce, vstupenky)- nejsou součástí ubytování ani dopravy
 
 druhy zájezdu:
 
@@ -59,7 +58,7 @@ druhy zájezdu:
 
 __Katalog__
 
-\- vydávají CK v tištěné nebo elektronické podobě
+- vydávají CK v tištěné nebo elektronické podobě
 
 pravidla pro sestavení:
 
@@ -73,11 +72,9 @@ ceník – u informací o zájezdu, souhrnně, na konci, uprostřed, zvláštní
 
 __Smlouva o zájezdu (potvrzení zájezdu)__
 
-\- uzavírají CK s účastníkem
-
-\- CK se zavazuje poskytnout dohodnutý zájezd a případně vyřídit reklamaci
-
-\- účastník se zavazuje za zájezd zaplatit a dodržovat všeobecné smluvní podmínky
+- uzavírají CK s účastníkem
+- CK se zavazuje poskytnout dohodnutý zájezd a případně vyřídit reklamaci
+- účastník se zavazuje za zájezd zaplatit a dodržovat všeobecné smluvní podmínky
 
 uvedené náležitosti:
 
@@ -132,11 +129,11 @@ Zvýšení ceny zájezdu ze zákonných důvodů:
 - výrazné zvýšení vedlejších nákladu spojených s dopravou (zdražení letištních poplatků)
 - změna kurzu koruny o víc než 10%
 
-\- povinnost oznámit skutečnost do 21 dnů před termínem
+- povinnost oznámit skutečnost do 21 dnů před termínem
 
 __Cestovní agentura__
 
-\- živnost ohlašovací volná – výroba, obchod a služby
+- živnost ohlašovací volná – výroba, obchod a služby
 
 __Podmínky pro provozování__
 
@@ -156,4 +153,4 @@ __Činnosti CA__
 - s účastníkem musí uzavřít smlouvu o zájezdu
 - musí účastníkovy sdělit informace o povinném pojištění proti úpadku CK pro níž zprostředkovává prodej zájezdu
 
-\- živnostenské opatření = výpis z živnostenského rejstříku, nebo dříve vydaný živnostenský list
+- živnostenské opatření = výpis z živnostenského rejstříku, nebo dříve vydaný živnostenský list

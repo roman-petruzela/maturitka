@@ -19,9 +19,13 @@ hasExercises: true
 
 ## Vzorce
 
-$$o = 2\pi r = \pi d \qquad \text{(obvod kružnice)}$$
+**Obvod kružnice:**
 
-$$S = \pi r^2 \qquad \text{(obsah kruhu)}$$
+$$o = 2\pi r = \pi d$$
+
+**Obsah kruhu:**
+
+$$S = \pi r^2$$
 
 **Mezikruží** je část obsahu kruhu mezi dvěma soustřednými kružnicemi (stejný střed $S$, různé poloměry $r_1>r_2$):
 

@@ -3,9 +3,9 @@ title: "Prameny práva, právní kultura, právní řád ČR"
 order: 2
 source: "Právo/2. Prameny práva, právní kultura, právní řád ČR/prameny_prava.docx"
 ---
-# Prameny práva
+## Prameny práva
 
-# Význam pojmu pramen práva
+## Význam pojmu pramen práva
 
 __Pramen práva__ je pojem o více významech:
 
@@ -19,7 +19,7 @@ Chápeme-li prameny práva v __materiálním smyslu__, pak máme na mysli zdroj
 
 __V gnoseologickém pojetí__ jde o prameny poznání práva. Toto pojetí je širší nežli pojetí formální. Jedná se o veškeré informace o právu, jeho společenském působení. Zdrojem poznání určitého právního systému nemají být jen zákony a precedenty, resp. mezinárodní smlouvy, ale i rozhodnutí orgánů veřejné moci individuální povahy, tj. individuální právní akty, zejména judikatura, smlouvy, právní literatura, dokumentace legislativního procesu apod.
 
-# Prameny práva z formálního hlediska
+## Prameny práva z formálního hlediska
 
 Prameny práva jsou historicky proměnlivé a i v současnosti jsou spojeny s odlišnými typy právní kultury, velkými právní systémy, jejichž podstatnou charakteristiku zároveň představují.
 
@@ -27,9 +27,9 @@ V současnosti existují tři hlavní právní systémy - kontinentální, anglo
 
 Ve formálním smyslu se rozlišují čtyři základní prameny práva: právní předpis, soudní precedens, normativní právní smlouva a právní obyčej.
 
-# Přehled pramenů práv
+## Přehled pramenů práv
 
-## Právní předpisy - obecně závazné normativní právní akty
+### Právní předpisy - obecně závazné normativní právní akty
 
 __Právní předpis__ je výsledkem záměrné činnosti nazývané legislativní proces (v širokém slova smyslu), jedná se o takové __rozhodnutí orgánu veřejné moci, které obsahuje právní normy jako předem daná pravidla chování.__  Právní normy jsou v této formě vytvářeny jako předem daná pravidla chování. Právní předpisy jsou rozhodujícím pramenem práva v kontinentálním typu právní kultury, uplatňují se však také v angloamerickém (v podobě tzv. statute law) a islámském typu právní kultury. Příznačná je hierarchická výstavba soustavy právních předpisů, vytvořená na základě jejich tzv. právní síly. Tato právní síla právního předpisu souvisí zejména s postavením normotvorného orgánu veřejné moci, který má pravomoc přijímat určitý typ právního předpisu. V rámci takové hierarchické soustavy právních předpisů mají nejvyšší právní sílu zákony (a mezi nimi pak zpravidla ústavní zákony). Jejich hlavní výhodou je přehlednost a dostupnost, nedochází-li k inflaci jejich přijímání a změn. Určitou nevýhodou je menší pružnost takto založeného práva.
 
@@ -45,7 +45,7 @@ Odlišit je třeba i interní __normativní akty__, které také nejsou prameny 
 
 Právní předpisy ve formě zákonů mají, pokud jde o hlavní právní odvětví, v kontinentálním typu právní kultury podobu kodexů. __Kodexy__ (zákoníky) upravují uceleně právní problematiku určitého právního odvětví nebo alespoň jeho převážné části. Jejich výhodou je přehlednost, systematičnost a nerozpornost právní úpravy. Právní síla kodexů je stejná jako jiných zákonů, rozdílný je jejich faktický význam. Negativně v tomto směru působí tzv. nepřímé novelizace kodexů (pomocí zásady lex specialis). V právních řádech kontinentálního typu právní kultury se vyskytují nejméně čtyři zákoníky: občanský zákoník, trestní zákoník, občanský soudní řád, trestní řád.
 
-##  Soudní precedenty
+###  Soudní precedenty
 
 Soudní precedens je druh judikátu, tj. soudního rozhodnutí, které je prvním řešením daného. případu, dosud právem neupraveného, závazným pro obdobné případy v budoucnosti. Je uznáván jako formálně závazný pramen práva v angloamerickém typu právní kultury (judge made law, case law) a mezinárodním právu. Dnes již malý význam mají správní precedenty.
 
@@ -69,7 +69,7 @@ Zásada __stare decisis__ (setrvat u rozhodnutého) pak doplňuje tuto doktrínu
 
 __Metoda distinkce__ (rozdílnosti, rozlišování) spočívá v tom, že soud shledává rozdíly mezi různými precedenty, hledá, který je nejspíše použitelný pro konkrétní případ. Jestliže nenalezne vhodný, vytvoří nový, ve kterém argumentuje právě těmito rozdíly.
 
-##  Normativní právní smlouvy
+###  Normativní právní smlouvy
 
 __Normativní právní smlouva je druhem smlouvy obsahující právní normy jako obecně závazná pravidla chování.__
 
@@ -83,7 +83,7 @@ Zásadní význam mají normativní smlouvy pro právo Evropské unie. Celá zá
 
 Zvláštní druh normativní právní smlouvy tvoří __kolektivní smlouvy__. Původně vznikly ve Skandinávii a byly převzaty do celé Evropy. Upravují pracovní a sociální otázky. Jsou pramenem vnitrostátního práva. U nás mohou jít pouze nad rámec zákona (obsahují např. určitá zvýhodnění pro zaměstnance oproti zákonné úpravě). Jsou uzavírány mezi svazy zaměstnavatelů a odbory na různých stupních. Jejich uzavírání včetně obsahu je do větší či menší míry upraveno zákonem. Zákon také zpravidla těmto smlouvám propůjčuje normativní charakter.
 
-## Právní obyčeje
+### Právní obyčeje
 
 Právní obyčeje jsou nejstarším pramenem práva, v současnosti však mají jen omezený význam. __Pravidla obyčejového práva__ vznikají spontánně na základě dlouhodobé tradice a obecné akceptace veřejností a státem (resp. společenstvím států), netvoří se cílevědomě (imperativně nebo konsensuálně). Opakováním činnosti se vytvoří tradice, zvyk a tento je obecně uznáván za správné řešení případu. Jedná se o "nepsané právo", a tím se dostává do konfliktu s požadavkem formální určitostí právní normy.
 
@@ -102,7 +102,7 @@ V soudobém právu se právní obyčeje stále používají ve Velké Británii 
 
 Právní obyčeje musíme odlišovat od jistých zvyklostí - uzancí (např. ústavní zvyklosti, dobré mravy, obchodní zvyklosti atd.), které stojí mimo právní systém ve formálním smyslu. V některých případech s nimi zákon výslovně spojuje právní důsledky (např. § 3 a § 39 občanského zákoníku).
 
-## Jiné prameny práva
+### Jiné prameny práva
 
 V angloamerickém typu právní kultury, popř. do jisté míry i v právu mezinárodním mají subsidiární význam i další prameny práva. Uplatní se zejména při tvorbě soudních precedentů.
 

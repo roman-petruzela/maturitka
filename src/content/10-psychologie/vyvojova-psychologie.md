@@ -2,7 +2,7 @@
 title: "Vývojová psychologie"
 source: "PSYCHOLOGIE/VÝVOJOVÁ-PSYCHOLOGIE.docx"
 ---
-1. __Vývojová psychologie__
+## 1. Vývojová psychologie
 
 - Charakteristika jednotlivých etap vývoje člověka
 - Výchova dítěte do 3 let, výchova dítěte školního věku \(zahrnuto v jednotlivých vývojových etapách\)
@@ -14,7 +14,7 @@ __VÝVOJOVÁ PSYCHOLOGIE__
 
 __Periodizace vývoje – charakteristika jednotlivých etap vývoje__
 
-1. __PRENATÁLNÍ OBDOBÍ__
+## 2. PRENATÁLNÍ OBDOBÍ
 
 - Období od početí do porodu
 - Trvá 40 týdnů, 280 dnů, 10 lunárních měsíců, 9 kalendářních měsíců
@@ -85,7 +85,7 @@ __Emoční \(citový\) vývoj, socializace__
 - Schopnost napodobovat jednoduché mimické výrazy – otevření úst, otevření a zavření očí, vyplazení jazyka
 - Důležitý je dotyk – mazlení, hlazení, dotýkání při hygieně, oblékání, apod\. – navození __vztahu mezi matkou a dítětem__
 
-1. __Kojenecké období__
+## 3. Kojenecké období
 
 - Od konce novorozeneckého – 1 rok
 - Období je charakteristické __výraznými změnami__\(rychlé změny – během jednoho roku se dítě velmi rychle vyvíjí a učí novým věcem\)
@@ -128,7 +128,7 @@ __Řeč__
 
 - Musí se naučit ovládat hlas, nejprve probíhá komunikace __neverbálními__ projevy \(výraz obličeje, pohyb\) a __předverbálními projevy__ \(křik, broukání, žvatlání\); žvatláním cvičí mluvidla; od 1\. měsíce brouká, od 6\. měsíce žvatlá; __okolo prvního roku první smysluplné slovo__
 
-1. __BATOLECÍ OBDOBÍ__
+## 4. BATOLECÍ OBDOBÍ
 
 - Období od 1\. do 3\. roku života
 - Dochází k výraznému __rozvoji__ různých __dovedností__ a __schopností__
@@ -182,7 +182,7 @@ __Hra__
 - Rozvíjí se hra __konstrukční__ – vytváření, vyrábění \(stavění kostek\)
 - Ve třetím roce se objevuje __tematická hra__ – hra na něco \(krmí panenku, umývá autíčko, …\)
 
-1. __PŘEDŠKOLNÍ VĚK__
+## 5. PŘEDŠKOLNÍ VĚK
 
 - Období od 3 do 6 let
 
@@ -209,9 +209,9 @@ __Vývoj kresby__
 
 - První pokusy o kresbu postav „hlavonožec“ – má hlavu a ruce, ale chybí trup \(obr\. č\.1\)
 - Postupně začínají kreslit postavu proporčně správně, přibývají detaily – vlasy, oči, ústa, nos, prsty, obleční\) viz obr\. č\. 2
-- <img src="/images/content/psychologie/vyvojova-psychologie/01.webp" alt="" width="260" loading="lazy" decoding="async">
+- <img src="/images/content/psychologie/vyvojova-psychologie/01.webp" alt="Ilustrace: PŘEDŠKOLNÍ VĚK" width="260" loading="lazy" decoding="async">
 - Obrázek 1 Hlavonožec
-- <img src="/images/content/psychologie/vyvojova-psychologie/02.webp" alt="" width="301" loading="lazy" decoding="async">
+- <img src="/images/content/psychologie/vyvojova-psychologie/02.webp" alt="Ilustrace: PŘEDŠKOLNÍ VĚK" width="301" loading="lazy" decoding="async">
 - Obrázek 2 Postava
 
 __Socializace__
@@ -244,7 +244,7 @@ __Školní zralost__
 	- Duševní vyspělost – úroveň pozornosti, vnímání, paměti, myšlení, řeči, porozumění …
 	- Emoční a sociální zralost – citová stabilita, vydržet odloučení od matky, schopnost spolupracovat s ostatními, respektovat autoritu…
 
-1. __MLADŠÍ ŠKOLNÍ VĚK__
+## 6. MLADŠÍ ŠKOLNÍ VĚK
 
 - 6/7 – 11/12 let
 - Relativně klidné období ve vývoji člověka
@@ -289,7 +289,7 @@ __Sociální vývoj__
 - Kromě rodiny začíná sebepojetí a sebevědomí dítěte spoluutvářet vrstevnická skupina
 - Bližší vztahy se vytvářejí mezi dětmi, které např\. mají společnou cestu do školy, sedí blízko sebe ve vyučování
 
-1. __STARŠÍ ŠKOLNÍ VĚK – PUBERTA__
+## 7. STARŠÍ ŠKOLNÍ VĚK – PUBERTA
 
 - Zhruba mezi 11\-15 rokem života
 - Komplikované vývojové období
@@ -317,7 +317,7 @@ __Citový vývoj a socializace__
 - Dochází k odpoutání se od rodičů a rodiny, mění se vyjadřování citů vůči rodičům, pubescenti odmítají projevovat emoce a přijímat projevy emocí
 - Zaměření na kolektiv a vrstevnické skupiny, přátele mají pro pubescenty velký význam
 
-1. __ADOLESCENCE__
+## 8. ADOLESCENCE
 
 - Období mezi 15\-22 rokem života
 - Postupně je dosaženo plné reprodukční zralosti
@@ -330,7 +330,7 @@ __Citový vývoj a socializace__
 	- V 18 letech dosahuje adolescent zletilosti \(chápána jako právní charakteristika, jeden ze základních mezníků dospělosti\)
 	- Jedinec se zaměřuje na hledání a rozvoj __vlastní identity__ \(taková, která by byla subjektivně přijatelná a alespoň částečně odpovídala představám adolescenta\)
 
-1. __MLADÁ/RANÁ DOSPĚLOST__
+## 9. MLADÁ/RANÁ DOSPĚLOST
 
 - Období mezi 20/21 – 30 lety
 - Zaměření na profesní uplatnění a partnerství
@@ -339,7 +339,7 @@ __Citový vývoj a socializace__
 - Získávání nových zážitků a zkušeností
 - Období, kdy je člověk otevřený novým věcem
 
-1. __STŘEDNÍ DOSPĚLOST__
+## 10. STŘEDNÍ DOSPĚLOST
 
 - 30\-45 let
 - Vrchol zralosti
@@ -347,14 +347,14 @@ __Citový vývoj a socializace__
 - Životní stabilizace, dosažení vrcholu pracovní kariéry
 - Uzavírají se některé životní možnosti \(např\. mateřství\)
 
-1. __STARŠÍ DOSPĚLOST__
+## 11. STARŠÍ DOSPĚLOST
 
 - Věk 45\-60 let
 - Závažná událost – odchod a osamostatnění dětí \(fenoméne prázdného hnízda\)
 - Na závěr období – odchod do důchodu \(adaptace na nový životní styl a životní rytmus\)
 - Nápadné známky involuce \(mimo jiné úbytek výkonnosti některých orgánů\), tělesné změny \(šedivění vlasů, pigmentace kůže, kůže ztrácí elasticitu, přibývání vrásek, …\)
 
-1. __STÁŘÍ \- SENIUM__
+## 12. STÁŘÍ \- SENIUM
 
 - Poslední etapa lidského života
 - Úbytek sil, změna tělesného vzhledu, snížení výkonnosti

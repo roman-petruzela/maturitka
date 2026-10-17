@@ -3,7 +3,7 @@ title: "Správní řízení"
 order: 15
 source: "Právo/15. Správní řízení/15_spravni_rizeni.docx"
 ---
-# __15. Správní řízení__
+## __15. Správní řízení__
 
 __SPRÁVNÍ ŘÍZENÍ__ představuje postup správního orgánu, jehož účelem je vydání individuálního správního aktu, který má podobu konstitutivního nebo deklaratorního rozhodnutí. (konstitutivní – zakládá, mění nebo ruší povinnosti: deklaratorní – prohlašuje, zda určitá osoba práva nebo povinnosti má či nikoliv).
 
@@ -25,7 +25,7 @@ ZÁSADA NESTRANNÉHO POSTUPU SPRÁVNÍHO ORGÁNU
 
 Správní orgán dbá, aby přijaté řešení bylo v souladu s veřejným zájmem a aby odpovídalo okolnostem daného případu.
 
-ZÁSADA SOUČINNOSTI S ÚČASTNÍKY
+### ZÁSADA SOUČINNOSTI S ÚČASTNÍKY
 
 Projevuje se např. v povinnosti správního orgánu, poskytnout přiměřené poučení dotčené osobě: na druhé straně jsou i účastnící řízení povinni při opatřování podkladů pro vydání rozhodnutí poskytovat správnímu orgánu veškerou potřebnou součinnost
 
@@ -37,7 +37,7 @@ ZÁSADA VEŘEJNÉ SPRÁVY JAKO SLUŽBY
 
 Veřejná správu chápeme jako službu veřejnosti: ukládá účastníkům správních orgánů povinnost slušně se chovat vůči klientům veřejné správy.
 
-ZÁSADA DOBRÉ VÍRY
+### ZÁSADA DOBRÉ VÍRY
 
 Správní orgány vzájemně spolupracují v zájmu dobré správy.
 
@@ -82,7 +82,7 @@ __STÁDIA SPRÁVNÍHO ŘÍZENÍ__
 
 Před zahájením řízení (správní orgán přezkoumá, zda shledal či nikoliv důvody k zahájení řízení, popřípadě, že podnět postoupil příslušnému správnímu orgánu).
 
-## MUSÍ NASTAT
+### MUSÍ NASTAT
 
 1. Zahájení řízení
 
@@ -96,7 +96,7 @@ Před zahájením řízení (správní orgán přezkoumá, zda shledal či nikol
 
 1. Vydání správního rozhodnutí
 
-## MOHOU NASTAT
+### MOHOU NASTAT
 
 1. Odvolací řízení – účastník může podat odvolání
 2. Přezkumné řízení – tehdy, kdy lze pochybovat o souladu rozhodnutí s právními předpisy

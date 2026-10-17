@@ -33,7 +33,7 @@ Karel Poláček \(1892–1945\)
 
 - během okupace publikoval pod jménem Vlastimila Rady \(malíře\)
 
-- 5\. 6\. 1943 byl deportován do Terezína, přihlásil se dobrovolně kvůli své družce \-> Tam píše BYLO NÁS 5 a v roce 1944 umírá v plynových komorách
+- 5\. 6\. 1943 byl deportován do Terezína, přihlásil se dobrovolně kvůli své družce → Tam píše BYLO NÁS 5 a v roce 1944 umírá v plynových komorách
 
 - zachycuje životy na malém městě\. to bylo dřív nejčtěnější
 - Péťa Bajza je jakési jeho alterego

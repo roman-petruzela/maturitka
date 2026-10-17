@@ -106,7 +106,7 @@ Veřejně prospěšný poplatník = vykonává činnost, která není podnikán�
 
 - Základ daně
 
-\- vychází z výsledku hospodaření = zisku nebo ztráty
+- vychází z výsledku hospodaření = zisku nebo ztráty
 
 1. u poplatníků, kteří __nevedou účetnictví 	         PŘÍJMY – VÝDAJE__
 2. u poplatníků, kteří __vedou účetnictví 	      VÝNOSY – NÁKLADY__
@@ -160,17 +160,14 @@ __Daň z příjmů splatná po slevách__
 
 - Daň z nemovitých věcí
 
-\- přímá majetková daň
-
-\- __nemovité věci__ = pozemky na území ČR evidované v katastru nemovitostí a zdanitelné stavby a jednotky nacházející se na území ČR
-
-\- platí se dopředu
-
-\- je příjmem obce, na jejímž území se nemovité věci nachází (FÚ → účty jednotlivých obcí)
+- přímá majetková daň
+- __nemovité věci__ = pozemky na území ČR evidované v katastru nemovitostí a zdanitelné stavby a jednotky nacházející se na území ČR
+- platí se dopředu
+- je příjmem obce, na jejímž území se nemovité věci nachází (FÚ → účty jednotlivých obcí)
 
 - Poplatníci
 
-\- zpravidla vlastník pozemku nebo stavby
+- zpravidla vlastník pozemku nebo stavby
 
 - Předmět daně
 
@@ -180,21 +177,20 @@ b) daň ze staveb
 
 - Základ daně a sazba daně
 
-\- liší se podle druhu pozemku, stavby i podle místa, kde nemovitost leží (ve větších městech vyšší)
+- liší se podle druhu pozemku, stavby i podle místa, kde nemovitost leží (ve větších městech vyšší)
 
 - Daňové přiznání
 
-\- podává se pouze jednou
-
-\- FÚ pak již jen zasílá daňový výměr
+- podává se pouze jednou
+- FÚ pak již jen zasílá daňový výměr
 
 - Silniční daň
 
-\- smysl: vytvoření finančních zdrojů na výstavbu, rekonstrukce, opravy a údržbu silniční sítě
+- smysl: vytvoření finančních zdrojů na výstavbu, rekonstrukce, opravy a údržbu silniční sítě
 
 - Předmět daně
 
-\- __motorová vozidla a jejich přípojná vozidla, která__:
+- __motorová vozidla a jejich přípojná vozidla, která__:
 
 a) jsou registrovaná a provozovaná na území ČR
 
@@ -206,7 +202,7 @@ d) vozidla s hmotností nad 3,5 t, registrovaná v ČR a určená výlučně k
 
 __Předmětem daně nejsou:__
 
-\- zemědělské a lesní traktory, vozidla se zvláštní SPZ (např. převozní SPZ)
+- zemědělské a lesní traktory, vozidla se zvláštní SPZ (např. převozní SPZ)
 
 - Poplatníci
 
@@ -226,25 +222,24 @@ b) u nákladních automobilů, přívěsů, návěsů a autobusů       největ�
 
 - Sazba daně
 
-\- určena v korunách v roční výši
+- určena v korunách v roční výši
 
 - Zdaňovací období
 
-\- kalendářní rok
-
-\- v průběhu roku se platí 4 zálohy
+- kalendářní rok
+- v průběhu roku se platí 4 zálohy
 
 - Daňové přiznání
 
-\- do 31. ledna dalšího roku
+- do 31. ledna dalšího roku
 
 - Daň z nabytí nemovitých věcí
 
-\- přímá majetková daň
+- přímá majetková daň
 
 - Předmět daně
 
-\- úplatné nabytí nemovitých věcí:
+- úplatné nabytí nemovitých věcí:
 
 a) pozemek, stavba, inženýrské sítě nebo jednotka na území ČR
 
@@ -252,20 +247,20 @@ b) právo stavby
 
 - Poplatník
 
-\- nově kupující
+- nově kupující
 
 - Základ daně
 
-\- nabývací hodnota
+- nabývací hodnota
 
 - Sazba daně
 
-\- 4 %
+- 4 %
 
 - Daňové přiznání
 
-\- poplatník podá nejpozději do konce 3. měsíce následujícího po měsíci, v němž byl zapsán vklad práva do katastru nemovitostí
+- poplatník podá nejpozději do konce 3. měsíce následujícího po měsíci, v němž byl zapsán vklad práva do katastru nemovitostí
 
 - Správce daně
 
-\- místně příslušný FÚ, v jehož obvodu územní působnosti se nemovitost nachází
+- místně příslušný FÚ, v jehož obvodu územní působnosti se nemovitost nachází

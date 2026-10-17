@@ -52,14 +52,14 @@ __Živnostenské oprávnění__
 
 - Doklad na základě kterého je možné provozovat živnost
 
-1. __U ohlašovacích živností__
+## 1. U ohlašovacích živností
 
 - vzniká dnem ohlášení na živ. úřadě a do 15 dnů je vydán výpis ze živnostenského rejstříku
 - v žádosti se uvede: osobní údaje, předmět a místo podnikání, IČ, odpovědný zástupce
 - pokud je PO, tak uvádí stejné údaje, ale osobní údaje má pro statutární orgán
 - k žádosti se přikládá: výpis z rejstříku trestů , doklad o vzdělání, doklad o zaplacení správního poplatku, souhlas obce s umístěním
 
-1. __U koncesovaných živností__
+## 2. U koncesovaných živností
 
 - Podává se stejná žádost jako u ohlašovací i stejné doklady, ale přidávají se doklady, které jsou kladeny na kvalifikaci
 - Žádost se zpravidla 30 posuzuje, pak se vydá výpis z ž. Rejstříku a podnikat se může až od data, kdy nabyde právní účinnosti

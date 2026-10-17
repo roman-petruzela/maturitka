@@ -15,7 +15,7 @@ source: "IT/5. Hardware pojmy, základní deska, BIOS, zdroj.docx"
 	- a) dorozumívání mezi jednotlivými hardwarovými prvky počítače a Operačním systémem
 	- b) konfigurace komponent PC
 
-Základní deska
+## Základní deska
 
 - Základní deska zajišťuje komunikaci mezi komponenty počítače; tvoří páteř počítače
 - Přímo na základní desce se nachází – CMOS paměť, RAM paměti, nebo přídavné karty
@@ -34,7 +34,7 @@ Základní deska
 	- Konektory pro připojení napájecího zdroje
 	- Integrované přídavné součásti – síťové grafické zvukové …
 
-BIOS
+## BIOS
 
 - Slouží ke komunikaci s operačním systémem
 - Základní funkce BIOSu:
@@ -50,7 +50,7 @@ BIOS
 - Pokusí se nalézt zaváděcí záznam operačního systému, jehož spuštěním dojde k zavedení operačního systému
 - Výrobci jsou AMI, Award, Phoenix
 
-Zdroj
+## Zdroj
 
 - Je měnič napětí a má za úkol přeměnit střídavé napět ze sítě (230 V) na napětí stejnosměrné a to do několika větví:
 	- 3,3 V; 5V; 12V

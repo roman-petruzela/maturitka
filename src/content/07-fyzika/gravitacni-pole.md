@@ -11,14 +11,12 @@ Gravitace
 - Působí __univerzálně__ na všechny __látky__ nebo fyzikální __pole, dalekodosahová__
 - je rozhodující silou interakce velmi vzdálených objektů
 
-## Gravitační pole
-
 - __Existuje v okolí každého tělesa__, které se projevuje silovým působením na jiná tělesa
 - Gravitační pole zprostředkuje silové působení mezi tělesy, aniž by muselo dojít k __bezprostřednímu styku__
 - Gravitační pole je __nekonečné__. Za jeho hranici se považuje místo, kde přestává být měřitelné, nebo kde převládá gravitace jiného tělesa
 - Silové působení mezi tělesy prostřednictvím gravitačního pole je __vzájemné__
 - Vzájemné působení prostřednictvím gravitačního pole je univerzální vlastnost všech těles a nazývá se __gravitační interakce__
-	- Je jednou ze čtyř základních interakcí -> je nejslabší, ale má __velký dosah__
+	- Je jednou ze čtyř základních interakcí → je nejslabší, ale má __velký dosah__
 
 ## Newtonův gravitační zákon
 
@@ -26,7 +24,7 @@ Gravitace
 - *Dva hmotné body se navzájem přitahují stejně velkými gravitačními silami Fg, -Fg navzájem opačného směru. Velikost gravitační síly Fg je přímo úměrná součinu hmotností m1, m2 hmotných bodů a nepřímo úměrná druhé mocnině jejich vzdáleností r.*
 - Kde ϰ je __Newtonova gravitační konstanta__. (někdy označovaná G)
 
-  <img src="/images/content/fyzika/gravitacni-pole/01.webp" alt="" width="261" loading="lazy" decoding="async">
+  <img src="/images/content/fyzika/gravitacni-pole/01.webp" alt="Ilustrace: Newtonův gravitační zákon" width="261" loading="lazy" decoding="async">
 
 $$F_g = \varkappa \frac{m_1 m_2}{r^2}$$
 
@@ -77,7 +75,7 @@ __Gravitační pole:__ 1. Centrální gravitační pole (Radiální)
 - Za homogenní lze gravitační pole považovat tehdy, __jsou-li trajektorie sledovaných těles malé ve srovnání s poloměrem Země__ a pokud se v oblastech pole, v nichž sledované děje probíhají, __příliš nemění velikost ani směr intenzity gravitačního pole__.
 - Homogenní gravitační pole je tedy vhodné k popisu pohybů __v blízkosti povrchu Země__ (např. šikmý vrh).
 
-<img src="/images/content/fyzika/gravitacni-pole/04.webp" alt="" width="566" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/gravitacni-pole/04.webp" alt="Ilustrace: Homogenní gravitační pole" width="566" loading="lazy" decoding="async">
 
 ## Gravitační a tíhové pole v laboratorní vztažné soustavě
 
@@ -92,7 +90,7 @@ m – hmotnost tělesa, ω – úhlová rychlost otáčení Země, r – vzdále
 
   **F**G=**F**g+**F**o
 
-<img src="/images/content/fyzika/gravitacni-pole/05.webp" alt="" width="271" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/gravitacni-pole/05.webp" alt="Ilustrace: Gravitační a tíhové pole v laboratorní vztažné soustavě" width="271" loading="lazy" decoding="async">
 
 - Její směr se označuje jako __svislý__. Udává jej např. __klidná olovnice__
 - Nepůsobí-li na HB jiná síla než tíhová, pohybuje se HB v lab. soustavě se zrychlením __g__.

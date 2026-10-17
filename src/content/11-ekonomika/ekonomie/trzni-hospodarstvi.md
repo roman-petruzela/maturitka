@@ -37,13 +37,13 @@ __Subjekty trhu__
 
 1\.Domácnosti – chtějí na trhu uspokojit své potřeby
 
-\- jejich cíl je maximalizovat svůj užitek
+- jejich cíl je maximalizovat svůj užitek
 
 \-vystupují jako kupující (zboží) a jako prodávající ( pracovní síla )
 
 2\.Firmy – na trhu vystupují jako prodávající ( zboží ) a nakupují vstupy do podnikání ( pracovní      	     síly)
 
-\- jejich cíl je maximalizovat zisk
+- jejich cíl je maximalizovat zisk
 
 3\.Stát  - vystupuje na trhu s cílem regulovat jeho dopady na některé skupiny lidí ( senioři, nemocní )   	-vystupuje na trhu jako kupující ( všechno )
 
@@ -51,7 +51,7 @@ __Nabídka__
 
 = množství jednotlivých druhů zboží, které jsu prodávající ochotni za určitou cenu prodat
 
-<img src="/images/content/ekonomika/ekonomie/trzni-hospodarstvi/01.webp" alt="" width="261" loading="lazy" decoding="async">zákon nabídky zní: Roste-li cena, nabídka roste
+<img src="/images/content/ekonomika/ekonomie/trzni-hospodarstvi/01.webp" alt="Ilustrace: Třžní hospodářství" width="261" loading="lazy" decoding="async">zákon nabídky zní: Roste-li cena, nabídka roste
 
 __druhy nabídky__
 
@@ -93,7 +93,7 @@ __Poptávka__
 
 Zákon poptávky zní : Roste-li cena zboží, poptávka klesá
 
-<img src="/images/content/ekonomika/ekonomie/trzni-hospodarstvi/02.webp" alt="" width="285" loading="lazy" decoding="async">
+<img src="/images/content/ekonomika/ekonomie/trzni-hospodarstvi/02.webp" alt="Ilustrace: Třžní hospodářství" width="285" loading="lazy" decoding="async">
 
 __Druhy poptávky:__
 
@@ -119,13 +119,13 @@ Je založen na vzájemném ovlivňování nabídky, poptávky
 
 a  ceny.
 
-<img src="/images/content/ekonomika/ekonomie/trzni-hospodarstvi/03.webp" alt="" width="271" loading="lazy" decoding="async">
+<img src="/images/content/ekonomika/ekonomie/trzni-hospodarstvi/03.webp" alt="Ilustrace: Třžní hospodářství" width="271" loading="lazy" decoding="async">
 
 __Lidstvo zná 3 systémy hospodářství:__
 
 1. Zvykový
 
-\- vyrábí se dle potřeb, dle minulých zkušeností
+- vyrábí se dle potřeb, dle minulých zkušeností
 
 1. Centrálně-plánovaný
 
@@ -147,17 +147,15 @@ __Odehrává se :__
 
 1. Na straně poptávky
 
-\- kupující na trhu mají různou kupní sílu, informovanost, potřeby
-
-\- může existovat výsadní postavení jediného kupujícího = MONOPSON př. Stát a nákup zbraní
+- kupující na trhu mají různou kupní sílu, informovanost, potřeby
+- může existovat výsadní postavení jediného kupujícího = MONOPSON př. Stát a nákup zbraní
 
 1. Na straně nabídky
 
 a)dokonalá konkurence
 
-\- pouze v ekonomické teorii, ve skutečnosti neexistuje
-
-\- výrobci totiž nemají stejné podmínk ( velikost firmy, vzdálenost od trhu )
+- pouze v ekonomické teorii, ve skutečnosti neexistuje
+- výrobci totiž nemají stejné podmínk ( velikost firmy, vzdálenost od trhu )
 
 b)nedokonalá konkurence
 
@@ -171,7 +169,7 @@ b)nedokonalá konkurence
 
 - Oligopol
 
-\- pouze několik firem na trhu brání vstupu dalším výrobcům, drží ceny neúměrně vysoko a obvykle uměle omezují i produkci
+- pouze několik firem na trhu brání vstupu dalším výrobcům, drží ceny neúměrně vysoko a obvykle uměle omezují i produkci
 
 __Zásahy státu do tržního hospodářství__
 

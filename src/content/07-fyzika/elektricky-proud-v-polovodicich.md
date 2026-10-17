@@ -18,7 +18,7 @@ Polovodiče
 
 - Polovodiče se od kovů liší především větším __měrným elektrickým odporem ρ__ v intervalu : __10-4 - 10-8 Ω . m__
 - Závislost __měrného elektrického odporu na teplotě:__
-- __Rezistivita__ (též měrný elektrický odpor) je fyzikální veličina charakterizující __lokální__ (diferenciální) __vodivostní__ či __odporové vlastnosti__ látek vedoucích elektrický proud.<img src="/images/content/fyzika/elektricky-proud-v-polovodicich/01.webp" alt="" width="198" loading="lazy" decoding="async">
+- __Rezistivita__ (též měrný elektrický odpor) je fyzikální veličina charakterizující __lokální__ (diferenciální) __vodivostní__ či __odporové vlastnosti__ látek vedoucích elektrický proud.<img src="/images/content/fyzika/elektricky-proud-v-polovodicich/01.webp" alt="Ilustrace: Měrný elektrický odpor polovodičů" width="198" loading="lazy" decoding="async">
 - Rezistivita je __materiálová konstanta__
 - Rezistivita látek __závisí na teplotě__. U __kovových__ vodičů s teplotou __roste__, u __polovodičů klesá__
 
@@ -28,7 +28,7 @@ Polovodiče
 - Termistor je __polovodičová__ součástka, která se používá jako __teplotně citlivá součástka__
 - Jeho odpor klesá s teplotou, přičemž změna odporu s teplotou je __daleko rychlejší než u kovů__   __↓R ….. ↓t__
 - __Využití__:
-	- Měření teploty<img src="/images/content/fyzika/elektricky-proud-v-polovodicich/02.webp" alt="" width="178" loading="lazy" decoding="async">
+	- Měření teploty<img src="/images/content/fyzika/elektricky-proud-v-polovodicich/02.webp" alt="Ilustrace: Termistory" width="178" loading="lazy" decoding="async">
 	- Měření teploty na dálku
 	- Kompenzace odporu žhavícího vodiče v elektronkách
 	- Převodník z teploty na napětí
@@ -44,7 +44,7 @@ Polovodiče
 	- Detekce neviditelného infračerveného záření
 	- Převodník ze světla na elektrické napětí.
 
-Vlastní a příměsové polovodiče
+## Vlastní a příměsové polovodiče
 
 __Vlastní polovodiče__
 
@@ -71,13 +71,13 @@ __Příměsové (nevlastní) polovodiče__
 	- B má 3 val. el., tím při plném obsazení vazeb se sousedními atomy Si __chybí jeden valenční elektron__, vzniká díra a to bez vzniku volného elektronu
 	- díry jsou __většinovými__ (__majoritními__) nosiči náboje a příměsi se třemi valenčními elektrony tvoří ve struktoře krystalu nepohyblivé záporné ionty zvané __akceptory__
 
-<img src="/images/content/fyzika/elektricky-proud-v-polovodicich/03.webp" alt="" width="602" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/elektricky-proud-v-polovodicich/03.webp" alt="Ilustrace: Vlastní a příměsové polovodiče" width="602" loading="lazy" decoding="async">
 
 ## Diodový jev a jeho technické využití
 
 - Propustný směr je vyznačen hrotem trojúhelníku
 
-<img src="/images/content/fyzika/elektricky-proud-v-polovodicich/04.webp" alt="" width="203" loading="lazy" decoding="async"><img src="/images/content/fyzika/elektricky-proud-v-polovodicich/05.webp" alt="" width="178" loading="lazy" decoding="async"><img src="/images/content/fyzika/elektricky-proud-v-polovodicich/06.webp" alt="" width="189" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/elektricky-proud-v-polovodicich/04.webp" alt="Ilustrace: Diodový jev a jeho technické využití" width="203" loading="lazy" decoding="async"><img src="/images/content/fyzika/elektricky-proud-v-polovodicich/05.webp" alt="Ilustrace: Diodový jev a jeho technické využití" width="178" loading="lazy" decoding="async"><img src="/images/content/fyzika/elektricky-proud-v-polovodicich/06.webp" alt="Ilustrace: Diodový jev a jeho technické využití" width="189" loading="lazy" decoding="async">
 
    Led diody                                                          Zenerova dioda
 
@@ -109,7 +109,7 @@ __3. Propustný směr:__
 
 <img src="/images/content/fyzika/elektricky-proud-v-polovodicich/09.webp" alt="Propustný směr" width="288" loading="lazy" decoding="async">
 
-<img src="/images/content/fyzika/elektricky-proud-v-polovodicich/10.webp" alt="" width="487" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/elektricky-proud-v-polovodicich/10.webp" alt="Ilustrace: Polovodičová dioda" width="487" loading="lazy" decoding="async">
 
 ## Voltampérová charakteristika diody
 
@@ -126,7 +126,7 @@ __3. Propustný směr:__
 
 __NPN__
 
-<img src="/images/content/fyzika/elektricky-proud-v-polovodicich/11.webp" alt="" width="70" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/elektricky-proud-v-polovodicich/11.webp" alt="Ilustrace: Tranzistorový jev a jeho technické využití" width="70" loading="lazy" decoding="async">
 
 -
 	- (E – polovodič typu N; B - vrstva polovodiče P;  C – polovodič N)
@@ -134,16 +134,16 @@ __NPN__
 
 __PNP__
 
-<img src="/images/content/fyzika/elektricky-proud-v-polovodicich/12.webp" alt="" width="70" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/elektricky-proud-v-polovodicich/12.webp" alt="Ilustrace: Tranzistorový jev a jeho technické využití" width="70" loading="lazy" decoding="async">
 
 -
 	- (E - polovodič typu P; B - vrstva polovodiče N;  C – polovodič P)
 
-Polovodičová technika
+## Polovodičová technika
 
-<img src="/images/content/fyzika/elektricky-proud-v-polovodicich/13.webp" alt="" width="142" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/elektricky-proud-v-polovodicich/13.webp" alt="Ilustrace: Polovodičová technika" width="142" loading="lazy" decoding="async">
 
-<img src="/images/content/fyzika/elektricky-proud-v-polovodicich/14.webp" alt="" width="109" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/elektricky-proud-v-polovodicich/14.webp" alt="Ilustrace: Polovodičová technika" width="109" loading="lazy" decoding="async">
 
 - __Analogová__
 	- Usměrňovač

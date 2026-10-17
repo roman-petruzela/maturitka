@@ -2,6 +2,7 @@
 title: "Exponenciální rovnice"
 order: 29
 source: "Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/29) Exponenciální rovnice.pdf"
+formulaRail: false
 hasExercises: true
 ---
 

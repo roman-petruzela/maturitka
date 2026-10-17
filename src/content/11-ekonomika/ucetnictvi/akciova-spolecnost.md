@@ -35,7 +35,7 @@ __Charakteristika akciové společnosti__
 
 − orgány společnosti:	- nejvyšší orgán – valná hromada
 
-\- statutární orgán:
+- statutární orgán:
 
 1. __Dualistický systém__ – tento systém je známý již z předchozí právní úpravy
 	- __Představenstvo__
@@ -55,7 +55,7 @@ __Charakteristika akciové společnosti__
 
 __Zahajovací rozvaha__
 
-<img src="/images/content/ekonomika/ucetnictvi/akciova-spolecnost/01.webp" alt="" width="424" loading="lazy" decoding="async">
+<img src="/images/content/ekonomika/ucetnictvi/akciova-spolecnost/01.webp" alt="Ilustrace: Akciová společnost" width="424" loading="lazy" decoding="async">
 
 __Způsoby zvýšení základního kapitálu v akciové společnosti a jejich účtování__
 
@@ -63,7 +63,7 @@ __Způsoby zvýšení základního kapitálu v akciové společnosti a jejich �
 - Vždy o tom rozhoduje valná hromada akcionářů
 - Změna musí být zapsána v obchodním rejstříku a účtuje se o změnách prostřednictvím účtu 419, po zápisu 411
 
-1. __Z vlastních zdrojů akciové společnosti__
+## 1. Z vlastních zdrojů akciové společnosti
 
 - Probíhá stejně jako v s. r. o. a je podmíněno:
 	- Schválením valnou hromadou
@@ -80,7 +80,7 @@ __Účtování:__
 
 - Výše základního kapitálu se nemění, mění se jen struktura
 
-1. __Zvýšení základního kapitálu upsáním nových akcií (účtování u a. s. i u vkladatele)__
+## 2. Zvýšení základního kapitálu upsáním nových akcií (účtování u a. s. i u vkladatele)
 
 - Podle obchodního zákoníku může a. s. zvýšit ZK takto:
 
@@ -91,12 +91,12 @@ __Účtování:__
 2. Z vlastních zdrojů
 3. Kombinovaný způsob
 
-<img src="/images/content/ekonomika/ucetnictvi/akciova-spolecnost/02.webp" alt="" width="626" loading="lazy" decoding="async">
+<img src="/images/content/ekonomika/ucetnictvi/akciova-spolecnost/02.webp" alt="Ilustrace: Zvýšení základního kapitálu upsáním nových akcií (účtování u a. s. i u vkladatele)" width="626" loading="lazy" decoding="async">
 
 __Emisní ážio__
 
 - Emisní kurz je větší než jmenovitá hodnota + z toho nám vyplývá emisní ážio ve výši rozdílu
-- Při zvýšení ZK v již existující a. s. bývá obvyklé, že od nových akcionářů je požadována vyšší částka než je jmenovitá hodnota akci => jde o emisní ážio, které představuje „příplatek k jmenovité hodnotě“
+- Při zvýšení ZK v již existující a. s. bývá obvyklé, že od nových akcionářů je požadována vyšší částka než je jmenovitá hodnota akci ⇒ jde o emisní ážio, které představuje „příplatek k jmenovité hodnotě“
 - Emisní kurz nesmí být nikdy menší než jmenovitá hodnota akcie
 - Emisní ážio účtujeme na účtu 412 (účet vlastních zdrojů)
 

@@ -19,7 +19,7 @@ formy prodeje:
 - Vyšší tržby
 - Host si vybere co chce a poté zaplatí
 
-1. __prodej s obsluhou – systém vrchního číšníka__
+## 1. prodej s obsluhou – systém vrchního číšníka
 
 -  provadí kasírovaní
 - doprovazí hosta ke stolu
@@ -31,24 +31,23 @@ formy prodeje:
 
   2\) Francouzský systém
 
-  \- Specializace na praci
+  - Specializace na praci
+  - velmi nakladný
 
-  \- velmi nakladný
-
-1. __pultový – vyskytuje se v rychlých občerstveních a mají omezený sortiment__
+## 2. pultový – vyskytuje se v rychlých občerstveních a mají omezený sortiment
 
 - rychlé občerstvení, bufet, stanek
 
-1. __stánkový prodej – má u sebe prostor ke konzumaci__
+## 3. stánkový prodej – má u sebe prostor ke konzumaci
 
 -  zaměřený na určitý sortiment, malá hygiena
 - Používa se na hromadných akcích nebo v dopravních prostředkach
 
-1. __pochůzkový prodej – omezený sortiment__
+## 4. pochůzkový prodej – omezený sortiment
 
 - na sportovních akcích, koupaliště, vlak
 
-1. __prodejní automaty – vysoka produktivita práce__
+## 5. prodejní automaty – vysoka produktivita práce
 
 - omezený sortiment, poruchy
 
@@ -66,9 +65,8 @@ __zaměstnanci odbytového střediska:__
 
 vyúčtování s hostem:
 
-\- probíhá různým způsobem, závisí na systému obsluhy
-
-\- zahrnuje 2 úkony: 1\. *vystavení účtu* = číšník vystavuje účet přímo před hostem
+- probíhá různým způsobem, závisí na systému obsluhy
+- zahrnuje 2 úkony: 1\. *vystavení účtu* = číšník vystavuje účet přímo před hostem
 
 = číšník vystaví účet z kontrolní pokladny
 
@@ -86,7 +84,7 @@ odvod tržeb:
 4. pošta
 5. zabudovaný trezor v provozovně
 
-Kapacita
+## Kapacita
 
 - maximální počet hostů, které lze obsloužit
 
@@ -103,7 +101,7 @@ K=\_\_\_  x o
 m
 
 Kontrola ve VS
-\- vykonávají ji státní orgány a organizace státem pověřené
+- vykonávají ji státní orgány a organizace státem pověřené
 
 zaměření kontroly:
 
@@ -121,7 +119,7 @@ pravidla pro provádění kontroly:
 5. zachovat mlčenlivost
 6. pořídit protokol o kontrole
 
-\- protokol se předává kontrolovaným osobám a ty to stvrdí podpisem
+- protokol se předává kontrolovaným osobám a ty to stvrdí podpisem
 
 kontroloři jsou oprávněni:
 
@@ -137,7 +135,7 @@ kontrolní orgány:
 =největší kontrolní úřad
 
 ČOI \- kontroluje FO i PO, které prodávají zboží, poskytují služby nebo vyvíjí činnost na vnitřním trhu
-\- kontroluje jakost, nezávadnost, správné míry a hmotnost, správnost cen, ověřena
+- kontroluje jakost, nezávadnost, správné míry a hmotnost, správnost cen, ověřena
 měřidla, prohlášení o shodě
 
 CZPI \- kontroluje zemědělské a potravinářské výrobky, není oprávněná kotrolovat přípravu jídel a nápojů
@@ -145,14 +143,14 @@ CZPI \- kontroluje zemědělské a potravinářské výrobky, není oprávněná
 **Státní veterinární správa* \- kontroluje potraviny živočišného původu, jejich úpravy
 
 __*Živnostenský úřad*__ \- kontroluje rozsah a platnost živnostenského oprávnění
-\- kontrolují označení provozovny
-\- kontrolují podmínky provozovací živnosti
+- kontrolují označení provozovny
+- kontrolují podmínky provozovací živnosti
 
 __*Státní požární dozor*__ \- kontrola hasicích přístroju, hlásičů a kontrola unikových cest
-\- školení zaměstnanců
+- školení zaměstnanců
 *
 **Český úřad bezpečnosti práce** \- patří pod MPSV
-\- kontroluje dodržování bezpečnostních předpisů
+- kontroluje dodržování bezpečnostních předpisů
 
 __*Úřad práce*__ \- zaměřen na pracovně právní předpisy
 
@@ -163,11 +161,11 @@ __*ČNB* \-__ kontroluje směnárenskou činnost a divizvou činnost
 __*Metrologický orgán*__* \- kontroluje měřidla
 
 *Policie ČR a městská policie* \- dohlíží na veřejný pořádek, noční klid
-\- ochrana před alkoholismem a omamnými látkami
+- ochrana před alkoholismem a omamnými látkami
 
 ## Cena
 
-\- peněžní vyjádření hodnoty zboží
+- peněžní vyjádření hodnoty zboží
 
 druhy cen:
 
@@ -187,9 +185,8 @@ druhy cen:
 
 #### Cenová kalkulace
 
-\- rozpočítává náklady na jednotku výkonu \(10porcí\)
-
-\- provádí se na kalkulačním listě
+- rozpočítává náklady na jednotku výkonu \(10porcí\)
+- provádí se na kalkulačním listě
 
 náležitosti:
 

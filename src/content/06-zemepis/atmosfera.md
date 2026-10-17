@@ -9,77 +9,63 @@ source: "Zeměpis/Zeměpis GLP/3. Atmosféra.docx"
 
 \-zabraňuje velkému kolísání teploty mezi dnem a nocí
 
-\- zajišťuje průměrnou teplotu na Zemi
+- zajišťuje průměrnou teplotu na Zemi
 
-Složení
+### Složení
 
-\- dusík 78%, kyslík 21%, ostatní plyny 1% (argon, neon, CO2)
+- dusík 78%, kyslík 21%, ostatní plyny 1% (argon, neon, CO2)
+- voda ve všech skupenstvích -) vodní pára, kapky, ledové krystaly (množství vody proměnlivé jak v prostoru, tak v čase)
+- různé znečišťující aerosoly -) sopečný prach, prach,… + doprava, spalování uhlí,…
 
-\- voda ve všech skupenstvích -) vodní pára, kapky, ledové krystaly (množství vody proměnlivé jak v prostoru, tak v čase)
-
-\- různé znečišťující aerosoly -) sopečný prach, prach,… + doprava, spalování uhlí,…
-
-Skleníkový efekt
+### Skleníkový efekt
 
 = proces, kterým záření atmosféry planety ohřívá povrch planety na teplotu vyšší, než by měla bez atmosféry
 
-\- část slunečních paprsků odražených od Země se od atmosféry (CO2) odráží zpět na Zem, dochází k ohřívání Země
+- část slunečních paprsků odražených od Země se od atmosféry (CO2) odráží zpět na Zem, dochází k ohřívání Země
 
-Vrstvy atmosféry
+### Vrstvy atmosféry
 
-<img src="/images/content/zemepis/atmosfera/01.webp" alt="" width="417" loading="lazy" decoding="async">
+<img src="/images/content/zemepis/atmosfera/01.webp" alt="Ilustrace: Vrstvy atmosféry" width="417" loading="lazy" decoding="async">
 
 Troposféra:     - sahá do výšky 7-18 km
 
-\- téměř ¾ hmotnosti atmosféry a téměř všechna atmosférická          voda -) téměř veškeré děje, označované jako počasí
-
-\- rychlost vzduchu roste s výškou
-
-\- klesá teplota (horní hranice: rovník:-80, mírný:-60, polární:-45,-60)
-
-\- přechodová vrstva - tropopauza
+- téměř ¾ hmotnosti atmosféry a téměř všechna atmosférická          voda -) téměř veškeré děje, označované jako počasí
+- rychlost vzduchu roste s výškou
+- klesá teplota (horní hranice: rovník:-80, mírný:-60, polární:-45,-60)
+- přechodová vrstva - tropopauza
 
 Stratosféra:     -tropopauza až přibližně 50 km
 
-\- stoupá teplota (poblíž horní hranice až 0 C) – zahřívání ozonosféry (20 - 30 km) -) pohlcuje UV záření
-
-\- velmi řídký vzduch, malý rozptyl světla (temně fialová obloha)
-
-\- velmi málo vodní páry (téměř žádné mraky(perleťová oblaka))
-
-\- přechodová vrstva – stratopauza
+- stoupá teplota (poblíž horní hranice až 0 C) – zahřívání ozonosféry (20 - 30 km) -) pohlcuje UV záření
+- velmi řídký vzduch, malý rozptyl světla (temně fialová obloha)
+- velmi málo vodní páry (téměř žádné mraky(perleťová oblaka))
+- přechodová vrstva – stratopauza
 
 Mezosféra:      - stratopauza až přibližně 80 km
 
-\- klesá teplota (horní hranice -80 C)
-
-\- noční stříbřitá oblaka
-
-\- přechodová vrstva – mezopauza
+- klesá teplota (horní hranice -80 C)
+- noční stříbřitá oblaka
+- přechodová vrstva – mezopauza
 
 Termosféra:   - nad mezosférou do přibližně 1000 km
 
-\- stoupá teplota (200 – 300 km -) až stovky  C (kvůli magnetismu)
-
-\- ve vyšších vrstvách se růst zpomaluje
-
-\- vznik polárních září
-
-\- přechodová vrstva – termopauza (oblast s nejvyšší teplotou atmosféry)
+- stoupá teplota (200 – 300 km -) až stovky  C (kvůli magnetismu)
+- ve vyšších vrstvách se růst zpomaluje
+- vznik polárních září
+- přechodová vrstva – termopauza (oblast s nejvyšší teplotou atmosféry)
 
 Exosféra:          - termopauza až 30 – 40 000 km
 
-\- obsahuje lehké plyny, které z ní unikají do okolního meziplanetárního prostoru
+- obsahuje lehké plyny, které z ní unikají do okolního meziplanetárního prostoru
 
-Počasí
+### Počasí
 
 = okamžitý stav ovzduší na určitém místě
 
-\- dáno stavem všech atmosférických jevů pozorovaných na určitém místě v určitém okamžiku
+- dáno stavem všech atmosférických jevů pozorovaných na určitém místě v určitém okamžiku
+- změny počasí způsobeny především zemskou rotací
 
-\- změny počasí způsobeny především zemskou rotací
-
-Meteorologické prvky
+### Meteorologické prvky
 
 \-pomáhají ke kvalitní a účelné předpovědi průběhu počasí
 
@@ -87,13 +73,10 @@ Oblačnost a srážky: - srážkoměr
 
 Teplota vzduchu:   - udává teplotní stav ovzduší
 
-\- měření ve stínu 2 m nad povrchem v 7, 14 a 21 hodin
-
-\- teplotní gradient = změna teploty na 100 m (0,65 C)
-
-\- izoterma = spojuje místa se stejnou teplotou
-
-\- teploměr
+- měření ve stínu 2 m nad povrchem v 7, 14 a 21 hodin
+- teplotní gradient = změna teploty na 100 m (0,65 C)
+- izoterma = spojuje místa se stejnou teplotou
+- teploměr
 
 Vlhkost vzduchu:  - vlhkoměr
 
@@ -101,25 +84,21 @@ Sluneční záření:    -heliograf, pyranometr
 
 Směr a rychlost větru: - anemometr (rychlost)
 
-<img src="/images/content/zemepis/atmosfera/02.webp" alt="" width="412" loading="lazy" decoding="async"> Tlak vzduchu:                                - vítr proudí z tlakových výšin do tlakových nížin
+<img src="/images/content/zemepis/atmosfera/02.webp" alt="Ilustrace: Meteorologické prvky" width="412" loading="lazy" decoding="async"> Tlak vzduchu:                                - vítr proudí z tlakových výšin do tlakových nížin
 
- \- izobara = spojuje místa se stejným tlakem
-
-\- barometr
-
-\- mění se se změnami teploty a nadmořskou výškou
-
-\- vyvolává proudění vzduchu, není stálý
+ - izobara = spojuje místa se stejným tlakem
+- barometr
+- mění se se změnami teploty a nadmořskou výškou
+- vyvolává proudění vzduchu, není stálý
 
 Coriolisova síla – setrvačná síla, vítr na S polokouli se stáčí vpravo, na J vlevo
 
-## Větry
+### Větry
 
-<img src="/images/content/zemepis/atmosfera/03.webp" alt="" width="402" loading="lazy" decoding="async">
+<img src="/images/content/zemepis/atmosfera/03.webp" alt="Ilustrace: Větry" width="402" loading="lazy" decoding="async">
 
-\- sezónní = monzunové
-
-  \- pravidelné = pasáty, antipasáty
+- sezónní = monzunové
+  - pravidelné = pasáty, antipasáty
 
 západní větry, východní větry
 
@@ -155,13 +134,13 @@ Mikro: - nadmořská výška, teplotní inverze, tvar georeliéfu, činnost člo
 
 ITC (intertropická zóna konvergence)
 
-\- zhruba rovník, sbíhají se větry ze S a z J -) bezvětří, rychlé změny počasí, zóna se hýbe
+- zhruba rovník, sbíhají se větry ze S a z J -) bezvětří, rychlé změny počasí, zóna se hýbe
 
-Podnebí
+### Podnebí
 
 = dlouhodobý stav počasí na určitém místě
 
-# Podnebné pásy:
+## Podnebné pásy:
 
 Ekvatoriální: extrémní vlhko, během dne a noci malé kolísáni teplot, velmi rozmanitá fauna a flora, Amazonie, Indonésie, střední Afrika, 24 – 28 C, 1000 – 3000 mm
 
@@ -177,16 +156,14 @@ Subpolární: dlouhé a studené zimy, krátká teplá léta, málo srážek, ne
 
 Polární: mrazivé zimy, studená léta, nejnižší teploty na Zemi
 
-Atmosférické jevy
+### Atmosférické jevy
 
 = nejrůznější úkazy v atmosféře nebo na zemském povrchu
 
-\- většinu lze shrnout pod pojmem meteory
+- většinu lze shrnout pod pojmem meteory
+- hydrometeory (vodní, ledové částečky), litometeory (lehké z vody nepocházející částice), fotometeory (světelné jevy), elektrometeory (viditelné a slyšitelné jevy)
+- další jevy -) silný vítr, bouřlivý vítr, nárazovitý vítr, proměnlivý vítr, húlava
 
-\- hydrometeory (vodní, ledové částečky), litometeory (lehké z vody nepocházející částice), fotometeory (světelné jevy), elektrometeory (viditelné a slyšitelné jevy)
+### Mořské proudy
 
-\- další jevy -) silný vítr, bouřlivý vítr, nárazovitý vítr, proměnlivý vítr, húlava
-
-Mořské proudy
-
-\- teplé mořské proudy pevninu oteplují, studené ji ochlazují
+- teplé mořské proudy pevninu oteplují, studené ji ochlazují

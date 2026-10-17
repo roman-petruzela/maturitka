@@ -43,7 +43,7 @@ __Charakteristika společnosti s ručením omezeným__
 
 − orgány společnosti: - nejvyšší orgán – valná hromada (shromáždění společníků)
 
-\- statutární orgán – jednatel
+- statutární orgán – jednatel
 
 __Splacení vkladů__
 
@@ -68,7 +68,7 @@ __Zřizovací výdaje__
 
 __Zahajovací rozvaha__
 
-<img src="/images/content/ekonomika/ucetnictvi/spolecenost-s-rucenim-omezenym/01.webp" alt="" width="424" loading="lazy" decoding="async">
+<img src="/images/content/ekonomika/ucetnictvi/spolecenost-s-rucenim-omezenym/01.webp" alt="Ilustrace: Společenost s ručením omezeným" width="424" loading="lazy" decoding="async">
 
 __Otevření účetních knih__
 

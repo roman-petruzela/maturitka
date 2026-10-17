@@ -22,7 +22,7 @@ source: "IT/8. Sběrnice, rozhraní.docx"
 	- AGP – vysokorychlostní sběrnice; je přímo napojena na severní most čipové sady; pomocí této sběrnice lze připojit k počítači výhradně grafická karta
 	- PCI Express – je novější PCI sběrnice založena na mnohem rychlejší sériové komunikaci; vyžaduje méně vodičů, čímž se usnadňuje a zlevňuje výroba; navržena pro stolní počítače, mobilní zařízení, severy, pracovní stanice; obousměrné propojení ; verze x16 je určená pro grafické karty a speciální vysokorychlostní SSD v podobě přídavné karty
 
-Rozhraní
+## Rozhraní
 
 - Umožňují propojení počítače s periferiemi
 - Jsou určena: logicky – způsobem komunikace; fyzicky – tvarem konektorů, počtem a umístěním vývodů

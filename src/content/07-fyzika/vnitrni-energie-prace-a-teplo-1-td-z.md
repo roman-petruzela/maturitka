@@ -10,7 +10,7 @@ Celková energie soustavy
 	- __potenciální energií Ep__ – vyplývající ze vzájemného silového působení těles (v tíhovém nebo elektrostatickém poli)
 	- __vnitřní energií U__ -
 
-E = Ek + Ep + U = E’ + U   kde   E’ = Ek + Ep => je celková mechanická energie soustavy
+E = Ek + Ep + U = E’ + U   kde   E’ = Ek + Ep ⇒ je celková mechanická energie soustavy
 
 ## Vnitřní energie soustavy
 
@@ -26,10 +26,9 @@ E = Ek + Ep + U = E’ + U   kde   E’ = Ek + Ep => je celková mechanická ene
 ## Změna vnitřní energie
 
 - __Změna vnitřní energie ∆U__ může nastat dvěma způsoby:
-		\- __konáním práce__ (třením těles, stlačováním plynu …)
-		\- __tepelnou výměnou__ (radiátor a vzduch, varná konvice …)
-
-\- současně tepelnou výměnou a konáním práce
+		- __konáním práce__ (třením těles, stlačováním plynu …)
+		- __tepelnou výměnou__ (radiátor a vzduch, varná konvice …)
+- současně tepelnou výměnou a konáním práce
 
 ∆U = U2 – U1
 
@@ -68,15 +67,11 @@ Q = m×c×∆t         m – hmotnost tělesa, c – měrná tepelná kapacita, 
 - *Je množství tepla potřebné k ohřátí 1 kg látky o 1 °C (1 K)*
 - __Měrná tepelná kapacita (látky) c__
 
-  \- je číselně rovna teplu potřebnému k zahřátí 1 kg látky o 1 °C (1 K)
-
-  \- je to tepelná kapacita __vztažená__ na __1 kg látky__
-
-  \- 		\[J.K-1.kg-1\]   => Q = m.c.∆t
-
-\- teplo, které přijme stejnorodé těleso je přímo úměrné hmotnosti 	a přírůstku teploty
-
-\- uvedeny v MFChT
+  - je číselně rovna teplu potřebnému k zahřátí 1 kg látky o 1 °C (1 K)
+  - je to tepelná kapacita __vztažená__ na __1 kg látky__
+  - 		\[J.K-1.kg-1\]   => Q = m.c.∆t
+- teplo, které přijme stejnorodé těleso je přímo úměrné hmotnosti 	a přírůstku teploty
+- uvedeny v MFChT
 
 - __Tepelná kapacita C__
     - Množství tepla, jakým se těleso ohřeje za 1 teplotní rozdíl *
@@ -85,14 +80,12 @@ Q = m×c×∆t         m – hmotnost tělesa, c – měrná tepelná kapacita, 
 ## Kalorimetr
 
 - Slouží k experimentálnímu určení __tepla Q__ a __tepelné kapacity c__
-- __Směšovací kalorimetr__ je tepelně izolovaná nádoba s míchačkou a teploměrem, naplněná kapalinou. Pro přesnější měření může mít dvojitou stěnu vyplněnou vakuem.<img src="/images/content/fyzika/vnitrni-energie-prace-a-teplo-1-td-z/01.webp" alt="" width="269" loading="lazy" decoding="async">
+- __Směšovací kalorimetr__ je tepelně izolovaná nádoba s míchačkou a teploměrem, naplněná kapalinou. Pro přesnější měření může mít dvojitou stěnu vyplněnou vakuem.<img src="/images/content/fyzika/vnitrni-energie-prace-a-teplo-1-td-z/01.webp" alt="Ilustrace: Kalorimetr" width="269" loading="lazy" decoding="async">
 - Je-li __ck__ tepelná kapacita kalorimetru, můžeme vyjádřit:
 
-  \- teplo Q1 = c1m1 (t1 – t), které __těleso odevzdá__
-
-  \- teplo Q2 = c1m1 (t – t2), které __přijme kapalina__
-
-  \- teplo Qk = Ck (t – t2), které __přijme soustava kalorimetru__
+  - teplo Q1 = c1m1 (t1 – t), které __těleso odevzdá__
+  - teplo Q2 = c1m1 (t – t2), které __přijme kapalina__
+  - teplo Qk = Ck (t – t2), které __přijme soustava kalorimetru__
 
 ## Kalorimetrická rovnice
 
@@ -123,7 +116,7 @@ Q = m×c×∆t         m – hmotnost tělesa, c – měrná tepelná kapacita, 
 - Je-li soustava tepelně __izolována__ (__Q = 0__), pak __∆U = W__, vnitřní energie se mění __pouze konáním práce__. Jedná se o __adiabatický děj__ – děj, při kterém neprobíhá tepelná výměna mezi soustavou a okolím.
 - Jestliže se během termodynamického děje __nekoná žádná práce__ __W = 0__, pak __∆U = Q,__ vnitřní energie se mění pouze díky teplu. Jedná se o __tepelnou výměnu__.
 
-Formy přenosu vnitřní energie
+## Formy přenosu vnitřní energie
 
 __Vedením/kondukcí__
 

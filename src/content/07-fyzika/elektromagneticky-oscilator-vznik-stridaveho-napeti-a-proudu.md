@@ -8,15 +8,15 @@ LC oscilační obvod
 - __Nejjednodušším elmg. oscilátorem__ je obvod tvořený paralelně zapojenou __cívkou__ a __kondenzátorem__
 - Parametry oscilačního obvodu jsou __indukčnost L__ a __kapacita C__
 
-<img src="/images/content/fyzika/elektromagneticky-oscilator-vznik-stridaveho-napeti-a-proudu/01.webp" alt="" width="256" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/elektromagneticky-oscilator-vznik-stridaveho-napeti-a-proudu/01.webp" alt="Ilustrace: Elektromagnetický oscilátor vznik střídavého napětí a proudu" width="256" loading="lazy" decoding="async">
 
 - Na počátku děje je __kondenzátor nabitý__
-- Za __čtvrtinu periody__ se __vybije__ a __proud__ je __maximální__ => vzniká __indukované napětí__
+- Za __čtvrtinu periody__ se __vybije__ a __proud__ je __maximální__ ⇒ vzniká __indukované napětí__
 - Za další __čtvrtinu periody__ se __kondenzátor nabije indukovaným proudem__. __Polarita__ kondenzátoru je __opačná__.
 - Ve __druhé polovině periody__ se tento děj __opakuje__ opačným směrem
 - Vlivem ztrát je toto __kmitání tlumené__
 
-<img src="/images/content/fyzika/elektromagneticky-oscilator-vznik-stridaveho-napeti-a-proudu/02.webp" alt="" width="602" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/elektromagneticky-oscilator-vznik-stridaveho-napeti-a-proudu/02.webp" alt="Ilustrace: Elektromagnetický oscilátor vznik střídavého napětí a proudu" width="602" loading="lazy" decoding="async">
 
 ### Princip vzniku střídavého napětí a proudu
 
@@ -37,7 +37,7 @@ $$i = I_m \sin \omega t$$
 - Grafem střídavého napětí a proudu je __sinusoida__
 - Fáze kmitavého pohybu
 
-<img src="/images/content/fyzika/elektromagneticky-oscilator-vznik-stridaveho-napeti-a-proudu/05.webp" alt="" width="525" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/elektromagneticky-oscilator-vznik-stridaveho-napeti-a-proudu/05.webp" alt="Ilustrace: Princip vzniku střídavého napětí a proudu" width="525" loading="lazy" decoding="async">
 
 ## Analogie mezi mechanickým a elektromagnetickým oscilátorem
 
@@ -69,7 +69,7 @@ $$X_L = \frac{U_m}{I_m} = \omega L$$
 
 - jednotka induktance je stejná jako jednotka odporu: $[X_L] = \Omega$
 
-Z rovnosti $X_L = X_C$ plyne:
+**Thomsonův vztah** — z rovnosti $X_L = X_C$ plyne:
 
 $$\omega_0 L = \frac{1}{\omega_0 C}$$
 
@@ -89,7 +89,7 @@ $$f_0 = \frac{1}{2\pi \sqrt{L C}}$$
 - __Energie__ elektrického a magnetického pole se __postupně přeměňuje__ ve v**nitřní energii** vodiče obvodu.
 - Elektromagnetické kmitání oscilačního obvodu je __tlumené__
 
-<img src="/images/content/fyzika/elektromagneticky-oscilator-vznik-stridaveho-napeti-a-proudu/13.webp" alt="" width="321" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/elektromagneticky-oscilator-vznik-stridaveho-napeti-a-proudu/13.webp" alt="Ilustrace: Tlumené kmitání" width="321" loading="lazy" decoding="async">
 
 ## Nucené kmitání
 
@@ -107,7 +107,7 @@ $$f_0 = \frac{1}{2\pi \sqrt{L C}}$$
 - Poloha maxima křivky určuje __rezonanční frekvenci oscilátoru__, __tvar__ křivky je značně ovlivněn __tlumením__.
 - Ostré maximum charakterizuje oscilátor s __malým tlumením (1),__ kdežto oscilátor s __větším tlumením__ má rezonanční křivku s __méně výrazným maximem (2)__.
 
-<img src="/images/content/fyzika/elektromagneticky-oscilator-vznik-stridaveho-napeti-a-proudu/14.webp" alt="" width="249" loading="lazy" decoding="async"><img src="/images/content/fyzika/elektromagneticky-oscilator-vznik-stridaveho-napeti-a-proudu/15.webp" alt="" width="310" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/elektromagneticky-oscilator-vznik-stridaveho-napeti-a-proudu/14.webp" alt="Ilustrace: Rezonance oscilátoru a rezonanční křivka" width="249" loading="lazy" decoding="async"><img src="/images/content/fyzika/elektromagneticky-oscilator-vznik-stridaveho-napeti-a-proudu/15.webp" alt="Ilustrace: Rezonance oscilátoru a rezonanční křivka" width="310" loading="lazy" decoding="async">
 
 ## Rezonanční jevy v technické praxi
 
@@ -120,4 +120,4 @@ __Zpětná vazba__
 
 - Zpětná vazba (také zpětnovazební smyčka) je termín pro situaci (mechanismus, elektronický obvod), kdy výstup nějakého systému ovlivňuje zpětně jeho vstup
 
-<img src="/images/content/fyzika/elektromagneticky-oscilator-vznik-stridaveho-napeti-a-proudu/16.webp" alt="" width="300" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/elektromagneticky-oscilator-vznik-stridaveho-napeti-a-proudu/16.webp" alt="Ilustrace: Rezonanční jevy v technické praxi" width="300" loading="lazy" decoding="async">

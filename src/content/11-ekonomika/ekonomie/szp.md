@@ -164,11 +164,9 @@ __DÁVKY STÁTNÍ SOCIÁLNÍ PODPORY__
 
 __DÁVKY V HMOTNÉ NOUZI__
 
-\- hmotná nouze = stav, kdy osoba či rodina nemá dostatečné příjmy, aby uspokojila základní životní potřeby na úrovni ještě přijatelné pro společnost\.
-
-\- zabývají se tím krajské úřady a obecní
-
-\- druhy –
+- hmotná nouze = stav, kdy osoba či rodina nemá dostatečné příjmy, aby uspokojila základní životní potřeby na úrovni ještě přijatelné pro společnost\.
+- zabývají se tím krajské úřady a obecní
+- druhy –
 
 1. Dávky na živobytí
 2. Doplatek na bydlení
@@ -182,9 +180,8 @@ __\-__ příspěvek na mobilitu
 
 __ZP__ \- povinné
 
-\- je organizováno prostřednictvím nezávislých zdravotních pojišťoven
-
-\- poskytuje se –
+- je organizováno prostřednictvím nezávislých zdravotních pojišťoven
+- poskytuje se –
 
 - PREVENCE \(preventivní péče, kontroly\)
 - LEKÁŘSKÁ PÉČE \(pobyt\)

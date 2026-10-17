@@ -27,32 +27,32 @@ __Tahem__
 
 - je způsobena stejně velkými silami opačného směru, které leží na jedné přímce a působí ven z tělesa
 
-<img src="/images/content/fyzika/deformace-pevneho-telesa/01.webp" alt="" width="294" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/deformace-pevneho-telesa/01.webp" alt="Ilustrace: Deformace pevného tělesa" width="294" loading="lazy" decoding="async">
 
 __Tlakem__
 
 - je způsobena stejně velkými silami opačného směru, které leží na jedné přímce a působí dovnitř tělesa
 
-<img src="/images/content/fyzika/deformace-pevneho-telesa/02.webp" alt="" width="296" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/deformace-pevneho-telesa/02.webp" alt="Ilustrace: Deformace pevného tělesa" width="296" loading="lazy" decoding="async">
 
  __Ohybem__
 
 - horní vrstva je deformována tlakem a spodní tahem, prostřední vrstva se nemění
 
-<img src="/images/content/fyzika/deformace-pevneho-telesa/03.webp" alt="" width="256" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/deformace-pevneho-telesa/03.webp" alt="Ilustrace: Deformace pevného tělesa" width="256" loading="lazy" decoding="async">
 
  __Smykem__
 
 - síly působí rovnoběžně s horní i dolní podstavou, vrstvy tělesa se navzájem posouvají
 
-<img src="/images/content/fyzika/deformace-pevneho-telesa/04.webp" alt="" width="318" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/deformace-pevneho-telesa/04.webp" alt="Ilustrace: Deformace pevného tělesa" width="318" loading="lazy" decoding="async">
 
  __Kroucením__
 
 - je vyvolána dvěma silovými dvojicemi, které způsobují otáčení válce opačným směrem
 - např. šrouby po dobu utahování, vrtáky při   vrtání
 
-<img src="/images/content/fyzika/deformace-pevneho-telesa/05.webp" alt="" width="337" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/deformace-pevneho-telesa/05.webp" alt="Ilustrace: Deformace pevného tělesa" width="337" loading="lazy" decoding="async">
 
 __Pozn.__
 
@@ -87,7 +87,7 @@ __E__   … látková konstanta, __Youngův modul pružnosti__ v tahu, \[E\] = P
 
 $\Delta l$ … rozdíl původní délky __l1__ a koncové délky __l__
 
-<img src="/images/content/fyzika/deformace-pevneho-telesa/12.webp" alt="" width="450" loading="lazy" decoding="async"><img src="/images/content/fyzika/deformace-pevneho-telesa/13.webp" alt="" width="483" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/deformace-pevneho-telesa/12.webp" alt="Ilustrace: Hookův zákon" width="450" loading="lazy" decoding="async"><img src="/images/content/fyzika/deformace-pevneho-telesa/13.webp" alt="Ilustrace: Hookův zákon" width="483" loading="lazy" decoding="async">
 
 =křivka deformace
 
@@ -105,7 +105,7 @@ $$\Delta l = \alpha \cdot l_1 \cdot \Delta t$$
 
 $$l = l_1 \left[1 + \alpha (t - t_1)\right]$$
 
-<img src="/images/content/fyzika/deformace-pevneho-telesa/16.webp" alt="" width="390" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/deformace-pevneho-telesa/16.webp" alt="Ilustrace: Délková teplotní roztažnost" width="390" loading="lazy" decoding="async">
 
 __α__ – __konstanta úměrnosti α__ je pro každou látku materiálovou konstantou. Nazývá se __teplotní součinitel délkové roztažnosti__ a má jednotku __K-1__
 
@@ -127,4 +127,4 @@ $$V = V_1 \left[1 + \beta (t - t_1)\right]$$
 - mezery mezi spoji vlakových kolejí brání zohýbání kolejí v létě
 - špatně chlazený píst v motoru se může zadřít
 
-<img src="/images/content/fyzika/deformace-pevneho-telesa/19.webp" alt="" width="272" loading="lazy" decoding="async"><img src="/images/content/fyzika/deformace-pevneho-telesa/20.webp" alt="" width="287" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/deformace-pevneho-telesa/19.webp" alt="Ilustrace: Teplotní roztažnost pevných látek v praxi" width="272" loading="lazy" decoding="async"><img src="/images/content/fyzika/deformace-pevneho-telesa/20.webp" alt="Ilustrace: Teplotní roztažnost pevných látek v praxi" width="287" loading="lazy" decoding="async">

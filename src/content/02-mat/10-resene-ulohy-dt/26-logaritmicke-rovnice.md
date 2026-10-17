@@ -2,6 +2,7 @@
 title: "Logaritmické rovnice"
 order: 26
 source: "Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/26) Logaritmické rovnice.pdf"
+formulaRail: false
 hasExercises: true
 ---
 

@@ -36,4 +36,4 @@ Dialogy, improvizace, hyperbola
 **Kompozice:**
 \-hra o 3 dějství, komedie, chronologický děj, hra končí happy endem, přirovnání, personifikace
 
-__<img src="/images/content/cj/rozbor-knih-a-cetba/carlo-goldoni-sluha-dvou-panu/01.webp" alt="" width="664" loading="lazy" decoding="async">__
+__<img src="/images/content/cj/rozbor-knih-a-cetba/carlo-goldoni-sluha-dvou-panu/01.webp" alt="Ilustrace: Carlo Goldoni - Sluha Dvou Pánu" width="664" loading="lazy" decoding="async">__

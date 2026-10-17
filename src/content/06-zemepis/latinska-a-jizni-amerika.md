@@ -3,9 +3,8 @@ title: "Latinská a Jižní Amerika"
 order: 13
 source: "Zeměpis/Zeměpis GLP/13. Latinská a Jižní Amerika.docx"
 ---
-# __Latinská a Jižní Amerika__
 
-## Latinská Amerika
+### Latinská Amerika
 
 - Pevninská část: od Tehuantepecké po Panamskou šíji
 - Na ostrovech větší hustota zalidnění
@@ -22,7 +21,7 @@ source: "Zeměpis/Zeměpis GLP/13. Latinská a Jižní Amerika.docx"
 - Vysoký přirozený přírůstek
 - vysoká negramotnost
 
-### Pevninská část
+#### Pevninská část
 
 - Západ je hornatý – pás Kordillér
 - Na východě nížiny
@@ -50,7 +49,7 @@ source: "Zeměpis/Zeměpis GLP/13. Latinská a Jižní Amerika.docx"
 
 \-britská kolonie
 
-### Ostrovní část
+#### Ostrovní část
 
 - Bahamy, Velké Antily, Malé Antily
 - Nížinatý povrch
@@ -61,7 +60,7 @@ source: "Zeměpis/Zeměpis GLP/13. Latinská a Jižní Amerika.docx"
 - Původně zde byly tropické deštné pralesy – vykáceny
 - Druhotná savana – zemědělství
 
-### Mexiko
+#### Mexiko
 
 - Federace
 - Úřední jazyk: španělština
@@ -94,7 +93,7 @@ Poloostrovy Yucatan – tropické vlhké – tropické deštné pralesy
 - Rybolov
 - 1/3 obyvatel Indiáni \(Mayové, Aztékové\) a mestici
 
-### Kuba
+#### Kuba
 
 - Největší ostrov Velkých Antil
 - Pevninský p\.
@@ -108,7 +107,7 @@ Poloostrovy Yucatan – tropické vlhké – tropické deštné pralesy
 - Úřední jazyk: španělština
 - Španělé v podstatě vyhubili původní obyvatelstvo
 
-### Hispaniola
+#### Hispaniola
 
 - ¼ zaujímá Haiti, ¾ Dominikánská rep\.
 - Dominikánská republika
@@ -124,7 +123,7 @@ Poloostrovy Yucatan – tropické vlhké – tropické deštné pralesy
 - Průmysl: potravinářský
 - Francouzština
 
-### Jamajka
+#### Jamajka
 
 - Dříve o toto území soupeřili VB a F
 - Angličtina
@@ -134,7 +133,7 @@ Poloostrovy Yucatan – tropické vlhké – tropické deštné pralesy
 - Dříve se zde nacházela města pirátů – Port Royal
 - Pěstuje se: kokosová palma, káva, banány, cukr\. třtina
 
-### Bahamy
+#### Bahamy
 
 - souostroví, kolem 700 ostrovů
 - subtropické klima
@@ -145,7 +144,7 @@ Poloostrovy Yucatan – tropické vlhké – tropické deštné pralesy
 - cestoví ruch, bankovnictví
 - angličtina
 
-### Malé Antily
+#### Malé Antily
 
 - tropická oblast
 - pěstuje se: tabák, koření, cukr\. třtina
@@ -155,9 +154,9 @@ Poloostrovy Yucatan – tropické vlhké – tropické deštné pralesy
 - Trinidad a Tobago 40% Indové
 - vysoké HDP – prosperující
 
-## Jižní Amerika
+### Jižní Amerika
 
-### Brazílie
+#### Brazílie
 
 - největší stát JA, 5\. na světě
 - sousedí se všemi státy kromě Chile a Ekvádoru
@@ -186,7 +185,7 @@ Poloostrovy Yucatan – tropické vlhké – tropické deštné pralesy
 - rybolov
 - cestovní ruch
 
-### Argentina
+#### Argentina
 
 - bývalá španělská kolonie
 - argentum = stříbro
@@ -205,7 +204,7 @@ Poloostrovy Yucatan – tropické vlhké – tropické deštné pralesy
 - pěstuje se: obilí, kukuřice, sója, slunečnice
 - chov: skot, ovce
 
-### Chile
+#### Chile
 
 - Andy na západním pobřeží
 - velký stát, jen 15 000 ob\. kvůli rostlinným podmínkám
@@ -223,7 +222,7 @@ Poloostrovy Yucatan – tropické vlhké – tropické deštné pralesy
 - rybolov
 - pěstuje se: vinná réva, citrusy
 
-### Uruguay
+#### Uruguay
 
 - 2\. nejmenší stát JA
 - španělština
@@ -239,7 +238,7 @@ Poloostrovy Yucatan – tropické vlhké – tropické deštné pralesy
 - pěstuje se: proso, pšenice, slunečnice, sója, kukuřice
 - chov: skot, koně, ovce, prasata, vývoz: vlna, kůže
 
-### Paraguay
+#### Paraguay
 
 - vnitrozemský s\.
 - obyvatelstvo: Indiáni, potomci kolonizátorů
@@ -252,7 +251,7 @@ Poloostrovy Yucatan – tropické vlhké – tropické deštné pralesy
 - vývoz: elektřina, kterou získávají díky prudkým řekám
 - chov: skot, koně, prasata
 
-### Bolívie
+#### Bolívie
 
 - 2 hlavní města: La Paz – administrativně, Sucre – oficiálně
 - členitý reliéf – roviny, na západě Andy
@@ -266,7 +265,7 @@ Poloostrovy Yucatan – tropické vlhké – tropické deštné pralesy
 - NB: barevné kovy, železná ruda
 - těžba dřeva
 
-### Peru
+#### Peru
 
 - velkou část území pokrývají Andy
 - na západě jsou pobřežní nížiny
@@ -284,7 +283,7 @@ Poloostrovy Yucatan – tropické vlhké – tropické deštné pralesy
 - NB: zlato, stříbro, cín, měď
 - těžba dřeva
 
-### Ekvádor
+#### Ekvádor
 
 - malý stát na rovníku
 - název pochází právě od rovníku
@@ -300,7 +299,7 @@ Poloostrovy Yucatan – tropické vlhké – tropické deštné pralesy
 - těžba dřeva
 - rybolov
 
-### Kolumbie
+#### Kolumbie
 
 - Andy zde tvoří 3 pásy – západní, centrální a východní Kordiléry
 - směrem na východ se snižují v Amazonskou nížinu
@@ -319,7 +318,7 @@ Poloostrovy Yucatan – tropické vlhké – tropické deštné pralesy
 - slabá vláda – vytvářely se komunistické skupiny
 - Pablo Escobar
 
-### Venezuela
+#### Venezuela
 
 - Guyanská vysočina a Orinocká nížina
 - Karibské moře s Venezuelským zálivem
@@ -330,7 +329,7 @@ Poloostrovy Yucatan – tropické vlhké – tropické deštné pralesy
 - hyperinflace, kriminalita
 - masová migraci, korupce, nedostatek potravin a léků, nezaměstnanost
 
-### Guyana, Surinam, Francouzská Guyana
+#### Guyana, Surinam, Francouzská Guyana
 
 - bývalé kolonie
 - malé státy

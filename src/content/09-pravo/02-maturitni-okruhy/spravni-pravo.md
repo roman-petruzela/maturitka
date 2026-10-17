@@ -3,7 +3,7 @@ title: "Správní právo"
 order: 14
 source: "Právo/14. Správní právo/14_spravni_pravo.docx"
 ---
-# __14. Správní právo__
+## __14. Správní právo__
 
 __SPRÁVNÍ PRÁVO__ je soubor systematicky řazených právních norem sloužící k regulaci vztahů při realizaci výkonu moci ve státě ve sféře veřejné správy. Je právním řádem veřejné správy.
 
@@ -74,12 +74,12 @@ SUBJEKTIVNÍ SPRÁVNÍ PRÁVO
 - Jde o vyjádření správního práva v konkrétním, obsahovém slova smyslu, při existenci představitelně adresného subjektu práva či práv.
 - Jde vždy o aktuální stav, vyjadřující „to co je“
 
-OBJEKTIVNÍ SPRÁVNÍ PRÁVO
+### OBJEKTIVNÍ SPRÁVNÍ PRÁVO
 
 - Jde o vyjádření správního práva v obecném, formálním slova smyslu
 - Jde vždy o aktuální obsah platného právního řádu, vyjadřující „to co býti má“
 
-PŘESTUPEK
+### PŘESTUPEK
 
 - Je správním deliktem, jedná se o zaviněné jednání, jež porušuje nebo ohrožuje zájem společnosti, a je za přestupek výslovně označeno v zákoně.
 
@@ -100,7 +100,7 @@ Systém donucovacích opatření:
 - Propadnutí věci
 - Ochranná opatření (př. omezující opatření, zabrání věci)
 
-Orgány příslušné k vyřizování přestupků jsou
+### Orgány příslušné k vyřizování přestupků jsou
 
 - Obecní úřady a jejich orgány
 - Orgány policie

@@ -30,7 +30,7 @@ Vítězný oblouk
 
 __2. Kontext__
 
-__-__ dílo bylo tvrdě odsouzeno nacisty, Remarque byl označen za literárního zrádce (jeho knihy byly veřejně páleny, protože jeho popis války byl pro militantní režim nevhodný – vydával svědectví o skutečném obrazu, jak to vypadá na frontě) – byl nucen emigrovat do USA
+- dílo bylo tvrdě odsouzeno nacisty, Remarque byl označen za literárního zrádce (jeho knihy byly veřejně páleny, protože jeho popis války byl pro militantní režim nevhodný – vydával svědectví o skutečném obrazu, jak to vypadá na frontě) – byl nucen emigrovat do USA
 - až tento román mu zajistil celosvětový úspěch, hned byla kniha zfilmována (rok na to, pak ještě v 70. letech)
 
 ZTRACENÁ GENERACE

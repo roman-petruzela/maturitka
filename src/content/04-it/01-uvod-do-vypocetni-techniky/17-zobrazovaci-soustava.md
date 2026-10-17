@@ -9,15 +9,13 @@ Zobrazovací soustava je tvořena dvěma základními prvky:
 
 - adaptér kam se vytvořený obraz přenáší → CRT, LCD monitor, dataprojektor
 
-## Zobrazovací soustava
-
 Zobrazovací soustava může pracovat ve dvou základních režimech:
 
 - textový režim
 
 - grafický režim
 
-# Textový režim
+## Textový režim
 
 - Starší možností
 
@@ -31,7 +29,7 @@ Zobrazovací soustava může pracovat ve dvou základních režimech:
 
 - rychlý hardwarově nenáročný režim
 
-# Grafický režim
+## Grafický režim
 
 - Princip - na obrazovce je rozprostřena matice bodů
 
@@ -49,9 +47,9 @@ Zobrazovací soustava může pracovat ve dvou základních režimech:
 
    - čím více má obrazovka pixelů, tím jemněji a pro oko příjemněji kreslí
 
-# Pixel
+## Pixel
 
-# Pixel
+## Pixel
 
 Pixel (picture element)
 
@@ -75,7 +73,7 @@ Pixel (picture element)
 
 - Barevné složky RGB pixelů na LCD obrazovce
 
-# Grafická karta
+## Grafická karta
 
 Karta kreslí obraz – je tak jádrem celé soustavy
 
@@ -85,7 +83,7 @@ Karta kreslí obraz – je tak jádrem celé soustavy
 
    - v podstatě jde o další samostatný počítač
 
-# Hardware grafické karty
+## Hardware grafické karty
 
 - Jádrem je grafický čip GPU(Graphics processor unit)
 
@@ -113,7 +111,7 @@ Karta kreslí obraz – je tak jádrem celé soustavy
 
 - analogový signál vstupuje do monitoru
 
-# Hardware grafické karty
+## Hardware grafické karty
 
 - Pro dosažení maximálního výkonu pracuje celá soustava s co nejvyšším kmitočtem
 
@@ -135,7 +133,7 @@ Karta kreslí obraz – je tak jádrem celé soustavy
 
    - standardu PCIe x16 v3 (2020)
 
-# GPU (Graphics Processor unit)
+## GPU (Graphics Processor unit)
 
 - GPU dokážou za jeden takt vytvořit více texelů
 
@@ -155,7 +153,7 @@ Karta kreslí obraz – je tak jádrem celé soustavy
 
       - dosaženo paralelního kreslení a zrychlení tvorby obrazu
 
-# GPU (Graphics Processor unit)
+## GPU (Graphics Processor unit)
 
 - GPU řídicí jednotka grafického adaptéru
 
@@ -185,7 +183,7 @@ Karta kreslí obraz – je tak jádrem celé soustavy
 
 - dnešní karty jsou vybaveny několika pipeline, které dokážou pracovat paralelně
 
-# GPU (Graphics Processor unit)
+## GPU (Graphics Processor unit)
 
 - Charakteristické znaky GPU:
 
@@ -209,7 +207,7 @@ Karta kreslí obraz – je tak jádrem celé soustavy
 
 - podstatná je výrobní technologie mikroprocesoru GPU
 
-# GPU (Graphics Processor unit)
+## GPU (Graphics Processor unit)
 
 - GPU úzce spolupracuje s pamětí grafické karty, její charakteristiky jsou:
 
@@ -221,7 +219,7 @@ Karta kreslí obraz – je tak jádrem celé soustavy
 
    - šířka paměťové sběrnice – od 256 až 320 bitů
 
-# Další obvody grafické karty
+## Další obvody grafické karty
 
 - TV  - Output (televizní výstup)
 
@@ -237,7 +235,7 @@ Karta kreslí obraz – je tak jádrem celé soustavy
 
 - DisplayPort  do budoucna nahrazen ThunderBolt portem  ( Mini DisplayPort)
 
-# API
+## API
 
 - Tvorbu obrazu řídí také ● Dnešní technologie software  nazvaný API – Microsoft DirectX11
 
@@ -269,7 +267,7 @@ Karta kreslí obraz – je tak jádrem celé soustavy
 
 - příkazem dxdiag - – NVIDIA High vyzkoušejte Precision High Dynamic Range
 
-# D-SUB
+## D-SUB
 
 - NVIDIA 3D Vision
 
@@ -291,7 +289,7 @@ Karta kreslí obraz – je tak jádrem celé soustavy
 
 - NVIDIA Quadro G- Sync Solution
 
-# Výstupy
+## Výstupy
 
 - Současné adaptéry běžně disponují konektory
 
@@ -307,7 +305,7 @@ Karta kreslí obraz – je tak jádrem celé soustavy
 
    - Mini-DisplayPort 1.2
 
-# Konektory D-SUB
+## Konektory D-SUB
 
    - standardní analogovým konektorem
 
@@ -321,9 +319,9 @@ Karta kreslí obraz – je tak jádrem celé soustavy
 
    - v LCD-panelu je další převodník z analogového do digitálního signálu
 
-# DVI-I
+## DVI-I
 
-# DVI
+## DVI
 
 - DVI-D (digital only)
 
@@ -352,7 +350,7 @@ Karta kreslí obraz – je tak jádrem celé soustavy
 
 - doporučená délka klasického DVI kabelu je do 4,5 m.
 
-# HDMI
+## HDMI
 
 - High-Definition Multi -media Interface
 
@@ -386,9 +384,9 @@ Karta kreslí obraz – je tak jádrem celé soustavy
   - určen spíše pro kancelářské a IT využití
 
 
-# TV OUT, TV IN
+## TV OUT, TV IN
 
-# TV OUT, TV IN
+## TV OUT, TV IN
 
 - TV OUT je výstupem televizního signálu
 
@@ -400,7 +398,7 @@ Karta kreslí obraz – je tak jádrem celé soustavy
 
    - používá stejné konektory jako TV OUT
 
-# Paralelní spolupráce více grafických  karet - ATI CrossFire
+## Paralelní spolupráce více grafických  karet - ATI CrossFire
 
 - Řešeni firmy ATI pracuje na podobném principu
 
@@ -418,7 +416,7 @@ Karta kreslí obraz – je tak jádrem celé soustavy
 
    - mohou spolupracovat rozdílné karty
 
-# Paralelní spolupráce více grafických karet - SLI
+## Paralelní spolupráce více grafických karet - SLI
 
 - Při paralelní spoluprací dvou grafických karet se rozdělí původních 16 linek PCIe jednoho slotu mezi sloty dva
 
@@ -442,7 +440,7 @@ Karta kreslí obraz – je tak jádrem celé soustavy
 
 - Propojení pomocí „bridge“ modulu
 
-# Monitor CRT
+## Monitor CRT
 
 - Dlouhou dobu byly téměř jediným výstupním zařízením  počítačů PC
 
@@ -464,7 +462,7 @@ Karta kreslí obraz – je tak jádrem celé soustavy
 
 - 8. Detail luminoforové vrstvy, nanesené z vnitřní strany obrazovky
 
-# LCD-displej
+## LCD-displej
 
 - Ve srovnání s CRT mají LCD
 
@@ -478,7 +476,7 @@ Karta kreslí obraz – je tak jádrem celé soustavy
 
    - nedochází ke zkreslování obrazu na okrajích displeje
 
-# Princip
+## Princip
 
 - Činnost LCD displeje (Liquid Crystal Display) je založena na natáčení tekutých krystalů
 
@@ -492,9 +490,9 @@ Karta kreslí obraz – je tak jádrem celé soustavy
 
       - ty světlo bud' nepropustí, utlumí nebo nechají projít
 
-# Princip
+## Princip
 
-# Princip
+## Princip
 
 - Na spodní a horní straně každé buňky jsou umístěny polarizátory
 
@@ -520,7 +518,7 @@ Karta kreslí obraz – je tak jádrem celé soustavy
 
 - bod na displeji zůstane temný
 
-# Technologie výroby LCD - panelů
+## Technologie výroby LCD - panelů
 
 - Existují tři základní technologie výroby LCD panelů
 
@@ -532,7 +530,7 @@ Karta kreslí obraz – je tak jádrem celé soustavy
 
    - technologie VA, MVA, PVA
 
-# Technologie TN (Twisted Nematle)
+## Technologie TN (Twisted Nematle)
 
 - Nejstarší technologie výroby
 
@@ -560,7 +558,7 @@ Karta kreslí obraz – je tak jádrem celé soustavy
 6. Film zlepšující pozorovací úhly
 
 
-# Technologie IPS (in-Plane Switching)
+## Technologie IPS (in-Plane Switching)
 
 - Molekuly tekutých krystalů vyrovnány souběžně se spodní deskou displeje
 
@@ -594,7 +592,7 @@ Karta kreslí obraz – je tak jádrem celé soustavy
 
    - 6-Polarizované světlo
 
-# Technologie OLED
+## Technologie OLED
 
 > ● Mezi průhlednou vrstvou (anoda)  a kovovou vrstvou (katoda) je několik vrstev organické látky:
 
@@ -612,7 +610,7 @@ Karta kreslí obraz – je tak jádrem celé soustavy
 
 - Zásadním problémem OLED displejů je stárnutí světelných bodů
 
-# Technologie VA, MVA. PVA
+## Technologie VA, MVA. PVA
 
 - Řešení postaveno na myšlence orientovat molekuly vertikálně (Vertical Alignment)
 
@@ -638,7 +636,7 @@ Karta kreslí obraz – je tak jádrem celé soustavy
 
    - 5-Tekuté krystaly
 
-# Základní vlastnosti
+## Základní vlastnosti
 
 - Obnovovací frekvence vychází z použité technologie obecně nad 60Hz
 
@@ -656,7 +654,7 @@ Karta kreslí obraz – je tak jádrem celé soustavy
 
 - Modrá 1000 hodin, zelená 10 000 hodin a červená 30 000 hodin
 
-# Dataprojektory
+## Dataprojektory
 
 - Technologie
 
@@ -674,7 +672,7 @@ Karta kreslí obraz – je tak jádrem celé soustavy
 
    - LED
 
-# DLP - Digital Light Processing
+## DLP - Digital Light Processing
 
    - 1987 - vyvinula fy. Texas Instruments
 
@@ -690,11 +688,11 @@ Karta kreslí obraz – je tak jádrem celé soustavy
 
 - Laser
 
-# Jednočipové DLP projektory
+## Jednočipové DLP projektory
 
 - rotující barevné kolo mezi lampou a čipem -  čtyři segmenty – tři primární barvy (červená, modrá a zelená) a jeden zcela průhledný segment pro zesílení jasu
 
-# Tříčipové DLP projektory
+## Tříčipové DLP projektory
 
    - využití hranolu na rozdělení světla z lampy
 
@@ -706,13 +704,13 @@ Karta kreslí obraz – je tak jádrem celé soustavy
 
 - ●
 
-# 3LCD
+## 3LCD
 
 - použití individuálních zdrojů primárních barev – LED
 
 - podstatně omezuje největší problém jednočipového zobrazení - duhový efekt
 
-# 1LCD
+## 1LCD
 
    - pracuje na shodném principu, jako 3LCD
 
@@ -724,7 +722,7 @@ Karta kreslí obraz – je tak jádrem celé soustavy
 
 - Každý je pak samostatně veden třemi optickými soustavami přes miniaturní LCD displeje a po průchodu těmito panely se skládá v obraz v optickém hranolu. Poté je přes zaostřovací optiku vržen na projekční plochu.
 
-# LcoS - Liquid Crystal of Semiconductor
+## LcoS - Liquid Crystal of Semiconductor
 
 - spojení výhod systémů 3LCD i DLP
 
@@ -734,7 +732,7 @@ Karta kreslí obraz – je tak jádrem celé soustavy
 
 - Základ pro další technologie: **SXRD** (Silicon X-tal Reflective Display) od Sony a **D-ILA** (Digital Direct Drive Image Light Amplifier) od JVC.
 
-# Citace
+## Citace
 
 - Lupa.cz
 

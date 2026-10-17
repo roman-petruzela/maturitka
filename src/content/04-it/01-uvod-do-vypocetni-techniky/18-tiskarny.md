@@ -7,9 +7,7 @@ source: "uvt/cv24_tiskarny.pdf"
 
 - 3D tiskárna – tisk objemových objektů z různých materiálů
 
-## Tiskárny
-
-# Dělení dle typu připojení
+## Dělení dle typu připojení
 
 - Paralelní port (dnes již se nepoužívá)
 
@@ -19,7 +17,7 @@ source: "uvt/cv24_tiskarny.pdf"
 
 - Bezdrátové připojení – wifi / bluetooth
 
-# Dělení dle použití
+## Dělení dle použití
 
 - Domácí a malé firmy
 
@@ -31,7 +29,7 @@ source: "uvt/cv24_tiskarny.pdf"
 
    - pro velké formáty tisku
 
-# Dělení dle technologie tisku
+## Dělení dle technologie tisku
 
 - 2D
 
@@ -57,7 +55,7 @@ source: "uvt/cv24_tiskarny.pdf"
 
    - Termotransferové
 
-# Dělení dle technologie tisku
+## Dělení dle technologie tisku
 
 - 3D
 
@@ -69,7 +67,7 @@ source: "uvt/cv24_tiskarny.pdf"
 
    - oddělování materiálu v každé vrstvě (např. LOM
 
-# Příslušenství
+## Příslušenství
 
 - Podavače (z balíku papíru, po listu, z role,…)
 
@@ -85,13 +83,13 @@ source: "uvt/cv24_tiskarny.pdf"
 
 > ● Další informace o 3D tisku až ve 3 roč. v předmětu 3D modelování.
 
-# Parametry tiskáren
+## Parametry tiskáren
 
 - **DPI** (Dot Per Inch) - Počet bodů na palec – určuje rozlišovací schopnost tisku. Typické hodnoty jsou 300 dpi (kancelářské aplikace) až 4800 dpi (tisk fotografií a grafiky).
 
 - **PPM** (Pages Per Minute) - Počet stran za minutu – určuje rychlost tisku. Ta může být rozdílná při tisku textu a grafiky, může též záviset od části plochy papíru či zadané kvality tisku (krytí).
 
-# Jehličková tiskárna – princip činnosti
+## Jehličková tiskárna – princip činnosti
 
    - 1)Tiskárna obsahuje 9 až 24 jehliček.
 
@@ -103,11 +101,11 @@ source: "uvt/cv24_tiskarny.pdf"
 
 - **Picture Bridge** - Tato funkce umožňuje tisknout obrázky a dokumenty přímo z digitálního zařízení, který má označení Picture Bridge.
 
-# ASCII art
+## ASCII art
 
-# Laserová tiskárna – princip činnosti
+## Laserová tiskárna – princip činnosti
 
-#### Jednobarevný tisk - černobílý
+##### Jednobarevný tisk - černobílý
 
 - 1)Tiskový válec - elektricky vodivý válec pokrytý polovodivou selenovou vrstvou.
 
@@ -123,9 +121,9 @@ source: "uvt/cv24_tiskarny.pdf"
 
 - 7)Čištění válce - vybití fotocitlivého válce a může se pokračovat tiskem další strany.
 
-# Laserová tiskárna – princip činnosti
+## Laserová tiskárna – princip činnosti
 
-### ● **Barevný tisk**
+#### ● **Barevný tisk**
 
 - V podstatě je princip stejný jako u černobílého tisku.
 
@@ -133,7 +131,7 @@ source: "uvt/cv24_tiskarny.pdf"
 
 - Jde o subtraktivní (odečítání od bílého pozadí) míchání barev – složením všech barev ve stejném poměru → odstíny šedé. Pro tisk černé barvy je určená samostatná jednotka.
 
-# Inkoustová tiskárna – princip činnosti
+## Inkoustová tiskárna – princip činnosti
 
 - 1)Tiskárna tiskne tak, že tenkými tryskami (průměru cca. 1μm) vystřikují na papír drobné kapičky inkoustu o velikosti 35pl (pikolitr = 10<sup>–12</sup> l).
 
@@ -145,7 +143,7 @@ source: "uvt/cv24_tiskarny.pdf"
 
 - 5)Inkoust je vypuzován z trysek buď tepelně (zahřáním na 200°C) nebo piezoelektricky.
 
-# Citace
+## Citace
 
 - https://cs.wikipedia.org/wiki/Po%C4%8D%C3%ADta%C4
 

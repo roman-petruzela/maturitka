@@ -2,6 +2,7 @@
 title: "Kvadratická rovnice"
 order: 14
 source: "Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/14) Kvadratická rovnice.pdf"
+formulaRail: false
 hasExercises: true
 ---
 

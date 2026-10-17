@@ -55,7 +55,7 @@ __Termíny inventarizací__
 
 __Inventarizační rozdíly a jejich zaúčtování__
 
-<img src="/images/content/ekonomika/ucetnictvi/inventarizace/01.webp" alt="" width="490" loading="lazy" decoding="async">
+<img src="/images/content/ekonomika/ucetnictvi/inventarizace/01.webp" alt="Ilustrace: Inventarizace" width="490" loading="lazy" decoding="async">
 
 __Ověření ocenění majetku__
 

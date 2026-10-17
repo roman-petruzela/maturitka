@@ -4,25 +4,25 @@ order: 15
 source: "robotika1.pol/cv12_4mistny_segmentovy_displej.pdf"
 ---
 
-# 4-místný sedmisegmentový displej
+## 4-místný sedmisegmentový displej
 
 Tento displej použijeme pro vytvoření stopek.
 
 Pokud se použije 4-místný 7-segmentový LED displej, pin “společná anoda nebo katoda“ se používá pro kontrolu zobrazené číslice. Může být tedy zobrazena jenom jedna číslice. Nicméně, protože je to založeno na efektu Persistence of Vision, můžeme vidět čtyři 7-segmentové displeje a všechny budou zobrazovat nějaká čísla. Důvodem je, že elektronická rychlost skenování je příliš vysoká a my tedy nestihneme zaznamenat blikání.
 
-## Budeme potřebovat
+### Budeme potřebovat
 
 1. Arduino Uno (nebo jinou desku). 2. USB kabel. 3. Nepájivé kontaktní pole. 4. Vodiče 5. 4-místný sedmisegmentový displej
 
 6. 8x Odpor 220Ω
 
-## Zapojení
+### Zapojení
 
 <img src="/images/content/it/robotika/4mistny-segmentovy-displej/01.webp" alt="Zapojení 4x7 segmentového displeje" width="567" loading="lazy" decoding="async">
 
 _Obrázek 1: Zapojení 4x7 segmentového displeje_
 
-### Tabulka zapojení pinů
+#### Tabulka zapojení pinů
 
 |4x7 segmentový displej|Arduino|
 |---|---|
@@ -51,11 +51,11 @@ _Obrázek 3: Reálné zapojení 4x7 segmentového displeje_
 
 _Obrázek 4: Jiný pohled na zapojení 4x7 segmentového displeje_
 
-## Instalace knihoven
+### Instalace knihoven
 
 Staženou knihovnu „ _TimerOne_r11.zip_ “ rozbalte do adresáře: „ **C:\Users\uživatelské_jméno\Documents\Arduino\Libraries** “ ještě před kompilací programu.
 
-## Program
+### Program
 
 Do Arduino IDE vložíme kód programu a nahrajeme jej do Arduina:
 
@@ -330,7 +330,7 @@ void add() {
 }
 ```
 
-## Citace:
+### Citace:
 
 Arduino MAXI Starter kit OD BASTLÍŘŮ BASTLÍŘŮM - Lekce 19 Stopky - 4-místný sedmisegmentový displej
 

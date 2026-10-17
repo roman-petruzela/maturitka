@@ -23,7 +23,7 @@ Ideální plyn
 
 1. __Tabulkou (pro daný počet molekul)__
 
-<img src="/images/content/fyzika/stavova-rovnice-idealniho-plynu/01.webp" alt="" width="275" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/stavova-rovnice-idealniho-plynu/01.webp" alt="Ilustrace: Rozdělení molekul ideálního plynu podle rychlosti" width="275" loading="lazy" decoding="async">
 
 (v, v + ∆v) / m.s-1 … zvolené intervaly rychlosti
 
@@ -31,7 +31,7 @@ Ideální plyn
 
 __2.    Histogramem__
 
-<img src="/images/content/fyzika/stavova-rovnice-idealniho-plynu/02.webp" alt="" width="585" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/stavova-rovnice-idealniho-plynu/02.webp" alt="Ilustrace: Rozdělení molekul ideálního plynu podle rychlosti" width="585" loading="lazy" decoding="async">
 
 - Nahodilými srážkami mohou molekuly plynů vzduchu získat i __větší rychlost__, než je __úniková rychlost v gravitačním poli Země__ a uniknou tak ze zemské atmosféry, jejich počet je ale tak malý, že __Země__ svoji __atmosféru__ prakticky __neztrácí__
 
@@ -50,7 +50,7 @@ $$v_k = \sqrt{\frac{3kT}{m_0}}$$
 
 - Ze vztahu pro __střední kvadratickou rychlost__ vyplývá, že molekula ideálního plynu má v důsledku svého neuspořádaného posuvného pohybu __střední kinetickou energii Ek__, pro kterou platí:
 
-   \- jedná se o Ek jedné molekuly plynu
+   - jedná se o Ek jedné molekuly plynu
 
 - Každá molekula ideálního plynu má v důsledku neuspořádaného posuvného pohybu __střední kinetickou energii__, která je přímo úměrná __termodynamické teplotě__ plynu
 - Vztah pro __Ek__ umožňuje vyjádřit __vnitřní energii U__ ideálního plynu s __N jednoatomovými molekulami__, platí tedy:
@@ -64,7 +64,7 @@ $$U = \frac{3}{2} N k T = \frac{3}{2} n R T$$
 - __Tepelný pohyb__ molekul plynu uzavřeného v nádobě má za __následek__ srážky těchto molekul s částicemi vnitřních stěn nádoby, což se projevuje jako __střední tlaková síla F__ plynu na určitou plochu __S__
 - Vztah __p = F/S__ vyjadřuje __střední hodnotu tlaku plynu__, který můžeme změřit manometrem, např. __kapalinovým__
 
-  <img src="/images/content/fyzika/stavova-rovnice-idealniho-plynu/05.webp" alt="" width="256" loading="lazy" decoding="async">
+  <img src="/images/content/fyzika/stavova-rovnice-idealniho-plynu/05.webp" alt="Ilustrace: Tlak plynu" width="256" loading="lazy" decoding="async">
 
 - __Tlak ideálního plynu__ je přímo úměrný __hustotě molekul NV = N/V__, __hmotnosti m0__ jedné molekuly a druhé mocnině __střední kvadratické rychlosti vk__, matematicky tuto závislost vyjadřuje základní rovnice pro tlak ideálního plynu
 
@@ -127,7 +127,7 @@ p1V1/T1 = p2V2/T2
 - __Neboli__: Tlak ideálního plynu při izotermickém ději je nepřímo úměrný jeho objemu.
 - Graf vyjadřující tlak plynu __stálé hmotnosti__ jako funkci jeho objemu při izotermickém ději se nazývá __izoterma__
 - Při izotermickém ději je __ΔU = 0__ a z __prvního termodynamického zákona__ vyplývá:
-	- <img src="/images/content/fyzika/stavova-rovnice-idealniho-plynu/07.webp" alt="" width="295" loading="lazy" decoding="async">Teplo __QT__ přijaté ideálním plynem při __izotermickém ději__ je rovno práci __W´__ kterou plyn při tomto ději vykoná: __QT = W´__
+	- <img src="/images/content/fyzika/stavova-rovnice-idealniho-plynu/07.webp" alt="Ilustrace: Izotermický děj s ideálním plynem" width="295" loading="lazy" decoding="async">Teplo __QT__ přijaté ideálním plynem při __izotermickém ději__ je rovno práci __W´__ kterou plyn při tomto ději vykoná: __QT = W´__
 
 pV diagram
 
@@ -139,7 +139,7 @@ pV diagram
 $$\frac{p}{T} = \text{konst.}$$
 
 - Graf vyjadřující tlak plynu __stálé hmotnosti__ jako funkci jeho __termodynamické teploty__ nebo jeho __objemu__ při izochorickém ději se nazývá __izochora__
-- <img src="/images/content/fyzika/stavova-rovnice-idealniho-plynu/09.webp" alt="" width="264" loading="lazy" decoding="async">Při izochorickém ději __plyn nekoná práci__ a z __prvního termodynamického zákona__ vyplývá:
+- <img src="/images/content/fyzika/stavova-rovnice-idealniho-plynu/09.webp" alt="Ilustrace: Izochorický děj s ideálním plynem" width="264" loading="lazy" decoding="async">Při izochorickém ději __plyn nekoná práci__ a z __prvního termodynamického zákona__ vyplývá:
 	- Teplo __QV__ přijaté ideálním plynem při __izochorickém ději__ se rovná __přírůstku ΔU__ a jeho vnitřní energie: __QV = ΔU = cVmΔT__, kde __cV__ je měrná tepelná kapacita plynu při stálém objemu, __ΔT__ přírůstek teploty.
 
 ## Izobarický děj s ideálním plynem
@@ -149,7 +149,7 @@ $$\frac{p}{T} = \text{konst.}$$
 
       $$\frac{V}{T} = \text{konst.}$$
 
-- <img src="/images/content/fyzika/stavova-rovnice-idealniho-plynu/11.webp" alt="" width="216" loading="lazy" decoding="async">Graf vyjadřující objem plynu __stálé hmotnosti__ jako funkci jeho termodynamické teploty, resp. tlak plynu jako funkci jeho objemu, při __izobarickém ději__ se nazývá __izobara__
+- <img src="/images/content/fyzika/stavova-rovnice-idealniho-plynu/11.webp" alt="Ilustrace: Izobarický děj s ideálním plynem" width="216" loading="lazy" decoding="async">Graf vyjadřující objem plynu __stálé hmotnosti__ jako funkci jeho termodynamické teploty, resp. tlak plynu jako funkci jeho objemu, při __izobarickém ději__ se nazývá __izobara__
 - __Mění se vnitřní energie__ __plynu__ a plyn __koná práci__, tedy dostáváme z __prvního termodynamického zákona:__
 	- Teplo __Qp__ přijaté ideálním plynem při __izobarickém ději__ se rovná součtu přírůstku __ΔU__ jeho vnitřní energie a práce, kterou plyn vykoná.                       __Qp = ΔU + W´= cpmΔT__, kde __cp__ je měrná tepelná kapacita plynu při __stálém tlaku.__
 
@@ -164,4 +164,4 @@ Adiabatický děj s ideálním plynem (= Poissonův zákon)
 - __Poissonova konstanta__ závisí na druhu plynu a její hodnoty pro různé plyny jsou uvedeny v MFChT
 - Graf vyjadřující tlak plynu __stálé hmotnosti__ jako funkci jeho objemu při adiabatickém ději se nazývá __adiabata__
 
-<img src="/images/content/fyzika/stavova-rovnice-idealniho-plynu/12.webp" alt="" width="249" loading="lazy" decoding="async">
+<img src="/images/content/fyzika/stavova-rovnice-idealniho-plynu/12.webp" alt="Ilustrace: Izobarický děj s ideálním plynem" width="249" loading="lazy" decoding="async">

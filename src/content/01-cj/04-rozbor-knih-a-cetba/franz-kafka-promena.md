@@ -3,11 +3,10 @@ title: "Franz Kafka - Proměna"
 order: 27
 source: "ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Franz Kafka - Proměna/Franz Kafka - Proměna - upravené.docx"
 ---
-# Franz Kafka – Proměna
 
 (Můžete začít až na stránce 3, v první části píšu o Kafkově životě.)
 
-## <a id="_Toc26429976"></a>Údaje o narození a smrti, místo, rodina
+### <a id="_Toc26429976"></a>Údaje o narození a smrti, místo, rodina
 
 - \*3. 7. 1883 Praha
 - †3. 6. 1924 Rakousko
@@ -16,21 +15,21 @@ source: "ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Franz Kaf
 - Narozen v rodině židovského velkoobchodníka s galanterií
 - Měl dva bratry, kteří zemřeli v dětství a tři sestry, které zemřely v koncentračních táborech.
 
-### <a id="_Toc26429977"></a>Mládí, studie
+#### <a id="_Toc26429977"></a>Mládí, studie
 
 - Studoval na gymnáziu na Malé straně
 - Mezi roky 1901 – 1906 studoval právo na Karlo-Ferdinandově univerzitě
 - Začal pracovat v pojišťovně, ale byl zde velice nešťastný
 - Franz navázal vztah s několika ženami, ale nikdy se s žádnou neoženil
 
-### <a id="_Toc26429978"></a>Další život
+#### <a id="_Toc26429978"></a>Další život
 
 - Důležitá žena v jeho životě se jmenovala Milena Jesenská, přeložila jeho první díla do češtiny
 	- Přátelila se s Kafkou celý jeho život
 	- Viděli se jen dvakrát, ale udržovali spolu korespondenční styk
 - Roku 1917 onemocněl tuberkulózou
 
-# <a id="_Toc26429979"></a>Díla autora
+## <a id="_Toc26429979"></a>Díla autora
 
 - Obecná charakteristika díla
 	- na díla i na sebe kladl vysoké nároky, proto za jeho života vyšla pouze jedna desetina všech děl
@@ -59,21 +58,21 @@ Josef je zatčen, není známo proč. Soudy jsou vedeny o něm, bez něj. Dva mu
 
 Zeměměřič K. dostane práci na zámku. Ve vesnici u zámku bydlí, ale zámek nikdy nenajde, ani se mu nepodaří kontaktovat nikoho ze zámku. Konec je otevřený
 
-# <a id="_Toc26429980"></a>Proměna
+## <a id="_Toc26429980"></a>Proměna
 
-## <a id="_Toc26429981"></a>Úryvek z knihy
+### <a id="_Toc26429981"></a>Úryvek z knihy
 
 Když se Řehoř Samsa jednou ráno probudil z nepokojných snů, shledal, že se v posteli proměnil v jakýsi nestvůrný hmyz...
 
 Největší okamžité zlepšení situace jim ovšem jistě snadno přinese změna bytu; vezmou si teď menší a levnější a přitom lépe položený a vůbec praktičtější byt, než je nynější, který vybíral ještě Řehoř. Jak si tak povídali, zadívali se pan a paní Samsovi na svou čím dál čilejší dceru a skoro zároveň je napadlo, jak za poslední dobu přes všechno soužení, od něhož jí pobledly tváře, rozkvetla v krásnou a kyprou dívku. Umlkli, a dorozumívajíce se skoro nevědomky pohledy, pomysleli si, že bude teď načase, aby pro ni také vyhledali hodného muže. A připadalo jim jako dotvrzení jejich nových snů a dobrých úmyslů, když u cíle jejich cesty dcera prví vstala a protáhla své mladé tělo.
 
-## <a id="_Toc26429982"></a>Děj
+### <a id="_Toc26429982"></a>Děj
 
 Řehoř Samsa se jednou ráno probudil a zjistil, že se proměnil ve velký hmyz. Nestihl tedy vlak a nesplnil pracovní úkol. Učil se používat svoje nové tělo. Když se rodina dostala do jeho pokoje, zděsila se. Jediná sestra se o něj nejdříve starala, pomáhala mu, nosila mu jídlo, ale po nějaké době v něm přestala vidět svého bratra a viděla v něm jenom hmyz. Řehoř myslel a cítil jako člověk, proměna byla pouze tělesná. Markéta s matkou odklízely nábytek v Řehořově pokoji, Řehoř se nechtěl vzdát svého oblíbeného obrazu. Když matka viděla Řehoře, ulekla se a omdlela. Markéta běžela pro esenci, aby matku vzkřísila. Řehoř běžel za sestrou, aby jí poradil, kterou lahvičku má vzít a přitom byl trošku poraněn střepem z lahvičky, která Markétě spadla. Když přišel otec, myslel si, že se Řehoř dopustil násilí. Otec po něm házel jablka a jedno jablko ho velmi zranilo. Řehoř vyděsil svým vzhledem i uklízečku a muže, kterým rodina z finančních důvodů pronajala byt. Řehoř pochopil, že všem překáží a nechtěl být na obtíž. Zemřel. Z jeho smrti měli všichni radost a zapomněli na něj.
 
-## <a id="_Toc26429983"></a>Analýza uměleckého textu
+### <a id="_Toc26429983"></a>Analýza uměleckého textu
 
-### <a id="_Toc26429984"></a>Část první
+#### <a id="_Toc26429984"></a>Část první
 
 - Téma a motiv:
 
@@ -98,7 +97,7 @@ Děj je psán chronologicky, členěn do odstavců, gradace v konci příběhu.
 	- novela,
 	- epika.
 
-### <a id="_Toc26429985"></a>Část druhá
+#### <a id="_Toc26429985"></a>Část druhá
 
 - Vypravěč:
 	- Dílo je psáno er-formou
@@ -110,14 +109,14 @@ Děj je psán chronologicky, členěn do odstavců, gradace v konci příběhu.
 - Typy promluv:
 	- převážně monology
 
-### <a id="_Toc26429986"></a>Část třetí
+#### <a id="_Toc26429986"></a>Část třetí
 
 - Styl a jazyk: věcný, přísně racionální
 - Funkce, tropy, figury:
 	- funkce je výchovná,
 	- figury a tropy dílo nemá
 
-## <a id="_Toc26429987"></a>Literárně historický kontext
+### <a id="_Toc26429987"></a>Literárně historický kontext
 
 - Kontext autorovy tvorby:
 
@@ -135,7 +134,7 @@ Odcizení člověka ve světě i mezi nejbližšími.
 
 Dílo je racionální, styl je věcný a byl mi blízký.
 
-# <a id="_Toc26429988"></a>Divadelní nebo filmové zpracování
+## <a id="_Toc26429988"></a>Divadelní nebo filmové zpracování
 
 - Dílo nemá filmové zpracování.
 - Dílo má divadelní zpracování.

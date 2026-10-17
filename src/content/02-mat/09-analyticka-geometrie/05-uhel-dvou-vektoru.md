@@ -13,8 +13,6 @@ hasExercises: true
 
 $$\vec u\cdot\vec v = u_1v_1 + u_2v_2$$
 
-## Úhel dvou vektorů
-
 Skalární součin souvisí s úhlem $\varphi$, který vektory svírají, vztahem $\vec u\cdot\vec v = |\vec u|\cdot|\vec v|\cdot\cos\varphi$ — odtud se odvozuje vzorec pro výpočet úhlu:
 
 $$\cos\varphi = \frac{\vec u\cdot\vec v}{|\vec u|\cdot|\vec v|}$$

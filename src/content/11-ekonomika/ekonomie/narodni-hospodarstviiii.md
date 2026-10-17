@@ -62,7 +62,7 @@ HDP = mzdy + zisk + renta + nepřímé daně + odpisy
 - Výpočet HDP dále závisí na cenách zboží a služeb
 - Počítá se jako nominální HDP nebo reálný HDP (ceny jsou očištěny od inflace)
 
-Druhy cen
+### Druhy cen
 
 - nominální – v běžných cenách určitého roku
 - reálná – ve státních cenách k určitému roku
@@ -72,7 +72,7 @@ __Hospodářský cyklus__
 - vyjadřuje vývoj ekonomiky, nikdy nemá stejný vývoj, každá země má svůj hospodářský cyklus nezávisle na ostatních s výjimkou hospodářské krize ve 30. letech 20. století a finanční krize na počátku 21. století
 - 4 fáze – expanze, konjunktura, krize, deprese
 
-Expenze
+### Expanze
 
 - roste hodnota HDP
 - roste nabídka i poptávka
@@ -83,14 +83,14 @@ konjunktura
 - firmy stále vyrábějí více statků a služeb, ale domácnosti jsou už nasyceny
 - zpomaluje se tempo růstu HDP
 
-Krize
+### Krize
 
 - firmy mají odbytové, zboží se jim hromadí na skladech
 - zisk klesá
 - klesá nabídka i poptávka
 - roste nezaměstnanost
 
-Deprese
+### Deprese
 
 - firmy minimalizují své náklady
 - snižují ceny
@@ -155,11 +155,11 @@ __druhy nezaměstnanosti:__
 
 MÍRA NEZAMĚSTNANOSTI =
 
-1. __Ekonomické ztráty__
+#### 1. Ekonomické ztráty
 
 - Ekonomika nevyrábí na hranici svých produkčních možností a dosažených HDP je tedy zbytečně nižší
 
-1. __Sociální dopady__
+#### 2. Sociální dopady
 
 - Hlavně dlouhodobá nezaměstnanost vede ke ztrátě pracovních návyků, špatný příklad pro děti
 - Rodinné problémy, zdravotní problémy
@@ -176,18 +176,18 @@ __Platební bilance__
 - Zahraniční obchod: dovoz a vývoz
 - __Schéma platební bilance je dáno MMF:__
 
-1. __Běžný účet__
+#### 3. Běžný účet
 
 - Dovoz a vývoz zboží
 - Dovoz a vývoz služeb
 - Dovoz a vývoz zisků
 
-1. __Finanční účet__
+#### 4. Finanční účet
 
 - Zahraniční investice
 - Dotace
 
-1. __Devizové rezervy__
+#### 5. Devizové rezervy
 
 __VÝVOZ – DOVOZ = SALDO ZAHRANIČNÍCH OBCHODU__
 
@@ -200,5 +200,5 @@ __VÝVOZ – DOVOZ = SALDO ZAHRANIČNÍCH OBCHODU__
 __Magický čtyř úhelník__
 
 - Diamant
-- Hodnotí souhrnně všechny 4 nejdůležitější makroekonomické ukazatele <img src="/images/content/ekonomika/ekonomie/narodni-hospodarstviiii/01.webp" alt="" width="267" loading="lazy" decoding="async">
+- Hodnotí souhrnně všechny 4 nejdůležitější makroekonomické ukazatele <img src="/images/content/ekonomika/ekonomie/narodni-hospodarstviiii/01.webp" alt="Ilustrace: Devizové rezervy" width="267" loading="lazy" decoding="async">
 - Čím větší tím lepší. 

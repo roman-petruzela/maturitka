@@ -2,6 +2,7 @@
 title: "Slovní úlohy ostatní"
 order: 1
 source: "Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/1) Slovní úlohy ostatní.pdf"
+formulaRail: false
 hasExercises: true
 ---
 

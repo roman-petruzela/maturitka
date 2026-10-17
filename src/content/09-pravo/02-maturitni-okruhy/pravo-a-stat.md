@@ -5,7 +5,7 @@ source: "Právo/1. Právo a stát/pojmy na právo.docx"
 ---
 pojmy na právo
 
-# __Pojmy práva:__
+## __Pojmy práva:__
 
 __Právo:__ Obecně závazné pravidlo chování (souhrn právních norem) stanovené státem a vynutitelné státní mocí.
 

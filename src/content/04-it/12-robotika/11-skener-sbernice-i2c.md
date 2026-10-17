@@ -4,7 +4,7 @@ order: 11
 source: "robotika1.pol/cv09a_skener_sbernice_I2C.pdf"
 ---
 
-# **Skener sběrnice I**<sup>**2**</sup> **C**
+## **Skener sběrnice I**<sup>**2**</sup> **C**
 
 Existují převodníky, které mají jinou adresu než je standardní. Proto je dobré znát, jak skenovat adresy na sběrnici I<sup>2</sup> C.
 
@@ -14,7 +14,7 @@ Program bude skenovat zařízení připojené na I2C sběrnici a pokud bude nale
 
 Zapojovat a odpojovat I2C zařízení lze i za běhu aplikace.
 
-## Budeme potřebovat
+### Budeme potřebovat
 
 1. Arduino Uno (nebo jinou desku).
 
@@ -26,7 +26,7 @@ Zapojovat a odpojovat I2C zařízení lze i za běhu aplikace.
 
 5. I²C zařízení např. I2C LCD displej
 
-## Zapojení
+### Zapojení
 
 Dle obrázku:
 
@@ -45,7 +45,7 @@ _Obrázek 1: Zapojení LCD displaye na Arduino na sběrnici I2C_
 
 _Obrázek 2: Připojení Arduina na LCD display_
 
-## Program
+### Program
 
 Do Arduino IDE vložíme kód programu a nahrajeme jej do Arduina:
 
@@ -103,7 +103,7 @@ PO spuštění programu se na sériovém monitoru objeví nalezené zařízení 
 
 _Obrázek 3: Výstup na sérovém monitoru_
 
-## Citace:
+### Citace:
 
 Arduino MAXI Starter kit OD BASTLÍŘŮ BASTLÍŘŮM - Lekce 5 Používaní skaneru sběrnicí I²C, str. 12
 

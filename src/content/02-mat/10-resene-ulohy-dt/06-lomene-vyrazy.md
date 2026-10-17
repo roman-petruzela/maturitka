@@ -2,6 +2,7 @@
 title: "Lomené výrazy"
 order: 6
 source: "Matematika/řešené postupy matematických okruhů z DT 2010 - 2017/6) Lomené výrazy.pdf"
+formulaRail: false
 hasExercises: true
 ---
 
