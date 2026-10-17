@@ -43,8 +43,6 @@ Do rozhraní pro SQL se následně dostaneme ve webovém prohlížeči na adrese
 
 Žlutá: Panel s databázemi a tlačítko pro vytvoření nové databáze. Červená: Porovnávání (collation). Nastavit **uft8_czech_ci** , pro česká data, která v hodinách používáme. **Důležité!**
 
-LADISLAV KOŽEJ 1
-
 **<u>Rozhraní pro tvorbu SQL queries: part 1</u>**
 
 Označíme tabulku v _Panelu s databázemi_ , klikneme v horním panelu na záložku **SQL** . Obrazovka obsahuje tlačítka na automatické vygenerování **DML query** a panel se sloupci v dané tabulce.
@@ -52,8 +50,6 @@ Označíme tabulku v _Panelu s databázemi_ , klikneme v horním panelu na zálo
 _Toto rozhraní bychom používat_ **_neměli._**
 
 ###### <u>Rozhraní pro tvorbu SQL queries: part 2</u>
-
-LADISLAV KOŽEJ 2
 
 Při kliknutí na databázi ( _2it_ ) a na záložku **SQL** , se zobrazí prostředí pro tvorbu query.
 
@@ -77,8 +73,6 @@ Až budete mít databázi vytvořenou, připojíte se k ní dvojklikem. Zpočát
 
 ###### <u>Vytvoření databáze pgAdmin III:</u>
 
-LADISLAV KOŽEJ 3
-
 Klikneme pravým tlačítkem na **Databáze** , objeví se menu a vybereme **Nová databáze…** .
 
 Z daných polí nás bude zajímat zatím akorát **Název** v prvním obrázku, **Kódování, Porovnávání** a **Klasifikace znaků** v obrázku druhém. Kódování by mělo být defaultně na **UTF8** a porovnává české ( **Czech_Czech Republic.1250** ). Zbytek se nastaví automaticky.
@@ -86,8 +80,6 @@ Z daných polí nás bude zajímat zatím akorát **Název** v prvním obrázku,
 **<u>Vytvoření databáze pgAdmin 4:</u>**
 
 První čeho si všimneme v prostředí, je grafický upgrade. Pocit nadšení je však brzy nahrazen pocitem zklamání, že kvůli designu byla obětována Windows vyskakovací okna a panely. Nyní už nejde mít jakékoliv vyskakovací okno mimo okno hlavní, takže pokud hlavní okno minimalizujeme, minimalizujeme i všechna ostatní okna aplikace. Další důležitou změnu je monitoring na panelu **Dashboard** , kterou zatím nevyužijeme.
-
-LADISLAV KOŽEJ 4
 
 Většina ostatních věcí zůstala stejná, pro vytvoření databáze se podívejte o kousek výše na **pgAdmin III** .
 
@@ -129,8 +121,6 @@ registered datetime NOT NULL CURRENT_TIMESTAMP
 );
 ```
 
-LADISLAV KOŽEJ 5
-
 ##### PostgreSQL
 
 ```
@@ -171,8 +161,6 @@ PostgreSQL `CREATE TABLE cars ( id_car serial, spz varchar(10) NOT NULL, PRIMARY
 ALTER TABLE cars
 ```
 
-LADISLAV KOŽEJ 6
-
 ```
 DROP PRIMARY KEY;
 ALTER TABLE drivers
@@ -186,8 +174,6 @@ ADD COLUMN driver int;
 ALTER TABLE cars
 ADD CONSTRAINT fk_cars_driver FOREIGN KEY (driver) REFERENCES driver(id_driver);
 ```
-
-LADISLAV KOŽEJ 7
 
 ### Úkol 3
 
@@ -237,8 +223,6 @@ jmeno varchar NOT NULL,
 OP int NOT NULL,
 PRIMARY KEY (id_zak));
 ```
-
-LADISLAV KOŽEJ 8
 
 ```
 ALTER TABLE vyjpujcky
@@ -299,8 +283,6 @@ ALTER TABLE vypujcky
 ADD CONSTRAINT fk_vypujcky_voz_id FOREIGN KEY(voz_id) REFERENCES vozidla(id_voz);
 ```
 
-LADISLAV KOŽEJ 9
-
 ### Úkol 4
 
 ###### Vytvořte kódem. Vložte řádky.
@@ -352,8 +334,6 @@ first_name varchar(32) NOT NULL,
 last_name varchar(32) NOT NULL);
 ```
 
-LADISLAV KOŽEJ 10
-
 PostgreSQL `CREATE TABLE students ( id_s serial PRIMARY KEY, first_name varchar(32) NOT NULL, last_name varchar(32) NOT NULL, class int NOT NULL);`
 
 ```
@@ -374,8 +354,6 @@ last_name varchar(32) NOT NULL);
 
 `//TODO: Foreign keys` Spolčený insert, update, delete `INSERT INTO teachers (id_t, first_name, last_name) VALUES (1, 'Jan', 'Novák'), (2, 'Petr', 'Svoboda'), (3, 'Tomáš', 'Dvořák'), (4, 'Pavel', 'Černý'), (5, 'Josef', 'Procházka'), (6, 'Eva', 'Veselá'); INSERT INTO classrooms (code, type, building) VALUES ('228', 2, 1), ('325', 2, 1), ('221', 1, 1), ('C24', 1, 1), ('C3', 1, 1), ('318', 1, 1); INSERT INTO classes (code,year,classroom) VALUES ('ITA',1,4), ('ITB',1,5), ('ITC',1,3), ('ITA',2,3), ('ITB',2,2), ('ITC',2,2); INSERT INTO students (first_name,last_name, class) VALUES ('Michal', 'Popčák', 1), ('Tomáš', 'Jedno', 2), ('Prokop', 'Buben', 3), ('Alois', 'Námořník', 4), ('Josef', 'Nesnesl', 5), ('Michal', 'Trouba', 6); UPDATE classrooms SET code = concat('S', code)`
 
-LADISLAV KOŽEJ 11
-
 ```
 WHERE building = 1;
 ```
@@ -386,8 +364,6 @@ V obou systémech by měl fungovat operátor zřetězení v SQL || (dvě svislí
 DELETE from classrooms
 WHERE type = 2;
 ```
-
-LADISLAV KOŽEJ 12
 
 ### Úkol 5
 
@@ -443,8 +419,6 @@ SELECT price||kč, price/20||'usd', price/24||'eur', price/38||'gbp'
 FROM items;
 ```
 
-LADISLAV KOŽEJ 13
-
 ### Úkol 7
 
 **Vypište maximální plat. Vypište minimální cenu zboží. Vypište počet zaměstnanců z pobočky 4 a 5. Vypište celkový zisk společnosti z objednávek. Vypište celkové náklady na zaměstnance společnosti za měsíc. Vypište počty jednotlivého zboží v objednávkách. Vypište průměrný plat zaměstnanců na pobočku.**
@@ -485,8 +459,6 @@ LADISLAV KOŽEJ 13
 
 **Vypište zákazníka, který nejvíckrát nakoupil u pobočky s nejvyšším průměrným platem. Vypište název pobočky, počet vyřízených objednávek a celkovou částku za ně. Vypište počet objednávek podle jednotlivých měsíců.**
 
-LADISLAV KOŽEJ 14
-
 ### Úkol 14
 
 **Importujte dbStrategy. Uživatele a počet vesnic. Počet uživatelů na jednotlivé guildy. Počet uživatelů na jednotlivé guildy se slovem "war" uvnitř. Počet jednotek v jednotlivé guildě.**
@@ -497,4 +469,3 @@ LADISLAV KOŽEJ 14
 
 **Vypište měsíce názvem, počet registrovaných uživatelů, seřazeno dle pořadí měsíce.**
 
-LADISLAV KOŽEJ 15
