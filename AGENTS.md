@@ -403,6 +403,18 @@ add a new one there when you write such a heading.
 CC-licensed photos must show their credit: `public/images/authors/credits.json` (`{ "<slug>": "<author>,
 <licence>" }`); sources go to `CREDITS.md`.
 
+## Picture viewer (`src/lib/image-viewer.ts`)
+
+A plain picture of an article (`article.topic img:not([class])`, the ones restored from the sources)
+opens on a click — or Enter when focused — in a full-screen `<dialog>`: fitted to the screen (a small
+picture enlarged at most `MAX_FIT` 2.5×), zoomed by the wheel to the cursor, a two-finger pinch, a double
+click (fit ↔ 2.5×), the − / + buttons or keys and `0` to fit again, moved by dragging or the arrow keys
+and never dragged off the screen. Escape, × or a click beside the picture closes it and returns the
+focus. The alt text is shown above it unless it is only the generated "Ilustrace: …". The pictures are
+marked with `data-zoomable`, **not a class** — a class would end their `img:not([class])` card style. A
+picture inside a link keeps the link, one inside an unrevealed spoiler does not open. The module is
+loaded by `BaseLayout.astro` only on a page that has such a picture.
+
 ## Phone layout
 
 Below 1024px the article is one column. Above the text only the category / badges and the folded
