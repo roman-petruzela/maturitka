@@ -1,6 +1,6 @@
 ---
 title: "Národní hospodářství – úvod a členění (shrnutí k testu)"
-order: 31
+order: 1
 source: "1. Národní hospodářství - teorie a schémata 2023-24.docx"
 ---
 
@@ -29,7 +29,7 @@ Hospodářství probíhá ve čtyřech fázích, které na sebe navazují:
 - **stát** – vybírá daně a poskytuje veřejné statky (školy, policie, obrana), svou hospodářskou politikou ovlivňuje ostatní
 - **nadnárodní a celosvětová společenství** (EU, WTO, MMF…) – vztahy se zahraničím
 
-<img src="/images/content/11-ekonomika/ekonomie/narodni-hospodarstvi-uvod-a-cleneni/01.webp" alt="Schéma: domácnosti dávají firmám práci a dostávají mzdu, s firmami si vyměňují zboží a platby za ně; oběma stát vybírá daně a poskytuje veřejné statky; firmy obchodují se zahraničím (export a import)" width="540" loading="lazy" decoding="async">
+<img src="/images/content/11-ekonomika/01-vytah/narodni-hospodarstvi-uvod-a-cleneni/01.webp" alt="Schéma: domácnosti dávají firmám práci a dostávají mzdu, s firmami si vyměňují zboží a platby za ně; oběma stát vybírá daně a poskytuje veřejné statky; firmy obchodují se zahraničím (export a import)" width="540" loading="lazy" decoding="async">
 
 ## Struktura (členění) národního hospodářství
 
@@ -51,7 +51,7 @@ NH se dá rozdělit podle několika hledisek. Na test je dobré umět ke každé
 
 Primární a sekundární sektor patří k výrobním odvětvím, terciární a kvartérní k nevýrobním. Sektory na sobě navzájem závisí – bez surovin není co zpracovat, bez výzkumu a vzdělaných lidí se výroba nezlepšuje.
 
-<img src="/images/content/11-ekonomika/ekonomie/narodni-hospodarstvi-uvod-a-cleneni/02.webp" alt="Rozdělení hospodářských činností: výrobní odvětví (primární a sekundární sektor) a nevýrobní odvětví (terciární a kvartérní sektor), mezi sebou vzájemně podmíněné" width="700" loading="lazy" decoding="async">
+<img src="/images/content/11-ekonomika/01-vytah/narodni-hospodarstvi-uvod-a-cleneni/02.webp" alt="Rozdělení hospodářských činností: výrobní odvětví (primární a sekundární sektor) a nevýrobní odvětví (terciární a kvartérní sektor), mezi sebou vzájemně podmíněné" width="700" loading="lazy" decoding="async">
 
 **Příklad:** Do kterého sektoru patří: výroba bavlněného oblečení, lesní hospodářství, výroba umělých vláken (nanovláken)?
 
@@ -73,7 +73,7 @@ Primární a sekundární sektor patří k výrobním odvětvím, terciární a 
   - nadace a nadační fondy (např. Výbor dobré vůle – Nadace Olgy Havlové, Nadační fond Terezy Maxové)
   - politické strany a hnutí
 
-<img src="/images/content/11-ekonomika/ekonomie/narodni-hospodarstvi-uvod-a-cleneni/03.webp" alt="Schéma subjektů NH: firmy, stát a domácnosti; fyzické osoby (živnosti, jiní podnikatelé, zaměstnanci, občanská sdružení, nadace) a právnické osoby (obchodní společnosti, družstva, státní podniky, státní neziskové organizace, církevní organizace), rozdělené na ziskový a neziskový sektor" width="600" loading="lazy" decoding="async">
+<img src="/images/content/11-ekonomika/01-vytah/narodni-hospodarstvi-uvod-a-cleneni/03.webp" alt="Schéma subjektů NH: firmy, stát a domácnosti; fyzické osoby (živnosti, jiní podnikatelé, zaměstnanci, občanská sdružení, nadace) a právnické osoby (obchodní společnosti, družstva, státní podniky, státní neziskové organizace, církevní organizace), rozdělené na ziskový a neziskový sektor" width="600" loading="lazy" decoding="async">
 
 ### Podle způsobu řízení
 
