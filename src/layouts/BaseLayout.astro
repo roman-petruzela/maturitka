@@ -132,6 +132,10 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 			if (document.querySelector('figure.solid-plot[data-solid]')) {
 				import('../lib/solid-viewer').then((m) => m.initSolidViewers());
 			}
+			// pictures of the text open in a viewer where they can be zoomed
+			if (document.querySelector('article.topic img:not([class])')) {
+				import('../lib/image-viewer').then((m) => m.initImageViewer());
+			}
 			// a formula sheet gets a filter box, on the same terms
 			if (document.querySelector('.formula-sheet')) {
 				import('../lib/formula-filter').then((m) => m.initFormulaFilter());
