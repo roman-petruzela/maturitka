@@ -4,7 +4,7 @@ import assert from 'node:assert/strict';
 import { splitSteps, visualWidth } from '../src/lib/markdown/formula-breaks.ts';
 import { segmentMath } from '../src/lib/markdown/math-segments.ts';
 import { normalize, search, type SearchItem } from '../src/lib/search-match.ts';
-import { cleanLabel } from '../src/lib/rail-formulas.ts';
+import { cleanLabel, isListNotFormula, isNumbersOnly, WORKED_RE } from '../src/lib/rail-formulas.ts';
 import { asksSomething } from '../src/lib/exercises.ts';
 
 test('splitSteps cuts a derivation at its top-level arrows', () => {
@@ -39,6 +39,20 @@ test('search finds a declined form of a title word', () => {
 test('cleanLabel drops numbering and picks the named part of a dash', () => {
 	assert.equal(cleanLabel('2) Goniometrické funkce — sin, cos'), 'Goniometrické funkce');
 	assert.equal(cleanLabel('Obsah — Heronův vzorec:'), 'Heronův vzorec');
+	// a heading that says nothing by itself keeps what follows the dash
+	assert.equal(cleanLabel('Další vlastnosti — diagonály (Fibonacciho posloupnost)'), 'Diagonály');
+});
+
+test('the formula rail leaves out lists of numbers and worked examples', () => {
+	assert.ok(isListNotFormula('1, 1, 2, 3, 5, 8, 13, 21, 34, …'));
+	assert.ok(!isListNotFormula('x_1 = 0, x_2 = 3, x_3 = 5'));
+	assert.ok(!isListNotFormula('a^r · a^s'));
+	assert.ok(isListNotFormula('1, 3, 5, 7, 9, … ∈ ℝ'));
+	assert.ok(isNumbersOnly('2275 : 7 = 325'));
+	assert.ok(!isNumbersOnly('S = πr²'));
+	for (const s of ['Ukázkový příklad', 'Příklady na procvičení', 'Úkol', 'Řešení: D = 169', '2. Příklad'])
+		assert.ok(WORKED_RE.test(s), s);
+	for (const s of ['Kombinační číslo', 'Pythagorova věta', 'Euklidova věta o výšce']) assert.ok(!WORKED_RE.test(s), s);
 });
 
 test('asksSomething tells a task from a line of theory or a solution step', () => {
