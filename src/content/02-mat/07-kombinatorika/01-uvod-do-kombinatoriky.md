@@ -33,6 +33,8 @@ Ke každému ze 4 druhů zmrzliny můžeme přidat kteroukoli ze 3 polev — mo�
 
 $$4 \text{ zmrzliny} \times 3 \text{ polevy} = 12 \text{ možností}$$
 
+**Obecně:** skládá-li se výběr z $k$ kroků za sebou a první krok lze udělat $n_1$ způsoby, druhý (po kterémkoli prvním) $n_2$ způsoby, …, $k$-tý $n_k$ způsoby, je všech možností $n_1\cdot n_2\cdots n_k$. Poznávací znamení: v zadání je „**a**“ (zmrzlina **a** poleva).
+
 ### Kombinatorické pravidlo součtu
 
 I toto pravidlo dokážeme používat na základě úvahy.
@@ -42,6 +44,32 @@ I toto pravidlo dokážeme používat na základě úvahy.
 - Počet všech dvojciferných čísel (10 až 99): **90**
 - Počet dvojciferných čísel se stejnými číslicemi (11, 22, 33, ..., 99): **9**
 - Počet čísel, která vyhovují zadání (odečteme ta se stejnými číslicemi): $90 - 9 = \mathbf{81}$
+
+**Obecně:** rozpadají-li se možnosti na skupiny, které se navzájem nepřekrývají (žádná možnost nepatří do dvou skupin), je všech možností tolik, kolik je součet počtů ve skupinách. Poznávací znamení: v zadání je „**nebo**“ (vybírám jablko **nebo** hrušku). Často je jednodušší spočítat **doplněk** — všechny možnosti minus ty nevyhovující — jako v příkladu výše.
+
+## Který vzorec použít
+
+U každé úlohy si položte tři otázky: **Záleží na pořadí?** **Mohou se prvky opakovat?** **Vybírám všechny prvky, nebo jen některé?**
+
+| Na pořadí záleží? | Opakování? | Vybírám | Typ skupiny | Počet |
+|---|---|---|---|---|
+| ano | ne | $k$ z $n$ | [variace bez opakování](/mat/kombinatorika/02-variace-a-permutace-bez-opakovani/) | $V(k,n) = \dfrac{n!}{(n-k)!}$ |
+| ano | ne | všech $n$ | [permutace](/mat/kombinatorika/02-variace-a-permutace-bez-opakovani/#permutace) | $P(n) = n!$ |
+| ano | ano | $k$ z $n$ | [variace s opakováním](/mat/kombinatorika/05-variace-a-permutace-s-opakovanim/) | $V'(k,n) = n^k$ |
+| ano | stejné prvky | všech $n$ | [permutace s opakováním](/mat/kombinatorika/05-variace-a-permutace-s-opakovanim/#permutace-s-opakováním) | $\dfrac{n!}{n_1!\,n_2!\cdots n_m!}$ |
+| ne | ne | $k$ z $n$ | [kombinace bez opakování](/mat/kombinatorika/04-kombinace-bez-opakovani/) | $C(k,n) = \dbinom{n}{k} = \dfrac{n!}{k!\,(n-k)!}$ |
+| ne | ano | $k$ z $n$ druhů | [kombinace s opakováním](/mat/kombinatorika/05-variace-a-permutace-s-opakovanim/#kombinace-s-opakováním) | $C'(k,n) = \dbinom{n+k-1}{k}$ |
+
+Jak poznat, jestli na pořadí záleží: zkuste dva prvky ve skupině prohodit. Vznikne něco jiného (jiné číslo, jiné pořadí v závodě, jiná vlajka, jiný rozvrh)? Pak na pořadí **záleží**. Je to pořád totéž (stejná komise, stejný zápas, stejná šestice ve Sportce, stejná ruka v kartách)? Pak **nezáleží**.
+
+| Na pořadí záleží — variace, permutace | Na pořadí nezáleží — kombinace |
+|---|---|
+| čísla sestavená z číslic, PIN, heslo | komise, výbor, družstvo vybrané ze třídy |
+| rozdělení medailí, cen, funkcí (předseda, místopředseda) | zápasy „každý s každým“, podání rukou |
+| vlajky z pruhů, rozvrh hodin, pořadí v řadě | losování čísel (Sportka), karty v ruce |
+| rozesazení lidí na židle, přesmyčky slov | přímky, úsečky a trojúhelníky z daných bodů |
+
+Pravidla pro počítání s faktoriály ($0! = 1$, $n! = n\cdot(n-1)!$ …) jsou v tématu [Faktoriál](/mat/kombinatorika/03-faktorial/#pravidla-pro-počítání-s-faktoriály), kombinační čísla, která se vyplatí znát nazpaměť ($\binom{n}{2} = \frac{n(n-1)}{2}$ …), ve [Vlastnostech kombinačních čísel](/mat/kombinatorika/06-vlastnosti-kombinacnich-cisel/#hodnoty-které-se-vyplatí-znát-nazpaměť).
 
 ## Úlohy k procvičení
 
