@@ -1,5 +1,5 @@
 ---
-title: "Variace a permutace s opakováním"
+title: "Variace, permutace a kombinace s opakováním"
 order: 5
 source: "matematika/TY01_0228_Variace_a_permutace_s_opakovanim.pptx"
 tags: ["doplněno"]
@@ -58,10 +58,51 @@ Slovo má 6 písmen: 3× A, 2× N, 1× S ($n=6$, $n_1=3$, $n_2=2$, $n_3=1$):
 
 $$P'(3,2,1) = \frac{6!}{3!\cdot2!\cdot1!} = \frac{720}{6\cdot2\cdot1} = \frac{720}{12} = 60$$
 
+## Kombinace s opakováním
+
+$k$-členná kombinace **s opakováním** z $n$ druhů prvků je skupina $k$ prvků, ve které **nezáleží na pořadí** a prvky se **mohou opakovat** — vybíráme jen, kolik kusů kterého druhu vezmeme. Na rozdíl od kombinace bez opakování tu může být $k > n$ (z 3 druhů koblih lze koupit 5 koblih).
+
+$$C'(k,n) = \binom{n+k-1}{k}$$
+
+Odkud vzorec je: výběr zapíšeme jako řadu $k$ teček (vybrané kusy) a $n-1$ přepážek, které oddělují druhy. Např. výběr 2× jahodová, 0× čokoládová, 1× vanilková je „$\bullet\bullet\,|\,|\,\bullet$“. Každý výběr odpovídá právě jednomu takovému zápisu o $n+k-1$ znacích, a ten je určen tím, na kterých $k$ místech jsou tečky.
+
+### Příklad
+
+Vypište všechny dvoučlenné kombinace s opakováním ze tří prvků $a, b, c$.
+
+$$C'(2,3) = \binom{3+2-1}{2} = \binom{4}{2} = 6$$
+
+aa, bb, cc, ab, ac, bc — celkem 6 (bez opakování by to byly jen ab, ac, bc).
+
+### Příklad 2
+
+V cukrárně prodávají 4 druhy zmrzliny. Kolik různých pohárů se třemi kopečky lze sestavit, jestliže na pořadí kopečků nezáleží a druhy se mohou opakovat?
+
+$$C'(3,4) = \binom{4+3-1}{3} = \binom{6}{3} = 20$$
+
 ## Shrnutí
 
 - Variace s opakováním z $n$ prvků, $k$-členná: $V'(k,n) = n^k$ — na každé pozici je k dispozici všech $n$ prvků.
 - Permutace s opakováním $n$ prvků rozdělených do skupin stejných prvků: $P'(n_1,\ldots,n_m) = \dfrac{n!}{n_1!\cdots n_m!}$.
+- Kombinace s opakováním, $k$-členná z $n$ druhů: $C'(k,n) = \dbinom{n+k-1}{k}$ — vybíráme jen počty kusů jednotlivých druhů.
+
+## Příklady na procvičení
+
+**1.** Kolika způsoby lze koupit 5 koblih, prodávají-li se 3 druhy?
+
+Výsledek: ||kombinace s opakováním: $C'(5,3) = \binom{7}{5} = \binom{7}{2} = 21$||
+
+**2.** Kolik různých výsledků může padnout při hodu dvěma stejnými kostkami (nerozlišujeme, na které kostce co padlo)?
+
+Výsledek: ||$C'(2,6) = \binom{7}{2} = 21$ (15 dvojic různých čísel + 6 dvojic stejných)||
+
+**3.** Kolik různých značek Morseovy abecedy lze sestavit z teček a čárek, má-li značka 1 až 4 znaky?
+
+Výsledek: ||variace s opakováním ze 2 prvků: $2 + 2^2 + 2^3 + 2^4 = 2+4+8+16 = 30$||
+
+**4.** Kolik přesmyček má slovo **KOLOTOČ**?
+
+Výsledek: ||7 písmen, z toho 3× O: $\frac{7!}{3!} = \frac{5040}{6} = 840$||
 
 ## Zdroje
 
