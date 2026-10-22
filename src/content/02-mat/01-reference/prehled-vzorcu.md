@@ -586,7 +586,11 @@ Hodnoty goniometrických funkcí v „hezkých“ úhlech:
 ```formulas
 {
   "items": [
-    {"label": "$n$ faktoriál", "tex": "n! = 1 \\cdot 2 \\cdot 3 \\cdots (n-1) \\cdot n"}
+    {"label": "$n$ faktoriál", "tex": "n! = 1 \\cdot 2 \\cdot 3 \\cdots (n-1) \\cdot n", "note": "jen pro $n \\in \\mathbb{N}_0$"},
+    {"label": "Nula faktoriál", "tex": "0! = 1"},
+    {"label": "Rekurentní vztah", "tex": "n! = n\\cdot(n-1)!"},
+    {"label": "O jedna větší faktoriál", "tex": "(n+1)! = (n+1)\\cdot n!"},
+    {"label": "Podíl dvou faktoriálů", "tex": "\\frac{(n+1)!}{(n-1)!} = (n+1)\\cdot n"}
   ]
 }
 ```
@@ -602,13 +606,14 @@ Hodnoty goniometrických funkcí v „hezkých“ úhlech:
 }
 ```
 
-### [Variace a permutace s opakováním](/mat/kombinatorika/05-variace-a-permutace-s-opakovanim/)
+### [Variace, permutace a kombinace s opakováním](/mat/kombinatorika/05-variace-a-permutace-s-opakovanim/)
 
 ```formulas
 {
   "items": [
     {"label": "Variace s opakováním", "tex": "V'(k,n) = n^k"},
-    {"label": "Permutace s opakováním", "tex": "P'(n_1, n_2, \\ldots, n_m) = \\frac{n!}{n_1! \\cdot n_2! \\cdots n_m!}"}
+    {"label": "Permutace s opakováním", "tex": "P'(n_1, n_2, \\ldots, n_m) = \\frac{n!}{n_1! \\cdot n_2! \\cdots n_m!}"},
+    {"label": "Kombinace s opakováním", "tex": "C'(k,n) = \\binom{n+k-1}{k}"}
   ]
 }
 ```
@@ -621,7 +626,11 @@ Hodnoty goniometrických funkcí v „hezkých“ úhlech:
     {"label": "Krajní hodnoty", "tex": "\\binom{n}{0} = 1", "note": "a také $\\displaystyle \\binom{n}{n} = 1$"},
     {"label": "Symetrie", "tex": "\\binom{n}{k} = \\binom{n}{n-k}"},
     {"label": "Pascalovo pravidlo (součtový vzorec)", "tex": "\\binom{n}{k} = \\binom{n-1}{k-1} + \\binom{n-1}{k}"},
-    {"label": "Součet řádku Pascalova trojúhelníku", "tex": "\\binom{n}{0} + \\binom{n}{1} + \\binom{n}{2} + \\cdots + \\binom{n}{n} = 2^n"}
+    {"label": "Součet řádku Pascalova trojúhelníku", "tex": "\\binom{n}{0} + \\binom{n}{1} + \\binom{n}{2} + \\cdots + \\binom{n}{n} = 2^n"},
+    {"label": "Výběr jednoho prvku", "tex": "\\binom{n}{1} = n"},
+    {"label": "Výběr dvojice", "tex": "\\binom{n}{2} = \\frac{n\\,(n-1)}{2}", "note": "zápasy každý s každým, podání rukou, přímky z $n$ bodů"},
+    {"label": "Výběr trojice", "tex": "\\binom{n}{3} = \\frac{n\\,(n-1)\\,(n-2)}{6}"},
+    {"label": "Počet úhlopříček konvexního $n$-úhelníku", "tex": "u_n = \\frac{n\\,(n-3)}{2}"}
   ]
 }
 ```
