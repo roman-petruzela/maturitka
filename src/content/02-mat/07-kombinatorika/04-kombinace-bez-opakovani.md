@@ -38,6 +38,8 @@ $$C(k,n) = \binom{n}{k} = \frac{n!}{k!\,(n-k)!}$$
 
 Pro náš příklad: $C(3,4) = \dfrac{4!}{3!\cdot1!} = \dfrac{24}{6} = 4$ — souhlasí s počtem sloupců výše.
 
+Ve výpočtu se faktoriály vždy zkrátí: v čitateli zbude $k$ činitelů od $n$ dolů, ve jmenovateli $k!$. Pro dvojice tak vychází $\binom{n}{2} = \frac{n(n-1)}{2}$ — tento a další často používané tvary jsou ve [Vlastnostech kombinačních čísel](/mat/kombinatorika/06-vlastnosti-kombinacnich-cisel/#hodnoty-které-se-vyplatí-znát-nazpaměť).
+
 ## Ukázkový příklad 1
 
 Kolik zápasů se odehraje v turnaji s 10 družstvy, hraje-li každé družstvo s každým jiným právě jednou?
