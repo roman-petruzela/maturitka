@@ -60,9 +60,12 @@ export function isListNotFormula(text: string): boolean {
 	return (t.match(/[,;]/g) ?? []).length >= 2;
 }
 
-/** A computation with numbers only ("2275 : 7 = 325") — no variable, nothing to look up. */
+/**
+ * A computation with numbers only ("2275 : 7 = 325") — no variable, nothing to look up. A factorial
+ * ("0! = 1", "1! = 1") is a definition worth looking up, not a computation.
+ */
 export function isNumbersOnly(text: string): boolean {
-	return !/[\p{L}]/u.test(text) && /=/.test(text);
+	return !/[\p{L}!]/u.test(text) && /=/.test(text);
 }
 
 /**

@@ -164,8 +164,9 @@ Plugins run in this order (`astro.config.mjs`): `remarkLineBreaks` → `remarkPr
   task / worked-example heading ("Ukázkový příklad", "Příklady na procvičení", "Úkol") or right after a
   paragraph starting "Řešení:", "Výsledek:", "**Příklad …:**", "**Například:**" (`WORKED_RE`,
   `inWorkedExample` in `rail-formulas.ts`), and a display that is only a list of numbers ("1, 1, 2, 3,
-  5, …", `isListNotFormula`) or a computation with numbers only ("2275 : 7 = 325", `isNumbersOnly`). Every
-  heading the formula lies under counts, not only the nearest one. A closing "Shrnutí" that repeats
+  5, …", `isListNotFormula`) or a computation with numbers only ("2275 : 7 = 325", `isNumbersOnly`; a
+  factorial such as "0! = 1" is a definition and stays). Every heading the formula lies under counts,
+  not only the nearest one. A closing "Shrnutí" that repeats
   formulas already listed is skipped, and a repeat written with `⋅` / `⟺` instead of nothing / `=` is
   recognised as the same formula. A page made only of worked problems sets `formulaRail: false` in its
   frontmatter (all of `10-resene-ulohy-dt`, `kombinatorika-v-praxi`) and gets no rail. In content, an

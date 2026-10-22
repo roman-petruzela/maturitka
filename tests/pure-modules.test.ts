@@ -50,6 +50,7 @@ test('the formula rail leaves out lists of numbers and worked examples', () => {
 	assert.ok(isListNotFormula('1, 3, 5, 7, 9, … ∈ ℝ'));
 	assert.ok(isNumbersOnly('2275 : 7 = 325'));
 	assert.ok(!isNumbersOnly('S = πr²'));
+	assert.ok(!isNumbersOnly('0! = 1'));
 	for (const s of ['Ukázkový příklad', 'Příklady na procvičení', 'Úkol', 'Řešení: D = 169', '2. Příklad'])
 		assert.ok(WORKED_RE.test(s), s);
 	for (const s of ['Kombinační číslo', 'Pythagorova věta', 'Euklidova věta o výšce']) assert.ok(!WORKED_RE.test(s), s);
