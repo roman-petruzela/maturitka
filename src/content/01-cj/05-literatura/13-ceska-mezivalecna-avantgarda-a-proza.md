@@ -18,7 +18,7 @@ Umělecký svaz **Devětsil** (založen 1920 v Praze z iniciativy Vladislava Van
 
 ### Jan Werich a Jiří Voskovec
 - **Charakteristika:** Tvořili jako komické duo jádro Osvobozeného divadla (spolu s hudebním skladatelem Jaroslavem Ježkem).
-- **Kat a blázen, Balada z hadrů** ([rozbor](/cj/rozbor-knih-a-cetba/jan-werich-balada-z-hadru/ "Rozbor díla Balada z hadrů")): Hry spojovaly aktuální politickou satiru, hudbu a improvizovanou komiku (tzv. forbíny — improvizované vsuvky mezi herci před oponou reagující na denní politické dění).
+- **Kat a blázen, Balada z hadrů** ([rozbor](/cj/archiv/jan-werich-balada-z-hadru/ "Rozbor díla Balada z hadrů")): Hry spojovaly aktuální politickou satiru, hudbu a improvizovanou komiku (tzv. forbíny — improvizované vsuvky mezi herci před oponou reagující na denní politické dění).
 
 **Poetismus** je ryze český umělecký směr — jeho manifesty (Vítězslav Nezval, Karel Teige) vznikly roku 1923. Cílem je dívat se na život jako na báseň, oprostit poezii od politiky a vážnosti, rozvíjet hravost a experiment (např. zrušení interpunkce, nová slova, volný verš); typická jsou témata cirkusu, cestování, dětství a fantazie. Roku 1934 pak Nezval spolu s dalšími poetisty zakládá **Surrealistickou skupinu v ČSR** — poetismus se tak postupně vývojově propojuje se surrealismem (viz [Světová literatura 1. poloviny 20. století](/cj/literatura/12-svetova-mezivalecna-literatura/)), od kterého přebírá zájem o podvědomí a sen, ale i nadále si drží svébytnou, hravější českou podobu.
 
@@ -56,15 +56,15 @@ Umělecký svaz **Devětsil** (založen 1920 v Praze z iniciativy Vladislava Van
 
 ### Karel Čapek
 - **Charakteristika:** Nejvýznamnější český meziválečný spisovatel — dramatik, prozaik, novinář a překladatel; je považován za tvůrce novinářského žánru **fejetonu**.
-- **[R.U.R.](https://cs.wikisource.org/wiki/R.U.R.)** (Rossumovi Univerzální Roboti) ([rozbor](/cj/rozbor-knih-a-cetba/karel-capek-r-u-r/ "Rozbor díla R.U.R.")): Divadelní hra poprvé použila slovo "robot" (vymyslel ho Čapkův bratr Josef) pro uměle vyrobené dělníky, kteří se nakonec vzbouří proti svým tvůrcům — jedno z nejvlivnějších děl světové science fiction.
-- **[Bílá nemoc](https://cs.wikisource.org/wiki/Bílá_nemoc), Matka** ([rozbor](/cj/rozbor-knih-a-cetba/karel-capek-matka-a-bila-nemoc/ "Rozbor díla Bílá nemoc, Matka")): Dramata reagující na hrozbu blížící se 2. světové války a fašismu.
-- **[Válka s Mloky](https://cs.wikisource.org/wiki/Válka_s_mloky)** ([rozbor](/cj/rozbor-knih-a-cetba/karel-capek-valka-s-mloky/ "Rozbor díla Válka s Mloky")): Satirická alegorie na kolonialismus a fašismus (lidstvo vycvičí inteligentní mloky k práci, ti se ale postupně vymknou kontrole).
-- **Povídky z jedné a druhé kapsy** ([rozbor](/cj/rozbor-knih-a-cetba/karel-capek-povidky-z-jedne-a-druhe-kapsy/ "Rozbor díla Povídky z jedné a druhé kapsy")): Ukázka Čapka jako mistra krátké prózy.
+- **[R.U.R.](https://cs.wikisource.org/wiki/R.U.R.)** (Rossumovi Univerzální Roboti) ([rozbor](/cj/archiv/karel-capek-r-u-r/ "Rozbor díla R.U.R.")): Divadelní hra poprvé použila slovo "robot" (vymyslel ho Čapkův bratr Josef) pro uměle vyrobené dělníky, kteří se nakonec vzbouří proti svým tvůrcům — jedno z nejvlivnějších děl světové science fiction.
+- **[Bílá nemoc](https://cs.wikisource.org/wiki/Bílá_nemoc)** ([rozbor](/cj/rozbory-knih/karel-capek-bila-nemoc/ "Rozbor díla Bílá nemoc")), **Matka** ([rozbor](/cj/rozbory-knih/karel-capek-matka/ "Rozbor díla Matka")): Dramata reagující na hrozbu blížící se 2. světové války a fašismu.
+- **[Válka s Mloky](https://cs.wikisource.org/wiki/Válka_s_mloky)** ([rozbor](/cj/archiv/karel-capek-valka-s-mloky/ "Rozbor díla Válka s Mloky")): Satirická alegorie na kolonialismus a fašismus (lidstvo vycvičí inteligentní mloky k práci, ti se ale postupně vymknou kontrole).
+- **Povídky z jedné a druhé kapsy** ([rozbor](/cj/rozbory-knih/karel-capek-povidky-z-jedne-kapsy/ "Rozbor díla Povídky z jedné kapsy")): Ukázka Čapka jako mistra krátké prózy.
 
 ### Jaroslav Havlíček
 - **Charakteristika:** Píše psychologickou prózu se zlými, neradostnými osudy.
 - **Neviditelný:** Román.
-- **Petrolejové lampy** ([rozbor](/cj/rozbor-knih-a-cetba/jaroslav-havlicek-petrolejove-lampy/ "Rozbor díla Petrolejové lampy")):
+- **Petrolejové lampy** ([rozbor](/cj/rozbory-knih/jaroslav-havlicek-petrolejove-lampy/ "Rozbor díla Petrolejové lampy")):
   - **Děj:** Mladá žena je kvůli rodinnému majetku provdána za nemocného, o mnoho staršího muže a její život se postupně mění v pomalé utrpení.
 
 ### Ivan Olbracht
@@ -74,18 +74,18 @@ Umělecký svaz **Devětsil** (založen 1920 v Praze z iniciativy Vladislava Van
 
 ### Karel Poláček
 - **Charakteristika:** Napsal humoristický, ale zároveň citlivý román z dětského pohledu.
-- **[Bylo nás pět](https://cs.wikisource.org/wiki/Bylo_nás_pět)** ([rozbor](/cj/rozbor-knih-a-cetba/karel-polacek-bylo-nas-pet/ "Rozbor díla Bylo nás pět")):
+- **[Bylo nás pět](https://cs.wikisource.org/wiki/Bylo_nás_pět)** ([rozbor](/cj/rozbory-knih/karel-polacek-bylo-nas-pet/ "Rozbor díla Bylo nás pět")):
   - **Děj:** Vypravěčem je malý kluk Petr Bajza a jeho parta kamarádů, autor s láskou i nadhledem zachycuje dětský svět a řeč malých hrdinů.
 
 ### Eduard Bass
 - **Charakteristika:** Autor oblíbené fotbalové pohádky.
-- **[Klapzubova jedenáctka](https://cs.wikisource.org/wiki/Klapzubova_jedenáctka_(1954))** ([rozbor](/cj/rozbor-knih-a-cetba/eduard-bass-klapzubova-jedenactka/ "Rozbor díla Klapzubova jedenáctka")):
+- **[Klapzubova jedenáctka](https://cs.wikisource.org/wiki/Klapzubova_jedenáctka_(1954))** ([rozbor](/cj/archiv/eduard-bass-klapzubova-jedenactka/ "Rozbor díla Klapzubova jedenáctka")):
   - **Děj:** Chudá venkovská rodina jedenácti synů se stane fotbalovým mužstvem, které porazí i mistry světa.
 - **Cirkus Humberto:** Rozsáhlejší román.
 
 ### Zdeněk Jirotka
 - **Charakteristika:** Napsal humoristický román.
-- **Saturnin** ([rozbor](/cj/rozbor-knih-a-cetba/zdenek-jirotka-saturnin/ "Rozbor díla Saturnin")):
+- **Saturnin** ([rozbor](/cj/rozbory-knih/zdenek-jirotka-saturnin/ "Rozbor díla Saturnin")):
   - **Děj:** Vypravěč najme komorníka Saturnina, který ho neustále (a vynalézavě) zatahuje do absurdních dobrodružství, aby unikl nudě všedního života.
   - **Význam:** Jeden z nejoblíbenějších českých humoristických románů.
 

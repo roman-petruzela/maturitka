@@ -38,7 +38,7 @@ source: "Prezentace Klasicismus, osvícenství (archiv literatury), doplněno o 
 
 ### Molière
 - **Charakteristika:** (1622–1673, vlastním jménem Jean-Baptiste Poquelin, Francie) **Nejvýznamnější klasicistní autor** — dramatik, herec, režisér a ředitel divadla; jeho hry dodnes patří k nejhranějším divadelním kusům světa. Pseudonym si zvolil kvůli rodině, protože divadlo bylo považováno za nedůstojné. Zemřel prakticky na jevišti — při představení své hry *Zdravý nemocný*, ve které hrál hypochondra.
-- **Lakomec** ([rozbor](/cj/rozbor-knih-a-cetba/moliere-lakomec/ "Rozbor díla Lakomec")):
+- **Lakomec** ([rozbor](/cj/rozbory-knih/moliere-lakomec/ "Rozbor díla Lakomec")):
   - **Děj:** Zesměšňuje šedesátiletého lichváře **Harpagona** — nejznámější Molièrovu postavu —, jehož chorobná lakota ničí vztahy s vlastními dětmi.
   - **Zajímavost:** Ve své době byla hra pro neúspěch stažena z repertoáru; dnes patří k nejhranějším hrám vůbec.
 - **Tartuffe:**
@@ -46,12 +46,12 @@ source: "Prezentace Klasicismus, osvícenství (archiv literatury), doplněno o 
 
 ### Carlo Goldoni
 - **Charakteristika:** (Benátky) Reformátor italské komedie — na rozdíl od tehdy zavedené komedie dell'arte (improvizované, s ustálenými maskami) píše pevně dané texty s věrohodnějšími, civilnějšími postavami.
-- **Sluha dvou pánů** ([rozbor](/cj/rozbor-knih-a-cetba/carlo-goldoni-sluha-dvou-panu/ "Rozbor díla Sluha dvou pánů")):
+- **Sluha dvou pánů** ([rozbor](/cj/rozbory-knih/carlo-goldoni-sluha-dvou-panu/ "Rozbor díla Sluha dvou pánů")):
   - **Děj:** Mazaný, věčně hladový sluha Truffaldino se ze ziskuchtivosti nechá najmout naráz dvěma pány a musí před oběma tajit, že slouží i tomu druhému, což vede k sérii komických omylů a zmatků.
 
 ### Daniel Defoe
 - **Charakteristika:** (1660–1731, Anglie, vlastním jménem Daniel Foe — šlechtické "de" si přidal neprávem) Obchodoval s vínem a tabákem, odtud jeho "námořnická" témata. Psal dobrodružné romány s **prvky realismu** — vycházel ze skutečných událostí a líčil je pravdivě.
-- **Robinson Crusoe** ([rozbor](/cj/rozbor-knih-a-cetba/daniel-defoe-robinson-crusoe/ "Rozbor díla Robinson Crusoe")):
+- **Robinson Crusoe** ([rozbor](/cj/archiv/daniel-defoe-robinson-crusoe/ "Rozbor díla Robinson Crusoe")):
   - **Děj:** Dobrodružný román o námořníkovi, který ztroskotá na pustém ostrově a musí si tam vlastníma rukama vybudovat obydlí, obstarat potravu a nakonec i společnost (domorodec, kterého zachrání a pojmenuje Pátek).
   - **Inspirace:** Skutečný příběh skotského námořníka, který za trest strávil čtyři roky na pustém ostrově. Robinson ztroskotá při plavbě z Jižní Ameriky do Afriky pro otroky, se kterými obchoduje.
   - **Téma:** Oslava lidské vynalézavosti, houževnatosti a schopnosti civilizovat i tu nejdivočejší přírodu — dílo zakládá celý žánr "robinsonád".
@@ -70,7 +70,7 @@ Preromantismus je přechodovým obdobím mezi klasicismem a romantismem. Klade d
 
 ### Johann Wolfgang Goethe
 - **Charakteristika:** (Německo) Stojí svým raným dílem přesně na hranici preromantismu a romantismu.
-- **Utrpení mladého Werthera** ([rozbor](/cj/rozbor-knih-a-cetba/johann-wolfgang-von-goethe-utrpeni-mladeho-werthera/ "Rozbor díla Utrpení mladého Werthera")):
+- **Utrpení mladého Werthera** ([rozbor](/cj/archiv/johann-wolfgang-von-goethe-utrpeni-mladeho-werthera/ "Rozbor díla Utrpení mladého Werthera")):
   - **Děj:** **Epistolární román** (vyprávěný formou dopisů, což čtenáři umožňuje bezprostřední přístup k hrdinovým citům) o mladém muži, jehož nešťastná, beznadějná láska k zasnoubené (a později vdané) Lottě ho dovede až k sebevraždě.
   - **Význam:** Dílo vyvolalo ve své době skutečnou "vlnu werterismu", kdy se řada mladých čtenářů v Evropě sama zabila ze stejného důvodu — Goethe proto do dalšího vydání připsal varování *"Buď mužem a nenásleduj mne."*
 - **Faust:**

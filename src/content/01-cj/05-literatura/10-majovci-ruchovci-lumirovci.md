@@ -41,7 +41,7 @@ Májovci se tak přiblížili evropskému realismu a vymanili se z cílů obroze
   - *Knihy veršů* — optimističtější, smyslem života je práce a láska k rodině,
   - *Písně kosmické* — básně o poznávání vesmíru s nadějí ve vědu a pokrok (astronomii znal i z románů J. Verna); vesmír polidšťuje (Slunce je matička, Mars je rudý od pití; *"Měsíček, pěkný mládenec… oblétá Zemi panenku jak holub holubici"*),
   - **[Balady a romance](https://cs.wikisource.org/wiki/Balady_a_romance)** — záměrně mísí žánr balady (tragické) a romance (šťastné), jako je tomu v životě.
-- **[Povídky malostranské](https://cs.wikisource.org/wiki/Povídky_malostranské)** ([rozbor](/cj/rozbor-knih-a-cetba/jan-neruda-povidky-malostranske/ "Rozbor díla Povídky malostranské")): soubor 13 povídek z Malé Strany s jemným humorem i soucitem. Vypráví se v 1. osobě — vypravěč je svědek a pozorovatel —, s velkou znalostí prostředí a prací s detailem. V poslední povídce *Figurky* se vypravěči obyvatelé Malé Strany jeví jako figurky, "strnuliny".
+- **[Povídky malostranské](https://cs.wikisource.org/wiki/Povídky_malostranské)** ([rozbor](/cj/rozbory-knih/jan-neruda-povidky-malostranske/ "Rozbor díla Povídky malostranské")): soubor 13 povídek z Malé Strany s jemným humorem i soucitem. Vypráví se v 1. osobě — vypravěč je svědek a pozorovatel —, s velkou znalostí prostředí a prací s detailem. V poslední povídce *Figurky* se vypravěči obyvatelé Malé Strany jeví jako figurky, "strnuliny".
 
 ### Jakub Arbes (1840–1914)
 - **Charakteristika:** Prozaik a novinář z Prahy, obdivovatel Nerudy a Máchy (rozluštil Máchův šifrovaný deník), sympatizant májovců. Tíhl k přírodním vědám (studoval techniku). Za články proti rakouské vládě byl souzen a vězněn. Je předchůdcem české sci-fi.
@@ -87,7 +87,7 @@ Skupina kolem časopisu **Lumír**. Jejím krédem je **svoboda umělecké tvorb
 - **Charakteristika:** Básník a překladatel, vlastním jménem **Emil Frída** (pseudonym podle říčky Vrchlice). Studoval románské jazyky, rok strávil v Itálii jako vychovatel a byl profesorem literatury na univerzitě. Byl workoholik — napsal asi 270 knih (90 vlastních, 180 překladů); tvořil lehce a rychle, ale chyběla mu sebekritika.
 - **Překlady** z 18 jazyků (Dante — *Božská komedie*, Goethe — *Faust*, Shakespearovy sonety), s cílem povýšit českou literaturu na evropskou úroveň; na rozdíl od Sládka dával přednost formě před obsahem (spíš přebásňoval).
 - **Okna v bouři:** sbírka z doby osobní krize (zklamání v manželství, odmítnutí novou generací), subjektivní, forma ustupuje do pozadí — báseň *Za trochu lásky šel bych světa kraj*.
-- **[Noc na Karlštejně](https://cs.wikisource.org/wiki/Noc_na_Karlštejně)** ([rozbor](/cj/rozbor-knih-a-cetba/jaroslav-vrchlicky-noc-na-karlstejne/ "Rozbor díla Noc na Karlštejně")): komedie o tom, jak Karel IV. zakáže ženám vstup na Karlštejn, ale dvě ženy se tam v přestrojení přesto dostanou — jedna z nejoblíbenějších českých historických komedií.
+- **[Noc na Karlštejně](https://cs.wikisource.org/wiki/Noc_na_Karlštejně)** ([rozbor](/cj/rozbory-knih/jaroslav-vrchlicky-noc-na-karlstejne/ "Rozbor díla Noc na Karlštejně")): komedie o tom, jak Karel IV. zakáže ženám vstup na Karlštejn, ale dvě ženy se tam v přestrojení přesto dostanou — jedna z nejoblíbenějších českých historických komedií.
 
 ### Julius Zeyer (1841–1901)
 - **Charakteristika:** Prozaik, dramatik a básník z rodiny francouzského původu, zcestovalý (Evropa, Orient, Rusko).
@@ -123,7 +123,7 @@ Roku **1883** bylo definitivně otevřeno **Národní divadlo** a prvním směre
 
 ### Alois a Vilém Mrštíkové
 - **Charakteristika:** Bratři (Alois starší, Vilém mladší) z okolí Nového Města na Moravě. Vilém je i autorem naturalistického románu *Santa Lucia*.
-- **Maryša** ([rozbor](/cj/rozbor-knih-a-cetba/alois-a-vilem-mrstik-marysa/ "Rozbor díla Maryša")): realistické drama z moravského Slovácka, psané pro Národní divadlo a inspirované skutečnou událostí. Dvacetiletou Maryšu rodiče provdají za čtyřicetiletého vdovce Vávru se třemi dětmi, přestože miluje chudého Francka, který musí na vojnu. Manželství je nešťastné, ale společenské normy jí nedovolí manžela opustit; když Vávra zkusí Francka zastřelit, Maryša ho otráví.
+- **Maryša** ([rozbor](/cj/rozbory-knih/alois-a-vilem-mrstikove-marysa/ "Rozbor díla Maryša")): realistické drama z moravského Slovácka, psané pro Národní divadlo a inspirované skutečnou událostí. Dvacetiletou Maryšu rodiče provdají za čtyřicetiletého vdovce Vávru se třemi dětmi, přestože miluje chudého Francka, který musí na vojnu. Manželství je nešťastné, ale společenské normy jí nedovolí manžela opustit; když Vávra zkusí Francka zastřelit, Maryša ho otráví.
   - **Realistické rysy:** podání bez příkras, detailní scénické poznámky, psychologie postav (proměna Maryši z nevinné dívky ve zralou, unavenou ženu), postavy nejsou černobílé, stylizované moravské nářečí.
   - **Kompozice klasického dramatu:** expozice → kolize (Maryša svolí ke sňatku, Francek se vrací z vojny) → krize (Vávrův pokus zabít Francka) → peripetie → katastrofa. Kritika jí vyčítala naturalismus a vraždu spáchanou ženou.
 

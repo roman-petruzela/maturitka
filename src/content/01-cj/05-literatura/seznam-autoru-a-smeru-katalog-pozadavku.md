@@ -73,6 +73,6 @@ Tohle je přesný seznam z **Části C oficiálního Katalogu požadavků Cermat
 
 ## 3. Literární žánry
 
-Definice jednotlivých žánrů jsou v kapitole [Literární druhy a žánry](/cj/mluvnice/literarni-druhy-a-zanry/) (mluvnice). Podle Katalogu požadavků je potřeba znát: anekdota, bajka, balada, cestopis, elegie, epigram, epos, fantasy, kaligram, komedie, kronika, legenda, mýtus, novela, óda, pásmo, píseň, pohádka, poema, pověst, povídka, romance, román, sci-fi, sonet, tragédie.
+Definice jednotlivých žánrů jsou v kapitole [Literární druhy a žánry](/cj/literatura/literarni-druhy-a-zanry/). Podle Katalogu požadavků je potřeba znát: anekdota, bajka, balada, cestopis, elegie, epigram, epos, fantasy, kaligram, komedie, kronika, legenda, mýtus, novela, óda, pásmo, píseň, pohádka, poema, pověst, povídka, romance, román, sci-fi, sonet, tragédie.
 
 **Zatím bez definice v mluvnici:** cestopis, fantasy, kaligram, mýtus, sci-fi.

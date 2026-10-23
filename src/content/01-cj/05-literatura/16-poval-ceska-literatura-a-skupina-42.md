@@ -24,16 +24,16 @@ Oficiální literatura 50. let musela navíc dodržovat závaznou uměleckou met
 
 ### Bohumil Hrabal
 - **Charakteristika:** Naprosto osobitý vypravěčský styl — tzv. **"pábení"**, dlouhý, sytý proud vyprávění plný odboček, anekdot a groteskní imaginace. Vydával svá díla oficiálně, ale i v samizdatu a exilu, podle toho, jak se měnila politická situace.
-- **Ostře sledované vlaky** ([rozbor](/cj/rozbor-knih-a-cetba/bohumil-hrabal-ostre-sledovane-vlaky/ "Rozbor díla Ostře sledované vlaky")):
+- **Ostře sledované vlaky** ([rozbor](/cj/rozbory-knih/bohumil-hrabal-ostre-sledovane-vlaky/ "Rozbor díla Ostře sledované vlaky")):
   - **Děj:** Mladý výpravčí na malé nádraží za protektorátu, jehož milostné nezdary se nakonec vyústí v odbojový čin s tragickým koncem.
-- **Postřižiny** ([rozbor](/cj/rozbor-knih-a-cetba/bohumil-hrabal-postriziny/ "Rozbor díla Postřižiny")):
+- **Postřižiny** ([rozbor](/cj/archiv/bohumil-hrabal-postriziny/ "Rozbor díla Postřižiny")):
   - **Děj:** Vzpomínka na dětství v pivovaru, plná barvitých, groteskních postav a situací.
 - **Obsluhoval jsem anglického krále:**
   - **Děj:** Sleduje osud malého číšníka, který se během desetiletí vypracuje na majitele hotelu, ožení se s Němkou a nakonec o všechno přijde — pestrá freska českých dějin 20. století.
 
 ### Josef Škvorecký
 - **Charakteristika:** Po srpnu 1968 emigroval do Kanady, kde s manželkou založil nakladatelství **Sixty-Eight Publishers**, které vydávalo zakázané české autory pro čtenáře v exilu i tajně dováženo zpět do Československa.
-- **Zbabělci** ([rozbor](/cj/rozbor-knih-a-cetba/josef-skvorecky-zbabelci/ "Rozbor díla Zbabělci")):
+- **Zbabělci** ([rozbor](/cj/archiv/josef-skvorecky-zbabelci/ "Rozbor díla Zbabělci")):
   - **Děj:** Poválečný román (byl po vydání roku 1958 stažen a zakázán) vypráví o mladém Dannym Smiřickém a jeho přátelích v posledních dnech 2. světové války v malém českém městě — s ironií a bez patosu, což tehdejší kritice vadilo, protože očekávala hrdinský obraz osvobození.
 - **Tankový prapor, Prima sezóna, Příběh inženýra lidských duší:** Postava Dannyho se objevuje i v dalších Škvoreckého dílech.
 
@@ -52,7 +52,7 @@ Oficiální literatura 50. let musela navíc dodržovat závaznou uměleckou met
 
 ### Ota Pavel
 - **Charakteristika:** Patří k tzv. **třetí vlně válečné literatury** (autoři, kteří válku prožili jako děti a zpracovávají ji s odstupem, subjektivně a vzpomínkově).
-- **Smrt krásných srnců** ([rozbor](/cj/rozbor-knih-a-cetba/ota-pavel-smrt-krasnych-srncu/ "Rozbor díla Smrt krásných srnců")):
+- **Smrt krásných srnců** ([rozbor](/cj/rozbory-knih/ota-pavel-smrt-krasnych-srncu/ "Rozbor díla Smrt krásných srnců")):
   - **Děj:** Vzpomínková próza kombinuje idylické vzpomínky na dětství, rybaření a otce-obchodníka se stíny doby (otec byl za války jako Žid vězněn) — prolíná se v ní něha, humor i tichý smutek.
 
 ### Vladimír Páral
@@ -63,13 +63,13 @@ Oficiální literatura 50. let musela navíc dodržovat závaznou uměleckou met
 
 ### Ladislav Fuks
 - **Charakteristika:** Patří ke generaci autorů zpracovávajících téma holocaustu s prvky magického realismu a psychologické hrůzy.
-- **Spalovač mrtvol** ([rozbor](/cj/rozbor-knih-a-cetba/ladislav-fuks-spalovac-mrtvol/ "Rozbor díla Spalovač mrtvol")):
+- **Spalovač mrtvol** ([rozbor](/cj/rozbory-knih/ladislav-fuks-spalovac-mrtvol/ "Rozbor díla Spalovač mrtvol")):
   - **Děj:** Karel Kopfrkingl, zaměstnanec krematoria, jehož fascinace "osvobozením duše skrze oheň" ho za okupace, kdy se nechá zlákat nacistickou ideologií, dovede až k vraždě vlastní rodiny.
   - **Téma:** Znepokojivá studie postupné morální destrukce zdánlivě obyčejného člověka.
 
 ### Václav Havel
 - **Charakteristika:** Dramatik pracující s prvky absurdního dramatu (viz [Existencialismus a absurdní drama](/cj/literatura/14-existencialismus-a-absurdni-drama/)). Byl opakovaně vězněn za disidentskou činnost a po sametové revoluci se stal prvním prezidentem svobodného Československa a později České republiky.
-- **Zahradní slavnost, Vernisáž, Audience** ([rozbor](/cj/rozbor-knih-a-cetba/vaclav-havel-audience/ "Rozbor díla Audience")): Hry (v Audienci sládek marně přemlouvá spisovatele-brigádníka Vaňka, aby na něj udával StB, zatímco se sám postupně opíjí) byly v socialistickém Československu zakázané, hrané v samizdatu a bytovém divadle.
+- **Zahradní slavnost, Vernisáž, Audience** ([rozbor](/cj/archiv/vaclav-havel-audience/ "Rozbor díla Audience")): Hry (v Audienci sládek marně přemlouvá spisovatele-brigádníka Vaňka, aby na něj udával StB, zatímco se sám postupně opíjí) byly v socialistickém Československu zakázané, hrané v samizdatu a bytovém divadle.
 
 ### Josef Topol
 - **Charakteristika:** Básník, dramatik a divadelní režisér (otec hudebníka Filipa Topola ze skupiny Psí vojáci a spisovatele Jáchyma Topola) — po zákazu činnosti v Československu musel pracovat jako dělník.
@@ -95,18 +95,18 @@ Oficiální literatura 50. let musela navíc dodržovat závaznou uměleckou met
 
 ### Karel Šiktanc
 - **Charakteristika:** Básník.
-- **Heřmánkové noci** ([rozbor](/cj/rozbor-knih-a-cetba/karel-siktanc-hejnovske-noci/ "Rozbor díla Heřmánkové noci")): Poezie inspirovaná moravským a jihočeským venkovem a lidovou tradicí.
+- **Heřmánkové noci** ([rozbor](/cj/archiv/karel-siktanc-hejnovske-noci/ "Rozbor díla Heřmánkové noci")): Poezie inspirovaná moravským a jihočeským venkovem a lidovou tradicí.
 
 ### Milan Uhde
 - **Charakteristika:** Dramatik.
-- **Balada pro banditu** ([rozbor](/cj/rozbor-knih-a-cetba/milan-uhde-balada-pro-banditu/ "Rozbor díla Balada pro banditu")):
+- **Balada pro banditu** ([rozbor](/cj/archiv/milan-uhde-balada-pro-banditu/ "Rozbor díla Balada pro banditu")):
   - **Děj:** Na motivy skutečné legendy o zbojníku Nikolovi Šuhajovi (srov. i Olbrachtův román v [meziválečné próze](/cj/literatura/13-ceska-mezivalecna-avantgarda-a-proza/)) kombinuje lidovou baladičnost s divadelní stylizací.
 
 ## Divadlo Járy Cimrmana
 
 ### Zdeněk Svěrák a Ladislav Smoljak
 - **Charakteristika:** Založili v 60. letech 20. století autorské **Divadlo Járy Cimrmana**, postavené na mystifikaci — fiktivní český "génius" Jára Cimrman, který podle divadla vymyslel/objevil skoro všechno důležité, ale historie o jeho zásluhách nikdy nevěděla. Představení mají typickou dvoudílnou strukturu: nejprve "odborný seminář" (falešně učená přednáška o Cimrmanově životě a domnělém díle) a poté samotná divadelní hra.
-- **České nebe** ([rozbor](/cj/rozbor-knih-a-cetba/ladislav-smoljak-a-zdenek-sverak-ceske-nebe/ "Rozbor díla České nebe")), **Dobytí severního pólu** ([rozbor](/cj/rozbor-knih-a-cetba/ladislav-smoljak-a-zdenek-sverak-dobyti-severniho-polu/ "Rozbor díla Dobytí severního pólu")): Nejoblíbenější komedie.
+- **České nebe** ([rozbor](/cj/archiv/ladislav-smoljak-a-zdenek-sverak-ceske-nebe/ "Rozbor díla České nebe")), **Dobytí severního pólu** ([rozbor](/cj/archiv/ladislav-smoljak-a-zdenek-sverak-dobyti-severniho-polu/ "Rozbor díla Dobytí severního pólu")): Nejoblíbenější komedie.
 - **Ostatní tvorba:** Svěrák je zároveň (spolu se Smoljakem) autorem scénářů k oblíbeným českým filmovým komediím (*Vrchní, prchni!*, *Na samotě u lesa*, *Jáchyme, hoď ho do stroje!*) a otec-syn dvojice s Janem Svěrákem stojí i za filmy *Obecná škola* a *Kolja*.
 
 ## Cvičení

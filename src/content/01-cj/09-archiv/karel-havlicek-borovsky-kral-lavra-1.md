@@ -34,7 +34,7 @@ moudrý a oblíbený, rovněž přihlouplý
 
 \-__Poustevníček__
 
-<img src="/images/content/cj/rozbor-knih-a-cetba/karel-havlicek-borovsky-kral-lavra-1/01.webp" alt="Ilustrace: Karel Havlíček Borovský - Král Lávra (1)" width="771" loading="lazy" decoding="async">                         -__Červíček__ - Hráč na kontrabas
+<img src="/images/content/cj/archiv/karel-havlicek-borovsky-kral-lavra-1/01.webp" alt="Ilustrace: Karel Havlíček Borovský - Král Lávra (1)" width="771" loading="lazy" decoding="async">                         -__Červíček__ - Hráč na kontrabas
 
 - Téma, motiv
 - Kompoziční výstavba

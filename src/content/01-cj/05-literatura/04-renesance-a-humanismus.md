@@ -64,7 +64,7 @@ source: "Prezentace Renesance a humanismus – v Evropě a v Čechách (archiv l
 
 ### Niccolò Machiavelli (1469–1527)
 - **Charakteristika:** Florentský politik a spisovatel, dnes nejznámější jako autor spisu *Vladař* (jak si udržet moc i nemravnými prostředky — odtud "machiavelistický").
-- **Mandragora** ([rozbor](/cj/rozbor-knih-a-cetba/niccol-machiavelli-mandragora/ "Rozbor díla Mandragora")):
+- **Mandragora** ([rozbor](/cj/archiv/niccol-machiavelli-mandragora/ "Rozbor díla Mandragora")):
   - **Děj:** Vychytralý mladík za pomoci prohnaného mnicha a falešného léku z mandragory přelstí hloupého manžela, aby se dostal k jeho mladé ženě.
   - **Téma:** Jízlivá satira na pokrytectví, hloupost a zkorumpovatelnost tehdejší florentské společnosti.
 
@@ -91,13 +91,13 @@ source: "Prezentace Renesance a humanismus – v Evropě a v Čechách (archiv l
 
 ### William Shakespeare (1564–1616)
 - **Charakteristika:** Nejvýznamnější dramatik anglické (a možná světové) literatury — psal tragédie, komedie i historické hry a k tomu 154 sonetů.
-- **Hamlet** ([rozbor](/cj/rozbor-knih-a-cetba/william-shakespeare-hamlet/ "Rozbor díla Hamlet")):
+- **Hamlet** ([rozbor](/cj/rozbory-knih/william-shakespeare-hamlet/ "Rozbor díla Hamlet")):
   - **Děj:** Tragédie o dánském princi, který se dozví, že jeho otce zavraždil strýc Claudius (nyní nový král a manžel Hamletovy matky), a zmítá se mezi touhou po pomstě a pochybnostmi o smyslu jednání ("Být, či nebýt, to je oč tu běží").
-- **Romeo a Julie** ([rozbor](/cj/rozbor-knih-a-cetba/william-shakespeare-romeo-a-julie/ "Rozbor díla Romeo a Julie")):
+- **Romeo a Julie** ([rozbor](/cj/rozbory-knih/william-shakespeare-romeo-a-julie/ "Rozbor díla Romeo a Julie")):
   - **Děj:** Osudová láska dvou mladých lidí ze znepřátelených veronských rodů, jejichž vztah končí tragicky — dodnes synonymum pro nešťastnou, ale absolutní lásku.
-- **Kupec benátský** ([rozbor](/cj/rozbor-knih-a-cetba/william-shakespeare-kupec-benatsky/ "Rozbor díla Kupec benátský")):
+- **Kupec benátský** ([rozbor](/cj/rozbory-knih/william-shakespeare-kupec-benatsky/ "Rozbor díla Kupec benátský")):
   - **Děj:** Komedie s vážným podtextem — lichvář Shylock žádá jako záruku dluhu "libru masa" z těla dlužníka; soud i téma antisemitismu z hry dělají dodnes kontroverzní dílo.
-- **Zkrocení zlé ženy** ([rozbor](/cj/rozbor-knih-a-cetba/william-shakespeare-zkroceni-zle-zeny/ "Rozbor díla Zkrocení zlé ženy")):
+- **Zkrocení zlé ženy** ([rozbor](/cj/archiv/william-shakespeare-zkroceni-zle-zeny/ "Rozbor díla Zkrocení zlé ženy")):
   - **Děj:** Fraškovitá komedie o svéhlavé Kateřině, kterou si manžel Petruccio "vychová" k poslušnosti — dnes se čte i jako kritický pohled na dobové genderové role.
 
 ## České země

@@ -47,4 +47,4 @@ __kompozice__: komediální zápletky, hra psána formou prózy, chronologie, me
 
 __jazykové prostředky:__ spisovný, běžná, historismy, vyprávěcí, Dialog i monolog, Přímá
 
-__<img src="/images/content/cj/rozbor-knih-a-cetba/moliere-lakomec/01.webp" alt="Ilustrace: Moliére - Lakomec" width="821" loading="lazy" decoding="async">__
+__<img src="/images/content/cj/archiv/moliere-lakomec/01.webp" alt="Ilustrace: Moliére - Lakomec" width="821" loading="lazy" decoding="async">__

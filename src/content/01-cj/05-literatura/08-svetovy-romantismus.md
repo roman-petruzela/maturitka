@@ -49,11 +49,11 @@ source: "Prezentace Romantismus ve světové literatuře (archiv literatury), do
 ### Jane Austenová (1775–1817)
 - **Charakteristika:** Píše společenské romány se silnými, důvtipnými hrdinkami, které se musí vyrovnávat s dobovými konvencemi, a to s jemnou ironií vůči společnosti. Časově a milostným tématem patří k romantismu, motivem **sňatku jako sociálního zajištění ženy** už k realismu. O jejím životě vypráví film *Vášeň a cit* (2007).
 - **Dílo:** *Pýcha a předsudek*, *Rozum a cit*, *Emma*.
-- **Pýcha a předsudek** ([rozbor](/cj/rozbor-knih-a-cetba/jane-austenova-pycha-a-predsudek/ "Rozbor díla Pýcha a předsudek")):
+- **Pýcha a předsudek** ([rozbor](/cj/rozbory-knih/jane-austenova-pycha-a-predsudek/ "Rozbor díla Pýcha a předsudek")):
   - **Děj:** Hrdá, nezávislá Elizabeth Bennetová a stejně hrdý pan Darcy se musí zbavit vzájemných předsudků, než si uvědomí, že se k sobě hodí.
 
 ### Charlotte Brontëová (1816–1855)
-- **Jana Eyrová** ([rozbor](/cj/rozbor-knih-a-cetba/charlotte-bronteova-jana-eyrova/ "Rozbor díla Jana Eyrová")):
+- **Jana Eyrová** ([rozbor](/cj/archiv/charlotte-bronteova-jana-eyrova/ "Rozbor díla Jana Eyrová")):
   - **Děj:** Chudá sirotčí vychovatelka Jana se zamiluje do svého zaměstnavatele, tajemného pana Rochestera, jehož dům skrývá temné tajemství (šílená manželka zamčená na půdě).
   - **Téma:** Spojuje romantický důraz na vášeň a tajemno s ranými prvky psychologického realismu a silnou, nezávislou hrdinkou, která si i přes chudobu nárokuje právo na vlastní city a důstojnost.
 
@@ -63,7 +63,7 @@ Francouzští autoři této doby stojí **na pomezí romantismu a realismu**. Ro
 
 ### Victor Hugo (1802–1885)
 - **Charakteristika:** Nejvýznamnější osobnost francouzského romantismu, prozaik a básník.
-- **Chrám Matky Boží v Paříži** (vyšlo i jako *Zvoník u Matky Boží*) ([rozbor](/cj/rozbor-knih-a-cetba/victor-hugo-chram-matky-bozi-v-parizi/ "Rozbor díla Chrám Matky Boží v Paříži")):
+- **Chrám Matky Boží v Paříži** (vyšlo i jako *Zvoník u Matky Boží*) ([rozbor](/cj/rozbory-knih/victor-hugo-chram-matky-bozi-v-parizi/ "Rozbor díla Chrám Matky Boží v Paříži")):
   - **Žánr a prostředí:** historický román z Paříže 15. století, odehrávající se kolem katedrály Notre-Dame.
   - **Postavy:** hrbatý zvoník **Quasimodo**, kněz **Frollo** a krásná cikánka **Esmeralda**.
   - **Romantické rysy:** nenaplněná láska k nedosažitelné ženě, tajuplné prostředí, hrdinové z okraje společnosti.
@@ -79,14 +79,14 @@ Francouzští autoři této doby stojí **na pomezí romantismu a realismu**. Ro
 ## Rusko
 
 ### Alexandr Sergejevič Puškin (1799–1837)
-- **Charakteristika:** Ruský básník, prozaik a dramatik z velmi starého šlechtického rodu, zakladatel novodobé ruské literatury. Za satirické verše proti carovi byl poslán do vyhnanství na jih Ruska (hrozila mu i Sibiř). V souboji s údajným milencem své krásné manželky byl postřelen a po dvou dnech zemřel. ([rozbor](/cj/rozbor-knih-a-cetba/alexandr-sergejevic-puskin/ "Životopis autora"))
-- **Evžen Oněgin** ([rozbor](/cj/rozbor-knih-a-cetba/alexandr-sergejevic-puskin-evzen-onegin/ "Rozbor díla Evžen Oněgin")) — veršovaný román, "nejtragičtější milostný román světové literatury":
+- **Charakteristika:** Ruský básník, prozaik a dramatik z velmi starého šlechtického rodu, zakladatel novodobé ruské literatury. Za satirické verše proti carovi byl poslán do vyhnanství na jih Ruska (hrozila mu i Sibiř). V souboji s údajným milencem své krásné manželky byl postřelen a po dvou dnech zemřel. ([rozbor](/cj/archiv/alexandr-sergejevic-puskin/ "Životopis autora"))
+- **Evžen Oněgin** ([rozbor](/cj/rozbory-knih/alexandr-sergejevic-puskin-evzen-onegin/ "Rozbor díla Evžen Oněgin")) — veršovaný román, "nejtragičtější milostný román světové literatury":
   - **Děj:** Mladý šlechtic **Oněgin**, znuděný společenským životem ve městě, odjede na venkov. Spřátelí se s mladým básníkem **Lenským**, který ho seznámí se svou snoubenkou **Olgou**. Do Oněgina se zamiluje Olžina sestra **Taťána** a napíše mu dopis s vyznáním — Oněgin její lásku odmítne. Na jednom večírku před očima Lenského flirtuje s Olgou; Lenský ho vyzve na souboj a v něm zemře, Oněgin odjíždí. Po letech potká Taťánu, už vdanou, a zamiluje se do ní. Taťána ho stále miluje, ale zůstane věrná manželovi.
   - **Zbytečný člověk:** Oněgin je typ ruské literatury — mladý, talentovaný šlechtic mířící vysoko, který žije v iluzi o vlastní výjimečnosti a je cynický k okolí, ale neschopný své plány uskutečnit; stává se líným a pasivním a promarní život. Je to typický romantický hrdina (výjimečný, znuděný, nespokojený), Puškin ho ale líčí negativně. Jeho náladu vystihuje slovo **spleen (splín)** — zádumčivost, melancholie, světabol.
 
 ### Nikolaj Vasiljevič Gogol (1809–1852)
 - **Charakteristika:** Stojí na přechodu od romantismu k realismu.
-- **Revizor** ([rozbor](/cj/rozbor-knih-a-cetba/nikolaj-vasiljevic-gogol-revizor/ "Rozbor díla Revizor")):
+- **Revizor** ([rozbor](/cj/rozbory-knih/nikolaj-vasiljevic-gogol-revizor/ "Rozbor díla Revizor")):
   - **Děj:** Satirická komedie — do provinčního města přijede neznámý mladík, kterého zkorumpovaní úředníci v panice považují za tajného vládního revizora a předhánějí se v úplatcích a přetvářce, aby zakryli své zpronevěry; teprve na konci vyjde najevo, že šlo o omyl.
 
 ## USA
@@ -95,9 +95,9 @@ Francouzští autoři této doby stojí **na pomezí romantismu a realismu**. Ro
 - **Život:** Jeho rodiče byli chudí kočovní herci; po smrti matky se ho ujali manželé Allanovi. Univerzitu přes svůj talent nedostudoval pro nedostatek peněz. Oženil se se svou velmi mladou sestřenicí Virginií, která zemřela na tuberkulózu. Trpěl bídou, alkoholismem, depresemi a duševní nemocí; zemřel poté, co ho našli v bezvědomí na ulici. Martin Hilský popsal jeho rozpolcenost obrazem portrétu, jehož každá polovina tváře jako by patřila jinému člověku.
 - **Tvorba:** Kvůli nízké prodejnosti knih psal to, po čem byla poptávka — detektivní, hororové a fantastické povídky. Je **zakladatelem moderní povídky** — hororové, detektivní i vědeckofantastické — a vytvořil dvojici výstředního geniálního detektiva a jeho méně chápavého společníka (předobraz Holmese a Watsona). Mistrně vytváří atmosféru strachu, hrůzy a tajemna.
 - **Romantické rysy:** středověk (inkvizice), tragická láska, tajemno, strach a vypjaté emoce.
-- **Havran** ([rozbor](/cj/rozbor-knih-a-cetba/edgar-allan-poe-havran/ "Rozbor díla Havran")): lyricko-epická báseň o muži truchlícím nad ztrátou milované Lenory, ke kterému v noci vlétne havran (v originále *The Raven* — krkavec) opakující jediné slovo *"Nevermore"*. Báseň byla mnohokrát přeložena (např. Jaroslav Vrchlický); nejslavnější je překlad **Vítězslava Nezvala**, který refrén přeložil zvukomalebně "víckrát ne" (jiní překladatelé zvolili např. "Nikdy víc", "Nikdy již", "Marnost — zmar").
-- **Jáma a kyvadlo** ([rozbor](/cj/rozbor-knih-a-cetba/edgar-allan-poe-jama-a-kyvadlo/ "Rozbor díla Jáma a kyvadlo")): hororová povídka — vypravěč je odsouzen inkvizicí k pomalé, promyšlené smrti; mistrovská ukázka stupňované úzkosti.
-- **Černý kocour** ([rozbor](/cj/rozbor-knih-a-cetba/edgar-allan-poe-cerny-kocour/ "Rozbor díla Černý kocour")): povídka o muži, ze kterého alkohol udělá démona — ublíží vlastnímu kocourovi a v hněvu zabije i manželku.
+- **Havran** ([rozbor](/cj/archiv/edgar-allan-poe-havran/ "Rozbor díla Havran")): lyricko-epická báseň o muži truchlícím nad ztrátou milované Lenory, ke kterému v noci vlétne havran (v originále *The Raven* — krkavec) opakující jediné slovo *"Nevermore"*. Báseň byla mnohokrát přeložena (např. Jaroslav Vrchlický); nejslavnější je překlad **Vítězslava Nezvala**, který refrén přeložil zvukomalebně "víckrát ne" (jiní překladatelé zvolili např. "Nikdy víc", "Nikdy již", "Marnost — zmar").
+- **Jáma a kyvadlo** ([rozbor](/cj/archiv/edgar-allan-poe-jama-a-kyvadlo/ "Rozbor díla Jáma a kyvadlo")): hororová povídka — vypravěč je odsouzen inkvizicí k pomalé, promyšlené smrti; mistrovská ukázka stupňované úzkosti.
+- **Černý kocour** ([rozbor](/cj/archiv/edgar-allan-poe-cerny-kocour/ "Rozbor díla Černý kocour")): povídka o muži, ze kterého alkohol udělá démona — ublíží vlastnímu kocourovi a v hněvu zabije i manželku.
 - **Další povídky:** *Zlatý brouk*, *Vraždy v ulici Morgue* (detektivní), *Zánik domu Usherů* (hororová).
 
 ### Walt Whitman (1819–1892)

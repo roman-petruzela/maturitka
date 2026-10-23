@@ -29,4 +29,4 @@ Zvířátka na farmě se pod vedením chytrých prasat Kuliše a Napoleona rozho
 
  
 
-<img src="/images/content/cj/rozbor-knih-a-cetba/george-orwell-farma-zvirat/01.webp" alt="Ilustrace: George Orwell - Farma Zvířat" width="619" loading="lazy" decoding="async">
+<img src="/images/content/cj/archiv/george-orwell-farma-zvirat/01.webp" alt="Ilustrace: George Orwell - Farma Zvířat" width="619" loading="lazy" decoding="async">

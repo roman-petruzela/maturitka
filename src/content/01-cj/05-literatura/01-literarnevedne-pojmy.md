@@ -3,7 +3,7 @@ title: "Literárněvědné pojmy"
 order: 1
 source: "Prezentace Literárněvědné pojmy – k referátům (archiv literatury)"
 ---
-Pojmy, které se používají při rozboru uměleckého textu – v próze, v dramatu i v poezii. Literární druhy (lyrika, epika, drama) a jednotlivé žánry jsou rozebrané zvlášť na stránce [Literární druhy a žánry](/cj/mluvnice/literarni-druhy-a-zanry/), postup celého rozboru v [osnově rozboru uměleckého textu](/cj/rozbor-knih-a-cetba/00-umelecky-a-neumelecky-text-osnova-rozboru/).
+Pojmy, které se používají při rozboru uměleckého textu – v próze, v dramatu i v poezii. Literární druhy (lyrika, epika, drama) a jednotlivé žánry jsou rozebrané zvlášť na stránce [Literární druhy a žánry](/cj/literatura/literarni-druhy-a-zanry/), postup celého rozboru v [osnově rozboru uměleckého textu](/cj/ustni-zkouska/02-rozbor-umeleckeho-textu/).
 
 ## Kompoziční výstavba prózy a dramatu
 

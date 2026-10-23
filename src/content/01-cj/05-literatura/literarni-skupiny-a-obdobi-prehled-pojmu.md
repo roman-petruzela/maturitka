@@ -45,4 +45,4 @@ Období jdou shora dolů od nejstaršího po nejmladší. Název období je odka
 | Světová literatura 20. a 21. století | 4 |
 | Česká literatura 20. a 21. století | 5 |
 
-Pro žákův seznam dále platí: minimálně dvěma díly musí být zastoupena próza, poezie i drama; seznam smí obsahovat maximálně dvě díla od jednoho autora. Kompletní přehled dostupných rozborů knih je v kategorii [Rozbor knih a četba](/cj/#rozbor-knih-a-cetba).
+Pro žákův seznam dále platí: minimálně dvěma díly musí být zastoupena próza, poezie i drama; seznam smí obsahovat maximálně dvě díla od jednoho autora. Školní [seznam četby](/cj/ustni-zkouska/04-seznam-cetby/) s odkazy na rozbory je v kategorii [Ústní zkouška](/cj/#ustni-zkouska).

@@ -14,13 +14,13 @@ Po zkušenosti dvou světových válek ztrácí Evropa důvěru v to, že svět 
 
 ### Albert Camus
 - **Charakteristika:** (Francie, Nobelova cena)
-- **Cizinec** ([rozbor](/cj/rozbor-knih-a-cetba/albert-camus-cizinec/ "Rozbor díla Cizinec")):
+- **Cizinec** ([rozbor](/cj/archiv/albert-camus-cizinec/ "Rozbor díla Cizinec")):
   - **Děj:** Hlavní hrdina Mersault reaguje na svět (i na vlastní vraždu, které se dopustí téměř bez zjevného motivu) s nápadnou citovou lhostejností; teprve ve vězení, tváří v tvář vlastní popravě, si plně uvědomí absurditu a zároveň jedinečnost vlastní existence.
   - **Téma:** Camus rozvíjel i pojem "absurdna" — rozporu mezi lidskou touhou po smyslu a lhostejným, nesmyslným světem.
 
 ### Jean-Paul Sartre
 - **Charakteristika:** (Francie) Hlavní filozofický zakladatel existencialismu ("existence předchází esenci" — člověk se nejdřív narodí a teprve svými činy si sám vytváří to, čím je).
-- **Zeď** ([rozbor](/cj/rozbor-knih-a-cetba/jean-paul-sartre-zed/ "Rozbor díla Zeď")):
+- **Zeď** ([rozbor](/cj/archiv/jean-paul-sartre-zed/ "Rozbor díla Zeď")):
   - **Děj:** Povídka líčí poslední hodiny tří vězňů čekajících na popravu za španělské občanské války — jejich myšlenky a pocity těsně před smrtí jsou existenciální sondou do toho, co v takové chvíli člověku vlastně zůstává.
 
 ## Absurdní drama (50.–60. léta 20. stol.)
@@ -29,7 +29,7 @@ Po zkušenosti dvou světových válek ztrácí Evropa důvěru v to, že svět 
 
 ### Samuel Beckett
 - **Charakteristika:** (Irsko) Napsal klíčové dílo tohoto směru.
-- **Čekání na Godota** ([rozbor](/cj/rozbor-knih-a-cetba/samuel-beckett-cekani-na-godota/ "Rozbor díla Čekání na Godota")):
+- **Čekání na Godota** ([rozbor](/cj/archiv/samuel-beckett-cekani-na-godota/ "Rozbor díla Čekání na Godota")):
   - **Děj:** Dva tuláci, Vladimír a Estragon, čekají u opuštěné cesty na jistého pana Godota, aniž by přesně věděli, kdo to je nebo proč na něj čekají — Godot nikdy nepřijde, jen den co den přichází posel se zprávou, že přijde "zítra".
   - **Význam:** Hra je proslulá tím, že se v ní "nic neděje, a to dvakrát" — přesně to je ale její smysl: absurdní, nekonečné čekání jako obraz lidského údělu.
 

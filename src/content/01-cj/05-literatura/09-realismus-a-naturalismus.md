@@ -42,7 +42,7 @@ source: "Prezentace Realismus ve světové literatuře (archiv literatury), dopl
 ### Honoré de Balzac (1799–1850)
 - **Charakteristika:** Představitel kritického realismu. Chtěl být spisovatelem proti vůli rodičů a odmítl stálé zaměstnání (*"Přijmu-li nějaké místo, jsem ztracen. Stane se ze mne… cirkusový kůň…"*); toužil se dostat do vyšší společnosti, což je častý motiv jeho díla.
 - **Lidská komedie** (název odkazuje na Danteho *Božskou komedii*): románový cyklus — zamýšlel 137 románů, napsal "jen" 97 s více než 2 000 postavami. Je to tzv. **encyklopedický román**: vědeckým přístupem chtěl vytvořit úplný obraz francouzské společnosti se všemi lidskými typy a vrstvami, s velmi podrobnými popisy budov a nábytku. Osu tvoří trilogie *Otec Goriot*, *Ztracené iluze*, *Lesk a bída kurtizán*.
-- **Otec Goriot** ([rozbor](/cj/rozbor-knih-a-cetba/honore-de-balzac-otec-goriot/ "Rozbor díla Otec Goriot")):
+- **Otec Goriot** ([rozbor](/cj/rozbory-knih/honore-de-balzac-otec-goriot/ "Rozbor díla Otec Goriot")):
   - **Děj:** Goriot, kdysi úspěšný obchodník (výrobce nudlí), dnes směšný podivín a opuštěný samotář v penzionu, vložil všechny peníze do svých dcer. Ty se bohatě vdaly a otce jen využívají; on je omlouvá (*"Dcery, to byla moje neřest… To vše je moje vina, já jsem je naučil, aby po mně šlapaly"*). Umírá v naprosté chudobě, bez dcer, s vědomím, že je špatně vychoval.
   - **Rysy kritického realismu:** cit je slabost a vítězí peníze; lidská bezohlednost a lhostejnost; nevděk v rodině; touha po vyšším postavení (cynické rady galejníka Vautrina: *"Čím chladněji budete počítat, tím rychleji půjdete kupředu"*). Ve stylu podrobné popisy, popis chování i psychologie postav, kritika společnosti.
 
@@ -55,14 +55,14 @@ source: "Prezentace Realismus ve světové literatuře (archiv literatury), dopl
 
 ### Guy de Maupassant (1850–1893)
 - **Charakteristika:** Představitel kritického realismu, hlavně **povídkář** s úspornou stavbou a nečekanou pointou. Do díla vkládal autobiografické prvky (účast v prusko-francouzské válce); zemřel na syfilis.
-- **Kulička** ([rozbor](/cj/rozbor-knih-a-cetba/guy-de-maupassant-kulicka/ "Rozbor díla Kulička")):
+- **Kulička** ([rozbor](/cj/rozbory-knih/guy-de-maupassant-kulicka/ "Rozbor díla Kulička")):
   - **Děj:** Prostitutka cestuje v kočáře s "počestnými" měšťany za prusko-francouzské války — ti od ní ochotně přijmou jídlo, pak ji donutí obětovat se kvůli jejich bezpečí a nakonec jí pohrdavě otočí zády.
   - **Téma:** kritika pocitu nadřazenosti a pokrytectví vyšší společnosti; otázka, kdo je doopravdy mravnější. Er-forma.
 
 ### Émile Zola (1840–1902)
 - **Charakteristika:** **Zakladatel a nejvýznamnější představitel naturalismu.** Přistupoval k literatuře jako k vědě — román musí stát na vědeckém základě a vývoj postav musí být dán dědičností a prostředím. Spisovatel je tak jen uspořadatelem faktů.
 - **Rougon-Macquartové** — cyklus 20 románů s podtitulem *Přírodopisná a sociální historie jedné rodiny za druhého císařství* (podobně jako Balzacova Lidská komedie); v úvodu je rodokmen rodiny, má přes 1 000 postav a ty prostupují různými díly.
-- **Zabiják** ([rozbor](/cj/rozbor-knih-a-cetba/emile-zola-zabijak/ "Rozbor díla Zabiják")):
+- **Zabiják** ([rozbor](/cj/archiv/emile-zola-zabijak/ "Rozbor díla Zabiják")):
   - **Děj:** Pradlena Gervaisa a její muž propadnou alkoholu, který postupně zničí celou rodinu; jejich dcera Nana utíká z domova a stává se prostitutkou.
   - **Téma:** Název je metaforou — zabijákem je alkohol. Motiv dědičnosti (oba rodiče alkoholici, nestabilní prostředí); syrový obraz pařížské dělnické čtvrti; er-forma.
 - **Další romány:** *Nana* (prostituce a rozklad vyšší společnosti), *Lidská bestie*, *Peníze*.
@@ -97,7 +97,7 @@ source: "Prezentace Realismus ve světové literatuře (archiv literatury), dopl
 - **Život:** Ze staré šlechtické rodiny, v dětství osiřel; hazardní hry, dluhy, armáda, cesty po Evropě, kde poznal zaostalost Ruska a sociální rozdíly. Na rodném statku se pokusil reformovat venkov — založil školu pro mužiky a jejich děti a psal učebnice; ač šlechtic, oblékal se jako mužik a žil asketicky. Hlásal **absolutní nenásilí** a inspiroval vznik pacifismu. V 82 letech po krizi v manželství bez rozloučení odjel vlakem, onemocněl a zemřel na nádraží.
 - **Vojna a mír:** vrcholné dílo, čtyřdílná románová epopej (**román-řeka**) z doby napoleonských válek s asi 250 postavami (mj. Napoleon, car Alexandr I.). Mísí historickou linii (bitva u Slavkova), soukromé osudy postav a filozofické úvahy o dějinách — dějiny nejsou výsledkem činů vládců, ale činnosti milionů bezejmenných lidí, živlem s vlastními zákony.
   - **Román-řeka:** román s velkým množstvím postav, více dějovými liniemi a dlouhým časovým obdobím (i několik generací) — hlavní děj jako řeka a vedlejší linie jako přítoky (Balzac, Zola, Tolstoj).
-- **Anna Karenina** ([rozbor](/cj/rozbor-knih-a-cetba/lev-nikolajevic-tolstoj-anna-karenina/ "Rozbor díla Anna Karenina")): sociálně psychologický román, sonda do ženské duše. Vdaná Anna se zamiluje do důstojníka Vronského, poruší pravidla vyšší společnosti a společenské zavržení, ztráta syna a žárlivost ji dovedou k sebevraždě pod vlakem (vlak je i symbolem industrializace, kterou Tolstoj odmítal). Román ukazuje **tři podoby lásky** — vášnivou až zničující (Anna a Vronskij), umírněnou a povznášející (Kitty a Levin) a mateřskou. Byl inspirován skutečným příběhem ženy Tolstého souseda; motiv **padlé ženy**.
+- **Anna Karenina** ([rozbor](/cj/rozbory-knih/lev-nikolajevic-tolstoj-anna-karenina/ "Rozbor díla Anna Karenina")): sociálně psychologický román, sonda do ženské duše. Vdaná Anna se zamiluje do důstojníka Vronského, poruší pravidla vyšší společnosti a společenské zavržení, ztráta syna a žárlivost ji dovedou k sebevraždě pod vlakem (vlak je i symbolem industrializace, kterou Tolstoj odmítal). Román ukazuje **tři podoby lásky** — vášnivou až zničující (Anna a Vronskij), umírněnou a povznášející (Kitty a Levin) a mateřskou. Byl inspirován skutečným příběhem ženy Tolstého souseda; motiv **padlé ženy**.
 
 ### Fjodor Michajlovič Dostojevskij (1821–1881)
 - **Život:** Za odpor proti carovi byl odsouzen k smrti; trest mu byl na poslední chvíli změněn na čtyři roky nucených prací na Sibiři a následnou službu v armádě. Utrpěl fyzickou i psychickou újmu a trpěl epilepsií — obojí se promítá do díla.

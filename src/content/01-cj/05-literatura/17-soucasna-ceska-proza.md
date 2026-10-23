@@ -8,10 +8,10 @@ Po roce 1989 zaniká cenzura i dělení literatury na oficiální/exilovou/samiz
 
 ### Michal Viewegh
 - **Charakteristika:** Patří k nejčtenějším a nejpřekládanějším českým autorům porevoluční doby, píše lehkým, ironickým, čtenářsky přístupným stylem.
-- **Báječná léta pod psa** ([rozbor](/cj/rozbor-knih-a-cetba/michal-viewehg-bajecna-leta-pod-psa/ "Rozbor díla Báječná léta pod psa")):
+- **Báječná léta pod psa** ([rozbor](/cj/rozbory-knih/michal-viewegh-bajecna-leta-pod-psa/ "Rozbor díla Báječná léta pod psa")):
   - **Děj:** Polobiografické vyprávění o dětství a dospívání za normalizace v rodině, kde otec byl kvůli disidentským postojům "socialisticky" perzekvován — vážné téma ale Viewegh podává s odlehčeným, místy komickým nadhledem.
 - **Účastníci zájezdu:** Satiricky zachycuje partu turistů na autobusovém zájezdu k moři a jejich drobné iluze i zklamání.
-- **Román pro muže** ([rozbor](/cj/rozbor-knih-a-cetba/michal-viewegh-roman-pro-muze/ "Rozbor díla Román pro muže")):
+- **Román pro muže** ([rozbor](/cj/archiv/michal-viewegh-roman-pro-muze/ "Rozbor díla Román pro muže")):
   - **Děj:** Komedie o muži, kterého opustí manželka a on se musí (s pomocí přátel a improvizovaných rad) vyrovnat se singles životem.
 
 ### Alena Mornštajnová
@@ -55,4 +55,4 @@ Po roce 1989 zaniká cenzura i dělení literatury na oficiální/exilovou/samiz
 - Vysvětli, proč vyvolal román Vyhnání Gerty Schnirch společenskou debatu — jaké citlivé historické téma otevírá?
 - Vyber si jeden z uvedených románů a zjisti, zda by splňoval podmínky žákova seznamu literárních děl (próza/poezie/drama, max. 2 díla od jednoho autora, viz [Základní specifikace maturitní zkoušky](/cj/literatura/literarni-skupiny-a-obdobi-prehled-pojmu/)).
 
-Kompletní oficiální seznam knih k maturitní zkoušce (včetně titulů, ke kterým zatím web nemá samostatný rozbor) najdeš v kategorii [Rozbor knih a četba](/cj/#rozbor-knih-a-cetba).
+Kompletní oficiální seznam knih k maturitní zkoušce (včetně titulů, ke kterým zatím web nemá samostatný rozbor) najdeš na stránce [Seznam četby k maturitní zkoušce](/cj/ustni-zkouska/04-seznam-cetby/).

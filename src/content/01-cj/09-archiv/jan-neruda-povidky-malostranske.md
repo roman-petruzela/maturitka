@@ -156,7 +156,7 @@ __Jak to přišlo, že dne 20. srpna roku 1849, o půl jedné s poledne, Rakousk
 
 __Děj__
 
-<img src="/images/content/cj/rozbor-knih-a-cetba/jan-neruda-povidky-malostranske/01.webp" alt="Ilustrace: POVÍDKY MALOSTRANSKÉ" width="633" loading="lazy" decoding="async">__Psáno o letošních Dušičkách__
+<img src="/images/content/cj/archiv/jan-neruda-povidky-malostranske/01.webp" alt="Ilustrace: POVÍDKY MALOSTRANSKÉ" width="633" loading="lazy" decoding="async">__Psáno o letošních Dušičkách__
 
 __Téma:__ nerozhodnost
 
@@ -172,7 +172,7 @@ __Vilém Cibulka__ – kupec, přítel Rechnera
 
 __Děj__
 
-<img src="/images/content/cj/rozbor-knih-a-cetba/jan-neruda-povidky-malostranske/02.webp" alt="Ilustrace: POVÍDKY MALOSTRANSKÉ" width="653" loading="lazy" decoding="async">__Figurky__
+<img src="/images/content/cj/archiv/jan-neruda-povidky-malostranske/02.webp" alt="Ilustrace: POVÍDKY MALOSTRANSKÉ" width="653" loading="lazy" decoding="async">__Figurky__
 
 __Téma:__ snaha najít klid na neklidné Malé Straně
 
@@ -180,7 +180,7 @@ __Motivy:__ hluční sousedé, nedobrovolné zapojení do malostranského život
 
 __Postavy:__ koncipient Krumlovský, bytná konduktorka, obyvatelé domu (malíř, Otýlie atd.)
 
-<img src="/images/content/cj/rozbor-knih-a-cetba/jan-neruda-povidky-malostranske/03.webp" alt="Ilustrace: POVÍDKY MALOSTRANSKÉ" width="641" loading="lazy" decoding="async">__Děj__
+<img src="/images/content/cj/archiv/jan-neruda-povidky-malostranske/03.webp" alt="Ilustrace: POVÍDKY MALOSTRANSKÉ" width="641" loading="lazy" decoding="async">__Děj__
 
 __Jazykové prostředky__
 

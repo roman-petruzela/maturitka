@@ -10,9 +10,9 @@ Osnova podle školního vzdělávacího programu (4.1.1 Český jazyk a literatu
 
 Zařazení děl do uměleckých směrů a historických období. Pokryto přehledem [Literární skupiny a období](/cj/literatura/literarni-skupiny-a-obdobi-prehled-pojmu/) (starověk až po současnost, jedním dokumentem napříč všemi čtyřmi ročníky).
 
-## [Práce s literárním textem](/cj/#rozbor-knih-a-cetba) ✓
+## [Práce s literárním textem](/cj/#rozbory-knih) ✓
 
-Rozeznání uměleckého textu od neuměleckého, uplatnění literární teorie při rozboru — pokryto metodikou [Umělecký a neumělecký text — osnova rozboru](/cj/rozbor-knih-a-cetba/00-umelecky-a-neumelecky-text-osnova-rozboru/) a [Literární druhy a žánry](/cj/mluvnice/literarni-druhy-a-zanry/) (kategorie [Mluvnice](/cj/#mluvnice)). Samotné rozbory konkrétních děl (nejobsáhlejší část webu, přes 90 knih) jsou v kategorii [Rozbor knih a četba](/cj/#rozbor-knih-a-cetba), spolu se [seznamem četby k maturitní zkoušce](/cj/rozbor-knih-a-cetba/zz-seznam-cetby-k-mz/).
+Rozeznání uměleckého textu od neuměleckého, uplatnění literární teorie při rozboru — pokryto osnovami [rozboru uměleckého textu](/cj/ustni-zkouska/02-rozbor-umeleckeho-textu/) a [neuměleckého textu](/cj/ustni-zkouska/03-rozbor-neumeleckeho-textu/) v kategorii [Ústní zkouška](/cj/#ustni-zkouska) a stránkou [Literární druhy a žánry](/cj/literatura/literarni-druhy-a-zanry/). Rozbory děl ze [seznamu četby](/cj/ustni-zkouska/04-seznam-cetby/) jsou v kategorii [Rozbory knih](/cj/#rozbory-knih), starší zápisy v [Archivu](/cj/#archiv).
 
 ## Zdokonalování jazykových vědomostí a dovedností — zatím bez podkladů
 
