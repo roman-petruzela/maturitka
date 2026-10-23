@@ -99,12 +99,12 @@ Plugins run in this order (`astro.config.mjs`): `remarkLineBreaks` → `remarkPr
   global.css): the period's name (a link) and its `dates` (a string, or an array with one line per
   entry) to the right of the axis, the `works` (string or array, joined by commas) to its left; in a
   narrow column (a container query) all text moves to the right. Used for the period overview in
-  `01-cj/02-literatura/literarni-skupiny-a-obdobi-prehled-pojmu.md`. Dates there are only ones the
+  `01-cj/05-literatura/literarni-skupiny-a-obdobi-prehled-pojmu.md`. Dates there are only ones the
   period pages themselves state — don't add a range that the text doesn't support. A `works` entry may
   be a string or `{ "name", "href"?, "rozbor"?: { "href", "title"? } }`; `remark-timeline.ts` links the
   strings by itself: a name that is a heading of the period's own page (`timeline-sources.ts` reads the
   page and takes the heading ids from `search-outline.ts`, so an anchor cannot dangle) becomes a link to
-  it, and the author of exactly one book analysis in `01-cj/04-rozbor-knih-a-cetba` gets the small
+  it, and the author of exactly one book analysis (`03-rozbory-knih`, else `09-archiv`) gets the small
   rozbor icon (`timeline-links.ts` is the pure matcher: accents and case ignored, the part before a
   `(` counts). The timeline HTML is raw, so `rehype-rozbor-link` never sees it — the icon is written
   as markup in `timeline-html.ts`. The pages it reads are not tracked as dependencies: after
@@ -396,11 +396,12 @@ broken.
 
 ## Author portraits (`rehype-author-portrait.ts`)
 
-On the `02-literatura` pages every `###` / `####` heading that names a person gets a figure: the photo
+On the `05-literatura` pages every `###` / `####` heading that names a person gets a figure: the photo
 from `public/images/authors/<slug>.jpg` (slug = the name without `(…)` groups and a `— 2. fáze` tail,
 diacritics stripped), else a silhouette placeholder. Headings that name a period, group or topic
 ("Futurismus", "Prokletí básníci", "Ztracená generace") are listed in `NOT_A_PERSON_RE` and stay plain —
 add a new one there when you write such a heading.
+A page of `04-autori` gets the same figure at its top, for the person its title names.
 CC-licensed photos must show their credit: `public/images/authors/credits.json` (`{ "<slug>": "<author>,
 <licence>" }`); sources go to `CREDITS.md`.
 
@@ -415,6 +416,33 @@ focus. The alt text is shown above it unless it is only the generated "Ilustrace
 marked with `data-zoomable`, **not a class** — a class would end their `img:not([class])` card style. A
 picture inside a link keeps the link, one inside an unrevealed spoiler does not open. The module is
 loaded by `BaseLayout.astro` only on a page that has such a picture.
+
+## Czech literature (`01-cj/`)
+
+Categories: `02-ustni-zkouska` (the structure of the oral exam, the outlines for the literary and the
+non-literary text — both from the school's handouts in `cjl/` — and the school reading list with a link
+per work), `03-rozbory-knih`, `04-autori`, `05-literatura` (periods and theory; URL `/cj/literatura/`),
+`09-archiv` (the analyses converted from the old archive; URL `/cj/archiv/`).
+
+`03-rozbory-knih` holds **only works of the school reading list** (`cjl/Seznam četby k MZ`), one page per
+work, `order` = the number on the list, title "Autor – Dílo" (an en dash; `authorOf()` in
+`timeline-links.ts` splits on it). Every page follows the exam outline in the same order: a line with
+author (link to `04-autori`), year, kind, genre and period (link to the period page); *Stručný obsah*;
+*I. část* (druh a žánr, the passages usually drawn, téma a motivy, časoprostor, kompozice); *II. část*
+(vypravěč / lyrický subjekt, postavy, typy promluv, veršová výstavba — "netýká se" for prose); *III. část*
+(jazykové prostředky, each with what it does); *Literárněhistorický kontext* with three parts:
+*O autorovi* (a paragraph: life as far as it explains the work, where the work stands in the author's
+output, its reception), *Autoři téže doby* (at least two authors of the same period, **at least one of
+them Czech** — each with the work(s) of that time and a few sentences on what the works have in common and
+where they differ) and *Literární směr* (the features of the movement, a few more names). No revision
+questions — the user does not want them on analysis pages. Quote only works that are out of copyright, and
+only a line or two; never quote a modern translation at length. Write only what is certain about a work —
+a detail you cannot vouch for is left out, not guessed. `04-autori` has a page for each author of the list
+(life as far as it explains the work, works with links to the analyses, typical features, context).
+
+Links to an analysis get the small rozbor icon (`rehype-rozbor-link.ts`); one into `/cj/archiv/` is dimmed
+and its tooltip says it is the older one. When a new analysis replaces an archived one, point the links
+of the period pages and of the reading list (`02-ustni-zkouska/04-seznam-cetby.md`) to the new page.
 
 ## Phone layout
 
