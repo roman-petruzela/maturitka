@@ -7,10 +7,12 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { listOrderedDirs } from '../content-fs';
 import { outline, type Heading } from '../search-outline';
-import type { RozborPage } from './timeline-links';
+import { authorOf, type RozborPage } from './timeline-links';
 
 const CONTENT_ROOT = path.resolve(process.cwd(), 'src/content');
-const ROZBOR_URL = '/cj/rozbor-knih-a-cetba/';
+// the analyses written to the exam outline first; an older one from the archive only for an author
+// who has none there
+const ROZBOR_URLS = ['/cj/rozbory-knih/', '/cj/archiv/'];
 
 const headingCache = new Map<string, Heading[]>();
 let rozborCache: RozborPage[] | undefined;
@@ -49,16 +51,27 @@ export function pageHeadings(href: string): Heading[] {
 	return cached;
 }
 
-export function rozborPages(): RozborPage[] {
-	if (rozborCache) return rozborCache;
-	const base = dirFor(ROZBOR_URL.split('/').filter(Boolean));
-	rozborCache = [];
+function pagesIn(url: string): RozborPage[] {
+	const base = dirFor(url.split('/').filter(Boolean));
+	const pages: RozborPage[] = [];
 	if (base && fs.existsSync(base)) {
 		for (const name of fs.readdirSync(base).filter((n) => n.endsWith('.md'))) {
 			const head = front(fs.readFileSync(path.join(base, name), 'utf8'))?.[1] ?? '';
 			const title = /^title:\s*"?(.*?)"?\s*$/m.exec(head)?.[1];
-			if (title) rozborCache.push({ title, href: `${ROZBOR_URL}${name.slice(0, -3)}/` });
+			if (title) pages.push({ title, href: `${url}${name.slice(0, -3)}/` });
 		}
+	}
+	return pages;
+}
+
+export function rozborPages(): RozborPage[] {
+	if (rozborCache) return rozborCache;
+	rozborCache = [];
+	const covered = new Set<string>();
+	for (const url of ROZBOR_URLS) {
+		const pages = pagesIn(url).filter((p) => !covered.has(authorOf(p.title)));
+		rozborCache.push(...pages);
+		for (const p of pages) covered.add(authorOf(p.title));
 	}
 	return rozborCache;
 }

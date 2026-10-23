@@ -35,12 +35,17 @@ export interface RozborPage {
 	href: string;
 }
 
+/** the author part of an analysis title, folded: "Molière - Lakomec" / "Molière – Lakomec" → "moliere" */
+export function authorOf(title: string): string {
+	return fold(title.split(/\s[-–]\s/)[0]);
+}
+
 /** the one analysis whose author is `name` ("Mácha" → "Karel Hynek Mácha - Máj"); two authors of that name, or two books, and none */
 export function rozborFor(name: string, pages: RozborPage[]): RozborPage | undefined {
 	const words = subject(name).split(' ').filter(Boolean);
 	if (!words.length || words.join('').length < 4) return undefined;
 	const hits = pages.filter((p) => {
-		const author = new Set(fold(p.title.split(' - ')[0]).split(' '));
+		const author = new Set(authorOf(p.title).split(' '));
 		return words.every((w) => author.has(w));
 	});
 	return hits.length === 1 ? hits[0] : undefined;

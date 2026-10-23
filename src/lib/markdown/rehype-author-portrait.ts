@@ -95,11 +95,26 @@ function photoFigure(src: string, name: string, credit: string | null): Element 
 // heading tag used all over the site's other subjects for unrelated
 // subsections, and only literatura's author headings should get a
 // photo/placeholder next to them.
-const LITERATURA_PATH_RE = /[/\\]content[/\\]01-cj[/\\]02-literatura[/\\]/;
+const LITERATURA_PATH_RE = /[/\\]content[/\\]01-cj[/\\]\d+-literatura[/\\]/;
+
+// A page of the "Autoři" category is about one person, named by its title: the figure goes to the
+// top of the page instead of under a heading.
+const AUTHOR_PAGE_RE = /[/\\]content[/\\]01-cj[/\\]\d+-autori[/\\]/;
+
+function figureFor(text: string): Element {
+	const src = findAuthorImage(text);
+	const name = text.replace(/(\([^)]*\))\s+[—–]\s.*$/, '$1'); // keep the dates, drop a "— 2. fáze" tail
+	return src ? photoFigure(src, name, findAuthorCredit(text)) : placeholderFigure(name);
+}
 
 export function rehypeAuthorPortrait() {
 	return (tree: Root, file: VFile) => {
 		const filePath = String(file.path ?? file.history[0] ?? '');
+		if (AUTHOR_PAGE_RE.test(filePath)) {
+			const title = (file.data as { astro?: { frontmatter?: { title?: unknown } } }).astro?.frontmatter?.title;
+			if (typeof title === 'string' && title) tree.children.unshift(figureFor(title) as ElementContent);
+			return;
+		}
 		if (!LITERATURA_PATH_RE.test(filePath)) return;
 
 		visit(tree, 'element', (node: Element, index, parent) => {
@@ -107,10 +122,7 @@ export function rehypeAuthorPortrait() {
 			const text = headingText(node);
 			if (!text || NOT_A_PERSON_RE.test(text)) return;
 
-			const src = findAuthorImage(text);
-			const name = text.replace(/(\([^)]*\))\s+[—–]\s.*$/, '$1'); // keep the dates, drop a "— 2. fáze" tail
-			const figure = src ? photoFigure(src, name, findAuthorCredit(text)) : placeholderFigure(name);
-			parent.children.splice(index + 1, 0, figure as ElementContent);
+			parent.children.splice(index + 1, 0, figureFor(text) as ElementContent);
 		});
 	};
 }
