@@ -59,24 +59,16 @@ const PEN_WIDTHS = [
 				}
 			</div>
 			<span class="whiteboard-sep" aria-hidden="true"></span>
-			<div class="whiteboard-exercises" data-whiteboard-exercises>
-				<button
-					type="button"
-					class="whiteboard-exercises-toggle"
-					data-whiteboard-exercises-toggle
-					title="Přidat zadání na tabuli"
-					aria-label="Přidat zadání na tabuli"
-					aria-haspopup="true"
-					aria-expanded="false"
-				>
-					<Icon name="clipboard" size={16} />
-				</button>
-				<div class="whiteboard-exercises-menu" data-whiteboard-exercises-menu hidden>
-					<p class="whiteboard-exercises-empty" data-whiteboard-exercises-empty>
-						Na téhle stránce se nepodařilo najít žádné zadání.
-					</p>
-				</div>
-			</div>
+			<button
+				type="button"
+				class="whiteboard-image"
+				data-whiteboard-image
+				title="Vložit obrázek (nebo Ctrl+V, nebo přetáhnout soubor na tabuli)"
+				aria-label="Vložit obrázek"
+			>
+				<Icon name="image" size={17} />
+			</button>
+			<input type="file" accept="image/*" data-whiteboard-image-input hidden />
 			<span class="whiteboard-sep" aria-hidden="true"></span>
 			<button
 				type="button"
@@ -149,7 +141,7 @@ const PEN_WIDTHS = [
 		</div>
 		<div class="whiteboard-canvas-wrap">
 			<canvas class="whiteboard-canvas" data-whiteboard-canvas></canvas>
-			<p class="whiteboard-hint" data-whiteboard-hint>Piš sem myší, prstem nebo perem… (Shift = rovná čára)</p>
+			<p class="whiteboard-hint" data-whiteboard-hint>Piš sem myší, prstem nebo perem… Dva prsty posouvají a přibližují, ťuknutí dvěma prsty vrátí krok. Shift = rovná čára.</p>
 		</div>
 	</div>
 
@@ -177,7 +169,6 @@ const PEN_WIDTHS = [
 
 <script>
 	import { Whiteboard, createFloatingNote, notePlacement } from '../lib/whiteboard';
-	import { findExercises, buildStatement, buildPreview, type Exercise } from '../lib/exercises';
 
 	type MathField = HTMLElement & { value: string; executeCommand?: (cmd: string) => void };
 
@@ -204,16 +195,6 @@ const PEN_WIDTHS = [
 		bar.addEventListener('focusin', load, { once: true });
 	}
 
-	/** the chapter (the nearest h2 above) a task belongs to, for the dropdown's groups */
-	function sectionOf(el: Element): string | null {
-		let node: Element | null = el;
-		while (node?.parentElement && !node.parentElement.matches('article.topic')) node = node.parentElement;
-		for (let prev = node?.previousElementSibling; prev; prev = prev.previousElementSibling) {
-			if (prev.tagName === 'H2') return (prev.textContent ?? '').trim() || null;
-		}
-		return null;
-	}
-
 	function initScratchpads() {
 		const sections = document.querySelectorAll<HTMLElement>('[data-scratchpad]');
 		sections.forEach((section) => {
@@ -229,7 +210,7 @@ const PEN_WIDTHS = [
 			if (!whiteboardRoot || !canvas || !canvasWrap || !resultField) return;
 
 			const base = `maturitka-scratchpad:${location.pathname}`;
-			const keys = { board: `${base}:board`, result: `${base}:result`, notes: `${base}:notes` };
+			const keys = { board: `${base}:board`, result: `${base}:result`, images: `${base}:images` };
 
 			const undoBtn = section.querySelector<HTMLButtonElement>('[data-whiteboard-undo]');
 			const redoBtn = section.querySelector<HTMLButtonElement>('[data-whiteboard-redo]');
@@ -364,167 +345,135 @@ const PEN_WIDTHS = [
 				});
 			});
 
-			// Tasks in the article get a "⇥ tabule" button next to them, and are
-			// also listed in the "Zadání" dropdown of the whiteboard's own toolbar,
-			// which — unlike the article — stays reachable while the whiteboard is
-			// in fullscreen (the Fullscreen API only renders the fullscreen element
-			// itself, so buttons living outside it become unclickable there).
-			// What counts as a task, and what its statement is, lives in
-			// ../lib/exercises.ts; the note gets a copy of the statement's markup,
-			// so typeset formulas stay formulas.
-			const exercisesToggle = section.querySelector<HTMLButtonElement>('[data-whiteboard-exercises-toggle]');
-			const exercisesMenu = section.querySelector<HTMLElement>('[data-whiteboard-exercises-menu]');
-			const exercisesEmpty = section.querySelector<HTMLElement>('[data-whiteboard-exercises-empty]');
-			const exercisesRoot = section.querySelector<HTMLElement>('[data-whiteboard-exercises]');
+			// Pictures on the board — a photo of a worked problem, a graph, a screenshot of a task:
+			// the toolbar button, Ctrl+V while the board is in use, or a file dropped on it. A picture
+			// is a card on the paper (createFloatingNote), moved by dragging and scaled by its corner,
+			// and kept with the drawing. It is shrunk to MAX_IMAGE px first so a few of them still fit
+			// into localStorage; if they do not, they stay on the board until the page is left.
+			const MAX_IMAGE = 900;
+			const imageBtn = section.querySelector<HTMLButtonElement>('[data-whiteboard-image]');
+			const imageInput = section.querySelector<HTMLInputElement>('[data-whiteboard-image-input]');
+			const images = new Map<HTMLElement, string>();
 
-			const article = document.querySelector('article.topic');
-			const exercises = article ? findExercises(article) : [];
-			// the note of each task that is on the board, by the task's index on the page
-			const notes = new Map<number, HTMLElement>();
-			const sendButtons = new Map<number, HTMLButtonElement>();
-
-			// notes are kept like the drawing: which task, where, how big — so a refresh
-			// brings back the board as it was, statement included
-			const saveNotes = () => {
-				const list = [...notes].map(([i, note]) => ({ i, ...notePlacement(note) }));
-				if (list.length) localStorage.setItem(keys.notes, JSON.stringify(list));
-				else localStorage.removeItem(keys.notes);
+			const saveImages = () => {
+				const list = [...images].map(([note, src]) => ({ src, ...notePlacement(note) }));
+				try {
+					if (list.length) localStorage.setItem(keys.images, JSON.stringify(list));
+					else localStorage.removeItem(keys.images);
+				} catch {
+					// over the storage quota — the pictures stay on the board for this visit only
+				}
 			};
 
-			const markSent = (i: number, sent: boolean) => {
-				const btn = sendButtons.get(i);
-				if (!btn) return;
-				btn.classList.toggle('is-on-board', sent);
-				btn.textContent = sent ? '✓ na tabuli' : '⇥ na tabuli';
-				btn.title = sent ? 'Zadání už je na tabuli — přejít k němu' : 'Přenést zadání na tabuli';
-			};
-
-			// back from the board to the task in the text: leave fullscreen (the article is not
-			// rendered there), scroll to the task and light it up for a moment
-			const showInText = (exercise: Exercise) => {
-				const go = () => {
-					exercise.anchor.scrollIntoView({ behavior: 'smooth', block: 'center' });
-					for (const node of exercise.nodes) {
-						node.classList.remove('is-task-highlight');
-						void node.offsetWidth; // restart the animation
-						node.classList.add('is-task-highlight');
-					}
-				};
-				if (document.fullscreenElement) document.exitFullscreen().then(go, go);
-				else go();
-			};
-
-			const flash = (note: HTMLElement) => {
-				note.classList.remove('is-flash');
-				void note.offsetWidth;
-				note.classList.add('is-flash');
-				// on top of the other notes
-				canvasWrap.append(note);
-			};
-
-			const placeNote = (i: number, placement?: { x: number; y: number; k: number }) => {
-				const exercise = exercises[i];
-				const back = document.createElement('a');
-				back.href = `#`;
-				back.className = 'whiteboard-note-back';
-				back.textContent = '↑ v textu';
-				back.title = 'Ukázat zadání v textu';
-				back.addEventListener('click', (e) => {
-					e.preventDefault();
-					showInText(exercise);
-				});
-				const note = createFloatingNote(canvasWrap, buildStatement(exercise), {
+			const placeImage = (src: string, placement?: { x: number; y: number; k: number }) => {
+				const img = document.createElement('img');
+				img.className = 'whiteboard-note-img';
+				img.src = src;
+				img.alt = 'Obrázek na tabuli';
+				img.draggable = false;
+				const note = createFloatingNote(canvasWrap, img, {
 					...placement,
-					head: back,
-					onChange: saveNotes,
+					onChange: saveImages,
 					onClose: () => {
-						notes.delete(i);
-						markSent(i, false);
-						saveNotes();
+						images.delete(note);
+						saveImages();
 					},
 				});
-				notes.set(i, note);
-				markSent(i, true);
-				return note;
+				note.classList.add('is-image');
+				images.set(note, src);
 			};
 
-			const addNote = (i: number) => {
-				const existing = notes.get(i);
-				if (existing) flash(existing);
-				else {
-					placeNote(i);
-					saveNotes();
-				}
-				if (!document.fullscreenElement) whiteboardRoot.scrollIntoView({ behavior: 'smooth', block: 'center' });
-			};
+			const shrink = (file: Blob) =>
+				new Promise<string>((resolve, reject) => {
+					const url = URL.createObjectURL(file);
+					const picture = new Image();
+					picture.onload = () => {
+						const k = Math.min(1, MAX_IMAGE / Math.max(picture.naturalWidth, picture.naturalHeight));
+						const c = document.createElement('canvas');
+						c.width = Math.max(1, Math.round(picture.naturalWidth * k));
+						c.height = Math.max(1, Math.round(picture.naturalHeight * k));
+						const cx = c.getContext('2d');
+						if (!cx) return reject(new Error('no canvas'));
+						cx.fillStyle = '#fff'; // a transparent PNG would turn black as a JPEG
+						cx.fillRect(0, 0, c.width, c.height);
+						cx.drawImage(picture, 0, 0, c.width, c.height);
+						URL.revokeObjectURL(url);
+						resolve(c.toDataURL('image/jpeg', 0.82));
+					};
+					picture.onerror = () => {
+						URL.revokeObjectURL(url);
+						reject(new Error('not an image'));
+					};
+					picture.src = url;
+				});
 
-			let group: string | null = null;
-			exercises.forEach((exercise, i) => {
-				// two tasks can share a host (a heading's statement paragraph that is
-				// itself numbered) — one button per place is enough
-				if (!exercise.host.querySelector(':scope > .exercise-send-btn')) {
-					const btn = document.createElement('button');
-					btn.type = 'button';
-					btn.className = 'exercise-send-btn';
-					btn.setAttribute('aria-label', 'Přenést úlohu na tabuli');
-					btn.addEventListener('click', () => addNote(i));
-					exercise.host.append(document.createTextNode(' '), btn);
-					sendButtons.set(i, btn);
-					markSent(i, false);
-				}
-
-				if (exercisesMenu) {
-					// the dropdown follows the article's chapters, so a long page stays navigable
-					const heading = sectionOf(exercise.anchor);
-					if (heading && heading !== group) {
-						group = heading;
-						const label = document.createElement('p');
-						label.className = 'whiteboard-exercises-group';
-						label.textContent = heading;
-						exercisesMenu.appendChild(label);
+			const addImages = async (files: Iterable<Blob>) => {
+				for (const file of files) {
+					if (!file.type.startsWith('image/')) continue;
+					try {
+						placeImage(await shrink(file));
+					} catch {
+						// not a picture the browser can read — ignore it
 					}
-					const item = document.createElement('button');
-					item.type = 'button';
-					item.className = 'whiteboard-exercises-item';
-					item.append(buildPreview(exercise));
-					item.addEventListener('click', () => {
-						addNote(i);
-						exercisesMenu.hidden = true;
-						exercisesToggle?.setAttribute('aria-expanded', 'false');
-					});
-					exercisesMenu.appendChild(item);
 				}
+				saveImages();
+			};
+
+			imageBtn?.addEventListener('click', () => imageInput?.click());
+			imageInput?.addEventListener('change', () => {
+				if (imageInput.files) addImages(imageInput.files);
+				imageInput.value = '';
 			});
 
-			if (exercises.length > 0) {
-				exercisesEmpty?.remove();
-				exercisesToggle?.setAttribute('title', `Přidat zadání na tabuli (${exercises.length} na stránce)`);
-			}
+			// Ctrl+V lands on the board only while it is the thing in use: after a press on it, or
+			// in fullscreen — a picture pasted into the page anywhere else is none of its business
+			let boardInUse = false;
+			document.addEventListener('pointerdown', (e) => {
+				boardInUse = whiteboardRoot.contains(e.target as Node);
+			});
+			document.addEventListener('paste', (e) => {
+				if (!boardInUse && document.fullscreenElement !== whiteboardRoot) return;
+				const files = [...(e.clipboardData?.items ?? [])]
+					.filter((item) => item.kind === 'file' && item.type.startsWith('image/'))
+					.map((item) => item.getAsFile())
+					.filter((f): f is File => f !== null);
+				if (!files.length) return;
+				e.preventDefault();
+				addImages(files);
+			});
 
-			// restore the notes left on the board last time (tasks that still exist on the page)
+			canvasWrap.addEventListener('dragover', (e) => {
+				if (![...(e.dataTransfer?.types ?? [])].includes('Files')) return;
+				e.preventDefault();
+				canvasWrap.classList.add('is-drop-target');
+			});
+			canvasWrap.addEventListener('dragleave', () => canvasWrap.classList.remove('is-drop-target'));
+			canvasWrap.addEventListener('drop', (e) => {
+				canvasWrap.classList.remove('is-drop-target');
+				if (!e.dataTransfer?.files.length) return;
+				e.preventDefault();
+				addImages(e.dataTransfer.files);
+			});
+
+			// the pictures left on the board last time
 			try {
-				const saved = JSON.parse(localStorage.getItem(keys.notes) ?? '[]') as {
-					i: number;
+				const saved = JSON.parse(localStorage.getItem(keys.images) ?? '[]') as {
+					src: string;
 					x: number;
 					y: number;
 					k: number;
 				}[];
-				for (const n of saved) if (exercises[n.i] && !notes.has(n.i)) placeNote(n.i, n);
+				for (const n of saved) if (typeof n.src === 'string' && n.src.startsWith('data:image/')) placeImage(n.src, n);
 			} catch {
-				localStorage.removeItem(keys.notes);
+				localStorage.removeItem(keys.images);
 			}
+			// the task notes of the earlier version of the board are gone
+			localStorage.removeItem(`${base}:notes`);
 
-			exercisesToggle?.addEventListener('click', () => {
-				if (!exercisesMenu) return;
-				exercisesMenu.hidden = !exercisesMenu.hidden;
-				exercisesToggle.setAttribute('aria-expanded', String(!exercisesMenu.hidden));
-			});
-			document.addEventListener('click', (e) => {
-				if (!exercisesRoot || !exercisesMenu || exercisesMenu.hidden) return;
-				if (!exercisesRoot.contains(e.target as Node)) {
-					exercisesMenu.hidden = true;
-					exercisesToggle?.setAttribute('aria-expanded', 'false');
-				}
+			clearToolbarBtn?.addEventListener('click', () => {
+				for (const note of images.keys()) note.remove();
+				images.clear();
+				saveImages();
 			});
 		});
 	}
@@ -635,6 +584,7 @@ const PEN_WIDTHS = [
 		background: var(--accent);
 	}
 
+	.whiteboard-image,
 	.whiteboard-undo,
 	.whiteboard-redo,
 	.whiteboard-recenter,
@@ -656,66 +606,6 @@ const PEN_WIDTHS = [
 		cursor: pointer;
 	}
 
-	.whiteboard-exercises {
-		position: relative;
-		margin-left: auto;
-	}
-
-	.whiteboard-exercises-toggle {
-		font-family: var(--sans);
-		font-size: 0.82rem;
-		height: 1.85rem;
-		display: flex;
-		align-items: center;
-		gap: 0.3rem;
-		padding: 0 0.45rem;
-		border-radius: 2px;
-		border: 1px solid var(--border);
-		background: none;
-		color: var(--muted);
-		cursor: pointer;
-	}
-
-	.whiteboard-exercises-toggle:hover,
-	.whiteboard-exercises-toggle[aria-expanded='true'] {
-		color: var(--accent);
-		border-color: var(--accent);
-	}
-
-	.whiteboard-exercises-menu {
-		position: absolute;
-		top: calc(100% + 0.4rem);
-		right: 0;
-		z-index: 20;
-		display: flex;
-		flex-direction: column;
-		gap: 0.15rem;
-		width: 17rem;
-		max-width: 80vw;
-		max-height: 18rem;
-		overflow-y: auto;
-		padding: 0.4rem;
-		background: var(--surface);
-		border: 1px solid var(--border);
-		border-radius: 2px;
-	}
-
-	/* the class selector above has higher specificity than the browser's own
-	   default "[hidden] { display: none }" rule, so it was winning and the
-	   menu stayed visible regardless of the hidden attribute the toggle
-	   button was setting — this rule needs to explicitly win instead */
-	.whiteboard-exercises-menu[hidden] {
-		display: none;
-	}
-
-	.whiteboard-exercises-empty {
-		margin: 0;
-		padding: 0.4rem;
-		font-family: var(--sans);
-		font-size: 0.8rem;
-		color: var(--muted);
-	}
-
 	.whiteboard-undo:disabled,
 	.whiteboard-redo:disabled,
 	.whiteboard-recenter:disabled {
@@ -723,6 +613,7 @@ const PEN_WIDTHS = [
 		cursor: default;
 	}
 
+	.whiteboard-image:hover,
 	.whiteboard-undo:not(:disabled):hover,
 	.whiteboard-redo:not(:disabled):hover,
 	.whiteboard-recenter:not(:disabled):hover,
@@ -753,8 +644,12 @@ const PEN_WIDTHS = [
 		   scale (--wb-s, see whiteboard.ts) — only the line itself stays 1px. Squared
 		   (the default, as in a maths exercise book), ruled or blank: data-paper. */
 		--wb-line: color-mix(in srgb, var(--muted) 14%, transparent);
-		--wb-cell: calc(20px * var(--wb-s, 1));
+		/* zoom and pan (--wb-z, --wb-px / --wb-py, set by whiteboard.ts) move the paper with the drawing */
+		--wb-unit: calc(var(--wb-s, 1) * var(--wb-z, 1));
+		--wb-cell: calc(20px * var(--wb-unit));
+		--wb-row: calc(28px * var(--wb-unit));
 		background-color: #fdfdfb;
+		background-position: calc(var(--wb-px, 0) * var(--wb-s, 1) * 1px) calc(var(--wb-py, 0) * var(--wb-s, 1) * 1px);
 	}
 
 	.whiteboard-canvas-wrap[data-paper='grid'] {
@@ -765,10 +660,8 @@ const PEN_WIDTHS = [
 	}
 
 	.whiteboard-canvas-wrap[data-paper='lines'] {
-		background-image: repeating-linear-gradient(
-			#fdfdfb 0 calc(28px * var(--wb-s, 1) - 1px),
-			var(--wb-line) calc(28px * var(--wb-s, 1) - 1px) calc(28px * var(--wb-s, 1))
-		);
+		background-image: linear-gradient(transparent calc(var(--wb-row) - 1px), var(--wb-line) 0);
+		background-size: 100% var(--wb-row);
 	}
 
 	.whiteboard:fullscreen .whiteboard-canvas-wrap {
@@ -816,22 +709,6 @@ const PEN_WIDTHS = [
 		height: 1px;
 		margin: 0.2rem 0.1rem;
 		background: color-mix(in srgb, var(--muted) 70%, transparent);
-	}
-
-	.whiteboard:fullscreen .whiteboard-exercises {
-		margin-left: 0;
-	}
-
-	.whiteboard:fullscreen .whiteboard-exercises-toggle {
-		width: 2rem;
-		justify-content: center;
-		padding: 0;
-	}
-
-	.whiteboard:fullscreen .whiteboard-exercises-menu {
-		top: 0;
-		left: calc(100% + 0.6rem);
-		right: auto;
 	}
 
 	/* out of flow: the wrap's size comes from its own aspect ratio, never from the

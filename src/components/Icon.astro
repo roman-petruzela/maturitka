@@ -5,7 +5,7 @@
 export type IconName =
 	| 'pencil'
 	| 'eraser'
-	| 'clipboard'
+	| 'image'
 	| 'expand'
 	| 'keyboard'
 	| 'trash'
@@ -55,13 +55,11 @@ const { name, size = 18 } = Astro.props;
 		)
 	}
 	{
-		name === 'clipboard' && (
+		name === 'image' && (
 			<>
-				<rect x="5" y="4.5" width="14" height="17" rx="1.6" />
-				<path d="M9 4.5 A1 1 0 0 1 10 3.5 H14 A1 1 0 0 1 15 4.5 V6 H9 Z" />
-				<path d="M8.5 11 H15.5" />
-				<path d="M8.5 14.3 H15.5" />
-				<path d="M8.5 17.6 H12.5" />
+				<rect x="3.5" y="5" width="17" height="14" rx="1.6" />
+				<circle cx="9" cy="10" r="1.6" />
+				<path d="M4 17.5 L9.5 13 L13 15.8 L16 13.5 L20 16.8" />
 			</>
 		)
 	}
