@@ -196,7 +196,7 @@ old fractional format is migrated on load.
 
 A click without a drag is a dot (a round hole with the eraser) — a stroke of one point is drawn as a
 filled circle — and the brush ring is exactly as wide as the line it draws or the hole it erases (it
-was twice that). A floating task note is resized by dragging the grip in its bottom-right corner
+was twice that). A picture card on the board is resized by dragging the grip in its bottom-right corner
 (the whole note scales with the distance of the pointer from its top-left corner, 0.35–3×, double
 click resets): the factor is `--note-k`, multiplied into `--note-s`, which also drives the note's size
 limits; the grip and the close button grow back as the note shrinks so they stay hittable. In
@@ -213,37 +213,33 @@ discarded, not left as a dot). The recentre button is enabled only while the vie
 `onViewChange` (third constructor argument) tells the toolbar, `syncButtons` in `MathScratchpad.astro`
 keeps the three buttons' `disabled` state in step.
 
-## Whiteboard tasks (`src/lib/exercises.ts`, `MathScratchpad.astro`)
+### Touch, pen and touchpad
 
-The math whiteboard offers a "⇥ na tabuli" button next to each task and a "Zadání" dropdown
-(grouped by the article's `h2` chapters). `findExercises()` recognises the styles the content is
-actually written in: an `<ol>` item, a numbered/lettered paragraph (`**3.**`, `**a)**`,
-didactic-test `**13p)**`), a labelled one (`**Příklad 2:**`, `**Př. 1:**`), a task heading
-(`## Úkol 10`, `### Ukázkový příklad`) and bullets under a "Úkoly / Procvičování" heading. The
-statement ends at `Řešení:` / `Výsledek:` … (`SOLUTION_RE`), a heading or a graph; parts (`a) …`,
-options `A) …`) belong to it, and so does a **data table** right below a statement that ends with a
-colon or mentions "tabulka" (plus the question asked under the table). A note gets a **copy of the
-DOM** (typeset formulas survive; spoilers, buttons and ids are stripped).
+Each stroke belongs to one pointer (`currentPointer`): moves of any other pointer never extend it — they
+used to, and two fingers (or a pen and a resting palm) drew straight lines between the two places. A second
+finger discards the stroke the first one began and starts a pinch (zoom + pan); a quick two-finger tap that
+hardly moves (< 300 ms, < 10 px) is **undo**. Once a **pen** has touched the board (`penSeen`) fingers stop
+drawing — one finger pans, two pinch — and a touch wider than `PALM` (40 px) is ignored (palm rejection,
+as in GoodNotes / Procreate). A touchpad pinch arrives as Ctrl+wheel (zoom); a two-finger scroll pans the
+paper only in fullscreen or when already zoomed in, otherwise it scrolls the page. Pointer moves are drawn
+once per animation frame (`requestRedraw`), coalesced events are used for smooth fast strokes and strokes
+are drawn as quadratic curves through the segment midpoints; the canvas rect is cached per gesture.
 
-Not every numbered or lettered line is a task. A lettered paragraph or a list item counts only if it
-**asks something** (`asksSomething()`: an instruction such as "Určete", "Načrtni", a question, or
-nothing but a formula) or hangs from a line / heading that does ("**5.** Zjednodušte:" + parts); a
-lettered line below the "Řešení:" of a task is a solution step, a line already shown inside the
-statement above is not offered twice. That keeps theory ("a) pomocí vzorce:"), topic outlines and
-method steps ("Nerovnici převedeme na rovnici …") without a button. Digit-numbered tasks are taken
-as they are. In content, write an illustration that already shows its result as "**Například:** …",
-never "**Příklad:** …" — "Příklad" means a task and gets a button; answers go in spoilers
-(`Řešení: ||…||`), never as plain text right after the statement.
+The paper (squares / lines) and the pictures are HTML around the canvas: `syncView()` publishes the view as
+`--wb-z` (zoom) and `--wb-px` / `--wb-py` (pan, paper units) next to `--wb-s`, so they zoom and pan with
+the drawing; a picture is dragged in paper units (`boardScale` = fit × zoom).
 
-`node scripts/list-exercises.mjs` runs the real `findExercises()` against `dist/mat` through a
-parse5-backed DOM shim (`--summary` for counts per page, a path filter as argument): compare its
-output before and after touching the rules or the content.
+## Pictures on the whiteboard (`MathScratchpad.astro`)
 
-The notes on the board are linked back: "↑ v textu" scrolls to the task (leaving fullscreen) and
-lights it up; a task already on the board shows "✓ na tabuli" and sending it again flashes its note
-instead of adding a copy. Notes are saved with the drawing (`…:notes` in localStorage: task index,
-position, scale) and restored on the next visit. The paper is squared by default (a maths exercise
-book), ruled or blank — one choice for all pages; Shift while drawing makes a straight line.
+The board used to offer every task of the page ("⇥ na tabuli" buttons, a "Zadání" dropdown, notes linked
+back to the text). The user found it pointless, so it was removed (with `exercises.ts` and its listing
+script); the board is only for drawing. Instead a **picture** can be put on it: the toolbar button (file
+picker), **Ctrl+V** while the board is in use (after a press on it, or in fullscreen — a paste elsewhere on
+the page is left alone) or a file **dropped** on the paper. The picture is shrunk to `MAX_IMAGE` (900 px)
+and stored as a JPEG data URL, and becomes a card made by `createFloatingNote` (`.whiteboard-note.is-image`):
+moved by dragging, scaled by the corner grip, closed by ×. Pictures are saved with the drawing under
+`…:images` (data URL, position, scale); when localStorage is full they stay for the visit only. "Vymazat
+vše" removes them too. The old `…:notes` key is dropped on load.
 
 ## Math reference (`02-mat/01-reference/`)
 
