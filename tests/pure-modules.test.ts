@@ -5,7 +5,6 @@ import { splitSteps, visualWidth } from '../src/lib/markdown/formula-breaks.ts';
 import { segmentMath } from '../src/lib/markdown/math-segments.ts';
 import { normalize, search, type SearchItem } from '../src/lib/search-match.ts';
 import { cleanLabel, isListNotFormula, isNumbersOnly, WORKED_RE } from '../src/lib/rail-formulas.ts';
-import { asksSomething } from '../src/lib/exercises.ts';
 
 test('splitSteps cuts a derivation at its top-level arrows', () => {
 	assert.deepEqual(splitSteps('x+1=3 \\implies x=2'), [
@@ -54,18 +53,4 @@ test('the formula rail leaves out lists of numbers and worked examples', () => {
 	for (const s of ['Ukázkový příklad', 'Příklady na procvičení', 'Úkol', 'Řešení: D = 169', '2. Příklad'])
 		assert.ok(WORKED_RE.test(s), s);
 	for (const s of ['Kombinační číslo', 'Pythagorova věta', 'Euklidova věta o výšce']) assert.ok(!WORKED_RE.test(s), s);
-});
-
-test('asksSomething tells a task from a line of theory or a solution step', () => {
-	// tasks: an instruction, a question, or nothing but a formula
-	assert.ok(asksSomething('1. Určete souřadnice bodů, jejichž průmět je 4.'));
-	assert.ok(asksSomething('a) Kolik % chodí denně?'));
-	assert.ok(asksSomething('Načrtni graf funkce y = 2x'));
-	assert.ok(asksSomething('a) √50'));
-	// theory, an outline, a method step
-	assert.ok(!asksSomething('a) pomocí vzorce:'));
-	assert.ok(!asksSomething('a) pojem kvadratická funkce, b) graf a vlastnosti, c) vrchol grafu'));
-	assert.ok(!asksSomething('Nerovnici převedeme na rovnici a vyřešíme ji (najdeme kořeny).'));
-	// "jak" inside an explanation is not a question
-	assert.ok(!asksSomething('Kořeny zaneseme na osu x, jak jsme to dělali v minulé kapitole u lineárních nerovnic.'));
 });

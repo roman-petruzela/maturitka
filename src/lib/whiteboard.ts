@@ -57,6 +57,19 @@ export class Whiteboard {
 	private touches = new Map<number, Point>();
 	private pinch: { dist: number; zoom: number; under: Point } | null = null;
 
+	// The pointer that draws the stroke under way. Only its moves extend the stroke — every move of
+	// every finger used to be appended to it, so two fingers (or a pen and a resting palm) drew a
+	// zigzag of straight lines between the two places.
+	private currentPointer: number | null = null;
+	// Once a stylus has touched the board, fingers stop drawing (palm rejection, as in GoodNotes or
+	// Procreate): one finger then pans, two pinch.
+	private penSeen = false;
+	private fingerPan: { id: number; x: number; y: number; panX: number; panY: number } | null = null;
+	// A quick two-finger tap that hardly moves is "undo", as in most drawing apps.
+	private twoTap: { time: number; start: Map<number, Point>; moved: boolean } | null = null;
+	// a touch this wide is a palm or the side of a hand, not a fingertip (CSS px)
+	private static readonly PALM = 40;
+
 	// middle-click-drag panning state
 	private panPointerId: number | null = null;
 	private panStartClientX = 0;
@@ -95,6 +108,13 @@ export class Whiteboard {
 		this.canvas.addEventListener('pointerenter', this.handlePointerEnter);
 		this.canvas.addEventListener('pointerleave', this.handlePointerLeave);
 		this.canvas.addEventListener('wheel', this.handleWheel, { passive: false });
+		window.addEventListener(
+			'scroll',
+			() => {
+				this.rectCache = null;
+			},
+			{ passive: true, capture: true }
+		);
 	}
 
 	setColor(color: string) {
@@ -160,7 +180,7 @@ export class Whiteboard {
 		this.zoom = 1;
 		this.panX = 0;
 		this.panY = 0;
-		this.redraw();
+		this.requestRedraw();
 		this.onViewChange();
 	}
 
@@ -198,6 +218,7 @@ export class Whiteboard {
 	// entering/leaving fullscreen, page zoom…): re-maps the backing pixel buffer,
 	// recomputes the fit and redraws — the drawing itself is untouched
 	resize() {
+		this.rectCache = null;
 		const rect = this.canvas.getBoundingClientRect();
 		const dpr = window.devicePixelRatio || 1;
 		this.canvas.width = Math.max(1, Math.round(rect.width * dpr));
@@ -211,8 +232,28 @@ export class Whiteboard {
 	}
 
 	// client (viewport) coordinates → paper units, undoing zoom and pan
+	// The canvas's place on the screen, read once per gesture: asking the layout for it on every
+	// pointer move (several per frame) is what made drawing stutter. Dropped when the page scrolls
+	// or the board is resized, re-read when next needed.
+	private rectCache: DOMRect | null = null;
+	private rect(): DOMRect {
+		this.rectCache ??= this.canvas.getBoundingClientRect();
+		return this.rectCache;
+	}
+
+	// One repaint per frame at most: pointer moves come faster than the screen refreshes, and each
+	// used to redraw the whole board.
+	private frame = 0;
+	private requestRedraw() {
+		if (this.frame) return;
+		this.frame = requestAnimationFrame(() => {
+			this.frame = 0;
+			this.redraw();
+		});
+	}
+
 	private toPaper(clientX: number, clientY: number): Point {
-		const rect = this.canvas.getBoundingClientRect();
+		const rect = this.rect();
 		return {
 			x: ((clientX - rect.left) / this.fit - this.panX) / this.zoom,
 			y: ((clientY - rect.top) / this.fit - this.panY) / this.zoom,
@@ -224,7 +265,7 @@ export class Whiteboard {
 	// was pushing past its limit) — used to flash the "can't go further" border
 	// during an active drag.
 	private clampPan(): boolean {
-		const rect = this.canvas.getBoundingClientRect();
+		const rect = this.rect();
 		const viewW = rect.width / this.fit;
 		const viewH = rect.height / this.fit;
 		const m = Whiteboard.PAN_MARGIN;
@@ -242,9 +283,22 @@ export class Whiteboard {
 	}
 
 	private handleWheel = (e: WheelEvent) => {
-		if (!(e.ctrlKey || e.metaKey)) return;
+		if (!(e.ctrlKey || e.metaKey)) {
+			// a touchpad's two-finger scroll (or a mouse wheel) moves the paper — but only where the
+			// board is the whole screen or already zoomed in; otherwise it scrolls the page as usual
+			const fullscreen = document.fullscreenElement?.contains(this.canvas) ?? false;
+			if (!fullscreen && this.zoom === 1) return;
+			e.preventDefault();
+			const unit = e.deltaMode === 1 ? 16 : 1;
+			this.panX -= (e.deltaX * unit) / this.fit;
+			this.panY -= (e.deltaY * unit) / this.fit;
+			this.clampPan();
+			this.requestRedraw();
+			this.onViewChange();
+			return;
+		}
 		e.preventDefault();
-		const rect = this.canvas.getBoundingClientRect();
+		const rect = this.rect();
 		// the paper point under the cursor, before the zoom changes
 		const under = this.toPaper(e.clientX, e.clientY);
 
@@ -256,7 +310,7 @@ export class Whiteboard {
 		this.panY = (e.clientY - rect.top) / this.fit - under.y * zoom;
 		this.zoom = zoom;
 		this.clampPan();
-		this.redraw();
+		this.requestRedraw();
 		this.onViewChange();
 	};
 
@@ -284,18 +338,31 @@ export class Whiteboard {
 			return;
 		}
 		if (e.button !== undefined && e.button !== 0 && e.pointerType === 'mouse') return;
+		this.rectCache = null;
 		this.canvas.setPointerCapture(e.pointerId);
 		this.canvas.focus({ preventScroll: true });
+		if (e.pointerType === 'pen') this.penSeen = true;
 		if (e.pointerType === 'touch') {
+			if (e.width > Whiteboard.PALM && e.height > Whiteboard.PALM) return; // a palm
 			this.touches.set(e.pointerId, { x: e.clientX, y: e.clientY });
 			if (this.touches.size === 2) {
 				// the second finger: what the first one had begun was the start of a pinch, not a stroke
-				this.discardCurrent();
+				if (this.currentPointer !== null && this.touches.has(this.currentPointer)) this.discardCurrent();
+				this.fingerPan = null;
 				this.beginPinch();
+				this.twoTap = { time: performance.now(), start: new Map(this.touches), moved: false };
 				return;
 			}
 			if (this.touches.size > 2) return;
+			if (this.penSeen) {
+				// the stylus draws; a finger moves the paper
+				this.fingerPan = { id: e.pointerId, x: e.clientX, y: e.clientY, panX: this.panX, panY: this.panY };
+				return;
+			}
 		}
+		// something is drawing already (a pen, and now a stray finger) — one stroke at a time
+		if (this.current) return;
+		this.currentPointer = e.pointerId;
 		const width = this.mode === 'erase' ? this.width * 3 : this.width;
 		this.current = { points: [this.toPaper(e.clientX, e.clientY)], color: this.color, width, mode: this.mode };
 		this.strokes.push(this.current);
@@ -308,24 +375,37 @@ export class Whiteboard {
 			this.panX = this.panStartX + (e.clientX - this.panStartClientX) / this.fit;
 			this.panY = this.panStartY + (e.clientY - this.panStartClientY) / this.fit;
 			this.setPanLimitIndicator(this.clampPan());
-			this.redraw();
+			this.requestRedraw();
 			this.onViewChange();
 			return;
 		}
 		if (this.touches.has(e.pointerId)) {
 			this.touches.set(e.pointerId, { x: e.clientX, y: e.clientY });
+			const start = this.twoTap?.start.get(e.pointerId);
+			if (this.twoTap && start && Math.hypot(e.clientX - start.x, e.clientY - start.y) > 10) this.twoTap.moved = true;
 			if (this.pinch) {
 				this.movePinch();
 				return;
 			}
 		}
-		this.updateCursorIndicator(e);
-		if (!this.current) return;
-		const p = this.toPaper(e.clientX, e.clientY);
+		if (this.fingerPan?.id === e.pointerId) {
+			this.panX = this.fingerPan.panX + (e.clientX - this.fingerPan.x) / this.fit;
+			this.panY = this.fingerPan.panY + (e.clientY - this.fingerPan.y) / this.fit;
+			this.clampPan();
+			this.requestRedraw();
+			this.onViewChange();
+			return;
+		}
+		if (e.pointerType !== 'touch') this.updateCursorIndicator(e);
+		if (!this.current || e.pointerId !== this.currentPointer) return;
 		// Shift: a straight line from where the stroke began (axes, fraction bars, underlining)
-		if (e.shiftKey) this.current.points = [this.current.points[0], p];
-		else this.current.points.push(p);
-		this.redraw();
+		if (e.shiftKey) this.current.points = [this.current.points[0], this.toPaper(e.clientX, e.clientY)];
+		else {
+			// all the positions the browser merged into this event — a fast stroke stays a curve
+			const moves = e.getCoalescedEvents?.() ?? [];
+			for (const m of moves.length ? moves : [e]) this.current.points.push(this.toPaper(m.clientX, m.clientY));
+		}
+		this.requestRedraw();
 	};
 
 	// The two fingers: the zoom follows the distance between them, and the paper point that was
@@ -339,7 +419,7 @@ export class Whiteboard {
 	private movePinch() {
 		if (!this.pinch || this.touches.size < 2) return;
 		const [a, b] = [...this.touches.values()];
-		const rect = this.canvas.getBoundingClientRect();
+		const rect = this.rect();
 		const zoom = Math.min(
 			8,
 			Math.max(0.5, (this.pinch.zoom * (Math.hypot(a.x - b.x, a.y - b.y) || 1)) / this.pinch.dist)
@@ -348,7 +428,7 @@ export class Whiteboard {
 		this.panY = ((a.y + b.y) / 2 - rect.top) / this.fit - this.pinch.under.y * zoom;
 		this.zoom = zoom;
 		this.clampPan();
-		this.redraw();
+		this.requestRedraw();
 		this.onViewChange();
 	}
 
@@ -358,6 +438,7 @@ export class Whiteboard {
 		const i = this.strokes.lastIndexOf(this.current);
 		if (i >= 0) this.strokes.splice(i, 1);
 		this.current = null;
+		this.currentPointer = null;
 		this.redraw();
 	}
 
@@ -368,6 +449,14 @@ export class Whiteboard {
 			return;
 		}
 		if (this.touches.delete(e.pointerId) && this.touches.size < 2) this.pinch = null;
+		if (this.fingerPan?.id === e.pointerId) this.fingerPan = null;
+		if (this.twoTap && this.touches.size === 0) {
+			const tap = this.twoTap;
+			this.twoTap = null;
+			if (!tap.moved && performance.now() - tap.time < 300 && e.type === 'pointerup') this.undo();
+		}
+		if (e.pointerId !== this.currentPointer) return;
+		this.currentPointer = null;
 		if (!this.current) return;
 		this.history.push({ kind: 'stroke', stroke: this.current });
 		this.future = [];
@@ -376,6 +465,7 @@ export class Whiteboard {
 	};
 
 	private handlePointerEnter = (e: PointerEvent) => {
+		if (e.pointerType === 'touch') return; // no brush ring under a finger
 		this.cursorEl.style.display = 'block';
 		this.updateCursorIndicator(e);
 	};
@@ -389,7 +479,7 @@ export class Whiteboard {
 	// width * fit * zoom. That is the circle's diameter, no more: it used to be
 	// twice that, so the eraser's ring showed a hole twice as big as the one it cut.
 	private updateCursorIndicator(e: PointerEvent) {
-		const rect = this.canvas.getBoundingClientRect();
+		const rect = this.rect();
 		const effectiveWidth = this.mode === 'erase' ? this.width * 3 : this.width;
 		const diameter = Math.max(6, effectiveWidth * this.fit * this.zoom);
 		this.cursorEl.style.width = `${diameter}px`;
@@ -405,7 +495,18 @@ export class Whiteboard {
 		}
 	}
 
+	// the paper and the pictures are HTML, not part of the canvas: they follow zoom and pan through
+	// these custom properties (whiteboard.css, MathScratchpad.astro)
+	private syncView() {
+		const style = this.canvas.parentElement?.style;
+		if (!style) return;
+		style.setProperty('--wb-z', String(this.zoom));
+		style.setProperty('--wb-px', String(this.panX));
+		style.setProperty('--wb-py', String(this.panY));
+	}
+
 	private redraw() {
+		this.syncView();
 		const { ctx, canvas } = this;
 		const dpr = window.devicePixelRatio || 1;
 		// clear in identity space (the whole physical buffer), then draw in paper
@@ -432,9 +533,17 @@ export class Whiteboard {
 			ctx.strokeStyle = stroke.color;
 			ctx.lineWidth = stroke.width;
 			ctx.beginPath();
-			const [first, ...rest] = stroke.points;
-			ctx.moveTo(first.x, first.y);
-			for (const p of rest) ctx.lineTo(p.x, p.y);
+			// a curve through the midpoints of the segments, each recorded point its control point —
+			// smooth instead of the polyline's visible corners
+			const pts = stroke.points;
+			ctx.moveTo(pts[0].x, pts[0].y);
+			for (let i = 1; i < pts.length - 1; i++) {
+				const mx = (pts[i].x + pts[i + 1].x) / 2;
+				const my = (pts[i].y + pts[i + 1].y) / 2;
+				ctx.quadraticCurveTo(pts[i].x, pts[i].y, mx, my);
+			}
+			const last = pts[pts.length - 1];
+			ctx.lineTo(last.x, last.y);
 			ctx.stroke();
 		}
 		ctx.globalCompositeOperation = 'source-over';
@@ -448,7 +557,7 @@ const NOTE_GRIP =
 const NOTE_MIN_K = 0.35;
 const NOTE_MAX_K = 3;
 
-// A small draggable "sticky note" showing an exercise's statement, floated over
+// A small draggable card (a picture the reader put on the board), floated over
 // the whiteboard canvas so it stays visible while working the problem.
 // `content` is either plain text or already-built markup (a copy of the
 // statement as typeset in the article, so formulas stay formulas).
@@ -485,7 +594,10 @@ export function notePlacement(note: HTMLElement) {
 
 export function createFloatingNote(container: HTMLElement, content: string | Node, options: NoteOptions = {}) {
 	const existingCount = container.querySelectorAll('.whiteboard-note').length;
-	const boardScale = () => parseFloat(container.style.getPropertyValue('--wb-s')) || 1;
+	// px per paper unit on screen: the board's fit times the user's zoom
+	const boardScale = () =>
+		(parseFloat(container.style.getPropertyValue('--wb-s')) || 1) *
+		(parseFloat(container.style.getPropertyValue('--wb-z')) || 1);
 
 	const note = document.createElement('div');
 	note.className = 'whiteboard-note';
@@ -511,7 +623,7 @@ export function createFloatingNote(container: HTMLElement, content: string | Nod
 	const grip = document.createElement('div');
 	grip.className = 'whiteboard-note-resize';
 	grip.innerHTML = NOTE_GRIP;
-	grip.title = 'Táhni pro změnu velikosti zadání (dvojklik = původní velikost)';
+	grip.title = 'Táhni pro změnu velikosti (dvojklik = původní velikost)';
 
 	if (options.head) {
 		const head = document.createElement('div');
