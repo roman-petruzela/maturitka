@@ -1,6 +1,6 @@
 ---
 title: "Zabezpečení sítí, aplikací a monitorování"
-order: 2
+order: 5
 tags: ["doplněno"]
 ---
 
@@ -10,6 +10,7 @@ tags: ["doplněno"]
 - XSS (Cross-Site Scripting) – útočník vloží do webové stránky škodlivý skript (typicky JavaScript), který se spustí v prohlížeči jiného uživatele; umožňuje krádež přihlašovacích souborů cookie, přesměrování nebo modifikaci zobrazeného obsahu
 	- Uložený (stored) XSS – škodlivý kód se trvale uloží na serveru (např. v komentáři) a spouští se každému, kdo si stránku zobrazí
 	- Odražený (reflected) XSS – kód je součástí odkazu a spustí se jen při jeho otevření
+	- Slepý (blind) XSS – druh uloženého XSS, kdy se kód nespustí útočníkovi ani běžným návštěvníkům, ale až později jinde – typicky v administraci, kde správce prochází odeslané formuláře, zprávy nebo logy; útočník výsledek nevidí přímo
 	- Ochrana – důsledné escapování/kódování výstupu, validace vstupu, hlavička Content-Security-Policy
 - SQL injection – vložení škodlivého SQL kódu do vstupního pole, které aplikace nesprávně zabuduje přímo do databázového dotazu; umožňuje obejít přihlášení, číst nebo mazat cizí data
 	- Ochrana – parametrizované dotazy (prepared statements), ORM vrstvy, validace vstupu, princip minimálních oprávnění databázového účtu
@@ -20,6 +21,64 @@ tags: ["doplněno"]
 - Personalizovaný obsah a doporučovací systémy – řada webů (sociální sítě, e-shopy, streamovací služby) zobrazuje obsah vybraný algoritmem na základě chování uživatele (historie prohlížení, nákupy, interakce)
 	- Rozpoznávací znaky algoritmicky doporučeného obsahu – označení typu „doporučeno pro vás“, „protože jste sledovali...“, sponzorovaný/placený obsah, odlišnost obsahu při přihlášení oproti anonymnímu zobrazení
 	- Riziko – tzv. bublina filtrů (filter bubble), kdy algoritmus uživateli ukazuje jen obsah potvrzující jeho dosavadní preference, což souvisí i s šířením dezinformací a manipulativního obsahu
+
+## OWASP Top 10
+
+**OWASP** (Open Worldwide Application Security Project) je nezisková komunita, která vydává seznam **deseti nejzávažnějších rizik webových aplikací**. Verze z roku 2021:
+
+| Pořadí | Riziko | Co to znamená | Obrana |
+| --- | --- | --- | --- |
+| A01 | **Broken Access Control** – chybné řízení přístupu | uživatel se dostane k cizím datům nebo funkcím (změnou ID v URL, přímým odkazem do administrace) | kontrola oprávnění na serveru u každého požadavku, výchozí zákaz |
+| A02 | **Cryptographic Failures** – selhání kryptografie | citlivá data přenášená bez HTTPS, hesla uložená čitelně nebo slabým hashem | HTTPS všude, silné algoritmy, hesla jen jako hash se solí |
+| A03 | **Injection** – vsunutí kódu | SQL injection, XSS, vsunutí příkazů systému | parametrizované dotazy, escapování výstupu, validace vstupu |
+| A04 | **Insecure Design** – nebezpečný návrh | chyba už v návrhu (např. obnova hesla jen přes kontrolní otázku) | bezpečnost řešit od začátku, modelování hrozeb |
+| A05 | **Security Misconfiguration** – chybná konfigurace | výchozí hesla, zapnuté ladicí výpisy, výpis adresářů, zbytečné služby | zabezpečená výchozí nastavení, vypnout nepotřebné |
+| A06 | **Vulnerable and Outdated Components** – zranitelné komponenty | zastaralý redakční systém, knihovny a pluginy se známými chybami | aktualizace, sledování zranitelností použitých knihoven |
+| A07 | **Identification and Authentication Failures** – chybné ověřování | slabá hesla, neomezený počet pokusů o přihlášení, špatně řešené relace | MFA, omezení pokusů, bezpečné cookies relace |
+| A08 | **Software and Data Integrity Failures** – narušení integrity | aktualizace nebo knihovny z neověřeného zdroje, nepodepsaný kód | digitální podpisy, ověřené zdroje |
+| A09 | **Security Logging and Monitoring Failures** – chybí logování | útok proběhne bez povšimnutí, není z čeho zjistit, co se stalo | logovat přihlášení a chyby, sledovat je (SIEM) |
+| A10 | **Server-Side Request Forgery** (SSRF) | server lze přimět, aby stáhl adresu zadanou útočníkem – i z vnitřní sítě | povolit jen schválené cíle, oddělit vnitřní síť |
+
+Seznam se aktualizuje přibližně po čtyřech letech; aktuální verze je na <https://owasp.org/Top10/>.
+
+## Protokol HTTP
+
+**HTTP** (Hypertext Transfer Protocol) je protokol aplikační vrstvy, kterým prohlížeč (klient) komunikuje s webovým serverem (port 80, šifrovaná verze **HTTPS** port 443). Komunikace probíhá jako **požadavek** (request) a **odpověď** (response); HTTP je **bezstavový** – každý požadavek je samostatný, přihlášení se proto drží pomocí **cookies** a relací (session).
+
+Požadavek obsahuje **metodu**, adresu, **hlavičky** (Host, User-Agent, Cookie…) a případně tělo:
+
+```
+GET /index.php?stranka=2 HTTP/1.1
+Host: www.example.cz
+```
+
+### Metody
+
+| Metoda | Účel |
+| --- | --- |
+| **GET** | získání dokumentu; parametry jsou v URL (viditelné, uloží se do historie) |
+| **POST** | odeslání dat na server v těle požadavku (formuláře, přihlášení, nahrání souboru) |
+| **PUT** | nahrání nebo nahrazení dokumentu |
+| **PATCH** | částečná změna dokumentu |
+| **DELETE** | smazání dokumentu |
+| **HEAD** | jako GET, ale vrátí jen hlavičky (zjištění, zda dokument existuje a kdy se změnil) |
+| **OPTIONS** | zjištění, jaké metody server pro danou adresu podporuje |
+
+GET a POST z pohledu webového programování viz [dynamické stránky](/it/webove-programovani/01-dynamicke-stranky-a-serverove-skriptovani/#get-vs-post). Ani POST data **nešifruje** – utajení zajistí jen HTTPS.
+
+### Stavové kódy
+
+Odpověď začíná trojmístným **stavovým kódem**; první číslice určuje skupinu:
+
+| Skupina | Význam | Nejčastější kódy |
+| --- | --- | --- |
+| **1xx** | informační | 101 Switching Protocols (přechod na WebSocket) |
+| **2xx** | úspěch | **200 OK**, 201 Created (vytvořeno), 204 No Content |
+| **3xx** | přesměrování | **301 Moved Permanently** (trvale), 302 Found (dočasně), 304 Not Modified (použij verzi z mezipaměti) |
+| **4xx** | chyba klienta | 400 Bad Request (chybný požadavek), **401 Unauthorized** (chybí přihlášení), **403 Forbidden** (přístup zakázán), **404 Not Found**, 429 Too Many Requests (překročen limit požadavků) |
+| **5xx** | chyba serveru | **500 Internal Server Error**, 502 Bad Gateway, **503 Service Unavailable** (přetížení, údržba), 504 Gateway Timeout |
+
+Z pohledu bezpečnosti: velké množství odpovědí **401/403** v logu prozrazuje pokusy o neoprávněný přístup, množství **404** procházení webu automatickým skenerem a náhlý nárůst **503** přetížení serveru (např. DoS). Chybová stránka 500 nesmí uživateli vypisovat podrobnosti o chybě (cesty, SQL dotazy) – to je chybná konfigurace (A05).
 
 ## Základní principy síťové komunikace a protokolů
 

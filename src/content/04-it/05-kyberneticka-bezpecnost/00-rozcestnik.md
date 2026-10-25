@@ -37,8 +37,11 @@ Plné znění výstupů je v [přehledu ŠVP](/it/reference/svp-prehled/#4912-ky
 
 ## Témata kategorie
 
-- [Základy kybernetické bezpečnosti, útoky, kryptografie a identity](/it/kyberneticka-bezpecnost/01-zaklady-a-utoky/) – kyberprostor, riziko, digitální stopa, Kill Chain, typy útoků, SQL injection v praxi, šifrování, PKI, autentizace, hashování hesel, správa identit, koncové body
-- [Zabezpečení sítí, aplikací a monitorování](/it/kyberneticka-bezpecnost/02-zabezpeceni-siti-a-aplikaci/) – XSS, SQL injection, CSRF, protokoly a síťové prvky z pohledu bezpečnosti, monitorování, IPS, logy, SOC, TryHackMe
+- [Základy kybernetické bezpečnosti](/it/kyberneticka-bezpecnost/01-zaklady-kyberneticke-bezpecnosti/) – kyberprostor a jeho vrstvy, soukromí, triáda CIA, riziko, hrozba, zranitelnost, digitální stopa, koncové body
+- [Kybernetické útoky](/it/kyberneticka-bezpecnost/02-kyberneticke-utoky/) – Kill Chain, kategorie a typy útoků, SQL injection v praxi
+- [Základy kryptografie a šifrování](/it/kyberneticka-bezpecnost/03-kryptografie-a-sifrovani/) – historické šifry, symetrické a asymetrické šifrování, RSA, PKI a certifikáty, hashovací funkce, digitální podpis
+- [Správa identit a řízení účtů](/it/kyberneticka-bezpecnost/04-sprava-identit-a-rizeni-uctu/) – IAAA, autentizace a MFA, hashování hesel, správa identit, least privilege, práva ve Windows a Linuxu
+- [Zabezpečení sítí, aplikací a monitorování](/it/kyberneticka-bezpecnost/05-zabezpeceni-siti-a-aplikaci/) – XSS, SQL injection, CSRF, OWASP Top 10, protokol HTTP, protokoly a síťové prvky z pohledu bezpečnosti, monitorování, IPS, logy, SOC, TryHackMe
 
 Související stránky v jiných kategoriích: [malware](/it/operacni-systemy/26-malware/), [antiviry](/it/operacni-systemy/25-antivirove-programy/), [firewall](/it/operacni-systemy/27-firewall/), [hesla a jejich lámání](/it/operacni-systemy/11-uzivatelske-ucty-a-hesla/), [oprávnění ve Windows](/it/operacni-systemy/13-uzivatelska-prava-a-opravneni/), [SSH s klíčem](/it/operacni-systemy/50-ssh-vzdaleny-pristup-a-autentizace-klicem/), [bezpečnost, správa a diagnostika sítě](/it/pocitacove-site/20-bezpecnost-sprava-a-diagnostika-site/), [DNS](/it/pocitacove-site/17-dns-system-domenovych-jmen/).
 
@@ -48,13 +51,13 @@ Kompletní seznam je v [maturitních okruzích IT](/it/reference/maturitni-okruh
 
 | Okruh | Stránky |
 | --- | --- |
-| [16) Základy kybernetické bezpečnosti](/it/reference/maturitni-okruhy/#16-základy-kybernetické-bezpečnosti) | [kyberprostor, riziko, hrozba, zranitelnost, digitální stopa](/it/kyberneticka-bezpecnost/01-zaklady-a-utoky/#kybernetický-prostor-a-kybernetická-bezpečnost) |
-| [17) Kybernetické útoky](/it/reference/maturitni-okruhy/#17-kybernetické-útoky) | [fáze a kategorie útoků](/it/kyberneticka-bezpecnost/01-zaklady-a-utoky/#kybernetický-útok--fáze-a-kategorie), [malware](/it/operacni-systemy/26-malware/) |
-| [18) Základy kryptografie a šifrování](/it/reference/maturitni-okruhy/#18-základy-kryptografie-a-šifrování) | [šifrování, RSA, AES](/it/kyberneticka-bezpecnost/01-zaklady-a-utoky/#základy-kryptografie-a-šifrování), [PKI a certifikáty](/it/kyberneticka-bezpecnost/01-zaklady-a-utoky/#veřejná-infrastruktura-klíčů-pki-a-digitální-certifikáty), [hash](/it/kyberneticka-bezpecnost/01-zaklady-a-utoky/#hashování-hesel) |
-| [19) Správa identit a řízení účtů](/it/reference/maturitni-okruhy/#19-správa-identit-a-řízení-účtů) | [autentizace, autorizace, identifikace](/it/kyberneticka-bezpecnost/01-zaklady-a-utoky/#autentizace-autorizace-identifikace), [správa identit](/it/kyberneticka-bezpecnost/01-zaklady-a-utoky/#správa-identit-a-řízení-účtů), [lámání hesel](/it/operacni-systemy/11-uzivatelske-ucty-a-hesla/), [oprávnění](/it/operacni-systemy/13-uzivatelska-prava-a-opravneni/), [SSH](/it/operacni-systemy/50-ssh-vzdaleny-pristup-a-autentizace-klicem/) |
-| [20) Zranitelnost webových aplikací](/it/reference/maturitni-okruhy/#20-zranitelnost-webových-aplikací) | [XSS, SQL injection, CSRF](/it/kyberneticka-bezpecnost/02-zabezpeceni-siti-a-aplikaci/#zabezpečení-webových-a-aplikačních-útoků), [DNS](/it/pocitacove-site/17-dns-system-domenovych-jmen/), [GET a POST](/it/webove-programovani/01-dynamicke-stranky-a-serverove-skriptovani/#get-vs-post) |
+| [16) Základy kybernetické bezpečnosti](/it/reference/maturitni-okruhy/#16-základy-kybernetické-bezpečnosti) | [kyberprostor, CIA, riziko, hrozba, zranitelnost, digitální stopa](/it/kyberneticka-bezpecnost/01-zaklady-kyberneticke-bezpecnosti/) |
+| [17) Kybernetické útoky](/it/reference/maturitni-okruhy/#17-kybernetické-útoky) | [fáze a kategorie útoků](/it/kyberneticka-bezpecnost/02-kyberneticke-utoky/#kybernetický-útok--fáze-a-kategorie), [malware](/it/operacni-systemy/26-malware/) |
+| [18) Základy kryptografie a šifrování](/it/reference/maturitni-okruhy/#18-základy-kryptografie-a-šifrování) | [šifrování, RSA, AES](/it/kyberneticka-bezpecnost/03-kryptografie-a-sifrovani/#základy-kryptografie-a-šifrování), [PKI a certifikáty](/it/kyberneticka-bezpecnost/03-kryptografie-a-sifrovani/#veřejná-infrastruktura-klíčů-pki-a-digitální-certifikáty), [historické šifry](/it/kyberneticka-bezpecnost/03-kryptografie-a-sifrovani/#historické-šifry), [hashovací funkce](/it/kyberneticka-bezpecnost/03-kryptografie-a-sifrovani/#hashovací-funkce) |
+| [19) Správa identit a řízení účtů](/it/reference/maturitni-okruhy/#19-správa-identit-a-řízení-účtů) | [IAAA](/it/kyberneticka-bezpecnost/04-sprava-identit-a-rizeni-uctu/#princip-iaaa), [autentizace, autorizace, identifikace](/it/kyberneticka-bezpecnost/04-sprava-identit-a-rizeni-uctu/#autentizace-autorizace-identifikace), [správa identit](/it/kyberneticka-bezpecnost/04-sprava-identit-a-rizeni-uctu/#správa-identit-a-řízení-účtů), [lámání hesel](/it/operacni-systemy/11-uzivatelske-ucty-a-hesla/), [oprávnění](/it/operacni-systemy/13-uzivatelska-prava-a-opravneni/), [SSH](/it/operacni-systemy/50-ssh-vzdaleny-pristup-a-autentizace-klicem/) |
+| [20) Zranitelnost webových aplikací](/it/reference/maturitni-okruhy/#20-zranitelnost-webových-aplikací) | [XSS, SQL injection, CSRF](/it/kyberneticka-bezpecnost/05-zabezpeceni-siti-a-aplikaci/#zabezpečení-webových-a-aplikačních-útoků), [OWASP Top 10](/it/kyberneticka-bezpecnost/05-zabezpeceni-siti-a-aplikaci/#owasp-top-10), [HTTP](/it/kyberneticka-bezpecnost/05-zabezpeceni-siti-a-aplikaci/#protokol-http), [DNS](/it/pocitacove-site/17-dns-system-domenovych-jmen/), [GET a POST](/it/webove-programovani/01-dynamicke-stranky-a-serverove-skriptovani/#get-vs-post) |
 
-Samostatný materiál zatím chybí k Diffie-Hellmanově výměně klíčů, statické a dynamické analýze malwaru, seznamu OWASP Top 10 a stavovým kódům HTTP.
+Samostatný materiál zatím chybí k Diffie-Hellmanově výměně klíčů a ke statické a dynamické analýze malwaru.
 
 ## Co je jen okrajové
 
