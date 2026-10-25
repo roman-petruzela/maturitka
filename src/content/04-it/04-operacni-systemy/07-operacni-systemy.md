@@ -65,7 +65,7 @@ Program, se kterým se pracuje, je nahrán v operační paměti. Velikost opera�
 
 O každém souboru a adresáři musí být vedeny informace (datum a čas vytvoření, změny, typ souboru, atd.). Musí být také naprosto jasné, kde je na pevném disku požadovaný soubor uložen. Data se zároveň mění, kopírují, přesouvají, mažou. O všechny tyto operace a informace se musí postarat operační systém.
 
-O správu dat na harddisku se stará tzv. **souborový systém** (file system). Souborový systém se stará o to, které části souboru patří k sobě, kde jsou uloženy na pevném disku a do které složky významově patří (ve které složce se uživateli zobrazí). Souborový systém také eviduje o souboru řadu informací (název, přípona, datum změny, atd.). Souborových systémů je celá řada, my si popíšeme dva nejpoužívanější v operačních systémech Windows.
+O správu dat na harddisku se stará tzv. **souborový systém** (file system). Souborový systém se stará o to, které části souboru patří k sobě, kde jsou uloženy na pevném disku a do které složky významově patří (ve které složce se uživateli zobrazí). Souborový systém také eviduje o souboru řadu informací (název, přípona, datum změny, atd.). Souborových systémů je celá řada, my si popíšeme dva nejpoužívanější v operačních systémech Windows. Přehled dalších (exFAT, ext4, APFS…) je na stránce [Souborové systémy](/it/operacni-systemy/28-souborove-systemy/).
 
 #### 1.4.1 FAT32
 

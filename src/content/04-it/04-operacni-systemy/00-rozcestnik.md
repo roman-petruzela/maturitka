@@ -28,7 +28,7 @@ Plné znění výstupů je v [přehledu ŠVP](/it/reference/svp-prehled/#492-ope
 - **Operační systém** = jádro (kernel) + uživatelské rozhraní + souborový systém. Funkce: ovládání počítače, abstrakce hardwaru (API, ovladače), správa prostředků. Jádro **monolitické**, **mikrojádro**, **hybridní**.
 - **BIOS** (Flash ROM, nastavení v CMOS s baterií) po startu najde hardware a zavede OS. **UEFI** ho nahrazuje: Secure Boot, podpora **GPT** pro disky nad 2 TB (limit MBR).
 - **Správa procesoru**: multitasking **kooperativní** (program procesor vrací sám – Windows 3.x/95/98) × **preemptivní** (OS ho programu odebírá – dnešní systémy). Plánování FIFO, prioritní, nejkratší úloha, cyklické. **Virtuální paměť** = odkládání na disk.
-- **FAT32**: soubor max. 4 GB, bez oprávnění (flash disky). **NTFS**: oprávnění, šifrování, komprese, diskové kvóty.
+- **FAT32**: soubor max. 4 GB, bez oprávnění (flash disky); **exFAT** bez limitu 4 GB pro přenosná média. **NTFS**: oprávnění, šifrování, komprese, diskové kvóty, žurnál. Linux **ext4**, macOS **APFS**.
 - **Licence**: proprietární (komerční, freeware, shareware – demo, trial, adware; OEM vázaná na hardware) × svobodný software (public domain, **GNU GPL** – úpravy se musí šířit pod stejnou licencí). Software se nekupuje, kupuje se licence.
 - **Skupiny** Administrators, Users, Guests, Backup Operators; právo (right) = systémová akce × oprávnění (permission) = přístup k objektu. **Odepřít je vždy silnější než povolit**, oprávnění se dědí z nadřazené složky, vlastník má úplné řízení.
 - **Profily**: místní, **cestovní** (na serveru, aktualizuje se po odhlášení), **povinný** (změny se po odhlášení zahodí), dočasný.
@@ -37,6 +37,8 @@ Plné znění výstupů je v [přehledu ŠVP](/it/reference/svp-prehled/#492-ope
 - **Malware**: virus potřebuje hostitele, červ se šíří sám po síti, trojský kůň se vydává za užitečný program, dále spyware, adware, **ransomware** (šifruje data, chce výkupné), rootkit, backdoor; hoax a phishing jsou podvodné zprávy.
 - **Hesla**: neuhodnutelná, dlouhá, kombinace 3 ze 4 skupin znaků; online útok (hádání, zamkne se účet) × offline cracking hashe.
 - **Active Directory**: doména, **doménový řadič** (AD DS), organizační jednotky (OU), doménové účty a skupiny. **GPO** se uplatňují v pořadí místní → lokalita → doména → OU (pozdější vyhrává), dědičnost lze zablokovat (Block inheritance) a vynutit (Enforced).
+- **Windows Server**: instalace **Server Core** (bez GUI) × **Desktop Experience**; edice Standard, Datacenter, Essentials; role AD DS, DNS, DHCP, souborový a **tiskový** server, **Remote Desktop Services** (terminálový server), IIS, Hyper-V, WSUS.
+- **Vzdálený přístup**: **Telnet** (23, nešifrovaný), **SSH** (22, šifrovaný, i klíčem), **RDP** (3389, grafická plocha Windows).
 - **DHCP** přiděluje adresu postupem Discover → Offer → Request → Ack; bez serveru si Windows vezme adresu **APIPA** 169.254.x.x.
 - **Linux**: jádro pod GPLv2, šíří se v distribucích; `root` = administrátor; práva `chmod` číselně r = 4, w = 2, x = 1 (755, 644).
 
@@ -49,6 +51,7 @@ Plné znění výstupů je v [přehledu ŠVP](/it/reference/svp-prehled/#492-ope
 - [Úvod do operačních systémů](/it/operacni-systemy/05-uvod-do-operacnich-systemu/) – BIOS, UEFI, části OS
 - [Historie operačních systémů](/it/operacni-systemy/06-historie-operacnich-systemu/)
 - [Operační systémy](/it/operacni-systemy/07-operacni-systemy/) – správa procesoru, paměti, dat a periferií
+- [Souborové systémy](/it/operacni-systemy/28-souborove-systemy/) – FAT32, exFAT, NTFS, ext4, APFS, žurnálování
 - [OS Linux – distribuce, grafický a textový režim](/it/operacni-systemy/01-os-linux-distribuce-graficky-a-textovy-rezim/)
 - [OS Windows](/it/operacni-systemy/02-os-windows/)
 - [Licence a autorský zákon](/it/operacni-systemy/08-licence-a-autorsky-zakon/)
@@ -74,7 +77,6 @@ Plné znění výstupů je v [přehledu ŠVP](/it/reference/svp-prehled/#492-ope
 - [RAID](/it/operacni-systemy/17-raid/)
 - [Stínové kopie svazku, pevné odkazy, diskové kvóty](/it/operacni-systemy/18-stinove-kopie-svazku-pevne-odkazy-diskove-kvoty/), [praktické využití](/it/operacni-systemy/20-stinove-kopie-svazku-prakticke-vyuziti/) a [anglický text k procvičení](/it/operacni-systemy/19-shadow-copy-anglicky-text-k-procviceni/)
 - [Zálohování dat](/it/operacni-systemy/21-zalohovani-dat/)
-- [Zálohovací média – shrnutí](/it/operacni-systemy/22-zalohovaci-media-shrnuti/)
 
 **Zabezpečení**
 
@@ -84,8 +86,11 @@ Plné znění výstupů je v [přehledu ŠVP](/it/reference/svp-prehled/#492-ope
 
 **Server a Linux v praxi**
 
+- [Windows Server – verze, instalace a role](/it/operacni-systemy/52-windows-server-verze-instalace-a-role/)
+- [Terminálový a tiskový server](/it/operacni-systemy/54-terminalovy-a-tiskovy-server/)
 - [Praktická správa Linuxu a Windows Serveru](/it/operacni-systemy/03-linux-a-windows-server-prakticky/)
 - [Active Directory a správa z příkazové řádky](/it/operacni-systemy/49-active-directory-a-sprava-z-prikazove-radky/)
+- [Vzdálený přístup – Telnet, SSH, RDP](/it/operacni-systemy/53-vzdaleny-pristup-telnet-ssh-rdp/)
 - [SSH – vzdálený přístup a autentizace klíčem](/it/operacni-systemy/50-ssh-vzdaleny-pristup-a-autentizace-klicem/)
 - [Samba – sdílení souborů mezi Linuxem a Windows](/it/operacni-systemy/51-samba-sdileni-souboru-mezi-linuxem-a-windows/)
 
@@ -95,13 +100,13 @@ Kompletní seznam je v [maturitních okruzích IT](/it/reference/maturitni-okruh
 
 | Okruh | Stránky |
 | --- | --- |
-| [11) Operační systémy](/it/reference/maturitni-okruhy/#11-operační-systémy) | [úvod do OS a firmware](/it/operacni-systemy/05-uvod-do-operacnich-systemu/), [funkce OS a souborové systémy](/it/operacni-systemy/07-operacni-systemy/), [typy OS](/it/operacni-systemy/06-historie-operacnich-systemu/), [Linux](/it/operacni-systemy/01-os-linux-distribuce-graficky-a-textovy-rezim/), [Windows](/it/operacni-systemy/02-os-windows/) |
+| [11) Operační systémy](/it/reference/maturitni-okruhy/#11-operační-systémy) | [úvod do OS a firmware](/it/operacni-systemy/05-uvod-do-operacnich-systemu/), [funkce OS](/it/operacni-systemy/07-operacni-systemy/), [souborové systémy](/it/operacni-systemy/28-souborove-systemy/), [typy OS](/it/operacni-systemy/06-historie-operacnich-systemu/), [Linux](/it/operacni-systemy/01-os-linux-distribuce-graficky-a-textovy-rezim/), [Windows](/it/operacni-systemy/02-os-windows/) |
 | [12) Správa OS](/it/reference/maturitni-okruhy/#12-správa-os) | [cmd](/it/operacni-systemy/09-prikazovy-radek-cmd/), [disky](/it/operacni-systemy/15-prace-s-disky/), [RAID](/it/operacni-systemy/17-raid/), [stínové kopie](/it/operacni-systemy/18-stinove-kopie-svazku-pevne-odkazy-diskove-kvoty/), [práva a oprávnění](/it/operacni-systemy/13-uzivatelska-prava-a-opravneni/), [Samba](/it/operacni-systemy/51-samba-sdileni-souboru-mezi-linuxem-a-windows/) |
-| [13) Zabezpečení OS a správa dat](/it/reference/maturitni-okruhy/#13-zabezpečení-os-a-správa-dat) | [antiviry](/it/operacni-systemy/25-antivirove-programy/), [malware](/it/operacni-systemy/26-malware/), [zálohování](/it/operacni-systemy/21-zalohovani-dat/), [média](/it/operacni-systemy/22-zalohovaci-media-shrnuti/), [hesla](/it/operacni-systemy/11-uzivatelske-ucty-a-hesla/) |
-| [14) Windows Server](/it/reference/maturitni-okruhy/#14-windows-server) | [Active Directory](/it/operacni-systemy/49-active-directory-a-sprava-z-prikazove-radky/), [DHCP](/it/operacni-systemy/23-dhcp/), [síťové příkazy](/it/operacni-systemy/10-prace-se-siti-prikazy/), [Windows Server v praxi](/it/operacni-systemy/03-linux-a-windows-server-prakticky/#windows-server) |
+| [13) Zabezpečení OS a správa dat](/it/reference/maturitni-okruhy/#13-zabezpečení-os-a-správa-dat) | [antiviry](/it/operacni-systemy/25-antivirove-programy/), [malware](/it/operacni-systemy/26-malware/), [zálohování](/it/operacni-systemy/21-zalohovani-dat/), [média](/it/operacni-systemy/21-zalohovani-dat/#média-pro-ukládání-dat), [hesla](/it/operacni-systemy/11-uzivatelske-ucty-a-hesla/) |
+| [14) Windows Server](/it/reference/maturitni-okruhy/#14-windows-server) | [verze, instalace a role](/it/operacni-systemy/52-windows-server-verze-instalace-a-role/), [terminálový a tiskový server](/it/operacni-systemy/54-terminalovy-a-tiskovy-server/), [Active Directory](/it/operacni-systemy/49-active-directory-a-sprava-z-prikazove-radky/), [DHCP](/it/operacni-systemy/23-dhcp/), [síťové příkazy](/it/operacni-systemy/09-prikazovy-radek-cmd/#síťové-příkazy), [Windows Server v praxi](/it/operacni-systemy/03-linux-a-windows-server-prakticky/#windows-server) |
 | [15) Windows Server 2](/it/reference/maturitni-okruhy/#15-windows-server-2) | [profily](/it/operacni-systemy/12-uzivatelske-profily/), [licence](/it/operacni-systemy/08-licence-a-autorsky-zakon/), [PowerShell](/it/operacni-systemy/03-linux-a-windows-server-prakticky/), [GPO](/it/operacni-systemy/14-gpo-zasady-skupiny/) |
 
-Okruh 19 (práva ve Windows a Linuxu, SSH) z kybernetické bezpečnosti využívá stránky [oprávnění](/it/operacni-systemy/13-uzivatelska-prava-a-opravneni/) a [SSH](/it/operacni-systemy/50-ssh-vzdaleny-pristup-a-autentizace-klicem/).
+Okruh 19 (práva ve Windows a Linuxu, SSH) z kybernetické bezpečnosti využívá stránky [oprávnění](/it/operacni-systemy/13-uzivatelska-prava-a-opravneni/), [vzdálený přístup](/it/operacni-systemy/53-vzdaleny-pristup-telnet-ssh-rdp/) a [SSH](/it/operacni-systemy/50-ssh-vzdaleny-pristup-a-autentizace-klicem/).
 
 ## Co je jen okrajové
 

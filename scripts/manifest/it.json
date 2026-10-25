@@ -432,12 +432,6 @@
     "order": 21
   },
   {
-    "src": "osy/zálohovací_média_shrnutí.pdf",
-    "dest": "it/operacni-systemy/22-zalohovaci-media-shrnuti.md",
-    "title": "Zálohovací média — shrnutí",
-    "order": 22
-  },
-  {
     "src": "osy/DHCP.pdf",
     "dest": "it/operacni-systemy/23-dhcp.md",
     "title": "DHCP",
