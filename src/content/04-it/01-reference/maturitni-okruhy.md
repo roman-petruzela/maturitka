@@ -75,7 +75,7 @@ U každého bodu je odkaz na materiál, který ho na webu nejlépe pokrývá. �
 
 - [zobrazovací soustava, grafická karta](/it/uvod-do-vypocetni-techniky/17-zobrazovaci-soustava/)
 - monitory, typy, výhody jednotlivých typů, princip zobrazování, vlastnosti — viz výše
-- dataprojektory — zatím bez podkladů
+- [dataprojektory](/it/uvod-do-vypocetni-techniky/17-zobrazovaci-soustava/#dataprojektory)
 - [tiskárny, typy](/it/uvod-do-vypocetni-techniky/18-tiskarny/)
 
 ## 11) Operační systémy
@@ -83,7 +83,7 @@ U každého bodu je odkaz na materiál, který ho na webu nejlépe pokrývá. �
 - [definice operačního systému, firmware](/it/operacni-systemy/05-uvod-do-operacnich-systemu/)
 - [funkce OS (správa procesoru, správa paměti, správa dat)](/it/operacni-systemy/07-operacni-systemy/)
 - [typy operačních systémů](/it/operacni-systemy/06-historie-operacnich-systemu/), [OS Linux](/it/operacni-systemy/01-os-linux-distribuce-graficky-a-textovy-rezim/), [OS Windows](/it/operacni-systemy/02-os-windows/)
-- typy souborových systémů — zatím bez podkladů
+- [typy souborových systémů](/it/operacni-systemy/28-souborove-systemy/)
 
 ## 12) Správa OS
 
@@ -95,16 +95,16 @@ U každého bodu je odkaz na materiál, který ho na webu nejlépe pokrývá. �
 ## 13) Zabezpečení OS a správa dat
 
 - [zabezpečení PC před malwarem](/it/operacni-systemy/25-antivirove-programy/), [typy malwaru](/it/operacni-systemy/26-malware/)
-- [důvody zálohování dat a typy zálohovacích médií](/it/operacni-systemy/21-zalohovani-dat/), [zálohovací média — shrnutí](/it/operacni-systemy/22-zalohovaci-media-shrnuti/)
+- [důvody zálohování dat a typy zálohovacích médií](/it/operacni-systemy/21-zalohovani-dat/)
 - zálohovací strategie — viz výše
 - [zásady tvorby hesel](/it/operacni-systemy/11-uzivatelske-ucty-a-hesla/)
 
 ## 14) Windows Server
 
-- instalace, verze — zatím bez podkladů
+- [instalace, verze](/it/operacni-systemy/52-windows-server-verze-instalace-a-role/)
 - [doména ve Windows, databázová služba Active Directory](/it/operacni-systemy/49-active-directory-a-sprava-z-prikazove-radky/)
-- role serveru (tiskový, DHCP, terminálový aj.) — zatím bez podkladů
-- [použití cmd při práci se sítí](/it/operacni-systemy/10-prace-se-siti-prikazy/)
+- [role serveru (tiskový, DHCP, terminálový aj.)](/it/operacni-systemy/52-windows-server-verze-instalace-a-role/#role-a-funkce), podrobně [terminálový a tiskový server](/it/operacni-systemy/54-terminalovy-a-tiskovy-server/)
+- [použití cmd při práci se sítí](/it/operacni-systemy/09-prikazovy-radek-cmd/#síťové-příkazy), v Linuxu [práce se sítí](/it/operacni-systemy/10-prace-se-siti-prikazy/)
 
 ## 15) Windows Server 2
 
@@ -115,34 +115,34 @@ U každého bodu je odkaz na materiál, který ho na webu nejlépe pokrývá. �
 
 ## 16) Základy kybernetické bezpečnosti
 
-- [kyberprostor — členění, soukromí v kyberprostoru](/it/kyberneticka-bezpecnost/01-zaklady-a-utoky/)
-- triáda CIA (důvěrnost, integrita, dostupnost) — viz výše
-- kybernetické hrozby (pasivní, aktivní) — viz výše
+- [kyberprostor — členění, soukromí v kyberprostoru](/it/kyberneticka-bezpecnost/01-zaklady-kyberneticke-bezpecnosti/)
+- [triáda CIA (důvěrnost, integrita, dostupnost)](/it/kyberneticka-bezpecnost/01-zaklady-kyberneticke-bezpecnosti/#triáda-cia)
+- [kybernetické hrozby (pasivní, aktivní)](/it/kyberneticka-bezpecnost/01-zaklady-kyberneticke-bezpecnosti/#druhy-hrozeb)
 
 ## 17) Kybernetické útoky
 
-- [fáze kybernetického útoku (Cyber Kill Chain)](/it/kyberneticka-bezpecnost/01-zaklady-a-utoky/)
-- sociální inženýrství, phishing a spoofing — viz výše
-- DDoS útoky — viz výše
+- [fáze kybernetického útoku (Cyber Kill Chain)](/it/kyberneticka-bezpecnost/02-kyberneticke-utoky/)
+- [sociální inženýrství, phishing a spoofing](/it/kyberneticka-bezpecnost/02-kyberneticke-utoky/#přehled-typů-útoků)
+- [DDoS útoky](/it/kyberneticka-bezpecnost/02-kyberneticke-utoky/#přehled-typů-útoků)
 - analýza malwaru (statická, dynamická) — zatím bez podkladů
 
 ## 18) Základy kryptografie a šifrování
 
-- [základy šifrování — historické šifry, symetrické a asymetrické šifrování](/it/kyberneticka-bezpecnost/01-zaklady-a-utoky/)
-- RSA šifrování — viz výše
+- [základy šifrování — historické šifry](/it/kyberneticka-bezpecnost/03-kryptografie-a-sifrovani/#historické-šifry), [symetrické a asymetrické šifrování](/it/kyberneticka-bezpecnost/03-kryptografie-a-sifrovani/#symetrické-a-asymetrické-šifrování)
+- [RSA šifrování](/it/kyberneticka-bezpecnost/03-kryptografie-a-sifrovani/#symetrické-a-asymetrické-šifrování)
 - Diffie-Hellmanova výměna klíčů — zatím bez podkladů
-- hashovací funkce — viz výše
+- [hashovací funkce](/it/kyberneticka-bezpecnost/03-kryptografie-a-sifrovani/#hashovací-funkce)
 
 ## 19) Správa identit a řízení účtů
 
-- [princip IAAA, least privilege](/it/kyberneticka-bezpecnost/01-zaklady-a-utoky/)
+- [princip IAAA](/it/kyberneticka-bezpecnost/04-sprava-identit-a-rizeni-uctu/#princip-iaaa), [least privilege](/it/kyberneticka-bezpecnost/04-sprava-identit-a-rizeni-uctu/#princip-nejmenších-oprávnění-least-privilege)
 - základní techniky napadení hesel — zatím bez podkladů
-- práva a oprávnění ve Windows a Linuxu — viz [uživatelská práva](/it/operacni-systemy/13-uzivatelska-prava-a-opravneni/)
-- síťové protokoly pro vzdálený přístup — TELNET, [SSH](/it/operacni-systemy/50-ssh-vzdaleny-pristup-a-autentizace-klicem/), RDP
+- [práva a oprávnění ve Windows a Linuxu](/it/kyberneticka-bezpecnost/04-sprava-identit-a-rizeni-uctu/#práva-a-oprávnění-ve-windows-a-linuxu), podrobně [uživatelská práva](/it/operacni-systemy/13-uzivatelska-prava-a-opravneni/)
+- [síťové protokoly pro vzdálený přístup — TELNET, SSH, RDP](/it/operacni-systemy/53-vzdaleny-pristup-telnet-ssh-rdp/), podrobně [SSH](/it/operacni-systemy/50-ssh-vzdaleny-pristup-a-autentizace-klicem/)
 
 ## 20) Zranitelnost webových aplikací
 
-- [10 nejnebezpečnějších zranitelností podle OWASP](/it/kyberneticka-bezpecnost/02-zabezpeceni-siti-a-aplikaci/)
+- [10 nejnebezpečnějších zranitelností podle OWASP](/it/kyberneticka-bezpecnost/05-zabezpeceni-siti-a-aplikaci/#owasp-top-10)
 - DNS — [hierarchie, požadavky](/it/pocitacove-site/17-dns-system-domenovych-jmen/), DNS tunneling — zatím bez podkladů
-- protokol HTTP — metody, stavové kódy — viz výše
-- SQL injection a Cross-site scripting (reflected/stored/blind XSS) — viz výše
+- [protokol HTTP — metody, stavové kódy](/it/kyberneticka-bezpecnost/05-zabezpeceni-siti-a-aplikaci/#protokol-http)
+- [SQL injection a Cross-site scripting (reflected/stored/blind XSS)](/it/kyberneticka-bezpecnost/05-zabezpeceni-siti-a-aplikaci/#zabezpečení-webových-a-aplikačních-útoků), [SQL injection v praxi](/it/kyberneticka-bezpecnost/02-kyberneticke-utoky/#praktická-ukázka-sql-injection-na-přihlašovacím-formuláři)
