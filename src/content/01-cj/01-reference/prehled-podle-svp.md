@@ -14,13 +14,13 @@ Zařazení děl do uměleckých směrů a historických období. Pokryto přehle
 
 Rozeznání uměleckého textu od neuměleckého, uplatnění literární teorie při rozboru — pokryto osnovami [rozboru uměleckého textu](/cj/ustni-zkouska/02-rozbor-umeleckeho-textu/) a [neuměleckého textu](/cj/ustni-zkouska/03-rozbor-neumeleckeho-textu/) v kategorii [Ústní zkouška](/cj/#ustni-zkouska) a stránkou [Literární druhy a žánry](/cj/literatura/literarni-druhy-a-zanry/). Rozbory děl ze [seznamu četby](/cj/ustni-zkouska/04-seznam-cetby/) jsou v kategorii [Rozbory knih](/cj/#rozbory-knih), starší zápisy v [Archivu](/cj/#archiv).
 
-## Zdokonalování jazykových vědomostí a dovedností — zatím bez podkladů
+## [Zdokonalování jazykových vědomostí a dovedností](/cj/#jazyk-a-sloh) ✓
 
-Spisovná/nespisovná čeština, pravopis, tvarosloví, skladba — na webu zatím není žádný obsah čistě o gramatice a pravopisu.
+Spisovná a nespisovná čeština, útvary národního jazyka a vývoj češtiny ([obecné poznatky o jazyce](/cj/jazyk-a-sloh/06-obecne-poznatky-o-jazyce/)), [pravopis](/cj/jazyk-a-sloh/02-pravopis/), [tvarosloví](/cj/jazyk-a-sloh/03-tvaroslovi/), [skladba a interpunkce](/cj/jazyk-a-sloh/04-skladba-a-interpunkce/), [slovní zásoba a tvoření slov](/cj/jazyk-a-sloh/05-slovni-zasoba-a-tvoreni-slov/). Co z toho a jak se ověřuje u maturity, je v přehledu [didaktického testu a písemné práce](/cj/jazyk-a-sloh/01-didakticky-test-a-pisemna-prace/).
 
-## Komunikační a slohová výchova — zatím bez podkladů
+## [Komunikační a slohová výchova](/cj/jazyk-a-sloh/07-pisemna-prace-a-slohove-utvary/) ✓
 
-Slohové postupy a útvary (vyprávění, popis, výklad, úvaha, životopis, úřední dokumenty...), technika mluveného projevu — nepokryto.
+Funkční styly a slohové postupy jsou v [rozboru neuměleckého textu](/cj/ustni-zkouska/03-rozbor-neumeleckeho-textu/#funkční-styl), slohové útvary (vypravování, popis, charakteristika, úvaha, publicistické útvary, úřední dopis, životopis, proslov, výklad) a postup při psaní na stránce [Písemná práce a slohové útvary](/cj/jazyk-a-sloh/07-pisemna-prace-a-slohove-utvary/). Komunikační situace a neverbální komunikace jsou v [obecných poznatcích o jazyce](/cj/jazyk-a-sloh/06-obecne-poznatky-o-jazyce/#jazyk-a-komunikace).
 
 ## Práce s textem a získávání informací — zatím bez podkladů
 
