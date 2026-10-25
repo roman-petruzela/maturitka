@@ -169,7 +169,7 @@ Plugins run in this order (`astro.config.mjs`): `remarkLineBreaks` → `remarkPr
   not only the nearest one. A closing "Shrnutí" that repeats
   formulas already listed is skipped, and a repeat written with `⋅` / `⟺` instead of nothing / `=` is
   recognised as the same formula. A page made only of worked problems sets `formulaRail: false` in its
-  frontmatter (all of `10-resene-ulohy-dt`, `kombinatorika-v-praxi`) and gets no rail. In content, an
+  frontmatter (`kombinatorika-v-praxi`) and gets no rail. (The didactic-test solutions, `10-resene-ulohy-dt`, were removed at the user's request.) In content, an
   illustration of a method is "Například: $…$" inline under a general formula, not a display of its own.
 - Captions: a heading too general to name a formula ("Vzorce", "Výpočet", "Shrnutí", "Odvození",
   `GENERIC_CAPTION`) hands over to the heading above it and in the end to the page title; "Další
@@ -200,7 +200,8 @@ was twice that). A picture card on the board is resized by dragging the grip in 
 (the whole note scales with the distance of the pointer from its top-left corner, 0.35–3×, double
 click resets): the factor is `--note-k`, multiplied into `--note-s`, which also drives the note's size
 limits; the grip and the close button grow back as the note shrinks so they stay hittable. In
-fullscreen the toolbar is a vertical pill; its dividers are real `.whiteboard-sep` elements (a
+fullscreen the toolbar is a vertical pill (on a screen lower than 560px — a phone held sideways — a
+horizontal row along the top instead, it did not fit); its dividers are real `.whiteboard-sep` elements (a
 `border-top` on the buttons was drawn *as* their top border and ran into their corners).
 
 Every change to the drawing is an entry of a history (`Op`: a stroke added, a stroke erased, the whole
@@ -301,6 +302,14 @@ parts — keep it in step when a pairing changes. `04-maturitni-zkouska/` is wri
 examples (it is about the exam, not a topic): the oral exam and its phrases, the written work (e-mail,
 letter and other text types with model texts), the Cermat didactic test, and a grammar overview. The
 exam level is B1 (ŠVP); the topic texts are deliberately one level higher (B2).
+
+`05-cambridge-b2-first/` prepares for the Cambridge B2 First exam, also in Czech with English examples: the
+format and scoring (Cambridge English Scale), Reading and Use of English part by part with sample items
+(spoiler answers), Writing — the task types and the four published criteria (Content, Communicative
+Achievement, Organisation, Language, 0–5 each) — then original model texts of every type (140–190 words,
+the count written under each, with a short comment per criterion), Listening and Speaking (with the
+assessor's criteria). Facts about the format follow Cambridge's published handbook; re-check them when the
+exam changes.
 
 ## No names of teachers or students
 
@@ -413,12 +422,30 @@ marked with `data-zoomable`, **not a class** — a class would end their `img:no
 picture inside a link keeps the link, one inside an unrevealed spoiler does not open. The module is
 loaded by `BaseLayout.astro` only on a page that has such a picture.
 
+## IT (`04-it/`)
+
+Categories are ordered by the oral exam: Reference first, then the categories covering the 20
+maturitní okruhy (plain labels, no okruh numbers or other suffix), then the
+practical-exam categories, then the rest. Practical-exam topics
+(3D modelování, publishing, web, databases…) stay — they are only placed after the oral-exam
+ones so they do not crowd the subject page. `01-reference/maturitni-okruhy.md` links every okruh
+item to the page that covers it (the cyber-security category has one page per okruh 16–19 and
+`05-zabezpeceni-siti-a-aplikaci` for okruh 20); "zatím bez podkladů" marks items with no page yet. Do not write
+pages on malware analysis, Diffie-Hellman key exchange, password attacks or DNS tunneling —
+leave those items marked as they are.
+
 ## Czech literature (`01-cj/`)
 
 Categories: `02-ustni-zkouska` (the structure of the oral exam, the outlines for the literary and the
 non-literary text — both from the school's handouts in `cjl/` — and the school reading list with a link
 per work), `03-rozbory-knih`, `04-autori`, `05-literatura` (periods and theory; URL `/cj/literatura/`),
-`09-archiv` (the analyses converted from the old archive; URL `/cj/archiv/`).
+`06-jazyk-a-sloh` (language and writing — the didactic test and the written work with Cermat's six
+criteria 1A–3B, spelling, morphology, syntax and commas, vocabulary, general knowledge about the language,
+the written-work genres; written from general knowledge, no school source; URL `/cj/jazyk-a-sloh/`),
+`09-archiv` (the analyses converted from the old archive; URL `/cj/archiv/`). The functional styles and
+the slohové postupy live in `02-ustni-zkouska/03-rozbor-neumeleckeho-textu.md` — link there, do not
+repeat them in `06-jazyk-a-sloh`. Exam times and thresholds of the written work are set by the school
+each year, so those pages give them as usual values and say so.
 
 `03-rozbory-knih` holds **only works of the school reading list** (`cjl/Seznam četby k MZ`), one page per
 work, `order` = the number on the list, title "Autor – Dílo" (an en dash; `authorOf()` in
