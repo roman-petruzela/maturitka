@@ -134,7 +134,7 @@ Otázky tří písemek k maturitním okruhům (body v závorce). U každé otáz
 3. Počítač pošle `ping czc.cz` a s cílem ještě nekomunikoval – co se stane, aby odpověď došla zpět? (4 b) – [DNS](/it/pocitacove-site/17-dns-system-domenovych-jmen/), [ARP](/it/pocitacove-site/08-ethernet-a-lan/), [ICMP](/it/pocitacove-site/11-ip-protokol-a-ipv4-datagram/#icmp)
 4. Jaké programy a příkazy použijete k analýze provozu v síti? (4 b) – [diagnostika](/it/pocitacove-site/20-bezpecnost-sprava-a-diagnostika-site/#diagnostika-sítě)
 5. Jaké šifrovací protokoly znáte a které služby je používají? (4 b) – [bezpečnost sítě](/it/pocitacove-site/20-bezpecnost-sprava-a-diagnostika-site/)
-6. Co je asymetrická šifra? (2 b) – [šifrování](/it/kyberneticka-bezpecnost/01-zaklady-a-utoky/#symetrické-a-asymetrické-šifrování)
+6. Co je asymetrická šifra? (2 b) – [šifrování](/it/kyberneticka-bezpecnost/03-kryptografie-a-sifrovani/#symetrické-a-asymetrické-šifrování)
 7. Co všechno je potřeba na počítačové síti zabezpečit? (8 b) – [bezpečnost sítě](/it/pocitacove-site/20-bezpecnost-sprava-a-diagnostika-site/)
 8. Jaký je rozdíl mezi daty a informacemi? (2 b) – [informace a data](/it/pocitacove-site/05-informace-signaly-a-prenosovy-kanal/#informace-a-data)
 9. Nakreslete a popište analogový a digitální signál. (4 b) – [signál](/it/pocitacove-site/05-informace-signaly-a-prenosovy-kanal/#signál)

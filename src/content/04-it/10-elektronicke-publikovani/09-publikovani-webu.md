@@ -37,7 +37,7 @@ Při výběru se sleduje: podpora PHP a databáze (nutná pro redakční systém
 
 ## HTTPS
 
-Certifikát (dnes zdarma, např. od Let's Encrypt, hosting ho většinou zařídí sám) zapne šifrované spojení **HTTPS**. Bez něj prohlížeč u stránek s formulářem upozorňuje „Nezabezpečeno“ a vyhledávače web znevýhodňují. Princip certifikátů popisuje [kybernetická bezpečnost](/it/kyberneticka-bezpecnost/01-zaklady-a-utoky/#veřejná-infrastruktura-klíčů-pki-a-digitální-certifikáty).
+Certifikát (dnes zdarma, např. od Let's Encrypt, hosting ho většinou zařídí sám) zapne šifrované spojení **HTTPS**. Bez něj prohlížeč u stránek s formulářem upozorňuje „Nezabezpečeno“ a vyhledávače web znevýhodňují. Princip certifikátů popisuje [kybernetická bezpečnost](/it/kyberneticka-bezpecnost/03-kryptografie-a-sifrovani/#veřejná-infrastruktura-klíčů-pki-a-digitální-certifikáty).
 
 ## Před zveřejněním
 

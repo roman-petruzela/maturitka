@@ -54,7 +54,7 @@ Plné znění výstupů je v [přehledu ŠVP](/it/reference/svp-prehled/#495-ele
 - [JavaScript – základy](/it/elektronicke-publikovani/02-javascript-zaklady/)
 - [Publikování webu – doména, hosting, FTP a SEO](/it/elektronicke-publikovani/09-publikovani-webu/)
 
-Navazující látka: serverová strana webu v [dynamických stránkách a serverovém skriptování](/it/webove-programovani/01-dynamicke-stranky-a-serverove-skriptovani/), útoky na webové aplikace (XSS, SQL injection) v [zabezpečení sítí a aplikací](/it/kyberneticka-bezpecnost/02-zabezpeceni-siti-a-aplikaci/).
+Navazující látka: serverová strana webu v [dynamických stránkách a serverovém skriptování](/it/webove-programovani/01-dynamicke-stranky-a-serverove-skriptovani/), útoky na webové aplikace (XSS, SQL injection) v [zabezpečení sítí a aplikací](/it/kyberneticka-bezpecnost/05-zabezpeceni-siti-a-aplikaci/).
 
 ## Maturitní okruhy
 

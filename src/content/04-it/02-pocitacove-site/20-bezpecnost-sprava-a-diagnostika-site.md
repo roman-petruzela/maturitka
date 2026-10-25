@@ -4,7 +4,7 @@ order: 20
 source: "IT/Datové-sítě.docx"
 ---
 
-Síť je potřeba chránit před útoky, průběžně sledovat a při poruše rychle najít, kde je chyba. Tato stránka shrnuje druhy útoků na síť a ochranu proti nim, řízení přístupu (ACL, AAA), správu sítě protokolem SNMP a postup a nástroje diagnostiky. Podrobněji se kybernetické bezpečnosti věnuje kategorie [kybernetická bezpečnost](/it/kyberneticka-bezpecnost/02-zabezpeceni-siti-a-aplikaci/).
+Síť je potřeba chránit před útoky, průběžně sledovat a při poruše rychle najít, kde je chyba. Tato stránka shrnuje druhy útoků na síť a ochranu proti nim, řízení přístupu (ACL, AAA), správu sítě protokolem SNMP a postup a nástroje diagnostiky. Podrobněji se kybernetické bezpečnosti věnuje kategorie [kybernetická bezpečnost](/it/kyberneticka-bezpecnost/05-zabezpeceni-siti-a-aplikaci/).
 
 ## Útoky na síť
 

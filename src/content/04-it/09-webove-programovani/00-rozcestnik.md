@@ -32,7 +32,7 @@ Plné znění výstupů je v [přehledu ŠVP](/it/reference/svp-prehled/#498-web
 
 - [Dynamické stránky a serverové skriptování](/it/webove-programovani/01-dynamicke-stranky-a-serverove-skriptovani/) – klient a server, PHP, formuláře, session, připojení k MySQL, cookies, GET a POST, postup tvorby vlastní stránky
 
-Navazující látka: šablona jednoduchého redakčního systému v PHP v [designu webu, redakčních systémech a e-shopu](/it/elektronicke-publikovani/03-redakcni-systemy-a-eshop/), útoky na webové aplikace (SQL injection, XSS) a metody HTTP v [zabezpečení sítí a aplikací](/it/kyberneticka-bezpecnost/02-zabezpeceni-siti-a-aplikaci/).
+Navazující látka: šablona jednoduchého redakčního systému v PHP v [designu webu, redakčních systémech a e-shopu](/it/elektronicke-publikovani/03-redakcni-systemy-a-eshop/), útoky na webové aplikace (SQL injection, XSS) a metody HTTP v [zabezpečení sítí a aplikací](/it/kyberneticka-bezpecnost/05-zabezpeceni-siti-a-aplikaci/).
 
 ## Maturitní okruhy
 
