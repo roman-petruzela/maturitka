@@ -16,7 +16,7 @@ Rozcestník kategorie: o čem předmět je, kdy se podle ŠVP učí, co si z ně
 
 | Ročník | Hodin týdně | Obsah (ŠVP §4.9.2) |
 | --- | --- | --- |
-| 1. | 2 | desktopový Windows, teorie OS, licence, instalace a správa, příkazový řádek, disky, zálohování, malware a antiviry, účty, skupiny a oprávnění – viz [tematický plán](/it/operacni-systemy/03-tematicky-plan-prehled-latky/) |
+| 1. | 2 | základní pojmy, práce se soubory a složkami (ECDL testy), teorie OS, licence a autorské právo, instalace Windows 10, příkazový řádek, údržba systému, zabezpečení PC (viry, antiviry, firewall), zálohování, uživatelské účty, skupiny a profily, přístupová oprávnění k souborům a složkám |
 | 2. | 2 | registry, sdílení v síti peer-to-peer, Windows Server: doména, Active Directory, GPO, DHCP a DNS, skripty, stínové kopie a diskové kvóty |
 | 3. | 1 | Linux: distribuce, instalace, grafické a textové prostředí, správa |
 | 4. | 1 | pokročilá správa Windows Serveru: terminálová služba, tiskový server, PowerShell a skripty |
@@ -46,7 +46,6 @@ Plné znění výstupů je v [přehledu ŠVP](/it/reference/svp-prehled/#492-ope
 
 **Teorie operačních systémů**
 
-- [Tematický plán (přehled látky)](/it/operacni-systemy/03-tematicky-plan-prehled-latky/)
 - [Základní pojmy (hardware, software)](/it/operacni-systemy/04-zakladni-pojmy-hardware-software/)
 - [Úvod do operačních systémů](/it/operacni-systemy/05-uvod-do-operacnich-systemu/) – BIOS, UEFI, části OS
 - [Historie operačních systémů](/it/operacni-systemy/06-historie-operacnich-systemu/)

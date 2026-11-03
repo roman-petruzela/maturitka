@@ -653,6 +653,8 @@ const OSY_SKIP = new Set([
 	'Praktické využití GPO.docx',
 	'opakování_viry.docx',
 	'opakování.pdf',
+	// a bare topic list, folded into the 1st-year row of 00-rozcestnik.md
+	'plán.docx',
 	// superseded by newly-authored theory docs (Active Directory + cmd
 	// scripting, SSH, Samba) that fold these exercises in as a "Cvičení"
 	// section — see 49/50/51-*.md (hand-authored, order 201-203)
@@ -663,7 +665,6 @@ const OSY_SKIP = new Set([
 	'Rozjeď samba server.docx',
 ]);
 const OSY_TITLE = {
-	plán: 'Tematický plán (přehled látky)',
 	základní_pojmy: 'Základní pojmy (hardware, software)',
 	'Úvod_do _operačních_systémů': 'Úvod do operačních systémů',
 	Historie_OS: 'Historie operačních systémů',
@@ -717,7 +718,6 @@ const OSY_TITLE = {
 // IT_CATEGORY_BY_PREFIX, originalOrder beats extraPriority), so this picks up
 // right after them.
 const OSY_ORDER = [
-	'plán.docx',
 	'základní_pojmy.docx',
 	'Úvod_do _operačních_systémů.pdf',
 	'Historie_OS.pdf',

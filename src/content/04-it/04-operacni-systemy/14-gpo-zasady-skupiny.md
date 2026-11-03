@@ -21,11 +21,11 @@ Pomocí zásad skupin lze zajistit například následující operace:
 
 Místní zásady skupin a zásady skupin služby Active Directory
 
-### Místní zásady
+## Místní zásady
 
 Zásady skupin si můžeme představit jako sadu pravidel, která pomáhají spravovat uživatele a počítače. K dispozici jsou dva typy zásad skupin. Prvním typem jsou místní zásady skupin, které jsou uloženy místně v jednotlivých počítačích ve složce %SystemRoot%\System32\GroupPolicy a týkají se pouze příslušného počítače. Počítač v doméně má jednak místní zásady skupin, ale podléhá také druhému typu zásad skupin, které se označují jako zásady skupin služby Active Directory. Místní zásady skupin si spustíme příkazem **gpedit.msc**
 
-### Zásady skupin v Active Directory
+## Zásady skupin v Active Directory
 
 Fyzické komponenty zásad skupin služby Active Directory označené jako šablony zásad skupin (Group Policy Template – GPT) jsou uloženy ve složce Sysvol. Služba Active Directory pomocí této složky replikuje zásady.
 

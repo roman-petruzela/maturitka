@@ -318,12 +318,6 @@
     "order": 2
   },
   {
-    "src": "osy/plán.docx",
-    "dest": "it/operacni-systemy/03-tematicky-plan-prehled-latky.md",
-    "title": "Tematický plán (přehled látky)",
-    "order": 3
-  },
-  {
     "src": "osy/základní_pojmy.docx",
     "dest": "it/operacni-systemy/04-zakladni-pojmy-hardware-software.md",
     "title": "Základní pojmy (hardware, software)",

@@ -11,7 +11,7 @@ source: "osy/firewall.pptx"
 
 - • na firewallu se definují pravidla, podle kterých může probíhat komunikace (povolí se služby nutné pro provoz a ostatní jsou zakázány)
 
-### Ověřování IP adres
+## Ověřování IP adres
 
 - kontrola došlých e-mailů s veřejnými seznamy odesílatelů spamu
 
