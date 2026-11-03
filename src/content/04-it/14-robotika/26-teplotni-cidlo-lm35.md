@@ -33,7 +33,9 @@ Napájecí napětí převodníku – pokud se pohybuje v rozsahu 4 V až 20 V �
 ## Princip činnosti Teplotního čidla LM-35
 Protože převodní koeficient činí 10 mV/°C, objeví se např. při teplotě 150 °C na výstupu napětí převodníku napětí 1500 mV. Bude-li měřená teplota záporná, např. −40 °C, bude i výstupní napětí záporné (−400 mV).
 
-Vzorec výpočtu je následující: ((vzorec se nedochoval))
+Vzorec výpočtu je následující:
+
+$$V_{out}(T) = 10\ \text{mV/°C} \cdot T\,[°C]$$
 
 ## Zapojení
 
