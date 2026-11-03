@@ -7,6 +7,7 @@ import { rehypeSpoiler } from './src/lib/markdown/rehype-spoiler.ts';
 import { rehypeReconNote } from './src/lib/markdown/rehype-recon-note.ts';
 import { rehypeAuthorPortrait } from './src/lib/markdown/rehype-author-portrait.ts';
 import { rehypeRozborLink } from './src/lib/markdown/rehype-rozbor-link.ts';
+import { rehypeImageSize } from './src/lib/markdown/rehype-image-size.ts';
 import { remarkProtectMath } from './src/lib/markdown/remark-protect-math.ts';
 import { remarkLineBreaks } from './src/lib/markdown/remark-line-breaks.ts';
 import { remarkGraph } from './src/lib/markdown/remark-graph.ts';
@@ -30,7 +31,14 @@ export default defineConfig({
 				remarkTimeline,
 				remarkFormulas,
 			],
-			rehypePlugins: [rehypeMath, rehypeSpoiler, rehypeReconNote, rehypeAuthorPortrait, rehypeRozborLink],
+			rehypePlugins: [
+				rehypeMath,
+				rehypeSpoiler,
+				rehypeReconNote,
+				rehypeAuthorPortrait,
+				rehypeRozborLink,
+				rehypeImageSize,
+			],
 		}),
 	},
 });

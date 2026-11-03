@@ -2,6 +2,8 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { splitSteps, visualWidth } from '../src/lib/markdown/formula-breaks.ts';
+import { webpSize } from '../src/lib/markdown/image-size.ts';
+import { parseDone } from '../src/lib/progress.ts';
 import { segmentMath } from '../src/lib/markdown/math-segments.ts';
 import { normalize, search, type SearchItem } from '../src/lib/search-match.ts';
 import { cleanLabel, isListNotFormula, isNumbersOnly, WORKED_RE } from '../src/lib/rail-formulas.ts';
@@ -53,4 +55,42 @@ test('the formula rail leaves out lists of numbers and worked examples', () => {
 	for (const s of ['Ukázkový příklad', 'Příklady na procvičení', 'Úkol', 'Řešení: D = 169', '2. Příklad'])
 		assert.ok(WORKED_RE.test(s), s);
 	for (const s of ['Kombinační číslo', 'Pythagorova věta', 'Euklidova věta o výšce']) assert.ok(!WORKED_RE.test(s), s);
+});
+
+test('webpSize reads the three WebP header variants', () => {
+	const riff = (chunk: string, body: number[]) => {
+		const b = new Uint8Array(30 + body.length);
+		b.set(
+			[...'RIFF'].map((c) => c.charCodeAt(0)),
+			0
+		);
+		b.set(
+			[...'WEBP'].map((c) => c.charCodeAt(0)),
+			8
+		);
+		b.set(
+			[...chunk].map((c) => c.charCodeAt(0)),
+			12
+		);
+		return b;
+	};
+	const lossy = riff('VP8 ', []);
+	lossy.set([800 & 255, 800 >> 8, 978 & 255, 978 >> 8], 26);
+	assert.deepEqual(webpSize(lossy), { width: 800, height: 978 });
+	const lossless = riff('VP8L', []);
+	const bits = (640 - 1) | ((360 - 1) << 14);
+	lossless.set([bits & 255, (bits >> 8) & 255, (bits >> 16) & 255, (bits >>> 24) & 255], 21);
+	assert.deepEqual(webpSize(lossless), { width: 640, height: 360 });
+	const ext = riff('VP8X', []);
+	ext.set([299 & 255, 299 >> 8, 0, 199, 0, 0], 24);
+	assert.deepEqual(webpSize(ext), { width: 300, height: 200 });
+	assert.equal(webpSize(new Uint8Array(40)), null);
+});
+
+test('parseDone keeps only strings and survives garbage', () => {
+	assert.deepEqual([...parseDone('["mat/a/b","fyzika/c"]')], ['mat/a/b', 'fyzika/c']);
+	assert.deepEqual([...parseDone('["x",1,null]')], ['x']);
+	assert.equal(parseDone('{"a":1}').size, 0);
+	assert.equal(parseDone('not json').size, 0);
+	assert.equal(parseDone(null).size, 0);
 });

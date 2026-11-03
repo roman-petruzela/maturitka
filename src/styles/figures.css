@@ -8,6 +8,7 @@
 .author-photo-img {
 	display: block;
 	width: 100%;
+	height: auto; /* the height attribute only reserves the space (aspect ratio) */
 	max-height: 22rem;
 	object-fit: cover;
 	border-radius: 0;
