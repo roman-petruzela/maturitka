@@ -1,7 +1,7 @@
 // The "Klíčové vzorce" rail of an article: the display formulas of the page, cloned out of the
 // rendered article rather than derived from the Markdown a second time — one source of truth, so
-// it cannot drift, and it costs nothing at build time. See AGENTS.md → "Writing formulas in
-// content" for the captioning rules.
+// it cannot drift, and it costs nothing at build time. See docs/formulas.md → "Writing
+// formulas in content" for the captioning rules.
 //
 // The text helpers at the top are pure (no DOM) so they can be tested from Node.
 
