@@ -2,7 +2,6 @@
 title: "Milan Uhde - Balada pro banditu"
 order: 67
 source: "ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Milan Uhde - Balada Pro Banditu/Balada pro banditu.pdf"
-tags: ["mimo-seznam-cetby"]
 ---
 ## 1) Charakteristika uměleckého textu
 

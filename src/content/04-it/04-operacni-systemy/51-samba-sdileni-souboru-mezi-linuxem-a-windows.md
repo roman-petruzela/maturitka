@@ -1,7 +1,6 @@
 ---
 title: "Samba — sdílení souborů mezi Linuxem a Windows"
 order: 203
-tags: ["doplněno"]
 ---
 
 _Doplněný obsah — rozšiřuje ŠVP kapitolu "Operační systém Linux" (3. ročník) o sdílení souborů mezi Linuxem a Windows._

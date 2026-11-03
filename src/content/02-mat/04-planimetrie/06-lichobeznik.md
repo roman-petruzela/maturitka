@@ -2,7 +2,6 @@
 title: "Lichoběžník"
 order: 6
 source: "matematika/TY01_0116 Lichoběžník.pdf"
-hasExercises: true
 ---
 
 > Pozn. k obsahu: Vzorce v PDF byly vysázené jako obrázky (unicode zlomky), text a výsledky úkolů se ale dochovaly celé — vzorce jsou zde přepsané do LaTeXu, výsledky do spoilerů, čísla stránek odstraněna. Úkol 5 se opíral o obrázek vyšrafovaného obrazce, který se nedochoval — zachovaná čísla (úhel a dva rozměry) jsou uvedená, i když bez obrázku nejde přesně určit, jak jsou v obrazci umístěná.

@@ -2,7 +2,6 @@
 title: "Rotační válec"
 order: 4
 source: "matematika/TY0104 Rotační válec.pdf"
-hasExercises: true
 ---
 
 > Pozn. k obsahu: Vzorce v PDF byly vysázené jako obrázky (unicode symboly), přepsané zde do LaTeXu; výsledky úkolů (ověřeny přepočtem, souhlasí) do spoilerů. V zadání 4 byla v PDF u obsahu pláště chybně jednotka $\text{dm}^3$ místo $\text{dm}^2$ (obsah je vždy plošná veličina) — opraveno. PDF dále odkazovalo na program Cabri 3D pro interaktivní úkol 1, který proto nejde reprodukovat, ponechán jako historický záznam.

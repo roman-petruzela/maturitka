@@ -1,7 +1,6 @@
 ---
 title: "Zabezpečení sítí, aplikací a monitorování"
 order: 5
-tags: ["doplněno"]
 ---
 
 ## Zabezpečení webových a aplikačních útoků

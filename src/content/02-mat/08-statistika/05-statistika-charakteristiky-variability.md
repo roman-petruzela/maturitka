@@ -2,7 +2,6 @@
 title: "Statistika – charakteristiky variability"
 order: 5
 source: "matematika/TY01_0222_Statistika_-_charakteristiky_variability.pptx"
-hasExercises: true
 ---
 
 > Pozn. k obsahu: Zdrojová prezentace obsahovala vzorce vložené jako obrázky/rovnice a používala animované odrážky — obojí se při převodu ztratilo. Vzorce jsou níže přepsané do LaTeXu, číselné výsledky řešených příkladů jsou dopočítány a ověřeny z dat v původních tabulkách.

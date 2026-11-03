@@ -1,7 +1,6 @@
 ---
 title: "Ústní zkouška – průběh a užitečné fráze"
 order: 1
-tags: ["doplněno"]
 ---
 Ústní zkouška z angličtiny patří do profilové části maturity, takže její přesnou podobu (počet částí, obrázky, otázky) určuje škola. Podle vyhlášky trvá **příprava nejméně 15 minut** a **zkouška nejvýše 15 minut**. Zkoušející hodnotí hlavně to, jak se domluvíš – plynulost, slovní zásobu, gramatiku, výslovnost a to, jestli reaguješ na otázky. Drobné chyby nevadí, pokud jsi srozumitelný.
 

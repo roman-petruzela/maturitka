@@ -1,7 +1,6 @@
 ---
 title: "Responzivní web, media queries a breakpointy"
 order: 7
-tags: ["doplněno"]
 ---
 **Responzivní web** se sám přizpůsobí velikosti obrazovky – na mobilu je jednosloupcový s velkými tlačítky, na monitoru má více sloupců. Jde o jednu stránku s jedním obsahem, jen různě rozvrženou; nevytváří se zvláštní mobilní verze webu. Většina návštěvníků dnes přichází z telefonu a vyhledávače (Google) hodnotí mobilní verzi stránky přednostně.
 

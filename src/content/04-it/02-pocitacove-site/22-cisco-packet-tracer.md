@@ -1,7 +1,6 @@
 ---
 title: "Praktická konfigurace sítě v Cisco Packet Tracer"
 order: 22
-tags: ["doplněno"]
 ---
 
 ## Cisco Packet Tracer

@@ -2,7 +2,6 @@
 title: "Rotační kužel"
 order: 6
 source: "matematika/TY0106 Rotační kužel.pdf"
-hasExercises: true
 ---
 
 > Pozn. k obsahu: Vzorce v PDF byly vysázené jako obrázky (unicode symboly), přepsané zde do LaTeXu; výsledky úkolů (ověřeny přepočtem) do spoilerů. U příkladu 1 dochovaný výsledek odpovídal celkovému povrchu $S$, ne jen obsahu pláště, jak zadání uvádělo — opraveno na "povrch". Odkaz na interaktivní GeoGebra applet (rozvinutí pláště kužele) ponechán, funkčnost nebyla ověřována.

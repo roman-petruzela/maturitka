@@ -2,7 +2,6 @@
 title: "Směrnicový tvar rovnice přímky"
 order: 9
 source: "matematika/TY01_0129_Smernicovy_tvar_rovnice_primky.pptx"
-hasExercises: true
 ---
 
 > Pozn. k obsahu: Zdrojová prezentace obsahovala jen nadpisy a odrážky bez textu (animované, postupně se odkrývající body) — nešlo z nich rekonstruovat konkrétní zadání. Teorie a příklady jsou proto doplněny odpovídající standardnímu rozsahu tématu.

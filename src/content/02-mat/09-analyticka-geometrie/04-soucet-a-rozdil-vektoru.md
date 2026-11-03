@@ -2,7 +2,6 @@
 title: "Součet a rozdíl vektorů"
 order: 4
 source: "matematika/TY01_0124_Soucet_a_rozdil_vektoru.pptx"
-hasExercises: true
 ---
 
 > Pozn. k obsahu: Zdrojová prezentace obsahovala jen nadpisy a odrážky bez textu (animované, postupně se odkrývající body) a odkaz na chybějící obrázek ("Grafický součet a rozdíl vektorů") — nešlo z nich rekonstruovat konkrétní zadání. Teorie a příklady jsou proto doplněny odpovídající standardnímu rozsahu tématu.

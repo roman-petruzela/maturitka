@@ -2,7 +2,6 @@
 title: "Posloupnost – obecná posloupnost"
 order: 1
 source: "matematika/TY01_0215-Posloupnost_-_obecna_posloupnost.pptx"
-hasExercises: true
 ---
 
 > Pozn. k obsahu: Zdrojová prezentace obsahovala funkční definice a přehled vlastností, ale konkrétní vzorce v ukázkových příkladech byly vložené jako obrázky, které se nedochovaly (zůstaly jen prázdné řádky "n = 1:", "n = 2:" ...) — příklady jsou proto doplněny vlastními, reprezentativními zadáními. Vlastnost výsledné posloupnosti v prvním cvičení ("klesající") byla v podkladu zachována, zadání k ní ale ne — doplněné zadání níže na tuto dochovanou vlastnost přesně sedí.

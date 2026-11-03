@@ -2,7 +2,6 @@
 title: "Soustava lineární a kvadratické rovnice"
 order: 4
 source: "matematika/TY01_0204_-_Soustava_linearni_a_kvadraticke_rovnice.pptx"
-hasExercises: true
 ---
 
 > Pozn. k obsahu: Zdrojová prezentace používala animované odrážky, vzorce vložené jako obrázky a tabulky hodnot, které se při prvním převodu ztratily nebo poškodily. Text, vzorce a tabulky jsou zde doplněné/rekonstruované; všechny výsledky byly nezávisle přepočítány. U jednoho grafického příkladu měl v podkladu zjevně chybět mínus (uváděné "xy = 6" nedávalo výsledky z podkladu, ale "xy = −6" ano) — opraveno.

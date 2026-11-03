@@ -11,53 +11,31 @@ export type AdjacentTopic = {
 interface Props {
 	headings: MarkdownHeading[];
 	categoryLabel?: string;
-	tags: string[];
-	hasExercises: boolean;
 	prev: AdjacentTopic;
 	next: AdjacentTopic;
 	/** true when the article contains display math worth digesting into the rail */
 	hasFormulas: boolean;
 }
 
-const { headings, categoryLabel, tags, hasExercises, prev, next, hasFormulas } = Astro.props;
+const { headings, categoryLabel, prev, next, hasFormulas } = Astro.props;
 
 // Source documents disagree about where their heading hierarchy starts:
 // some open at "#", most at "##". Rebasing on the shallowest level actually
 // present keeps the rail's indentation meaningful either way.
 const shown = headings.filter((h) => h.depth <= 3 && h.text.trim() !== '');
 const base = shown.length ? Math.min(...shown.map((h) => h.depth)) : 1;
-
-// Frontmatter flags, spelled the way they read to a student rather than the
-// way they're stored.
-const marks: { label: string; title: string }[] = [];
-if (hasExercises) marks.push({ label: 'úlohy', title: 'Obsahuje úlohy na výpočet' });
-if (tags.includes('doplněno')) marks.push({ label: 'doplněno', title: 'Doplněný obsah, není z archivu podkladů' });
-if (tags.includes('mimo-seznam-cetby'))
-	marks.push({ label: 'mimo seznam četby', title: 'Není na aktuálním školním seznamu četby k maturitě' });
 ---
 
 <aside class="rail rail-aside">
 	{/* Kept outside the collapsible part: on a phone these are the two things
 	    worth seeing before you commit to reading, and they're a few rows. */}
 	{
-		(categoryLabel || marks.length > 0) && (
+		categoryLabel && (
 			<dl class="rail-meta">
 				{categoryLabel && (
 					<div>
 						<dt>Kategorie</dt>
 						<dd>{categoryLabel}</dd>
-					</div>
-				)}
-				{marks.length > 0 && (
-					<div>
-						<dt>Značky</dt>
-						<dd class="rail-marks">
-							{marks.map((m) => (
-								<span class="mini-badge" title={m.title}>
-									{m.label}
-								</span>
-							))}
-						</dd>
 					</div>
 				)}
 			</dl>

@@ -2,7 +2,6 @@
 title: "Opakování — 3. čtvrtletní"
 order: 17
 source: "mat/opakování_3.čtvrtletní.pdf"
-hasExercises: true
 ---
 
 > Pozn. k obsahu: Zadání i výsledky se dochovaly téměř celé, jen s poškozeným formátováním zlomků a odmocnin (čísla se rozpadla mimo pořadí) — rekonstruováno pomocí dochovaných výsledků (u úlohy 9 to šlo obzvlášť přesně, protože intervalové zápisy výsledků jednoznačně určují, jak měl vypadat zlomek/odmocnina v zadání) a přepočtem ověřeno. Všechny výsledky souhlasí se zdrojem.

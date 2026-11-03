@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import MathScratchpad from '../../components/MathScratchpad.astro';
+import DoneToggle from '../../components/DoneToggle.astro';
 import SubjectRail from '../../components/SubjectRail.astro';
 import ArticleAside from '../../components/ArticleAside.astro';
 import { SUBJECTS, SUBJECT_KEYS, type SubjectKey } from '../../lib/subjects';
@@ -15,7 +16,6 @@ export type TopicItem = {
 	order: number | null;
 	group: string | null;
 	groupLabel: string;
-	hasExercises: boolean;
 };
 
 export async function getStaticPaths() {
@@ -54,7 +54,6 @@ export async function getStaticPaths() {
 			order: entry.data.order ?? null,
 			group,
 			groupLabel: group ? groupLabel(subject, group) : '',
-			hasExercises: entry.data.hasExercises ?? false,
 		}));
 
 		// prev/next walk the flat, subject-wide order rather than staying
@@ -149,23 +148,10 @@ const contentLang = subject === 'aj' && group !== 'maturitni-zkouska' ? 'en' : s
 			<div class="topic-head">
 				<h1>{entry.data.title}</h1>
 			</div>
-			{
-				entry.data.tags?.includes('doplněno') && (
-					<p class="topic-notice">
-						Doplněný obsah — není z archivu podkladů, napsáno podle ŠVP. Vhodné ověřit u vyučujícího.
-					</p>
-				)
-			}
-			{
-				entry.data.tags?.includes('mimo-seznam-cetby') && (
-					<p class="topic-notice">
-						Toto dílo není na aktuálním školním seznamu četby k maturitě — rozbor je tu jen jako doplněk.
-					</p>
-				)
-			}
 			<article class="topic" lang={contentLang}>
 				<Content />
 			</article>
+			<DoneToggle topicId={`${subject}/${currentId}`} />
 			{subject === 'mat' && <MathScratchpad />}
 			{entry.data.source && <p class="source-note">Zdroj: {entry.data.source}</p>}
 		</div>
@@ -173,8 +159,6 @@ const contentLang = subject === 'aj' && group !== 'maturitni-zkouska' ? 'en' : s
 		<ArticleAside
 			headings={tocHeadings}
 			categoryLabel={categoryLabel}
-			tags={entry.data.tags ?? []}
-			hasExercises={entry.data.hasExercises ?? false}
 			prev={
 				prev
 					? { href: `/${subject}/${cleanId(prev.id)}/`, title: prev.data.title, otherGroupLabel: prevOtherGroup }

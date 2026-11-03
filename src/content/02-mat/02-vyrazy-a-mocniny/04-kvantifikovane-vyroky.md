@@ -2,7 +2,6 @@
 title: "Kvantifikované výroky"
 order: 4
 source: "mat2/Kvantifikované výroky.pdf"
-hasExercises: true
 ---
 
 > Pozn. k obsahu: Jeden z úvodních příkladů obsahoval OCR chybu — "$(-a)^2=a$" místo správného "$(-a)^2=a^2$" (viz konzistentně stejný příklad v [Výrok, negace výroku](/mat/vyrazy-a-mocniny/01-vyrok-negace-vyroku/)) — opraveno.

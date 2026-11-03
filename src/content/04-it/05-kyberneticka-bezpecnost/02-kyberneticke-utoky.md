@@ -1,7 +1,6 @@
 ---
 title: "Kybernetické útoky"
 order: 2
-tags: ["doplněno"]
 ---
 
 ## Kybernetický útok – fáze a kategorie

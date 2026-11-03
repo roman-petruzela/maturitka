@@ -2,7 +2,6 @@
 title: "Číselné obory"
 order: 7
 source: "mat2/Číselné obory.pdf"
-hasExercises: true
 ---
 
 Připomeneme si, jaké druhy čísel známe a k čemu nám v praxi slouží.

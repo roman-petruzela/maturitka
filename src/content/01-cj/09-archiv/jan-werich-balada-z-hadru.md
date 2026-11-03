@@ -2,7 +2,6 @@
 title: "Jiří Voskovec a Jan Werich - Balada z hadrů"
 order: 37
 source: "ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Jan Werich - Balada z Hadrů/Balada z hadrů.pdf"
-tags: ["mimo-seznam-cetby"]
 ---
 ## 1) Charakteristika uměleckého textu
 

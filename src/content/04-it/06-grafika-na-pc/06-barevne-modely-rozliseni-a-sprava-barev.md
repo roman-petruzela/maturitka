@@ -1,7 +1,6 @@
 ---
 title: "Barevné modely, rozlišení a správa barev"
 order: 6
-tags: ["doplněno"]
 ---
 Jak počítač popisuje barvu, jak jemně je obrázek rozložen na body a proč stejný obrázek vypadá na monitoru a na papíře jinak.
 

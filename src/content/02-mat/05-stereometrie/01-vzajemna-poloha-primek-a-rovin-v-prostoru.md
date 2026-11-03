@@ -2,7 +2,6 @@
 title: "Vzájemná poloha přímek a rovin v prostoru"
 order: 1
 source: "matematika/TY0101 Vzájemná poloha přímek a rovin v prostoru.pdf"
-hasExercises: true
 ---
 
 > Pozn. k obsahu: PDF odkazovalo na soubory pro program Cabri 3D (interaktivní geometrický software), které nejsou součástí archivu — úkoly 1–3 v první sekci proto nejde reprodukovat, ponechány jako historický záznam. V posledním cvičení se u dvou položek (b, e) při převodu poškodilo přesné značení bodů (pravděpodobně středů hran, značených dolním indexem S) — u nich je uvedený nejpravděpodobnější odhad s poznámkou.

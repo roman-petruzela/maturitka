@@ -1,7 +1,6 @@
 ---
 title: "Česká meziválečná avantgarda, próza a drama"
 order: 13
-tags: ["doplněno"]
 ---
 
 Vznik samostatného Československa (1918) přináší i rozkvět kulturního života — mladá generace autorů hledá nové, radikální umělecké formy (avantgarda), zatímco próza reaguje na čerstvou zkušenost 1. světové války a hledá vlastní, osobité cesty vyjádření.

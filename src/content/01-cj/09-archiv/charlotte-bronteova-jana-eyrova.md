@@ -2,7 +2,6 @@
 title: "Charlotte Bronteová - Jana Eyrová"
 order: 35
 source: "ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Charlotte Bronteová - Jana Eyrová/Jana Eyrová.docx"
-tags: ["mimo-seznam-cetby"]
 ---
 __Autor (1816 – 1856)__
 

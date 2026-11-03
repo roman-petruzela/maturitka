@@ -2,7 +2,6 @@
 title: "Koule, kulová plocha, kulová úseč a kulový vrchlík"
 order: 9
 source: "matematika/TY0109 Koule, kulová plocha, kulová úseč a kulový vrchlík.pdf"
-hasExercises: true
 ---
 
 > Pozn. k obsahu: Vzorce v PDF byly vysázené jako obrázky (unicode symboly), přepsané zde do LaTeXu; výsledky úkolů ověřeny přepočtem, souhlasí. Sekce „Kulová úseč" byla v PDF jen nadpis bez textu (vzorec chyběl zcela) — doplněno standardním vzorcem, ověřeným zpětně na příkladech 3 a 4, které na tento vzorec navazují.

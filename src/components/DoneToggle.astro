@@ -1,0 +1,18 @@
+---
+// "Hotovo" under an article: a topic the student has gone through. The state lives in localStorage
+// (src/lib/progress.ts paints the button and the marks on the subject page); without JavaScript the
+// button simply does nothing.
+interface Props {
+	topicId: string;
+}
+const { topicId } = Astro.props;
+---
+
+<button type="button" class="done-toggle" data-done-toggle data-topic-id={topicId} aria-pressed="false">
+	<span class="done-box" aria-hidden="true">
+		<svg viewBox="0 0 16 16" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+			<path d="M3 8.5 L6.5 12 L13 4.5"></path>
+		</svg>
+	</span>
+	<span class="done-label" data-done-label>Označit jako hotové</span>
+</button>

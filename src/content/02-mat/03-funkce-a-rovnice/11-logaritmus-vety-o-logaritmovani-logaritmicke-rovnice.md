@@ -2,8 +2,6 @@
 title: "Logaritmus, věty o logaritmování, logaritmické rovnice"
 order: 11
 source: "matematika/TY01_0211_-_Logaritmus_vety_o_logaritmovani_logaritmicke_rovnice.pptx"
-tags: ["doplněno"]
-hasExercises: true
 ---
 
 > Pozn. k obsahu: Zdrojová prezentace používala animované odrážky a vzorce vložené jako obrázky, které se při prvním převodu ztratily nebo poškodily — v shrnutí navíc OCR omylem zaměnilo všechna „=" za „≠", opraveno. Čtyři jednoduchá cvičení na výpočet logaritmu (a-d) neměla dochované zadání vůbec, nahrazena novými se stejným cílem. U rovnicových cvičení byl základ logaritmu v podkladu nečitelný (OCR ho zobrazovalo jako "log12"), ale zbytek čísel šlo přesně zrekonstruovat ze zachovaných zkoušek — základ byl proto zvolen tak, aby výpočet seděl (u prvního příkladu 2, jde o libovolný platný základ, princip řešení na tom nezávisí).

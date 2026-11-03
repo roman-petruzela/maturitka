@@ -2,7 +2,6 @@
 title: "Sofoklés - Antigona"
 order: 80
 source: "ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Antigona - Sofolkes.docx"
-tags: ["mimo-seznam-cetby"]
 ---
 ## Obecná charakteristika díla
 

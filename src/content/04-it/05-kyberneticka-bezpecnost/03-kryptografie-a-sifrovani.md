@@ -1,7 +1,6 @@
 ---
 title: "Základy kryptografie a šifrování"
 order: 3
-tags: ["doplněno"]
 ---
 
 ## Základy kryptografie a šifrování

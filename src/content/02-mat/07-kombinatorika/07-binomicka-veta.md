@@ -2,7 +2,6 @@
 title: "Binomická věta"
 order: 7
 source: "matematika/TY01_0230_Binomicka_veta.pptx"
-hasExercises: true
 ---
 
 > Pozn. k obsahu: Zdrojová prezentace používala animované odrážky (postupně se odkrývající text), který se při převodu do textu ztratil. Zachoval se ale rozpočítaný příklad (a+b)⁴ i tabulka koeficientů — z toho šlo přesně rekonstruovat obecné znění binomické věty a vzorec pro k-tý člen rozvoje. Konkrétní zadání tří závěrečných úloh se nedochovala, nahrazena novými se stejným cílem.

@@ -24,12 +24,10 @@ def yaml_string(value: str) -> str:
     return json.dumps(value, ensure_ascii=False)
 
 
-def build_frontmatter(title: str, order, tags, source: str) -> str:
+def build_frontmatter(title: str, order, source: str) -> str:
     lines = ["---", f"title: {yaml_string(title)}"]
     if order is not None:
         lines.append(f"order: {order}")
-    if tags:
-        lines.append("tags: [" + ", ".join(yaml_string(t) for t in tags) + "]")
     if source:
         lines.append(f"source: {yaml_string(source)}")
     lines.append("---")
@@ -128,7 +126,7 @@ def _to_pdf(src_abs: Path, tmp_dir: Path) -> Path:
 def convert_one(item: dict, ocr: bool, tmp_dir: Path) -> None:
     dest_abs = WEB_ROOT / "src" / "content" / item["dest"]
     frontmatter = build_frontmatter(
-        item["title"], item.get("order"), item.get("tags"), item.get("source") or display_source(item["src"])
+        item["title"], item.get("order"), item.get("source") or display_source(item["src"])
     )
     skip_reason = item.get("skip")
     if skip_reason:

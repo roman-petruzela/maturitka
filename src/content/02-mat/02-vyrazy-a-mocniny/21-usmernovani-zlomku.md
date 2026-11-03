@@ -2,8 +2,6 @@
 title: "Usměrňování zlomků"
 order: 21
 source: "mat/usměrňování_zlomků.pdf"
-tags: ["doplněno"]
-hasExercises: true
 ---
 
 > Pozn.: Zdrojové PDF obsahovalo text ve formě, kterou automatický převod nedokázal přečíst (stránka vypadala prázdná). Zadání devíti výrazů se dochovalo ručním přepisem přímo ze zdrojového souboru, teorie a výsledky ale chyběly úplně — doplněny a ověřeny.

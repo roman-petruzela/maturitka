@@ -2,7 +2,6 @@
 title: "Odchylka dvou přímek v prostoru"
 order: 2
 source: "matematika/TY0102 Odchylka dvou přímek v prostoru.pdf"
-hasExercises: true
 ---
 
 > Pozn. k obsahu: PDF odkazovalo na soubory pro program Cabri 3D, které nejsou součástí archivu. U jedné položky v posledním cvičení (b) se přesné značení bodů při převodu poškodilo natolik, že nejde spolehlivě určit, o které dvě přímky šlo — ponecháno bez výsledku.

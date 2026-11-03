@@ -2,7 +2,6 @@
 title: "Geometrická posloupnost"
 order: 3
 source: "matematika/TY01_0217-Geometricka_posloupnost.pptx"
-hasExercises: true
 ---
 
 > Pozn. k obsahu: Vzorec pro součet geometrické řady byl v PDF vložen jako obrázek, který se zcela ztratil (zůstaly jen prázdné řádky "S₂₀ =") — doplněn standardní vzorec i s novým ukázkovým příkladem, protože původní čísla zadání se nedochovala. U cvičení 2 a 3 obsahoval dochovaný text početní chybu (u příkladu 2 dosazoval do vzorce špatný exponent, u příkladu 3 totéž) — přepočítáno správně od začátku, s poznámkou u obou.

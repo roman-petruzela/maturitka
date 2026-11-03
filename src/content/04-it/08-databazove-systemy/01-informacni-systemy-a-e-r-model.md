@@ -1,7 +1,6 @@
 ---
 title: "Informační systémy a E-R model"
-order: 1
-tags: ["doplněno"]
+order: 2
 ---
 
 ## Informační systém

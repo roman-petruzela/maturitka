@@ -2,7 +2,6 @@
 title: "Exponenciální funkce a její posunutí"
 order: 8
 source: "matematika/TY01_0208_-_Exponencialni_funkce_a_jeji_posunuti.pptx"
-hasExercises: true
 ---
 
 > Pozn. k obsahu: Zdrojová prezentace používala animované odrážky a grafy vložené jako obrázky, které se při prvním převodu ztratily nebo poškodily. Text, vzorce, tabulky a grafy jsou zde doplněné/rekonstruované z dochovaných tabulek hodnot; všechny předpisy a hodnoty byly nezávisle ověřeny.

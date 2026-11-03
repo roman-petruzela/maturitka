@@ -2,7 +2,6 @@
 title: "Kombinatorika v praxi"
 order: 9
 source: "matematika/TY01_0232_Kombinatorika_v_praxi.pptx"
-hasExercises: true
 formulaRail: false
 ---
 

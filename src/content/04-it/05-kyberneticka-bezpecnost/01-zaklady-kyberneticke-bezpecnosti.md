@@ -1,7 +1,6 @@
 ---
 title: "Základy kybernetické bezpečnosti"
 order: 1
-tags: ["doplněno"]
 ---
 
 ## Kybernetický prostor a kybernetická bezpečnost

@@ -1,7 +1,6 @@
 ---
 title: "Jazyk SQL a práce s databází"
-order: 2
-tags: ["doplněno"]
+order: 4
 ---
 
 ## Jazyk SQL

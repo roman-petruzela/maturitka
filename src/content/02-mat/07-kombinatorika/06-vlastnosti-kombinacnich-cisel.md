@@ -2,8 +2,6 @@
 title: "Vlastnosti kombinačních čísel"
 order: 6
 source: "matematika/TY01_0229_Vlastnosti_kombinacnich_cisel.pptx"
-tags: ["doplněno"]
-hasExercises: true
 ---
 
 > Pozn. k obsahu: Zdrojová prezentace se při převodu ukázala jako prázdná (obsah byl výhradně v animacích, které konverze nezachytila). Celý obsah tohoto tématu je proto nově napsaný a navazuje na [Kombinace bez opakování](/mat/kombinatorika/04-kombinace-bez-opakovani/), kde bylo kombinační číslo $\binom{n}{k}$ zavedeno.

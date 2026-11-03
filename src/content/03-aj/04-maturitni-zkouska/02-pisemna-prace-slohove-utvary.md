@@ -1,7 +1,6 @@
 ---
 title: "Písemná práce – e-mail, dopis a další slohové útvary"
 order: 2
-tags: ["doplněno"]
 ---
 Písemná práce patří do profilové části maturity; zadání a rozsah určuje škola. Dřívější společná část (Cermat) měla dvě úlohy – **delší text o 120–150 slovech** (dopis, článek, příběh) a **kratší o 60–70 slovech** (e-mail, vzkaz, oznámení) – a školní zadání se tím obvykle řídí. Během písemné práce se smí používat **slovník**.
 

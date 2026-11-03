@@ -2,7 +2,6 @@
 title: "William Shakespeare - Zkrocení Zlé Ženy"
 order: 89
 source: "ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/William Shakespeare - Zkrocení Zlé Ženy/William-Shakespeare-zkorcení-zlé-ženy-rozbor.docx"
-tags: ["mimo-seznam-cetby"]
 ---
 - byl jedním z největších anglických i světových dramatiků.
 - jeho životě se toho moc nevíme

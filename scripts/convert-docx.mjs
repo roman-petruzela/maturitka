@@ -134,10 +134,9 @@ function escapeAttr(s) {
 	return s.replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;');
 }
 
-function buildFrontmatter({ title, order, tags, source }) {
+function buildFrontmatter({ title, order, source }) {
 	const lines = ['---', `title: ${yamlString(title)}`];
 	if (order != null) lines.push(`order: ${order}`);
-	if (tags?.length) lines.push(`tags: [${tags.map(yamlString).join(', ')}]`);
 	if (source) lines.push(`source: ${yamlString(source)}`);
 	lines.push('---', '');
 	return lines.join('\n');
@@ -215,7 +214,6 @@ async function convertOne(item, tmpDir) {
 	const frontmatter = buildFrontmatter({
 		title: item.title,
 		order: item.order,
-		tags: item.tags,
 		source: item.source ?? displaySource(item.src),
 	});
 	await writeFile(destAbs, frontmatter + cleanMarkdown(markdown));

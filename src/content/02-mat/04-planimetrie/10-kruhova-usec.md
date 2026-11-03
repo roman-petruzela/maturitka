@@ -2,7 +2,6 @@
 title: "Kruhová úseč"
 order: 10
 source: "matematika/TY01_0120 Kruhová úseč.pdf"
-hasExercises: true
 ---
 
 > Pozn. k obsahu: Vzorec v PDF byl vysázený jako obrázek (unicode zlomky), text a výsledky úkolů se ale většinou dochovaly celé — vzorec je zde přepsaný do LaTeXu, výsledky do spoilerů, čísla stránek odstraněna. U úkolů 2 a 3 dochované výsledky neseděly s dosazením zadaných hodnot do vzorce (u 3 vycházel násobně větší obsah, než jaký může mít celý kruh) — přepočítáno správně ze zadání; úkoly 1 a 4 po přepočtu se shodovaly, takže vzorec je jistě uveden správně.

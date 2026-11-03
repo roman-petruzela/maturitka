@@ -2,7 +2,6 @@
 title: "Goniometrické funkce"
 order: 12
 source: "matematika/TY01_0212_-_Goniometricke_funkce.pptx"
-hasExercises: true
 ---
 
 > Pozn. k obsahu: Zdrojová prezentace používala animované odrážky, grafy a tabulky vložené jako obrázky, které se při prvním převodu ztratily nebo poškodily (v tabulce hodnot chyběly sloupce 30°/60°, ve dvou příkladech chyběly konkrétní hodnoty posunu — dopočítány ze zachovaných výsledků). Text, vzorce, tabulky a grafy jsou zde doplněné/rekonstruované; grafy jsou vykreslené v radiánech (běžná konvence pro spojité funkce), zatímco tabulky hodnot používají stupně tak, jak byly v podkladu.

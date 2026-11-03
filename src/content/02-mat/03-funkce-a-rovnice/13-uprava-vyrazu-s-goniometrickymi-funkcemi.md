@@ -2,8 +2,6 @@
 title: "Úprava výrazů s goniometrickými funkcemi"
 order: 13
 source: "matematika/TY01_0213_-_Uprava_vyrazu_s_goniometrickymi_funkcemi.pptx"
-tags: ["doplněno"]
-hasExercises: true
 ---
 
 > Pozn. k obsahu: Zdrojová prezentace obsahovala konkrétní zadání všech ukázkových příkladů i cvičení vložená jako obrázky/rovnice, která se při převodu ztratila beze zbytku (zůstaly jen popisky "Zjednodušte:" bez samotného výrazu). Teorie a vzorce jsou rekonstruované věrně podle zachovaného textu (včetně opravy tg/cotg vzorců, kde OCR ztratilo zlomky); konkrétní příklady níže jsou nově vytvořené tak, aby používaly přesně tytéž vzorce, které prezentace uváděla.

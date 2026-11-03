@@ -1,7 +1,6 @@
 ---
 title: "Publikování webu – doména, hosting, FTP a SEO"
 order: 9
-tags: ["doplněno"]
 ---
 Hotový web se musí dostat na **server** připojený k internetu, aby ho mohl kdokoli otevřít pod srozumitelnou adresou.
 

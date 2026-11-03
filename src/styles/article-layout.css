@@ -361,13 +361,6 @@
 	overflow-wrap: anywhere;
 }
 
-.rail-marks {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: flex-end;
-	gap: 0.3rem;
-}
-
 /* Adjacent topics, in the slot the reading-time estimate used to hold —
    where you go next is a decision; "3 min" was only ever trivia. The only
    place this shows now (the article body used to end with a duplicate
@@ -562,7 +555,7 @@
 }
 
 /* ── Telefon a úzký tablet: co je nad textem a co pod ním ────────────────
-   Above the text only what helps to start reading: the category and badges
+   Above the text only what helps to start reading: the category
    (one compact block) and the folded table of contents. Where to go next
    (Předchozí / Další) and the subject index belong after the article — on a
    phone they used to push the title ~450px down, below the first screen.

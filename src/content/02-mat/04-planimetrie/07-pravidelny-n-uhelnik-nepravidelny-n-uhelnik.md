@@ -2,7 +2,6 @@
 title: "Pravidelný n-úhelník, nepravidelný n-úhelník"
 order: 7
 source: "matematika/TY01_0117 Pravidelný n-úhelník, nepravidelný n-úhelník.pdf"
-hasExercises: true
 ---
 
 > Pozn. k obsahu: Vzorce v PDF byly vysázené jako obrázky (unicode zlomky), text a výsledky úkolů se ale dochovaly celé — vzorce jsou zde přepsané do LaTeXu, výsledky do spoilerů, čísla stránek odstraněna. Úkoly v sekci "nepravidelný n-úhelník" se opíraly o obrázky konkrétních obrazců, které se nedochovaly — zachované výsledné hodnoty jsou uvedené jako historický záznam, i když bez obrázku nejde úlohu reprodukovat.

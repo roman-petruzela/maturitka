@@ -1,7 +1,6 @@
 ---
 title: "3D tisk, CNC a technické výkresy"
 order: 1
-tags: ["doplněno"]
 ---
 
 ## Technologie 3D tisku

@@ -32,7 +32,7 @@ po zásahu do `src/lib/**` tiše servírovat starý build.
 ```
 src/
   content.config.ts     # kolekce se generují automaticky z src/content/* (Zod schema:
-                        # title, order, tags, source, hasExercises)
+                        # title, order, source, formulaRail)
   content/<predmet>/**/*.md   # obsah — podsložka = kategorie v navigaci daného předmětu
   layouts/BaseLayout.astro    # hlavička, patička, OG/meta tagy, skip-link, klientské skripty
   pages/
@@ -44,8 +44,8 @@ src/
     404.astro                  # vlastní stránka pro neexistující URL
   components/
     SubjectRail.astro     # levý sloupec — rejstřík celého předmětu
-    ArticleAside.astro    # pravý sloupec — značky, sousední témata, obsah, vzorce
-    TopicRow.astro        # řádek v seznamu témat (číslo, název, odznaky)
+    ArticleAside.astro    # pravý sloupec — kategorie, sousední témata, obsah, vzorce
+    TopicRow.astro        # řádek v seznamu témat (číslo, název, značka „hotovo“)
     MathScratchpad.astro  # pracovní plocha pod články z matematiky
     GraphPlot.astro, Icon.astro
   lib/
@@ -54,15 +54,19 @@ src/
     markdown/           # remark/rehype pluginy: math, spoilery, grafy, geometrie,
                         # tělesa, portréty autorů, odkazy na rozbory
   styles/global.css     # designový systém (barvy, písma, rozvržení)
+docs/                   # podrobná dokumentace po tématech (AGENTS.md je rozcestník)
+vercel.json             # hlavičky a cache na Vercelu
 scripts/
   build-manifests.mjs    # projde zdrojový adresář s podklady a vygeneruje scripts/manifest/*.json
   convert-docx.mjs       # mammoth: docx/doc/odt → markdown (docx přímo, doc/odt přes LibreOffice)
   convert-pdf.py         # pymupdf4llm (venv v scripts/.venv): pdf → markdown, volitelně --ocr
-  manifest/*.json        # mapování zdroj → cíl (title, order, tags, src, dest) — upravuj ručně
+  manifest/*.json        # mapování zdroj → cíl (title, order, src, dest) — upravuj ručně
   archive.mjs, archive_paths.py  # aliasy cest k archivu (archiv-1/…) — skutečné názvy složek
                          # jsou jen v git-ignorovaném archive-aliases.local.json, viz AGENTS.md
   check-links.mjs        # po buildu ověří, že žádný interní <a href> nevede do prázdna
   check-formulas.mjs     # ověří přehled vzorců proti stránkám témat
+  check-frontmatter.mjs  # title, číselný a jedinečný order, jedinečné slugy, známé klíče a tagy
+  check-content.mjs      # přeskočené úrovně nadpisů (h2 → h4) a obrázky bez alt
 ```
 
 ## Pořadí a názvy předmětů a kategorií
@@ -83,13 +87,13 @@ Přerovnat nebo přejmenovat předmět či kategorii je tedy přejmenování slo
 Kolekce, stránky i navigace se dotáhnou samy.
 
 **Ručně psané téma** — stačí Markdown v `src/content/<predmet>/<kategorie>/NN-slug.md`
-s frontmatterem (povinný je jen `title`; dál `order`, `tags`, `source`, `hasExercises`).
+s frontmatterem (povinný je jen `title`; dál `order`, `source`, `formulaRail`).
 
 **Převod z archivního souboru:**
 
 1. Přidej záznam do `scripts/manifest/<predmet>.json` ve tvaru
    `{ "src": "<cesta ke zdrojovému souboru>", "dest": "<predmet>/<kategorie>/<slug>.md",
-   "title": "...", "order": 1, "tags": [...] }`. Podsložka v `dest` určuje kategorii.
+   "title": "...", "order": 1 }`. Podsložka v `dest` určuje kategorii.
 2. Spusť konverzi (skripty samy přeskočí položky, na které nemají příponu):
    ```sh
    node scripts/convert-docx.mjs scripts/manifest/<predmet>.json
@@ -97,15 +101,9 @@ s frontmatterem (povinný je jen `title`; dál `order`, `tags`, `source`, `hasEx
    ```
 3. Výstup projdi a dorovnej ručně — konverze je začátek, ne hotová věc.
 
-## Značky ve frontmatteru
+## Volitelné klíče ve frontmatteru
 
-- `tags: ["doplněno"]` — obsah dopsaný ručně, ne převedený z archivního souboru. Je to
-  jediný způsob, jak rozeznat původní podklady od nově napsaného textu (a tedy od toho,
-  co je dobré nechat zkontrolovat vyučujícím). Takto vznikla například část témat
-  v IT → Databázové systémy, pro která se nedochoval žádný zdrojový dokument.
-- `tags: ["mimo-seznam-cetby"]` — rozbor díla, které není na aktuálním školním seznamu
-  četby k maturitě.
-- `hasExercises: true` — téma obsahuje příklady na výpočet; web u něj zobrazí odznak.
+- `formulaRail: false` — stránka z řešených příkladů, vpravo se nezobrazí „Klíčové vzorce“.
 
 ## Poznámky ke kvalitě konverze
 

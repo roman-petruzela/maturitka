@@ -1,7 +1,6 @@
 ---
 title: "Skenování a digitalizace"
 order: 9
-tags: ["doplněno"]
 ---
 **Skenování** je převod předlohy (papírového dokumentu, fotografie, filmu) do elektronické podoby – nejčastěji do rastrového obrázku. Důvody: archivace, sdílení, rychlejší vyhledání informací, další úprava v počítači nebo převod textu na upravitelný text.
 

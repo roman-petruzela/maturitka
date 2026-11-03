@@ -2,7 +2,6 @@
 title: "Trojúhelník – pravoúhlý"
 order: 3
 source: "matematika/TY01_0113 Trojúhelník – pravoúhlý.pdf"
-hasExercises: true
 ---
 
 > Pozn. k obsahu: Vzorce v PDF byly vysázené jako obrázky (unicode zlomky), text a výsledky úkolů se ale dochovaly celé — vzorce jsou zde přepsané do LaTeXu, výsledky do spoilerů, čísla stránek odstraněna.

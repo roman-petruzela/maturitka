@@ -2,7 +2,6 @@
 title: "Karel Šiktanc - Hejnovské Noci"
 order: 58
 source: "ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Karel Šiktanc - Hejnovské Noci/HEINOVSKÉ-NOCI.docx"
-tags: ["mimo-seznam-cetby"]
 ---
 __Karel Šiktanc__
 

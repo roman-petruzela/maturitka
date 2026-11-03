@@ -2,7 +2,6 @@
 title: "Kružnice"
 order: 11
 source: "matematika/TY01_0131_Kruznice.pptx"
-hasExercises: true
 ---
 
 > Pozn. k obsahu: Zdrojová prezentace obsahovala vzorce a obrázky vložené jako grafické objekty a používala animované odrážky (postupně se odkrývající text) — obojí se při převodu ztratilo. Definice a vzorce jsou níže doplněny v textové podobě; konkrétní zadání cvičení v prezentaci nebyla v textu obsažena přímo, takže je nelze rekonstruovat.

@@ -2,7 +2,6 @@
 title: "Statistika – základní pojmy"
 order: 1
 source: "matematika/TY01_0218_Statistika_zakladni_pojmy.pptx"
-hasExercises: true
 ---
 
 > Pozn. k obsahu: Zdrojová prezentace (PPTX) obsahovala krátké heslovité body na jednotlivých snímcích — přepsáno do souvislého textu se zachováním všech pojmů. Úloha 1 odkazuje na přiložený dokument „Dopravní nehody", který není součástí archivu — ponecháno jako historický záznam.

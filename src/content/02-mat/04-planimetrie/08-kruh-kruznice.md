@@ -2,7 +2,6 @@
 title: "Kruh, kružnice"
 order: 8
 source: "matematika/TY01_0118 Kruh, kružnice.pdf"
-hasExercises: true
 ---
 
 > Pozn. k obsahu: Vzorce v PDF byly vysázené jako obrázky (unicode zlomky), text a výsledky úkolů se ale dochovaly celé — vzorce jsou zde přepsané do LaTeXu, výsledky do spoilerů, čísla stránek odstraněna.

@@ -2,7 +2,6 @@
 title: "Statistika – korelace"
 order: 6
 source: "matematika/TY01_0223_Statistika_-_korelace.pptx"
-hasExercises: true
 ---
 
 > Pozn. k obsahu: Zdrojová prezentace obsahovala vzorce vložené jako obrázky (nečitelné po převodu) a odkazovala na vložené grafy a externí soubory — vzorce jsou níže doplněny v LaTeXu podle standardní definice Pearsonova korelačního koeficientu, obrázky grafů (bez dochovaného textu) vynechány. U obou příkladů (výška syna/otce, známky/IQ) byla dochována jen tabulka vstupních dat bez výsledku — korelační koeficient jsem dopočítal a dvakrát nezávisle zkontroloval (přímým i zjednodušeným vzorcem). Odkazovaný soubor *úlohy korelace.xlsx* není součástí archivu.

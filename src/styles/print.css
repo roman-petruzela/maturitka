@@ -34,6 +34,9 @@
 	.group-jump,
 	.math-scratchpad,
 	.exercise-send-btn,
+	.done-toggle,
+	.progress,
+	.done-mark,
 	.sheet-filter {
 		display: none;
 	}

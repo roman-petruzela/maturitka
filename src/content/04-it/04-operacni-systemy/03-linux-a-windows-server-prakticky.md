@@ -1,7 +1,6 @@
 ---
 title: "Praktická správa Linuxu a Windows Serveru"
 order: 200
-tags: ["doplněno"]
 ---
 
 ## Linux – práce v terminálu

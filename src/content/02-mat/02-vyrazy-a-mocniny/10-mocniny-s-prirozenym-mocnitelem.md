@@ -2,7 +2,6 @@
 title: "Mocniny s přirozeným mocnitelem"
 order: 10
 source: "mat2/Mocniny s přirozeným mocnitelem.pdf"
-hasExercises: true
 ---
 
 > Pozn. k obsahu: Vzorce pro mocninový zápis velkých čísel a pravidla pro počítání s mocninami byly v PDF vysázené jako obrázky/vzorce a nedochovaly se — doplněny standardním zněním.

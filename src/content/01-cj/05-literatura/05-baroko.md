@@ -1,7 +1,6 @@
 ---
 title: "Baroko"
 order: 5
-tags: ["doplněno"]
 ---
 
 Baroko (2. polovina 16. stol. – 80. léta 18. stol.) vzniká jako reakce na neklidnou dobu náboženských válek a nejistoty — Evropu zmítá třicetiletá válka, boj mezi katolictvím a protestantismem, strach z pomíjivosti života. Umění barokní doby je velkolepé, mohutné, plné kontrastů (světlo a stín, život a smrt, tělesnost a spiritualita) a má za cíl doslova ohromit diváka či čtenáře a zapůsobit na jeho city — na rozdíl od renesančního klidu a harmonie. Typické literární žánry: legenda, duchovní epos, duchovní píseň, kázání, traktát, alegorický příběh.

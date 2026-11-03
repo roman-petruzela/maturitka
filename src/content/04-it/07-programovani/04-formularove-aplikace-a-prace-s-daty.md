@@ -1,7 +1,6 @@
 ---
 title: "Formulářové aplikace a práce s daty"
 order: 4
-tags: ["doplněno"]
 ---
 
 Pozn. ke kódu: formulářové (GUI) aplikace se ve výuce typicky dělají v C# přes Windows Forms, proto jsou ukázky v C#/WinForms; u práce se soubory je pro srovnání i Python.

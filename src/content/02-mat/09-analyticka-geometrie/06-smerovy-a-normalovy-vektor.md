@@ -2,7 +2,6 @@
 title: "Směrový a normálový vektor"
 order: 6
 source: "matematika/TY01_0126_Smerovy_a_normalovy_vektor.pptx"
-hasExercises: true
 ---
 
 > Pozn. k obsahu: Zdrojová prezentace obsahovala u úvodního snímku funkční text, další snímky ale byly jen nadpisy a odrážky bez textu (animované, postupně se odkrývající body) — chybějící část je doplněna odpovídající standardnímu rozsahu tématu.

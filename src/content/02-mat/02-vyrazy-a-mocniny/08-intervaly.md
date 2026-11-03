@@ -2,7 +2,6 @@
 title: "Intervaly"
 order: 8
 source: "mat2/Intervaly.pdf"
-hasExercises: true
 ---
 
 > Pozn. k obsahu: Tabulka typů intervalů byla v PDF vysázená jako obrázek/vzorec a nedochovala se — doplněna standardním přehledem, provázaným s příkladem, který v textu zůstal.

@@ -1,7 +1,6 @@
 ---
 title: "Didaktický test – typy úloh a strategie"
 order: 3
-tags: ["doplněno"]
 ---
 Didaktický test z angličtiny patří do **společné části** maturity a připravuje ho Cermat pro všechny školy stejně. Ověřuje úroveň **B1**. Má dvě části – **poslech** a **čtení s jazykovou kompetencí** (slovní zásoba a gramatika v textu). Odpovědi se zapisují do záznamového archu, **slovník se používat nesmí**. Přesný počet úloh, bodů a minut uvádějí aktuální pokyny Cermatu; vzorové a starší testy včetně nahrávek a klíčů jsou zdarma na webu Cermatu (maturita.cermat.cz) – nejlepší příprava je projít jich několik na čas.
 

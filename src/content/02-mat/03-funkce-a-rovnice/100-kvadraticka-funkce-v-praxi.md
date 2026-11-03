@@ -2,7 +2,6 @@
 title: "Kvadratická funkce v praxi"
 order: 100
 source: "mat/IT2M_1.docx"
-hasExercises: true
 ---
 
 ## 1. Kvadratická funkce a praxe

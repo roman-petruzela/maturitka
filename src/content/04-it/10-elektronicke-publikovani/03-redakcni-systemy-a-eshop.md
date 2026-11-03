@@ -1,7 +1,6 @@
 ---
 title: "Design webu, redakční systémy a e-shop"
 order: 3
-tags: ["doplněno"]
 ---
 
 ## Návrh designu webových stránek

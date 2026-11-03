@@ -2,7 +2,6 @@
 title: "Kvadratická nerovnice"
 order: 3
 source: "matematika/TY01_0203_-_Kvadraticka_nerovnice.pptx"
-hasExercises: true
 ---
 
 > Pozn. k obsahu: Zdrojová prezentace používala animované odrážky a vzorce vložené jako obrázky, které se při prvním převodu ztratily. Text, vzorce a grafy jsou zde doplněné/rekonstruované; veškeré kořeny a výsledky byly nezávisle přepočítány.

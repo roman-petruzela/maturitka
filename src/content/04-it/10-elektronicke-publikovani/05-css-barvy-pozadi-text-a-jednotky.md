@@ -1,7 +1,6 @@
 ---
 title: "CSS – barvy, pozadí, text a jednotky"
 order: 5
-tags: ["doplněno"]
 ---
 Přehled vlastností, kterými se nastavuje barva, pozadí a vzhled textu, a jednotek, ve kterých se zadávají velikosti.
 

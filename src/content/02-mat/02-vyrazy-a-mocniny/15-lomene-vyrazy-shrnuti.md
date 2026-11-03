@@ -2,8 +2,6 @@
 title: "Lomené výrazy — shrnutí"
 order: 15
 source: "mat/lomené_výrazy_shrnutí.pdf"
-tags: ["doplněno"]
-hasExercises: true
 ---
 
 > Pozn. k obsahu: Zdrojové PDF obsahovalo text ve formě, kterou automatický převod nedokázal přečíst (stránka vypadala prázdná) — zadání bylo přepsáno ručně přímo ze zdrojového souboru. Žádné výsledky se ale nedochovaly vůbec — všechny jsou proto nově dopočítané a ověřené (u složitějších úprav i zpětnou zkouškou dosazením).

@@ -2,7 +2,6 @@
 title: "Jehlan"
 order: 5
 source: "matematika/TY0105 Jehlan.pdf"
-hasExercises: true
 ---
 
 > Pozn. k obsahu: Text a vzorce byly v PDF vysázené jako obrázky (unicode symboly) a při převodu se místy poškodily — přepsáno do LaTeXu a dopočítáno z definic. U příkladu 2 vyšla přesným výpočtem hodnota mírně odlišná od dochovaného výsledku (rozdíl cca 0,1 %, typicky způsobený zaokrouhlením v mezikroku původního řešení) — uveden je přesný výpočet. PDF dále odkazovalo na program Cabri 3D pro interaktivní úkoly, které proto nejde reprodukovat, ponechány jako historický záznam.

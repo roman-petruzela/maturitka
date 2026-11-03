@@ -1,7 +1,6 @@
 ---
 title: "Skupina 42 a poválečná česká literatura (exil, samizdat)"
 order: 16
-tags: ["doplněno"]
 ---
 
 Druhá polovina 20. století je pro českou literaturu poznamenaná okupací, poúnorovým komunistickým režimem (od 1948), krátkým uvolněním 60. let a Pražským jarem, srpnovou okupací 1968 a následnou normalizací až do roku 1989. Řada spisovatelů proto tvoří ve třech paralelních "prostorech": oficiální literatuře (co povolila cenzura), **exilu** (spisovatelé, kteří emigrovali a publikovali v zahraničí) a **samizdatu** (ručně nebo strojově opisovaná a tajně šířená literatura doma, mimo státní nakladatelství).

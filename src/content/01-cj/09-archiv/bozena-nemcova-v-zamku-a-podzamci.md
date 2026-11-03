@@ -2,7 +2,6 @@
 title: "Božena Němcová - V Zámku a Podzámčí"
 order: 12
 source: "ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Božena Němcová - V Zámku a Podzámčí/B.Němcová - V zámku a podzámčí.doc"
-tags: ["mimo-seznam-cetby"]
 ---
 Božena Němcová
 

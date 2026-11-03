@@ -2,7 +2,6 @@
 title: "Operace s vektory"
 order: 3
 source: "matematika/TY01_0123_Operace_s_vektory.pptx"
-hasExercises: true
 ---
 
 > Pozn. k obsahu: Zdrojová prezentace obsahovala jen nadpisy a odrážky bez textu (animované, postupně se odkrývající body) a odkaz na chybějící obrázek — nešlo z nich rekonstruovat konkrétní zadání. Teorie a příklady jsou proto doplněny odpovídající standardnímu rozsahu tématu.

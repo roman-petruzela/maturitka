@@ -2,8 +2,6 @@
 title: "Variace, permutace a kombinace s opakováním"
 order: 5
 source: "matematika/TY01_0228_Variace_a_permutace_s_opakovanim.pptx"
-tags: ["doplněno"]
-hasExercises: true
 ---
 
 > Pozn. k obsahu: Zdrojová prezentace se při převodu ukázala jako prázdná (obsah byl výhradně v animacích/obrázcích, které konverze nezachytila vůbec). Celý obsah tohoto tématu je proto nově napsaný — teorie navazuje na [Variace a permutace bez opakování](/mat/kombinatorika/02-variace-a-permutace-bez-opakovani/), tentokrát pro případ, kdy se prvky smí opakovat.

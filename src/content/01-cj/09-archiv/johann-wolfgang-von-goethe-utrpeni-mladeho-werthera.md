@@ -2,7 +2,6 @@
 title: "Johann Wolfgang von Goethe - Utrpení mladého Werthera"
 order: 42
 source: "ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Johann Wolfgang von Goethe - Utrpení mladého Werthera/Utrpení mladého Werthera.pdf"
-tags: ["mimo-seznam-cetby"]
 ---
 ## 1) Charakteristika uměleckého textu
 

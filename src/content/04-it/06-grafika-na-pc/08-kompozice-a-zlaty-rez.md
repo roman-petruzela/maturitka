@@ -1,7 +1,6 @@
 ---
 title: "Kompozice a zlatý řez"
 order: 8
-tags: ["doplněno"]
 ---
 **Kompozice** je soubor pravidel a doporučení, jak uspořádat prvky v obraze – ve fotografii, malbě i grafickém návrhu (plakát, leták, web). Dobrá kompozice vede oko diváka k tomu podstatnému a obraz působí vyváženě; špatná ho nechá bloudit nebo nudí.
 

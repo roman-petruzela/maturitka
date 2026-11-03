@@ -220,24 +220,46 @@
 	padding-left: 0.3rem;
 }
 
-.mini-badge {
+/* Study progress: a thin bar under the subject tally, a tick on every finished topic */
+.progress {
+	display: flex;
+	align-items: center;
+	gap: 0.8rem;
+	max-width: 22rem;
+	margin-top: 0.9rem;
 	font-family: var(--sans);
-	font-size: var(--t-xs);
-	color: var(--accent);
-	border: 1px solid color-mix(in srgb, var(--accent) 35%, transparent);
-	border-radius: 2px;
-	padding: 0.05rem 0.35rem;
-	white-space: nowrap;
-	line-height: 1.5;
+	font-size: var(--t-sm);
+	font-variant-numeric: tabular-nums;
+	color: var(--muted);
 }
 
-/* Just the glyph in the accent colour — the old version wrapped it in a
-   tinted circle, which is exactly the kind of floating pill the brief
-   rules out. */
-.exercise-badge {
-	display: inline-flex;
-	align-items: center;
-	justify-content: center;
+.progress[hidden] {
+	display: none;
+}
+
+.progress-track {
+	flex: 1 1 auto;
+	height: 3px;
+	background: var(--border-strong);
+}
+
+.progress-fill {
+	display: block;
+	height: 100%;
+	width: calc(var(--p, 0) * 100%);
+	background: var(--accent);
+	transition: width var(--dur-move) var(--ease);
+}
+
+.done-mark {
 	color: var(--accent);
-	flex: 0 0 auto;
+	font-size: var(--t-sm);
+}
+
+.done-mark[hidden] {
+	display: none;
+}
+
+.topic-list li.is-done .topic-title {
+	color: var(--muted);
 }

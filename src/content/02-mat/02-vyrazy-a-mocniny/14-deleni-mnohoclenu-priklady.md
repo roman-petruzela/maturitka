@@ -2,7 +2,6 @@
 title: "Dělení mnohočlenů — příklady"
 order: 14
 source: "mat/dělení_mnohočlenů_příklady.pdf"
-hasExercises: true
 ---
 
 > Pozn. k obsahu: Zadání i výsledky se z většiny dochovaly čitelně a byly přepočtem ověřeny (souhlasí). U příkladu 1d) neseděl dochovaný dělenec s dochovaným výsledkem — zpětným dosazením výsledku do dělitele bylo možné dělenec zrekonstruovat správně (viz poznámka u příkladu). Postup navazuje na teorii v [Dělení mnohočlenů](/mat/vyrazy-a-mocniny/11-05-deleni-mnohoclenu/).

@@ -1,7 +1,6 @@
 ---
 title: "Robotika a mikropočítače"
 order: 1
-tags: ["doplněno"]
 ---
 
 ## LEGO Mindstorms

@@ -1,7 +1,6 @@
 ---
 title: "Psaní všemi deseti a obchodní korespondence"
 order: 1
-tags: ["doplněno"]
 ---
 
 ## Desetiprstová hmatová metoda (psaní všemi deseti)

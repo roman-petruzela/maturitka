@@ -2,7 +2,6 @@
 title: "Statistika – charakteristiky polohy"
 order: 4
 source: "matematika/TY01_0221_Statistika_-_charakteristiky_polohy.pptx"
-hasExercises: true
 ---
 
 > Pozn. k obsahu: Zdrojová prezentace (PPTX) obsahovala krátké heslovité body, vzorce jako obrázky a částečně poškozené tabulky — přepsáno do souvislé podoby, vzorce do LaTeXu, čísla dopočítána a ověřena. Odkazovaný pracovní list *průměr příklady.docx* není součástí archivu.

@@ -2,7 +2,6 @@
 title: "Kuželosečky"
 order: 10
 source: "matematika/TY01_0130_Kuzelosecky.pptx"
-hasExercises: true
 ---
 
 > Pozn. k obsahu: Zdrojová prezentace obsahovala funkční úvodní text, ale další snímky byly jen nadpisy s obrázky (model řezu kužele), které se nedochovaly — doplněny standardní definice a rovnice jednotlivých kuželoseček s vlastními grafy.

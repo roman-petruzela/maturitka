@@ -2,7 +2,6 @@
 title: "Výrok, negace výroku"
 order: 1
 source: "mat2/Výrok, negace výroku.pdf"
-hasExercises: true
 ---
 
 **Výrok** je sdělení, u něhož má smysl otázka, zda je, či není pravdivé.

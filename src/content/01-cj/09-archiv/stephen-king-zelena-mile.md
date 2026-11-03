@@ -2,7 +2,6 @@
 title: "Stephen King - Zelená Míle"
 order: 81
 source: "ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Stephen King - Zelená Míle/Zelená míle   Cariie - Stephen King .docx"
-tags: ["mimo-seznam-cetby"]
 ---
 Téma a motiv: 	nespravedlivost, léčitelství, myš, vrazi, mrtvé holčičky, nemoci, brutalita, vězeňská služba, cívka, zelené linoleum, elektrické křeslo, nadřazenost, láska, obr, nadpřirozené schopnosti
 

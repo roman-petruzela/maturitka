@@ -2,7 +2,6 @@
 title: "Jonas Jonasson - Stoletý stařík, který vylezl z okna a zmizel"
 order: 45
 source: "ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Jonas Jonasson - Stoletý stařík, který vylezl z okna a zmizel/Stoletý stařík, který vylezl z okna a zmizel – Jonas Jonasson.docx"
-tags: ["mimo-seznam-cetby"]
 ---
 Téma a motiv: 		dobrodružství, útěk z okna, papuče, nádražní stanice, poznávání nových lidí, vývoj života, cestování, paradoxní vraždy, kufr s penězi, krádež, pronásledování, slonice
 

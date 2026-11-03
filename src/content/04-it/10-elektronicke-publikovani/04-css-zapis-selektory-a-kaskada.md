@@ -1,7 +1,6 @@
 ---
 title: "CSS – zápis, selektory a kaskáda"
 order: 4
-tags: ["doplněno"]
 ---
 **CSS (Cascading Style Sheets, kaskádové styly)** popisují vzhled stránky – barvy, písmo, okraje, rozvržení. HTML říká, *co* na stránce je (nadpis, odstavec, seznam), CSS říká, *jak* to vypadá. Jeden stylový soubor tak může určovat vzhled celého webu a změna v něm se projeví na všech stránkách najednou.
 

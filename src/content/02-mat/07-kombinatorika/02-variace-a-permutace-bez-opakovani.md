@@ -2,7 +2,6 @@
 title: "Variace a permutace bez opakování"
 order: 2
 source: "matematika/TY01_0225_Variace_a_permutace_bez_opakovani.pptx"
-hasExercises: true
 ---
 
 > Pozn. k obsahu: Zdrojová prezentace používala animované odrážky, u kterých se řešení objevovalo až po kliknutí — tato mezikroková čísla se při převodu ztratila (zůstal jen nadpis typu "Výpočet" bez čísel). Doplněno a nezávisle přepočítáno.

@@ -2,7 +2,6 @@
 title: "Pascalův trojúhelník"
 order: 8
 source: "matematika/TY01_0231_Pascaluv_trojuhelnik.pptx"
-hasExercises: true
 ---
 
 > Pozn. k obsahu: Zdrojová prezentace používala animované odrážky (postupně se odkrývající text), který se při převodu do textu ztratil — zachovala se ale konkrétní čísla u jednotlivých vlastností (dvanáctý řádek, diagonály, sudá/lichá čísla), ze kterých šlo přesně rekonstruovat, o jaké vlastnosti šlo. Doplněno.

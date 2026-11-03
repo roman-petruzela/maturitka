@@ -2,7 +2,6 @@
 title: "Trojúhelník – základní poznatky"
 order: 2
 source: "matematika/TY01_0112 Trojúhelník – základní poznatky.pdf"
-hasExercises: true
 ---
 
 > Pozn. k obsahu: PDF obsahovalo náčrtky trojúhelníků k jednotlivým úkolům, které se nedochovaly (jde o konstrukční úlohy — zadání i výsledky v hranatých závorkách zůstaly zachované a jsou zde přepsané jako spoilery). Odstraněna čísla stránek, která se vloudila do textu.

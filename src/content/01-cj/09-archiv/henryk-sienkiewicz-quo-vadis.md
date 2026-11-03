@@ -2,7 +2,6 @@
 title: "Henryk Sienkiewicz - Quo vadis"
 order: 33
 source: "ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Henryk Sienkiewicz - Quo Vadis/Quo vadis.pdf"
-tags: ["mimo-seznam-cetby"]
 ---
 ## 1) Charakteristika uměleckého textu
 

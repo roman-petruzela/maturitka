@@ -2,7 +2,6 @@
 title: "Rovnoběžníky"
 order: 5
 source: "matematika/TY01_0115 Rovnoběžníky.pdf"
-hasExercises: true
 ---
 
 > Pozn. k obsahu: Vzorce v PDF byly vysázené jako obrázky (unicode zlomky), text a výsledky úkolů se ale dochovaly celé — vzorce jsou zde přepsané do LaTeXu, výsledky do spoilerů (namátkově ověřeny přepočtem), čísla stránek odstraněna.

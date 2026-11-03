@@ -2,7 +2,6 @@
 title: "Komolý jehlan"
 order: 7
 source: "matematika/TY0107 Komolý jehlan.pdf"
-hasExercises: true
 ---
 
 > Pozn. k obsahu: Vzorce v PDF byly vysázené jako obrázky (unicode symboly), přepsané zde do LaTeXu; výsledky úkolů (ověřeny přepočtem) do spoilerů. U příkladu 2 dochovaný výsledek odpovídal jen obsahu pláště (bez podstavy) — zadání zřejmě popisovalo nádobu bez pevného dna (např. násypku), počítáno tak. Nadpis příkladu 3 v PDF chybně uváděl "jehlan" místo "komolý jehlan" (zadání má dvě různé podstavné hrany) — opraveno.

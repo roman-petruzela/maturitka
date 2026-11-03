@@ -2,8 +2,6 @@
 title: "Iracionální rovnice"
 order: 5
 source: "matematika/TY01_0205_-_Iracionalni_rovnice.pptx"
-tags: ["doplněno"]
-hasExercises: true
 ---
 
 > Pozn. k obsahu: Zdrojová prezentace obsahovala konkrétní zadání příkladů vložená jako obrázky, která se při převodu ztratila beze zbytku (zůstal jen obecný popis postupu, ne čísla samotných rovnic). Teorie a postup jsou rekonstruované věrně podle zachovaného textu; konkrétní příklady níže jsou nově vytvořené (nelze je z podkladu obnovit), ale demonstrují přesně tentýž typ úlohy a stejné poučení o cizích kořenech, jaké bylo v původním materiálu.

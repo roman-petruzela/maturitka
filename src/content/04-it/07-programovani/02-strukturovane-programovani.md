@@ -1,7 +1,6 @@
 ---
 title: "Strukturované programování"
 order: 2
-tags: ["doplněno"]
 ---
 
 Pozn. ke kódu: obecné principy jsou nejdřív popsané slovně, ke konkrétním konstrukcím jsou pak ukázky reálného, spustitelného kódu v Pythonu a v C# vedle sebe – ve škole se běžně používají oba jazyky, princip řídicích struktur je ale ve všech běžných jazycích stejný.
@@ -34,7 +33,7 @@ Pozn. ke kódu: obecné principy jsou nejdřív popsané slovně, ke konkrétní
 	- `while` = cyklus s podmínkou na začátku; pokud podmínka neplatí hned na začátku, tělo cyklu se nemusí provést ani jednou
 	- `do-while` / `repeat-until` = cyklus s podmínkou na konci; tělo cyklu se provede vždy alespoň jednou
 
-#### Větvení – `if / else`
+### Větvení – `if / else`
 
 **Python:**
 ```python
@@ -62,7 +61,7 @@ else
 }
 ```
 
-#### Větvení podle hodnoty – `switch / case`
+### Větvení podle hodnoty – `switch / case`
 
 **Python** (od verze 3.10 lze použít `match`, ve starším kódu se místo toho běžně používá řetězec `if / elif`):
 ```python
@@ -100,7 +99,7 @@ switch (den)
 }
 ```
 
-#### Cyklus s pevným počtem opakování – `for`
+### Cyklus s pevným počtem opakování – `for`
 
 **Python:**
 ```python
@@ -116,7 +115,7 @@ for (int i = 0; i < 10; i++)
 }
 ```
 
-#### Cyklus s podmínkou na začátku – `while`
+### Cyklus s podmínkou na začátku – `while`
 
 **Python:**
 ```python
@@ -136,7 +135,7 @@ while (pocet < 5)
 }
 ```
 
-#### Cyklus s podmínkou na konci – `do-while`
+### Cyklus s podmínkou na konci – `do-while`
 
 Python nemá vestavěný `do-while`, stejné chování (tělo se provede vždy alespoň jednou) se zapisuje pomocí `while True` a `break` na konci těla:
 

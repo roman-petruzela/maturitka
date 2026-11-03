@@ -2,7 +2,6 @@
 title: "Kvadratická rovnice"
 order: 2
 source: "matematika/TY01_0202-Kvadraticka_rovnice.pptx"
-hasExercises: true
 ---
 
 > Pozn. k obsahu: Zdrojová prezentace používala animované odrážky a vzorce vložené jako obrázky, které se při prvním převodu ztratily. Text a vzorce jsou zde doplněné/rekonstruované; u jednoho odvození (posun. příklad s (x+2)²−20=...) čísla v podkladu neseděla, nahrazeno ověřeným příkladem se stejným cílem (Vietovy vzorce).

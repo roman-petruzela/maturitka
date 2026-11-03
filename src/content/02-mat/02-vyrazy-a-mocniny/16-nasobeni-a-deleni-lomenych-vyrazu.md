@@ -2,7 +2,6 @@
 title: "Násobení a dělení lomených výrazů"
 order: 16
 source: "mat/násobení_a_dělení_lomených_výrazů.pdf"
-hasExercises: true
 ---
 
 > Pozn. k obsahu: Vzorce byly v PDF vysázené jako obrázky/rovnice a nedochovaly se, cvičení na konci zůstalo zcela prázdné — doplněno standardním zněním a vlastními příklady.

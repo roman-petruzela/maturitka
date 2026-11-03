@@ -1,7 +1,6 @@
 ---
 title: "Active Directory a správa z příkazové řádky"
 order: 201
-tags: ["doplněno"]
 ---
 
 _Doplněný obsah podle ŠVP (4.9.2, 2. ročník, kapitola "Instalace a správa serverového systému Windows"): žák popíše význam a úlohu řadiče domény a Active Directory, pracuje s účty a skupinami v doméně a pracuje se systémem pomocí příkazové řádky, vytváří skripty._

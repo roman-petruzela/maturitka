@@ -2,7 +2,6 @@
 title: "Logaritmická funkce a její posunutí"
 order: 10
 source: "matematika/TY01_0210_-_Logaritmicka_funkce_a_jeji_posunuti.pptx"
-hasExercises: true
 ---
 
 > Pozn. k obsahu: Zdrojová prezentace používala animované odrážky, tabulky a grafy vložené jako obrázky, které se při prvním převodu ztratily nebo poškodily. Text, vzorce, tabulky a grafy jsou zde doplněné/rekonstruované; všechny hodnoty byly nezávisle ověřeny.

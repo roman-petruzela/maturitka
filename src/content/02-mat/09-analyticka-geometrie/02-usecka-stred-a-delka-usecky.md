@@ -2,7 +2,6 @@
 title: "Úsečka, střed a délka úsečky"
 order: 2
 source: "matematika/TY01_0122_Usecka_stred_a_delka_usecky.pptx"
-hasExercises: true
 ---
 
 > Pozn. k obsahu: Zdrojová prezentace obsahovala jen nadpisy a odrážky bez textu (animované, postupně se odkrývající body) — nešlo z nich rekonstruovat konkrétní zadání. Teorie a příklady jsou proto doplněny odpovídající standardnímu rozsahu tématu.

@@ -2,8 +2,6 @@
 title: "Exponenciální rovnice"
 order: 9
 source: "matematika/TY01_0209_-_Exponencialni_rovnice.pptx"
-tags: ["doplněno"]
-hasExercises: true
 ---
 
 > Pozn. k obsahu: Zdrojová prezentace obsahovala konkrétní zadání ukázkových příkladů a cvičení vložená jako obrázky/rovnice, která se při převodu ztratila beze zbytku (zůstaly jen popisky "a)", "b)" ... bez samotných rovnic). Teorie a postup jsou rekonstruované věrně podle zachovaného textu; konkrétní příklady níže jsou nově vytvořené tak, aby demonstrovaly přesně tytéž typy úloh (stejný základ, různý základ, substituce, řešení bez smyslu), jaké byly v původním materiálu.

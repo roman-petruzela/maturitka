@@ -2,7 +2,6 @@
 title: "Obecná rovnice přímky"
 order: 8
 source: "matematika/TY01_0128_Obecna_rovnice_primky.pptx"
-hasExercises: true
 ---
 
 > Pozn. k obsahu: Zdrojová prezentace obsahovala jen nadpisy a odrážky bez textu (animované, postupně se odkrývající body) — nešlo z nich rekonstruovat konkrétní zadání. Teorie a příklady jsou proto doplněny odpovídající standardnímu rozsahu tématu.

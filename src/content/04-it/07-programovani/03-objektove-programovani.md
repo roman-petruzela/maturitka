@@ -1,7 +1,6 @@
 ---
 title: "Objektově orientované programování"
 order: 3
-tags: ["doplněno"]
 ---
 
 Pozn. ke kódu: obecné principy jsou popsané slovně, ke každému klíčovému pojmu je pak ukázka reálného kódu v Pythonu a v C# vedle sebe – oba jazyky se ve výuce běžně používají a princip OOP je v nich (i ve všech dalších běžných OOP jazycích) stejný.

@@ -2,7 +2,6 @@
 title: "Bod a přímka v kartézské soustavě"
 order: 1
 source: "matematika/TY01_0121_Bod_a_primka_v_kartezske_soustave.pptx"
-hasExercises: true
 ---
 
 > Pozn. k obsahu: Zdrojová prezentace obsahovala jen nadpisy a odrážky bez textu (animované, postupně se odkrývající body) a poškozené fragmenty popisků os ze vzniklých obrázků — nešlo z nich rekonstruovat konkrétní zadání. Teorie a příklady jsou proto doplněny odpovídající standardnímu rozsahu tématu, navazujícímu na [Kartézskou soustavu souřadnic](/mat/analyticka-geometrie/12-kartezska-soustava-souradnic/).

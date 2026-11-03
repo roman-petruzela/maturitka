@@ -1,7 +1,6 @@
 ---
 title: "Existencialismus a absurdní drama"
 order: 14
-tags: ["doplněno"]
 ---
 
 Po zkušenosti dvou světových válek ztrácí Evropa důvěru v to, že svět má nějaký daný, srozumitelný smysl nebo řád. Existencialismus a absurdní drama jsou dva umělecké výrazy téhle ztráty jistoty — každý ale volí jinou cestu, jak s "nesmyslností" naložit.

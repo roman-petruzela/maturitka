@@ -2,7 +2,6 @@
 title: "Složené výroky - konjunkce a disjunkce"
 order: 2
 source: "mat2/Složené výroky - konjunkce a disjunkce.pdf"
-hasExercises: true
 ---
 
 **Složené výroky** jsou tvořeny dvěma a více jednoduchými výroky. Zajímá nás, jak závisí pravdivost složeného výroku na pravdivosti výroků, z nichž je utvořen. Nejdůležitější složené výroky jsou **konjunkce**, **disjunkce**, **implikace** a **ekvivalence** (poslední dvě viz [Implikace a ekvivalence](/mat/vyrazy-a-mocniny/05-implikace-a-ekvivalence/)).

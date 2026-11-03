@@ -2,7 +2,6 @@
 title: "Komolý kužel"
 order: 8
 source: "matematika/TY0108 Komolý kužel.pdf"
-hasExercises: true
 ---
 
 > Pozn. k obsahu: Vzorce v PDF byly vysázené jako obrázky (unicode symboly), přepsané zde do LaTeXu; výsledky úkolů ověřeny přepočtem. U příkladu 3 dochovaný výsledek ($m=1{,}439\text{ kg}$, $V=21{,}422\text{ l}$) neodpovídal správnému dosazení zadaných průměrů — vycházelo z toho, že se hodnoty průměrů omylem použily přímo jako poloměry (bez dělení dvěma). Po opravě (poloměry $r_1=8\text{ cm}$, $r_2=14\text{ cm}$) vychází výrazně menší, ale se zadáním konzistentní hodnoty — přepočítáno správně.

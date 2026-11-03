@@ -2,7 +2,6 @@
 title: "Bohumil Hrabal - Postřižiny"
 order: 9
 source: "ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Bohumil Hrabal - Postřižiny/Bohumil Hrabal - Postřižiny.docx"
-tags: ["mimo-seznam-cetby"]
 ---
 __Postřižiny__
 

@@ -2,7 +2,6 @@
 title: "Kombinace bez opakování"
 order: 4
 source: "matematika/TY01_0227_Kombinace_bez_opakovani.pptx"
-hasExercises: true
 ---
 
 > Pozn. k obsahu: Zdrojová prezentace používala animované odrážky (postupně se odkrývající text), který se při převodu do textu ztratil — na dochovaném srovnávacím obrázku šlo ale přesně poznat, jak variace a kombinace souvisí (viz níže), a z toho odvodit i vzorec. Teorie je doplněná/rekonstruovaná, dva závěrečné příklady jsou nově přidané se stejným záměrem, jaký naznačovaly prázdné nadpisy "Příklad"/"Příklady".

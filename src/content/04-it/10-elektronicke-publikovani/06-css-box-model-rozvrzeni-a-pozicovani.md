@@ -1,7 +1,6 @@
 ---
 title: "CSS – box model, rozvržení a pozicování"
 order: 6
-tags: ["doplněno"]
 ---
 Každý prvek stránky je pro prohlížeč obdélník – **krabice (box)**. Tahle kapitola popisuje, z čeho se krabice skládá, jak se krabice řadí za sebou a jak se dají umístit jinam.
 

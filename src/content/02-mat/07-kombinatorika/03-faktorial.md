@@ -2,7 +2,6 @@
 title: "Faktoriál"
 order: 3
 source: "matematika/TY01_0226_Faktorial.pptx"
-hasExercises: true
 ---
 
 > Pozn. k obsahu: Zdrojová prezentace používala animované odrážky (postupně se odkrývající text), který se při převodu do textu ztratil. Zadání tří závěrečných příkladů se dochovalo — teorie a řešení příkladů jsou zde doplněné/rekonstruované a nezávisle přepočítané.

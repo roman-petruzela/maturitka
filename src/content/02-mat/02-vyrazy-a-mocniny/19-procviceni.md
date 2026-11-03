@@ -2,8 +2,6 @@
 title: "Procvičení — odmocniny a mocniny s racionálním mocnitelem"
 order: 19
 source: "mat/procvičení.pdf"
-tags: ["doplněno"]
-hasExercises: true
 ---
 
 > Pozn.: Zdrojové PDF obsahovalo text ve formě, kterou automatický převod nedokázal přečíst (stránka vypadala prázdná). Zadání je přepsáno ručně; u příkladu 5 se ve zdroji vnořené mocniny/odmocniny překrývaly natolik, že přesné rozmístění závorek nelze zaručit — u příkladů 5b) a 5c) je proto zvolen nejpravděpodobnější výklad, ověřte u vyučujícího. Žádné výsledky se nedochovaly, všechny jsou proto nově dopočítané.

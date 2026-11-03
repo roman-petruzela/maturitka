@@ -2,7 +2,6 @@
 title: "Implikace a ekvivalence"
 order: 5
 source: "mat2/Implikace a ekvivalence.pdf"
-hasExercises: true
 ---
 
 ## Implikace

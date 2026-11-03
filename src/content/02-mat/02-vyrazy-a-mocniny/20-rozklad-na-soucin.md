@@ -2,7 +2,6 @@
 title: "Rozklad na součin"
 order: 20
 source: "mat/rozklad_na_součin.pdf"
-hasExercises: true
 ---
 
 > Pozn. k obsahu: U příkladů 1, 2, 6 a 8 se dochoval popis postupu, ale výsledný rozložený tvar chyběl — dopočítán a ověřen zpětným roznásobením. V úloze 2 samostudia se čísla (zlomkové koeficienty) při převodu přeuspořádala natolik, že přesné znění položek c), d), e) nejde bezpečně rekonstruovat — nahrazeny vlastními, stejného typu (rozdíl čtverců se zlomky/desetinnými čísly). Výsledky ke cvičením "pro samostudium" v podkladu úplně chyběly — nově dopočítány a ověřeny.

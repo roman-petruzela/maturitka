@@ -2,7 +2,6 @@
 title: "Negace složených výroků"
 order: 3
 source: "mat2/Negace složených výroků.pdf"
-hasExercises: true
 ---
 
 Víme, že pokud je výrok $v$ nepravdivý, je jeho negace $\neg v$ pravdivá (a naopak) — viz [Výrok, negace výroku](/mat/vyrazy-a-mocniny/01-vyrok-negace-vyroku/). Nyní se podíváme na negaci **složených** výroků.

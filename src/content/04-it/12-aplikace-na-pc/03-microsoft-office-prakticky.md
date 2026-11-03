@@ -1,7 +1,6 @@
 ---
 title: "Praktické tipy pro Microsoft Office"
 order: 3
-tags: ["doplněno"]
 ---
 
 ## Word

@@ -2,7 +2,6 @@
 title: "Statistika – příprava a vyhotovení dotazníku"
 order: 7
 source: "matematika/TY01_0224_Statistika_-_priprava_a_vyhotoveni_dotazniku.pptx"
-hasExercises: true
 ---
 
 > Pozn. k obsahu: Zdrojová prezentace obsahovala krátké heslovité body na jednotlivých snímcích — přepsáno do souvislé podoby se zachováním všech příkladů otázek a doporučení.

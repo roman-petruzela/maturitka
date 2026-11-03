@@ -2,7 +2,6 @@
 title: "Exponenciální funkce v praxi"
 order: 102
 source: "mat/IT2M_3.docx"
-hasExercises: true
 ---
 
 ## 21.–22. Exponenciální funkce v praxi

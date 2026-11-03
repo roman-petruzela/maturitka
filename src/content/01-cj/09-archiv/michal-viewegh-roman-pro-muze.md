@@ -2,7 +2,6 @@
 title: "Michal Viewegh - Román pro Může"
 order: 65
 source: "ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Michal Viewegh - Román pro Může/20. Román pro muže.docx"
-tags: ["mimo-seznam-cetby"]
 ---
 Román pro muže
 

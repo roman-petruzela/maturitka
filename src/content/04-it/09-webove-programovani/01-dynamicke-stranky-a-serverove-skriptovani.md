@@ -1,7 +1,6 @@
 ---
 title: "Dynamické stránky a serverové skriptování"
 order: 1
-tags: ["doplněno"]
 ---
 
 ## Statické vs. dynamické stránky

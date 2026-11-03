@@ -2,7 +2,6 @@
 title: "Goniometrické rovnice"
 order: 14
 source: "matematika/TY01_0214_-_Goniometricke_rovnice.pptx"
-hasExercises: true
 ---
 
 > Pozn. k obsahu: Zdrojová prezentace používala animované odrážky a jednotkovou kružnici vloženou jako obrázek, které se při prvním převodu ztratily. Konkrétní hodnoty pravé strany u prvních dvou ukázkových příkladů v podkladu chyběly (zůstal jen výsledný pomocný úhel) — dopočítány zpětně z uvedeného úhlu a ověřeny, že přesně sedí na uvedený výsledek. Text, vzorce a grafy jsou zde doplněné/rekonstruované.

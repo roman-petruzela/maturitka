@@ -2,7 +2,6 @@
 title: "Planimetrie, úhel, vzájemná poloha přímek"
 order: 1
 source: "matematika/TY01_0111 Planimetrie, úhel, vzájemná poloha přímek.pdf"
-hasExercises: true
 ---
 
 > Pozn. k obsahu: PDF používalo speciální geometrické symboly (šipky nad písmeny, symboly ∈/∉), které se při převodu ztratily nebo poškodily, a obsahovalo obrázky (k úkolům 2 a 4), které nešlo zrekonstruovat — u těch je to níže označené. Text a vzorce jsou opravené/doplněné.

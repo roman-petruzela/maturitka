@@ -2,7 +2,6 @@
 title: "Kolmý hranol"
 order: 3
 source: "matematika/TY0103 Kolmý hranol.pdf"
-hasExercises: true
 ---
 
 > Pozn. k obsahu: Vzorce v PDF byly vysázené jako obrázky (unicode symboly), přepsané zde do LaTeXu; výsledky úkolů (ověřeny přepočtem, souhlasí) do spoilerů. PDF dále odkazovalo na soubory pro program Cabri 3D (*krychle_sit.cg3*, *kvadr_sit.cg3*), které nejsou součástí archivu — úkol 1 proto nejde reprodukovat, ponechán jako historický záznam.

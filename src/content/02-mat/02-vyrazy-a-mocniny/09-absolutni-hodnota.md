@@ -2,7 +2,6 @@
 title: "Absolutní hodnota"
 order: 9
 source: "mat2/Absolutní hodnota.pdf"
-hasExercises: true
 ---
 
 > Pozn. k obsahu: Teorie se dochovala celá, cvičení k procvičení v podkladu chyběla — doplněna vlastní, na dochovanou teorii přímo navazující.

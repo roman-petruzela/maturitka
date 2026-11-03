@@ -2,7 +2,6 @@
 title: "05 Dělení mnohočlenů"
 order: 11
 source: "mat/05 Dělení mnohočlenů.pdf"
-hasExercises: true
 ---
 
 > Pozn. k obsahu: Zdrojový dokument byl učitelský lekční plán s poznámkami k výuce — mocniny (exponenty) se při převodu oddělily od základu a postup dělení "pod sebou" ztratil odřádkování, takže čísla splynula do nečitelných řádků. Metoda i mezivýsledky byly ale čitelné a všechny čtyři podrobné příklady jsem nezávisle přepočítal a ověřil zpětným násobením (dělenec = dělitel × podíl + zbytek) — všechny souhlasí. Jeden neúplný pátý příklad (dochovala se jen závěrečná poznámka "výraz 13x+30 už nejde dál dělit" bez zadání) nejde rekonstruovat a byl vynechán.

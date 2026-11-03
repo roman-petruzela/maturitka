@@ -1,7 +1,6 @@
 ---
 title: "Grafické formáty a komprese"
 order: 7
-tags: ["doplněno"]
 ---
 Formát souboru určuje, jak je obrázek uložen – jestli jako mřížka bodů, nebo jako popis objektů, jakou kompresí, s kolika barvami a zda umí průhlednost, animaci nebo vrstvy. Volba formátu záleží na tom, co se s obrázkem bude dít dál.
 

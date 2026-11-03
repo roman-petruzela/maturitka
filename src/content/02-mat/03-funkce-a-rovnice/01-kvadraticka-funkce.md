@@ -2,7 +2,6 @@
 title: "Kvadratická funkce"
 order: 1
 source: "matematika/TY01_0201-Kvadraticka_funkce.pptx"
-hasExercises: true
 ---
 
 > Pozn. k obsahu: Zdrojová prezentace používala animované odrážky a vzorce vložené jako obrázky, které se při prvním převodu ztratily. Text, vzorce a grafy jsou zde doplněné/rekonstruované.

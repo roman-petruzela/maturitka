@@ -2,7 +2,6 @@
 title: "Částečné odmocňování"
 order: 12
 source: "mat/částečně_odmocni.pdf"
-hasExercises: true
 ---
 
 > Pozn. k obsahu: Zdrojový dokument obsahoval jen samotné zadání osmi výrazů bez jakékoli teorie k tématu — doplněna standardní teorie částečného odmocňování, na kterou zadání přímo navazuje.

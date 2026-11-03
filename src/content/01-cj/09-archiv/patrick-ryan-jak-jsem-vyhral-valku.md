@@ -2,7 +2,6 @@
 title: "Patrick Ryan - Jak Jsem Vyhrál Válku"
 order: 74
 source: "ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Patrick Ryan - Jak Jsem Vyhrál Válku/17.Jak jsem vyhrál válku.docx"
-tags: ["mimo-seznam-cetby"]
 ---
 **17. Jak jsem vyhrál válku - Patrick Rayn**
 \-Světová literatura 20. století

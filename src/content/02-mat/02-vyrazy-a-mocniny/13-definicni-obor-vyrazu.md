@@ -2,7 +2,6 @@
 title: "Definiční obor výrazů"
 order: 13
 source: "mat/definiční_obor_výrazů.pdf"
-hasExercises: true
 ---
 
 > Pozn. k obsahu: Konkrétní výrazy v příkladech 1 a 3 se z PDF vytratily (dochovaly se jen výpočty a výsledky, ze kterých byly zpětně rekonstruovány) a samostatné úkoly na konci byly zcela prázdné (jen nadpis) — doplněny vlastní příklady navazující na stejné čtyři typy podmínek probrané výše.

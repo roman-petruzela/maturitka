@@ -2,7 +2,6 @@
 title: "Množiny"
 order: 6
 source: "mat2/Množiny.pdf"
-hasExercises: true
 ---
 
 **Množinou** rozumíme souhrn nějakých předmětů (objektů). Předměty, jejichž souhrn vytváří danou množinu, nazýváme **prvky** (elementy) této množiny.

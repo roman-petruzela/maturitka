@@ -1,7 +1,6 @@
 ---
 title: "3D modelovací aplikace (WYSIWYM a WYSIWYG)"
 order: 2
-tags: ["doplněno"]
 ---
 
 ## Editační techniky WYSIWYM a WYSIWYG

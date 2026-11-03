@@ -2,7 +2,6 @@
 title: "Kartézská soustava souřadnic"
 order: 12
 source: "matematika/TY01_0132_Kartezska_soustava_souradnic.pptx"
-hasExercises: true
 ---
 
 > Pozn. k obsahu: Zdrojová prezentace obsahovala jen nadpisy a odrážky bez textu (animované, postupně se odkrývající body) a obrázky bodů v souřadnicové soustavě, které se nedochovaly — z původního souboru přežila jen kostra témat. Teorie a příklady jsou proto doplněny odpovídající standardnímu rozsahu tématu; graf s body pro cvičení je nově vytvořený.

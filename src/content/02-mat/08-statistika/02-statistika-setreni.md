@@ -2,7 +2,6 @@
 title: "Statistika – šetření"
 order: 2
 source: "matematika/TY01_0219_statistika_-_setreni.pptx"
-hasExercises: true
 ---
 
 > Pozn. k obsahu: Zdrojová prezentace (PPTX) obsahovala krátké heslovité body na jednotlivých snímcích — přepsáno do souvislého textu se zachováním všech pojmů. Odkazovaný excelový soubor (demonstrace hodu kostkou) a text pro úlohu o samohláskách nejsou součástí archivu — úlohy ponechány jako historický záznam, tabulky pro vlastní sběr dat zůstávají prázdné k vyplnění.

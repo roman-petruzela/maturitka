@@ -2,7 +2,6 @@
 title: "Ernest Hemingway - Sbohem, armádo"
 order: 24
 source: "ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Ernest Hemingway - Sbohem, armádo/Hemingway Sbohem, armádo!.doc"
-tags: ["mimo-seznam-cetby"]
 ---
 __Autor__: ERNEST HEMINGWAY
 

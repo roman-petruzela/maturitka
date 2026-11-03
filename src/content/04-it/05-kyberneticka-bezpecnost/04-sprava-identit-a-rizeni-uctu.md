@@ -1,7 +1,6 @@
 ---
 title: "Správa identit a řízení účtů"
 order: 4
-tags: ["doplněno"]
 ---
 
 ## Princip IAAA

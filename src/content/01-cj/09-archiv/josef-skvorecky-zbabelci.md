@@ -2,7 +2,6 @@
 title: "Josef Škvorecký - Zbabělci"
 order: 46
 source: "ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Josef Škvorecký - Zbabělci/Josef_Skvorecky_-_Zbabelci.pdf"
-tags: ["mimo-seznam-cetby"]
 ---
 ## CHARAKTERISTIKA UMĚLECKÉHO TEXTU
 

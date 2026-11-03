@@ -2,7 +2,6 @@
 title: "Úvod do kombinatoriky"
 order: 1
 source: "matematika/TY01_0233_Uvod_do_kombinatoriky.pptx"
-hasExercises: true
 ---
 
 > Pozn. k obsahu: Zdrojová prezentace používala animované odrážky, u kterých se text objevoval postupně po kliknutí — u tohoto tématu se ztratilo jen minimum (dvě prázdné závěrečné odrážky, jinak byl obsah přítomný přímo v textu). Doplněné jsou jen odpovědi ke třem závěrečným úlohám, které v podkladu neměly přiložené řešení.

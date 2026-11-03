@@ -2,7 +2,6 @@
 title: "Mocninné funkce"
 order: 6
 source: "matematika/TY01_0206_-_Mocninne_funkce.pptx"
-hasExercises: true
 ---
 
 > Pozn. k obsahu: Zdrojová prezentace používala animované odrážky a vzorce/grafy vložené jako obrázky, které se při prvním převodu ztratily nebo poškodily (tabulky hodnot byly rozsypané). Text, vzorce, tabulky a grafy jsou zde doplněné/rekonstruované; všechny hodnoty byly nezávisle přepočítány.

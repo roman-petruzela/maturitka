@@ -2,7 +2,6 @@
 title: "Inverzní funkce"
 order: 7
 source: "matematika/TY01_0207_-_Inverzni_funkce.pptx"
-hasExercises: true
 ---
 
 > Pozn. k obsahu: Zdrojová prezentace používala animované odrážky, vzorce a grafy vložené jako obrázky, které se při prvním převodu z velké části ztratily. Text, vzorce, tabulky a grafy jsou zde doplněné/rekonstruované z dochovaných tabulek hodnot; všechny předpisy inverzních funkcí byly nezávisle odvozené a ověřené.

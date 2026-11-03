@@ -2,7 +2,6 @@
 title: "Karel Čapek - Válka s mloky"
 order: 50
 source: "ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Karel Čapek - Válka s mloky/Válka s mloky.docx"
-tags: ["mimo-seznam-cetby"]
 ---
 __Autor__
 

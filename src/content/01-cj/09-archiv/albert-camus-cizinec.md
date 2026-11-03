@@ -2,7 +2,6 @@
 title: "Albert Camus - Cizinec"
 order: 2
 source: "ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Albert Camus - Cizinec/Albert Camus - Cizinec.docx"
-tags: ["mimo-seznam-cetby"]
 ---
 Cizinec
 

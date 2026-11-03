@@ -2,7 +2,6 @@
 title: "Božena Němcová - Babička"
 order: 10
 source: "ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Božena Němcová - Babička/Babička.pdf"
-tags: ["mimo-seznam-cetby"]
 ---
 ## 1) Charakteristika uměleckého textu
 

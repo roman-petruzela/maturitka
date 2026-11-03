@@ -2,8 +2,6 @@
 title: "Opakování — výrazy"
 order: 18
 source: "mat/opakování výrazy.docx"
-tags: ["doplněno"]
-hasExercises: true
 ---
 
 > Pozn. k obsahu: Konkrétní proměnné a čísla v zadáních byly ve zdrojovém dokumentu vloženy jako rovnicové objekty, které se automatickým převodem úplně ztratily (zůstaly jen prázdné mezery na jejich místě, viz např. "druhá mocnina součtu ⎵ a čísla 5") — nedalo se tedy poznat, co přesně mělo být dosazeno. Zachovaly se pouze *typy* úloh (formulace popisů, struktura cvičení) — na jejich základě jsou níže doplněná vlastní, plnohodnotná zadání stejného druhu.

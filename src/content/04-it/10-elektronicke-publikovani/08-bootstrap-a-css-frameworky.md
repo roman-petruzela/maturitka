@@ -1,7 +1,6 @@
 ---
 title: "Bootstrap a CSS frameworky"
 order: 8
-tags: ["doplněno"]
 ---
 **CSS framework** je hotová sada stylů (a často i skriptů), ze které se web skládá pomocí připravených tříd místo psaní vlastního CSS od nuly. Nejrozšířenější je **Bootstrap**; dalšími jsou např. Tailwind CSS (malé „utility“ třídy pro každou vlastnost), Bulma nebo Foundation.
 

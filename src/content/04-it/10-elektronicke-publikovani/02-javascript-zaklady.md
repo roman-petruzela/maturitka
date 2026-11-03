@@ -1,7 +1,6 @@
 ---
 title: "JavaScript – základy"
 order: 2
-tags: ["doplněno"]
 ---
 
 ## Co je JavaScript

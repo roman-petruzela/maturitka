@@ -2,8 +2,6 @@
 title: "Usměrňování zlomků 2"
 order: 22
 source: "mat/usměrňování_zlomků_2.pdf"
-tags: ["doplněno"]
-hasExercises: true
 ---
 
 > Pozn.: Zdrojové PDF obsahovalo text ve formě, kterou automatický převod nedokázal přečíst (stránka vypadala prázdná) — zadání i výsledky přepsány ručně přímo ze zdroje a nezávisle přepočítány. Všechny souhlasily kromě příkladu 4d), kde dochovaný jmenovatel výsledku (−7) neodpovídal správnému dosazení (a−b)(a+b) pro daný jmenovatel (√3+4) — vychází −13, ne −7. Po opravě vyjde po zkrácení jednoduše 3√3−12 — přepočítáno a uvedeno správně, s poznámkou u příkladu.

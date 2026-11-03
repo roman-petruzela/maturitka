@@ -2,7 +2,6 @@
 title: "Kvadratická rovnice (učební text)"
 order: 101
 source: "mat/IT2M_2.docx"
-hasExercises: true
 ---
 
 ## 7. Kvadratická rovnice

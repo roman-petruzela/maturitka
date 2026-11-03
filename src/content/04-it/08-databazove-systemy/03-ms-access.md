@@ -1,7 +1,6 @@
 ---
 title: "MS Access – tvorba databáze v praxi"
-order: 3
-tags: ["doplněno"]
+order: 5
 ---
 
 ## MS Access jako nástroj pro tvorbu databází

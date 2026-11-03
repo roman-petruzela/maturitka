@@ -1,7 +1,6 @@
 ---
 title: "Světová literatura 2. poloviny 20. a 21. století"
 order: 15
-tags: ["doplněno"]
 ---
 
 Po roce 1945 se svět rozdělí na dva soupeřící bloky — poválečná literatura se tak zabývá jak čerstvou zkušeností s totalitou (nacismem i stalinismem) a holocaustem, tak novými uměleckými směry, které reagují na rychle se měnící, stále "otevřenější" svět druhé poloviny století.

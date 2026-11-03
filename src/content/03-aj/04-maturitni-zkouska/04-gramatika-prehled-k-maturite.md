@@ -1,7 +1,6 @@
 ---
 title: "Gramatika – přehled k maturitě"
 order: 4
-tags: ["doplněno"]
 ---
 Stručný přehled gramatiky na úrovni B1–B2 – to, co se objevuje v didaktickém testu, a co je potřeba v písemné práci a v ústní zkoušce. Ke každému jevu tvar, použití a příklad.
 

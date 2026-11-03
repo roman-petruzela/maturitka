@@ -1,7 +1,6 @@
 ---
 title: "Vrstvy, animovaný GIF a kolorování (GIMP)"
 order: 10
-tags: ["doplněno"]
 ---
 Praktické postupy v rastrovém editoru GIMP, které navazují na [výběry, jas a kontrast, korekce barev a masky](/it/grafika-na-pc/03-rastrova-grafika-gimp/).
 

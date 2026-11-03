@@ -2,7 +2,6 @@
 title: "Kulová výseč, kulová vrstva a kulový pás"
 order: 10
 source: "matematika/TY0110 Kulová výseč, kulová vrstva a kulový pás.pdf"
-hasExercises: true
 ---
 
 > Pozn. k obsahu: Vzorce v PDF byly vysázené jako obrázky (unicode symboly), přepsané zde do LaTeXu. Vzorec pro objem kulové vrstvy v PDF zcela chyběl (nadpis bez textu) — doplněn standardním vzorcem, zpětně ověřeným na příkladu 3. Výsledky úkolů (kde byly v PDF uvedeny) ověřeny přepočtem, souhlasí.

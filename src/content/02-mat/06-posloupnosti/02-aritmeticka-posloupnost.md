@@ -2,7 +2,6 @@
 title: "Aritmetická posloupnost"
 order: 2
 source: "matematika/TY01_0216-Aritmeticka_posloupnost.pptx"
-hasExercises: true
 ---
 
 > Pozn. k obsahu: Vzorce a ukázkové příklady se z velké části dochovaly v textu, jen s drobnými OCR artefakty (chybějící index "a" u některých členů, např. "2 = a1 + 4" místo "a2 = a1 + 4") — opraveno podle kontextu a přepočtem ověřeno. Vzorce přepsány do LaTeXu.

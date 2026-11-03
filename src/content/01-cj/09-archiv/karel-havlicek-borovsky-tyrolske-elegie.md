@@ -2,7 +2,6 @@
 title: "Karel Havlíček Borovský - Tyrolské elegie"
 order: 53
 source: "ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Karel Havlíček Borovský - Tyrolské elegie/Karel Havlíček Borovský - Tyrolské elegie.docx"
-tags: ["mimo-seznam-cetby"]
 ---
 __Autor__
 

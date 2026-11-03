@@ -1,7 +1,6 @@
 ---
 title: "SSH — vzdálený přístup a autentizace klíčem"
 order: 202
-tags: ["doplněno"]
 ---
 
 _Doplněný obsah — rozšiřuje ŠVP kapitolu "Operační systém Linux" (3. ročník) o vzdálenou správu přes SSH._

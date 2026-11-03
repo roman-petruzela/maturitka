@@ -2,7 +2,6 @@
 title: "Zápis číselných výrazů"
 order: 23
 source: "mat/zápis číselných výrazů.docx"
-hasExercises: true
 ---
 
 Zapište pomocí čísel a operací slovně zadané číselné výrazy a určete jejich hodnotu.

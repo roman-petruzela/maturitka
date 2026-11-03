@@ -2,7 +2,6 @@
 title: "Statistika – grafy"
 order: 3
 source: "matematika/TY01_0220_Statistika_-_grafy.pptx"
-hasExercises: true
 ---
 
 > Pozn. k obsahu: Zdrojová prezentace (PPTX) obsahovala krátké heslovité body a vložené obrázky grafů (histogramy, výsečové diagramy) — texty přepsány do souvislé podoby, obrázky grafů nahrazeny datovými tabulkami, ze kterých vycházely (čísla se dochovala jako text u obrázků). Odkazované externí soubory (*tabulky.xlsx*, PDF s dopravními nehodami, webové odkazy na ukázky grafů) nejsou součástí archivu — ponechány jako historický záznam bez funkčních odkazů.

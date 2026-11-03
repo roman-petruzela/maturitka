@@ -2,7 +2,6 @@
 title: "Robert Merle - Smrt je mým řemeslem"
 order: 77
 source: "ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Robert Merle - Smrt je mým řemeslem/Smrt je mým řemeslem.docx"
-tags: ["mimo-seznam-cetby"]
 ---
 Téma & motiv
 
