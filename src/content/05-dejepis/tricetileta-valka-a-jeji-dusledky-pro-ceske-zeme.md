@@ -4,7 +4,7 @@ order: 15
 source: "Dějepis/15.Třicetiletá válka a její důsledky pro české země.doc"
 ---
 
-### TŘICETILETÁ VÁLKA:
+## TŘICETILETÁ VÁLKA:
 
 __Příčiny:__  		-     __hlavně mocenský boj__
 

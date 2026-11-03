@@ -327,7 +327,7 @@ Sověti to sváděli na Němce ( vyptávala se polská exilová vláda → sově
 
 Po rozpadu SSSR Rusové v 90. letech přiznali odpovědnost.
 
-###### Agresivní akce SSSR 1939 – 1940
+### Agresivní akce SSSR 1939 – 1940
 
 – Stalin chtěl na posílení obranyschopnosti posunout hranice na západ a oddálit válku s Německem.
 

@@ -12,7 +12,7 @@ Praktická identická sběrnice se skrývá i pod zkratkou TWI (Two Wire Interfa
 
 Modrý potenciometr na převodníky se používá k nastavení podsvícení. I²C používá pouze dva obousměrné kanály - datový kanál SDA a hodinový signál SCL s pull-up rezistory. Používá se napětí +5 V nebo +3,3 V, povoleny jsou však i systémy s jiným napětím.
 
-### Budeme potřebovat
+## Budeme potřebovat
 
 1. Arduino Uno (nebo jinou desku).
 
@@ -24,7 +24,7 @@ Modrý potenciometr na převodníky se používá k nastavení podsvícení. I²
 
 5. I²C zařízení např. I2C LCD displej
 
-### Zapojení
+## Zapojení
 
 Dle obrázku:
 
@@ -51,13 +51,13 @@ Program bude vycházet z předchozího programu na skenování adresy zařízen�
 
 Tentokráte necháme zobrazit text na LCD displeji pomocí programování.
 
-### Instalace knihoven
+## Instalace knihoven
 
 Staženou knihovnu „ _LiquidCrystal_I2C.zip_ “ rozbalte do adresáře:
 
 „ **C:\Users\uživatelské_jméno\Documents\Arduino\Libraries** “ ještě před kompilací programu.
 
-### Program
+## Program
 
 Do Arduino IDE vložíme kód programu a nahrajeme jej do Arduina:
 
@@ -108,11 +108,11 @@ Pokud nejde na displeji nic vidět, tak je potřeba změnit nastavení odporové
 
 _Obrázek 4: Kontrola podsvícení LCD displeje_
 
-### Úkol:
+## Úkol:
 
 Upravte program tak, aby text zobrazovaném na druhém řádku probíhal zleva doprava.
 
-### Citace:
+## Citace:
 
 Arduino MAXI Starter kit OD BASTLÍŘŮ BASTLÍŘŮM - Lekce 6 Lekce 6 I2C LCD displej
 

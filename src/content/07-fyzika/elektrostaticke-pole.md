@@ -12,7 +12,7 @@ Elektrický náboj
 	- podle fr. fyzika Ch. A. Coulomba (1736 – 1806)
 	- 1 C je hodně velký náboj, spíše se využívá 1 uC (mikrocoulomb),nebo 1 nC
 
-### Vlastnosti elektrického náboje
+## Vlastnosti elektrického náboje
 
 - __Elektrování tělesa__ – jev, při kterém těleso získává el. náboj, tj. přenos náboje z jednoho tělesa na druhé
 	- elektroskop – slouží ke zjištění el. náboje

@@ -86,7 +86,7 @@ Výhodou je nízká pořizovací cena a kvalitní tisk fotografií, nevýhodou v
 
 ## Laserová tiskárna – princip činnosti
 
-#### Jednobarevný tisk - černobílý
+### Jednobarevný tisk - černobílý
 
 1. Tiskový válec - elektricky vodivý válec pokrytý polovodivou selenovou vrstvou.
 2. Selenová vrstva se nabije kladným nábojem.
@@ -96,7 +96,7 @@ Výhodou je nízká pořizovací cena a kvalitní tisk fotografií, nevýhodou v
 6. Kontaktně se toner z válce přenese na papír a zažehlením (200 °C) se ustálí.
 7. Čištění válce - vybití fotocitlivého válce a může se pokračovat tiskem další strany.
 
-#### Barevný tisk
+### Barevný tisk
 
 - V podstatě je princip stejný jako u černobílého tisku.
 - Tiskárna musí mít čtyři tiskové jednotky (CMYK) – **Cyan** (modrozelená), **Magenta** (purpurová), **Yellow** (žlutá) a doplňující složku **Black** (černá).

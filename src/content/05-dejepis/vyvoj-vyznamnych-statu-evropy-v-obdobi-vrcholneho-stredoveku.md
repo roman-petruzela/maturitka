@@ -9,7 +9,7 @@ Vývoj významných států Evropy v období vrcholného středověku
 
 13\.-15. stol.
 
-### Mocenské soupeření Anglie s Francií
+## Mocenské soupeření Anglie s Francií
 
 Anglie :
 
@@ -51,7 +51,7 @@ __1214 bitva u Bouvines__ ( Buvín ) → Filip II. Kapetovec poráží vojsko ř
 
 - anglická šlechta využila jeho slabosti ⇒
 
-#### 1215 MAGNA CHARTA LIBERTATUM
+### 1215 MAGNA CHARTA LIBERTATUM
 
 - Velká listina svobod → jeden z nejvýznamnějších dokumentů v britské historii
 - uložena v Britském muzeu
@@ -110,7 +110,7 @@ __Dynastie Valois__ ( až do r. 1589 – Jindřich III. )-> vyvrcholení problé
 
 STOLETÁ VÁLKA ( 1337 – 1453 )
 
-### Anglie VS. Francie
+## Anglie VS. Francie
 
 - bojovalo se s přestávkami
 
@@ -120,7 +120,7 @@ __*1.fáze*__
 
 Vymřel rod Kapetovců → toho chtěla využít Anglie ( chtěla získat území, ekonomické zisky ). __Záminka : boj o trůn__.
 
-###### Eduard III. ( po matce Kapetovec ) VS. Filip VI. Valois
+### Eduard III. ( po matce Kapetovec ) VS. Filip VI. Valois
 
 Z počátku se bojovalo na moři, ale pak se spojila Francie se Španělskem a boje se přesunuly na pevninu. Eduard III. se v r. 1346 vylodil na pevnině
 
@@ -158,7 +158,7 @@ Počátek 15.stol. – __1415__ – Jindřich V. vtrhl do Francie ( vylodění )
 
 __1415 - Bitva u Azincourtu__ – slavné vítězství Anglie.
 
-##### PAŘÍŽ DOBYTA!!!
+### PAŘÍŽ DOBYTA!!!
 
 → zaveden teror Angličanů → lidové povstání
 
@@ -295,7 +295,7 @@ __1157 – poprvé se objevil název Svatá říše__
 
 __1187  -__ Jeruzalém opět dobyt Turky __-> 3.kříž.výprava__ ->Barbarossa se jí účastnil, ale spadl z koně a utopil se v řece Salev.
 
-##### Fridrich II. Barbarossa ( 1220 – 1250 )
+### Fridrich II. Barbarossa ( 1220 – 1250 )
 
 - uspořádal na dlouhou dobu poslední císařskou korunovační jízdu do Říma.Po něm až Karel IV.
 
@@ -373,13 +373,13 @@ __1410 – porazil v bitvě u Grunwaldu řád německých rytířů__. Přístu
 
 → vymření Anjouovců → __1378__ se stává uherským králem druhý syn Karla IV. __Zikmund Lucemburský__ → velmi úspěšný ( 1410 získává titul římského krále a později i císaře ), ale i nesnáze : __útoky osmanských Turků__ + Husité.
 
-##### Matyáš Korvín
+### Matyáš Korvín
 
 Po smrti Korvína nastupují na trůn Jagellonci → __1526 bitva u Moháče__ – umírá __Ludvík Jagellonský.__
 
 Šlechtické rody :
 
-###### Habsburkové – 1273 – bezvýznamný jihoněmecký hrabě Rudolf Habsburský → v boji o moc porazil P.O.II.
+#### Habsburkové – 1273 – bezvýznamný jihoněmecký hrabě Rudolf Habsburský → v boji o moc porazil P.O.II.
 
 Wittltsbachové
 

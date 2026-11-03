@@ -50,7 +50,7 @@ Tehdy – teoretické zeměpisné představy → florentský hvězdář Toscanel
 
 .
 
-#### Objevné plavby
+## Objevné plavby
 
 __Portugalci__ – princ __Jindřich Mořeplavec__
 
@@ -180,7 +180,7 @@ Po roce 1600 už pouze 5% původního obyvatelstva.
 
 Španělští dobyvatelé byli nazýváni Konquistadoři, dostávali území a stavěli usedlosti – Haciendes.
 
-#### Důsledky zámořských objevů
+### Důsledky zámořských objevů
 
 __Hospodářské__
 
@@ -236,7 +236,7 @@ __Renesance__ : - přelom mezi středověkem a novověkem
 
 → návrat k antice
 
-##### Humanismus : - ideový a myšlenkový proud
+#### Humanismus : - ideový a myšlenkový proud
 
 - člověk je považován za schopnou, samostatnou, rozumnou bytost, může ovlivnit své postavení ve společnosti
 - hledí na člověka jako na jedince
@@ -266,7 +266,7 @@ __Masaccio__ ( 1401 – 1428 )
 
 __Donatello__ : - sochy
 
-##### Fra Angeliko, Fillipo Lippi
+### Fra Angeliko, Fillipo Lippi
 
 __Sandro Boticelli__ ( 1445 – 1510 )
 
@@ -301,29 +301,29 @@ __Světské stavby__ → větší pohodlí, lépe zasazené do přírody, zahrad
 
 ## ASTRONOMIE
 
-##### Mikoláš Kopernik
+### Mikoláš Kopernik
 
 - __heliocentrismus__ ( vs. církev – geocentrismus )
 - teorie o pohybu nebeských těles ( dílo :  O pohybu nebeských těles )
 
-##### Galileo Galilei
+### Galileo Galilei
 
 - znovuobjevil dalekohled
 - dráhy planet = elipsy
 - vězněn, souzen, odvolal, „ A přece se točí“  , podle skupiny Kabát byl alkoholik
 
-##### Giordano Bruno
+### Giordano Bruno
 
 - vesmír je nekonečný, jsou zde planety podobné zemi, mohou existovat mimozemšťané
 - 1600 kosmonaut ( upálen )
 
-##### Jan Kepler
+### Jan Kepler
 
 - Němec působící na dvoře Rudolfa II.
 - matka upálena za čarodějnictví
 - matematik, astrolog
 
-##### Tycho de Brahe
+### Tycho de Brahe
 
 - dánský astronom, spolupracovník Keplera
 - pohřben v Týně

@@ -40,7 +40,7 @@ __Jazyk : - praslovanština__ ( není písemně doložena )
 
 Slované v 9.-10.století zakládali různé státy : např. Bulharsko, Polsko atd.
 
-##### Sámova Říše
+### Sámova Říše
 
 Slované v 6. stol. tedy na našem území nahradili germánské obyvatelstvo, které buď odešlo,  nebo s ním splynulo.Brzy se však ve střední Evropě střetli se zájmy __Avarů__ ( turkotatarští kočovníci ).Ti vytvořili kolem Dunaje silnou, vojenskou říši.
 
@@ -56,7 +56,7 @@ Dalším nebezpečím byla na západě Francká říše. → __631 bitva u Vogas
 
 Sámo umírá kolem roku 658 a poté se Sámova říše rozpadla.Poté se o našem území nejsou žádné zprávy po dlouhých 150 let.( Sámo měl 22 synů a 15 dcer, 15 manželek. )
 
-##### Velkomoravská říše
+### Velkomoravská říše
 
 Historické prameny : Fuldské anály a Geograf Bavorský
 
@@ -89,7 +89,7 @@ Rastislav vybudoval __obranný systém hradišť__ proti VFŘ a ubránil se.
 
 Dalším jádrem sporu bylo __šíření křesťanství__ na území VMŘ. To totiž šířili __východofrančtí misionáři__ a tím __rostl i politický vliv VFŘ__. ⇒ __Rastislav__ se tomu chtěl bránit, __chtěl co největší samostatnost__, a tak chtěl zřídit na Moravě vlastní církevní organizaci.Obrátil se __na papeže Mikuláše I.__ , ale ten ho __odmítl__.Tak se tedy obrátil __na Michala III__. v Byzantské říši. Ten __vyhověl__ a poslal do VMŘ. dva věrozvěsty v __r. 863__
 
-###### 863 –Konstantin ( později v Římě vstoupil do kláštera a získal tam jméno Cyril) a Metoděj : - bratři ze  Soluně ( Thessalonika ), učenci, filozofové.
+#### 863 –Konstantin ( později v Římě vstoupil do kláštera a získal tam jméno Cyril) a Metoděj : - bratři ze  Soluně ( Thessalonika ), učenci, filozofové.
 
 - vytvořili __první slovanské písmo – hlaholice__ ( později __cyrilice__ ) a za církevní jazyk zvolili __staroslověnštinu__ ( podle slovanského nářečí z okolí Soluně ).Do staroslověnštiny přeložili část Bible.Ve staroslověnštině i hlásali → lidi tomu rozuměli.
 
@@ -103,7 +103,7 @@ V roce __870 se VMŘ dostala do područí VFŘ__ a stala se součástí východ
 
 Pak se ale Svatopluk zase ujal vlády ( pomáhala mu česká knížata – např. Přemyslovec Bořivoj ) a __874 – Forchheimský mír__  - Svatopluk se zavázal platit VFŘ tribut.
 
-##### Poté nastal největší územní rozmach VMŘ
+### Poté nastal největší územní rozmach VMŘ
 
 __Arcibiskupství__ zřízeno papežem __880__, __Metoděj__ byl __arcibiskup__.
 
@@ -135,7 +135,7 @@ Mezi tehdejšími Slovany to byla ojedinělá, vyspělá kultura.
 
 Osídlení Velké Moravy – nížiny, jinak lesy, lesy, lesy a zase jenom lesy ……
 
-###### Počátky českého státu
+#### Počátky českého státu
 
 Po rozpadu VMŘ se posunulo hospodářské, politické a kulturní centrum na západ – do Čech.
 
@@ -346,7 +346,7 @@ __boj o investituru__ – Jindřich IV. vs. papež Řehoř VII.
 
 Nakonec to skončilo 1122 tzv. konkordátem ( smlouva mezi světskou a církevní mocí ) uzavřeným v německém Wormsu → církev si prosadila právo volit biskupy a opaty.
 
-##### Polsko a Uhry na straně papeže
+### Polsko a Uhry na straně papeže
 
 __Vratislav II. na straně Jindřicha IV__. ⇒ dostal od něj ( císaře ) hodnost král český a polský ⇒ __1085 – 1. český král Vratislav II.__
 

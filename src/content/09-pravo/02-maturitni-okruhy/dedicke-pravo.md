@@ -3,7 +3,7 @@ title: "Dědické právo"
 order: 10
 source: "Právo/10. Dědické právo/10_dedicke_pravo.odt"
 ---
-### 1. 10. Dědické právo, notářství
+## 1. 10. Dědické právo, notářství
 
 ⇒ souhrn pravidel, jimiž se řídí přechod práv a povinností zemřelého (zůstavitele) na jeho právního nástupce. Smrtí člověka zaniknou jenom ta práva, ze kterých nemůže mít prospěch někdo jiný než on, a jenom ty povinnosti, které nikdo jiný nemůže plnit → přetrvají majetková práva a povinnosti.
 

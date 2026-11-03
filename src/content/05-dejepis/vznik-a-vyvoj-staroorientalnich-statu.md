@@ -175,7 +175,7 @@ __Fénície \(Foiníkie\)__
 - 1\. platidla \( kovové mince \) – dálkový obchod
 - první hláskové písmo \(24 znaků, podobná latince\) → přístupné širším vrstvám lidí
 
-##### Starověká Palestina \- Izrael
+### Starověká Palestina \- Izrael
 
 - původní název této oblasti: Kanaán
 - pás od Středozemního moře – V Mrtvého moře
@@ -271,7 +271,7 @@ palácové hospodářství
 - složitý komplex \(rozdělení místností\) – využití vody, kanalizace,…
 - sídlo královské rodiny, barevné fresky na stěnách
 
-###### Starověká Čína
+#### Starověká Čína
 
 - první státní útvary na tomto území – od 21\.stol\. př\.Kr\.
 - 5\. – 3 stol\. př\. n\. l\. – obd\. válčících států, pol\. 3\. st\. př\. n\. l\. – ve státě Chin se ujímá moci Jing Čeng  \- ovládl ostatní státy, prohlásil se Chin Šchuang – ti = svrchovaný → Čína

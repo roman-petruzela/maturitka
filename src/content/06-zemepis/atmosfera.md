@@ -11,19 +11,19 @@ source: "Zeměpis/Zeměpis GLP/3. Atmosféra.docx"
 
 - zajišťuje průměrnou teplotu na Zemi
 
-### Složení
+## Složení
 
 - dusík 78%, kyslík 21%, ostatní plyny 1% (argon, neon, CO2)
 - voda ve všech skupenstvích -) vodní pára, kapky, ledové krystaly (množství vody proměnlivé jak v prostoru, tak v čase)
 - různé znečišťující aerosoly -) sopečný prach, prach,… + doprava, spalování uhlí,…
 
-### Skleníkový efekt
+## Skleníkový efekt
 
 = proces, kterým záření atmosféry planety ohřívá povrch planety na teplotu vyšší, než by měla bez atmosféry
 
 - část slunečních paprsků odražených od Země se od atmosféry (CO2) odráží zpět na Zem, dochází k ohřívání Země
 
-### Vrstvy atmosféry
+## Vrstvy atmosféry
 
 <img src="/images/content/zemepis/atmosfera/01.webp" alt="Ilustrace: Vrstvy atmosféry" width="417" loading="lazy" decoding="async">
 
@@ -58,14 +58,14 @@ Exosféra:          - termopauza až 30 – 40 000 km
 
 - obsahuje lehké plyny, které z ní unikají do okolního meziplanetárního prostoru
 
-### Počasí
+## Počasí
 
 = okamžitý stav ovzduší na určitém místě
 
 - dáno stavem všech atmosférických jevů pozorovaných na určitém místě v určitém okamžiku
 - změny počasí způsobeny především zemskou rotací
 
-### Meteorologické prvky
+## Meteorologické prvky
 
 \-pomáhají ke kvalitní a účelné předpovědi průběhu počasí
 
@@ -93,7 +93,7 @@ Směr a rychlost větru: - anemometr (rychlost)
 
 Coriolisova síla – setrvačná síla, vítr na S polokouli se stáčí vpravo, na J vlevo
 
-### Větry
+## Větry
 
 <img src="/images/content/zemepis/atmosfera/03.webp" alt="Ilustrace: Větry" width="402" loading="lazy" decoding="async">
 
@@ -136,7 +136,7 @@ ITC (intertropická zóna konvergence)
 
 - zhruba rovník, sbíhají se větry ze S a z J -) bezvětří, rychlé změny počasí, zóna se hýbe
 
-### Podnebí
+## Podnebí
 
 = dlouhodobý stav počasí na určitém místě
 

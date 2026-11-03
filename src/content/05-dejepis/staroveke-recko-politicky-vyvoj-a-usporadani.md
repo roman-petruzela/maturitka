@@ -15,7 +15,7 @@ __Předřecké civilizace :__
 
 __Knósos__ – město na severu Kréty
 
-### Faistos
+## Faistos
 
 Mallia , Zarko
 
@@ -51,7 +51,7 @@ __Zánik__ – __15.stol. př. Kr. – Kréta ovládnuta Acháji__
 - __Lví brána v Mykénách__
 - znali lineární písmo B od Kréťanů
 
-### Města : Mykény, Tíryns, Argos
+## Města : Mykény, Tíryns, Argos
 
 - na vyvýšených místech
 - šachtové, kopulové hroby, zlaté masky ( __Agamemnonova maska__ )
@@ -75,7 +75,7 @@ __Peloponéský poloostrov__ – oddělený Korintskou šíjí od Balkánu, pob�
 
 - Egejské moře
 
-### Ostrovy : Kréta, Euboia, Rhodos, Nadsos, Lesbos
+## Ostrovy : Kréta, Euboia, Rhodos, Nadsos, Lesbos
 
 Přírodní podmínky :
 
@@ -179,7 +179,7 @@ Postupně aristokratická vláda přecházela v timokracii ( vláda bohatých, 
 
 __Nejdůležitější řecké městské státy :__
 
-#### Sparta
+### Sparta
 
 - __Dórové ->__ vrstva Sparťané – plnoprávní občané – pouze válčili, nepracovali,.
 - podmanili si původní zemědělce ⇒ vrstva __heilóti__ ( nesvobodní , majetek státu ) – v podstatě otroci
@@ -409,7 +409,7 @@ Při přípravách na tažení proti Persii byl úkladně zavražděn a jeho ná
 
 Proti byl řečník Démosthénés → napsal Filipiky ( proti Filipovi II. )
 
-##### Alexandr Veliký 336 – 323 př.Kr.
+#### Alexandr Veliký 336 – 323 př.Kr.
 
 - bylo mu 20 let, když nastoupil na trůn.
 - učil ho __Aristoteles__

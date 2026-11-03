@@ -102,15 +102,15 @@ __2\. Územní__ \- vyčleňuje se prostor, kde se norma uplatňuje
 __3\. Časová__ \- vymezena doba platnosti \(od kdy do kdy platí\)
 __4\. Věcná__ \- přesně se vymezuje, čeho se týká \(oblast\)
 
-### ODVĚTVÍ PRÁVA
+## ODVĚTVÍ PRÁVA
 
-### Soukromoprávní
+## Soukromoprávní
 - [občanské právo](https://cs.wikipedia.org/wiki/Ob%C4%8Dansk%C3%A9_pr%C3%A1vo)
 - [obchodní právo](https://cs.wikipedia.org/wiki/Obchodn%C3%AD_pr%C3%A1vo)
 - [pracovní právo](https://cs.wikipedia.org/wiki/Pracovn%C3%AD_pr%C3%A1vo)
 - [mezinárodní právo soukromé](https://cs.wikipedia.org/wiki/Mezin%C3%A1rodn%C3%AD_pr%C3%A1vo_soukrom%C3%A9)
 
-### Veřejnoprávní
+## Veřejnoprávní
 
 - Ústavní právo
 - [trestní právo](https://cs.wikipedia.org/wiki/Trestn%C3%AD_pr%C3%A1vo) \(hmotné a procesní\)

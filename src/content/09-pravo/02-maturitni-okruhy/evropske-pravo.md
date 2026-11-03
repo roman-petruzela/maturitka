@@ -3,7 +3,7 @@ title: "Evropské právo"
 order: 25
 source: "Právo/25. Evropské právo/25_evropske_pravo.odt"
 ---
-### 1. 25\. Evropské právo
+## 1. 25\. Evropské právo
 
 __Evropská unie__ je jednou z nejvýznamnějších mezinárodních organizací regionální povahy\. Zásadním způsobem určuje dění na mezinárodní scéně i na úrovni samotných členských států EU\. Členské státy se vzdaly části svých rozhodovacích pravomocí a převedly je na EU, která je za ně vykonává a přijímá rozhodnutí, jež jsou závazná nejen pro EU jako mezinárodní organizaci, ale i pro členské státy a jejich občany\.
 

@@ -11,9 +11,9 @@ Slouží pro upevnění komponent počítače jako jeden celek.
 
 **Server: 1U či 2U**
 
-##### 4U
+#### 4U
 
-##### Desktop
+#### Desktop
 
 Umisťují se naležato a na počítač se postaví monitor.
 
@@ -31,13 +31,13 @@ Umisťují se naležato a na počítač se postaví monitor.
 
 **Cube**
 
-##### HTPC
+#### HTPC
 
-##### Pi-Case
+#### Pi-Case
 
-##### MicroTower
+#### MicroTower
 
-##### Velikost:
+#### Velikost:
 
 Šířka [mm]: 175
 
@@ -45,7 +45,7 @@ Výška [mm]: 410
 
 Hloubka [mm]: 365
 
-##### MiniTower
+#### MiniTower
 
 Mini Tower je PC skříň vhodná pro nenáročné uživatele, kteří počítač využívají především k práci nebo ke sledování filmů a jiných videí.
 
@@ -57,7 +57,7 @@ Mini Tower je PC skříň vhodná pro nenáročné uživatele, kteří počíta�
 
 - Horší chlazení
 
-##### Velikost:
+#### Velikost:
 
 Šířka [mm]: 218
 
@@ -65,7 +65,7 @@ Výška [mm]: 410
 
 Hloubka [mm]: 411
 
-##### MidiTower
+#### MidiTower
 
 Midi Tower je pravděpodobně nejoblíbenější počítačovou skříní. Uvnitř je prostorná, ale zároveň nezabírá tolik místa.
 
@@ -79,17 +79,17 @@ Midi Tower je pravděpodobně nejoblíbenější počítačovou skříní. Uvnit
 
 - Žádné
 
-##### Velikost:
+#### Velikost:
 
 Šířka [mm]: 214 Výška [mm]: 482
 
 **Hloubka [mm]: 426**
 
-##### MiddleTower
+#### MiddleTower
 
 **Velikost** : Šířka [mm]: 199 Výška [mm]: 432 Hloubka [mm]: 457
 
-##### BigTower
+#### BigTower
 
 Big Tower je skříň na počítač větších rozměrů. Vejdou se vám do ní i skutečně velké komponenty a hned několik grafických karet naráz.
 
@@ -105,7 +105,7 @@ Big Tower je skříň na počítač větších rozměrů. Vejdou se vám do ní 
 
 - Vyšší pořizovací cena
 
-##### Velikost:
+#### Velikost:
 
 Šířka [mm]: 291 Výška [mm]: 626 Hloubka [mm]: 666
 

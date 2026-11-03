@@ -2,7 +2,7 @@
 title: "Poznávací procesy"
 source: "PSYCHOLOGIE/POZNÁVACÍ-PROCESY.docx"
 ---
-#### 1. Poznávací procesy
+## 1. Poznávací procesy
 
 - Čití a vnímání
 - Myšlení a řeč, myšlenkové operace
@@ -39,7 +39,7 @@ __ČITÍ__
 - Počitek = odraz vlastností předmětů a jevů, které působí na receptory člověka (odraz jednotlivých vlastností
 - __Výsledek__ čití = __počitek__
 
-### Příklady počitků
+## Příklady počitků
 
 - Zrakové počitky – __barva__ laku na nehtech, __barva__ laku auta, __intenzita__ světla, __průhledný__ konferenční stolek, …
 - Sluchové počitky – __zvuk__ motoru, __skřípění__ nehtů o tabuli, __hlasitost__ TV od sousedů, tón
@@ -94,13 +94,13 @@ __MYŠLENÍ__
 
 __Druhy myšlení__
 
-#### 2. Konvergentní myšlení
+### 2. Konvergentní myšlení
 
 - Sbíhavé myšlení
 - Uplatňuje se při úkolech, které mají jediné možné řešení
 - Př. Matematická úloha
 
-#### 3. Divergentní myšlení
+### 3. Divergentní myšlení
 
 - Rozbíhaví myšlení
 - Uplatňuje se při úkolech, které mohou mít několik řešení

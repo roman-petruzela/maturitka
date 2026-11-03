@@ -16,7 +16,7 @@ Diodové sedmisegmentovky mají relativně rychlou odezvu, přibližně 10 nanos
 
 _Obrázek 2: Značení sedmisegmentového displeje a propojení CA a CC_
 
-### Budeme potřebovat
+## Budeme potřebovat
 
 1. Arduino Uno (nebo jinou desku).
 
@@ -30,13 +30,13 @@ _Obrázek 2: Značení sedmisegmentového displeje a propojení CA a CC_
 
 6. 8x Odpor 220Ω
 
-### Zapojení
+## Zapojení
 
 <img src="/images/content/it/robotika/sedmisegmentovy-displej/03.webp" alt="Zapojení sedmisegmentovky s Arduinem" width="567" loading="lazy" decoding="async">
 
 _Obrázek 3: Zapojení sedmisegmentovky s Arduinem_
 
-#### Tabulka zapojení pinů
+### Tabulka zapojení pinů
 
 |Sedmisegmentový displej<br>- piny|Arduino -<br>piny|
 |---|---|
@@ -54,7 +54,7 @@ _Obrázek 3: Zapojení sedmisegmentovky s Arduinem_
 
 _Obrázek 4: Reálné zapojení sedmisegmentového displeje_
 
-### Program
+## Program
 
 Do Arduino IDE vložíme kód programu a nahrajeme jej do Arduina:
 
@@ -246,7 +246,7 @@ void clear () {			      // vypnout všechny segmenty
 }
 ```
 
-### Citace:
+## Citace:
 
 Arduino MAXI Starter kit OD BASTLÍŘŮ BASTLÍŘŮM - Lekce 18 Sedmisegmentový displej
 

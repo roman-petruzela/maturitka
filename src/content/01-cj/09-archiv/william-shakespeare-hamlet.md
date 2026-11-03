@@ -149,17 +149,17 @@ Francois Villon (1431–1463)
 
 *Odkaz* (*Malý testament*) – sbírka ironických a satirických básní
 
-### *Závěť* (*Velký testament*) – rozmanité básně: nábožné, dvorské, „bláznivé“ – vše z prostředí podsvětí
+## *Závěť* (*Velký testament*) – rozmanité básně: nábožné, dvorské, „bláznivé“ – vše z prostředí podsvětí
 
 - zamyšlení nad osudem, zároveň výsměch sobě i jiným
 
-### Francois Rabelaise (1494–1553)
+## Francois Rabelaise (1494–1553)
 
 - spisovatel a lékař
 
 - nejprve byl knězem, poté studoval medicínu a stal se lékařem – také studoval filozofii, archeologii a přírodní vědy
 
-### *Gargantua a Pantagruel* – pětidílný román, inspirace lidovou četbou o životě obrů
+## *Gargantua a Pantagruel* – pětidílný román, inspirace lidovou četbou o životě obrů
 
 *Španělsko:*
 

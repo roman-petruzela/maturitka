@@ -43,7 +43,7 @@ __Osmanská říše byla téměř vytlačena z Evropy__ ( zůstal jen úzký pr
 
 Koncem června 1913 vypukla 2.balkánská válka → bývalí spojenci se utkali o přerozdělení území Makedonie.Srbsko, Řecko, Rumunsko a Osmanská říše porazili Bulharsko a připravili ho tak o většinu územních zisků z 1.balkánské války.
 
-### Záminka : sarajevský atentát na Františka Ferdinanda d’Este 28.6.1914
+## Záminka : sarajevský atentát na Františka Ferdinanda d’Este 28.6.1914
 
 __František Ferdinand d’Este__ : - arcivévoda, synovec F.J.I., následník trůnu.
 
@@ -227,7 +227,7 @@ __!!!__ Turkové páchali __genocidu Arménů__ : - masakry Arménů proběhly u
 
 __!!! Lawrence z Arábie__ – v r. 1916 bylo protiturecké povstání Arabů s cílem uznat samostatnost Arábie. Partyzánské boje, které pomáhaly Britům vedl T.E.Lawrence – podařilo se .Pak pomáhal Britům v Palestině a Sýrii.
 
-#### Průběh 1.sv.války 1917 – 1918
+### Průběh 1.sv.války 1917 – 1918
 
 __Boje na moři :__
 
@@ -284,7 +284,7 @@ __Italská fronta__ : __říjen 1918 – bitva na Pijavě__
 
 Naprostá ekonomická vyčerpanost a vyčerpanost „ lidských zdrojů“ ⇒ zhroucen odpor centrálních mocností ⇒ rozpad – konec 10.1918
 
-##### R-U : kapituluje 4.11.1918
+#### R-U : kapituluje 4.11.1918
 
 __Německo : 11.11.1918__ – kapitulace Německa, podepsána v Compiegne ve vagóně.
 
@@ -394,14 +394,14 @@ Konzervativci – Baldwin; labouristé – MacDonald
 
 __Washingtonská konference__ : 1921 – 1922 → uspořádání v oblasti Tichomoří a Dálného východu.Čína = samostatný stát.Zúčastnili se : USA, VB, Japonsko, Francie, Itálie a další.
 
-### Vznik Společnosti národů
+## Vznik Společnosti národů
 
 - mezinárodní organizace
 - vznik inicioval __W.Wilson__ : „ World must be made for safety and democracy“ – nápis na Hlaváku.
 
 Cíl : řešení problémů mezi státy mírovou cestou, zamezit opakování konfliktu podobných rozměrů.
 
-##### Vznik : 1919, činnost zahájena 1920
+### Vznik : 1919, činnost zahájena 1920
 
 Sídlo : __Ženeva__
 

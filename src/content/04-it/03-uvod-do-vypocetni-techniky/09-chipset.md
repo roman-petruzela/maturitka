@@ -21,7 +21,7 @@ Základní architektury čipových sad:
 
 Čipová sada je rozdělena do dvou samostatných čipů, které jsou oba součástí základní desky počítače:
 
-#### North Bridge (severní most)
+### North Bridge (severní most)
 
 Zajišťuje komunikaci mezi procesorem, operační pamětí (obsahuje řadič operační paměti) a grafickým rozhraním (AGP). Zároveň umožňuje spojení procesoru s jižním mostem pomocí 32 bitové PCI sběrnice:
 
@@ -31,7 +31,7 @@ Sběrnice mezi procesorem a severním mostem je FSB (Front Side Bus) a je obousm
 
 Jedná-li se o víceprocesorový systém, sdílejí procesory tuto obousměrnou sběrnici pro komunikaci se severním mostem, což může mít za následek snížení přenosové rychlosti pro jednotlivé procesory. Zároveň tyto procesory nemohou komunikovat přímo mezi sebou (nejsou pomocí FSB přímo propojeni).
 
-#### South Bridge (jižní most)
+### South Bridge (jižní most)
 
 Zajišťuje komunikaci s periferními zařízeními. Obsahuje řadič USB rozhraní, rozhraní pevného disku (ATA) a tzv. obvod Super I/O (resp. Multi I/O).
 
@@ -71,7 +71,7 @@ Výhody/nevýhody integrace paměťového řadiče uvnitř procesoru:
 
 6. Nevýhodou je zvýšení ztrátového tepla vyzářeného procesorem.
 
-##### <u>Procesorová sběrnice QPI</u>
+### <u>Procesorová sběrnice QPI</u>
 
 Procesor s čipovou sadou komunikuje pomocí rychlé sběrnice **QPI** (QuickPath Interconnect). QPI však zajišťuje nejen komunikaci procesoru s čipovou sadou (náhrada stávající sběrnice FSB), ale u víceprocesorových systémů umožňuje vzájemnou přímou komunikaci jednotlivých procesorů (např. serverové procesory Xeon).
 

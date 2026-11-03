@@ -13,7 +13,7 @@ __Parlamentarismus__ : Anglie a Nizozemí – odstraněn centralistický a absol
 
 __Absolutismus__ : Španělsko, Francie, Habsburská monarchie, Rusko – __panovník má veškerou politickou  moc__, obklopen rádci. Sněmy v tomto systému měly jen omezený vliv ( např. povolování daní ). Silná, ústřední vláda se opírá o státní náboženství, početnou armádu a bezpečnostní složky.
 
-#### Parlamentarismus : -
+## Parlamentarismus : -
 
 Anglie :
 
@@ -154,7 +154,7 @@ chtěli k Baltu → boje se Švédy ( např. Dánové = spojenci Rusů )->  __S
 
 __Petr I. Veliký ( 1682 – 1725 ) :__ - Romanovec, na trůn nastoupil v deseti letech ( ale až do 17 za něj vládla jeho sestra Žofie ), vzdělával se na západě.
 
-### Nastolil tuhý absolutistický režim
+## Nastolil tuhý absolutistický režim
 
 - manželka Kateřina ( 1725 – 1727 )
 

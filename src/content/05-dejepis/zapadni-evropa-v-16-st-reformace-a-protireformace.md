@@ -5,9 +5,9 @@ source: "Dějepis/13.Západní Evropa v 16.st., reformace a protireformace.doc"
 ---
 13\.
 
-### Evropská reformace
+## Evropská reformace
 
-#### Re\-formatio =přetvoření, obnovení, náprava
+### Re\-formatio =přetvoření, obnovení, náprava
 
 - náboženská hnutí, usilující o nápravu církve \( jak věrouku, tak organizace \)
 
@@ -47,7 +47,7 @@ V Německu se toto učení uchytilo mezi chudinou a sedláky –> boj proti feu
 
 Luther byl proti násilí, nesouhlasil s povstáním
 
-#### Povstání nakonec tvrdě potlačeno
+### Povstání nakonec tvrdě potlačeno
 
 Pojem – __novokřtěnci__ = toyfaři = novobabtisté \-  nejradikálnější směr reformace, nechávali se pokřtít až v dospělosti
 
@@ -136,9 +136,9 @@ __Odlišnosti protestantství od katolického vyznání__: nejvyšší autorita 
 
 1582 – papeř Řehoř XIII\. – __Gregoriánský kalendář__ \( vypustil 10 dní \), v Čechách 1584, v Anglii přijat 1752 a v Rusku až 1918\.
 
-##### __Evropa v 16 – 17\. století__
+#### __Evropa v 16 – 17\. století__
 
-###### Francie
+##### Francie
 
 - po stoleté válce dokončeno sjednocování Francie a je posílena moc panovníka na úkor šlechty
 
@@ -186,7 +186,7 @@ __Ludvík XIV\. \( 1643\-1715\)__
 - vrcholí francouzský absolutismus –„ stát jsem já“
 - kardinálové Richelieu, Mazarin – praktická politika – intriky
 
-###### Anglie v 16\. století
+##### Anglie v 16\. století
 
 - puritáni
 

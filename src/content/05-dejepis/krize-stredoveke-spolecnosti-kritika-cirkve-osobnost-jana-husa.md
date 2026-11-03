@@ -4,7 +4,7 @@ order: 11
 source: "Dějepis/11. Krize středověké společnosti, kritika církve, osobnost Jana Husa.doc"
 ---
 
-### Krize středověké společnosti
+## Krize středověké společnosti
 
 - stoletá válka mezi Francií a Anglií; několik morových epidemií, které měli za následek obrovský úbytek obyvatel; hladomory a nebezpečí vpádu Turků \-  lidé se domnívají, že se jedná o důsledek jejich hříchů, fanatiky je ohlašován příchod Antikrista – chyby církve se stávají zřetelnějšími a stále méně přijatelnými
 - také pokles cen zemědělských produktů a růst cen řemeslných výrobků \-  zhoršení sociálních poměrů poddaných
@@ -18,7 +18,7 @@ Anglie – John Wycliff \(1320\-1384 \)\- překlad Bible do angličtiny
 
 - kázal celý život na univerzitě, církví neprohlášen za kacíře
 
-#### __Čechy – Husovi předchůdci__
+### __Čechy – Husovi předchůdci__
 
 - __Konrád Waldhauser__ \(1326 \- 1369\)\- farář, původně augustiniánský mnich z Rakouska; kazatel u sv\. Havla \( pro bohaté Němce a měšťany \) kritika nedostatků ve světském a duchovním životě \( bohatství církve \), kázal v němčině, což mu bylo zakázáno \( musel kázat v latině \)\.
 - __Jan Milíč z Kroměříže__\( ? \- 1374 \)\- kněz; kanovník Vyšehradské kapituly,  nejradikálnější; kázal česky, tvrdá kritika, kázal na venkově, dodržoval půsty; úsilí o nápravu vlastním příkladem, učení o Antikristu \( za Antikrista označil Karla IV\. \) \-  obžalován → 2krát se hájil u papeže v Avignonu, obhájil se, ale při cestě zpátky umrzl\.
@@ -51,7 +51,7 @@ __Mistr Jan Hus \( 1369/1370 –1415 \)__
 
 - o rok později upálen Jeroným Pražský \( odvolal, ale dál to kázal \)
 
-### __Krize v církvi__
+## __Krize v církvi__
 
 - vrchol moci papežské církve ve 13\. století:\- výsledek křížových výprav, duchovní a politická moc, nezávislost na světské moci, bohatství, život v přepychu a rozmařilosti \-  veřejné pohoršení, odpor \-  vznik sekt \(„ odštěpenců“\)
 - hnutí __katharů__ – ne majetek, obřady, dogmata

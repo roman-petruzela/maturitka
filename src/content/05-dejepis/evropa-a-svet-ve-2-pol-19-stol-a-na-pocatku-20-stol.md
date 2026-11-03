@@ -56,7 +56,7 @@ Domácí politika : \- postupný vývoj od absolutismu ke konstituční monarchi
 
 → zřízen parlament : Říšská rada \( dvoukomorová : panská sněmovna – jmenována panovníkem, doživotní členství \) \+ poslanecká sněmovna \( voleni, ale dost omezené volební právo \)
 
-### Rakousko\-uherské vyrovnání
+## Rakousko\-uherské vyrovnání
 
 Prusko\-rakouská válka – 1866
 
@@ -107,7 +107,7 @@ Zalitavsko : \- část Rumunska, Chorvatska, Uherska, Severní Uhersko \( Sloven
 - 3 společná ministerstva : zahraničí, války, financí\.
 - společná osoba panovníka\.
 
-### Sjednocení Itálie
+## Sjednocení Itálie
 
 2 koncepce : 1\) demokratická koncepce \( sjednocení „zdola“ \)
 
@@ -191,7 +191,7 @@ Pak se malé německé státy dobrovolně připojily k Prusku ⇒ leden 1871 �
 
 Německo bylo založeno na militaristických principech, byl to mocenský stát\.
 
-#### Velká Británie – koloniální velmoc
+### Velká Británie – koloniální velmoc
 
 Viktoriánské období → královna Viktorie \( 1837 – 1901 \)
 
@@ -443,7 +443,7 @@ __1904\-5 : Rusko\-japonská válka__
 
 → velké, nekvalitní ruské loďstvo \( zaostalá výzbroj atd\. \)\-> porážka Ruska \( např\. bitva u Cušimy \) → __1905 1\.ruská revoluce__\.
 
-##### Afrika : dohoda Anglie s Francií – 1904
+### Afrika : dohoda Anglie s Francií – 1904
 
 Jižní Afrika : 1899\-1902 Búrská válka :
 

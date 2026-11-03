@@ -17,7 +17,7 @@ Ideální plyn
 - __Vnitřní energie__ ideálního plynu s __víceatomovými__ molekulami zahrnuje kromě toho ještě energii molekul konajících __rotační pohyb__ a energii __kmitajících atomů__ v molekulách
 - Skutečné plyny se svými vlastnostmi __přibližují__ vlastnostem ideálního plynu, jestliže mají dostatečně __vysokou teplotu a nízký tlak__
 
-### Rozdělení molekul ideálního plynu podle rychlosti
+## Rozdělení molekul ideálního plynu podle rychlosti
 
 - Rozdělení molekul plynu podle rychlostí matematicky odvodil anglický fyzik __J. C. Maxwell__. Pomocí tzv. __Lammertova pokusu__ bylo zjištěno, že rychlosti molekul jsou různé.
 

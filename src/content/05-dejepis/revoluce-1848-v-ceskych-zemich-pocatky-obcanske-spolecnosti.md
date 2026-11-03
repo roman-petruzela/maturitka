@@ -265,7 +265,7 @@ Revoluce tedy nakonec vojensky pokořena a vše se začalo vracet k předrevolu
 
 Bylo __odstraněno poddanství, zrušena robota__.Šlechta ztratila své výsady  → __zavedena státní správa. Zavedena rovnost občanů před zákonem.Byly zrušeny cechy__ → nastolena liberální hospodářská politika.
 
-##### REVOLUCE 1848 V ČESKÝCH ZEMÍCH
+#### REVOLUCE 1848 V ČESKÝCH ZEMÍCH
 
 __1844 založen REPEAL__ – tajný spolek radikálních demokratů ( E.Arnold, K.Sabina )
 

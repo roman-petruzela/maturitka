@@ -9,7 +9,7 @@ Zařízení jako jsou procesor, cache paměť, operační paměť a grafický ad
 
 Osobní počítače musí být navrženy tak, aby bylo možné jejich snadné rozšiřování o další zařízení (zvukové karty, síťové karty, modemy, TV karty, měřící karty apod.). Takovéto rozšiřování je velmi často uskutečňováno pomocí tzv. rozšiřující sběrnice počítače (častěji označované pouze jako sběrnice nebo systémová sběrnice), na kterou se jednotlivá zařízení zapojují (např. PCI, PCI Express, ISA, PCMCIA, ExpressCard). Tato rozšiřující sběrnice a zapojované zařízení musí tedy splňovat určitá pravidla (standardy).
 
-### Parametry sběrnic:
+## Parametry sběrnic:
 
 - a. _Přenosová rychlost_ - určuje max. počet bitů přenesených za 1 sekundu [b/s]
 
@@ -27,7 +27,7 @@ Firma Intel zavedla pro vyjádření obecné přenosové rychlosti jednotku [GT/
 
 Zjednodušeně lze říci, že během jednoho hodinového taktu se přenese množství informace v bitech, které je rovno počtu datových vodičů (šířka datové sběrnice). Čím větší kmitočet, tím větší rychlost přenosu dat. Existují však technologie, které umožňují během 1 hodinového impulsu provést i více než jeden přenos po sběrnici (např. technologie QPB)
 
-### Rozdělení sběrnic:
+## Rozdělení sběrnic:
 
 - _Podle druhu přenášených signálů_
 

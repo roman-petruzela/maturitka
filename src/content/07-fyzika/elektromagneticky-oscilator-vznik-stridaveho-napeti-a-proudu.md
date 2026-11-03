@@ -18,7 +18,7 @@ LC oscilační obvod
 
 <img src="/images/content/fyzika/elektromagneticky-oscilator-vznik-stridaveho-napeti-a-proudu/02.webp" alt="Ilustrace: Elektromagnetický oscilátor vznik střídavého napětí a proudu" width="602" loading="lazy" decoding="async">
 
-### Princip vzniku střídavého napětí a proudu
+## Princip vzniku střídavého napětí a proudu
 
 - __Střídavé napětí__ je proměnné napětí s harmonickým průběhem. To vyvolá __střídavý proud__, který má také harmonický průběh.
 - __Střídavý proud__ = proud jehož směr se v čase mění

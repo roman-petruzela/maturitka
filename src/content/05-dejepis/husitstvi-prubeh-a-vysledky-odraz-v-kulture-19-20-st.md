@@ -18,7 +18,7 @@ Husitství – průběh a výsledky, odraz v kultuře 19\.–20\.st\.
 - umělecká díla s husitskou tématikou
 - sochy, obrazy, hudba, literatura
 
-### Husitská revoluce
+## Husitská revoluce
 
 V Kostnici je odsouzen Jan Hus k upálení pro kacířství\.  Dostal sice od Zikmunda glejt, že bude moci odejít, ale nakonec ho Zikmund vydává, a tak je mistr __Jan Hus 6\.7\.1415 upálen__\.
 
@@ -30,7 +30,7 @@ O rok později je upálen i Jeroným Pražský\.
 
 VERITAS OMNIA VINCIT – pravda vítězí
 
-### Počátky husitského hnutí
+## Počátky husitského hnutí
 
 - lidové bouře, drancování, ničení kostelů, různé pouti na hory v duchu Husa, __silné napětí__ mezi katolickým a husitským obyvatelstvem
 
@@ -48,7 +48,7 @@ Neděle __30\.7\.1419 – 1\. Pražská defenestrace__
 
 Václav IV\. z toho chytil mrtvici a několik dnů na to zemřel \( 16\.8\.\) Zikmund nebyl přijatelný, a tak byly Čechy do r\. 1436 bez panovníka\. \( Slezsko, Lužice a většina moravských a českých katolíků ho uznávala \)
 
-### Husitský program
+## Husitský program
 
 - __Čtyři artikuly pražské__ \( program přijat v r\. 1420 v Praze \)
 
@@ -100,7 +100,7 @@ __Katolíci__ : část nejbohatší vysoké šlechty např\. Oldřich z Rožmbe
 
 - Slezsko, obojí Lužice, pohraničí, Olomouc, Brno, Jihlava, vysoká šlechta
 
-### Průběh husitského revoluce
+## Průběh husitského revoluce
 
 1419 – defenestrace , smrt Václava IV\. , založení města Tábor
 
@@ -150,7 +150,7 @@ __1421 – 2\. křížová výprava__ → dobyli 2\.nejvýznamnější město Ku
 
 1422 – výprava rozdrcena u Havlíčkova \( Německého \) Brodu\.
 
-### Závěr husitského hnutí
+## Závěr husitského hnutí
 
 - rozpory mezi radikály a umírněnými
 
@@ -202,7 +202,7 @@ __\-> 30\.5\.1434 – bitva u Lipan__ \( mezi Českým Brodem a Kouřimí \)
 
 __Dohoda neuznána papežem__\.
 
-### Husitské vojenství
+## Husitské vojenství
 
 - více pěchota než jízda
 
@@ -226,7 +226,7 @@ __Taktika__ : \- __vozová hradba__ \( kola vozů spojena řetězem \)
 - na jednom vozu cca 20 lidí
 - Žižka byl skvělým stratégem
 
-### Význam a výsledky husitského hnutí
+## Význam a výsledky husitského hnutí
 
 __Církev__ – nejvíce postižena \( ztratila cca 4/5 majetku \), ztratila politický význam \( neúčast na zemském sněmu \)
 
@@ -268,7 +268,7 @@ Tehdy : cca __70% lidí vyznávalo kališnickou víru__
 
 - hlavní husitský kostel byl Týnský chrám
 
-#### Vliv husitství na umění a kulturu
+### Vliv husitství na umění a kulturu
 
 __Knížky__ : A\. Jirásek  \- Proti všem
 

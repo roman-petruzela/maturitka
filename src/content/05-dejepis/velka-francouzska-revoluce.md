@@ -217,7 +217,7 @@ __Zákon o podezřelých__ → umožňoval označit za viníka každého, kdo ak
 
 __1\.polovina 1794 – vrcholí jakobínská diktatura__
 
-#### „Cílem není nepřítele potrestat, ale zničit\.“      „ neúplatný Robespierre“ <– byl tvrdej\.
+## „Cílem není nepřítele potrestat, ale zničit\.“      „ neúplatný Robespierre“ <– byl tvrdej\.
 
 => pouze osvobození / trest smrti\.
 
@@ -415,13 +415,13 @@ NÁRODNÍ GARDA
 
 3\. 9\. 1791 \- přijata nová francouzská ústava , hlavní moc má ZÁKONODÁRNÉ SHROMÁŽDĚNÍ
 
-#### Politické kluby
+## Politické kluby
 
 2\. fáze velké francouzské revoluce \( 21\. 9\. 1792 \- 27\. 7\. 1794 \)
 
 Jakobínská diktatura \( 2\. 6\. 1793 \- 27\. 7\. 1794 \)
 
-#### Výbor pro všeobecné blaho
+## Výbor pro všeobecné blaho
 
 3\. fáze revoluce \( 27\. 7\. 1794 \- 9\. 11\. 1799 \)
 

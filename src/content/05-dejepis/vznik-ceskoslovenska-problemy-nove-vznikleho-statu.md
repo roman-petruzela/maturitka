@@ -37,7 +37,7 @@ __17.5.1917 – Manifest 222 českých spisovatelů__ → protest proti prorakou
 
 Autorem byl ředitel Národního divadla – __Jaroslav Kvapil__
 
-### Zahraniční odboj : T.G.Masaryk
+## Zahraniční odboj : T.G.Masaryk
 
 - 1914 emigroval do Paříže
 - zpočátku dohodové mocnosti chtěly zanechat R-U v celku, vyvázat z Trojspolku – dohodovým mocnostem na západě by se hodilo aby to byla protiváha Německu a Rusku.

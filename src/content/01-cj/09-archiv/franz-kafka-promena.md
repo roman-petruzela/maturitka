@@ -6,7 +6,7 @@ source: "ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Franz Kaf
 
 (Můžete začít až na stránce 3, v první části píšu o Kafkově životě.)
 
-### <a id="_Toc26429976"></a>Údaje o narození a smrti, místo, rodina
+## <a id="_Toc26429976"></a>Údaje o narození a smrti, místo, rodina
 
 - \*3. 7. 1883 Praha
 - †3. 6. 1924 Rakousko
@@ -15,14 +15,14 @@ source: "ČESKÝ JAZYK - VŠE/Český jazyk - rozbory děl k maturitě/Franz Kaf
 - Narozen v rodině židovského velkoobchodníka s galanterií
 - Měl dva bratry, kteří zemřeli v dětství a tři sestry, které zemřely v koncentračních táborech.
 
-#### <a id="_Toc26429977"></a>Mládí, studie
+### <a id="_Toc26429977"></a>Mládí, studie
 
 - Studoval na gymnáziu na Malé straně
 - Mezi roky 1901 – 1906 studoval právo na Karlo-Ferdinandově univerzitě
 - Začal pracovat v pojišťovně, ale byl zde velice nešťastný
 - Franz navázal vztah s několika ženami, ale nikdy se s žádnou neoženil
 
-#### <a id="_Toc26429978"></a>Další život
+### <a id="_Toc26429978"></a>Další život
 
 - Důležitá žena v jeho životě se jmenovala Milena Jesenská, přeložila jeho první díla do češtiny
 	- Přátelila se s Kafkou celý jeho život

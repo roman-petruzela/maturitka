@@ -220,7 +220,7 @@ Oxford, Camridge – Anglie
 
 Na východ od Rýna byla první univerzita právě UK.
 
-#### __GOTIKA__
+### __GOTIKA__
 
 - architektura
 - nečerpá z antiky
@@ -250,11 +250,11 @@ __Tvrze__ : - sídla nižších šlechticů
 
 - např. Zásadka, Chodovská tvrz; v Roztokách u Prahy
 
-##### Měšťanské domy , radnice
+#### Měšťanské domy , radnice
 
 - gotické štíty
 
-##### Mosty
+#### Mosty
 
 __Sakrální stavby__ :
 

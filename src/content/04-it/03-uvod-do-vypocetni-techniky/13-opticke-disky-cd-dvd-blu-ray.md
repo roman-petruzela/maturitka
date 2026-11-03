@@ -27,7 +27,7 @@ Různé formáty CD byly postupně specifikovány ve standardech, označovaných
 
 - zelená kniha (green book) – **CD-I** – interaktivní CD
 
-##### UVT IT1
+#### UVT IT1
 
 - oranžová kniha (orange book) – **CD-R** („zapisovatelné CD“; vyrábějí se prázdná, lze zapsat jednou na každé místo, tzn. je možné např. nejdříve zapsat jen jednu stopu a dopsat další později, pokud je médium ponecháno „otevřené“) a **CD-RW** („přepisovatelné CD“; lze zapisovat opakovaně)
 

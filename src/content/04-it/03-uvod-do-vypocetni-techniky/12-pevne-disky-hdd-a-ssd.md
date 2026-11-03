@@ -36,7 +36,7 @@ source: "uvt/cv18-19_HDD_SSD.pdf"
 
 ### Dělení disků
 
-##### Dělení dle technologie:
+#### Dělení dle technologie:
 
 - HDD (Hard Disk Drive)
 
@@ -44,7 +44,7 @@ source: "uvt/cv18-19_HDD_SSD.pdf"
 
 - SSHD  (Solid State Hard Drive)
 
-##### Dělení dle rozhraní:
+#### Dělení dle rozhraní:
 
 _Doplňte přenosové rychlosti různých rozhranní a technologií:_
 
@@ -188,11 +188,11 @@ E - blok
 
 F – sektor
 
-###### Příklad 1:
+#### Příklad 1:
 
 U LBA je délka adresy **28 bitů** , je tedy možné adresovat až **2**<sup>**28**</sup> **sektorů** , což při velikosti logického bloku **512 bajtů** znamená maximální kapacitu disku **128 GiB** .
 
-###### Příklad 2:
+#### Příklad 2:
 
 U standardu ATA (konkrétně ATAPI-6, resp. ATA 100), který zavádí **48bitovou** LBA adresu, takže je možné adresovat až **128 PiB** (128 miliónů GB pro logické bloky velikosti 512 bajtů).
 
@@ -200,7 +200,7 @@ U standardu ATA (konkrétně ATAPI-6, resp. ATA 100), který zavádí **48bitovo
 
 <img src="/images/content/it/uvod-do-vypocetni-techniky/pevne-disky-hdd-a-ssd/02.webp" alt="Pořadí čtení bez NCQ a s NCQ" width="351" loading="lazy" decoding="async">
 
-###### _Najděte význam:_
+#### _Najděte význam:_
 
 **MBR** – Master Boot Record - hlavní spouštěcí záznam, obsahuje zavaděč, tabulku rozdělení disku, číselný identifikátor disku,  je vždy uložen na samém počátku disku (podle Cylindr-Hlava-Sektor = 0-0-1, podle LBA v sektoru 0) a skládá se ze 2 hlavních částí
 
@@ -232,7 +232,7 @@ Rozdíl mezi BIOS a UEFI např. na http://www.servispckupka.cz/rozdil-mezi-bios-
 
 **LVM** - Logical Volume Management - správa logických disků, metoda správy diskového prostoru, která poskytuje mnohem větší variabilitu než konvenční způsob dělení pevných disků na diskové oddíly. Umožňuje spojovat více pevných disků nebo diskových oddílů do větších logických celků a s nimi dále pracovat, tj. vytvářet na nich oddíly se souborovými systémy a využívat jejich organizace k získání dalších vlastností (přesuny dat mezi fyzickými zařízeními bez narušení jejich dostupnosti nebo podobné vlastnosti, jako mají pole RAID).
 
-###### _Nevýhody LVM_
+#### _Nevýhody LVM_
 
 1. Díky míře abstrakce, kterou sebou přináší řízení logických disků, mohou při použití LVM nastat komplikace buď při najíždění systému, nebo v případě poškození dat. Řešení takové
 
@@ -254,7 +254,7 @@ situace pak může být ještě komplikovanější, pokud je základní operačn
 
 Zakreslit rozdělení disku podle WIN/ Správa počítače / Správa disků
 
-###### Rozdělení pro jeden OS (např. WIN 10)
+#### Rozdělení pro jeden OS (např. WIN 10)
 
 <img src="/images/content/it/uvod-do-vypocetni-techniky/pevne-disky-hdd-a-ssd/03.webp" alt="Rozdělení disku pro jeden OS, pro více OS a s LVM" width="746" loading="lazy" decoding="async">
 
@@ -262,11 +262,11 @@ Zakreslit rozdělení disku podle WIN/ Správa počítače / Správa disků
 
 Acronis disk director
 
-###### Fdisk
+##### Fdisk
 
 Gparted (Linux Knoppix)
 
-###### Program na převod MBR na GPT a opačně – windows: CMD:
+##### Program na převod MBR na GPT a opačně – windows: CMD:
 
 - diskpart
 
@@ -294,7 +294,7 @@ Gparted (Linux Knoppix)
 
 Zabezpečení je realizováno specifickým ukládáním dat na více nezávislých disků, kdy jsou uložená data zachována i při selhání některého z nich. Úroveň zabezpečení se liší podle zvoleného typu RAID, které je označováno čísly – RAID 1.
 
-###### RAID nenahrazuje zálohování dat!!!
+### RAID nenahrazuje zálohování dat!!!
 
 ### Typy diskových polí RAID
 

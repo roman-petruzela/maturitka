@@ -11,9 +11,9 @@ __Československo ve dvacátých letech__ : Až do r. 1921 velmi chaotické obdo
 
 __Stát vznikl jako republika__( 14.11. se Národní výbor prohlásil Národním shromážděním a stát republikou ) → vznik institucí  :
 
-### 29.2.1920 – přijata ústava ( 6 hlav)
+## 29.2.1920 – přijata ústava ( 6 hlav)
 
-### T.G.M. → prezident
+## T.G.M. → prezident
 
 __Nová vláda__ –> předseda vlády __Karel Kramář__ ( do roku 1919 jako všenárodní koalice )
 
@@ -49,7 +49,7 @@ Atentát spáchal __Šoupal__ ( zastřelil ho → těžké zranění → Rašín
 
 __=> přijat zákon na ochranu republiky__ ( → proti extrémistickým ideologiím ) ⇒ ochrana politiků, státních symbolů atd.
 
-### Československo : - republika parlamentního typu
+## Československo : - republika parlamentního typu
 
 __Prezident__ – reprezentativní osoba, málo pravomocí, ve vnitřní politice  – pojítko mezi různými stranami
 
@@ -73,7 +73,7 @@ __Republikánská strana zemědělského a malorolnického lidu = Agrární stra
 
 Představitelé : __Antonín Švehla__( bohatý sedlák )
 
-### Milan Hodža
+## Milan Hodža
 
 __Rudolf Beran__ ( šéf strany na konci 30.let → krajně pravicový → spolupráce s nacisty ⇒ po roce 1945 strana zakázána )
 
@@ -82,13 +82,13 @@ __Československá strana lidová__ :
 - __Jan Šrámek__
 - sdružovala katolické obyvatelstvo
 
-### Československá strana národně socialistická
+## Československá strana národně socialistická
 
 - __Edvard Beneš__ ( když se stal prezidentem, tak členství pozastavil )
 - Václav Klofáč
 - levý střed polit.spektra
 
-### Československá sociálně demokratická strana dělnická
+## Československá sociálně demokratická strana dělnická
 
 - 1920 vyhráli volby ⇒ __Vlastimil Tusar__ premiérem
 - výsadní postavení ztratili kvůli oddělení komunistů → rozštěpení, oslabení.
@@ -99,7 +99,7 @@ __Strany nestátotvorné__ : - nepodílely se na tvorbě státu
 
 - založeny na národnostní struktuře
 
-### Hlinkova slovenská l’udová strana
+## Hlinkova slovenská l’udová strana
 
 - strana slovenských nacionalistů, separatistů
 - __Andrej Hlinka__
@@ -121,7 +121,7 @@ __DNSAP__ : - sdružovala nespokojené Němce
 - __Konrád Henlein__
 - agresivní politika
 
-### Komunistická strana československá
+## Komunistická strana československá
 
 - __1921__ odštěpení od socdem.
 - Bohumil Šmeral ( jeden ze zakladatelů )

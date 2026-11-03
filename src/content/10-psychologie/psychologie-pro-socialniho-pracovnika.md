@@ -2,7 +2,7 @@
 title: "Psychologie pro sociálního pracovníka"
 source: "PSYCHOLOGIE/PSYCHOLOGIE-PRO-SOCIÁLNÍHO-PRACOVNÍKA.docx"
 ---
-#### 1. Pedagogika a psychologie
+## 1. Pedagogika a psychologie
 
 - __Psychologie jako vědní disciplína – definice, název, význam, vznik psychologie; obory psychologie; základní pojmy – *prožívání, chování, psychické procesy, stavy a vlastnosti*__
 - Pedagogika jako vědní disciplína – definice, název, význam a vznik pedagogika, základní pojmy – *výchova, interakce, vzdělávání, vzdělání*

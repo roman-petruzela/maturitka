@@ -23,7 +23,7 @@ Výkonná moc
      - Má právo [vetovat](https://cs.wikipedia.org/wiki/Veto) zákony, vyhlašuje termíny voleb a má právo udělovat [amnestii](https://cs.wikipedia.org/wiki/Amnestie) a státní vyznamenání
      -  je také vrchním velitelem [ozbrojených sil](https://cs.wikipedia.org/wiki/Arm%C3%A1da_%C4%8Cesk%C3%A9_republiky)
 
-##### __\- Volba prezidenta__ \- Prezident České republiky byl do roku [2008](https://cs.wikipedia.org/wiki/2008) volen nepřímo [poslanci](https://cs.wikipedia.org/wiki/Poslaneck%C3%A1_sn%C4%9Bmovna_Parlamentu_%C4%8Cesk%C3%A9_republiky) a [senátory](https://cs.wikipedia.org/wiki/Sen%C3%A1t_Parlamentu_%C4%8Cesk%C3%A9_republiky)\. Pro zvolení
+## __\- Volba prezidenta__ \- Prezident České republiky byl do roku [2008](https://cs.wikipedia.org/wiki/2008) volen nepřímo [poslanci](https://cs.wikipedia.org/wiki/Poslaneck%C3%A1_sn%C4%9Bmovna_Parlamentu_%C4%8Cesk%C3%A9_republiky) a [senátory](https://cs.wikipedia.org/wiki/Sen%C3%A1t_Parlamentu_%C4%8Cesk%C3%A9_republiky)\. Pro zvolení
   prezidenta v prvním kole bylo potřeba nadpoloviční většiny hlasů všech poslanců a nadpoloviční většiny hlasů
   všech senátorů\. Pro zvolení prezidenta ve druhém kole bylo třeba nadpoloviční většiny hlasů přítomných poslanců a
   nadpoloviční většiny hlasů přítomných senátorů\. Pokud nebyl nikdo zvolen ani ve druhém kole, konalo se třetí kolo\.
@@ -36,7 +36,7 @@ Výkonná moc
   nedojde, koná se za čtrnáct dní druhé kolo volby, do kterého postupují dva nejúspěšnější kandidáti\. Ve druhém kole
   je zvolen kandidát, který získá více hlasů\.
 
-##### Zákonodárná moc
+## Zákonodárná moc
 - [Parlament České republiky](https://cs.wikipedia.org/wiki/Parlament_%C4%8Cesk%C3%A9_republiky) má dvě komory, [Poslaneckou sněmovnu](https://cs.wikipedia.org/wiki/Poslaneck%C3%A1_sn%C4%9Bmovna_Parlamentu_%C4%8Cesk%C3%A9_republiky) a [Senát](https://cs.wikipedia.org/wiki/Sen%C3%A1t_Parlamentu_%C4%8Cesk%C3%A9_republiky)\. Poslaneckou sněmovnu tvoří 200
   poslanců volených na čtyřleté období podle [poměrného systému](https://cs.wikipedia.org/wiki/Pom%C4%9Brn%C3%BD_volebn%C3%AD_syst%C3%A9m) s 5 % uzavírací klauzulí\. V [Senátu](https://cs.wikipedia.org/wiki/Sen%C3%A1t) zasedá 81
   senátorů volených [většinovým dvoukolovým systémem](https://cs.wikipedia.org/wiki/V%C4%9Bt%C5%A1inov%C3%BD_volebn%C3%AD_syst%C3%A9m) na 6 let\. Volby do Senátu se konají každé dva roky a
@@ -77,12 +77,12 @@ Prezident \(Andrzej Duda, od r\. 2015\)
 - Veto může být zamítnuto 3/5 většinou v Sejmu, je\-li přítomna ½ zástupců
 - Prezident může rozpustit parlament, není\-li schopen schválit rozpočtový zákon nebo sestavit vládu
 
-##### Výkonná moc
+## Výkonná moc
 
 - v čele premiér – hlava vlády \(vládu jmenuje prezident\)
 - v čele současné vlády – Mateusz Morawiecki
 
-##### Zákonodárná moc
+## Zákonodárná moc
 
 - Národní shromáždění: Sejm a Senát
 - __Sejm__ – 460 poslanců volených na 4 roky poměrným volebním systémem, vyslovuje vládě nedůvěru, strana pro
@@ -90,25 +90,25 @@ Prezident \(Andrzej Duda, od r\. 2015\)
 
 - __Senát__ – 100 senátorů volených na 4 roky většinovým volebním systémem
 
-##### Soudní moc
+## Soudní moc
 
 - Soudy a tribunály
 - Ústavní soud – Warszava
 - Nejvyšší soud je nejvyšším ústředním soudním orgánem v Polsku a tedy i nejvyšším odvolacím soudem
 - Obecnými soudy jsou soudy odvolací, krajské a okresní
 
-##### Administrativní členění
+## Administrativní členění
 
 - 16 vojvodství – 371 okresů – obce
 
-##### Politické strany
+## Politické strany
 
 - PO – občanská platforma – středová strana
 - PiS – právo a spravedlnost \(dědic SOLIDARITY z 80 \.let\)
 - SDL – svaz demokratické levice – proevropská strana
 - PSL – polská lidová strana \- levicová
 
-##### Polsko a EU
+## Polsko a EU
 
 - Členem EU od 1\. 5\. 2004
 - V Radě má 27 hlasů, v parlamentu 51 poslanců, neplatí eurem
@@ -205,7 +205,7 @@ Volební systém
 - 1 přímý mandát, 1 strana
 - nejdříve se sčítají 2 hlasy pro strany 5% pro vstup
 
-##### Politické strany
+## Politické strany
 
 - Křesťanskodemokratická unie \(CDU\)\- provostředová
 - Sociálnědemokratická strana Německa \(SPD\)\- umírněná levice
@@ -347,7 +347,7 @@ Dolní komora
 - zástupci jednotlivých stran dodržují stranickou disciplínu a hlasují v souladu s rozhodnutím vedení strany
 - vlády mají tendence spojovat jednotlivá hlasování s hlasování o důvěře a hrozit rezignací
 
-##### Horní komora
+## Horní komora
 
 - sněmovna lordů je nevolený zákonodárný orgán
 - úkol: posuzovat a schvalovat všechny zákony, nemá právo absolutního veta, které měla až do roku 1911
@@ -496,7 +496,7 @@ Premiér – ministr
 - Rada ministrů uskutečňuje pravomoci, které patří podle ústavy vládě a všechny Radou přijímané akty odléhají
   spolupodpisu prezidenta, který nenese za tyto akty žádnou zodpovědnost
 
-##### Zákonodárná iniciativa vlády
+### Zákonodárná iniciativa vlády
 
 - vláda disponuje pravomocemi k řízení legislativního procesu v parlamentu
 - vláda ve spolupráci s parlamentní většinou je hlavním dodavatelem zákonodárných projektů
@@ -530,6 +530,6 @@ Soudní moc
 - 3 hlavní soudní soustavy \- Občanská – trestní – administrativní
 - Pro účely správního soudnictví je Francie rozdělena do 24 oblastí
 
-##### Správa a samospráva
+### Správa a samospráva
 
 - Departementy, kantony, obvody, obce

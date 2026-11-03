@@ -4,7 +4,7 @@ order: 29
 source: "Dějepis/29.Odboj Čechů a Slováků za druhé světové války.doc"
 ---
 
-#### Protektorát Čechy a Morava
+## Protektorát Čechy a Morava
 
 - \- __dvojí správa území__
 	- protektorátní vláda
@@ -50,7 +50,7 @@ __Počátky domácího odboje__
 	- tímto skončily tyto neorganizované formy odboje\.
 - Vedle toho vznikaly organizace, které se cíleně věnovaly odporu proti Němcům\.Jejich činnost se zvýšila po 1\.9\.1939 \( vypuknutí války \)
 
-### Politické ústředí \( PÚ \) – politici 1\. republiky – např\. Šámal, Jaromír Nečas, Fr\.Hála atd\.
+## Politické ústředí \( PÚ \) – politici 1\. republiky – např\. Šámal, Jaromír Nečas, Fr\.Hála atd\.
 
 - __Obrana národa \( ON \)__ – polovojenský princip → důstojníci, bývalí legionáři, sokolové, železničáři – pravicový charakter\. → chtěli vytvořit tajnou armádu uvnitř země
 - Představitelé : Josef Balabán, generál Eliáš, generál Homola, generál Bílý\.
@@ -72,7 +72,7 @@ __Počátky domácího odboje__
 - Kulturní odboj – vlna zájmu o národní kulturní dědictví – nesrovnatelné s kdy jindy\.
 - Např\. Vančurovy Obrazy z dějin národa českého
 
-##### Československý odboj v zahraničí
+### Československý odboj v zahraničí
 
 - od 3/1939 , __činnost po 9/39__
     - VB, USA, Fra\. Právně neuznali vytvoření Protektorátu → zachována čs\. zastupitelství\.
@@ -111,7 +111,7 @@ __3\) Státní rada__ – nahrazuje parlament
     - bojovali také v rámci svobodných Francouzů, nebo v cizinecké legii
 - divize : 12\-14 tis\. vojáků, formace vyššího stupně
 
-###### Čs\. vojáci na východní frontě
+#### Čs\. vojáci na východní frontě
 
 - z čs\. legionu většina zůstala v SSSR → nakonec bylo povoleno, aby se formovala čs\. vojenská mise
 - __vedoucí důstojník Heliodor Píka__ \( po r\. 48 komunisty odsouzen a popraven \)
@@ -159,7 +159,7 @@ __3\) Státní rada__ – nahrazuje parlament
 		- prozrazeni, obklíčeni \( 18\.6\.1942 \)
 		- hasiči, voda, dýmovnice atd \. → poslední náboj pro sebe\.
 
-###### Odboj v závěrečné fázi války – osvobození Československa
+#### Odboj v závěrečné fázi války – osvobození Československa
 
 - 43 	– __Londýn__ \( západní, demokratický odboj \)
     - __Moskva__ \( komunistické, východní centrum \) – spolu s úspěchy SSSR získávalo na významu
