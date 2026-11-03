@@ -1,6 +1,6 @@
 ---
 title: "Krátkodobý finanční majetek a krátkodobé bankovní úvěry (útová třída 2) Dokumenty Google"
-order: 4
+order: 8
 source: "Účetnictví/4. Krátkodobý finanční majetek a krátkodobé bankovní úvěry (útová třída 2) - Dokumenty Google.pdf"
 ---
 ## Charakteristika

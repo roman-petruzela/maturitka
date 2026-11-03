@@ -1,6 +1,6 @@
 ---
 title: "Náklady včetně časového rozlišení nákladů"
-order: 16
+order: 29
 source: "Účetnictví/16. Náklady včetně časového rozlišení nákladů.docx"
 ---
 16\. Náklady včetně časového rozlišení

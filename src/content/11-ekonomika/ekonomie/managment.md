@@ -1,6 +1,6 @@
 ---
 title: "Managment"
-order: 30
+order: 50
 source: "Ekonomie/30. managment.docx"
 ---
 __Management, funkce manažera__

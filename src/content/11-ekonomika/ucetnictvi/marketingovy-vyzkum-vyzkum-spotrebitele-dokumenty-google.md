@@ -1,6 +1,6 @@
 ---
 title: "Marketingový výzkum, výzkum spotřebitele Dokumenty Google"
-order: 24
+order: 43
 source: "Účetnictví/24. Marketingový výzkum, výzkum spotřebitele - Dokumenty Google.pdf"
 ---
 ## Charakteristika  mark.  výzkumu,  subjekty  provádějící  výzkum

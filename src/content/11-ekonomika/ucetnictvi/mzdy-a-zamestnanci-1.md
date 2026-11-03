@@ -1,6 +1,6 @@
 ---
 title: "Mzdy a zaměstnanci(1)"
-order: 12
+order: 22
 source: "Účetnictví/12. Mzdy a zaměstnanci(1).docx"
 ---
 12\. Mzdy a zaměstnanci

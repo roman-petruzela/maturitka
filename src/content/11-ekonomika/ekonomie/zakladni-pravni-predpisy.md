@@ -1,6 +1,6 @@
 ---
 title: "Základní právní předpisy"
-order: 28
+order: 48
 source: "Ekonomie/28. základní právní předpisy.docx"
 ---
 __Základní právní předpisy__

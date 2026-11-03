@@ -1,6 +1,6 @@
 ---
 title: "Lidské zdroje v podniku"
-order: 13
+order: 25
 source: "Ekonomie/13. Lidské zdroje v podniku.docx"
 ---
 13\. Lidské zdroje v podniku

@@ -1,6 +1,6 @@
 ---
 title: "Dokumentace"
-order: 2
+order: 4
 source: "Účetnictví/2. Dokumentace.docx"
 ---
 2\. Dokumentace

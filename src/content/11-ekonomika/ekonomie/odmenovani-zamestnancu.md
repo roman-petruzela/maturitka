@@ -1,6 +1,6 @@
 ---
 title: "Odměňování zaměstnanců"
-order: 20
+order: 38
 source: "Ekonomie/20. Odměňování zaměstnanců.docx"
 ---
 20\. Odměňování zaměstnanců

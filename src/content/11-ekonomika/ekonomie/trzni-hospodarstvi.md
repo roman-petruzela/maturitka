@@ -1,6 +1,6 @@
 ---
 title: "Třžní hospodářství"
-order: 2
+order: 4
 source: "Ekonomie/2. Třžní hospodářství.odt"
 ---
 __Tržní hospodářství__

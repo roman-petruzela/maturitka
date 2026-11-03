@@ -1,6 +1,6 @@
 ---
 title: "Výroba"
-order: 9
+order: 18
 source: "Ekonomie/9. výroba.docx"
 ---
 = ve výrobním středisku dochází k přípravě hotových pokrmů a nápojů k jejich expedici.

@@ -1,6 +1,6 @@
 ---
 title: "Východní Asie"
-order: 15
+order: 16
 source: "Zeměpis/Zeměpis GLP/15. Východní Asie.docx"
 ---
 
@@ -30,7 +30,7 @@ source: "Zeměpis/Zeměpis GLP/15. Východní Asie.docx"
 - zvláštní jazyky – Japonsko, Korea
 - náboženství – Mongolsko – buddhismus, Japonsko – buddhismus, severní Korea – ateistický, jižní Korea – buddhismus, křesťanství, Čína – konfucianismus, taoismus, ale oficiálně ateistický stát
 
-### Japonsko
+## Japonsko
 
 - hornatý povrch
 - ostrovy: Honšú, Hokkaido, Kjúšú, Šikoku
@@ -57,7 +57,7 @@ source: "Zeměpis/Zeměpis GLP/15. Východní Asie.docx"
 
 - rybolov, lov velryb
 
-### Čína
+## Čína
 
 - 3\. největší, 1\. nejlidnatější, 1\. hospodářství
 - velké rozdíly mezi městy a vesnicemi
@@ -82,7 +82,7 @@ source: "Zeměpis/Zeměpis GLP/15. Východní Asie.docx"
 - <a id="_heading=h.gjdgxs"></a>velká kontrola obyvatelstva
 - Velká čínská zeď – 7\. div světa, 6700 km
 
-### Mongolsko
+## Mongolsko
 
 - nízká hustota zalidnění
 - parlamentní republika, dříve komunismus
@@ -93,7 +93,7 @@ source: "Zeměpis/Zeměpis GLP/15. Východní Asie.docx"
 - málo NB
 - průmysl: potravinářský, kožedělný, obuvnický
 
-### Taiwan
+## Taiwan
 
 - ostrov ležící JV od Číny při obratníku raka
 - vždy byl součástí Číny
@@ -102,7 +102,7 @@ source: "Zeměpis/Zeměpis GLP/15. Východní Asie.docx"
 - správní středisko Taipei
 - rýže
 
-### KLDR \(Severní Korea\)
+## KLDR \(Severní Korea\)
 
 - silný vliv SSSR → budování komunismu \(jedno z posledních míst na světě\)
 - patří mezi nejchudší státy světa \(hladomory\) – odkázán na vnější pomoc světa, velká izolace, neustálé zbrojení a příprava na válku \(děti od 7 let odcházejí do internátních škol\) → učí se přípravě na válku, neustále hrozí válkou, vlastní zbraně
@@ -114,7 +114,7 @@ source: "Zeměpis/Zeměpis GLP/15. Východní Asie.docx"
 - železná ruda – hutnictví, zbrojařský prům\.
 - většina ob\. pracuje v primitivním zemědělství – pšenice, rýže s nízkými výnosy
 
-### Jižní Korea
+## Jižní Korea
 
 - jeden z nejvýznamnějších asijských draků
 - podpora strojírenského průmyslu – elektrotechnický – Deovue, Samsung

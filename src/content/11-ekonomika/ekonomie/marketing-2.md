@@ -1,6 +1,6 @@
 ---
 title: "Marketing"
-order: 4
+order: 7
 source: "Ekonomie/4. Marketing.docx"
 ---
 4\. MARKETING

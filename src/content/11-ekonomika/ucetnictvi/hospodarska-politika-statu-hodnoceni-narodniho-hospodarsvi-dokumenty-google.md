@@ -1,6 +1,6 @@
 ---
 title: "Hospodářská politika státu, hodnocení národního hospodářsví Dokumenty Google"
-order: 16
+order: 28
 source: "Účetnictví/16. Hospodářská politika státu, hodnocení národního hospodářsví - Dokumenty Google.pdf"
 ---
 ## Hospodářská  politika  státu

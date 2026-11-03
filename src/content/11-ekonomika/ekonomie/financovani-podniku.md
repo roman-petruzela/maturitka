@@ -1,6 +1,6 @@
 ---
 title: "Financování podniku"
-order: 19
+order: 35
 source: "Ekonomie/19. FINANCOVÁNÍ-PODNIKU.docx"
 ---
 = zajištění finančních zdrojů pro chod firmy

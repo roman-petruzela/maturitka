@@ -1,6 +1,6 @@
 ---
 title: "Cestovní ruch"
-order: 25
+order: 45
 source: "Ekonomie/25.-cestovní-ruch.docx"
 ---
 - __*Charakteristika cestovního ruchu*__

@@ -1,6 +1,6 @@
 ---
 title: "Marketingové řízení a marketingový mix Dokumenty Google"
-order: 23
+order: 42
 source: "Účetnictví/23. Marketingové řízení a marketingový mix - Dokumenty Google.pdf"
 ---
 ## Marketingové  řízení

@@ -1,6 +1,6 @@
 ---
 title: "Obchodní činnosti vnitrostátní obchod"
-order: 19
+order: 36
 source: "Ekonomie/19. Obchodní činnosti - vnitrostátní obchod.docx"
 ---
 19\. Obchodní činnosti – vnitrostátní obchod

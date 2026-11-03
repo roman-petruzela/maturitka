@@ -1,6 +1,6 @@
 ---
 title: "Živnostenské oprávnění"
-order: 27
+order: 47
 source: "Ekonomie/27. Živnostenské oprávnění.docx"
 ---
 __Živnostenské podnikání__

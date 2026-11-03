@@ -1,6 +1,6 @@
 ---
 title: "Bankvní systém ČR"
-order: 7
+order: 13
 source: "Ekonomie/7. Bankvní systém ČR.docx"
 ---
 7\. Bankovní systém ČR

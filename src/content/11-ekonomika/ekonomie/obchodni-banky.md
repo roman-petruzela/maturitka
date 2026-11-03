@@ -1,6 +1,6 @@
 ---
 title: "Obchodní banky"
-order: 16
+order: 31
 source: "Ekonomie/16.-obchodní-banky.doc"
 ---
 __= zřízeny za účelem zisku__

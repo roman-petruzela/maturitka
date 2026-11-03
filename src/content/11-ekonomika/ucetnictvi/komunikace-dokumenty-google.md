@@ -1,9 +1,9 @@
 ---
 title: "Komunikace Dokumenty Google"
-order: 20
+order: 36
 source: "Účetnictví/20. Komunikace - Dokumenty Google.pdf"
 ---
-### Komunikační  proces
+## Komunikační  proces
 
 - **komunikace  →** základní  spojovací  článek  mezi  lidmi  v  procesu  řízení  podniku
 
@@ -13,7 +13,7 @@ source: "Účetnictví/20. Komunikace - Dokumenty Google.pdf"
 
 - komunikační  procesy  dělíme  na  vnitřní  (uvnitř  podniku)  X  vnější  (propojení  podniku  s okolím)
 
-### Nedostatky  v  komunikaci
+## Nedostatky  v  komunikaci
 
 - **sdělovatel**
 

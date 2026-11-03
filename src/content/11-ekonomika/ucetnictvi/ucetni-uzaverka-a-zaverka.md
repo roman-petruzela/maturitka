@@ -1,6 +1,6 @@
 ---
 title: "Účetní uzávěrka a závěrka"
-order: 17
+order: 31
 source: "Účetnictví/17. Účetní uzávěrka a závěrka.docx"
 ---
 17\. Účetní uzávěrka a závěrka

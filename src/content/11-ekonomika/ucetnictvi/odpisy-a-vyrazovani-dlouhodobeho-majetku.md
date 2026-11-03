@@ -1,6 +1,6 @@
 ---
 title: "Odpisy a vyřazování dlouhodobého majetku"
-order: 5
+order: 9
 source: "Účetnictví/5. Odpisy a vyřazování dlouhodobého majetku.docx"
 ---
 5\. Odpisy a vyřezování dlouhodobého majetku

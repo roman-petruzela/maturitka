@@ -1,6 +1,6 @@
 ---
 title: "Podnikání v České republice Dokumenty Google"
-order: 12
+order: 23
 source: "Účetnictví/12. Podnikání v České republice - Dokumenty Google.pdf"
 ---
 ## 1.1  Právní  předpisy  upravující  podnikání  v  České  republice

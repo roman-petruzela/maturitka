@@ -1,6 +1,6 @@
 ---
 title: "Právní úprava účetnictví Dokumenty Google"
-order: 1
+order: 2
 source: "Účetnictví/1. Právní úprava účetnictví - Dokumenty Google.pdf"
 ---
 ## Význam  a  funkce  účetnictví

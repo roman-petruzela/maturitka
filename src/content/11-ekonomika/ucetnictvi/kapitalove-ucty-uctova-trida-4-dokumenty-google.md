@@ -1,6 +1,6 @@
 ---
 title: "Kapitálové účty (účtová třída 4) Dokumenty Google"
-order: 6
+order: 11
 source: "Účetnictví/6. Kapitálové účty (účtová třída 4) - Dokumenty Google.pdf"
 ---
 - 4.  účtová  třída

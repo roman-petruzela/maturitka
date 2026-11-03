@@ -1,6 +1,6 @@
 ---
 title: "Daňová evidence příjmů a výdajů"
-order: 20
+order: 35
 source: "Účetnictví/20. Daňová evidence příjmů a výdajů.docx"
 ---
 20\. Daňová evidence příjmů a výdajů

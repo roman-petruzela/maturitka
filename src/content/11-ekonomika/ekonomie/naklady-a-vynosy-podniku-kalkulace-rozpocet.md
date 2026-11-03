@@ -1,6 +1,6 @@
 ---
 title: "Náklady a výnosy podniku, kalkulace, rozpočet"
-order: 14
+order: 27
 source: "Ekonomie/14. Náklady a výnosy podniku, kalkulace, rozpočet.docx"
 ---
 14\. Náklady a výnosy podniku, kalkulace a rozpočet

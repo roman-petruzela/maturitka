@@ -1,6 +1,6 @@
 ---
 title: "Zásobování podniku"
-order: 12
+order: 23
 source: "Ekonomie/12. Zásobování podniku.docx"
 ---
 12\. Zásobování podniku

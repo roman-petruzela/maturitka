@@ -1,27 +1,27 @@
 ---
 title: "Financování a finanční řízení podniku Dokumenty Google"
-order: 15
+order: 27
 source: "Účetnictví/15. Financování a finanční řízení podniku - Dokumenty Google.pdf"
 ---
 **financování  podniku** =  činnost,  při  které  dochází  k  tvorbě,  rozdělování  a  užití  finančních zdrojů.
 
-### Druhy:
+## Druhy:
 
 <u>1.  financování  běžné  -  zajišťování  a  vynakládání  peněz  na  běžný  provoz  podniku  (nákup</u> materiálu,  paliva,  energie,  výplatu  mezd  a  platů,  placení  nájemného,  přepravného,  splácení kr.  závazků,  placení  daní  a  úhrada  jiných  výdajů)
 
-### <u>2.  financování  mimořádné</u>
+## <u>2.  financování  mimořádné</u>
 
 <u>a)  při  základní  podniku  -  zajištění  peněz  na  pořízení  pozemků,  budov,  strojů,  zásob  surovin  a</u> materiálů  a  částek  na  mzdy  a  platy  do  doby,  než  začne  příliv  peněz  ve  formě  tržeb <u>b)  při  rozšiřování  podniku  a  jeho  aktivit  -  nákup  dalšího  výrobního  zařízení,  nákup  podílů</u> jiných  podniků,  státních  a  podnikových  obligací  (závazek  vydavatele  vyplácet  ve stanovených  termínech  dohodnutý  úrok  a  na  konci  splatnosti  vrátit  investorovi  vloženou částku)
 
 <u>c)  při  spojování  podniku  a  sanaci  (</u> **SANACE** =  obnova  prosperity,  finanční  injekce)
 
-### <u>d)  při  likvidaci  podniku</u>
+## <u>d)  při  likvidaci  podniku</u>
 
 Podstatou  financování  a  finančního  řízení  je  neustálé  usměrňování,  aby  byla  co  nejvýhodnější struktura  kapitálu  a  majetku.
 
 <u>Předmět  finančního  řízení  -  finanční  operace,  které  spočívají  ve  výhodném  získávání</u> finančních  prostředků  a  jejich  účelném  a  hospodárném  investování
 
-### 3  Faktory  ovlivňující  financování  a  finanční  řízení:
+## 3  Faktory  ovlivňující  financování  a  finanční  řízení:
 
 <u>1)  faktor  času  -  dnešní  rozhodnutí  ovlivní  tok  peněz  v  podniku  v  dalším  období</u>
 
@@ -29,7 +29,7 @@ Podstatou  financování  a  finančního  řízení  je  neustálé  usměrňov
 
 <u>3)  faktor  rizika  -  je  spojen  s  výběrem  možných  variant,  zpravidla  menší  riziko  přináší  menší</u> zisk
 
-### Příčiny  rizika:
+## Příčiny  rizika:
 
 <u>a)  vnější  -  např.  přírodní  katastrofy,  hospodářské  krize,  inflace</u>
 

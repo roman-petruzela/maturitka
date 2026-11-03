@@ -1,6 +1,6 @@
 ---
 title: "Krátkodobý finanční majetek a krátkodobé bankovní úvěry"
-order: 8
+order: 14
 source: "Účetnictví/8. Krátkodobý finanční majetek a krátkodobé bankovní úvěry.docx"
 ---
 8\. Krátkodobý finanční majetek a krátkodobé bankovní úvěry

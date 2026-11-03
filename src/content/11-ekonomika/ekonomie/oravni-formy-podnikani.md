@@ -1,6 +1,6 @@
 ---
 title: "Orávní formy podnikání"
-order: 23
+order: 43
 source: "Ekonomie/23. Orávní formy podnikání.odt"
 ---
 Dělí se na: 	1\) Státní

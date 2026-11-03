@@ -1,6 +1,6 @@
 ---
 title: "Podnikání fyzických osob"
-order: 4
+order: 8
 source: "Ekonomie/4. Podnikání fyzických osob.docx"
 ---
 4\. Podnikání fyzických osob

@@ -1,6 +1,6 @@
 ---
 title: "Individuální podnikatel"
-order: 21
+order: 37
 source: "Účetnictví/21. Individuální podnikatel.docx"
 ---
 21\. Individuální podnikatel

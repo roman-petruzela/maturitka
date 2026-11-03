@@ -1,6 +1,6 @@
 ---
 title: "Věcné právo Dokumenty Google"
-order: 26
+order: 45
 source: "Účetnictví/26. Věcné právo - Dokumenty Google.pdf"
 ---
 ## Základní  vymezení  věcí  a  majetku

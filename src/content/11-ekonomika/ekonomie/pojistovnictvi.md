@@ -1,6 +1,6 @@
 ---
 title: "Pojišťovnictví"
-order: 9
+order: 17
 source: "Ekonomie/9. Pojišťovnictví.docx"
 ---
 9\. Pojišťovnictví

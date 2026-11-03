@@ -1,6 +1,6 @@
 ---
 title: "Vedení, organizování Dokumenty Google"
-order: 19
+order: 33
 source: "Účetnictví/19. Vedení, organizování - Dokumenty Google.pdf"
 ---
 ## Motivace

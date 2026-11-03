@@ -1,6 +1,6 @@
 ---
 title: "Obcanske pravo"
-order: 7
+order: 14
 source: "Ekonomie/7.-obcanske-pravo.docx"
 ---
 =Nejrozsáhlejší odvětví našeho právního řádu

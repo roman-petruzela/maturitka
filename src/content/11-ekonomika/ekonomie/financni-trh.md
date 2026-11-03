@@ -1,6 +1,6 @@
 ---
 title: "Finanční trh"
-order: 3
+order: 5
 source: "Ekonomie/3.-Finanční-trh.docx"
 ---
 3\. Finanční trh

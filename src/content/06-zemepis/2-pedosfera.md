@@ -1,6 +1,6 @@
 ---
 title: "Pedosféra"
-order: 6
+order: 7
 source: "Zeměpis/Zeměpis GLP/6.2 PEDOSFÉRA.docx"
 ---
 = půdní obal Země

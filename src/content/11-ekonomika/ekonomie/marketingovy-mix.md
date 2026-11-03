@@ -1,6 +1,6 @@
 ---
 title: "Marketingový mix"
-order: 5
+order: 9
 source: "Ekonomie/5.-Marketingový-mix.docx"
 ---
 __Marketingový mix__

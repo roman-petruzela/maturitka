@@ -1,6 +1,6 @@
 ---
 title: "Účetní závěrka a hospodářský výsledek Dokumenty Google"
-order: 9
+order: 17
 source: "Účetnictví/9. Účetní závěrka a hospodářský výsledek - Dokumenty Google.pdf"
 ---
 ## Účetní  závěrka

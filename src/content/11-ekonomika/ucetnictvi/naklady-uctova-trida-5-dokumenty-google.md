@@ -1,6 +1,6 @@
 ---
 title: "Náklady (účtová třída 5) Dokumenty Google"
-order: 7
+order: 13
 source: "Účetnictví/7. Náklady (účtová třída 5) - Dokumenty Google.pdf"
 ---
 - sledování  nákladů  je  pro  každý  podnikatelský  subjekt  velmi  důležité
@@ -19,9 +19,9 @@ source: "Účetnictví/7. Náklady (účtová třída 5) - Dokumenty Google.pdf"
 
 - výdaj  (opravdu  mi  ubydou  peníze),  náklad  (vzniká  v  okamžiku  spotřeby)
 
-### Členění  nákladů
+## Členění  nákladů
 
-### 1.  Podle  nákladových  druhů
+## 1.  Podle  nákladových  druhů
 
 - z  hlediska  účetnictví  je  toto  členění  nejdůležitější
 
@@ -29,7 +29,7 @@ source: "Účetnictví/7. Náklady (účtová třída 5) - Dokumenty Google.pdf"
 
 - takto  je  členěná  celá  5.  účtová  třída
 
-### 2.  Účetní  a  daňové
+## 2.  Účetní  a  daňové
 
 - z  hlediska  správného  stanovení  základu  daně  z  příjmu  rozlišujeme  náklady  účetní  a  daňové
 
@@ -49,7 +49,7 @@ source: "Účetnictví/7. Náklady (účtová třída 5) - Dokumenty Google.pdf"
 
 - placené  pokuty  a  penále,  atd.
 
-### 3.  Provozní,  finanční  a  mimořádné
+## 3.  Provozní,  finanční  a  mimořádné
 
 - toto  členění  je  podle  sestavování  HV
 
@@ -61,17 +61,17 @@ source: "Účetnictví/7. Náklady (účtová třída 5) - Dokumenty Google.pdf"
 
 - dnes  se  tyto  účty  nedoporučuje  moc  používat
 
-### 4.  V  závislosti  na  objemu  výkonů
+## 4.  V  závislosti  na  objemu  výkonů
 
 - fixní  (relativně  stálé  a  neměnné;  především  odpisy)
 
 - variabilní  (proměnlivé;  mění  se  s  objemem  produkce  -  spotřeba  materiálu)
 
-### 5.  Podle  místa  vzniku
+## 5.  Podle  místa  vzniku
 
 -  uplatňuje  se  zejména  ve  vnitropodnikovém  účetnictví,  kdy  si  firmy  sledují  nákladovost hospodářských  středisek  nebo  výrobků
 
-### 6.  Přímé  a  nepřímé  náklady
+## 6.  Přímé  a  nepřímé  náklady
 
 -  členění  nákladů  na  jednotku,  kus  ....
 

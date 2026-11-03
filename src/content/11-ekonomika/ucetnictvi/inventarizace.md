@@ -1,6 +1,6 @@
 ---
 title: "Inventarizace"
-order: 3
+order: 5
 source: "Účetnictví/3. Inventarizace.docx"
 ---
 3\. Inventarizace

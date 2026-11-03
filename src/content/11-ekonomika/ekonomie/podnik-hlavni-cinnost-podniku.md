@@ -1,6 +1,6 @@
 ---
 title: "Podnik hlavní činnost podniku"
-order: 3
+order: 6
 source: "Ekonomie/3. Podnik - hlavní činnost podniku.docx"
 ---
 3\. Podnik – hlavní činnost podniku

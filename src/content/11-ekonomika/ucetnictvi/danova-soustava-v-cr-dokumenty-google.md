@@ -1,6 +1,6 @@
 ---
 title: "Daňová soustava v ČR Dokumenty Google"
-order: 11
+order: 20
 source: "Účetnictví/11. Daňová soustava v ČR - Dokumenty Google.pdf"
 ---
 ## Obecná  charakteristika,  podstata  a  principy  zdanění

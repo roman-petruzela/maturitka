@@ -1,6 +1,6 @@
 ---
 title: "Základní ekonomické pojmy, ekonomické systémy, fungování tržního mechanismu"
-order: 10
+order: 20
 source: "Ekonomie/10. Základní ekonomické pojmy, ekonomické systémy, fungování tržního mechanismu.docx"
 ---
 10\. Základní ekonomické pojmy, ekonomické systémy, fungování tržního mechanismu
@@ -181,7 +181,7 @@ __Faktory ovlivňující poptávku__
 
 = cílevědomá lidská činnost, kterou člověk získává statky a služby k uspokojování potřeb
 
-### Druhy prací
+## Druhy prací
 
 - Fyzická (truhlář) __X__ duševní (vědec)
 - Jednoduchá (pokladní) __X__ složitá (dělník)

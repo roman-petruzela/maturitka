@@ -1,6 +1,6 @@
 ---
 title: "Živnostenské podnikání, obchodní společnosti Dokumenty Google"
-order: 13
+order: 24
 source: "Účetnictví/13. Živnostenské podnikání, obchodní společnosti - Dokumenty Google.pdf"
 ---
 ## 1.  Živnostenské  podnikání

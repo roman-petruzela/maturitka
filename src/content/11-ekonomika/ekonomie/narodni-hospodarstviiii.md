@@ -1,6 +1,6 @@
 ---
 title: "Národní hospodářstviiii"
-order: 20
+order: 37
 source: "Ekonomie/20.-Národní-hospodářstviiii.docx"
 ---
 - souhrn ekonomických činnosti a subjektů na území jednoho státu

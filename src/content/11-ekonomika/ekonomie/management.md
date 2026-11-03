@@ -1,6 +1,6 @@
 ---
 title: "Management"
-order: 16
+order: 30
 source: "Ekonomie/16. Management.docx"
 ---
 16\. Management

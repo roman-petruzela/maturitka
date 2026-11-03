@@ -1,6 +1,6 @@
 ---
 title: "Výnosy a hospodářský výsledek"
-order: 14
+order: 26
 source: "Účetnictví/14. Výnosy a hospodářský výsledek.docx"
 ---
 14\. Výnosy a hospodářský výsledek

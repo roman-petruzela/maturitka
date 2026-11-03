@@ -1,6 +1,6 @@
 ---
 title: "Politická mapa světa"
-order: 11
+order: 12
 source: "Zeměpis/Zeměpis GLP/11. POLITICKÁ MAPA SVĚTA.docx"
 ---
 - __196 nezávislých států a 27 závislých území__

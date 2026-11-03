@@ -1,6 +1,6 @@
 ---
 title: "Podnik"
-order: 6
+order: 12
 source: "Ekonomie/6. Podnik.odt"
 ---
 PODNIK

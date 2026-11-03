@@ -1,6 +1,6 @@
 ---
 title: "Základní ekonomické pojmy"
-order: 1
+order: 2
 source: "Ekonomie/1. Základní-ekonomické-pojmy.docx"
 ---
 
@@ -14,14 +14,14 @@ __Makroekonomie__ – zabývá se hospodářskými vztahy na úrovni národního
 
 __Mikroekonomie__ – zabývá se hospodářskými vztahy jednotlivých subjektů v národním hospodářství (stát, firmy, domácnosti)
 
-### __Potřeby__
+## __Potřeby__
 
 - vrozený či získaný pocit nedostatku nebo nadbytku, který se snažíme odstranit
 - neustále se vyvíjí, nelze je zcela nikdy uspokojit
 - individuálně se liší podle: věku, pohlaví, vzdělání, zájmů…
 - nikdy je nelze zcela uspokojit
 
-#### Členění potřeb:
+### Členění potřeb:
 
 1. __Biologické__ – důležité pro život člověka, např.: spát, jíst, dýchat
 
@@ -236,7 +236,7 @@ B) __V__ __domácnosti__ – KONEČNÁ SPOTŘEBA
 
 - stupeň uspokojování potřeb a podmínky, za kterých jsou uspokojovány
 
-##### Součástí ŽÚ:
+### Součástí ŽÚ:
 
 1. __Osobní__ __spotřeba__ – dle reálných mezd = množství statků a služeb, které lze za mzdu koupit
 2. __Spotřeba__ __firem__
@@ -251,7 +251,7 @@ B) __V__ __domácnosti__ – KONEČNÁ SPOTŘEBA
 - ovlivňuje ŽÚ
 - ŽP je souhrn všech vnějších vlivů (přírodních i kulturních), které jedince obklopují a umožnují mu podmínky k životu
 
-##### Základní složky ŽP:
+### Základní složky ŽP:
 
 - __Ovzduší__
 - __Půda__
@@ -264,7 +264,7 @@ B) __V__ __domácnosti__ – KONEČNÁ SPOTŘEBA
 
 - zvláštní druh zboží, všeobecný ekvivalent
 
-##### Vlastnosti peněz:
+### Vlastnosti peněz:
 
 1\. __Snadno dělitelné__ – peníze jsou různých hodnot s jednoduchým přepočtem
 
@@ -276,14 +276,14 @@ B) __V__ __domácnosti__ – KONEČNÁ SPOTŘEBA
 
 - mince se razí v Jablonci
 
-##### Funkce peněz:
+### Funkce peněz:
 
 1. __Prostředek__ __směny__ = usnadňují směnu služeb a zboží
 2. __Oběživo__ = obíhají mezi subjekty trhu
 3. __Slouží jako zúčtovací jednotka__ = pomocí nich umíme vyjádřit hodnotu jakéhokoli produk**tu**
 4. __Tezaurace__ = slouží k hromadění a je možné je použít i v budoucnu (INFLACE)
 
-##### Ochranné prvky bankovek:
+### Ochranné prvky bankovek:
 
 1. __Vodoznak__
 2. __Okénkový proužek s mikrotextem__

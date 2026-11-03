@@ -1,11 +1,11 @@
 ---
 title: "Hospodaření podniku"
-order: 24
+order: 44
 source: "Ekonomie/24-Hospodaření-podniku.docx"
 ---
 24\. Hospodaření podniku
 
-### Náklady
+## Náklady
 
 - oceněné vstupy do výroby
 - účtová třída 5
@@ -40,7 +40,7 @@ zásady účtování:
 3. zásada věcné a časové souvislosti – účtujeme je v tom období, ve kterém vznikli, a se kterými souvisí
 4. zásada uzavřenosti – účtujeme Náklady a Výnosy, které se týkají účetní jednotky
 
-### Výnosy
+## Výnosy
 
 - oceněné výstupy z výroby
 - účtová třída 6

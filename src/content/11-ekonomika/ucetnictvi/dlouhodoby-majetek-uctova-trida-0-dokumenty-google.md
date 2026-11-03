@@ -1,6 +1,6 @@
 ---
 title: "Dlouhodobý majetek (účtová třída 0) Dokumenty Google"
-order: 2
+order: 3
 source: "Účetnictví/2. Dlouhodobý majetek (účtová třída 0) - Dokumenty Google.pdf"
 ---
 ## Dlouhodobý  majetek

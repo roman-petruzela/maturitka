@@ -1,6 +1,6 @@
 ---
 title: "Investiční činnost, leasing"
-order: 13
+order: 24
 source: "Ekonomie/13. investiční činnost, leasing.docx"
 ---
 __Investiční činnost__ = vložení kapitálu na nákup potřebného DHM a DNM i do nákupu cenných papírů

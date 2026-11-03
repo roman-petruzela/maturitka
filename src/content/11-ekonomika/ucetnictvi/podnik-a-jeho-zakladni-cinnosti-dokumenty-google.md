@@ -1,6 +1,6 @@
 ---
 title: "Podnik a jeho základní činnosti Dokumenty Google"
-order: 14
+order: 25
 source: "Účetnictví/14. Podnik a jeho základní činnosti - Dokumenty Google.pdf"
 ---
 ## Hlavní  činnost  podniku

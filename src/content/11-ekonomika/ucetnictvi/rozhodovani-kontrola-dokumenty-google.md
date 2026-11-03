@@ -1,6 +1,6 @@
 ---
 title: "Rozhodování, kontrola Dokumenty Google"
-order: 21
+order: 38
 source: "Účetnictví/21. Rozhodování, kontrola - Dokumenty Google.pdf"
 ---
 ## Rozhodování  a  princip  volby

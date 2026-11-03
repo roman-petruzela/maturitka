@@ -1,6 +1,6 @@
 ---
 title: "Zasobovani"
-order: 8
+order: 16
 source: "Ekonomie/8-Zasobovani.docx"
 ---
 8\. Zásobování a skladování ve VS
@@ -44,7 +44,7 @@ způsob objednání:
 - obchodní zástupce
 - výběr podle vzorků
 
-### Optimalizace zásob
+## Optimalizace zásob
 
 = kdy a kolik objednat
 
@@ -85,12 +85,12 @@ d … počet dní (30 – měsíc, 90 – čtvrtletí, 360 – rok), (normativ z
 
 c … cena (finanční normativ zásob)
 
-### Odběr
+## Odběr
 
 - provádí pověřena osoba společně s dodavatelem a kontroluje se pouze počet kusu a neporušenost obalu
 - pokud to odpovídá, podepíše se dodací list, pokud ne zboží se nesmí převzít a sepisuje se zápis o vadách
 
-### Přejímka
+## Přejímka
 
 - následuje po odběru a provádí ji skladník
 - kontroluje počet, objem, hmotnost, vzhled, vůni, barvu, chuť a záruční lhůtu

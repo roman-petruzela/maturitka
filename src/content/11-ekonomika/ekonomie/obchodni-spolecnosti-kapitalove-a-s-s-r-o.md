@@ -1,6 +1,6 @@
 ---
 title: "Obchodní společnosti kapitálové a. s., s. r. o."
-order: 22
+order: 41
 source: "Ekonomie/22. Obchodní společnosti kapitálové - a. s., s. r. o..docx"
 ---
 22\. Obchodní společnosti kapitálové

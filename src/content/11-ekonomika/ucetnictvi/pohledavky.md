@@ -1,6 +1,6 @@
 ---
 title: "Pohledávky"
-order: 10
+order: 19
 source: "Účetnictví/10. Pohledávky.docx"
 ---
 10\. Pohledávky

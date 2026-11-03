@@ -1,6 +1,6 @@
 ---
 title: "Zásoby materiálu a zboží"
-order: 6
+order: 12
 source: "Účetnictví/6. Zásoby materiálu a zboží.docx"
 ---
 6\. Zásoby materiálu a zboží

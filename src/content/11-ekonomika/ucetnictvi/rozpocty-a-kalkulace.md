@@ -1,6 +1,6 @@
 ---
 title: "Rozpočty a kalkulace"
-order: 18
+order: 32
 source: "Účetnictví/18. Rozpočty a kalkulace.docx"
 ---
 18\. Rozpočty a kalkulace

@@ -1,6 +1,6 @@
 ---
 title: "Hospodaření podniku s dlouhodobým majetkem"
-order: 11
+order: 21
 source: "Ekonomie/11. Hospodaření podniku s dlouhodobým majetkem.docx"
 ---
 11\. Hospodaření podniku s dlouhodobým majetkem

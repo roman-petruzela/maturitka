@@ -1,6 +1,6 @@
 ---
 title: "Majetek inventarizace"
-order: 14
+order: 26
 source: "Ekonomie/14.-majetek-inventarizace.doc"
 ---
 __Majtek podniku, inventarizace__

@@ -1,6 +1,6 @@
 ---
 title: "Vnitropodnikové účetnictví"
-order: 19
+order: 34
 source: "Účetnictví/19. Vnitropodnikové účetnictví.docx"
 ---
 19\. Vnitropodnikové účetnictví

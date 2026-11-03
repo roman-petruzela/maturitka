@@ -1,10 +1,10 @@
 ---
 title: "Austrálie a Oceánie"
-order: 14
+order: 15
 source: "Zeměpis/Zeměpis GLP/14. Austrálie a Oceánie.docx"
 ---
 
-### Austrálie
+## Austrálie
 
 - nejmenší kontinent
 - rozloha 9 000 00 km s Oceánií 10 000
@@ -60,13 +60,13 @@ source: "Zeměpis/Zeměpis GLP/14. Austrálie a Oceánie.docx"
 - 1901 vyhlášena federace Australský svaz – uznání královny VB, rozdělení na 6 států a 2 teritoria
 - 1911 \- 3 teritoria
 
-### Teritoria
+## Teritoria
 
 1. Severní teritorium – Darwin
 2. Teritorium hlavního města \- Canberra
 3. Teritorium Jervisova zátoka
 
-### Spolkové státy
+## Spolkové státy
 
 - Jižní Austrálie – Adelaide
 - NB: měď, železná ruda
@@ -96,7 +96,7 @@ source: "Zeměpis/Zeměpis GLP/14. Austrálie a Oceánie.docx"
 - severozápad – bavlna a cukr\. třtina
 - jihovýchod a jihozápad – obilniny, vinná réva, citrusy
 
-###  Oceánie
+##  Oceánie
 
 - oblast v Tichém oceánu s velkým množstvím ostrovů
 - rovníkové, tropické a subtropické podnebí
@@ -106,7 +106,7 @@ source: "Zeměpis/Zeměpis GLP/14. Austrálie a Oceánie.docx"
 - korálové – na sopečných ostrovech se usadí korály \(např\. Mururoa, Guam, Pagan\)
 - 3 regiony: Mikronésie, Polynésie, Malanésie
 
-#### Melanésie
+### Melanésie
 
 - Nová Guniea, Nová Kaledonie, Šalamounovy ostrovy, Vanuatu, Fidži, Bismarckovo soustroví, Moluky
 - ostrovy všech typů
@@ -119,7 +119,7 @@ source: "Zeměpis/Zeměpis GLP/14. Austrálie a Oceánie.docx"
 - tropické plodiny
 - barevné kovy, vzácná dřeva
 
-#### Mikronésie
+### Mikronésie
 
 - Marshallovy ostrovy, Karolíny, Mariany, Gilbertovy ostrovy, Palau, Nauru
 - tropický vlhký až subtropický pás
@@ -128,14 +128,14 @@ source: "Zeměpis/Zeměpis GLP/14. Austrálie a Oceánie.docx"
 - cestovní ruch, zemědělství
 - sopečné a korálové o\.
 
-#### Polynésie
+### Polynésie
 
 - Havajské ostrovy, Markézy, soustroví Tubuai, Cookovy ostrovy, NZ, Samoa, Velikonoční ostrov, Francouzská Polynésie, Tonga, Tuvalu, Kermadekovy ostrovy
 - tropické oceánské klima
 - cestovní ruch, zemědělství
 - tropické plodiny
 
-#### Závislá území
+### Závislá území
 
 \-USA: Americká Samoa, Guam, Havajské ostrovy, Severní Mariany
 
@@ -149,7 +149,7 @@ source: "Zeměpis/Zeměpis GLP/14. Austrálie a Oceánie.docx"
 
 \-Chille: Velikonoční ostrovy
 
-### Nový Zéland
+## Nový Zéland
 
 - oblast Polynésie
 - jižní a severní ostrov, odděluje je Cookův průliv

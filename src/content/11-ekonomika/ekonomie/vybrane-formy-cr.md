@@ -1,6 +1,6 @@
 ---
 title: "Vybrané formy CR"
-order: 29
+order: 49
 source: "Ekonomie/29. vybrané formy CR.docx"
 ---
 __Vybrané formy cestovního ruchu__

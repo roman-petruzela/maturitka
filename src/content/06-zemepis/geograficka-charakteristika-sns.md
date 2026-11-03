@@ -1,6 +1,6 @@
 ---
 title: "Geografická charakteristika sns"
-order: 19
+order: 20
 source: "Zeměpis/Zeměpis GLP/19. Geografická charakteristika sns.docx"
 ---
 ## 19. Geologická charakteristika SNS

@@ -1,6 +1,6 @@
 ---
 title: "Závazky"
-order: 11
+order: 21
 source: "Účetnictví/11. Závazky.docx"
 ---
 11\. Závazky

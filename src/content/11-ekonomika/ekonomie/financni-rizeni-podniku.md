@@ -1,6 +1,6 @@
 ---
 title: "Finanční řízení podniku"
-order: 15
+order: 28
 source: "Ekonomie/15. Finanční řízení podniku.docx"
 ---
 15\. Finanční řízení podniku

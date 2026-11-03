@@ -1,6 +1,6 @@
 ---
 title: "Marketing"
-order: 17
+order: 32
 source: "Ekonomie/17. Marketing.docx"
 ---
 17\. Marketing

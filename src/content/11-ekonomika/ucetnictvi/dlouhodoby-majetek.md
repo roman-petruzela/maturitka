@@ -1,6 +1,6 @@
 ---
 title: "Dlouhodobý majetek"
-order: 4
+order: 7
 source: "Účetnictví/4. Dlouhodobý majetek.docx"
 ---
 4\. Dlouhodobý majetek

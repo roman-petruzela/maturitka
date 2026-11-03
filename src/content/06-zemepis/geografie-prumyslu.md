@@ -1,6 +1,6 @@
 ---
 title: "Geografie průmyslu"
-order: 9
+order: 10
 source: "Zeměpis/Zeměpis GLP/9. GEOGRAFIE PRŮMYSLU.docx"
 ---
 ## 9\. Geografie průmyslu – sekundární sektor

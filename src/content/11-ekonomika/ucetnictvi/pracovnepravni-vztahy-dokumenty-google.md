@@ -1,6 +1,6 @@
 ---
 title: "Pracovněprávní vztahy Dokumenty Google"
-order: 22
+order: 39
 source: "Účetnictví/22. Pracovněprávní vztahy - Dokumenty Google.pdf"
 ---
 ## Právní  předpisy  upravující  výkon  práce

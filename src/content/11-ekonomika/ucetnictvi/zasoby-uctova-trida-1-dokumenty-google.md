@@ -1,6 +1,6 @@
 ---
 title: "Zásoby (účtová třída 1) Dokumenty Google"
-order: 3
+order: 6
 source: "Účetnictví/3. Zásoby (účtová třída 1) - Dokumenty Google.pdf"
 ---
 - zásoby  jsou  oběžným  majetkem  účetní  jednotky,  ve  výrobním  procesu  mění  svoji  podobu
@@ -15,7 +15,7 @@ source: "Účetnictví/3. Zásoby (účtová třída 1) - Dokumenty Google.pdf"
 
 Do  zásob  patří:
 
-### Materiál
+## Materiál
 
 <u>a)  suroviny  a  základní  materiál  -  vstupují  do  výrobků  a  tvoří  jejich  podstatu  (mouky,</u> dřevo)
 

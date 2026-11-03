@@ -1,6 +1,6 @@
 ---
 title: "Odbyt ve VS"
-order: 10
+order: 19
 source: "Ekonomie/10-Odbyt-ve-VS.docx"
 ---
 10\. Odbyt ve VS
@@ -183,7 +183,7 @@ druhy cen:
 12. __poštovné__ – cena za odeslání dopisu, balíku, …
 13. __nájemné__ – cena za bydlení
 
-#### Cenová kalkulace
+### Cenová kalkulace
 
 - rozpočítává náklady na jednotku výkonu \(10porcí\)
 - provádí se na kalkulačním listě
