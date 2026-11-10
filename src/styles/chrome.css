@@ -104,7 +104,17 @@ nav.subject-nav a.active {
 }
 
 /* ── Rámce stránky ───────────────────────────────────────────────────── */
+/* A short page keeps the footer at the bottom of the window: the body is a column, <main> takes the rest. */
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100dvh;
+}
+
 main {
+	flex: 1 0 auto;
+	width: 100%;
+	box-sizing: border-box;
 	max-width: var(--shell-prose);
 	margin: 0 auto;
 	padding: 2.5rem 1.5rem 5rem;
