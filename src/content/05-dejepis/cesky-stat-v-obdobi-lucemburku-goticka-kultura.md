@@ -3,8 +3,6 @@ title: "Český stát v období Lucemburků, gotická kultura"
 order: 9
 source: "Dějepis/09.Český stát v období Lucemburků, gotická kultura.doc"
 ---
-9\.
-
 - okolnosti nástupu na trůn → panovník vs. šlechta
 - inaugurační diplom atd.
 

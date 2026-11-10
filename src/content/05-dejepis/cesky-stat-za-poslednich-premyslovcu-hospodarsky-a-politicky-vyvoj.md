@@ -3,8 +3,6 @@ title: "Český stát za posledních Přemyslovců hospodářský a politický v
 order: 8
 source: "Dějepis/08.Český stát za posledních Přemyslovců - hospodářský a politický vývoj.doc"
 ---
-8\.
-
 Český stát za vlády posledních Přemyslovců – hospodářský a politický vývoj
 
 Ještě před tím stojí za zmínku : __Vladislav I.__ ( 1115 – 1125 ) – jako první č.panovník měl právo podílet se na volbě řím.krále.

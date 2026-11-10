@@ -3,8 +3,6 @@ title: "Antická kultura, počátky křesťanství"
 order: 4
 source: "Dějepis/04.antická kultura, počátky křesťanství.doc"
 ---
-4\.
-
 ## Antická kultura, historické kořeny křesťanství
 
 ### Antiquus – starobylý

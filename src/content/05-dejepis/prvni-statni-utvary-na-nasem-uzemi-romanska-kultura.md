@@ -3,8 +3,6 @@ title: "První státní útvary na našem území, románská kultura"
 order: 6
 source: "Dějepis/06.První státní útvary na našem území, románská kultura.doc"
 ---
-6\.
-
 ## První státní útvary na našem území
 
 __Slované__ : Pocházejí z oblasti za Karpatami, přibližně __mezi Vislou a Dněprem__ ( původní pravlast Slovanů je pravděpodobně sever Indie ).Z tohoto období od nich nejsou __žádné písemné prameny__.

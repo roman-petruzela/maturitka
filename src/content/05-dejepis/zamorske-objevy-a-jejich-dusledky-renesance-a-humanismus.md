@@ -3,8 +3,6 @@ title: "Zámořské objevy a jejich důsledky, renesance a humanismus"
 order: 10
 source: "Dějepis/10.Zámořské objevy a jejich důsledky, renesance a humanismus.doc"
 ---
-10\.
-
 Zámořské objevy a jejich důsledky, humanismus a renesance
 
 - od konce 15.stol. do pol. 16.stol.

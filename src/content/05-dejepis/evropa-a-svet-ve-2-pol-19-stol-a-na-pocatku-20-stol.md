@@ -3,8 +3,6 @@ title: "Evropa a svět ve 2.pol.19.stol. a na počátku 20.stol"
 order: 22
 source: "Dějepis/22.Evropa a svět ve 2.pol.19.stol. a na počátku 20.stol.doc"
 ---
-22\.
-
 Evropa a svět ve druhé pol\.19\.stol\. a na počátku 20\.stol\.
 
 Bachovský absolutismus :

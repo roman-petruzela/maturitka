@@ -3,8 +3,6 @@ title: "Západní Evropa v 16.st., reformace a protireformace"
 order: 13
 source: "Dějepis/13.Západní Evropa v 16.st., reformace a protireformace.doc"
 ---
-13\.
-
 ## Evropská reformace
 
 ### Re\-formatio =přetvoření, obnovení, náprava

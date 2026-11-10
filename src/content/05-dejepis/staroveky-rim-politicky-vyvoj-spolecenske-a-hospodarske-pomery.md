@@ -3,8 +3,6 @@ title: "Starověký Řím politický vývoj, společenské a hospodářské pom�
 order: 3
 source: "Dějepis/03.Starověký Řím - politický vývoj, společenské a hospodářské poměry.doc"
 ---
-3\.
-
 Starověký Řím – politický vývoj, společenské a hospodářské poměry
 
 Starověký Řím :

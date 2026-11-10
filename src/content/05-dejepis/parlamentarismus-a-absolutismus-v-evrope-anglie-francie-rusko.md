@@ -3,8 +3,6 @@ title: "Parlamentarismus a absolutismus v Evropě – Anglie, Francie, Rusko"
 order: 16
 source: "Dějepis/16.Parlamentarismus a absolutismus v Evropě – Anglie, Francie, Rusko.doc"
 ---
-16\.
-
 Parlamentarismus a absolutismus v Evropě – Anglie, Francie, Rusko
 
 V Evropě v polovině 17.stol. existovaly dva základní typy států :

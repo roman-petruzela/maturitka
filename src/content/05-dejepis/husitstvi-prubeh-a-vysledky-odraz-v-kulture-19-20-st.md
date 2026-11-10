@@ -3,8 +3,6 @@ title: "Husitství průběh a výsledky, odraz v kultuře 19. 20.st."
 order: 12
 source: "Dějepis/12.Husitství - průběh a výsledky, odraz v kultuře 19.-20.st..doc"
 ---
-12\.
-
 Husitství – průběh a výsledky, odraz v kultuře 19\.–20\.st\.
 
 - upálení Jana Husa

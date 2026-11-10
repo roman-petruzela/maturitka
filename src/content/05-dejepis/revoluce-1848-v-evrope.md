@@ -3,8 +3,6 @@ title: "Revoluce 1848 v Evropě"
 order: 20
 source: "Dějepis/20.revoluce 1848 v Evropě.doc"
 ---
-20\.
-
 __Příčiny buržoazní revoluce__ :  - zostřování sociálních a politických problémů
 
  - neúroda v předešlých letech → chudoba, hlad → __krize v zemědělství__ → chudí na straně buržoazie ( vysoká nezaměstnanost )

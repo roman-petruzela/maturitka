@@ -3,8 +3,6 @@ title: "Vznik Československa, problémy nově vzniklého státu"
 order: 24
 source: "Dějepis/24.Vznik Československa, problémy nově vzniklého státu.doc"
 ---
-24\.
-
 __Češi a Slováci v 1.světové válce :__
 
 - uzavřeny sněmy jednotlivých zemí

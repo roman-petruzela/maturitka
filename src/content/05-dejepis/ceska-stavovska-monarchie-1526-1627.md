@@ -3,8 +3,6 @@ title: "Česká stavovská monarchie (1526 1627)"
 order: 14
 source: "Dějepis/14.česká stavovská monarchie (1526-1627).doc"
 ---
-14\.
-
 Česká stavovská monarchie – boj o charakter státu
 
 ( 1526 – 1627 )

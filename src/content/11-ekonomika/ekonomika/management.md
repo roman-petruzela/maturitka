@@ -13,17 +13,9 @@ source: "Ekonomika/24. Management.docx"
 1. __Řízení__ = řídící složka \(mistr\) dává příkazy řízené složce \(dělník\); řízená složka oznamuje o splnění úkolu \(ideální\)	; vzájemně společně řeší plnění úkolu \(zpětná vazba\)
 2. __Vychází ze společenských a přírodních věd__
 3. __Vždy musí vystupovat osoby, které se označují jako manažeři__
-4. __TOP management__ = vrcholná úroveň řízení \(ředitel, majitel, premiér\) určuje obecné cíle na dlouhé období
-
-1\.
-
-1. __Střední linie řízení__ = manažeři, vedoucí úseku, kteří rozpracovávají úkoly TOP pro svůj úsek
-
-2\.
-
-1. __Základní linie řízení__ = mistři, vedoucí nejmenších úseků; řeší konkrétní úkoly na svém pracovišti
-
-3\.
+	1. __TOP management__ = vrcholná úroveň řízení \(ředitel, majitel, premiér\) určuje obecné cíle na dlouhé období
+	2. __Střední linie řízení__ = manažeři, vedoucí úseku, kteří rozpracovávají úkoly TOP pro svůj úsek
+	3. __Základní linie řízení__ = mistři, vedoucí nejmenších úseků; řeší konkrétní úkoly na svém pracovišti
 
 - Čím jdeme blíže k základně, tím jsou úkoly konkrétnější a obrácené jsou obecnější
 - Každá pracovní skupina musí mít formálního vedoucího, kterého jmenuje ředitel, majitel…

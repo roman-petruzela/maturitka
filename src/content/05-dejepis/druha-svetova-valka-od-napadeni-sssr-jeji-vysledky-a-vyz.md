@@ -3,8 +3,6 @@ title: "Druhá světová válka od napadení SSSR, její výsledky a výz"
 order: 28
 source: "Dějepis/28.Druhá světová válka od napadení SSSR, její výsledky a výz.doc"
 ---
-28\.
-
 Druhá světová válka od napadení SSSR, její výsledky a význam
 
 __Operace Barbarossa__

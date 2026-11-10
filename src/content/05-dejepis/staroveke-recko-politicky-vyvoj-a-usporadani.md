@@ -3,8 +3,6 @@ title: "Starověké Řecko politický vývoj a uspořádání"
 order: 2
 source: "Dějepis/02.Starověké Řecko - politický vývoj a uspořádání.doc"
 ---
-2\.
-
 __Předřecké civilizace :__
 
 1\.Starověká Kréta

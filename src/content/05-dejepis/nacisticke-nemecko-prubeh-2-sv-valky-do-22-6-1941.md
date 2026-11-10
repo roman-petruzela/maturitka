@@ -3,8 +3,6 @@ title: "Nacistické Německo, průběh 2.sv.války do 22.6.1941"
 order: 27
 source: "Dějepis/27.Nacistické Německo, průběh 2.sv.války do 22.6.1941.doc"
 ---
-27\.
-
 Nacistické Německo, průběh druhé světové války do 22.6.1941
 
 __Německo po 1. světové válce :__

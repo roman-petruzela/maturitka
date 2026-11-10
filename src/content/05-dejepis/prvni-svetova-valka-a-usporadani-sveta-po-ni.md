@@ -3,8 +3,6 @@ title: "První světová válka a uspořádání světa po ní"
 order: 23
 source: "Dějepis/23.První světová válka a uspořádání světa po ní.doc"
 ---
-23\.
-
 Název 1.světová válka se začal používat až po 2.sv.válce, do té doby se říkalo : „Velká válka“
 
 __Příčiny__ : - __dlouhodobé, trvalé__

@@ -3,8 +3,6 @@ title: "Vývoj významných států Evropy v období vrcholného středověku"
 order: 7
 source: "Dějepis/07.Vývoj významných států Evropy v období vrcholného středověku.doc"
 ---
-7\.
-
 Vývoj významných států Evropy v období vrcholného středověku
 
 13\.-15. stol.

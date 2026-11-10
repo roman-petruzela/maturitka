@@ -11,9 +11,7 @@ Díla: Tichý don, Rozrušená země
 
 Henry Miller Profesor neřád, Erich M Remark, Maxim Gorkij,
 
-2\.
-
-Lyrickoepická próza, novela, odehrává se v jaro/léto 1946, ruská krajina, německé zajetí, fronta
+2\. Lyrickoepická próza, novela, odehrává se v jaro/léto 1946, ruská krajina, německé zajetí, fronta
 
 Námět: Pobyt autora na frontě jako válečný dopisovatel.
 
