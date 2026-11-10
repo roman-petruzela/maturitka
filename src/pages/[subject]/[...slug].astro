@@ -1,7 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import MathScratchpad from '../../components/MathScratchpad.astro';
-import DoneToggle from '../../components/DoneToggle.astro';
 import SubjectRail from '../../components/SubjectRail.astro';
 import ArticleAside from '../../components/ArticleAside.astro';
 import { SUBJECTS, SUBJECT_KEYS, type SubjectKey } from '../../lib/subjects';
@@ -151,7 +150,6 @@ const contentLang = subject === 'aj' && group !== 'maturitni-zkouska' ? 'en' : s
 			<article class="topic" lang={contentLang}>
 				<Content />
 			</article>
-			<DoneToggle topicId={`${subject}/${currentId}`} />
 			{subject === 'mat' && <MathScratchpad />}
 			{entry.data.source && <p class="source-note">Zdroj: {entry.data.source}</p>}
 		</div>

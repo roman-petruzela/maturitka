@@ -3,7 +3,6 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { splitSteps, visualWidth } from '../src/lib/markdown/formula-breaks.ts';
 import { webpSize } from '../src/lib/markdown/image-size.ts';
-import { parseDone } from '../src/lib/progress.ts';
 import { segmentMath } from '../src/lib/markdown/math-segments.ts';
 import { normalize, search, type SearchItem } from '../src/lib/search-match.ts';
 import { cleanLabel, isListNotFormula, isNumbersOnly, WORKED_RE } from '../src/lib/rail-formulas.ts';
@@ -85,12 +84,4 @@ test('webpSize reads the three WebP header variants', () => {
 	ext.set([299 & 255, 299 >> 8, 0, 199, 0, 0], 24);
 	assert.deepEqual(webpSize(ext), { width: 300, height: 200 });
 	assert.equal(webpSize(new Uint8Array(40)), null);
-});
-
-test('parseDone keeps only strings and survives garbage', () => {
-	assert.deepEqual([...parseDone('["mat/a/b","fyzika/c"]')], ['mat/a/b', 'fyzika/c']);
-	assert.deepEqual([...parseDone('["x",1,null]')], ['x']);
-	assert.equal(parseDone('{"a":1}').size, 0);
-	assert.equal(parseDone('not json').size, 0);
-	assert.equal(parseDone(null).size, 0);
 });

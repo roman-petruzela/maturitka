@@ -129,11 +129,9 @@ const ogImage = new URL('/og.png', Astro.site);
 		<script>
 			import { initSiteChrome } from '../lib/site-chrome';
 			import { initArticlePage } from '../lib/article-page';
-			import { initProgress } from '../lib/progress';
 
 			initSiteChrome();
 			initArticlePage();
-			initProgress();
 			// offline copy of the visited pages (src/pages/sw.js.ts); not in `astro dev`, where it would serve stale files
 			if (import.meta.env.PROD && 'serviceWorker' in navigator) navigator.serviceWorker.register('/sw.js');
 			// The 3D solids of the stereometrie pages can be turned by dragging them; the code is loaded

@@ -45,7 +45,7 @@ src/
   components/
     SubjectRail.astro     # levý sloupec — rejstřík celého předmětu
     ArticleAside.astro    # pravý sloupec — kategorie, sousední témata, obsah, vzorce
-    TopicRow.astro        # řádek v seznamu témat (číslo, název, značka „hotovo“)
+    TopicRow.astro        # řádek v seznamu témat (číslo, název)
     MathScratchpad.astro  # pracovní plocha pod články z matematiky
     GraphPlot.astro, Icon.astro
   lib/

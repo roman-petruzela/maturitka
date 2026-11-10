@@ -1,6 +1,6 @@
-# Front end: styles, scripts, motion, offline, progress
+# Front end: styles, scripts, motion, offline
 
-Styles, client scripts, motion, portraits, the picture viewer, the phone layout, the service worker and study progress. Rules of highest importance are in [`AGENTS.md`](../AGENTS.md).
+Styles, client scripts, motion, portraits, the picture viewer, the phone layout and the service worker. Rules of highest importance are in [`AGENTS.md`](../AGENTS.md).
 
 ## Styles
 
@@ -93,13 +93,3 @@ step through `GET /__r?…` lines in the server log; Zen is run without `--scree
 Because `/images/*` is sent `immutable` (vercel.json) **and** cached first, an image replaced under the same
 file name does not reach returning visitors — give a changed picture a new name.
 
-## Study progress (`src/lib/progress.ts`)
-
-A topic page ends with a "Hotovo" toggle (`DoneToggle.astro`, `aria-pressed`, a ticked box — the state is
-the box, not only a colour). The finished topics are one JSON array of ids (`subject/category/file`, i.e.
-`subject/` + `cleanId`) in `localStorage` under `maturitka-done:v1`; nothing leaves the browser. The
-subject page (`TopicRow` carries `data-topic-id`) gets a tick and a muted title on every finished row,
-"k/n" instead of the count of a category, and a thin bar with "Hotovo k z n" under the tally. The bar
-counts only the rows on the page, so an id of a page that was removed does not inflate it. Everything is
-painted by `initProgress()` (called from `BaseLayout.astro`, also on `storage` events so two tabs agree);
-without JavaScript the button stays hidden (`[data-ready]` is set by the script). Hidden in print.

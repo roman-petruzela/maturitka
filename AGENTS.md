@@ -24,7 +24,7 @@ missed and the commands; the details are split by topic into `docs/`.
 - [`docs/formulas.md`](docs/formulas.md) — Writing formulas in content, the "Klíčové vzorce" rail and the math reference sheet.
 - [`docs/whiteboard.md`](docs/whiteboard.md) — The drawing board under the math pages: coordinates, touch, pen and pictures.
 - [`docs/search.md`](docs/search.md) — The search index and how it is matched.
-- [`docs/frontend.md`](docs/frontend.md) — Styles, client scripts, motion, portraits, the picture viewer, the phone layout, the service worker and study progress.
+- [`docs/frontend.md`](docs/frontend.md) — Styles, client scripts, motion, portraits, the picture viewer, the phone layout, the service worker.
 
 ## Development
 

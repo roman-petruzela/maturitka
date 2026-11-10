@@ -56,10 +56,6 @@ const plural = (n: number, one: string, few: string, many: string) => (n === 1 ?
 					` ve ${namedGroupKeys.length} ${plural(namedGroupKeys.length, 'kategorii', 'kategoriích', 'kategoriích')}`
 			}
 		</p>
-		<div class="progress" data-progress hidden>
-			<span class="progress-track" aria-hidden="true"><span class="progress-fill"></span></span>
-			<span class="progress-text" data-progress-text></span>
-		</div>
 	</div>
 
 	{
@@ -80,7 +76,6 @@ const plural = (n: number, one: string, few: string, many: string) => (n === 1 ?
 						href={`/${subject}/${cleanId(entry.id)}/`}
 						title={entry.data.title}
 						order={entry.data.order}
-						topicId={`${subject}/${cleanId(entry.id)}`}
 					/>
 				))}
 			</ul>
@@ -98,7 +93,6 @@ const plural = (n: number, one: string, few: string, many: string) => (n === 1 ?
 									href={`/${subject}/${cleanId(entry.id)}/`}
 									title={entry.data.title}
 									order={entry.data.order}
-									topicId={`${subject}/${cleanId(entry.id)}`}
 								/>
 							))}
 						</ul>
