@@ -3,6 +3,8 @@
 //   - headings must not skip a level (## -> ####): the table of contents and screen readers read the
 //     outline, a hole in it is a heading that was lost or mis-levelled. The page title is the h1,
 //     so the first heading may be ## (or #, which converted pages sometimes open with).
+//   - no paragraph that is only a number with a dot (`23.`): a question number or a list number the
+//     converter split off its text (a bare number without a dot is a table cell, see docs/conversion.md)
 //   - every `/images/…` picture a page uses must exist in public/ (check-links only sees <a>)
 //   - every picture needs alt text: `![](…)` / `![ ](…)` and `<img>` without a non-empty alt.
 // Fenced code is skipped (a shell comment `# …` is not a heading).
@@ -42,6 +44,7 @@ for await (const file of markdownFiles(CONTENT)) {
 			return;
 		}
 		if (fence) return;
+		if (/^\s*\d{1,3}\s*\\?\.\s*$/.test(line)) problems.push(`${at}: a lone number: ${line.trim()}`);
 		const h = /^(#{1,6})\s+\S/.exec(line);
 		if (h) {
 			const level = Math.max(h[1].length, 2); // a leading "#" counts as the first level below the title

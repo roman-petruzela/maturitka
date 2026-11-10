@@ -73,7 +73,8 @@ built site, `#fragment`s included), `scripts/check-formulas.mjs` and `scripts/ch
 (`title` present, `order` numeric and — above 0 — unique within its category, unique URL slugs, only keys
 the schema knows; `source` is not required, hand-written pages have none; a new frontmatter key
 must be added both to `content.config.ts` and to `KNOWN_KEYS` there) and `scripts/check-content.mjs` (a heading
-must not skip a level — `##` → `####` — and every `![]()` / `<img>` needs alt text and every `/images/…` file must exist; code is skipped). None of them scans the built HTML
+must not skip a level — `##` → `####` — and every `![]()` / `<img>` needs alt text and every `/images/…` file must exist, and no line may be only a number with a dot — a split-off question
+or list number; code is skipped). None of them scans the built HTML
 for `ML__error` / leaked tokens / a literal `$` — do that by hand after touching the math pipeline.
 
 ## No names of teachers or students
