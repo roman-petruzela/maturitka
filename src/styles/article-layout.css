@@ -396,7 +396,7 @@
 
 .rail-adjacent-label {
 	font-size: var(--t-xs);
-	color: var(--muted);
+	color: var(--accent);
 }
 
 .rail-adjacent-title {

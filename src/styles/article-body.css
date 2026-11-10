@@ -36,6 +36,18 @@ article.topic h2 {
 	border-bottom: 1px solid var(--border);
 	clear: both;
 	scroll-margin-top: 7.5rem;
+	position: relative;
+}
+
+/* the short accent rule of the subject page's category headings, on every section heading */
+article.topic h2::after {
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: -1px;
+	width: 2.5rem;
+	height: 2px;
+	background: var(--accent);
 }
 
 article.topic h3 {
@@ -122,7 +134,7 @@ article.topic li > ol {
 }
 
 article.topic li::marker {
-	color: var(--muted);
+	color: var(--accent);
 }
 
 /* a bare URL as link text (Wikipedia links with percent-encoded titles) has no break point
