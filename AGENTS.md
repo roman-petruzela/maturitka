@@ -5,8 +5,8 @@ missed and the commands; the details are split by topic into `docs/`.
 
 ## Rules of highest importance
 
-1. **Version.** Every user-visible change bumps `package.json`'s `version` (and the two top-level `version`
-   fields of `package-lock.json`) — see *Versioning* below.
+1. **Version.** Every user-visible change bumps `package.json`'s `version` by a patch (0.0.1) — and the two
+   top-level `version` fields of `package-lock.json` with it; minor/major only on request — see *Versioning*.
 2. **Cache gotcha.** After touching `src/lib/**` (the markdown plugins, `subjects.ts`, `groups.ts`,
    `content-fs.ts`) do a clean rebuild — see *Development* below.
 3. **No names.** Not a teacher's, not a student's, anywhere in the repo — see *No names of teachers or
@@ -57,9 +57,10 @@ directly), so it is the visible build marker rather than an npm publishing detai
 **Bump it in the same commit as every user-visible change.** Nothing enforces this
 automatically — no hook, no CI check — so it is on whoever makes the change:
 
-- patch (`0.2.0` → `0.2.1`) — content fixes, copy edits, single-topic additions
-- minor (`0.2.0` → `0.3.0`) — new pages, layout or design changes, new subjects
-- major — reserved for a full rebuild
+- every user-visible change is a **patch** bump (`0.2.0` → `0.2.1`) — content, copy, new pages, layout
+  and design changes, even a new subject alike
+- minor or major only when the owner asks for it explicitly
+- a change nobody sees on the site (docs, scripts, dependencies) does not bump the version
 
 Keep `package-lock.json`'s two top-level `"version"` fields in step, or the next
 `npm install` will rewrite them as a stray diff.
