@@ -3,8 +3,6 @@ title: "Základní právní předpisy"
 order: 48
 source: "Ekonomie/28. základní právní předpisy.docx"
 ---
-__Základní právní předpisy__
-
 PRÁVO  = souhrn pravidel stanovených státem, podle nichž se řídí soužití obyvatelstva		    = minimum morálky \(vzniklo z morálních norem\)
 
 - STÁT je organizované soužití lidí na ohraničeném území, dle stejného právního řádu, s administrativním aparátem a ozbrojenou mocí\.

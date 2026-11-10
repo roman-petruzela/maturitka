@@ -3,8 +3,6 @@ title: "Stacionární magnetické pole"
 order: 31
 source: "FYZIKA-maturitní otázky/31-Stacionární-magnetické-pole.docx"
 ---
-Stacionární magnetické pole
-
 - Magnetické pole je druh __silového pole__, které vytváří vodič s proudem, je to prostor, na který působí __magnetické síly__
 - Magnetické pole je neoddělitelnou součástí elektromagnetického pole
 - Projevuje se __silovými magnetickými účinky__

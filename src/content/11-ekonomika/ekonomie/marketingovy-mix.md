@@ -3,8 +3,6 @@ title: "Marketingový mix"
 order: 9
 source: "Ekonomie/5.-Marketingový-mix.docx"
 ---
-__Marketingový mix__
-
 - Pro své podnikatelské strategie mohou firmy využít čtyř základních nástrojů, kterými ovlivňují situaci na trhu, protože tyto nástroje lze různě kombinovat, mluvíme o tzv. MIXU
 - nástroje “4P”:
 

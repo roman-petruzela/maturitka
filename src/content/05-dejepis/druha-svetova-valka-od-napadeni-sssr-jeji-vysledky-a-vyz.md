@@ -1,10 +1,8 @@
 ---
-title: "Druhá světová válka od napadení SSSR, její výsledky a výz"
+title: "Druhá světová válka od napadení SSSR, její výsledky a význam"
 order: 28
 source: "Dějepis/28.Druhá světová válka od napadení SSSR, její výsledky a výz.doc"
 ---
-Druhá světová válka od napadení SSSR, její výsledky a význam
-
 __Operace Barbarossa__
 
 __22.6.1941__ ve 3:15 bez vyhlášení války německé armády na několika místech překročily hranice.

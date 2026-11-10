@@ -3,8 +3,6 @@ title: "Osvícenský absolutismus v habsburské monarchii, barokní kultura"
 order: 17
 source: "Dějepis/17.OSVÍCENSKÝ ABSOLUTISMUS V HABSBURSKÉ MONARCHII, BAROKNÍ KULTURA.doc"
 ---
-OSVÍCENSKÝ ABSOLUTISMUS V HABSBURSKÉ MONARCHII, BAROKNÍ KULTURA
-
 - __Leopold I\. \(1658 – 1705\)__
 	- rozpad financí a administrativy
 	- začal centralizovat moc, opíral se o věrnou vysokou šlechtu

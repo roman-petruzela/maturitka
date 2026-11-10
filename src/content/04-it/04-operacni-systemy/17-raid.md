@@ -3,8 +3,6 @@ title: "RAID"
 order: 17
 source: "osy/RAID.pdf"
 ---
-RAID
-
 - metoda zabezpečení dat proti selhání pevného disku
 
 - zabezpečení je realizováno ukládáním dat na více nezávislých disků

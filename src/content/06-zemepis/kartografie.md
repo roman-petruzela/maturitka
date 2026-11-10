@@ -3,9 +3,7 @@ title: "Kartografie"
 order: 2
 source: "Zeměpis/Zeměpis GLP/2. KARTOGARFIE.docx"
 ---
-KARTOGRAFIE
-
-= nauka o mapách, zabývá se konstrukcí map na základě sběru dat z jednotlivých částí zemského povrchu
+**Kartografie** = nauka o mapách, zabývá se konstrukcí map na základě sběru dat z jednotlivých částí zemského povrchu
 
 - globus je přesnější, protože je kulatý \- nedochází ke zkreslení
 - kartografie zahrnuje všechny operace od vyměřování až po vydání hotové mapy

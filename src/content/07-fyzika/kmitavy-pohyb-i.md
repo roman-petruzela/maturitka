@@ -3,8 +3,6 @@ title: "Kmitavý pohyb I"
 order: 21
 source: "FYZIKA-maturitní otázky/21-Kmitavý-pohyb-I.docx"
 ---
-Kmitavý pohyb
-
 - Kmitavý pohyb je __základní typ pohybu__, pro který je charakteristické, že kmitající těleso při pohybu __zůstává__ stále v __okolí__ určitého __bodu__, označovaného jako __rovnovážná poloha__
 - Je to pohyb __nerovnoměrný__
 - Jestliže těleso __pravidelně__ prochází __rovnovážnou polohou__, koná __periodický kmitavý pohyb__

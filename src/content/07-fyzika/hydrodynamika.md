@@ -3,8 +3,6 @@ title: "Hydrodynamika"
 order: 9
 source: "FYZIKA-maturitní otázky/9-Hydrodynamika.docx"
 ---
-Hydrodynamika
-
 - zabývá se __mechanickým pohybem__ (prouděním) tekutin
 - V proudící tekutině má každá částice určitou rychlost v, jejíž velikost a směr se __může měnit v závislosti na místě a na čase__. Je-li rychlost v částic __stálá__, tj. nemění se s časem, jde o __ustálené (stacionární) proudění__. Pokud se rychlost v částic __mění s časem__ jde o __neustálené proudění.__
 - Trajektorie jednotlivých částic proudící tekutiny při ustáleném proudění znázorňujeme proudnicemi.

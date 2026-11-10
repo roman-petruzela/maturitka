@@ -3,8 +3,6 @@ title: "Politický systém první republiky, Mnichov 1938"
 order: 25
 source: "Dějepis/25.politický systém první republiky, Mnichov 1938.doc"
 ---
-Politický systém první republiky, Mnichov 1938
-
 __Československo ve dvacátých letech__ : Až do r. 1921 velmi chaotické období → špatné hospodářství, nestabilní politická situace → revoluční vlna po válce + Maďaři vs. Slováci
 
 __Stát vznikl jako republika__( 14.11. se Národní výbor prohlásil Národním shromážděním a stát republikou ) → vznik institucí  :

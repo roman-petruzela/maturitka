@@ -3,10 +3,7 @@ title: "Biosféra"
 order: 6
 source: "Zeměpis/Zeměpis GLP/6.1 BIOSFÉRA.docx"
 ---
-**BIOSFÉRA**
-
-
-= živý obal země
+**Biosféra** = živý obal země
 
 - soubor všech živých organismů na Zemi a jejich životních prostředí
 - globální ekologický systém

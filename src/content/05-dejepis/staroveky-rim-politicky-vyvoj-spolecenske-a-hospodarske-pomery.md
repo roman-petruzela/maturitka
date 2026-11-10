@@ -1,10 +1,8 @@
 ---
-title: "Starověký Řím politický vývoj, společenské a hospodářské poměry"
+title: "Starověký Řím – politický vývoj, společenské a hospodářské poměry"
 order: 3
 source: "Dějepis/03.Starověký Řím - politický vývoj, společenské a hospodářské poměry.doc"
 ---
-Starověký Řím – politický vývoj, společenské a hospodářské poměry
-
 Starověký Řím :
 
 __Přírodní podmínky__ : - Adriatické ( Jaderské ) moře, Tyrhénské moře ( západ )

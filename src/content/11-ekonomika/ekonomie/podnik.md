@@ -3,8 +3,6 @@ title: "Podnik"
 order: 12
 source: "Ekonomie/6. Podnik.odt"
 ---
-PODNIK
-
 ## 1. Podnik
 
 - soubor hmotných, nehmotných a osobních složek podnikání

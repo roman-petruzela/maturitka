@@ -1,10 +1,8 @@
 ---
-title: "Třžní hospodářství"
+title: "Tržní hospodářství"
 order: 4
 source: "Ekonomie/2. Třžní hospodářství.odt"
 ---
-__Tržní hospodářství__
-
 __Trh__
 
  = místo, kde se střetává nabídka s poptávkou a tím se vytváří cena

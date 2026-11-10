@@ -3,8 +3,6 @@ title: "Revoluce 1848 v českých zemích, počátky občanské společnosti"
 order: 21
 source: "Dějepis/21.Revoluce 1848 v českých zemích, počátky občanské společnosti.doc"
 ---
-Revoluce 1848 v českých zemích, počátky občanské společnosti
-
 __České země po napoleonských válkách :__
 
 Šlechta zastávala nejvyšší úřady, funkce a důstojnické fce. v armádě.

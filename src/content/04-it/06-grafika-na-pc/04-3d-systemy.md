@@ -3,8 +3,6 @@ title: "3D systémy"
 order: 4
 source: "grafika/VY_32_INOVACE_3224_01.pdf"
 ---
-**3D systémy**
-
 - Systém je spojení
 
    - **hardwaru**
