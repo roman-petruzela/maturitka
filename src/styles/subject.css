@@ -123,13 +123,17 @@
 	position: relative;
 }
 
-/* a short accent rule at the start of the heading's line, as under the wordmark of the share image */
-.group-block-head::after {
+/* an accent rule as long as the category's name, laid over the heading's line */
+.group-block-title {
+	position: relative;
+}
+
+.group-block-title::after {
 	content: "";
 	position: absolute;
 	left: 0;
-	bottom: -1px;
-	width: 2.5rem;
+	right: 0;
+	bottom: calc(-0.5rem - 1px);
 	height: 2px;
 	background: var(--accent);
 }

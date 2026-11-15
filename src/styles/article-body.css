@@ -39,13 +39,19 @@ article.topic h2 {
 	position: relative;
 }
 
-/* the short accent rule of the subject page's category headings, on every section heading */
-article.topic h2::after {
+/* the accent rule of the subject page's category headings, as long as the heading's text
+   (rehype-heading-text.ts wraps it) */
+article.topic h2 .heading-text {
+	display: inline-block;
+	position: relative;
+}
+
+article.topic h2 .heading-text::after {
 	content: "";
 	position: absolute;
 	left: 0;
-	bottom: -1px;
-	width: 2.5rem;
+	right: 0;
+	bottom: calc(-0.35rem - 1px);
 	height: 2px;
 	background: var(--accent);
 }

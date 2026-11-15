@@ -7,7 +7,8 @@ The remark/rehype plugins, content markers and the fences that become figures. R
 Plugins run in this order (`astro.config.mjs`): `remarkLineBreaks` → `remarkProtectMath` →
 `remarkGraph` / `remarkGeometry` / `remarkSolid` (JSON fences → build-time SVG) / `remarkTimeline` /
 `remarkFormulas` (JSON fences → build-time HTML) → `rehypeMath` → `rehypeSpoiler` → `rehypeReconNote` →
-`rehypeAuthorPortrait` → `rehypeRozborLink` → `rehypeImageSize`.
+`rehypeAuthorPortrait` → `rehypeRozborLink` → `rehypeImageSize` → `rehypeHeadingText` (wraps every h2's
+content in `span.heading-text`, so the accent rule under it is as long as the text).
 
 - **Formulas.** `$…$` / `$$…$$` are typeset at build time with MathLive's SSR renderer. Markdown
   would corrupt LaTeX before it ever reached `rehype-math` (`\{ \} \\ \, \; \!` lose their
