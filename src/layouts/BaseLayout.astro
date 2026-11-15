@@ -143,6 +143,10 @@ const ogImage = new URL('/og.png', Astro.site);
 			if (document.querySelector('article.topic img:not([class])')) {
 				import('../lib/image-viewer').then((m) => m.initImageViewer());
 			}
+			// a book page gets the reader (text size, progress, the place where you stopped)
+			if (document.querySelector('article.book')) {
+				import('../lib/book-reader').then((m) => m.initBookReader());
+			}
 			// a formula sheet gets a filter box, on the same terms
 			if (document.querySelector('.formula-sheet')) {
 				import('../lib/formula-filter').then((m) => m.initFormulaFilter());

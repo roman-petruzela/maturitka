@@ -1,0 +1,172 @@
+/* ─────────────────────────────────────────────────────────────────────────
+   ČTEČKA — a book page (`book: true`, 01-cj/07-knihovna)
+   Set like a printed book rather than a study page: justified, hyphenated
+   paragraphs with a first-line indent and no gap between them, chapter
+   openers centred with their subtitle under them and a drop cap on the
+   first paragraph. Above the text a bar that stays under the header: the
+   size slider, the "continue" button and the reading progress.
+   Behaviour in lib/book-reader.ts.
+   ───────────────────────────────────────────────────────────────────── */
+
+.book-bar {
+	position: sticky;
+	/* just under the header's bottom edge (the header sits above it), so no text peeks between them */
+	top: 4.25rem;
+	z-index: 5;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 0.5rem 1.25rem;
+	margin: -0.75rem 0 2rem;
+	padding: 0.65rem 0 0.75rem;
+	background: var(--bg);
+	font-family: var(--sans);
+	font-size: var(--t-sm);
+	color: var(--muted);
+	transition: top var(--dur-move) var(--ease);
+}
+
+body.header-hidden .book-bar {
+	top: 0;
+}
+
+.book-bar-meta {
+	margin: 0;
+	margin-right: auto;
+}
+
+.book-bar-size {
+	display: flex;
+	align-items: center;
+	gap: 0.6rem;
+}
+
+.book-bar-size input {
+	width: 7rem;
+	accent-color: var(--accent);
+}
+
+.book-bar-resume {
+	flex-basis: 100%;
+	order: -1;
+	padding: 0.55rem 0.9rem;
+	border: 1px solid var(--border-strong);
+	border-left: 2px solid var(--accent);
+	border-radius: 4px;
+	background: var(--surface);
+	color: var(--fg);
+	font: inherit;
+	text-align: left;
+	cursor: pointer;
+	transition: background var(--dur-quick) var(--ease);
+}
+
+.book-bar-resume:hover {
+	background: var(--surface-raised);
+}
+
+.book-bar-resume[hidden] {
+	display: none;
+}
+
+.book-progress {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 1px;
+	background: var(--border);
+}
+
+.book-progress span {
+	display: block;
+	height: 2px;
+	margin-top: -0.5px;
+	background: var(--accent);
+	transform: scaleX(0);
+	transform-origin: left;
+}
+
+/* ── the text ─────────────────────────────────────────────────────────── */
+
+article.topic.book {
+	--book-scale: 1;
+	font-size: calc(var(--t-read) * var(--book-scale));
+	line-height: 1.7;
+	hyphens: auto;
+	text-wrap: pretty;
+}
+
+article.topic.book > p {
+	margin: 0;
+	text-align: justify;
+	text-indent: 1.5em;
+}
+
+/* no indent where nothing comes before the paragraph to set it off from */
+article.topic.book > h2 + p,
+article.topic.book > .chapter-sub + p,
+article.topic.book > p:first-child {
+	text-indent: 0;
+}
+
+/* the line linking to the analysis, above the book proper */
+article.topic.book > p:first-child {
+	font-family: var(--sans);
+	font-size: var(--t-sm);
+	color: var(--muted);
+	text-align: left;
+}
+
+/* chapter opener: no rule, centred, room above it like a new page */
+article.topic.book > h2 {
+	margin: 4.5rem 0 0.6rem;
+	padding: 0;
+	border: 0;
+	text-align: center;
+	font-size: 1.35em;
+	font-weight: 600;
+	letter-spacing: 0.01em;
+}
+
+article.topic.book > h2 .heading-text::after {
+	content: none;
+}
+
+article.topic.book > .chapter-sub {
+	max-width: 30em;
+	margin: 0 auto 2rem;
+	text-align: center;
+	text-indent: 0;
+	font-style: italic;
+	color: var(--muted);
+	line-height: 1.55;
+	hyphens: manual;
+}
+
+/* the one ornament: a drop cap opens every chapter */
+article.topic.book > .chapter-sub + p::first-letter {
+	float: left;
+	margin: 0.08em 0.12em 0 0;
+	font-family: var(--display);
+	font-size: 3.4em;
+	line-height: 0.8;
+	color: var(--accent);
+}
+
+/* on a phone the bar keeps only what is used while reading */
+@media (max-width: 599.98px) {
+	.book-bar-meta {
+		display: none;
+	}
+
+	.book-bar-size {
+		margin-left: auto;
+	}
+}
+
+@media print {
+	.book-bar {
+		display: none;
+	}
+}

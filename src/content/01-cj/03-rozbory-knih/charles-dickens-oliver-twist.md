@@ -5,6 +5,8 @@ order: 16
 
 **Autor:** [Charles Dickens](/cj/autori/charles-dickens/) · **Vydáno:** po částech 1837–1839 · **Druh:** epika · **Žánr:** sociální román · **Směr:** [realismus](/cj/literatura/09-realismus-a-naturalismus/) (s romantickými prvky)
 
+Knihu si můžeš přečíst ve zkráceném převyprávění v [knihovně](/cj/knihovna/charles-dickens-oliver-twist/).
+
 ## Stručný obsah
 
 **Oliver** se narodí v **chudobinci** v malém anglickém městě; jeho matka při porodu zemře a nikdo neví, kdo byla. Vyrůstá v hladu a bití. Když si v jídelně jako jediný řekne o **přidání kaše**, je považován za buřiče a prodán do učení k pohřebníkovi. Tam to nevydrží a uteče pěšky do **Londýna**.

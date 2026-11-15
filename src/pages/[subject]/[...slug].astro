@@ -88,7 +88,11 @@ const { Content, headings } = await render(entry);
 const group = groupOfId(entry.id);
 const categoryLabel = group ? groupLabel(subject, group) : undefined;
 const currentId = cleanId(entry.id);
-const hasFormulas = entry.data.formulaRail !== false && /\$\$[\s\S]*?\$\$/.test(entry.body ?? '');
+// a book (01-cj/07-knihovna) gets the reader: its toolbar here, its behaviour in lib/book-reader.ts
+const isBook = entry.data.book === true;
+const chapters = isBook ? headings.filter((h) => h.depth === 2 && h.text.startsWith('Kapitola')).length : 0;
+const readingMinutes = isBook ? Math.max(5, Math.round((entry.body ?? '').split(/\s+/).length / 1000) * 5) : 0;
+const hasFormulas = !isBook && entry.data.formulaRail !== false && /\$\$[\s\S]*?\$\$/.test(entry.body ?? '');
 
 // prev/next now walk the whole subject (see getStaticPaths above), so the
 // boundary topic of a category points into the neighbouring one — flagged
@@ -147,9 +151,35 @@ const contentLang = subject === 'aj' && group !== 'maturitni-zkouska' ? 'en' : s
 			<div class="topic-head">
 				<h1>{entry.data.title}</h1>
 			</div>
-			<article class="topic" lang={contentLang}>
+			{
+				isBook && (
+					<div class="book-bar" data-book-bar>
+						<p class="book-bar-meta">
+							{chapters} kapitol, asi {readingMinutes} minut čtení
+						</p>
+						<label class="book-bar-size">
+							<span>Písmo</span>
+							<input type="range" min="0.9" max="1.4" step="0.05" value="1" data-book-size aria-label="Velikost písma" />
+						</label>
+						<button type="button" class="book-bar-resume" data-book-resume hidden />
+						<div class="book-progress" aria-hidden="true">
+							<span data-book-progress />
+						</div>
+					</div>
+				)
+			}
+			<article class:list={['topic', { book: isBook }]} lang={contentLang}>
 				<Content />
 			</article>
+			{
+				isBook && (
+					<script is:inline>
+						// the chosen text size before the first paint, so the page doesn't reflow under a restored scroll
+						var size = localStorage.getItem('maturitka-book-size');
+						if (size) document.querySelector('article.book').style.setProperty('--book-scale', size);
+					</script>
+				)
+			}
 			{subject === 'mat' && <MathScratchpad />}
 			{entry.data.source && <p class="source-note">Zdroj: {entry.data.source}</p>}
 		</div>

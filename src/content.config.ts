@@ -11,6 +11,9 @@ const topicSchema = z.object({
 	// false on a page made only of worked problems: its display formulas are computations, not
 	// formulas to look up, so the "Klíčové vzorce" rail is left out
 	formulaRail: z.boolean().optional(),
+	// a whole book to read (01-cj/07-knihovna): the page gets the reader — book typography, text size,
+	// reading progress and the place where you stopped
+	book: z.boolean().optional(),
 });
 
 // Subjects are discovered from `src/content/*` directories rather than a

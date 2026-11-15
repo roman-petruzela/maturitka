@@ -16,8 +16,10 @@ Pages carry almost no inline JavaScript. `BaseLayout.astro` keeps inline only wh
 the first paint (switching off the browser's scroll restoration, the `vt-fallback` class, restoring the
 saved page and subject-strip offsets); everything else is bundled TypeScript: `site-chrome.ts` (every
 page — scroll memory, auto-hiding header, spoilers, the draggable subject strip and its edge fades,
-the fallback page transition, the category pills), `article-page.ts` (topic pages — folding rails,
-fitting formulas, the table of contents, centring the subject rail) and `rail-formulas.ts` (the
+the fallback page transition, the category pills, in-page jumps that land their target in the middle of
+the screen), `article-page.ts` (topic pages — folding rails, fitting formulas, the table of contents —
+whose active heading is the last one past the middle of the screen, or the last one at the very bottom —
+centring the subject rail), `book-reader.ts` (book pages, loaded only there — see `docs/content.md`) and `rail-formulas.ts` (the
 "Klíčové vzorce" rail; its text helpers are pure and tested). MathLive (~800 kB) is not loaded with the
 page: `MathScratchpad.astro` imports it when the result field comes near the viewport or is touched —
 until then nothing may set the field's properties, or they shadow MathLive's accessors on upgrade.

@@ -69,7 +69,7 @@ per work), `03-rozbory-knih`, `04-autori`, `05-literatura` (periods and theory; 
 `06-jazyk-a-sloh` (language and writing — the didactic test and the written work with Cermat's six
 criteria 1A–3B, spelling, morphology, syntax and commas, vocabulary, general knowledge about the language,
 the written-work genres; written from general knowledge, no school source; URL `/cj/jazyk-a-sloh/`),
-`09-archiv` (the analyses converted from the old archive; URL `/cj/archiv/`). The functional styles and
+`07-knihovna` (whole books to read on the site — see below; URL `/cj/knihovna/`), `09-archiv` (the analyses converted from the old archive; URL `/cj/archiv/`). The functional styles and
 the slohové postupy live in `02-ustni-zkouska/03-rozbor-neumeleckeho-textu.md` — link there, do not
 repeat them in `06-jazyk-a-sloh`. Exam times and thresholds of the written work are set by the school
 each year, so those pages give them as usual values and say so.
@@ -93,3 +93,10 @@ a detail you cannot vouch for is left out, not guessed. `04-autori` has a page f
 Links to an analysis get the small rozbor icon (`rehype-rozbor-link.ts`); one into `/cj/archiv/` is dimmed
 and its tooltip says it is the older one. When a new analysis replaces an archived one, point the links
 of the period pages and of the reading list (`02-ustni-zkouska/04-seznam-cetby.md`) to the new page.
+
+`07-knihovna` holds whole books (so far shortened retellings the owner supplied as PDFs in `knihy/`), one page
+per book, title and `order` as in `03-rozbory-knih`, `book: true` in the frontmatter. That key gives the page
+the reader (`src/lib/book-reader.ts`, `src/styles/book.css`): book typography, a text-size slider, reading
+progress and the paragraph where you stopped, kept in localStorage. The body comes from
+`scripts/convert-book.py` (one `## Kapitola …` per chapter, its subtitle as `<p class="chapter-sub">`); the
+line above it links the analysis, and the analysis links back to the book.

@@ -16,7 +16,7 @@ import { readdir, readFile } from 'node:fs/promises';
 import path from 'node:path';
 
 const CONTENT = path.resolve(import.meta.dirname, '../src/content');
-const KNOWN_KEYS = new Set(['title', 'order', 'source', 'formulaRail']);
+const KNOWN_KEYS = new Set(['title', 'order', 'source', 'formulaRail', 'book']);
 const stripPrefix = (name) => name.replace(/^\d+-/, '');
 
 async function* markdownFiles(dir) {
