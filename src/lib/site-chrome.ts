@@ -204,7 +204,30 @@ function categoryPills(): void {
 	sync();
 }
 
+// A jump within the page (a formula of the rail, the table of contents, a category pill) lands its
+// target in the middle of the screen rather than under the header. The browser still does the jump
+// itself — it keeps :target and the hash in step — only the target's scroll-margin is set first, to
+// the gap that centres it. A target taller than the screen keeps its CSS margin.
+function centredJumps(): void {
+	const centre = (id: string) => {
+		const target = document.getElementById(id);
+		if (!target) return;
+		const gap = (window.innerHeight - target.getBoundingClientRect().height) / 2;
+		target.style.scrollMarginTop = gap > 0 ? `${gap}px` : '';
+	};
+	document.addEventListener('click', (e) => {
+		const link = e.target instanceof Element ? e.target.closest<HTMLAnchorElement>('a[href^="#"]') : null;
+		if (link?.hash) centre(decodeURIComponent(link.hash.slice(1)));
+	});
+	// a link from another page (search, a section link) arrives with the hash already scrolled to
+	if (location.hash) {
+		centre(decodeURIComponent(location.hash.slice(1)));
+		document.getElementById(decodeURIComponent(location.hash.slice(1)))?.scrollIntoView({ behavior: 'instant' });
+	}
+}
+
 export function initSiteChrome(): void {
+	centredJumps();
 	rememberPageScroll();
 	autoHideHeader();
 	spoilers();

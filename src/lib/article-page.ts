@@ -44,8 +44,8 @@ function fittingFormulas(article: HTMLElement): void {
 	document.fonts?.ready.then(refit);
 }
 
-// The table of contents marks the section being read: the last heading whose top has passed under
-// the header — a plain scroll read, which behaves predictably around short sections where
+// The table of contents marks the section being read: the last heading whose top has passed the
+// middle of the screen, where a jump to it lands (centredJumps in site-chrome.ts) — a plain scroll read, which behaves predictably around short sections where
 // IntersectionObserver ratios flap.
 function tocSpy(): void {
 	const toc = document.querySelector('[data-toc]');
@@ -55,14 +55,17 @@ function tocSpy(): void {
 		.filter((p): p is { link: HTMLAnchorElement; target: HTMLElement } => p.target !== null);
 	if (!pairs.length) return;
 
-	const CUTOFF = 140;
 	let active: HTMLAnchorElement | null = null;
 	const sync = () => {
+		const cutoff = window.innerHeight / 2 + 2;
 		let current = pairs[0];
 		for (const p of pairs) {
-			if (p.target.getBoundingClientRect().top <= CUTOFF) current = p;
+			if (p.target.getBoundingClientRect().top <= cutoff) current = p;
 			else break;
 		}
+		// at the very bottom the last headings can never reach the cutoff — the last one is what's read
+		const atBottom = window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 2;
+		if (atBottom) current = pairs[pairs.length - 1];
 		if (current.link === active) return;
 		active?.classList.remove('is-active');
 		current.link.classList.add('is-active');
