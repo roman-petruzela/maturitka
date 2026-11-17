@@ -5,6 +5,8 @@ order: 63
 
 **Autor:** [Ivan Olbracht](/cj/autori/ivan-olbracht/) · **Vydáno:** 1933 · **Druh:** epika · **Žánr:** baladický román · **Směr:** [česká meziválečná próza, sociální próza](/cj/literatura/13-ceska-mezivalecna-avantgarda-a-proza/)
 
+Knihu si můžeš přečíst ve zkráceném vydání v [knihovně](/cj/knihovna/ivan-olbracht-nikola-suhaj-loupeznik/).
+
 ## Stručný obsah
 
 Román vychází ze skutečného příběhu zbojníka **Nikoly Šuhaje** z vesnice **Koločava** na **Podkarpatské Rusi** (dnes Ukrajina), který byl zabit roku 1921.
