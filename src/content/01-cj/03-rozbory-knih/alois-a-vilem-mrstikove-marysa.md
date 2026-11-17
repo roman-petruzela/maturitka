@@ -5,6 +5,8 @@ order: 26
 
 **Autoři:** [Alois a Vilém Mrštíkové](/cj/autori/alois-a-vilem-mrstikove/) · **Premiéra:** 1894 (Národní divadlo) · **Druh:** drama · **Žánr:** tragédie (realistické venkovské drama) · **Směr:** [realismus a naturalismus](/cj/literatura/09-realismus-a-naturalismus/)
 
+Knihu si můžeš přečíst ve zkráceném vydání v [knihovně](/cj/knihovna/alois-a-vilem-mrstikove-marysa/).
+
 ## Stručný obsah
 
 Na moravské vesnici miluje **Maryša**, dcera bohatého sedláka **Lízala**, chudého **Francka**, kterého právě odvádějí na tři roky na vojnu. Lízal chce dceru výhodně provdat a vybere jí bohatého vdovce, mlynáře **Vávru**, který má tři malé děti. Při smlouvání o věno Lízal přislíbí víc, než chce dát. Maryša se brání, ale nakonec — i pod tlakem matky — **poslechne**. Jen babička **Strouhalka** stojí na její straně a varuje, že z toho nic dobrého nebude.
