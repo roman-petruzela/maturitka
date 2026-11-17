@@ -5,6 +5,8 @@ order: 27
 
 **Autor:** [Jaroslav Vrchlický](/cj/autori/jaroslav-vrchlicky/) · **Premiéra:** 1884 (Národní divadlo) · **Druh:** drama · **Žánr:** veršovaná komedie (historická veselohra) · **Směr:** [lumírovci](/cj/literatura/10-majovci-ruchovci-lumirovci/)
 
+Knihu si můžeš přečíst ve zkráceném vydání v [knihovně](/cj/knihovna/jaroslav-vrchlicky-noc-na-karlstejne/).
+
 ## Stručný obsah
 
 Rok **1363**. Císař **Karel IV.** pobývá na Karlštejně a podle jeho přísného zákazu nesmí na hrad vkročit **žádná žena**. Na hradě jsou s ním jako hosté **Petr, král kyperský** (velký milovník žen) a **Štěpán, vévoda bavorský**.
