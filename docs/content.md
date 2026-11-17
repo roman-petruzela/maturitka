@@ -94,7 +94,7 @@ Links to an analysis get the small rozbor icon (`rehype-rozbor-link.ts`); one in
 and its tooltip says it is the older one. When a new analysis replaces an archived one, point the links
 of the period pages and of the reading list (`02-ustni-zkouska/04-seznam-cetby.md`) to the new page.
 
-`07-knihovna` holds whole books (so far shortened retellings the owner supplied as PDFs in `knihy/`), one page
+`07-knihovna` holds whole books (shortened retellings the owner supplied as PDFs in `knihy/`, and abridged editions: the original text with cuts, made only from texts in the public domain, built from `knihy/neupravene/`), one page
 per book, title and `order` as in `03-rozbory-knih`, `book: true` in the frontmatter. That key gives the page
 the reader (`src/lib/book-reader.ts`, `src/styles/book.css`): book typography, a text-size slider, reading
 progress and the paragraph where you stopped, kept in localStorage. The body comes from

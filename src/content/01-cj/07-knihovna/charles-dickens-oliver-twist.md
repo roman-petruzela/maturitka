@@ -11,8 +11,6 @@ Zkrácené převyprávění Dickensova románu ([rozbor](/cj/rozbory-knih/charle
 
 Tato knížka je zkrácené převyprávění Dickensova románu *Oliver Twist* (1837–1839). Zachovává všech 53 kapitol, celý děj a všechny důležité postavy, ale je napsaná vlastními slovy. Snaží se jen napodobit Dickensův styl: vševědoucího vypravěče, který komentuje děj, ironii namířenou proti úředníkům a pokrytcům a popisné nadpisy kapitol.
 
-Krátké citace v uvozovkách s číslem strany, například (s. 28), pocházejí z úplného českého vydání Městské knihovny v Praze. Podle čísla stran je v knize snadno najdeš.
-
 Převyprávění není náhradou za původní text. K maturitnímu referátu se hodí na rychlou orientaci v ději, ale jazykové prostředky a citace je potřeba brát z úplného vydání.
 
 ## Kapitola první
@@ -25,7 +23,7 @@ V tomto špitále se jednoho dne narodil chlapeček. Zprvu to s ním vypadalo bl
 
 Na posteli vedle se nadzvedla mladá žena. Byla bledá, cizí, nikdo nevěděl, odkud přišla; předešlou noc ji našli ležet na ulici, odkud došla pěšky bůhvíjak zdaleka, s rozbitými botami. Požádala, aby jí dítě ukázali, políbila je na čelo, rozhlédla se po holých zdech, zachvěla se – a padla nazpět. Za chvíli byla mrtvá.
 
-Ranhojič jí zdvihl levou ruku a pohlédl na prsty. Snubní prsten na nich nebyl. „Stará historie,“ (s. 16) poznamenal, pokrčil rameny, nasadil si klobouk a odešel na večeři. Stará špitálnice se zatím posilnila z lahvičky, kterou nosila v kapse, a zabalila chlapečka do vybledlého špitálního hadru, jaký dostávalo každé dítě, které přišlo na svět na obecní útraty.
+Ranhojič jí zdvihl levou ruku a pohlédl na prsty. Snubní prsten na nich nebyl. „Stará historie,“ poznamenal, pokrčil rameny, nasadil si klobouk a odešel na večeři. Stará špitálnice se zatím posilnila z lahvičky, kterou nosila v kapse, a zabalila chlapečka do vybledlého špitálního hadru, jaký dostávalo každé dítě, které přišlo na svět na obecní útraty.
 
 Kdyby ho byli zabalili do krajek a hedvábí, mohl to být syn šlechtice stejně dobře jako syn žebráka. Takhle však bylo hned jasné, kam patří: byl to sirotek ze špitálu, určený k tomu, aby ho strkali, bili a nikdo ho nelitoval. A kdyby byl Oliver Twist – neboť tak se brzy jmenoval – rozuměl, co ho čeká, byl by křičel ještě mnohem hlasitěji.
 
@@ -49,7 +47,7 @@ Kaše se vydávala ve velké síni z kotle a každý chlapec dostal jednu misku.
 
 Nastal večer. Správce v kuchařské zástěře stál u kotle, kaše byla rozdělena a za dlouhou modlitbou zmizela. Chlapci na sebe mrkali a strkali do Olivera. Oliver, zoufalý hladem a strachem, vstal, šel s miskou a lžící k správci a řekl, sám zděšen svou opovážlivostí:
 
-„Prosím, pane, já bych chtěl ještě trochu.“ (s. 28)
+„Prosím, pane, já bych chtěl ještě trochu.“
 
 Správce byl statný, zdravý muž, ale zbledl. Několik vteřin zíral na malého vzbouřence a pak se musel přidržet kotle. Pomocnice ztuhly úžasem, chlapci strachem.
 
@@ -267,7 +265,7 @@ Když se Oliver vrátil do pokoje paní Bedwinové, obraz na zdi už nevisel. Pa
 
 Dny plynuly v tichu a pokoji. Oliver dostal nové šaty, jedl dobré jídlo a nikdo ho nebil. Staré šaty prodal židovi vetešníkovi a byl rád, že je nikdy znovu neuvidí. Jednou ho pan Brownlow pozval do pracovny, kde byly knihy až do stropu, a řekl mu, že ho nechce opustit, ale potřebuje vědět, kdo Oliver je a odkud přišel. Oliver už chtěl začít vyprávět, když zazvonil zvonek a ohlásili pana Grimwiga.
 
-Pan Grimwig byl tlustý starý pán, kulhavý, s holí a s náramně svérázným způsobem mluvy. Vešel do pokoje, v ruce držel kousek pomerančové kůry a hned se rozčiloval, že mu někdo vždycky nechá kůru na schodech, a že on z toho jednou upadne a zabije se. Měl ve zvyku dokazovat svá tvrzení tím, že je ochoten „sníst svou hlavu“, (s. 132) kdyby se mýlil. Ke cti pana Grimwiga budiž řečeno, že tuto sázku nikdy nemusel splnit, a pro jeho žaludek to bylo jistě dobře.
+Pan Grimwig byl tlustý starý pán, kulhavý, s holí a s náramně svérázným způsobem mluvy. Vešel do pokoje, v ruce držel kousek pomerančové kůry a hned se rozčiloval, že mu někdo vždycky nechá kůru na schodech, a že on z toho jednou upadne a zabije se. Měl ve zvyku dokazovat svá tvrzení tím, že je ochoten „sníst svou hlavu“, kdyby se mýlil. Ke cti pana Grimwiga budiž řečeno, že tuto sázku nikdy nemusel splnit, a pro jeho žaludek to bylo jistě dobře.
 
 Grimwig si prohlédl Olivera, prohlásil, že s chlapci je to vždycky stejné, že jsou dvojího druhu: buď bledí a hubení, nebo tlustí a červení, a obojí jsou ničemové. Brownlowovi řekl, že je hlupák, když tomu klukovi věří.
 
@@ -623,7 +621,7 @@ Paní Bumblová se ujala slova, protože svému muži nevěřila, že by to zvl�
 
 Pak paní Bumblová vyprávěla. Stará Sally ukradla matce Olivera Twista něco, co ta matka chtěla nechat svému dítěti. Sally to zastavila v zastavárně. A paní Bumblová vzala z její mrtvé ruky potvrzení. Šla tu věc vyzvednout.
 
-Vytáhla z kapsy malý kožený váček. Monks ho chvatně otevřel. Na dlani se mu zaleskl malý zlatý přívěsek, který se dal otevřít a skrýval pramínky vlasů, a vedle něj prostý prsten, jaký dostává nevěsta u oltáře. Do jeho vnitřní strany bylo vyryto jediné jméno, Agnes, (s. 355) a datum o necelý rok starší než Oliver.
+Vytáhla z kapsy malý kožený váček. Monks ho chvatně otevřel. Na dlani se mu zaleskl malý zlatý přívěsek, který se dal otevřít a skrýval pramínky vlasů, a vedle něj prostý prsten, jaký dostává nevěsta u oltáře. Do jeho vnitřní strany bylo vyryto jediné jméno, Agnes, a datum o necelý rok starší než Oliver.
 
 Monks vstal, odsunul stůl a otevřel v podlaze padací dveře. Pod nimi hučela černá voda řeky. Přivázal medailónek a prsten k olověnému závaží a hodil je dolů. Voda se nad nimi zavřela.
 
@@ -807,7 +805,7 @@ Za soumraku zastavil před domem pana Brownlowa kočár. Vystoupili z něj dva s
 
 Pan Brownlow ho přijal v pracovně. Monks byl rozzuřený a chtěl vědět, proč ho násilím přivezli. Pan Brownlow mu odpověděl, že kdyby chtěl, mohl zavolat policii. Ale protože byl přítelem jeho otce, dal mu možnost promluvit si s ním mezi čtyřma očima.
 
-„Edwarde Leeforde,“ (s. 461) řekl pan Brownlow. Monks sebou trhl.
+„Edwarde Leeforde,“ řekl pan Brownlow. Monks sebou trhl.
 
 Pan Brownlow vyprávěl. Monksův otec, Edwin Leeford, byl jeho nejlepší přítel. V mládí ho rodina donutila oženit se s ženou, kterou nemiloval. Byla to zlá a pyšná žena. Narodil se jim syn, Edward, ten, který teď sedí v pokoji a říká si Monks. Manželé se brzy rozešli a žena odjela se synem do Paříže.
 
