@@ -5,6 +5,8 @@ order: 23
 
 **Autor:** [Jan Neruda](/cj/autori/jan-neruda/) · **Vydáno:** knižně 1877 (povídky vycházely časopisecky od 60. let) · **Druh:** epika · **Žánr:** soubor povídek · **Směr:** [realismus, májovci](/cj/literatura/10-majovci-ruchovci-lumirovci/)
 
+Knihu si můžeš přečíst ve zkráceném vydání v [knihovně](/cj/knihovna/jan-neruda-povidky-malostranske/).
+
 ## Stručný obsah
 
 Soubor **třinácti povídek** z pražské **Malé Strany**, kde Neruda vyrůstal. Spojuje je prostředí, obyvatelé a vzpomínky na dětství a mládí. Nejčastěji čtené:
