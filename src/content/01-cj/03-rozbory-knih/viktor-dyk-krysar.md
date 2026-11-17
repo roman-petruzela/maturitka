@@ -5,6 +5,8 @@ order: 56
 
 **Autor:** [Viktor Dyk](/cj/autori/viktor-dyk/) · **Vydáno:** časopisecky 1911, knižně 1915 · **Druh:** epika · **Žánr:** novela (lyrizovaná próza) · **Směr:** [česká literatura přelomu 19. a 20. století, generace buřičů](/cj/literatura/11-literarni-moderna-a-generace-buricu/)
 
+Knihu si můžeš přečíst ve zkráceném vydání v [knihovně](/cj/knihovna/viktor-dyk-krysar/).
+
 ## Stručný obsah
 
 Do německého hanzovního města **Hameln** (Hammeln) přijde tajemný **krysař** — muž bez jména, který putuje od města k městu a svou **píšťalou** z nich vyhání krysy. Konšelé mu za vyhubení krys slíbí **sto rýnských zlatých**. Krysař své dílo vykoná. V Hamelnu se zamiluje do krásné **Agnes** a ona do něj; poprvé v životě by chtěl někde zůstat.
