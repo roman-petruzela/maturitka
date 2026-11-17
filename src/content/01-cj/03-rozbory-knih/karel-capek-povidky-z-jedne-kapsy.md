@@ -5,6 +5,8 @@ order: 67
 
 **Autor:** [Karel Čapek](/cj/autori/karel-capek/) · **Vydáno:** 1929 (spolu s *Povídkami z druhé kapsy*) · **Druh:** epika · **Žánr:** soubor povídek (detektivní a filozofické povídky) · **Směr:** [česká meziválečná literatura, demokratický proud](/cj/literatura/13-ceska-mezivalecna-avantgarda-a-proza/)
 
+Knihu si můžeš přečíst ve zkráceném vydání v [knihovně](/cj/knihovna/karel-capek-povidky-z-jedne-kapsy/).
+
 ## Stručný obsah
 
 Soubor **24 povídek**, které vycházely nejdřív v *Lidových novinách*. Na první pohled jsou to **detektivky** — krádeže, vraždy, záhady —, ale Čapka víc než pachatel zajímá, **jak lze poznat pravdu**, jak člověk uvažuje a jak se chová v mezní situaci. Vystupují v nich policisté, soudci, kriminalisté a obyčejní pražští lidé. Známé povídky:
