@@ -7,6 +7,8 @@ order: 61
 
 Román má čtyři díly (*V zázemí*, *Na frontě*, *Slavný výprask*, *Pokračování slavného výprasku*), Hašek ho nedokončil. Ke zkoušce je ze seznamu **1. díl — V zázemí**.
 
+Knihu si můžeš přečíst ve zkráceném vydání v [knihovně](/cj/knihovna/jaroslav-hasek-osudy-dobreho-vojaka-svejka/).
+
 ## Stručný obsah (1. díl)
 
 Pražský **Josef Švejk**, bývalý voják propuštěný z armády pro „úřední blbost“, se živí prodejem psů s falešnými rodokmeny. Od posluhovačky **paní Müllerové** se dozví, že v Sarajevu zabili arcivévodu Ferdinanda. V hospodě **U Kalicha** u hostinského **Palivce** o tom vede řeči a nechá se vyprovokovat policejním konfidentem **Bretschneiderem** — oba s Palivcem jsou zatčeni za velezradu.
