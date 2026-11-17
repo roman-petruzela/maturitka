@@ -5,6 +5,8 @@ order: 12
 
 **Autor:** [Karel Hynek Mácha](/cj/autori/karel-hynek-macha/) · **Vydáno:** 1836 · **Druh:** lyricko-epický · **Žánr:** básnická skladba (romantická poéma) · **Směr:** [romantismus](/cj/literatura/07-narodni-obrozeni/#karel-hynek-mácha-18101836)
 
+Knihu si můžeš přečíst ve zkráceném vydání v [knihovně](/cj/knihovna/karel-hynek-macha-maj/).
+
 ## Stručný obsah
 
 **1. zpěv.** Je večer prvního máje. Na břehu jezera pod horou čeká krásná dívka **Jarmila** na svého milého **Viléma**. Místo něj připluje loďkou jeho druh a přinese zprávu: Vilém je ve vězení a zítra bude popraven, protože zabil Jarmilina svůdce — a teprve potom zjistil, že to byl jeho vlastní otec. Jarmila se zoufalstvím vrhne do jezera.
