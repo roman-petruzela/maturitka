@@ -5,6 +5,8 @@ order: 66
 
 **Autor:** [Karel Čapek](/cj/autori/karel-capek/) · **Premiéra:** 1937 · **Druh:** drama · **Žánr:** tragédie (alegorické, protiválečné drama) · **Směr:** [česká meziválečná literatura, demokratický proud](/cj/literatura/13-ceska-mezivalecna-avantgarda-a-proza/)
 
+Knihu si můžeš přečíst ve zkráceném vydání v [knihovně](/cj/knihovna/karel-capek-bila-nemoc/).
+
 ## Stručný obsah
 
 Ve smyšleném státě, kterému vládne **Maršál**, diktátor připravující válku, se šíří nová nemoc — **bílá nemoc** („čengova nemoc“). Začíná necitlivou bílou skvrnou na kůži, tělo pak zaživa hnije a zapáchá a nemocný umírá. Postihuje jen lidi **starší čtyřiceti pěti let**. Lék neexistuje.
