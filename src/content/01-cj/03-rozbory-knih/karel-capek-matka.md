@@ -5,6 +5,8 @@ order: 68
 
 **Autor:** [Karel Čapek](/cj/autori/karel-capek/) · **Premiéra:** 1938 · **Druh:** drama · **Žánr:** tragédie (protiválečné drama s fantastickými prvky) · **Směr:** [česká meziválečná literatura, demokratický proud](/cj/literatura/13-ceska-mezivalecna-avantgarda-a-proza/)
 
+Knihu si můžeš přečíst ve zkráceném vydání v [knihovně](/cj/knihovna/karel-capek-matka/).
+
 ## Stručný obsah
 
 **Matka** (Dolores) přišla o manžela — důstojníka, který padl ve válce — a postupně ztrácí i syny. Mrtví se jí zjevují a mluví s ní, živí je nevidí. Matka jim vyčítá, že šli za něčím nebezpečným, oni jsou hrdí, že zemřeli pro „něco většího“.
