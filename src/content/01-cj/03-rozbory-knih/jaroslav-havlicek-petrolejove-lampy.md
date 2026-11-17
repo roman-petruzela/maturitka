@@ -5,6 +5,8 @@ order: 64
 
 **Autor:** [Jaroslav Havlíček](/cj/autori/jaroslav-havlicek/) · **Vydáno:** 1935 · **Druh:** epika · **Žánr:** psychologický román · **Směr:** [česká meziválečná próza, psychologický proud](/cj/literatura/13-ceska-mezivalecna-avantgarda-a-proza/)
 
+Knihu si můžeš přečíst ve zkráceném vydání v [knihovně](/cj/knihovna/jaroslav-havlicek-petrolejove-lampy/).
+
 ## Stručný obsah
 
 **Štěpa Kiliánová** je dcera zámožného a vlivného **stavitele Kiliána** z podkrkonošského městečka. Je silná, prostořeká, nepříliš hezká a muži o ni nestojí. Touží po rodině a dětech, ale léta plynou a ona zůstává „starou pannou“ — hraje ochotnické divadlo a vede rodičům domácnost.
