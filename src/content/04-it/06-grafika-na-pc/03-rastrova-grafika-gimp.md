@@ -4,55 +4,53 @@ order: 3
 source: "grafika/VY_32_INOVACE_3223_01 až 13.pptx (7 prezentací sloučeno do jednoho materiálu)"
 ---
 
-> Pozn. k obsahu: Původní podklad byl rozdělen do 7 samostatných prezentací (základní charakteristika, výběrové metody, jas/kontrast, korekce barev, maska, úprava fotografie, odstranění červených očí) — sloučeno do jednoho materiálu.
-
-**GIMP** ([gimp.org](http://www.gimp.org)) je bitmapový (rastrový) grafický editor s částečnou podporou vektorové grafiky, distribuovaný zdarma pod licencí GPL. Používá se pro tvorbu grafiky pro web i pro úpravu fotografií, podporuje práci s vrstvami a je lokalizovaný do češtiny.
+**GIMP** ([gimp.org](http://www.gimp.org)) – rastrový editor s částečnou podporou vektorů, zdarma (GPL), česky. Web grafika i úprava fotek, vrstvy.
 
 ## Základní části programu
 
-- **Hlavní okno** — zobrazuje upravovaný obrázek/fotografii a obsahuje hlavní menu s nástroji.
-- **Panel nástrojů** — ikony základních nástrojů (výběr, kreslení, retušování...), volba barvy popředí/pozadí, karta „Volby nástroje“ s nastavením aktuálně vybraného nástroje.
-- **Okno Vrstvy** — práce s vrstvami, barevnými kanály, cestami, historií změn, stopami a přechody.
+- **Hlavní okno** – obrázek + hlavní menu.
+- **Panel nástrojů** – výběr, kreslení, retuš; barva popředí/pozadí; „Volby nástroje“.
+- **Okno Vrstvy** – vrstvy, kanály, cesty, historie, stopy, přechody.
 
-GIMP lze přepnout mezi víceoknovým zobrazením (více samostatných oken) a **režimem s jedním oknem** (menu Okna → Režim s jedním oknem) — druhý je pro většinu uživatelů přehlednější.
+Přehlednější je **režim s jedním oknem** (Okna → Režim s jedním oknem).
 
-Nový obrázek založíme přes **Soubor → Nový** (Ctrl+N), kde zvolíme rozměry (šířku/výšku v pixelech) a rozlišení; případně lze vyjít z předpřipravené šablony. Barvu popředí/pozadí měníme na panelu nástrojů výběrem ze vzorníku, posuvníky, nebo číselným zadáním v modelu RGB, CMYK nebo HSV. Obrázek ukládáme přes **Soubor → Uložit** (Ctrl+S) — nativní formát GIMPu je **XCF** a zachovává vrstvy a veškerou editovatelnost; pro sdílení/web je potřeba obrázek navíc **exportovat** do formátu jako JPEG nebo PNG.
+**Soubor → Nový** (Ctrl+N): rozměry v px a rozlišení, případně šablona. Barvy ze vzorníku, posuvníky nebo číselně (RGB, CMYK, HSV). **Uložit** (Ctrl+S) = nativní **XCF** (vrstvy, editovatelnost); pro web **exportovat** do JPEG/PNG.
 
 ## Výběrové metody
 
 | Metoda | Použití |
 |---|---|
-| Obdélníkový / eliptický výběr | rychlý výběr pravidelného tvaru, případně s pevným poměrem stran |
-| Volný výběr (laso) | výběr od ruky, nepřesný — pro přesnější práci lépe grafický tablet |
-| Přibližný výběr (kouzelná hůlka) | výběr souvislé oblasti podobné barvy (např. jednobarevné pozadí); parametr **Práh** určuje, jak velký rozdíl barev se ještě považuje za "stejnou" oblast |
-| Výběr podle barvy | obdoba přibližného výběru, ale vybere všechny pixely dané barvy v celém obrázku, ne jen souvislou oblast |
-| Cesty | přesný výběr pomocí kotevních a řídicích bodů (podobně jako Bézierova křivka ve vektorovém editoru) — nejpřesnější metoda pro křivočaré tvary |
-| Výběr nůžkami | přidávání kotevních bodů podél hrany objektu, s inteligentním přichytáváním k hranám |
-| Výběr popředí | označení oblasti lasem a jejím dokreslením/domazáním štětcem, vhodné pro členité objekty |
+| obdélníkový / eliptický | pravidelné tvary, i s pevným poměrem stran |
+| volný (laso) | od ruky, nepřesné; lépe s tabletem |
+| přibližný (kouzelná hůlka) | souvislá oblast podobné barvy; **Práh** = tolerance |
+| podle barvy | všechny pixely dané barvy v celém obrázku |
+| cesty | kotevní a řídicí body (Bézier) – nejpřesnější pro křivky |
+| nůžky | body podél hrany s přichytáváním k hranám |
+| výběr popředí | laso + doladění štětcem; členité objekty |
 
-Po vytvoření výběru ho lze **vykreslit** (obtáhnout čarou zvolené tloušťky a stylu, barvou popředí) přes menu, nebo zrušit klávesami Shift+Ctrl+A.
+Výběr lze **vykreslit** (obtáhnout barvou popředí) nebo zrušit Shift+Ctrl+A.
 
 ## Jas a kontrast
 
-**Jas** je celková světlost fotografie, **kontrast** je rozdíl mezi nejsvětlejším a nejtmavším místem. Upravují se společně přes menu **Barvy → Jas-kontrast**. Doporučený postup: nejdřív si vrstvu s fotografií zduplikovat (aby šla úprava snadno vrátit), pak jezdcem jasu dolaďovat, dokud fotografie nezesvětlá/neztmavne požadovaně, ale není "v oparu" (přepálená). Kontrast se upravuje analogicky, cílem je zvýraznit rozdíly, ale nepřepálit barvy. Na závěr se vrstvy sloučí a fotografie exportuje (typicky do JPEG).
+**Jas** = celková světlost, **kontrast** = rozdíl nejsvětlejšího a nejtmavšího místa. **Barvy → Jas-kontrast**. Postup: duplikovat vrstvu → doladit jas (ne „v oparu“) → kontrast (nepřepálit) → sloučit vrstvy → export (JPEG).
 
 ## Korekce barev
 
-Fotografie často neodpovídá realitě (obloha vyjde fialová místo modré, pleť moc červená apod.) — nejčastější nástroje nápravy:
+Když fotka neodpovídá realitě (fialová obloha, červená pleť):
 
-- **Úrovně** (menu Barvy → Úrovně) — dialog s **histogramem** (graf četnosti tmavých/světlých pixelů, ukazuje pře-/podexponování). Prostřední jezdec nastavuje jas, krajní jezdci kontrast (dobrým výchozím krokem je posunout krajní jezdce na okraje histogramu).
-- **Vyvážení barev** (Barvy → Vyvážení barev) — upravuje barevný nádech zvlášť pro stíny, střední tóny a světla, beze změny jasu; např. u příliš červené fotografie posuneme jezdec směrem k azurové.
-- **Odstín-sytost** (Barvy → Odstín-sytost) — zvyšuje/snižuje sytost barev; přehnaná sytost vede k nepřirozeným barvám, je třeba postupovat opatrně.
+- **Úrovně** (Barvy → Úrovně) – **histogram** (četnost tmavých a světlých bodů, pře-/podexpozice). Prostřední jezdec jas, krajní kontrast (posunout na okraje histogramu).
+- **Vyvážení barev** – nádech zvlášť ve stínech, středech a světlech bez změny jasu; příliš červená → k azurové.
+- **Odstín-sytost** – sytost barev; s mírou, jinak nepřirozené.
 
 ## Maska
 
-Maska je filtr, který chrání (část) obrázku před editací — ukládá se do samostatného kanálu a týká se jen jedné vrstvy (ne vrstvy pozadí). Je to sada šedých hodnot 0–255: černá (0) = plně průhledné, bílá (255) = plně kryje. Používá se pro spojování/prolínání obrázků, maskování pozadí nebo textu, přebarvení části obrázku.
+**Maska** chrání část vrstvy před úpravou; samostatný kanál jedné vrstvy (ne pozadí). Šedé hodnoty 0–255: **černá = průhledné**, **bílá = kryje**. Prolínání obrázků, maskování pozadí, přebarvení části.
 
-Rychlejší alternativou je **rychlá maska** (ikona vlevo dole u obrázku) — po zapnutí se přes fotografii položí červená průhledná fólie, do které se kreslí v odstínech šedé; po vypnutí rychlé masky se z nakreslené oblasti stane běžný výběr, aniž by se zasáhlo do původní vrstvy.
+**Rychlá maska** (ikona vlevo dole) – červená fólie, do níž se kreslí šedou; po vypnutí z ní je výběr, originál nedotčen.
 
 ## Odstranění červených očí
 
-Efekt vzniká odrazem blesku umístěného blízko objektivu (typicky kompaktní fotoaparáty). Řeší se filtrem **Filtry → Vylepšit → Odstranit červené oči**, kde se nastaví práh citlivosti; pokud se ve fotografii vyskytuje podobný odstín i jinde (např. rty), je potřeba oči nejdřív vybrat (eliptický výběr nebo cesty, s volbou "přidat k aktuálnímu výběru" pro obě oči najednou). Obdobným postupem (štětec v režimu "Barva" se stopou o velikosti cca třetiny oka) lze i cíleně přebarvit oči na jinou barvu.
+Odraz blesku blízko objektivu. **Filtry → Vylepšit → Odstranit červené oči**, nastavit práh; když je podobná barva i jinde (rty), nejdřív vybrat oči (eliptický výběr, „přidat k výběru“). Přebarvení očí: štětec v režimu „Barva“, stopa ~⅓ oka.
 
 ## Cvičení
 

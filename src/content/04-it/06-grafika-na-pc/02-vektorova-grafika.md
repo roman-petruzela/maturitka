@@ -4,54 +4,54 @@ order: 2
 source: "grafika/VY_32_INOVACE_3222_01 až 11.pptx (11 prezentací sloučeno do jednoho materiálu)"
 ---
 
-> Pozn. k obsahu: Původní podklad byl rozdělen do 9 samostatných prezentací (pracovní plocha, tvarování, kreslení úseček a křivek, barvy základní a pokročilé, práce s textem, úprava textu) demonstrovaných ve vektorovém editoru Zoner Callisto — sloučeno do jednoho materiálu; postupy jsou stejné principiálně v jakémkoliv vektorovém editoru (CorelDRAW, Illustrator, Inkscape), liší se jen umístění ovládacích prvků.
+Postupy ve vektorovém editoru Zoner Callisto; v CorelDRAW, Illustratoru či Inkscapu fungují stejně, liší se jen umístění ovládání.
 
 ## Pracovní plocha
 
-Vektorový editor má typicky několik panelů nástrojů: **základní** (výběr a editace objektů, tvarování, křivky, tvary, text, tabulky, vkládání obrázků), **měřítko**, **text**, **alternativní** (zobrazuje doplňkové možnosti aktuálně vybraného nástroje), **galerie** a **barvy**.
+Panely: **základní** (výběr, tvarování, křivky, tvary, text, tabulky, obrázky), **měřítko**, **text**, **alternativní** (volby aktuálního nástroje), **galerie**, **barvy**.
 
-Objekty lze **zarovnávat** pomocí zobrazené mřížky nebo vodicích linek, a **vybírat** buď jednotlivě, nebo více najednou (podržením Shift, nebo tažením myši přes více objektů; Ctrl+A vybere vše).
+**Zarovnání** podle mřížky nebo vodicích linek. **Výběr** jednotlivě, více se Shiftem nebo tažením, vše Ctrl+A.
 
 ### Základní operace s objekty
 
-- **Posun** — tažením myší, kurzorovými klávesami, nebo přesným zadáním souřadnic v dialogu transformace.
-- **Změna velikosti** — tažením za úchopové body (poměrově nebo nepoměrově), nebo přesným číselným zadáním.
-- **Otáčení** — druhým kliknutím na již vybraný objekt (ne dvojklikem) se zobrazí body pro otáčení a posunutelný střed otáčení; přesné natočení jde zadat i číselně.
-- **Sklopení (zkosení)** — tažením za úchopové body v režimu otáčení, nebo přesným zadáním úhlu.
-- **Kopírování** — klasicky Ctrl+C/Ctrl+V, nebo Ctrl+D (kopie hned vedle originálu), nebo v duplikačním režimu (přesouváním objektu vznikají kopie), případně vícenásobné/lineární kopírování pro řadu pravidelně rozmístěných kopií (např. soustředné čtverce zmenšované o pevný krok, nebo objekty postupně pootočené o pevný úhel).
+- **Posun** – myší, šipkami, nebo přesně souřadnicemi.
+- **Změna velikosti** – úchopové body (poměrně / nepoměrně) nebo číselně.
+- **Otáčení** – druhé kliknutí na vybraný objekt (ne dvojklik) → body otáčení a posunutelný střed; i číselně.
+- **Zkosení** – úchopové body v režimu otáčení nebo úhlem.
+- **Kopírování** – Ctrl+C/V, Ctrl+D (kopie vedle), duplikační režim, **vícenásobné kopírování** (řada kopií se stálým posunem, zmenšením nebo pootočením).
 
 ### Tvarování objektů
 
-Přepnutím do režimu tvarování (na rozdíl od režimu výběru/editace, který objekt jen posouvá/otáčí/zvětšuje jako celek) lze upravovat vnitřní geometrii tvaru:
+**Režim tvarování** mění vnitřní tvar (režim výběru jen posouvá, otáčí, zvětšuje celek):
 
-- **Obdélník/čtverec** — tažením za body měníme zaoblení nebo sražení rohů.
-- **Kružnice/elipsa** — nastavením počátečního a koncového úhlu vznikne místo celého kruhu jen oblouk nebo výseč.
-- **Mnohoúhelník/hvězda** — lze měnit počet a ostrost cípů.
-- **Převod na křivky** — libovolný základní tvar lze převést na obecnou křivku a pak už s ním pracovat nesymetricky, bod po bodu (viz níže).
+- **Obdélník** – zaoblení nebo sražení rohů.
+- **Elipsa** – počáteční a koncový úhel → oblouk nebo výseč.
+- **Mnohoúhelník / hvězda** – počet a ostrost cípů.
+- **Převod na křivky** – pak úpravy bod po bodu.
 
 ## Kreslení čar
 
-- **Úsečka** — buď klik-klik (dva krajní body), nebo klik a tažení. Se Shiftem/Ctrl lze omezit sklon na násobky 15°. Navazující úsečky lze kreslit jako řetězec, který tvoří jeden souvislý objekt (uzavíratelný do polygonu).
-- **Křivka** — nejprve určíme počáteční bod, druhý bod myší přímo vytvarujeme. Křivku lze dodatečně upravovat přidáváním/odebíráním uzlových bodů a přetahováním koncových bodů.
-- **Typ přechodu v uzlovém bodě** — **ostrý** (dvě sousední křivkové segmenty mohou mířit libovolným směrem — vhodné pro rohy) nebo **hladký/symetrický** (směry segmentů leží na jedné přímce — vhodné pro plynulé napojení, např. u kruhových oblouků).
-- Úsečku lze kdykoliv převést na křivku a naopak.
+- **Úsečka** – klik-klik nebo tažení; se Shiftem/Ctrl sklon po 15°. Navazující úsečky = jeden objekt (lze uzavřít do polygonu).
+- **Křivka** – počáteční bod, druhý bod rovnou vytvarovat; pak přidávat/odebírat uzly.
+- **Uzlový bod** – **ostrý** (segmenty libovolným směrem, rohy) nebo **hladký** (na jedné přímce, plynulé napojení).
+- Úsečka ↔ křivka kdykoli.
 
 ## Barvy
 
-- **Základní paleta** dole na pracovní ploše — levým tlačítkem myši měníme barvu obrysu (úsečky, křivky), pravým tlačítkem barvu výplně.
-- **Míchání barev** — lze zvolit libovolný barevný model (např. RGB v rozsahu 0–255 pro každou složku) a namíchat přesný odstín, případně si vytvořit a uložit vlastní paletu.
-- **Typy výplně** (pokročilá práce): **jednobarevná**; **lineární** — přechod mezi dvěma barvami s nastavitelným úhlem a počtem kroků přechodu; **kónická/kruhová/obdélníková/křížová** — obdoby přechodu s jiným tvarem šíření a nastavitelnou polohou středu; **bitmapová** — výplň obrázkem ze souboru, generovaným fraktálem, nebo ze schránky.
-- **Pero** — nastavuje vzhled obrysové čáry (typ, šířka, barva, zakončení).
-- **Průhlednost** — lze nastavit u libovolného typu výplně.
-- **Stín** — několik předdefinovaných typů, měkký stín je nejuniverzálnější volba.
+- **Paleta** dole – levé tlačítko = obrys, pravé = výplň.
+- **Míchání** v libovolném modelu (RGB 0–255…), vlastní palety.
+- **Výplně**: **jednobarevná**; **lineární přechod** (úhel, počet kroků); **kónická / kruhová / obdélníková / křížová** (jiný tvar, posunutelný střed); **bitmapová** (obrázek, fraktál, schránka).
+- **Pero** – typ, šířka, barva a zakončení obrysu.
+- **Průhlednost** – u každé výplně.
+- **Stín** – předvolby, nejuniverzálnější měkký.
 
 ## Práce s textem
 
-- **Normální text** — vytvoří se tažením myši, které vymezí obdélníkovou oblast; pokud je text delší než oblast, zobrazí se varovný rámeček (text se do oblasti nevejde celý).
-- **„Umělecký“ text** — nemá pevně danou oblast, přizpůsobuje se přesně napsanému textu; dá se navíc umístit na libovolnou křivku nebo tvar, podél kterého pak kopíruje jeho tvar.
-- U obou typů lze měnit velikost, font, řádkování, zarovnání, tloušťku a sklon písma a stejně jako u ostatních objektů kombinovat barvu, obrys, výplň, průhlednost a stín.
-- **Úprava textu** — přepsání textu přímo v editačním režimu; tvarování textového rámce (zarovnání, umístění nad/pod základnu, zrcadlení); **převod textu na křivky** umožňuje upravovat tvar jednotlivých písmen nesymetricky (např. při úpravě loga) — po převodu se ale text přestane chovat jako text (nejde už jen přepsat).
-- Text lze psát i „od ruky“ (kreslicím nástrojem) a dotvarovat — používá se např. pro kaligrafické podpisy.
+- **Normální text** – tažením vymezená oblast; nevejde-li se, ukáže se varovný rámeček.
+- **„Umělecký“ text** – bez pevné oblasti; lze ho položit na křivku nebo tvar.
+- Obojí: velikost, font, řádkování, zarovnání, tloušťka, sklon; barva, obrys, výplň, průhlednost, stín.
+- **Úpravy**: přepis v editačním režimu; tvarování rámce (zarovnání, nad/pod základnu, zrcadlení); **převod na křivky** – úprava jednotlivých písmen (loga), ale už nejde přepsat.
+- Text „od ruky“ kreslicím nástrojem – kaligrafické podpisy.
 
 ## Cvičení
 

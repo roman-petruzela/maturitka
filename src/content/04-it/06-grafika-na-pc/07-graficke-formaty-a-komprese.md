@@ -2,12 +2,12 @@
 title: "Grafické formáty a komprese"
 order: 7
 ---
-Formát souboru určuje, jak je obrázek uložen – jestli jako mřížka bodů, nebo jako popis objektů, jakou kompresí, s kolika barvami a zda umí průhlednost, animaci nebo vrstvy. Volba formátu záleží na tom, co se s obrázkem bude dít dál.
+Formát určuje, jak je obrázek uložen: rastr nebo vektor, komprese, počet barev, průhlednost, animace, vrstvy. Volí se podle toho, co se s obrázkem bude dít dál.
 
 ## Komprese
 
-- **Bezztrátová** – data se zhustí tak, že je lze přesně obnovit (např. opakující se stejné body se uloží jednou s počtem opakování). Hodí se pro grafiku s plochami jedné barvy, text a obrázky, které se budou dál upravovat. PNG, GIF, TIFF.
-- **Ztrátová** – vynechá detaily, kterých si oko nevšimne (jemné barevné přechody), a soubor je mnohem menší. Původní data se už nedají obnovit a každé další uložení kvalitu zhorší. Míra komprese se volí – vyšší komprese = menší soubor a horší kvalita (kostičky, „artefakty“ kolem ostrých hran). JPEG, WebP ve ztrátovém režimu.
+- **Bezeztrátová** – přesně obnovitelná (např. opakující se body se uloží jednou + počet). Plochy jedné barvy, text, další úpravy. PNG, GIF, TIFF.
+- **Ztrátová** – vynechá, čeho si oko nevšimne → mnohem menší soubor. Originál nejde obnovit, každé uložení zhorší kvalitu. Vyšší komprese = menší soubor, víc **artefaktů** (kostičky, šmouhy u hran). JPEG, ztrátový WebP.
 
 ## Rastrové formáty
 
@@ -22,7 +22,7 @@ Formát souboru určuje, jak je obrázek uložen – jestli jako mřížka bodů
 | **RAW** | – | „surová“ data snímače | – | – | fotoaparáty – maximum informací pro pozdější úpravu |
 | **PSD**, **XCF** | – | vše | ano | – | nativní formáty Photoshopu a GIMPu – zachovají vrstvy, masky, text |
 
-PNG vznikl jako nástupce GIFu bez omezení na 256 barev. JPEG se nehodí na perokresbu, text a ikony – kolem ostrých hran vytváří rozmazané šmouhy.
+PNG = nástupce GIFu bez limitu 256 barev. JPEG se nehodí na text, perokresbu a ikony (šmouhy u hran).
 
 ## Vektorové formáty
 
@@ -38,12 +38,12 @@ PNG vznikl jako nástupce GIFu bez omezení na 256 barev. JPEG se nehodí na per
 
 ## Konverze
 
-**Konverze** je převod obrázku z jednoho formátu do jiného – v grafickém editoru (*Soubor → Exportovat jako*) nebo hromadně v prohlížečích jako IrfanView či XnView.
+**Konverze** = převod mezi formáty – v editoru (*Soubor → Exportovat jako*) nebo hromadně (IrfanView, XnView).
 
-- převod do ztrátového formátu (JPEG) je nevratný – originál je dobré uschovat v bezztrátovém nebo nativním formátu (PNG, TIFF, PSD, XCF)
-- převod rastru na vektor (**vektorizace, trasování**) obrys jen odhaduje; funguje dobře u log a perokresby, ne u fotografií
-- převod vektoru na rastr (**rasterizace**) je snadný, ale výsledek už nejde bez ztráty zvětšovat
-- při převodu z RGB do CMYK (pro tisk) se mohou syté barvy změnit – viz [gamut](/it/grafika-na-pc/06-barevne-modely-rozliseni-a-sprava-barev/#správa-barev)
+- do JPEG nevratně – originál nechat v PNG, TIFF, PSD, XCF
+- rastr → vektor (**vektorizace, trasování**) obrys jen odhaduje; loga ano, fotky ne
+- vektor → rastr (**rasterizace**) snadné, ale pak už nejde zvětšovat
+- RGB → CMYK mění syté barvy – viz [gamut](/it/grafika-na-pc/06-barevne-modely-rozliseni-a-sprava-barev/#správa-barev)
 
 ## Jak formát vybrat
 
@@ -64,7 +64,7 @@ PNG vznikl jako nástupce GIFu bez omezení na 256 barev. JPEG se nehodí na per
 | Adobe Photoshop | komerční (předplatné) | profesionální standard |
 | Zoner Photo Studio | komerční | správa a úprava fotografií |
 
-Při výběru rozhoduje cena, dostupnost, česká lokalizace, ovládání, možnosti rozšíření (plug-iny) a formáty, které program umí.
+Rozhoduje cena, čeština, ovládání, plug-iny a podporované formáty.
 
 ## Shrnutí
 

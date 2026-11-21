@@ -4,57 +4,61 @@ order: 1
 source: "IT/15.–18. GIMP, Zoner, SketchUp; Grafické formáty...; grafika/01_Instalace_Zoner_Callisto_5_Free.pdf (sloučeno)"
 ---
 
-Počítačová grafika je obor výpočetní techniky, který používá počítač k tvorbě umělých grafických objektů a k úpravě fotografií nasnímaných z reálného světa. Rozlišujeme dva základní přístupy k uložení obrázku — **rastrovou** a **vektorovou** grafiku.
+Počítačová grafika = tvorba umělých obrázků počítačem a úprava fotografií. Dva základní způsoby uložení: **rastr** a **vektor**.
+
+![Zvětšený rastrový kruh složený z pixelů vedle hladkého vektorového kruhu s kotevními a řídicími body Bézierovy křivky](/images/content/it/grafika-na-pc/pojmy/rastr-vektor.webp)
 
 ## Rastrová (bitmapová) grafika
 
-Obrázek je tvořen pravidelnou mřížkou bodů (**pixelů**), přičemž každý bod má přiřazenou barvu.
+Mřížka bodů (**pixelů**), každý má svou barvu.
 
-- **Výhoda** — snadné pořízení (fotoaparát, skener), realistické zachycení skutečnosti.
-- **Nevýhoda** — velikost obrázku nelze zvětšit bez ztráty kvality; vyšší paměťová náročnost, proto se používá komprese.
-- **Rozlišení** — počet bodů na jednotku vzdálenosti; **DPI** (dots per inch) udává hustotu bodů na palec. U monitoru se rozlišení udává jako počet sloupců × počet řádků pixelů.
-- **Barevná hloubka** — kolik barev může jeden bod nabývat; běžná paleta RGB má 16,7 milionu barev (24 bitů), na webu se dřív často používala paleta 256 barev.
-- **Formáty**: **JPEG** (ztrátová komprese, vhodný pro fotografie s plynulými přechody barev), **GIF** (max. 256 barev, vhodný pro ostré hrany a jednoduché animace), **PNG** (bezztrátový, podporuje průhlednost), **BMP** (nekomprimovaný, velké soubory, dnes už se prakticky nepoužívá).
+- **Výhoda** – snadné pořízení (foťák, skener), realistické.
+- **Nevýhoda** – zvětšení = ztráta kvality; velké soubory → komprese.
+- **Rozlišení** – body na délku, **DPI** = body na palec; u monitoru sloupce × řádky.
+- **Barevná hloubka** – kolik barev má bod; RGB 24 b = 16,7 mil. barev, dřív na webu 256.
+- **Formáty**: **JPEG** (ztrátový, fotky), **GIF** (256 barev, ostré hrany, animace), **PNG** (bezeztrátový, průhlednost), **BMP** (nekomprimovaný, dnes skoro ne).
 
 ## Vektorová grafika
 
-Obraz je popsán geometrickými objekty (body, přímky, křivky, polygony), které jsou matematicky definované — typicky pomocí **Bézierových křivek** s řídicími body, jež určují jejich tvar a směr.
+Obraz popsaný matematicky – body, přímky, křivky, polygony; typicky **Bézierovy křivky** s řídicími body.
 
-- **Výhoda** — libovolné zvětšení/zmenšení beze ztráty kvality, malá velikost souboru, s každým objektem lze pracovat odděleně, žádná ztráta kvality při ukládání.
-- **Nevýhoda** — složitější pořízení (nelze jen vyfotit), menší barevná realističnost.
-- Používá se všude, kde je potřeba vysoká přesnost a škálovatelnost: loga, vizitky, diagramy, grafy, reklamní materiály.
-- **Formáty**: **SVG** (otevřený, textový/XML formát pro web, podporuje animace a interaktivitu), **PostScript** (`.ps`/`.eps`, starší standard pro tiskárny, dnes nahrazen PDF), **WMF** (jednoduchý, jen černobílý), a formáty konkrétních programů — `.ai` (Adobe Illustrator), `.cdr` (CorelDRAW), `.zmf` (Zoner Callisto). Při převodu mezi těmito formáty je třeba zkontrolovat, jestli se nějaké nepodporované prvky neztratily.
+- **Výhoda** – libovolné zvětšení bez ztráty, malé soubory, objekty zvlášť upravitelné.
+- **Nevýhoda** – nejde jen vyfotit, méně realistické barvy.
+- Použití: loga, vizitky, diagramy, grafy, reklama.
+- **Formáty**: **SVG** (otevřený, XML, web, animace), **PS/EPS** (tiskárny, dnes PDF), **WMF** (jednoduchý), programové `.ai` (Illustrator), `.cdr` (CorelDRAW), `.zmf` (Zoner Callisto). Při převodu hlídat ztrátu nepodporovaných prvků.
 
 ## Barevné modely
 
-- **RGB** — aditivní (vyzařovací) model používaný na obrazovkách, funguje jako míchání světla. Primární barvy červená, zelená, modrá; smícháním všech vzniká bílá. Zapisuje se šestnáctkově nebo jako `RGB(255, 255, 255)`.
-- **CMYK** — subtraktivní model používaný v tisku, funguje jako míchání barev v malířství. Primární barvy azurová (Cyan), purpurová (Magenta), žlutá (Yellow); protože namíchaná černá z těchto tří není dost sytá, přidává se ještě samostatná černá (Key/blacK).
+![RGB: aditivní míchání červené, zelené a modré světla dává bílou; CMYK: subtraktivní míchání azurové, purpurové a žluté dává černou](/images/content/it/grafika-na-pc/pojmy/rgb-cmyk.webp)
+
+- **RGB** – **aditivní** (světlo), obrazovky. Červená + zelená + modrá = bílá. Zápis hex nebo `RGB(255, 255, 255)`.
+- **CMYK** – **subtraktivní** (barvy), tisk. Azurová (C), purpurová (M), žlutá (Y); jejich černá není sytá → přidává se černá (K).
 
 ## Přehled grafického softwaru
 
 | Program | Typ | Poznámka |
 |---|---|---|
-| **GIMP** | rastrový (s částečnou podporou vektoru) | svobodný, zdarma, s vrstvami — viz samostatný materiál o GIMPu |
-| **Adobe Photoshop** | rastrový | standard v grafických studiích, placený |
-| **Zoner Photo Studio** | rastrový | správa a úprava fotografií |
-| **Zoner Callisto** | vektorový | levnější alternativa ke Corelu/Illustratoru, vhodný pro vizitky, letáky, schémata — viz samostatný materiál o vektorové grafice |
-| **CorelDRAW** | vektorový | řada kvalitních nástrojů, vyšší cena |
-| **Adobe Illustrator** | vektorový | profesionální standard, vyšší cena |
-| **Inkscape** | vektorový | svobodný, zdarma |
-| **SketchUp** | 3D modelování | architektura, stavební/strojní návrhy, verze Free (soukromé účely) a Pro (komerční, navíc Layout a Style Builder), nativní formát `.skp` |
-| **Blender** | 3D modelování, animace, rendering | svobodný, zdarma — viz samostatný materiál |
+| **GIMP** | rastr | zdarma, vrstvy – viz materiál o GIMPu |
+| **Adobe Photoshop** | rastr | standard studií, placený |
+| **Zoner Photo Studio** | rastr | správa a úprava fotek |
+| **Zoner Callisto** | vektor | levný, vizitky, letáky, schémata – viz vektorová grafika |
+| **CorelDRAW** | vektor | bohaté nástroje, dražší |
+| **Adobe Illustrator** | vektor | profesionální standard, drahý |
+| **Inkscape** | vektor | zdarma |
+| **SketchUp** | 3D | architektura, strojní návrhy; Free / Pro; `.skp` |
+| **Blender** | 3D, animace, rendering | zdarma – viz samostatný materiál |
 
 ### Instalace Zoner Callisto (Free)
 
-1. Stáhneme instalátor ze stránky výrobce, při registraci zadáme e-mail a zvolíme typ uživatele „Koncový“.
-2. Spustíme stažený `.exe` soubor a projdeme instalací (běžný postup „další, další, dokončit“).
-3. Po prvním spuštění zvolíme „Nový dokument“, čímž se dostaneme do vlastního editoru.
+1. Stáhnout instalátor, registrace e-mailem, typ uživatele „Koncový“.
+2. Spustit `.exe` a projít instalací.
+3. Po spuštění „Nový dokument“ → editor.
 
 ### Praktické poznámky k Adobe Photoshopu a Illustratoru
 
-- **Photoshop** (rastr) — **vrstvy (Layers)**, které se dají upravovat nezávisle na sobě; **režimy prolnutí** (Multiply ztmavuje, Screen zesvětluje, Overlay zvyšuje kontrast); výběrové nástroje (kouzelná hůlka, laso, rychlý výběr); retušování (klonovací razítko, healing brush); **masky vrstev** (černá = neviditelné, bílá = viditelné); úprava barev křivkami/úrovněmi; export pro web (JPEG pro fotografie, PNG pro ostré hrany/průhlednost).
-- **Illustrator** (vektor) — kreslení Bézierových křivek nástrojem pero (kotevní body + směrové páčky); tvarové nástroje kombinovatelné booleovskými operacemi v panelu Pathfinder (sjednocení, průnik, rozdíl); text na křivce; vrstvy a skupiny objektů; export do SVG/PDF pro zachování vektorových dat, případně do PNG/JPEG jako rastr.
-- Typické pravidlo, které nástroj zvolit: fotografie/retuš/koláž z fotek → Photoshop (rastr); logo/ikona/ilustrace v libovolné velikosti → Illustrator (vektor).
+- **Photoshop** (rastr) – **vrstvy**; **režimy prolnutí** (Multiply ztmaví, Screen zesvětlí, Overlay kontrast); výběry (hůlka, laso, rychlý výběr); retuš (razítko, healing brush); **masky** (černá = skryto, bílá = vidět); křivky/úrovně; export JPEG (fotky) / PNG (ostré hrany, průhlednost).
+- **Illustrator** (vektor) – pero (kotevní body + páčky); tvary + Pathfinder (sjednocení, průnik, rozdíl); text na křivce; vrstvy a skupiny; export SVG/PDF (vektor) nebo PNG/JPEG (rastr).
+- Volba: fotka, retuš, koláž → Photoshop; logo, ikona, ilustrace v libovolné velikosti → Illustrator.
 
 ## Cvičení
 
