@@ -4,204 +4,204 @@ order: 1
 source: "IT/10. Počítačové sítě - definice, pojmy, dělení, topologie, přístupové metody.docx; site/Deleni_siti_2025.pdf"
 ---
 
-Co je síť, jak se sítě dělí, jak se zapojují (topologie) a jak se stanice střídají ve vysílání (přístupové metody). Navazuje [model ISO/OSI a TCP/IP](/it/pocitacove-site/02-standardizace-model-iso-osi-a-tcp-ip/).
+Počítačová síť propojuje počítače a další zařízení tak, aby si mohly vyměňovat data a sdílet prostředky. Tahle stránka vysvětluje, z čeho se síť skládá, podle čeho se sítě dělí, jak mohou být stanice propojeny (topologie) a jak se stanice dohodnou, kdo smí zrovna vysílat (přístupové metody). Na ni navazuje [model ISO/OSI a TCP/IP](/it/pocitacove-site/02-standardizace-model-iso-osi-a-tcp-ip/), který komunikaci rozkládá do vrstev.
 
 ## Co je počítačová síť
 
-**Počítačová síť** = technické a programové prostředky, které propojují počítače a jiná zařízení, aby si mohly podle pravidel vyměňovat data a sdílet služby.
+**Počítačová síť** je souhrnné označení všech technických a programových prostředků, které zajišťují spojení a výměnu informací mezi počítači či jinými zařízeními. Umožňuje uživatelům komunikovat podle určitých pravidel – vyměňovat si zprávy a data nebo společně využívat síťové služby.
 
-Jinými slovy:
+Stejnou věc lze říct i jinými slovy:
 
-- dva a více počítačů, které spolu komunikují a sdílejí zdroje (data, software, zařízení),
-- množina propojených aktivních prvků,
-- soustava propojených sítí – **katenetový model**, tak funguje Internet („síť sítí“).
+- spojení dvou nebo více počítačů tak, aby mohly navzájem komunikovat a sdílet zdroje (informace, software, zařízení),
+- množina vzájemně propojených aktivních prvků,
+- soustava vzájemně propojených sítí – tzv. **katenetový model**, podle kterého je postaven i Internet („síť sítí“).
 
-Propojení přes sériový/paralelní port není síť – síť vzniká až přes síťová rozhraní (karty).
+Za počítačovou síť se nepovažuje propojení dvou počítačů přes sériový nebo paralelní port – síť vzniká až propojením přes síťová rozhraní (síťové karty).
 
 ### Z čeho se síť skládá
 
 | Část | Příklady |
 | --- | --- |
-| uzly | počítače, servery, telefony, tiskárny, úložiště |
-| propojovací software | síťová část OS, ovladače, firmware |
-| síťový hardware | síťové karty, switch, router, access point |
-| přenosová média | kroucená dvoulinka, koax, optika, rádio |
+| propojené systémy (uzly) | počítače, servery, mobilní telefony, tiskárny, paměťová zařízení |
+| propojovací software | síťová část operačního systému, ovladače, firmware síťových karet a síťových zařízení |
+| síťový hardware | síťové karty, přepínače (switch), směrovače (router), přístupové body, transceivery |
+| fyzická přenosová média | kabely (kroucená dvoulinka, koaxiální kabel, optické vlákno) nebo bezdrátový přenos |
 
-Prvky se dělí na **pasivní** (kabeláž, konektory, zásuvky, rozvaděče), **aktivní prvky počítače** (síťová karta), **aktivní prvky sítě** (hub, switch) a **prvky pro propojení sítí** (router, bridge, gateway). Viz [pasivní prvky](/it/pocitacove-site/06-pasivni-sitove-prvky-a-kabelaz/) a [aktivní prvky](/it/pocitacove-site/07-aktivni-sitove-prvky-a-sitova-karta/).
+Technické prostředky se obvykle dělí na **pasivní prvky** (kabeláž a její bezdrátová náhrada, konektory, zásuvky, rozvaděče), **aktivní prvky počítače** (síťová karta), **aktivní prvky sítě** (hub, switch) a **prvky pro vzájemné propojení sítí** (router, bridge, gateway). Podrobně je rozebírají stránky [pasivní síťové prvky a kabeláž](/it/pocitacove-site/06-pasivni-sitove-prvky-a-kabelaz/) a [aktivní síťové prvky a síťová karta](/it/pocitacove-site/07-aktivni-sitove-prvky-a-sitova-karta/).
 
 ### Proč se sítě budují
 
-- **sdílení hardwaru** – disky, tiskárny, plottery, skenery,
-- **sdílení softwaru** – databáze, instalace, vzdálené zavádění OS, společná data,
-- **komunikace** – e-mail, chat, sociální sítě,
+- **sdílení technických prostředků** – paměťové jednotky, tiskárny, plottery, skenery,
+- **sdílení programových prostředků** – databáze, instalační programy, vzdálené zavádění operačního systému, společná data,
+- **komunikace mezi uživateli** – elektronická pošta, chat a komunikační programy, sociální sítě,
 - **sdílení informací**,
-- **ochrana a zálohování dat** – centrálně na jednom místě,
-- **zábava** – hry, streamování.
+- **ochrana a zálohování dat** – data jsou uložena centrálně a zálohují se na jednom místě,
+- **zábava** – síťové hry, streamování.
 
 ### Pravidla, která musí síť splňovat
 
-- **stejné protokoly** na všech počítačích,
-- data dorazí **nezkreslená**,
-- příjemce **potvrdí** příjem (nebo ohlásí chybu),
-- každý počítač má **adresu**,
-- provoz je **bezpečný** – zařízení lze identifikovat a ověřit.
+- Počítače musí používat **stejné komunikační protokoly**, tedy stejné postupy pro odesílání a přijímání dat.
+- Data musí být doručena **nezkreslená**, tedy stejná, jako byla odeslána.
+- Musí existovat způsob, jak přijímající počítač **potvrdí** odesílajícímu, že data přijal v pořádku, nebo mu oznámí, že dorazila poškozená.
+- Každý počítač musí mít **adresu**, aby bylo poznat, odkud data pocházejí a kam směřují.
+- Provoz musí být **bezpečný** – musí existovat metoda, jak počítače v síti identifikovat a ověřit.
 
 ### Základní pojmy
 
-- **Paket (rámec)** – blok dat = **hlavička** (odesílatel, příjemce, protokol, kontrolní součet) + **data**. Na linkové vrstvě se mu říká rámec.
-- **MAC adresa** – fyzická 48bitová adresa síťové karty, např. `00-1A-2B-3C-4D-5E`.
-- **IP adresa** – logická adresa pro směrování mezi sítěmi, viz [IPv4](/it/pocitacove-site/12-ipv4-adresovani/).
-- **Protokol** – pravidla komunikace: formát zpráv, pořadí, reakce.
+- **Datový paket (rámec)** – přenášená data se dělí na menší bloky, které se balí do paketů (na linkové vrstvě se jim říká rámce). Paket se skládá z **hlavičky** (kdo ho poslal, komu patří, jaký protokol nese, kontrolní součet) a z vlastních **dat**.
+- **Fyzická adresa (MAC)** – každé zařízení se do sítě připojuje síťovou kartou, která má jednoznačnou 48bitovou fyzickou adresu MAC, např. `00-1A-2B-3C-4D-5E`.
+- **Logická adresa (IP)** – adresa, kterou zařízení dostane v síti a podle které se data směrují mezi sítěmi, viz [IPv4 adresování](/it/pocitacove-site/12-ipv4-adresovani/).
+- **Protokol** – dohodnutá pravidla komunikace: formát zpráv, jejich pořadí a reakce na ně.
 
 ## Výpočetní model – role uzlů v síti
 
-**Výpočetní model** říká, kdo v síti poskytuje služby a kdo je využívá.
+Podle toho, jak spolu uzly spolupracují při provozování aplikací, se mluví o **výpočetním modelu**. Některé uzly jsou servery, některé klienti, jinde jsou si všechny rovny.
 
 | Model | Princip | Výhody | Nevýhody |
 | --- | --- | --- | --- |
-| centralizovaný | vše počítá mainframe, uživatelé mají terminály | snadná správa | výpadek = stojí vše, drahé |
-| klient–server | **server** nabízí služby (soubory, tisk, web, DB), **klienti** je využívají | centrální správa práv a záloh | server = jediné místo selhání |
-| peer-to-peer | všichni rovni, každý nabízí i využívá | levné, bez serveru | slabá správa a bezpečnost |
-| distribuovaný (cloud) | data a výpočty v datových centrech, přístup přes Internet | dostupnost, platí se za využití | závislost na připojení a poskytovateli |
+| centralizovaný | výkonný centrální počítač (mainframe) provádí veškeré výpočty, uživatelé k němu přistupují přes jednoduché terminály | snadná správa, data na jednom místě | výpadek centrálního počítače zastaví vše, drahý hardware |
+| klient–server | **server** je zabezpečený počítač se síťovým operačním systémem, který nabízí služby (soubory, tisk, web, pošta, databáze); **klienti** o služby žádají a mají definovaná práva | centrální správa uživatelů, práv a záloh, dobrá škálovatelnost | server je jediné místo selhání, vyšší cena |
+| peer-to-peer (rovný s rovným) | všechny počítače jsou si rovny, každý může služby nabízet i využívat | levné a jednoduché pro pár počítačů, bez serveru | slabá správa a zabezpečení, nehodí se pro velké sítě |
+| distribuovaný (cloud) | výpočty a data jsou rozprostřeny mezi mnoho serverů, často v datových centrech poskytovatele; uživatel služby využívá přes Internet | vysoká dostupnost, platí se jen za využití | závislost na připojení a poskytovateli |
 
-Síť dále může být **spojovaná / nespojovaná**, **spolehlivá / nespolehlivá**, s **přepojováním okruhů / paketů**, **„best effort“** / **s QoS**, **bloková** / **proudová**.
+Síť přitom může fungovat různými způsoby: **spojovaně / nespojovaně**, **spolehlivě / nespolehlivě**, na principu **přepojování okruhů / paketů**, stylem **„best effort“** (snaha bez záruky) nebo **s garancí kvality** (QoS), **blokově** nebo **proudově**.
 
 ## Dělení počítačových sítí
 
+Sítě lze třídit podle mnoha kritérií. Přehled nejčastějších:
+
 | Kritérium | Druhy sítí |
 | --- | --- |
-| velikost | PAN, LAN (WLAN), CAN, MAN, WAN |
-| technologie | IP, ISO/OSI, X.25; Ethernet, Token Ring, FDDI, Frame Relay |
+| velikost (dosah) | PAN, LAN (WLAN), CAN, MAN, WAN |
+| architektura (síťová technologie) | IP sítě, sítě ISO/OSI, X.25; Ethernet, Token Ring, FDDI, Frame Relay |
 | role uzlů | klient–server, peer-to-peer |
-| topologie | sběrnice, hvězda, rozšířená hvězda, strom, kruh; nesystematická |
-| účel | přístupové, „střední míle“, páteřní |
-| vlastnictví | privátní, veřejné, VPN |
-| přenosová technika | přepojování okruhů / paketů |
-| komunikace | spojované, nespojované |
-| použití | intranet, extranet |
-| médium | metalické, optické, bezdrátové |
-| mobilita | mobilní (GSM, UMTS, LTE, 5G), fixní |
+| topologie | systematická (sběrnice, hvězda, rozšířená hvězda, strom, kruh), nesystematická |
+| účel v rámci větší sítě | přístupové, sítě „střední míle“, páteřní, přenosové |
+| vlastnictví | privátní, veřejné, virtuální privátní (VPN) |
+| přenosová technika | s přepojováním okruhů, s přepojováním paketů |
+| způsob komunikace | spojované, nespojované |
+| způsob použití | intranet, extranet |
+| přenosové médium | metalické (drátové), optické, bezdrátové |
+| mobilita | mobilní (NMT, GSM, UMTS, LTE, 5G), fixní |
 | původ | počítačové, telekomunikační |
-| rychlost | 10 Mb/s, 100 Mb/s (Fast), 1 Gb/s (Gigabit), 10 Gb/s+ |
+| přenosová rychlost | 10 Mb/s (Ethernet), 100 Mb/s (Fast Ethernet), 1 Gb/s (Gigabit Ethernet), 10 Gb/s a více |
 
 ### Podle velikosti (dosahu)
 
-| Dosah | Prostor | Síť |
+| Vzdálenost | Prostor | Typ sítě |
 | --- | --- | --- |
-| 1 m | okolí člověka | PAN |
-| 10–100 m | místnost, budova | LAN |
-| 1 km | areál | CAN |
+| 1 m | stůl, okolí člověka | PAN |
+| 10 m | místnost | LAN |
+| 100 m | budova | LAN |
+| 1 km | areál (kampus) | CAN, LAN |
 | 10 km | město | MAN |
-| 100–1 000 km | stát, kontinent | WAN |
+| 100 km | stát | WAN |
+| 1 000 km | kontinent | WAN |
 | 10 000 km | planeta | Internet |
 
-- **PAN** – osobní síť (telefon, sluchátka, hodinky) na pár metrů; Bluetooth, dříve IrDA.
-- **HAN** – domácí síť (PC, TV, tiskárna, chytré spotřebiče).
-- **LAN** – místní síť (budova, firma); přepínaný Ethernet (802.3) a Wi-Fi (802.11), desítky Mb/s až desítky Gb/s. Bezdrátová = **WLAN**.
-- **CAN** – síť areálu (univerzita, podnik s více budovami).
-- **MAN** – síť města; dnes hlavně metropolitní Ethernet (dříve DQDB, 802.6).
-- **WAN** – rozlehlá síť přes státy a kontinenty, propojuje LAN. Největší je **Internet**.
+- **PAN** (Personal Area Network) – osobní síť jednotlivce nebo velmi malé skupiny. Propojuje hlavně mobilní zařízení (telefon, notebook, sluchátka, hodinky) na vzdálenost nejvýše několika metrů. Bývá bezdrátová – Bluetooth, dříve IrDA (infračervený přenos), případně Wi-Fi nebo USB.
+- **HAN** (Home Area Network) – domácí síť; novější pojem pro síť počítačů, televize, tiskárny a chytrých spotřebičů v domácnosti.
+- **LAN** (Local Area Network) – lokální síť na omezeném prostoru: místnost, budova, firma. Propojuje koncové uzly typu počítač, tiskárna, server. Používá se hlavně přepínaný Ethernet (IEEE 802.3) a Wi-Fi (IEEE 802.11). Infrastrukturu tvoří metalické kabely, případně optická páteř. Rychlosti začínají na desítkách Mb/s a nejnovější technologie dosahují desítek Gb/s. Bezdrátově vytvořená lokální síť se nazývá **WLAN**.
+- **CAN** (Campus Area Network) – síť areálu, např. univerzity nebo podniku s více budovami.
+- **MAN** (Metropolitan Area Network) – síť v rámci města, větší než LAN a menší než WAN. Všeobecně přijatá definice neexistuje – může jít o síť s dosahem celého města nebo o síť sloužící potřebám města. IEEE pro ni vydalo standard DQDB (IEEE 802.6); dnes se používá hlavně metropolitní Ethernet.
+- **WAN** (Wide Area Network) – rozlehlá síť pokrývající rozsáhlé území, státy i kontinenty. Propojují se přes ni jednotlivé lokální sítě, aby mohly komunikovat na velké vzdálenosti. Největší a nejznámější WAN je **Internet**.
 
-Technologie LAN: Ethernet (802.3), Token Bus (802.4), Token Ring (802.5), Wi-Fi (802.11), FDDI aj. V praxi zbyly jen **Ethernet a Wi-Fi**.
+Mezi technologie lokálních sítí patří Ethernet, Fast Ethernet a Gigabit Ethernet (IEEE 802.3), Token Bus (IEEE 802.4), Token Ring (IEEE 802.5), IsoEthernet (IEEE 802.9), bezdrátové sítě Wi-Fi (IEEE 802.11), 100VG-AnyLAN (IEEE 802.12), FDDI a Fibre Channel. Arcnet je dnes mrtvá technologie a v praxi zbyly prakticky jen Ethernet a Wi-Fi.
 
 ### Vnitřní struktura rozlehlé sítě
 
-- **Páteřní sítě** – málo uzlů, velmi rychlé a spolehlivé.
-- **Sítě „střední míle“** – mezi přístupovou a páteřní sítí.
-- **Přístupové sítě** („poslední míle“) – od poskytovatele k zákazníkovi.
+- **Páteřní sítě** propojují několik málo míst a jsou velmi rychlé a spolehlivé.
+- **Sítě „střední míle“** tvoří přechod mezi přístupovou a páteřní sítí.
+- **Přístupové sítě** („poslední míle“) vedou od místa, kde končí vlastní síť poskytovatele, až k zákazníkovi.
 
 ### Podle přenosové techniky a způsobu komunikace
 
-- **Přepojování okruhů** – po dobu spojení vyhrazená linka (klasický telefon).
-- **Přepojování paketů** – pakety jdou samostatně a sdílejí linky (Internet).
-- **Spojované** – nejdřív se naváže spojení (virtuální kanál), pak tečou data.
-- **Nespojované** – data se pošlou bez navázání; např. Ethernet: rámec dostanou všichni a každý sám pozná, jestli je pro něj.
+- **Sítě s přepojováním okruhů** – před přenosem se mezi účastníky vytvoří vyhrazený okruh, který jim patří po celou dobu spojení (klasická telefonní síť).
+- **Sítě s přepojováním paketů** – data se dělí na pakety, které putují sítí samostatně a sdílejí linky s pakety ostatních (Internet).
+- **Spojované sítě** – před zahájením přenosu se musí navázat spojení: uzly se domluví s aktivními prvky a s protějškem a vznikne virtuální kanál, kterým data tečou.
+- **Nespojované sítě** – spojení se nenavazuje, data se pošlou do sítě a ta je filtruje a směruje k cíli. Patří sem technologie založené na všesměrovém vysílání (broadcastu) – Ethernet, Token Ring, FDDI: rámec dorazí ke všem uzlům a každý uzel sám rozhodne, zda je adresátem.
 
-Podrobně v [informace, signály a přenosový kanál](/it/pocitacove-site/05-informace-signaly-a-prenosovy-kanal/).
+Rozdíl mezi přepojováním okruhů a paketů je podrobněji vysvětlen na stránce [informace, signály a přenosový kanál](/it/pocitacove-site/05-informace-signaly-a-prenosovy-kanal/).
 
 ### Podle přenosového média
 
-- **Metalické** – kroucená dvoulinka, koaxiální kabel.
+- **Metalické (drátové)** – kroucená dvoulinka (twisted pair) nebo koaxiální kabel.
 - **Optické** – optická vlákna.
 - **Bezdrátové** – Wi-Fi, Bluetooth, IrDA, mobilní a satelitní sítě.
 
 ### Podle vlastnictví a způsobu použití
 
-- **Privátní** (jedna organizace) × **veřejná** (kdokoli za úplatu). **VPN** = šifrovaný tunel přes veřejnou síť do privátní.
-- **Intranet** – pro vnitřní potřebu firmy (dokumenty, plánování, komunikace).
-- **Extranet** – zpřístupněný zákazníkům a partnerům (objednávky, e-commerce).
+- **Privátní síť** patří jedné organizaci, **veřejnou síť** může za úplatu používat kdokoli. **Virtuální privátní síť (VPN)** vytváří přes veřejnou síť šifrovaný tunel, takže se vzdálený počítač chová, jako by byl přímo v privátní síti.
+- **Intranet** slouží vnitřním potřebám provozovatele – skupinové plánování a úkolování, sdílení dokumentů, interní komunikace.
+- **Extranet** je zpřístupněn „směrem ven“, hlavně zákazníkům a partnerům – objednávky, prodej a další aplikace z oblasti e-commerce a e-business.
 
 ## Topologie sítě
 
-**Topologie** = způsob propojení stanic. Ovlivňuje cenu, spolehlivost i rychlost.
+**Topologie** popisuje, jak jsou stanice v síti propojeny. Je součástí síťového standardu a podstatně určuje vlastnosti výsledné sítě – cenu, spolehlivost i rychlost.
 
-![Čtyři základní topologie: sběrnice, hvězda se switchem uprostřed, kruh a mesh](/images/content/it/pocitacove-site/definice-site/topologie.webp)
-
-- **Fyzická** – skutečné kabely a zařízení.
-- **Logická** – kudy skutečně tečou data (hub zapojený do hvězdy je logicky sběrnice).
+- **Fyzická topologie** popisuje skutečnou konstrukci sítě: uzly, zapojená zařízení a jejich umístění, nainstalované kabely a přípojky mezi nimi.
+- **Logická topologie** popisuje, jak data sítí skutečně tečou z jednoho zařízení do druhého. Nemusí kopírovat fyzické zapojení – například hub zapojený do hvězdy se logicky chová jako sběrnice.
 
 ### Sběrnice (bus)
 
-Jeden společný koaxiální kabel (BNC), stanice na **T-konektorech**, na obou koncích **terminátor** (brání odrazu signálu).
+Stanice jsou připojeny k jednomu průběžnému vedení, které vede od stanice ke stanici. Používal se koaxiální kabel s konektory BNC, stanice se připojovaly odbočovacími **T-konektory** a oba konce vedení musely být zakončeny **terminátorem**, který brání odrazu signálu zpět do kabelu.
 
-- Výhody: málo kabelu, levné, snadné rozšíření.
-- Nevýhody: hodně míst poruchy, těžké hledání závady, přerušení = stojí celá síť, max. 10 Mb/s. Dnes se nepoužívá.
+- Výhody: malá spotřeba kabelu, nízká cena kabeláže, snadné rozšíření.
+- Nevýhody: mnoho spojů na kabelu jako možných míst poruchy, složitá lokalizace poruchy, přerušení kabelu odstaví celou síť, rychlost nejvýše 10 Mb/s. Dnes se nepoužívá.
 
 ### Hvězda (star)
 
-Každá stanice má vlastní kabel (UTP) k centrálnímu prvku – dnes **switchi**.
+Každá stanice je připojena vlastním kabelem k centrálnímu aktivnímu prvku – dříve hubu, dnes **switchi**. K propojení se používá kroucená dvoulinka (UTP).
 
-- Výhody: porucha kabelu vyřadí jen jeden počítač, snadné hledání závady i přidání stanice.
-- Nevýhody: víc kabelu; výpadek switche odstaví celou hvězdu.
+- Výhody: nízká náchylnost k chybám, porucha jednoho kabelu vyřadí jen připojený počítač, snadná lokalizace poruchy, snadné přidání stanice.
+- Nevýhody: vyšší spotřeba kabelu, je nutný aktivní prvek a jeho výpadek odstaví celou hvězdu.
 
-Víc hvězd spojených přepínačem = **rozšířená hvězda**, hierarchicky = **strom** (dnešní LAN).
+Spojením několika hvězd přes další přepínač vznikne **rozšířená hvězda** a hierarchickým řazením **strom** – tak jsou zapojeny dnešní lokální sítě.
 
 ### Kruh (ring)
 
-Stanice tvoří uzavřený kruh, data jdou jedním směrem, vysílat smí držitel **tokenu**.
+Spojovací vedení stanic tvoří uzavřený kruh (fyzický nebo jen logický). Data putují jedním směrem od stanice ke stanici a právo vysílat se předává pomocí **tokenu** (pešek, speciální rámec).
 
-- Výhody: žádné kolize, levnější kabeláž než hvězda.
-- Nevýhody: data jdou přes mnoho uzlů; výpadek jednoho uzlu shodí síť (pokud kruh není zdvojený jako u FDDI); těžké hledání závady.
+- Výhody: jednoduchý přenos jedním směrem, nevznikají kolize, protože vysílá vždy jen jedna stanice; kabeláž je levnější než u hvězdy.
+- Nevýhody: data musí projít mnoha uzly, než dorazí k cíli; selhání jednoho uzlu nebo kabelu zhroutí celou síť (pokud kruh není zdvojený, jako u FDDI); závada se obtížně hledá.
 
 ### Nesystematická (polygonální, mesh) topologie
 
-Nepravidelné propojení, často více cest. **Úplná** (každý s každým) – nejspolehlivější, nejdražší. **Částečná** – v páteři Internetu; výpadek linky směrovače obejdou.
+Uzly jsou propojeny nepravidelně, často několika cestami zároveň. **Úplná síť** (každý s každým) je nejspolehlivější, ale nejdražší; **částečná** se používá v rozlehlých sítích a v páteři Internetu, kde výpadek jedné linky obejdou směrovače jinou cestou.
 
 ## Přístupové metody
 
-**Přístupová metoda** = pravidla, kdo smí zrovna vysílat po sdíleném kanálu, aby se signály nerušily.
+Přístupová metoda určuje pravidla, podle kterých stanice přistupují ke sdílenému komunikačnímu kanálu (kabelu nebo rádiovému pásmu). Zajišťuje, aby v jednom okamžiku vysílala jen jedna stanice – jinak by se signály navzájem rušily.
 
-- **Náhodné** – vysílá se, kdy je potřeba, s kolizí se počítá (CSMA/CD, CSMA/CA).
-- **Řízené** – právo vysílat se přiděluje (token), kolize nevznikají.
+- **Náhodné (stochastické) metody** – stanice vysílá, kdy potřebuje, a s kolizí se počítá; patří sem CSMA/CD a CSMA/CA.
+- **Řízené (deterministické) metody** – o právu vysílat se rozhoduje předem, např. předáváním tokenu. Ke kolizím nedochází.
 
 ### CSMA/CD (Carrier Sense Multiple Access with Collision Detection)
 
-**Detekce kolize** – klasický sdílený Ethernet (sběrnice, hub).
+Metoda vícenásobného přístupu s nasloucháním nosné a **detekcí kolize**, používaná v klasickém (sdíleném) Ethernetu na sběrnici a s huby.
 
-![Průběh CSMA/CD: naslouchání, vysílání, kolize, signál jam, náhodné čekání a nový pokus](/images/content/it/pocitacove-site/definice-site/csma-cd.webp)
-
-1. Stanice naslouchá, jestli někdo nevysílá.
-2. Když je kanál volný, vysílá.
-3. Při vysílání poslouchá – vysílají-li dva naráz, je **kolize**.
-4. Kdo kolizi zjistí, přestane a pošle signál **jam**.
-5. Čeká **náhodnou dobu** (po každém neúspěchu až 2× delší) a zkusí znovu; po 16 pokusech rámec zahodí.
+1. Stanice, která chce vysílat, naslouchá, zda už nevysílá někdo jiný.
+2. Je-li kanál obsazený, počká, až bude volný, a pak vysílá.
+3. Během vysílání sleduje, zda signál na vedení odpovídá tomu, co sama posílá. Pokud začnou dvě stanice vysílat současně, nastane **kolize**.
+4. Stanice, která kolizi zjistí, přestane vysílat a vyšle krátký signál **jam**, aby o kolizi věděly všechny stanice.
+5. Každá stanice počká **náhodně dlouhou dobu** (s každým dalším neúspěchem se rozsah čekání zdvojnásobuje) a zkusí to znovu; po 16 neúspěšných pokusech rámec zahodí.
 
 ### CSMA/CA (Carrier Sense Multiple Access with Collision Avoidance)
 
-**Předcházení kolizím** – Wi-Fi. Rádio neumí při vysílání poslouchat, kolizi nepozná.
+Metoda se **zabráněním kolizím**, kterou používají bezdrátové sítě Wi-Fi. Rádiová stanice nedokáže při vysílání zároveň poslouchat, takže kolizi nepozná – snaží se jí proto předejít.
 
-1. Stanice naslouchá.
-2. Když je kanál volný, počká ještě náhodnou dobu.
-3. Volitelně pošle **RTS** (Request To Send) a čeká na **CTS** (Clear To Send); ostatní mezitím mlčí.
-4. Příjemce potvrdí rámec **ACK**; bez ACK se rámec posílá znovu.
+1. Stanice naslouchá, zda někdo jiný nevysílá.
+2. Je-li kanál obsazený, počká, až se uvolní, a pak ještě náhodně dlouhou dobu.
+3. Volitelně pošle přístupovému bodu žádost **RTS** (Request To Send) a vysílá až po obdržení povolení **CTS** (Clear To Send). Ostatní stanice, které CTS slyší, po tu dobu mlčí.
+4. Příjemce každý správně přijatý rámec potvrdí zprávou **ACK**; když potvrzení nepřijde, stanice rámec pošle znovu.
 
 ### Předávání tokenu (Token Ring, Token Bus, FDDI)
 
-Sítí koluje **token**; vysílat smí jen jeho držitel, pak ho předá dál. Kolize nevznikají. Token Ring (802.5): 4 nebo 16 Mb/s.
+Sítí putuje speciální rámec – **token**. Vysílat smí jen stanice, která token právě drží; po odvysílání (nebo když nemá co vysílat) ho předá další stanici v kruhu. Vysílá tedy vždy jen jedna stanice a kolize nevznikají. Token Ring (IEEE 802.5) pracoval rychlostí 4 nebo 16 Mb/s.
 
 ### Plně duplexní přenos
 
-Se switchem má každá stanice vlastní linku a pro každý směr vlastní páry vodičů (10/100 Mb/s: 1 pár tam, 1 zpět; gigabit: všechny 4 páry oběma směry). **Kolize nevznikají**, CSMA/CD se neuplatní.
+V hvězdicové síti se switchem má každá stanice vlastní linku až k portu přepínače. Kroucená dvoulinka obsahuje 4 páry vodičů: u rychlostí 10 a 100 Mb/s je jeden pár vyhrazen pro směr počítač → switch, druhý pro opačný směr a zbylé dva páry se nevyužívají; gigabitový Ethernet využívá všechny čtyři páry v obou směrech současně. Každé zařízení tak může vysílat kdykoli, kolize nevznikají a přístupová metoda CSMA/CD se vůbec neuplatní – přenosová rychlost je maximální možná.
 
 ## Otázky k opakování
 
