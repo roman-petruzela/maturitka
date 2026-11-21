@@ -29,34 +29,28 @@ Více o rozdílu: [Zálohování nebo archivace?](https://www.acronis.cz/zalohov
 
 ## Média pro ukládání dat
 
-**Magnetická páska:** Vysoká pořizovací cena páskové jednotky, nízká cena médií, vhodné spíše pro archivaci dat (i velkého množství), než pro pravidelnou zálohu.
-
-**Jiný diskový oddíl (svazek) pevného disku:** Chrání pouze před smazáním dat omylem.
-
-**Externí pevný disk, USB Flash disk, SD karta:** Snadné použití, rychlá média, zlepšující se poměr cena/místo pro uložení dat, ale pro pravidelnou zálohu nevhodné. Dá se použít pro archivaci dat — při jejich malém používání by měla být i vysoká spolehlivost.
-
-**Optické disky:** Levná média, v poslední době útlum CD/DVD/BD mechanik, dlouhá doba vypalování. Dtd disky jsou vhodné pro dlouhodobou archivaci dat.
-
-**Pevný disk jiného PC v lokální síti:** Rychlost zálohování záleží na rychlosti připojení v síti a výkonu pevných disků počítačů. Pokud na síť zaútočí ransomware, může zašifrovat i tyto zálohy. Počítač se zálohami je nutné dobře zabezpečit.
-
-**NAS:** Specializované síťové úložiště ukládající data do diskových polí (RAID). Vhodnější než záloha na pevný disk jiného PC v lokální síti. Pokud na síť zaútočí ransomware, může zašifrovat i tyto zálohy.
-
-**Vzdálená zálohovací služba:** Rychlost zálohování záleží na rychlosti internetového připojení, data svěřujeme třetí straně — hrozí zneužití citlivých dat cizí osobou.
-
-- Dropbox - <https://www.dropbox.com>
-- OneDrive - <https://onedrive.live.com/about/cs-cz/>
-- Google Disk - <http://www.google.com/intl/cs_cz/drive/>
+| Médium | Vlastnosti | Hodí se |
+| --- | --- | --- |
+| **magnetická páska** | drahá jednotka, levná média | archivace velkých objemů |
+| **jiný oddíl téhož disku** | chrání jen před omylem | nic víc |
+| **externí disk, USB flash, SD karta** | snadné, rychlé, ale pro pravidelnou zálohu nevhodné | archivace (málo používaná = spolehlivá) |
+| **optické disky** | levné, dlouhé vypalování, mechaniky mizí | dlouhodobý archiv |
+| **disk jiného PC v síti** | rychlost dána sítí; **ransomware** může zašifrovat i zálohu; počítač je nutné zabezpečit | pravidelná záloha |
+| **NAS** | síťové úložiště s diskovým polem (RAID); lepší než cizí PC, ransomware ale také hrozí | pravidelná záloha |
+| **vzdálená služba (cloud)** | rychlost dána internetem, data u třetí strany – hrozí zneužití; Dropbox, OneDrive, Google Disk | pravidelná záloha, **šifrovat** |
 
 | Účel | Vhodná média |
 | --- | --- |
-| **archivace** | magnetická páska (velké množství dat), USB flash disk, SD karta, externí pevný disk, optické disky |
-| **pravidelné zálohování** | NAS, pevný disk jiného počítače v síti, vzdálená zálohovací služba |
+| **archivace** | páska, USB flash, SD karta, externí disk, optické disky |
+| **pravidelné zálohování** | NAS, disk jiného PC v síti, vzdálená služba |
 
 ## Zálohování souborů a složek
 
 Pro zálohování souborů a složek existuje několik zálohovacích strategií. Většina z nich pracuje s tzv. **archivačním atributem** souboru: když se soubor vytvoří nebo změní, systém mu atribut nastaví na *nearchivováno* („tento soubor je potřeba zálohovat“), a zálohovací program ho po záloze může nastavit na *archivováno*.
 
 ## Strategie zálohování
+
+![Týden zálohování: úplná v neděli a přírůstkové nebo rozdílové další dny; při výpadku ve čtvrtek se obnovuje z neděle a ze všech přírůstkových, případně jen z poslední rozdílové](/images/content/it/operacni-systemy/zalohovani/strategie.webp)
 
 **Úplná (normální, obecná, Full) záloha:** Zálohuje všechny vybrané soubory. Archivační atribut mění na archivováno. Při změně souboru dojde opět ke změně archivačního atributu na nearchivováno.
 

@@ -3,17 +3,17 @@ title: "Active Directory a správa z příkazové řádky"
 order: 201
 ---
 
-_Doplněný obsah podle ŠVP (4.9.2, 2. ročník, kapitola "Instalace a správa serverového systému Windows"): žák popíše význam a úlohu řadiče domény a Active Directory, pracuje s účty a skupinami v doméně a pracuje se systémem pomocí příkazové řádky, vytváří skripty._
-
 ## Co je Active Directory
 
-**Active Directory (AD)** je adresářová služba firmy Microsoft — centrální databáze, ve které jsou uloženy informace o uživatelích, počítačích, skupinách a dalších objektech v síti, a zároveň mechanismus, který podle těchto informací řídí přihlašování a oprávnění v celé organizaci.
+**Active Directory (AD)** = adresářová služba Microsoftu: **centrální databáze** uživatelů, počítačů, skupin a dalších objektů + mechanismus, který podle ní řídí **přihlašování a oprávnění** v celé organizaci.
 
-- **Doména** — logický celek uživatelů a počítačů spravovaných centrálně přes AD, se společnou politikou hesel, oprávnění a zabezpečení. Počítač, který se připojí do domény, přestává spravovat uživatele lokálně a přebírá přihlašovací údaje z domény.
-- **Doménový řadič (Domain Controller)** — server, na kterém běží služba AD DS (Active Directory Domain Services) a který ověřuje přihlášení uživatelů a počítačů do domény.
-- **Organizační jednotka (OU, Organizational Unit)** — způsob, jak si v AD hierarchicky uspořádat uživatele a počítače (např. podle třídy, oddělení nebo pobočky), aby na ně šlo hromadně aplikovat stejné zásady (GPO) a delegovat správu.
-- **Uživatelský/doménový účet** — na rozdíl od lokálního účtu platí v celé doméně, takže se s ním uživatel může přihlásit na libovolném doménovém počítači.
-- **Doménová skupina** — sdružuje účty (uživatelů, případně i jiných skupin), kterým se pak hromadně nastavují oprávnění; rozlišují se skupiny podle rozsahu platnosti (lokální doménová, globální, univerzální) a podle typu (bezpečnostní vs. distribuční).
+![Strom domény: doména s řadičem domény, organizační jednotky Učitelé a Počítače, v nich podjednotky, uživatelské účty a počítače; GPO se přiřazují na OU](/images/content/it/operacni-systemy/active-directory/struktura.webp)
+
+- **Doména** – logický celek uživatelů a počítačů spravovaných centrálně, společná politika hesel, oprávnění a zabezpečení. Počítač v doméně přebírá přihlašování z domény místo lokálních účtů.
+- **Doménový řadič (Domain Controller)** – server s rolí **AD DS**; ověřuje přihlášení uživatelů a počítačů.
+- **Organizační jednotka (OU)** – hierarchické uspořádání (třída, oddělení, pobočka); umožní hromadně aplikovat **GPO** a delegovat správu.
+- **Doménový účet** – platí v celé doméně, přihlásí se s ním na libovolném doménovém počítači.
+- **Doménová skupina** – sdružuje účty; podle rozsahu (lokální doménová, globální, univerzální) a typu (bezpečnostní × distribuční).
 
 ### Cestovní (roamingový) profil a síťová domovská složka
 

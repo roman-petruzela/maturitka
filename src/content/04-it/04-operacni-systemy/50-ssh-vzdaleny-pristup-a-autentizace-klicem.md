@@ -3,8 +3,6 @@ title: "SSH — vzdálený přístup a autentizace klíčem"
 order: 202
 ---
 
-_Doplněný obsah — rozšiřuje ŠVP kapitolu "Operační systém Linux" (3. ročník) o vzdálenou správu přes SSH._
-
 ## Co je SSH
 
 **SSH (Secure Shell)** je síťový protokol pro bezpečné vzdálené přihlášení a ovládání počítače přes příkazovou řádku (nebo přenos souborů) přes nezabezpečenou síť — celá komunikace je šifrovaná, takže ani hesla ani přenášená data nejdou po cestě přečíst.

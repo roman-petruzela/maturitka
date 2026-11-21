@@ -3,48 +3,37 @@ title: "Uživatelská práva a oprávnění"
 order: 13
 source: "osy/uživatelská_práva_a_oprávnění.pdf"
 ---
-Pod souhrnným označením oprávnění si většina uživatelů představí sadu pravidel pro přístup k datům, sdíleným prostředkům nebo speciálním funkcím systému. Windows však rozlišují **oprávnění a práva** , nelze tedy vše paušalizovat. **Oprávnění** ( **permission** ) je možnost přistoupit k některému objektu vybraným způsobem – typickým příkladem může být zápis souboru NTFS.
+Windows rozlišují dva pojmy:
 
-Naproti tomu **právo** ( **right** ) dovoluje provést některou systémovou akci – přidat nového uživatele, změnit nastavení plochy, určit systémové datum apod. V českých Windows nemusí být rozdíl při různých výstrahách nebo upozorněních natolik markantní, pokud byste však používali anglickou verzi, zjistíte, že právě termíny **permission** a **right** nejsou používány jen tak náhodně, je mezi nimi rozlišováno. My budeme **práva (right** ) a **oprávnění (permission)** také rozlišovat.
+| Pojem | Anglicky | Význam | Příklad |
+| --- | --- | --- | --- |
+| **oprávnění** | permission | přístup k **objektu** určeným způsobem | zápis do souboru NTFS |
+| **právo** | right | provedení **systémové akce** | přidat uživatele, změnit systémový čas |
 
-## Uživatelská práva ve Windows 10
+## Uživatelská práva
 
-Uživatelská práva najdeme _Ovládací Panely – Nástroje pro správu – Místní zásady Zabezpečení – Místní Zásady – Přiřazení uživatelských práv_
+*Ovládací panely – Nástroje pro správu – Místní zásady zabezpečení – Místní zásady – Přiřazení uživatelských práv*.
 
-Zde vidíme, jaká práva jsou přidělena jednotlivým uživatelským skupinám (mohou být přidělena i uživatelům). Najdeme zde uživatelské skupiny, které už známe (Administrators, Users, Guests,…), ale také další skupiny (Everyone, LOCAL SERVICE, NETWORK SERVICE, atd.).
-
-S přidělováním uživatelských práv a jejich odebíráním budeme postupovat opatrně.
+Vidíme, která práva mají skupiny (i uživatelé): Administrators, Users, Guests, ale i Everyone, LOCAL SERVICE, NETWORK SERVICE… S přidělováním a odebíráním práv opatrně.
 
 ## Vestavěné systémové skupiny
 
-Vestavěné systémové skupiny nemůžeme nijak upravovat, existují automaticky a uživatelé se do nich zařazují podle daných pravidel. Mezi důležité systémové skupiny patří:
+Nejdou upravovat; uživatelé se do nich zařazují automaticky:
 
-- Everyone – úplně všichni uživatelé (používá se např. u sdílení souborů a složek)
+- **Everyone** – úplně všichni (sdílení souborů a složek),
+- **Authenticated Users** – ověření uživatelé (účet na počítači nebo v doméně),
+- **Creator Owner** – uživatel, který zdroj vytvořil nebo převzal,
+- **System, Local Service, Network Service** – služby se systémovými právy.
 
-- Authenticated Users – ověření uživatelé (mají účet na tomto počítači, nebo v doméně)
+Své skupiny zjistíš příkazem **`whoami /all`** – účet bývá i v Everyone, Users, INTERACTIVE, Authenticated Users, LOCAL… Pod jménem je **SID** (Security Identifier) – hodnota, pod kterou OS účet skutečně vede.
 
-- Creator Owner - obsahuje uživatele, který vytvořil daný zdroj nebo převzal jeho vlastnictví
+## Oprávnění pro soubory a složky
 
-- System, Local Service, Network Service - služby se systémovými právy
+- **Nefunguje na FAT32**, jen na **NTFS** (dnes téměř všude).
+- Oprávnění se **dědí** z nadřazené složky; vlastní se musí často nejdřív **zrušit dědičnost** (*inheritance*).
+- Kdo soubor či složku vytvoří, je **vlastník (owner)** – má **úplné řízení** bez ohledu na přidělená oprávnění; vlastnictví mohou převzít **Administrators**.
+- **Odepřít (deny)** je **vždy silnější** než **povolit (allow)**.
 
-Pokud bych chtěl zjistit, v jakých skupinách ve skutečnosti jsem, musím napsat do příkazového řádku příkaz **whoami /all**
+**Příklad:** uživatel *pepa* je ve skupinách *Ucetni* a *Vedeni*. Ucetni mají **odepřeno** číst, Vedeni mají **povoleno** číst → *pepa* **nečte** (deny vyhrává).
 
-V zeleném rámečku vidím, že můj účet není jen ve skupině Administrators, ale ve spoustě dalších skupinách (Everyone, Users, INTERACTIVE, Authenticated Users, This Organization, LOCAL, NTML Authentication)
-
-V červeném rámečku je jen pro zajímavost SID (Security Identifier), což je hodnota pod kterou má operační systém uložený můj uživatelský účet. Operační systém mě tedy nemá uloženého jako spravce, ale pod mým SID.
-
-## Oprávnění pro přístup k souborům a složkám
-
-Oprávnění pro přístup k souborům a složkám nefunguje v souborovém systému FAT32! Pokud je chceme využívat musíme použít souborový systém NTFS (ten v dnešní době najdeme na drtivé většině diskových svazků používaných v operačních systémech Windows).
-
-Oprávnění pro přístup se vždy dědí z nadřazené složky, pokud chceme přidělovat vlastní oprávnění, je často nutné odstranit **dědičnost (inheritance)** .
-
-Ten kdo vytvoří soubor či složku je jejím **vlastníkem (owner)** . Vlastník má oprávnění úplné řízení, bez ohledu na skutečná přidělená oprávnění. Členové skupiny Administrators mohou vlastnictví přebírat.
-
-Sloupeček **odepřít (deny)** je vždy silnější, než sloupeček **povolit (allow)** . Mám například uživatele pepa, který je ve skupinách Ucetni a Vedeni. Skupina Ucetni má k danému souboru odepřeno oprávnění Číst a skupina Vedeni má ke stejnému souboru povoleno oprávnění Číst. V tomto případě pepa v souboru číst nemůže, protože sloupeček odepřít (deny) je silnější.
-
-Čerpáno z:
-
-<u>https://jnp.zive.cz/jaka-maji-uzivatele-prava-a-k-cemu-jsou-opravneni</u>
-
-https://ksi.fjfi.cvut.cz/prava-souboru-ve-windows
+Viz i [uživatelské účty a hesla](/it/operacni-systemy/11-uzivatelske-ucty-a-hesla/), [GPO](/it/operacni-systemy/14-gpo-zasady-skupiny/).

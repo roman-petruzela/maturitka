@@ -3,8 +3,6 @@ title: "Samba — sdílení souborů mezi Linuxem a Windows"
 order: 203
 ---
 
-_Doplněný obsah — rozšiřuje ŠVP kapitolu "Operační systém Linux" (3. ročník) o sdílení souborů mezi Linuxem a Windows._
-
 ## Co je Samba
 
 **Samba** je svobodný software, který na Linuxu (nebo jiném unixovém systému) implementuje protokol **SMB/CIFS** — tedy stejný protokol, jaký používá Windows pro sdílení souborů a tiskáren v síti. Díky tomu může linuxový server nabízet stanicím s Windows roli:

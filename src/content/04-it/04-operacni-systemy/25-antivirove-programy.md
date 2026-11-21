@@ -3,7 +3,7 @@ title: "Antivirové programy"
 order: 25
 source: "osy/antivirové programy.pdf"
 ---
-**Antivirový program** chrání počítač před [malwarem](/it/operacni-systemy/26-malware/): vyhledává ho, brání jeho spuštění a infikované soubory odstraňuje nebo izoluje. Dnešní antiviry chrání i před podvodnými weby a e-maily, proto se jim říká také **antimalware** nebo **bezpečnostní balík**.
+**Antivirus** chrání před [malwarem](/it/operacni-systemy/26-malware/): hledá ho, brání spuštění, nakažené soubory odstraní nebo izoluje. Dnes chrání i před podvodnými weby a e-maily → **antimalware**, **bezpečnostní balík**.
 
 Přehled druhů antivirové ochrany:
 
@@ -14,35 +14,28 @@ Přehled druhů antivirové ochrany:
 
 ## Jednoúčelové antiviry
 
-- programy na detekci, popřípadě odstranění jednoho konkrétního viru, nebo malé skupiny virů
-- nejedná se o plnohodnotnou antivirovou ochranu
-- jsou většinou zdarma a často slouží k likvidaci rozšířeného viru v dané době
+- odstraní **jeden konkrétní virus** nebo malou skupinu
+- není plnohodnotná ochrana
+- většinou zdarma, k likvidaci aktuálně rozšířeného viru
 
 ## Internetové online skenery
 
-- skript nebo program, který je schopen ve spojení s internetovým prohlížečem prohledat pevný disk PC, aniž by v něm zůstal natrvalo
-- nejedná se o plnohodnotný antivirus, protože mu chybí rezidentní ochrana
-- pracuje vždy s aktuální virovou databází
-- hodí se jako **druhý názor**, když je podezření, že nainstalovaný antivirus něco přehlédl
-- přehled: <https://cs.safetydetectives.com/blog/nejlepsichonline-antivirovych-scanneru/>
+- skript/program v prohlížeči prohledá disk, aniž by v něm zůstal
+- chybí **rezidentní ochrana**
+- vždy **aktuální databáze**
+- **druhý názor**, když antivirus možná něco přehlédl
 
 ## Antivirové skenery
 
 ### On-demand skener
 
-- skenuje (vyhledává) viry až po vydání požadavku uživatelem
-- požadavek je vydáván manuálně, vybráním požadované oblasti pro test (pevný disk, flash disk…) a stiskem tlačítka „start“
-- lze spouštět i s pomocí plánovače (v určitém čase, po určité události)
+- skenuje **na požádání** – uživatel vybere oblast (disk, flash) a spustí
+- lze i plánovačem (čas, událost)
 
 ### On-access skener (rezidentní ochrana)
 
-- neustále a automaticky vyhledává viry v datech (nejčastěji souborech), se kterými přijde uživatel do styku (rezidentní štít)
-- on-access skener testuje
-  - spouštěné soubory a programy
-  - otevírané (kopírované) soubory
-  - ukládané soubory
-  - systémové oblasti
-- on-access skener zachytí infikovaný soubor ještě před spuštěním (uložením), uživatel poté rozhodne, jak s tímto souborem naloží
+- **neustále a automaticky** (rezidentní štít) testuje spouštěné, otevírané, ukládané soubory a systémové oblasti
+- zachytí infikovaný soubor **ještě před spuštěním**; uživatel rozhodne, co s ním
 - **není doporučeno kombinovat on-access skenery více antivirových programů na jednom PC!** Více on-access skenerů může způsobit pád systému nebo neschopnost detekovat virus. Druhý antivirus se proto používá jen jako on-demand skener.
 
 ## Metody detekce
@@ -53,9 +46,9 @@ Přehled druhů antivirové ochrany:
 
 ### Heuristická analýza
 
-- rozbor kódu hledající postupy pro činnost virů typické nebo podezřelé
-- lze odhalit i doposud neznámé viry
-- může způsobit i falešný poplach
+- hledá v kódu **postupy typické pro viry**
+- odhalí i **neznámé** viry
+- možné **falešné poplachy**
 
 ### Behaviorální analýza a sandbox
 
@@ -63,8 +56,8 @@ Antivirus sleduje, **co program dělá** za běhu (hromadně šifruje soubory, z
 
 ### Kontrola integrity
 
-- je založena na porovnávání aktuálního stavu souborů a oblastí na disku s informacemi, které si kontrolní program uschoval při posledním spuštění
-- umí zachytit i dosud neznámé viry
+- porovnává aktuální stav souborů a oblastí disku s uloženým stavem z minula
+- zachytí i **neznámé** viry
 
 ### Cloudová analýza
 
