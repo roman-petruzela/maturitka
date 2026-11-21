@@ -4,102 +4,106 @@ order: 9
 source: "IT/Datové-sítě.docx"
 ---
 
-Větší lokální síť se skládá z desítek switchů. Aby byla přehledná, spolehlivá a dala se rozšiřovat, navrhuje se podle **hierarchického modelu**, switche se propojují **redundantně** (záložními linkami) a smyčky, které tím vzniknou, hlídá protokol **Spanning Tree**. Jednu fyzickou síť pak lze logicky rozdělit na více sítí pomocí **VLAN**. Princip práce switche (tabulka MAC adres, kolizní domény) vysvětluje stránka [aktivní síťové prvky](/it/pocitacove-site/07-aktivni-sitove-prvky-a-sitova-karta/), Ethernet sám stránka [Ethernet a LAN](/it/pocitacove-site/08-ethernet-a-lan/).
+Větší LAN = desítky switchů. Navrhuje se podle **hierarchického modelu**, switche se propojují **redundantně** a smyčky hlídá **Spanning Tree**. Logicky se síť dělí pomocí **VLAN**. Princip switche: [aktivní síťové prvky](/it/pocitacove-site/07-aktivni-sitove-prvky-a-sitova-karta/), Ethernet: [Ethernet a LAN](/it/pocitacove-site/08-ethernet-a-lan/).
 
 ## Hierarchický model sítě LAN
 
-Síť se rozdělí na samostatné **vrstvy**, z nichž každá má v síti určitou roli. Oddělením funkcí je síť **modulární** – snáze se rozšiřuje, spravuje a hledají se v ní chyby.
+Síť ve **vrstvách** s jasnými rolemi → **modulární**: snadné rozšíření, správa i hledání chyb.
+
+![Hierarchický model: dva switche v jádru, dva distribuční a čtyři přístupové; záložní křížové linky mezi distribuční a přístupovou vrstvou zablokuje STP](/images/content/it/pocitacove-site/stp-vlan/hierarchie-stp.webp)
 
 | Vrstva | Úkol | Zařízení |
 | --- | --- | --- |
-| **přístupová** (access) | připojuje koncová zařízení do sítě a kontroluje, která zařízení smějí komunikovat (zabezpečení portů, 802.1X, PoE) | switche na patrech, přístupové body; připojené PC, tiskárny, IP telefony |
-| **distribuční** (distribution) | spojuje (agreguje) provoz z přístupové vrstvy před odesláním do jádra, řídí provoz pomocí VLAN a pravidel (ACL), směruje mezi VLAN | výkonné L3 switche s vysokou dostupností a redundancí |
-| **jádro** (core) | vysokorychlostní páteř sítě; propojuje distribuční vrstvu a bývá připojeno k Internetu (často více linkami) | nejvýkonnější switche a routery |
+| **přístupová** | připojuje koncová zařízení, kontroluje kdo smí (port security, 802.1X, PoE) | switche na patrech, AP |
+| **distribuční** | agreguje provoz z přístupové, VLAN, ACL, směrování mezi VLAN | výkonné L3 switche s redundancí |
+| **jádro** | rychlá páteř, propojuje distribuční vrstvu, připojení k Internetu | nejvýkonnější switche a routery |
 
-Příklad: v univerzitní síti distribuční vrstva odděluje provoz zaměstnanců, studentů a hostů do různých VLAN a pro každou skupinu platí jiná bezpečnostní pravidla. V malé síti se jádro a distribuční vrstva slučují do jedné (**zhroucené jádro**, collapsed core).
+Příklad: univerzita odděluje zaměstnance, studenty a hosty do VLAN s různými pravidly. V malé síti se jádro a distribuce slučují (**collapsed core**).
 
 ### Vlastnosti dobře navržené sítě
 
-- **Rozšiřitelnost** – modulární návrh se při růstu sítě jen opakuje, což zjednodušuje plánování.
-- **Redundance** – každý přístupový switch je připojen ke **dvěma** různým distribučním switchům; když jeden vypadne, provoz jde přes druhý. V přístupové vrstvě se redundance obvykle neřeší – výpadek linky odřízne jen jedno zařízení.
-- **Výkon** – mezi vrstvami vedou rychlé linky a výkonné switche.
-- **Bezpečnost** – porty přístupových switchů lze nastavit tak, aby pustily do sítě jen povolená zařízení; seznamy ACL určují, které protokoly a adresy jsou povoleny.
-- **Ovladatelnost a údržba** – switche ve stejné vrstvě mají stejné funkce a podobnou konfiguraci, kterou lze zkopírovat na nový switch.
+- **Rozšiřitelnost** – modul se při růstu jen zopakuje.
+- **Redundance** – přístupový switch připojen ke **dvěma** distribučním; v přístupové vrstvě se neřeší (vypadne jen jedno zařízení).
+- **Výkon** – rychlé linky a výkonné switche mezi vrstvami.
+- **Bezpečnost** – port security, ACL (povolené protokoly a adresy).
+- **Údržba** – switche jedné vrstvy mají podobnou konfiguraci, dá se zkopírovat.
 
 ### Agregace
 
-- **Agregace linek** (link aggregation, EtherChannel, standard IEEE 802.3ad/802.1AX, protokol LACP) spojí několik fyzických linek mezi dvěma switchi do jedné logické – zvýší se kapacita a výpadek jedné linky spojení nepřeruší.
-- U poskytovatelů Internetu znamená **agregace** sdílení kapacity linky více zákazníky. Udává se poměrem **1 : X** (např. 1 : 50 = linku sdílí až 50 zákazníků); čím menší X, tím lépe. Je levnější, ale ve špičce linka zpomalí – jako přepážky na poště, u kterých se čeká ve frontě. Opakem je **vyhrazená linka** jen pro jednoho zákazníka.
+- **Agregace linek** (EtherChannel, 802.3ad/802.1AX, LACP) – více fyzických linek = jedna logická; vyšší kapacita, odolnost.
+- U ISP **agregace** = sdílení linky zákazníky, poměr **1 : X** (1 : 50 = až 50 zákazníků); menší X = lepší. Levnější, ve špičce pomalejší. Opak: **vyhrazená linka**.
 
 ## Smyčky a Spanning Tree Protocol (STP)
 
-Redundantní propojení switchů vytváří v síti **smyčky**. Ethernetový rámec nemá žádnou životnost (TTL), takže by ve smyčce koloval donekonečna:
+Redundance = **smyčky**. Ethernetový rámec nemá TTL → koloval by donekonečna:
 
-- **broadcastová bouře** – broadcast se ve smyčce stále množí, až zahltí celou síť,
-- **nestabilní tabulka MAC adres** – switch vidí stejnou adresu střídavě na různých portech,
-- **vícenásobné doručení** – stanice dostane tentýž rámec několikrát.
+- **broadcastová bouře** – broadcast se množí a zahltí síť,
+- **nestabilní tabulka MAC** – adresa střídavě na různých portech,
+- **vícenásobné doručení** stejného rámce.
 
-**STP** (Spanning Tree Protocol, IEEE **802.1D**) proto z redundantní sítě vytvoří **strom** – některé porty logicky zablokuje, aby mezi každými dvěma switchi vedla jen jedna aktivní cesta. Když aktivní linka vypadne, zablokovaný port se otevře a provoz jde záložní cestou.
+**STP** (IEEE **802.1D**) udělá ze sítě **strom** – některé porty zablokuje, aby vedla jen jedna aktivní cesta. Při výpadku se zablokovaný port otevře.
 
 ### Jak STP vytvoří strom
 
-1. **Volba kořenového mostu (root bridge).** Switche si vyměňují zprávy **BPDU** (Bridge Protocol Data Unit, standardně každé 2 s). Kořenem se stane switch s nejnižším **ID mostu** = priorita (výchozí 32 768) + MAC adresa; při stejné prioritě rozhodne nižší MAC adresa.
-2. **Kořenové porty.** Každý ostatní switch zvolí jeden **kořenový port** (root port) – ten s nejnižší cenou cesty ke kořeni. Cena závisí na rychlosti linky: 10 Mb/s = 100, 100 Mb/s = 19, 1 Gb/s = 4, 10 Gb/s = 2.
-3. **Určené porty.** Na každém segmentu se zvolí jeden **určený port** (designated port), přes který segment komunikuje směrem ke kořeni.
-4. **Blokování.** Všechny ostatní porty se **zablokují** – nepřeposílají data, jen poslouchají BPDU.
+1. **Root bridge** – switche si posílají **BPDU** (každé 2 s); kořen = nejnižší **ID mostu** = priorita (32 768) + MAC; při shodě nižší MAC.
+2. **Root port** – na každém switchi port s nejnižší cenou ke kořeni. Cena: 10 Mb/s = 100, 100 Mb/s = 19, 1 Gb/s = 4, 10 Gb/s = 2.
+3. **Designated port** – na každém segmentu jeden port směrem ke kořeni.
+4. **Blokování** – ostatní porty jen poslouchají BPDU.
 
-Při shodě se rozhoduje postupně podle: nejnižší ceny cesty ke kořeni → nejnižšího ID odesílajícího mostu → nejnižšího ID portu odesílatele.
+Shoda → nižší cena ke kořeni → nižší ID odesílajícího mostu → nižší ID portu.
 
 ### Stavy portu v STP
 
-| Stav | Co port dělá |
+| Stav | Co dělá |
 | --- | --- |
-| blocking (blokování) | nepřeposílá data, jen přijímá BPDU (až 20 s) |
-| listening (naslouchání) | vyměňuje BPDU a podílí se na volbě rolí, data nepřeposílá (15 s) |
-| learning (učení) | učí se MAC adresy do tabulky, data ještě nepřeposílá (15 s) |
-| forwarding (přeposílání) | normální provoz |
-| disabled (vypnuto) | port je administrativně vypnut |
+| blocking | jen přijímá BPDU (až 20 s) |
+| listening | volba rolí, data ne (15 s) |
+| learning | učí se MAC, data ne (15 s) |
+| forwarding | normální provoz |
+| disabled | vypnut správcem |
 
-Klasické STP proto po změně topologie **konverguje 30–50 s**, po kterou je část sítě nedostupná. **RSTP** (Rapid STP, IEEE 802.1w) zkracuje konvergenci na jednotky sekund i méně: místo časovačů si sousední switche změnu rovnou potvrdí a zablokované porty dělí na **alternate** (náhradní cesta ke kořeni) a **backup** (záloha určeného portu), které se okamžitě aktivují.
+Klasické STP konverguje **30–50 s**. **RSTP** (802.1w) – sekundy i méně: sousedé si změnu potvrdí a porty **alternate** (náhradní cesta ke kořeni) a **backup** (záloha designated) se aktivují okamžitě.
 
 ## VLAN – virtuální lokální sítě
 
-**VLAN** (Virtual LAN) logicky rozdělí síť **nezávisle na fyzickém zapojení**. Porty switche se rozdělí do několika skupin, které se chovají jako samostatné sítě – jako by každá skupina měla vlastní switch. Komunikovat spolu mohou přímo jen porty ve stejné VLAN; mezi VLAN se provoz musí **směrovat** (routerem nebo L3 switchem).
+**VLAN** = logické rozdělení sítě **nezávisle na zapojení**. Skupiny portů se chovají jako samostatné switche. Mezi VLAN se musí **směrovat** (router, L3 switch).
 
-- Každá VLAN je samostatná **broadcastová doména** a měla by mít vlastní **IP podsíť** (VLAN = subnet).
-- VLAN se označují **číslem** (VLAN ID, 1–4094) a pro přehlednost i jménem, např. VLAN 10 „Studenti“.
-- Každé zařízení, které VLAN podporuje, má aspoň jednu výchozí VLAN – **VLAN 1**, kterou nelze smazat ani vypnout; dokud správce nenastaví jinak, patří do ní všechny porty.
+![Dva switche propojené trunkem 802.1Q, na každém access porty ve VLAN 10 a 20; router připojený trunkem jako router on a stick směruje mezi VLAN](/images/content/it/pocitacove-site/stp-vlan/vlan-trunk.webp)
 
-Bez VLAN by spolu zařízení v různých IP podsítích připojená ke stejnému switchi sice komunikovat neměla, ale rámce by se k nim dostávaly (switch se na IP adresy nedívá). Pro skutečné oddělení by byly potřeba samostatné switche. S VLAN switch posílá rámce jen na porty stejné VLAN.
+- VLAN = **broadcastová doména** = vlastní **IP podsíť**.
+- **VLAN ID** 1–4094 + jméno (VLAN 10 „Studenti“).
+- Výchozí **VLAN 1** nejde smazat ani vypnout; zpočátku v ní jsou všechny porty.
+
+Bez VLAN by rámce chodily i zařízením z jiných IP podsítí (switch IP nevidí); oddělení by chtělo samostatné switche.
 
 ### Proč VLAN
 
-- **Seskupení uživatelů** podle oddělení nebo služeb (účtárna, vývoj, hosté) místo podle fyzického umístění – kolegové z jednoho oddělení mohou sedět na různých patrech.
-- **Méně broadcastů** – místo jedné velké broadcastové domény vznikne více menších, síť je výkonnější.
-- **Jednodušší správa** – přesun počítače do jiné sítě je změna konfigurace portu, ne fyzické přepojení kabelu.
-- **Bezpečnost** – citlivý provoz (servery, správa zařízení) se oddělí do vlastní VLAN, kam ostatní nemají přístup.
-- **Oddělení speciálního provozu** – IP telefony, kamery, Wi-Fi pro hosty.
-- **Úspora hardwaru** – na jednom switchi běží několik sítí.
+- **Seskupení podle oddělení** (účtárna, vývoj, hosté), ne podle místa.
+- **Méně broadcastů** – menší domény, výkonnější síť.
+- **Snadná správa** – přesun = změna konfigurace portu, ne kabelu.
+- **Bezpečnost** – servery a správa ve vlastní VLAN.
+- **Oddělení provozu** – IP telefony, kamery, Wi-Fi hostů.
+- **Úspora hardwaru** – více sítí na jednom switchi.
 
 ### Zařazení do VLAN
 
-1. **Podle portu** – port switche je ručně a napevno zařazen do VLAN; vše, co přijde tímto portem, patří do ní. Nejrychlejší a nejpoužívanější způsob.
-2. **Podle MAC adresy** – switch zařadí rámec podle zdrojové MAC adresy podle tabulky, kterou spravuje správce. Výhoda: po přepojení do jiného portu zůstane zařízení ve své VLAN.
-3. **Podle protokolu nebo IP adresy** – switch se musí dívat do hlavičky 3. vrstvy, což ho zpomaluje; v praxi se příliš nepoužívá.
-4. **Podle ověření** – zařízení nebo uživatel se ověří protokolem **IEEE 802.1X** a podle výsledku je automaticky zařazen do VLAN.
+1. **Podle portu** – napevno; nejrychlejší, nejčastější.
+2. **Podle MAC** – tabulka od správce; po přepojení zůstane ve VLAN.
+3. **Podle protokolu / IP** – pomalé, málo používané.
+4. **Podle ověření** – **802.1X** a automatické zařazení.
 
 ### Access a trunk porty, IEEE 802.1Q
 
-- **Access port** patří do jedné VLAN a připojuje se k němu koncové zařízení, které o VLAN nic neví. Rámce na něm nejsou označené.
-- **Trunk port** přenáší rámce **více VLAN** po jedné lince – typicky mezi dvěma switchi nebo mezi switchem a routerem. Spojení dvou trunk portů je **trunk**.
-- Aby druhá strana poznala, do které VLAN rámec patří, přidá switch na trunku do rámce **značku (tag)** podle normy **IEEE 802.1Q**: 4 bajty mezi zdrojovou MAC adresou a polem typu. Značka obsahuje identifikátor 0x8100, 3 bity priority (QoS) a **12bitové VLAN ID** (proto nejvýše 4 094 použitelných VLAN). Rámce **nativní VLAN** se na trunku posílají bez značky.
+- **Access port** – jedna VLAN, koncové zařízení, rámce bez značky.
+- **Trunk port** – **více VLAN** po jedné lince (switch–switch, switch–router).
+- Na trunku se do rámce vloží **tag 802.1Q** (4 B za zdrojovou MAC): 0x8100, 3 b priorita, **12b VLAN ID** (→ max. 4 094 VLAN). **Nativní VLAN** jde bez tagu.
 
 ### Směrování mezi VLAN
 
-- **Router on a stick** – jeden router připojený ke switchi jedinou trunkovou linkou; na jeho rozhraní se vytvoří podrozhraní, jedno pro každou VLAN. Je to levné, ale linka je úzkým hrdlem a router jediným místem selhání.
-- **L3 switch** – směruje mezi VLAN přímo v hardwaru pomocí virtuálních rozhraní (SVI); rychlé řešení běžné v distribuční vrstvě.
+- **Router on a stick** – jeden router, jedna trunková linka, podrozhraní pro každou VLAN. Levné, ale úzké hrdlo a jediné místo selhání.
+- **L3 switch** – směruje v hardwaru přes SVI; rychlé, běžné v distribuční vrstvě.
 
-**Příklad konfigurace (Cisco IOS)** – switch se dvěma VLAN a router on a stick:
+**Příklad konfigurace (Cisco IOS)** – dvě VLAN a router on a stick:
 
 ```
 Switch(config)# vlan 10
@@ -121,17 +125,17 @@ Router(config-subif)# encapsulation dot1Q 20
 Router(config-subif)# ip address 192.168.20.1 255.255.255.0
 ```
 
-Počítače ve VLAN 10 mají výchozí bránu 192.168.10.1, ve VLAN 20 bránu 192.168.20.1. Další příkazy jsou na stránkách [Cisco IOS](/it/pocitacove-site/21-zakladni-prikazy-cisco-ios-pro-spravu-smerovacu-a-prepinacu/) a [Cisco Packet Tracer](/it/pocitacove-site/22-cisco-packet-tracer/).
+Brány: VLAN 10 → 192.168.10.1, VLAN 20 → 192.168.20.1. Další příkazy: [Cisco IOS](/it/pocitacove-site/21-zakladni-prikazy-cisco-ios-pro-spravu-smerovacu-a-prepinacu/), [Packet Tracer](/it/pocitacove-site/22-cisco-packet-tracer/).
 
 ### VTP (VLAN Trunking Protocol)
 
-VLAN musí existovat na každém switchi, přes který vedou. Aby je správce nemusel zakládat na všech switchích ručně, může použít protokol **VTP** firmy Cisco, který šíří seznam VLAN po trunkových linkách v rámci **VTP domény** (switche se stejným jménem domény). Každý switch pracuje v jednom režimu:
+VLAN musí existovat na každém switchi na cestě. **VTP** (Cisco) šíří seznam VLAN po trunkách v rámci **VTP domény**. Režimy:
 
-- **server** (výchozí) – VLAN vytváří, mění a maže, seznam ukládá do NVRAM a rozesílá oznámení,
-- **klient** – přebírá seznam ze serveru, sám ho měnit nemůže,
-- **transparentní** – VTP se neúčastní, své VLAN spravuje jen lokálně; oznámení ostatních jen přeposílá.
+- **server** (výchozí) – vytváří, mění, maže VLAN, ukládá do NVRAM, rozesílá,
+- **klient** – jen přebírá,
+- **transparentní** – neúčastní se, VLAN jen lokálně, oznámení přeposílá.
 
-Server rozesílá oznámení každých 5 minut a při každé změně. Při změně zvýší **revizní číslo** konfigurace; switche převezmou konfiguraci s vyšším číslem. Proto je nebezpečné připojit do sítě switch s vyšším revizním číslem a jinými VLAN – přepsal by konfiguraci celé domény.
+Oznámení každých 5 min a při změně; vyšší **revizní číslo** vyhrává. Pozor: switch s vyšším číslem a jinými VLAN přepíše celou doménu.
 
 ## Otázky k opakování
 

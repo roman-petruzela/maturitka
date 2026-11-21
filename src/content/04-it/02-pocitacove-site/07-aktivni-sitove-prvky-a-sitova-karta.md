@@ -4,124 +4,128 @@ order: 7
 source: "IT/11. Aktivní a pasivní síťové prvky.docx; site/T09_sitova_karty.pdf; site/Ethernet_new.pdf; IT/Datové-sítě.docx"
 ---
 
-**Aktivní síťové prvky** jsou zařízení, která se aktivně podílejí na komunikaci: signál regenerují a zesilují, rámce a pakety přijímají, zkoumají a rozhodují, kam je poslat dál, případně je upravují. Potřebují napájení. **Jednodušší prvky** se o význam dat nestarají (opakovač, hub), **chytřejší prvky** data interpretují a podle nich přizpůsobují své chování (switch, router). Podle toho, s jakou informací pracují, je lze přiřadit k vrstvám [modelu ISO/OSI](/it/pocitacove-site/02-standardizace-model-iso-osi-a-tcp-ip/). Kabely, konektory a rozvaděče popisuje stránka [pasivní síťové prvky a kabeláž](/it/pocitacove-site/06-pasivni-sitove-prvky-a-kabelaz/).
+**Aktivní prvky** se podílejí na komunikaci: regenerují signál, zkoumají rámce a pakety a rozhodují, kam je poslat. Potřebují napájení. **Jednodušší** obsahu nerozumí (opakovač, hub), **chytřejší** ho interpretují (switch, router). Řadí se k vrstvám [ISO/OSI](/it/pocitacove-site/02-standardizace-model-iso-osi-a-tcp-ip/). Kabely: [pasivní prvky a kabeláž](/it/pocitacove-site/06-pasivni-sitove-prvky-a-kabelaz/).
 
 ## Přehled aktivních prvků
 
-| Prvek | Vrstva OSI | Rozhoduje podle | Hlavní úkol |
+| Prvek | Vrstva | Rozhoduje podle | Úkol |
 | --- | --- | --- | --- |
-| opakovač (repeater) | 1 – fyzická | – | obnoví a zesílí signál |
-| rozbočovač (hub) | 1 – fyzická | – | rozešle signál na všechny porty |
-| most (bridge) | 2 – linková | MAC adresy | odděluje segmenty sítě |
-| přepínač (switch) | 2 – linková | MAC adresy | pošle rámec jen na port adresáta |
-| směrovač (router) | 3 – síťová | IP adresy | propojuje sítě a hledá cestu |
-| L3 switch | 2 a 3 | MAC i IP adresy | přepínání i směrování mezi VLAN |
-| brána (gateway) | až 7 – aplikační | obsah dat | převádí mezi různými protokoly |
-| přístupový bod (AP) | 1 a 2 | MAC adresy | připojuje bezdrátová zařízení do kabelové sítě |
-| síťová karta (NIC) | 1 a 2 | MAC adresa | připojuje počítač k síti |
-| modem | 1 | – | převádí digitální signál na analogový a zpět |
+| opakovač | 1 | – | obnoví a zesílí signál |
+| hub | 1 | – | rozešle signál na všechny porty |
+| most (bridge) | 2 | MAC | odděluje segmenty |
+| switch | 2 | MAC | rámec jen na port adresáta |
+| router | 3 | IP | propojuje sítě, hledá cestu |
+| L3 switch | 2 + 3 | MAC i IP | přepínání + směrování mezi VLAN |
+| brána (gateway) | až 7 | obsah dat | převod mezi protokoly |
+| přístupový bod (AP) | 1 + 2 | MAC | bezdrátová zařízení do kabelové sítě |
+| síťová karta (NIC) | 1 + 2 | MAC | připojuje počítač |
+| modem | 1 | – | digitální ↔ analogový signál |
 
 ### Opakovač (repeater)
 
-- Nejjednodušší aktivní prvek, pracuje na **fyzické vrstvě**.
-- Na každém vodiči dochází k **útlumu** a **zkreslení** signálu; opakovač signál přijme, obnoví jeho tvar, zesílí a pošle dál. Tím prodlužuje dosah sítě.
-- Přijatý signál přeposílá do všech připojených segmentů, nerozumí mu a nefiltruje ho.
+- Nejjednodušší, **fyzická vrstva**.
+- Signál slábne a zkresluje se; opakovač ho obnoví, zesílí a pošle dál → delší dosah.
+- Posílá do všech segmentů, nerozumí mu, nefiltruje.
 
 ### Rozbočovač (hub)
 
-- V podstatě **opakovač s více porty**; počet portů je jedním z jeho parametrů. Pracuje na **fyzické vrstvě**.
-- Přijatý signál zregeneruje a rozešle na **všechny ostatní porty**, na kterých je někdo připojen.
-- Všechna připojená zařízení sdílejí jednu přenosovou kapacitu a tvoří jednu **kolizní doménu**; pracují jen v polovičním duplexu s metodou CSMA/CD.
-- Nevýhoda: segmenty jsou zbytečně zatěžovány daty, která jim vůbec nepatří, a s počtem stanic roste počet kolizí. Dnes je nahrazen switchem.
+- **Opakovač s více porty**, **fyzická vrstva**.
+- Signál rozešle na **všechny ostatní porty**.
+- Všichni sdílejí kapacitu = jedna **kolizní doména**; jen half duplex s CSMA/CD.
+- Zatěžuje všechny cizími daty, s počtem stanic rostou kolize. Nahrazen switchem.
 
 ### Most (bridge)
 
-- Pracuje na **linkové vrstvě**, je tedy „chytřejší“ než opakovač a hub.
-- Spojuje dva (nebo několik) segmentů sítě. Pokud rámec patří do stejného segmentu, odkud přišel, most ho dál nepustí – tím snižuje zatížení sítě.
-- Rozhoduje podle **MAC adres**, které si ukládá do tabulky v paměti RAM.
-- Každá strana mostu je samostatnou kolizní doménou; strany mohou mít i různou rychlost. Most je levnější než směrovač.
+- **Linková vrstva**, chytřejší než hub.
+- Spojuje segmenty; rámec pro stejný segment dál nepustí → menší zátěž.
+- Rozhoduje podle **MAC adres** v tabulce v RAM.
+- Každá strana = samostatná kolizní doména, může mít jinou rychlost. Levnější než router.
 
 ### Přepínač (switch)
 
-- Pracuje na **linkové vrstvě**; je to v podstatě **most s mnoha porty**, který přepíná rámce v hardwaru.
-- Na rozdíl od hubu propojí jen ten pár portů, mezi kterými komunikace probíhá – data se zbytečně neposílají jiným uzlům a více dvojic stanic může komunikovat současně.
-- **Zpětné učení** (backward learning): switch si z **zdrojové MAC adresy** každého přijatého rámce zapamatuje, za kterým portem dané zařízení je, a ukládá to do **tabulky MAC adres** (CAM tabulky). Na začátku je tabulka prázdná, záznamy po čase (obvykle 300 s) bez provozu vypršejí.
-- Přijde-li rámec pro adresu, kterou v tabulce nemá, chová se jako hub – rozešle ho na všechny porty kromě příchozího (**flooding**) a počká, až se adresát ozve. Stejně rozesílá broadcasty (cílová adresa FF-FF-FF-FF-FF-FF).
-- **Každý port je samostatná kolizní doména**; při plném duplexu kolize nevznikají vůbec. Všechny porty (v jedné VLAN) ale tvoří jednu **broadcastovou doménu**.
-- Způsoby přepínání: **store-and-forward** (přijme celý rámec, zkontroluje kontrolní součet a vadný zahodí), **cut-through** (začne rámec posílat hned po přečtení cílové adresy – rychlejší, ale šíří i vadné rámce).
-- Spravovatelné switche umí VLAN, agregaci linek, Spanning Tree, zabezpečení portů a napájení zařízení po kabelu (**PoE**) – viz [přepínání, STP a VLAN](/it/pocitacove-site/09-prepinani-stp-a-vlan/).
+- **Linková vrstva**; **most s mnoha porty**, přepíná v hardwaru.
+- Spojí jen porty, které spolu komunikují → víc dvojic naráz, nikdo nedostává cizí data.
+- **Zpětné učení**: ze **zdrojové MAC** si zapíše port do **tabulky MAC adres** (CAM). Záznamy bez provozu vyprší (~300 s).
+- Neznámá cílová MAC → rozešle všude kromě příchozího portu (**flooding**). Stejně broadcast (FF-FF-FF-FF-FF-FF).
+- **Port = kolizní doména** (při full duplexu žádné kolize); všechny porty = jedna **broadcastová doména**.
+- **Store-and-forward** (celý rámec, kontrola FCS, vadné zahodí) × **cut-through** (posílá hned po cílové adrese – rychlejší, ale šíří chyby).
+- Spravovatelné: VLAN, agregace linek, STP, port security, **PoE** – viz [přepínání, STP a VLAN](/it/pocitacove-site/09-prepinani-stp-a-vlan/).
 
 ### Směrovač (router)
 
-- Pracuje na **síťové vrstvě** a propojuje **různé sítě** (podsítě) – například domácí síť s Internetem.
-- Rozhoduje podle **IP adres** a **směrovací tabulky**, která obsahuje sadu pravidel, kudy pakety posílat k jednotlivým cílovým sítím. **Směrování** je proces určování cesty, kterou se data v síti dostanou k cíli; úkolem routeru je zvolit co nejefektivnější cestu.
-- Router **odděluje broadcastové domény** – broadcast z jedné sítě do druhé nepustí.
-- Často zajišťuje i další služby: překlad adres (NAT), DHCP server, firewall, VPN.
-- Musí znát topologii sítě – buď ji zadá správce (statické směrování), nebo si ji routery vyměňují samy (dynamické směrovací protokoly). V malých sítích může jako router sloužit i obyčejný počítač.
-- IP adresa rozhraní routeru do lokální sítě se v počítačích nastavuje jako **výchozí brána** (default gateway) – tam počítač posílá vše, co nepatří do jeho vlastní sítě.
+- **Síťová vrstva**, propojuje **různé sítě** (domácí síť ↔ Internet).
+- Rozhoduje podle **IP** a **směrovací tabulky**; volí nejefektivnější cestu.
+- **Odděluje broadcastové domény**.
+- Často i NAT, DHCP, firewall, VPN.
+- Topologii zadá správce (statické) nebo se ji naučí protokoly (dynamické). Routerem může být i PC.
+- Adresa routeru v LAN = **výchozí brána** počítačů.
 
-Podrobně viz [směrování a routovací tabulka](/it/pocitacove-site/16-smerovani-a-routovaci-tabulka/).
+Viz [směrování](/it/pocitacove-site/16-smerovani-a-routovaci-tabulka/).
 
 ### Brána (gateway)
 
-- Propojuje sítě nebo systémy s **odlišnými protokoly** a převádí data z jednoho tvaru do druhého. Musí proto obsahu dat rozumět a pracuje až na **aplikační vrstvě**.
-- Příklad: SMS brána na stránkách mobilního operátora převezme text napsaný v prohlížeči, převede ho a odešle do sítě GSM jako SMS. Dalšími příklady jsou poštovní brány nebo brány VoIP do telefonní sítě.
-- Pozor na dvojí význam: „výchozí brána“ v nastavení IP je ve skutečnosti adresa **routeru**.
+- Propojuje systémy s **odlišnými protokoly**, převádí data → musí jim rozumět, **aplikační vrstva**.
+- Např. SMS brána (web → GSM), poštovní brána, VoIP brána do telefonní sítě.
+- Pozor: „výchozí brána“ v nastavení IP je ve skutečnosti **router**.
 
 ### Další aktivní prvky
 
-- **Přístupový bod (access point, AP)** připojuje bezdrátová zařízení do kabelové sítě; klienti komunikují přes něj. Domácí **Wi-Fi router** spojuje v jedné krabičce router, switch (obvykle se 4 porty), přístupový bod, DHCP server a firewall.
-- **Modem** převádí digitální signál na signál vhodný pro dané vedení (telefonní linka, kabelová televize, optika) a zpět.
-- **L3 switch** umí kromě přepínání i směrovat mezi VLAN v hardwaru.
-- **Firewall** filtruje provoz podle pravidel (adresy, porty, protokoly, stav spojení).
-- **Transceiver** (vysílač-přijímač) převádí signál pro konkrétní médium, např. modul **SFP** do switche pro optický kabel.
+- **Access point (AP)** – bezdrátová zařízení do kabelové sítě. **Domácí Wi-Fi router** = router + switch (4 porty) + AP + DHCP + firewall.
+- **Modem** – převod signálu pro vedení (telefon, kabelovka, optika).
+- **L3 switch** – i směrování mezi VLAN v hardwaru.
+- **Firewall** – filtr podle pravidel (adresy, porty, protokoly, stav spojení).
+- **Transceiver** – převod pro médium, např. **SFP** modul pro optiku.
 
 ### Kolizní a broadcastová doména
 
-- **Kolizní doména** je část sítě, ve které se mohou srazit vysílání dvou stanic – zařízení sdílející jedno médium. Hub ji nerozděluje, switch a router ano (každý port je samostatná kolizní doména).
-- **Broadcastová doména** je část sítě, do které dorazí všesměrové vysílání. Hub ani switch ji nerozdělují, router ano (a VLAN na switchi).
+- **Kolizní doména** – kde se mohou srazit dvě vysílání. Hub ji nedělí; switch a router ano (port = doména).
+- **Broadcastová doména** – kam dorazí broadcast. Hub ani switch ji nedělí; router (a VLAN) ano.
 
-**Příklad.** Síť má router se dvěma porty; na jednom je switch s 8 počítači, na druhém hub se 4 počítači. Kolizních domén je 8 (porty switche s počítači) + 1 (port switche k routeru) + 1 (hub se vším, co je k němu připojeno) = 10. Broadcastové domény jsou 2 – za každým portem routeru jedna.
+![Router se dvěma sítěmi: za switchem každý port samostatná kolizní doména, za hubem celý segment jedna kolizní doména; každá strana routeru je jedna broadcastová doména](/images/content/it/pocitacove-site/aktivni-prvky/domeny.webp)
+
+**Příklad.** Router se 2 porty; na jednom switch s 8 PC, na druhém hub se 4 PC. Kolizních domén: 8 (porty s PC) + 1 (switch–router) + 1 (hub) = **10**. Broadcastových: **2** (za každým portem routeru).
 
 ## Síťová karta (NIC)
 
-**Síťové rozhraní** je hranice mezi zařízením a síťovým médiem a je **adresovatelné** – signál vyslaný po médiu míří na určité rozhraní. Typickým fyzickým síťovým rozhraním je **síťová karta** (NIC, Network Interface Card), která vznikla z potřeby sdílet data mezi počítači.
+**Síťové rozhraní** = adresovatelná hranice mezi zařízením a médiem. Fyzicky typicky **síťová karta** (NIC, Network Interface Card).
 
-- Pracuje na **fyzické a linkové vrstvě**: na fyzické převádí bity na signál pro médium, na linkové sestavuje a kontroluje rámce, řídí přístup k médiu a rozpoznává svou MAC adresu.
-- Skládá se z **hardwaru** a **firmwaru** (programu v trvalé paměti), který zajišťuje řízení logického spoje a přístupu k médiu.
-- Karty se liší **typem média** (metalická, optická, bezdrátová) a **rychlostí**. Běžné jsou karty 10/100/1000 Mb/s, ve výkonných počítačích a serverech 2,5, 10, 25 Gb/s a více.
+- **Fyzická + linková vrstva**: bity ↔ signál; sestavení a kontrola rámců, přístup k médiu, rozpoznání své MAC.
+- **Hardware + firmware** (řízení spoje a přístupu k médiu).
+- Liší se **médiem** (metalická, optická, bezdrátová) a **rychlostí** (10/100/1000 Mb/s, servery 2,5–25 Gb/s+).
 
 ### Úkoly síťové karty
 
-- **Připravit data z počítače pro kabel**: uvnitř počítače se data přenášejí paralelně po sběrnici, síťovým kabelem musí jít jako tok bitů. Karta převede paralelní data na sériová a digitální signály počítače na elektrické nebo optické signály. Tuto část zajišťuje **transceiver** (transmitter/receiver – vysílač/přijímač).
-- **Posílat data** do jiného počítače a přijímat je.
-- **Řídit tok dat** mezi počítačem a kabelovým systémem.
-- **Dohodnout parametry** s protějškem: před přenosem si karty (či karta a switch) vymění informace o svých schopnostech a zvolí nejvyšší společnou rychlost a režim duplexu (**autonegotiation**). Rychlejší karta se tak přizpůsobí pomalejší.
+- **Příprava dat pro kabel** – paralelní data ze sběrnice → sériový tok bitů → elektrický/optický signál. Dělá to **transceiver** (vysílač/přijímač).
+- **Odesílání a příjem** dat.
+- **Řízení toku** mezi PC a sítí.
+- **Vyjednání parametrů** (**autonegotiation**) – nejvyšší společná rychlost a duplex.
 
-Zpracování komunikace řídí čipová sada karty, větší část práce ale dělá procesor počítače; vytížená karta může spotřebovat značnou část jeho výkonu. Moderní karty proto umí část zpracování TCP/IP převzít samy (**TCP offloading**).
+Velkou část práce dělá CPU; moderní karty část TCP/IP převezmou (**TCP offloading**).
 
 ### Konstrukce a připojení
 
-- Hlavní **čip** karty komunikuje se sběrnicí počítače. Na kartě je **EEPROM** s nastavením a MAC adresou a případně **BootROM** pro start počítače ze sítě (dnes **PXE**). Část připojená ke kabelu je od zbytku počítače **galvanicky oddělena** (oddělovacím transformátorem), aby šlo bezpečně propojit počítače napájené z různých elektrických rozvodů.
-- Dnes je síťová karta obvykle **integrována na základní desce**; samostatné karty se zasouvají do slotu **PCI Express** (dříve ISA, PCI, v serverech PCI-X), do notebooků dříve jako PC Card (PCMCIA). Existují i **USB** síťové adaptéry a bezdrátové karty Wi-Fi.
-- Starší karty vyžadovaly ruční nastavení **přerušení (IRQ)**, vstupně-výstupní adresy a typu transceiveru; dnes se vše nastaví automaticky (Plug and Play).
-- Užitečné funkce: **Wake-on-LAN** (zapnutí počítače po síti speciálním paketem), nastavení rychlosti a duplexu, VLAN, PoE u zařízení napájených po kabelu.
+- **Čip** komunikuje se sběrnicí; **EEPROM** s nastavením a MAC; **BootROM** / **PXE** pro start ze sítě. Část u kabelu je **galvanicky oddělená** (transformátor).
+- Dnes **integrovaná na desce**; jinak slot **PCIe** (dříve ISA, PCI, PCI-X), PC Card, **USB** adaptéry, Wi-Fi karty.
+- Dříve ruční **IRQ** a I/O adresa; dnes Plug and Play.
+- Funkce: **Wake-on-LAN**, nastavení rychlosti a duplexu, VLAN, PoE.
 
 ### Logická síťová rozhraní
 
-Síťová rozhraní mohou být i **logická (virtuální)** – softwarový modul, který se chová jako hardwarové zařízení a umí přijímat i posílat data. Příkladem je **zpětná smyčka (loopback)**, která slouží k testování síťového software v počítači a zvenku není dostupná: v IPv4 adresa **127.0.0.1**, v IPv6 **::1**. Další virtuální rozhraní vytvářejí VPN klienti a virtualizační programy.
+**Virtuální** rozhraní = software, který se chová jako karta. **Loopback** – test síťového SW uvnitř PC, zvenku nedostupný: IPv4 **127.0.0.1**, IPv6 **::1**. Dále rozhraní VPN a virtualizace.
 
 ## MAC adresa
 
-**MAC adresa** (Media Access Control) je **fyzická adresa** síťového rozhraní v síti Ethernet a Wi-Fi. Slouží k rozlišení jedné síťové karty od jiné a k doručení rámce v rámci jedné lokální sítě.
+**MAC adresa** (Media Access Control) = **fyzická adresa** rozhraní v Ethernetu a Wi-Fi; doručení rámce v LAN.
 
-- Má **48 bitů (6 bajtů)**. Zapisuje se jako šest dvojic **hexadecimálních** číslic – každá čtveřice bitů odpovídá jedné šestnáctkové číslici, takže zápis je mnohem kratší než binární. Používají se zápisy `00-1A-2B-3C-4D-5E` (Windows), `00:1a:2b:3c:4d:5e` (Linux) a `001a.2b3c.4d5e` (Cisco).
-- Výrobce ji kartě přidělí při výrobě a zapíše do paměti **ROM** (EEPROM) karty. Adresa přidělená výrobcem je **celosvětově jedinečná** – novou kartu lze zapojit a spolehnout se, že bude jednoznačně identifikována.
-- Adresa má dvě poloviny: první 3 bajty jsou **OUI** (Organizationally Unique Identifier) – identifikátor výrobce, který mu přidělí **IEEE** a je stejný u všech jeho karet (např. Novell `00-00-1B`, 3Com `00-20-AF`, SMC `00-40-27`). Druhé 3 bajty přiděluje výrobce každé kartě jedinečně. Seznam výrobců zveřejňuje IEEE.
-- Dva nejnižší bity prvního bajtu mají zvláštní význam: bit **I/G** rozlišuje individuální (0) a skupinovou – multicastovou (1) adresu, bit **U/L** globálně jedinečnou adresu od výrobce (0) a adresu nastavenou lokálně (1).
-- **Broadcastová** adresa `FF-FF-FF-FF-FF-FF` (samé jedničky) znamená „všem stanicím v síti“.
-- Adresu lze v operačním systému softwarově změnit; mobilní telefony a notebooky dnes v cizích Wi-Fi sítích používají **náhodnou MAC adresu**, aby je nešlo sledovat.
-- Zjištění MAC adresy: Windows `ipconfig /all` nebo `getmac`, Linux `ip link`. MAC adresy sousedů zjištěné protokolem ARP ukáže `arp -a`.
+![MAC adresa 00-1A-2B-3C-4D-5E: první tři bajty OUI výrobce přidělené IEEE, další tři bajty číslo karty od výrobce](/images/content/it/pocitacove-site/aktivni-prvky/mac.webp)
+
+- **48 bitů (6 B)**, šestnáctkově: `00-1A-2B-3C-4D-5E` (Windows), `00:1a:2b:3c:4d:5e` (Linux), `001a.2b3c.4d5e` (Cisco).
+- Výrobce ji zapíše do **ROM** (EEPROM); je **celosvětově jedinečná**.
+- 1.–3. bajt **OUI** (výrobce, přiděluje **IEEE**; Novell `00-00-1B`, 3Com `00-20-AF`), 4.–6. bajt pořadové číslo od výrobce.
+- Bity prvního bajtu: **I/G** (0 individuální, 1 multicast), **U/L** (0 od výrobce, 1 lokálně nastavená).
+- **Broadcast** `FF-FF-FF-FF-FF-FF` = všem v síti.
+- Lze ji změnit softwarově; telefony v cizích Wi-Fi používají **náhodnou MAC** proti sledování.
+- Zjištění: Windows `ipconfig /all`, `getmac`; Linux `ip link`; MAC sousedů (ARP) `arp -a`.
 
 ## Otázky k opakování
 

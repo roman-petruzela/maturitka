@@ -3,48 +3,50 @@ title: "Technická dokumentace sítě"
 order: 19
 ---
 
-**Technická dokumentace sítě** popisuje, jak je síť postavená a nastavená: co je kde zapojené, jaké adresy a VLAN se používají, jaká zařízení v síti jsou a jak jsou nakonfigurovaná. Bez ní se síť špatně spravuje – každá porucha začíná zjišťováním, kam vede který kabel, a nový správce musí síť zkoumat od začátku. Dobrá dokumentace zkracuje řešení poruch, usnadňuje rozšiřování sítě a předání správy, je podkladem pro bezpečnostní audit a obnovu po havárii.
+**Technická dokumentace sítě** = jak je síť postavená a nastavená: zapojení, adresy, VLAN, zařízení, konfigurace. Bez ní každá porucha začíná hledáním, kam vede který kabel. Zrychluje opravy, rozšiřování, předání správy; podklad pro audit a obnovu po havárii.
 
 ## Požadavky na dokumentaci
 
-- **Aktuálnost** – každá změna v síti se hned promítne do dokumentace; zastaralá dokumentace je skoro horší než žádná.
-- **Úplnost a srozumitelnost** – musí se v ní vyznat i jiný správce, ne jen autor.
-- **Jednotné značení** – názvy zařízení, čísla portů a zásuvek podle jednoho schématu.
-- **Verze a datum** – kdo a kdy dokumentaci naposledy změnil, záznam o změnách.
-- **Zabezpečení** – dokumentace prozrazuje strukturu sítě, a je proto důvěrná. Hesla do ní nepatří, ukládají se odděleně ve správci hesel.
+- **Aktuálnost** – každá změna hned zapsaná; zastaralá je skoro horší než žádná.
+- **Úplnost a srozumitelnost** – vyzná se v ní i jiný správce.
+- **Jednotné značení** – názvy zařízení, porty, zásuvky podle jednoho schématu.
+- **Verze a datum** – kdo a kdy měnil.
+- **Zabezpečení** – prozrazuje strukturu sítě → důvěrná. **Hesla ne** – patří do správce hesel.
 
 ## Části dokumentace
 
 ### Schéma fyzické topologie
 
-Zachycuje **skutečné rozmístění** a propojení: budovy, místnosti, rozvaděče, kudy vedou kabely, které zásuvky jsou připojeny na který patch panel, umístění přístupových bodů. Podkladem je půdorys budovy. Kreslí se značkami pro jednotlivá zařízení a typy kabelů (metalický, optický, bezdrátový spoj).
+**Skutečné rozmístění**: budovy, místnosti, rozvaděče, trasy kabelů, zásuvky → patch panely, přístupové body. Na půdorysu budovy, značky zařízení a typů kabelů.
 
 ### Schéma logické topologie
 
-Zachycuje, **jak tečou data**: sítě a podsítě s adresami a maskami, VLAN, routery a jejich rozhraní s IP adresami, výchozí brány, připojení k Internetu, firewally, VPN a směrování. Nezáleží v něm na tom, kde zařízení fyzicky stojí. Používají se standardní značky (např. sada ikon Cisco: router jako kruh se šipkami, switch jako hranol se šipkami, firewall jako zeď), aby schéma bylo čitelné pro každého.
+**Tok dat**: podsítě s adresami, VLAN, routery a jejich IP, brány, Internet, firewally, VPN. Fyzické umístění nehraje roli. Standardní značky (Cisco ikony: router = kruh se šipkami, switch = hranol, firewall = zeď).
+
+![Logická topologie malé školní sítě: Internet, router R1 s NAT a firewallem, L3 switch a pět VLAN s adresami podsítí podle plánu adres](/images/content/it/pocitacove-site/dokumentace/logicka-topologie.webp)
 
 ### Plán IP adres a VLAN
 
-Tabulka, která přiděluje adresy podsítím a důležitým zařízením. Příklad pro malou školní síť:
+Příklad pro malou školní síť:
 
-| VLAN | Název | Síť | Brána | DHCP rozsah | Poznámka |
+| VLAN | Název | Síť | Brána | DHCP | Poznámka |
 | --- | --- | --- | --- | --- | --- |
-| 10 | Učebny | 192.168.10.0/24 | 192.168.10.1 | .100 – .250 | počítače v učebnách |
-| 20 | Kancelář | 192.168.20.0/26 | 192.168.20.1 | .20 – .60 | zaměstnanci |
-| 30 | Servery | 192.168.30.0/28 | 192.168.30.1 | – | jen statické adresy |
-| 40 | Hosté Wi-Fi | 192.168.40.0/24 | 192.168.40.1 | .10 – .250 | izolovaná, jen Internet |
-| 99 | Správa | 192.168.99.0/28 | 192.168.99.1 | – | rozhraní pro správu switchů a AP |
+| 10 | Učebny | 192.168.10.0/24 | .1 | .100 – .250 | PC v učebnách |
+| 20 | Kancelář | 192.168.20.0/26 | .1 | .20 – .60 | zaměstnanci |
+| 30 | Servery | 192.168.30.0/28 | .1 | – | jen statické |
+| 40 | Hosté Wi-Fi | 192.168.40.0/24 | .1 | .10 – .250 | izolovaná, jen Internet |
+| 99 | Správa | 192.168.99.0/28 | .1 | – | správa switchů a AP |
 
-K tomu seznam **statických adres** (servery, tiskárny, switche, přístupové body, kamery) a **rezervací** v DHCP. Návrh podsítí s různou velikostí ukazuje stránka [CIDR, podsíťování a VLSM](/it/pocitacove-site/13-cidr-podsitovani-a-vlsm/).
+Plus seznam **statických adres** (servery, tiskárny, switche, AP, kamery) a **DHCP rezervací**. Návrh podsítí: [CIDR a VLSM](/it/pocitacove-site/13-cidr-podsitovani-a-vlsm/).
 
 ### Inventář zařízení
 
-Seznam všech aktivních prvků a serverů: název (hostname), typ a model, sériové číslo, MAC adresa, IP adresa pro správu, verze firmwaru nebo operačního systému, umístění (budova, místnost, rozvaděč, pozice v racku), datum pořízení a konec záruky či podpory.
+Hostname, typ a model, sériové číslo, MAC, IP pro správu, firmware/OS, umístění (budova, místnost, rack, pozice U), datum pořízení, konec záruky/podpory.
 
 ### Kabeláž a značení
 
-- **Značení zásuvek, portů a kabelů** podle jednotného schématu, např. zásuvka `B2-105-03` = budova B, 2. patro, místnost 105, zásuvka 3.
-- **Tabulka propojení** – která zásuvka vede na který port patch panelu a ten na který port switche:
+- **Značení** zásuvek, portů a kabelů, např. `B2-105-03` = budova B, 2. patro, místnost 105, zásuvka 3.
+- **Tabulka propojení** zásuvka → patch panel → switch:
 
 | Zásuvka | Patch panel | Switch / port | VLAN | Zařízení |
 | --- | --- | --- | --- | --- |
@@ -52,37 +54,37 @@ Seznam všech aktivních prvků a serverů: název (hostname), typ a model, sér
 | B2-105-02 | PP1 / 02 | SW-B2-01 / Gi1/0/2 | 10 | PC 1 |
 | B2-105-03 | PP1 / 03 | SW-B2-01 / Gi1/0/24 | 99 | přístupový bod |
 
-- **Schéma rozvaděče (racku)** – co je na které pozici (jednotky U): patch panely, switche, vyvazovací panely, servery, UPS.
-- **Měřicí protokoly** strukturované kabeláže – výsledky certifikačního měření každé linky (správné zapojení vodičů, délka, útlum, přeslechy), které dokládají, že kabeláž splňuje svou kategorii. Popis kabeláže je na stránce [pasivní síťové prvky a kabeláž](/it/pocitacove-site/06-pasivni-sitove-prvky-a-kabelaz/#strukturovaná-kabeláž).
+- **Schéma racku** – co je na které pozici U.
+- **Měřicí protokoly** – certifikace každé linky (zapojení, délka, útlum, přeslechy). Viz [strukturovaná kabeláž](/it/pocitacove-site/06-pasivni-sitove-prvky-a-kabelaz/#strukturovaná-kabeláž).
 
 ### Konfigurace a provoz
 
-- **Zálohy konfigurací** všech síťových zařízení (např. `show running-config` uložené na server TFTP), ideálně automaticky a s historií.
-- **Nastavení služeb**: DHCP, DNS, firewall a jeho pravidla, VPN, Wi-Fi (názvy sítí, zabezpečení).
-- **Údaje o připojení k Internetu**: poskytovatel, smlouva, veřejné adresy, kontakty na technickou podporu.
-- **Provozní postupy**: přidání uživatele, obnova ze zálohy, postup při výpadku, kontakty na odpovědné osoby.
-- **Záznam změn** (change log) – co, kdy, kdo a proč změnil.
+- **Zálohy konfigurací** (`show running-config` na TFTP), ideálně automaticky s historií.
+- **Nastavení služeb**: DHCP, DNS, firewall, VPN, Wi-Fi.
+- **Připojení k Internetu**: ISP, smlouva, veřejné adresy, kontakty.
+- **Postupy**: nový uživatel, obnova ze zálohy, výpadek, kontakty.
+- **Change log** – co, kdy, kdo, proč.
 
 ## Nástroje pro tvorbu dokumentace
 
 | Nástroj | Použití |
 | --- | --- |
-| **Microsoft Visio** | profesionální diagramy, sady značek síťových zařízení (stencils) od výrobců |
-| **Lucidchart**, **diagrams.net (draw.io)** | online kreslení schémat, sdílení a spolupráce; draw.io je zdarma |
-| **Dia** | volně šiřitelný program pro diagramy s knihovnou síťových značek |
-| **Cisco Packet Tracer** | návrh a simulace sítě včetně konfigurace zařízení, viz [Cisco Packet Tracer](/it/pocitacove-site/22-cisco-packet-tracer/) |
-| tabulkový procesor | plán adres, inventář, tabulka propojení |
-| **NetBox** a podobné systémy | databáze sítě: adresy (IPAM), zařízení, racky, kabely (DCIM) |
-| monitorovací systémy (Zabbix, PRTG) | automatické zjištění zařízení a sledování jejich stavu |
+| **Microsoft Visio** | profesionální diagramy, značky výrobců |
+| **Lucidchart**, **draw.io** | online schémata, spolupráce; draw.io zdarma |
+| **Dia** | volný program s síťovými značkami |
+| **Cisco Packet Tracer** | návrh a simulace, viz [Packet Tracer](/it/pocitacove-site/22-cisco-packet-tracer/) |
+| tabulkový procesor | plán adres, inventář, propojení |
+| **NetBox** aj. | databáze sítě: IPAM, racky, kabely (DCIM) |
+| Zabbix, PRTG | automatické zjištění a monitoring |
 
 ## Postup při dokumentování
 
-1. Sepsat **požadavky** a rozsah sítě (počet uživatelů, místností, služeb).
-2. Navrhnout **logickou topologii**, VLAN a **plán adres**.
-3. Navrhnout **fyzickou topologii** – umístění rozvaděčů, zásuvek a přístupových bodů, trasy kabelů.
-4. Po instalaci doplnit **skutečný stav** (dokumentace skutečného provedení), měřicí protokoly a značení.
-5. Uložit **konfigurace** a vytvořit inventář.
-6. Dokumentaci **průběžně aktualizovat** při každé změně.
+1. **Požadavky** a rozsah (uživatelé, místnosti, služby).
+2. **Logická topologie**, VLAN, **plán adres**.
+3. **Fyzická topologie** – rozvaděče, zásuvky, AP, trasy kabelů.
+4. Po instalaci **skutečný stav**, měřicí protokoly, značení.
+5. **Konfigurace** a inventář.
+6. **Průběžná aktualizace**.
 
 ## Otázky k opakování
 

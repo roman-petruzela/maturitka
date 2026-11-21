@@ -4,25 +4,23 @@ order: 12
 source: "site/IT3_IPv4_adresovani.pdf; IT/Datové-sítě.docx"
 ---
 
-Každé zařízení v síti TCP/IP potřebuje **IP adresu**, **masku sítě**, a chce-li komunikovat mimo svou síť, i **výchozí bránu**. Tato stránka vysvětluje, jak je IPv4 adresa složena, co určuje maska, jak se počítá adresa sítě, broadcast a počet počítačů, jaké adresy jsou vyhrazené a privátní a jak se adresa zařízení přiděluje. Na ni navazuje [CIDR, podsíťování a VLSM](/it/pocitacove-site/13-cidr-podsitovani-a-vlsm/).
+Zařízení potřebuje **IP adresu**, **masku** a pro komunikaci mimo svou síť **výchozí bránu**. Navazuje [CIDR, podsíťování a VLSM](/it/pocitacove-site/13-cidr-podsitovani-a-vlsm/).
 
-Vlastní adresu zjistíte ve Windows příkazem `ipconfig` (podrobně `ipconfig /all`), v Linuxu `ip addr`. Výpis ukáže IPv4 adresu, masku podsítě, výchozí bránu a u `/all` i MAC adresu, DNS servery a údaje o DHCP.
+Vlastní adresa: Windows `ipconfig` (`ipconfig /all` i MAC, DNS, DHCP), Linux `ip addr`.
 
 ## IPv4 adresa
 
-- IPv4 adresa má **32 bitů**. Zapisuje se jako čtyři **oktety** (bajty) v desítkové soustavě oddělené tečkami, např. `192.168.25.1`. Každý oktet má hodnotu 0–255.
-- Celkem existuje $2^{32}$ = 4 294 967 296 adres. Kvůli rozdělení do sítí a vyhrazeným rozsahům je reálně využitelných mnohem méně – a adresy dávno nestačí, viz [CIDR](/it/pocitacove-site/13-cidr-podsitovani-a-vlsm/), [NAT](/it/pocitacove-site/14-nat-preklad-adres/) a [IPv6](/it/pocitacove-site/15-ipv6-adresovani/).
-- Adresa se dělí na dvě části: **adresu sítě** (Network ID, NetID) a **adresu zařízení** v této síti (Host ID). Všechna zařízení v jedné síti mají stejnou síťovou část.
+- **32 bitů** = čtyři **oktety** 0–255 oddělené tečkou, např. `192.168.25.1`.
+- Celkem $2^{32}$ ≈ 4,3 miliardy adres – dávno nestačí, viz [CIDR](/it/pocitacove-site/13-cidr-podsitovani-a-vlsm/), [NAT](/it/pocitacove-site/14-nat-preklad-adres/), [IPv6](/it/pocitacove-site/15-ipv6-adresovani/).
+- Adresa = **část sítě** (NetID) + **část zařízení** (HostID). Zařízení v jedné síti mají stejnou síťovou část.
 
 ### Převod oktetu do dvojkové soustavy
-
-Každý bit oktetu má váhu podle své pozice:
 
 | Bit | 1. | 2. | 3. | 4. | 5. | 6. | 7. | 8. |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | váha | 128 | 64 | 32 | 16 | 8 | 4 | 2 | 1 |
 
-Číslo rozložíme na součet vah: 192 = 128 + 64 → `11000000`; 168 = 128 + 32 + 8 → `10101000`; 25 = 16 + 8 + 1 → `00011001`; 1 → `00000001`. Adresa 192.168.25.1 je tedy binárně
+192 = 128 + 64 → `11000000`; 168 = 128 + 32 + 8 → `10101000`; 25 = 16 + 8 + 1 → `00011001`; 1 → `00000001`:
 
 ```
 11000000.10101000.00011001.00000001
@@ -30,12 +28,12 @@ Každý bit oktetu má váhu podle své pozice:
 
 ## Maska sítě
 
-**Maska** (subnet mask) je 32bitové číslo, které má **zleva souvislou řadu jedniček** a pak samé nuly. **Jedničky** označují bity, které v IP adrese patří **síti**, **nuly** bity, které určují **zařízení**. Router a počítač podle masky poznají, do které sítě adresa patří.
+**Maska** = 32 bitů, **zleva souvislé jedničky**, pak nuly. **Jedničky = síť**, **nuly = zařízení**.
 
-- Zapisuje se desítkově (`255.255.255.0`) nebo jako **prefix** – počet jedniček za lomítkem (`/24`). Zápis `192.168.25.1/24` tedy znamená adresu 192.168.25.1 s maskou 255.255.255.0.
-- Protože jedničky musí jít souvisle zleva, může mít oktet masky jen tyto hodnoty:
+- Zápis desítkově (`255.255.255.0`) nebo **prefixem** = počet jedniček (`/24`): `192.168.25.1/24`.
+- Možné hodnoty oktetu masky:
 
-| Binárně | Desítkově | Jedniček v oktetu |
+| Binárně | Desítkově | Jedniček |
 | --- | --- | --- |
 | `00000000` | 0 | 0 |
 | `10000000` | 128 | 1 |
@@ -47,55 +45,49 @@ Každý bit oktetu má váhu podle své pozice:
 | `11111110` | 254 | 7 |
 | `11111111` | 255 | 8 |
 
-```
-IP:     11000000.10101000.00011001.00000001
-maska:  11111111.11111111.11111111.00000000
-        |------ část sítě -------| zařízení
-```
+![Adresa 192.168.25.1 s maskou /26 po bitech: prvních 26 bitů je část sítě, posledních 6 bitů zařízení; adresa sítě má v části zařízení nuly, broadcast jedničky](/images/content/it/pocitacove-site/ipv4-adresovani/maska-26.webp)
 
 ## Třídy IP adres
 
-Původně (od roku 1981) se adresy dělily do **tříd** a maska byla daná třídou podle prvních bitů adresy. Tomuto způsobu se říká **třídní adresování** (classful).
+Původní **třídní adresování** (1981): maska daná prvními bity adresy.
 
-| Třída | První bity | První oktet | Výchozí maska | Počet sítí | Zařízení v síti |
+| Třída | První bity | 1. oktet | Maska | Sítí | Zařízení v síti |
 | --- | --- | --- | --- | --- | --- |
-| A | `0` | 1–126 | 255.0.0.0 (/8) | 126 | $2^{24}-2$ = 16 777 214 |
-| B | `10` | 128–191 | 255.255.0.0 (/16) | $2^{14}$ = 16 384 | $2^{16}-2$ = 65 534 |
-| C | `110` | 192–223 | 255.255.255.0 (/24) | $2^{21}$ = 2 097 152 | $2^{8}-2$ = 254 |
-| D | `1110` | 224–239 | – | – | skupinové adresy (multicast) |
-| E | `1111` | 240–255 | – | – | vyhrazeno pro výzkum |
+| A | `0` | 1–126 | /8 | 126 | $2^{24}-2$ = 16 777 214 |
+| B | `10` | 128–191 | /16 | 16 384 | $2^{16}-2$ = 65 534 |
+| C | `110` | 192–223 | /24 | 2 097 152 | $2^{8}-2$ = 254 |
+| D | `1110` | 224–239 | – | – | multicast |
+| E | `1111` | 240–255 | – | – | výzkum |
 
-- Síť **127** chybí ve třídě A záměrně – celý rozsah 127.0.0.0/8 je vyhrazen pro **loopback** (127.0.0.1, localhost). Síť 0 znamená „tato síť“.
-- Příklady: třída A – síť 1.0.0.0, broadcast 1.255.255.255; třída B – síť 128.0.0.0, broadcast 128.0.255.255; třída C – síť 192.0.0.0, broadcast 192.0.0.255.
-- Nevýhodou tříd je **plýtvání**: firma, která potřebovala 300 adres, dostala celou třídu B s 65 534 adresami, protože třída C s 254 adresami nestačila. Proto se od roku 1993 používá **beztřídní adresování** (classless, **CIDR**), kde maska může mít libovolnou délku a nezávisí na prvním oktetu.
+- **127** chybí – celé 127.0.0.0/8 je **loopback** (127.0.0.1 = localhost). Síť 0 = „tato síť“.
+- Příklady: A – síť 1.0.0.0, broadcast 1.255.255.255; B – 128.0.0.0 / 128.0.255.255; C – 192.0.0.0 / 192.0.0.255.
+- Problém: **plýtvání** (firma s 300 počítači dostala celé B = 65 534 adres). Od 1993 **beztřídní adresování – CIDR**, maska libovolné délky.
 
 ## Adresa sítě, broadcast a počet zařízení
 
-Pro každou síť platí:
+- **Adresa sítě (NetID)** – část zařízení **samé nuly**; nepřiděluje se.
+- **Broadcast** – část zařízení **samé jedničky**; dostanou ho všichni v síti; nepřiděluje se.
+- **Hosté** – vše mezi nimi; první obvykle dostane router (brána).
 
-- **adresa sítě (NetID)** – část zařízení obsahuje **samé nuly**; označuje síť jako celek, žádné zařízení ji nedostane,
-- **broadcastová adresa** – část zařízení obsahuje **samé jedničky**; paket na tuto adresu dostanou všechna zařízení v síti, ani tu žádné zařízení nedostane,
-- **adresy zařízení (hostů)** – všechny adresy mezi nimi; první bývá obvykle přidělena routeru (výchozí bráně).
-
-Má-li část zařízení $n$ bitů (n = 32 − prefix), je v síti
+Při $n$ bitech pro zařízení ($n = 32 - \text{prefix}$):
 
 $$2^{n}-2$$
 
-použitelných adres – dvě odečítáme za adresu sítě a broadcast.
+použitelných adres (−2 za síť a broadcast).
 
 ### Postup výpočtu
 
-1. Zapíšeme IP adresu a masku.
-2. Oktet, ve kterém maska není 255 ani 0 (u masky na celé oktety stačí opsat), převedeme do dvojkové soustavy.
-3. Bity adresy nad jedničkami masky opíšeme beze změny – to je část sítě (odpovídá logickému součinu AND adresy a masky).
-4. **NetID**: část zařízení doplníme **nulami** až do posledního bitu.
-5. **Broadcast**: část zařízení doplníme **jedničkami** až do posledního bitu.
-6. Výsledek převedeme po oktetech zpět do desítkové soustavy.
-7. První host = NetID + 1, poslední host = broadcast − 1, počet hostů $2^{n}-2$.
+1. Napiš IP a masku.
+2. Oktet, kde maska není 255 ani 0, převeď do dvojkové soustavy.
+3. Bity pod jedničkami masky opiš – část sítě (= adresa AND maska).
+4. **NetID**: zbytek **nuly**.
+5. **Broadcast**: zbytek **jedničky**.
+6. Převeď zpět do desítkové.
+7. První host = NetID + 1, poslední = broadcast − 1, počet $2^{n}-2$.
 
 ### Řešený příklad 1 – maska na celé oktety (/24)
 
-Adresa 192.168.25.1, maska 255.255.255.0.
+192.168.25.1 / 255.255.255.0:
 
 ```
 IP:   11000000.10101000.00011001.00000001
@@ -104,13 +96,13 @@ N:    11000000.10101000.00011001.00000000   192.168.25.0
 B:    11000000.10101000.00011001.11111111   192.168.25.255
 ```
 
-- NetID: **192.168.25.0**, broadcast: **192.168.25.255**
-- hosté: 192.168.25.1 – 192.168.25.254
-- počet hostů: $2^{8}-2 = 254$
+- NetID **192.168.25.0**, broadcast **192.168.25.255**
+- hosté .1 – .254
+- $2^{8}-2 = 254$
 
 ### Řešený příklad 2 – maska /26
 
-Adresa 192.168.25.1, maska 255.255.255.192. Prvních 24 bitů masky jsou jedničky, rozhoduje jen čtvrtý oktet: 192 = `11000000`, síti tedy patří ještě 2 bity a na zařízení zbývá 6 bitů.
+192.168.25.1 / 255.255.255.192. Rozhoduje 4. oktet: 192 = `11000000` → 2 bity síť, 6 bitů zařízení.
 
 ```
 IP (4. oktet):  00|000001      1
@@ -119,13 +111,13 @@ N  (4. oktet):  00|000000      0   → 192.168.25.0
 B  (4. oktet):  00|111111     63   → 192.168.25.63
 ```
 
-- NetID: **192.168.25.0**, broadcast: **192.168.25.63**
-- hosté: 192.168.25.1 – 192.168.25.62
-- počet hostů: $2^{6}-2 = 62$
+- NetID **192.168.25.0**, broadcast **192.168.25.63**
+- hosté .1 – .62
+- $2^{6}-2 = 62$
 
 ### Řešený příklad 3 – maska /20
 
-Adresa 172.16.45.200/20. Maska má 20 jedniček: 255.255.240.0 (třetí oktet 240 = `11110000`). Rozhoduje třetí oktet: 45 = `00101101`.
+172.16.45.200/20 → maska 255.255.240.0. Rozhoduje 3. oktet: 45 = `00101101`.
 
 ```
 IP (3. oktet):  0010|1101     45
@@ -134,67 +126,67 @@ N  (3. oktet):  0010|0000     32   → 172.16.32.0
 B  (3. oktet):  0010|1111     47   → 172.16.47.255
 ```
 
-Ve čtvrtém oktetu je u NetID 0 a u broadcastu 255 (celý patří zařízení).
+4. oktet: u NetID 0, u broadcastu 255.
 
-- NetID: **172.16.32.0**, broadcast: **172.16.47.255**
-- hosté: 172.16.32.1 – 172.16.47.254
-- na zařízení zbývá 32 − 20 = 12 bitů, počet hostů: $2^{12}-2 = 4\,094$
+- NetID **172.16.32.0**, broadcast **172.16.47.255**
+- hosté 172.16.32.1 – 172.16.47.254
+- $2^{12}-2 = 4\,094$
 
 ### Rychlý způsob – velikost bloku
 
-V oktetu, kde maska není 255 ani 0, je **velikost bloku** = 256 − hodnota masky. Sítě začínají na násobcích bloku.
+**Blok = 256 − maska** (v „zlomeném“ oktetu). Sítě začínají na násobcích bloku.
 
-- /26: maska 192, blok 256 − 192 = **64** → sítě .0, .64, .128, .192. Adresa .1 leží v síti .0–.63.
-- /20: maska 240 ve 3. oktetu, blok **16** → sítě 172.16.0.0, .16.0, .32.0, .48.0 … Oktet 45 leží mezi 32 a 47.
+- /26: 256 − 192 = **64** → sítě .0, .64, .128, .192; adresa .1 je v .0–.63.
+- /20: 256 − 240 = **16** ve 3. oktetu → 0, 16, 32, 48…; 45 je mezi 32 a 47.
 
 ### Řešený příklad 4 – jsou dvě adresy ve stejné síti?
 
-Počítač A má 10.1.1.10/27, počítač B 10.1.1.40/27. Maska /27 = 255.255.255.224, blok 256 − 224 = 32: sítě 10.1.1.0–31, 10.1.1.32–63 … A leží v síti 10.1.1.0, B v síti 10.1.1.32. Počítače jsou v **různých sítích** a mohou spolu komunikovat jen přes router.
+A = 10.1.1.10/27, B = 10.1.1.40/27. Blok 256 − 224 = 32 → sítě .0–31, .32–63. A je v síti .0, B v .32 → **různé sítě**, komunikují jen přes router.
 
-Právě takto se rozhoduje každý počítač: cílovou adresu „vyAND-uje“ se svou maskou. Vyjde-li jeho vlastní síť, pošle paket přímo (MAC adresu zjistí přes ARP), jinak ho pošle **výchozí bráně**.
+Tak rozhoduje každý počítač: cíl AND maska = moje síť → pošle přímo (MAC přes ARP), jinak **výchozí bráně**.
 
 ## Druhy vysílání
 
-- **Unicast** – vysílání pro jedno konkrétní zařízení, např. 192.168.1.1.
-- **Broadcast** – vysílání pro všechna zařízení v dané lokální síti. **Směrovaný broadcast** míří na broadcastovou adresu konkrétní sítě (např. 192.168.1.255 v síti 192.168.1.0/24 – platí jen s touto maskou), **omezený broadcast** 255.255.255.255 vždy jen do vlastní sítě; routery broadcasty nepropouštějí.
-- **Multicast** – vysílání pro skupinu zařízení (směrovače, odběratelé videa), adresy třídy D 224.0.0.0 – 239.255.255.255. Např. 224.0.0.5 jsou všechny routery OSPF, 224.0.0.9 routery RIPv2.
+- **Unicast** – jednomu zařízení.
+- **Broadcast** – všem v LAN. **Směrovaný** na broadcast konkrétní sítě (192.168.1.255 pro /24), **omezený** 255.255.255.255 jen do vlastní sítě. Routery broadcast nepropouštějí.
+- **Multicast** – skupině (třída D, 224.0.0.0–239.255.255.255); 224.0.0.5 = routery OSPF, 224.0.0.9 = RIPv2.
 
 ## Vyhrazené adresy
 
 | Rozsah | Význam |
 | --- | --- |
-| 0.0.0.0/8 | „tato síť“; 0.0.0.0 znamená neznámou adresu (DHCP klient před přidělením) a v zápisu 0.0.0.0/0 výchozí trasu |
-| 127.0.0.0/8 | **loopback** – vnitřní rozhraní počítače; 127.0.0.1 (localhost) slouží k testování TCP/IP na vlastním počítači |
-| 169.254.0.0/16 | **APIPA** (link-local) – adresu si počítač přidělí sám, když nezíská adresu od DHCP serveru; znamená problém s DHCP |
-| 10.0.0.0/8, 172.16.0.0/12, 192.168.0.0/16 | **privátní** adresy (viz níže) |
-| 100.64.0.0/10 | sdílené adresy poskytovatelů pro carrier-grade NAT |
-| 192.0.2.0/24, 198.51.100.0/24, 203.0.113.0/24 | adresy pro dokumentaci a příklady |
-| 224.0.0.0/4 | multicast (třída D) |
-| 240.0.0.0/4 | vyhrazeno (třída E) |
+| 0.0.0.0/8 | „tato síť“; 0.0.0.0 = neznámá adresa, 0.0.0.0/0 = výchozí trasa |
+| 127.0.0.0/8 | **loopback**, 127.0.0.1 = test TCP/IP na vlastním PC |
+| 169.254.0.0/16 | **APIPA** – samopřidělená, když nepřišla adresa z DHCP → problém s DHCP |
+| 10/8, 172.16/12, 192.168/16 | **privátní** |
+| 100.64.0.0/10 | carrier-grade NAT poskytovatelů |
+| 192.0.2.0/24, 198.51.100.0/24, 203.0.113.0/24 | dokumentace a příklady |
+| 224.0.0.0/4 | multicast |
+| 240.0.0.0/4 | vyhrazeno |
 | 255.255.255.255 | omezený broadcast |
 
 ## Veřejné a privátní adresy
 
-- **Veřejné adresy** jsou unikátní v celém Internetu a jsou z něj viditelné; přiděluje je IANA přes regionální registry (pro Evropu RIPE NCC) poskytovatelům a ti zákazníkům.
-- **Privátní adresy** (RFC 1918) jsou skupina adres, které se **ve veřejné síti nepoužívají**, ale jen v privátních sítích, které jsou od Internetu odděleny. Může je bez povolení použít kdokoli a v různých firmách se opakují. Počítače v privátní síti se schovávají za hraničním směrovačem a jejich adresa se v Internetu nevyskytuje – do Internetu je za veřejnou adresu přeloží [NAT](/it/pocitacove-site/14-nat-preklad-adres/). Privátní adresy výrazně zpomalily vyčerpání IPv4.
+- **Veřejné** – unikátní v Internetu; IANA → regionální registr (Evropa: RIPE NCC) → poskytovatel → zákazník.
+- **Privátní** (RFC 1918) – jen v interních sítích, v Internetu se nesměrují; použít je smí kdokoli a opakují se. Ven je přeloží [NAT](/it/pocitacove-site/14-nat-preklad-adres/) na veřejnou adresu. Výrazně zpomalily vyčerpání IPv4.
 
-| Rozsah | Prefix | Rozsah adres | Původní třída |
+| Rozsah | Prefix | Adresy | Původně |
 | --- | --- | --- | --- |
-| 10.0.0.0 | /8 | 10.0.0.0 – 10.255.255.255 | 1 síť třídy A |
-| 172.16.0.0 | /12 | 172.16.0.0 – 172.31.255.255 | 16 sítí třídy B |
-| 192.168.0.0 | /16 | 192.168.0.0 – 192.168.255.255 | 256 sítí třídy C |
+| 10.0.0.0 | /8 | 10.0.0.0 – 10.255.255.255 | 1 síť A |
+| 172.16.0.0 | /12 | 172.16.0.0 – 172.31.255.255 | 16 sítí B |
+| 192.168.0.0 | /16 | 192.168.0.0 – 192.168.255.255 | 256 sítí C |
 
-Pozor: rozsah 172.16.0.0/12 končí adresou 172.31.255.255 – adresa 172.32.0.1 už je veřejná.
+Pozor: 172.32.0.1 už je **veřejná**.
 
 ## Statické a dynamické přidělování adres
 
-Zařízení potřebuje k připojení do sítě čtyři údaje: **IP adresu**, **masku**, **výchozí bránu** a adresu **DNS serveru**.
+Potřeba: **IP**, **maska**, **výchozí brána**, **DNS server**.
 
-- **Výchozí brána** (default gateway) je IP adresa rozhraní routeru v naší síti. Počítač na ni posílá vše, co nepatří do jeho vlastní sítě. Musí ležet ve stejné síti jako počítač.
-- **Statická adresa** se nastaví ručně v každém zařízení (Windows: Nastavení sítě → Vlastnosti IPv4, Linux: konfigurace síťového rozhraní). Používá se pro servery, routery, tiskárny a kamery, jejichž adresa se nesmí měnit. Nevýhody: pracnost a riziko chyby nebo konfliktu dvou stejných adres. Poskytovatel Internetu přiděluje statickou veřejnou adresu obvykle za příplatek.
-- **Dynamická adresa** se přidělí automaticky protokolem **DHCP** na určitou dobu (dny až měsíce u poskytovatelů, hodiny v lokální síti) – průběh DORA popisuje stránka [protokoly TCP/IP](/it/pocitacove-site/03-protokoly-tcp-ip/#dhcp-dynamic-host-configuration-protocol). Vhodná pro běžné klienty, notebooky a telefony. Správce může DHCP serveru nastavit **rezervaci** – konkrétní MAC adrese se vždy přidělí stejná adresa.
+- **Výchozí brána** – IP rozhraní routeru v naší síti; jde na ni vše mimo vlastní síť. Musí být ve stejné síti jako počítač.
+- **Statická** – ručně v zařízení; pro servery, routery, tiskárny, kamery. Nevýhody: pracnost, riziko konfliktu. Veřejná statická od ISP obvykle za příplatek.
+- **Dynamická** – přes **DHCP** na dobu zápůjčky (DORA viz [protokoly TCP/IP](/it/pocitacove-site/03-protokoly-tcp-ip/#dhcp-dynamic-host-configuration-protocol)); pro běžné klienty. **Rezervace** = vždy stejná adresa pro danou MAC.
 
-Užitečné příkazy Windows: `ipconfig /all` (výpis nastavení), `ipconfig /release` a `ipconfig /renew` (vrácení a nové vyžádání adresy z DHCP), `ping 127.0.0.1` (test TCP/IP v počítači), `ping` na výchozí bránu (test lokální sítě).
+Příkazy Windows: `ipconfig /all`, `ipconfig /release` + `/renew` (nová adresa z DHCP), `ping 127.0.0.1` (test TCP/IP), `ping` na bránu (test LAN).
 
 ## Otázky k opakování
 

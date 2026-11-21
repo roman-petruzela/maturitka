@@ -4,92 +4,94 @@ order: 10
 source: "IT/Datové-sítě.docx; IT/11. Aktivní a pasivní síťové prvky.docx"
 ---
 
-Bezdrátové sítě přenášejí data rádiovými vlnami, mikrovlnami nebo světlem bez kabelů. V lokálních sítích se používá **Wi-Fi** podle normy **IEEE 802.11**, pro osobní zařízení **Bluetooth**, na velké vzdálenosti mobilní sítě, směrové spoje a satelity. Tato stránka popisuje druhy bezdrátových sítí, normy a pásma Wi-Fi, její součásti, způsob přístupu k médiu a zabezpečení.
+Bezdrátové sítě přenášejí data rádiem, mikrovlnami nebo světlem. V LAN **Wi-Fi** (**IEEE 802.11**), u osobních zařízení **Bluetooth**, na dálku mobilní sítě, směrové spoje a satelity.
 
 ## Výhody a nevýhody bezdrátových sítí
 
-- Výhody: není potřeba kabeláž (levnější a rychlejší instalace, i tam, kde kabel natáhnout nejde), **mobilita** uživatelů, snadné připojení mnoha malých zařízení.
-- Nevýhody: signál se šíří i mimo budovu, a proto hrozí **odposlech** a neoprávněný přístup; **rušení** jinými zařízeními (mikrovlnná trouba, Bluetooth, sousední sítě); **útlum** zdmi a překážkami; nižší a méně stabilní rychlost než u kabelu; přenosovou kapacitu sdílejí všichni klienti jednoho přístupového bodu.
+- Výhody: bez kabeláže (levnější, rychlejší, i kde kabel nejde), **mobilita**, snadné připojení mnoha zařízení.
+- Nevýhody: signál i mimo budovu → **odposlech** a neoprávněný přístup; **rušení** (mikrovlnka, Bluetooth, sousední sítě); **útlum** zdmi; nižší a nestabilní rychlost; kapacitu AP sdílejí všichni klienti.
 
 ## Druhy bezdrátových sítí
 
 | Typ | Dosah | Technologie |
 | --- | --- | --- |
-| **WPAN** – osobní | jednotky metrů | Bluetooth (IEEE 802.15.1), dříve IrDA (infračervené světlo), Zigbee, NFC |
-| **WLAN** – lokální | desítky metrů | Wi-Fi (IEEE 802.11) |
-| **WMAN** – metropolitní | kilometry | WiMAX (IEEE 802.16), směrové mikrovlnné spoje |
-| **WWAN** – rozlehlá | celé státy | mobilní sítě: GSM (2G), UMTS (3G), LTE (4G), 5G; satelitní připojení |
+| **WPAN** | metry | Bluetooth (802.15.1), IrDA, Zigbee, NFC |
+| **WLAN** | desítky m | Wi-Fi (802.11) |
+| **WMAN** | km | WiMAX (802.16), směrové spoje |
+| **WWAN** | státy | 2G GSM, 3G UMTS, 4G LTE, 5G; satelity |
 
-- **Bluetooth** pracuje v pásmu 2,4 GHz na vzdálenost kolem 10 m (podle třídy až 100 m) a propojuje telefon se sluchátky, klávesnicí, hodinkami, autem.
-- **Bodové (point-to-point) spoje** – mikrovlnné nebo laserové spoje na přímou viditelnost mezi dvěma anténami; propojují budovy nebo připojují vzdálené lokality.
-- **Mobilní síť GSM** se skládá ze systému základnových stanic (vysílače a jejich řadiče), z přepínacího (ústřednového) systému a z operačního a podpůrného systému pro správu sítě.
-- **Satelitní připojení** – geostacionární družice ve výšce asi 36 000 km mají velké zpoždění (kolem 600 ms tam a zpět); družice na nízké oběžné dráze (Starlink) mají zpoždění desítky ms.
+- **Bluetooth** – 2,4 GHz, ~10 m (až 100 m); sluchátka, klávesnice, hodinky, auto.
+- **Point-to-point spoje** – mikrovlnné/laserové na přímou viditelnost; propojení budov.
+- **GSM** – základnové stanice (vysílače + řadiče), ústřednový systém, systém pro správu.
+- **Satelit** – geostacionární (~36 000 km) zpoždění ~600 ms; nízká dráha (Starlink) desítky ms.
 
 ## Wi-Fi a norma IEEE 802.11
 
-- **IEEE 802.11** je norma pro bezdrátové lokální sítě, která popisuje fyzickou vrstvu a podvrstvu MAC linkové vrstvy. Pracuje v **bezlicenčních pásmech** 2,4 GHz, 5 GHz a 6 GHz – k provozu není potřeba povolení, ale je omezen vysílací výkon.
-- **Wi-Fi** je obchodní značka organizace Wi-Fi Alliance, která certifikuje vzájemnou kompatibilitu zařízení podle IEEE 802.11. **WLAN** je obecné označení bezdrátové lokální sítě. Tyto tři pojmy tedy nejsou totéž.
+- **IEEE 802.11** – fyzická vrstva + MAC podvrstva; **bezlicenční pásma** 2,4 / 5 / 6 GHz (bez povolení, ale omezený výkon).
+- **Wi-Fi** = značka Wi-Fi Alliance (certifikace kompatibility); **WLAN** = bezdrátová LAN obecně. Nejsou to synonyma.
 
 ### Generace Wi-Fi
 
-| Norma | Označení | Rok | Pásmo | Max. teoretická rychlost |
+| Norma | Označení | Rok | Pásmo | Max. rychlost |
 | --- | --- | --- | --- | --- |
 | 802.11 | – | 1997 | 2,4 GHz | 2 Mb/s |
 | 802.11b | – | 1999 | 2,4 GHz | 11 Mb/s |
 | 802.11a | – | 1999 | 5 GHz | 54 Mb/s |
 | 802.11g | – | 2003 | 2,4 GHz | 54 Mb/s |
-| 802.11n | Wi-Fi 4 | 2009 | 2,4 a 5 GHz | 600 Mb/s |
-| 802.11ac | Wi-Fi 5 | 2013 | 5 GHz | 3,5 Gb/s (až 6,9 Gb/s) |
-| 802.11ax | Wi-Fi 6 / 6E | 2019 / 2020 | 2,4, 5 (a 6) GHz | 9,6 Gb/s |
-| 802.11be | Wi-Fi 7 | 2024 | 2,4, 5 a 6 GHz | přes 40 Gb/s |
+| 802.11n | Wi-Fi 4 | 2009 | 2,4 + 5 GHz | 600 Mb/s |
+| 802.11ac | Wi-Fi 5 | 2013 | 5 GHz | 3,5 Gb/s (až 6,9) |
+| 802.11ax | Wi-Fi 6 / 6E | 2019 / 2020 | 2,4, 5 (6) GHz | 9,6 Gb/s |
+| 802.11be | Wi-Fi 7 | 2024 | 2,4, 5, 6 GHz | > 40 Gb/s |
 
-Udávané rychlosti jsou teoretické maximum pro všechny prostorové proudy dohromady; skutečná rychlost jednoho klienta bývá několikrát nižší. Rychlost zvyšují širší kanály, modulace s více stavy (QAM), **MIMO** – více antén vysílá několik datových proudů současně – a u Wi-Fi 6 **OFDMA**, která rozdělí kanál mezi více klientů najednou.
+Teoretická maxima všech proudů dohromady; klient reálně dostane několikrát méně. Rychlost zvyšují širší kanály, vyšší QAM, **MIMO** (víc antén = víc proudů) a u Wi-Fi 6 **OFDMA** (kanál sdílený víc klienty naráz).
 
 ### Pásma a kanály
 
-- **2,4 GHz** – větší dosah a lepší průchod zdmi, ale jen 13 kanálů (v Evropě) širokých 20 MHz a vzdálených od sebe jen 5 MHz, takže se překrývají. Nepřekrývající se jsou kanály **1, 6 a 11** (v Evropě i 1, 5, 9, 13). Pásmo je přeplněné a ruší ho i mikrovlnné trouby a Bluetooth.
-- **5 GHz** – mnohem více nepřekrývajících se kanálů, které lze slučovat na 40, 80 i 160 MHz; vyšší rychlost, ale menší dosah. Na některých kanálech musí přístupový bod ustoupit radarům (DFS).
-- **6 GHz** (Wi-Fi 6E a 7) – nové, zatím málo rušené pásmo.
+![Kanály pásma 2,4 GHz: třináct kanálů po 20 MHz s rozestupem 5 MHz se překrývají, samostatně stojí jen kanály 1, 6 a 11](/images/content/it/pocitacove-site/wifi/kanaly-24.webp)
+
+- **2,4 GHz** – větší dosah, lépe skrz zdi, ale 13 kanálů po 20 MHz s rozestupem 5 MHz → překryv. Nepřekrývající: **1, 6, 11** (v Evropě i 1, 5, 9, 13). Přeplněné, ruší mikrovlnky a Bluetooth.
+- **5 GHz** – mnoho nepřekrývajících kanálů, slučování na 40/80/160 MHz; rychlejší, menší dosah. Na některých kanálech ustupuje radarům (DFS).
+- **6 GHz** (Wi-Fi 6E, 7) – nové, málo rušené.
 
 ## Součásti bezdrátové sítě
 
-- **Bezdrátová síťová karta** – vestavěná v notebooku či telefonu, jako karta do slotu PCIe nebo USB adaptér.
-- **Přístupový bod (AP, access point)** – vysílá síť, klienti komunikují přes něj a AP je propojuje s kabelovou sítí.
-- **Bezdrátový router** – domácí zařízení, které spojuje přístupový bod, switch (obvykle 4 porty), router s NAT, DHCP server a firewall.
-- **Antény** – všesměrové pro pokrytí okolí, směrové pro spoje na delší vzdálenost.
-- **Kontrolér (controller)** – ve větších sítích centrálně spravuje desítky přístupových bodů.
+- **Bezdrátová karta** – vestavěná, PCIe, USB.
+- **Access point (AP)** – vysílá síť, propojuje klienty s kabelovou sítí.
+- **Bezdrátový router** – AP + switch (4 porty) + router s NAT + DHCP + firewall.
+- **Antény** – všesměrové (okolí), směrové (dálkové spoje).
+- **Kontrolér** – centrální správa desítek AP.
 
 ### Režimy sítě
 
-- **Infrastrukturní režim** – klienti se připojují k přístupovému bodu (základní sada služeb **BSS**). Více přístupových bodů se stejným názvem sítě tvoří rozšířenou sadu **ESS**, ve které se klient může volně pohybovat (roaming).
-- **Ad-hoc režim** (IBSS) – klienti spolu komunikují přímo, bez přístupového bodu.
-- **Mesh** – přístupové body se propojují mezi sebou bezdrátově a pokrývají tak velký prostor bez kabelů.
+- **Infrastrukturní** – klienti přes AP (**BSS**). Více AP se stejným jménem = **ESS** s roamingem.
+- **Ad-hoc** (IBSS) – přímo mezi klienty, bez AP.
+- **Mesh** – AP propojené bezdrátově mezi sebou; velké pokrytí bez kabelů.
 
-Síť se identifikuje jménem **SSID** (Service Set Identifier); konkrétní přístupový bod má identifikátor **BSSID**, kterým je jeho MAC adresa.
+Jméno sítě = **SSID**; konkrétní AP = **BSSID** (jeho MAC).
 
 ## Přístup k médiu: CSMA/CA
 
-Rádiová stanice při vysílání neslyší ostatní, takže kolizi nedokáže zjistit jako Ethernet (CSMA/CD). Wi-Fi proto kolizím **předchází** metodou **CSMA/CA**: stanice naslouchá, zda je kanál volný, a pak ještě počká náhodnou dobu; každý správně přijatý rámec příjemce potvrdí zprávou **ACK**, a když potvrzení nepřijde, rámec se vyšle znovu. Volitelně si stanice médium předem „zamluví“ – pošle přístupovému bodu žádost **RTS** a vysílá až po odpovědi **CTS**, kterou slyší všechny stanice v dosahu AP. To řeší problém **skryté stanice** (dvě stanice slyší přístupový bod, ale ne sebe navzájem). Postup je podrobně popsán na stránce [počítačové sítě – definice a dělení](/it/pocitacove-site/01-pocitacove-site-definice-pojmy-deleni-topologie-pristupove-metody/#csmaca-carrier-sense-multiple-access-with-collision-avoidance).
+Rádio při vysílání neslyší ostatní → kolizi nepozná → **předchází** jí (**CSMA/CA**): naslouchá, počká náhodnou dobu, příjemce potvrdí **ACK** (jinak opakování). Volitelně **RTS/CTS** – zamluvení média; CTS slyší všichni u AP → řeší **skrytou stanici** (dvě stanice slyší AP, ale ne sebe). Podrobně: [definice a dělení sítí](/it/pocitacove-site/01-pocitacove-site-definice-pojmy-deleni-topologie-pristupove-metody/#csmaca-carrier-sense-multiple-access-with-collision-avoidance).
 
-Wi-Fi je vždy **poloviční duplex** – v jednom kanálu v jednu chvíli vysílá jen jedno zařízení.
+Wi-Fi je vždy **half duplex** – v kanálu vysílá v jednu chvíli jen jeden.
 
 ## Zabezpečení Wi-Fi
 
-Prostor, kde lze signál zachytit, se nedá přesně omezit, a hlavními hrozbami jsou proto **odposlech** provozu a **neoprávněný přístup** do sítě.
+Signál nejde prostorově omezit → hrozí **odposlech** a **neoprávněný přístup**.
 
 | Metoda | Hodnocení |
 | --- | --- |
-| otevřená síť | bez šifrování – kdokoli v dosahu vidí veškerý nešifrovaný provoz |
-| skrytí SSID | neúčinné – název sítě se dá zachytit z provozu klientů |
-| filtrování MAC adres | neúčinné – povolenou MAC adresu lze odposlechnout a nastavit si ji |
-| **WEP** | zastaralé, prolomeno v roce 2001; heslo se dá zjistit během minut |
-| **WPA** (TKIP) | přechodné řešení, dnes již nebezpečné |
-| **WPA2** (AES-CCMP) | bezpečné při dostatečně dlouhém heslu; krátké heslo lze uhodnout útokem hrubou silou |
-| **WPA3** (SAE) | současný standard; odolné proti hádání hesla, šifruje i otevřené sítě (OWE) |
+| otevřená síť | bez šifrování, provoz vidí každý |
+| skrytí SSID | neúčinné – jméno je v provozu klientů |
+| filtrování MAC | neúčinné – MAC jde odposlechnout a nastavit |
+| **WEP** | prolomeno 2001, heslo za minuty |
+| **WPA** (TKIP) | přechodné, dnes nebezpečné |
+| **WPA2** (AES-CCMP) | bezpečné s dlouhým heslem |
+| **WPA3** (SAE) | současný standard, odolné proti hádání; šifruje i otevřené sítě (OWE) |
 
-- **Personal (PSK)** – všichni používají stejné sdílené heslo; vhodné pro domácnost.
-- **Enterprise (802.1X)** – každý uživatel se přihlásí vlastním účtem, který ověří server **RADIUS**; vhodné pro firmy a školy (např. síť eduroam).
-- Další zásady: změnit výchozí heslo správy routeru, vypnout **WPS** (snadno prolomitelné), oddělit hosty do samostatné sítě, aktualizovat firmware.
+- **Personal (PSK)** – jedno sdílené heslo; domácnost.
+- **Enterprise (802.1X)** – každý vlastní účet ověřený serverem **RADIUS**; firmy, školy (eduroam).
+- Dále: změnit výchozí heslo routeru, vypnout **WPS**, síť pro hosty, aktualizovat firmware.
 
 ## Otázky k opakování
 

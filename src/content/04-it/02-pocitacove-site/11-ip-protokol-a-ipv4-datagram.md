@@ -4,88 +4,88 @@ order: 11
 source: "site/IT3_IPv4_protokol.pdf; IT/Datové-sítě.docx"
 ---
 
-**Síťová vrstva** zajišťuje doručení dat do cílového zařízení, které může ležet v úplně jiné síti, přes libovolný počet mezilehlých sítí a routerů. Jejím hlavním protokolem je **IP** (Internet Protocol) a jednotkou dat **paket**, u IP nazývaný **datagram**. Tato stránka popisuje, co síťová vrstva dělá, jak vypadá hlavička IPv4 datagramu, jak funguje TTL a fragmentace, a na příkladu ukazuje rozbor skutečné hlavičky. Adresám se věnuje stránka [IPv4 adresování](/it/pocitacove-site/12-ipv4-adresovani/).
+**Síťová vrstva** doručí data do cílového zařízení i přes mnoho cizích sítí a routerů. Hlavní protokol je **IP**, jednotka **paket** (u IP **datagram**). Adresám se věnuje [IPv4 adresování](/it/pocitacove-site/12-ipv4-adresovani/).
 
 ## Úkoly síťové vrstvy
 
-1. **Adresování** – každé síťové rozhraní má přidělenou logickou **IP adresu**, podle které lze data směrovat.
-2. **Zapouzdření** – k datům (segmentu) z transportní vrstvy se přidá hlavička s IP adresou odesílatele a příjemce a vzniklý paket se předá linkové vrstvě.
-3. **Směrování** – routery podle svých směrovacích tabulek rozhodnou, kam paket pošlou dál, viz [směrování a routovací tabulka](/it/pocitacove-site/16-smerovani-a-routovaci-tabulka/).
-4. **Rozbalení** – až v cílovém zařízení se hlavička odstraní a data se předají transportní vrstvě.
+1. **Adresování** – každé rozhraní má logickou **IP adresu**.
+2. **Zapouzdření** – k segmentu přidá hlavičku s IP odesílatele a příjemce.
+3. **Směrování** – routery podle tabulek posílají paket dál, viz [směrování](/it/pocitacove-site/16-smerovani-a-routovaci-tabulka/).
+4. **Rozbalení** – v cíli se hlavička odstraní a data jdou transportní vrstvě.
 
 ## Vlastnosti protokolu IP
 
-- IP poskytuje **datagramovou službu**: každý datagram se doručuje samostatně, bez navázání spojení, a různé datagramy mohou jít různými cestami.
-- Doručuje „**best effort**“ – snaží se, ale **nezaručuje** doručení, správné pořadí, nepoškozenost dat ani odstranění duplicit. Nepotvrzuje příjem a chyby neopravuje. Spolehlivost zajišťují vyšší vrstvy (TCP) a chyby hlásí protokol ICMP.
-- Je nezávislý na přenosovém médiu – stejný datagram projde Ethernetem, Wi-Fi, optikou i mobilní sítí.
-- Existují dvě verze: **IPv4** s 32bitovými adresami (od roku 1981) a **IPv6** se 128bitovými adresami, viz [IPv6](/it/pocitacove-site/15-ipv6-adresovani/).
+- **Datagramová služba** – každý datagram jde samostatně, bez spojení, i různými cestami.
+- **„Best effort“** – **nezaručuje** doručení, pořadí ani nepoškozenost; nepotvrzuje. Spolehlivost řeší TCP, chyby hlásí ICMP.
+- Nezávislý na médiu (Ethernet, Wi-Fi, optika, mobilní síť).
+- **IPv4** – 32bitové adresy (1981), **IPv6** – 128bitové, viz [IPv6](/it/pocitacove-site/15-ipv6-adresovani/).
 
 ## Hlavička IPv4 datagramu
 
-Hlavička má **nejméně 20 bajtů** (bez volitelných položek) a nejvýše 60 bajtů. Zapisuje se po řádcích širokých 32 bitů:
+**20 B** (bez voleb) až **60 B**, po řádcích po 32 bitech:
+
+![Hlavička IPv4 po 32bitových řádcích: Version, IHL, ToS, Total Length; Identification, Flags, Fragment Offset; TTL, Protocol, Checksum; zdrojová a cílová adresa; volby](/images/content/it/pocitacove-site/ipv4-datagram/hlavicka.webp)
 
 | Pole | Bitů | Význam |
 | --- | --- | --- |
-| **Version** | 4 | verze protokolu, u IPv4 hodnota 4 |
-| **IHL** (Internet Header Length) | 4 | délka hlavičky v 32bitových slovech (násobcích 4 B): nejméně 5 (20 B), nejvýše 15 (60 B) |
-| **Type of Service** (DSCP + ECN) | 8 | požadovaná kvalita služby (priorita, zpoždění, spolehlivost); dnes se používá pro QoS, dlouho zůstávalo nevyužito |
-| **Total Length** | 16 | délka celého datagramu včetně dat, nejvýše 65 535 B |
-| **Identification** | 16 | číslo datagramu, které vkládá operační systém odesílatele; všechny fragmenty jednoho datagramu mají stejné |
-| **Flags** | 3 | 1. bit vždy 0; 2. bit **DF** (Don't Fragment) = 1 – fragmentace zakázána; 3. bit **MF** (More Fragments) = 1 – nejde o poslední fragment |
-| **Fragment Offset** | 13 | umístění fragmentu v původním datagramu, v násobcích 8 B |
-| **Time to Live** (TTL) | 8 | životnost datagramu – kolik routerů ještě smí projít |
-| **Protocol** | 8 | protokol vyšší vrstvy zabalený v datech: 1 = ICMP, 6 = TCP, 17 = UDP, 88 = EIGRP, 89 = OSPF |
-| **Header Checksum** | 16 | kontrolní součet **jen hlavičky**; každý router ho po změně TTL přepočítá |
-| **Source Address** | 32 | IP adresa odesílatele |
-| **Destination Address** | 32 | IP adresa příjemce |
-| **Options** | proměnná | volitelné položky (záznam trasy, časová razítka, bezpečnost); málo využívané |
-| **Padding** | proměnná | výplň nulami, aby hlavička měla délku celých 32bitových slov |
+| **Version** | 4 | verze, u IPv4 = 4 |
+| **IHL** | 4 | délka hlavičky v 32b slovech: 5 (20 B) až 15 (60 B) |
+| **Type of Service** | 8 | priorita / QoS (DSCP + ECN) |
+| **Total Length** | 16 | délka celého datagramu, max. 65 535 B |
+| **Identification** | 16 | číslo datagramu; fragmenty mají stejné |
+| **Flags** | 3 | 0, **DF** (nefragmentovat), **MF** (další fragmenty následují) |
+| **Fragment Offset** | 13 | pozice fragmentu v násobcích 8 B |
+| **TTL** | 8 | kolik routerů ještě smí projít |
+| **Protocol** | 8 | co je uvnitř: 1 ICMP, 6 TCP, 17 UDP, 88 EIGRP, 89 OSPF |
+| **Header Checksum** | 16 | součet **jen hlavičky**, router ho přepočítá |
+| **Source Address** | 32 | IP odesílatele |
+| **Destination Address** | 32 | IP příjemce |
+| **Options** | prom. | volby (záznam trasy, časová razítka); vzácné |
+| **Padding** | prom. | výplň na celé 32b slovo |
 
 ### Time to Live (TTL)
 
-TTL chrání síť před datagramy, které by kvůli chybě ve směrování kroužily donekonečna.
+Chrání síť před datagramy, které by kvůli chybě směrování kroužily donekonečna.
 
-- Norma ho původně definovala jako čas v sekundách, v praxi ale každý router sníží TTL **o 1**, takže znamená **maximální počet přeskoků** (hops) přes routery.
-- Výchozí hodnotu nastavuje operační systém odesílatele: obvykle **64** (Linux, macOS), **128** (Windows) nebo **255** (síťová zařízení). Nejvyšší možná hodnota je 255, protože pole má 8 bitů.
-- Když TTL klesne na **0**, router datagram **zahodí** a odesílateli pošle zprávu ICMP **Time Exceeded** (typ 11).
+- Každý router sníží TTL **o 1** → TTL = **max. počet přeskoků** (původně sekundy).
+- Výchozí: **64** Linux/macOS, **128** Windows, **255** síťová zařízení (max., pole má 8 b).
+- TTL = **0** → router datagram **zahodí** a pošle ICMP **Time Exceeded** (typ 11).
 
-Na tomto principu pracuje příkaz **tracert** (Linux `traceroute`): pošle datagram s TTL = 1, první router ho zahodí a ozve se; pak s TTL = 2 a tak dál, dokud neodpoví cíl. Z odpovědí se sestaví seznam routerů na cestě i se zpožděním ke každému z nich.
+**tracert** (`traceroute`) posílá datagramy s TTL 1, 2, 3… – každý router, kde TTL vyprší, se ozve. Vznikne seznam routerů na cestě i se zpožděním.
 
 ### Fragmentace
 
-Každá síťová technologie má **MTU** (Maximum Transmission Unit) – největší velikost datagramu, kterou umí přenést v jednom rámci; u Ethernetu je to **1 500 B**. Pokud je datagram větší než MTU další linky, router ho rozdělí na **fragmenty**. Každý fragment dostane vlastní hlavičku se stejnou hodnotou Identification, posunem (Fragment Offset) a příznakem MF; fragmenty se skládají až v **cílovém** zařízení. Data každého fragmentu kromě posledního musí mít délku dělitelnou 8.
+**MTU** = největší datagram, který linka přenese (Ethernet **1 500 B**). Větší datagram router rozdělí na **fragmenty** – stejné Identification, vlastní Offset a MF. Skládá je až **cíl**. Data každého fragmentu (kromě posledního) musí být dělitelná 8.
 
-Je-li nastaven příznak **DF**, router datagram nefragmentuje, ale zahodí a pošle zpět ICMP zprávu „je potřeba fragmentace“. Toho využívá zjišťování MTU celé cesty (Path MTU Discovery), díky němuž se dnes fragmentace téměř nepoužívá.
+Při **DF** = 1 router nefragmentuje, datagram zahodí a pošle ICMP „nutná fragmentace“. Toho využívá Path MTU Discovery, proto se dnes fragmentace skoro nepoužívá.
 
-**Příklad – fragmentace.** Datagram o celkové délce 4 000 B (hlavička 20 B + data 3 980 B) má projít linkou s MTU 1 500 B.
+**Příklad – fragmentace.** Datagram 4 000 B (hlavička 20 + data 3 980 B), MTU 1 500 B.
 
-1. Do jednoho fragmentu se vejde 1 500 − 20 = 1 480 B dat; 1 480 je dělitelné 8, takže to lze použít.
-2. 3 980 B dat se rozdělí na 1 480 + 1 480 + 1 020 B.
-3. Posun se udává v násobcích 8 B: 0 / 8 = 0, 1 480 / 8 = 185, 2 960 / 8 = 370.
+1. Dat na fragment: 1 500 − 20 = 1 480 B (dělitelné 8 ✓).
+2. 3 980 = 1 480 + 1 480 + 1 020 B.
+3. Offset = bajt / 8: 0, 185, 370.
 
-| Fragment | Total Length | Data | MF | Fragment Offset |
+| Fragment | Total Length | Data | MF | Offset |
 | --- | --- | --- | --- | --- |
-| 1 | 1 500 B | 1 480 B (bajty 0–1 479) | 1 | 0 |
-| 2 | 1 500 B | 1 480 B (bajty 1 480–2 959) | 1 | 185 |
-| 3 | 1 040 B | 1 020 B (bajty 2 960–3 979) | 0 | 370 |
-
-Všechny tři fragmenty mají stejné Identification. Příjemce podle posunu pozná pořadí a podle MF = 0 poslední fragment.
+| 1 | 1 500 B | 1 480 B (0–1 479) | 1 | 0 |
+| 2 | 1 500 B | 1 480 B (1 480–2 959) | 1 | 185 |
+| 3 | 1 040 B | 1 020 B (2 960–3 979) | 0 | 370 |
 
 ### Co dělá router s každým datagramem
 
-1. Přijme rámec, ověří jeho FCS a vybalí z něj datagram.
-2. Zkontroluje kontrolní součet hlavičky; vadný datagram zahodí.
-3. Sníží TTL o 1; při nule datagram zahodí a pošle ICMP Time Exceeded.
-4. Přepočítá kontrolní součet hlavičky.
-5. Podle cílové adresy najde ve směrovací tabulce výstupní rozhraní a další router (next hop); když cestu nenajde, datagram zahodí a pošle ICMP Destination Unreachable.
-6. Je-li datagram větší než MTU výstupní linky, rozdělí ho na fragmenty (pokud to DF dovolí).
-7. Zabalí datagram do nového rámce s novými MAC adresami a odešle ho.
+1. Přijme rámec, ověří FCS, vybalí datagram.
+2. Ověří checksum hlavičky; vadný zahodí.
+3. TTL − 1; při 0 zahodí + ICMP Time Exceeded.
+4. Přepočítá checksum.
+5. Podle cílové IP najde v tabulce rozhraní a next hop; bez cesty zahodí + ICMP Destination Unreachable.
+6. Je-li větší než MTU, fragmentuje (pokud nemá DF).
+7. Zabalí do nového rámce s **novými MAC** a odešle.
 
-IP adresy odesílatele a příjemce se cestou nemění (pokud je nepřeloží [NAT](/it/pocitacove-site/14-nat-preklad-adres/)).
+IP adresy se cestou nemění (pokud je nepřeloží [NAT](/it/pocitacove-site/14-nat-preklad-adres/)).
 
 ## Rozbor paketu
 
-Programy pro zachytávání provozu, například **Wireshark**, ukazují obsah paketu jako šestnáctková čísla a k nim rozpis jednotlivých polí. Hlavička IPv4 v šestnáctkové soustavě:
+**Wireshark** zobrazí paket šestnáctkově i rozepsaný po polích. Hlavička IPv4:
 
 ```
 45 00 00 3c 1c 46 40 00 40 06 b1 e6 ac 10 0a 63 ac 10 0a 0c
@@ -95,41 +95,41 @@ Rozbor pole po poli:
 
 | Bajty | Hodnota | Pole | Význam |
 | --- | --- | --- | --- |
-| 1 | `45` | Version, IHL | verze 4; IHL 5 × 4 B = hlavička 20 B (bez voleb) |
-| 2 | `00` | Type of Service | běžná priorita |
-| 3–4 | `00 3c` | Total Length | 0x3C = 60 B celkem, tedy 40 B dat za hlavičkou |
-| 5–6 | `1c 46` | Identification | 0x1C46 = 7 238 |
-| 7–8 | `40 00` | Flags, Fragment Offset | binárně `010…`: DF = 1 (nefragmentovat), MF = 0, posun 0 |
-| 9 | `40` | TTL | 0x40 = 64 – odesílatel je nejspíš Linux a datagram ještě neprošel žádným routerem |
-| 10 | `06` | Protocol | 6 = TCP; v datech je tedy TCP segment |
-| 11–12 | `b1 e6` | Header Checksum | kontrolní součet hlavičky |
-| 13–16 | `ac 10 0a 63` | Source Address | 172.16.10.99 |
-| 17–20 | `ac 10 0a 0c` | Destination Address | 172.16.10.12 |
+| 1 | `45` | Version, IHL | IPv4; 5 × 4 = 20 B hlavička |
+| 2 | `00` | ToS | běžná priorita |
+| 3–4 | `00 3c` | Total Length | 60 B → 40 B dat |
+| 5–6 | `1c 46` | Identification | 7 238 |
+| 7–8 | `40 00` | Flags, Offset | DF = 1, MF = 0, offset 0 |
+| 9 | `40` | TTL | 64 → nejspíš Linux, zatím bez routeru |
+| 10 | `06` | Protocol | TCP |
+| 11–12 | `b1 e6` | Checksum | součet hlavičky |
+| 13–16 | `ac 10 0a 63` | Source | 172.16.10.99 |
+| 17–20 | `ac 10 0a 0c` | Destination | 172.16.10.12 |
 
-Převod adresy: `ac` = 10·16 + 12 = 172, `10` = 16, `0a` = 10, `63` = 6·16 + 3 = 99. Obě adresy patří do privátního rozsahu 172.16.0.0/12, komunikace tedy probíhá uvnitř lokální sítě.
+Převod: `ac` = 10·16 + 12 = 172, `10` = 16, `0a` = 10, `63` = 99. Obě adresy jsou privátní (172.16.0.0/12) → provoz uvnitř LAN.
 
-Wireshark umí provoz filtrovat (např. `ip.addr == 172.16.10.12`, `tcp.port == 443`, `dns`) a sledovat celé spojení. Slouží při hledání chyb v síti, ale bez souhlasu správce sítě se cizí provoz zachytávat nesmí.
+Filtry Wiresharku: `ip.addr == 172.16.10.12`, `tcp.port == 443`, `dns`. Cizí provoz se bez souhlasu správce zachytávat nesmí.
 
 ### Druhy datagramů
 
-- **Podle obsahu** (pole Protocol): datagram nese TCP segment, UDP datagram, ICMP zprávu nebo zprávu směrovacího protokolu (OSPF, EIGRP).
-- **Podle adresáta**: **unicast** (jednomu zařízení), **broadcast** (všem v síti; omezený na adresu 255.255.255.255 nebo směrovaný na broadcastovou adresu určité sítě) a **multicast** (skupině zařízení, adresy 224.0.0.0–239.255.255.255). V IPv6 broadcast není, nahrazuje ho multicast; přibyl **anycast** (nejbližšímu z více zařízení se stejnou adresou).
-- **Podle verze**: IPv4 datagram s proměnnou hlavičkou 20–60 B, IPv6 datagram s pevnou hlavičkou 40 B bez kontrolního součtu a bez polí pro fragmentaci.
-- **Celý datagram nebo fragment** (podle příznaku MF a posunu).
+- **Podle obsahu** (Protocol): TCP, UDP, ICMP, směrovací protokol (OSPF, EIGRP).
+- **Podle adresáta**: **unicast** (jeden), **broadcast** (všichni v síti; 255.255.255.255 nebo broadcast sítě), **multicast** (skupina, 224.0.0.0–239.255.255.255). IPv6 nemá broadcast, má navíc **anycast** (nejbližší z více zařízení).
+- **Podle verze**: IPv4 – hlavička 20–60 B; IPv6 – pevných 40 B, bez checksumu a fragmentačních polí.
+- **Celý datagram nebo fragment** (MF, offset).
 
 ## ICMP
 
-**ICMP** (Internet Control Message Protocol) je pomocný protokol síťové vrstvy, zapouzdřený přímo v IP datagramu (Protocol = 1). Přenáší chybová hlášení a diagnostické dotazy.
+**ICMP** – pomocný protokol síťové vrstvy přímo v IP (Protocol = 1); chybová hlášení a diagnostika.
 
 | Typ | Zpráva | Použití |
 | --- | --- | --- |
-| 0 | Echo Reply – odpověď na ozvěnu | odpověď na ping |
-| 3 | Destination Unreachable – cíl nedostupný | síť, počítač nebo port nedostupný; nutná fragmentace |
-| 5 | Redirect – přesměrování | router upozorní na lepší cestu |
-| 8 | Echo Request – žádost o ozvěnu | ping |
-| 11 | Time Exceeded – vypršel čas | TTL kleslo na nulu; využívá tracert |
+| 0 | Echo Reply | odpověď na ping |
+| 3 | Destination Unreachable | síť / počítač / port nedostupný; nutná fragmentace |
+| 5 | Redirect | lepší cesta |
+| 8 | Echo Request | ping |
+| 11 | Time Exceeded | TTL = 0; tracert |
 
-**Ping** pošle cíli zprávu Echo Request a čeká na Echo Reply; ukáže, zda je cíl dostupný, dobu odezvy (RTT) a TTL přijaté odpovědi. Ping může selhat i u funkčního zařízení, pokud ICMP blokuje firewall.
+**Ping** pošle Echo Request, čeká na Echo Reply: ukáže dostupnost, odezvu (RTT) a TTL. Firewall může ICMP blokovat – ping pak selže i u funkčního zařízení.
 
 ## Otázky k opakování
 

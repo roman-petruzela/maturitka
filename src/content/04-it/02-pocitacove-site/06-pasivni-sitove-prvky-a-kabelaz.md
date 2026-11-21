@@ -4,86 +4,86 @@ order: 6
 source: "IT/11. Aktivní a pasivní síťové prvky.docx; site/01_Sitovy_HW_pasivni_prvky_kabely_KOAX_UTP.pdf; IT/Datové-sítě.docx"
 ---
 
-**Pasivní síťové prvky** jsou části sítě, které signál jen vedou – nezesilují ho, nezpracovávají a nepotřebují napájení: kabely, konektory, zásuvky, patch panely, rozvaděče (racky), optické vany a montážní prvky. Patří k nim i **přenosové médium** – prostředí, kterým se šíří signál nesoucí data, hlas nebo obraz. Tato stránka popisuje vlastnosti médií, metalické a optické kabely, bezdrátový přenos a strukturovanou kabeláž. Zařízení, která se na komunikaci podílejí aktivně, popisuje stránka [aktivní síťové prvky a síťová karta](/it/pocitacove-site/07-aktivni-sitove-prvky-a-sitova-karta/).
+**Pasivní prvky** signál jen vedou – nezesilují, nezpracovávají, nepotřebují napájení: kabely, konektory, zásuvky, patch panely, rozvaděče, optické vany. Patří sem i **přenosové médium**. Aktivní prvky: [aktivní síťové prvky a síťová karta](/it/pocitacove-site/07-aktivni-sitove-prvky-a-sitova-karta/).
 
 ## Přenosová média
 
-Počítačová síť vzniká propojením dvou a více počítačů prostřednictvím jejich síťových rozhraní; k fyzickému propojení slouží přenosová média. Data lze přenášet:
+Data lze přenášet:
 
-- **elektrickým signálem** po metalických vodičích – kroucená dvoulinka, koaxiální kabel,
-- **světlem** (světelnými impulzy o určité vlnové délce) po optických vláknech,
-- **elektromagnetickými vlnami** vzduchem – rádiové vlny, mikrovlny, infračervené záření.
+- **elektricky** po metalických vodičích – kroucená dvoulinka, koax,
+- **světlem** po optických vláknech,
+- **elektromagnetickými vlnami** vzduchem – rádio, mikrovlny, infračervené.
 
 ### Vlastnosti přenosových médií
 
 | Vlastnost | Význam |
 | --- | --- |
-| odolnost proti rušení (EMI) | jak moc médium ovlivňuje vnější elektromagnetické rušení – motory, zářivky, lékařské přístroje, mobilní telefony |
-| šířka pásma | kolik dat lze médiem přenést; udává se v Hz nebo b/s |
-| útlum | ztráta síly signálu na médiu; udává se v dB na jednotku délky a omezuje maximální délku kabelu |
-| impedance | odpor, který vodič klade střídavému proudu, v ohmech (Ω); kroucená dvoulinka 100 Ω, koax pro Ethernet 50 Ω, televizní 75 Ω |
-| přeslech | rušení signálem ze sousedního páru vodičů, v dB |
-| maximální délka segmentu | jak daleko lze signál přenést bez obnovení |
-| cena a snadnost instalace | cena kabelu, konektorů a práce, ohebnost, hmotnost |
+| odolnost proti rušení (EMI) | vliv motorů, zářivek, telefonů… |
+| šířka pásma | kolik dat projde (Hz, b/s) |
+| útlum | ztráta signálu v dB na délku; omezuje délku kabelu |
+| impedance | Ω; dvoulinka 100 Ω, koax Ethernet 50 Ω, TV 75 Ω |
+| přeslech | rušení ze sousedního páru (dB) |
+| max. délka segmentu | dosah bez obnovení signálu |
+| cena a instalace | kabel, konektory, práce, ohebnost |
 
 ## Koaxiální kabel
 
-**Koaxiální („souosý“) kabel** má uprostřed měděný **vnitřní vodič**, kolem něj izolant (**dielektrikum**), pak **vnější vodič** ve tvaru opletení nebo fólie, který slouží zároveň jako stínění, a nakonec ochranný **plášť**. Oba vodiče mají společnou osu – odtud název. Na rozdíl od kroucené dvoulinky je **nesymetrický** (vodiče nejsou rovnocenné).
+**Koax („souosý“)**: měděný **vnitřní vodič** → izolant (**dielektrikum**) → **vnější vodič** (opletení/fólie = stínění) → **plášť**. Společná osa; **nesymetrický**.
 
 <img src="/images/content/it/pocitacove-site/pasivni-sitove-prvky-a-kabelaz/01.webp" alt="Řez koaxiálním kabelem" width="560" loading="lazy" decoding="async">
 
-- Varianty podle přenosu: v **základním pásmu** nese jediný kanál (jednu zprávu), v **přeloženém pásmu** několik analogových signálů současně (kabelová televize, přibližně 50–750 MHz, dosah kilometry).
-- **Tlustý koax** (průměr asi 1 cm, žlutý, 10BASE5, segment 500 m) a **tenký koax** (asi 0,5 cm, 10BASE2, segment 185 m, konektory **BNC**, T-odbočky a terminátory 50 Ω).
-- Výhody: velká odolnost proti rušení a dobré odstínění přeslechů, snadná instalace. Nevýhody: je náchylný k mechanickému poškození, tlustší a dražší než dvoulinka, v sítích LAN je zastaralý (rychlost jen 10 Mb/s, sběrnicová topologie).
-- Dnešní použití: rozvody kabelové televize, sítě **HFC** (Hybrid Fiber-Coax – část směrem k páteři je optická, nejblíže k uživateli koaxiální), propojení antény s Wi-Fi routerem nebo vysílačem.
+- **Základní pásmo** = jeden kanál; **přeložené pásmo** = více analogových signálů (kabelová TV ~50–750 MHz).
+- **Tlustý** (≈ 1 cm, žlutý, 10BASE5, 500 m) a **tenký** (≈ 0,5 cm, 10BASE2, 185 m, **BNC**, T-odbočky, terminátory 50 Ω).
+- Plus: odolný proti rušení, snadná instalace. Mínus: mechanicky choulostivý, dražší, v LAN zastaralý (10 Mb/s, sběrnice).
+- Dnes: kabelová TV, **HFC** (optika k páteři, koax k uživateli), anténa – router.
 
 ## Kroucená dvoulinka (twisted pair, TP)
 
-Kroucená dvoulinka se skládá z několika – nejčastěji **čtyř – párů** měděných vodičů. Vodiče v páru jsou rovnocenné (**symetrické**) a jsou kolem sebe pravidelně **zkrouceny** (anglicky *twisted*, odtud název i hovorové „twist“). Připojuje se konektorem **RJ-45** (8P8C) a používá se pro vnitřní rozvody.
+Nejčastěji **4 páry** měděných vodičů; vodiče v páru jsou **symetrické** a **zkroucené**. Konektor **RJ-45** (8P8C), vnitřní rozvody.
 
 ### Proč kroucená
 
-Každé dva souběžně vedoucí vodiče se chovají jako **anténa**: při přenosu signálu vyzařují do okolí elektromagnetické vlny a zároveň přijímají rušení z okolí. Při dnešních přenosových rychlostech to není zanedbatelné. Pravidelným zkroucením se rušení zachycené oběma vodiči páru navzájem vyruší a vyzařování se sníží na přijatelnou míru – neohrožuje zdraví ani neovlivňuje jiná zařízení. Jednotlivé páry mají různou hustotu zkroucení, aby se navzájem co nejméně rušily. Pokud by vyzařování nebo okolní rušení bylo stále příliš velké, použije se stíněná dvoulinka.
+Souběžné vodiče fungují jako **anténa** – vyzařují a přijímají rušení. **Zkroucení** rušení v páru vyruší a sníží vyzařování. Páry mají různou hustotu zkroucení, aby se navzájem nerušily. Při silném rušení → stíněná dvoulinka.
 
 ### Historie
 
-Kroucená dvoulinka se původně používala pro telefonní rozvody. Do počítačových sítí se dostala díky tomu, že se v USA nové budovy vybavovaly značně předimenzovanými telefonními rozvody, které zůstávaly nevyužité. Ethernet se proto upravil, aby místo po koaxiálním kabelu „běhal“ i po dvoulince (10BASE-T, 1990).
+Původně telefonní rozvody. V USA měly nové budovy předimenzované nevyužité telefonní kabely → Ethernet se upravil i na dvoulinku (10BASE-T, 1990).
 
 ### Složení a varianty
 
-- **Vodiče** – z mědi, vždy v párech. **Lanko (licna)** je ohebné a používá se pro propojovací kabely k počítači, kde se kabel ohýbá a je mechanicky namáhán. **Drát** se používá pro pevné rozvody v lištách a ve zdech.
-- **Izolace (dielektrikum)** – izoluje každý vodič zvlášť.
-- **Stínění** – jen u stíněných variant: fólie kolem každého páru, opletení (nebo fólie) kolem všech párů.
-- **Plášť** – vnější obal z PVC (běžné, *nonplenum*) nebo z teflonu či Kynaru (*plenum* – pro vedení ve vzduchotechnice, při hoření méně dýmí).
+- **Vodiče** – měď v párech. **Lanko** (ohebné) pro patch kabely, **drát** pro pevné rozvody ve zdech.
+- **Izolace** každého vodiče.
+- **Stínění** (jen stíněné varianty) – fólie kolem páru, opletení kolem všech.
+- **Plášť** – PVC (*nonplenum*) nebo teflon/Kynar (*plenum*, ve vzduchotechnice, méně dýmí).
 
 | Označení | Stínění | Poznámka |
 | --- | --- | --- |
-| **UTP** (U/UTP) | žádné | nejlevnější a nejběžnější; citlivější na šum |
+| **UTP** (U/UTP) | žádné | nejlevnější, nejběžnější, citlivější na šum |
 | **FTP** (F/UTP) | fólie kolem všech párů | lepší odolnost |
-| **STP** (S/FTP) | opletení kolem všech párů a fólie kolem každého páru | nejlepší ochrana proti rušení, ale silný, tuhý a hůř se s ním pracuje; stínění musí být uzemněno |
+| **STP** (S/FTP) | opletení + fólie kolem každého páru | nejlepší ochrana, ale tuhý; nutné uzemnění |
 
 ### Kategorie kroucené dvoulinky
 
-| Kategorie | Šířka pásma | Použití |
+| Kategorie | Pásmo | Použití |
 | --- | --- | --- |
-| Cat 3 | 16 MHz | telefonní rozvody, Ethernet 10BASE-T (10 Mb/s) |
-| Cat 4 | 20 MHz | Token Ring do 16 Mb/s; prakticky se nepoužívá |
-| Cat 5 | 100 MHz | Fast Ethernet 100BASE-TX (100 Mb/s) |
-| **Cat 5e** | 100 MHz | Gigabit Ethernet 1000BASE-T; nejrozšířenější kategorie strukturované kabeláže |
-| Cat 6 | 250 MHz | Gigabit Ethernet, 10GBASE-T do 55 m |
-| Cat 6A | 500 MHz | plnohodnotný 10GBASE-T (10 Gb/s) na 100 m |
-| Cat 7 / 7A | 600 / 1 000 MHz | vždy stíněný (S/FTP), speciální konektory (GG45, TERA); americká norma TIA ho neuznává |
-| Cat 8 | 2 000 MHz | 25 a 40 Gb/s na vzdálenost do 30 m, propojení v datových centrech |
+| Cat 3 | 16 MHz | telefon, 10BASE-T |
+| Cat 4 | 20 MHz | Token Ring 16 Mb/s; nepoužívá se |
+| Cat 5 | 100 MHz | 100BASE-TX |
+| **Cat 5e** | 100 MHz | 1 Gb/s; nejrozšířenější |
+| Cat 6 | 250 MHz | 1 Gb/s, 10 Gb/s do 55 m |
+| Cat 6A | 500 MHz | 10 Gb/s na 100 m |
+| Cat 7 / 7A | 600 / 1 000 MHz | vždy S/FTP, konektory GG45, TERA; TIA neuznává |
+| Cat 8 | 2 000 MHz | 25/40 Gb/s do 30 m, datová centra |
 
 ### Omezení a vliv na topologii
 
-- Kroucená dvoulinka umožňuje jen **dvoubodové spoje** na vzdálenost nejvýše **100 m** (90 m pevného rozvodu + 10 m propojovacích kabelů).
-- Na dvoulince nejde dělat odbočky, takže s ní nelze vytvořit sběrnici, se kterou počítal původní Ethernet. Odbočování se proto řeší elektronicky: jeden konec kabelu vede ke stanici, druhý do aktivního prvku (dříve rozbočovače – hubu, dnes přepínače), který signál „rozbočí“. Vzniká **hvězdicová topologie**.
-- Výhody: nízká cena, snadná instalace a připojení zařízení, u stíněné verze dobrá ochrana proti rušení. Nevýhody: nestíněná je citlivější na šum než koax, signál se bez obnovení nedá přenést na větší vzdálenost.
+- Jen **dvoubodové spoje**, max. **100 m** (90 m pevně + 10 m patch kabely).
+- Nejde odbočovat → žádná sběrnice; rozbočuje aktivní prvek (hub, dnes switch) → **hvězda**.
+- Plus: levná, snadná instalace, stíněná dobře odolává. Mínus: UTP citlivější na šum než koax, krátký dosah.
 
 ### Barevné značení a zapojení
 
-Páry jsou barevně rozlišeny: **oranžový, zelený, modrý a hnědý**; v každém páru je druhý vodič bílý s proužkem barvy páru – celkem 8 vodičů. Pořadí vodičů v konektoru určuje norma **EIA/TIA-568** ve dvou variantách, **T568A** a **T568B**, které se liší prohozením oranžového a zeleného páru (evropským ekvivalentem je ISO/IEC 11801). U nás se častěji používá T568B.
+Páry **oranžový, zelený, modrý, hnědý**, druhý vodič vždy bílý s proužkem → 8 vodičů. Pořadí určuje **EIA/TIA-568**: **T568A** a **T568B** (liší se prohozením oranžového a zeleného páru; evropsky ISO/IEC 11801). U nás častěji T568B.
 
 | Pin | T568A | T568B |
 | --- | --- | --- |
@@ -96,47 +96,51 @@ Páry jsou barevně rozlišeny: **oranžový, zelený, modrý a hnědý**; v ka�
 | 7 | bílo-hnědý | bílo-hnědý |
 | 8 | hnědý | hnědý |
 
-- **Přímý kabel** má na obou koncích stejné zapojení (B–B nebo A–A). Spojuje zařízení různého typu: počítač – switch, router – switch.
-- **Křížený kabel** (crossover) má na jednom konci zapojení A a na druhém B. Při 10 a 100 Mb/s vysílá stanice piny 1, 2 a přijímá piny 3, 6, takže křížení prohodí vysílací a přijímací pár. Používal se pro spojení zařízení stejného typu: počítač – počítač, switch – switch. Gigabitový Ethernet využívá všechny čtyři páry, křížený kabel pro něj proto kříží všechny páry.
-- Dnešní síťové karty a switche mají funkci **Auto-MDI-X** – samy rozpoznají typ kabelu a překřížení zajistí elektronicky, takže křížený kabel už většinou není potřeba.
+- **Přímý kabel** – stejně na obou koncích (B–B). Různá zařízení: PC – switch, router – switch.
+- **Křížený** – A na jednom, B na druhém konci; prohodí vysílací (1, 2) a přijímací (3, 6) pár. Stejná zařízení: PC – PC, switch – switch. Gigabit kříží všechny páry.
+- **Auto-MDI-X** – dnešní zařízení překříží elektronicky sama → křížený kabel netřeba.
 
 <img src="/images/content/it/pocitacove-site/pasivni-sitove-prvky-a-kabelaz/02.webp" alt="Zapojení T-568A a T-568B na koncích kříženého kabelu" width="414" loading="lazy" decoding="async">
 
 ## Optický kabel
 
-Optický kabel přenáší data **světlem**. Zdrojem světla je **LED** nebo **laser**, na druhé straně ho **fotodetektor** převádí zpět na elektrický signál.
+Data **světlem**: zdroj **LED** nebo **laser**, na konci **fotodetektor**.
 
-- Optické vlákno má skleněné (případně plastové) **jádro**, kolem něj **plášť (cladding)** s nižším indexem lomu a ochrannou **primární a sekundární ochranu**. Světlo se na rozhraní jádra a pláště **totálně odráží**, takže zůstává uvnitř jádra.
-- **Jednovidové (single-mode, SM)** vlákno má tenké jádro (asi 9 µm), světlo se šíří jedinou cestou (videm). Má malý útlum i disperzi a dosah desítky kilometrů; používá laser (1 310 nebo 1 550 nm). Je dražší na koncová zařízení.
-- **Mnohovidové (multi-mode, MM)** vlákno má silnější jádro (50 nebo 62,5 µm), paprsek se v něm šíří více cestami, které jsou různě dlouhé – signál se tím „rozmazává“ (**disperze**). Dosah je stovky metrů až jednotky kilometrů; stačí levnější LED nebo VCSEL laser (850 nm).
-- **Útlum** vzniká uvnitř vlákna (nečistoty ve skle, rozptyl) a vnějšími vlivy – nevhodným ohybem kabelu, mikroohyby a nerovnostmi, špatnými spoji.
-- **Konektory**: SC, LC, ST, FC, E2000, MT-RJ. Vlákna se trvale spojují **svařováním**; svary a rezervy vláken se ukládají do **optické vany** (rozvaděče), kde se vlákna napojují na konektory přes krátké kabely (pigtaily).
-- Výhody: velká šířka pásma a rychlost, velký dosah, **necitlivost na elektromagnetické rušení**, galvanické oddělení propojených budov, obtížný odposlech, nízká hmotnost. Nevýhody: vyšší cena, náročnější montáž (svařování, měření), citlivost na ohyb.
-- Použití: páteřní sítě, propojení budov, připojení domácností (FTTH), datová centra.
+![Jednovidové vlákno s tenkým jádrem a jednou cestou světla a mnohovidové vlákno se silným jádrem a více cestami odrážejícími se od pláště](/images/content/it/pocitacove-site/pasivni-prvky/optika.webp)
+
+- **Jádro** (sklo/plast) + **plášť (cladding)** s nižším indexem lomu + ochrany. Na rozhraní **totální odraz** → světlo zůstává v jádře.
+- **Jednovidové (SM)** – jádro ~9 µm, jedna cesta, malý útlum a disperze, desítky km, laser 1 310/1 550 nm; dražší koncová zařízení.
+- **Mnohovidové (MM)** – jádro 50/62,5 µm, více cest různé délky → **disperze** („rozmazání“); stovky m až km; LED/VCSEL 850 nm.
+- **Útlum** – nečistoty a rozptyl ve skle, ohyby, mikroohyby, špatné spoje.
+- **Konektory** SC, LC, ST, FC, E2000, MT-RJ. Vlákna se **svařují**; svary a rezervy v **optické vaně**, na konektory přes pigtaily.
+- Plus: obrovská rychlost a dosah, **imunita vůči rušení**, galvanické oddělení budov, těžký odposlech, lehkost. Mínus: cena, náročná montáž, citlivost na ohyb.
+- Použití: páteře, propojení budov, FTTH, datová centra.
 
 ## Bezdrátový přenos
 
-- Vzduchem se šíří rádiové vlny (Wi-Fi, Bluetooth, mobilní sítě), mikrovlny (směrové spoje, satelity) a infračervené záření (IrDA). Laserové spoje přenášejí světlo vzduchem na přímou viditelnost.
-- **WLAN** je obecné označení bezdrátové lokální sítě; **IEEE 802.11** je norma, podle které WLAN obvykle funguje; **Wi-Fi** je obchodní značka zařízení certifikovaných podle této normy – nejde tedy o totéž.
-- Používají se bezlicenční pásma 2,4 GHz, 5 GHz a 6 GHz i licencovaná pásma. Obecně platí, že vyšší frekvence umožňuje vyšší přenosovou rychlost, ale má menší dosah a hůř prochází překážkami.
-- Bezpečnost: prostor, kde lze signál zachytit, nejde přesně omezit, proto je nutné šifrování (WPA2, WPA3).
+- Rádiové vlny (Wi-Fi, Bluetooth, mobil), mikrovlny (směrové spoje, satelity), infračervené (IrDA); laserové spoje na přímou viditelnost.
+- **WLAN** = bezdrátová LAN obecně; **IEEE 802.11** = norma; **Wi-Fi** = obchodní značka certifikovaných zařízení.
+- Pásma 2,4 / 5 / 6 GHz (bezlicenční) i licencovaná. Vyšší frekvence = vyšší rychlost, ale menší dosah a horší průchod zdmi.
+- Signál nejde prostorově omezit → nutné šifrování (WPA2, WPA3).
 
-Podrobně viz [bezdrátové sítě Wi-Fi](/it/pocitacove-site/10-bezdratove-site-wi-fi/).
+Viz [Wi-Fi](/it/pocitacove-site/10-bezdratove-site-wi-fi/).
 
 ## Strukturovaná kabeláž
 
-**Strukturovaná kabeláž** je univerzální kabelový rozvod budovy podle norem (ISO/IEC 11801, EN 50173, TIA-568). Používá datové kabely se čtyřmi kroucenými páry a optické kabely a podporuje přenos digitálních i analogových signálů – počítačovou síť, telefony, kamery. Přípojná místa se instalují i tam, kde zatím nejsou potřeba, aby se v budoucnu nemuselo znovu vrtat a tahat kabely. Počítá se s dlouhou technickou i morální životností (15–20 let).
+**Strukturovaná kabeláž** = univerzální rozvod budovy podle norem (ISO/IEC 11801, EN 50173, TIA-568): 4párové kabely + optika pro síť, telefony, kamery. Zásuvky se dávají i tam, kde zatím nejsou potřeba. Životnost 15–20 let.
+
+![Kanál strukturované kabeláže: počítač – patch kabel – zásuvka – horizontální kabeláž max. 90 m – patch panel v rozvaděči – patch kabel – switch, celkem max. 100 m](/images/content/it/pocitacove-site/pasivni-prvky/kabelaz.webp)
 
 ### Části strukturované kabeláže
 
-- **Telekomunikační (datové) zásuvky** – na straně uživatele; slouží k připojení koncových zařízení (počítač, notebook, IP telefon, tiskárna). Mívají dva porty RJ-45.
-- **Horizontální kabeláž** – pevné kabely (drát) od zásuvek do rozvaděče na patře; nejvýše 90 m.
-- **Patch panely** – v rozvaděčích v technické místnosti, běžným uživatelům nepřístupné; každý port panelu je napojen na jednu zásuvku. Správce sítě jimi připojuje uživatele k aktivním prvkům (switchům, telefonní ústředně).
-- **Patch kabely** (propojovací kabely, lanko) – propojují počítač se zásuvkou a v rozvaděči port patch panelu s portem switche.
-- **Páteřní (vertikální) kabeláž** – propojuje rozvaděče na patrech a v budovách mezi sebou, obvykle opticky.
-- **Datový rozvaděč (rack)** – skříň se standardní šířkou **19 palců**; výška se udává v jednotkách **U** (1 U = 44,45 mm). Obsahuje patch panely, switche, routery, servery, vyvazovací panely pro úhledné vedení kabelů, napájecí lišty a záložní zdroj (UPS) a ventilaci.
+- **Datové zásuvky** – u uživatele, obvykle 2× RJ-45.
+- **Horizontální kabeláž** – drát od zásuvky do rozvaděče na patře, max. 90 m.
+- **Patch panely** – v rozvaděči; port = jedna zásuvka; správce jimi připojuje uživatele ke switchům.
+- **Patch kabely** (lanko) – PC ↔ zásuvka, patch panel ↔ switch.
+- **Páteřní (vertikální) kabeláž** – mezi rozvaděči a budovami, obvykle optika.
+- **Rack** – skříň šířky **19″**, výška v **U** (1 U = 44,45 mm); patch panely, switche, routery, servery, vyvazovací panely, napájení, UPS, ventilace.
 
-Celý kanál od portu switche přes patch panel a horizontální kabel po zásuvku a počítač nesmí u kroucené dvoulinky překročit 100 m. Součástí instalace je **měření a certifikace** kabeláže a **dokumentace** – číslování zásuvek a portů, viz [technická dokumentace sítě](/it/pocitacove-site/19-technicka-dokumentace-site/).
+Celý kanál ≤ 100 m. Součástí je **měření a certifikace** a **dokumentace** (číslování zásuvek a portů), viz [technická dokumentace sítě](/it/pocitacove-site/19-technicka-dokumentace-site/).
 
 ## Otázky k opakování
 

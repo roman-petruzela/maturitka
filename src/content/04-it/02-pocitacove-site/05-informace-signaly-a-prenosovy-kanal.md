@@ -4,25 +4,25 @@ order: 5
 source: "IT/Datové-sítě.docx"
 ---
 
-Počítačová síť přenáší informace. Aby to šlo, musí se informace vyjádřit jako data (bity), bity převést na fyzický signál, který projde kabelem, světlovodem nebo vzduchem, a na druhé straně zase zpátky. Tato stránka vysvětluje základní pojmy, jednotky a vlastnosti přenosového kanálu, rozdíl mezi analogovým a digitálním signálem, modulaci, multiplex a přepojování okruhů a paketů. Na síťovém modelu jde o úkoly **fyzické vrstvy**, viz [model ISO/OSI a TCP/IP](/it/pocitacove-site/02-standardizace-model-iso-osi-a-tcp-ip/).
+Informace se zapíše jako data (bity), bity se převedou na signál (kabel, světlo, rádio) a na druhé straně zpět. Jde o úkoly **fyzické vrstvy**, viz [model ISO/OSI a TCP/IP](/it/pocitacove-site/02-standardizace-model-iso-osi-a-tcp-ip/).
 
 ## Informace a data
 
-- **Informace** je údaj, který snižuje nejistotu příjemce – dozví se z něj něco, co předtím nevěděl.
-- **Data** jsou informace zapsané v podobě vhodné k uložení, přenosu a zpracování, v počítači jako posloupnost bitů. Stejná data mohou pro různé příjemce nést různou informaci (a naopak tutéž informaci lze zapsat různými daty).
-- **Bit** (binary digit) je nejmenší jednotka informace – odpověď ano/ne, hodnota 0 nebo 1.
-- **Bajt** (byte, B) je 8 bitů. Malé **b** znamená bit, velké **B** bajt: 100 Mb/s je 12,5 MB/s.
+- **Informace** – údaj, který snižuje nejistotu příjemce (dozví se něco nového).
+- **Data** – zápis informace vhodný k uložení a přenosu, v počítači bity. Stejná data mohou různým příjemcům nést různou informaci.
+- **Bit** – nejmenší jednotka, 0 nebo 1.
+- **Bajt** (B) = 8 bitů. Malé **b** = bit, velké **B** = bajt: 100 Mb/s = 12,5 MB/s.
 
 ### Spojitá a diskrétní informace
 
-- **Spojitá (analogová)** informace může nabývat libovolné hodnoty z nějakého rozsahu a mění se plynule – teplota, hlasitost zvuku, jas, napětí z mikrofonu.
-- **Diskrétní (nespojitá, číslicová)** informace nabývá jen konečného počtu oddělených hodnot – počet osob, znak textu, stav vypínače. Počítač pracuje jen s diskrétní informací, spojitou musí nejdřív **digitalizovat**.
+- **Spojitá (analogová)** – libovolná hodnota z rozsahu, mění se plynule: teplota, hlasitost, napětí z mikrofonu.
+- **Diskrétní (číslicová)** – konečný počet hodnot: počet osob, znak, stav vypínače. Počítač umí jen diskrétní → spojitou musí **digitalizovat**.
 
 ### Jednotky a prefixy
 
-Pro násobky se používají dvě soustavy předpon. **Dekadické předpony SI** jsou mocniny 10 a používají se u přenosových rychlostí a výrobci disků. **Binární předpony IEC** jsou mocniny 2 a odpovídají tomu, jak počítá operační paměť a často i operační systém.
+**SI předpony** = mocniny 10 (přenosové rychlosti, výrobci disků). **Binární předpony IEC** = mocniny 2 (RAM, často OS).
 
-| Předpona SI | Hodnota | Binární předpona | Hodnota |
+| SI | Hodnota | Binární | Hodnota |
 | --- | --- | --- | --- |
 | kilo (k) | $10^3 = 1\,000$ | kibi (Ki) | $2^{10} = 1\,024$ |
 | mega (M) | $10^6$ | mebi (Mi) | $2^{20} = 1\,048\,576$ |
@@ -30,231 +30,237 @@ Pro násobky se používají dvě soustavy předpon. **Dekadické předpony SI**
 | tera (T) | $10^{12}$ | tebi (Ti) | $2^{40}$ |
 | peta (P) | $10^{15}$ | pebi (Pi) | $2^{50}$ |
 
-V běžné řeči se „kilobajt“ často používá i pro 1 024 B – proto se jednotky KiB, MiB, GiB zavedly, aby se dalo psát jednoznačně.
+KiB, MiB, GiB se zavedly, protože „kilobajt“ se používá pro 1 000 i 1 024 B.
 
-**Příklad 1 – kapacita disku.** Výrobce prodává disk 1 TB = $10^{12}$ B. Operační systém, který počítá v binárních jednotkách, ukáže
+**Příklad 1 – kapacita disku.** Disk 1 TB = $10^{12}$ B. OS v binárních jednotkách ukáže
 
 $$\frac{10^{12}}{2^{30}} \approx 931\ \text{GiB}$$
 
 Disk není menší, jen jinak počítaný.
 
-**Příklad 2 – doba přenosu.** Jak dlouho se stahuje soubor 100 MB linkou 50 Mb/s (při plném využití linky)?
+**Příklad 2 – doba přenosu.** Soubor 100 MB, linka 50 Mb/s:
 
 $$t = \frac{100 \cdot 8\ \text{Mb}}{50\ \text{Mb/s}} = 16\ \text{s}$$
 
-Bajty je potřeba nejdřív převést na bity (× 8); skutečný čas bude o něco delší kvůli režii protokolů.
+Bajty × 8 = bity; reálně o něco déle kvůli režii.
 
 ## Signál
 
-**Signál** je fyzikální veličina, jejíž průběh v čase nese informaci – napětí na vodiči, intenzita světla ve vlákně, elektromagnetická vlna ve vzduchu.
+**Signál** = fyzikální veličina, jejíž průběh v čase nese informaci.
 
 | Médium | Signál |
 | --- | --- |
-| metalický kabel (kroucená dvoulinka, koax) | elektrické impulzy (změny napětí) |
+| metalický kabel | elektrické impulzy (napětí) |
 | optické vlákno | světelné impulzy |
-| bezdrátový přenos | elektromagnetické (rádiové, mikrovlnné, infračervené) vlny |
+| bezdrátově | elektromagnetické vlny |
 
 ### Analogový a digitální signál
 
-- **Analogový signál** se mění spojitě a může nabývat nekonečně mnoha hodnot (signál z mikrofonu, klasický telefon, analogové rádio). Rušení a šum se do něj přimíchají a nedají se oddělit – každé zesílení zkreslení zvětšuje.
-- **Digitální signál** nabývá jen několika definovaných úrovní (nejčastěji dvou pro 0 a 1). Mírně zkreslený signál příjemce stále správně rozpozná a opakovač ho může obnovit do původní podoby, proto se data po digitálních sítích šíří bez ztráty kvality. Digitální data se snadno ukládají, kopírují, šifrují a komprimují.
+![Vlevo spojitý analogový signál, vpravo tentýž signál vzorkovaný v pravidelných okamžicích a zaokrouhlený na úrovně](/images/content/it/pocitacove-site/signaly/ad-prevod.webp)
 
-**Analogově-digitální převod (A/D)** probíhá ve třech krocích:
+- **Analogový** – spojitý, nekonečně mnoho hodnot (mikrofon, klasický telefon). Šum se přimíchá a nedá se oddělit; zesílením roste i zkreslení.
+- **Digitální** – jen pár úrovní (0 a 1). Mírně zkreslený se stále správně rozpozná, opakovač ho obnoví → **bez ztráty kvality**. Snadno se ukládá, kopíruje, šifruje, komprimuje.
 
-1. **vzorkování** – v pravidelných intervalech se změří okamžitá hodnota signálu,
-2. **kvantování** – změřená hodnota se zaokrouhlí na nejbližší z konečného počtu úrovní,
-3. **kódování** – úroveň se zapíše jako binární číslo.
+**A/D převod:**
 
-Podle **vzorkovacího teorému** (Nyquist–Shannon) musí být vzorkovací frekvence aspoň dvojnásobkem nejvyšší frekvence v signálu, jinak se signál nedá věrně obnovit:
+1. **vzorkování** – pravidelné měření hodnoty,
+2. **kvantování** – zaokrouhlení na nejbližší úroveň,
+3. **kódování** – zápis úrovně binárně.
+
+**Vzorkovací teorém** (Nyquist–Shannon) – vzorkovat aspoň dvojnásobkem nejvyšší frekvence:
 
 $$f_{vz} \geq 2 f_{max}$$
 
-Proto má zvukové CD vzorkovací frekvenci 44,1 kHz – lidské ucho slyší zhruba do 20 kHz. Opačný převod provádí **D/A převodník**.
+Proto CD: 44,1 kHz (ucho slyší do ~20 kHz). Opačný převod: **D/A převodník**.
 
 ## Způsoby přenosu
 
 ### Sériový a paralelní přenos
 
-- **Sériový přenos** posílá bity **postupně jeden za druhým** po jednom vodiči (páru vodičů). Příklady: Ethernet, USB, SATA, PCI Express, FireWire.
-- **Paralelní přenos** posílá **několik bitů najednou** po několika souběžných vodičích. Příklady: starší sběrnice ISA, PCI, ATA (IDE), paralelní port tiskárny.
+- **Sériový** – bity **jeden po druhém** po jednom vodiči (páru): Ethernet, USB, SATA, PCIe.
+- **Paralelní** – **více bitů najednou** po souběžných vodičích: ISA, PCI, ATA (IDE), paralelní port.
 
-Paralelní přenos se zdál rychlejší, ale při vysokých frekvencích naráží na problémy: signály na jednotlivých vodičích dorazí v trochu jiném čase (pak se znak přijme chybně), vodiče se navzájem ruší (**přeslechy**, parazitní kapacity) a kabel je drahý. Proto má paralelní přenos omezenou délku i rychlost a dnes se téměř všude používá rychlý sériový přenos – i uvnitř počítače (přechod z PCI na PCI Express, z ATA na SATA).
+Paralelní při vysokých frekvencích selhává: bity na vodičích dorazí v různý čas, vodiče se ruší (**přeslechy**), kabel je drahý. Proto dnes všude rychlý sériový přenos (PCI → PCIe, ATA → SATA).
 
 ### Směr přenosu
 
-- **Simplex** – data jdou jen jedním směrem (rozhlas, televizní vysílání).
-- **Poloviční duplex (half duplex)** – oběma směry, ale střídavě (vysílačka, Ethernet s hubem).
-- **Plný duplex (full duplex)** – oběma směry současně (telefon, Ethernet se switchem).
+- **Simplex** – jen jedním směrem (rozhlas, TV).
+- **Half duplex** – oběma směry, ale střídavě (vysílačka, Ethernet s hubem).
+- **Full duplex** – oběma směry naráz (telefon, Ethernet se switchem).
 
 ### Synchronizace
 
-Příjemce musí vědět, kdy přesně začíná a končí každý bit.
+Příjemce musí vědět, kdy bit začíná a končí.
 
-- **Asynchronní přenos** – vysílač a přijímač nemají společné hodiny; okamžiky přechodu mezi bity nejsou pevně dané, takže začátek a konec každého úseku musí být jednoznačně vyznačen.
-- **Arytmický (start-stop) přenos** – jednotlivé znaky se posílají asynchronně s libovolnými mezerami, ale bity uvnitř znaku synchronně. Každý znak začíná **start bitem** a končí **stop bitem** (sériový port RS-232).
-- **Synchronní přenos** – data se vysílají nepřetržitě konstantní rychlostí v celých blocích (rámcích) a synchronizace se udržuje po celou dobu bloku. Rychlost se musí přizpůsobit nejpomalejšímu zařízení.
+- **Asynchronní** – bez společných hodin; začátek a konec úseku musí být vyznačen.
+- **Arytmický (start-stop)** – znaky s libovolnými mezerami, bity uvnitř synchronně; **start bit** a **stop bit** (RS-232).
+- **Synchronní** – nepřetržitý tok bloků (rámců) stálou rychlostí, synchronizace po celý blok.
 
-Synchronizaci lze udržet samostatným časovacím signálem, odvozením časování z přijímaných dat, nebo – nejčastěji – sloučením časování a dat vhodným **linkovým kódováním**.
+Synchronizace: samostatný časovací signál, odvození z dat, nebo nejčastěji **linkové kódování**.
 
 ### Linkové kódování
 
-Linkový kód určuje, jak se jednotlivé bity vyjádří úrovněmi signálu na vedení.
+Jak se bity vyjádří úrovněmi na vedení.
 
-- **NRZ** (Non-Return to Zero) – jednička je jedna úroveň, nula druhá. Jednoduché, ale při dlouhé řadě stejných bitů se signál nemění a přijímač ztratí synchronizaci.
-- **Manchester** – uprostřed každého bitu je přechod (podle IEEE 802.3 nula = přechod z vyšší úrovně na nižší, jednička opačně). Signál se mění v každém bitu, takže v sobě nese hodiny; potřebuje ale dvojnásobnou šířku pásma. Používá ho 10 Mb/s Ethernet.
-- Rychlejší Ethernety používají kódy jako **4B/5B** (100BASE-TX, každé 4 bity se zakódují do 5 tak, aby signál nebyl dlouho beze změny) nebo víceúrovňové kódy (PAM-5 u 1000BASE-T).
+![Bity 10110010 zakódované jako NRZ a Manchester a modulované jako ASK, FSK a PSK](/images/content/it/pocitacove-site/signaly/kodovani-modulace.webp)
+
+- **NRZ** – 1 = jedna úroveň, 0 = druhá. Jednoduché, ale dlouhá řada stejných bitů = ztráta synchronizace.
+- **Manchester** – přechod uprostřed každého bitu (IEEE 802.3: 0 = dolů, 1 = nahoru) → nese hodiny, ale potřebuje 2× šířku pásma. 10 Mb/s Ethernet.
+- Rychlejší Ethernety: **4B/5B** (100BASE-TX – 4 bity do 5, aby signál nebyl dlouho beze změny), **PAM-5** (1000BASE-T).
 
 ## Vlastnosti přenosového kanálu
 
-**Přenosový kanál** je cesta, po které se signál šíří od vysílače k přijímači (kabel, vlákno, rádiový kanál, včetně zařízení na trase).
+**Přenosový kanál** = cesta signálu od vysílače k přijímači (kabel, vlákno, rádio, zařízení na trase).
 
 | Vlastnost | Význam | Jednotka |
 | --- | --- | --- |
-| **šířka pásma** (bandwidth) | rozsah frekvencí, které kanál přenese bez velkého útlumu; v sítích se tak označuje i největší možná přenosová rychlost | Hz; b/s |
-| **přenosová rychlost** | počet přenesených bitů za sekundu | b/s (kb/s, Mb/s, Gb/s) |
-| **modulační rychlost** | počet změn signálu (symbolů) za sekundu | Bd (baud) |
-| **propustnost** (throughput) | skutečně dosažená rychlost; je vždy menší než šířka pásma – závisí na provozu, typu provozu a počtu stanic | b/s |
-| **goodput** | množství užitečných aplikačních dat za sekundu (bez hlaviček a opakovaných přenosů) | b/s |
-| **útlum** | zeslabení signálu na trase; roste s délkou a frekvencí | dB (na délku) |
-| **zpoždění** (latence) | doba, za kterou data dorazí od odesílatele k příjemci | ms |
-| **kolísání zpoždění** (jitter) | nerovnoměrnost zpoždění; vadí hlavně hlasu a videu | ms |
-| **chybovost** (BER) | podíl chybně přenesených bitů | – |
-| **odstup signálu od šumu** (S/N) | poměr výkonu užitečného signálu k výkonu šumu | dB |
+| **šířka pásma** | rozsah přenesených frekvencí; v sítích i max. rychlost | Hz; b/s |
+| **přenosová rychlost** | bity za sekundu | b/s |
+| **modulační rychlost** | změny signálu (symboly) za sekundu | Bd |
+| **propustnost** | skutečná rychlost, vždy menší než šířka pásma | b/s |
+| **goodput** | užitečná data za sekundu (bez hlaviček a opakování) | b/s |
+| **útlum** | zeslabení; roste s délkou a frekvencí | dB |
+| **zpoždění** (latence) | doba cesty dat | ms |
+| **jitter** | kolísání zpoždění; vadí hlasu a videu | ms |
+| **chybovost** (BER) | podíl chybných bitů | – |
+| **S/N** | poměr signálu k šumu | dB |
 
-**Přenosová a modulační rychlost.** Nese-li jeden symbol $n$ bitů (signál má $M = 2^n$ různých stavů), platí
+**Přenosová a modulační rychlost.** Symbol s $M = 2^n$ stavy nese $n$ bitů:
 
 $$v_p = v_m \cdot \log_2 M$$
 
-kde $v_p$ je přenosová rychlost v b/s a $v_m$ modulační rychlost v Bd. Pokud má signál jen dva stavy, jsou obě rychlosti stejné.
+$v_p$ v b/s, $v_m$ v Bd. Při dvou stavech jsou stejné.
 
-**Příklad 3.** Modem vysílá 2 400 symbolů za sekundu a používá modulaci 16-QAM (16 stavů):
+**Příklad 3.** 2 400 Bd, 16-QAM:
 
 $$v_p = 2\,400 \cdot \log_2 16 = 2\,400 \cdot 4 = 9\,600\ \text{b/s}$$
 
-**Shannonův vzorec** udává teoretickou největší přenosovou rychlost kanálu se šířkou pásma $B$ a poměrem signálu k šumu $S/N$:
+**Shannonův vzorec** – max. rychlost kanálu s šířkou pásma $B$:
 
 $$C = B \cdot \log_2\left(1 + \frac{S}{N}\right)$$
 
-**Příklad 4.** Telefonní kanál má šířku pásma asi 3 100 Hz a odstup signálu od šumu 30 dB, tj. $S/N = 1\,000$:
+**Příklad 4.** Telefonní kanál 3 100 Hz, S/N 30 dB ($= 1\,000$):
 
 $$C = 3\,100 \cdot \log_2 1\,001 \approx 3\,100 \cdot 9{,}97 \approx 30\,900\ \text{b/s}$$
 
-Proto se analogové modemy zastavily kolem 33,6 kb/s (56 kb/s jen směrem k uživateli díky digitální ústředně) – rychlejší přenos po telefonním kanálu fyzikálně nejde.
+Proto modemy skončily u 33,6 kb/s (56 kb/s jen k uživateli díky digitální ústředně).
 
-**Útlum v decibelech** vyjadřuje poměr výkonu na vstupu $P_1$ a na výstupu $P_2$:
+**Útlum v dB:**
 
 $$A = 10 \cdot \log_{10} \frac{P_1}{P_2}\ \text{dB}$$
 
-Útlum 3 dB znamená, že na konec dorazí zhruba polovina výkonu, útlum 10 dB desetina.
+3 dB ≈ polovina výkonu, 10 dB = desetina.
 
 ## Přenos v základním a přeloženém pásmu
 
-- **Základní pásmo (baseband)** – signál se posílá přímo, tak jak je; jeho frekvence začínají blízko 0 Hz. Kanál přenáší jediný signál. Takto pracuje Ethernet (proto „Base“ v označení 100BASE-TX).
-- **Přeložené pásmo (broadband)** – signál se pomocí **modulace** posune do vyššího frekvenčního pásma. Do jednoho kanálu se tak vejde více signálů vedle sebe na různých frekvencích (kabelová televize, ADSL, rádio). Harmonický (sinusový) nosný signál má menší zkreslení a dostane se dál.
+- **Základní pásmo (baseband)** – signál přímo, od ~0 Hz; jeden signál na kanál. Ethernet („Base“ v 100BASE-TX).
+- **Přeložené pásmo (broadband)** – **modulací** posunutý výš; víc signálů vedle sebe (kabelová TV, ADSL, rádio). Sinusová nosná se méně zkresluje a dojde dál.
 
 ## Modulace
 
-**Modulace** je změna některé vlastnosti **nosného signálu** (harmonického, sinusového) podle přenášených dat. Zařízení, které moduluje a demoduluje, je **modem**. Sinusovka má tři vlastnosti, které lze měnit:
+**Modulace** = změna vlastnosti **nosného (sinusového) signálu** podle dat. Zařízení: **modem**.
 
-| Měněná vlastnost | Analogová modulace | Digitální modulace (klíčování) |
+| Měněná vlastnost | Analogová | Digitální (klíčování) |
 | --- | --- | --- |
-| amplituda (velikost) | **AM** – amplitudová | **ASK** – 0 a 1 jsou různé amplitudy |
-| frekvence (kmitočet) | **FM** – frekvenční | **FSK** – 0 a 1 jsou různé frekvence |
-| fáze (posun) | **PM** – fázová | **PSK** – 0 a 1 jsou různé fáze |
+| amplituda | **AM** | **ASK** – 0 a 1 různé amplitudy |
+| frekvence | **FM** | **FSK** – různé frekvence |
+| fáze | **PM** | **PSK** – různé fáze |
 
-- Nejjednodušší ASK je zapínání a vypínání nosné – tak pracují optické sítě (světlo svítí / nesvítí).
-- **QAM** (kvadraturní amplitudová modulace) mění amplitudu i fázi zároveň, takže jeden symbol nese více bitů: 16-QAM 4 bity, 64-QAM 6 bitů, 256-QAM 8 bitů, 1024-QAM 10 bitů. Používá se v Wi-Fi, kabelových modemech, DSL a mobilních sítích. Čím víc stavů, tím vyšší rychlost, ale tím lepší signál (vyšší S/N) je potřeba.
-- **OFDM** rozdělí kanál na mnoho úzkých podnosných, z nichž každá je modulována zvlášť (Wi-Fi, LTE, 5G, DVB-T, ADSL).
+- Nejjednodušší ASK = zapnout/vypnout nosnou – optika (svítí / nesvítí).
+- **QAM** mění amplitudu i fázi → víc bitů na symbol: 16-QAM 4 b, 64-QAM 6 b, 256-QAM 8 b, 1024-QAM 10 b. Wi-Fi, kabel, DSL, mobil. Víc stavů = vyšší rychlost, ale potřeba lepší S/N.
+- **OFDM** – kanál rozdělený na mnoho úzkých podnosných (Wi-Fi, LTE, 5G, DVB-T, ADSL).
 
 ## Multiplex
 
-**Multiplexování** je přenos více signálů (kanálů) jedním společným médiem. **Multiplexor** spojí více vstupů do jednoho toku, **demultiplexor** je na druhé straně zase rozdělí.
+**Multiplex** = více signálů jedním médiem. **Multiplexor** spojí, **demultiplexor** rozdělí.
 
-- **Frekvenční multiplex (FDM)** – každý kanál dostane vlastní frekvenční pásmo a všechny se přenášejí současně. Příklady: rozhlas a televize (každá stanice na jiné frekvenci), ADSL (telefon a data na jedné lince), kabelová televize.
-- **Vlnový multiplex (WDM)** – frekvenční multiplex v optice: každý kanál má jinou vlnovou délku („barvu“) světla, jedním vláknem tak jde desítky kanálů.
-- **Časový multiplex (TDM)** – čas se rozdělí na opakující se **rámce** a ty na **časové úseky** (timesloty). Každý vstup má pevně přidělené své timesloty a vysílá jen v nich, i když zrovna nemá co poslat. Jeden velký kanál se tak rozdělí na několik menších, které se chovají samostatně. Hodí se tam, kde vstupy generují stálou zátěž, a tam, kde se používá přepojování okruhů (digitální telefonní sítě, linky E1 s 32 kanály po 64 kb/s).
-- **Statistický časový multiplex (STDM)** – timesloty se nepřidělují pevně, ale **dynamicky** tomu vstupu, který zrovna potřebuje vysílat. Lze si to představit jako nekonečný vlak, který jede stálou rychlostí: každý vstup naloží data do právě volného vagonu a označí je, aby příjemce věděl, komu patří. Když volný vagon není, musí se čekat – STDM proto nezaručuje přenosovou kapacitu ani stálé zpoždění, ale kapacitu využije mnohem lépe. Hodí se pro nerovnoměrnou zátěž; na tomto principu stojí přepojování paketů.
-- **Kódový multiplex (CDM, CDMA)** – všechny kanály vysílají současně ve stejném pásmu, ale každý je zakódován jiným kódem, podle kterého ho přijímač oddělí (mobilní sítě 3G).
+![FDM: kanály A, B, C současně na různých frekvencích; TDM: kanály se střídají v časových úsecích A B C A B C](/images/content/it/pocitacove-site/signaly/multiplex.webp)
+
+- **FDM (frekvenční)** – každý kanál své pásmo, vše současně: rozhlas, TV, ADSL, kabelová TV.
+- **WDM (vlnový)** – FDM v optice: různé vlnové délky („barvy“), desítky kanálů ve vlákně.
+- **TDM (časový)** – čas rozdělen na **rámce** a **timesloty**; každý vstup má své pevné, i když nemá co poslat. Pro stálou zátěž a přepojování okruhů (telefonní sítě, E1 = 32 × 64 kb/s).
+- **STDM (statistický)** – timesloty **dynamicky** tomu, kdo vysílá; data se označí adresou. „Nekonečný vlak“ – kdo má data, naloží do volného vagonu. Nezaručí kapacitu ani zpoždění, ale využití je mnohem lepší. Základ přepojování paketů.
+- **CDM (kódový, CDMA)** – všichni naráz ve stejném pásmu, každý jiný kód (3G).
 
 ## Zabezpečení přenosu proti chybám
 
-Šum, rušení a útlum způsobují, že se některé bity přenesou chybně (0 místo 1 nebo naopak). Proto se k datům přidávají **zabezpečovací (bezpečnostní) kódy** – nadbytečné (redundantní) bity, podle kterých příjemce chybu pozná, případně i opraví.
+Šum a útlum mění bity. K datům se přidávají **zabezpečovací kódy** (redundantní bity).
 
-- **Detekční kódy** chybu jen **zjistí**; příjemce pak data zahodí a vyžádá si je znovu (metody ARQ, viz [protokoly TCP/IP](/it/pocitacove-site/03-protokoly-tcp-ip/#zajištění-spolehlivosti-arq)).
-- **Samoopravné kódy** (FEC, Forward Error Correction) chybu dokážou i **opravit** bez opakování přenosu; potřebují víc nadbytečných bitů. Používají se tam, kde opakování nejde nebo trvá dlouho – satelitní spoje, Wi-Fi, mobilní sítě, CD a DVD.
+- **Detekční** – chybu **zjistí**, data se pošlou znovu (ARQ, viz [protokoly TCP/IP](/it/pocitacove-site/03-protokoly-tcp-ip/#zajištění-spolehlivosti-arq)).
+- **Samoopravné** (FEC) – chybu i **opraví** bez opakování; víc bitů navíc. Satelit, Wi-Fi, mobil, CD/DVD.
 
 ### Parita
 
-K bloku dat se přidá jeden **paritní bit** tak, aby byl celkový počet jedniček sudý (sudá parita) nebo lichý (lichá parita). Parita odhalí **lichý počet** chybných bitů, dvě chyby v jednom bloku nepozná.
+**Paritní bit** doplní počet jedniček na sudý (sudá parita) nebo lichý. Odhalí **lichý počet** chyb, dvě chyby ne.
 
-**Příklad 5.** Data `1011001` obsahují čtyři jedničky. Při sudé paritě se přidá bit 0 a odešle se `10110010`. Přijme-li příjemce `10010010` (jeden bit se změnil), napočítá tři jedničky – lichý počet – a pozná chybu.
+**Příklad 5.** `1011001` má 4 jedničky → sudá parita přidá 0 → `10110010`. Přijde `10010010` → 3 jedničky (liché) → chyba.
 
 ### Kontrolní součet a CRC
 
-- **Kontrolní součet** (checksum) – data se sečtou po slovech a výsledek se přidá k datům; příjemce součet spočítá znovu a porovná. Jednoduchý, používají ho hlavičky IP, TCP a UDP.
-- **CRC** (Cyclic Redundancy Check, cyklický redundantní součet) – data se chápou jako dlouhé binární číslo a „vydělí se“ dohodnutým číslem (generujícím polynomem) – místo odčítání se používá XOR. **Zbytek** po dělení se připojí k datům. Příjemce vydělí přijatá data i se zbytkem stejným polynomem; je-li výsledek nenulový, nastala chyba. CRC odhalí prakticky všechny běžné chyby včetně shluků chyb. Ethernet používá 32bitový CRC v poli FCS.
+- **Kontrolní součet** – součet dat po slovech připojený k datům; jednoduchý (hlavičky IP, TCP, UDP).
+- **CRC** – data jako binární číslo „vydělená“ (XOR) generujícím polynomem; **zbytek** se připojí. Příjemce dělí znovu – nenulový zbytek = chyba. Odhalí i shluky chyb. Ethernet: 32b CRC v poli FCS.
 
-**Příklad 6 – CRC.** Data `1101`, generující polynom $x^3 + x + 1$, tj. `1011` (stupeň 3, zbytek má 3 bity).
+**Příklad 6 – CRC.** Data `1101`, polynom $x^3 + x + 1$ = `1011` (zbytek 3 b).
 
-1. K datům připíšeme 3 nuly: `1101000`.
-2. Dělíme XORem: `1101` ⊕ `1011` = `0110`; připíšeme další bit → `1100` ⊕ `1011` = `0111`; → `1110` ⊕ `1011` = `0101`; → `1010` ⊕ `1011` = `0001`.
-3. Zbytek je `001`; odešle se `1101` + `001` = `1101001`.
-4. Příjemce vydělí `1101001` číslem `1011` a vyjde mu zbytek 0 – data jsou v pořádku.
+1. Připsat 3 nuly: `1101000`.
+2. XOR: `1101` ⊕ `1011` = `0110` → `1100` ⊕ `1011` = `0111` → `1110` ⊕ `1011` = `0101` → `1010` ⊕ `1011` = `0001`.
+3. Zbytek `001`, odešle se `1101001`.
+4. Příjemce: `1101001` / `1011` → zbytek 0 → v pořádku.
 
 ### Hammingův kód
 
-**Hammingův kód** je samoopravný: kód (7,4) přidá ke 4 datovým bitům 3 kontrolní bity, které hlídají různé skupiny bitů. Z toho, které kontroly nesouhlasí, příjemce určí **polohu** chybného bitu a opraví ho. Opraví jednu chybu v bloku. Rozšířené varianty se používají v pamětech ECC.
+Samoopravný: (7,4) = 4 datové + 3 kontrolní bity hlídající různé skupiny. Z nesouhlasících kontrol se určí **poloha** chyby → oprava jedné chyby. Paměti ECC.
 
 ## Komprese dat
 
-**Komprese** zmenší objem dat, aby se rychleji přenesla a zabrala méně místa. Využívá toho, že data obsahují opakování a nadbytečnou informaci. **Kompresní poměr** udává, kolikrát jsou data menší (např. 4 : 1).
+**Komprese** zmenší data (rychlejší přenos, méně místa) využitím opakování. **Kompresní poměr** např. 4 : 1.
 
-- **Bezeztrátová komprese** – po dekompresi vzniknou přesně původní data. Nutná u textu, programů a databází. Metody: **RLE** (kódování opakujících se znaků), **Huffmanovo kódování** (častým znakům kratší kódy), slovníkové metody **LZ77/LZW** (opakující se úseky nahrazuje odkazem). Formáty ZIP, 7z, gzip, PNG, FLAC.
-- **Ztrátová komprese** – vynechá informace, které člověk téměř nevnímá (jemné odstíny barev, neslyšitelné frekvence); dosahuje mnohem vyššího poměru, ale původní data už obnovit nelze. Formáty JPEG, MP3, AAC, H.264, H.265.
+- **Bezeztrátová** – obnoví přesně originál; text, programy. **RLE**, **Huffman** (častým znakům kratší kód), **LZ77/LZW** (odkazy na opakované úseky). ZIP, 7z, gzip, PNG, FLAC.
+- **Ztrátová** – vypustí, co člověk nevnímá; mnohem vyšší poměr, originál nejde obnovit. JPEG, MP3, AAC, H.264, H.265.
 
-**Příklad 7 – RLE.** Řetězec `AAAAABBBCCCCCCD` (15 znaků) se zakóduje jako `5A3B6C1D` (8 znaků), kompresní poměr asi 1,9 : 1. Na textu bez opakování (`ABCD` → `1A1B1C1D`) by naopak data zvětšila – každá metoda se hodí jen pro určitý druh dat.
+**Příklad 7 – RLE.** `AAAAABBBCCCCCCD` (15) → `5A3B6C1D` (8), ≈ 1,9 : 1. Bez opakování (`ABCD` → `1A1B1C1D`) data naopak zvětší.
 
-V sítích se komprimují soubory před přenosem, webové stránky (HTTP komprese gzip, Brotli), obraz a zvuk při přenosu videa a hovorů; data, která už jsou komprimovaná (JPEG, ZIP), se dalším komprimováním nezmenší.
+V sítích: komprese souborů, webu (gzip, Brotli), videa a hovorů. Už komprimovaná data (JPEG, ZIP) se dál nezmenší.
 
 ## Přepojování okruhů, zpráv a paketů
 
-Způsob, jakým síť dopraví data přes mezilehlé uzly, se nazývá **přepojování** (switching).
+**Přepojování** (switching) = jak síť dopraví data přes mezilehlé uzly.
 
-**Okruh** je přenosová cesta mezi dvěma účastníky. Okruhy se dělí podle **vlastníka** (vlastní nebo pronajatý od operátora), podle **doby trvání** (trvalý – pevná, pronajatá linka; dočasný – komutovaný, sestavený jen na dobu spojení, např. telefonní hovor) a podle **typu přenášeného signálu** (analogový, digitální).
+**Okruh** = cesta mezi dvěma účastníky; dělí se podle **vlastníka** (vlastní / pronajatý), **doby** (trvalý – pronajatá linka; dočasný – komutovaný, např. hovor) a **signálu** (analogový / digitální).
 
 ### Přepojování okruhů (circuit switching)
 
-1. Před přenosem se **sestaví okruh** – vyhrazená cesta přes všechny ústředny mezi účastníky.
-2. Po celou dobu spojení je kapacita okruhu **vyhrazena** jen pro ně, i když zrovna mlčí.
-3. Po skončení se okruh **zruší**.
+1. **Sestavení okruhu** přes ústředny.
+2. Kapacita **vyhrazena** po celou dobu, i když se mlčí.
+3. **Zrušení** okruhu.
 
-Výhody: zaručená kapacita, stálé a malé zpoždění, data jdou v pořadí. Nevýhody: zdržení při sestavování, plýtvání kapacitou při nečinnosti, výpadek okruhu přeruší spojení. Příklad: klasická telefonní síť, ISDN.
+Plus: zaručená kapacita, stálé malé zpoždění, pořadí. Mínus: čekání na sestavení, plýtvání, výpadek = konec spojení. Telefonní síť, ISDN.
 
 ### Přepojování zpráv (message switching)
 
-Celá zpráva se pošle do nejbližšího uzlu, ten ji uloží a pošle dál, až je volná další linka (store and forward). Okruh se nesestavuje, ale uzly potřebují velkou paměť a dlouhé zprávy dlouho blokují linky. Příklad: telegraf, starší e-mailové systémy.
+Celá zpráva se uloží v uzlu a pošle dál, až je linka volná (store and forward). Velké paměti, dlouhé blokování linek. Telegraf, staré e-maily.
 
 ### Přepojování paketů (packet switching)
 
-Data se rozdělí na **pakety** omezené velikosti, každý s hlavičkou s adresou cíle. Pakety různých uživatelů sdílejí linky (statistický multiplex) a každý uzel paket přijme, uloží a pošle dál.
+Data v **paketech** s adresou; linky sdílené (statistický multiplex), uzel paket uloží a pošle dál.
 
-- **Datagramová služba** – každý paket se směruje samostatně, pakety mohou jít různými cestami a dorazit v jiném pořadí (IP, Internet).
-- **Virtuální okruhy** – před přenosem se domluví cesta a všechny pakety jdou po ní, ale linky se přesto sdílejí s ostatními (X.25, Frame Relay, ATM, MPLS).
+- **Datagramy** – každý paket samostatně, různými cestami, i v jiném pořadí (IP).
+- **Virtuální okruhy** – cesta domluvená předem, linky sdílené (X.25, Frame Relay, ATM, MPLS).
 
-Výhody: efektivní využití linek, odolnost proti výpadkům (pakety se pošlou jinudy), žádné zdržení na sestavení okruhu. Nevýhody: proměnlivé zpoždění, pakety se mohou ztratit nebo přijít v jiném pořadí, kapacita není zaručena – to řeší vyšší vrstvy (TCP) a mechanismy kvality služby (QoS).
+Plus: efektivní, odolné (jiná cesta), bez sestavování. Mínus: proměnlivé zpoždění, ztráty, jiné pořadí, nezaručená kapacita – řeší TCP a QoS.
 
-| | Přepojování okruhů | Přepojování paketů |
+| | Okruhy | Pakety |
 | --- | --- | --- |
-| sestavení spojení | nutné | není (u datagramů) |
+| sestavení | nutné | ne (datagramy) |
 | kapacita | vyhrazená | sdílená |
 | zpoždění | stálé | proměnlivé |
-| využití linek | nízké při nečinnosti | vysoké |
-| výpadek linky | spojení se přeruší | pakety jdou jinou cestou |
-| příklad | telefonní síť | Internet |
+| využití linek | nízké | vysoké |
+| výpadek linky | spojení padá | jiná cesta |
+| příklad | telefon | Internet |
 
 ## Koncová a komunikační zařízení
 
-V terminologii sériových linek se rozlišuje **DTE** (Data Terminal Equipment) – koncové zařízení, které data vytváří nebo přijímá (počítač, router), a **DCE** (Data Communications Equipment) – zařízení, které ho připojuje k přenosové síti a obvykle dodává hodinový signál (modem, CSU/DSU). Rozdělení pochází od firmy IBM.
+**DTE** (Data Terminal Equipment) – koncové zařízení (PC, router). **DCE** (Data Communications Equipment) – připojuje ho k síti a dává hodiny (modem, CSU/DSU). Rozdělení od IBM.
 
 ## Otázky k opakování
 
