@@ -18,20 +18,20 @@ Accounting umožňuje zpětně zjistit, kdo a kdy co provedl (dohledání incide
 
 ## Autentizace, autorizace, identifikace
 
-- Identifikace – proces, kterým subjekt (uživatel, zařízení) sděluje systému, kým je (např. zadání uživatelského jména); pouze tvrzení identity, bez ověření
-- Autentizace (ověření identity) – proces ověření, že subjekt skutečně je tím, za koho se vydává; probíhá pomocí ověřovacích faktorů
-	- Něco, co uživatel zná – heslo, PIN
-	- Něco, co uživatel má – čipová karta, mobilní telefon (OTP kód)
-	- Něco, čím uživatel je – biometrie (otisk prstu, obličej)
-	- Vícefaktorové ověření (MFA/2FA) – kombinace alespoň dvou různých faktorů pro vyšší bezpečnost
-- Autorizace – proces přidělení a kontroly oprávnění, tedy určení, k čemu má již ověřený uživatel přístup a jaké akce může provádět (např. právo číst, zapisovat, mazat)
-- Rozlišení pojmů – identifikace odpovídá na otázku „kdo tvrdíš, že jsi?“, autentizace na otázku „opravdu jsi to ty?“ (ověření pravosti tvrzení), autorizace na otázku „co smíš dělat?“ (přidělení práv až po úspěšné autentizaci); typická posloupnost je identifikace → autentizace → autorizace
+- **Identifikace** – subjekt (uživatel, zařízení) **sdělí, kým je** (uživatelské jméno); jen tvrzení bez ověření.
+- **Autentizace** – **ověření**, že subjekt je tím, za koho se vydává. **Faktory:**
+	- **něco, co uživatel zná** – heslo, PIN,
+	- **něco, co má** – čipová karta, telefon (OTP kód),
+	- **něco, čím je** – biometrie (otisk prstu, obličej),
+	- **MFA / 2FA** – kombinace **aspoň dvou různých faktorů**.
+- **Autorizace** – přidělení a kontrola **oprávnění** už ověřenému uživateli (číst, zapisovat, mazat).
+- Posloupnost: **identifikace → autentizace → autorizace** (práva až po úspěšné autentizaci).
 
 ### Hashování hesel
 
-- Heslo se do databáze nikdy neukládá v čitelné podobě (plaintext) – pokud by došlo k úniku databáze, útočník by okamžitě znal hesla všech uživatelů; místo hesla se ukládá jeho **hash** (otisk)
-- Hash – jednosměrná funkce, která z hesla vytvoří pevně dlouhý řetězec znaků; ze samotného hashe není možné heslo zpětně spočítat, dá se jen zkusit uhodnout heslo a spočítat, jestli dá stejný hash
-- **Solení** (salt) – k heslu se před hashováním přidá náhodný řetězec (jiný pro každého uživatele); zabrání to tomu, aby dva uživatelé se stejným heslem měli v databázi stejný hash, a znemožní to použití předpočítaných tabulek hashů (tzv. rainbow tables) k prolomení hesla
+- Heslo se **nikdy neukládá čitelně** (plaintext) – při úniku databáze by útočník znal všechna hesla. Ukládá se jeho **hash**.
+- **Hash** – jednosměrná funkce, pevně dlouhý řetězec; z hashe heslo nejde spočítat, jen **hádat** a porovnávat hash.
+- **Solení (salt)** – k heslu se před hashováním přidá **náhodný řetězec** (jiný pro každého uživatele): dva stejná hesla mají různý hash a nefungují předpočítané tabulky (**rainbow tables**).
 
 ```php
 // registrace – uložení nového hesla

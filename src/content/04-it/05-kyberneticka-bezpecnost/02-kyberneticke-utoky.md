@@ -5,30 +5,35 @@ order: 2
 
 ## Kybernetický útok – fáze a kategorie
 
-- Kybernetický útok – záměrná činnost směřující k narušení důvěrnosti, integrity nebo dostupnosti dat či systému
-- Typické fáze útoku (podle modelu tzv. cyber kill chain)
-	1. Průzkum (reconnaissance) – sběr informací o cíli (zaměstnanci, technologie, otevřené porty)
-	2. Příprava zbraně (weaponization) – vytvoření škodlivého nástroje (např. malware ukrytý v dokumentu)
-	3. Doručení (delivery) – přenesení útoku k cíli (e-mail, infikované médium, webová stránka)
-	4. Průnik/exploitace (exploitation) – zneužití zranitelnosti k získání přístupu
-	5. Instalace – zajištění trvalého přístupu (např. instalace backdooru)
-	6. Řízení a kontrola (command and control, C2) – navázání spojení útočníka s napadeným systémem
-	7. Naplnění cíle (actions on objectives) – krádež dat, poškození systému, šíření dále v síti
-- Kategorie útoků podle cíle – útoky na důvěrnost (únik dat), na integritu (neoprávněná změna dat), na dostupnost (znepřístupnění služby)
-- Kategorie útoků podle techniky – technické (zneužití chyby v softwaru/síti) a sociotechnické (zneužití lidského faktoru)
+- **Kybernetický útok** – záměrná činnost narušující **důvěrnost, integritu nebo dostupnost** dat či systému.
+- **Fáze útoku (cyber kill chain):**
+
+![Cyber kill chain: průzkum, příprava, doručení, průnik, instalace, řízení a kontrola, naplnění cíle](/images/content/it/kyberneticka-bezpecnost/utoky/kill-chain.webp)
+
+1. **Průzkum (reconnaissance)** – sběr informací o cíli (zaměstnanci, technologie, otevřené porty).
+2. **Příprava zbraně (weaponization)** – škodlivý nástroj (malware ukrytý v dokumentu).
+3. **Doručení (delivery)** – e-mail, infikované médium, web.
+4. **Průnik / exploitace** – zneužití zranitelnosti k přístupu.
+5. **Instalace** – trvalý přístup (backdoor).
+6. **Řízení a kontrola (C2)** – spojení útočníka s napadeným systémem.
+7. **Naplnění cíle (actions on objectives)** – krádež dat, poškození, šíření v síti.
+- **Podle cíle:** útoky na **důvěrnost** (únik dat), **integritu** (změna dat), **dostupnost** (znepřístupnění služby).
+- **Podle techniky:** **technické** (chyba v softwaru či síti) a **sociotechnické** (lidský faktor).
 
 ### Přehled typů útoků
 
-- Malware – souhrnné označení škodlivého softwaru; zahrnuje viry (šíří se připojením k jinému souboru), červy (šíří se samostatně po síti), trojské koně (tváří se jako neškodný program), ransomware (zašifruje data a požaduje výkupné), spyware (sleduje činnost uživatele) a další; příklad – ransomware WannaCry (2017), který zašifroval data na statisících počítačů po celém světě
-- Denial-of-Service, DoS/DDoS – útok, jehož cílem je přetížit systém nebo síťovou linku tak, aby přestal být dostupný legitimním uživatelům; u DoS útočí jeden zdroj, u DDoS (distributed) útočí současně velké množství zařízení (botnet); příklad – zahlcení webového serveru miliony požadavků najednou, takže přestane odpovídat
-- Phishing – podvodná komunikace (nejčastěji e-mail), která se vydává za důvěryhodný subjekt (banku, firmu) a snaží se vylákat přihlašovací údaje nebo platební informace; příklad – e-mail vypadající jako zpráva z banky s odkazem na falešnou přihlašovací stránku
-- Spoofing – falšování identity odesílatele nebo zdroje komunikace; existuje IP spoofing (falšování zdrojové IP adresy), e-mail spoofing (falšování odesílatele zprávy), DNS spoofing (falšování DNS odpovědí); příklad – útočník odešle e-mail, který vypadá, že přišel z adresy nadřízeného (tzv. CEO fraud)
-- Code injection attacks (útoky vsunutím kódu), např. SQL injection – vložení škodlivého kódu do vstupu aplikace, který aplikace nesprávně zpracuje jako součást příkazu; příklad – SQL injection, kdy útočník do přihlašovacího formuláře vloží řetězec typu `' OR '1'='1`, čímž obejde ověření hesla
-- Supply chain attacks (útoky na dodavatelský řetězec) – napadení méně chráněného dodavatele, dodávané součástky nebo aktualizace, přes kterou se útočník dostane k cílové organizaci; příklad – vložení škodlivého kódu do legitimní aktualizace softwaru, kterou pak nainstalují tisíce zákazníků (např. případ SolarWinds 2020)
-- Insider threats (vnitřní hrozby) – bezpečnostní riziko pocházející od osoby s legitimním přístupem do systému (zaměstnanec, bývalý zaměstnanec, dodavatel); může jít o úmyslné zneužití (krádež dat, sabotáž) nebo neúmyslné zavinění (chyba, neopatrnost)
-- DNS tunelling – zneužití protokolu DNS k obcházení bezpečnostních opatření tím, že se do DNS dotazů a odpovědí ukrývají jiná data (např. příkazy pro malware nebo unikající citlivá data); využívá toho, že DNS provoz bývá na firewallech méně kontrolovaný než jiný provoz
-- IoT-based attacks – útoky zneužívající zabezpečení chytrých zařízení (kamery, routery, senzory), která často mají výchozí nebo slabá hesla a nejsou pravidelně aktualizována; napadená zařízení se často zapojují do botnetů; příklad – botnet Mirai, který z tisíců napadených IoT zařízení generoval masivní DDoS útoky
-- Social engineering attack (sociální inženýrství) – manipulace člověka s cílem přimět ho k prozrazení informací nebo provedení akce, která obchází technická opatření; využívá psychologických principů (autorita, časový tlak, důvěra, strach); příklad – útočník se telefonicky vydává za pracovníka IT podpory a přesvědčí zaměstnance, aby mu sdělil heslo
+| Útok | Princip | Příklad |
+| --- | --- | --- |
+| **Malware** | škodlivý software: viry (připojí se k souboru), červi (šíří se sítí), trojské koně, ransomware, spyware | **WannaCry** (2017) – ransomware, statisíce počítačů |
+| **DoS / DDoS** | **přetížení** systému či linky, aby nebyl dostupný; DoS = jeden zdroj, **DDoS** = mnoho zařízení (**botnet**) | zahlcení webu miliony požadavků |
+| **Phishing** | podvodná komunikace (nejčastěji e-mail) vydávající se za důvěryhodný subjekt; láká přihlašovací a platební údaje | e-mail „z banky“ s odkazem na falešnou stránku |
+| **Spoofing** | **falšování identity** odesílatele: **IP**, **e-mail**, **DNS** spoofing | e-mail jakoby od nadřízeného (**CEO fraud**) |
+| **Code injection** | škodlivý kód ve vstupu aplikace, který je zpracován jako součást příkazu (**SQL injection**) | `' OR '1'='1` v přihlašovacím formuláři obejde heslo |
+| **Supply chain** | napadení méně chráněného **dodavatele**, součástky nebo aktualizace | škodlivý kód v aktualizaci softwaru – **SolarWinds** (2020) |
+| **Insider threats** | riziko od osoby s legitimním přístupem (zaměstnanec, dodavatel); úmyslné i neúmyslné | krádež dat, sabotáž, chyba |
+| **DNS tunelling** | zneužití DNS: do dotazů a odpovědí se **ukrývají jiná data** (příkazy, unikající data); DNS bývá méně kontrolován | únik dat přes DNS |
+| **IoT útoky** | slabá nebo výchozí hesla, chybějící aktualizace chytrých zařízení; botnety | botnet **Mirai** – masivní DDoS z IoT zařízení |
+| **Sociální inženýrství** | manipulace člověka (autorita, časový tlak, důvěra, strach), aby prozradil informace nebo obešel opatření | „pracovník IT podpory“ po telefonu vyláká heslo |
 
 ### Praktická ukázka: SQL injection na přihlašovacím formuláři
 
