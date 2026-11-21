@@ -3,745 +3,194 @@ title: "Zobrazovací soustava"
 order: 17
 source: "uvt/cv23-25_Zobrazovaci_soustava.pdf"
 ---
-Zobrazovací soustava je tvořena dvěma základními prvky:
+**Zobrazovací soustava** = dva prvky:
 
-- zobrazovací adaptér, který tvoří obraz → grafická nebo video karta
+- **zobrazovací adaptér** (grafická / video karta) – vytváří obraz,
+- **zobrazovač** (CRT, LCD monitor, dataprojektor) – obraz zobrazí.
 
-- adaptér kam se vytvořený obraz přenáší → CRT, LCD monitor, dataprojektor
+Dva režimy:
 
-Zobrazovací soustava může pracovat ve dvou základních režimech:
-
-- textový režim
-
-- grafický režim
-
-## Textový režim
-
-- Starší možností
-
-   - obrazovka je při něm rozdělena na malá políčka
-
-   - každé zobrazí jeden znak
-
-      - nejčastěji je na displeji 80 sloupců a 25 řádků
-
-- typický pro staré programy určené k práci s operačním systémem
-
-- rychlý hardwarově nenáročný režim
-
-## Grafický režim
-
-- Princip - na obrazovce je rozprostřena matice bodů
-
-   - rozsvícením určitých bodů se nakreslí libovolný text, obrazec, obrázek či provede animace
-
-- barevné možnosti jsou téměř neomezené
-
-   - každý bod je schopen být jinak barevný - výsledný text nebo obrázek může své barvy měnit plynule
-
-- nejdůležitější charakteristikou grafického způsobu je rozlišovací schopnost
-
-   - popisuje, kolika body (pixel) je tvořen jeden řádek
-
-   - kolik řádků se vejde na obrazovku
-
-   - čím více má obrazovka pixelů, tím jemněji a pro oko příjemněji kreslí
+- **textový** – obrazovka rozdělená na políčka, každé jeden znak (typicky 80 × 25); rychlý, nenáročný, staré programy,
+- **grafický** – matice bodů; rozsvícením bodů se nakreslí cokoli, barvy téměř neomezené. Nejdůležitější je **rozlišení** (body na řádek × počet řádků); víc pixelů = jemnější obraz.
 
 ## Pixel
 
-## Pixel
+**Pixel** (picture element):
 
-Pixel (picture element)
-
-- nejmenší jednotka digitální rastrové (bitmapové) grafiky
-
-- představuje jeden svítící bod na monitoru
-
-- body na obrazovce tvoří čtvercovou síť - každý pixel je možné jednoznačně identifikovat podle jeho souřadnic
-
-- u barevných obrazovek se každý pixel skládá ze tří svítících obrazců odpovídajících základním barvám - červené, modré a zelené
-
-- velikost pixelu záleží na typu monitoru
-
-- u analogových typů lze velikost pixelu měnit změnou rozlišení
-
-- LCD obrazovky mají počet fyzických pixelů pevně vázaný na používané rozlišení a zobrazování
-
-- jiného rozlišení u takového monitoru vede k určité deformaci obrazu, neboť „počítačové pixely“ jsou přepočítávány a nerovnoměrně přerozdělovány na větší počet „fyzických pixelů“.
-
-- Obrázek rozložený na jednotlivé pixely
-
-- Barevné složky RGB pixelů na LCD obrazovce
+- nejmenší jednotka rastrové grafiky = jeden bod na monitoru,
+- čtvercová síť, každý pixel má souřadnice,
+- barevný pixel = tři body **R, G, B**,
+- u analogových monitorů jde velikost pixelu měnit rozlišením,
+- **LCD** má počet fyzických pixelů pevný → jiné než **nativní rozlišení** se přepočítává a obraz se deformuje (rozmaže).
 
 ## Grafická karta
 
-Karta kreslí obraz – je tak jádrem celé soustavy
-
-- její činnost není jednoduchá
-
-   - karta musí zvládnout mnoho úkolů a je velmi důležitým ukazatelem kvality PC
-
-   - v podstatě jde o další samostatný počítač
+Kreslí obraz – jádro soustavy; v podstatě **samostatný počítač** a důležitý ukazatel kvality PC.
 
 ## Hardware grafické karty
 
-- Jádrem je grafický čip GPU(Graphics processor unit)
-
-- samostatný mikroprocesor řídící činnost karty, zajišťující tvorbu obrazu
-
-- Operační paměť
-
-- GPU s ní bezprostředně spolupracuje
-
-- ukládá do ní hotový obraz
-
-- odkud se pak obraz přenáší na obrazovku
-
-- Množství přenesených dat limituje
-
-- frekvence a šířka sběrnice spojující GPU o OP
-
-- podstatným ukazatelem kvality karty.
-
-- RAMDAC
-
-- digitálně analogový převodník
-
-- převádí digitální obraz z operační paměti karty na analogový
-
-- analogový signál vstupuje do monitoru
-
-## Hardware grafické karty
-
-- Pro dosažení maximálního výkonu pracuje celá soustava s co nejvyšším kmitočtem
-
-   - důležitou částí je chlazení
-
-- Karty bývají doplněny dalšími obvody
-
-   - televizní tuner
-
-   - obvody VIVO
-
-- Důležité jsou konektory karty, spojující GK s okolím
-
-   - jejich počet samozřejmě závisí na funkčním vybavení karty
-
-- Karty se k základní desce  připojují prostřednictvím:
-
-   - AGP (zastaralé 2020)
-
-   - standardu PCIe x16 v3 (2020)
-
-## GPU (Graphics Processor unit)
-
-- GPU dokážou za jeden takt vytvořit více texelů
-
-   - v každé pipeline jsou umístěny Shadery
-
-   - ty pracují s jednotlivými pixely:
-
-      - Vertex Shader vytváří trojrozměrné objekty, umísťuje je do prostoru a stará se o světelné efekty
-
-      - Pixel Shader definuje barvu a průhlednost objektů
-
-   - vytvářený obraz se rozloží na části
-
-      - nejčastěji čtverce
-
-      - každá pipeline produkuje jeden čtverec obrazu
-
-      - dosaženo paralelního kreslení a zrychlení tvorby obrazu
-
-## GPU (Graphics Processor unit)
-
-- GPU řídicí jednotka grafického adaptéru
-
-- vlastnosti definují zaměření karty, výkon a cenu
-
-- nejčastěji se setkáme s GPU specializovaných výrobců:
-
-- ATI /AMD (v majetku AMD)
-
-- Nvidia
-
-- Intel
-
-- úkolem GPU je vytvářet jednotlivé body - pixely obrazu
-
-- dříve používaly grafické čipy pouze jednu cestu pro zpracování instrukcí (pipeline)
-
-- jedna pipeline mohla vykreslit jeden pixel v jednom taktu
-
-- na každý vykreslený pixel mohla být aplikována jedna textura za jeden cyklus – fillrate
-
-- pro prostorový obraz nutno na každý pixel aplikovalo více textur
-
-- elementární textury se nazývají texely
-
-- jeden pixel je tedy složen z několika texelů
-
-- dnešní karty jsou vybaveny několika pipeline, které dokážou pracovat paralelně
-
-## GPU (Graphics Processor unit)
-
-- Charakteristické znaky GPU:
-
-- počet  texturovacích pipelines
-
-   - počtu pipelines odpovídá počet Shaderů a je základním kritériem GPU
-
-- počet texelů vytvořených v jedné pipeline za jeden takt
-
-- maximální teoretický fill-rate
-
-- maximální teoretický texel fill-rate
-
-   - pixel fill-rate násoben počtem texelů na jednotku pipeline
-
-- frekvence, s níž karta pracuje
-
-   - běžný rozsah od 350 až 1000 MHz
-
-      - čím vyšší frekvence, tím více pixelů karta vytvoří
-
-- podstatná je výrobní technologie mikroprocesoru GPU
-
-## GPU (Graphics Processor unit)
-
-- GPU úzce spolupracuje s pamětí grafické karty, její charakteristiky jsou:
-
-   - kapacita paměti – od 1 až po 2,5 GB (GDDR3 až GDDR6)
-
-   - takt paměti a její typ - od 1024 až po 2560 MB
-
-      - GDDR5 přenos 4 bity za 1 takt
-
-   - šířka paměťové sběrnice – od 256 až 320 bitů
-
-## Další obvody grafické karty
-
-- TV  - Output (televizní výstup)
-
-- Obvod VIVO (Video In Video Out)
-
-- TV - Tuner
-
-- Single - Link
-
-- DVI Dual - Link
-
-- DVI HDMI 2.1
-
-- DisplayPort  do budoucna nahrazen ThunderBolt portem  ( Mini DisplayPort)
+- **GPU** (Graphics Processing Unit) – mikroprocesor řídící tvorbu obrazu,
+- **paměť** (VRAM) – GPU do ní ukládá hotový obraz, odtud jde na obrazovku; výkon limituje **frekvence a šířka sběrnice** GPU ↔ paměť,
+- **RAMDAC** – převodník digitálně → analogově pro analogový výstup (VGA),
+- vysoké kmitočty → důležité **chlazení**,
+- další obvody: TV tuner, **VIVO** (Video In Video Out),
+- **konektory** podle vybavení,
+- připojení k desce: **AGP** (zastaralé), dnes **PCIe ×16**.
+
+## GPU
+
+- řídicí jednotka adaptéru; určuje zaměření, výkon a cenu,
+- výrobci: **AMD** (dříve ATI), **Nvidia**, **Intel**,
+- úkol: vytvářet pixely obrazu.
+
+**Pipeline a texely:**
+
+- dříve jedna **pipeline** = jeden pixel za takt, jedna textura za cyklus (**fillrate**),
+- pro 3D se na pixel nanáší víc textur; elementární textura = **texel** (pixel se skládá z více texelů),
+- dnes **více paralelních pipeline**; obraz se rozloží na čtverce, každá pipeline vykreslí jeden → rychlejší tvorba,
+- v pipeline jsou **shadery**: **Vertex Shader** – 3D objekty, poloha v prostoru, světlo; **Pixel Shader** – barva a průhlednost.
+
+**Charakteristiky GPU:**
+
+- počet texturovacích pipeline (= počet shaderů, základní kritérium),
+- texely na pipeline za takt,
+- teoretický **pixel fill-rate** a **texel fill-rate** (pixel fill-rate × texely na pipeline),
+- **frekvence** (350–1 000 MHz; vyšší = víc pixelů),
+- **výrobní technologie** čipu.
+
+**Paměť grafické karty:**
+
+- typ **GDDR3 – GDDR6**, kapacita dnes od 1 GB výš,
+- takt a typ (GDDR5 = 4 bity za takt),
+- **šířka paměťové sběrnice** (256–320 b a víc).
 
 ## API
 
-- Tvorbu obrazu řídí také ● Dnešní technologie software  nazvaný API – Microsoft DirectX11
+Obraz řídí i software – **API** (aplikační rozhraní): **Microsoft DirectX** (součást Windows; DirectCompute, Shader Model) a **OpenGL**. Verzi DirectX zjistíš příkazem `dxdiag`. Nvidia přidává vlastní technologie (CUDA, SLI, 3D Vision, G-Sync, FSAA).
 
-   - Microsoft DirectX11
+## Výstupy a konektory
 
-- DirectX od Microsoftu
+Běžné: **D-SUB (VGA)**, **DVI** (single / dual link), **HDMI**, **DisplayPort** (i Mini).
 
-   - DirectCompute 5.0
+### D-SUB (VGA)
 
-- integrováno ve Windows
+- standardní **analogový** konektor, dlouho jediný,
+- pro **LCD nevhodný**: GPU nakreslí obraz digitálně → RAMDAC ho převede na analogový → D-SUB → v monitoru další převod zpět na digitální (ztráty).
 
-   - ShaderModel 5.0
+### DVI
 
-   - Open GL 4.1
-
-- OpenGL
-
-   - NVIDIA CUDA
-
-   - NVIDIA  Mosaic
-
-   - NVIEW Display Management Software
-
-   - NVIDIA Scalable Geometry Engine
-
-   - NVIDIA  Parallel DataCache
-
-- Ve vašem PC – NVIDIA GigaThread Engine
-
-- příkazem dxdiag - – NVIDIA High vyzkoušejte Precision High Dynamic Range
-
-## D-SUB
-
-- NVIDIA 3D Vision
-
-- NVIDIA 3D Vision Pro
-
-- – NVIDIA Application Acceleration Engines
-
-- – NVIDIA SLI MultiOS
-
-- NVIDIA SLI
-
-- NVIDIA SLIMosaic
-
-- SDI Option
-
-- FSAA (max. 64x, v SLI 128x)
-
-- NVIDIA Quadro Digital Video Pipeline
-
-- NVIDIA Quadro G- Sync Solution
-
-## Výstupy
-
-- Současné adaptéry běžně disponují konektory
-
-- D-SUB (VGA, DB9)
-
-- Single-Link DVI
-
-- Dual-Link DVI
-
-- HDMI 2.1
-
-- DisplayPort 1.2
-
-   - Mini-DisplayPort 1.2
-
-## Konektory D-SUB
-
-   - standardní analogovým konektorem
-
-- dlouho byl D-SUB jediným konektorem
-
-- nevhodný pro spojení grafiky s LCD
-
-   - grafický čip totiž digitálně nakreslí obraz do paměti
-
-   - obraz je pomocí převodníku RAMDAC převeden na analogový a rozhraním D-SUB přenesen do LCDpanelu
-
-   - v LCD-panelu je další převodník z analogového do digitálního signálu
-
-## DVI-I
-
-## DVI
-
-- DVI-D (digital only)
+- **DVI-D** (jen digitální), DVI-I (digitální + analogový),
 
 <img src="/images/content/it/uvod-do-vypocetni-techniky/zobrazovaci-soustava/01.webp" alt="Typy konektorů DVI" width="220" loading="lazy" decoding="async">
 
+- sériový přenos **TMDS** (Transition Minimized Differential Signaling),
+- single link = **4 páry** dvoulinky, **24 b na pixel**, obraz po řádcích s mezerami, **bez komprese**,
+- single link pevně **165 MHz** (max. ~2,75 Mpx při 60 Hz); víc → **dual link** (druhá linka i pro > 24 b na pixel),
+- doporučená délka kabelu do 4,5 m.
 
-- Založen na sériovém formátu používá Transition Minimized Differential Signaling (TMDS)
+### HDMI
 
-- single DVI link se skládá ze čtyř párů kroucené dvoulinky
-
-- přenos je 24 bitů na pixel
-
-- obraz je přenášen řádek po řádku s intervaly mezi každým řádkem a každým snímkem
-
-- nepoužívá kompresi
-
-- nejvyšší rozlišení při 60 Hz, a je 2,75 megapixelů (1915 x 1436 pixelů 4:3); (1854 x 1483 pixelů 5:4) ; (2098 x 1311 pixelů 16:10)
-
-- specifikace DVI má pro single link pevně nastavenou obnovitelnou frekvenci na 165 MHz
-
-- režimy vyžadující vyšší frekvenci musí přepnout do režimu dual link
-
-- když jsou obě linky v provozu může frekvence přesáhnout 165 MHz
-
-- druhá linka může být také použita pokud je potřeba více než 24 bitů na pixel
-
-- doporučená délka klasického DVI kabelu je do 4,5 m.
-
-## HDMI
-
-- High-Definition Multi -media Interface
-
-- rozhraní pro přenos nekomprimovaného obrazového a zvukového signálu v digitálním formátu
-
-- HDMI podporuje přenos videa ve standardní, rozšířené nebo highdefinition kvalitě
-
-- až 8-kanálový digitální zvuk
-
-- konektor HDMI typu A má 19 pinů
-
-- konektor typu A je zpětně kompatibilní s rozhraním Single-link DVI
-
-- málo rozšířená verze s označením B má 29 pinů pro přenos videa s větším rozlišením
-
-   - konektor typu B je pak zpětně kompatibilní s Dual-link DVI
-
-- Verze HDMI 1.0 až 2.1
+- **High-Definition Multimedia Interface** – **nekomprimovaný** digitální obraz + až **8kanálový zvuk**,
+- typ A – **19 pinů**, kompatibilní se **single-link DVI**; typ B (vzácný) – 29 pinů, kompatibilní s dual-link DVI,
+- verze 1.0 až 2.1.
 
 <img src="/images/content/it/uvod-do-vypocetni-techniky/zobrazovaci-soustava/02.webp" alt="Kabel HDMI" width="302" loading="lazy" decoding="async">
 
+### DisplayPort
 
-- Digitální konektor sloužící k přenosu nekomprimovaného digitálního obsahu s podporou až 8kanálového zvuku a ochrany DPCP (DisplayPort Content Protection)
-  - využívá 128bitové šifrování AES
-  - podporuje rychlost přenosu 10,8 Gbit/s
-  - do 3 metrů podporuje rozlišení WQXGA (2560×1600 pixelů)
-  - do 15 metrů podporuje rozlišení 1920×1080 pixelů
-  - s konektory typu DVI a HDMI je jen omezeně zpětně kompatibilní
-  - navržen tak, aby nahradil digitální (DVI) i analogové (VGA) konektory v monitorech počítačů stejně jako v grafických kartách
-  - má všechny funkce HDMI
-  - určen spíše pro kancelářské a IT využití
+- digitální, nekomprimovaný, až 8kanálový zvuk, ochrana obsahu **DPCP** (128bitové AES),
+- 10,8 Gb/s; do 3 m **2560 × 1600**, do 15 m **1920 × 1080**,
+- jen omezeně kompatibilní s DVI a HDMI,
+- určen k nahrazení **DVI i VGA** na PC; spíš kancelář a IT; má všechny funkce HDMI.
 
+### TV OUT, TV IN
 
-## TV OUT, TV IN
+- **TV OUT** – výstup televizního signálu: **S-video** (4, 7, 9 pin) nebo **Cinch**,
+- **TV IN** – vstup, stejné konektory.
 
-## TV OUT, TV IN
+## Spolupráce více grafických karet
 
-- TV OUT je výstupem televizního signálu
+**SLI** (Nvidia, Scalable Link Interface):
 
-   - realizován (4, 7 nebo 9pinovým) konektorem S-video
+- 16 linek PCIe se rozdělí mezi dva sloty → každý **PCIe ×8**,
+- karty propojí **SLI můstek (bridge)**; vykreslování řídí ovladač,
+- deska se dvěma sloty PCIe ×16; dvě **stejné** karty podporující SLI, od jednoho výrobce, stejná verze BIOSu.
 
-   - konektorem Cinch(TV OUT C)
+**CrossFire** (ATI/AMD):
 
-- TV IN je vstupem
-
-   - používá stejné konektory jako TV OUT
-
-## Paralelní spolupráce více grafických  karet - ATI CrossFire
-
-- Řešeni firmy ATI pracuje na podobném principu
-
-- používá dva sloty PCIe x 16
-
-- propojení obou karet je realizováno kabelem
-
-   - spojuje speciální konektory DMS I/O
-
-   - každá karta tedy obsahuje jeden propojovací konektor
-
-- karty si nejsou rovnocenné
-
-   - jedna je řídicí (Master) a druhá podřízenou (Slave)
-
-   - mohou spolupracovat rozdílné karty
-
-## Paralelní spolupráce více grafických karet - SLI
-
-- Při paralelní spoluprací dvou grafických karet se rozdělí původních 16 linek PCIe jednoho slotu mezi sloty dva
-
-- každý z nich má pak k dispozici rychlost PCIe 8x
-
-- o rozdělovaní dat se stará speciální propojení obou karet
-
-- samotné vykreslování obrazu pak řídí přímo ovladač grafické karty
-
-- Nvidia – řešení SLI (Scalable Link Interface)
-
-   - obě karty propojeny speciálním můstkem SLI
-
-   - deska musí mít dva sloty PCIe x 16
-
-   - dvě stejné grafické karty podporující SLI
-
-      - jeden výrobce
-
-      - neliší se verzí BIOSu SLI
-
-- Propojení pomocí „bridge“ modulu
+- dva sloty PCIe ×16, propojení kabelem,
+- karty nejsou rovnocenné: **Master** a **Slave**; mohou spolupracovat i rozdílné karty.
 
 ## Monitor CRT
 
-- Dlouhou dobu byly téměř jediným výstupním zařízením  počítačů PC
+- dlouho téměř jediný výstup PC, dnes nahrazen LCD,
+- části: **elektronové dělo**, svazek elektronů, **zaostřovací** a **vychylovací cívky**, **anoda**, **maska** (odděluje paprsky R, G, B), **luminoforová vrstva** s červenými, zelenými a modrými body.
 
-- dnes nahrazeny LCD panely
+## LCD displej
 
-- 1. Elektronové dělo (emitor)
+Oproti CRT: **nižší spotřeba**, menší rozměry, žádné škodlivé záření, **obraz nekmitá**, bez zkreslení na okrajích.
 
-- 2. Svazky elektronů
+### Princip
 
-- 3. Zaostřovací cívky
+![LCD buňka: podsvícení, spodní polarizátor, vrstva tekutých krystalů, horní polarizátor; bez napětí krystaly světlo stočí a bod svítí, pod napětím se narovnají a světlo zastaví](/images/content/it/uvod-do-vypocetni-techniky/zobrazovaci-soustava/lcd-princip.webp)
 
-- 4. Vychylovací cívky
+- obrazové buňky z **tekutých krystalů** (LCD = Liquid Crystal Display), displej se **podsvěcuje** (dříve výbojka, dnes LED),
+- krystaly světlo buď **propustí**, **utlumí**, nebo **zastaví**,
+- nahoře a dole **polarizátory** (vodorovný a svislý),
+- **bez napětí** jsou krystaly stočené šroubovicově → pootočí světlo o 90° → projde i druhým polarizátorem → **bod svítí**,
+- **pod střídavým napětím** se krystaly narovnají, světlo se nestočí → druhý polarizátor ho zastaví → **bod je tmavý**.
 
-- 5. Připojení anody
+### Technologie LCD panelů
 
-- 6. Maska pro oddělení paprsků pro červenou, zelenou a modrou část zobrazovaného obrazu
+Liší se způsobem natáčení molekul:
 
-- 7. Luminoforová vrstva s červenými, zelenými a modrými oblastmi
-
-- 8. Detail luminoforové vrstvy, nanesené z vnitřní strany obrazovky
-
-## LCD-displej
-
-- Ve srovnání s CRT mají LCD
-
-   - podstatně nižší spotřebu
-
-   - menší rozměry
-
-   - nevydávají žádná škodlivá záření
-
-   - obraz u nich nekmitá
-
-   - nedochází ke zkreslování obrazu na okrajích displeje
-
-## Princip
-
-- Činnost LCD displeje (Liquid Crystal Display) je založena na natáčení tekutých krystalů
-
-   - z nich jsou složeny jednotlivé obrazové buňky
-
-   - každý displej musí být podsvětlen
-
-   - pod tekutými krystaly svítí nejčastěji elektroluminiscenční výbojka
-
-   - mezi ní a horní stranou je umístěna matice tekutých krystalů LCD
-
-      - ty světlo bud' nepropustí, utlumí nebo nechají projít
-
-## Princip
-
-## Princip
-
-- Na spodní a horní straně každé buňky jsou umístěny polarizátory
-
-- ty propouštějí pouze polarizované světlo buď ve vodorovném, nebo svislém směru
-
-- mezi oběma orientačními filtry (polarizátory) je vrstva tekutého krystalu.
-
-- v průchozím stavu jsou tekuté krystaly buňky LCD šroubovicově pootočeny
-
-- světlo procházející horizontálním polarizátorem pootočí buňky
-
-- světlo tak projde i druhým vertikálním polarizátorem
-
-- na displeji se rozzáří jeden bod
-
-- druhým mezním stavem je když světlo neprojde k očím pozorovatele
-
-- na elektrody tekutého krystalu se připojí střídavé napětí
-
-- tekuté krystaly se narovnají, spodní světlo projde prvním polarizátorem
-
-- krystaly je nepootočí, a tak je světlo druhým polarizátorem zastaveno
-
-- bod na displeji zůstane temný
-
-## Technologie výroby LCD - panelů
-
-- Existují tři základní technologie výroby LCD panelů
-
-   - liší se způsobem natáčení molekul tekutých krystalů
-
-   - technologie TN (Twisted Nematle)
-
-   - technologie IPS (In-Plane Switching)
-
-   - technologie VA, MVA, PVA
-
-## Technologie TN (Twisted Nematle)
-
-- Nejstarší technologie výroby
-
-- molekuly tekutých krystalů pro průchod světla vytvářejí spirálu
-
-- ta otáčí světlo o 90°
-
-- když se krystaly ocitnou pod napětím
-
-- spirála se rozpadne a světlo přestane procházet
-
-- u TN-matic dochází při pohledu z větších úhlů k žloutnutí bílé a k šednutí tmavších barev
-
-- současné TN-panely vybaveny doplňkovou optickou vrstvou, tenkým filmem, který zlepšuje úhly pohledu
-
-- technologie se pak označuje jako TN+F
+| Technologie | Princip | Plus | Mínus |
+| --- | --- | --- | --- |
+| **TN** (Twisted Nematic) | nejstarší; spirála otáčí světlo o 90°, pod napětím se rozpadne | rychlá, levná | žloutnutí bílé a šednutí při pohledu z úhlu; vylepšení **TN+F** (film pro úhly) |
+| **IPS** (In-Plane Switching) | molekuly souběžně s deskou; bez napětí světlo nepustí | věrné barvy, široké úhly, přesné krajní stavy | nižší jas a kontrast (elektrody v jedné rovině, slabé pole na okrajích) |
+| **VA, MVA, PVA** (Vertical Alignment) | molekuly svisle, natáčí se jen o 45° | vysoký kontrast, krátká odezva | původně závislé na úhlu pohledu → **MVA** (domény s opačnou orientací se opticky vyrovnají) |
 
 <img src="/images/content/it/uvod-do-vypocetni-techniky/zobrazovaci-soustava/03.webp" alt="Vrstvy TN panelu" width="320" loading="lazy" decoding="async">
 
-1. Zdroj bílého světla
-2. Polarizační desky
-3. Polarizované světlo
-4. Elektrody
-5. Tekuté krystaly
-6. Film zlepšující pozorovací úhly
+1. zdroj bílého světla · 2. polarizační desky · 3. polarizované světlo · 4. elektrody · 5. tekuté krystaly · 6. film zlepšující úhly
 
+### OLED
 
-## Technologie IPS (in-Plane Switching)
+- mezi průhlednou **anodou** a kovovou **katodou** několik organických vrstev: vypuzující díry, přenášející díry, **vyzařovací**, přenášející elektrony,
+- po přivedení napětí se kladné a záporné náboje spojí ve vyzařovací vrstvě a vzniká **světlo** – každý bod svítí sám (matice miniaturních LED), **bez podsvícení**,
+- problém: **stárnutí** světelných bodů (modrá ~1 000 h, zelená ~10 000 h, červená ~30 000 h).
 
-- Molekuly tekutých krystalů vyrovnány souběžně se spodní deskou displeje
+### Základní vlastnosti displeje
 
-- v základním (vypnutém) stavu panel nepropouští světlo
-
-- po přivedení napětí se tekuté krystaly pootočí a začnou propouštět světlo
-
-- oba krajní stavy jsou přesnější a lépe definované, než tomu je u TN
-
-- panely IPS vynikají věrnými barvami a širokými pozorovacími úhly
-
-- nevýhodou je umístěni elektrod v jedné rovině
-
-- u krajních krystalů dochází k nedokonalému otočení
-
-- molekul vinou slabšího elektrického pole
-
-- na okrajích buněk
-
-- důsledkem je nižší jas a kontrast těchto panelů
-
-   - 1-Zdroj bílého světla
-
-   - 2-Polarizační desky
-
-   - 3-Polarizované světlo
-
-   - 4-Elektrody
-
-   - 5-Tekuté krystaly
-
-   - 6-Polarizované světlo
-
-## Technologie OLED
-
-> ● Mezi průhlednou vrstvou (anoda)  a kovovou vrstvou (katoda) je několik vrstev organické látky:
-
-- Vrstva vypuzující díry
-
-- Vrstva přenášející díry
-
-- Vyzařovací vrstva
-
-- Vrstva přenášející elektrony
-
-- Po přivedení napětí jsou vyvolány kladné a záporné náboje, ty se spojují ve vyzařovací vrstvě a produkují světelné záření
-
-- Principiálně jde o matici miniaturních LED v ploše displeje
-
-- Zásadním problémem OLED displejů je stárnutí světelných bodů
-
-## Technologie VA, MVA. PVA
-
-- Řešení postaveno na myšlence orientovat molekuly vertikálně (Vertical Alignment)
-
-- molekuly se otáčejí pouze o 45°
-
-- dosaženo vysokého kontrastu a krátké odezvy
-
-- technologie příliš závislá na velikosti úhlu pohledu - při natočení podlouhlé molekuly docházelo k posunutí molekuly mimo zorné pole uživatele
-
-- Vylepšení původní VA technologií MVA (Multi-Domain Vertical Alignment)
-
-- molekuly rozděleny do domén
-
-- pokud část molekuly není ve své doméně viditelná, je opticky kompenzována molekulou z druhé domény, jež je orientována opačně
-
-   - 1-Zdroj bílého světla
-
-   - 2-Polarizační filtr
-
-   - 3-Polarizované světlo
-
-   - 4-Elektrody
-
-   - 5-Tekuté krystaly
-
-## Základní vlastnosti
-
-- Obnovovací frekvence vychází z použité technologie obecně nad 60Hz
-
-- Doba odezvy
-
-   - 3 – 5 ms 250 – 300 cd/m<sup>2</sup> 400 : 1 – 900 : 1, často uváděn dynamický (v řádech deseti tisíců)
-
-- Jas
-
-- Kontrast
-
-  -  nesměrodatný údaj cca 160° v obou osách
-
-   - Úhel pohledu
-
-- Modrá 1000 hodin, zelená 10 000 hodin a červená 30 000 hodin
+- **obnovovací frekvence** – obecně nad 60 Hz,
+- **doba odezvy** – 3–5 ms,
+- **jas** – 250–300 cd/m²,
+- **kontrast** – 400 : 1 až 900 : 1 (dynamický až desítky tisíc : 1),
+- **úhel pohledu** – ~160° v obou osách.
 
 ## Dataprojektory
 
-- Technologie
+Technologie: **DLP**, **LCD**, **LCoS**, **D-ILA**. Zdroj světla: **lampa**, **LED**, **laser**.
 
-   - DLP
+### DLP – Digital Light Processing
 
-   - LCD
+- vyvinul **Texas Instruments** (1987),
+- obraz z **mikrozrcadel** na čipu **DMD** (Digital Micromirror Device); zrcadlo = jeden či víc pixelů,
+- zrcadlo se rychle překlápí mezi polohou **propouštějící** světlo a polohou odrážející ho na chladič; **jas barvy** = poměr času v obou polohách,
+- rozlišení 800 × 600, 1024 × 768, 1280 × 720, 1920 × 1080,
+- mínus: blikání a horší barvy než 3LCD.
 
-   - LCoS
+**Jednočipový DLP:** mezi lampou a čipem rotující **barevné kolo** se 4 segmenty (R, G, B + průhledný pro jas). Rotace synchronizována s DMD → barvy **po sobě** (možný **duhový efekt**, u citlivých lidí i potíže – epilepsie).
 
-   - D-ILA
+**Tříčipový DLP:** **hranol** rozdělí světlo, každá primární barva jde na vlastní DMD čip.
 
-- Zdroj světla
+### 3LCD
 
-   - Lampa
+- světlo lampy rozdělí **dichroická zrcadla** na R, G, B,
+- každý paprsek projde **vlastním miniaturním LCD panelem**, v **hranolu** se složí a **optikou** se promítne,
+- bez duhového efektu jednočipového DLP; varianty s LED nebo laserovým zdrojem barev.
 
-   - LED
+### LCoS (Liquid Crystal on Silicon)
 
-## DLP - Digital Light Processing
-
-   - 1987 - vyvinula fy. Texas Instruments
-
-   - obraz tvořen pomocí mikroskopicky malých zrcadel, která jsou umístěna na polovodičovém čipu, který se nazývá DMD (Digital Micromirror Device). Každé zrcadlo reprezentuje jeden nebo více pixelů ve výsledné projekci.
-
-   - Každá miniaturní odrazná ploška se může velmi rychle přemísťovat mezi dvěma krajními polohami – jednou, která světlo propouští a druhá, která jej odráží na chladicí plochu. Intenzita barvy je regulována rychlým střídáním těchto poloh (poměrem mezi průchozí a neprůchozí polohou).
-
-   - Obraz může být vytvářen dvěma rozdílnými metodami: projektorem s jedním čipem a tříčipovým projektorem
-
-   - Používaná rozlišení: 800×600, 1024×768, 1280×720 a 1920×1080
-
-   - blikání obrazu a ne příliš kvalitní podání barev oproti systému 3LCD
-
-- Laser
-
-## Jednočipové DLP projektory
-
-- rotující barevné kolo mezi lampou a čipem -  čtyři segmenty – tři primární barvy (červená, modrá a zelená) a jeden zcela průhledný segment pro zesílení jasu
-
-## Tříčipové DLP projektory
-
-   - využití hranolu na rozdělení světla z lampy
-
-   - každá z primárních barev je poslaná na DMD čip
-
-   -
-
-- Rotace je synchronizována s DMD čipem – sekvenční zobrazování barev (epilepsie)
-
-- ●
-
-## 3LCD
-
-- použití individuálních zdrojů primárních barev – LED
-
-- podstatně omezuje největší problém jednočipového zobrazení - duhový efekt
-
-## 1LCD
-
-   - pracuje na shodném principu, jako 3LCD
-
-   - jednotlivé barvy jsou vytvářeny ve světelných laserech
-
-   -
-
-- Světlo z lampy je vedeno na soustavu dichronických zrcadel, které z paprsku oddělí jednu barvu a ostatní propustí dále – tak vzniknou postupně tři nezávislé paprsky RGB
-
-- Každý je pak samostatně veden třemi optickými soustavami přes miniaturní LCD displeje a po průchodu těmito panely se skládá v obraz v optickém hranolu. Poté je přes zaostřovací optiku vržen na projekční plochu.
-
-## LcoS - Liquid Crystal of Semiconductor
-
-- spojení výhod systémů 3LCD i DLP
-
-- místo DMD použit  LcoS čip – není průhledný
-
-- složitá (drahá) výroba → nevyrábí se, ale
-
-- Základ pro další technologie: **SXRD** (Silicon X-tal Reflective Display) od Sony a **D-ILA** (Digital Direct Drive Image Light Amplifier) od JVC.
-
-## Citace
-
-- Lupa.cz
-
-- www.dlp.com
-
-- Vědecké kladivo:
-
-https://www.youtube.com/watch?v=HBpR6JdM3vQ
-
-> ● https://www.digitalnitelevize.cz/magazin/obecne/malaencyklopedie-televizni-techniky/2010-11-3-serial-oprojektorech-dil-prvni-principy-zobrazovani.html
-
-- a
+- spojení výhod 3LCD a DLP; místo DMD **odrazný** LCoS čip,
+- drahá výroba → sám se nevyrábí, ale je základem **SXRD** (Sony) a **D-ILA** (JVC).

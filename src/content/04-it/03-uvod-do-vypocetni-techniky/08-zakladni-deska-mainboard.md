@@ -3,116 +3,116 @@ title: "Základní deska (mainboard)"
 order: 8
 source: "uvt/cast1_07_mainboard.pdf; uvt/T03_zakladni_deska.pdf"
 ---
-Hlavním účelem základní desky je propojit jednotlivé součástky počítače do fungujícího celku a integrovaným součástem na základní desce poskytnout elektrické napájení.
+Základní deska **propojuje součástky do celku** a napájí integrované obvody.
 
-Současné základní desky mají integrovány obvody, které byly v minulosti řešeny výhradně formou rozšiřující karty, která se zasouvala do normovaného slotu systémové sběrnice. Jedná se například o řadiče disků, síťové rozhraní (standard Ethernet), zvukové a grafické rozhraní, atd.
+Dnes integruje, co dřív byly přídavné karty: řadiče disků, síť (Ethernet), zvuk, grafiku.
 
-Typická základní deska umožňuje zapojení procesoru a operační paměti, další komponenty (např. grafické karty, pevné disky, mechaniky optických pamětí, modem atd.) se připojují pomocí rozšiřujících slotů nebo kabelů, které se zapojují do příslušných normovaných konektorů.
+Přímo na ni jde procesor a RAM; ostatní (grafika, disky, mechaniky) do slotů nebo kabely do konektorů.
 
-Nejdůležitějším logickým obvodem základní desky je **čipová sada** , neboli chipset, která umožňuje procesoru komunikovat s ostatními částmi počítače. V obvodech čipové sady jsou integrovány řadiče, které na základě zpracování instrukcí (programu) generují řídící signály pro tato zařízení. Je zde umístěn např. řadič operační paměti, řadiče disků, řadiče rozhraní (např. USB), řadiče sběrnice, atd.
+Nejdůležitější obvod je **čipová sada (chipset)** – komunikace procesoru s ostatními částmi; obsahuje řadiče (paměť, disky, USB, sběrnice). Schéma propojení: [hardware pojmy](/it/uvod-do-vypocetni-techniky/02-hardware-pojmy-zakladni-deska-bios-zdroj/#základní-deska).
 
 <img src="/images/content/it/uvod-do-vypocetni-techniky/zakladni-deska-mainboard/01.webp" alt="Popis částí základní desky" width="640" loading="lazy" decoding="async">
 
 
-Na základní desce je dále umístěna polovodičová paměť FlashROM, ve které je uložen **BIOS** . BIOS (Basic Input Output System) je základní program počítače, který zprostředkovává komunikaci mezi technickým a programovým vybavením počítače (mezi hardwarem a operačním systémem). Ke konfiguraci BIOSu slouží program SETUP. V něm lze nastavit několik základních parametrů hardwaru počítače.
+Na desce je **FlashROM s BIOSem** – prostředník mezi hardwarem a OS; nastavuje se v programu **SETUP**.
 
 Základní funkce BIOSu:
 
-- detekce základního hardwaru (konfigurace operační paměti, pevného disku, mechaniky optických pamětí, atd.)
+- detekce hardwaru (RAM, disky, mechaniky)
 
-- provedení základních testů a nahlášení případných chyb (kód případné chyby je oznámen pípáním)
+- testy a hlášení chyb (pípání)
 
-- nastavení parametrů čipové sady (ovlivňuje rychlost, spolehlivost a funkčnost systému)
+- nastavení chipsetu (rychlost, spolehlivost)
 
-- inicializace zařízení PnP - Plug And Play
+- inicializace **Plug and Play**
 
-- nastavení parametrů integrovaných zařízení (řadiče disků, zvukový čip, integrovaný grafický čip, obvody rozhraní např. USB, FireWire, RS-232, atd.)
+- nastavení integrovaných zařízení (řadiče, zvuk, grafika, USB…)
 
-- nastavení základního zabezpečení počítače formou přístupového hesla
+- heslo
 
-- monitorování některých parametrů jako např. údaje s teplotních čidel, rychlost otáčení větráčků aktivního chlazení, aktuální hodnoty napětí v jednotlivých větvích atd.
+- monitoring teplot, otáček, napětí
 
-- správu napájení (tzv. Power management), tedy vypínání nepotřebných zařízení z důvodu úspory elektrické energie
+- správa napájení (power management)
 
-Při každém spuštění PC provede BIOS otestování a nastavení hardware (dle zadaných parametrů) nutného pro spuštění operačního systému (fáze POST, tedy Power On Self Test). Poté se pokusí nalézt zaváděcí záznam operačního systému, jehož spuštěním dojde k zavedení operačního systému. BIOS je tedy v podstatě „programové rozhraní“ mezi obvody základní desky a operačním systémem.
+Při startu proběhne **POST**, pak BIOS najde a spustí zavaděč OS. Podrobně: [BIOS a UEFI](/it/uvod-do-vypocetni-techniky/07-bios/).
 
 ## Příklad konektorů základní desky:
 
-Většina současných desek obsahuje tyto důležité součástí:
+Typické součásti:
 
-- Patice (socket) pro připojení procesoru
+- **patice (socket)** procesoru
 
-- Čipovou sadu
+- **čipová sada**
 
-- FlashROM paměť obsahující BIOS + baterie (uchování navolených parametrů vyžaduje trvalé napájení)
+- **FlashROM** s BIOSem + **baterie** (drží nastavení)
 
-- Paměťové banky (konektory) pro moduly operační paměti
+- **sloty pro RAM**
 
-- Řadiče a normované sloty sběrnice _ISA, VL-BUS (u současných desek se již nesmí používat) PCI, AGP, PCI-Express_
+- sloty sběrnic – dříve ISA, VL-BUS; **PCI, AGP, PCI Express**
 
-- Obvody pro úpravu napájecího napětí procesoru
+- **napájecí obvody (VRM)** pro procesor
 
-- Integrované přídavné součásti: síťové, grafické, zvukové rozhraní, řadiče disků (ATA, SATA, RAID), řadiče univerzálních rozhraní (PS/2, USB, FireWire, RS-232, Centronics, atd.)
+- integrované obvody: síť, grafika, zvuk, řadiče disků (ATA, SATA, RAID), rozhraní (PS/2, USB, FireWire, RS-232, LPT)
 
-- Konektory pro připojení spínaného napájecího zdroje
+- **napájecí konektory** ze zdroje
 
 ## Formáty základních desek
 
-- PC/XT - vytvořen firmou IBM. První deska pro domácí počítače, která se stala standardem.
+- **PC/XT** – IBM, první standard domácích PC.
 
-- AT - (Advanced Technology) - vytvořen firmou IBM. Následovník PC/XT a předchůdce ATX. Velikou odlišností od současného standardu ATX je, že se napájecí zdroj zapínal spínačem přímo napojeným na síť 230 V (dříve 220 V). Nebylo dostupné softwarové zapínání. Baby AT - zmenšená varianta AT.
+- **AT** – IBM, nástupce XT; zdroj se zapínal síťovým vypínačem, bez softwarového zapínání. Baby AT = menší.
 
-- ATX - vytvořen firmou Intel v roce 1995. Bylo zde dostupné softwarové zapínání. Zapnutí je možné pomocí Power tlačítka na počítačové skříni, síťové karty s funkcí Wake-up či jiné periferie připojené k základní desce (záleží na podpoře základní desky). Dnes patří k nejpoužívanějším. MicroATX - zmenšená verze ATX. O 25% kratší. Obsahuje méně rozšiřujících slotů. Dnes patří k nejpoužívanějším zejména v kancelářských počítačích.
+- **ATX** – Intel 1995; softwarové zapínání (tlačítko na skříni, Wake-on-LAN); dnes nejčastější. **microATX** – o 25 % kratší, méně slotů, kanceláře.
 
-- BTX (Balanced Technology Extended) - vytvořen firmou Intel. Měl nahradit ATX. Rozmístění prvků na základní desce a v počítačové skříni mělo umožnit lepší chlazení, napájení a také snížit hlučnost. Příliš se neujal. (picoBTX, microBTX – liší se velikostí).
+- **BTX** – Intel; lepší chlazení a tišší chod; neujal se (picoBTX, microBTX).
 
-- Další méně rozšířené formáty - LPX, NLX, WTX, ITX, DTX
+- Méně rozšířené: LPX, NLX, WTX, **ITX** (mini-ITX), DTX.
 
-- Specifické formáty – neodpovídají popsaným formátům. Většinou jsou vyrobeny pro konkrétní typ počítače. Příkladem jsou desky pro notebooky nebo desky počítačů firmy Compaq, HP, atd.
+- **Specifické** – notebooky, značková PC (HP, Compaq).
 
 ## Výběr základní desky
 
-Základní deska je prakticky nejdůležitější komponentou v počítači, stará se o komunikaci s procesorem a propojuje všechny ostatní části počítače (komponenty). Proto je vhodné při jejím výběru dbát na určitá pravidla:
+Nejdůležitější komponenta – propojuje vše. Při výběru:
 
-1. **Čipová sada** - Jde o základ každé základní desky. Od ní se odvíjí další parametry, výbava, výkon (rychlost) základní desky a podpora nových technologií. Z hlediska rychlosti nás zajímá především taktovací frekvence lokální procesorové sběrnice (FSB, QPI, HyperTransport), tedy propojení procesoru s čipovou sadou. Od této frekvence se pak odvíjí především taktovací frekvence procesoru, grafické i systémových sběrnic či taktovací frekvence operační paměti. Zjednodušeně nám udává množství dat přenesených za sekundu (datový tok).
+1. **Čipová sada** – určuje výbavu, výkon a podporu technologií; rychlost spojení procesor–chipset (dříve FSB, QPI, HyperTransport, dnes DMI).
 
-2. **Patice (socket) procesoru** - s vývojem nových procesorů dochází ke změně jejich vnitřní struktury, což v praxi znamená také změnu patice procesoru na základní desce. Každý výrobce (AMD, Intel) vyvíjí své vlastní patice, které nejsou vzájemně kompatibilní.
+2. **Patice procesoru** – mění se s generacemi; AMD a Intel nekompatibilní.
 
-3. **Moduly operační paměti** - osazení pamětí vychází z použité čipové sady. V současnosti jsou podporovány paměti DDR, DDR2 a DDR3, využívající dvoukanálový a tříkanálový řadič operační paměti. Pokud jej základní deska podporuje, doporučuje se zakoupení dvojice (resp. trojice) paměťových modulů se stejnou rychlostí a kapacitou. V praxi toto osazení přináší nárůst přenosové rychlostí při přenosu dat proti osazení pouze jednou pamětí.
+3. **Paměti** – typ (DDR4, DDR5) podle chipsetu; **dvoukanálový** režim → kupovat páry stejných modulů (vyšší propustnost).
 
-4. **BIOS** - pro uživatele je zajímavé především to, jaké parametry mohou nastavovat a v jakém rozsahu, možnost přetaktování procesorové sběrnice, možnost upgrade (flashování) BIOSu novější verzí, atd.
+4. **BIOS** – co jde nastavit, přetaktování, aktualizace.
 
-5. **Integrované součásti základní desky** - Současné základní desky se vyrábějí s dalšími integrovanými zařízeními, které pak není přímo nutné dokupovat zvlášť.
+5. **Integrované součásti** – nemusí se dokupovat:
 
    - Jde především o:
 
-   - řadiče disků (ATA, SATA rozhraní), většině desek nechybí také řadiče disků RAID pro vytváření diskových polí,
+   - řadiče disků (SATA, M.2, RAID),
 
-   - řadič disketové mechaniky (dnes se již téměř nevyužívá)
+   - řadič disketové mechaniky (dnes ne),
 
-   - zvukový čip umožňující prostorové vnímání zvuku (5+1, popř. 7+1)
+   - zvuk 5.1 / 7.1,
 
-   - integrované grafické rozhraní buď s analogovým výstupem (rozhraní D-SUB, nebo též se někdy označuje u prodejců nesprávně jako VGA), nebo přímým digitálním výstupem (rozhraní DVI nebo novější vysokorychlostní HDMI). U většiny dražších základních desek je však tato varianta vypuštěna a nahrazena rozhraním grafické karty, která se zasouvá do slotu sběrnice AGP nebo PCI Express x16. Integrované řešení grafického rozhraní se většinou používá u základních desek přenosných počítačů.
+   - grafické výstupy (D-SUB/VGA, DVI, HDMI, DisplayPort) pro integrovanou grafiku; jinak samostatná karta v PCIe ×16,
 
-   - síťové rozhraní standardu Ethernet s rychlostí 10Mb/s, 100Mb/s nebo 1Gb/s (konektor RJ-45), ve vyšší třídě lze nalézt i dvojici těchto síťových rozhraní s rychlostí 1Gb/s.
+   - síť Ethernet 1 Gb/s (i 2,5 Gb/s), někdy dvě; často Wi-Fi,
 
-   - integrované řadiče univerzálních rozhraní, jako např. PS/2, USB, RS-232, LPT, FireWire
+   - rozhraní PS/2, USB, RS-232, LPT, FireWire
 
-6. **Podpora sběrnic pro připojení přídavných karet**
+6. **Sběrnice pro karty**
 
-   - ISA, EISA, VL-BUS – tyto sběrnice jsou již vyřazeny ze specifikace současných základních desek
+   - ISA, EISA, VL-BUS – vyřazené
 
-   - speciální sběrnice AMR pro zvukové a faxmodemové karty, novější standard CNR a ACR, který již umožňoval připojit i síťové karty, xDSL modemy, USB, atd. Tyto sběrnice se dnes nevyužívají a současné desky jimi nejsou osazeny.
+   - AMR, CNR, ACR – zvuk, modemy; nepoužívají se
 
-   - PCI, PCI-Express x1, x4 – určeno pro rozšiřující karty, např. zvuková karta, TV karta, modem, síťová karta, přídavné řadiče rozhraní USB, FireWire, atd.
+   - PCI, PCIe ×1, ×4 – zvukové, síťové, TV karty, řadiče USB
 
-   - AGP, PCI-Express x16 – určeno výhradně pro připojení grafické karty. Současné základní desky (resp. čipová sada) podporují výhradně sběrnici PCI-Express x16, přičemž některé nabízejí možnost osazení více grafických karet pro zvýšení výkonu v grafických aplikacích. Jedná se především o technologie SLI (společnost NVIDIA) a CrossfireX (společnost AMD, bývalá ATI).
+   - AGP, **PCIe ×16** – grafika; víc karet = SLI (NVIDIA), CrossFire (AMD)
 
-7. **Softwarová výbava** - jedná se především o dodávané ovladače (drivery) základní desky. Ovladač je software nainstalovaný v konkrétním operačním systému, který umožňuje součástem tohoto operačního systému využívat konkrétní hardware (technické prostředky) počítače. Z dlouhodobějšího hlediska je vhodné myslet také na podporu výrobce základní desky v oblasti vývoje a zpřístupnění nových verzí těchto ovladačů (oprava chyb, doplnění nových funkcí, zvýšení stability či rychlosti, atd.)
+7. **Software** – ovladače (drivery) a jejich dlouhodobá podpora výrobcem.
 
-8. **Formát (rozměry) základní desky**
+8. **Formát (rozměry)** – musí sedět do skříně.
 
-9. **Způsob uchycení chladičů**
+9. **Uchycení chladiče**
 
 ## Stručný přehled
 
@@ -124,15 +124,15 @@ Základní deska je prakticky nejdůležitější komponentou v počítači, sta
 
 **Podle velikosti:**
 
-- AT (Advanced Technology)
-- ATX (Advanced Technology Extended)
-- BTX (Balanced Technology Extended)
+- AT
+- ATX
+- BTX
 - microATX – o 25 % kratší než ATX
 - mini-ITX
 
 ### Z čeho se základní deska skládá
 
-- sloty, sockety (patice), porty, piny
+- sloty, sockety, porty, piny
 - sběrnice
 - baterie
 - kondenzátory, cívky, rezistory, tranzistory, LED
@@ -141,22 +141,22 @@ Základní deska je prakticky nejdůležitější komponentou v počítači, sta
 
 ### Konkrétní porty a patice
 
-- procesor (CPU) – socket, např. AM4
-- paměti – sloty DDR4
-- grafická karta – PCIe x16
-- rozšiřující karty – PCIe x4, x2, x1, PCI
+- CPU – socket (AM4, AM5, LGA 1700)
+- paměti – sloty DDR4/DDR5
+- grafika – PCIe ×16
+- karty – PCIe ×4, ×2, ×1, PCI
 - disky – IDE/PATA, SATA, M.2, U.2
-- chladič (CPU, chipset) a ventilátory (CPU, přídavné)
-- COM / LPT (sériový RS-232, paralelní port) – myš, tiskárna
-- USB (2.0, 3.0, 3.1), gameport
+- ventilátory (CPU, chipset, přídavné)
+- COM / LPT – myš, tiskárna
+- USB (2.0, 3.x), gameport
 - VGA, HDMI, DisplayPort – monitor
-- LED a tlačítka předního panelu skříně – zapnutí, Reset, indikace disků a LAN
-- speaker, audio (reproduktory)
-- napájení ze zdroje – základní deska, CPU
+- přední panel – tlačítka, LED disku a LAN
+- speaker, audio
+- napájení – deska (24 pin), CPU (4/8 pin)
 - PS/2 – klávesnice, myš
 
 ### Chipset – čipová sada
 
-Nejdůležitější logický obvod – umožňuje komunikaci CPU s ostatními částmi základní desky. Integruje řadiče pro paměti, disky, rozhraní USB a další.
+Nejdůležitější logický obvod – komunikace CPU s ostatními částmi; řadiče pamětí, disků, USB aj. Viz [chipset](/it/uvod-do-vypocetni-techniky/09-chipset/).
 
 **Úkol:** najít manuál pro vybranou základní desku (AMD, Intel) a vytisknout schéma desky.

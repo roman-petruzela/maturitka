@@ -3,7 +3,7 @@ title: "BIOS"
 order: 7
 source: "uvt/BIOS.pdf"
 ---
-**BIOS** - Basic Input-Output System – je to vlastně firmware počítače – implementace základních V/V funkcí. Je to první program, který se po zapnutí počítače spustí: otestuje a inicializuje hardware a zavede operační systém. Každý druh základní desky má svou variantu BIOSu. Programový kód BIOSu je uložen na základní desce v stálé paměti typu ROM, EEPROM nebo modernější flash paměti s možností jednoduché aktualizace (Dual BIOS).
+**BIOS** (Basic Input-Output System) = **firmware** počítače se základními V/V funkcemi. Spustí se po zapnutí jako první: otestuje a inicializuje hardware a zavede OS. Každá deska má svou variantu, uloženou v ROM, EEPROM nebo dnes ve flash paměti (snadná aktualizace).
 
 ## Kde je BIOS uložen
 
@@ -13,23 +13,25 @@ source: "uvt/BIOS.pdf"
 | **EEPROM** | lze elektricky smazat a znovu naprogramovat přímo na desce | pomalý zápis, malá kapacita, maže se po bajtech |
 | **Flash paměť** | snadná aktualizace (flashování), větší kapacita, rychlejší zápis | přerušený nebo chybný zápis může desku vyřadit z provozu; lze ji přepsat i škodlivým kódem |
 
-**Nastavení** BIOSu (pořadí disků, čas, zapnutá zařízení) se ukládá zvlášť — do paměti **CMOS**, kterou napájí **baterie** na základní desce (typicky knoflíková CR2032). Hodiny reálného času (RTC) běží ze stejné baterie. Když po každém zapnutí počítač ukazuje stejný (výchozí) čas nebo ztrácí nastavení, je **vybitá baterie CMOS**. Nastavení lze vrátit na výchozí propojkou **Clear CMOS** nebo vyjmutím baterie.
+**Nastavení** (pořadí disků, čas, zařízení) je zvlášť v paměti **CMOS**, napájené **baterií** na desce (CR2032); z ní běží i hodiny (RTC). Stejný čas po každém zapnutí / ztráta nastavení = **vybitá baterie**. Výchozí hodnoty: propojka **Clear CMOS** nebo vyjmutí baterie.
 
 ## Co BIOS dělá po zapnutí
 
-1. Načte **konfiguraci** z paměti CMOS.
-2. Provede **POST** (Power-On Self-Test) — autotest procesoru, paměti, grafické karty a klávesnice. Chybu ohlásí zprávou na obrazovce, nebo — když obraz nefunguje — sérií **pípnutí** (význam kódů je v manuálu desky).
-3. **Inicializuje** komponenty a připojená zařízení (disky, USB, rozšiřující karty).
-4. Podle **bootovací (startovací) sekvence** najde zařízení, ze kterého lze spustit operační systém, a předá řízení jeho zavaděči (boot loaderu).
+![Start počítače: zapnutí, načtení nastavení z CMOS, POST, inicializace zařízení, hledání zavaděče podle bootovací sekvence a start operačního systému](/images/content/it/uvod-do-vypocetni-techniky/bios/boot.webp)
 
-Pokud je připojeno víc disků, startuje se z prvního zařízení v bootovací sekvenci, na kterém je zavaděč. Když se pořadí změní na disk bez operačního systému, počítač nenastartuje (hlásí např. *No bootable device*) — proto se při instalaci OS z USB flash disku pořadí dočasně mění.
+1. Načte **konfiguraci** z paměti CMOS.
+2. **POST** (Power-On Self-Test) – autotest procesoru, paměti, grafiky, klávesnice. Chyba = zpráva, a když nejde obraz, **pípání** (kódy v manuálu desky).
+3. **Inicializuje** zařízení (disky, USB, karty).
+4. Podle **bootovací sekvence** najde zařízení se zavaděčem (boot loader) a předá mu řízení.
+
+Startuje se z prvního zařízení v sekvenci, které má zavaděč. Disk bez OS na prvním místě → *No bootable device*. Při instalaci z USB se pořadí dočasně mění.
 
 ## Vstup do BIOSu (Setup)
 
-- Do nastavení se vstoupí klávesou ihned po zapnutí — nejčastěji **Delete** nebo **F2** (u notebooků i F1, F10, Esc; klávesa se krátce zobrazí na obrazovce a je v manuálu).
-- **Boot menu** (jednorázová volba, odkud startovat) bývá na **F12**, F11 nebo F8.
-- Ve Windows lze do UEFI vstoupit i přes *Nastavení → Obnovení → Spuštění s upřesněným nastavením*.
-- Ve starém textovém BIOSu se pohybuje **šipkami**, volba se potvrzuje Enterem, hodnota mění klávesami +/−, odchází se Esc; uložit a ukončit bývá **F10**. UEFI mívá grafické rozhraní ovladatelné i myší.
+- Klávesa hned po zapnutí: **Delete** nebo **F2** (notebooky i F1, F10, Esc).
+- **Boot menu** (jednorázově odkud startovat): **F12**, F11, F8.
+- Z Windows: *Nastavení → Obnovení → Spuštění s upřesněným nastavením*.
+- Textový BIOS: **šipky**, Enter, +/−, Esc; uložit a odejít **F10**. UEFI i graficky s myší.
 
 Typické nabídky (podle výrobce se liší názvy):
 
@@ -44,36 +46,36 @@ Typické nabídky (podle výrobce se liší názvy):
 | **Security** | heslo pro vstup do nastavení a pro spuštění počítače, TPM |
 | **Exit** | uložit a odejít, zahodit změny, načíst výchozí nastavení |
 
-**Virtualizace:** aby šly spouštět virtuální stroje (VirtualBox, Hyper-V), musí být v BIOSu zapnutá podpora virtualizace procesoru — **Intel VT-x** (Intel Virtualization Technology) nebo **AMD-V** (SVM Mode). Když je vypnutá, virtualizovaný OS se nerozběhne nebo VirtualBox nabídne jen 32bitové systémy.
+**Virtualizace:** pro VirtualBox, Hyper-V musí být zapnuté **Intel VT-x** nebo **AMD-V** (SVM Mode). Jinak se virtuální OS nerozběhne nebo jdou jen 32bitové systémy.
 
-**Wake on LAN** je funkce, která umožňuje zapnout vypnutý počítač po síti — síťová karta zůstává napájená, a když přijme speciální paket (*magic packet* se svou MAC adresou), počítač probudí. Využívá se pro vzdálenou správu a aktualizace počítačů.
+**Wake on LAN** – zapnutí počítače po síti: karta zůstává napájená a po přijetí *magic packetu* se svou MAC počítač probudí. Vzdálená správa a aktualizace.
 
 ## Flashování BIOSu
 
-Nahrazení stávajícího BIOSu za novější verzi (opravené chyby, podpora nových procesorů, nové funkce), prováděno z:
+Aktualizace BIOSu (opravy, nové procesory, funkce) z:
 
 - diskety (u starých počítačů),
 - USB flash disku (nástroj přímo v BIOSu, např. *EZ Flash*, *Q-Flash*, *M-Flash*),
 - z HDD / SSD (program výrobce spuštěný ve Windows).
 
-Během flashování se **nesmí přerušit napájení** — poškozený BIOS desku znefunkční. Proti tomu chrání:
+**Nepřerušit napájení** – poškozený BIOS desku vyřadí. Ochrana:
 
-- **DualBIOS** – ochrana počítače, pomocí sekundárního (záložního) BIOSu lze nahradit nebo opravit primární BIOS,
-- **BIOS Flashback** — nahrání BIOSu z USB flash disku tlačítkem na desce, i bez procesoru a paměti.
+- **DualBIOS** – záložní BIOS opraví primární,
+- **BIOS Flashback** – nahrání z USB tlačítkem na desce, i bez CPU a RAM.
 
 ## ACPI
 
-**ACPI** (Advanced Configuration and Power Interface) je standard pro spolupráci firmwaru a operačního systému při správě hardwaru a napájení. Nové úkoly pro BIOS přineslo ACPI:
+**ACPI** (Advanced Configuration and Power Interface) = standard spolupráce firmwaru a OS při správě hardwaru a napájení:
 
 - detekci a konfiguraci hardware,
-- řízení spotřeby energie (anglicky power management) — stavy spánku (S3 — uspání do RAM, S4 — hibernace na disk, S5 — vypnuto),
-- výměnu zařízení za běhu (anglicky hot swapping),
-- řízení teploty (anglicky thermal management)
+- řízení spotřeby (power management) – S3 spánek do RAM, S4 hibernace na disk, S5 vypnuto,
+- výměna zařízení za běhu (hot swap),
+- řízení teploty (thermal management)
 - a další funkce.
 
 ## UEFI
 
-Následníkem BIOSu je EFI (anglicky Extensible Firmware Interface), který však není zpětně kompatibilní. Dnes se používá jeho standardizovaná verze **UEFI** (Unified Extensible Firmware Interface) — specifikace, která definuje softwarové rozhraní mezi operačním systémem a firmwarem. Prakticky všechny počítače vyrobené po roce 2012 mají UEFI; slovo „BIOS“ se pro nastavení používá dál.
+Nástupce BIOSu: **EFI** (Extensible Firmware Interface, není zpětně kompatibilní), dnes standardizované **UEFI** = rozhraní mezi OS a firmwarem. Počítače po roce 2012 mají UEFI; „BIOS“ se říká dál.
 
 | | BIOS (Legacy) | UEFI |
 | --- | --- | --- |
@@ -84,7 +86,7 @@ Následníkem BIOSu je EFI (anglicky Extensible Firmware Interface), který vša
 | Zabezpečení | — | **Secure Boot** — spustí jen zavaděč podepsaný důvěryhodným klíčem |
 | Start | pomalejší | rychlejší (*Fast Boot*), síťové funkce |
 
-Kvůli starším systémům má UEFI režim **CSM** (Compatibility Support Module), který napodobí starý BIOS. Windows 11 vyžaduje UEFI se zapnutým Secure Bootem a čip **TPM 2.0**.
+Pro staré systémy režim **CSM** (napodobí BIOS). Windows 11 vyžaduje UEFI se Secure Bootem a **TPM 2.0**.
 
 ## Cvičení
 

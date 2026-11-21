@@ -7,9 +7,9 @@ Obecné dělení pamětí a jejich parametry jsou na stránce [Paměti](/it/uvod
 
 ## Typy pamětí
 
-**RAM** (Random-Access Memory) = RWM (Read–Write Memory) — paměť pro čtení i zápis s libovolným (přímým) přístupem. Je **závislá na napájení**: po vypnutí počítače obsah zmizí.
+**RAM** (Random-Access Memory) = RWM – čtení i zápis, libovolný přístup. **Závislá na napájení** – po vypnutí obsah zmizí.
 
-**ROM** (Read-Only Memory) — paměť jen pro čtení, obsah zůstává i bez napájení. Slouží pro firmware ([BIOS/UEFI](/it/uvod-do-vypocetni-techniky/07-bios/)) a v širším smyslu i pro trvalé ukládání dat:
+**ROM** (Read-Only Memory) – jen čtení, obsah drží bez napájení. Firmware ([BIOS/UEFI](/it/uvod-do-vypocetni-techniky/07-bios/)), v širším smyslu trvalé ukládání:
 
 | Typ | Zápis | Mazání |
 | --- | --- | --- |
@@ -17,11 +17,11 @@ Obecné dělení pamětí a jejich parametry jsou na stránce [Paměti](/it/uvod
 | **PROM** | jednou uživatelem (programátorem) | nelze |
 | **EPROM** | programátorem | UV zářením (okénko na čipu) |
 | **EEPROM** | elektricky přímo v zařízení | elektricky po bajtech, omezený počet zápisů |
-| **FLASH** | elektricky | elektricky po blocích — rychlejší; SSD, USB flash disky, paměťové karty (SD), BIOS |
+| **FLASH** | elektricky | po blocích – rychlejší; SSD, flash disky, SD karty, BIOS |
 
-**SAM** – paměť se sekvenčním přístupem (k datu se musí „dojít“, např. magnetická páska).
+**SAM** – sekvenční přístup (k datu se „dojde“, páska).
 
-**CAM** – asociativní paměť (hledá se podle obsahu, ne podle adresy; např. tabulka MAC adres v přepínači).
+**CAM** – asociativní (hledá podle obsahu, ne adresy; tabulka MAC ve switchi).
 
 ## Dělení
 
@@ -32,6 +32,8 @@ Obecné dělení pamětí a jejich parametry jsou na stránce [Paměti](/it/uvod
 
 Čím blíž procesoru, tím rychlejší, menší a dražší za bajt:
 
+![Hierarchie pamětí jako pyramida od registrů po pásky](/images/content/it/uvod-do-vypocetni-techniky/pameti/hierarchie.webp)
+
 | Úroveň | Typická velikost | Přístupová doba (řádově) |
 | --- | --- | --- |
 | registry procesoru | stovky bajtů | pod 1 ns |
@@ -40,22 +42,22 @@ Obecné dělení pamětí a jejich parametry jsou na stránce [Paměti](/it/uvod
 | SSD | stovky GB až jednotky TB | desítky µs |
 | HDD | jednotky TB | jednotky ms |
 
-**Cache** drží data, která procesor právě používá nebo brzy bude, aby nemusel čekat na pomalejší operační paměť.
+**Cache** drží data, která procesor používá nebo brzy bude, aby nečekal na RAM.
 
 ### SRAM a DRAM
 
-- **SRAM** (statická) — bit je uložen v klopném obvodu (6 tranzistorů). Velmi rychlá, nepotřebuje obnovování, ale drahá a málo hustá → **cache** a registry.
-- **DRAM** (dynamická) — bit je náboj v **kondenzátoru** (1 tranzistor + 1 kondenzátor). Kondenzátor se vybíjí, takže se obsah musí tisíckrát za sekundu **obnovovat** (refresh). Levná a hustá → **operační paměť**. Dnešní moduly jsou **SDRAM** (synchronní — taktovaná společně se sběrnicí) typu **DDR**.
+- **SRAM** (statická) – bit v klopném obvodu (6 tranzistorů). Velmi rychlá, bez obnovování, drahá → **cache**, registry.
+- **DRAM** (dynamická) – bit = náboj v **kondenzátoru** (1 tranzistor + 1 kondenzátor); vybíjí se → **refresh** tisíckrát za sekundu. Levná, hustá → **operační paměť**. Dnes **SDRAM** (synchronní se sběrnicí) typu **DDR**.
 
-**DDR** (Double Data Rate) přenáší data na náběžné i sestupné hraně hodinového signálu, tedy dvakrát za takt. Proto se rychlost udává v **MT/s** (miliony přenosů za sekundu), v obchodech často jako „MHz“: DDR4-3200 má skutečný takt 1600 MHz.
+**DDR** (Double Data Rate) – přenos na náběžné i sestupné hraně = **2× za takt**. Rychlost v **MT/s** (v obchodech „MHz“): DDR4-3200 má skutečně 1600 MHz.
 
 | Generace | Napětí | Typické rychlosti | Poznámka |
 | --- | --- | --- | --- |
 | DDR3 | 1,5 V (DDR3L 1,35 V) | 1066–1866 MT/s | starší počítače |
 | DDR4 | 1,2 V | 2133–3600 MT/s | 288 pinů |
-| DDR5 | 1,1 V | 4800–8400 MT/s a víc | 288 pinů, ale jiný zářez; na modulu vlastní regulátor napětí a dva 32bitové kanály |
+| DDR5 | 1,1 V | 4800–8400+ MT/s | jiný zářez; vlastní regulátor napětí, 2× 32b kanál |
 
-Generace nejsou **vzájemně kompatibilní** — zářez v modulu je pokaždé jinde, takže modul do jiné patice nejde zasunout.
+Generace **nejsou kompatibilní** – zářez je jinde, modul do cizího slotu nejde.
 
 ## Parametry operačních pamětí
 
@@ -73,7 +75,7 @@ Generace nejsou **vzájemně kompatibilní** — zářez v modulu je pokaždé j
   - DDR5 DIMM
   - starší:
     - SDR
-    - DDR SDRAM [1] – double-data-rate synchronous dynamic random access memory
+    - DDR SDRAM [1]
     - DDR4 DIMM
     - RIMM (Rambus DRAM, RDRAM) – dnes již nepoužitelné
 - notebooky (**SO-DIMM** — menší moduly)
@@ -83,17 +85,17 @@ Generace nejsou **vzájemně kompatibilní** — zářez v modulu je pokaždé j
   - UDIMM DDR4 ECC (Error Correcting Code) — paměť s opravou jednobitových chyb
   - RDIMM (registrované — s vyrovnávacím obvodem, umožňují víc modulů a větší kapacitu)
   - LRDIMM (s ještě nižší zátěží sběrnice — největší kapacity)
-  - NVDIMM (nevolatilní — data přežijí výpadek napájení; nalezeno 7. 12. 2021)
+  - NVDIMM (nevolatilní – přežije výpadek)
 
 ### Dělení dle rychlosti
 
 - 3200 MHz
 - 3600 MHz
 - …
-- 6000 MHz (DDR5 – nalezeno 7. 12. 2021)
-- 8000 MHz – G.Skill Trident Z5 RGB 32GB (2x16GB) DDR5 8000 CL38 (DDR5 – nalezeno 3. 1. 2023)
-- 8200 MHz – Patriot VIPER XTREME 5 32GB (2x16GB) DDR5 8200 CL38 (DDR5 – nalezeno 5. 12. 2023)
-- 8400 MHz – G.Skill Trident Z5 RGB 48 GB (2 x 24 GB) DDR5 8400 MHz CL40 (DDR5 – nalezeno 10. 1. 2024)
+- 6000 MHz (DDR5)
+- 8000 MHz (DDR5)
+- 8200 MHz (DDR5)
+- 8400 MHz (DDR5)
 
 ### Dělení dle velikosti (GB)
 
@@ -101,29 +103,31 @@ Generace nejsou **vzájemně kompatibilní** — zářez v modulu je pokaždé j
 - **32 GB**
 - 64 GB
 - 128 GB
-- 256 GB – Kingston Fury Renegade RGB 256GB (8x32GB) DDR4 3200 CL16 (nalezeno 3. 1. 2023)
+- 256 GB (sada 8 × 32 GB)
 
 ### Dělení dle CAS latence
 
-**CAS latence (CL)** je počet taktů, než paměť po zadání sloupce vrátí data. Nižší CL je rychlejší **při stejné frekvenci**:
+**CAS latence (CL)** = počet taktů, než paměť vrátí data. Nižší CL = rychlejší **při stejné frekvenci**:
 
 - CL2 (nejrychlejší)
 - CL2,5
 - CL3
 - CL16
 - …
-- CL40 (nalezeno 9. 12. 2021)
-- CL46 (nejpomalejší – nalezeno 5. 1. 2023) – Crucial 32GB (2x16GB) DDR5 5600 CL46
+- CL40
+- CL46 (nejpomalejší, DDR5)
 
-Novější paměti mají vyšší CL, ale i vyšší frekvenci, takže skutečné zpoždění v nanosekundách zůstává podobné:
+Novější paměti mají vyšší CL i frekvenci → skutečné zpoždění zůstává podobné:
 
-$$t = \frac{\text{CL} \cdot 2000}{\text{rychlost v MT/s}}\ \text{ns}$$
+```formulas
+{ "items": [ { "label": "skutečná latence", "tex": "t = \\frac{\\text{CL} \\cdot 2000}{\\text{rychlost v MT/s}}\\ \\text{ns}" } ] }
+```
 
 Příklad: DDR4-3200 CL16 → 16 · 2000 / 3200 = **10 ns**; DDR5-6000 CL30 → 30 · 2000 / 6000 = **10 ns**.
 
 ### Vícekanálové zapojení
 
-Procesor má řadič paměti s více **kanály** (desktop obvykle 2). Moduly osazené v párech do správných slotů (**dual channel**, podle manuálu desky — často 2. a 4. slot) zdvojnásobí propustnost oproti jednomu modulu. Proto je lepší 2 × 8 GB než 1 × 16 GB. Servery mají 4, 8 i 12 kanálů.
+Řadič paměti má víc **kanálů** (desktop 2). Páry modulů ve správných slotech (**dual channel**, často 2. a 4.) = **2× propustnost**. Proto 2 × 8 GB je lepší než 1 × 16 GB. Servery 4–12 kanálů.
 
 ### Dělení dle počtu stran
 

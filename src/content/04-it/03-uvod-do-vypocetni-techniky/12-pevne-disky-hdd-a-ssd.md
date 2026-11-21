@@ -3,370 +3,252 @@ title: "Pevné disky HDD a SSD"
 order: 12
 source: "uvt/cv18-19_HDD_SSD.pdf"
 ---
-Úvod do výpočetní techniky - UVT  - IT1
+Paměti obecně: [Paměti](/it/uvod-do-vypocetni-techniky/04-pameti/); RAID podrobně: [RAID](/it/operacni-systemy/17-raid/).
 
-## HDD, SSD, … 2h+ 2h
+![HDD s plotnami a hlavou na raménku vedle SSD M.2 s řadičem a čipy NAND](/images/content/it/uvod-do-vypocetni-techniky/pameti/hdd-ssd.webp)
 
-### Obsah
+## Dělení disků
 
-|HDD, SSD, … 2h+ 2h..........................................................................................................................1|
-|---|
-|Dělení disků..................................................................................................................................... 1|
-|Dělení dle technologie:...........................................................................................................1|
-|Dělení dle rozhraní:................................................................................................................1|
-|Dělení dle formátu:.................................................................................................................4|
-|Dělení dle kapacity - plotnové:..............................................................................................5|
-|Dělení dle kapacity - SSD:..................................................................................................... 6|
-|Dělení dle rychlosti otáčení ploten:........................................................................................6|
-|Dělení dle umístění:................................................................................................................6|
-|Další technologie u disků:................................................................................................................7|
-|Programy pro práci s oddíly disků (partitions):........................................................................12|
-|RAID (Redundant Array of Inexpensive Disks)................................................................................12|
-|Typy diskových polí RAID............................................................................................................13|
-|Druhy RAID polí........................................................................................................................... 13|
-|JBOD.........................................................................................................................................13|
-|RAID 0......................................................................................................................................13|
-|RAID 1......................................................................................................................................14|
-|RAID 5......................................................................................................................................14|
-|RAID 6......................................................................................................................................15|
-|Víceúrovňová pole.........................................................................................................................15|
-|Méně užívaná RAID pole.........................................................................................................16|
-|Čištění disků (Windows) a registrů Windows....................................................................................16|
-|Citace..................................................................................................................................................17|
+### Dělení dle technologie
 
-### Dělení disků
+- **HDD** (Hard Disk Drive) – magnetické plotny a hlavy
+- **SSD** (Solid State Drive) – flash paměť (NAND) + řadič, bez mechaniky
+- **SSHD** (hybridní) – HDD s malou flash cache
 
-#### Dělení dle technologie:
+| | HDD | SSD |
+| --- | --- | --- |
+| přístupová doba | ms | µs |
+| rychlost | ~100–250 MB/s | SATA ~550 MB/s, NVMe 3–14 GB/s |
+| odolnost, hluk | citlivý na otřesy, slyšet | odolný, tichý |
+| cena za GB | nízká | vyšší |
+| životnost | mechanické opotřebení | omezený počet zápisů (**TBW**) |
+| použití | velká data, zálohy | systém, programy |
 
-- HDD (Hard Disk Drive)
+### Dělení dle rozhraní
 
-- SSD (Solid State Drive)
+- **PATA** (IDE) – paralelní, 40pinový plochý kabel, max. 133 MB/s; zastaralé
+- **SATA** – sériové: I 1,5 Gb/s, II 3 Gb/s, **III 6 Gb/s** (~600 MB/s)
+- **eSATA** – externí SATA
+- **SAS** – sériové SCSI pro servery, 12–24 Gb/s, duální port
+- **NL-SAS** – SATA mechanika se SAS rozhraním (levná serverová kapacita)
+- **USB** – externí disky, viz tabulka
+- **M.2** – slot pro SSD:
+   - SATA – ~560/530 MB/s
+   - PCIe Gen3 ×4 (NVMe) – ~3 400 / 3 100 MB/s
+   - PCIe Gen4 ×4 – ~7 450 / 7 000 MB/s
+   - PCIe Gen5 ×4 – ~14 500 / 12 000 MB/s
+- **U.2 / U.3** – serverové 2,5″ NVMe přes PCIe (Gen3 ~3 400 MB/s, Gen4 ~7 000 MB/s)
+- **PCIe karty (AIC)** – SSD přímo ve slotu
+- **SCSI** – starší serverové, zastaralé
 
-- SSHD  (Solid State Hard Drive)
-
-#### Dělení dle rozhraní:
-
-_Doplňte přenosové rychlosti různých rozhranní a technologií:_
-
-- PATA
-
-- SATA (ASATA)
-
-- eSATA
-
-- SAS
-
-- NLSAS
-
-- USB
-
-### úkol:
-
-Vytvořte tabulku verzí USB
+**NVMe** = protokol pro SSD přes PCIe (místo AHCI) – víc front, nižší latence.
 
 #### Tabulka srovnání USB technologií
 
-|Verze USB<br>USB 1.1<br>USB 2.0|Přenosová<br>rychlost<br>12 Mbit/s (Full<br>Speed)<br>480 Mbit/s<br>(Hi-Speed)|Konektory<br> <br>A, B<br>A, B|Poznámky<br>Starší verze,<br>dnes již méně<br>používaná<br>Nejrozšířenější<br>verze, zpětně<br>kompatibilní s<br>1.1<br>Znatelně vyšší|
-|---|---|---|---|
-|USB 3.0 (USB<br>3.1 Gen 1)|<br>5 Gbit/s|A, B (modré)|rychlost,<br>zpětně<br>kompatibilní<br>Dvojnásobná|
-|USB 3.1 Gen 2|10 Gbit/s|A, B (modré)|rychlost oproti<br>3.0|
-|USB 3.2 Gen 1<br>(původně USB<br>3.1 Gen 1)|<br> <br>5 Gbit/s|A, B (modré)|Přejmenovaná<br>verze 3.0|
-|USB 3.2 Gen 2|||Přejmenovaná|
-|(původně USB<br>3.1 Gen 2)|<br>10 Gbit/s|A, B (modré)|verze 3.1 Gen<br>2<br>Dvojnásobná|
-|USB 3.2 Gen<br>2x2|20 Gbit/s|C|rychlost oproti<br>3.2 Gen 2,<br>pouze konektor<br>typu C<br>Založeno na|
-|USB 4|Až 40 Gbit/s|C|technologii<br>Thunderbolt 3|
+| Verze USB | Rychlost | Konektory | Poznámka |
+| --- | --- | --- | --- |
+| USB 1.1 | 12 Mb/s (Full Speed) | A, B | zastaralé |
+| USB 2.0 | 480 Mb/s (Hi-Speed) | A, B, mini, micro | nejrozšířenější, zpětně kompatibilní |
+| USB 3.0 = 3.1 Gen 1 = 3.2 Gen 1 | 5 Gb/s | A, B (modré), C | |
+| USB 3.1 Gen 2 = 3.2 Gen 2 | 10 Gb/s | A, B, C | |
+| USB 3.2 Gen 2×2 | 20 Gb/s | jen C | |
+| USB4 | 40 Gb/s (v2 80 Gb/s) | jen C | z Thunderboltu 3 |
 
-- M.2
+### Dělení dle formátu
 
-   - SATA – 560/530 MB/s
+- **3,5″** – desktop, NAS
+- **2,5″** – notebooky, SSD SATA
+- **AIC** – karta do PCIe
+- **mSATA** – starší malé SSD
+- **M.2** – 2242, 2260, **2280**, 22110 (šířka 22 mm × délka)
 
-   - PCI express Gen3 – 3400 / 3100 MB/s
+### Dělení dle kapacity – plotnové
 
-   - PCI express Gen4 – 7450 / 7000 MB/s
-
-- PCI express Gen5 – 14500 / 11800 MB/S (NVMe 2.0 – 16.1.2024)
-
-   - Crucial T705 2TB - SSD disk M.2 2280, M.2 (PCIe 5.0 4x NVMe), 3D NAND, rychlost čtení 14500MB/s, rychlost zápisu 12700MB/s, životnost 1200TBW  (NVMe 2.0 – 13.1.2025)
-
-- U.2 - PCI express  - 5900 / 2300 MB/s
-
-- U.2 - PCI express Gen3  - 3400 / 3100 MB/s
-
-- U.2 - PCI express Gen4 – 7100 / 4200 MB/s
-
--
-
-- U.3 - PCI express – 5900 / 2300 MB/s
-
-- U.3 - PCI express Gen4 – 7000 / 7000 MB/s
-
-- PCI express Gen3 / Gen4 /Gen5
-
-- SCSI – SRV - zastaralé
-
-##### Dělení dle formátu:
-
-- 2,5“
-
-- 3,5“
-
-- AIC
-
-- mSATA
-
-- M.2 – 2242, 2260, 2280 a 22110
-
-##### Dělení dle kapacity - plotnové:
-
-- **500 GB** – pro OS a programy
-
+- **500 GB** – systém a programy
 - 750 GB
-
 - **1 TB**
-
-- 2 TB – pro data, první záloha
-
+- 2 TB – data, první záloha
 - 3 TB
+- 4 TB … přes 20 TB (serverové)
 
-- 4 TB … 22 TB (Seagate Exos X22 22TB – 9.1.2024)
+### Dělení dle kapacity – SSD
 
-##### Dělení dle kapacity - SSD:
+- 500 GB – systém
+- 1 TB … 8 TB i víc – data
 
-- 500 GB – pro OS
+### Dělení dle rychlosti otáčení ploten
 
-- 1T … 7.68TB - pro data, první záloha (WD UltraStar DC SS300 VRI, 2,5" – 7,68TB – 9.1.2024)
+- 5 400 ot/min – notebooky, úsporné
+- 5 900
+- **7 200** – desktop
+- 10 000 – servery
+- 10 500
+- 15 000 – servery (SAS)
 
-##### Dělení dle rychlosti otáčení ploten:
+**Úkol:** najděte HDD s 15 000 ot/min. Pro jaké zařízení je určen? ||pro servery – SAS disky s nízkou latencí||
 
-- 5400 - PC
-
-- 5900
-
-- 7200 - PC
-
-- 10000 - SRV
-
-- 10500
-
-- 15000
-
-**_Úkol :_** Najdete HDD s 15tis. otáčkami.
-
-**_Otázka:_** Pro jaké zařízení je určen nalezený HDD?
-
-##### Dělení dle umístění:
+### Dělení dle umístění
 
 - PC
+- notebook
+- server
+- NAS (síťové úložiště)
 
-- NTB
+## Další technologie u disků
 
-- SRV
+**CHS** (Cylinder-Head-Sector) – stará adresace podle geometrie: válec-hlava-sektor.
 
-- NAS
+**LBA** (Logical Block Addressing) – bloky číslované lineárně od 0. Velikost bloku:
 
-### Další technologie u disků:
-
-**CHS** - Cylinder-Head-Sector, česky stopa-hlava-sektor nebo válec-povrch-výseč
-
-**LBA** - Logical Block Addressing (LBA)  - logické bloky s daty se číslují lineárně (postupně) od 0 (nuly). Jeden logický blok má
-
-- HDD 512 bajtů,
-
-- SSD 1024 bajtů
-
-- CD/DVD/BR 2048 bajtů
+- HDD 512 B (dnes i 4 KiB)
+- SSD 4 KiB a víc
+- CD/DVD/BD 2 048 B
 
 <img src="/images/content/it/uvod-do-vypocetni-techniky/pevne-disky-hdd-a-ssd/01.webp" alt="Plotny, hlavy, stopa, blok a sektor pevného disku" width="201" loading="lazy" decoding="async">
 
-A – plotny disků
+A – plotny · B, C – hlavy · D – stopa · E – blok · F – sektor
 
-B a C – čtecí/zapisovací hlavy
+```formulas
+{ "items": [ { "label": "max. kapacita disku", "tex": "C = 2^{\\text{bitů adresy}} \\cdot \\text{velikost bloku}" } ] }
+```
 
-D – Stopa
+**Příklad 1:** 28bitová LBA → $2^{28}$ sektorů × 512 B = **128 GiB**.
 
-E - blok
+**Příklad 2:** 48bitová LBA (ATA-6) → $2^{48}$ × 512 B = **128 PiB**.
 
-F – sektor
-
-#### Příklad 1:
-
-U LBA je délka adresy **28 bitů** , je tedy možné adresovat až **2**<sup>**28**</sup> **sektorů** , což při velikosti logického bloku **512 bajtů** znamená maximální kapacitu disku **128 GiB** .
-
-#### Příklad 2:
-
-U standardu ATA (konkrétně ATAPI-6, resp. ATA 100), který zavádí **48bitovou** LBA adresu, takže je možné adresovat až **128 PiB** (128 miliónů GB pro logické bloky velikosti 512 bajtů).
-
-**NCQ** - Native Command Queuing, česky přirozené řazení příkazů.
+**NCQ** (Native Command Queuing) – disk si požadavky přeřadí tak, aby hlava jela co nejkratší cestou.
 
 <img src="/images/content/it/uvod-do-vypocetni-techniky/pevne-disky-hdd-a-ssd/02.webp" alt="Pořadí čtení bez NCQ a s NCQ" width="351" loading="lazy" decoding="async">
 
-#### _Najděte význam:_
+**MBR** (Master Boot Record) – první sektor disku (CHS 0-0-1, LBA 0): zavaděč + tabulka oddílů + ID disku.
 
-**MBR** – Master Boot Record - hlavní spouštěcí záznam, obsahuje zavaděč, tabulku rozdělení disku, číselný identifikátor disku,  je vždy uložen na samém počátku disku (podle Cylindr-Hlava-Sektor = 0-0-1, podle LBA v sektoru 0) a skládá se ze 2 hlavních částí
+- max. **2 TiB**
+- max. **4 primární oddíly** (nebo 3 + rozšířený)
 
-- podporuje maximálně 2TB
+Části:
 
-- a  maximálně 4 primární oddíly.
+- tabulka oddílů (MPT)
+- spouštěcí kód (zavaděč)
 
-Skládá se ze dvou hlavních částí:
+**GPT** (GUID Partition Table) – nástupce MBR, součást UEFI:
 
-- Hlavní tabulka rozdělení disku (MPT)
+- obrovské disky (prakticky bez limitu; Windows až 18 EB)
+- až **128 oddílů**
+- zabírá 34 sektorů (16 KiB) + záložní kopie na konci disku
 
-- Hlavní spouštěcí kód – kód zavaděče
+Převod GPT ↔ MBR: diskpart (níže), rozdíl BIOS/UEFI viz [BIOS](/it/uvod-do-vypocetni-techniky/07-bios/#uefi).
 
-**GPT** – GUID Partition Table - Nahrazuje starší MBR. Je součástí standardu UEFI,
+**Diskové oddíly** (partitions) – rozdělení fyzického disku na části, které se tváří jako samostatné disky; každá může mít jiný souborový systém i jiný OS.
 
-- podporuje maximálně 256TB
+**LVM** (Logical Volume Management) – pružná správa místa: spojí více disků/oddílů do skupiny a z ní tvoří logické svazky; přesun dat za běhu, zvětšování, vlastnosti podobné RAID.
 
-- a maximálně 128 primárních oddílů - Microsoft – 128 z toho 4 vyhrazené
+### Nevýhody LVM
 
-- velikost GPT je na disku s 512 B sektory 34×512 B = 16 KiB (první oddíl začíná na LBA 34)
+1. Vrstva abstrakce komplikuje start systému a obnovu po poškození dat – hlavně když jsou nástroje pro opravu na tomtéž LV.
+2. Vyšší skrytá fragmentace (bloky PE nejdou souvisle) → pomalejší I/O na HDD, hlavně u velkých dat.
 
-- teoretická maximální velikost oddílu 9,4×10<sup>21</sup> bytů = 9,4 ZB = 8 ZiB, má-li LBA sektory 512 kB - tuto velikost obvykle neumí využít OS, například Microsoft podporuje maximální velikost 18 EB
+**RAID** (Redundant Array of Inexpensive/Independent Disks) – data na více discích tak, aby přežila selhání disku (viz níže).
 
-Mrkněte na: Jak převést GPT disk na MBR disk nebo opačně -
+**S.M.A.R.T.** – firmware disku sleduje parametry (vadné sektory, teplota, hodiny provozu); správce včas předvídá selhání a zálohuje.
 
-Rozdíl mezi BIOS a UEFI např. na http://www.servispckupka.cz/rozdil-mezi-bios-a-uefi.php
+**ATA** – standard připojení disků (AT Attachment), obecné označení rodiny.
 
-**Diskové oddíly** – partition – slouží k rozdělení fyzického disku na oddíly (fyzické nebo logické), se kterými je možné nezávisle manipulovat. Laicky řečeno, po rozdělení pevného disku se pak tento z pohledu souborů jeví jako několik samostatných disků, které mohou být různě naformátovány (tj. mít odlišnou logickou strukturu) a dokonce mohou obsahovat i různé operační systémy.
+**PATA** – paralelní ATA (IDE), plochý 40/80žilový kabel, master/slave.
 
-**LVM** - Logical Volume Management - správa logických disků, metoda správy diskového prostoru, která poskytuje mnohem větší variabilitu než konvenční způsob dělení pevných disků na diskové oddíly. Umožňuje spojovat více pevných disků nebo diskových oddílů do větších logických celků a s nimi dále pracovat, tj. vytvářet na nich oddíly se souborovými systémy a využívat jejich organizace k získání dalších vlastností (přesuny dat mezi fyzickými zařízeními bez narušení jejich dostupnosti nebo podobné vlastnosti, jako mají pole RAID).
+**SATA** – sériová ATA, tenký kabel, 1 disk na port, hot-plug, AHCI.
 
-#### _Nevýhody LVM_
+**Rozdělení disku** – fdisk, GParted, Acronis Disk Director, (PartitionMagic); ve Windows *Správa počítače → Správa disků*.
 
-1. Díky míře abstrakce, kterou sebou přináší řízení logických disků, mohou při použití LVM nastat komplikace buď při najíždění systému, nebo v případě poškození dat. Řešení takové
-
-situace pak může být ještě komplikovanější, pokud je základní operační systém a nezbytné nástroje k dispozici pouze na tomto LV.
-
-2. LVM má z principu vyšší míru vnitřní (skryté) fragmentace, neboť PE nemusejí být alokovány v souvislých blocích, což značně zpomaluje vstupní a výstupní operace, zvláště když je LVM postaveno na fyzických zařízení, které mají pomalé přejíždění mezi bloky dat (všechny typy konvenčních pevných disků). Projevuje se to zvláště při práci s velkými objemy dat. Rychlost při kopírování dat je pak limitována velikostí PE, což je v případě Linuxu minimálně 4MB.
-
-**RAID** – a typy (0,1,5,…) – Redundant Array of Inexpensive Disks - vícenásobné diskové pole levných disků, nově též independent disks, tj. nezávislých disků) je v informatice metoda zabezpečení dat proti selhání pevného disku. Zabezpečení je realizováno specifickým ukládáním dat na více nezávislých disků, kdy jsou uložená data zachována i při selhání některého z nich.
-
-**S.M.A.R.T.** - Self-Monitoring, Analysis, and Reporting Technology, monitorovací systém pro pevné disky. Firmware sleduje uvnitř pevného disku během provozu různé parametry, které je možné přenést do počítače. Pomocí zjištěných údajů může správce systému včas předvídat selhání disku a uložená data zálohovat. Systém S.M.A.R.T. definuje hlavně způsob komunikace disku s počítačem, takže jednotlivé implementace se u různých výrobců liší.
-
-**ATA** -
-
-**PATA** -
-
-**SATA** -
-
-**Rozdělení disku** – Fdisk, Acronis disk director, PQMagic, Gparted,  …
-
-Zakreslit rozdělení disku podle WIN/ Správa počítače / Správa disků
-
-#### Rozdělení pro jeden OS (např. WIN 10)
+### Rozdělení pro jeden OS (např. WIN 10)
 
 <img src="/images/content/it/uvod-do-vypocetni-techniky/pevne-disky-hdd-a-ssd/03.webp" alt="Rozdělení disku pro jeden OS, pro více OS a s LVM" width="746" loading="lazy" decoding="async">
 
-#### Programy pro práci s oddíly disků (partitions):
+### Programy pro práci s oddíly disků (partitions)
 
-Acronis disk director
+- Acronis Disk Director
+- fdisk
+- GParted (Linux, živé CD)
 
-##### Fdisk
+Převod MBR ↔ GPT ve Windows (CMD, **smaže data**):
 
-Gparted (Linux Knoppix)
-
-##### Program na převod MBR na GPT a opačně – windows: CMD:
-
-- diskpart
-
-- list disk
-
-- select disk 1
-
-- detail disk
-
-- select volume 3
-
-- delete volume
-
-- select disk 1
-
-- convert mbr
-
-- exit
+```bat
+diskpart
+list disk
+select disk 1
+detail disk
+select volume 3
+delete volume
+select disk 1
+convert mbr
+exit
+```
 
 ## RAID (Redundant Array of Inexpensive Disks)
 
-- vícenásobné diskové pole levných disků
+- pole více disků
+- ochrana dat proti **selhání disku**
 
-- metoda zabezpečení dat proti selhání pevného disku
-
-Zabezpečení je realizováno specifickým ukládáním dat na více nezávislých disků, kdy jsou uložená data zachována i při selhání některého z nich. Úroveň zabezpečení se liší podle zvoleného typu RAID, které je označováno čísly – RAID 1.
+Úroveň ochrany podle typu (RAID 0, 1, 5…).
 
 ### RAID nenahrazuje zálohování dat!!!
 
+Nechrání proti smazání, viru, ransomwaru, požáru.
+
 ### Typy diskových polí RAID
 
-- hardwarová, kdy veškeré výpočetní funkce přebírá řadič,
-
-- pseudo-hardwarová, kdy řadič funguje pouze jako rozhraní a výpočetní funkce provádí SW,
-
-- a softwarová, kam řadímě typicky linux, dynamické disky, LVM aj.
+- **hardwarová** – vše počítá řadič,
+- **pseudo-hardwarová (fake RAID)** – řadič je jen rozhraní, počítá ovladač,
+- **softwarová** – OS (Linux mdadm, dynamické disky Windows, LVM).
 
 ### Druhy RAID polí
 
-Video: https://www.youtube.com/watch?v=11f2G5ryM_g nebo
+Nejčastější jsou **RAID 1 a RAID 5** – dobrá ochrana, ale víc disků bez velkého zrychlení.
 
-<u>https://www.youtube.com/watch?v=WnYKuaIMnPY</u>
-
-„Nejčastěji používané druhy řetězení jsou **RAID 1 a RAID 5,** které poskytují dostatečné zabezpečení vůči fyzickému výpadku, ale nejsou příliš výhodné, jelikož vyžadují větší počet fyzických jednotek s žádným či minimálním výkonovým nárůstem,“ [Aleš Wágner - datahelp]
-
-**JBOD a RAID 0 -** nepatří mezi skutečné fyzické zálohování; řetězení disků. Nevýhoda: v případě fyzického výpadku jednoho či více disků jsou data **_částečně nebo úplně ztracena_** .
+**JBOD a RAID 0** nejsou ochrana – při výpadku disku jsou data **částečně nebo úplně ztracena**.
 
 #### JBOD
 
-- Just a Bunch of Disks  - jde jen o spojení více disků do jednoho svazku (minimálně 2 disky). Používá se u malých síťových disků jako snadná forma rozšíření kapacity. Data jsou ukládána na disk první, dokud nedojde kapacita, pak se pokračuje zápisem na další disk.
+- *Just a Bunch of Disks* – disky spojené za sebou do jednoho svazku (min. 2); plní se postupně. Malé NAS.
 
-_Výhoda_ : snadné vytvoření pole, rozšíření,
-
-_Nevýhoda_ : žádný výkonnostní zisk, v případě selhání jednoho z disků, lze obnovit data jen z toho nepoškozeného.
+*Výhoda:* snadné rozšíření. *Nevýhoda:* žádné zrychlení; při selhání zůstanou jen data na zdravém disku.
 
 <img src="/images/content/it/uvod-do-vypocetni-techniky/pevne-disky-hdd-a-ssd/04.webp" alt="Schéma JBOD" width="173" loading="lazy" decoding="async">
 
 #### RAID 0
 
-- druhý typ neredundantního pole, data mezi dvěma a více disky prokládány bit po bitu (ABAB). (minimálně 2 disky)
+- **prokládání (striping)** – data střídavě po blocích na 2+ discích (A B A B).
 
-_Výhoda_ : zisk ve čtení i zápisu, při dvou discích je čas redukován na polovinu, zvýšení kapacity
-
-_Nevýhoda_ : v případě selhání jednoho z disků jsou veškerá data ztracena
+*Výhoda:* rychlejší čtení i zápis, plná kapacita. *Nevýhoda:* jeden vadný disk = **ztráta všeho**.
 
 <img src="/images/content/it/uvod-do-vypocetni-techniky/pevne-disky-hdd-a-ssd/05.webp" alt="Schéma RAID 0" width="114" loading="lazy" decoding="async">
 
 #### RAID 1
 
-- nejčastěji používaný typ, Pole je tvořeno 2 disky, mezi kterými se veškeré data zrcadlí. Co je uloženo na disku A je zároveň uloženo i na disku B. (minimálně 2 disky – identické).
+- **zrcadlení (mirroring)** – stejná data na 2 discích.
 
-Slouží jen jako **záloha proti fyzickému výpadku disku** , nikoliv proti náhodnému smazání dat. _Výhoda_ : při selhání jednoho z disků jsou veškerá data uložena na tom druhém
-
-_Nevýhoda_ : nákladnost pořizování pole a nulový nárůst výkonu či kapacity.
+Chrání jen proti **výpadku disku**, ne proti smazání. *Výhoda:* data přežijí selhání jednoho disku. *Nevýhoda:* poloviční kapacita, bez zrychlení zápisu.
 
 <img src="/images/content/it/uvod-do-vypocetni-techniky/pevne-disky-hdd-a-ssd/06.webp" alt="Schéma RAID 1" width="114" loading="lazy" decoding="async">
 
 #### RAID 5
 
-- (minimálně 3 disky – identické), použití v data centrech. První dva disky jsou propojeny a data jsou prokládány mezi disky, třetí disk obsahuje samoopravovací kód.
+- min. **3 disky**; data prokládaná + **parita** rozložená po všech discích; datová centra.
 
-_Výhoda_ : dvojnásobná rychlost čtení, při výpadku jednoho z disků a jeho výměně, se data automaticky na něj nahrají
-
-_Nevýhoda_ : nižší rychlost zápisu, redukovaná kapacita disků na 2/3.
+*Výhoda:* rychlé čtení, přežije výpadek **1 disku**, po výměně se dopočítá. *Nevýhoda:* pomalejší zápis, kapacita $(n-1)$ disků.
 
 <img src="/images/content/it/uvod-do-vypocetni-techniky/pevne-disky-hdd-a-ssd/07.webp" alt="Schéma RAID 5" width="231" loading="lazy" decoding="async">
 
 #### RAID 6
 
-- (minimálně 4 disky – identické) – obdoba RAID 5,  liší se však výpočtem samoopravných kódů. Skládá se minimálně ze čtyř disků. Na dvou discích se zapisují data a na dalších dvou jsou uloženy samoopravné kódy, přičemž každý se vypočítává jiným způsobem. Díky tomu je pole RAID 6 odolné proti selhání dvou disků najednou. Existuje také možnost, že by byly paritní informace rozloženy na všech čtyřech discích, ale tato konfigurace se příliš často nepoužívá.
+- min. **4 disky**; jako RAID 5, ale **dvojí parita** (počítaná dvěma způsoby).
 
-_Výhoda_ : odolnost proti selhání 2 disků ze 4, nejvíce vyplatí použít s pěti disky a více
-
-_Nevýhoda_ : pomalejší zápis, horší poměr ceny a kapacity
+*Výhoda:* přežije výpadek **2 disků**; vyplatí se od 5 disků. *Nevýhoda:* pomalejší zápis, kapacita $(n-2)$ disků.
 
 <img src="/images/content/it/uvod-do-vypocetni-techniky/pevne-disky-hdd-a-ssd/08.webp" alt="Schéma RAID 6" width="289" loading="lazy" decoding="async">
 
 ### Víceúrovňová pole
 
-RAID 10  a 01
+RAID 10 (zrcadla prokládaná) a 01 (prokládání zrcadlené)
 
 <img src="/images/content/it/uvod-do-vypocetni-techniky/pevne-disky-hdd-a-ssd/09.webp" alt="Schémata RAID 0+1 a RAID 1+0" width="402" loading="lazy" decoding="async">
 
@@ -380,50 +262,18 @@ RAID 60
 
 #### Méně užívaná RAID pole
 
-RAID 2, RAID 3, RAID 4, RAID 7
+RAID 2, 3, 4, 7
 
-Pro domácnosti je nejlepší možnost využívat dvě malé RAID pole, přičemž jedno je aktivně využíváno a další data jsou uložena na externím disku, který není trvale připojen k počítači a je chráněný před smazáním.
+Doma: RAID 1 pro provoz + externí disk se zálohou, který není trvale připojen.
 
-### Úkol:
+### Úkol
 
-Jak se nastavují RAID 0,1 prakticky?
+Jak se nastavují RAID 0 a 1 prakticky? ||v BIOSu/UEFI řadiče (režim RAID), ve Windows *Správa disků* (zrcadlený / prokládaný svazek, Prostory úložiště), v Linuxu `mdadm`||
 
 ## Čištění disků (Windows) a registrů Windows
 
-||Linux Mint|MS Windows|
-|---|---|---|
-|Čištění disku|- na vůli uživatele,<br>- sudo apt-get autoremove<br>- sudo du -sh /var/cache/apt<br>- sudo apt-get autoclean<br>- sudo apt-get clean<br>- du -sh ~/.cache/thumbnails<br>- rm -rf ~/.cache/thumbnails/*<br>- sudo apt-get install gtkorphan<br>nebo<br>- sudo apt-get install Deborphan|Vyčištění disku (program<br>Windows)<br>Wise Disk Cleaner (WDC), CC<br>Cleaner (externí prog.)|
-|Defragmentace<br>disku|- do 80% kapacity nevzniká|Optimalizovat a defragmetovat<br>jednotku|
-||-|Defraggler / WDC /|
-|Čištění registrů|- konfigurační soubory|Vlastní program Windows**NEMÁ**<br>Wise registry cleaner (WRC)  / CC<br>Cleaner /|
-
-## Citace
-
-<u>http://www.servispckupka.cz/jak-opravit-bootloader-mbr-gpt-windows.php http://www.servispckupka.cz/jak_prevest_GPT_disk_na_MBR_disk.php</u>
-
-Wikipedie: Otevřená encyklopedie: Diskový oddíl [online]. c2019 [citováno 9. 12. 2020]. Dostupný z WWW: <https://cs.wikipedia.org/w/index.php? <u>title=Diskov%C3%BD_odd%C3%ADl&oldid=17226549></u>
-
-Wikipedie: Otevřená encyklopedie: Logical Volume Management [online]. c2020 [citováno 9. 12. 2020]. Dostupný z WWW: https://cs.wikipedia.org/w/index.php? <u>title=Logical_Volume_Management&oldid=18130056</u>
-
-Wikipedie: Otevřená encyklopedie: RAID [online]. c2020 [citováno 9. 12. 2020]. Dostupný z WWW: <https://cs.wikipedia.org/w/index.php?title=RAID&oldid=18931503>
-
-<u>https://www.wisecleaner.com/wise-disk-cleaner.html</u>
-
-<u>https://www.wisecleaner.com/wise-registry-cleaner.html</u>
-
-<u>https://www.ccleaner.com/defraggler</u>
-
-<u>https://www.ccleaner.com/ccleaner</u>
-
-Wikipedie: Otevřená encyklopedie: GUID Partition Table [online]. c2018 [citováno 15. 12. 2020]. Dostupný z WWW: <https://cs.wikipedia.org/w/index.php? <u>title=GUID_Partition_Table&oldid=16355493></u>
-
-Wikipedie: Otevřená encyklopedie: Master boot record [online]. c2020 [citováno 15. 12. 2020]. Dostupný z WWW: <https://cs.wikipedia.org/w/index.php? <u>title=Master_boot_record&oldid=18617705></u>
-
-<u>https://www.datahelp.cz/clanky/co-to-vlastne-je-raid-a-jake-je-jeho-uziti</u>
-
-<u>https://www.alza.cz/raid-diskova-pole</u>
-
-<u>https://cs.wikipedia.org/wiki/RAID</u>
-
-<u>https://blog.desdelinux.net/cs/como-recuperar-espacio-en-disco-en-linux/</u>
-
+| | Linux Mint | MS Windows |
+| --- | --- | --- |
+| čištění disku | `sudo apt autoremove`, `sudo apt autoclean`, `sudo apt clean`, `rm -rf ~/.cache/thumbnails/*`; nástroje gtkorphan, deborphan | Vyčištění disku (Windows); Wise Disk Cleaner, CCleaner |
+| defragmentace | do ~80 % zaplnění nevzniká | Optimalizovat a defragmentovat jednotku; Defraggler |
+| čištění registrů | registry nejsou (konfigurační soubory) | Windows vlastní nástroj **nemá**; Wise Registry Cleaner, CCleaner |
