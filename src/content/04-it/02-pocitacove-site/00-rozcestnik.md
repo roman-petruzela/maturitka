@@ -17,7 +17,7 @@ Rozcestník kategorie: o čem předmět je, kdy se podle ŠVP učí, co si z ně
 | Ročník | Hodin týdně | Obsah (ŠVP §4.9.4) |
 | --- | --- | --- |
 | 2. | 1 | Booleova algebra; základní pojmy: útlum, šířka pásma, sériový a paralelní přenos, zabezpečovací kódy, komprese, modulace, multiplex, přepojování okruhů a paketů |
-| 3. | 1 (33 h za rok) | členění sítí, ISO/OSI a TCP/IP, technické vybavení LAN, TCP/IP a adresování, diagnostika, bezpečnost – podrobně v [tematickém plánu](/it/pocitacove-site/00-tematicky-plan/) |
+| 3. | 1 (33 h za rok) | členění sítí, ISO/OSI a TCP/IP, technické vybavení LAN, TCP/IP a adresování, diagnostika, bezpečnost |
 | 4. | 2 | bezdrátové technologie, připojení počítače k síti a síťové služby, návrh a realizace jednoduché sítě se serverem, opakování |
 
 Plné znění výstupů je v [přehledu ŠVP](/it/reference/svp-prehled/#494-počítačové-sítě). Síťové služby 4. ročníku (DHCP, DNS, sdílení, SSH, server) prakticky rozebírá kategorie [operační systémy](/it/#operacni-systemy).
@@ -138,7 +138,7 @@ Otázky tří písemek k maturitním okruhům (body v závorce). U každé otáz
 7. Co všechno je potřeba na počítačové síti zabezpečit? (8 b) – [bezpečnost sítě](/it/pocitacove-site/20-bezpecnost-sprava-a-diagnostika-site/)
 8. Jaký je rozdíl mezi daty a informacemi? (2 b) – [informace a data](/it/pocitacove-site/05-informace-signaly-a-prenosovy-kanal/#informace-a-data)
 9. Nakreslete a popište analogový a digitální signál. (4 b) – [signál](/it/pocitacove-site/05-informace-signaly-a-prenosovy-kanal/#signál)
-10. Popište nebo zakreslete paralelní a sériový přenos dat. (4 b) – [způsoby přenosu](/it/pocitacove-site/05-informace-signaly-a-prenosovy-kanal/#způsoby-přenosu)
+10. Popište nebo zakreslete paralelní a sériový přenos dat. (4 b) – [způsoby přenosu](/it/pocitacove-site/05-informace-signaly-a-prenosovy-kanal/#sériový-a-paralelní-přenos)
 11. Jaké druhy multiplexingu znáte? (3 b) – [multiplex](/it/pocitacove-site/05-informace-signaly-a-prenosovy-kanal/#multiplex)
 12. Zakreslete frekvenční multiplex. (2 b) – [multiplex](/it/pocitacove-site/05-informace-signaly-a-prenosovy-kanal/#multiplex)
 13. Zakreslete všechny typy modulace. (4 b) – [modulace](/it/pocitacove-site/05-informace-signaly-a-prenosovy-kanal/#modulace)

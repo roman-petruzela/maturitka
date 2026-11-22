@@ -81,16 +81,7 @@ $$Y = \overline{A} B C + A \overline{B} C + A B \overline{C} + A B C$$
 
 $$Y = A B + A \overline{B} = A (B + \overline{B}) = A \cdot 1 = A$$
 
-**Příklad 3.**
-
-$$Y = \overline{A} B C + A B C + A B \overline{C}$$
-
-1. Z prvních dvou členů vytkneme $B C$: $B C (\overline{A} + A) = B C$.
-2. Zbude $Y = B C + A B \overline{C} = B (C + A \overline{C})$.
-3. Podle absorpce negace je $C + \overline{C} A = C + A$.
-4. Výsledek: $Y = B (C + A) = A B + B C$.
-
-**Příklad 4 – minimalizace funkce „většina“.** Člen $A B C$ přičteme ještě dvakrát (idempotence $A B C + A B C = A B C$ výraz nezmění) a sdružíme ho s každým z ostatních:
+**Příklad 3 – minimalizace funkce „většina“.** Člen $A B C$ přičteme ještě dvakrát (idempotence $A B C + A B C = A B C$ výraz nezmění) a sdružíme ho s každým z ostatních:
 
 $$Y = (\overline{A} B C + A B C) + (A \overline{B} C + A B C) + (A B \overline{C} + A B C)$$
 
@@ -99,10 +90,6 @@ Z každé závorky vytkneme společnou dvojici a použijeme $X + \overline{X} = 
 $$Y = B C + A C + A B$$
 
 Místo čtyř trojvstupových součinů stačí tři dvouvstupové.
-
-**Příklad 5 – De Morgan.**
-
-$$Y = \overline{\overline{A} + B} = \overline{\overline{A}} \cdot \overline{B} = A \overline{B}$$
 
 ## Realizace pomocí členů NAND
 
@@ -127,17 +114,13 @@ $$A + B = \overline{\overline{A} \cdot \overline{B}}$$
 3. Spodní negaci rozložíme **De Morganovým zákonem** – součet se změní na součin negací.
 4. Každý negovaný součin je jeden člen NAND.
 
-**Příklad 6 – funkce „většina“ z členů NAND.**
+**Příklad 4 – funkce „většina“ z členů NAND.**
 
 $$Y = A B + A C + B C = \overline{\overline{A B + A C + B C}} = \overline{\overline{A B} \cdot \overline{A C} \cdot \overline{B C}}$$
 
 Schéma tedy tvoří **tři dvouvstupové členy NAND** se vstupy (A, B), (A, C) a (B, C), jejichž výstupy vedou do **jednoho třívstupového členu NAND**, na jehož výstupu je Y. Obvod potřebuje jen jeden typ členu.
 
-**Příklad 7.** Funkci $Y = A + \overline{B} C$ převedeme na NAND:
 
-$$Y = \overline{\overline{A + \overline{B} C}} = \overline{\overline{A} \cdot \overline{\overline{B} C}}$$
-
-Potřebujeme: invertor (NAND se spojenými vstupy) pro $\overline{A}$, invertor pro $\overline{B}$, dvouvstupový NAND se vstupy $\overline{B}$ a C a výstupní dvouvstupový NAND se vstupy $\overline{A}$ a $\overline{\overline{B} C}$ – celkem čtyři členy NAND.
 
 ## Otázky k opakování
 
