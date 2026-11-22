@@ -31,60 +31,57 @@ order: 2
 | **Code injection** | škodlivý kód ve vstupu aplikace, který je zpracován jako součást příkazu (**SQL injection**) | `' OR '1'='1` v přihlašovacím formuláři obejde heslo |
 | **Supply chain** | napadení méně chráněného **dodavatele**, součástky nebo aktualizace | škodlivý kód v aktualizaci softwaru – **SolarWinds** (2020) |
 | **Insider threats** | riziko od osoby s legitimním přístupem (zaměstnanec, dodavatel); úmyslné i neúmyslné | krádež dat, sabotáž, chyba |
-| **DNS tunelling** | zneužití DNS: do dotazů a odpovědí se **ukrývají jiná data** (příkazy, unikající data); DNS bývá méně kontrolován | únik dat přes DNS |
+| **DNS tunneling** | zneužití DNS: do dotazů a odpovědí se **ukrývají jiná data** (příkazy, unikající data); DNS bývá méně kontrolován – podrobně v [bezpečnosti DNS](/it/pocitacove-site/17-dns-system-domenovych-jmen/#dns-tunneling) | únik dat přes DNS |
 | **IoT útoky** | slabá nebo výchozí hesla, chybějící aktualizace chytrých zařízení; botnety | botnet **Mirai** – masivní DDoS z IoT zařízení |
 | **Sociální inženýrství** | manipulace člověka (autorita, časový tlak, důvěra, strach), aby prozradil informace nebo obešel opatření | „pracovník IT podpory“ po telefonu vyláká heslo |
 
+### Analýza malwaru
+
+**Analýza malwaru** zjišťuje, **co vzorek dělá**, jak se šíří, s kým komunikuje a jak ho odstranit nebo detekovat. Provádí se vždy v **izolovaném prostředí** (virtuální stroj bez přístupu do produkční sítě, snapshot).
+
+| | **Statická analýza** | **Dynamická analýza** |
+| --- | --- | --- |
+| princip | vzorek se **nespouští**, zkoumá se soubor | vzorek se **spustí** v izolovaném prostředí (**sandbox**) a pozoruje se chování |
+| co se zjišťuje | **hash** (porovnání s databází, např. VirusTotal), **řetězce** (URL, IP adresy), importované funkce, metadata, **zabalení** (packer); hlubší: **disassembler / dekompilace** (reverzní inženýrství) | změny **souborů a registrů**, nové **procesy**, **síťová komunikace** (C2, DNS dotazy), vytvoření perzistence |
+| výhody | bezpečná, odhalí **všechny větve** kódu | rychlá, vidí skutečné chování i u **zašifrovaného / zabaleného** kódu |
+| nevýhody | pracná; **obfuskace** a packery ji ztěžují | malware může **poznat sandbox** a nespustit se; vidí jen provedenou větev |
+| nástroje | VirusTotal, `strings`, PE prohlížeče, Ghidra, IDA | Cuckoo / ANY.RUN sandbox, Process Monitor, Wireshark |
+
+V praxi se oba přístupy **kombinují**: rychlý statický průzkum (hash, řetězce) → dynamické spuštění → podrobný rozbor kódu. Výstupem jsou **IOC** (indicators of compromise – hashe, domény, IP adresy), podle kterých se hrozba hledá v dalších systémech. Přehled druhů malwaru: [malware](/it/operacni-systemy/26-malware/), ochrana: [antivirové programy](/it/operacni-systemy/25-antivirove-programy/).
+
 ### Praktická ukázka: SQL injection na přihlašovacím formuláři
 
-- SQL injection přímo navazuje na to, co se probírá v Databázích a ve Webovém programování – jde o situaci, kdy PHP skript vloží hodnotu z formuláře přímo do textu SQL dotazu (spojováním řetězců), místo aby ji předal databázi bezpečně odděleně od kódu dotazu
-- Zranitelný přihlašovací skript – hodnoty z `$_POST` se bez jakéhokoli ošetření vkládají do dotazu:
+Zranitelný skript vkládá vstup z formuláře **přímo do textu SQL dotazu**:
 
 ```php
-<?php
-// login.php – ZRANITELNÁ verze, NEPOUŽÍVAT!
-$jmeno = $_POST['jmeno'];
-$heslo = $_POST['heslo'];
-
 $query = "SELECT * FROM uzivatele WHERE jmeno='" . $jmeno . "' AND heslo='" . $heslo . "'";
-$vysledek = mysqli_query($spojeni, $query);
-
-if (mysqli_num_rows($vysledek) > 0) {
-    echo "Přihlášení úspěšné!";
-} else {
-    echo "Špatné jméno nebo heslo.";
-}
-?>
 ```
 
-- Útočník do pole „jmeno“ nezadá jméno, ale řetězec `' OR '1'='1' -- ` (heslo může nechat prázdné). Po dosazení do řetězce vznikne dotaz:
+Útočník do pole jména zadá `' OR '1'='1' -- `. Vznikne dotaz:
 
 ```sql
 SELECT * FROM uzivatele WHERE jmeno='' OR '1'='1' -- ' AND heslo=''
 ```
 
-- Dvě pomlčky `--` v SQL zahajují komentář, takže zbytek řádku (kontrola hesla) se vůbec nevyhodnotí; podmínka `'1'='1'` je vždy pravdivá, takže dotaz vrátí všechny řádky tabulky `uzivatele` a `mysqli_num_rows()` bude větší než 0 – skript vyhodnotí přihlášení jako úspěšné, aniž by útočník znal jakékoli skutečné heslo
-- Oprava – použití prepared statements (parametrizovaných dotazů), kde se hodnoty předávají odděleně od textu dotazu jako parametry, takže je databázový ovladač nikdy nevyhodnotí jako součást SQL syntaxe:
+`--` začíná komentář, takže se **kontrola hesla vůbec nevyhodnotí**; podmínka `'1'='1'` platí vždy, dotaz vrátí všechny uživatele a přihlášení „uspěje“ bez znalosti hesla.
+
+**Oprava – parametrizovaný dotaz (prepared statement):** hodnoty se databázi předají **odděleně od textu dotazu**, takže se nikdy nevyhodnotí jako SQL:
 
 ```php
-<?php
-// login.php – opravená verze pomocí prepared statements
-$jmeno = $_POST['jmeno'];
-$heslo = $_POST['heslo'];
-
-$stmt = mysqli_prepare($spojeni, "SELECT * FROM uzivatele WHERE jmeno = ? AND heslo = ?");
-mysqli_stmt_bind_param($stmt, "ss", $jmeno, $heslo);
-mysqli_stmt_execute($stmt);
-$vysledek = mysqli_stmt_get_result($stmt);
-
-if (mysqli_num_rows($vysledek) > 0) {
-    echo "Přihlášení úspěšné!";
-} else {
-    echo "Špatné jméno nebo heslo.";
-}
-?>
+$stmt = mysqli_prepare($spojeni, "SELECT * FROM uzivatele WHERE jmeno = ? AND heslo_hash = ?");
+mysqli_stmt_bind_param($stmt, "ss", $jmeno, $hash);
 ```
 
-- Otazníky `?` jsou zástupné znaky (placeholders), `mysqli_stmt_bind_param()` k nim až poté přiřadí konkrétní hodnoty jako čistá data – i kdyby uživatel zadal `' OR '1'='1' -- `, databáze by tento text hledala doslovně jako hodnotu sloupce `jmeno`, ne jako součást dotazu, a přihlášení by správně selhalo
-- Skutečná ochrana hesla jde ještě dál – správně navržená aplikace vůbec neporovnává heslo v SQL dotazu (`WHERE heslo = ?`), protože v databázi by neměla být čitelná hesla vůbec uložena (viz hashování hesel níže)
-- Přesně tento typ útoku (a řadu dalších – XSS, obcházení autorizace, hledání zranitelných verzí softwaru) je možné bezpečně a legálně zkoušet na platformě **TryHackMe** – webu s cvičnými „pokojíčky“ (rooms), kde uživatel dostane přístup k izolovanému cvičnému stroji, postupuje podle kroků s nápovědami a cílem bývá najít tzv. *flag* (vlajku, potvrzující řetězec), který dokazuje, že se útok podařilo provést; díky izolovanému prostředí se tak dá bezpečně vyzkoušet, jak zranitelnost skutečně vypadá a jak se projeví, aniž by šlo o útok na reálný, cizí a neautorizovaný systém
+Heslo se navíc v dotazu nikdy neporovnává čitelně, ukládá se jako **hash se solí** ([hashování hesel](/it/kyberneticka-bezpecnost/04-sprava-identit-a-rizeni-uctu/#hashování-hesel)).
+
+## Otázky k opakování
+
+1. Popište fáze kybernetického útoku (Cyber Kill Chain). ||průzkum, příprava zbraně, doručení, průnik (exploitace), instalace, řízení a kontrola (C2), naplnění cíle||
+2. Které cíle mohou kybernetické útoky mít? ||narušit důvěrnost (únik), integritu (změna), dostupnost (znepřístupnění)||
+3. Jaký je rozdíl mezi virem, červem a trojským koněm? ||virus se připojí k souboru, červ se šíří sítí sám, trojan se tváří jako užitečný program||
+4. Jak se liší DoS a DDoS? ||DoS jde z jednoho zdroje, DDoS z mnoha zařízení (botnet); oba přetěžují službu||
+5. Co je phishing a co spoofing? ||phishing: podvodná zpráva lákající údaje; spoofing: falšování identity odesílatele (IP, e-mail, DNS)||
+6. Co je sociální inženýrství? Uveďte příklad. ||manipulace člověka, aby prozradil informace nebo obešel opatření; „pracovník IT“ vyláká heslo||
+7. Jak funguje SQL injection a jak se brání? ||vstup změní význam dotazu (`' OR '1'='1`); parametrizované dotazy||
+8. Čím se liší statická a dynamická analýza malwaru? ||statická zkoumá soubor bez spuštění (hash, řetězce, disassembler); dynamická ho spustí v sandboxu a sleduje chování||
+9. Co je DNS tunneling? ||skrytý přenos dat nebo příkazů v DNS dotazech a odpovědích||

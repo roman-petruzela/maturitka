@@ -67,6 +67,18 @@ Záznam = **jméno**, **typ**, **TTL** (doba v cache) a **data**.
 - **DNSSEC** – digitálně podepsané záznamy, rezolver ověří pravost.
 - Šifrování dotazů: **DoH** (přes HTTPS), **DoT** (přes TLS).
 
+### DNS tunneling
+
+**DNS tunneling** je **skrytý přenos dat v DNS dotazech a odpovědích**. DNS se obvykle propouští firewallem a málo kontroluje, proto se hodí k **úniku dat** i k **řízení malwaru (C2)**.
+
+1. Útočník vlastní doménu `utok.example` a její **autoritativní** DNS server.
+2. Malware zakóduje data (např. Base64) do **jména**: dotaz na `dGFqbmUtZGF0YQ.utok.example`.
+3. Dotaz projde **rekurzivním resolverem** až k serveru útočníka, který data z jména přečte.
+4. Odpověď (záznam `TXT`, `CNAME`) nese **zpět příkazy** pro malware.
+
+- **Příznaky:** neobvykle **dlouhá a náhodně vypadající jména**, **velký počet dotazů** na jednu doménu, časté záznamy `TXT` a `NULL`.
+- **Obrana:** sledování a analýza DNS provozu, omezení dotazů jen na vlastní rezolver, filtrování podezřelých domén a velikosti dotazů.
+
 ## Otázky k opakování
 
 1. K čemu slouží DNS a na kterém portu běží? ||převádí doménová jména na IP adresy a naopak; port 53, UDP (dotazy) i TCP (přenos zón)||
@@ -77,3 +89,4 @@ Záznam = **jméno**, **typ**, **TTL** (doba v cache) a **data**.
 6. K čemu jsou záznamy A, AAAA, MX, CNAME a PTR? ||IPv4 adresa, IPv6 adresa, poštovní server, alias, reverzní překlad||
 7. Co určuje TTL záznamu? ||jak dlouho smí být záznam uložen v cache||
 8. Kdo spravuje doménu `.cz`? ||CZ.NIC||
+9. Co je DNS tunneling a podle čeho se pozná? ||skrytý přenos dat v jménech DNS dotazů a odpovědích (únik dat, C2); dlouhá náhodná jména a mnoho dotazů na jednu doménu||

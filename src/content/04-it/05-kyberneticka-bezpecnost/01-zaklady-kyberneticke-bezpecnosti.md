@@ -88,3 +88,13 @@ Doplňují se **autenticita** (ověřený původ dat) a **nepopiratelnost** (ode
 - **fyzická bezpečnost** – zamykání, nenechávat odemčenou stanici, kontrola cizích osob,
 - opatrnost s **USB** neznámého původu,
 - **školení** uživatelů jako průběžný proces.
+
+## Otázky k opakování
+
+1. Co je kyberprostor a jak se člení? ||digitální prostředí propojených systémů; vrstvy fyzická, logická, sociální||
+2. Co je triáda CIA a jak se narušuje? ||důvěrnost (únik, odposlech), integrita (změna dat), dostupnost (výpadek, DDoS)||
+3. Jaký je rozdíl mezi hrozbou, zranitelností a rizikem? ||hrozba je možná příčina škody, zranitelnost slabina systému, riziko je pravděpodobnost × dopad||
+4. Čím se liší pasivní a aktivní hrozby? ||pasivní data jen sledují (odposlech, narušují důvěrnost), aktivní je mění nebo vyřazují (integrita, dostupnost)||
+5. Jaké jsou motivy útočníků? ||finanční zisk, špionáž, hacktivismus, sabotáž a kybernetická válka, osobní důvody||
+6. Co je digitální stopa a jaké má druhy? ||informace zanechané online aktivitou; aktivní (zveřejněná vědomě) a pasivní (sbíraná automaticky)||
+7. Jak chránit koncový bod? ||aktualizace, antivirus, firewall, šifrování disku, zálohy, řízení práv, školení uživatelů||

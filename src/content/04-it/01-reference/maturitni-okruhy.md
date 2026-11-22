@@ -8,7 +8,7 @@ Oficiální seznam 20 maturitních okruhů z odborných předmětů informační
 
 Okruhy pokrývají jen část oboru — sítě, hardware, operační systémy a kybernetickou bezpečnost. **Programování, databáze, webové programování, elektronické publikování, 3D modelování, robotika a písemná/elektronická komunikace se u ústní zkoušky nezkouší** (jsou součástí praktické zkoušky a maturitní práce) — jejich obsah na webu zůstává v původních kategoriích, viz [Přehled IT podle ŠVP](/it/reference/prehled-podle-svp/).
 
-U každého bodu je odkaz na materiál, který ho na webu nejlépe pokrývá. „Zatím bez podkladů" znamená, že se pro danou dílčí položku nepodařilo najít odpovídající materiál v archivu.
+U každého bodu je odkaz na materiál, který ho na webu nejlépe pokrývá.
 
 ## 1) Počítačová síť
 
@@ -124,25 +124,25 @@ U každého bodu je odkaz na materiál, který ho na webu nejlépe pokrývá. �
 - [fáze kybernetického útoku (Cyber Kill Chain)](/it/kyberneticka-bezpecnost/02-kyberneticke-utoky/)
 - [sociální inženýrství, phishing a spoofing](/it/kyberneticka-bezpecnost/02-kyberneticke-utoky/#přehled-typů-útoků)
 - [DDoS útoky](/it/kyberneticka-bezpecnost/02-kyberneticke-utoky/#přehled-typů-útoků)
-- analýza malwaru (statická, dynamická) — zatím bez podkladů
+- [analýza malwaru (statická, dynamická)](/it/kyberneticka-bezpecnost/02-kyberneticke-utoky/#analýza-malwaru)
 
 ## 18) Základy kryptografie a šifrování
 
 - [základy šifrování — historické šifry](/it/kyberneticka-bezpecnost/03-kryptografie-a-sifrovani/#historické-šifry), [symetrické a asymetrické šifrování](/it/kyberneticka-bezpecnost/03-kryptografie-a-sifrovani/#symetrické-a-asymetrické-šifrování)
 - [RSA šifrování](/it/kyberneticka-bezpecnost/03-kryptografie-a-sifrovani/#symetrické-a-asymetrické-šifrování)
-- Diffie-Hellmanova výměna klíčů — zatím bez podkladů
+- [Diffie-Hellmanova výměna klíčů](/it/kyberneticka-bezpecnost/03-kryptografie-a-sifrovani/#diffie-hellmanova-výměna-klíčů)
 - [hashovací funkce](/it/kyberneticka-bezpecnost/03-kryptografie-a-sifrovani/#hashovací-funkce)
 
 ## 19) Správa identit a řízení účtů
 
 - [princip IAAA](/it/kyberneticka-bezpecnost/04-sprava-identit-a-rizeni-uctu/#princip-iaaa), [least privilege](/it/kyberneticka-bezpecnost/04-sprava-identit-a-rizeni-uctu/#princip-nejmenších-oprávnění-least-privilege)
-- základní techniky napadení hesel — zatím bez podkladů
+- [základní techniky napadení hesel](/it/kyberneticka-bezpecnost/04-sprava-identit-a-rizeni-uctu/#techniky-napadení-hesel)
 - [práva a oprávnění ve Windows a Linuxu](/it/kyberneticka-bezpecnost/04-sprava-identit-a-rizeni-uctu/#práva-a-oprávnění-ve-windows-a-linuxu), podrobně [uživatelská práva](/it/operacni-systemy/13-uzivatelska-prava-a-opravneni/)
 - [síťové protokoly pro vzdálený přístup — TELNET, SSH, RDP](/it/operacni-systemy/53-vzdaleny-pristup-telnet-ssh-rdp/), podrobně [SSH](/it/operacni-systemy/50-ssh-vzdaleny-pristup-a-autentizace-klicem/)
 
 ## 20) Zranitelnost webových aplikací
 
 - [10 nejnebezpečnějších zranitelností podle OWASP](/it/kyberneticka-bezpecnost/05-zabezpeceni-siti-a-aplikaci/#owasp-top-10)
-- DNS — [hierarchie, požadavky](/it/pocitacove-site/17-dns-system-domenovych-jmen/), DNS tunneling — zatím bez podkladů
+- DNS — [hierarchie, požadavky](/it/pocitacove-site/17-dns-system-domenovych-jmen/), [DNS tunneling](/it/pocitacove-site/17-dns-system-domenovych-jmen/#dns-tunneling)
 - [protokol HTTP — metody, stavové kódy](/it/kyberneticka-bezpecnost/05-zabezpeceni-siti-a-aplikaci/#protokol-http)
 - [SQL injection a Cross-site scripting (reflected/stored/blind XSS)](/it/kyberneticka-bezpecnost/05-zabezpeceni-siti-a-aplikaci/#zabezpečení-webových-a-aplikačních-útoků), [SQL injection v praxi](/it/kyberneticka-bezpecnost/02-kyberneticke-utoky/#praktická-ukázka-sql-injection-na-přihlašovacím-formuláři)

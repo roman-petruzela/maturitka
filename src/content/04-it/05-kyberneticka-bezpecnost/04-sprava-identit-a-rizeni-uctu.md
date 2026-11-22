@@ -14,7 +14,7 @@ order: 4
 | **Autorizace** (Authorization) | Co smíš dělat? | oprávnění číst složku, právo instalovat programy |
 | **Účtování / audit** (Accounting) | Co jsi udělal? | záznam přihlášení, změn souborů a použitých práv v logu |
 
-Accounting umožňuje zpětně zjistit, kdo a kdy co provedl (dohledání incidentu, kontrola zneužití práv); ve Windows ho zajišťuje **auditování** zapnuté zásadami skupiny a zapisované do **Prohlížeče událostí** (protokol Zabezpečení), v Linuxu logy v `/var/log` (např. `auth.log`) a `journalctl`. Centrálně pro síťová zařízení a VPN zajišťují AAA protokoly **RADIUS** a TACACS+.
+**Accounting** umožňuje zpětně zjistit, kdo a kdy co provedl: ve Windows **auditování** a Prohlížeč událostí, v Linuxu logy v `/var/log`; centrálně pro síťová zařízení protokoly **RADIUS** a TACACS+.
 
 ## Autentizace, autorizace, identifikace
 
@@ -33,53 +33,53 @@ Accounting umožňuje zpětně zjistit, kdo a kdy co provedl (dohledání incide
 - **Hash** – jednosměrná funkce, pevně dlouhý řetězec; z hashe heslo nejde spočítat, jen **hádat** a porovnávat hash.
 - **Solení (salt)** – k heslu se před hashováním přidá **náhodný řetězec** (jiný pro každého uživatele): dva stejná hesla mají různý hash a nefungují předpočítané tabulky (**rainbow tables**).
 
-```php
-// registrace – uložení nového hesla
-$heslo = $_POST['heslo'];
-$hash = password_hash($heslo, PASSWORD_DEFAULT);   // funkce si sůl vygeneruje a přidá sama
-$stmt = mysqli_prepare($spojeni, "INSERT INTO uzivatele (jmeno, heslo_hash) VALUES (?, ?)");
-mysqli_stmt_bind_param($stmt, "ss", $jmeno, $hash);
-mysqli_stmt_execute($stmt);
+V PHP: `password_hash($heslo, PASSWORD_DEFAULT)` (bcrypt, sůl přidá sama) a při přihlášení `password_verify($zadane, $hash)`; heslo se nikdy nedešifruje, porovnává se jen hash.
 
-// přihlášení – ověření zadaného hesla proti uloženému hashi
-$zadaneHeslo = $_POST['heslo'];
-$radek = mysqli_fetch_assoc(mysqli_query($spojeni, "SELECT heslo_hash FROM uzivatele WHERE jmeno = '$jmeno'"));
+## Techniky napadení hesel
 
-if (password_verify($zadaneHeslo, $radek['heslo_hash'])) {
-    echo "Přihlášení úspěšné.";
-} else {
-    echo "Špatné heslo.";
-}
-```
-- `password_hash()` v PHP použije moderní hashovací algoritmus (bcrypt) a sůl přidá automaticky; `password_verify()` porovná zadané heslo s uloženým hashem, aniž by bylo kdy potřeba heslo dešifrovat zpátky – ověřuje se tím, že hash nově zadaného hesla vychází stejně jako ten uložený
+Útočník hesla **hádá** nebo **získává**. Dělí se na útoky **online** (zkouší se přihlašovací formulář, omezí je zamykání účtu) a **offline** (útočník má ukradené **hashe** a zkouší je bez omezení rychlostí hardwaru).
+
+| Technika | Princip | Obrana |
+| --- | --- | --- |
+| **Brute force** (hrubá síla) | zkouší **všechny kombinace** znaků | dlouhé heslo, zamykání po neúspěšných pokusech |
+| **Slovníkový útok** | zkouší běžná hesla a slova ze **slovníku** (`123456`, `heslo`, upravená slova) | nepoužívat běžná slova, kontrola proti seznamům uniklých hesel |
+| **Credential stuffing** | **uniklé** přihlašovací údaje z jedné služby se zkouší na dalších | **unikátní heslo** pro každou službu, MFA |
+| **Password spraying** | **jedno** běžné heslo se zkouší na **mnoho účtů** (nespustí zamykání jednoho účtu) | MFA, sledování neúspěšných přihlášení |
+| **Rainbow tables** | **předpočítané** tabulky hash → heslo | **solení** hesel |
+| **Phishing, keylogger** | heslo se **vylákáním** nebo odposlechem získá přímo | školení, MFA, antivir |
+| **Odposlech, MITM** | heslo zachycené v síti | šifrovaný přenos (HTTPS, SSH) |
+
+- Odolnost hesla roste hlavně s **délkou** (dlouhá fráze předčí krátké složité heslo).
+- Hash se hádá rychle, pokud je algoritmus **rychlý** (MD5, SHA-1); proto **pomalé hashe se solí** (bcrypt, Argon2, viz [hashování hesel](#hashování-hesel)).
+- Nejúčinnější obrana: **MFA**, správce hesel a unikátní hesla.
 
 ## Správa identit a řízení účtů
 
-- Digitální identita – soubor údajů a atributů, které v digitálním prostředí jednoznačně reprezentují osobu nebo zařízení (uživatelský účet, certifikát, přihlašovací údaje)
-- Zásady správy a ochrany digitální identity
-	- Používání unikátních a silných hesel pro každou službu, ideálně ve správci hesel
-	- Zapnutí vícefaktorového ověření všude, kde je dostupné
-	- Pravidelná kontrola aktivních relací a propojených aplikací
-	- Princip minimálních oprávnění – účet by měl mít jen práva nezbytná pro danou činnost
-- Konfigurace lokální autentizace a autorizace na serveru
-	- Vytváření uživatelských účtů a skupin, nastavení hesel a jejich politiky (minimální délka, komplexnost, expirace, historie hesel)
-	- Přiřazení oprávnění k souborům, složkám a službám na základě uživatele nebo skupiny (řízení přístupu)
-	- Nastavení účtů se zvýšenými právy (administrátor/root) odděleně od běžného provozního účtu, aby se omezilo riziko zneužití
-	- Auditní záznamy přihlášení a změn oprávnění pro pozdější kontrolu
+**Digitální identita** = údaje, které v digitálním prostředí jednoznačně reprezentují osobu nebo zařízení (účet, certifikát, přihlašovací údaje).
+
+- **Zásady:** unikátní a silná hesla (správce hesel), MFA všude, kde je dostupné, kontrola aktivních relací, minimální oprávnění.
+- **Správa účtů na serveru:** vytváření účtů a skupin, **politika hesel** (délka, složitost, expirace, historie), práva podle skupin, účet administrátora oddělený od běžného, **audit** přihlášení a změn práv.
 
 ## Princip nejmenších oprávnění (least privilege)
 
-- Každý uživatel, program i služba dostane **jen ta práva, která nezbytně potřebuje** ke své práci, a jen na dobu, po kterou je potřebuje
-- Omezuje dopad chyby i útoku – malware spuštěný běžným uživatelem nemůže změnit systém; ukradený účet účetní nemá přístup k serverům
-- V praxi
-	- správce pracuje běžně pod **obyčejným účtem** a administrátorský používá jen pro správu (ve Windows **UAC** – Řízení uživatelských účtů – vyžádá potvrzení, v Linuxu `sudo` místo trvalého přihlášení jako `root`)
-	- práva se přidělují **skupinám**, ne jednotlivcům (role-based access control, **RBAC** – role „učitel“, „žák“, „účetní“); při změně pozice se uživatel jen přesune do jiné skupiny
-	- služby běží pod vlastními účty s omezenými právy
-	- pravidelná **revize účtů a práv** – zrušení účtů odešlých zaměstnanců, odebrání práv, která už nejsou potřeba
-- Související principy – **oddělení povinností** (separation of duties: jeden člověk nesmí sám schválit i provést citlivou operaci, např. platbu), **need to know** (přístup jen k informacím potřebným pro práci), **Zero Trust** (nikomu se automaticky nedůvěřuje jen proto, že je ve vnitřní síti)
+Každý uživatel, program i služba dostane **jen práva, která nezbytně potřebuje**, a jen na nutnou dobu. Omezí se tím dopad chyby i útoku: malware spuštěný běžným uživatelem nezmění systém.
+
+- Správce pracuje pod **obyčejným účtem**; administrátorská práva si vyžádá (Windows **UAC**, Linux `sudo` místo trvalého `root`).
+- Práva se přidělují **skupinám a rolím** (**RBAC**), ne jednotlivcům.
+- Služby běží pod vlastními účty s omezenými právy; účty a práva se pravidelně **revidují**.
+- Související: **oddělení povinností** (jeden člověk neschválí i neprovede citlivou operaci), **need to know**, **Zero Trust** (nikomu se nedůvěřuje automaticky jen kvůli poloze ve vnitřní síti).
 
 ## Práva a oprávnění ve Windows a Linuxu
 
-- Windows – oprávnění NTFS (čtení, zápis, změna, úplné řízení), skupiny Administrators, Users, Guests; *odepřít* je silnější než *povolit*, oprávnění se dědí – viz [uživatelská práva a oprávnění](/it/operacni-systemy/13-uzivatelska-prava-a-opravneni/)
-- Linux – práva `r`, `w`, `x` pro vlastníka, skupinu a ostatní (`chmod 750 soubor`, `chown uzivatel:skupina soubor`), administrátorem je `root`, dočasná práva přes `sudo`
-- Vzdálený přístup – šifrované protokoly SSH a RDP místo nešifrovaného Telnetu, přihlašování klíčem a vícefaktorové ověření – viz [vzdálený přístup](/it/operacni-systemy/53-vzdaleny-pristup-telnet-ssh-rdp/)
+- **Windows** – oprávnění NTFS (čtení, zápis, změna, úplné řízení), skupiny Administrators, Users; *odepřít* je silnější než *povolit*, oprávnění se dědí – viz [uživatelská práva a oprávnění](/it/operacni-systemy/13-uzivatelska-prava-a-opravneni/).
+- **Linux** – práva `r`, `w`, `x` pro vlastníka, skupinu a ostatní (`chmod 750 soubor`, `chown uzivatel:skupina soubor`); administrátor `root`, dočasná práva přes `sudo`.
+- **Vzdálený přístup** – šifrované **SSH** a **RDP** místo nešifrovaného Telnetu, přihlašování klíčem a MFA – viz [vzdálený přístup](/it/operacni-systemy/53-vzdaleny-pristup-telnet-ssh-rdp/).
+
+## Otázky k opakování
+
+1. Co znamená IAAA? ||identifikace, autentizace, autorizace, účtování (audit)||
+2. Jaké jsou faktory autentizace a co je MFA? ||co znáš, co máš, čím jsi; MFA kombinuje aspoň dva různé||
+3. Proč se hesla ukládají jako hash se solí? ||při úniku databáze nejsou čitelná; sůl brání rainbow tables a různí hash stejných hesel||
+4. Jmenujte základní techniky napadení hesel a obranu. ||brute force, slovníkový útok, credential stuffing, password spraying, rainbow tables; dlouhé unikátní heslo, sůl, MFA||
+5. Co je princip nejmenších oprávnění? ||uživatel, program i služba má jen práva nezbytná pro práci (UAC, sudo, RBAC)||
+6. Jak fungují oprávnění ve Windows a Linuxu? ||Windows: NTFS oprávnění a skupiny; Linux: r, w, x pro vlastníka, skupinu a ostatní||
