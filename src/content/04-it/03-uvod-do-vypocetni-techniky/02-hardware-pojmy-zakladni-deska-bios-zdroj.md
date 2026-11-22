@@ -3,71 +3,60 @@ title: "Hardware pojmy, základní deska, BIOS, zdroj"
 order: 2
 source: "IT/5. Hardware pojmy, základní deska, BIOS, zdroj.docx"
 ---
-- **Hardware** – fyzické vybavení počítače
-- **Software** – programy
-- **Počítač** – stroj na zpracování informací
-- **Informace** – zpráva o věcech nebo událostech
-- **Bit** – základní jednotka informace, 0 nebo 1
-- **Firmware** – program, který je součástí hardwaru
-- **Registr** – velmi rychlá malá paměť uvnitř procesoru
-- **Cache** – L1, L2, L3 v procesoru (i na disku); malý zásobník dat mezi různě rychlými částmi
-- **BIOS** – základní program v ROM, spustí se hned po zapnutí:
-	- a) zprostředkuje komunikaci hardwaru s operačním systémem
-	- b) konfiguruje komponenty PC
+
+## Základní pojmy
+
+| Pojem | Význam |
+| --- | --- |
+| **Hardware** | fyzické vybavení počítače |
+| **Software** | programy |
+| **Firmware** | program uložený přímo v hardwaru (BIOS, firmware disku) |
+| **Bit** | základní jednotka informace, 0 nebo 1 |
+| **Registr** | velmi rychlá malá paměť uvnitř procesoru |
+| **Cache** | rychlá vyrovnávací paměť mezi různě rychlými částmi (L1, L2, L3) |
+| **BIOS** | základní program v ROM, spustí se po zapnutí; zprostředkuje komunikaci hardwaru s OS a konfiguruje komponenty |
 
 ## Základní deska
 
 ![Blokové schéma počítače: procesor přímo spojený s RAM a grafickou kartou, přes DMI s chipsetem, na který jsou napojeny SATA disky, NVMe SSD, sloty PCIe, USB, síť, zvuk a flash s UEFI](/images/content/it/uvod-do-vypocetni-techniky/hardware/architektura.webp)
 
-- Propojuje všechny komponenty – **páteř počítače**
-- Přímo na ní: CMOS, RAM, přídavné karty
-- Kabely: disky, optické mechaniky
-- Desky se liší rychlostí, počtem konektorů, paticí
-- Integrované bývají zvuková a síťová karta
-- **Sběrnice** – vodiče, kterými tečou data mezi komponentami; rychlejší sběrnice = rychlejší tok
-- **FlashROM** s BIOSem
-- **Formáty**: AT (zapnutí kolébkovým vypínačem), **ATX** (tlačítko na skříni, dnes nejčastější), BTX (lepší chlazení, neujal se); LPX, NLX, WTX, ITX, DTX
-- Typické součásti:
-	- **patice procesoru** – PGA (piny na procesoru, AMD), LGA (piny v patici, Intel)
-	- **chipset** – komunikace procesoru s ostatními částmi
-	- **FlashROM** s BIOSem + **CMOS baterie** (uchová nastavení)
-	- sloty pro **RAM**
-	- řadiče a sloty **PCI, AGP, PCI Express**
-	- konektory **napájení**
-	- integrované síťové, grafické, zvukové obvody
+**Základní deska** propojuje všechny komponenty – je to **páteř počítače**. Dnes integruje i zvukovou a síťovou kartu.
+
+- **Patice (socket) procesoru** – **LGA** (piny v patici, Intel), **PGA** (piny na procesoru, dříve AMD).
+- **Chipset** – řídí komunikaci procesoru s ostatními částmi.
+- **FlashROM s BIOSem** a **CMOS baterie**, která drží nastavení.
+- **Sloty pro RAM**, sloty **PCIe** pro přídavné karty, konektory disků (SATA, M.2).
+- **Konektory napájení** a integrované obvody (síť, zvuk, grafika).
+- **Formát** (rozměry): **ATX** (dnes nejčastější), microATX (menší), mini-ITX; AT (starší, vypínač přímo na zdroji), BTX (neujal se).
+
+Podrobněji: [základní deska](/it/uvod-do-vypocetni-techniky/08-zakladni-deska-mainboard/), [chipset](/it/uvod-do-vypocetni-techniky/09-chipset/).
 
 ## BIOS
 
-- Prostředník mezi hardwarem a OS
-- Funkce:
-	- detekce hardwaru (RAM, disky)
-	- testy (**POST**) a hlášení chyb (pípání)
-	- nastavení chipsetu
-	- inicializace zařízení **Plug and Play**
-	- nastavení integrovaných zařízení (řadiče disků, zvuk, grafika)
-	- základní zabezpečení (hesla)
-	- monitoring teplot a otáček ventilátorů
-	- správa napájení a úspora energie
-- Při každém startu otestuje a nastaví hardware
-- Najde zavaděč OS a spustí ho
-- Výrobci: AMI, Award, Phoenix
+**BIOS** (dnes **UEFI**) je prostředník mezi hardwarem a OS. Po zapnutí:
 
-Podrobně: [BIOS a UEFI](/it/uvod-do-vypocetni-techniky/07-bios/).
+1. detekuje hardware (RAM, disky) a provede testy **POST**, chyby hlásí pípáním,
+2. nastaví chipset a integrovaná zařízení (Plug and Play),
+3. najde **zavaděč** OS a spustí ho.
+
+Dále nabízí zabezpečení heslem, monitoring teplot a otáček a správu napájení. Podrobně: [BIOS a UEFI](/it/uvod-do-vypocetni-techniky/07-bios/).
 
 ## Zdroj
 
-- Měnič: střídavých **230 V** → stejnosměrné větve:
-	- **3,3 V; 5 V; 12 V**
-- Komponenty je využívají přímo nebo dál snižují (deska pro procesor)
-- Velmi důležitý – porucha může zničit další komponenty
-- Slabý nebo nekvalitní zdroj = nestabilní systém
-- Standardy:
-	- **AT** – 5 V a 12 V, síťový vypínač přímo na zdroji
-	- **ATX** – přidal 3,3 V a softwarové zapínání
-	- **ATX12V** – dnešní; přidává 4pinový konektor 12 V pro procesor
-- Konektory: **ATX 24 pin** – napájení desky
-	- **+12 V (4/8 pin)** – pro procesor, povinný
-	- **AUX** – 2× 3,3 V, 1× 5 V, 3× zem
-	- **Floppy** – diskety, mizí
-	- **Molex (Peripheral)** – starší disky, mechaniky, ventilátory
-	- **SATA** napájení – disky a mechaniky
+**Zdroj** mění střídavých **230 V** na stejnosměrné větve **3,3 V, 5 V a 12 V**. Kvalitní zdroj je důležitý: slabý znamená nestabilní systém, porucha může zničit další součásti.
+
+| Standard | Poznámka |
+| --- | --- |
+| **AT** | 5 V a 12 V, síťový vypínač přímo na zdroji |
+| **ATX** | přidal 3,3 V a softwarové zapínání |
+| **ATX12V** | dnešní; přidává konektor 12 V pro procesor |
+
+**Konektory:** **ATX 24 pin** (deska), **+12 V 4/8 pin** (procesor), **SATA** napájení (disky, mechaniky), starší **Molex**. Více: [napájecí zdroj a UPS](/it/uvod-do-vypocetni-techniky/14-napajeci-zdroj-a-ups/).
+
+## Otázky k opakování
+
+1. Co je firmware a co BIOS? ||firmware je program uložený v hardwaru; BIOS je základní firmware desky, který spustí a nastaví hardware a předá řízení zavaděči OS||
+2. Z čeho se skládá základní deska? ||patice procesoru, chipset, FlashROM s BIOSem a baterie, sloty RAM a PCIe, konektory disků a napájení, integrované obvody||
+3. Jaký je rozdíl mezi LGA a PGA? ||u LGA jsou piny v patici (Intel), u PGA na procesoru||
+4. Co dělá POST? ||test hardwaru po zapnutí, chyby hlásí pípáním||
+5. Jaká napětí dodává zdroj a kam jdou konektory 24 pin a 4/8 pin? ||3,3 V, 5 V a 12 V; 24 pin napájí desku, 4/8 pin procesor||

@@ -3,93 +3,54 @@ title: "Paměti"
 order: 4
 source: "IT/7. Paměti.docx"
 ---
+
 ![Hierarchie pamětí jako pyramida: nahoře registry a cache, pak RAM, SSD, HDD a dole páska, optika a cloud; nahoru rychlejší a dražší, dolů větší kapacita](/images/content/it/uvod-do-vypocetni-techniky/pameti/hierarchie.webp)
 
-- Ukládá programy a data
-- **Paměťový řadič** – řídí čtení, zápis a zabezpečení přenosu
-- Podle principu zápisu:
-	- **polovodičové** – RAM (statická, dynamická); ROM (PROM, EPROM, EEPROM, Flash)
-	- **magnetické** s pohyblivou vrstvou – HDD, disketa (FDD)
-	- **optické** – CD, DVD, Blu-ray
-	- **magnetooptické** – laser mění magnetické vlastnosti
-- Podle napájení:
-	- **závislé (volatilní)** – bez napětí data zmizí (RAM)
-	- **nezávislé** – napětí jen pro čtení/zápis, data drží (ROM, flash, disky)
-- Podle přístupu:
-	- **RAM (libovolný přístup)** – doba přístupu nezávisí na umístění
-	- **sekvenční** – závisí na umístění (pásky)
-- Podle zápisu:
-	- **RAM** – čtení i zápis
-	- **ROM** – jen čtení, zapsáno při výrobě
-	- **PROM** – uživatel zapíše jednou programátorem
-	- **EPROM** – mazání **UV zářením**, přepsatelná
-	- **EEPROM** – mazání **elektricky**, ~100 000 zápisů
-	- **Flash** – elektricky po blocích, data drží bez napájení
-- Podle určení:
-	- **vnitřní** – registry, operační paměť, cache, paměť firmwaru
-	- **vnější** – disky, diskety, optika, flash disky, karty
-- Parametry:
-	- **kapacita** (B)
-	- **druh** (polovodičová, optická…)
-	- **přístupová doba** – od požadavku k datům
-	- **přenosová rychlost** – data za čas
-	- **latence** – prodleva prodlužující přístup
-	- **cena za bit**
-- **Registry** – v procesoru, malé (8–64 b), pro výpočty
-- **Cache** – vyrovnávací paměť mezi různě rychlými zařízeními; L1 (nejrychlejší) → L2 → L3
+**Paměť** ukládá programy a data; čtení, zápis a zabezpečení přenosu řídí **paměťový řadič**.
+
+## Dělení pamětí
+
+| Podle | Druhy |
+| --- | --- |
+| **principu zápisu** | polovodičové (RAM, ROM, flash), magnetické (HDD), optické (CD, DVD, Blu-ray), magnetooptické |
+| **napájení** | **volatilní** – bez napětí data zmizí (RAM); **nevolatilní** – data drží (ROM, flash, disky) |
+| **přístupu** | **RAM** – libovolný přístup, doba nezávisí na umístění; **sekvenční** – závisí na umístění (pásky) |
+| **určení** | **vnitřní** – registry, cache, operační paměť, firmware; **vnější** – disky, optika, flash |
+
+**Podle možnosti zápisu:** **RAM** čtení i zápis; **ROM** jen čtení (zapsáno při výrobě); **PROM** zapíše uživatel jednou; **EPROM** maže UV záření; **EEPROM** maže elektricky; **Flash** elektricky po blocích, data drží bez napájení.
+
+**Parametry:** kapacita, **přístupová doba** (od požadavku k datům), **přenosová rychlost**, latence, cena za bit.
 
 ## Polovodičové paměti
 
-- Buňky po 1 bitu v matici na čipu
-- **SRAM** – velmi rychlá, malá spotřeba, drahá → registry, cache. **DRAM** – levná, nutné obnovování → operační paměť: **SDRAM** (synchronní), **DDR**, **DDR2** (nižší napětí), **DDR3** (nižší spotřeba, vyšší frekvence), DDR4, DDR5
-- **SIPP** – moduly s piny, náchylné k ulomení
-- **SIMM** – kontakty místo pinů, snadná instalace
-- **DIMM** – SDRAM až DDR5; sběrnice 64 b
-- **SO-DIMM** – notebooky
+- **Registry** – v procesoru, nejrychlejší, jednotky bajtů.
+- **Cache** – vyrovnávací paměť mezi různě rychlými částmi; L1 (nejrychlejší) → L2 → L3.
+- **SRAM** – rychlá, drahá, bez obnovování → registry a cache. **DRAM** – levná, musí se obnovovat → operační paměť: **SDRAM**, **DDR** až **DDR5**.
+- **Moduly:** **DIMM** (stolní PC), **SO-DIMM** (notebooky).
 
 Podrobně: [RAM a ROM](/it/uvod-do-vypocetni-techniky/11-pameti-ram-a-rom/).
 
-## Hard disk (HDD)
+## Pevný disk (HDD)
 
-- Velkokapacitní, magnetický, **nezávislý**; je na něm OS
-- Struktura:
-	- **elektromechanika** – hlavy, hřídel, plotny, vystavovací mechanismus, motory
-	- **elektronika** – deska (řadič, ROM, cache), konektory
-	- **software** – geometrie (stopy, cylindry, sektory, hlavy), logická struktura, souborový systém
-- Elektromechanické části:
-	- **hlava** – na raménku, aerodynamická, „létá“ nad plotnou; zápis indukčně, čtení **magnetorezistivně** (změna odporu v magnetickém poli)
-	- **hřídel (motor)** – nese plotny; vyšší otáčky (5 400, 7 200, 10 000 ot/min) = kratší čekání, ale víc tepla
-	- **plotny** – nesou data; 3,5″ a 2,5″; 1–3 i víc; každá strana má hlavu; slitiny hliníku nebo sklo
-	- **vystavovací mechanismus** – kmitací cívka v poli permanentních magnetů přesune raménko nad stopu
-- Elektronika:
-	- funkce: otáčky, pohyb hlav, čtení/zápis, překlad geometrie, cache, řízení toku dat
-	- **řadič** – řídí čtení a zápis, koordinuje vše
-	- **ROM** – firmware disku, řízení motoru, kódování dat
-	- **cache** – urychlí přenos mezi diskem a PC
-	- **PATA** – 40pinový konektor, plochý kabel
-	- **SATA** – sériové, 1 bit, ale vysoký takt (1,5 / 3 / 6 Gb/s)
-- Geometrie:
-	- před zápisem se disk **formátuje**
-	- **stopa** – soustředná kružnice (až desítky tisíc)
-	- **sektor** – část stopy se značkami (číslo, začátek, konec); 512 B nebo 4 KiB
-	- **cylindr** – stopy stejného čísla na všech plotnách nad sebou
-	- **cluster** – nejmenší alokační jednotka
+Velkokapacitní **magnetická** nevolatilní paměť, na které je OS a data. Skládá se z **plotny** (nesou data), **hlav** na raménku (zápis indukčně, čtení magnetorezistivně), motoru (5 400 – 10 000 ot/min), vystavovacího mechanismu a **elektroniky** (řadič, firmware, cache). Rozhraní **SATA**, dříve PATA.
 
 ![Geometrie disku: stopa jako soustředná kružnice, sektor jako výseč stopy, cylindr jako stopy se stejným číslem na všech plotnách](/images/content/it/uvod-do-vypocetni-techniky/pameti/hdd-geometrie.webp)
 
-- **MBR** – začátek disku: zavaděč spouštěný BIOSem + **tabulka oddílů** (dnes **GPT**)
-- **Alokační tabulka** – popis každého clusteru oddílu
-- **Kořenový adresář** – seznam souborů
-- **Defragmentace** – srovná roztroušené kousky souborů k sobě (u SSD se nedělá)
-- **Souborový systém** – vznikne formátováním:
-	- FAT12, FAT16, FAT32, NTFS (Linux ext4)
+- **Stopa** – soustředná kružnice, **sektor** – její část (512 B nebo 4 KiB), **cylindr** – stopy stejného čísla na všech plotnách, **cluster** – nejmenší alokační jednotka.
+- Před použitím se disk **formátuje**; **MBR** / **GPT** obsahuje tabulku oddílů, **souborový systém** (FAT32, NTFS, ext4) vznikne formátováním.
+- **Defragmentace** srovná rozptýlené části souborů (u SSD se nedělá).
 
-Podrobně: [pevné disky HDD a SSD](/it/uvod-do-vypocetni-techniky/12-pevne-disky-hdd-a-ssd/).
+Podrobně: [HDD a SSD](/it/uvod-do-vypocetni-techniky/12-pevne-disky-hdd-a-ssd/).
 
 ## Optické paměti
 
-- CD 700 MB, DVD 4,7–17 GB (podle stran a vrstev), BD 25 GB (vrstva), HD DVD 15 GB – viz [optické disky](/it/uvod-do-vypocetni-techniky/13-opticke-disky-cd-dvd-blu-ray/)
+CD 700 MB, DVD 4,7 – 17 GB, Blu-ray 25 GB na vrstvu – viz [optické disky](/it/uvod-do-vypocetni-techniky/13-opticke-disky-cd-dvd-blu-ray/).
 
-## FDD Floppy disk drive
+## Otázky k opakování
 
-- 8″, 5,25″ a 3,5″ (1,44 MB)
+1. Jak se dělí paměti podle napájení a přístupu? ||volatilní (RAM) × nevolatilní (ROM, flash, disky); s libovolným × sekvenčním přístupem||
+2. Jaký je rozdíl mezi SRAM a DRAM? ||SRAM je rychlá, drahá a bez obnovování (cache); DRAM levná, nutné obnovování (operační paměť)||
+3. Čím se liší ROM, PROM, EPROM, EEPROM a Flash? ||ROM zapsaná při výrobě, PROM jednou uživatelem, EPROM maže UV, EEPROM elektricky, Flash elektricky po blocích||
+4. Jaké jsou úrovně hierarchie pamětí? ||registry → cache → RAM → SSD/HDD → optika, pásky; nahoru rychlejší a dražší||
+5. Z čeho se skládá HDD? ||plotny, hlavy, motor, vystavovací mechanismus, elektronika (řadič, firmware, cache)||
+6. Vysvětlete stopu, sektor, cylindr a cluster. ||stopa je kružnice na plotně, sektor její část, cylindr stopy nad sebou na všech plotnách, cluster nejmenší alokační jednotka||
