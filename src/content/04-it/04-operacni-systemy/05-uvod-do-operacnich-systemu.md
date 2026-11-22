@@ -3,74 +3,38 @@ title: "Úvod do operačních systémů"
 order: 5
 source: "osy/Úvod_do _operačních_systémů.pdf"
 ---
-**Operační systém (OS)** = prostředník mezi uživatelem a hardwarem. Spravuje hardware a programy, aby se s počítačem dalo pracovat.
+
+**Operační systém (OS)** je prostředník mezi uživatelem a hardwarem: spravuje hardware a programy, aby se s počítačem dalo pracovat. **Firmware** je naproti tomu program uložený přímo v hardwaru (BIOS, firmware disku).
 
 ![Vrstvy: uživatel, aplikace, operační systém s jádrem, uživatelským rozhraním a souborovým systémem, ovladače a BIOS, hardware](/images/content/it/operacni-systemy/uvod/vrstvy.webp)
 
-## Jak OS komunikuje
+## Základní části OS
 
-1. Uživatel zadává příkazy **přímo OS** (kopíruj, smaž) nebo používá programy OS (kalkulačka).
-2. Uživatel pracuje s **aplikací**; ta o službu požádá OS.
-3. Aplikace žádá OS o operaci (vytvoř soubor `dopis.txt`).
-4. Programy (střih videa, zvuk) neumí řídit konkrétní součástku → používají **ovladač**.
-5. Přímý přístup programu k hardwaru je výjimečný (programy pro konkrétní HW).
-6. OS může s HW mluvit **přímo** jen u běžných standardních zařízení, která znal při vzniku; jinak by se musel s každou novou součástkou přeprogramovat.
-7. Jinak OS využije **BIOS**.
-8. Nebo **ovladač**, když BIOS zařízení nezná.
-9. **Ovladač (driver)** = program, který umí řídit konkrétní hardware pro konkrétní OS. Každý OS „mluví jiným jazykem“, proto výrobci nabízejí ovladače pro různé systémy. Ovladač se do OS nainstaluje a ten se zařízení „naučí“.
-
-**Úkoly:**
-
-1. Najdi ovladač tiskárny **HP Color LaserJet Pro CP1025** pro **Windows 7 32-bit**.
-2. Najdi ovladače k desce **MSI 970 Gaming** pro **Windows XP 64-bit**.
-3. Zjisti v OS, zda má tvůj počítač ovladače ke všem komponentám (Správce zařízení).
-
-### BIOS
-
-Počítač bez OS jde zapnout díky **BIOSu** – kód na desce (dnes Flash ROM). Po zapnutí zjistí a otestuje hardware, načte jeho parametry, zavede OS do paměti a předá mu zjištěné informace. Podrobně: [BIOS](/it/uvod-do-vypocetni-techniky/07-bios/).
-
-Tři vrstvy:
-
-1. **Flash ROM** – vlastní systém BIOSu od výrobce; lze přepsat (špatný zápis může zničit desku).
-2. **CMOS** – konfigurace (čas, disky, takt procesoru); energeticky závislá, drží ji **baterie** na desce.
-3. **BIOS komponent** (na kartách, discích) – nastavení a informace zařízení (u DVD-ROM podporované formáty) = **firmware**.
-
-Setup (klávesa F2, Delete…) nabízí:
-
-1. takt procesoru a RAM, napájecí napětí,
-2. detekci HDD, CD-ROM, DVD-ROM,
-3. nastavení periferií (zvuk, síť, modem),
-4. **bootovací sekvenci** (HDD, CD-ROM, USB, LAN),
-5. **hardware monitor** – teploty, napětí, ventilátory.
-
-**Úkoly:** najdi návod na přepsání BIOSu; dostaň se v BIOSu doma a odejdi přes *Exit Without Saving*.
-
-### UEFI
-
-Nástupce BIOSu. Důvody:
-
-- **Secure Boot** – při startu se kontrolují elektronické podpisy OS (jde vypnout),
-- využití nových procesorů,
-- **GPT** – zavedení OS z oddílů nad 2 TB (limit MBR).
-
-Spekuluje se, že UEFI vzniklo kvůli Secure Bootu a omezení alternativních OS.
-
-### Základní části operačního systému
-
-1. **Jádro (kernel)** – řídí chod OS: které programy běží a jaké zdroje dostanou (komu a na jak dlouho se půjčí procesor).
-2. **Uživatelské rozhraní** – komunikace s uživatelem: **textové** (příkazový řádek) nebo **grafické** (myš, nabídky).
+1. **Jádro (kernel)** – řídí chod OS: které programy běží a jaké zdroje (procesor, paměť) dostanou.
+2. **Uživatelské rozhraní** – **textové** (příkazový řádek) nebo **grafické** (myš, nabídky).
 3. **Souborový systém** – jak OS spravuje data: pojmenování, adresáře, organizace.
 
-## Otázky:
+## Jak OS komunikuje s hardwarem
 
-1. Co je účelem operačního systému?
+Aplikace požádá o službu OS (např. vytvoř soubor). OS s hardwarem mluví buď přes **BIOS**, nebo přes **ovladač**.
 
-2. Ze kterých tří hlavních částí se skládá operační systém?
+**Ovladač (driver)** je program, který umí řídit konkrétní hardware pro konkrétní OS. Každý OS „mluví jiným jazykem“, proto výrobci nabízejí ovladače pro různé systémy. Ovladač se do OS nainstaluje a ten se zařízení „naučí“; zkontroluje se ve **Správci zařízení**.
 
-3. Jaké úkoly splní BIOS po zapnutí počítače?
+## BIOS a UEFI
 
-4. Jaké informace a nastavení můžeme najít v setupu BIOSu?
+Počítač bez OS jde zapnout díky **BIOSu** – kód na desce ve Flash ROM. Po zapnutí zjistí a otestuje hardware, zavede OS do paměti a předá mu řízení. Podrobně: [BIOS](/it/uvod-do-vypocetni-techniky/07-bios/).
 
-5. K čemu slouží ovladač neboli driver?
+- **Flash ROM** – vlastní systém BIOSu, lze přepsat (aktualizace).
+- **CMOS** – konfigurace (čas, disky, takt), drží ji baterie na desce.
+- **Setup** (klávesa F2, Delete) – takt procesoru a RAM, detekce disků, periferie, **bootovací sekvence** (HDD, USB, LAN), hardware monitor.
 
-6. Je obvyklé, že se ovladač pro jednu hardwarovou komponentu vyrábí ve více verzích pro různé operační systémy?
+**UEFI** je nástupce BIOSu: **Secure Boot** (kontrola podpisů OS při startu), podpora nových procesorů, **GPT** (disky nad 2 TB, limit MBR).
+
+## Otázky k opakování
+
+1. Jaký je účel operačního systému? ||prostředník mezi uživatelem a hardwarem, spravuje hardware a programy||
+2. Ze kterých tří hlavních částí se OS skládá? ||jádro, uživatelské rozhraní, souborový systém||
+3. K čemu slouží ovladač? ||umí řídit konkrétní hardware pro konkrétní OS||
+4. Jaké úkoly plní BIOS po zapnutí? ||zjistí a otestuje hardware, zavede OS do paměti a předá mu řízení||
+5. Co nabízí setup BIOSu? ||takt a napětí, detekci disků, periferie, bootovací sekvenci, hardware monitor||
+6. Čím se UEFI liší od BIOSu? ||Secure Boot, podpora GPT a disků nad 2 TB, nové procesory||

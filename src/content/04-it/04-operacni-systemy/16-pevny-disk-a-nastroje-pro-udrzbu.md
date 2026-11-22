@@ -60,3 +60,12 @@ Smaže:
 - soubory protokolu instalace,
 - dočasné soubory (`.tmp`),
 - zprávy o chybách a ladící výpisy (debug dump files).
+
+## Otázky k opakování
+
+1. Co je cluster a proč soubor zabere víc, než má velikost? ||nejmenší alokační jednotka; cluster nemůže obsahovat data dvou souborů||
+2. Co je fragmentace a defragmentace? ||soubor je rozdělen na nenavazující části (zpomalení); defragmentace je srovná; u SSD se nedělá||
+3. Co je MFT? ||Master File Table – databáze všech souborů NTFS||
+4. Proč lze smazaná data obnovit? ||smazání odstraní jen záznam v MFT, clustery se tváří jako volné, dokud je nepřepíše jiný soubor||
+5. Co je TRIM? ||OS oznámí SSD, které bloky už nejsou potřeba, aby je mohl smazat v době nečinnosti||
+6. K čemu je chkdsk? ||kontrola a oprava disku (vadné sektory, ztracené clustery, chyby adresáře)||

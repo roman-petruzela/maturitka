@@ -3,16 +3,19 @@ title: "Historie operačních systémů"
 order: 6
 source: "osy/Historie_OS.pdf"
 ---
-**Operační systém** = základní software, který řídí hardware a poskytuje platformu pro programy.
 
-## Vývoj po desetiletích
+**Operační systém** je základní software, který řídí hardware a poskytuje platformu pro programy.
 
-- **50. léta** – první počítače, jednoduché systémy pro konkrétní stroj.
-- **60. léta** – složitější systémy pro širší škálu počítačů: **Multics** (více uživatelů, Bell Labs) a z něj **Unix** (AT&T Bell Labs).
-- **70. léta** – první osobní počítače (Altair 8800, Apple II) s **CP/M** a **Apple DOS**.
-- **80. léta** – **grafické rozhraní (GUI)**: Xerox Star se nerozšířil; prosadily se **Macintosh OS**, **Windows**, **AmigaOS**.
-- **90. léta** – složitější a funkčnější; standardem **multitasking**, **více uživatelů**, **bezpečnostní funkce**.
-- **21. století** – **mobilní zařízení** (iOS, Android), **cloud**, Linux.
+## Typy operačních systémů
+
+| Dělení | Druhy |
+| --- | --- |
+| **podle počtu uživatelů** | **jednouživatelské** (DOS, Windows 95) × **víceuživatelské** (Unix, Linux, Windows Server) |
+| **podle počtu úloh** | **jednoúlohové** (DOS) × **víceúlohové** – multitasking (kooperativní, preemptivní) |
+| **podle určení** | **desktopové** (Windows, macOS, Linux), **serverové** (Windows Server, Linux), **mobilní** (Android, iOS), **vestavěné** (embedded; routery, chytré zařízení), **systémy reálného času** (RTOS; odezva v daném čase, průmysl) |
+| **podle licence** | proprietární (Windows, macOS) × svobodné (Linux) – viz [licence](/it/operacni-systemy/08-licence-a-autorsky-zakon/) |
+
+## Vývoj
 
 ```timeline
 { "title": "Milníky operačních systémů",
@@ -30,31 +33,22 @@ source: "osy/Historie_OS.pdf"
   ] }
 ```
 
-## Fenomén Linux
+- **50.–60. léta** – systémy pro konkrétní stroj, **Multics** a z něj **Unix**.
+- **70. léta** – první osobní počítače, **CP/M**.
+- **80. léta** – **grafické rozhraní (GUI)**: Macintosh, Windows.
+- **90. léta** – multitasking, více uživatelů, bezpečnostní funkce.
+- **Dnes** – mobilní OS (iOS, Android), cloud, virtualizace.
 
-- Unixové jádro, vytvořil **Linus Torvalds** (**1991**), jeden z nejrozšířenějších OS na světě.
-- **Svobodný a otevřený** – zdrojový kód je veřejný, lze ho upravovat.
-- **Multiplatformní** – PC, servery, mobily, embedded zařízení.
-- **Výkonný a stabilní** – hlavně servery.
-- **Zdarma** – na rozdíl od Windows a macOS.
+## Linux
 
-## Linuxové distribuce
+Unixové jádro vytvořil **Linus Torvalds** (**1991**). Je **svobodný a otevřený** (zdrojový kód je veřejný), multiplatformní (PC, servery, mobily, embedded), stabilní a zdarma.
 
-**Distribuce** = jádro Linuxu + správce balíčků + grafické rozhraní + aplikace + další software upravené jako OS. Podrobně: [Linux – distribuce](/it/operacni-systemy/01-os-linux-distribuce-graficky-a-textovy-rezim/).
+**Distribuce** = jádro Linuxu + správce balíčků + grafické prostředí + aplikace: **Ubuntu** (nejpopulárnější, přívětivá), **Debian** (stabilní, základ mnoha dalších), **Linux Mint**, **Red Hat Enterprise Linux** (podniky), **Fedora**. Podrobně: [Linux – distribuce](/it/operacni-systemy/01-os-linux-distribuce-graficky-a-textovy-rezim/).
 
-- **Ubuntu** – jedna z nejpopulárnějších, jednoduchá, přívětivá.
-- **Debian** – stabilní a bezpečný, jedna z nejstarších; základ mnoha dalších.
-- **Linux Mint** – na bázi Ubuntu, elegantní rozhraní, hodně aplikací.
-- **Red Hat Enterprise Linux** – pro podniky; stabilita, bezpečnost, podpora.
-- **Fedora** – inovativní, komunitní, vyvíjí ji Red Hat, zdarma.
+## Otázky k opakování
 
-## Nejnovější trendy
-
-- **Mobilní zařízení** – iOS a Android, chytré hodinky, virtuální realita.
-- **Cloud computing** – OS přizpůsobované cloudu (Google mail, Dropbox, Microsoft Azure, ChromeOS).
-- **Virtuální počítače** – OS je stále víc podporují.
-- **Umělá inteligence** – vyhledávání, překlad, asistenti, optimalizace výkonu. Superpočítače: [top500.org](https://top500.org/).
-
-## Závěr
-
-OS se vyvíjely od jednoduchých systémů jednoho stroje po dnešní systémy pro mobily, cloud a umělou inteligenci.
+1. Jak se dělí operační systémy? ||podle počtu uživatelů, počtu úloh, určení (desktop, server, mobilní, vestavěný, reálného času), licence||
+2. Čím se liší jednouživatelský a víceuživatelský OS? ||víceuživatelský umí oddělit účty a práva více uživatelů (Unix, Linux, Windows Server)||
+3. Který OS vznikl z Multics a kdo vytvořil Linux? ||Unix; Linus Torvalds (1991)||
+4. Co je Linuxová distribuce? ||jádro Linuxu + správce balíčků, grafické prostředí a aplikace||
+5. Co je systém reálného času? ||OS, který zaručí odezvu v daném čase (průmysl, řízení)||

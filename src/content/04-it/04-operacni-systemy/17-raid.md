@@ -63,3 +63,11 @@ Nejdřív **zrcadlení**, ta se pak spojí **prokládáním** (RAID 0) → rychl
 - snadné **zvětšení kapacity** přidáním disku,
 - při výpadku disku mohou **některé soubory zůstat**,
 - disky různé velikosti → zachová se celková kapacita.
+
+## Otázky k opakování
+
+1. Co je RAID a proč není zálohou? ||ochrana před selháním disku ukládáním dat na více disků; nechrání před smazáním, virem ani požárem||
+2. Čím se liší RAID 0 a RAID 1? ||RAID 0 prokládá data (rychlost, bez ochrany); RAID 1 zrcadlí na dva disky (ochrana, poloviční kapacita)||
+3. Jak funguje RAID 5? ||parita rotuje po všech discích, přežije výpadek jednoho disku; kapacita n − 1||
+4. Co je RAID 10? ||zrcadla spojená prokládáním; rychlé, minimálně 4 disky||
+5. Jaký je rozdíl mezi softwarovým a hardwarovým RAID? ||softwarový obsluhuje OS (zatěžuje CPU), hardwarový řadič||

@@ -56,3 +56,10 @@ UUID=…  /Slozka1  ext4  user,users  0  0
 | kontrola | `0` | nekontroluj při startu systému |
 
 Zápis se ověří příkazem `sudo mount -a` (připojí vše z fstab) — chyba v fstab může zablokovat start systému.
+
+## Otázky k opakování
+
+1. Jak se v Linuxu jmenují disky a oddíly? ||`/dev/sda`, `/dev/sdb` (SATA, USB), `/dev/nvme0n1` (NVMe); oddíl má číslo, např. `/dev/sdb1`||
+2. Jak zjistíte informace o discích a oddílech? ||`df -h`, `fdisk -l`, `lsblk`||
+3. Jak vytvoříte a připojíte nový oddíl? ||`fdisk` (n, w), `mkfs -t ext4 /dev/sdb1`, `mount /dev/sdb1 /složka`||
+4. K čemu je soubor `/etc/fstab`? ||určuje, co se při startu automaticky připojí do kterého adresáře||

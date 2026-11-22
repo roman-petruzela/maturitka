@@ -408,12 +408,6 @@
     "order": 18
   },
   {
-    "src": "osy/shadow_copy.docx",
-    "dest": "it/operacni-systemy/19-shadow-copy-anglicky-text-k-procviceni.md",
-    "title": "Shadow copy (anglický text k procvičení)",
-    "order": 19
-  },
-  {
     "src": "osy/Stínové kopie svazku.docx",
     "dest": "it/operacni-systemy/20-stinove-kopie-svazku-prakticke-vyuziti.md",
     "title": "Stínové kopie svazku — praktické využití",

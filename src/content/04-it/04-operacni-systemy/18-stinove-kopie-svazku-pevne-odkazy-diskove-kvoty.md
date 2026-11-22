@@ -71,3 +71,9 @@ Tři možnosti:
 1. jen **sledovat** využití (správce kontroluje ručně),
 2. sledovat a **upozornit správce** při překročení,
 3. sledovat, upozornit **a odepřít místo** po překročení limitu.
+
+## Otázky k opakování
+
+1. K čemu slouží stínové kopie? ||uchovávají předchozí verze souborů ve sdílených složkách, uživatel si smazaný soubor obnoví sám||
+2. Co je pevný odkaz? ||další název téhož souboru na NTFS; soubor se smaže, až když zmizí všechny odkazy||
+3. Co jsou diskové kvóty? ||funkce NTFS, která omezuje místo na disku, které smí uživatel využít||

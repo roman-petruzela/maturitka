@@ -74,7 +74,7 @@ Plné znění výstupů je v [přehledu ŠVP](/it/reference/svp-prehled/#492-ope
 - [Práce s disky](/it/operacni-systemy/15-prace-s-disky/)
 - [Pevný disk a nástroje pro údržbu](/it/operacni-systemy/16-pevny-disk-a-nastroje-pro-udrzbu/)
 - [RAID](/it/operacni-systemy/17-raid/)
-- [Stínové kopie svazku, pevné odkazy, diskové kvóty](/it/operacni-systemy/18-stinove-kopie-svazku-pevne-odkazy-diskove-kvoty/), [praktické využití](/it/operacni-systemy/20-stinove-kopie-svazku-prakticke-vyuziti/) a [anglický text k procvičení](/it/operacni-systemy/19-shadow-copy-anglicky-text-k-procviceni/)
+- [Stínové kopie svazku, pevné odkazy, diskové kvóty](/it/operacni-systemy/18-stinove-kopie-svazku-pevne-odkazy-diskove-kvoty/), [praktické využití](/it/operacni-systemy/20-stinove-kopie-svazku-prakticke-vyuziti/)
 - [Zálohování dat](/it/operacni-systemy/21-zalohovani-dat/)
 
 **Zabezpečení**
@@ -101,7 +101,7 @@ Kompletní seznam je v [maturitních okruzích IT](/it/reference/maturitni-okruh
 | --- | --- |
 | [11) Operační systémy](/it/reference/maturitni-okruhy/#11-operační-systémy) | [úvod do OS a firmware](/it/operacni-systemy/05-uvod-do-operacnich-systemu/), [funkce OS](/it/operacni-systemy/07-operacni-systemy/), [souborové systémy](/it/operacni-systemy/28-souborove-systemy/), [typy OS](/it/operacni-systemy/06-historie-operacnich-systemu/), [Linux](/it/operacni-systemy/01-os-linux-distribuce-graficky-a-textovy-rezim/), [Windows](/it/operacni-systemy/02-os-windows/) |
 | [12) Správa OS](/it/reference/maturitni-okruhy/#12-správa-os) | [cmd](/it/operacni-systemy/09-prikazovy-radek-cmd/), [disky](/it/operacni-systemy/15-prace-s-disky/), [RAID](/it/operacni-systemy/17-raid/), [stínové kopie](/it/operacni-systemy/18-stinove-kopie-svazku-pevne-odkazy-diskove-kvoty/), [práva a oprávnění](/it/operacni-systemy/13-uzivatelska-prava-a-opravneni/), [Samba](/it/operacni-systemy/51-samba-sdileni-souboru-mezi-linuxem-a-windows/) |
-| [13) Zabezpečení OS a správa dat](/it/reference/maturitni-okruhy/#13-zabezpečení-os-a-správa-dat) | [antiviry](/it/operacni-systemy/25-antivirove-programy/), [malware](/it/operacni-systemy/26-malware/), [zálohování](/it/operacni-systemy/21-zalohovani-dat/), [média](/it/operacni-systemy/21-zalohovani-dat/#média-pro-ukládání-dat), [hesla](/it/operacni-systemy/11-uzivatelske-ucty-a-hesla/) |
+| [13) Zabezpečení OS a správa dat](/it/reference/maturitni-okruhy/#13-zabezpečení-os-a-správa-dat) | [antiviry](/it/operacni-systemy/25-antivirove-programy/), [malware](/it/operacni-systemy/26-malware/), [zálohování](/it/operacni-systemy/21-zalohovani-dat/), [média](/it/operacni-systemy/21-zalohovani-dat/#záložní-média), [hesla](/it/operacni-systemy/11-uzivatelske-ucty-a-hesla/) |
 | [14) Windows Server](/it/reference/maturitni-okruhy/#14-windows-server) | [verze, instalace a role](/it/operacni-systemy/52-windows-server-verze-instalace-a-role/), [terminálový a tiskový server](/it/operacni-systemy/54-terminalovy-a-tiskovy-server/), [Active Directory](/it/operacni-systemy/49-active-directory-a-sprava-z-prikazove-radky/), [DHCP](/it/operacni-systemy/23-dhcp/), [síťové příkazy](/it/operacni-systemy/09-prikazovy-radek-cmd/#síťové-příkazy), [Windows Server v praxi](/it/operacni-systemy/03-linux-a-windows-server-prakticky/#windows-server) |
 | [15) Windows Server 2](/it/reference/maturitni-okruhy/#15-windows-server-2) | [profily](/it/operacni-systemy/12-uzivatelske-profily/), [licence](/it/operacni-systemy/08-licence-a-autorsky-zakon/), [PowerShell](/it/operacni-systemy/03-linux-a-windows-server-prakticky/), [GPO](/it/operacni-systemy/14-gpo-zasady-skupiny/) |
 
@@ -113,5 +113,4 @@ Okruh 19 (práva ve Windows a Linuxu, SSH) z kybernetické bezpečnosti využív
 - **Strategie plánování procesů** – stačí vědět, že existují, a znát FIFO a cyklické plánování.
 - **Podrobnosti GPO** (konkrétní cesty v editoru, Sysvol, výchozí GPO) – důležitý je princip a pořadí uplatňování.
 - **Příkazy `ds*`** a syntaxe dávkových souborů – k laboratorní práci, ne k učení nazpaměť.
-- **Anglický text o shadow copy** je cvičný text, ne nová látka.
 - RAID 3 a víceúrovňová pole kromě RAID 10 – stačí vědět, že existují.

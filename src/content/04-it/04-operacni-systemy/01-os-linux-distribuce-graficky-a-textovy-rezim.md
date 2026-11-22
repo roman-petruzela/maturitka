@@ -3,66 +3,45 @@ title: "OS Linux - distribuce, grafický a textový režim"
 order: 1
 source: "IT/2. OS Linux - distribuce, grafický a textový režim.docx"
 ---
-- **Operační systém** – základní software nahraný do paměti při startu; běží do vypnutí
-- Standardně **jádro (kernel)** + pomocné systémové nástroje
-- Úkol: umožnit ovládat počítač, vytvořit procesům stabilní **API** a přidělovat jim zdroje
-- Vývoj OS je mnohem náročnější než běžných programů; OS je na telefonech, konzolích, serverech i superpočítačích
-- **Multitasking** – více procesů „naráz“: jádro je rychle střídá na procesoru
-- **Skupinová politika (GPO)** – sada předvoleb pro chování systémů Windows NT
-- **Souborový systém** – způsob organizace dat do souborů na paměťovém médiu (HDD)
 
-## Typy operačních systémů
+**Operační systém** je základní software nahraný do paměti při startu, který běží do vypnutí. Tvoří ho **jádro (kernel)** a pomocné systémové nástroje. Obecně: [úvod do OS](/it/operacni-systemy/05-uvod-do-operacnich-systemu/), [typy OS](/it/operacni-systemy/06-historie-operacnich-systemu/).
 
-- **Pro koncové uživatele** – dominuje **Windows** (až ~80 %), pak **macOS** (~11 %), Linux na třetím místě; Linux se často ovládá přes **terminál** (příkazový řádek)
-- **Mobilní** – dominují **Android** (Google, otevřený) a **iOS** (Apple, uzavřený)
-- **Servery a superpočítače** – výhradně **Linux** (bezpečnost, spolehlivost); je jediným OS na první pětistovce nejvýkonnějších superpočítačů
+## Funkce OS
 
-## Funkce operačního systému
+- **Ovládání počítače** – spouštění aplikací, předávání vstupů a výstupů.
+- **Abstrakce hardwaru** – jednoduché funkce (API) skrývají rozdíly mezi zařízeními.
+- **Správa prostředků** – přidělování procesoru a paměti procesům.
 
-Tři základní:
-
-- **Ovládání počítače** – spouštění aplikací, předávání vstupů a získání výstupů
-- **Abstrakce hardwaru** – jednoduché funkce (API) skrývají rozdíly mezi zařízeními
-- **Správa prostředků** – přidělování a odebírání zdrojů procesům
-
-U Windows a macOS bývá součástí OS i **grafické rozhraní**; u unixových systémů, kde ho lze vytvořit různými způsoby, se za součást systému nepovažuje.
-
-## Stavba operačního systému
-
-**Jádro** zavádí OS do paměti při startu a běží po celou dobu. Podle konstrukce:
+## Stavba OS: typy jader
 
 ![Tři typy jader: monolitické jako jeden celek, mikrojádro s malým jádrem a službami jako procesy, hybridní kombinace](/images/content/it/operacni-systemy/linux/jadra.webp)
 
-- **Monolitické** – jeden funkční celek (Linux)
-- **Mikrojádro** – velmi malé, zbytek jako samostatné procesy
-- **Hybridní** – kombinace obojího (Windows NT, macOS)
+- **Monolitické** – jeden funkční celek (Linux).
+- **Mikrojádro** – velmi malé, zbytek jako samostatné procesy.
+- **Hybridní** – kombinace obojího (Windows NT, macOS).
 
-### Grafické uživatelské rozhraní
-
-- Ovládání **grafickými prvky**
-- Někdy v jádru (původní Windows, MacOS), jinde **modulární** – grafický podsystém oddělený od jádra (Unix, VMS už kolem 1980; dnes Linux, macOS)
+**Grafické rozhraní (GUI)** se ovládá grafickými prvky. U Windows a macOS je součástí OS, u Unixu je to **modulární** nadstavba, kterou lze vyměnit; Linux se často ovládá v **textovém režimu** přes terminál (**bash**).
 
 ## Linux
 
-- Derivát **Unixu**; **Linus Torvalds** ho začal vyvíjet v roce **1991** a na jádře se podílí dodnes
-- **Open source** – volně dostupné zdrojové kódy, které lze podle licence upravovat a šířit; jádro pod licencí **GPLv2**
-- **Jádro** přiděluje procesor a RAM, řídí běh aplikací, **hardware přes ovladače** (překlad příkazů OS na příkazy, kterým hardware rozumí; uživatel nemusí řešit, na jaké médium zapisuje)
-- Variabilní → telefony, televizory, domácí směrovače
-- **Víceuživatelské** – programy různých uživatelů zároveň (i přes síť)
-- „Linux“ dnes = jádro **i** veškerý software (aplikace, utility, GUI)
-- Šíří se jako **distribuce** (jádro + software s jednoduchou instalací)
+- Derivát **Unixu**, vyvíjet ho začal **Linus Torvalds** v roce **1991**.
+- **Open source**: zdrojový kód je veřejný, jádro je pod licencí **GPLv2**; **víceuživatelský**, multiplatformní (PC, servery, telefony, směrovače).
+- **Jádro** přiděluje procesor a RAM, řídí běh aplikací a hardware přes **ovladače**.
+- Šíří se jako **distribuce** = jádro + software s jednoduchou instalací. Jádro je stejné, zbytek se velmi liší: **Ubuntu**, Debian, openSUSE, Fedora, Linux Mint.
+- Na **serverech a superpočítačích** dominuje (bezpečnost, spolehlivost), na desktopech je za Windows a macOS.
 
-Pojmy:
+| Pojem | Význam |
+| --- | --- |
+| **root** | nejvyšší uživatel (administrátor) a také hlavní adresář `/` |
+| **terminál, bash** | příkazový řádek |
+| **distribuce** | „verze OS“ |
 
-- **jádro** = kernel
-- **nejvyšší uživatel (administrátor)** = **root**
-- **hlavní adresář** = **root** (`/`)
-- **příkazový řádek** = terminál, **bash**
-- **verze OS** = distribuce
+Příkazy: [PowerShell a Linux](/it/operacni-systemy/03-linux-a-windows-server-prakticky/), [práce se sítí](/it/operacni-systemy/10-prace-se-siti-prikazy/).
 
-## Distribuce
+## Otázky k opakování
 
-- Windows mají edice se stejným jádrem a různým vybavením
-- U Linuxu je to dotažené do extrému: **jádro stejné, zbytek se velmi liší**
-- Od distribuce na disketu po instalaci o 3 GB s grafikou – obojí je Linux
-- Příklady: **Ubuntu**, Slackware, PCLinuxOS, **openSUSE**, Mandriva, Kubuntu, Knoppix, CentOS; viz i [historie OS](/it/operacni-systemy/06-historie-operacnich-systemu/#linuxové-distribuce)
+1. Jaké jsou funkce OS? ||ovládání počítače, abstrakce hardwaru, správa prostředků||
+2. Jaké typy jader znáte? ||monolitické (Linux), mikrojádro, hybridní (Windows NT, macOS)||
+3. Co je Linux a kdo ho vytvořil? ||svobodný unixový OS (jádro); Linus Torvalds, 1991||
+4. Co je distribuce Linuxu? ||jádro + správce balíčků, grafické prostředí a aplikace||
+5. Co znamená slovo root? ||nejvyšší uživatel a zároveň hlavní adresář `/`||
