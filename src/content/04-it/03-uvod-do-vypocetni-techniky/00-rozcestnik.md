@@ -16,7 +16,7 @@ Rozcestník kategorie: o čem předmět je, kdy se podle ŠVP učí, co si z ně
 
 | Ročník | Hodin týdně | Obsah (ŠVP §4.9.1) |
 | --- | --- | --- |
-| 1. | 2 (68 h za rok) | BOZP, základní pojmy (HW, SW, data, informace, jednotky, kódování, číselné soustavy); historie VT a von Neumannova struktura; základní části počítače; periferie – podrobně v [tematickém plánu](/it/uvod-do-vypocetni-techniky/00-tematicky-plan/) |
+| 1. | 2 (68 h za rok) | BOZP, základní pojmy (HW, SW, data, informace, jednotky, kódování, číselné soustavy); historie VT a von Neumannova struktura; základní části počítače; periferie |
 
 Plné znění výstupů je v [přehledu ŠVP](/it/reference/svp-prehled/#491-úvod-do-výpočetní-techniky).
 
@@ -39,7 +39,6 @@ Plné znění výstupů je v [přehledu ŠVP](/it/reference/svp-prehled/#491-úv
 
 **Úvod**
 
-- [Tematický plán](/it/uvod-do-vypocetni-techniky/00-tematicky-plan/)
 - [Historie výpočetní techniky](/it/uvod-do-vypocetni-techniky/21-historie-vypocetni-techniky/)
 - [Hardware – pojmy, základní deska, BIOS, zdroj](/it/uvod-do-vypocetni-techniky/02-hardware-pojmy-zakladni-deska-bios-zdroj/) – souhrnné maturitní zpracování
 - [Autorský zákon](/it/uvod-do-vypocetni-techniky/01-autorsky-zakon/)

@@ -3,90 +3,53 @@ title: "Chipset"
 order: 9
 source: "uvt/cast1_08_chipset.pdf"
 ---
-Čipová sada (chipset) je hlavní logický integrovaný obvod základní desky. Jeho úkolem je řídit komunikaci mezi procesorem a ostatními zařízeními a obvody. V obvodech čipové sady jsou integrovány **řadiče** těchto zařízení, které řídí jejich činnost pomocí řídících signálů, jež se přenášejí po sběrnici. Dále jsou zde **adaptéry** pro propojení různých sběrnic mezi sebou. Obvody čipové sady řídí činnost např. operační paměti, jednotlivých rozhraní atd.
+Čipová sada (**chipset**) je hlavní logický obvod základní desky. Řídí komunikaci mezi procesorem a ostatními zařízeními: obsahuje **řadiče** zařízení a **adaptéry** (mosty) mezi sběrnicemi. Od chipsetu se odvíjí většina parametrů desky – typ procesoru a paměti, rozhraní a sloty pro karty.
 
-Sběrnice jsou uspořádány hierarchicky, tedy pomalejší sběrnice je zapojena do rychlejší, která je v hierarchii postavena o úroveň výše. Každé zařízení v systému je připojeno k jedné z těchto sběrnic, čipová sada vykonává funkci mostů mezi sběrnicemi.
+- Sběrnice jsou **hierarchické**: pomalejší je vždy připojena do rychlejší.
+- Každá nová architektura procesoru potřebuje nový chipset.
 
-Čipová sada má v maximální míře podporovat výkon procesoru a dalších komponent počítače, proto pro každou novou architekturu procesoru vzniká nová čipová sada.
+![Vývoj čipové sady: severní a jižní most, řadič paměti v procesoru, dnešní jediný čip PCH](</images/content/it/uvod-do-vypocetni-techniky/chipset/vyvoj.webp>)
 
-Od čipové sady se odvíjí také většina základních parametrů základní desky, např. typ a rychlosti procesoru, typ operační paměti, rozhraní či sběrnice pro rozšiřující karty atd.
+## Severní a jižní most
 
-Základní architektury čipových sad:
+Chipset je ve dvou čipech.
 
--  architektura mostů – severní / jižní most (angl. north / south bridge)
+- **Severní most (North Bridge)** – spojuje procesor, operační paměť (má její řadič) a grafiku (AGP). Procesor je k němu připojen sběrnicí **FSB** (Front Side Bus, obousměrná, 64 bitů). Od frekvence FSB se odvozují takty procesoru, paměti i grafiky.
+- **Jižní most (South Bridge)** – obsluhuje periferie: USB, disky (ATA), obvod **Super I/O** (sériový a paralelní port, PS/2, disketa) a paměť s BIOSem.
+- **Nevýhoda:** všechny procesory a všechna data sdílejí jednu FSB, procesory spolu nemohou mluvit přímo.
 
--  architektura rozbočovačů (Hub)
+## Architektura hubů
 
-## 1. Čipové sady s architekturou severního / jižního mostu
+Podobná, jen jinak pojmenovaná.
 
-Čipová sada je rozdělena do dvou samostatných čipů, které jsou oba součástí základní desky počítače:
+- **MCH** (Memory Controller Hub) nahrazuje severní most: procesor, paměť, grafika (AGP nebo PCIe x16). **GMCH** má navíc integrovanou grafiku.
+- **ICH** (I/O Controller Hub) nahrazuje jižní most: USB, PCI, PCIe, disky.
+- Oba čipy spojuje sběrnice **DMI** (Direct Media Interface, až 2 GB/s). AMD používá obdobnou **HyperTransport**.
+- V praxi se dál říká „severní a jižní most“.
 
-### North Bridge (severní most)
+## Řadič paměti v procesoru
 
-Zajišťuje komunikaci mezi procesorem, operační pamětí (obsahuje řadič operační paměti) a grafickým rozhraním (AGP). Zároveň umožňuje spojení procesoru s jižním mostem pomocí 32 bitové PCI sběrnice:
+Řadič operační paměti se přesunul **z desky přímo do procesoru**. Severní most se přejmenoval na **IOH** (Input/Output Hub) a s procesorem komunikuje sběrnicí **QPI** (QuickPath Interconnect), která nahradila FSB.
 
-Na PCI sběrnici bývá připojen síťový adaptér pro připojení k lokální datové síti (LAN), popřípadě jsou zde vyvedeny sloty pro přídavné karty.
+**Výhody:**
+- kratší vzdálenost (milimetry, ne centimetry) = menší zpoždění a vyšší takt paměti,
+- řadič běží na rychlosti procesoru a je pro daný procesor pořád stejný (lepší kompatibilita),
+- každý procesor má vlastní paměť – ve víceprocesorovém serveru se nebrzdí na společné FSB.
 
-Sběrnice mezi procesorem a severním mostem je FSB (Front Side Bus) a je obousměrná. Šířka FSB je 64 bitů (8 Bajtů). Od základní frekvence této sběrnice se odvíjí mimo jiné taktovací frekvence procesoru, operační paměti, sběrnice grafického rozhraní atd.
+**Nevýhoda:** procesor vyzařuje víc tepla.
 
-Jedná-li se o víceprocesorový systém, sdílejí procesory tuto obousměrnou sběrnici pro komunikaci se severním mostem, což může mít za následek snížení přenosové rychlosti pro jednotlivé procesory. Zároveň tyto procesory nemohou komunikovat přímo mezi sebou (nejsou pomocí FSB přímo propojeni).
+**QPI** spojuje i procesory navzájem (serverové Xeony). Celá její propustnost zbývá periferiím, paměť ji nezatěžuje.
 
-### South Bridge (jižní most)
+## Dnešní stav: jediný čip PCH
 
-Zajišťuje komunikaci s periferními zařízeními. Obsahuje řadič USB rozhraní, rozhraní pevného disku (ATA) a tzv. obvod Super I/O (resp. Multi I/O).
+Procesory Intel Core mají v sobě **celý severní most**: řadič paměti, PCIe x16 pro grafiku i grafický procesor (GPU). Na desce zbývá jediný čip, **PCH** (Platform Controller Hub), který dělá práci jižního mostu.
 
-Super I/O obvod v sobě integruje řadiče ostatních zařízení, např. řadič disketové mechaniky, sériového (RS-232) a paralelního (LPT) rozhraní, PS/2 rozhraní atd. Propojuje PCI sběrnici mezi severním a jižním mostem s pomalejší ISA sběrnicí pro přídavné karty. Na jižní most je připojen také paměťový obvod obsahující BIOS.
+- Procesor a PCH spojuje **DMI**.
+- Procesor posílá obraz z integrované grafiky do PCH po sběrnici **FDI** (Flexible Display Interconnect); PCH z něj vytvoří signál pro VGA, DVI, HDMI nebo DisplayPort.
 
-## 2. Čipové sady s architekturou HUBů (resp. rozbočovačů)
+## Otázky k opakování
 
-Architektura čipových sad postavených na tzv. rozbočovačích je podobná architektuře mostů.
-
-Severní most je zde nahrazen obvodem **MCH (Memory Controller Hub)** , který propojuje procesorovou sběrnici se sběrnicí operační paměti (obsahuje řadič operační paměti) a sběrnicí grafického rozhraní AGP nebo PCI Express ×16.
-
-MCH může podporovat připojení více grafických karet (pouze sběrnicový standard PCI Express) a vícekanálový paměťový řadič, případně má integrovaný grafický adaptér (obvod **GMCH** ).
-
-Jižní most je nahrazen obvodem **ICH (I/O Controller Hub)** umožňující připojení periferních zařízení a přídavných karet přes systémové sběrnice (USB, PCI, PCI Express atd.).
-
-Oba obvody jsou vzájemně propojeny speciální rychlou sběrnicí **DMI (Direct Media Interface)** o datové propustnosti až 2 GB/s. Procesory AMD používají podobnou sběrnici nazvanou **Hyper Transport** .
-
-_Poznámka: v běžné praxi se stále běžně používá označení severní a jižní most._
-
-## 3. Čipové sady s integrovaným řadičem operační paměti v procesoru
-
-Pro obvod MCH (severní most) se používá nové označení **IOH** (Input/Output Hub), označení obvodu ICH (jižní most) se nemění. Řadič operační paměti již není integrován v severním mostu (IOH) na základní desce, ale je přímo součástí struktury procesoru. Obvod IOH tedy obsahuje adaptér sběrnice PCI Express ×16 pro připojení především grafických karet a s procesorem komunikuje přes vysokorychlostní procesorovou sběrnici **QPI** (náhrada procesorové sběrnice FSB).
-
-K IOH je pomocí pomalejší sběrnice **DMI** s datovou propustností 2 GB/s připojen obvod ICH, který obsluhuje řadiče disků (PATA, SATA, RAID), řadič USB rozhraní, adaptér sběrnic PCI a PCI Express pro rozšiřující karty, síťové adaptéry, zvukový adaptér, atd. Je zde připojen také obvod obsahující BIOS.
-
-Výhody/nevýhody integrace paměťového řadiče uvnitř procesoru:
-
-1. Řadič operační paměti umístěný přímo v procesoru je od procesorových jader vzdálen řádově několik milimetrů, nikoliv centimetrů, jak je tomu u předchozí architektury čipové sady. Menší vzdálenost znamená menší zpoždění, možné vyšší rychlosti (vyšší taktovací kmitočet paměťové sběrnice) a větší odolnost proti chybám při přenosu dat.
-
-2. Řadič pracuje na vyšší frekvenci. Je vyráběn stejnou technologií jako procesor. S rychlostí procesoru roste i rychlost řadiče.
-
-3. Zlepšuje se kompatibilita a tím i spolehlivost, protože nezávisle na použité čipové sadě na základní desce zůstává řadič pamětí stejný pro daný procesor.
-
-4. Často poměrně energeticky náročný řadič paměti je chlazen společně s procesorem.
-
-5. U víceprocesorových systémů (především servery), má každý procesor vlastní paměťový prostor (viz obrázek níže), což nebrzdí komunikaci procesorů s operační pamětí, jako je tomu v případě použití společné obousměrné procesorové sběrnice FSB u starších čipových sad.
-
-6. Nevýhodou je zvýšení ztrátového tepla vyzářeného procesorem.
-
-### <u>Procesorová sběrnice QPI</u>
-
-Procesor s čipovou sadou komunikuje pomocí rychlé sběrnice **QPI** (QuickPath Interconnect). QPI však zajišťuje nejen komunikaci procesoru s čipovou sadou (náhrada stávající sběrnice FSB), ale u víceprocesorových systémů umožňuje vzájemnou přímou komunikaci jednotlivých procesorů (např. serverové procesory Xeon).
-
-Po sběrnici FSB se data přenášela obousměrně jak z/do operační paměti, tak k periferiím. U víceprocesorových systémů navíc jednotlivé procesory sdílí sběrnici FSB při vzájemné komunikaci:
-
-U QPI sběrnice je celková kapacita (propustnost) sběrnice k dispozici pouze pro periferie. Moduly operační paměti jsou řízeny řadičem integrovaným v procesoru, nezatěžují tedy QPI.
-
-### 4. Čipové sady s plně integrovaným IOH (severním mostem) v procesoru
-
-Současné výkonné, vícejádrové procesory architektury CORE (i3, i5, i7) mají ve své struktuře integrován celý severní most (IOH), tedy nejen řadič operační paměti, ale také adaptér grafické sběrnice PCI Express ×16.
-
-Základní deska je pak osazena pouze jedním obvodem čipové sady, označovaným jako **PCH (Platform Controller Hub)** . Tento obvod je s procesorem spojen sběrnicí DMI, neboli sběrnicí, kterou bývá u předchozích verzí čipových sad spojen severní a jižní most. Obvod PCH vykonává v podstatě funkci jižního mostu. Procesor pak zastává veškerou funkci severního mostu: komunikaci s grafickou kartou přes sběrnici PCI Express ×16, komunikaci s operační pamětí a komunikaci s obvodem PCH.
-
-V současné době je obvod IOH (severní most) přímo integrován do struktury procesoru (obvody procesoru a IOH jsou součástí jednoho polovodičového čipu), včetně integrace grafického procesoru (GPU).
-
-Kromě sběrnice DMI, obsahuje navíc vyhrazenou sběrnici **FDI (Flexible Display Interconnect)** propojující grafický procesor integrovaný v hlavním procesoru s obrazovým rozhraním v čipové sadě. Zde dochází k úpravě obrazových dat a vytvoření videosignálu pro příslušný výstup (analogový VGA, DVI, HDMI, DisplayPort).
-
-_Poznámka: do budoucna se uvažuje integraci všech obvodů čipové sady do struktury procesoru._
+- K čemu slouží chipset a proč jsou sběrnice uspořádané hierarchicky?
+- Co dělal severní a co jižní most?
+- Proč se řadič paměti přesunul do procesoru? Jaké jsou výhody a nevýhoda?
+- Co je PCH a jak je spojen s procesorem?

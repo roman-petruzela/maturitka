@@ -3,139 +3,65 @@ title: "Chlazení PC"
 order: 16
 source: "uvt/cv23_chlazeni_PC.pdf"
 ---
-cv23_chlazeni_PC.odt
-
-**Chlazení** je činnost nutná k odvedení přebytečného tepla od součástek počítače
-
-Jednotlivé součástky jsou konstruovány tak, aby vytvářely co nejméně tepla například snižováním příkonu, přesto produkují tepla tolik, že je nutné odvést ho ven.
-
-K odvedení tepla slouží takzvané chladiče.
+**Chlazení** odvádí z počítače přebytečné teplo. Součástky se konstruují tak, aby ho vytvářely co nejméně, přesto ho produkují tolik, že ho musí odvádět **chladiče**.
 
 ## Zdroje tepla
 
-- **Procesor** – Nejvíce odpadního tepla zde vzniká při přepínání stavů tranzistorů během provádění jeho početních operací
+| Součástka | Odkud teplo pochází |
+|---|---|
+| **Procesor** | přepínání tranzistorů při výpočtech (nejvíc) |
+| **Základní deska** | napájecí obvody, chipset, zvukový a síťový čip |
+| **Grafická karta** | GPU, pak napájecí obvody a paměti |
+| **Pevný disk** | elektromotor, který otáčí plotnami |
+| **Zdroj** | transformátor, usměrňovač, tranzistory |
+| **Operační paměť** | méně tepla, ale špatně se chladí, často 60–70 °C |
 
-- **Základní deska** – Zde mají největší podíl napájecí obvody, které jsou složeny z tranzistorů, poté čipset, pak přídavné čipy, jako zvukový kodek, síťový čip a další, a pak třeba rezistory ad.
+## Druhy chlazení
 
-- **Grafická karta** – Zde nejvíc tepla produkuje GPU, pak napájecí obvody, poté paměti a pak součásti typu rezistorů a další.
+- **Pasivní** – kovový chladič bez pohyblivých částí (měď nebo hliníkové slitiny – pevné, lehké, levné). Nejjednodušší instalace a údržba, bez hluku.
+- **Aktivní** – **ventilátor** žene vzduch přes chladič; vhání studený vzduch do skříně a vyhání teplý.
+- **Kombinované** – aktivní ventilátor na pasivním chladiči (nejběžnější u procesorů).
+- **Vodní / olejové** – uzavřený okruh s kapalinou.
+- **Extrémní** – tekutý dusík nebo oxid uhličitý.
 
-- **Pevný disk** – Nejvíce tepla zde vytváří malý elektromotor, který otáčí disk.
+**Chladicí médium** je tekutina nebo plyn proudící zařízením (vzduch, voda, olej). Má mít velkou tepelnou kapacitu a nízkou viskozitu.
 
-- **Zdroj** – Jedná se o zařízení, které se nachází na konci chladicího systému, nicméně jím produkované teplo se může přes skříň přenášet i do prostoru skříně. Odpadní teplo zde vzniká především v transformátoru, usměrňovači a tranzistorech
+## Teplovodivá pasta
 
-- **Operační paměť** – Tato součást vyzařuje obvykle o poznání méně tepla než ostatní součásti, přesto díky ploše a umístění obtížně chladí a tak mnohdy díky tomu dosahují teploty 60-70 °C a více.
+Zlepšuje přenos tepla z čipu do chladiče (vyplní mikroskopické nerovnosti, které by jinak vyplnil vzduch – špatný vodič).
 
-## Druhy chlazení počítače
+- provozní teplota zhruba −40 až +150 °C, tepelná vodivost 0,8–62,5 W/(m·K),
+- většinou elektricky nevodivá,
+- základem je silikonový tuk s tepelně vodivou přísadou, nebo uhlíková báze.
 
-- ✔ **_Pasivní chlazení_** - kovová nepohyblivá součástka, měděné nebo ze slitiny hliníku kvůli pevnosti, lehkosti a hlavně ceně, na které se dají připevnit malé plastové ventilátory
+Prachový filtr skříně chrání před prachem, ale snižuje proudění vzduchu.
 
-- ✔ **_Aktivní chlazení_** - plastové ventilátory
+## Heatpipe (tepelná trubice)
 
-- ✔ **_Kombinované chlazení_** - na pasivním chladiči aktivní
+**Hermeticky uzavřená trubice** s pracovním médiem. Teplý konec médium odpaří, pára doputuje k chladiči, kondenzuje a **předá teplo**; kondenzát stéká zpět a děj se opakuje. Teplo se tak přenese velmi rychle bez pohyblivých částí.
 
-- ✔ **_Vodní chlazení_** – demineralizovaná voda, speciální chladící olej
+![Heatpipe: odpaření na teplém konci, kondenzace na chladném a návrat kapaliny](/images/content/it/uvod-do-vypocetni-techniky/chlazeni-pc/heatpipe.webp)
 
-- ✔ **_Extrémní chlazení_**
+## Ložiska ventilátoru
 
-## Chladící médium
+kluzná · kuličková · magnetická · keramická
 
-- ➢ chladicí médium – tekutina/plyn (vzduch, vodík, dusík) proudící zařízením
+## Vodní chlazení
 
-- ➢ médium by mělo mít velkou tepelnou kapacitu a nízkou viskozitu
+Vzniklo s příchodem výkonných sestav po roce 2000. Je **tišší a výkonnější** než vzduchové a umí přesunout velké množství tepla z míst, kam se vzduch špatně dostane.
 
-- ➢ aktivní – rotující ventilátor vhání vzduch na pasivní část odvádějící teplo od komponenty
+![Vodní okruh: chladicí blok, hadice, radiátor s ventilátorem a pumpa](/images/content/it/uvod-do-vypocetni-techniky/chlazeni-pc/vodni-okruh.webp)
 
-- ➢ pasivní – tok vzduchu vyvolaný jinými komponentami protéká přes pasivní chladič a vyhání tak teplý vzduch
-
-## Pasivní chlazení
-
-- ➢ Nejlehčí instalace
-
-- ➢ Nejlehčí údržba
-
-- ➢ „Uchladit vše co je v počítači co nejlépe za co nejmenšího hluku a zároveň být levný“
-
-- ➢ aktivní a pasivní
-
-- ➢ Prachový filtr: Zabraňuje proudění vzduchu
-
-### Teplovodivá pasta
-
-Používá se pro zlepšení odvodu tepla z čipu do chladiče.
-
-Provozní teplota: -40 - +150°C
-
-Tepelnou vodivostí: 0.8 – 62,5 W/m.
-
-Elektrická vodivost je nulová
-
-Je vyrobena
-
-- z mastného křemíkového materiálu, který obsahuje tepelně vodivý oxid železitý.
-
-- na uhlíkové bázi
-
-### Aktivní chlazení
-
-- Vhání studený vzduch do PC skříně → ke komponentám
-
-- vyhání teplý vzduch z PC skříně ven → od komponent
-
-### Kombinované chlazení
-
-#### Heatpipe
-
-- Hermetický uzavřená trubice
-
-- Budeme-li jeden konec ohřívat a na druhý umístíme chladič, začne se pracovní médium odpařovat. V důsledku toho roste tlak. Na chlazeném konci páry kondenzují a předávají tak teplo, které bylo spotřebováno k odpaření. Kondenzát teče, nebo vzlíná zpět a tak to jde stále dokola.
-
-#### Ložiska větráku
-
-- Kluzná
-
-- Kuličková
-
-- Magnetická
-
-- Keramická
-
-### Vodní / olejové chlazení
-
-Vodní chlazení vzniklo z nedostatku vhodného chlazení pro počítače s nástupem výkonných sestav někdy po roce 2000.
-
-Vodní chlazení je uzavřená soustava, ve které probíhá chladicí médium – kterým je voda (nejlépe demineralizovaná, olej).
-
-Okruh je tvořen:
-
-- ✗ Vodní pumpa
-
-- ✗ Radiátor
-
-- ✗ Expanzní nádoba
-
-- ✗ Chladící bloky  (CPU, GPU, HDD, paměti RAM atd.)
-
-- ✗ Hadice
-
-- ✗ Ventilátory
-
-- ✗ Kapalina
-
-Méně hlučné a větší chladící výkon než vzduchové.
-
-Prodávají se jak kompletní sestavy, tak jednotlivé díly pro vlastní sestavení vodního okruhu.
-
-Vodní chlazení pouze pomáhá přesouvat velká kvanta tepla z uzavřených a pro vzduch těžko dostupných míst. Díky možnosti přesunu tepla na vhodnější místo lze však s pomocí vodního okruhu chladit sestavu mnohem efektivněji.
-
-## „Akvárko“
+Okruh tvoří **pumpa, chladicí bloky** (CPU, GPU, paměti), **radiátor, hadice, expanzní nádoba, ventilátory** a **kapalina** (nejlépe demineralizovaná voda nebo olej). Prodávají se hotové sady i jednotlivé díly.
 
 ## Extrémní chlazení
 
-Většinou se používá tekutý dusík nebo oxid uhličitý pro extrémní chlazení komponent (CPU, GPU a další..).
+Tekutý dusík nebo oxid uhličitý pro rekordní **přetaktování** procesorů a grafik. Je velmi drahé (jedna tlaková láhev kolem 10 000 Kč).
 
-Většinou za dosažením co největšího přetaktování a tak vytvoření rekordu.
+## Otázky k opakování
 
-Nejedná se vůbec o levné chlazení, cena 10 000 Kč za jednu tlakovou lahev
-
-## Chlazení notebooků
-
+- Které součástky produkují nejvíc tepla?
+- Jaké druhy chlazení znáte a čím se liší pasivní a aktivní?
+- K čemu slouží teplovodivá pasta?
+- Jak funguje heatpipe?
+- Z čeho se skládá vodní chlazení?
