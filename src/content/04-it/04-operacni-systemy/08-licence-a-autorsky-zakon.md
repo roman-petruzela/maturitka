@@ -3,133 +3,39 @@ title: "Licence a autorský zákon"
 order: 8
 source: "osy/Licence.pptx"
 ---
-- software je duševní dílo (zboží, nehmotný majetek) a není ho možné volně šířit, podléhá autorskému zákonu
 
-- softwarová licence
+Software je **duševní dílo** (nehmotný majetek) a podléhá **autorskému zákonu**; nelze ho volně šířit. Při pořízení nekoupíte program, ale jen **licenci** = oprávnění k jeho užívání podle **licenční smlouvy**. Cena je tedy poplatkem za právo užívat; při instalaci si proto přečtěte, co potvrzujete.
 
-   - oprávnění k užívání díla
+## Druhy softwaru podle licencí
 
-   - komplikovaná právnická smlouva – licenční smlouva (typ obchodní smlouvy)
+- **Proprietární** software (closed source) – nelze upravovat: komerční, freeware, shareware.
+- **Svobodný** software (open source) – lze upravovat: public domain, GNU/GPL.
 
-- mnohdy možnost měnit licenci (např. při aktualizaci)
-
-- v případě pořizování softwarového vybavení nejde o koupi softwaru – jde jen o získání LICENCE.
-
-## Licence
-
->  Cena za software je tedy de facto poplatkem za poskytnutou licenci - právo k užívání softwarového produktu.
-
-- Při instalaci software věnujte aspoň mrknutí tomu, co potvrzujete.
-
-- typy softwaru podle licencí (dále)
-
-### Druhy softwarů podle licencí
-
-- Proprietární software (closed source): nelze upravovat
-
-   - Freeware
-
-   - Komerční software
-
-   - Shareware (demo, trial, adware)
-
-- Svobodný software (open source): lze upravovat
-
-   - Public domain
-
-   - GNU/GPL
-
-## Komerční software
-
->  majitelé komerčních programů poskytují uživatelům za úhradu licenci k užívání těchto programů
-
-- software, který je možno šířit (tedy instalovat) za peníze
-
-- možno využívat jen v souladu s licencí (např. nemožnost instalace na SVÉ dva počítače)
-
-- OS Windows, Adobe Ilustrator, AutoCad,…
-
-## Demoverze
-
-- Programy na vyzkoušení, které zpravidla mívají zablokované některé funkce (ukládání souboru na disk, tisk)
-
-- dodávají se zdarma nebo za malý poplatek
-
-## Zkušební (trial) verze programů
-
->  umožňují plnohodnotnou práci včetně ukládání i tisku po určitou dobu (např. 1 měsíc, spustí se 30 krát, …)
-
->  po uplynutí doby program nelze spustit ani znovu nainstalovat
-
-## OEM software
-
-- nové verze programů, které jsou nabízené pouze s novým hardwarem za sníženou cenu (někdy i za 1/3 běžné ceny)
-
-- jsou vázány na díl, se kterým byly zakoupeny (u počítačů je to základní deska počítače) – nedají se instalovat na jiný počítač
-
-- není dostupná podpora formou hot-line
-
-- nedá se upgradovat na vyšší verzi programu
-
-## Freeware
-
->  volné zboží
-
->  software, který můžeme používat a rozšiřovat zdarma, mnohdy jen k nekomerčnímu užití
-
->  licence k programu je poskytována zdarma
-
->  nesmí být změněn
-
->  požaduje dodržování autorských práv
-
-◦ např. nedovolení úpravy programu či komerční využití  nezveřejnění zdrojových kódů
-
-◦ vývoj pouze v rukou autora
-
-- bezpečnostní riziko
-
-◦ později se z něho může stát komerčně šířený program
-
-## Public domain
-
-- skupina programů k volnému užití
-
-- lze je používat, volně šířit, upravovat (i pro komerční účely)
-
-- nemusí být dostupný jeho zdrojový kód
-
-- může být případným koncovým uživatelům k dispozici pouze ve formě spustitelného souboru
-
-## Open Source
-
-- svobodný software
-
-- volně šiřitelný
-
-- legální i technická dostupnost zdrojového kódu
-
-- GPL licence (stanovuje, že nikdo nesmí bránit ve volném nakládání s takto licencovaným programem a každý, kdo k němu něco přidá, musí všem opět své úpravy poskytnout pod stejnou licencí)
-
-## Multilicence
-
->  jedná se o hromadnou licenci, tj. oprávnění instalovat konkrétní software na určený počet počítačů
+| Druh | Charakteristika | Příklad |
+| --- | --- | --- |
+| **komerční** | za úhradu licence; lze užívat jen podle licence (např. omezený počet instalací) | Windows, Adobe Illustrator, AutoCAD |
+| **demoverze** | na vyzkoušení, zablokované funkce (ukládání, tisk) | |
+| **trial** | plnohodnotný, ale časově omezený (např. 30 dní); poté nejde spustit | |
+| **OEM** | levnější, jen s novým hardwarem, **vázaný na počítač** (základní desku), bez podpory a upgradu | Windows předinstalované na PC |
+| **freeware** | zdarma, často jen pro nekomerční užití, **nesmí se měnit**, zdrojový kód není zveřejněn | |
+| **public domain** | volné užití, šíření i úpravy (i komerčně); zdrojový kód nemusí být dostupný | |
+| **open source** | volně šiřitelný, **dostupný zdrojový kód**; licence **GPL**: kdo k programu něco přidá, musí své úpravy poskytnout pod stejnou licencí | Linux, GIMP |
+| **multilicence** | hromadná licence na určený počet počítačů | školní a firemní licence |
 
 ## Ochrana softwaru
 
-- **licenční** (sériové) **číslo** – je na osobu (po registraci)
+- **licenční (sériové) číslo** – vázané na osobu po registraci,
+- **aktivace** – program se po instalaci spojí s konkrétním počítačem (přes Internet nebo telefon),
+- **hardwarový klíč** – malé zařízení (USB), bez něj program nefunguje,
+- ochrana nosiče proti kopírování.
 
-- **aktivace** – po instalaci je program spojen s konkrétním počítačem (aktivace přes Internet nebo telefon)
+**Nelegální překonávání ochrany:** **cracky** (odstraňují ochranu) a **keygenerátory** (generátory čísel) – bývají nakažené malwarem.
 
-- **hardwarový** (softwarový) **klíč** – malé technické zařízení většinou připojeno k USB portu, bez něj program nefunguje
+## Otázky k opakování
 
-- **CD, DVD s programem** – nelze kopírovat, např. speciálně upravená chybová místa
-
-## Nelegální překonávání ochrany softwaru
-
-- umožňují různá warez fóra s licenčními klíči: ◦ Cracky – programy odstraňující ochranu softwaru
-
-   - Keygenerátory – generátory licenčních čísel
-
-- Mohou být nakaženy různými typy malware
-
+1. Co je softwarová licence? ||oprávnění k užívání díla podle licenční smlouvy; při pořízení se kupuje licence, ne program||
+2. Jaký je rozdíl mezi proprietárním a svobodným softwarem? ||proprietární nelze upravovat; svobodný (open source) má dostupný zdrojový kód a lze ho upravovat||
+3. Co je OEM licence? ||levnější licence vázaná na hardware, se kterým byla koupena, bez podpory a upgradu||
+4. Co je freeware a co public domain? ||freeware je zdarma, ale nesmí se měnit; public domain lze volně užívat, šířit i upravovat||
+5. Co stanovuje licence GPL? ||program je volně šiřitelný a každý, kdo přidá úpravy, je musí zpřístupnit pod stejnou licencí||
+6. Jak se software chrání a proč jsou cracky nebezpečné? ||sériové číslo, aktivace, hardwarový klíč; často obsahují malware||

@@ -5,85 +5,70 @@ order: 200
 
 ## Linux – práce v terminálu
 
-- Terminál (shell) – textové rozhraní pro ovládání systému příkazy; na rozdíl od grafického prostředí umožňuje rychlé, přesné a snadno opakovatelné/skriptovatelné operace
-- Základní pohyb v souborovém systému a práce se soubory
+**Terminál** (shell) je textové rozhraní, které umožňuje rychlé, přesné a skriptovatelné operace.
 
 ```bash
-pwd                 # vypíše aktuální adresář (print working directory)
-ls -la               # vypíše obsah adresáře včetně skrytých souborů a s detaily (práva, velikost, datum)
-cd /var/log          # přejde do adresáře
-mkdir novy_adresar    # vytvoří nový adresář
-rm -r stara_slozka    # smaže adresář včetně obsahu (-r = rekurzivně)
-cp soubor.txt zaloha.txt        # zkopíruje soubor
-mv soubor.txt /home/uzivatel/   # přesune (nebo přejmenuje) soubor
-cat soubor.txt        # vypíše celý obsah souboru na obrazovku
-less soubor.txt        # zobrazí obsah souboru po stránkách (pro dlouhé soubory)
-grep "chyba" log.txt   # vyhledá řádky obsahující zadaný text
+pwd                          # aktuální adresář
+ls -la                       # obsah adresáře včetně skrytých souborů a detailů
+cd /var/log                  # přechod do adresáře
+mkdir novy_adresar           # nový adresář
+cp soubor.txt zaloha.txt     # kopírování
+mv soubor.txt /home/uzivatel/   # přesun nebo přejmenování
+rm -r stara_slozka           # smazání adresáře s obsahem
+cat soubor.txt               # vypíše soubor; less ho zobrazí po stránkách
+grep "chyba" log.txt         # řádky obsahující text
 ```
 
-- Oprávnění souborů (`chmod`) – u každého souboru se nastavují práva zvlášť pro vlastníka, skupinu a ostatní (čtení `r`, zápis `w`, spouštění `x`); zapisují se buď symbolicky, nebo číselně (čtení=4, zápis=2, spouštění=1, hodnoty se sečtou)
+**Oprávnění** (`chmod`) se nastavují zvlášť pro **vlastníka, skupinu a ostatní**: čtení `r` = 4, zápis `w` = 2, spouštění `x` = 1, hodnoty se sečtou.
 
 ```bash
-chmod 755 skript.sh
-# vlastník: 7 = rwx (čte, zapisuje, spouští)
-# skupina:  5 = r-x (čte, spouští)
-# ostatní:  5 = r-x (čte, spouští)
-
-chmod 644 dokument.txt
-# vlastník: 6 = rw- (čte, zapisuje)
-# skupina a ostatní: 4 = r-- (jen čtou)
-
-chown uzivatel:skupina soubor.txt   # změní vlastníka a skupinu souboru
+chmod 755 skript.sh          # vlastník rwx, skupina r-x, ostatní r-x
+chmod 644 dokument.txt       # vlastník rw-, ostatní jen čtení
+chown uzivatel:skupina soubor.txt
 ```
 
-- Procesy a služby
+**Procesy a služby a balíčky:**
 
 ```bash
-ps aux               # vypíše všechny běžící procesy
-top                   # průběžně zobrazuje procesy seřazené podle vytížení (interaktivní)
-
-sudo systemctl status apache2   # zjistí stav služby (běží/zastavena)
-sudo systemctl start apache2    # spustí službu
-sudo systemctl stop apache2     # zastaví službu
-sudo systemctl enable apache2   # nastaví, aby se služba spouštěla automaticky při startu systému
+ps aux                       # běžící procesy; top je průběžně řadí podle vytížení
+sudo systemctl status apache2   # stav služby (start, stop, enable = spuštění při startu)
+sudo apt update              # aktualizuje seznam balíčků
+sudo apt install nginx       # nainstaluje balíček (remove odinstaluje)
 ```
 
-- Instalace balíčků (na distribucích odvozených od Debianu, např. Ubuntu)
-
-```bash
-sudo apt update              # aktualizuje seznam dostupných balíčků z repozitářů
-sudo apt install nginx        # nainstaluje balíček (zde webserver nginx)
-sudo apt remove nginx         # odinstaluje balíček
-```
-
-- `sudo` (superuser do) – spustí příkaz s právy administrátora (root); většina správcovských operací (instalace, spouštění služeb, změna vlastníka) ho vyžaduje, běžný uživatelský účet je bez něj omezený
+`sudo` spustí příkaz s právy administrátora (root); běžný účet je bez něj omezený.
 
 ## Windows Server
 
-- Windows Server – varianta Windows určená pro provoz na serveru, poskytuje síťové role a služby, které desktopový Windows nemá (nebo jen v omezené míře) – souborový server, tiskový server, webový server (IIS), řadič domény
-- **Active Directory (AD)** – adresářová služba pro centrální správu uživatelů, počítačů a oprávnění v celé organizaci
-	- **Doménový řadič (Domain Controller)** – server, na kterém AD běží a který ověřuje přihlášení uživatelů do domény
-	- **Doména** – logický celek uživatelů a počítačů spravovaných centrálně přes AD, s jednotnou politikou hesel a oprávnění
-	- **Organizační jednotka (OU, Organizational Unit)** – způsob, jak si v AD hierarchicky uspořádat uživatele a počítače (např. podle oddělení/tříd), aby se na ně daly hromadně aplikovat stejné politiky
-	- **Skupinová politika (Group Policy)** – sada nastavení (bezpečnostní politiky, omezení, instalace software), která se centrálně vynutí na všechny počítače/uživatele v dané OU
+**Windows Server** poskytuje síťové role a služby: souborový a tiskový server, webový server (IIS), řadič domény. Viz [verze, instalace a role](/it/operacni-systemy/52-windows-server-verze-instalace-a-role/).
+
+**Active Directory (AD)** je adresářová služba pro centrální správu uživatelů, počítačů a oprávnění.
+
+- **Doménový řadič** – server, na kterém AD běží a který ověřuje přihlášení do domény.
+- **Doména** – logický celek uživatelů a počítačů spravovaných centrálně.
+- **Organizační jednotka (OU)** – hierarchické uspořádání (např. podle oddělení), na které se hromadně aplikují politiky.
+- **Skupinová politika** – nastavení vynucená na počítačích a uživatelích v OU, viz [GPO](/it/operacni-systemy/14-gpo-zasady-skupiny/).
 
 ### Správa přes PowerShell
 
-PowerShell je skriptovací prostředí a jazyk pro správu Windows (obdoba shellu v Linuxu), příkazy (cmdlety) mají jednotný tvar `Sloveso-Podstatné_jméno`:
+**PowerShell** je skriptovací prostředí a jazyk pro správu Windows. Příkazy (**cmdlety**) mají tvar `Sloveso-Podstatné_jméno`:
 
 ```powershell
-Get-Service                       # vypíše seznam všech služeb a jejich stav
-Get-Service -Name "Spooler"       # vypíše konkrétní službu (např. tiskovou frontu)
-Restart-Service -Name "Spooler"   # restartuje danou službu
-
-New-ADUser -Name "Jan Novak" -SamAccountName "jnovak" -Enabled $true
-# vytvoří nového uživatele v Active Directory
-
-Get-ADUser -Filter * | Select-Object Name, SamAccountName
-# vypíše všechny uživatele domény se jménem a přihlašovacím jménem
-
-Get-EventLog -LogName System -Newest 20
-# vypíše 20 nejnovějších záznamů ze systémového protokolu (logu) – pro diagnostiku problémů
+Get-Service                       # seznam služeb a jejich stav
+Restart-Service -Name "Spooler"   # restart služby (zde tiskové fronty)
+Get-Process                       # běžící procesy
+Get-ChildItem C:\                 # obsah složky (obdoba dir)
+New-ADUser -Name "Jan Novak" -SamAccountName "jnovak" -Enabled $true   # nový uživatel v AD
+Get-ADUser -Filter * | Select-Object Name, SamAccountName              # všichni uživatelé domény
+Get-EventLog -LogName System -Newest 20    # posledních 20 záznamů systémového logu
 ```
 
-- Výhoda PowerShellu oproti klikání v grafickém rozhraní – opakovatelnost (skript lze spustit na desítkách serverů najednou) a možnost automatizace rutinních správcovských úkolů
+Výhoda oproti klikání v grafickém rozhraní: **opakovatelnost** (skript lze spustit na desítkách serverů) a **automatizace** rutinních úkolů.
+
+## Otázky k opakování
+
+1. Co znamená `chmod 755`? ||vlastník rwx, skupina a ostatní r-x||
+2. K čemu slouží `sudo`? ||spustí příkaz s právy administrátora (root)||
+3. Co je Active Directory, doména a OU? ||adresářová služba pro centrální správu; logický celek uživatelů a počítačů; hierarchické uspořádání pro hromadné politiky||
+4. Jaký tvar mají příkazy PowerShellu? ||cmdlety `Sloveso-Podstatné_jméno`, např. Get-Service||
+5. Jak vypíšete běžící služby a restartujete jednu? ||`Get-Service`, `Restart-Service -Name ...`||

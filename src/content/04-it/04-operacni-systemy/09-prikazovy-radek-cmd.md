@@ -3,97 +3,67 @@ title: "Příkazový řádek (cmd)"
 order: 9
 source: "osy/příkazový řádek.pdf"
 ---
-**Příkazový řádek** (`cmd.exe`, *Příkazový řádek*) je textové rozhraní Windows: příkazy se píšou z klávesnice a výsledek se vypisuje jako text. Spustí se přes *Win + R* → `cmd`; pro příkazy, které mění nastavení systému, je potřeba **spustit jako správce**. Novější a výkonnější textové rozhraní Windows je PowerShell — viz [Linux a Windows Server prakticky](/it/operacni-systemy/03-linux-a-windows-server-prakticky/).
+
+**Příkazový řádek** (`cmd.exe`) je textové rozhraní Windows: příkazy se píšou z klávesnice, výsledek se vypíše jako text. Spustí se přes *Win + R* → `cmd`; příkazy měnící systém vyžadují **spuštění jako správce**. Novější je PowerShell – viz [Linux a Windows Server prakticky](/it/operacni-systemy/03-linux-a-windows-server-prakticky/).
 
 ## Základy
 
-- Výzva (prompt) ukazuje **aktuální složku**, např. `C:\Users\jan>`; relativní cesty se počítají od ní.
-- Velikost písmen v příkazech ani názvech souborů nehraje roli.
-- Názvy s mezerou se dávají do uvozovek: `cd "C:\Program Files"`.
-- Nápověda k příkazu: `help příkaz` nebo `příkaz /?` (např. `dir /?`).
-- Přepínače se píšou za lomítko: `dir /s` (i podsložky), `dir /a` (i skryté soubory).
-- **Zástupné znaky**: `*` = libovolný počet znaků, `?` = jeden znak — `del *.tmp` smaže všechny soubory s příponou `.tmp`.
-- Šipka nahoru vrátí předchozí příkaz, *Tab* doplní název souboru.
+- Výzva (prompt) ukazuje **aktuální složku** (`C:\Users\jan>`); velikost písmen nehraje roli, názvy s mezerou se dávají do uvozovek.
+- Nápověda: `příkaz /?`; přepínače za lomítkem (`dir /s`); zástupné znaky `*` (libovolně znaků) a `?` (jeden znak).
+- Šipka nahoru vrátí předchozí příkaz, *Tab* doplní název.
 
 ## Práce se soubory a složkami
 
 | Příkaz | Význam |
 | --- | --- |
-| `cd cesta` | změna aktuální složky (`cd ..` o úroveň výš, `cd \` do kořene disku) |
-| `D:` | přepnutí na jiný disk |
-| `dir` | vypíše obsah složky |
-| `tree` | vypíše strom podsložek |
-| `md název_složky` | vytvoření složky |
-| `rd název_složky` | smazání (prázdné) složky; `rd /s` smaže i s obsahem |
-| `copy "soubor" "cesta kam"` | kopírování |
-| `xcopy`, `robocopy` | kopírování celých složek i s podsložkami |
-| `move "soubor" "cesta kam"` | přesunutí |
-| `ren "původní_název" "nový_název"` | přejmenuje soubor |
-| `del název_souboru` | smaže soubor |
-| `type název_souboru` | vypíše obsah textového souboru (např. s příponou `.txt`) |
-| `cls` | smaže obrazovku |
+| `cd cesta`, `D:` | změna složky, přepnutí disku |
+| `dir`, `tree` | obsah složky, strom podsložek |
+| `md`, `rd` | vytvoření, smazání složky (`rd /s` i s obsahem) |
+| `copy`, `xcopy`, `robocopy`, `move` | kopírování a přesun |
+| `ren`, `del` | přejmenování, smazání souboru |
+| `type soubor` | vypíše obsah textového souboru |
 
-## Přesměrování výstupu
-
-- `>` zapíše výstup do souboru (přepíše ho): `dir > seznam.txt`
-- `>>` připíše výstup na konec souboru
-- `|` předá výstup dalšímu příkazu: `ipconfig /all | findstr IPv4` (vypíše jen řádky s „IPv4“), `dir | more` (stránkování)
+**Přesměrování:** `>` zapíše výstup do souboru, `>>` ho připíše, `|` předá výstup dalšímu příkazu (`ipconfig /all | findstr IPv4`).
 
 ## Síťové příkazy
 
 | Příkaz | Význam |
 | --- | --- |
-| `ipconfig` | IP adresa, maska a výchozí brána jednotlivých síťových karet |
-| `ipconfig /all` | navíc MAC adresa, DNS servery, DHCP server a doba zapůjčení adresy |
-| `ipconfig /release`, `/renew` | uvolní a znovu vyžádá IP adresu od DHCP serveru |
-| `ipconfig /flushdns` | vymaže mezipaměť DNS |
-| `ping adresa` | ověří dostupnost počítače (posílá zprávy ICMP echo), ukáže dobu odezvy; `ping -t` pinguje stále |
-| `tracert adresa` | vypíše směrovače, přes které paket k cíli prochází |
-| `pathping adresa` | kombinace `tracert` a `ping` — ztrátovost na jednotlivých směrovačích |
-| `nslookup doména` | dotaz na DNS server — překlad jména na IP adresu a naopak |
-| `netstat -an` | aktivní spojení a otevřené porty; `-b` ukáže i program (jako správce) |
-| `arp -a` | tabulka ARP — IP adresy a k nim zjištěné MAC adresy v místní síti |
+| `ipconfig /all` | IP adresa, maska, brána, MAC, DNS, DHCP (`/release`, `/renew` – nová adresa; `/flushdns` – smaže cache DNS) |
+| `ping adresa` | ověří dostupnost (ICMP echo) a odezvu |
+| `tracert adresa` | směrovače na cestě k cíli |
+| `nslookup doména` | dotaz na DNS |
+| `netstat -an` | aktivní spojení a otevřené porty |
+| `arp -a` | tabulka ARP (IP ↔ MAC) |
 | `route print` | směrovací tabulka počítače |
-| `getmac` | MAC adresy síťových karet |
-| `hostname` | název počítače |
-| `netsh` | nastavení sítě z příkazové řádky (rozhraní, firewall, Wi-Fi) |
-| `net use Z: \\server\sdileni` | připojí sdílenou složku jako síťovou jednotku |
-| `net share` | vypíše nebo vytvoří sdílené složky na počítači |
-| `net user` | vypíše a spravuje místní uživatelské účty |
+| `getmac`, `hostname` | MAC adresy karet, název počítače |
+| `netsh` | nastavení sítě (rozhraní, firewall, Wi-Fi) |
+| `net use Z: \\server\sdileni` | připojí sdílenou složku jako disk |
+| `net user` | správa místních účtů |
 
-**Typický postup při potížích s připojením:** `ipconfig` (má počítač adresu? Adresa `169.254.x.x` znamená, že nedostal adresu od DHCP) → `ping` výchozí brány → `ping 8.8.8.8` (funguje internet?) → `ping google.com` nebo `nslookup` (funguje DNS?) → `tracert` (kde se spojení ztrácí?).
+**Typický postup při potížích s připojením:** `ipconfig` (adresa `169.254.x.x` = nedostal adresu z DHCP) → `ping` brány → `ping 8.8.8.8` → `ping google.com` nebo `nslookup` (DNS) → `tracert` (kde se spojení ztrácí).
 
-Statická IP adresa přes `netsh`:
-
-```bat
-netsh interface ip set address "Ethernet" static 192.168.1.20 255.255.255.0 192.168.1.1
-netsh interface ip set dns "Ethernet" static 192.168.1.1
-```
-
-Příkazy pro práci se sítí v Linuxu jsou na stránce [Práce se sítí (příkazy)](/it/operacni-systemy/10-prace-se-siti-prikazy/).
+Statická IP: `netsh interface ip set address "Ethernet" static 192.168.1.20 255.255.255.0 192.168.1.1`. Příkazy v Linuxu: [Práce se sítí](/it/operacni-systemy/10-prace-se-siti-prikazy/).
 
 ## Správa systému
 
 | Příkaz | Význam |
 | --- | --- |
-| `systeminfo` | informace o systému a hardwaru (verze Windows, RAM, aktualizace) |
-| `tasklist`, `taskkill /PID číslo` | seznam běžících procesů, ukončení procesu |
-| `shutdown /s /t 0`, `shutdown /r` | vypnutí, restart |
-| `chkdsk C: /f` | kontrola a oprava souborového systému disku |
-| `sfc /scannow` | kontrola a oprava systémových souborů Windows |
-| `diskpart` | správa disků a oddílů (vytváření, mazání, formátování) |
-| `gpupdate /force` | okamžité načtení zásad skupiny — viz [GPO](/it/operacni-systemy/14-gpo-zasady-skupiny/) |
-| `whoami` | přihlášený uživatel (`whoami /groups` i jeho skupiny) |
+| `systeminfo` | informace o systému a hardwaru |
+| `tasklist`, `taskkill /PID číslo` | seznam procesů, ukončení procesu |
+| `shutdown /s /t 0`, `/r` | vypnutí, restart |
+| `chkdsk C: /f`, `sfc /scannow` | kontrola disku, oprava systémových souborů |
+| `diskpart` | správa disků a oddílů |
+| `gpupdate /force` | načtení zásad skupiny – [GPO](/it/operacni-systemy/14-gpo-zasady-skupiny/) |
+| `whoami` | přihlášený uživatel |
 
-## Dávkové soubory
+**Dávkové soubory** (`.bat`, `.cmd`) ukládají příkazy a spouštějí je najednou, např. zálohování: `robocopy "%USERPROFILE%\Documents" "Z:\%USERNAME%" /E`.
 
-Příkazy lze uložit do textového souboru s příponou **`.bat`** nebo `.cmd` a spustit je najednou — tak se automatizují opakované úkoly (zálohování složky, připojení síťových disků při přihlášení):
+## Otázky k opakování
 
-```bat
-@echo off
-rem záloha dokumentů na síťový disk
-net use Z: \\server\zalohy
-robocopy "%USERPROFILE%\Documents" "Z:\%USERNAME%" /E
-echo Hotovo.
-pause
-```
+1. Jak spustíte příkazový řádek jako správce? ||vyhledáním cmd a volbou Spustit jako správce||
+2. Jak vypíšete obsah složky včetně podsložek a uložíte výstup do souboru? ||`dir /s > seznam.txt`||
+3. Jak zjistíte MAC adresu, bránu a DNS server? ||`ipconfig /all`||
+4. K čemu slouží ping a tracert? ||ping ověří dostupnost a odezvu; tracert vypíše směrovače na cestě||
+5. Co znamená adresa 169.254.x.x? ||počítač nezískal adresu od DHCP||
+6. Jak opravíte systémové soubory Windows? ||`sfc /scannow`||
