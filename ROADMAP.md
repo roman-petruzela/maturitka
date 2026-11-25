@@ -6,14 +6,17 @@ Update it at the end of every session ([`docs/workflow.md`](docs/workflow.md)). 
 
 ## Now
 
-- **IT condensing, uncommitted (owner's work in the tree):** `03-uvod-do-vypocetni-techniky` (autorský zákon,
-  periferie, napájecí zdroj a UPS, skříně, zvuková karta, klávesnice a myš), `06-grafika-na-pc`
-  (`00-tematicky-plan.md` deleted, rozcestník updated), both `_meta.json` and the new pictures in
-  `public/images/content/it/uvod-do-vypocetni-techniky/napajeci-zdroj-a-ups/`. Do not touch it without asking.
+- Nothing in progress.
 
 ## Last sessions
 
 Newest first. Keep about 10 entries and delete older ones, because git keeps the history.
+
+### 2026-11-25 – IT hardware pages, release 0.7.17
+- `03-uvod-do-vypocetni-techniky` condensed: autorský zákon, periferie, napájecí zdroj a UPS (new UPS diagram),
+  skříně, zvuková karta, klávesnice a myš. The category is now labelled "Úvod do výpočetní techniky".
+- `06-grafika-na-pc/00-tematicky-plan.md` removed (a bare topic plan), and its links were dropped from the rozcestník.
+- `npm run verify` passed: 8/8 tests, lint, astro check, 164 275 links, 273 formulas, no `ML__error`.
 
 ### 2026-11-25 – workflow for agents (docs and tooling only, no version bump)
 - New `docs/writing-style.md` and `docs/workflow.md`; this file restructured, old review moved to `docs/archive/`.
