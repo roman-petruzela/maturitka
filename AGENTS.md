@@ -3,10 +3,21 @@
 An Astro static study site (13 subjects, ~900 topic pages). This file keeps the rules that must not be
 missed and the commands; the details are split by topic into `docs/`.
 
+## Start of every session
+
+1. **`ROADMAP.md`** — what is in progress (*Now*), what the last sessions did, what is next, what was decided.
+   The SessionStart hook prints *Now* and *Last sessions* together with the version, the branch, the last
+   commits and `git status --short`. Uncommitted changes you did not make are the owner's: do not touch them.
+2. **The docs for the area** you will work in (*Where things are* below).
+3. **[`docs/writing-style.md`](docs/writing-style.md) before you write or rewrite any content.**
+4. **Ask before a large change** — deleting or merging pages, a new subject or category, renaming folders,
+   more than ~10 content files at once, a dependency major, anything listed under *Decisions* in `ROADMAP.md`.
+
 ## Rules of highest importance
 
-1. **Version.** Every user-visible change bumps `package.json`'s `version` by a patch (0.0.1) — and the two
-   top-level `version` fields of `package-lock.json` with it; minor/major only on request — see *Versioning*.
+1. **Version.** A push that contains a user-visible change ends with a patch bump (0.0.1) as its own last commit:
+   `npm version patch --no-git-tag-version` (updates `package-lock.json` too), committed as
+   `chore: bump to vX.Y.Z`; minor/major only on request — see *Versioning*.
 2. **Cache gotcha.** After touching `src/lib/**` (the markdown plugins, `subjects.ts`, `groups.ts`,
    `content-fs.ts`) do a clean rebuild — see *Development* below.
 3. **No names.** Not a teacher's, not a student's, anywhere in the repo — see *No names of teachers or
@@ -15,9 +26,15 @@ missed and the commands; the details are split by topic into `docs/`.
 5. **No CI.** `.github/workflows` was dropped on purpose; do not add it.
 6. **Never invent content.** A lost passage stays marked `((…))`, a lost picture stays marked or omitted —
    never rebuilt as ASCII art (`docs/markdown-pipeline.md`, `docs/conversion.md`).
+7. **End of a change.** Run the checks for what changed, commit only its own files as one
+   `type(scope): description` commit, record the session in `ROADMAP.md`, never push or deploy without being
+   asked — see [`docs/workflow.md`](docs/workflow.md).
 
 ## Where things are
 
+- [`ROADMAP.md`](ROADMAP.md) — Now, Last sessions, Next, Decisions, Done. The review of 0.7.7 is archived in [`docs/archive/review-2026-11-03.md`](docs/archive/review-2026-11-03.md).
+- [`docs/workflow.md`](docs/workflow.md) — How a session starts and ends: which checks for which change, commit messages, the version bump, updating the roadmap.
+- [`docs/writing-style.md`](docs/writing-style.md) — How study pages are written: converted vs. hand-written, tone, typography, page skeleton per type, model pages, a checklist.
 - [`docs/content.md`](docs/content.md) — How the content folders are ordered and labelled, and what the hand-written subjects (English, IT, Czech literature) look like.
 - [`docs/conversion.md`](docs/conversion.md) — Importing Word/PDF/PPTX sources and the artefacts worth grepping for after every import.
 - [`docs/markdown-pipeline.md`](docs/markdown-pipeline.md) — The remark/rehype plugins, content markers and the fences that become figures.
@@ -25,6 +42,17 @@ missed and the commands; the details are split by topic into `docs/`.
 - [`docs/whiteboard.md`](docs/whiteboard.md) — The drawing board under the math pages: coordinates, touch, pen and pictures.
 - [`docs/search.md`](docs/search.md) — The search index and how it is matched.
 - [`docs/frontend.md`](docs/frontend.md) — Styles, client scripts, motion, portraits, the picture viewer, the phone layout, the service worker.
+
+### Skills (`.claude/skills/`)
+
+- `/tema` — write or rewrite one topic page (writing style, neighbours, free `order`, checks, uncertain facts).
+- `/import` — convert an archive file into a page by [`docs/conversion.md`](docs/conversion.md), inventing nothing.
+- `/hotovo` — finish a change: checks, `ROADMAP.md`, commit; the bump only before a push.
+- `/audit-predmetu` — report the content debt of one subject (`((…))`, "doplněno", stubs, placeholders,
+  `source`); it changes nothing.
+
+`.claude/settings.json` holds the SessionStart hook and the allowed commands. It also blocks reading
+`scripts/archive-aliases.local.json` (the real names); the scripts read it themselves.
 
 ## Development
 
@@ -54,16 +82,23 @@ npm run build    # or: astro dev --background
 `package.json`'s `version` is rendered in the site footer (`BaseLayout.astro` imports it
 directly), so it is the visible build marker rather than an npm publishing detail.
 
-**Bump it in the same commit as every user-visible change.** Nothing enforces this
-automatically — no hook, no CI check — so it is on whoever makes the change:
+**Bump it once per push, as the last commit before it, when the push contains a user-visible change.**
+Nothing enforces this automatically — no hook, no CI check — so it is on whoever prepares the push:
 
-- every user-visible change is a **patch** bump (`0.2.0` → `0.2.1`) — content, copy, new pages, layout
+- user-visible changes are a **patch** bump (`0.2.0` → `0.2.1`) — content, copy, new pages, layout
   and design changes, even a new subject alike
 - minor or major only when the owner asks for it explicitly
 - a change nobody sees on the site (docs, scripts, dependencies) does not bump the version
 
-Keep `package-lock.json`'s two top-level `"version"` fields in step, or the next
-`npm install` will rewrite them as a stray diff.
+```
+npm version patch --no-git-tag-version   # package.json + both top-level "version" fields of package-lock.json
+git add package.json package-lock.json
+git commit -m "chore: bump to vX.Y.Z"    # nothing else in this commit
+```
+
+`--no-git-tag-version` keeps npm from committing and tagging by itself. Do not edit the version by hand: if
+`package-lock.json`'s two top-level `"version"` fields fall out of step, the next `npm install` rewrites them as a
+stray diff.
 
 ## Checks
 
