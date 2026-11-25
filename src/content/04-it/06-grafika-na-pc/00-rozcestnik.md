@@ -18,7 +18,7 @@ Rozcestník kategorie: o čem předmět je, kdy se podle ŠVP učí, co si z ně
 | --- | --- | --- |
 | 1. | 2 (68 h za rok) | počítačová grafika – pojmy, formáty, komprese; rastrová grafika; vektorová grafika; propojení rastru a vektoru, skener, trasování; základy 3D grafiky |
 
-Plné znění výstupů je v [přehledu ŠVP](/it/reference/svp-prehled/#493-grafika-na-pc). Rozpis hodin podle měsíců je v [tematickém plánu](/it/grafika-na-pc/00-tematicky-plan/); ten v archivu pochází ze 4. ročníku, obsahem ale odpovídá ŠVP.
+Plné znění výstupů je v [přehledu ŠVP](/it/reference/svp-prehled/#493-grafika-na-pc).
 
 ## Co si určitě zapamatovat
 
@@ -37,7 +37,6 @@ Plné znění výstupů je v [přehledu ŠVP](/it/reference/svp-prehled/#493-gra
 
 **Teorie**
 
-- [Tematický plán](/it/grafika-na-pc/00-tematicky-plan/)
 - [Počítačová grafika – pojmy a software](/it/grafika-na-pc/01-pocitacova-grafika-a-software/) – rastr a vektor, přehled programů
 - [Barevné modely, rozlišení a správa barev](/it/grafika-na-pc/06-barevne-modely-rozliseni-a-sprava-barev/) – RGB, CMYK, HSV, DPI, barevná hloubka, datová velikost, gamut a kalibrace
 - [Grafické formáty a komprese](/it/grafika-na-pc/07-graficke-formaty-a-komprese/)
