@@ -3,200 +3,72 @@ title: "Zvuková karta a reproduktory"
 order: 19
 source: "uvt/cv25_Zvukova_karta_reproduktory.pdf"
 ---
-- Éra IBM PC – **PC Spreaker** – přehraje jen jeden tón
 
-   - PCM (Pulse-code modulation) – technika přehrávání zvuků
+**Zvuková karta** převádí zvuk mezi analogovou a digitální podobou. Obsahuje **zvukový čip** a **A/D a D/A převodník**:
 
-- Pozdní 80. léta – nástup prvních zvukových karet
+- **nahrávání** – analogový signál z mikrofonu se **vzorkuje** (A/D) a uloží jako čísla,
+- **přehrávání** – digitální data se převedou zpět na analogový signál (D/A) a jdou do reproduktorů.
 
-Zvuková karta, Reproduktory a mikrofony
-
-- 1987 - **ISA slot** – **AdLib** - reprodukování hudby pomocí FM syntézy (modulace frekvence), 9 zvukových kanálů nebo 6 kanálů a 5 nástrojů
-
-- **IBM Music Feature Card** - osm FM stereo hlasů, rozsáhlá knihovna kvalitních elektronických nástrojů, příliš drahá
-
-- **IBM PC Junior** – Intel 8088, 64kB RAM, zvukový čip -Texas Instruments – modelu SN76489, generátor bílého šumu,
-
-## Něco málo z historie
-
-- Creative Labs
-
-- vede v oblasti vývoje herních zvukových karet
-
-- V 80. letech původní název Creative Music System (C/MS)
-
-- **Game Blaster** - 12 PC Speakerů s 16 stupni hlasitosti v kombinaci s generátorem šumu schopným reprodukce tří různých bicích nástrojů a stereo výstupem, lepší povědomí v herní komunitě než AdLib
-
-- **Sound Blaster** - 1.0 mikrořadič poskytující zvuk v kvalitě 22kHz/8bit/mono a schopný jej zaznamenávat v 13kHz, vynikalo digitální zpracování audia, rozhraní MIDI * a také herní port
-
-   - **Advanced Gravis Computer Technology**
-
-      - 1991 - **Gravis Ultrasound** - vybavena wavetable syntézou, tedy už před Sound Blasterem 16, 256kB paměti RAM, rozšířit až na 1MB, mix 32 hlasů v 16bitech a 44,1kHz
-
-      - 1994 - **Ultrasound MAX** s 512kB RAM,
-
-- 1991 **Sound Blaster Pro** , - záznam 22,05kHz, přehrávání v 45kHz, vylepšení: druhý čip→ stereo přehrávání, plně duplexní MIDI,
-
-- **Sound Blaster 16** - 16-bitové digitální zpracování zvuků,
-
-## Firmy vyrábějící zvukové karty
-
-- Creative Labs
-
-- Asus
-
-- Axagon
-
-- C-Tech
-
-- Gembird
-
-- Audioquest
-
-- ...
+Kvalitu digitálního zvuku určuje **vzorkovací frekvence** (CD 44,1 kHz, video 48 kHz) a **bitová hloubka** (16 nebo 24 bitů).
 
 ## Druhy zvukových karet
 
-<img src="/images/content/it/uvod-do-vypocetni-techniky/zvukova-karta-a-reproduktory/01.webp" alt="Interní, externí a integrovaná zvuková karta" width="545" loading="lazy" decoding="async">
+![Interní, externí a integrovaná zvuková karta](/images/content/it/uvod-do-vypocetni-techniky/zvukova-karta-a-reproduktory/01.webp)
 
+- **integrovaná** – čip přímo na základní desce, dnes standard,
+- **interní** – rozšiřující karta do slotu (dříve ISA, dnes PCI Express),
+- **externí** – připojená přes USB, kvalitnější převodníky, pro hudebníky a studia.
 
-## Barevné označení vstupů a výstupů zvukové karty
+## Barvy konektorů
 
-|Barva|Funkce|
-|---|---|
-|Růžová|Analogový mikrofonní vstup.|
-|Světle modrá|Analogový vstup.|
-|Limetkově zelená|Analogový výstup pro hlavní stereo signál (přední reproduktory nebo sluchátka).|
-|Černá|Analogový výstup pro zadní reproduktory.|
-|Stříbrná|Analogový výstup pro boční reproduktory.|
-|Oranžová|S/PDIF digitální výstup.|
+| Barva | Funkce |
+| --- | --- |
+| **růžová** | vstup pro mikrofon |
+| **světle modrá** | linkový vstup |
+| **zelená** | hlavní výstup (přední reproduktory, sluchátka) |
+| černá | zadní reproduktory |
+| stříbrná | boční reproduktory |
+| oranžová | digitální výstup S/PDIF |
 
+## Krátce z historie
 
-## Reproduktor
-
-- Přeměňuje elektrickou energii na mechanickou energii (zvuk)
-
-## Parametry zvukových karet
-
-- Obsahuje zvukový čip a AD/DA převodník
-
-- Nahrávaný signál digitalizuje pomocí vzorkování a uloží v počítači.
-
-- Digitalizovaný signál (hudba) se převádí na analogový a posílá na reproduktory.
-
-●
+- **PC Speaker** (IBM PC) – zahraje jen jednoduché tóny.
+- **AdLib** (1987, slot ISA) – hudba pomocí **FM syntézy** (modulace frekvence).
+- **Creative Labs**: Game Blaster, **Sound Blaster** (1989, digitální zvuk, MIDI, herní port), Sound Blaster Pro (stereo), **Sound Blaster 16** (16bitový zvuk).
+- **Gravis UltraSound** (1991) – **wavetable syntéza** (nahrané vzorky skutečných nástrojů).
 
 ## Reproduktory
 
-## Dělení reproduktorů
+**Reproduktor** mění elektrický signál na zvuk. Nejběžnější **elektrodynamický**: proud teče cívkou v poli **permanentního magnetu**, cívka se pohybuje a rozkmitá **membránu**.
 
-- Dle způsobu vyzařování
-
-- **Přímovyzařující** - kmitající membrána je bezprostředně navázána na prostředí, do kterého se akustická energie vyzařuje, účinnost nepřevyšuje několik málo procent (klasické repro k PC)
-
-- **Nepřímovyzařující** - mezi prostředím a membránou je zvukovod, zvýšení účinnosti, lze tvarovat směrový diagram.
-
-- Dle pohonu
-
-- Elektrodynamické – cívka a permanentní magnet
-
-- elektromagnetické
-
-- elektrostatické
-
-- piezoelektrické
-
-- Plazmové - ionofon
-
-- pneumatické
-
-## Dělení reproduktorů
-
-- Dle účelu
-
-- pro domácí použití (spotřební elektronika, HiFi soustavy)
-
-- vysoce kvalitní měniče pro studiové monitory, HiEnd audio apod.
+| Dělení | Druhy |
+| --- | --- |
+| podle **pohonu** | **elektrodynamické**, elektromagnetické, elektrostatické, piezoelektrické, plazmové |
+| podle **vyzařování** | **přímovyzařující** (membrána přímo do prostoru, PC reproduktory), **nepřímovyzařující** (přes zvukovod, vyšší účinnost) |
+| podle **frekvence** | **hlubokotónové** (basy, 20–1 500 Hz), **středotónové** (80–12 000 Hz), **vysokotónové** (2 000–20 000 Hz), širokopásmové |
+| podle **účelu** | domácí, studiové monitory, ozvučení (PA), do auta, rozhlas |
 
 ## Mikrofony
 
-   - je zařízení pro přeměnu akustického (zvukového) signálu na signál elektrický (Emile Berliner 4. března 1877).
+**Mikrofon** mění zvuk na elektrický signál.
 
-- pro profesionální použití (výkonné PA systémy apod.)
+- **kondenzátorový** – nejkvalitnější, studiový, potřebuje **fantomové napájení** (obvykle **48 V**),
+- **elektretový** – levná varianta kondenzátorového (headsety, notebooky),
+- **dynamický** – odolný, bez napájení (pódia),
+- další: páskový, uhlíkový, piezoelektrický.
 
-- ozvučení automobilů
+![Ukázky směrových charakteristik mikrofonů](/images/content/it/uvod-do-vypocetni-techniky/zvukova-karta-a-reproduktory/02.webp)
 
-- pro elektrické hudební nástroje
+**Směrová charakteristika** udává, odkud mikrofon snímá: **všesměrová**, **ledvinová** (zepředu), osmičková (zepředu a zezadu).
 
-- reproduktory a reprosoustavy pro přenos mluveného slova (městský rozhlas, sirény apod.)
+**PC mikrofon** se připojuje 3,5mm jackem (standard **PC99**): špička = signál, kroužek = napájení +5 V, objímka = zem.
 
-- speciální (např. ozvučení pod vodní hladinou, pro vědecké pokusy,  vojenské použití aj.)
+## Otázky k opakování
 
-- Dle frekvenčního rozsahu
-
-- Širokopásmové - od 45 – 15 000 Hz,
-
-- Hlubokotónové (basové) reproduktory
-
-- 20 – 1 500 Hz (nízkorezonanční o velkém průměru)
-
-- 35 – 5 000 Hz (běžný basový nebo tzv. Středobasový)
-
-- Středopásmové (středotónové) reproduktory - 80 – 12 000 Hz
-
-- Vysokotónové (výškové) reproduktory - od 2 000 do 20 000 Hz
-
-## Dělení mikrofonů
-
-- Kondenzátorový mikrofon – nejkvalitnější, profesionální
-
-- Elektretový mikrofon -
-
-- Dynamický/Membránový mikrofon
-
-- Páskový mikrofon
-
-- Uhlíkový mikrofon
-
-- Piezoelektrický mikrofon
-
-## Vlastnosti mikrofonů
-
-<img src="/images/content/it/uvod-do-vypocetni-techniky/zvukova-karta-a-reproduktory/02.webp" alt="Ukázky směrových charakteristik mikrofonů" width="300" loading="lazy" decoding="async">
-
-
-- Frekvenční charakteristiky
-
-## Příslušenství mikrofonů
-
-- Stojan
-
-- Stojánek
-
-- Husí krk
-
-- Tyčka
-
-- Šibenice
-
-- Spona na klopu
-
-- Ochrana proti větru
-
-## Napájení mokrofonů
-
-   - **Tonaderspeisung** – také AB napájení, T-power nebo paralelní napájení, napájení 12 V je vedeno přímo
-
-   - **Fantomové napájení** - mikrofon je spojen symetrickým vedením se spotřebičem, napájení 9,12,24,48 a 52V.
-
-   - **Standardu PC99** - mikrofon připojený nesymetricky k počítači stereofonním 3,5mm (1/8") konektorem „jack“, přičemž na spodní části konektoru (sleeve) je zem, na kroužku (ring) je napájení +5 V pro mikrofonní předzesilovač, na špičce (tip) je signál z mikrofonu.
-
-- Pop filtr (více druhů)
-
-## Citace
-
-- https://www.svethardware.cz/zvukove-karty-a-jejich-vyvoj-1-cast/15816
-
-- ● https://www.svethardware.cz/zvukove-karty-a-jejich-vyvoj-2-cast/15932 ● https://www.svethardware.cz/zvukove-karty-a-jejich-vyvoj-3-cast/16014-4 ● https://cs.wikipedia.org/wiki/Zvukov%C3%A1_karta ● http://www.elektroraj.cz/2014/04/01/osciloskop-a-spektr-analyzator-zdarma/ ● https://cs.wikipedia.org/wiki/Reproduktor ● https://cs.wikipedia.org/wiki/Mikrofon ● https://is.muni.cz/do/1492/el/sitmu/law/html/vzorkovani.html ● http://fyzika.jreichl.com/main.article/view/400-elektrodynamicky-reprodukor
-
-- a
+1. Co dělá zvuková karta a z čeho se skládá? ||převádí zvuk mezi analogovou a digitální podobou; zvukový čip a A/D a D/A převodník||
+2. Co určuje kvalitu digitálního zvuku? ||vzorkovací frekvence (44,1 kHz CD) a bitová hloubka (16/24 bitů)||
+3. Jaké jsou druhy zvukových karet? ||integrovaná, interní (PCIe), externí (USB)||
+4. Co znamená růžový, zelený a modrý konektor? ||růžový mikrofon, zelený hlavní výstup, modrý linkový vstup||
+5. Jak funguje elektrodynamický reproduktor? ||cívka v poli permanentního magnetu se pohybuje podle proudu a rozkmitá membránu||
+6. Jak se dělí reproduktory podle frekvence? ||hlubokotónové, středotónové, vysokotónové, širokopásmové||
+7. Který mikrofon potřebuje fantomové napájení? ||kondenzátorový, obvykle 48 V||

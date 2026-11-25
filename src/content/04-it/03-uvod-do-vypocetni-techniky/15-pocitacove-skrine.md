@@ -3,116 +3,34 @@ title: "Počítačové skříně"
 order: 15
 source: "uvt/cv22_Pocitacove_skrine.pdf"
 ---
-## 2h
 
-Slouží pro upevnění komponent počítače jako jeden celek.
+**Počítačová skříň (case)** drží komponenty pohromadě, chrání je a odvádí z nich teplo. Velikost skříně určuje, jaká **základní deska**, jak dlouhá **grafická karta** a kolik **ventilátorů** se do ní vejde.
 
-### Druhy PC skříní:
+## Druhy skříní
 
-**Server: 1U či 2U**
+| Druh | Základní deska | Grafická karta | Vlastnosti |
+| --- | --- | --- | --- |
+| **Desktop** | mATX, mITX | 150–200 mm | leží naležato, monitor na ní; horší chlazení |
+| **Mini Tower** | mATX, mITX | 300–350 mm | malé kancelářské a multimediální PC |
+| **Midi Tower** | ATX, mATX, mITX | 350–400 mm | **nejrozšířenější**, dobré chlazení, výkonné PC |
+| **Big Tower** | E-ATX, ATX a menší | přes 400 mm | velmi dobré chlazení, víc grafických karet; velká a dražší |
+| **Cube, HTPC, mini PC** | mITX | krátké | kompaktní, do obýváku (HTPC = PC k televizi) |
+| **Rack 1U, 2U, 4U** | serverové | podle výšky | do serverového stojanu, **1U = 44,45 mm** výšky |
 
-#### 4U
+Typické rozměry: Midi Tower asi 21 × 48 × 43 cm (š × v × h), Big Tower asi 29 × 63 × 67 cm.
 
-#### Desktop
+## Parametry pro výběr
 
-Umisťují se naležato a na počítač se postaví monitor.
+- **podporované formáty desky** – ATX, E-ATX, micro-ATX, mini-ITX,
+- **maximální délka grafické karty** a **výška chladiče CPU**,
+- **pozice pro ventilátory** (velikost 40–200 mm, počet) a **podpora vodního chlazení** (místo pro radiátor),
+- **pozice pro disky** – 2,5″, 3,5″, 5,25″ (optická mechanika),
+- **přední panel** – USB 2.0, USB 3.2, USB-C, 3,5mm jack,
+- **výbava** – prachové filtry, průhledná bočnice, zvuková izolace.
 
-- Pro menší komponenty
+## Otázky k opakování
 
-- Pro nenáročnější uživatele
-
-- Podpora základních desek mATX i mITX
-
-- Pro grafickou kartu 150–200 mm
-
-- Nevhodná pro větší komponenty
-
-- Horší chlazení
-
-**Cube**
-
-#### HTPC
-
-#### Pi-Case
-
-#### MicroTower
-
-#### Velikost:
-
-Šířka [mm]: 175
-
-Výška [mm]: 410
-
-Hloubka [mm]: 365
-
-#### MiniTower
-
-Mini Tower je PC skříň vhodná pro nenáročné uživatele, kteří počítač využívají především k práci nebo ke sledování filmů a jiných videí.
-
-- Ideální pro malé komponenty
-
-- Podpora základních desek mATX a mITX
-
-- Pro grafickou kartu o velikosti **300–350 mm**
-
-- Horší chlazení
-
-#### Velikost:
-
-Šířka [mm]: 218
-
-Výška [mm]: 410
-
-Hloubka [mm]: 411
-
-#### MidiTower
-
-Midi Tower je pravděpodobně nejoblíbenější počítačovou skříní. Uvnitř je prostorná, ale zároveň nezabírá tolik místa.
-
-- Dobré chlazení
-
-- Pro výkonnější počítače
-
-- Podpora základních desek ATX, mATX a mITX
-
-- Pro grafickou kartu **350–400 mm**
-
-- Žádné
-
-#### Velikost:
-
-Šířka [mm]: 214 Výška [mm]: 482
-
-**Hloubka [mm]: 426**
-
-#### MiddleTower
-
-**Velikost** : Šířka [mm]: 199 Výška [mm]: 432 Hloubka [mm]: 457
-
-#### BigTower
-
-Big Tower je skříň na počítač větších rozměrů. Vejdou se vám do ní i skutečně velké komponenty a hned několik grafických karet naráz.
-
-- Velmi dobré chlazení
-
-- Pro základní desky ATX a rozšířené ATX či mITX nebo mATX
-
-- Použití i pro herní sestavy
-
-- Pojme grafické karty větší **než 400 mm**
-
-- Zabere více místa
-
-- Vyšší pořizovací cena
-
-#### Velikost:
-
-Šířka [mm]: 291 Výška [mm]: 626 Hloubka [mm]: 666
-
-#### Parametry pro výběr
-
-Druh
-
-Výška / Šířka / Hloubka Max. výška chladiče CPU (200-250mm) Maximální délka karet (450-500mm) Velikosti pozic pro ventilátory (40-200mm) Počet pozic pro ventilátory Počty pozic (5,25“, 2,5“, 3,5“ ) Podpora formátu základní desky (ATX, EATX, Mini-ATX, Mikro-ATX, ...) Konektory na front panelu (USB 2.0, USB 3.2- Gen1, Gen2, typ C, 3,5mm jack) Speciální vybavení (prachové filtry, průhledné čelo či bočnice, zvuková izolace) Podpora vodního chlazení
-
-### Zdroje:
+1. Jaké jsou druhy počítačových skříní? ||desktop, mini tower, midi tower, big tower, cube/HTPC, rack 1U/2U/4U||
+2. Která skříň je nejrozšířenější a proč? ||midi tower – dost místa pro ATX desku a velkou grafiku, dobré chlazení, nezabírá moc místa||
+3. Jaké parametry rozhodují při výběru skříně? ||formát desky, délka grafiky, výška chladiče, ventilátory a vodní chlazení, pozice pro disky, konektory na předním panelu||
+4. Co znamená 1U? ||výšková jednotka serverového racku, 44,45 mm||

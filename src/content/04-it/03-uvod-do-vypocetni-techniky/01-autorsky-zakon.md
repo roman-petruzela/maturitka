@@ -3,58 +3,54 @@ title: "Autorský zákon"
 order: 1
 source: "IT/4. Autorský zákon.docx"
 ---
-- je zkrácený název zákona 121/2000 Sb., o právu autorském a právem s ním souvisejícím; nabyl účinnosti 1. prosince 2000
-- řeší autorské právo a právní problémy s ním související
-- kromě tradičního pojetí se zejména orientuje na německé a francouzské pojetí autorských práv
-- vychází z práv Evropské unie a mezinárodní smlouvy, které Česká republika závazně potvrdila
-- zákonodárce musí dbát na dodržení mezinárodních smluv – Bernská úmluva – zajistila mezinárodní význam autorských práv; dále dokumentem tzv. Evropská dohoda a další evropské směrnice
 
-__Autorské právo__
+**Autorský zákon** je zkrácený název zákona **č. 121/2000 Sb.**, o právu autorském (účinný od 1. 12. 2000). Chrání tvůrce před nespravedlivým využíváním jejich děl. Vychází z práva EU a mezinárodních smluv, hlavně z **Bernské úmluvy**.
 
-- odvětví práva, která popisuje nároky tvůrců autorských děl na ochranu před nespravedlivým využíváním jejich tvorby
-- díky tomuto zákonu mohou autoři rozhodovat o některých aspektech využívaní jejich děl
-- autorské právo ovšem nechrání samotné myšlenky, či ideje, pouze konkrétní díla v objektivně vnímatelné podobě
-- autorským dílem je pouze jedinečný výsledek tvůrčí činnosti autora, dílem není námět, zpráva, informace, metoda, teorie, vzorec, graf, tabulka fyzikálních konstant, výstup počítačového programu apod.
+## Dílo a autor
 
-__Dílo__
+- **Dílo** je jedinečný výsledek **tvůrčí činnosti** autora vyjádřený v objektivně vnímatelné podobě (text, obraz, hudba, fotografie, program…).
+- **Nechrání** se myšlenka, námět, zpráva, informace, metoda, teorie, vzorec, technické řešení ani výstup počítačového programu.
+- **Počítačový program** je chráněn jako dílo, včetně přípravných materiálů. Chráněn je konkrétní kód, ne myšlenky a principy, na kterých stojí. Chráněny jsou i fotografie a **databáze**.
+- **Autor** je **fyzická osoba**, která dílo vytvořila. U souborného díla nebo databáze ten, kdo obsah tvůrčím způsobem vybral a uspořádal.
+- **Plagiát** – cizí dílo, které někdo neprávem vydává za své.
 
-- je předmětem ochrany autorského práva jako jakkoliv vnímatelné dílo, které je výsledkem jedinečné tvůrčí činnosti autora
-- lze tvrdit, že téměř každé dílo kromě počítačových programů splňuje tuto podmínku
-- fiktivně přiznané statuty díla, ačkoliv nesplňují předchozí definice přísluší: počítačový program, fotografie a databáze, překlad atd.
-- že počítačový program (včetně přípravných a koncepčních materiálů) je tímto zákonem chráněn, nejsou jím však chráněny myšlenky, principy, ani žádná technická řešení
+## Práva autora
 
-__Autor a ostatní účastníci autorskoprávních vztahů__
+| | Osobnostní práva | Majetková práva |
+| --- | --- | --- |
+| Co obsahují | rozhodnout o zveřejnění, být uveden jako autor, nedotknutelnost díla | užít dílo (rozmnožovat, šířit, sdělovat veřejnosti) a dát k tomu svolení – **licenci** |
+| Převod | nelze převést ani se jich vzdát | nelze převést, ale lze udělit licenci; dědí se |
+| Trvání | zanikají smrtí autora | **70 let po smrti autora** |
 
-- autorem je fyzická osoba, která dílo vytvořila, nebo v případě souborných děl (resp. databází) uspořádala či vybrala, což je ale nutno činit „tvůrčím způsobem“, protože jinak by nešlo o autora, ale plagiátora
-- Plagiát je umělecké nebo vědecké dílo, jež někdo jiný, než skutečný autor neprávem vydává za své
+**Licence** = svolení k užití díla. Druhy softwarových licencí (freeware, trial, OEM, GPL…) jsou na stránce [licence a autorský zákon](/it/operacni-systemy/08-licence-a-autorsky-zakon/).
 
-__Volná užití__
+## Volná užití
 
-- Pokud užiju dílo podléhající autorskému zákonu pouze pro osobní potřebu, nejedná se o porušení zákona; v případě vytvoření rozmnoženiny, či napodobeniny dochází k porušení
-- Nedochází k zasažení do autorského práva v případě, že vytvoříme pouze dočasnou napodobeni nebo rozmnoženinu pro předvedení zákazníkovi
-- Rozmnoženina zhotovená pro osobní potřebu nesmí být použita k jinému účelu
+- Dílo lze bez svolení užít pro **osobní potřebu** (např. kopie hudby pro sebe), ale kopii nelze použít k jinému účelu ani šířit.
+- **Neplatí to pro počítačové programy a elektronické databáze** – oprávněný uživatel smí udělat jen **záložní kopii** programu.
+- Dále např. **citace** s uvedením autora a zdroje, užití pro výuku nebo zpravodajství.
 
-__Zasahování do práva autorského__
+## Zásahy do autorského práva
 
-- odstranění nebo změna jakékoli elektronické informace o identifikaci práv k dílu
-- rozšiřování rozmnoženiny díla včetně jejich dovozu, jakož i sdělování díla veřejnosti, u nichž byly elektronické informace o identifikaci práv k dílu odstraněny nebo pozměněny, bez svolení autora
-- kdo pro své dílo používá názvu nebo vnější úpravy již použitých po právu jiným autorem pro dílo téhož druhu, jestliže by to mohlo vyvolat nebezpečí záměny obou děl
+- neoprávněné rozmnožování, šíření a zpřístupňování díla (pirátství, sdílení programů),
+- odstranění nebo změna elektronické informace o právech k dílu (např. vodoznaku, licenčních údajů),
+- použití názvu nebo vzhledu cizího díla stejného druhu, které může vést k záměně.
 
-__Stanovení výše škody__
+**Následky:** občanskoprávní (zdržení se jednání, náhrada škody, vydání bezdůvodného obohacení) a trestní – **porušení autorského práva** (§ 270 trestního zákoníku): odnětí svobody, zákaz činnosti, propadnutí věci. Výše škody rozhoduje o přísnosti trestu (podle § 138 trestního zákoníku):
 
-- stanovení výše škody se vychází z ceny, za kterou se věc, která byla předmětem útoku, v době a v místě činu obvykle prodává
-- Škodou nikoli __nepatrnou__ se rozumí škoda dosahující částky nejméně 5 000 Kč, škodou nikoli malou se rozumí škoda dosahující částky nejméně 25 000 Kč, větší škodou se rozumí škoda dosahující částky nejméně 50 000 Kč, __značnou škodou__ se rozumí škoda dosahující částky nejméně 500 000 Kč a __škodou velkého rozsahu__ se rozumí škoda dosahující nejméně částky 5 000 000 Kč
+| Škoda | Nejméně |
+| --- | --- |
+| nikoli nepatrná | 10 000 Kč |
+| nikoli malá | 50 000 Kč |
+| větší | 100 000 Kč |
+| značná | 1 000 000 Kč |
+| velkého rozsahu | 10 000 000 Kč |
 
-__Porušení autorského práva__
+## Otázky k opakování
 
-- Kdo neoprávněně zasáhne do zákonem chráněných práv k autorskému dílu, uměleckému výkonu, zvukovému či zvukově obrazovému záznamu, rozhlasovému nebo televiznímu vysílání nebo databázi, bude potrestán odnětím svobody
-
-__Softwarové Licence__
-
-- Licence - termín, který znamená povolení nebo oprávnění k určité činnosti, opravňující k využití nebo nakládání s autorským dílem.
-- Freeware – volně zpřístupněný software plně funkční bez poplatků, ale zanechává autorovi autorská práva; avšak software nesmí být pozměňován, šířen, či prodáván
-- Adware – užívání softwaru je bezplatné, ale v programu se zobrazuje reklama, ze které je vývoj placen, při zakoupení verze bez reklamy, reklamy zmizí
-- Demo – program sloužící k předvedení schopností daného produktu, ne však k plnému nasazení, protože je funkčnost produktu omezena
-- Trial – smyslem je umožnit zájemci vyzkoušet si ovládání programu před zakoupení plné verze, tento program je časově omezen
-- Public domain - uvedením této licence se autor vzdává kontroly nad publikovaným software - můžete jej volně šířit a používat, ale i měnit či zahrnout do svých aplikací
-- Creative commons - Z právního hlediska to znamená, že každý, kdo užije dílo v souladu s licencí Creative Commons, zároveň automaticky uzavírá s autorem smlouvu, která ho k užití díla opravňuje. Aniž by autora kdokoliv musel kontaktovat, vznikne tolik smluv, kolik je uživatelů
+1. Jak se jmenuje autorský zákon a z jakého roku je? ||zákon č. 121/2000 Sb., o právu autorském||
+2. Co je dílo a co autorský zákon nechrání? ||jedinečný výsledek tvůrčí činnosti v objektivně vnímatelné podobě; nechrání myšlenky, náměty, metody, vzorce, technická řešení||
+3. Je chráněn počítačový program? ||ano, jako dílo včetně přípravných materiálů; chráněn je kód, ne myšlenky a principy||
+4. Osobnostní × majetková práva autora? ||osobnostní (zveřejnění, autorství) nelze převést a zanikají smrtí; majetková (užití díla) se licencují a trvají 70 let po smrti||
+5. Smím si zkopírovat program pro osobní potřebu? ||ne, u programů a elektronických databází smí oprávněný uživatel udělat jen záložní kopii||
+6. Jaké jsou následky porušení autorského práva? ||náhrada škody, zdržení se jednání; trestní: odnětí svobody, zákaz činnosti, propadnutí věci||
