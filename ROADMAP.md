@@ -12,6 +12,13 @@ Update it at the end of every session ([`docs/workflow.md`](docs/workflow.md)). 
 
 Newest first. Keep about 10 entries and delete older ones, because git keeps the history.
 
+### 2026-11-25 – Právo: Ústavní právo (učební materiál)
+- New `09-pravo/01-ucebni-material/ustavni-pravo.md` (order 2), written from 15 photographed notes (handwriting plus a
+  printed LZPS worksheet), hand-written kind, no `source`. Covers Ústava, dělba moci, prezident, soudy, NKÚ, ČNB,
+  územní samospráva and LZPS, with review questions.
+- Left out because unverified: immunity of deputies and senators, the school ombudsman from 2026, the "3členný petiční
+  výbor", the ČNB branches. `check-frontmatter`, `check-content`, build and `check-links` passed; the version is not bumped yet.
+
 ### 2026-11-25 – IT hardware pages, release 0.7.17
 - `03-uvod-do-vypocetni-techniky` condensed: autorský zákon, periferie, napájecí zdroj a UPS (new UPS diagram),
   skříně, zvuková karta, klávesnice a myš. The category is now labelled "Úvod do výpočetní techniky".
