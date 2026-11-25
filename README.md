@@ -18,21 +18,27 @@ npm run dev          # http://localhost:4321
 npm run build        # ./dist/ + sitemap-index.xml
 npm run preview      # servíruje ./dist/
 npm run astro check
-npm run check:links     # po buildu — najde interní odkazy mířící na neexistující stránku
-npm run check:formulas  # vzorce na přehledu vzorců musí sedět s tématy, na která odkazují
-npm run verify          # všechno najednou: astro check, čistý build, odkazy, vzorce
+npm test                   # unit testy čistých modulů (tests/*.test.ts)
+npm run lint               # Biome: lint + formátování
+npm run check:links        # po buildu — interní odkazy i #fragmenty mířící do prázdna
+npm run check:formulas     # vzorce na přehledu vzorců musí sedět s tématy, na která odkazují
+npm run check:frontmatter  # title, order, jedinečné slugy, jen známé klíče
+npm run check:content      # úrovně nadpisů, alt u obrázků, existující obrázky, osamělá čísla
+npm run verify             # všechno najednou z čistého stromu: test, lint, astro check, build a čtyři kontroly
 ```
 
-Verze v `package.json` se vykresluje v patičce webu, takže se zvedá s každou viditelnou
-změnou — pravidlo je v [`AGENTS.md`](AGENTS.md), stejně jako poznámka o cache, která umí
-po zásahu do `src/lib/**` tiše servírovat starý build.
+Verze v `package.json` se vykresluje v patičce webu. Před pushem s viditelnou změnou se zvedá
+o patch (`npm version patch --no-git-tag-version`, commit `chore: bump to vX.Y.Z`) — pravidla jsou
+v [`AGENTS.md`](AGENTS.md) a [`docs/workflow.md`](docs/workflow.md), stejně jako poznámka o cache, která
+umí po zásahu do `src/lib/**` tiše servírovat starý build. Jak se píšou studijní stránky, popisuje
+[`docs/writing-style.md`](docs/writing-style.md).
 
 ## Struktura
 
 ```
 src/
   content.config.ts     # kolekce se generují automaticky z src/content/* (Zod schema:
-                        # title, order, source, formulaRail)
+                        # title, order, source, formulaRail, book)
   content/<predmet>/**/*.md   # obsah — podsložka = kategorie v navigaci daného předmětu
   layouts/BaseLayout.astro    # hlavička, patička, OG/meta tagy, skip-link, klientské skripty
   pages/
@@ -65,8 +71,9 @@ scripts/
                          # jsou jen v git-ignorovaném archive-aliases.local.json, viz AGENTS.md
   check-links.mjs        # po buildu ověří, že žádný interní <a href> nevede do prázdna
   check-formulas.mjs     # ověří přehled vzorců proti stránkám témat
-  check-frontmatter.mjs  # title, číselný a jedinečný order, jedinečné slugy, známé klíče a tagy
-  check-content.mjs      # přeskočené úrovně nadpisů (h2 → h4) a obrázky bez alt
+  check-frontmatter.mjs  # title, číselný a jedinečný order, jedinečné slugy, jen známé klíče
+  check-content.mjs      # přeskočené úrovně nadpisů (h2 → h4), obrázky bez alt nebo bez souboru,
+                         # řádky, které jsou jen číslo s tečkou
 ```
 
 ## Pořadí a názvy předmětů a kategorií
@@ -91,19 +98,25 @@ s frontmatterem (povinný je jen `title`; dál `order`, `source`, `formulaRail`)
 
 **Převod z archivního souboru:**
 
-1. Přidej záznam do `scripts/manifest/<predmet>.json` ve tvaru
-   `{ "src": "<cesta ke zdrojovému souboru>", "dest": "<predmet>/<kategorie>/<slug>.md",
-   "title": "...", "order": 1 }`. Podsložka v `dest` určuje kategorii.
+1. Napiš manifest s **jedinou** položkou (např. `/tmp/import.json`) ve tvaru
+   `[{ "src": "archiv-1/<cesta ke zdrojovému souboru>", "dest": "<NN-predmet>/<NN-kategorie>/<NN-slug>.md",
+   "title": "...", "order": 1 }]`. `dest` je skutečná cesta pod `src/content/` včetně předpon `NN-`.
+   Konvertory přepíšou **každou** položku manifestu — celý `scripts/manifest/<predmet>.json` by přepsal
+   ručně učesané stránky. Záznam pak doplň i do `scripts/manifest/<predmet>.json` jako evidenci.
 2. Spusť konverzi (skripty samy přeskočí položky, na které nemají příponu):
    ```sh
-   node scripts/convert-docx.mjs scripts/manifest/<predmet>.json
-   scripts/.venv/bin/python scripts/convert-pdf.py scripts/manifest/<predmet>.json
+   node scripts/convert-docx.mjs /tmp/import.json
+   scripts/.venv/bin/python scripts/convert-pdf.py /tmp/import.json
    ```
-3. Výstup projdi a dorovnej ručně — konverze je začátek, ne hotová věc.
+3. Výstup projdi a dorovnej ručně podle [`docs/conversion.md`](docs/conversion.md) — konverze je začátek,
+   ne hotová věc.
 
 ## Volitelné klíče ve frontmatteru
 
 - `formulaRail: false` — stránka z řešených příkladů, vpravo se nezobrazí „Klíčové vzorce“.
+- `book: true` — celá kniha v `01-cj/07-knihovna`, stránka dostane čtečku (velikost písma, postup čtení).
+- `source` — jen u převedených stránek; ručně psané ho nemají. Jiné klíče (ani `tags`)
+  `check-frontmatter.mjs` nepustí.
 
 ## Poznámky ke kvalitě konverze
 
