@@ -75,7 +75,7 @@ const base = shown.length ? Math.min(...shown.map((h) => h.depth)) : 1;
 		{
 			shown.length > 0 && (
 				<section class="rail-section">
-					<p class="rail-title panel-label">Obsah</p>
+					<p class="rail-title panel-label"><span>Obsah</span></p>
 					<ul class="rail-toc" data-toc>
 						{shown.map((h) => (
 							<li class={`toc-depth-${Math.min(h.depth - base + 2, 3)}`}>
@@ -90,7 +90,7 @@ const base = shown.length ? Math.min(...shown.map((h) => h.depth)) : 1;
 		{
 			hasFormulas && (
 				<section class="rail-section">
-					<p class="panel-label">Klíčové vzorce</p>
+					<p class="panel-label"><span>Klíčové vzorce</span></p>
 					<ul class="rail-formulas" data-formulas />
 				</section>
 			)
